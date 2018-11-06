@@ -2,7 +2,6 @@
 Description: This section contains information about the Windows Imaging Component (WIC) constants, enumerations, and flags.
 ms.assetid: a3f44919-bd55-48cf-9dc6-37de0059a639
 title: Constants, Enumerations, and Flags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: dhcp-Flags attribute
 description: The dhcp-Flags attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 61eed518-1a31-49a6-a66f-a9d6019ce6e1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

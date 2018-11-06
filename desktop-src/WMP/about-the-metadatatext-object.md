@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,MetadataText object
 - Windows Media Player Mobile,MetadataText object
 - MetadataText object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

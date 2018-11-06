@@ -1,9 +1,6 @@
 ---
 title: Address-Syntax attribute
 description: A grammar for encoding the display table properties as a string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 809981da-8572-4a9f-a4c3-06cff95c8bdc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Address-Syntax
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

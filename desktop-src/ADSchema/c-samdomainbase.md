@@ -1,9 +1,6 @@
 ---
 title: Sam-Domain-Base class
 description: Base class for defining domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4d9903cd-0c2f-45eb-bc73-2e30fc18552e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sam-Domain-Base
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: CB_RESOURCE_TYPE enumeration
 description: Specifies the type of resource that the incoming connection is connecting to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 80D921BF-2D84-4A18-9544-50087B81F177
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

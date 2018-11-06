@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientNonScriptable4 Properties
 description: The IMsRdpClientNonScriptable4 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F1920A03-F19B-4060-8AAC-B7BD2EFA5F30
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

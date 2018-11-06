@@ -2,7 +2,6 @@
 Description: The FindMediaFile method searches for a file and, if successful, retrieves the path to the file.
 ms.assetid: ddfa2c75-e51f-4aad-afe6-8a60c46e8d35
 title: IMediaLocator::FindMediaFile method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

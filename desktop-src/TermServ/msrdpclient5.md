@@ -1,9 +1,6 @@
 ---
 title: MsRdpClient5 class
 description: Microsoft RDP Client Control (redistributable) - version 6.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 30DC49A8-A9B1-4F74-B578-5761FA0C1315
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

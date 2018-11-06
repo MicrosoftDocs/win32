@@ -1,7 +1,6 @@
 ---
 Description: 'This topic is organized as follows:'
 title: Best Practices for Shortcut Menu Handlers and Multiple Verbs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

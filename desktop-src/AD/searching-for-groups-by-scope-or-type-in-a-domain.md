@@ -1,14 +1,10 @@
 ---
 title: Searching for Groups by Scope or Type in a Domain
 description: In Windows 2000 domains, there is single class called group for all group scopes (Domain Local, Global, Universal) and types (security, distribution).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e32629d9-aa62-4953-aa49-43af726b7deb
 ms.tgt_platform: multiple
 keywords:
 - Searching for Groups by Scope or Type in a Domain AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

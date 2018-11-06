@@ -1,9 +1,6 @@
 ---
 title: System-Auxiliary-Class attribute
 description: A list of auxiliary classes that cannot be modified by the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6d629925-7321-4f3a-bf4c-4adf0d33c946
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - System-Auxiliary-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

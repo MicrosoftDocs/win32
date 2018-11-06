@@ -2,7 +2,6 @@
 Description: Opens the specified folder.
 ms.assetid: 30FE669A-4AFD-4dfa-9F62-E62E744469C7
 title: IShellDispatch.Open method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

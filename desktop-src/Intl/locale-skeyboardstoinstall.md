@@ -2,7 +2,6 @@
 Description: LOCALE\_SKEYBOARDSTOINSTALL
 ms.assetid: 67bb616f-319b-42ab-969e-009258ec458d
 title: LOCALE_SKEYBOARDSTOINSTALL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

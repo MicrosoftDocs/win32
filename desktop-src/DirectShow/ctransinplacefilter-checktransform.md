@@ -2,7 +2,6 @@
 Description: The CheckTransform method checks whether an input media type is compatible with an output media type. This method overrides the CTransformFilter::CheckTransform method.
 ms.assetid: d0953014-4a49-4738-a449-c247396a6794
 title: CTransInPlaceFilter.CheckTransform method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

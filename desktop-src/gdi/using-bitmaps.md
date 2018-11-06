@@ -2,7 +2,6 @@
 Description: Using Bitmaps
 ms.assetid: c58560dc-0263-4054-9230-aa6c3a82a016
 title: Using Bitmaps
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

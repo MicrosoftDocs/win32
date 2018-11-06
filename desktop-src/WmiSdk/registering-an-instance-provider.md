@@ -1,12 +1,8 @@
 ---
 Description: To create a WMI instance provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_InstanceProviderRegistration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ac8e964-606f-4010-84a8-7c0ae6ca2133
 ms.tgt_platform: multiple
 title: Registering an Instance Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

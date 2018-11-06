@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 AudioCaptureRedirectionMode property
 description: Specifies or retrieves a Boolean value that indicates whether the default audio input device is redirected from the client to the remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e75add5e-4652-41a7-b2cb-2c60793cd079
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

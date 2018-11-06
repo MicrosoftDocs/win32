@@ -2,7 +2,6 @@
 Description: Retrieves the name of the manufacturer of this hardware device.
 ms.assetid: be8c91ea-eaf8-45d5-801d-ad02db3634f1
 title: DeviceInfo.Manufacturer property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Returns a Boolean value that indicates whether the private key is exportable.
 ms.assetid: 56e72747-126d-4bb4-ac10-ced0acef388b
 title: PrivateKey.IsExportable method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

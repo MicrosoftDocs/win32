@@ -2,7 +2,6 @@
 title: IBackgroundCopyManager Methods
 description: The IBackgroundCopyManager interface exposes the following methods.
 ms.assetid: 2A91E7B0-BA4F-4EDF-8A75-CB95601E8083
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

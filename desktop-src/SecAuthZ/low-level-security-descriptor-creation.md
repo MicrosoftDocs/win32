@@ -2,7 +2,6 @@
 Description: Functions for creating a security descriptor and getting and setting the components of a security descriptor.
 ms.assetid: d07dab5a-7c06-40c4-aa59-fa0baaaa77e7
 title: Low-level Security Descriptor Creation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

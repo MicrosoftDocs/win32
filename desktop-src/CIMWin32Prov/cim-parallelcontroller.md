@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ParallelController association relates to the capabilities and management of the parallel port logical device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c05e79b6-f3a6-48cc-a831-b67e216f43eb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ParallelController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -51,7 +45,7 @@ api_location:
 
 The **CIM\_ParallelController** association relates to the capabilities and management of the parallel port logical device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

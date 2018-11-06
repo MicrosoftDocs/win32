@@ -2,7 +2,6 @@
 Description: Defines an effect DWORD. This template replaced the EffectDWord template.
 ms.assetid: d5a4f062-43e4-476c-9a65-05274dbea741
 title: EffectParamDWord
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

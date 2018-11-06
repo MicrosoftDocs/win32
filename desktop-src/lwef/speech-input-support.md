@@ -2,7 +2,6 @@
 title: Speech Input Support
 description: Speech Input Support
 ms.assetid: 4702b941-fcc9-4d00-aba2-eca624b6d417
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

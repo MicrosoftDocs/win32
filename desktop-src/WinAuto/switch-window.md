@@ -2,7 +2,6 @@
 title: Switch Window (MSAA UI Element Reference)
 description: The switch window displays whenever a user presses ALT+TAB to switch to a different application. The switch window contains an icon for each application currently running.
 ms.assetid: 77b32eb1-7722-410b-b141-ac09fc7fdffb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: UI Automation for W3C Accessible Rich Internet Applications Specification
 description: Websites increase their utility with dynamic content and advanced UI controls supported by technologies like Asynchronous JavaScript and XML (AJAX), DHTML, and JavaScript.
 ms.assetid: f400ad09-d15e-415b-b072-c28e728e27a0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

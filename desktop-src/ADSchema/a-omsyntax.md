@@ -1,9 +1,6 @@
 ---
 title: OM-Syntax attribute
 description: A number that represents the OM type for the attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c3af8f2-afa5-475c-82d8-5d3efb5b72ce
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - OM-Syntax
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

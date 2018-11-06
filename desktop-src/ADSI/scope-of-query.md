@@ -1,15 +1,11 @@
 ---
 title: Scope of Query
 description: The scope of a query is determined by the object to which you bind.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ece8599-8a4b-45a1-95f4-a4180052f245
 ms.tgt_platform: multiple
 keywords:
 - scope of query ADSI
 - queries ADSI , scope
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

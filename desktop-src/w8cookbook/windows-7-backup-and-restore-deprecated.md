@@ -2,7 +2,6 @@
 title: Windows 7 Backup and Restore deprecated
 description: Windows 7 Backup and Restore deprecated
 ms.assetid: 89FB9C1B-FEE8-4508-9501-EA139F3706F7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

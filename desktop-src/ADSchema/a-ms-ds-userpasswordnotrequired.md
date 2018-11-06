@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Password-Not-Required attribute
 description: Indicates whether a password is required for the account that this attribute references.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 86779c6f-d05c-409a-afe4-99ebf7c0593e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Password-Not-Required
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

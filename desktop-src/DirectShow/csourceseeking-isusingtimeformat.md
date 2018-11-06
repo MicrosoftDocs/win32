@@ -2,7 +2,6 @@
 Description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use.
 ms.assetid: 86965bfc-fc9f-42d3-bcaa-2049195b98bd
 title: CSourceSeeking.IsUsingTimeFormat method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

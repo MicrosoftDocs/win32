@@ -2,7 +2,6 @@
 title: Hazard tracking versus tile pool resources
 description: For non-tiled resources, Direct3D can prevent certain hazard conditions during rendering, but because hazard tracking would be at a tile level for tiled resources, tracking hazard conditions during rendering of tiled resources might be too expensive.
 ms.assetid: 4106BAB9-3E0C-48F1-B7E2-565A65DBC78F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

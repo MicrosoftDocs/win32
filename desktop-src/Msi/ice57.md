@@ -2,7 +2,6 @@
 Description: ICE57 validates that individual components do not mix per-machine and per-user data. This ICE custom action checks registry entries, files, directory key paths, and non-advertised shortcuts.
 ms.assetid: 3c82efa7-9cf3-4bcd-8ec4-b81d1d7aa0a6
 title: ICE57
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

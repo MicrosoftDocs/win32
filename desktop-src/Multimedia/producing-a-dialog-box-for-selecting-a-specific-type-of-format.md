@@ -12,7 +12,6 @@ keywords:
 - ACM (audio compression manager),selecting format types
 - ACM examples,selecting format types
 - selecting format types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

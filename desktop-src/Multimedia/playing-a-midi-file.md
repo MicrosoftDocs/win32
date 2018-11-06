@@ -2,7 +2,6 @@
 title: Playing a MIDI File
 description: Playing a MIDI File
 ms.assetid: a11b432f-de31-4637-a9cd-eef5fad7591a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

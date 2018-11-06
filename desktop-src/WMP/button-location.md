@@ -7,7 +7,6 @@ keywords:
 - skins,button location
 - reference for skins,buttons
 - buttons in skins,location
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

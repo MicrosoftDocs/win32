@@ -2,7 +2,6 @@
 title: Data Transfer Interfaces
 description: Data Transfer Interfaces
 ms.assetid: c42e65a4-7b77-4f39-8323-04fa60c5b140
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

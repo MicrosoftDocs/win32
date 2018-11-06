@@ -7,7 +7,6 @@ keywords:
 - DWM (Desktop Window Manager),reference
 - Desktop Window Manager (DWM),structures
 - DWM (Desktop Window Manager),structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

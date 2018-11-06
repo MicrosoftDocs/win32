@@ -1,9 +1,6 @@
 ---
 title: ms-DS-KrbTgt-Link attribute
 description: Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08c3e50f-7f2a-4746-86b6-77780316679c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-KrbTgt-Link
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

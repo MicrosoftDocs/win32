@@ -2,7 +2,6 @@
 Description: Projects an array (x, y, z, 0) from object space into screen space.
 ms.assetid: 33f0f65a-c027-4a31-83a7-f5f6b2a2f72f
 title: D3DXVec3ProjectArray function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

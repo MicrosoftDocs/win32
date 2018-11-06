@@ -2,7 +2,6 @@
 title: ID Attribute (Path)(VML)
 description: ID Attribute (Path)(VML)
 ms.assetid: f0f3a526-d0e1-46f8-a85c-b99d27c3fdeb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

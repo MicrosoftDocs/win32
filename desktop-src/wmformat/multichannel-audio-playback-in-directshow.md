@@ -16,7 +16,6 @@ keywords:
 - DirectShow,audio playback
 - multichannel audio,playback
 - audio playback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

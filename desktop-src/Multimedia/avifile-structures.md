@@ -5,7 +5,6 @@ ms.assetid: 2b7cdbb6-8c53-49ad-a171-b58357531887
 keywords:
 - AVIFile reference,structures
 - reference for AVIFile,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

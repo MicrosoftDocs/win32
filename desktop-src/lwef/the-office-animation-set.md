@@ -2,7 +2,6 @@
 title: The Office Animation Set
 description: The Office Animation Set
 ms.assetid: ea80d19b-bf4c-4f6e-bab0-424a9f78f457
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

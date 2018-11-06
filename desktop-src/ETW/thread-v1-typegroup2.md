@@ -2,7 +2,6 @@
 Description: This class is the event type class for thread end events. The following syntax is simplified from MOF code.
 ms.assetid: c495bf22-04ce-4285-8e7e-152e4ab65823
 title: Thread_V1_TypeGroup2 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

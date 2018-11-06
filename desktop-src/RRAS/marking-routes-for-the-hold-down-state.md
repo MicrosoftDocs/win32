@@ -2,7 +2,6 @@
 title: Marking Routes for the Hold-Down State
 description: Some clients, such as distance vector protocols like RIP and DVMRP, require that destinations be advertised as unreachable for a certain time after the last route to the destination is deleted.
 ms.assetid: 2a86c092-d8a6-4fd4-8b2e-451c160f743f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

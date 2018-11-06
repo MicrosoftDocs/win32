@@ -2,7 +2,6 @@
 Description: Each smart card known to the system may have a registered COM interface listed as its primary service provider.
 ms.assetid: 4ce06b98-a2d0-46eb-9a6e-473f6c21499b
 title: Primary Service Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

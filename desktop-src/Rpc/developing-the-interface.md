@@ -4,7 +4,6 @@ description: An RPC interface describes the remote functions that the server pro
 ms.assetid: f0dfe9d1-fe84-461c-8684-147fbd0bdefe
 keywords:
 - Remote Procedure Call RPC , tasks, developing the interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Progressive Disclosure Controls
 description: With a progressive disclosure control, users can show or hide additional information including data, options, or commands.
 ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

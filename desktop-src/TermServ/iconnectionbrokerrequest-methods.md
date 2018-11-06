@@ -1,12 +1,8 @@
 ---
 title: IConnectionBrokerRequest methods
 description: These are the methods implements on the IConnectionBrokerRequest interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2C2A82AD-B372-4508-8069-69B862B91866
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

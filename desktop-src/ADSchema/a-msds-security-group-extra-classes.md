@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Security-Group-Extra-Classes attribute
 description: The common names of the nonstandard classes that can be added to a security group through the Active Directory Users and Computers snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3808cb03-3d54-46ca-bad8-23120ed2ca07
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Security-Group-Extra-Classes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

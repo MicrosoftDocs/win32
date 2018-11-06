@@ -2,7 +2,6 @@
 title: dcl_input vPrim (sm4 - asm)
 description: dcl\_input vPrim (sm4 - asm)
 ms.assetid: 75287673-21d6-4eb7-829f-7f2f340aec54
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

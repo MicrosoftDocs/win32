@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,DVD object
 - Windows Media Player Mobile,DVD object
 - DVD object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

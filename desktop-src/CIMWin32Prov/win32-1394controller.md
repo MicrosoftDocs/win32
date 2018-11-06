@@ -1,14 +1,8 @@
 ---
 Description: Represents the capabilities and management of a 1394 controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5297b1d1-65b5-4bb7-add4-9dc07b4ddc6c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_1394Controller class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

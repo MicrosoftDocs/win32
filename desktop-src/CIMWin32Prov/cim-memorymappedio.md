@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MemoryMappedIO class represents computer architecture memory-mapped I/O. This class addresses memory and port I/O resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cf418cd0-1ace-4d86-a878-65e81771787e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MemoryMappedIO class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -36,7 +30,7 @@ api_location:
 
 The **CIM\_MemoryMappedIO** class represents computer architecture memory-mapped I/O. This class addresses memory and port I/O resources.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

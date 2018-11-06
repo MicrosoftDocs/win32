@@ -2,7 +2,6 @@
 title: Registering the DLL Server for Surrogate Activation
 description: Registering the DLL Server for Surrogate Activation
 ms.assetid: 7133daa4-43b2-402e-a8ac-b357bea745d9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - reference for skins,trackbars
 - trackbars in skins,types
 - thumb,trackbar type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

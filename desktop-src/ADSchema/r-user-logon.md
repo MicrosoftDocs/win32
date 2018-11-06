@@ -1,9 +1,6 @@
 ---
 title: User-Logon property set
 description: Property set containing user attributes that describe user logon information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 93d1af8d-f4d0-4aed-a03d-a2f34dd7ec37
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - User-Logon
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: List Box Notifications
 description: .
 ms.assetid: 933cf4f6-9796-427f-a5f4-c01090554154
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

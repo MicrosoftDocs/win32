@@ -2,7 +2,6 @@
 Description: The NULL predicate indicates whether the document has a value for the indicated column.
 ms.assetid: 078ffd99-2020-4da2-8968-301dba8cc436
 title: NULL Predicate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -22,7 +21,7 @@ The **NULL** predicate has the following syntax:
 
 The optional NOT keyword negates the result. The column can be a regular or delimited [identifier](-search-sql-identifiers.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To test whether a column has the **NULL** value, you must use the **NULL** predicate. It is not valid to use the **NULL** value in a comparison predicate. "WHERE column IS **NULL**" is correct. "WHERE column = **NULL**" is not valid.
 
  

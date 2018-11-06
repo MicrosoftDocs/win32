@@ -1,14 +1,10 @@
 ---
 title: About Remote Desktop Services
 description: Remote Desktop Services (formerly known as Terminal Services) provides functionality similar to a terminal-based, centralized host, or mainframe, environment in which multiple terminals connect to a host computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5b5b0f97-f973-4f52-a965-c9c2390e6c8d
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: An explicit Application User Model ID (AppUserModelID) used to associate processes, files, and windows with a particular application.
 ms.assetid: 07858b3c-e601-40ec-a87a-d66612d5473a
 title: System.AppUserModel.ID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

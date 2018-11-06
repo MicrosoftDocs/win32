@@ -1,9 +1,6 @@
 ---
 title: String(UTC-Time) syntax
 description: A time string format defined by ASN.1 standards.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0fd52c59-a940-4d61-a16b-cd1853f5c348
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(UTC-Time)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

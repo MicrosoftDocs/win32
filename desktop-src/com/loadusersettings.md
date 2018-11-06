@@ -4,7 +4,6 @@ description: Determines whether COM will load the user profile for COM servers r
 ms.assetid: 3e2b3249-3747-4d98-96da-f3e480a51d12
 keywords:
 - LoadUserSettings registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

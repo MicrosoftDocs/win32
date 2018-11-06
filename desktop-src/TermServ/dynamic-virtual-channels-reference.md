@@ -1,14 +1,10 @@
 ---
 title: Dynamic virtual channels reference
 description: Dynamic virtual channel (DVC) client interfaces are supported by Remote Desktop Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 00cb7813-1d86-4faa-8b46-081959e4acfa
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , dynamic virtual channels reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: e98bf6ca-0572-419b-8bc0-bc0239f8a6ff
 title: System.Media.SubTitle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

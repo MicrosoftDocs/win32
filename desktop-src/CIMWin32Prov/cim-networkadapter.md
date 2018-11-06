@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_NetworkAdapter class is an abstract class that defines general networking hardware concepts (for example, permanent address or speed of operation). The information is conveyed using the CIM\_DeviceSAPImplementation association.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd44e05a-1124-42c2-aa69-340c06da35a2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_NetworkAdapter class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -52,7 +46,7 @@ The **CIM\_NetworkAdapter** class is an abstract class that defines general netw
 
 Network adapters and related endpoints represent the potential for connectivity among peers. The potential for connectivity is significantly different from the master or subordinate and controller or controlled-by relationships of [**CIM\_Controller**](cim-controller.md). Occasionally, however, a single device acts as both a network adapter and a controller, for example, when a fiber channel adapter operates as a computer system's SCSI controller. In which case, aspects of the device are network oriented and others are controller oriented. The controller and adapter classes should be instantiated and a device identity relationship should also be created to link the different aspects of the device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

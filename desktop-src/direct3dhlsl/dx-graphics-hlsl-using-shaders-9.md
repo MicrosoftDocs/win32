@@ -2,7 +2,6 @@
 title: Using Shaders in Direct3D 9
 description: Using Shaders in Direct3D 9
 ms.assetid: 8d8f5124-fbf3-4af5-8399-43ba28aa6eb9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

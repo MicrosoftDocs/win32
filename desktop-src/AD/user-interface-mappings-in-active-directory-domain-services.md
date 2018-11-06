@@ -1,12 +1,8 @@
 ---
 title: User Interface Mappings in Active Directory Domain Services
 description: The user interface for Active Directory Domain Services includes property sheets and other user interfaces for setting and retrieving the attributes of commonly used classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a283e324-7057-4edc-ba28-dc002af40df3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Verifying the Output Device
 ms.assetid: b5a45edd-8f35-44ae-964d-0451f100ca80
 keywords:
 - MCI_ STATUS command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

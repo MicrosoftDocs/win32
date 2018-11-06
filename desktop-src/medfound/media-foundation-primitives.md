@@ -2,7 +2,6 @@
 Description: Media Foundation defines several basic object types that are used throughout the Media Foundation APIs.
 ms.assetid: 581340b2-9c7f-43c4-9c7b-47d76fd1c45c
 title: Media Foundation Primitives
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

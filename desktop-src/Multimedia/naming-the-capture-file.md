@@ -5,7 +5,6 @@ ms.assetid: fae2fd6a-4c2f-432f-a714-9faae6daeafe
 keywords:
 - capFileSetCaptureFile macro
 - capFileAlloc macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

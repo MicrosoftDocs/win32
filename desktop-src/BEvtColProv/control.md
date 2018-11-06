@@ -1,14 +1,8 @@
 ---
 Description: Control of the collector instance. Requires the Administrator (BA) privileges.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83b485b2-b03b-4882-a3ff-187eac299755
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

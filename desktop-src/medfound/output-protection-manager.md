@@ -2,7 +2,6 @@
 Description: Output Protection Manager (OPM) enables an application to protect video content as it travels over a physical connector to a display device.
 ms.assetid: daae615b-37c4-4044-91c6-693357e0016a
 title: Output Protection Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

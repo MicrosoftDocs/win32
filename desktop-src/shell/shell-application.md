@@ -2,7 +2,6 @@
 Description: Contains the object's Application object.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: Shell.Application property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

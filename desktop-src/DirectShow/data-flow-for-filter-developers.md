@@ -2,7 +2,6 @@
 Description: Data Flow for Filter Developers
 ms.assetid: cc7378c8-e268-4caa-98eb-6dc9c3b5bcad
 title: Data Flow for Filter Developers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

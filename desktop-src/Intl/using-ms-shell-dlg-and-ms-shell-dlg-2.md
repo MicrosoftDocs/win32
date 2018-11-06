@@ -2,7 +2,6 @@
 Description: Using MS Shell Dlg and MS Shell Dlg 2
 ms.assetid: ac3b57a6-5b92-4366-ad71-c501cec60997
 title: Using MS Shell Dlg and MS Shell Dlg 2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: XMINT2 describes a 2D vector consisting of two integer values.
 ms.assetid: de42c75b-fd8d-4888-9673-370930d98fb5
 title: XMINT2 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

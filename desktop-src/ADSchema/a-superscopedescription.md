@@ -1,9 +1,6 @@
 ---
 title: Super-Scope-Description attribute
 description: This attribute provides a description for a superscope.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5c0fee2e-abef-4bb8-82e8-8b474cbecd2a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Super-Scope-Description
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

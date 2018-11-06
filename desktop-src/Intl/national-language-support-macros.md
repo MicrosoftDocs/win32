@@ -2,7 +2,6 @@
 Description: 'NLS provides the following macros: IS\_HIGH\_SURROGATEIS\_LOW\_SURROGATEIS\_SURROGATE\_PAIRLANGIDFROMLCIDMAKELANGIDMAKELCIDMAKESORTLCIDPRIMARYLANGIDSORTIDFROMLCIDSORTVERSIONFROMLCIDSUBLANGID'
 ms.assetid: 45440464-0628-473b-861a-e8be7452700c
 title: National Language Support Macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section contains information about the enumerations used in ink analysis.
 ms.assetid: 536f743d-bfff-4607-a92c-f29e49881b76
 title: Ink Analysis Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

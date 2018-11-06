@@ -1,14 +1,8 @@
 ---
 Description: Resumes a paused print queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6d6d21e9-f469-4e2c-9a89-3e9febe229fc
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Resume method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

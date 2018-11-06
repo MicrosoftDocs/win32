@@ -1,9 +1,6 @@
 ---
 title: MS-TS-Property01 attribute
 description: Reserved for future use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 273d720c-5cce-4c26-a765-5a669e0e3237
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-Property01
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

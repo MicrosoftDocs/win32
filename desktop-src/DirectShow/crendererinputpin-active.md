@@ -2,7 +2,6 @@
 Description: The Active method notifies the pin that the filter is now active. This method overrides the CBasePin::Active method.
 ms.assetid: 2e0c773a-1165-4da2-8acc-fe553663408d
 title: CRendererInputPin.Active method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The side-by-side assembly API uses the following enumerations.
 ms.assetid: e35ca5c8-74bc-4c79-9813-24ff3b4ea631
 title: Side-by-Side Assembly Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

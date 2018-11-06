@@ -1,9 +1,6 @@
 ---
 title: FRS-Update-Timeout attribute
 description: The maximum time, in minutes, to wait to complete an update before giving up.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c06510e-d4a8-42f8-bf81-13a9f103e237
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Update-Timeout
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

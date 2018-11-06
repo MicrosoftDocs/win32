@@ -2,7 +2,6 @@
 Description: Associates an instance of a resource allocation with the resource pool from which it is allocated.
 ms.assetid: A2B3996D-7886-4B5F-BC89-EFDC1A48249B
 title: Msvm_ResourceAllocationFromPool class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

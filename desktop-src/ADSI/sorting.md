@@ -1,12 +1,8 @@
 ---
 title: Sorting
 description: A client can request a server to sort the result set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 795d27f0-0bfa-417e-aa1f-f2471f92dc45
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

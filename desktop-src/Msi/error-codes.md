@@ -2,7 +2,6 @@
 Description: These error codes are returned by the Windows Installer functions MsiExec.exe and InstMsi.exe.
 ms.assetid: 9ea81ef3-a5b5-4d13-b0b8-3da6e919315e
 title: MsiExec.exe and InstMsi.exe Error Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

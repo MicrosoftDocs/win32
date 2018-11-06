@@ -1,9 +1,6 @@
 ---
 title: RefreshCertContext method of the Win32_TSGatewayServerSettings class
 description: Refreshes the certificate that is used by the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: caefeb85-1c7a-4868-9ee8-10ab09354595
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Server Data Objects Interfaces
 description: The Server Data Objects (SDO) API exposes the following interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7b8c59d-91a2-4dfd-a119-ecfd08dcd7aa
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

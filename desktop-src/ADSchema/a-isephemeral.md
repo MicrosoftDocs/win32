@@ -1,9 +1,6 @@
 ---
 title: Is-Ephemeral attribute
 description: The Is-Ephemeral attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af97f5cd-f7c1-40b9-a324-0820d0098751
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Ephemeral
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

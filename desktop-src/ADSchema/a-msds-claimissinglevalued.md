@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Is-Single-Valued attribute
 description: For a claim type object, this attribute identifies if the claim type or resource property can only contain single value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e4b42a41-6275-4575-88a4-77c3bbcfc161
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Is-Single-Valued
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

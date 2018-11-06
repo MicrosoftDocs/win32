@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,sending ASF data
 - Advanced Systems Format (ASF),sending data
 - ASF (Advanced Systems Format),sending data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

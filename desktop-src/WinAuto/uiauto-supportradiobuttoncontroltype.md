@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for RadioButton control type
 - control types,support for RadioButton
 - control types,RadioButton
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

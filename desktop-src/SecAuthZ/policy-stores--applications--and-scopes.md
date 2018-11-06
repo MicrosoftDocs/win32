@@ -2,7 +2,6 @@
 Description: Authorization policy stores, applications, and scopes represent different levels of organization of Authorization Manager policy.
 ms.assetid: 235f236d-59c9-4a8c-aec6-60d1ddba4d5d
 title: Policy Stores, Applications, and Scopes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

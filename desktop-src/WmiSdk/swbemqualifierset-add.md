@@ -1,12 +1,8 @@
 ---
 Description: The Add method of the SWbemQualifierSet object adds an SWbemQualifier object to the SWbemQualifierSet collection. If a qualifier with the same name already exists in the collection, it is replaced.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8f4c4da2-4890-4515-a3dc-76d154dae43c
 ms.tgt_platform: multiple
 title: SWbemQualifierSet.Add method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Device Host API Reference
 description: The following interfaces are part of the Device Host API with UPnP technology. The Device Host with UPnP technology supports Microsoft Visual Basic and C++.
 ms.assetid: 48e20a09-7e78-4b8d-aa16-78751b6fb586
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

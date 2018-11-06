@@ -1,9 +1,6 @@
 ---
 title: OEM-Information attribute
 description: For holding OEM information. No longer used. Here for backward compatibility.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d456f9e0-da88-4f3a-897a-1a9f42f4b7b9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - OEM-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

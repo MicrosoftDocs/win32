@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-AllowQueuedUpdatingSubscription attribute
 description: True to allow queued transactions when updating subscriptions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 132c107f-8586-48db-b70c-027c619aadf7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-AllowQueuedUpdatingSubscription
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

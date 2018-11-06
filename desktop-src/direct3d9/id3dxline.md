@@ -2,7 +2,6 @@
 Description: The ID3DXLine interface implements line drawing using textured triangles.
 ms.assetid: 87472618-d3e4-4008-9009-ae17fc7b696d
 title: ID3DXLine interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Synchronized Accessible Media Interchange (SAMI) is a format for adding captions to digital media.
 ms.assetid: 007c8181-089e-4e56-a31d-9d1942f90b07
 title: SAMI Media Source
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

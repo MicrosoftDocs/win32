@@ -2,7 +2,6 @@
 Description: Credential Providers in Windows 10
 ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Credential Providers in Windows 10
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -49,7 +48,7 @@ Credential providers are registered on a Windows machine and are responsible for
 -   Handling the communication and logic with any external authentication authorities.
 -   Packaging the credentials for interactive and network logon.
 
-> \[!Tip\]
+> [!TIP]
 >
 > Keep in mind that multiple credential providers can be installed on a single machine.
 

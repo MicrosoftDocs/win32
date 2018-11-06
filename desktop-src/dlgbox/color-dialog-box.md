@@ -20,7 +20,6 @@ keywords:
 - hooks,Color dialog box
 - predefined dialog boxes
 - dialog boxes,Color
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Posix-Member attribute
 description: Contains the DN display name of the user's part of a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3e9f703d-6666-4fa5-8116-d77fee0dd98e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Posix-Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

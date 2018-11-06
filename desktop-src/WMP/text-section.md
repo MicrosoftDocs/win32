@@ -9,7 +9,6 @@ keywords:
 - writing code for skins,Text section
 - text in skins,Text section
 - skin definition files,Text section
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

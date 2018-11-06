@@ -1,9 +1,6 @@
 ---
 title: GetRegisteredLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Gets the list of registered license servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 32e06b4b-652f-4977-be1f-6d52983d2605
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

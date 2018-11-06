@@ -2,7 +2,6 @@
 Description: The FindPropertyInstance function finds the first instance of the property specified by the hProperty parameter.
 ms.assetid: e994503d-2f32-4fa2-bba9-ff66c9d558dc
 title: FindPropertyInstance function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

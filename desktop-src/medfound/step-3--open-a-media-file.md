@@ -2,7 +2,6 @@
 Description: This topic is step 3 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: cc0d2b60-64d7-49f3-844f-97487cab8466
 title: 'Step 3: Open a Media File'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

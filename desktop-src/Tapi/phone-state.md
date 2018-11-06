@@ -2,7 +2,6 @@
 Description: TAPI sends the PHONE\_STATE message to an application whenever the status of a phone device changes.
 ms.assetid: 74e74b62-8387-4056-83e6-2350b3da4077
 title: PHONE_STATE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

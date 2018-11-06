@@ -1,14 +1,10 @@
 ---
 title: Enabling Schema Changes at the Schema Master
 description: By default, schema modification is disabled on all Windows 2000 domain controllers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08806a9e-283c-48d9-9557-bcb9719fc13c
 ms.tgt_platform: multiple
 keywords:
 - Enabling Schema Changes at the Schema Master AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

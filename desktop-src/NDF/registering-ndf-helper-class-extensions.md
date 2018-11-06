@@ -2,7 +2,6 @@
 title: Registering NDF Helper Class Extensions
 description: Each helper class extension has a number of registry keys associated with it. Some keys are required by COM, and some keys are required by NDF.
 ms.assetid: 9ff3266d-5ffc-4a00-be24-2f85461c6ea6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

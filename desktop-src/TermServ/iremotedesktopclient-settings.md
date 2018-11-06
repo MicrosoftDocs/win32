@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClient Settings property
 description: Retrieves the settings object for the Remote Desktop Protocol (RDP) app container client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 59999489-9ad0-4b85-9643-3b8355b817c2
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

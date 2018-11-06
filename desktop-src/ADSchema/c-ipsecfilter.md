@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Filter class
 description: Represents an IPSec filter, which is used to create security policies such as those that block ports and protocols.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8b37335e-6ed1-4f60-8f6c-1b6cfdf1f3e7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Filter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

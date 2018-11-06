@@ -2,7 +2,6 @@
 title: Record and View TraceLogging Events
 description: Record TraceLogging events with the Windows Performance Recorder (WPR) and view them with the Windows Performance Analyzer (WPA).
 ms.assetid: 906589FA-F48D-4105-9E56-1EC8B86542FB
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -16,7 +15,7 @@ Record TraceLogging events with the Windows Performance Recorder (WPR) and view 
 -   Windows 10
 -   The Windows 10 version of Windows Performance Recorder (WPR), and the Windows 10 version of Windows Performance Analyzer (WPA) which is art of the Windows® Assessment and Deployment Kit (Windows ADK).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Traces captured with TraceLogging must be captured with the Windows 10 version of Windows Performance Recorder and viewed with the Windows 10 version of Windows Performance Analyzer. If you are unable to capture or decode your events, verify that you are using the Windows 10 version of the tools.
 
  

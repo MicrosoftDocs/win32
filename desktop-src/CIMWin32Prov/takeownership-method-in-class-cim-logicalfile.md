@@ -1,14 +1,8 @@
 ---
 Description: The TakeOwnerShip method obtains ownership of the logical file specified in the object path. If the logical file is a directory, then this method acts recursively, taking ownership of all files and sub-directories that the directory contains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5db62da0-ac93-4a8c-af17-306e02bfa756
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the CIM_LogicalFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **TakeOwnerShip** method obtains ownership of the logical file specified in the object path. If the logical file is a directory, then this method acts recursively, taking ownership of all files and sub-directories that the directory contains.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

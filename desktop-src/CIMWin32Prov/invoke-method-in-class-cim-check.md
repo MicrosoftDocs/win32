@@ -1,14 +1,8 @@
 ---
 Description: The Invoke method of the CIM\_Check class evaluates a particular check.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cf1adeb2-f8a2-4f84-978f-e801bce104ac
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Check class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ The **Invoke** method of the [**CIM\_Check**](cim-check.md) class evaluates a pa
 
 For more information about how the method evaluates a particular check in a CIM context, see the non-abstract [**CIM\_Check**](cim-check.md) subclasses.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

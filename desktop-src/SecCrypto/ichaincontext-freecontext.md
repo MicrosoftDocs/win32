@@ -2,7 +2,6 @@
 Description: Releases a PCCERT\_CHAIN\_CONTEXT acquired through the ChainContext property.
 ms.assetid: fa9a6171-58ff-400f-bdcc-ba32a0ae0441
 title: IChainContext::FreeContext method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

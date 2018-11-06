@@ -4,7 +4,6 @@ description: It is often necessary to maintain state on the server between separ
 ms.assetid: f76ec489-f48e-473d-b519-3ac143d41fa4
 keywords:
 - Remote Procedure Call RPC , best practices, maintaining state between calls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

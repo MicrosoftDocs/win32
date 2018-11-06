@@ -2,7 +2,6 @@
 Description: Provides a list of all computers currently using Network Monitor to capture network data.
 ms.assetid: 57e7b8e1-99b8-4194-b6dc-401235be4ef4
 title: IRTC::QueryStations method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

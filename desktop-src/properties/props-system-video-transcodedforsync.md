@@ -2,7 +2,6 @@
 Description: Indicates the vertical portion of the aspect ratio.
 ms.assetid: B957A676-BC00-494c-A731-59237C98F5A5
 title: System.Video.TranscodedForSync
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

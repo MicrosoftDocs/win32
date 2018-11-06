@@ -2,7 +2,6 @@
 Description: MPEG Sample Properties
 ms.assetid: 339aab84-e5ad-4071-8b67-2b04cb17e450
 title: MPEG Sample Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

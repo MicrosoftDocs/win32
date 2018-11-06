@@ -1,12 +1,8 @@
 ---
 Description: The first type of object you can retrieve is a WMI class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

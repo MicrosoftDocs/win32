@@ -1,9 +1,6 @@
 ---
 title: SubSchemaSubEntry attribute
 description: The distinguished name for the location of the subschema object where a class or attribute is defined.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 16beeb31-436c-4ae1-b1f7-fa00abb3bcbb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SubSchemaSubEntry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

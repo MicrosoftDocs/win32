@@ -1,14 +1,10 @@
 ---
 title: Access Control and Read Operations
 description: Security is an implicit filter for searching, enumerating containers, or reading properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ee46cbc4-5539-48ce-991f-3ad0429f65ca
 ms.tgt_platform: multiple
 keywords:
 - Access Control and Read Operations AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

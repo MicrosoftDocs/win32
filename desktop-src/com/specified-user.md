@@ -2,7 +2,6 @@
 title: Specified User
 description: Specified User
 ms.assetid: ec7684fb-a9f1-4ef2-a7d4-07caf24b6023
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

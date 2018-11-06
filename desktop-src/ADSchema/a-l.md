@@ -1,9 +1,6 @@
 ---
 title: Locality-Name attribute
 description: Represents the name of a locality, such as a town or city.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d731a67d-5ce2-4bbd-8d69-f12785e4341c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Locality-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

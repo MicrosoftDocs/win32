@@ -15,7 +15,6 @@ keywords:
 - TSF (Text Services Framework),definitions
 - text services,definitions
 - TSF-enabled applications,definitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),querying input devices
 - recording MIDI audio,querying input devices
 - querying MIDI input devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

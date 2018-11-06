@@ -2,7 +2,6 @@
 title: How to Expose a Server-Side UI Automation Provider
 description: This topic contains example code that shows how to expose a server-side Microsoft UI Automation provider for a custom control.
 ms.assetid: 68bf16c7-fbab-478a-97be-47d1195028f3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

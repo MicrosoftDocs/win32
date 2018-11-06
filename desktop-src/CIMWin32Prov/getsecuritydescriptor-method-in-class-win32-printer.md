@@ -1,14 +1,8 @@
 ---
 Description: Returns the security descriptor that controls access to the printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c12ca35c-07b3-41ad-98c4-48ee584059d1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

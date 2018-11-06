@@ -2,7 +2,6 @@
 Description: Nickname of the contact.
 ms.assetid: c4470744-0f07-425e-a782-c12ec98af53d
 title: System.Contact.NickName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

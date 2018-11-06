@@ -1,16 +1,12 @@
 ---
 title: The Put Method
 description: Saves the value for a property for an Active Directory object by name into the property cache.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8534ceba-5fcb-441f-9e76-3060319478af
 ms.tgt_platform: multiple
 keywords:
 - Put ADSI ,about
 - ADSI ADSI ,example code Visual Basic ,using the Put method
 - properties ADSI ,saving a value for a property to property cache
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

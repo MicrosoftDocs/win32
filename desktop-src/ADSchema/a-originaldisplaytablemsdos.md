@@ -1,9 +1,6 @@
 ---
 title: Original-Display-Table-MSDOS attribute
 description: The MAPI (original) display table for an MSDOS address entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51233cab-e5d9-4a2a-8897-97be93ea195a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Original-Display-Table-MSDOS
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Valid-Accesses attribute
 description: The type of access that is permitted with an extended right.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: afb944ec-3b8f-41dd-8987-ed6c71f937ac
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Valid-Accesses
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

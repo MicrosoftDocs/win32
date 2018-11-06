@@ -2,7 +2,6 @@
 title: Device Host Security Considerations
 description: Using the device host creates security issues.
 ms.assetid: 7cb445ea-5df4-4030-babd-62527b4d6210
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

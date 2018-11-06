@@ -2,7 +2,6 @@
 Description: Gets the free disk space.
 ms.assetid: 4b7f4938-9918-4625-b28d-faf22de56976
 title: '_GetDiskFreeSpaceEx function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Association of Account Identities for Parental Controls
 ms.assetid: b2b3830e-7030-4d55-a5af-084c3c388af0
 title: Association of Account Identities for Parental Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

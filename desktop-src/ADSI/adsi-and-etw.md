@@ -1,14 +1,10 @@
 ---
 title: Event Tracing in ADSI
 description: Windows Server 2008 and Windows Vista introduce Event Tracing in Active Directory Service Interfaces (ADSI).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 743aeeba-5b48-47c7-aaf5-0e9b48e206db
 ms.tgt_platform: multiple
 keywords:
 - event tracing ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

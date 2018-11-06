@@ -2,7 +2,6 @@
 Description: This topic explains how a user registers a new remote data store with federated search by opening an OpenSearch Description (.osdx) file, how to deploy an .osdx file, and how to track usage of your OpenSearch service.
 ms.assetid: 9db0f970-4e17-492b-ab75-a8b0f8011d0a
 title: Deploying Search Connectors in Windows Federated Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

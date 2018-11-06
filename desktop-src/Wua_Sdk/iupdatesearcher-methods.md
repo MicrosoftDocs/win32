@@ -2,7 +2,6 @@
 Description: The IUpdateSearcher interface defines the following methods.
 ms.assetid: 82735555-b23a-43b0-bf5b-a8cf72dc40d4
 title: IUpdateSearcher Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

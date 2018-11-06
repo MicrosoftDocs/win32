@@ -1,9 +1,6 @@
 ---
 title: SyncNamingContext method of the MSAD_ReplNeighbor class
 description: Calls the DsReplicaSync function that synchronizes a destination naming context with one of its sources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 005053c4-8d9c-42f6-bae6-3ecdedd5ac2b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - replprov.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

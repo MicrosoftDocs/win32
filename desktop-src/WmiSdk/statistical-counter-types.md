@@ -1,12 +1,8 @@
 ---
 Description: The WMI high-performance Formatted Performance Data Provider calculates the statistical counter types on a specified number of raw counter data samples.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a7e32ef2-fad1-449c-beee-07db4b93e3fe
 ms.tgt_platform: multiple
 title: Statistical Counter Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

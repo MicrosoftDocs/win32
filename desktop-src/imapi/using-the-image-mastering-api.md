@@ -4,7 +4,6 @@ description: The following examples demonstrate the use of IMAPI
 ms.assetid: 93f56e35-698e-4031-8595-9ff2ffb933ae
 keywords:
 - Image Mastering API IMAPI ,using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

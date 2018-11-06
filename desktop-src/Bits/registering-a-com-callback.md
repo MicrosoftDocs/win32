@@ -8,7 +8,6 @@ keywords:
 - event notification BITS
 - event notification BITS , callbacks
 - notification events BITS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

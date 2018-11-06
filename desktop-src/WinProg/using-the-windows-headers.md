@@ -10,7 +10,6 @@ keywords:
 - _WIN32_WINNT
 - _WIN32_IE
 - WIN32_LEAN_AND_MEAN
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

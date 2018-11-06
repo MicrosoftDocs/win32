@@ -9,7 +9,6 @@ keywords:
 - DSP plug-ins,Echo sample streaming resources
 - Echo DSP plug-in sample,streaming resources
 - Echo DSP plug-in sample,releasing memory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

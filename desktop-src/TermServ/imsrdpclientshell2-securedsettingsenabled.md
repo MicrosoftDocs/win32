@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientShell2 SecuredSettingsEnabled property
 description: Retrieves a value that indicates whether the current webpage is in a trusted Internet Explorer URL security zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 51988473-fff7-4574-bd6e-d05ca452da54
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

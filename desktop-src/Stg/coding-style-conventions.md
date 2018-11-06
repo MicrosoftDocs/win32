@@ -2,7 +2,6 @@
 title: Coding Style Conventions
 description: Coding style conventions are used in this sample series to aid clarity and consistency.
 ms.assetid: d5e81a52-79f6-4561-891c-05fee125a1b0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

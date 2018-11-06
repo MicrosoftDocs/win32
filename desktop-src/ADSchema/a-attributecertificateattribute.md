@@ -1,9 +1,6 @@
 ---
 title: attributeCertificateAttribute attribute
 description: A digitally signed or certified identity and set of attributes. Used to bind authorization information to an identity.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 46519f26-01db-4f8e-936d-9255c72cd30c
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - attributeCertificateAttribute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

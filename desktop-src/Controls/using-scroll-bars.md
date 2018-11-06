@@ -2,7 +2,6 @@
 title: Using Scroll Bars
 description: This section contains topics that demonstrate how to create Scroll Bars.
 ms.assetid: 45ffb56f-f567-40d7-8172-e64e26744ed7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The system broadcasts a message to all applications and installable drivers whenever a power management event occurs.
 ms.assetid: a64ed11a-43d6-41f7-aabd-5dca2a2b4a12
 title: WM_POWERBROADCAST Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

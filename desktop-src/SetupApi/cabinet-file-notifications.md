@@ -2,7 +2,6 @@
 Description: The following notifications are sent by SetupIterateCabinet. For more information about the format and use of notifications, see Notifications.
 ms.assetid: 5a362a93-ebe8-4995-aacc-13ee10d3407a
 title: Cabinet File Notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

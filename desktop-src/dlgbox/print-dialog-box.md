@@ -14,7 +14,6 @@ keywords:
 - customizing Print dialog box
 - predefined dialog boxes
 - dialog boxes,Print
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

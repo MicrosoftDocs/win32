@@ -5,7 +5,6 @@ ms.assetid: 1d840263-d9da-4cab-9bc3-0c143c9c8741
 keywords:
 - Windows Animation Windows Animation ,portal
 - Windows Animation Manager Windows Animation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

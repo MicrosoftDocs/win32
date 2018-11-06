@@ -1,12 +1,8 @@
 ---
 Description: An SWbemQualifierSet object is a collection of SWbemQualifier objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7ac5469c-357b-499d-a558-30bf760c5311
 ms.tgt_platform: multiple
 title: SWbemQualifierSet object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

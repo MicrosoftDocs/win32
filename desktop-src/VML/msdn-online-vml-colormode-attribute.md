@@ -2,7 +2,6 @@
 title: VML ColorMode Attribute
 description: VML ColorMode Attribute
 ms.assetid: 92c885ca-7912-42ff-8f07-e6e779e0ef05
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The Name property of the SWbemMethod object is a string that describes the name of this method. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 207fb17c-cc64-415e-8ce4-590ad78a911e
 ms.tgt_platform: multiple
 title: SWbemMethod.Name property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Device Types (Direct3D 9)
 ms.assetid: 860f3de2-beaf-4df1-82d0-a4b7508156c2
 title: Device Types (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

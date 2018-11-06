@@ -4,7 +4,6 @@ description: Limitations
 ms.assetid: 5f41620d-dde0-4e82-92f0-ada9d4acf127
 keywords:
 - OpenGL on Windows,limitations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

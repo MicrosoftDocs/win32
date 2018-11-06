@@ -1,12 +1,8 @@
 ---
 Description: Deletes an existing instance of a class from the repository.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4389f831-a60e-4198-a55a-79189d10a38a
 ms.tgt_platform: multiple
 title: pragma deleteinstance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,12 +1,8 @@
 ---
 title: Admin Interfaces in Active Directory Domain Services
 description: This category of interfaces includes the following.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b9bcbe5-bad9-49ae-8c8f-f6c09542edbe
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

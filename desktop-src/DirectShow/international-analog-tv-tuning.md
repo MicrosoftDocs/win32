@@ -2,7 +2,6 @@
 Description: International Analog TV Tuning
 ms.assetid: 9a0e8c77-05f6-496a-bd7c-8c73953fe7c2
 title: International Analog TV Tuning
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

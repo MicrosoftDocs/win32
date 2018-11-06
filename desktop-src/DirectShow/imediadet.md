@@ -2,7 +2,6 @@
 Description: The IMediaDet interface retrieves information about a media file, such as the number of streams, and the media type, duration, and frame rate of each stream.
 ms.assetid: 596fc84e-a88a-4e1b-aa48-b6dc9031db31
 title: IMediaDet interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

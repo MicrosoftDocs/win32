@@ -2,7 +2,6 @@
 title: WinSAT Schema
 description: You can use the Windows System Assessment Tool (WinSAT) schema to determine valid XPath queries to run.
 ms.assetid: da497f3b-f5a2-401e-8230-937362ecf4f2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

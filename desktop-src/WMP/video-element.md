@@ -8,7 +8,6 @@ keywords:
 - VIDEO element
 - reference for skins,VIDEO element
 - elements,VIDEO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

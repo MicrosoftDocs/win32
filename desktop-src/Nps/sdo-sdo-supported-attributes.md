@@ -1,12 +1,8 @@
 ---
 title: SDO Supported Attributes
 description: An NPS Server Data Object has a Profiles property which provides access to a collection of attributes. The supported attributes are as follows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6b8be050-9763-48c8-9ffa-dcb76e60e8c6
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

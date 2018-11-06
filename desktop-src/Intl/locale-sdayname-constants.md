@@ -2,7 +2,6 @@
 Description: LOCALE\_SDAYNAME\* Constants
 ms.assetid: a5451df7-d608-4151-92b1-7e25f8f4500d
 title: LOCALE_SDAYNAME* Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

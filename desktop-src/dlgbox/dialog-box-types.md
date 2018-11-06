@@ -18,7 +18,6 @@ keywords:
 - predefined dialog boxes
 - dialog boxes,Common Dialog Box Library
 - dialog boxes,predefined
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

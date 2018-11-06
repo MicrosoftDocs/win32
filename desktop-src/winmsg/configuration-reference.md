@@ -1,7 +1,6 @@
 ---
 ms.assetid: e61640f7-d206-494a-a3af-f9fa32c87816
 title: Configuration Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

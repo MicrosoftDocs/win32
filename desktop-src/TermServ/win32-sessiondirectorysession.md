@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionDirectorySession class
 description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 34b5a898-3952-493c-ba62-dd0d298b0600
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

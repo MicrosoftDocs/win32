@@ -1,14 +1,10 @@
 ---
 title: How Clients Find and Use a Service Connection Point
 description: The following code example shows how a client application searches the Global Catalog for a Service Connection Point (SCP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3163c22-22fe-4606-8cad-6f3a87f8fc36
 ms.tgt_platform: multiple
 keywords:
 - service connection points AD ,how clients find and use
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

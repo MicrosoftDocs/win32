@@ -4,7 +4,6 @@ description: The following interfaces are supported by Windows Virtual PC.
 ms.assetid: de003075-8609-4303-838e-da449b91dc8d
 keywords:
 - Windows Virtual PC Virtual PC , interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

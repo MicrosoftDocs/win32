@@ -9,7 +9,6 @@ keywords:
 - text attributes,data types
 - UI Automation,list of attributes
 - UI Automation,list of text attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

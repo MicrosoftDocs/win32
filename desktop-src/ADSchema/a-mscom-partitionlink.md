@@ -1,9 +1,6 @@
 ---
 title: ms-COM-PartitionLink attribute
 description: A link used to associate a COM+ PartitionSet with its constituent COM+ Partitions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ab135e4c-0e87-4a18-be4f-3bf91adbfd2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-PartitionLink
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

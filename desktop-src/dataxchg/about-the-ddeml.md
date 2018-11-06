@@ -11,7 +11,6 @@ keywords:
 - Dynamic Data Exchange Management Library (DDEML),about
 - DDEML (Dynamic Data Exchange Management Library),about
 - data exchange,Dynamic Data Exchange Management Library (DDEML)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

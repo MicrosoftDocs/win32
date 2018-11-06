@@ -1,9 +1,6 @@
 ---
 title: Site-Link-Bridge class
 description: An object for tracking the site links that are transitively connected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dabd236e-f4e7-4a4b-92ea-c0d144dea74c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Site-Link-Bridge
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

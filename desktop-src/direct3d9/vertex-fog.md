@@ -2,7 +2,6 @@
 Description: When the system performs vertex fogging, it applies fog calculations at each vertex in a polygon, and then interpolates the results across the face of the polygon during rasterization.
 ms.assetid: 76989eb3-cd95-4dfc-ba0f-7563860b531c
 title: Vertex Fog (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

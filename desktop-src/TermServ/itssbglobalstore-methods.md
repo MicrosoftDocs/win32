@@ -1,12 +1,8 @@
 ---
 title: ITsSbGlobalStore Methods
 description: The ITsSbGlobalStore interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 900E18BF-97F1-4B5A-AEE9-E79714E6F46F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

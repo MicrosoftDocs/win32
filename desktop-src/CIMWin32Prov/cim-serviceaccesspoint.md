@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ServiceAccessPoint class represents the ability to use or invoke a service. Access points represent services that are available for use by other entities.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: caf828a1-c9a7-4ae8-9734-d77e4ba90b09
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ServiceAccessPoint class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -35,7 +29,7 @@ api_location:
 
 The **CIM\_ServiceAccessPoint** class represents the ability to use or invoke a service. Access points represent services that are available for use by other entities.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

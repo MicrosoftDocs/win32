@@ -2,7 +2,6 @@
 title: Clipboard Functions
 description: .
 ms.assetid: 54addf54-921d-4246-b21e-ae993f8bcb02
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

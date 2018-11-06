@@ -2,7 +2,6 @@
 Description: Video Media Types
 ms.assetid: 'b8cfe0d1-013d-4706-bb76-6d426836ab6a'
 title: Video Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

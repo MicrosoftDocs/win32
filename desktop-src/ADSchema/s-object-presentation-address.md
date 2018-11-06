@@ -1,9 +1,6 @@
 ---
 title: Object(Presentation-Address) syntax
 description: A string that contains Open Systems Interconnection (OSI) presentation addresses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52d5927b-42fb-4c5b-8a73-7f004c2033b3
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(Presentation-Address)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

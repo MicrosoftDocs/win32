@@ -1,9 +1,6 @@
 ---
 title: meetingID attribute
 description: The ID for the meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ad205d1-e37d-4090-bfbf-86ada8c06aa6
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

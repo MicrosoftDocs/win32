@@ -12,7 +12,6 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -73,7 +72,7 @@ To associate an image with a static control, the control must have the proper st
 
  
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > In version 6 of the Microsoft Win32 controls, a bitmap passed to a static control using the **STM\_SETIMAGE** message was the same bitmap returned by a subsequent **STM\_SETIMAGE** message. The client is responsible to delete any bitmap sent to a static control.
 >

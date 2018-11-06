@@ -8,7 +8,6 @@ keywords:
 - COLUMN element
 - reference for skins,COLUMN element
 - elements,COLUMN
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

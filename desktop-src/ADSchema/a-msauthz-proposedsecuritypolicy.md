@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Proposed-Security-Policy attribute
 description: For a Central Access Policy Entry, defines the proposed security policy of the objects the CAPE is applied to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cba0e725-ddb2-4ae1-b975-3c17dd99edf9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Proposed-Security-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

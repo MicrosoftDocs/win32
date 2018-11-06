@@ -1,9 +1,6 @@
 ---
 title: dhcp-Servers attribute
 description: Contains a list of servers that are authorized in the enterprise.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f712b2d2-ff9c-4ee2-aede-b68023e3e6b6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Servers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

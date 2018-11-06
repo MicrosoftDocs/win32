@@ -2,7 +2,6 @@
 Description: Diffie-Hellman version 3 Public Key BLOBs (type PUBLICKEYBLOB) are used to export and import information about a DH public key.
 ms.assetid: ba29a71a-7509-49c7-93d2-f0a699532706
 title: Diffie-Hellman Version 3 Public Key BLOBs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: NAP Server-side Architecture
 description: NAP Server-side Architecture
 ms.assetid: b05c52d5-1f90-41d4-a540-d20e70e54bcb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

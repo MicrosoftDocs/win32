@@ -2,7 +2,6 @@
 Description: The Clear method deletes all items from the collection.
 ms.assetid: d5477ded-d0bd-4909-abb1-6ff282cf7925
 title: IPortableDeviceKeyCollection::Clear method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

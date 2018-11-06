@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),asynchronous readers
 - asynchronous readers,implementing reader messages
 - OnStatus callback method,implementing reader messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

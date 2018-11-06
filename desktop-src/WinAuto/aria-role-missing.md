@@ -4,7 +4,6 @@ description: ARIA Role Error for elements with event handlers
 ms.assetid: 20BB874A-874B-4266-9C7B-49C07D4146DA
 keywords:
 - AriaContainerRoleErrorMessage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

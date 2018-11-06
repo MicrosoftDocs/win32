@@ -1,9 +1,6 @@
 ---
 title: Group-Of-Names class
 description: Used to define entries that represent an unordered set of names that represent individual objects or other groups of names.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: da84c380-637a-40ff-ad51-e83aa9948744
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group-Of-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

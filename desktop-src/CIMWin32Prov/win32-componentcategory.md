@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ComponentCategory WMI class represents a component category.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9c6fc856-8300-4fa5-ae1c-a7d6476f5c51
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ComponentCategory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

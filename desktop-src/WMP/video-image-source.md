@@ -8,7 +8,6 @@ keywords:
 - reference for skins,video
 - video in skins,image source
 - image source for skins,video
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

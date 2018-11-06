@@ -1,9 +1,6 @@
 ---
 title: Change-PDC extended right
 description: Extended right needed to change the primary domain controller (PDC) emulator FSMO role owner.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f23452de-3c19-4bb2-836a-a3a97eb336b9
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Change-PDC
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

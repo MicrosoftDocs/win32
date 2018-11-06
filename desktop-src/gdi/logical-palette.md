@@ -2,7 +2,6 @@
 Description: A logical palette is a color palette that an application creates and associates with a given device context.
 ms.assetid: 7cc86771-237d-4539-8f48-2474edb764a4
 title: Logical Palette
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

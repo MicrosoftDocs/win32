@@ -2,7 +2,6 @@
 Description: Obtains a lock exclusively if no others are currently hold it.
 ms.assetid: d655b89c-f2c8-4965-a21b-f539b1598296
 title: CShareLockNH::TryExclusiveLock method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

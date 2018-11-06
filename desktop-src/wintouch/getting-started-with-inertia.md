@@ -5,7 +5,6 @@ ms.assetid: c33dda89-c715-4da0-a7af-aa0010dfd88b
 keywords:
 - Windows Touch,inertia
 - inertia,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

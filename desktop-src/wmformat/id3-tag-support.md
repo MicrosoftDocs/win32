@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),attributes
 - attributes,ID3 tags
 - ID3 tags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

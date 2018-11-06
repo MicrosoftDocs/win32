@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 3aa1daa6-a63b-4e91-9fce-f1deb131fb45
 title: System.Sync.ConflictFirstLocation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

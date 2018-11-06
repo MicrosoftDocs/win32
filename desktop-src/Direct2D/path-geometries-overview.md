@@ -2,7 +2,6 @@
 title: Path Geometries Overview
 description: Describes how to use path geometries to define complex shapes.
 ms.assetid: 38a290be-b915-4317-b9b1-0e49e40dc8ec
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -7,7 +7,6 @@ keywords:
 - Control Panel,screen savers
 - ScreenSaverConfigureDialog
 - module-definition files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

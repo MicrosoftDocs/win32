@@ -2,7 +2,6 @@
 Description: This topic introduces the property description schema used by the Shell property system.
 ms.assetid: cac93c31-d90d-4116-b846-0cf593d1d56e
 title: Understanding the Property Description Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Composing SPNs for an RpcNs Service
 description: The following code example composes the service principal names (SPNs) for an RPC service that has an entry in the RpcServices container in the directory. An RPC service uses the RpcNsBindingExport function to create its RpcServices entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4fd585b3-3f9b-4f7f-bc1b-22879587a590
 ms.tgt_platform: multiple
 keywords:
 - Composing SPNs for an RpcNs Service AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

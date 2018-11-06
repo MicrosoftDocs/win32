@@ -2,7 +2,6 @@
 Description: Indicates Wi-Fi Direct Device's Connectivity State.
 ms.assetid: 48f98415-048f-43c7-9cb8-1a1eeaa60086
 title: System.Devices.WiFiDirect.IsConnected
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

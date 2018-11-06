@@ -12,7 +12,6 @@ keywords:
 - ASF (Advanced Systems Format),video formats
 - video formats
 - Windows Media Video 9 codec,video input formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

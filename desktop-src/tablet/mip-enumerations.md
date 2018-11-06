@@ -2,7 +2,6 @@
 Description: This section describes the enumerations used with the math input control.
 ms.assetid: 8f8274e1-49d0-481c-9c7d-a361ac6172d7
 title: Math Input Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

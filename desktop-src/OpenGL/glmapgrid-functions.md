@@ -19,7 +19,6 @@ keywords:
 - OpenGL,two-dimensional mesh functions
 - OpenGL reference,two-dimensional mesh functions
 - reference for OpenGL,two-dimensional mesh functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

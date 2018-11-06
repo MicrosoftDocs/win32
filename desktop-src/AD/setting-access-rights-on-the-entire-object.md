@@ -1,15 +1,11 @@
 ---
 title: Setting Access Rights on the Entire Object
 description: Certain permissions can be set only for an entire object, such as Delete and List Contents. Operation-specific permissions, such as the Read permission, can also be set for entire object so that they apply to an entire object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 786357f4-146e-4638-8bd6-82bc1a6640a1
 ms.tgt_platform: multiple
 keywords:
 - Setting Access Rights on the Entire Object AD
 - objects AD , setting access rights on
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

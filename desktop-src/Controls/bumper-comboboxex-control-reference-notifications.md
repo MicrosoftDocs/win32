@@ -2,7 +2,6 @@
 title: ComboBoxEx Notifications
 description: .
 ms.assetid: abeb29b3-d11c-4d68-8817-d0b2601362f4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

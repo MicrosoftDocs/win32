@@ -1,12 +1,8 @@
 ---
 Description: The TRefPointerCollection class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 453646B6-9F65-4308-AF5F-E818EBF68CAA
 ms.tgt_platform: multiple
 title: TRefPointerCollection Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

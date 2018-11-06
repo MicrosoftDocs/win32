@@ -2,7 +2,6 @@
 title: Multi-Adapter
 description: Describes support in D3D12 for multi-engine adapter systems, covering scenarios where applications explicitly target multiple GPU adapters, and scenarios where drivers implicitly use multiple GPU adapters on behalf of an application.
 ms.assetid: CC4C6594-D48F-40C1-93EE-9F98532BC038
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

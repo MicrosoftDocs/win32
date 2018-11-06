@@ -2,7 +2,6 @@
 Description: A service configuration program uses the OpenService function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.
 ms.assetid: e6633dc9-c9b6-457d-8adc-e751ec9cf71d
 title: Querying a Services Configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

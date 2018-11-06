@@ -1,12 +1,8 @@
 ---
 Description: The Class property of the SWbemObjectPath object is the name of the class that is part of the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 60123963-31be-4112-9d06-611b4c599fd4
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Class property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

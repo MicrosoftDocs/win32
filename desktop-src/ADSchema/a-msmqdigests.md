@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Digests attribute
 description: An array of digests of the corresponding certificates in attribute mSMQ-Sign-Certificates. They are used for mapping a digest into a certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a9b03edd-1506-4f2d-afe1-7d953977f6fa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Digests
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

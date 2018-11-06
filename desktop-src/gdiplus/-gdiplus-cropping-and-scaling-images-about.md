@@ -2,7 +2,6 @@
 Description: You can use the DrawImage method of the Graphics class to draw and position images.
 ms.assetid: 81d20adc-0481-4b1b-80aa-ae218fdecd84
 title: Cropping and Scaling Images
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: unstructuredName attribute
 description: The DNS name of the router (for example router1.fabrikam.com).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 787eeabd-4771-45b8-b98f-d0c0c51d116c
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - unstructuredName
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The LIKE operator determines whether or not a character string matches a specified pattern.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6cafe696-891d-4b17-8802-4b872f76fc78
 ms.tgt_platform: multiple
 title: LIKE Operator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

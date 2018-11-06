@@ -1,12 +1,8 @@
 ---
 Description: Privileged operations require security privileges such as SeLoadDriverPrivilege (wbemPrivilegeLoadDriver in the Scripting API Constants), a privilege that must be enabled for an account that is loading a device driver.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11bb8723-f329-4083-8219-2256ce44a5e3
 ms.tgt_platform: multiple
 title: Executing Privileged Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

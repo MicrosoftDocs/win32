@@ -5,7 +5,6 @@ ms.assetid: e0945bdd-998d-4531-869f-21c505cb2135
 keywords:
 - WOW64 64-bit Windows Programming , debugging
 - debugging WOW64 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

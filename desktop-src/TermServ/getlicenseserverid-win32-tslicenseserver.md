@@ -1,9 +1,6 @@
 ---
 title: GetLicenseServerId method of the Win32_TSLicenseServer class
 description: Retrieves the Remote Desktop license server identifier if the server is currently activated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0eb2cf82-3632-4693-97d2-0cfa814d8c94
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

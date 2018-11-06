@@ -2,7 +2,6 @@
 title: RPC over HTTP Security
 description: RPC over HTTP provides three types of security in addition to standard RPC security, which results in RPC over HTTP traffic being protected once by RPC, and then doubly protected by the tunneling mechanism provided by RPC over HTTP.
 ms.assetid: 3a44c72b-b74c-433a-8826-1f76ca019f40
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

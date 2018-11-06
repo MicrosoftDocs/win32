@@ -2,7 +2,6 @@
 Description: CNG is used to create a hash, sign data, and encrypt data.
 ms.assetid: 50be8ecf-1328-43a1-8963-7901d8ecf94f
 title: Using CNG
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

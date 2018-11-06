@@ -2,7 +2,6 @@
 Description: The enveloped message consists of the encrypted message, the certificates of the intended recipients, and the set of encrypted keys, one for each recipient. The message generated is in PKCS \#7/CMS format.
 ms.assetid: 2acd0b58-1028-478d-bfa1-b02fa457d7e3
 title: Creating and Receiving Enveloped Data Messages in CAPICOM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

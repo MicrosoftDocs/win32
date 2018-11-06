@@ -2,7 +2,6 @@
 Description: The userid attribute specifies an application-defined identifier for an object.
 ms.assetid: 37d9d1c6-c67d-493f-9660-bac5a47ac081
 title: userid Attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - stream buffers,format
 - MIDIHDR structure
 - MIDIEVENT structure
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

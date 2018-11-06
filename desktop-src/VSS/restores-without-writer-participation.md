@@ -2,7 +2,6 @@
 Description: Writer participation in a VSS backup is designed to allow applications to control what and how their restore data is to be used.
 ms.assetid: 076b2e6f-c2ca-4129-8827-1b18a655d634
 title: Restores without Writer Participation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

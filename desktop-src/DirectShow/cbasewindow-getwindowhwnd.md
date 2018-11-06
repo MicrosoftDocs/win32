@@ -2,7 +2,6 @@
 Description: The GetWindowHWND method retrieves a handle to the window.
 ms.assetid: f7fcca87-b823-4d2e-9ba8-6a3ed90ec8a9
 title: CBaseWindow.GetWindowHWND method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-ds-Schema-Extensions attribute
 description: A binary BLOB used to store information about extensions to schema objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a2ffc4c6-ec33-4265-9a1e-c07597d2af50
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-ds-Schema-Extensions
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

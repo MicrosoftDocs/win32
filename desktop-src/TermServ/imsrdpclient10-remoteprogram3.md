@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient10 RemoteProgram3 property
 description: An object that supports the ITSRemoteProgram3 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: afb26152-32eb-45de-a228-a6f7ca7eea2b
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

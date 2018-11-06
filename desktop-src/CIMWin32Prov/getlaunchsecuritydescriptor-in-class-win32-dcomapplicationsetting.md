@@ -1,14 +1,8 @@
 ---
 Description: Gets the security descriptor that controls who is allowed to start a DCOM application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ba02807f-aa2a-4b1c-9692-2803d93cd2ee
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetLaunchSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

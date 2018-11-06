@@ -2,7 +2,6 @@
 Description: The Media Streaming Terminal (MST) is a dynamic terminal based on use of DirectShow filters. An MSP written using the TAPI 3 MSP Base Classes will incorporate an MST, but MSP authors may choose to implement it without using the base classes.
 ms.assetid: 21015c33-2ad1-4472-b346-167953d06a21
 title: Media Streaming Terminal (MST)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

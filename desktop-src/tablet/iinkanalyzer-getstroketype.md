@@ -2,7 +2,6 @@
 Description: Retrieves the type of the specified stroke.
 ms.assetid: bbd0bc23-89f9-4033-bc32-f9bd737c960c
 title: IInkAnalyzer::GetStrokeType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

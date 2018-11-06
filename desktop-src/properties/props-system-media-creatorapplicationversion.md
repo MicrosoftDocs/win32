@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 9370d0f3-a43c-4c34-a4ad-a585ed63e8e5
 title: System.Media.CreatorApplicationVersion
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

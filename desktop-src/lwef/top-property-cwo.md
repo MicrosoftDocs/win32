@@ -2,7 +2,6 @@
 title: Top Property
 description: Top Property
 ms.assetid: 3840b036-8f8d-4180-a8d6-6c521fe3d728
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

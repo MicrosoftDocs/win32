@@ -1,9 +1,6 @@
 ---
 title: Win32_TSGatewayServer class
 description: Used for Remote Desktop Gateway (RD Gateway) server-specific operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ae24b7ff-2c26-43a5-ac11-52f83225f4ee
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

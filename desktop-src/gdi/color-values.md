@@ -2,7 +2,6 @@
 Description: Color is defined as a combination of three primary colors red, green, and blue.
 ms.assetid: 6e44935c-2b3b-4062-8273-f1f3e70300d2
 title: Color Values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Target-List-v2 attribute
 description: Targets that correspond to the DFS root or link.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 804cdc09-d65b-487e-9dda-f44ea0a1e0d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Target-List-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

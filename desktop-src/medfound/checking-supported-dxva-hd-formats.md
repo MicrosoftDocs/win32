@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 43ae9f70-34a1-48ca-be61-e974e2daebd7
 title: Checking Supported DXVA-HD Formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

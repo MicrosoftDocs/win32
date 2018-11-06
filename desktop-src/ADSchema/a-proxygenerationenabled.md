@@ -1,9 +1,6 @@
 ---
 title: Proxy-Generation-Enabled attribute
 description: TRUE if proxy generation is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a9ee22d-531d-4ba7-90ba-094f0afb161f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Proxy-Generation-Enabled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Sets the constants to the default values declared in the shader.
 ms.assetid: d7c18197-56b0-4951-9795-408856e85ad7
 title: ID3DXTextureShader::SetDefaults method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Leaf class
 description: Base class for leaf objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41b29b04-2c1c-4171-bd39-e2ea3b523010
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Leaf
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

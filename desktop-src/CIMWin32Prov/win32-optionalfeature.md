@@ -1,14 +1,8 @@
 ---
 Description: Represents the status of the optional features that are present on the operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3ac0c227-dfe1-4f33-b3d1-bcd1309c3635
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_OptionalFeature class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

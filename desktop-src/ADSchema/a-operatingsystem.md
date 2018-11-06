@@ -1,9 +1,6 @@
 ---
 title: Operating-System attribute
 description: The Operating System name, for example, Windows Vista Enterprise.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 15dbcc3b-3381-4a7d-930f-d96d933e6563
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Operating-System
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

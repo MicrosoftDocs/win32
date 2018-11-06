@@ -1,14 +1,8 @@
 ---
 Description: Stops the collector. If the collector is running as a service, stopping the service is the better approach.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fab3e060-156f-46f5-98a2-d47a23d64552
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Shutdown method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

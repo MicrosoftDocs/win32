@@ -1,14 +1,10 @@
 ---
 title: Backing Up and Restoring an Active Directory Server
 description: Active Directory Domain Services provide functions for backing up and restoring data in the directory database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d9b9db51-ed1b-4db4-a4de-b8798c9647ac
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, using, backing up and restoring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

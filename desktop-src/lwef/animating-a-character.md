@@ -2,7 +2,6 @@
 title: Animating a Character
 description: Animating a Character
 ms.assetid: ed42de30-acac-41e8-bacb-4caaff254724
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

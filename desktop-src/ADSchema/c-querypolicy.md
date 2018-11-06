@@ -1,9 +1,6 @@
 ---
 title: Query-Policy class
 description: Holds administrative limits for LDAP server resources for sorted and paged results.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3dc5cbf1-cace-4b6b-8bc7-6907ec089025
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Query-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

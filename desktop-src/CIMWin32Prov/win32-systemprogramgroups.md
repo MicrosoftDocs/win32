@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemProgramGroups association WMI class relates a computer system and a logical program group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cbf810c8-a967-4d60-889c-e47c43b039ea
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemProgramGroups class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

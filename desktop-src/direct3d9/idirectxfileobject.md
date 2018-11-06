@@ -2,7 +2,6 @@
 Description: Applications use the methods of the IDirectXFileObject interface to retrieve information about Microsoft DirectX file objects. Deprecated.
 ms.assetid: 015d2c4e-4a25-40da-b88a-bad0c4e20e09
 title: IDirectXFileObject interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

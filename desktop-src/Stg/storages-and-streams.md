@@ -2,7 +2,6 @@
 title: Storages and Streams
 description: A storage object is analogous to a file system directory.
 ms.assetid: 57b2a66d-e912-4879-b778-75f8461d211f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

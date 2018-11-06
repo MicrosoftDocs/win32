@@ -1,9 +1,6 @@
 ---
 title: Trust-Direction attribute
 description: The direction of a trust.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 29ee19c6-a6c5-40e6-ad70-bfa0a16e3a84
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Direction
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

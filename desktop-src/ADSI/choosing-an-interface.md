@@ -1,14 +1,10 @@
 ---
 title: Choosing an Interface for Binding
 description: When a directory object is bound to, the caller specifies the type of ADSI interface desired.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3c86e136-6d82-4baf-9c76-27dac8ad68ac
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,choosing an interface for binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Lockout-Threshold attribute
 description: The number of invalid logon attempts that are permitted before the account is locked out.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4dcbbb6-0680-45f3-9b0b-f9c4bbf2b349
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Lockout-Threshold
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

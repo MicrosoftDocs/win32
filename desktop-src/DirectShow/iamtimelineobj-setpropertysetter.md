@@ -2,7 +2,6 @@
 Description: The SetPropertySetter method sets the object's property setter. When the object is rendered, the property information contained in the property setter is applied to the object. Call this method on transition and effect objects.
 ms.assetid: 3ce2fe50-a884-4da4-95b5-9c97e188f819
 title: IAMTimelineObj::SetPropertySetter method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

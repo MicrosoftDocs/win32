@@ -1,9 +1,6 @@
 ---
 title: UAS-Compat attribute
 description: Indicates if the security account manager will enforce data sizes to make Active Directory compatible with the LanManager User Account System (UAS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 745e271e-28f4-4012-83a8-606d88de0221
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - UAS-Compat
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

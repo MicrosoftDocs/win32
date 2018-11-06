@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Encrypted-Text-Password-Allowed attribute
 description: Indicates whether Active Directory will store the password in the reversible encryption format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 67067cf6-60e3-4626-bf8c-a0a1264a899e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Encrypted-Text-Password-Allowed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

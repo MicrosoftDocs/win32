@@ -1,9 +1,6 @@
 ---
 title: ms-DS-ExecuteScriptPassword attribute
 description: Used during domain rename. This value cannot be written to or read from by using LDAP.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 381c3676-0a11-4e53-8093-f04dbf156250
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-ExecuteScriptPassword
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

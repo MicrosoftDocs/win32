@@ -2,7 +2,6 @@
 Description: The EnumPrinters function enumerates available printers, print servers, domains, or print providers.
 ms.assetid: 0d0cc726-c515-4146-9273-cdf1db3c76b7
 title: EnumPrinters function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

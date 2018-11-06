@@ -2,7 +2,6 @@
 title: How to Scale an Object
 description: Shows how to scale an object.
 ms.assetid: 3da749e2-50d5-4f4e-9ccd-8c230efe3436
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

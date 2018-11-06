@@ -1,9 +1,6 @@
 ---
 title: Country class
 description: The country/region in the address of the user. This is the full name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0cfc1695-e7c5-4bd1-b6d9-5db5af92f739
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Country
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

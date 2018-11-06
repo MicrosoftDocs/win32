@@ -1,12 +1,8 @@
 ---
 Description: Several consumers, such as the Active Script Event Consumer or the Command Line Event Consumer, have string properties with the Template qualifier.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d734c226-e160-4834-a5e8-62390905dfde
 ms.tgt_platform: multiple
 title: Using Standard String Templates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

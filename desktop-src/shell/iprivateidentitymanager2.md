@@ -1,7 +1,6 @@
 ---
 Description: IPrivateIdentityManager2 interface
 title: IPrivateIdentityManager2 interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

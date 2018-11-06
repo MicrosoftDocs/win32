@@ -2,7 +2,6 @@
 Description: An &\#0034;umbrella&\#0034; library is a single static-link library that exports a subset of Win32 APIs. For example, an umbrella lib named OneCore.lib provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices.
 ms.assetid: A323B5D1-3235-4BBA-96BF-A7DFEBB85C89
 title: Windows "umbrella" libraries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

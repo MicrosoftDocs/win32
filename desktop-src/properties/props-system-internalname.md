@@ -2,7 +2,6 @@
 Description: The name of a .exe or .dll file as stored in a resource section within that file.
 ms.assetid: a521f727-b024-44ef-98ae-98986254857f
 title: System.InternalName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

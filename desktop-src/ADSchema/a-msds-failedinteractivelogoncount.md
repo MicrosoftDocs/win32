@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Failed-Interactive-Logon-Count attribute
 description: The total number of failed interactive logons since this feature was turned on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 21499df9-7bd0-41ce-9148-ad1031bfbbc7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Failed-Interactive-Logon-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

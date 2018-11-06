@@ -2,7 +2,6 @@
 Description: The IAutomaticUpdatesSettings interface defines the following properties.
 ms.assetid: 663aaf7d-c701-4da8-ba92-7e0a6d0f35ba
 title: IAutomaticUpdatesSettings Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

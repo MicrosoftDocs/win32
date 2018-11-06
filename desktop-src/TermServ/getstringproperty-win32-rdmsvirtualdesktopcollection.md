@@ -1,9 +1,6 @@
 ---
 title: GetStringProperty method of the Win32_RDMSVirtualDesktopCollection class
 description: Retrieves a string property from a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4a122fc5-1635-4d74-a90d-2347c0714fc7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 234f44a4-ffff-431d-a973-98f2bd313c7d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetAccessMask method of the Win32_Share class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

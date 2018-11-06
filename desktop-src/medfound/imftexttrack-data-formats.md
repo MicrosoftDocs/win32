@@ -2,7 +2,6 @@
 Description: The following constants identify the underlying data format of an IMFTimedTextTrack. Get the format of a timed-text track by calling IMFTimedTextTrack::GetDataFormat.
 ms.assetid: 1E6C72AF-7247-406E-8E46-099E122FCA8A
 title: IMFTimedTextTrack Data Format GUIDs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

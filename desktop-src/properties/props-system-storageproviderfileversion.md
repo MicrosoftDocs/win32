@@ -2,7 +2,6 @@
 Description: The storage provider file version for this file.
 ms.assetid: 0b6484f4-9a4a-4bf6-b0ee-161b50b44dc5
 title: System.StorageProviderFileVersion
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

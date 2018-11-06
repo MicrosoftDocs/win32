@@ -1,9 +1,6 @@
 ---
 title: FRS-Control-Data-Creation attribute
 description: Warning/Error level pair for file data creation (megabytes per second).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9907e58e-3464-48fc-a115-b47ff577c719
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Control-Data-Creation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

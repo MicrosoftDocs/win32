@@ -1,9 +1,6 @@
 ---
 title: String(Generalized-Time) syntax
 description: A time string format defined by ASN.1 standards.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c69ab29b-5877-47d4-b58d-4f103758dfac
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Generalized-Time)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

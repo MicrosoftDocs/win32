@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-Prov-RootKey class
 description: Root keys for the Group Key Distribution Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d4a38d24-80a8-4a5e-a50c-1e177f0a7c7a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-Prov-RootKey
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

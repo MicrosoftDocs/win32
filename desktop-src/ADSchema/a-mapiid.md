@@ -1,9 +1,6 @@
 ---
 title: MAPI-ID attribute
 description: An integer by which MAPI clients identify this attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 581989f5-d979-4fe6-95d5-2c0651f40d78
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MAPI-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

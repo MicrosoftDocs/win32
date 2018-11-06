@@ -1,12 +1,8 @@
 ---
 Description: The SWbemRefreshableItem.Object property represents a single SWbemObject instance that is refreshed. The item is contained in an SWbemRefresher object.SWbemObject instance that is refreshed. The item is contained in an SWbemRefresher object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 91a693c0-cde4-4cf6-b85a-662cfd0333e9
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Object property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

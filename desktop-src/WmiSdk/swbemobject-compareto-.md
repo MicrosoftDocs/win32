@@ -1,12 +1,8 @@
 ---
 Description: The CompareTo\_ method of the SWbemObject object compares two SWbemObject objects. This comparison is subject to certain constraints based on the values specified in the iFlags parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38813551-2403-4def-ae57-2b17f72cd180
 ms.tgt_platform: multiple
 title: SWbemObject.CompareTo_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Completes any needed operations on the metadata buffer and releases the specified ISpatialAudioMetadataItems object.
 ms.assetid: 2417E624-6535-49E2-9CF4-F927F731BE41
 title: ISpatialAudioMetadataWriter::Close method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

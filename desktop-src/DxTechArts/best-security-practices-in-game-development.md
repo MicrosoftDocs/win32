@@ -2,7 +2,6 @@
 title: Best Security Practices in Game Development
 description: This article discusses best practices to use in game development.
 ms.assetid: 20956529-42ed-722b-cfa3-e3230d89fdd7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The phoneClose function closes the specified phone device.
 ms.assetid: 7607d779-0715-48a3-a4f2-bcf07026d7c5
 title: Closing the Phone Device
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

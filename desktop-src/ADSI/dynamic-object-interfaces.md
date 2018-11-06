@@ -1,14 +1,10 @@
 ---
 title: Dynamic Object Interfaces
 description: This topic lists ADSI interfaces that work with dynamic objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 521f6af9-464b-46de-b842-0cf4d71d6410
 ms.tgt_platform: multiple
 keywords:
 - dynamic object interfaces ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

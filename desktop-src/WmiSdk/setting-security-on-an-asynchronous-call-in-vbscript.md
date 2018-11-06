@@ -1,12 +1,8 @@
 ---
 Description: The performance of semisynchronous calls is usually adequate for most situations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f665fc60-68bd-495d-a441-e3a9473f9d89
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call in VBScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

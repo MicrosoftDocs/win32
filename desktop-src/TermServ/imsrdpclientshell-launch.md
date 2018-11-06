@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientShell Launch method
 description: Launches remote file content from Remote Desktop Web Access (RD Web Access) or from some other web portal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a0aa12e4-8b6f-4a3a-a6b8-f5def0b8bd90
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

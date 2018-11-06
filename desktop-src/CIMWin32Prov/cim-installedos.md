@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_InstalledOS association class represents a link between the computer system and the installed operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6db5b5a2-91b6-4540-83b8-bb9c86c7f94e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_InstalledOS class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_InstalledOS** association class represents a link between the computer system and the installed operating system. An operating system is installed when it is in a computer system's storage extent (for example, copied to a disk drive or downloaded to memory).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

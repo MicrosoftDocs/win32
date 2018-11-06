@@ -2,7 +2,6 @@
 Description: Mark of the app container. The package family name of the last app to edit the file's contents.
 ms.assetid: 3a75dc30-c8c6-4e59-a533-ffca5734823b
 title: System.LastWriterPackageFamilyName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

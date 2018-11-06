@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Entry-Time-To-Die attribute
 description: Holds the absolute expiration time of a dynamic object in the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 233a61a7-3e95-409e-89c3-1eeeca562173
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Entry-Time-To-Die
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

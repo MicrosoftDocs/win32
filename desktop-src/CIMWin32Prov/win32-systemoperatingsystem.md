@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemOperatingSystem association WMI class relates a computer system and its operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dc71f80b-6fbd-4bc8-8783-3922d8050518
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemOperatingSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

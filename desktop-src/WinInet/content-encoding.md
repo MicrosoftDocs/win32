@@ -4,7 +4,6 @@ description: Starting in Windows Server 2008 and Windows Vista, the applicatio
 ms.assetid: 136f22a6-e5ca-41c5-8651-6e132655d268
 keywords:
 - Content Encoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

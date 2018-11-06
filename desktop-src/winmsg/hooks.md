@@ -2,7 +2,6 @@
 Description: This section discusses hooks. A hook is a point in the system message-handling mechanism where an application can install a subroutine to monitor the message traffic.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\hooks.htm'
 title: Hooks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The focal length of the lens as recorded by the camera when the photo was taken, measured in millimeters.
 ms.assetid: 1839485d-c933-4ca9-a45a-d44cbd29f9b5
 title: System.Photo.FocalLength
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

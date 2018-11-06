@@ -2,7 +2,6 @@
 title: Inductive User Interface
 description: This topic describes the user interface model known as inductive user interface (IUI).
 ms.assetid: d99dc30a-68e5-4b7a-8cbd-0ac77a90a354
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -44,7 +43,7 @@ The principles described in this document do not require or imply any particular
 
 The general principles of inductive user interface are demonstrated with examples drawn from Money 2000.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The overall concept of IUI is in its infancy. Designers employing these techniques are learning and discovering more about it as they use it for their software. The information in this document will evolve over time as research and knowledge in this area increases. This topic provides an introduction to IUI, rather than a firm, comprehensive set of guidelines.
 
  

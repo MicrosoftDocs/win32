@@ -2,7 +2,6 @@
 title: About Custom Draw
 description: This section contains general information about custom draw functionality and provides a conceptual overview of how an application can support custom draw.
 ms.assetid: dd104661-1e0c-4569-9753-817bcded1894
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

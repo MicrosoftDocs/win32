@@ -2,7 +2,6 @@
 Description: The DVDAdm.ConfirmPassword method tests whether the specified password matches the previously saved password.
 ms.assetid: 4dddc28d-edf7-45a2-ae1f-1c37b5df2eea
 title: ConfirmPassword Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

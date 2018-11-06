@@ -1,9 +1,6 @@
 ---
 title: ipProtocol class
 description: Represents an abstraction of an IP protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0a5b0334-f9ac-4247-b8cb-a5310e951ba5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipProtocol
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

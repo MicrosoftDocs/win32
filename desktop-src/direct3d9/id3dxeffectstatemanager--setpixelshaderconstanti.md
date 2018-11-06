@@ -2,7 +2,6 @@
 Description: A callback function that must be implemented by a user to set an array of vertex shader integer constants.
 ms.assetid: 55f5747d-b7f8-4d13-ac2c-df2dcb160091
 title: ID3DXEffectStateManager::SetPixelShaderConstantI method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-MemberReference attribute
 description: Contains the forward link to the ms-DFSR-Member object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e671db58-e1d3-4cac-9e86-96c03006161d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-MemberReference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

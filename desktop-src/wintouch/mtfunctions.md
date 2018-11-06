@@ -4,7 +4,6 @@ description: This section contains functions for Windows Touch input.
 ms.assetid: 6c64ed75-37ac-47ae-b39e-bdf10d2b5211
 keywords:
 - Windows Touch,functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

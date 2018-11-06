@@ -1,12 +1,8 @@
 ---
 Description: Is an abstract base class that is used in the registration of a permanent event consumer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1dc9a91-76f9-4527-ad69-0323a9aef28a
 ms.tgt_platform: multiple
 title: '__EventConsumer class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

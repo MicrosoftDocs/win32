@@ -2,7 +2,6 @@
 Description: Specifies the aspect ratio of the output rectangle for a video media type.
 ms.assetid: d7fec5fb-a1fe-4cc9-aa27-a3af0456ea8d
 title: MF_MT_PAD_CONTROL_FLAGS attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

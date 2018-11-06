@@ -2,7 +2,6 @@
 Description: Paths are formed by combining lines, rectangles, and simple curves. Recall from the Overview of Vector Graphics that the following basic building blocks have proven to be the most useful for drawing pictures.
 ms.assetid: 88fea2ec-7b53-44bb-841d-486c5c879c68
 title: Paths
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

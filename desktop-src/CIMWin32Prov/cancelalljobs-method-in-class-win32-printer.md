@@ -1,14 +1,8 @@
 ---
 Description: Removes all jobs, including the one currently printing from the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d7466513-b123-43af-ab17-b3213ba80284
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CancelAllJobs method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ChangeRole method of the Win32_TSLicenseServer class
 description: Changes the discovery scope of the Remote Desktop license server. The discovery scope determines which Remote Desktop Session Host (RD Session Host) servers on the network can automatically discover the license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3d98fd8a-4ade-489f-8edd-5df1227f15cd
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

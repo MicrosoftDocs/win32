@@ -2,7 +2,6 @@
 Description: When the Windows Installer processes the installation script for the installation of a product or application, it simultaneously generates a rollback script and saves a copy of every file deleted during the installation.
 ms.assetid: 6c70e788-beb0-46db-94b0-1bbaac972acf
 title: Rollback Installation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

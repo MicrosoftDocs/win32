@@ -2,7 +2,6 @@
 Description: Noninteractive authentication can only be used after an interactive authentication has taken place. During noninteractive authentication, the user does not input logon data, instead, previously established credentials are used.
 ms.assetid: 1539cbfa-d84f-4989-8380-6cfc7c496310
 title: Noninteractive Authentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

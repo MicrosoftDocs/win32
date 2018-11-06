@@ -1,12 +1,8 @@
 ---
 Description: Special client applications might invoke privileged operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e09fcadc-282f-4f07-b69c-b15bfdb07a7d
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

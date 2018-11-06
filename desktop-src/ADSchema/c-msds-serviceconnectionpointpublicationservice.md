@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Service-Connection-Point-Publication-Service class
 description: Stores configuration options for the Service Connection Point publication service in ADAM.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 30b4df70-a03b-4d42-b200-75bfa6cf8273
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Service-Connection-Point-Publication-Service
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

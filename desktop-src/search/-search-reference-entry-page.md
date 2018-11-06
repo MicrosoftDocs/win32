@@ -2,7 +2,6 @@
 Description: Windows Search Reference
 ms.assetid: 3590cdab-5831-4372-adf7-61814031c931
 title: Windows Search Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

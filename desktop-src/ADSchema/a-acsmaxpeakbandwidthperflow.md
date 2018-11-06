@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Peak-Bandwidth-Per-Flow attribute
 description: The peak bandwidth any flow can consume.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7506a90f-d968-4b69-a8fe-a1515418a1d4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Peak-Bandwidth-Per-Flow
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

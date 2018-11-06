@@ -6,7 +6,6 @@ keywords:
 - MCI command messages,about
 - MCI command messages,syntax
 - mciSendCommand function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

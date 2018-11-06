@@ -2,7 +2,6 @@
 Description: This optional string value allows for overriding the standard sort order of System.Music.Artist.This is very important for proper sorting of music files in Japanese which cannot becorrectly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios,such as allowing the user to remove articles for sorting purposes.
 ms.assetid: acdeff02-6e0d-4308-a81e-de45487d6517
 title: System.Music.ArtistSortOverride
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

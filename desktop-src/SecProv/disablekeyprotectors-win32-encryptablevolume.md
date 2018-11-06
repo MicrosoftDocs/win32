@@ -2,7 +2,6 @@
 Description: Disables or suspends all key protectors associated with this volume.
 ms.assetid: 19eed858-a116-4ec8-937a-2eea7aadbdc6
 title: DisableKeyProtectors method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

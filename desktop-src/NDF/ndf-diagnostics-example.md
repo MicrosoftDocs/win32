@@ -2,7 +2,6 @@
 title: NDF Diagnostics Example
 description: The following example shows how to launch the NDF user interface and diagnose connectivity to the website http //www.microsoft.com.
 ms.assetid: 6fe3af13-7216-4ac9-91ac-c497d25521ab
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

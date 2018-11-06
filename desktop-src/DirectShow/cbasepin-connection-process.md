@@ -2,7 +2,6 @@
 Description: CBasePin Connection Process
 ms.assetid: 4b3a9023-0267-4caa-9d89-88237009df05
 title: CBasePin Connection Process
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

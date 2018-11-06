@@ -2,7 +2,6 @@
 title: Windows Deployment Services Server Functions
 description: The following functions are used with Windows Deployment Services PXE Server API.
 ms.assetid: b6089ff9-4d74-4f5d-957f-4a741c09f4b9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

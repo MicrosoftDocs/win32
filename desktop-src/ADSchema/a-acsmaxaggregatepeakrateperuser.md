@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Aggregate-Peak-Rate-Per-User attribute
 description: The maximum peak rate any user may have for all flows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0efd69a9-56e9-4098-845f-fab842f23c6a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Aggregate-Peak-Rate-Per-User
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

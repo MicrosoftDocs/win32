@@ -2,7 +2,6 @@
 Description: Beginning with Windows Installer 3.0, authors can add patch sequencing information to the patch package database in the MsiPatchSequence table.
 ms.assetid: 9cdcb25f-2c3d-411e-9aae-bdd52df38a97
 title: Sequencing Patches
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

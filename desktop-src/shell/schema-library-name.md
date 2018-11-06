@@ -2,7 +2,6 @@
 Description: The <name> element specifies the name of this library. This element is required and has no attributes or child elements.
 ms.assetid: 1F433405-5943-4579-BDAD-423C4E1A6E76
 title: name Element (Library Schema)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

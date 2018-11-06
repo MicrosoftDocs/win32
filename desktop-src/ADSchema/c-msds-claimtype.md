@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Type class
 description: An instance of this class holds the definition of a claim type that can be defined on security principals.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7edfd085-ab6e-47f3-8e36-793946f06049
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

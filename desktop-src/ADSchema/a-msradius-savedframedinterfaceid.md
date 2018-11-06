@@ -1,9 +1,6 @@
 ---
 title: ms-RADIUS-SavedFramedInterfaceId attribute
 description: Indicates the IPv6 interface identifier to be configured for the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 503b7cf5-9bdd-4118-aed8-3674090e2377
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-RADIUS-SavedFramedInterfaceId
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

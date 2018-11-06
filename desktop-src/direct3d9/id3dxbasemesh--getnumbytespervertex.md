@@ -2,7 +2,6 @@
 Description: Gets the number of bytes per vertex.
 ms.assetid: a5028af0-16a4-494b-8fe2-5f607fc07d14
 title: ID3DXBaseMesh::GetNumBytesPerVertex method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

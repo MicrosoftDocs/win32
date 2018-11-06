@@ -2,7 +2,6 @@
 Description: XAPOFX is a collection of audio effects implementing the XAPO interfaces for use in XAudio2. XAPOFX contains several effects, and a common mechanism for creating effect instances.
 ms.assetid: 762062de-4e19-5e42-8059-e2f8741bd362
 title: XAPOFX Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

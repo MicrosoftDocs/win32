@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings BitmapCacheSize property
 description: The size, in kilobytes, of the bitmap cache file used for 8-bits-per-pixel bitmaps.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a2a4b739-0fa3-4a76-87ae-3cba913b7703
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: COM+ Queued Components Concepts
 ms.assetid: ff11e251-311f-4612-8f0d-a4cbc5b4d872
 title: COM+ Queued Components Concepts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

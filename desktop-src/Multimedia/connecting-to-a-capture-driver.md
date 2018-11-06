@@ -4,7 +4,6 @@ description: Connecting to a Capture Driver
 ms.assetid: ce83329f-de5a-4428-bc0d-be5f3d35ff1a
 keywords:
 - capDriverDisconnect macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

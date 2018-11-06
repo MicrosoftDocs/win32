@@ -1,9 +1,6 @@
 ---
 title: User-Principal-Name attribute
 description: This attribute contains the UPN that is an Internet-style login name for a user based on the Internet standard RFC 822.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 588e76fa-45b6-4853-821a-9e5730255b9f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Principal-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

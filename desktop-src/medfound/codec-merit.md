@@ -2,7 +2,6 @@
 Description: Codec Merit
 ms.assetid: 4ed594a0-2cc2-40d2-9b5c-dee59916fa1b
 title: Codec Merit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Progress Bars
 description: With a progress bar, users can follow the progress of a lengthy operation. A progress bar may either show an approximate percentage of completion (determinate), or indicate that an operation is ongoing (indeterminate).
 ms.assetid: 067961fa-2fb1-4cd1-99a4-cbe2244c3913
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

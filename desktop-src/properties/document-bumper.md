@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 019b2fa7-fbaf-45d6-b5ff-4eefbae2e57a
 title: Document
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

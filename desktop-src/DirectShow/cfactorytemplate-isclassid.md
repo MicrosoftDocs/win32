@@ -2,7 +2,6 @@
 Description: The IsClassID method determines whether a CLSID matches this class template.
 ms.assetid: de560f7a-2ccb-44e2-ac32-3b0fea0d80b8
 title: CFactoryTemplate.IsClassID method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

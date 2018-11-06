@@ -7,7 +7,6 @@ keywords:
 - waveform-audio interface,querying input devices
 - recording waveform audio,querying input devices
 - querying waveform-audio input devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

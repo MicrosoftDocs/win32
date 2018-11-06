@@ -1,9 +1,6 @@
 ---
 title: Security-Identifier attribute
 description: A unique value of variable length used to identify a user account, group account, or logon session to which an ACE applies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bb6a16f6-d2c1-48f1-af9a-40fe2a59f281
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Security-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

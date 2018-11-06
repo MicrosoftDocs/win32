@@ -2,7 +2,6 @@
 Description: The PROPERTYINST structure defines an instance of a property in a piece of recognized data. Network Monitor allocates and fills in a PROPERTYINST structure when a property is attached to the capture.
 ms.assetid: d8382a38-b634-4c65-b56b-44fee067a0fe
 title: PROPERTYINST structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

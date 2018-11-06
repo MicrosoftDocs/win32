@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation TableItem
 - control patterns,TableItem
 - interfaces,ITableItemProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

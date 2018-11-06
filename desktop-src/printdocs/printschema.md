@@ -2,7 +2,6 @@
 Description: The Print Schema and related technologies are available in Microsoft .NET Framework 3.0 and later versions of Microsoft .NET Framework, and in Windows Vista and later versions of Windows.
 ms.assetid: 98d5f8ec-54bd-4e88-b632-ed427b599cb6
 title: Print Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_VIDEO\_ALBUM
 ms.assetid: 0445a7de-1a2d-4369-b1f6-588fd6f2c999
 title: WPD_CONTENT_TYPE_VIDEO_ALBUM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Example Code for Searching for Groups in a Domain
 description: This topic includes a code example that searches the subtree of the specified container for all group objects that have the specified group type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07b27324-4f59-42c2-a42f-8c2cef138928
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , searching for groups in a domain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

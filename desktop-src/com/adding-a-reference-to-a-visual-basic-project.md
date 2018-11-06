@@ -2,7 +2,6 @@
 title: Adding a Reference to a Visual Basic Project
 description: Adding a Reference to a Visual Basic Project
 ms.assetid: 635b1fe9-e592-42d7-a0ee-34fea205f412
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

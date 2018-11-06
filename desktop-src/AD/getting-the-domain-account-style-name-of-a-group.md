@@ -1,14 +1,10 @@
 ---
 title: Getting the Domain Account-Style Name of a Group
 description: Users, groups, computers, and other security principals can be represented in domain account form.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 85627d2d-2845-4998-9957-ce0c8b6473bd
 ms.tgt_platform: multiple
 keywords:
 - groups AD ,getting the domain account-style name of a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

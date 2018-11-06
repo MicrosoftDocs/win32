@@ -2,7 +2,6 @@
 title: DDE Notifications
 description: .
 ms.assetid: 8e8a007a-d8de-417f-81be-bc90a55663e5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

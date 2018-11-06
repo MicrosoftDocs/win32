@@ -2,7 +2,6 @@
 Description: Indicates whether the current user is an administrator.
 ms.assetid: e759a6b9-19c3-4a2e-b8cf-1398037f88ee
 title: pSetupIsUserAdmin function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

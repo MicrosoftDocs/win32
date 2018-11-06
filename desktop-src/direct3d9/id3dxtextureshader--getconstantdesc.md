@@ -2,7 +2,6 @@
 Description: Gets a pointer to the array of constants in the constant table.
 ms.assetid: 2476344b-8433-46bb-9242-dff84e3168e7
 title: ID3DXTextureShader::GetConstantDesc method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

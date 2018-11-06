@@ -1,14 +1,8 @@
 ---
 Description: Starts the debugger that is currently registered for this process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63c30db8-6117-4353-9132-4f39c72a6637
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AttachDebugger method of the Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

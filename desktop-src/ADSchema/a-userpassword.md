@@ -1,9 +1,6 @@
 ---
 title: User-Password attribute
 description: The user's password in UTF-8 format. This is a write-only attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fcbd5e46-93fc-461e-aa6e-26d08114e73a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetUserGroupNames method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Sets the UserGroupNames property for the Remote Desktop resource authorization policy (RD \ 160;RAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 91b77cd6-779e-460a-88a3-eda7a6fe99e5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

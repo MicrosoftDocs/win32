@@ -2,7 +2,6 @@
 Description: The HCRYPTKEY data type is used to represent handles to cryptographic keys.
 ms.assetid: d62f1d40-4f42-4684-96d7-de88db67dceb
 title: HCRYPTKEY
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

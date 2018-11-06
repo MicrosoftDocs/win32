@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: f1c73aed-fca4-47f6-bb98-bab40a6a9b2e
 title: ParameterDef and ParameterInit Elements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

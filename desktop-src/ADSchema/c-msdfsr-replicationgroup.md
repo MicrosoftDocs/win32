@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ReplicationGroup class
 description: Defines the global replication group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 852a1e04-25d3-4cca-ae05-22a93558437b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ReplicationGroup
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

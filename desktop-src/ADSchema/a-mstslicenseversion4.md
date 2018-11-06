@@ -1,9 +1,6 @@
 ---
 title: MS-TS-LicenseVersion4 attribute
 description: Version of the fourth terminal server per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb10a6b1-6a36-4619-8dd2-e5c6b794b3ff
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-LicenseVersion4
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

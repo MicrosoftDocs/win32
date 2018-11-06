@@ -5,7 +5,6 @@ ms.assetid: 30a2b6e3-1462-45a4-a717-02be33da07cf
 keywords:
 - General WinSNMP Programming Tasks SNMP
 - WinSNMP Programming Tasks SNMP , General
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

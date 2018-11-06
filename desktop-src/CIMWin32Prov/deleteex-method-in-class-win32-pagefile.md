@@ -1,14 +1,8 @@
 ---
 Description: Deletes the logical paging file (or directory) specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ea31f92a-94b9-4d4d-abd9-6c304ac5caee
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_PageFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

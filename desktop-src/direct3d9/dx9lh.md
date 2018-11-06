@@ -2,7 +2,6 @@
 Description: This documentation specifically refers to the Windows Vista extensions for DirectX graphics.
 ms.assetid: 3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5
 title: Feature Summary (Direct3D 9 for Windows Vista)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Precise
 description: Per-instruction disabling of arithmetic refactoring.
 ms.assetid: A26E569A-32EA-4AED-83C2-4F937AD3829E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

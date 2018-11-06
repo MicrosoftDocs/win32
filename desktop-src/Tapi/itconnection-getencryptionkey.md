@@ -2,7 +2,6 @@
 Description: The GetEncryptionKey method gets the encryption key.
 ms.assetid: a80d8660-d13e-483f-b1d7-ee2043ef5cab
 title: ITConnection::GetEncryptionKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

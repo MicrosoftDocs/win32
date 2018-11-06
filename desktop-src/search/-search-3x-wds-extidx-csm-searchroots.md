@@ -2,7 +2,6 @@
 Description: The Crawl Scope Manager (CSM) enables you to add and remove search roots for your data stores to and from the Windows Search crawl scope.
 ms.assetid: 0f1ff41f-7c4c-4516-bb55-bf09a8f2f3bc
 title: Managing Search Roots
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

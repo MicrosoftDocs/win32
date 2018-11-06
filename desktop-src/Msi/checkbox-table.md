@@ -2,7 +2,6 @@
 Description: The CheckBox table lists the values for the check boxes.
 ms.assetid: 6881f358-74af-4160-ac69-36e848865ac0
 title: CheckBox Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

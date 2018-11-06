@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Name-Style attribute
 description: The convention of computer name style.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dff1c988-77a5-4454-b54c-bb52bf771401
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Name-Style
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

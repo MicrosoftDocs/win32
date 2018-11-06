@@ -2,7 +2,6 @@
 Description: Specifies the password used to authenticate a user.
 ms.assetid: 9c02413b-a4c7-4c1f-a150-e27cc125faf6
 title: Password (UserLogonCred) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

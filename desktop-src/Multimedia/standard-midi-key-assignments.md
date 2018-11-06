@@ -10,7 +10,6 @@ keywords:
 - MIDI Manufacturers Association (MMA)
 - MMA (MIDI Manufacturers Association)
 - General MIDI Mode specification
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

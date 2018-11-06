@@ -2,7 +2,6 @@
 Description: Represents settings for an allocated resource that are outside the scope of the CIM class typically used to represent the resource itself.
 ms.assetid: 6261bab9-aa51-479e-bd6a-43c4a9b294a6
 title: CIM_ResourceAllocationSettingData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

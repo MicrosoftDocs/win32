@@ -1,12 +1,8 @@
 ---
 Description: A string is a data type that contains a string of characters usually intended as human-readable text.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 08a07184-6d23-4988-a3de-e5bfc3e177f8
 ms.tgt_platform: multiple
 title: Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

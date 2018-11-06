@@ -2,7 +2,6 @@
 Description: Provides information about the network connectivity for a virtual machine.
 ms.assetid: 59503c1b-203b-46ec-8a65-f21a746f170f
 title: Msvm_NetworkConnectionDiagnosticInformation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

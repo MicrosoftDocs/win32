@@ -1,7 +1,6 @@
 ---
 Description: This section discusses the creation of shortcut (context) menus, and the implementation of shortcut menu (verb) handlers.
 title: Shortcut (Context) Menus and Shortcut Menu Handlers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

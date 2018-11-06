@@ -5,7 +5,6 @@ ms.assetid: 2398a44d-c5c7-4fa2-b0ed-1cfb75d8822c
 keywords:
 - profiles,system
 - system profiles,loading
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

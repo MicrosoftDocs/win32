@@ -3,7 +3,6 @@ Description: Contains definitions of security terms that begin with the letter D
 Robots: noindex, nofollow
 ms.assetid: d007cbb9-b547-4dc7-bc22-b526f650f7c2
 title: D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

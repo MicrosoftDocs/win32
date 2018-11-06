@@ -1,9 +1,6 @@
 ---
 title: ACS-Total-No-Of-Flows attribute
 description: The total number of flows that a given user may have.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cfbb4bc3-8233-47aa-8b67-88454d44e359
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Total-No-Of-Flows
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

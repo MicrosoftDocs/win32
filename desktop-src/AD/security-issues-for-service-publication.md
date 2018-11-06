@@ -1,15 +1,11 @@
 ---
 title: Security Issues for Service Publication
 description: The system restricts the ability to create, modify, or delete connection point objects. Be aware of, and handle, these restrictions when you publish a service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38e20a47-738d-4951-ad74-249039afeb52
 ms.tgt_platform: multiple
 keywords:
 - Security Issues for Service Publication AD
 - Active Directory, using, security, service publication security issues
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

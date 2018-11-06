@@ -4,7 +4,6 @@ description: A feature called \ 0034;default connection \ 0034; was added to the
 ms.assetid: 8ef832ed-97e4-4941-adb2-b35ce3a75fd1
 keywords:
 - AutoDial, RAS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

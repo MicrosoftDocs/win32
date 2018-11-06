@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: f299d6b5-c587-4c5e-a020-8471dedd2ac0
 title: Indexing, Querying and Notifications in Windows Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

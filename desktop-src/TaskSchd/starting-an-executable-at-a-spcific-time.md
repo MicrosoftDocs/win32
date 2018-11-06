@@ -5,7 +5,6 @@ ms.assetid: a45a403d-5a54-4648-b517-41e01a0745c9
 keywords:
 - Task Scheduler examples Task Scheduler , time trigger
 - Task Scheduler examples Task Scheduler , starting an executable
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

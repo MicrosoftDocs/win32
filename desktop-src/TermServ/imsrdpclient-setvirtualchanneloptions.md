@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient SetVirtualChannelOptions method
 description: Sets the virtual channel options for the Remote Desktop ActiveX control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c74c3917-5766-4d5b-8458-b051eb91cb28
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

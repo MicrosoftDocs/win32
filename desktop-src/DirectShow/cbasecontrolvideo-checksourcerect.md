@@ -2,7 +2,6 @@
 Description: Determines if a source rectangle is valid.
 ms.assetid: 3fef107b-6f4c-4fab-91d3-6ab72dcc32be
 title: CBaseControlVideo.CheckSourceRect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

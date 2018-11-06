@@ -1,7 +1,6 @@
 ---
 Description: The stackedby argument specifies the property column to stack results by. You can stack by any valid property from the property system.
 title: STACKEDBY Argument
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Notifying CBasePin of Filter State Changes
 ms.assetid: 521ba95b-1f2d-4ad0-ab9b-4f1e3343a2d3
 title: Notifying CBasePin of Filter State Changes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

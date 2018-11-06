@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-Activation-Objects-Container class
 description: Container for Activation Objects used by Active Directory based activation
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3e43b439-91aa-4bdf-b1af-96d908c9a3eb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-Activation-Objects-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

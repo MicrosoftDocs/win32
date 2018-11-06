@@ -2,7 +2,6 @@
 Description: Writes binary data to the specified database.
 ms.assetid: 935321b8-904e-46be-ad11-77d89670a072
 title: SdbWriteBinaryTag function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

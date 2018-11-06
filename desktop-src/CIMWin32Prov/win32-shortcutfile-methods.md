@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ShortcutFile class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 87A570EA-2CF5-41AC-A05C-E85317295C77
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ShortcutFile Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

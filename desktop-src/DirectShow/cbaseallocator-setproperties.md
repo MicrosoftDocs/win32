@@ -2,7 +2,6 @@
 Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method implements the IMemAllocator::SetProperties method.
 ms.assetid: f53c22a4-c01d-4d2f-81f0-bedf8f2ae5f0
 title: CBaseAllocator.SetProperties method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Print-Spooling attribute
 description: A string that represents the type of printer spooling.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbfa0a3f-dec1-4b7b-855d-426733bcd7f2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Spooling
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Security in Active Directory Domain Services
 description: Active Directory Domain Services are part of the Windows 2000 trusted computing base and are a full participant in the Windows 2000 security infrastructure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8fb6a9a4-d1c4-48e9-8ffb-240990777a1c
 ms.tgt_platform: multiple
 keywords:
 - Security Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

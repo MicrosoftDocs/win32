@@ -2,7 +2,6 @@
 Description: A credential manager is similar to a network provider in that it provides entry points that are called by the Multiple Provider Router (MPR). In fact, some network providers are also credential managers.
 ms.assetid: a1105754-a57f-4a0d-9797-bec22b99900c
 title: Credential Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

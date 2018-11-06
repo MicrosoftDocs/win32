@@ -2,7 +2,6 @@
 Description: Enumerating Audio Types for Specific Encoding Modes
 ms.assetid: d44960eb-da5e-4379-ba9d-cb804559dc53
 title: Enumerating Audio Types for Specific Encoding Modes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

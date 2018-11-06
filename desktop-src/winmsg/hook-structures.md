@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 957d2c6f-15a8-42a5-b8cf-b8dc8d747867
 title: Hook Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

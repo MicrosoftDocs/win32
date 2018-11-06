@@ -10,7 +10,6 @@ keywords:
 - manipulations,sample code
 - manipulations,code samples
 - Manipulation sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

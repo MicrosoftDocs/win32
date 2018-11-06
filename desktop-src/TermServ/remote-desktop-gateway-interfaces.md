@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Gateway Interfaces
 description: The Remote Desktop Gateway (RD Gateway) API supports the following interfaces. You can use these interfaces to implement plug-ins that provide customized authentication and authorization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a457574a-d856-4490-b20d-48343a82acff
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

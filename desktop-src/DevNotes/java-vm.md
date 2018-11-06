@@ -2,7 +2,6 @@
 Description: Java VM
 ms.assetid: 911B2CEC-A787-48C8-A520-3B283E36FD7A
 title: Java VM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

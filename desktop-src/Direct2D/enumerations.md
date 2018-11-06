@@ -4,7 +4,6 @@ description: Direct2D defines the following enumerations.
 ms.assetid: 1491f241-5b67-4883-9ee9-d934a3a66e73
 keywords:
 - Direct2D,enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

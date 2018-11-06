@@ -1,15 +1,11 @@
 ---
 title: Implementing the Property Page COM Object
 description: A property sheet extension is a COM object implemented as an in-proc server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 77a71086-1949-4828-801e-073ea5a6838b
 ms.tgt_platform: multiple
 keywords:
 - Implementing the Property Page COM Object
 - Property Page COM Object, Implementing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

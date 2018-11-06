@@ -1,14 +1,10 @@
 ---
 title: Creating a Security Descriptor for a New Directory Object
 description: You can use ADSI to create a security descriptor and set it as a new object's nTSecurityDescriptor property or use it to replace an existing object's nTSecurityDescriptor property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b9ff626f-17f1-4fc1-9d6e-4f47e29a5aeb
 ms.tgt_platform: multiple
 keywords:
 - Creating a Security Descriptor for a New Directory Object AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

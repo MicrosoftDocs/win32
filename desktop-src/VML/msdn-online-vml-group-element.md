@@ -2,7 +2,6 @@
 title: VML Group Element
 description: VML Group Element
 ms.assetid: 536c2380-2583-4fe8-a92e-c539de209a70
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

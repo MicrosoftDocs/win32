@@ -1,12 +1,8 @@
 ---
 Description: A synchronous query is a query that maintains control over the process of your application for the duration of the query.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 628e9a31-7b0d-4099-bfa5-56330bb4eb6b
 ms.tgt_platform: multiple
 title: Invoking a Synchronous Query
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

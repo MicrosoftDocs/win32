@@ -13,7 +13,6 @@ keywords:
 - OpenGL porting from IRIS GL,materials
 - lighting
 - materials
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

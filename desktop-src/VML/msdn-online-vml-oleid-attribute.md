@@ -2,7 +2,6 @@
 title: VML OLEID Attribute
 description: VML OLEID Attribute
 ms.assetid: c79546ca-d066-4c96-854b-996f6a2810ac
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

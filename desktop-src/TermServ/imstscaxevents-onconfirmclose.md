@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnConfirmClose method
 description: Called when the client calls the IMsRdpClient RequestClose method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fb149fbc-9415-4c4c-8d4b-e22214ac38cb
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

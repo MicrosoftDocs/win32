@@ -2,7 +2,6 @@
 title: Router Manager (Transport) Functions
 description: Use the following functions to administer the router managers. These functions also allow a developer to read and write the global information for the router managers, and the global information for router clients (such as routing protocols).
 ms.assetid: c1093241-604d-498d-a358-f8e8585b95cd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

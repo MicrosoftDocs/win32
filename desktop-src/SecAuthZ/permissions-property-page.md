@@ -2,7 +2,6 @@
 Description: The Permissions property page contains controls for advanced editing of the ACEs in an objects DACL.
 ms.assetid: 85a9fe30-871b-4909-b789-3fc257ffdbff
 title: Permissions Property Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

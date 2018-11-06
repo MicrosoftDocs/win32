@@ -1,14 +1,10 @@
 ---
 title: Example Code for Setting a Control Access Right ACE
 description: The following C/C++ code example adds an ACE for a control access right to the ACL of an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8fb5eb47-27ca-4e60-ad39-ca4392da4e7d
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Setting a Control Access Right ACE AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

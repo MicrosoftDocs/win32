@@ -2,7 +2,6 @@
 title: Completion Notifications
 description: The Remote Access Connection Manager continues progress notifications until the connection operation has been completed.
 ms.assetid: 2c3b0d03-1cb7-4fa4-a7fa-bcfe623b791f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

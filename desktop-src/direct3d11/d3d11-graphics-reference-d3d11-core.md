@@ -2,7 +2,6 @@
 title: Core Reference
 description: The Direct3D API defines several core API elements.
 ms.assetid: 893fff90-6fcb-4f70-8d3a-1d7621baeeb4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

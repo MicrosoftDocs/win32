@@ -11,7 +11,6 @@ keywords:
 - MIXERCONTROLDETAILS_SIGNED structure
 - pan control
 - QSound pan control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

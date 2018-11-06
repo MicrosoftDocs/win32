@@ -2,7 +2,6 @@
 Description: Finds the text range in the recognized string that corresponds to a collection of IContextNode objects.
 ms.assetid: 2c5bc4a1-08de-4872-b552-6d22924ce2a8
 title: IInkAnalyzer::GetTextRangeFromNodes method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

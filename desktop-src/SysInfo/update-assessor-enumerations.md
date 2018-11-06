@@ -2,7 +2,6 @@
 Description: The following enumerations are used by the Update Accessor provider.
 ms.assetid: CFE20D9D-26E1-4376-A7C5-E901E0ADD1B9
 title: Update Assessor Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

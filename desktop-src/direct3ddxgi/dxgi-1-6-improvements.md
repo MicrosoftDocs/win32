@@ -2,7 +2,6 @@
 Description: The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 in order to detect HDR displays.
 ms.assetid: C68EC437-7600-43A8-8DEA-5A6AEE75D5AA
 title: DXGI 1.6 Improvements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic describes how to write a Media Foundation transform (MFT) that acts as a proxy to a hardware encoder, decoder, or digital signal processor (DSP).
 ms.assetid: 9922d403-5d0d-433f-ad9f-c86142ac0f46
 title: Hardware MFTs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -16,7 +15,7 @@ ms.date: 05/31/2018
 
 This topic describes how to write a Media Foundation transform (MFT) that acts as a proxy to a hardware encoder, decoder, or digital signal processor (DSP).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If a hardware codec uses the AVStream multimedia class driver, it does not require a custom MFT. Media Foundation provides an AVStream proxy for this purpose. The information in this topic applies only in the special case where the hardware codec does not use AVStream. For more information, see [Hardware Codec Support in AVStream](http://go.microsoft.com/fwlink/p/?linkid=155193).
 
  

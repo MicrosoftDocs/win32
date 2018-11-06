@@ -2,7 +2,6 @@
 Description: The Delete method deletes a file at a given location within the smart card file system.
 ms.assetid: f51b0329-c5dc-4f70-a92e-19dc0dbc55f8
 title: ISCardFileAccess::Delete method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

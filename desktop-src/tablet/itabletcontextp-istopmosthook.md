@@ -2,7 +2,6 @@
 Description: Indicates if the tablet context is in the top most hook.
 ms.assetid: b4aaee47-3d77-49cd-9600-f41764b9fb85
 title: ITabletContextP::IsTopMostHook method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

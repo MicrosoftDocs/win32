@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: f4c66812-8782-4a85-8a74-3505c4e73e56
 title: Constraints and PrintTicket Validation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

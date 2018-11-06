@@ -4,7 +4,6 @@ description: The large integer functions and structures originally provided supp
 ms.assetid: db4ffbd5-d9e4-4c95-83cc-6f0691c080d2
 keywords:
 - large integers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How to Process the DTN_FORMATQUERY Notification
 description: This topic demonstrates how to process a Format Query notification that is sent by the date and time picker (DTP) control.
 ms.assetid: 74E29438-2F50-4ADD-B0C4-DB3450BF08D7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

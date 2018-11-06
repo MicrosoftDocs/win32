@@ -1,9 +1,6 @@
 ---
 title: Object-Classes attribute
 description: A multiple-valued property that contains strings that represent each class in the schema. Each value contains the governsID, lDAPDisplayName, mustContain, mayContain, and so on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7e3eda48-8e64-4a52-8d92-7a0d37e513ef
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Classes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

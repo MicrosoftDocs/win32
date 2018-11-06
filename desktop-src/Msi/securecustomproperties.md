@@ -2,7 +2,6 @@
 Description: The SecureCustomProperties is a list of public properties delimited by semi-colons.
 ms.assetid: 5f4cc2ad-76d0-4ed9-a59e-9dd59a4d4613
 title: SecureCustomProperties property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

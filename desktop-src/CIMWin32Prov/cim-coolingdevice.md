@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CoolingDevice class represents the capabilities and management of cooling devices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ac0f0df4-c174-4306-9325-eaa316ee820a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CoolingDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -46,7 +40,7 @@ api_location:
 
 The **CIM\_CoolingDevice** class represents the capabilities and management of cooling devices.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

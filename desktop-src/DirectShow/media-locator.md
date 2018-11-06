@@ -2,7 +2,6 @@
 Description: Media Locator
 ms.assetid: 165d5f94-d3f1-45f4-9ceb-0adcd1e03da5
 title: Media Locator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

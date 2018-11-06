@@ -1,9 +1,6 @@
 ---
 title: Home-Drive attribute
 description: Specifies the drive letter to which to map the UNC path specified by homeDirectory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fa402e14-febf-4ed9-bcc6-a6bfd405068c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Home-Drive
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

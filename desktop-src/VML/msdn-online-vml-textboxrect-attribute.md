@@ -2,7 +2,6 @@
 title: VML TextBoxRect Attribute
 description: VML TextBoxRect Attribute
 ms.assetid: 22c3510a-be5f-4357-b288-02d96eae99ed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

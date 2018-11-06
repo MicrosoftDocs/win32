@@ -2,7 +2,6 @@
 Description: Suggestions for application security assessments for app development of Windows security software and secure software development, including application security testing.
 ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: Best Practices for the Security APIs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

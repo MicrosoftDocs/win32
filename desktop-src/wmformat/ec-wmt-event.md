@@ -10,7 +10,6 @@ keywords:
 - DRM (digital rights management),EC_WMT_EVENT
 - Advanced Systems Format (ASF),EC_WMT_EVENT
 - ASF (Advanced Systems Format),EC_WMT_EVENT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

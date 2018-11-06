@@ -1,9 +1,6 @@
 ---
 title: Create method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Creates a Remote Desktop connection authorization policy (RD \ 160;CAP) by using the specified values. The new RD \ 160;CAP will be inserted at the top of the RD \ 160;CAP evaluation order, with an Order property value of \ 0034;1 \ 0034;.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0010cd2b-9c23-488a-9337-d2ed338136d3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

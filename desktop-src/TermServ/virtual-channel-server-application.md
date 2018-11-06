@@ -1,12 +1,8 @@
 ---
 title: Virtual Channel Server Application
 description: The server module of an application that uses virtual channels must be a user-mode application running in a client session on the Remote Desktop Session Host (RD Session Host) server. Note that you must provide a method to start the server application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b593df5d-5e22-46c6-8f59-9e3fdfe765ad
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

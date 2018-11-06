@@ -2,7 +2,6 @@
 title: Transaction Management
 description: Transaction Management
 ms.assetid: 150010BF-0503-4188-B90F-45E8A8257C71
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

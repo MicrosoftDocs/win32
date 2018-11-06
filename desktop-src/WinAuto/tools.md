@@ -2,7 +2,6 @@
 title: Tools
 description: You can use the following tools for testing Microsoft Active Accessibility implementations. For more information about the testing tools, see Testing Tools.
 ms.assetid: '3599617b-c26d-4b4a-9990-811a808815af'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

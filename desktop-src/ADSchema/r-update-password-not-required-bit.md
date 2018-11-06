@@ -1,9 +1,6 @@
 ---
 title: Update-Password-Not-Required-Bit extended right
 description: Extended control access right that allows a user to enable or disable the \ 0034;password not required \ 0034; setting for user objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f633098d-f0af-43e0-b7bd-5cf53045f86e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Update-Password-Not-Required-Bit
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

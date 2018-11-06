@@ -8,7 +8,6 @@ keywords:
 - text services,constants
 - TSF reference,text services
 - reference for TSF,text services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

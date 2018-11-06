@@ -2,7 +2,6 @@
 Description: Using the Codec and DSP Objects
 ms.assetid: ec571d31-6542-421a-8027-d4c61ce00035
 title: Using the Codec and DSP Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

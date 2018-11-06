@@ -2,7 +2,6 @@
 Description: Signal strength of the device. Only applicable for some protocols.
 ms.assetid: 21769028-064d-4e17-88ec-16708732a176
 title: System.Devices.Aep.SignalStrength
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

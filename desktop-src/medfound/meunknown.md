@@ -2,7 +2,6 @@
 Description: Unknown event type. You can use this value to initialize variables of type MediaEventType, but a component should never raise the MEUnknown event.
 ms.assetid: 786b69f4-8713-41db-829a-c13512baa3f1
 title: MEUnknown event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

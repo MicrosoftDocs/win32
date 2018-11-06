@@ -1,9 +1,6 @@
 ---
 title: Win32_TSSessionSetting class
 description: Defines configuration settings for the Win32\_Terminal class such as time-limits, and disconnection and reconnection actions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e115f370-270c-404f-b6c6-7781c1ff376f
 ms.tgt_platform: multiple
 keywords:
@@ -36,7 +33,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

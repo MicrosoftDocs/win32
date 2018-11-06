@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Has-Instantiated-NCs attribute
 description: DS replication state information, analogous to (and a superset of) the existing attributes hasMasterNCs and hasPartialReplicaNCs. To be used by the KCC when setting up replication partners.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 00dda441-e382-4fb2-b735-ae547901c11f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Has-Instantiated-NCs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - reference for skins,trackbars
 - trackbars in skins,Trackbars section
 - skin definition files,Trackbars section
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

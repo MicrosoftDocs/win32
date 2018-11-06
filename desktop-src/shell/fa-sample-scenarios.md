@@ -2,7 +2,6 @@
 Description: In the following example, a hypothetical software development company called Litware, Inc.
 ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: File Association Example
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 In the following example, a hypothetical software development company called Litware, Inc. creates a new audio player called LitwarePlayer. Litware wants to design a file association between LitwarePlayer and its primary file type, which uses a newly developed audio format that enables an entire audio CD to be stored in less than 10 kilobytes of memory with no loss of quality.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](http://go.microsoft.com/fwlink/p/?linkid=619638).
 
  

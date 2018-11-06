@@ -2,7 +2,6 @@
 Description: Used to connect to networks which do not broadcast their network name or SSID.
 ms.assetid: 564324ad-6723-4676-ab5c-0b5d2957d201
 title: Non-Broadcast Profile Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

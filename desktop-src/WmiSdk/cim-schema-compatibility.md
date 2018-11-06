@@ -1,12 +1,8 @@
 ---
 Description: CIM Schema Compatibility
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3738914d-dd33-4999-b37f-b4bb94689cd4
 ms.tgt_platform: multiple
 title: CIM Schema Compatibility
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

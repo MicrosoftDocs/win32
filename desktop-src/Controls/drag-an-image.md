@@ -2,7 +2,6 @@
 title: How to Drag an Image
 description: This topic demonstrates how to drag an image on the screen. The dragging functions move an image smoothly, in color, and without any flashing of the cursor. Both masked and unmasked images can be dragged.
 ms.assetid: 84AFA770-F495-4312-9631-3335BA8CC799
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

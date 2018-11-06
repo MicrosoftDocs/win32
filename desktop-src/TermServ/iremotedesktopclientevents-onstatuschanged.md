@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnStatusChanged method
 description: Called when the client control has updated its status.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AAFBDC9E-C8B5-4924-AA69-82EF09996AF7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

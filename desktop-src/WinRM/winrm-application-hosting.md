@@ -1,12 +1,8 @@
 ---
 title: Infrastructure for Managing Hosted Services
 description: Windows Remote Management 2.0 (WinRM) introduces a hosting framework. To use the framework, WinRM plug-ins are written that expose management data of an application within the WinRM infrastructure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 924dcc70-9a29-45a6-99a2-5681235e4574
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

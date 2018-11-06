@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 7024b244-545a-4113-9d7c-fe99225baaba
 title: System.Contact.BusinessAddress1Country
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

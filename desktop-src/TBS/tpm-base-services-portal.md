@@ -5,7 +5,6 @@ ms.assetid: ae6e7fe9-585d-467a-8456-e008b8ea89a0
 keywords:
 - TPM Base Services TBS
 - TPM Base Services TBS , home page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

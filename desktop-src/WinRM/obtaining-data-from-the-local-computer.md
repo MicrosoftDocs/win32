@@ -1,12 +1,8 @@
 ---
 title: Obtaining Data from the Local Computer
 description: Although Windows Remote Management and WS-Management protocol are explicitly designed for remote communication, establishing a session on the local computer is the simplest case.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7f08b557-bbd4-4f67-b5e5-b84e8af58657
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

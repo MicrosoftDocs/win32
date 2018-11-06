@@ -1,14 +1,8 @@
 ---
 Description: The SetDynamicDNSRegistration method indicates the dynamic DNS registration of IP addresses for this IP-bound adapter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8e6ca408-3283-40b8-b621-9befdc39b730
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetDynamicDNSRegistration method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

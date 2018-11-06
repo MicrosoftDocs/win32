@@ -1,9 +1,6 @@
 ---
 title: MS-TS-GatewayAccess property set
 description: MS-TS-GatewayAccess property set
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d0faf11-6ae8-47a2-913c-1f1aee52c791
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - MS-TS-GatewayAccess
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

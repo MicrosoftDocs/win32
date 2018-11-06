@@ -1,14 +1,10 @@
 ---
 title: Removing Members from Groups in a Domain
 description: You can remove users, groups, or contacts from groups.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 036f2882-7da9-4293-87a0-a087235b212f
 ms.tgt_platform: multiple
 keywords:
 - groups AD ,removing members from groups in a domain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

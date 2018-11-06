@@ -1,15 +1,11 @@
 ---
 title: Interface Property Methods
 description: Many ADSI interfaces are designed to support Automation and thus are dual interfaces in that they support client access through both IUnknown and IDispatch interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2831fa4-b58d-4b65-8deb-5fb7cd50c724
 ms.tgt_platform: multiple
 keywords:
 - Interface Property Methods
 - ADSI ADSI , reference, property methods explained
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

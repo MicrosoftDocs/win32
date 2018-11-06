@@ -1,9 +1,6 @@
 ---
 title: ms-Exch-Owner-BL attribute
 description: The backward link to the owner attribute. Contains a list of owners for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7b47238d-7edd-4375-83bf-6dbb8da794ef
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Exch-Owner-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

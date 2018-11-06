@@ -2,7 +2,6 @@
 title: About TraceLogging
 description: TraceLogging is the new Windows 10 event tracing for user-mode applications and kernel-mode drivers.
 ms.assetid: 8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

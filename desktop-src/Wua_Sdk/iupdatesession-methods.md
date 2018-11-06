@@ -2,7 +2,6 @@
 Description: The IUpdateSession interface defines the following methods.
 ms.assetid: cb2cf494-0a9e-408f-8246-3039d5cd1f17
 title: IUpdateSession Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

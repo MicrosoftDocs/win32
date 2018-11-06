@@ -2,7 +2,6 @@
 title: Event Freezing
 description: Event Freezing
 ms.assetid: 1e537503-f7e7-42f4-aa3c-3c71715b84fe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Hardware Provider Interactions and Behaviors
 ms.assetid: 059968cf-43e5-4442-b757-80afdd66799f
 title: Hardware Provider Interactions and Behaviors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

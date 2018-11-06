@@ -2,7 +2,6 @@
 Description: Describes the presentation parameters.
 ms.assetid: d677aeb7-a188-4ddc-b8c9-48e13676e9c8
 title: D3DPRESENT_PARAMETERS structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type:

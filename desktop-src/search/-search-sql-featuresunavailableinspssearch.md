@@ -2,7 +2,6 @@
 Description: Microsoft Windows Search query language is based on Structured Query Language (SQL); however, it does not search in a relational database with user-defined tables or indexes.
 ms.assetid: e81c436e-3a33-4b00-9860-9a54bc0eebbf
 title: SQL Features Unavailable in Microsoft Windows Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Telex-Number attribute
 description: A list of alternate telex numbers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5fead61-fec1-4ba1-b9bd-d5510f3f2183
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Telex-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

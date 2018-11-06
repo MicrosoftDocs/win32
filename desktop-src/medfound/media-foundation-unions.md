@@ -2,7 +2,6 @@
 Description: Media Foundation Unions
 ms.assetid: 03d97d26-714d-4aec-bb92-0772f09b7cca
 title: Media Foundation Unions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

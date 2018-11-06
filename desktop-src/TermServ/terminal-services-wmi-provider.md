@@ -1,14 +1,10 @@
 ---
 title: Remote Desktop Services WMI provider
 description: The Remote Desktop Services WMI provider provides programmatic access to the information and settings that are exposed by the Remote Desktop Services Configuration/Connections Microsoft Management Console (MMC) snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d205a3da-3f9a-4ee1-9c99-a39e9cce0a11
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , WMI provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

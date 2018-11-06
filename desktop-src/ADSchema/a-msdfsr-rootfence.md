@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-RootFence attribute
 description: Contains the root directory fence value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d7c7ba9-4e44-43d5-a8a1-014637df2e1f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-RootFence
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

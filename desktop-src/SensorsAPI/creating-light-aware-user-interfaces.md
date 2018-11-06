@@ -2,7 +2,6 @@
 Description: This section covers the use of ambient light sensor data, and how user interface features and program content can be optimized for many lighting conditions.
 ms.assetid: c84075b2-ae41-4915-a0f6-3a9c017ae0b8
 title: Creating Light-Aware User Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

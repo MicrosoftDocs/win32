@@ -1,9 +1,6 @@
 ---
 title: Token-Groups-No-GC-Acceptable attribute
 description: This attribute contains the list of SIDs due to a transitive group membership expansion operation on a given user or computer. Token groups cannot be retrieved if a Global Catalog is not present to retrieve the transitive reverse memberships.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08718c69-6339-40dc-8486-a7cd72028ed1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Token-Groups-No-GC-Acceptable
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

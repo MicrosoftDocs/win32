@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-PropertyName attribute
 description: The target policy object name for a parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d4044656-545e-4aac-84f1-540c88858090
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-PropertyName
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

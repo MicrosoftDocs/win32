@@ -2,7 +2,6 @@
 Description: An overview of changing the pitch and volume of a voice.
 ms.assetid: 4f785970-b1fa-5250-dbc1-3e6faf9becd4
 title: Volume and Pitch Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

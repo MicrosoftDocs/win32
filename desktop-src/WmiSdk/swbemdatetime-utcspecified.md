@@ -1,12 +1,8 @@
 ---
 Description: Boolean value that indicates whether the Universal Coordinated Time (UTC) component in the CIM datetime value contains an interval or a wildcard value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9cb04351-294b-48ba-8d1c-2f28cb9ce463
 ms.tgt_platform: multiple
 title: SWbemDateTime.UTCSpecified property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

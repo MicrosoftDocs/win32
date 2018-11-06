@@ -18,7 +18,6 @@ keywords:
 - Client Extended APIs,revocation
 - DRM Client Extended APIs,renewal
 - Client Extended APIs,renewal
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

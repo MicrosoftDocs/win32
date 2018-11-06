@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player skins,alternate images
 - skins,alternate images
 - alternate images in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

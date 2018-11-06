@@ -2,7 +2,6 @@
 title: IPaper Save
 description: The principal focus in this sample code is how COPaper can load and save its paper data in compound files. The IPaper, Load, and Save method implementations are discussed in detail.
 ms.assetid: 62154658-ff47-425f-94da-ee2806de5318
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

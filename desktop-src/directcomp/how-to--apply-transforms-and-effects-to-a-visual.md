@@ -8,7 +8,6 @@ keywords:
 - DirectComposition 3D transformations
 - DirectComposition 3D transforms
 - DirectComposition opacity
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

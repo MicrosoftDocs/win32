@@ -2,7 +2,6 @@
 Description: Description of substandard techniques for exposing custom controls.
 ms.assetid: 107968c6-c3b3-462d-b488-96c69f2b3b14
 title: Substandard Techniques for Exposing Custom Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

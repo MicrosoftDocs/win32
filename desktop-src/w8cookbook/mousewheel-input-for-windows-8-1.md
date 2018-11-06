@@ -2,7 +2,6 @@
 title: Mousewheel input for Windows 8.1
 description: Mousewheel input for Windows 8.1
 ms.assetid: A178E86C-16A6-4DF5-9880-CF83F62AAF04
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

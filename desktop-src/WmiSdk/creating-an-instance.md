@@ -1,12 +1,8 @@
 ---
 Description: An instance is a case of a class that describes a particular object on your enterprise.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 62df8f0f-d2aa-4f8a-998a-388894a52ce9
 ms.tgt_platform: multiple
 title: Creating an Instance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

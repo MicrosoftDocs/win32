@@ -3,7 +3,6 @@ title: DirectComposition glossary
 description: This topic defines Microsoft DirectComposition terms.
 Robots: noindex, nofollow
 ms.assetid: 3B9932EA-3182-41D0-B64A-7699EC98A714
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

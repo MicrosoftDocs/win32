@@ -1,9 +1,6 @@
 ---
 title: Groups-to-Ignore attribute
 description: The Groups-to-Ignore attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 509a9211-f3c3-4fd3-92cf-3c4fd698c024
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Groups-to-Ignore
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Quality of Service is implemented in Windows through various system QoS components. For complete details and implementation guidelines, see Quality of Service.
 ms.assetid: 59690afa-f399-4952-b1fd-285f52172b7a
 title: Flow Specification Quality of Service
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

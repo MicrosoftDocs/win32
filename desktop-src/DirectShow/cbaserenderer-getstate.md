@@ -2,7 +2,6 @@
 Description: The GetState method retrieves the filters's state (running, stopped, or paused).
 ms.assetid: 5d35824c-2509-499a-bbb1-1fb916b51808
 title: CBaseRenderer.GetState method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

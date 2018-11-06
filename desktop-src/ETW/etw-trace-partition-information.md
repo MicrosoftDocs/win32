@@ -2,7 +2,6 @@
 Description: Contains partition information pulled from an ETW trace.
 ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
 title: ETW_TRACE_PARTITION_INFORMATION structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

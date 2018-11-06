@@ -1,12 +1,8 @@
 ---
 title: ADSI Object Model for LDAP Providers
 description: An illustration that shows ADSI objects used for the LDAP provider and interfaces used to access these objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 109fd42e-201e-4b84-a213-2695d81f005b
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

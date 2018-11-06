@@ -2,7 +2,6 @@
 title: VML Cropping Attribute
 description: VML Cropping Attribute
 ms.assetid: f6b8853b-a26e-43e4-a976-7125ac0d5423
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

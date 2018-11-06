@@ -2,7 +2,6 @@
 title: FontCharSet Property
 description: FontCharSet Property
 ms.assetid: 2f23a242-d620-4766-8f59-cf158aa55969
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

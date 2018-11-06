@@ -1,12 +1,8 @@
 ---
 title: RADIUS Authentication, Authorization, and Accounting
 description: NPS fully supports the Remote Authentication Dial-In User Service (RADIUS) protocol. The RADIUS protocol is the de facto standard for remote user authentication and it is documented in RFC 2865 and RFC 2866.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3e00d555-355c-4a4c-a389-ab44e9ed9ca9
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

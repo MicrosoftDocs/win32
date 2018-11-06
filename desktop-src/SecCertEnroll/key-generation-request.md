@@ -2,7 +2,6 @@
 Description: The following example contains a key generation request.
 ms.assetid: 81b63461-da9a-47df-8f8d-90226e8ee35b
 title: Key Generation Request
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

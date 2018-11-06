@@ -1,15 +1,11 @@
 ---
 title: Query Interfaces
 description: Three types of ADSI interfaces can be used to perform directory searches. The application environment and other requirements may indicate which interface is used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 42843e02-b685-492e-9046-aea460e84584
 ms.tgt_platform: multiple
 keywords:
 - Query Interfaces ADSI
 - Queries ADSI , Query Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

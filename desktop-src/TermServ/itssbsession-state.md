@@ -1,9 +1,6 @@
 ---
 title: ITsSbSession State property
 description: Retrieves or specifies the session state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The MsiHiddenProperties property may be used to prevent the installer from displaying passwords or other confidential information in the log file.
 ms.assetid: 7d5eb9cf-04a5-41bd-9ca9-f30af45ab0a5
 title: MsiHiddenProperties property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

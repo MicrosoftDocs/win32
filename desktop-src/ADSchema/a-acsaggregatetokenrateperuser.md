@@ -1,9 +1,6 @@
 ---
 title: ACS-Aggregate-Token-Rate-Per-User attribute
 description: The maximum token rate any user may have for all flows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a617dce4-bade-40bb-ad99-6025e85bfac5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Aggregate-Token-Rate-Per-User
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

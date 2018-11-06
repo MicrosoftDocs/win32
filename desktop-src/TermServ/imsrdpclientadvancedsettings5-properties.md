@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientAdvancedSettings5 Properties
 description: The IMsRdpClientAdvancedSettings5 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5DE00AB4-2C10-4377-BF9D-F4CDDFBD0F66
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

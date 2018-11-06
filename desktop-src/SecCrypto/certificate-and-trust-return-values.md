@@ -2,7 +2,6 @@
 Description: Lists the certificate and certificate trust return values. These values are contained in the header file Winerror.h.
 ms.assetid: f7d1bdcb-8e4f-493f-ad3c-9d4b9d21436b
 title: Certificate and Trust Return Values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

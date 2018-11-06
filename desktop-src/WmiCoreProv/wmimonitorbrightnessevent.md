@@ -2,7 +2,6 @@
 Description: Represents a change in the brightness of a monitor.
 ms.assetid: c2eb5630-a52f-4ad4-aaee-1cc8afef8c9e
 title: WmiMonitorBrightnessEvent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

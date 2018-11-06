@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings HotKeyAltSpace property
 description: Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+SPACE.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 943935e9-a6f1-496e-895c-e993755e25cc
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

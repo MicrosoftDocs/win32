@@ -1,14 +1,10 @@
 ---
 title: Schema Interfaces
 description: Schema Interfaces
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b3427202-352b-4b35-877e-d28fb3d3906a
 ms.tgt_platform: multiple
 keywords:
 - schema interfaces ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

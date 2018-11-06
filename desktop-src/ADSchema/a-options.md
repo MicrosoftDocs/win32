@@ -1,9 +1,6 @@
 ---
 title: Options attribute
 description: A bitfield, where the meaning of the bits varies from objectClass to objectClass. Can occur on Inter-Site-Transport, NTDS-Connection, NTDS-DSA, NTDS-Site-Settings, and Site-Link objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07495cc1-1db0-4e0d-afbe-b21d2b50b6a1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Options
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

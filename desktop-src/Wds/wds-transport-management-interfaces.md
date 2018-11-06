@@ -2,7 +2,6 @@
 title: WDS Transport Management Interfaces
 ms.assetid: b86df804-f8d3-4267-9ee9-0a539068cfb2
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: CA-Certificate-DN attribute
 description: Full distinguished name from the CA certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51d1a9f8-d3d7-4ac9-b029-fa66b6799820
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CA-Certificate-DN
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

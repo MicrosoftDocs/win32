@@ -1,9 +1,6 @@
 ---
 title: Programming ADSI with Java/COM
 description: Using the Microsoft virtual machine for Java (Microsoft VM) and Microsoft Java Compiler, you have access to all the ADSI features exposed through any ADSI COM components, from a Java/COM application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eda516b6-0f89-464f-a9d2-9bb4ca70fda5
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - ADSI ADSI , using, Java/COM programming for
 - ADSI ADSI , example code Java
 - ADSI ADSI , example code Java , binding to an ADSI object and invoking methods on that object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

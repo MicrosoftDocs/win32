@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-ObjectEncoding class
 description: Holds encoding data for a WMI Class or Instance Object as well as additional info regarding the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8f2830f0-c427-431e-bcd2-6d7f8951792a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-ObjectEncoding
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

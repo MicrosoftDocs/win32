@@ -2,7 +2,6 @@
 title: The AudioOutput Object
 description: The AudioOutput Object
 ms.assetid: 7c1c6079-f445-4980-9559-8d26b6014e89
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

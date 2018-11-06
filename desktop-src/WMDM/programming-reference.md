@@ -17,7 +17,6 @@ keywords:
 - reference for Windows Media Device Manager,about
 - reference for Windows Media Device Manager,desktop applications
 - reference for Windows Media Device Manager,service providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

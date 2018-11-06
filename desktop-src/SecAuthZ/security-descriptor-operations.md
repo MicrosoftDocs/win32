@@ -2,7 +2,6 @@
 Description: Use the GetSecurityInfo and GetNamedSecurityInfo functions to retrieve a pointer to an objects security descriptor.
 ms.assetid: 834f1b58-d403-4899-865e-5721a37587e9
 title: Security Descriptor Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

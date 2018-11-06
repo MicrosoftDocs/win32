@@ -4,7 +4,6 @@ description: By convention, the file that contains interface and type library de
 ms.assetid: 4df87df8-3206-4845-b5ab-d77ea443b9e3
 keywords:
 - interfaces MIDL , IDL file
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

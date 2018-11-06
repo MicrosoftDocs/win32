@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_HostedJobDestination class represents an association between a job destination and the system on which it resides. A system may host many job queues. Job destinations defer to the hosting system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5d853826-1f27-417b-a053-5e0ee9816376
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_HostedJobDestination class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_HostedJobDestination** class represents an association between a job destination and the system on which it resides. A system may host many job queues. Job destinations defer to the hosting system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

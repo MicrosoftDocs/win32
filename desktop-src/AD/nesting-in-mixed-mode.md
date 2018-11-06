@@ -1,14 +1,10 @@
 ---
 title: Nesting in Mixed Mode
 description: This topic lists the restrictions of security groups in a mixed-mode domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e9f50485-db09-4d8c-8cf4-0ee7e78cb133
 ms.tgt_platform: multiple
 keywords:
 - Nesting in Mixed Mode AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

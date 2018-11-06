@@ -2,7 +2,6 @@
 title: Asynchronous and Synchronous Storage
 description: Asynchronous and Synchronous Storage
 ms.assetid: de8c50f8-1733-439f-ab53-f98ac21a1fae
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

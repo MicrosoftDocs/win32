@@ -1,14 +1,8 @@
 ---
 Description: The base class for the performance counter classes Win32\_PerfRawData and Win32\_PerfFormattedData.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c754b619-a70f-4a56-8a43-2b36c8f8370b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Perf class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
 ms.assetid: 8a4c3173-5911-49ec-8cb8-e30f96a4f1c9
 title: IDirect3DDXVADevice9::QueryStatus method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

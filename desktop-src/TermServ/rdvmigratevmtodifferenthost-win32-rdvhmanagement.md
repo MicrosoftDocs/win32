@@ -1,9 +1,6 @@
 ---
 title: RdvMigrateVmToDifferentHost method of the Win32_RdvhManagement class
 description: Initiates a live migration of a virtual machine to a specified host.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aa4b1e57-a97c-410b-9b9d-423a1c77de70
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

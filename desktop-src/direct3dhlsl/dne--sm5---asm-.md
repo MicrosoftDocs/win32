@@ -2,7 +2,6 @@
 title: dne (sm5 - asm)
 description: Component-wise double-precision not equality comparison.
 ms.assetid: 7C69A86D-0820-4640-AF5A-2993EC77D2AA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

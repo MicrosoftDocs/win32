@@ -2,7 +2,6 @@
 Description: The m\_bModifiesData member variable indicates whether the filter modifies the sample data that is receives. The value is set in the CTransInPlaceFilter constructor, but defaults to TRUE.
 ms.assetid: 8ccdba46-315f-4519-b363-6870d1217f98
 title: CTransInPlaceFilter::m_bModifiesData member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

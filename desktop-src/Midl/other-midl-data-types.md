@@ -4,7 +4,6 @@ description: MIDL recognizes a number of COM and Automation data types, such as 
 ms.assetid: 3a84bd4a-7a68-4b77-b08e-199e5c722e29
 keywords:
 - data types MIDL , other
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

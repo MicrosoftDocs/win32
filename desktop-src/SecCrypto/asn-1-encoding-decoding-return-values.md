@@ -2,7 +2,6 @@
 Description: The following table contains return values that may be returned by functions performing Abstract Syntax Notation One (ASN.1) encoding or decoding.
 ms.assetid: cb1f34dd-dab4-4ffb-a73b-79a214290509
 title: ASN.1 Encoding/Decoding Return Values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

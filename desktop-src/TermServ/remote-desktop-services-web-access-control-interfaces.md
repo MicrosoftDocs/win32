@@ -1,14 +1,10 @@
 ---
 title: Remote Desktop Services Web Access Control interfaces
 description: Supports the publishing of user-specific resources in RemoteApp and Desktop Connection. This control is a wrapper around the Remote Desktop Connection client (MsTscAx.dll) and the RemoteApp and Desktop Connections runtime proxy (Tswbprxy.exe).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 69c03f60-11e0-454b-a661-e608e7ca7254
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , web access control interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

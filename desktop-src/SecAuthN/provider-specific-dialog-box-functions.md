@@ -2,7 +2,6 @@
 Description: Provider-specific dialog box functions enable a provider to display and handle network-specific information by altering system dialog boxes or displaying custom dialog boxes.
 ms.assetid: c9a52867-0a0b-40d8-a09d-2b7bed517e13
 title: Provider-Specific Dialog Box Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

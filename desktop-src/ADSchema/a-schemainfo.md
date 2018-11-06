@@ -1,9 +1,6 @@
 ---
 title: Schema-Info attribute
 description: An internal binary value used to detect schema changes between DCs and force a schema NC replication cycle before replicating any other NC. Used to resolve ties when the schema FSMO is seized and a change is made on more than one DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 416cef3f-211b-439d-b177-267806c6a5d2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Schema-Info
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

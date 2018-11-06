@@ -8,7 +8,6 @@ keywords:
 - reference for skins,global attributes
 - global attributes
 - attributes,global
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

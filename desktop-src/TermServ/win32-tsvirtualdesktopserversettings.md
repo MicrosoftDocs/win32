@@ -1,9 +1,6 @@
 ---
 title: Win32_TSVirtualDesktopServerSettings class
 description: Contains configuration information for a Remote Desktop Virtualization Host (RD Virtualization Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 749018aa-a8aa-433e-985b-40b44ef8aa7f
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents the state of the PCI Express port.
 ms.assetid: 15d670ee-940a-4737-b2cd-e89dd8a63a5c
 title: Msvm_PciExpress class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

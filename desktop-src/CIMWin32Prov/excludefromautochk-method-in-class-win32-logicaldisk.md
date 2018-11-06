@@ -1,14 +1,8 @@
 ---
 Description: Excludes disks from the autochk operation to be run at the next reboot.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5df2bc3b-e149-4853-aa02-af4cb8af6da0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ExcludeFromAutochk method of the Win32_LogicalDisk class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

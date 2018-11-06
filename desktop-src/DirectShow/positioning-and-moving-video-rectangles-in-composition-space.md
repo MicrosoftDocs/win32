@@ -2,7 +2,6 @@
 Description: Positioning and Moving Video Rectangles in Composition Space
 ms.assetid: 97e7bb24-79f6-4638-a9c4-ac09dbd29be9
 title: Positioning and Moving Video Rectangles in Composition Space
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: dhcp-State attribute
 description: The dhcp-State attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d82afeec-fed7-4e2e-bb45-32a4afa7a9e8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-State
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

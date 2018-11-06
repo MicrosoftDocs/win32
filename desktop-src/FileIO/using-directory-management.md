@@ -2,7 +2,6 @@
 Description: Topics that demonstrate the use of directory management functions.
 ms.assetid: adc3ac3e-0a47-4b5c-b9ea-50bc4cde9547
 title: Using Directory Management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

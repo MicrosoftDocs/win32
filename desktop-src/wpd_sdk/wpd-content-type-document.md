@@ -2,7 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_DOCUMENT
 ms.assetid: c3859590-7674-4315-b171-3747e5d9350b
 title: WPD_CONTENT_TYPE_DOCUMENT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

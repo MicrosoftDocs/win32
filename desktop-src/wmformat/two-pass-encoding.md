@@ -9,7 +9,6 @@ keywords:
 - codecs,2-pass encoding
 - two-pass encoding,about
 - 2-pass encoding,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

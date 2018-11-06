@@ -2,7 +2,6 @@
 Description: Applications can control the location from which a DLL is loaded by specifying a full path or using another mechanism such as a manifest. If these methods are not used, the system searches for the DLL at load time as described in this topic.
 ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
 title: Dynamic-Link Library Search Order
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -71,7 +70,7 @@ Before the system searches for a DLL, it checks the following:
 
 If a DLL has dependencies, the system searches for the dependent DLLs as if they were loaded with just their module names. This is true even if the first DLL was loaded by specifying a full path.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If an attacker gains control of one of the directories that is searched, it can place a malicious copy of the DLL in that directory. For ways to help prevent such attacks, see [Dynamic-Link Library Security](dynamic-link-library-security.md).
 
  

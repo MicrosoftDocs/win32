@@ -4,7 +4,6 @@ description: The MIDL compiler can generate code for different platforms and sys
 ms.assetid: 57730efa-71c3-4746-83f4-c7e327888efc
 keywords:
 - MIDL compiler MIDL , invoking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

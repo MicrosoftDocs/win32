@@ -4,7 +4,6 @@ description: Recording with a Waveform-Audio Device
 ms.assetid: b29a07d1-1b92-4d66-9f2d-ccfbf4074876
 keywords:
 - mciSendCommand function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Provides a list of scripts for the specified locale.
 ms.assetid: 0cedcf6c-bab4-4e0f-ab8f-04aa8e51602f
 title: DownlevelGetLocaleScripts function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

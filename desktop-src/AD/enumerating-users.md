@@ -1,16 +1,12 @@
 ---
 title: Enumerating Users
 description: Unlike Windows NT 4.0 domains, Windows 2000 users can be placed in any container or organizational unit (OU) in a domain as well as the root of the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4a35af7a-f43b-4cf9-a030-77f6c2518ae7
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Users AD
 - users AD , enumerating a user
 - Active Directory, using,users, enumerating a user
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

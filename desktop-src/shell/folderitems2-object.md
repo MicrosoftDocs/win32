@@ -1,7 +1,6 @@
 ---
 Description: Extends the FolderItems object. It supports one additional method.
 title: FolderItems2 object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

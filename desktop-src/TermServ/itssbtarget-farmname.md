@@ -1,9 +1,6 @@
 ---
 title: ITsSbTarget FarmName property
 description: Retrieves or specifies the name of the farm to which this target is joined.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83e168ae-f985-40f9-912b-496c0695f82a
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Terminates the trace.
 ms.assetid: e823ed82-1966-4e44-b062-0c8ab0fb5f6e
 title: TermAsyncTrace function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

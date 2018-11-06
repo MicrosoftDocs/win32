@@ -8,7 +8,6 @@ keywords:
 - programming guide,visualizations
 - samples,Glow visualization
 - Glow visualization sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

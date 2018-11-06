@@ -2,7 +2,6 @@
 Description: The IX509ExtensionSmimeCapabilities interface exposes the following methods.
 ms.assetid: AEB71E7C-E6B2-43BB-99DC-5B3E841BBB03
 title: IX509ExtensionSmimeCapabilities Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

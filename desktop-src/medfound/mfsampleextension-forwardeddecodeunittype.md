@@ -2,7 +2,6 @@
 Description: Specifies the type, NALU or SEI, of a unit attached to an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.
 ms.assetid: 640CD70D-4424-407F-B801-6796199D260B
 title: MFSampleExtension_ForwardedDecodeUnitType attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Retrieving Properties for Multiple Objects
 ms.assetid: 0d0c6b3d-23bc-4628-a684-14bb9e18967f
 title: Retrieving Properties for Multiple Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

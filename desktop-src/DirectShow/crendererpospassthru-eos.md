@@ -2,7 +2,6 @@
 Description: The EOS method updates the cached time stamps after an end-of-stream notification.
 ms.assetid: 7fb2f964-ec15-47f5-902b-29b9b121e876
 title: CRendererPosPassThru.EOS method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

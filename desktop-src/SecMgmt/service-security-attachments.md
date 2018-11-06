@@ -2,7 +2,6 @@
 Description: The Microsoft Security Configuration tool set is a set of Microsoft Management Console (MMC) tools that simplify configuration and analysis of system security.
 ms.assetid: c6558789-84eb-4998-a2c1-725d8a64d255
 title: Service Security Attachments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

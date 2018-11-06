@@ -15,7 +15,6 @@ keywords:
 - Windows Media metafile playlists,synchronization
 - portable devices,determining synchronization playlist state
 - synchronization playlists,synchronization state
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

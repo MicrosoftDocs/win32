@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Image.ResolutionUnit property.
 ms.assetid: b8b744bd-976b-4648-a04b-33607467d6ac
 title: System.Image.ResolutionUnit Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

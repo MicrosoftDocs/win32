@@ -2,7 +2,6 @@
 Description: CPU Sets provide APIs to declare application affinity in a 'soft' manner that is compatible with OS power management.
 ms.assetid: FF8BE790-19D9-473F-B184-C54FB392D61A
 title: CPU Sets
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

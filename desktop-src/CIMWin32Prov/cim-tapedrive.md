@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_TapeDrive class represents a tape drive on the system. Tape drives are primarily distinguished in that they can only be accessed sequentially.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8b7f2277-e37d-4597-81bb-d3c8d4966a81
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_TapeDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -58,7 +52,7 @@ api_location:
 
 The **CIM\_TapeDrive** class represents a tape drive on the system. Tape drives are primarily distinguished in that they can only be accessed sequentially.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

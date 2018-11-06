@@ -2,7 +2,6 @@
 title: Custom Controls
 description: This section contains information about application-defined or custom controls.
 ms.assetid: 220f7058-db04-46d0-acee-ed5e676790b3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

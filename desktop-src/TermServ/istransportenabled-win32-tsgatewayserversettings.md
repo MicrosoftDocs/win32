@@ -1,9 +1,6 @@
 ---
 title: IsTransportEnabled method of the Win32_TSGatewayServerSettings class
 description: Determines whether the specified transport is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3f08a206-5800-4088-a113-bb3f0cc826f2
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

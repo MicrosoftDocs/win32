@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-OLAPCube class
 description: Class for storing SQL Server OLAP Cube properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9ffcc94b-3866-456b-8b65-0374ae613fb5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-OLAPCube
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

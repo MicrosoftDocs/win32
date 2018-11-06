@@ -2,7 +2,6 @@
 title: Using Windows Accessibility Features
 description: This section describes how to use the Windows accessibility features.
 ms.assetid: 1283d988-b45d-4942-924a-2afecfdfd770
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

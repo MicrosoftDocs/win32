@@ -2,7 +2,6 @@
 title: VML Facet Attribute
 description: VML Facet Attribute
 ms.assetid: 6b874d79-a34e-45f7-bbbf-44d652410b1e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

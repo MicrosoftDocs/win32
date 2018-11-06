@@ -1,9 +1,6 @@
 ---
 title: Pending-Parent-CA attribute
 description: Reference to the certification authorities that issued the pending certificates for this certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9cdac673-aecd-4a42-93f5-c869fa136186
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pending-Parent-CA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

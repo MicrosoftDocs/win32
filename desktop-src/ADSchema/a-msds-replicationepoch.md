@@ -1,9 +1,6 @@
 ---
 title: ms-DS-ReplicationEpoch attribute
 description: This is used to hold the epoch under which all the DCs are replicating. An epoch is the period of time in which a domain has a specific name. A new epoch starts when a domain name change occurs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d8a3c4fd-f416-483f-820f-7b3182d0bfc3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-ReplicationEpoch
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

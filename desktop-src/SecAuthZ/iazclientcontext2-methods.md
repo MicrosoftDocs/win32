@@ -2,7 +2,6 @@
 Description: The IAzClientContext2 interface exposes the following methods.
 ms.assetid: 39AAA5C4-5106-4AC1-87F4-D584334B2A6B
 title: IAzClientContext2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

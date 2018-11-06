@@ -1,14 +1,10 @@
 ---
 title: Attributes
 description: Each object in Active Directory Domain Services contains a set of attributes that define the characteristics of the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9efa7ae1-b6a9-4b95-b031-b502772c536c
 ms.tgt_platform: multiple
 keywords:
 - attributes AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DMD-Location attribute
 description: The distinguished name to the schema partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 94b60093-00f4-4ea2-a047-b2c0cdbafca9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DMD-Location
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

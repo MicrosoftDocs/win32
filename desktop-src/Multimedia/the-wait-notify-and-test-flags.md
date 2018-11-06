@@ -6,7 +6,6 @@ keywords:
 - MCI_WAIT flag
 - MCI_NOTIFY flag
 - MCI_TEST flag
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

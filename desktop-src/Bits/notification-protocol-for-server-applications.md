@@ -2,7 +2,6 @@
 title: Notification Protocol for Server Applications
 description: BITS uses the BITSServerNotificationType property to determine how BITS sends the contents of the upload file to the server application.
 ms.assetid: d5193d0c-3ab4-47ab-a570-fea2904a4371
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

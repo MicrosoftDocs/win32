@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ScheduledJob class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D380783C-35DB-42F8-81F5-881FE43C4F52
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ScheduledJob Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

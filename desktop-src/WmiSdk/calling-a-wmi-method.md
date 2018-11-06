@@ -1,12 +1,8 @@
 ---
 Description: The main purpose of WMI is to provide access to classes and instances that represent objects on your network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8d559eee-3dbf-4132-b1c0-a6925b8feb56
 ms.tgt_platform: multiple
 title: Calling a WMI Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnAdminMessageReceived method
 description: Called when the client control receives an administrative message.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: CD580207-CEC1-493B-989E-7C1D4FA71228
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

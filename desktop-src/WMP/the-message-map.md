@@ -7,7 +7,6 @@ keywords:
 - plug-ins,message map
 - user interface plug-ins,message map
 - UI plug-ins,message map
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

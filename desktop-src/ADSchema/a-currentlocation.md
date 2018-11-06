@@ -1,9 +1,6 @@
 ---
 title: Current-Location attribute
 description: The computer location for an object that has moved.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b8767fcd-48f5-420c-9cbf-095ab1aee729
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Current-Location
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

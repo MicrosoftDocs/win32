@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 6c5ceb65-128c-4fb1-b6a5-1af298656f69
 title: System.Music.Mood
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

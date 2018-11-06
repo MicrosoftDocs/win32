@@ -11,7 +11,6 @@ keywords:
 - type 1 online stores,media content purchases
 - media content,purchasing
 - purchasing media content
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

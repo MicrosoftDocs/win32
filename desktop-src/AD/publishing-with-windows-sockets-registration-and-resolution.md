@@ -1,14 +1,10 @@
 ---
 title: Publishing with Windows Sockets Registration and Resolution
 description: Windows Sockets services can use the Registration and Resolution (RnR) APIs to publish services and look up services published with RnR.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 95c16d0b-abbc-4407-ac31-d7de0b25bd74
 ms.tgt_platform: multiple
 keywords:
 - Windows Sockets Registration and Resolution AD ,Publishing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

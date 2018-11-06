@@ -1,14 +1,8 @@
 ---
 Description: Represents the capabilities and management capacity of a partitioned area of a physical disk on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DiskPartition class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

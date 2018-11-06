@@ -2,7 +2,6 @@
 Description: DMO Enumerated Types
 ms.assetid: 5d60c902-5fb0-419b-b54d-5e3b543c5df8
 title: DMO Enumerated Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

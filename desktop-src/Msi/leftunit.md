@@ -2,7 +2,6 @@
 Description: If the LeftUnit property is set, the unit is placed to the left of the number instead of the typical right side.
 ms.assetid: 6e39b73d-63ef-4a42-abf9-d64bd8c22498
 title: LeftUnit property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

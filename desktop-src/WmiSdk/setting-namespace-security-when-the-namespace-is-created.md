@@ -1,12 +1,8 @@
 ---
 Description: The Managed Object Format (MOF) file that creates a namespace can also define the security descriptors for the namespace by including the NamespaceSecuritySDDL qualifier with the security descriptor in security descriptor definition language (SDDL) format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eeda3351-11ec-4064-90dd-f67ccf5c8cb6
 ms.tgt_platform: multiple
 title: Setting Namespace Security When the Namespace is Created
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

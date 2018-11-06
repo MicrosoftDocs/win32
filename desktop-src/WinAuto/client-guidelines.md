@@ -2,7 +2,6 @@
 title: Client Guidelines
 description: Client developers should use the following functionality to get information about the user interface elements
 ms.assetid: 0e102e60-4d11-490e-88d5-dfadba620781
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

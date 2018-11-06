@@ -2,7 +2,6 @@
 Description: An application sends the WM\_MDIDESTROY message to a multiple-document interface (MDI) client window to close an MDI child window.
 ms.assetid: b415393d-a5c2-4b70-af18-0dc7b3939a47
 title: WM_MDIDESTROY message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

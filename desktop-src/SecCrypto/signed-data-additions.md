@@ -2,7 +2,6 @@
 Description: Lists the changes in capabilities of signed data.
 ms.assetid: 0518a336-d996-4a82-9336-a448284c72dd
 title: Signed Data Additions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

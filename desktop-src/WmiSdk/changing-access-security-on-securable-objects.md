@@ -1,12 +1,8 @@
 ---
 Description: Starting with Windows Vista, many securable objects have methods for getting or setting the security descriptor. With appropriate permissions, you can read or change security descriptors on securable objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: da660e7e-f32d-4b7d-b979-f7b482a73fa2
 ms.tgt_platform: multiple
 title: Changing Access Security on Securable Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

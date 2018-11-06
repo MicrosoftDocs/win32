@@ -1,9 +1,6 @@
 ---
 title: ms-DS-IntId attribute
 description: The ms-DS-IntId attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c42ab39-0e68-4166-97c2-cfba2da9604a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-IntId
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

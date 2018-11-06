@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 6a31cca3-f47c-4663-b2e8-aad6b4a6f28f
 title: Server Hyper-V
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

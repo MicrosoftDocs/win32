@@ -2,7 +2,6 @@
 Description: Creates shared property groups and to obtain access to existing shared property groups.
 ms.assetid: '4ba05806-afda-4926-8ca4-abbf15ed8278'
 title: SharedPropertyGroupManager class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

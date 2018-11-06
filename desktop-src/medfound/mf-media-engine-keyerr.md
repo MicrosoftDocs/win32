@@ -2,7 +2,6 @@
 Description: Defines media key error codes for the media engine.
 ms.assetid: F6E13260-74A2-40D0-A704-4E1CDB16B8D8
 title: MF_MEDIA_ENGINE_KEYERR enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

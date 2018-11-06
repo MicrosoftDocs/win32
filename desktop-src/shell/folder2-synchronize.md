@@ -2,7 +2,6 @@
 Description: Synchronizes all offline files in the folder.
 ms.assetid: b149df96-0c8e-47b9-b71e-2ad5dcfdeb8f
 title: Folder2.Synchronize method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

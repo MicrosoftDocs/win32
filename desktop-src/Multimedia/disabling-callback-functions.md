@@ -5,7 +5,6 @@ ms.assetid: 1907b185-b13d-459c-a174-55d2bc075cb3
 keywords:
 - AVICap callback functions,disabling
 - disabling AVICap callback functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

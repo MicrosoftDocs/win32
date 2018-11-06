@@ -2,7 +2,6 @@
 title: Peer Caching
 description: Starting with Background Intelligent Transfer Service (BITS) 4.0, the BITS service was extended to allow subnet-level peer caching for downloaded URL data by using Windows BranchCache.
 ms.assetid: 4197eed3-1812-4440-99e7-9462635ef6ad
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

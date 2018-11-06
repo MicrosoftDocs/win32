@@ -2,7 +2,6 @@
 title: texcrd - ps
 description: Copies texture coordinate data from the source texture coordinate iterator register as color data in the destination register.
 ms.assetid: b3330d70-6e18-4494-a01c-51f0a282e305
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

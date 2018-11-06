@@ -1,9 +1,6 @@
 ---
 title: Version-Number-Hi attribute
 description: A general purpose major version number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5758f30-9508-4af7-a983-f6072707bf1d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Version-Number-Hi
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

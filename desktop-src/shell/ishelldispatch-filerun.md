@@ -2,7 +2,6 @@
 Description: Displays the Run dialog to the user.
 ms.assetid: BC7C4C26-593D-4467-A2AA-4F2DF835C989
 title: IShellDispatch.FileRun method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

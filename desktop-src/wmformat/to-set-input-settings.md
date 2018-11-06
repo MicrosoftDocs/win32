@@ -8,7 +8,6 @@ keywords:
 - profiles,input settings
 - codecs,input settings
 - streams,input settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates the minimum number of progressive samples that the Microsoft Media Foundation transform (MFT) should allow to be oustanding at any given time.
 ms.assetid: C1F27F39-FADA-4644-ACD6-B02EAD9CFFE7
 title: MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT_PROGRESSIVE attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

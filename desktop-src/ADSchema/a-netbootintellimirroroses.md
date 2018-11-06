@@ -1,9 +1,6 @@
 ---
 title: netboot-IntelliMirror-OSes attribute
 description: The netboot-IntelliMirror-OSes attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 61fbe06c-9669-4ba2-89a8-446555e3aca0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-IntelliMirror-OSes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

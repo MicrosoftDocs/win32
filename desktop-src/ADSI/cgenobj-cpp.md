@@ -1,12 +1,8 @@
 ---
 title: CGENOBJ.CPP
 description: In the example provider component, generic Active Directory object methods, supported in cgenobj.cpp, are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 72ccdc6e-1f3e-4633-92b3-500309433337
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

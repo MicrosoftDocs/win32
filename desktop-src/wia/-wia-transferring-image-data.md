@@ -2,7 +2,6 @@
 Description: Use the methods of the IWiaDataTransfer interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application.
 ms.assetid: 67fbf3d9-6965-4464-b04c-10989b2fd55d
 title: Transferring Image Data in WIA 1.0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

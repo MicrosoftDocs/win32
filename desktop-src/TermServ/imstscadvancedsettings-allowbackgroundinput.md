@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings allowBackgroundInput property
 description: Specifies whether background input mode is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2b57ebe9-3aad-400c-bcfb-d01c759b453d
 ms.tgt_platform: multiple
 keywords:
@@ -60,7 +57,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

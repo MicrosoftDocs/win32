@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for Pane control type
 - control types,support for Pane
 - control types,Pane
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Object(Access-Point) syntax
 description: Object(Access-Point) syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b52cfa3b-2a5e-495c-9c1f-db7d04ccbfb2
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(Access-Point)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscNonScriptable ResetPassword method
 description: Resets all password states in the Remote Desktop ActiveX control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 889c4d41-fadf-4a5c-b4a8-0b349fd6db54
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

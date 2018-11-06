@@ -2,7 +2,6 @@
 title: ProgID Key
 description: A programmatic identifier (ProgID) is a registry entry that can be associated with a CLSID. Like the CLSID, the ProgID identifies a class but with less precision because it is not guaranteed to be globally unique.
 ms.assetid: f9ef2934-0815-4a6f-9283-8f748eee083b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

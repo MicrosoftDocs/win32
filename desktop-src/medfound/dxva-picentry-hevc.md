@@ -2,7 +2,6 @@
 Description: Specifies a reference to an uncompressed surface.
 ms.assetid: 01F9C9F9-8EB4-49D5-91F0-89B4C40DDDC8
 title: DXVA_PicEntry_HEVC structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

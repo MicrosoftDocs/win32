@@ -11,7 +11,6 @@ keywords:
 - custom properties,about
 - events,about
 - control patterns,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SubpictureOn property sets or retrieves the current subpicture state (on or off).
 ms.assetid: fa4500bc-48b4-41ed-8b88-0011a0e51c6f
 title: SubpictureOn Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Public-Information property set
 description: Property set containing user attributes that describe user public information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0844f49f-00a6-44e7-9e28-821f1b73d52f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Public-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

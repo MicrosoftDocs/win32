@@ -4,7 +4,6 @@ description: The WriteRead.cpp creates a property set, writes a property, closes
 ms.assetid: c5807dd9-2928-497b-9446-729dcaeebc8a
 keywords:
 - Structured Storage Strctd Stg , samples, WriteRead
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

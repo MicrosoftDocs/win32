@@ -2,7 +2,6 @@
 title: Month Calendar Macros
 description: .
 ms.assetid: e6c856aa-8518-44bc-86cf-3cce8ee31063
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

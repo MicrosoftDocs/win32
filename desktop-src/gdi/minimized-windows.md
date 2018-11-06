@@ -2,7 +2,6 @@
 Description: The system reduces an application's main window (overlapping style) to a minimized window when the user clicks Minimize from the window menu or the application calls the ShowWindow function and specifies a value such as SW\_MINIMIZE.
 ms.assetid: a52dba49-e4ec-45e2-a00f-211a58e28773
 title: Minimized Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Describes how to use hardware overlays in Direct3D 9.
 ms.assetid: fa9d5bf5-4c0f-471a-b639-d329b0cd89a4
 title: Hardware Overlay Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

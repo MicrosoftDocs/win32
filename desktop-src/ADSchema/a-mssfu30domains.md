@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Domains attribute
 description: Contains the list of UNIX NIS domains that have all been migrated to the same AD NIS domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7f9f3994-a46d-49d4-8d99-35762be7bc33
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Domains
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

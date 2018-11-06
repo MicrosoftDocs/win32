@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DependentService association WMI class relates two interdependent base services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ba21fce3-f8f9-4886-b09d-a9e830376364
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DependentService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

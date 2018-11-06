@@ -2,7 +2,6 @@
 Description: Indicates the version of the GPS information.
 ms.assetid: 30d94f58-23e1-4d3a-8db9-88eecc9794bf
 title: System.GPS.VersionID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

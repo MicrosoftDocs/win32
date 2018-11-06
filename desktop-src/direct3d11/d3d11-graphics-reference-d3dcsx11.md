@@ -2,7 +2,6 @@
 title: D3DCSX 11 Reference
 description: This section contains reference information about the D3DCSX utility library, which you can use with a compute shader.
 ms.assetid: 59904848-C179-4DBA-9A52-F1D9E0404EC7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

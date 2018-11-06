@@ -2,7 +2,6 @@
 Description: Implementing IWICBitmapCodecProgressNotification (Encoder)
 ms.assetid: d470ec93-d329-48c0-9556-0c15daece491
 title: Implementing IWICBitmapCodecProgressNotification (Encoder)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Transferring an Image or Music File to the Device
 ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
 title: Transferring an Image or Music File to the Device
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Considerations for Active Directory Domain Services Backup
 description: Directory service data can be replicated. A recovery plan must be created prior to restoration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b03215db-1b8d-45b0-85e8-c325b225c6eb
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , recovery planning
 - Active Directory Domain Services Active Directory , backup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

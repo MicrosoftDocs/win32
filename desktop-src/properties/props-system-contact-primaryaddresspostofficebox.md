@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: b63eaeff-1460-4b13-b742-f3535d05a2e4
 title: System.Contact.PrimaryAddressPostOfficeBox
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

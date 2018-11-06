@@ -1,9 +1,6 @@
 ---
 title: posixAccount class
 description: Represents an abstraction of an account with Portable Operating System Interface (POSIX) attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3b7ca288-ede3-4fbd-a0c1-5083017acaff
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - posixAccount
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following code examples illustrate some basic Rendezvous operations. For a full code sample, see the Platform Software Development Kit (SDK) Code Samples under NetDS/TAPI. The TAPI3 directory contains a sample entitled &\#0034;Rend&\#0034;.
 ms.assetid: 2212cb93-5522-49b5-a379-f34da01079d0
 title: Rendezvous Code Examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

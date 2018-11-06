@@ -1,9 +1,6 @@
 ---
 title: Remote-Mail-Recipient class
 description: An external mail recipient. This attribute is obsolete.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df405a53-b522-42e8-907e-2c4a2296b971
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Remote-Mail-Recipient
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 RemoteMonitorLayoutMatchesLocal property
 description: Specifies if the remote monitor layout is identical to the local monitor layout.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8F3C6650-870C-417C-82FC-E145FC360012
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

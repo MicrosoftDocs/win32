@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 48651ed8-b624-454c-b5bd-14e725a49d35
 title: System.Contact.OtherAddress2Region
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

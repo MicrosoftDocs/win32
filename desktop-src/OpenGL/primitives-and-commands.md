@@ -7,7 +7,6 @@ keywords:
 - OpenGL,commands
 - primitives OpenGL
 - commands OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

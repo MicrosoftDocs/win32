@@ -2,7 +2,6 @@
 Description: Generate a list of mesh edges, as well as a list of faces that share each edge.
 ms.assetid: 9d52290f-1c9e-43a7-b239-35cd54e36466
 title: ID3DXBaseMesh::GenerateAdjacency method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

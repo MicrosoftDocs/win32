@@ -2,7 +2,6 @@
 title: MIDI Sequencer Command Set
 description: MIDI Sequencer Command Set
 ms.assetid: 8f5af706-0674-4ed1-855f-22f8d74361fd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

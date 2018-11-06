@@ -2,7 +2,6 @@
 Description: ICEM06 checks for invalid direct references to features by the module.
 ms.assetid: 63e63a60-53e5-4881-ad71-efeceb73a70e
 title: ICEM06
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

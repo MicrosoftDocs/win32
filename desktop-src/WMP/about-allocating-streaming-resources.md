@@ -8,7 +8,6 @@ keywords:
 - digital signal processing plug-ins,audio streaming resources
 - DSP plug-ins,audio streaming resources
 - audio DSP plug-ins,streaming resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

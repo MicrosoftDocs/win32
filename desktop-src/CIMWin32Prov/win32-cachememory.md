@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_CacheMemory&\#32;WMI class represents internal and external cache memory on a computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9cfb992d-fbac-4e56-b4f3-61c0c93f5852
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_CacheMemory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

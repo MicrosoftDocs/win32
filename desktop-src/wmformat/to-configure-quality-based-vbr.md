@@ -11,7 +11,6 @@ keywords:
 - variable bit rate (VBR),configuring quality-based
 - VBR (variable bit rate),configuring quality-based
 - profiles,configuring quality-based VBR
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

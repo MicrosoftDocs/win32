@@ -2,7 +2,6 @@
 title: Using Transport Mode
 description: Following sample code demonstrates how to configure IPsec transport mode using AuthIP with user authentication and negotiation discovery.
 ms.assetid: 996d2fc9-ed88-4c96-93f0-a4e5daf7dc45
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

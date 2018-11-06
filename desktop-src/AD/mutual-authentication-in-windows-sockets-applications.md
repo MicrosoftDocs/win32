@@ -1,15 +1,11 @@
 ---
 title: Mutual Authentication in Windows Sockets Applications
 description: Microsoft Windows Sockets services can use the Registration and Resolution (RnR) APIs to publish services, or they can use service connection points.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2b73a754-4f16-41a2-8441-a4ee5f80035c
 ms.tgt_platform: multiple
 keywords:
 - Mutual Authentication in Windows Sockets Applications
 - Active Directory, using, mutual authentication, in Windows sockets applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

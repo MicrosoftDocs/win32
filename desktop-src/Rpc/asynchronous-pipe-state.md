@@ -2,7 +2,6 @@
 title: Asynchronous Pipe State
 description: This page describes the Asynchronous Pipe State for RPC calls.
 ms.assetid: af937eba-6b70-447a-af76-a8e27f5754e3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

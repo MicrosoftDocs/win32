@@ -2,7 +2,6 @@
 Description: HKCU\\Control Panel\\Desktop.
 ms.assetid: e18ea3c8-ddac-4214-83be-106c28c3c327
 title: SCRNSAVE.EXE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

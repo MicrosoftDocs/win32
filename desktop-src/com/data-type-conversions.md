@@ -2,7 +2,6 @@
 title: Data Type Conversions
 description: Data Type Conversions
 ms.assetid: 54688ee9-2dd7-466b-b278-13d6f9d1e6ce
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

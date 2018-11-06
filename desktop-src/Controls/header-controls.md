@@ -2,7 +2,6 @@
 title: About Header Controls
 description: A header control is a window that is usually positioned above columns of text or numbers. It contains a title for each column, and it can be divided into parts.
 ms.assetid: b464fb9a-e342-4209-ba6f-15b5388f3914
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

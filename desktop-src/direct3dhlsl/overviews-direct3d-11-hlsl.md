@@ -2,7 +2,6 @@
 title: HLSL Shader Model 5
 description: HLSL Shader Model 5
 ms.assetid: 072c1ff2-ca1b-427c-9969-aa24ebb4ee38
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

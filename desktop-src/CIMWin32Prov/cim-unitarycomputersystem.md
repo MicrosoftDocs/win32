@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_UnitaryComputerSystem class represents a desktop, mobile, network computer, server, or other type of single-node computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c696050d-c921-4056-adc7-e4a2e9f4e119
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_UnitaryComputerSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -42,7 +36,7 @@ api_location:
 
 The **CIM\_UnitaryComputerSystem** class represents a desktop, mobile, network computer, server, or other type of single-node computer system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

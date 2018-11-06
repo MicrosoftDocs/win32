@@ -2,7 +2,6 @@
 Description: How Decoders Use IAMVideoAccelerator
 ms.assetid: 0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d
 title: How Decoders Use IAMVideoAccelerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: The ACF Body
 description: The ACF body contains configuration attributes that apply to types and functions defined in the interface body of the IDL file.
 ms.assetid: 7d6344d3-1117-40b9-be95-a400b81339d7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Retrieves the number of the processor the current thread was running on during the call to this function.
 ms.assetid: f0141550-58e2-421a-934d-9a6c488d2b81
 title: NtGetCurrentProcessorNumber function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

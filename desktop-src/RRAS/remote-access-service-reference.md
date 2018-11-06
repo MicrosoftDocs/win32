@@ -4,7 +4,6 @@ description: The following functions, structures, messages, and enumeration type
 ms.assetid: 238420a7-6a18-43bc-8225-6581f0fd4d63
 keywords:
 - Remote Access Service RAS ,reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Surface Sharing Between Windows Graphics APIs
 description: This topic provides a technical overview of interoperability using surface sharing between Windows graphics APIs, including Direct3D 11, Direct2D, DirectWrite, Direct3D 10, and Direct3D 9Ex.
 ms.assetid: 65abf33e-3d15-42ff-99bd-674f24da773e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

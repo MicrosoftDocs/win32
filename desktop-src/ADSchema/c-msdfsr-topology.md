@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Topology class
 description: Contains the objects that form the replication topology.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d7694b2c-8181-49f6-8bc9-ea5d13621ff9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Topology
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

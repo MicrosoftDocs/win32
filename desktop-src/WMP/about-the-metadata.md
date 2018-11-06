@@ -6,7 +6,6 @@ keywords:
 - Windows Media Player,metadata
 - metadata,about
 - metadata,attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

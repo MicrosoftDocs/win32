@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 19f2d22e-432d-4dfc-aff3-7e8793f87f54
 title: System.Contact.JobInfo3CompanyName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

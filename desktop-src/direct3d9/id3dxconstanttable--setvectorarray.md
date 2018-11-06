@@ -2,7 +2,6 @@
 Description: Sets an array of 4D vectors.
 ms.assetid: bd453384-4f38-4017-a9a5-cac605919940
 title: ID3DXConstantTable::SetVectorArray method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

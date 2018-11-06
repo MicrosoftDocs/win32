@@ -2,7 +2,6 @@
 title: Windows Coding Conventions
 description: If you are new to Windows programming, it can be disconcerting when you first see a Windows program.
 ms.assetid: 466a66db-7681-4fce-9672-07849cd1b096
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

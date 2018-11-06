@@ -2,7 +2,6 @@
 Description: An attribute is a key/value pair, where the key is a GUID and the value is a PROPVARIANT. Attributes are used throughout Microsoft Media Foundation to configure objects, describe media formats, query object properties, and other purposes.
 ms.assetid: 44af5e03-5f0a-4564-b9d6-b8c935df35b2
 title: Attributes in Media Foundation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

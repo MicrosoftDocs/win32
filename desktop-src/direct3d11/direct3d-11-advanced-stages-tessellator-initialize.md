@@ -2,7 +2,6 @@
 title: How To Initialize the Tessellator Stage
 description: This topic shows how to initialize the tessellator stage.
 ms.assetid: 81f5461a-0938-4c46-b3e8-bef2bea125a5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

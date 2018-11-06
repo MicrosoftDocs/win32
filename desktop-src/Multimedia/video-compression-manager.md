@@ -5,7 +5,6 @@ ms.assetid: 'df876309-68d3-43a3-9d83-6fdb8f345fdc'
 keywords:
 - Video for Windows (VFW),video compression manager (VCM)
 - VFW (Video for Windows),video compression manager (VCM)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

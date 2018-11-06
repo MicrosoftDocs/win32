@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Negotiation-Policy class
 description: The Ipsec-Negotiation-Policy class is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6e55919b-c475-479e-ad51-cf8fa661197d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Negotiation-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

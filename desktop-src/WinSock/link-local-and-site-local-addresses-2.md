@@ -2,7 +2,6 @@
 Description: IPv6 link-local and site-local addresses are called scoped addresses.
 ms.assetid: d31882f6-b747-47c7-83cb-a9a03fe11cb8
 title: IPv6 Link-local and Site-local Addresses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Developers of Windows Installer packages may choose to use a custom action type 39 when the standard actions are insufficient to execute the installation.
 ms.assetid: edf96cc6-ef32-4660-b4ee-50c130626e15
 title: Custom Action Type 39
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Media Parameters
 ms.assetid: 48b2bc2e-897d-4aa9-8a50-c2855a17dca5
 title: Media Parameters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

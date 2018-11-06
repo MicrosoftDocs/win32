@@ -1,9 +1,6 @@
 ---
 title: Treat-As-Leaf attribute
 description: Display-specifiers with this flag set to TRUE force the related class to be displayed as a leaf class even if it has children.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7b19fc04-69ac-4e4b-8b9b-bd1ec74fcea7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Treat-As-Leaf
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

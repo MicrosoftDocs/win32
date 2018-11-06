@@ -1,10 +1,8 @@
 ---
 title: Windows Event Collector Functions
 description: The following list briefly describes the functions that are used in Windows Event Collector.
-audience: developer
 ms.assetid: 48155df6-ba9c-4abe-ba84-6190cee95878
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

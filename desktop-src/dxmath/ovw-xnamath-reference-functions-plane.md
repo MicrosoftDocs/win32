@@ -2,7 +2,6 @@
 Description: Lists the plane functions provided by DirectXMath.
 ms.assetid: 6505e72e-4af5-5db3-4fc0-f83fa77692b1
 title: DirectXMath Library Plane Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

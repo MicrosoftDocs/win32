@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Last-Imported-Biz-Rule-Path attribute
 description: The last imported business rule path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: be203f13-44ad-4da0-9889-80cf4a225a89
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Last-Imported-Biz-Rule-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

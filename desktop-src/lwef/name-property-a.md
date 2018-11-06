@@ -2,7 +2,6 @@
 title: Name Property
 description: Name Property
 ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

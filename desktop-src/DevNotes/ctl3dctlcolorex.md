@@ -2,7 +2,6 @@
 Description: Handles the WM\_CTLCOLOR message for applications that use CTL3D.
 ms.assetid: 8626a559-4856-4e7d-bf9c-edc48613b8f4
 title: Ctl3dCtlColorEx function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

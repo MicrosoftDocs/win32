@@ -2,7 +2,6 @@
 Description: The ModuleSignature table contains all the information needed to identify the merge module.
 ms.assetid: 5f0b4590-dac3-4528-b714-ff760ae8d123
 title: Authoring ModuleSignature Tables
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

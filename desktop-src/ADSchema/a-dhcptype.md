@@ -1,9 +1,6 @@
 ---
 title: dhcp-Type attribute
 description: The type of DHCP server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 46ab7db7-a752-45aa-a10b-1195b5cf6f80
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

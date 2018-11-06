@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayEncryptedOtpCookie property
 description: Specifies or retrieves the encrypted one-time password (OTP) cookie.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 09b90231-ebe5-4165-b0e5-edba18472391
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

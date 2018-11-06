@@ -7,7 +7,6 @@ keywords:
 - Device Manager,metadata
 - programming reference,metadata
 - reference for Windows Media Device Manager,metadata
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

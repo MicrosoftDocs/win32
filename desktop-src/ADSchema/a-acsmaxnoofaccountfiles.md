@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-No-Of-Account-Files attribute
 description: The maximum number of RSVP account files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b51863c1-a192-4b28-8a8b-392dc5506d8c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-No-Of-Account-Files
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

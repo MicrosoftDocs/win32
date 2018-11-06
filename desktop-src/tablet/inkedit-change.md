@@ -2,7 +2,6 @@
 Description: Occurs when the content of the InkEdit control changes.
 ms.assetid: 6c65fcca-c84a-414c-a4e5-c5fdffb13e51
 title: InkEdit.Change event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

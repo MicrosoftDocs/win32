@@ -1,9 +1,6 @@
 ---
 title: Template-Roots attribute
 description: This attribute is used on the Exchange config container to indicate where the template containers are stored. This information is used by the Active Directory MAPI provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1416ce4a-ca07-4ca9-8ea1-e1a6ad19e7ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Template-Roots
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

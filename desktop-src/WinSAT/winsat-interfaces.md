@@ -2,7 +2,6 @@
 title: WinSAT Interfaces
 description: The Windows System Assessment Tool (WinSAT) defines the following interfaces that you can use to initiate assessments on the computer and to query formal assessments in the WinSAT data store
 ms.assetid: 32a5639c-7e09-43c3-b958-c72c73a64025
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

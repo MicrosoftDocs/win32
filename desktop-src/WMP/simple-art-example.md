@@ -9,7 +9,6 @@ keywords:
 - art files for skins,examples
 - Windows Media Player skins,examples
 - skins,examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

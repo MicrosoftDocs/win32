@@ -1,15 +1,11 @@
 ---
 title: Example Code for Locating the Partitions Container
 description: This topic includes code examples that locate the partition container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7aa6ad5a-7baf-484a-9296-eafb61da5f4e
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Locating the Partitions Container AD
 - Application Directory Partitions AD , Example Code for Locating the Partitions Container
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

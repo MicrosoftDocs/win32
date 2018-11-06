@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Services API Structures
 description: Lists structures that are used with the Remote Desktop Services API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5d467241-499c-4038-8d9c-4244457e484f
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

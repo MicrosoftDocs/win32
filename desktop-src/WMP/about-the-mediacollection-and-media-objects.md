@@ -19,7 +19,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,Media object
 - Windows Media Player Mobile,Media object
 - Media object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

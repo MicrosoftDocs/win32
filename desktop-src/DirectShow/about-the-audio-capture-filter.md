@@ -2,7 +2,6 @@
 Description: About the Audio Capture Filter
 ms.assetid: ff345670-5a75-40d3-a228-8bc22aa76708
 title: About the Audio Capture Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

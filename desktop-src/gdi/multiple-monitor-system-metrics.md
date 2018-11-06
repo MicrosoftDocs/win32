@@ -2,7 +2,6 @@
 Description: The GetSystemMetrics function returns values for the primary monitor, except for SM\_CXMAXTRACK and SM\_CYMAXTRACK, which refer to the entire desktop.
 ms.assetid: d0105363-1895-4e10-8a33-648a6fc4c20a
 title: Multiple Monitor System Metrics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

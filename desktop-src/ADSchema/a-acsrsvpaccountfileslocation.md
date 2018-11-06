@@ -1,9 +1,6 @@
 ---
 title: ACS-RSVP-Account-Files-Location attribute
 description: The directory location of RSVP account files. Defaults to the \ 0034;system32 \ 0034; subdirectory located in the default system directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 84303766-0d17-4728-aa61-6a5377b7de04
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-RSVP-Account-Files-Location
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

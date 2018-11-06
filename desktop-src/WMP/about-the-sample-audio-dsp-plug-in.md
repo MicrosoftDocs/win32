@@ -13,7 +13,6 @@ keywords:
 - DSP plug-ins,audio samples
 - samples,DSP plug-ins
 - audio DSP plug-ins,samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

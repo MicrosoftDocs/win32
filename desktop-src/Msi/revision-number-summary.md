@@ -2,7 +2,6 @@
 Description: For an installation package, the Revision Number Summary property contains the package code for the installer package.
 ms.assetid: 79702b44-846a-4672-8e22-9b6e3f4b4678
 title: Revision Number Summary property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

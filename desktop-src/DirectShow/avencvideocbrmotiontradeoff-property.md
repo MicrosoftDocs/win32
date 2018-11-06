@@ -2,7 +2,6 @@
 Description: Specifies the tradeoff between motion and still images. This property applies only to constant bit rate (CBR) control mode.
 ms.assetid: e657e971-4624-4c87-ad51-6bf0cd1f9246
 title: AVEncVideoCBRMotionTradeoff property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

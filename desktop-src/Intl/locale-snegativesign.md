@@ -2,7 +2,6 @@
 Description: LOCALE\_SNEGATIVESIGN
 ms.assetid: fc685b9a-b65a-491c-8c45-a8021e785910
 title: LOCALE_SNEGATIVESIGN
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

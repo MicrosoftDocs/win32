@@ -2,7 +2,6 @@
 Description: The raw encryption functions enable backup of encrypted files.
 ms.assetid: 00f9b00e-305d-4554-8b43-7061228c92c3
 title: Backup and Restore of Encrypted Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

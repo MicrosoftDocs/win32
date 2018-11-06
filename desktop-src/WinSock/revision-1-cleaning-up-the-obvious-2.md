@@ -2,7 +2,6 @@
 Description: In this version of the example program, a few obvious changes have been made that will take initial strides at improving performance.
 ms.assetid: ef9d594c-31fe-44c0-b707-47c01e2c5bf0
 title: 'Revision One: Cleaning up the Obvious'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 In this version of the example program, a few obvious changes have been made that will take initial strides at improving performance. This version of the code is far from performance-tuned, but it is a good incremental step that enables examination of the effects of incrementally better approaches.
 
-> \[!Warning\]  
+> [!WARNING]
 > This example of the application provides intentionally poor performance, in order to illustrate performance improvements possible with changes to code. Do not use this code sample in your application; it is for illustration purposes only.
 
  

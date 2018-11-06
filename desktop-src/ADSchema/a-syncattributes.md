@@ -1,9 +1,6 @@
 ---
 title: Sync-Attributes attribute
 description: Attributes that contain information on the sync objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8b67462f-945c-4609-b8d1-a86d628bfc27
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sync-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

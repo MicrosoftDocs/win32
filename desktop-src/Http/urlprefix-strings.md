@@ -4,7 +4,6 @@ description: In the HTTP Server API, a UrlPrefix is a wide-character (UTF-16) Un
 ms.assetid: 4f317bf6-ee6a-47a8-a531-78534217109d
 keywords:
 - UrlPrefix strings HTTP Server API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

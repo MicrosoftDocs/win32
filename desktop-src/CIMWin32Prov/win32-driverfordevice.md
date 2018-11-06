@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DriverForDevice association WMI class relates a printer instance to a printer driver instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 56ff74b2-31ba-4d8e-b389-9f962932aa03
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DriverForDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

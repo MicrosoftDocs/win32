@@ -1,12 +1,8 @@
 ---
 title: Obtaining Accounting Properties
 description: The accounting object is one of the objects in the Request Handlers collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb5c8606-d3f0-4c33-9035-7b7b1369cb0d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

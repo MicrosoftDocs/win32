@@ -4,7 +4,6 @@ description: Direct2D provides the following functions.
 ms.assetid: '1a7ae962-9b70-442c-a676-f172a2d9bfd3'
 keywords:
 - Direct2D,functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

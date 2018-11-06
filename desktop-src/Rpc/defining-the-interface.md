@@ -4,7 +4,6 @@ description: An interface definition is a formal specification for how a client 
 ms.assetid: 709ca498-4da3-4e6f-bb12-333a407b74c2
 keywords:
 - Remote Procedure Call RPC , tasks, defining the interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

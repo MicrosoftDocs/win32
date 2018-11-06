@@ -2,7 +2,6 @@
 title: ' else'
 description: The \ else directive marks an optional clause of a conditional-compilation block defined by a \ ifdef, \ ifndef, or \ if directive. The \ else directive must be the last directive before the \ endif directive.
 ms.assetid: 982466d9-ae77-4e1c-89f3-511335165da7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

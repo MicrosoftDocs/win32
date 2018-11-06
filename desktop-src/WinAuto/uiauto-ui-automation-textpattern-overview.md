@@ -20,7 +20,6 @@ keywords:
 - Text Services Framework (TSF)
 - TSF (Text Services Framework)
 - performance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

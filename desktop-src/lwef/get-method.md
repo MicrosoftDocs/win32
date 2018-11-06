@@ -2,7 +2,6 @@
 title: Get Method
 description: Get Method
 ms.assetid: 749566ba-d29d-4c20-b90a-adb4a4dd333d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

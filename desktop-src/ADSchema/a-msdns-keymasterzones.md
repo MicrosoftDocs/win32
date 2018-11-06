@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Keymaster-Zones attribute
 description: A list of Active Directory-integrated zones for which the DNS server is the keymaster.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 85116d0a-a675-4b45-9e23-1fe293393806
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Keymaster-Zones
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

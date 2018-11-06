@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Rule class
 description: Defines a single rule in a SOM.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 677d87d3-91ac-4d0a-9462-b71abc5adc4d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Rule
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

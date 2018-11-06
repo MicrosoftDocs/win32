@@ -2,7 +2,6 @@
 Description: When it installs a network provider, your application should create the registry keys and values described in this topic.
 ms.assetid: cc5a4a7b-02b5-4ecd-967c-de0656f00846
 title: Authentication Registry Keys
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: associatedName attribute
 description: The associatedName attribute type specifies an entry in the organizational DIT that is associated with a DNS domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c9df20d0-8ab4-463c-ac03-93af648bfbb1
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - associatedName
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

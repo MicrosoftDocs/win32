@@ -2,7 +2,6 @@
 Description: Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.
 ms.assetid: dfd481f9-38fd-433f-b1fc-697c735c13da
 title: IInkAnalyzer::SearchWithLanguageId method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

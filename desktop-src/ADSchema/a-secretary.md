@@ -1,9 +1,6 @@
 ---
 title: secretary attribute
 description: Contains the distinguished name of the secretary for an account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 49a65855-0939-4b60-a89b-09924a87077b
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - secretary
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

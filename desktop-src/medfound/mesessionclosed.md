@@ -2,7 +2,6 @@
 Description: Raised when the IMFMediaSession::Close method completes asynchronously.
 ms.assetid: d1056ce7-5527-428a-8ace-e1c10a2124a5
 title: MESessionClosed event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

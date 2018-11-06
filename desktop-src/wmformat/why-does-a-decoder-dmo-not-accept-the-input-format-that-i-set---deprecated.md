@@ -10,7 +10,6 @@ api_name:
 - Why does a decoder DMO not accept the input format that I set
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

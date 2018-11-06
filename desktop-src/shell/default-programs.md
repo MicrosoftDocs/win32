@@ -2,7 +2,6 @@
 Description: Use Default Programs to set the default user experience.
 ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: Default Programs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 Use **Default Programs** to set the default user experience. Users can access **Default Programs** from Control Panel or directly from the **Start** menu. [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md) tool, the primary defaults experience for users in Windows XP, is now one part of **Default Programs**.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](http://go.microsoft.com/fwlink/p/?linkid=619638).
 
  

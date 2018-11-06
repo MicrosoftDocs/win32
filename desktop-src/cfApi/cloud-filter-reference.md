@@ -2,7 +2,6 @@
 Description: The following elements are used to create and manage placeholder files and directories.
 ms.assetid: 518988BF-9D75-4CA7-8622-33A5C9DD1F4E
 title: Cloud Filter Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

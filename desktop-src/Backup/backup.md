@@ -6,7 +6,6 @@ keywords:
 - backup Backup
 - backup Backup , home
 - restore operations Backup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

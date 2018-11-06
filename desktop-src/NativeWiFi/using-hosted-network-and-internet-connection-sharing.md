@@ -2,7 +2,6 @@
 Description: Using Wireless Hosted Network and Internet Connection Sharing
 ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
 title: Using Wireless Hosted Network and Internet Connection Sharing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

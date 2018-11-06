@@ -2,7 +2,6 @@
 Description: The maximum number of sockets supported by a particular Windows Sockets service provider is implementation specific.
 ms.assetid: acf5ab29-3848-4dbc-afa7-a0f19045ddec
 title: Maximum Number of Sockets Supported
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

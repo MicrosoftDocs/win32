@@ -1,9 +1,6 @@
 ---
 title: Win32_RDSHServer class
 description: Manages a Remote Desktop Session Host (RDSH) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2c2840d2-16aa-484a-979b-6dbb1a08bbcf
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

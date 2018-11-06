@@ -2,7 +2,6 @@
 Description: The LARGEINT datatype defines a LARGE\_INTEGER value.
 ms.assetid: '65801136-bde7-4bca-af1f-243e757f3d8d'
 title: LARGEINT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

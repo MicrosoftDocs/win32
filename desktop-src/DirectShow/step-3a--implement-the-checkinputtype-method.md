@@ -2,7 +2,6 @@
 Description: Step 3A.
 ms.assetid: 774fcb12-8928-4667-8ef6-dce86717cc29
 title: Step 3A. Implement the CheckInputType Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

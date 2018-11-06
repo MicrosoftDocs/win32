@@ -2,7 +2,6 @@
 Description: Contains the camera extrinsics for the stream.
 ms.assetid: 2236C135-BA3D-4C1B-8A39-5E23EF67425A
 title: MFStreamExtension_CameraExtrinsics attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

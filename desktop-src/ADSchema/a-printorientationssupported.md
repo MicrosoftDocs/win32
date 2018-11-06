@@ -1,9 +1,6 @@
 ---
 title: Print-Orientations-Supported attribute
 description: The page rotation for landscape printing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3e910f1-452e-4b85-8ede-50b7274475a0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Orientations-Supported
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

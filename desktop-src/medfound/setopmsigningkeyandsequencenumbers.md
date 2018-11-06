@@ -2,7 +2,6 @@
 Description: Sets the signing key and two sequence numbers on a protected output object.
 ms.assetid: 278a80f5-198d-4311-aa43-10b6dc33b3a4
 title: SetOPMSigningKeyAndSequenceNumbers function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # SetOPMSigningKeyAndSequenceNumbers function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

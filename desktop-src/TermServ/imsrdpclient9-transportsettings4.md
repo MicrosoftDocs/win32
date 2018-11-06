@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient9 TransportSettings4 property
 description: Retrieves an object that supports the IMsRdpClientTransportSettings4 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 808259b9-a1a4-4611-8602-b6877013c4f6
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

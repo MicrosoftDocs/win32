@@ -2,7 +2,6 @@
 Description: Generally considered more network friendly than an all-routes broadcast, a directed broadcast limits itself to the local network that you specify.
 ms.assetid: e2358580-5a65-434d-ba4c-a6b0615bccc3
 title: Directed Broadcast
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

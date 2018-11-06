@@ -2,7 +2,6 @@
 title: New API allows apps to send "TRIM and Unmap" hints to storage media
 description: New API allows apps to send \ 0034;TRIM and Unmap \ 0034; hints to storage media
 ms.assetid: DDBC3592-BD4D-4826-83FE-387564DA07E8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

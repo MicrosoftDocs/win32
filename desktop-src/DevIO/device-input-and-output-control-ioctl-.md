@@ -2,7 +2,6 @@
 Description: The DeviceIoControl function provides a device input and output control (IOCTL) interface through which an application can communicate directly with a device driver.
 ms.assetid: 2dffd86a-162c-4e09-bfa1-73b87522741a
 title: Device Input and Output Control (IOCTL)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

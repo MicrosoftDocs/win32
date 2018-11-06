@@ -2,7 +2,6 @@
 title: Getting the Status of a Restart Manager Operation
 description: When many applications and services must be shut down or restarted, the Restart Manager operation can take an extended period of time. The following method can be used to obtain the status of the current operation.
 ms.assetid: 0df9de1f-df37-46a5-8010-6c8b34429376
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

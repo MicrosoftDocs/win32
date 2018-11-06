@@ -2,7 +2,6 @@
 Description: The Date property is the current month, day, and year as a string of literal text in the format MM/DD/YYYY.
 ms.assetid: 22c1f9b4-f6c9-4d57-8457-53bb045e2a4d
 title: Date property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

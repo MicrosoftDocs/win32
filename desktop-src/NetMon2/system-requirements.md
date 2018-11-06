@@ -2,7 +2,6 @@
 Description: System Requirements
 ms.assetid: acc12d63-2901-42be-8dbb-3d4acb0aa78e
 title: System Requirements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

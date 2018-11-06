@@ -2,7 +2,6 @@
 Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE command.
 ms.assetid: bdeb0cc4-90f0-4174-a859-4b3fecb17bab
 title: D3DAUTHENTICATEDCHANNEL_CONFIGURESHAREDRESOURCE structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

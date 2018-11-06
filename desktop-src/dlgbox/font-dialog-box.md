@@ -15,7 +15,6 @@ keywords:
 - initialization flags
 - predefined dialog boxes
 - dialog boxes,Font
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

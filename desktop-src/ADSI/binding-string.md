@@ -1,15 +1,11 @@
 ---
 title: Binding String
 description: Due to the number of objects accessible from a directory service, naming collisions can occur.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b4c44b19-d7b6-4dde-b44c-4a49cecbacf2
 ms.tgt_platform: multiple
 keywords:
 - Binding String ADSI
 - ADsPath ADSI , Description
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

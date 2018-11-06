@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings5 RedirectPOSDevices property
 description: Sets or retrieves the configuration for Point of Service device redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2614048e-244d-4dea-96fb-bb8c563a29f9
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

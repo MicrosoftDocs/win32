@@ -1,9 +1,6 @@
 ---
 title: Win32_TSExpandEnvironmentVariables class
 description: Expands system-defined environment variables.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f79d4fa2-1a6e-4a2f-a637-b62f05cfd2ad
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

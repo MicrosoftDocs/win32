@@ -6,7 +6,6 @@ keywords:
 - ACF MIDL
 - Microsoft Interface Definition Language MIDL , described, application configuration file
 - application configuration file MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

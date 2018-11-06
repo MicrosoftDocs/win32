@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Quota-Container class
 description: Contains all quota specifications for the directory database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 47ae1632-dad0-47d5-97f3-47b22d4d04f5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Quota-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

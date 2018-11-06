@@ -2,7 +2,6 @@
 Description: Toggles line antialiasing.
 ms.assetid: 9c212823-2dc6-40dd-b1aa-9fc4a2c540f4
 title: ID3DXLine::SetAntialias method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

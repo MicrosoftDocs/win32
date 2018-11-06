@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1091 through 1100.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9b7db4fc-8ae8-46f7-a40f-e4401a335c5d
 ms.tgt_platform: multiple
 title: Errors 1091 through 1100
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

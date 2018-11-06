@@ -2,7 +2,6 @@
 Description: The width, height and depth values from the D3D12_DISPATCH_RAYS_DESC structure specified in the originating DispatchRays call.
 ms.assetid: 
 title: DispatchRaysDimensions
-ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Exports keying material per the RFC 5705 standard.
 ms.assetid: 19624852-B1A6-4BB4-96AF-0457834DA294
 title: SslExportKeyingMaterial function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

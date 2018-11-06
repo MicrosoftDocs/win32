@@ -1,9 +1,6 @@
 ---
 title: CA-WEB-URL attribute
 description: URL for http connection to a certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 148bab57-25ae-467a-86a2-dbf83e69979e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CA-WEB-URL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

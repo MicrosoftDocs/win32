@@ -12,7 +12,6 @@ keywords:
 - visualizations,Render function
 - custom visualizations,Render function
 - Render function,programming guide
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

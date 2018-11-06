@@ -5,7 +5,6 @@ ms.assetid: 148dabda-96cc-4f7c-abc7-4bf78ac166ea
 keywords:
 - MIDL compiler MIDL , dealing with defines
 - defines MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

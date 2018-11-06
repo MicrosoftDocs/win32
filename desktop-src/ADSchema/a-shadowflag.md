@@ -1,9 +1,6 @@
 ---
 title: shadowFlag attribute
 description: Contains the section of the shadow map that is used to store the flag value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2cac9ae5-4f37-4b96-a376-d34e66925e8f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowFlag
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

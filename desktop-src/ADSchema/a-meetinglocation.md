@@ -1,9 +1,6 @@
 ---
 title: meetingLocation attribute
 description: The location for a meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6dc71a93-f4e7-4eea-b27b-cdd68e82d27f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingLocation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

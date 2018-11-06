@@ -2,7 +2,6 @@
 Description: The SourceListClearMediaDisk method of the Patch object removes a specified disk from the set of registered disks for a patch. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.
 ms.assetid: fc52ecb9-2c79-497b-b551-0d3c4f584e86
 title: Patch.SourceListClearMediaDisk method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

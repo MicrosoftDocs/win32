@@ -2,7 +2,6 @@
 title: Failure Semantics for Context Handles
 description: This topic discusses failure semantics for context handles.
 ms.assetid: fcf28519-39ad-4823-bc27-f3502e4d540c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

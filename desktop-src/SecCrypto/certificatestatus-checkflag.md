@@ -2,7 +2,6 @@
 Description: Sets or retrieves the validity check flags for a certificate.
 ms.assetid: c80c95a0-8a9b-441d-b243-7ee0552731e4
 title: CertificateStatus.CheckFlag property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

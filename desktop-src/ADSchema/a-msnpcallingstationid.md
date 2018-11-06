@@ -1,9 +1,6 @@
 ---
 title: msNPCallingStationID attribute
 description: The msNPCallingStationID attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b80abee1-3c0d-409e-ada7-e7ffd5bdfc8e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msNPCallingStationID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

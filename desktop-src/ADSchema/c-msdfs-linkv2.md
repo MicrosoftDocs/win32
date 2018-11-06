@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Link-v2 class
 description: DFS link in DFS namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a3f7703-d6a1-4518-8eef-e4ef13da832e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Link-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

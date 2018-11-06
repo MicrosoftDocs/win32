@@ -1,9 +1,6 @@
 ---
 title: ms-TAPI-Unique-Identifier attribute
 description: Provides the name of a TAPI multicast conference. It is the naming attribute of the Rt-Conference class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a8162af7-0169-4381-8edc-3dbbf178e8ed
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TAPI-Unique-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

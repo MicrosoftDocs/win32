@@ -2,7 +2,6 @@
 Description: 'The Windows Image Acquisition (WIA) run-time system is divided into the following components: WIA Application Programming InterfaceWIA Scripting Model'
 ms.assetid: d8f5c10a-901f-40ae-b9c0-3b990f514a5b
 title: Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

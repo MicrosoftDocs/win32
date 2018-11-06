@@ -2,7 +2,6 @@
 title: Using IConnectionPoint
 description: Using IConnectionPoint
 ms.assetid: afd50b84-1fd6-47ad-a3ef-e8b4a725b72b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

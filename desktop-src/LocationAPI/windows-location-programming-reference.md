@@ -2,7 +2,6 @@
 Description: This section documents COM interfaces and other C++ constructs for location programming.
 ms.assetid: 98b89224-fa5f-4d7a-952a-fa63ca36493d
 title: Location API C++ Programming Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section contains reference material for the DirectXMath Library.
 ms.assetid: 050dfae8-4f20-9688-e356-32d66fdf6250
 title: DirectXMath Programming Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

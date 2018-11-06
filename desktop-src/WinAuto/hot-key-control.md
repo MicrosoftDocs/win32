@@ -2,7 +2,6 @@
 title: Hot Key Control (MSAA UI Element Reference)
 description: Hot key controls allow users to enter a combination of keystrokes used as a hot key, which enables them to perform an action quickly. A hot key control displays the keystrokes entered by the user and ensures that the user selects a valid key combination.
 ms.assetid: 56c9fee4-f3d3-4f61-8587-bf80186aa5b3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

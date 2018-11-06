@@ -1,12 +1,8 @@
 ---
 Description: VOID is a data type that represents the absence of a value. Use VOID in MOF only to indicate a method that has no return value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27dc26ba-6411-4986-99b2-9a2960824dac
 ms.tgt_platform: multiple
 title: VOID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

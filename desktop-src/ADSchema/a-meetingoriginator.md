@@ -1,9 +1,6 @@
 ---
 title: meetingOriginator attribute
 description: The person who scheduled the meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff83cbd1-d32a-4878-a56d-cb9ad70521ab
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingOriginator
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

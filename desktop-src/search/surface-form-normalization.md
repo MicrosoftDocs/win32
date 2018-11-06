@@ -2,7 +2,6 @@
 Description: Although words and linguistic rules differ dramatically, there are some considerations, such as numbers, dates, and times, that are handled consistently across all word breakers.
 ms.assetid: 62545566-f0ba-4876-93da-e6c2b9c23484
 title: Surface Form Normalization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

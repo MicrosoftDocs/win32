@@ -1,9 +1,6 @@
 ---
 title: Ipsec-NFA class
 description: The Ipsec-NFA class is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b0fd9de1-13bb-40b4-8c03-f32962f6bb2f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-NFA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

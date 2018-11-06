@@ -1,9 +1,6 @@
 ---
 title: COM-ClassID attribute
 description: This attribute stores the list of ClassIDs that are implemented in this application package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec05499d-cd55-459b-bdee-6806f195c96e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-ClassID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

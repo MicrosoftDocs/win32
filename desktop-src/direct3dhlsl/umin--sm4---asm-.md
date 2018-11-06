@@ -2,7 +2,6 @@
 title: umin (sm4 - asm)
 description: Component-wise unsigned integer minimum.
 ms.assetid: 134B128F-7B47-4819-A576-80766EDB14C9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

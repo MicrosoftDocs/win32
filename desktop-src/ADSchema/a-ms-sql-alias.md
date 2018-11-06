@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Alias attribute
 description: An alias used to connect to the database. Default is set to Alias.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d129813c-9871-4ed5-968a-b05ab2b96f10
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Alias
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

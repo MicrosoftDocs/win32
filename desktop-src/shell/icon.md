@@ -2,7 +2,6 @@
 Description: Windows supplies default icons for every item displayed on the desktop and in Windows Explorer.
 ms.assetid: '1827239c-0588-45aa-b7be-f96fb7affa65'
 title: Customizing Icons
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

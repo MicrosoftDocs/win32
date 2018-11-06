@@ -2,7 +2,6 @@
 Description: Determines whether the specified database is one of the standard databases (Sysmain, Apphelp, Drvmain, or Msimain).
 ms.assetid: 7d7e3ca7-535e-40b3-b635-299eff8abea5
 title: SdbIsStandardDatabase function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

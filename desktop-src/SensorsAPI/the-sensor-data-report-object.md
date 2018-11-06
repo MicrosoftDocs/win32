@@ -2,7 +2,6 @@
 Description: The sensor data report object contains sensor data.
 ms.assetid: 8a812860-338b-4ada-8f5f-ea693e038941
 title: The Sensor Data Report Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

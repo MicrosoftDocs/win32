@@ -1,9 +1,6 @@
 ---
 title: GP-Link attribute
 description: A sorted list of Group Policy options. Each option is a DWORD. Use of the UNICODE string is a convenience.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ddb1ee9-195c-47e5-83ce-6cc0d2e86e42
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GP-Link
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

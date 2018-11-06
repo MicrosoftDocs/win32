@@ -2,7 +2,6 @@
 title: VML AlignShape Attribute
 description: VML AlignShape Attribute
 ms.assetid: 427e5969-4545-47b2-80f8-0e8783c52d65
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

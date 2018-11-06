@@ -2,7 +2,6 @@
 Description: The GetColourMask method retrieves the color masks for the current display format.
 ms.assetid: 386d0439-8502-411d-935c-3c2153a8b5b4
 title: CImageDisplay.GetColourMask method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

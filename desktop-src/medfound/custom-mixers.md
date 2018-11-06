@@ -2,7 +2,6 @@
 Description: Custom Mixers
 ms.assetid: a0af318d-9ac2-43f9-8934-f28c472256a6
 title: Custom Mixers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

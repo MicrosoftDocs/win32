@@ -2,7 +2,6 @@
 Description: The IX509Extension interface exposes the following properties.
 ms.assetid: 26109E08-0BA8-485E-AC1D-04D44F7BBEA7
 title: IX509Extension Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Security Considerations Microsoft Windows Controls
 description: This topic provides information about security considerations related to the Windows controls.
 ms.assetid: d5396fa1-452e-40e1-beaf-ae04690048f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

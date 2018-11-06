@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-SecretAgreement-AlgorithmID attribute
 description: The name of the secret agreement algorithm to be used with public keys.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 32a9a33c-8abd-463b-ba45-f4f862664b15
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-SecretAgreement-AlgorithmID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

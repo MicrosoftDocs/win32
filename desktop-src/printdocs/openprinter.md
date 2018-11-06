@@ -2,7 +2,6 @@
 Description: The OpenPrinter function retrieves a handle to the specified printer or print server or other types of handles in the print subsystem.
 ms.assetid: 96763220-d851-46f0-8be8-403f3356edb9
 title: OpenPrinter function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

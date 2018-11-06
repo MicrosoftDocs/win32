@@ -2,7 +2,6 @@
 Description: Sending COPP Commands
 ms.assetid: aba0bd34-f5bb-4233-bde2-0dfd8f1ff0bf
 title: Sending COPP Commands
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

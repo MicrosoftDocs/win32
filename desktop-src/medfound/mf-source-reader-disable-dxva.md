@@ -2,7 +2,6 @@
 Description: Specifies whether the Source Reader enables DirectX Video Acceleration (DXVA) on the video decoder.
 ms.assetid: ec539038-3fd3-41b7-a0e6-e75e3f2828a7
 title: MF_SOURCE_READER_DISABLE_DXVA attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

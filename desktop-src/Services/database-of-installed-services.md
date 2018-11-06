@@ -2,7 +2,6 @@
 Description: The SCM maintains a database of installed services in the registry.
 ms.assetid: 70f24e15-2607-4c32-9192-a9413b74558b
 title: Database of Installed Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

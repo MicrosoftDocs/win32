@@ -2,7 +2,6 @@
 Description: Specifies whether related events are included in the generated functions.
 ms.assetid: 23ca463c-b305-496b-a1e3-58dbb793f17e
 title: events element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

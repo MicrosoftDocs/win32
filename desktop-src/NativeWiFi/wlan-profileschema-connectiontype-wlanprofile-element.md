@@ -2,7 +2,6 @@
 Description: Indicates the operating mode of the network.
 ms.assetid: b71de38a-6373-4d96-90dd-a3ad4a7de074
 title: connectionType (WLANProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

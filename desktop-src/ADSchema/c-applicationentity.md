@@ -1,9 +1,6 @@
 ---
 title: Application-Entity class
 description: X.500 base class for applications Directory Service only uses subclass MSFT-DSA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a373cd9-80d4-45b8-942b-693bae38769c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Application-Entity
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

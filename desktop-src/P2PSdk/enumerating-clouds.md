@@ -2,7 +2,6 @@
 Description: When enumerating clouds, an application must provide the scope of the search for clouds. After the scope is identified, the application can begin the enumeration process.
 ms.assetid: efd16cca-ac63-4bfa-bc6c-d7465cc374ee
 title: Enumerating Clouds
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

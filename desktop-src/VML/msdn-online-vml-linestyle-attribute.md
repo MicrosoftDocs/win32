@@ -2,7 +2,6 @@
 title: VML LineStyle Attribute
 description: VML LineStyle Attribute
 ms.assetid: eec5c1f3-5256-4104-b021-ebf799665752
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

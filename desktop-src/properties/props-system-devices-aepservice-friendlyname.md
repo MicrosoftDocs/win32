@@ -2,7 +2,6 @@
 Description: Device Association Endpoint Service Friendly Name.
 ms.assetid: c1b8a9c0-e97c-4748-a801-0cb617f3f972
 title: System.Devices.AepService.FriendlyName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Length of the valid data in the buffer, in bytes. The value must be equal to or less than the size of the buffer, specified by the CMediaSample::m\_cbBuffer member variable.
 ms.assetid: 75610043-fe0b-4cd0-9fd6-292f25040d72
 title: CMediaSample::m_lActual member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

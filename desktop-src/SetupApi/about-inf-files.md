@@ -2,7 +2,6 @@
 Description: An INF file is a text file divided into different types of formatted sections.
 ms.assetid: 1dd8aba7-2035-4d78-8745-d355e01b9eb5
 title: About INF Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

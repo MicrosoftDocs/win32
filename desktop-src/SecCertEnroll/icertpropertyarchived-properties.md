@@ -2,7 +2,6 @@
 Description: The ICertPropertyArchived interface exposes the following properties.
 ms.assetid: 1FC29EEA-47C9-4AE0-9CFD-03121325EE2E
 title: ICertPropertyArchived Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - tracking installation progress
 - installing progress tracking
 - progress tracking of installations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

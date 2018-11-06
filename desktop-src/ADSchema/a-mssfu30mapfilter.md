@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Map-Filter attribute
 description: Contains a string used to filter data in a map. Can contain map keys, the domain name, and other types of data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8849439c-e0c3-488d-a1dc-d64a8d748549
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Map-Filter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

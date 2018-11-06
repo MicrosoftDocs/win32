@@ -1,7 +1,6 @@
 ---
 Description: There is a key distinction between extending the Shell, which consists of creating a data source, and consuming the Shell data model. This section deals with the former area.
 title: Shell Extensibility (Creating a Data Source)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

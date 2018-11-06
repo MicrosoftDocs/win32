@@ -1,9 +1,6 @@
 ---
 title: TSMF_SUPPORT_NODEDATA_OUT structure
 description: Used inside the TSMF\_SUPPORT\_DATA\_OUT structure to contain information about supported media formats.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cac0af9e-6750-4735-b075-46c77aea7d41
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - TSMF_SUPPORT_NODEDATA_OUT
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

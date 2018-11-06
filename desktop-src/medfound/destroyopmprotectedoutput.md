@@ -2,7 +2,6 @@
 Description: Releases a protected output object.
 ms.assetid: e9b09fd7-9db2-4189-b347-55f5fede2f80
 title: DestroyOPMProtectedOutput function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # DestroyOPMProtectedOutput function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

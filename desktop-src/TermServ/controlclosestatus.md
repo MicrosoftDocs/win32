@@ -1,9 +1,6 @@
 ---
 title: ControlCloseStatus enumeration
 description: Indicates whether the application containing the control can close the control immediately.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ac2e1c68-81b1-4b51-aa7e-0ff703e619a2
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: What is the Control Point Object Model
 description: The following illustration shows the basic Control Point object model.
 ms.assetid: 6c5a32a1-932e-4868-b4c6-8701e90a7c26
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

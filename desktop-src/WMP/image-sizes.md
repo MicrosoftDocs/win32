@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player Mobile skins,image sizes
 - skins,image sizes
 - image sizes in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

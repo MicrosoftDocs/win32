@@ -2,7 +2,6 @@
 Description: Identifier of the device service.
 ms.assetid: d21c0e16-403b-45f0-a9a8-2aa4d7f79cc7
 title: System.Devices.ServiceId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

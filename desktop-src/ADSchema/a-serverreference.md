@@ -1,9 +1,6 @@
 ---
 title: Server-Reference attribute
 description: Found in a site computer object. Contains the distinguished name of the domain controller in the domain naming context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6c0ebe85-b4ed-4284-ad96-0b711d5acce7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Server-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: WMI scheduled tasks create and get information about scheduled tasks. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 62151fe8-8880-43f2-b456-628bd9c7cc1c
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Scheduled Tasks'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

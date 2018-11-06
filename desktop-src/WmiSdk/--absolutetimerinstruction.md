@@ -1,12 +1,8 @@
 ---
 Description: Causes an event to be generated on a specific date at a specific time.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bcb64c81-3b40-4665-a880-a100629656e0
 ms.tgt_platform: multiple
 title: '__AbsoluteTimerInstruction class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ComputerSystemProcessor association WMI class relates a computer system and a processor running on that system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e630ebea-19bf-43c7-a8a0-7acfda3a752b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ComputerSystemProcessor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

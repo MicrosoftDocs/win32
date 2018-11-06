@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Server-Settings class
 description: A container for storing DNS server settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 65e8bd41-8873-493e-8b1b-960c2419aa96
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Server-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: IAgentBalloon
 description: IAgentBalloon
 ms.assetid: 94a48cd9-bea5-4993-8991-50c6c86a646b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

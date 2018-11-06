@@ -2,7 +2,6 @@
 Description: Proxy function for the InitializeFromIStream method.
 ms.assetid: 3ab780bb-7fe7-4abe-9ea7-86f54ea15d91
 title: IWICStream_InitializeFromIStream_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

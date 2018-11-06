@@ -1,9 +1,6 @@
 ---
 title: Attribute-Types attribute
 description: A multi-valued property that contains strings that represent each attribute in the schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 37d48944-b573-4067-982c-2e57db040b54
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Attribute-Types
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

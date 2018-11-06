@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop ActiveX control reference
 description: The following programming elements are used with the Remote Desktop ActiveX control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: EAF75483-90A4-4BB1-82A5-EFBB2219A55B
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

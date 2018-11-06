@@ -7,7 +7,6 @@ keywords:
 - Bluetooth
 - Bluetooth
 - Bluetooth and accept
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

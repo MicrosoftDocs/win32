@@ -3,7 +3,6 @@ title: M
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: '5fa13510-1714-4cb9-9b07-8a7de554174a'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: An event consumer provider is a component of the permanent consumer architecture that determines which permanent event consumer handles a given event.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c5a0d0ec-99af-4815-9ad2-e59db70e04ce
 ms.tgt_platform: multiple
 title: Writing an Event Consumer Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

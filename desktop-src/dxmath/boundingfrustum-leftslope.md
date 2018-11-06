@@ -2,7 +2,6 @@
 Description: The slope of the left side of the BoundingFrustum.
 ms.assetid: c83a022a-4213-41a8-8dbe-5e4ec80069b3
 title: BoundingFrustum.LeftSlope
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: Modifying User Cannot Change Password (LDAP Provider)
 description: The ability of a user to change their own password is a permission that can be grant or denied.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d5c2d6a-9997-4d0c-b896-bf1b578e64ac
 ms.tgt_platform: multiple
 keywords:
 - Modifying User Cannot Change Password (LDAP Provider) ADSI
 - User Cannot Change Password (LDAP Provider) ADSI , modifying
 - LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, modifying
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

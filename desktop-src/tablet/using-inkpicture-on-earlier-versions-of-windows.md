@@ -2,7 +2,6 @@
 Description: You can use the InkPicture Control to render ink on Microsoft Windows 2000, Windows Server 2003, and non-Tablet PC editions of Windows XP. However, you cannot use the control to input ink on these operating systems.
 ms.assetid: e5d00b0f-0a4f-4ea2-ae63-dfb6bc8c2caf
 title: Using InkPicture on Earlier Versions of Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

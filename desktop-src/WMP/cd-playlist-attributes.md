@@ -13,7 +13,6 @@ keywords:
 - reference for object model,CD playlist attributes
 - attributes,playlists
 - CD playlist attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

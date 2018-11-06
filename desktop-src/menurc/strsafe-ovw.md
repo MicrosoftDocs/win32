@@ -6,7 +6,6 @@ keywords:
 - string functions
 - Strsafe.h
 - Strsafe functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

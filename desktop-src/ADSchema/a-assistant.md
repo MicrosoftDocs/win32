@@ -1,9 +1,6 @@
 ---
 title: Assistant attribute
 description: The distinguished name of a user's administrative assistant.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4eec883-3678-422e-a9b9-753352c8c849
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Assistant
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

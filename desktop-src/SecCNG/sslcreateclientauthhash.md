@@ -2,7 +2,6 @@
 Description: Retrieves a handle to the handshake hash that is used for client authentication.
 ms.assetid: 55007ce0-4bf1-4605-9b34-2931935762aa
 title: SslCreateClientAuthHash function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

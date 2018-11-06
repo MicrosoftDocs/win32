@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player skins,mapping images
 - skins,mapping images
 - mapping images in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

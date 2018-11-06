@@ -1,9 +1,6 @@
 ---
 title: SetAllowDwm method of the Win32_TSClientSetting class
 description: Sets the AllowDwm property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c70d3dc9-c109-4d77-be50-20a0352282d6
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

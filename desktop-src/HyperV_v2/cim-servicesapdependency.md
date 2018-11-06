@@ -2,7 +2,6 @@
 Description: Represents an association between a service and a service access point (SAP) that provides the service with functionality.
 ms.assetid: 9b82fad2-9731-4e0d-bdb0-d1be13ea20fc
 title: CIM_ServiceSAPDependency class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

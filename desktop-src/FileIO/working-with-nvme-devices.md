@@ -2,7 +2,6 @@
 Description: Learn how to work with high-speed NVMe devices from your Windows application.
 ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Working with NVMe drives
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -72,7 +71,7 @@ Commands which are not defined in the NVMe specification are the most difficult 
 
 To better carry such device specific commands through the Windows storage stack, a new pass-through mechanism allows vendor-specific commands to be piped through. This pass-through pipe will also aid in development of management and testing tools. However, this pass-through mechanism requires use of the Command Effects Log. Moreover, StoreNVMe.sys requires all commands, not just pass-through commands, to be described in the Command Effects Log.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > StorNVMe.sys and Storport.sys will block any command to a device if it is not described in the Command Effects Log.
 
  

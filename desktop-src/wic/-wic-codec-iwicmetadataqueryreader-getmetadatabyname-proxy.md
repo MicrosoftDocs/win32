@@ -2,7 +2,6 @@
 Description: Proxy function for the GetMetadataByName method.
 ms.assetid: 5685e282-637e-4db0-8654-fee12ae25112
 title: IWICMetadataQueryReader_GetMetadataByName_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

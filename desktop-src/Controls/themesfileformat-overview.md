@@ -2,7 +2,6 @@
 title: Theme File Format
 description: This document discusses the format of Theme (.theme) files. A .theme file is a .ini text file that is divided into sections, which specify visual elements that appear on a Windows desktop. Section names are wrapped in brackets (\ \ ) in the .ini file.
 ms.assetid: 0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: msNPAllowDialin attribute
 description: Indicates whether the account has permission to dial in to the RAS server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e0d98b4-93b1-4a76-a8b7-d6017028b48a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msNPAllowDialin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetAllowTSConnections method of the Win32_TerminalServiceSetting class
 description: The SetAllowTSConnections method allows or denies new remote desktop connections. This method will modify the AllowTSConnections property for the class accordingly.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6cbaea62-ced0-4788-99fb-5b36816b80a1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

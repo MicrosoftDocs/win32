@@ -1,9 +1,6 @@
 ---
 title: Enumeration Helper Functions
 description: There are three enumerator helper functions that can be used from C/C++ to aid in the navigation of Active Directory objects. They are ADsBuildEnumerator, ADsEnumerateNext, and ADsFreeEnumerator.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 019958c8-5bf5-45eb-871c-796ff3750cdc
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - ADsEnumerateNext ADSI ,using
 - ADsFreeEnumerator ADSI ,using
 - ADSI ADSI ,example code C/C++ ,using ADsBuildEnumerator ADsEnumerateNext and ADsFreeEnumerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

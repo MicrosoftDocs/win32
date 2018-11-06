@@ -2,7 +2,6 @@
 title: Operations available on tiled resources
 description: This section lists operations that you can perform on tiled resources.
 ms.assetid: 1CF42A18-B6EA-4BA9-BEDE-9A8CC083CBAF
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

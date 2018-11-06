@@ -1,9 +1,6 @@
 ---
 title: Using Active Directory Domain Services
 description: This section provides guidelines for writing applications that use or publish data in an Active Directory directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2ae20169-08a5-4e15-8430-ea99a917725f
 ms.tgt_platform: multiple
 keywords:
@@ -13,7 +10,6 @@ keywords:
 - Active Directory Domain Services examples Active Directory
 - examples Active Directory
 - Active Directory Active Directory , examples see Active Directory Domain Services examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

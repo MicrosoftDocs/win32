@@ -2,7 +2,6 @@
 Description: Exclusive-Mode Streams
 ms.assetid: 196cc6fe-91bf-46fa-acc9-38a7a4005875
 title: Exclusive-Mode Streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

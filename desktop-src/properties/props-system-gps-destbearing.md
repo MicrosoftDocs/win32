@@ -2,7 +2,6 @@
 Description: Indicates the bearing to the destination point. Calculated from PKEY\_GPS\_DestBearingNumerator and PKEY\_GPS\_DestBearingDenominator.
 ms.assetid: 9bf93641-efc2-416c-a91c-d8fe95729b67
 title: System.GPS.DestBearing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

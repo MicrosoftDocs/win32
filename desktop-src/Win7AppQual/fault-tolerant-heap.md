@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: f1ac375a-3f08-49cd-8752-6f55db24a60c
 title: Fault Tolerant Heap
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

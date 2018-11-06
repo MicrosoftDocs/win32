@@ -2,7 +2,6 @@
 Description: INF File Reference
 ms.assetid: 4997D87E-D21B-4BC5-9CFE-298DDB6B9396
 title: INF File Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Teletype or telecommunication device number of the contact.
 ms.assetid: 75df5341-9297-4c4c-bab3-2d1fcbf66f82
 title: System.Contact.TTYTDDTelephone
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

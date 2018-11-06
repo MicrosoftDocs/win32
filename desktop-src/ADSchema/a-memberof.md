@@ -1,9 +1,6 @@
 ---
 title: Is-Member-Of-DL attribute
 description: The distinguished name of the groups to which this object belongs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 28fe1991-291b-4531-aec2-b1a1910be464
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Member-Of-DL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

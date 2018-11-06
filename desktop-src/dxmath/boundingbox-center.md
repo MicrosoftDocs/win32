@@ -2,7 +2,6 @@
 Description: The center of the BoundingBox.
 ms.assetid: d6cc1de6-69ad-4bda-af4b-f8c86bd2c11e
 title: BoundingBox.Center
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

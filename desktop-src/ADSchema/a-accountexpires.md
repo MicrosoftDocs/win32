@@ -1,9 +1,6 @@
 ---
 title: Account-Expires attribute
 description: The date when the account expires.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8c3c565e-77fe-4e8b-970a-8396fc6b45aa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Account-Expires
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The lexicon, or list of possible words used by a particular recognizer's language model, is contained in one or more dictionaries.
 ms.assetid: e975a75f-ab88-4164-afc8-3b817988504d
 title: Dictionaries and Phrase lists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

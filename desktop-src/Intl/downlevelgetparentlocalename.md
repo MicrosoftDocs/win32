@@ -2,7 +2,6 @@
 Description: Retrieves the locale name for the parent of the supplied locale.
 ms.assetid: a8db8107-822c-4bbc-acb8-40b25d2b41c4
 title: DownlevelGetParentLocaleName function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

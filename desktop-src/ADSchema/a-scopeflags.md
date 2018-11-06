@@ -1,9 +1,6 @@
 ---
 title: Scope-Flags attribute
 description: The Scope-Flags attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c68af2f5-066c-4d15-a116-73f5c7d51d59
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Scope-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

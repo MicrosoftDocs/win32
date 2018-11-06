@@ -1,12 +1,8 @@
 ---
 Description: Counter algorithm counter types may calculate rates or averages bytes for a sample or over a time period for a particular operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4423e35e-2a93-4f68-8494-89df05268cc9
 ms.tgt_platform: multiple
 title: Counter Algorithm Counter Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

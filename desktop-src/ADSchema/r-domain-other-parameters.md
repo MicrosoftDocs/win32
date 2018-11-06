@@ -1,9 +1,6 @@
 ---
 title: Domain-Other-Parameters property set
 description: Property set permitting control to a list of domain attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66c935c4-38cf-468a-b6e9-94541047c5e8
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Domain-Other-Parameters
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

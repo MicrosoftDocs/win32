@@ -2,7 +2,6 @@
 title: frc (sm4 - asm)
 description: Component-wise, extract fractional component.
 ms.assetid: 17C88BCE-7F2F-446C-9BB4-860098B5E42A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

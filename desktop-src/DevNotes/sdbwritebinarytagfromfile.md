@@ -2,7 +2,6 @@
 Description: Writes binary data from the specified file to the specified database.
 ms.assetid: 960633a8-5cec-462b-b7dc-72eb3e4fd0a2
 title: SdbWriteBinaryTagFromFile function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

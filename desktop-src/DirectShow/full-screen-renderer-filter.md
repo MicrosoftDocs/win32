@@ -2,7 +2,6 @@
 Description: Full Screen Renderer Filter
 ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Full Screen Renderer Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

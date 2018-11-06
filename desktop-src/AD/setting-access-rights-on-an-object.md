@@ -1,15 +1,11 @@
 ---
 title: Setting Access Rights on an Object
 description: This topic describes how to create an ACE for an access right and setting that ACE on the DACL of an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0b45709-4652-46c7-8d52-44076802d109
 ms.tgt_platform: multiple
 keywords:
 - Setting Access Rights on an Object AD
 - Objects AD , Setting Access Rights on an Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

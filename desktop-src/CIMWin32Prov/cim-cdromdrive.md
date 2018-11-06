@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CDROMDrive class represents a CD-ROM drive on the computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 044c9687-fc25-4a8c-b2ef-bd7ea332af7b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CDROMDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -60,7 +54,7 @@ The **CIM\_CDROMDrive** class represents a CD-ROM drive on the computer.
 
  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

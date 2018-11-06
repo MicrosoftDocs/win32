@@ -2,7 +2,6 @@
 Description: Working with Effects and Transitions
 ms.assetid: 00e97d02-ff43-4e1f-9806-abaeb9288058
 title: Working with Effects and Transitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

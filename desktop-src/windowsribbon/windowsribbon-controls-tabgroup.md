@@ -2,7 +2,6 @@
 title: Tab Group
 description: A Tab Group is a contextual control that is hidden or displayed at run time, based on a document or workspace state. The Tab Group contains a set of context-related Tab controls.
 ms.assetid: 5b74ff46-2543-43f3-ab42-dab1bc67a75e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +18,7 @@ A Tab Group is a contextual control that is hidden or displayed at run time, bas
 
 Typically, a Tab Group is displayed during specific document or workspace states, such as when a user selects a particular object type. For example, the selection of an image contained in the header of a table might require various contextual tabs to be displayed that expose both table and image functionality.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > A Tab Group does not support [application modes](ribbon-applicationmodes.md). However, the individual [Tab](windowsribbon-controls-tab.md) controls within a Tab Group may.
 
  

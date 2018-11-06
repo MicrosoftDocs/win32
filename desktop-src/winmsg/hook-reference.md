@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: fd574fc4-e3e6-48da-9b67-c1d67d8ea803
 title: Hook Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

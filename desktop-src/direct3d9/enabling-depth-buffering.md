@@ -2,7 +2,6 @@
 Description: After you create a depth buffer, as described in Creating a Depth Buffer (Direct3D 9), you enable depth buffering by calling the IDirect3DDevice9::SetRenderState method.
 ms.assetid: a3c972dd-3630-4d21-a22b-64a68e9acd19
 title: Enabling Depth Buffering (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

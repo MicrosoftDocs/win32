@@ -2,7 +2,6 @@
 title: Developer's Guide for Active Accessibility Servers
 description: Developer's Guide for Active Accessibility Servers
 ms.assetid: 5ecf34dd-aab4-4fae-80a9-1086d92839f2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

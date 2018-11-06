@@ -2,7 +2,6 @@
 Description: Find a Filters Peer
 ms.assetid: 74d9fe65-f7f4-4971-9550-27884ac4146b
 title: Find a Filters Peer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

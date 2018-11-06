@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings shutdownTimeout property
 description: Specifies the length of time, in seconds, to wait for the server to respond to a disconnection request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3fa935dc-d4b0-433b-ab67-a644fcf09006
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

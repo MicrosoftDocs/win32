@@ -2,7 +2,6 @@
 Description: Represents a single extended key usage (EKU) property of a certificate.
 ms.assetid: '08eb7c77-0224-4ab5-99e7-edf18eb23c60'
 title: EKU object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

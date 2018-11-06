@@ -2,7 +2,6 @@
 title: Share Functions
 description: The network management share functions control shared resources. A shared resource is a local resource on a server (for example, a disk directory, print device, or named pipe) that can be accessed by users and applications on the network.
 ms.assetid: 3764c667-2290-48e6-ba3a-c74eee2c27f9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

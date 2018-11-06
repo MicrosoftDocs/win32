@@ -2,7 +2,6 @@
 title: Rendering
 description: This section contains information about several Direct3D 11 rendering technologies.
 ms.assetid: 43772cb4-731f-4f0f-b549-cd1660aece03
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

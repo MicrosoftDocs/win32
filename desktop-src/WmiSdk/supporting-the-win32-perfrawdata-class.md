@@ -1,12 +1,8 @@
 ---
 Description: When writing a high-performance provider that derives classes from Win32\_PerfRawData, you must follow specific conventions so that WMI can supply data to the property values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 04abb2f9-800f-497a-ac8f-8ef210746273
 ms.tgt_platform: multiple
 title: Supporting the Win32_PerfRawData Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

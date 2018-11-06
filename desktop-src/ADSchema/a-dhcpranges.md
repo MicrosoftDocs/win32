@@ -1,9 +1,6 @@
 ---
 title: dhcp-Ranges attribute
 description: The dhcp-Ranges attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb83d673-877e-40a5-a768-b3c03559a476
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Ranges
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

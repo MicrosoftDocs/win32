@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-WMIGPO class
 description: This value is written to the Active Directory in the path pointed to by the corresponding Group Policy Object. It is intended to tie together the various objects used to express the WMI extensions to the Group Policy Infrastructure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fe70fb59-7ba5-4ae1-ac3e-9a521157bc9b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-WMIGPO
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

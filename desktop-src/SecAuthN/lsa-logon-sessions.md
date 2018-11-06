@@ -2,7 +2,6 @@
 Description: A logon session is a computing session that begins when a user authentication is successful and ends when the user logs off of the system.
 ms.assetid: 14f0f9e7-90ba-47d7-a8d5-06f9d2f1a7a1
 title: LSA Logon Sessions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

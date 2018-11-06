@@ -1,9 +1,6 @@
 ---
 title: PublishLS method of the Win32_TSLicenseServer class
 description: Publishes the Remote Desktop license server in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 726d5dec-e438-455e-adb8-56d646d65d13
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

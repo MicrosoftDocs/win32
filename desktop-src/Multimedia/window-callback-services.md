@@ -8,7 +8,6 @@ keywords:
 - audio mixers,window callback services
 - mixers,window callback services
 - window callback services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

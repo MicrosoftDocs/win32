@@ -2,7 +2,6 @@
 Description: There are a number of different types of shadow copy a requester can create.
 ms.assetid: a20570ea-e3eb-4d65-b8fa-9a27ce1a3e74
 title: Simple Shadow Copy Creation for Backup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

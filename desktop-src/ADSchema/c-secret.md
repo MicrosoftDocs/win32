@@ -1,9 +1,6 @@
 ---
 title: Secret class
 description: A Local Security Authority secret. Used for trust relationships and saving service passwords.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 762b4892-d9f3-458a-8ec2-f7dc24ddaf2f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Secret
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

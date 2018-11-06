@@ -9,7 +9,6 @@ keywords:
 - OpenGL porting from IRIS GL,sphere library
 - drawing functions,sphere library
 - sphere library
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

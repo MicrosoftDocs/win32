@@ -1,12 +1,8 @@
 ---
 Description: The IWbemHiPerfProvider interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5853448A-CDF6-42C8-9B30-AC9F3275FD4B
 ms.tgt_platform: multiple
 title: IWbemHiPerfProvider Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

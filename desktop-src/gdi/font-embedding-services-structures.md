@@ -2,7 +2,6 @@
 Description: The following structures are used with embedded Microsoft OpenType fonts.
 ms.assetid: d3a52d7d-f54d-40bc-b063-80885e3c9044
 title: Font Embedding Services Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

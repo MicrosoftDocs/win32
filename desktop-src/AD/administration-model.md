@@ -1,14 +1,10 @@
 ---
 title: Administration Model
 description: Authorized users perform administration in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bbe41c3c-35ca-4b11-9d0b-bc2cec466344
 ms.tgt_platform: multiple
 keywords:
 - administration model Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

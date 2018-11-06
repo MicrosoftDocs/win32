@@ -2,7 +2,6 @@
 title: HelpModeOn Property
 description: HelpModeOn Property
 ms.assetid: 4a9b5fd3-12e2-489b-8ce0-9b66b01f517a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

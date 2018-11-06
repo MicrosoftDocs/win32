@@ -7,7 +7,6 @@ keywords:
 - DNS, (See Domain Name System)
 - Domain Name System
 - Domain Name System, start page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

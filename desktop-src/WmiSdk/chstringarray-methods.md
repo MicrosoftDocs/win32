@@ -1,12 +1,8 @@
 ---
 Description: The CHStringArray class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AFE4306E-6BB1-4F1D-A301-CD5F05385466
 ms.tgt_platform: multiple
 title: CHStringArray Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

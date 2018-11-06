@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Egress-Claims-Transformation-Policy attribute
 description: This is a link to a Claims Transformation Policy Object for the egress claims (claims leaving this forest) to the Trusted Domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 693ebb45-e90c-4629-8afc-f048c83b4b95
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Egress-Claims-Transformation-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

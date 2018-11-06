@@ -4,7 +4,6 @@ description: Describes Direct2D resources and how they can be shared.
 ms.assetid: afd308a7-9524-4436-9a0e-8575383d96fa
 keywords:
 - Direct2D,resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

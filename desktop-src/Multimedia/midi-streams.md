@@ -6,7 +6,6 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),streams
 - MIDI (Musical Instrument Digital Interface),streams
 - stream buffers,MIDI streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Optional-Feature-GUID attribute
 description: GUID of an optional feature.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 79736823-bfed-446f-8268-5ea2743ded7d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Optional-Feature-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

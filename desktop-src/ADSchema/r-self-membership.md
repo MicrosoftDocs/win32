@@ -1,9 +1,6 @@
 ---
 title: Self-Membership validated writes
 description: Validated write permission to enable updating membership of a group in terms of adding/removing one's own account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 180cba0c-0fe1-4a91-b41e-e7eceac41639
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Self-Membership
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: An InParameters object contains the parameter list for calling provider methods when using an ExecMethod type of call.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8cc65129-1698-4ada-b493-672772c94045
 ms.tgt_platform: multiple
 title: Constructing InParameters Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Max-Connection-Time attribute
 description: Terminal Services session Maximum Connection Time is the maximum amount of time, in minutes, of the Terminal Services session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea81fedb-5906-4d07-8632-2dc3615aad21
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Max-Connection-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

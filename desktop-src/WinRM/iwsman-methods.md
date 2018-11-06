@@ -1,12 +1,8 @@
 ---
 title: IWSMan Methods
 description: The IWSMan interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 43550247-6DD9-4DEB-B7FF-F7946797F00F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

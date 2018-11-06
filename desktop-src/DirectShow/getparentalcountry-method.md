@@ -2,7 +2,6 @@
 Description: The DVDAdm.GetParentalCountry method retrieves the parental country/region that was last saved to the registry.
 ms.assetid: 947c5e2a-dfd5-4900-87d4-0ec967b99a22
 title: GetParentalCountry Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

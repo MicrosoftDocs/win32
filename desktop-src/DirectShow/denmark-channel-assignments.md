@@ -2,7 +2,6 @@
 Description: This topic lists the frequency tables used for analog TV tuning for Denmark.
 ms.assetid: 6ef5e1b9-08a0-4f3e-a26f-cf5bdf4ea464
 title: Denmark Channel Assignments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic lists the constructors of the SizeF class. For a complete class listing, see SizeF Class.
 ms.assetid: 4aeaaead-0abb-48c3-a152-54b589d59646
 title: SizeF.SizeF constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

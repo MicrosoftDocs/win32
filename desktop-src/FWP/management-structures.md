@@ -2,7 +2,6 @@
 title: Management Structures
 description: Management Structures
 ms.assetid: B0A43F13-51FD-40D3-A6F8-731626BC664F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

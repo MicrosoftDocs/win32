@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-AllowSnapshotFilesFTPDownloading attribute
 description: True if the publication allows snapshot files to be downloaded by using FTP.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 227e1438-db8d-4e8f-b2dd-ffc6ef50e0d1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-AllowSnapshotFilesFTPDownloading
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

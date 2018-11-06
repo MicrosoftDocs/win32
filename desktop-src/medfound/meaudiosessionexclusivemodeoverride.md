@@ -2,7 +2,6 @@
 Description: Raised by the audio renderer when the audio session is preempted by an exclusive-mode connection. The audio renderer is now invalid.
 ms.assetid: f89acfe4-14a7-4051-a816-e5e0ba8db80a
 title: MEAudioSessionExclusiveModeOverride event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Copy method copies a media sample.
 ms.assetid: 3fbc6925-6e9c-4419-ab0d-0bbdbdf9bb8e
 title: CTransInPlaceFilter.Copy method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

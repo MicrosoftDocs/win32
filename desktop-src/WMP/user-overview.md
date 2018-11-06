@@ -14,7 +14,6 @@ keywords:
 - visualizations,skin attributes
 - custom visualizations,skin attributes
 - presets in visualizations,user overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

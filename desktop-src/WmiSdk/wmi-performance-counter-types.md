@@ -1,12 +1,8 @@
 ---
 Description: The performance counter type designates a formula required to obtain calculated performance counters. These are the same counter types used by Windows Performance Monitoring.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d4a9feca-80a2-4ce5-b4d7-4e83ef951c08
 ms.tgt_platform: multiple
 title: WMI Performance Counter Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

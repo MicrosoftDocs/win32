@@ -2,7 +2,6 @@
 Description: Describes an off-screen render target used by an instance of ID3DXRenderToEnvMap.
 ms.assetid: 805df4da-e882-4d54-bf2c-49cfcbc59ac6
 title: D3DXRTE_DESC structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

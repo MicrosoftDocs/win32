@@ -2,7 +2,6 @@
 title: GestureAt Method
 description: GestureAt Method
 ms.assetid: c84e9363-e905-476a-832b-9acf6ddee5f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

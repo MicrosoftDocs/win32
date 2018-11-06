@@ -2,7 +2,6 @@
 title: Loading the Default Character
 description: Loading the Default Character
 ms.assetid: 4e91aef5-8402-401d-b09f-83be25011027
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

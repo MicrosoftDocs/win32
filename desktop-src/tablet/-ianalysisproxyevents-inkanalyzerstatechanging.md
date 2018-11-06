@@ -2,7 +2,6 @@
 Description: Occurs before the IInkAnalyzer reconciles analysis results so that an application can synchronize data with the IInkAnalyzer.
 ms.assetid: 9daa8723-5234-40d9-ac41-6dcca988a8b4
 title: '_IAnalysisProxyEvents::InkAnalyzerStateChanging event'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

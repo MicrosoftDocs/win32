@@ -1,9 +1,6 @@
 ---
 title: ms-TAPI-Protocol-Id attribute
 description: This attribute indicates the TAPI conference type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6114efc3-4201-4f20-81ca-4f90a9e44f60
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TAPI-Protocol-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

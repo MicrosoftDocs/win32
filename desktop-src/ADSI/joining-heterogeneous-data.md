@@ -1,12 +1,8 @@
 ---
 title: Joining Heterogeneous Data
 description: Typical organizations store data in multiple heterogeneous databases. Human Resources data may be stored in SQL Server, while account management data is stored in the directory. Other data may be stored in proprietary formats.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

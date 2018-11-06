@@ -9,7 +9,6 @@ keywords:
 - service providers,device parameters
 - creating service providers,device parameters
 - device parameters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

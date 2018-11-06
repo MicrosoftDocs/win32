@@ -2,7 +2,6 @@
 Description: DirectShow Enumerated Types
 ms.assetid: 74467006-b077-49c0-8573-f939ac3d3444
 title: DirectShow Enumerated Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

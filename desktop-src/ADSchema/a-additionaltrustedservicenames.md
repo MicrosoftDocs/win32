@@ -1,9 +1,6 @@
 ---
 title: Additional-Trusted-Service-Names attribute
 description: A list of services in the domain that can be trusted. Not used by AD.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c574a99-4036-408b-807c-b4b3394624c7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Additional-Trusted-Service-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

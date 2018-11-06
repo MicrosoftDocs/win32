@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MemoryWithMedia class associates physical memory with a physical media and its cartridge. The memory provides media identification and stores user-specific data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 99806d2d-6575-431d-9149-dc8ea767146c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MemoryWithMedia class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_MemoryWithMedia** class associates physical memory with a physical media and its cartridge. The memory provides media identification and stores user-specific data.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

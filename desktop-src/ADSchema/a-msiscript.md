@@ -1,9 +1,6 @@
 ---
 title: Msi-Script attribute
 description: The Microsoft installer advertisement script for this application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 59e5fd4a-6e60-4124-9733-bd0c88e21cbc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Msi-Script
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

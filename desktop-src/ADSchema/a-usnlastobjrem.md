@@ -1,9 +1,6 @@
 ---
 title: USN-Last-Obj-Rem attribute
 description: Contains the update sequence number (USN) for the last non-system object that was removed from a server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 34718bea-fa19-4084-b97f-d72a1681c3f4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - USN-Last-Obj-Rem
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents an association between an instance of the CIM\_ComputerSystem class that represents the virtual machine replica and an instance of the CIM\_ComputerSystem class that represents the test virtual machine replica.
 ms.assetid: c3216ddd-7f70-4287-9f7e-1fd7a60b1a0a
 title: Msvm_ReplicaSystemDependency class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

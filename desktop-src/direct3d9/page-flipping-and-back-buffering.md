@@ -2,7 +2,6 @@
 Description: Page flipping is key in multimedia, animation, and game software; it is analogous to the way you can do animation with a pad of paper.
 ms.assetid: b6824962-c7cb-4e7f-8731-2971b0d9a2b0
 title: Page Flipping and Back Buffering (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

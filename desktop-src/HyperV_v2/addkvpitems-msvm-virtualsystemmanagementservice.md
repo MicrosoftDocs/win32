@@ -2,7 +2,6 @@
 Description: Adds key-value pairs to a virtual machine.
 ms.assetid: D952EC3D-24EB-4A68-8527-5BF522957CB6
 title: AddKvpItems method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -119,7 +118,7 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 The following C# sample adds key-value pairs to a virtual machine. The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
  
@@ -185,7 +184,7 @@ public static void AddKvpItems(string vmName, string itemName, string itemValue)
 
 The following Visual Basic Scripting Edition (VBScript) sample adds key-value pairs to a virtual machine.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
  

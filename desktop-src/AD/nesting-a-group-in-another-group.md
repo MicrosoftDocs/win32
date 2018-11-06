@@ -1,15 +1,11 @@
 ---
 title: Nesting a Group in Another Group
 description: Adding a group as a member of another group is called nesting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d4d81471-977f-4c41-8900-0385173bde32
 ms.tgt_platform: multiple
 keywords:
 - Nesting a Group in Another Group AD
 - groups AD , nesting a group in another group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

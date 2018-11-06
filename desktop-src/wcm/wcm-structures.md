@@ -2,7 +2,6 @@
 title: Windows Connection Manager Structures
 description: The Windows Connection Manager (WCM) structures are as follows.
 ms.assetid: E554D678-721A-4311-8B64-315D2403E69A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

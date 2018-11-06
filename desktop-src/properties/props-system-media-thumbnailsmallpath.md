@@ -2,7 +2,6 @@
 Description: Filesystem path to the large thumbnail representation of the media item.
 ms.assetid: 5ce12c5a-c9ed-4f96-bdbf-1e14b7b5dbcd
 title: System.Media.ThumbnailSmallPath
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

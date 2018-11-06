@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-StagingCleanupTriggerInPercent attribute
 description: Staging clean-up trigger in percent of free disk space.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b9a1a8ca-10e8-4f7d-aa86-ae7472a7c961
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-StagingCleanupTriggerInPercent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

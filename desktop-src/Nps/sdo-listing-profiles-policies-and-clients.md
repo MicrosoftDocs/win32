@@ -1,12 +1,8 @@
 ---
 title: Listing Profiles, Policies, and Clients
 description: Listing Profiles, Policies, and Clients
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8bfbe4f6-b098-43c8-acb7-2c489ebe0ad3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

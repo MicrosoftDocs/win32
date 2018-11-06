@@ -2,7 +2,6 @@
 Description: Sets the index of the mesh face to which each texel belongs.
 ms.assetid: 45d931bc-fb8b-48da-b30d-99d5dc183494
 title: ID3DXTextureGutterHelper::SetFaceMap method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

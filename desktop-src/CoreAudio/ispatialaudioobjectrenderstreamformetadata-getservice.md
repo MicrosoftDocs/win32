@@ -2,7 +2,6 @@
 Description: Gets additional services from the ISpatialAudioObjectRenderStreamForMetadata.
 ms.assetid: 568F3D03-7296-475B-880B-E6FD0C2BD863
 title: ISpatialAudioObjectRenderStreamForMetadata::GetService method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

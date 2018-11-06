@@ -2,7 +2,6 @@
 Description: Core window.
 ms.assetid: B18E322C-7954-473D-81A2-F181FBA9BDAC
 title: MF_MEDIA_ENGINE_COREWINDOW attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: QueryOfflineInformation method of the Win32_TSVm class
 description: Retrieves the properties of the current virtual desktop server (VDS), but only when the server is offline.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6ce74cb-a4a4-4e05-a0a7-bac0b7f52c45
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

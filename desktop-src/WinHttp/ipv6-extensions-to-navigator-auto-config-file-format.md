@@ -2,7 +2,6 @@
 Description: Microsoft has implemented an array of extensions to the Navigator Auto-Config File Format in order to add IPv6 support in the WinINet and WinHTTP WPAD helper functions.
 ms.assetid: 40116a01-b18f-432a-8542-b56b3f55c692
 title: IPv6 Extensions to Navigator Auto-Config File Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Summary properties for installation packages, transforms, and patches are described in the following tables.
 ms.assetid: b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36
 title: Summary Property Descriptions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

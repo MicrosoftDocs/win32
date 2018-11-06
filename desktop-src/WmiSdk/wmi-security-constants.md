@@ -1,12 +1,8 @@
 ---
 Description: WMI checks access rights for applications and scripts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6808f50-a1fd-434f-8a42-efa3afbe7871
 ms.tgt_platform: multiple
 title: WMI Security Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Sites attribute
 description: The list of sites that the computer belongs to (an array of the sites' objectGUIDs, usually not more than one GUID).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0f6cfc3a-9edb-4291-a5df-06c0f1a6add8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Sites
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

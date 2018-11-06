@@ -9,7 +9,6 @@ keywords:
 - resizing License Acquisition dialog box
 - License Acquisition dialog box
 - DRM_LicenseAcqURL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

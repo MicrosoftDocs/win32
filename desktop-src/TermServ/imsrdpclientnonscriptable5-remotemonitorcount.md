@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 RemoteMonitorCount property
 description: Specifies the number of remote monitors.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AFBF233D-44B2-4E6E-8C0C-A234F25B6111
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

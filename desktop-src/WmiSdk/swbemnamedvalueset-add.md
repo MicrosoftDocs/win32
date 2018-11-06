@@ -1,12 +1,8 @@
 ---
 Description: The Add method of the SWbemNamedValueSet object adds an SWbemNamedValue object to the collection. If an element already exists in the collection with the same name, the new element replaces it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 471b23f5-6c53-40e2-a2a9-0798044c9dfb
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Add method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

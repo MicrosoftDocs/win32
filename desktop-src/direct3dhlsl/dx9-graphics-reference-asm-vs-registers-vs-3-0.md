@@ -2,7 +2,6 @@
 title: Registers - vs_3_0
 description: This section contains reference information for the input and output registers implemented by vertex shader version 3\_0.
 ms.assetid: af81f1c4-9c11-455e-a565-1b80f1ee8683
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

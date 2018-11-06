@@ -2,7 +2,6 @@
 Description: This section contains the enumerations used by the ITextInputPanel Interface.
 ms.assetid: 4c4442b2-b2da-4b0e-9bfd-b1ad9613a095
 title: Text Input Panel Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

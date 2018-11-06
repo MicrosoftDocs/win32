@@ -1,9 +1,6 @@
 ---
 title: ms-TPM-OwnerInformation attribute
 description: Contains the owner information of a particular TPM.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0d7e459f-2449-47b7-add7-ede84ecaaecd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TPM-OwnerInformation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

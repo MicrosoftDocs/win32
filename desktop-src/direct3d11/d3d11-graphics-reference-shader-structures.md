@@ -4,7 +4,6 @@ description: Structures are used to create and use shaders.
 ms.assetid: 3b8ece5c-5065-4711-b12c-06cf7ea0e1ba
 keywords:
 - structures, Direct3D 11 Shaders
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

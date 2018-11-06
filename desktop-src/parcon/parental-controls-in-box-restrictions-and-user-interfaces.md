@@ -2,7 +2,6 @@
 Description: Several restrictions implementations are provided.
 ms.assetid: a00d9a3a-d052-492c-b9e7-3ecb1455a392
 title: Parental Controls In-Box Restrictions and User Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

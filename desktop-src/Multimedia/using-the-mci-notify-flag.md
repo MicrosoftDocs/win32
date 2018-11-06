@@ -5,7 +5,6 @@ ms.assetid: 1d1803c8-f315-463e-ae0d-a258aa3af3c9
 keywords:
 - MCI_NOTIFY flag
 - MCI_PLAY command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

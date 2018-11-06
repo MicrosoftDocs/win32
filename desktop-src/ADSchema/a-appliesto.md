@@ -1,9 +1,6 @@
 ---
 title: Applies-To attribute
 description: Contains the list of object classes that the extended right applies to. In the list, an object class is represented by the schemaIDGUID property for its schemaClass object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8333e508-627c-42ce-865b-db061a5603db
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Applies-To
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

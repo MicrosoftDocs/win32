@@ -1,15 +1,11 @@
 ---
 title: Including Attributes in the Global Catalog
 description: The global catalog of a forest includes a partial replica of every object in the forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 185467ed-7bcf-41e9-9862-02412009c437
 ms.tgt_platform: multiple
 keywords:
 - Attributes Included in the Global Catalog AD
 - Attributes AD ,included in the global catalog
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

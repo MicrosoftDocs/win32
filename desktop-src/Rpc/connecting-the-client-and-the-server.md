@@ -4,7 +4,6 @@ description: To communicate, client and server programs must establish a communi
 ms.assetid: 1164252a-7615-4958-9d2f-cf35c0db513a
 keywords:
 - Remote Procedure Call RPC , tasks, connecting client and server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

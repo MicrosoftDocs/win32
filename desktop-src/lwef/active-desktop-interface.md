@@ -6,7 +6,6 @@ keywords:
 - ActiveDesktop object
 - Active Desktop
 - enumeration,desktop items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

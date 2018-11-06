@@ -2,7 +2,6 @@
 Description: This topic lists the media formats that Microsoft Media Foundation supports natively.
 ms.assetid: 69c12a28-4b58-4979-b4d8-ae37efa847fe
 title: Supported Media Formats in Media Foundation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

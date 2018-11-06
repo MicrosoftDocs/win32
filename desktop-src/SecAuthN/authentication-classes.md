@@ -2,7 +2,6 @@
 Description: Authentication provides the following classes.
 ms.assetid: 596ADED2-3FC3-4DCA-BA53-AC4F975D1494
 title: Authentication Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

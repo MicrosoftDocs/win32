@@ -1,15 +1,11 @@
 ---
 title: Comma-separated Value (CSV) Scripts
 description: Windows 2000 includes a command-line utility, CSVDE, to import directory objects using .csv files and export directory objects as .csv files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fda242eb-7561-444f-b560-94bd87fe4e39
 ms.tgt_platform: multiple
 keywords:
 - Comma-separated Value Scripts AD
 - Scripts, Comma-separated Value AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

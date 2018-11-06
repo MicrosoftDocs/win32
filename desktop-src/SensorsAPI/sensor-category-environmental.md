@@ -2,7 +2,6 @@
 Description: The SENSOR\_CATEGORY\_ENVIRONMENTAL category contains sensors that provide information about the surrounding environment or weather.
 ms.assetid: 4a29d44b-8949-474d-a2bf-0c6e1d30b198
 title: SENSOR_CATEGORY_ENVIRONMENTAL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

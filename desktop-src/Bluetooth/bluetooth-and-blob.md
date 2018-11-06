@@ -7,7 +7,6 @@ keywords:
 - Bluetooth
 - Bluetooth
 - Bluetooth and BLOB
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

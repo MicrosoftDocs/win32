@@ -2,7 +2,6 @@
 Description: The INSTALL action is a top-level action called to install or remove components.
 ms.assetid: bf290b59-1ecb-410f-b1f6-fdbeebebe3d3
 title: INSTALL Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

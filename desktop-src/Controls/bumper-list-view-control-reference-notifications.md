@@ -2,7 +2,6 @@
 title: List View Notifications
 description: .
 ms.assetid: 6c5239ac-0599-4db8-9f44-c10fa0855b57
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VolatileStorage class represents the capabilities and management of volatile storage.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c2f7e11e-d7e4-4709-be55-1c94a0b14010
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VolatileStorage class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -66,7 +60,7 @@ api_location:
 
 The **CIM\_VolatileStorage** class represents the capabilities and management of volatile storage.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

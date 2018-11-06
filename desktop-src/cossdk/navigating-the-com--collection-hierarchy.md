@@ -2,7 +2,6 @@
 Description: Navigating the COM+ Collection Hierarchy
 ms.assetid: bd72effe-898f-40a6-973c-a26e7fe2478f
 title: Navigating the COM+ Collection Hierarchy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

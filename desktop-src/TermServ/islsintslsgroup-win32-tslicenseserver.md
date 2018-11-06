@@ -1,9 +1,6 @@
 ---
 title: IsLSinTSLSGroup method of the Win32_TSLicenseServer class
 description: Retrieves whether the Remote Desktop license server is a member of the Remote Desktop license server group on a domain controller in a given domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a6ad7f09-8972-47d4-8b3b-cd129b400ea8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

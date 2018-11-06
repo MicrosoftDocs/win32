@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-StringSetParam class
 description: String set parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd253c7d-d968-46be-a39f-f844be6e1fcb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-StringSetParam
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

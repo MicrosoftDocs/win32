@@ -2,7 +2,6 @@
 Description: The primary date of interest for an item. In the case of photos, for example, this property maps to System.Photo.DateTaken.
 ms.assetid: 36809167-5ce2-4394-bbe8-474c9e5ec204
 title: System.ItemDate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -7,7 +7,6 @@ keywords:
 - audio,waveform-audio interface
 - waveform audio,waveform-audio interface
 - waveform-audio interface,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

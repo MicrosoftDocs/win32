@@ -2,7 +2,6 @@
 title: ITTSAttributesW
 description: ITTSAttributesW
 ms.assetid: 98a89125-39e4-4a6b-9b9d-9b93800733ae
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section contains information about the Windows Imaging Component (WIC) interfaces.
 ms.assetid: 542a6194-38fd-4592-bc25-5a41f5cd9cb7
 title: Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

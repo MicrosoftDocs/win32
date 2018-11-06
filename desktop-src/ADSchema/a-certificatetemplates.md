@@ -1,9 +1,6 @@
 ---
 title: Certificate-Templates attribute
 description: Contains information for a certificate issued by a Certificate Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1434b8f8-15d9-4dca-bb7b-26c97e269b01
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Certificate-Templates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Cost attribute
 description: Contains the relative cost for routing messages through a particular site connector.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb6bc94b-4e77-4cb8-818f-bed75d2d906f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Cost
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

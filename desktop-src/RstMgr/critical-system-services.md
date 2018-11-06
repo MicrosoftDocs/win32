@@ -2,7 +2,6 @@
 title: Critical System Services
 description: Critical system services cannot be stopped and restarted by the Restart Manager without a system restart. Updates to any file or resource in use by one of these services requires a system restart.
 ms.assetid: 8db7c91c-2f96-4d0c-a5b8-59c41a7e4845
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

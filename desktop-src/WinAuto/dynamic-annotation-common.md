@@ -2,7 +2,6 @@
 title: Dynamic Annotation
 description: Dynamic annotation was previously available only to Microsoft Active Accessibility servers and clients.
 ms.assetid: 1ad6cbe9-cafa-4f33-a810-e1440909b24e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

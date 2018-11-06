@@ -4,7 +4,6 @@ description: This section explains creating and using bindings and binding handl
 ms.assetid: abbb7eae-8e74-4223-be34-ec0ab8884f43
 keywords:
 - Remote Procedure Call RPC , described, binding and handles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

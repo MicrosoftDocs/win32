@@ -1,12 +1,8 @@
 ---
 Description: Converts a date and time value in the CIM DATETIME format to the FILETIME format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 08e0761d-e735-454a-8429-2bd1eb331123
 ms.tgt_platform: multiple
 title: SWbemDateTime.GetFileTime method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

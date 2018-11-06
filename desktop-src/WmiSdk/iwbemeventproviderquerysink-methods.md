@@ -1,12 +1,8 @@
 ---
 Description: The IWbemEventProviderQuerySink interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1AEFDF45-95A4-4E13-AD4E-7D08BC74F066
 ms.tgt_platform: multiple
 title: IWbemEventProviderQuerySink Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

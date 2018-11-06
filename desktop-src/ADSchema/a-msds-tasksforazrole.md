@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Tasks-For-Az-Role attribute
 description: List of tasks for Az-Role.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3247ccd9-f86d-453e-8150-db52aff11f6a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Tasks-For-Az-Role
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

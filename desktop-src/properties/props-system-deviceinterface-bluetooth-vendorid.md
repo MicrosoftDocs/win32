@@ -2,7 +2,6 @@
 Description: Bluetooth device vendor identifier.
 ms.assetid: 8dec8338-ee12-493e-8b12-92a6d3a46400
 title: System.DeviceInterface.Bluetooth.VendorId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

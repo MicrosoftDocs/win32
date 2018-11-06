@@ -2,7 +2,6 @@
 Description: Opens an HTTP connection to an HTTP resource.
 ms.assetid: 5207e873-44c0-4eeb-9db8-d8b69432070c
 title: IWinHttpRequest::Open method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

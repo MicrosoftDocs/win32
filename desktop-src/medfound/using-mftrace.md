@@ -2,7 +2,6 @@
 Description: MFTrace is a tool for generating trace logs for Microsoft Media Foundation applications.
 ms.assetid: f93060dc-cb64-4623-847d-5d78bca59d50
 title: Using MFTrace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use. This method implements the IMediaSeeking::IsUsingTimeFormat method.
 ms.assetid: e377bcf0-0518-42b2-8975-e4c345e3fed4
 title: CPosPassThru.IsUsingTimeFormat method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

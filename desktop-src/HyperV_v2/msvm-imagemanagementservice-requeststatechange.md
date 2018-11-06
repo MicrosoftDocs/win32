@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 005b34c7-51ed-4ef3-934c-a6a57a878b3b
 title: RequestStateChange method of the Msvm_ImageManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

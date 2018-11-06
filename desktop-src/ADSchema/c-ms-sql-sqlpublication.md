@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-SQLPublication class
 description: Class for storing SQL Server publication properties. Permits the user to browse the publications that are available to subscribe to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 12d71ea8-1d7f-44c8-adf2-8604114838f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-SQLPublication
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

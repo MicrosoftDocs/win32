@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),payload extension systems
 - data unit extensions,about
 - payload unit extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

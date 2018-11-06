@@ -1,9 +1,6 @@
 ---
 title: GetJoinedNodeCount method of the Win32_RDMSJoinedNode class
 description: Get number of servers that have the specified roles installed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed2ae0b5-5cbc-4c11-a2ad-065f88dd5842
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

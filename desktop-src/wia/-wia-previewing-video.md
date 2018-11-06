@@ -2,7 +2,6 @@
 Description: The IWiaVideo interface enables an application to view video and capture still images from it.
 ms.assetid: 59eddbdc-4957-44be-a602-0763f3385e89
 title: Previewing Video
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

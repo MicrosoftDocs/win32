@@ -4,7 +4,6 @@ description: Use these attributes to control how your data is transmitted over t
 ms.assetid: 6af635f6-eeee-4fa6-85db-5d60434a1235
 keywords:
 - ACF MIDL , attributes, type conversion and marshaling
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

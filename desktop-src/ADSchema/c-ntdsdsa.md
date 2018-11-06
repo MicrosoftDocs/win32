@@ -1,9 +1,6 @@
 ---
 title: NTDS-DSA class
 description: Represents the Active Directory DSA process on the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4369122-d74a-45d2-9dc0-46894a9f99cc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTDS-DSA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

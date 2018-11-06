@@ -2,7 +2,6 @@
 title: Matching Response and Request PDUs
 description: The order in which the WinSNMP application receives SNMP responses may not match the order in which the application submits SNMP operation requests.
 ms.assetid: cd09cc4b-2ef6-4d2f-8f0f-b83d8df8599a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

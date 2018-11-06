@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_UserDesktop association WMI class relates a user account and desktop settings that are specific to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ea83ad6-bd0a-4c16-85b2-e3e61ef05903
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_UserDesktop class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

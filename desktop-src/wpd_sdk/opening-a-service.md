@@ -2,7 +2,6 @@
 Description: Opening a Service
 ms.assetid: 722d657d-332a-40df-ac30-bc2050deda74
 title: Opening a Service
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

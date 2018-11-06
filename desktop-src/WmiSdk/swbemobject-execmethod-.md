@@ -1,12 +1,8 @@
 ---
 Description: The ExecMethod\_ method of the SWbemObject object executes a method exported by a method provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 39a8a6e7-b499-410a-8c27-d4a05d1a61b9
 ms.tgt_platform: multiple
 title: SWbemObject.ExecMethod_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

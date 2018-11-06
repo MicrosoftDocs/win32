@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient9 interface
 description: Provides the methods and properties needed to configure and use the client control. Derives from the IMsRdpClient8 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 353f0328-d8a3-4466-bf23-c6d6b8a47e5d
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

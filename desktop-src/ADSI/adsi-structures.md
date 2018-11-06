@@ -1,15 +1,11 @@
 ---
 title: ADSI Structures
 description: Active Directory Service Interfaces (ADSI) define and use the structures listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ee0e469-9932-4135-8798-27d318011786
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,reference,structures
 - structures ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Pin Connections
 ms.assetid: 1406ade4-77d8-49a7-8f36-cc49ff007a26
 title: Pin Connections
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

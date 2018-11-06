@@ -1,9 +1,6 @@
 ---
 title: Prior-Value attribute
 description: The previous value for a secret.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 65440276-6337-443c-9ce3-0c18648fac20
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Prior-Value
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

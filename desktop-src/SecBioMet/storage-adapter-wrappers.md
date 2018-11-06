@@ -2,7 +2,6 @@
 title: Storage Adapter Wrappers
 description: Functions that you can use to call functions on your storage adapter. These functions are defined in Winbio\_adapter.h.
 ms.assetid: 3e7ff098-b8f3-4745-aa75-712a392c6c78
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

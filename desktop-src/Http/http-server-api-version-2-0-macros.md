@@ -2,7 +2,6 @@
 title: HTTP Server API Version 2.0 Macros
 description: HTTP Server API Version 2.0 Macros
 ms.assetid: c529f0d1-57d0-455f-b98d-607279f2a062
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

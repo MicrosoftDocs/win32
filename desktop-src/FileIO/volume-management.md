@@ -2,7 +2,6 @@
 Description: The highest level of organization in the file system is the volume. A file system resides on a volume.
 ms.assetid: 'd9ed58e6-2731-4fde-8368-f727420eb773'
 title: Volume Management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

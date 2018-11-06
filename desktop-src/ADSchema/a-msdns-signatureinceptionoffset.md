@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Signature-Inception-Offset attribute
 description: An attribute that defines in seconds how far in the past DNSSEC signature validity periods should begin when signing the DNS zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2d929ec8-38ff-481e-a926-eb1251dd7a86
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Signature-Inception-Offset
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

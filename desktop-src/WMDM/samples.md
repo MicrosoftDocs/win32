@@ -9,7 +9,6 @@ keywords:
 - service providers,samples
 - samples,desktop applications
 - samples,service providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

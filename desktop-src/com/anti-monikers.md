@@ -2,7 +2,6 @@
 title: Anti-Monikers
 description: OLE provides an implementation of a special type of moniker called an anti-moniker.
 ms.assetid: 3b52d3bd-8375-4463-a0e3-5117fa96a1c1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Lockout-Time attribute
 description: The date and time (UTC) that this account was locked out.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4a0a66a3-9f7f-48ec-9b96-a9c3e72b2b6b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Lockout-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

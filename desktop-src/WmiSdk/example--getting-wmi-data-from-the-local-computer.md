@@ -1,12 +1,8 @@
 ---
 Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from the Local Computer'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

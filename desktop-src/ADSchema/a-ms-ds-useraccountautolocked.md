@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Account-Auto-Locked attribute
 description: Indicates whether the account that this attribute references has been locked out.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f9d9c98a-3c4f-4687-8133-4476aeec10e8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Account-Auto-Locked
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

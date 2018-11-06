@@ -2,7 +2,6 @@
 Description: The IAutomaticUpdatesResults interface defines the following properties.
 ms.assetid: 810ebacc-ea89-4382-b8bd-3b68bbcbbe15
 title: IAutomaticUpdatesResults Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

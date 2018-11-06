@@ -1,14 +1,8 @@
 ---
 Description: Represents a physical memory device located on a computer system and available to the operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 34baca53-ab85-4e06-9853-71b904ede4ab
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

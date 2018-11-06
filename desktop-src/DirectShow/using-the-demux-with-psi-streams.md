@@ -2,7 +2,6 @@
 Description: Using the Demux with PSI Streams
 ms.assetid: 355e905e-ff21-4bde-a018-ed9631ef5ed5
 title: Using the Demux with PSI Streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

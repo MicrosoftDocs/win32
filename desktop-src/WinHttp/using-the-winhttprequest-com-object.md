@@ -2,7 +2,6 @@
 Description: The WinHTTP API provides support for script programming.
 ms.assetid: 838e3775-48af-4d19-a9b1-b3f7e2583a51
 title: Using the WinHttpRequest COM Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

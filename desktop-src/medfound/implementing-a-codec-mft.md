@@ -2,7 +2,6 @@
 Description: This topic provides some guidelines for implementing a decoder or encoder as a Media Foundation Transform (MFT) .
 ms.assetid: b15bda0a-0fdd-4601-975d-a71c47c974bf
 title: Implementing a Codec MFT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

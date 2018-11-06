@@ -2,7 +2,6 @@
 title: Data Formats and Transfer Media
 description: Data Formats and Transfer Media
 ms.assetid: c6023c42-ce20-40e4-9d88-55fa1d2a4d38
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

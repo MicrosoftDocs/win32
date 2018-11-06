@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings GatewayProfileUsageMethod property
 description: Specifies whether to use default Remote Desktop Gateway (RD Gateway) settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ce774790-31ad-40ba-ba8f-e81b0dbda175
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

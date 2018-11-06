@@ -2,7 +2,6 @@
 Description: The coordinate system for a window is based on the coordinate system of the display device.
 ms.assetid: 8590fc59-d7ad-4149-9a77-242037a11188
 title: Window Coordinate System
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

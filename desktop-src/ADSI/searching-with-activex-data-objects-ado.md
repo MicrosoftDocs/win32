@@ -1,15 +1,11 @@
 ---
 title: Searching with ActiveX Data Objects (ADO)
 description: The ActiveX Data Object (ADO) model consists of objects listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 27298f53-a652-49f2-a6e6-d92c7c6022af
 ms.tgt_platform: multiple
 keywords:
 - ActiveX Data Objects ADSI , Searching with ADO
 - Searching with ActiveX Data Objects ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Dynamic-Object class
 description: This class, if present in an entry, indicates that this entry has a limited lifetime and may disappear automatically when its time-to-live has reached 0. If the client has not supplied a value for the entryTtl attribute, the server will provide one.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 80f3597e-14ef-4427-b3e3-09128d07f331
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dynamic-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

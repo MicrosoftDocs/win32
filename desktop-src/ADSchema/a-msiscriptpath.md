@@ -1,9 +1,6 @@
 ---
 title: Msi-Script-Path attribute
 description: The file path for the Microsoft installer advertisement script file for this application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6ebe172c-42fc-4a36-940e-a48315d6496c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Msi-Script-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

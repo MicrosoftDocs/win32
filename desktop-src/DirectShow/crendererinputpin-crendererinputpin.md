@@ -2,7 +2,6 @@
 Description: The CRendererInputPin method is a constructor method.
 ms.assetid: 272f864e-d6a8-4a9e-b72f-892147db9970
 title: CRendererInputPin.CRendererInputPin constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

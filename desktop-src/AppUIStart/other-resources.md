@@ -2,7 +2,6 @@
 title: Other Resources
 description: This section contains a list of recommended books and resources related to user interface design. (These books and resources may not be available in some languages and countries.).
 ms.assetid: a7a5aee9-e31f-42d1-bf90-2fa91365ef2f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

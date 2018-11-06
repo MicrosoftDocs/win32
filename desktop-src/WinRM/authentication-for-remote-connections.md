@@ -1,12 +1,8 @@
 ---
 title: Authentication for Remote Connections
 description: Windows Remote Management maintains security for communication between computers by supporting several standard methods of authentication and message encryption.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 97a13b07-ae7a-4d2f-8841-77a22c91b204
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

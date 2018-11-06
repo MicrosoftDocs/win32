@@ -1,9 +1,6 @@
 ---
 title: Dns-Record attribute
 description: Used to store binary DNS resource records on DNS objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2d5a17da-0efc-450e-b247-3ab6d2de3a5d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dns-Record
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

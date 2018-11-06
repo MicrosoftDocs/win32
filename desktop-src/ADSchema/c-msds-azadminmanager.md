@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Admin-Manager class
 description: Root of Authorization Policy store instance. Note that there can be many store instances.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4dfd7b5e-847c-4778-82e5-64b6c6525e73
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Admin-Manager
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

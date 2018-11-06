@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),logging
 - client logging
 - logging clients
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

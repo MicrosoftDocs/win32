@@ -8,7 +8,6 @@ keywords:
 - user interface plug-ins,OnCreate method
 - UI plug-ins,OnCreate method
 - OnCreate method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

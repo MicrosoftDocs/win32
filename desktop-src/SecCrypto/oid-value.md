@@ -2,7 +2,6 @@
 Description: Sets or retrieves the value of the OID dotted number of the identifier.
 ms.assetid: bb960e65-776e-4ae8-a557-62254dc10558
 title: OID.Value property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

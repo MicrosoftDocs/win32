@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_JobDestination class represents where a job is submitted for processing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ad2a037d-a5d3-4422-972d-8ef10699bb60
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_JobDestination class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -34,7 +28,7 @@ api_location:
 
 The **CIM\_JobDestination** class represents where a job is submitted for processing. It can refer to a queue that contains zero or more jobs, such as a print queue containing print jobs. Job destinations are hosted on systems, similar to the way in which services are hosted on systems.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

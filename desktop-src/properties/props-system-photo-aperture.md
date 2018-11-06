@@ -2,7 +2,6 @@
 Description: The aperture value of the image, in APEX units.
 ms.assetid: ec8c0271-1e1e-4d37-a09a-f430d0682213
 title: System.Photo.Aperture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

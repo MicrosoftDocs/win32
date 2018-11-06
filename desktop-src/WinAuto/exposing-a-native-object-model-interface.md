@@ -2,7 +2,6 @@
 title: Exposing a Native Object Model Interface
 description: If a UI element supports a native object model other than Microsoft Active Accessibility or UI Automation, it can expose the custom interface by responding to WM\_GETOBJECT messages that include the OBJID\_NATIVEOM object identifier.
 ms.assetid: 430abeaf-e5ca-48c4-aa35-8d52a8cee2f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

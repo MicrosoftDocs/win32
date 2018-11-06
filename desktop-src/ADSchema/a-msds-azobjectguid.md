@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Object-Guid attribute
 description: The unique and portable identifier of AzMan objects
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4ea0e1a-92bc-4fd1-b3de-9631a5c4e30a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Object-Guid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

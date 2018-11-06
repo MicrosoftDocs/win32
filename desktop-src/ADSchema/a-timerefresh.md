@@ -1,9 +1,6 @@
 ---
 title: Time-Refresh attribute
 description: This attribute has the interval during which a resource record that is contained in an Active Directory integrated zone should be refreshed for the DNS server. The default interval is 7 days.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e473c29-7fcf-4d6d-8a7c-2791c7822c7d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Time-Refresh
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

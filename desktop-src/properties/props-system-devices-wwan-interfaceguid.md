@@ -2,7 +2,6 @@
 Description: WWAN Interface Guid.
 ms.assetid: 4c67d652-3c6c-46ca-a1d6-cf35afd23440
 title: System.Devices.Wwan.InterfaceGuid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -32,7 +32,6 @@ keywords:
 - ActiveX control,SDK documentation
 - ActiveX control,documentation
 - ActiveX control,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

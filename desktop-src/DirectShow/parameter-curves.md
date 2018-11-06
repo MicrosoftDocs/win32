@@ -2,7 +2,6 @@
 Description: Parameter Curves
 ms.assetid: c073e7d0-c119-4c36-a5b2-b31dd6326ac8
 title: Parameter Curves
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

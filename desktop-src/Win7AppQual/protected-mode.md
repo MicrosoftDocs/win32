@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 88810916-A85E-4EC7-A6AE-1CA2A2205DBC
 title: Protected Mode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +18,7 @@ The Windows Integrity Mechanism security infrastructure allows Protected Mode to
 
 Users can disable this feature through a check box, and administrators can disable it by using Group Policy.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > You should disable the feature only as a temporary measure during troubleshooting to compare behavior of the application when the feature is enabled or not. We recommended that you keep this feature permanently enabled.
 
  

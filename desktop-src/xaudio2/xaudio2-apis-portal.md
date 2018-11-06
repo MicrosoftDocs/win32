@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 87557bb3-9d92-c85e-4e7a-d21af03db624
 title: XAudio2 APIs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

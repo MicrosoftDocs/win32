@@ -1,14 +1,10 @@
 ---
 title: Example Code for Creating Users on a Member Server or Windows 2000 Professional
 description: The following Visual Basic code example creates a user on a member server or Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0a0800d6-eb2c-4d88-b9d4-91640206fe7b
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating users on a member server or Windows 2000 Professional
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

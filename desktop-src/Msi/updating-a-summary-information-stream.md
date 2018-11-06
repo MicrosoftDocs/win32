@@ -2,7 +2,6 @@
 Description: The value of the Revision Number Summary Property in the summary information stream must be changed to a new, unique value when localizing a database, because the installation database is being changed. See Package Codes.
 ms.assetid: fce292c5-6702-4948-a13a-2a9ccacbd5c9
 title: Updating a Summary Information Stream
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

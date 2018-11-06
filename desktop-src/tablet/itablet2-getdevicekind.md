@@ -2,7 +2,6 @@
 Description: Returns the type of hardware device the tablet object represents such as mouse, pen or touch.
 ms.assetid: 693cb45f-958d-42e2-a3ee-a7cfcc72e5c3
 title: ITablet2::GetDeviceKind method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

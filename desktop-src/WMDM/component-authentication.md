@@ -9,7 +9,6 @@ keywords:
 - service providers,authentication
 - programming guide,authentication
 - authentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

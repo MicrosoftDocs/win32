@@ -2,7 +2,6 @@
 Description: This section describes how to add resource strings to the Windows Installer Shortcut table for use with Multilingual User Interfaces (MUI).
 ms.assetid: f521cfb8-32a8-4b62-b258-5b99cc3e0416
 title: A MUI Shortcut Example
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

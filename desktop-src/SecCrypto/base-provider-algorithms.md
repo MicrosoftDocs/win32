@@ -2,7 +2,6 @@
 Description: The Microsoft Base Cryptographic Provider supports the following algorithms.
 ms.assetid: 767d5192-6e8f-488a-b954-29d56488ccbb
 title: Base Provider Algorithms
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

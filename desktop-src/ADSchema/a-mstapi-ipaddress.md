@@ -1,9 +1,6 @@
 ---
 title: ms-TAPI-Ip-Address attribute
 description: IP addresses of a TAPI client computer that a user is logged into. This attribute can be used as a generic attribute to hold computer IP addresses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ea850ad-d54a-4b5f-a37d-68817432d874
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TAPI-Ip-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

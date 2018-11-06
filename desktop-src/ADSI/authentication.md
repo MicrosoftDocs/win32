@@ -1,15 +1,11 @@
 ---
 title: Authentication
 description: In ADSI, credentials that consist of a user name and password are used to provide or restrict access to objects in the directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eef6451d-ebb8-4e22-84f4-61b8be73068a
 ms.tgt_platform: multiple
 keywords:
 - Authentication ADSI
 - ADSI, Using, Authentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

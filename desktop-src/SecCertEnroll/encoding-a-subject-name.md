@@ -2,7 +2,6 @@
 Description: When you initialize an IX500DistinguishedName object with a distinguished name to identify the subject of a certificate request, a Distinguished Encoding Rules (DER) encoded Abstract Syntax Notation One (ASN.1) sequence is created.
 ms.assetid: 58b05b59-2235-49bd-9543-45e786d62eaf
 title: Encoding a Subject Name
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

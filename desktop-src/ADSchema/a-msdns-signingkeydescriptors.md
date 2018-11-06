@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Signing-Key-Descriptors attribute
 description: An attribute that contains the set of DNSSEC Signing Key Descriptors (SKDs) used by the DNS server to generate keys and sign the DNS zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ebfa200c-9201-4b2a-addd-dfd032cb9425
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Signing-Key-Descriptors
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

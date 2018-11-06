@@ -2,7 +2,6 @@
 title: Software Restriction Policy
 description: The software restriction policy (SRP) settings were introduced with the release of Windows XP to help protect systems from unknown and possibly dangerous code.
 ms.assetid: 44b4e448-f5b4-4483-b53b-506938b36857
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

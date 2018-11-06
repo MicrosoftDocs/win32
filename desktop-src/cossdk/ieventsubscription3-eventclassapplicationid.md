@@ -2,7 +2,6 @@
 Description: The application GUID of the event class object.
 ms.assetid: 0d19183a-429c-4564-b6a5-f06481d27e00
 title: IEventSubscription3::EventClassApplicationID property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

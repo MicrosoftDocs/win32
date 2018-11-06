@@ -2,7 +2,6 @@
 title: Animation Management Interfaces
 description: This section contains the reference specifications for the Windows Animation Manager interfaces that support animation management.
 ms.assetid: C0467AE0-BFEA-42D2-A890-518EF2409271
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

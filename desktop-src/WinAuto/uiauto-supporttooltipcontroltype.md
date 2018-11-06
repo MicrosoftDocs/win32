@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for ToolTip control type
 - control types,support for ToolTip
 - control types,ToolTip
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

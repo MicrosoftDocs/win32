@@ -2,7 +2,6 @@
 Description: The ISmimeCapabilities interface exposes the following methods.
 ms.assetid: AA8C1904-06BC-47A4-B8AE-C90176FF0DAA
 title: ISmimeCapabilities Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

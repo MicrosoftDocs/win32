@@ -1,9 +1,6 @@
 ---
 title: Site-GUID attribute
 description: The unique identifier for a site.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1baa967e-5aa3-495f-aa4f-14eac74f70e4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Site-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

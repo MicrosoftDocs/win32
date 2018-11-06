@@ -2,7 +2,6 @@
 Description: Plug-in Distributors
 ms.assetid: 80ff713d-f704-40d3-9317-cbf33d932207
 title: Plug-in Distributors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

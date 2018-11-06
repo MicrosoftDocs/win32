@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Data attribute
 description: The Ipsec-Data attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4bdc7b4d-7e3a-471b-9fef-3d5eab6ba277
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

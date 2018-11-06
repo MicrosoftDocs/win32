@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-RA-Policies attribute
 description: Contains the list of required policy OIDs from registration authorities who sign the enrollment request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ebbdf95e-05c8-4b54-b7a5-4bb81d425225
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-RA-Policies
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

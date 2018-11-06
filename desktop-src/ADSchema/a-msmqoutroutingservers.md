@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Out-Routing-Servers attribute
 description: DN links to MSMQ routing servers through which all outgoing traffic for this computer should be routed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 169558e4-d2a6-4555-bc5f-7e6a89e51789
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Out-Routing-Servers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

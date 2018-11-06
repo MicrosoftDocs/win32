@@ -2,7 +2,6 @@
 title: Translating to C++ from Visual Basic
 description: Visual Basic handles pointers implicitly. In C++, your application is responsible for performing any necessary pointer arithmetic.
 ms.assetid: bbbcaba1-cf5a-4768-ad1d-22a040bfe384
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

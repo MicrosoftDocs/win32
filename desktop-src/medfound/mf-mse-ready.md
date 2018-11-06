@@ -2,7 +2,6 @@
 Description: Defines the different ready states of the Media Source Extension.
 ms.assetid: 7455B92F-CC2D-4743-935D-F5EBFD834397
 title: MF_MSE_READY enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

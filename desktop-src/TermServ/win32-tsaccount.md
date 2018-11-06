@@ -1,9 +1,6 @@
 ---
 title: Win32_TSAccount class
 description: Allows deletion of an account that exists on the Win32\_Terminal and modification of existing permissions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fd4d8a0f-685b-4619-84f1-faefbabd04ba
 ms.tgt_platform: multiple
 keywords:
@@ -29,7 +26,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

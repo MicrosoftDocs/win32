@@ -1,14 +1,10 @@
 ---
 title: Example Code for Searching for Schema Objects
 description: This topic includes a code example used to search for schema objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 539e0127-1355-4606-97bd-49dfafb25f8d
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Searching for Schema Objects AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

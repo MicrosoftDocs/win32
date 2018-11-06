@@ -2,7 +2,6 @@
 Description: Gets the shader-constant table embedded inside a shader.
 ms.assetid: eb965074-819f-44d2-889b-6c6eada4f062
 title: D3DXGetShaderConstantTable function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

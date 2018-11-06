@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Mount class represents an association between a file system and a directory to which it is attached.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: abf1833b-9b39-45c0-8400-2be2bf3a1c3c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Mount class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -30,7 +24,7 @@ The **CIM\_Mount** class represents an association between a file system and a d
 
 The semantics of this relationship require that the mounted directory be contained by a file system (via the file storage association) that is different from the file system referenced as the dependent. The directory's containing file system can be local or remote. For example, a local file system on a Solaris computer system can mount a directory from the file system accessed via the computer's CDROM drive (that is, another local file system). On the other hand, in a "remote" case, the directory is first exported by its file system, which is hosted on another computer system acting, for example, as a file server. To distinguish the two mounts, a [**CIM\_Export**](cim-export.md) association should always be defined for the remotely accessed/mounted directories.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

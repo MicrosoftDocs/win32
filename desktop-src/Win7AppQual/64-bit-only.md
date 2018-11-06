@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 5d0188a5-ef5f-409e-9d2d-7639d99edc1d
 title: 64-Bit Only
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

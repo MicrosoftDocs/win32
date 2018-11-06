@@ -2,7 +2,6 @@
 Description: Enabling a privilege in an access token allows the process to perform system-level actions that it could not previously.
 ms.assetid: aa2d3fe7-01ee-4243-b72c-3e8b90068e22
 title: Enabling and Disabling Privileges in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: documentPublisher attribute
 description: The documentPublisher attribute is the person or organization that published a document.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3239d96a-bfc7-4258-a4f7-bc3cb348c5f6
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentPublisher
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

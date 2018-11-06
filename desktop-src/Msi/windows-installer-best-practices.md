@@ -2,7 +2,6 @@
 Description: 'This section enumerates a list of tips, linked to the main Windows Installer SDK documentation, to help Application Developers, Setup Authors, IT Professionals, and Infrastructure Developers discover best practices for using the Windows Installer:'
 ms.assetid: ff48d995-fe6f-4d1b-898d-67574ed3c5b7
 title: Windows Installer Best Practices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

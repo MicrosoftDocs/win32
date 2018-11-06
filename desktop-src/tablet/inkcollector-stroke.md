@@ -2,7 +2,6 @@
 Description: Occurs when the user draws a new stroke on any tablet.
 ms.assetid: eaa89dfe-6141-4205-845b-634321130e26
 title: InkCollector.Stroke event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

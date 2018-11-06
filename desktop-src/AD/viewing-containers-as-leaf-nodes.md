@@ -1,16 +1,12 @@
 ---
 title: Viewing Containers as Leaf Nodes
 description: Any object in Active Directory Domain Services can be a container of other objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38300ca5-745a-4640-9723-6052a9843f45
 ms.tgt_platform: multiple
 keywords:
 - Viewing Containers as Leaf Nodes
 - containers AD , viewing as leaf nodes
 - leaf AD , viewing containers as leaf nodes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

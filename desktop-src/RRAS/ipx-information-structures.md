@@ -2,7 +2,6 @@
 title: IPX Information Structures
 description: The following information structures are for the IPX transport. The structures IPX\_TRAFFIC\_FILTER\_INFO and IPX\_TRAFFIC\_FILTER\_GLOBAL\_INFO are defined in Ipxtfflt.h. The remaining structures are defined in Ipxrtdef.h.
 ms.assetid: 85865ae4-bdb2-4dcd-bd52-912d9b9aaf1b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

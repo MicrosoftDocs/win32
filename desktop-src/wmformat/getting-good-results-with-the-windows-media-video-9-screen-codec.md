@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),Windows Media Video 9 Screen codec
 - codecs,Windows Media Video 9 Screen
 - Windows Media Video 9 Screen codec,results
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

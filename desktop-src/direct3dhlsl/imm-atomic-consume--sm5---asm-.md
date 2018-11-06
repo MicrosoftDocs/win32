@@ -2,7 +2,6 @@
 title: imm_atomic_consume (sm5 - asm)
 description: Atomically decrement the hidden 32-bit counter stored with a Count or Append unordered access view (UAV), returning the new value.
 ms.assetid: 1115C318-2F86-4161-AC5C-2A61A262DC28
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

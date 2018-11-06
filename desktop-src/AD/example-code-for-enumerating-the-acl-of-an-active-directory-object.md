@@ -1,14 +1,10 @@
 ---
 title: Example Code for Enumerating the ACL of an Object in Active Directory Domain Services
 description: The following code examples can be used to enumerate the access control list (ACL) of an object in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3629ffde-c516-4566-8b40-a913b8355656
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Enumerating the ACL of an Active Directory Object AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IADsDNWithBinary Property Methods
 description: The property method of the IADsDNWithBinary interface sets the property described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3e9ceabb-7a38-4a63-ab62-240ff521e373
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

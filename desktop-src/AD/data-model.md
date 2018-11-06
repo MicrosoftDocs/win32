@@ -1,14 +1,10 @@
 ---
 title: Data Model
 description: The data model for Active Directory Domain Services is derived from the X.500 data model.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 335f4eaa-b7a3-408b-9a2e-c58001e8000e
 ms.tgt_platform: multiple
 keywords:
 - data model Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

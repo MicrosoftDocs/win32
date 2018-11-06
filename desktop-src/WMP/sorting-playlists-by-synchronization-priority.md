@@ -16,7 +16,6 @@ keywords:
 - portable devices,sorting synchronization playlists
 - synchronization playlists,sorting
 - synchronization playlists,priorities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

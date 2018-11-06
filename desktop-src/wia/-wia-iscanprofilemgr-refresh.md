@@ -2,7 +2,6 @@
 Description: Re-enumerates all the scan profiles in the system.
 ms.assetid: f5e49645-e81a-4750-8ea5-f0c698a61752
 title: IScanProfileMgr::Refresh method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

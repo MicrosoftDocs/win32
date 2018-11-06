@@ -2,7 +2,6 @@
 Description: Function type used by the texture fill functions.
 ms.assetid: ab2f3005-150f-46e1-b75b-75c39e7feed1
 title: LPD3DXFILL3D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

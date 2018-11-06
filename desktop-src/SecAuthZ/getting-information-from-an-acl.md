@@ -2,7 +2,6 @@
 Description: Several functions are provided that retrieve access control information from an access control list (ACL).
 ms.assetid: a0839c49-09e9-4407-8702-051b88ef2231
 title: Getting Information from an ACL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

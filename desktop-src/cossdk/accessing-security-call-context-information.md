@@ -2,7 +2,6 @@
 Description: When role-based security is being used, the security call context object can be used to access security information about the current call.
 ms.assetid: 9fc0a9e5-934c-4510-8fbb-1fb2817aa0ea
 title: Accessing Security Call Context Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

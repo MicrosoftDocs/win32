@@ -2,7 +2,6 @@
 Description: The distance to the subject in meters. Calculated from PKEY\_Photo\_SubjectDistanceNumerator and PKEY\_Photo\_SubjectDistanceDenominator.
 ms.assetid: 41d48485-9317-4eb2-ab3f-e0c5d3c690bc
 title: System.Photo.SubjectDistance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

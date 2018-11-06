@@ -1,7 +1,6 @@
 ---
 ms.assetid: facbcbee-46c2-4fb5-85f9-5d08244dcf86
 title: Using the Cabinet API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

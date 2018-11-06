@@ -1,9 +1,6 @@
 ---
 title: meetingRating attribute
 description: The Platform for Internet Content Selection rating of a meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a436da18-9eca-4b6d-b08b-26f53aa5d4bf
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingRating
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

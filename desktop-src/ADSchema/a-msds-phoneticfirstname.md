@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Phonetic-First-Name attribute
 description: Contains the phonetic given name or first name of the person.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1338295-4545-4146-9dfe-8e45d5f9fdf4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Phonetic-First-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

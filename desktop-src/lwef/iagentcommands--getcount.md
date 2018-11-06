@@ -2,7 +2,6 @@
 title: IAgentCommands GetCount
 description: IAgentCommands GetCount
 ms.assetid: 17140eda-17b0-49c2-8d50-5a38a553191a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

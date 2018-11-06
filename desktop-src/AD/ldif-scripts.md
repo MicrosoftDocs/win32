@@ -1,15 +1,11 @@
 ---
 title: LDIF Scripts
 description: The LDAP Data Interchange Format (LDIF) is an Internet Engineering Task Force (IETF) standard that defines how to import and export directory data between directory servers that use LDAP service providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a87d0d34-96c0-4cef-a38e-30a7e2291a7a
 ms.tgt_platform: multiple
 keywords:
 - LDIF Scripts Active Directory
 - LDIF Scripts Active Directory , about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

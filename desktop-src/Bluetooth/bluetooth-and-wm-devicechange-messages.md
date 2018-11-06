@@ -2,7 +2,6 @@
 title: Bluetooth and WM_DEVICECHANGE Messages
 description: Bluetooth includes specific WM\_DEVICECHANGE messages that enable developers to obtain messages when Bluetooth devices undergo status changes.
 ms.assetid: 7dab37a6-63ac-4377-9884-61dd19972433
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

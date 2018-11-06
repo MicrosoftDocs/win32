@@ -2,7 +2,6 @@
 title: Custom Font Sets
 description: This topic describes various ways in which you can use custom fonts in your app.
 ms.assetid: 50842838-d150-df9a-f1b7-67ce5ea2bc80
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -355,7 +354,7 @@ if (SUCCEEDED(hr)) 
 
 This returns a system-provided implementation of the remote font file loader interface that is able to handle HTTP interactions for downloading font data on behalf of the app. A referrer URL or extra headers can be specified if required by the font service or services that are the source for the fonts.    
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Security note: When an attempt is made to fetch a remote font, the potential exists for an attacker to spoof the intended server that will be called. In that case, the target and referrer URLs and header details would be disclosed to the attacker. App developers are responsible for mitigating this risk. Use of the HTTPS protocol, rather than HTTP, is recommended. 
 
  
@@ -391,7 +390,7 @@ From this point, the steps for creating the custom font set are similar to those
 
 Note that the complete URL can be specified in the fontFileUrl parameter, or it can be split into base and relative portions. If a base URL is specified, then the concatenation of the baseUrl and fontFileUrl values must provide the complete URL — DirectWrite will not supply any additional delimiter.  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Security / performance note: When an attempt is made to fetch a remote font, there is no guarantee that Windows will receive a response from the server. In some cases, a server may respond with a file-not-found error for an invalid relative URL, but stop responding if it receives multiple invalid requests. If the server does not respond, Windows will eventually time out, though this may take several minutes if multiple fetches are initiated. You should do what you can to ensure that URLs will be valid when calls are made. 
 
  
@@ -439,7 +438,7 @@ After remote font requests have been added to the queue, the download process mu
 
 When a download is completed, it will be up to the app to take appropriate actions — proceeding with pending operations, or repeating operations that were done initially with fallback fonts. (If DirectWrite’s text layout is being used, then [**IDWriteTextLayout3::InvalidateLayout**](idwritetextlayout3-invalidatelayout.md) can be used to clear the temporary results computed using fallback fonts.) In order for the app to be notified when the download process has completed and to take appropriate actions, the app must provide an implementation of the [**IDWriteFontDownloadListener**](https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx) interface, and pass this into the BeginDownload call. 
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Security / performance note: When an attempt is made to fetch a remote font, there is no guarantee that Windows will receive a response from the server. If the server does not respond, Windows will eventually time out, though this may take several minutes if multiple remote fonts are being fetched but failing. The BeginDownload call will return immediately. Apps should not block UI while waiting for [**IDWriteFontDownloadListener::DownloadCompleted**](https://msdn.microsoft.com/en-us/library/Dn890776(v=VS.85).aspx) to be called. 
 
  
@@ -556,7 +555,7 @@ For this situation, an app will need to create a custom implementation of the [*
 
 When [**IDWriteFontDownloadQueue::BeginDownload**](https://msdn.microsoft.com/en-us/library/Dn894554(v=VS.85).aspx) is called, DirectWrite will make queries to the remote font file loader about locality of the data, and will request the remote stream. If data is not local, then it will call the stream’s BeginDownload method. The stream implementation should not block on that call, but should immediately return, passing back an [**IDWriteAsyncResult**](https://msdn.microsoft.com/en-us/library/Mt807681(v=VS.85).aspx) object that provides the wait handle DirectWrite will use to wait on the asynchronous download operation. The custom stream implementation is responsible for handling the remote communication. When the completion event has occurred, then DirectWrite will call [**IDWriteAsyncResult::GetResult**](https://msdn.microsoft.com/en-us/library/Mt807682(v=VS.85).aspx) to determine the result of the operation. If the result is successful, then it’s expected that subsequent ReadFragment calls to the stream for the downloaded ranges will succeed. 
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Security / performance note: When an attempt is made to fetch a remote font, the potential exists in general for an attacker to spoof the intended server being called, or that the server may not respond. If you are implementing custom network interactions, you may have greater control over mitigations than when dealing with third-party servers. However, it is up to you to consider appropriate mitigations to avoid information disclosure or denial of service. Secure protocols such as HTTPS are recommended. Also, you should build in some timeout so that the event handle returned to DirectWrite does eventually get set. 
 
  

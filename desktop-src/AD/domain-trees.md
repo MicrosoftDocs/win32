@@ -1,14 +1,10 @@
 ---
 title: Domain Trees
 description: A domain tree is made up of several domains that share a common schema and configuration, forming a contiguous namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3deb4053-3124-4180-8ab0-35fff689a37e
 ms.tgt_platform: multiple
 keywords:
 - domain tree Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

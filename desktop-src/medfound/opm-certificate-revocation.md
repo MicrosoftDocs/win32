@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 21faf809-1335-4d93-be06-628c5a05a4c8
 title: OPM Certificate Revocation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: unixHomeDirectory attribute
 description: Contains the absolute path to the home directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ecc72b58-7ad5-49c5-b440-4dbc908d19ad
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - unixHomeDirectory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

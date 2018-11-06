@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient7 RemoteProgram2 property
 description: Retrieves an object that supports the ITSRemoteProgram2 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fabdc933-c941-487f-9e49-c20a39e0c86e
 ms.tgt_platform: multiple
 keywords:
@@ -31,7 +28,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

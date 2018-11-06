@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ComputerReference attribute
 description: Contains a forward link to a Computer object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0e247ab7-7ed1-4813-9ba0-bb8cffacd8c8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ComputerReference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

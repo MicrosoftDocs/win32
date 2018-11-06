@@ -2,7 +2,6 @@
 Description: The ICertExit2 interface exposes the following methods.
 ms.assetid: A9D13AAD-9EB2-43B7-A618-0DDC01D2C473
 title: ICertExit2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

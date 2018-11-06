@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ConflictPath attribute
 description: Contains the full path of the conflict directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5480103a-04f3-4cfb-87f2-b9de03011f53
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ConflictPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

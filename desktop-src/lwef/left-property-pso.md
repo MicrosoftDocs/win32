@@ -2,7 +2,6 @@
 title: Left Property
 description: Left Property
 ms.assetid: 81b90391-300f-4100-98fe-7657223e3bfd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: String UUID
 description: A string UUID contains the character-array representation of a UUID.
 ms.assetid: a8a04c88-0d41-4e0c-aae1-caa6c95f91c9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The installer sets this property if the user has administrator privileges.
 ms.assetid: 2e7fd269-bd5f-40b7-b123-36b9c783a917
 title: AdminUser property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

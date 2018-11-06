@@ -2,7 +2,6 @@
 Description: The following code demonstrates how to call the SymFromName function.
 ms.assetid: d3a9d73e-fb77-4be3-a881-c258bcc587fe
 title: Retrieving Symbol Information by Name
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

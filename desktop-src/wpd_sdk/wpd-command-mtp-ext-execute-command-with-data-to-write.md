@@ -2,7 +2,6 @@
 Description: The WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE command sends an MTP command block, which is followed by a data phase. The data is sent from the host to the device.
 ms.assetid: b675fc3c-4d50-429d-9e00-42160d409a2b
 title: WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_WRITE Command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

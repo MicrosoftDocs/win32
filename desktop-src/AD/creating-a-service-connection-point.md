@@ -1,15 +1,11 @@
 ---
 title: Creating a Service Connection Point
 description: The following code example shows how to create and initialize a service connection point.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6ab1e72f-22e8-499a-916e-c2ba8e2c2aff
 ms.tgt_platform: multiple
 keywords:
 - Creating a Service Connection Point AD
 - Service Connection Point, Creating AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

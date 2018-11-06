@@ -1,12 +1,8 @@
 ---
 title: Publishing Under a Computer Object
 description: Typically, host-based services create SCPs under the computer object for the host computer. Host-based services are services closely tied to a single host computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ecd7d8bc-4714-408a-856c-7cab8360bf81
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -15,7 +15,6 @@ keywords:
 - ULONG_IMAPI2_ALL_MODE_PAGES
 - ULONG_IMAPI2_NONZERO
 - ULONG_IMAPI2_NOT_NEGATIVE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

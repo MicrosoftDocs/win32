@@ -2,7 +2,6 @@
 title: VML RadiusRange Attribute
 description: VML RadiusRange Attribute
 ms.assetid: bff2b185-7683-4994-9104-09a7579f963d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

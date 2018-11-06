@@ -7,7 +7,6 @@ keywords:
 - capFileSetCaptureFile macro
 - WM_CAP_FILE_GET_CAPTURE_FILE message
 - capFileGetCaptureFile macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

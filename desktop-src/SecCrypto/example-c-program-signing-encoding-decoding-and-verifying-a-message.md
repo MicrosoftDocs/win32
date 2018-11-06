@@ -2,7 +2,6 @@
 Description: The following example combines signing and encoding a message, and decoding a signed message and verifying the signature.
 ms.assetid: 2cad11a8-75ad-4726-a7bb-82870b71c721
 title: 'Example C Program: Signing, Encoding, Decoding, and Verifying a Message'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

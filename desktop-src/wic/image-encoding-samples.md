@@ -2,7 +2,6 @@
 Description: This section contains the image encoding samples.
 ms.assetid: CB562E67-63CA-447c-9616-140B687B80D6
 title: Image Encoding Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

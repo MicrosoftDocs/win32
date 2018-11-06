@@ -2,7 +2,6 @@
 Description: To consume event specific data, the consumer must know the format of the event data. If the provider used a manifest, MOF, or TMF files to publish the format of the event data, you can use the trace data helper (TDH) functions to parse the event data.
 ms.assetid: 8164b963-6232-42aa-b15e-071ac389dd27
 title: Retrieving Event Data Using TDH
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

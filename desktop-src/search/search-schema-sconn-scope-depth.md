@@ -2,7 +2,6 @@
 Description: The <depth> element specifies whether the search connector's scope should include child URLs. The allowed values are Deep and Shallow. This element has no child elements and no attributes.
 ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
 title: depth Element (Search Connector Schema)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Performs a Hermite spline interpolation, using the specified 4D vectors.
 ms.assetid: 687d4dcf-ee75-4dda-b6d2-5ba0b5281a64
 title: D3DXVec4Hermite function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

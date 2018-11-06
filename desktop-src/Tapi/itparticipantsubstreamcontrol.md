@@ -2,7 +2,6 @@
 Description: The ITParticipantSubStreamControl interface is implemented by the IPConf MSP.
 ms.assetid: d5af0fb1-af18-4efb-9b68-1fa60c1272f6
 title: ITParticipantSubStreamControl interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

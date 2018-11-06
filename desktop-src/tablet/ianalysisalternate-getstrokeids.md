@@ -2,7 +2,6 @@
 Description: Returns the stroke identifiers that are associated with this IAnalysisAlternate.
 ms.assetid: 495d485f-0d16-4085-9213-cc55f3f259f0
 title: IAnalysisAlternate::GetStrokeIds method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

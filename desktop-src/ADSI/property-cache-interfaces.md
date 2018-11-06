@@ -1,14 +1,10 @@
 ---
 title: Property Cache Interfaces
 description: This topic lists ADSI interfaces that work with property caches.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b3479719-b5bf-4f19-91f9-b05e60bde161
 ms.tgt_platform: multiple
 keywords:
 - property cache interfaces ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

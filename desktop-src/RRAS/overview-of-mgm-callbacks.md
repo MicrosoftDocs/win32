@@ -4,7 +4,6 @@ description: There are two types of callbacks in the MGM API
 ms.assetid: 7e132a86-19ef-44ba-8753-12dbea77a800
 keywords:
 - Multicast callbacks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

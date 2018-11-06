@@ -5,7 +5,6 @@ ms.assetid: abf06fe4-0b5d-40a4-a263-a78150cd37c7
 keywords:
 - Windows Media Format SDK,profiles
 - profiles,designing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

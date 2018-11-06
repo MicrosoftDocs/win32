@@ -1,9 +1,6 @@
 ---
 title: SetEnabled method of the Win32_SessionDirectoryVMMPlugin class
 description: Enables or disables the plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 25ce0614-5c3b-4a79-9174-1a9de1eb6c33
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

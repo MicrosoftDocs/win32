@@ -2,7 +2,6 @@
 title: breakp - ps
 description: Conditionally break out of the current loop at the nearest endloop - ps or endrep - ps. Use one of the components of the predicate register as a condition to determine whether or not to perform the instruction.
 ms.assetid: be219239-fccb-4561-8b71-083c47ba915b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

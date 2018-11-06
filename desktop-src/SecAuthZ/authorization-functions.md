@@ -2,7 +2,6 @@
 Description: Lists the functions available in authorization APIs.
 ms.assetid: c236f335-b5de-4e8b-851d-45e008791271
 title: Authorization Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

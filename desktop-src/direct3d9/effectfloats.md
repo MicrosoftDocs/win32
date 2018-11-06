@@ -2,7 +2,6 @@
 Description: Defines a legacy effect FLOAT. This template has been replaced by the EffectParamFloats template.
 ms.assetid: f3d66e23-5c55-478f-921d-3a5bdcfb8679
 title: EffectFloats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

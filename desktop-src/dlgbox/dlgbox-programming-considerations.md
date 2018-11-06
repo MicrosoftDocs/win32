@@ -19,7 +19,6 @@ keywords:
 - dialog boxes,custom
 - custom dialog boxes
 - dialog boxes,settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

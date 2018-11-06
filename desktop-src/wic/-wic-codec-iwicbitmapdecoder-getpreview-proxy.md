@@ -2,7 +2,6 @@
 Description: Proxy function for the GetPreview method.
 ms.assetid: 8251af14-68db-4e4a-a501-115e7bbd53cd
 title: IWICBitmapDecoder_GetPreview_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

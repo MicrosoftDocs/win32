@@ -1,16 +1,12 @@
 ---
 title: Publishing with Service Connection Points
 description: The Active Directory Schema defines a serviceConnectionPoint (SCP) object class to make it easy for a service to publish service-specific data in the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3544aa64-ecb0-48a1-ae49-05247a983842
 ms.tgt_platform: multiple
 keywords:
 - Publishing with Service Connection Points AD
 - service connection points AD
 - service connection points AD , publishing with
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

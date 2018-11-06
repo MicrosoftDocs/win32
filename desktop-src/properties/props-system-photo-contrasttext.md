@@ -2,7 +2,6 @@
 Description: The user-friendly form of System.Photo.Contrast. It is not intended to be parsed programmatically.
 ms.assetid: 583cb138-d1f7-409d-8219-49256381b420
 title: System.Photo.ContrastText
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

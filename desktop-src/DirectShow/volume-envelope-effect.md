@@ -2,7 +2,6 @@
 Description: Volume Envelope Effect
 ms.assetid: 17b6d842-e79c-49b0-baa4-1535b4a2c6ae
 title: Volume Envelope Effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

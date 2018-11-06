@@ -1,12 +1,8 @@
 ---
 title: Enumerating the Replicas of a Service
 description: This topic includes a code example that enumerates the installed instances of a replicated service on different host computers throughout an enterprise.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9dc3f932-c3e1-4ce1-a945-12d68838304e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

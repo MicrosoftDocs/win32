@@ -1,12 +1,8 @@
 ---
 Description: The SWbemServicesEx object exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5140A6CF-3ACB-4130-9E2E-D5CF2A0B2183
 ms.tgt_platform: multiple
 title: SWbemServicesEx Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

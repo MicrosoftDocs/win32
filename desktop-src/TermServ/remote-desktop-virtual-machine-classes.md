@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Virtual Machine classes
 description: The Remote Desktop Virtual Machine WMI provider provides the following classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: C502FF8A-895C-4ABB-8C2D-09D7870AF3E4
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

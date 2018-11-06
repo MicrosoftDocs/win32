@@ -2,7 +2,6 @@
 title: DLL Server Requirements
 description: While most DLLs can run in a surrogate, some DLLs cannot.
 ms.assetid: f89dabe6-f65f-4d90-ad0e-c680d4b08ba5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

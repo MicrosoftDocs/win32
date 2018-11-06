@@ -2,7 +2,6 @@
 Description: Restores all desktop windows to the state they were in before the last MinimizeAll command.
 ms.assetid: 32BDE544-C4FF-4a64-99AF-F8960AEC4690
 title: IShellDispatch.UndoMinimizeALL method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

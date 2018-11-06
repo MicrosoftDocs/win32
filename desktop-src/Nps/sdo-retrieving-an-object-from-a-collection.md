@@ -1,12 +1,8 @@
 ---
 title: Retrieving an Object from a Collection
 description: Retrieving an Object from a Collection
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df7cbff5-2d09-4031-8f41-3f4eea51598f
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

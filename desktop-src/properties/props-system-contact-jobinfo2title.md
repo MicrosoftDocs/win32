@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: cea60e33-5e14-4dbc-8185-e81d14a96b4f
 title: System.Contact.JobInfo2Title
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

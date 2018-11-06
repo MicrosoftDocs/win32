@@ -1,9 +1,6 @@
 ---
 title: DS-Replication-Manage-Topology extended right
 description: Extended right needed to update the replication topology for a given NC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 43f8554b-0934-487d-bac0-8f1351eae1cd
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Replication-Manage-Topology
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

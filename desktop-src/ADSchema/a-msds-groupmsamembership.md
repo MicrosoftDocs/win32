@@ -1,9 +1,6 @@
 ---
 title: ms-DS-GroupMSAMembership attribute
 description: This attribute is used for access checks to determine if a requestor has permission to retrieve the password for a group MSA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1512826d-fb7e-4039-ad93-f9334fd1d485
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-GroupMSAMembership
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

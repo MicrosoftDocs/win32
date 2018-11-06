@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Private-Key-Recovery-Agent class
 description: Used to publish the Key Recovery Agent certificate in the KRA container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b414a312-1613-4fe4-afda-896dff6cbfdb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Private-Key-Recovery-Agent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

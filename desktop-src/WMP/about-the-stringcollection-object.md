@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,StringCollection object
 - Windows Media Player Mobile,StringCollection object
 - StringCollection object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

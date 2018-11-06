@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalFrame class is a parent class of rack, chassis, and other frame enclosures as they are defined in extension classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 571c8ca2-1644-4060-8d89-d9625a591f86
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalFrame class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -56,7 +50,7 @@ api_location:
 
 The **CIM\_PhysicalFrame** class is a parent class of rack, chassis, and other frame enclosures as they are defined in extension classes. Properties such as **VisibleAlarm** and **AudibleAlarm**, and data related to security breaches are included in this parent class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

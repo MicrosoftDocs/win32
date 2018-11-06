@@ -2,7 +2,6 @@
 Description: The ApplyChanges method applies any properties that have changed.
 ms.assetid: dece1e61-7fe1-40f1-8d1d-89b5a334d04e
 title: IDxtJpeg::ApplyChanges method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

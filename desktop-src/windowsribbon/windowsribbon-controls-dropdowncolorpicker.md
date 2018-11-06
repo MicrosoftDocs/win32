@@ -2,7 +2,6 @@
 title: Drop-Down Color Picker
 description: The Windows Ribbon framework provides a specialized Drop-Down Color Picker control that exposes a variety of color settings through a split button and customizable drop-down color selector.
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

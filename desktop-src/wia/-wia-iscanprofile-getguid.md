@@ -2,7 +2,6 @@
 Description: Returns the GUID of the profile.
 ms.assetid: 184456dd-515d-4744-91f3-0ef8b4d2114d
 title: IScanProfile::GetGUID method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

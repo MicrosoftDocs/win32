@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ComputerSystem class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AA48A5CC-CD2A-41CD-8025-FDA2B92B6D75
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ComputerSystem Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

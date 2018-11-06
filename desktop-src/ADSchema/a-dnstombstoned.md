@@ -1,9 +1,6 @@
 ---
 title: DNS-Tombstoned attribute
 description: True if this object has been tombstoned. This attribute exists to make searching for tombstoned records easier and faster. Tombstoned objects are objects that have been deleted but not yet removed from the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d876a6d7-d5bc-4fe2-af03-1fff3381708f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DNS-Tombstoned
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

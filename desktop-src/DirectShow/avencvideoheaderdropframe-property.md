@@ -2,7 +2,6 @@
 Description: Specifies the value of drop-frame flag in the group of pictures (GOP) header.
 ms.assetid: 37f8f5f6-ddcb-44ab-a727-632b78e6f599
 title: AVEncVideoHeaderDropFrame property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

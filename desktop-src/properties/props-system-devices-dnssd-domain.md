@@ -2,7 +2,6 @@
 Description: Domain portion of DNS-SD service instance name. (e.g. &\#0034;.local&\#0034; in &\#0034;myservice.\_http.\_tcp.local&\#0034;).
 ms.assetid: 7184451a-47ba-4b38-b72c-1b0c650f881e
 title: System.Devices.Dnssd.Domain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

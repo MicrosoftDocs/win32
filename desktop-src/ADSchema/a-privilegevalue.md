@@ -1,9 +1,6 @@
 ---
 title: Privilege-Value attribute
 description: A value that represents an Windows NT privilege.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd76840f-5fb9-48db-a60c-62144e09134b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Privilege-Value
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Count property is a read-only property that returns the number of items in the RecordList object.
 ms.assetid: df384d5c-931f-4a31-af55-d013f010e100
 title: RecordList.Count property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

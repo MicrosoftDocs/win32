@@ -2,7 +2,6 @@
 Description: Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
 ms.assetid: cd3c28d9-8663-4672-94ba-0a53861086cb
 title: AuthProtocol (contextType) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

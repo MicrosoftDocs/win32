@@ -1,9 +1,6 @@
 ---
 title: Dns-Notify-Secondaries attribute
 description: The Dns-Notify-Secondaries attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4230cc77-6f58-4cf8-ad3e-7a3234c99540
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dns-Notify-Secondaries
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

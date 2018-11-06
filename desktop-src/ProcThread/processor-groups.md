@@ -2,7 +2,6 @@
 Description: The 64-bit versions of Windows 7 and Windows Server 2008 R2 and later versions of Windows support more than 64 logical processors on a single computer. This functionality is not available on 32-bit versions of Windows.
 ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: Processor Groups
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

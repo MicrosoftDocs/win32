@@ -2,7 +2,6 @@
 Description: The following table lists COM objects and interfaces associated with the Rendezvous conferencing controls.
 ms.assetid: d9634586-8315-46d3-9ffc-bfa9a4d7738e
 title: Rendezvous COM Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

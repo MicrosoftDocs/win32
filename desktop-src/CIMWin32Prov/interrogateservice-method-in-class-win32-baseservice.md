@@ -1,14 +1,8 @@
 ---
 Description: Requests that the service update its state to the service manager.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 118156ef-ee43-4f73-af41-e295a0a850b9
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_BaseService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

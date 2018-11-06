@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Parent-Has-Secure-Delegation attribute
 description: An attribute used to define whether the parental delegation to the DNS zone is secure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92b1bb68-1d08-47d3-95a7-a75149d7313f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Parent-Has-Secure-Delegation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

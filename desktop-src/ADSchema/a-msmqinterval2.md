@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Interval2 attribute
 description: In MSMQ mixed-mode, default replication time between sites.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6b04fbb2-bab2-45f1-81ce-3dcd85de9b8a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Interval2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

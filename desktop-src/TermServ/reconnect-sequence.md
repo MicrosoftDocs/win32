@@ -1,12 +1,8 @@
 ---
 title: Reconnect Sequence
 description: An illustration that shows the method calls made between the Remote Desktop Services service and your protocol during a reconnection sequence.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1817c362-0ff6-4c51-b91c-7949931cee30
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

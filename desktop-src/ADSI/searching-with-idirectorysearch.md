@@ -1,9 +1,6 @@
 ---
 title: Searching with the IDirectorySearch Interface
 description: The IDirectorySearch interface provides a high-level and low-overhead interface for querying data of a directory or a global catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: da415cb2-f320-4be4-b5bd-053cd6a6b2fd
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - Queries ADSI , Query Interfaces, IDirectorySearch
 - ADSI ADSI , Example Code C/C++ , Searching a Directory with IDirectorySearch
 - IDirectorySearch ADSI , Using to Search a Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

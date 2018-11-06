@@ -2,7 +2,6 @@
 Description: The following interfaces can be used to create Certificate Enrollment API objects on a webpage.
 ms.assetid: de9c1204-6a51-4e0b-a42e-6dcb3be9c3b2
 title: Certificate Enrollment Factory Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

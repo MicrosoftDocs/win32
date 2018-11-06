@@ -2,7 +2,6 @@
 title: Helper Tokens for BITS Transfer Jobs
 description: Helper Tokens for BITS Transfer Jobs
 ms.assetid: f29f9870-e406-472b-9342-203def7453ae
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

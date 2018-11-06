@@ -2,7 +2,6 @@
 Description: The Configure method submits capture configuration information.
 ms.assetid: 739ed1df-1a84-4c48-a1ac-2dba7a614cdd
 title: IStats::Configure method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

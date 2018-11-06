@@ -1,12 +1,8 @@
 ---
 Description: To create a WMI method, define the input and output parameters for the method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 71cbecde-33c4-4bf1-9793-bef6d823dcac
 ms.tgt_platform: multiple
 title: Creating a WMI Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

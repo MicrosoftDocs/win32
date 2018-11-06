@@ -2,7 +2,6 @@
 title: Pager
 description: This section contains information about the programming elements used with pager controls.
 ms.assetid: 'vs|controls|~\controls\pager\reflist.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

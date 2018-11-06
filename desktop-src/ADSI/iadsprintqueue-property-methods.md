@@ -1,9 +1,6 @@
 ---
 title: IADsPrintQueue Property Methods
 description: The property methods of the IADsPrintQueue interface get or set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7f5b4200-65c8-4230-8561-ad4fefb391f3
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

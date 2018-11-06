@@ -4,7 +4,6 @@ description: Pixel shaders depend on registers to get vertex data, to output pix
 ms.assetid: 52bb6290-46e2-4d7d-9b96-b4c3e2abfe43
 keywords:
 - Registers - ps_2_x
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

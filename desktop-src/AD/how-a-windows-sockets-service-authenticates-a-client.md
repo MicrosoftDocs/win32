@@ -1,14 +1,10 @@
 ---
 title: How a Windows Sockets Service Authenticates a Client
 description: When a client connects to the Windows Sockets service, the service begins its operations for the mutual authentication sequence, which is shown in the following code examples.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 32f62fb9-41c6-4932-9b91-753174919707
 ms.tgt_platform: multiple
 keywords:
 - How a Windows Sockets Service Authenticates a Client AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

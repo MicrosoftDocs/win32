@@ -2,7 +2,6 @@
 Description: A small update makes changes to one or more application files that are too minor to warrant changing the product code.
 ms.assetid: c74ef2bd-9cf5-4ec0-bfff-1fad0e17ba98
 title: Small Updates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

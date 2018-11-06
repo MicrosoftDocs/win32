@@ -2,7 +2,6 @@
 Description: Basic Guidelines for Designing COM+ Applications
 ms.assetid: 2d08bd05-5b0c-480c-91fd-b2bf321fc21e
 title: Basic Guidelines for Designing COM+ Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

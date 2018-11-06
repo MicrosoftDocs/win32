@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRequestContainerMinimize method
 description: Called when the user presses the Minimize button on the connection bar in full-screen mode. The firing of this event is a request that the container application minimize itself.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fc052f9b-cf59-4d5a-ba39-571627b72f2a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

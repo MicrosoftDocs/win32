@@ -2,7 +2,6 @@
 Description: Elements used in directory management.
 ms.assetid: 4fd20490-0cdc-45ff-bc95-d32a3f51136e
 title: Directory Management Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

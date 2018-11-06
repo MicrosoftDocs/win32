@@ -2,7 +2,6 @@
 Description: A string that indicates the user logon status of an identity.
 ms.assetid: 8B12E452-790D-4924-98E7-9368CC525674
 title: System.Identity.LogonStatusString
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

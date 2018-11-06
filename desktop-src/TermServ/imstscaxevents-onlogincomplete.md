@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnLoginComplete method
 description: Called when the client control has successfully logged on to a Remote Desktop Session Host (RD Session Host) server, following the display of the Windows Logon dialog box.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: acb345a6-3153-4b8f-ac51-fe0c19fa750a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

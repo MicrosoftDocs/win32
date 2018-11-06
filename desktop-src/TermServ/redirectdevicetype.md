@@ -1,9 +1,6 @@
 ---
 title: RedirectDeviceType enumeration
 description: Used to specify the type of a device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B6356217-814E-462F-9DBC-F6D3C0CE129F
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

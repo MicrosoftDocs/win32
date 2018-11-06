@@ -1,15 +1,11 @@
 ---
 title: Creating and Deleting Objects
 description: With ADSI, objects are created and deleted using either the IADsContainer or IDirectoryObject interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4d1f7ac5-48d3-4ea9-91e4-0cd4bb2ec9f8
 ms.tgt_platform: multiple
 keywords:
 - Creating and Deleting Objects ADSI
 - ADSI, Creating and Deleting Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

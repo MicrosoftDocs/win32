@@ -1,12 +1,8 @@
 ---
 title: What's New in Windows Server 2008
 description: Windows Server 2008 introduces the following new programming elements for Terminal Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a2299b03-5e06-4984-a33f-b44c7cded513
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

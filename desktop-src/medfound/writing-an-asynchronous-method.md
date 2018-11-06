@@ -2,7 +2,6 @@
 Description: This topic describes how to implement an asynchronous method in Microsoft Media Foundation.
 ms.assetid: cd94280d-7267-4d35-8333-aa4a5bd81b73
 title: Writing an Asynchronous Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Resume method restarts a paused capture.
 ms.assetid: 4fa47220-d323-407b-9dae-704969f66bdd
 title: IDelaydC::Resume method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: Prints a test page.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7968e637-9817-4111-89f5-d3c6961395e5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PrintTestPage method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

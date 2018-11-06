@@ -2,7 +2,6 @@
 Description: Adds a new IContextLink to the IContextNode object's collection of context links.
 ms.assetid: b7b9da10-3015-4976-bc4e-1a7f69b7c85b
 title: IContextNode::AddContextLink method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

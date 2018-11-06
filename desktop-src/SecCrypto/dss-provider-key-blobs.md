@@ -2,7 +2,6 @@
 Description: Used with the Digital Signature Standard (DSS) provider to export keys from, and import keys into, the cryptographic service provider (CSP).
 ms.assetid: a0a266ef-0830-4a3f-9bf6-6b64c95c3d03
 title: DSS Provider Key BLOBs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

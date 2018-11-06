@@ -2,7 +2,6 @@
 Description: Since what are duplicated are the socket descriptors and not the underlying sockets, all of the states associated with a socket are held in common across all the descriptors.
 ms.assetid: f3a2cd5a-bc3a-4aeb-8606-7b8aa6afb105
 title: Multiple Handles to a Single Socket
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

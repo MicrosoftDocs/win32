@@ -2,7 +2,6 @@
 Description: The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.
 ms.assetid: E2D8DA99-4EA2-4847-B699-80A6994C66C0
 title: DXGI 1.2 Improvements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

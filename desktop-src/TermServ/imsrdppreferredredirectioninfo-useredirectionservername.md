@@ -1,9 +1,6 @@
 ---
 title: IMsRdpPreferredRedirectionInfo UseRedirectionServerName property
 description: Gets and sets whether to use the redirection server name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D2239600-D75D-40FB-A6D0-4C7C4C5163E3
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

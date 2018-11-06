@@ -2,7 +2,6 @@
 Description: A description of the constant table.
 ms.assetid: 848b328a-95a4-4fd0-a7d4-4fb0e5d14f64
 title: D3DXCONSTANTTABLE_DESC structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

@@ -1,12 +1,8 @@
 ---
 title: IRemoteDesktopClientEvents methods
 description: The IRemoteDesktopClientEvents interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D8035924-736D-495D-BF78-950DAEB69774
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

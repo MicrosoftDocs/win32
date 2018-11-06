@@ -2,7 +2,6 @@
 Description: The width, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
 ms.assetid: 44930ca6-1ca9-40eb-b6f0-96094d9d03ad
 title: Item.ThumbWidth property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

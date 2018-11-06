@@ -2,7 +2,6 @@
 Description: There are some considerations that are unique to remotely administered systems.
 ms.assetid: bfdf121e-9b4e-4323-82ec-9bd32531caad
 title: WFP Remote Administration Considerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Removes the data log associated with the reference point.
 ms.assetid: 42242b76-9123-41a7-b8b1-82d2e827ea53
 title: RemoveAssociatedData method of the Msvm_CollectionReferencePointService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

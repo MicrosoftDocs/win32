@@ -2,7 +2,6 @@
 Description: Working With DVD Menus
 ms.assetid: 8c5f8072-b74f-4e15-8991-73bcc4145fd2
 title: Working With DVD Menus
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

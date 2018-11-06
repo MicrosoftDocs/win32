@@ -1,9 +1,6 @@
 ---
 title: roomNumber attribute
 description: The room number of an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b92d9f2e-5081-4e0b-8604-d054ae10c27a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - roomNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

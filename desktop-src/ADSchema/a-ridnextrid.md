@@ -1,9 +1,6 @@
 ---
 title: RID-Next-RID attribute
 description: The next free Relative Identifier in the current pool.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6e2339b2-fd4a-4175-a854-c0a4bd9ac599
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Next-RID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

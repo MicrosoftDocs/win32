@@ -2,7 +2,6 @@
 Description: An application retrieves the dimensions of a region's bounding rectangle by calling the GetRgnBox function.
 ms.assetid: 3851d0f4-33ec-44db-9cb8-c2afb03ffc25
 title: Retrieving a Bounding Rectangle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Proxy function for the GetType method.
 ms.assetid: 04e71352-4f07-4026-bc32-f6926a58c707
 title: IWICPalette_GetType_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

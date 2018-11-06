@@ -2,7 +2,6 @@
 Description: The DbgOutString function sends a string to the debug output location. Ignored in retail builds.
 ms.assetid: 644bf4f7-ec2d-466e-85c6-690dd44da702
 title: DbgOutString function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

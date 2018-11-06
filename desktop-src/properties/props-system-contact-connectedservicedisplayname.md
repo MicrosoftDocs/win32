@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 54975fa0-0c50-48a8-8e0e-0ac907634717
 title: System.Contact.ConnectedServiceDisplayName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Updates the data for objects that have data supplied by a performance provider, such as the Performance Counter Classes. You can obtain updated data more quickly and without a call to SWbemServices.Get\_.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6aeaa336-fb98-4eda-b746-fc958198d8ae
 ms.tgt_platform: multiple
 title: SWbemObjectEx.Refresh_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Types class
 description: A container of this class can contain claim type objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ce140ede-915f-40e0-8ea7-243573477a10
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Types
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

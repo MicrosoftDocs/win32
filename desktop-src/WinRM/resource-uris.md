@@ -1,12 +1,8 @@
 ---
 title: Resource URIs
 description: A resource URI is an identifier for a distinct type of management operation or value used by management services that implement the WS-Management protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 478a6e5d-0675-462e-b2fd-fd2b5379e298
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

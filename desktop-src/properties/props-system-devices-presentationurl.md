@@ -2,7 +2,6 @@
 Description: URL of a human readable webpage on the device.
 ms.assetid: 58c116db-ca0e-470d-830f-464436f87853
 title: System.Devices.PresentationUrl
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - transfer manifest
 - manifest
 - window.external,transfer manifest
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

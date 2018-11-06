@@ -1,12 +1,8 @@
 ---
 Description: Allows client applications to access SNMP information through WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d9e3fd1d-8320-4407-9a9e-e2eb5dd62fef
 ms.tgt_platform: multiple
 title: Accessing SNMP Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

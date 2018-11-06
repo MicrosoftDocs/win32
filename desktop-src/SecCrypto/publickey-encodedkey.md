@@ -2,7 +2,6 @@
 Description: Retrieves the value of the public key.
 ms.assetid: d9846ebe-44df-4ee0-8f15-cc96883d9d53
 title: PublicKey.EncodedKey property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

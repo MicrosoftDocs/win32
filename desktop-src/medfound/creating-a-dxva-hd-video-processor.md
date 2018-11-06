@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 43a97dc8-19b3-412c-a015-339099bf4f6c
 title: Creating a DXVA-HD Video Processor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

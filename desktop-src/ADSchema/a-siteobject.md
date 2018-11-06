@@ -1,9 +1,6 @@
 ---
 title: Site-Object attribute
 description: The distinguished name for the site to which this subnet belongs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4533c742-4276-48df-b0cd-7ba1641737a7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Site-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

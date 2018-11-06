@@ -1,9 +1,6 @@
 ---
 title: Phone-Home-Primary attribute
 description: The user's main home phone number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 624d89fd-942c-448d-bd51-7d93954370b1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Phone-Home-Primary
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

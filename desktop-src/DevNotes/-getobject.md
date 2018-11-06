@@ -2,7 +2,6 @@
 Description: Gets graphics object information.
 ms.assetid: 352bff43-4271-4dab-8a4e-a5deb1a50ba1
 title: '_GetObject function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

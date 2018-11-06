@@ -2,7 +2,6 @@
 Description: Registers a running application for Windows Image Acquisition (WIA) 2.0 event notification.
 ms.assetid: 978dcd41-d63b-421d-b7e1-8e9368b36180
 title: IWiaDevMgr2::RegisterEventCallbackInterface method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -102,7 +101,7 @@ Returns the standard COM error codes or the following.
 
 ## Remarks
 
-> \[!Warning\]  
+> [!WARNING]
 > Using the [**IWiaDevMgr::RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface), **IWiaDevMgr2::RegisterEventCallbackInterface**, and [**DeviceManager.RegisterEvent**](https://msdn.microsoft.com/en-us/library/ms630720(v=VS.85).aspx) methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.
 
  

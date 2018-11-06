@@ -1,12 +1,8 @@
 ---
 Description: The DeleteAsync\_ method of SWbemObject asynchronously deletes either the current class or the current instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b8d67fa5-5217-422b-acbe-5eea6028deeb
 ms.tgt_platform: multiple
 title: SWbemObject.DeleteAsync_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

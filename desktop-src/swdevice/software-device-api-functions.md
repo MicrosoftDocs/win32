@@ -2,7 +2,6 @@
 title: Software Device API Functions
 description: This section describes Software Device API functions that a client app calls and a callback function that a client app implements.
 ms.assetid: 68F142A9-08AD-4F74-A0C3-3DCC8F7449B2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Miscellaneous Helper Functions
 ms.assetid: 6d022907-6838-4d22-81ca-57c35bcb8b0d
 title: Miscellaneous Helper Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

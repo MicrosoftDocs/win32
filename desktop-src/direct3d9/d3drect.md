@@ -2,7 +2,6 @@
 Description: Defines a rectangle.
 ms.assetid: a8590411-fd34-4048-a41f-b4155d955573
 title: D3DRECT structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type:

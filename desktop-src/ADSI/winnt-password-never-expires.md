@@ -1,16 +1,12 @@
 ---
 title: Password Never Expires (WinNT Provider)
 description: To enable this option using the WinNT ADSI provider, set the ADS\_UF\_DONT\_EXPIRE\_PASSWD (0x10000) flag on the UserFlags attribute.Note  For Windows 2000 and later, use the LDAP ADSI provider for user management operations as shown.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e38b31c-399b-447f-bceb-36c599b2714e
 ms.tgt_platform: multiple
 keywords:
 - Password Never Expires (WinNT Provider)
 - Password Never Expires ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, Password Never Expires
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

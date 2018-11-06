@@ -1,9 +1,6 @@
 ---
 title: IsDbReachable method of the Win32_SessionBrokerServiceProperties class
 description: Checks if the database is reachable.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c9774d6d-1b78-4ec1-bae2-80d41d4c9b06
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

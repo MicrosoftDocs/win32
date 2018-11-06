@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Source-Object-DN attribute
 description: Contains the string representation of the distinguished name of the object in another forest that corresponds to this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2955c6ed-068a-47bb-aabc-e335f5ad7709
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Source-Object-DN
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

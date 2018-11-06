@@ -2,7 +2,6 @@
 Description: Shows how to properly create a DACL.
 ms.assetid: f8ec202f-4f34-4123-8f3c-cfc5960b4dc2
 title: Creating a DACL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

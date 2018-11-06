@@ -2,7 +2,6 @@
 Description: Writing a Project to a File
 ms.assetid: 84499e4f-4f45-4aa6-aa89-d95c3b6b47d0
 title: Writing a Project to a File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -107,7 +106,7 @@ After you build the filter graph, call the [**IMediaControl::Run**](/windows/des
 
 To get the benefits of smart recompression, use the smart render engine in place of the basic render engine. The steps in building the graph are almost the same. The major difference is that compression is handled in the front end of the graph, not in the file-writing section.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not use the smart render engine to read or write Windows Media files.
 
  

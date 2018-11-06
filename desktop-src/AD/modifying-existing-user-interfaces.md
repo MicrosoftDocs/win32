@@ -1,16 +1,12 @@
 ---
 title: Modifying Existing User Interfaces
 description: The results pane of the Active Directory Users and Computers MMC snap-in displays several columns of attribute data for objects within a container, such as the Name and Description attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 55f4ae82-c380-42a9-beba-047ffd0131eb
 ms.tgt_platform: multiple
 keywords:
 - Modifying Existing User Interfaces AD
 - Users and Computers snap-in AD ,modifying display
 - Users and Computers snap-in AD ,adding columns
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

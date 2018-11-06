@@ -1,15 +1,11 @@
 ---
 title: Single vs. Multiple Value Attributes
 description: The attributes that can exist in a directory are typically defined in the schema for the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea06ca66-6407-448f-8238-c8de5353663b
 ms.tgt_platform: multiple
 keywords:
 - single vs. multiple value attributes ADSI
 - attributes ADSI , single vs. multiple value attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

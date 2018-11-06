@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-IntSetParam class
 description: Signed integer set parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad7b7a66-3216-496f-a40d-f3b4ab8de8ec
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-IntSetParam
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

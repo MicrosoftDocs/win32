@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1501 through 1510.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 983e7a3e-0636-425b-8587-883ea03b4d2c
 ms.tgt_platform: multiple
 title: Errors 1501 through 1510
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

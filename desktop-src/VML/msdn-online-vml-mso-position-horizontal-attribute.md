@@ -2,7 +2,6 @@
 title: VML MSO-Position-Horizontal Attribute
 description: VML MSO-Position-Horizontal Attribute
 ms.assetid: 5cb2b60c-b5b6-4df4-8c6c-db31c5fa2d7e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

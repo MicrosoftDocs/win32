@@ -4,7 +4,6 @@ description: Sets the computer-wide restriction policy for component launch and 
 ms.assetid: 274e3d08-1f38-4179-b7e7-b218d6e184ee
 keywords:
 - MachineLaunchRestriction registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

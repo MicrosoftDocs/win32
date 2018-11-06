@@ -2,7 +2,6 @@
 Description: Not supported.
 ms.assetid: be7721e4-ba43-47c1-b955-e97afc5caac4
 title: IAMTimelineObj::GetTimelineNoRef method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

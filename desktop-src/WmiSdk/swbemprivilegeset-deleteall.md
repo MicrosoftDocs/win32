@@ -1,12 +1,8 @@
 ---
 Description: The DeleteAll method of the SWbemPrivilegeSet object removes all privileges from the collection, thus emptying it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 368caa14-1c53-4090-8569-97ea743905de
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.DeleteAll method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

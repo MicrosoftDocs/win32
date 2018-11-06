@@ -2,7 +2,6 @@
 Description: ICE88 validates that the directory referenced in the DirProperty column of the IniFile table exists in the Windows Installer package.
 ms.assetid: 9bb253fd-e231-4016-807d-3b1068ecff68
 title: ICE88
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

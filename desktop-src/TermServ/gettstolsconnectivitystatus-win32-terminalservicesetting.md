@@ -1,9 +1,6 @@
 ---
 title: GetTStoLSConnectivityStatus method of the Win32_TerminalServiceSetting class
 description: Determines the connectivity status between Remote Desktop Services and a license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11fc5865-47e8-4be8-a526-53e29f72d0a4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

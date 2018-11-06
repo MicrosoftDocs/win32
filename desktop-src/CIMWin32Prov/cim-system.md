@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_System class aggregates an enumerable set of managed system elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cbfa60d4-36ae-4e0c-a57f-aabf219851d0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_System class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -38,7 +32,7 @@ The **CIM\_System** class aggregates an enumerable set of managed system element
 
 The **CIM\_System** object and its derivatives are top-level objects of CIM. They provide the scope for numerous components and are required to have unique system keys.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

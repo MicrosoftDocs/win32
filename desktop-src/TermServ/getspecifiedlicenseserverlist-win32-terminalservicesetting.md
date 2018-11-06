@@ -1,9 +1,6 @@
 ---
 title: GetSpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Retrieves the list of specified license servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 800be0ce-1002-48e1-be4e-88db22590f12
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

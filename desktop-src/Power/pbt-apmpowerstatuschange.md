@@ -2,7 +2,6 @@
 Description: Notifies applications of a change in the power status of the computer, such as a switch from battery power to A/C.
 ms.assetid: dc56fee3-e0df-4f8e-8a41-92460279280a
 title: PBT_APMPOWERSTATUSCHANGE event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

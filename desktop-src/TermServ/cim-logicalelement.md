@@ -1,9 +1,6 @@
 ---
 title: CIM_LogicalElement class
 description: The base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 21e4a2ba-7bc5-4e33-a888-198299137da6
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

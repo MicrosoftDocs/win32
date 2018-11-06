@@ -1,9 +1,6 @@
 ---
 title: Change-Infrastructure-Master extended right
 description: Extended right needed to change the infrastructure FSMO role owner.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f91eb790-1a05-4fbb-b269-fd80e3499bdb
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Change-Infrastructure-Master
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

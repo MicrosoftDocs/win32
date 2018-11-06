@@ -2,7 +2,6 @@
 Description: Terminating an Automatic Transaction by Calling SetComplete
 ms.assetid: 5bd06cfd-1ee0-48ac-84ab-3737d76bccc0
 title: Terminating an Automatic Transaction by Calling SetComplete
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

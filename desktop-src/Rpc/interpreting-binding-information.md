@@ -4,7 +4,6 @@ description: Microsoft RPC enables your client and server programs access to and
 ms.assetid: 0116b7a1-85f8-4860-8fba-4aa1960c6799
 keywords:
 - Remote Procedure Call RPC , tasks, interpreting binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

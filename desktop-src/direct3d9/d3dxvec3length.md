@@ -2,7 +2,6 @@
 Description: Returns the length of a 3D vector.
 ms.assetid: 78da506c-3169-48e9-934c-cc09271a10d4
 title: D3DXVec3Length function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

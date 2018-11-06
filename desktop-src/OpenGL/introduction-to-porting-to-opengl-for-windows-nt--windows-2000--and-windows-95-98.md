@@ -5,7 +5,6 @@ ms.assetid: d23edcf7-d673-42b6-831b-edb3a76754e1
 keywords:
 - OpenGL,porting to Windows
 - porting to OpenGL OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

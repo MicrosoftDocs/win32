@@ -2,7 +2,6 @@
 Description: The distributed link tracking service enables client applications to track link sources that have moved.
 ms.assetid: 6f438c72-f23d-4ca4-83bd-fe3bc433ceeb
 title: Distributed Link Tracking and Object Identifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Defines a list of structures that contain counter values.
 ms.assetid: 6f6b33ed-6440-456c-8379-61a37798c95f
 title: structs Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

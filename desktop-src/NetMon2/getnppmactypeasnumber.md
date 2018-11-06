@@ -2,7 +2,6 @@
 Description: Retrieves the MAC type from the NetworkInfo category of the NPP section of the BLOB and converts the type data into a MAC type number.
 ms.assetid: 53aa538c-69ee-4b34-93fb-9e61c6baadea
 title: GetNPPMacTypeAsNumber function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

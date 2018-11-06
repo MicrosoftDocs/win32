@@ -2,7 +2,6 @@
 Description: Gets a string.
 ms.assetid: 49388582-a110-4aa2-90ab-2282b59da951
 title: ID3DXBaseEffect::GetString method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

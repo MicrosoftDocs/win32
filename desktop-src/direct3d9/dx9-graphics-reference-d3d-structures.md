@@ -2,7 +2,6 @@
 Description: This section contains information about the structures used with Direct3D.
 ms.assetid: 0a13cb04-10cb-48a6-a709-ad4a56459f02
 title: Direct3D Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

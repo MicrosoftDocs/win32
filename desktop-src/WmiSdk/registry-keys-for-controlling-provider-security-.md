@@ -1,12 +1,8 @@
 ---
 Description: To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a service security identifier (SID).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
 ms.tgt_platform: multiple
 title: Registry Keys and Values for Controlling Provider Security
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

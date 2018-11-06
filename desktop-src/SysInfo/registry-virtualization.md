@@ -2,7 +2,6 @@
 Description: Registry virtualization is an application compatibility technology that enables registry write operations that have global impact to be redirected to per-user locations.
 ms.assetid: dace2f65-df60-419a-8be8-ab60668e6396
 title: Registry Virtualization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

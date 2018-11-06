@@ -1,9 +1,6 @@
 ---
 title: Object-Guid attribute
 description: The unique identifier for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc2d65a3-7472-41ef-9780-d1a7ec965804
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Guid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

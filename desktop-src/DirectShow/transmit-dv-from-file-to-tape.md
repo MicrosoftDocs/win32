@@ -2,7 +2,6 @@
 Description: Transmit DV from File to Tape
 ms.assetid: f6dd8c4b-0535-42b9-a969-89e7b9e6ee0f
 title: Transmit DV from File to Tape
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

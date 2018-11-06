@@ -1,9 +1,6 @@
 ---
 title: GPC-Functionality-Version attribute
 description: The version of the Group Policy Editor that created this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6ea2cb35-ad62-47e1-bafe-591fe875a4c9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GPC-Functionality-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

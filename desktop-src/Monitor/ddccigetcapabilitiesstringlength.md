@@ -12,14 +12,13 @@ api_location:
 - gdi32.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # DDCCIGetCapabilitiesStringLength function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by the monitor configuration API to access functionality in the display driver. Applications should not call this function.
 
  

@@ -2,7 +2,6 @@
 Description: Server-Side Errors
 ms.assetid: ce8ddb52-237c-4d46-a088-9f592afadcd2
 title: Server-Side Errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

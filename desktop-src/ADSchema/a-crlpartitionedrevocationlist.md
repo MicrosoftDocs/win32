@@ -1,9 +1,6 @@
 ---
 title: CRL-Partitioned-Revocation-List attribute
 description: Public Key Infrastructure \ 8211;revocation lists.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ecee7ee6-21e7-4861-a7f5-5e8e3579978a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CRL-Partitioned-Revocation-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

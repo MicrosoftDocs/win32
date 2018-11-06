@@ -2,7 +2,6 @@
 title: Date and Time Picker Macros
 description: .
 ms.assetid: 732a20a6-305d-46ff-8e2e-d276b7cb061d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

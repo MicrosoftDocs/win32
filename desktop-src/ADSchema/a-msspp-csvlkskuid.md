@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-CSVLK-Sku-Id attribute
 description: SKU ID of CSVLK product-key used to create the Activation Object
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92d0acaa-1da4-4980-87c7-7c90e95bd9f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-CSVLK-Sku-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

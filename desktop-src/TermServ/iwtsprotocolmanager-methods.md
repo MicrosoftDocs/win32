@@ -1,12 +1,8 @@
 ---
 title: IWTSProtocolManager Methods
 description: The IWTSProtocolManager interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 70FD41D7-5C47-4D64-97B7-F85DC3FEC563
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

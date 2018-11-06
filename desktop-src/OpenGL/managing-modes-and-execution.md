@@ -4,7 +4,6 @@ description: Managing Modes and Execution
 ms.assetid: 6a1ecc42-194a-4d8f-94f6-fd59696d87cf
 keywords:
 - OpenGL,modes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

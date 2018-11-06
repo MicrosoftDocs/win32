@@ -1,9 +1,6 @@
 ---
 title: Mscope-Id attribute
 description: Indicates that there is a multicast scope on the specified DHCP server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 376e3699-d261-4278-a073-0cf2e5b8193b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Mscope-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

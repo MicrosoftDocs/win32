@@ -2,7 +2,6 @@
 Description: You can remove user accounts or groups from a role when the users or members of the groups should no longer be given access to the application resources to which the role is assigned.
 ms.assetid: d2cfa5cb-a143-41de-9aa2-7af7fce10ed7
 title: Moving a User Account or Group to a Different Role
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

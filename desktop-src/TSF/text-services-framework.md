@@ -2,7 +2,6 @@
 title: Text Services Framework
 description: Microsoft Windows Text Services Framework (TSF) is a system service available as a redistributable for Windows 2000.
 ms.assetid: 'ecc34b2e-89e8-48a8-8a8e-442d2145fe24'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 86e3f44d-192e-412a-abb1-118e8592d90b
 title: PageBlendColorSpace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

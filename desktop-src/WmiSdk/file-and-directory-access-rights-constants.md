@@ -1,12 +1,8 @@
 ---
 Description: WMI classes that represent files or directories, such as Win32\_CodecFile or CIM\_DataFile, contain an AccessMask property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9020b337-d44f-4247-b623-68a1bcf35abb
 ms.tgt_platform: multiple
 title: File and Directory Access Rights Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

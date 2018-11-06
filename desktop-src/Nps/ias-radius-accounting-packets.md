@@ -1,12 +1,8 @@
 ---
 title: Logging With Network Policy Server
 description: Logging With Network Policy Server
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 903d89bd-c223-4f29-9eaf-1dc28d27a32a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Authorization Plug-in Entry Points
 description: Authorization Plug-in Entry Points
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6cbfa79a-b57b-44b8-a421-d5e79c1b3757
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

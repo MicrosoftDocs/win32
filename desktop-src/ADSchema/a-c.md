@@ -1,9 +1,6 @@
 ---
 title: Country-Name attribute
 description: The country/region in the address of the user. The country/region is represented as a 2-character code based on ISO-3166.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7c12019-01ca-4011-8320-cd7a4de882e9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Country-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

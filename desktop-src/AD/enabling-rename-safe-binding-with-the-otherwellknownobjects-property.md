@@ -1,16 +1,12 @@
 ---
 title: Enabling Rename-Safe Binding with the otherWellKnownObjects Property
 description: Objects of the Container class have an otherWellKnownObjects attribute that you can use to associate a GUID with the distinguished name (DN) of a child object in the container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 54f7468b-03e5-46b9-8b43-e3571dccdceb
 ms.tgt_platform: multiple
 keywords:
 - otherWellKnownObjects property
 - otherWellKnownObjects property, using for rename-safe binding
 - Active Directory, using, binding, rename-safe binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

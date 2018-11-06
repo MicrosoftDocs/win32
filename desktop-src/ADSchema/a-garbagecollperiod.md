@@ -1,9 +1,6 @@
 ---
 title: Garbage-Coll-Period attribute
 description: This attribute is located on the CN Directory Service,CN Windows NT,CN Services,CN Configuration,... object. It represents the time, in hours, between DS garbage collection runs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 982a75f9-04b5-489e-99b3-a9fd3fb280c8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Garbage-Coll-Period
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

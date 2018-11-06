@@ -1,9 +1,6 @@
 ---
 title: Is-Single-Valued attribute
 description: If TRUE, this attribute can only store one value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 53dd8dfe-2123-4a61-a346-12abe340ea11
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Single-Valued
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

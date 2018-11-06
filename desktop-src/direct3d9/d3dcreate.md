@@ -2,7 +2,6 @@
 Description: A combination of one or more flags that control the device create behavior.
 ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

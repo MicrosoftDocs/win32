@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPluginNotifySink ScheduleTask method
 description: Called by the task agent to schedule a task.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06793439-cf16-40ca-8a91-08acc22c73ed
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_name:
 - IRDVTaskPluginNotifySink.ScheduleTask
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

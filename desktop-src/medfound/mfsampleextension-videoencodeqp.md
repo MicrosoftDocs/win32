@@ -2,7 +2,6 @@
 Description: Specifies the quantization parameter (QP) that was used to encode a video sample.
 ms.assetid: F7C4FEFC-FEE7-4614-BC90-4F9D5D878F49
 title: MFSampleExtension_VideoEncodeQP attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

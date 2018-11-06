@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings5 BitmapVirtualCache32BppSize property
 description: Sets or retrieves the virtual cache file size for 32 bits per pixel (bpp) bitmaps.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7084293a-ae75-4711-a8d8-f813117333e7
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

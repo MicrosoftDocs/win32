@@ -2,7 +2,6 @@
 title: Agent Control Methods
 description: Agent Control Methods
 ms.assetid: 55d2e414-742e-4769-a979-39df389fcabc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

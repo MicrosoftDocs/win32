@@ -2,7 +2,6 @@
 Description: Server-Side Requirements for Impersonation
 ms.assetid: f6128688-dfd8-40ff-83ec-99d740b9152c
 title: Server-Side Requirements for Impersonation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Whether the Device Association Endpoint can be paired with the system or not.
 ms.assetid: 2c7f9d86-509f-48c5-8cc6-0f3dd5d1fc12
 title: System.Devices.Aep.CanPair
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

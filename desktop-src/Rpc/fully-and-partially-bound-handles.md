@@ -2,7 +2,6 @@
 title: Fully and Partially Bound Handles
 description: When you use dynamic endpoints, the run-time libraries obtain endpoint information as they need it.
 ms.assetid: 13f2f783-2c10-4122-ba4d-a97b9c0378c1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

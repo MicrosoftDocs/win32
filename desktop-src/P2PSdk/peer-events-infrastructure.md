@@ -2,7 +2,6 @@
 Description: The Peer Infrastructure uses events to notify applications of changes that have occurred within a peer network, for example, a node that is added or removed from a graph.
 ms.assetid: a056da1c-b8f9-4dad-8df9-df24c6b359b7
 title: Peer Events Infrastructure
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

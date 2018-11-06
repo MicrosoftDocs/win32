@@ -2,7 +2,6 @@
 Description: Describes the format of an exported DSS version 3 private key.
 ms.assetid: 650532fd-919b-495a-9fb9-981790447d3d
 title: DSS Version 3 Private Key BLOBs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -54,7 +53,7 @@ The following table describes each component of the [*key BLOB*](https://msdn.mi
 
 When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), the developer can choose whether to encrypt the key. The key is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**BLOBHEADER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) portion of the BLOB is encrypted. Note that the encryption algorithm and encryption key parameters are not stored along with the [*private key BLOB*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). The application must manage and store this information. If zero is passed for *hExpKey*, the private key will be exported without encryption.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > It is dangerous to export private keys without encryption because they are then vulnerable to interception and use by unauthorized entities.
 
  

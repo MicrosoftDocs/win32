@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Attribute-Source attribute
 description: For a claim type object, this attribute points to the attribute that will be used as the source for the claim type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5431007f-75c4-4212-8198-baad3c272823
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Attribute-Source
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

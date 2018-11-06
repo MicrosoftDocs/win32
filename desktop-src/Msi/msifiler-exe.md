@@ -2,7 +2,6 @@
 Description: MsiFiler.exe populates the File table with file versions, languages, and sizes based upon a source directory. It can also update the MsiFileHash table with file hashes.
 ms.assetid: cc3db60b-0b1d-4582-8b40-0b55f83e00be
 title: Msifiler.exe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

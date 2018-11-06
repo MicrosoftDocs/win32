@@ -1,9 +1,6 @@
 ---
 title: meetingApplication attribute
 description: This attribute contains the name of the application that will be used for an online meeting, such as Microsoft NetMeeting, Windows Media Services, or Microsoft Exchange Conferencing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6dbcafe1-dda6-41d6-893d-2c92bfe119e0
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingApplication
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

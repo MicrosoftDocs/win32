@@ -2,7 +2,6 @@
 title: Effects
 description: An overview of Direct2D effects.
 ms.assetid: 1446BDA9-AD4C-472C-8F1D-82ABC1880E13
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

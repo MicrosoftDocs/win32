@@ -2,7 +2,6 @@
 Description: The ControlEvent table allows the author to specify the Control Events started when a user interacts with a PushButton Control, CheckBox Control, or SelectionTree Control.
 ms.assetid: e34d17e9-cd6b-4a21-9abc-9562ee648c59
 title: ControlEvent Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

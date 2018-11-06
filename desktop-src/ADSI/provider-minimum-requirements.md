@@ -1,12 +1,8 @@
 ---
 title: Provider Minimum Requirements
 description: To write an ADSI provider, implement the Active Directory Service Interfaces as described in the following sections.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c552aa9b-a34b-41a9-8a18-81da49b7aa5d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

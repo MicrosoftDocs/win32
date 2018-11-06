@@ -2,7 +2,6 @@
 Description: Gets the media keys object associated with the media engine or null if there is not a media keys object.
 ms.assetid: e6556a02-445d-4436-80de-e4156d6a3d63
 title: IMFMediaEngineEME::get_Keys method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RedirectDrives property
 description: Specifies if redirection of disk drives is allowed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ed4cd28-4a1f-4d3b-9f9d-bf44a8483209
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

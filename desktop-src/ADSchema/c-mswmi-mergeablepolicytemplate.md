@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-MergeablePolicyTemplate class
 description: Provides a policy template that can be merged with other templates.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 01bb16f5-4673-4b21-96f7-9f82c05c0110
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-MergeablePolicyTemplate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

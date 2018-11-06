@@ -15,7 +15,6 @@ keywords:
 - Metadata Editor,DRM attribute viewing
 - Metadata Editor,IWMDRMEditor interface
 - IWMDRMEditor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

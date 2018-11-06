@@ -1,9 +1,6 @@
 ---
 title: User-SMIME-Certificate attribute
 description: Certificate distribution object or tagged certificates.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 01d13c4f-a29a-40f2-bc39-bde3c68ae259
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-SMIME-Certificate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

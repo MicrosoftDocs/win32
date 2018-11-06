@@ -1,12 +1,8 @@
 ---
 Description: Provides restrictions for the use of 64-bit values as part of a path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63f4f6c5-7803-425d-912f-bb1dd716e617
 ms.tgt_platform: multiple
 title: Class Instance Support for 64-Bit Values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

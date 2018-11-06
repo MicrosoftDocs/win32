@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings PerformanceFlags property
 description: Specifies a set of features that can be set at the server to improve performance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dbbc7c13-ad8a-461d-9d2e-c454bf4b9dea
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Notifies an application when the conversion mode of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 62bb9717-cc41-4e34-af1a-ff41324bd3a9
 title: IMN_SETCONVERSIONMODE notification code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

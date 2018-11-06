@@ -1,9 +1,6 @@
 ---
 title: GPC-WQL-Filter attribute
 description: Used to store a string that contains a GUID for the filter and a WMI namespace path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea76239b-79e2-49b2-a848-a924450d332a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GPC-WQL-Filter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: The PutEx Method
 description: The IADs PutEx method uses the name of a property to save a property with single or multiple values into the property cache.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb9a0610-e955-424b-a2b9-da4986d0ba5f
 ms.tgt_platform: multiple
 keywords:
 - PutEx ADSI ,about
 - ADSI ADSI ,example code Visual Basic ,using the PutEx method
 - properties ADSI ,saving a single or multi-valued property to property cache
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

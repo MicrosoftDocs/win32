@@ -2,7 +2,6 @@
 title: Pau Tag
 description: Pau Tag
 ms.assetid: c3278320-1a19-4d96-8a3b-3aafa9dd211f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

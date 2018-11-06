@@ -2,7 +2,6 @@
 title: Visual Basic Method Notes accName
 description: The Object Description Language (ODL) file, Oleacc.odl, contains information that differs from the C/C++ implementation.
 ms.assetid: f7960acd-cb1a-4c34-a392-0243155a100f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

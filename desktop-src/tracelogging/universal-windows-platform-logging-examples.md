@@ -2,7 +2,6 @@
 title: Universal Windows Platform Logging Example
 description: This sample shows how to use the Logging APIs in the Windows.Foundation.Diagnostics namespace, including LoggingChannel, LoggingActivity, LoggingSession, and FileLoggingSession.
 ms.assetid: 23B4752F-43B5-41DE-B01D-9625CFEE2E1D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Setting Media Types on a DMO
 ms.assetid: 9ff1542d-6a67-414d-8336-aae80c74d5d0
 title: Setting Media Types on a DMO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

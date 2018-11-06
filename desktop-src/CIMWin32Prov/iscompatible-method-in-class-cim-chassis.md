@@ -1,14 +1,8 @@
 ---
 Description: Verifies whether the referenced physical chassis can be contained by, or inserted into, the physical package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9a1aa1b7-2b95-4887-9d14-e416ff69f9df
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Chassis class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **IsCompatible** method verifies whether the referenced physical chassis can be contained by, or inserted into, the physical package. In a subclass, the set of possible return codes can be specified by using a [**ValueMap**](https://msdn.microsoft.com/library/aa393650) qualifier on the method. The strings to which the **ValueMap** contents are translated can also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_PhysicalPackage**](cim-physicalpackage.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

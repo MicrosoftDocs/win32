@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Short-Name-Link-Path-v2 attribute
 description: Short Name DFS link path relative to the DFS root target share (that is, without the server/domain and DFS namespace name components). Use forward slashes (/) instead of backslashes (\), so that LDAP searches can be done without having to use escapes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0589d3f5-9734-4f95-bba9-22f13bb1c9f1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Short-Name-Link-Path-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

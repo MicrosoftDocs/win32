@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Value-Type class
 description: An value type object holds value type information for a resource property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c464d53b-f0dd-42fd-8a8a-a86a270d9f1f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Value-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

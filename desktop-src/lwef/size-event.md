@@ -2,7 +2,6 @@
 title: Size Event
 description: Size Event
 ms.assetid: 06089f84-8e75-475f-a492-536c83fa6730
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

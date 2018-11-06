@@ -2,7 +2,6 @@
 title: imm_atomic_or (sm5 - asm)
 description: Immediate atomic bitwise OR to memory. Returns the value in memory before the OR.
 ms.assetid: 0ACE977D-5D0E-4E9C-A49F-B81D789B0D43
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

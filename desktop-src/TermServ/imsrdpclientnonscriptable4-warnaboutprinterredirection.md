@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 WarnAboutPrinterRedirection property
 description: Controls whether the redirection dialog box displays a message about printer redirection before starting a session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 12c5bc8d-7bc1-4a94-a9b8-6b852772c936
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

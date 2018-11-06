@@ -1,7 +1,6 @@
 ---
 Description: When you provide a thumbnail, the following guidelines should be followed.
 title: Thumbnail Handler Guidelines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

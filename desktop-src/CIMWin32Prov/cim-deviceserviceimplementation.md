@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_DeviceServiceImplementation class represents an association between a service and how it is implemented.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5e2e3975-8338-4bf4-8c73-5be4b93fa2c8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_DeviceServiceImplementation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_DeviceServiceImplementation** class represents an association between a service and how it is implemented. When multiple devices are associated with one service, the elements operate in conjunction to provide the service. If different implementations of a service exist, each implementation results in individual instantiations of the service object.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

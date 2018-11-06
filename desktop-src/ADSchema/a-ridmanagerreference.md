@@ -1,9 +1,6 @@
 ---
 title: RID-Manager-Reference attribute
 description: The Distinguished Name for the RID Manager of an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff4b7e0b-da6d-4033-847b-30da58a4a004
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Manager-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

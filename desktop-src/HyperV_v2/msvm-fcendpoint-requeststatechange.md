@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 5734d1a3-5e6e-4b50-aa15-d6c47f4b2a81
 title: RequestStateChange method of the Msvm_FcEndpoint class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

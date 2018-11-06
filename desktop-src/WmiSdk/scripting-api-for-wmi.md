@@ -1,12 +1,8 @@
 ---
 Description: The WMI scripting reference contains definitions for the WMI Scripting API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83fc78fc-929d-4d32-940e-9147543a6324
 ms.tgt_platform: multiple
 title: Scripting API for WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

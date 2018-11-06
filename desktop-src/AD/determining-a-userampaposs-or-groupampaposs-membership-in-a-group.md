@@ -1,15 +1,11 @@
 ---
 title: Determining a User's or Group's Membership in a Group
 description: The IADsGroup.IsMember method can be used to determine if an object is a member of a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7168781-4ae4-4ce3-8d8a-2eefc7def62b
 ms.tgt_platform: multiple
 keywords:
 - Determining a User's or Group's Membership in a Group AD
 - groups AD , determining a user's or group's membership in a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Applications use a device's IWiaPropertyStorage interface to read and write device properties. IWiaPropertyStorage inherits all of the methods of the Component Object Model (COM) interface IPropertyStorage.
 ms.assetid: 65ca9e71-9a0f-495f-b78c-3b1a8d66ee33
 title: Reading Device Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

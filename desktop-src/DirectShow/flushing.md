@@ -2,7 +2,6 @@
 Description: Flushing
 ms.assetid: '868218c4-3e1a-4da0-89fa-30a9848da0e8'
 title: Flushing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

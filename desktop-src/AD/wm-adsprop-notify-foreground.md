@@ -1,9 +1,6 @@
 ---
 title: WM_ADSPROP_NOTIFY_FOREGROUND message
 description: The WM\_ADSPROP\_NOTIFY\_FOREGROUND message is used internally by the notification object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c984edd5-deca-490b-ac46-846a365d20c4
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

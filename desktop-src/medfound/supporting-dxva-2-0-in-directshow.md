@@ -2,7 +2,6 @@
 Description: This topic describes how to support DirectX Video Acceleration (DXVA) 2.0 in a DirectShow decoder filter.
 ms.assetid: 40deaddb-bb17-4a34-8294-5c7dc8a8a457
 title: Supporting DXVA 2.0 in DirectShow
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

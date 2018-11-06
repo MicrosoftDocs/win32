@@ -2,7 +2,6 @@
 Description: Clones a mesh using a flexible vertex format (FVF) code.
 ms.assetid: b7d23ea9-1a2f-46e3-bcb5-82040d2a1e12
 title: ID3DXBaseMesh::CloneMeshFVF method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

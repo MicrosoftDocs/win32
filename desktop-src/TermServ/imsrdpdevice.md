@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDevice interface
 description: Contains information about a device object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b486a591-870b-446c-8028-9e4406cdf0ce
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

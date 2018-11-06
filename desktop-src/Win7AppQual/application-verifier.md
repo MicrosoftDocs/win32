@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: Application Verifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

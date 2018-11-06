@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: a040a5cc-17eb-4a43-aeee-3e7ebbeac034
 title: System.Document.LastAuthor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

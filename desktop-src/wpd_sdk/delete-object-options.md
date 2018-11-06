@@ -2,7 +2,6 @@
 Description: The DELETE\_OBJECT\_OPTIONS enumeration type describes options that are supported by a device when deleting an object.
 ms.assetid: d0e46e77-d333-498f-b2f5-26be1461a116
 title: DELETE_OBJECT_OPTIONS enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The installer sets the ProductState property to the installation state for the product at initialization.
 ms.assetid: '833e9a15-10f8-4b1c-945f-bc02b506f627'
 title: ProductState property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

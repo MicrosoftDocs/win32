@@ -2,7 +2,6 @@
 title: Creating a New Computer Account
 description: The following code sample demonstrates how to create a new computer account using the NetUserAdd function.
 ms.assetid: 1e180b8e-b948-4836-b789-cb9dff0829e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

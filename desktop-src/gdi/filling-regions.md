@@ -2,7 +2,6 @@
 Description: An application fills the interior of a region by calling the FillRgn function and supplying a handle that identifies a specific brush.
 ms.assetid: 6174b2ea-836a-4538-a0ad-e123c88fc6f6
 title: Filling Regions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: ResourceLocator Methods
 description: The ResourceLocator object exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AC74C9C1-366B-43B8-878A-6BBDA6269672
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

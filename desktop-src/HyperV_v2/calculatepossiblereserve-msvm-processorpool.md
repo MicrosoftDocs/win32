@@ -2,7 +2,6 @@
 Description: This method is used to find the actual reserve with the input parameter being the number of virtual machine processors for which the reserve is calculated.
 ms.assetid: C0497900-00F3-4975-9D12-C82C13C03D8E
 title: CalculatePossibleReserve method of the Msvm_ProcessorPool class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

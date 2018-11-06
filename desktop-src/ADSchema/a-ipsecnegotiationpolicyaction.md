@@ -1,9 +1,6 @@
 ---
 title: IPSEC-Negotiation-Policy-Action attribute
 description: The IPSEC-Negotiation-Policy-Action attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4b345ac-f8b5-4741-af4e-891926557dee
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - IPSEC-Negotiation-Policy-Action
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

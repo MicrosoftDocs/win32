@@ -2,7 +2,6 @@
 Description: Indicates the sample size for the audio file in bits per sample.
 ms.assetid: abbfd194-e800-46c3-b961-1cf3f5d59c82
 title: System.Audio.SampleSize
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

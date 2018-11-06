@@ -2,7 +2,6 @@
 title: Routing Protocol Interface Functions
 description: Implement the following functions for a routing protocol DLL
 ms.assetid: fd780458-ef23-4ef2-8fe8-29b32100917f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

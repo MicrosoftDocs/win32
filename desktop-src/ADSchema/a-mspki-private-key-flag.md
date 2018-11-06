@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Private-Key-Flag attribute
 description: Contains the private key related flags.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5d5246b0-eca4-461e-956b-cdfa36576b14
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Private-Key-Flag
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

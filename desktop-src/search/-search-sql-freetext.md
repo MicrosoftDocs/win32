@@ -2,7 +2,6 @@
 Description: The FREETEXT predicate is part of the WHERE clause and supports searching for words and phrases in text columns.
 ms.assetid: 8afc95d1-25cd-4448-8bee-d132c2da22b3
 title: FREETEXT Predicate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

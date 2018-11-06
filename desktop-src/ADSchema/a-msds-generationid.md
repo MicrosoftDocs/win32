@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Generation-Id attribute
 description: For virtual machine snapshot resuming detection. This attribute represents the VM Generation ID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 48a454b7-b1dc-40d0-af10-d19c810f25a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Generation-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

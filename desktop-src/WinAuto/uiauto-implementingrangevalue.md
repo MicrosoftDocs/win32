@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation RangeValue
 - control patterns,RangeValue
 - interfaces,IRangeValueProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A server application provides services to clients.
 ms.assetid: 8301ed4f-9458-410b-af19-4f055656005a
 title: Client/Server Access Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

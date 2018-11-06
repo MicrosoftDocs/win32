@@ -6,7 +6,6 @@ keywords:
 - UI Automation,text units
 - text units,about
 - UI Automation,list of text units
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

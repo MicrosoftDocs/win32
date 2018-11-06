@@ -1,14 +1,10 @@
 ---
 title: Example Code for Implementation of the Property Sheet COM Object
 description: The following code example can be used to implement an Active Directory property sheet extension.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aeee870e-1a0e-437f-a724-0bbac30f5e34
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Implementation of the Property Sheet COM Object AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

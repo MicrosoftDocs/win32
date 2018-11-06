@@ -1,9 +1,6 @@
 ---
 title: Post-Office-Box attribute
 description: The post office box number for this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e782271a-2f79-42af-9c62-5723917a6f47
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Post-Office-Box
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

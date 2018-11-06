@@ -1,14 +1,10 @@
 ---
 title: Registering a Static Context Menu Item
 description: This topic describes registering a static context menu item displayed for Active Directory objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed945812-3adb-4058-bdb6-8d9d34468265
 ms.tgt_platform: multiple
 keywords:
 - Registering a Static Context Menu Item AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -46,7 +42,7 @@ The "<command>" is the program or file executed by the snap-in. Either the full 
 
 In the Windows shell, multiple-selection context menu items are supported. In this case, the "<command>" is invoked for each selected object. In Active Directory Domain Services' administrative snap-ins, multiple-selection static context menu items are not supported.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > For the Windows shell, display specifier data is retrieved at user logon and cached for the user's session. For the administrative snap-ins, the display specifier data is retrieved when the snap-in is loaded and is cached for the duration of the process. For the Windows shell, this means changes to display specifiers take effect after a user logs off and back on again. For the administrative snap-ins, changes take effect when the snap-in or console file is reloaded; that is, if you start a new instance of the console file or new Mmc.exe instance and add the snap-in, the latest display specifier data is retrieved.
 
  

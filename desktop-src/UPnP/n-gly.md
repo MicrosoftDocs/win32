@@ -3,7 +3,6 @@ title: N
 description: Contains UPnP-related terms that begin with the letter N.
 Robots: noindex, nofollow
 ms.assetid: 2caa12dd-dc15-4b98-84c2-fcc049dbd328
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

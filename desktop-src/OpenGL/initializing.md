@@ -5,7 +5,6 @@ ms.assetid: 80dc317a-1cf8-48af-a787-b910bdca4701
 keywords:
 - OpenGL Utility (GLU),initializing
 - GLU (OpenGL Utility),initializing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

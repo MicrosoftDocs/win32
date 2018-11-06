@@ -4,7 +4,6 @@ description: Use the bitmap source effect to generate an ID2D1Image from a IWICB
 ms.assetid: 86646111-208A-4E6D-A28C-7B23A1742D24
 keywords:
 - bitmap source effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

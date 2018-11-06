@@ -1,9 +1,6 @@
 ---
 title: MSAD_ReplCursor class
 description: Provides inbound replication state information about all replicas of a given naming context (NC).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5746cfe9-b113-4be3-b609-15cb937c271b
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

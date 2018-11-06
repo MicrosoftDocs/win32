@@ -2,7 +2,6 @@
 Description: Here is an example of a sequence table.
 ms.assetid: 25b3667a-1478-48c4-9c41-4defd25a0103
 title: Sequence Table Detailed Example
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

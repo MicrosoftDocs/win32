@@ -1,12 +1,8 @@
 ---
 Description: To create a WMI event consumer provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_EventConsumerProviderRegistration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d1aa035c-f9ee-46b5-9fa5-8af77156f904
 ms.tgt_platform: multiple
 title: Registering an Event Consumer Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

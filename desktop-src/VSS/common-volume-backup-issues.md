@@ -2,7 +2,6 @@
 Description: 'Any backup operation that attempts to copy a full and stable image of a system must deal with the following concerns:'
 ms.assetid: 8ccdba6d-1097-4c1c-982c-f3d9cbdf06cd
 title: Common Volume Backup Issues
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

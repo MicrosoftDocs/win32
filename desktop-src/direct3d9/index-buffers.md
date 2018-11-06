@@ -2,7 +2,6 @@
 Description: Index buffers, represented by the IDirect3DIndexBuffer9 interface, are memory buffers that contain index data.
 ms.assetid: baa60cd1-a1f0-4dbe-b934-aeb1a5c6b784
 title: Index Buffers (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

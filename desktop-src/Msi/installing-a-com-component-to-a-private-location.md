@@ -2,7 +2,6 @@
 Description: To force a COM-client application to always use the same copy of a COM-server, author the application's installation package to specify an isolated components relationship between the COM server and client.
 ms.assetid: 387c1c4d-16f5-4f46-b868-c2be7cb3f942
 title: Installing a COM Component to a Private Location
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This interface encapsulates patch mesh functionality.
 ms.assetid: c70c0fe0-b695-4ad9-b0c6-7854cf8f7593
 title: ID3DXPatchMesh interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

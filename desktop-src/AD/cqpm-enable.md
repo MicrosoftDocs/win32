@@ -1,9 +1,6 @@
 ---
 title: CQPM_ENABLE message
 description: Sent to the CQPageProc callback function of a query form extension page to enable or disable the page.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc75fab7-6de7-4138-86df-84d44e774120
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

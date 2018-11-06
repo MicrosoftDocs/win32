@@ -2,7 +2,6 @@
 title: IAgentCommandsEx InsertEx
 description: IAgentCommandsEx InsertEx
 ms.assetid: 037c47df-f026-42dc-8c37-2704518d3fd2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

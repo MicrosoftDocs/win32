@@ -2,7 +2,6 @@
 Description: The IsPalettised method determines whether the current display format is palettized.
 ms.assetid: 837c67a2-2438-4779-bdf7-31ee135532ff
 title: CImageDisplay.IsPalettised method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

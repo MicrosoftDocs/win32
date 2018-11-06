@@ -4,7 +4,6 @@ description: Maps an IID to a CLSID in 16-bit proxy DLLs.
 ms.assetid: 07e1e9de-e529-496c-b9f7-e7f799089f02
 keywords:
 - ProxyStubClsid registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

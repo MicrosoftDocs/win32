@@ -1,9 +1,6 @@
 ---
 title: IADsNamespaces Property Methods
 description: The IADsNamespaces interface property methods get and set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fe959741-429e-480a-8111-3ebadaf55f77
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

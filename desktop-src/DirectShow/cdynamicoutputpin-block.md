@@ -2,7 +2,6 @@
 Description: The Block method blocks or unblocks the flow of data from the pin. This method implements the IPinFlowControl::Block method.
 ms.assetid: 8281cd8c-7543-42b5-9a4a-11bdfcb659e3
 title: CDynamicOutputPin.Block method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

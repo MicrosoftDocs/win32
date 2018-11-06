@@ -1,14 +1,10 @@
 ---
 title: How to Specify Comparison Values
 description: Each attribute type has a syntax that determines the type of comparison values that you can specify in a search filter for that attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 72bd58e4-e1c3-40a5-9917-4910f40c52c5
 ms.tgt_platform: multiple
 keywords:
 - How to Specify Comparison Values AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

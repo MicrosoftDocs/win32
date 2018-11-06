@@ -2,7 +2,6 @@
 Description: The LINECALLCOMPLCOND\_ bit-flag constants describe the conditions under which a call can be completed.
 ms.assetid: 0d7b82e8-ce97-410a-a946-30055cd2d558
 title: LINECALLCOMPLCOND_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -5,7 +5,6 @@ ms.assetid: 8074f7d1-e8ab-46c3-acc2-a18be0eb4cc7
 keywords:
 - CAPDRIVERCAPS structure
 - capDriverGetCaps macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

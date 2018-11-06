@@ -2,7 +2,6 @@
 title: W3C Logging
 description: W3C extended logging is type of server side logging that can be enabled on the server session or URL group.
 ms.assetid: a08b8f9e-2247-43c6-b253-81f72001d8d2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

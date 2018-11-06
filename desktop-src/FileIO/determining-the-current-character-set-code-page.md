@@ -2,7 +2,6 @@
 Description: The AreFileApisANSI function determines whether the file I/O functions are using the ANSI or OEM character set code page.
 ms.assetid: 97ed3b08-ca5d-4ac2-bf1a-7eec40f9ffc2
 title: Determining the Current Character Set Code Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

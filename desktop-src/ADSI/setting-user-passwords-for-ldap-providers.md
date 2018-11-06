@@ -1,14 +1,10 @@
 ---
 title: Setting and Changing User Passwords with the LDAP Provider
 description: To a set a user password, use the IADsUser.SetPassword method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: da3d9861-dd04-406c-9356-db1e4ff0eebc
 ms.tgt_platform: multiple
 keywords:
 - LDAP provider ADSI ,user object,Setting passwords
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

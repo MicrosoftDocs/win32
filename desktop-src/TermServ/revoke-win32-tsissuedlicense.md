@@ -1,9 +1,6 @@
 ---
 title: Revoke method of the Win32_TSIssuedLicense class
 description: Revokes the Remote Desktop Services Per Device client access licenses (RDS \ 160;Per Device CALs) that are represented by the Win32\_TSIssuedLicense object. This is not a static function.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b1eb7448-5d8e-4c2d-ba52-9363e8e0297a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

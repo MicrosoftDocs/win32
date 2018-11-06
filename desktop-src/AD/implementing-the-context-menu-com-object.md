@@ -1,15 +1,11 @@
 ---
 title: Implementing the Context Menu COM Object
 description: A context menu extension is a COM object implemented as an in-proc server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 362dd8e5-1518-4bf4-ac53-115263cd6c62
 ms.tgt_platform: multiple
 keywords:
 - context menu COM object AD
 - context menu COM object AD ,implementing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

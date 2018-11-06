@@ -1,15 +1,11 @@
 ---
 title: Setting Permissions on Child Object Operations
 description: Permissions, such as Create Child and Delete Child, can also be granted or denied for operations on all subobjects or subobjects of a specific class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fe2f8939-7562-4c03-a7a9-3ac5fc3e81bb
 ms.tgt_platform: multiple
 keywords:
 - Setting Permissions on Child Object Operations AD
 - objects AD , child, setting permissions on child object operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

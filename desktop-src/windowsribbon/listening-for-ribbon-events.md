@@ -5,7 +5,6 @@ ms.assetid: F29A8E41-C902-410E-BD28-653E078320E9
 keywords:
 - Windows Ribbon,events
 - Ribbon,events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

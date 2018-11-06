@@ -1,9 +1,6 @@
 ---
 title: rpc-Server class
 description: Represents a particular server that holds one or more RPC interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 39ab92ac-285f-4696-a41d-1278c9b17b52
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

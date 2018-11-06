@@ -2,7 +2,6 @@
 Description: When you draw a line, you must pass the address of a Pen object to the DrawLine method of the Graphics class.
 ms.assetid: 4524908f-f9c2-4807-b045-eb9e43a6668b
 title: Drawing Opaque and Semitransparent Lines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

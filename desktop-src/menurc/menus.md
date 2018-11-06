@@ -5,7 +5,6 @@ ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\menus.htm'
 keywords:
 - resources,menus
 - menus,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

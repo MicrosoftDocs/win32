@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_USBControllerHasHub class defines the hubs that are downstream of the USB controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38bc0342-3ff0-42c8-9c1e-ea5a5822e1d3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_USBControllerHasHub class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -33,7 +27,7 @@ api_location:
 
 The **CIM\_USBControllerHasHub** class defines the hubs that are downstream of the USB controller.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

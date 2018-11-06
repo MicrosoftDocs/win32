@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_TimeZone&\#8194;WMI class represents the time zone information for a computer system running Windows, which includes the changes required for transitioning to daylight saving time transition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1c7731e-768f-42ea-a36c-57b00df6848e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_TimeZone class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

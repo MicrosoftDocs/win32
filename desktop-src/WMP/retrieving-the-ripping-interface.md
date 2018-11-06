@@ -13,7 +13,6 @@ keywords:
 - CD ripping,IWMPCdromRip interface
 - ripping CDs,IWMPCdromRip interface
 - IWMPCdromRip interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

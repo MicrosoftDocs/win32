@@ -2,7 +2,6 @@
 Description: The colorspace embedded in the image. Taken from the Exchangeable Image File (EXIF) information.
 ms.assetid: 2375e132-e400-419f-a0f9-cbb6f9acdf45
 title: System.Image.ColorSpace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

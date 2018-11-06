@@ -2,7 +2,6 @@
 Description: Provides COM-standard enumeration methods for the IPStore interface.
 ms.assetid: a90bc5cf-ca42-4007-a57b-be9c59d9552a
 title: IEnumPStoreTypes interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

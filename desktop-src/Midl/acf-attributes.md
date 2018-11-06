@@ -4,7 +4,6 @@ description: The ACF attributes navigation page contains a list of ACF attribute
 ms.assetid: 6e32ba07-7683-4039-8a61-aac7be90d06a
 keywords:
 - ACF MIDL , attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

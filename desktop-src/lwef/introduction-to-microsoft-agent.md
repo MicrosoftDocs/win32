@@ -4,7 +4,6 @@ description: Introduction to Microsoft Agent
 ms.assetid: a58338e6-e59a-49d1-b291-1b926a8d66cf
 keywords:
 - Microsoft Agent, introduction
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

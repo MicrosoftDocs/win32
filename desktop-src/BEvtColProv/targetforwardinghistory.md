@@ -1,14 +1,8 @@
 ---
 Description: The recent history of changes to the forwarding data for a target computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 621e2734-fc75-4e7a-9fae-de3d1b0272ae
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TargetForwardingHistory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

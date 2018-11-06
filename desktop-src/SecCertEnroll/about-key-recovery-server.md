@@ -2,7 +2,6 @@
 Description: A Microsoft certification authority (CA) can be configured to archive and recover the private key associated with the public key submitted in the certificate request.
 ms.assetid: c6535dbf-c3fe-4f70-9a70-02805253a651
 title: Key Recovery Server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

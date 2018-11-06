@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Keywords attribute
 description: Contains the user-defined keywords.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0721c939-3cbc-440f-a13e-f9919ce62471
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Keywords
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

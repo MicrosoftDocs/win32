@@ -2,7 +2,6 @@
 Description: Using SIO\_MULTICAST\_SCOPE command code to specify the scope over which the multicast should occur.
 ms.assetid: 3acec987-9cb4-446c-af6e-ea0e6a96e70c
 title: SIO_MULTICAST_SCOPE Ioctl
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

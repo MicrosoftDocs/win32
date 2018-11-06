@@ -1,7 +1,6 @@
 ---
 Description: A list of XSD qualified names.
 title: Types element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

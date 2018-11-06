@@ -5,7 +5,6 @@ ms.assetid: a84b2b52-45f4-406e-9b4b-6eb6e40b8692
 keywords:
 - Configuring the SNMP Service SNMP
 - SNMP Service SNMP , configuring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

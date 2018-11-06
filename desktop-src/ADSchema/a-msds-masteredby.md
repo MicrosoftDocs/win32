@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Mastered-By attribute
 description: Backward link for msDS-hasMasterNCs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b6e7aa5c-8648-46f0-9bbf-72e888745123
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Mastered-By
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

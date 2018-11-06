@@ -10,7 +10,6 @@ api_name:
 - D1107 Internal Error
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

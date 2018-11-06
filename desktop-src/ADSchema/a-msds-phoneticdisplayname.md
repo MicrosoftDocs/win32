@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Phonetic-Display-Name attribute
 description: The phonetic display name of an object. In the absence of a phonetic display name, the existing display name is used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d1dd7d20-c280-4533-9da9-a7b6ff224970
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Phonetic-Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

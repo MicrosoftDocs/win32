@@ -2,7 +2,6 @@
 Description: The put\_Filter method specifies a source filter for the media detector to use.
 ms.assetid: 59382cb0-c472-48b8-9cc5-52f9dbc61a07
 title: IMediaDet::put_Filter method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +25,7 @@ api_location:
 
 The `put_Filter` method specifies a source filter for the media detector to use.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not add the source filter to your own filter graph, or use a filter that is already in a filter graph. The media detector object automatically builds an internal filter graph, and putting the filter in another graph can cause unexpected results.
 
  

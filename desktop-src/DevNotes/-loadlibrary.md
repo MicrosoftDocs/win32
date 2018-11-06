@@ -2,7 +2,6 @@
 Description: Loads a library.
 ms.assetid: 191fcbd8-4542-4cad-955e-6951f3005fc5
 title: '_LoadLibrary function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnConnected method
 description: Called when the client control has connected to a remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7A5917F7-61E5-434B-B797-35110CCC73D3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

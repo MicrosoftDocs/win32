@@ -18,14 +18,13 @@ keywords:
 - Windows Media Device Manager,plug-ins
 - Device Manager,plug-insp
 - plug-ins,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Windows Media Device Manager 11 SDK
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The Windows Media Device Manager APIs are now included in the Windows SDK. No additional SDK downloads are required.
 
  

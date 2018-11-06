@@ -2,7 +2,6 @@
 title: Enumerating All Processes
 description: The following sample code uses the EnumProcesses function to enumerate the current processes in the system.
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

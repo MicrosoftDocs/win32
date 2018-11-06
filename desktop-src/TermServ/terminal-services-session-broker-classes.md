@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Connection Broker classes
 description: The Remote Desktop Connection Broker (RD Connection Broker) WMI provider provides the following classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cabec269-b8e5-406e-a608-5f3313c4e874
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

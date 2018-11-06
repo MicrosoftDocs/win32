@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 101 through 110.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: baa64233-eb19-4f52-836b-5bdf4a23ae4f
 ms.tgt_platform: multiple
 title: Errors 101 through 110
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

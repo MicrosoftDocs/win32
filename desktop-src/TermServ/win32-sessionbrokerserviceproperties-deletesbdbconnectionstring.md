@@ -1,9 +1,6 @@
 ---
 title: DeleteSBDbConnectionString method of the Win32_SessionBrokerServiceProperties class
 description: Deletes DB connection strings (primary or secondary) from the registry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 275dd790-bdc7-46d1-a07d-54ec6fa33e44
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

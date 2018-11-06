@@ -2,7 +2,6 @@
 title: SimpleRibbon Sample
 description: This code sample demonstrates how to implement a simple Windows Ribbon application.
 ms.assetid: 9196ae63-ca9e-43ae-8b4c-a30f1ef700f0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

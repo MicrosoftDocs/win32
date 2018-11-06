@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Memory attribute
 description: The amount of memory on the computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 36d69b8a-669b-4488-a75e-3b0af7f9845a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Memory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

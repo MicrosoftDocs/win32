@@ -1,14 +1,8 @@
 ---
 Description: Modifies a Win32\_Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b32753c5-8fcf-44ee-a95f-e4f6076e0f28
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Change method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

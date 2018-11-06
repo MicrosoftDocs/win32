@@ -1,9 +1,6 @@
 ---
 title: String(Teletex) syntax
 description: A case insensitive string that contains characters from the teletex character set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f3217d22-147b-4d96-9169-14c2cc9573eb
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Teletex)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

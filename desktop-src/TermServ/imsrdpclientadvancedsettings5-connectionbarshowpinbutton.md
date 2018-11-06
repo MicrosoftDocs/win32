@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings5 ConnectionBarShowPinButton property
 description: Sets or retrieves the configuration for the pin button in the connection bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fbb2c19b-88a7-435b-86ef-4856e194b383
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

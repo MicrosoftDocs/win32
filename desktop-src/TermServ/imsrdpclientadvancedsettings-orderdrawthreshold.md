@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings orderDrawThreshold property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0a295e3d-6425-4ab8-907a-196d7b4999d4
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

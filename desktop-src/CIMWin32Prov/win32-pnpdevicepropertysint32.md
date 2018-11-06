@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type Sint32.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ADD2AB86-C31C-4DD0-81C3-2B47B0DF7E1C
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint32 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

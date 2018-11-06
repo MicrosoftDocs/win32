@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_VideoConfiguration class is not active. It will not return any instances as there is no provider backing it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8dd15e8a-ff9b-4e75-bae9-8c80548301ab
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_VideoConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

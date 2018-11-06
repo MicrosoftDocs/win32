@@ -1,9 +1,6 @@
 ---
 title: Extended-Class-Info attribute
 description: A multi-valued property that contains strings that represent additional information for each class. Each value contains the governsID, lDAPDisplayName, and schemaIDGUID of the class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f0f07950-28f8-4fe7-b030-1ab7632569e1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Extended-Class-Info
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

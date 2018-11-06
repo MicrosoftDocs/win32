@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient7 TransportSettings3 property
 description: Retrieves an object that supports the IMsRdpClientTransportSettings3 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d11f0943-241e-44cd-a98c-595916ab0718
 ms.tgt_platform: multiple
 keywords:
@@ -31,7 +28,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

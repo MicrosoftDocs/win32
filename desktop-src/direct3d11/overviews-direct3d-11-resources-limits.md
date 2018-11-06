@@ -2,7 +2,6 @@
 title: Resource Limits (Direct3D 11)
 description: This topic contains a list of resources that Direct3D 11 supports (specifically feature level 11 or 9.x hardware).
 ms.assetid: 80ae49f2-4a6d-4cfc-95d6-510685ab9736
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

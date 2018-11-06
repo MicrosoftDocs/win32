@@ -2,7 +2,6 @@
 Description: The ICspStatus interface exposes the following properties.
 ms.assetid: F62997D5-0008-4884-9F86-3B0D0C19BF57
 title: ICspStatus Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

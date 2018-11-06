@@ -2,7 +2,6 @@
 title: gather4 (sm5 - asm)
 description: Gathers the four texels that would be used in a bi-linear filtering operation and packs them into a single register.
 ms.assetid: 5F93BB70-7696-48E4-BCD3-91D5D42FF63E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

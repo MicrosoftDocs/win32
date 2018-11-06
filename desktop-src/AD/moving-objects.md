@@ -1,14 +1,10 @@
 ---
 title: Moving Objects
 description: Moving Objects
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3afdf480-a7ee-4b7b-99f6-4a8e8cb2096c
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , moving objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

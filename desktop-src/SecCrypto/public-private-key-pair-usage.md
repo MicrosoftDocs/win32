@@ -2,7 +2,6 @@
 Description: All normal RSA/Schannel and Diffie-Hellman/Schannel operations use the AT\_KEYEXCHANGE public/private key pair.
 ms.assetid: e12afdbb-7ba8-444e-a43f-e262b481a353
 title: Public/Private Key Pair Usage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Porting to OpenGL
 description: Porting to OpenGL
 ms.assetid: 6799e10b-2f7c-4516-92ea-43667784f8e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

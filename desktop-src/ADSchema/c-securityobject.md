@@ -1,9 +1,6 @@
 ---
 title: Security-Object class
 description: This is an auxiliary class that is used to identify security principals.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 00527466-5d6e-40d7-9197-263b95fb8bde
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Security-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

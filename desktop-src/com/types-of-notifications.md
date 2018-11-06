@@ -2,7 +2,6 @@
 title: Types of Notifications
 description: Types of Notifications
 ms.assetid: 1e7f44ea-f4ac-457e-96a3-94036508d7b7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

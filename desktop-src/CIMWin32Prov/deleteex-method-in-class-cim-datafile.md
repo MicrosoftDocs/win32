@@ -1,14 +1,8 @@
 ---
 Description: The DeleteEx method deletes the logical file (or directory) that is specified in the object path. This method is an extended version of the Delete method and is inherited from CIM\_LogicalFile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 565d604f-01e0-4cd4-b182-9750c58bae5f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: DeleteEx method of the CIM_DataFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **DeleteEx** method deletes the logical file (or directory) that is specified in the object path. This method is an extended version of the [**Delete**](delete-method-in-class-cim-datafile.md) method and is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

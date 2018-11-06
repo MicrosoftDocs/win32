@@ -2,7 +2,6 @@
 title: Understanding Extended Error Information
 description: Extended error information is an array of records, each indicating the passing of the error code through a particular layer in the system or application.
 ms.assetid: 1b112e49-bdb2-4014-b86d-3c6d8ebe4fcd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

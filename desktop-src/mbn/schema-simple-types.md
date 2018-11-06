@@ -2,7 +2,6 @@
 Description: The Mobile Broadband Profile Schema v1 defines the following simple types. All of these types are in the namespace http://www.microsoft.com/networking/WWAN/profile/v1.
 ms.assetid: 327fa1a0-26e3-45e1-b5d7-77a1ead3e6de
 title: Mobile Broadband Profile Schema v1 Simple Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

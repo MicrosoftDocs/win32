@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_StorageDefect aggregation collects the storage errors for a storage extent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7acd3d25-4691-43cb-badc-662684989345
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_StorageDefect class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_StorageDefect** aggregation collects the storage errors for a storage extent.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

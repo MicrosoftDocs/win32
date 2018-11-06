@@ -2,7 +2,6 @@
 Description: The ICertAdmin2 interface exposes the following methods.
 ms.assetid: F6E0D863-5A78-48D5-8AED-DAEF80101B7E
 title: ICertAdmin2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

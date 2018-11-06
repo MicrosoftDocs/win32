@@ -2,7 +2,6 @@
 title: COM Server Responsibilities
 description: COM Server Responsibilities
 ms.assetid: 9853bbf5-b989-45b7-8fa8-8cd2f0d48d3c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

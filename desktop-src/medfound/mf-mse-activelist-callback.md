@@ -2,7 +2,6 @@
 Description: Contains a pointer to the applications callback interface for the IMFBufferListNotify interface for the active buffer list.
 ms.assetid: 703A7BF0-A89F-40E9-9440-B8C8E03FDE1A
 title: MF_MSE_ACTIVELIST_CALLBACK attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

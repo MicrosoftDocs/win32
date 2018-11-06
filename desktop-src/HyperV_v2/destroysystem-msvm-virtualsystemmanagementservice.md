@@ -2,7 +2,6 @@
 Description: Removes the previously defined virtual machine from the management scope of the host system.
 ms.assetid: 16E6EEB0-CB29-4FFC-AEFF-872E099337FA
 title: DestroySystem method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -100,7 +99,7 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 The following C# sample uses the **DestroySystem** method to remove a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](http://go.microsoft.com/fwlink/p/?LinkID=268728). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
  

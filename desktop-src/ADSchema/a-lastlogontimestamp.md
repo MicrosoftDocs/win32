@@ -1,9 +1,6 @@
 ---
 title: Last-Logon-Timestamp attribute
 description: This is the time that the user last logged into the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6c94bccb-1e0a-421c-a00c-5f6e6389690f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Logon-Timestamp
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

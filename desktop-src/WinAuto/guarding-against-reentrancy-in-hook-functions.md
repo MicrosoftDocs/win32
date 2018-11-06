@@ -2,7 +2,6 @@
 title: Guarding Against Reentrancy in Hook Functions
 description: While a hook function processes an event, additional events may be triggered, which may cause the hook function to reenter before the processing for the original event is finished.
 ms.assetid: 2382e7a4-82df-423a-8479-66e28baf8105
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

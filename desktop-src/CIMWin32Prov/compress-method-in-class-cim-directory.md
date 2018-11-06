@@ -1,14 +1,8 @@
 ---
 Description: Compresses the logical directory entry file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 40aac2f8-4ff6-4e21-9395-5d3d40b39b00
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Compress method of the CIM_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Compress** method compresses the logical directory entry file (or directory) specified in the object path. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 title: Registering a Class at Installation
 description: If a class is intended to be available to clients at any time, as most applications are, you usually register it through an installation and setup program.
 ms.assetid: 6d78c2ce-56d8-4866-9801-35125ec9cac4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

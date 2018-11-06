@@ -2,7 +2,6 @@
 title: Handling Server Application Errors
 description: If the server application successfully processes the uploaded file, the application should return 200.
 ms.assetid: fd0b10f1-52b4-4564-9683-620f3b965680
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

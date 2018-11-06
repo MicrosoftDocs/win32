@@ -2,7 +2,6 @@
 Description: The CreateRecord method of the Installer object returns a new Record object with the requested number of fields.
 ms.assetid: 7f9adb28-87da-48dd-ab5c-e138b356b133
 title: Installer.CreateRecord method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

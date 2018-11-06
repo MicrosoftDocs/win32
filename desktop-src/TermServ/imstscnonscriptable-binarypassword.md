@@ -1,9 +1,6 @@
 ---
 title: IMsTscNonScriptable BinaryPassword property
 description: This property is no longer available for use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b3be7323-a75f-4ec2-9d58-e8ff3338d6ff
 ms.tgt_platform: multiple
 keywords:
@@ -48,7 +45,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Settings class
 description: The purpose of these objects is to enable fast query of MSMQ servers in a specific site. This object holds information such as Message Queuing services the server provides.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7a047b5a-c912-4882-852a-ed02b0a85596
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

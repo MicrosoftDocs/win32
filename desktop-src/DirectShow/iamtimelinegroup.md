@@ -2,7 +2,6 @@
 Description: The IAMTimelineGroup interface sets and retrieves properties on groups in DirectShow Editing Services (DES).A group contains one or more tracks, and possibly one or more compositions, which in turn contain source clips of a uniform type, such as video or audio. Groups are the topmost compositions in a timeline, and also expose the IAMTimelineComp interface. A timeline can contain multiple groups.Each group has the following attributes.An associated media type.The frame rate at which the group renders, in frames per second (FPS). All edits occur at a time rounded to the nearest frame boundary, as defined by the group's FPS setting.A priority level, for writing files with multiple streams of the same media type (for example, a two-video-stream AVI file).To create a group object, call IAMTimeline::CreateEmptyNode with the value TIMELINE\_MAJOR\_TYPE\_GROUP. You can query the returned IAMTimelineObj pointer for the IAMTimelineGroup interface.
 ms.assetid: c24e5e0a-43a5-4ba7-ac28-6e2ebb341a38
 title: IAMTimelineGroup interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

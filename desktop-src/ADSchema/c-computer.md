@@ -1,9 +1,6 @@
 ---
 title: Computer class
 description: This class represents a computer account in the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22d6c77f-df36-46c1-9a00-f1463c5ed548
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Computer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

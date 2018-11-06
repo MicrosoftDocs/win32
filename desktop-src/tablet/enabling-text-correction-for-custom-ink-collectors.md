@@ -2,7 +2,6 @@
 Description: Microsoft Tablet PC Input Panel is a powerful tool for entering handwritten text with a pen and correcting text without the use of a keyboard.
 ms.assetid: c45ac1b5-7713-4bcb-a130-4692cff99aa2
 title: Enabling Text Correction for Custom Ink Collectors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IAzApplication interface exposes the following properties.
 ms.assetid: 36282F91-6C14-4943-967B-046DD0FD94DC
 title: IAzApplication Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

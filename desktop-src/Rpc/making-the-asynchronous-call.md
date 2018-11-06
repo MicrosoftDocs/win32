@@ -4,7 +4,6 @@ description: Before it can make an asynchronous remote call, the client must ini
 ms.assetid: b40308ef-88ae-4c80-9118-29c5ffee77ad
 keywords:
 - Remote Procedure Call RPC , tasks, making asynchronous calls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

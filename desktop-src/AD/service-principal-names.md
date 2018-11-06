@@ -1,9 +1,6 @@
 ---
 title: Service Principal Names
 description: A service principal name (SPN) is a unique identifier of a service instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 54b02853-4097-4e37-b7a2-6b5cfd168ece
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - SPN see service principal names
 - service principal name AD
 - service principal name AD , about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Control Methods
 description: Control Methods
 ms.assetid: e35cb39a-3bdc-4359-a289-c808d31748e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

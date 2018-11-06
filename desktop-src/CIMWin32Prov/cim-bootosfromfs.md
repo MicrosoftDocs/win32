@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_BootOSFromFS class associates the operating system and the file systems from which the operating system is loaded.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c5697e9c-9031-4787-a03d-cf713c961cdf
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_BootOSFromFS class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_BootOSFromFS** class associates the operating system and the file systems from which the operating system is loaded. The association is many-to-many; a distributed operating system can depend on several file systems to load correctly and completely.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

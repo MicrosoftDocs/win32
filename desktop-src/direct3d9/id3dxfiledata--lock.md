@@ -2,7 +2,6 @@
 Description: Accesses the .x file data.
 ms.assetid: 0e92914b-47b3-4a88-87ba-ce3c14282dbb
 title: ID3DXFileData::Lock method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

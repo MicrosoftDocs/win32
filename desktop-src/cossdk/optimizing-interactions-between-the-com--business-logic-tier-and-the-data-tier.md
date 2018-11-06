@@ -2,7 +2,6 @@
 Description: The data tier often contains mostly static information&\#8212;information persisted on durable media.
 ms.assetid: d2bce8b6-1f88-4e4a-bb08-fc7ee4c039da
 title: Optimizing Interactions Between the COM+ Business Logic Tier and the Data Tier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

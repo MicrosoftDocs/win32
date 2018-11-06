@@ -2,7 +2,6 @@
 title: VML ArrowOK Attribute
 description: VML ArrowOK Attribute
 ms.assetid: 19b23544-4a72-4273-b48a-6aee39addcf6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

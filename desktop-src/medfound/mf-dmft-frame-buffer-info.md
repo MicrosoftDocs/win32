@@ -2,7 +2,6 @@
 Description: Contains information about system-allocated frame buffers sent to the device driver.
 ms.assetid: 78485F2A-A512-4FAC-8845-D2B7D7D8DCDE
 title: MF_DMFT_FRAME_BUFFER_INFO attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

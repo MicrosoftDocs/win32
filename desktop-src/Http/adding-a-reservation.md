@@ -2,7 +2,6 @@
 title: Adding a Reservation
 description: The routing database contains the reservation list.
 ms.assetid: c36e731c-6a0b-42a8-bc92-106a8e017b0d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

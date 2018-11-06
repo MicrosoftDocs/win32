@@ -1,9 +1,6 @@
 ---
 title: RemoteDesktopClient class
 description: Implements the Microsoft Windows Store App Remote Desktop Client Control - version 1.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0910883A-BD49-4908-8423-1FC280E0FE0C
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

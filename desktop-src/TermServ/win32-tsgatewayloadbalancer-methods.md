@@ -1,12 +1,8 @@
 ---
 title: Win32_TSGatewayLoadBalancer Methods
 description: The Win32\_TSGatewayLoadBalancer class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 869AA5ED-4C93-45B9-BD57-FE4B98A9BD87
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

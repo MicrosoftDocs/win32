@@ -2,7 +2,6 @@
 Description: Returns the unique identifier of the monitor associated with this video output.
 ms.assetid: d34d68ff-c513-483e-8619-4a9baa2a40ba
 title: OPM_GET_OUTPUT_ID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

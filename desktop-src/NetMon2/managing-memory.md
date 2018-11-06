@@ -2,7 +2,6 @@
 Description: Should an expert fail during run time, if you use Network Monitor functions for memory management, Network Monitor will free allocated memory.
 ms.assetid: b6f5749b-161e-47a7-82cf-d85ad3703ecd
 title: Managing Memory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How to Clip to a Geometric Mask
 description: Shows how to clip a region with layers.
 ms.assetid: eaeb6cfd-de62-46f1-972d-a11e0ccc11d9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

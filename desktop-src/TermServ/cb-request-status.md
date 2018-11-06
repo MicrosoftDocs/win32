@@ -1,9 +1,6 @@
 ---
 title: CB_REQUEST_STATUS enumeration
 description: Specifies the status of an asynchronous request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 35FAC8EA-BA17-405F-AE10-33A816029F62
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

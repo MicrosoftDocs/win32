@@ -2,7 +2,6 @@
 Description: Returns a BasicConstraints object that represents the basic constraints extension of the certificate.
 ms.assetid: cc4e566a-5f68-4e28-9397-39f22a71e45b
 title: ICertificate2::BasicConstraints method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SessionResource association represents the relationship between a session and the resources that the session provides access to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 39c195cf-e70b-4e93-b46b-61ed4f08f57e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SessionResource class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

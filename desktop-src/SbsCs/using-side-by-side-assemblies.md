@@ -2,7 +2,6 @@
 Description: Use the following procedure to develop a new application, or update an existing application, to use the side-by-side assemblies available from Microsoft or other side-by-side assembly publishers.
 ms.assetid: da6b6767-8a30-4a76-a030-615067a2cb17
 title: Using Side-by-side Assemblies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

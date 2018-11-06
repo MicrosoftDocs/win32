@@ -1,14 +1,10 @@
 ---
 title: Reading a Control Access Right Set in an Object's ACL
 description: The properties of the IADsAccessControlEntry interface is used to grant or deny control access rights.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2c6fef91-990e-4954-9aff-c9ec72d13972
 ms.tgt_platform: multiple
 keywords:
 - Reading a Control Access Right Set in an Object's ACL Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

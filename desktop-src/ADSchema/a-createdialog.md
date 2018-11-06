@@ -1,9 +1,6 @@
 ---
 title: Create-Dialog attribute
 description: GUID of dialog box for creating associated object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a5fb344-2fc9-46c7-aa0a-3fc6d67941fb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Create-Dialog
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Priority attribute
 description: The priority of a given RPC profile entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4904b21-53b7-48e3-814a-948427984fcd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

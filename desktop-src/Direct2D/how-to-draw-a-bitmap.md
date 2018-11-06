@@ -2,7 +2,6 @@
 title: How to Draw a Bitmap
 description: Shows how to render bitmaps with Direct2D.
 ms.assetid: 9c6fc8b1-47ba-46fa-b812-2636cd8ff2b4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

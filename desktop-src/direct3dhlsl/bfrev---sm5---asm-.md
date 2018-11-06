@@ -2,7 +2,6 @@
 title: bfrev (sm5 - asm)
 description: Reverse a 32-bit number.
 ms.assetid: 24F8209A-093E-4737-BF50-12F228024E9D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

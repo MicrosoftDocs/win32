@@ -2,7 +2,6 @@
 title: Localization Support for Common Controls
 description: This topic describes the support for national languages that is built into the common controls.
 ms.assetid: c5720198-9071-4213-8dad-50b4c015c5f0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

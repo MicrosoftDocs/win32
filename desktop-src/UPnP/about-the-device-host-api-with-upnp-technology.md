@@ -2,7 +2,6 @@
 title: About the Device Host API
 description: The Device Host API with UPnP technology is a framework for implementing UPnP-based device functionality on the Windows platform.
 ms.assetid: fa716c59-d3f0-4cd4-b92d-939b258b0102
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

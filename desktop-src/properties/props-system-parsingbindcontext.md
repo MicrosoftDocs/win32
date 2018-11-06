@@ -2,7 +2,6 @@
 Description: Used to get the IBindCtx for an item to be parsed.
 ms.assetid: f896a441-dd25-498b-b199-a2be9584381b
 title: System.ParsingBindContext
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

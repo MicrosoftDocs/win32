@@ -2,7 +2,6 @@
 Description: The GetProps method retrieves the properties set on this object, with their corresponding values.
 ms.assetid: 2a2ac262-f5a4-4bbe-9cd2-aa7c7d359917
 title: IPropertySetter::GetProps method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

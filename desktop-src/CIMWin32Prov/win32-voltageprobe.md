@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_VoltageProbe WMI class represents the properties of a voltage sensor (electronic voltmeter).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ca27c1df-fb38-412d-b77c-d9ccf7941c66
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_VoltageProbe class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

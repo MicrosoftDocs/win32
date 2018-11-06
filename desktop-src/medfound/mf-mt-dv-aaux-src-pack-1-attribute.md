@@ -2,7 +2,6 @@
 Description: Audio auxiliary (AAUX) source pack for the second audio block in a digital video (DV) media type.
 ms.assetid: c9d350bd-bf49-4c2c-a12f-3b5b475ac103
 title: MF_MT_DV_AAUX_SRC_PACK_1 attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

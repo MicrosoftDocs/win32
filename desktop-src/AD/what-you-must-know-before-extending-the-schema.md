@@ -1,12 +1,8 @@
 ---
 title: What You Must Know Before Extending the Schema
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 31e24480-2d0c-4f56-9af8-24978b7d8d99
 ms.tgt_platform: multiple
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

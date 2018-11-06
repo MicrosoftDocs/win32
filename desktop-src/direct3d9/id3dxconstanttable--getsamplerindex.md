@@ -2,7 +2,6 @@
 Description: Returns the sampler index.
 ms.assetid: 'vs|directx_sdk|~\id3dxconstanttable__getsamplerindex.htm'
 title: ID3DXConstantTable::GetSamplerIndex method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

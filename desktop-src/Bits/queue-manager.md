@@ -2,7 +2,6 @@
 title: Queue Manager
 description: The Queue Manager (QMGR) reference section contains information about the following API elements.
 ms.assetid: 53c4c7f3-09a3-470f-b758-34b6008b94a9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

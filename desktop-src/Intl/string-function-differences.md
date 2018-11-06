@@ -2,7 +2,6 @@
 Description: This topic describes differences among string functions used in handling Unicode and character set information. These functions have both Unicode and Windows code page implementations to support Unicode and Windows code page parameters.
 ms.assetid: 52a15957-b44b-49ba-b915-e5c8e003a7e6
 title: String Function Differences
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

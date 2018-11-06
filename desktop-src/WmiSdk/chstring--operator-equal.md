@@ -1,12 +1,8 @@
 ---
 Description: The CHString assignment (=) operator reinitializes an existing CHString object with new data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6864aacf-ac18-4b5a-be3e-3a0d8bb31e74
 ms.tgt_platform: multiple
 title: CHString::operator=
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

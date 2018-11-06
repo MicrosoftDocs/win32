@@ -2,7 +2,6 @@
 title: RpcSs Memory Management Package
 description: The default allocator/deallocator pair used by the stubs and run time when allocating memory on behalf of the application is midl\_user\_allocate/midl\_user\_free.
 ms.assetid: 9477e677-59cb-45d5-b485-ab0171ac17ba
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

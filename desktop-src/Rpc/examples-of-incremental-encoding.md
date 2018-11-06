@@ -4,7 +4,6 @@ description: The following section provides an example of how to use the increme
 ms.assetid: c50c0de3-aabb-4166-93dc-67b0fee66635
 keywords:
 - Remote Procedure Call RPC , tasks, using incremental encoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

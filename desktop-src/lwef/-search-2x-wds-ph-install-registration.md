@@ -2,7 +2,6 @@
 title: Installing and Registering Protocol Handlers
 description: Installing protocol handlers involves copying the DLL(s) to an appropriate location in the Program Files directory and registering them.
 ms.assetid: 3da32de1-2dc4-46d3-80d0-cc45a36f12f9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

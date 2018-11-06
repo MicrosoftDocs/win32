@@ -2,7 +2,6 @@
 Description: SFVM\_QUERYFSNOTIFY may be altered or unavailable.
 ms.assetid: 5d777115-bae3-47c4-9edc-c99c40a4f926
 title: SFVM_QUERYFSNOTIFY message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

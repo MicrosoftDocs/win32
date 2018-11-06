@@ -2,7 +2,6 @@
 Description: Using DMOs
 ms.assetid: 1b82d64d-5f20-4286-815a-f868427b11ce
 title: Using DMOs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

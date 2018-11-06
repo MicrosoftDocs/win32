@@ -2,7 +2,6 @@
 Description: Flag that indicates whether the quality has changed.
 ms.assetid: 9084ab1d-b6a0-4e87-a653-86e64c74b07f
 title: CTransformFilter::m_bQualityChanged member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

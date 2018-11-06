@@ -1,9 +1,6 @@
 ---
 title: Delete method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Deletes the current Remote Desktop connection authorization policy (RD \ 160;CAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aef7216a-4459-492b-95cb-87ea760dcde9
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

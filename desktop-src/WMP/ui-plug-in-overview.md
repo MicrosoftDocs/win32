@@ -11,7 +11,6 @@ keywords:
 - UI plug-ins,about
 - user interface plug-ins,types
 - UI plug-ins,types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

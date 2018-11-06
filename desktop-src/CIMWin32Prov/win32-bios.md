@@ -1,14 +1,8 @@
 ---
 Description: Represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e4a5aaf0-0432-4517-97b7-ac05ffd10b5b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_BIOS class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

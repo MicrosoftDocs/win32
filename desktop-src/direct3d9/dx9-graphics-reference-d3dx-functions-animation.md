@@ -2,7 +2,6 @@
 Description: D3DX supplies the following animation functions.
 ms.assetid: c4a9cffe-1be2-4c6a-910d-ebae9632dd33
 title: Animation Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

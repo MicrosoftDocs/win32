@@ -2,7 +2,6 @@
 Description: An Automatic Call Distribution (ACD) server is a combination of hardware and software that classifies, queues, and distributes incoming calls to agents or outgoing calls to lines.
 ms.assetid: 29fb0bd7-0ca9-4490-82d2-39550f00a97b
 title: ACD Proxy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

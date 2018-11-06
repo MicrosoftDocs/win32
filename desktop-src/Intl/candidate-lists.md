@@ -2,7 +2,6 @@
 Description: A candidate list is represented by a CANDIDATELIST structure containing an array of strings specifying the characters or character strings from which the user can choose.
 ms.assetid: 7e83e3ee-8a60-4fdd-930b-81f33af8f5bf
 title: Candidate Lists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The CHPtrArray class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 14151444-29D4-45CF-92F2-159AD6AB9E98
 ms.tgt_platform: multiple
 title: CHPtrArray Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

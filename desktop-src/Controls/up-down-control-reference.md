@@ -2,7 +2,6 @@
 title: Up-Down Control
 description: This section contains information about the programming elements used with up-down controls.
 ms.assetid: 48c6b4bd-65b4-4388-959e-efffa7658274
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

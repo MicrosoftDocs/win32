@@ -1,7 +1,6 @@
 ---
 Description: The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane.
 title: Creating Custom Explorer Bars, Tool Bands, and Desk Bands
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

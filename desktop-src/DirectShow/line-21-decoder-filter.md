@@ -2,7 +2,6 @@
 Description: Line 21 Decoder Filter
 ms.assetid: 48fa5484-1f8c-4133-b2e1-888cb1834402
 title: Line 21 Decoder Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

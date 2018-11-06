@@ -1,15 +1,11 @@
 ---
 title: How Applications Should Use Display Specifiers
 description: To display Active Directory Domain Service objects, use display specifiers to obtain localized display data for class and attribute objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2ba62906-47ae-4aab-8cb1-a5734eae5984
 ms.tgt_platform: multiple
 keywords:
 - How Applications Should Use Display Specifiers AD
 - display specifiers AD , how applications should use display specifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

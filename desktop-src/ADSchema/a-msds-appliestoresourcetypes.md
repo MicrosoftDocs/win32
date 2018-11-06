@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Applies-To-Resource-Types attribute
 description: For a resource property, this attribute indicates what resource types this resource property applies to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51b6b8ed-63d8-46dc-ac73-79b4c0c801cf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Applies-To-Resource-Types
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

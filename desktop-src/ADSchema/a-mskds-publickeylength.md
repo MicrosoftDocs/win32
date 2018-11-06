@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-PublicKey-Length attribute
 description: The length of the secret agreement public key.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d99e1ad8-1dab-4763-a2d3-ec1ded36788d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-PublicKey-Length
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

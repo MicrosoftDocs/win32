@@ -1,7 +1,6 @@
 ---
 Description: Sent to an extension DLL when File Manager is unloading the DLL.
 title: FMEVENT_UNLOAD message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

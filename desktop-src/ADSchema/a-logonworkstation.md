@@ -1,9 +1,6 @@
 ---
 title: Logon-Workstation attribute
 description: This attribute is not used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4f43f60-5897-4d45-8d47-54dfe3b11c76
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Logon-Workstation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

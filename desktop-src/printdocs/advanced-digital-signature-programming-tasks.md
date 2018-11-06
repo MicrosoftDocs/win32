@@ -2,7 +2,6 @@
 Description: This section describes the tasks that support programming with XPS Digital Signature API.
 ms.assetid: e083f3bd-b2c5-429c-b18c-d7c443ec9abb
 title: Additional Digital Signature Programming Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

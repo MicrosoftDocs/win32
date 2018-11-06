@@ -2,7 +2,6 @@
 title: Active Property
 description: Active Property
 ms.assetid: 76ada073-782a-4355-b4e8-42dd84d0139b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

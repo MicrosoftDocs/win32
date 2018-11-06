@@ -2,7 +2,6 @@
 Description: Windows Image Acquisition (WIA) hardware devices are represented as hierarchical trees of Item objects. The root item in this tree represents the device itself, while child items represent images, folders, or scanning beds.
 ms.assetid: 240557d6-665e-4879-8c6e-f564ca61e031
 title: Item object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

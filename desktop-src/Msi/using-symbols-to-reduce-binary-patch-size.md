@@ -2,7 +2,6 @@
 Description: Using public symbols for your target and upgrade image binaries can reduce binary patch sizes by approximately one half.
 ms.assetid: 83351a1b-ba70-4f0b-bacf-71ad7993a5aa
 title: Using Symbols to Reduce Binary Patch Size
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

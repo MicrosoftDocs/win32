@@ -1,9 +1,6 @@
 ---
 title: MS-TSLS-Property01 attribute
 description: Placeholder terminal server property 01.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 640cb7b8-fc50-4b1d-acec-4b58910a9212
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TSLS-Property01
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
 ms.assetid: 4d382d39-a9da-4a3b-b7b6-d6890357d467
 title: ID3DXMATRIXStack interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: How to Automatically Resize Rich Edit Controls
 description: An application can resize a rich edit control as needed so that it is always the same size as its contents.
 ms.assetid: CCAFC039-AC9E-4BC4-ABE1-8C56FA9DD3F5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

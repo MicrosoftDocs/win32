@@ -2,7 +2,6 @@
 Description: Benefits of MUI Explained
 ms.assetid: 5b9851e0-4354-4088-b099-0f5f5fac4a35
 title: Benefits of MUI Explained
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

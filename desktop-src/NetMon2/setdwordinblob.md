@@ -2,7 +2,6 @@
 Description: The SetDwordInBlob function sets the named DWORD value of a BLOB.
 ms.assetid: 9174cd5c-4442-4fbe-8dc7-f8a74e1cc85d
 title: SetDwordInBlob function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

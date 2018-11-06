@@ -1,15 +1,11 @@
 ---
 title: Null DACLs and Empty DACLs
 description: The presence of a null discretionary access-control list (DACL) in the nTSecurityDescriptor attribute of any object can create a serious security risk.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 32b786d2-e676-4402-ad22-550de9289494
 ms.tgt_platform: multiple
 keywords:
 - Null DACLs and Empty DACLs AD
 - DACLs AD , Null and Empty
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

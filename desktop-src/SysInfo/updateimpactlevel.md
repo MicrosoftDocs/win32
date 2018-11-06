@@ -2,7 +2,6 @@
 Description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 title: UpdateImpactLevel enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

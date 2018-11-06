@@ -1,7 +1,6 @@
 ---
 Description: Represents an object in the Shell.
 title: IShellDispatch object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

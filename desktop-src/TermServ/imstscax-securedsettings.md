@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx SecuredSettings property
 description: Retrieves an IMsTscSecuredSettings interface pointer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 64d4059b-e617-449d-a733-c19c1d281132
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

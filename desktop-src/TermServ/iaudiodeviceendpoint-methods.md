@@ -1,12 +1,8 @@
 ---
 title: IAudioDeviceEndpoint Methods
 description: The IAudioDeviceEndpoint interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9262596A-A739-4BAF-98F1-E45BD4EF16DB
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

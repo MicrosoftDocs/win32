@@ -1,9 +1,6 @@
 ---
 title: MSMQ-QM-ID attribute
 description: The objectGUID of the server's MSMQ-configuration object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fbf7ba2a-986a-4e67-9688-d7d7d839bbf2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-QM-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

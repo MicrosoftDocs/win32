@@ -2,7 +2,6 @@
 Description: The DefaultMenuLanguage property retrieves the default menu language.
 ms.assetid: 103f44f8-d9e3-4f88-a882-7bf3195a8546
 title: DefaultMenuLanguage Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-ScopeGuid attribute
 description: The GUID for the scope in which the associated encoding is located.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e01fc3a0-1c0d-4a78-8206-34a29077e14d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-ScopeGuid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

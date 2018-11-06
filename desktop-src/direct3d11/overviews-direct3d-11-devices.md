@@ -2,7 +2,6 @@
 title: Devices
 description: This section describes Direct3D 11 device and device-context objects.
 ms.assetid: 61d1ea92-e657-4931-8475-74a3123c72f7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

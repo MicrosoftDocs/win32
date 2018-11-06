@@ -1,9 +1,6 @@
 ---
 title: Postal-Code attribute
 description: The postal or zip code for mail delivery.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bc8c4f52-df95-4676-beee-e6b86ba668a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Postal-Code
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

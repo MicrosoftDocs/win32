@@ -2,7 +2,6 @@
 Description: Each event can have event-specific data associated with it.
 ms.assetid: fa2f9e71-44c3-4569-bde4-24112a756664
 title: Event Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

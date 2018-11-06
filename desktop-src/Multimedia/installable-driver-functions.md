@@ -8,7 +8,6 @@ keywords:
 - installable drivers,functions
 - installable driver reference,functions
 - reference for installable drivers,functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

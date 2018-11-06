@@ -2,7 +2,6 @@
 title: Monitoring Progress With Events
 description: Several interfaces let you implement an event handler to receive progress information. For example, an event object can be attached to the data writer to receive status of the write operation.
 ms.assetid: 1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Current-Value attribute
 description: LSA secret - Current secret value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1a41c3f-4769-4f14-8cda-5cc20e0e7ac1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Current-Value
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

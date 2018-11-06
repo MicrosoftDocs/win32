@@ -2,7 +2,6 @@
 Description: Certificate Services allows an organization to manage the issuing, renewal and revocation of certificates.
 ms.assetid: b8b2d22f-c8ac-4ca8-bef8-057db50f2c30
 title: Certificate Services Features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

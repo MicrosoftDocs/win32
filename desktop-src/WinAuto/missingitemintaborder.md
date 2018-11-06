@@ -2,7 +2,6 @@
 title: MissingItemInTabOrder
 description: MissingItemInTabOrder
 ms.assetid: 49DE892E-1B15-4F46-B316-217CC76AA1A9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

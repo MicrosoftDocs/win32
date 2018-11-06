@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-ID attribute
 description: The MSMQ-Site-ID attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 28874ae3-e3eb-4158-ba63-5dbdac6892f6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

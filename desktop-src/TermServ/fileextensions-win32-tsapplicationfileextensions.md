@@ -1,9 +1,6 @@
 ---
 title: FileExtensions method of the Win32_TSApplicationFileExtensions class
 description: Provides a list of the file name extensions that are handled by an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 833a1b68-86ed-4361-bbcb-a8d1c4a9306d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Additional-Information attribute
 description: Free text for notes on object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a6db370-ad58-4c00-bbb0-96607f267f7c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Additional-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

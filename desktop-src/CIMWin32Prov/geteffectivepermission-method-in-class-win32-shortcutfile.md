@@ -1,14 +1,8 @@
 ---
 Description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the file object, directory, and share where the shortcut file is located, if the file or directory is on a share.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36f823c1-fa19-40a1-b750-41e1f73bdf01
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

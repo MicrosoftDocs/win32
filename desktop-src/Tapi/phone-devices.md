@@ -2,7 +2,6 @@
 Description: Phone device support is supplementary rather than basic, so service providers are not required to support phone devices.
 ms.assetid: '4d9f3b32-20d0-4550-9b3d-db97df8ea289'
 title: Phone Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

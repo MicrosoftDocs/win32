@@ -15,7 +15,6 @@ keywords:
 - test keys
 - production keys
 - ServiceInfo document
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

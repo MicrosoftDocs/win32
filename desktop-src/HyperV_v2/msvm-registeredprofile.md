@@ -2,7 +2,6 @@
 Description: Describes a set of classes with required properties and methods, necessary to manage a real-world entity or to support a usage scenario, in an interoperable fashion.
 ms.assetid: 75644856-3B47-43B8-835C-783A6BEE7251
 title: Msvm_RegisteredProfile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The IsPageDirty method indicates whether the property page has changed since it was activated or since the most recent call to IPropertyPage::Apply. This method implements the IPropertyPage::IsPageDirty method.
 ms.assetid: 95eeec26-7dbb-4add-a827-6505b40afe48
 title: CBasePropertyPage.IsPageDirty method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

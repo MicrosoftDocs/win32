@@ -2,7 +2,6 @@
 Description: Stop time on the current sample.
 ms.assetid: 78045c9f-76bd-42a8-b40a-6b18ac93c9b2
 title: CBaseRenderer::m_SignalTime member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

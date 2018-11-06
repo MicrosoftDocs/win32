@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,callback methods
 - Windows Media Format SDK,methods called asynchronously
 - callback methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

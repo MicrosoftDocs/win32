@@ -4,7 +4,6 @@ description: This section contains information about the layer enumerations.
 ms.assetid: 0fd0456b-2638-4b4c-8a34-a3e104a1a034
 keywords:
 - enumerations, Direct3D 11 Layer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

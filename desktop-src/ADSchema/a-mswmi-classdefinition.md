@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-ClassDefinition attribute
 description: Holds a class definition to be enstated in some WMI namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b57026f6-2e77-4853-b118-3edb6effc54c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-ClassDefinition
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

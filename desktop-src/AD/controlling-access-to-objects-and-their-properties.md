@@ -1,14 +1,10 @@
 ---
 title: Controlling Access to Objects and Their Properties
 description: To control access to application objects, work with the object security descriptor, and specifically, with the discretionary access-control list (DACL) and its list of access-control entries (ACEs).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cfcb0998-4400-45cd-bbee-415d43b96a99
 ms.tgt_platform: multiple
 keywords:
 - object AD ,controlling access to
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

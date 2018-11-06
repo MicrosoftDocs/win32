@@ -2,7 +2,6 @@
 title: version-independent ProgID Key
 description: Associates a ProgID with a CLSID. This key is used to determine the latest version of an object application.
 ms.assetid: fb43c8d0-d923-487f-afdf-14fc29a71e0b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

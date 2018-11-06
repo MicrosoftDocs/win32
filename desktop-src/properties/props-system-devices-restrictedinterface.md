@@ -2,7 +2,6 @@
 Description: Indicates if the interface is restricted.
 ms.assetid: 0dbb66e2-811f-4f62-863a-94371dda6344
 title: System.Devices.RestrictedInterface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

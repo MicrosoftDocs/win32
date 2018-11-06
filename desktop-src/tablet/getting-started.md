@@ -2,7 +2,6 @@
 Description: The Tablet PC is a fully functional personal computer powered by Microsoft Windows and designed for ink-enabled, pen-enabled, and speech-enabled applications.
 ms.assetid: 6d1d26b7-34e9-499c-805e-6861362f4ef8
 title: Getting Started
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

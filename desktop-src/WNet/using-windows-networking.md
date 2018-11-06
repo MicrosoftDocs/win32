@@ -5,7 +5,6 @@ ms.assetid: 209f5eb4-b42d-4a09-845c-07201204d292
 keywords:
 - Windows networking WNet ,using
 - WNet WNet ,using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

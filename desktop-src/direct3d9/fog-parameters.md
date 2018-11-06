@@ -2,7 +2,6 @@
 Description: Fog parameters are controlled through device render states.
 ms.assetid: a3c5f439-6937-4ba9-991f-5a4154447cf9
 title: Fog Parameters (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

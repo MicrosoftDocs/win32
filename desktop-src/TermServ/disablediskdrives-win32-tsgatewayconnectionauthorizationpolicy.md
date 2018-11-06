@@ -1,9 +1,6 @@
 ---
 title: DisableDiskDrives method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the DiskDrivesDisabled property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bdc4a923-bda7-464a-95eb-95231374ac93
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

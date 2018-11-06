@@ -1,14 +1,10 @@
 ---
 title: Example Code for Receiving Change Notifications
 description: The following code example shows how to use the LDAP change notification control to receive notifications of changes to an object in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e1d36d1c-ee50-4c2f-92f6-eee1dae1c5af
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory ,receiving change notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

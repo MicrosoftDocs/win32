@@ -1,16 +1,12 @@
 ---
 title: Retrieving Deleted Objects
 description: Deleted objects are stored in the Deleted Objects container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc9a6466-204b-4a78-b0f3-9c03c13a374b
 ms.tgt_platform: multiple
 keywords:
 - Retrieving Deleted Objects AD
 - object AD , retrieving deleted objects
 - Active Directory, using, retrieving deleted objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

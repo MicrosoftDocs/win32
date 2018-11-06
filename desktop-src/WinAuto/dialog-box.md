@@ -2,7 +2,6 @@
 title: Dialog Box (MSAA UI Element Reference)
 description: A dialog box is a temporary window that an application creates to retrieve user input.
 ms.assetid: 7d132c2c-eab1-4132-b2b6-fa1f8b142f58
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

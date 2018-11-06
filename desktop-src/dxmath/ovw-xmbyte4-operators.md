@@ -2,7 +2,6 @@
 Description: The XMBYTE4 structure exposes the following operators.
 ms.assetid: da748493-93e8-43a4-a567-d47eaa4aecbe
 title: XMBYTE4 Operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

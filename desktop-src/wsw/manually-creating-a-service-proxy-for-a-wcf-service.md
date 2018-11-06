@@ -2,7 +2,6 @@
 title: Manually Creating a Service Proxy for a WCF Service
 description: The easiest way to create a client service proxy for a Windows Communication Foundation (WCF) service is at the Service Model layer with the WsUtil tool, as described in the Creating a Client topic.
 ms.assetid: ef545090-382b-44bd-b7ab-f5a285b6e202
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Graph-Building Components
 ms.assetid: d803c56c-6fb1-4937-92e7-9ed2db2afc46
 title: Graph-Building Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

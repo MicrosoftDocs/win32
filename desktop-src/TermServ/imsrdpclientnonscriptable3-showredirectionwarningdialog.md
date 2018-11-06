@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 ShowRedirectionWarningDialog property
 description: Specifies or retrieves whether the redirection warning dialog box should be shown.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7ed37288-77c3-4551-a553-1ca679e1047a
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

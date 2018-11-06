@@ -1,16 +1,12 @@
 ---
 title: Late Binding vs. Vtable Access in the ADSI Extension Model
 description: A dual interface enables direct vtable access to all its functions while a dispatch interface does not.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6ecc0821-7cf0-4075-81c0-8bebaedab2a4
 ms.tgt_platform: multiple
 keywords:
 - late binding vs. vtable access in the ADSI Extension Model ADSI
 - extensions ADSI , late binding vs. vtable access in the ADSI extension model
 - ADSI ADSI , example code Visual Basic , using IADsDualInf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

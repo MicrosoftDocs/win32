@@ -2,7 +2,6 @@
 Description: The LINEDEVCAPFLAGS\_ bit-flag constants are a collection of Booleans describing various line device capabilities.
 ms.assetid: 0c537488-9fb9-4961-bd0a-1937aefc0b08
 title: LINEDEVCAPFLAGS_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

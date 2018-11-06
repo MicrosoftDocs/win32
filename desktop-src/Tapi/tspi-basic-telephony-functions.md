@@ -2,7 +2,6 @@
 Description: All service providers must implement Basic Telephony functions.
 ms.assetid: 4250f3a0-a66a-4a6e-8566-d71be7463179
 title: TSPI Basic Telephony Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

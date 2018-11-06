@@ -2,7 +2,6 @@
 Description: Windows Installer adheres to Windows Resource Protection (WRP) when installing essential system files, folders, and registry information in Windows Server 2008 and later and Windows Vista and later.
 ms.assetid: 38865ee1-22ef-430b-99ce-1c6983c3b51f
 title: Using Windows Installer and Windows Resource Protection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

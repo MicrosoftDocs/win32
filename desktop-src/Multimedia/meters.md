@@ -15,7 +15,6 @@ keywords:
 - peak control
 - signed control
 - unsigned control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-CSP-Name attribute
 description: The type of cryptographic provider used by MSMQ.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08862f87-3dba-47f9-a028-a75a6dfd1df4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-CSP-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

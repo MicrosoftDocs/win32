@@ -2,7 +2,6 @@
 title: Configuring Computers for RPC over HTTP
 description: To use HTTP as a transport protocol for RPC, RPC Proxy running within Internet Information Server (IIS) must be configured on the server program's network.
 ms.assetid: 5a67af51-924a-4f2b-b013-a4fd1bfaeddd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -76,7 +75,7 @@ When present and set to non-zero, and a numeric IP address is provided as the RP
 
 DWORD. When not present or set to zero, the RPC Proxy checks whether the connection is authenticated, and whether it is secure (SSL or other form of encryption is used). If either is false, the connection is rejected. If this value contains non-zero, anonymous and non-encrypted connections are allowed. This setting is an addition to any virtual directory settings. For example, if anonymous access is disabled on the virtual directory level, but **AllowAnonymous** is non-zero, anonymous access will still be blocked at the IIS level. Used on the RPC Proxy only in RPC over HTTP v2. When changes are made to this value on the RPC Proxy, IIS must be restarted for the change to take effect.
 
-> \[!Warning\]  
+> [!WARNING]
 > Microsoft strongly recommends against setting the **AllowAnonymous** value on production systems for security considerations. The only reason this key should be set is for testing on closed networks without outside access. Any system connected to the Internet and running the RPC Proxy with the **AllowAnonymous** key set to a nonzero value may be vulnerable to attacks.
 
  

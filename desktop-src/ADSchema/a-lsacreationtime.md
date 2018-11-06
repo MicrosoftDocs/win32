@@ -1,9 +1,6 @@
 ---
 title: LSA-Creation-Time attribute
 description: The LSA-Creation-Time attribute is used to support replication to Windows NT 4.0 domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5446cbf-aa35-4ea6-a2e0-9d0ea58edaf1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LSA-Creation-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

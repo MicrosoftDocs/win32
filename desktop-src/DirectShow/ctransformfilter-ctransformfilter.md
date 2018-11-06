@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: a64c3e29-91f2-455f-aac1-1e4ecce6958d
 title: CTransformFilter.CTransformFilter constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

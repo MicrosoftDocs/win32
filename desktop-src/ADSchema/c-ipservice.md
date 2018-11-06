@@ -1,9 +1,6 @@
 ---
 title: ipService class
 description: Represents an abstraction of an Internet protocol service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6edeccd0-c6ff-413c-be3c-f99915e594fb
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipService
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

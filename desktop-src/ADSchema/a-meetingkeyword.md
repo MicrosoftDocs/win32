@@ -1,9 +1,6 @@
 ---
 title: meetingKeyword attribute
 description: A keyword that is used to help find a meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d268f01b-ff16-4d53-b431-856e4ba53f73
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingKeyword
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

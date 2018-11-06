@@ -1,9 +1,6 @@
 ---
 title: Application-Site-Settings class
 description: Contains all site-specific settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9431ec9c-7647-4de8-94c0-824763ceee97
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Application-Site-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

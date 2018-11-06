@@ -1,14 +1,8 @@
 ---
 Description: Represents a battery connected to the computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b07ccb1d-008e-4bf1-8299-33706cbcbaee
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Battery class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

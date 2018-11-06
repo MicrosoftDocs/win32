@@ -2,7 +2,6 @@
 Description: ACEs to Control Access to an Objects Properties
 ms.assetid: 79dd4a45-c42c-4775-93ce-6e3206894d63
 title: ACEs to Control Access to an Objects Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

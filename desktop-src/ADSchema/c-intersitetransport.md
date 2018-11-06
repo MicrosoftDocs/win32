@@ -1,9 +1,6 @@
 ---
 title: Inter-Site-Transport class
 description: Optional attribute of ntdsConnection objects. If present, holds the DN of an interSiteTransport object in the CN Inter-Site Transports,CN Sites,CN Configuration,... container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eeeb47aa-cfe8-4ff6-86e7-b3e1727c907a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Inter-Site-Transport
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

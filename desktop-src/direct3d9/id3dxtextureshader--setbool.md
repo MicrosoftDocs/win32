@@ -2,7 +2,6 @@
 Description: Sets a BOOL value.
 ms.assetid: 0d3c1f3a-f497-4e92-81e9-8647006910e1
 title: ID3DXTextureShader::SetBool method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

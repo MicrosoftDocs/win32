@@ -2,7 +2,6 @@
 title: Confirmations
 description: A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

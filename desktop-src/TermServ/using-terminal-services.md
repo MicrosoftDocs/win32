@@ -1,14 +1,10 @@
 ---
 title: Using Remote Desktop Services
 description: How to program in the Remote Desktop Services environment and how to extend Remote Desktop Services (formerly known as Terminal Services) technology to the web by using Remote Desktop Web Connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 17a8055c-3fde-4ba0-9ed9-af0ebe0a36b9
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Modifiers for ps_2_0 and Above
 description: Instruction modifiers affect the result of the instruction before it is written into the destination register.
 ms.assetid: eb2a8a1f-51bc-4516-b679-a8fb25b0dda0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

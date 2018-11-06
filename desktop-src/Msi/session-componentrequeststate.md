@@ -2,7 +2,6 @@
 Description: The ComponentRequestState property of the Session object obtains or requests a change in the Action state of a row in the Component table.
 ms.assetid: d0b50c25-dca6-4bdf-8ee9-490e436fcc5b
 title: Session.ComponentRequestState property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

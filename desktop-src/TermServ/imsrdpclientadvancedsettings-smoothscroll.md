@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings SmoothScroll property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7f1ce439-0b6e-4426-8dd6-3748509130e1
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

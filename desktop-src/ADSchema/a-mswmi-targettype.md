@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-TargetType attribute
 description: WMI reference to a type definition for a policy object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0757d903-37f7-4830-9ba0-a971cf1bda04
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-TargetType
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

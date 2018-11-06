@@ -1,14 +1,10 @@
 ---
 title: Code Example for Working with ADSI Error Messages
 description: The following code example shows how to retrieve an ADSI error message.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c09fea2e-b6c1-4318-a7a6-b1c4c30ef4cb
 ms.tgt_platform: multiple
 keywords:
 - error messages and example code for ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Using Tunnel Mode
 description: Following sample code demonstrates how to configure a point-to-point IPsec tunnel using the Windows Filtering Platform (WFP) API.
 ms.assetid: 6bbe7e94-6a5f-4984-ac61-b187dcf25366
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

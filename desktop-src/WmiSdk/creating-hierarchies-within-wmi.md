@@ -1,12 +1,8 @@
 ---
 Description: WMI namespace is a programming object that defines the scope for a set of classes and instances. WMI provider classes must be defined inside a namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a00f26e6-bb81-45bc-a530-9346a074bb3c
 ms.tgt_platform: multiple
 title: Creating Hierarchies Within WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

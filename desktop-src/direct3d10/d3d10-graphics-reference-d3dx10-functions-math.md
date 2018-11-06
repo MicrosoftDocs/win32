@@ -2,7 +2,6 @@
 Description: The math library provided by the D3DX utility library supplies functions to compute 3D mathematical operations.
 ms.assetid: 6e180c12-8cbe-4013-8bb4-3ac5bb9c65f1
 title: Math Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

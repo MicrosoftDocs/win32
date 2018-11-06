@@ -1,9 +1,6 @@
 ---
 title: Win32_TerminalServiceSetting class
 description: Represents the configuration for a Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4cd047db-921f-4ccb-946b-d2c7b8d6beea
 ms.tgt_platform: multiple
 keywords:
@@ -71,7 +68,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

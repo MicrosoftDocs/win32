@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_LocalFileSystem class represents the file store controlled by a computer system through local means (for example, direct device-driver access).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eab52a25-ca24-4a69-b030-091603d3582c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_LocalFileSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -45,7 +39,7 @@ api_location:
 
 The **CIM\_LocalFileSystem** class represents the file store controlled by a computer system through local means (for example, direct device-driver access). The file store can be managed directly by the computer system, without the need for another computer to act as a file server. For a clustered file system, however, the file system is local and, therefore, defers to the cluster.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

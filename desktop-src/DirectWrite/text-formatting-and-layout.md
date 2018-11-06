@@ -9,7 +9,6 @@ keywords:
 - DirectWrite,IDWriteTextLayout interface
 - IDWriteTextFormat interface
 - IDWriteTextLayout interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

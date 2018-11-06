@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx VerticalScrollBarVisible property
 description: Indicates whether the control displays a vertical scroll bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b31e2db3-b367-4900-a2c6-51fd794341c2
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

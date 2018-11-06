@@ -1,12 +1,8 @@
 ---
 title: NP-Allowed-EAP-Type
 description: EAP encryption modes permitted for a connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5e4aa3dc-1f16-4640-a5d3-fbbec345db44
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

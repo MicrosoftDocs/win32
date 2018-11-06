@@ -2,7 +2,6 @@
 Description: SafeRelease
 ms.assetid: 2e9af7bc-f478-4a9c-b28f-b0a72fa9ec75
 title: SafeRelease
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

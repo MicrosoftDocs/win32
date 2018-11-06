@@ -2,7 +2,6 @@
 Description: The SetActualDataLength method sets the length of the valid data in the buffer. This method implements the IMediaSample::SetActualDataLength method.
 ms.assetid: a80a67ef-e490-4874-a123-f2d193cec4d7
 title: CMediaSample.SetActualDataLength method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

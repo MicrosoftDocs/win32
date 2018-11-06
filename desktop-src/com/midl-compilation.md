@@ -2,7 +2,6 @@
 title: MIDL Compilation
 description: MIDL Compilation
 ms.assetid: 2797ee3b-82fd-4cb5-9e95-23b2f2a8f011
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

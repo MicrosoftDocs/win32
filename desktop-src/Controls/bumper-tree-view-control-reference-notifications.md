@@ -2,7 +2,6 @@
 title: Tree View Notifications
 description: .
 ms.assetid: 571748a0-f5f0-4436-a8c3-ff9af754c7ad
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

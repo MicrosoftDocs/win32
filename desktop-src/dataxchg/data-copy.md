@@ -4,7 +4,6 @@ description: This section discusses how to use the data copy message to transfer
 ms.assetid: 10a50efe-f3d5-4c59-a084-69119ef86129
 keywords:
 - data copy,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

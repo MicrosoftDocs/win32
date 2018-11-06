@@ -2,7 +2,6 @@
 Description: The FeatureRequestState property is a read-write property of the Session object.
 ms.assetid: ba19603b-ac81-4a8b-81ca-ad5f28974599
 title: Session.FeatureRequestState property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

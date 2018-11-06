@@ -2,7 +2,6 @@
 title: Temporary Register
 description: Pixel shader input temporary registers are used to hold intermediate results.
 ms.assetid: e61daaa1-0a9b-4b1c-b91c-56573be59ed9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

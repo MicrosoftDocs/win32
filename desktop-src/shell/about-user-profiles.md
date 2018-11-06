@@ -1,7 +1,6 @@
 ---
 Description: The system creates a user profile the first time that a user logs on to a computer. At subsequent logons, the system loads the user's profile, and then other system components configure the user's environment according to the information in the profile.
 title: About User Profiles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Client Authentication Credentials
 description: Each authenticated client must provide authentication credentials to the server.
 ms.assetid: d567e944-8d68-4d95-be6a-840e30f57ba9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

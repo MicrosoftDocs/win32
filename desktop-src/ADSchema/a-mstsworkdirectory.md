@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Work-Directory attribute
 description: Terminal Services session Work Directory specifies the working directory path for the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0939c2d3-e8bf-4e96-a357-e2712fa1175b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Work-Directory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

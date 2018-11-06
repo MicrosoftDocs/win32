@@ -8,7 +8,6 @@ keywords:
 - user interface plug-ins,building
 - UI plug-ins,building
 - building plug-ins,user interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

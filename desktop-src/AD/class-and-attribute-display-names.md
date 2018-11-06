@@ -1,16 +1,12 @@
 ---
 title: Class and Attribute Display Names
 description: This topic contains information about and guidelines for class and attribute display names.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c85905b2-ed8b-4032-8c54-fd4de8b34ecf
 ms.tgt_platform: multiple
 keywords:
 - display specifiers AD ,class and attribute display names
 - class display names AD
 - attribute display names AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

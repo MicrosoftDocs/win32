@@ -2,7 +2,6 @@
 Description: When a client and server finish setting up the security context, message support functions can be used.
 ms.assetid: a65054bd-31cb-4842-af59-82cfe799fb70
 title: Signing a Message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

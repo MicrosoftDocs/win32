@@ -1,12 +1,8 @@
 ---
 Description: The IWbemPathKeyList interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 87E6B110-2CA0-45FF-BBF2-E7B3D51E95A0
 ms.tgt_platform: multiple
 title: IWbemPathKeyList Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

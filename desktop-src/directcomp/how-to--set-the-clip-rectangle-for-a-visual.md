@@ -2,7 +2,6 @@
 title: How to clip with a rectangle clip object
 description: This topic demonstrates how to use a rectangle clip object to clip a visual or visual tree.
 ms.assetid: 377EF49A-F9F2-4A72-9D22-DEC33803AD0D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

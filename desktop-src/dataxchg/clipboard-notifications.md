@@ -2,7 +2,6 @@
 title: Clipboard Notifications
 description: .
 ms.assetid: 246dc19b-278e-4a65-81f4-0868a6cec541
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

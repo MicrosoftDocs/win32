@@ -8,7 +8,6 @@ keywords:
 - Windows Ribbon,developer guides
 - Ribbon,developer guides
 - developer guides for Windows Ribbon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

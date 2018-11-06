@@ -1,9 +1,6 @@
 ---
 title: Other-Login-Workstations attribute
 description: Non \ 8211;Windows NT or LAN Manager workstations from which a user can log on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: feaa1ade-f340-4bca-8787-5ae5aa10d51c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Other-Login-Workstations
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How WM_GETOBJECT Works
 description: Microsoft Active Accessibility sends the WM\_GETOBJECT message to the appropriate server application when a client calls one of the AccessibleObjectFromX functions.
 ms.assetid: 53f7b3db-97e4-4ff2-9f7a-4555ec7956ea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

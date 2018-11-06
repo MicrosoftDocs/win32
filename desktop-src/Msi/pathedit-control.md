@@ -2,7 +2,6 @@
 Description: The PathEdit control displays an edit field that enables a user to select the end section of a path.
 ms.assetid: 074ef4d5-3ac1-4bdb-90c5-9798d89a749f
 title: PathEdit Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Daily Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad at 8 00 AM every day.
 ms.assetid: b7818071-12b6-41df-85b9-282c08cf6e31
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

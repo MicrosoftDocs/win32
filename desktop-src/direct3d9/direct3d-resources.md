@@ -2,7 +2,6 @@
 Description: Resources are the textures and buffers that are used to render a scene.
 ms.assetid: 815a330c-9fd2-45ff-b7df-192fc197074f
 title: Direct3D Resources (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

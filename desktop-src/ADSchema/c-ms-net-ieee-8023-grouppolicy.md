@@ -1,9 +1,6 @@
 ---
 title: ms-net-ieee-8023-GroupPolicy class
 description: This class represents an 802.3 wired network Group Policy object. This class contains identifiers and configuration data relevant to an 802.3 wired network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ca213f8b-99d4-48c9-8104-bb982f0c077a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ms-net-ieee-8023-GroupPolicy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

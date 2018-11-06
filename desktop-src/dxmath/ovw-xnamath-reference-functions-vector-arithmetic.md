@@ -2,7 +2,6 @@
 Description: Lists the vector arithmetic functions.
 ms.assetid: d7ed4516-74a6-81ec-79a2-2e39cf112d11
 title: Vector Arithmetic Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

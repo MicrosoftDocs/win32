@@ -2,7 +2,6 @@
 title: About Combo Boxes
 description: This section discusses the different kinds of combo boxes.
 ms.assetid: 76410a87-aa0e-4da9-9e78-c80ac485e3cd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

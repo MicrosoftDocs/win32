@@ -2,7 +2,6 @@
 Description: Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
 ms.assetid: d4752a6c-2114-4016-a69f-dcc561d2c76b
 title: ID3DXMATRIXStack::TranslateLocal method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

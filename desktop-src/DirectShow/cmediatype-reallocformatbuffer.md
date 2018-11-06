@@ -2,7 +2,6 @@
 Description: The ReallocFormatBuffer method reallocates the format block to a new size.
 ms.assetid: 49bec677-09cc-4e1a-994a-13e873e61713
 title: CMediaType.ReallocFormatBuffer method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

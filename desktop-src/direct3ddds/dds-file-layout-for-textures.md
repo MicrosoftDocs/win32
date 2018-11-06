@@ -2,7 +2,6 @@
 title: DDS Texture Example
 description: For an uncompressed texture, use the DDSD\_PITCH and DDPF\_RGB flags; for a compressed texture, use the DDSD\_LINEARSIZE and DDPF\_FOURCC flags.
 ms.assetid: 5bf54e8d-1dc5-4782-96c1-132d258fb560
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

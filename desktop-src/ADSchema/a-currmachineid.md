@@ -1,9 +1,6 @@
 ---
 title: Curr-Machine-Id attribute
 description: The ID of the machine where a Link-Track-Vol-Entry object is located.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6e957744-c778-4112-8308-e9d1a3e01f56
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Curr-Machine-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

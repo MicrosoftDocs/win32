@@ -2,7 +2,6 @@
 Description: Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.
 ms.assetid: 7096cead-c44a-404c-b1e1-3e0ab27070f8
 title: ProtectKeyWithCertificateThumbprint method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

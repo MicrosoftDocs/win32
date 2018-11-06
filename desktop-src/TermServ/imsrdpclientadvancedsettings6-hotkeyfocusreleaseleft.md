@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 HotKeyFocusReleaseLeft property
 description: Specifies the virtual-key code to add to Ctrl+Alt to determine the hotkey replacement for Ctrl+Alt+Left Arrow.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9F2942BD-9F5C-4E02-A330-42C30C6C8F87
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

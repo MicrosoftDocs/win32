@@ -2,7 +2,6 @@
 Description: The EnumPrintProcessors function enumerates the print processors installed on the specified server.
 ms.assetid: 98c9185c-c89d-4b4e-8c1e-7e22b315f188
 title: EnumPrintProcessors function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

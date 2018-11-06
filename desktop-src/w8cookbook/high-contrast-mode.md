@@ -2,7 +2,6 @@
 title: High-contrast mode
 description: High-contrast mode
 ms.assetid: 817F2BBD-3744-4D34-927F-EBF9F7894CC0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

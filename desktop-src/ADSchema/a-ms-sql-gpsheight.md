@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-GPSHeight attribute
 description: The MS-SQL-GPSHeight attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a25b88f-47ce-4a1b-86a3-f7f387f46c39
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-GPSHeight
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The numerator of PKEY\_GPS\_DestBearing.
 ms.assetid: fe88ecc8-a0e3-4e4a-b821-c204b3c3ae8e
 title: System.GPS.DestBearingNumerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

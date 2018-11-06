@@ -1,14 +1,10 @@
 ---
 title: Access Control and Object Deletion
 description: Active Directory enables you to delete an object if you have DELETE access to the object or ADS\_RIGHT\_DS\_DELETE\_CHILD access to the object type on the parent container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 87027c25-e3c9-4bad-8df3-cb6205e40ef6
 ms.tgt_platform: multiple
 keywords:
 - Access Control and Object Deletion AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -24,7 +20,7 @@ Be aware that the system verifies the security descriptor for both the object an
 
 To perform a tree-delete operation, for example using the [**IADsDeleteOps::DeleteObject**](https://msdn.microsoft.com/library/aa705994) method, you must have ADS\_RIGHT\_DS\_DELETE\_TREE access to the object. If you have this access right, you can delete the object and any child objects regardless of the protections on the child objects. To delete a tree if you do not have ADS\_RIGHT\_DS\_DELETE\_TREE access, you must recursively traverse the tree, deleting each object individually. In this case, you must have the necessary DELETE or DELETE\_CHILD access for each object in the tree.
 
-> \[!Warning\]  
+> [!WARNING]
 > If users have ADS\_RIGHT\_DS\_DELETE\_TREE access for an object, this gives them the ability to delete a whole subtree, including all child objects. For this reason, you may consider revoking "Delete Subtree" access permission for all users on a parent container.
 
  

@@ -1,9 +1,6 @@
 ---
 title: UpdateDirectConnectLicenseServer method of the Win32_TerminalServiceSetting class
 description: UpdateDirectConnectLicenseServer is no longer available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0b6e0dba-e23b-4c8d-8021-93d802501359
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

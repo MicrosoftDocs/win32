@@ -2,7 +2,6 @@
 Description: Writes a WORD value to the specified database.
 ms.assetid: 8f921e14-4a82-4d8e-83fa-beb78118ecb8
 title: SdbWriteWORDTag function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

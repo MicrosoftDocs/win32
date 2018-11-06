@@ -2,7 +2,6 @@
 Description: When using a programmed vertex shader, the elements updated in the destination vertex buffer are controlled by the shader function program.
 ms.assetid: c75564ef-528b-4af5-9ed7-a32b9120bf6a
 title: Programmable Vertex Processing (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

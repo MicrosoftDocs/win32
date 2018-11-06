@@ -2,7 +2,6 @@
 Description: Returns an OIDs collection that represents the certificate policies used to create the Chain object.
 ms.assetid: 7fe7d3ea-28fc-4c0a-9b43-a97518ac65db
 title: CertificateStatus.CertificatePolicies method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

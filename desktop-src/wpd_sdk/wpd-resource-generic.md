@@ -2,7 +2,6 @@
 Description: Specifies a resource type not otherwise defined by Windows Portable Devices.
 ms.assetid: a4d812fe-f050-450a-acee-20b4152e8d76
 title: WPD_RESOURCE_GENERIC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The property proxy for the System.Photo.FNumber photo metadata policy.
 ms.assetid: dadd506f-016d-45b0-abc3-724e3723b243
 title: System.Photo.FNumber Proxy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: Optimization Using GetInfoEx
 description: Used to load specific attribute values into the local cache from the underlying directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e6111957-22cb-4473-9814-5bcbc79583b2
 ms.tgt_platform: multiple
 keywords:
 - Optimization Using GetInfoEx ADSI
 - GetInfoEx ADSI , Optimization Using IADs GetInfoEx
 - ADSI ADSI , Using, Optimization Using the IADs GetInfoEx Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

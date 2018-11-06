@@ -2,7 +2,6 @@
 Description: The QuiesceDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
 ms.assetid: c5154c00-ff9c-40d8-bb76-41ae72ce86ae
 title: QuiesceDevice method of the CIM_LogicalDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

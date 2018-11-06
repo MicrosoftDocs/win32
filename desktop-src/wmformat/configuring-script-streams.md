@@ -6,7 +6,6 @@ keywords:
 - streams,configuring script streams
 - codecs,configuring script streams
 - script streams,configuring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

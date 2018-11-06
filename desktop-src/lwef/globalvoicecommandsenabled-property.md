@@ -2,7 +2,6 @@
 title: GlobalVoiceCommandsEnabled Property
 description: GlobalVoiceCommandsEnabled Property
 ms.assetid: d4f74019-fa33-41fc-abe7-01791ff188f0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

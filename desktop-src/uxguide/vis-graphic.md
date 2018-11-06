@@ -2,7 +2,6 @@
 title: Graphic Elements
 description: Graphic elements show relationships, hierarchy, and emphasis visually. They include backgrounds, banners, glass, aggregators, separators, shadows, and handles.
 ms.assetid: f9e741e9-a72e-4bdb-bd95-8916c7cf344f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

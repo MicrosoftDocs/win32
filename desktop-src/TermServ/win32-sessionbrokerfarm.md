@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionBrokerFarm class
 description: Defines the query for a session broker farm.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 55a2a7ea-e891-4723-b919-ee3c908eaffb
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

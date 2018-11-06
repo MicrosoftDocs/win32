@@ -2,7 +2,6 @@
 Description: Get a description of the current font object.
 ms.assetid: f08beb35-351f-4087-a2db-097843463291
 title: ID3DX10Font::GetDesc method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

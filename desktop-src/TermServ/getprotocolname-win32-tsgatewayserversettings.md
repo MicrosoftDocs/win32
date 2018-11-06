@@ -1,9 +1,6 @@
 ---
 title: GetProtocolName method of the Win32_TSGatewayServerSettings class
 description: Returns the protocol name for the specified protocol index.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6778cede-cc61-4e5d-9a29-ba88197fa8c6
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

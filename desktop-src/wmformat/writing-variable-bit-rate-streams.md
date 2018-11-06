@@ -8,7 +8,6 @@ keywords:
 - variable bit rate (VBR),writing streams
 - VBR (variable bit rate),writing streams
 - streams,writing VBR
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

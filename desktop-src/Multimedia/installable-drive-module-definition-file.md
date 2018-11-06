@@ -9,7 +9,6 @@ keywords:
 - DriverProc function
 - module-definition files
 - DEF files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Structural-Object-Class attribute
 description: This constructed attribute stores a list of classes contained in a class hierarchy, including abstract classes. This list does contain dynamically linked auxiliary classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f7311cb9-4816-4caa-9cae-cbcd61b93d27
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Structural-Object-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

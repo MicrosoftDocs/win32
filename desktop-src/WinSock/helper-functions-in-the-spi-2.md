@@ -2,7 +2,6 @@
 Description: NSPGetServiceClassInfo
 ms.assetid: 6fbe9c0c-ac1f-4f2b-a542-eae2195b1335
 title: Helper Functions in the SPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

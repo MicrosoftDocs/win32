@@ -5,7 +5,6 @@ ms.assetid: 'af1633c6-f0f5-462f-b0d3-4f071ab0c15a'
 keywords:
 - MCI commands,reference
 - MCI reference,commands
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

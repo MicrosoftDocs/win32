@@ -2,7 +2,6 @@
 Description: An interlocked singly linked list (SList) eases the task of insertion and deletion from a linked list.
 ms.assetid: 35463ace-33ab-4eb9-9901-2504a92456e2
 title: Interlocked Singly Linked Lists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

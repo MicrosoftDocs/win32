@@ -2,7 +2,6 @@
 Description: Demonstrates the implementation of an ideal property handler for an OleDoc file format (.docfile-ms) or a fictional OpenMetadata format (.openmetadata-ms) which supports reading and writing properties and custom schema.
 ms.assetid: F277D4DF-1EA8-4603-B2C9-B607D2A9FC36
 title: Ideal Property Handler Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

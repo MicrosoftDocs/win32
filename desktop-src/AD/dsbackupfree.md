@@ -1,9 +1,6 @@
 ---
 title: DsBackupFree function
 description: Releases memory allocated by the Active Directory Domain Services backup and restore functions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cde2a530-60e6-440c-9d4e-a90d55846973
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-NSEC3-OptOut attribute
 description: An attribute used to define whether or not the DNS zone should be signed using NSEC opt-out.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1ef0c394-9597-4c04-b471-7fb284a26ca9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-NSEC3-OptOut
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

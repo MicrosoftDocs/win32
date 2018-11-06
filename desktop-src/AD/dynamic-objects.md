@@ -1,14 +1,10 @@
 ---
 title: Dynamic Objects
 description: In Windows Server 2003 and later versions of Windows, Active Directory Domain Services provide support for storing dynamic entries in the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ac5779b6-f226-414c-92a9-091719b1515b
 ms.tgt_platform: multiple
 keywords:
 - dynamic objects AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

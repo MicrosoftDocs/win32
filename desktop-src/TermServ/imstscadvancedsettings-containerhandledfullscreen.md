@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings ContainerHandledFullScreen property
 description: Specifies whether the container-handled full-screen mode is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 67679323-4a74-4d91-abd0-607415295f3d
 ms.tgt_platform: multiple
 keywords:
@@ -60,7 +57,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Password-Expiry-Time-Computed attribute
 description: Contains the expiry time for the user's current password.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 623122f5-48eb-47bb-9e30-71c73d2fa2fd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Password-Expiry-Time-Computed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

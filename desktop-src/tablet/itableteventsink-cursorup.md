@@ -2,7 +2,6 @@
 Description: Occurs when the user has raised the stylus from the tablet digitizer surface.
 ms.assetid: 34dc7e6b-101a-4edd-8c3c-9aafb85cf58b
 title: ITabletEventSink::CursorUp method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

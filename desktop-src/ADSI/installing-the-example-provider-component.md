@@ -1,14 +1,10 @@
 ---
 title: Installing the Example Provider Component
 description: After installing the ADSI SDK, from the installation directory, change directories to the Samples\\NetDs\\ADSI\\Samples\\Provider\\Setup subdirectory. Run Install.bat as described in the README.TXT file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7bf4bf22-38ac-4b0d-946e-5f60c7693707
 ms.tgt_platform: multiple
 keywords:
 - Installing the Example Provider Component ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Connect to and communicate with a specific smart card.
 ms.assetid: 37d92491-174b-471e-b36e-46d9285dd404
 title: Smart Card and Reader Access Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

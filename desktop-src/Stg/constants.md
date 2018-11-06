@@ -4,7 +4,6 @@ description: Constants, in Structured Storage, are a sequence of named values. C
 ms.assetid: 0bcb04c6-cfa4-4df1-81b5-278e53f19590
 keywords:
 - Structured Storage Strctd Stg , reference, constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: ADSI Service Providers
 description: This topic gives an overview of the ADSI service providers that are provided in the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 419d7953-a879-4d6c-be74-173d76c3f932
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI , Service Providers
 - Service Providers ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

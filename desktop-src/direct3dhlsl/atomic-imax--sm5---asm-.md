@@ -2,7 +2,6 @@
 title: atomic_imax (sm5 - asm)
 description: Atomic signed integer maximum to memory.
 ms.assetid: E15E9F25-CFC6-435F-B931-A50EA1C8621C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

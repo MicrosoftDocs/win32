@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Password-History-Length attribute
 description: Password history length for user accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9a3a8420-253c-4a55-9d64-15c2c4035ea0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Password-History-Length
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

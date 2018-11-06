@@ -1,14 +1,10 @@
 ---
 title: Versioning and Fallback Strategies
 description: When an application detects a partial update using one of the preceding techniques or reads a set of objects whose effective date has not yet been reached, the application must deal with the situation gracefully.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a34a783-98fd-406e-a96d-8e2a09a51c2d
 ms.tgt_platform: multiple
 keywords:
 - Versioning and Fallback Strategies AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

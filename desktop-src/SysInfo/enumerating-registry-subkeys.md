@@ -2,7 +2,6 @@
 Description: The following example uses the RegQueryInfoKey, RegEnumKeyEx, and RegEnumValue functions to enumerate the subkeys of the specified key.
 ms.assetid: 3730180a-52bc-4382-83ca-39f162273ba5
 title: Enumerating Registry Subkeys
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

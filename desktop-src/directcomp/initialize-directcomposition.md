@@ -2,7 +2,6 @@
 title: How to initialize DirectComposition
 description: This topic demonstrates how to create and initialize the minimum set of Microsoft DirectComposition objects needed to create a simple composition.
 ms.assetid: F2BF9CE2-05EF-4345-A00E-F5C8A8660B24
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

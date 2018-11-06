@@ -1,9 +1,6 @@
 ---
 title: Print-Duplex-Supported attribute
 description: Indicates the type of duplex support a printer has.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7d3e3f1-d6a1-41b7-a54d-c932a00b2a68
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Duplex-Supported
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

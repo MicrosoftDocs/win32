@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ManagedSystemElement class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f1b952f4-4bed-4420-ad5d-62478846be8e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ManagedSystemElement class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -31,7 +25,7 @@ api_location:
 
 The **CIM\_ManagedSystemElement** class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class. Examples include software components, such as files; devices, such as disk drives and controllers; and physical components, such as chips and cards.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

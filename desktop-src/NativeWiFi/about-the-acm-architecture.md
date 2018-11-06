@@ -2,7 +2,6 @@
 Description: About the ACM Architecture
 ms.assetid: 4a5c0085-0e7b-424d-9205-5ec39518a088
 title: About the ACM Architecture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

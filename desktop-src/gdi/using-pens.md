@@ -2,7 +2,6 @@
 Description: This section contains sample code that demonstrates the appearance of lines drawn using various pen styles and attributes.
 ms.assetid: c60a8e14-400c-40db-869b-b8fea7a03f38
 title: Using Pens
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

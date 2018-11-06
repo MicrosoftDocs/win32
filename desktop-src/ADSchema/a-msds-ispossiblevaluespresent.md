@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Is-Possible-Values-Present attribute
 description: This attribute identifies if ms-DS-Claim-Possible-Values on linked resource property must have value or must not have value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a63d7937-5045-4d38-a436-b47acde6399d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Is-Possible-Values-Present
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

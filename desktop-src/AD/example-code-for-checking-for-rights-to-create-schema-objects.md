@@ -1,14 +1,10 @@
 ---
 title: Example Code for Checking for Rights to Create Schema Objects
 description: The following C/C++ code example shows a function that checks the allowedChildClassesEffective attribute on the schema container (IADs pointer to schema container is passed as a parameter) for the attributeSchema and classSchema classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3abc2351-a3cf-4a6c-9a13-15dd51723883
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Checking for Rights to Create Schema Objects AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

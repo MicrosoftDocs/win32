@@ -1,9 +1,6 @@
 ---
 title: SetActiveServer method of the Win32_RDMSEnvironment class
 description: Sets the FQDN of the Remote Desktop Management Services (RDMS) environment to the current node.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed7b71cf-c3a4-4d2f-856a-31332f94fac9
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_SoftwareFeatureSAPImplementation class represents an association between a service access point (SAP) and how it is implemented in software.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d9a5a747-b37b-4005-a661-2bfc6a83bbb2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureSAPImplementation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_SoftwareFeatureSAPImplementation** class represents an association between a service access point (SAP) and how it is implemented in software. A SAP can be provided by more than one software feature to operate in conjunction with one another. Additionally, a software feature can provide more than one SAP. When many software features are associated with a single SAP, it is assumed that the elements operate in conjunction to provide the access point. If different implementations of a SAP exist, each implementation would result in individual instantiations of the SAP object. Individual instantiations would then have associations to the unique implementations.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

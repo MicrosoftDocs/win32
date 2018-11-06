@@ -9,7 +9,6 @@ keywords:
 - writing code for skins,Buttons section
 - buttons in skins,Buttons section
 - skin definition files,Buttons section
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

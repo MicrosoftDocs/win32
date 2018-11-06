@@ -1,12 +1,8 @@
 ---
 title: Disabling Existing Classes and Attributes
 description: Schema additions are permanent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13ffd2f5-cf1d-4cde-a3d5-74cb5a44b6fc
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The CBaseDispatch class is a base class for implementing the IDispatch interface in a DirectShow filter.
 ms.assetid: 33a989be-d059-4ad7-99f8-715c55a128a2
 title: CBaseDispatch class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

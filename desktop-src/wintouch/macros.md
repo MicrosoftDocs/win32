@@ -6,7 +6,6 @@ keywords:
 - Windows Touch,macros
 - Windows Touch,gestures
 - gestures,macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

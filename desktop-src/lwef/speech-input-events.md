@@ -2,7 +2,6 @@
 title: Speech Input Events
 description: Speech Input Events
 ms.assetid: d7b621fe-9274-4b16-af8a-664b0b296c89
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

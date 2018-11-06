@@ -2,7 +2,6 @@
 Description: The AddAfter method inserts an item after the specified position.
 ms.assetid: 3e1f27c5-3e04-424a-8fe3-9bfde4e3824b
 title: CGenericList.AddAfter method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

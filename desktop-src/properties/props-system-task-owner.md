@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c7461513-fdec-4fa0-8fdf-134ce2282248
 title: System.Task.Owner
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

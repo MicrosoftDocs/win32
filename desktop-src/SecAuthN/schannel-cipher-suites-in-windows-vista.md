@@ -2,7 +2,6 @@
 Description: A set of cryptographic algorithms. Schannel protocols use algorithms from a cipher suite to create keys and encrypt information.
 ms.assetid: 380452e2-a9c8-4380-a3bf-9c7942a0c0c2
 title: TLS Cipher Suites in Windows Vista
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -25,7 +24,7 @@ Developers specify these elements by using [**ALG\_ID**](https://msdn.microsoft.
 
 Schannel supports the following cipher suites. The suites are listed in the default order in which they are chosen by the Microsoft Schannel Provider.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > HTTP/2 web services fail with non-HTTP/2-compatible cipher suites. To ensure your web services function with HTTP/2 clients and browsers, see [How to deploy custom cipher suite ordering](https://support.microsoft.com/help/4032720/how-to-deploy-custom-cipher-suite-ordering-in-windows-server-2016).
 
  

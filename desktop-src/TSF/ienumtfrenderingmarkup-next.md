@@ -12,7 +12,6 @@ api_name:
 - IEnumTfRenderingMarkup.Next
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

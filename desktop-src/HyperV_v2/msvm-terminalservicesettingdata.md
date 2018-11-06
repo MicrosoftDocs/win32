@@ -2,7 +2,6 @@
 Description: Represents the settings for the virtual computer terminal services on a host.
 ms.assetid: 1f8d0718-09da-4231-95eb-cc63b6f324dd
 title: Msvm_TerminalServiceSettingData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

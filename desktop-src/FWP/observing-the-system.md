@@ -2,7 +2,6 @@
 title: Observing the System
 description: Observing the System
 ms.assetid: 44D2C52F-7978-49E6-8212-3206921624E9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

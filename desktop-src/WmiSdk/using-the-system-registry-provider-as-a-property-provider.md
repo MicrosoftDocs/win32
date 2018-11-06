@@ -1,12 +1,8 @@
 ---
 Description: You can use the System Registry Provider as either an instance or a property provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0a8198c0-57c1-4d96-9965-3867c8c0e738
 ms.tgt_platform: multiple
 title: Using the System Registry Provider as a Property Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

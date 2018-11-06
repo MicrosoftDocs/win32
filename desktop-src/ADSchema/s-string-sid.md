@@ -1,9 +1,6 @@
 ---
 title: String(Sid) syntax
 description: An octet string that contains a security identifier (SID).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3eebe9af-57f0-48f3-8b66-973cc4f329d6
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Sid)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

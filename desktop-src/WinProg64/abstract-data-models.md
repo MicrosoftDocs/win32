@@ -4,7 +4,6 @@ description: Every application and every operating system has an abstract data m
 ms.assetid: c670d92b-e64d-4d4c-a30c-cd4fb4f2d0b9
 keywords:
 - abstract data models 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

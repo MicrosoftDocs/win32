@@ -1,15 +1,11 @@
 ---
 title: Example Code for Moving an Object
 description: This topic includes code examples used to move an object in the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a54543b-c6e7-486f-afd1-5380e8a8b727
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Moving an Object AD
 - Active Directory examples Active Directory , moving an object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

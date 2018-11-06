@@ -2,7 +2,6 @@
 Description: Building Graphs with the Capture Graph Builder
 ms.assetid: 0329c4f0-ee6f-423e-b38b-169204e3a31c
 title: Building Graphs with the Capture Graph Builder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

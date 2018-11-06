@@ -2,7 +2,6 @@
 Description: Using CryptoAPI functions to manage certificate stores and the certificates, certificate revocation lists, and certificate trust lists within those stores.
 ms.assetid: 6a56c355-8f24-41cc-88d9-2a02d9863ccf
 title: Managing Certificates with Certificate Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

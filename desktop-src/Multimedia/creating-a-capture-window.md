@@ -4,7 +4,6 @@ description: Creating a Capture Window
 ms.assetid: a727ce14-9b12-4f21-bab4-fa2eb245dce7
 keywords:
 - capCreateCaptureWindow function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

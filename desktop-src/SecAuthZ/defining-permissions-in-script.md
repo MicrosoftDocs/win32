@@ -2,7 +2,6 @@
 Description: Instructions for using the Authorization Manager API to define permissions in Script by creating an authorization policy store.
 ms.assetid: 114426e8-03a7-41e2-96c9-e2da91aa7d84
 title: Defining Permissions in Script
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

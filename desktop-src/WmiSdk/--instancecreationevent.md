@@ -1,12 +1,8 @@
 ---
 Description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
 ms.tgt_platform: multiple
 title: '__InstanceCreationEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

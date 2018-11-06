@@ -1,9 +1,6 @@
 ---
 title: ACS-Direction attribute
 description: Send, Receive, Send/Receive, or None.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 40f58191-db3c-477b-8329-4ac654ccda2f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Direction
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

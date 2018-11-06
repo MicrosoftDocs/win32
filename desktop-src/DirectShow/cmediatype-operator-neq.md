@@ -2,7 +2,6 @@
 Description: This operator tests for inequality between CMediaType objects.
 ms.assetid: 9caf4cb9-f049-42e7-abe4-79f8bf0ea542
 title: CMediaType.CMediaType::operator!= method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

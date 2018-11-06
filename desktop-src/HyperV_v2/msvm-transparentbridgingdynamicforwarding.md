@@ -2,7 +2,6 @@
 Description: Connects a transparent bridging service to a dynamic forward entry (learned MAC address).
 ms.assetid: CA083F15-1E75-4EB9-BE56-95742181FDAC
 title: Msvm_TransparentBridgingDynamicForwarding class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

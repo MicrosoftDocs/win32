@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-SortOrder attribute
 description: The sort order for the current instance of SQL Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cd58cb56-19aa-4ee6-b241-1198b3e9e097
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-SortOrder
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

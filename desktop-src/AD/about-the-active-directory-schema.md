@@ -1,12 +1,8 @@
 ---
 title: About the Active Directory Schema
 description: Every object in Active Directory Domain Services is an instance of an object class defined in the Active Directory schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8fc9cd2d-8fed-4fda-918c-79b01f9a19bb
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

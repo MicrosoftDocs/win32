@@ -15,7 +15,6 @@ keywords:
 - support for multiple languages
 - multiple language support
 - language support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: VGA 16 Color Ditherer Filter
 ms.assetid: 0a5f4e92-e703-4487-91b0-15265744004e
 title: VGA 16 Color Ditherer Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

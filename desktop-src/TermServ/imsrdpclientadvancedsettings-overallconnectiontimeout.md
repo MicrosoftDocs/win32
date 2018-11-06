@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings overallConnectionTimeout property
 description: Specifies the total length of time, in seconds, that the client control waits for a connection to complete.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 02fb24e1-b5e4-4d8e-a1c2-a9bd62a69bed
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

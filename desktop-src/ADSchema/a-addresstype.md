@@ -1,9 +1,6 @@
 ---
 title: Address-Type attribute
 description: A character string that describes the format of the user's address. Address types map to address formats. That is, by looking at a recipient's address type, client applications can determine how to format an address that is appropriate for the recipient.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff39b1f5-1844-43e9-a4a5-2b5f7c396f34
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Address-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

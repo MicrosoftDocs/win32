@@ -1,9 +1,6 @@
 ---
 title: COM-Unique-LIBID attribute
 description: Single-valued string GUID LIBID for a type library.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 95e3e85d-eb2f-4fb9-b8bf-7a4e4070578a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-Unique-LIBID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

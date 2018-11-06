@@ -1,9 +1,6 @@
 ---
 title: Authority-Revocation-List attribute
 description: Cross certificate, Certificate Revocation List.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a9bc7ed3-4600-41a7-bbe5-4ec546a421fa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Authority-Revocation-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

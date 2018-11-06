@@ -2,7 +2,6 @@
 title: Shortcuts for Exposing Custom User Interface Elements
 description: This section describes shortcuts that application developers can use to expose certain kinds of custom user interface elements.
 ms.assetid: 024e1bfd-8cc2-4839-82ae-bd05dfec6449
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

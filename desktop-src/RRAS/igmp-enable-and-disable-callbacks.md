@@ -2,7 +2,6 @@
 title: IGMP Enable and Disable Callbacks
 description: The multicast group manager uses two callbacks to IGMP to coordinate changes in interface ownership from IGMP to a routing protocol, and from a routing protocol to IGMP.
 ms.assetid: e4b2be85-6c67-4801-9905-eb1990d4bbb6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

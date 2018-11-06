@@ -2,7 +2,6 @@
 title: Month Calendar Structures
 description: .
 ms.assetid: 8011fc1b-0266-41be-b4f5-24f351810fe2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

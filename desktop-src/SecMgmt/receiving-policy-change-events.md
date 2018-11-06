@@ -2,7 +2,6 @@
 Description: The LSA provides functions you can use to receive notification when there is a change in policy on the local system.
 ms.assetid: 29c693f5-db2b-4fda-847c-4e5220eadfd3
 title: Receiving Policy Change Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

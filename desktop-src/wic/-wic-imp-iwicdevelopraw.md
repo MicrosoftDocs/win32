@@ -2,7 +2,6 @@
 Description: Implementing IWICDevelopRaw
 ms.assetid: 08371790-b23b-4d2e-9aea-b2c95c854401
 title: Implementing IWICDevelopRaw
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

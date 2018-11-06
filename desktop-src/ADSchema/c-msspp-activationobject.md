@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-Activation-Object class
 description: Activation Object used in Active Directory based activation
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 133a06cd-972e-4aca-b266-be63910f3761
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-Activation-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

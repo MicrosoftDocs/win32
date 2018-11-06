@@ -2,7 +2,6 @@
 title: ALE Multicast/Broadcast Traffic
 description: All inbound multicast and broadcast traffic at the Application Layer Enforcement (ALE) layers is mapped to one global ALE flow.
 ms.assetid: b10b9758-8fce-4256-a25d-917e01336456
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

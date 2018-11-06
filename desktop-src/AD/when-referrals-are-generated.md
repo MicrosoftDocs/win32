@@ -1,14 +1,10 @@
 ---
 title: When Referrals Are Generated
 description: A referral is the way that a directory server communicates that it does not contain the data required to complete a query, but has a reference to a server that may contain the required data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2c11a52a-26e2-4a50-a0a3-5463a0852b27
 ms.tgt_platform: multiple
 keywords:
 - referral generation Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

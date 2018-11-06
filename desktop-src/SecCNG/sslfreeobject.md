@@ -2,7 +2,6 @@
 Description: Frees a key, hash, or provider object.
 ms.assetid: 73fa0a08-4654-4515-bdb2-9951936b689a
 title: SslFreeObject function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

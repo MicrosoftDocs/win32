@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Order-Number attribute
 description: Contains a value that is used by NIS to check if the map has changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2e83980-2de4-4001-b65a-8073c9258b27
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Order-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Releases a shared lock.
 ms.assetid: c2e9eb68-aacb-4196-b09e-d2748efb7fd6
 title: CShareLockNH::ShareUnlock method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

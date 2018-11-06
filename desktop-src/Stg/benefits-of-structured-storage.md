@@ -4,7 +4,6 @@ description: COM provides a set of services collectively called structured stora
 ms.assetid: d05d2dbc-d1d2-4ef8-a773-5337e2746da3
 keywords:
 - Structured Storage Strctd Stg , benefits
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

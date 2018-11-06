@@ -1,9 +1,6 @@
 ---
 title: ms-DS-App-Data class
 description: Stores data that is to be used by an object. For example, profile information for a user object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 39cb20a2-8d74-494e-93ee-e95a0466cd2a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-App-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

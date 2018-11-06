@@ -1,9 +1,6 @@
 ---
 title: NTDS-Connection class
 description: A connection from a remote DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea7ce428-a811-4b8e-8dd2-619743a61ea0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTDS-Connection
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Using Server Data Objects
 description: The following sections provide sample code that demonstrates how to use the Server Data Objects (SDO) API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3d9e697-a541-4c81-a04f-c26c08ecfaba
 ms.tgt_platform: multiple
 keywords:
 - Server Data Objects SDO , tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Late Binding What's Happening Under the Hood
 description: This topic describes how late binding works in ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4ff19fc-d69e-4528-a6e2-2544d9149e8c
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,late binding, what's happening under the hood
 - binding AD ,late binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

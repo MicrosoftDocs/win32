@@ -2,7 +2,6 @@
 title: VML V-Text-Reverse Attribute
 description: VML V-Text-Reverse Attribute
 ms.assetid: ad302b0f-5d93-457d-a8df-c9fce184475e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

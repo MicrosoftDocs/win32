@@ -1,12 +1,8 @@
 ---
 Description: Serves as the parent class for provider-defined error classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fc2747f5-cfbc-4d61-894d-4585a03dda3f
 ms.tgt_platform: multiple
 title: '__NotifyStatus class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Logo attribute
 description: BLOB that contains a logo for this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c9692c2c-01a1-4ab6-9347-05698b1bfcbd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Logo
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

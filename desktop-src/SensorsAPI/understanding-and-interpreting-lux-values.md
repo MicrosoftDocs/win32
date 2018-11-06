@@ -2,7 +2,6 @@
 Description: The primary sensor data type for ambient light sensors is illuminance in lux (lumens per square meter). The principles outlined in this topic are based on taking lux values as input and reacting to that data in a program.
 ms.assetid: 29855779-7c27-4cfe-b8af-b33bc86a1f62
 title: Understanding and Interpreting Lux Values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

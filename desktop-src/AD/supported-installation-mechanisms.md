@@ -1,14 +1,10 @@
 ---
 title: Supported Installation Mechanisms
 description: Active Directory Domain Services support four mechanisms for extending the Active Directory schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3c6b88ad-4cf0-4776-a3e1-d41399494fbf
 ms.tgt_platform: multiple
 keywords:
 - Supported Installation Mechanisms AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: By design, users of the fictitious MNP2000 product should never use upgraded files such as Baseba01.txt.
 ms.assetid: 5aca7ff5-c09f-4d00-b319-2b89550686ab
 title: Updating Components for an Upgrade
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

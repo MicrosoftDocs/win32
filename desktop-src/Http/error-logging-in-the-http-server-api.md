@@ -4,7 +4,6 @@ description: Some kinds of errors are handled by the HTTP Server API rather than
 ms.assetid: b919a718-e20b-4f34-a02e-bc028f8c32c7
 keywords:
 - HTTP Server API, error logging
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

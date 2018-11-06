@@ -6,7 +6,6 @@ keywords:
 - Windows Touch,structures
 - Windows Touch,gestures
 - gestures,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-int8Max attribute
 description: The maximum value for a WMI 64-bit integer parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f2e9949f-7ad6-4e4c-9335-8915062a89a5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-int8Max
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

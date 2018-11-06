@@ -2,7 +2,6 @@
 title: List View Structures
 description: .
 ms.assetid: 12d77514-7281-4873-b456-252ff80ed7f0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

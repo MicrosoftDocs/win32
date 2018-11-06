@@ -2,7 +2,6 @@
 Description: The GetRange method gets the range of valid values for a given stream quality property.
 ms.assetid: 8c5e4652-1a40-4d7d-aa89-606e979dc03d
 title: ITStreamQualityControl::GetRange method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

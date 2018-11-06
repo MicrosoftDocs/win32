@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 7263c927-1b3d-4e29-8367-4c8a126fa991
 title: System.Contact.OtherAddress1Locality
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

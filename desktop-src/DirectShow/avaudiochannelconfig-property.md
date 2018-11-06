@@ -2,7 +2,6 @@
 Description: Gets the speaker configuration for the audio channels in the audio bit stream.
 ms.assetid: ec13bb55-47af-4d79-9560-d297bce8e236
 title: AVAudioChannelConfig property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

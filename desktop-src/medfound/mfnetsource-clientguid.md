@@ -2,7 +2,6 @@
 Description: Unique identifier by which the server identifies the client.
 ms.assetid: 490a2b03-aba8-4510-80c5-ca12f4037747
 title: MFNETSOURCE_CLIENTGUID property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

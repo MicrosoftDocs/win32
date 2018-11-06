@@ -1,9 +1,6 @@
 ---
 title: Win32_TSVirtualIPSetting class
 description: Represents the association between a Win32\_TerminalService element class and a Win32\_TSVirtualIP setting class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06a78b4d-973a-4912-b7e6-bc490197c4a6
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

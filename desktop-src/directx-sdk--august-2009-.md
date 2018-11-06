@@ -2,7 +2,6 @@
 Description: Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK.
 ms.assetid: d8765da9-e7cf-47e8-8bc3-4b29162da41b
 title: Where is the DirectX SDK?
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

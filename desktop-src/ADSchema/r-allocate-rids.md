@@ -1,9 +1,6 @@
 ---
 title: Allocate-Rids extended right
 description: Extended right needed to request rid pool.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 104ac543-e104-4882-b787-22f263a6e756
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Allocate-Rids
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

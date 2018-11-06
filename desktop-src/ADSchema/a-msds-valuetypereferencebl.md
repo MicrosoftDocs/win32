@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Value-Type-Reference-BL attribute
 description: This is the back link for ms-DS-Value-Type-Reference. It links a value type object back to resource properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4dd9f17d-4d05-4f7c-9aab-a854a726555e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Value-Type-Reference-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

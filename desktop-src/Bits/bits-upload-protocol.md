@@ -2,7 +2,6 @@
 title: BITS Upload Protocol
 description: This section describes the network protocol for BITS upload and upload-reply job types.
 ms.assetid: d0706ab1-1bf4-4b17-9321-ec3e00dd25e2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

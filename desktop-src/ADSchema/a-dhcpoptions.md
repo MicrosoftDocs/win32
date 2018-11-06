@@ -1,9 +1,6 @@
 ---
 title: dhcp-Options attribute
 description: The dhcp-Options attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc49b9fa-4ee5-47ef-aa72-a475e7f73035
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Options
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

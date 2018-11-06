@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Schedule attribute
 description: Contains the replication schedule for the Distributed File System (DFS) Replication service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6dfcce16-44a4-4f7a-93ba-0c0d50605682
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Schedule
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Control-Access-Right class
 description: Identifies an extended right that can be granted or revoked by using an ACL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 87abaa8d-ca5b-46a2-b4e8-231a8542f509
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Control-Access-Right
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Source Reader Attributes
 ms.assetid: 312a588a-848b-4563-893a-fac49a4ca465
 title: Source Reader Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

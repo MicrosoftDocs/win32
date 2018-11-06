@@ -1,12 +1,8 @@
 ---
 Description: Another way of creating a namespace is to use Managed Object Format (MOF) code to create a sibling namespace. A sibling namespace is a namespace that does not exist as a child of the current namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1a3f8569-e725-4158-9a2b-b440b9247925
 ms.tgt_platform: multiple
 title: Creating a Sibling Namespace with MOF Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

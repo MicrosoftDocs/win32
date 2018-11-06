@@ -2,7 +2,6 @@
 Description: A SET contains an unordered series of fields of one or more types.
 ms.assetid: 6bbe89da-1177-4cfa-9515-03b271e5ef6b
 title: SET
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

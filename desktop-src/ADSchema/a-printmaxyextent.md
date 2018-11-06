@@ -1,9 +1,6 @@
 ---
 title: Print-Max-Y-Extent attribute
 description: The maximum vertical print region.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e146aca-54e0-47c9-8284-dcce23a1c795
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Max-Y-Extent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

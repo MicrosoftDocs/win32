@@ -1,7 +1,6 @@
 ---
 Description: Writes a full event to a session.
 title: EtwEventWriteFull
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

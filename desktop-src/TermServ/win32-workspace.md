@@ -1,9 +1,6 @@
 ---
 title: Win32_Workspace class
 description: Specifies Remote Desktop Services workspace configuration information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27192dca-cbb4-4620-ae52-c27aba4b4dff
 ms.tgt_platform: multiple
 keywords:
@@ -26,7 +23,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

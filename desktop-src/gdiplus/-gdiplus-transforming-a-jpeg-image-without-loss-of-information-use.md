@@ -2,7 +2,6 @@
 Description: When you compress a JPEG image, some of the information in the image is lost.
 ms.assetid: d7342195-9634-4968-87c1-a94bc6a7e112
 title: Transforming a JPEG Image Without Loss of Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

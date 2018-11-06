@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings IconIndex property
 description: Specifies the index of the icon within the current icon file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c29ae1a7-9c54-4e56-bb69-4e929e8a4e5c
 ms.tgt_platform: multiple
 keywords:
@@ -51,7 +48,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

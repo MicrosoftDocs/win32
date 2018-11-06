@@ -2,7 +2,6 @@
 Description: Proxy function for the InitializeCustom method.
 ms.assetid: fe742b12-5338-41b0-b90b-aec852a26518
 title: IWICPalette_InitializeCustom_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

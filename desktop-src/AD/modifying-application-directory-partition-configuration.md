@@ -1,15 +1,11 @@
 ---
 title: Modifying Application Directory Partition Configuration
 description: An application directory partition can be modified by changing certain attributes of the crossRef object that represents the application directory partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4db5b3f-7d80-46a0-8a3a-9b1eb3c9f7b1
 ms.tgt_platform: multiple
 keywords:
 - Modifying Application Directory Partition Configuration AD
 - Application Directory Partitions AD , Modifying Configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

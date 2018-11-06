@@ -1,15 +1,11 @@
 ---
 title: Active Directory Service Interfaces Scripting
 description: This topic contains an introduction to scripting for ADSI applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df3b0a87-2a35-4cb9-9253-4695b5709318
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Service Interfaces Scripting ADSI
 - ADSI ADSI , Scripting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

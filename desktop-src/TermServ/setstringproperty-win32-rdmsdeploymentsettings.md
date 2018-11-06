@@ -1,9 +1,6 @@
 ---
 title: SetStringProperty method of the Win32_RDMSDeploymentSettings class
 description: Updates a string property for the deployment settings of a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 500ab1cb-7336-47a8-adee-790976ea30fe
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

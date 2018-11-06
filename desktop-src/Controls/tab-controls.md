@@ -2,7 +2,6 @@
 title: About Tab Controls
 description: A tab control is analogous to the dividers in a notebook or the labels in a file cabinet. By using a tab control, an application can define multiple pages for the same area of a window or dialog box.
 ms.assetid: 55ed2863-7f8d-43ce-a0f9-6f6d41e3f947
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

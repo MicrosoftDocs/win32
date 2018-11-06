@@ -2,7 +2,6 @@
 Description: Windows includes the following new programming elements for synchronization.
 ms.assetid: 16cd98d2-adc5-4a14-ad39-a0c5b4cc00cc
 title: What's New in Synchronization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

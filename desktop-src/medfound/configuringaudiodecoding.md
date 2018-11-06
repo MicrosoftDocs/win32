@@ -2,7 +2,6 @@
 Description: Configuring Audio Decoding
 ms.assetid: 362bd3bc-1474-4132-a8a8-e5dc0bba80e7
 title: Configuring Audio Decoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

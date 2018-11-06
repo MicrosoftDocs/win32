@@ -2,7 +2,6 @@
 Description: The ISearchCatalogManager and ISearchCatalogManager2 interfaces provide methods to manage a search catalog, such as causing re-indexing or setting time-outs.
 ms.assetid: 8dad7012-d610-4398-8e86-cd319db8c360
 title: Using the Catalog Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -62,7 +61,7 @@ When you install a new application, protocol handler, or filter, the setup appli
 
 **Resetting the Index.** You can reset the entire index with a call to [**ISearchCatalogManager::Reset**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reset). This resets the underlying catalog by rebuilding the databases and performing a full index of all URLs in the crawl scope. This process can take a lot of time and should be used only as a last resort for solving issues such as a possibly corrupted index.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Because of the slowdown in indexing that these methods can cause, they should be used carefully when you are trying to identify indexing or catalog problems. First, make sure your search roots and scope rules are added in the Crawl Scope Manager, and then make sure that the FANCI bit (File Attribute Not Content Indexed) is set properly for files and folders. If you have confirmed that these are correct, try ReindexSearchRoot first and Reindex last. If neither of these work, then try Reset as a last resort.
 
  

@@ -2,7 +2,6 @@
 Description: Sets an integer value.
 ms.assetid: b57d30b5-c2b5-469e-a267-24e6e712d645
 title: ID3DXConstantTable::SetInt method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -2,7 +2,6 @@
 Description: The LoadStringAddr function transforms a string (such as &\#0034;157.54.32.45&\#0034;) and creates a DWORD address.
 ms.assetid: 305e0072-b597-4cd5-975e-94103a1680aa
 title: LoadStringAddr function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

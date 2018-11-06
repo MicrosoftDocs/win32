@@ -16,7 +16,6 @@ keywords:
 - TSF (Text Services Framework),international keyboards
 - text services,international keyboards
 - international keyboards
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -67,7 +66,7 @@ The [**ImmInstallIME**](https://msdn.microsoft.com/library/windows/desktop/dd318
 
 Installing only the 32-bit version of an IME on 64-bit Windows is neither recommended nor supported. If a 64-bit application attempts to load a 32-bit IME, the IME fails silently when the application attempts to load the associated keyboard layout.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > No warning dialog or message displays when a 64-bit application/32-bit IME conflict error occurs.
 
@@ -114,7 +113,7 @@ The 64-bit version and the 32-bit version of a text service might be in use simu
 
 Installing only the 32-bit version of a text service on a 64-bit Windows platform is neither recommended nor supported. Because of the registration mapping that is done on 64-bit Windows platforms, a 64-bit application can enumerate the services of a 32-bit Text Service through the **ITfInputProcessorProfiles** interface. However, if a 64-bit application attempts to load a 32-bit text service, the load fails silently.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > No warning dialog or message displays when a 64-bit application/32-bit text service conflict error occurs.
 
@@ -142,13 +141,13 @@ On 64-bit Windows platforms, install the 32-bit and 64-bit text service DLLs, as
 
 If you are not using a Windows Installer package to install your IME or text service, it is strongly recommnded that you use a 64-bit installation application. The WOW64 file system redirector might cause 32-bit installers to place files in the wrong directories (for example, WOW64 file system redirection might cause files intended for the System32 directory to be installed in the SysWOW64 directory instead). If you must use a 32-bit installer, disable WOW64 file redirection during the installation process to ensure that the file-redirector service does not cause any unintended redirection during the installation process. For information about the WOW64 file system redirector, see [File System Redirector](https://msdn.microsoft.com/library/windows/desktop/aa384187). For information about how to disable or enable WOW64 file system redirection, see [**Wow64EnableWow64FsRedirection**](https://msdn.microsoft.com/library/windows/desktop/aa365744).
 
-> \[!Tip\]
+> [!TIP]
 >
 > Avoid hard-coded installation paths. For more information, see [Locate Directories Using the Application Programming Interface Not Hard-Coded Paths](https://msdn.microsoft.com/library/ms675638(v=VS.85).aspx)
 
  
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > Do not install any IME or text service files in the special directory %WINDIR%\\IME (by default, c:\\Windows\\IME ). This directory contains system files that support text services and IMEs; it is not intended to contain any third-party IME or text service files, and WOW64 file system redirection is not supported for this directory.
 

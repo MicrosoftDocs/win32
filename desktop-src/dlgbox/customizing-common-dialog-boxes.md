@@ -6,7 +6,6 @@ keywords:
 - Common Dialog Box Library,customizing
 - common dialog boxes,customizing
 - customizing common dialog boxes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

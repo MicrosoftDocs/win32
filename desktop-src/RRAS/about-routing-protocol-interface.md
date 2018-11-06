@@ -7,7 +7,6 @@ keywords:
 - Routing and Remote Access Service RRAS , Routing Protocol Interface, described
 - Routing Protocol Interface RRAS
 - Routing Protocol Interface RRAS , described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

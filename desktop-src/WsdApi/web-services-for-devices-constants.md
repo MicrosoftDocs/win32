@@ -2,7 +2,6 @@
 Description: The following constants are used by Web Services on Devices.
 ms.assetid: ef3df24a-46a1-49de-b2f7-bfccdc793462
 title: Web Services on Devices Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

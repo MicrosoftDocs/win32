@@ -2,7 +2,6 @@
 title: Determining Which Interface an Object Supports
 description: Determining Which Interface an Object Supports
 ms.assetid: cf2aacb7-5315-4907-a49b-3eb3bbfd13d1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

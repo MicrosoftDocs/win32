@@ -1,14 +1,10 @@
 ---
 title: ADSI Extension Architecture
 description: ADSI extensions are based on the COM aggregation model with several enhancements. Extensions must adhere to all COM rules. For more information, see the COM specification.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 59e39273-1f66-4bdd-89ed-31947a268d1f
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,extension architecture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

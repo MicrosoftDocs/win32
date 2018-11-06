@@ -1,12 +1,8 @@
 ---
 Description: System administrators can use WMI to monitor events on a network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 871d4add-a7b1-4ec9-a202-3821fdf09e9f
 ms.tgt_platform: multiple
 title: Monitoring Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The DisplayName property of the ConfigurableItem object returns the value from the DisplayName column of the ModuleConfiguration table.
 ms.assetid: f2025bab-73b0-46d2-a276-0ad17fdd9783
 title: ConfigurableItem.DisplayName property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

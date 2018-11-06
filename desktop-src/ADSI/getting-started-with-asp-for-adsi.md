@@ -1,16 +1,12 @@
 ---
 title: Getting Started with ASP for ADSI
 description: ADSI can be used to access directory data using an ASP page. This can be a convenient way to run administration tasks and queries from a webpage or provide information to employees on an intranet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2007257c-6c4e-415e-9ab5-e65d8d9e5dd4
 ms.tgt_platform: multiple
 keywords:
 - ASP ADSI
 - ADSI, ASP Pages
 - ADSI, ASP Pages, ASP Code Example
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Both C++ providers and client applications must perform many of the same operations to maintain WMI security.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0199f469-2666-4794-b364-36c54aa360a8
 ms.tgt_platform: multiple
 title: Securing C++ Clients and Providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

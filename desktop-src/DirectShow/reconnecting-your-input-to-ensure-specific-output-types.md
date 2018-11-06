@@ -2,7 +2,6 @@
 Description: Reconnecting Your Input to Ensure Specific Output Types
 ms.assetid: c83d002e-59bf-4d03-9917-e39ceab9a4ce
 title: Reconnecting Your Input to Ensure Specific Output Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

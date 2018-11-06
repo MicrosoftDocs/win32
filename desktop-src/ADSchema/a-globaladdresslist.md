@@ -1,9 +1,6 @@
 ---
 title: Global-Address-List attribute
 description: This attribute is used on a Microsoft Exchange container to store the distinguished name of a newly created global address list (GAL).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0da2bafe-ecdf-4b75-9461-08a35151b85c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Global-Address-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

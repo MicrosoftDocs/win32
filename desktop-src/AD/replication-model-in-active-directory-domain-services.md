@@ -1,8 +1,5 @@
 ---
 title: Replication Model in Active Directory Domain Services
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ca32986e-9cf3-4bea-bd94-9a16a1bd1e61
 ms.tgt_platform: multiple
 description: 
@@ -10,7 +7,6 @@ keywords:
 - Active Directory Domain Services,using,replication and data recovery,replication model
 - replication Active Directory
 - Active Directory Domain Services,using,replication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

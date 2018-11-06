@@ -2,7 +2,6 @@
 Description: Providing a Custom Allocator
 ms.assetid: 4ce2db4b-c901-43a5-b905-7d6d923c940b
 title: Providing a Custom Allocator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

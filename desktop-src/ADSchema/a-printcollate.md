@@ -1,9 +1,6 @@
 ---
 title: Print-Collate attribute
 description: TRUE if a printer has collating bins.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 391a582b-41b5-4014-99ef-4b8c05a21c4c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Collate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

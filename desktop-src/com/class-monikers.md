@@ -2,7 +2,6 @@
 title: Class Monikers
 description: Although classes are typically identified directly with CLSIDs to functions such as CoCreateInstance or CoGetClassObject, classes may also now be identified with a moniker called a class moniker.
 ms.assetid: 63f5d256-cb61-4673-b5d6-da5c1d89dfa5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Asynchronous Example Application
 description: The following example demonstrated sending a request asynchronously.
 ms.assetid: 1dd32e17-88bb-4729-80f6-f4f1184788d5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

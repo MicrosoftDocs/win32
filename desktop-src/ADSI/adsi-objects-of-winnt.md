@@ -1,14 +1,10 @@
 ---
 title: ADSI Objects of WinNT
 description: The ADSI WinNT provider implement the following COM objects to support features and services of various ADSI interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ce6f8638-aa9e-4036-b597-077da4c3c534
 ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI ,ADSI objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

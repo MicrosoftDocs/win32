@@ -2,7 +2,6 @@
 Description: Windows XP user accounts enable multiple users to be logged on simultaneously, each with his or her own settings and each running his or her own applications.
 ms.assetid: bc404afc-f73e-404d-854d-faab5cf205a5
 title: User Accounts with Fast User Switching and Remote Desktop
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -54,7 +53,7 @@ Applications can use this message to track their state, as well as to release an
 
 When your process no longer requires these notifications or is terminating, it should call [**WTSUnRegisterSessionNotification**](https://msdn.microsoft.com/en-us/library/Aa383847(v=VS.85).aspx) to unregister its notification.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The **hWnd** values passed to [**WTSRegisterSessionNotification**](https://msdn.microsoft.com/en-us/library/Aa383841(v=VS.85).aspx) are reference counted, so you must make an equal number of calls to [**WTSUnRegisterSessionNotification**](https://msdn.microsoft.com/en-us/library/Aa383847(v=VS.85).aspx) to ensure the release of all allocated resources.
 
  

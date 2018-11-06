@@ -2,7 +2,6 @@
 Description: 'Cryptography API: Next Generation (CNG) defines the following constants.'
 ms.assetid: 8bbd6c95-82ed-492e-86b7-4cd55252be94
 title: CNG Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

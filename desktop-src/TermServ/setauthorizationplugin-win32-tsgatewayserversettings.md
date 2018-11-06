@@ -1,9 +1,6 @@
 ---
 title: SetAuthorizationPlugin method of the Win32_TSGatewayServerSettings class
 description: Sets the current authorization plug-in for the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 236c9cca-4efc-433a-8f1f-e3044e0588b3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

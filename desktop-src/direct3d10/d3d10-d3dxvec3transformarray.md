@@ -2,7 +2,6 @@
 Description: Transforms an array (x, y, z, 1) by a given matrix.
 ms.assetid: f64c55df-ea93-4c93-be89-eee650e6ecf0
 title: D3DXVec3TransformArray function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

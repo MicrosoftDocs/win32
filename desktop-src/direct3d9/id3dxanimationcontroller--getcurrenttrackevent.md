@@ -2,7 +2,6 @@
 Description: Returns an event handle to the event currently running on the specified animation track.
 ms.assetid: 2e3d4b85-42f0-463f-9eca-d9b1fa8932f6
 title: ID3DXAnimationController::GetCurrentTrackEvent method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

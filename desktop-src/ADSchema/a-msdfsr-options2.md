@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Options2 attribute
 description: Object Options2.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8733fca8-e26e-46a9-b3bd-315de36e4630
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Options2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

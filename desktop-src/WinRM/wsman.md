@@ -1,9 +1,6 @@
 ---
 title: WSMan object
 description: Provides methods and properties used to create a session, represented by a Session object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 45895a4e-b7de-4469-ae78-6d1d3f9d6145
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

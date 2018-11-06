@@ -1,12 +1,8 @@
 ---
 title: ITsSbResourcePluginStore Methods
 description: The ITsSbResourcePluginStore interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D3D59244-E319-47C8-A931-72679C11AC40
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: LOCALE\_ITLZERO
 ms.assetid: 63bc2ada-c695-4de0-9a3c-8660fa0593af
 title: LOCALE_ITLZERO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

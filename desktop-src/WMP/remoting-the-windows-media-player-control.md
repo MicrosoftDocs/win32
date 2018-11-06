@@ -19,7 +19,6 @@ keywords:
 - ActiveX control,remoting
 - remoting Windows Media Player ActiveX control
 - embedding,remoting ActiveX control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

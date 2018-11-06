@@ -2,7 +2,6 @@
 Description: Sets the current Automatic Logon Policy.
 ms.assetid: bc8e8c9c-574e-4392-b336-2c06947022ee
 title: IWinHttpRequest::SetAutoLogonPolicy method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

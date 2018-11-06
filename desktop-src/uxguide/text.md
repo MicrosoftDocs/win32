@@ -2,7 +2,6 @@
 title: Text
 description: Text includes any text users can see in your app. Review these guidelines on the use of UI text, style, and tone for your apps.
 ms.assetid: C0C72078-E951-4DC1-BA55-62AF13E1BA37
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

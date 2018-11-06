@@ -1,9 +1,6 @@
 ---
 title: DMD class
 description: Directory Management Domain. In Active Directory, this is the class that holds the schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a9cc4a82-ddab-415c-9f78-6c4a4ec44893
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DMD
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

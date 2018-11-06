@@ -2,7 +2,6 @@
 title: How to Use Rich Edit Control Notification Codes
 description: A rich edit control's parent window can process notification codes to monitor events that affect the control. Rich edit controls support all of the notification codes that are used with edit controls, as well as several additional ones.
 ms.assetid: E045EADE-CB37-492A-85EC-6CF236677F08
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

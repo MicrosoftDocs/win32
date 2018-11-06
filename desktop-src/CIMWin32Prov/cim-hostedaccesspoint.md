@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_HostedAccessPoint class represents an association between a service access point (SAP) and the system on which it is provided. Each system may host many SAPs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7da9b781-a5cb-42f5-b03c-4fc818c94e88
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_HostedAccessPoint class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_HostedAccessPoint** class represents an association between a service access point (SAP) and the system on which it is provided. Each system may host many SAPs.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

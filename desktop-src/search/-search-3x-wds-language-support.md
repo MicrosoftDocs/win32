@@ -2,7 +2,6 @@
 Description: This topic describes how Windows Search supports multiple languages.
 ms.assetid: a800d2ac-3aee-4e74-a29a-a70355138ebc
 title: Languages Supported by Windows Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -38,7 +37,7 @@ HKEY_LOCAL_MACHINE
                      WBreakerClass = CLSID
 ```
 
-> \[!Tip\]  
+> [!TIP]
 > If you make changes to the registry, restart Windows Search.
 
  
@@ -51,7 +50,7 @@ Locale information for indexed content is retrieved from the source of the conte
 
 For example, if you implement a filter handler (an implementation of the [**IFilter**](https://www.bing.com/search?q=**IFilter**) interface), property handler, or protocol handler, you should set the locale for indexed content to [**LOCALE\_NEUTRAL**](https://msdn.microsoft.com/en-us/library/Dd373818(v=VS.85).aspx) unless you have specific locale information and are confident of its accuracy.
 
-> \[!Tip\]  
+> [!TIP]
 > If an index query is based on user input, the locale should match the language in which the user is typing. You can determine this locale by calling the [**GetKeyboardLayout**](https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx) function.
 
  

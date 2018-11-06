@@ -1,9 +1,6 @@
 ---
 title: Netboot-Machine-File-Path attribute
 description: This attribute specifies the server that answers the client. Beginning with the Windows Server 2003 operating system, it can indicate the Startrom.com that the client gets.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8706bf38-8027-4260-b382-4d4c2a6e0f6e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Netboot-Machine-File-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

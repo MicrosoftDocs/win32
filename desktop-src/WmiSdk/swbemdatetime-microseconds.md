@@ -1,12 +1,8 @@
 ---
 Description: Gets or sets a value that represents the microseconds component of the datetime value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b810b781-86a3-4730-8114-44d10454f7c3
 ms.tgt_platform: multiple
 title: SWbemDateTime.Microseconds property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

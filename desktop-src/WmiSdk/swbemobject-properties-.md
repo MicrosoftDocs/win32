@@ -1,12 +1,8 @@
 ---
 Description: The Properties\_ property of the SWbemObject object returns an SWbemPropertySet object that is a collection of the properties for the current class or instance. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8dd49678-47e7-4c6b-ab12-42532065eaf2
 ms.tgt_platform: multiple
 title: SWbemObject.Properties_ property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

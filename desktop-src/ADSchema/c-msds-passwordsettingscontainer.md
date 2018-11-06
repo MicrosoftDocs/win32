@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Password-Settings-Container class
 description: Container for password settings objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45e55a1d-63a9-41e5-ac54-3ed467251d3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Password-Settings-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - capPaletteAuto macro
 - WM_CAP_PAL_MANUALCREATE message
 - capPaletteManual macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - ASF (Advanced Systems Format),synchronous readers
 - synchronous readers,retrieving stream samples
 - streams,retrieving samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

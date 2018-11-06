@@ -2,7 +2,6 @@
 title: How the Client Establishes a Connection
 description: To establish a client/server communication session with a server program, client applications with explicit handles need to create a binding handle.
 ms.assetid: c67c9b1a-084f-4b85-ac6c-8cf25a6b0cca
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

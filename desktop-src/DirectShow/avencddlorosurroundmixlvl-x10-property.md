@@ -2,7 +2,6 @@
 Description: Specifies the level shift that is applied to the Surround channels for Lo/Ro downmixing. This property applies to Dolby Digital audio encoders.
 ms.assetid: 66b46a57-288b-49e5-bf97-90c6d61ccfaa
 title: AVEncDDLoRoSurroundMixLvl_x10 property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

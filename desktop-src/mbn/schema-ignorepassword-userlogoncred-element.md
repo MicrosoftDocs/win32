@@ -2,7 +2,6 @@
 Description: Specifies how to handle passwords when upgrading profiles.
 ms.assetid: 74d7ceb1-d778-4a12-907b-0528d9ff45be
 title: IgnorePassword (UserLogonCred) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

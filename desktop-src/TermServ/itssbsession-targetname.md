@@ -1,9 +1,6 @@
 ---
 title: ITsSbSession TargetName property
 description: Retrieves the name of the target on which this session was created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ab4cdd6-9f5f-4253-9b80-6cc35cff8b79
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

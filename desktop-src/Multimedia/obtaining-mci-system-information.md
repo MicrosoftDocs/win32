@@ -4,7 +4,6 @@ description: Obtaining MCI System Information
 ms.assetid: 06175d6e-6d09-4c95-93e9-03af870a2d3f
 keywords:
 - MCI_SYSINFO command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

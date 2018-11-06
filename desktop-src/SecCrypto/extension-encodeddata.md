@@ -2,7 +2,6 @@
 Description: Retrieves the encoded data for the extension.
 ms.assetid: 79811557-6d7e-4d19-bcbb-1f79455dd286
 title: Extension.EncodedData property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

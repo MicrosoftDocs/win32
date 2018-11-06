@@ -1,9 +1,6 @@
 ---
 title: ms-DS-isGC attribute
 description: Identifies the state of the Global Catalog on the DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 96caecc8-35f7-4a1b-a6c5-11d339d644bb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-isGC
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

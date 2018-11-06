@@ -11,7 +11,6 @@ keywords:
 - VFW (Video for Windows),custom stream handler functions
 - VFW (Video for Windows),file handler functions
 - VFW (Video for Windows),stream handler functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section describes the Windows Property System interfaces.
 ms.assetid: d81fe8df-9fd6-4ace-a47f-214cbba6f30c
 title: Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

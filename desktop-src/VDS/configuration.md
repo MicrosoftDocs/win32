@@ -2,7 +2,6 @@
 Description: Configuration Overview
 ms.assetid: 5cdc21a1-ff55-4c36-8106-b045256778ce
 title: Configuration Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

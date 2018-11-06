@@ -2,7 +2,6 @@
 Description: The IncrementPaletteVersion method increments the palette version. Call this method if the media type changes to a new palettized format.
 ms.assetid: 1ce77f97-d225-45f5-a259-1dcca1272d15
 title: CDrawImage.IncrementPaletteVersion method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

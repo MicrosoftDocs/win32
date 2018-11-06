@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Endpoint-Plugin attribute
 description: This attribute represents the name of the plug-in that handles the orchestration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 99f6acd3-1e3c-45bd-bdd2-3add56630397
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Endpoint-Plugin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Label-Ex attribute
 description: A string that describes the type of service provided by the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 09dff3ce-f0c5-40c7-993f-6c78644bc721
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Label-Ex
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Stores an ordered pair of integers, typically the width and height 
 ms.assetid: e28da5ee-7d68-4ec5-b477-c6ead0c725e6
 keywords:
 - D2D1_SIZE_U
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

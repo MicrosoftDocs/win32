@@ -1,9 +1,6 @@
 ---
 title: Schema-Update attribute
 description: The Schema-Update attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 520c8e3f-4327-41c2-9ddf-15d1e5fb3f58
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Schema-Update
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

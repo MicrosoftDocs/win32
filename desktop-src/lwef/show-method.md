@@ -2,7 +2,6 @@
 title: Show Method
 description: Show Method
 ms.assetid: 58adbb55-f4cb-4356-abc4-b85fa3af744d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

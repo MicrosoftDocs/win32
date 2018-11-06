@@ -1,9 +1,6 @@
 ---
 title: Driver-Version attribute
 description: The Version number of device driver.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 915690aa-1a5e-4cef-8737-6a44e935d33a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Driver-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetSessionDirectoryExposeServerIP method of the Win32_TSSessionDirectory class
 description: Sets the SessionDirectoryExposeServerIP property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ae9a0c72-0a0a-42a0-a233-13da1efe60ef
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Domain-ID attribute
 description: Reference to a domain that is associated with a certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd2f0822-cf94-485b-8d21-8954dddb81ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

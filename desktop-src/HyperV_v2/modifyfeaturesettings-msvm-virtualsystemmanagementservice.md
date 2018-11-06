@@ -2,7 +2,6 @@
 Description: Modifies the current feature settings of a virtual machine Ethernet connection.
 ms.assetid: 3caa810f-0444-45cf-88a4-e93d04accb46
 title: ModifyFeatureSettings method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

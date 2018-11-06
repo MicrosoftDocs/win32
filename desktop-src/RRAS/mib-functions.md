@@ -2,7 +2,6 @@
 title: Router Management MIB Functions
 description: Use the following router manager functions to query and set MIB variables
 ms.assetid: c911daa4-4f3d-4944-9dc0-695a4efbcb1b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

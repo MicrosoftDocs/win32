@@ -2,7 +2,6 @@
 title: Operating system now controls power to optical disk drives
 description: Operating system now controls power to optical disk drives
 ms.assetid: FDAE818F-742E-4E8C-9426-2AA86B42B0D9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

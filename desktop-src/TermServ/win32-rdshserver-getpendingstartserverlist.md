@@ -1,9 +1,6 @@
 ---
 title: GetPendingStartServerList method of the Win32_RDSHServer class
 description: Retrieves a list of server waiting to start.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7af7a0e7-dc00-4e3a-8e0c-5987bd2bc3a2
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

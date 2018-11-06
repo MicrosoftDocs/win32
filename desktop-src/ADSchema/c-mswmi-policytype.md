@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-PolicyType class
 description: Communicate schema for policy objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf89a4cb-cf42-4f80-b16e-8c958eafb5ae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-PolicyType
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

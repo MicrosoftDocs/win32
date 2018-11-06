@@ -2,7 +2,6 @@
 Description: ICE40 does miscellaneous validation.
 ms.assetid: 1f2ba2a1-0170-4434-88fd-a5d1ca8b67c4
 title: ICE40
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

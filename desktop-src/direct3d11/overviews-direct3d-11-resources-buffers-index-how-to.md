@@ -4,7 +4,6 @@ description: This topic shows how to initialize an index buffer in preparation f
 ms.assetid: 4b33d32a-27fd-4652-87ac-3b7268881f89
 keywords:
 - index buffer, creating
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

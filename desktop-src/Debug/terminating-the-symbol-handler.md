@@ -2,7 +2,6 @@
 Description: The following code cleans up all memory associated with symbol handling for the specified process, using SymCleanup.
 ms.assetid: 270a1984-9e66-4dd2-accb-d715287f1ec0
 title: Terminating the Symbol Handler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

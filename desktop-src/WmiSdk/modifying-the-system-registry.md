@@ -1,12 +1,8 @@
 ---
 Description: The system registry contains configuration data that the operating system, services, and applications use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e16a5d4c-46a0-4798-894d-0af4cfa18f22
 ms.tgt_platform: multiple
 title: Modifying the System Registry
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

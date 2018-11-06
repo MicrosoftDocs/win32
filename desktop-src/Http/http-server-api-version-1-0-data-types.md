@@ -7,7 +7,6 @@ keywords:
 - HTTP_RAW_CONNECTION_ID type HTTP
 - HTTP_REQUEST_ID type HTTP
 - HTTP_URL_CONTEXT type HTTP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Obtain information about currently executing applications. Take sna
 ms.assetid: bc8e3129-049f-491e-98e2-391e824976ca
 keywords:
 - tool help library
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

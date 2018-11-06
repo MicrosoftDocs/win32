@@ -2,7 +2,6 @@
 Description: Indicates the audio compression used on the audio file.
 ms.assetid: 60c10412-ceda-42f8-8271-6ac82819b72f
 title: System.Audio.Compression
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

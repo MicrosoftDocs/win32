@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Deleted-Object-Lifetime attribute
 description: Lifetime of a deleted object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e06e66d2-5240-4509-9bfb-f20091db7481
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Deleted-Object-Lifetime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Displays the certificate.
 ms.assetid: bd9a0abc-c8ab-4d87-81e3-aab02d992c39
 title: ICertificate2::Display method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

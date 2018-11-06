@@ -1,9 +1,6 @@
 ---
 title: SID-History attribute
 description: Contains previous SIDs used for the object if the object was moved from another domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d738002b-fc05-4c60-aaf9-b83be61ed5a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SID-History
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

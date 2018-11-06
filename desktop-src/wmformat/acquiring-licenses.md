@@ -22,7 +22,6 @@ keywords:
 - DRM (digital rights management),licenses
 - DRM Client Extended APIs,acquiring licenses
 - Client Extended APIs,acquiring licenses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

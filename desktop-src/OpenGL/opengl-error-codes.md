@@ -11,7 +11,6 @@ keywords:
 - GL_STACK_OVERFLOW error code
 - GL_STACK_UNDERFLOW error code
 - GL_OUT_OF_MEMORY error code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

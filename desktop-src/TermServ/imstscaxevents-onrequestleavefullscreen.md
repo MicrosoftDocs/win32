@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRequestLeaveFullScreen method
 description: Called when the client requests to leave full-screen mode and the IMsTscAdvancedSettings put\_ContainerHandledFullScreen property has been set to a nonzero value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: db6ee012-8288-4360-98b2-12858ea65baa
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

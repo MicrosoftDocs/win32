@@ -1,9 +1,6 @@
 ---
 title: Categories attribute
 description: List of category IDs (GUIDs) for categories that apply to this application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4a3b166-9424-4cb7-bf71-6e312e9818dc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Categories
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

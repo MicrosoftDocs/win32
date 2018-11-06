@@ -2,7 +2,6 @@
 Description: Internal Script Command Renderer Filter
 ms.assetid: 264cc7c3-987c-4832-85a2-087278a4d024
 title: Internal Script Command Renderer Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

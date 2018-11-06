@@ -2,7 +2,6 @@
 title: dcl_output_sgv (sm4 - asm)
 description: dcl\_output\_sgv (sm4 - asm)
 ms.assetid: 0723541e-a97d-4b31-aaba-e7d1172137a6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

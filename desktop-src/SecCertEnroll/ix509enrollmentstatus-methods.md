@@ -2,7 +2,6 @@
 Description: The IX509EnrollmentStatus interface exposes the following methods.
 ms.assetid: 2D060297-4CAE-4558-A294-4C8BD5750AE4
 title: IX509EnrollmentStatus Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

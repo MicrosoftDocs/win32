@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings PluginDlls property
 description: Specifies the names of virtual channel client DLLs to be loaded.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4b248fb8-200a-4ce0-8c8e-ce1692a80d88
 ms.tgt_platform: multiple
 keywords:
@@ -51,7 +48,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

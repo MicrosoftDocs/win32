@@ -2,7 +2,6 @@
 Description: Retrieves the primitive data referred by TLVs (tag, length, value) for the specified object.
 ms.assetid: 135aeb9a-b851-4522-862f-02a7e020c36b
 title: ISCardFileAccess::GetProperties method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

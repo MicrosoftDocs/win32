@@ -1,9 +1,6 @@
 ---
 title: Object(Replica-Link) syntax
 description: Object(Replica-Link) syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 772dee62-1e87-44dd-aa8a-91762a87d9bc
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(Replica-Link)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

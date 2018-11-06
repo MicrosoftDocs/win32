@@ -2,7 +2,6 @@
 Description: The following list provides concise descriptions of each Winsock IPX/SPX structure. For additional information on any structure, click the structure name.
 ms.assetid: 7f14fb4f-2274-42bc-ba7e-00ceecb705b0
 title: Winsock IPX/SPX Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

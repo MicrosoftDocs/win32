@@ -2,7 +2,6 @@
 title: Opacity metadata effect
 description: You can use this effect to mark an area of an input image as opaque, so internal rendering optimizations to the graph are possible.
 ms.assetid: 25B34A31-8533-4339-BBF7-2D7E5488E301
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

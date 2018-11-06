@@ -1,12 +1,8 @@
 ---
 Description: Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOf method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

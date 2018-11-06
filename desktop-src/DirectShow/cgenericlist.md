@@ -2,7 +2,6 @@
 Description: The CGenericList class template that implements a type-specific list. For more information, see CBaseList.
 ms.assetid: 69067530-3a7d-4731-8ac6-9d02dbba8440
 title: CGenericList class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: TraceLogging Reference
 description: The following topics provide information about the native TraceLogging API.TraceLogging builds on Event Tracing for Windows (ETW) and provides a simplified way to instrument code.
 ms.assetid: 9E3F2140-DDB0-4C30-B7D0-A81F11823AA6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

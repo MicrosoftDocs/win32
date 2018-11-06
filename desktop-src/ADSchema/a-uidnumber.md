@@ -1,9 +1,6 @@
 ---
 title: uidNumber attribute
 description: Contains an integer that uniquely identifies a user in an administrative domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 17d7837a-f66e-4357-96d7-13fb47ce8bb6
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - uidNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

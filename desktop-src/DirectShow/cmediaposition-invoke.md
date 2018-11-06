@@ -2,7 +2,6 @@
 Description: The Invoke method provides access to properties and methods exposed by the object.
 ms.assetid: 3c03751d-239b-4cc5-bfab-8d1aed1074b8
 title: CMediaPosition.Invoke method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

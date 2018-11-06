@@ -2,7 +2,6 @@
 Description: The FindPin method gets the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
 ms.assetid: 56ee3e0d-9e3f-4d25-846b-50119b55a122
 title: CTransformFilter.FindPin method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -72,7 +71,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 ## Remarks
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The implementation of this method does not call [**IPin::QueryId**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryid) to match the pin identifier. Instead, the method assumes that the input pin is named "In", and the output pin is named "Out". If you use a different set of pin identifiers, override this method.
 
  

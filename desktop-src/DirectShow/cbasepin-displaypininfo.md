@@ -2,7 +2,6 @@
 Description: The DisplayPinInfo method traces a pin connection during debugging.
 ms.assetid: 3c1aa5ab-7f6b-4518-abf3-b5138f6267ee
 title: CBasePin.DisplayPinInfo method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

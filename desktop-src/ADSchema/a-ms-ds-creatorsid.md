@@ -1,9 +1,6 @@
 ---
 title: MS-DS-Creator-SID attribute
 description: The security ID of the creator of the object that contains this attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5e643c56-bfe9-4489-89a9-5ce56f90f288
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DS-Creator-SID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -20,7 +20,6 @@ keywords:
 - video streams,non-square pixels
 - non-square pixels
 - pixels (non-square)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

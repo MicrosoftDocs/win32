@@ -1,9 +1,6 @@
 ---
 title: Previous-Parent-CA attribute
 description: Reference to the certification authorities that issued the last expired certificate for a certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9772d6cb-1105-426c-9982-473b4c1bf0d8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Previous-Parent-CA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

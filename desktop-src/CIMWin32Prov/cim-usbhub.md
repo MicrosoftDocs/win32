@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_USBHub class represents the capabilities and management of a USB hub.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 33618963-3053-4c01-992e-aa6d9774f84b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_USBHub class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -54,7 +48,7 @@ api_location:
 
 The **CIM\_USBHub** class represents the capabilities and management of a USB hub.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

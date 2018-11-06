@@ -1,9 +1,6 @@
 ---
 title: SAM-Domain-Updates attribute
 description: Contains a bitmask of performed SAM operations on Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cafef47d-4923-4ee6-92bc-764301506cfe
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SAM-Domain-Updates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

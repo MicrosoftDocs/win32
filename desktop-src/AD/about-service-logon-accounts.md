@@ -1,12 +1,8 @@
 ---
 title: About Service Logon Accounts
 description: When a Win32-based service starts, it logs on to the local computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 637ad0c0-118f-43e8-9d21-a93f6886f546
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

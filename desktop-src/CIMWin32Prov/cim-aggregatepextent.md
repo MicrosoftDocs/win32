@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AggregatePExtent class provides summary information about addressable logical blocks, which are in the same storage redundancy group and located on the same physical media.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c8def347-e8d7-48d5-94d0-f6e704e7b40e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AggregatePExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -52,7 +46,7 @@ The **CIM\_AggregatePExtent** class provides summary information about addressab
 
 The **CIM\_AggregatePExtent** class is an alternative grouping for physical extents when only summary information is needed, or when automatic configuration is used. Automatic configuration can result in thousands of physical extents being defined.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

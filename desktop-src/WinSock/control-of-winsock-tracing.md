@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
 title: Control of Winsock Tracing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

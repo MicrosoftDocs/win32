@@ -2,7 +2,6 @@
 title: cmp - ps
 description: Choose src1 if src0 0. Otherwise, choose src2. The comparison is done per channel.
 ms.assetid: 8fabd548-3f5e-4b78-bf1e-16e4f1548ccd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

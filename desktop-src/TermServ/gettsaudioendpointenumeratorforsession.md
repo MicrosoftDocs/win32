@@ -1,9 +1,6 @@
 ---
 title: GetTSAudioEndpointEnumeratorForSession callback function
 description: Returns a reference to an audio endpoint enumerator for the specified session ID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9dd95ef7-f83f-43be-a8b2-e2b0e4a47a42
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - GetTSAudioEndpointEnumeratorForSession
 api_type:
 - UserDefined
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

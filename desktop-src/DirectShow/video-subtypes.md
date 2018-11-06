@@ -2,7 +2,6 @@
 Description: Video Subtypes
 ms.assetid: '122beb40-410b-4f97-a09d-3d6278846a15'
 title: Video Subtypes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

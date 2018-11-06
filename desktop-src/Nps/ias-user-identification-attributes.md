@@ -1,14 +1,10 @@
 ---
 title: User Identification Attributes
 description: The identity of the user requesting authentication is supplied to the NPS Extension DLLs in a number of different attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f741a81-e432-47fe-a14a-8b77ecd41e28
 ms.tgt_platform: multiple
 keywords:
 - Attributes, User Identification
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

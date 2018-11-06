@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),redistribution
 - software redistribution,about
 - redistribution,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

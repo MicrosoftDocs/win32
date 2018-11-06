@@ -2,7 +2,6 @@
 title: Toolbar Control Reference
 description: .
 ms.assetid: fdf2ede3-2f5e-45f9-979d-ff1d42baf8e7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

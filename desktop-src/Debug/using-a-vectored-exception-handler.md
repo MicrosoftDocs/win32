@@ -2,7 +2,6 @@
 Description: The following sample code demonstrates how to use vectored exception handling. It uses the AddVectoredExceptionHandler function to add several handlers, tests the handlers, then uses the RemoveVectoredExceptionHandler function to remove the handlers.
 ms.assetid: dbf7016b-09ac-4ca7-9b47-38b0dd763462
 title: Using a Vectored Exception Handler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Tool Help Structures
 description: Lists the structures used with the tool help library.
 ms.assetid: 478f2000-55d7-4c4f-ab5a-f12bab4a57c6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

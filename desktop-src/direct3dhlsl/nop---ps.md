@@ -2,7 +2,6 @@
 title: nop - ps
 description: No operation is performed.
 ms.assetid: db2a383e-9a4d-4409-8801-483622c124ae
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

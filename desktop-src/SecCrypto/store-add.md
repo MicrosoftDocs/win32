@@ -2,7 +2,6 @@
 Description: Adds a Certificate object to an open certificate store.
 ms.assetid: 787b8a41-dcdb-4b5b-a1fd-f5424300361b
 title: Store.Add method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -50,7 +49,7 @@ This method does not return a value.
 
 ## Remarks
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When this method is called on a system store from a web script, the script needs to access digital certificates on the local computer. If you allow the script to access your digital certificates, the website from which the script is run will also gain access to any personal information stored in the certificates. The first time this method is called from a particular domain, a dialog box is generated in which the user must indicate whether access to the certificates should be allowed.
 
  

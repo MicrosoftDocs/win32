@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),profile objects
 - objects,profile objects
 - profiles,objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

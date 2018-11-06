@@ -13,7 +13,6 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

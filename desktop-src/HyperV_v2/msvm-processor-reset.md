@@ -2,7 +2,6 @@
 Description: Requests a reset.
 ms.assetid: c69b5c65-8f00-48ed-8602-7e0c5a76653d
 title: Reset method of the Msvm_Processor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

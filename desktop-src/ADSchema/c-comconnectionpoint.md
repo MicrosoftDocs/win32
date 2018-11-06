@@ -1,9 +1,6 @@
 ---
 title: Com-Connection-Point class
 description: Binding for running COM/DCOM service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 90b7a739-2056-456e-88a4-dd4f7ba037f8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Com-Connection-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

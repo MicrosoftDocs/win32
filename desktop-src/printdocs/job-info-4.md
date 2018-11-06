@@ -2,7 +2,6 @@
 Description: Describes a full set of values associated with a job and supports large spool files with sizes expressed with 64 bits.
 ms.assetid: 90932ae2-ea9e-43bc-9a1d-c68223f6d0ee
 title: JOB_INFO_4 structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

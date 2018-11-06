@@ -2,7 +2,6 @@
 Description: Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.
 ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Command-Line Options
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

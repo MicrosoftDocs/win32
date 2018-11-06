@@ -1,14 +1,10 @@
 ---
 title: Choosing the Search Technology
 description: This topic includes a list of technologies used to search Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c9e887e3-7de4-4461-bc32-03db71c3e272
 ms.tgt_platform: multiple
 keywords:
 - search technologies in Active Directory Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Retired-Repl-NC-Signatures attribute
 description: Information about naming contexts that are no longer held on this computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bb4f0941-1a20-422d-aa50-af03eeb95f6c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Retired-Repl-NC-Signatures
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

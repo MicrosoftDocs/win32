@@ -1,9 +1,6 @@
 ---
 title: Picture attribute
 description: An image of the user. A space-efficient format like JPEG or GIF is recommended.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e507504-582b-418e-a939-4ac20973b017
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Picture
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx SendOnVirtualChannel method
 description: Sends data to the Remote Desktop Session Host (RD Session Host) server over a virtual channel that was created previously by using the CreateVirtualChannels method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 795ef508-bdf7-4897-84b1-931615262293
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

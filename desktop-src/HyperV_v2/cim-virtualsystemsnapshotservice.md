@@ -2,7 +2,6 @@
 Description: Represents a service that can create, apply, and delete snapshots of virtual systems.
 ms.assetid: 8d5d54a2-08f1-4f24-bca3-601dc698d018
 title: CIM_VirtualSystemSnapshotService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

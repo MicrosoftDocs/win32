@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Query attribute
 description: A single WQL query.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3fb594fc-d160-4807-a019-3dec56d2262b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Query
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-SPN-Suffixes attribute
 description: This attribute describes the suffixes of DNS host names used by servers in the forest. These DNS suffixes will be shared with other forests that have cross-forest trust with this forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 56153832-1228-419f-99d4-eb1ce3edc867
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-SPN-Suffixes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Uses the passphrase to obtain the derived key.
 ms.assetid: 09b4ae7f-7084-42bd-8bbe-da686d6280e9
 title: UnlockWithPassphrase method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

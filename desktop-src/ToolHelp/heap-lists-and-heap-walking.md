@@ -2,7 +2,6 @@
 title: Heap Lists and Heap Walking
 description: A snapshot that includes the heap list for a specified process contains identification information for each heap associated with the specified process and detailed information about each heap.
 ms.assetid: 631096fd-cb2c-4b19-aa71-d47060e2715c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

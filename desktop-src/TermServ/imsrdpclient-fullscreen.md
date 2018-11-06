@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient FullScreen property
 description: Determines whether the client control is in full-screen mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 64fe2835-c00e-4d21-812d-dcf160147d93
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

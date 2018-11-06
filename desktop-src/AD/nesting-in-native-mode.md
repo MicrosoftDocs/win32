@@ -1,14 +1,10 @@
 ---
 title: Nesting in Native Mode
 description: The following list describes what can be contained in a group that exists in a native-mode domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7992ef2d-9dcf-4087-b09a-35235b23e499
 ms.tgt_platform: multiple
 keywords:
 - Nesting in Native Mode AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

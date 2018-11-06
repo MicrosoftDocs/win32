@@ -1,14 +1,10 @@
 ---
 title: Multiple Directory Services
 description: One challenge of working within a distributed computing environment is identifying and locating resources such as users, groups, print queues, and documents.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66929290-b830-4768-a2ae-604d1a9de5c4
 ms.tgt_platform: multiple
 keywords:
 - Multiple Directory Services ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

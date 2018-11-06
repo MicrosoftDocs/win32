@@ -1,9 +1,6 @@
 ---
 title: Win32_TSVmMetadataItem class
 description: Represents a metadata item for a Remote Desktop virtual machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d2678eb0-8634-450c-b73f-611b6f68d556
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

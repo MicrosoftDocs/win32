@@ -1,14 +1,8 @@
 ---
 Description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ece22cb0-a4ca-4ad7-b6d3-213dda4ce5b1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The JoinFilterGraph method sends EC\_WINDOW\_DESTROYED event notification when a filter is removed from the filter graph.
 ms.assetid: b54d2deb-d36f-43a9-aa00-d607f487d8b7
 title: CBaseVideoRenderer.JoinFilterGraph method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

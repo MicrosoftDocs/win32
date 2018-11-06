@@ -2,7 +2,6 @@
 Description: XMUSHORT4 describes a 4D vector consisting of 16-bit unsigned integer components.
 ms.assetid: 71c50c11-4be2-4d7d-ae53-0f3b95981998
 title: XMUSHORT4 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Polling for Changes Using USNChanged
 description: Changes from Active Directory can also be obtained by querying the uSNChanged attribute, which avoids the limitations of the DirSync control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83bda359-09e5-4abf-8f60-9c63bccfcdd1
 ms.tgt_platform: multiple
 keywords:
 - Polling for Changes Using USNChanged AD
 - USNChanged AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

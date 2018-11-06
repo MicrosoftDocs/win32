@@ -2,7 +2,6 @@
 Description: The Certified for Microsoft Windows Logo identifies products that have been verified through independent testing to comply with the Application Specification for Windows.
 ms.assetid: d33efb75-1813-40a5-8846-8799e16b368d
 title: Windows Installer and Logo Requirements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

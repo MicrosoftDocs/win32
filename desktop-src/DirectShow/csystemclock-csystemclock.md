@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: facc2c9d-034a-4fed-b6fe-77a40e36c305
 title: CSystemClock.CSystemClock constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

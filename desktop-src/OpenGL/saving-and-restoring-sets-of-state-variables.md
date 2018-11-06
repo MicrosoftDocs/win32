@@ -6,7 +6,6 @@ keywords:
 - OpenGL state variables
 - saving state variables OpenGL
 - restoring state variables OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

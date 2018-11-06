@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: DocumentBindingGutter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

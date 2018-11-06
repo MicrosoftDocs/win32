@@ -2,7 +2,6 @@
 Description: After determining the capabilities of a phone device, an application must open the device before it can access functions on that phone.
 ms.assetid: 0215db43-b4d7-4a1e-8d4f-d17013c14e61
 title: Opening and Closing Phone Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

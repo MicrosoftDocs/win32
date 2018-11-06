@@ -2,7 +2,6 @@
 Description: These functions register a filter.
 ms.assetid: c9c4976f-d4c5-465e-8ad7-4294c05d0e0a
 title: DLL Setup Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

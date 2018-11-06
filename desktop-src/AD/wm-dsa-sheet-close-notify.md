@@ -1,9 +1,6 @@
 ---
 title: WM_DSA_SHEET_CLOSE_NOTIFY message
 description: Posted to the Active Directory MMC snap-in when a secondary property sheet is destroyed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 74271550-e1f7-4576-a04f-52d5b7c619cb
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - WM_DSA_SHEET_CLOSE_NOTIFY
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

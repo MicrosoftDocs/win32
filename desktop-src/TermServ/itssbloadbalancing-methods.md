@@ -1,12 +1,8 @@
 ---
 title: ITsSbLoadBalancing Methods
 description: The ITsSbLoadBalancing interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: EDB60A92-B8B8-4268-B698-650CB704905C
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

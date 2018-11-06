@@ -1,12 +1,8 @@
 ---
 Description: By default, an application or script receives data from the corresponding provider when two versions of providers exist.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 379d934e-e010-4a03-8dc1-121be43e4c6f
 ms.tgt_platform: multiple
 title: Requesting WMI Data on a 64-bit Platform
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

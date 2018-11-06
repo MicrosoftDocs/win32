@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type boolean.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 19681413-712C-4A09-9BEF-8CFEC5D81801
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBoolean class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Create a data processor to be used with a thread pump.
 ms.assetid: e97b6aca-1839-48ea-8dab-b96a52ec2a68
 title: D3DX10CreateAsyncTextureInfoProcessor function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

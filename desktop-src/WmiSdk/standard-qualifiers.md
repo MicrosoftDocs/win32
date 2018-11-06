@@ -1,12 +1,8 @@
 ---
 Description: All CIM-compliant implementations must handle a standard set of qualifiers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 671ea769-f68d-4788-96f5-c4f86ab3b00e
 ms.tgt_platform: multiple
 title: Standard Qualifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

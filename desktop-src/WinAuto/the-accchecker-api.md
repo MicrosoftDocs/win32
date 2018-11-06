@@ -2,7 +2,6 @@
 title: The AccChecker API
 description: The AccChecker API supports automated testing. After screening an application by using manual testing with the AccChecker GUI, you can write automated tests that incorporate the message and suppression logs created with the GUI tool.
 ms.assetid: 9AD9A259-130B-4968-B7FD-DAFA89320391
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

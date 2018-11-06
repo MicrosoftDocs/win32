@@ -2,7 +2,6 @@
 Description: Removes a specified list of child properties in the <Properties> element of a scan profile.
 ms.assetid: 512ccfec-0c95-4abb-98b6-d309e432151b
 title: IScanProfile::RemoveProperty method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

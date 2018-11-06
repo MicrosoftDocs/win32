@@ -5,7 +5,6 @@ ms.assetid: 18C2DDEE-D199-4C22-9ADF-1E07B1325A06
 keywords:
 - testing with AccChecker
 - AccChecker, testing workflow
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

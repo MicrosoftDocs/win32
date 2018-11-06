@@ -1,14 +1,10 @@
 ---
 title: Using IADs to Get a Security Descriptor
 description: The following code examples use the IADs Get method to retrieve an IADsSecurityDescriptor pointer to the nTSecurityDescriptor property of an object in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ce8948ac-0644-42a0-8b77-5a06d3fcf042
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using IADs to get a security descriptor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

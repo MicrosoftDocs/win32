@@ -1,12 +1,8 @@
 ---
 Description: The InstancesAsync\_ method of SWbemObject asynchronously supplies the instances of the current class object. This method implements a simple query. More complex queries may require the use of SWbemServices.ExecQuery.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d10fcbbf-6110-4152-8201-db43dc7a3c14
 ms.tgt_platform: multiple
 title: SWbemObject.InstancesAsync_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

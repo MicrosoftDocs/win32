@@ -2,7 +2,6 @@
 Description: Using the Filter Mapper
 ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: Using the Filter Mapper
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

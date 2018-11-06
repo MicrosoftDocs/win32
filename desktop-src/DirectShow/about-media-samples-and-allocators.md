@@ -2,7 +2,6 @@
 Description: About Media Samples and Allocators
 ms.assetid: d6283bf0-0460-4519-9a56-fd4c78cfaabc
 title: About Media Samples and Allocators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

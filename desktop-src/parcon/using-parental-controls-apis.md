@@ -2,7 +2,6 @@
 Description: Using Parental Controls APIs
 ms.assetid: 3d0bb750-0882-4b95-a595-38611f161ca9
 title: Using Parental Controls APIs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Ray payload structure 
 description: A user-defined structure that is provided as an inout argument in a TraceRay call, and as an inout parameter in the shader types that may access the ray payload.
 ms.assetid: 
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---

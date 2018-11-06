@@ -2,7 +2,6 @@
 Description: Because a custom action can be scheduled in both the UI and execute sequence tables, and can be executed either in the service or client process, a custom action can potentially execute multiple times.
 ms.assetid: a3ffeecb-cdd6-43af-a3fe-48e3e843ec8b
 title: Custom Action Execution Scheduling Options
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

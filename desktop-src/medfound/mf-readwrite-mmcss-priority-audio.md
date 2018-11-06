@@ -2,7 +2,6 @@
 Description: Sets the base priority for audio-processing threads created by the Source Reader or Sink Writer.
 ms.assetid: C0E3A472-959F-4F74-8906-03630DE4CB8C
 title: MF_READWRITE_MMCSS_PRIORITY_AUDIO attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

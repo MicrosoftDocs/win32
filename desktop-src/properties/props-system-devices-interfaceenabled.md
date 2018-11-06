@@ -2,7 +2,6 @@
 Description: Indicates if the interface is enabled or not.
 ms.assetid: 5596ddcb-2361-49fa-98e0-684c0f7f0bd4
 title: System.Devices.InterfaceEnabled
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

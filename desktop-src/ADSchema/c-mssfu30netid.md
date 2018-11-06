@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Net-Id class
 description: Used to store the network ID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb9ba652-6299-4c39-818e-e9b02a4e7cb7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Net-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates a Machine Check Architecture (MCA) system BIOS error. This class is available only in 64-bit Windows systems.
 ms.assetid: b451ca45-6208-4445-b9f1-b4e3174837a4
 title: MSMCAEvent_SMBIOSError class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

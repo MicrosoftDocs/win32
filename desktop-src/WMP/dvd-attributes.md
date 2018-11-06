@@ -13,7 +13,6 @@ keywords:
 - reference for object model,DVD attributes
 - attributes,DVDs
 - DVD attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

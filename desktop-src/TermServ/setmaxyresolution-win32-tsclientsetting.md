@@ -1,9 +1,6 @@
 ---
 title: SetMaxYResolution method of the Win32_TSClientSetting class
 description: Sets the MaxYResolution property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a8399c7c-6b3a-464f-8112-8838257ccf06
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

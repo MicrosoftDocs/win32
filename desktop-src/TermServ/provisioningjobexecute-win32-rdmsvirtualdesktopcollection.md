@@ -1,9 +1,6 @@
 ---
 title: ProvisioningJobExecute method of the Win32_RDMSVirtualDesktopCollection class
 description: Runs a virtual desktop provisioning job.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 69f0cc6a-7eef-4cd9-94ac-f0c7e52d02d8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

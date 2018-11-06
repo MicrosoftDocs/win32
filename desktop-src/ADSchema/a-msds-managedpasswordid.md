@@ -1,9 +1,6 @@
 ---
 title: ms-DS-ManagedPasswordId attribute
 description: This constructed attribute contains the key identifier for the current managed password data for a group MSA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 82e78b10-d10c-4fb8-a4ee-5f775d4dbdf2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-ManagedPasswordId
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

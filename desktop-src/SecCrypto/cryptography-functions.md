@@ -2,7 +2,6 @@
 Description: Lists the functions provided by CryptoAPI.
 ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: Cryptography Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

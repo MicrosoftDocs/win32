@@ -2,7 +2,6 @@
 Description: Sets an integer value.
 ms.assetid: e7dcf3f4-1d0c-432a-85fc-0473c49956ff
 title: ID3DXTextureShader::SetInt method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

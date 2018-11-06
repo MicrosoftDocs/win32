@@ -2,7 +2,6 @@
 Description: This section describes how to write custom source filters for DirectShow.
 ms.assetid: 5c790715-dd80-4549-8856-e85cd2be964d
 title: Writing Source Filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

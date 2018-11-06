@@ -2,7 +2,6 @@
 Description: The ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants are hardware support flags for an audio endpoint device.
 ms.assetid: 54032f75-2287-4589-bda5-e005ee077c41
 title: ENDPOINT_HARDWARE_SUPPORT_XXX Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

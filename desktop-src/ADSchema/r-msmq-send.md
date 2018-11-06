@@ -1,9 +1,6 @@
 ---
 title: msmq-Send extended right
 description: Allows sending messages to the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 928c1aac-2153-409c-bfb4-e709a5bbca34
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Send
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

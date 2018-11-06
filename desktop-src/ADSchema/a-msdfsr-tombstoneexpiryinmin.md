@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-TombstoneExpiryInMin attribute
 description: Contains the tombstone record lifetime, in minutes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc8ada8f-904d-4400-a61c-94c53bbe8f7b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-TombstoneExpiryInMin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

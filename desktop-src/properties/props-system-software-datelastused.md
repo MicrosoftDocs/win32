@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: f45214a9-64a8-468d-8224-83aca8586268
 title: System.Software.DateLastUsed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Certificate Enrollment API includes multiple samples designed to help you create custom applications. Most of the samples are written by using C++, but C# and Visual Basic Scripting Edition (VBScript) samples are also included.
 ms.assetid: 70ac7b75-542c-4d79-85ce-4b1bac414879
 title: Using the Included Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

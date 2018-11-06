@@ -2,7 +2,6 @@
 title: Edit Control Constants
 description: .
 ms.assetid: fab38991-5fe9-44e5-8113-9c93b7ed27ce
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

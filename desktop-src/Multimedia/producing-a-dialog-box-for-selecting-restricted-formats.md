@@ -12,7 +12,6 @@ keywords:
 - ACM (audio compression manager),selecting restricted formats
 - ACM examples,selecting restricted formats
 - selecting restricted formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

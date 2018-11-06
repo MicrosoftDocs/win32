@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-Online-License attribute
 description: License used during online activation of the Active Directory forest
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f86a5b28-3690-4caf-ba22-f8b846337ca1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-Online-License
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Using Font Fallback
 ms.assetid: 952f33b6-ca52-40a2-b914-52c1c62ae0e0
 title: Using Font Fallback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

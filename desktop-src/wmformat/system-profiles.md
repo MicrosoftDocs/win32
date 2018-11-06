@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),profile IDs
 - system profiles,list of
 - profile IDs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -20,7 +19,7 @@ ms.date: 05/31/2018
 
 The following table contains the full list of supported system profiles. Each listed profile has a name and a profile ID. The profile ID is a constant set to the GUID value assigned to the system profile. To use the system profile IDs in your code, you must include wmsysprf.h in your application. For examples showing how to load a system profile, see [To Load a System Profile](to-load-a-system-profile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The profiles listed below all use the version 8 Windows Media Audio and Windows Media Video codecs. There are no predefined system profiles that use the Windows Media 9 Series codecs. You can create your own Windows Media 9 Series profile by using a version 8 profile as a starting point. For more information, see [Reusing Stream Configurations](reusing-stream-configurations.md).
 
  

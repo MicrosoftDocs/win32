@@ -1,14 +1,10 @@
 ---
 title: ADSI LDAP Provider
 description: The ADSI LDAP Provider implements a set of ADSI objects that support various ADSI interfaces. To access the LDAP provider, bind to any of the ADSI LDAP objects, using the LDAP ADsPath.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3c13ea2f-fe40-4fd4-8540-422f277e07c1
 ms.tgt_platform: multiple
 keywords:
 - ADSI LDAP Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

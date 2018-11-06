@@ -2,7 +2,6 @@
 Description: Retrieves the globally unique identifiers (GUIDs) for the properties that this IInkAnalysisRecognizer can generate for analysis results.
 ms.assetid: 3a36bc6c-5067-4291-9119-bc6836d32c21
 title: IInkAnalysisRecognizer::GetSupportedProperties method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: The AccChecker Graphical User Interface
 description: This topic describes the elements that make up the AccChecker GUI.
 ms.assetid: C8C156F6-AB29-4011-9DCD-74261AC17404
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

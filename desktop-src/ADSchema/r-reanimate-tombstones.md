@@ -1,9 +1,6 @@
 ---
 title: Reanimate-Tombstones extended right
 description: Control access right that allows deleted schema elements to be restored.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 09dc0443-06c9-42f3-96a3-9b2290e75f32
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Reanimate-Tombstones
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Functions for Clients
 description: This section describes the API functions used in Microsoft UI Automation client applications.
 ms.assetid: abf28ebe-c902-4690-a445-d3e73214c41b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

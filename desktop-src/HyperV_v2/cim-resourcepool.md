@@ -2,7 +2,6 @@
 Description: Represents a resource pool, which is a logical entity provided by the host system to allocate and assign resources.
 ms.assetid: c8e0b701-1814-4409-a073-017f8fea841a
 title: CIM_ResourcePool class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -140,7 +139,7 @@ Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override*
 
 Uniquely identifies an instance of this class within the scope of the containing namespace.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > In order to ensure uniqueness within the namespace, the value of the **InstanceID** property should be constructed in the following pattern: *OrgID*:*LocalID*
 >

@@ -1,16 +1,12 @@
 ---
 title: GUIDs of User Interface Elements
 description: The following table lists the class identifier, expressed as a GUID, for user interface objects implemented by a directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df90cf6b-d68f-488f-8c36-a6b61b399fe2
 ms.tgt_platform: multiple
 keywords:
 - GUIDs of User Interface Elements AD
 - CLSID_DsFolderProperties
 - CLSID_DsPropertyPages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

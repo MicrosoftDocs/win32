@@ -2,7 +2,6 @@
 Description: Playlist Sample
 ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: Playlist Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

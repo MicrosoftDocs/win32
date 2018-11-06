@@ -1,9 +1,6 @@
 ---
 title: Sam-Domain class
 description: Auxiliary class that holds common properties for Windows NT domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fff5091b-afbe-46f2-8741-6d69e173298b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sam-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Utility Interfaces
 description: This topic lists ADSI utility interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7d4ed96-1356-4361-b464-7454661d73d8
 ms.tgt_platform: multiple
 keywords:
 - utility interfaces ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

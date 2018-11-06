@@ -8,7 +8,6 @@ keywords:
 - digital signal processing plug-ins,Echo sample testing
 - DSP plug-ins,Echo sample testing
 - Echo DSP plug-in sample,testing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

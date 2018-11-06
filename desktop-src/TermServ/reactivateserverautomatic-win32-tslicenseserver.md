@@ -1,9 +1,6 @@
 ---
 title: ReactivateServerAutomatic method of the Win32_TSLicenseServer class
 description: Reactivates the Remote Desktop license server by using an automatic connection to the Internet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 98b9b8e5-4de4-418c-9175-58e8b84784d5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: String(Unicode) syntax
 description: A case-insensitive Unicode string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7061ac4a-c2f1-4c63-bdb2-8ec329f9dc5e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Unicode)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -13,7 +13,6 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -141,7 +140,7 @@ A [**WINBIO\_BIOMETRIC\_SUBTYPE**](winbio-biometric-subtype-constants.md) value 
 -   WINBIO\_ANSI\_381\_POS\_LH\_FOUR\_FINGERS
 -   WINBIO\_ANSI\_381\_POS\_TWO\_THUMBS
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > Do not attempt to validate the value supplied for the *SubFactor* value. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is **WINBIO\_SUBTYPE\_NO\_INFORMATION** or **WINBIO\_SUBTYPE\_ANY**, then validate where appropriate.
 

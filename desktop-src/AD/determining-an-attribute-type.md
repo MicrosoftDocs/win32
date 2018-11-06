@@ -1,14 +1,10 @@
 ---
 title: Determining an Attribute Type
 description: The systemFlags attribute of an attributeSchema object contains a set of flags that indicate various qualities of the attribute object, such as whether the attribute is constructed or non-replicated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 58f44ea4-ecbd-4650-b366-37b05a975c68
 ms.tgt_platform: multiple
 keywords:
 - Determining an Attribute Type AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

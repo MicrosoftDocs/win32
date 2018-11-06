@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-RangeParam class
 description: Range parameter class that is the basis of the PolicyTemplate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7940acc7-84af-47a2-8353-3ebb39eb9314
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-RangeParam
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

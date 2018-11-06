@@ -1,12 +1,8 @@
 ---
 title: IMsTscAx Methods
 description: The IMsTscAx interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E9C3FC87-2AF0-4C1E-B110-6EEDF3A68D8B
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

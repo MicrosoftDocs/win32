@@ -1,14 +1,10 @@
 ---
 title: How to Search Using VLV
 description: Active Directory supports virtual list view (VLV) searches. This style of search is specifically designed for large result sets and enables an application to display a subset of thousands of entries without actually having to retrieve every entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fea04190-0846-4b62-99f4-7d8fb35fd510
 ms.tgt_platform: multiple
 keywords:
 - How to Search Using VLV
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

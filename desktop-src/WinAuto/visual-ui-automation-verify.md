@@ -2,7 +2,6 @@
 title: Visual UI Automation Verify
 description: Visual UI Automation Verify (Visual UIA Verify) is a Windows \ 32;GUI driver for the UIA Test Library that is designed for manual testing of UI automation.
 ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

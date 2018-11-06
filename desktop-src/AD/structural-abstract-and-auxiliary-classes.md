@@ -1,14 +1,10 @@
 ---
 title: Structural, Abstract, and Auxiliary Classes
 description: The objectClassCategory attribute of a classSchema object can have a value, as listed in the following table, that indicates whether the class is structural, abstract, or auxiliary.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5af740cb-b292-4d80-abe5-3e3d194758f3
 ms.tgt_platform: multiple
 keywords:
 - Structural, Abstract, and Auxiliary Classes AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

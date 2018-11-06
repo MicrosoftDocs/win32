@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings HotKeyAltShiftTab property
 description: Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+SHIFT+TAB.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: da52f2fb-15cc-4d55-b26e-cf5465290889
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

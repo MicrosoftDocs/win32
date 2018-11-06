@@ -2,7 +2,6 @@
 Description: The CopyMediaType function copies an AM\_MEDIA\_TYPE structure into another structure, including the format block
 ms.assetid: 5b47e197-abb5-4b2c-ad65-a506c5e239be
 title: CopyMediaType function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

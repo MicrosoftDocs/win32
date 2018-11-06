@@ -2,7 +2,6 @@
 Description: The put\_StopTime method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::put\_StopTime method.
 ms.assetid: 0a344cad-df93-47f1-8c7f-5d5ef775b850
 title: CPosPassThru.put_StopTime method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

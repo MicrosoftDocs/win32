@@ -1,9 +1,6 @@
 ---
 title: Template-Roots2 attribute
 description: This attribute is used on the Exchange config container to indicate where the template containers are stored.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad9607c7-fd7b-48b3-abdb-1340ef357bd0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Template-Roots2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

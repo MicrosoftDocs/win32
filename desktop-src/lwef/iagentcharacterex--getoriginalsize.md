@@ -2,7 +2,6 @@
 title: IAgentCharacterEx GetOriginalSize
 description: IAgentCharacterEx GetOriginalSize
 ms.assetid: a27ae88f-3655-4375-b563-0cc320d012cb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

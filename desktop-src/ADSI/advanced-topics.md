@@ -1,14 +1,10 @@
 ---
 title: Advanced Topics
 description: This topic contains links to advanced topics for ADSI Visual Basic applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e46211f4-e42c-4103-b651-5c17af2c1a93
 ms.tgt_platform: multiple
 keywords:
 - Advanced Topics AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

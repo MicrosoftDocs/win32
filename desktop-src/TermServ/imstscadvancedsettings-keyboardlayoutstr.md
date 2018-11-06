@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings KeyBoardLayoutStr property
 description: Specifies the name of the active input locale identifier (formerly called the keyboard layout) to use for the connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a469c602-84a8-44c6-9c0f-76262961b527
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

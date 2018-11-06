@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDriveV2 interface
 description: Contains information about a drive object. This is an enhancement of the IMsRdpDrive interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0d804fcc-960f-48f7-9794-b7be8d7e258e
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

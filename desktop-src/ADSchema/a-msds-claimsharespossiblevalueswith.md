@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Shares-Possible-Values-With attribute
 description: For a resource property object, this attribute indicates that the suggested values of the claims issued are defined on the object that this linked attribute points to. Overrides ms-DS-Claim-Possible-Values on itself, if populated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a7296fa-ee24-4d8e-b7fc-cd97488edae6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Shares-Possible-Values-With
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

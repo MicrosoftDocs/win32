@@ -2,7 +2,6 @@
 Description: The storage provider caller protocol version information.The format of this property is provider specific, refer to the storage provider documentation for more information.
 ms.assetid: c38de2dd-b761-49d8-81ff-eae6f03f5ed9
 title: System.StorageProviderCallerVersionInformation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Creates a new system service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 164e9065-bb0d-4c93-a9fe-c86db1ea7cb7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Create method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

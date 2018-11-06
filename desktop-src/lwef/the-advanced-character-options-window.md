@@ -2,7 +2,6 @@
 title: The Advanced Character Options Window
 description: The Advanced Character Options Window
 ms.assetid: c54e462e-d60a-42ce-96ad-3db531c6f9fd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

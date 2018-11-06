@@ -2,7 +2,6 @@
 Description: Using Non-Transactional Components in a Transaction
 ms.assetid: b83b4bab-1851-48dc-b35a-6467a6dff741
 title: Using Non-Transactional Components in a Transaction
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

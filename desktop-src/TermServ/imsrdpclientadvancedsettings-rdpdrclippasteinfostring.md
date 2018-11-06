@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RdpdrClipPasteInfoString property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1ee39a2d-1d99-4052-8d47-ee6f46cacefd
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

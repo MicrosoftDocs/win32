@@ -1,9 +1,6 @@
 ---
 title: Has-Master-NCs attribute
 description: The distinguished name for the naming contexts for the DC. Forward link for the Mastered-By attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 77a7e693-513f-4f76-8c4f-d2ef3240323b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Has-Master-NCs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

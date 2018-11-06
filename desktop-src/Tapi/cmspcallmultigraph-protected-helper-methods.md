@@ -2,7 +2,6 @@
 Description: The following list contains the CMSPCallMultiGraph protected helper methods.
 ms.assetid: 54916766-b9b9-47cf-bae1-14dadee2b2d5
 title: CMSPCallMultiGraph Protected Helper Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

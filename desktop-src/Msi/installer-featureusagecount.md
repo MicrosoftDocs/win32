@@ -2,7 +2,6 @@
 Description: The FeatureUsageCount property is a read-only property that returns the number of times the feature has been used.
 ms.assetid: 70171e22-d73a-4718-a360-df9d1722761b
 title: Installer.FeatureUsageCount property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

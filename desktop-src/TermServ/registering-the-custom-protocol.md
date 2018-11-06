@@ -1,12 +1,8 @@
 ---
 title: Registering the Protocol Manager
 description: You must create at least one registry value entry for your protocol manager so that the Remote Desktop Services service can instantiate it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4cc7197b-88f3-4906-9b59-66587f970e2a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

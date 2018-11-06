@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Ds-Services attribute
 description: Indicates whether the MSMQ installed on this computer provides MSMQ DS services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 33d7ddb0-b0ce-468c-9090-93be71bdedae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Ds-Services
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

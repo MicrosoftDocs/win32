@@ -1,9 +1,6 @@
 ---
 title: CB_TARGET_INFO structure
 description: Contains information about the target computer and IP addresses where incoming connections should be redirected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 60612E10-9D82-4F38-87F7-B24F51E6EBDA
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---

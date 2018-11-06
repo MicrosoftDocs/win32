@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings3 ConnectionBarShowMinimizeButton property
 description: Specifies whether to display the Minimize button on the connection bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3ad89f25-f1ff-4bfc-ae86-09603058c9b5
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - Windows Media Player Mobile skins,rules for text lines
 - skins,rules for text lines
 - skin definition files,rules for text lines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

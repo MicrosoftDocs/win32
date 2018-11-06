@@ -2,7 +2,6 @@
 Description: NLS supports the retrieval of strings for any time or date in a format that is appropriate for the current locale.
 ms.assetid: 65585bd6-da54-43d5-a5cf-7b7f0a9ea0f5
 title: Time and Date
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

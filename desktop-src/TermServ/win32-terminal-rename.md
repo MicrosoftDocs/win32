@@ -1,9 +1,6 @@
 ---
 title: Rename method of the Win32_Terminal class
 description: The Rename method renames the terminal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 85b5c83b-8ca3-4ed0-852b-b11ba98c18a6
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

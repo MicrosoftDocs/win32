@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 9cc672b2-75ea-4733-aaa3-0c4fd5afb4f6
 title: System.Media.Producer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

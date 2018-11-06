@@ -1,9 +1,6 @@
 ---
 title: Object(DN-String) syntax
 description: An octet string that contains a string value and a DN.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7a5ce9f3-ac97-4936-868a-6b18f202972f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(DN-String)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

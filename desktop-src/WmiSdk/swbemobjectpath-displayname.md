@@ -1,12 +1,8 @@
 ---
 Description: The DisplayName property of the SWbemObjectPath object is a string that contains the path in a form that can be used as a moniker display name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ebcd2570-f6f5-43fb-819d-0fc54b8072b1
 ms.tgt_platform: multiple
 title: SWbemObjectPath.DisplayName property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

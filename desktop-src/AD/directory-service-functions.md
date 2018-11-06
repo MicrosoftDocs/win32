@@ -1,14 +1,10 @@
 ---
 title: Directory Service Functions
 description: The directory service functions provide a utility for locating a domain controller (DC) in a Windows NT or Windows 2000 domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7b519c81-5a6c-470a-a525-1894efd53305
 ms.tgt_platform: multiple
 keywords:
 - Directory Service Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

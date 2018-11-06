@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings2 CanAutoReconnect property
 description: Specifies whether the client control is able to reconnect automatically to the current session in the event of a network disconnection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0a7ecf90-832b-4ec1-990b-7fe26ff134b1
 ms.tgt_platform: multiple
 keywords:
@@ -43,7 +40,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

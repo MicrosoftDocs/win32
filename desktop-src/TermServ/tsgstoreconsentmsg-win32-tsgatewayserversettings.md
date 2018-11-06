@@ -1,9 +1,6 @@
 ---
 title: TSGStoreConsentMsg method of the Win32_TSGatewayServerSettings class
 description: Updates the consent message for the gateway server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b3146d87-95af-4b6b-8c02-5ac4748fbe98
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

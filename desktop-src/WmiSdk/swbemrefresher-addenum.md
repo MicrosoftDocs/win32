@@ -1,12 +1,8 @@
 ---
 Description: Adds a new enumerator to the SWbemRefresher object. This enumerator is for all the instances of the class that is specified in the strClass parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2
 ms.tgt_platform: multiple
 title: SWbemRefresher.AddEnum method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

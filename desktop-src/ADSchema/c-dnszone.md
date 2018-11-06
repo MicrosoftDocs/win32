@@ -1,9 +1,6 @@
 ---
 title: Dns-Zone class
 description: The container for DNS Nodes. Holds zone metadata.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea8e6799-df9c-4c17-a5a2-ea3e5016e3ec
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dns-Zone
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

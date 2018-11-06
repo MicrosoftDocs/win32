@@ -1,12 +1,8 @@
 ---
 Description: The SWbemRefresher object is a container object that can refresh the data for all the objects added to it. The set of added objects, each item represented by an SWbemRefreshableItem instance can be treated as a collection and enumerated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc5872a1-932b-4b68-9f5e-a91d35c8e117
 ms.tgt_platform: multiple
 title: SWbemRefresher object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

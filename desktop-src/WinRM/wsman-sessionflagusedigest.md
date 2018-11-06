@@ -1,9 +1,6 @@
 ---
 title: WSMan.SessionFlagUseDigest method
 description: Returns the value of the WSManFlagUseDigest authentication flag for use in the flags parameter of the WSMan.CreateSession method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dba2448a-4f72-4000-8687-4c1be812fc3b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Obtains ownership of the logical codec file specified in the object path. This method is an extended version of the TakeOwnerShip method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8f3b495a-f654-4818-b0ea-dc88819d72af
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

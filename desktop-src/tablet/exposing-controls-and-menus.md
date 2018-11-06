@@ -2,7 +2,6 @@
 Description: Overview of exposing controls and menus for the Tablet PC.
 ms.assetid: 0a8ebe23-8745-4b2d-bb0a-a1ca3bfac365
 title: Exposing Controls and Menus
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

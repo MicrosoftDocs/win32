@@ -2,7 +2,6 @@
 title: Framework Properties
 description: Reference documentation on global property keys for the Ribbon framework.
 ms.assetid: 332a49b3-0634-40b3-a3cd-bc6891e9dbc8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

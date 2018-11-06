@@ -1,9 +1,6 @@
 ---
 title: EnableOnlyConsentCapableClients method of the Win32_TSGatewayServerSettings class
 description: Sets the OnlyConsentCapableClients property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: abc91ea8-0f3c-4b7c-9091-3c8193e610da
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

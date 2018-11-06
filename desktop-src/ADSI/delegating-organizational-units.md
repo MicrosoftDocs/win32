@@ -1,12 +1,8 @@
 ---
 title: Delegating Organizational Units
 description: The Fabrikam company hires two administrators, Mike and Paul, to manage the East and West organizational units, respectively.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ecf71ae6-9b6f-4e3c-878a-2c6fd193da33
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

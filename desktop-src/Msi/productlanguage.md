@@ -2,7 +2,6 @@
 Description: The ProductLanguage property specifies the language the installer should use for any strings in the user interface that are not authored into the database.
 ms.assetid: 5d798825-c70b-4d5a-b88c-a9db40663f6a
 title: ProductLanguage property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

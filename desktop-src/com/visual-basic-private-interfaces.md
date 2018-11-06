@@ -2,7 +2,6 @@
 title: Visual Basic Private Interfaces
 description: Visual Basic Private Interfaces
 ms.assetid: 782e5d87-680e-4d0c-b1e6-cf97d1a37ce5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

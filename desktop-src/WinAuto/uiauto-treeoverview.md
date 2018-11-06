@@ -8,7 +8,6 @@ keywords:
 - UI Automation,raw view of tree
 - UI Automation,control view of tree
 - UI Automation,content view of tree
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

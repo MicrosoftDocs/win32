@@ -1,14 +1,8 @@
 ---
 Description: The Reboot method requests a reboot of the operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2ce766dd-51a4-4ffb-a45a-40399f1110f6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Reboot method of the CIM_OperatingSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Reboot** method requests a reboot of the operating system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

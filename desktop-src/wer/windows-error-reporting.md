@@ -6,7 +6,6 @@ keywords:
 - Windows error reporting Windows Error Reporting
 - Windows error reporting Windows Error Reporting , home page
 - WER Windows Error Reporting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic lists the HRESULT return codes that are defined for DirectShow.
 ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
 title: DirectShow Error and Success Codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

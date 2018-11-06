@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,interfaces
 - Advanced Systems Format (ASF),interfaces
 - ASF (Advanced Systems Format),interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

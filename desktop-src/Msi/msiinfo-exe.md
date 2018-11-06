@@ -2,7 +2,6 @@
 Description: Msiinfo.exe is a command line utility that uses Database Functions and Installer Functions to edit or display the summary information stream of a database.
 ms.assetid: 3f60146e-12bf-4755-bbca-93bb1c300fb7
 title: Msiinfo.exe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

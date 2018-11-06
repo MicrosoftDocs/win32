@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Services management applications
 description: Describes the management applications that Remote Desktop Services supports.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 05f57b0a-c9fe-45aa-bf9e-f93230c13d65
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

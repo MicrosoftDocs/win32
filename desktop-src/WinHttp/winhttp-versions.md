@@ -2,7 +2,6 @@
 Description: Users of Microsoft Windows HTTP Services (WinHTTP) should use the latest version of the technology, version 5.1. Version 5.0 is no longer supported.
 ms.assetid: b69e5087-7849-4cbc-a97b-204a26fdd044
 title: WinHTTP Versions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -29,7 +28,7 @@ Redistribution of WinHTTP 5.1 outside of these operating systems is not supporte
 
 The WinHTTP 5.0 redistributable, "winhttp5.dll", runs on Windows 2000 or later, or Windows NT 4.0 with Microsoft Internet Explorer 5.01 or later.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft has removed the WinHTTP 5.0 SDK download from MSDN and has terminated product support for version 5.0.
 
  

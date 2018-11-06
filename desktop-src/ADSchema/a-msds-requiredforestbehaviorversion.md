@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Required-Forest-Behavior-Version attribute
 description: Required forest function level for this feature.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad884471-a416-4210-8cc8-0dbdf7ec535a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Required-Forest-Behavior-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

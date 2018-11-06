@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientShell PublicMode property
 description: Specifies or retrieves whether public mode is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 983d3e46-f09e-4425-88a1-9d4ae0d9c70a
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

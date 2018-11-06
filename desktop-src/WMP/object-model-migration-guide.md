@@ -13,7 +13,6 @@ keywords:
 - Windows Media Player Mobile,object model
 - Windows Media Player Mobile,migration guide
 - migration guide,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

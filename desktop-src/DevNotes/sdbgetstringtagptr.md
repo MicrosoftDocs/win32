@@ -2,7 +2,6 @@
 Description: Retrieves the string data for the specified TAGID.
 ms.assetid: c558e0bb-7e35-4298-93fb-400db00a2972
 title: SdbGetStringTagPtr function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Windows Controls
 description: A control is a child window that an application uses in conjunction with another window to enable user interaction.
 ms.assetid: 0a6eb481-d94e-40c5-afec-46354520f08f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

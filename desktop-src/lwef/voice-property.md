@@ -2,7 +2,6 @@
 title: Voice Property
 description: Voice Property
 ms.assetid: 1feb5597-7971-4778-8221-2eb3a6e5e1ee
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Revealed-List-BL attribute
 description: Backward link attribute for ms-DS-Revealed-List.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 12979dc0-674b-4102-a433-0d4ff6989248
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Revealed-List-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

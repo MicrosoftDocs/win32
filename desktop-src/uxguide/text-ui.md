@@ -2,7 +2,6 @@
 title: User Interface Text
 description: User interface text appears on UI surfaces.
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

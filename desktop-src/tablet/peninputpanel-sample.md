@@ -2,7 +2,6 @@
 Description: This sample builds on the Auto Claims Form sample by integrating the PenInputPanel object. The sample is in the C\# PIPanel directory in the AutoClaims folder.
 ms.assetid: 9a2c1565-fb24-4767-bfa5-0257129f4bd4
 title: PenInputPanel Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

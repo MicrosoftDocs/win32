@@ -1,9 +1,6 @@
 ---
 title: ms-ieee-80211-ID attribute
 description: An identifier used for a wireless policy object on AD.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 751eb9e1-a97f-4a94-a726-151e85ae2dbf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-ieee-80211-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Win32_TSGatewayResourceGroup class
 description: Describes a resource group, which maps a set of resources (computer names) to a single entity.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5715a2ea-9bbc-4704-835e-ba6d93a72368
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

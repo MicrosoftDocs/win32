@@ -1,9 +1,6 @@
 ---
 title: Next-Level-Store attribute
 description: This attribute indicates the next class store to search.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a2416bc-7b93-457b-809c-2a02932376bf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Next-Level-Store
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

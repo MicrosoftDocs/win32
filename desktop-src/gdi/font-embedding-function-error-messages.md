@@ -2,7 +2,6 @@
 Description: The following LONG values are returned by the font-embedding functions when errors are encountered. When functions are successful, the value E\_NONE is returned.
 ms.assetid: 71effafe-55a9-40ed-81c7-07278eba32d3
 title: Font-Embedding Function Error Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

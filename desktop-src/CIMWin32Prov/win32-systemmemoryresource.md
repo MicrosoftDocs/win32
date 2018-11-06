@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemMemoryResource abstract WMI class represents a system memory resource on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a834a1e4-f3e4-4b57-9521-98520c301016
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemMemoryResource class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

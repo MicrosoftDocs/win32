@@ -2,7 +2,6 @@
 Description: 'This section contains information about the following effect-system interfaces:'
 ms.assetid: ebe0afc7-6261-4c96-a54e-9b491e240c03
 title: Effect Interfaces (Direct3D 10)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

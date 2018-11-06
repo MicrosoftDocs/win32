@@ -2,7 +2,6 @@
 Description: Enables the ability to perform ink recognition, retrieve the recognition result, and retrieve alternates. The InkRecognizerContext enables the various recognizer that are installed on a system to use ink recognition to process input appropriately.
 ms.assetid: 2b39fd32-831d-4606-8600-b52aaa7ed882
 title: InkRecognizerContext class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

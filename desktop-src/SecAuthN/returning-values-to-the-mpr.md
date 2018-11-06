@@ -2,7 +2,6 @@
 Description: The Windows Networking functions return WN\_SUCCESS on success, or they return a unique nonzero value if the function encounters an error. In addition, they return extended error information using WNetSetLastError and SetLastError.
 ms.assetid: cb9d29a1-b3a5-4440-a069-3cd1565b1699
 title: Returning Values to the MPR
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Contains the name of a wired LAN policy.
 ms.assetid: 042be748-3337-4eb2-a75f-c85f7042bf13
 title: name (LANPolicy) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

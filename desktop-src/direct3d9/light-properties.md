@@ -2,7 +2,6 @@
 Description: Light properties describe a light source's type and color.
 ms.assetid: b39f1287-c67b-4cbb-b599-4a1b2f4981ac
 title: Light Properties (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The ISignerCertificate interface exposes the following properties.
 ms.assetid: 7C6017EB-4D06-4B3F-84CB-857772BBC0DA
 title: ISignerCertificate Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Retrieves the error.
 ms.assetid: 785b83c4-06f4-46b5-81f7-35c6fce16c92
 title: GetError method of the Msvm_StorageJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

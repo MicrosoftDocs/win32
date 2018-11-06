@@ -2,7 +2,6 @@
 title: Schedule Functions
 description: The network management schedule service functions submit and manage jobs that execute on a specified computer at a particular time (or times) in the future.
 ms.assetid: 1ddc9b95-fdbc-4e39-9b55-2a5bc570b95d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

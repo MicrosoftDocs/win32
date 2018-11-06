@@ -1,12 +1,8 @@
 ---
 Description: A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cb477224-3117-45e4-9271-613b58e48b6e
 ms.tgt_platform: multiple
 title: Setting the Default Process Security Level Using VBScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

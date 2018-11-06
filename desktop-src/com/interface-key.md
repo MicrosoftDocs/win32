@@ -4,7 +4,6 @@ description: Registers new interfaces by associating an interface name with an i
 ms.assetid: 2b2b7506-ac42-4bc4-bad5-17be57d6b4f5
 keywords:
 - Interface registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

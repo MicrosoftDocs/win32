@@ -9,7 +9,6 @@ keywords:
 - DWM (Desktop Window Manager),thumbnail relationships
 - thumbnails
 - thumbnail relationships
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

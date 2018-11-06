@@ -2,7 +2,6 @@
 title: Create New Interfaces to the Same Object
 description: Create New Interfaces to the Same Object
 ms.assetid: 127c44b6-51a6-4fd6-9edc-9fbe0d08d458
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

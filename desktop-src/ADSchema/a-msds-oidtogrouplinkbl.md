@@ -1,9 +1,6 @@
 ---
 title: ms-DS-OIDToGroup-Link-BL attribute
 description: Backward link for ms-DS-OIDToGroup-Link. Identifies the issuance policy, represented by an OID object, that is mapped to this group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8c52b91-faba-4b8e-a378-70b92e2aa6cb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-OIDToGroup-Link-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: GetConnectionString method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the deployment-level database connection string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 91a90883-9b87-42e5-af52-90226f0344bf
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The get\_ReplicateY method retrieves the number of times the wipe pattern is replicated vertically.
 ms.assetid: 347e1ffa-bb39-4980-b8af-5806a23d1334
 title: IDxtJpeg::get_ReplicateY method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

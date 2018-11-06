@@ -2,7 +2,6 @@
 title: IAgentCharacter GestureAt
 description: IAgentCharacter GestureAt
 ms.assetid: ece84652-383e-4397-a6d9-f0209dd80767
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

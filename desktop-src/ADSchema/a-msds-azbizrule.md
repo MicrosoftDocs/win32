@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Biz-Rule attribute
 description: Text of the script implementing the business rule.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 884513ae-9600-49b0-a371-6f77b84b54f9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Biz-Rule
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

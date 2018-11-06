@@ -2,7 +2,6 @@
 Description: Gets the ready state of the media source.
 ms.assetid: 155d9202-5598-467c-b4d0-d22424b13b9d
 title: IMFMediaSourceExtension::GetReadyState method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

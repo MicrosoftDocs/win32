@@ -1,9 +1,6 @@
 ---
 title: Site class
 description: A container for storing server objects. Represents a physical location that contains computers. Used to manage replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ede8b8d3-75a1-49db-a238-87aa4d34ce2f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Site
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

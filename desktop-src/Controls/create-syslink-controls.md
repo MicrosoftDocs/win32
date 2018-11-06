@@ -2,7 +2,6 @@
 title: How to Create SysLink Controls
 description: You implement the SysLink control's hyperlinks through markup in the control's initialization string, or by sending it a LM\_SETITEM message.
 ms.assetid: CEE02A87-D85A-4F4D-931D-2B1371320814
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

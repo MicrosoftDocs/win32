@@ -1,9 +1,6 @@
 ---
 title: User-Change-Password extended right
 description: Permits changing password on user account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 15d2c52f-f626-4c6e-995d-19bbbbb38b6b
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - User-Change-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

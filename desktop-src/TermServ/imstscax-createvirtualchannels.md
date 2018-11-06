@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx CreateVirtualChannels method
 description: Creates a client-side virtual channel object for each specified virtual channel name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3afd2f1c-abd5-4f85-93fb-6d1173f09b07
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

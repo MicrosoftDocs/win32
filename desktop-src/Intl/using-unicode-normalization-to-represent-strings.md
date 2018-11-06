@@ -2,7 +2,6 @@
 Description: Applications can use Unicode to represent strings in multiple forms.
 ms.assetid: 027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35
 title: Using Unicode Normalization to Represent Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

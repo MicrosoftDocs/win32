@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Quota-Control class
 description: A class used to represent quota specifications for the directory database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e37897f8-9646-4bc8-b6e6-9da4a83d66d5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Quota-Control
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

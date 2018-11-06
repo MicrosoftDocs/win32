@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MediaAccessDevice class represents the ability to access one or more media, and then use the media to store and retrieve data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 224a7b08-1566-4b0b-90d8-9991fa188d93
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MediaAccessDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -55,7 +49,7 @@ api_location:
 
 The **CIM\_MediaAccessDevice** class represents the ability to access one or more media, and then use the media to store and retrieve data.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

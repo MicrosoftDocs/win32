@@ -2,7 +2,6 @@
 Description: Basic interactions between users (and applications) and smart cards.
 ms.assetid: b75249d1-3c8f-4dd5-b4a5-f698513d18e2
 title: Smart Card Concepts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

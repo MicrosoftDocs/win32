@@ -1,9 +1,6 @@
 ---
 title: meetingStartTime attribute
 description: The date and time that the meeting starts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ac13a3c9-20c0-48de-b3d2-9034af9dbde8
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingStartTime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

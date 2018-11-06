@@ -5,7 +5,6 @@ ms.assetid: fbaddb10-804b-4230-8986-717edc19a2f5
 keywords:
 - SNMP SNMP
 - SNMP SNMP , start page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -18,7 +17,7 @@ ms.date: 05/31/2018
 
 The Microsoft Windows implementation of the Simple Network Management Protocol (SNMP) is used to configure remote devices, monitor network performance, audit network usage, and detect network faults or inappropriate access.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The Microsoft Windows SNMP API only supports protocol versions up to SNMPv2C. It does not support any later versions of the protocol.
 
  

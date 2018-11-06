@@ -1,14 +1,10 @@
 ---
 title: Adding Users to a Group
 description: Joe Worden, the enterprise administrator, will now add Julie Bankert to the Management group. To add an object to a group, use the IADsGroup.Add method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 57a9f5b2-2e48-401d-8d3b-eceb711a1df9
 ms.tgt_platform: multiple
 keywords:
 - Adding Users to a Group ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

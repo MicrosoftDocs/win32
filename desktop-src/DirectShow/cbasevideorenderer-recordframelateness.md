@@ -2,7 +2,6 @@
 Description: The RecordFrameLateness method records how timely the rendering occurred and gathers statistics for the property page.
 ms.assetid: 9d4b90d7-b529-40cc-a0fd-6635163fb7dd
 title: CBaseVideoRenderer.RecordFrameLateness method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

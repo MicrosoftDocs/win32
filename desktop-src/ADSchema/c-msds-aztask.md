@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Task class
 description: Describes a set of operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1563ed0a-645a-4a4f-a079-a486e15c2e13
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Task
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

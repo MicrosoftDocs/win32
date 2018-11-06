@@ -2,7 +2,6 @@
 Description: The unlodctr tool removes the registry entries created by lodctr.
 ms.assetid: 83c0fb91-857c-40d9-8fb8-8734c1b573c4
 title: Removing Counter Names and Descriptions from the Registry
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

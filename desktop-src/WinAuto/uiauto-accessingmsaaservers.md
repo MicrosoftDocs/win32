@@ -12,7 +12,6 @@ keywords:
 - Microsoft Active Accessibility
 - Active Accessibility
 - clients,accessing Active Accessibility servers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

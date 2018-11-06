@@ -1,9 +1,6 @@
 ---
 title: Lock-Out-Observation-Window attribute
 description: The range of time, in 100-nanosecond intervals, in which the system increments the incorrect logon count.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1929c32-cd05-43ca-9d4a-554683991696
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Lock-Out-Observation-Window
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

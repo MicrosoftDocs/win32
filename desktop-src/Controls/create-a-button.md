@@ -2,7 +2,6 @@
 title: How to Create a Button
 description: To create buttons dynamically, you use the CreateWindow or CreateWindowEx function. This topic demonstrates how to use the CreateWindow function to create a default push button.
 ms.assetid: A8C56D09-90A3-4C70-9907-61390521D1DA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

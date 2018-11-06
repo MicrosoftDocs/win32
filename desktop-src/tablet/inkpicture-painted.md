@@ -2,7 +2,6 @@
 Description: Occurs when the InkPicture control has completed redrawing itself.
 ms.assetid: a8194cff-ed94-402e-8564-08d370f958b4
 title: InkPicture.Painted event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

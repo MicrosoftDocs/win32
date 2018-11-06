@@ -2,7 +2,6 @@
 Description: LOCALE\_SPARENT
 ms.assetid: 3fa0bc36-7577-4b5a-b557-8ac42e8594a8
 title: LOCALE_SPARENT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

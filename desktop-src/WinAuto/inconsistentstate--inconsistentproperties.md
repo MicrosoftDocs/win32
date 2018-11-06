@@ -2,7 +2,6 @@
 title: InconsistentState, InconsistentProperties
 description: InconsistentState, InconsistentProperties
 ms.assetid: 82A2ECA8-0155-402A-A745-B97D3F633643
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

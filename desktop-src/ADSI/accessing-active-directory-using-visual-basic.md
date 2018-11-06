@@ -1,14 +1,10 @@
 ---
 title: Accessing Active Directory Using Visual Basic
 description: One of the most powerful features that became available with the Microsoft Windows 2000 operating system is the Microsoft Active Directory directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5021e38-92a2-43d2-b3cb-15ff5c74c1d8
 ms.tgt_platform: multiple
 keywords:
 - Accessing Active Directory Using Visual Basic ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

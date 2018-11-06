@@ -2,7 +2,6 @@
 Description: Associates the Msvm\_SnapshotCollection to the corresponding Msvm\_VirtualSystemCollection objects.
 ms.assetid: 4dbfe21f-e700-4266-aedb-236c57c424f6
 title: Msvm_SnapshotOfVirtualSystemCollection class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

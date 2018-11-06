@@ -2,7 +2,6 @@
 Description: Tells the driver what macroblocks to render by specifying the surfaces containing the macroblocks, the offsets in each surface where the macroblocks exist, and the size of the macroblock data to be rendered.
 ms.assetid: c49d9dfa-a3db-4572-a474-72c7d4e80940
 title: NtGdiDdRenderMoComp function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

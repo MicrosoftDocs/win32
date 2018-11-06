@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Owner-ID attribute
 description: The MSMQ-Owner-ID attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 110af386-27b2-4813-94bf-11fcf4f03371
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Owner-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

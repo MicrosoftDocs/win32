@@ -2,7 +2,6 @@
 Description: The StretchDIBits function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle.
 ms.assetid: d4e3f631-3852-4cee-8e97-2244c39b200e
 title: Sizing a JPEG or PNG Image
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -7,7 +7,6 @@ keywords:
 - Windows Touch,API functionality
 - programming reference for Windows Touch
 - reference for Windows Touch
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The DeletePrintProcessor function removes a print processor added by the AddPrintProcessor function.
 ms.assetid: 65c77874-aa2c-4b4c-b218-fad361270a3e
 title: DeletePrintProcessor function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

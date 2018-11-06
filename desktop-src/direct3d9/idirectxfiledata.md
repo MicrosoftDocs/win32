@@ -2,7 +2,6 @@
 Description: Applications use the methods of the IDirectXFileData interface to build or to access the immediate hierarchy of the data object.
 ms.assetid: 8810162f-76a8-45ba-b069-7910fd611a60
 title: IDirectXFileData interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

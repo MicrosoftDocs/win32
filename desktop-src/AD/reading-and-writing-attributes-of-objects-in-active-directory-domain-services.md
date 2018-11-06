@@ -1,15 +1,11 @@
 ---
 title: Reading and Writing Attributes of Objects in Active Directory Domain Services
 description: Objects in Active Directory Domain Services have attributes that contain data about the specific object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d11b32c5-5bda-45af-846d-f35b839cf10d
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , using reading and writing attributes of Active Directory objects
 - objects Active Directory , reading and writing attributes of Active Directory objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient5 GetErrorDescription method
 description: Retrieves the error description for the session disconnect events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8c8f7b10-7f79-4586-845e-e99f5ca81905
 ms.tgt_platform: multiple
 keywords:
@@ -33,7 +30,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

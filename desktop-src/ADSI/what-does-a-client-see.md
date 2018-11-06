@@ -1,14 +1,10 @@
 ---
 title: What Does a Client See
 description: This topic lists ways that a client views ADSI data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 238eeea9-1303-4d37-bf09-ad03f1790c1b
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,what does a client see
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

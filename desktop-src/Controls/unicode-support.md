@@ -2,7 +2,6 @@
 title: Unicode Support for Common Controls
 description: This topic describes how to support Unicode for common control notifications.
 ms.assetid: 5020F638-261D-4D32-ACC4-F9572EDBE875
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

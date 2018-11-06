@@ -1,9 +1,6 @@
 ---
 title: msmq-Peek-computer-Journal extended right
 description: Allows peeking at messages in the Computer Journal queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 76b5eeb2-01a9-45c1-aa8c-4092a7bf8d05
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Peek-computer-Journal
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

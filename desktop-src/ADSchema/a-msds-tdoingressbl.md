@@ -1,9 +1,6 @@
 ---
 title: ms-DS-TDO-Ingress-BL attribute
 description: Backlink to TDO Ingress rules link on object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 27ca02fe-5803-49e6-acc7-2a6946e72c5f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-TDO-Ingress-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

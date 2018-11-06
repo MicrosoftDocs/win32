@@ -2,7 +2,6 @@
 Description: Contains location and bounding information for the note Title, if present.
 ms.assetid: b193f6c2-5f26-41f9-acc8-d734c426b069
 title: TitleArea Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Communicating with a network device using the WMI SNMP interface requires the configuration of the device, SNMP, and WMI services. The information in this topic explains how to set up the WMI SNMP environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8074175a-af66-49b2-9723-dfb38a08fb63
 ms.tgt_platform: multiple
 title: Setting up the WMI SNMP Environment
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

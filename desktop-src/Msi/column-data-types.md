@@ -2,7 +2,6 @@
 Description: The columns of the database tables are formatted in one of the following data types.
 ms.assetid: 19f58237-9cad-4feb-b439-77b183d14dcf
 title: Column Data Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

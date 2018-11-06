@@ -1,9 +1,6 @@
 ---
 title: Poss-Superiors attribute
 description: The list of objects that can contain this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d16c0bd-e27c-4c4a-b6cc-bc59cc295559
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Poss-Superiors
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

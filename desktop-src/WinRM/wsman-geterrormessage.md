@@ -1,9 +1,6 @@
 ---
 title: WSMan.GetErrorMessage method
 description: Returns a formatted string that contains the text of an error number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5f0a5259-8356-4406-8612-34f4921184f0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

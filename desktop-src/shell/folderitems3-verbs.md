@@ -2,7 +2,6 @@
 Description: Gets the list of verbs common to all the folder items.
 ms.assetid: f72f5dcc-35e0-4a23-ae4c-355da2858aab
 title: FolderItems3.Verbs property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

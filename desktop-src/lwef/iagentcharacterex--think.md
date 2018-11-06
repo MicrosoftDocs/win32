@@ -2,7 +2,6 @@
 title: IAgentCharacterEx Think
 description: IAgentCharacterEx Think
 ms.assetid: 64bfa388-0db7-423c-a4af-64a9f7351e9a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

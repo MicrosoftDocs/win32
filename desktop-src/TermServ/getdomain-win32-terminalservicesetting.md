@@ -1,9 +1,6 @@
 ---
 title: GetDomain method of the Win32_TerminalServiceSetting class
 description: Retrieves the name of the domain that the Remote Desktop Session Host (RD Session Host) server is a member of.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11d58068-56df-4040-b7ba-afdd55bd417a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

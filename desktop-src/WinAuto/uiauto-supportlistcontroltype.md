@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for List control type
 - control types,support for List
 - control types,List
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

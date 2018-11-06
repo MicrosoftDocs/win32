@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 6ead2145-4707-47cc-884f-191f135eb4fc
 title: System.Contact.JobInfo3Department
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This property represents a list of share statuses for the file/folder specified by the storage provider.Each share status must be one of the known value specified by the enumerations belowStorageProviderShareStatuses is a readonly property, it should only be updated by the storage provider.
 ms.assetid: 131bf48a-0ab9-4b1f-9625-6fca5d15219f
 title: System.StorageProviderShareStatuses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

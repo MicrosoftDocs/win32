@@ -2,7 +2,6 @@
 title: IAgentCharacter Stop
 description: IAgentCharacter Stop
 ms.assetid: 3064bb3e-37a6-4022-bffb-130735736889
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

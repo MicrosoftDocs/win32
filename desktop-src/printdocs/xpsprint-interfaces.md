@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: f575109e-e9c4-4db5-945c-7c96b6b5d613
 title: XPS Print API Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

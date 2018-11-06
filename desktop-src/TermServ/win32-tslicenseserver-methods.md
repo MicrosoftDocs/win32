@@ -1,12 +1,8 @@
 ---
 title: Win32_TSLicenseServer Methods
 description: The Win32\_TSLicenseServer class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 743582EA-6D2F-48C5-AA69-593261BE5892
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

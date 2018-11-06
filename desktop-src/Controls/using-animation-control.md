@@ -2,7 +2,6 @@
 title: Using Animation Controls
 description: This section gives implementation details and example code for animation controls.
 ms.assetid: 4f699219-8d9a-41f5-8dc8-889786442fb6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

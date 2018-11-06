@@ -2,7 +2,6 @@
 Description: Texture coordinates in Direct3D can include one, two, three, or four floating point elements to address textures with varying levels of dimension.
 ms.assetid: d841af62-41b0-4b80-960b-4630b9a7210c
 title: Texture Coordinate Formats (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

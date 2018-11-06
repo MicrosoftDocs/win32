@@ -4,7 +4,6 @@ description: DNS domains are familiar to most computer professionals who use the
 ms.assetid: e4cf5a5c-6b0d-488a-aff8-06e31611aa1a
 keywords:
 - DNS Domains
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

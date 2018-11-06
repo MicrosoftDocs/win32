@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c3fbe1ac-eaf6-49d1-92d1-a7115ebbbeba
 title: System.Project
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

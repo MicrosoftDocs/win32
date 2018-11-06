@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionDirectoryVirtualDesktopServer class
 description: Represents a Remote Desktop Virtualization Host (RD Virtualization Host) server joined to a session broker.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a09221bd-d1b1-465b-91bb-9ca400a796b1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

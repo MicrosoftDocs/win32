@@ -1,9 +1,6 @@
 ---
 title: Search-Flags attribute
 description: Contains a set of flags that specify search and indexing information for an attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 55fc4398-25d2-466a-9aa9-fa375d827023
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Search-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

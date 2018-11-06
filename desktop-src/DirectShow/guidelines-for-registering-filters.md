@@ -2,7 +2,6 @@
 Description: Guidelines for Registering Filters
 ms.assetid: 05945937-9e01-4930-ae95-1931a711b55e
 title: Guidelines for Registering Filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: RAS Server Security Authentication
 description: When a Windows NT/Windows 2000 RAS server receives a call, it invokes the RasSecurityDialogBegin function of the registered RAS security DLL, if there is one.
 ms.assetid: dd9469ec-9bb1-4444-af5b-72e3ba8b4cb2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

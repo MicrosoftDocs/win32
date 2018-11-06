@@ -2,7 +2,6 @@
 Description: A merge tool evaluates the ModuleInstallUISequence table and then inserts the calculated actions into the InstallUISequence table with a correct sequence number.
 ms.assetid: a125aecc-57d9-4c8e-873e-d5315eaafa56
 title: ModuleInstallUISequence Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

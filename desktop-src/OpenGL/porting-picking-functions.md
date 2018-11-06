@@ -8,7 +8,6 @@ keywords:
 - porting to OpenGL from IRIS GL,picking
 - OpenGL porting from IRIS GL,picking
 - picking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

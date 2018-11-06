@@ -2,7 +2,6 @@
 title: D3DX 11 Reference
 description: The D3DX 11 API is described in this section.
 ms.assetid: 78520da0-4be0-42d8-93a4-9bd17ef50007
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

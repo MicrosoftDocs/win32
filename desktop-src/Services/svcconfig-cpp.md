@@ -2,7 +2,6 @@
 Description: The following is a sample service configuration program.
 ms.assetid: effb469a-020e-4c70-aad6-12a91bd36f68
 title: SvcConfig.cpp
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

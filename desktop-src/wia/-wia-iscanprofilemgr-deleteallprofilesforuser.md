@@ -2,7 +2,6 @@
 Description: Deletes all the scan profiles available for the user in the system that your application is running under.
 ms.assetid: 1a79fd0e-1309-4fc4-863f-6dfb20594d91
 title: IScanProfileMgr::DeleteAllProfilesForUser method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

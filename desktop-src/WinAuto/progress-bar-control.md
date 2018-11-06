@@ -2,7 +2,6 @@
 title: Progress Bar Control (MSAA UI Element Reference)
 description: Progress bar controls indicate the progress of a lengthy operation such as downloading a file from the Internet. Usually the progress is expressed as a percentage from zero (0) to one hundred (100).
 ms.assetid: 9165d00e-b3f3-41cd-812c-cd39313460fa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

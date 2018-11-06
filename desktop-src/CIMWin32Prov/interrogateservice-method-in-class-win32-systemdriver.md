@@ -1,14 +1,8 @@
 ---
 Description: Requests that the system driver service update its state to the service manager.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 350d9044-39fd-436f-ab15-b30324b2b2e9
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

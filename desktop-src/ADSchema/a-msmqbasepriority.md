@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Base-Priority attribute
 description: The base priority of messages transmitted to this queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bcb2b13d-67f0-44d1-ae2c-129528fdf36d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Base-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: The Domain Name System (DNS) is an open protocol.
 ms.assetid: ab344ba0-68af-4546-aba8-1bb2eb48e7b2
 keywords:
 - Domain Name System, standards
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

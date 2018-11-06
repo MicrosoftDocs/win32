@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-Link class
 description: Contains information about MSMQ routing connectivity between sites. This object is created for each routing link that is created and contains connectivity information. These objects are contained by MSMQ Services objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6661ef0a-7a6f-4683-8ac0-71274dddc782
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-Link
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

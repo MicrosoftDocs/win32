@@ -2,7 +2,6 @@
 Description: Authorization sets what resources you have access to.
 ms.assetid: DD6836EE-DF73-4A07-9DF1-0F5A959DDE8F
 title: Authorization for web pages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates how to use the Common File Dialog in different modes to pick files, containers (folders) or both files and folders (basket mode) without dismissing the dialog.
 title: Common File Dialog Modes Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

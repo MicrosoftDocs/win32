@@ -1,9 +1,6 @@
 ---
 title: AddDesktopAssignment method of the Win32_RDMSDesktopAssignment class
 description: Add a desktop assignment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3690f70e-d0c3-444a-a0b7-cec6994eb3b8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

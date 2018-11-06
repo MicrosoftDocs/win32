@@ -1,9 +1,6 @@
 ---
 title: Content-Indexing-Allowed attribute
 description: Indicates whether the Volume object can be content indexed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 65e3cc3a-be16-4dd1-8ff1-1a8ad0943291
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Content-Indexing-Allowed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

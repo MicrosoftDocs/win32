@@ -1,9 +1,6 @@
 ---
 title: Logon-Hours attribute
 description: The hours that the user is allowed to logon to the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b97cc8b0-7f26-45c1-b1c9-bae6467bdfb6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Logon-Hours
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

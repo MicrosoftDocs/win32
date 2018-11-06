@@ -2,7 +2,6 @@
 Description: Retrieves the virtual flags on the specified open registry key in an offline registry hive.
 ms.assetid: 2a04c257-e3b0-415b-97d2-616e12513a0a
 title: ORGetVirtualFlags function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

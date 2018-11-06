@@ -1,9 +1,6 @@
 ---
 title: ACS-Non-Reserved-Peak-Rate attribute
 description: The ACS-Non-Reserved-Peak-Rate attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4080839c-d99e-4527-8c81-6d23ab0d3d70
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Non-Reserved-Peak-Rate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

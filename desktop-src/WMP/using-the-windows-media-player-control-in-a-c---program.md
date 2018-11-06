@@ -19,7 +19,6 @@ keywords:
 - ActiveX control,C++
 - C++ program embedding
 - embedding,C++ programs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

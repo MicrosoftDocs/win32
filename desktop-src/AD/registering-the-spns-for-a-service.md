@@ -1,14 +1,10 @@
 ---
 title: Registering the SPNs for a Service
 description: The following code example registers or unregisters one or more service principal names (SPNs) for a service instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60c252c7-76d2-4683-bf90-0f3483e6e8e0
 ms.tgt_platform: multiple
 keywords:
 - Registering the SPNs for a Service AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

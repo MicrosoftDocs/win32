@@ -2,7 +2,6 @@
 title: COM Class Objects and CLSIDs
 description: A COM server is implemented as a COM class.
 ms.assetid: 0073acdf-38a8-4f1a-aa26-379456a95fca
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

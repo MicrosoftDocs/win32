@@ -2,7 +2,6 @@
 Description: Sets a string at a given location within a BLOB.
 ms.assetid: 645e6b8b-aaaf-429f-ad2f-bf4364ef4e80
 title: SetStringInBlob function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

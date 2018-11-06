@@ -21,7 +21,6 @@ keywords:
 - text services,security
 - TSF-enabled applications,security
 - security for TSF
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

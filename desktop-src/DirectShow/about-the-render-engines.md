@@ -2,7 +2,6 @@
 Description: About the Render Engines
 ms.assetid: 80299b1a-09bf-4660-95d3-41a2b0074745
 title: About the Render Engines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -22,12 +21,12 @@ The smart render engine uses smart recompression to improve performance. With sm
 
 For preview, use the basic render engine. The smart render engine can also preview, but less efficiently because it has to decompress the compressed stream. For writing files, use the smart render engine if you want smart recompression. Otherwise, use the basic render engine. Smart recompression can greatly reduce the time it takes to write the file.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not use the smart render engine to read or write Windows Media files.
 
  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Both render engines create an invisible window that processes messages. The thread that creates the render engine must have a message loop, to dispatch messages. Also, that thread must not exit until the Render Engine and the Filter Graph Manager are released. Otherwise, the application might deadlock.
 
  

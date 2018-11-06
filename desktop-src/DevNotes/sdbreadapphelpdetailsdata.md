@@ -2,7 +2,6 @@
 Description: Retrieves data from the Apphelp details database.
 ms.assetid: f3731561-bf3f-4139-9890-bd4ce73d83fa
 title: SdbReadApphelpDetailsData function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

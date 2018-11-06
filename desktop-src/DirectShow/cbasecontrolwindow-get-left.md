@@ -2,7 +2,6 @@
 Description: The get\_Left method retrieves the current left window coordinate.
 ms.assetid: 9ee71bd3-1ff5-4574-8dcd-5ba6490d9785
 title: CBaseControlWindow.get_Left method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

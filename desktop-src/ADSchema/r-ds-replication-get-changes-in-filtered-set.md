@@ -1,9 +1,6 @@
 ---
 title: DS-Replication-Get-Changes-In-Filtered-Set extended right
 description: DS-Replication-Get-Changes-In-Filtered-Set extended right
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 600552c3-6a3a-40ea-8702-3d6a763cfde3
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Replication-Get-Changes-In-Filtered-Set
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

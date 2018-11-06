@@ -14,7 +14,6 @@ keywords:
 - UI Automation,caching control patterns
 - UI Automation,control pattern caching
 - control patterns,caching
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

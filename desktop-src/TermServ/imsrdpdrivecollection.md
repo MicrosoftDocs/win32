@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDriveCollection interface
 description: Represents a collection of drive objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 26926b85-021d-4678-845f-93ba62b2b4a3
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

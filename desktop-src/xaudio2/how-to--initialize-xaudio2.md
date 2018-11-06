@@ -2,7 +2,6 @@
 Description: XAudio2 is initialized for audio playback by creating an instance of the XAudio2 engine, and creating a mastering voice.
 ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
 title: 'How to: Initialize XAudio2'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

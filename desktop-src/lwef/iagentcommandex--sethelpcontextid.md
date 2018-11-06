@@ -2,7 +2,6 @@
 title: IAgentCommandEx SetHelpContextID
 description: IAgentCommandEx SetHelpContextID
 ms.assetid: 861d55dc-f584-495c-a148-016af8f7a3e2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

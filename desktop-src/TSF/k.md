@@ -3,7 +3,6 @@ title: K
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: '3cd9dd9b-bfc8-4968-9243-16da4ed8938f'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

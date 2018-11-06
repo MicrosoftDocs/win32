@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Queue-Quota attribute
 description: A message quota of the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45a9d6f0-5cd7-414d-97c5-18a7e41a5062
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Queue-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

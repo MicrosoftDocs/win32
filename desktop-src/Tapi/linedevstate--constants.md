@@ -2,7 +2,6 @@
 Description: The LINEDEVSTATE\_ bit-flag constants describe various line status events.
 ms.assetid: 41e8a777-a57a-4d6c-850f-e21b58081b0d
 title: LINEDEVSTATE_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

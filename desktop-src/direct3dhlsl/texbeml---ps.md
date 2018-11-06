@@ -2,7 +2,6 @@
 title: texbeml - ps
 description: Apply a fake bump environment-map transform with luminance correction. This is accomplished by modifying the texture address data of the destination register, using address perturbation data (du,dv), a 2D bump environment matrix, and luminance.
 ms.assetid: 345a0b77-8d4e-4a0b-a31a-1153f8cb5961
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

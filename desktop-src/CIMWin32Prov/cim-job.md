@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Job class represents a unit of work for a system, such as a print job. A job is distinct from a process because a job can be scheduled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a689230e-2a62-4f0d-9961-9bbc055d3c6e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Job class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -39,7 +33,7 @@ api_location:
 
 The **CIM\_Job** class represents a unit of work for a system, such as a print job. A job is distinct from a process because a job can be scheduled.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

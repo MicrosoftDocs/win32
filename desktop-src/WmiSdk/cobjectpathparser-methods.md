@@ -1,12 +1,8 @@
 ---
 Description: The CObjectPathParser class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8109064C-E67F-4462-945D-1D2541E8588D
 ms.tgt_platform: multiple
 title: CObjectPathParser Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: ICE78 verifies that the AdvtUISequence table either does not exist or is empty. This is required because no user interface is allowed during advertising.
 ms.assetid: 8ed1c68f-331d-42f9-80df-bdcb42962482
 title: ICE78
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Printer information Printer Enumeration Flag.
 ms.assetid: 50a6df8e-1055-4964-a3d1-8e0ee8a74edc
 title: System.DeviceInterface.PrinterEnumerationFlag
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

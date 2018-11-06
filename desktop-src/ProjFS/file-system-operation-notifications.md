@@ -2,7 +2,6 @@
 title: File System Operation Notifications
 description: Describes how a provider can receive notifications of file system operations.
 ms.assetid: <GUID-GOES-HERE>
-ms.author: TBD
 ms.date: 10/04/2018
 ms.topic: article
 ---

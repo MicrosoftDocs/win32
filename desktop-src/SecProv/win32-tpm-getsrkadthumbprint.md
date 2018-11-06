@@ -2,7 +2,6 @@
 Description: Gets the Storage root key thumbprint for a given modulus of the public portion of the TPM Storage Root Key.
 ms.assetid: 08CBEB19-ECF5-4E43-B4A4-0F35987173E1
 title: Win32_Tpm::GetSrkADThumbprint method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

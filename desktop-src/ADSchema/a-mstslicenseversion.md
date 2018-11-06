@@ -1,9 +1,6 @@
 ---
 title: MS-TS-LicenseVersion attribute
 description: Terminal server license version.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9df736d7-be9c-4ac4-a9fb-2bb669a84f2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-LicenseVersion
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Submits a job to an operating system for execution at a specified time and date in the future.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9d582fbb-24cb-401d-8b77-af7671a24e6d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Create method of the Win32_ScheduledJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

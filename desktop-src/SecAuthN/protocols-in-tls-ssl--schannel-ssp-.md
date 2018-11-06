@@ -2,7 +2,6 @@
 Description: The schannel SSP implements versions of the TLS, DTLS and SSL protocols. Different Windows versions support different protocol versions.
 ms.assetid: FF716A4E-ABF2-4773-9588-9D200945A866
 title: Protocols in TLS/SSL (Schannel SSP)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

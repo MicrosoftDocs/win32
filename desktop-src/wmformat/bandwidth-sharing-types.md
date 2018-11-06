@@ -7,7 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),bandwidth sharing
 - ASF (Advanced Systems Format),bandwidth sharing
 - bandwidth sharing,types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

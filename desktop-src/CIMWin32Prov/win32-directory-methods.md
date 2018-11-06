@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Directory class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8DB08CBE-6E73-475A-9EDB-DE845BDDAE4E
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Directory Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

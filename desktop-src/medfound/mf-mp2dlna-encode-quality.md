@@ -2,7 +2,6 @@
 Description: Specifies the encoding quality for the Digital Living Network Alliance (DLNA) media sink.
 ms.assetid: 4cf745ab-66ae-40f2-b5c4-3f72f1b9badb
 title: MF_MP2DLNA_ENCODE_QUALITY attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

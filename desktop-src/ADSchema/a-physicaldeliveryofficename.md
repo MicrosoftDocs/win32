@@ -1,9 +1,6 @@
 ---
 title: Physical-Delivery-Office-Name attribute
 description: Contains the office location in the user's place of business.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a6be61bf-9a9a-4b97-bdf8-894c173efadd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Physical-Delivery-Office-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

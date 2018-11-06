@@ -2,7 +2,6 @@
 Description: To draw a shaded triangle, define a TRIVERTEX structure with three elements and a single GRADIENT\_TRIANGLE structure.
 ms.assetid: 78834f92-00cb-4899-851a-1de5e3c1f4fa
 title: Drawing a Shaded Triangle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

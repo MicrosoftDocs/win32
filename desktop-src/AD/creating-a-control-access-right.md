@@ -1,14 +1,10 @@
 ---
 title: Creating a Control Access Right
 description: To add a control access right to an Active Directory server, create a controlAccessRight object in the Extended-Rights container of the Configuration partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dacd42c6-17d9-4dfe-8f51-e4a470766494
 ms.tgt_platform: multiple
 keywords:
 - Creating a Control Access Right AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

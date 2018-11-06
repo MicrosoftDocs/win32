@@ -2,7 +2,6 @@
 Description: Parental controls can be extended by using the settings and logging APIs.
 ms.assetid: f0fc1b11-6de4-48f6-afc9-f05c8812d2bd
 title: Parental Controls Extensibility Features Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

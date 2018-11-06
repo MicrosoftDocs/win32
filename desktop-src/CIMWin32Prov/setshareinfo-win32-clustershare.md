@@ -1,14 +1,8 @@
 ---
 Description: Sets the parameters of the shared resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 592d0fa6-c865-4f70-89c3-b58204a8c5a6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetShareInfo method of the Win32_ClusterShare class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

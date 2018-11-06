@@ -2,7 +2,6 @@
 Description: Called from an any hit shader to reject the hit and end the shader.
 ms.assetid: 
 title: IgnoreHit function
-ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

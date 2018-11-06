@@ -2,7 +2,6 @@
 title: Creating an Idle Trigger Example
 description: To create an idle trigger, you must specify an idle trigger when you create the trigger, and you must set the idle time for the task. For information about idle conditions, see Task Idle Conditions.
 ms.assetid: d36a621c-4011-4c3d-b6f4-b56d1f50983c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

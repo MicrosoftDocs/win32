@@ -2,7 +2,6 @@
 Description: Pointer to the filter that created the pin.
 ms.assetid: feeb5bef-6eed-4f7c-823c-fadf3d51df80
 title: CBasePin::m_pFilter member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

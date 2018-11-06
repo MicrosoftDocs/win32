@@ -2,7 +2,6 @@
 Description: The ASF media sink is the final component in the encoding pipeline that enables an application to write an ASF file.
 ms.assetid: 65bb8822-5eb0-46a3-ab9e-c55ae466e982
 title: ASF Media Sinks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

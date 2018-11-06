@@ -2,7 +2,6 @@
 Description: The RemovePalette method deletes the existing logical palette and calls CBaseWindow::UnsetPalette on the CBaseWindow object.
 ms.assetid: fab531b8-8630-43f8-bf08-cd8f24659bef
 title: CImagePalette.RemovePalette method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

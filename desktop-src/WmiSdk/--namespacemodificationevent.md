@@ -1,12 +1,8 @@
 ---
 Description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 168505d7-4677-4f41-935e-149f22de2cb5
 ms.tgt_platform: multiple
 title: '__NamespaceModificationEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

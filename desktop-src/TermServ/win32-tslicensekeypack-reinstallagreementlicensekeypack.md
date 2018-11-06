@@ -1,9 +1,6 @@
 ---
 title: ReinstallAgreementLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Reinstalls a Remote Desktop Services license key pack that was purchased through a license agreement, and automatically connects over the Internet to validate the key pack license.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: BC3C966B-E6CE-45E2-BC1D-2439B75D4C3C
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

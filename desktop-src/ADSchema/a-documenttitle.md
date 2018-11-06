@@ -1,9 +1,6 @@
 ---
 title: documentTitle attribute
 description: The documentTitle attribute type specifies the title of a document.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41c50484-cde5-4c0f-95c9-bba5f4e99c75
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentTitle
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

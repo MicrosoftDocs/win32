@@ -1,9 +1,6 @@
 ---
 title: Trust-Posix-Offset attribute
 description: The Portable Operating System Interface (POSIX) offset for the trusted domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1263f9f-1577-44b8-b7cc-317a8ecb37f1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Posix-Offset
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

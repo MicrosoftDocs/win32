@@ -2,7 +2,6 @@
 title: About the Network List Manager API
 description: About the Network List Manager API
 ms.assetid: 675cf7ed-9f57-4d62-8091-1f4e8812f2ad
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Extra-Columns attribute
 description: This is a multivalued attribute whose values consist of a 5 tuple (attribute name), (column title), (default visibility (0,1)), (column width ( \ 8211;1 for auto width)), 0 (reserved for future use must be zero).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aafe4657-0295-4af2-a7d0-8c7561516e17
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Extra-Columns
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

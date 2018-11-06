@@ -1,16 +1,12 @@
 ---
 title: Example Code for Searching for Attributes
 description: The following code example shows how to use the ADS\_SEARCHPREF\_ATTRIBTYPES\_ONLY search preference to retrieve only the names of attributes to which values have been assigned.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0e166f06-6030-4615-a46d-a282961d3b55
 ms.tgt_platform: multiple
 keywords:
 - ADSI, Example Code C/C++ , Searching for Attributes
 - Example Code for Searching for Attributes
 - ADSI, Searching, IDirectorySearch, Other Search Options, Returning Only Attribute Names, Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

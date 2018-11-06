@@ -2,7 +2,6 @@
 Description: The ICertPropertyKeyProvInfo interface exposes the following properties.
 ms.assetid: DDBF3147-DB03-4D26-B707-A5272916C5D8
 title: ICertPropertyKeyProvInfo Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

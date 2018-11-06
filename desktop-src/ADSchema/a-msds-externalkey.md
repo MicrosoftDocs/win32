@@ -1,9 +1,6 @@
 ---
 title: ms-DS-External-Key attribute
 description: A string that identifies an object in an external store, such as a record in a database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aa5b02eb-f872-4184-9508-fe3d4180c680
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-External-Key
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

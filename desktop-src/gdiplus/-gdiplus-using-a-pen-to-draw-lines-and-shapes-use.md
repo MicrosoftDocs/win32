@@ -2,7 +2,6 @@
 Description: 'The Graphics class provides a variety of drawing methods including those shown in the following list:'
 ms.assetid: d3c8d16c-858a-42a9-a512-3fcfa144f5fc
 title: Using a Pen to Draw Lines and Shapes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

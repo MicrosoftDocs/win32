@@ -2,7 +2,6 @@
 Description: The Notify method receives a notification that a quality change is requested.
 ms.assetid: bb9aa1c3-caef-42fb-87d2-75cc3691f64f
 title: CBaseVideoRenderer.Notify method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

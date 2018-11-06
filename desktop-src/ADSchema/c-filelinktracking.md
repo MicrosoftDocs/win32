@@ -1,9 +1,6 @@
 ---
 title: File-Link-Tracking class
 description: Container for File-Link-Tracking-Entry objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 15ed6bd8-bbd7-4d64-a02b-599bddf4492b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - File-Link-Tracking
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

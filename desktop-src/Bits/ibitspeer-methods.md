@@ -2,7 +2,6 @@
 title: IBitsPeer Methods
 description: The IBitsPeer interface exposes the following methods.
 ms.assetid: 71D949F4-5DCF-49A4-AA37-8131E440BA5E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

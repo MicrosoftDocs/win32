@@ -1,9 +1,6 @@
 ---
 title: RRAS-Administration-Dictionary class
 description: Dictionary object for translating vendor-specific routing attributes to names.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52318b1d-a76f-4293-91f5-a63288c6f0be
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RRAS-Administration-Dictionary
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

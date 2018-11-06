@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation spreadsheet
 - control patterns,spreadsheet
 - interfaces,ISpreadsheetProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

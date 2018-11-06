@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalPackage class represents physical elements that contain or host other components. Examples are a rack enclosure or an adapter card.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9182d413-aa7e-4c2f-94fe-12e99980520c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalPackage class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -48,7 +42,7 @@ api_location:
 
 The **CIM\_PhysicalPackage** class represents physical elements that contain or host other components. Examples are a rack enclosure or an adapter card.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

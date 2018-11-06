@@ -1,9 +1,6 @@
 ---
 title: IsLoadBalancingServer method of the Win32_TSGatewayLoadBalancer class
 description: Determines whether the Remote Desktop Gateway (RD Gateway) server can perform load balancing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ae1a91c1-0b8b-4bd0-83f9-41c973247f27
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

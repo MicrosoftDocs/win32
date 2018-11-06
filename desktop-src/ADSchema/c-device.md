@@ -1,9 +1,6 @@
 ---
 title: Device class
 description: A generic base class for physical devices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c257344c-4ab9-4bc6-b485-ad0ad1a495e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Device
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

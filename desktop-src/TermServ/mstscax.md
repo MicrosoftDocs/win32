@@ -1,9 +1,6 @@
 ---
 title: MsTscAx class
 description: Microsoft Terminal Services Client Control (redistributable) - version 1.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8B8FEF40-89A5-47C0-94EE-4F4B2B5738AB
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

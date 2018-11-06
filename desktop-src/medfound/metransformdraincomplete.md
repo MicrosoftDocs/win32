@@ -2,7 +2,6 @@
 Description: Sent by an asynchronous Media Foundation transform (MFT) when a drain operation is complete.
 ms.assetid: 923055e5-a09a-402e-983b-6fa3cebb1b3a
 title: METransformDrainComplete event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

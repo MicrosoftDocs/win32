@@ -1,15 +1,11 @@
 ---
 title: Example Code for Creating an External crossRef Object
 description: This topic includes a code example that creates an external crossRef object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 282ca648-3bc7-4c5b-98db-1d8f2d040e3a
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating an external crossRef object
 - Active Directory examples Active Directory creating an external referral AD , example code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

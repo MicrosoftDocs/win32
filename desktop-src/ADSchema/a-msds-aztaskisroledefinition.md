@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Task-Is-Role-Definition attribute
 description: A Boolean field which indicates whether AzTask is a classic task or a role definition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e13e297d-f5df-4ed1-a8f3-576432b8ac84
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Task-Is-Role-Definition
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

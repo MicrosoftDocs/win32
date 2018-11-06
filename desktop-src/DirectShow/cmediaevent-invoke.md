@@ -2,7 +2,6 @@
 Description: Provides access to properties and methods exposed by an object.
 ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
 title: CMediaEvent.Invoke method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

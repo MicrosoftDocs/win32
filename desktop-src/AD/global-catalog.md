@@ -1,14 +1,10 @@
 ---
 title: Global Catalog
 description: A Domain run by Active Directory Domain Services can consist of many partitions or naming contexts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eac02c1f-0c37-4eee-822d-07913ea8775a
 ms.tgt_platform: multiple
 keywords:
 - global catalog Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

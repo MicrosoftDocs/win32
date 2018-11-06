@@ -2,7 +2,6 @@
 Description: Predictive dialing is an application that typically runs on a call center telephony server.
 ms.assetid: c8d0b2b5-61eb-4ab0-b09d-c54c282b730e
 title: Predictive Dialing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

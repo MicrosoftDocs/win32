@@ -15,7 +15,6 @@ keywords:
 - audio streams
 - music server streams
 - streams from music servers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

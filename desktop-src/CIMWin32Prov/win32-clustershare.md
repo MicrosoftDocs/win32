@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ClusterShare class represents a shared resource on a cluster.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6c8b40e3-431f-4728-a389-affbc04b8415
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ClusterShare class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: FSMO-Role-Owner attribute
 description: Flexible Single-Master Operation The distinguished name of the DC where the schema can be modified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8eb28524-4bbf-453c-89ab-864ef94b0781
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FSMO-Role-Owner
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

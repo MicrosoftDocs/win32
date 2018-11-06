@@ -2,7 +2,6 @@
 Description: The GetClassID method retrieves the class identifier. This method implements the IPersist::GetClassID method.
 ms.assetid: 95038b11-b56f-4ab9-aefa-4735651c3731
 title: CBaseMediaFilter.GetClassID method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

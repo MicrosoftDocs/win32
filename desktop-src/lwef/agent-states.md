@@ -2,7 +2,6 @@
 title: Agent States
 description: Agent States
 ms.assetid: 8c3c5b12-81af-4ba5-b834-9f0a7ff5d075
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The GetClassWindowStyles method retrieves the window's class styles and window styles.
 ms.assetid: 6eec7912-c654-4e4f-b6f1-ec94c7284575
 title: CBaseWindow.GetClassWindowStyles method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

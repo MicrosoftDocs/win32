@@ -2,7 +2,6 @@
 Description: LOCALE\_IMONLZERO
 ms.assetid: 2d695d69-1138-45e5-9138-2d01945feb5e
 title: LOCALE_IMONLZERO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

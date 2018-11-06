@@ -19,7 +19,6 @@ keywords:
 - ActiveX control,console applications
 - console application embedding
 - embedding,console applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

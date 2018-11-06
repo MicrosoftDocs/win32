@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLicenseKeyPack class
 description: Provides methods and properties for viewing and installing Remote Desktop Services license key packs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27450646-c51f-4911-bb42-410794e32003
 ms.tgt_platform: multiple
 keywords:
@@ -29,7 +26,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section describes procedures and programming techniques employed with Winsock. It includes basic Winsock programming techniques, such as Getting Started With Winsock, as well as advanced techniques useful for experienced Winsock developers.
 ms.assetid: 614ead82-b3fc-4023-8ecc-9f0212f0b194
 title: Using Winsock
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

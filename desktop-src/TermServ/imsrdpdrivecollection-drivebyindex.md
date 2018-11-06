@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDriveCollection DriveByIndex property
 description: Retrieves the drive at the specified index.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 28bb2a44-00ac-4892-881d-fdd3fe6adb6b
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

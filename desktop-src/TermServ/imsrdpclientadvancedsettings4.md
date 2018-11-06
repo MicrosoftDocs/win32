@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings4 interface
 description: Manages advanced client settings. Derives from the IMsRdpClientAdvancedSettings3 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cb1785d6-1f94-4423-bdda-0e3e4e9b8641
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

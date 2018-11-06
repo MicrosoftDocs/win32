@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Max-Uid-Number attribute
 description: Contains the maximum number of users that can be migrated to an NIS domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 76dca1aa-2c1c-4ba0-a76b-12c678278f56
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Max-Uid-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

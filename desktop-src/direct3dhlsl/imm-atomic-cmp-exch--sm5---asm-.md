@@ -2,7 +2,6 @@
 title: imm_atomic_cmp_exch (sm5 - asm)
 description: Immediate compare and exchange to memory.
 ms.assetid: 317A69E1-0E0A-45C8-8E0A-B88659ADBECC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

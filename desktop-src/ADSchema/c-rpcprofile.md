@@ -1,9 +1,6 @@
 ---
 title: rpc-Profile class
 description: Represents an RPC Profile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5cf8b668-697b-44ca-8622-95637bc91436
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Profile
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

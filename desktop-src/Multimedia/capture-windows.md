@@ -2,7 +2,6 @@
 title: Capture Windows
 description: Capture Windows
 ms.assetid: 0dac4440-1d97-438b-9027-2051d2c7e705
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

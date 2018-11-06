@@ -2,7 +2,6 @@
 Description: Some functions essential to debugging are actually classified as process, thread, or exception-handling functions.
 ms.assetid: b76586a7-05e1-4f26-9c27-c11f625e88c8
 title: Debug Support from Process, Thread, and Exception Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

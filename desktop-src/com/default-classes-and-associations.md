@@ -2,7 +2,6 @@
 title: Default Classes and Associations
 description: For certain categories, a single class can be associated as the default class.
 ms.assetid: 9c48615b-ab10-44e4-a032-49d5ee0c9b01
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Surname attribute
 description: This attribute contains the family or last name for a user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d9d53c9f-4efa-47c4-aec4-518fb8a868b3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Surname
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

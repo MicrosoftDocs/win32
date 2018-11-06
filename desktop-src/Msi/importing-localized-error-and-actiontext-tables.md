@@ -2,7 +2,6 @@
 Description: Localized language versions of the Error table and ActionText table are provided by the Windows Installer SDK. The French language versions of these tables, Error.FRA and ActionTe.FRA, are located in the Intl folder of the Windows Installer SDK.
 ms.assetid: 8de687c8-c7da-497e-8a90-2404096ad100
 title: Importing Localized Error and ActionText Tables
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

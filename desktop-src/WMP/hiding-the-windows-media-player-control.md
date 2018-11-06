@@ -26,7 +26,6 @@ keywords:
 - ActiveX control,Web pages
 - Web page embedding,hiding ActiveX control
 - hiding Windows Media Player ActiveX control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

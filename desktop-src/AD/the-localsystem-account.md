@@ -1,15 +1,11 @@
 ---
 title: Using the LocalSystem Account as a Service Logon Account
 description: One advantage of running under the LocalSystem account is that the service has complete unrestricted access to local resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2bc2e16d-bd25-4ec6-91a2-8d03052df021
 ms.tgt_platform: multiple
 keywords:
 - localsystem account
 - localsystem
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

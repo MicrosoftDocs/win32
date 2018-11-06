@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Trust-Forest-Trust-Info attribute
 description: Contains forest trust information (a binary BLOB) that is used by the system for a Trusted-Domain object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60944ff6-d2b1-4f53-8557-7d79a7d9df51
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Trust-Forest-Trust-Info
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

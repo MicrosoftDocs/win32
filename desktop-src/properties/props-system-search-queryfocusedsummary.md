@@ -2,7 +2,6 @@
 Description: The query-focused summary of the document.
 ms.assetid: 99fb269a-fb14-43aa-b363-a7570ff5e3fb
 title: System.Search.QueryFocusedSummary
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

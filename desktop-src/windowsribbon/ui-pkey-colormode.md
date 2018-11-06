@@ -2,7 +2,6 @@
 title: UI_PKEY_ColorMode
 description: Identifies the UI\_PKEY\_ColorMode property.
 ms.assetid: 274B320D-5BD0-47EB-8623-3144DAA82716
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

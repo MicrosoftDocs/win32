@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Queue-Type attribute
 description: A GUID that describes the type of service provided by the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 97804ba5-f42a-44d4-806a-f5974c292528
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Queue-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

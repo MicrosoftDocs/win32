@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-int8Min attribute
 description: The minimum value for a WMI 64-bit integer parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0505e64c-ba42-4df1-a3b4-ce0deb5591ff
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-int8Min
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

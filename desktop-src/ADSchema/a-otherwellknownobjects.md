@@ -1,9 +1,6 @@
 ---
 title: Other-Well-Known-Objects attribute
 description: Contains a list of containers by GUID and Distinguished Name. This permits retrieving an object after it has been moved by using just the GUID and the domain name. Whenever the object is moved, the system automatically updates the Distinguished Name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f33c4ac-235c-47a1-9340-5b90f7edb73b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Other-Well-Known-Objects
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

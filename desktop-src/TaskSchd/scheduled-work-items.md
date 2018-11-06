@@ -7,7 +7,6 @@ keywords:
 - work items Task Scheduler , compared to tasks
 - tasks Task Scheduler
 - tasks Task Scheduler , compared to work items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

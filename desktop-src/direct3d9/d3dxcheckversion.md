@@ -2,7 +2,6 @@
 Description: Verify that the version of D3DX you compiled with is the version that you are running.
 ms.assetid: a4e745dd-d573-4e8f-9516-f6a7475f5cc5
 title: D3DXCheckVersion function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

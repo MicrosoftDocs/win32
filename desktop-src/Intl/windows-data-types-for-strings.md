@@ -2,7 +2,6 @@
 Description: Most string operations can use the same logic for Unicode and for Windows code pages.
 ms.assetid: 5364ec09-68e1-444c-9493-ca9426ac9c34
 title: Windows Data Types for Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

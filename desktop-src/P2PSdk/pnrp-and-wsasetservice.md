@@ -2,7 +2,6 @@
 Description: PNRP uses the WSASetService function to register or remove peer names.
 ms.assetid: ea7941cd-2b3c-42d1-a291-759cbc32db0c
 title: PNRP and WSASetService
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

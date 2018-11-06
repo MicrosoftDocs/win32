@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientShell Properties
 description: The IMsRdpClientShell interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4DB41746-93BF-44B3-B3C1-0CC543754DBF
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

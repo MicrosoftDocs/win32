@@ -1,9 +1,6 @@
 ---
 title: Transport-Address-Attribute attribute
 description: The name of the address type for the transport.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5503a728-81c8-4db9-8033-675fc85b361d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Transport-Address-Attribute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

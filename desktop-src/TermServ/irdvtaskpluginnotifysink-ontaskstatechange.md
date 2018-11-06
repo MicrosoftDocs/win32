@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPluginNotifySink OnTaskStateChange method
 description: Used to notify the trigger agent that the state of a task has changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3021ea7a-2627-48d1-8df5-c40e7a9b51c5
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_name:
 - IRDVTaskPluginNotifySink.OnTaskStateChange
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

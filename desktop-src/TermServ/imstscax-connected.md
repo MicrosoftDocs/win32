@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx Connected property
 description: Retrieves the connection state of the current control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6f65ef6-d321-4362-b192-1ea5ffd2b712
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

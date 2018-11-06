@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient9 SyncSessionDisplaySettings method
 description: Synchronizes session display settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc2c497f-665a-458d-895b-21dd21977890
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

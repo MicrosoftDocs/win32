@@ -2,7 +2,6 @@
 Description: A private assembly is an assembly that is deployed with an application and is available for the exclusive use of that application.
 ms.assetid: 5E0E7423-85BD-4ED0-9149-9541F4D2371F
 title: About Private Assemblies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -30,7 +29,7 @@ Private assemblies are installed in a folder of the application's directory stru
 
  
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > For versions of the Windows operating system before Windows 7 and Windows Server 2008 R2, native private assemblies must be deployed in the folder that contains the application's executable file. Installation in a language specific folder or in the folder with same name as assembly is not supported for native private assemblies.
 

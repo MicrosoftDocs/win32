@@ -2,7 +2,6 @@
 title: Defining Names for the Preprocessor
 description: You can specify conditional compilation in a script, based on whether a name is defined on the RC command line with the /d option, or in the file or an include file with the \ define directive.
 ms.assetid: bc72911e-2aca-46a4-b6c1-60cc8ed7d82f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

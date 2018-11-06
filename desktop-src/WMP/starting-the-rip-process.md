@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,CD ripping
 - CD ripping,starting rip process
 - ripping CDs,starting rip process
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

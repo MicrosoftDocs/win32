@@ -2,7 +2,6 @@
 Description: Proxy function for the GetLocation method.
 ms.assetid: 2dc4767b-9992-4e5a-a171-2de19178d912
 title: IWICMetadataQueryReader_GetLocation_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

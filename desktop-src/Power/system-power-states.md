@@ -2,7 +2,6 @@
 Description: To the user, the system appears to be either on or off.
 ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System Power States
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -82,7 +81,7 @@ The [**SYSTEM\_POWER\_STATE**](/windows/desktop/api/WinNT/ne-winnt-_system_power
 
 During the working state, the system is awake and running. In simple terms, the device is "on." Whether the screen is on or off, the device is in a full running state. To conserve energy, especially on battery powered devices, we highly recommend powering-down hardware components when they're not being used.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Power-down hardware components whenever they're not being used - regardless of the state. Low power consumption is an important consideration for mobile device consumers.
 
  

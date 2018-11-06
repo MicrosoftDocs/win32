@@ -2,7 +2,6 @@
 Description: Defines the kind of attribute associated with a signature.
 ms.assetid: 94f0dce4-0b32-4c39-ab2e-b01795432acd
 title: CAPICOM_ATTRIBUTE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

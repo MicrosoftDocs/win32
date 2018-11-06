@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Genus attribute
 description: Identifies the object type of an encoding.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 924363f5-dabf-46ce-a5de-bbecf401db61
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Genus
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

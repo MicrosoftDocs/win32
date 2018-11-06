@@ -2,7 +2,6 @@
 title: Aero Style Classes, Parts, and States
 description: This topic describes the classes, parts, and states supported by the Aero theme, which defines the visual styles that Microsoft Vista uses by default.
 ms.assetid: 6ec340a8-8ad1-406e-9fe1-9da9710ee27e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

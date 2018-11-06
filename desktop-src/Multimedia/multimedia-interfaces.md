@@ -8,7 +8,6 @@ keywords:
 - multimedia reference,interfaces
 - reference for multimedia,interfaces
 - multimedia interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

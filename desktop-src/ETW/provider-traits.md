@@ -2,7 +2,6 @@
 Description: Provider Traits are a method of attaching more data to an individual provider registration.
 ms.assetid: 97755D64-BF57-4C0D-8ED4-040FC375C4AF
 title: Provider Traits
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

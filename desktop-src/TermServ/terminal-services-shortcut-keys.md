@@ -1,15 +1,11 @@
 ---
 title: Remote Desktop Services Shortcut Keys
 description: A list of the Remote Desktop Services shortcut keys.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 03a94323-2616-4f35-a5c0-3c238acb7693
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , shortcut keys
 - Remote Desktop Services Remote Desktop Services , keyboard shortcuts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

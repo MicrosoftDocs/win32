@@ -1,14 +1,10 @@
 ---
 title: Finding a List of Attributes To Query
 description: When searching for objects of a particular class, comparisons in your search filter should specify attributes that actually exist on the objects of that class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 19d52933-e4b0-414f-9785-871e624da07b
 ms.tgt_platform: multiple
 keywords:
 - Finding a List of Attributes To Query AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

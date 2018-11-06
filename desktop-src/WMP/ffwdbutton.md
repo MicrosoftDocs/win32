@@ -12,7 +12,6 @@ keywords:
 - skins,Fast Forward buttons
 - Fast Forward buttons
 - reference for skins,Fast Forward buttons
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

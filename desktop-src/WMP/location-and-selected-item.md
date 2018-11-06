@@ -16,7 +16,6 @@ keywords:
 - Windows Media Player library,selected items
 - library,locations
 - library,selected items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

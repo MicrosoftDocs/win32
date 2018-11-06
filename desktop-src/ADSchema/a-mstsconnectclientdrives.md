@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Connect-Client-Drives attribute
 description: Terminal Services session Connect Client Drives specifies whether to reconnect to mapped client drives at logon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 647d41d1-8b4e-4521-bcef-34b7df8d012e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Connect-Client-Drives
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

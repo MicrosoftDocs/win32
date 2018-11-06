@@ -2,7 +2,6 @@
 Description: The PKEY\_AudioEndpoint\_FullRangeSpeakers property specifies the channel-configuration mask for the full-range speakers that are connected to the audio endpoint device.
 ms.assetid: c0a54b3d-84dc-4771-8891-167ce00e2218
 title: PKEY_AudioEndpoint_FullRangeSpeakers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

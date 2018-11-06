@@ -2,7 +2,6 @@
 Description: Specifies the name of the user on whose behalf the certificate enrollment is intended.
 ms.assetid: e088af63-5064-4b1b-976f-047f52e56af8
 title: ISCrdEnr::setUserName method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

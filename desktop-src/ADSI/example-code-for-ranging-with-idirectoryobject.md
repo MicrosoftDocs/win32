@@ -1,15 +1,11 @@
 ---
 title: Example Code for Ranging with IDirectoryObject
 description: The following code example uses ranging to retrieve the members of a group using the IDirectoryObject interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 659b4c28-6534-45d2-80ee-14184433390d
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Ranging with IDirectoryObject ADSI
 - Range Retrieval ADSI , Example code,Using IDirectoryObject
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

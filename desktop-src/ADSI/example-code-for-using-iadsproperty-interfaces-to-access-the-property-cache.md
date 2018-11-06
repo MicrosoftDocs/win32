@@ -1,15 +1,11 @@
 ---
 title: Example Code for Using IADsProperty Interfaces to Access the Property Cache
 description: The following code example shows how to use the IADsPropertyList, IADsPropertyEntry, and IADsPropertyValue interfaces with C++ and ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2ac3a1e-642c-451c-a79e-baa38dacb4a2
 ms.tgt_platform: multiple
 keywords:
 - Example Code ADSI , Using IADsProperty Interfaces to Access the Property Cache
 - Example Code for Using IADsProperty Interfaces to Access the Property Cache ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

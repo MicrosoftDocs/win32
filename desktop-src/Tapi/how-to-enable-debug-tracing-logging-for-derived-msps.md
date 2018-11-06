@@ -2,7 +2,6 @@
 Description: The following procedure describes how to enable debug tracing and logging.
 ms.assetid: 52381397-df75-4d81-a048-f0ed408ac6b8
 title: How to Enable Debug Tracing/Logging for Derived MSPs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

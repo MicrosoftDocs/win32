@@ -2,7 +2,6 @@
 Description: Create an asynchronous-file loader.
 ms.assetid: 1b79fba5-e7f0-4160-9cec-ffea94f84fde
 title: D3DX10CreateAsyncFileLoader function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

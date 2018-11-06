@@ -2,7 +2,6 @@
 Description: The partition GUID of the event class object.
 ms.assetid: 154849ac-350c-4b2f-bb51-ac6973f0a8fa
 title: IEventSubscription3::EventClassPartitionID property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

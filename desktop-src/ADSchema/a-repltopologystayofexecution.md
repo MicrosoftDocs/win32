@@ -1,9 +1,6 @@
 ---
 title: Repl-Topology-Stay-Of-Execution attribute
 description: The delay between deleting a server object and it being permanently removed from the replication topology.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 770231b0-4886-41c2-a3b5-ac488ac09669
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Repl-Topology-Stay-Of-Execution
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

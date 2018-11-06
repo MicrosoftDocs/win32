@@ -1,9 +1,6 @@
 ---
 title: Win32_TSRemoteDesktop class
 description: Describes a remote desktop connection that is available through Remote Desktop Web Access (RD Web Access).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 40c7d8f1-cc45-4f0a-8c07-8215342ca02e
 ms.tgt_platform: multiple
 keywords:
@@ -31,7 +28,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

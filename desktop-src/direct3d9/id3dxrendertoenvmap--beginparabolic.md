@@ -2,7 +2,6 @@
 Description: Initiate the rendering of a parabolic environment map.
 ms.assetid: 80456084-f5f5-4dfe-805a-7eaaf7f7cb2a
 title: ID3DXRenderToEnvMap::BeginParabolic method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -1,14 +1,8 @@
 ---
 Description: Renames a printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: afbef871-5153-4b9e-9ad3-4d271a497c37
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RenamePrinter method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The WSALookupServiceBegin query uses SVCID\_INET\_SERVICEBYNAME as the service class GUID.
 ms.assetid: 72ee4a10-2864-48e3-a72c-ae069eb5aef3
 title: getservbyname and getservbyport Functions in the SPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

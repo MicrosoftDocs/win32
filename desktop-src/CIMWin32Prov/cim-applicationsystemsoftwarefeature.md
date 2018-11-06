@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ApplicationSystemSoftwareFeature class represents an association that identifies the software features that make up a particular application system. The software features can be included in different products.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e40d0d64-f9f0-4c05-aef6-c759256e408b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ApplicationSystemSoftwareFeature class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ApplicationSystemSoftwareFeature** class represents an association that identifies the software features that make up a particular application system. The software features can be included in different products.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

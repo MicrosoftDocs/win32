@@ -1,9 +1,6 @@
 ---
 title: ipNetwork class
 description: Represents an abstraction of a network. The distinguished name value of the Common-Name attribute denotes the canonical name of the network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 42e846b2-68ea-4253-b0c1-6195036510af
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipNetwork
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

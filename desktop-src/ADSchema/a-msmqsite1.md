@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-1 attribute
 description: The DN of the first site of a pair that are connected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf5c8634-170d-409c-b527-8b94f94c08b3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-1
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

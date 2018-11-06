@@ -2,7 +2,6 @@
 Description: Generates an optimized face remapping for a triangle list.
 ms.assetid: 428c2af8-43e7-4cf7-8b9b-04ba5cff82c8
 title: D3DXOptimizeFaces function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

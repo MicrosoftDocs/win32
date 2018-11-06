@@ -1,9 +1,6 @@
 ---
 title: ACS-Maximum-SDU-Size attribute
 description: The ACS-Maximum-SDU-Size attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60dc8b92-888f-4eaf-8c7a-70d1ee12b490
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Maximum-SDU-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

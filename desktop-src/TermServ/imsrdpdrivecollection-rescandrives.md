@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDriveCollection RescanDrives method
 description: Refreshes the list of objects in the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5997b76c-d130-4375-b6ff-5ea871f059cc
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

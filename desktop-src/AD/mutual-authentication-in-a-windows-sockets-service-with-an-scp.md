@@ -1,15 +1,11 @@
 ---
 title: Mutual Authentication in a Windows Sockets Service with an SCP
 description: The topics in this section include code examples that show how to perform mutual authentication with a service that publishes itself using a service connection point (SCP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f730464c-95ac-4285-960c-18862f6f7852
 ms.tgt_platform: multiple
 keywords:
 - Mutual Authentication in a Windows Sockets Service with an SCP AD
 - Active Directory, using, mutual authentication, Windows sockets service with an SCP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

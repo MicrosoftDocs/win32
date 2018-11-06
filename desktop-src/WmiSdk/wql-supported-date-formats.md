@@ -1,12 +1,8 @@
 ---
 Description: Describes date formats supported for use in the WQL WHERE clause.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24d70b7f-681b-4a36-bb67-beaf69f4919f
 ms.tgt_platform: multiple
 title: WQL-Supported Date Formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

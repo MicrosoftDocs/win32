@@ -1,15 +1,11 @@
 ---
 title: What Makes a Fast Query
 description: This topic lists preferred programming methods to use while querying a directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d96f330f-3c57-4edc-9fd2-970f908b54c2
 ms.tgt_platform: multiple
 keywords:
 - What Makes a Fast Query ADSI
 - queries ADSI , what makes a fast query
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

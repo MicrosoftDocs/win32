@@ -2,7 +2,6 @@
 Description: The StopServices action stops system services. This action queries the ServiceControl table.
 ms.assetid: 1ad01205-f8b6-400f-be1d-c00a5b71ccfd
 title: StopServices Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

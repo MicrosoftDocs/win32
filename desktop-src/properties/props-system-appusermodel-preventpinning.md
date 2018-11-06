@@ -2,7 +2,6 @@
 Description: Disables the ability of a shortcut or window to be pinned to the taskbar or the Start menu. This property also makes the item ineligible for inclusion in the Start menu's Most Frequently Used (MFU) list.
 ms.assetid: 86239BF8-BCFC-4e76-BF94-5ABA4639562C
 title: System.AppUserModel.PreventPinning
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

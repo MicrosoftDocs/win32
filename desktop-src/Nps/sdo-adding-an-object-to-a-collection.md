@@ -1,12 +1,8 @@
 ---
 title: Adding an Object to a Collection
 description: Adding an Object to a Collection
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc62698d-0bb9-478c-91cf-9f8fec36dba4
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

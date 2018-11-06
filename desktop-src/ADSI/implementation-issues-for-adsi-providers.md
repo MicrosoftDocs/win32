@@ -1,15 +1,11 @@
 ---
 title: Implementation Issues for ADSI Providers
 description: Implementation Issues for ADSI Providers
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0be772aa-e7d8-4d34-b55a-162abfb0bfd4
 ms.tgt_platform: multiple
 keywords:
 - Implementation Issues for ADSI Providers ADSI
 - providers ADSI , implementing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

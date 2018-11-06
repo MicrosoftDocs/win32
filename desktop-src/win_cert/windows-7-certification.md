@@ -2,7 +2,6 @@
 title: Windows 7 software logo program
 description: The \ 0034;Compatible with Windows 7 logo \ 0034; helps customers make better purchase decisions by identifying products that have passed Microsoft designed tests for compatibility and reliability on Windows 7.
 ms.assetid: 6F617650-1028-436D-9738-B3159CA35CCF
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Rich Edit
 description: This section contains information about the programming elements used with rich edit controls.
 ms.assetid: 'vs|controls|~\controls\richedit\richeditcontrols.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Using the Remote Desktop Services API
 description: Describes how you can use the Remote Desktop Services API to enable applications to perform tasks in a Remote Desktop Services environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a43e3d00-207d-4228-b04c-ef8e08d8150a
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using the API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

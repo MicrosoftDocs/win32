@@ -2,7 +2,6 @@
 title: ID Attribute (TextBox)(VML)
 description: ID Attribute (TextBox)(VML)
 ms.assetid: b9eb75cc-4d0a-4e83-a897-e35995ae7c53
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

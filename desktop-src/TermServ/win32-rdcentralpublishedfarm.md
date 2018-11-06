@@ -1,9 +1,6 @@
 ---
 title: Win32_RDCentralPublishedFarm class
 description: The list of farms from which desktops or applications have been published.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8fead659-42b4-4a10-892a-a6b616c47255
 ms.tgt_platform: multiple
 keywords:
@@ -28,7 +25,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Web-Information property set
 description: Property set containing user attributes that describe user web related information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3998dc5-3e15-4a84-b3a4-35a33fa1295a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Web-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

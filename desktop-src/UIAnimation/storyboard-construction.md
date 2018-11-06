@@ -8,7 +8,6 @@ keywords:
 - transitions Windows Animation ,described
 - transitions Windows Animation ,custom
 - interpolators Windows Animation ,described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

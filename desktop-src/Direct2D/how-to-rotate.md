@@ -2,7 +2,6 @@
 title: How to Rotate an Object
 description: Shows how to rotate an object.
 ms.assetid: 468e29b6-941b-4cf8-8649-9e513326ccb2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

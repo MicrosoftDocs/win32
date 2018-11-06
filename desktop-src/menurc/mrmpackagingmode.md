@@ -12,7 +12,6 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

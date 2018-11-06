@@ -7,7 +7,6 @@ keywords:
 - online stores,list.csv
 - type 1 online stores,list.csv
 - list.csv
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

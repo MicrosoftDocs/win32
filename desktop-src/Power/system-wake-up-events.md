@@ -2,7 +2,6 @@
 Description: Your application can restore a computer that is in a sleep state to the working state by using a scheduled timer or a device event.
 ms.assetid: b7326b09-0829-4e76-80d0-e4ecdf7f556e
 title: System Wake-up Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

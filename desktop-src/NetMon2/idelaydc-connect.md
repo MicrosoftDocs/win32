@@ -2,7 +2,6 @@
 Description: The Connect method connects the NPP to the network by using a specified network interface card and provides configuration information about the connection.
 ms.assetid: aae9ff9c-d077-4db2-a900-9916e4f7bb8b
 title: IDelaydC::Connect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: PKI-Critical-Extensions attribute
 description: The list of critical extensions in the certificate template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f97d63e-7041-4dbb-8ebd-2448fe84bd3e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Critical-Extensions
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

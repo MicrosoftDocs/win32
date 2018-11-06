@@ -1,14 +1,10 @@
 ---
 title: Updating the Schema Cache
 description: All information that is written to an Active Directory server is validated against the schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 948f8ec5-7207-4566-bd79-60cdd54231bf
 ms.tgt_platform: multiple
 keywords:
 - Updating the Schema Cache AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

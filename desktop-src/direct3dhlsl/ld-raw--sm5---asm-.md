@@ -2,7 +2,6 @@
 title: ld_raw (sm5 - asm)
 description: Random-access read of 1-4 32bit components from a raw buffer.
 ms.assetid: F7DBA80D-4DD5-4271-B571-24FB6188ABFE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

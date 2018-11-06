@@ -2,7 +2,6 @@
 Description: The ICertEncodeStringArray interface exposes the following methods.
 ms.assetid: 2EE35DD4-53A7-4721-BA87-657D31FDB522
 title: ICertEncodeStringArray Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

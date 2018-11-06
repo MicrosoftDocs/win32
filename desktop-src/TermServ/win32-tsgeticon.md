@@ -1,9 +1,6 @@
 ---
 title: Win32_TSGetIcon class
 description: Returns the contents of the icon specified by file path and index.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c0ab50f1-f5a9-4f5e-8280-40c638f09e1c
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies whether the Mobile Broadband device will automatically connect to a network.
 ms.assetid: a2673ac7-6d70-4005-9ac4-cf670eba26ae
 title: AutoConnectOnInternet (MBNProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

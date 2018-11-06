@@ -1,9 +1,6 @@
 ---
 title: DS-Replication-Synchronize extended right
 description: Extended right needed to synchronize replication from a given NC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea22cee4-9107-49f4-9755-9979ba5e5e04
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Replication-Synchronize
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

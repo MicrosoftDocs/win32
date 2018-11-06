@@ -1,12 +1,8 @@
 ---
 title: ITsSbTaskPluginNotifySink Methods
 description: The ITsSbTaskPluginNotifySink interfaces exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D22C72A3-E71B-4F00-85BA-0BAE3EFABEE4
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

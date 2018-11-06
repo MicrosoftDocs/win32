@@ -1,7 +1,6 @@
 ---
 Description: Thumbnails and Icons
 title: Thumbnails and Icons
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

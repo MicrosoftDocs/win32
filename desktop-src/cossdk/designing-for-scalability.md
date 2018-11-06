@@ -2,7 +2,6 @@
 Description: Scalability is the ability of an application to service an additional load with a linear increase in resource usage.
 ms.assetid: 8249f1af-9c96-4545-ad6a-3736c6e63c6d
 title: Designing for Scalability
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

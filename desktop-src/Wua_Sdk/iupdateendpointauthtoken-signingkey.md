@@ -2,7 +2,6 @@
 Description: Gets the key that is used to encrypt the outgoing messages that the token protects.
 ms.assetid: 1ADBDFC8-E4D9-440B-B310-913213086283
 title: IUpdateEndpointAuthToken::SigningKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

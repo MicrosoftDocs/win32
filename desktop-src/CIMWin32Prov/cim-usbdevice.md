@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_USBDevice class represents the management characteristics of a USB device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0ff39701-826a-434b-a628-0af586600a80
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_USBDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -52,7 +46,7 @@ api_location:
 
 The **CIM\_USBDevice** class represents the management characteristics of a USB device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

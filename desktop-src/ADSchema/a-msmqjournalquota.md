@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Journal-Quota attribute
 description: MSMQ journal messages quota of the computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0793b8fa-1b9a-495f-a9f2-21dd8c174038
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Journal-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

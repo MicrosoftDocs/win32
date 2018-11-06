@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_StorageRedundancyGroup class represents mass storage-related redundancy information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6bc81680-672a-4872-8951-11d7f10acbc7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_StorageRedundancyGroup class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -34,7 +28,7 @@ api_location:
 
 The **CIM\_StorageRedundancyGroup** class represents mass storage-related redundancy information. Storage redundancy groups are used to protect user data. They are made up of one or more physical extents, or one or more aggregate physical extents. Storage redundancy groups may overlap; however, the underlying extents within the overlap should not contain any check data.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

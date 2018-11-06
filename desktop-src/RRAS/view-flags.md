@@ -2,7 +2,6 @@
 title: View Flags
 description: Use the View Flags to control routing table views.
 ms.assetid: 836e3400-0dca-4a21-9a5c-7da357ed72ea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

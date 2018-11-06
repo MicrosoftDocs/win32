@@ -2,7 +2,6 @@
 title: Windows Projected File System
 description: Overview of the Windows Projected File System (ProjFS)
 ms.assetid: <GUID-GOES-HERE>
-ms.author: TBD
 ms.date: 09/14/2018
 ms.topic: article
 ---

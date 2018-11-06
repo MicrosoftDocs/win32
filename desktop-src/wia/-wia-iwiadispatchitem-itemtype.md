@@ -2,7 +2,6 @@
 Description: The type of this item. Read-only.
 ms.assetid: 6c613a08-41aa-4242-80c0-75e1981a676f
 title: Item.ItemType property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -14,7 +14,6 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -46,7 +45,7 @@ HRESULT SetConfigurationValue(
 
 The key used to identify the configuration value as stored in the "\*.vmc" file.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Changes should be made to "\*.vmc" only using the **SetConfigurationValue** method. Changing "\*.vmc" using any other method is not supported.
 
  

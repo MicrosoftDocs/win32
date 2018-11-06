@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MemoryCapacity class represents memory that can be installed on a physical element and its minimum and maximum configurations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a962ee38-9281-4a7a-b9d7-b321edb5670d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MemoryCapacity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -32,7 +26,7 @@ api_location:
 
 The **CIM\_MemoryCapacity** class represents memory that can be installed on a physical element and its minimum and maximum configurations. Information on memory that is currently installed and an element's minimum and maximum requirements is located in instances of the [**CIM\_PhysicalMemory**](cim-physicalmemory.md) class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

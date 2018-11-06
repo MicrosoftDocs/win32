@@ -2,7 +2,6 @@
 title: C/C++ Code Example Retrieving a Task Page
 description: This example retrieves and displays the Task page of a known task. Note that in this example, all interfaces are released when they are no longer needed.
 ms.assetid: f234f5b3-d668-44c3-8d03-c333cfe3acde
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - MIDL compiler MIDL , C-compiler packing issues
 - packing MIDL
 - memory layout MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

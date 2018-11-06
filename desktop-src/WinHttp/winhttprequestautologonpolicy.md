@@ -2,7 +2,6 @@
 Description: Includes possible settings for the Automatic Logon Policy.
 ms.assetid: dad4f6a7-8e84-4f4f-b962-4189e3dc01f7
 title: WinHttpRequestAutoLogonPolicy enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

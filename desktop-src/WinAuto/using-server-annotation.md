@@ -2,7 +2,6 @@
 title: Using Server Annotation
 description: This topic provides information about using server annotation to specify a callback object.
 ms.assetid: eeeebddc-2752-4d8f-b4fa-38ce156acc08
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

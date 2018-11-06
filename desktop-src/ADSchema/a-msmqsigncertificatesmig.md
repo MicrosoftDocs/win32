@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Sign-Certificates-Mig attribute
 description: In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertificates. MSMQ supports migration from the MSMQ 1.0 DS to the Windows 2000 DS, and mixed mode specifies a state in which some of the DS severs were not upgraded to Windows 2000.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0dbc5d97-39e6-4863-a386-541ea2abaadc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Sign-Certificates-Mig
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ keywords:
 - ASF (Advanced Systems Format),performance
 - video seeking
 - performance,video seeking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

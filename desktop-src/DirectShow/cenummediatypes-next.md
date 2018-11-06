@@ -2,7 +2,6 @@
 Description: The Next method retrieves a specified number of media types. This method implements the IEnumMediaTypes::Next method.
 ms.assetid: d59dea48-e36c-4ee6-9935-5a47e8a12a9e
 title: CEnumMediaTypes.Next method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

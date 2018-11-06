@@ -12,7 +12,6 @@ api_location:
 - NapProtocol.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

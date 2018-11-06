@@ -1,15 +1,11 @@
 ---
 title: ADSI Utility Interfaces
 description: ADSI provides several utility interfaces for ADSI objects that can help in accessing and maintaining the Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f6ff0259-d50f-4a57-95c5-b179853f8069
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,utility interfaces
 - utility interfaces ADSI ,using ADSI utility interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

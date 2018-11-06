@@ -1,9 +1,6 @@
 ---
 title: FRS-Service-Command-Status attribute
 description: The response from the last command issued to a member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 96938191-7460-4ac3-b33d-534e76d4b8df
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Service-Command-Status
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

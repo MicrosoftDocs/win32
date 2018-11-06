@@ -1,9 +1,6 @@
 ---
 title: Phone-ISDN-Primary attribute
 description: The primary ISDN.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fa92d458-8c38-4012-9170-75a51f4ed116
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Phone-ISDN-Primary
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IAzApplication2 interface exposes the following methods.
 ms.assetid: AF5BDF93-B36E-4074-B707-A8111D383554
 title: IAzApplication2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

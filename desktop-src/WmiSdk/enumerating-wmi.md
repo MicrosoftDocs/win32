@@ -1,12 +1,8 @@
 ---
 Description: Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fe7e3259-9a7c-4f73-af30-192bbbace1b3
 ms.tgt_platform: multiple
 title: Enumerating WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The type of application you create dictates which ink persistence format to support.
 ms.assetid: bd0a4382-f014-4f03-990d-d2f96aa76ab8
 title: Choosing Which Formats to Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

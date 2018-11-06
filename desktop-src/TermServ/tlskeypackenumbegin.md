@@ -1,9 +1,6 @@
 ---
 title: TLSKeyPackEnumBegin function
 description: Begins enumeration through all key packs that are installed on a Remote Desktop license server based on search criteria.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2d847fe4-66ab-42df-8213-651e14257590
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

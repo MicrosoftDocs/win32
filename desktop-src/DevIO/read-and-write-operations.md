@@ -2,7 +2,6 @@
 Description: Windows supports both synchronous and asynchronous (overlapped) file I/O operations on serial communications resources.
 ms.assetid: cee44596-ad73-4afb-b86a-744b0b46d9d5
 title: Read and Write Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

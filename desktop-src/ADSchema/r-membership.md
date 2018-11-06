@@ -1,9 +1,6 @@
 ---
 title: Membership property set
 description: Property set containing user attributes that describe group membership information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 02705a38-5265-4a01-a740-0c71570ee355
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Membership
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

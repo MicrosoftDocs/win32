@@ -1,12 +1,8 @@
 ---
 title: IWSMan Properties
 description: The IWSMan interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: A6960F12-DF2A-44CB-9168-05E62EEC6537
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

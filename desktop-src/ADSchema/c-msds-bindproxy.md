@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Bind-Proxy class
 description: Auxiliary class to represent a bind proxy in AD/AM.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: de837926-9d40-41f6-8c56-c4e436fd66b6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Bind-Proxy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

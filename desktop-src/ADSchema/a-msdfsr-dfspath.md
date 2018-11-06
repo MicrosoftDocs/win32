@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-DfsPath attribute
 description: Contains the full path of the associated Distributed File System (DFS) link.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bd596110-b156-4640-a6d0-ace9e4e30909
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-DfsPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

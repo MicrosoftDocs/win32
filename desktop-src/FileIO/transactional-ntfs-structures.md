@@ -2,7 +2,6 @@
 Description: Transactional NTFS (TxF) structures.
 ms.assetid: 85b3cf8e-bff3-4693-b00e-64bf5d1f5065
 title: TxF Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

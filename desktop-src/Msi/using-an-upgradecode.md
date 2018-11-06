@@ -2,7 +2,6 @@
 Description: The UpgradeCode is primarily used for supporting major upgrades, although small and minor upgrade patches may use the UpgradeCode for product validation.
 ms.assetid: de62bb80-56a0-4652-9509-5d36ed171c69
 title: Using an UpgradeCode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

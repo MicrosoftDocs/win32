@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 SuperPanAccelerationFactor property
 description: Specifies or retrieves a value that indicates the SuperPan acceleration factor. The SuperPan acceleration factor determines how quickly the screen pans when in SuperPan mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ce04f109-8a48-48ee-a553-728f12c09dde
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx Domain property
 description: Specifies the domain to which the current user logs on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5d9a2048-5f5d-43ca-a8b8-400dac7d7472
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

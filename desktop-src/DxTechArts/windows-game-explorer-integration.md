@@ -2,7 +2,6 @@
 title: Windows Games Explorer for Game Developers
 description: This article outlines the process of registering a game with Games Explorer and parental controls on Windows Vista and Windows 7 by using the new GDF schema.
 ms.assetid: 628f14bf-2714-0d68-8267-4f7f48c2774a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

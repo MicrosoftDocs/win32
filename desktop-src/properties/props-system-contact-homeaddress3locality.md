@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: b11f82da-cb77-4229-b5ab-d560a9b0cce4
 title: System.Contact.HomeAddress3Locality
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

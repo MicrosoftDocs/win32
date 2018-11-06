@@ -1,9 +1,6 @@
 ---
 title: ms-RADIUS-SavedFramedIpv6Route attribute
 description: Provides routing information to be configured for the user on the NAS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc524a96-0580-4ada-bf05-87cc120f38d8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-RADIUS-SavedFramedIpv6Route
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

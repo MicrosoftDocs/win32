@@ -1,9 +1,6 @@
 ---
 title: Schedule attribute
 description: A schedule BLOB as defined by the Windows NT Job Service. Used by replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5eb6409d-3fb5-4368-8b7f-ce19567b7260
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Schedule
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: FRS-Member-Reference attribute
 description: Reference to member object for this subscriber.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5562369d-7b03-474c-8fdc-a387e8158d53
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Member-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

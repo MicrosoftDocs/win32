@@ -2,7 +2,6 @@
 title: Windowless Rich Edit Controls
 description: This section contains information about the programming elements used with windowless rich edit controls.
 ms.assetid: 'vs|controls|~\controls\richedit\windowlessricheditcontrols.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

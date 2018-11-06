@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-UintSetParam class
 description: Unsigned integer set parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 02e3758d-031b-4b68-90d7-393d6b7acca7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-UintSetParam
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

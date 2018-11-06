@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates how to create a custom Jump List for an application, including adding a custom category and tasks.
 title: Custom Jump List Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

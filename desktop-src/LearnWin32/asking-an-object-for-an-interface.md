@@ -2,7 +2,6 @@
 title: Asking an Object for an Interface
 description: Asking an Object for an Interface
 ms.assetid: 04296372-4897-426e-9be3-e6862a530ac6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

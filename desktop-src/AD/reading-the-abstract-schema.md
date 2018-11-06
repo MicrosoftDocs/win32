@@ -1,14 +1,10 @@
 ---
 title: Reading the Abstract Schema
 description: This topic provides a code example and guidelines for reading from the abstract schema, which provides a subset of the data stored in the attributeSchema and classSchema objects in the schema container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f31fc0ae-048f-413c-9370-96367dc68df8
 ms.tgt_platform: multiple
 keywords:
 - schema Active Directory , reading the abstract schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

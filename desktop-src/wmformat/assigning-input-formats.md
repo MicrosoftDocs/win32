@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),input format assignments
 - profiles,input format assignments
 - codecs,input format assignments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

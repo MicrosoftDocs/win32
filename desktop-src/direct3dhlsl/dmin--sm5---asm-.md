@@ -2,7 +2,6 @@
 title: dmin (sm5 - asm)
 description: Component-wise double-precision minimum.
 ms.assetid: 77331B4D-C4B5-49B2-BB6A-77BD5050B575
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

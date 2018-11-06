@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Services API Functions
 description: The following functions are used with Remote Desktop Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e99a86ee-af0e-46db-8dad-69703ca84fa0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

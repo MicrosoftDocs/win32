@@ -2,7 +2,6 @@
 Description: Occurs when the user presses and releases a key while the InkEdit control has focus.
 ms.assetid: 8284ab41-dfac-4da2-b101-6968a43b15d7
 title: InkEdit.KeyPress event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

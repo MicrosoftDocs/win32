@@ -2,7 +2,6 @@
 Description: The AcceptParentalLevelChange method accepts or rejects the new temporary parental management level.
 ms.assetid: b3d58069-16dc-4598-90ea-6136c2f62ac7
 title: AcceptParentalLevelChange Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

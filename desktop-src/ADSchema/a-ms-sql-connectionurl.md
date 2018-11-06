@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-ConnectionURL attribute
 description: The MS-SQL-ConnectionURL attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 30ca55a6-038b-4ab8-9145-f93118f0c143
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-ConnectionURL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

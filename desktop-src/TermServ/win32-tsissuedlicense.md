@@ -1,9 +1,6 @@
 ---
 title: Win32_TSIssuedLicense class
 description: Describes instances of Remote Desktop Services Per Device client access licenses (RDS \ 160;Per Device CALs) that are issued from a Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 15825dc5-9ada-4c11-ac77-beb681e9b33c
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

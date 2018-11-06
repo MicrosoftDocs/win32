@@ -1,9 +1,6 @@
 ---
 title: loginShell attribute
 description: Contains the path to the login shell.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3052a028-3565-4af6-b8d4-4c0f4f5f4781
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - loginShell
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

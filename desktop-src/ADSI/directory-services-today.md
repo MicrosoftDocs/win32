@@ -1,15 +1,11 @@
 ---
 title: Directory Services Today
 description: It is common to find multiple administrative directories deployed within a single organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e6f05beb-d88d-46d5-85c7-3477a6af03c9
 ms.tgt_platform: multiple
 keywords:
 - directory services ADSI
 - directory services ADSI ,background for directory services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

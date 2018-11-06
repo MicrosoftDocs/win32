@@ -2,7 +2,6 @@
 Description: Defines constants that describe depth-buffer formats.
 ms.assetid: 5e5ce48b-8859-43e0-a9b4-5972cf6bf781
 title: D3DZBUFFERTYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.ClearOptions method
 description: Removes any options from the ResourceLocator object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1b4d7f15-c56f-4b0d-9614-8376012abca7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

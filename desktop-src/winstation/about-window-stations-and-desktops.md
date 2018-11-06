@@ -2,7 +2,6 @@
 title: About Window Stations and Desktops
 description: A window station is a securable object that is associated with a process, and contains a clipboard, an atom table, and one or more desktop objects.
 ms.assetid: 6264030f-36fc-4c6d-87fd-dd3de2dc5b67
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

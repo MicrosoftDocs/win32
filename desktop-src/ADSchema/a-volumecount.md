@@ -1,9 +1,6 @@
 ---
 title: Volume-Count attribute
 description: The tracked volume quota for a given computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a764a650-2cce-4df4-9a5e-d5fc8de196cb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Volume-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

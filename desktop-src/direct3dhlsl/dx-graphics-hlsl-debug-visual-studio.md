@@ -2,7 +2,6 @@
 title: Debugging Shaders in Visual Studio
 description: The latest tool for debugging shaders now ships as a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger.
 ms.assetid: 9652721e-cb1c-4c9a-92e4-4833844f15d3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

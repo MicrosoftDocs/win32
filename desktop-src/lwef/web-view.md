@@ -8,7 +8,6 @@ keywords:
 - Web style
 - banners
 - FileList region
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

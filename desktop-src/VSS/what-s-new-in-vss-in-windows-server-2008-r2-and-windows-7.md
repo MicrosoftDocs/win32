@@ -2,7 +2,6 @@
 Description: Windows Server 2008 R2 and Windows 7 introduce the following changes to the Volume Shadow Copy Service.
 ms.assetid: 1287f175-29e4-40be-804b-d78542e76efc
 title: What's New in VSS in Windows Server 2008 R2 and Windows 7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

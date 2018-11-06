@@ -2,7 +2,6 @@
 Description: This section contains an alphabetic list of the service provider, line device, phone device, and callback functions in the Telephony Service Provider Interface (TSPI) and the Telephony User Interface Service Provider Interface (TUISPI).
 ms.assetid: 025d7846-4550-45c1-bcfd-be0c78be7d2a
 title: TSPI Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

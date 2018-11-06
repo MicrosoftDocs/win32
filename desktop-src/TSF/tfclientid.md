@@ -4,7 +4,6 @@ description: The TfClientId data type is used to identify the client.
 ms.assetid: '984dc390-6e15-4491-8c06-77c27c5bdd6f'
 keywords:
 - TfClientId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Programming Guide for DDS
 description: Direct3D implements the DDS file format for storing uncompressed or compressed (DXTn) textures.
 ms.assetid: 39f9847e-3b1c-4401-a253-74c183ffcc83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

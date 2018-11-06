@@ -1,12 +1,8 @@
 ---
 Description: Retrieves instances of a specified class according to user-specified criteria.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 631cd749-9a39-4606-9a38-0b4bb5b4b2cd
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOfAsync method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

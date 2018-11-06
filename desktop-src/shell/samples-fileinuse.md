@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates how to customize the File In Use dialog to display additional information and options for files that are currently opened in the application.
 title: File Is In Use Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Change-Rid-Master extended right
 description: Extended right needed to change the relative identifier (RID) master FSMO role owner.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6d726697-1841-4b9b-9d51-1b6c8d5df1b2
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Change-Rid-Master
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

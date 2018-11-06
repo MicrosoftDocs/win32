@@ -2,7 +2,6 @@
 Description: The MSIRESTARTMANAGERCONTROL Property specifies whether the Windows Installer package uses the Restart Manager or FilesInUse Dialog functionality.
 ms.assetid: fefff18b-892a-440e-9f57-d23aeb99af74
 title: MSIRESTARTMANAGERCONTROL property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

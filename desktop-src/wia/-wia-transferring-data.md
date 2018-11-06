@@ -1,7 +1,6 @@
 ---
 ms.assetid: 34871ff4-7eb0-451b-a62b-85b632af9a47
 title: Transferring Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

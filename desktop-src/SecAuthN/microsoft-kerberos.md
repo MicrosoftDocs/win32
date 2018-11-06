@@ -2,7 +2,6 @@
 Description: The Kerberos protocol defines how clients interact with a network authentication service \[Platform Software Development Kit (SDK)\].
 ms.assetid: e7870e72-1386-4818-bf6f-73430ae942a8
 title: Microsoft Kerberos
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ieee802Device class
 description: Represents a device with a MAC address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2ef10815-2d7a-4d0e-b309-abc595fd644f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ieee802Device
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

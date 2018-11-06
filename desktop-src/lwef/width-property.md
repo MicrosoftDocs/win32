@@ -2,7 +2,6 @@
 title: Width Property
 description: Width Property
 ms.assetid: 'vs|msagent|~\pacontrol_7ca2.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

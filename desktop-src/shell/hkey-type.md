@@ -1,7 +1,6 @@
 ---
 Description: These data types can be used to specify the type of a registry value.
 title: Registry Data Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

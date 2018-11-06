@@ -2,7 +2,6 @@
 Description: The SetSwapInputs method specifies whether the transition inputs are swapped.
 ms.assetid: c7303302-dbc4-41b6-8049-5c4496ee9264
 title: IAMTimelineTrans::SetSwapInputs method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

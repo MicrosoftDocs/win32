@@ -2,7 +2,6 @@
 Description: MTP Extension Properties
 ms.assetid: 58fc8741-261a-4e63-9fd3-8f0ca05866ad
 title: MTP Extension Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

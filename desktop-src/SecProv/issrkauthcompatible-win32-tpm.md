@@ -2,7 +2,6 @@
 Description: The IsSrkAuthCompatible method of the Win32\_Tpm class indicates whether the Storage Root Key (SRK) authorization is compatible with the value expected by Windows Vista.
 ms.assetid: ce6d05b8-673a-40ab-a1d7-3fedfd099306
 title: IsSrkAuthCompatible method of the Win32_Tpm class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: loop (sm4 - asm)
 description: Specifies a loop which iterates until a break instruction is encountered.
 ms.assetid: 0BEFADF4-036E-4FDA-9681-10965D6BA9FC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

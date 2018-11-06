@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 316B4258-3C8D-4B74-A6B8-1D1C02372720
 title: Application Compatibility Testing Using Virtual PC Images
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

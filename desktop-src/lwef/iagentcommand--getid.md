@@ -2,7 +2,6 @@
 title: IAgentCommand GetID
 description: IAgentCommand GetID
 ms.assetid: 4d8d8be7-7003-4ef3-abba-b5232267c993
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

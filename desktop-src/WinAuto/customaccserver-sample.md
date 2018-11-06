@@ -2,7 +2,6 @@
 title: CustomAccServer Sample
 description: .
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

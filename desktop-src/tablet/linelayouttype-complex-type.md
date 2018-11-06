@@ -2,7 +2,6 @@
 Description: Defines the type that contains information about the lines that are used in a given Journal note's stationery.
 ms.assetid: db0ffd3c-e8e3-4da2-95fb-6f825ad63f55
 title: LineLayoutType Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

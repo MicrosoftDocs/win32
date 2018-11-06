@@ -2,7 +2,6 @@
 Description: Specifies whether the H.264 video remux MFT should mark I pictures as clean point for better seek-ability. This has the potential for corruptions on seeks in non-conforming final MP4 files.
 ms.assetid: BB521E13-40A4-4643-B071-76B8CBC62074
 title: MFT_REMUX_MARK_I_PICTURE_AS_CLEAN_POINT attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

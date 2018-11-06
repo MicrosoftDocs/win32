@@ -2,7 +2,6 @@
 Description: An application should be able to produce and consume data from multiple formats.
 ms.assetid: bf60fab7-866b-4659-8316-653509ac5112
 title: Persistence Formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

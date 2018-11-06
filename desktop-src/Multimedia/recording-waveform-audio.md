@@ -6,7 +6,6 @@ keywords:
 - waveform audio,recording
 - waveform-audio interface,recording
 - recording waveform audio,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Using and Implementing IUnknown
 description: Using and Implementing IUnknown
 ms.assetid: d44a6dc7-54e4-42b3-9a3d-a6569fa4128b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

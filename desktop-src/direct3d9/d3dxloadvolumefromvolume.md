@@ -2,7 +2,6 @@
 Description: Loads a volume from another volume.
 ms.assetid: bc162f91-feb7-4571-ae4a-abaa5e7953f6
 title: D3DXLoadVolumeFromVolume function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

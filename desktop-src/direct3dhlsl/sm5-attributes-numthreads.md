@@ -2,7 +2,6 @@
 title: numthreads
 description: Defines the number of threads to be executed in a single thread group when a compute shader is dispatched (see ID3D11DeviceContext Dispatch).
 ms.assetid: ec6b751c-d81c-4221-ae80-166d2a3707fe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

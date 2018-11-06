@@ -4,7 +4,6 @@ description: Lists the enumerations used by the Task Scheduler APIs.
 ms.assetid: 9779d32b-0142-41bb-88e2-df79a3b0c1b2
 keywords:
 - Task Scheduler Task Scheduler , reference, enumerated types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,7 +39,7 @@ The following enumerated types are introduced in Task Scheduler 2.0.
 
 ## 
 
-> \[!Warning\]  
+> [!WARNING]
 > The Task Scheduler 1.0 enumerations are available only in Windows 2000, Windows XP, and Windows Server 2003 operating systems. They are deprecated as of Windows Vista and may be removed completely in the future. Please use the Task Scheduler 2.0 enumerations listed above instead.
 
  

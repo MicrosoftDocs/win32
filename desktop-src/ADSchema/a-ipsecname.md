@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Name attribute
 description: The Ipsec-Name attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dee1ab24-e5bd-4608-b2fb-d17f1c0b77c0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

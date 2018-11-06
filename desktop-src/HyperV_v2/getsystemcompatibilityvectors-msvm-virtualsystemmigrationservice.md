@@ -2,7 +2,6 @@
 Description: Gets a list of Msvm\_CompatibilityVector instances that can be used to check for virtual machine (VM) to host compatibility.
 ms.assetid: 3881D9A0-07C2-4275-925D-F3C3A36B79B4
 title: Msvm_VirtualSystemMigrationService::GetSystemCompatibilityVectors method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

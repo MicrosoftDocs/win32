@@ -1,15 +1,11 @@
 ---
 title: Groups on Member Servers and Windows 2000 Professional
 description: On member servers and computers running on Windows 2000 Professional, there is a local security database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 17a651e2-3650-4e12-b17e-badd3d479515
 ms.tgt_platform: multiple
 keywords:
 - Groups on Member Servers and Windows 2000 Professional AD
 - groups AD , groups on member servers and Windows 2000 Professional
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Monitoring session connections and disconnections
 description: To register an application with Remote Desktop Services, store the name of the virtual channel server application in the registry by adding a subkey.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8524cb7a-a930-431a-bc5f-b0793781de15
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

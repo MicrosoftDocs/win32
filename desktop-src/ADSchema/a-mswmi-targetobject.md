@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-TargetObject attribute
 description: This holds one or more binary sequences that represent compiled WMI objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e07e4a3d-d85c-4e1f-ab1a-755ef0350996
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-TargetObject
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

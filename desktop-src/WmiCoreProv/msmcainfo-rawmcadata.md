@@ -2,7 +2,6 @@
 Description: Specifies the raw Machine Check Architecture (MCA) logs. This class is available only in 64-bit Windows systems.
 ms.assetid: d465ba8d-14b2-4911-ae19-19ebeb32126e
 title: MSMCAInfo_RawMCAData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

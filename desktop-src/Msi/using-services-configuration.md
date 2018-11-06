@@ -2,7 +2,6 @@
 Description: Services configuration enables the Windows Installer to customize the services on a computer.
 ms.assetid: 164280b2-1c75-49d2-ac04-c3654be84134
 title: Using Services Configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

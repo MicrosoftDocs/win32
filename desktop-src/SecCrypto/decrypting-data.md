@@ -2,7 +2,6 @@
 Description: Presents the steps to decrypt an encrypted message.
 ms.assetid: 6af7dd28-325e-431a-9cdb-109d93af6302
 title: Decrypting Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

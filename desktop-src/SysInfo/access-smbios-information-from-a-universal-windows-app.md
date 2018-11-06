@@ -2,7 +2,6 @@
 Description: How to access System Management BIOS (SMBIOS) information from a Universal Windows app.
 ms.assetid: 4D185319-C093-4B1B-A182-E845E72FEA5D
 title: Access SMBIOS information from a Universal Windows App
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -17,7 +16,7 @@ How to access System Management BIOS (SMBIOS) information from a Universal Windo
 
 Starting with Windows 10, version 1803, Universal Windows apps can use [GetSystemFirmwareTable](https://msdn.microsoft.com/en-us/library/ms724379(v=VS.85).aspx) and [EnumSystemFirmwareTables](https://msdn.microsoft.com/en-us/library/ms724259(v=VS.85).aspx) to access SMBIOS information by declaring the **smbios** restricted capability in the app manifest.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Only access to raw SMBIOS (RSMB) firmware tables is supported from a Universal Windows app. **ACCESS\_DENIED** will be returned if you try to access other firmware table types from a Universal Windows app.
 
  

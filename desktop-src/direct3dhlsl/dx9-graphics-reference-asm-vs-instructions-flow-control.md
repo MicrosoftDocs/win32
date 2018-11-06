@@ -2,7 +2,6 @@
 title: Flow Control Nesting Limits
 description: Vertex shader flow control instructions have two special restrictions.
 ms.assetid: c9f80a97-8245-4974-a284-7974e2d2e504
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

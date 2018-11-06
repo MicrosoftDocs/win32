@@ -2,7 +2,6 @@
 Description: Creates an empty skin mesh object using a declarator.
 ms.assetid: 5356cfe5-de90-462d-9722-72f3618decfb
 title: D3DX10CreateSkinInfo function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

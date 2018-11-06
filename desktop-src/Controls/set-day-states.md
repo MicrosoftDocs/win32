@@ -2,7 +2,6 @@
 title: How to Set Day States
 description: This topic demonstrates how to set day state information. The month calendar control uses day state information to determine how it draws specific days within the control.
 ms.assetid: EA92D858-BC80-4D08-9768-29A2BBDF900C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

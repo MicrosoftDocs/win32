@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Application-Version attribute
 description: A version number to indicate that the AzApplication is updated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7a2771a-cada-48a3-979e-59af6a398a79
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Application-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

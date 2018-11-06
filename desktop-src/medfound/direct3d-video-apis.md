@@ -2,14 +2,13 @@
 Description: Direct3D 9 Video APIs
 ms.assetid: 2f5f46a0-f21f-4e57-9297-bad2b791da52
 title: Direct3D 9 Video APIs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Direct3D 9 Video APIs
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Windows Store apps must use Microsoft Direct3D 11.
 
  

@@ -2,7 +2,6 @@
 Description: Retrieves font characteristics that are identified in a TEXTMETRIC structure. This method supports ANSI and Unicode compiler settings.
 ms.assetid: 37788281-5bb0-45bb-b6d4-bdc4d811e3af
 title: ID3DXFont::GetTextMetrics method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

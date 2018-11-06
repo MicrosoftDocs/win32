@@ -9,7 +9,6 @@ keywords:
 - Windows Media Player skins,copyright issues
 - skins,copyright issues
 - copyright issues for skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

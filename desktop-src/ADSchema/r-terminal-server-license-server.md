@@ -1,9 +1,6 @@
 ---
 title: Terminal-Server-License-Server property set
 description: Terminal-Server-License-Server property set
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bcc6d6a5-0112-4966-b24b-87f02cb479c5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Terminal-Server-License-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

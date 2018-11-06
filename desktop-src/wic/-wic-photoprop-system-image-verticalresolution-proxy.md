@@ -2,7 +2,6 @@
 Description: The property proxy for the System.Image.VerticalResolution photo metadata policy.
 ms.assetid: a2177c23-a3f7-42e9-b162-01eb6fcc178f
 title: System.Image.VerticalResolution Proxy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Source Register Signed Scaling
 description: Subtracts 0.5 from each channel and scales the result by 2.0. The name bx2 comes from bias and scale-times-two, which is the operation it performs.
 ms.assetid: ad94145a-2687-4c20-b3ed-70270a0c53bf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

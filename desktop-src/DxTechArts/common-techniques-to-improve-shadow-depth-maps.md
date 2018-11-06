@@ -2,7 +2,6 @@
 title: Common Techniques to Improve Shadow Depth Maps
 description: This technical article provides an overview of some common shadow depth map algorithms and common artifacts, and explains several techniques—ranging in difficulty from basic to intermediate—that can be used to increase the quality of standard shadow maps.
 ms.assetid: bf994838-a261-0379-9301-eb9b250d216c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

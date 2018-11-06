@@ -1,15 +1,11 @@
 ---
 title: Deleting an Application Directory Partition
 description: An application directory partition is deleted by deleting the crossRef object that represents the application directory partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bc7986c1-5a11-440c-924e-dc525b5cb78f
 ms.tgt_platform: multiple
 keywords:
 - Deleting an Application Directory Partition AD
 - Application Directory Partitions AD , Deleting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

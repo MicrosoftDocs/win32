@@ -2,7 +2,6 @@
 Description: Creates a communication link to a smart card (ICC) using a handle returned by the smart card resource manager.
 ms.assetid: dfd05dce-4416-4881-92ca-c85baccf3b86
 title: ISCardManage::AttachByHandle method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

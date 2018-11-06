@@ -2,7 +2,6 @@
 title: VML Render Attribute
 description: VML Render Attribute
 ms.assetid: a05e7f6e-4784-4ff8-9deb-0501d3a5658e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

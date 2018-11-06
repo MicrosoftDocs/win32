@@ -2,7 +2,6 @@
 title: Edit Control Reference
 description: .
 ms.assetid: 80e362e7-df31-4a87-ac4d-80d24bd95db0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

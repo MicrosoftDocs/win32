@@ -2,7 +2,6 @@
 Description: The following utilities are used by some of the C# virtualization samples.
 ms.assetid: EB0F305D-806D-4ACB-8024-3A6FB125629D
 title: Common utilities for the virtualization samples (V2)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: About Active Directory Domain Services
 description: This guide provides essential information for integrating Microsoft Active Directory in distributed applications designed for operating systems that support Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc6c63dd-ae22-40a7-8312-0a4648bb92bd
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Active Directory , about
 - Active Directory Domain Services Active Directory , about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

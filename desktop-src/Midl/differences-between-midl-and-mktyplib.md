@@ -5,7 +5,6 @@ ms.assetid: 86abd70b-7238-49a6-a996-2c8906a14449
 keywords:
 - MIDL and ODL MIDL , differences between MIDL and MkTypLib
 - MkTypLib MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

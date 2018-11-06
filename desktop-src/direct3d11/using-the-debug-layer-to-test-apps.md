@@ -2,7 +2,6 @@
 title: Using the debug layer to debug apps
 description: Here we talk about how to enable the debug layer and some of the issues that you can prevent by using the debug layer.
 ms.assetid: 3C2B0A12-FB57-4400-BE39-05ED23F552C7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

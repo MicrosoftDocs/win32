@@ -2,7 +2,6 @@
 Description: Constructors exposed by XMHALF4.
 ms.assetid: 4dfb472b-0d8e-4df5-88da-3ca79de0d3d4
 title: XMHALF4 constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

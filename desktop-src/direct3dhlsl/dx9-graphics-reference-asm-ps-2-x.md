@@ -2,7 +2,6 @@
 title: ps_2_x
 description: A programmable pixel shader is made up of a set of instructions that operate on pixel data. Registers transfer data in and out of the ALU. Additional control can be applied to modify the instruction, the results, or what data gets written out.
 ms.assetid: 06f657a9-6521-404e-b012-7c8e972e9d5c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Connection class
 description: Represents a directional connection between two members.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: febdbcf7-c5bd-4e4d-83e7-3070166093d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Connection
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

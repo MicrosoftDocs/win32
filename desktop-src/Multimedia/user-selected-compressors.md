@@ -6,7 +6,6 @@ keywords:
 - video compression manager (VCM),user-selected compressors
 - VCM (video compression manager),user-selected compressors
 - ICCompressorChoose function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The SetDefaultTTL WMI class static method is used to set the default Time to Live (TTL) value in the header of outgoing IP packets.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 74b060de-512c-407e-9f93-c3b496f8d09d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetDefaultTTL method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

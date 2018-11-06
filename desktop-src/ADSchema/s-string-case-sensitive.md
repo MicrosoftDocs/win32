@@ -1,9 +1,6 @@
 ---
 title: String(Case Sensitive) syntax
 description: A case-sensitive string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 50a26c4d-f92b-4df9-991b-78871a337e2a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Case Sensitive)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: User Account Control (UAC) affects the WMI data that is returned from a command-line tool, remote access, and how scripts must run. For more information about UAC, see Getting Started with User Account Control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6840aaa-834b-42c8-b641-01c570078fcb
 ms.tgt_platform: multiple
 title: User Account Control and WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

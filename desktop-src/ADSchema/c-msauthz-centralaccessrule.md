@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Central-Access-Rule class
 description: A class that defines Central Access Rules used to construct a central access policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5831179c-c6ae-4980-b0f5-538faa190b60
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Central-Access-Rule
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

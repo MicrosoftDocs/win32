@@ -2,7 +2,6 @@
 Description: This operator retrieves the reference time as a REFERENCE\_TIME value.
 ms.assetid: ac77ca0d-f3d1-4258-bf2e-d7e8a33eb68e
 title: COARefTime.operator REFERENCE_TIME method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

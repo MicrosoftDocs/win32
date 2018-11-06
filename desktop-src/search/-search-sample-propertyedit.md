@@ -2,7 +2,6 @@
 Description: The PropertyEdit code sample demonstrates how to convert the canonical property name to a PROPERTYKEY, set the value of the property store to that of the item, and write the data back to the file stream.
 ms.assetid: 5918b4f6-6b6f-4229-8f29-1c41f80b3b02
 title: PropertyEdit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

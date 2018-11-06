@@ -2,7 +2,6 @@
 Description: An IME-aware application that processes the WM\_IME\_COMPOSITION message tests the bits in lParam parameter and calls the ImmGetCompositionString function to retrieve the indicated string or data.
 ms.assetid: 6d9cb9e2-f30e-4299-9af5-a705cd40b185
 title: Processing the WM_IME_COMPOSITION Message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

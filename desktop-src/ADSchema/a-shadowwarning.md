@@ -1,9 +1,6 @@
 ---
 title: shadowWarning attribute
 description: Contains the number of days before the password expires to warn the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4ffa073-af53-40c5-8235-e713828d72d9
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowWarning
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

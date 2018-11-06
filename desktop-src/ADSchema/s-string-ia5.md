@@ -1,9 +1,6 @@
 ---
 title: String(IA5) syntax
 description: A case-sensitive string that contains characters from the IA5 character set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 79f34fa0-50ce-4bc8-9d12-c003ac43d7a0
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(IA5)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

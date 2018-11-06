@@ -2,7 +2,6 @@
 Description: Gets an array of integers.
 ms.assetid: c02b5343-db4f-4e8c-989c-6aba8c19c234
 title: ID3DXBaseEffect::GetIntArray method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

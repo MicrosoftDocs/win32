@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Cert-Template-OID attribute
 description: Specifies the object identifier for a certificate template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b239c1cb-35d9-4a98-9591-ea405a1101cd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Cert-Template-OID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

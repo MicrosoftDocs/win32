@@ -1,9 +1,6 @@
 ---
 title: Unexpire-Password extended right
 description: Extended control access right that allows a user to restore an expired password for a user object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ff90ffb-52a0-480d-a9d5-8f5f9bad33b4
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Unexpire-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

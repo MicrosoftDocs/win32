@@ -2,7 +2,6 @@
 title: Search Boxes
 description: With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches.
 ms.assetid: e2d77b36-e001-403c-9b66-2d136c394a24
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The numerator of PKEY\_GPS\_Track.
 ms.assetid: 18ec02f1-6a1b-486c-9493-c435ae0103f1
 title: System.GPS.TrackNumerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Templates define how the data stream is interpreted - the data is modulated by the template definition. This section discusses the following aspects of a template and provides an example template.
 ms.assetid: f84978a8-8315-4626-be68-f00f3a72e5ac
 title: Templates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

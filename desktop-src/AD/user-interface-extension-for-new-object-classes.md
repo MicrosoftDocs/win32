@@ -1,15 +1,11 @@
 ---
 title: User Interface Extension for New Object Classes
 description: Active Directory Domain Services and its administrative MMC snap-in user interface can be customized to adapt to the requirements of administrators and users.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38e3b800-20ad-4da8-ad40-4e90838acfb5
 ms.tgt_platform: multiple
 keywords:
 - User Interface Extension for New Object Classes AD
 - Object AD , User Interface Extension for New Object Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ActsAsSpare association indicates which elements can be spares or replace other aggregated elements. A spare can operate in &\#0034;hot-standby&\#0034; mode as specified on an element-by-element basis.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bed8c552-f782-4af9-9441-ff3268182c3b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ActsAsSpare class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_ActsAsSpare** association indicates which elements can be spares or replace other aggregated elements. A spare can operate in "hot-standby" mode as specified on an element-by-element basis.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 Description: Signals that the current subpicture stream number changed for the main title.
 ms.assetid: b6da3201-55df-47dc-ad4f-5cd2e78073ee
 title: EC_DVD_SUBPICTURE_STREAM_CHANGE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

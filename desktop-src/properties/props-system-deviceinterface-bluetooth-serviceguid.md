@@ -2,7 +2,6 @@
 Description: Bluetooth service GUID.
 ms.assetid: a6df61fa-5e6d-45cb-9012-e550fb1d08d4
 title: System.DeviceInterface.Bluetooth.ServiceGuid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: About Tool Help Functions
 description: Lists the topics available in the About Tool Help Functions section.
 ms.assetid: b92f68e9-c702-4133-857b-b3f44d0fb918
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

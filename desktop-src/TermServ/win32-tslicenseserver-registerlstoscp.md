@@ -1,9 +1,6 @@
 ---
 title: RegisterLSToSCP method of the Win32_TSLicenseServer class
 description: Registers the Remote Desktop license server as a service connection point in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F0519C8C-49A9-40B1-88DB-FD0419469E62
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

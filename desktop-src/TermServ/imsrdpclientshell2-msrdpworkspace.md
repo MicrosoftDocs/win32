@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientShell2 MsRdpWorkspace property
 description: Retrieves a pointer to the IMsRdpWorkspace interface, which is used to manage RemoteApp and Desktop Connection credentials and connections.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5d505ce0-18cf-4e38-b1b8-026303f7069b
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: Restoring Deleted Objects
 description: Windows Server 2003 includes the \ 0034;restore deleted objects \ 0034; feature.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b64c5c91-fb76-4323-b78d-f692aa887c96
 ms.tgt_platform: multiple
 keywords:
 - Restoring Deleted Objects AD
 - Active Directory, using, restoring deleted objects
 - objects AD , restoring deleted objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

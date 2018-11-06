@@ -2,7 +2,6 @@
 Description: This section examines a portion of a sample application that operates over the network very slowly. Throughout this section, modifications are made to the initial code to improve its performance.
 ms.assetid: 29b96540-1b45-46b7-871a-e728aa50ad24
 title: Improving a Slow Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -23,7 +22,7 @@ The baseline code, and the revisions that improve that code, are the following:
 -   [Revision 3: Compressed Block Send](revision-3-compressed-block-send-2.md)
 -   [Future Improvements](future-improvements-2.md)
 
-> \[!Warning\]  
+> [!WARNING]
 > The first few examples of the application provide intentionally poor performance, in order to illustrate performance improvements possible with changes to code. Do not use these code samples in your application; they are for illustration purposes only.
 
  

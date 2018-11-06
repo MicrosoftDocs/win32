@@ -2,7 +2,6 @@
 Description: The tables of the system tables group track the tables and columns of the installation database.
 ms.assetid: d20be8b6-f456-4f90-aa9e-dc122c20d20c
 title: System Tables Group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

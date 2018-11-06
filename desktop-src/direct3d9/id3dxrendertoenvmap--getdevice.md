@@ -2,7 +2,6 @@
 Description: Retrieves the Direct3D device associated with the environment map.
 ms.assetid: 15f342c5-7665-443a-b7b8-32cc67034c41
 title: ID3DXRenderToEnvMap::GetDevice method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

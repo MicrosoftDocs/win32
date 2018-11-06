@@ -1,9 +1,6 @@
 ---
 title: ACS-DSBM-DeadTime attribute
 description: This attribute contains the election dead time interval (DSBMDeadInterval) for a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3a0780c-1786-4631-b870-77146de87f18
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-DSBM-DeadTime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

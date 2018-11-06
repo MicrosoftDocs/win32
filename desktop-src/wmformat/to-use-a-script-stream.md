@@ -7,7 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),script streams
 - ASF (Advanced Systems Format),script streams
 - script streams,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

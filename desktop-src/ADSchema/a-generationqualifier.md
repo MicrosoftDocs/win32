@@ -1,9 +1,6 @@
 ---
 title: Generation-Qualifier attribute
 description: Indicates a person generation. For example, Jr. or II.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6b882114-3273-43ff-8df3-5b23c98a2dae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Generation-Qualifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

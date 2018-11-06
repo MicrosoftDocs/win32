@@ -1,9 +1,6 @@
 ---
 title: ADSI Print Job Status Constants
 description: The following constants are used with the IADsPrintJobOperations.Status property to indicate the status of a print job.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 44a981cc-1098-4b6d-8332-e678953c9112
 ms.tgt_platform: multiple
 topic_type:
@@ -22,7 +19,6 @@ api_location:
 - Adssts.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

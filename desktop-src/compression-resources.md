@@ -2,7 +2,6 @@
 Description: Compression Resources
 ms.assetid: 15C28705-1D65-49D3-AB09-9E800FD88654
 title: Compression Resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

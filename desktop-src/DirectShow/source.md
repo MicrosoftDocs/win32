@@ -2,7 +2,6 @@
 Description: Source
 ms.assetid: '5ed90dc2-419e-40d4-adb4-164166254cd0'
 title: Source
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

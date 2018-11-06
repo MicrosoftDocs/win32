@@ -1,12 +1,8 @@
 ---
 Description: Gets or sets a value that represents the month component of the datetime value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 05818f0a-7e15-4ddd-a6a7-9d16ae82cd3c
 ms.tgt_platform: multiple
 title: SWbemDateTime.Month property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

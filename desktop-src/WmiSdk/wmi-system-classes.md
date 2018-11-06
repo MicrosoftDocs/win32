@@ -1,12 +1,8 @@
 ---
 Description: The WMI system classes are a collection of predefined classes based on the Common Information Model (CIM).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1a0323af-7c87-4016-9041-480518f3870a
 ms.tgt_platform: multiple
 title: WMI System Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

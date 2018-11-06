@@ -2,7 +2,6 @@
 Description: WsdCodeGen Reference
 ms.assetid: 7cf6fc14-4d41-4983-979c-6f14d1c9cdd2
 title: WsdCodeGen Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

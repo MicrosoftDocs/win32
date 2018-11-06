@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Date-Time attribute
 description: An attribute for storing a date and time value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 64813ce7-5ec0-45b8-8d27-f4d1e308789c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Date-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

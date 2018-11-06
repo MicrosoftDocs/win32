@@ -2,7 +2,6 @@
 title: IAgentCommandsEx SetVoiceCaption
 description: IAgentCommandsEx SetVoiceCaption
 ms.assetid: f13c9ca5-70c9-42d0-b53c-45dc8980a24c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

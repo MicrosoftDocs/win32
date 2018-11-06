@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx FullScreenTitle property
 description: Specifies the window title displayed when the control is in full-screen mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 441aea43-2d1c-44b7-a74f-e375e711fb4f
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

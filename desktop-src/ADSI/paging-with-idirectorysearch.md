@@ -1,15 +1,11 @@
 ---
 title: Paging with IDirectorySearch
 description: Paging specifies how many rows that the server returns to the client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf4aa56a-c6f7-47c8-956d-512a5cffbf22
 ms.tgt_platform: multiple
 keywords:
 - Paging with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Paging
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

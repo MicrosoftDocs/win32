@@ -2,7 +2,6 @@
 Description: XMSHORTN4 describes 4D vector for storing signed, normalized values as signed 16-bit integers, (type int16\_t).
 ms.assetid: 3b2532be-945f-4215-b550-f8f61ae24aac
 title: XMSHORTN4 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

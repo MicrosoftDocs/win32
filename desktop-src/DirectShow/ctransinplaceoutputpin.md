@@ -2,7 +2,6 @@
 Description: The CTransInPlaceOutputPin class implements an output pin that is used by the CTransInPlaceFilter class.
 ms.assetid: 90d54807-85c1-43b9-8998-e1bcf7b54725
 title: CTransInPlaceOutputPin class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

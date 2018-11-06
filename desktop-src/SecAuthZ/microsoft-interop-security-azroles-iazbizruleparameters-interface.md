@@ -2,7 +2,6 @@
 Description: Links to documentation for the IAzBizRuleParameters interoperability wrapper methods and properties.
 ms.assetid: 5aa05570-32d2-446d-b7c0-6d63e3d3feae
 title: Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

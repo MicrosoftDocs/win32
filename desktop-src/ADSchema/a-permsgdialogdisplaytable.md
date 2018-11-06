@@ -1,9 +1,6 @@
 ---
 title: Per-Msg-Dialog-Display-Table attribute
 description: The Per Message options MAPI display table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7e7da39-7730-416c-8670-4472b19732f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Per-Msg-Dialog-Display-Table
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

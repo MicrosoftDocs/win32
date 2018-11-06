@@ -4,7 +4,6 @@ description: There are guidelines to follow when implementing a summary informat
 ms.assetid: e1204de5-b712-4bd5-bffb-6a12ec8d7052
 keywords:
 - Implementing the Summary Information Property Set
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

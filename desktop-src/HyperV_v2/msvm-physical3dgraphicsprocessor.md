@@ -2,7 +2,6 @@
 Description: Describes the physical 3-D graphics processing unit (GPU).
 ms.assetid: 24e3d141-cbfe-4d40-907c-9a467c586c46
 title: Msvm_Physical3dGraphicsProcessor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

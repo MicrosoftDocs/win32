@@ -1,14 +1,8 @@
 ---
 Description: The SetPMTUBHDetect WMI class static method is used to enable the detection of Black Hole routers while doing Path MTU Discovery.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a1e45ed9-85a9-4fdd-890a-d578c3f94b72
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetPMTUBHDetect method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

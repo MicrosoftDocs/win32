@@ -2,7 +2,6 @@
 Description: Saving and Restoring DvdState Objects
 ms.assetid: 65180fe2-0faf-47c0-bccd-728e01056c46
 title: Saving and Restoring DvdState Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

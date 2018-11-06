@@ -1,9 +1,6 @@
 ---
 title: OMT-Indx-Guid attribute
 description: The index identifier for a Link-Track-Object-Move table entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a426512e-ab9f-4938-a767-7fed83aa755c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - OMT-Indx-Guid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

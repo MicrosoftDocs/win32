@@ -1,9 +1,6 @@
 ---
 title: CFSTR_DSOBJECTNAMES
 description: The CFSTR\_DSOBJECTNAMES clipboard format provides a global memory handle (HGLOBAL) that contains DSOBJECTNAMES structure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b28428fa-1504-4dcc-9b2b-32ca1ae30ec5
 ms.tgt_platform: multiple
 topic_type:
@@ -14,7 +11,6 @@ api_location:
 - DSClient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

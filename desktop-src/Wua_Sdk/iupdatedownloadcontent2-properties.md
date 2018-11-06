@@ -2,7 +2,6 @@
 Description: The IUpdateDownloadContent2 interface defines the following property.
 ms.assetid: c3d1e746-7e4e-404d-99bf-a0e5a923c4b3
 title: IUpdateDownloadContent2 Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

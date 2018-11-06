@@ -2,7 +2,6 @@
 Description: Introduction to DirectShow Application Programming
 ms.assetid: 21a72efa-95df-4754-8304-ad56965a914d
 title: Introduction to DirectShow Application Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

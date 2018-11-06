@@ -2,7 +2,6 @@
 Description: Contains a desired duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
 ms.assetid: CA699703-2D9B-4841-99AD-9C27FF428394
 title: PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

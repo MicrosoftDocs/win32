@@ -1,9 +1,6 @@
 ---
 title: netboot-Server attribute
 description: The distinguished name of a NetBoot server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1599d3ae-9835-4423-a816-a7b43bc57e4b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Applications can manage an activation context by directly calling the activation context functions.
 ms.assetid: 606147a8-435d-43d4-8fb5-79d2d1a8d870
 title: Using the Activation Context API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

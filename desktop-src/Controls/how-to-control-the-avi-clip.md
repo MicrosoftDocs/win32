@@ -2,7 +2,6 @@
 title: How to Control the AVI Clip
 description: This topic demonstrates how to use the animation control macros to play, stop, and close an associated Audio-Video Interleaved (AVI) clip.
 ms.assetid: 4B19F929-B306-4EBF-B82F-6539FAA42BA6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: FRS-File-Filter attribute
 description: A list of file name extensions excluded from file replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 094a393a-9e1a-4da8-a38a-161102f164fd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-File-Filter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

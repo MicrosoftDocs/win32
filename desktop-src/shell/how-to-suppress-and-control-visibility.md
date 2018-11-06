@@ -1,7 +1,6 @@
 ---
 Description: This topic tells you how to control verb visibility.
 title: How to Suppress and Control Verb Visibility
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings InputEventsAtOnce property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2f24b2cd-136d-4bde-9808-e5cb02bd7ce8
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

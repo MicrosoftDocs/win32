@@ -2,7 +2,6 @@
 title: VML XScale Attribute
 description: VML XScale Attribute
 ms.assetid: b876201d-87d1-4795-8f7f-33712a8bf493
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

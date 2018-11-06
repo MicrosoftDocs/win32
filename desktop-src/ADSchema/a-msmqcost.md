@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Cost attribute
 description: The cost of routing between two sites.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 956de448-05d0-4fc0-8f11-a15ede120e47
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Cost
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

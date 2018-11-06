@@ -2,7 +2,6 @@
 Description: Emitted as TRUE by a container item to indicate that its child items do not need to be enumerated by an indexer if the container item has not changed since the last incremental index verification crawl.
 ms.assetid: 8bb487b9-4a51-4a6b-939e-946a8aad85de
 title: System.Search.IsClosedDirectory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -30,7 +29,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If an item emits **TRUE** for this property, each of its child items must emit the [System.Search.IsFullyContained](https://msdn.microsoft.com/library/Bb760169(v=VS.85).aspx) property as **TRUE** to prevent those items from being deleted from the index.
 
  

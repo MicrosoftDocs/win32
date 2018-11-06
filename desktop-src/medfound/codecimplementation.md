@@ -2,7 +2,6 @@
 Description: Codec Implementation
 ms.assetid: 5ec23f95-cc7d-4c16-979a-f1d2cc485bb0
 title: Codec Implementation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

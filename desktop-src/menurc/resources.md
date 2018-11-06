@@ -4,7 +4,6 @@ description: The resources section describes window resources such as icons, cur
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources.htm'
 keywords:
 - resources,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

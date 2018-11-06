@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PackagedComponent association represents an explicit relationship in which a component is typically contained by a physical package, such as a chassis or card.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ef0cdbc4-41ee-4517-92ca-61cfcbe64c36
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PackagedComponent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -31,7 +25,7 @@ The **CIM\_PackagedComponent** association represents an explicit relationship i
 
 **Note**  A component may be removed from, or not yet inserted into, its containing package (that is, the **Removable** Boolean property is **TRUE**). Therefore, a component may not always be associated with a container.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

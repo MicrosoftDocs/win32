@@ -1,9 +1,6 @@
 ---
 title: Privilege-Attributes attribute
 description: Bitmask of privilege attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d8f940b-3f41-43a9-8b14-8696c9f636fb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Privilege-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

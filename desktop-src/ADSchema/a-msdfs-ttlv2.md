@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Ttl-v2 attribute
 description: TTL associated with the DFS root or link. For use at DFS referral time.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1c41567e-72f5-48fd-a2f8-33e3c8e35794
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Ttl-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

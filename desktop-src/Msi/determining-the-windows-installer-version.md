@@ -2,7 +2,6 @@
 Description: 'You can use the following methods to determine the Windows Installer version:'
 ms.assetid: 6b39bb19-4360-4d0e-a797-980912a91275
 title: Determining the Windows Installer Version
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

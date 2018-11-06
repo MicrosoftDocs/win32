@@ -2,7 +2,6 @@
 Description: Pointer to a critical section that is used to serialize state changes.
 ms.assetid: 4fecd9a6-54df-49d7-bf2f-5dcaef919ad7
 title: CBaseFilter::m_pLock member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

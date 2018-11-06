@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_IRQ class represents an Intel architecture interrupt request line (IRQ).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d72d4914-c57b-496d-a9fe-d8f5b522504c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_IRQ class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -39,7 +33,7 @@ api_location:
 
 The **CIM\_IRQ** class represents an Intel architecture interrupt request line (IRQ).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

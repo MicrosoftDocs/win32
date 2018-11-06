@@ -2,7 +2,6 @@
 Description: Gets the current status of the smart card or reader.
 ms.assetid: ae285e2e-6591-43ab-b92f-1ec755872379
 title: ISCardManage::Status method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

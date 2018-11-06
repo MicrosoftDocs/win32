@@ -1,15 +1,11 @@
 ---
 title: Authentication
 description: Every object in Active Directory Domain Services has a unique security descriptor that defines the access permissions that are required to read or update the object or its individual properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4a663d3-b0f3-4993-a74e-9e4f896e8c95
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,binding,authentication
 - binding authentication AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Desktop
 description: The desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it .
 ms.assetid: 99cb218d-9b1f-4e43-94d2-4ea74b0e10d3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

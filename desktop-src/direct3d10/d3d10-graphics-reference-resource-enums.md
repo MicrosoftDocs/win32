@@ -2,7 +2,6 @@
 Description: The following enumerations are used to specify information about how resources are created and accessed during rendering.
 ms.assetid: c986b22c-2960-4571-98bc-028c9f41ec65
 title: Resource Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

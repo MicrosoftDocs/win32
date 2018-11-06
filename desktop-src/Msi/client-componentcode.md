@@ -2,7 +2,6 @@
 Description: The component code of the component in question.
 ms.assetid: 0abed0cd-b35c-45d7-8e71-461f2386109e
 title: Client.ComponentCode property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

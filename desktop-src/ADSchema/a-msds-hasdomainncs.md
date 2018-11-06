@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Has-Domain-NCs attribute
 description: Directory service replication information that details the domain naming contexts present on a particular server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5a7c371-5a37-466e-b56f-ee261b48e3b2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Has-Domain-NCs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

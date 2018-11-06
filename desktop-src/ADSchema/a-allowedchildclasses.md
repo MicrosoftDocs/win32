@@ -1,9 +1,6 @@
 ---
 title: Allowed-Child-Classes attribute
 description: Classes that can be contained by a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3bfeefe3-b728-40a2-8b0a-3064a9ca42d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Allowed-Child-Classes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

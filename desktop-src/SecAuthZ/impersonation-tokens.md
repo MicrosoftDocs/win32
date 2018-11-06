@@ -2,7 +2,6 @@
 Description: Explains the use of impersonation tokens in access control.
 ms.assetid: 74fcb0e3-303a-4a5e-9eb6-2aad3a4944db
 title: Impersonation Tokens
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

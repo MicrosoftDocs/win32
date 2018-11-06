@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-intFlags3 attribute
 description: The ms-WMI-intFlags3 attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 32f99cc4-75ab-4ce4-bb0b-1165294be07b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-intFlags3
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

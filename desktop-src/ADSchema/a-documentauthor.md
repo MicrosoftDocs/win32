@@ -1,9 +1,6 @@
 ---
 title: documentAuthor attribute
 description: The documentAuthor attribute type specifies the distinguished name of the author of a document.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52d25349-ef79-44d0-a892-65984898fa1c
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentAuthor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

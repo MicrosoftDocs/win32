@@ -2,7 +2,6 @@
 Description: Gets the device that created the mesh.
 ms.assetid: b03dadda-ca54-4a55-a0a5-cf5ccdb55a72
 title: ID3DXPatchMesh::GetDevice method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

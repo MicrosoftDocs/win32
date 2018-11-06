@@ -2,7 +2,6 @@
 Description: Maps a single member function and an optional set of parameters to a corresponding set of integer dispatch identifiers (DISPIDs), which can be used upon subsequent calls to the CMediaControl::Invoke member function.
 ms.assetid: 9ce1b1aa-ea03-4a65-bff7-e46771cd0772
 title: CMediaControl.GetIDsOfNames method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

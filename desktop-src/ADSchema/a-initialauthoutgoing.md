@@ -1,9 +1,6 @@
 ---
 title: Initial-Auth-Outgoing attribute
 description: Contains information about an initial outgoing authentication sent by the authentication server for this domain to the client that requested authentication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc5ceb14-0424-4caa-bcd9-1e48988af67a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Initial-Auth-Outgoing
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

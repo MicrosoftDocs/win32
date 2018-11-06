@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PCIController class represents the properties and management of a PCI controller. The properties in this class and its subclasses are defined in the various PCI specifications published by the PCI SIG.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0f2aec01-362d-49d7-95ea-23487214188c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PCIController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -48,7 +42,7 @@ api_location:
 
 The **CIM\_PCIController** class represents the properties and management of a PCI controller. The properties in this class and its subclasses are defined in the various PCI specifications published by the PCI SIG.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

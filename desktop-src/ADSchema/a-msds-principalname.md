@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Principal-Name attribute
 description: Account name for the security principal (constructed).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f7e0fa7a-8b5f-48e1-bcb9-a4c6879a8297
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Principal-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

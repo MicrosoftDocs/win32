@@ -7,7 +7,6 @@ keywords:
 - HLSL compiler
 - Shader compiler
 - fxc, shader/effect compiler tool
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

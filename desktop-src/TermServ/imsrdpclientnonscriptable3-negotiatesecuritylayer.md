@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 NegotiateSecurityLayer property
 description: Specifies or retrieves whether the negotiation security layer is enabled for the connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7fc9e3c7-0723-48c4-8d29-5f68a24a522c
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

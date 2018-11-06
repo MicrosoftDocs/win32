@@ -1,12 +1,8 @@
 ---
 Description: The HoursSpecified property of the SWbemDateTime object is a Boolean value that indicates whether the hours component in the CIM datetime value contains an interval or a wildcard value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 55211da6-cbd5-4e61-ab7d-ee20363e9d81
 ms.tgt_platform: multiple
 title: SWbemDateTime.HoursSpecified property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Animations and Transitions
 description: Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging.
 ms.assetid: 9e0e9604-f051-47e4-bcd0-59fbfd38b9c1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

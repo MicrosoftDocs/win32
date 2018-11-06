@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Certificate-Name-Flag attribute
 description: Contains the flags related to constructing the subject name in an issued certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7aeeff69-86b5-4251-bd64-bd99b7c9ef4a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Certificate-Name-Flag
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

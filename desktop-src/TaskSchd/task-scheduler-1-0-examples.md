@@ -4,7 +4,6 @@ description: The examples in this section use the API introduced in Task Schedul
 ms.assetid: 424d0892-a9c2-4f36-8cb3-5e637641b1e7
 keywords:
 - Task Scheduler examples Task Scheduler , Task Scheduler 1.0 examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

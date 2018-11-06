@@ -5,7 +5,6 @@ ms.assetid: 7dcaccbe-63d8-410a-ae00-16ce9e252ad0
 keywords:
 - AVIFileGetStream function
 - AVIStreamRelease function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

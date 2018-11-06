@@ -2,7 +2,6 @@
 title: The ACF Header
 description: The ACF header contains platform-specific attributes that apply to the interface as a whole. Attributes applied to individual types and functions in the ACF body override the attributes in the ACF header. No attributes are required in the ACF header.
 ms.assetid: c09ec0f2-2302-450a-b74b-c9008beca325
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

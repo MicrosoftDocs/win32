@@ -2,7 +2,6 @@
 Description: The following notifications are used with file queues. For more information about the format and use of notifications, see Notifications.
 ms.assetid: 4a171b4a-8623-4be3-81ee-99081fe23034
 title: File Queue Notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Wi-Fi Direct Services Service Address.
 ms.assetid: 6b29c244-685f-4eb7-9c80-d6b4fc591efc
 title: System.Devices.WiFiDirectServices.ServiceAddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The DoRenderSample method renders a sample.
 ms.assetid: cf06192c-44c0-4d88-a20e-6501ea48cbfd
 title: CBaseRenderer.DoRenderSample method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ReplicationGroupType attribute
 description: Contains the replication group type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ce60e48-5132-4066-841e-df164dae2ab5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ReplicationGroupType
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

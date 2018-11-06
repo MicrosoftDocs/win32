@@ -2,7 +2,6 @@
 Description: Specifies which beam the Voice Capture DSP uses for microphone array processing.
 ms.assetid: 9ed761da-3f1b-47e8-b71f-becc56fe8801
 title: MFPKEY_WMAAECMA_FEATR_MICARR_BEAM Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

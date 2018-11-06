@@ -2,7 +2,6 @@
 title: Vertex Shader Registers
 description: Vertex Shader Registers
 ms.assetid: 546cf0ea-b580-48e1-93f9-5d660e8fffab
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

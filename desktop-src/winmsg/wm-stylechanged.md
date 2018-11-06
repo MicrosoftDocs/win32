@@ -2,7 +2,6 @@
 Description: Sent to a window after the SetWindowLong function has changed one or more of the window's styles.
 ms.assetid: 37bc4e1a-f75d-4851-8dee-97fa2da90254
 title: WM_STYLECHANGED message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

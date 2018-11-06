@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ExpireDate3 attribute
 description: Expiration date of the third TS per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 47dea1aa-54c3-4d0a-b82f-5161deaefd3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ExpireDate3
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: GenerateReportEx method of the Win32_TSLicenseReport class
 description: Generates a current license usage report for both Per User and Per Device licenses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c454e0c5-ca1c-41c7-86b2-1e52c414aeb5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

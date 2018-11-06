@@ -2,7 +2,6 @@
 Description: Retrieves the object ID of the qualifier.
 ms.assetid: 58ec2af7-f085-43bc-8ea8-926cb840abe9
 title: Qualifier.OID property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

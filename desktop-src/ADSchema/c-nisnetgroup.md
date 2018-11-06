@@ -1,9 +1,6 @@
 ---
 title: nisNetgroup class
 description: Contains an abstraction of a netgroup that can refer to other netgroups.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 005995c1-3579-446a-8f1e-93198e319d7e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - nisNetgroup
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

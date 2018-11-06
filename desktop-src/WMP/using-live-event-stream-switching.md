@@ -18,7 +18,6 @@ keywords:
 - live event stream switching
 - event stream switching
 - ad insertion
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

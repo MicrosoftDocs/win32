@@ -1,12 +1,8 @@
 ---
 Description: WMI providers also may maintain logs. Which log files appear on a system depends on which providers are installed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 04f041e5-4f2c-4c94-9aba-b040d941b46d
 ms.tgt_platform: multiple
 title: WMI Provider Log Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

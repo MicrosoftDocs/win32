@@ -2,7 +2,6 @@
 Description: You can supply all of the information needed to configure Add/Remove Programs in Control Panel by setting the values of certain installer properties in your application's Windows Installer package.
 ms.assetid: 2eb00fe5-e441-4fce-9623-81a089269a2b
 title: Configuring Add/Remove Programs with Windows Installer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Drag and Drop
 description: Drag and drop refers to data transfers in which a mouse or other pointing device is used to specify both the data source and its destination.
 ms.assetid: bba0ddf8-fcf9-4827-bf85-7ac597d33b4b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

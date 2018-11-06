@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Operations-For-Az-Role attribute
 description: List of operations linked to Az-Role.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b8ae503-53a0-4e82-b082-8b464a222d07
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Operations-For-Az-Role
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

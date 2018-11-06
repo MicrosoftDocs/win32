@@ -2,7 +2,6 @@
 Description: The Creating Application Summary property conveys which application created the installer database. In general, the value for this summary property is the name of the software that is used to author this database.
 ms.assetid: 62030f5c-a7cc-4ba7-86ca-c0bdfc2cfb4b
 title: Creating Application Summary property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

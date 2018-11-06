@@ -4,7 +4,6 @@ description: Automatically sets the CLSID for the TreatAs key to the specified v
 ms.assetid: 5adf7bc5-a4d6-444d-bd56-0c4e6eee5111
 keywords:
 - AutoTreatAs registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

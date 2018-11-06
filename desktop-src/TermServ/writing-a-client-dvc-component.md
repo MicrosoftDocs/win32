@@ -1,12 +1,8 @@
 ---
 title: Writing a Client DVC Module
 description: To write a dynamic virtual channel (DVC) client module, you must first implement and register a Remote Desktop Connection (RDC) client plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b6f475d4-d2ad-41ce-b3b9-d844fbd23cf0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

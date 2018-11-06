@@ -2,7 +2,6 @@
 Description: Pack Object
 ms.assetid: e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9
 title: Pack Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

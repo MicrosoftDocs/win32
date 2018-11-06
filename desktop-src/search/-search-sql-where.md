@@ -2,7 +2,6 @@
 Description: The conditions that determine whether a document is included in the results returned by the query are specified by the WHERE clause.
 ms.assetid: e3b5ee92-e817-49b8-aa8b-5d68254bb819
 title: WHERE Clause
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -47,7 +46,7 @@ The following table shows the order of precedence for the logical operators.
 
 Logical operators of the same type are associative, and there is no specified calculation order. For example, (A **AND** B) **AND** (C **AND** D) can be calculated (A **AND** D) **AND** (B **AND** C) with no change in the logical result.
 
-> \[!Important\]You cannot apply the unary logical operator **NOT** to the [CONTAINS](-search-sql-contains.md) predicate or to the [FREETEXT](-search-sql-freetext.md) predicate if that predicate is the first one in the WHERE clause.
+> [!IMPORTANT]
 >
 > Incorrect: WHERE **NOT** CONTAINS ('computer')
 >

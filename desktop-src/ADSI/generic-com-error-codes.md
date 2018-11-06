@@ -1,12 +1,8 @@
 ---
 title: Generic COM Error Codes
 description: Generic COM error codes expresses the operation status as produced by all COM modules. The following table contains some examples of such error codes on any Win32 platform.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d572e15-6cb5-43d5-8a38-ff9db339ed0d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

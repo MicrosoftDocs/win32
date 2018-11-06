@@ -1,14 +1,8 @@
 ---
 Description: The destructor for Win32\_ClusterShare objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c7bf7f4b-914c-4850-9a3e-b8b2bf6cc5a8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Delete method of the Win32_ClusterShare class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

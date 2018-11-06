@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Negotiation-Policy-Reference attribute
 description: The Ipsec-Negotiation-Policy-Reference attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d30d8817-0661-430a-939d-f91072585807
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Negotiation-Policy-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

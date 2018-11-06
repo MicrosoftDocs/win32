@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 389bf388-818c-4c04-a28e-50221d3965a6
 title: RequestStateChange method of the Msvm_DisketteController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

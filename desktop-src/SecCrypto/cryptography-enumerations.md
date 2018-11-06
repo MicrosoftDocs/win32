@@ -2,7 +2,6 @@
 Description: The following enumerations are used by cryptography functions and methods.
 ms.assetid: 305038c0-754d-4406-9689-716d11964700
 title: Cryptography Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

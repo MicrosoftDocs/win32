@@ -1,9 +1,6 @@
 ---
 title: Win32_RDCentralPublishedRemoteDesktop class
 description: Desktop published on another computer, for remote use through Terminal Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2b28a2d3-048f-446f-9ce0-eb684b393eaa
 ms.tgt_platform: multiple
 keywords:
@@ -28,7 +25,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

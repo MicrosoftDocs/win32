@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player Mobile skins,color palettes
 - skins,color palettes
 - color palettes for skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

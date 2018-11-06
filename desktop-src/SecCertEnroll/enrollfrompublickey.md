@@ -2,7 +2,6 @@
 Description: Initializes a PKCS \#10 certificate request object, wraps it in a CMC request object, submits the CMC request to an enterprise certification authority (CA), and saves the certificate returned by the CA in a file.
 ms.assetid: 0231da3b-a183-4443-8735-5affd24b145a
 title: enrollFromPublicKey
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

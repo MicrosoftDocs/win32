@@ -1,9 +1,6 @@
 ---
 title: Domain-Password property set
 description: Property set containing all lockout and password age related attributes on user account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2333754d-4b80-4794-9af0-12244b209312
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Domain-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

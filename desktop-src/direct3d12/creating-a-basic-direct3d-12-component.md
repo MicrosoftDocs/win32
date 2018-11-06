@@ -2,7 +2,6 @@
 title: Creating a basic Direct3D 12 component
 description: This topic describes the call flow to create a basic Direct3D 12 component.
 ms.assetid: A0FB108B-15C1-42AD-9277-D5CB63FA8329
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -32,7 +31,7 @@ This topic describes the call flow to create a basic Direct3D 12 component.
 
 The outermost loop of a D3D 12 program follows a very standard graphics process:
 
-> \[!Tip\]  
+> [!TIP]
 > Features new to Direct3D 12 are followed by a note.
 
  

@@ -2,7 +2,6 @@
 Description: Signals that video capture is restored after being blocked.
 ms.assetid: D2F19B46-8BCC-4F81-978B-1D0B83A1FA9A
 title: MF_CAPTURE_ENGINE_CAMERA_STREAM_UNBLOCKED attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

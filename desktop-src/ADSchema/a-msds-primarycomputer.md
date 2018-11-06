@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Primary-Computer attribute
 description: For a user or group object, identifies the primary computers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 627e7885-4e32-4dd9-a7b4-7e8c505cac85
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Primary-Computer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

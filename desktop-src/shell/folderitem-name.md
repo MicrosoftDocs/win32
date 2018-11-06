@@ -2,7 +2,6 @@
 Description: Sets or gets the item's name.
 ms.assetid: 079efc8d-3d08-48b1-bdb1-83f4b89fd633
 title: FolderItem.Name property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: Represents the system driver for a base service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 67dc6e14-c8c1-4168-8f99-b04c6ecd4ad2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

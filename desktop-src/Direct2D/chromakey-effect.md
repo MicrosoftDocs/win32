@@ -2,7 +2,6 @@
 title: Chroma-key Effect
 description: Converts a given color plus or minus a tolerance to alpha. For example, chroma-key can remove the background of an image for a green-screen overlay effect.
 ms.assetid: f7bb5c65-f406-f947-c05d-2756cff99d21
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

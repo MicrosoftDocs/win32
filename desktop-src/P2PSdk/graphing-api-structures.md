@@ -2,7 +2,6 @@
 Description: 'The Graphing API uses the following structures:'
 ms.assetid: 6bf06e90-5a1c-461c-8053-93cf4d4bfc95
 title: Graphing API Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

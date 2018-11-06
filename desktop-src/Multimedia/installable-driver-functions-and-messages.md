@@ -10,7 +10,6 @@ keywords:
 - installable drivers,custom messages
 - driver messages
 - custom driver messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-Imaging-Thumbprint-Hash attribute
 description: Contains a hash of the security certificate for the Scan Repository/Secure Print Device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51b3bf02-2914-4af1-8b38-bb46e43093d6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Imaging-Thumbprint-Hash
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

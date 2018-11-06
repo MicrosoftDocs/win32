@@ -3,7 +3,6 @@ title: P
 description: Words starting with P in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: 3cee5b7a-535d-4a35-8ed1-7cadb479e76c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SetCutPoint2 method sets the time at which the transition cuts from one source to the next, if the transition is rendered as a cut. This method is equivalent to IAMTimelineTrans::SetCutPoint, but takes a REFTIME value.
 ms.assetid: d06d3ee7-04a2-4266-9995-bfabea24aef9
 title: IAMTimelineTrans::SetCutPoint2 method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

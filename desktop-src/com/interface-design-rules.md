@@ -2,7 +2,6 @@
 title: Interface Design Rules
 description: This section provides a short summary of interface design rules and guidelines.
 ms.assetid: c43fc385-bcd6-45fc-91b2-ad9827fdb15c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

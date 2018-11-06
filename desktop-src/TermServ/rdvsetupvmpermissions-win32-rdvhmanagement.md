@@ -1,9 +1,6 @@
 ---
 title: RdvSetupVMPermissions method of the Win32_RdvhManagement class
 description: Sets the permissions on a virtual machine for the current user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6ac45983-d468-4a3b-875f-48717ba23ed0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

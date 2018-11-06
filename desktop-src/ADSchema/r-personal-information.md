@@ -1,9 +1,6 @@
 ---
 title: Personal-Information property set
 description: Property set containing user attributes that describe personal user information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 95e4e617-a493-4842-8def-acf8e3761700
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Personal-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Copies the logical codec file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0e9097ed-a599-44f7-a654-8622c0618c27
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

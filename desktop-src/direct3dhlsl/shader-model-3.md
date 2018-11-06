@@ -2,7 +2,6 @@
 title: Shader Model 3
 description: Vertex shaders and pixel shaders are simplified considerably from earlier shader versions.
 ms.assetid: 01ac85cb-b309-4169-acc2-320a929b65cb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The disk-space list enables you to calculate the disk space required to complete the installation operations.
 ms.assetid: 6514cbdd-2f23-4ab8-9e34-86d3837503dc
 title: About the Disk-Space List
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: GPC-User-Extension-Names attribute
 description: Used by the Group Policy Object for user policies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3c6fa679-7597-4286-bd79-7a0030212810
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GPC-User-Extension-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

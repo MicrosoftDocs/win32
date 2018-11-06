@@ -2,7 +2,6 @@
 title: Routes and the Best Route
 description: A route is a \ 0034;network path \ 0034; to a destination that has a certain cost associated with it. The cost is represented by its administrative preference and its protocol-specific metric. Routes with lower costs are preferred over all other routes.
 ms.assetid: c5a75308-42da-4ef9-a712-9987c87eef84
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

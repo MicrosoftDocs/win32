@@ -2,7 +2,6 @@
 Description: Creates an instance of BoundingOrientedBox.
 ms.assetid: 3f4278ac-09ce-4249-b5ec-fca1519e9efc
 title: BoundingOrientedBox constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The following is the complete listing of the manifest file schema.
 ms.assetid: 5a4040a4-66ed-44ea-a07f-6410f88d1446
 title: Manifest File Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Some of the more advanced capabilities of TAPI require that an application be able, for example, to retrieve data from telephones.
 ms.assetid: f28b6811-5611-406c-a726-a2b232518518
 title: Special Hardware
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

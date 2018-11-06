@@ -1,9 +1,6 @@
 ---
 title: userClass attribute
 description: The userClass attribute type specifies a category of computer user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3cebad7-4f89-40bb-977a-e2c56f1b5a07
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - userClass
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

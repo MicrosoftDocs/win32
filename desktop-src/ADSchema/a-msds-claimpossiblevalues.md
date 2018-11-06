@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Possible-Values attribute
 description: For a claim type or resource property object, this attribute describes the values suggested to a user when the he/she use the claim type or resource property in applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a49dd1a6-1ad0-40cd-bac4-ce0c52ca6269
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Possible-Values
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

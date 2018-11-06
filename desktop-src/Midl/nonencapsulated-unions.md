@@ -4,7 +4,6 @@ description: A nonencapsulated union is a union which is not contained in a stru
 ms.assetid: d883b0ed-ceab-49f0-bbe5-b96a503c431d
 keywords:
 - data types MIDL , nonencapsulated unions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

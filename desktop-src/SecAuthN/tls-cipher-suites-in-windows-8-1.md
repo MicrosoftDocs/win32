@@ -2,7 +2,6 @@
 Description: TLS Cipher Suites in Windows 8.1
 ms.assetid: 48A515C2-96D3-4CBF-A48F-3F0B91F0CB2C
 title: TLS Cipher Suites in Windows 8.1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -16,7 +15,7 @@ Availability of cipher suites should be controlled in one of two ways:
 -   Default priority order is overridden when a priority list is configured. Cipher suites not in the priority list will not be used.
 -   Allowed when application passes SCH\_USE\_STRONG\_CRYPTO: The Microsoft Schannel provider will filter out known weak cipher suites when the application uses the SCH\_USE\_STRONG\_CRYPTO flag. In Windows 8.1, RC4 cipher suites are filtered out.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > HTTP/2 web services fail with non-HTTP/2-compatible cipher suites. To ensure your web services function with HTTP/2 clients and browsers, see [How to deploy custom cipher suite ordering](https://support.microsoft.com/help/4032720/how-to-deploy-custom-cipher-suite-ordering-in-windows-server-2016).
 
  

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CacheMemory class defines the capabilities and management of cache memory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cdf35122-2057-45fa-818b-ce542d8e82b0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CacheMemory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -79,7 +73,7 @@ Cache memory is the dedicated or allocated RAM where a processor first searches 
 
  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

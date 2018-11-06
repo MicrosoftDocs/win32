@@ -1,9 +1,6 @@
 ---
 title: Subnet-Container class
 description: Container for holding all subnet objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d63975be-584d-4f50-9a5f-27eb5cf5f504
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Subnet-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

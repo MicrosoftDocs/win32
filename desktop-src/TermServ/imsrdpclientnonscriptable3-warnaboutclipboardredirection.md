@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 WarnAboutClipboardRedirection property
 description: Specifies or retrieves whether the security warning dialog box should be displayed to warn users about clipboard redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2f3ca58b-3c89-4251-ae15-2c0aaf308893
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

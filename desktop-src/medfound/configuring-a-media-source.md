@@ -2,7 +2,6 @@
 Description: Configuring a Media Source
 ms.assetid: 1378bbe6-be94-4be1-b428-5ec58dabd1fa
 title: Configuring a Media Source
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

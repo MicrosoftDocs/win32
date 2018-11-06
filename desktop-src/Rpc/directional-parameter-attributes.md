@@ -6,7 +6,6 @@ keywords:
 - Remote Procedure Call RPC , described, directional attributes
 - in
 - out
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

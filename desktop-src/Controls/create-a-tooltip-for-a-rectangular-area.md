@@ -2,7 +2,6 @@
 title: How to Create a Tooltip for a Rectangular Area
 description: The following example demonstrates how to create a standard tooltip control for a window's entire client area.
 ms.assetid: 6AF1CE6E-AD63-4F84-9759-14FE4F16092B
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

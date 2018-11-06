@@ -1,9 +1,6 @@
 ---
 title: Attribute-Display-Names attribute
 description: The name to be displayed for this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f9ee8b99-f902-40b5-a590-14f4bfbdb8cf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Attribute-Display-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

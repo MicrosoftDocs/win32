@@ -1,9 +1,6 @@
 ---
 title: DeleteServers method of the Win32_TSGatewayLoadBalancer class
 description: Deletes servers from the Servers property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ef44725-82b6-464a-abab-a68cc8799669
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

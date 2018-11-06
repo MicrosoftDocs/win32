@@ -2,7 +2,6 @@
 Description: This section describes schemas used by the Windows Property System.
 ms.assetid: 5f182207-b537-4866-916a-1e1563d796b6
 title: Property Description Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

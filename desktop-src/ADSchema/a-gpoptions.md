@@ -1,9 +1,6 @@
 ---
 title: GP-Options attribute
 description: Options that affect all group policies associated with the object hosting this property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 180ada21-7185-4589-a5a2-2cd1bbe64d0c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GP-Options
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

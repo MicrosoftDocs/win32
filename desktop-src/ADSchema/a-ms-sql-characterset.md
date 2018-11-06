@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-CharacterSet attribute
 description: The character set for the current instance of SQL Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5c45058f-e883-455c-8e18-415ddae149f8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-CharacterSet
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

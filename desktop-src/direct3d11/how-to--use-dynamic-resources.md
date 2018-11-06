@@ -2,7 +2,6 @@
 title: How to Use dynamic resources
 description: You create and use dynamic resources when your app needs to change data in those resources. You can create textures and buffers for dynamic usage.
 ms.assetid: E73EA4B0-BD14-430C-89CA-4CFCF92C7548
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

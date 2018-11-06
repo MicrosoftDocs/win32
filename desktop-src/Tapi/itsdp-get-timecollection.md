@@ -2,7 +2,6 @@
 Description: The get\_TimeCollection method gets a pointer to an ITTimeCollection interface for conference.
 ms.assetid: 1cfe3f5a-dcf7-480b-9b23-e17259d8ee9c
 title: ITSdp::get_TimeCollection method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

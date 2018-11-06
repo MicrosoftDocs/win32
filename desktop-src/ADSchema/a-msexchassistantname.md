@@ -1,9 +1,6 @@
 ---
 title: ms-Exch-Assistant-Name attribute
 description: Contains the name of the assistant for an account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8799d5de-2c73-41b3-b707-b6f8bf5edb6a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Exch-Assistant-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

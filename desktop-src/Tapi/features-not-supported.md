@@ -2,7 +2,6 @@
 Description: The following list contains the TAPI MSP features that are not supported.
 ms.assetid: e9a6a377-fc8f-455a-b6b3-12c4f84d5041
 title: Features Not Supported
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

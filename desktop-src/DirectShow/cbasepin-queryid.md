@@ -2,7 +2,6 @@
 Description: The QueryId method retrieves the pin identifier. This method implements the IPin::QueryId method.
 ms.assetid: b365a574-61b4-454c-b062-8826cbe10f03
 title: CBasePin.QueryId method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

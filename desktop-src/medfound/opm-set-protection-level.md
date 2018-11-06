@@ -2,7 +2,6 @@
 Description: Sets the protection level for an output protection mechanism.
 ms.assetid: f4e63bf5-0749-4054-9f86-7fd88f2881ad
 title: OPM_SET_PROTECTION_LEVEL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

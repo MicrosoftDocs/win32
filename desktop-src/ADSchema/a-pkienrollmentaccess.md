@@ -1,9 +1,6 @@
 ---
 title: PKI-Enrollment-Access attribute
 description: The PKI-Enrollment-Access attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 09eab075-71a5-4a38-af34-dafedca9c2c6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Enrollment-Access
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

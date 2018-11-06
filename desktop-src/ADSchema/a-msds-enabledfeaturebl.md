@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Enabled-Feature-BL attribute
 description: Scopes where this optional feature is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 851f90d2-0ffd-4873-b2ea-07546d015cb5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Enabled-Feature-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

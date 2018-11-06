@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx Server property
 description: Specifies the name of the server to which the current control is connected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 81118ddd-2662-47f5-8e9d-9c2a5056820b
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section describes how to perform common tasks with the math input control.
 ms.assetid: 22e524d9-4091-4f8c-8763-4da54b60e63c
 title: Programming the Math Input Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: IAgentNotifySinkEx ActiveClientChange
 description: IAgentNotifySinkEx ActiveClientChange
 ms.assetid: e953e803-c898-4c07-adc0-8b895b5e8473
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

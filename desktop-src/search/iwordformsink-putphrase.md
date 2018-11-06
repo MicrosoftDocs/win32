@@ -2,7 +2,6 @@
 Description: Puts an alternative form of a word in the IWordFormSink object.
 ms.assetid: 4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3
 title: IWordFormSink::PutAltWord method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

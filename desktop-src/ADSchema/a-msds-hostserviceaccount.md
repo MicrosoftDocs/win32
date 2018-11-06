@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Host-Service-Account attribute
 description: Service Accounts configured to run on this computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7fc7d4b5-7763-4c80-a539-a52b43edf13c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Host-Service-Account
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

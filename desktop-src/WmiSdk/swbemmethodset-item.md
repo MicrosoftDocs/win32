@@ -1,12 +1,8 @@
 ---
 Description: The Item method of the SWbemMethodSet object returns a named SWbemMethod object from the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4c1bbecc-b38b-4869-9c8c-b9321536b23e
 ms.tgt_platform: multiple
 title: SWbemMethodSet.Item method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

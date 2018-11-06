@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 9f0b91c4-0364-4c73-b97f-86703ca3ef74
 title: CBaseWindow.CBaseWindow constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

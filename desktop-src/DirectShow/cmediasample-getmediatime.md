@@ -2,7 +2,6 @@
 Description: The GetMediaTime method retrieves the media times for this sample. This method implements the IMediaSample::GetMediaTime method.
 ms.assetid: f58a2162-5764-48f2-8984-ee4bba1229ab
 title: CMediaSample.GetMediaTime method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

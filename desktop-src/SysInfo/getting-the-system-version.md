@@ -2,7 +2,6 @@
 Description: The following example uses the Version API Helper functions to determine the version of the current operating system, if it is a Server or Client release, and then displays this information to the console.
 ms.assetid: ae851aef-27d5-4eb7-aeb2-ccdfbf040e5a
 title: Getting the System Version
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

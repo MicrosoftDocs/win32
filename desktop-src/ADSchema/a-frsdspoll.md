@@ -1,9 +1,6 @@
 ---
 title: FRS-DS-Poll attribute
 description: DS Polling interval for the File Replication engine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 84a6c900-938d-4589-a5ca-098349fd7f54
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-DS-Poll
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Stream Format
 ms.assetid: 7ed095f2-b541-4b99-8afc-9acba58081cd
 title: Stream Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

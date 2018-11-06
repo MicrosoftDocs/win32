@@ -2,7 +2,6 @@
 title: User Authentication Information
 description: The Remote Access Connection Manager service on the client computer sends a user name and password to the RAS server on the remote computer.
 ms.assetid: b27bf520-d871-4314-8ed9-3a6a9583ab52
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

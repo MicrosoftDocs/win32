@@ -1,9 +1,6 @@
 ---
 title: NTFRS-Subscriptions class
 description: Holds a set of subscriptions to a replica set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f961c2bb-4647-49da-be53-1d1aa0d55ef5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTFRS-Subscriptions
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

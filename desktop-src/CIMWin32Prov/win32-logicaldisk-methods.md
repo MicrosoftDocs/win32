@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_LogicalDisk class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B7761B9D-A1E0-48A8-A630-B21593A255F0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_LogicalDisk Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

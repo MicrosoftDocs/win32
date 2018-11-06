@@ -2,7 +2,6 @@
 title: Enumerate the Registered Entities
 description: The following sample code shows how to create an enumeration of registered clients and obtain the client information from the routing table manager.
 ms.assetid: a96a4089-6a7c-4565-baeb-5d5fa7b84b35
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

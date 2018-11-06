@@ -1,12 +1,8 @@
 ---
 Description: Limits the internal resources that are used by operations initiated by WMI clients.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e877899d-2f5e-4468-8c47-055fd4d16f56
 ms.tgt_platform: multiple
 title: '__ArbitratorConfiguration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Step 1.
 ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: Step 1. Choose a Base Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

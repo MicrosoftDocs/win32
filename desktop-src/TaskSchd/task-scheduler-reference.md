@@ -4,7 +4,6 @@ description: This section describes the APIs, scripting objects, and XML schema 
 ms.assetid: e3b5a1e1-4d18-44b7-aaa6-ebec11892bec
 keywords:
 - Task Scheduler Task Scheduler , reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

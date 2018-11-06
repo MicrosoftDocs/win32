@@ -2,7 +2,6 @@
 Description: Email address of the contact.
 ms.assetid: b232e816-8159-4c61-9332-5f2d5bdd452d
 title: System.Contact.EmailAddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

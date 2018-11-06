@@ -2,7 +2,6 @@
 title: NDF Interfaces
 description: The following interfaces can be used to extend the functionality of Microsoft Helper Classes that are identified as extensible.
 ms.assetid: 55e58eb8-d04e-4398-a892-8c343a88adc1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Creating ASF Files in DirectShow
 ms.assetid: dffda43a-5831-4889-864f-81351b9e2bb3
 title: Creating ASF Files in DirectShow
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

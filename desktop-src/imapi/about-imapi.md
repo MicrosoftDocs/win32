@@ -2,7 +2,6 @@
 title: About IMAPI
 description: IMAPI enables the creation of optical media using a variety of file systems.
 ms.assetid: 12e99e39-8503-4f50-899a-d1ae69d5106d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

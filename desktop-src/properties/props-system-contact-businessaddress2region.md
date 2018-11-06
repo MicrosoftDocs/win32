@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 5d00e2b2-e206-4c8f-bf1d-03bf07cf2742
 title: System.Contact.BusinessAddress2Region
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

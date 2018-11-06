@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Phonetic-Department attribute
 description: Contains the phonetic department name where the person works.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5e2820b-462c-4e39-a3dc-64c733141afe
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Phonetic-Department
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

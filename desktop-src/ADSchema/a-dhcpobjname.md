@@ -1,9 +1,6 @@
 ---
 title: dhcp-Obj-Name attribute
 description: The dhcp-Obj-Name attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9bf5c6d3-8df0-4d65-a630-a821a4335fb0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Obj-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

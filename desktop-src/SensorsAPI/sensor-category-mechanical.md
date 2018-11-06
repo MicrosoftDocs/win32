@@ -2,7 +2,6 @@
 Description: The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that provide information related to mechanical devices and measurements.
 ms.assetid: d1243303-d26c-45ce-b97b-d554daeeb462
 title: SENSOR_CATEGORY_MECHANICAL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

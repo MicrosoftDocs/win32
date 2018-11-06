@@ -2,7 +2,6 @@
 title: Virtual Function Tables
 description: Virtual Function Tables
 ms.assetid: 1b7c6da6-3156-46fe-a9ca-0c1717fe28b5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

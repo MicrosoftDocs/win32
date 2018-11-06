@@ -2,7 +2,6 @@
 Description: The system broadcasts the DBT\_DEVNODES\_CHANGED device event when a device has been added to or removed from the system. Applications that maintain lists of devices in the system should refresh their lists.
 ms.assetid: 62acc633-7dad-4792-a5a2-1f95356479d1
 title: DBT_DEVNODES_CHANGED event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

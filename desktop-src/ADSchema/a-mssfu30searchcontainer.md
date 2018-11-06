@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Search-Container attribute
 description: Contains the identifier of an object that specifies where each search will begin.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1bb0ff1-d938-4792-aa68-3c335a1a3b43
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Search-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

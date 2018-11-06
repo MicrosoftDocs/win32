@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 IsCompositeDevice property
 description: Specifies if the device is a composite device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc54f3f0-de0b-4f75-b5a1-4f061ac95ab5
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

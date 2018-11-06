@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-LDAP-Query attribute
 description: A string that defines the LDAP query (max length 4096) which determines the membership of a user object to the group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e24d4c50-2153-49a6-8aef-4872ccaab13e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-LDAP-Query
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

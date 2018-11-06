@@ -2,7 +2,6 @@
 Description: Cross certification enables entities in one public key infrastructure (PKI) to trust entities in another PKI.
 ms.assetid: 93cdb10d-4b77-4511-8c5b-c27b290f9154
 title: Cross Certification
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

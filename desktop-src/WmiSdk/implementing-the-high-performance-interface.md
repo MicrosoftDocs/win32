@@ -1,12 +1,8 @@
 ---
 Description: Because WMI loads a high-performance provider in-process to either WMI or a client application, you must design your high-performance provider as an in-process server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c37e3652-8c76-4125-ba62-ae860858797e
 ms.tgt_platform: multiple
 title: Implementing the High-Performance Interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates the average data rate in Hertz (Hz) for the audio file in bits per second.
 ms.assetid: 570711c2-ef9b-4b3a-9b5f-94a6601fa3d4
 title: System.Audio.EncodingBitrate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

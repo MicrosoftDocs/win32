@@ -2,7 +2,6 @@
 Description: When developing COM+ applications, the principal tasks include designing COM components to encapsulate application logic and integrating these components into a COM+ application, creating the COM+ application, and administering the application through deployment and maintenance.
 ms.assetid: 8c6ec901-1eeb-46b0-8a3a-26d8eff99f6d
 title: Developing COM+ Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

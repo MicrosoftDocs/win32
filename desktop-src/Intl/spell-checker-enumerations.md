@@ -1,7 +1,6 @@
 ---
 ms.assetid: C4CBE404-DC56-4099-B8B5-F5A32F32701C
 title: Spell Checking Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

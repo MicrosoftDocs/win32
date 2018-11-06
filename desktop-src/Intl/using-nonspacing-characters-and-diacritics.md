@@ -2,7 +2,6 @@
 Description: When breaking lines or otherwise separating text, your Unicode application must keep nonspacing characters with their base characters.
 ms.assetid: 61be3fd8-e753-49e8-8b73-4ce08f6000be
 title: Using Nonspacing Characters and Diacritics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

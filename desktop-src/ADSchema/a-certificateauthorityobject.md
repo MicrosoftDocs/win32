@@ -1,9 +1,6 @@
 ---
 title: Certificate-Authority-Object attribute
 description: Reference to the certification authority associated with a Certificate Revocation List distribution point.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8dfd4441-6b45-4dc4-aed8-e33aa7fd099f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Certificate-Authority-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How to Skew an Object
 description: Shows how to skew an object.
 ms.assetid: bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

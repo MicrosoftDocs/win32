@@ -1,14 +1,8 @@
 ---
 Description: The RenewDHCPLease WMI class method renews the IP address on specific DHCP-enabled network adapters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b6e5d1fb-db3f-4491-bbac-46b1f2e7206e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RenewDHCPLease method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

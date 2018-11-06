@@ -2,7 +2,6 @@
 Description: Wi-Fi Direct Services Service Information.
 ms.assetid: c2d2017d-f4af-4c78-a271-72cb2994454e
 title: System.Devices.WiFiDirectServices.ServiceInformation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - Video for Windows (VFW),video capture reference
 - VFW (Video for Windows),video capture reference
 - AVICap,reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

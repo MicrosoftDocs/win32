@@ -2,7 +2,6 @@
 Description: Properties that are not stored in the item itself, where the properties are in the form of a stream containing a SERIALIZEDPROPSTORAGE.
 ms.assetid: 6ab4f33a-5247-4706-95c9-39c84ef2aa56
 title: System.ExpandoProperties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

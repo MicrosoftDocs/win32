@@ -10,7 +10,6 @@ keywords:
 - reference for MIDI,messages
 - MIDI reference,messages
 - MIDI messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

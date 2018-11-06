@@ -2,7 +2,6 @@
 Description: Some of the socket options for Windows Sockets 2 are summarized in the following table.
 ms.assetid: 6731d27c-fb7d-421a-badf-0cad6a4712ea
 title: Socket Options and IOCTLs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

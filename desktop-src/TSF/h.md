@@ -3,7 +3,6 @@ title: H
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 0aa2f4ed-ca9a-477f-8ae4-e54bb405528c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

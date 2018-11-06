@@ -1,14 +1,10 @@
 ---
 title: Using the Remote Desktop Virtualization API
 description: Developers can use this API to customize the logic that RD Connection Broker uses to determine the best destination for an incoming client connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b25eb87e-dac4-49ce-890e-b39c7e9e3408
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using the virtualization API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IMediaLocator interface provides methods for validating file names in DirectShow Editing Services (DES).
 ms.assetid: 6c1ae957-a2be-454b-9451-772e4a670677
 title: IMediaLocator interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Server Functions
 description: The network management server functions perform administrative tasks on a local or remote server. The server functions are listed following.
 ms.assetid: 43e1285b-8c86-4af4-9834-fcd5ee8aceb8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

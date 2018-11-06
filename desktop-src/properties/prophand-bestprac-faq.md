@@ -2,7 +2,6 @@
 Description: This topic explains how to create and register property handlers to work with the Windows property system.
 ms.assetid: E583A00B-F615-41c8-AECF-061F1396DB9A
 title: Property Handler Best Practices and FAQ
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -49,7 +48,7 @@ Overriding is supported for the following property values:
 
 For a full list of all Shell properties, see [Shell Properties](https://msdn.microsoft.com/library/Dd561977(v=VS.85).aspx).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The overridden property values are used only when the files are indexed. Thus, browsing files from the file system data source does not reveal the overridden values.
 
  

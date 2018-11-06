@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the GraphicsPath class. For a complete class listing, see GraphicsPath Class.
 ms.assetid: 440d1193-e1ca-4e11-872e-86da81360886
 title: GraphicsPath Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

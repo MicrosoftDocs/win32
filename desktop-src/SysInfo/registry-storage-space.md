@@ -2,7 +2,6 @@
 Description: Although there are few technical limits to the type and size of data an application can store in the registry, certain practical guidelines exist to promote system efficiency.
 ms.assetid: fa85ff87-3d72-4f71-856a-f43df7d19aa8
 title: Registry Storage Space
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

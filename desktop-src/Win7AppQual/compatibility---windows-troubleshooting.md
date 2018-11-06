@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: fb2c487a-d395-45eb-9010-936a61a414d0
 title: Windows Troubleshooting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

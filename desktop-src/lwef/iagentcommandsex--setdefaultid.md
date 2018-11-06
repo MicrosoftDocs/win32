@@ -2,7 +2,6 @@
 title: IAgentCommandsEx SetDefaultID
 description: IAgentCommandsEx SetDefaultID
 ms.assetid: 056ec518-bf0b-403f-adc6-9b53b0c044a7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

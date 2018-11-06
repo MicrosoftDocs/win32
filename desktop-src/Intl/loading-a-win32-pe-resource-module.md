@@ -2,7 +2,6 @@
 Description: This topic describes how the application loads a Win32 PE resource module on either Windows Vista and later or on an earlier operating system. Calls are included for releasing the resource module.
 ms.assetid: c9f126a7-315a-4856-80b3-aec02402a80e
 title: Loading a Win32 PE Resource Module
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

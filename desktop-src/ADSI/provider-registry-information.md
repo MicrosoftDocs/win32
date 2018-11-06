@@ -1,12 +1,8 @@
 ---
 title: Provider Registry Information
 description: This topic shows which keys and values need to be set when adding an ADSI provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 87293b63-03ad-4be9-b327-313fdebac611
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

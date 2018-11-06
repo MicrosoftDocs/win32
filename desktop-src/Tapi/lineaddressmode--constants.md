@@ -2,7 +2,6 @@
 Description: The LINEADDRESSMODE\_ bit-flag constants describe various ways of identifying an address on a line device.
 ms.assetid: f0f132a0-2e8e-478f-909b-c100aa360daa
 title: LINEADDRESSMODE_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

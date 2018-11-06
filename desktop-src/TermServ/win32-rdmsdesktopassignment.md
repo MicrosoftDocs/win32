@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSDesktopAssignment class
 description: Describes the RD collection User Desktop assignment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d3370cf2-65db-4e01-9ea3-9a71340bf71b
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

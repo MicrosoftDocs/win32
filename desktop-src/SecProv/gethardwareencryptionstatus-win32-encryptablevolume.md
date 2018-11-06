@@ -2,7 +2,6 @@
 Description: Determines whether the volume is located on a drive that supports or can support hardware encryption.
 ms.assetid: C6007BC4-71CD-404A-A0E9-D9662906151F
 title: GetHardwareEncryptionStatus method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

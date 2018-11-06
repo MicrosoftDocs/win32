@@ -1,9 +1,6 @@
 ---
 title: Parent-GUID attribute
 description: This is a constructed attribute, invented to support the DirSync control. This attribute holds the objectGuid of an object's parent when replicating an object's creation, rename, or move.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: caf2491b-c0bf-4ea1-80ec-d44cf9307551
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Parent-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A thumbnail image is a small version of an image. You can create a thumbnail image by calling the GetThumbnailImage method of an Image object.
 ms.assetid: 96f95d00-6f96-4b8a-b84b-010203433d74
 title: Creating Thumbnail Images
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

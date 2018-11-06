@@ -2,7 +2,6 @@
 title: Creating Linked and Embedded Objects from Existing Data
 description: Creating Linked and Embedded Objects from Existing Data
 ms.assetid: 76848b7e-6068-4bac-9793-304f813096f0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

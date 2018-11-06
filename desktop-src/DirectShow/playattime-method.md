@@ -2,7 +2,6 @@
 Description: The PlayAtTime method starts playback in the current title at the specified time.
 ms.assetid: 83e27c27-e402-43bc-8245-3a23dd49130b
 title: PlayAtTime Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

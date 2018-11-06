@@ -1,9 +1,6 @@
 ---
 title: Admin-Context-Menu attribute
 description: The order number and GUID of the context menu to be used on administration screens.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: da388bf3-1c44-4d34-b763-e45b784d3c9e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Admin-Context-Menu
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

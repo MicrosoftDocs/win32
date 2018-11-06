@@ -1,15 +1,11 @@
 ---
 title: The GetEx Method
 description: Some attributes can store one or more values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aaa5fa90-7e60-4668-bd23-1475c2e4d184
 ms.tgt_platform: multiple
 keywords:
 - GetEx ADSI , using IADs GetEx
 - ADSI ADSI ,using,using the IADs GetEx method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

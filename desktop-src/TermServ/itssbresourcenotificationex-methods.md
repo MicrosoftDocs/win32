@@ -1,12 +1,8 @@
 ---
 title: ITsSbResourceNotificationEx Methods
 description: The ITsSbResourceNotificationEx interfaces exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 78BC73ED-80A3-4938-881C-6938B6693DE8
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

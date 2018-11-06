@@ -2,7 +2,6 @@
 Description: Generating a New ASF Header Object
 ms.assetid: cf73306d-156a-45c0-a3d6-ae48734f5709
 title: Generating a New ASF Header Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

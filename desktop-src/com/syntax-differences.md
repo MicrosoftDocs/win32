@@ -2,7 +2,6 @@
 title: Syntax Differences
 description: The most apparent change as you move between programming languages is the change in syntax.
 ms.assetid: 179efb69-3794-4a06-b770-2b3dc8409172
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

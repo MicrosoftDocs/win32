@@ -1,14 +1,8 @@
 ---
 Description: Enables this Plug and Play device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8f2096c4-03b4-4005-9b97-0086f2b41080
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Enable method of the Win32_PnPEntity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

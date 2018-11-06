@@ -2,7 +2,6 @@
 Description: Instantiating Codec MFTs
 ms.assetid: 171f9a0f-effb-4ed7-8aff-d7b1ee6e4973
 title: Instantiating Codec MFTs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

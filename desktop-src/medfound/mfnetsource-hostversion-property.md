@@ -2,7 +2,6 @@
 Description: The value of the &\#0034;c-hostexever&\#0034; field that the network source uses for logging.
 ms.assetid: eee93457-483d-41dc-91c5-c12382d03152
 title: MFNETSOURCE_HOSTVERSION property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

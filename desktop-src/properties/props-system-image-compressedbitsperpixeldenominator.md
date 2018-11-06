@@ -2,7 +2,6 @@
 Description: The denominator of PKEY\_Image\_CompressedBitsPerPixel.
 ms.assetid: 70779e4b-3564-4df8-8861-3276ba90276c
 title: System.Image.CompressedBitsPerPixelDenominator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

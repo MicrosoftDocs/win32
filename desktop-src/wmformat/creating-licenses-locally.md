@@ -12,7 +12,6 @@ keywords:
 - DRM Client Extended APIs,creating licenses locally
 - Client Extended APIs,creating licenses locally
 - licenses,creating licenses locally
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

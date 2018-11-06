@@ -1,12 +1,8 @@
 ---
 title: Win32_TSNetworkAdapterSetting Methods
 description: The Win32\_TSNetworkAdapterSetting class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2BA281FC-3FAA-4FCE-B0F5-AAF744082651
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

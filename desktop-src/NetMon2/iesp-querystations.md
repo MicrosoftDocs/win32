@@ -2,7 +2,6 @@
 Description: The QueryStations method provides a list of all computers that currently use Network Monitor to capture network data.
 ms.assetid: 5ad99810-e463-4477-a542-cf4dfa6967a4
 title: IESP::QueryStations method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-SourceOrganization attribute
 description: The business organization that initially created a policy object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 11ac94d7-4f72-4627-81db-ae1bb23177d3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-SourceOrganization
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player ActiveX control,about
 - Windows Media Player Mobile ActiveX control,about
 - ActiveX control,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

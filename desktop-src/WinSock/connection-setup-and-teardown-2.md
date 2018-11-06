@@ -2,7 +2,6 @@
 Description: The WSAAccept function lets an application obtain caller information such as caller identifier and Quality of Service before deciding whether to accept an incoming connection request.
 ms.assetid: 65883556-6890-4d0a-8c7f-c4ff68642caf
 title: Connection Setup and Teardown
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

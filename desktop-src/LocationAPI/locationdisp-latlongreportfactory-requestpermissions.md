@@ -2,7 +2,6 @@
 Description: Opens a system dialog box to request user permission for location-enabled devices.
 ms.assetid: 25b4368d-ff9d-4806-a22e-4ae0760d6f0f
 title: LocationDisp.LatLongReportFactory.RequestPermissions method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

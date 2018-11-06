@@ -6,7 +6,6 @@ keywords:
 - morphology effects
 - dilate effect
 - erode effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: A sampler is a input pseudo-register for a vertex shader, which is 
 ms.assetid: a4588ced-24e2-4d4e-93e4-35a985bafaa4
 keywords:
 - Sampler, Type (Direct3D 9 asm-vs)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

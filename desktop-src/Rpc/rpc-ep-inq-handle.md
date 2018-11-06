@@ -4,7 +4,6 @@ description: The RPC\_EP\_INQ\_HANDLE data type declares a handle for an inquiry
 ms.assetid: e18ce800-0110-4450-9a1b-a3f777d00f2d
 keywords:
 - RPC_EP_INQ_HANDLE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Stops the service represented by the object derived from Win32\_BaseService.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5d6427a6-d233-4db4-9235-c6187b36da5f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StopService method of the Win32_BaseService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

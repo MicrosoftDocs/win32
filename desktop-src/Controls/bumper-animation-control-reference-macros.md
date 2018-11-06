@@ -2,7 +2,6 @@
 title: Animation Control Macros
 description: .
 ms.assetid: aeb94086-267a-41e0-89d9-3a1b6209b646
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

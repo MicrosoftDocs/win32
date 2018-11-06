@@ -2,7 +2,6 @@
 title: Defining Event Data Templates
 description: Providers use data templates to define the event-specific data that they include with an event and to define the filter data that an ETW tracing session can pass to the provider when it enables the provider.
 ms.assetid: 064227a2-7ce8-461a-9dc0-7519652e6628
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

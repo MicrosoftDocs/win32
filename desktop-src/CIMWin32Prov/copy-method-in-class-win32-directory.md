@@ -1,14 +1,8 @@
 ---
 Description: Copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 038e23d7-71db-4db6-8fb1-e84e972510c9
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Copy method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

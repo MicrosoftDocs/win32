@@ -2,7 +2,6 @@
 Description: An application can programmatically create and delete directories.
 ms.assetid: 52d1d8a8-e5a7-44f5-9bf2-2a496ef79d32
 title: Creating and Deleting Directories
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

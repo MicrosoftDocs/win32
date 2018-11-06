@@ -1,9 +1,6 @@
 ---
 title: Public-Key-Policy attribute
 description: Reference to the Public Key policy for this domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08426923-be3d-4dfe-9ef2-0679eccd1d25
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Public-Key-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Scope class
 description: Describes a set of objects managed by an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 475657d9-7d11-436f-8c0a-42a7bd26c747
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Scope
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

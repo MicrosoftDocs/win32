@@ -2,7 +2,6 @@
 Description: The SetCutPoint method sets the time at which the transition cuts from one source to the next, if the transition is rendered as a cut.
 ms.assetid: 2660f4a8-e249-45d7-8866-02a9f2ef52b8
 title: IAMTimelineTrans::SetCutPoint method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

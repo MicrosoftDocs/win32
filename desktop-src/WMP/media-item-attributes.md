@@ -20,7 +20,6 @@ keywords:
 - Windows Media Player library,attributes for media items
 - library,attributes for media items
 - attributes,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

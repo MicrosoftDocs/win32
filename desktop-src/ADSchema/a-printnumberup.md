@@ -1,9 +1,6 @@
 ---
 title: Print-Number-Up attribute
 description: The number of page images per sheet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c435e712-ef2d-4279-8b21-9e28bd76719a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Number-Up
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

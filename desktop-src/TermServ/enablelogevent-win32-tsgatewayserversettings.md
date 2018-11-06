@@ -1,9 +1,6 @@
 ---
 title: EnableLogEvent method of the Win32_TSGatewayServerSettings class
 description: Enables or disables logging of the specified event type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e901ef51-2ae2-4123-902a-ac359f3eb959
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

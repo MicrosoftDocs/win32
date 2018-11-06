@@ -2,7 +2,6 @@
 title: Control Point Security Considerations
 description: When you are creating a control point, you need to take into consideration the following security issues.
 ms.assetid: 3281b4c3-d730-4273-9031-840a6ac655ce
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ACS-DSBM-Priority attribute
 description: This attributes contains the priority for this Subnet Bandwidth Manager (SBM).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08dd49d2-a2fa-4707-8302-25566680b91d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-DSBM-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The denominator of PKEY\_GPS\_DestLongitude.
 ms.assetid: 5800ba24-0efc-4a9a-9cb7-d776822a44a2
 title: System.GPS.DestLongitudeDenominator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

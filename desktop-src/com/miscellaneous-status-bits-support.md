@@ -2,7 +2,6 @@
 title: Miscellaneous Status Bits Support
 description: Miscellaneous Status Bits Support
 ms.assetid: 3f967371-3d5a-4948-9008-6f4c3052bf07
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

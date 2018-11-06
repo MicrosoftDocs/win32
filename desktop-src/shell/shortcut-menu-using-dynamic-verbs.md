@@ -2,7 +2,6 @@
 Description: Shortcut menu handlers are also known as context menu handlers or verb handlers. A shortcut menu handler is a type of file type handler.
 ms.assetid: 7FC65C6F-3798-404c-B359-2BC75D3F54E7
 title: Customizing a Shortcut Menu Using Dynamic Verbs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

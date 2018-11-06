@@ -2,7 +2,6 @@
 Description: The RemoveFile table contains a list of files to be removed by the RemoveFiles action. Setting the FileName column of this table to Null supports the removal of empty folders.
 ms.assetid: 8b3cb0e3-ccc0-4030-8f57-aa124c3b5588
 title: RemoveFile Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DisableClipboard method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the ClipboardDisabled property. If the DeviceRedirectionType property has a value of \ 0034;2 \ 0034;, the ClipboardDisabled property controls redirection of the clipboard for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c53fc802-958b-452d-9af9-0ce89ed46079
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

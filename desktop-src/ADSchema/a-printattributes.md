@@ -1,9 +1,6 @@
 ---
 title: Print-Attributes attribute
 description: A bitmask of printer attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c766fdf-f020-4e9d-96a4-09d9c2814935
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 1EAC5799-7943-40AB-A67E-F6D6888C4B7D
 title: What Is Compatibility View?
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

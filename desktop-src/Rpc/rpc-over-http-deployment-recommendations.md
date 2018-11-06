@@ -2,7 +2,6 @@
 title: RPC over HTTP Deployment Recommendations
 description: This section documents best practices and recommended deployment configurations for achieving maximum security and performance when using RPC over HTTP.
 ms.assetid: 83938a7d-77d0-45e8-b0a3-7b32ef768d83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

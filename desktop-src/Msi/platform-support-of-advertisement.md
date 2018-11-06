@@ -2,7 +2,6 @@
 Description: The Windows Installer supports advertisement of applications and features.
 ms.assetid: 9e5158bc-4877-49d1-9bb9-4dd17abb444d
 title: Platform Support of Advertisement
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

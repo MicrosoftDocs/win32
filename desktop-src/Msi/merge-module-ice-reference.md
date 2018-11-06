@@ -2,7 +2,6 @@
 Description: The following list provides links to each Merge Module ICE.
 ms.assetid: 3b106a81-99b6-4ac6-95be-537fc14e0510
 title: Merge Module ICE Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

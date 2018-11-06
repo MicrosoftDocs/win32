@@ -1,9 +1,6 @@
 ---
 title: houseIdentifier attribute
 description: Specifies a linguistic construct used to identify a particular building, for example, a house number or house name relative to a street, avenue, town, city, and so on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cba39780-e53f-47c7-bb16-217469acb626
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - houseIdentifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

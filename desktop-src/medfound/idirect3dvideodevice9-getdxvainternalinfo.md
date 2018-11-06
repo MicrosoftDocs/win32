@@ -2,7 +2,6 @@
 Description: Queries for the amount of scratch memory that the hardware abstraction layer (HAL) will allocate for its private use.
 ms.assetid: 20e3dbef-daf5-487a-8d50-e2ebdb712cc0
 title: IDirect3DVideoDevice9::GetDXVAInternalInfo method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

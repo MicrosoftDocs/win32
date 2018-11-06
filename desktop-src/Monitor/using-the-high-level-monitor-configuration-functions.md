@@ -14,7 +14,6 @@ keywords:
 - enumerating physical monitors
 - high-level configuration functions
 - continuous monitor settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

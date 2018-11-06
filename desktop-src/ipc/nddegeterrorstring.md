@@ -2,7 +2,6 @@
 Description: Converts an error code returned by a network DDE function into an error string that explains the returned error code.
 ms.assetid: 7077e3bc-df6e-401b-9ac7-15144b79af96
 title: NDdeGetErrorString function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

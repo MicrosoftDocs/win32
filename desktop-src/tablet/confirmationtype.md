@@ -2,7 +2,6 @@
 Description: Specifies the type of confirmation that can occur on an IContextNode object.
 ms.assetid: 5c906548-dbf5-4448-b248-070bd43b054e
 title: ConfirmationType enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

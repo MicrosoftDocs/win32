@@ -1,12 +1,8 @@
 ---
 Description: The InParameters property of the SWbemMethod object is an SWbemObject object whose properties define the input parameters for this method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fba1bb97-29f9-41d3-8ecc-f283989118c1
 ms.tgt_platform: multiple
 title: SWbemMethod.InParameters property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

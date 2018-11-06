@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ImplementedCategory association WMI class relates a component category and the Component Object Model (COM) class using its interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7cf32b50-9ae6-44e5-b364-bc74dea3dc17
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ImplementedCategory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

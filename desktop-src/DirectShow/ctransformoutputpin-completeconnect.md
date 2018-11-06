@@ -2,7 +2,6 @@
 Description: The CompleteConnect method completes a connection to another pin.
 ms.assetid: 14bc48bc-ddfb-4491-8d5b-9e5ac601ba04
 title: CTransformOutputPin.CompleteConnect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

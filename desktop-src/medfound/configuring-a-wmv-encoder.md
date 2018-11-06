@@ -2,7 +2,6 @@
 Description: Configuring a WMV Encoder
 ms.assetid: 6e690d17-da17-452a-aa9a-9701a560856b
 title: Configuring a WMV Encoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

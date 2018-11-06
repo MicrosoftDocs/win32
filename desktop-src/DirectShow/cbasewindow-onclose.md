@@ -2,7 +2,6 @@
 Description: The OnClose method handles WM\_CLOSE messages.
 ms.assetid: e562add4-752e-4665-a75e-a5526fb7f045
 title: CBaseWindow.OnClose method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

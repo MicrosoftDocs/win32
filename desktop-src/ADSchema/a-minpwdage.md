@@ -1,9 +1,6 @@
 ---
 title: Min-Pwd-Age attribute
 description: The minimum amount of time, in 100-nanosecond intervals, that a password is valid.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c1ddd8a3-8481-4b6e-95ac-1cdc81a4cf78
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Min-Pwd-Age
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

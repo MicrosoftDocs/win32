@@ -12,7 +12,6 @@ keywords:
 - register,Preview verb
 - register,Slideshow verb
 - Slideshow verb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

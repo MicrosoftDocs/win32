@@ -2,7 +2,6 @@
 Description: Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function.
 ms.assetid: 7a6af325-4891-40db-8d33-c9782bd438e5
 title: Registering the New Functionality
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

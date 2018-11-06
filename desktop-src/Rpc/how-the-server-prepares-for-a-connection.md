@@ -2,7 +2,6 @@
 title: How the Server Prepares for a Connection
 description: When a server program begins execution, it must first register the interface or interfaces it contains with the RPC run-time library.
 ms.assetid: 3e78e095-f4a4-4ce7-b4a9-936a6c10316b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

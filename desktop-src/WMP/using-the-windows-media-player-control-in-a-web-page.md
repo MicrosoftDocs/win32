@@ -15,7 +15,6 @@ keywords:
 - ActiveX control,Web pages
 - embedding,Web pages
 - Web page embedding,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

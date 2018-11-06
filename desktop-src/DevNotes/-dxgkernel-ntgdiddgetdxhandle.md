@@ -2,7 +2,6 @@
 Description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
 ms.assetid: c95cb188-305f-4b60-be55-0511b57f0597
 title: NtGdiDdGetDxHandle function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The TakeOwnerShip WMI class method obtains ownership of the logical file specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c8fa0706-1f7e-4e68-aea6-694ba24c16c3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: LDAP-Admin-Limits attribute
 description: Contains a set of attribute-value pairs defining LDAP server administrative limits.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 335d666e-3f96-4df8-9555-e913efb8da2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LDAP-Admin-Limits
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

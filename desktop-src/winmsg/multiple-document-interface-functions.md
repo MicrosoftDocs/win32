@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c9612ebd-e06b-4596-9234-a058a8193762
 title: MDI Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

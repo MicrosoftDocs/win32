@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Display class is a parent class for grouping miscellaneous display devices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e7cd03b1-bc43-4eb0-a591-104a0d250e82
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Display class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -46,7 +40,7 @@ api_location:
 
 The **CIM\_Display** class is a parent class for grouping miscellaneous display devices.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

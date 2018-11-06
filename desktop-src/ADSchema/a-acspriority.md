@@ -1,9 +1,6 @@
 ---
 title: ACS-Priority attribute
 description: Relative priority of a flow for this user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e472481f-994b-441c-a687-c4b242d1ca03
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

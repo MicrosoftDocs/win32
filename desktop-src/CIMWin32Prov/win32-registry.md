@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Registry&\#8194;WMI class represents the system registry on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4a6cd7d7-2845-434d-b024-d6dbb77371ea
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Registry class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

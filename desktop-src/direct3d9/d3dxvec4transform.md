@@ -2,7 +2,6 @@
 Description: Transforms a 4D vector by a given matrix.
 ms.assetid: de93f138-7cf8-43cc-8255-c053c799aea8
 title: D3DXVec4Transform function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

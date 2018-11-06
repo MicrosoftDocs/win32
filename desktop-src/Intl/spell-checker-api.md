@@ -2,7 +2,6 @@
 Description: The Spell Checking API enables developers to consume or create spell checkers.
 ms.assetid: '4ee858fa-dd9b-487b-87a7-4d94c7e8c237'
 title: Spell Checking API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

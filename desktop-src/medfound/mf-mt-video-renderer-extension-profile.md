@@ -2,7 +2,6 @@
 Description: Contains a string that matches an entry in a UWP app manifests VideoRendererExtensionProfiles list to select which effect to load.
 ms.assetid: 0947525E-76DD-4C30-AD56-9D98E1CA3225
 title: MF_MT_VIDEO_RENDERER_EXTENSION_PROFILE attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Wavestream
 ms.assetid: '81267149-793e-4611-848b-58085561d84b'
 keywords:
 - AVICap callback functions,wavestream
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

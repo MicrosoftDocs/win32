@@ -2,7 +2,6 @@
 Description: Specifies whether the specified color is a fundamental color.
 ms.assetid: 9a06fadc-9b97-4f7d-9488-688b72d14bc5
 title: FFundamentalIMEColorStyle function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

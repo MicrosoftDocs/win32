@@ -1,12 +1,8 @@
 ---
 title: Win32_TSLicenseKeyPack Methods
 description: The Win32\_TSLicenseKeyPack class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0E0D4B49-F90C-411B-86D5-8C92EF9C7CF0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

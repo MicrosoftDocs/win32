@@ -1,9 +1,6 @@
 ---
 title: Supported-Application-Context attribute
 description: Specifies the object identifiers of application contexts that an OSI application supports.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 803d68bc-4537-4a45-bd86-b0558076e4df
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Supported-Application-Context
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

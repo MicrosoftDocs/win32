@@ -1,9 +1,6 @@
 ---
 title: Creation-Time attribute
 description: The date and time that the object was created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eab276f8-2956-4a83-beb4-a3b8ed11ccca
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Creation-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

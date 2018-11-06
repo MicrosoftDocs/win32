@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Generation-GUID-v2 attribute
 description: Updated each time the entry that contains this attribute is modified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9c343c31-ecce-4ba3-a03f-e61e24b287d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Generation-GUID-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

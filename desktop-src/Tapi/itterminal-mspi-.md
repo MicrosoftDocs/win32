@@ -2,7 +2,6 @@
 Description: The ITTerminal interface is the base interface for a Terminal object. It provides methods for obtaining information such as the terminal class and the media supported.
 ms.assetid: d76f22c1-3d7c-48cf-bd37-388482929676
 title: ITTerminal (MSPI)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Phonetic-Last-Name attribute
 description: Contains the phonetic last name of the person.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 43c98f1c-b72c-4f59-a6a0-d2083bd8f1bb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Phonetic-Last-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The InkEdit control enables you to collect ink, recognize ink, and display ink as text.
 ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: InkEdit Control Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

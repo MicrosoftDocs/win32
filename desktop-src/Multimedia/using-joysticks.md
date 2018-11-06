@@ -8,7 +8,6 @@ keywords:
 - multimedia input,joysticks
 - joysticks,about
 - joysticks,examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient7 interface
 description: Provides the methods and properties needed to configure and use the client control. Derives from the IMsRdpClient6 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6bc5d50-f16a-44be-8244-5aec13c52066
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

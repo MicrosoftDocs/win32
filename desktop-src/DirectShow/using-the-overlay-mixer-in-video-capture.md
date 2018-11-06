@@ -2,7 +2,6 @@
 Description: Using the Overlay Mixer in Video Capture
 ms.assetid: 43468fa2-6dea-439d-9e24-f47a053ad561
 title: Using the Overlay Mixer in Video Capture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

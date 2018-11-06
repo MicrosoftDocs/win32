@@ -2,7 +2,6 @@
 Description: Used to identify standard encryption algorithms in various CNG functions and structures, such as the CRYPT\_INTERFACE\_REG structure.
 ms.assetid: a05ae7e6-d882-4287-9990-23e4cd340b05
 title: CNG Algorithm Identifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

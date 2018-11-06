@@ -1,9 +1,6 @@
 ---
 title: WSMan.EnumerationFlagReturnObjectAndEPR method
 description: Returns the value of the enumeration flag EnumerationFlagReturnObjectAndEPR for use in the flags parameter of Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 052b93df-8a83-4b5e-8325-1ad500b43a88
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

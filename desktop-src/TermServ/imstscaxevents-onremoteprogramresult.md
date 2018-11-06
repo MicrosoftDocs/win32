@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRemoteProgramResult method
 description: Called when a RemoteApp program returns a result to the client control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5bc9570f-14fb-4b6f-a7dd-c1bce3ef19e0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

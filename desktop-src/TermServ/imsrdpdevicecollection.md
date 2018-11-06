@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceCollection interface
 description: Represents a collection of device objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9731b16b-12e0-457e-a4e5-a55d8a6db582
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Manage-Optional-Features extended right
 description: Manage optional features for Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 58a8d3f9-e736-40e1-8253-ed00bf150e1f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Manage-Optional-Features
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

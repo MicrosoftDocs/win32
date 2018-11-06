@@ -1,12 +1,8 @@
 ---
 Description: The Clone\_ method of the SWbemObject object returns a new object that is a clone of the current object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d0773c94-30b5-4217-8a9a-0bceb9e75f02
 ms.tgt_platform: multiple
 title: SWbemObject.Clone_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

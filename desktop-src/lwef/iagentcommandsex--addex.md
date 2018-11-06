@@ -2,7 +2,6 @@
 title: IAgentCommandsEx AddEx
 description: IAgentCommandsEx AddEx
 ms.assetid: 54be4793-89ac-475b-8a6a-5b8c18bb4b38
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

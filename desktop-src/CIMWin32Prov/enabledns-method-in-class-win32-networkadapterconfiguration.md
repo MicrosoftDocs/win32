@@ -1,14 +1,8 @@
 ---
 Description: The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 083dccb1-eb38-4ae5-a252-0001759c0f50
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: EnableDNS method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

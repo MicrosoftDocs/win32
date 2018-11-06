@@ -1,12 +1,8 @@
 ---
 Description: The WMI command-line (WMIC) utility provides a command-line interface for WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
 ms.tgt_platform: multiple
 title: wmic
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Function Attributes
 description: The \ callback\ and \ local\ attributes can be applied as function attributes.
 ms.assetid: 05e19164-072c-4a5a-878d-845273975854
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

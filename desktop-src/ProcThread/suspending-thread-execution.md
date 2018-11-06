@@ -2,7 +2,6 @@
 Description: A thread can suspend and resume the execution of another thread. While a thread is suspended, it is not scheduled for time on the processor.
 ms.assetid: b76d7af7-e3ec-4663-a9e7-832c01733c8c
 title: Suspending Thread Execution
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

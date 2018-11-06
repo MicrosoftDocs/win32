@@ -1,9 +1,6 @@
 ---
 title: TLSLicenseEnumNext function
 description: Continues from a previous call to the TLSLicenseEnumBegin function and returns the next license that is installed on a Remote Desktop license server that matches the search criteria.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6932289b-b59c-493c-8dbc-03c0662e921e
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

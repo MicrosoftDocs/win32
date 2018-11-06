@@ -2,7 +2,6 @@
 Description: The SelectionTree control uses this event to publish a string describing the highlighted item. The string is one of the &\#0034;Sel\*&\#0034; strings from the UIText table. This event should be authored in the EventMapping table.
 ms.assetid: 7770b46f-21c7-459f-9778-a86de70d467f
 title: SelectionAction ControlEvent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

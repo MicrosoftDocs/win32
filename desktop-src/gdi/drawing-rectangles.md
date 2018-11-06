@@ -2,7 +2,6 @@
 Description: A rectangle is a four-sided polygon whose opposing sides are parallel and equal in length.
 ms.assetid: 77d29981-032e-45ba-a06b-c9c992236803
 title: Drawing Rectangles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

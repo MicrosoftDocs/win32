@@ -2,7 +2,6 @@
 title: Other Object Roles and Supported Methods (MSAA UI Element Reference)
 description: This topic provides information about object roles that are not included in the previous topics for UI elements.
 ms.assetid: 0c3a3ccf-f02a-4aca-9380-a13774598a19
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

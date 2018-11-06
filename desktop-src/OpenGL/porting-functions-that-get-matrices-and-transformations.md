@@ -13,7 +13,6 @@ keywords:
 - porting to OpenGL from IRIS GL,transformations
 - OpenGL porting from IRIS GL,transformations
 - transformations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

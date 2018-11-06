@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnConnecting method
 description: Called when the client control attempts to establish a connection to a remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E27118B2-C1AE-4F10-AB3E-3DBF978CC2AF
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

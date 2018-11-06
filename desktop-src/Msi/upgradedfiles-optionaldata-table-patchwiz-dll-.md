@@ -2,7 +2,6 @@
 Description: The UpgradedFile\_OptionalData table contains information about specific files in an upgraded image. This table is optional in the patch creation database (.pcp file) and is used by the UiCreatePatchPackageEx function.
 ms.assetid: 8b96a83a-2bfa-47b7-bde0-896bdcc97d29
 title: UpgradedFiles_OptionalData Table (Patchwiz.dll)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

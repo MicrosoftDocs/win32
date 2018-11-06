@@ -2,7 +2,6 @@
 Description: Destructor method.
 ms.assetid: e92c040a-54af-4c6d-b7f0-0700fa44cbd8
 title: CAMSchedule.~CAMSchedule destructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

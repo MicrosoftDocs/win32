@@ -5,7 +5,6 @@ ms.assetid: 4f88a829-45ae-4ce9-9c6f-9ec5509ff997
 keywords:
 - Remote Access Service RAS , tasks
 - Using RAS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

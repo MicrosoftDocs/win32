@@ -2,7 +2,6 @@
 title: Writing a Script to Configure the Virtual Directory
 description: Writing a Script to Configure the Virtual Directory
 ms.assetid: 0324fbc8-1d64-454c-b021-4e010edcac8d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

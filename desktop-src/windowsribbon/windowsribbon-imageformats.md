@@ -12,7 +12,6 @@ keywords:
 - Windows Ribbon,contrast
 - Ribbon,contrast
 - image resources in Windows Ribbon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -67,7 +66,7 @@ The Ribbon framework scales image resources as required. However, because resizi
 
 To facilitate this, image resources can be declared in Ribbon markup by using a set of [**Image**](windowsribbon-element-image.md) elements for each [**Command**](windowsribbon-element-command.md) element. At run time, the framework selects the image to display based on the *MinDPI* attribute of each **Image** element.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > When a collection of image resources that are designed to support specific screen dpi settings is supplied to the Ribbon framework through a set of [**Image**](windowsribbon-element-image.md) elements, the framework uses the **Image** with a *MinDPI* attribute value that matches the current screen dpi setting.
 >
@@ -118,7 +117,7 @@ If images declared in markup are invalidated at run time for any reason, the hos
 
 Regular images are expected to be in 32 bits per pixel (BPP) ARGB pixel format and scaled to the default system icon size. This format supports both transparency and antialiasing (using 8 bits per channel).
 
-> \[!Warning\]  
+> [!WARNING]
 > Many image editing tools do not preserve the highest order 8-bit alpha channel when loading or saving 32 BPP images.
 
  

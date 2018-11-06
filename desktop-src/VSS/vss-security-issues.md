@@ -2,7 +2,6 @@
 Description: VSS Security Issues
 ms.assetid: 99dacdbb-9c40-48dd-b5fe-2f13de7af140
 title: VSS Security Issues
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

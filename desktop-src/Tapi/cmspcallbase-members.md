@@ -2,7 +2,6 @@
 Description: The following list contains the CMSPCAllBase members.
 ms.assetid: a3193639-e0c4-4851-a879-551eca8023f9
 title: CMSPCallBase Members
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

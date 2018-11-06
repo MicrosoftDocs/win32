@@ -2,7 +2,6 @@
 Description: The EnumForms function enumerates the forms supported by the specified printer.
 ms.assetid: b13b515a-c764-4a80-ab85-95fb4abb2a6b
 title: EnumForms function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

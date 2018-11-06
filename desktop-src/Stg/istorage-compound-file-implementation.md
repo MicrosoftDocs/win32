@@ -4,7 +4,6 @@ description: The compound file implementation of IStorage allows you to create a
 ms.assetid: 2a2253f6-d3d3-403e-a9ba-53a541c7a31e
 keywords:
 - IStorage Strctd Stg ,compound file implementation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

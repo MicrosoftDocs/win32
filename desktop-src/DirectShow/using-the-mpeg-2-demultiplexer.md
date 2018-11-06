@@ -2,7 +2,6 @@
 Description: Using the MPEG-2 Demultiplexer
 ms.assetid: d543bf24-8d6d-4d73-af5b-199e10925c4f
 title: Using the MPEG-2 Demultiplexer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

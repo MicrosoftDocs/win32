@@ -2,7 +2,6 @@
 Description: The GetDIBData method retrieves information about the GDI device-independent bitmap (DIB) that this object is managing.
 ms.assetid: ec337336-69ec-47ff-a522-42c0388f9bc0
 title: CImageSample.GetDIBData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: eq (sm4 - asm)
 description: Component-wise vector floating point equality comparison.
 ms.assetid: 925578E4-0161-45A9-840F-14AA65FF4F33
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

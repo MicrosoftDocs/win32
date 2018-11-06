@@ -2,7 +2,6 @@
 title: Configuring the HTTP Server API Wide Timers
 description: Configuring the HTTP Server API Wide Timers
 ms.assetid: 34f80bac-a7c5-4949-9c15-ed63a3582e26
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

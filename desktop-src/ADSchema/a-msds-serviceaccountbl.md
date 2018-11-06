@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Service-Account-BL attribute
 description: Backward link reference to the AD/AM DSA object that uses this service account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2b44d755-91f8-4727-9680-98f591d32f13
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Service-Account-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

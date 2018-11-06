@@ -2,7 +2,6 @@
 Description: The BreakConnect method releases the pin from a connection.
 ms.assetid: 9874717d-f4d8-426d-a717-9f5d83b4683c
 title: CTransformInputPin.BreakConnect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

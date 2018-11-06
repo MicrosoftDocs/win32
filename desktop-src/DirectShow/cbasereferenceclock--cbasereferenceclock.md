@@ -2,7 +2,6 @@
 Description: Destructor method.
 ms.assetid: 6ba6a3ad-bc4b-471d-a89c-e4d1682893fe
 title: CBaseReferenceClock.~CBaseReferenceClock destructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

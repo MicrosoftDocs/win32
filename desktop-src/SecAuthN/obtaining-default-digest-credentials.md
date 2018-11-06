@@ -2,7 +2,6 @@
 Description: Both clients and servers must obtain credentials before they can establish a security context for message exchange.
 ms.assetid: a72404b8-1ec9-4f58-b3a6-09811070ea29
 title: Obtaining Default Digest Credentials
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

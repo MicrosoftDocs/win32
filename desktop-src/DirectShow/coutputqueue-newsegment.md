@@ -2,7 +2,6 @@
 Description: The NewSegment method delivers a new segment to the input pin.
 ms.assetid: 53189729-9f47-425e-9df6-faea01dd4482
 title: COutputQueue.NewSegment method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

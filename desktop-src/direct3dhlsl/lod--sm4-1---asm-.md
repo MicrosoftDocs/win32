@@ -2,7 +2,6 @@
 title: lod (sm4.1 - asm)
 description: Returns the level of detail (LOD) that would be used for texture filtering.
 ms.assetid: A5931203-8CD7-4FC9-A4A4-CA981F38C7A3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

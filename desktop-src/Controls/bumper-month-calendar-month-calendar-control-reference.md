@@ -2,7 +2,6 @@
 title: Month Calendar Control Reference
 description: .
 ms.assetid: 14f358d9-2ec4-4667-8b66-57e18942eb1b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

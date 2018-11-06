@@ -1,9 +1,6 @@
 ---
 title: ITsSbClientConnection Domain property
 description: Retrieves a value that indicates the domain name of the Remote Desktop Connection (RDC) client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 628f450d-10f4-4405-8d7c-ae58c72c2755
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

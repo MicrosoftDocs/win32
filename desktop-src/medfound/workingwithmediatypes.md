@@ -2,7 +2,6 @@
 Description: Working with DMO Media Types
 ms.assetid: 1aaf7554-1a5f-439a-afb1-a031607e1a1e
 title: Working with DMO Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

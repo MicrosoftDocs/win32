@@ -1,14 +1,8 @@
 ---
 Description: Attempts to place the referenced service in the resumed state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3b4228bf-9ff5-44ab-bfe2-f7dd8fb62007
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Private Pool Helper Functions
 description: Contains helper functions for the setup, identification, and enrollment console projects.
 ms.assetid: 90FED859-0DCD-43D5-9940-675127232968
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

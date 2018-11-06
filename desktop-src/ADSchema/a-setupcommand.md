@@ -1,9 +1,6 @@
 ---
 title: Setup-Command attribute
 description: This attribute indicates whether a setup command is required to set up this application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f6292605-b392-4de2-b0a0-cae3f0551184
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Setup-Command
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

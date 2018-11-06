@@ -1,12 +1,8 @@
 ---
 title: Obtaining Data from a Remote Computer
 description: You can obtain data or manage resources on remote computers as well as the local computer. Connecting to a remote computer in a Windows Remote Management script is very similar to making a local connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 578eee80-a6c1-4456-9683-14e0a3386248
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

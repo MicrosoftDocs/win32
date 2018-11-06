@@ -11,7 +11,6 @@ keywords:
 - registry,settings for Windows Media Player
 - folder monitoring registry settings
 - file folder monitoring registry settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

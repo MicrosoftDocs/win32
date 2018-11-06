@@ -1,9 +1,6 @@
 ---
 title: Operator-Count attribute
 description: Operator count.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f568804b-bfbb-4080-928c-a2ebeca8b4ea
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Operator-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

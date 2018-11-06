@@ -2,7 +2,6 @@
 Description: Specifies an icon for the object.
 ms.assetid: 7abf0f9a-795b-4650-af7a-44aee4d3dd91
 title: WPD_RESOURCE_ICON
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

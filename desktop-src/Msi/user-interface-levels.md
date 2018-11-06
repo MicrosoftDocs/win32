@@ -2,7 +2,6 @@
 Description: Windows Installer provides package developers the capability to author an internal user interface that has multiple levels of functionality.
 ms.assetid: 9f5796a7-e244-4fc8-af85-52a147bb2c0b
 title: User Interface Levels
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Machine-Password-Change-Interval attribute
 description: The Machine-Password-Change-Interval attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e101dc40-3a90-4ce3-9023-2d6077fdcbac
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Machine-Password-Change-Interval
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

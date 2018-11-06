@@ -8,7 +8,6 @@ keywords:
 - installable drivers,messages
 - installable driver reference,messages
 - reference for installable drivers,messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

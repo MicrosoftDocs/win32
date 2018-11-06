@@ -2,7 +2,6 @@
 title: WNet Functions
 description: Windows Networking functions provide information and utilities for managing network resources.
 ms.assetid: 8a83186f-a912-4c61-8137-1f6be1f3afd6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

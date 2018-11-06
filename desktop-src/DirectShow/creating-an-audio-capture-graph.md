@@ -2,7 +2,6 @@
 Description: Creating an Audio Capture Graph
 ms.assetid: 2302bb40-a5db-473a-afeb-71905ac41f47
 title: Creating an Audio Capture Graph
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

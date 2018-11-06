@@ -2,7 +2,6 @@
 Description: Instructs an IME window to set the position of the candidates window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 7a2f9958-4a4e-462a-9737-e7796fd90216
 title: IMC_SETCANDIDATEPOS command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

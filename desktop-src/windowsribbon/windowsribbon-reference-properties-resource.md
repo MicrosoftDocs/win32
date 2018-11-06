@@ -2,7 +2,6 @@
 title: Resource Properties
 description: Reference documentation on property keys for Ribbon framework resources.
 ms.assetid: 52f41fd9-977f-4d6e-bdef-f6c2d3a6ff66
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - custom visualizations,implementing code
 - visualizations,modifying sample code
 - custom visualizations,modifying sample code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

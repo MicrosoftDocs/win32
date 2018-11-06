@@ -2,7 +2,6 @@
 Description: GDI Print API Structures
 ms.assetid: 7753a54d-5136-4e46-a5ba-024bcfb961dc
 title: GDI Print API Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

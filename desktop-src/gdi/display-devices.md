@@ -2,7 +2,6 @@
 Description: Before painting, the system must prepare the display device for drawing operations.
 ms.assetid: a3802aa7-deec-4151-b1b1-4cd38f769864
 title: Display Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

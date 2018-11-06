@@ -1,9 +1,6 @@
 ---
 title: Modified-Count attribute
 description: Net Logon Change Log serial number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a0ed57c4-e9e2-40c2-8927-38448e40ee62
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Modified-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

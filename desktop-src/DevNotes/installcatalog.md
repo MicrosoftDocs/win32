@@ -2,7 +2,6 @@
 Description: Installs a catalog in a directory.
 ms.assetid: 9741f8e3-d9db-46cd-886d-587f332b0ab8
 title: InstallCatalog function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

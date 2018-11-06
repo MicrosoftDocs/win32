@@ -2,7 +2,6 @@
 Description: Inheriting Manual Transactions
 ms.assetid: 3616275c-1e2d-4f9d-8adf-11ac9be132f1
 title: Inheriting Manual Transactions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

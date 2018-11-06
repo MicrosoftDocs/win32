@@ -19,7 +19,6 @@ keywords:
 - file sinks,about
 - network sinks
 - push sinks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

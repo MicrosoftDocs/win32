@@ -1,12 +1,8 @@
 ---
 title: Obtaining a Root OID from an ISO Name Registration Authority
 description: The preferred way to obtain a root object identifier (OID) is to request one from an International Standards Organization (ISO) Name Registration Authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ced5f475-bcfc-4546-9ec4-089e92414a4e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

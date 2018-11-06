@@ -2,7 +2,6 @@
 title: Resource Handle Objects
 description: The structure of a resource object is restricted to the Microsoft WinSNMP implementation. A WinSNMP application can access a resource object with a handle.
 ms.assetid: c70a03b1-afac-4f1a-81e7-7f31430f5655
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

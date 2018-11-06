@@ -4,7 +4,6 @@ description: This section is a reference for the Microsoft Interface Definition 
 ms.assetid: 440a07f8-b556-4050-9b0b-2a09635a7525
 keywords:
 - Microsoft Interface Definition Language MIDL , described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 20c3c4af-b22f-4b74-a6b6-5ee309de4eef
 title: CBaseObject.CBaseObject constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

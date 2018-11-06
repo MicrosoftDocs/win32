@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient8 SendRemoteAction method
 description: Causes an action to be performed in the remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d6a43662-7e51-404a-a3f9-a8b51cbc69d1
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

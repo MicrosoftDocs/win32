@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,file name extensions
 - Advanced Systems Format (ASF),file name extensions
 - ASF (Advanced Systems Format),file name extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

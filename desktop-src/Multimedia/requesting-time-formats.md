@@ -6,7 +6,6 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),time formats
 - MIDI (Musical Instrument Digital Interface),time formats
 - MIDI services,time formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

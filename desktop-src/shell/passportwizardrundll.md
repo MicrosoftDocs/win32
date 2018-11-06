@@ -1,7 +1,6 @@
 ---
 Description: Launches the Passport Wizard when used with Rundll32.exe.
 title: PassportWizardRunDll function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

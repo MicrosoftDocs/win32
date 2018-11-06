@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Configuration class
 description: This object contains MSMQ configuration parameters for a specific computer. The attributes of this class are MSMQ specific, and are used for MSMQ routing decisions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45a0e0d1-5a17-4608-adae-1236f93c2727
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Configuration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

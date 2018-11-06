@@ -1,14 +1,8 @@
 ---
 Description: The EvictNode method removes a computer system from a cluster. The node to be evicted is specified as a parameter to the method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4691d536-ade3-4a02-bc28-e31ebaf5d9e4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: EvictNode method of the CIM_ClusteringService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **EvictNode** method removes a computer system from a cluster. The node to be evicted is specified as a parameter to the method.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

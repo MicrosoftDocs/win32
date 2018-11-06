@@ -1,9 +1,6 @@
 ---
 title: ms-ieee-80211-Data attribute
 description: Stores a list of preferred network configurations in Group Policy for wireless networks.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e5ae2c6-c048-419d-a684-e450a2445a0e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-ieee-80211-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

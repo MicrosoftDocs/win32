@@ -1,9 +1,6 @@
 ---
 title: ms-DS-PSO-Applies-To attribute
 description: Links to objects that this password settings object applies to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 088b11e4-bc91-4d47-aee4-2921313e8ed2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-PSO-Applies-To
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

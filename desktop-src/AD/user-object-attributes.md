@@ -1,16 +1,12 @@
 ---
 title: User Object Attributes
 description: A user object has multiple attributes. This section documents key attributes used by Windows, administrative tools, and the Windows Address Book (WAB). It does not describe all attributes; many attributes are not used for the user object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c173c5d1-2680-4b9c-961d-251fba6e2c7c
 ms.tgt_platform: multiple
 keywords:
 - User Object Attributes AD
 - Users AD , User Object Attributes
 - Objects AD , User, Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

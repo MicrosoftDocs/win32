@@ -2,7 +2,6 @@
 title: BoundingRectIsIncorrect
 description: BoundingRectIsIncorrect
 ms.assetid: 29D3EFB4-204D-419E-B241-25C8BAE28C11
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

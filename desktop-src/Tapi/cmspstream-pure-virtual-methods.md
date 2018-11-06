@@ -2,7 +2,6 @@
 Description: These methods must be overridden by derived classes.
 ms.assetid: 6f21ba58-984d-4d45-834d-5b2252e33517
 title: CMSPStream Pure Virtual Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -3,7 +3,6 @@ title: H
 description: Domain Name System (DNS) glossary entries that start with H.
 Robots: noindex, nofollow
 ms.assetid: 48108f83-f6e4-4f6d-be4b-ba8174126413
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

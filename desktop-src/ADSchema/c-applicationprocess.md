@@ -1,9 +1,6 @@
 ---
 title: Application-Process class
 description: X.500 base class for applications Exchange only uses subclass DSA-Application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ab2e166-e9db-400b-80c5-e8cd871d407e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Application-Process
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

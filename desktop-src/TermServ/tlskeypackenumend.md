@@ -1,9 +1,6 @@
 ---
 title: TLSKeyPackEnumEnd function
 description: Continues from a previous call to the TLSKeyPackEnumBegin function and terminates the enumeration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3434e18d-54c9-46ed-b6a5-bc174b63a152
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

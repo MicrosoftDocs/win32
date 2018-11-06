@@ -1,16 +1,12 @@
 ---
 title: Active Directory Domain Services
 description: Microsoft Active Directory Domain Services are the foundation for distributed networks built on Windows 2000 Server, Windows Server 2003 and Microsoft Windows Server 2008 operating systems that use domain controllers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9fc78c72-c59c-4c4d-ace5-00a431645c4b
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory
 - Active Directory Active Directory , start page
 - Active Directory Domain Services Active Directory , start page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

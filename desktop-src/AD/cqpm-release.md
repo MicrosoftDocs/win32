@@ -1,9 +1,6 @@
 ---
 title: CQPM_RELEASE message
 description: Sent to the CQPageProc callback function of a query form extension page when the page is about to be unloaded.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b935ae8d-a07f-4f0d-b379-5512e96a25a5
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

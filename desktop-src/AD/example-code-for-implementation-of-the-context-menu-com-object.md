@@ -1,14 +1,10 @@
 ---
 title: Example Code for Implementation of the Context Menu COM Object
 description: The following code example can be used to implement an Active Directory context menu extension. The single context menu item will display a message box that contains the ADsPath of each item selected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc8f2c31-6031-4c7d-a173-5cedcedbfb26
 ms.tgt_platform: multiple
 keywords:
 - Active Directory AD , example code C/C++ , implementation of the context menu COM object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

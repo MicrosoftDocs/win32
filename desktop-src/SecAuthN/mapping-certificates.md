@@ -2,7 +2,6 @@
 Description: Mapping Certificates
 ms.assetid: 4139f927-54f4-4968-a9eb-020401bb536d
 title: Mapping Certificates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Create an effect pool asynchronously.
 ms.assetid: 50c55751-26de-4002-9a89-8e5ab59dda79
 title: D3DX10CreateAsyncEffectCreateProcessor function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

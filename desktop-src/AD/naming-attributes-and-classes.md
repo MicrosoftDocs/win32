@@ -1,14 +1,10 @@
 ---
 title: Naming Attributes and Classes
 description: This topic includes guidelines for naming attributes and classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ccbc2859-332f-4ded-9125-5bf507cad960
 ms.tgt_platform: multiple
 keywords:
 - Naming Attributes and Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

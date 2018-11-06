@@ -2,7 +2,6 @@
 Description: Multiplies each precomputed radiance transfer (PRT) vector by the per-vertex albedo.
 ms.assetid: 2b3e4b19-7778-4240-ac79-3237fda2ed96
 title: ID3DXPRTEngine::MultiplyAlbedo method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

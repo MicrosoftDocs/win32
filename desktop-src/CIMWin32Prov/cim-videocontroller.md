@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VideoController class represents the capabilities and management of the video controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7cf6bf2a-62a5-46fa-8c8f-976604360461
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VideoController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -64,7 +58,7 @@ api_location:
 
 The **CIM\_VideoController** class represents the capabilities and management of the video controller.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 title: Pen
 description: All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 ms.assetid: 45635d5a-c9ff-47d0-89ef-a9c48ac67594
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

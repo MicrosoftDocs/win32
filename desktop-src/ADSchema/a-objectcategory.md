@@ -1,9 +1,6 @@
 ---
 title: Object-Category attribute
 description: An object class name used to group objects of this or derived classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 06fd0314-08b0-49eb-867c-463f7e0afee4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Category
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

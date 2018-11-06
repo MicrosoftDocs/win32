@@ -2,7 +2,6 @@
 Description: Specifies the number of video frames that are skipped because they were duplicates of previous frames.
 ms.assetid: ef4aa5a0-3788-493e-b541-c3a24509d939
 title: MFPKEY_ZEROBYTEFRAMES Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

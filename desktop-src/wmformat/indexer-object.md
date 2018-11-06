@@ -9,7 +9,6 @@ keywords:
 - objects,indexer objects
 - indexer objects
 - indexes,indexer objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

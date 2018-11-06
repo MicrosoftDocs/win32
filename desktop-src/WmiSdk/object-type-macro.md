@@ -1,12 +1,8 @@
 ---
 Description: The OBJECT-TYPE macro contains mandatory and optional clauses that describe the basic characteristics of a MIB object. The SNMP Provider converts an MIB to the corresponding parts of the OBJECT-TYPE macro.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ad76a4fc-354e-4270-862c-062aa523bf7e
 ms.tgt_platform: multiple
 title: OBJECT-TYPE Macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

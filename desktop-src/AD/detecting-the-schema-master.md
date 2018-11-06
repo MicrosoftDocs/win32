@@ -1,14 +1,10 @@
 ---
 title: Detecting the Schema Master
 description: Active Directory Domain Services have a multi-master update system; every domain controller holds a writable copy of the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e096351-43f8-48ee-acb6-681d9e38e93c
 ms.tgt_platform: multiple
 keywords:
 - Detecting the Schema Master AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

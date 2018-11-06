@@ -2,7 +2,6 @@
 Description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh.
 ms.assetid: e506aed3-bf14-4f29-845b-2091f5b00950
 title: ID3DXPRTEngine::ClosestRayIntersects method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

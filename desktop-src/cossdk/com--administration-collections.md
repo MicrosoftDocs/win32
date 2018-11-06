@@ -2,7 +2,6 @@
 Description: The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.
 ms.assetid: eed8ca97-39ad-4188-afc6-8670b5073fad
 title: COM+ Administration Collections
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Commands Object Methods
 description: Commands Object Methods
 ms.assetid: 3429c63d-562b-434d-a71e-7040e56aac6c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

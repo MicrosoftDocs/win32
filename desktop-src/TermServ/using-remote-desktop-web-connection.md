@@ -1,16 +1,12 @@
 ---
 title: Using the Remote Desktop ActiveX control
 description: How you can use the Remote Desktop ActiveX control to customize the Remote Desktop Services user experience.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ea80a99a-7bf6-48e2-8bd0-c9a158bcf475
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using Remote Desktop ActiveX control
 - Remote Desktop Web Connection Remote Desktop Services , using
 - Remote Desktop Protocol Remote Desktop Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

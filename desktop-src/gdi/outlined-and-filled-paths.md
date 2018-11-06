@@ -2,7 +2,6 @@
 Description: An application can draw the outline of a path by calling the StrokePath function, it can fill the interior of a path by calling the FillPath function, and it can both outline and fill the path by calling the StrokeAndFillPath function.
 ms.assetid: e3e82676-3095-43f0-9fb4-959f925e66c2
 title: Outlined and Filled Paths
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

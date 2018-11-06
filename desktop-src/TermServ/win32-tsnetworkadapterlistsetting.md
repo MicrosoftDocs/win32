@@ -1,9 +1,6 @@
 ---
 title: Win32_TSNetworkAdapterListSetting class
 description: Enumerates the list of network adapters that can be configured for a Win32\_Terminal, based on the specified terminal protocol and transport method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: affe440a-1a7b-49be-a4aa-d792811c59ea
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

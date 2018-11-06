@@ -2,7 +2,6 @@
 title: NDF Helper Class Extension
 description: This example illustrates how to implement NDF diagnosis and repair functions.
 ms.assetid: 18e66d09-e565-4b86-8bc3-600f2159a4bd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

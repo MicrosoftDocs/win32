@@ -1,12 +1,8 @@
 ---
 Description: The NTEventLogEventConsumer class logs a specific message to the operating system event log when an event is delivered to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cf986812-f09a-4f32-ba76-db76a23e2e4c
 ms.tgt_platform: multiple
 title: NTEventLogEventConsumer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

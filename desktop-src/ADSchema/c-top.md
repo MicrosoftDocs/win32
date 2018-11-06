@@ -1,9 +1,6 @@
 ---
 title: Top class
 description: The top level class from which all classes are derived.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 025aff6c-1804-4141-accf-d50cfd50e90e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Top
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

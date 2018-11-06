@@ -2,7 +2,6 @@
 Description: Some protocols require multiple authentication messages.
 ms.assetid: b4c4c38c-0286-49b1-b93d-4c6b885fe0f6
 title: Client Continuation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

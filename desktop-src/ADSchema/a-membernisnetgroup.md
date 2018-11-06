@@ -1,9 +1,6 @@
 ---
 title: memberNisNetgroup attribute
 description: Contains the list of netgroups that are members of this netgroup.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e68e224a-fc49-4bef-9c02-811cb647d767
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - memberNisNetgroup
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

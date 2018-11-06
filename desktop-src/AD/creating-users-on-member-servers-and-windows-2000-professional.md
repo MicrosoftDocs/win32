@@ -1,16 +1,12 @@
 ---
 title: Creating Users on Member Servers and Windows 2000 Professional
 description: This topic describes steps used to create a user on a member server or computer running Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 714a36d4-3407-426f-b4e9-27ec399f742a
 ms.tgt_platform: multiple
 keywords:
 - Creating Users on Member Servers and Windows 2000 Professional AD
 - users AD , creating a user on member servers and Windows 2000 Professional
 - Active Directory, using, users, creating a user on member servers and Windows 2000 Professional
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

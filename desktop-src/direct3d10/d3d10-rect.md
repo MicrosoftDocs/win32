@@ -2,7 +2,6 @@
 Description: 'D3D10\_RECT is declared as follows:'
 ms.assetid: a0b27fb0-1e48-4e46-ad8c-99f197c31dc2
 title: D3D10_RECT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

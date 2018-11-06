@@ -1,15 +1,11 @@
 ---
 title: Synchronous and Asynchronous Searches with IDirectorySearch
 description: When you perform a search using the IDirectorySearch interface, the IDirectorySearch ExecuteSearch method does not send the search request to the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4387202-22a0-497a-af0a-20aa8ede905d
 ms.tgt_platform: multiple
 keywords:
 - Synchronous and Asynchronous Searches with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Synchronous and Asynchronous Searches
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

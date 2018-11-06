@@ -2,7 +2,6 @@
 title: Icon Functions
 description: .
 ms.assetid: 3d27c185-52de-4b04-9b96-38bf284b1866
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

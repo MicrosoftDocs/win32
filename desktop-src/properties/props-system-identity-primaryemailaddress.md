@@ -2,7 +2,6 @@
 Description: Primary e-mail address.
 ms.assetid: 17a1018f-0bb7-4e4e-b518-2cbf83a33bd9
 title: System.Identity.PrimaryEmailAddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

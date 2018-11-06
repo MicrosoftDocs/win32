@@ -2,7 +2,6 @@
 title: Network Management Enumerations
 description: The network management enumerations include the following
 ms.assetid: 1FD08E66-3EE7-4313-B434-6DB969294506
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

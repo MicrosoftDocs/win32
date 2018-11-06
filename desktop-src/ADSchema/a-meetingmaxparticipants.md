@@ -1,9 +1,6 @@
 ---
 title: meetingMaxParticipants attribute
 description: The maximum number of participants for a meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c1d03392-1877-4df5-a3d9-b89337f0eb41
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingMaxParticipants
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

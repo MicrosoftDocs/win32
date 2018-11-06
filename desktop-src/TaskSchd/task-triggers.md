@@ -10,7 +10,6 @@ keywords:
 - triggers Task Scheduler , event-based
 - event-based triggers Task Scheduler
 - time-based triggers Task Scheduler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

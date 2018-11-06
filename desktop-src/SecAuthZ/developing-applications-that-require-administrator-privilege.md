@@ -2,7 +2,6 @@
 Description: It is possible to develop an application that performs operations that require administrator privilege yet runs as a standard user.
 ms.assetid: 78099b59-b09b-43c0-91f5-adb5c9e0e191
 title: Developing Applications that Require Administrator Privilege
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

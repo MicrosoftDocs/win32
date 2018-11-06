@@ -2,7 +2,6 @@
 title: How to Load a Bitmap from a File
 description: Shows how to load a Direct2D bitmap from an image file.
 ms.assetid: 4abfbc2b-2730-4d96-897e-1e2232383a72
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

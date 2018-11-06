@@ -2,7 +2,6 @@
 Description: Modifies the current security settings of a virtual machine.
 ms.assetid: b3eedab6-fd69-4c54-a8bf-4e3b77207687
 title: ModifySecuritySettings method of the Msvm_SecurityService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

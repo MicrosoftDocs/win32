@@ -4,7 +4,6 @@ description: The stubs call the type\_free\_local function to free the memory al
 ms.assetid: 8e8c6a46-20c1-483b-b804-0772391e9918
 keywords:
 - named_type_free_local
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

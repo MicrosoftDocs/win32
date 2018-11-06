@@ -2,7 +2,6 @@
 Description: Use security management technologies to create information security management systems, security management software, security management solutions, and to provide event security management and software security management.
 ms.assetid: c6626297-2e45-4073-b04d-8ed40866fe1a
 title: Security Management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

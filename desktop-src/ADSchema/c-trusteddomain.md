@@ -1,9 +1,6 @@
 ---
 title: Trusted-Domain class
 description: An object that represents a domain trusted by (or trusting) the local domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd455d89-2ad0-4bc7-a84e-449b4c334bd2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trusted-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

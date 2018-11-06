@@ -2,7 +2,6 @@
 Description: Specifies if access to all infrastructure networks is blocked.
 ms.assetid: d57ae27c-3cd3-4e53-b5c9-cd3cbb91289b
 title: denyAllESS (networkFilter) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Resource-Condition attribute
 description: For a central access rule, this attribute is an expression that identifies the scope of the target resource to which the policy applies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3c1815e-3fa1-4106-82a1-74403f07fcde
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Resource-Condition
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

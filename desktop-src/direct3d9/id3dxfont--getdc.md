@@ -2,7 +2,6 @@
 Description: Returns a handle to a display device context (DC) that has the font set.
 ms.assetid: b2092d7d-9761-41de-b094-b06626bd7ba3
 title: ID3DXFont::GetDC method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

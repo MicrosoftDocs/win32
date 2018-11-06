@@ -2,14 +2,13 @@
 Description: WST Codec Filter
 ms.assetid: 0a06acbf-b842-4ab6-bcf9-d2d006301d83
 title: WST Codec Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # WST Codec Filter
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This component has been removed from Windows Vista and later operating systems. It is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 
  

@@ -2,7 +2,6 @@
 Description: When a service control program requests that a new service run, the Service Control Manager (SCM) starts the service and sends a start request to the control dispatcher.
 ms.assetid: e55e056f-7628-4e3d-9aea-b55c371b4287
 title: Service ServiceMain Function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

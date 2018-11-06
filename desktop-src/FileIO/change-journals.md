@@ -2,7 +2,6 @@
 Description: When any change is made to a file or directory in a volume, the USN change journal for that volume is updated with a description of the change and the name of the file or directory.
 ms.assetid: 9a158c2b-da8e-4ca9-b3c1-2185cf41eb7d
 title: Change Journals
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Using Compressed Textures (Direct3D 9)
 ms.assetid: 60892a8b-93f4-43ba-87ef-d5c7cc6fb8c6
 title: Using Compressed Textures (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

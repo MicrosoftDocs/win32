@@ -13,7 +13,6 @@ keywords:
 - DRM (digital rights management),device registration
 - digital rights management (DRM),registration of devices
 - DRM (digital rights management),registration of devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

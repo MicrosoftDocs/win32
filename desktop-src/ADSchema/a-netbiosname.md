@@ -1,9 +1,6 @@
 ---
 title: NETBIOS-Name attribute
 description: The name of the object to be used over NetBIOS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 03cbfa61-b747-4f3e-9bf5-17fd6da2e7be
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NETBIOS-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

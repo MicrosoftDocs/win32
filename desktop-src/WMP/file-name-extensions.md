@@ -9,7 +9,6 @@ keywords:
 - metafiles,file name extensions
 - Windows Media,metafiles
 - file name extensions for Windows Media metafiles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

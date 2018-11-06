@@ -1,15 +1,11 @@
 ---
 title: Implementing Active Directory Service Interfaces Providers
 description: Active Directory Service Interfaces (ADSI) are COM interfaces that wrap directory service objects to expose them to clients of directory services. By supplying an implementation of ADSI, you expand your client-base to the set of ADSI client applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f86f36f0-44ff-41b7-8cf6-b97b721a8572
 ms.tgt_platform: multiple
 keywords:
 - Implementing Active Directory Service Interfaces Providers ADSI
 - Implementing ADSI Providers ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

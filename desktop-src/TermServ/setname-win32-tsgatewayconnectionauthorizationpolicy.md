@@ -1,9 +1,6 @@
 ---
 title: SetName method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets a new name for this Remote Desktop connection authorization policy (RD \ 160;CAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4a3b71d4-9b1c-46ea-b14a-fcbe32af37b5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

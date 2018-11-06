@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Broken-Connection-Action attribute
 description: Terminal Services session Broken Connection Action specifies the action to take when a Terminal Services session limit is reached.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3c1556d-2de7-4945-aa91-7ef8d0ac8cd0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Broken-Connection-Action
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

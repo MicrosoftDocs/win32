@@ -1,9 +1,6 @@
 ---
 title: Is-Privilege-Holder attribute
 description: Backward link to privileges held by a given principal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 94355fbc-f7d8-460b-a516-1576629ca63e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Privilege-Holder
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

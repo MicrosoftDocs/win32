@@ -2,7 +2,6 @@
 Description: Represents the association between two metric definitions or two metric values.
 ms.assetid: 78fb926d-8981-443a-a82d-ebac34d38e13
 title: Msvm_MetricCollectionDependency class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

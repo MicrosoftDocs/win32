@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_LoadOrderGroup WMI class represents a group of system services that define execution dependencies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0aa3151e-6622-46b4-9050-4e1c4c720902
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_LoadOrderGroup class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

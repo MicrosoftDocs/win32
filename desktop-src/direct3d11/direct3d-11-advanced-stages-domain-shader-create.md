@@ -2,7 +2,6 @@
 title: How To Create a Domain Shader
 description: This topic shows how to create a domain shader.
 ms.assetid: 7d02fee4-2d7c-434b-86ab-e5ee615ae93b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

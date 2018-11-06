@@ -1,7 +1,6 @@
 ---
 Description: Requests a pointer to a specified object.
 title: SMC_GETSFOBJECT message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

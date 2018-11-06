@@ -1,9 +1,6 @@
 ---
 title: Last-Logon attribute
 description: The last time the user logged on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 271f4f38-90f9-4add-a3ed-413c224e1fae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Logon
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

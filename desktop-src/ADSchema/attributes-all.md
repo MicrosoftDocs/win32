@@ -1,12 +1,8 @@
 ---
 title: All Attributes
 description: The following attributes are defined by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3df1ed0a-8c92-41cf-9478-95e59b50c471
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

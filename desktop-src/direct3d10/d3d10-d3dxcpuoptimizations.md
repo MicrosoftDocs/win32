@@ -2,7 +2,6 @@
 Description: Enables or disables CPU optimizations.
 ms.assetid: 6f73df12-f2fc-4651-b0f7-f7a55e534d3d
 title: D3DXCpuOptimizations function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

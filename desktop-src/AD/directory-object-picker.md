@@ -1,16 +1,12 @@
 ---
 title: Directory Object Picker
 description: The directory object picker dialog box enables a user to select one or more objects from either the global catalog, a domain or computer, or a workgroup.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5b3e5d71-afd2-49db-b3a2-f9a49f0b2b3a
 ms.tgt_platform: multiple
 keywords:
 - Directory Object Picker AD
 - object picker AD
 - objects AD , object picker
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

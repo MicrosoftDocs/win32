@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSManagementData class
 description: Synchronizes publishing data for Remote Desktop Management Services (RDMS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 17f06294-6580-4297-9301-f88314db7775
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

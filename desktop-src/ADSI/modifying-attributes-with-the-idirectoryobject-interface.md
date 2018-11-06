@@ -1,16 +1,12 @@
 ---
 title: Modifying Attributes with the IDirectoryObject Interface
 description: In addition to IADs Put and IADs PutEx, you can use the IDirectoryObject SetObjectAttributes method to modify attribute values. To use this method, you must fill in an ADS\_ATTR\_INFO structure for each attribute to modify.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1d3fe8f6-34be-4bcb-8ba5-2d92ddc0852a
 ms.tgt_platform: multiple
 keywords:
 - Modifying Attributes with the IDirectoryObject Interface ADSI
 - IDirectoryObject ADSI , Using to Modify Attributes
 - ADSI ADSI , Example Code C/C++ , Using IDirectoryObject to Modify Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

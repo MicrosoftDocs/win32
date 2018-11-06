@@ -2,7 +2,6 @@
 Description: A Windows public key infrastructure (PKI) saves certificates on the server that hosts the certification authority (CA) and on the local computer or device.
 ms.assetid: b6aaafeb-30d1-453e-a70c-dcaa01fea1cf
 title: Certificate Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

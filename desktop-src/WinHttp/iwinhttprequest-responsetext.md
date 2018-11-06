@@ -2,7 +2,6 @@
 Description: Retrieves the response entity body as text.
 ms.assetid: 87caf64f-be11-45c9-af1e-997a55c5e76e
 title: IWinHttpRequest::ResponseText property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

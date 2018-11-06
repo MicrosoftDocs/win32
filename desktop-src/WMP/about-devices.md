@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,synchronizing devices
 - synchronizing devices,about
 - device synchronization,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Ingress-Claims-Transformation-Policy attribute
 description: This is a link to a Claims Transformation Policy Object for the ingress claims (claims entering this forest) from the Trusted Domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 67f87782-85ed-41bb-a60d-f6c11fcda80e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Ingress-Claims-Transformation-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

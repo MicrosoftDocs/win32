@@ -2,7 +2,6 @@
 Description: This topic provides independent software vendors (ISVs) with a quick guide to the steps necessary to register and manage application defaults in Windows Vista and later. Links are provided to more in-depth articles about each section's topic.
 ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: Managing Default Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 The **Set Program Access and Computer Defaults** (SPAD) feature was added to Windows XP and later versions of Windows to manage per-computer defaults. In addition to SPAD, Windows Vista introduced the concept of per-user default applications and the **Default Programs** item in Control Panel.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](http://go.microsoft.com/fwlink/p/?linkid=619638).
 
  

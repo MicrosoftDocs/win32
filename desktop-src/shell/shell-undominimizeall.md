@@ -2,7 +2,6 @@
 Description: Restores all desktop windows to the same state they were in before the last MinimizeAll command.
 ms.assetid: dcedfa18-6dde-4fb8-9679-4d6ff80249e4
 title: Shell.UndoMinimizeALL method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

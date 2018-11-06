@@ -2,7 +2,6 @@
 Description: Driver capability flags.
 ms.assetid: 0c0c65fc-f953-4379-a6d0-6ce447a0c183
 title: D3DCAPS2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

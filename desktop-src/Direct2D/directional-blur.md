@@ -4,7 +4,6 @@ description: The directional blur effect is similar to Gaussian blur, except you
 ms.assetid: 59328FA4-5C27-4A81-AAB2-C5B25B3615C6
 keywords:
 - directional blur
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

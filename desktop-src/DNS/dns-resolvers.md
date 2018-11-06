@@ -2,7 +2,6 @@
 title: DNS Resolvers
 description: The resolver is a software component bundled in the Windows 2000 Transmission Control Protocol/Internet Protocol (TCP/IP) stack that communicates with DNS Servers to create and resolve name-resolution queries.
 ms.assetid: c0326042-c040-4e20-b411-14426611475b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

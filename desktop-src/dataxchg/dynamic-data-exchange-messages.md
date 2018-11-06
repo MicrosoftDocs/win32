@@ -2,7 +2,6 @@
 title: DDE Messages
 description: .
 ms.assetid: 23ed5218-bd01-42ba-9995-d3e98a5012d1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

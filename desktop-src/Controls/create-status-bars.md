@@ -2,7 +2,6 @@
 title: How to Create Status Bars
 description: You can create a status bar by using the CreateStatusWindow function or by using the CreateWindowEx function and specifying the STATUSCLASSNAME window class.
 ms.assetid: 4ED4BFD3-904D-4198-8152-5DD13CA7C189
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

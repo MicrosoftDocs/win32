@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Disable-For-Instances-BL attribute
 description: Backward link reference to the ms-DS-Service-Connection-Point-Publication-Service object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b089b824-b76e-4195-86c2-b4cd4e5d0a98
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Disable-For-Instances-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

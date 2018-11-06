@@ -7,7 +7,6 @@ keywords:
 - processing pipeline OpenGL
 - pipeline OpenGL
 - framebuffers,processing pipeline
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

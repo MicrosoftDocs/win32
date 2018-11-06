@@ -2,7 +2,6 @@
 Description: The XMINT2 structure exposes the following operators.
 ms.assetid: 98822959-f4ef-4f73-8011-f9eba201dcc0
 title: XMINT2 Operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

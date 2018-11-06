@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-Gates attribute
 description: The list of DNs for MSMQ routing servers, through which all traffic between sites must be routed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c00553e-6439-4fad-974c-3bfbb61d8f2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-Gates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

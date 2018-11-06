@@ -9,7 +9,6 @@ keywords:
 - I/O (input and output),basic services
 - basic I/O
 - mmioOpen function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

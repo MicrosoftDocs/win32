@@ -2,7 +2,6 @@
 Description: Permutes the components of two vectors to create a new vector.
 ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)'
 title: XMVectorPermute template
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

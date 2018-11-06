@@ -1,12 +1,8 @@
 ---
 Description: The WMI high-performance API is a series of interfaces that obtain data from Performance Counter Classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ee0a2ead-f53a-4651-a287-04a62eba3f84
 ms.tgt_platform: multiple
 title: Accessing Performance Data in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

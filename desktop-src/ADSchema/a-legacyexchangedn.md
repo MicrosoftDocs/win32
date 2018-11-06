@@ -1,9 +1,6 @@
 ---
 title: Legacy-Exchange-DN attribute
 description: The distinguished name previously used by Exchange.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 96a3590f-dfe0-4bf8-872e-11c2296a616a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Legacy-Exchange-DN
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

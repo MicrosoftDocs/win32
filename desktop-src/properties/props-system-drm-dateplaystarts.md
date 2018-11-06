@@ -2,7 +2,6 @@
 Description: Indicates when play rights begin.
 ms.assetid: a5d67f83-ac2c-4d6c-b370-654943670125
 title: System.DRM.DatePlayStarts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

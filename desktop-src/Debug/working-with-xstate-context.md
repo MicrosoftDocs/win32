@@ -2,7 +2,6 @@
 Description: This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread.
 ms.assetid: F7937402-1173-4647-B9FF-856C0925C1C3
 title: Working with XState Context
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

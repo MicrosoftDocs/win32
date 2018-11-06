@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_LogicalDiskBasedOnPartition class associates a logical disk with the disk partition on which it resides.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 264b62ed-2af2-42dc-9cd2-41b26cc85ca4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_LogicalDiskBasedOnPartition class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -32,7 +26,7 @@ The **CIM\_LogicalDiskBasedOnPartition** class associates a logical disk with th
 
 For example, a computer's drive C can be located on a partition on local physical media, which dictates that a logical disk cannot span more than one partition. When a logical disk can span more than one partition, however, the logical disk is based on RAID configuration (for example, a mirror or stripe set). In which case, the logical disk is based on storage volume. To prevent using the **CIM\_LogicalDiskBasedOnPartition** association incorrectly, the **Max(1)** qualifier was put on the **Antecedent** reference to the disk partition.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

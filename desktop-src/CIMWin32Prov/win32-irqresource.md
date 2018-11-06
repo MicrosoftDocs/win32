@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_IRQResource &\#160;WMI class represents an interrupt request line (IRQ) number on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bae0c28e-2b66-40ac-9679-b2dfe9269306
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_IRQResource class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

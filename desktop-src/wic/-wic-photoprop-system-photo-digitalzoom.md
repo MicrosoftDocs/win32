@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Photo.DigitalZoom property.
 ms.assetid: 22a69d3e-4ec3-4652-b4bb-dfcfffc2322b
 title: System.Photo.DigitalZoom Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

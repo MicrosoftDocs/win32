@@ -1,9 +1,6 @@
 ---
 title: String(Object-Identifier) syntax
 description: An OID string, which is a string that contains digits (0-9) and decimal points (.).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e1349a59-5fec-4cad-bd71-0fed99517ee2
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Object-Identifier)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

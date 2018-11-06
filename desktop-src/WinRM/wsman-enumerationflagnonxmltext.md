@@ -1,9 +1,6 @@
 ---
 title: WSMan.EnumerationFlagNonXmlText method
 description: Returns the value of the enumeration constant WSManFlagNonXmlText for use in the flags parameter of the Session.Enumerate method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5e062e73-f833-4090-ba5a-48ca374724e7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

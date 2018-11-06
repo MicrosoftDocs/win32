@@ -2,7 +2,6 @@
 Description: The GetBitmapBits method retrieves a video frame at the specified media time. The returned frame is always in 24-bit RGB format.
 ms.assetid: b51df9d1-9c54-41bd-b0f8-ec290525deca
 title: IMediaDet::GetBitmapBits method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

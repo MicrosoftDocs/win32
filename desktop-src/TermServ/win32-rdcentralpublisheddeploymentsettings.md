@@ -1,9 +1,6 @@
 ---
 title: Win32_RDCentralPublishedDeploymentSettings class
 description: Contains the deployment settings used to generate RDP files for resources published from a farm.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6d1be0b2-e070-4c60-8068-b59ba121bf9f
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

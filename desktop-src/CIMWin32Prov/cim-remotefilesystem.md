@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_RemoteFileSystem class represents a remote file system that is accessed by way of a network-related service. In this case, the file store is hosted by a computer, which acts as a file server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 932970a8-0ab3-45d8-912d-c4ba7cf433b5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_RemoteFileSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -45,7 +39,7 @@ api_location:
 
 The **CIM\_RemoteFileSystem** class represents a remote file system that is accessed by way of a network-related service. In this case, the file store is hosted by a computer, which acts as a file server. For example, the file store for an NFS file system is typically not on a computer system's locally controlled media, nor is it directly accessed through a device driver. Subclasses of **CIM\_RemoteFileSystem** contain client-side configuration information related to the access of the file system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

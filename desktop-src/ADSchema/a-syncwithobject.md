@@ -1,9 +1,6 @@
 ---
 title: Sync-With-Object attribute
 description: Distinguished name of the object being synchronized for the SAM builtin group/local policy synchronization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d7f4c855-7f53-4e6b-b39b-cb6ce76c6561
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sync-With-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

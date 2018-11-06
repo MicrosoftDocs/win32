@@ -1,15 +1,11 @@
 ---
 title: Client Time Limit with IDirectorySearch
 description: A client can impose a time limit for a server to return the result set. When the server fails to respond to a query within the specified time period, the client can abandon the search and try it again later.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fe8a8b08-b34d-4aa5-a925-bcda6e72d437
 ms.tgt_platform: multiple
 keywords:
 - Client Time Limit with IDirectorySearch
 - ADSI, Searching, IDirectorySearch, Other Search Options, Client Time Limit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

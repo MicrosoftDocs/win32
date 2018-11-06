@@ -2,7 +2,6 @@
 Description: Setting the ARPSYSTEMCOMPONENT property to 1 using the command line or a transform prevents the application from being displayed in the Add or Remove Programs list of Control Panel.
 ms.assetid: fa3510b4-c4de-4261-ae6c-4292b88432ef
 title: ARPSYSTEMCOMPONENT property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

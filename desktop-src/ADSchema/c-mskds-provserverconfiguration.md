@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-Prov-ServerConfiguration class
 description: Configuration for the Group Key Distribution Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c35dd5d7-fd9c-42a9-a992-c03ce7ac3df9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-Prov-ServerConfiguration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

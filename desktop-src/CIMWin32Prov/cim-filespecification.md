@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_FileSpecification class represents a file that is either on or off of the system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 25d6cc79-1497-4615-9251-8e00524dff1b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_FileSpecification class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -41,7 +35,7 @@ api_location:
 
 The **CIM\_FileSpecification** class represents a file that is either on or off of the system. The file is located in the directory identified by the [**CIM\_DirectorySpecificationFile**](cim-directoryspecificationfile.md) association. The [**Invoke**](invoke-method-in-class-cim-filespecification.md) method uses the information to check for the file's existence. Note that properties with a **Null** value are not checked.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

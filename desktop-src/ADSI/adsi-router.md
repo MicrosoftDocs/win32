@@ -1,15 +1,11 @@
 ---
 title: ADSI Router
 description: The ADSI router sits between a client and the ADSI providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 17998583-44e1-4b2b-8a0b-99122e7c7213
 ms.tgt_platform: multiple
 keywords:
 - router ADSI
 - ADSI ADSI ,service providers,router
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

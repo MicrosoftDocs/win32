@@ -15,7 +15,6 @@ keywords:
 - security,user account control
 - security,manifest files
 - security,requestedExecutionLevel tag
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

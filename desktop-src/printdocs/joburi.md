@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: c7abb657-6c9d-435a-a700-2eb0f14707c0
 title: JobURI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

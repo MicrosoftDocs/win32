@@ -2,7 +2,6 @@
 Description: The Certificate Enrollment Control Instantiated in C++
 ms.assetid: 19dd2fce-b4a9-44fd-9572-897ee7943914
 title: The Certificate Enrollment Control Instantiated in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

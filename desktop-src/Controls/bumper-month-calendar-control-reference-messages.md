@@ -2,7 +2,6 @@
 title: Month Calendar Messages
 description: .
 ms.assetid: e320dc4f-0fe2-44d9-b672-d88e4da16e4a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Setupapi.h
 description: This section contains reference topics for the Setupapi.h header.
 ms.assetid: 94d87b1d-e72c-459c-b962-0cc76d66012e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Using MIDL
 description: Creating and compiling a Microsoft Interface Definition Language (MIDL) interface and Remote Procedure Call (RPC).
 ms.assetid: 2594e3d6-d44a-4e12-8286-b9700e67702e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

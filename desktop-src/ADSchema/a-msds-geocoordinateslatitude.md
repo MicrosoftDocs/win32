@@ -1,9 +1,6 @@
 ---
 title: ms-DS-GeoCoordinates-Latitude attribute
 description: Geo-coordinates for location services, specifically, latitude (in microdegrees) of the office or conference room.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec99c5ff-bfa8-442b-bc84-3512e99b965a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-GeoCoordinates-Latitude
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

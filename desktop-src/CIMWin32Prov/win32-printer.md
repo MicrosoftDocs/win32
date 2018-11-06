@@ -1,14 +1,8 @@
 ---
 Description: Represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

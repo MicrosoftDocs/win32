@@ -2,7 +2,6 @@
 title: Object Navigation Properties and Methods
 description: Clients navigate from one object to another using methods such as IAccessible accNavigate and IAccessible accHitTest.
 ms.assetid: c6bcd044-bf70-4eec-92ae-66f9bd836c33
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

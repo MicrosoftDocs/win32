@@ -2,7 +2,6 @@
 Description: The system sends the DBT\_CUSTOMEVENT device event when a driver-defined custom event has occurred.
 ms.assetid: 6e66fa93-0cd7-4202-83eb-cddc668525ae
 title: DBT_CUSTOMEVENT event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,library files
 - Windows Media Format SDK,compiler settings
 - Windows Media Format SDK,header files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

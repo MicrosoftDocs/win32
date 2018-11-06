@@ -1,12 +1,8 @@
 ---
 title: State Server Design Considerations
 description: Depending on your design, you may need a server to track the users that are currently logged onto the network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f8d268b-5518-4ad2-aed6-5971c913db6d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

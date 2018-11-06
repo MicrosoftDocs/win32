@@ -1,9 +1,6 @@
 ---
 title: EnableUserVhd method of the Win32_TSSessionDirectory class
 description: Enables a user profile VHD on an RDSH server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bb39fa19-38eb-4caf-ae81-2bccd901ee2f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

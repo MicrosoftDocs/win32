@@ -2,7 +2,6 @@
 Description: Using the Media Locator
 ms.assetid: 07840a37-7065-41e8-aee5-855c9f89fb77
 title: Using the Media Locator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Other Session Constants
 description: Specify encoding, encryption, and service principal name port.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a921b7bc-1f40-427c-971f-c0bc9c9f6887
 ms.tgt_platform: multiple
 topic_type:
@@ -17,7 +14,6 @@ api_location:
 - WSManDisp.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

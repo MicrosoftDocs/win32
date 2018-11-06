@@ -2,7 +2,6 @@
 Description: This topic lists the available geographical locations with identifiers (data type GEOID).
 ms.assetid: 6e424bd4-389c-4f51-9898-f60a8a818f89
 title: Table of Geographical Locations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

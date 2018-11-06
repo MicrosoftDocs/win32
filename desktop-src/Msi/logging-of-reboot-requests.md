@@ -2,7 +2,6 @@
 Description: If the InstallValidate action detects the installation of a file in use it displays the FilesInUse Dialog and logs the following information.
 ms.assetid: 59237d2c-6dda-4edc-bbaf-39c6b4c221b9
 title: Logging of Reboot Requests
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

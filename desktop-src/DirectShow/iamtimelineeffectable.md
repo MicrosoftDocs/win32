@@ -2,7 +2,6 @@
 Description: The IAMTimelineEffectable interface provides methods for adding effects to a timeline object in DirectShow Editing Services (DES), and for manipulating the effects on an object.
 ms.assetid: 70f2da64-e16a-4d4d-9522-042b5fa2855c
 title: IAMTimelineEffectable interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

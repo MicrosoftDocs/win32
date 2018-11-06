@@ -2,7 +2,6 @@
 Description: Every developer who creates real-time applications that use 3D graphics is concerned about performance optimization. This section provides guidelines for getting the best performance from your code.
 ms.assetid: 074f848e-4a42-48a2-adf7-4026b8967413
 title: Performance Optimizations (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

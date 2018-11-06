@@ -2,7 +2,6 @@
 Description: The Signature table holds the information that uniquely identifies a file signature. For more information regarding signatures see Digital Signatures and Windows Installer.
 ms.assetid: '4780356f-e02a-45d9-883c-4f84867dbdea'
 title: Signature Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

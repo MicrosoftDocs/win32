@@ -15,7 +15,6 @@ keywords:
 - WMStubDRM.lib,protected files
 - digital rights management (DRM),WMStubDRM.lib
 - DRM (digital rights management),WMStubDRM.lib
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

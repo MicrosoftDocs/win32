@@ -2,7 +2,6 @@
 Description: Complete DNS-SD service instance name, including instance, service, and domain.
 ms.assetid: 0d13caba-a280-4b14-9c7a-240bd44c24d2
 title: System.Devices.Dnssd.FullName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

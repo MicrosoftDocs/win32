@@ -12,7 +12,6 @@ api_location:
 - WdsView.idl
 api_type:
 - IDLDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

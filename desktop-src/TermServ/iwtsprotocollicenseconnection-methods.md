@@ -1,12 +1,8 @@
 ---
 title: IWTSProtocolLicenseConnection Methods
 description: The IWTSProtocolLicenseConnection interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6DE1A6DF-7B03-4568-959C-D18884D19D33
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Event queries are used by temporary event consumers, permanent event consumers, and event providers. Event consumers use event queries to specify events of interest, and event providers use the queries to specify the events that they provide.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 851ad9bd-2604-4988-8de0-8d29b5300b21
 ms.tgt_platform: multiple
 title: Receiving Event Notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ITsSbEnvironment Name property
 description: Retrieves a value that indicates the name of the environment that hosts the target computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8104bdae-f445-425b-b326-cc3333839d29
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

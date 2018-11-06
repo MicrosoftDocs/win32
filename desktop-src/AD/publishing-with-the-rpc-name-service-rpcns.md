@@ -1,14 +1,10 @@
 ---
 title: Publishing with the RPC Name Service
 description: RPC services can publish their identifiers in a namespace using the RPC name service (RpcNs) APIs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c8e1207-daeb-4dc8-b83a-a54cd59a46a7
 ms.tgt_platform: multiple
 keywords:
 - Publishing with the RPC Name Service AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

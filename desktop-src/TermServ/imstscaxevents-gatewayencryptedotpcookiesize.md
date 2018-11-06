@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayEncryptedOtpCookieSize property
 description: Specifies or retrieves the size of the encrypted one-time password (OTP) cookie.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a4fdcd06-59ae-407f-9ac6-dfe4b52fb5d7
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

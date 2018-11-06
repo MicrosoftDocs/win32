@@ -2,7 +2,6 @@
 Description: A concrete version of the CIM\_Job class. This class represent a generic instantiable unit of work to run, such as a batch or a print job.
 ms.assetid: fad4d894-d1f5-428d-819f-74966dd9f410
 title: CIM_ConcreteJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -81,7 +80,7 @@ Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override*
 
 Uniquely and opaquely identifies an instance of this class within the scope of the containing namespace.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > In order to ensure uniqueness within the namespace, the value of the **InstanceID** property should be constructed in the following pattern: *OrgID*:*LocalID*
 >

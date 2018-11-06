@@ -4,7 +4,6 @@ description: You can apply these attributes to data types in a typedef statement
 ms.assetid: 9a2e7c3d-f18f-4162-877c-5fc48a36b05d
 keywords:
 - IDL MIDL , attributes, data type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

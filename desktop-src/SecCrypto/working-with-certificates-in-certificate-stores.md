@@ -2,7 +2,6 @@
 Description: Several functions add a certificate context or a link to a context to a store \[Platform Software Development Kit (SDK)\].
 ms.assetid: 0355b254-be52-4af4-9567-ee2df092075f
 title: Working with Certificates in Certificate Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

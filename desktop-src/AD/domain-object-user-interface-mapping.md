@@ -1,15 +1,11 @@
 ---
 title: Domain Object User Interface Mapping
 description: This topic discusses the Domain object property sheets in the Active Directory Users and Computers snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ab39977-97fa-4bff-b54d-015d7e365212
 ms.tgt_platform: multiple
 keywords:
 - Domain Object User Interface Mapping Active Directory
 - Interface Mapping Active Directory , Domain Object User
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

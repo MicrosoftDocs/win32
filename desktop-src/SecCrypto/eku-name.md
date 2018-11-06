@@ -2,7 +2,6 @@
 Description: Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.
 ms.assetid: afce5553-ef18-4a7f-b1c8-fbe00d3277e0
 title: IEKU::Name property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

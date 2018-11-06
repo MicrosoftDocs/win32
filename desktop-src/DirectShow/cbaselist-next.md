@@ -2,7 +2,6 @@
 Description: The Next method retrieves the next position in the list.
 ms.assetid: ba9753b0-c82e-4772-84a7-e9982de3b8ad
 title: CBaseList.Next method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

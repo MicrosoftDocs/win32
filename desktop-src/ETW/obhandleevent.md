@@ -2,7 +2,6 @@
 Description: Represents the event type class for handle creation or closure events.
 ms.assetid: 39d27cdf-fa51-4fb1-8998-7150ca627eff
 title: ObHandleEvent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

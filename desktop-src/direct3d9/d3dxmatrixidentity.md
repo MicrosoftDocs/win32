@@ -2,7 +2,6 @@
 Description: Creates an identity matrix.
 ms.assetid: 0dd6d4fb-284c-4d01-9a85-63aa08e71723
 title: D3DXMatrixIdentity function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

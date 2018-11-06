@@ -2,7 +2,6 @@
 Description: Structures used in volume management.
 ms.assetid: bbde9dfb-c205-4432-be71-250d73b881f1
 title: Volume Management Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

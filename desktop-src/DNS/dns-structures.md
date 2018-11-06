@@ -6,7 +6,6 @@ keywords:
 - Domain Name System Structures
 - DNS Structures
 - Domain Name System, reference, structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

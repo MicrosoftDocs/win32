@@ -1,12 +1,8 @@
 ---
 Description: The Item method of the SWbemPrivilegeSet object returns an SWbemPrivilege object from the collection. The Item method is the default method of an SWbemPrivilegeSet object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 93a35e65-99ee-40da-9415-4151ac635091
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.Item method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

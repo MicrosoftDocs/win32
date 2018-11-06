@@ -2,7 +2,6 @@
 title: Cursor Functions
 description: .
 ms.assetid: fa74eed0-a862-4345-a13a-0c4234b6a5b6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Invoke method of the CIM\_CopyFileAction class takes a particular action. Details about how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b948e9ed-332d-4ac5-be7f-88b7f46f5f1d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_CopyFileAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Invoke** method of the [**CIM\_CopyFileAction**](cim-copyfileaction.md) class takes a particular action. Details about how the method performs the action are implementation-specific. This method is inherited from [**CIM\_Action**](cim-action.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

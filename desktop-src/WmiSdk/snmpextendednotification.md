@@ -1,12 +1,8 @@
 ---
 Description: The SnmpExtendedNotification class is the base class for any class mapped from the NOTIFICATION-TYPE macro to a CIM class by the SNMP Provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 207966c1-14cf-4a47-8176-0f58838cfa1e
 ms.tgt_platform: multiple
 title: SnmpExtendedNotification class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

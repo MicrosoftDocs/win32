@@ -7,7 +7,6 @@ keywords:
 - MPC (Multimedia PC),Level 1
 - Multimedia PC Marketing Council,Level 1
 - MPC Level 1,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: You can use the methods of the SWbemLocator object to obtain an SWbemServices object that represents a connection to a namespace on either a local computer or a remote host computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 51ea2c01-04e8-4b1c-bc82-ac96ba8b6eee
 ms.tgt_platform: multiple
 title: SWbemLocator object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

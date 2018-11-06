@@ -8,7 +8,6 @@ keywords:
 - type 2 online stores,Background Intelligent Transfer Service (BITS)
 - Background Intelligent Transfer Service (BITS)
 - BITS (Background Intelligent Transfer Service)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

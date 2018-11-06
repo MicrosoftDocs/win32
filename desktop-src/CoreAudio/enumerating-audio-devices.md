@@ -2,7 +2,6 @@
 Description: Enumerating Audio Devices
 ms.assetid: 20110ffc-5eff-4279-abea-53115803b6ee
 title: Enumerating Audio Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

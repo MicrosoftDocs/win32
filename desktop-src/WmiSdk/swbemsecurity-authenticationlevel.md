@@ -1,12 +1,8 @@
 ---
 Description: The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 96c2e6a5-a91f-469d-bdd1-eaa20b176158
 ms.tgt_platform: multiple
 title: SWbemSecurity.AuthenticationLevel property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

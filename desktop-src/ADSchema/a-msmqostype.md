@@ -1,9 +1,6 @@
 ---
 title: MSMQ-OS-Type attribute
 description: The operating system type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e1ba4309-3cff-496f-8780-20fd66495465
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-OS-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

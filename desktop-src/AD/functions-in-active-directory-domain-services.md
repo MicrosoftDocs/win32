@@ -1,16 +1,12 @@
 ---
 title: Functions in Active Directory Domain Services
 description: The following are categories of functions in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66b6558d-141f-4751-9989-a26801fc6725
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Functions AD
 - Active Directory, Reference, Functions
 - functions AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

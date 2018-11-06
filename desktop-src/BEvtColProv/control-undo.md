@@ -1,14 +1,8 @@
 ---
 Description: Restore the active configuration of the collector from the previous backup file (determined by going back from the current original timestamp).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 150fa554-9efd-483e-a177-5fc7766a6a6c
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Undo method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

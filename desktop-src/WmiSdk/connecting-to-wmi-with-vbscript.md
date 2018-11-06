@@ -1,12 +1,8 @@
 ---
 Description: WMI scripts can condense many of the steps required in a C++ program.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 77168079-7253-4DB1-8252-7016F5A58DBA
 ms.tgt_platform: multiple
 title: Connecting to WMI with VBScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

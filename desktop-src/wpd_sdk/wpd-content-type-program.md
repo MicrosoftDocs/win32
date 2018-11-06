@@ -2,7 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_PROGRAM
 ms.assetid: 81eaf8cf-0f4f-4587-911a-063630af1c8e
 title: WPD_CONTENT_TYPE_PROGRAM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

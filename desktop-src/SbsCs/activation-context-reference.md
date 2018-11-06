@@ -2,7 +2,6 @@
 Description: The activation context functions and structures are used with side-by-side assemblies.
 ms.assetid: b53b30e0-948e-406c-9fb4-9681dc3c5670
 title: Activation Context Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

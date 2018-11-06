@@ -1,9 +1,6 @@
 ---
 title: UNC-Name attribute
 description: The universal naming convention name for shared volumes and printers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 967fd0dc-10af-4482-bc2c-1d1dc13dee39
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - UNC-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

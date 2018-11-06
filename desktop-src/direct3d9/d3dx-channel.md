@@ -2,7 +2,6 @@
 Description: The following flags are used to specify which channels in a texture to operate on.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

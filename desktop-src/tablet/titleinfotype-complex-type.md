@@ -2,7 +2,6 @@
 Description: Defines the type that contains information about the title in a Journal note.
 ms.assetid: 8289456b-c969-4079-bcb5-36949faa65e0
 title: TitleInfoType Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

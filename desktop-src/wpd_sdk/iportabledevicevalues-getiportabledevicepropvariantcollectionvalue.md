@@ -2,7 +2,6 @@
 Description: The GetIPortableDevicePropVariantCollectionValue method retrieves an IPortableDevicePropVariantCollection value (type VT\_UNKNOWN) specified by a key.
 ms.assetid: a7b5ba64-c28e-42ae-9f04-2bdb67e93328
 title: IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

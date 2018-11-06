@@ -5,7 +5,6 @@ ms.assetid: a613c020-9e27-4a0f-a84d-1d0246505407
 keywords:
 - OpenGL,security
 - security OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

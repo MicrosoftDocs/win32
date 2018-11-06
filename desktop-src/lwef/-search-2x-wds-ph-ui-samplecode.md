@@ -2,7 +2,6 @@
 title: Custom Protocol Handler User Interface Sample Code
 description: The following sample code shows how to create user interface extensions for a custom protocol handler.
 ms.assetid: b2d5bcdb-ad71-44db-9bea-486ffaad3655
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

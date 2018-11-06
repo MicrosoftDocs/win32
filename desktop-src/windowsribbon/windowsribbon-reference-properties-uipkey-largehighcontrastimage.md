@@ -2,7 +2,6 @@
 title: UI_PKEY_LargeHighContrastImage
 description: Identifies the UI\_PKEY\_LargeHighContrastImage property.
 ms.assetid: a703f75a-5eb0-4075-a388-d0ab7398d424
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

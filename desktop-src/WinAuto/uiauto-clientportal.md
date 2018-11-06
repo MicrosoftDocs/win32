@@ -9,7 +9,6 @@ keywords:
 - clients,UI Automation application creation
 - UI Automation,creating client applications
 - UI Automation,client application creation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

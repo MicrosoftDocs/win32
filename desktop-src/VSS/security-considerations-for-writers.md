@@ -2,7 +2,6 @@
 Description: The VSS infrastructure requires writer processes to be able to function both as COM clients and as servers.
 ms.assetid: 59bb7a86-e874-45ce-abd6-cafd18802c4d
 title: Security Considerations for Writers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The property system contains a property called System.Kind, which divides items into types according to the file name extension, and which end users can easily identify with.
 ms.assetid: 1466b4c7-49ea-417a-ac94-7b45515ccb96
 title: Using Kind Names
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SetDefaultFPS method sets the source object's default frame rate.
 ms.assetid: ea93acde-3e05-43d5-8130-9ab2ee841b4e
 title: IAMTimelineSrc::SetDefaultFPS method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

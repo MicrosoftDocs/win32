@@ -1,9 +1,6 @@
 ---
 title: Print-Min-X-Extent attribute
 description: The minimum horizontal print region.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7569388-e78c-403b-b644-d0fd720f7749
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Min-X-Extent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

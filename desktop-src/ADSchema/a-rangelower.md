@@ -1,9 +1,6 @@
 ---
 title: Range-Lower attribute
 description: The minimum value or length of an attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7a3d267-1534-4c30-9876-7c1ca94fe562
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Range-Lower
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Defines the conditions for which a certificate chain is to be checked.
 ms.assetid: 87df623c-5661-4325-8dd6-393ce2e44066
 title: CAPICOM_CHECK_FLAG enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

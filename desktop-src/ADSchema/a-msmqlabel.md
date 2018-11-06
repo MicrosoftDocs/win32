@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Label attribute
 description: Replaced by MSMQ-Label-Ex.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d225fc59-8130-4a5f-98ed-0b1f83198e97
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Label
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

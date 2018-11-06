@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: fc68704e-68d5-4767-b464-e45ab4c86058
 title: Performing the DXVA-HD Blit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

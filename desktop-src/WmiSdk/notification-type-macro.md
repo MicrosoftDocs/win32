@@ -1,12 +1,8 @@
 ---
 Description: The NOTIFICATION-TYPE macro contains the following elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b7c6ec2b-640b-4373-a1e3-ff6c130b07d0
 ms.tgt_platform: multiple
 title: NOTIFICATION-TYPE Macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

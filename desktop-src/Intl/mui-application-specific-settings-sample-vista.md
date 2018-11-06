@@ -2,7 +2,6 @@
 Description: 'MUI: Application-Specific Settings Sample (Windows Vista)'
 ms.assetid: 348a51fb-aad1-4255-a5a2-224d5c94d762
 title: 'MUI: Application-Specific Settings Sample (Windows Vista)'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: International Fonts and Text Display
 ms.assetid: 7f196462-53bd-43d7-9023-3b6e92fe350c
 title: International Fonts and Text Display
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - standard clipboard formats
 - registered clipboard formats
 - synthesized clipboard formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - client/server model OpenGL
 - OpenGL,network-transparent
 - framebuffers,execution model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

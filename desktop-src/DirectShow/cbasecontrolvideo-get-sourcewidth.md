@@ -2,7 +2,6 @@
 Description: The get\_SourceWidth method retrieves the width of the current source rectangle.
 ms.assetid: e8e27f8f-57e5-489c-aae7-86493677b380
 title: CBaseControlVideo.get_SourceWidth method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

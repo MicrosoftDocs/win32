@@ -1,14 +1,8 @@
 ---
 Description: Restore the active configuration of the collector from a backup file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b59b04a5-d2b3-4299-8347-5026b982dc02
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RestoreFile method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

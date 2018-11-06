@@ -15,7 +15,6 @@ keywords:
 - glIndex functions
 - index functions
 - color functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

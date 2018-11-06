@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-DPAPIMasterKeys attribute
 description: Storage of encrypted DPAPI Master Keys for user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 91e29a4b-0ff4-49a3-ba7f-18531188b9c0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-DPAPIMasterKeys
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The GetFrameLength function returns the length of the frame.
 ms.assetid: 30be1f5c-9b13-42ad-944a-92b1aee8a6bc
 title: GetFrameLength function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

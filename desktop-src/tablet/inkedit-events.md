@@ -2,7 +2,6 @@
 Description: This section contains Events belonging to the InkEdit Control.
 ms.assetid: 1b9c0587-5854-45b5-b6d3-97d736cf92aa
 title: InkEdit Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

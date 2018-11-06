@@ -2,7 +2,6 @@
 Description: Represents the collected strokes of ink within an ink space.
 ms.assetid: f942d6a3-f303-49df-a128-de9760b508ef
 title: InkDisp class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

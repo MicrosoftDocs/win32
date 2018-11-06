@@ -1,14 +1,10 @@
 ---
 title: Reorganization
 description: The sales organization has moved to a new organization \ 8212; \ 0034;Sales and Support. \ 0034; Julie Bankert has been promoted to vice president and will lead the new organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38b05d0b-2739-43c2-aac7-7555a5bfbc91
 ms.tgt_platform: multiple
 keywords:
 - Reorganization ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

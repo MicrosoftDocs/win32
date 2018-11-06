@@ -2,7 +2,6 @@
 Description: Add a Filter by CLSID
 ms.assetid: b15cf324-5b9b-41da-a8cf-87071aaf3b60
 title: Add a Filter by CLSID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

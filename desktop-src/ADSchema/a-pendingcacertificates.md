@@ -1,9 +1,6 @@
 ---
 title: Pending-CA-Certificates attribute
 description: The certificates that are about to become effective for this certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec803ff6-3408-4361-84ef-33c47a96e66a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pending-CA-Certificates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

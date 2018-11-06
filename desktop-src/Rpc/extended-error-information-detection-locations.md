@@ -2,7 +2,6 @@
 title: Extended Error Information Detection Locations
 description: Remote Procedure Call (RPC) extended error information detection locations for Windows XP.
 ms.assetid: 73c4d044-363f-4bf5-a8ea-37d8a227183a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

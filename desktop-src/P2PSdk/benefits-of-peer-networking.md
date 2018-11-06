@@ -2,7 +2,6 @@
 Description: The Peer-to-Peer Infrastructure provides a complete solution for you to create peer-to-peer networking applications.
 ms.assetid: 3aed8c13-4dc0-4242-b3de-8817ff2f4018
 title: Benefits of Peer Networking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

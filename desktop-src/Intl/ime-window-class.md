@@ -2,7 +2,6 @@
 Description: The IME window class is a predefined system global class that defines the appearance and behavior of the standard IME windows.
 ms.assetid: 0fa01d84-1304-4235-a148-ea5e8dd5d0b3
 title: IME Window Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

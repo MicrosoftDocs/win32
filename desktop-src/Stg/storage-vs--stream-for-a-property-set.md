@@ -2,7 +2,6 @@
 title: Storage and Stream Objects for a Property Set
 description: The programmer specifies whether a property set is stored in a storage or a stream when the property set is created.
 ms.assetid: d0ca649a-d405-4c34-af02-9c2ca8b2790e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

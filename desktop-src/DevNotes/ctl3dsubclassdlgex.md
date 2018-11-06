@@ -2,7 +2,6 @@
 Description: Subclasses all controls in a dialog box and in the dialog window itself.
 ms.assetid: 4d3c298b-07ba-4668-badd-dddecc389e70
 title: Ctl3dSubclassDlgEx function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: How to Use Word and Line Break Information
 description: A rich edit control calls a function called a word-break procedure to find breaks between words and to determine where it can break lines.
 ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

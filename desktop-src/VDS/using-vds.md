@@ -2,7 +2,6 @@
 Description: Using VDS
 ms.assetid: aa4be499-625d-4dbd-828c-4a55ff2dba2c
 title: Using VDS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

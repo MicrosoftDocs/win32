@@ -1,14 +1,10 @@
 ---
 title: Obtaining an Object Identifier from Microsoft
 description: To extend the Active Directory schema successfully you can obtain a root OID from a script available at http //go.microsoft.com/fwlink/p/ linkid 100725.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9ed2dd0a-620d-4856-a8a1-2d2a4468fd4c
 ms.tgt_platform: multiple
 keywords:
 - Obtaining an Object Identifier from Microsoft
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

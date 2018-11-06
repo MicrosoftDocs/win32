@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-TargetClass attribute
 description: Class name of the policy object to be created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3b6dbdd2-e87f-4ae5-97a0-ccbee7221593
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-TargetClass
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

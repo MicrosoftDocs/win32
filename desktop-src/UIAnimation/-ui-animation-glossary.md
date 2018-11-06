@@ -5,7 +5,6 @@ Robots: noindex, nofollow
 ms.assetid: 66e9cfb4-b9ae-4c21-9b1f-532c7d750903
 keywords:
 - Windows Animation Windows Animation ,glossary
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

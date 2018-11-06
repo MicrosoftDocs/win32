@@ -1,14 +1,10 @@
 ---
 title: Namespaces
 description: Objects that reside within a given namespace are identified by a unique name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d42b4b18-d38f-4071-8e3e-9b9b71d46d4b
 ms.tgt_platform: multiple
 keywords:
 - namespaces ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

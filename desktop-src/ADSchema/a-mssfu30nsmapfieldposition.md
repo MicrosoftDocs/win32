@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-NSMAP-Field-Position attribute
 description: Contains the field position that is used to extract the key from a nonstandard map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ff5e744-8397-4ed7-8b30-26bd9a15c346
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-NSMAP-Field-Position
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

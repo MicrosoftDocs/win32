@@ -1,9 +1,6 @@
 ---
 title: Builtin-Domain class
 description: The container that holds the default groups for a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 29ae300b-cd06-499f-a40d-eec6881538d3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Builtin-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

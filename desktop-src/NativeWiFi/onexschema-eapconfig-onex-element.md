@@ -2,7 +2,6 @@
 Description: specifies the EAPHost configuration.
 ms.assetid: 71ec3ed6-3670-46fc-a24b-580d15297437
 title: EAPConfig (OneX) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

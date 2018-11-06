@@ -2,7 +2,6 @@
 Description: Occurs when a IInkTablet is added to the system.
 ms.assetid: 2076a520-bd37-43b5-b57f-030828b096cb
 title: InkOverlay.TabletAdded event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

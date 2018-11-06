@@ -2,7 +2,6 @@
 Description: The following operators are exposed by the XMVECTORU8 structure.
 ms.assetid: caa72465-c146-4bdc-a66f-325cf4487866
 title: XMVECTORU8 Operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

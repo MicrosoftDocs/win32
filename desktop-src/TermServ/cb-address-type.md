@@ -1,9 +1,6 @@
 ---
 title: CB_ADDRESS_TYPE enumeration
 description: Specifies the address type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1F6ECFA6-8876-4C9B-A883-BD630D54B8E2
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

@@ -5,7 +5,6 @@ ms.assetid: 010c7b15-131a-47c8-9444-ee148bd351b0
 keywords:
 - WM_CAP_FILE_SET_INFOCHUNK message
 - capFileSetInfoChunk macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

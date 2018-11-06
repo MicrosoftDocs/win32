@@ -2,7 +2,6 @@
 Description: Contains a list of the in-process servers registered with the system for 32-bit components on 64-bit computers. It contains an object for each component.
 ms.assetid: 4dbcf059-b09b-4a65-95c9-3a4735c252c3
 title: WOWInprocServers collection
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

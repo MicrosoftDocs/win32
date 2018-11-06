@@ -1,12 +1,8 @@
 ---
 Description: The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b90d8bab-7cae-4dbe-9f6e-daba4e68a10a
 ms.tgt_platform: multiple
 title: SnmpNotification class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

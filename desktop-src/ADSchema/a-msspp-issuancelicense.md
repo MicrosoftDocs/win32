@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-Issuance-License attribute
 description: Issuance license used during online/phone activation of the Active Directory forest
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 926a04b6-0af7-42be-aedb-7a278bcb47fb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-Issuance-License
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

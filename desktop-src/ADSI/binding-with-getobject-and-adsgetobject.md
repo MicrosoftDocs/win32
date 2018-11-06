@@ -1,14 +1,10 @@
 ---
 title: Binding With GetObject and ADsGetObject
 description: The GetObject and ADsGetObject functions are used to bind to directory service objects with no authentication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 15d8116a-8ec1-48b5-bf62-411fdff7c8b8
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding with GetObject and ADsGetObject
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

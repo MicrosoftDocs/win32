@@ -1,16 +1,12 @@
 ---
 title: IADsNameTranslate Interface
 description: The IADsNameTranslate interface is used to translate distinguished names between various formats. Name translations are performed on the directory server, and this interface is currently available only to objects in Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c5c6e821-f19b-4269-81de-34c79dd2731f
 ms.tgt_platform: multiple
 keywords:
 - IADsNameTranslate Interface ADSI
 - IADsTranslate ADSI , using
 - ADSI ADSI , example code C/C++ , using IADsTranslate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

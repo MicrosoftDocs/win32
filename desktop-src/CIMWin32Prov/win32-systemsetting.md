@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemSetting abstract association WMI class relates a computer system and a general setting on that system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 796ee263-2526-43f8-bd3d-23442b6bd4ca
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

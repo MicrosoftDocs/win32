@@ -2,7 +2,6 @@
 Description: Sets or retrieves the value of the attribute.
 ms.assetid: aaf0c07c-756f-48c8-b4cd-def40f7cb1a3
 title: Attribute.Value property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

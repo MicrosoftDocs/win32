@@ -1,7 +1,6 @@
 ---
 ms.assetid: 90780b75-d6b1-47a3-8700-ba05ee2020c4
 title: COM+ Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

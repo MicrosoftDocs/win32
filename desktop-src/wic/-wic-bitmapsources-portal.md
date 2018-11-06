@@ -2,7 +2,6 @@
 Description: This section contains conceptual and how-to topics that describe Windows Imaging Component (WIC) bitmap sources and how to manipulate them.
 ms.assetid: 7c1a0b67-5bb8-4436-8d47-335439d3ff59
 title: Manipulating Bitmaps
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

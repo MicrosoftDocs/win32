@@ -2,7 +2,6 @@
 Description: The Microsoft recognizers handle writing at an angle of +/- 20 degrees, but accuracy degrades as the writing deviates further from ideal horizontal.
 ms.assetid: 846dc6f7-5051-4f5a-a46e-e39c6ca625f0
 title: Recognition of Angled Text
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

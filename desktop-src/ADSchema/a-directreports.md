@@ -1,9 +1,6 @@
 ---
 title: Reports attribute
 description: Contains the list of users that directly report to the user. The users listed as reports are those that have the property manager property set to this user. Each item in the list is a linked reference to the object that represents the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 369fc457-685c-4875-aed3-0a246a219512
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Reports
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Uncompresses the logical codec file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 257c69fa-c4f7-48be-8317-55db4b01601b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

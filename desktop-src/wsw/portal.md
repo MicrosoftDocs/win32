@@ -2,7 +2,6 @@
 title: Windows Web Services API
 description: .
 ms.assetid: 9357786c-1992-4e28-ac75-c2dfda1df7f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

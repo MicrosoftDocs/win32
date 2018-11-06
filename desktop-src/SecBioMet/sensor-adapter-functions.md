@@ -2,7 +2,6 @@
 title: Sensor Adapter Functions
 description: A sensor adapter wraps a biometric device and provides a standard interface that enables the Windows Biometric service to configure the sensor, capture samples, and control the flow of biometric data to the processing engine.
 ms.assetid: 32cf28d3-cb78-442d-81db-7827f55b0ba8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

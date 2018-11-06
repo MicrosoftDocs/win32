@@ -1,9 +1,6 @@
 ---
 title: Pwd-History-Length attribute
 description: The number of old passwords to save.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6440620d-9e77-411a-ab96-f8e979262bec
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pwd-History-Length
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

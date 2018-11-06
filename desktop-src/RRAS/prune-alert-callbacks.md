@@ -2,7 +2,6 @@
 title: Prune Alert Callbacks
 description: When the multicast group manager is notified that receivers are leaving a group on an interface, the multicast group manager invokes the PMGM\_PRUNE\_ALERT\_CALLBACK callback.
 ms.assetid: 34eb6941-9488-481f-93ca-821789acc140
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

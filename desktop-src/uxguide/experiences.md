@@ -2,7 +2,6 @@
 title: Experiences
 description: Experiences are the common experiences and use cases for all apps, like set up, first run, and printing. Learn about the best practices fro creating these experiences and communicating your app brand.
 ms.assetid: 08BA5B8D-A7C6-4B63-A6E9-5CF3D47D934F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Internet browser programs commonly employ the Hypertext Transport P
 ms.assetid: f87262f6-fd82-4e8c-bf83-8f93791deec0
 keywords:
 - Remote Procedure Call RPC , tasks, using RPC/http
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

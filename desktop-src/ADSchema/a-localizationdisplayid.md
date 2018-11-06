@@ -1,9 +1,6 @@
 ---
 title: Localization-Display-Id attribute
 description: Used to index into the file Extrts.mc to get the localized displayName for the objects for UI purposes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed99d499-0064-4832-81ad-75fb3c8c548d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Localization-Display-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Encrypt-Key attribute
 description: The computer's public encryption key.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2213be9d-9c24-48f7-806a-039c1121d37d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Encrypt-Key
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

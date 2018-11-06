@@ -2,7 +2,6 @@
 Description: The CurrentSubpictureStream property sets or retrieves the current subpicture stream.
 ms.assetid: 66473c87-ddfe-4555-89ad-90e210a75694
 title: CurrentSubpictureStream Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

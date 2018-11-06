@@ -2,7 +2,6 @@
 Description: Uncompressed Video Media Types
 ms.assetid: 50bf2947-27ee-4092-9d3a-a1c13ee80e95
 title: Uncompressed Video Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

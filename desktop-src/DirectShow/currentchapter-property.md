@@ -2,7 +2,6 @@
 Description: The CurrentChapter property retrieves the number of the chapter currently playing.
 ms.assetid: f810106b-a5da-44ac-87e6-1c21cf750d9f
 title: CurrentChapter Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

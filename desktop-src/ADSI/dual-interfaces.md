@@ -1,12 +1,8 @@
 ---
 title: Dual Interfaces
 description: Use COM interfaces to access the properties and methods on any provider ADSI objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f3fd725-d660-4cc3-8de2-8ed7800b1141
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Containment/Delegation
 description: The most common mechanism for object reuse in COM is containment/delegation.
 ms.assetid: 56396c11-889a-4f28-8fa7-9e48c805c501
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Set translation information for a specific key frame in the animation set.
 ms.assetid: 4a926c0f-6d57-48d4-bb3b-60766fc78e40
 title: ID3DXKeyframedAnimationSet::SetTranslationKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

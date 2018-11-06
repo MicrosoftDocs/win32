@@ -2,7 +2,6 @@
 Description: The get\_DestinationLeft method retrieves the left coordinate of the current destination rectangle.
 ms.assetid: f1c6d784-7ec3-4d44-a3fb-c1e3b988e392
 title: CBaseControlVideo.get_DestinationLeft method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

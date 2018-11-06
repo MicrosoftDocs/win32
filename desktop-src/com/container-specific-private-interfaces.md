@@ -2,7 +2,6 @@
 title: Container-Specific Private Interfaces
 description: Container-Specific Private Interfaces
 ms.assetid: 429cf71c-9b9d-4d0b-b5de-91fbe1dde3cf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

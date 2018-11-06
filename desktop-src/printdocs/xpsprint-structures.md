@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 13aa0d6b-8964-4d41-9fec-98c09b764a77
 title: XPS Print API Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

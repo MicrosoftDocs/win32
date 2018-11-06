@@ -12,7 +12,6 @@ keywords:
 - MCI (Media Control Interface),device types
 - reference for MCI,device types
 - MCI reference,device types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

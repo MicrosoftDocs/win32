@@ -2,7 +2,6 @@
 Description: The IDownloadProgress interface defines the following method.
 ms.assetid: 04d46d02-48e1-417a-9078-0423e7a2c3c6
 title: IDownloadProgress Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

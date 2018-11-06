@@ -1,9 +1,6 @@
 ---
 title: IADsOctetList Property Methods
 description: The property method of the IADsOctetList interface sets the property described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6fe29a0d-dd53-4cc2-8152-22a0a2756c2c
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

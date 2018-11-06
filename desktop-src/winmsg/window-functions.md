@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 6303b0c8-5172-41d7-bd0e-40d3a7d024ba
 title: Window Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

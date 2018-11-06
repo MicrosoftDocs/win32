@@ -1,9 +1,6 @@
 ---
 title: Object-Sid attribute
 description: A binary value that specifies the security identifier (SID) of the user. The SID is a unique value used to identify the user as a security principal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 78ef0158-f59e-43df-b3fc-fb0f709936f6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Sid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

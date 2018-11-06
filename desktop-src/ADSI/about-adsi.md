@@ -1,16 +1,12 @@
 ---
 title: About Active Directory Service Interfaces
 description: Active Directory Service Interfaces (ADSI) abstracts the capabilities of directory services from different network providers in a distributed computing environment to present a single set of directory service interfaces for managing network resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6d601af5-7470-42c2-b99e-21174ea008b1
 ms.tgt_platform: multiple
 keywords:
 - About Active Directory Service Interfaces ADSI
 - ADSI ADSI , About
 - Active Directory Service Interfaces ADSI , About
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This attribute determines the position of the control on the dialog box.
 ms.assetid: 53d79eff-80ff-4f47-ad12-ea24bcc1f061
 title: Position Control Attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Occurs when the InkCollector detects a cursor button that is up.
 ms.assetid: bb10b032-a88d-4b52-9062-c0b63dfe98e9
 title: InkPicture.CursorButtonUp event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

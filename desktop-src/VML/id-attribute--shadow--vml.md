@@ -2,7 +2,6 @@
 title: ID Attribute (Shadow)(VML)
 description: ID Attribute (Shadow)(VML)
 ms.assetid: ca20b6b9-a41c-4073-9178-77eb0f918327
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

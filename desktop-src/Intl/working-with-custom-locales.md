@@ -2,7 +2,6 @@
 Description: This topic provides some instructions for handling custom locales in your applications.
 ms.assetid: 2622e2b3-b952-4666-a440-85d73d11c5e0
 title: Working with Custom Locales
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

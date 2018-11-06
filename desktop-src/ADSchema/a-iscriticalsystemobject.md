@@ -1,9 +1,6 @@
 ---
 title: Is-Critical-System-Object attribute
 description: If TRUE, the object hosting this attribute must be replicated during installation of a new replica.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 736c8b25-0f82-4b3c-a4fc-4643cd71474e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Critical-System-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

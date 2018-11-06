@@ -2,7 +2,6 @@
 title: VML StartArrowLength Attribute
 description: VML StartArrowLength Attribute
 ms.assetid: 7c108132-4f74-41cc-bfac-123f0259e6cb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

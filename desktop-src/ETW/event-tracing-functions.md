@@ -2,7 +2,6 @@
 Description: Event trace controllers use the following functions to manage event tracing sessions.
 ms.assetid: 6f0f1173-19e1-4aec-b6a6-77f18f819c30
 title: Event Tracing Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

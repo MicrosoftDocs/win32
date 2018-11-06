@@ -2,7 +2,6 @@
 Description: Strategies for communicating with multiple pipe clients and servicing multiple pipe instances.
 ms.assetid: c764bde5-e053-4124-b859-1d2839ada918
 title: Named Pipe Instances
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

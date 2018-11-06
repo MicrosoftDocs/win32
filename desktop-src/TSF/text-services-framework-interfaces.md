@@ -9,7 +9,6 @@ keywords:
 - TSF-enabled applications,interfaces
 - TSF reference,interfaces
 - reference for TSF,interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

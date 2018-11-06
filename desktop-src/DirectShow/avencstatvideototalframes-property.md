@@ -2,7 +2,6 @@
 Description: Returns the number of video frames that the encoder received.
 ms.assetid: 3de49105-3c74-4a52-9cac-465b4abfcbf5
 title: AVEncStatVideoTotalFrames property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

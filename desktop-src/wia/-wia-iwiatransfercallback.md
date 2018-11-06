@@ -2,7 +2,6 @@
 Description: The IWiaTransferCallback interface receives callbacks during a data transfer.
 ms.assetid: 8fcaccf5-4d7b-4984-97ec-ec8c838a8360
 title: IWiaTransferCallback interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

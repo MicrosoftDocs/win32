@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings SasSequence property
 description: Specifies the secure access sequence (SAS) the client will use to access the login screen on the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ec1dc7b1-2bf1-447b-a768-08f28982a995
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

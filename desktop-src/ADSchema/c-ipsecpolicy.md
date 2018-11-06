@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Policy class
 description: The Ipsec-Policy class is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 91513b02-02fb-44d1-b780-af8f143c6124
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

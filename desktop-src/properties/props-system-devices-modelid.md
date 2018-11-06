@@ -2,7 +2,6 @@
 Description: Model Id.
 ms.assetid: eb2b9edf-a217-47d1-bd36-23ba166c0022
 title: System.Devices.ModelId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

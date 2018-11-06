@@ -2,7 +2,6 @@
 Description: The CEnumPins class implements an enumerator for pins.
 ms.assetid: 8729f294-c76d-404f-9f51-7565470eced8
 title: CEnumPins class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

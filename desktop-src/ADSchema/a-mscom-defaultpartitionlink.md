@@ -1,9 +1,6 @@
 ---
 title: ms-COM-DefaultPartitionLink attribute
 description: A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5fe4330c-845a-4c6b-8546-905b455698d6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-DefaultPartitionLink
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

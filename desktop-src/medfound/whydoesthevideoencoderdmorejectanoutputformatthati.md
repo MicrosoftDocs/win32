@@ -2,7 +2,6 @@
 Description: Why does the video encoder reject an output format that I try to set, when I retrieved the format from the same object?
 ms.assetid: f0747450-d224-423a-a9f1-04580df8a17e
 title: Why does the video encoder reject an output format that I try to set, when I retrieved the format from the same object?
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: IAgent Register
 description: IAgent Register
 ms.assetid: 3592e8ba-979e-4914-8197-17e645806f97
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

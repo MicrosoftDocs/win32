@@ -2,7 +2,6 @@
 Description: The wireless ad hoc interface defines and uses the following enumerations.
 ms.assetid: d41682b5-eff2-4484-b6e9-af1272c990ad
 title: Wireless Ad Hoc Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

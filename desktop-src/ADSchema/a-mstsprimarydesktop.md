@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Primary-Desktop attribute
 description: This attribute represents the forward link to a user's primary desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f1dc80b5-371a-4e59-9bcf-4d04f01ea80c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Primary-Desktop
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

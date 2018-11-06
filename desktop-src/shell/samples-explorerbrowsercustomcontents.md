@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates how to implement a custom Explorer Browser contol for your application.
 title: Explorer Browser Custom Contents Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

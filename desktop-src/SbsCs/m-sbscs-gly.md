@@ -3,7 +3,6 @@ Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 726518FB-FCED-433B-BDD1-3B141C17AF32
 title: M
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

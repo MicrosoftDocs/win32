@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_StatisticalInformation class is a root class for the arbitrary collection of statistical data or metrics applicable to one or more managed system elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ecc3b310-c553-416b-b4e3-705965557945
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_StatisticalInformation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_StatisticalInformation** class is a root class for the arbitrary collection of statistical data or metrics applicable to one or more managed system elements.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

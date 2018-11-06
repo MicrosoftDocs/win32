@@ -2,7 +2,6 @@
 title: IAgentUserInput GetAllItemData
 description: IAgentUserInput GetAllItemData
 ms.assetid: d1857b28-c745-4ed2-b49e-774f247e7348
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

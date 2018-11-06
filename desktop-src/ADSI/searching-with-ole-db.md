@@ -1,15 +1,11 @@
 ---
 title: Searching with OLE DB
 description: For both Automation clients using ActiveX Data Objects (ADO) and all non-Automation clients, ADSI supplies an OLE DB provider that supports a subset of OLE DB query interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4e48b60-82dd-4c39-879b-0bc8f40747d2
 ms.tgt_platform: multiple
 keywords:
 - Searching with OLE DB ADSI
 - queries ADSI , searching with OLE DB
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

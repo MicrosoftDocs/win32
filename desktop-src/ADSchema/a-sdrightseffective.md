@@ -1,9 +1,6 @@
 ---
 title: SD-Rights-Effective attribute
 description: This constructed attribute returns a single DWORD value that can have up to three bits set OWNER\_SECURITY\_INFORMATIONDACL\_SECURITY\_INFORMATIONSACL\_SECURITY\_INFORMATION If a bit is set, then the user has write access to the corresponding part of the security descriptor. Owner means both owner and group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66d1aefb-49be-42fc-b144-3fb95c59dd0f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SD-Rights-Effective
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

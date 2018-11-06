@@ -2,7 +2,6 @@
 Description: Model name of the device.
 ms.assetid: 661a58ed-3efd-465f-9a48-db3302794792
 title: System.Devices.ModelName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The AllocFormatBuffer method allocates memory for the format block.
 ms.assetid: 5ff716c7-f9cf-4b1c-9d3a-62ab955c1392
 title: CMediaType.AllocFormatBuffer method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

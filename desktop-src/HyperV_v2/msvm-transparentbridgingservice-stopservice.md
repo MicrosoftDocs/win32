@@ -2,7 +2,6 @@
 Description: Stops the service.
 ms.assetid: ac6b8df2-e2f2-47df-8c1e-07460a15e8e2
 title: StopService method of the Msvm_TransparentBridgingService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

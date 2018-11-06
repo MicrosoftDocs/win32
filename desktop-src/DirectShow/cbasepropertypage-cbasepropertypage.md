@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 5d9863e7-fdd9-4df2-a603-34a240a2286c
 title: CBasePropertyPage.CBasePropertyPage constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

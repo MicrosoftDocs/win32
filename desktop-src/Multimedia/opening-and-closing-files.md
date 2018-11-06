@@ -5,7 +5,6 @@ ms.assetid: 72655d33-f685-4205-a982-f7cd20c59f22
 keywords:
 - AVIFileOpen function
 - AVIFileRelease function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The date and time a communication was sent.
 ms.assetid: f8487ddb-0646-419d-921b-2333827a37fc
 title: System.Message.DateSent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

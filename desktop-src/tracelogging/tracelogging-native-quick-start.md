@@ -2,7 +2,6 @@
 title: TraceLogging C/C++ Quick Start
 description: The following section describes the basic steps required to add TraceLogging to native user-mode code.
 ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -18,7 +17,7 @@ The following section describes the basic steps required to add TraceLogging to 
 -   Windows 10 Software Development Kit (SDK) is required to write a user-mode provider
 -   Windows Driver Kit (WDK) for Windows 10 is required to write a kernel-mode provider
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Link advapi32.lib in order to compile these examples.
 
  

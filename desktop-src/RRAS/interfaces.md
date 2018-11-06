@@ -2,7 +2,6 @@
 title: Interfaces
 description: An interface represents a network that can be reached over a LAN or WAN adapter.
 ms.assetid: 26eec1af-43b4-4719-bec9-bc3f9b0341e6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

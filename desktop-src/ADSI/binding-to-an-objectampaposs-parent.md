@@ -1,14 +1,10 @@
 ---
 title: Binding to an Object's Parent
 description: In ADSI, every directory object is represented by an ADSI COM object that exposes the IADs interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3740e862-4cfe-484c-8c8e-3923c64cdd47
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding to an object's parent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

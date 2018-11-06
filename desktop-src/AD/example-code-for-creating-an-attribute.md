@@ -1,14 +1,10 @@
 ---
 title: Example Code for Creating an Attribute
 description: The following code example creates an attributeSchema object in the schema container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5f679a88-29d1-44ec-918b-091522188ae9
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Creating an Attribute AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

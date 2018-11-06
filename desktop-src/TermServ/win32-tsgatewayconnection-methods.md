@@ -1,12 +1,8 @@
 ---
 title: Win32_TSGatewayConnection Methods
 description: The Win32\_TSGatewayConnection class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: A943736D-CA86-4233-A84D-66F9A9C00521
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

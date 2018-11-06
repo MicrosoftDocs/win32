@@ -2,7 +2,6 @@
 title: ActiveX Controls
 description: ActiveX Controls
 ms.assetid: e491b66c-d6ba-4476-8413-7a9e41c05e8d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

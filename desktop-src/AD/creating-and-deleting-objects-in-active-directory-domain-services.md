@@ -1,16 +1,12 @@
 ---
 title: Creating and Deleting Objects in Active Directory Domain Services
 description: The procedure used to programmatically create and delete objects in Active Directory Domain Services is dependent upon the programming technology used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13f83aea-ad39-4737-af3c-24316a31046d
 ms.tgt_platform: multiple
 keywords:
 - Creating and Deleting Active Directory Objects Active Directory
 - Active Directory Domain Services Active Directory , using creating and deleting objects
 - objects Active Directory , creating and deleting Active Directory Domain Services objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

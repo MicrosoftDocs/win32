@@ -2,7 +2,6 @@
 Description: Retrieves the number of vertices in the mesh.
 ms.assetid: 2be2bb34-74fa-438c-913d-e41dd9fa8354
 title: ID3DXBaseMesh::GetNumVertices method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Yp-Servers attribute
 description: Contains a list of NIS servers in an NIS domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45547dc9-8fc2-4ab2-af3e-396fd04e7446
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Yp-Servers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

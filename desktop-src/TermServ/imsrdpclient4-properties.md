@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClient4 Properties
 description: The IMsRdpClient4 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B2DD5CE8-B401-460B-81E3-061CEF381C26
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

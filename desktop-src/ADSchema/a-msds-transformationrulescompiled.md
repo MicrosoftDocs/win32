@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Transformation-Rules-Compiled attribute
 description: Blob containing compiled transformation rules.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13fc1bd5-b9dc-4934-bccf-86d4d32243c6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Transformation-Rules-Compiled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

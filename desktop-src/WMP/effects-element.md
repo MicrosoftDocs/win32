@@ -8,7 +8,6 @@ keywords:
 - EFFECTS element
 - reference for skins,EFFECTS element
 - elements,EFFECTS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

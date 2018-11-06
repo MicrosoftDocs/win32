@@ -2,7 +2,6 @@
 Description: Pointer to the object's reference clock.
 ms.assetid: 6550829c-fad3-4769-98e4-0f5795400295
 title: CBaseMediaFilter::m_pClock member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

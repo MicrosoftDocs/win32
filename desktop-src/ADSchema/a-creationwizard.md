@@ -1,9 +1,6 @@
 ---
 title: Creation-Wizard attribute
 description: Wizard to activate when creating objects of this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f18a8ec5-1004-4a19-80b6-4c207539f359
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Creation-Wizard
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

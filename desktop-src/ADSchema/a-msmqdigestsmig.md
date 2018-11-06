@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Digests-Mig attribute
 description: In MSMQ mixed-mode, contains the previous value of mSMQDigests.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1ce47cb-bfa2-4a49-b5fd-0a88b15b5757
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Digests-Mig
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

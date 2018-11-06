@@ -1,14 +1,10 @@
 ---
 title: Example Code for Changing the Scope of a Group
 description: This topic contains example code for changing the scope of a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ae61101-f123-44bd-8bec-bade51d22217
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , changing the scope of a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

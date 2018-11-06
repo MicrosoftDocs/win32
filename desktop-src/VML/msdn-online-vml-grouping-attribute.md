@@ -2,7 +2,6 @@
 title: VML Grouping Attribute
 description: VML Grouping Attribute
 ms.assetid: 0a1e183c-fc92-4f6b-bcfc-a4003b270fa4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

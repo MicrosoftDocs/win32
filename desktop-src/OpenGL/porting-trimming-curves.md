@@ -13,7 +13,6 @@ keywords:
 - porting from IRIS GL,curves
 - porting to OpenGL from IRIS GL,curves
 - OpenGL porting from IRIS GL,curves
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

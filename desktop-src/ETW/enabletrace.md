@@ -2,7 +2,6 @@
 Description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 title: EnableTrace function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

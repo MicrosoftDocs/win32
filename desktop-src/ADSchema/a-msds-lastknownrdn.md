@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Last-Known-RDN attribute
 description: Contains the original RDN of a deleted object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4d655117-673a-4c43-b8fe-c4aa45061330
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Last-Known-RDN
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

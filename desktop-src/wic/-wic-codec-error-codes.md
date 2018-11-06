@@ -2,7 +2,6 @@
 Description: This document contains a list of the Windows Imaging Component (WIC) defined error codes.
 ms.assetid: 1ded909c-311b-49e3-ba23-b22cd7a77bc6
 title: Codec Error Codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

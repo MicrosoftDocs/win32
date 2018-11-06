@@ -1,9 +1,6 @@
 ---
 title: Previous-CA-Certificates attribute
 description: Last expired certificate for this certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8d8d8e2f-90ae-4977-9094-e84139bbfe36
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Previous-CA-Certificates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

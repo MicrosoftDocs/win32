@@ -2,7 +2,6 @@
 Description: User-Mode Audio Components
 ms.assetid: b240b629-5bb6-4b07-95be-8ca5a14a3567
 title: User-Mode Audio Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

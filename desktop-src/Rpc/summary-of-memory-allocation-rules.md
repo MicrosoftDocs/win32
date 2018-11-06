@@ -2,7 +2,6 @@
 title: Summary of Memory Allocation Rules
 description: The following table summarizes key rules regarding memory allocation.
 ms.assetid: 0c1f8398-75e6-45ec-a9f9-9dcdbe21c24d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

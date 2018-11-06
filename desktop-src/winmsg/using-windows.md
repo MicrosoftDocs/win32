@@ -2,7 +2,6 @@
 Description: The examples in this section describe how to perform tasks associated with using windows.
 ms.assetid: 7695fb64-3918-4d9a-8cd8-01d20edd9c55
 title: Using Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

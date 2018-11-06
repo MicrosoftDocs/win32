@@ -5,7 +5,6 @@ ms.assetid: b4b2ff02-3836-4044-b8fa-d3405f433d8c
 keywords:
 - MDM_WindowsAdvancedThreatProtection_Configuration01 class
 - MDM_WindowsAdvancedThreatProtection_Configuration01 class, described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

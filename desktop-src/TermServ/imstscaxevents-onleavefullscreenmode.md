@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnLeaveFullScreenMode method
 description: Called when the client leaves full-screen mode. For example, this event is called when the user presses the full-screen mode shortcut key combination (CTRL+ALT+BREAK).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 95c5d427-b6e2-4a42-9816-b130ab533ac0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

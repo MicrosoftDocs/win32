@@ -6,7 +6,6 @@ keywords:
 - streams,configuring text streams
 - codecs,configuring text streams
 - text streams,configuring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

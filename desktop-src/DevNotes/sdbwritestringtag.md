@@ -2,7 +2,6 @@
 Description: Writes a string to the specified database.
 ms.assetid: 72c62d91-0c1c-4ff8-8829-1c3ec1fa8648
 title: SdbWriteStringTag function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

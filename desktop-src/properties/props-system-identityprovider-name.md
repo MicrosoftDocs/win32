@@ -2,7 +2,6 @@
 Description: Identity provider name.
 ms.assetid: 5fce02b0-d91e-4280-a3a2-3f1ecacb15e0
 title: System.IdentityProvider.Name
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

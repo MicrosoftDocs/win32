@@ -4,7 +4,6 @@ description: This section contains information about the shader interfaces.
 ms.assetid: 1791d2c9-3791-47fe-b887-a8117ecc798b
 keywords:
 - interfaces, Direct3D 11 Shader
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PrinterController association WMI class relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fb483b28-11f1-4153-893e-492f71763712
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PrinterController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

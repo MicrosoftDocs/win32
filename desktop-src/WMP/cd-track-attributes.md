@@ -13,7 +13,6 @@ keywords:
 - reference for object model,CD track attributes
 - attributes,CD tracks
 - CD track attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

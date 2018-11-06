@@ -2,7 +2,6 @@
 title: Custom Draw Notifications
 description: .
 ms.assetid: 95cc8adc-cfa8-472c-9fe6-a29b63b5053f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

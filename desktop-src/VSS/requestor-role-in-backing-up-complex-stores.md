@@ -2,7 +2,6 @@
 Description: As with all important operations under VSS, incremental and differential backups require close cooperation between requesters and writers.
 ms.assetid: 00391a49-8c81-4518-88a2-741ad5ee4ac3
 title: Requester Role in Backing Up Complex Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

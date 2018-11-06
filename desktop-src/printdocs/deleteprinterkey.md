@@ -2,7 +2,6 @@
 Description: The DeletePrinterKey function deletes a specified key and all its subkeys for a specified printer.
 ms.assetid: 0bd81b43-5c1e-4989-8350-2ec0dc215f28
 title: DeletePrinterKey function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

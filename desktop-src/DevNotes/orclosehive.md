@@ -2,7 +2,6 @@
 Description: Closes the specified offline registry hive and frees memory allocated for the hive.
 ms.assetid: e30a92dd-8533-406f-ad63-96306f125d78
 title: ORCloseHive function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

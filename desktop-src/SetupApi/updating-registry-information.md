@@ -2,7 +2,6 @@
 Description: After the queue has successfully committed, you will need to update registry information for the product you are installing.
 ms.assetid: 32161538-c1bd-41a0-bb4f-a32883fe8285
 title: Updating Registry Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

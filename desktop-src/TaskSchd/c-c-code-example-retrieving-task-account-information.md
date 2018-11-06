@@ -5,7 +5,6 @@ ms.assetid: ef330276-a063-42c6-a837-fddb4723091b
 keywords:
 - retrieving task account information Task Scheduler
 - retrieving work item properties Task Scheduler , account information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

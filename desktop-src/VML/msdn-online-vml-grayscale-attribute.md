@@ -2,7 +2,6 @@
 title: VML GrayScale Attribute
 description: VML GrayScale Attribute
 ms.assetid: 0715b78c-f529-422e-9064-7b99324e60de
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The GetDescriptor method returns the USB hub descriptor as specified by the input parameters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0090da35-0de1-4ea5-b983-bd9bf9997009
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetDescriptor method of the CIM_USBHub class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **GetDescriptor** method returns the USB hub descriptor as specified by the input parameters.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

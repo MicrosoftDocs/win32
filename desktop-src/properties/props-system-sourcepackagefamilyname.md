@@ -2,7 +2,6 @@
 Description: Package family name of the app which the storage item instance originated.
 ms.assetid: ccebd9a4-03b8-4351-ac37-0b161ddbe2c9
 title: System.SourcePackageFamilyName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient5 AdvancedSettings6 property
 description: Retrieves the IMsRdpClientAdvancedSettings5 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b6a4efcf-87c3-438c-b6de-8a497ee5939d
 ms.tgt_platform: multiple
 keywords:
@@ -39,7 +36,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

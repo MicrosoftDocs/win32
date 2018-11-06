@@ -13,7 +13,6 @@ keywords:
 - synchronizing devices,synchronization engine
 - device synchronization,synchronization engine
 - synchronization engine
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

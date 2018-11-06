@@ -1,9 +1,6 @@
 ---
 title: FRS-Time-Last-Command attribute
 description: The time in which the last command was executed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 262d410b-406a-4d4f-91f3-9986e867a4a5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Time-Last-Command
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

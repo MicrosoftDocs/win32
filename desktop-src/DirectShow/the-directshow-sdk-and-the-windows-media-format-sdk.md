@@ -2,7 +2,6 @@
 Description: The DirectShow SDK and the Windows Media Format SDK
 ms.assetid: d9ac89cc-0d55-4c51-ae0a-592422d97383
 title: The DirectShow SDK and the Windows Media Format SDK
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

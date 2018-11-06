@@ -2,7 +2,6 @@
 Description: Raised by the audio renderer when the default audio format for the audio device changes. The audio renderer is now invalid.
 ms.assetid: eeef764a-f6d2-4f6e-9af3-acd5fd7bc55c
 title: MEAudioSessionFormatChanged event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

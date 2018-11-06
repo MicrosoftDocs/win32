@@ -2,7 +2,6 @@
 Description: Using Custom Properties.
 ms.assetid: 09b30c95-0ce2-401c-a4ae-99c801a2048a
 title: Using Custom Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

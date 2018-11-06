@@ -1,14 +1,10 @@
 ---
 title: Setting Up Visual Basic 6.0 for ADSI Development
 description: This topic discusses how to set up Visual Basic in Visual Studio to develop an ADSI application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 167e89d7-80a3-4cc2-b79c-3744c1b184d6
 ms.tgt_platform: multiple
 keywords:
 - Setting Up Visual Basic for ADSI Development ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

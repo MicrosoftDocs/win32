@@ -7,7 +7,6 @@ keywords:
 - online stores,reference
 - type 1 online stores,reference
 - reference for type 1 online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

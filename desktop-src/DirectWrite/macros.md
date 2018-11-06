@@ -4,7 +4,6 @@ description: DirectWrite defines the following macros.
 ms.assetid: 4c95c345-c097-456a-860a-b49f510863aa
 keywords:
 - DirectWrite,macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

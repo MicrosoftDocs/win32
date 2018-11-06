@@ -2,7 +2,6 @@
 title: IAccessible Design Considerations
 description: This section discusses the issues that server developer face when designing classes based on the IAccessible interface.
 ms.assetid: 240cdff1-a4c3-477a-b146-2ac295d7a148
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

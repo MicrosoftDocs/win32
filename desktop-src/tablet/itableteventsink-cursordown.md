@@ -2,7 +2,6 @@
 Description: Occurs when the stylus tip contacts the digitizing tablet surface.
 ms.assetid: 7f4a441d-00d2-4120-8a8d-d3496cdc7e58
 title: ITabletEventSink::CursorDown method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

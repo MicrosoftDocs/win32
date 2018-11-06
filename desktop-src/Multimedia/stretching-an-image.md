@@ -5,7 +5,6 @@ ms.assetid: 7cfd91c3-0ebd-47eb-a33d-c81a66f820e5
 keywords:
 - MCIWndGetDest macro
 - MCIWndPutDest macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

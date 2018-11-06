@@ -1,7 +1,6 @@
 ---
 Description: Drag-and-Drop Handlers and Custom Clipboard Format
 title: Drag-and-Drop Handlers and Custom Clipboard Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

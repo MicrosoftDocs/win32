@@ -2,7 +2,6 @@
 Description: Lists the Winlogon notification package reference topics.
 ms.assetid: 84b242d1-7c46-4692-a1f2-48d5b3eea8e8
 title: Winlogon Notification Package Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

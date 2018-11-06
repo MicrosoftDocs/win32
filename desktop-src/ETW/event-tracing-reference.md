@@ -2,7 +2,6 @@
 Description: Lists the elements used with event tracing.
 ms.assetid: 8cb5907e-9006-45d1-9d48-13a43a631664
 title: Event Tracing Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

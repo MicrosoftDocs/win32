@@ -1,16 +1,12 @@
 ---
 title: Modifying an ADSI Object from ADO
 description: ADSI for Windows 2000 and DS Client includes a read-only OLE DB provider. This means that you cannot, at present, issue the UPDATE statement in the SQL dialect.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b0a107ed-0271-45ab-b971-f589f34472e2
 ms.tgt_platform: multiple
 keywords:
 - Modifying an ADSI Object from ADO ADSI
 - ActiveX data object ADSI , modifying an ADSI object from ADO
 - ADSI ADSI , example code C/C++ , modifying an ADSI object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

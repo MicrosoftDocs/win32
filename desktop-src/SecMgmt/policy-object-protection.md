@@ -2,7 +2,6 @@
 Description: Describes how the Policy object is protected by default.
 ms.assetid: e2d65ebf-5fbd-4e25-9862-a8188abb5492
 title: Policy Object Protection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

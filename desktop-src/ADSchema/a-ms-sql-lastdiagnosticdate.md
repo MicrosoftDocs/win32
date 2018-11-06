@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-LastDiagnosticDate attribute
 description: The last date that DBCC checkdb was run.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7060e111-e4cb-4c5a-bce1-32712cbea00e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-LastDiagnosticDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

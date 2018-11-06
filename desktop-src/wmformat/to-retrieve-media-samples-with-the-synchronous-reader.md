@@ -8,7 +8,6 @@ keywords:
 - Advanced Systems Format (ASF),synchronous readers
 - ASF (Advanced Systems Format),synchronous readers
 - synchronous readers,retrieving media samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

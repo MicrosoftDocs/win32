@@ -1,9 +1,6 @@
 ---
 title: dhcp-Update-Time attribute
 description: The dhcp-Update-Time attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6116d327-74f3-422b-b2ea-27555b6c04bc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Update-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

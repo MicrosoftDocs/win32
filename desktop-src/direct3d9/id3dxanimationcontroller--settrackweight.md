@@ -2,7 +2,6 @@
 Description: Sets the track weight. The weight is used to determine how to blend multiple tracks together.
 ms.assetid: a00ceae4-47b4-4fb9-a028-97493e3dc071
 title: ID3DXAnimationController::SetTrackWeight method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

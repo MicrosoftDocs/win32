@@ -2,7 +2,6 @@
 Description: Returns a RecordList object that enumerates the list of products.
 ms.assetid: 30735b9f-091b-4915-9b07-9688c9be2d26
 title: Installer.ProductsEx property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

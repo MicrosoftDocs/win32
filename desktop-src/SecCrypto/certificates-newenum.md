@@ -2,7 +2,6 @@
 Description: The \_NewEnum property of Certificates retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: bbe6c82c-1949-4d81-bb87-3f05613efa6d
 title: Certificates._NewEnum property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

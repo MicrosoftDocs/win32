@@ -2,7 +2,6 @@
 title: VML Fill Element
 description: VML Fill Element
 ms.assetid: ea790017-5aaa-4e75-8fc7-77fc94fd1d1e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: About Mutual Authentication Using Kerberos
 description: In mutual authentication, the client and service must verify their respective identities to each other before performing application functions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5ce923d6-bede-4acb-b297-e93f2f506ea9
 ms.tgt_platform: multiple
 keywords:
 - About Mutual Authentication Using Kerberos AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

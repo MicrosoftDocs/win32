@@ -1,9 +1,6 @@
 ---
 title: Allowed-Attributes attribute
 description: Attributes that will be permitted to be assigned to a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea73d3b9-51fc-486e-a5c7-f5123c5620bf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Allowed-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

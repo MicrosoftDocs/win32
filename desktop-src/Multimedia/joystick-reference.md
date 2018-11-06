@@ -9,7 +9,6 @@ keywords:
 - joysticks,reference
 - reference for joysticks,about
 - joystick reference,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

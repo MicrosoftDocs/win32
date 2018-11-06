@@ -2,7 +2,6 @@
 title: Adapters
 description: An adapter represents the hardware that connects to a particular network segment.
 ms.assetid: e310341a-904c-4131-94ba-174398c7aeeb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Querying for Event Information
 ms.assetid: e03d2ab5-50ea-4916-9774-850506714538
 title: Querying for Event Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

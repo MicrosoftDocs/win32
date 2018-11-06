@@ -2,7 +2,6 @@
 Description: Video Port Pins in File Capture
 ms.assetid: 0fa6d88e-3c64-487f-b007-8c65bf47211d
 title: Video Port Pins in File Capture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

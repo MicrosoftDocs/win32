@@ -2,7 +2,6 @@
 Description: Secured transforms are sometimes necessary for security reasons.
 ms.assetid: c6019b28-b0a7-4104-9d78-b4b4228635b8
 title: Secured Transforms
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

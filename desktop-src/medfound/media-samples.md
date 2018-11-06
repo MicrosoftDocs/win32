@@ -2,7 +2,6 @@
 Description: Media Samples
 ms.assetid: 14389eea-8091-4c10-849e-53db3e98a7c8
 title: Media Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

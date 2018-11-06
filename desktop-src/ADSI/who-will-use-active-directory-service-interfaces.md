@@ -1,12 +1,8 @@
 ---
 title: Who Will Use Active Directory Service Interfaces
 description: Network administrators will use ADSI to automate common administrative tasks such as adding users and groups, managing printers, and setting permissions on network resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 769b9478-67f1-4be6-9867-cca1f3267754
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

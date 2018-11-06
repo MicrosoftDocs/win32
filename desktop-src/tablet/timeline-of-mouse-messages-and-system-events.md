@@ -2,7 +2,6 @@
 Description: When a given action is performed, the system events (prefixed with ISG\_) are sent and received almost instantaneously by the application.
 ms.assetid: deca6d17-fe2c-4130-88ca-d0605bcb6084
 title: Timeline of Mouse Messages and System Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
