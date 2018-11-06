@@ -11,6 +11,9 @@ Windows 10 and the Universal Windows Platform (UWP) offer many features you can 
 
 This article describes the Windows 10 and UWP features that you can use in your desktop applications today.
 
+> [!NOTE]
+> Do you need assistance migrating desktop applications to Windows 10? The [Desktop App Assure](https://docs.microsoft.com/FastTrack/win-10-desktop-app-assure) service provides direct, no-cost support to application developers who are porting their applications to Windows 10. This program is available to all ISVs and eligible enterprises. For more details on eligibility and about the program itself, visit [http://aka.ms/DesktopAppAssure](http://aka.ms/DesktopAppAssure). To get started now, [submit your request](http://aka.ms/DesktopAppAssureRequest).
+
 ## MSIX packages
 
 MSIX is a modern Windows app package format that provides a universal packaging experience for all Windows applications, including UWP, WPF, Windows Forms and Win32 applications. MSIX brings together the best aspects of MSI, .appx, App-V and ClickOnce installation technologies and is built to be safe, secure, and reliable.
