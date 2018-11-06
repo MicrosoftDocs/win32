@@ -680,7 +680,6 @@ The following relocation type indicators are defined for ARM64 processors.
 | IMAGE\_REL\_ARM64\_BRANCH19 <br/>        | 0x000F <br/> | The 19-bit offset to the relocation target, for conditional B instruction. <br/>                                                                        |
 | IMAGE\_REL\_ARM64\_BRANCH14 <br/>        | 0x0010 <br/> | The 14-bit offset to the relocation target, for instructions TBZ and TBNZ. <br/>                                                                        |
 | IMAGE\_REL\_ARM64\_REL32 <br/>           | 0x0011 <br/> | The 32-bit relative address from the byte following the relocation. <br/>                                                                               |
- 
 
 ### Hitachi SuperH Processors
 
