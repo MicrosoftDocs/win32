@@ -3,7 +3,7 @@ title: Windows Desktop Application Program
 description: You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program.
 ms.assetid: F1ED72A5-E1CD-4924-A81B-ED6FAF5E2AA3
 ms.topic: article
-ms.date: 09/24/2018
+ms.date: 11/02/2018
 ---
 
 # Windows Desktop Application Program
@@ -14,14 +14,14 @@ There's no charge to access this data all you need to do is [sign up](https://go
 
 ## Join the Windows Desktop Application Program
 
-**If your company already has a Windows Dev Center account**: Sign into your Dev Center account (using the Microsoft account associated with the account owner) and navigate to the **Programs** page (either in **Account settings** or by selecting **All** in the left navigation menu). Under **Windows Desktop Application Program**, click **Get Started** to join the program at no additional cost. If you have an Azure AD tenant associated with your Dev Center account, users you've added will be able to access the Windows Desktop Application Program. Coming soon, we ll allow you to set more granular access for this program.
+**If your company already has a Partner Center account**: Sign into your Partner Center account (using the Microsoft account associated with the account owner) and navigate to the **Programs** page (either in **Account settings** or by selecting **All** in the left navigation menu). Under **Windows Desktop Application Program**, click **Get Started** to join the program at no additional cost. If you have an Azure AD tenant associated with your Partner Center account, users you've added will be able to access the Windows Desktop Application Program. Coming soon, we ll allow you to set more granular access for this program.
 
 > [!Tip]  
-> If your company has a Dev Center account but you don't have access, ask your administrator to [add you as a user](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
+> If your company has a Partner Center account, but you don't have access to it, ask your administrator to [add you as a user](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
 
  
 
-**If your company doesn't have a Dev Center account**: You can [sign up for the Windows Desktop Application Program directly](https://go.microsoft.com/fwlink/p/?linkid=858940) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
+**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://go.microsoft.com/fwlink/p/?linkid=858940) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
 
 ## Add your desktop applications
 
@@ -205,11 +205,11 @@ You can use Azure Active Directory to add and manage additional users in your Wi
 
 In order to add and manage account users, you must first associate your account with your organization's Azure Active Directory. If your organization already uses Office 365 or other business services from Microsoft, you already have Azure AD. Otherwise, you can create a new Azure AD tenant at no additional charge.
 
-See [Associate Azure Active Directory with your Dev Center account](https://docs.microsoft.com/windows/uwp/publish/associate-azure-ad-with-dev-center) for more info. While the topic focuses on the Windows apps developer program, associating a tenant works the same way for the Windows Desktop Application Program.
+See [Associate Azure Active Directory with your Partner Center account](https://docs.microsoft.com/windows/uwp/publish/associate-azure-ad-with-dev-center) for more info. While the topic focuses on the Windows apps developer program, associating a tenant works the same way for the Windows Desktop Application Program.
 
 ### Add users, groups, and Azure AD applications to your account
 
-Once you've set up the Azure AD association, you can add users by going to the Users section under Account settings. Each user is assigned a role that defines their access to the account. You can also add groups of users and Azure AD applications to grant them access to your Dev Center account. For more info about adding users, see [Add users, groups, and Azure AD applications](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications).
+Once you've set up the Azure AD association, you can add users by going to the Users section under Account settings. Each user is assigned a role that defines their access to the account. You can also add groups of users and Azure AD applications to grant them access to your Partner Center account. For more info about adding users, see [Add users, groups, and Azure AD applications](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications).
 
 Each user, group, or Azure AD application that you add to your account must be assigned a role. This process is described at [Set roles or custom permissions for account users](https://docs.microsoft.com/windows/uwp/publish/set-custom-permissions-for-account-users). However, note that for the Windows Desktop Application Program, there is no ability to assign custom permissions or to restrict access by product. Instead, each user must be assigned one of the following standard roles.
 
