@@ -14,6 +14,7 @@
 #### [Managing Graphics Pipeline State in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md)
 #### [Using Resource Barriers to Synchronize Resource States in Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)
 #### [Pipelines and Shaders with Direct3D 12](pipelines-and-shaders-with-directx-12.md)
+#### [Render passes](direct3d-12-render-passes.md)
 ### [Resource Binding in Direct3D 12](resource-binding.md)
 #### [Resource Binding Overview](resource-binding-flow-of-control.md)
 #### [Differences in the Binding Model from Direct3D 11](binding-model.md)
