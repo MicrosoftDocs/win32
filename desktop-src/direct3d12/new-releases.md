@@ -10,6 +10,7 @@ ms.date: 05/31/2018
 
 Describes the most significant new documentation available with the latest SDK release.
 
+-   [Windows 10, version 1809](#windows-10-version-1809)
 -   [Windows 10, version 1709](#windows-10-version-1709)
 -   [Windows 10, version 1703](#windows-10-version-1703)
 -   [November 2016 documentation update](#november-2016-documentation-update)
@@ -18,9 +19,14 @@ Describes the most significant new documentation available with the latest SDK r
 -   [Windows 10, version 1607](#windows-10-version-1607)
 -   [Related topics](#related-topics)
 
+## Windows 10, version 1809
+
+- [Direct3D 12 Raytracing](/windows/desktop/direct3d12/direct3d-12-raytracing)
+- [Direct3D 12 Render Passes](/windows/desktop/direct3d12/direct3d-12-render-passes)
+
 ## Windows 10, version 1709
 
-The following interfaces have been added to the Direct3D documentation for Windows 10, version 1709:
+These interfaces have been added to the Direct3D documentation for Windows 10, version 1709.
 
 -   [**ID3D12Fence1**](/windows/desktop/api/D3D12/nn-d3d12-id3d12fence1) extends the functionality of creating fences by supporting the retrieval of flags passed in to create the fence.
 -   [**ID3D12GraphicsCommandList2**](/windows/desktop/api/D3D12/nn-d3d12-id3d12graphicscommandlist2) extends the list of available graphics commands by supporting writing immediate values directly to a buffer.
@@ -32,7 +38,7 @@ The [**D3D12\_FEATURE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_feature) enum
 
 ## Windows 10, version 1703
 
-The following topics have been added to the Direct3D documentation for Windows 10, version 1703:
+These topics have been added to the Direct3D documentation for Windows 10, version 1703.
 
 -   The [**ID3D12Device2::CreatePipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate) method and [**D3D12\_Pipeline\_State\_Stream\_Desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) struct represent new and more robust way to create PSOs, and unifies the inteface for creating graphics and compute pipelines.
 -   The [**ID3D12Device1::CreatePipelineLibrary1**](https://www.bing.com/search?q=**ID3D12Device1::CreatePipelineLibrary1**) method expands the pipeline library interface to accept the PSOs created with the new, unified [**D3D12\_Pipeline\_State\_Stream\_Desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) structure.
@@ -70,7 +76,7 @@ The following topics have been added to the Direct3D documentation for Windows 
 
 ## Windows 10, version 1607
 
-The following topics have been added to the Direct3D documentation for Windows 10, version 1607:
+These topics have been added to the Direct3D documentation for Windows 10, version 1607.
 
 -   [Root Signature Version 1.1](root-signature-version-1-1.md) : an overview of the updated root signatures, enabling apps to specify how static or volatile descriptors and data are, which can aid graphics driver optimizations.
 -   The [**ID3D12Device1::CreatePipelineLibrary**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary) method describes the advantages of creating a pipeline library.
@@ -88,15 +94,4 @@ The following topics have been added to the Direct3D documentation for Windows 
 
 ## Related topics
 
-<dl> <dt>
-
-[Direct3D 12 Programming Guide](directx-12-programming-guide.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 Programming Guide](directx-12-programming-guide.md)
