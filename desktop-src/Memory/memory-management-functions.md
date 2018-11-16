@@ -66,10 +66,10 @@ These functions are used in [file mapping](file-mapping.md).
 | [**MapViewOfFile**](https://msdn.microsoft.com/en-us/library/Aa366761(v=VS.85).aspx) | Maps a view of a file mapping into the address space of a calling process. |
 | [**MapViewOfFile2**](https://msdn.microsoft.com/en-us/library/Mt492557(v=VS.85).aspx) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
 | [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
+| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
 | [**MapViewOfFileEx**](https://msdn.microsoft.com/en-us/library/Aa366763(v=VS.85).aspx) | Maps a view of a file mapping into the address space of a calling process. A caller can optionally specify a suggested memory address for the view. |
 | [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Maps a view of a file mapping into the address space of a calling process, and specifies the NUMA node for the physical memory. |
 | [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
-| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
 | [**MapViewOfFileNuma2**](https://msdn.microsoft.com/en-us/library/Mt492558(v=VS.85).aspx) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
 | [**OpenFileMapping**](/windows/desktop/api/MemoryApi/nf-memoryapi-openfilemapping) | Opens a named file-mapping object. |
 | [**OpenFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-openfilemappingfromapp) | Opens a named file-mapping object. |

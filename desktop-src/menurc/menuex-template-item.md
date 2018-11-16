@@ -21,35 +21,19 @@ Defines a menu item in an extended menu template. This structure definition is f
 
 ## Syntax
 
-
 ```C++
 typedef struct {
-  DWORD dwHelpId;
   DWORD dwType;
   DWORD dwState;
-  DWORD menuId;
-  WORD  bResInfo;
-  WCHAR szText;
-  DWORD dwHelpId;
+  UINT  uId;
+  WORD  wFlags;
+  WCHAR szText[1];
 } MENUEX_TEMPLATE_ITEM;
 ```
-
-
 
 ## Members
 
 <dl> <dt>
-
-**dwHelpId**
-</dt> <dd>
-
-Type: **DWORD**
-
-</dd> <dd>
-
-The help identifier for a drop-down menu or submenu. This member, which is included only for items that open drop-down menus or submenus, is located at the first **DWORD** boundary following the variable-length **szText** member.
-
-</dd> <dt>
 
 **dwType**
 </dt> <dd>
@@ -73,10 +57,10 @@ The menu item state. This member can be a combination of the state (beginning wi
 
 </dd> <dt>
 
-**menuId**
+**uId**
 </dt> <dd>
 
-Type: **DWORD**
+Type: **UINT**
 
 </dd> <dd>
 
@@ -84,7 +68,7 @@ The menu item identifier. This is an application-defined value that identifies t
 
 </dd> <dt>
 
-**bResInfo**
+**wFlags**
 </dt> <dd>
 
 Type: **WORD**
@@ -117,17 +101,6 @@ Type: **WCHAR**
 </dd> <dd>
 
 The menu item text. This member is a null-terminated Unicode string, aligned on a word boundary. The size of the menu item definition varies depending on the length of this string.
-
-</dd> <dt>
-
-**dwHelpId**
-</dt> <dd>
-
-Type: **DWORD**
-
-</dd> <dd>
-
-A Help identifier for a drop-down menu or submenu. This member is located at the first **DWORD** boundary following **szText** member.
 
 </dd> </dl>
 

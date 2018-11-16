@@ -4,6 +4,7 @@ ms.assetid: B6B92F4F-B1D0-40B9-987D-F0C0F2CC7AD1
 title: For best performance, use DXGI flip model
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: RS5
 ---
 
 # For best performance, use DXGI flip model
