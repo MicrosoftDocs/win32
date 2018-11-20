@@ -5,7 +5,7 @@ ms:assetid: 3ea69a68-c166-c943-97ba-19a80faa9b4f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578167(v=EXCHG.10)
 ms:contentKeyID: 39511438
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # JET\_DBID operators

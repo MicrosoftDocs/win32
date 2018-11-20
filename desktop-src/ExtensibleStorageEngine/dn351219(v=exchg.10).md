@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.cbVarSeg
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.cbvarsegmac(v=EXCHG.10)
 ms:contentKeyID: 55104115
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.cbVarSegMac
 dev_langs:

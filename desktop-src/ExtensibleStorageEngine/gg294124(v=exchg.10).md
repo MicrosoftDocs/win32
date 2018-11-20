@@ -5,7 +5,7 @@ ms:assetid: e44efadf-a5c7-408a-ad68-56646b6ea650
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294124(v=EXCHG.10)
 ms:contentKeyID: 32765738
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetSetSessionContext
 topic_type: 

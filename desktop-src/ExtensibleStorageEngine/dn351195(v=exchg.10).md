@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Length
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue.length(v=EXCHG.10)
 ms:contentKeyID: 55104090
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.StringColumnValue.Length
 dev_langs:

@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.op_Inequality(M
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats.op_inequality(v=EXCHG.10)
 ms:contentKeyID: 39510396
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Inequality
 dev_langs:

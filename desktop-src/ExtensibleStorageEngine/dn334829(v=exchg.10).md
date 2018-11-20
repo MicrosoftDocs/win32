@@ -5,7 +5,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvprovidernotloadedexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102896
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentSLVProviderNotLoadedException properties

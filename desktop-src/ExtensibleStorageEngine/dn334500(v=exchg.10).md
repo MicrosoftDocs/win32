@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorExcept
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception(v=EXCHG.10)
 ms:contentKeyID: 55107266
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException
 dev_langs:

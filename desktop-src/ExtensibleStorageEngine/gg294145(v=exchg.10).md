@@ -5,7 +5,7 @@ ms:assetid: fef64bb9-c2e0-4cfb-8138-c98ae6f50952
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294145(v=EXCHG.10)
 ms:contentKeyID: 32765759
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 topic_type: 
 - apiref

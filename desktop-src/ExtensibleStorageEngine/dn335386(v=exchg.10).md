@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetTryPrereadInd
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8api.jettryprereadindexranges(v=EXCHG.10)
 ms:contentKeyID: 55104421
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetTryPrereadIndexRanges
 dev_langs:

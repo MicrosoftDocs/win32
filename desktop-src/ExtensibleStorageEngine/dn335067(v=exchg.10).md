@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseColumnName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase.szbasecolumnname(v=EXCHG.10)
 ms:contentKeyID: 55103467
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseColumnName
 dev_langs:

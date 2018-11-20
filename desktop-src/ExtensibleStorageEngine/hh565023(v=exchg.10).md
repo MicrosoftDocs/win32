@@ -5,7 +5,7 @@ ms:assetid: 6a862ce1-f8f9-ba17-c33b-4e7c541ab34e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh565023(v=EXCHG.10)
 ms:contentKeyID: 39512694
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # JET\_COLUMNID operators

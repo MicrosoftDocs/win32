@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.ToString(System.String,S
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ossnapid.tostring(v=EXCHG.10)
 ms:contentKeyID: 39512151
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 dev_langs:
 - vb
 - csharp

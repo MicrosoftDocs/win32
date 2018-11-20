@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexExcepti
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictprimaryindexexception.esentwriteconflictprimaryindexexception(v=EXCHG.10)
 ms:contentKeyID: 55107372
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException.EsentWriteConflictPrimaryIndexException
 dev_langs:

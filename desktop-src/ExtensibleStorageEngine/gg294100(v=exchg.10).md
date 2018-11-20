@@ -5,7 +5,7 @@ ms:assetid: d221144d-f777-4f8a-80ca-2ebdb77108dc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294100(v=EXCHG.10)
 ms:contentKeyID: 32765715
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Creating Databases

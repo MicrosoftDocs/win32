@@ -5,7 +5,7 @@ ms:assetid: 24cee894-5c11-d5d5-7929-fd1eb7ab19ea
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn351169(v=EXCHG.10)
 ms:contentKeyID: 55104061
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Table type conversions

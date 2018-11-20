@@ -5,7 +5,7 @@ ms:assetid: c3c48918-ccd6-4c34-849c-93bd7533ce92
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294080(v=EXCHG.10)
 ms:contentKeyID: 32765695
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Reading Data from the Database

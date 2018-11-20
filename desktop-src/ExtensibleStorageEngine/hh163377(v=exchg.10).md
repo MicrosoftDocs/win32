@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.snapshotabortgrbit(v=EXCHG.10)
 ms:contentKeyID: 39516281
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit
 - Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit.None

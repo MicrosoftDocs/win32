@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.getsecondaryindexbookmarkgrbit(v=EXCHG.10)
 ms:contentKeyID: 39512613
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit
 - Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit.None

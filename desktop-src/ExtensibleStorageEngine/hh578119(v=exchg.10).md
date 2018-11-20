@@ -5,7 +5,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578119(v=EXCHG.10)
 ms:contentKeyID: 39511390
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # IContentEquatable\<T\> members

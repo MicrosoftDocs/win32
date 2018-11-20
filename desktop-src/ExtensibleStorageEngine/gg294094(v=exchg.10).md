@@ -5,7 +5,7 @@ ms:assetid: cebf0789-3d31-4ae8-9b23-dcf5e34e98fc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294094(v=EXCHG.10)
 ms:contentKeyID: 32765709
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetGetLock
 topic_type: 

@@ -5,7 +5,7 @@ ms:assetid: d79c06ab-d470-4d83-a0f4-fa0f4e5f80b3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294105(v=EXCHG.10)
 ms:contentKeyID: 32765720
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetDetachDatabase2
 - JetDetachDatabase2W

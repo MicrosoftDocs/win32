@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.EnableAttachD
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7grbits.enableattachdbbackgroundmaintenance(v=EXCHG.10)
 ms:contentKeyID: 55104264
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.EnableAttachDbBackgroundMaintenance
 dev_langs:

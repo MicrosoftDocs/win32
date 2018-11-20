@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableExcepti
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdeletetemplatetableexception.esentcannotdeletetemplatetableexception(v=EXCHG.10)
 ms:contentKeyID: 55101266
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException.EsentCannotDeleteTemplateTableException
 dev_langs:

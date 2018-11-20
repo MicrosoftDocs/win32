@@ -5,7 +5,7 @@ ms:assetid: 8dfbff20-199e-4d89-a33c-ae8e39b11ec1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269332(v=EXCHG.10)
 ms:contentKeyID: 32765622
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetOSSnapshotFreezeA
 - JetOSSnapshotFreezeW

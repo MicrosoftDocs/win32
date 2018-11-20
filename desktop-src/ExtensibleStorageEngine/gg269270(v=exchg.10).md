@@ -5,7 +5,7 @@ ms:assetid: 64a38655-b128-453b-9593-46032bd6c470
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269270(v=EXCHG.10)
 ms:contentKeyID: 32765572
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetCloseFileInstance
 topic_type: 

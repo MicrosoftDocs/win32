@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException.#c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception.esentdatabaseinvalidpagesexception(v=EXCHG.10)
 ms:contentKeyID: 55101392
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException.EsentDatabaseInvalidPagesException
 dev_langs:

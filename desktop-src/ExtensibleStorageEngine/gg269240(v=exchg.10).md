@@ -5,7 +5,7 @@ ms:assetid: 46aeb9ed-ee72-49cc-99e3-791a51a55b02
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269240(v=EXCHG.10)
 ms:contentKeyID: 32765542
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetStopService
 topic_type: 

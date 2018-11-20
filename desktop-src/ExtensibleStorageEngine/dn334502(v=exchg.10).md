@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor(System.Runt
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfatalexception.esentfatalexception(v=EXCHG.10)
 ms:contentKeyID: 55101554
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 dev_langs:
 - vb
 - csharp

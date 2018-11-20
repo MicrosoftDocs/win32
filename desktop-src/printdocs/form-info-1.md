@@ -1,7 +1,7 @@
 ---
-Description: 'The FORM\_INFO\_1 structure contains information about a print form. The information includes the print form's origin, its name, its dimensions, and the dimensions of its printable area.'
-ms.assetid: '1c42ea6c-82cf-463c-bc67-44a8d8c4a1e7'
-title: 'FORM_INFO_1 structure'
+Description: The FORM_INFO_1 structure contains information about a print form. The information includes the print form's origin, its name, its dimensions, and the dimensions of its printable area.
+ms.assetid: 1c42ea6c-82cf-463c-bc67-44a8d8c4a1e7
+title: FORM_INFO_1 structure
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 
@@ -17,9 +17,9 @@ api_location:
 - Winspool.h
 ---
 
-# FORM\_INFO\_1 structure
+# FORM_INFO_1 structure
 
-The **FORM\_INFO\_1** structure contains information about a print form. The information includes the print form's origin, its name, its dimensions, and the dimensions of its printable area.
+The **FORM_INFO_1** structure contains information about a print form. The information includes the print form's origin, its name, its dimensions, and the dimensions of its printable area.
 
 ## Syntax
 
@@ -48,9 +48,9 @@ The form properties. The following values are defined.
 
 | Value         | Meaning                                                                                                                      |
 |---------------|------------------------------------------------------------------------------------------------------------------------------|
-| FORM\_USER    | If this bit flag is set, the form has been defined by the user. Forms with this flag set are defined in the registry.        |
-| FORM\_BUILTIN | If this bit-flag is set, the form is part of the spooler. Form definitions with this flag set do not appear in the registry. |
-| FORM\_PRINTER | If this bit flag is set, the form is associated with a certain printer, and its definition appears in the registry.          |
+| FORM_USER    | If this bit flag is set, the form has been defined by the user. Forms with this flag set are defined in the registry.        |
+| FORM_BUILTIN | If this bit-flag is set, the form is part of the spooler. Form definitions with this flag set do not appear in the registry. |
+| FORM_PRINTER | If this bit flag is set, the form is associated with a certain printer, and its definition appears in the registry.          |
 
 
 
@@ -88,7 +88,7 @@ The width and height, in thousandths of millimeters, of the form.
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winspool.h (include Windows.h)</dt> </dl> |
-| Unicode and ANSI names<br/>   | **\_FORM\_INFO\_1W** (Unicode) and **\_FORM\_INFO\_1A** (ANSI)<br/>                                 |
+| Unicode and ANSI names<br/>   | **_FORM_INFO_1W** (Unicode) and **_FORM_INFO_1A** (ANSI)<br/>                                 |
 
 
 

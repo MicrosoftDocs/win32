@@ -5,7 +5,7 @@ ms:assetid: 364cbcba-7ddb-4748-8417-e885a5984b0d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269224(v=EXCHG.10)
 ms:contentKeyID: 32765526
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetOSSnapshotPrepare
 topic_type: 

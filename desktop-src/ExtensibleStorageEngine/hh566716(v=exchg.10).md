@@ -5,7 +5,7 @@ ms:assetid: fc9db8fb-5468-7f64-a8ce-662ba7687623
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh566716(v=EXCHG.10)
 ms:contentKeyID: 39516806
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # JET\_SESID operators

@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Equals(Microsoft.Isam.Es
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.equals(v=EXCHG.10)
 ms:contentKeyID: 39516458
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 dev_langs:
 - vb
 - csharp

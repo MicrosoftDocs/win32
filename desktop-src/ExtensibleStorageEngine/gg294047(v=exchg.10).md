@@ -5,7 +5,7 @@ ms:assetid: a30961f7-a1fb-44fe-881a-d46bf8f743b3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294047(v=EXCHG.10)
 ms:contentKeyID: 32765646
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetEndExternalBackupInstance2
 topic_type: 

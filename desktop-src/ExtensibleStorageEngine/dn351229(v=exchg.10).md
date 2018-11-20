@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.LegacyFileNames
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.legacyfilenames(v=EXCHG.10)
 ms:contentKeyID: 55104128
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SystemParameters.LegacyFileNames
 dev_langs:

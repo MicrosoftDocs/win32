@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETINFO.ContentEquals(Microsoft.I
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retinfo.contentequals(v=EXCHG.10)
 ms:contentKeyID: 55103869
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RETINFO.ContentEquals
 dev_langs:

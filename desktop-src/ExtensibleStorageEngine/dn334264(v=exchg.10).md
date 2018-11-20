@@ -5,7 +5,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabase500FormatExcepti
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase500formatexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101316
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentDatabase500FormatException methods

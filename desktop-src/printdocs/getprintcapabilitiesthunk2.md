@@ -1,6 +1,6 @@
 ---
-Description: 'Retrieves the printer's capabilities formatted in compliance with the XML Print Schema.'
-ms.assetid: '15219c19-b64c-4c51-9357-15a797557693'
+Description: Retrieves the printer's capabilities formatted in compliance with the XML Print Schema.
+ms.assetid: 15219c19-b64c-4c51-9357-15a797557693
 title: GetPrintCapabilitiesThunk2 function
 ms.topic: article
 ms.date: 05/31/2018

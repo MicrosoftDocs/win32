@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspownextcorruptedexception.esentspownextcorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55102914
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException.EsentSPOwnExtCorruptedException
 dev_langs:

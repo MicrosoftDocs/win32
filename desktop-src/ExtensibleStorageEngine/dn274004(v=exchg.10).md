@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadcolumnidexception(v=EXCHG.10)
 ms:contentKeyID: 55101061
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBadColumnIdException
 dev_langs:

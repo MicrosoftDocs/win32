@@ -5,7 +5,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesExceptio
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoffilehandlesexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55102475
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentOutOfFileHandlesException methods

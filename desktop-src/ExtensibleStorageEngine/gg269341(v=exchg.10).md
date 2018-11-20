@@ -5,7 +5,7 @@ ms:assetid: 90e31df2-2f5b-47a8-84c1-ece6bcc40858
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269341(v=EXCHG.10)
 ms:contentKeyID: 32765630
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Indexing over Multi-Valued Columns

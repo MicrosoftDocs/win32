@@ -5,7 +5,7 @@ ms:assetid: 44af9549-77ef-48f4-8580-507f7199f281
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269238(v=EXCHG.10)
 ms:contentKeyID: 32765540
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetOpenFileInstanceA
 - JetOpenFileInstanceW

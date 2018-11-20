@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.TableClass4Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaparam.tableclass4name(v=EXCHG.10)
 ms:contentKeyID: 55104349
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista.VistaParam.TableClass4Name
 dev_langs:

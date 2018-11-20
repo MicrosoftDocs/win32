@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsDateTime(Microsof
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasdatetime(v=EXCHG.10)
 ms:contentKeyID: 55100870
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 dev_langs:
 - vb
 - csharp

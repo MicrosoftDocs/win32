@@ -1,6 +1,6 @@
 ---
-Description: 'Uploads a printer driver to the print server's driver store so that it can be installed by calling InstallPrinterDriverFromPackage.'
-ms.assetid: 'dd3b3a3b-8ded-44ae-85dd-e630bc62e898'
+Description: Uploads a printer driver to the print server's driver store so that it can be installed by calling InstallPrinterDriverFromPackage.
+ms.assetid: dd3b3a3b-8ded-44ae-85dd-e630bc62e898
 title: UploadPrinterDriverPackage function
 ms.topic: article
 ms.date: 05/31/2018
@@ -72,9 +72,9 @@ This can be any of the following values:
 
 | Value                                                                                                                                                                                     | Meaning                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="UPDP_SILENT_UPLOAD"></span><span id="updp_silent_upload"></span><dl> <dt>**UPDP\_SILENT\_UPLOAD**</dt> </dl>             | The UI will not be shown during the upload.<br/>                                                                                                             |
-| <span id="UPDP_UPLOAD_ALWAYS"></span><span id="updp_upload_always"></span><dl> <dt>**UPDP\_UPLOAD\_ALWAYS**</dt> </dl>             | The files will be uploaded even if the package is already in the server's driver store.<br/>                                                                 |
-| <span id="UPDP_CHECK_DRIVERSTORE"></span><span id="updp_check_driverstore"></span><dl> <dt>**UPDP\_CHECK\_DRIVERSTORE**</dt> </dl> | The server's driver store will be checked before upload to see if the package is already there. This setting is ignored if UPDP\_UPLOAD\_ALWAYS is set.<br/> |
+| <span id="UPDP_SILENT_UPLOAD"></span><span id="updp_silent_upload"></span><dl> <dt>**UPDP_SILENT_UPLOAD**</dt> </dl>             | The UI will not be shown during the upload.<br/>                                                                                                             |
+| <span id="UPDP_UPLOAD_ALWAYS"></span><span id="updp_upload_always"></span><dl> <dt>**UPDP_UPLOAD_ALWAYS**</dt> </dl>             | The files will be uploaded even if the package is already in the server's driver store.<br/>                                                                 |
+| <span id="UPDP_CHECK_DRIVERSTORE"></span><span id="updp_check_driverstore"></span><dl> <dt>**UPDP_CHECK_DRIVERSTORE**</dt> </dl> | The server's driver store will be checked before upload to see if the package is already there. This setting is ignored if UPDP_UPLOAD_ALWAYS is set.<br/> |
 
 
 
@@ -105,7 +105,7 @@ On input, specifies the size, in characters, of the *pszDestInfPath* buffer. On 
 
 ## Return value
 
-If the operation succeeds, the return value is S\_OK, otherwise the **HRESULT** will contain an error code.
+If the operation succeeds, the return value is S_OK, otherwise the **HRESULT** will contain an error code.
 
 For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
 

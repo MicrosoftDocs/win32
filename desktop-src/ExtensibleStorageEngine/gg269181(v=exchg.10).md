@@ -5,7 +5,7 @@ ms:assetid: 06d1526e-169d-4677-b409-2ed415287de6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269181(v=EXCHG.10)
 ms:contentKeyID: 32765484
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # About Extensible Storage Engine

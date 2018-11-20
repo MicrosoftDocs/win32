@@ -5,7 +5,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordExcept
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentrecordexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102365
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentNoCurrentRecordException properties

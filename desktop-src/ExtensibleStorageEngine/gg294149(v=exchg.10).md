@@ -5,7 +5,7 @@ ms:assetid: ffccdac0-3631-4753-876a-90ddfdd0252f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294149(v=EXCHG.10)
 ms:contentKeyID: 32765763
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetGetInstanceInfoW
 - JetGetInstanceInfo

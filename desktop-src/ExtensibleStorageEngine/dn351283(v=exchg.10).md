@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.ContinueAfterThaw
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistagrbits.continueafterthaw(v=EXCHG.10)
 ms:contentKeyID: 55107771
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.ContinueAfterThaw
 dev_langs:

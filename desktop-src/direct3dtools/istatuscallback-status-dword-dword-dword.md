@@ -1,10 +1,6 @@
 ---
-Description: 'A callback function used to notify the host of the engine's progress. This also serves as a way for the host to determine that the engine is still running.'
-MS-HAID: 'vspixengine.IStatusCallback\_Status\_DWORD\_DWORD\_DWORD'
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/desktop'
-title: 'IStatusCallback::Status method'
+Description: A callback function used to notify the host of the engine's progress. This also serves as a way for the host to determine that the engine is still running.
+title: IStatusCallback::Status method
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -33,7 +29,7 @@ The number of frames elapsed since the last call to Status.
 
 ## Return value
 
-If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## Requirements
 

@@ -5,7 +5,7 @@ ms:assetid: c1a1b091-b4a6-4cdc-a0ea-af21c1462449
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294079(v=EXCHG.10)
 ms:contentKeyID: 32765694
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetCreateTableColumnIndex3
 - JetCreateTableColumnIndex3W

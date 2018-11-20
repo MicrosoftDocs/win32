@@ -5,7 +5,7 @@ ms:assetid: f7158fe8-ba4b-420c-9d45-185791a5759b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294135(v=EXCHG.10)
 ms:contentKeyID: 32765749
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetRetrieveColumns
 topic_type: 

@@ -1,7 +1,7 @@
 ---
-Description: 'Describes what is new for documents and printing in Windows 7.'
-ms.assetid: '3338df74-f895-4389-875c-5a61f18fc690'
-title: 'What's New for Printing in Windows 7'
+Description: Describes what is new for documents and printing in Windows 7.
+ms.assetid: 3338df74-f895-4389-875c-5a61f18fc690
+title: What's New for Printing in Windows 7
 ms.topic: article
 ms.date: 05/31/2018
 ---

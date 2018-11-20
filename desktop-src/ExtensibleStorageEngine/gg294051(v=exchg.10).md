@@ -5,7 +5,7 @@ ms:assetid: a96d0a7c-f1db-48bc-807d-4e6357aec726
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294051(v=EXCHG.10)
 ms:contentKeyID: 32765650
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetRetrieveKey
 topic_type: 

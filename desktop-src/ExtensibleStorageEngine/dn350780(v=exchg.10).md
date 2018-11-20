@@ -5,7 +5,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesExc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanymempoolentriesexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55103103
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentTooManyMempoolEntriesException methods

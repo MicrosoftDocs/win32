@@ -5,7 +5,7 @@ ms:assetid: 3df8f5b2-8083-49b7-a325-fd13187f785c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269231(v=EXCHG.10)
 ms:contentKeyID: 32765533
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetOSSnapshotTruncateLog
 topic_type: 

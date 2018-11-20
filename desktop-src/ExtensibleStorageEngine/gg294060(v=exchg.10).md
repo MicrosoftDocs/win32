@@ -5,7 +5,7 @@ ms:assetid: b17b4b43-86e5-4507-8a85-bbd5eac0aa3c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294060(v=EXCHG.10)
 ms:contentKeyID: 32765675
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetReadFileInstance
 topic_type: 

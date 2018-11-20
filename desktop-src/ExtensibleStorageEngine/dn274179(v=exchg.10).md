@@ -5,7 +5,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributed
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotnestdistributedtransactionsexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101225
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentCannotNestDistributedTransactionsException properties
