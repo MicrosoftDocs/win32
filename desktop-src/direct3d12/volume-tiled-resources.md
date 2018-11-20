@@ -1,12 +1,12 @@
 ---
-title: Volume Tiled Resources
+title: Volume tiled resources
 description: Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
 ms.assetid: F670D15D-BC0F-4F90-99C1-A35192FE8980
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Volume Tiled Resources
+# Volume tiled resources
 
 Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
 
@@ -16,7 +16,7 @@ Volume (3D) textures can be used as tiled resources, noting that tile resolution
 
 ## Overview
 
-Tiled Resources decouple a D3D Resource object from its backing memory (resources in the past had a 1:1 relationship with their backing memory). This allows for a variety of interesting scenarios such as streaming in texture data and reusing or reducing memory usage.
+Tiled resources decouple a D3D Resource object from its backing memory (resources in the past had a 1:1 relationship with their backing memory). This allows for a variety of interesting scenarios such as streaming in texture data and reusing or reducing memory usage.
 
 2D texture tiled resources are supported in D3D11.2. Optional support for 3D tiled textures is available for D3D12 and D3D11.3 (refer to [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_tiled_resources_tier)).
 
@@ -33,10 +33,6 @@ The typical resource dimensions used in tiling are 4 x 4 tiles for 2D textures, 
 | 128                         | 16x16x16                            |
 | BC 1,4                      | 128x64x16                           |
 | BC 2,3,5,6,7                | 64x64x16                            |
-
-
-
- 
 
 Note the following formats are not supported with tiled resources: 96bpp formats, video formats, R1\_UNORM, R8G8\_B8G8\_UNORM, R8R8\_G8B8\_UNORM.
 
@@ -162,16 +158,4 @@ Methods
 -   [**ID3D12CommandQueue::GetResourceTiling**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling) : gets info about how a tiled resource is broken into tiles.
 
 ## Related topics
-
-<dl> <dt>
-
-[Resource Binding](resource-binding.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Resource Binding](resource-binding.md)

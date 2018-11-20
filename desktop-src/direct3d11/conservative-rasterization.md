@@ -1,12 +1,12 @@
 ---
-title: Conservative Rasterization
+title: Conservative rasterization
 description: Conservative rasterization adds some certainty to pixel rendering, which is helpful in particular to collision detection algorithms.
 ms.assetid: 83F223C0-9282-4149-86CF-471B88829F76
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Conservative Rasterization
+# Conservative rasterization
 
 Conservative rasterization adds some certainty to pixel rendering, which is helpful in particular to collision detection algorithms.
 
@@ -28,11 +28,11 @@ For example, the following figure shows a green triangle rendered using conserva
 
 ## Interactions with the pipeline
 
-For many details on how conservative rasterization interacts with the graphics pipeline, refer to [D3D12 Conservative Rasterization](https://msdn.microsoft.com/library/windows/desktop/dn903791).
+For many details on how conservative rasterization interacts with the graphics pipeline, refer to [D3D12 Conservative rasterization](https://msdn.microsoft.com/library/windows/desktop/dn903791).
 
 ## Implementation details
 
-The type of rasterization supported in Direct3D 12 is sometimes referred to as "Overestimated Conservative Rasterization". There is also the concept of "Underestimated Conservative Rasterization", which means that only pixels that are fully covered by a rendered primitive are rasterized. Underestimated conservative rasterization information is available through the pixel shader through the use of input coverage data, and only overestimated conservative rasterization is available as a rasterizing mode.
+The type of rasterization supported in Direct3D 12 is sometimes referred to as "overestimated conservative rasterization". There is also the concept of "underestimated conservative rasterization", which means that only pixels that are fully covered by a rendered primitive are rasterized. Underestimated conservative rasterization information is available through the pixel shader through the use of input coverage data, and only overestimated conservative rasterization is available as a rasterizing mode.
 
 If any part of a primitive overlaps a pixel, then that pixel is considered covered and is then rasterized. When an edge or corner of a primitive falls along the edge or corner of a pixel, the application of the "top-left rule" is implementation-specific. However, for implementations that support degenerate triangles, a degenerate triangle along an edge or corner must cover at least one pixel.
 
@@ -59,16 +59,4 @@ The following methods, structures, enums, and helper classes reference conservat
 -   [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) : method to access the supported features.
 
 ## Related topics
-
-<dl> <dt>
-
-[Direct3D 11.3 Features](direct3d-11-3-features.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 11.3 Features](direct3d-11-3-features.md)
