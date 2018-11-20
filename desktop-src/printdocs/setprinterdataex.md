@@ -1,5 +1,5 @@
 ---
-Description: The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printer's registry key.
+Description: The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printers registry key.
 ms.assetid: b7faadfc-1c81-4ddf-8fe5-68f4cc0376f1
 title: SetPrinterDataEx function
 ms.topic: article

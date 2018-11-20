@@ -1,6 +1,6 @@
 ---
 Description: Requests to get the raw contents of a tile.
-MS-HAID: vspixengine.ITileRequest\_RequestBufferTileAsync\_EventID\_DWORD\_BSTR\_UINT\_IBufferObjectDataCallback\_ptr\_DWORD\_DWORD
+MS-HAID: vspixengine.ITileRequest_RequestBufferTileAsync_EventID_DWORD_BSTR_UINT_IBufferObjectDataCallback_ptr_DWORD_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
@@ -45,7 +45,7 @@ Not used.
 
 ## Return value
 
-If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## Requirements
 

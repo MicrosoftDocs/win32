@@ -1,5 +1,5 @@
 ---
-Description: The PHONEBUTTONSTATE_ bit-flag constants describe the button's positions.
+Description: The PHONEBUTTONSTATE bit-flag constants describe the buttons positions.
 ms.assetid: f1196e31-65c6-4ade-a0b7-c7758ce97be1
 title: PHONEBUTTONSTATE_ Constants
 ms.topic: article

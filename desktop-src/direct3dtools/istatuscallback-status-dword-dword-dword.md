@@ -1,6 +1,6 @@
 ---
-Description: A callback function used to notify the host of the engine's progress. This also serves as a way for the host to determine that the engine is still running.
-title: IStatusCallback::Status method
+Description: A callback function used to notify the host of the engines progress. This also serves as a way for the host to determine that the engine is still running.
+title: "IStatusCallback::Status method"
 ms.topic: article
 ms.date: 05/31/2018
 ---
