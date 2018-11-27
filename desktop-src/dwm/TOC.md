@@ -24,6 +24,8 @@
 #### [DwmAttachMilContent](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmattachmilcontent)
 #### [DwmDefWindowProc](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc)
 #### [DwmDetachMilContent](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdetachmilcontent)
+#### [DwmDxGetWindowSharedSurface](dwmdxgetwindowsharedsurface.md)
+#### [DwmDxUpdateWindowSharedSurface](dwmdxupdatewindowsharedsurface.md)
 #### [DwmEnableBlurBehindWindow](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow)
 #### [DwmEnableComposition](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition)
 #### [DwmEnableMMCSS](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablemmcss)
