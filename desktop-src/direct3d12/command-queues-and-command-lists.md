@@ -8,7 +8,7 @@ ms.date: 11/15/2018
 
 # Work Submission in Direct3D 12
 
-To improve the CPU efficiency of Direct3D apps, Direct3D 12 no longer supports an immediate context associated with a device. Instead, apps record and then submit *command lists*, which contain drawing and resource management calls. These command lists can be submitted from multiple threads to one or more command queues, which manage the execution of the commands. This fundamental change increases single-threaded efficiency by allowing apps to pre-compute rendering work for later re-use, and it takes advantage of multi-core systems by spreading rendering work across multiple threads.
+To improve the CPU efficiency of Direct3D apps, as of version 12, Direct3D no longer supports an immediate context associated with a device. Instead, your application records and then submits *command lists*, which contain drawing and resource management calls. You can submit these command lists from multiple threads to one or more command queues, which manage the execution of the commands. This fundamental change increases single-threaded efficiency by allowing your application to pre-compute rendering work for later re-use, and it takes advantage of multi-core systems by spreading rendering work across multiple threads.
 
 ## In this section
 
