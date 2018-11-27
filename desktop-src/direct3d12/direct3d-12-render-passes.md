@@ -25,7 +25,7 @@ One of the value propositions of render passes is that it provides you with a ce
 
 ### Allow your TBDR architecture to opportunistically persistent resources in on-chip cache across render passes (even in separate Command Lists)
 
-> [NOTE]
+> [!NOTE]
 > Specifically, this scenario is limited to the cases where you're writing to the same render target(s) across multiple command lists.
 
 A common rendering pattern is for your application to render to the same render target(s) across multiple command lists serially, even though the rendering commands are generated in parallel. Your use of render passes in this scenario allows these passes to be combined in such a way (since the application knows that it will resume rendering on the immediate succeeding command list) that the display driver can avoid a flush to main memory on command list boundaries.
