@@ -5,7 +5,7 @@ ms:assetid: 7ba2b6ee-96f5-44c5-9842-5e58580f60f1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269306(v=EXCHG.10)
 ms:contentKeyID: 32765597
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetRestoreInstanceW
 - JetRestoreInstance

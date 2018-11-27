@@ -5,7 +5,7 @@ ms:assetid: 176d4fea-c856-441b-bd58-165b37c35095
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269195(v=EXCHG.10)
 ms:contentKeyID: 32765498
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Adding Tables to the Database

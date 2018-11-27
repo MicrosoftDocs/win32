@@ -1,6 +1,6 @@
 ---
-Description: 'Advanced conferencing using IP-based networks is described in TAPI 3's Rendezvous IP Telephony Conferencing. The following material relates to basic conferencing.'
-ms.assetid: 'f685097b-1b54-412b-999f-d9bdb3120ab9'
+Description: Advanced conferencing using IP-based networks is described in TAPI 3s Rendezvous IP Telephony Conferencing. The following material relates to basic conferencing.
+ms.assetid: f685097b-1b54-412b-999f-d9bdb3120ab9
 title: Conference
 ms.topic: article
 ms.date: 05/31/2018

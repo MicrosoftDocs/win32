@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8grbits(v=EXCHG.10)
 ms:contentKeyID: 55104347
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits
 dev_langs:

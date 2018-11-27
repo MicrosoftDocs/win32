@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt32ColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint32columnvalue.uint32columnvalue(v=EXCHG.10)
 ms:contentKeyID: 55104173
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.UInt32ColumnValue.UInt32ColumnValue
 dev_langs:

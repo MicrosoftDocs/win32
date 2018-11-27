@@ -5,7 +5,7 @@ ms:assetid: 969ae14f-3548-431d-a19d-5df92891441d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269349(v=EXCHG.10)
 ms:contentKeyID: 32765636
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # ESE Handles

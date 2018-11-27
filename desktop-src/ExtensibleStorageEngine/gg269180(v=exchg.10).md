@@ -5,7 +5,7 @@ ms:assetid: 06983b1e-503a-469b-9be5-b37e7551de67
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269180(v=EXCHG.10)
 ms:contentKeyID: 32765483
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetGotoSecondaryIndexBookmark
 topic_type: 

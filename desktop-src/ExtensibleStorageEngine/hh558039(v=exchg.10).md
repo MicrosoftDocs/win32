@@ -5,7 +5,7 @@ ms:assetid: N:Microsoft.Isam.Esent.Interop.Vista
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista(v=EXCHG.10)
 ms:contentKeyID: 39513319
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista
 dev_langs:

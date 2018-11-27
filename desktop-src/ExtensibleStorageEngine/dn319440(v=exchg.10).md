@@ -5,7 +5,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueTo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableduetofatallogdiskfullexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101878
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # EsentInstanceUnavailableDueToFatalLogDiskFullException methods

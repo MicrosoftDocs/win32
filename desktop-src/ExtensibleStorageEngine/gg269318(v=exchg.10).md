@@ -5,7 +5,7 @@ ms:assetid: 82486441-5037-440b-8632-038e953ad870
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269318(v=EXCHG.10)
 ms:contentKeyID: 32765608
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetBackupInstanceW
 - JetBackupInstanceA

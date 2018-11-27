@@ -5,7 +5,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_index_range_properties(v=EXCHG.10)
 ms:contentKeyID: 55104438
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # JET\_INDEX\_RANGE properties

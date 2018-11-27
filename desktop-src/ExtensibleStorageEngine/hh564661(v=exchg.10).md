@@ -5,7 +5,7 @@ ms:assetid: 31ee2372-66e2-b304-fe3f-027bb4b9ea1e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh564661(v=EXCHG.10)
 ms:contentKeyID: 39511065
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # JET\_INDEXID operators

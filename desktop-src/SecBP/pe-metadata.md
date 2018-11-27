@@ -1,3 +1,9 @@
+---
+Description: This article provides additional details for Control Flow Guard metadata in PE images.
+title: PE metadata
+ms.topic: article
+ms.date: 05/31/2018
+---
 # PE metadata
 
 This article provides additional details for Control Flow Guard (CFG) metadata in PE images. Familiarity with the structure for CFG metadata in PE images is assumed. See the [PE Format](../debug/pe-format.md) topic for high-level documentation for CFG metadata in PE images.

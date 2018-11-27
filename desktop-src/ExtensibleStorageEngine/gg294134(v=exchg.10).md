@@ -5,7 +5,7 @@ ms:assetid: f37d35f6-4bea-46ba-a334-7b8ad7a1568c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294134(v=EXCHG.10)
 ms:contentKeyID: 32765748
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetFreeBuffer
 topic_type: 

@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulBadChecksum
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.ulbadchecksum(v=EXCHG.10)
 ms:contentKeyID: 39515424
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulBadChecksum
 dev_langs:

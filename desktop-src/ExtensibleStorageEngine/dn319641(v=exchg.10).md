@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransaction
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustcommitdistributedtransactiontolevel0exception.esentmustcommitdistributedtransactiontolevel0exception(v=EXCHG.10)
 ms:contentKeyID: 55102331
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception.EsentMustCommitDistributedTransactionToLevel0Exception
 dev_langs:

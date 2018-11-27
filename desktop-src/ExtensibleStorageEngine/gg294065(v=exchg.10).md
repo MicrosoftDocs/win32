@@ -5,7 +5,7 @@ ms:assetid: b5541429-6ce6-457b-88cf-673d267f6209
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294065(v=EXCHG.10)
 ms:contentKeyID: 32765680
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetInit2
 topic_type: 

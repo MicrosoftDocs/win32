@@ -5,7 +5,7 @@ ms:assetid: e509b6c9-a8ce-4898-a426-485e286869fa
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294125(v=EXCHG.10)
 ms:contentKeyID: 32765739
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetEscrowUpdate
 topic_type: 

@@ -5,7 +5,7 @@ ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistacoltyp_fields(v=EXCHG.10)
 ms:contentKeyID: 55104201
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # VistaColtyp fields

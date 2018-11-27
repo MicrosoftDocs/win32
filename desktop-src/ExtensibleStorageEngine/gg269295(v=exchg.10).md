@@ -5,7 +5,7 @@ ms:assetid: 74bfaf50-6c2e-4907-b931-d50ad314b552
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269295(v=EXCHG.10)
 ms:contentKeyID: 32765587
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetSetColumnDefaultValue
 topic_type: 

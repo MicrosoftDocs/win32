@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334223(v=EXCHG.10)
 ms:contentKeyID: 55101006
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ToString
 dev_langs:

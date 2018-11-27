@@ -5,7 +5,7 @@ ms:assetid: dcbdb0ce-2fda-646e-d73a-c2c96606ad5d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn335460(v=EXCHG.10)
 ms:contentKeyID: 55104408
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # JET\_COMMIT\_ID operators

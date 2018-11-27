@@ -5,7 +5,7 @@ ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7grbits_fields(v=EXCHG.10)
 ms:contentKeyID: 55104263
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Windows7Grbits fields

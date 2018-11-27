@@ -5,7 +5,7 @@ ms:assetid: a9a8f98a-258e-4fbb-bed0-657581984a07
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294054(v=EXCHG.10)
 ms:contentKeyID: 32765660
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetEndSession
 topic_type: 

@@ -5,7 +5,7 @@ ms:assetid: e8a4131f-a69b-41f3-94c6-a1607fc23c1f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294128(v=EXCHG.10)
 ms:contentKeyID: 32765742
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetDeleteTable
 - JetDeleteTableA

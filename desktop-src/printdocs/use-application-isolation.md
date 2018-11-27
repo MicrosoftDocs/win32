@@ -1,8 +1,8 @@
 ---
-Description: 'Apps can declare printer-driver isolation in their app manifest to isolate the app from the printer driver and improve the app's reliability.'
-ms.assetid: '80650C46-AC96-46FD-894A-4F34B056AB79'
-title: 'How To: Use Application Isolation'
+Description: Apps can declare printer-driver isolation in their app manifest to isolate the app from the printer driver and improve the apps reliability.
+ms.assetid: 80650C46-AC96-46FD-894A-4F34B056AB79
 ms.topic: article
+title: "How To: Use Application Isolation"
 ms.date: 05/31/2018
 ---
 

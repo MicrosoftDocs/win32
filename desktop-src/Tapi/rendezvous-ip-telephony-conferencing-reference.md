@@ -1,6 +1,6 @@
 ---
-Description: 'TAPI 3's Rendezvous API is a group of Component Object Model (COM) interfaces that can be used to advertise and discover multiparty multimedia conferences. The following material provides details on the objects, interfaces, and methods provided.'
-ms.assetid: 'c39c548e-e6d8-4971-98e7-4aaec4f1b6a7'
+Description: TAPI 3s Rendezvous API is a group of Component Object Model interfaces that can be used to advertise and discover multiparty multimedia conferences. The following material provides details on the objects interfaces and methods provided.
+ms.assetid: c39c548e-e6d8-4971-98e7-4aaec4f1b6a7
 title: Rendezvous IP Telephony Conferencing Reference
 ms.topic: article
 ms.date: 05/31/2018

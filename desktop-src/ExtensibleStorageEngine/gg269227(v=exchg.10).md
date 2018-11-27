@@ -5,7 +5,7 @@ ms:assetid: 37e86e14-7719-4991-aae8-bcff1baa80df
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269227(v=EXCHG.10)
 ms:contentKeyID: 32765529
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 topic_type: 
 - apiref

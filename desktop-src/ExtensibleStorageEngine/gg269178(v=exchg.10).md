@@ -5,7 +5,7 @@ ms:assetid: 064ac59e-d306-4335-a623-754a003f5ebc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269178(v=EXCHG.10)
 ms:contentKeyID: 32765481
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Using Columns in a Table

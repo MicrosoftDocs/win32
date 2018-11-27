@@ -5,7 +5,7 @@ ms:assetid: 8667f3fc-d178-49f1-9474-f09352614f92
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269322(v=EXCHG.10)
 ms:contentKeyID: 32765612
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetAttachDatabase2A
 - JetAttachDatabase2

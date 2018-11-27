@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Keys
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.keys(v=EXCHG.10)
 ms:contentKeyID: 55103265
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.IndexInfo.Keys
 dev_langs:

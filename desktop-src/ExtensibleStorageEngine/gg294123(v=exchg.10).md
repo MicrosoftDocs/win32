@@ -5,7 +5,7 @@ ms:assetid: e17a05dd-c30b-4e8f-8538-91a65e8052d2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294123(v=EXCHG.10)
 ms:contentKeyID: 32765737
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetCloseDatabase
 topic_type: 

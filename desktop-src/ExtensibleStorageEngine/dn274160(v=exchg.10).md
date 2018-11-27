@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdisableversioningexception.esentcannotdisableversioningexception(v=EXCHG.10)
 ms:contentKeyID: 55101236
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException.EsentCannotDisableVersioningException
 dev_langs:

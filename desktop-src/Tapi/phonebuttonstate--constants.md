@@ -1,18 +1,18 @@
 ---
-Description: 'The PHONEBUTTONSTATE\_ bit-flag constants describe the button's positions.'
-ms.assetid: 'f1196e31-65c6-4ade-a0b7-c7758ce97be1'
-title: 'PHONEBUTTONSTATE_ Constants'
+Description: The PHONEBUTTONSTATE bit-flag constants describe the buttons positions.
+ms.assetid: f1196e31-65c6-4ade-a0b7-c7758ce97be1
+title: PHONEBUTTONSTATE_ Constants
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# PHONEBUTTONSTATE\_ Constants
+# PHONEBUTTONSTATE_ Constants
 
-The **PHONEBUTTONSTATE\_** bit-flag constants describe the button's positions.
+The **PHONEBUTTONSTATE_** bit-flag constants describe the button's positions.
 
 <dl> <dt>
 
-<span id="PHONEBUTTONSTATE_DOWN"></span><span id="phonebuttonstate_down"></span>**PHONEBUTTONSTATE\_DOWN**
+<span id="PHONEBUTTONSTATE_DOWN"></span><span id="phonebuttonstate_down"></span>**PHONEBUTTONSTATE_DOWN**
 </dt> <dd> <dl> <dt>
 
 
@@ -22,7 +22,7 @@ The button is in the "down" state (pressed down).
 
 </dt> </dl> </dd> <dt>
 
-<span id="PHONEBUTTONSTATE_UNAVAIL"></span><span id="phonebuttonstate_unavail"></span>**PHONEBUTTONSTATE\_UNAVAIL**
+<span id="PHONEBUTTONSTATE_UNAVAIL"></span><span id="phonebuttonstate_unavail"></span>**PHONEBUTTONSTATE_UNAVAIL**
 </dt> <dd> <dl> <dt>
 
 
@@ -32,7 +32,7 @@ Indicates that the up or down state of the button is not known to the service pr
 
 </dt> </dl> </dd> <dt>
 
-<span id="PHONEBUTTONSTATE_UNKNOWN"></span><span id="phonebuttonstate_unknown"></span>**PHONEBUTTONSTATE\_UNKNOWN**
+<span id="PHONEBUTTONSTATE_UNKNOWN"></span><span id="phonebuttonstate_unknown"></span>**PHONEBUTTONSTATE_UNKNOWN**
 </dt> <dd> <dl> <dt>
 
 
@@ -42,7 +42,7 @@ Indicates that the up or down state of the button is not known at this time, but
 
 </dt> </dl> </dd> <dt>
 
-<span id="PHONEBUTTONSTATE_UP"></span><span id="phonebuttonstate_up"></span>**PHONEBUTTONSTATE\_UP**
+<span id="PHONEBUTTONSTATE_UP"></span><span id="phonebuttonstate_up"></span>**PHONEBUTTONSTATE_UP**
 </dt> <dd> <dl> <dt>
 
 
@@ -56,7 +56,7 @@ The button is in the "up" state.
 
 No extensibility. All 32 bits are reserved.
 
-For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the phone, and to not use those PHONEBUTTONSTATE\_ values that the negotiated version does not support.
+For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the phone, and to not use those PHONEBUTTONSTATE_ values that the negotiated version does not support.
 
 ## Requirements
 

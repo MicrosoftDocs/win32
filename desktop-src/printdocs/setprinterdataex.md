@@ -1,6 +1,6 @@
 ---
-Description: 'The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printer's registry key.'
-ms.assetid: 'b7faadfc-1c81-4ddf-8fe5-68f4cc0376f1'
+Description: The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printers registry key.
+ms.assetid: b7faadfc-1c81-4ddf-8fe5-68f4cc0376f1
 title: SetPrinterDataEx function
 ms.topic: article
 ms.date: 05/31/2018
@@ -62,23 +62,23 @@ To store configuration data that can be published in the directory service (DS),
 
 | Value                                                                                                                                                                      | Meaning                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| <span id="SPLDS_DRIVER_KEY"></span><span id="splds_driver_key"></span><dl> <dt>**SPLDS\_DRIVER\_KEY**</dt> </dl>    | Printer drivers use this key to store driver properties.<br/>                             |
-| <span id="SPLDS_SPOOLER_KEY"></span><span id="splds_spooler_key"></span><dl> <dt>**SPLDS\_SPOOLER\_KEY**</dt> </dl> | Reserved. Used only by the print spooler to store internal spooler properties.<br/>       |
-| <span id="SPLDS_USER_KEY"></span><span id="splds_user_key"></span><dl> <dt>**SPLDS\_USER\_KEY**</dt> </dl>          | Applications use this key to store printer properties such as printer asset numbers.<br/> |
+| <span id="SPLDS_DRIVER_KEY"></span><span id="splds_driver_key"></span><dl> <dt>**SPLDS_DRIVER_KEY**</dt> </dl>    | Printer drivers use this key to store driver properties.<br/>                             |
+| <span id="SPLDS_SPOOLER_KEY"></span><span id="splds_spooler_key"></span><dl> <dt>**SPLDS_SPOOLER_KEY**</dt> </dl> | Reserved. Used only by the print spooler to store internal spooler properties.<br/>       |
+| <span id="SPLDS_USER_KEY"></span><span id="splds_user_key"></span><dl> <dt>**SPLDS_USER_KEY**</dt> </dl>          | Applications use this key to store printer properties such as printer asset numbers.<br/> |
 
 
 
  
 
-Values that are stored under the SPLDS\_USER\_KEY key are published in the directory service only if there is a corresponding property in the schema. A domain administrator must create the property if it doesn't already exist. To publish a user-defined property after you use **SetPrinterDataEx** to add or change a value, call [**SetPrinter**](setprinter.md) with *Level* = 7 and with the **dwAction** member of [**PRINTER\_INFO\_7**](printer-info-7.md) set to **DSPRINT\_UPDATE**.
+Values that are stored under the SPLDS_USER_KEY key are published in the directory service only if there is a corresponding property in the schema. A domain administrator must create the property if it doesn't already exist. To publish a user-defined property after you use **SetPrinterDataEx** to add or change a value, call [**SetPrinter**](setprinter.md) with *Level* = 7 and with the **dwAction** member of [**PRINTER_INFO_7**](printer-info-7.md) set to **DSPRINT_UPDATE**.
 
 You can specify other keys to store non-DS configuration data. Use the backslash ( \\ ) character as a delimiter to specify a path that has one or more subkeys.
 
-If *hPrinter* is a handle to a printer and *pKeyName* is **NULL** or an empty string, **SetPrinterDataEx** returns **ERROR\_INVALID\_PARAMETER**.
+If *hPrinter* is a handle to a printer and *pKeyName* is **NULL** or an empty string, **SetPrinterDataEx** returns **ERROR_INVALID_PARAMETER**.
 
 If *hPrinter* is a handle to a print server, *pKeyName* is ignored.
 
-Do not use **SPLDS\_SPOOLER\_KEY**. To change the spooler printer properties, use [**SetPrinter**](setprinter.md) with *Level* = 2.
+Do not use **SPLDS_SPOOLER_KEY**. To change the spooler printer properties, use [**SetPrinter**](setprinter.md) with *Level* = 2.
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 
 A code indicating the type of data pointed to by the *pData* parameter. For a list of the possible type codes, see [Registry Value Types](https://msdn.microsoft.com/library/windows/desktop/ms724884).
 
-If *pKeyName* specifies one of the predefined directory service keys, *Type* must be **REG\_SZ**, **REG\_MULTI\_SZ**, **REG\_DWORD**, or **REG\_BINARY**. If **REG\_BINARY** is used, *cbData* must be equal to 1, and the directory service treats the data as a Boolean value.
+If *pKeyName* specifies one of the predefined directory service keys, *Type* must be **REG_SZ**, **REG_MULTI_SZ**, **REG_DWORD**, or **REG_BINARY**. If **REG_BINARY** is used, *cbData* must be equal to 1, and the directory service treats the data as a Boolean value.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ The size, in bytes, of the array.
 
 ## Return value
 
-If the function succeeds, the return value is **ERROR\_SUCCESS**.
+If the function succeeds, the return value is **ERROR_SUCCESS**.
 
 If the function fails, the return value is an error value.
 
@@ -139,23 +139,23 @@ If *hPrinter* is a handle to a print server, *pValueName* can specify one of the
 
 | Value                                                               | Comments                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG\_ALLOW\_USER\_MANAGEFORMS**                                | Windows XP with Service Pack 2 (SP2) and later<br/> Windows Server 2003 with Service Pack 1 (SP1) and later<br/>                                                                                                    |
-| **SPLREG\_BEEP\_ENABLED**                                           |                                                                                                                                                                                                                                 |
-| **SPLREG\_DEFAULT\_SPOOL\_DIRECTORY**                               |                                                                                                                                                                                                                                 |
-| **SPLREG\_EVENT\_LOG**                                              |                                                                                                                                                                                                                                 |
-| **SPLREG\_NET\_POPUP**                                              | Not supported in Windows Server 2003 and later<br/>                                                                                                                                                                       |
-| **SPLREG\_PORT\_THREAD\_PRIORITY\_DEFAULT**                         |                                                                                                                                                                                                                                 |
-| **SPLREG\_PORT\_THREAD\_PRIORITY**                                  |                                                                                                                                                                                                                                 |
-| **SPLREG\_PRINT\_DRIVER\_ISOLATION\_GROUPS**                        | Windows 7 and later<br/>                                                                                                                                                                                                  |
-| **SPLREG\_PRINT\_DRIVER\_ISOLATION\_TIME\_BEFORE\_RECYCLE**         | Windows 7 and later<br/>                                                                                                                                                                                                  |
-| **SPLREG\_PRINT\_DRIVER\_ISOLATION\_MAX\_OBJECTS\_BEFORE\_RECYCLE** | Windows 7 and later<br/>                                                                                                                                                                                                  |
-| **SPLREG\_PRINT\_DRIVER\_ISOLATION\_IDLE\_TIMEOUT**                 | Windows 7 and later<br/>                                                                                                                                                                                                  |
-| **SPLREG\_PRINT\_DRIVER\_ISOLATION\_EXECUTION\_POLICY**             | Windows 7 and later<br/>                                                                                                                                                                                                  |
-| **SPLREG\_PRINT\_DRIVER\_ISOLATION\_OVERRIDE\_POLICY**              | Windows 7 and later<br/>                                                                                                                                                                                                  |
-| **SPLREG\_RETRY\_POPUP**                                            | On successful return, *pData* contains 1 if server is set to retry pop-up windows for all jobs, or 0 if server does not retry pop-up windows for all jobs.<br/> Not supported in Windows Server 2003 and later<br/> |
-| **SPLREG\_SCHEDULER\_THREAD\_PRIORITY**                             |                                                                                                                                                                                                                                 |
-| **SPLREG\_SCHEDULER\_THREAD\_PRIORITY\_DEFAULT**                    |                                                                                                                                                                                                                                 |
-| **SPLREG\_WEBSHAREMGMT**                                            | Windows Server 2003 and later<br/>                                                                                                                                                                                        |
+| **SPLREG_ALLOW_USER_MANAGEFORMS**                                | Windows XP with Service Pack 2 (SP2) and later<br/> Windows Server 2003 with Service Pack 1 (SP1) and later<br/>                                                                                                    |
+| **SPLREG_BEEP_ENABLED**                                           |                                                                                                                                                                                                                                 |
+| **SPLREG_DEFAULT_SPOOL_DIRECTORY**                               |                                                                                                                                                                                                                                 |
+| **SPLREG_EVENT_LOG**                                              |                                                                                                                                                                                                                                 |
+| **SPLREG_NET_POPUP**                                              | Not supported in Windows Server 2003 and later<br/>                                                                                                                                                                       |
+| **SPLREG_PORT_THREAD_PRIORITY_DEFAULT**                         |                                                                                                                                                                                                                                 |
+| **SPLREG_PORT_THREAD_PRIORITY**                                  |                                                                                                                                                                                                                                 |
+| **SPLREG_PRINT_DRIVER_ISOLATION_GROUPS**                        | Windows 7 and later<br/>                                                                                                                                                                                                  |
+| **SPLREG_PRINT_DRIVER_ISOLATION_TIME_BEFORE_RECYCLE**         | Windows 7 and later<br/>                                                                                                                                                                                                  |
+| **SPLREG_PRINT_DRIVER_ISOLATION_MAX_OBJECTS_BEFORE_RECYCLE** | Windows 7 and later<br/>                                                                                                                                                                                                  |
+| **SPLREG_PRINT_DRIVER_ISOLATION_IDLE_TIMEOUT**                 | Windows 7 and later<br/>                                                                                                                                                                                                  |
+| **SPLREG_PRINT_DRIVER_ISOLATION_EXECUTION_POLICY**             | Windows 7 and later<br/>                                                                                                                                                                                                  |
+| **SPLREG_PRINT_DRIVER_ISOLATION_OVERRIDE_POLICY**              | Windows 7 and later<br/>                                                                                                                                                                                                  |
+| **SPLREG_RETRY_POPUP**                                            | On successful return, *pData* contains 1 if server is set to retry pop-up windows for all jobs, or 0 if server does not retry pop-up windows for all jobs.<br/> Not supported in Windows Server 2003 and later<br/> |
+| **SPLREG_SCHEDULER_THREAD_PRIORITY**                             |                                                                                                                                                                                                                                 |
+| **SPLREG_SCHEDULER_THREAD_PRIORITY_DEFAULT**                    |                                                                                                                                                                                                                                 |
+| **SPLREG_WEBSHAREMGMT**                                            | Windows Server 2003 and later<br/>                                                                                                                                                                                        |
 
 
 
@@ -167,14 +167,14 @@ Passing one of the following predefined values as *pValueName* sets the pool pri
 
 | Value                                       | Comments                                                                                                                                                                                              |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR**   | The value of *pData* indicates the time, in seconds, when a job is restarted on another port after an error occurs. This setting is used with **SPLREG\_RESTART\_JOB\_ON\_POOL\_ENABLED**.<br/> |
-| **SPLREG\_RESTART\_JOB\_ON\_POOL\_ENABLED** | A nonzero value in *pData* indicates that **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is enabled.<br/>                                                                                            |
+| **SPLREG_RESTART_JOB_ON_POOL_ERROR**   | The value of *pData* indicates the time, in seconds, when a job is restarted on another port after an error occurs. This setting is used with **SPLREG_RESTART_JOB_ON_POOL_ENABLED**.<br/> |
+| **SPLREG_RESTART_JOB_ON_POOL_ENABLED** | A nonzero value in *pData* indicates that **SPLREG_RESTART_JOB_ON_POOL_ERROR** is enabled.<br/>                                                                                            |
 
 
 
  
 
-The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum time. The actual time can be longer, depending on the following port monitor settings, which are registry values under this registry key:
+The time specified in **SPLREG_RESTART_JOB_ON_POOL_ERROR** is a minimum time. The actual time can be longer, depending on the following port monitor settings, which are registry values under this registry key:
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
@@ -184,8 +184,8 @@ Call the [**RegSetValueEx**](https://msdn.microsoft.com/en-us/library/ms724922(v
 
 | Port monitor setting     | Data type      | Meaning                                                                                                        |
 |--------------------------|----------------|----------------------------------------------------------------------------------------------------------------|
-| **StatusUpdateEnabled**  | **REG\_DWORD** | If a nonzero value, enables the port monitor to update the spooler with the port status.<br/>            |
-| **StatusUpdateInterval** | **REG\_DWORD** | Specifies the interval, in minutes, when the port monitor updates the spooler with the port status.<br/> |
+| **StatusUpdateEnabled**  | **REG_DWORD** | If a nonzero value, enables the port monitor to update the spooler with the port status.<br/>            |
+| **StatusUpdateInterval** | **REG_DWORD** | Specifies the interval, in minutes, when the port monitor updates the spooler with the port status.<br/> |
 
 
 
@@ -199,8 +199,8 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 | Setting                      | Data type      | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
 |------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **EMFDespoolingSetting**     | **REG\_DWORD** | A value of 0, or if this value is not present in the registry, enables the default client-side rendering of print jobs.<br/> A value of 1 disables client-side rendering of print jobs.<br/>                                                                                                                                                                                                          |
-| **ForceClientSideRendering** | **REG\_DWORD** | A value of 0, or if this value is not present in the registry, will cause the print jobs to be rendered on the client. If a print job cannot be rendered on the client, it will be rendered on the server. If a print job cannot be rendered on the server, it will fail.<br/> A value of 1 will render print jobs on the client. If a print job cannot be rendered on the client, it will fail.<br/> |
+| **EMFDespoolingSetting**     | **REG_DWORD** | A value of 0, or if this value is not present in the registry, enables the default client-side rendering of print jobs.<br/> A value of 1 disables client-side rendering of print jobs.<br/>                                                                                                                                                                                                          |
+| **ForceClientSideRendering** | **REG_DWORD** | A value of 0, or if this value is not present in the registry, will cause the print jobs to be rendered on the client. If a print job cannot be rendered on the client, it will be rendered on the server. If a print job cannot be rendered on the server, it will fail.<br/> A value of 1 will render print jobs on the client. If a print job cannot be rendered on the client, it will fail.<br/> |
 
 
 
@@ -240,7 +240,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 [**SetPrinter**](setprinter.md)
 </dt> <dt>
 
-[**PRINTER\_INFO\_7**](printer-info-7.md)
+[**PRINTER_INFO_7**](printer-info-7.md)
 </dt> </dl>
 
  

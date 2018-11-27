@@ -5,7 +5,7 @@ ms:assetid: 7f7fc2e3-727a-43e4-8497-64ff56d92b9f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269313(v=EXCHG.10)
 ms:contentKeyID: 32765603
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetRestore2
 - JetRestore2A

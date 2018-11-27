@@ -5,7 +5,7 @@ ms:assetid: 28455b8b-0000-4bd5-a3ca-e1ef0446ee07
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269210(v=EXCHG.10)
 ms:contentKeyID: 32765513
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetCreateTableW
 - JetCreateTable

@@ -5,7 +5,7 @@ ms:assetid: fc2f46bc-1f81-4af2-aa63-9757e819efc2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294143(v=EXCHG.10)
 ms:contentKeyID: 32765757
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetPrereadKeys
 topic_type: 

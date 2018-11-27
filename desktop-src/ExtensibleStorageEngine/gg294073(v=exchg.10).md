@@ -5,7 +5,7 @@ ms:assetid: bc16ca4c-e3c9-43db-ac16-284d7cc0926d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294073(v=EXCHG.10)
 ms:contentKeyID: 32765688
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Columns

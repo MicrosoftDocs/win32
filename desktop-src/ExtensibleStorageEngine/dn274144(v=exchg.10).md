@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException.
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointfilenotfoundexception.esentcheckpointfilenotfoundexception(v=EXCHG.10)
 ms:contentKeyID: 55101277
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException.EsentCheckpointFileNotFoundException
 dev_langs:

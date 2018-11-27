@@ -1,7 +1,7 @@
 ---
-Description: 'Lists the printing application programming interfaces (APIs) introduced in Windows Vista.'
-ms.assetid: '7a4eb5d7-b37d-4090-aea4-7274daa1e15c'
-title: 'What's New for Printing in Windows Vista'
+Description: Lists the printing application programming interfaces (APIs) introduced in Windows Vista.
+ms.assetid: 7a4eb5d7-b37d-4090-aea4-7274daa1e15c
+title: What's New for Printing in Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
 ---

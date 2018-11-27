@@ -1,6 +1,6 @@
 ---
-Description: 'Microsoft Telephony models a phone's buttons and lamps as button-lamp pairs.'
-ms.assetid: '6ac912bb-8d2b-4aa3-a6e8-af86fbaabd58'
+Description: Microsoft Telephony models a phones buttons and lamps as button-lamp pairs.
+ms.assetid: 6ac912bb-8d2b-4aa3-a6e8-af86fbaabd58
 title: Buttons
 ms.topic: article
 ms.date: 05/31/2018

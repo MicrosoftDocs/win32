@@ -5,7 +5,7 @@ ms:assetid: 90cbaa83-47f2-4a65-b561-3bdecb7fd95a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269339(v=EXCHG.10)
 ms:contentKeyID: 32765628
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetPrepareUpdate
 topic_type: 

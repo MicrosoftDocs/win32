@@ -5,7 +5,7 @@ ms:assetid: cfb190cf-8bd3-4479-a6a1-7c0c9e8c74ca
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294095(v=EXCHG.10)
 ms:contentKeyID: 32765710
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetDefragment2
 - JetDefragment2A

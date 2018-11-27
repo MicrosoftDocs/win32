@@ -1,6 +1,6 @@
 ---
-Description: 'The Call object represents an address's connection between the local address and one or more other addresses.'
-ms.assetid: '67c063ba-8b12-40d6-9011-923bdee8b214'
+Description: The Call object represents an addresss connection between the local address and one or more other addresses.
+ms.assetid: 67c063ba-8b12-40d6-9011-923bdee8b214
 title: Call Object
 ms.topic: article
 ms.date: 05/31/2018

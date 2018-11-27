@@ -5,7 +5,7 @@ ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param_fields(v=EXCHG.10)
 ms:contentKeyID: 55104351
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Windows8Param fields

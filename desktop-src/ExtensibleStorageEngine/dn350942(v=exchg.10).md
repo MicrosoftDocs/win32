@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.InstanceParameters
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters(v=EXCHG.10)
 ms:contentKeyID: 55103285
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters
 dev_langs:

@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException.#ct
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwitherrorsexception.esentrecoveredwitherrorsexception(v=EXCHG.10)
 ms:contentKeyID: 55102551
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException.EsentRecoveredWithErrorsException
 dev_langs:

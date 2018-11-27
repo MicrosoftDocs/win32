@@ -5,7 +5,7 @@ ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistagrbits_fields(v=EXCHG.10)
 ms:contentKeyID: 55104318
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # VistaGrbits fields

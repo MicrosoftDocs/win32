@@ -1,5 +1,5 @@
 ---
-Description: 'The following are hints and tips to consider when writing an application for TAPI 3:'
+Description: The following are hints and tips to consider when writing an application for TAPI 3
 ms.assetid: 55aae46a-af5c-4b6d-89fc-9063f078bcd6
 title: Hints and Tips
 ms.topic: article

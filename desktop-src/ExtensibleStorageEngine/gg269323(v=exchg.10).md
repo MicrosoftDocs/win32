@@ -5,7 +5,7 @@ ms:assetid: 874ddd3c-0d69-4d48-b61a-e9e0457426ef
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269323(v=EXCHG.10)
 ms:contentKeyID: 32765613
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetSetTableSequential
 topic_type: 

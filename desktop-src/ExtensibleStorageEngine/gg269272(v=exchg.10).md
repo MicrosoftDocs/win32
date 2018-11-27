@@ -5,7 +5,7 @@ ms:assetid: 66331be0-7abc-43a0-8b8b-dbdd227c918e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269272(v=EXCHG.10)
 ms:contentKeyID: 32765574
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetExternalRestore2W
 - JetExternalRestore2A

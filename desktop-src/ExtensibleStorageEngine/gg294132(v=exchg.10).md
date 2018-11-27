@@ -5,7 +5,7 @@ ms:assetid: f1c5a73d-b1cc-4ee4-942b-b5e4ef51bc2f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294132(v=EXCHG.10)
 ms:contentKeyID: 32765746
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetBeginExternalBackupInstance
 topic_type: 

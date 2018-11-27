@@ -1,6 +1,6 @@
 ---
-Description: 'The DeletePrinterData function deletes specified configuration data for a printer. A printer's configuration data consists of a set of named and typed values. The DeletePrinterData function deletes one of these values, specified by its value name.'
-ms.assetid: '03c0bd75-d6de-46e3-b8e9-5a55df5135ea'
+Description: The DeletePrinterData function deletes specified configuration data for a printer. A printers configuration data consists of a set of named and typed values. The DeletePrinterData function deletes one of these values, specified by its value name.
+ms.assetid: 03c0bd75-d6de-46e3-b8e9-5a55df5135ea
 title: DeletePrinterData function
 ms.topic: article
 ms.date: 05/31/2018

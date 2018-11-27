@@ -5,7 +5,7 @@ ms:assetid: N:Microsoft.Isam.Esent
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent(v=EXCHG.10)
 ms:contentKeyID: 55107211
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent
 dev_langs:

@@ -5,7 +5,7 @@ ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_HANDLE.Equals
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle.equals(v=EXCHG.10)
 ms:contentKeyID: 39514404
 ms.date: 07/30/2014
-mtps_version: v=EXCHG.10
+ms.topic: article
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_HANDLE.Equals
 dev_langs:

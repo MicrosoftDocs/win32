@@ -5,7 +5,7 @@ ms:assetid: b94eaf91-7407-4c62-ab1e-3249ad076c1a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294070(v=EXCHG.10)
 ms:contentKeyID: 32765685
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 api_name: 
 - JetOSSnapshotGetFreezeInfo
 - JetOSSnapshotGetFreezeInfoA

@@ -5,7 +5,7 @@ ms:assetid: 78a905b8-71a9-4b2e-b9f2-c81bfe3aef8e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269304(v=EXCHG.10)
 ms:contentKeyID: 32765595
 ms.date: 04/11/2016
-mtps_version: v=EXCHG.10
+ms.topic: article
 ---
 
 # Tagged, Fixed and Variable Columns
