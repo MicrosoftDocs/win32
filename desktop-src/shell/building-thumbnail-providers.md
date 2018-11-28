@@ -3,6 +3,13 @@ Description: As of Windows Vista, greater use is made of file-specific thumbnai
 title: Building Thumbnail Handlers
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 218264a9-ed26-4049-a721-232943f6ec53
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Building Thumbnail Handlers

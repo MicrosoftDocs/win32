@@ -7,6 +7,17 @@ MSHAttr:
 title: PipeLineStageError structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: B512BA18-23D6-428C-BCFE-3C69648AE192
+api_name: 
+ - PipeLineStageError
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pipelinestageerror"></span>PipeLineStageError structure

@@ -3,6 +3,17 @@ Description: Allows the callback object to specify an HTML Help file and a topic
 title: SFVM_GETHELPTOPIC message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: bbe92e9f-4074-4101-a945-072866ab20a8
+api_name: 
+ - SFVM_GETHELPTOPIC
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_GETHELPTOPIC message

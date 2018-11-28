@@ -7,6 +7,17 @@ MSHAttr:
 title: IPeerToPeerEngine::GetPlaybackEndpoint method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3B391048-E7F7-4DA7-96A3-05875B170DCA
+api_name: 
+ - IPeerToPeerEngine.GetPlaybackEndpoint
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipeertopeerengine_getplaybackendpoint_bool_bstr_ptr_bstr_ptr_remotingversion_ptr"></span>IPeerToPeerEngine::GetPlaybackEndpoint method

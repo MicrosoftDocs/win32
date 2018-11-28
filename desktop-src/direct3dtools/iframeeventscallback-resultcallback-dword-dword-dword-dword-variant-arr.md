@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameEventsCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5AB67A11-00C1-47AF-8C8C-8B2FDD095BCF
+api_name: 
+ - IFrameEventsCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframeeventscallback_resultcallback_dword_dword_dword_dword_variant_arr"></span>IFrameEventsCallback::ResultCallback method

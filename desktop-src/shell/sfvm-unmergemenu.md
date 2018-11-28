@@ -3,6 +3,17 @@ Description: Notifies the callback object that a menu is being removed. Used by 
 title: SFVM_UNMERGEMENU message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0255a41d-e8b4-48d2-931a-aa76ad83c18c
+api_name: 
+ - SFVM_UNMERGEMENU
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_UNMERGEMENU message

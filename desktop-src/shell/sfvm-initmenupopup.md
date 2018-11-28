@@ -3,6 +3,17 @@ Description: Allows the callback object to modify a Windows Explorer pop-up menu
 title: SFVM_INITMENUPOPUP message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9d7e96e9-c52e-43bd-945b-05db33c8dfd0
+api_name: 
+ - SFVM_INITMENUPOPUP
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_INITMENUPOPUP message

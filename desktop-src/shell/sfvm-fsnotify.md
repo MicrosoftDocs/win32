@@ -3,6 +3,17 @@ Description: Notifies the callback object that an event has taken place that aff
 title: SFVM_FSNOTIFY message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: ff159c35-afdf-4147-8dd6-7febd9519b18
+api_name: 
+ - SFVM_FSNOTIFY
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_FSNOTIFY message

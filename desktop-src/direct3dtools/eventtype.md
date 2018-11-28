@@ -7,6 +7,17 @@ MSHAttr:
 title: EVENTTYPE enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: F7A6F396-5BC0-4963-ABFD-ACB7AAE475F5
+api_name: 
+ - EVENTTYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.eventtype"></span>EVENTTYPE enumeration

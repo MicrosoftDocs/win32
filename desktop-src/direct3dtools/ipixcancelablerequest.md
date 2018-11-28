@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixCancelableRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 5463ADDD-6FE8-428C-A348-3811C6E97E39
+api_name: 
+ - IPixCancelableRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixcancelablerequest"></span>IPixCancelableRequest interface

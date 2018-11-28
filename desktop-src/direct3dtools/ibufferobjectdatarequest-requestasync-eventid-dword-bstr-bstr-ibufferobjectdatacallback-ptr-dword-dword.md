@@ -7,6 +7,17 @@ MSHAttr:
 title: IBufferObjectDataRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 899954DC-6196-4F79-AFB4-5E692DAA03EC
+api_name: 
+ - IBufferObjectDataRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ibufferobjectdatarequest_requestasync_eventid_dword_bstr_bstr_ibufferobjectdatacallback_ptr_dword_dword"></span>IBufferObjectDataRequest::RequestAsync method

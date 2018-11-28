@@ -3,6 +3,17 @@ Description: A callback function used to notify the host of the engines progress
 title: "IStatusCallback::Status method"
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4DC2A05F-506C-4AB4-98E1-58827056700D
+api_name: 
+ - IStatusCallback.Status
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.istatuscallback_status_dword_dword_dword"></span>IStatusCallback::Status method

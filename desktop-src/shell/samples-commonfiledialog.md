@@ -3,6 +3,13 @@ Description: Demonstrates how to create a custom file open/save dialog by using 
 title: Common File Dialog Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6A218D58-0A26-4103-B0EC-6C308528E3D5
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Common File Dialog Sample

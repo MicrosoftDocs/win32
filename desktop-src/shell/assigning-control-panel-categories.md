@@ -3,6 +3,13 @@ Description: As of Windows XP, Control Panel supports categorization of Control
 title: Assigning Control Panel Categories
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: e189b57d-c066-4f28-b1d5-3e05d6c6eeb2
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Assigning Control Panel Categories

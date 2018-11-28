@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback3 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 0CCAFC6E-E4BD-4A3A-B37D-3EC91C85C1DC
+api_name: 
+ - IPipeLineStagesCallback3
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback3"></span>IPipeLineStagesCallback3 interface

@@ -7,6 +7,17 @@ MSHAttr:
 title: Issue structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 4F42E617-3EC8-4308-B9FE-F48C78702504
+api_name: 
+ - Issue
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.issue"></span>Issue structure

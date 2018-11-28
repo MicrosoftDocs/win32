@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEnginePoint4D structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: B64925AF-7F38-4DB7-9613-E63BAC187F74
+api_name: 
+ - PixEnginePoint4D
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixenginepoint4d"></span>PixEnginePoint4D structure

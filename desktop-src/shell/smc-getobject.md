@@ -3,6 +3,17 @@ Description: Requests a pointer to a specified object.
 title: SMC_GETOBJECT message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 36e8f304-a92a-485f-8413-b9c416087ec9
+api_name: 
+ - SMC_GETOBJECT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_GETOBJECT message

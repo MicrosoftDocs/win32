@@ -12,6 +12,17 @@ api_type:
 - HeaderDef
 api_location: 
 - Wfext.h
+ms.assetid: 7185f9e5-10c6-43cc-b85b-cd077378338f
+api_name: 
+ - FMS_TOOLBARLOAD
+api_type: 
+ - HeaderDef
+api_location: 
+ - Wfext.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # FMS\_TOOLBARLOAD structure

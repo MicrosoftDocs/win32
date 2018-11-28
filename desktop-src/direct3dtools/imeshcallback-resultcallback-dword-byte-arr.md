@@ -7,6 +7,17 @@ MSHAttr:
 title: IMeshCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 07E8B051-7EC1-4F3B-9102-BE65F281845C
+api_name: 
+ - IMeshCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.imeshcallback_resultcallback_dword_byte_arr"></span>IMeshCallback::ResultCallback method

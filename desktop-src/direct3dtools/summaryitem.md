@@ -7,6 +7,17 @@ MSHAttr:
 title: SummaryItem structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 5070AD81-804B-48DF-A4D8-7AF1AAC83363
+api_name: 
+ - SummaryItem
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.summaryitem"></span>SummaryItem structure

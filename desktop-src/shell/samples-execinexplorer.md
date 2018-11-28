@@ -3,6 +3,13 @@ Description: Demonstrates how to call the ShellExecute function from the Windows
 title: Execute In Explorer Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: D307B22A-E4A3-4215-B28E-F48A721260A1
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Execute In Explorer Sample

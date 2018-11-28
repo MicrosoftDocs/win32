@@ -3,6 +3,13 @@ Description: Demonstrates how to implement a custom Explorer Browser contol for 
 title: Explorer Browser Custom Contents Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 1C8699DB-9415-4499-9A80-397AF4ECB606
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Explorer Browser Custom Contents Sample

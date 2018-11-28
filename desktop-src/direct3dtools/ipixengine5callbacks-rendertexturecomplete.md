@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks::RenderTextureComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 321219F0-209F-41AB-A2B0-A053FB6C3AE7
+api_name: 
+ - IPixEngine5Callbacks.RenderTextureComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks_rendertexturecomplete"></span>IPixEngine5Callbacks::RenderTextureComplete method

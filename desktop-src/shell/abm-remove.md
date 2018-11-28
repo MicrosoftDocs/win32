@@ -3,6 +3,17 @@ Description: Unregisters an appbar by removing it from the system's internal lis
 title: ABM_REMOVE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3da73a52-3dbb-4133-a9bd-86540e1c4154
+api_name: 
+ - ABM_REMOVE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ABM\_REMOVE message

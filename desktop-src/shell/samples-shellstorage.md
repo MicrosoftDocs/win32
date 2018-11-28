@@ -3,6 +3,13 @@ Description: Demonstrates how to create files and folders in Shell containers. A
 title: Shell Storage Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5109AFD1-060A-41f6-BC37-33FB5E825318
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Storage Sample

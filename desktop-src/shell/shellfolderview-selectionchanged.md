@@ -12,6 +12,17 @@ api_type:
 - DllExport
 api_location: 
 - Shell32.dll
+ms.assetid: e91b72fd-fd26-4e38-8e80-41febec3ca03
+api_name: 
+ - SelectionChanged
+api_type: 
+ - DllExport
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ShellFolderView.SelectionChanged event

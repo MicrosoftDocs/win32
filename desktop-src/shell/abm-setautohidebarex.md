@@ -3,6 +3,17 @@ Description: Registers or unregisters an autohide appbar for a given edge of the
 title: ABM_SETAUTOHIDEBAREX message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: C437727C-3FF6-4598-9D81-A39FCC2EF1C4
+api_name: 
+ - ABM_SETAUTOHIDEBAREX
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ABM\_SETAUTOHIDEBAREX message

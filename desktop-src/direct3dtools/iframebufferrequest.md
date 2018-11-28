@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameBufferRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 74497395-9956-430A-AB75-F1FD2FC4E66E
+api_name: 
+ - IFrameBufferRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframebufferrequest"></span>IFrameBufferRequest interface

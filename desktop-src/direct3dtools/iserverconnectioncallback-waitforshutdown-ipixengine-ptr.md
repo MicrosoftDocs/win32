@@ -7,6 +7,17 @@ MSHAttr:
 title: IServerConnectionCallback::WaitForShutdown method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: B70229D5-3C41-4B50-8336-A1271A9EBE81
+api_name: 
+ - IServerConnectionCallback.WaitForShutdown
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iserverconnectioncallback_waitforshutdown_ipixengine_ptr"></span>IServerConnectionCallback::WaitForShutdown method

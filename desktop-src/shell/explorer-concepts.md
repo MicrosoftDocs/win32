@@ -3,6 +3,13 @@ Description: The Shell namespace organizes the file system and other objects man
 title: Common Explorer Concepts
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 78136c36-bd3c-4114-8b69-fef4e307566d
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Common Explorer Concepts

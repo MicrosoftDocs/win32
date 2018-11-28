@@ -7,6 +7,17 @@ MSHAttr:
 title: IGenericBufferDataCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5627A93E-8BE8-4413-BFB4-724AF2DDFEB6
+api_name: 
+ - IGenericBufferDataCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.igenericbufferdatacallback_resultcallback_dword_byte_arr_bstr"></span>IGenericBufferDataCallback::ResultCallback method

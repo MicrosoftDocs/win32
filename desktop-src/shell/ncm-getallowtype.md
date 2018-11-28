@@ -3,6 +3,17 @@ Description: Retrieves the network address types that a specified network addres
 title: NCM_GETALLOWTYPE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 1B06463F-0CA6-4e8e-BD3B-917562A6A244
+api_name: 
+ - NCM_GETALLOWTYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # NCM\_GETALLOWTYPE message

@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 922DBEE0-CE47-4292-A5E6-4503E6F77A23
+api_name: 
+ - IPipeLineStagesCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback_resultcallback_pipelinestagesid_eventid_dword_dword_dword_dword_byte_arr"></span>IPipeLineStagesCallback::ResultCallback method

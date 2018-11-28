@@ -7,6 +7,17 @@ MSHAttr:
 title: SourceFileInfo structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: A5222610-36ED-4F3B-BD95-A4F8611CC557
+api_name: 
+ - SourceFileInfo
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.sourcefileinfo"></span>SourceFileInfo structure

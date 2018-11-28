@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks::LoadHistogramComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A72DB49E-06C8-4061-9872-C4380D90EEB2
+api_name: 
+ - IPixEngine5Callbacks.LoadHistogramComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks_loadhistogramcomplete_pixenginehistogram_ptr"></span>IPixEngine5Callbacks::LoadHistogramComplete method

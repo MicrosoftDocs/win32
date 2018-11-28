@@ -14,6 +14,19 @@ api_type:
 - DllExport
 api_location: 
 - Shlwapi.dll
+ms.assetid: 1108614d-7034-48da-a4a5-544f8d9af3ca
+api_name: 
+ - MLHtmlHelp
+ - MLHtmlHelpA
+ - MLHtmlHelpW
+api_type: 
+ - DllExport
+api_location: 
+ - Shlwapi.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # MLHtmlHelp function

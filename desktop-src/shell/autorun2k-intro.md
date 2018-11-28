@@ -3,6 +3,13 @@ Description: AutoPlay is a new feature introducted in Windows XP that detects c
 title: Using Hardware AutoPlay
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 64bf29df-5fb4-45cd-b0a8-f669548a59f0
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Using Hardware AutoPlay

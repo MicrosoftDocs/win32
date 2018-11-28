@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 82be6bd5-a46c-48b3-a1f0-a92b9454c35e
+api_name: 
+ - IShellFolderViewType.GetViewTypeProperties
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # IShellFolderViewType::GetViewTypeProperties method

@@ -3,6 +3,13 @@ Description: Demonstrates how to create a search with query constraints using th
 title: Search Folder Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: DF3432AB-39DF-44c6-9A08-4630408D6B9B
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Search Folder Sample

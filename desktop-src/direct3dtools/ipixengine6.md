@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine6 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 8A7735EF-E9CC-40F2-813E-63DCB915C807
+api_name: 
+ - IPixEngine6
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine6"></span>IPixEngine6 interface

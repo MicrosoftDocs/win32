@@ -3,6 +3,13 @@ Description: Demonstrates how to create a thumbnail handler by file type and ext
 title: Recipe Thumbnail Provider Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 41C56D20-8A1A-41fb-9ECF-5FB4D1F5A94C
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Recipe Thumbnail Provider Sample

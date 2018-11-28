@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shldisp.h
+ms.assetid: 5E789607-AEB6-48F9-A9D7-8D27263DBA77
+api_name: 
+ - Shell.SearchCommand
+api_type: 
+ - COM
+api_location: 
+ - Shldisp.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # Shell.SearchCommand method

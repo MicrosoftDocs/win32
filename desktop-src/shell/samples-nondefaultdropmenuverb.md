@@ -3,6 +3,13 @@ Description: Demonstrates how to extend the drag-and-drop shortcut menu (sometim
 title: NonDefaultDropMenuVerb Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: F19B7561-D280-41df-A829-15960FEB12F8
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # NonDefaultDropMenuVerb Sample

@@ -3,6 +3,13 @@ Description: Online help can come in a variety of forms, from detailed conceptua
 title: Handling Online Help
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2a3f6034-6ba6-4204-a2e1-59995fbf40fe
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Handling Online Help

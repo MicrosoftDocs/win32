@@ -7,6 +7,17 @@ MSHAttr:
 title: ICallStackCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: AF380634-A284-4DCA-B746-FB1D8BE099B4
+api_name: 
+ - ICallStackCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.icallstackcallback"></span>ICallStackCallback interface

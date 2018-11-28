@@ -3,6 +3,13 @@ Description: When you provide a thumbnail, the following guidelines should be fo
 title: Thumbnail Handler Guidelines
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: a1d29992-1347-4574-81b9-b90e2b0938f1
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Thumbnail Handler Guidelines

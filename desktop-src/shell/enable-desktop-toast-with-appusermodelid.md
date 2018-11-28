@@ -3,6 +3,13 @@ Description: This topic shows you how to create a shortcut for your app, assign 
 title: How to enable desktop toast notifications through an AppUserModelID
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: BB32CD0A-99E6-47dc-A913-39A7B3027314
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbSyntax
+
 ---
 
 # How to enable desktop toast notifications through an AppUserModelID

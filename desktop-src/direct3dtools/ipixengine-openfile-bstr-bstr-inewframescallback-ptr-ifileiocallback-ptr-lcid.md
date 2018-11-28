@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine::OpenFile method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8E0E1336-9FC7-4C32-AF3C-F3BDF39A36D9
+api_name: 
+ - IPixEngine.OpenFile
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine_openfile_bstr_bstr_inewframescallback_ptr_ifileiocallback_ptr_lcid"></span>IPixEngine::OpenFile method

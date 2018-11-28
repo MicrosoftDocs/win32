@@ -3,6 +3,17 @@ Description: Allows the callback object to specify a help text string for menu i
 title: SFVM_GETHELPTEXT message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9bd6d632-308c-4ba5-8ac6-2d0f65853947
+api_name: 
+ - SFVM_GETHELPTEXT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_GETHELPTEXT message

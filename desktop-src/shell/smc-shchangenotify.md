@@ -3,6 +3,17 @@ Description: Notifies you that a change has taken place.
 title: SMC_SHCHANGENOTIFY message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8232f170-0dab-475a-ace0-67c04f01c777
+api_name: 
+ - SMC_SHCHANGENOTIFY
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_SHCHANGENOTIFY message

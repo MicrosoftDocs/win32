@@ -3,6 +3,13 @@ Description: This section describes the Windows Shell color palette handling fun
 title: Shell Color Palette Handling Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 93848cb3-60c6-4b2f-82d9-abfee97e372a
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Color Palette Handling Functions

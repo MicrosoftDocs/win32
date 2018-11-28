@@ -3,6 +3,17 @@ Description: Requests information about a Shell folder menu item.
 title: SMC_GETSFINFO message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4459670c-f0fd-4ae8-8a1f-810e1dcac713
+api_name: 
+ - SMC_GETSFINFO
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_GETSFINFO message

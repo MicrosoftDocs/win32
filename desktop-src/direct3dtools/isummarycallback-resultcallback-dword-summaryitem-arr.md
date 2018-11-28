@@ -7,6 +7,17 @@ MSHAttr:
 title: ISummaryCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 07569D26-45A6-41A5-868D-8038BAB9079B
+api_name: 
+ - ISummaryCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isummarycallback_resultcallback_dword_summaryitem_arr"></span>ISummaryCallback::ResultCallback method

@@ -7,6 +7,17 @@ MSHAttr:
 title: ITextureCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 330E2573-CF93-4DF7-B5C6-4D1D44142914
+api_name: 
+ - ITextureCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.itexturecallback_resultcallback"></span>ITextureCallback::ResultCallback method

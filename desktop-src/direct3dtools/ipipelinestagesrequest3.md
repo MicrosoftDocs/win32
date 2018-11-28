@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesRequest3 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 4E34E852-D7EF-4244-90B5-28F8BE41FDFD
+api_name: 
+ - IPipeLineStagesRequest3
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagesrequest3"></span>IPipeLineStagesRequest3 interface

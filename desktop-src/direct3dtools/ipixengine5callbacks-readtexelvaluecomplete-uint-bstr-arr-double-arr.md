@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks::ReadTexelValueComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3CAC08D8-0E4F-40B5-B91C-5C9159665C96
+api_name: 
+ - IPixEngine5Callbacks.ReadTexelValueComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks_readtexelvaluecomplete_uint_bstr_arr_double_arr"></span>IPixEngine5Callbacks::ReadTexelValueComplete method

@@ -3,6 +3,17 @@ Description: Notifies the callback object that background enumeration is complet
 title: SFVM_BACKGROUNDENUMDONE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 31cba726-c52f-46ba-8852-5dca9756206a
+api_name: 
+ - SFVM_BACKGROUNDENUMDONE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_BACKGROUNDENUMDONE message

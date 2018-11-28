@@ -3,6 +3,13 @@ Description: 'The system stores user profile information in a specific directory
 title: Profiles Directory
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 41056f40-fa1a-488a-b213-49cbdd8d4fdf
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Profiles Directory

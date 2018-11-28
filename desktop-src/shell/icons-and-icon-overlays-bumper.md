@@ -3,6 +3,13 @@ Description: Icons and Icon Overlays
 title: Icons and Icon Overlays
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: e35bb134-dace-44d5-8895-2433d7dbb853
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Icons and Icon Overlays

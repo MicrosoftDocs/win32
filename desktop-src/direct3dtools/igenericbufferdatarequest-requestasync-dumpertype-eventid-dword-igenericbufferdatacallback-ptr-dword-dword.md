@@ -7,6 +7,17 @@ MSHAttr:
 title: IGenericBufferDataRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 542E20F9-B91D-4A05-AEE8-9DD2E80B76DB
+api_name: 
+ - IGenericBufferDataRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.igenericbufferdatarequest_requestasync_dumpertype_eventid_dword_igenericbufferdatacallback_ptr_dword_dword"></span>IGenericBufferDataRequest::RequestAsync method

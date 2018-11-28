@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryRequest2::RequestPrimitives method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: CFEB833C-1747-4153-A691-7529AA3F4095
+api_name: 
+ - IPixelHistoryRequest2.RequestPrimitives
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistoryrequest2_requestprimitives_pixelhistoryintersection_ptr_ipixelhistorycallback2_ptr_dword_dword"></span>IPixelHistoryRequest2::RequestPrimitives method

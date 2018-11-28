@@ -7,6 +7,17 @@ MSHAttr:
 title: Resource_Id enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: CC04FDC4-CD35-4A87-8EE8-48FFA07B8FC0
+api_name: 
+ - Resource_Id
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.resource_id"></span>Resource\_Id enumeration

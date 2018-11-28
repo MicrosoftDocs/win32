@@ -3,6 +3,13 @@ Description: This section describes the Windows Shell path handling functions. T
 title: Shell Path Handling Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 31c4afa9-2030-4714-a98b-ed895c9c28a0
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Path Handling Functions

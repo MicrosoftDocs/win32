@@ -3,6 +3,13 @@ Description: As of Windows 7, cascading menus are created through the SubComman
 title: Creating Static Cascading Menus
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E3A6F174-BE53-48EF-AE9B-A3F297E91B95
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Creating Static Cascading Menus

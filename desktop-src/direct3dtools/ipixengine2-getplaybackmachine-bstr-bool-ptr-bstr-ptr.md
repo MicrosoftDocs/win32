@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine2::GetPlaybackMachine method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: D6C3C391-F039-4A5A-AA88-87A3624ECAD2
+api_name: 
+ - IPixEngine2.GetPlaybackMachine
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine2_getplaybackmachine_bstr_bool_ptr_bstr_ptr"></span>IPixEngine2::GetPlaybackMachine method

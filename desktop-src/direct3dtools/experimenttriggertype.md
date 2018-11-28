@@ -7,6 +7,17 @@ MSHAttr:
 title: EXPERIMENTTRIGGERTYPE enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 4534A73E-D0BD-4412-8857-F8F5F42F5334
+api_name: 
+ - EXPERIMENTTRIGGERTYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.experimenttriggertype"></span>EXPERIMENTTRIGGERTYPE enumeration

@@ -3,6 +3,13 @@ Description: Demonstrates how to create a verb that operates on Shell items and 
 title: Player Verb Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: ABD905DD-F216-495e-A052-E43D93DD3D6B
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Player Verb Sample

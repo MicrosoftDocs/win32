@@ -3,6 +3,17 @@ Description: Sent to notify CPlApplet that the user has chosen the icon associat
 title: CPL_STARTWPARMS message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 04ac5117-39c9-4d3f-b32d-8f8d2b515be1
+api_name: 
+ - CPL_STARTWPARMS
+api_type: 
+ - HeaderDef
+api_location: 
+ - Cpl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CPL\_STARTWPARMS message

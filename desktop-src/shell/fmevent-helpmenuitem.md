@@ -12,6 +12,17 @@ api_type:
 - HeaderDef
 api_location: 
 - Wfext.h
+ms.assetid: 6298061d-7e24-45ab-8bc4-96b28e071080
+api_name: 
+ - FMEVENT_HELPMENUITEM
+api_type: 
+ - HeaderDef
+api_location: 
+ - Wfext.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # FMEVENT\_HELPMENUITEM message

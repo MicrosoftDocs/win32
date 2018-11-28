@@ -7,6 +7,16 @@ MSHAttr:
 title: UserLogonCred
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 12a65d91-1917-49d4-9b58-68c60464c857
+api_name: 
+ - UserLogonCred
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_UserLogonCred"></span>UserLogonCred

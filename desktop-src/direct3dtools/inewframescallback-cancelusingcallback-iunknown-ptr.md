@@ -7,6 +7,17 @@ MSHAttr:
 title: INewFramesCallback::CancelUsingCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 291B2F85-1437-4704-8971-4B7C25B693F8
+api_name: 
+ - INewFramesCallback.CancelUsingCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.inewframescallback_cancelusingcallback_iunknown_ptr"></span>INewFramesCallback::CancelUsingCallback method

@@ -3,6 +3,17 @@ Description: Sent to all windows after the user has logged on or off. When the u
 title: WM_USERCHANGED message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmessages\wm_userchanged.htm
+api_name: 
+ - WM_USERCHANGED
+api_type: 
+ - HeaderDef
+api_location: 
+ - Winuser.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # WM\_USERCHANGED message

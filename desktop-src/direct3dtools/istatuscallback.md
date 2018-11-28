@@ -7,6 +7,17 @@ MSHAttr:
 title: IStatusCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: C082689B-C322-4CF9-9623-1755DB4D02DC
+api_name: 
+ - IStatusCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.istatuscallback"></span>IStatusCallback interface

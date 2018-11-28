@@ -3,6 +3,17 @@ Description: Sent when a drop-down menu or submenu is about to become active. Th
 title: DFM_WM_INITMENUPOPUP message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 314e83f7-839d-4ca0-b5c1-842c5bf14923
+api_name: 
+ - DFM_WM_INITMENUPOPUP
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DFM\_WM\_INITMENUPOPUP message

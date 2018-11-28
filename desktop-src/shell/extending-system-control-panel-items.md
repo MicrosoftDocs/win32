@@ -3,6 +3,13 @@ Description: Some of the system items found in the Control Panel are extensible.
 title: Extending System Control Panel Items
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: b8b18b71-c95f-4c71-8df4-fe9342ce0165
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Extending System Control Panel Items

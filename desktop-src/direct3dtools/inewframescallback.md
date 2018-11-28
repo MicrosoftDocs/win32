@@ -7,6 +7,17 @@ MSHAttr:
 title: INewFramesCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: A73E1EA4-F9D5-43F1-B363-20B3F7B3D8B0
+api_name: 
+ - INewFramesCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.inewframescallback"></span>INewFramesCallback interface

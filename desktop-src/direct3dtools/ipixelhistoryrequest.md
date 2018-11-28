@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 01A71F58-45B2-484A-B043-D222FDAC3BC8
+api_name: 
+ - IPixelHistoryRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistoryrequest"></span>IPixelHistoryRequest interface

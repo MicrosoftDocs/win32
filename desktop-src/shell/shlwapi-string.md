@@ -3,6 +3,13 @@ Description: This section describes the Windows Shell string handling functions.
 title: Shell String Handling Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: c7329e22-c9bf-4845-bc0a-a155d1bd2005
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell String Handling Functions

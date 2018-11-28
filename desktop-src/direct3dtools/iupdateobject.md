@@ -7,6 +7,17 @@ MSHAttr:
 title: IUpdateObject interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 857C4447-60E1-4953-ABF3-55314BD833D8
+api_name: 
+ - IUpdateObject
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iupdateobject"></span>IUpdateObject interface

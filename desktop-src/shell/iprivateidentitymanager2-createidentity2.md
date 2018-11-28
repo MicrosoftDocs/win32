@@ -8,6 +8,13 @@ topic_type:
 api_name: 
 api_type: 
 api_location: 
+ms.assetid: 485f99ac-eec2-4037-9462-6b264fa8d8df
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbSyntax
+
 ---
 
 # IPrivateIdentityManager2::CreateIdentity2 method

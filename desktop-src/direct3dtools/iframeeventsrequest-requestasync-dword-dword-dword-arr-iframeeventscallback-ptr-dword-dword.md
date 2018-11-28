@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameEventsRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 821E7674-A960-46F6-A7AF-386298902ED6
+api_name: 
+ - IFrameEventsRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframeeventsrequest_requestasync_dword_dword_dword_arr_iframeeventscallback_ptr_dword_dword"></span>IFrameEventsRequest::RequestAsync method

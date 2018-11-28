@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 5b52b141-ced3-4d38-8584-7dfcfe12ab56
+api_name: 
+ - Folder2
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # Folder2 object

@@ -3,6 +3,13 @@ Description: The Windows UI provides users with access to a wide variety of obje
 title: Windows Shell
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 1d0d4ed7-9b85-4d70-bf1f-82567a1687fb
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Windows Shell

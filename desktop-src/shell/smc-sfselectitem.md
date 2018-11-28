@@ -3,6 +3,17 @@ Description: The user has selected the item specified by the accompanying SMDATA
 title: SMC_SFSELECTITEM message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 82c3dfca-98a8-43ca-bebc-85bfdf640d38
+api_name: 
+ - SMC_SFSELECTITEM
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_SFSELECTITEM message

@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 8995B617-6830-4A07-8C83-B5925E033967
+api_name: 
+ - IPixEngine5
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5"></span>IPixEngine5 interface

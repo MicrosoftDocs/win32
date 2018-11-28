@@ -3,6 +3,13 @@ Description: Demonstrates how an application can expose multiple switch targets 
 title: TabThumbnails Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3F48EAA2-98A3-4530-9FC6-A395987157B7
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # TabThumbnails Sample

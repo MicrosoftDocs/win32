@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisCallback::OfflineAnalysisProgress method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 17847FD7-A10A-4E52-90AD-ADE446D87E73
+api_name: 
+ - IOfflineAnalysisCallback.OfflineAnalysisProgress
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysiscallback_offlineanalysisprogress_dword_double"></span>IOfflineAnalysisCallback::OfflineAnalysisProgress method

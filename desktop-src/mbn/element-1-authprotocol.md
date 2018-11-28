@@ -7,6 +7,16 @@ MSHAttr:
 title: AuthProtocol
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5e6c5a25-fe9e-4d0a-8b5b-4ff585f562af
+api_name: 
+ - AuthProtocol
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_1_AuthProtocol"></span>AuthProtocol

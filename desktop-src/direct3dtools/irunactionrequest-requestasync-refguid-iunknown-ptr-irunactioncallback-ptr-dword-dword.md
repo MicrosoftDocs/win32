@@ -7,6 +7,17 @@ MSHAttr:
 title: IRunActionRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4A4DF4BE-383D-4B36-9195-61720C3B4D97
+api_name: 
+ - IRunActionRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.irunactionrequest_requestasync_refguid_iunknown_ptr_irunactioncallback_ptr_dword_dword"></span>IRunActionRequest::RequestAsync method

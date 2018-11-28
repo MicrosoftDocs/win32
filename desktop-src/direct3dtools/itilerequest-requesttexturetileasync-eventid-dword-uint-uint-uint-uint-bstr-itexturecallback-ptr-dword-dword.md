@@ -7,6 +7,17 @@ MSHAttr:
 title: ITileRequest::RequestTextureTileAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E3F4FAC2-E7D9-4FDF-BE64-73D3EA175A8F
+api_name: 
+ - ITileRequest.RequestTextureTileAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.itilerequest_requesttexturetileasync_eventid_dword_uint_uint_uint_uint_bstr_itexturecallback_ptr_dword_dword"></span>ITileRequest::RequestTextureTileAsync method

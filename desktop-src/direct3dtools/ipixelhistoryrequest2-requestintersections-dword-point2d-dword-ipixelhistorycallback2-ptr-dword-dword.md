@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryRequest2::RequestIntersections method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: C8E47935-DFA1-4A76-9D0A-3DF5833A1249
+api_name: 
+ - IPixelHistoryRequest2.RequestIntersections
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistoryrequest2_requestintersections_dword_point2d_dword_ipixelhistorycallback2_ptr_dword_dword"></span>IPixelHistoryRequest2::RequestIntersections method

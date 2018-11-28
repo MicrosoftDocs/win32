@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEngineChannelDesc structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: E08E3B02-17FC-490E-A0F3-1E1A6BC1B848
+api_name: 
+ - PixEngineChannelDesc
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixenginechanneldesc"></span>PixEngineChannelDesc structure

@@ -3,6 +3,13 @@ Description: Demonstrates how to create a verb that operates on a selected Shell
 title: Playlist Creator Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: B35B7A18-2163-4860-BC50-8918056C9F4A
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Playlist Creator Sample

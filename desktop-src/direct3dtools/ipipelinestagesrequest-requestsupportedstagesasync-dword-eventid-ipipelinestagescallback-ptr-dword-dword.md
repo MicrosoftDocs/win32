@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesRequest::RequestSupportedStagesAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: C636FC40-0505-486B-B25D-9B424F5A584D
+api_name: 
+ - IPipeLineStagesRequest.RequestSupportedStagesAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagesrequest_requestsupportedstagesasync_dword_eventid_ipipelinestagescallback_ptr_dword_dword"></span>IPipeLineStagesRequest::RequestSupportedStagesAsync method

@@ -7,6 +7,17 @@ MSHAttr:
 title: IRunExperimentCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 4D82B80E-6431-4A34-94B8-58D00EC8EE2E
+api_name: 
+ - IRunExperimentCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.irunexperimentcallback"></span>IRunExperimentCallback interface

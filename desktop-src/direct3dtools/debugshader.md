@@ -7,6 +7,17 @@ MSHAttr:
 title: DebugShader structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 88BC949B-3DBA-4081-B8D3-4F0A82913283
+api_name: 
+ - DebugShader
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.debugshader"></span>DebugShader structure

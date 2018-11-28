@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameEventsCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: F40DD5DC-E78E-41F3-9D25-4D7CAE27DE45
+api_name: 
+ - IFrameEventsCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframeeventscallback"></span>IFrameEventsCallback interface

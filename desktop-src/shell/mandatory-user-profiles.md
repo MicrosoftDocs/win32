@@ -3,6 +3,13 @@ Description: A mandatory user profile is a special type of pre-configured roamin
 title: Mandatory User Profiles
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 09616c7f-1cec-48a0-a953-d4ae35fbd2f6
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Mandatory User Profiles

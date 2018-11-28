@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugShaderCancel interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 4C53CF29-7B82-48CD-8D68-C18C75FDD7F4
+api_name: 
+ - IDebugShaderCancel
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugshadercancel"></span>IDebugShaderCancel interface

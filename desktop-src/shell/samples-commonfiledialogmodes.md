@@ -3,6 +3,13 @@ Description: Demonstrates how to use the Common File Dialog in different modes t
 title: Common File Dialog Modes Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: D0FC0D97-D17D-4829-8ABC-45FD5C3E43F0
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Common File Dialog Modes Sample

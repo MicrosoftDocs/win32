@@ -7,6 +7,16 @@ MSHAttr:
 title: Password
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6345870c-631e-42cc-9487-14d37215d1d2
+api_name: 
+ - Password
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_1_Password"></span>Password

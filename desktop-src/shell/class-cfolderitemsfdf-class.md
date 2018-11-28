@@ -11,6 +11,16 @@ api_name:
 api_type: 
 - COM
 api_location: 
+ms.assetid: 7da6ebdf-dced-402f-a8ad-c10d78593f86
+api_name: 
+ - CFolderItemsFDF
+api_type: 
+ - COM
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CFolderItemsFDF class

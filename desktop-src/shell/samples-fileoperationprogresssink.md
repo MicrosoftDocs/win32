@@ -3,6 +3,13 @@ Description: Demonstrates how to use the IFileOperationProgressSink interface me
 title: File Operation Progress Sink
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 196ABB75-1FE0-44f5-9060-59AAB4231567
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # File Operation Progress Sink

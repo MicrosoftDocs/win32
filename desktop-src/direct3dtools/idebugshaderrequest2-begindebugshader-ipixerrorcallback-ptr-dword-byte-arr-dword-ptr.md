@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugShaderRequest2::BeginDebugShader method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: B454D673-C14F-4A8F-9DA7-2C47510BE5DA
+api_name: 
+ - IDebugShaderRequest2.BeginDebugShader
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugshaderrequest2_begindebugshader_ipixerrorcallback_ptr_dword_byte_arr_dword_ptr"></span>IDebugShaderRequest2::BeginDebugShader method

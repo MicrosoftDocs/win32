@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback2::ThreadDataDimensionCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E8765C14-0A55-468D-BCA8-3E28E5476DFB
+api_name: 
+ - IPipeLineStagesCallback2.ThreadDataDimensionCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback2_threaddatadimensioncallback_threaddata3d_threaddata3d"></span>IPipeLineStagesCallback2::ThreadDataDimensionCallback method

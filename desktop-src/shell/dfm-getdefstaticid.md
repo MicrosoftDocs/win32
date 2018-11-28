@@ -3,6 +3,17 @@ Description: Sent by the default context menu implementation during creation, sp
 title: DFM_GETDEFSTATICID message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9e4ad96e-7c90-456e-8668-21b347f2915c
+api_name: 
+ - DFM_GETDEFSTATICID
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DFM\_GETDEFSTATICID message

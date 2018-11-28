@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine4::UpdateObject method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 90B1DE4F-7DF5-44C9-9A57-1BFB6825EB58
+api_name: 
+ - IPixEngine4.UpdateObject
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine4_updateobject_uint_dword_byte_arr"></span>IPixEngine4::UpdateObject method

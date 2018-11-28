@@ -3,6 +3,13 @@ Description: Demonstrates how to use the Windows Explorer Browser control to emb
 title: Explorer Browser Search Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A7558455-06C4-48d1-8F85-B0FB682B52BB
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Explorer Browser Search Sample

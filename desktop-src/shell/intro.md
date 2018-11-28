@@ -3,6 +3,13 @@ Description: The Windows UI provides users with access to a wide variety of obje
 title: Shell Developer's Guide
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8f88ef25-3645-4f54-9453-41f919c0fc0a
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Developer's Guide

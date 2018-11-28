@@ -3,6 +3,13 @@ Description: The system creates a user profile the first time that a user logs o
 title: About User Profiles
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 333f1861-91fe-4796-af13-dd300a5c6ec3
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # About User Profiles

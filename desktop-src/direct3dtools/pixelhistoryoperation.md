@@ -7,6 +7,17 @@ MSHAttr:
 title: PixelHistoryOperation structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 59DC72FC-3865-48D3-9F92-9BE93DCA093B
+api_name: 
+ - PixelHistoryOperation
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixelhistoryoperation"></span>PixelHistoryOperation structure

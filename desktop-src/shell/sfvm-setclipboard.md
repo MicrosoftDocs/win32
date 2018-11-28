@@ -3,6 +3,17 @@ Description: Notifies the IShellView when one of its objects is placed on the Cl
 title: SFVM_SETCLIPBOARD message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6a4cf0c5-2349-4e1e-b6c5-ee9b5430456e
+api_name: 
+ - SFVM_SETCLIPBOARD
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_SETCLIPBOARD message

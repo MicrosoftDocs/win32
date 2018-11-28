@@ -7,6 +7,17 @@ MSHAttr:
 title: IRunActionCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: A597D33C-A5CD-48D4-94E2-4C28F510AC78
+api_name: 
+ - IRunActionCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.irunactioncallback"></span>IRunActionCallback interface

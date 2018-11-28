@@ -8,6 +8,13 @@ topic_type:
 api_name: 
 api_type: 
 api_location: 
+ms.assetid: 17ac7b71-4c78-480b-b35b-5557b5b85c89
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbSyntax
+
 ---
 
 # FolderItems.Parent property

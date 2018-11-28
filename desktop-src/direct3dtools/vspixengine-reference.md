@@ -7,6 +7,13 @@ MSHAttr:
 title: Direct3D Diagnostics Capture Interface Reference
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 678242E1-8382-4DD3-9099-31624C2FD7EA
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # <span id="vspixengine.vspixengine_reference"></span>Direct3D Diagnostics Capture Interface Reference

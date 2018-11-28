@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine3::SetupResources method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 1BB4BE17-51A2-4BA4-81F5-3678B7D5802B
+api_name: 
+ - IPixEngine3.SetupResources
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine3_setupresources_resourcepair_arr_uint"></span>IPixEngine3::SetupResources method

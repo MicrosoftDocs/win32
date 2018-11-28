@@ -7,6 +7,17 @@ MSHAttr:
 title: IUpdateObjectCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 643B8E61-F47E-4B57-977C-2B327B923CBB
+api_name: 
+ - IUpdateObjectCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iupdateobjectcallback"></span>IUpdateObjectCallback interface

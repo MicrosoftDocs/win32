@@ -3,6 +3,13 @@ Description: Windows Vista makes greater use of file-specific thumbnail images 
 title: Thumbnail Handlers
 ms.topic: article
 ms.date: 07/02/2018
+ms.assetid: ed9e17bb-aa28-4f8c-8b5a-9b57cab1c438
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Thumbnail Handlers

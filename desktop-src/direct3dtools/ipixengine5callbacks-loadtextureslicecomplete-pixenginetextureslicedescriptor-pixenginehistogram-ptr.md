@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks::LoadTextureSliceComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: CEEAB77F-0856-4DEC-991A-7CEB921C84BB
+api_name: 
+ - IPixEngine5Callbacks.LoadTextureSliceComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks_loadtextureslicecomplete_pixenginetextureslicedescriptor_pixenginehistogram_ptr"></span>IPixEngine5Callbacks::LoadTextureSliceComplete method

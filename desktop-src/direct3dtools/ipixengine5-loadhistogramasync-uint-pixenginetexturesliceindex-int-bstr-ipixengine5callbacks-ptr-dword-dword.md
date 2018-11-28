@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5::LoadHistogramAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A23CB3E0-B299-40FD-899E-9FE6E9177551
+api_name: 
+ - IPixEngine5.LoadHistogramAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5_loadhistogramasync_uint_pixenginetexturesliceindex_int_bstr_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::LoadHistogramAsync method

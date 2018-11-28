@@ -3,6 +3,13 @@ Description: Demonstrates a thumbnail toolbar, an active toolbar control embedde
 title: Taskbar Thumbnail Toolbar Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4936FF67-19EE-4963-BE4C-3D40350C64A9
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Taskbar Thumbnail Toolbar Sample

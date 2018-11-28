@@ -13,6 +13,18 @@ api_type:
 - DllExport
 api_location: 
 - Shell32.dll
+ms.assetid: 9f138b4e-6a84-4c7e-9521-5f8ffe0eaebf
+api_name: 
+ - SHExtractIconsW
+ - SHExtractIconsW
+api_type: 
+ - DllExport
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SHExtractIconsW function

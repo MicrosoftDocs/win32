@@ -3,6 +3,17 @@ Description: Notifies the callback object that the folder view has been resized.
 title: SFVM_SIZE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 43c61d5e-715a-4463-971b-31fd346ed5c4
+api_name: 
+ - SFVM_SIZE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_SIZE message

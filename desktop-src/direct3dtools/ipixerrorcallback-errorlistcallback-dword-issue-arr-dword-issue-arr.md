@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixErrorCallback::ErrorListCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: B345846D-4853-4F6B-AB79-42265720451D
+api_name: 
+ - IPixErrorCallback.ErrorListCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixerrorcallback_errorlistcallback_dword_issue_arr_dword_issue_arr"></span>IPixErrorCallback::ErrorListCallback method

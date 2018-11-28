@@ -7,6 +7,13 @@ MSHAttr:
 title: Direct3D Diagnostics Capture Interface Structures
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 97F142F6-FED1-4AF4-B9E3-BB1E30F3FAD2
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # <span id="vspixengine.vspixengine_structures"></span>Direct3D Diagnostics Capture Interface Structures

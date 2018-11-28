@@ -3,6 +3,17 @@ Description: Sets the network address types that a specified network address con
 title: NCM_SETALLOWTYPE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: FD998452-047A-4aea-A08E-8F6F8C30115B
+api_name: 
+ - NCM_SETALLOWTYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # NCM\_SETALLOWTYPE message

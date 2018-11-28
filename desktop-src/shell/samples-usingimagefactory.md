@@ -3,6 +3,13 @@ Description: Demonstrates how to use the IShellItemImageFactory interface to get
 title: Using Image Factory Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 63B1D242-A52A-4796-90D7-A5AC8E3002B4
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Using Image Factory Sample

@@ -7,6 +7,17 @@ MSHAttr:
 title: SymbolServerInfo structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: D57D87E4-BA94-4C6F-9D5F-999C61F4DD6F
+api_name: 
+ - SymbolServerInfo
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.symbolserverinfo"></span>SymbolServerInfo structure

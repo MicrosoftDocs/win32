@@ -7,6 +7,17 @@ MSHAttr:
 title: OFFLINEANALYSISSTAGE enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 85D0288C-113A-4ABE-8EDB-ABB8F009956A
+api_name: 
+ - OFFLINEANALYSISSTAGE
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.offlineanalysisstage"></span>OFFLINEANALYSISSTAGE enumeration

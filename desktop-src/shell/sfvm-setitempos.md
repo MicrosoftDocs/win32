@@ -3,6 +3,17 @@ Description: Sets the position of an item in the Shell view. Used by SHShellFold
 title: SFVM_SETITEMPOS message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: b89f2d62-095b-4cad-a47e-2d41e122cb3e
+api_name: 
+ - SFVM_SETITEMPOS
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_SETITEMPOS message

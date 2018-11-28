@@ -3,6 +3,17 @@ Description: Notifies the callback object that the status bar is being updated. 
 title: SFVM_UPDATESTATUSBAR message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: f1bac364-1011-4308-8b9b-8ed1800dd30d
+api_name: 
+ - SFVM_UPDATESTATUSBAR
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_UPDATESTATUSBAR message

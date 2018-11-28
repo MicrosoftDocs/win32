@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: e0ffd5b7-db1d-40a4-810a-ff43549b0c9b
+api_name: 
+ - DIDiskQuotaUser.Invalidate
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DIDiskQuotaUser.Invalidate method

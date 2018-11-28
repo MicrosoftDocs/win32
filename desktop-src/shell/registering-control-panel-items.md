@@ -3,6 +3,13 @@ Description: Control Panel items must be registered in order to appear in the Co
 title: Registering Control Panel Items
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6f21f223-a293-47b5-95e9-06b7a4ff1652
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Registering Control Panel Items

@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 846297f2-b826-45de-8617-228790e87a63
+api_name: 
+ - DiskQuotaControl
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DiskQuotaControl object

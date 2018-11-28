@@ -3,6 +3,13 @@ Description: Demonstrates how to implement a Shell namespace extension, includin
 title: Explorer Data Provider Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: B1B20AF8-3DDE-467b-A49E-A77849CF9F1B
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Explorer Data Provider Sample

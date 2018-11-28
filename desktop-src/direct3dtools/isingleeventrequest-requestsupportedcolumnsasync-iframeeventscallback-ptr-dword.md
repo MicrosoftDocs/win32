@@ -7,6 +7,17 @@ MSHAttr:
 title: ISingleEventRequest::RequestSupportedColumnsAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 74AAA0C9-11CD-4C0C-9737-C8774D60B874
+api_name: 
+ - ISingleEventRequest.RequestSupportedColumnsAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isingleeventrequest_requestsupportedcolumnsasync_iframeeventscallback_ptr_dword"></span>ISingleEventRequest::RequestSupportedColumnsAsync method

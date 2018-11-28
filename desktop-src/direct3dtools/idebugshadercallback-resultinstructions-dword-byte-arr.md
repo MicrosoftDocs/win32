@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugShaderCallback::ResultInstructions method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 52440CE4-561C-4808-BE6A-B25A84BA5729
+api_name: 
+ - IDebugShaderCallback.ResultInstructions
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugshadercallback_resultinstructions_dword_byte_arr"></span>IDebugShaderCallback::ResultInstructions method

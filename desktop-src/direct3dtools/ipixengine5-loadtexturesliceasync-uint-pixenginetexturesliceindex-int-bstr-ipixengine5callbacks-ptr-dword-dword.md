@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5::LoadTextureSliceAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 520DBB6D-D8F3-451F-942C-BE8428B9ADFF
+api_name: 
+ - IPixEngine5.LoadTextureSliceAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5_loadtexturesliceasync_uint_pixenginetexturesliceindex_int_bstr_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::LoadTextureSliceAsync method

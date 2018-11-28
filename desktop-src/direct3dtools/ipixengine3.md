@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine3 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 35E4FC80-A943-4039-A671-DB0DD915A552
+api_name: 
+ - IPixEngine3
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine3"></span>IPixEngine3 interface

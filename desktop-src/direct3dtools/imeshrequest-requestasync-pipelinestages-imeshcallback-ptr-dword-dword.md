@@ -7,6 +7,17 @@ MSHAttr:
 title: IMeshRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 832078E3-BC68-4B46-AC35-E7F7BF0F199F
+api_name: 
+ - IMeshRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.imeshrequest_requestasync_pipelinestages_imeshcallback_ptr_dword_dword"></span>IMeshRequest::RequestAsync method

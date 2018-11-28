@@ -7,6 +7,17 @@ MSHAttr:
 title: ISummaryRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A33798E3-7332-4582-A7B1-B0F9FB694872
+api_name: 
+ - ISummaryRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isummaryrequest_requestasync_isummarycallback_ptr_dword_dword"></span>ISummaryRequest::RequestAsync method

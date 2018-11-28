@@ -3,6 +3,13 @@ Description: Extending the Desktop
 title: Extending the Desktop
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 7d241ec0-6f3a-4476-9f92-f7cef43fcb09
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Extending the Desktop

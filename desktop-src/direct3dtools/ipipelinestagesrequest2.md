@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesRequest2 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: B40E0701-3F17-4B3A-B150-D4B243662042
+api_name: 
+ - IPipeLineStagesRequest2
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagesrequest2"></span>IPipeLineStagesRequest2 interface

@@ -3,6 +3,13 @@ Description: Windows Vista introduces new storage scenarios and a new user prof
 title: Known Folders
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: d0c25eef-53ac-4dad-805a-b9ba4cd86be9
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Known Folders

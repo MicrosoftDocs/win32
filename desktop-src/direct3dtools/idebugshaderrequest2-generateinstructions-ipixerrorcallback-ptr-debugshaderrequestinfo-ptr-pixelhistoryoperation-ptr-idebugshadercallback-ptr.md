@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugShaderRequest2::GenerateInstructions method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 50685D38-AA85-43D7-9199-12B3776708C2
+api_name: 
+ - IDebugShaderRequest2.GenerateInstructions
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugshaderrequest2_generateinstructions_ipixerrorcallback_ptr_debugshaderrequestinfo_ptr_pixelhistoryoperation_ptr_idebugshadercallback_ptr"></span>IDebugShaderRequest2::GenerateInstructions method

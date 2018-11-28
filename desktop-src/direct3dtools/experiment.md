@@ -7,6 +7,17 @@ MSHAttr:
 title: Experiment structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 632F1F92-3E32-4B0A-8E38-2613694C267F
+api_name: 
+ - Experiment
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.experiment"></span>Experiment structure

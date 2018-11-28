@@ -7,6 +7,17 @@ MSHAttr:
 title: ThreadData3D structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 31A9D5D9-933F-4B58-808D-76B8407301CC
+api_name: 
+ - ThreadData3D
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.threaddata3d"></span>ThreadData3D structure

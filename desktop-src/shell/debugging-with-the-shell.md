@@ -3,6 +3,13 @@ Description: This topic explains how to debug Shell and namespace extension DLLs
 title: Debugging with the Shell
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2fcaf633-9a6d-4fda-a690-28445b10a6d6
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Debugging with the Shell

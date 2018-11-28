@@ -7,6 +7,17 @@ MSHAttr:
 title: PipeLineStage structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 616103CB-777E-4AA8-8B70-E19B1A2D667C
+api_name: 
+ - PipeLineStage
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pipelinestage"></span>PipeLineStage structure

@@ -7,6 +7,17 @@ MSHAttr:
 title: Xml_Resource_Ids enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 1F2ECC78-73EC-4A59-8CF7-1BB7FB80244E
+api_name: 
+ - Xml_Resource_Ids
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.xml_resource_ids"></span>Xml\_Resource\_Ids enumeration

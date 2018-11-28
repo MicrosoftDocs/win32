@@ -3,6 +3,13 @@ Description: Creating an AutoRun-enabled application is a straightforward proced
 title: Creating an AutoRun-Enabled Application
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0d01f4a2-64c4-4b31-9fc9-361da6825ab8
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Creating an AutoRun-Enabled Application

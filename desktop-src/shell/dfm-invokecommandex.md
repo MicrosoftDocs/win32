@@ -3,6 +3,17 @@ Description: Sent by the default context menu implementation to request LPFNDFMC
 title: DFM_INVOKECOMMANDEX message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6ef885e5-2ddd-4a1b-9f8e-016a74e292b1
+api_name: 
+ - DFM_INVOKECOMMANDEX
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DFM\_INVOKECOMMANDEX message

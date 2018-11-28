@@ -3,6 +3,13 @@ Description: The <isLibraryPinned> element specifies whether this library is pin
 title: isLibraryPinned Element (Library Schema)
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: AD8307E5-5676-4d43-8FEE-695F168F677D
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # isLibraryPinned Element (Library Schema)

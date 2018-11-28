@@ -7,6 +7,17 @@ MSHAttr:
 title: PIXELHISTORYFLAGS enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: BDB88A2D-016A-4E15-B47A-870A2959E943
+api_name: 
+ - PIXELHISTORYFLAGS
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixelhistoryflags"></span>PIXELHISTORYFLAGS enumeration

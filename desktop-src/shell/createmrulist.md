@@ -13,6 +13,18 @@ api_type:
 - DllExport
 api_location: 
 - Comctl32.dll
+ms.assetid: b2d9e3c7-8151-45ef-9658-bd33a87b4c9c
+api_name: 
+ - CreateMRUListW
+ - CreateMRUListW
+api_type: 
+ - DllExport
+api_location: 
+ - Comctl32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CreateMRUListW function

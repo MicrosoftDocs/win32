@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5::ReadTexelValueAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 28C44D12-383D-4E91-8BB1-12869782533C
+api_name: 
+ - IPixEngine5.ReadTexelValueAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5_readtexelvalueasync_uint_pixenginetexturesliceindex_int_int_int_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::ReadTexelValueAsync method

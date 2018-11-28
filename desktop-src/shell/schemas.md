@@ -3,6 +3,13 @@ Description: This section describes schemas used by the Windows Shell.
 title: Shell Schemas
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3be898cf-017c-462b-83dc-7dcc4d86bd0f
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Schemas

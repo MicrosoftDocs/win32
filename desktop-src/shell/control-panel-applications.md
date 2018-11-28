@@ -3,6 +3,13 @@ Description: Control Panel items are DLLs or executable (.exe) files that let us
 title: Implementing Control Panel Items
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2e61cbc0-fbb5-4680-8123-f8ffdcf98210
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Implementing Control Panel Items

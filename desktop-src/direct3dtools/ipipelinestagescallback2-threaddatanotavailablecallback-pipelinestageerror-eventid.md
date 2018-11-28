@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback2::ThreadDataNotAvailableCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 231DC830-5F1A-4DDA-B5D0-C7FBCEDCB2A0
+api_name: 
+ - IPipeLineStagesCallback2.ThreadDataNotAvailableCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback2_threaddatanotavailablecallback_pipelinestageerror_eventid"></span>IPipeLineStagesCallback2::ThreadDataNotAvailableCallback method

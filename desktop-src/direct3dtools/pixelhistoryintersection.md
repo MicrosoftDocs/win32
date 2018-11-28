@@ -7,6 +7,17 @@ MSHAttr:
 title: PixelHistoryIntersection structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: D67A116D-B1D0-4E88-A2FF-611CDF4003B2
+api_name: 
+ - PixelHistoryIntersection
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixelhistoryintersection"></span>PixelHistoryIntersection structure

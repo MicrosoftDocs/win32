@@ -3,6 +3,13 @@ Description: This section describes the Windows Shell registry handling function
 title: Shell Registry Handling Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 12182f56-5bb3-4f70-ae6a-2ef7366287b9
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Registry Handling Functions

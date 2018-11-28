@@ -3,6 +3,13 @@ Description: These elements make up the XML schema used in the Web Publishing an
 title: Transfer Manifest Schema
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 488b6fc9-ff85-4860-9cd5-61d5de7e15e8
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Transfer Manifest Schema

@@ -3,6 +3,17 @@ Description: Notifies the IShellView to rearrange its items. Used by SHShellFold
 title: SFVM_REARRANGE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: d745bafc-f2f5-40a1-b7e8-e16e4cf0153d
+api_name: 
+ - SFVM_REARRANGE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_REARRANGE message

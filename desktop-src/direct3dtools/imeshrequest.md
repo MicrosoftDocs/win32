@@ -7,6 +7,17 @@ MSHAttr:
 title: IMeshRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 6E999129-DD02-424D-9C81-C3A6B3AB409C
+api_name: 
+ - IMeshRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.imeshrequest"></span>IMeshRequest interface

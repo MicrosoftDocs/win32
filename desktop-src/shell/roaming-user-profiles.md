@@ -3,6 +3,13 @@ Description: If a computer is running Windows 2000 Server or later on a network
 title: Roaming User Profiles
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8af06fdf-be99-4295-8f11-7d7f68e66956
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Roaming User Profiles

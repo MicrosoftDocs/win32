@@ -3,6 +3,13 @@ Description: In-process extensions are loaded into any processes that trigger th
 title: Guidance for Implementing In-Process Extensions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: FE830DBF-3F18-453c-9A51-91E10559D0E8
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Guidance for Implementing In-Process Extensions

@@ -7,6 +7,17 @@ MSHAttr:
 title: ISummaryCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 72B1491C-058A-480D-B3EF-AABF3C1E7D2A
+api_name: 
+ - ISummaryCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isummarycallback"></span>ISummaryCallback interface

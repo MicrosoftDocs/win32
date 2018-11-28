@@ -3,6 +3,17 @@ Description: Notifies the callback object that the user has clicked a column hea
 title: SFVM_COLUMNCLICK message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 351be842-6ea5-4223-8162-0e6c4e6a5afb
+api_name: 
+ - SFVM_COLUMNCLICK
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_COLUMNCLICK message

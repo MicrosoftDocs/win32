@@ -3,6 +3,13 @@ Description: The <folderType> element specifies a GUID for the folder type. This
 title: folderType Element (Library Schema)
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 240550F0-B6AC-470e-8BF1-DB5A4068226B
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # folderType Element (Library Schema)

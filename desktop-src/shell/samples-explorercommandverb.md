@@ -3,6 +3,13 @@ Description: Demonstrates how to implement a Shell verb using the ExplorerComman
 title: Explorer Command Verb Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2310A6AA-EAF9-4d7a-A784-04931BDC2089
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Explorer Command Verb Sample

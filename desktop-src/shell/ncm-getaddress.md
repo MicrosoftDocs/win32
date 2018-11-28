@@ -3,6 +3,17 @@ Description: Indicates whether a network address conforms to a specified type an
 title: NCM_GETADDRESS message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 733CD62D-614C-4ac2-986D-CCFCFF4B1B4D
+api_name: 
+ - NCM_GETADDRESS
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # NCM\_GETADDRESS message

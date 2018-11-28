@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesRequest2::RequestComputeShaderStageAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: EC5695A6-70B5-4F7D-A235-974A0A59A44F
+api_name: 
+ - IPipeLineStagesRequest2.RequestComputeShaderStageAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagesrequest2_requestcomputeshaderstageasync_dword_eventid_ipipelinestagescallback_ptr_dword_dword"></span>IPipeLineStagesRequest2::RequestComputeShaderStageAsync method

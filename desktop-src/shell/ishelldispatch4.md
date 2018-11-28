@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
+api_name: 
+ - IShellDispatch4
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # IShellDispatch4 object

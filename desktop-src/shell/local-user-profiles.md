@@ -3,6 +3,13 @@ Description: The system automatically creates a local user profile for each user
 title: Local User Profiles
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0e6c060e-025e-4d00-9b92-4f3b7bf66dda
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Local User Profiles
