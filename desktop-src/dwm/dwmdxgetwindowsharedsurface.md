@@ -41,7 +41,7 @@ An [**HWND**](/windows/desktop/winprog/windows-data-types) specifying the window
 
 `luidAdapter`
 
-The [**LUID**](direct3ddxgi._luid) of the adapter where the surface should be located.
+The [**LUID**](/windows/desktop/api/dxgi/ns-dxgi-_luid) of the adapter where the surface should be located.
 
 `hmonitorAssociation`
 
