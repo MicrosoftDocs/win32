@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixProgressCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: B2DAF90B-5615-464F-84F9-A80912E09FB9
+api_name: 
+ - IPixProgressCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixprogresscallback"></span>IPixProgressCallback interface

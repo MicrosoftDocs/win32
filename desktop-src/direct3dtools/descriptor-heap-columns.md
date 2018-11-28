@@ -7,6 +7,17 @@ MSHAttr:
 title: DESCRIPTOR_HEAP_COLUMNS enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 1E155185-8E40-4D61-88E6-A9E5D4866FEB
+api_name: 
+ - DESCRIPTOR_HEAP_COLUMNS
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.descriptor_heap_columns"></span>DESCRIPTOR\_HEAP\_COLUMNS enumeration

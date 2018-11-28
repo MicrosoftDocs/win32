@@ -7,6 +7,17 @@ MSHAttr:
 title: IPeerToPeerEngine::CancelSetPlaybackEndpoint method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0B4776B8-AF29-495B-91FC-70778B3E0C7B
+api_name: 
+ - IPeerToPeerEngine.CancelSetPlaybackEndpoint
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipeertopeerengine_cancelsetplaybackendpoint"></span>IPeerToPeerEngine::CancelSetPlaybackEndpoint method

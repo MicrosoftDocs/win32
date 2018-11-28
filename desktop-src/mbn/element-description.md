@@ -7,6 +7,16 @@ MSHAttr:
 title: Description
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 7adc4b26-1202-4f80-8b26-7879df687bb0
+api_name: 
+ - Description
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_Description"></span>Description

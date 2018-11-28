@@ -7,6 +7,17 @@ MSHAttr:
 title: IPeerToPeerEngine interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: C6C4783F-ED46-47C2-98BB-C618897F8FF8
+api_name: 
+ - IPeerToPeerEngine
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipeertopeerengine"></span>IPeerToPeerEngine interface

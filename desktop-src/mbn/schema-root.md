@@ -7,6 +7,13 @@ MSHAttr:
 title: Mobile Broadband Profile Schema v4
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0945e34c-74f3-4133-8b36-e45562ce2a88
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # <span id="WWAN_profile_v4.Schema_Root"></span>Mobile Broadband Profile Schema v4

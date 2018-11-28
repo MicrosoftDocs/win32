@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixProgressCallback::Progress method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: BE74599B-C98F-4BDB-ACDF-641F77A35EEB
+api_name: 
+ - IPixProgressCallback.Progress
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixprogresscallback_progress_dword_dword"></span>IPixProgressCallback::Progress method

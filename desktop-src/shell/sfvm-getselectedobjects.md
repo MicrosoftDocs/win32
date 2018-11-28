@@ -3,6 +3,17 @@ Description: Retrieves an array of pointers to item identifier lists (PIDLs) for
 title: SFVM_GETSELECTEDOBJECTS message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9639fbb6-d0ef-49b1-b3c5-e6a1dee0b7ad
+api_name: 
+ - SFVM_GETSELECTEDOBJECTS
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_GETSELECTEDOBJECTS message

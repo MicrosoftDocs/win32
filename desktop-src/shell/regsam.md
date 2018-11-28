@@ -3,6 +3,26 @@ Description: A data type used for specifying the security access attributes in t
 title: REGSAM
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 003f6be9-e4ba-4d23-b486-a167063c630e
+api_name: 
+ - KEY_ALL_ACCESS
+ - KEY_CREATE_LINK
+ - KEY_CREATE_SUB_KEY
+ - KEY_ENUMERATE_SUB_KEYS
+ - KEY_EXECUTE
+ - KEY_NOTIFY
+ - KEY_QUERY_VALUE
+ - KEY_READ
+ - KEY_SET_VALUE
+ - KEY_WRITE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Winnt.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # REGSAM

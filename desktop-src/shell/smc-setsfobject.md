@@ -3,6 +3,17 @@ Description: Notifies you to save the passed object.
 title: SMC_SETSFOBJECT message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: f7e2cf12-7f09-45b0-97d3-eed803e57d9f
+api_name: 
+ - SMC_SETSFOBJECT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_SETSFOBJECT message

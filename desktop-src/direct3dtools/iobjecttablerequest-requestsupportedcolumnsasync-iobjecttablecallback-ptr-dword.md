@@ -7,6 +7,17 @@ MSHAttr:
 title: IObjectTableRequest::RequestSupportedColumnsAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0931C81A-65D5-493E-9F54-C7E98FA2FA6F
+api_name: 
+ - IObjectTableRequest.RequestSupportedColumnsAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iobjecttablerequest_requestsupportedcolumnsasync_iobjecttablecallback_ptr_dword"></span>IObjectTableRequest::RequestSupportedColumnsAsync method

@@ -3,6 +3,13 @@ Description: .
 title: Shell Reference
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: f6b4af76-beea-43aa-8b0d-281a83c17273
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Reference

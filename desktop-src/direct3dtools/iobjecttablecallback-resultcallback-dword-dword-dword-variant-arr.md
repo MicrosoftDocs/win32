@@ -7,6 +7,17 @@ MSHAttr:
 title: IObjectTableCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: AAD02864-AE08-406B-A0E9-2228DC9A73E7
+api_name: 
+ - IObjectTableCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iobjecttablecallback_resultcallback_dword_dword_dword_variant_arr"></span>IObjectTableCallback::ResultCallback method

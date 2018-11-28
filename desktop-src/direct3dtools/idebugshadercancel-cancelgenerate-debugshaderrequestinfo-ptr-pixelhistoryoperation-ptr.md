@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugShaderCancel::CancelGenerate method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 10DA5080-3AA6-47AA-BFE7-774BC26C7F95
+api_name: 
+ - IDebugShaderCancel.CancelGenerate
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugshadercancel_cancelgenerate_debugshaderrequestinfo_ptr_pixelhistoryoperation_ptr"></span>IDebugShaderCancel::CancelGenerate method

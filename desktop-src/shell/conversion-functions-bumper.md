@@ -3,6 +3,13 @@ Description: Conversion Functions
 title: Conversion Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4f63e5af-e756-4a2f-99ba-fea608fa23c6
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Conversion Functions

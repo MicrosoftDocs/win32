@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryCallback2::IntersectionsCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 478B2495-93E4-4BB1-BC86-802D2AFAF97D
+api_name: 
+ - IPixelHistoryCallback2.IntersectionsCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistorycallback2_intersectionscallback_dword_pixelhistoryintersection_arr"></span>IPixelHistoryCallback2::IntersectionsCallback method

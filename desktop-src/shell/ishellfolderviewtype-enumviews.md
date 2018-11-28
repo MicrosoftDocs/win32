@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: e44cd774-1d16-4faa-b5ca-fcaf2740cdca
+api_name: 
+ - IShellFolderViewType.EnumViews
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # IShellFolderViewType::EnumViews method

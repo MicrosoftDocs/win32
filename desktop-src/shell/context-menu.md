@@ -3,6 +3,13 @@ Description: This section discusses the creation of shortcut (context) menus, an
 title: Shortcut (Context) Menus and Shortcut Menu Handlers
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 956f3b10-2bc6-4f1f-a6ed-7184f94b545a
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shortcut (Context) Menus and Shortcut Menu Handlers

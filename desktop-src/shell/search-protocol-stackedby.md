@@ -3,6 +3,13 @@ Description: The stackedby argument specifies the property column to stack resul
 title: STACKEDBY Argument
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 781ea9f7-3d82-401b-995f-89bad7d47b3f
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # STACKEDBY Argument

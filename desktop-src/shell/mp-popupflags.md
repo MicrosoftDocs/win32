@@ -3,6 +3,30 @@ Description: Represent options available when displaying a pop-up menu.
 title: MP_POPUPFLAGS constants
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: cc1d9ff0-a03b-4bd3-b481-9b78d20eb771
+api_name: 
+ - MPPF_SETFOCUS
+ - MPPF_INITIALSELECT
+ - MPPF_NOANIMATE
+ - MPPF_KEYBOARD
+ - MPPF_REPOSITION
+ - MPPF_FORCEZORDER
+ - MPPF_FINALSELECT
+ - MPPF_ALIGN_LEFT
+ - MPPF_ALIGN_RIGHT
+ - MPPF_TOP
+ - MPPF_LEFT
+ - MPPF_RIGHT
+ - MPPF_BOTTOM
+ - MPPF_POS_MASK
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # MP\_POPUPFLAGS constants

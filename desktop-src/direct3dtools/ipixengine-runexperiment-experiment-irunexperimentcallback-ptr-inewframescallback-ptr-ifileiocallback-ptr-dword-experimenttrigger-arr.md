@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine::RunExperiment method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A2EEC278-C074-44B3-94DC-E2D9DC770576
+api_name: 
+ - IPixEngine.RunExperiment
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine_runexperiment_experiment_irunexperimentcallback_ptr_inewframescallback_ptr_ifileiocallback_ptr_dword_experimenttrigger_arr"></span>IPixEngine::RunExperiment method

@@ -3,6 +3,13 @@ Description: This section describes those Windows Shell functions exported by Sh
 title: Shell Miscellaneous Utility Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 11787717-6370-408d-9a86-e208b33521c7
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Miscellaneous Utility Functions

@@ -7,6 +7,17 @@ MSHAttr:
 title: IGenericBufferDataRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 27FE3E7E-DFE1-4077-92D4-CA91F81C17EB
+api_name: 
+ - IGenericBufferDataRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.igenericbufferdatarequest"></span>IGenericBufferDataRequest interface

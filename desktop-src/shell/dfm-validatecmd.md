@@ -3,6 +3,17 @@ Description: Sent to verify the existence of a menu command.
 title: DFM_VALIDATECMD message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 97ff3cdf-ed0c-4813-8d5a-b5141636d32c
+api_name: 
+ - DFM_VALIDATECMD
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DFM\_VALIDATECMD message

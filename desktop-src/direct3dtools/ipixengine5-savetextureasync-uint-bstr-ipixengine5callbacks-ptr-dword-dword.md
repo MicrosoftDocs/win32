@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5::SaveTextureAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6F08F49E-6FFD-4A9B-86F5-8CB499947F57
+api_name: 
+ - IPixEngine5.SaveTextureAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5_savetextureasync_uint_bstr_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::SaveTextureAsync method

@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine::SaveFile method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A80498F4-C8F5-4AC0-92C5-A90EB2A090B7
+api_name: 
+ - IPixEngine.SaveFile
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine_savefile_bstr_ifileiocallback_ptr"></span>IPixEngine::SaveFile method

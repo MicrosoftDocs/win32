@@ -3,6 +3,13 @@ Description: The procedure for implementing a namespace extension is similar to 
 title: Implementing the Basic Folder Object Interfaces
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: a45b8011-5355-429b-8935-4a7bdb5d2316
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Implementing the Basic Folder Object Interfaces

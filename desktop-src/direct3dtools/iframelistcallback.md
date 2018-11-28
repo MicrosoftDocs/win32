@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameListCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 16318DBE-4126-4331-B726-DCF929F712DA
+api_name: 
+ - IFrameListCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframelistcallback"></span>IFrameListCallback interface

@@ -3,6 +3,17 @@ Description: Updates an object by passing a pointer to an array of two pointers 
 title: SFVM_UPDATEOBJECT message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3bd68ace-3ccf-446c-8cf9-52f42444674e
+api_name: 
+ - SFVM_UPDATEOBJECT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_UPDATEOBJECT message

@@ -7,6 +7,16 @@ MSHAttr:
 title: AccessString
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: d3dc9d56-23cf-4af6-b220-0ec09eceebaa
+api_name: 
+ - AccessString
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_1_AccessString"></span>AccessString

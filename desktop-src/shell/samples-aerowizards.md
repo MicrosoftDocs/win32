@@ -3,6 +3,13 @@ Description: Demonstrates how to migrate Wizard 97 software to the Aero Wizard.
 title: Aero Wizards Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0F3D8C35-C8CE-44de-AC7C-3C3FDE64B3C1
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Aero Wizards Sample

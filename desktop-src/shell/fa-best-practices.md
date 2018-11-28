@@ -3,6 +3,13 @@ Description: The following list are recommended best practices you should use wh
 title: Best Practices for File Associations
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: d4d0edf9-3475-4164-b0fa-15006e05e242
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Best Practices for File Associations

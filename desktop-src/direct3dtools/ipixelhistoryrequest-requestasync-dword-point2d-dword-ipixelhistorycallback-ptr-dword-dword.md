@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 00A90033-FC57-4BEE-B950-82E678437F2A
+api_name: 
+ - IPixelHistoryRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistoryrequest_requestasync_dword_point2d_dword_ipixelhistorycallback_ptr_dword_dword"></span>IPixelHistoryRequest::RequestAsync method

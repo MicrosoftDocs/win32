@@ -3,6 +3,13 @@ Description: Demonstrates how to copy, move, delete, and rename file system obje
 title: File Operations Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A15F6C84-0B6C-493c-8E78-1FD3E08C59D8
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # File Operations Sample

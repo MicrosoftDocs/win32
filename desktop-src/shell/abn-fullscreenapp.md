@@ -3,6 +3,17 @@ Description: Notifies an appbar when a full-screen application is opening or clo
 title: ABN_FULLSCREENAPP message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: c67ec934-088c-43e0-bff4-900d76a456e5
+api_name: 
+ - ABN_FULLSCREENAPP
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ABN\_FULLSCREENAPP message

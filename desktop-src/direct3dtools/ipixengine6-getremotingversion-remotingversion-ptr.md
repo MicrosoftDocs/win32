@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine6::GetRemotingVersion method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 065FC3A7-ECFB-4551-B4B0-CA0E6B8676F8
+api_name: 
+ - IPixEngine6.GetRemotingVersion
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine6_getremotingversion_remotingversion_ptr"></span>IPixEngine6::GetRemotingVersion method

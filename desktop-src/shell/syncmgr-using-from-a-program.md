@@ -3,6 +3,13 @@ Description: To enable your application to work with the Synchronization Manager
 title: Using Synchronization Manager from a Program
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: bf18d493-0fe7-46e7-9686-f7ee75b3039b
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Using Synchronization Manager from a Program

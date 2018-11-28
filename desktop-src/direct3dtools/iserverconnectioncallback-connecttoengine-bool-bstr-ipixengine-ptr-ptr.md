@@ -7,6 +7,17 @@ MSHAttr:
 title: IServerConnectionCallback::ConnectToEngine method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 56D67449-EA8B-4AD0-94D7-B3CDB7F0ABC8
+api_name: 
+ - IServerConnectionCallback.ConnectToEngine
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iserverconnectioncallback_connecttoengine_bool_bstr_ipixengine_ptr_ptr"></span>IServerConnectionCallback::ConnectToEngine method

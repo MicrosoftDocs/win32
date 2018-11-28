@@ -3,6 +3,17 @@ Description: Sent to the CPlApplet function of a Control Panel application to re
 title: CPL_GETCOUNT message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6b88b56c-aad7-4144-ab95-15d7eef21861
+api_name: 
+ - CPL_GETCOUNT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Cpl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CPL\_GETCOUNT message

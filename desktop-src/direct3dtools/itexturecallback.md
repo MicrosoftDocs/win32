@@ -7,6 +7,17 @@ MSHAttr:
 title: ITextureCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 2558C90A-7235-4A36-859C-0E74BD0B712A
+api_name: 
+ - ITextureCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.itexturecallback"></span>ITextureCallback interface

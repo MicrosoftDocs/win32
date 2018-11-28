@@ -7,6 +7,17 @@ MSHAttr:
 title: IVersionCallback::VersionTableReady method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 58D5E6B4-2CF8-4C13-9A62-93418D46CBCF
+api_name: 
+ - IVersionCallback.VersionTableReady
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iversioncallback_versiontableready_guid_arr_uint"></span>IVersionCallback::VersionTableReady method

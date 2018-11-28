@@ -12,6 +12,17 @@ api_type:
 - HeaderDef
 api_location: 
 - Wfext.h
+ms.assetid: 0e76bcc5-76c2-4ec0-8ddb-4042cb5ffa7d
+api_name: 
+ - FMS_LOAD
+api_type: 
+ - HeaderDef
+api_location: 
+ - Wfext.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # FMS\_LOAD structure

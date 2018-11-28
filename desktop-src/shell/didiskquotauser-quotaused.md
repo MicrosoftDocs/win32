@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 3e3ade59-b925-4ff5-ae7e-ed97eff506c7
+api_name: 
+ - DIDiskQuotaUser.QuotaUsed
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DIDiskQuotaUser.QuotaUsed property

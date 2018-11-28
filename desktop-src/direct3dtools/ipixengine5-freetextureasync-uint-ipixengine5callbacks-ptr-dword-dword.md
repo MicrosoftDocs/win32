@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5::FreeTextureAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9A2D46D4-AA09-4E50-8109-774CE7F538E7
+api_name: 
+ - IPixEngine5.FreeTextureAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5_freetextureasync_uint_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::FreeTextureAsync method

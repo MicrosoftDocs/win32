@@ -13,6 +13,18 @@ api_type:
 - DllExport
 api_location: 
 - Comctl32.dll
+ms.assetid: ad94a442-8492-412c-a4f2-ac6e7c5327d7
+api_name: 
+ - AddMRUStringW
+ - AddMRUStringW
+api_type: 
+ - DllExport
+api_location: 
+ - Comctl32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # AddMRUStringW function

@@ -13,6 +13,18 @@ api_name:
 api_type: 
 - UserDefined
 api_location: 
+ms.assetid: 00f31d6b-2a96-4abd-9647-24a6e66aa22f
+api_name: 
+ - MRUCMPPROC
+ - MRUCMPPROCA
+ - MRUCMPPROCW
+api_type: 
+ - UserDefined
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # MRUCMPPROC callback function

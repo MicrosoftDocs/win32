@@ -3,6 +3,31 @@ Description: Flags that control the calling function's behavior. Used by SHCreat
 title: CTF Flags
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 66cda866-7a39-4c5a-a795-a4c5c64cbab7
+api_name: 
+ - CTF_INSIST
+ - CTF_THREAD_REF
+ - CTF_PROCESS_REF
+ - CTF_COINIT_STA
+ - CTF_COINIT
+ - CTF_FREELIBANDEXIT
+ - CTF_REF_COUNTED
+ - CTF_WAIT_ALLOWCOM
+ - CTF_UNUSED
+ - CTF_INHERITWOW64
+ - CTF_WAIT_NO_REENTRANCY
+ - CTF_KEYBOARD_LOCALE
+ - CTF_OLEINITIALIZE
+ - CTF_COINIT_MTA
+ - CTF_NOADDREFLIB
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlwapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CTF Flags

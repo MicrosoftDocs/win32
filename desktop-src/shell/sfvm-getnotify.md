@@ -3,6 +3,17 @@ Description: Notification sent to the view callback object to specify the locati
 title: SFVM_GETNOTIFY message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 87933217-dfa9-4aaf-9630-fa2c302b18fa
+api_name: 
+ - SFVM_GETNOTIFY
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_GETNOTIFY message

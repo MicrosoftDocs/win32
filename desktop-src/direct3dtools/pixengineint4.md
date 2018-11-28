@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEngineInt4 structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 2B979618-B1F4-4272-8428-07A8EA18E951
+api_name: 
+ - PixEngineInt4
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixengineint4"></span>PixEngineInt4 structure

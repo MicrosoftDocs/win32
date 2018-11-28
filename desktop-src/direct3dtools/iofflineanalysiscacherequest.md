@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisCacheRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: E94A5418-3A1E-4FA1-99D8-622624F078CD
+api_name: 
+ - IOfflineAnalysisCacheRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysiscacherequest"></span>IOfflineAnalysisCacheRequest interface

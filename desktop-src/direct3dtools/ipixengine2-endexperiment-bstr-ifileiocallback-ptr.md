@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine2::EndExperiment method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0260F337-B279-4FE6-92F3-FCF70C2B8980
+api_name: 
+ - IPixEngine2.EndExperiment
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine2_endexperiment_bstr_ifileiocallback_ptr"></span>IPixEngine2::EndExperiment method

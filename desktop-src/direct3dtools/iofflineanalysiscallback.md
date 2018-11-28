@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 39E6B9CA-C17A-42C8-AC6D-118DC8DE3AD9
+api_name: 
+ - IOfflineAnalysisCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysiscallback"></span>IOfflineAnalysisCallback interface

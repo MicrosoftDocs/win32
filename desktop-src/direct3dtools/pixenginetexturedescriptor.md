@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEngineTextureDescriptor structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: E28D5707-C4C4-4C99-9AA2-3397FEDC388B
+api_name: 
+ - PixEngineTextureDescriptor
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixenginetexturedescriptor"></span>PixEngineTextureDescriptor structure

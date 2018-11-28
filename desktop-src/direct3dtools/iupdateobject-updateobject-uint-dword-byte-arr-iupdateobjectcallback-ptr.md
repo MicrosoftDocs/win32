@@ -7,6 +7,17 @@ MSHAttr:
 title: IUpdateObject::UpdateObject method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 824AB599-7377-4F77-8FC8-41E17ED57A79
+api_name: 
+ - IUpdateObject.UpdateObject
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iupdateobject_updateobject_uint_dword_byte_arr_iupdateobjectcallback_ptr"></span>IUpdateObject::UpdateObject method

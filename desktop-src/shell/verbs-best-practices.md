@@ -3,6 +3,13 @@ Description: 'This topic is organized as follows:'
 title: Best Practices for Shortcut Menu Handlers and Multiple Verbs
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4D352ECB-6214-4f6e-A3E5-F79E154D090A
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Best Practices for Shortcut Menu Handlers and Multiple Verbs

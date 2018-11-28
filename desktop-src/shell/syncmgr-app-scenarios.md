@@ -3,6 +3,13 @@ Description: Applications and services that can use Synchronization Manager.
 title: Application Scenarios
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 7f2e8140-0081-4ca5-96ed-2d56cc100341
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Application Scenarios

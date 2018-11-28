@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameEventsCallback::GetSupportedEventColumns method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: F1BFF189-A22C-4058-A427-74653998DD27
+api_name: 
+ - IFrameEventsCallback.GetSupportedEventColumns
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframeeventscallback_getsupportedeventcolumns_dword_eventcolumnid_arr_bstr_arr"></span>IFrameEventsCallback::GetSupportedEventColumns method

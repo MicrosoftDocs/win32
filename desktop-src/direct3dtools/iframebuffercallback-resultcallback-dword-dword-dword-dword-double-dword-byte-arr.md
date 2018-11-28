@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameBufferCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: F0276125-2DA9-45BC-A295-BD67C21EE601
+api_name: 
+ - IFrameBufferCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframebuffercallback_resultcallback_dword_dword_dword_dword_double_dword_byte_arr"></span>IFrameBufferCallback::ResultCallback method

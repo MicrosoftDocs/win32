@@ -7,6 +7,16 @@ MSHAttr:
 title: DataRoamingPartners
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: c29edf9c-4e70-4b8f-8c71-0ec8a9fad60d
+api_name: 
+ - DataRoamingPartners
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_DataRoamingPartners"></span>DataRoamingPartners

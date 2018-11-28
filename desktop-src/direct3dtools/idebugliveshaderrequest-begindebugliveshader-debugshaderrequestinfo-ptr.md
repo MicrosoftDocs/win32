@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugLiveShaderRequest::BeginDebugLiveShader method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 805B2B68-C251-4192-85A3-F857B3F204C7
+api_name: 
+ - IDebugLiveShaderRequest.BeginDebugLiveShader
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugliveshaderrequest_begindebugliveshader_debugshaderrequestinfo_ptr"></span>IDebugLiveShaderRequest::BeginDebugLiveShader method

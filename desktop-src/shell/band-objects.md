@@ -3,6 +3,13 @@ Description: The Explorer Bar was introduced with Microsoft Internet Explorer 4
 title: Creating Custom Explorer Bars, Tool Bands, and Desk Bands
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4bf46b3f-f833-42e0-baf7-21bfa9e6d890
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Creating Custom Explorer Bars, Tool Bands, and Desk Bands

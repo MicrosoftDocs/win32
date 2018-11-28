@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEngineTextureSliceDescriptor structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 1A183AFB-0BEF-4474-A60C-DBCFA4B34604
+api_name: 
+ - PixEngineTextureSliceDescriptor
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixenginetextureslicedescriptor"></span>PixEngineTextureSliceDescriptor structure

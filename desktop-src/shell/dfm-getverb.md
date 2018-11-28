@@ -3,6 +3,19 @@ Description: Sent by the default context menu implementation to get the verb for
 title: DFM_GETVERB message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: bd12a38e-4d50-43ad-9d1f-8fefa90b44f9
+api_name: 
+ - DFM_GETVERB
+ - DFM_GETVERBA
+ - DFM_GETVERBW
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DFM\_GETVERB message

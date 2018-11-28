@@ -3,6 +3,13 @@ Description: The <iconReference> element specifies a custom icon for this librar
 title: iconReference Element (Library Schema)
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 7A35B014-1E01-4da2-AA64-4CFC3436C6D9
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # iconReference Element (Library Schema)

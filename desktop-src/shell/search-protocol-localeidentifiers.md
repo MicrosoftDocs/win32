@@ -3,6 +3,13 @@ Description: The inputlocale and keywordlocale identifiers help the search engin
 title: Locale Identifier Arguments
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 881ce3a6-6cf6-45be-9a1e-148b9053d7c4
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Locale Identifier Arguments

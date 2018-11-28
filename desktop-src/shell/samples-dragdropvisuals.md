@@ -3,6 +3,13 @@ Description: Demonstrates how to use the Shell drag-and-drop services to get the
 title: Drag-and-Drop Visuals Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 72256871-6E14-401b-9201-23127AFB224D
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Drag-and-Drop Visuals Sample

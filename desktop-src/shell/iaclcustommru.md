@@ -11,6 +11,16 @@ api_name:
 api_type: 
 - COM
 api_location: 
+ms.assetid: 6ebf64da-9eba-4ea7-91aa-242474097be1
+api_name: 
+ - IACLCustomMRU
+api_type: 
+ - COM
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # IACLCustomMRU interface

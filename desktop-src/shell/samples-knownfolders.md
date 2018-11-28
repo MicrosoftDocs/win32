@@ -3,6 +3,13 @@ Description: Demonstrates how to define, register, enumerate and find the path f
 title: Known Folders Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 49799A9E-BA86-4977-B5F3-590BE1E5FBF6
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Known Folders Sample

@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine::SetParentProcess method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: F81AAE21-C583-438C-B517-75D8CC31DF2B
+api_name: 
+ - IPixEngine.SetParentProcess
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine_setparentprocess_dword"></span>IPixEngine::SetParentProcess method

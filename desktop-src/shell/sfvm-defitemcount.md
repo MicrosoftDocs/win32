@@ -3,6 +3,17 @@ Description: Allows the callback object to specify the number of items in the fo
 title: SFVM_DEFITEMCOUNT message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 62306eaa-e52e-432b-9233-d990519d5739
+api_name: 
+ - SFVM_DEFITEMCOUNT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_DEFITEMCOUNT message

@@ -3,6 +3,13 @@ Description: 'This topic explains how to register a program in the Windows regis
 title: Registering Programs with Client Types
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 33fcb63c-3db2-44df-acfe-8c88e2e634e4
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Registering Programs with Client Types

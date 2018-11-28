@@ -7,6 +7,17 @@ MSHAttr:
 title: EXPERIMENTTYPE enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 9AEBCF2D-4556-43A4-9C97-8184BA9DB22D
+api_name: 
+ - EXPERIMENTTYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE enumeration

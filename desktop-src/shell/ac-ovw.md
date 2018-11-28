@@ -3,6 +3,13 @@ Description: Autocompletion expands strings that have been partially entered in 
 title: Using Autocomplete
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: b990395b-fc10-48f9-a718-7cc006e37eb7
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Using Autocomplete

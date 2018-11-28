@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback::MeshDataVertCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E75EDE35-AC8E-4452-B79B-860C39B156F0
+api_name: 
+ - IPipeLineStagesCallback.MeshDataVertCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback_meshdatavertcallback_uint_uint_meshdatabufferlayoutentry_arr_uint_uint_byte_arr_uint_byte_arr_uint_uint_uint_uint_bool_uint_uint"></span>IPipeLineStagesCallback::MeshDataVertCallback method

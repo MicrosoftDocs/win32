@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine7::SetPlaybackEndpointAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4F76EFFF-F3CB-4BEA-999F-639876C7F792
+api_name: 
+ - IPixEngine7.SetPlaybackEndpointAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine7_setplaybackendpointasync_bool_bstr_bstr_remotingversion_iversioncallback_ptr_dword_dword"></span>IPixEngine7::SetPlaybackEndpointAsync method

@@ -3,6 +3,13 @@ Description: This section describes the Windows Shell messages and notifications
 title: Shell Messages and Notifications
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: ea8329b4-a14e-4df0-9c15-ae0aea08744d
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Messages and Notifications

@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEngineHistogram structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: FC720568-6C8E-4B14-BCB1-5FA14D32C785
+api_name: 
+ - PixEngineHistogram
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixenginehistogram"></span>PixEngineHistogram structure

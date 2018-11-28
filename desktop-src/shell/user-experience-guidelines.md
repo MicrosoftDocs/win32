@@ -3,6 +3,13 @@ Description: The primary responsibility of any Control Panel item is to display 
 title: User Experience Guidelines
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: f03a154b-9781-4718-8244-3d57fee0755e
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # User Experience Guidelines

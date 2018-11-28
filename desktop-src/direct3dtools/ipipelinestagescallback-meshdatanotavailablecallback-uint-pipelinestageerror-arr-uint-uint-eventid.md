@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback::MeshDataNotAvailableCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: A51E7C45-C1F0-4576-8638-9C3B185385BA
+api_name: 
+ - IPipeLineStagesCallback.MeshDataNotAvailableCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback_meshdatanotavailablecallback_uint_pipelinestageerror_arr_uint_uint_eventid"></span>IPipeLineStagesCallback::MeshDataNotAvailableCallback method

@@ -7,6 +7,17 @@ MSHAttr:
 title: ICallStackCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9C083298-6FD5-4414-8E0C-625F6A144668
+api_name: 
+ - ICallStackCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.icallstackcallback_resultcallback_dword_callstackframe_arr"></span>ICallStackCallback::ResultCallback method

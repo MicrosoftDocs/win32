@@ -3,6 +3,13 @@ Description: Demonstrates how to use the Shell\_NotifyIcon and Shell\_NotifyIcon
 title: NotificationIcon Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9F31DB2D-4B12-4f65-AC91-25B4B5B1CB46
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # NotificationIcon Sample

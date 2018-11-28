@@ -3,6 +3,13 @@ Description: Math Functions
 title: Math Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 27fbd94b-e84a-4583-a355-a669b9662e00
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Math Functions

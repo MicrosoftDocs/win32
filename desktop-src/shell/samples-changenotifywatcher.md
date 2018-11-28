@@ -3,6 +3,13 @@ Description: Demonstrates how to listen to Shell change notifications on a folde
 title: Change Notify Watcher Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 02A7C5B4-94F2-4c35-9290-4C816E5CF63A
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Change Notify Watcher Sample

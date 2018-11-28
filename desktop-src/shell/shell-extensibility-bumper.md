@@ -3,6 +3,13 @@ Description: There is a key distinction between extending the Shell, which consi
 title: Shell Extensibility (Creating a Data Source)
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3d53b721-b768-4def-9c45-f4b2c65aab68
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Extensibility (Creating a Data Source)

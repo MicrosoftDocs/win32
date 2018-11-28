@@ -3,6 +3,13 @@ Description: When the Shell detects the insertion of new media or the attachment
 title: Using and Configuring AutoPlay
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 096c7042-8cf0-4e4f-934f-274564218f4c
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Using and Configuring AutoPlay

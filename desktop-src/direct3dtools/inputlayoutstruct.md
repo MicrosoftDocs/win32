@@ -7,6 +7,17 @@ MSHAttr:
 title: InputLayoutStruct structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: CC7AAC2F-FDB1-4AD8-9B87-A97EE557FEAC
+api_name: 
+ - InputLayoutStruct
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.inputlayoutstruct"></span>InputLayoutStruct structure

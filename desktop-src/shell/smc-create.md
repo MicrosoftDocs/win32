@@ -3,6 +3,17 @@ Description: Notifies you that a menu band has been created.
 title: SMC_CREATE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8eeca6f6-1718-4ff6-b4a7-4b68b9527468
+api_name: 
+ - SMC_CREATE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_CREATE message

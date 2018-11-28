@@ -7,6 +7,17 @@ MSHAttr:
 title: DebugShaderRequestInfo structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: DEFFAEE4-6C53-4C89-A533-A5BE73B80DEA
+api_name: 
+ - DebugShaderRequestInfo
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.debugshaderrequestinfo"></span>DebugShaderRequestInfo structure

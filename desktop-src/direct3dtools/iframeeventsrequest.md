@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameEventsRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: E171A94C-012F-4296-B1EC-2E814F977565
+api_name: 
+ - IFrameEventsRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframeeventsrequest"></span>IFrameEventsRequest interface

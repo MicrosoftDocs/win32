@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
+api_name: 
+ - IShellDispatch4.WindowsSecurity
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # IShellDispatch4.WindowsSecurity method

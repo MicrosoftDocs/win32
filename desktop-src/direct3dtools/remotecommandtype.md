@@ -7,6 +7,17 @@ MSHAttr:
 title: RemoteCommandType enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: B517F70C-2BFB-42E7-8597-AC5915AB2DE0
+api_name: 
+ - RemoteCommandType
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.remotecommandtype"></span>RemoteCommandType enumeration

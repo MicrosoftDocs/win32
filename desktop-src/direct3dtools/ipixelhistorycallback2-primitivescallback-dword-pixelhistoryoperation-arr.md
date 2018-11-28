@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryCallback2::PrimitivesCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2A67EC3B-72F2-4347-AD23-961CDE0D456F
+api_name: 
+ - IPixelHistoryCallback2.PrimitivesCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistorycallback2_primitivescallback_dword_pixelhistoryoperation_arr"></span>IPixelHistoryCallback2::PrimitivesCallback method

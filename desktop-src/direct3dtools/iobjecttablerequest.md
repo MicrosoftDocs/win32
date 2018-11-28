@@ -7,6 +7,17 @@ MSHAttr:
 title: IObjectTableRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: A32CEAB1-9B54-47B5-87E8-97750619EE7A
+api_name: 
+ - IObjectTableRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iobjecttablerequest"></span>IObjectTableRequest interface

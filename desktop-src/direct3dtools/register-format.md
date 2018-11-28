@@ -7,6 +7,17 @@ MSHAttr:
 title: REGISTER_FORMAT enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 869415AA-841E-439B-B561-F761B5B0E0B1
+api_name: 
+ - REGISTER_FORMAT
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.register_format"></span>REGISTER\_FORMAT enumeration

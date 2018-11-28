@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisRequest::CancelOfflineAnalysisAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 20107890-DF7B-4483-9D2C-1D9164366504
+api_name: 
+ - IOfflineAnalysisRequest.CancelOfflineAnalysisAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysisrequest_cancelofflineanalysisasync_dword"></span>IOfflineAnalysisRequest::CancelOfflineAnalysisAsync method

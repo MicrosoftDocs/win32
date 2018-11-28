@@ -3,6 +3,17 @@ Description: Sent to the CPlApplet function of a Control Panel application to re
 title: CPL_NEWINQUIRE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: af52889c-7180-4690-8ed1-a0eb0a9dff35
+api_name: 
+ - CPL_NEWINQUIRE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Cpl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CPL\_NEWINQUIRE message

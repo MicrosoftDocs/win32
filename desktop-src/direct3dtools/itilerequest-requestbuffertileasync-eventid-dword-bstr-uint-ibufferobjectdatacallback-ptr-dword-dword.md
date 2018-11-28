@@ -7,6 +7,17 @@ MSHAttr:
 title: ITileRequest::RequestBufferTileAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2D68766F-1BED-439E-AC51-790471DA4F70
+api_name: 
+ - ITileRequest.RequestBufferTileAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.itilerequest_requestbuffertileasync_eventid_dword_bstr_uint_ibufferobjectdatacallback_ptr_dword_dword"></span>ITileRequest::RequestBufferTileAsync method

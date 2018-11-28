@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine2::SetPlaybackMachine method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 181EE044-1FC4-484B-AE63-C33BC627C3B7
+api_name: 
+ - IPixEngine2.SetPlaybackMachine
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine2_setplaybackmachine_bstr_bool_bstr"></span>IPixEngine2::SetPlaybackMachine method

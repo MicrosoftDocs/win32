@@ -7,6 +7,17 @@ MSHAttr:
 title: IMeshCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 32C5012C-A1A1-4079-8785-CF0F65ED6A42
+api_name: 
+ - IMeshCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.imeshcallback"></span>IMeshCallback interface

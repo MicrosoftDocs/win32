@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngineSingleton interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: CFB39AF0-E136-4450-9B7E-522A2C2ADDAE
+api_name: 
+ - IPixEngineSingleton
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixenginesingleton"></span>IPixEngineSingleton interface

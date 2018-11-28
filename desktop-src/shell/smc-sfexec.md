@@ -3,6 +3,17 @@ Description: Execute the Shell folder item specified in the accompanying SMDATA 
 title: SMC_SFEXEC message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: bb8f6434-0936-460f-b7dc-39be58bb70ce
+api_name: 
+ - SMC_SFEXEC
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_SFEXEC message

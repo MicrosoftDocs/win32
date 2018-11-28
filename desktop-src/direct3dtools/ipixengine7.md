@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine7 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: D30020DF-B998-413F-B09B-179A31B0AED2
+api_name: 
+ - IPixEngine7
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine7"></span>IPixEngine7 interface

@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 1E438545-D4C4-45A7-918E-D3D9DC06BA08
+api_name: 
+ - IOfflineAnalysisRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysisrequest"></span>IOfflineAnalysisRequest interface

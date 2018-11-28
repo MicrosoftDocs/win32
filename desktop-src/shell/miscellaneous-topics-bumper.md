@@ -3,6 +3,13 @@ Description: .
 title: Legacy Shell Topics
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: e9e10fd9-438a-4443-9495-a4f501eed26f
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Legacy Shell Topics

@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 54979bbd-b36b-4b5b-a8a0-5f63e9526fa5
+api_name: 
+ - Shell.ControlPanelItem
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # Shell.ControlPanelItem method

@@ -3,6 +3,13 @@ Description: A perceived type is a category of file types that lets you identify
 title: Perceived Types
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 56d4c495-a886-4723-88ca-5b7753398062
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Perceived Types

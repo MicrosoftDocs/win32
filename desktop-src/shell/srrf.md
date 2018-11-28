@@ -3,6 +3,33 @@ Description: Flags that restrict the data to be set or returned.
 title: SRRF
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: c9dbffd1-3b3e-4a25-89ee-1666e2812a62
+api_name: 
+ - SRRF_RT_REG_NONE
+ - SRRF_RT_REG_SZ
+ - SRRF_RT_REG_EXPAND_SZ
+ - SRRF_RT_REG_BINARY
+ - SRRF_RT_REG_DWORD
+ - SRRF_RT_REG_MULTI_SZ
+ - SRRF_RT_REG_QWORD
+ - SRRF_RT_DWORD
+ - SRRF_RT_QWORD
+ - SRRF_RT_ANY
+ - SRRF_RM_ANY
+ - SRRF_RM_NORMAL
+ - SRRF_RM_SAFE
+ - SRRF_RM_SAFENETWORK
+ - SRRF_NOEXPAND
+ - SRRF_ZEROONFAILURE
+ - SRRF_NOVIRT
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlwapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SRRF

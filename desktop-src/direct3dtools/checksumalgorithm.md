@@ -7,6 +7,17 @@ MSHAttr:
 title: CHECKSUMALGORITHM enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 9DCF7D41-9550-4E3F-A6B4-4B653BBA23C3
+api_name: 
+ - CHECKSUMALGORITHM
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.checksumalgorithm"></span>CHECKSUMALGORITHM enumeration

@@ -3,6 +3,17 @@ Description: Promote the item specified by the accompanying SMDATA structure.
 title: SMC_PROMOTE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: b1208673-06b4-42b2-b4ac-872fd22927df
+api_name: 
+ - SMC_PROMOTE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_PROMOTE message

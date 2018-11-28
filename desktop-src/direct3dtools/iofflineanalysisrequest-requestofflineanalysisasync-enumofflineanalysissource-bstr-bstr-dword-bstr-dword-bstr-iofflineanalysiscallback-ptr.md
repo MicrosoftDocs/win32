@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisRequest::RequestOfflineAnalysisAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: C836D9C1-D3E0-4661-9B89-048B61028F53
+api_name: 
+ - IOfflineAnalysisRequest.RequestOfflineAnalysisAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysisrequest_requestofflineanalysisasync_enumofflineanalysissource_bstr_bstr_dword_bstr_dword_bstr_iofflineanalysiscallback_ptr"></span>IOfflineAnalysisRequest::RequestOfflineAnalysisAsync method

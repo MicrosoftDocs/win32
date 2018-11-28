@@ -3,6 +3,13 @@ Description: This section describes the Windows Shell lightweight utility functi
 title: Shell Lightweight Utility Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 823cbb52-a7ea-4ce5-a4c5-b4d5610e2b3e
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Lightweight Utility Functions

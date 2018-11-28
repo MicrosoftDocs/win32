@@ -3,6 +3,17 @@ Description: Notifies you that an infotip is about to be displayed for the chevr
 title: SMC_DISPLAYCHEVRONTIP message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: e4ec4839-e49a-4563-9bc9-79f9d4d54658
+api_name: 
+ - SMC_DISPLAYCHEVRONTIP
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_DISPLAYCHEVRONTIP message

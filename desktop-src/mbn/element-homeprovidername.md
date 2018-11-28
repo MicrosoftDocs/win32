@@ -7,6 +7,16 @@ MSHAttr:
 title: HomeProviderName
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8c80386f-a778-49ec-9439-990220d17d13
+api_name: 
+ - HomeProviderName
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_HomeProviderName"></span>HomeProviderName

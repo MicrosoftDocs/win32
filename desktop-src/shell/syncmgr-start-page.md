@@ -3,6 +3,13 @@ Description: The Synchronization Manager provides a centralized, standard techno
 title: Synchronization Manager
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 6cdac7e5-8985-407a-98bb-936bb20ed069
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbOrient
+
 ---
 
 # Synchronization Manager

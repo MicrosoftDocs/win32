@@ -3,6 +3,13 @@ Description: Demonstrates how to customize the File In Use dialog to display add
 title: File Is In Use Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 22EFE7CC-D223-46b3-BD6B-293E3FA0BA01
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # File Is In Use Sample

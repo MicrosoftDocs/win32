@@ -7,6 +7,17 @@ MSHAttr:
 title: IUpdateObjectCallback::UpdateComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 7F54DDEC-E595-4615-B9B7-B1213A58B362
+api_name: 
+ - IUpdateObjectCallback.UpdateComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iupdateobjectcallback_updatecomplete_uint_hresult"></span>IUpdateObjectCallback::UpdateComplete method

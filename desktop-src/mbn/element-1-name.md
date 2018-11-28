@@ -7,6 +7,16 @@ MSHAttr:
 title: Name
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: d5db3565-db0a-4e6d-a0c5-7e9b3d006d5d
+api_name: 
+ - Name (type: NameType)
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_1_Name"></span>Name

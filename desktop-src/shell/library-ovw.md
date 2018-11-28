@@ -3,6 +3,13 @@ Description: Windows 7 introduces libraries, which provide users with a single,
 title: Windows Libraries
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 19DA68B2-FCB6-443d-A3CD-0BF2F429B149
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Windows Libraries

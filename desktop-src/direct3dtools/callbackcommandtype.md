@@ -7,6 +7,17 @@ MSHAttr:
 title: CallbackCommandType enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 78E0CD6C-5264-4F66-BAB9-20DC9C0C1EC1
+api_name: 
+ - CallbackCommandType
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.callbackcommandtype"></span>CallbackCommandType enumeration

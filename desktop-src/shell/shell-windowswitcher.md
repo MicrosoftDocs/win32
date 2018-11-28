@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shldisp.h
+ms.assetid: 89825430-C28E-4d38-A8F7-69A1408DDD73
+api_name: 
+ - Shell.WindowSwitcher
+api_type: 
+ - COM
+api_location: 
+ - Shldisp.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # Shell::WindowSwitcher method

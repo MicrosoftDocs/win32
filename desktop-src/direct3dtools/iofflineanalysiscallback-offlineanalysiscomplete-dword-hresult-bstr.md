@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisCallback::OfflineAnalysisComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 36E10709-51DC-4657-B184-F1F807ABBBB4
+api_name: 
+ - IOfflineAnalysisCallback.OfflineAnalysisComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysiscallback_offlineanalysiscomplete_dword_hresult_bstr"></span>IOfflineAnalysisCallback::OfflineAnalysisComplete method

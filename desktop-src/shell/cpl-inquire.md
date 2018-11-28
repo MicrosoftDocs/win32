@@ -3,6 +3,17 @@ Description: Sent to the CPlApplet function of a Control Panel application to re
 title: CPL_INQUIRE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: daca87b7-f1ee-40f4-95d2-3150b595151e
+api_name: 
+ - CPL_INQUIRE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Cpl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CPL\_INQUIRE message

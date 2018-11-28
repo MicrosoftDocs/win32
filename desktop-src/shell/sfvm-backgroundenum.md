@@ -3,6 +3,17 @@ Description: Allows the callback object to request enumeration on a background t
 title: SFVM_BACKGROUNDENUM message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8428179c-2ec9-4979-9281-c2439e58beb6
+api_name: 
+ - SFVM_BACKGROUNDENUM
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_BACKGROUNDENUM message

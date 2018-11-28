@@ -7,6 +7,17 @@ MSHAttr:
 title: ITileRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: DBA493E7-EBB6-490D-BDC6-946265A474D6
+api_name: 
+ - ITileRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.itilerequest"></span>ITileRequest interface

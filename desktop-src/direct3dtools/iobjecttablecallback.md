@@ -7,6 +7,17 @@ MSHAttr:
 title: IObjectTableCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: D3B5ECD5-DBE1-4E37-8707-CFAEFEE551F1
+api_name: 
+ - IObjectTableCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iobjecttablecallback"></span>IObjectTableCallback interface

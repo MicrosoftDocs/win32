@@ -7,6 +7,17 @@ MSHAttr:
 title: IGenericBufferDataCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 3E69AAA8-B970-47FC-9CFF-059F4E6E2DAD
+api_name: 
+ - IGenericBufferDataCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.igenericbufferdatacallback"></span>IGenericBufferDataCallback interface

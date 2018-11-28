@@ -7,6 +7,17 @@ MSHAttr:
 title: PRIMITIVE_TOPOLOGY enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: A845DD10-C735-4EA1-82D3-07F3B26508E7
+api_name: 
+ - PRIMITIVE_TOPOLOGY
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.primitive_topology"></span>PRIMITIVE\_TOPOLOGY enumeration

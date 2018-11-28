@@ -7,6 +7,17 @@ MSHAttr:
 title: ISymbolSettings::UpdateSymbolSettings method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E48E509F-8C33-49D6-B799-B16F70C1AA64
+api_name: 
+ - ISymbolSettings.UpdateSymbolSettings
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isymbolsettings_updatesymbolsettings_symbolserverinfo"></span>ISymbolSettings::UpdateSymbolSettings method

@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameBufferCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 613AD7AC-0732-49E2-8155-AE0A76597BE9
+api_name: 
+ - IFrameBufferCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframebuffercallback"></span>IFrameBufferCallback interface

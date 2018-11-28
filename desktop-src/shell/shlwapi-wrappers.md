@@ -3,6 +3,87 @@ Description: The tables in this document list wrapper functions from Shlwapi.dll
 title: SHLWAPI Wrapper Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 3c428c89-b650-48c1-9f91-b94f9f8e10e2
+api_name: 
+ - SHLWAPI Wrapper Functions
+ - AppendMenuWrapW
+ - CallWindowProcWrapW
+ - CharLowerWrapW
+ - CharUpperBufWrapW
+ - CharUpperWrapW
+ - CompareStringWrapW
+ - CopyFileWrapW
+ - CreateEventWrapW
+ - CreateFileWrapW
+ - CreateWindowExWrapW
+ - DefWindowProcWrapW
+ - DeleteFileWrapW
+ - DialogBoxParamWrapW
+ - DispatchMessageWrapW
+ - DragQueryFileWrapW
+ - DrawTextExWrapW
+ - DrawTextWrapW
+ - ExtTextOutWrapW
+ - FormatMessageWrapW
+ - GetClassInfoWrapW
+ - GetDateFormatW
+ - GetDateFormatWrapW
+ - GetDlgItemTextWrapW
+ - GetFileAttributesWrapW
+ - GetLocaleInfoWrapW
+ - GetMenuItemInfoWrapW
+ - GetModuleFileNameWrapW
+ - GetModuleHandleWrapW
+ - GetObjectWrapW
+ - GetOpenFileNameWrapW
+ - GetSaveFileNameWrapW
+ - GetSystemDirectoryWrapW
+ - GetTimeFormatWrapW
+ - GetWindowLongWrapW
+ - GetWindowsDirectoryWrapW
+ - GetWindowTextLengthWrapW
+ - GetWindowTextWrapW
+ - InsertMenuItemWrapW
+ - IsCharAlphaNumericWrapW
+ - IsCharAlphaWrapW
+ - IsCharUpperWrapW
+ - LoadLibraryWrapW
+ - LoadStringWrapW
+ - MessageBoxWrapW
+ - MLGetUILanguage
+ - MoveFileWrapW
+ - OutputDebugStringWrapW
+ - PeekMessageWrapW
+ - PostMessageWrapW
+ - RegCreateKeyExWrapW
+ - RegisterClassWrapW
+ - RegOpenKeyExWrapW
+ - RegQueryValueExW
+ - RegQueryValueExWrapW
+ - RegQueryValueWrapW
+ - RegSetValueExWrapW
+ - SendMessageWrapW
+ - SetDlgItemTextWrapW
+ - SetWindowLongWrapW
+ - SetWindowTextWrapW
+ - SHCancelTimerQueueTimer
+ - SHDeleteTimerQueue
+ - ShellExecuteExWrapW
+ - ShellMessageBoxWrapW
+ - SHGetFileInfoWrapW
+ - SHGetPathFromIDListWrapW
+ - SHInterlockedCompareExchange
+ - SHQueueUserWorkItem
+ - SHSetTimerQueueTimer
+ - TranslateAcceleratorWrapW
+ - UnregisterClassWrapW
+api_type: 
+ - NA
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SHLWAPI Wrapper Functions

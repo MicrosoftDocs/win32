@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shdocvw.dll
+ms.assetid: 7faf758a-daa0-47f5-9f95-61fe3d8286ea
+api_name: 
+ - DShellWindowsEvents.WindowRegistered
+api_type: 
+ - COM
+api_location: 
+ - Shdocvw.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DShellWindowsEvents.WindowRegistered method

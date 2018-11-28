@@ -3,6 +3,13 @@ Description: An association array is an ordered list of registry locations used 
 title: Association Arrays
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 9ECD19CA-833E-4565-A0EF-FB16BF7B3F44
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Association Arrays

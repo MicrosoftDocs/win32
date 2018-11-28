@@ -3,6 +3,17 @@ Description: Notifies an appbar that the user has selected the Cascade, Tile Hor
 title: ABN_WINDOWARRANGE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 32eb7298-75ca-4ff8-86cf-7c9ca9d71868
+api_name: 
+ - ABN_WINDOWARRANGE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ABN\_WINDOWARRANGE message

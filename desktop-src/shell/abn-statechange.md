@@ -3,6 +3,17 @@ Description: Notifies an appbar that the taskbar's autohide or always-on-top sta
 title: ABN_STATECHANGE message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: ac2c00a2-ac20-40a5-947e-6b75a2620a0b
+api_name: 
+ - ABN_STATECHANGE
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ABN\_STATECHANGE message

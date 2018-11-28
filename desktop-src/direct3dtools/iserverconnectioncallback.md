@@ -7,6 +7,17 @@ MSHAttr:
 title: IServerConnectionCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: E140C0EA-2DAB-4F86-B1AE-4AE9214DE40A
+api_name: 
+ - IServerConnectionCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iserverconnectioncallback"></span>IServerConnectionCallback interface

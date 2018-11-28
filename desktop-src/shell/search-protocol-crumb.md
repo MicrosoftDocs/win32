@@ -3,6 +3,13 @@ Description: The crumb argument supports full Advanced Query Syntax (AQS) statem
 title: CRUMB Argument
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8f87a2b7-7f5a-4629-b881-44bf418b2df0
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # CRUMB Argument

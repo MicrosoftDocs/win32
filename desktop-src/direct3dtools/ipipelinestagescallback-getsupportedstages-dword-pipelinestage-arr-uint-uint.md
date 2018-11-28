@@ -7,6 +7,17 @@ MSHAttr:
 title: IPipeLineStagesCallback::GetSupportedStages method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: F7046A41-5C9C-42FE-B1E2-879A47CE08E3
+api_name: 
+ - IPipeLineStagesCallback.GetSupportedStages
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipipelinestagescallback_getsupportedstages_dword_pipelinestage_arr_uint_uint"></span>IPipeLineStagesCallback::GetSupportedStages method

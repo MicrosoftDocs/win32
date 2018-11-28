@@ -7,6 +7,17 @@ MSHAttr:
 title: PixEngineTextureFormatDesc structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 685DC746-544D-4ACB-AB1F-9FA62C5CF416
+api_name: 
+ - PixEngineTextureFormatDesc
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pixenginetextureformatdesc"></span>PixEngineTextureFormatDesc structure

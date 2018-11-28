@@ -3,6 +3,13 @@ Description: Demonstrates how to take advantage of Shell helpers that use the pa
 title: Parsing With Parameters Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: FAC6099D-7631-49ac-B3A5-DBFF9B288C1D
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Parsing With Parameters Sample

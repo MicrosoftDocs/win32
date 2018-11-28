@@ -3,6 +3,28 @@ Description: These data types can be used to specify the type of a registry valu
 title: Registry Data Types
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4185e7af-e1f0-40af-91c7-0ff7e27896ae
+api_name: 
+ - REG_BINARY
+ - REG_DWORD
+ - REG_QWORD
+ - REG_DWORD_LITTLE_ENDIAN
+ - REG_QWORD_LITTLE_ENDIAN
+ - REG_DWORD_BIG_ENDIAN
+ - REG_EXPAND_SZ
+ - REG_LINK
+ - REG_MULTI_SZ
+ - REG_NONE
+ - REG_RESOURCE_LIST
+ - REG_SZ
+api_type: 
+ - HeaderDef
+api_location: 
+ - Winnt.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # Registry Data Types

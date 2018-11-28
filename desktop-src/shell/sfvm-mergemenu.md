@@ -3,6 +3,17 @@ Description: Allows the callback object to merge menu items into the Windows Exp
 title: SFVM_MERGEMENU message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 59bb99a3-9a5a-4ea5-9830-b04d7d886b3f
+api_name: 
+ - SFVM_MERGEMENU
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_MERGEMENU message

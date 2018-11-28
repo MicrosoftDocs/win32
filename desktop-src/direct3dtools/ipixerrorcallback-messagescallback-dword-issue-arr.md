@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixErrorCallback::MessagesCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 55343F63-BB58-4F57-884D-CEFE8AB57A27
+api_name: 
+ - IPixErrorCallback.MessagesCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixerrorcallback_messagescallback_dword_issue_arr"></span>IPixErrorCallback::MessagesCallback method

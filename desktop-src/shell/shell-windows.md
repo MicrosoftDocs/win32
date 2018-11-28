@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: ffa6311c-8bbe-45c4-9b06-069779d2306d
+api_name: 
+ - Shell.Windows
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # Shell.Windows method

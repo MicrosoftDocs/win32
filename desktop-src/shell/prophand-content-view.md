@@ -3,6 +3,13 @@ Description: This topic describes a new view in Windows Explorer, called the Con
 title: Content View By File Type or Kind
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E01A6726-14C4-4c00-81D4-AE1008088678
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Content View By File Type or Kind

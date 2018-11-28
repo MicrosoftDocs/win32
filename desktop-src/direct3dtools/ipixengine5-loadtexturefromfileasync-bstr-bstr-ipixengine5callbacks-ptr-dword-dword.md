@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5::LoadTextureFromFileAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: DF10C209-B6B5-4692-81D7-7FD59CE49F56
+api_name: 
+ - IPixEngine5.LoadTextureFromFileAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5_loadtexturefromfileasync_bstr_bstr_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::LoadTextureFromFileAsync method

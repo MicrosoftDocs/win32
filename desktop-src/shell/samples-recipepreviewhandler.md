@@ -3,6 +3,13 @@ Description: Demonstrates how to write a handler used to display a file preview 
 title: Recipe Preview Handler Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2C926922-48C0-46f5-8928-67007C6FF957
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Recipe Preview Handler Sample

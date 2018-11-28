@@ -7,6 +7,17 @@ MSHAttr:
 title: Point2D structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: A8E0BA12-B17E-4A08-A691-DA57DF7CE532
+api_name: 
+ - Point2D
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.point2d"></span>Point2D structure

@@ -3,6 +3,13 @@ Description: The root of a namespace extension is normally displayed by Windows 
 title: Specifying a Namespace Extension's Location
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2c1fdd5d-b359-4d5c-a20e-0622f3a1cb1d
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Specifying a Namespace Extension's Location

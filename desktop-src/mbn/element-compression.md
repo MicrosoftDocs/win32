@@ -7,6 +7,16 @@ MSHAttr:
 title: Compression
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4b2ad853-ecb3-46ef-8ce2-aa001bb070e6
+api_name: 
+ - Compression
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_Compression"></span>Compression

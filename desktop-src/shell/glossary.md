@@ -4,6 +4,13 @@ Robots: noindex, nofollow
 title: Shell Glossary
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 2F463941-A4BA-4b34-B391-7E599E87BEEA
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Glossary

@@ -3,6 +3,13 @@ Description: The Synchronization Manager includes user interface components, suc
 title: Synchronization Manager Architecture
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: db338835-ca8d-4e9f-973a-8eb081feda2b
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Synchronization Manager Architecture

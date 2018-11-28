@@ -3,6 +3,17 @@ Description: Allows the callback object to provide a page to add to the Properti
 title: SFVM_ADDPROPERTYPAGES message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 54f67d0e-6089-4e75-a547-5313794e1512
+api_name: 
+ - SFVM_ADDPROPERTYPAGES
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_ADDPROPERTYPAGES message

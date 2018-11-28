@@ -3,6 +3,13 @@ Description: The Windows Shell provides a powerful set of automation objects tha
 title: Scriptable Shell Objects
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 09455fad-a769-42ef-83ba-b745ac819bf3
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Scriptable Shell Objects

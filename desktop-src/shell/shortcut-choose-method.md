@@ -3,6 +3,13 @@ Description: 'This topic is organized as follows:'
 title: Choosing a Static or Dynamic Shortcut Menu Method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 44227BCF-D35E-4a9e-B4E6-D50E6AFBAEDF
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Choosing a Static or Dynamic Shortcut Menu Method

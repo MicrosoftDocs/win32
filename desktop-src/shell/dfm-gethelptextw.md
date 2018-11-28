@@ -3,6 +3,18 @@ Description: Allows the callback object to specify a help text string.
 title: DFM_GETHELPTEXTW message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 85bdd1d0-5b68-44a5-a1b0-4845b5be34d0
+api_name: 
+ - DFM_GETHELPTEXTW
+ - DFM_GETHELPTEXTW
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DFM\_GETHELPTEXTW message

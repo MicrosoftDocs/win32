@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixelHistoryCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 1F7D0EA5-402A-49C4-A83E-91596AE9536B
+api_name: 
+ - IPixelHistoryCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixelhistorycallback_resultcallback_dword_pixelhistoryoperation_arr"></span>IPixelHistoryCallback::ResultCallback method

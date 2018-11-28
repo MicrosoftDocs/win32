@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine2::OnNewDataAvailable method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: B99FC54C-9395-4B14-93D5-B6408D655DC3
+api_name: 
+ - IPixEngine2.OnNewDataAvailable
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine2_onnewdataavailable_bool_bool_int64_int64_int32_byte_arr"></span>IPixEngine2::OnNewDataAvailable method

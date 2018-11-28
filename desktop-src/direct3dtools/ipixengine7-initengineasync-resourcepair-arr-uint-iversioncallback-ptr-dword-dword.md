@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine7::InitEngineAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 10138B39-88D2-4586-BD51-C618722EFFA0
+api_name: 
+ - IPixEngine7.InitEngineAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine7_initengineasync_resourcepair_arr_uint_iversioncallback_ptr_dword_dword"></span>IPixEngine7::InitEngineAsync method

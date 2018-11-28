@@ -3,6 +3,13 @@ Description: This topic provides a step-by-step examination of the requirements 
 title: Developing a Windows Sync Center Handler
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 66b40f81-9515-4190-8ced-44f20bb9df86
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Developing a Windows Sync Center Handler

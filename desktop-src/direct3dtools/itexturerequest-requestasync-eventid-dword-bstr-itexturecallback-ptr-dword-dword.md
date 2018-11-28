@@ -7,6 +7,17 @@ MSHAttr:
 title: ITextureRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 89A9F230-D296-43CD-A2A6-747057750EED
+api_name: 
+ - ITextureRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.itexturerequest_requestasync_eventid_dword_bstr_itexturecallback_ptr_dword_dword"></span>ITextureRequest::RequestAsync method

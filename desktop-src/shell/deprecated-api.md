@@ -3,6 +3,13 @@ Description: The following APIs are either deprecated or superseded by newer API
 title: Deprecated Shell APIs
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 30B02395-8407-4B70-A70F-F0DEE20D8ACC
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Deprecated Shell APIs

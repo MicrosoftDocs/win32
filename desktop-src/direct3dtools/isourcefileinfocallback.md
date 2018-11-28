@@ -7,6 +7,17 @@ MSHAttr:
 title: ISourceFileInfoCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 0430DFF0-F3EA-4645-9B91-E849C0F99609
+api_name: 
+ - ISourceFileInfoCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isourcefileinfocallback"></span>ISourceFileInfoCallback interface

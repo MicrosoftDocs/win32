@@ -3,6 +3,13 @@ Description: Demonstrates how to determine HomeGroup membership status, enumerat
 title: HomeGroup Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: FDEFF261-BF86-4fbb-8567-892F79F23D92
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # HomeGroup Sample

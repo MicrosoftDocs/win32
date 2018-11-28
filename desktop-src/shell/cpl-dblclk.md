@@ -3,6 +3,17 @@ Description: Sent to the CPlApplet function of a Control Panel application when 
 title: CPL_DBLCLK message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 68d74372-2fc2-45ed-8f77-574b943d28fa
+api_name: 
+ - CPL_DBLCLK
+api_type: 
+ - HeaderDef
+api_location: 
+ - Cpl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CPL\_DBLCLK message

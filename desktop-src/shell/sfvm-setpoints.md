@@ -3,6 +3,17 @@ Description: Sets the points of the currently selected objects to the data objec
 title: SFVM_SETPOINTS message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: d2c3e06a-19e4-4b78-9b7c-1a256582786e
+api_name: 
+ - SFVM_SETPOINTS
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_SETPOINTS message

@@ -3,6 +3,13 @@ Description: 'The search: application protocol is an extensible convention for c
 title: Using the search Protocol
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 91a1ec25-f6ab-4377-8478-20bc51a1d5df
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Using the search Protocol

@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks::FreeTextureComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: EBC4D77B-BA26-44F6-8A76-72BC4D9AD7C6
+api_name: 
+ - IPixEngine5Callbacks.FreeTextureComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks_freetexturecomplete"></span>IPixEngine5Callbacks::FreeTextureComplete method

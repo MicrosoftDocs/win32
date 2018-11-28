@@ -7,6 +7,17 @@ MSHAttr:
 title: ISummaryRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: DCD3F6C8-2FBA-4521-8714-A6E51667FE75
+api_name: 
+ - ISummaryRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.isummaryrequest"></span>ISummaryRequest interface

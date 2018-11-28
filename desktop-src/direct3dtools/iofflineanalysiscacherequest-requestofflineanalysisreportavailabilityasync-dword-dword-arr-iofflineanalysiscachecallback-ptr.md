@@ -7,6 +7,17 @@ MSHAttr:
 title: IOfflineAnalysisCacheRequest::RequestOfflineAnalysisReportAvailabilityAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 10FA71F8-813D-4788-92C8-00B30A9AE5CC
+api_name: 
+ - IOfflineAnalysisCacheRequest.RequestOfflineAnalysisReportAvailabilityAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iofflineanalysiscacherequest_requestofflineanalysisreportavailabilityasync_dword_dword_arr_iofflineanalysiscachecallback_ptr"></span>IOfflineAnalysisCacheRequest::RequestOfflineAnalysisReportAvailabilityAsync method

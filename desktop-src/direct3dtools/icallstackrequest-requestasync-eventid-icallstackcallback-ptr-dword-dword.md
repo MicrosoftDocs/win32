@@ -7,6 +7,17 @@ MSHAttr:
 title: ICallStackRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 1951716F-5382-41EE-90BB-A9053DB38A78
+api_name: 
+ - ICallStackRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.icallstackrequest_requestasync_eventid_icallstackcallback_ptr_dword_dword"></span>ICallStackRequest::RequestAsync method

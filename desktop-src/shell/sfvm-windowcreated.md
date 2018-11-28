@@ -3,6 +3,17 @@ Description: Notifies the callback object that the folder view window is being c
 title: SFVM_WINDOWCREATED message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: b57eb1d8-a897-4358-a855-89e152035eff
+api_name: 
+ - SFVM_WINDOWCREATED
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_WINDOWCREATED message

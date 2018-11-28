@@ -3,6 +3,17 @@ Description: Retrieves the handle to the autohide appbar associated with an edge
 title: ABM_GETAUTOHIDEBAREX message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 538EA230-06DF-4441-A6AA-9DD613521BE1
+api_name: 
+ - ABM_GETAUTOHIDEBAREX
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shellapi.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # ABM\_GETAUTOHIDEBAREX message

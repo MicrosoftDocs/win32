@@ -3,6 +3,17 @@ Description: Allows the callback object to specify a default sorting parameter. 
 title: SFVM_GETSORTDEFAULTS message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: edd428f2-50d9-4819-ba77-df51262e33ff
+api_name: 
+ - SFVM_GETSORTDEFAULTS
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_GETSORTDEFAULTS message

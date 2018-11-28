@@ -7,6 +7,17 @@ MSHAttr:
 title: IVersionCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 7135E175-C537-4B0C-8F0A-CB77E3F2D945
+api_name: 
+ - IVersionCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iversioncallback"></span>IVersionCallback interface

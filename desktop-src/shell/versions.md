@@ -3,6 +3,13 @@ Description: This section describes how to determine which version of the Shell 
 title: Shell and Shlwapi DLL Versions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: ecfb6484-a1d6-4ace-8457-3940b111a4d2
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell and Shlwapi DLL Versions

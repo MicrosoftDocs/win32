@@ -7,6 +7,17 @@ MSHAttr:
 title: ExperimentTrigger structure
 ms.topic: structure
 ms.date: 05/31/2018
+ms.assetid: 3CAA67E5-9C43-4BCD-9388-63EF06AB1C0E
+api_name: 
+ - ExperimentTrigger
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.experimenttrigger"></span>ExperimentTrigger structure

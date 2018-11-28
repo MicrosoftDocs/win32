@@ -7,6 +7,16 @@ MSHAttr:
 title: Provider
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: a701c4dd-967f-4f03-ada4-d34059f5a1e4
+api_name: 
+ - Provider
+api_type: 
+ - Schema
+api_location: 
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="WWAN_profile_v4.element_Provider"></span>Provider

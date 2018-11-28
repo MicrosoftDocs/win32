@@ -7,6 +7,17 @@ MSHAttr:
 title: OBJECTSTATETYPE enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 237BCBBC-71C5-4880-977E-27363A036843
+api_name: 
+ - OBJECTSTATETYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.objectstatetype"></span>OBJECTSTATETYPE enumeration

@@ -12,6 +12,17 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+ms.assetid: 3b6b0d03-e9ef-4575-bb67-f7b7b39d2a16
+api_name: 
+ - DiskQuotaControl.TranslateLogonNameToSID
+api_type: 
+ - COM
+api_location: 
+ - Shell32.dll
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # DiskQuotaControl.TranslateLogonNameToSID method

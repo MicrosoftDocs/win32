@@ -3,6 +3,13 @@ Description: Demonstrates how to control the taskbar grouping behavior of an app
 title: Application User Model ID (AppID) Window Property Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: D4B22B3F-C849-4b5f-BDA0-FB42D7E0E4C9
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Application User Model ID (AppID) Window Property Sample

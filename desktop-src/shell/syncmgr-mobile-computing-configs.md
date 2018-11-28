@@ -3,6 +3,13 @@ Description: Applications can use Sychronization Manager to keep files and resou
 title: Mobile Computing Configurations
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: f7a79dab-5996-4984-968c-beebc22da0af
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Mobile Computing Configurations

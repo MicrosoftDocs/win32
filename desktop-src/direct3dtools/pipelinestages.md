@@ -7,6 +7,17 @@ MSHAttr:
 title: PIPELINESTAGES enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: AF40441A-8027-4028-9A02-D53754FD2596
+api_name: 
+ - PIPELINESTAGES
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.pipelinestages"></span>PIPELINESTAGES enumeration

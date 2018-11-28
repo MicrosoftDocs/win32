@@ -3,6 +3,17 @@ Description: Sent to the CPlApplet function of a Control Panel application when 
 title: CPL_STOP message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 4f632b91-8200-42a3-90cc-a98889704ca4
+api_name: 
+ - CPL_STOP
+api_type: 
+ - HeaderDef
+api_location: 
+ - Cpl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # CPL\_STOP message

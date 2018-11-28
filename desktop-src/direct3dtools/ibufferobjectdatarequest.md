@@ -7,6 +7,17 @@ MSHAttr:
 title: IBufferObjectDataRequest interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: DF62289A-5FD4-4B4C-A0F7-683E29FE141F
+api_name: 
+ - IBufferObjectDataRequest
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ibufferobjectdatarequest"></span>IBufferObjectDataRequest interface

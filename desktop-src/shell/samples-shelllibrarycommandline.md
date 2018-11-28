@@ -3,6 +3,13 @@ Description: Demonstrates how to use the IShellLibrary interface to create a com
 title: Shell Library Command Line Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5EC06E69-8AC8-4d9e-BAFC-C1AFC1294023
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell Library Command Line Sample

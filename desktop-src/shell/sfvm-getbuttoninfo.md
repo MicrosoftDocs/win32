@@ -3,6 +3,17 @@ Description: Allows the callback object to add buttons to the toolbar. Used by I
 title: SFVM_GETBUTTONINFO message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 983652ed-7309-46aa-a6c9-7516411ba5ac
+api_name: 
+ - SFVM_GETBUTTONINFO
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shlobj.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SFVM\_GETBUTTONINFO message

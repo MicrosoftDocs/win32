@@ -7,6 +7,17 @@ MSHAttr:
 title: IDebugShaderRequest2 interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 80F95900-F2E6-4B5C-B902-573280956E94
+api_name: 
+ - IDebugShaderRequest2
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.idebugshaderrequest2"></span>IDebugShaderRequest2 interface

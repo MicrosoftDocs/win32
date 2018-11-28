@@ -7,6 +7,17 @@ MSHAttr:
 title: DUMPERTYPE enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 3F0E7F11-A11E-4843-AAE6-659BD602CB31
+api_name: 
+ - DUMPERTYPE
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.dumpertype"></span>DUMPERTYPE enumeration

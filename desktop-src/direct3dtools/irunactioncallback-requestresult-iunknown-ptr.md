@@ -7,6 +7,17 @@ MSHAttr:
 title: IRunActionCallback::RequestResult method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5D6B1599-2CF4-46E7-92DB-5D93DD5AD0EE
+api_name: 
+ - IRunActionCallback.RequestResult
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.irunactioncallback_requestresult_iunknown_ptr"></span>IRunActionCallback::RequestResult method

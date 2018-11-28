@@ -7,6 +7,17 @@ MSHAttr:
 title: IFrameListCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: AEB340C6-74AA-4F8B-86D0-9C0366ECDE70
+api_name: 
+ - IFrameListCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iframelistcallback_resultcallback_dword_dword_arr_dword_arr"></span>IFrameListCallback::ResultCallback method

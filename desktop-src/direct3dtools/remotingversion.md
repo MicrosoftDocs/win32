@@ -7,6 +7,17 @@ MSHAttr:
 title: REMOTINGVERSION enumeration
 ms.topic: enumeration
 ms.date: 05/31/2018
+ms.assetid: 598E9586-05FF-4889-BBAF-44814EEF203A
+api_name: 
+ - REMOTINGVERSION
+api_type: 
+ - HeaderDef
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.remotingversion"></span>REMOTINGVERSION enumeration

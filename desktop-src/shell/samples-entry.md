@@ -3,6 +3,13 @@ Description: This section describes the individual Shell samples included in the
 title: Shell SDK Samples
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: CFC388BE-5D74-440c-9C57-7EB853637712
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Shell SDK Samples

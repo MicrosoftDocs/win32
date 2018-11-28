@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: F87F00ED-C816-49A3-926B-28E3C8330EA2
+api_name: 
+ - IPixEngine5Callbacks
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks"></span>IPixEngine5Callbacks interface

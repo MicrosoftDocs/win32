@@ -7,6 +7,17 @@ MSHAttr:
 title: IObjectTableCallback::GetSupportedColumns method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 148AB80D-9833-4B57-9F34-CEDFFF8E905A
+api_name: 
+ - IObjectTableCallback.GetSupportedColumns
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iobjecttablecallback_getsupportedcolumns_dword_objecttablecolumnid_arr_bstr_arr"></span>IObjectTableCallback::GetSupportedColumns method

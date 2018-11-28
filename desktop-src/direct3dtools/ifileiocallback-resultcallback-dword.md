@@ -7,6 +7,17 @@ MSHAttr:
 title: IFileIOCallback::ResultCallback method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: E4418A63-47C6-4F12-94FA-0F1B5465FE84
+api_name: 
+ - IFileIOCallback.ResultCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ifileiocallback_resultcallback_dword"></span>IFileIOCallback::ResultCallback method

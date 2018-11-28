@@ -7,6 +7,17 @@ MSHAttr:
 title: IFileIOCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: F9C5E117-310C-4769-B78D-9A779A52EAE7
+api_name: 
+ - IFileIOCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ifileiocallback"></span>IFileIOCallback interface

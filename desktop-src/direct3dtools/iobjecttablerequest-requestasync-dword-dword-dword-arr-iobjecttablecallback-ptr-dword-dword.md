@@ -7,6 +7,17 @@ MSHAttr:
 title: IObjectTableRequest::RequestAsync method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: EE40F584-CDDE-465D-B4CB-A98B917DD0EE
+api_name: 
+ - IObjectTableRequest.RequestAsync
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.iobjecttablerequest_requestasync_dword_dword_dword_arr_iobjecttablecallback_ptr_dword_dword"></span>IObjectTableRequest::RequestAsync method

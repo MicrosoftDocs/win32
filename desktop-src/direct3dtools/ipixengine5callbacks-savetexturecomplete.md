@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixEngine5Callbacks::SaveTextureComplete method
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 84B51B52-FC30-4920-9237-91312370C10B
+api_name: 
+ - IPixEngine5Callbacks.SaveTextureComplete
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixengine5callbacks_savetexturecomplete"></span>IPixEngine5Callbacks::SaveTextureComplete method

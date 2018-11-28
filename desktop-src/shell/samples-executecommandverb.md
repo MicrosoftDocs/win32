@@ -3,6 +3,13 @@ Description: Demonstrates how to implement a Shell verb using the ExecuteCommand
 title: Execute Command Verb Sample
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 0418318A-3E62-4690-AFB3-9B4A391C537E
+api_name: 
+api_type: 
+api_location: 
+topic_type: 
+ - kbArticle
+
 ---
 
 # Execute Command Verb Sample

@@ -7,6 +7,17 @@ MSHAttr:
 title: IPixErrorCallback interface
 ms.topic: interface
 ms.date: 05/31/2018
+ms.assetid: 2FEAB4CF-80C8-4A3F-9D62-DFBAB34DE8C8
+api_name: 
+ - IPixErrorCallback
+api_type: 
+ - COM
+api_location: 
+ - vspixengine.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # <span id="vspixengine.ipixerrorcallback"></span>IPixErrorCallback interface

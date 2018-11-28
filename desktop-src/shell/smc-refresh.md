@@ -3,6 +3,17 @@ Description: Sends notification that the menus have completely refreshed and you
 title: SMC_REFRESH message
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 8c79d9d5-b7dc-4271-9edb-93b40606c9be
+api_name: 
+ - SMC_REFRESH
+api_type: 
+ - HeaderDef
+api_location: 
+ - Shobjidl.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # SMC\_REFRESH message

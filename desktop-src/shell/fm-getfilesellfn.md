@@ -12,6 +12,17 @@ api_type:
 - HeaderDef
 api_location: 
 - Wfext.h
+ms.assetid: 461fd171-d47f-41d6-953e-8e497e023ab1
+api_name: 
+ - FM_GETFILESELLFN
+api_type: 
+ - HeaderDef
+api_location: 
+ - Wfext.h
+topic_type: 
+ - APIRef
+ - kbSyntax
+
 ---
 
 # FM\_GETFILESELLFN message
