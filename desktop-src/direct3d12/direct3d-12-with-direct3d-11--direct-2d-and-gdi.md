@@ -1,12 +1,12 @@
 ---
-title: Direct3D 12 Interop
+title: Direct3D 12 interop
 description: D3D12 can be used to write componentized applications.
 ms.assetid: 51F7E715-82B6-48D8-A06A-CBBEDF6968F5
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct3D 12 Interop
+# Direct3D 12 interop
 
 D3D12 can be used to write componentized applications.
 
@@ -87,18 +87,5 @@ Interop is a work in progress.
 
 ## Related topics
 
-<dl> <dt>
-
-[Understanding Direct3D 12](directx-12-getting-started.md)
-</dt> <dt>
-
-[Working with Direct3D 11, Direct3D 10 and Direct2D](direct3d-12-interop.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Understanding Direct3D 12](directx-12-getting-started.md)
+* [Working with Direct3D 11, Direct3D 10 and Direct2D](direct3d-12-interop.md)
