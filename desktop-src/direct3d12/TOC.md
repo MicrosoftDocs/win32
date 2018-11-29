@@ -47,7 +47,7 @@
 #### [Capability Querying](capability-querying.md)
 #### [Resource Binding in HLSL](resource-binding-in-hlsl.md)
 #### [UMA Optimizations: CPU Accessible Textures and Standard Swizzle](default-texture-mapping.md)
-#### [Typed Unordered Access View Loads](typed-unordered-access-view-loads.md)
+#### [Typed unordered access view loads](typed-unordered-access-view-loads.md)
 #### [Volume Tiled Resources](volume-tiled-resources.md)
 #### [Subresources](subresources.md)
 ### [Memory Management in Direct3D 12](memory-management.md)
