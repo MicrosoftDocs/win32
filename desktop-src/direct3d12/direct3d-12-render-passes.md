@@ -56,7 +56,7 @@ At the start of a render pass, you declare bindings to your render target(s) and
 You declare these bindings in a call to [**ID3D12GraphicsCommandList4::BeginRenderPass**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass).
 
 ```cppwinrt
-void render_passes(winrt::com_ptr<::ID3D12GraphicsCommandList4> const& pIGCL4,
+void render_passes(::ID3D12GraphicsCommandList4 * pIGCL4,
     D3D12_CPU_DESCRIPTOR_HANDLE const& rtvCPUDescriptorHandle,
     D3D12_CPU_DESCRIPTOR_HANDLE const& dsvCPUDescriptorHandle)
 {
@@ -172,7 +172,7 @@ A render pass can be both resuming and suspending. In the multi-threaded example
 You can call [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) to query the extent to which a device driver and/or the hardware efficiently supports render passes.
 
 ```cppwinrt
-D3D12_RENDER_PASS_TIER get_render_passes_tier(winrt::com_ptr<::ID3D12Device> const& pIDevice)
+D3D12_RENDER_PASS_TIER get_render_passes_tier(::ID3D12Device * pIDevice)
 {
     D3D12_FEATURE_DATA_D3D12_OPTIONS5 featureSupport{};
     winrt::check_hresult(
