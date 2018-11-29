@@ -894,6 +894,126 @@
       "source_path": "desktop-src/xinput/index.md",
       "redirect_url": "/windows/desktop/xinput/xinput-game-controller-apis-portal",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dcompile.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcompile",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dcompile2.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcompile2",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dcompilefromfile.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dcompressshaders.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcompressshaders",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dcreateblob.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcreateblob",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3ddisassemble.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3ddisassemble10effect.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble10effect",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3ddisassemble11trace.md",
+      "redirect_url": "/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-d3ddisassemble11trace",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3ddisassembleregion.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3ddisassembleregion",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dgetblobpart.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dgetdebuginfo.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dgetdebuginfo",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dgetinputandoutputsignatureblob.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dgetinputsignatureblob.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dgetinputsignatureblob",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dgetoutputsignatureblob.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dgetoutputsignatureblob",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dgettraceinstructionoffsets.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dgettraceinstructionoffsets",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dpreprocess.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dpreprocess",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dreadfiletoblob.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dreadfiletoblob",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dreflect.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dreflect",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dsetblobpart.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dsetblobpart",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dstripshader.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dstripshader",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dwriteblobtofile.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dwriteblobtofile",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3d-shader-data.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/ns-d3dcompiler-_d3d_shader_data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3d-blob-part.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/direct3dhlsl/d3dcompiler-strip-flags.md",
+      "redirect_url": "/windows/desktop/api/d3dcompiler/ne-d3dcompiler-d3dcompiler_strip_flags",
+      "redirect_document_id": true
     }
   ]
 }
