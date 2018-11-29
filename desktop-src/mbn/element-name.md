@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 260ae6ea-2386-4473-9376-74c53addd8f3
 api_name: 
- - Name \(in type\: Branding\)
+ - Name
 api_type: 
  - Schema
 api_location: 
