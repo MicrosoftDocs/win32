@@ -16,4 +16,15 @@ The **Reset** method resets to the beginning of enumeration sequence.
 
 
 ```C++
+HRESULT Reset();
+```
 
+## Parameters
+This method has no parameters.
+
+## Return value
+This method can return one of these values.
+
+| Value | Meaning                                                       |
+|-------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| <dl> <dt>**S\_OK**</dt> </dl>      | Method succeeded. <br/>         |
