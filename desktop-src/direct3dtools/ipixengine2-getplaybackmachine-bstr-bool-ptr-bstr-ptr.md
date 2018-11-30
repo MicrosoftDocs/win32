@@ -28,6 +28,10 @@ Gets information about the current playback machine.
 
 
 ```C++
+HRESULT GetPlaybackMachine(
+   BSTR   logFile,
+   BOOL * pUseAuthentication,
+   BSTR * pMachine
 );
 ```
 

@@ -16,6 +16,8 @@ The **get\_LoopbackMode** method gets the multicast loopback mode.
 
 
 ```C++
+HRESULT get_LoopbackMode(
+  [out] MULTICAST_LOOPBACK_MODE *pMode
 );
 ```
 

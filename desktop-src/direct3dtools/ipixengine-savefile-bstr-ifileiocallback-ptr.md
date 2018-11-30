@@ -28,6 +28,9 @@ Saves the graphics log to the specified location.
 
 
 ```C++
+HRESULT SaveFile(
+   BSTR             FileName,
+   IFileIOCallback* pFileIOCallback
 );
 ```
 

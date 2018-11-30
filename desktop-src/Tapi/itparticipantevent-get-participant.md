@@ -16,6 +16,8 @@ The **get\_Participant** method gets a pointer to an array of [**ITParticipant**
 
 
 ```C++
+HRESULT get_Participant(
+  [out] ITParticipant **ppParticipant
 );
 ```
 

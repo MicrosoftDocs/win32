@@ -16,6 +16,8 @@ The **get\_NetworkType** method gets the network type.
 
 
 ```C++
+HRESULT get_NetworkType(
+  [out] BSTR *ppNetworkType
 );
 ```
 

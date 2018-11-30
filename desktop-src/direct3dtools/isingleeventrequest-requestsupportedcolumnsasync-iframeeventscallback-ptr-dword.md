@@ -28,6 +28,9 @@ Not used.
 
 
 ```C++
+HRESULT RequestSupportedColumnsAsync(
+   IFrameEventsCallback * requestCallback,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

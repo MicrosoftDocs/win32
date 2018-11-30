@@ -16,6 +16,9 @@ The **SetPhoneNumbers** method sets an array of phone numbers associated with a 
 
 
 ```C++
+HRESULT SetPhoneNumbers(
+  [in] VARIANT Numbers,
+  [in] VARIANT Names
 );
 ```
 

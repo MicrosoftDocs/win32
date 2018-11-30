@@ -28,6 +28,16 @@ An asynchronous request to get preview images for the graphics pipeline stages w
 
 
 ```C++
+HRESULT RequestAsync(
+   EventID                   eventID,
+   DWORD                     numStages,
+   PipeLineStagesID []       count1_stageIds,
+   DWORD                     width,
+   DWORD                     height,
+   IPipeLineStagesCallback * requestCallback,
+   BOOL                      getMeshData,
+   DWORD                     requestCookie,
+   DWORD                     progressIntervalMsecs
 );
 ```
 

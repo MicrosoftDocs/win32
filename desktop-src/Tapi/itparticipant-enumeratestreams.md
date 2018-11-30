@@ -16,6 +16,8 @@ The **EnumerateStreams** method enumerates streams currently with the participan
 
 
 ```C++
+HRESULT EnumerateStreams(
+  [out] IEnumStream **ppEnumStream
 );
 ```
 

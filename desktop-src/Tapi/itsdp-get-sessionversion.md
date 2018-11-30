@@ -16,6 +16,8 @@ The **get\_SessionVersion** method gets the 32-bit (ideally Network Time Protoco
 
 
 ```C++
+HRESULT get_SessionVersion(
+  [out] DOUBLE *pSessionVersion
 );
 ```
 

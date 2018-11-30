@@ -28,6 +28,9 @@ Passes resources to the engine, such as strings for error messages.
 
 
 ```C++
+HRESULT SetupResources(
+   ResourcePair [] count1_resources,
+   UINT            count
 );
 ```
 

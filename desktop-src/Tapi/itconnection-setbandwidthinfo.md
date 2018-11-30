@@ -16,6 +16,9 @@ The **SetBandwidthInfo** method sets the bandwidth information.
 
 
 ```C++
+HRESULT SetBandwidthInfo(
+  [in] BSTR   pModifier,
+  [in] DOUBLE Bandwidth
 );
 ```
 

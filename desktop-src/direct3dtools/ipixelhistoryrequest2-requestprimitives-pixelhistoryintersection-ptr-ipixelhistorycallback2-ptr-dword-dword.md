@@ -28,6 +28,11 @@ Requests a list of primitives from a particular intersection. For more informati
 
 
 ```C++
+HRESULT RequestPrimitives(
+   PixelHistoryIntersection * intersection,
+   IPixelHistoryCallback2 *   requestCallback,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

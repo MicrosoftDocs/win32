@@ -16,6 +16,9 @@ The **GetEmailNames** method gets an array of e-mail names associated with the c
 
 
 ```C++
+HRESULT GetEmailNames(
+  [out] VARIANT *pAddresses,
+  [out] VARIANT *pNames
 );
 ```
 

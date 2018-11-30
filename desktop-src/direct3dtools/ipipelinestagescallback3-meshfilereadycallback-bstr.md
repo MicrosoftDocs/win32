@@ -28,6 +28,8 @@ A callback that notifies the host of Mesh information written by the associated 
 
 
 ```C++
+HRESULT MeshFileReadyCallback(
+   BSTR meshFilename
 );
 ```
 

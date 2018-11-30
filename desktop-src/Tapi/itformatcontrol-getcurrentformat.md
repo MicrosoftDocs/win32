@@ -16,6 +16,8 @@ The **GetCurrentFormat** method retrieves the media format of the current stream
 
 
 ```C++
+HRESULT GetCurrentFormat(
+  [out] AM_MEDIA_TYPE **ppMediaType
 );
 ```
 

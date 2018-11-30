@@ -28,6 +28,11 @@ Frees a texture and notifies the host asynchronously.
 
 
 ```C++
+HRESULT FreeTextureAsync(
+   UINT                  textureId,
+   IPixEngine5Callbacks* callbacks,
+   DWORD                 requestCookie,
+   DWORD                 progressIntervalMsecs
 );
 ```
 

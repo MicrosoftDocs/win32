@@ -16,6 +16,9 @@ The **SetEmailNames** method sets an array of e-mail addresses associated with t
 
 
 ```C++
+HRESULT SetEmailNames(
+  [in] VARIANT Addresses,
+  [in] VARIANT Names
 );
 ```
 

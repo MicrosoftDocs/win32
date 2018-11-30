@@ -16,6 +16,8 @@ The **get\_Count** method gets the number of items in the collection.
 
 
 ```C++
+HRESULT get_Count(
+  [out] LONG *pVal
 );
 ```
 

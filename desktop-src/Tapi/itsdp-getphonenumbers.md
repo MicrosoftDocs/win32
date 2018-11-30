@@ -16,6 +16,9 @@ The **GetPhoneNumbers** method gets an array of phone numbers associated with a 
 
 
 ```C++
+HRESULT GetPhoneNumbers(
+  [out] VARIANT *pNumbers,
+  [out] VARIANT *pNames
 );
 ```
 

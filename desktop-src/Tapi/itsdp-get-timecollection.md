@@ -16,6 +16,8 @@ The **get\_TimeCollection** method gets a pointer to an [**ITTimeCollection**](i
 
 
 ```C++
+HRESULT get_TimeCollection(
+  [out] ITTimeCollection **ppTimeCollection
 );
 ```
 

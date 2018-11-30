@@ -16,6 +16,8 @@ The **get\_AddressType** method gets the address type.
 
 
 ```C++
+HRESULT get_AddressType(
+  [out] BSTR *ppAddressType
 );
 ```
 

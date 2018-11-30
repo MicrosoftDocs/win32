@@ -28,6 +28,12 @@ Asynchronously passes resources to the engine, such as strings for error message
 
 
 ```C++
+HRESULT InitEngineAsync(
+   ResourcePair []   count1_resources,
+   UINT              count,
+   IVersionCallback* versionCallback,
+   DWORD             requestCookie,
+   DWORD             progressIntervalMsecs
 );
 ```
 

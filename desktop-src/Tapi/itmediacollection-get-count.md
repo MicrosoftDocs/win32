@@ -16,6 +16,8 @@ The **get\_Count** method gets the number of media in the session.
 
 
 ```C++
+HRESULT get_Count(
+  [out] LONG *pVal
 );
 ```
 

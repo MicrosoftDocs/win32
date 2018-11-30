@@ -16,6 +16,8 @@ The **get\_Count** method gets the number of attributes.
 
 
 ```C++
+HRESULT get_Count(
+  [out] LONG *pVal
 );
 ```
 

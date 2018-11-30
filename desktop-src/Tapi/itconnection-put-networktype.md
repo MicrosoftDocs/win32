@@ -16,6 +16,8 @@ The **put\_NetworkType** method sets the network type.
 
 
 ```C++
+HRESULT put_NetworkType(
+  [in] BSTR pNetworkType
 );
 ```
 

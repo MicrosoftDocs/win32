@@ -16,6 +16,9 @@ The **put\_Status** method sets the status of a participant.
 
 
 ```C++
+HRESULT put_Status(
+  [in] ITStream     *pITStream,
+  [in] VARIANT_BOOL fEnable
 );
 ```
 

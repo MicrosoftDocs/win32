@@ -28,6 +28,8 @@ Wait for shutdown of the specified engine (Blocking call).
 
 
 ```C++
+HRESULT WaitForShutdown(
+   IPixEngine * pEngine
 );
 ```
 

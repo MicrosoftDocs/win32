@@ -16,6 +16,8 @@ The **get\_EnumerationIf** method returns the [**IEnumTime**](ienumtime.md) enum
 
 
 ```C++
+HRESULT get_EnumerationIf(
+  [out] IEnumTime **pVal
 );
 ```
 

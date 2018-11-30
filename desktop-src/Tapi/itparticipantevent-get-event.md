@@ -16,6 +16,8 @@ The **get\_Event** method gets a [**PARTICIPANT\_EVENT**](participant-event.md) 
 
 
 ```C++
+HRESULT get_Event(
+  [out] PARTICIPANT_EVENT *pParticipantEvent
 );
 ```
 

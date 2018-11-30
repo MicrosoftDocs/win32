@@ -28,6 +28,14 @@ Requests to get the raw contents of an object (buffer, texture, render target vi
 
 
 ```C++
+HRESULT RequestAsync(
+   EventID                     eventID,
+   DWORD                       RequestedDataUID,
+   BSTR                        File,
+   BSTR                        Format,
+   IBufferObjectDataCallback * requestCallback,
+   DWORD                       requestCookie,
+   DWORD                       progressIntervalMsecs
 );
 ```
 

@@ -28,6 +28,12 @@ Loads a texture from a file and notifies the host asynchronously when it complet
 
 
 ```C++
+HRESULT LoadTextureFromFileAsync(
+   BSTR                  fileName,
+   BSTR                  histogramDataFileName,
+   IPixEngine5Callbacks* callbacks,
+   DWORD                 requestCookie,
+   DWORD                 progressIntervalMsecs
 );
 ```
 

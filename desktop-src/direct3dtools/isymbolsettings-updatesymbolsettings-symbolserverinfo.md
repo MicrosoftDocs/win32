@@ -28,6 +28,8 @@ A request to send debug symbol paths to the local (non-remote) engine.
 
 
 ```C++
+HRESULT UpdateSymbolSettings(
+   SymbolServerInfo symbolServerInfo
 );
 ```
 

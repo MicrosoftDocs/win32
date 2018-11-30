@@ -20,6 +20,9 @@ The alias set on this interface will be used only when there is no other way for
 
 
 ```C++
+HRESULT SetAlias(
+  [in] WCHAR *strAlias,
+  [in] DWORD dwLength
 );
 ```
 

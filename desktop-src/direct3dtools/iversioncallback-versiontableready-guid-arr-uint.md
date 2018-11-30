@@ -28,6 +28,9 @@ A callback function used to notify the host of which interfaces are supported.
 
 
 ```C++
+HRESULT VersionTableReady(
+   GUID [] count1_interfaceIds,
+   UINT    count
 );
 ```
 

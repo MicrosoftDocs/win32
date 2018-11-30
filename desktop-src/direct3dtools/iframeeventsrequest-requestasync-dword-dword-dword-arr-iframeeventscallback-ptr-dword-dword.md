@@ -28,6 +28,13 @@ An asynchronous request to get specified information about a single specified fr
 
 
 ```C++
+HRESULT RequestAsync(
+   DWORD                  frameNumber,
+   DWORD                  numColumns,
+   DWORD []               count1_columns,
+   IFrameEventsCallback * requestCallback,
+   DWORD                  requestCookie,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

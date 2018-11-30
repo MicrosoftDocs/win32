@@ -16,6 +16,13 @@ The **GetRange** method gets the range of valid values for a given [call quality
 
 
 ```C++
+HRESULT GetRange(
+  [in]  CallQualityProperty Property,
+  [out] long                *plMin,
+  [out] long                *plMax,
+  [out] long                *plSteppingDelta,
+  [out] long                *plDefault,
+  [out] TAPIControlFlags    *plFlags
 );
 ```
 

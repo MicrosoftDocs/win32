@@ -28,6 +28,11 @@ A callback that notifies the host of which pipeline stages are used by the draw 
 
 
 ```C++
+HRESULT GetSupportedStages(
+   DWORD            numColumns,
+   PipeLineStage [] count0_pStages,
+   UINT             swapChainWidth,
+   UINT             swapChainHeight
 );
 ```
 

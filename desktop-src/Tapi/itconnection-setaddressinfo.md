@@ -16,6 +16,10 @@ The **SetAddressInfo** method sets the address information.
 
 
 ```C++
+HRESULT SetAddressInfo(
+  [in] BSTR          pStartAddress,
+  [in] LONG          NumAddresses,
+  [in] unsigned char Ttl
 );
 ```
 

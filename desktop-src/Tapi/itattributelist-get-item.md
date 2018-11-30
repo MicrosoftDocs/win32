@@ -16,6 +16,9 @@ The **get\_Item** method returns the attribute specified by the index.
 
 
 ```C++
+HRESULT get_Item(
+  [in]  LONG Index,
+  [out] BSTR *pVal
 );
 ```
 

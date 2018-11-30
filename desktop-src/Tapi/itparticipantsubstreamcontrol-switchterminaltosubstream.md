@@ -16,6 +16,9 @@ The **SwitchTerminalToSubStream** method sets a terminal to the participant subs
 
 
 ```C++
+HRESULT SwitchTerminalToSubStream(
+  [in] ITTerminal  *pITTerminal,
+  [in] ITSubStream *pITSubStream
 );
 ```
 

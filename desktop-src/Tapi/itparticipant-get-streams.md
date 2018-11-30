@@ -16,6 +16,8 @@ The **get\_Streams** method creates a collection of streams associated with the 
 
 
 ```C++
+HRESULT get_Streams(
+  [out] VARIANT *pVariant
 );
 ```
 

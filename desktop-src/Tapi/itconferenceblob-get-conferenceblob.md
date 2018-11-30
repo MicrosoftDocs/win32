@@ -16,6 +16,8 @@ The **get\_ConferenceBlob** method gets a pointer to the textual conference blob
 
 
 ```C++
+HRESULT get_ConferenceBlob(
+  [out] BSTR *ppBlob
 );
 ```
 

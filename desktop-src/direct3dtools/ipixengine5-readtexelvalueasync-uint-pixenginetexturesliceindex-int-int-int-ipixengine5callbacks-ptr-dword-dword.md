@@ -28,6 +28,15 @@ Reads a texel value and returns the result to the host asynchrnously.
 
 
 ```C++
+HRESULT ReadTexelValueAsync(
+   UINT                       textureId,
+   PixEngineTextureSliceIndex sliceIndex,
+   int                        x,
+   int                        y,
+   int                        formatOverride,
+   IPixEngine5Callbacks*      callbacks,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

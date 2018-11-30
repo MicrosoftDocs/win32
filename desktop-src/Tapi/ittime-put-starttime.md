@@ -16,6 +16,8 @@ The **put\_StartTime** method sets the 32-bit NTP (Network Time Protocol) starti
 
 
 ```C++
+HRESULT put_StartTime(
+  [in] DOUBLE Time
 );
 ```
 

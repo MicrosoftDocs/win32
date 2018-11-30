@@ -28,6 +28,10 @@ Gets information about which columns (types of object data) are supported by the
 
 
 ```C++
+HRESULT GetSupportedColumns(
+   DWORD                  numColumns,
+   ObjectTableColumnID [] count0_pIDs,
+   BSTR []                count0_pBstrNames
 );
 ```
 
@@ -36,15 +40,15 @@ Gets information about which columns (types of object data) are supported by the
 *numColumns*   
 The number of columns supported by the object table.
 
-*count0\_pIDs*   
+*count0_pIDs*   
 The IDs of each column supported by the object table.
 
-*count0\_pBstrNames*   
+*count0_pBstrNames*   
 The names of each column, as a COM string, supported by the object table.
 
 ## Return value
 
-If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## Requirements
 

@@ -16,6 +16,9 @@ The **SetEncryptionKey** method sets the encryption key needed to decrypt the se
 
 
 ```C++
+HRESULT SetEncryptionKey(
+  [in] BSTR pKeyType,
+  [in] BSTR *ppKeyData
 );
 ```
 

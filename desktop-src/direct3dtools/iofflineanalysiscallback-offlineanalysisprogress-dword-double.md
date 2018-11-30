@@ -28,6 +28,10 @@ A callback function used to notify the host of offline analysis progress.
 
 
 ```C++
+HRESULT OfflineAnalysisComplete(
+   DWORD   cookie,
+   HRESULT result,
+   BSTR    outputFullFileName
 );
 ```
 

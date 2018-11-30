@@ -16,6 +16,8 @@ The **get\_AttributeList** method gets the list of attributes.
 
 
 ```C++
+HRESULT get_AttributeList(
+  [out] VARIANT *pVal
 );
 ```
 

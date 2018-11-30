@@ -16,6 +16,8 @@ The **EnumerateParticipants** method enumerates participants associated with the
 
 
 ```C++
+HRESULT EnumerateParticipants(
+  [out] IEnumParticipant **ppEnumParticipants
 );
 ```
 

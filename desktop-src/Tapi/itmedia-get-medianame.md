@@ -16,6 +16,8 @@ The **get\_MediaName** method gets the media name. Defined media are audio, vide
 
 
 ```C++
+HRESULT get_MediaName(
+  [out] BSTR *ppMediaName
 );
 ```
 

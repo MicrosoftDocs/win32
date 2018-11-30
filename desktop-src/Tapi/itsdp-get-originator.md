@@ -16,6 +16,8 @@ The **get\_Originator** method gets the conference originator.
 
 
 ```C++
+HRESULT get_Originator(
+  [out] BSTR *ppOriginator
 );
 ```
 

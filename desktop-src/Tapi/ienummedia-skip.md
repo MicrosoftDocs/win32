@@ -16,6 +16,8 @@ The **Skip** method skips over the next specified number of elements in the enum
 
 
 ```C++
+HRESULT Skip(
+  [in] ULONG celt
 );
 ```
 

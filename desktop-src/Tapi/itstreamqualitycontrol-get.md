@@ -16,6 +16,10 @@ The **Get** method retrieves the value of a given [**stream quality property**](
 
 
 ```C++
+HRESULT Get(
+  [in]  StreamQualityProperty Property,
+  [out] long                  *plValue,
+  [out] TAPIControlFlags      *plFlags
 );
 ```
 

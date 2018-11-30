@@ -16,6 +16,8 @@ The **put\_TransportProtocol** method sets the transport protocol. This is speci
 
 
 ```C++
+HRESULT put_TransportProtocol(
+  [in] BSTR pProtocol
 );
 ```
 

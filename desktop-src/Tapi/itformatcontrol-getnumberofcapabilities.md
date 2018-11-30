@@ -16,6 +16,8 @@ The **GetNumberOfCapabilities** method retrieves the number of capabilities asso
 
 
 ```C++
+HRESULT GetNumberOfCapabilities(
+  [out] DWORD *pdwCount
 );
 ```
 

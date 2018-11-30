@@ -16,6 +16,8 @@ The **ReleaseFormat** method releases the structure associated with the format.
 
 
 ```C++
+HRESULT ReleaseFormat(
+  [in] AM_MEDIA_TYPE *pMediaType
 );
 ```
 

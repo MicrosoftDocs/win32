@@ -28,6 +28,14 @@ Loads a texture slice and notifies the host asynchrnously when it completes.
 
 
 ```C++
+HRESULT LoadTextureSliceAsync(
+   UINT                       textureId,
+   PixEngineTextureSliceIndex sliceIndex,
+   int                        formatOverride,
+   BSTR                       histogramDataFileName,
+   IPixEngine5Callbacks*      callbacks,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

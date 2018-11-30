@@ -16,6 +16,8 @@ The **put\_Name** method sets the session name.
 
 
 ```C++
+HRESULT put_Name(
+  [in] BSTR pName
 );
 ```
 

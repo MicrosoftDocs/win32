@@ -28,6 +28,9 @@ A callback that notifies the host of pixel history intersection information retu
 
 
 ```C++
+HRESULT IntersectionsCallback(
+   DWORD                       count,
+   PixelHistoryIntersection [] count0_intersections
 );
 ```
 

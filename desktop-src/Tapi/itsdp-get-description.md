@@ -16,6 +16,8 @@ The **get\_Description** method gets the session description (**BSTR**). This ha
 
 
 ```C++
+HRESULT get_Description(
+  [out] BSTR *ppDescription
 );
 ```
 

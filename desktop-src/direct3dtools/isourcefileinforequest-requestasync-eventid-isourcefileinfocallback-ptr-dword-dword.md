@@ -28,6 +28,11 @@ An asynchronous request to get the source files associated with the callstack of
 
 
 ```C++
+HRESULT RequestAsync(
+   EventID                   eventID,
+   ISourceFileInfoCallback * requestCallback,
+   DWORD                     requestCookie,
+   DWORD                     progressIntervalMsecs
 );
 ```
 

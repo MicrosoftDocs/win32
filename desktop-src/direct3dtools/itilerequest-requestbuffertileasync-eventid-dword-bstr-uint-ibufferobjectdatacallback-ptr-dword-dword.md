@@ -28,6 +28,14 @@ Requests to get the raw contents of a tile.
 
 
 ```C++
+HRESULT RequestBufferTileAsync(
+   EventID                     eventID,
+   DWORD                       RequestedDataUID,
+   BSTR                        File,
+   UINT                        tileIndex,
+   IBufferObjectDataCallback * requestCallback,
+   DWORD                       requestCookie,
+   DWORD                       progressIntervalMsecs
 );
 ```
 
