@@ -28,6 +28,8 @@ Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debug
 
 
 ```C++
+HRESULT BeginDebugLiveShader(
+   DebugShaderRequestInfo * requestInfo
 );
 ```
 

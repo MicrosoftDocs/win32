@@ -16,6 +16,10 @@ The **SetQOSApplicationID** method sets the QOS identifier for the application.
 
 
 ```C++
+HRESULT SetQOSApplicationID(
+  [in] BSTR pApplicationID,
+  [in] BSTR pApplicationGUID,
+  [in] BSTR pSubIDs
 );
 ```
 

@@ -16,6 +16,8 @@ The **put\_MachineAddress** method sets the machine address of the originating h
 
 
 ```C++
+HRESULT put_MachineAddress(
+  [in] BSTR pMachineAddress
 );
 ```
 

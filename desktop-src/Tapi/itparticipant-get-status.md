@@ -16,6 +16,9 @@ The **get\_Status** method returns a VARIANT\_BOOL indicating participant status
 
 
 ```C++
+HRESULT get_Status(
+  [in]  ITStream     *pITStream,
+  [out] VARIANT_BOOL *pStatus
 );
 ```
 

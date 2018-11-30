@@ -28,6 +28,8 @@ A callback function used to notify the host of results from an action (for examp
 
 
 ```C++
+HRESULT RequestResult(
+   IUnknown * actionResult
 );
 ```
 

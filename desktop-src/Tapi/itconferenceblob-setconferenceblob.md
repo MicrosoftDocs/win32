@@ -16,6 +16,9 @@ The **SetConferenceBlob** method commits changes to the conference blob. To init
 
 
 ```C++
+HRESULT SetConferenceBlob(
+  [in] BLOB_CHARACTER_SET CharacterSet,
+  [in] BSTR               pBlob
 );
 ```
 

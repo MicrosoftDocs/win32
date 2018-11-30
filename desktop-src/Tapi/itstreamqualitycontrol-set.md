@@ -16,6 +16,10 @@ The **Set** method sets the value of a given [**stream quality property**](strea
 
 
 ```C++
+HRESULT Set(
+  [in] StreamQualityProperty Property,
+  [in] long                  lValue,
+  [in] TAPIControlFlags      lFlags
 );
 ```
 

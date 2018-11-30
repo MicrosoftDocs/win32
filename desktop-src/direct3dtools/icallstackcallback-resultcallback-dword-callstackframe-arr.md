@@ -28,6 +28,9 @@ A callback function used to notify the host of call stack information.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD             count,
+   CallStackFrame [] count0_callStackFrameBuffer
 );
 ```
 

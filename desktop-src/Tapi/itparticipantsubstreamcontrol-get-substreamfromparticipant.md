@@ -16,6 +16,9 @@ The **get\_SubStreamFromParticipant** method allows an application to discover w
 
 
 ```C++
+HRESULT get_SubStreamFromParticipant(
+  [in]  ITParticipant *pParticipant,
+  [out] ITSubStream   **ppITSubStream
 );
 ```
 

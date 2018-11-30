@@ -28,6 +28,22 @@ A callback that notifies the host of pipeline stages mesh information returned b
 
 
 ```C++
+HRESULT MeshDataVertCallback(
+   UINT                         numVertices,
+   UINT                         numBufferLayoutEntries,
+   MeshDataBufferLayoutEntry [] count1_entries,
+   UINT                         stride,
+   UINT                         numVBBytes,
+   BYTE []                      count4_pVBData,
+   UINT                         numIBBytes,
+   BYTE []                      count6_pIBData,
+   UINT                         indexSize,
+   UINT                         IBOffset,
+   UINT                         baseVertex,
+   UINT                         minVertex,
+   BOOL                         IBIndexesVB,
+   UINT                         numIndices,
+   UINT                         topology
 );
 ```
 

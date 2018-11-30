@@ -16,6 +16,8 @@ The **get\_SubStream** gets a pointer to an array of [**ITSubStream**](https://m
 
 
 ```C++
+HRESULT get_SubStream(
+  [out] ITSubStream **ppSubStream
 );
 ```
 

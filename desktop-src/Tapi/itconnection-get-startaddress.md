@@ -16,6 +16,8 @@ The **get\_StartAddress** method gets the first address to be used for the sessi
 
 
 ```C++
+HRESULT get_StartAddress(
+  [out] BSTR *ppStartAddress
 );
 ```
 

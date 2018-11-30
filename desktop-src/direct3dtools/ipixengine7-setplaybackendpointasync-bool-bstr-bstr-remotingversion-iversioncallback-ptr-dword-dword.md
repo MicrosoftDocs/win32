@@ -28,6 +28,14 @@ Asynchronously sets the endpoint address used to connect to a remote engine.
 
 
 ```C++
+HRESULT SetPlaybackEndpointAsync(
+   BOOL              bUseAuthentication,
+   BSTR              endpoint,
+   BSTR              sessionKey,
+   RemotingVersion   remoteVersion,
+   IVersionCallback* versionCallback,
+   DWORD             requestCookie,
+   DWORD             progressIntervalMsecs
 );
 ```
 

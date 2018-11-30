@@ -28,6 +28,13 @@ Requests to indicate that the graphics log has new data inside of it.
 
 
 ```C++
+HRESULT OnNewDataAvailable(
+   BOOL    fSessionEnd,
+   BOOL    fUnloadCurFrame,
+   INT64   i64FilePositionStart,
+   INT64   i64FilePositionEnd,
+   INT32   iObjectTableDataSize,
+   BYTE [] count4_pObjectTableData
 );
 ```
 

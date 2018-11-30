@@ -16,6 +16,8 @@ The **get\_\_NewEnum** method returns an enumerator for the collection.
 
 
 ```C++
+HRESULT get__NewEnum(
+  [out] IUnknown **pVal
 );
 ```
 

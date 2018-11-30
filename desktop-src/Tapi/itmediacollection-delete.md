@@ -16,6 +16,8 @@ The **Delete** method deletes the media corresponding to the specified index.
 
 
 ```C++
+HRESULT Delete(
+  [in] LONG Index
 );
 ```
 

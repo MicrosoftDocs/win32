@@ -16,6 +16,9 @@ The **Add** method adds the attribute at the specified index.
 
 
 ```C++
+HRESULT Add(
+  [in] LONG Index,
+  [in] BSTR pAttribute
 );
 ```
 

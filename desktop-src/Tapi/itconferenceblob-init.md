@@ -16,6 +16,10 @@ The **Init** method initializes the conference blob based on a textual string. I
 
 
 ```C++
+HRESULT Init(
+  [in] BSTR               pName,
+  [in] BLOB_CHARACTER_SET CharacterSet,
+  [in] BSTR               pBlob
 );
 ```
 

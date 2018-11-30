@@ -28,6 +28,11 @@ Requests to generate shader trace instructions in a debug request. Trace-based d
 
 
 ```C++
+HRESULT GenerateInstructions(
+   IPixErrorCallback *      errorCallback,
+   DebugShaderRequestInfo * requestInfo,
+   PixelHistoryOperation *  pPixelHistory,
+   IDebugShaderCallback *   pCallback
 );
 ```
 

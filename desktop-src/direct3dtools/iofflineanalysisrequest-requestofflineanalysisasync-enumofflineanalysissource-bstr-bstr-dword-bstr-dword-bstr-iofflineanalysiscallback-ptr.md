@@ -28,6 +28,15 @@ Requests to run offline analysis with the specified source, manifest, parameters
 
 
 ```C++
+HRESULT RequestOfflineAnalysisAsync(
+   enum OFFLINEANALYSISSOURCE analysisSource,
+   BSTR                       manifestXml,
+   BSTR                       parametersXml,
+   DWORD                      cookie,
+   BSTR                       captureFullFileName,
+   DWORD                      frameNumber,
+   BSTR                       outputFullFileName,
+   IOfflineAnalysisCallback * requestCallback
 );
 ```
 

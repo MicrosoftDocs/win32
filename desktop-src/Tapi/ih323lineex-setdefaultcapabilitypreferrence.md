@@ -18,6 +18,10 @@ This method is cumulative. For example, if this method is called first to disabl
 
 
 ```C++
+HRESULT SetDefaultCapabilityPreferrence(
+  [in] DWORD           dwNumCaps,
+  [in] H245_CAPABILITY *pCapabilities,
+  [in] DWORD           *pWeights
 );
 ```
 

@@ -16,6 +16,8 @@ The **get\_Ttl** method gets the [*time to live*](../tapi2/t_tapgloss.md) (TTL) 
 
 
 ```C++
+HRESULT get_Ttl(
+  [out] unsigned char *pTtl
 );
 ```
 

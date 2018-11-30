@@ -28,6 +28,13 @@ Runs an experiment.
 
 
 ```C++
+HRESULT RunExperiment(
+   Experiment               experiment,
+   IRunExperimentCallback * pRequestCallback,
+   INewFramesCallback*      callbacks,
+   IFileIOCallback*         pFileIOCallback,
+   DWORD                    triggersCount,
+   ExperimentTrigger []     count4_triggersBuffer
 );
 ```
 

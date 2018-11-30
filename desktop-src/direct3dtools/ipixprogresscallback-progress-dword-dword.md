@@ -28,6 +28,9 @@ A callback that notifies the host of the progress of an associated request.
 
 
 ```C++
+HRESULT Progress(
+   DWORD current,
+   DWORD maxSize
 );
 ```
 

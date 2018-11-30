@@ -28,6 +28,13 @@ Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.
 
 
 ```C++
+HRESULT RequestAsync(
+   EventID            eventID,
+   DWORD              textureFileptr,
+   BSTR               ddsFilename,
+   ITextureCallback * pRequestCallback,
+   DWORD              requestCookie,
+   DWORD              progressIntervalMsecs
 );
 ```
 

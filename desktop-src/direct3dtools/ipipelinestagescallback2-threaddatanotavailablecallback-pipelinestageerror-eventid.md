@@ -28,6 +28,9 @@ A callback that notifies the host that ThreadData is unavailable for a particula
 
 
 ```C++
+HRESULT ThreadDataNotAvailableCallback(
+   PipeLineStageError error,
+   EventID            eid
 );
 ```
 

@@ -16,6 +16,8 @@ The **put\_Url** method sets the URL.
 
 
 ```C++
+HRESULT put_Url(
+  [in] BSTR pUrl
 );
 ```
 

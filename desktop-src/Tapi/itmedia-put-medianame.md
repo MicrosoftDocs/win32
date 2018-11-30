@@ -16,6 +16,8 @@ The **put\_MediaName** method sets the media name. Defined media are audio, vide
 
 
 ```C++
+HRESULT put_MediaName(
+  [in] BSTR pMediaName
 );
 ```
 

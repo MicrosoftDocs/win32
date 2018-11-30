@@ -28,6 +28,9 @@ A callback function used to notify the host when a texture slice load has been c
 
 
 ```C++
+HRESULT LoadTextureSliceComplete(
+   PixEngineTextureSliceDescriptor sliceDesc,
+   PixEngineHistogram*             histogram
 );
 ```
 

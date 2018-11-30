@@ -16,6 +16,8 @@ The **get\_IsValid** method validates the Session Descriptor Protocol (SDP; see 
 
 
 ```C++
+HRESULT get_IsValid(
+  [out] VARIANT_BOOL *pfIsValid
 );
 ```
 

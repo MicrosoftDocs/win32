@@ -16,6 +16,8 @@ The **put\_Originator** method sets the conference originator.
 
 
 ```C++
+HRESULT put_Originator(
+  [in] BSTR pOriginator
 );
 ```
 

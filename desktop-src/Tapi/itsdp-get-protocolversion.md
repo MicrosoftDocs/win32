@@ -16,6 +16,8 @@ The **get\_ProtocolVersion** method gets the Session Descriptor Protocol (SDP; s
 
 
 ```C++
+HRESULT get_ProtocolVersion(
+  [out] unsigned char *pProtocolVersion
 );
 ```
 

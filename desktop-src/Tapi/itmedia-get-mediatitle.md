@@ -16,6 +16,8 @@ The **get\_MediaTitle** method retrieves a textual title for the media that the 
 
 
 ```C++
+HRESULT get_MediaTitle(
+  [out] BSTR *ppMediaTitle
 );
 ```
 

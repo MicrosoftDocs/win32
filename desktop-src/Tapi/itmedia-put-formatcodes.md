@@ -16,6 +16,8 @@ The **put\_FormatCodes** method sets the list of media payload format codes. The
 
 
 ```C++
+HRESULT put_FormatCodes(
+  [in] VARIANT NewVal
 );
 ```
 

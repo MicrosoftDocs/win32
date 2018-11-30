@@ -16,6 +16,8 @@ The **get\_Bandwidth** method gets the bandwidth value.
 
 
 ```C++
+HRESULT get_Bandwidth(
+  [out] DOUBLE *pBandwidth
 );
 ```
 

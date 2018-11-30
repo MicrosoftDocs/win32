@@ -28,6 +28,9 @@ A callback function used to notify the host about which frames have offline anal
 
 
 ```C++
+HRESULT OfflineAnalaysisReportAvailabilityCallback(
+   DWORD    numFramesWithReports,
+   DWORD [] count0_framesWithReports
 );
 ```
 

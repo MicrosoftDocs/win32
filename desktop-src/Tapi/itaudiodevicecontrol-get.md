@@ -16,6 +16,8 @@ The **Get** method retrieves the value of a given [**audio device property**](au
 
 
 ```C++
+HRESULT get_Call(
+  [out] ITCallInfo **ppCall
 );
 ```
 

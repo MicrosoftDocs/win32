@@ -16,6 +16,8 @@ The **put\_LoopbackMode** sets the multicast loopback mode.
 
 
 ```C++
+HRESULT put_LoopbackMode(
+  [in] MULTICAST_LOOPBACK_MODE mode
 );
 ```
 

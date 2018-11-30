@@ -28,6 +28,11 @@ A callback function used to notify the host of object table information.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD      numElements,
+   DWORD      numRows,
+   DWORD      numColumns,
+   VARIANT [] count0_pRowData
 );
 ```
 

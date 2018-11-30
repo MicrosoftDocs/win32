@@ -28,6 +28,10 @@ Requests to cache offline analysis report of the specified frames.
 
 
 ```C++
+HRESULT RequestOfflineAnalysisReportAvailabilityAsync(
+   DWORD                           numFrames,
+   DWORD []                        count0_frameNumbers,
+   IOfflineAnalysisCacheCallback * requestCallback
 );
 ```
 

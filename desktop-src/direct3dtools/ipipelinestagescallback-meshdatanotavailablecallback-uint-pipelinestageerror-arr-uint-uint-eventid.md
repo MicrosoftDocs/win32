@@ -28,6 +28,12 @@ A callback that notifies the host of which pipeline stages are not able to retur
 
 
 ```C++
+HRESULT MeshDataNotAvailableCallback(
+   UINT                  numberStages,
+   PipeLineStageError [] count0_errors,
+   UINT                  width,
+   UINT                  height,
+   EventID               eid
 );
 ```
 

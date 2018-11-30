@@ -16,6 +16,8 @@ The **put\_SessionVersion** method sets the session version.
 
 
 ```C++
+HRESULT put_SessionVersion(
+  [in] DOUBLE SessionVersion
 );
 ```
 

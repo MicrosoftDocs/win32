@@ -16,6 +16,8 @@ The **Delete** method deletes the attribute at the specified index.
 
 
 ```C++
+HRESULT Delete(
+  [in] LONG Index
 );
 ```
 

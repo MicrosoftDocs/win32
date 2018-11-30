@@ -14,6 +14,9 @@ The **put\_LocalParticipantTypedInfo** method sets participant information.
 
 
 ```C++
+HRESULT put_LocalParticipantTypedInfo(
+  [in] PARTICIPANT_TYPED_INFO InfoType,
+  [in] BSTR                   ppInfo
 );
 ```
 

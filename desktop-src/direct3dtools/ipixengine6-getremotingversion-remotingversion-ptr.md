@@ -28,6 +28,8 @@ Gets the remoting version of the engine.
 
 
 ```C++
+HRESULT GetRemotingVersion(
+   RemotingVersion * pRemoteVersion
 );
 ```
 

@@ -28,6 +28,15 @@ Requests to start a shader debugging session for the specified pipeline stage, p
 
 
 ```C++
+HRESULT BeginDebugShader(
+   IPixErrorCallback *     errorCallback,
+   EventID                 eventID,
+   DWORD                   frameNumber,
+   DWORD                   vertex,
+   Point2D                 pixel,
+   PipeLineStages          stage,
+   PixelHistoryOperation * pPixelHistory,
+   DWORD *                 pDevice
 );
 ```
 

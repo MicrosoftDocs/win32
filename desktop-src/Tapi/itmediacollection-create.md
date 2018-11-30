@@ -16,6 +16,9 @@ The **Create** method creates a new media with default properties, adds it to th
 
 
 ```C++
+HRESULT Create(
+  [in]  LONG    Index,
+  [out] ITMedia **ppMedia
 );
 ```
 

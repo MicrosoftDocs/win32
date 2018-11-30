@@ -18,6 +18,9 @@ If the method is called when the stream is active, the timer will start immediat
 
 
 ```C++
+HRESULT PeriodicUpdatePicture(
+  [in] BOOL  fEnable,
+  [in] DWORD dwInterval
 );
 ```
 

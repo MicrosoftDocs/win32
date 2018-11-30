@@ -16,6 +16,8 @@ The **get\_StartTime** method gets the 32-bit NTP (Network Time Protocol) starti
 
 
 ```C++
+HRESULT get_StartTime(
+  [out] DOUBLE *pTime
 );
 ```
 

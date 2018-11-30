@@ -28,6 +28,13 @@ Requests to get specified information from the object table for the specified ev
 
 
 ```C++
+HRESULT RequestAsync(
+   DWORD                  eventID,
+   DWORD                  numColumns,
+   DWORD []               count1_columns,
+   IObjectTableCallback * requestCallback,
+   DWORD                  requestCookie,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

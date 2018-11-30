@@ -28,6 +28,9 @@ Requests to cancel generation of shader trace instructions in a debug request.
 
 
 ```C++
+HRESULT CancelGenerate(
+   DebugShaderRequestInfo * requestInfo,
+   PixelHistoryOperation *  pPixelHistory
 );
 ```
 

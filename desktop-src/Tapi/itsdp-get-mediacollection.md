@@ -16,6 +16,8 @@ The **get\_MediaCollection** method gets a pointer to the [**ITMediaCollection**
 
 
 ```C++
+HRESULT get_MediaCollection(
+  [out] ITMediaCollection **ppMediaCollection
 );
 ```
 

@@ -16,6 +16,11 @@ The **GetStreamCaps** method retrieves the capabilities associated with a given 
 
 
 ```C++
+HRESULT GetStreamCaps(
+  [in]  DWORD                   dwIndex,
+  [out] AM_MEDIA_TYPE           **ppMediaType,
+  [out] TAPI_STREAM_CONFIG_CAPS *pStreamConfigCaps,
+  [out] BOOL                    *pfEnabled
 );
 ```
 

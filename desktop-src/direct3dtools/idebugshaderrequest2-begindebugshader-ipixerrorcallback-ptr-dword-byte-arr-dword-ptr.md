@@ -28,6 +28,11 @@ Requests to start debugging the specified list of instructions.
 
 
 ```C++
+HRESULT BeginDebugShader(
+   IPixErrorCallback * errorCallback,
+   DWORD               instructionStreamSize,
+   BYTE []             count1_instructionStream,
+   DWORD *             pDevice
 );
 ```
 

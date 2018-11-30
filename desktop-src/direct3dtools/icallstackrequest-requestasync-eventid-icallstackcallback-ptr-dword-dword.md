@@ -28,6 +28,11 @@ An asynchronous request to get the call stack RVAs (relative virtual addresses) 
 
 
 ```C++
+HRESULT RequestAsync(
+   EventID              eventID,
+   ICallStackCallback * requestCallback,
+   DWORD                requestCookie,
+   DWORD                progressIntervalMsecs
 );
 ```
 

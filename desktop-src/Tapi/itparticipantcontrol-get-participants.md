@@ -16,6 +16,8 @@ The **get\_Participants** method creates a collection of participants associated
 
 
 ```C++
+HRESULT get_Participants(
+  [out] VARIANT *pVariant
 );
 ```
 

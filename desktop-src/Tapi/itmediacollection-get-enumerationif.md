@@ -16,6 +16,8 @@ The **get\_EnumerationIf** method gets a pointer to a media enumeration interfac
 
 
 ```C++
+HRESULT get_EnumerationIf(
+  [out] IEnumMedia **pVal
 );
 ```
 

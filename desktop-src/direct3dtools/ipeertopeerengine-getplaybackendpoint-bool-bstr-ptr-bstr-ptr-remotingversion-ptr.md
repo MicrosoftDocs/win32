@@ -28,6 +28,11 @@ Gets the endpoint address of a remote engine.
 
 
 ```C++
+HRESULT GetPlaybackEndpoint(
+   BOOL              bUseAuthentication,
+   BSTR *            pEndpoint,
+   BSTR *            sessionKey,
+   RemotingVersion * pRemoteVersion
 );
 ```
 

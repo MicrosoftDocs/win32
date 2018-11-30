@@ -16,6 +16,9 @@ The **Create** method creates a new [**ITTime**](ittime.md) component.
 
 
 ```C++
+HRESULT Create(
+  [in]  LONG   Index,
+  [out] ITTime **ppTime
 );
 ```
 

@@ -28,6 +28,9 @@ A callback used to notify the host that an object was updated.
 
 
 ```C++
+HRESULT UpdateComplete(
+   UINT    objectAddress,
+   HRESULT result
 );
 ```
 

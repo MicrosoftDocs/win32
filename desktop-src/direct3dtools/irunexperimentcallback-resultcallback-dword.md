@@ -28,6 +28,8 @@ Requests to run an experiment (capture) on the specified process.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD processId
 );
 ```
 

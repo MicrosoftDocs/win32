@@ -16,6 +16,8 @@ The **get\_Url** method gets the URL.
 
 
 ```C++
+HRESULT get_Url(
+  [out] BSTR *ppUrl
 );
 ```
 

@@ -28,6 +28,11 @@ An asynchronous request to get compute shader data for the specified dispatch.
 
 
 ```C++
+HRESULT RequestComputeShaderDataAsync(
+   EventID                    eventID,
+   IPipeLineStagesCallback2 * requestCallback,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

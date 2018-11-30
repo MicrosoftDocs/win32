@@ -28,6 +28,9 @@ A callback function used to notify the host of information about source files as
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD             count,
+   SourceFileInfo [] count0_sourceFileInfoBuffer
 );
 ```
 

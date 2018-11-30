@@ -28,6 +28,10 @@ Sets the current playback machine for the specified graphics log.
 
 
 ```C++
+HRESULT SetPlaybackMachine(
+   BSTR logFile,
+   BOOL bUseAuthentication,
+   BSTR machine
 );
 ```
 

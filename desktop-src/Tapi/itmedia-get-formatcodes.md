@@ -16,6 +16,8 @@ The **get\_FormatCodes** method gets the list of media payload format codes. The
 
 
 ```C++
+HRESULT get_FormatCodes(
+  [out] VARIANT *pVal
 );
 ```
 

@@ -28,6 +28,12 @@ An asynchronous request to get a list of stages used for the specified frame and
 
 
 ```C++
+HRESULT RequestSupportedStagesAsync(
+   DWORD                     frameNumber,
+   EventID                   eventID,
+   IPipeLineStagesCallback * requestCallback,
+   DWORD                     requestCookie,
+   DWORD                     progressIntervalMsecs
 );
 ```
 

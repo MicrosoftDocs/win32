@@ -28,6 +28,9 @@ Ends the experiement and completes the graphics log.
 
 
 ```C++
+HRESULT EndExperiment(
+   BSTR              logFile,
+   IFileIOCallback * pCallback
 );
 ```
 

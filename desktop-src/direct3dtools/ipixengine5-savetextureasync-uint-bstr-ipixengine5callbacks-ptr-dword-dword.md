@@ -28,6 +28,12 @@ Saves a texture.
 
 
 ```C++
+HRESULT SaveTextureAsync(
+   UINT                  textureId,
+   BSTR                  fileName,
+   IPixEngine5Callbacks* callbacks,
+   DWORD                 requestCookie,
+   DWORD                 progressIntervalMsecs
 );
 ```
 

@@ -16,6 +16,8 @@ The **put\_MediaTitle** method sets a textual title for the media that the appli
 
 
 ```C++
+HRESULT put_MediaTitle(
+  [in] BSTR pMediaTitle
 );
 ```
 

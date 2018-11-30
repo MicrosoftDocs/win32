@@ -16,6 +16,10 @@ The **Set** method sets the value of a given [call quality control property](cal
 
 
 ```C++
+HRESULT Set(
+  [in] CallQualityProperty Property,
+  [in] long                lValue,
+  [in] TAPIControlFlags    lFlags
 );
 ```
 

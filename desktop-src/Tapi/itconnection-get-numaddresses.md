@@ -16,6 +16,8 @@ The **get\_NumAddresses** method gets the number of addresses to be used for the
 
 
 ```C++
+HRESULT get_NumAddresses(
+  [out] LONG *pNumAddresses
 );
 ```
 

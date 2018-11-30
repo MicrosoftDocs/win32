@@ -28,6 +28,9 @@ A callback that notifies the host of messages returned by the associated request
 
 
 ```C++
+HRESULT MessagesCallback(
+   DWORD    count,
+   Issue [] count0_messages
 );
 ```
 

@@ -28,6 +28,9 @@ A callback function used to notify the host of graphics log summary information.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD          count,
+   SummaryItem [] count0_summaryItem
 );
 ```
 

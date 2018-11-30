@@ -28,6 +28,10 @@ A callback that notifies the host of generic buffer information returned by the 
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD   size,
+   BYTE [] count0_buffer,
+   BSTR    type
 );
 ```
 

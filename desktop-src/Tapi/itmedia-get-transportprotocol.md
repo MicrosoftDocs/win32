@@ -16,6 +16,8 @@ The **get\_TransportProtocol** method gets the transport protocol. This is speci
 
 
 ```C++
+HRESULT get_TransportProtocol(
+  [out] BSTR *ppProtocol
 );
 ```
 

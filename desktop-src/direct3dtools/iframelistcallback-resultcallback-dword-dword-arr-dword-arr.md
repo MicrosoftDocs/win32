@@ -28,6 +28,10 @@ A callback function used to notify the host of which frames were captured.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD    numFrames,
+   DWORD [] count0_frameNumbers,
+   DWORD [] count0_frameEventIDs
 );
 ```
 

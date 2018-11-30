@@ -28,6 +28,13 @@ Requests to return generic object data that describes an object in the .vsglog f
 
 
 ```C++
+HRESULT RequestAsync(
+   DumperType                   dumperType,
+   EventID                      eventID,
+   DWORD                        RequestedDataUID,
+   IGenericBufferDataCallback * requestCallback,
+   DWORD                        requestCookie,
+   DWORD                        progressIntervalMsecs
 );
 ```
 
