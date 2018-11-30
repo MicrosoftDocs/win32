@@ -17,6 +17,15 @@ A callback function used to notify the host when a texture load has been complet
 
 
 ```C++
+HRESULT LoadTextureFromFileComplete(
+   UINT                               textureId,
+   PixEngineTextureDescriptor         textureDesc,
+   UINT                               numSlices,
+   PixEngineTextureSliceIndex []      count2_sliceIndicies,
+   PixEngineTextureSliceDescriptor [] count2_sliceDescriptors,
+   UINT                               numFormatOverrides,
+   int []                             count5_formatOverrides,
+   PixEngineHistogram*                histogram
 );
 ```
 

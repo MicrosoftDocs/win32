@@ -16,6 +16,8 @@ The **get\_MediaTypes** method gets the [**media types**](tapimediatype--constan
 
 
 ```C++
+HRESULT get_MediaTypes(
+  [out] long *plMediaType
 );
 ```
 

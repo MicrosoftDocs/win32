@@ -28,6 +28,12 @@ A callback function used to notify the host of information about events in the e
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD      frameNumber,
+   DWORD      numElements,
+   DWORD      numRows,
+   DWORD      numColumns,
+   VARIANT [] count1_pRowData
 );
 ```
 

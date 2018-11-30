@@ -17,6 +17,23 @@ Renders a texture to a file and returns the result to the host asynchrnously.
 
 
 ```C++
+HRESULT RenderTextureAsync(
+   UINT                       textureId,
+   PixEngineTextureSliceIndex sliceIndex,
+   int                        formatOverride,
+   float [4]                  lower,
+   float [4]                  upper,
+   BSTR                       shaderFileName,
+   UINT                       numFloatShaderVars,
+   BSTR []                    count6_shaderFloatVarName,
+   float []                   count6_shaderFloatVarValue,
+   UINT                       numBoolShaderVars,
+   BSTR []                    count9_shaderBoolVarName,
+   BOOL []                    count9_shaderBoolVarValue,
+   BSTR                       renderContentFileName,
+   IPixEngine5Callbacks*      callbacks,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

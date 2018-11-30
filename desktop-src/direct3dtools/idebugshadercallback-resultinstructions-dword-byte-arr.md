@@ -28,6 +28,9 @@ A callback that notifies the host of instructrion information returned by the as
 
 
 ```C++
+HRESULT ResultInstructions(
+   DWORD   instructionStreamSize,
+   BYTE [] count0_instructionStream
 );
 ```
 

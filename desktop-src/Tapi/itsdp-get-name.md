@@ -16,6 +16,8 @@ The **get\_Name** method gets the session name. This has to be an ASCII converti
 
 
 ```C++
+HRESULT get_Name(
+  [out] BSTR *ppName
 );
 ```
 

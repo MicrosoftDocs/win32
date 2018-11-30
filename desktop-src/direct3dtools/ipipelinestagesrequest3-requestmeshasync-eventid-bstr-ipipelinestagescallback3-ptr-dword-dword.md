@@ -28,6 +28,12 @@ An asynchronous request to get mesh data from the specified event.
 
 
 ```C++
+HRESULT RequestMeshAsync(
+   EventID                    eventID,
+   BSTR                       meshFilename,
+   IPipeLineStagesCallback3 * requestCallback,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

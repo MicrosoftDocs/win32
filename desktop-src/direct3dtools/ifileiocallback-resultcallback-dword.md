@@ -28,6 +28,8 @@ A callback function used to notify the host of errors while during capture or pl
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD resultState
 );
 ```
 

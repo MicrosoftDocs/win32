@@ -28,6 +28,9 @@ An asynchronous request to get information about what columns (fields) this fram
 
 
 ```C++
+HRESULT RequestSupportedColumnsAsync(
+   IFrameEventsCallback * requestCallback,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

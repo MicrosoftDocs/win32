@@ -28,6 +28,9 @@ A callback that notifies the host of pixel history primitive operation informati
 
 
 ```C++
+HRESULT PrimitivesCallback(
+   DWORD                    count,
+   PixelHistoryOperation [] count0_primitives
 );
 ```
 

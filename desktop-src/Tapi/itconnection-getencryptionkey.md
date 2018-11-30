@@ -16,6 +16,10 @@ The **GetEncryptionKey** method gets the encryption key.
 
 
 ```C++
+HRESULT GetEncryptionKey(
+  [out] BSTR         *ppKeyType,
+  [out] VARIANT_BOOL *pfValidKeyData,
+  [out] BSTR         *ppKeyData
 );
 ```
 

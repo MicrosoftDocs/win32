@@ -26,19 +26,20 @@ A callback that notifies the host of buffer information written to a file by the
 
 ## Syntax
 
-
 ```C++
+HRESULT ResultCallback(
+   BSTR File
 );
 ```
 
 ## Parameters
 
-*File*   
+*File*
 A COM string that contains the pathname of the file where results are written.
 
 ## Return value
 
-If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## Requirements
 

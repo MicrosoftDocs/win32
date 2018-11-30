@@ -28,6 +28,10 @@ An asynchronous request to get the list frames captured in the graphics log.
 
 
 ```C++
+HRESULT RequestAsync(
+   IFrameListCallback * requestCallback,
+   DWORD                requestCookie,
+   DWORD                progressIntervalMsecs
 );
 ```
 

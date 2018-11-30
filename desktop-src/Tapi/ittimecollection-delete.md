@@ -16,6 +16,8 @@ The **Delete** method deletes an [**ITTime**](ittime.md) component.
 
 
 ```C++
+HRESULT Delete(
+  [in] LONG Index
 );
 ```
 

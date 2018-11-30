@@ -24,6 +24,10 @@ A callback function used to notify the host of the engine's progress. This also 
 
 
 ```C++
+HRESULT Status(
+   DWORD dwMillisecondsElapsed,
+   DWORD dwFramesCaptured,
+   DWORD dwFramesElapsed
 );
 ```
 

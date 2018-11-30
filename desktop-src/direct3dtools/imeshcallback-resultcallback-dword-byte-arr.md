@@ -28,6 +28,9 @@ Not used.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD   size,
+   BYTE [] count0_buffer
 );
 ```
 

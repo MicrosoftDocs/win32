@@ -16,6 +16,9 @@ The **get\_Item** method gets an [**ITMedia**](itmedia.md) pointer corresponding
 
 
 ```C++
+HRESULT get_Item(
+  [in]  LONG    Index,
+  [out] ITMedia **pVal
 );
 ```
 

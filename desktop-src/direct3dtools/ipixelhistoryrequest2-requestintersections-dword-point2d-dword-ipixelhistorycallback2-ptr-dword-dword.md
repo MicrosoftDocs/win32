@@ -28,6 +28,13 @@ Requests a list of events that cause a change in the specified pixel, render tar
 
 
 ```C++
+HRESULT RequestIntersections(
+   DWORD                    frameNumber,
+   Point2D                  pixel,
+   DWORD                    renderTargetPtr,
+   IPixelHistoryCallback2 * requestCallback,
+   DWORD                    requestCookie,
+   DWORD                    progressIntervalMsecs
 );
 ```
 

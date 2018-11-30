@@ -28,6 +28,8 @@ Requests to cancel offline analysis in an offline analysis request.
 
 
 ```C++
+HRESULT CancelOfflineAnalysisAsync(
+   DWORD cookie
 );
 ```
 

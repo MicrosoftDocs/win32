@@ -28,6 +28,10 @@ Updates the initial state of an object; for example, a texture or shader.
 
 
 ```C++
+HRESULT UpdateObject(
+   UINT    objectAddress,
+   DWORD   size,
+   BYTE [] count1_buffer
 );
 ```
 

@@ -16,6 +16,10 @@ The **Get** method gets the value of a given [call quality control property](cal
 
 
 ```C++
+HRESULT Get(
+  [in]  CallQualityProperty Property,
+  [out] long                *plValue,
+  [out] TAPIControlFlags    *plFlags
 );
 ```
 

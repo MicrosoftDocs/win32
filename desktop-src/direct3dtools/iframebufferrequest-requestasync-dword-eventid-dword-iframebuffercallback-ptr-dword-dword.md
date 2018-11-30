@@ -28,6 +28,13 @@ Requests framebuffer output of the specified render target, event, and frame.
 
 
 ```C++
+HRESULT RequestAsync(
+   DWORD                  frameNumber,
+   EventID                eventID,
+   DWORD                  renderTargetIndex,
+   IFrameBufferCallback * requestCallback,
+   DWORD                  requestCookie,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

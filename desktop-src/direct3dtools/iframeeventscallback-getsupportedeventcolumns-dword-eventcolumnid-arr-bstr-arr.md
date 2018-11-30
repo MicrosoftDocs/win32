@@ -28,6 +28,10 @@ Gets information about which columns (types of event data) are supported by the 
 
 
 ```C++
+HRESULT GetSupportedEventColumns(
+   DWORD            numColumns,
+   EventColumnID [] count0_pIDs,
+   BSTR []          count0_pBstrNames
 );
 ```
 

@@ -28,6 +28,10 @@ A callback function used to notify the host when a texel value read has been com
 
 
 ```C++
+HRESULT ReadTexelValueComplete(
+   UINT      numChannels,
+   BSTR []   count0_channelNames,
+   double [] count0_channelValues
 );
 ```
 

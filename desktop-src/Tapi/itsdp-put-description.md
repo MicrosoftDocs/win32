@@ -16,6 +16,8 @@ The **put\_Description** method sets the session description.
 
 
 ```C++
+HRESULT put_Description(
+  [in] BSTR pDescription
 );
 ```
 

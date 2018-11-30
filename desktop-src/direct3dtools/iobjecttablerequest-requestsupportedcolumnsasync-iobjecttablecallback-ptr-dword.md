@@ -28,6 +28,9 @@ Requests to get information about what columns (fields) this object table reques
 
 
 ```C++
+HRESULT RequestSupportedColumnsAsync(
+   IObjectTableCallback * requestCallback,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

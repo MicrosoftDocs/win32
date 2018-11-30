@@ -16,6 +16,8 @@ The **get\_SessionId** method gets the 32-bit NTP (Network Time Protocol) value 
 
 
 ```C++
+HRESULT get_SessionId(
+  [out] DOUBLE *pSessionId
 );
 ```
 

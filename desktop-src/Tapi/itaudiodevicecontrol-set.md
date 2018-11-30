@@ -16,6 +16,8 @@ The **Set** method sets the value of a given [**audio device property**](audiode
 
 
 ```C++
+HRESULT get_Error(
+  [out] HRESULT *phrErrorCode
 );
 ```
 

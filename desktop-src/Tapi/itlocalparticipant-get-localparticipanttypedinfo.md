@@ -14,6 +14,9 @@ The **get\_LocalParticipantTypedInfo** method gets participant information, such
 
 
 ```C++
+HRESULT get_LocalParticipantTypedInfo(
+  [in]  PARTICIPANT_TYPED_INFO InfoType,
+  [out] BSTR                   *ppInfo
 );
 ```
 

@@ -16,6 +16,8 @@ The **Clone** method creates another enumerator that contains the same enumerati
 
 
 ```C++
+HRESULT Clone(
+  [out] IEnumMedia **ppEnum
 );
 ```
 

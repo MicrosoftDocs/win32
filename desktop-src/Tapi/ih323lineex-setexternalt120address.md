@@ -16,6 +16,10 @@ The **SetExternalT120Address** method is called by an application to configure a
 
 
 ```C++
+HRESULT SetExternalT120Address(
+  [in] BOOL  fEnable,
+  [in] DWORD dwIP,
+  [in] WORD  wPort
 );
 ```
 

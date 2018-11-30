@@ -16,6 +16,8 @@ The **get\_NumPorts** method gets the number of ports needed for the session. Th
 
 
 ```C++
+HRESULT get_NumPorts(
+  [out] LONG *pNumPorts
 );
 ```
 

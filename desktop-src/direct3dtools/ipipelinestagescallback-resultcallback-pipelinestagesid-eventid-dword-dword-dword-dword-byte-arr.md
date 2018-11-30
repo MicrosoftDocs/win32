@@ -28,6 +28,14 @@ A callback that notifies the host of pipeline stages image information returned 
 
 
 ```C++
+HRESULT ResultCallback(
+   PipeLineStagesID stageId,
+   EventID          eid,
+   DWORD            width,
+   DWORD            height,
+   DWORD            format,
+   DWORD            size,
+   BYTE []          count5_buffer
 );
 ```
 

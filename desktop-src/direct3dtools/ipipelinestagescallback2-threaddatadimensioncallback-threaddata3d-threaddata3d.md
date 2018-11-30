@@ -28,6 +28,9 @@ A callback that notifies the host of the number of threads and groups of the com
 
 
 ```C++
+HRESULT ThreadDataDimensionCallback(
+   ThreadData3D threadGroupCount,
+   ThreadData3D threadGroupSize
 );
 ```
 

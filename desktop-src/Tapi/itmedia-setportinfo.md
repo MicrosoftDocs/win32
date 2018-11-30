@@ -16,6 +16,9 @@ The **SetPortInfo** method sets the 16-bit port value for the first port and the
 
 
 ```C++
+HRESULT SetPortInfo(
+  [in] LONG StartPort,
+  [in] LONG NumPorts
 );
 ```
 

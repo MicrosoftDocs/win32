@@ -16,6 +16,9 @@ The **get\_Item** method gets an item from the collection using an index.
 
 
 ```C++
+HRESULT get_Item(
+  [in]  LONG   Index,
+  [out] ITTime **pVal
 );
 ```
 

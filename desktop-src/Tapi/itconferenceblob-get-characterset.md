@@ -16,6 +16,8 @@ The **get\_CharacterSet** method gets a [**BLOB\_CHARACTER\_SET**](blob-characte
 
 
 ```C++
+HRESULT get_CharacterSet(
+  [out] BLOB_CHARACTER_SET *pCharacterSet
 );
 ```
 

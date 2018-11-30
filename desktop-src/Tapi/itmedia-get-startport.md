@@ -16,6 +16,8 @@ The **get\_StartPort** method gets the 16-bit port value for the first port.
 
 
 ```C++
+HRESULT get_StartPort(
+  [out] LONG *pStartPort
 );
 ```
 

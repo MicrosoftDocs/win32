@@ -28,6 +28,14 @@ A callback that notifies the host of framebuffer information returned by the ass
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD   frameNumber,
+   DWORD   width,
+   DWORD   height,
+   DWORD   renderTargetPtr,
+   double  frameDuraction,
+   DWORD   size,
+   BYTE [] count5_buffer
 );
 ```
 

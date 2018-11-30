@@ -28,6 +28,11 @@ A callback that notifies the host of errors returned by the associated request.
 
 
 ```C++
+HRESULT ErrorListCallback(
+   DWORD    count,
+   Issue [] count0_errorList,
+   DWORD    count,
+   Issue [] count0_warningList
 );
 ```
 

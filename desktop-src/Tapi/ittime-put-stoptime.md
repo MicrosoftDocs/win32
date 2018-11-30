@@ -16,6 +16,8 @@ The **put\_StopTime** method sets the NTP (Network Time Protocol) ending time va
 
 
 ```C++
+HRESULT put_StopTime(
+  [in] DOUBLE Time
 );
 ```
 

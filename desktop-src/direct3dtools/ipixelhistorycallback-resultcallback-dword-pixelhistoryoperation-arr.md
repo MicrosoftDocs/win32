@@ -28,6 +28,9 @@ A callback that notifies the host of pixel history request results.
 
 
 ```C++
+HRESULT ResultCallback(
+   DWORD                    count,
+   PixelHistoryOperation [] count0_pixelHistoryOperation
 );
 ```
 

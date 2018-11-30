@@ -28,6 +28,13 @@ Not used.
 
 
 ```C++
+HRESULT RequestAsync(
+   DWORD                  eventId,
+   DWORD                  numColumns,
+   DWORD []               count1_columns,
+   IFrameEventsCallback * requestCallback,
+   DWORD                  requestCookie,
+   DWORD                  progressIntervalMsecs
 );
 ```
 

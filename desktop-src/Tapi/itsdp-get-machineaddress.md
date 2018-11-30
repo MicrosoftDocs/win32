@@ -16,6 +16,8 @@ The **get\_MachineAddress** method gets the machine address of the originating h
 
 
 ```C++
+HRESULT get_MachineAddress(
+  [out] BSTR *ppMachineAddress
 );
 ```
 

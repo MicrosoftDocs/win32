@@ -16,6 +16,11 @@ The **ReOrderCapabilities** method sets a new order for format capabilities.
 
 
 ```C++
+HRESULT ReOrderCapabilities(
+  [in] DWORD *pdwIndices,
+  [in] BOOL  *pfEnabled,
+  [in] BOOL  *pfPublicize,
+  [in] DWORD dwNumIndices
 );
 ```
 

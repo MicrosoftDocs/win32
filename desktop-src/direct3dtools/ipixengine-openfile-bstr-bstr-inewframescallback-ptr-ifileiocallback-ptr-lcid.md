@@ -28,6 +28,12 @@ Opens a graphics log.
 
 
 ```C++
+HRESULT OpenFile(
+   BSTR                FileName,
+   BSTR                registryBoot,
+   INewFramesCallback* callbacks,
+   IFileIOCallback*    pFileIOCallback,
+   LCID                uiLocale
 );
 ```
 

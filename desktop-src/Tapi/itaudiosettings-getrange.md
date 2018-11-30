@@ -16,6 +16,8 @@ The **GetRange** method retrieves the range of valid values for a given [**audio
 
 
 ```C++
+HRESULT get_Terminal(
+  [out] ITTerminal **ppTerminal
 );
 ```
 

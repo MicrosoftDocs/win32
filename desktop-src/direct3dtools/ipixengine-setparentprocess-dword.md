@@ -28,6 +28,8 @@ Not used.
 
 
 ```C++
+HRESULT SetParentProcess(
+   DWORD PID
 );
 ```
 

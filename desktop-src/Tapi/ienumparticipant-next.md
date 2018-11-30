@@ -16,6 +16,10 @@ The **Next** method gets the next specified number of elements in the enumeratio
 
 
 ```C++
+HRESULT Next(
+  [in]  ULONG         celt,
+  [out] ITParticipant **ppElements,
+  [out] ULONG         *pceltFetched
 );
 ```
 

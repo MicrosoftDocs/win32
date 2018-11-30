@@ -28,6 +28,12 @@ An asynchronous request to get whether the compute shader stage was used for the
 
 
 ```C++
+HRESULT RequestComputeShaderStageAsync(
+   DWORD                     frameNumber,
+   EventID                   eventID,
+   IPipeLineStagesCallback * requestCallback,
+   DWORD                     requestCookie,
+   DWORD                     progressIntervalMsecs
 );
 ```
 

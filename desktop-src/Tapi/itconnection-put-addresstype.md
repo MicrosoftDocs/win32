@@ -16,6 +16,8 @@ The **put\_AddressType** method sets the address type.
 
 
 ```C++
+HRESULT put_AddressType(
+  [in] BSTR pAddressType
 );
 ```
 

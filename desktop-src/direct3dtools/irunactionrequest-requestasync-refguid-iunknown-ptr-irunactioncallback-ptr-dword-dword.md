@@ -28,6 +28,12 @@ An asynchronous request to initiate an action (for example, capture a frame) in 
 
 
 ```C++
+HRESULT RequestAsync(
+   REFGUID              action,
+   IUnknown *           actionPayload,
+   IRunActionCallback * requestCallback,
+   DWORD                requestCookie,
+   DWORD                progressIntervalMsecs
 );
 ```
 

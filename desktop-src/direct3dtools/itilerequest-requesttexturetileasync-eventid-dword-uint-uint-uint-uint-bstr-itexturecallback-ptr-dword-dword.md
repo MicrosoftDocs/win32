@@ -28,6 +28,17 @@ Requests to get the contents of a tiled texture as a .DDS (DirectDraw Surface) f
 
 
 ```C++
+HRESULT RequestTextureTileAsync(
+   EventID            eventID,
+   DWORD              textureFileptr,
+   UINT               tileSubresource,
+   UINT               tileX,
+   UINT               tileY,
+   UINT               tileZ,
+   BSTR               ddsFilename,
+   ITextureCallback * pRequestCallback,
+   DWORD              requestCookie,
+   DWORD              progressIntervalMsecs
 );
 ```
 

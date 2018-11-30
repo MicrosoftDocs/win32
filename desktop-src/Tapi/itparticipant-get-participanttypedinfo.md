@@ -16,6 +16,9 @@ The **get\_ParticipantTypedInfo** method gets a **BSTR** representation of the t
 
 
 ```C++
+HRESULT get_ParticipantTypedInfo(
+  [in]  PARTICIPANT_TYPED_INFO InfoType,
+  [out] BSTR                   *ppInfo
 );
 ```
 

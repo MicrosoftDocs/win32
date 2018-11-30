@@ -16,6 +16,8 @@ The **put\_AttributeList** method sets the list of attributes.
 
 
 ```C++
+HRESULT put_AttributeList(
+  [in] VARIANT newVal
 );
 ```
 

@@ -28,6 +28,11 @@ A request to update the initial state of an object; for example, a texture or sh
 
 
 ```C++
+HRESULT UpdateObject(
+   UINT                    objectAddress,
+   DWORD                   size,
+   BYTE []                 count1_buffer,
+   IUpdateObjectCallback * pCallback
 );
 ```
 

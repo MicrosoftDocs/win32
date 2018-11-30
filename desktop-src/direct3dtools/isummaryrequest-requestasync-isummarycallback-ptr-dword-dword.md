@@ -28,6 +28,10 @@ An asynchronous request to get summary information about a graphics log.
 
 
 ```C++
+HRESULT RequestAsync(
+   iSummaryCallback * requestCallback,
+   DWORD              requestCookie,
+   DWORD              progressIntervalMsecs
 );
 ```
 

@@ -28,6 +28,13 @@ Requests a list of pixel history results in the specified pixel, render tartget 
 
 
 ```C++
+HRESULT RequestAsync(
+   DWORD                   frameNumber,
+   Point2D                 pixel,
+   DWORD                   renderTargetPtr,
+   IPixelHistoryCallback * requestCallback,
+   DWORD                   requestCookie,
+   DWORD                   progressIntervalMsecs
 );
 ```
 

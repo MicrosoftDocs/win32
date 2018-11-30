@@ -28,6 +28,10 @@ Connect to another instance of a remote engine on the local machine.
 
 
 ```C++
+HRESULT ConnectToEngine(
+   BOOL          bLegacyConnection,
+   BSTR          runAddress,
+   IPixEngine ** ppEngineCreated
 );
 ```
 

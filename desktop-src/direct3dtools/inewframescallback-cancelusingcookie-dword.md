@@ -28,6 +28,8 @@ A callback that notifies the host of a canceled request by using a cookie that u
 
 
 ```C++
+HRESULT CancelUsingCallback(
+   IUnknown * requestCallback
 );
 ```
 

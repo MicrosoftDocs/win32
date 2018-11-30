@@ -28,6 +28,14 @@ A callback function used to notify the host when a histogram load has been compl
 
 
 ```C++
+HRESULT LoadHistogramAsync(
+   UINT                       textureId,
+   PixEngineTextureSliceIndex sliceIndex,
+   int                        formatOverride,
+   BSTR                       histogramDataFileName,
+   IPixEngine5Callbacks*      callbacks,
+   DWORD                      requestCookie,
+   DWORD                      progressIntervalMsecs
 );
 ```
 

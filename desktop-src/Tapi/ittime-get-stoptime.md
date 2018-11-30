@@ -16,6 +16,8 @@ The **get\_StopTime** method gets the NTP (Network Time Protocol) ending time va
 
 
 ```C++
+HRESULT get_StopTime(
+  [out] DOUBLE *pTime
 );
 ```
 

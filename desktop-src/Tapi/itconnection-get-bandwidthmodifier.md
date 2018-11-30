@@ -16,6 +16,8 @@ The **get\_BandwidthModifier** method gets the bandwidth modifier, which is a si
 
 
 ```C++
+HRESULT get_BandwidthModifier(
+  [out] BSTR *ppModifier
 );
 ```
 
