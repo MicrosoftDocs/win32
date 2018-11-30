@@ -92,3 +92,12 @@ To illustrate the above states, consider the following sequence, given a ProjFS 
 | [Handling View Changes](handling-view-changes.md)                                                           | Describes how to update the client view of a provider's backing store.
 | [Asynchronous Callback Handling](asynchronous-callback-handling.md)                                         | Describes how the provider can asynchronously service callbacks.
 | [Windows Projected File System API Reference](https://docs.microsoft.com/en-us/windows/desktop/api/_projfs) | Reference information for the ProjFS programming interface.
+
+## Additional Resources
+
+|                                                                                                              |                                                                                   |
+|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [RegFS Sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/ProjectedFileSystem) | A sample ProjFS provider that projects the Windows registry into the file system. |
+<!--
+| [ProjFS.Managed API](https://github.com/Microsoft/URL_TBD)                                                   | A .NET wrapper for the ProjFS API.                                                |
+-->
