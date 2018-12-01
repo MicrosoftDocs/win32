@@ -3,12 +3,14 @@ title: Retrieving the Reply from an Upload-Reply Job
 description: To upload data to a server application and have it return data to the client, specify the job as a BG\_JOB\_TYPE\_UPLOAD\_REPLY job.
 ms.assetid: bab28a2c-1e2f-4b76-9dc6-57df26f7efec
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/29/2018
 ---
 
 # Retrieving the Reply from an Upload-Reply Job
 
-If you want to upload data to a server application and have it return data to the client, specify the job as a BG\_JOB\_TYPE\_UPLOAD\_REPLY job. The reply data is available to the client after the job enters the BG\_JOB\_STATE\_TRANSFERRED state. To retrieve the reply, call one of the following methods:
+A BITS Upload-Reply job, in addition to uploading a file to a server, will also examine a reply URL sent as part of the server reply and then automatically follow the reply URL and download a response from it. See the [Ack for Fragment](/windows/desktop/Bits/ack-for-fragment) documentation for more details about the BITS-Reply-URL header value.
+
+Set the job type as BG\_JOB\_TYPE\_UPLOAD\_REPLY to create an Upload-Reply type job. The reply data is available to the client after the job enters the BG\_JOB\_STATE\_TRANSFERRED state. To retrieve the reply, call one of the following methods:
 
 -   [**IBackgroundCopyJob2::GetReplyData**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata)
 

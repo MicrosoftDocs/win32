@@ -3,7 +3,7 @@ title: Peer Caching
 description: Starting with Background Intelligent Transfer Service (BITS) 4.0, the BITS service was extended to allow subnet-level peer caching for downloaded URL data by using Windows BranchCache.
 ms.assetid: 4197eed3-1812-4440-99e7-9462635ef6ad
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/29/2018
 ---
 
 # Peer Caching
@@ -95,6 +95,7 @@ By default, a peer server can serve content to only three clients simultaneously
 > [!Note]  
 > This feature is supported only in domain networks; peer caching is not supported on workgroups or home networks.
 
+See also [Administering the Peer Cache](/windows/desktop/Bits/administering-the-peer-cache)
  
 
  

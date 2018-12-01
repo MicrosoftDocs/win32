@@ -3,14 +3,12 @@ title: BITSAdmin Tool
 description: BITSAdmin is a command-line tool that you can use to create download or upload jobs and monitor their progress.
 ms.assetid: 686d2201-c142-4e1c-a2b1-347d9334caa8
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/26/2018
 ---
 
 # BITSAdmin Tool
 
 BITSAdmin is a command-line tool that you can use to create download or upload jobs and monitor their progress.
-
-The \\Support\\Tools\\Support.cab file on the operating system installation CD contains the BITSAdmin tool. To unpack and install BITSAdmin, run the Setup. exe file in the Tools directory. If you do not have access to the installation CD, you can download the support tools from [Windows XP Service Pack 2 Support Tools](http://go.microsoft.com/fwlink/p/?linkid=84085).
 
 The BITSAdmin tool uses switches to identify the work to perform. Most switches require a *Job* parameter that you set to the job's display name or GUID. Note that a job's display name may not be unique. The **/create** and **/list** switches return a job's GUID.
 

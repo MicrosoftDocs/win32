@@ -3,7 +3,7 @@ title: Using BITS Notification Request/Response Headers
 description: BITS can send the location of the upload file (by reference) to your server application or it can send the upload file in the body of the request (by value).
 ms.assetid: b80f9077-54e7-4d10-909a-dee7d8822627
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/29/2018
 ---
 
 # Using BITS Notification Request/Response Headers
@@ -16,10 +16,10 @@ Server applications that generate unique replies for each client should use by v
 
 For details on the request and response headers used between BITS and your server application, see [Notification Protocol for Server Applications](notification-protocol-for-server-applications.md).
 
-The following JScript example shows how to access the request and response files in a server application that uses by reference notification (BITS passes the location of the files in the headers).
+The following JavaScript example shows how to access the request and response files in a server application that uses by reference notification (BITS passes the location of the files in the headers).
 
 
-```JScript
+```JavaScript
   var fso = new ActiveXObject ("Scripting.FileSystemObject")
   var requestFileName = Request.ServerVariables ("HTTP_BITS-Request-DataFile-Name")
   var responseFileName = Request.ServerVariables ("HTTP_BITS-Response-DataFile-Name")
@@ -51,31 +51,9 @@ The following JScript example shows how to access the request and response files
 If you want to use a different response file than the one specified in BITS-Response-DataFile-Name, call the **Response.AddHeader** method to add the BITS-Static-Response-URL as shown in the following example. If you specify a different response file, do not create the response file specified in BITS-Response-DataFile-Name.
 
 
-```JScript
+```JavaScript
   Response.AddHeader "BITS-Static-Response-URL" "http://myserver/mypath/myfile"
 ```
-
-
-
-The following VBScript example shows how to access the request and response data in a server application that uses by value notification (BITS passes the upload file as a stream of data in the body of the request and receives the response as a stream of data in the body of the response).
-
-
-```VB
-  dim byteCount
-  dim postData
-
-  'Read the posted data.
-  byteCount = Request.TotalBytes
-  postData = Request.BinaryRead (byteCount)
-
-  'Do something with the data.
-
-  'Write the reply.
-  Response.Write("Some reply")
-```
-
-
-
  
 
  
