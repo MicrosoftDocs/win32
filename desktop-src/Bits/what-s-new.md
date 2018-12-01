@@ -5,7 +5,7 @@ ms.assetid: ef05f2e1-88be-4adb-aca7-a7b1451cfd04
 keywords:
 - what's new BITS
 ms.topic: article
-ms.date: 10/09/2018
+ms.date: 11/29/2018
 ---
 
 # What's New
@@ -41,7 +41,7 @@ The following table identifies what is new for each release of Background Intell
 <td>Version 5.0</td>
 <td>New features:<br/>
 <ul>
-<li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface which adds generic methods for getting and setting BITS job properties to the methods inherited from the <a href="/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4"><strong>IBackgroundCopyJob4</strong></a> interface.<br/> For information on using the new <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface, see <a href="how-to-block-a-bits-job-from-downloading-over-an-expensive-connection">How to control whether a BITS job is allowed to download over an expensive connection</a> and <a href="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job">How to get the last set of HTTP headers received for each file in a BITS download job</a>.<br/></li>
+<li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface which adds generic methods for getting and setting BITS job properties to the methods inherited from the <a href="/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4"><strong>IBackgroundCopyJob4</strong></a> interface.<br/> For information on using the new <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface, see <a href="how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md">How to control whether a BITS job is allowed to download over an expensive connection</a> and <a href="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job.md">How to get the last set of HTTP headers received for each file in a BITS download job</a>.<br/></li>
 <li>Added the <a href="/windows/desktop/api/Bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0003"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
 <li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> interface, which adds methods for getting and setting generic properties on BackgroundCopyFile objects to the methods inherited from the <a href="/windows/desktop/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4"><strong>IBackgroundCopyFile4</strong></a> interface. The addition of generic properties will make it possible to enhance BackgroundCopyFile capabilities in the future without requiring that a new interface be created.</li>
 <li>The first generic property exposed by <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> is the <strong>HttpResponseHeaders</strong> property.</li>
@@ -58,10 +58,10 @@ BITS version 5.0 is also included in Windows 10, where the version of %windir%\S
 <td>Version 4.0</td>
 <td>New features:<br/>
 <ul>
-<li>Peer caching now uses Windows BranchCache. This new peer caching model replaces the model used for BITS version 3.0. For more information, see <a href="peer-caching">Peer Caching</a>.</li>
-<li>Added a more flexible resource access model that allows applications to associate a pair of security tokens to a BITS transfer job. For more information, see <a href="helper-tokens-for-bits-transfer-jobs">Helper tokens for BITS transfer jobs</a>.</li>
-<li>Added the <a href="bits-compact-server">BITS Compact Server</a>, which is a stand-alone HTTP/HTTPS file server that provides the ability to transfer a limited number of large files asynchronously between computers.</li>
-<li>Added more granular bandwidth throttling. For more information, see <a href="group-policies">Group Policies</a>.</li>
+<li>Peer caching now uses Windows BranchCache. This new peer caching model replaces the model used for BITS version 3.0. For more information, see <a href="peer-caching.md">Peer Caching</a>.</li>
+<li>Added a more flexible resource access model that allows applications to associate a pair of security tokens to a BITS transfer job. For more information, see <a href="helper-tokens-for-bits-transfer-jobs.md">Helper tokens for BITS transfer jobs</a>.</li>
+<li>Added the <a href="bits-compact-server.md">BITS Compact Server</a>, which is a stand-alone HTTP/HTTPS file server that provides the ability to transfer a limited number of large files asynchronously between computers.</li>
+<li>Added more granular bandwidth throttling. For more information, see <a href="group-policies.md">Group Policies</a>.</li>
 </ul>
 BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operating systems.<br/> You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see <a href="http://go.microsoft.com/fwlink/p/?linkid=151321">KB968929</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;7.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
@@ -69,13 +69,13 @@ BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operati
 <td>Version 3.0</td>
 <td>New features:<br/>
 <ul>
-<li>Added <a href="peer-caching">Peer Caching</a> which lets you download content from peers and also serve content to peers in a domain network.</li>
+<li>Added <a href="peer-caching.md">Peer Caching</a> which lets you download content from peers and also serve content to peers in a domain network.</li>
 <li>Added <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">notification</a> for when a file is downloaded.</li>
 <li>Added access to the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname">temporary file</a> while the download is in progress.</li>
 <li>Added the ability to control HTTP <a href="/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">redirects</a>.</li>
-<li>Added more <a href="group-policies">group policies</a> to control peer caching and limit download times.</li>
+<li>Added more <a href="group-policies.md">group policies</a> to control peer caching and limit download times.</li>
 <li>Added diagnostic and troubleshooting events to the system event log.</li>
-<li>Added support for <a href="user-account-control-and-bits">User Account Control</a> (UAC).</li>
+<li>Added support for <a href="user-account-control-and-bits.md">User Account Control</a> (UAC).</li>
 <li>On Windows Vista and higher, the default BITS startup type is delayed auto-start.</li>
 </ul>
 <blockquote>
@@ -86,7 +86,7 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="odd">
 <td>Version 2.5</td>
-<td>Added support for custom HTTP headers, certificate-based client authentication for secure HTTP transports, and IPv6. Also added the use of Internet gateway device (IGD) counters to more accurately calculate available <a href="network-bandwidth">bandwidth</a>.<br/> The BITS 2.5 features are available in the Windows Server 2008, Windows Vista, and Windows XP with Service Pack 3 (SP3) operating systems. <br/> You can also download BITS 2.5 for Windows Server 2003 with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows XP with Service Pack 2 (SP2). To download BITS 2.5, go to the <a href="http://go.microsoft.com/fwlink/p/?linkid=93607">Microsoft Download Center</a> and install KB923845.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.7.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for custom HTTP headers, certificate-based client authentication for secure HTTP transports, and IPv6. Also added the use of Internet gateway device (IGD) counters to more accurately calculate available <a href="network-bandwidth.md">bandwidth</a>.<br/> The BITS 2.5 features are available in the Windows Server 2008, Windows Vista, and Windows XP with Service Pack 3 (SP3) operating systems. <br/> You can also download BITS 2.5 for Windows Server 2003 with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows XP with Service Pack 2 (SP2). To download BITS 2.5, go to the <a href="http://go.microsoft.com/fwlink/p/?linkid=93607">Microsoft Download Center</a> and install KB923845.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.7.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 2.0</td>
@@ -107,6 +107,8 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tbody>
 </table>
 
+To light up features in your program based on BITS capabilities, use QueryInterface on (for example) your Job object to see if the Job object allows you to create the version you need. Alternatively, 
+see [Determining the Version of BITS on a Computer](/windows/desktop/Bits/determining-the-version-of-bits-on-a-computer) to convert the QMgr.dll version number into the BITS version.
 
 ## Version 10.1
 

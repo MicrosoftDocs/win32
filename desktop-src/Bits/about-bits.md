@@ -7,7 +7,7 @@ keywords:
 - transfer queue BITS
 - transfer queue BITS , throttle
 ms.topic: article
-ms.date: 10/09/2018
+ms.date: 11/29/2018
 ---
 
 # About BITS
@@ -43,7 +43,7 @@ The following topics provide more detailed information about BITS:
 -   [BITS Startup Type](bits-startup-type.md)
 -   [Internet Connection Sharing](internet-connection-sharing.md)
 -   [Peer Caching](peer-caching.md)
--   [User Account Control and BITS](user-account-control-and-bits.md)
+-   [BITS Security, Tokens, and Administrator Accounts](user-account-control-and-bits.md)
 -   [BITS Compact Server](bits-compact-server.md)
 
 Use the BITS [interfaces](bits-interfaces.md) to write applications that create and monitor transfer jobs. For details on using the BITS interfaces, see [Using BITS](using-bits.md).

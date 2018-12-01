@@ -3,12 +3,12 @@ title: User Account Control and BITS
 description: In Windows Vista, when an administrator user logs onto the computer, two access tokens are created a filtered standard user access token, and a full administrator access token.
 ms.assetid: 02439ab3-b885-4a2f-b507-0c48d2b30b76
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/29/2018
 ---
 
-# User Account Control and BITS
+# BITS Security, Tokens, and Administrator Accounts
 
-In Windows Vista, when an administrator user logs onto the computer, two access tokens are created: a filtered standard user access token, and a full administrator access token. By default, all users, including administrators, log on a Windows Vista computer as standard users. (The exception are guests which log onto the computer with fewer user rights and privileges than standard users.)
+Starting in Windows Vista, when an administrator user logs onto the computer, two access tokens are created: a filtered standard user access token, and a full administrator access token. By default, all users, including administrators, log on a Windows Vista computer as standard users. (The exception are guests which log onto the computer with fewer user rights and privileges than standard users.)
 
 A user in the administrator group can run a process with standard user access or in an elevated state (with administrator privileges). To run in an elevated state, the user can right-click the client and select **Run as administrator...**. BITS will run the job in either state as long as the user is logged onto the computer. However, if the user created the job or took ownership of the job in an elevated state, the user must be in the elevated state to retrieve or modify the job (otherwise, the call fails with Access Denied (0x80070005)). To determine the elevated state of a job, call the [**IBackgroundCopyJob4::GetOwnerElevationState**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerelevationstate) method.
 

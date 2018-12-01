@@ -18,9 +18,9 @@ Background Intelligent Transfer Service (BITS) uses the following Group Policies
 
 **To enable a BITS policy**
 
-1.  Open Group Policy by entering **gpedit.msc /gpcomputer:"***ComputerName***"** in the **Run** window or at the command prompt in an MS-DOS window.
+1.  Open Group Policy by entering **gpedit.msc /gpcomputer:"***ComputerName***"** in the **Run** window or at the command prompt in a CMD window.
 2.  BITS policies are located under **Computer Configuration**, **Administrative Templates**, **Network**, **Background Intelligent Transfer Service**.
-3.  Right-click the policy and select **Properties**.
+3.  Right-click the policy and select **Edit**.
 4.  Follow the directions for enabling and setting the policy.
 
 The group policies for BITS are located in the registry at **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**BITS**. Note that only those policies that are configured are listed in the registry.
@@ -28,25 +28,21 @@ The group policies for BITS are located in the registry at **HKEY\_LOCAL\_MACHIN
 <table>
 <colgroup>
 <col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 66%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Policy</th>
-<th>Introduced</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>JobInactivityTimeout</td>
-<td>BITS 1.0</td>
+<td>JobInactivityTimeout<br/>BITS 1.0</td>
 <td>By default, BITS maintains information about a job for 90 days. If there is no activity against the job for this period of time, BITS cancels the job. Transfer progress or property changes reset the timer.<br/> You might need to adjust this policy if the user does not log on or maintain a network connection for long periods of time.<br/></td>
 </tr>
 <tr class="even">
-<td>MaxInternetBandwidth</td>
-<td>BITS 2.0</td>
+<td>MaxInternetBandwidth<br/>BITS 2.0</td>
 <td>Limits the network bandwidth that BITS uses for background transfers (this policy does not affect foreground transfers).<br/> Specify a limit to use during a specific time interval and a limit to use at all other times. For example, limit the use of network bandwidth to 10 kilobits per second (Kbps) from 8:00 A.M. to 5:00 P.M. and use all available unused bandwidth the rest of the time.
 <blockquote>
 [!Note]<br />
@@ -55,28 +51,23 @@ Changing the system clock does not affect the bandwidth limitation time interval
 <br/> <br/> Specify the limit in kilobits per second. Base the limit on the size of the network link, not the size of the computer's network interface card (NIC). BITS uses approximately two kilobits if you specify a value less than two kilobits. To prevent BITS transfers from occurring, specify a limit of zero. If you specify a limit of zero, BITS places all background jobs in a transient error state. (The error code is set to BG_E_BLOCKED_BY_POLICY.) BITS places the jobs in the queued state after the time interval expires.<br/> If you disable or do not configure this policy, BITS uses all available unused bandwidth.<br/> Typically, you use this policy to prevent BITS transfers from competing for network bandwidth when the client has a fast network adapter (10 Mbps) but is connected to the network via a slow link (56 Kbps).<br/> For information on how BITS uses network bandwidth, see <a href="network-bandwidth">Network Bandwidth</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>MaxDownloadTime</td>
-<td>BITS 3.0</td>
+<td>MaxDownloadTime<br/>BITS 3.0</td>
 <td>Determines the length of time that BITS can spend actively transferring the files in the job. The default is 90 days.<br/> To override this policy for a specific job, call the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime"><strong>IBackgroundCopyJob4::SetMaximumDownloadTime</strong></a> method.<br/></td>
 </tr>
 <tr class="even">
-<td>MaxJobsPerMachine</td>
-<td>BITS 3.0</td>
+<td>MaxJobsPerMachine<br/>BITS 3.0</td>
 <td>Limits the number of jobs that users can create on the computer. The default is 300 jobs. This policy does not apply to a user with administrator privileges or service accounts.<br/></td>
 </tr>
 <tr class="odd">
-<td>MaxJobsPerUser</td>
-<td>BITS 3.0</td>
+<td>MaxJobsPerUser<br/>BITS 3.0</td>
 <td>Limits the number of jobs that a user can create on the computer. The default is 60 jobs per user. This policy does not apply to a user with administrator privileges or service accounts.<br/></td>
 </tr>
 <tr class="even">
-<td>MaxFilesPerJob</td>
-<td>BITS 3.0</td>
+<td>MaxFilesPerJob<br/>BITS 3.0</td>
 <td>Limits the number of files that a user can add to a job. The default is 200 files per job. This policy does not apply to a user with administrator privileges or service accounts.<br/></td>
 </tr>
 <tr class="odd">
-<td>MaxRangesPerFile</td>
-<td>BITS 3.0</td>
+<td>MaxRangesPerFile<br/>BITS 3.0</td>
 <td>Limits the number of ranges that a user can specify for a file. The default value is 500 ranges. This policy does not apply to a user with administrator privileges or service accounts.<br/></td>
 </tr>
 </tbody>
@@ -87,20 +78,17 @@ BITS uses the following Group Policies to enable and configure how BITS interact
 <table>
 <colgroup>
 <col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 66%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Policy</th>
-<th>Introduced</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>DisableBranchCache</td>
-<td>BITS 4.0</td>
+<td>DisableBranchCache<br/>BITS 4.0</td>
 <td>By default, the Windows BranchCache feature is enabled. Set this policy to prevent BITS clients from transferring content using the Windows BranchCache.<br/>
 <blockquote>
 [!Note]<br />
@@ -116,20 +104,17 @@ BITS uses the following Group Policies to configure bandwidth throttling.
 <table>
 <colgroup>
 <col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 66%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Policy</th>
-<th>Introduced</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>EnableMaintenanceLimits</td>
-<td>BITS 4.0</td>
+<td>EnableMaintenanceLimits<br/>BITS 4.0</td>
 <td>Limits the network bandwidth that BITS uses for background transfers during the maintenance days and hours. Maintenance schedules further limit the network bandwidth that is used for background transfers.<br/> Specify a limit to use for background jobs during a maintenance schedule. For example, if normal priority jobs are currently limited to 256 Kbps on a work schedule, you can further limit the network bandwidth of normal priority jobs to 0 Kbps from 8:00 A.M. to 10:00 A.M. on a maintenance schedule.<br/>
 <blockquote>
 [!Note]<br />
@@ -138,8 +123,7 @@ The bandwidth limits that are set for the maintenance period supersede any limit
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>EnableBandwidthLimits</td>
-<td>BITS 4.0</td>
+<td>EnableBandwidthLimits<br/>BITS 4.0</td>
 <td>Limits the network bandwidth that BITS uses for background transfers during the work and non-work days and hours. The work schedule is defined using a weekly calendar, which consists of days of the week and hours of the day. All hours and days that are not defined in a work schedule are considered non-work hours.<br/> Specify a limit to use for background jobs during a work schedule. For example, you can limit the network bandwidth of low priority jobs to 128 Kbps from 8:00 A.M. to 5:00 P.M. on Monday through Friday, and then set the limit to 512 Kbps for non-work hours.<br/></td>
 </tr>
 </tbody>

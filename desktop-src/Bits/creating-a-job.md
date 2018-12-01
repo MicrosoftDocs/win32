@@ -6,7 +6,7 @@ keywords:
 - transfer job BITS
 - transfer job BITS , creating
 ms.topic: article
-ms.date: 10/04/2018
+ms.date: 11/29/2018
 ---
 
 # Creating a Job
@@ -39,15 +39,15 @@ if (SUCCEEDED(hr))
 
 
 
-To get the latest [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface, call the **IBackgroundCopyJob::QueryInterface** method. The following example shows how to get the [**IBackgroundCopyJob4**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4) interface.
+To get the latest [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface, call the **IBackgroundCopyJob::QueryInterface** method. The following example shows how to get the [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5) interface.
 
 
 ```C++
   HRESULT hr = S_OK;
   IBackgroundCopyJob* pJob = NULL;
-  IBackgroundCopyJob4* pJob4 = NULL;
+  IBackgroundCopyJob5* pJob5 = NULL;
 
-  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob4), (void**)&pJob4);
+  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJob5), (void**)&pJob5);
   pJob->Release();
   if (FAILED(hr))
   {

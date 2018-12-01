@@ -10,7 +10,7 @@ keywords:
 - background file transfer BITS
 - uploading files BITS
 ms.topic: article
-ms.date: 10/09/2018
+ms.date: 11/29/2018
 ---
 
 # Background Intelligent Transfer Service
@@ -20,7 +20,7 @@ ms.date: 10/09/2018
 Background Intelligent Transfer Service (BITS) is used by programmers and system administrators to download files from or upload files to HTTP web servers and SMB file shares. BITS will take the cost of the transfer into consideration, as well as the network usage so that the user's foreground work has as little impact as possible. BITS also handles network interuptions, pausing and automatically resuming transfers, even after a reboot. BITS includes PowerShell cmdlets for creating and managing transfers as well as the BitsAdmin command-line utility.
 
 > [!Note]  
-> BITS can be used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see the knowledge base (KB) article link at the bottom of this page. 
+> BITS can be used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see [Fix Windows Update Issues](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors). 
  
 
 ## Where applicable
@@ -64,9 +64,8 @@ The following are additional resources.
 
 |             |                                                                                                                                                 |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| KB articles | For a list of Knowledge Base (KB) articles for BITS, see [KB331716](http://go.microsoft.com/fwlink/p/?linkid=83988).                            |
-| BITS Blog   | For feature updates, samples, and BITS news, see the [Windows Management Infrastructure Blog](http://go.microsoft.com/fwlink/p/?linkid=155250). |
-| .NET Bits   | For a set of .NET wrappers for the BITS API, see [SharpBITS.NET](http://sharpbits.codeplex.com/), at CodePlex.                                  |
+| .NET Reference DLL   | For information on using BITS from .NET using reference DLLs, see [Calling into BITS from .NET using Reference DLLs](/windows/desktop/Bits/bits-dot-net)      |
+| .NET Wrapper   | For other .NET wrappers for BITS, you can search [nuget](https://www.nuget.org/packages?q=Tags%3A%22BITS%22) for projects tagged with the BITS tag.        |
 
 
 

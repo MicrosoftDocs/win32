@@ -53,7 +53,7 @@ REM SDK directory and the tools directories
 REM This will be different for different versions of
 REM Visual Studio
 
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools\vsdevcmd.bat"
+CALL "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools\vsdevcmd.bat"
 
 REM Run the MIDL command on the desired BITS IDL file
 REM This will generate a TLB file for the TLBIMP command
@@ -61,6 +61,7 @@ REM The IDL file will be different depending on which
 REM set of BITS interfaces you need to use.
 REM Run the MIDL command once per reference file
 REM that you will need to explicitly use.
+PUSHD .
 CD /D "%WindowsSdkDir%Include\%WindowsSDKLibVersion%um"
 
 MIDL  /I ..\shared /out "%BITSTEMP%" bits1_5.idl /dlldata NUL: /header NUL: /iid NUL: /proxy NUL:
@@ -76,6 +77,8 @@ TLBIMP "%BITSTEMP%"\bits4_0.tlb /out: "%BITSTEMP%"\BITSReference4_0.dll
 TLBIMP "%BITSTEMP%"\bits5_0.tlb /out: "%BITSTEMP%"\BITSReference5_0.dll
 TLBIMP "%BITSTEMP%"\bits10_1.tlb /out: "%BITSTEMP%"\BITSReference10_1.dll
 TLBIMP "%BITSTEMP%"\bits10_2.tlb /out: "%BITSTEMP%"\BITSReference10_2.dll
+DEL "%BITSTEMP%"\bits*.tlb
+POPD
 
 ```
 Once these commands are run you will have a set of reference DLLs in the BITSTEMP directory.

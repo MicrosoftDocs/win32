@@ -3,12 +3,12 @@ title: Connecting to the BITS Service
 description: To connect to the BITS service, create an instance of the BackgroundCopyManager object as shown in the following example.
 ms.assetid: 2fa88277-c7a1-4f1c-a63c-e2d27a163249
 ms.topic: article
-ms.date: 10/04/2018
+ms.date: 11/29/2018
 ---
 
 # Connecting to the BITS Service
 
-To connect to the BITS service, create an instance of the BackgroundCopyManager object as shown in the following example.
+To connect to the BITS system service, create an instance of the BackgroundCopyManager object as shown in the following example. The BITS system service is the Windows system service running on the client computer that implements the background transfer capability.
 
 
 ```C++
@@ -79,7 +79,7 @@ CoUninitialize();
 
 <dl> <dt>
 
-[SharpBITS.NET](http://sharpbits.codeplex.com/)
+[Calling into BITS from .NET and C#](/windows/desktop/Bits/bits-dot-net) for BITS
 </dt> </dl>
 
  
