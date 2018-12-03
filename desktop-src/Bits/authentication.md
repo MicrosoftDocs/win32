@@ -16,7 +16,7 @@ It's possible to embed the user name and password in the URL. This is not consid
 
 For [Passport](https://msdn.microsoft.com/library/windows/desktop/aa384067) authentication, BITS supports explicit credentials only, not implicit credentials tied to the account.
 
-For challenge/response authentication, BITS impersonates the user and uses [Snego](https://msdn.microsoft.com/en-us/library/ms679759(v=VS.85).aspx) to determine which challenge/response authentication to use, such as NTLM or the Kerberos protocol. For a list of challenge/response schemes that BITS supports, see [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002).
+For challenge/response authentication, BITS impersonates the user and uses [Snego](https://msdn.microsoft.com/library/ms679759(v=VS.85).aspx) to determine which challenge/response authentication to use, such as NTLM or the Kerberos protocol. For a list of challenge/response schemes that BITS supports, see [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002).
 
 BITS jobs can fail if the virtual directory on the server has anonymous authentication and another authentication scheme enabled and if ACLs protect the virtual directory or download files. For example, a job fails with "access denied" if the virtual directory has anonymous and integrated authentication enabled and the file contains an ACL that allows only Ben to read the file. This occurs because the virtual directory allows anonymous access, so IIS does not explicitly authenticate Ben (Ben's credentials are not used to access the file and access is denied).
 

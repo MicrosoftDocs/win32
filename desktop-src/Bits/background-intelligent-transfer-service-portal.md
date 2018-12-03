@@ -20,7 +20,7 @@ ms.date: 11/29/2018
 Background Intelligent Transfer Service (BITS) is used by programmers and system administrators to download files from or upload files to HTTP web servers and SMB file shares. BITS will take the cost of the transfer into consideration, as well as the network usage so that the user's foreground work has as little impact as possible. BITS also handles network interuptions, pausing and automatically resuming transfers, even after a reboot. BITS includes PowerShell cmdlets for creating and managing transfers as well as the BitsAdmin command-line utility.
 
 > [!Note]  
-> BITS can be used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see [Fix Windows Update Issues](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors). 
+> BITS can be used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see [Fix Windows Update Issues](https://support.microsoft.com/help/10164/fix-windows-update-errors). 
  
 
 ## Where applicable
@@ -31,11 +31,11 @@ Use BITS for applications that need to:
 -   Automatically resume file transfers after network disconnects and computer restarts.
 -   Preserve the responsiveness of other network applications.
 -   Be mindful of the network cost on e.g. roaming networks
--   Optionally work with [BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
+-   Optionally work with [BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
 
 ## Developer audience
 
-BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/en-us/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
+BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
 
 ## BITS versions
 
