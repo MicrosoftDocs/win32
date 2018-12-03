@@ -22,6 +22,8 @@ This topic demonstrates how to build a simple Microsoft DirectComposition visual
 
 ### Prerequisites
 
+Knowledge of:
+
 -   C/C++
 -   Microsoft Win32
 -   Component Object Model (COM)
@@ -36,86 +38,46 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx) method to create the visuals, and the [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx) method to set the bitmap content of the visuals.
 
-> [!Note]  
+> [!NOTE]  
 > In the following example, the first element of the `m_hBitmaps` array contains the bitmap for the root visual, and the remaining elements contain the bitmaps for the child visuals.
 
- 
+```cpp
+#define NUM_VISUALS 4 // number of visuals in the composition
+HBITMAP m_hBitmaps[NUM_VISUALS];
+HRESULT hr = S_OK;
 
+IDCompositionVisual *pVisuals[NUM_VISUALS]{ };
+IDCompositionSurface *pSurface{ nullptr };
 
-```C++
-#define NUM_VISUALS 4       // number of visuals in the composition
-```
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    HBITMAP m_hBitmaps[NUM_VISUALS];</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    HRESULT hr = S_OK;
-
-    IDCompositionVisual *pVisuals[NUM_VISUALS] = { };
-    IDCompositionSurface *pSurface = nullptr;
-    
-    // Create a visual objects and set their content.   
-    for (int i = 0; i < NUM_VISUALS; i++)
+// Create a visual objects and set their content.   
+for (int i = 0; i < NUM_VISUALS; i++)
+{
+    hr = m_pDevice->CreateVisual(&pVisuals[i]);
+    if (SUCCEEDED(hr))
     {
-        hr = m_pDevice->CreateVisual(&pVisuals[i]); 
+        // This application-defined function creates a DirectComposition
+        // surface and renders a GDI bitmap onto the surface. 
+        hr = MyCreateGDIRenderedDCompSurface(m_hBitmaps[i], &pSurface);
+
         if (SUCCEEDED(hr))
         {
-            // This application-defined function creates a DirectComposition
-            // surface and renders a GDI bitmap onto the surface. 
-            hr = MyCreateGDIRenderedDCompSurface(m_hBitmaps[i], &pSurface);
-
-            if (SUCCEEDED(hr))
-            {
-                // Set the bitmap content.  
-                hr = pVisuals[i]->SetContent(pSurface);
-            }
-
-            SafeRelease(&pSurface);
+            // Set the bitmap content.  
+            hr = pVisuals[i]->SetContent(pSurface);
         }
 
-        if (FAILED(hr))
-        {
-            goto Cleanup;
-        }
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+        SafeRelease(&pSurface);
+    }
 
-
+    if (FAILED(hr))
+    {
+        goto Cleanup;
+    }
+}
+```	
 
 The following application defined function shows how to create the Microsoft DirectComposition surface and render a Windows Graphics Device Interface (GDI) bitmap to the surface.
 
-
-```C++
+```cpp
 // MyCreateGDIRenderedDCompSurface - Creates a DirectComposition surface and 
 //   copies the bitmap to the surface. 
 //
@@ -199,62 +161,53 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 }
 ```
 
-
-
 ### Step 3: Set the root visual
 
 Set the horizontal and vertical offsets of the root visual, and then add it to the visual tree by calling the [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx) method.
 
+```cpp
+float xPosRoot = 50.0;
+float yPosRoot = 50.0;
 
-```C++
-    float xPosRoot = 50.0; 
-    float yPosRoot = 50.0; 
+// Set the horizontal and vertical position of the root visual. 
+pVisuals[0]->SetOffsetX(xPosRoot);
+pVisuals[0]->SetOffsetY(yPosRoot);
 
-    // Set the horizontal and vertical position of the root visual. 
-    pVisuals[0]->SetOffsetX(xPosRoot);  
-    pVisuals[0]->SetOffsetY(yPosRoot);  
-
-    // Set the root visual of the visual tree.          
-    hr = m_pCompTarget->SetRoot(pVisuals[0]);  
+// Set the root visual of the visual tree.          
+hr = m_pCompTarget->SetRoot(pVisuals[0]);
 ```
 
-
-
-### Step 4: Add the child visuals and commit the composition
+### Step 4: Add the child visuals, and commit the composition
 
 Use methods exposed by each child visual's [**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx) interface to set the bitmap content and other properties, and then use the root visual's [**IDCompositionVisual::AddVisual**](https://msdn.microsoft.com/en-us/library/Hh449141(v=VS.85).aspx) method to add the child visuals to the root of the visual tree. Call [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx) to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
 
+```cpp
+float xPosChild = 20.0f;
+float yPosChild = 20.0f;
 
-```C++
-    float xPosChild = 20.0f;
-    float yPosChild = 20.0f;
-
-    if (SUCCEEDED(hr))
+if (SUCCEEDED(hr))
+{
+    // Set the positions of the child visuals and add them to the visual tree.
+    for (int i = 1; i < NUM_VISUALS; i++)
     {
-        // Set the positions of the child visuals and add them to the visual tree.
-        for (int i = 1; i < NUM_VISUALS; i++)
-        {
-            pVisuals[i]->SetOffsetX(xPosChild);
-            pVisuals[i]->SetOffsetY(
-                static_cast<float>((yPosChild * i) + (CHILD_BITMAP_HEIGHT * (i - 1))));
+        pVisuals[i]->SetOffsetX(xPosChild);
+        pVisuals[i]->SetOffsetY(
+            static_cast<float>((yPosChild * i) + (CHILD_BITMAP_HEIGHT * (i - 1))));
 
-            // Add the child visuals as children of the root visual.
-            pVisuals[0]->AddVisual(pVisuals[i], TRUE, nullptr);
-        }
+        // Add the child visuals as children of the root visual.
+        pVisuals[0]->AddVisual(pVisuals[i], TRUE, nullptr);
     }
-    
-    // Commit the visual to be composed and displayed.
-    hr = m_pDevice->Commit();  
+}
+
+// Commit the visual to be composed and displayed.
+hr = m_pDevice->Commit();
 ```
-
-
 
 ### Step 5: Free the DirectComposition objects
 
 Free the visual objects as soon as you no longer need them. This next bit of code calls the application-defined [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435) macro to free the visual objects.
 
-
-```C++
+```cpp
 Cleanup:
     // Free the visuals.
     for (int i = 0; i < NUM_VISUALS; i++) 
@@ -263,23 +216,17 @@ Cleanup:
     }
 ```
 
-
-
 Also, remember to free the device and composition target objects before your application exits.
 
-
-```C++
-    SafeRelease(&m_pD3D11Device);
-    SafeRelease(&m_pDevice);
-    SafeRelease(&m_pCompTarget);
+```cpp
+SafeRelease(&m_pD3D11Device);
+SafeRelease(&m_pDevice);
+SafeRelease(&m_pCompTarget);
 ```
-
-
 
 ## Complete example
 
-
-```C++
+```cpp
 // THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
@@ -322,7 +269,7 @@ template<class Interface>
 inline void
 SafeRelease(
     Interface **ppInterfaceToRelease
-    )
+)
 {
     if (*ppInterfaceToRelease != NULL)
     {
@@ -338,7 +285,6 @@ SafeRelease(
 #define Assert(b)
 #endif //DEBUG || _DEBUG
 #endif
-
 
 #ifndef HINST_THISCOMPONENT
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
@@ -375,9 +321,9 @@ private:
     HRESULT OnClientClick();
 
     HRESULT DemoApp::LoadResourceGDIBitmap(
-        PCWSTR resourceName, 
+        PCWSTR resourceName,
         HBITMAP &hbmp
-        );
+    );
     HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionSurface **ppSurface);
 
     static LRESULT CALLBACK WndProc(
@@ -385,32 +331,20 @@ private:
         UINT message,
         WPARAM wParam,
         LPARAM lParam
-        );
+    );
 
- private:
+private:
     HWND m_hwnd;
 
     HBITMAP m_hBitmaps[NUM_VISUALS];
     ID3D11Device *m_pD3D11Device;
     IDCompositionDevice *m_pDevice;
     IDCompositionTarget *m_pCompTarget;
- };
+};
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+```cpp
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
@@ -423,7 +357,7 @@ private:
 // composition, and the three child visuals provide bitmaps that are 
 // composed on top of the root. All bitmaps are GDI.
 
-#include &quot;SimpleVisualTree.h&quot;
+#include "SimpleVisualTree.h"
 
 /******************************************************************
 *                                                                 *
@@ -507,7 +441,7 @@ HRESULT DemoApp::Initialize()
     wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
     wcex.lpszMenuName  = NULL;
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-    wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
+    wcex.lpszClassName = L"DirectCompDemoApp";
 
     RegisterClassEx(&wcex);
 
@@ -526,8 +460,8 @@ HRESULT DemoApp::Initialize()
     }
 
     m_hwnd = CreateWindow(
-        L&quot;DirectCompDemoApp&quot;,
-        L&quot;DirectComposition Demo Application&quot;,
+        L"DirectCompDemoApp",
+        L"DirectComposition Demo Application",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
@@ -621,10 +555,10 @@ HRESULT DemoApp::CreateResources()
 {
     HRESULT hr = S_OK;
 
-    hr = LoadResourceGDIBitmap(L&quot;Background&quot;, m_hBitmaps[0]);
-    hr = LoadResourceGDIBitmap(L&quot;BlkKnight&quot;, m_hBitmaps[1]);
-    hr = LoadResourceGDIBitmap(L&quot;BlkQueen&quot;, m_hBitmaps[2]);
-    hr = LoadResourceGDIBitmap(L&quot;BlkRook&quot;, m_hBitmaps[3]);
+    hr = LoadResourceGDIBitmap(L"Background", m_hBitmaps[0]);
+    hr = LoadResourceGDIBitmap(L"BlkKnight", m_hBitmaps[1]);
+    hr = LoadResourceGDIBitmap(L"BlkQueen", m_hBitmaps[2]);
+    hr = LoadResourceGDIBitmap(L"BlkRook", m_hBitmaps[3]);
    
     return hr;
 }
@@ -908,42 +842,15 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
     SafeRelease(&pDXGISurface);
 
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-
+}
+```
 
 ## Related topics
 
-<dl> <dt>
-
-[**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice)
-</dt> <dt>
-
-[**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx)
-</dt> <dt>
-
-[**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx)
-</dt> <dt>
-
-[**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx)
-</dt> <dt>
-
-[**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx)
-</dt> <dt>
-
-[**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx)
-</dt> <dt>
-
-[**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice)
+* [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx)
+* [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx)
+* [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx)
+* [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx)
+* [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx)
+* [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435)
