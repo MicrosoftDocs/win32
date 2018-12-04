@@ -1,95 +1,68 @@
 ---
 Description: When you want to create a new desktop app, the first decision you make is whether to use the Win32 and COM API or .NET.
 ms.assetid: 82705644-F1F0-40F3-99B1-7A97BFB32831
-title: Choose Your Technology
+title: Choose Your Platform
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/27/2018
 ---
 
-# Choose Your Technology
+# Choose Your Platform
 
-When you want to create a new desktop app, the first decision you make is whether to use the Universal Windows Platform (UWP), .NET (Windows Forms and WPF), or the Windows API (Win32). All of these options let you create desktop apps like Word, Excel, and Photoshop that run in the classic Windows desktop and take full advantage of that environment's specific features.
+When you want to create a new desktop application for Windows PCs, the first decision you make is which application platform to use. All Windows application platforms let you create desktop apps like Word, Excel, and Photoshop that run in the classic Windows desktop and take full advantage of that environment's specific features.
 
-Here are a few of the major differences between these technologies and when they are appropriate to use:
+This article describes the following platforms and helps you determine the best one for your application.
+
+* [UWP, WPF, and Windows Forms](#uwp-wpf-and-windows-forms). These platforms provide managed runtime environments (the Windows Runtime for UWP, and .NET for Windows Forms and WPF) with many benefits, especially in the areas of developer productivity, sophisticated and customizable UI, and application security. Because these frameworks support visual designers and UI markup for rapidly creating UI, they are particularly well-suited for line-of-business applications.
+* [Win32 API](#win32-api). The Win32 API (also called the Windows API) provides a first-class development experience without depending on a managed runtime environment like .NET and WinRT. This makes the Win32 API the platform of choice for applications that need the highest level of performance and direct access to system hardware.
+
+## UWP, WPF, and Windows Forms
+
+For many desktop application scenarios, the Universal Windows Platform (UWP), WPF, and Windows Forms are the best choice. The following table describes the key benefits of each of these platforms.
+
+|  Platform    |     Key benefits      |
+|--------|--------|
+| **UWP** | UWP is a highly customizable platform that uses XAML markup to separate UX (presentation) from code (business logic). It is suitable for desktop applications that that require a sophisticated UI, styles customization, and graphics-intensive scenarios. UWP also has built-in support for the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/) for the default UX experience and provides access to the [Windows Runtime (WinRT) APIs](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide#how-the-universal-windows-platform-relates-to-windows-runtime-apis). By adopting Fluent, UWP automatically supports common input methods such as ink, touch, gamepad, keyboard, and mouse. Not only can you use UWP to create desktop applications for Windows PCs, but UWP is also the only supported platform for Xbox, HoloLens, and Surface Hub applications. UWP is our newest, leading-edge application platform.<br/><br/>For more information about UWP, see [Get started with Windows 10 apps](https://docs.microsoft.com/windows/uwp/get-started/). |
+| **WPF** | WPF is also a highly customizable platform that uses XAML markup to separate UX from code. This platform is designed for desktop applications that require a sophisticated UI, styles customization, and graphics-intensive scenarios. WPF development skills are similar to UWP development skills, so migration from WPF to UWP apps is easier than migration from Windows Forms.<br/><br/>For more information about WPF, see [Getting started (WPF)](https://docs.microsoft.com/dotnet/framework/wpf/getting-started/). |
+| **Windows Forms**      |  Windows Forms excels at enabling developers to quickly get started building applications, even for developers new to the platform. This is a forms-based, rapid application development platform with a large built-in collection of visual and non-visual drag-and-drop controls. Windows Forms does not use XAML, so deciding later to extend your application to UWP entails a complete re-write of your UI.<br/><br/>For more information about Windows Forms, see [Getting started with Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/getting-started-with-windows-forms).    |   
+
+### Platform comparison
+
+The following table compares various characteristics of Windows Forms, WPF, and UWP in detail.
+
+| Feature or scenario  |    UWP     |      WPF     |   Windows Forms  |
+|--------|--------|--------|--------|
+| **Supported versions**      |  Windows 10   |  Windows 7 and later |  Windows 7 and later  |
+| **Languages**      |   C\#, C++/WinRT, C++/CX, VB, JavaScript   |  C\#, C++/CLI (Managed Extensions for C++), F\#, VB |  C\#, C++/CLI (Managed Extensions for C++), F\#, VB   |
+| **UI runtime** |    Native (C++/WinRT and C++/CX) and managed (.NET Native)  |  Managed (.NET Framework)<br/><br/>Support for .NET Core 3 is coming soon  |   Managed (.NET Framework)<br/><br/>Support for .NET Core 3 is coming soon    |
+| **Open source** | [Yes (Windows UI Library)](https://github.com/Microsoft/microsoft-ui-xaml)  |  [Yes](https://github.com/dotnet/wpf) | [Yes](https://github.com/dotnet/winforms)  |
+| **Supports XAML** |   Yes   |  Yes  |   No   |
+| **Strengths**  |  <ul><li>XAML markup for UI</li><li>Rich and customizable UX</li><li>Your existing code bases are .NET Standard compliant</li><li>High DPI support</li><li>Support for multiple input types across Windows devices (including touch, pen, gamepad, mouse, and keyboard)</li><li>Support for Xbox, HoloLens, IoT or Surface Hub</li><li>Support for native C++</li><li>Optimized battery life</li><li>Modern accessibility support (such as screen readers)</li><li>Rich text data capabilities (such as built-in spell check)</li><li>Inking support</li><li>Secure execution via application containers (for example, untrusted content is sandboxed)</li></ul>  |  <ul><li>XAML markup for UI</li><li>Rich and customizable UX</li><li>Large collection of controls from Microsoft and partners</li><li>Dense UI</li><li>Support for Windows 7</li><li>Platform support for input validation</li></ul> | <ul><li>Rapid application development</li><li>WYSIWYG editor for building UI</li><li>Large collection of controls from Microsoft and partners</li><li>Dense UI</li><li>Support for Windows 7</li><li>Keyboard and mouse input</li></ul>          |
+| **Scenarios that have limited support** |  <ul><li>Dense UI (creating a dense UI requires custom styles)<sup>1</sup></li><li>Multiple window support<sup>1</sup></li><li>Platform support for input validation<sup>1</sup></li><li>Windows 7 is not supported</li><li>Some UWP APIs require specific minimum versions of Windows 10</li><li>Full platform support and shell integration (for example, UWP currently doesn't support System Tray integration or full access to all devices)</li><li>Direct access to all files on disk</li><li>ADO.NET</li><li>Existing code-base class libraries that use non-.NET Standard or non-Windows App Certification Kit compliant APIs</li><li>Local network loopback support (that is, if your app needs to communicate with localhost without creating a loopback exemption on the target device)</li><li>Intensive file I/O</li></ul>     |  <ul><li>High DPI support<sup>2</sup></li><li>Touch input<sup>2</sup></li></ul>  |  <ul><li>High DPI support<sup>2</sup></li><li>Touch input<sup>2</sup></li><li>Customizable UI</li><li>Rich graphics and user experiences (such as touch and animations)</li><li>Rich abstraction of views and data models</li></ul>    |   |
+
+<sup>1</sup> We have publicly announced features that will address this scenario in a future release of Windows 10.
+
+<sup>2</sup> Although the platform lacks first-class API support for this scenario, developers can support this scenario with workarounds.
 
 
-|        |        |        |
-|--------|--------|--------|
-| **UWP**      | Languages: C\#, C++, VB, JavaScript<br/><br/>Best if you are targeting Windows 10 and you want unencumbered access to the latest Windows 10 APIs and features. UWP also provides many other benefits of a modern application platform. These include a XAML-based UI model with built-in support for adapting to DPI and screen size changes, a security model in which users explicitly grants apps access to device capabilities, and a clean packaging model that supports clean installations and the ability to publish directly to the Microsoft Store.  <br/> |   <br/> |
-| **.NET (Windows Forms and WPF)**      | Languages: C\#, C++, F\#, VB<br/><br/>Best if you need to target OS versions before Windows 10 and you want to have a higher level of coding productivity than C++ and Win32. You can also share some .NET Framework code and libraries with other Microsoft platforms by using portable class libraries.<br/> |   <br/> |
-| **C++ and Win32** | Languages: C++ with COM<br/><br/>Best if you need to achieve the highest levels of performance or efficiency, access native OS features, or want to target DirectX technologies. C++ and Win32 gets you "closer to the metal," and lets you achieve the best performance for your app by taking direct control over memory allocation and performance-oriented CPU features like SSE or AVX instructions. It is the best way to target DirectX technologies for low-level, high-performance graphics access. You can share C++ code between all types of Windows applications as well as with non-Windows platforms. <br/> |    <br/> |
+## Win32 API
 
-## Choose UWP
+Using the Win32 API with C++ makes it possible to achieve the highest levels of performance and efficiency by taking more control of the target platform with unmanaged code than is possible on a managed runtime environment like WinRT and .NET. However, exercising such a level of control over your application's execution requires greater care and attention to get right, and trades development productivity for runtime performance.
 
-Windows 10 introduced the Universal Windows Platform (UWP), which provides a common app platform for PCs and every other device that runs Windows 10. A UWP app is:
-
-* Engaging: UWP apps use modern features such as controls that support the Fluent Design System, live tiles, push notifications, and user activities to engage users.
-* Secure: UWP apps declare which device resources and data they access. Users must authorize the access.
-* Able to use a common API on PCs and all other devices that run Windows 10.
-* Able to use device specific capabilities and adapt the UI to different device screen sizes, resolutions, and DPI.
-* Available from the Microsoft Store on PCs that run Windows 10.
-* Able to be installed and uninstalled without risk to the machine or incurring "machine rot".
-* Programmable in C#, C++, Visual Basic, and Javascript. For UI, use XAML, HTML, or DirectX.
-
-For more information, see [Get started with Windows 10 apps](https://docs.microsoft.com/windows/uwp/get-started/).
-
-## Choose .NET
-
-.NET provides a consistent, first-class development experience for the desktop, and it offers a higher level of coding productivity than C++ and Win32. .NET allows you to keep developing foundational apps on the desktop and add exciting new experiences, all while using your existing skills and reusing code between devices. If you are looking to create more tailored, platform-appropriate experiences on any device, Visual Studio Industry Partners (VSIP) provide solutions that enable re-using C\# skills and code with non-Windows devices.
-
-In addition to features you expect such as files/streams and network communication, here are a few highlights of what .NET offers to make building applications very productive:
-
--   Runtime productivity and safety such as automatic memory management, type safety, exception handling, and thread management.
--   Two UI stacks: WPF and Windows Forms (see below).
--   Rich collection data types.
--   Data modeling (ADO, LINQ, WCF data services).
--   Language Integrated Query (LINQ).
--   Date and time library.
--   Serialization.
--   Web services.
--   Security and cryptography.
--   Parallel programming library.
-
-**Choose a UI stack:** Desktop applications can choose between two UI stacks. Data-centric applications benefit from data binding features in both for displaying data. The following provides guidance on choosing between the two UI stacks:
-
--   **WPF:** This is the preferred technology for Windows-based desktop applications that require UI complexity, styles customization, and graphics-intensive scenarios for the desktop. WPF also takes advantage of XAML views and simplified asynchronous capabilities (async/await). WPF development skills are similar to UWP development skills, so migration from WPF to UWP apps is easier than migration from Windows Forms.
--   **Windows Forms:** This was the first UI technology in the .NET Framework for building desktop applications. It is still a good fit for many business desktop applications. Windows Forms is easier to use and lighter weight than WPF for simple scenarios. Windows Forms does not use XAML, so deciding later to extend your application to UWP entails a complete re-write of your UI.
-
-**Other capabilities** .NET provides multiple innovations to you to extend your app to new platforms without changes in the architecture. You can often re-use code, and the following .NET features make that easier:
-
--   **Model-View-ViewModel design pattern (MVVM):** Microsoft client platforms (including WPF) make it easy to build applications using the MVVM pattern. With this pattern you get a strong separation of display from application state, logic, and behaviors, which will help you to create clean and maintainable code that can be easily shared between multiple devices.
--   **Portable class libraries:** .NET portable libraries allow binaries to be shared between multiple platforms. Implementing your client logic with .NET portable libraries will greatly simplify the creation of multiple experiences on multiple platforms.
--   **Modernize your user experience:** Concepts that are demanded by today s users can be implemented with the latest innovations on .NET for the desktop. Design principles such as  fast and fluid,   authentically digital,  or  do more with less  can be applied to your existing desktop application by employing a modern UI for your XAML design, carefully using animations, and implementing .NET asynchronous programming extensively.
-
-For further reading and more depth, there is a description of .NET technologies and guidance for various applications in [.NET Technology Guide for Business Applications](http://download.microsoft.com/download/1/6/E/16E9FC39-0D61-4DB8-AADE-9F6950B8BF49/Microsoft_Press_eBook_NET_Technology_Guide_for_Business_Applications.pdf) for which there is a summary.
-
-## Choosing C++ and Win32
-
-C++ provides a first-class development experience across a wide range of platforms, both Windows and non-Windows, without depending on a high-level runtime environment like .NET. This makes C++ the language of choice for portable applications when such runtimes are unavailable or too heavyweight for certain target platforms.
-
-Using C++ and the Win32 API makes it possible to achieve the highest levels of performance and efficiency by taking tighter control of the target platform than the .NET runtime allows. However, exercising such a level of control over your application's execution requires greater care and attention to get right, and trades development productivity for runtime performance.
-
-Here are a few highlights of what C++ offers to enable you to build high-performance applications.
+Here are a few highlights of what the Win32 API and C++ offers to enable you to build high-performance applications.
 
 -   Hardware-level optimizations, including tight control over resource allocation, object lifetimes, data layout, alignment, byte packing, and more.
 -   Access to performance-oriented instruction sets like SSE and AVX through intrinsic functions.
 -   Efficient, type-safe generic programming by using templates.
 -   Efficient and safe containers and algorithms.
--   DirectX, in particular Direct3D and DirectCompute.
+-   DirectX, in particular Direct3D and DirectCompute (note that UWP also offers DirectX interop).
 -   C++ AMP.
 
-### C++ for games and graphics-rich applications
+For more information, see [Get started with Win32 and C++](https://docs.microsoft.com/windows/desktop/LearnWin32/learn-to-program-for-windows) and [Desktop app technologies](https://docs.microsoft.com/windows/desktop/desktop-app-technologies).
 
-If there's one domain where C++ is the clear winner, games is it -- or apps that demand similar levels of graphics and processing performance. C++ is ideally suited to these kinds of apps because it enables the programmer to manage resources and object lifetimes explicitly; it provides access to hardware-level optimization opportunities; it can access DirectX and other performance-oriented Win32 libraries more directly than a managed language; and it makes available a number of quality game development libraries.
+### Win32 and C++ for traditional desktop applications
 
-Even while there are great technologies available for making games that are less performance intensive in managed languages like C\#, the managed environment makes it difficult or impossible to match the level of performance that can be achieved by C++ developers. When absolute performance is the goal or when any overhead is too much--as when bringing big experiences to small devices--C++ is the go-to language.
+When writing a desktop application in C++, you can choose Win32 or MFC for the UI, or a host of third-party application frameworks that also support non-Windows platforms.
 
-### C++ for traditional desktop applications
-
-Writing a traditional, UI-heavy desktop application like a spreadsheet, word processor, or line-of-business application in C++ makes the most sense when the application is computationally intensive, or when there is a substantial amount of existing C++ code that you can use to build it. Otherwise, managed languages have adequate performance and the .NET ecosystem offers increased productivity due to its more-modern application and UI frameworks, and its more-capable standard library.
-
-When writing a desktop application in C++, you can choose MFC or Win32 for the UI, or a host of third-party application frameworks that also support non-Windows platforms.
-
--   **MFC (Microsoft Foundation Class Library):** This is the venerable application framework and UI library that has served Windows developers since 1992. It's a thin C++ wrapper over the handle-based, C-language Win32 API and provides object-oriented interfaces for many of the predefined windows, common controls, and other Windows objects. Although many modern UI frameworks in the .NET ecosystem surpass MFC in convenience, it is still the native UI framework of choice for many C++ developers creating applications for the Windows desktop.
 -   **Win32:** This is the handle-based, C-language API of the Windows platform, including but not limited to UI functionality such as windowing, drawing, and UI controls. Because it is a low-level, C-language API based on handles, it's an infrequent choice for creating modern, UI-intensive apps. However, it supplies the basic APIs necessary to interact with the Windows platform, and is a suitable choice for apps that have simple UI requirements or that just want the Windows UI to stay out of the way as much as possible for example, games.
+-   **MFC (Microsoft Foundation Class Library):** This is the venerable application framework and UI library that has served Windows developers since 1992. It's a thin C++ wrapper over the handle-based, C-language Win32 API and provides object-oriented interfaces for many of the predefined windows, common controls, and other Windows objects. Although many modern UI frameworks in the .NET ecosystem surpass MFC in convenience, it is still the native UI framework of choice for many C++ developers creating applications for the Windows desktop.
 -   **Third-party application frameworks:** Because C++ can run on a wide variety of platforms and isn't tied to Windows or the .NET runtime, third-parties have developed new application and UI frameworks for C++ to ease development of cross-platform applications with rich user interfaces. Some of these frameworks provide their own look & feel, while others such as wxWidgets or Qt use or emulate the native control set of the platform. Using these libraries, it's possible to share nearly all of an application's source code between versions of the application that run on Windows or other platforms, such as OSX or Linux.

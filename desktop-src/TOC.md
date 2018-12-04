@@ -1,7 +1,7 @@
 #[Windows Desktop Apps](index.md)
 ##Get Started
-###[Choose Your Technology](choose-your-technology.md)
-###[Modernize Your Desktop Applications for Windows 10](modernize-desktop-applications.md)
+###[Choose Your Platform](choose-your-technology.md)
+###[Enhance Your Desktop Applications for Windows 10](modernize-desktop-applications.md)
 ###[What's new](windows-8.md)
 ####[Windows 8 and 8.1 Technologies](whatsnew/windows-8-technologies.md)
 ####[Compatibility cookbook for Windows](w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md)

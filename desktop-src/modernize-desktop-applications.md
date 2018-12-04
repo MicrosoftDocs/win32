@@ -1,11 +1,11 @@
 ---
-Description: Add modern XAML user interfaces, create MSIX packages, and incorporate other modern components into your desktop application in an "alacart" fashion.
-title: Desktop guide to the modern platform
+Description: Add modern XAML user interfaces, create MSIX packages, and incorporate other modern components into your desktop application.
+title: Enhance your desktop applications for Windows 10
 ms.topic: article
-ms.date: 09/11/2018
+ms.date: 11/27/2018
 ---
 
-# Modernize Your Desktop Applications for Windows 10
+# Enhance Your Desktop Applications for Windows 10
 
 Windows 10 and the Universal Windows Platform (UWP) offer many features you can use to deliver a modern experience in your desktop applications. Most of these features are available as modular components that you can adopt in your desktop applications at your own pace without having to rewrite your application for a different platform. You can enhance your existing desktop applications by choosing which parts of Windows 10 and UWP to adopt.
 
@@ -81,9 +81,9 @@ See [Windows UI Library (Preview version)](https://docs.microsoft.com/uwp/toolki
 
 ### .NET Core 3
 
-.NET Core 3 is the next major release of .NET Core. The highlight of this upcoming release is support for Windows desktop applications, specifically Windows Forms, Windows Presentation Framework (WPF), and UWP. You will be able to run new and existing Windows desktop applications on .NET Core 3 and enjoy all the benefits that .NET Core has to offer.
+.NET Core 3 is the next major release of .NET Core. The highlight of this upcoming release is support for Windows desktop applications, including Windows Forms and WPF applications. You will be able to run new and existing Windows desktop applications on .NET Core 3 and enjoy all the benefits that .NET Core has to offer. UWP controls that are hosted in [XAML islands](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls) can also be used in Windows Forms and WPF applications that target .NET Core 3.
 
-For more information, see the [announcement blog](https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/).
+For more information, see the [announcement blog](http://aka.ms/netcore3preview1).
 
 ### Microsoft Graph
 
