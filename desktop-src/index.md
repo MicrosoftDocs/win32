@@ -23,7 +23,7 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>Get started</h3>
                         <p>
-                            <a href="choose-your-technology">Choose your technology</a>
+                            <a href="choose-your-technology">Choose your platform</a>
                         </p>
                         <p>
                             <a href="modernize-desktop-applications">Modernize your desktop applications for Windows 10</a>
