@@ -14,6 +14,9 @@ The Known Folder system provides a way to interact with certain high-profile fol
 -   [Redirection](#redirection)
 -   [Related topics](#related-topics)
 
+> [!IMPORTANT]
+> To redirect the Documents, Pictures, or Desktop folders to OneDrive, use OneDrive Known Folder Move instead of the redirection method described in this article. For information, see [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders).  
+
 ## Known Folder Interfaces
 
 There are two Known Folder interfaces: [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder) and [**IKnownFolderManager**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager).
