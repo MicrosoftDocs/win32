@@ -27,7 +27,7 @@ You can create subscriptions by using the Wecutil.exe command-line tool. For mor
 
  
 
-> \[!Caution\]
+> [!Caution]
 >
 > When using Collector-initiated subscriptions, limit the number of remote computers to 500 and isolate the [Windows Event Collector](https://msdn.microsoft.com/library/bb427443) service (wecsvc) in a separate host process.
 >

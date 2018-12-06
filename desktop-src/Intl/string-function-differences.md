@@ -58,7 +58,7 @@ The data type for the output text always depends on the version of the function.
 
 For the Unicode version of the print functions, the format string is Unicode, as is the output text.
 
-> \[!Caution\]  
+> [!Caution]  
 > Poor buffer handling is implicated in many security issues that involve buffer overruns. See [Strsafe.h Reference](https://msdn.microsoft.com/library/ms647466(v=VS.85).aspx). The functions defined in Strsafe.h provide additional processing for proper buffer handling in your code. For this reason, they are intended to replace their built-in C/C++ counterparts as well as specific Microsoft Windows implementations. For more information, see [Security Considerations: International Features](security-considerations--international-features.md).
 
  

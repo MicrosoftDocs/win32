@@ -14,7 +14,7 @@ The network number is an administrative domain and typically names a single Ethe
 
 The IPX socket number is a network/transport service number much like a TCP port number and is not to be confused with the Winsock socket descriptor. IPX socket numbers are global to the end station and cannot be bound to specific net/node addresses. For instance, if the end station has two network interface cards, a bound socket can send and receive on both cards. In particular, datagram sockets would receive broadcast datagrams on both cards.
 
-> \[!Caution\]  
+> [!Caution]  
 > SOCKADDR\_IPX is 14 bytes long and is shorter than the 16-byte [**sockaddr**](sockaddr-2.md) reference structure. IPX/SPX implementations may accept the 16-byte length as well as the true length. If you use SOCKADDR\_IPX and a hard-coded length of 16 bytes, the implementation may assume that it has access to the 2 bytes following your structure.
 
  

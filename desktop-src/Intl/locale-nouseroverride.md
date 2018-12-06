@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LOCALE\_NOUSEROVERRIDE
 
-> \[!Caution\]  
+> [!Caution]  
 > Since LOCALE\_NOUSEROVERRIDE disables user preferences, its use is strongly discouraged. This constant does not guarantee data stability since [custom locales](custom-locales.md), service updates, different operating system versions, and other scenarios can change data in unexpected ways. For more information, see [Using Persistent Locale Data](using-persistent-locale-data.md).
 
  

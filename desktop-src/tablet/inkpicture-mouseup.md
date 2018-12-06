@@ -75,7 +75,7 @@ This event does not return a value.
 
  
 
-> \[!Caution\]  
+> [!Caution]  
 > Some controls rely on a specific relationship between [**MouseDown**](inkpicture-mousedown.md), [**MouseMove**](inkpicture-mousemove.md), and **MouseUp** events. Canceling some of these events may have unanticipated results.
 
  

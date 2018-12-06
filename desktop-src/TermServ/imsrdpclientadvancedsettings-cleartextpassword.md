@@ -52,7 +52,7 @@ ms.date: 05/31/2018
 
 Specifies the password with which to connect. For more information, see the [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) interface.
 
-> \[!Caution\]  
+> [!Caution]  
 > Even though scriptable access to plaintext passwords is available through this property, it is still the responsibility of the developer to exercise every caution and maintain security when passing passwords in their applications.
 
  

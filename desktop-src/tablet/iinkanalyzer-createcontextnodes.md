@@ -47,7 +47,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 ## Remarks
 
-> \[!Caution\]  
+> [!Caution]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodes* when you no longer need to use the object.
 
  

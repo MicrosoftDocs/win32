@@ -31,12 +31,12 @@ The NTFS implementations of [**IPropertySetStorage**](/windows/desktop/api/Propi
 
 The NTFS implementation stores property sets in alternate streams of an NTFS file. The alternate streams must be copied when the main file is copied.
 
-> \[!Caution\]  
+> [!Caution]  
 > Not all file systems support such streams. If an NTFS file with property sets is copied to a FAT volume, only the data in the file is copied; the property set is lost. The [**CopyFile**](https://msdn.microsoft.com/library/windows/desktop/aa363851) function does not return an error in this case.
 
  
 
-> \[!Caution\]  
+> [!Caution]  
 > If the computer performing the file copy is not a computer running on Windows 2000 or later, the property sets may be lost. For example, if a computer running on Windows 95 operating system copies an NTFS file, the property set is lost even if the destination file is also on an NTFS volume.
 
  

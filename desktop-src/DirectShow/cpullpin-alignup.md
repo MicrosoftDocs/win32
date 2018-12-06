@@ -63,7 +63,7 @@ Returns the aligned result.
 
 ## Remarks
 
-> \[!Caution\]  
+> [!Caution]  
 > This method can cause numeric overflow if *ll* + (*lAlign* - 1) overflows.
 
  

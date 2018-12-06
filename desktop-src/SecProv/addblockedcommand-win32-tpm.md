@@ -19,7 +19,7 @@ api_location:
 
 The **AddBlockedCommand** method of the [**Win32\_Tpm**](win32-tpm.md) class adds a TPM command to the local list of commands blocked from running on the operating system.
 
-> \[!Caution\]  
+> [!Caution]  
 > The operating system prevents a predefined set of commands from running by default. Changes to this default can affect the security, privacy, or functionality of your computer.
 
  

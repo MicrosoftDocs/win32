@@ -12,7 +12,7 @@ You can assign a drive letter (for example, X:\) to a local volume by using the 
 
 The system supports at most one drive letter per volume. Therefore, you cannot have C:\\ and F:\\ represent the same volume.
 
-> \[!Caution\]
+> [!Caution]
 >
 > Deleting an existing drive letter and assigning a new one may break existing paths, such as those in desktop shortcuts. It may also break the path to the program making the drive letter changes. With Windows virtual memory management, this may break the application, leaving the system in an unstable and possibly unusable state. It is the program designer's responsibility to avoid such potential catastrophes.
 

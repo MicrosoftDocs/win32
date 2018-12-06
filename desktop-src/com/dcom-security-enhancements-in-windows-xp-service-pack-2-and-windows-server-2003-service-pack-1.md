@@ -204,7 +204,7 @@ The COM ACLs can be created or modified using normal security functions.
 
 ## What settings are added or changed in Windows XP Service Pack 2?
 
-> \[!Caution\]  
+> [!Caution]  
 > Improper use of these settings can cause applications and Windows components that use DCOM to fail.
 
  

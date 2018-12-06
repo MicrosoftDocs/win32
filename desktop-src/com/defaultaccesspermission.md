@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Sets the Access Control List (ACL) of the principals that can access classes for which there is no [**AccessPermission**](accesspermission.md) setting. This ACL is used only by applications that do not call [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) and do not have an **AccessPermission** value under their [**AppID**](appid-key.md) key.
 
-> \[!Caution\]  
+> [!Caution]  
 > It is not recommended that you change this value, because this will affect all COM server applications that do not set their own process-wide security, and might prevent them from working properly. If you are changing this value to affect the security settings for a particular COM application, then you should instead change the process-wide security settings for that particular COM application. For more information on setting process-wide security, see [Setting Process-wide Security](setting-processwide-security.md).
 
  

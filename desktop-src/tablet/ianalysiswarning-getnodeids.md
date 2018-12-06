@@ -57,7 +57,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 If *ppNodeIds* is passed as **NULL**, the **GetNodeIds** method returns **S\_OK** and the number of rectangles is returned in *pulCount*.
 
-> \[!Caution\]  
+> [!Caution]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppNodeIds* when you no longer need the information.
 
  

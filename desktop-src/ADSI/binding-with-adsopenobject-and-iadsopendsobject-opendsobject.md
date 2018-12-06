@@ -30,7 +30,7 @@ Finally, to bind with no authentication, use the **ADS\_NO\_AUTHENTICATION** fla
 
 If the authentication flags are set to zero, ADSI performs a simple bind, sent as plaintext.
 
-> \[!Caution\]  
+> [!Caution]  
 > If a user name and password are specified without specifying authentication flags, the user name and password are transmitted over the network in plaintext, which is a security risk. Do not specify a user name and password without specifying authentication flags.
 
  

@@ -92,7 +92,7 @@ Neutral resources element. This element is just a container for resourceType ele
 
 The resourceType element encapsulates information about a single resource type or individual resource. It has the attributes listed below.
 
-> \[!Caution\]  
+> [!Caution]  
 > Some resource configuration defects are caught only by RC Compiler or MUIRCT, depending on the input resource file or binary file content. The resourceType errors in the resource configuration file that do not exist in the input file are not caught, resulting in unexpected behavior. Users can be using a defective resource configuration file and do not know until they introduce binaries that use the broken parts of the resource configuration file, which creates the appearance that the breaks are from the current binaries.
 
  

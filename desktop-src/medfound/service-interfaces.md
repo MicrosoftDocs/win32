@@ -60,7 +60,7 @@ You must use [**GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-
 
 In some cases, an interface is returned as a service by one class of objects, and returned through **QueryInterface** by another class of objects. The reference pages for each interface indicate when to use [**GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) and when to use **QueryInterface**.
 
-> \[!Caution\]  
+> [!Caution]  
 > An object might be implemented in such a way that it returns a service interface through **QueryInterface** as well as [**GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice). However, using **QueryInterface** when **GetService** is required might lead to compatibility problems later.
 
  

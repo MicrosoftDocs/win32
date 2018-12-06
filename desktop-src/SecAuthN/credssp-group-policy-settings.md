@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 For [Credential Security Support Provider protocol (CredSSP)](credential-security-support-provider.md) to delegate credentials, you must specify which servers can be delegated to. To specify those servers, modify settings in the Group Policy Editor (GPE) Microsoft Management Console (MMC) snap-in. The GPE settings that control delegation are under **Computer Configuration \| Administrative Templates \| System \| Credentials Delegation**.
 
-> \[!Caution\]  
+> [!Caution]  
 > This is not constrained delegation. CredSSP passes the user's full credentials to the server without any constraint.
 
  

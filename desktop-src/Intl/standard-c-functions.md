@@ -30,7 +30,7 @@ The [wcstombs](http://msdn.microsoft.com/en-us/library/5d7tc9zw.aspx) and [mbsto
 
 The [printf](http://msdn.microsoft.com/en-us/library/wc7014hz.aspx) function defined in Tchar.h supports the same format specifications as the Strsafe.h print functions, for example [**StringCbPrintf**](https://msdn.microsoft.com/library/ms647510(v=VS.85).aspx). Similarly, Tchar.h defines a [wprintf](http://msdn.microsoft.com/en-us/library/wc7014hz.aspx) function, in which the format string itself is a Unicode string.
 
-> \[!Caution\]  
+> [!Caution]  
 > Poor buffer handling is implicated in many security issues that involve buffer overruns. See [Strsafe.h Reference](https://msdn.microsoft.com/library/ms647466(v=VS.85).aspx). The functions defined in Strsafe.h provide additional processing for proper buffer handling in your code. They are intended to replace their built-in C/C++ counterparts as well as specific Microsoft Windows implementations. For more information, see [Security Considerations: International Features](security-considerations--international-features.md).
 
  

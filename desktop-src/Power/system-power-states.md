@@ -105,7 +105,7 @@ In these states (S1-S3), volatile memory is kept refreshed to maintain the syste
 
 The system also wakes from sleep in response to user activity or a wake-up event defined by an application. For more information, see [System Wake-up Events](system-wake-up-events.md). The amount of time it takes the system to wake depends on the sleep state it is waking from. The system takes more time to wake from a lower-powered state (S3) than from a higher-powered state (S1) because of the extra work the hardware may have to do (stabilize the power supply, reinitialize the processor, and so forth).
 
-> \[!Caution\]  
+> [!Caution]  
 > When calling [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate), the **ES\_AWAYMODE\_REQUIRED** value should be used only when absolutely necessary by media applications that require the system to perform background tasks such as recording television content or streaming media to other devices while the system appears to be sleeping. Applications that do not require critical background processing or that run on portable computers should not enable away mode because it prevents the system from conserving power by entering true sleep.
 
  

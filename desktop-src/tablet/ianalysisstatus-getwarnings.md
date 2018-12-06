@@ -47,7 +47,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 ## Remarks
 
-> \[!Caution\]  
+> [!Caution]  
 > Call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppAnalysisWarnings* when you no longer need the warning.
 
  
