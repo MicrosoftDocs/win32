@@ -18,7 +18,7 @@ The Core Audio APIs were introduced in Windows Vista. This is a new set of user-
 -   Assignment of particular system-wide roles (console, multimedia, and communications) to individual audio devices.
 -   Software abstraction of the audio endpoint devices (for example, speakers, headphones, and microphones) that the user manipulates directly.
 
-he Core Audio APIs have been improved in Windows 7. For more information about the improvements and new features added, see [What's New for Core Audio APIs in Windows 7](what-s-new-for-core-audio-apis-in-windows-7.md).
+The Core Audio APIs have been improved in Windows 7. For more information about the improvements and new features added, see [What's New for Core Audio APIs in Windows 7](what-s-new-for-core-audio-apis-in-windows-7.md).
 
 This documentation describes the Core Audio APIs. These APIs serve as the foundation for the following higher-level APIs:
 
