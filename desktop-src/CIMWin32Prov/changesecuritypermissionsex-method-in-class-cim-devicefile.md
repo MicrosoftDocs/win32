@@ -51,7 +51,7 @@ uint32 ChangeSecurityPermissionsEx(
 
 Specifies the security information.
 
-> \[!Caution\]  
+> [!Caution]  
 > A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure grants unlimited access.
 
  

@@ -32,7 +32,7 @@ The following technique is also available for Windows Server 2003 and Windows 
 
 By default, services use a noninteractive [window station](https://msdn.microsoft.com/library/windows/desktop/ms687096) and cannot interact with the user. However, an *interactive service* can display a user interface and receive user input.
 
-> \[!Caution\]  
+> [!Caution]  
 > Services running in an elevated security context, such as the LocalSystem account, should not create a window on the interactive desktop because any other application that is running on the interactive desktop can interact with this window. This exposes the service to any application that a logged-on user executes. Also, services that are running as LocalSystem should not access the interactive desktop by calling the [**OpenWindowStation**](https://msdn.microsoft.com/library/windows/desktop/ms684339) or [**GetThreadDesktop**](https://msdn.microsoft.com/library/windows/desktop/ms683232) function.
 
  

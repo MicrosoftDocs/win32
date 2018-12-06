@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Applications can use Unicode to represent strings in multiple forms. As Unicode acceptance has grown, especially via the Internet, the need has arisen to eliminate non-essential differences in Unicode strings. Multiple representations for a combination of characters complicate software, for example, when a Web server responds to a page request or a linker seeks a particular identifier in a library.
 
-> \[!Caution\]  
+> [!Caution]  
 > Different Unicode strings can appear to be visually identical, raising security concerns. For more information, see [Security Considerations: International Features](security-considerations--international-features.md).
 
  
@@ -21,7 +21,7 @@ To use Unicode normalization, an application can call the [**NormalizeString**](
 
 For a detailed description of the Unicode standards for normalization, refer to [Unicode Standard Annex \#15: Unicode Normalization Forms](http://go.microsoft.com/fwlink/p/?linkid=161647) (UAX \#15).
 
-> \[!Caution\]  
+> [!Caution]  
 > Because normalization can change the form of a string, security mechanisms or character validation algorithms should usually be implemented after normalization. For more information, see [Security Considerations: International Features](security-considerations--international-features.md).
 
  

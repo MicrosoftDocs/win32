@@ -592,7 +592,7 @@ Sets an unsigned long integer value that contains the error masks that can be ha
 
 Indicates that all certificate errors are to be reported using the same error return, namely **ERROR\_INTERNET\_SEC\_CERT\_ERRORS**. If this flag is set, call **InternetErrorDlg** upon receiving the **ERROR\_INTERNET\_SEC\_CERT\_ERRORS** error, so that the user can respond to a familiar dialog describing the problem.
 
-> \[!Caution\]  
+> [!Caution]  
 > Failing to inform the user of this error exposes the user to potential spoofing attacks.
 
  

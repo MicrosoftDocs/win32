@@ -204,7 +204,7 @@ HRESULT ShowContextualUI(POINT& ptLocation, HWND hWnd)
 
 The reference to [**IUIContextualUI**](https://msdn.microsoft.com/library/windows/desktop/dd371482) can be released before the Context Popup is dismissed, as shown in the preceding example. However, the reference must be released at some point to avoid memory leaks.
 
-> \[!Caution\]  
+> [!Caution]  
 > The Mini-Toolbar has a built-in fade effect that is based on the proximity of the mouse pointer. For this reason, it is recommended that the Mini-Toolbar be displayed as close to the mouse pointer as possible. Otherwise, due to the conflicting display mechanisms, the Mini-Toolbar may not render as expected.
 
  

@@ -21,7 +21,7 @@ The **RemoveBlockedCommand** method of the [**Win32\_Tpm**](win32-tpm.md) class 
 
 You may need to configure Group Policy to unblock a command. For example, if you want to allow a command that is blocked by default, you will need to first configure Group Policy to ignore the default list of blocked commands. Use the [**IsCommandBlocked**](iscommandblocked-win32-tpm.md) method to determine how a command is blocked, through either the local list or through group policy.
 
-> \[!Caution\]  
+> [!Caution]  
 > The operating system prevents a predefined set of commands from running by default. Changes to this default can affect the security, privacy, or functionality of your computer.
 
  

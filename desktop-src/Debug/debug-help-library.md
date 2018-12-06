@@ -12,19 +12,12 @@ This overview describes the function set provided by the debug help library, Dbg
 
 The DbgHelp documentation is as follows:
 
--   [About DbgHelp](about-dbghelp.md)
--   [Using DbgHelp](using-dbghelp.md)
--   [DbgHelp Reference](dbghelp-reference.md)
+- [About DbgHelp](about-dbghelp.md)
+- [Using DbgHelp](using-dbghelp.md)
+- [DbgHelp Reference](dbghelp-reference.md)
 
-To obtain the latest version of DbgHelp.dll, go to [http://www.microsoft.com/whdc/devtools/debugging/default.mspx](Http://go.microsoft.com/fwlink/p/?linkid=84137) and download Debugging Tools for Windows.
+To obtain the latest version of DbgHelp.dll, go to [https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) and download Debugging Tools for Windows.
 
 For a description of the PE format, download the specification from the following location: [http://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx](Http://go.microsoft.com/fwlink/p/?linkid=84140).
 
 For information on how to browse information found in .pdb files, see the [Debug Interface Access SDK](Http://go.microsoft.com/fwlink/p/?linkid=83974).
-
- 
-
- 
-
-
-

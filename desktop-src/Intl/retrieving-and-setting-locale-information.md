@@ -21,7 +21,7 @@ To retrieve locale information, the application calls [**GetLocaleInfo**](/windo
 
 Since most locale information constants are mutually exclusive, only one type of information can be handled at a time. The exceptions to this rule are [LOCALE\_USE\_CP\_ACP](locale-use-cp-acp.md), [LOCALE\_RETURN\_NUMBER](locale-return-constants.md), and [LOCALE\_NOUSEROVERRIDE](locale-nouseroverride.md), which can be combined with other constants using a binary OR.
 
-> \[!Caution\]  
+> [!Caution]  
 > Use of LOCALE\_NOUSEROVERRIDE is strongly discouraged as it disables user preferences.
 
  

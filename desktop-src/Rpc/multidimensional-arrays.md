@@ -30,7 +30,7 @@ The MIDL 2.0 compiler provides two methods for marshaling parameters: mixed-mode
 
 The fully-interpreted method marshals data completely offline. This reduces the size of the stub code considerably, but it also results in decreased performance. In mixed-mode marshaling, the stubs marshals some parameters online. While this results in a larger stub size, it also offers increased performance.
 
-> \[!Caution\]  
+> [!Caution]  
 > Exercise caution when compiling IDL files in this mode. Using multidimensional arrays in mixed mode can result in parameters that are not marshaled correctly. The [**/Oicf**](https://msdn.microsoft.com/library/windows/desktop/aa367352) command line switch is recommended when your interface defines parameters that are multidimensional arrays.
 
  

@@ -22,7 +22,7 @@ You can configure the performance of all instances of [**ActiveScriptEventConsum
 
 The basic procedure for using standard consumers is always the same, and is located in [Monitoring and Responding to Events with Standard Consumers](monitoring-and-responding-to-events-with-standard-consumers.md). The following procedure that adds to the basic procedure, is specific to the [**ActiveScriptEventConsumer**](activescripteventconsumer.md) class, and describes how to create an event consumer that runs a script.
 
-> \[!Caution\]  
+> [!Caution]  
 > The [**ActiveScriptEventConsumer**](activescripteventconsumer.md) class has special security constraints. This standard consumer must be configured by a local member of the Administrators group on the local computer. If you use a domain account to create the subscription, the LocalSystem account must have the necessary permissions on the domain to verify that the creator is a member of the local Administrators group.
 
  

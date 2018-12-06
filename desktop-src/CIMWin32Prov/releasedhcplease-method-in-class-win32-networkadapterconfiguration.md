@@ -392,7 +392,7 @@ DHCP not enabled on adapter.
 
 ## Remarks
 
-> \[!Caution\]  
+> [!Caution]  
 > If DHCP is enabled on the local computer system, the option disables TCP/IP on this specific network adapter. Unless you have an alternate path to the target system, that is, another TCP/IP bound network adapter, all TCP/IP communications will be lost.
 
  

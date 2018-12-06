@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Credential Security Support Provider protocol (CredSSP) is a Security Support Provider that is implemented by using the Security Support Provider Interface ([SSPI](sspi.md)). CredSSP lets an application delegate the user's credentials from the client to the target server for remote authentication. CredSSP provides an encrypted [Transport Layer Security Protocol](transport-layer-security-protocol.md) channel. The client is authenticated over the encrypted channel by using the Simple and Protected Negotiate (SPNEGO) protocol with either [Microsoft Kerberos](microsoft-kerberos.md) or [Microsoft NTLM](microsoft-ntlm.md).
 
-> \[!Caution\]  
+> [!Caution]  
 > This is not constrained delegation. CredSSP passes the user's full credentials to the server without any constraint.
 
  

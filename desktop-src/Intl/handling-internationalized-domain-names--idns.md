@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes how you can work with internationalized domain names (IDNs) in your applications. IDNs are specified by Network Working Group [RFC 3490: Internationalizing Domain Names in Applications (IDNA)](http://go.microsoft.com/fwlink/p/?linkid=161551). Prior to this draft standard, IDNs were limited to Latin characters without diacritics. IDNA allows IDNs to include Latin characters with diacritics, along with characters from non-Latin scripts, such as Cyrillic, Arabic, and Chinese. The standard also establishes rules for mapping IDNs to ASCII-only domain names. Thus, IDNA issues can be handled on the client side, without requiring any domain name server (DNS) changes.
 
-> \[!Caution\]  
+> [!Caution]  
 > RFC 3490 introduces a number of security issues related to the use of IDNs. For more information see the related section of [Security Considerations: International Features](security-considerations--international-features.md).
 
  
@@ -44,14 +44,14 @@ IDNA supports the transformation of Unicode strings into legitimate host name la
 
 IDNs cannot contain unassigned code points. Therefore, code points that are not associated with a character ("assigned") as of Unicode 3.2 do not have defined IDN mappings, even though the IDN\_ALLOW\_UNASSIGNED flag in certain conversion functions allows them to be mapped to Punycode. You can find a list of unassigned code points in [RFC 3454](http://go.microsoft.com/fwlink/p/?linkid=161550).
 
-> \[!Caution\]  
+> [!Caution]  
 > If your application encodes unassigned code points as Punycode, the resulting domain names should be illegal. Security can be compromised if a later version of IDNA makes these names legal or if the application filters out the illegal characters to try to create a legal domain name.
 
  
 
 Unassigned code points are not allowed in the stored strings used in protocol identifiers and named entities, such as names in digital certificates and DNS domain name parts. However, the code points are allowed in query strings, for example, user-entered names for digital certificate authorities and DNS lookups, which are used to match against stored identifiers.
 
-> \[!Caution\]  
+> [!Caution]  
 > Although query strings can use unassigned code points, you should not use them in your applications. Even a user-supplied query string presents a risk of a "spoofing" attack. In this type of attack, the unscrupulous host site reroutes users from the site they intend to access to another site that might provide sensitive information to a third party. For example, copying a string from an incoming e-mail can present the same risks as clicking on a link in a browser.
 
  
@@ -60,7 +60,7 @@ Unassigned code points are not allowed in the stored strings used in protocol id
 
 Your application can use the [**IdnToAscii**](/windows/desktop/api/Winnls/nf-winnls-idntoascii) function and certain mitigation functions to convert IDNs to ASCII.
 
-> \[!Caution\]  
+> [!Caution]  
 > Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in [Security Considerations: International Features](security-considerations--international-features.md).
 
  

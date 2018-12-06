@@ -302,7 +302,7 @@ Filtering and view controls are used to manipulate the set of items in the listv
 
 The listview control is used to view a set of items in one of four view modes: details, tiles, icons, or panorama. The listview control also enables the user to select and activate one or more items.
 
-> \[!Caution\]  
+> [!Caution]  
 > Although some of these controls have names and/or functionality that is similar to standard Windows Presentation Foundation (WPF) controls found in the System.Windows.Controls namespace, they are distinct classes.
 
  

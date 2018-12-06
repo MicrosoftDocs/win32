@@ -19,7 +19,7 @@ api_location:
 
 The **Clear** method of the [**Win32\_Tpm**](win32-tpm.md) class resets the TPM to its factory-default state. A TPM owner can use this method to cancel TPM ownership and invalidate cryptographic materials created by the previous owner. This method suspends BitLocker if calling could cause BitLocker recovery to be required. BitLocker would automatically resume once TPM has been provisioned.
 
-> \[!Caution\]  
+> [!Caution]  
 > By clearing the TPM, you will lose all TPM keys created and used by applications. If these keys were used to encrypt data, ensure that you have another way to access the data before clearing the TPM.
 
  

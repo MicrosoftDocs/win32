@@ -69,7 +69,7 @@ The caller does not have the proper access privileges to call this function. The
 
 Use the **DsBackupTruncateLogs** function when a full or incremental backup has completed successfully.
 
-> \[!Caution\]  
+> [!Caution]  
 > If this function is called after a differential backup, all of the incremental backup information will be lost.
 
  

@@ -47,7 +47,7 @@ For a description of return values, see [Classes and Interfaces - Ink Analysis](
 
 ## Remarks
 
-> \[!Caution\]  
+> [!Caution]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppDstContextNodeId* when you no longer need to use the destination node.
 
  

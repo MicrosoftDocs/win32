@@ -18,7 +18,7 @@ The [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx) collec
 
 The [Divider](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx) object uses a recognizer context to improve its analysis of recognition segments and to generate recognition text for handwriting elements. You can set the recognizer context by using the [RecognizerContext](https://msdn.microsoft.com/library/ms839415(v=MSDN.10).aspx) property of the Divider object. The RecognizerContext property cannot be changed after strokes have been assigned to the Divider object. For more information about the RecognizerContext property of the Divider object, see [Working with a Recognizer Context](working-with-a-recognizer-context.md).
 
-> \[!Caution\]  
+> [!Caution]  
 > In managed code, you must call the [Dispose](https://msdn.microsoft.com/library/ms839450(v=MSDN.10).aspx) method on this object before it goes out of scope. This object maintains non-managed resources. Relying on finalization for this object can cause memory leaks and exceptions within your application.
 
  

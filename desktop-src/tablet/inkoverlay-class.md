@@ -169,7 +169,7 @@ In general, the run-time user interface for this object is a transparent window 
 
 The [**MouseDown**](inkcollector-mousedown.md), [**MouseMove**](inkcollector-mousemove.md), [**MouseUp**](inkcollector-mouseup.md), and [**MouseWheel**](inkcollector-mousewheel.md) events return x-coordinates and y-coordinates in pixels, and not the HIMETRIC units that are associated with the ink space. This is because these events replace the mouse events of pen-unaware applications and these applications understand only pixels.
 
-> \[!Caution\]  
+> [!Caution]  
 > If you are setting the **InkOverlay** object's [**AttachMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode) property to InFront then create the **InkOverlay** object in the thread in which the form is running. Your application may stop responding if the **InkOverlay** object is created in a different thread and its **AttachMode** property is set to InFront.
 
  

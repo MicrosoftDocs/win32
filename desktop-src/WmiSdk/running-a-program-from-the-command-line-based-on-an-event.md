@@ -20,7 +20,7 @@ When you use [**CommandLineEventConsumer**](commandlineeventconsumer.md), you sh
 
 The basic procedure to use standard consumers is always the same, and is located in [Monitoring and Responding to Events with Standard Consumers](monitoring-and-responding-to-events-with-standard-consumers.md). The following procedure adds to the basic procedure, is specific to the [**CommandLineEventConsumer**](commandlineeventconsumer.md) class, and describes how to create an event consumer that runs a program.
 
-> \[!Caution\]
+> [!Caution]
 >
 > The [**CommandLineEventConsumer**](commandlineeventconsumer.md) class has special security constraints. This standard consumer must be configured by a local member of the Administrators group on the local computer. If you use a domain account to create the subscription, the LocalSystem account must have the necessary permissions on the domain to verify that the creator is a member of the local Administrators group.
 >

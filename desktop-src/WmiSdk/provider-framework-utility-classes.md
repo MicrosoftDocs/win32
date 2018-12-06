@@ -28,7 +28,7 @@ In all three cases, the pointer to a long must be the same pointer.
 
  
 
-> \[!Caution\]  
+> [!Caution]  
 > Provider debug builds link with Framedyd.lib for Framedyd.dll. Framedyd.dll is in the Microsoft Windows Software Development Kit (SDK) \\bin directory which is not included in the system path. When a debug build of a provider is tested with the Windows Management service, the framework provider will fail to load because Framedyd.dll or one of its dependencies will not be located. Therefore, you must either copy Framedyd.dll from the Windows SDK \\bin directory to the \\system32\\wbem directory or add the Windows SDK \\bin directory to the system search path.
 
  

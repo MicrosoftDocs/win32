@@ -50,7 +50,7 @@ In this example, the standard C library function **wcstombs** translates Unicode
 
 Your application can use the National Language Support (NLS) [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa) function to process text that includes the [native digits](digit-shapes.md) provided for some of the scripts in Unicode.
 
-> \[!Caution\]  
+> [!Caution]  
 > Using the **wcstombs** function incorrectly can compromise the security of your application. Make sure that the application buffer for the string of 8-bit characters is at least of size 2\*(*char\_length* +1), where *char\_length* represents the length of the Unicode string. This restriction is made because, with [double-byte character sets](double-byte-character-sets.md) (DBCSs), each Unicode character can be mapped to two consecutive 8-bit characters. If the buffer does not hold the entire string, the result string is not null-terminated, posing a security risk. For more information about application security, see [Security Considerations: International Features](security-considerations--international-features.md).
 
  

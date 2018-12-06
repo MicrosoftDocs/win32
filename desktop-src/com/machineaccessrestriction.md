@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Sets the computer-wide restriction policy for component access.
 
-> \[!Caution\]  
+> [!Caution]  
 > Changing this value will affect all COM server applications, and might prevent them from working properly. If there are COM server applications that have restrictions that are less stringent than the computer-wide restrictions, reducing the computer-wide restrictions may expose these applications to unwanted access. Conversely, if you increase the computer-wide restrictions, some COM server applications might no longer be accessible by calling applications.
 
  

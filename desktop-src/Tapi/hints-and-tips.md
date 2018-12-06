@@ -14,7 +14,7 @@ The following are hints and tips to consider when writing an application for TAP
 
     In apartment threading you must have a message pump regardless of whether you wait for synchronization objects. This is particularly important if you have a console application or you write a COM local/remote server object that is apartment threaded (where you do not have a console or a GUI, but the control just "runs" in the system).
 
-    > \[!Caution\]  
+    > [!Caution]  
     > When calling the wait and synchronization functions, such as [**Sleep**](https://msdn.microsoft.com/library/windows/desktop/ms686298), [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms687025), [**WaitForMultipleObjectsEx**](https://msdn.microsoft.com/library/windows/desktop/ms687028), [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036), and so on. Instead, use [**MsgWaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms684242) and process the messages, or use [**CoWaitForMultipleHandles**](https://msdn.microsoft.com/library/windows/desktop/ms680732), which will automatically detect what type of apartment the thread is in (STA or MTA) and will wait either in a COM modal loop (if STA) or block on **WaitForMultipleObjects** (if MTA). **MsgWaitForMultipleObjects** and **CoWaitForMultipleHandles** also process windows messages according to the COM rules.
 
      

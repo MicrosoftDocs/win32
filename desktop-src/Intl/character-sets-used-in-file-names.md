@@ -16,7 +16,7 @@ Your application can use generic string types, as described in [Windows Data Typ
 
 In both NTFS and FAT file systems, the special file name characters are: '\\', '/', '.', '?', and '\*'. On OEM code pages, these special characters are in the ASCII range of characters (0x00 through 0x7F). Their Unicode equivalents are the same values in a 2-byte form, 0x0000 through 0x007F.
 
-> \[!Caution\]  
+> [!Caution]  
 > Windows code page and OEM code page character sets used on Japanese-language operating systems contain the Yen symbol (¥) instead of a backslash (\\). Thus, the Yen symbol is a prohibited character for NTFS and FAT file systems. When mapping Unicode to a Japanese-language code page, [**WideCharToMultiByte**](/windows/desktop/api/Stringapiset/nf-stringapiset-widechartomultibyte) and other conversion functions map both backslash (U+005C) and the normal Unicode Yen symbol (U+00A5) to this same character. For security reasons, your applications should not typically allow the character U+00A5 in a Unicode string that might be converted for use as a FAT file name. For more information, see [Security Considerations: International Features](security-considerations--international-features.md).
 
  

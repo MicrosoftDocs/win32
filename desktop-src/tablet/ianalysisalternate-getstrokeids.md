@@ -57,7 +57,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 ## Remarks
 
-> \[!Caution\]  
+> [!Caution]  
 > To avoid a memory leak, use [CoTaskMemFree](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**pplStrokeIds* when you no longer need the information.
 
  
