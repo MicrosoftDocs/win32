@@ -44,6 +44,7 @@
         "Windows", 
         "Desktop"
       ],
+      "titleSuffix": "Windows applications",
       "ms.prod": "desktop",
       "ms.author": "windowssdkdev",
       "author": "windows-sdk-content"
