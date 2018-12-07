@@ -179,7 +179,7 @@ Find more information in this article: https://technet.microsoft.com/en-us/libra
 
     This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers:
 
-    **winrm create winrm/config/service/certmapping?Issuer=&lt;Thumbprint of the issuing CA certificate&gt;+Subject=*+URI=* @{UserName="&lt;username&gt;";Password="&lt;password&gt;"} -remote:localhost**
+    **winrm create winrm/config/service/certmapping?Issuer=&lt;Thumbprint of the issuing CA certificate&gt;+Subject=&#42;+URI=&#42; @{UserName="&lt;username&gt;";Password="&lt;password&gt;"} -remote:localhost**
 
 3. From a client test the listener and the certificate mapping with the following command:
 
