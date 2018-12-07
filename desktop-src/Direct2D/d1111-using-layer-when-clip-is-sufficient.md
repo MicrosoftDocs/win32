@@ -1,7 +1,7 @@
 ---
 title: D1111 Using Layer When Clip Is Sufficient
 ms.assetid: 07fe3c66-15be-408b-a30b-a7f52919c058
-description: 
+description: A layer is being used with a NULL opacity mask, 1.0 opacity, and an axis aligned rectangular geometric mask. The Push/Pop Clip API should achieve the same results with higher performance.
 keywords:
 - D1111 Using Layer When Clip Is Sufficient Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1111: Using Layer When Clip Is Sufficient

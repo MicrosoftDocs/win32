@@ -1,7 +1,7 @@
 ---
 title: D1114 Non Optional Pointer NULL
 ms.assetid: 62f0f247-8359-4f75-b3ce-195202d491d5
-description: 
+description: The parameter for interface::method is not optional. A NULL pointer was passed. This will cause Direct2D to crash.
 keywords:
 - D1114 Non Optional Pointer NULL Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1114: Non Optional Pointer NULL

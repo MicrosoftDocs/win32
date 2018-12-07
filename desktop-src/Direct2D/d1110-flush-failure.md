@@ -1,7 +1,7 @@
 ---
 title: D1110 Flush Failure
 ms.assetid: 44f122b0-08e3-4f63-a575-0f3619144823
-description: 
+description: A Flush call by a render target failed
 keywords:
 - D1110 Flush Failure Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1110: Flush Failure

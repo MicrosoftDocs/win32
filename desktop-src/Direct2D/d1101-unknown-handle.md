@@ -1,7 +1,7 @@
 ---
 title: D1101 Unknown Handle
 ms.assetid: ae40058a-ea17-4262-87dc-0ce852c16c2a
-description: 
+description: An interface not allocated by this DLL was passed to it.
 keywords:
 - D1101 Unknown Handle Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1101: Unknown Handle

@@ -1,7 +1,7 @@
 ---
 title: D1108 Wrong Factory
 ms.assetid: eb851118-0541-4c9a-a22d-b98f041852bb
-description: 
+description: The resource was allocated by factory 1 and used with factory 2.
 keywords:
 - D1108 Wrong Factory Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1108: Wrong Factory

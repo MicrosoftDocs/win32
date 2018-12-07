@@ -1,7 +1,7 @@
 ---
 title: D1109 Draw Failure
 ms.assetid: 76154839-719e-4c73-a80e-f9216f3468e3
-description: 
+description: A Draw call by a render target failed
 keywords:
 - D1109 Draw Failure Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1109: Draw Failure

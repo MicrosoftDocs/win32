@@ -1,7 +1,7 @@
 ---
 title: D1112 Device Must Be DX11
 ms.assetid: 39dcccaf-db56-402d-b62f-704ad4daf151
-description: 
+description: The device associated with the DXGI surface must be a D3D11 device.
 keywords:
 - D1112 Device Must Be DX11 Direct2D
 topic_type:
