@@ -100,7 +100,6 @@
 #### [NetLocalGroupGetMembers](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetmembers)
 #### [NetLocalGroupSetInfo](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupsetinfo)
 #### [NetLocalGroupSetMembers](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupsetmembers)
-#### [NetLogonSetServiceBits](netlogonsetservicebits.md)
 #### [NetMessageBufferSend](/windows/desktop/api/Lmmsg/nf-lmmsg-netmessagebuffersend)
 #### [NetMessageNameAdd](/windows/desktop/api/Lmmsg/nf-lmmsg-netmessagenameadd)
 #### [NetMessageNameDel](/windows/desktop/api/Lmmsg/nf-lmmsg-netmessagenamedel)
