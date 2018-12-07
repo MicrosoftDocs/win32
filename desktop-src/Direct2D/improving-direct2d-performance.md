@@ -18,6 +18,7 @@ keywords:
 - interoperability,Graphics Device Interface (GDI)
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Improving the performance of Direct2D apps
@@ -346,7 +347,7 @@ In Windows 8 many optimizations have been made to the usage of layers and we re
 
 ### PushLayer in Windows 8
 
-The [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
+The [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
 
 ### Axis-aligned clips
 

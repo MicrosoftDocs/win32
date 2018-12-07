@@ -1,7 +1,7 @@
 ---
 title: D1100 Handle Already Closed
 ms.assetid: d58e392c-a302-4c03-b868-356c3982dce2
-description: 
+description: An interface was accessed after it had been released.
 keywords:
 - D1100 Handle Already Closed Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1100: Handle Already Closed

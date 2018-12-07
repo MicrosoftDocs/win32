@@ -1,7 +1,7 @@
 ---
 title: D1102 Too Many Opened Handles
 ms.assetid: a7e52926-a4e6-4030-9e90-9df2b3e3edde
-description: 
+description: A large number of unreleased interfaces were found. Currently there are unreleased interfaces allocated by this DLL.
 keywords:
 - D1102 Too Many Opened Handles Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1102: Too Many Opened Handles

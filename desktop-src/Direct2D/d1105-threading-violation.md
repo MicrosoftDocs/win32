@@ -1,7 +1,7 @@
 ---
 title: D1105 Threading Violation
 ms.assetid: 2c6cf90b-ce9e-4ea9-849d-22170f65ffb0
-description: 
+description: A rental threaded interface was simultaneously accessed from multiple threads.
 keywords:
 - D1105 Threading Violation Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1105: Threading Violation

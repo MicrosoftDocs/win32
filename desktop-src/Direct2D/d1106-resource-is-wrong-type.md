@@ -1,7 +1,7 @@
 ---
 title: D1106 Resource Is Wrong Type
 ms.assetid: 79a618cb-1d05-4895-b801-7663890b456a
-description: 
+description: The given resource is not of an expected type.
 keywords:
 - D1106 Resource Is Wrong Type Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1106: Resource Is Wrong Type

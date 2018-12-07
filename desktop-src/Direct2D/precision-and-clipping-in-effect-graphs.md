@@ -145,7 +145,7 @@ Note that the precision set on an effect will propagate to downstream effects in
 
 Below is the full recursive logic used to determine the minimum precision for an intermediate buffer storing the output of a given transform node:
 
-![](images/precision-and-clipping-4.png)
+![Intermediate buffer minimum precision logic](images/precision-and-clipping-4.png)
 
  
 

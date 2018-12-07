@@ -1,7 +1,7 @@
 ---
 title: D1103 Leaked Handle
 ms.assetid: 9bb08cd6-104a-4168-b14e-3caec1679388
-description: 
+description: An interface was created but not released.
 keywords:
 - D1103 Leaked Handle Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1103: Leaked Handle

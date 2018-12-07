@@ -6,6 +6,7 @@ keywords:
 - Direct2D,enumerations
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Enumerations
@@ -584,7 +585,7 @@ Starting in Windows 8, the <strong>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_sprite_options"><strong>D2D1_SPRITE_OPTIONS</strong></a><br/></td>
-<td>Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch"><strong>ID2D1DeviceContext3::DrawSpriteBatch</strong></a>.<br/></td>
+<td>Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-drawspritebatch(id2d1spritebatch_uint32_uint32_id2d1bitmap_d2d1_bitmap_interpolation_mode_d2d1_sprite_options)"><strong>ID2D1DeviceContext3::DrawSpriteBatch</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop"><strong>D2D1_STRAIGHTEN_PROP</strong></a><br/></td>
