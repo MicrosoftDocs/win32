@@ -6,6 +6,7 @@ keywords:
 - Direct2D,layers
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Layers Overview
@@ -41,7 +42,7 @@ Windows 8 introduced new layer related APIs that simplify, improve the performa
 
 ### ID2D1DeviceContext and PushLayer
 
-The [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
+The [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
 
 ### D2D1\_LAYER\_PARAMETERS1 and D2D1\_LAYER\_OPTIONS1
 
@@ -65,15 +66,15 @@ Starting in Windows 8, Direct2D supports interoperation with Direct3D and GDI w
 
 ## Creating Layers
 
-Working with layers requires familiarity with the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer), [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) methods, and the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure, which contains a set of parametric data that defines how the layer can be used. The following list describes the methods and structure.
+Working with layers requires familiarity with the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)), [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) methods, and the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure, which contains a set of parametric data that defines how the layer can be used. The following list describes the methods and structure.
 
--   Call the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) method to create a layer resource.
+-   Call the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method to create a layer resource.
     > [!Note]  
-    > Starting in Windows 8, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) method and then pass NULL to the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method on the [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface. This is simpler and allows Direct2D to automatically manage the layer resource and share resources between layers and effect graphs.
+    > Starting in Windows 8, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method on the [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface. This is simpler and allows Direct2D to automatically manage the layer resource and share resources between layers and effect graphs.
 
      
 
--   After render target has begun drawing (after its [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method has been called), you can use the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Dd316869(v=VS.85).aspx) method. The **PushLayer** method adds the specified layer to the render target, so that the target receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) is called. This method takes an [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) object returned by calling [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) and an *layerParameters* in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure. The following table describes the fields of the structure. 
+-   After render target has begun drawing (after its [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method has been called), you can use the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Dd316869(v=VS.85).aspx) method. The **PushLayer** method adds the specified layer to the render target, so that the target receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) is called. This method takes an [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) object returned by calling [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) and an *layerParameters* in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure. The following table describes the fields of the structure. 
 
     | Field                 | Description                                                                                                                                                                                                                                                                 |     |
     |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
@@ -98,7 +99,7 @@ Working with layers requires familiarity with the [**CreateLayer**](/windows/des
 
 -   To composite the contents of the layer into the render target, call the [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) method. You must call the **PopLayer** method before you call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method.
 
-The following example shows how to use [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer), [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx). All fields in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure are set to their defaults, except **opacityBrush**, which is set to an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx).
+The following example shows how to use [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)), [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx). All fields in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure are set to their defaults, except **opacityBrush**, which is set to an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx).
 
 
 ```C++

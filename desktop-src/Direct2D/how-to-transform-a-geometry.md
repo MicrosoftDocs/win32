@@ -4,11 +4,12 @@ description: Shows how to transform a geometry using Direct2D.
 ms.assetid: de434615-14b1-4b66-b09b-e90468e03d58
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # How to Transform a Geometry
 
-To transform a geometry, you can either apply the transform to the render target by calling [**SetTransform**](id2d1rendertarget-settransform.md) or apply the transform to the geometry by calling [**CreateTransformedGeometry**](/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry). Although both approaches transform a geometry, they have some fundamental differences. **CreateTransformedGeometry** affects the fill, but does not affect the stroke width. Further, **CreateTransformedGeometry** transforms the geometry alone without impacting other shapes on the render target, whereas [**SetTransform**](https://msdn.microsoft.com/library/Dd742690(v=VS.85).aspx) applies the transform to all shapes on the render target.
+To transform a geometry, you can either apply the transform to the render target by calling [**SetTransform**](id2d1rendertarget-settransform.md) or apply the transform to the geometry by calling [**CreateTransformedGeometry**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f__id2d1transformedgeometry)). Although both approaches transform a geometry, they have some fundamental differences. **CreateTransformedGeometry** affects the fill, but does not affect the stroke width. Further, **CreateTransformedGeometry** transforms the geometry alone without impacting other shapes on the render target, whereas [**SetTransform**](https://msdn.microsoft.com/library/Dd742690(v=VS.85).aspx) applies the transform to all shapes on the render target.
 
 This how-to topic describes how to transform a geometry by calling [**CreateTransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371307(v=VS.85).aspx).
 

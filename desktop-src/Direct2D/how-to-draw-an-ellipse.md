@@ -4,6 +4,7 @@ description: This topic describes how to draw a basic shape.
 ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # How to Draw and Fill a Basic Shape
@@ -20,7 +21,7 @@ This topic contains the following sections:
 
 ## Draw the Outline of an Ellipse with a Solid Stroke
 
-To draw the outline of an ellipse, you define a brush (such as a [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) or [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx)) for painting the outline and a [**D2D1\_ELLIPSE**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse) for describing the ellipse's position and dimensions, then pass these objects to the [**ID2D1RenderTarget::DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-drawellipse) method. The following example creates a black solid color brush and stores it in the m\_spBlackBrush class member.
+To draw the outline of an ellipse, you define a brush (such as a [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) or [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx)) for painting the outline and a [**D2D1\_ELLIPSE**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse) for describing the ellipse's position and dimensions, then pass these objects to the [**ID2D1RenderTarget::DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) method. The following example creates a black solid color brush and stores it in the m\_spBlackBrush class member.
 
 
 ```C++
@@ -71,7 +72,7 @@ hr = m_pDirect2dFactory->CreateStrokeStyle(strokeStyleProperties, NULL, 0, &m_pS
 
 
 
-The next example uses the stroke style with the [**DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-drawellipse) method. This example produces the output shown in the following illustration.
+The next example uses the stroke style with the [**DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) method. This example produces the output shown in the following illustration.
 
 ![illustration of an ellipse with a dashed stroke](images/drawandfillellipseexample-2.png)
 
@@ -84,7 +85,7 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
 ## Draw and Fill an Ellipse
 
-To paint the interior of an ellipse, you use the [**FillEllipse**](/windows/desktop/api/d2d1/nf-d2d1-fillellipse) method. The following example uses the [**DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-drawellipse) method to outline the ellipse, then uses the **FillEllipse** method to paint its interior. This example produces the output shown in the following illustration.
+To paint the interior of an ellipse, you use the [**FillEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) method. The following example uses the [**DrawEllipse**]/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) method to outline the ellipse, then uses the **FillEllipse** method to paint its interior. This example produces the output shown in the following illustration.
 
 ![illustration of an ellipse with a dashed stroke and then filled with a solid gray color](images/drawandfillellipseexample-3.png)
 

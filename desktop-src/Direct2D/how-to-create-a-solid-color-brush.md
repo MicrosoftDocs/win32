@@ -4,11 +4,12 @@ description: Shows how to create a solid color brush using Direct2D.
 ms.assetid: 70700b82-2294-46be-b1c0-fc89def441e2
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # How to Create a Solid Color Brush
 
-To create a solid color brush, use the [**ID2DRenderTarget::CreateSolidColorBrush**](/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush) method and specify the color with which you want to paint. Some of the **CreateSolidColorBrush** overloads also enable you to specify the opacity of the brush.
+To create a solid color brush, use the [**ID2DRenderTarget::CreateSolidColorBrush**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)) method and specify the color with which you want to paint. Some of the **CreateSolidColorBrush** overloads also enable you to specify the opacity of the brush.
 
 The following code shows how to create a solid yellow-green brush to fill a square, and a solid black brush to draw the outline of the square. The code produces the output shown in the following illustration.
 
@@ -22,7 +23,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
 
     
 
-2.  Call the [**CreateSolidColorBrush**](/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush) method to create the brushes:
+2.  Call the [**CreateSolidColorBrush**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)) method to create the brushes:
     ```C++
     if (SUCCEEDED(hr))
     {

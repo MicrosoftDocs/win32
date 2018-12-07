@@ -4,6 +4,7 @@ description: Describes how to use path geometries to define complex shapes.
 ms.assetid: 38a290be-b915-4317-b9b1-0e49e40dc8ec
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Path Geometries Overview
@@ -33,7 +34,7 @@ Path geometries are represented by the [**ID2D1PathGeometry**](https://msdn.micr
 
 [**ID2D1GeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316592(v=VS.85).aspx) describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
 
-A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the [**BeginFigure**](https://msdn.microsoft.com/en-us/library/Dd316929(v=VS.85).aspx) method, passing in the figure's starting point, and then use its Add methods (such as [**AddLine**](https://msdn.microsoft.com/en-us/library/Dd316604(v=VS.85).aspx) and [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-addbezier)) to add segments. When you are finished adding segments, call the [**EndFigure**](https://msdn.microsoft.com/en-us/library/Dd316934(v=VS.85).aspx) method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the [**Close**](https://msdn.microsoft.com/en-us/library/Dd316932(v=VS.85).aspx) method.
+A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the [**BeginFigure**](https://msdn.microsoft.com/en-us/library/Dd316929(v=VS.85).aspx) method, passing in the figure's starting point, and then use its Add methods (such as [**AddLine**](https://msdn.microsoft.com/en-us/library/Dd316604(v=VS.85).aspx) and [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) to add segments. When you are finished adding segments, call the [**EndFigure**](https://msdn.microsoft.com/en-us/library/Dd316934(v=VS.85).aspx) method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the [**Close**](https://msdn.microsoft.com/en-us/library/Dd316932(v=VS.85).aspx) method.
 
 ## Example: Create a Complex Drawing
 
@@ -141,7 +142,7 @@ The example then populates another path geometry for the sun as shown in the fol
 
 ![illustration of an arc and bezier curves that show the sun](images/path-geo-sun.png)
 
-To do this, the path geometry creates a sink, and adds a figure for the arc and a figure for each flare to the sink. By repeating the sequence of [**BeginFigure**](https://msdn.microsoft.com/en-us/library/Dd316929(v=VS.85).aspx), its Add (such as [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-addbezier)) methods, and [**EndFigure**](https://msdn.microsoft.com/en-us/library/Dd316934(v=VS.85).aspx), multiple figures are added to the sink.
+To do this, the path geometry creates a sink, and adds a figure for the arc and a figure for each flare to the sink. By repeating the sequence of [**BeginFigure**](https://msdn.microsoft.com/en-us/library/Dd316929(v=VS.85).aspx), its Add (such as [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))) methods, and [**EndFigure**](https://msdn.microsoft.com/en-us/library/Dd316934(v=VS.85).aspx), multiple figures are added to the sink.
 
 The following code shows how to do this.
 

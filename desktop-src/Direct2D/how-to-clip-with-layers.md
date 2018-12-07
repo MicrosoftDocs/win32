@@ -4,6 +4,7 @@ description: Shows how to clip a region with layers.
 ms.assetid: eaeb6cfd-de62-46f1-972d-a11e0ccc11d9
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # How to Clip to a Geometric Mask
@@ -13,7 +14,7 @@ This topic describes how to use a geometric mask to clip a region of a layer.
 **To clip a region with a geometric mask**
 
 1.  Create the [**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx) that will be used to clip the region.
-2.  Call [**ID2D1RenderTarget::CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) to create a layer.
+2.  Call [**ID2D1RenderTarget::CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) to create a layer.
 3.  Call [**ID2D1RenderTarget::PushLayer**](https://msdn.microsoft.com/en-us/library/Dd316869(v=VS.85).aspx) and pass the geometric mask you defined in step 1.
 4.  Draw the content to clip.
 5.  Call [**ID2D1RenderTarget::PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) to remove the layer from the render target.
@@ -55,10 +56,10 @@ SafeRelease(&pSink);
 
 
 
-Call [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer) to create a layer.
+Call [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) to create a layer.
 
 > [!Note]  
-> Starting with Windows 8, you don't need to call [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-createlayer). In most situations performance is better if you don't call this method and Direct2D manages the layer resources.
+> Starting with Windows 8, you don't need to call [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)). In most situations performance is better if you don't call this method and Direct2D manages the layer resources.
 
  
 

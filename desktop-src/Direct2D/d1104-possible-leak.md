@@ -1,7 +1,7 @@
 ---
 title: D1104 Possible Leak
 ms.assetid: 564de2e2-5004-43e8-8616-1ab11127738a
-description: 
+description: The factory was released but the interface created from it is still alive. While it is valid to release resources after releasing the factory, this condition could be indicative of a memory leak.
 keywords:
 - D1104 Possible Leak Direct2D
 topic_type:
@@ -12,6 +12,7 @@ api_type:
 - NA
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # D1104: Possible Leak
