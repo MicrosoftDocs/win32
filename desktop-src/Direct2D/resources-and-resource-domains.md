@@ -6,6 +6,7 @@ keywords:
 - Direct2D,resources
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Resources Overview
@@ -93,7 +94,7 @@ You can share resources created by a DXGI surface render target with any other D
 
 ### Compatible Render Targets and Shared Bitmaps
 
-You can share resources between a render target and compatible render targets that are created by that render target. To create a compatible render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget) method.
+You can share resources between a render target and compatible render targets that are created by that render target. To create a compatible render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) method.
 
 You can use the [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) that can be shared between the two render targets that are specified in the method call, if the method succeeds. This method will succeed as long as the two render targets use the same underlying device for rendering.
 

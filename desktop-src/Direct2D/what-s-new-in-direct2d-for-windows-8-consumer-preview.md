@@ -4,6 +4,7 @@ description: Here are some of the new additions to Direct2D.
 ms.assetid: BA459FF0-9457-4652-A97C-BD4EC57EC8E2
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # What's new in Direct2D
@@ -63,7 +64,7 @@ The following features and APIs were added or updated for Windows 10.
 Starting in Windows 10, Direct2D provides support for creating and rendering sprite batches. Compared to the general-purpose [**DrawImage**](id2d1devicecontext-drawimage-overload.md) method, sprite batches incur dramatically less per-image CPU overhead. This makes them ideal for scenarios involving hundreds or thousands of concurrent images, such as game sprites or particle systems. For more information, see the following topics:
 
 -   [**ID2D1DeviceContext3::CreateSpriteBatch**](https://msdn.microsoft.com/en-us/library/Mt619827(v=VS.85).aspx) method
--   [**ID2D1DeviceContext3::DrawSpriteBatch**](/windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch) methods
+-   [**ID2D1DeviceContext3::DrawSpriteBatch**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-drawspritebatch(id2d1spritebatch_id2d1bitmap_d2d1_bitmap_interpolation_mode_d2d1_sprite_options)) methods
 -   [**ID2D1SpriteBatch**](https://msdn.microsoft.com/en-us/library/Mt619833(v=VS.85).aspx) interface
 
 ### Gradient meshes

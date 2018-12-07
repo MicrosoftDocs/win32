@@ -4,6 +4,7 @@ description: Describes how block compression works and how to use it in WIC and 
 ms.assetid: 52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Block compression
@@ -111,7 +112,7 @@ The following methods are updated in Windows 8.1 to support BC formats:
 
 -   [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/en-us/library/Hh847982(v=VS.85).aspx)
 -   [**ID2D1DeviceContext::CreateBitmap**](https://msdn.microsoft.com/en-us/library/Hh404480(v=VS.85).aspx)
--   [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/desktop/api/d2d1_1/nf-d2d1_1-createbitmapfromdxgisurface)
+-   [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1))
 -   [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx)
 -   [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md)
 -   [**ID2D1Bitmap::CopyFromMemory**](https://msdn.microsoft.com/en-us/library/Dd371155(v=VS.85).aspx)

@@ -7,6 +7,7 @@ keywords:
 - Direct2D device context
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # How to render by using a Direct2D device context
@@ -281,7 +282,7 @@ DX::ThrowIfFailed(
 
 Let's walk through the steps in the preceding code example.
 
-1.  Call the [**CreateSolidColorBrush**](/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush) to create a brush to paint the rectangle.
+1.  Call the [**CreateSolidColorBrush**](/windows/desktop/dd371871(v=vs.85).aspx) to create a brush to paint the rectangle.
 2.  Call the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method before issuing any drawing commands.
 3.  Call the [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method the rectangle to be drawn and the brush.
 4.  Call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method after you've finished issuing drawing commands.

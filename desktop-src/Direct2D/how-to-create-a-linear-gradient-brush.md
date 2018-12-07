@@ -4,11 +4,12 @@ description: Shows how to create a linear gradient brush using Direct2D.
 ms.assetid: 3cf5acc6-2f17-49d4-aca5-a84a846d1749
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # How to Create a Linear Gradient Brush
 
-To create a linear gradient brush, use the [**CreateLinearGradientBrush**](/windows/desktop/api/d2d1/nf-d2d1-createlineargradientbrush) method and specify the linear gradient brush properties and the gradient stop collection. Some overloads enable you to specify the brush properties. The following code shows how to create a linear gradient brush to fill a circle, and a solid black brush to draw the outline of the circle.
+To create a linear gradient brush, use the [**CreateLinearGradientBrush**](/windows/desktop/dd371845(v=vs.85).aspx) method and specify the linear gradient brush properties and the gradient stop collection. Some overloads enable you to specify the brush properties. The following code shows how to create a linear gradient brush to fill a circle, and a solid black brush to draw the outline of the circle.
 
 The code produces the output shown in the following illustration.
 

@@ -7,6 +7,7 @@ keywords:
 - Direct2D,alpha modes
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: "seodec18"
 ---
 
 # Supported Pixel Formats and Alpha Modes
@@ -33,7 +34,7 @@ This topic describes the pixel formats and alpha modes supported by the various 
 
 ## Supported YUV Formats for DXGI Image Source
 
-An [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) is an abstracted provider of pixels. It can be instantiated from either WIC ([**CreateImageSourceFromWic**](/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic)) or an [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) ([**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx)).
+An [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) is an abstracted provider of pixels. It can be instantiated from either WIC ([**CreateImageSourceFromWic**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_id2d1imagesourcefromwic)) or an [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) ([**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx)).
 
 [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx) supports the same set of pixel formats and alpha modes as [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx).
 
@@ -185,7 +186,7 @@ These formats are in addition to the formats supported by the [**ID2D1HwndRender
 
 ## Supported Formats for Compatible Render Target
 
-A compatible render target (an [**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371146(v=VS.85).aspx) that is created by one of the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371825) methods) inherits the supported formats and alpha modes of the render target that created it. A compatible render target also supports the following format and alpha mode combinations, regardless of what its parent supports.
+A compatible render target (an [**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371146(v=VS.85).aspx) that is created by one of the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](https://docs.microsoft.com/en-us/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) methods) inherits the supported formats and alpha modes of the render target that created it. A compatible render target also supports the following format and alpha mode combinations, regardless of what its parent supports.
 
 
 
