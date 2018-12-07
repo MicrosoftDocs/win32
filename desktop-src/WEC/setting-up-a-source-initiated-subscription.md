@@ -170,7 +170,7 @@ Find more information in this article: https://technet.microsoft.com/en-us/libra
 
     To create a new listener, use the following command:
 
-    **winrm create winrm/config/Listener?Address=*+Transport=HTTPS @{Hostname="&lt;*FQDN of the collector&gt;*";CertificateThumbprint="&lt;*Thumb print of the server authentication certificate&gt;*"}**
+    **winrm create winrm/config/Listener?Address=&#42;+Transport=HTTPS @{Hostname="**&lt;_FQDN of the collector_&gt;**";CertificateThumbprint="**&lt;_Thumb print of the server authentication certificate_&gt;**"}**
 
 ### Configure certificate mapping on the Event Collector
 
@@ -179,11 +179,11 @@ Find more information in this article: https://technet.microsoft.com/en-us/libra
 
     This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers:
 
-    **winrm create winrm/config/service/certmapping?Issuer=&lt;Thumbprint of the issuing CA certificate&gt;+Subject=&#42;+URI=&#42; @{UserName="&lt;username&gt;";Password="&lt;password&gt;"} -remote:localhost**
+    **winrm create winrm/config/service/certmapping?Issuer**=&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
 
 3. From a client test the listener and the certificate mapping with the following command:
 
-    **winrm g winrm/config -r:https://&lt;Event Collector FQDN&gt;:5986 -a:certificate -certificate:"&lt;Thumbprint of the client authentication certificate&gt;"**
+    **winrm g winrm/config -r:https://**&lt;_Event Collector FQDN_&gt;**:5986 -a:certificate -certificate:"**&lt;_Thumbprint of the client authentication certificate_&gt;**"**
 
     This should return the WinRM configuration of the Event collector. **Do not** move past this step if the configuration is not displayed.
 
@@ -201,9 +201,9 @@ You can list the configured certmapping entries with the command:
 
 Once tested the listener you can restrict the security of the certificate mapping:
 
-**winrm delete winrm/config/service/certmapping?Issuer=&lt;Thumbprint of the issuing CA certificate&gt;+Subject=*+URI=* -remote:localhost**
+**winrm delete winrm/config/service/certmapping?Issuer=**&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; -remote:localhost**
 
-**winrm create winrm/config/service/certmapping?Issuer=&lt;Thumbprint of the issuing CA certificate&gt;+Subject=*+URI=https://&lt;Event Collector FQDN&gt;/WEC/* @{UserName="&lt;username&gt;";Password="&lt;password&gt;"} -remote:localhost**
+**winrm create winrm/config/service/certmapping?Issuer=**&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=https://**&lt;_Event Collector FQDN_&gt;**/WEC/* @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
 
 ### Event subscription configuration
 
@@ -243,12 +243,12 @@ To be able to forward the Security log you need to add the NETWORK SERVICE accou
 4. Enable the policy and click the SubscriptionManagers “Show...” button.
 5. In the SubscriptionManagers window enter the following string:
 
-    **Server=HTTPS://&lt;FQDN of the Event Collector server&gt;:5986/wsman/SubscriptionManager/WEC,Refresh= &lt;Refresh interval in seconds&gt;,IssuerCA=&lt;Thumbprint of the issuing CA certificate&gt;**
+    **Server=HTTPS://**&lt;_FQDN of the Event Collector server_&gt;**:5986/wsman/SubscriptionManager/WEC,Refresh=** &lt;_Refresh interval in seconds_&gt;**,IssuerCA=**&lt;_Thumbprint of the issuing CA certificate_&gt;
 
 6. Run the following command line to refresh Local Group Policy settings:Gpupdate /force
 7. These steps should produce event 104 in your source computer Event Viewer Applications and Services Logs\Microsoft\Windows\Eventlog-ForwardingPlugin\Operational log with the following message:
 
-    "The forwarder has successfully connected to the subscription manager at address <FQDN>.",followed by event 100 with the message: "The subscription <sub_name> is created successfully."
+    "The forwarder has successfully connected to the subscription manager at address &lt;FQDN&gt;followed by event 100 with the message: "The subscription &lt;sub_name&gt; is created successfully."
 
 8. On the Event Collector, the Subscription Runtime Status will show now 1 Active computer.
 9. Open the ForwardedEvents log on the Event Collector and check if you have the events forwarded from the Source computers.
