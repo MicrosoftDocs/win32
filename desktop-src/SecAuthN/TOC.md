@@ -380,7 +380,6 @@
 #### [LSA_GET_CALL_INFO](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_call_info)
 #### [GetCertificateFromCred](getcertificatefromcred.md)
 #### [LSA_GET_CLIENT_INFO](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_client_info)
-#### [GetCredentialKey](getcredentialkey.md)
 #### [LSA_GET_CREDENTIALS](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_credentials)
 #### [GetOpenCardName](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea)
 #### [LSA_GET_USER_AUTH_DATA](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_user_auth_data)

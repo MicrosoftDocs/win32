@@ -468,8 +468,6 @@
 ##### [CoEnterServiceDomain](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain)
 ##### [CoGetDefaultContext](/windows/desktop/api/combaseapi/nf-combaseapi-cogetdefaultcontext)
 ##### [CoLeaveServiceDomain](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain)
-##### [ComPlusCompleteCbbSetup](compluscompletecbbsetup.md)
-##### [GetComPlusPackageInstallStatus](getcompluspackageinstallstatus.md)
 ##### [GetDispenserManager](/windows/desktop/api/MtxDM/nf-mtxdm-getdispensermanager)
 ##### [GetManagedExtensions](/windows/desktop/api/ComSvcs/nf-comsvcs-getmanagedextensions)
 ##### [GetObjectContext](/windows/desktop/api/ComSvcs/nf-comsvcs-getobjectcontext)
