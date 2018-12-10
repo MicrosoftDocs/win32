@@ -203,7 +203,6 @@
 ##### [APTTYPEQUALIFIER](https://msdn.microsoft.com/en-us/library/Dd542638(v=VS.85).aspx)
 ##### [BIND_FLAGS](/windows/desktop/api/Objidl/ne-objidl-tagbind_flags)
 ##### [BINDSPEED](/windows/desktop/api/Oleidl/ne-oleidl-tagbindspeed)
-##### [BSCO_OPTION](bsco-option.md)
 ##### [CALLFRAME_COPY](/windows/desktop/api/CallObj/ne-callobj-__midl_icallframe_0003)
 ##### [CALLFRAME_FREE](/windows/desktop/api/CallObj/ne-callobj-callframe_free)
 ##### [CALLFRAME_NULL](/windows/desktop/api/CallObj/ne-callobj-callframe_null)
