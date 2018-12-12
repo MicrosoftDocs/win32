@@ -27,17 +27,17 @@ The [JET\_RECORDLIST](dn335223\(v=exchg.10\).md) type exposes the following memb
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335244(v=exchg.10).md">columnidBookmark</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the bookmark of the record. The column is of type JET_coltyp.Text.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335252(v=exchg.10).md">cRecords</a></td>
 <td>Gets the number of records in the temporary table.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335255(v=exchg.10).md">tableid</a></td>
 <td>Gets tableid of the temporary table. This should be closed when the table is no longer needed.</td>
 </tr>

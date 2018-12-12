@@ -27,27 +27,27 @@ The [JET\_OBJECTINFO](dn335219\(v=exchg.10\).md) type exposes the following memb
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335199(v=exchg.10).md">cPage</a></td>
 <td>Gets the number of pages used by the table.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335201(v=exchg.10).md">cRecord</a></td>
 <td>Gets the number of records in the table.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335202(v=exchg.10).md">flags</a></td>
 <td>Gets the table type flags.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335203(v=exchg.10).md">grbit</a></td>
 <td>Gets the table options.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335205(v=exchg.10).md">objtyp</a></td>
 <td>Gets the JET_OBJTYP of the table. Currently only tables will be returned (that is, <a href="hh565069(v=exchg.10).md">Table</a>).</td>
 </tr>

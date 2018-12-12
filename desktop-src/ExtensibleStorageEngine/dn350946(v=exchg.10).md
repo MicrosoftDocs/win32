@@ -32,17 +32,17 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350924(v=exchg.10).md">Instance(String)</a></td>
 <td>Initializes a new instance of the Instance class. The underlying JET_INSTANCE is allocated, but not initialized.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350927(v=exchg.10).md">Instance(String, String)</a></td>
 <td>Initializes a new instance of the Instance class. The underlying JET_INSTANCE is allocated, but not initialized.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350948(v=exchg.10).md">Instance(String, String, TermGrbit)</a></td>
 <td>Initializes a new instance of the Instance class. The underlying JET_INSTANCE is allocated, but not initialized.</td>
 </tr>

@@ -27,7 +27,7 @@ The [EsentResource](dn319890\(v=exchg.10\).md) type exposes the following member
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.protproperty(EXCHG.10).gif" title="Protected property" alt="Protected property" /></td>
+<td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Protected property" alt="Protected property" /></td>
 <td><a href="dn350578(v=exchg.10).md">HasResource</a></td>
 <td>Gets a value indicating whether the underlying resource is currently allocated.</td>
 </tr>

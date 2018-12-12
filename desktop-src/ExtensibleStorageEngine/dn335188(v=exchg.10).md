@@ -27,22 +27,22 @@ The [JET\_INSTANCE\_INFO](dn335182\(v=exchg.10\).md) type exposes the following 
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335189(v=exchg.10).md">cDatabases</a></td>
 <td>Gets the number of databases that are attached to the database instance.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335190(v=exchg.10).md">hInstanceId</a></td>
 <td>Gets the JET_INSTANCE of the given instance.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335193(v=exchg.10).md">szDatabaseFileName</a></td>
 <td>Gets a collection of strings, each holding the file name of a database that is attached to the database instance. The array has cDatabases elements.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335194(v=exchg.10).md">szInstanceName</a></td>
 <td>Gets the name of the database instance. This value can be null if the instance does not have a name.</td>
 </tr>

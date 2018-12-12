@@ -27,22 +27,22 @@ The [JET\_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh578675(v=exchg.10).md">Addition</a></td>
 <td>Add the sizes in two JET_RECSIZE structures.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh596362(v=exchg.10).md">Equality</a></td>
 <td>Determines whether two specified instances of JET_RECSIZE are equal.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh578809(v=exchg.10).md">Inequality</a></td>
 <td>Determines whether two specified instances of JET_RECSIZE are not equal.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh596696(v=exchg.10).md">Subtraction</a></td>
 <td>Calculate the difference in sizes between two JET_RECSIZE structures.</td>
 </tr>

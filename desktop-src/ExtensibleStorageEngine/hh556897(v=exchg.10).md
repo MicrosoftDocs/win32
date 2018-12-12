@@ -27,22 +27,22 @@ The [JET\_THREADSTATS](hh578565\(v=exchg.10\).md) type exposes the following mem
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh163281(v=exchg.10).md">Addition</a></td>
 <td>Add the stats in two JET_THREADSTATS structures.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh558521(v=exchg.10).md">Equality</a></td>
 <td>Determines whether two specified instances of JET_THREADSTATS are equal.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh577527(v=exchg.10).md">Inequality</a></td>
 <td>Determines whether two specified instances of JET_THREADSTATS are not equal.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh557686(v=exchg.10).md">Subtraction</a></td>
 <td>Calculate the difference in stats between two JET_THREADSTATS structures.</td>
 </tr>

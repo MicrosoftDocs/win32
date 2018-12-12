@@ -32,17 +32,17 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350932(v=exchg.10).md">Init()</a></td>
 <td>Initialize the JET_INSTANCE.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350954(v=exchg.10).md">Init(InitGrbit)</a></td>
 <td>Initialize the JET_INSTANCE.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350934(v=exchg.10).md">Init(JET_RSTINFO, InitGrbit)</a></td>
 <td>Initialize the JET_INSTANCE. This API requires at least the Vista version of ESENT.</td>
 </tr>

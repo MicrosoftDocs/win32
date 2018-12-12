@@ -27,17 +27,17 @@ The [EsentStopwatch](dn334867\(v=exchg.10\).md) type exposes the following membe
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn334934(v=exchg.10).md">Elapsed</a></td>
 <td>Gets the total elapsed time measured by the current instance.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn334933(v=exchg.10).md">IsRunning</a></td>
 <td>Gets a value indicating whether the EsentStopwatch timer is running.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn334930(v=exchg.10).md">ThreadStats</a></td>
 <td>Gets the total ESENT work stats measured by the current instance.</td>
 </tr>

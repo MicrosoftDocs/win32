@@ -27,12 +27,12 @@ The [JET\_RECPOS](dn335256\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn351021(v=exchg.10).md">centriesLT</a></td>
 <td>Gets or sets the approximate number of index entries less than the key.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335278(v=exchg.10).md">centriesTotal</a></td>
 <td>Gets or sets the approximate number of entries in the index.</td>
 </tr>

@@ -27,22 +27,22 @@ The [IndexSegment](dn350912\(v=exchg.10\).md) type exposes the following members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn350939(v=exchg.10).md">Coltyp</a></td>
 <td>Gets the type of the column being indexed.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn350918(v=exchg.10).md">ColumnName</a></td>
 <td>Gets name of the column being indexed.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn350938(v=exchg.10).md">IsAscending</a></td>
 <td>Gets a value indicating whether the index segment is ascending.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn350922(v=exchg.10).md">IsASCII</a></td>
 <td>Gets a value indicating whether the index segment is over an ASCII text column. This value is only meaningful for text column segments.</td>
 </tr>

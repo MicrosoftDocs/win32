@@ -27,22 +27,22 @@ The [JET\_LGPOS](hh578063\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh579511(v=exchg.10).md">HasValue</a></td>
 <td>Gets a value indicating whether this log position is null.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh565113(v=exchg.10).md">ib</a></td>
 <td>Gets or sets the byte offset represented by this log position. This offset is inside of the sector.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh566270(v=exchg.10).md">isec</a></td>
 <td>Gets or sets the sector number represented by this log position.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh577855(v=exchg.10).md">lGeneration</a></td>
 <td>Gets or sets the generation of this log position.</td>
 </tr>

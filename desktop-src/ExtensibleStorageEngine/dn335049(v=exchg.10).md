@@ -27,47 +27,47 @@ The [JET\_COLUMNLIST](dn335047\(v=exchg.10\).md) type exposes the following memb
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335103(v=exchg.10).md">columnidcbMax</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the maximum length of the column.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335051(v=exchg.10).md">columnidcoltyp</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the type of the column.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335101(v=exchg.10).md">columnidcolumnid</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the id of the column.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335050(v=exchg.10).md">columnidcolumnname</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the name of the column.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335104(v=exchg.10).md">columnidCp</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the code page of the column.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335052(v=exchg.10).md">columnidDefault</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the default value of the column.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335105(v=exchg.10).md">columnidgrbit</a></td>
 <td>Gets the columnid of the column in the temporary table which stores the grbit of the column.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335055(v=exchg.10).md">cRecord</a></td>
 <td>Gets the number of records in the temporary table.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335107(v=exchg.10).md">tableid</a></td>
 <td>Gets tableid of the temporary table. This should be closed when the table is no longer needed.</td>
 </tr>

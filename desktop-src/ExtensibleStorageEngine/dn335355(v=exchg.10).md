@@ -27,22 +27,22 @@ The [JET\_INDEX\_COLUMN](dn335349\(v=exchg.10\).md) type exposes the following m
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335478(v=exchg.10).md">columnid</a></td>
 <td>Gets or sets the column identifier for the column to retrieve.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335357(v=exchg.10).md">grbit</a></td>
 <td>Gets or sets the option for this column comparison.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335479(v=exchg.10).md">pvData</a></td>
 <td>Gets or sets the value to comparte the column with.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335358(v=exchg.10).md">relop</a></td>
 <td>Gets or sets the filter comparison operation.</td>
 </tr>

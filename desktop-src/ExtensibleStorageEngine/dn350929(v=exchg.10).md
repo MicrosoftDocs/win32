@@ -27,7 +27,7 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn350944.protfield(EXCHG.10).gif" title="Protected field" alt="Protected field" /></td>
+<td><img src="../images/dn350944.protfield(exchg.10).gif" title="Protected field" alt="Protected field" /></td>
 <td><a href="http://msdn2.microsoft.com/en-us/library/exzskf0s">handle</a></td>
 <td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>

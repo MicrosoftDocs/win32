@@ -29,7 +29,7 @@ dev_langs:
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
+<td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn292088(v=exchg.10).md">EsentException</a></td>
 <td>Base class for ESENT exceptions.</td>
 </tr>

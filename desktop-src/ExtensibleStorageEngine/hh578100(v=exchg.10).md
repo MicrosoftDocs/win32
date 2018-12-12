@@ -29,7 +29,7 @@ The [IJET\_LOGTIME](hh596687\(v=exchg.10\).md) type exposes the following member
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh577833(v=exchg.10).md">HasValue</a></td>
 <td>Gets a value indicating whether the structure has a null value. (Inherited from <a href="hh578599(v=exchg.10).md">INullableJetStruct</a>.)</td>
 </tr>
@@ -51,7 +51,7 @@ Top
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh577639(v=exchg.10).md">ToDateTime</a></td>
 <td>Generate a DateTime representation of this IJET_LOGTIME.</td>
 </tr>
