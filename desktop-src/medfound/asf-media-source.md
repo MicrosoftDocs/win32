@@ -101,6 +101,20 @@ During the creation of the media source, the source resolver creates a byte stre
 
 To translate the time requested by the application, the media source enumerates the streams within the file and finds the stream that contains the appropriate ASF Index Object. If such a stream is found, the media source parses the stream’s ASF packets are parsed until the correct time code is reached. After it finds the correct sample it retrieves the corresponding presentation time or the time code from the sample, and returns it to the caller.
 
+### Script Command Support
+
+When you build an ASF topology that contains a script stream a Script Stream node is added to the topology. This node will send IMFSamples at the appropriate time. The IMFSample provided by the script source node stores the data in the IMFMediaBuffer associated with the sample. You can call CopyToBuffer on the sample to get an IMFMediaBuffer and then call Lock on the buffer to get the data. 
+
+Script stream payloads are packed into the buffer as a type string, followed by NULL, followed by the command string, followed by NULL. Strings are Unicode in the ASF format.
+
+For example, a payload might look like the following (where \0 indicates a NULL character):
+
+*URL\0http://contoso.com\0*
+
+*Text\0This is a caption\0*
+
+
+
 ## Related topics
 
 <dl> <dt>
