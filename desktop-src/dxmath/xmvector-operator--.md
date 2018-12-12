@@ -3,7 +3,7 @@ Description: Subtraction and negation operators.
 ms.assetid: b3a3da02-4fba-4f76-90d8-15f605c73f16
 title: operator - operators
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/6/2018
 ---
 
 # operator - operators
@@ -27,7 +27,7 @@ Subtraction and negation operators
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://www.bing.com/search?q=<strong>XMVECTOR::operator+-+(XMVECTOR)</strong>"><strong>XMVECTOR::operator - (XMVECTOR)</strong></a></td>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/ee421383"><strong>XMVECTOR::operator - (XMVECTOR)</strong></a></td>
 <td style="text-align: left;">Computes the negation of an <code>XMVECTOR</code> instance.<br/> The <code>operator -</code> takes an instance of <a href="xmvector-data-type"><strong>XMVECTOR Data Type</strong></a> and returns a new instance of <code>XMVECTOR</code>, with each component negated.<br/>
 <blockquote>
 [!Note]<br />
@@ -36,7 +36,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://www.bing.com/search?q=<strong>XMVECTOR::operator+-+(XMVECTOR,XMVECTOR)</strong>"><strong>XMVECTOR::operator - (XMVECTOR,XMVECTOR)</strong></a></td>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/ee421385"><strong>XMVECTOR::operator - (XMVECTOR,XMVECTOR)</strong></a></td>
 <td style="text-align: left;">Subtracts one instance of <code>XMVECTOR</code> from a second instance, returning the result in a new instance of <code>XMVECTOR</code>. <br/> The <code>operator -</code> subtracts each component of an instance of <a href="xmvector-data-type"><strong>XMVECTOR Data Type</strong></a> from each component of another instance of <code>XMVECTOR</code>, returning a new <code>XMVECTOR</code> instance containing the result. <br/>
 <blockquote>
 [!Note]<br />

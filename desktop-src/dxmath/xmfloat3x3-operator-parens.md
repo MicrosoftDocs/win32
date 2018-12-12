@@ -1,9 +1,9 @@
 ---
 Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT3X3.
 ms.assetid: 19daf862-df81-40d7-b0c7-809015d7f7c8
-title: operator () operators
+title: XMFLOAT3X3 operator () operators
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/6/2018
 topic_type: 
 - APIRef
 - kbSyntax

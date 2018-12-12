@@ -1,9 +1,9 @@
 ---
 Description: Assigns vector component data to the current instance of XMU565.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmu565.operator = '
-title: operator = operators
+title: XMU565 operator = operators
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/6/2018
 topic_type: 
 - APIRef
 - kbSyntax
