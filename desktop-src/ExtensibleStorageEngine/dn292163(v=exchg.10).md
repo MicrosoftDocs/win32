@@ -32,17 +32,17 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn292162(v=exchg.10).md">JetGetDatabaseInfo(JET_SESID, JET_DBID, JET_DBINFOMISC, JET_DbInfo)</a></td>
 <td>Retrieves certain information about the given database.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn292164(v=exchg.10).md">JetGetDatabaseInfo(JET_SESID, JET_DBID, Int32, JET_DbInfo)</a></td>
 <td>Retrieves certain information about the given database.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn292167(v=exchg.10).md">JetGetDatabaseInfo(JET_SESID, JET_DBID, String, JET_DbInfo)</a></td>
 <td>Retrieves certain information about the given database.</td>
 </tr>

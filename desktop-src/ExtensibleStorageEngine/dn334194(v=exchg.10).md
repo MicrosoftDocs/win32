@@ -27,42 +27,42 @@ The [DateTimeColumnValue](dn334238\(v=exchg.10\).md) type exposes the following 
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn334178(v=exchg.10).md">CheckDataCount</a></td>
 <td>Make sure the retrieved data is exactly the size needed for the structure. An exception is thrown if there is a mismatch. (Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
 <td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
 <td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
 <td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
 <td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn334242(v=exchg.10).md">GetValueFromBytes</a></td>
 <td>Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object. (Overrides <a href="dn334208(v=exchg.10).md">ColumnValue.GetValueFromBytes([], Int32, Int32, Int32)</a>.)</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
 <td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334223(v=exchg.10).md">ToString</a></td>
 <td>Gets a string representation of this object. (Inherited from <a href="dn334171(v=exchg.10).md">ColumnValueOfStruct&lt;T&gt;</a>.)</td>
 </tr>

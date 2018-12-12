@@ -27,12 +27,12 @@ The [JET\_CONDITIONALCOLUMN](dn335053\(v=exchg.10\).md) type exposes the followi
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335060(v=exchg.10).md">grbit</a></td>
 <td>Gets or sets the options for the conditional index.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335113(v=exchg.10).md">szColumnName</a></td>
 <td>Gets or sets the name of the conditional column.</td>
 </tr>

@@ -32,12 +32,12 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn351179(v=exchg.10).md">Commit(CommitTransactionGrbit)</a></td>
 <td>Commit a transaction. This object should be in a transaction.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn351243(v=exchg.10).md">Commit(CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)</a></td>
 <td>Commit a transaction. This object should be in a transaction.</td>
 </tr>

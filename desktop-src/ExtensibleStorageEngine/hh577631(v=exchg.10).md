@@ -32,12 +32,12 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh557934(v=exchg.10).md">Equals(Object)</a></td>
 <td>Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Object.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh565657(v=exchg.10).md">Equals(JET_DBINFOMISC)</a></td>
 <td>Indicates whether the current object is equal to another object of the same type.</td>
 </tr>

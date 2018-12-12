@@ -32,12 +32,12 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn335062(v=exchg.10).md">Equals(Object)</a></td>
 <td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Object.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn351009(v=exchg.10).md">Equals(JET_COLUMNBASE)</a></td>
 <td>Returns a value indicating whether this instance is equal to another instance.</td>
 </tr>

@@ -27,27 +27,27 @@ The [JET\_BKINFO](hh577892\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh565018(v=exchg.10).md">bklogtimeMark</a></td>
 <td>Gets the time of the backup.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh557983(v=exchg.10).md">genHigh</a></td>
 <td>Gets or sets the high generation of the backup.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh564751(v=exchg.10).md">genLow</a></td>
 <td>Gets the low generation of the backup.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh163405(v=exchg.10).md">HasValue</a></td>
 <td>Gets a value indicating whether this backup info is null.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh557029(v=exchg.10).md">lgposMark</a></td>
 <td>Gets the log position of the backup.</td>
 </tr>

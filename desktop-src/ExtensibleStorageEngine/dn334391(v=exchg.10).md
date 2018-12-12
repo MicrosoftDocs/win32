@@ -32,12 +32,12 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn274149(v=exchg.10).md">EsentDataException(SerializationInfo, StreamingContext)</a></td>
 <td>Initializes a new instance of the EsentDataException class. This constructor is used to deserialize a serialized exception.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn274233(v=exchg.10).md">EsentDataException(String, JET_err)</a></td>
 <td>Initializes a new instance of the EsentDataException class.</td>
 </tr>

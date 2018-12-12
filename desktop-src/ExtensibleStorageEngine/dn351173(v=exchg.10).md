@@ -27,7 +27,7 @@ The [Session](dn351164\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn351178(v=exchg.10).md">Implicit(Session to JET_SESID)</a></td>
 <td>Implicit conversion operator from a Session to a JET_SESID. This allows a Session to be used with APIs which expect a JET_SESID.</td>
 </tr>

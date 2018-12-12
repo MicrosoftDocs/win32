@@ -27,22 +27,22 @@ The [Windows8Grbits](dn335391\(v=exchg.10\).md) type exposes the following membe
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335502(v=exchg.10).md">IndexDotNetGuid</a></td>
 <td>Specifying this flag will change GUID sort order to .NET Framework standard.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335397(v=exchg.10).md">KeepDbAttachedAtEndOfRecovery</a></td>
 <td>Allows the database to remain attached at the end of recovery (for faster transition to running state).</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335500(v=exchg.10).md">PurgeCacheOnAttach</a></td>
 <td>Purge database pages on attach.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335394(v=exchg.10).md">TTDotNetGuid</a></td>
 <td>This option requests that the temporary table sort columns of type JET_coltypGUID according to .NET Framework GUID sort order.</td>
 </tr>

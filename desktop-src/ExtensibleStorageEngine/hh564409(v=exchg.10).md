@@ -27,7 +27,7 @@ The [JET\_OSSNAPID](hh558483\(v=exchg.10\).md) type exposes the following member
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh566820(v=exchg.10).md">Nil</a></td>
 <td>Gets a null JET_OSSNAPID.</td>
 </tr>

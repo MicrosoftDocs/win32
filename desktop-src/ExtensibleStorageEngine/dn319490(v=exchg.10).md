@@ -32,12 +32,12 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn319451(v=exchg.10).md">EsentInvalidColumnException()</a></td>
 <td>Initializes a new instance of the EsentInvalidColumnException class.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn350430(v=exchg.10).md">EsentInvalidColumnException(SerializationInfo, StreamingContext)</a></td>
 <td>Initializes a new instance of the EsentInvalidColumnException class. This constructor is used to deserialize a serialized exception.</td>
 </tr>

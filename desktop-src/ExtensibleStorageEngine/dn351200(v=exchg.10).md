@@ -29,17 +29,17 @@ The [Server2003Grbits](dn351281\(v=exchg.10\).md) type exposes the following mem
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn351203(v=exchg.10).md">EnumerateIgnoreUserDefinedDefault</a></td>
 <td>If a given column is not present in the record and it has a user defined default value then no column value will be returned. This option will prevent the callback that computes the user defined default value for the column from being called when enumerating the values for that column.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn351284(v=exchg.10).md">ForwardOnly</a></td>
 <td>This option requests that the temporary table only be created if the temporary table manager can use the implementation optimized for intermediate query results. If any characteristic of the temporary table would prevent the use of this optimization then the operation will fail with JET_errCannotMaterializeForwardOnlySort. A side effect of this option is to allow the temporary table to contain records with duplicate index keys. See <a href="hh558517(v=exchg.10).md">Unique</a> for more information.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn351209(v=exchg.10).md">WaitAllLevel0Commit</a></td>
 <td>All transactions previously committed by any session that have not yet been flushed to the transaction log file will be flushed immediately. This API will wait until the transactions have been flushed before returning to the caller. This option may be used even if the session is not currently in a transaction. This option cannot be used in combination with any other option.</td>
 </tr>

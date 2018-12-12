@@ -27,17 +27,17 @@ The [JET\_ENUMCOLUMNID](dn335139\(v=exchg.10\).md) type exposes the following me
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335141(v=exchg.10).md">columnid</a></td>
 <td>Gets or sets the columnid ID to enumerate.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335092(v=exchg.10).md">ctagSequence</a></td>
 <td>Gets or sets the count of column values (by one-based index) to enumerate for the specified column ID. If ctagSequence is 0 (zero) then rgtagSequence is ignored and all column values for the specified column ID will be enumerated.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335093(v=exchg.10).md">rgtagSequence</a></td>
 <td>Gets or sets the array of one-based indices into the array of column values for a given column. A single element is an itagSequence which is defined in JET_RETRIEVECOLUMN. An itagSequence of 0 (zero) means &quot;skip&quot;. An itagSequence of 1 means return the first column value of the column, 2 means the second, and so on.</td>
 </tr>

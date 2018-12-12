@@ -27,17 +27,17 @@ The [JET\_BKLOGTIME](hh557662\(v=exchg.10\).md) type exposes the following membe
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh565692(v=exchg.10).md">HasValue</a></td>
 <td>Gets a value indicating whether the JET_BKLOGTIME has a null value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh596158(v=exchg.10).md">IsSnapshot</a></td>
 <td>Gets a value indicating whether the JET_BKLOGTIME is for a snapshot backup.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="hh564416(v=exchg.10).md">IsUtc</a></td>
 <td>Gets a value indicating whether the JET_BKLOGTIME is in UTC.</td>
 </tr>

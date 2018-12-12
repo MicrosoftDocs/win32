@@ -27,12 +27,12 @@ The [JET\_BKLOGTIME](hh557662\(v=exchg.10\).md) type exposes the following membe
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh596626(v=exchg.10).md">Equality</a></td>
 <td>Determines whether two specified instances of JET_BKLOGTIME are equal.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="hh578879(v=exchg.10).md">Inequality</a></td>
 <td>Determines whether two specified instances of JET_BKLOGTIME are not equal.</td>
 </tr>

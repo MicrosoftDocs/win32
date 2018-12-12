@@ -32,12 +32,12 @@ Include inherited members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335301(v=exchg.10).md">JetPrereadKeys(JET_SESID, JET_TABLEID, [], [], Int32, Int32, PrereadKeysGrbit)</a></td>
 <td>If the records with the specified keys are not in the buffer cache then start asynchronous reads to bring the records into the database buffer cache.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335417(v=exchg.10).md">JetPrereadKeys(JET_SESID, JET_TABLEID, [], [], Int32, Int32, Int32, PrereadKeysGrbit)</a></td>
 <td>If the records with the specified keys are not in the buffer cache then start asynchronous reads to bring the records into the database buffer cache.</td>
 </tr>

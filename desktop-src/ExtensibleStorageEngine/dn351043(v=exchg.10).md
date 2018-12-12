@@ -27,27 +27,27 @@ The [JET\_RSTINFO](dn335235\(v=exchg.10\).md) type exposes the following members
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335246(v=exchg.10).md">crstmap</a></td>
 <td>Gets or sets the number of elements in the restore-map array.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335245(v=exchg.10).md">lgposStop</a></td>
 <td>Gets or sets the log position to stop recovery at.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn351053(v=exchg.10).md">logtimeStop</a></td>
 <td>Gets or sets the time at which it stopped.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335247(v=exchg.10).md">pfnStatus</a></td>
 <td>Gets or sets the callback to Gets or sets the status function.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn351045(v=exchg.10).md">rgrstmap</a></td>
 <td>Gets or sets the array of <a href="dn351048(v=exchg.10).md">JET_RSTMAP</a> structures.</td>
 </tr>

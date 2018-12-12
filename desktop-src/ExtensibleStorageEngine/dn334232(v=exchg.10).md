@@ -27,17 +27,17 @@ The [Conversions](dn334230\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn334187(v=exchg.10).md">CompareOptionsFromLCMapFlags</a></td>
 <td>Given flags for LCMapFlags, turn them into compare options. Unknown options are ignored.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn334235(v=exchg.10).md">ConvertDoubleToDateTime</a></td>
 <td>Convert a double (OA date time format) to a DateTime. Unlike DateTime.FromOADate this doesn't throw exceptions.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn334186(v=exchg.10).md">LCMapFlagsFromCompareOptions</a></td>
 <td>Give CompareOptions, turn them into flags from LCMapString. Unknown options are ignored.</td>
 </tr>

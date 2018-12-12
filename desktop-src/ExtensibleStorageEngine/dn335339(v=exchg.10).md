@@ -27,27 +27,27 @@ The [JET\_ERRINFOBASIC](dn335334\(v=exchg.10\).md) type exposes the following me
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335340(v=exchg.10).md">errcat</a></td>
 <td>Gets or sets the category of the error.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335344(v=exchg.10).md">errValue</a></td>
 <td>Gets or sets the error value for the requested info level.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335472(v=exchg.10).md">lSourceLine</a></td>
 <td>Gets or sets the source file line for the requested info level.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335345(v=exchg.10).md">rgCategoricalHierarchy</a></td>
 <td>Gets or sets the hierarchy of errors. Position 0 is the highest level in the hierarchy, and the rest are JET_errcatUnknown.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335474(v=exchg.10).md">rgszSourceFile</a></td>
 <td>Gets or sets the source file name for the requested info level.</td>
 </tr>

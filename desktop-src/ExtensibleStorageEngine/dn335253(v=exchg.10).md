@@ -27,12 +27,12 @@ The [JET\_RSTMAP](dn351048\(v=exchg.10\).md) type exposes the following members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn351049(v=exchg.10).md">szDatabaseName</a></td>
 <td>Gets or sets the old name/path of the database. Can be null if it is unchanged.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335254(v=exchg.10).md">szNewDatabaseName</a></td>
 <td>Gets or sets the current name/path of the database. Must not be null.</td>
 </tr>

@@ -29,7 +29,7 @@ The [Server2003Param](dn335279\(v=exchg.10\).md) type exposes the following memb
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><img src="../images/hh596466.pubfield(exchg.10).gif" title="Public field" alt="Public field" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335281(v=exchg.10).md">AlternateDatabaseRecoveryPath</a></td>
 <td>The full path to each database is persisted in the transaction logs at run time. Ordinarily, these databases must remain at the original location for transaction replay to function correctly. This parameter can be used to force crash recovery or a restore operation to look for the databases referenced in the transaction log in the specified folder.</td>
 </tr>

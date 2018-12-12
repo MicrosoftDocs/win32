@@ -27,7 +27,7 @@ The [IContentEquatable\<T\>](hh578046\(v=exchg.10\).md) type exposes the followi
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh538970(v=exchg.10).md">ContentEquals</a></td>
 <td>Returns a value indicating whether this instance is equal to another instance.</td>
 </tr>
