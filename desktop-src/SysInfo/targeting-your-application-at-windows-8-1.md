@@ -77,16 +77,16 @@ Adding the **trustInfo** isn’t essential, but it is highly recommended. This w
 
 <dl> <dt>
 
-[Getting the system version](https://docs.microsoft.com/windows)
+[Getting the system version](getting-the-system-version.md)
 </dt> <dt>
 
 [Version Helper functions](version-helper-apis.md)
 </dt> <dt>
 
-[OSVERSIONINFO](https://docs.microsoft.com/windows)
+[OSVERSIONINFO](/windows/desktop/api/winnt/ns-winnt-_osversioninfoa)
 </dt> <dt>
 
-[OSVERSIONINFOEX](https://docs.microsoft.com/windows)
+[OSVERSIONINFOEX](/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa)
 </dt> </dl>
 
  
