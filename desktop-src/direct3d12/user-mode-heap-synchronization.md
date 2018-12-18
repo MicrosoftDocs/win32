@@ -348,7 +348,7 @@ To access a resource on more than one queue an application must adhere to the fo
 
 <dl> <dt>
 
-[Multi-engine and multi-adapter synchronization](mulit-engine-and-multi-gpu-synchronization.md)
+[Multi-engine and multi-adapter synchronization](multi-engine-and-multi-gpu-synchronization.md)
 </dt> <dt>
 
 [Using Resource Barriers to Synchronize Resource States in Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)

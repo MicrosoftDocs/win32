@@ -59,7 +59,7 @@ The following limitations also apply:
 -   Either D3D12\_HEAP\_TYPE\_DEFAULT must be set or D3D12\_HEAP\_TYPE\_CUSTOM with D3D12\_MEMORY\_POOL\_L0 and D3D12\_CPU\_PAGE\_PROPERTY\_NOT\_AVAILABLE must be set.
 -   Only resources with D3D12\_RESOURCE\_FLAG\_ALLOW\_CROSS\_ADAPTER may be placed on cross-adapter heaps.
 
-For more information on using multiple adapters, refer to the [Multi-Adapter](mulit-engine.md) section.
+For more information on using multiple adapters, refer to the [Multi-Adapter](multi-engine.md) section.
 
 ## Related topics
 

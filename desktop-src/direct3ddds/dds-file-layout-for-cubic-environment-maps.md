@@ -37,7 +37,7 @@ Starting with DirectX 8, a cube map is stored with all faces defined.
 
 ## DXGI Cube Maps
 
-Cubic environment maps in Direct3D 10.x and Direct3D 11 are equivalent to a 2D texture array with 6 images, and can be stored in DDS files as such. With Direct3D 10.1 and Direct3D 11, the hardware can also support arrays of cubemaps which are themselves 2D texture arrays with a mulitple of 6 images (6, 12, 18, 24, etc.).
+Cubic environment maps in Direct3D 10.x and Direct3D 11 are equivalent to a 2D texture array with 6 images, and can be stored in DDS files as such. With Direct3D 10.1 and Direct3D 11, the hardware can also support arrays of cubemaps which are themselves 2D texture arrays with a multiple of 6 images (6, 12, 18, 24, etc.).
 
 For example, here is a 256-by-256 cubemap with mipmap levels stored in a BC6H format as a 2D texture array:
 
