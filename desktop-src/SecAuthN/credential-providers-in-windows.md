@@ -52,7 +52,11 @@ Credential providers are registered on a Windows machine and are responsible for
 >
 > Keep in mind that multiple credential providers can be installed on a single machine.
 
- 
+## Wrapping credential providers
+
+Wrapping a system credential provider can be done to add functionality to that credential provider that is not natively supported. This is not recommend because it can lead to problematic behavior. Changes can be made to the credential provider which may conflict with the wrapper causing a poor user experience or even preventing the user from getting into their device. This is especially true with the frequent update cadence of Windows 10.
+
+If functionality in a credential provider is needed that is not included natively, the recommended path is to create a custom credential provider. This is a more stable approach that does not take dependencies on the system providers.
 
 ## Related topics
 
