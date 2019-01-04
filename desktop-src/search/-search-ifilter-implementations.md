@@ -12,24 +12,24 @@ Microsoft supplies several standard filters with Windows Search. Clients call th
 
 This topic is organized as follows:
 
--   [Windows Search Implementation Notes](#windows-search-implementation-notes)
-    -   [Windows 7 Implementation](#windows-7-implementation)
-    -   [Windows Vista Implementation](#windows-vista-implementation)
-    -   [Legacy Implementation](#legacy-implementation)
--   [Windows Search Filters](#filter-handlers-that-ship-with-windows)
-    -   [MIME Filter Handler](#mime-filter-handler)
-    -   [HTML Filter Handler](#html-filter-handler)
-    -   [Document Filter Handler](#document-filter-handler)
-    -   [Plain Text Filter Handler](#plain-text-filter-handler)
-    -   [Binary or Null Filter Handler](#binary-or-null-filter-handler)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Windows Search Implementation Notes](#windows-search-implementation-notes)
+  - [Windows 7 and 10 Implementation](#windows-7-and-10-implementation)
+  - [Windows Vista Implementation](#windows-vista-implementation)
+  - [Legacy Implementation](#legacy-implementation)
+- [Windows Search Filters](#filter-handlers-that-ship-with-windows)
+  - [MIME Filter Handler](#mime-filter-handler)
+  - [HTML Filter Handler](#html-filter-handler)
+  - [Document Filter Handler](#document-filter-handler)
+  - [Plain Text Filter Handler](#plain-text-filter-handler)
+  - [Binary or Null Filter Handler](#binary-or-null-filter-handler)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## Windows Search Implementation Notes
 
 In Windows 7 and later, filters written in managed code are explicitly blocked. Filters MUST be written in native code due to potential CLR versioning issues with the process that multiple add-ins run in.
 
-### Windows 7 Implementation
+### Windows 7 and 10 Implementation
 
 In Windows 7 and later, there is new behavior that occurs when registering a filter handler, property handler, or new extension. When a new property handler and/or filter handler is installed, files with the corresponding extensions are automatically re-indexed.
 
@@ -45,13 +45,13 @@ In Windows Vista and earlier, installing an [**IFilter**](https://msdn.microsof
 
 There are two major differences between legacy applications like Indexing Service and newer applications like Windows Search that you should be aware of when implementing filters:
 
--   Use of the [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) interface.
--   Use of property handlers.
+- Use of the [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) interface.
+- Use of property handlers.
 
 First, Windows Vista and Windows Search 3.0 and later require you use [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) for the following reasons:
 
--   To ensure performance and future compatibility.
--   To help increase security. Filters implemented with [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) are more secure because the context in which the filter runs does not need the rights to open files on the disk or over the network.
+- To ensure performance and future compatibility.
+- To help increase security. Filters implemented with [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) are more secure because the context in which the filter runs does not need the rights to open files on the disk or over the network.
 
 While Windows Search uses only [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx), you can also include [IPersistFile Interface](http://msdn.microsoft.com/en-us/library/ms687223(VS.85).aspx) and/or [IPersistStorage Interface](http://msdn.microsoft.com/en-us/library/ms679731(VS.85).aspx) implementations in your filters for backward compatibility.
 
@@ -59,10 +59,10 @@ The second major difference is that Windows Vista and Windows Search 3.0 and la
 
 However, there are times when you need to implement a filter that handles both content and properties in order to:
 
--   Support legacy MSSearch implementations.
--   Traverse links.
--   Preserve language information.
--   Recursively filter embedded items.
+- Support legacy MSSearch implementations.
+- Traverse links.
+- Preserve language information.
+- Recursively filter embedded items.
 
 In these situations, you need a full filter implementation, including the [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) method to access property values.
 
@@ -76,8 +76,6 @@ For more information on developing a compatible filter, see the following topics
 
 Microsoft supplies several standard filters with Windows Search. The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)  DLL contents are summarized in the following table. Clicking the name of a filter handler takes you to the description for that **IFilter** implementation.
 
-
-
 | Filter handler                                                  | Files filtered                              | IFilter DLL  |
 |-----------------------------------------------------------------|---------------------------------------------|--------------|
 | [MIME Filter Handler](#mime-filter-handler)                     | Multipurpose Internet Mail Extension (MIME) | mimefilt.dll |
@@ -85,10 +83,6 @@ Microsoft supplies several standard filters with Windows Search. The [**IFilter*
 | [Document Filter Handler](#document-filter-handler)             | Microsoft Word, Excel, PowerPoint           | offfilt.dll  |
 | [Plain Text Filter Handler](#plain-text-filter-handler)         | Plain text files - Default IFilter          | query.dll    |
 | [Binary or Null Filter Handler](#binary-or-null-filter-handler) | Binary files - Null IFilter                 | query.dll    |
-
-
-
- 
 
 ### MIME Filter Handler
 
@@ -100,20 +94,14 @@ The HTML filter handler (in nlhtml.dll) extracts text and property information f
 
 You can use the `META` tag feature of HTML documents to convey special handling requests to the HTML [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx). `META` tags occur near the beginning of an html file within the `HEAD ... /HEAD` tags, as illustrated in the following example.
 
-
+```XML
+   <head>
+     <META NAME="DESCRIPTION" 
+           CONTENT="This text appears on the results page as the document's summary.">
+   </head>
 ```
-<head>
-        <META NAME="DESCRIPTION" 
-        CONTENT="This text appears on the results page as the document's summary.">
-        </head>
-        
-```
-
-
 
 Some HTML `META` tags are automatically mapped to well known property set and property ID (property identifier (PID)) values so that queries on these properties will search the mapped contents. Some examples are listed in the following table. For a list of system properties that you can use for your file formats, see [System-Defined Properties for Custom File Formats](-shell-systemdefinedpropertiesforfileformats.md).
-
-
 
 | Property example                              | Mapped to                                                               |
 |-----------------------------------------------|-------------------------------------------------------------------------|
@@ -122,16 +110,11 @@ Some HTML `META` tags are automatically mapped to well known property set and pr
 | meta name="keywords" content="fonts, serif"   | The keyword property in the Summary Information property set.           |
 | meta name="ms.category" content="fiction"     | The category property in the document Summary Information property set. |
 
-
-
- 
-
- 
-
 Some features of the HTML [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) are listed in the following table.
 
+[comment]: # (This table needs to be HTML to have the samples formated in it correctly)
 
-
+<!-- markdownlint-disable MD033 -->
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -161,10 +144,11 @@ The filtering process can generate abstracts for each filtered file, which defau
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code><head>
-                <META NAME=&quot;DESCRIPTION&quot; CONTENT=&quot;This text will appear on the results page as the document&#39;s summary.&quot;>
-                </head>
-                </code></pre></td>
+<td><pre>
+&lt;head&gt;
+  &lt;META NAME=&quot;DESCRIPTION&quot; CONTENT=&quot;This text will appear on the results page as the document&#39;s summary.&quot;&gt;
+&lt;/head&gt;
+ </pre></td>
 </tr>
 </tbody>
 </table>
@@ -181,7 +165,9 @@ The filtering process can generate abstracts for each filtered file, which defau
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code><meta name=&quot;robots&quot; content=&quot;noindex&quot;></code></pre></td>
+<td><pre>
+  &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot;&gt;
+</pre></td>
 </tr>
 </tbody>
 </table>
@@ -199,9 +185,10 @@ The filtering process can generate abstracts for each filtered file, which defau
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code><meta name=&quot;ms.locale&quot; content=&quot;EN&quot;> 
-                <meta name=&quot;ms.locale&quot; content=1033>
-                </code></pre></td>
+<td><pre>
+&lt;meta name=&quot;ms.locale&quot; content=&quot;EN&quot;&gt;
+&lt;meta name=&quot;ms.locale&quot; content=1033&gt;
+</pre></td>
 </tr>
 </tbody>
 </table>
@@ -210,10 +197,7 @@ The filtering process can generate abstracts for each filtered file, which defau
 </tr>
 </tbody>
 </table>
-
-
-
- 
+<!-- markdownlint-enable MD033 -->
 
 ### Document Filter Handler
 
@@ -233,40 +217,23 @@ When a registered binary file is encountered, the null filter handler is used. T
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
--   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+- For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
+- For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
 
 ## Related topics
 
-<dl> <dt>
-
 [Developing Filter Handlers](-search-ifilter-conceptual.md)
-</dt> <dt>
 
 [About Filter Handlers in Windows Search](-search-ifilter-about.md)
-</dt> <dt>
 
 [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md)
-</dt> <dt>
 
 [Returning Properties from a Filter Handler](-search-ifilter-property-filtering.md)
-</dt> <dt>
 
 [Implementing Filter Handlers in Windows Search](-search-ifilter-constructing-filters.md)
-</dt> <dt>
 
 [Registering Filter Handlers](-search-ifilter-registering-filters.md)
-</dt> <dt>
 
 [Testing Filter Handlers](-search-ifilter-testing-filters.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

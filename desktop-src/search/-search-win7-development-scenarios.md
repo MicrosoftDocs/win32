@@ -6,20 +6,20 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows Shell Libraries in Windows 7
+# Windows Shell Libraries in Windows
 
-This topic outlines the introduction of libraries for Windows 7. Libraries are a Windows Shell feature. To access Windows Shell functionality, such as libraries, third-party developers of Windows Search applications must first implement a Shell data store. For more information, see [Implementing the Basic Folder Object Interfaces](http://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
+This topic outlines the introduction of libraries for Windows 7 and later. Libraries are a Windows Shell feature. To access Windows Shell functionality, such as libraries, third-party developers of Windows Search applications must first implement a Shell data store. For more information, see [Implementing the Basic Folder Object Interfaces](http://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
 
 This topic is organized as follows:
 
--   [Libraries](#libraries)
-    -   [User Data Entry Points](#user-data-entry-points)
-    -   [Collections of Folders](#collections-of-folders)
-    -   [Supported Folders in Libraries](#supported-folders-in-libraries)
-    -   [Storage-Backed](#storage-backed)
-    -   [Non-File System Shell Containers](#non-file-system-shell-containers)
-    -   [Library Descriptions](#library-descriptions)
--   [Related topics](#related-topics)
+- [Libraries](#libraries)
+  - [User Data Entry Points](#user-data-entry-points)
+  - [Collections of Folders](#collections-of-folders)
+  - [Supported Folders in Libraries](#supported-folders-in-libraries)
+  - [Storage-Backed](#storage-backed)
+  - [Non-File System Shell Containers](#non-file-system-shell-containers)
+  - [Library Descriptions](#library-descriptions)
+- [Related topics](#related-topics)
 
 ## Libraries
 
@@ -41,18 +41,12 @@ Unsupported folders are blocked from being added by users in the Windows library
 
 The following table lists folders included in libraries using the Windows Explorer library management dialog, and folders that are unsupported in **Safe Mode**:
 
-
-
 | Supported Folders                                                                                                                            | Unsupported Folders                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Fixed and external NTFS and FAT32 hard drives                                                                                                | Removable drives (such as thumbdrives and SD cards)                                                     |
-| Shares that are indexed by Windows Search (such as departmental servers, and on computers running Windows 7, and Windows Vista Home edition) | Removable media (such as CDs and DVDs)                                                                  |
+| Shares that are indexed by Windows Search (such as departmental servers, and on computers running Windows 10, and Windows 7 Home edition) | Removable media (such as CDs and DVDs)                                                                  |
 | Shares that are available offline (such as **Redirected My Documents**, **Client Side Cache**)                                               | Network shares that are neither available offline nor remotely indexed (such as NAS drives)             |
 | n/a                                                                                                                                          | Other data sources (such as Microsoft SharePoint, Microsoft Exchange, Microsoft OneDrive, and so forth) |
-
-
-
- 
 
 ### Storage-Backed
 
@@ -68,27 +62,13 @@ Library descriptions are saved on disk as an XML file in the %appdata%Microsoft\
 
 Library description files are XML files with the file name extension .library-ms. They files should never be accessed or edited by applications. The folder path text persisted to the library description files is not always current. Library folders are persisted in the library description file in the serialized binary [Shell Links](http://msdn.microsoft.com/en-us/library/bb776891.aspx) format. For more information about libraries and the Library Description schema, see [Library Description Schema](http://msdn.microsoft.com/en-us/library/dd798389(VS.85).aspx). For more information about federated search connectors and the Search Connector Description schema, [Search Connector Description Schema](search-sconn-desc-schema-entry.md).
 
-> [!Note]  
+> [NOTE]  
 > Applications should always use the Shell programming model or the [IShellLibrary](http://msdn.microsoft.com/en-us/library/dd391719(VS.85).aspx) API to consume and manipulate library contents, and never attempt to manually access or edit the library description file.
-
- 
 
 ## Related topics
 
-<dl> <dt>
-
 [Windows 7 Search](-search-new-for-win7.md)
-</dt> <dt>
 
 [New for Windows 7 Search](new-for-windows-7-search.md)
-</dt> <dt>
 
 [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
