@@ -12,8 +12,6 @@ Windows Search enables you to manage the Windows Search index with three main co
 
 ## About the Interfaces for Managing the Index
 
-
-
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -29,7 +27,7 @@ Windows Search enables you to manage the Windows Search index with three main co
 </thead>
 <tbody>
 <tr class="odd">
-<td>Search?Manager</td>
+<td>Search Manager</td>
 <td><a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager">ISearchManager</a></td>
 <td>Provides methods to retrieve and set information about Windows Search:
 <ul>
@@ -40,7 +38,7 @@ Windows Search enables you to manage the Windows Search index with three main co
 For more information, see <a href="-search-3x-wds-mngidx-searchmanager">Using the Search Manager</a>.<br/></td>
 </tr>
 <tr class="even">
-<td>Catalog?Manager</td>
+<td>Catalog Manager</td>
 <td><a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager">ISearchCatalogManager</a><br/> <a href="http://msdn.microsoft.com/en-us/library/cc142932(VS.85).aspx">ISearchCatalogManager2</a><br/></td>
 <td>Provides methods to manage an individual search catalog, such as causing a re-indexing or setting time-outs. This interface manages the catalog in four areas:
 <ul>
@@ -52,37 +50,19 @@ For more information, see <a href="-search-3x-wds-mngidx-searchmanager">Using th
 For more information, see <a href="-search-3x-wds-mngidx-catalog-manager">Using the Catalog Manager</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>Crawl?Scope?Manager</td>
+<td>Crawl Scope Manager</td>
 <td><a href="/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots"><strong>IEnumSearchRoots</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/bb266499(VS.85).aspx">IEnumSearchScopeRules</a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager"><strong>ISearchCrawlScopeManager</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/dd797832(VS.85).aspx">ISearchCrawlScopeManager2</a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchroot"><strong>ISearchRoot</strong></a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule"><strong>ISearchScopeRule</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/dd756722(VS.85).aspx">ISearchItem</a><br/></td>
 <td>Provides methods to inform the search engine about containers to crawl or watch, and items under those containers to include or exclude in the index. You can also query the Crawl Scope Manager to see if a particular URL is in the crawl scope. For more information, see <a href="-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>.<br/></td>
 </tr>
 </tbody>
 </table>
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
 [Managing the Index](-search-3x-wds-mngidx-overview.md)
-</dt> <dt>
 
 [Using the Search Manager](-search-3x-wds-mngidx-searchmanager.md)
-</dt> <dt>
 
 [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md)
-</dt> <dt>
 
 [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
