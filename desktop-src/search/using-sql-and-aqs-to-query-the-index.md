@@ -12,14 +12,14 @@ There are several ways to use Windows Search to query the index. This topic outl
 
 This topic is organized as follows:
 
--   [SQL Based Queries](#sql-based-queries)
-    -   [Using OLE DB](#using-ole-db)
-    -   [Using ADO and ADO.NET](#using-ado-and-adonet)
-    -   [Using SQL in Local and Remote Queries](#using-sql-in-local-and-remote-queries)
--   [AQS Based Queries](#aqs-based-queries)
-    -   [Using ISearchQueryHelper](#using-isearchqueryhelper)
-    -   [Using the search-ms Protocol](#using-the-search-ms-protocol)
--   [Related topics](#related-topics)
+- [SQL Based Queries](#sql-based-queries)
+  - [Using OLE DB](#using-ole-db)
+  - [Using ADO and ADO.NET](#using-ado-and-adonet)
+  - [Using SQL in Local and Remote Queries](#using-sql-in-local-and-remote-queries)
+- [AQS Based Queries](#aqs-based-queries)
+  - [Using ISearchQueryHelper](#using-isearchqueryhelper)
+  - [Using the search-ms Protocol](#using-the-search-ms-protocol)
+- [Related topics](#related-topics)
 
 ## SQL Based Queries
 
@@ -31,23 +31,20 @@ The following approaches for querying the index are SQL based.
 
 ### Using OLE DB
 
-The Object Linking and Embedding Database (OLE DB) is a Component Object Model (COM)?API that enables you to access different types of data stores uniformly, including non-relational databases like spreadsheets. OLE DB separates the data store from the application accessing it through a set of abstractions that include the Shell data source, session, command, and rowsets. An OLE DB provider is a software component that implements the OLE DB interface to provide data to applications from a particular data store.
+The Object Linking and Embedding Database (OLE DB) is a Component Object Model (COM) API that enables you to access different types of data stores uniformly, including non-relational databases like spreadsheets. OLE DB separates the data store from the application accessing it through a set of abstractions that include the Shell data source, session, command, and rowsets. An OLE DB provider is a software component that implements the OLE DB interface to provide data to applications from a particular data store.
 
 You can access the Windows Search OLE DB provider programmatically by using the OleDbConnection and OleDbSession objects in C\# and by using the OLE DB support built into Active Template Library (ATL) in C++ (via atlclidb.h). The only property that has to be set is the provider string.
 
 You can use the following string:
 
-`provider=Search.CollatorDSO.1;EXTENDED?PROPERTIES="Application=Windows"`
+`provider=Search.CollatorDSO;EXTENDED PROPERTIES="Application=Windows"`
 
-Alternatively, you can get the connection string by calling [**ISearchQueryHelper::get\_ConnectionString**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring).
+Alternatively, you can get the connection string by calling [**ISearchQueryHelper::get\_ConnectionString**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring). See Using [ISearchQueryHelper](#using-isearchqueryhelper) for an example.
 
 > [!Note]  
 > The Windows Search OLE DB provider is read-only, and support SELECT and GROUP ON statements. INSERT and DELETE statements are not supported.
 
- 
-
-
-```
+```cpp
 #include <atldbcli.h>
 CDataSource cDataSource;
 hr = cDataSource.OpenFromInitializationString(L"provider=Search.CollatorDSO.1;EXTENDED PROPERTIES=\"Application=Windows\"");
@@ -78,8 +75,6 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
 For more information on OLE DB, see [OLE DB Programming Overview](http://msdn.microsoft.com/en-us/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](http://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx) documentation.
 
 ### Using ADO and ADO.NET
@@ -91,15 +86,12 @@ The following code examples demonstrate how to open a connection to the data sou
 > [!Note]  
 > For information on how to obtain the connection string, see [Querying the Index with ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md), and [ISearchQueryHelper::get\_Connection String](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring).
 
- 
+#### ADO and VBScript
 
-**ADO and VBScript**
-
-
-```
-'To run this snippet, save it to a file and run it using cscript.exe from a command line. 
+```VB
+'To run this snippet, save it to a file and run it using cscript.exe from a command line.
 'Running the .vbs file with Windows Script Host may cause dialog boxes to open for each item returned from the index.
-                
+
 On Error Resume Next
 
 Set objConnection = CreateObject("ADODB.Connection")
@@ -107,146 +99,149 @@ Set objRecordSet = CreateObject("ADODB.Recordset")
 
 objConnection.Open "Provider=Search.CollatorDSO;Extended Properties='Application=Windows';"
 
-objRecordSet.Open "SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX", objConnection
+objRecordSet.Open "SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX WHERE scope='file:' ORDER BY System.Size DESC", objConnection
 
 objRecordSet.MoveFirst
 Do Until objRecordset.EOF
     Wscript.Echo objRecordset.Fields.Item("System.ItemPathDisplay")
     objRecordset.MoveNext
-Loop    
+Loop
 ```
 
+#### ADO and C++
 
+```cpp
+#import "msado15.dll" rename_namespace("ADO") rename("EOF", "EndOfFile") implementation_only
 
-**ADO and C++**
-
-
-```
-#import <msado15.dll> no_namespace rename("EOF", "ADOEOF")
-
-ADODB::_ConnectionPtr connection = NULL;
-hr = connection.CreateInstance(__uuidof(ADODB::Connection));
-
-ADODB::_RecordsetPtr recordset = NULL;
-hr = recordset.CreateInstance(__uuidof(ADODB::Recordset));
-
-connection->CursorLocation = ADODB::adUseClient;
-connection->Open(L"Provider=Search.CollatorDSO;Extended Properties='Application=Windows';"
-    L"Initial Catalog=SYSTEMINDEX; L"", 
-    L"", ADODB::adConnectUnspecified);
-
-recordset->Open("SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX", 
-    connection.GetInterfacePtr(), ADODB::adOpenForwardOnly, ADODB::adLockReadOnly, ADODB::adCmdText);
-
-while(!recordset->ADOEOF)
+ADO::_ConnectionPtr connection = NULL;
+HRESULT hr = connection.CreateInstance(__uuidof(ADO::Connection));
+if (SUCCEEDED(hr))
 {
-    _variant_t var;
-    var = recordset->Fields->GetItem(L"System.ItemPathDisplay")->GetValue();
-    std::cout << static_cast<char *>(_bstr_t(var.bstrVal)) << std::endl;
-    recordset->MoveNext();
-};    
+    ADO::_RecordsetPtr recordset = NULL;
+    hr = recordset.CreateInstance(__uuidof(ADO::Recordset));
+    if (SUCCEEDED(hr))
+    {
+        connection->CursorLocation = ADO::adUseClient;
+        hr = connection->Open(L"Provider=Search.CollatorDSO;Extended Properties='Application=Windows';",
+            L"", L"", ADO::adConnectUnspecified);
+        if (SUCCEEDED(hr))
+        {
+            hr = recordset->Open("SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX WHERE scope='file:' ORDER BY System.Size DESC",
+            connection.GetInterfacePtr(), ADO::adOpenForwardOnly, ADO::adLockReadOnly, ADO::adCmdText);
+            if (SUCCEEDED(hr))
+            {
+                while (!recordset->EndOfFile)
+                {
+                    _variant_t var;
+                    var = recordset->Fields->GetItem(L"System.ItemPathDisplay")->GetValue();
+                    std::cout << static_cast<char *>(_bstr_t(var.bstrVal)) << std::endl;
+                    recordset->MoveNext();
+                };
+                recordset->Close();
+            }
+            connection->Close();
+        }
+    }
+}
 
-recordset->Close();
-connection.Close();    
 ```
 
+#### ADO and VisualBasic
 
+First add a reference to ADODB in your project
 
-**ADO and VisualBasic**
-
-
-```
+```VB
 Dim con As ADODB.Connection
 Dim rst As ADODB.Recordset
 
-Set con = New ADODB.Connection
-Set rst = New ADODB.Recordset
-  
+con = New ADODB.Connection
+rst = New ADODB.Recordset
+
 Dim sConString As String
 Dim sSQLString As String
-            
+
 sConString = "Provider=Search.CollatorDSO;Extended Properties='Application=Windows';"
-con.Open sConString
+con.Open(sConString)
 
-sSQLString = "SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX"
+sSQLString = "SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX
+                WHERE scope='file:'
+                ORDER BY System.Size DESC"
 
-Set rst = con.Execute(sSQLString)
+rst = con.Execute(sSQLString)
 
 Do Until (rst.EOF)
-   Print(1, rst("System.ItemPathDisplay").Value);
-   rst.MoveNext
+    Print(1, rst("System.ItemPathDisplay").Value)
+    rst.MoveNext
 Loop
 
 rst.Close
-Set rst = Nothing
+rst = Nothing
 
 con.Close
-Set con = Nothing
+con = Nothing
 ```
 
+#### ADO.NET and C\#
 
+```csharp
+string query = @"SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX
+                WHERE scope='file:'
+                ORDER BY System.Size DESC";
 
-**ADO.NET and C\#**
-
-
-```
-objConnection.Open "Provider=Search.CollatorDSO;Extended Properties='Application=Windows';"
-
-OleDbDataReader rdr = null;
-
-conn.Open();
-
-OleDbCommand cmd = new OleDbCommand("SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX", conn);
-
-rdr = cmd.ExecuteReader();
-
-while (rdr.Read())
+using (OleDbConnection objConnection =
+    new OleDbConnection
+    ("Provider=Search.CollatorDSO.1;Extended?Properties='Application=Windows';"))
 {
-    Console.WriteLine(rdr[0]);
+    objConnection.Open();
+    OleDbCommand cmd = new OleDbCommand(query, objConnection);
+    using (OleDbDataReader rdr = cmd.ExecuteReader())
+    {
+        for (int i = 0; i < rdr.FieldCount; i++)
+        {
+            Console.Write(rdr.GetName(i));
+            Console.Write('\t');
+        }
+        while (rdr.Read())
+        {
+            Console.WriteLine();
+            for (int i = 0; i < rdr.FieldCount; i++)
+            {
+                Console.Write(rdr[i]);
+                Console.Write('\t');
+            }
+        }
+        Console.ReadKey();
+    }
 }
-
-rdr.Close();
-conn.Close();    
 ```
-
-
 
 ### Using SQL in Local and Remote Queries
 
 You can execute your queries either locally or remotely. A local query using the [FROM clause](-search-sql-from.md) is shown in the following example. A local query queries the local SystemIndex catalog only.
 
-
-```
+```sql
 FROM SystemIndex
 ```
 
-
-
 A remote query using the [FROM clause](-search-sql-from.md) is shown in the following example. Adding ComputerName transforms the previous example into a remote query.
 
-
-```
+```sql
 FROM [<ComputerName>.]SystemIndex
 ```
-
-
 
 By default, Windows XP and Windows Server 2003 do not have Windows Search installed. Only Windows Search 4 (WS4) provides remote query support. Previous versions of Windows Desktop Search (WDS), such as 3.01 and earlier, do not support remote querying. With Windows Explorer you can query the local index of a remote computer for file system items (items handled by the "file:" protocol).
 
 To retrieve an item by remote query, the item must meet the following requirements:
 
--   Be accessible via Universal Naming Convention (UNC) path.
--   Exist on the remote computer to which the client has access.
--   Have its security set to allow the client to have Read access.
+- Be accessible via Universal Naming Convention (UNC) path.
+- Exist on the remote computer to which the client has access.
+- Have its security set to allow the client to have Read access.
 
 Windows Explorer has features for sharing items including a "Public" share (\\\\Machine\\Public\\...) in the **Network and Sharing Center**, and a "Users" share (\\\\Machine\\Users\\...) for items shared through the Sharing Wizard. After you share the folder(s), you can query the local index by specifying the remote computer's machine name in the FROM clause, and a UNC path on the remote machine in the SCOPE clause, as shown in the following example:
 
-
+```sql
+SELECT System.ItemName FROM MachineName.SystemIndex WHERE SCOPE='file://MachineName/<path>'
 ```
-SELECT System.ItemName FROM MachineName.SystemIndex WHERE SCOPE='file://MachineName/<path>' 
-```
-
-
 
 ## AQS Based Queries
 
@@ -258,13 +253,12 @@ The following approaches for querying the index are AQS based.
 
 You can develop a component or helper class to query the index by using the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) interface, which enables you to take advantage of some features of the system and simplify your use of Windows Search. This interface helps you:
 
--   Obtain an OLE DB connection string to connect to the Windows Search database.
--   Convert user queries from AQS to Windows Search SQL.
+- Obtain an OLE DB connection string to connect to the Windows Search database.
+- Convert user queries from AQS to Windows Search SQL.
 
 This interface is implemented as a helper class to [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) and is obtained by calling [**ISearchCatalogManager::GetQueryHelper**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper), as shown in the following C++ example.
 
-
-```
+```cpp
 HRESULT GetQueryHelper(ISearchQueryHelper **ppQueryHelper)
 {
     *ppQueryHelper = NULL;
@@ -288,21 +282,17 @@ HRESULT GetQueryHelper(ISearchQueryHelper **ppQueryHelper)
     }
 
     return hr;
-}   
+}
 ```
-
-
 
 To implement the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) interface, see [Using the ISearchQueryHelper Interface](-search-3x-wds-qryidx-searchqueryhelper.md) and the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) reference topic.
 
 > [!Note]  
 > Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and Windows Server 2003 and later, [**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) to get a connection string, parse the user's query into SQL, and then query through OLE DB.
 
- 
-
 ### Using the search-ms Protocol
 
-The **search-ms**? [application protocol](http://msdn.microsoft.com/en-us/library/Aa767916(VS.85).aspx) is a convention for starting an application, like Windows Explorer, to query the Windows Search index. It enables queries to be built with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
+The **search-ms** [application protocol](http://msdn.microsoft.com/en-us/library/Aa767916(VS.85).aspx) is a convention for starting an application, like Windows Explorer, to query the Windows Search index. It enables queries to be built with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 
 For detailed information on the search-ms protocol syntax, see [Querying the Index wtih the search-ms Protocol](-search-3x-wds-qryidx-searchms.md).
 
@@ -324,10 +314,3 @@ For detailed information on the search-ms protocol syntax, see [Querying the Ind
 
 [Using Advanced Query Syntax Programmatically](-search-3x-advancedquerysyntax.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
