@@ -12,76 +12,51 @@ The **search-ms** ?[application protocol](http://msdn.microsoft.com/en-us/librar
 
 This topic is organized as follows:
 
--   [About Parameter-Value Arguments](#about-parameter-value-arguments)
--   [Examples](#examples)
--   [Related topics](#related-topics)
+- [About Parameter-Value Arguments](#about-parameter-value-arguments)
+- [Examples](#examples)
+- [Related topics](#related-topics)
 
 ## About Parameter-Value Arguments
 
 The search-ms protocol uses the following standard URL-encoded syntax:
 
-
 ```
 search-ms:parameter=value[&parameter=value]&
 ```
 
-
-
 The syntax begins by identifying the protocol itself (search-ms:). The parameter/value pairs are arguments passed to the Search engine, as described in the following table.
-
-
 
 | Parameter                                                    | Value                                                         | Description                                                                                                                                                                                                                                                                | Version                  |
 |--------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
 | query                                                        | URL-encoded text                                              | The query text entered by the user.                                                                                                                                                                                                                                        | Windows XP, and later    |
 | [inputlocale](-search-3x-wds-qryidx-localeidentifiers.md)   | Any valid LCID                                                | The LCID that identifies the input language for the query.                                                                                                                                                                                                                 | Windows XP, and later    |
 | [keywordlocale](-search-3x-wds-qryidx-localeidentifiers.md) | Any valid LCID                                                | The LCID that identifies the language of the international version of the Indexer. The default is 1033 (en-us).                                                                                                                                                            | Windows XP, and later    |
-| [crumb](-search-3x-wds-qryidx-crumb.md)                     | AQS statement                                                 | This argument restricts the scope being searched. In Windows Vista, search-ms supports full AQS as well as a special implementation for a `location` argument. In Windows XP, search-ms also supports full AQS, except for a special implementation of `kind` and `store`. | Windows XP, and later    |
+| [crumb](-search-3x-wds-qryidx-crumb.md)                     | AQS statement                                                 | This argument restricts the scope being searched. In Windows Vista and later, search-ms supports full AQS as well as a special implementation for a `location` argument. In Windows XP, search-ms also supports full AQS, except for a special implementation of `kind` and `store`. | Windows XP, and later    |
 | [syntax](-search-3x-wds-qryidx-syntaxargument.md)           | NQS, AQS (not case sensitive)                                 | The query syntax to use to search the index: either Natural Query Syntax or Advanced Query Syntax (AQS). AQS is the default and is always assumed parsed and supported.                                                                                                    | Windows Vista, and later |
 | [stackedby](-search-3x-wds-qryidx-stackedby.md)             | Any valid property from the property system                   | A property that specifies the column to stack results by.                                                                                                                                                                                                                  | Windows Vista, and later |
 | [subquery](-search-3x-wds-qryidx-subquery.md)               | A fully specified path for a Saved Search file (\*.search-ms) | The results of the subquery are used as the source for the query. That is, the query terms are searched for against the results of the subquery.                                                                                                                           | Windows Vista, and later |
 | displayname                                                  | URL-encoded string                                            | The name of the current search.                                                                                                                                                                                                                                            | Windows Vista, and later |
 
 
-
- 
-
 For related information, see [Registering an Application to a URL Protocol](https://msdn.microsoft.com/library/Aa767914(v=VS.85).aspx).
 
 ## Examples
 
-
 ```
 search-ms:query=microsoft&
 search-ms:query=vacation&subquery=mydepartment.search-ms&
-search-ms:query=seattle&crumb=kind:pics& 
+search-ms:query=seattle&crumb=kind:pics&
 search-ms:query=seattle&crumb=folder:C:\MyFolder&
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
 [Locale Identifier Arguments](-search-3x-wds-qryidx-localeidentifiers.md)
-</dt> <dt>
 
 [CRUMB Argument](-search-3x-wds-qryidx-crumb.md)
-</dt> <dt>
 
 [SYNTAX Argument](-search-3x-wds-qryidx-syntaxargument.md)
-</dt> <dt>
 
 [STACKEDBY Argument](-search-3x-wds-qryidx-stackedby.md)
-</dt> <dt>
 
 [SUBQUERY Argument](-search-3x-wds-qryidx-subquery.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

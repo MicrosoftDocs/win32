@@ -12,22 +12,19 @@ Windows Search is a desktop search platform that has instant search capabilities
 
 ## In this section
 
--   [Windows Search Overview](-search-3x-wds-overview.md)
--   [Windows Search Developer's Guide](-search-developers-guide-entry-page.md)
--   [Windows Search Reference](-search-reference-entry-page.md)
--   [Windows Search Code Samples](-search-samples-ovw.md)
--   [Related Search Technologies](-search-3x-wds-sampleentry.md)
--   [Federated Search in Windows](-search-federated-search-overview.md)
--   [Windows Search Glossary](search-glossary.md)
+- [Windows Search Overview](-search-3x-wds-overview.md)
+- [Windows Search Developer's Guide](-search-developers-guide-entry-page.md)
+- [Windows Search Reference](-search-reference-entry-page.md)
+- [Windows Search Code Samples](-search-samples-ovw.md)
+- [Related Search Technologies](-search-3x-wds-sampleentry.md)
+- [Federated Search in Windows](-search-federated-search-overview.md)
+- [Windows Search Glossary](search-glossary.md)
 
-## Additional resources
+## Additional Resources
 
--   For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) or the [Microsoft Download Center](http://www.microsoft.com/downloads/en/default.aspx).
--   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](http://go.microsoft.com/fwlink/p/?linkid=201207).
-
- 
-
- 
-
-
-
+- For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](http://go.microsoft.com/fwlink/p/?linkid=201207).
+- To download the Search Code Samples:
+  - [Windows Search Samples](-search-samples-ovw.md)
+- To download the Windows SDK:
+  - For Windows 10: [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+  - For Windows 7: [Windows SDK for Windows 7 and .NET Framework](http://go.microsoft.com/fwlink/p/?linkid=129787)

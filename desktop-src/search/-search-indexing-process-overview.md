@@ -12,13 +12,13 @@ This topic describes the three stages of the indexing process and the primary co
 
 This topic is organized as follows:
 
--   [Overview](#overview)
--   [Stage 1: Queuing URLs for Indexing](#stage-1-queuing-urls-for-indexing)
--   [Stage 2: Crawling URLs](#stage-2-crawling-urls)
--   [Stage 3: Updating the Index](#stage-3-updating-the-index)
--   [How Indexing is Scheduled](#how-indexing-is-scheduled)
--   [Notes to Implementers](#notes-to-implementers)
--   [Related topics](#related-topics)
+- [Overview](#overview)
+- [Stage 1: Queuing URLs for Indexing](#stage-1-queuing-urls-for-indexing)
+- [Stage 2: Crawling URLs](#stage-2-crawling-urls)
+- [Stage 3: Updating the Index](#stage-3-updating-the-index)
+- [How Indexing is Scheduled](#how-indexing-is-scheduled)
+- [Notes to Implementers](#notes-to-implementers)
+- [Related topics](#related-topics)
 
 ## Overview
 
@@ -66,10 +66,8 @@ Windows Search also uses the host process to isolate an instance of a protocol h
 
 **Protocol Handlers**  Protocol handlers provide access to items in a data store using the data store's protocol. For example, the NTFS protocol handler provides access to files on a local drive using the file:// protocol. The protocol handler knows how to traverse the data store, identify new or updated items, and notify the gatherer. Then, when crawling begins, the protocol handler provides an [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) object to the gatherer to bind to the item's underlying stream and return item metadata such as security restrictions and last modified time.
 
-> [!Note]  
+> [!NOTE]  
 > Protocol handlers are not Windows Search components; they are components of the specific protocol and data store they are designed to access. If you have a custom data store you want indexed, you need to implement a protocol handler. For more information on protocol handlers and how to implement one, refer to [Developing Protocol Handlers](-search-3x-wds-phaddins.md).
-
- 
 
 **Metadata and Stream**  Using metadata returned by the protocol handler's [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) object, the gatherer identifies the correct filter for the URL. The gatherer parses the item's file name extension and looks up the filter registered for that extension. If the gatherer is unable to find a filter, Windows Search uses the metadata to derive a minimal set of system property information (like System.ItemName) and updates the index. Otherwise, if the gatherer finds the filter, the third stage of indexing begins.
 
@@ -91,16 +89,12 @@ The rest of this section describes how Windows Search accesses item data for ind
 
 Using metadata returned by the protocol handler's [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) object, the gatherer identifies the correct filter for a particular URL and passes it to the stream. The gatherer identifies the correct filter either through a protocol handler or by the file name extension, MIME type, or class identifier (CLSID). If the URL points to a container, the filter emits properties for the container and enumerates the items in the container (child URLs). If the URL points to an item, the filter returns the textual content, if any the reading of properties and are more complex than property handlers. Generally, we recommend that filters emit item contents while property handlers emit item properties. However, if your filter needs to work with older applications that do not recognize property handlers, you can implement the filter to emit properties as well.
 
-> [!Note]  
+> [!NOTE]  
 > Filters are not Windows Search components; they are components related to the specific file format or container they are designed to access. For more information on filters and how to implement one for a custom file format or container, see [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md).
 
- 
+The following table lists the results that the gatherer receives from a filter ([**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)) and property handler ([**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)) during the indexing process.
 
-The following table lists the results that the gatherer receives from a filter ([**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)) and property handler ([**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)) during the indexing process.
-
-
-
-|                            | [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) | [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) |
+|                            | [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) | [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) |
 |----------------------------|------------------------------------|-------------------------------------------------|
 | Allow write                | No                                 | Yes                                             |
 | Mix content and properties | Yes                                | No                                              |
@@ -111,25 +105,17 @@ The following table lists the results that the gatherer receives from a filter (
 | Client / server            | Both                               | Client                                          |
 | Implementation             | Complex                            | Simple                                          |
 
-
-
- 
-
 **Property Handlers**  Property handlers are components that read and write properties for a particular file format. They access items and emit properties for the gatherer in the same way that filters do for content. Property handlers are easier to implement than filters. If a text-based file format is very simple or the files are expected to be very small, the property handler can emit both properties and content.
 
-> [!Note]  
+> [!NOTE]  
 > Property handlers are not Windows Search components; they are components related to the specific file format they are designed to access. For more information on property handlers and how to implement one for a custom file format, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
 
- 
-
-**Properties**  In Windows Vista and later Windows Search provides a [property system](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx) that includes a large library of properties. Any property can appear on any item as defined by the filter or property handler. If you have a custom file format, you can map your file format's properties to these system properties, and you can create new custom properties. When your filter or property handler emits these properties, the gatherer updates the index so users can search using your properties. For more information on creating and registering custom properties for a file format, see [Vista Property System](http://msdn.microsoft.com/en-us/library/Cc144125(VS.85).aspx).
+**Properties** Windows Search provides a [property system](http://msdn.microsoft.com/library/bb763010(VS.85).aspx) that includes a large library of properties. Any property can appear on any item as defined by the filter or property handler. If you have a custom file format, you can map your file format's properties to these system properties, and you can create new custom properties. When your filter or property handler emits these properties, the gatherer updates the index so users can search using your properties. For more information on creating and registering custom properties for a file format, see [Property System](http://msdn.microsoft.com/library/Cc144125(VS.85).aspx).
 
 **SystemIndex**  The index, called SystemIndex, stores indexed data and is composed of a property store and indices over the properties and content for item properties, and an inverted index for textual content and properties. After the gatherer updates the index, the index can be queried by Windows Search and other applications. For more information on ways to query the index, see [Querying the Index Programmatically](-search-3x-wds-qryidx-overview.md).
 
-> [!Note]  
-> Remember that when you re-register a schema, changes made to attributes of previously defined properties may not be respected by the indexer. The solution is either to rebuild the index, or introduce new properties that reflect the changes instead of updating old ones (not recommended). For more information, see [Note to Implementers](#notes-to-implementers) in [Properties System Overview](https://msdn.microsoft.com/en-us/library/Ff728871(v=VS.85).aspx).
-
- 
+> [!NOTE]  
+> Remember that when you re-register a schema, changes made to attributes of previously defined properties may not be respected by the indexer. The solution is either to rebuild the index, or introduce new properties that reflect the changes instead of updating old ones (not recommended). For more information, see [Note to Implementers](#notes-to-implementers) in [Properties System Overview](https://msdn.microsoft.com/library/Ff728871(v=VS.85).aspx).
 
 ## How Indexing is Scheduled
 
@@ -143,26 +129,12 @@ Applications and processes other than Windows Search rely on protocol handlers, 
 
 ## Related topics
 
-<dl> <dt>
-
 [Indexing, Querying and Notifications in Windows Search](-search-3x-wds-included-in-index.md)
-</dt> <dt>
 
 [What is Included in the Index](-search-indexing-process-overview.md)
-</dt> <dt>
 
 [Querying Process in Windows Search](querying-process--windows-search-.md)
-</dt> <dt>
 
 [Notifications Process in Windows Search](-search-3x-wds-support.md)
-</dt> <dt>
 
 [URL Formatting Requirements](url-formatting-requirements.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

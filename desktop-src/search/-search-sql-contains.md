@@ -12,32 +12,23 @@ The CONTAINS predicate is part of the WHERE clause and supports searching for wo
 
 The following is the basic syntax of the CONTAINS predicate:
 
-
-```
+```SQL
 ...CONTAINS(["<fulltext_column>",]'<contains_condition>'[,<LCID>])...
 ```
-
-
 
 The fulltext\_column reference is optional. With it, you can limit the search to a single column or a column group against which the CONTAINS predicate is tested. When the fulltext column is specified as "ALL" or "\*", all indexed text properties are searched. Although the column is not required to be a text property, the results might be meaningless if the column is some other data type. The column name can be either a regular or delimited [identifier](-search-sql-identifiers.md), and you must separate it from the condition by a comma. If no fulltext column is specified, the System.Search.Contents column, which is the body of the document, is used.
 
 The LCID portion of the predicate specifies the search locale. This instructs the search engine to use the appropriate word breaker and inflectional forms for the search query. To specify the locale, provide the Windows standard language code identifier (LCID). For example, 1033 is the LCID for United States-English. Place the LCID as the last item inside the parentheses of the CONTAINS clause. For important information about searching and languages, see [Using Localized Searches](-search-sql-usinglocsearches.md).
 
-> [!Note]  
+> [!NOTE]  
 > The default search locale is the system default locale.
-
- 
 
 The contains\_condition portion must be enclosed in single quotation marks for single words or double quotation marks for phrases, and consists of one or more content search terms that are combined using the logical operators **AND** or **OR**. You can use the optional unary operator **NOT** after an **AND** operator to negate the logical value of a content search term.
 
-> [!Note]  
+> [!NOTE]  
 > The **NOT** operator can occur only after **AND**. You cannot use the **NOT** operator if there is only one match condition, or after the **OR** operator.
 
- 
-
 You can use parentheses to group and nest content search terms. The following table describes the order of precedence for the logical operators.
-
-
 
 | Order (precedence) | Logical operator |
 |--------------------|------------------|
@@ -45,16 +36,11 @@ You can use parentheses to group and nest content search terms. The following ta
 | Second             | **AND**          |
 | Third (lowest)     | **OR**           |
 
-
-
- 
-
 Logical operators of the same type are associative, and there is no specified calculation order. For example, (A **AND** B) **AND** (C **AND** D) can be calculated (B **AND** C) **AND** (A **AND** D) with no change in the logical result.
 
 The following table describes the types of content search terms.
 
-
-
+<!-- markdownlint-disable MD033 -->
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -96,7 +82,7 @@ The following table describes the types of content search terms.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>...WHERE CONTAINS 
+<td><pre><code>...WHERE CONTAINS
 (&#39;&quot;computer software&quot;&#39;)
 
 Or, to use a double quote mark:
@@ -245,40 +231,23 @@ Matches &quot;happy&quot;, &quot;happier&quot;,
 </tr>
 </tbody>
 </table>
-
-
-
- 
+<!-- markdownlint-enable MD033 -->
 
 This section includes the following topics:
 
--   [Using Wildcards in the CONTAINS Predicate](-search-sql-wildcards.md)
--   [FORMSOF Term](-search-sql-formsof.md)
--   [ISABOUT Term](-search-sql-isabout.md)
--   [NEAR Term](-search-sql-near.md)
+- [Using Wildcards in the CONTAINS Predicate](-search-sql-wildcards.md)
+- [FORMSOF Term](-search-sql-formsof.md)
+- [ISABOUT Term](-search-sql-isabout.md)
+- [NEAR Term](-search-sql-near.md)
 
 ## Related topics
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
+### Reference
 
 [WHERE Clause](-search-sql-where.md)
-</dt> <dt>
 
-**Conceptual**
-</dt> <dt>
+### Conceptual
 
 [Full-Text Predicates](-search-sql-fulltextpredicates.md)
-</dt> <dt>
 
 [Non-Full-Text Predicates](-search-sql-nonfulltextpredicates.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
