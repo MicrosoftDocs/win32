@@ -8,19 +8,19 @@ ms.date: 11/13/2018
 
 
 # BITS Job states
-There are four classes of BITS [**states**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002.md): starting, action, transferred, and final. As a job runs, it transitions between states in the different state classes. Once a job is in a final state, it won't move out of the final state and won't show up in a [job enumeration](/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs).
+There are four classes of BITS [**states**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002): starting, action, transferred, and final. As a job runs, it transitions between states in the different state classes. Once a job is in a final state, it won't move out of the final state and won't show up in a [job enumeration](/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs).
 
 ## State-changing methods
-There are four state-changing methods on a job: [**Cancel**](nf-bits-ibackgroundcopyjob-cancel.md), [**Complete**](nf-bits-ibackgroundcopyjob-complete.md), [**Resume**](nf-bits-ibackgroundcopyjob-resume.md), and [**Suspend**](nf-bits-ibackgroundcopyjob-suspend.md). As long as a job is not in a final state, you can call any of the state-changing methods. 
+There are four state-changing methods on a job: [**Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel), [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete), [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume), and [**Suspend**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-suspend). As long as a job is not in a final state, you can call any of the state-changing methods. 
 
-The [**Suspend**](nf-bits-ibackgroundcopyjob-suspend.md) method is used to switch a job to the SUSPENDED state. When a job is suspended, all of its transfers will be stopped and won't resume until you call Resume.
+The [**Suspend**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-suspend) method is used to switch a job to the SUSPENDED state. When a job is suspended, all of its transfers will be stopped and won't resume until you call Resume.
 A job that's already suspended will simply stay suspended.
 
-The [**Resume**](nf-bits-ibackgroundcopyjob-resume.md) method is used to start a job that's suspended. Jobs in an error or transient error state will be set up to be retried. Jobs that are currently in an action state will stay in that state.
+The [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) method is used to start a job that's suspended. Jobs in an error or transient error state will be set up to be retried. Jobs that are currently in an action state will stay in that state.
 
-The [**Cancel**](nf-bits-ibackgroundcopyjob-cancel.md) method is used to cancel a job. The state will switch to cancelled. Any files currently being transferred will not be completed. All completely transferred and partially transferred files will be deleted.
+The [**Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel) method is used to cancel a job. The state will switch to cancelled. Any files currently being transferred will not be completed. All completely transferred and partially transferred files will be deleted.
 
-The [**Complete**](nf-bits-ibackgroundcopyjob-complete.md) method will finish a transfer. Any fully downloaded files will be kept; files that are not fully transferred will be deleted.
+The [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) method will finish a transfer. Any fully downloaded files will be kept; files that are not fully transferred will be deleted.
 
 You must call either Cancel or Complete to move your job to a final state and be cleaned up. Jobs that aren't transitioned to a final state will waste system resources. BITS will eventually automatically cancel old jobs. The default [JobInactivityTimeout](/windows/desktop/Bits/group-policies) is to cancel jobs after 90 days.
 
