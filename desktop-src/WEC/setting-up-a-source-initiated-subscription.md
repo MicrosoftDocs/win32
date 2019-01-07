@@ -4,7 +4,7 @@ description: Source-initiated subscriptions allow you to define a subscription o
 ms.assetid: c02b5075-d685-44cf-937f-a1edfd2550ca
 ms.tgt_platform: multiple
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/17/2018
 ---
 
 # Setting up a Source Initiated Subscription
