@@ -99,7 +99,7 @@ Protection descriptors can currently be defined for the following types of autho
 
 -   A group in an Active Directory forest.
 -   A set of web credentials.
--   A certificate.
+-   A certificate in the user's certificate store.
 
 Examples of protection descriptor rule strings for an Active Directory group include the following:
 
