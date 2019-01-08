@@ -63,6 +63,8 @@ The following structures are declared in d3d12.h.
 | [**D3D12_INPUT_ELEMENT_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_input_element_desc). Describes a single element for the input-assembler stage of the graphics pipeline. |
 | [**D3D12_INPUT_LAYOUT_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_input_layout_desc). Describes the input-buffer data for the input-assembler stage. |
 | [**D3D12_MEMCPY_DEST**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_memcpy_dest). Describes the destination of a memory copy operation. |
+| [**D3D12_META_COMMAND_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_meta_command_desc). Describes a meta command. |
+| [**D3D12_META_COMMAND_PARAMETER_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_meta_command_parameter_desc). Describes a parameter to a meta command. |
 | [**D3D12_PACKED_MIP_INFO**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_packed_mip_info). Describes the tile structure of a tiled resource with mipmaps. |
 | [**D3D12_PIPELINE_STATE_STREAM_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc). Describes a pipeline state stream. |
 | [**D3D12_PLACED_SUBRESOURCE_FOOTPRINT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint). Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT. |
