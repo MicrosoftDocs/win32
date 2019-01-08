@@ -47,7 +47,8 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_FILTER_REDUCTION_TYPE**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_filter_reduction_type). Specifies the type of filter reduction.  |
 | [**D3D12_FILTER_TYPE**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_filter_type). Specifies the type of magnification or minification sampler filters.  |
 | [**D3D12_FORMAT_SUPPORT1**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_format_support1). Specifies resources that are supported for a provided format. |
-| [**D3D12_FORMAT_SUPPORT2**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_format_support2). Specifies which unordered resource options are supported for a provided format.  |
+| [**D3D12_FORMAT_SUPPORT2**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_format_support2). Specifies which unordered resource options are supported for a provided format. |
+| [**D3D12_GRAPHICS_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_graphics_states). Defines flags that specify states related to a graphics command list. Values can be bitwise OR'd together. |
 | [**D3D12_HEAP_FLAGS**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_heap_flags). Specifies heap options, such as whether the heap can contain textures, and whether resources are shared across adapters.  |
 | [**D3D12_HEAP_TYPE**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_heap_type). Specifies the type of heap. When resident, heaps reside in a particular physical memory pool with certain CPU cache properties.  |
 | [**D3D12_INDEX_BUFFER_STRIP_CUT_VALUE**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_index_buffer_strip_cut_value). When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle strip . There is a special index value that represents the desire to have a discontinuity in the strip, the cut index value. This enum lists the supported cut values.  |
@@ -55,6 +56,9 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_INPUT_CLASSIFICATION**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_input_classification). Identifies the type of data contained in an input slot. |
 | [**D3D12_LOGIC_OP**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_logic_op). Specifies logical operations to configure for a render target. |
 | [**D3D12_MEMORY_POOL**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_memory_pool). Specifies the memory pool for the heap. |
+| [**D3D12_META_COMMAND_PARAMETER_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags). Defines constants that specify the flags for a parameter to a meta command. Values can be bitwise OR'd together. |
+| [**D3D12_META_COMMAND_PARAMETER_STAGE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage). Defines constants that specify the stage of a parameter to a meta command. |
+| [**D3D12_META_COMMAND_PARAMETER_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_type). Defines constants that specify the data type of a parameter to a meta command. |
 | [**D3D12_MULTIPLE_FENCE_WAIT_FLAGS**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_multiple_fence_wait_flags). Specifies multiple wait flags for multiple fences. |
 | [**D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_multisample_quality_level_flags). Specifies options for determining quality levels.  |
 | [**D3D12_PIPELINE_STATE_FLAGS**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_pipeline_state_flags). Flags to control pipeline state.  |
