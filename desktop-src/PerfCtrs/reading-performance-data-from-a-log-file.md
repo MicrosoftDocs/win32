@@ -40,8 +40,7 @@ void wmain(int argc, WCHAR **argv)
         goto cleanup;
     }
 
-    // Opens the log file that Writein Performance Data to a Log File 
-    // example created.
+    // Opens the log file to write performance data
     status = PdhOpenQuery(argv[1], 0, &hQuery);
 
     if (ERROR_SUCCESS != status)
