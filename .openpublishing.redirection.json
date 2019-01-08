@@ -1019,6 +1019,16 @@
       "source_path": "desktop-src/direct3dhlsl/d3dcompiler-strip-flags.md",
       "redirect_url": "/windows/desktop/api/d3dcompiler/ne-d3dcompiler-d3dcompiler_strip_flags",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/win_cert/windows-7-certification.md",
+      "redirect_url": "https://blogs.msdn.microsoft.com/windows_hardware_certification/2018/04/19/win32-logo-certification-deprecation/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "desktop-src/win_cert/faq--windows-7-software-logo-process.md",
+      "redirect_url": "https://blogs.msdn.microsoft.com/windows_hardware_certification/2018/04/19/win32-logo-certification-deprecation/",
+      "redirect_document_id": true
     }
   ]
 }
