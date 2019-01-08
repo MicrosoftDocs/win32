@@ -8,6 +8,3 @@
 ### [Archive: Certification requirements for Windows Desktop Apps v1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)
 ## [Using the Windows App Certification Kit](using-the-windows-app-certification-kit.md)
 ### [Windows App Certification Kit tests](windows-app-certification-kit-tests.md)
-### [Windows 7 Certification](windows-7-certification.md)
-#### [FAQ: Windows 7 software logo process](faq--windows-7-software-logo-process.md)
-
