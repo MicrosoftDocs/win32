@@ -64,7 +64,7 @@ This section links to the C++ APIs used to implement Direct3D 12 raytracing.
 
 ### C++ raytracing enumerations
 
-* [D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS](http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_matching_identifier_status)
+* [D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS](http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_driver_matching_identifier_status)
 * [D3D12_ELEMENTS_LAYOUT](http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_elements_layout)
 * [D3D12_EXPORT_FLAGS](http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_export_flags)
 * [D3D12_HIT_GROUP_TYPE](http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_hit_group_type)
