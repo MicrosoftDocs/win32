@@ -12,23 +12,19 @@ Your filter handler must be registered. You can also locate an existing filter h
 
 This topic is organized as follows:
 
--   [Registering Filters Handlers for Windows Search](#registering-filter-handlers)
-    -   [Obsolete Approach for Registering Filters Handlers](#obsolete-approach-for-registering-filters-handlers)
--   [Replacing Existing Filter Handlers](#replacing-existing-filter-handlers)
--   [Finding a Filter Handler for a Given File Extension](#finding-a-filter-handler-for-a-given-file-extension)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Registering Filters Handlers for Windows Search](#registering-filter-handlers)
+  - [Obsolete Approach for Registering Filters Handlers](#obsolete-approach-for-registering-filters-handlers)
+- [Replacing Existing Filter Handlers](#replacing-existing-filter-handlers)
+- [Finding a Filter Handler for a Given File Extension](#finding-a-filter-handler-for-a-given-file-extension)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
-> [!Note]  
+> [!NOTE]  
 > A filter handler is an implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
-
- 
 
 ## Registering Filters Handlers for Windows Search
 
 The GUIDs you need for registering a new protocol handler or to find an existing protocol handler are listed in the following table.
-
-
 
 | GUID                                     | User or application defined | Description                                                                                               |
 |------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -37,28 +33,24 @@ The GUIDs you need for registering a new protocol handler or to find an existing
 | **{FilterHandlerCLSID}**                 | User                        | This is the class identifier (CLSID) for the filter handler.                                              |
 | **{ApplicationGUID}**                    | User                        | This is an intermediate (aggregated) GUID.                                                                |
 
-
-
- 
-
 Filter handlers must be registered in HKEY\_LOCAL\_MACHINE because SearchFilterHost.exe is running under the SYSTEM account and therefore cannot access registry keys for HKEY\_CURRENT\_USER for the logged-on user. In addition, the Users group must have read-and-execute access to the filter handler .dll itself because SearchFilterHost.exe removes all administrator rights and permits only non-administrator rights. Because the default Visual Studio project location is in the current user's directory, and so does not give read permissions to the Users group, you must either move the .dll or change the ACLs to allow SearchFilterHost.exe access.
 
 When you register a new filter handler, we recommend that you use a descriptive name, for example, HTML IFilter.
 
 **To register your new filter handler:**
 
-1.  Specify the extension and persistent handler GUID that will use the filter handler:
+1. Specify the extension and persistent handler GUID that will use the filter handler:
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        Software
           Classes
              .txt
                 PersistentHandler
                    (Default) = {PersistentHandlerGUID}
-    ```
+```
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        Software
           Classes
@@ -68,11 +60,11 @@ When you register a new filter handler, we recommend that you use a descriptive 
                       PersistentAddinsRegistered
                          {89BCB740-6119-101A-BCB7-00DD010655AF}l
                             (Default) = {FilterHandlerCLSID}
-    ```
+```
 
-2.  Register your filter handler with the following keys and values:
+2. Register your filter handler with the following keys and values:
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        Software
           Classes
@@ -83,7 +75,7 @@ When you register a new filter handler, we recommend that you use a descriptive 
                       InprocServer32
                          (Default) = DLL Install Path
                          ThreadingModel = Both
-    ```
+```
 
 ### Obsolete Approach for Registering Filters Handlers
 
@@ -136,20 +128,20 @@ You can use the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloa
 
 **To find the filter handler for a given file name extension:**
 
-1.  Check whether the extension for the type of files that are filtered has a persistent handler registered under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes.extension. If so, let this key be {PersistentHandlerGUID}.
+1. Check whether the extension for the type of files that are filtered has a persistent handler registered under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes.extension. If so, let this key be {PersistentHandlerGUID}.
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
              .htm
                 PersistentHandler
                    {PersistentHandlerGUID}
-    ```
+```
 
-2.  If there is not a persistent handler registered for the extension, find the CLSID associated with the document type under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be {ApplicationGUID}. Then determine whether a persistent handler is registered for the CLSID: using {ApplicationGUID} locate the persistent handler for the \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\{ApplicationGUID} entry. Let this key be {PersistentHandlerGUID}.
+2. If there is not a persistent handler registered for the extension, find the CLSID associated with the document type under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be {ApplicationGUID}. Then determine whether a persistent handler is registered for the CLSID: using {ApplicationGUID} locate the persistent handler for the \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\{ApplicationGUID} entry. Let this key be {PersistentHandlerGUID}.
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
@@ -161,86 +153,53 @@ You can use the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloa
                 {25336920-03F9-11CF-8FD0-00AA00686F13}
                    PersistentHandler
                       (Default) = {PersistentHandlerGUID}
-    ```
+```
 
-3.  Determine the GUID of the persistent handler: using {PersistentHandlerGUID} find the persistent handler GUID for the document type. The value under the registry entry HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\{PersistentHandlerGUID}\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF yields the persistent handler GUID for this document type. Let this key be {FilterHandlerCLSID}.
+3. Determine the GUID of the persistent handler: using {PersistentHandlerGUID} find the persistent handler GUID for the document type. The value under the registry entry HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\{PersistentHandlerGUID}\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF yields the persistent handler GUID for this document type. Let this key be {FilterHandlerCLSID}.
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
              {PersistentHandlerGUID}
                 (Default) = HTML File Persistent Handler<dl>
-    <dt>
+                    REG_SZ     {89BCB740-6119-101A-BCB7-00DD010655AF}
+                    REG_SZ     (Default) = {EEC97550-47A9-11CF-B952-00AA0051FE20}
+```
 
-            Data type
-</dt>
-    <dd>            REG_SZ</dd>
-    </dl>
-                {89BCB740-6119-101A-BCB7-00DD010655AF}
-                   (Default) = {EEC97550-47A9-11CF-B952-00AA0051FE20}<dl>
-    <dt>
+4. Determine the filter handler: using {FilterHandlerCLSID} that was determined in the previous step locate the filter handler under the entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\{FilterHandlerCLSID}\\InprocServer32. In this example the descriptive filter handler name used is HTML IFilter.
 
-               Data type
-</dt>
-    <dd>               REG_SZ</dd>
-    </dl>
-    ```
-
-4.  Determine the filter handler: using {FilterHandlerCLSID} that was determined in the previous step locate the filter handler under the entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\{FilterHandlerCLSID}\\InprocServer32. In this example the descriptive filter handler name used is HTML IFilter.
-
-    ```
+```
     HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
              CLSID
                 {EEC97550-47A9-11CF-B952-00AA0051FE20}
-                   (Default) = HTML IFilter<dl>
-    <dt>
-
-               Data type
-</dt>
-    <dd>               REG_SZ</dd>
-    </dl>
-                   InprocServer32
-                      nlhtml.dll
-    ```
+                   (Default) = HTML IFilter
+                    Data type  REG_SZ
+                    InprocServer32
+                    nlhtml.dll
+```
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) base class for implementing the **IFilter** interface.
--   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) base class for implementing the **IFilter** interface.
+- For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
+- For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
 
 ## Related topics
 
-<dl> <dt>
-
 [Developing Filter Handlers](-search-ifilter-conceptual.md)
-</dt> <dt>
 
 [About Filter Handlers in Windows Search](-search-ifilter-about.md)
-</dt> <dt>
 
 [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md)
-</dt> <dt>
 
 [Returning Properties from a Filter Handler](-search-ifilter-property-filtering.md)
-</dt> <dt>
 
 [Filter Handlers that Ship with Windows](-search-ifilter-implementations.md)
-</dt> <dt>
 
 [Implementing Filter Handlers in Windows Search](-search-ifilter-constructing-filters.md)
-</dt> <dt>
 
 [Testing Filter Handlers](-search-ifilter-testing-filters.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

@@ -12,104 +12,61 @@ The WSOleDB code sample demonstrates Active Template Library (ATL) OLE DB acce
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Running the Sample](#running-the-sample)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Running the Sample](#running-the-sample)
+- [Related topics](#related-topics)
 
 ## Requirements
 
-
-
-| Product     | Minimum Product Version                                                                |
-|-------------|----------------------------------------------------------------------------------------|
-| Windows     | Windows Vista, or Windows XP and Microsoft Windows Desktop Search (WDS) 3.x or greater |
-| Windows SDK | 7.0                                                                                    |
-
-
-
- 
+| Product     | Product Version          |
+|-------------|--------------------------|
+| Windows     | Windows 7, 8.1, or 10    |
+| Windows SDK | 7.0 or greater           |
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
+This sample is available in the following location.
 
 | Location      | Path URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| Code Gallery  | [WSOleDB sample](http://go.microsoft.com/fwlink/p/?linkid=155654)         |
-| Windows 7 SDK | [Download Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) |
+| GitHub        | [WSOleDB sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/WSOleDB)         |
 
-
-
- 
-
- 
-
-> [!Note]  
-> After you have downloaded and installed the Windows Software Development Kit (SDK), you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 software development kit (SDK) results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples`.
-
- 
+> [!NOTE]  
+> For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
 ## Building the Sample
 
-To build the sample from the Command Prompt window:
+1. Open Windows Explorer and navigate to the **WSOleDB** project directory.
+2. Double-click the icon for the WSOleDB.sln file to open the project in Visual Studio.
+  
+    > [!NOTE]  
+    > The sln file was created under an older version of Visual Studio, thus upgrading it will be required if you are running Visual Studio 2012 or newer. This will not impact the sample's behavior.
 
-1.  Open the Command Prompt window and navigate to the **WSOleDB** project directory. For example, the full default installation path is `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\WindowsSearch\WSOleDB`.
-2.  Enter `msbuild WSOleDB.sln`.
-
-To build the sample using Microsoft Visual Studio (preferred):
-
-1.  Open Windows Explorer and navigate to the **WSOleDB** project directory.
-2.  Double-click the icon for the WSOleDB.sln file to open the project in Visual Studio.
-    > [!Note]  
-    > The .sln file name extension is not shown under default folder settings. In that situation, it can be identified by its unique icon or by its type description, "Microsoft Visual Studio Solution".
-
-     
-
-3.  From the **Build** menu, select **Build Solution**.
+3. From the **Build** menu, select **Build Solution**.
 
 ## Running the Sample
 
-1.  Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
-2.  At the command prompt, enter `WSOleDB.exe`, or from Windows Explorer, double-click the icon for WSOleDB.exe.
+1. Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
+2. At the command prompt, enter `WSOleDB.exe`, or from Windows Explorer, double-click the icon for WSOleDB.exe.
 
 ## Related topics
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
+### Reference
 
 [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager)
-</dt> <dt>
 
 [**ISearchCatalogManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2)
-</dt> <dt>
 
 [**ISearchManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Search Code Samples](-search-samples-ovw.md)
-</dt> <dt>
-
-**Other Resources**
-</dt> <dt>
 
 [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
-</dt> <dt>
 
-[OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx)
-</dt> </dl>
+### Conceptual
 
- 
+[OLE DB Programming Overview](https://docs.microsoft.com/en-us/cpp/data/oledb/ole-db-programming-overview)
 
- 
+### Other Samples
 
-
-
+[Search Code Samples](-search-samples-ovw.md)

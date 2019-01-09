@@ -12,16 +12,14 @@ Properties are extracted from items using registered property handlers, or using
 
 This topic is organized as follows:
 
--   [Property Filtering](#returning-properties-from-a-filter-handler)
-    -   [Property Size Limitations](#property-size-limitations)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Property Filtering](#returning-properties-from-a-filter-handler)
+  - [Property Size Limitations](#property-size-limitations)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## Property Filtering
 
 Best practices for property filtering are listed in the following table.
-
-
 
 | Method                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -29,10 +27,6 @@ Best practices for property filtering are listed in the following table.
 | [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) | Returns information from a document in "chunks" with chunk type (text or value), name, and locale. A chunk contains one document property.                                                                                                                                                                                                                                                                                                      |
 | [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx)   | Gets a text-type property from a chunk.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) | Gets a value-type property from a chunk.                                                                                                                                                                                                                                                                                                                                                                                                        |
-
-
-
- 
 
 The following illustration shows an example document. The external value-type property `DocTitle` (obtained using methods of the [IPropertySetStorage](http://msdn.microsoft.com/en-us/library/Aa379840(VS.85).aspx) and [IPropertyStorage](http://msdn.microsoft.com/en-us/library/Aa379968(VS.85).aspx) interfaces) and the internal value-type property `Book` (obtained as a result of a custom [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) implementation) describe the document as a whole. The text-type properties `Contents` and `Chapter` describe the content of the document. When processing this document, the filter handler (an implementation of the **IFilter** interface) identifies and extracts these properties.
 
@@ -42,8 +36,8 @@ The following illustration shows an example document. The external value-type pr
 
 There are two potential limitations to property size:
 
--   The maximum size of data that Windows Search accepts per file.
--   The maximum size per property as defined in the property description file.
+- The maximum size of data that Windows Search accepts per file.
+- The maximum size per property as defined in the property description file.
 
 Currently, Windows Search does not use the defined property size when calculating the amount of data it accepts from an item. Instead, the limit Windows Search uses is the product of the size of the file and the `MaxGrowFactor` (file size N \* MaxGrowFactor) read from the registry. The default `MaxGrowFactor` is four.
 
@@ -59,40 +53,24 @@ Consequently, if your file type tends to be small in total size but have larger 
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
--   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
--   For an overview of properties and property handlers, and a list of system properties that you can use for your file formats, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+- For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
+- For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- For an overview of properties and property handlers, and a list of system properties that you can use for your file formats, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
 
 ## Related topics
 
-<dl> <dt>
-
 [Developing Filter Handlers](-search-ifilter-conceptual.md)
-</dt> <dt>
 
 [About Filter Handlers in Windows Search](-search-ifilter-about.md)
-</dt> <dt>
 
 [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md)
-</dt> <dt>
 
 [Filter Handlers that Ship with Windows](-search-ifilter-implementations.md)
-</dt> <dt>
 
 [Implementing Filter Handlers in Windows Search](-search-ifilter-constructing-filters.md)
-</dt> <dt>
 
 [Registering Filter Handlers](-search-ifilter-registering-filters.md)
-</dt> <dt>
 
 [Testing Filter Handlers](-search-ifilter-testing-filters.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
