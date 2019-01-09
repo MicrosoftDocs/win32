@@ -31,11 +31,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetSetCurrentIndex** function can be used to set the current index of a cursor. The current index of a cursor defines which records in a table are visible to that cursor and the order in which they appear by selecting the set of index entries to use to expose those records.
 
+```cpp
     JET_ERR JET_API JetSetCurrentIndex(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in_opt      const tchar* szIndexName
     );
+```
 
 ### Parameters
 
@@ -57,7 +59,7 @@ If *pindexid* is not NULL then the index name will be ignored and the index will
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -145,7 +147,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, the current index of the cursor is set to the requested index. Index entries may now be sought using [JetSeek](gg294103\(v=exchg.10\).md) according to the index definition of the requested index. Index entries may also be enumerated using [JetMove](gg294117\(v=exchg.10\).md) in the order specified by that index definition. The current position of the cursor is either set to the first index entry on the index (JET\_bitMoveFirst) or to a specific index entry that is related to the current position of the cursor on the old index (JET\_bitNoMove). No change to the database state will occur.
+On success, the current index of the cursor is set to the requested index. Index entries may now be sought using [JetSeek](gg294103\(v=exchg.10\).md) according to the index definition of the requested index. Index entries may also be enumerated using [JetMove](gg294117\(v=exchg.10\).md) in the order specified by that index definition. The current position of the cursor is either set to the first index entry on the index (JET_bitMoveFirst) or to a specific index entry that is related to the current position of the cursor on the old index (JET_bitNoMove). No change to the database state will occur.
 
 On failure, the current index and current position of the cursor are in an undefined state. No change to the database state will occur.
 
@@ -191,11 +193,11 @@ If the index ID hint is stale then the API simply fails. There is no fallback to
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_INDEXID](gg269327\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_INDEXID](gg269327\(v=exchg.10\).md)  
 [JetCreateIndex](gg294099\(v=exchg.10\).md)  
 [JetGetCurrentIndex](gg294041\(v=exchg.10\).md)  
 [JetGetIndexInfo](gg294084\(v=exchg.10\).md)  

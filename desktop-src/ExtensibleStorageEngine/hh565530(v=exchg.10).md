@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_LOGTIME operators
+# JET_LOGTIME operators
 
 Include protected members  
 Include inherited members  
 
-The [JET\_LOGTIME](hh557188\(v=exchg.10\).md) type exposes the following members.
+The [JET_LOGTIME](hh557188\(v=exchg.10\).md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +46,7 @@ Top
 
 #### Reference
 
-[JET\_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

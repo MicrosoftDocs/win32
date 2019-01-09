@@ -126,7 +126,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_wrn enumeration
+# JET_wrn enumeration
 
 ESENT warning codes.
 

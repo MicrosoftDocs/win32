@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SPACEHINTS.ulGrowth property
+# JET_SPACEHINTS.ulGrowth property
 
 Gets or sets the percent growth from last growth or initial size (possibly rounded to nearest native JET allocation size). Valid values are 0, and \[100, 50000).
 
@@ -57,15 +57,15 @@ public int ulGrowth { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
 
-[JET\_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

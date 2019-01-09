@@ -63,7 +63,7 @@ bool ContentEquals(
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 ## See also

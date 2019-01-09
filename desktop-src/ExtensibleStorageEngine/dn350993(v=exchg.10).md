@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.MaxCursors property
 
-Gets or sets the number of cursor resources reserved for this instance. A cursor resource directly corresponds to a JET\_TABLEID.
+Gets or sets the number of cursor resources reserved for this instance. A cursor resource directly corresponds to a JET_TABLEID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ public int MaxCursors { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 

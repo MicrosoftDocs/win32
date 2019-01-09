@@ -26,14 +26,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXLIST class
+# JET_INDEXLIST class
 
 Information about a temporary table containing information about all indexes for a given table.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  Microsoft.Isam.Esent.Interop.JET\_INDEXLIST  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  Microsoft.Isam.Esent.Interop.JET_INDEXLIST  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

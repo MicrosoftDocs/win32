@@ -34,9 +34,9 @@ ROBOTS: INDEX,FOLLOW
 
 # CompactGrbit enumeration
 
-Options for [JetCompact(JET\_SESID, String, String, JET\_PFNSTATUS, JET\_CONVERT, CompactGrbit)](dn292112\(v=exchg.10\).md).
+Options for [JetCompact(JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](dn292112\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

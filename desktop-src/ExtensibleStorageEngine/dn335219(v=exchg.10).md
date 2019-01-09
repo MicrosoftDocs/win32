@@ -26,14 +26,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTINFO class
+# JET_OBJECTINFO class
 
-The JET\_OBJECTINFO structure holds information about an object. Tables are the only object types that are currently supported.
+The JET_OBJECTINFO structure holds information about an object. Tables are the only object types that are currently supported.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  Microsoft.Isam.Esent.Interop.JET\_OBJECTINFO  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  Microsoft.Isam.Esent.Interop.JET_OBJECTINFO  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

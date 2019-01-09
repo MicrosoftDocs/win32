@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE Structure
+# JET_RECSIZE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_RECSIZE Structure
+## JET_RECSIZE Structure
 
-The **JET\_RECSIZE** structure is used by [JetGetRecordSize](gg294045\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
+The **JET_RECSIZE** structure is used by [JetGetRecordSize](gg294045\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
 
-**Windows Vista:** The **JET\_RECSIZE** structure is introduced in Windows Vista.
+**Windows Vista:** The **JET_RECSIZE** structure is introduced in Windows Vista.
 
+```cpp
     typedef struct {
       unsigned __int64 cbData;
       unsigned __int64 cbLongValueData;
@@ -38,6 +39,7 @@ The **JET\_RECSIZE** structure is used by [JetGetRecordSize](gg294045\(v=exchg.1
       unsigned __int64 cLongValues;
       unsigned __int64 cMultiValues;
     } JET_RECSIZE;
+```
 
 ### Members
 

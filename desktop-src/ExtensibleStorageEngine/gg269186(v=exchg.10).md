@@ -19,12 +19,12 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXCREATE Structure
+# JET_INDEXCREATE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-The **JET\_INDEXCREATE** structure contains the information needed to create an index over data in an Extensible Storage Engine (ESE) database. The structure is used by functions such as [JetCreateIndex2](gg269324\(v=exchg.10\).md), and in structures such as [JET\_TABLECREATE](gg294146\(v=exchg.10\).md) and [JET\_TABLECREATE2](gg269203\(v=exchg.10\).md).
+The **JET_INDEXCREATE** structure contains the information needed to create an index over data in an Extensible Storage Engine (ESE) database. The structure is used by functions such as [JetCreateIndex2](gg269324\(v=exchg.10\).md), and in structures such as [JET_TABLECREATE](gg294146\(v=exchg.10\).md) and [JET_TABLECREATE2](gg269203\(v=exchg.10\).md).
 
 ``` c++
 typedef struct tagJET_INDEXCREATE {
@@ -53,7 +53,7 @@ typedef struct tagJET_INDEXCREATE {
 
 **cbStruct**
 
-The size, in bytes, of this structure. Set this member to sizeof( JET\_INDEXCREATE ).
+The size, in bytes, of this structure. Set this member to sizeof( JET_INDEXCREATE ).
 
 **szIndexName**
 
@@ -61,7 +61,7 @@ The name of the index to create.
 
 The name of the index must meet the following conditions:
 
-  - It must be less than JET\_cbNameMost, not including the terminating null.
+  - It must be less than JET_cbNameMost, not including the terminating null.
 
   - It must consist of the following characters: 0 (zero) through 9, A through Z, a through z, and all other punctuation except for "\!" (exclamation point), "," (comma), "\[" (opening bracket), and "\]" (closing bracket) — that is, ASCII characters 0x20, 0x22 through 0x2d, 0x2f through 0x5a, 0x5c, 0x5d through 0x7f.
 
@@ -75,11 +75,11 @@ A pointer to a double-null-terminated string of null-delimited tokens.
 
 Each token is of the form "\<direction-specifier\>\<column-name\>", where direction-specification is either "+" or "-". For example, a **szKey** of "+abc\\0-def\\0+ghi\\0" will index over the three columns "abc" (in ascending order), "def" (in descending order), and "ghi" (in ascending order). In the C language, string literals have an implied **NULL** terminator; therefore, the above string will be terminated by a double-NULL.
 
-The number of columns specified in **szKey** may not exceed the value of **JET\_ccolKeyMost** (a version-dependent constant).
+The number of columns specified in **szKey** may not exceed the value of **JET_ccolKeyMost** (a version-dependent constant).
 
 At least one column must be named in **szKey**.
 
-Obsolete behavior: After the double-NULL terminator, it is possible to specify a language ID (a WORD which gets passed into MAKELCID( langid, SORT\_DEFAULT ) ) as a way to specify the LCID for the index. It is illegal to specify both a language ID in **szKey** and an LCID in [JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md) (by setting JET\_bitIndexUnicode in *grbit*).
+Obsolete behavior: After the double-NULL terminator, it is possible to specify a language ID (a WORD which gets passed into MAKELCID( langid, SORT_DEFAULT ) ) as a way to specify the LCID for the index. It is illegal to specify both a language ID in **szKey** and an LCID in [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) (by setting JET_bitIndexUnicode in *grbit*).
 
 Deprecated: After the language ID, it is possible to pass **cbVarSegMac** as a USHORT. The behavior is undefined if the USHORT is set both in **szKey** and if **cbVarSegMac** is set in the structure.
 
@@ -189,31 +189,31 @@ The percentage density of the initial index B+ tree. Specifying a number less th
 
 **lcid**
 
-The locale identifier (LCID) to use when normalizing the data when the JET\_bitIndexUnicode value is not specified in the *grbit* parameter. The LCID affects the normalization if the index is over Unicode columns.
+The locale identifier (LCID) to use when normalizing the data when the JET_bitIndexUnicode value is not specified in the *grbit* parameter. The LCID affects the normalization if the index is over Unicode columns.
 
 **pidxunicode**
 
-A pointer to a [JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET\_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](http://msdn.microsoft.com/en-us/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
+A pointer to a [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](http://msdn.microsoft.com/en-us/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
 
 **cbVarSegMac**
 
-The maximum length, in bytes, of each column to store in the index when the JET\_bitIndexTupleLimits value is not specified in the *grbit* parameter.
+The maximum length, in bytes, of each column to store in the index when the JET_bitIndexTupleLimits value is not specified in the *grbit* parameter.
 
 Specifying a value of 0 (zero) for this field is equivalent to:
 
-  - Specifying JET\_cbPrimaryKeyMost for a primary index.
+  - Specifying JET_cbPrimaryKeyMost for a primary index.
 
-  - Specifying JET\_cbSecondaryKeyMost for a secondary index.
+  - Specifying JET_cbSecondaryKeyMost for a secondary index.
 
 **ptuplelimits**
 
-A pointer to a [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure if the JET\_bitIndexTupleLimits value is specified in the *grbit* parameter.
+A pointer to a [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure if the JET_bitIndexTupleLimits value is specified in the *grbit* parameter.
 
 ptuplelimits was introduced in Windows Server 2003.
 
 **rgconditionalcolumn**
 
-An optional parameter to an array of [JET\_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md) structures, which are used to specify the conditional columns in the index.
+An optional parameter to an array of [JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md) structures, which are used to specify the conditional columns in the index.
 
 **cConditionalColumn**
 
@@ -225,25 +225,25 @@ Contains the return code for creating this index.
 
 **cbKeyMost**
 
-Specifies the maximum allowable size, in bytes, for keys in the index. This parameter is ignored if the JET\_bitIndexKeyMost value is not specified in the *grbit* parameter. If this parameter is set to zero, and JET\_bitIndexKeyMost is specified in the *grbit* parameter, the calling function will fail with JET\_err\_InvalidDef.
+Specifies the maximum allowable size, in bytes, for keys in the index. This parameter is ignored if the JET_bitIndexKeyMost value is not specified in the *grbit* parameter. If this parameter is set to zero, and JET_bitIndexKeyMost is specified in the *grbit* parameter, the calling function will fail with JET_err_InvalidDef.
 
-The minimum supported maximum key size is JET\_cbKeyMostMin (255), which is the legacy maximum key size.
+The minimum supported maximum key size is JET_cbKeyMostMin (255), which is the legacy maximum key size.
 
-The maximum key size is dependent on the database page size (JET\_paramDatabasePageSize), as follows:
+The maximum key size is dependent on the database page size (JET_paramDatabasePageSize), as follows:
 
-  - If JET\_paramDatabasePageSize = 2048 then JET\_cbKeyMostMin (255) \<= **cbKeyMost** \<= JET\_cbKeyMost2KBytePage (500)
+  - If JET_paramDatabasePageSize = 2048 then JET_cbKeyMostMin (255) \<= **cbKeyMost** \<= JET_cbKeyMost2KBytePage (500)
 
-  - If JET\_paramDatabasePageSize = 4096 then JET\_cbKeyMostMin (255) \<= **cbKeyMost** \<= JET\_cbKeyMost4KBytePage (1000)
+  - If JET_paramDatabasePageSize = 4096 then JET_cbKeyMostMin (255) \<= **cbKeyMost** \<= JET_cbKeyMost4KBytePage (1000)
 
-  - If JET\_paramDatabasePageSize = 8192 then JET\_cbKeyMostMin (255) \<= **cbKeyMost** \<= JET\_cbKeyMost8KBytePage (2000)
+  - If JET_paramDatabasePageSize = 8192 then JET_cbKeyMostMin (255) \<= **cbKeyMost** \<= JET_cbKeyMost8KBytePage (2000)
 
-The maximum supported key size for the instance can also be read from the JET\_paramKeyMost system parameter.
+The maximum supported key size for the instance can also be read from the JET_paramKeyMost system parameter.
 
 **cbKeyMost** was introduced in Windows Vista.
 
 ### Remarks
 
-ESE supports indexing over key columns containing multiple values. To use this feature, the column must be a tagged column type (JET\_bitColumnTagged), and it must be flagged to have its multiple values indexed with JET\_bitColumnMultiValued. In versions of Windows earlier than Windows Vista, only the first multivalued key column in the index will have its values expanded in the index. All other multivalued and tagged columns will only have their first values expanded in the index.
+ESE supports indexing over key columns containing multiple values. To use this feature, the column must be a tagged column type (JET_bitColumnTagged), and it must be flagged to have its multiple values indexed with JET_bitColumnMultiValued. In versions of Windows earlier than Windows Vista, only the first multivalued key column in the index will have its values expanded in the index. All other multivalued and tagged columns will only have their first values expanded in the index.
 
 Assuming the following rows exist in a table (column Alpha is not multivalued, while columns Beta, Gamma, and Delta are multivalued), and an index is created as "+Alpha\\0+Beta\\0+Gamma\\0+Delta\\0\\0":
 
@@ -295,7 +295,7 @@ The falling index-tuples will be stored:
 
 Note that {2,THE,SPAIN,IN} is not stored, even though the Alpha column in the second row happens to have a single multivalue.
 
-In versions of Windows starting with Windows Vista, all multivalued columns can be expanded in the index by specifying JET\_bitIndexCrossProduct.
+In versions of Windows starting with Windows Vista, all multivalued columns can be expanded in the index by specifying JET_bitIndexCrossProduct.
 
 ### Requirements
 
@@ -327,14 +327,14 @@ In versions of Windows starting with Windows Vista, all multivalued columns can
 
 ### See also
 
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JET\_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
-[JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
+[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
+[JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
+[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
 [JetCreateIndex2](gg269324\(v=exchg.10\).md)  
 [JetSetColumn](gg294137\(v=exchg.10\).md)  
 [JetUpdate](gg269288\(v=exchg.10\).md)

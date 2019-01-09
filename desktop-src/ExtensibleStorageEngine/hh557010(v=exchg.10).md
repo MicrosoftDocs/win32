@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE structure
+# JET_RECSIZE structure
 
-Used by [JetGetRecordSize(JET\_SESID, JET\_TABLEID, JET\_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESENT record structure overhead space.
+Used by [JetGetRecordSize(JET_SESID, JET_TABLEID, JET_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESENT record structure overhead space.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

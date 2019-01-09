@@ -32,9 +32,9 @@ ROBOTS: INDEX,FOLLOW
 
 # ResizeDatabaseGrbit enumeration
 
-Options for [JetResizeDatabase(JET\_SESID, JET\_DBID, Int32, Int32, ResizeDatabaseGrbit)](dn335496\(v=exchg.10\).md).
+Options for [JetResizeDatabase(JET_SESID, JET_DBID, Int32, Int32, ResizeDatabaseGrbit)](dn335496\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

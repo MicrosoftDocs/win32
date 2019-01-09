@@ -90,23 +90,23 @@ public static JET_wrn JetEnumerateColumns(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve data from.
 
 <!-- end list -->
 
   - numColumnids  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
-    The numbers of JET\_ENUMCOLUMNIDS.
+    The numbers of JET_ENUMCOLUMNIDS.
 
 <!-- end list -->
 
@@ -118,7 +118,7 @@ public static JET_wrn JetEnumerateColumns(
 <!-- end list -->
 
   - numColumnValues  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the number of column values retrieved.
 
@@ -132,21 +132,21 @@ public static JET_wrn JetEnumerateColumns(
 <!-- end list -->
 
   - allocator  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_PFNREALLOC](hh566077\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_PFNREALLOC](hh566077\(v=exchg.10\).md)  
     
     Callback used to allocate memory.
 
 <!-- end list -->
 
   - allocatorContext  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
     Context for the allocation callback.
 
 <!-- end list -->
 
   - maxDataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Sets a cap on the amount of data to return from a long text or long binary column. This parameter can be used to prevent the enumeration of an extremely large column value.
 
@@ -159,7 +159,7 @@ public static JET_wrn JetEnumerateColumns(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 A warning or success.  
 
 ## See also

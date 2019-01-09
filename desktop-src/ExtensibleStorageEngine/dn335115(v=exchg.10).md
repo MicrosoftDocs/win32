@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXCREATE constructor
+# JET_INDEXCREATE constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_INDEXCREATE()
 
 #### Reference
 
-[JET\_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
 
-[JET\_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

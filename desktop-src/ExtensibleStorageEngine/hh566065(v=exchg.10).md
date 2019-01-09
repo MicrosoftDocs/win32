@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CALLBACK delegate
+# JET_CALLBACK delegate
 
 A multi-purpose callback function used by the database engine to inform the application of an event involving online defragmentation and cursor state notifications.
 
@@ -71,62 +71,62 @@ public delegate JET_err JET_CALLBACK(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session for which the callback is being made.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database for which the callback is being made.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor for which the callback is being made.
 
 <!-- end list -->
 
   - cbtyp  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_cbtyp](hh564847\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
     
     The operation for which the callback is being made.
 
 <!-- end list -->
 
   - arg1  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
     First callback-specific argument.
 
 <!-- end list -->
 
   - arg2  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
     Second callback-specific argument.
 
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
     Callback context.
 
 <!-- end list -->
 
   - unused  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
     This parameter is not used.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_err](hh564840\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
 
 ## See also
 

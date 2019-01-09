@@ -33,12 +33,14 @@ The **JetCreateInstance2** function is used to allocate a new instance of the da
 
 **Windows XP:**  **JetCreateInstance2** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetCreateInstance2(
       __out         JET_INSTANCE* pinstance,
       __in_opt      const tchar* szInstanceName,
       __in_opt      const tchar* szDisplayName,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -62,7 +64,7 @@ Reserved for future use. When this parameter is not present, its value is presum
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -108,7 +110,7 @@ On failure, an error representing the cause of failure will be returned and no i
 
 An instance must be initialized with a call to [JetInit](gg294068\(v=exchg.10\).md) before it can be used by anything other than [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
 
-An instance is destroyed by a call to the [JetTerm](gg269298\(v=exchg.10\).md) function, even if that instance was never initialized using [JetInit](gg294068\(v=exchg.10\).md). The maximum number of instances that may be created at any one time is controlled by *JET\_paramMaxInstances*, which can be configured by a call to [JetSetSystemParameter](gg294044\(v=exchg.10\).md). An instance is the unit of recoverability for the database engine. It controls the life cycle of all the files used to protect the integrity of the data in a set of database files. These files include the checkpoint file and the transaction log files.
+An instance is destroyed by a call to the [JetTerm](gg269298\(v=exchg.10\).md) function, even if that instance was never initialized using [JetInit](gg294068\(v=exchg.10\).md). The maximum number of instances that may be created at any one time is controlled by *JET_paramMaxInstances*, which can be configured by a call to [JetSetSystemParameter](gg294044\(v=exchg.10\).md). An instance is the unit of recoverability for the database engine. It controls the life cycle of all the files used to protect the integrity of the data in a set of database files. These files include the checkpoint file and the transaction log files.
 
 If the function succeeds, the database engine will automatically be changed to multi-instance mode as a side effect of this call. If the application desires to allow only one instance in the process then [JetInit](gg294068\(v=exchg.10\).md) should be used to start the database engine in Windows 2000 compatibility mode.
 
@@ -118,11 +120,11 @@ The typical start-up sequence for a process potentially running multiple Jet ins
 
   - A call to **JetCreateInstance2** which will allocate and name the instance.
 
-  - Multiple calls to [JetSetSystemParameter](gg294044\(v=exchg.10\).md) for that instance in order to set different system parameters. Note that some system parameters need to be unique for each instance (like *JET\_paramSystemPath* or *JET\_paramLogFilePath*) so most likely, each of these will need to be set.
+  - Multiple calls to [JetSetSystemParameter](gg294044\(v=exchg.10\).md) for that instance in order to set different system parameters. Note that some system parameters need to be unique for each instance (like *JET_paramSystemPath* or *JET_paramLogFilePath*) so most likely, each of these will need to be set.
 
   - Start the instance using [JetInit](gg294068\(v=exchg.10\).md) or [JetInit2](gg294065\(v=exchg.10\).md). In order to terminate and/or free an instance, use [JetTerm](gg269298\(v=exchg.10\).md) or [JetTerm2](gg269223\(v=exchg.10\).md).
 
-If this is the first instance to be started, there are a number of additional steps which will be executed during this call in order to make basic system initialization and configuration. A number of those steps might result in specific errors starting with JET\_errOutOfMemory but others as well (see Return Values for more information).
+If this is the first instance to be started, there are a number of additional steps which will be executed during this call in order to make basic system initialization and configuration. A number of those steps might result in specific errors starting with JET_errOutOfMemory but others as well (see Return Values for more information).
 
 #### Requirements
 
@@ -162,8 +164,8 @@ If this is the first instance to be started, there are a number of additional st
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetEnableMultiInstance](gg294107\(v=exchg.10\).md)  
 [JetGetInstanceInfo](gg294149\(v=exchg.10\).md)  

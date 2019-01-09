@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OSSNAPID.Nil property
+# JET_OSSNAPID.Nil property
 
-Gets a null JET\_OSSNAPID.
+Gets a null JET_OSSNAPID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -52,15 +52,15 @@ public static JET_OSSNAPID Nil { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_OSSNAPID](hh558483\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
 
-[JET\_OSSNAPID members](hh596352\(v=exchg.10\).md)
+[JET_OSSNAPID members](hh596352\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

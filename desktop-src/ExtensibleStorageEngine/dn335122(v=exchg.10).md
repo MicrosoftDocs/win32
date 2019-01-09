@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXCREATE.cbKey property
+# JET_INDEXCREATE.cbKey property
 
 Gets or sets the length, in characters, of szKey including the two terminating nulls.
 
@@ -57,15 +57,15 @@ public int cbKey { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
 
-[JET\_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

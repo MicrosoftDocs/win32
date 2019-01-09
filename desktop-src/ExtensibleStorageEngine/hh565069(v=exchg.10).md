@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_objtyp enumeration
+# JET_objtyp enumeration
 
 Type of an ESENT object.
 

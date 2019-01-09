@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE\_INFO.szInstanceName property
+# JET_INSTANCE_INFO.szInstanceName property
 
 Gets the name of the database instance. This value can be null if the instance does not have a name.
 
@@ -55,15 +55,15 @@ public string szInstanceName { get; private set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 
 #### Reference
 
-[JET\_INSTANCE\_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
 
-[JET\_INSTANCE\_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

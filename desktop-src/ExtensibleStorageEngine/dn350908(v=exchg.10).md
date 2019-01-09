@@ -53,7 +53,7 @@ public CompareOptions CompareOptions { get; }
 
 #### Property value
 
-Type: [System.Globalization.CompareOptions](http://msdn2.microsoft.com/en-us/library/cfw20y7b)  
+Type: [System.Globalization.CompareOptions](https://msdn.microsoft.com/en-us/library/cfw20y7b)  
 
 ## See also
 

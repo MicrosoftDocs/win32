@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXCREATE.DeepClone method
+# JET_INDEXCREATE.DeepClone method
 
 Returns a deep copy of the object.
 
@@ -51,7 +51,7 @@ public JET_INDEXCREATE DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_INDEXCREATE](dn335112\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_INDEXCREATE](dn335112\(v=exchg.10\).md)  
 A deep copy of the object.  
 
 #### Implements
@@ -62,9 +62,9 @@ A deep copy of the object.
 
 #### Reference
 
-[JET\_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
 
-[JET\_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

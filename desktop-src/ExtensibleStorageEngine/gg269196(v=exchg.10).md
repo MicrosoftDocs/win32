@@ -31,16 +31,18 @@ The **JetGetThreadStats** function retrieves performance information from the da
 
 **Windows Vista:**  **JetGetThreadStats** is introduced in Windows Vista.
 
+```cpp
     JET_ERR JET_API JetGetThreadStats(
       __out         void* pvResult,
       __in          unsigned long cbMax
     );
+```
 
 ### Parameters
 
 *pvResult*
 
-The output buffer which receives the thread statistics data. The buffer contains a [JET\_THREADSTATS](gg269227\(v=exchg.10\).md) structure after a successful call.
+The output buffer which receives the thread statistics data. The buffer contains a [JET_THREADSTATS](gg269227\(v=exchg.10\).md) structure after a successful call.
 
 *cbMax*
 
@@ -48,7 +50,7 @@ The maximum size in bytes of the output buffer.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -74,7 +76,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, the output buffer will contain a [JET\_THREADSTATS](gg269227\(v=exchg.10\).md) structure that contains database engine statistics for the current thread.
+On success, the output buffer will contain a [JET_THREADSTATS](gg269227\(v=exchg.10\).md) structure that contains database engine statistics for the current thread.
 
 On failure, the state of the output buffer is undefined.
 
@@ -82,11 +84,11 @@ On failure, the state of the output buffer is undefined.
 
 The information provided by two consecutive calls of this API are intended to be used to compute the expense of any other database engine operations on the current thread. Generally, this is done by taking a before and after reading of the statistics and subtracting the after count from the before count to get the net count of operations performed.
 
-For example, an application could call **JetGetThreadStats** once to get an initial reading of the statistics for the current thread. It could then call the [JetMove](gg294117\(v=exchg.10\).md) function with the *cRow* parameter set to JET\_MoveNext to move to the next index entry on an index. It could then call **JetGetThreadStats** again to get another reading of the thread's statistics. It could then subtract the cPageReferenced counter from the second reading from the first. The result would be the number of database pages referenced by the database engine to perform the [JetMove](gg294117\(v=exchg.10\).md) operation.
+For example, an application could call **JetGetThreadStats** once to get an initial reading of the statistics for the current thread. It could then call the [JetMove](gg294117\(v=exchg.10\).md) function with the *cRow* parameter set to JET_MoveNext to move to the next index entry on an index. It could then call **JetGetThreadStats** again to get another reading of the thread's statistics. It could then subtract the cPageReferenced counter from the second reading from the first. The result would be the number of database pages referenced by the database engine to perform the [JetMove](gg294117\(v=exchg.10\).md) operation.
 
 The statistics for each thread are accumulated for the lifetime of that thread. The statistics are reset if the database engine's DLL is unloaded from the host process.
 
-The [JET\_THREADSTATS](gg269227\(v=exchg.10\).md) structure will likely be expanded in the future to contain more statistics. New statistics will be added to the end of the structure and can be retrieved with an increased output buffer size. The presence of additional statistics can be inferred by a larger cbStruct value.
+The [JET_THREADSTATS](gg269227\(v=exchg.10\).md) structure will likely be expanded in the future to contain more statistics. New statistics will be added to the end of the structure and can be retrieved with an increased output buffer size. The presence of additional statistics can be inferred by a larger cbStruct value.
 
 #### Requirements
 
@@ -122,7 +124,7 @@ The [JET\_THREADSTATS](gg269227\(v=exchg.10\).md) structure will likely be expan
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_THREADSTATS](gg269227\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_THREADSTATS](gg269227\(v=exchg.10\).md)  
 [JetMove](gg294117\(v=exchg.10\).md)
 

@@ -33,9 +33,11 @@ An external backup can be used to implement full, incremental, or differential b
 
 The backup will be fuzzy, in that the backup will be consistent to a single point in time in the transaction history, but controlling the exact point in time is not possible.
 
+```cpp
     JET_ERR JET_API JetBeginExternalBackup(
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -73,7 +75,7 @@ A group of bits that specify zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -210,9 +212,9 @@ The database patch file is a special auxiliary file that is used to store databa
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md)  
 [JetCloseFile](gg294127\(v=exchg.10\).md)  

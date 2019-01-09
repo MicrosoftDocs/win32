@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SIGNATURE.Equals method (JET\_SIGNATURE)
+# JET_SIGNATURE.Equals method (JET_SIGNATURE)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SIGNATURE](hh564644\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](hh564644\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_SIGNATURE structure](hh564644\(v=exchg.10\).md)
+[JET_SIGNATURE structure](hh564644\(v=exchg.10\).md)
 
-[JET\_SIGNATURE members](hh565455\(v=exchg.10\).md)
+[JET_SIGNATURE members](hh565455\(v=exchg.10\).md)
 
 [Equals overload](hh565970\(v=exchg.10\).md)
 

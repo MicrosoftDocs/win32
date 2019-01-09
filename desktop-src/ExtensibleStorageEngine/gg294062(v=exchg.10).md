@@ -53,7 +53,7 @@ The name of the column to be deleted.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -141,9 +141,9 @@ Calling **JetDeleteColumn** is identical to calling [JetDeleteColumn2](gg269320\
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetDeleteColumn2](gg269320\(v=exchg.10\).md)
 

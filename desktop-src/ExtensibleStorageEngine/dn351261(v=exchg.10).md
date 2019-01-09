@@ -62,21 +62,21 @@ public Update(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to start the transaction for.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The tableid to prepare the update for.
 
 <!-- end list -->
 
   - prep  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_prep](hh557183\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_prep](hh557183\(v=exchg.10\).md)  
     
     The type of update.
 

@@ -33,11 +33,13 @@ The **JetEnableMultiInstance** function configures the database engine for use w
 
 **Windows XP:  JetEnableMultiInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetEnableMultiInstance(
       __in_opt      JET_SETSYSPARAM* psetsysparam,
       __in_opt      unsigned long csetsysparam,
       __out_opt     unsigned long* pcsetsucceed
     );
+```
 
 ### Parameters
 
@@ -55,7 +57,7 @@ A pointer to the count of global system parameters that were successfully config
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -141,8 +143,8 @@ This function should only be used if the application must configure a given set 
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SETSYSPARAM](gg269230\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SETSYSPARAM](gg269230\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)

@@ -56,9 +56,9 @@ The following constants are used as values for the *paramid* parameter of the [J
 
 Each system parameter will be described using the following format:
 
-JET\_paramX
+JET_paramX
 
-Description of the JET\_paramX system parameter.
+Description of the JET_paramX system parameter.
 
 <table>
 <colgroup>

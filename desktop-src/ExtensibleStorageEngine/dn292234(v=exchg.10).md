@@ -76,21 +76,21 @@ public static JET_wrn JetOpenTable(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The database session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to open the table in.
 
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name of the table to open.
 
@@ -104,7 +104,7 @@ public static JET_wrn JetOpenTable(
 <!-- end list -->
 
   - parametersSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The parameter is not used.
 
@@ -118,13 +118,13 @@ public static JET_wrn JetOpenTable(
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     Returns the opened table.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 An ESENT warning.  
 
 ## See also

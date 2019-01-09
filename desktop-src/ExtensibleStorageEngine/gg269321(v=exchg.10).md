@@ -31,6 +31,7 @@ The **JetEnumerateColumns** function efficiently retrieves a set of columns and 
 
 **Windows XP:  JetEnumerateColumns** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetEnumerateColumns(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -43,6 +44,7 @@ The **JetEnumerateColumns** function efficiently retrieves a set of columns and 
       __in          unsigned long cbDataMost,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -58,9 +60,9 @@ The cursor to use for this call.
 
 An array of column IDs, each with an optional array of *itagSequence* numbers to enumerate.
 
-If *cEnumColumnId* is 0 (zero) then *rgEnumColumnId* is ignored and all column values are enumerated and returned to the caller. If an element of the column ID array refers to a column ID of 0 (zero) then enumeration of that column is skipped and a corresponding slot in the output will be generated with a column status of JET\_wrnColumnSkipped.
+If *cEnumColumnId* is 0 (zero) then *rgEnumColumnId* is ignored and all column values are enumerated and returned to the caller. If an element of the column ID array refers to a column ID of 0 (zero) then enumeration of that column is skipped and a corresponding slot in the output will be generated with a column status of JET_wrnColumnSkipped.
 
-If *ctagSequence* is 0 (zero) for a given element of the column ID array then *rgtagSequence* is ignored and all column values for that column ID are enumerated and returned to the caller. If an element of an *itagSequence* number array refers to a *itagSequence* number of 0 (zero) then the enumeration of that *itagSequence* number is skipped and a corresponding slot in the output will be generated with a column value status of JET\_wrnColumnSkipped.
+If *ctagSequence* is 0 (zero) for a given element of the column ID array then *rgtagSequence* is ignored and all column values for that column ID are enumerated and returned to the caller. If an element of an *itagSequence* number array refers to a *itagSequence* number of 0 (zero) then the enumeration of that *itagSequence* number is skipped and a corresponding slot in the output will be generated with a column value status of JET_wrnColumnSkipped.
 
 *rgEnumColumnId*
 
@@ -72,7 +74,7 @@ Returns the enumerated array of columns and their values in memory allocated thr
 
 If an array of column IDs is requested on input then the order and size of the output array will reflect the order and size of the input array. Similarly, if an array of *itagSequence* numbers is requested for a particular column ID on input then the order and size of the output array of column values for that column will reflect the order and size of the input array.
 
-The output parameters are set to 0 (zero) and **NULL** on any error except for JET\_errBadColumnId and JET\_errColumnNotFound. When these errors are returned, the output data is valid and complete for all but the affected column IDs. The status code for each of the affected column IDs is set to one of these errors so that the caller may determine which column IDs were bad and potentially take corrective action.
+The output parameters are set to 0 (zero) and **NULL** on any error except for JET_errBadColumnId and JET_errColumnNotFound. When these errors are returned, the output data is valid and complete for all but the affected column IDs. The status code for each of the affected column IDs is set to one of these errors so that the caller may determine which column IDs were bad and potentially take corrective action.
 
 *prgEnumColumn*
 
@@ -90,7 +92,7 @@ See *pfnRealloc*.
 
 Sets a cap on the amount of data to return from a long text or long binary column.
 
-This parameter can be used to prevent the enumeration of an extremely large column value. Ordinarily, such an enumeration might fail the API call with JET\_errOutOfMemory. If a large column value is truncated in such a manner then the column value's status will be JET\_wrnColumnTruncated.
+This parameter can be used to prevent the enumeration of an extremely large column value. Ordinarily, such an enumeration might fail the API call with JET_errOutOfMemory. If a large column value is truncated in such a manner then the column value's status will be JET_wrnColumnTruncated.
 
 *grbit*
 
@@ -146,7 +148,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -233,7 +235,7 @@ On failure, none of the requested data will be returned. Any memory that was all
 
 #### Remarks
 
-If you are enumerating all column values in the record and you did not specify JET\_bitEnumerateIgnoreDefaults then you cannot assume that you will never see a column or column value with a status code of JET\_wrnColumnNull. You can see this status code if a column has a default value and was explicitly set to **NULL** or if the column is a non-sparse column (for example, a fixed or variable column).
+If you are enumerating all column values in the record and you did not specify JET_bitEnumerateIgnoreDefaults then you cannot assume that you will never see a column or column value with a status code of JET_wrnColumnNull. You can see this status code if a column has a default value and was explicitly set to **NULL** or if the column is a non-sparse column (for example, a fixed or variable column).
 
 The *cbDataMost* parameter does not apply to all column values. This parameter will only truncate long text and long binary column values that are so large that they have been stored separately from the record.
 
@@ -273,14 +275,14 @@ If **JetEnumerateColumns** returns data in its output parameters then the caller
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)  
-[JET\_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
-[JET\_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
-[JET\_PFNREALLOC](gg269237\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)  
+[JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
+[JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
+[JET_PFNREALLOC](gg269237\(v=exchg.10\).md)  
 [realloc](http://go.microsoft.com/fwlink/?linkid=179840)  
 [JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
 [JetRetrieveColumns](gg294135\(v=exchg.10\).md)

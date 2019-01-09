@@ -59,7 +59,7 @@ public static void JetGetInstanceInfo(
 #### Parameters
 
   - numInstances  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the number of instances.
 

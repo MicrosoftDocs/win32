@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCreateTable** function creates an empty table in an ESE database.
 
+```cpp
     JET_ERR JET_API JetCreateTable(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
@@ -39,6 +40,7 @@ The **JetCreateTable** function creates an empty table in an ESE database.
       __in          unsigned long lDensity,
       __out         JET_TABLEID* ptableid
     );
+```
 
 ### Parameters
 
@@ -56,7 +58,7 @@ The name of the index to create.
 
 The name must be formatted according to the following rules:
 
-  - Be less than JET\_cbNameMost, not including the terminating NULL.
+  - Be less than JET_cbNameMost, not including the terminating NULL.
 
   - Be made of the following set of characters: 0 through 9, A through Z, a through z, and all other punctuation except for "\!" (exclamation point), "," (comma), "\[" (opening bracket), and "\]" (closing bracket) — that is, ASCII characters 0x20, 0x22 through 0x2d, 0x2f through 0x5a, 0x5c, 0x5d through 0x7f.
 
@@ -74,11 +76,11 @@ The table density, in percentage points. The number must be either 0 or in the r
 
 *ptableid*
 
-On success, the table identifier is returned in this field. The value is undefined if the API does not return JET\_errSuccess.
+On success, the table identifier is returned in this field. The value is undefined if the API does not return JET_errSuccess.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -242,23 +244,23 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 **JetCreateTable** creates a table which does not contain any columns. To add columns, see [JetAddColumn](gg294122\(v=exchg.10\).md).
 
-Internally, **JetCreateTable** calls [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md), filling in a [JET\_TABLECREATE2](gg269203\(v=exchg.10\).md) structure with:
+Internally, **JetCreateTable** calls [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md), filling in a [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure with:
 
-  - JET\_TABLECREATE2.cbStruct = sizeof( JET\_TABLECREATE2 )
+  - JET_TABLECREATE2.cbStruct = sizeof( JET_TABLECREATE2 )
 
-  - JET\_TABLECREATE2.szTableName = szTableName
+  - JET_TABLECREATE2.szTableName = szTableName
 
-  - JET\_TABLECREATE2.ulPages = lPage
+  - JET_TABLECREATE2.ulPages = lPage
 
-  - JET\_TABLECREATE2.ulDensity = lDensity
+  - JET_TABLECREATE2.ulDensity = lDensity
 
-  - JET\_TABLECREATE2.tableid = JET\_tableidNil
+  - JET_TABLECREATE2.tableid = JET_tableidNil
 
-All the other fields of the internal [JET\_TABLECREATE2](gg269203\(v=exchg.10\).md) structure are set to zero or NULL. On output, *ptableid* will be set to JET\_TABLECREATE2.tableid.
+All the other fields of the internal [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure are set to zero or NULL. On output, *ptableid* will be set to JET_TABLECREATE2.tableid.
 
 See [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md) for more details.
 
-Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done using the returned **tableid** member from the [JET\_TABLECREATE2](gg269203\(v=exchg.10\).md) structure, it should usually be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
+Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done using the returned **tableid** member from the [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure, it should usually be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
 
 #### Requirements
 
@@ -298,11 +300,11 @@ Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done usi
 
 #### See Also
 
-[JET\_DBID](gg269248\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_TABLECREATE2](gg269203\(v=exchg.10\).md)  
+[JET_DBID](gg269248\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
 [JetAddColumn](gg294122\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)

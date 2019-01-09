@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNID.CompareTo method
+# JET_COLUMNID.CompareTo method
 
 Compares this columnid to another columnid and determines whether this instance is before, the same as or after the other instance.
 
@@ -57,26 +57,26 @@ public int CompareTo(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to compare to the current instance.
 
 #### Return value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 A signed number indicating the relative positions of this instance and the value parameter.  
 
 #### Implements
 
-[IComparable\<T\>.CompareTo(T)](http://msdn2.microsoft.com/en-us/library/43hc6wht)  
+[IComparable\<T\>.CompareTo(T)](https://msdn.microsoft.com/en-us/library/43hc6wht)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
 
-[JET\_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

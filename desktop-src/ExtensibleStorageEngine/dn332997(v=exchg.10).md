@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetRetrieveColumn method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, Byte , Int32, Int32, Int32, RetrieveColumnGrbit, JET\_RETINFO)
+# Api.JetRetrieveColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Byte , Int32, Int32, Int32, RetrieveColumnGrbit, JET_RETINFO)
 
 Retrieves a single column value from the current record. The record is that record associated with the index entry at the current position of the cursor. Alternatively, this function can retrieve a column from a record being created in the cursor copy buffer. This function can also retrieve column data from an index entry that references the current record. In addition to retrieving the actual column value, JetRetrieveColumn can also be used to retrieve the size of a column, before retrieving the column data itself so that application buffers can be sized appropriately.
 
@@ -79,21 +79,21 @@ public static JET_wrn JetRetrieveColumn(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the column from.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to retrieve.
 
@@ -107,21 +107,21 @@ public static JET_wrn JetRetrieveColumn(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The size of the data buffer.
 
 <!-- end list -->
 
   - dataOffset  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Offset into the data buffer to read data into.
 
 <!-- end list -->
 
   - actualDataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the actual size of the data buffer.
 
@@ -135,13 +135,13 @@ public static JET_wrn JetRetrieveColumn(
 <!-- end list -->
 
   - retinfo  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_RETINFO](dn335277\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RETINFO](dn335277\(v=exchg.10\).md)  
     
     If pretinfo is give as NULL then the function behaves as though an itagSequence of 1 and an ibLongValue of 0 (zero) were given. This causes column retrieval to retrieve the first value of a multi-valued column, and to retrieve long data at offset 0 (zero).
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 An ESENT warning code.  
 
 ## Remarks

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE\_INFO.cDatabases property
+# JET_INSTANCE_INFO.cDatabases property
 
 Gets the number of databases that are attached to the database instance.
 
@@ -55,15 +55,15 @@ public int cDatabases { get; private set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_INSTANCE\_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
 
-[JET\_INSTANCE\_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

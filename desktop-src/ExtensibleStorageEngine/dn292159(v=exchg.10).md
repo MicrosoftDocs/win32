@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetDatabaseFileInfo method (String, JET\_DBINFOMISC, JET\_DbInfo)
+# Api.JetGetDatabaseFileInfo method (String, JET_DBINFOMISC, JET_DbInfo)
 
 Retrieves certain information about the given database.
 
@@ -56,21 +56,21 @@ public static void JetGetDatabaseFileInfo(
 #### Parameters
 
   - databaseName  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The file name of the database.
 
 <!-- end list -->
 
   - dbinfomisc  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBINFOMISC](hh538867\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBINFOMISC](hh538867\(v=exchg.10\).md)  
     
     The value to be retrieved.
 
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DbInfo](hh163267\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DbInfo](hh163267\(v=exchg.10\).md)  
     
     The specific data to retrieve.
 

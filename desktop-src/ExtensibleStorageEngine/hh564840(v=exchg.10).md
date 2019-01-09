@@ -834,7 +834,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_err enumeration
+# JET_err enumeration
 
 ESENT error codes.
 

@@ -53,7 +53,7 @@ public string Name { get; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 

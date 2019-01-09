@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE2 Structure
+# JET_RECSIZE2 Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_RECSIZE2 Structure
+## JET_RECSIZE2 Structure
 
-The **JET\_RECSIZE2** structure is used by [JetGetRecordSize2](gg269314\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
+The **JET_RECSIZE2** structure is used by [JetGetRecordSize2](gg269314\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
 
-**Windows 7:** The **JET\_RECSIZE2** structure is introduced in the Windows 7 operating system.
+**Windows 7:** The **JET_RECSIZE2** structure is introduced in the Windows 7 operating system.
 
+```cpp
     typedef struct {
       unsigned __int64 cbData;
       unsigned __int64 cbLongValueData;
@@ -36,11 +37,12 @@ The **JET\_RECSIZE2** structure is used by [JetGetRecordSize2](gg269314\(v=exchg
       unsigned __int64 cNonTaggedColumns;
       unsigned __int64 cTaggedColumns;
       unsigned __int64 cLongValues;
-        unsigned __int64 cMultiValues;
+      unsigned __int64 cMultiValues;
       unsigned __int64 cCompressedColumns;
       unsigned __int64 cbDataCompressed;
       unsigned __int64 cbLongValueDataCompressed;
     } JET_RECSIZE2;
+```
 
 ### Members
 
@@ -130,4 +132,3 @@ The logical data in the record is (cbData+cbLongValueData) and the physical size
 
 [JetGetRecordSize](gg294045\(v=exchg.10\).md)  
 [JetGetRecordSize2](gg269314\(v=exchg.10\).md)
-

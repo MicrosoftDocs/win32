@@ -26,9 +26,10 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for input and output (I/O).
 
-JET\_paramAccessDeniedRetryPeriod  
+*JET_paramAccessDeniedRetryPeriod*  
 53  
-**Windows XP and later:**  This parameter configures the duration of time (in milliseconds) that the database engine will use to access a file that is locked before failing with JET\_errFileAccessDenied. This time delay is designed to work around anti-virus software that may hold some of the database engine's files open briefly after they are closed.
+
+**Windows XP and later:**  This parameter configures the duration of time (in milliseconds) that the database engine will use to access a file that is locked before failing with JET_errFileAccessDenied. This time delay is designed to work around anti-virus software that may hold some of the database engine's files open briefly after they are closed.
 
 **Note**  As a result of the above retry logic, any attempt to attach to a database or use a log file that is already in use by the database engine will result in a delay of this size before the API call returns a (legitimate) failure. This parameter can be used to turn down that delay in case this is a common scenario.
 
@@ -86,9 +87,10 @@ JET\_paramAccessDeniedRetryPeriod
 </table>
 
 
-JET\_paramCreatePathIfNotExist  
+*JET_paramCreatePathIfNotExist*  
 100  
-When this parameter is set to true then any folder that is missing in a file system path in use by the database engine will be silently created. Otherwise, the operation that uses the missing file system path will fail with JET\_errInvalidPath.
+
+When this parameter is set to true then any folder that is missing in a file system path in use by the database engine will be silently created. Otherwise, the operation that uses the missing file system path will fail with JET_errInvalidPath.
 
 <table>
 <colgroup>
@@ -144,8 +146,9 @@ When this parameter is set to true then any folder that is missing in a file sys
 </table>
 
 
-JET\_paramEnableFileCache  
+*JET_paramEnableFileCache*  
 126  
+
 When this parameter is **True**, the database engine will use the Windows file cache as a read cache for all of its various files. It will also use it as a write cache for the temporary database or for databases that are opened with recovery disabled. The database engine must disable write caching for ordinary databases, transaction log files, and checkpoint files to protect the transactional integrity of the databases.
 
 It is important to note that the use of the Windows file cache will add a second layering of caching for database files. The database cache will still use its own memory to cache the database files. The intent of this mode is to allow the application to configure the database engine with a small dedicated cache and to allow Windows to donate spare memory to further improve the caching of database data.
@@ -204,11 +207,12 @@ It is important to note that the use of the Windows file cache will add a second
 </table>
 
 
-JET\_paramIOPriority  
+*JET_paramIOPriority*  
 152  
-This parameter controls how ESE handles I/O operations. The values can be set to 0 (JET\_IOPriorityNormal) for normal operation, or 1 (JET\_IOPriorityLow) for low priority operation. When the priority is set to JET\_IOPriorityLow, ESE uses the new thread I/O priority functionality available in Windows Vista to reduce the I/O priority on the thread so that subsequent I/O operations are issued at the new low priority.
 
-**Windows Vista:**  JET\_paramIOPriority is introduced in Windows Vista.
+This parameter controls how ESE handles I/O operations. The values can be set to 0 (JET_IOPriorityNormal) for normal operation, or 1 (JET_IOPriorityLow) for low priority operation. When the priority is set to JET_IOPriorityLow, ESE uses the new thread I/O priority functionality available in Windows Vista to reduce the I/O priority on the thread so that subsequent I/O operations are issued at the new low priority.
+
+**Windows Vista:**  JET_paramIOPriority is introduced in Windows Vista.
 
 <table>
 <colgroup>
@@ -264,8 +268,9 @@ This parameter controls how ESE handles I/O operations. The values can be set to
 </table>
 
 
-JET\_paramOutstandingIOMax  
-30  
+*JET_paramOutstandingIOMax*  
+30 
+
 This parameter controls how many database file I/Os can be queued in the host operating system at one time.
 
 A larger value for this parameter can significantly help the performance of a large database application.
@@ -328,8 +333,9 @@ A larger value for this parameter can significantly help the performance of a la
 </table>
 
 
-JET\_paramMaxCoalesceReadSize  
+*JET_paramMaxCoalesceReadSize*  
 164  
+
 Maximum number of bytes that can be grouped for a coalesced read operation.
 
 <table>
@@ -386,8 +392,9 @@ Maximum number of bytes that can be grouped for a coalesced read operation.
 </table>
 
 
-JET\_paramMaxCoalesceWriteSize  
+*JET_paramMaxCoalesceWriteSize*  
 165  
+
 Maximum number of bytes that can be grouped for a coalesced write operation.
 
 <table>
@@ -444,8 +451,9 @@ Maximum number of bytes that can be grouped for a coalesced write operation.
 </table>
 
 
-JET\_paramMaxCoalesceReadGapSize  
+*JET_paramMaxCoalesceReadGapSize*  
 166  
+
 Maximum number of bytes that can be gapped for a coalesced write I/O operation.
 
 <table>
@@ -502,8 +510,9 @@ Maximum number of bytes that can be gapped for a coalesced write I/O operation.
 </table>
 
 
-JET\_paramMaxCoalesceWriteGapSize  
+*JET_paramMaxCoalesceWriteGapSize*  
 167  
+
 Max number of bytes that can be gapped for a coalesced read I/O operation.
 
 <table>

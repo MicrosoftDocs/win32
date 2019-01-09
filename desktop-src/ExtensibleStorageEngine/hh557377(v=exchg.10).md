@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_THREADSTATS properties
+# JET_THREADSTATS properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_THREADSTATS](hh578565\(v=exchg.10\).md) type exposes the following members.
+The [JET_THREADSTATS](hh578565\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -71,7 +71,7 @@ Top
 
 #### Reference
 
-[JET\_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

@@ -34,7 +34,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_Move enumeration
+# JET_Move enumeration
 
 Offsets for JetMove.
 

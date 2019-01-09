@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNCREATE.err property
+# JET_COLUMNCREATE.err property
 
 Gets or sets the error code from creating this column.
 
@@ -57,15 +57,15 @@ public JET_err err { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_err](hh564840\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
+[JET_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
 
-[JET\_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
+[JET_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

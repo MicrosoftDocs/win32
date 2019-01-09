@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetOpenDatabase** function opens a previously attached database, using the [JetAttachDatabase](gg294074\(v=exchg.10\).md) or [JetAttachDatabase2](gg269322\(v=exchg.10\).md) functions, for use with a database session. This function can be called multiple times for the same database.
 
+```cpp
     JET_ERR JET_API JetOpenDatabase(
       __in          JET_SESID sesid,
       __in          const tchar* szFilename,
@@ -38,6 +39,7 @@ The **JetOpenDatabase** function opens a previously attached database, using the
       __out         JET_DBID* pdbid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -87,7 +89,7 @@ A group of bits that specify zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -175,10 +177,10 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetAttachDatabase2](gg269322\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)  

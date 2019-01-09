@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETCOLUMN.columnid property
+# JET_SETCOLUMN.columnid property
 
 Gets or sets the column identifier for a column to set.
 
@@ -57,15 +57,15 @@ public JET_COLUMNID columnid { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
-[JET\_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

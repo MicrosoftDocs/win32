@@ -52,7 +52,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_coltyp enumeration
+# JET_coltyp enumeration
 
 ESENT column types.
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETCOLUMN.pvData property
+# JET_SETCOLUMN.pvData property
 
 Gets or sets a pointer to the data to set.
 
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
-[JET\_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

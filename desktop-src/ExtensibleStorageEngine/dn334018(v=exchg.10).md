@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetSetTableSequential method
 
-Notifies the database engine that the application is scanning the entire index that the cursor is positioned on. Consequently, the methods that are used to access the index data will be tuned to make this scenario as fast as possible. Also see [JetResetTableSequential(JET\_SESID, JET\_TABLEID, ResetTableSequentialGrbit)](dn332994\(v=exchg.10\).md).
+Notifies the database engine that the application is scanning the entire index that the cursor is positioned on. Consequently, the methods that are used to access the index data will be tuned to make this scenario as fast as possible. Also see [JetResetTableSequential(JET_SESID, JET_TABLEID, ResetTableSequentialGrbit)](dn332994\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,14 +60,14 @@ public static void JetSetTableSequential(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor that will be accessing the data.
 

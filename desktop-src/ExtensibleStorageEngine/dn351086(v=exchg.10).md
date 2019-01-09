@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLECREATE.rgcolumncreate property
+# JET_TABLECREATE.rgcolumncreate property
 
-Gets or sets an array of column creation info, of type [JET\_COLUMNCREATE](dn335028\(v=exchg.10\).md).
+Gets or sets an array of column creation info, of type [JET_COLUMNCREATE](dn335028\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
 
-[JET\_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

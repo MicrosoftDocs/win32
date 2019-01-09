@@ -31,9 +31,11 @@ The **JetEndExternalBackupInstance** function ends an external backup session. T
 
 **Windows XP:  JetEndExternalBackupInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetEndExternalBackupInstance(
       __in          JET_INSTANCE instance
     );
+```
 
 ### Parameters
 
@@ -43,11 +45,11 @@ The instance to use for this call.
 
 **Windows 2000:** For Windows 2000, the API variant that accepts this parameter is not available because only one instance is supported. The use of this one global instance is implied in this case.
 
-**Windows XP:** For Windows XP and later releases, the API variant that does not accept this parameter can only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET\_errRunningInMultiInstanceMode.
+**Windows XP:** For Windows XP and later releases, the API variant that does not accept this parameter can only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET_errRunningInMultiInstanceMode.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -120,7 +122,7 @@ If the backup sequence is not completed in order and with a successful call to [
 
 For more information about the external backup API sequence, see [JetBeginExternalBackup](gg269292\(v=exchg.10\).md).
 
-Before Windows Vista, if the log truncation was not done, the engine considered that the backup was a copy backup. However, the backup might be a normal backup for which truncation was not done (for example, if there are detached databases). The JET\_bitBackupTruncateDone option can be used to inform the engine about this and allow proper database header modifications.
+Before Windows Vista, if the log truncation was not done, the engine considered that the backup was a copy backup. However, the backup might be a normal backup for which truncation was not done (for example, if there are detached databases). The JET_bitBackupTruncateDone option can be used to inform the engine about this and allow proper database header modifications.
 
 #### Requirements
 
@@ -162,11 +164,11 @@ Before Windows Vista, if the log truncation was not done, the engine considered
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md)  
 [JetCloseFile](gg294127\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetExternalRestore](gg294088\(v=exchg.10\).md)  
 [JetGetAttachInfo](gg269286\(v=exchg.10\).md)  
 [JetGetLogInfo](gg294055\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetOpenFile](gg269249\(v=exchg.10\).md)  
 [JetReadFile](gg269257\(v=exchg.10\).md)  
 [JetStopBackup](gg294067\(v=exchg.10\).md)  

@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_COMMIT\_ID operators
+# JET_COMMIT_ID operators
 
 Include protected members  
 Include inherited members  
 
-The [JET\_COMMIT\_ID](dn335448\(v=exchg.10\).md) type exposes the following members.
+The [JET_COMMIT_ID](dn335448\(v=exchg.10\).md) type exposes the following members.
 
 ## Operators
 
@@ -66,7 +66,7 @@ Top
 
 #### Reference
 
-[JET\_COMMIT\_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

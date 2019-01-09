@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_INDEXCREATE properties
+# JET_INDEXCREATE properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_INDEXCREATE](dn335112\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXCREATE](dn335112\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -96,7 +96,7 @@ Top
 
 #### Reference
 
-[JET\_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

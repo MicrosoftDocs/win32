@@ -63,14 +63,14 @@ public static JET_wrn JetInit3(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to initialize. If an instance hasn't been allocated then a new one is created and the engine will operate in single-instance mode.
 
 <!-- end list -->
 
   - recoveryOptions  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_RSTINFO](dn335235\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RSTINFO](dn335235\(v=exchg.10\).md)  
     
     Additional recovery parameters for remapping databases during recovery, position where to stop recovery at, or recovery status.
 
@@ -83,7 +83,7 @@ public static JET_wrn JetInit3(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 A warning code.  
 
 ## See also

@@ -32,7 +32,7 @@ Exception action that have been added to the Windows 7 version of ESENT.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   Microsoft.Isam.Esent.Interop.Windows7.Windows7ExceptionAction  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  

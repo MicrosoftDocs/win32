@@ -63,28 +63,28 @@ public static void SerializeObjectToColumn(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to write to. An update should be prepared.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The column to write to.
 
 <!-- end list -->
 
   - value  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
     The object to write. The object must be serializable.
 

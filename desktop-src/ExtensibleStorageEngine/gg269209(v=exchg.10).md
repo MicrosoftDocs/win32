@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_API\_PTR
+# JET_API_PTR
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_API\_PTR
+## JET_API_PTR
 
-The **JET\_API\_PTR** data type holds an integer or a pointer value.
+The **JET_API_PTR** data type holds an integer or a pointer value.
 
+```cpp
     #if defined(_WIN64)
         typedef unsigned __int64 JET_API_PTR;
     #elif !defined(__midl) && (defined(_X86_) || defined(_M_IX86)) && _MSC_VER >= 1300
@@ -33,26 +34,27 @@ The **JET\_API\_PTR** data type holds an integer or a pointer value.
     #else
         typedef unsigned long JET_API_PTR;
     #endif
+```
 
 ### Data Types
 
-JET\_API\_PTR
+JET_API_PTR
 
-Like a **DWORD\_PTR** data type, the **JET\_API\_PTR** data type is defined as 4 bytes on a 32-bit machine and 8 bytes on a 64-bit machine.
+Like a **DWORD_PTR** data type, the **JET_API_PTR** data type is defined as 4 bytes on a 32-bit machine and 8 bytes on a 64-bit machine.
 
 ### Remarks
 
-The **JET\_API\_PTR** data type is used to define the following data types:
+The **JET_API_PTR** data type is used to define the following data types:
 
-  - [JET\_HANDLE](gg269217\(v=exchg.10\).md)
+  - [JET_HANDLE](gg269217\(v=exchg.10\).md)
 
-  - [JET\_INSTANCE](gg294048\(v=exchg.10\).md)
+  - [JET_INSTANCE](gg294048\(v=exchg.10\).md)
 
-  - [JET\_SESID](gg269253\(v=exchg.10\).md)
+  - [JET_SESID](gg269253\(v=exchg.10\).md)
 
-  - [JET\_TABLEID](gg269182\(v=exchg.10\).md)
+  - [JET_TABLEID](gg269182\(v=exchg.10\).md)
 
-  - [JET\_LS](gg269336\(v=exchg.10\).md)
+  - [JET_LS](gg269336\(v=exchg.10\).md)
 
 ### Requirements
 

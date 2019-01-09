@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SPACEHINTS.ContentEquals method
+# JET_SPACEHINTS.ContentEquals method
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -57,13 +57,13 @@ public bool ContentEquals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SPACEHINTS](dn351095\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SPACEHINTS](dn351095\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 #### Implements
@@ -74,9 +74,9 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET\_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
 
-[JET\_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

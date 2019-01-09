@@ -57,7 +57,7 @@ public static void JetOSSnapshotThaw(
 #### Parameters
 
   - snapshot  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
     
     The ID of the snapshot.
 

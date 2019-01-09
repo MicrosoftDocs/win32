@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetRetrieveColumns method
 
-Retrieves multiple column values from the current record in a single operation. An array of JET\_RETRIEVECOLUMN structures is used to describe the set of column values to be retrieved, and to describe output buffers for each column value to be retrieved.
+Retrieves multiple column values from the current record in a single operation. An array of JET_RETRIEVECOLUMN structures is used to describe the set of column values to be retrieved, and to describe output buffers for each column value to be retrieved.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -66,14 +66,14 @@ public static JET_wrn JetRetrieveColumns(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the data from.
 
@@ -82,19 +82,19 @@ public static JET_wrn JetRetrieveColumns(
   - retrievecolumns  
     Type: \[\]  
     
-    An array of one or more [JET\_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md) objects describing the data to be retrieved.
+    An array of one or more [JET_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md) objects describing the data to be retrieved.
 
 <!-- end list -->
 
   - numColumns  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The number of entries in the columns array.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
-If any column retrieved is truncated due to an insufficient length buffer, then the API will return [BufferTruncated](hh557250\(v=exchg.10\).md). However other errors JET\_wrnColumnNull are returned only in the error field of the [JET\_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md) object.  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
+If any column retrieved is truncated due to an insufficient length buffer, then the API will return [BufferTruncated](hh557250\(v=exchg.10\).md). However other errors JET_wrnColumnNull are returned only in the error field of the [JET_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md) object.  
 
 ## See also
 

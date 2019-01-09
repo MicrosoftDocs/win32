@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNBASE.coltyp property
+# JET_COLUMNBASE.coltyp property
 
 Gets type of the column.
 
@@ -55,15 +55,15 @@ public JET_coltyp coltyp { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_coltyp](hh577895\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_coltyp](hh577895\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
 
-[JET\_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

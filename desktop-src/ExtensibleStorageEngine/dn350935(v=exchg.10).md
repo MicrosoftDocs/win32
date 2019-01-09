@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Instance.Term method
 
-Terminate the JET\_INSTANCE.
+Terminate the JET_INSTANCE.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

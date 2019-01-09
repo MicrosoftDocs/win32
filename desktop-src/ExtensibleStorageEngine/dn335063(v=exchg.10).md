@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CONVERT constructor
+# JET_CONVERT constructor
 
 **NOTE: This API is now obsolete.**
 
@@ -53,9 +53,9 @@ protected JET_CONVERT()
 
 #### Reference
 
-[JET\_CONVERT class](dn335061\(v=exchg.10\).md)
+[JET_CONVERT class](dn335061\(v=exchg.10\).md)
 
-[JET\_CONVERT members](dn335114\(v=exchg.10\).md)
+[JET_CONVERT members](dn335114\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

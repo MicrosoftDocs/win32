@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetTruncateLogInfoInstance method
 
-Used during a backup initiated by [JetBeginExternalBackupInstance(JET\_INSTANCE, BeginExternalBackupGrbit)](dn292104\(v=exchg.10\).md) to query an instance for the names of the transaction log files that can be safely deleted after the backup has successfully completed.
+Used during a backup initiated by [JetBeginExternalBackupInstance(JET_INSTANCE, BeginExternalBackupGrbit)](dn292104\(v=exchg.10\).md) to query an instance for the names of the transaction log files that can be safely deleted after the backup has successfully completed.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,28 +63,28 @@ public static void JetGetTruncateLogInfoInstance(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to get the information for.
 
 <!-- end list -->
 
   - files  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     Returns a list of null terminated strings describing the set of database log files that can be safely deleted after the backup completes. The list of strings returned in this buffer is in the same format as a multi-string used by the registry. Each null-terminated string is returned in sequence followed by a final null terminator.
 
 <!-- end list -->
 
   - maxChars  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Maximum number of characters to retrieve.
 
 <!-- end list -->
 
   - actualChars  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Actual size of the file list. If this is greater than maxChars then the list has been truncated.
 

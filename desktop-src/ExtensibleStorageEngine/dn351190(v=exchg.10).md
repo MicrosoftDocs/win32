@@ -28,15 +28,15 @@ ROBOTS: INDEX,FOLLOW
 
 # UInt64ColumnValue class
 
-A [UInt64](http://msdn2.microsoft.com/en-us/library/06cf7918) column value.
+A [UInt64](https://msdn.microsoft.com/en-us/library/06cf7918) column value.
 
 This API is not CLS-compliant. 
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[UInt64](http://msdn2.microsoft.com/en-us/library/06cf7918)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[UInt64](https://msdn.microsoft.com/en-us/library/06cf7918)\>  
       Microsoft.Isam.Esent.Interop.UInt64ColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

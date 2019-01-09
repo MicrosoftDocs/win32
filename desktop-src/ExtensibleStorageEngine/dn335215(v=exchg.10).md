@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTLIST.columnidcPage property
+# JET_OBJECTLIST.columnidcPage property
 
 Gets the columnid of the column in the temporary table which stores the number of pages used by the table.
 
@@ -55,15 +55,15 @@ public JET_COLUMNID columnidcPage { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_OBJECTLIST class](dn335206\(v=exchg.10\).md)
+[JET_OBJECTLIST class](dn335206\(v=exchg.10\).md)
 
-[JET\_OBJECTLIST members](dn335204\(v=exchg.10\).md)
+[JET_OBJECTLIST members](dn335204\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

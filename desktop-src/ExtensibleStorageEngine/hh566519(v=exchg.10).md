@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC constructor
+# JET_DBINFOMISC constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_DBINFOMISC()
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

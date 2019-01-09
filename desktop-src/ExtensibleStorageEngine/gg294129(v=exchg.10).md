@@ -26,13 +26,13 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine API can be extended with the following callback functions:
 
-  - [JET\_CALLBACK](gg294098\(v=exchg.10\).md)
+  - [JET_CALLBACK](gg294098\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_PFNREALLOC](gg269237\(v=exchg.10\).md)
+  - [JET_PFNREALLOC](gg269237\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_PFNSTATUS](gg269326\(v=exchg.10\).md)
+  - [JET_PFNSTATUS](gg269326\(v=exchg.10\).md)
 

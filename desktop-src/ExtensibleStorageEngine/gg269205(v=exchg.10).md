@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SPACEHINTS Structure
+# JET_SPACEHINTS Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SPACEHINTS Structure
+## JET_SPACEHINTS Structure
 
-The **JET\_SPACEHINTS** structure contains information about space allocation patterns when a b-tree grows through append or hotpoint splits. Append splits happen when records are added to the end of a b-tree and hotpoint splits happen when multiple records are added to the same virtual insertion point (for example, adding 'Marie', 'Mark', 'Martin', 'Mary' to the middle of a b-tree that is sorted alphabetically).
+The **JET_SPACEHINTS** structure contains information about space allocation patterns when a b-tree grows through append or hotpoint splits. Append splits happen when records are added to the end of a b-tree and hotpoint splits happen when multiple records are added to the same virtual insertion point (for example, adding 'Marie', 'Mark', 'Martin', 'Mary' to the middle of a b-tree that is sorted alphabetically).
 
-**Windows 7:** The **JET\_SPACEHINTS** structure is introduced in Windows 7.
+**Windows 7:** The **JET_SPACEHINTS** structure is introduced in Windows 7.
 
+```cpp
     typedef struct tagJET_SPACEHINTS {
       unsigned long cbStruct;
       unsigned long ulInitialDensity;
@@ -38,12 +39,13 @@ The **JET\_SPACEHINTS** structure contains information about space allocation pa
       unsigned long cbMinExtent;
       unsigned long cbMaxExtent;
     } JET_SPACEHINTS;
+```
 
 ### Members
 
 **cbStruct**
 
-The size, in bytes, of this structure. Set this member to sizeof( JET\_SPACEHINTS ).
+The size, in bytes, of this structure. Set this member to sizeof( JET_SPACEHINTS ).
 
 **ulInitialDensity**
 
@@ -107,7 +109,7 @@ A group of bits that contain the options to be used for this structure, which in
 
 density to mulMaintDensity
 
-Density to maintain at. If the space hints specify JET\_bitRetrieveHintTableScanForward or JET\_bitRetrieveHintTableScanBackward, table defragmentation will be triggered when the used space in the table drops below this threshold. Table defragmentation can be disabled by setting this member to zero. Setting this member to 100 will cause table defragmentation to run as soon as a page is freed.
+Density to maintain at. If the space hints specify JET_bitRetrieveHintTableScanForward or JET_bitRetrieveHintTableScanBackward, table defragmentation will be triggered when the used space in the table drops below this threshold. Table defragmentation can be disabled by setting this member to zero. Setting this member to 100 will cause table defragmentation to run as soon as a page is freed.
 
 **ulGrowth**
 
@@ -157,6 +159,6 @@ The maximum value for growth in bytes. This caps ulGrowth.
 
 ### See Also
 
-[JET\_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET\_TABLECREATE3](gg269264\(v=exchg.10\).md)
+[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
+[JET_TABLECREATE3](gg269264\(v=exchg.10\).md)
 

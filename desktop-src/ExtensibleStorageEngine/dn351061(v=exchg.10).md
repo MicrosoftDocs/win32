@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNPROG.cunitDone property
+# JET_SNPROG.cunitDone property
 
 Gets the number of work units that are already completed during the long running operation.
 
@@ -55,15 +55,15 @@ public int cunitDone { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](dn351044\(v=exchg.10\).md)
 
-[JET\_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](dn351084\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

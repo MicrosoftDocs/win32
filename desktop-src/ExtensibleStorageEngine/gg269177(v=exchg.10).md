@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetTableInfo** function retrieves various pieces of information about a table in a database.
 
+```cpp
     JET_ERR JET_API JetGetTableInfo(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -38,6 +39,7 @@ The **JetGetTableInfo** function retrieves various pieces of information about a
       __in          unsigned long cbMax,
       __in          unsigned long InfoLevel
     );
+```
 
 ### Parameters
 
@@ -149,7 +151,7 @@ The following options can be set for this parameter:
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -251,11 +253,11 @@ The table statistics include the number of records and the number of pages in th
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_OBJECTINFO](gg269353\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
 [JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
 [JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  

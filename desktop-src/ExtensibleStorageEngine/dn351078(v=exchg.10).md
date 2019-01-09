@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLECREATE.cbtyp property
+# JET_TABLECREATE.cbtyp property
 
 Gets or sets a type of the callback function.
 
@@ -57,15 +57,15 @@ public JET_cbtyp cbtyp { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_cbtyp](hh564847\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
 
-[JET\_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

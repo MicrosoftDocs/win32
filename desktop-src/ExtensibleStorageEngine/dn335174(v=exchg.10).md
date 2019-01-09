@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXLIST.tableid property
+# JET_INDEXLIST.tableid property
 
 Gets tableid of the temporary table. This should be closed when the table is no longer needed.
 
@@ -55,15 +55,15 @@ public JET_TABLEID tableid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
 
-[JET\_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

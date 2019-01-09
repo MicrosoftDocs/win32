@@ -32,7 +32,7 @@ Gives information about the version of ESENT being used.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   Microsoft.Isam.Esent.Interop.EsentVersion  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetIndexInfo method (JET\_SESID, JET\_DBID, String, String, UInt16, JET\_IdxInfo)
+# Api.JetGetIndexInfo method (JET_SESID, JET_DBID, String, String, UInt16, JET_IdxInfo)
 
 Retrieves information about indexes on a table.
 
@@ -69,42 +69,42 @@ public static void JetGetIndexInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to use.
 
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name of the table to retrieve index information about.
 
 <!-- end list -->
 
   - indexname  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name of the index to retrieve information about.
 
 <!-- end list -->
 
   - result  
-    Type: [System.UInt16](http://msdn2.microsoft.com/en-us/library/s6eyk10z)  
+    Type: [System.UInt16](https://msdn.microsoft.com/en-us/library/s6eyk10z)  
     
     Filled in with information about indexes on the table.
 
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_IdxInfo](hh565119\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_IdxInfo](hh565119\(v=exchg.10\).md)  
     
     The type of information to retrieve.
 

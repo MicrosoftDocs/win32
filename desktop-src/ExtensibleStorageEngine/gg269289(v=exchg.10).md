@@ -29,6 +29,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetIntersectIndexes** function computes the intersection between multiple sets of index entries from different secondary indices over the same table. This operation is useful for finding the set of records in a table that match two or more criteria that can be expressed using index ranges.
 
+```cpp
     JET_ERR JET_API JetIntersectIndexes(
       __in          JET_SESID sesid,
       __in          JET_INDEXRANGE* rgindexrange,
@@ -36,6 +37,7 @@ The **JetIntersectIndexes** function computes the intersection between multiple 
       __in_out      JET_RECORDLIST* precordlist,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -45,17 +47,17 @@ The session to use for this call.
 
 *rgindexrange*
 
-A pointer to an array of [JET\_IndexRange](gg269335\(v=exchg.10\).md) structures. Each structure includes a [JET\_TABLEID](gg269182\(v=exchg.10\).md) that has been set up to hold one of the index ranges to be intersected. For more information, see [JET\_IndexRange](gg269335\(v=exchg.10\).md).
+A pointer to an array of [JET_IndexRange](gg269335\(v=exchg.10\).md) structures. Each structure includes a [JET_TABLEID](gg269182\(v=exchg.10\).md) that has been set up to hold one of the index ranges to be intersected. For more information, see [JET_IndexRange](gg269335\(v=exchg.10\).md).
 
 *cindexrange*
 
-The number of [JET\_IndexRange](gg269335\(v=exchg.10\).md) structures in the array that is contained in the *rgindexrange* parameter.
+The number of [JET_IndexRange](gg269335\(v=exchg.10\).md) structures in the array that is contained in the *rgindexrange* parameter.
 
 *precordlist*
 
-Pointer to a [JET\_RECORDLIST](gg269287\(v=exchg.10\).md) structure. This structure will be populated with enough information to traverse the temporary table with the results from **JetIntersectIndexes**.
+Pointer to a [JET_RECORDLIST](gg269287\(v=exchg.10\).md) structure. This structure will be populated with enough information to traverse the temporary table with the results from **JetIntersectIndexes**.
 
-The output buffer that receives a [JET\_RECORDLIST](gg269287\(v=exchg.10\).md) structure. The structure contains a description of the result set of the intersection.
+The output buffer that receives a [JET_RECORDLIST](gg269287\(v=exchg.10\).md) structure. The structure contains a description of the result set of the intersection.
 
 *grbit*
 
@@ -63,7 +65,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -160,13 +162,13 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 On success, a new temporary table is returned that contains the bookmarks of the records that match the criteria represented by each of the input index range descriptions.
 
-On failure, the temporary table containing the results will not be created. The state of the temporary database may be changed. The state of any ordinary databases in use by the database engine will remain unchanged. The current position of the [JET\_TABLEID](gg269182\(v=exchg.10\).md)s provided to this function may be changed.
+On failure, the temporary table containing the results will not be created. The state of the temporary database may be changed. The state of any ordinary databases in use by the database engine will remain unchanged. The current position of the [JET_TABLEID](gg269182\(v=exchg.10\).md)s provided to this function may be changed.
 
 #### Remarks
 
 **JetIntersectIndexes** can be used to efficiently filter the records in a table by multiple criteria if those criteria can be expressed in terms of the secondary indices over that table. For example, consider that you have a very large table containing people. The table can have columns for their user id, first name, last name, and so on. Suppose that each of these columns is indexed separately and that the primary index of the table is over user id. If you wanted to find everyone whose first name starts with an A and whose last name starts with G, you would perform the following steps:
 
-1.  Open a new cursor on the table, and set that cursor to use the index over the "first name" column. Then setup an index range for all people whose "first name" started with 'A', and build a [JET\_IndexRange](gg269335\(v=exchg.10\).md) struct that contains this cursor.
+1.  Open a new cursor on the table, and set that cursor to use the index over the "first name" column. Then setup an index range for all people whose "first name" started with 'A', and build a [JET_IndexRange](gg269335\(v=exchg.10\).md) struct that contains this cursor.
 
 2.  Repeat step 1 with a new cursor on the "last name" index for all people whose "last name" started with 'G'.
 
@@ -214,12 +216,12 @@ The temporary table returned by **JetIntersectIndexes** can only be scanned in a
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_IndexRange](gg269335\(v=exchg.10\).md)  
-[JET\_RECORDLIST](gg269287\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_IndexRange](gg269335\(v=exchg.10\).md)  
+[JET_RECORDLIST](gg269287\(v=exchg.10\).md)  
 [JetGotoBookmark](gg294053\(v=exchg.10\).md)  
 [JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
 [JetSetIndexRange](gg294112\(v=exchg.10\).md)

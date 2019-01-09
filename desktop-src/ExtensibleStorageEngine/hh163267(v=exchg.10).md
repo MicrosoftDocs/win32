@@ -50,7 +50,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DbInfo enumeration
+# JET_DbInfo enumeration
 
 Info levels for retrieving database info.
 

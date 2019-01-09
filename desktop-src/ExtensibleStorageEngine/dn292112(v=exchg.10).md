@@ -70,35 +70,35 @@ public static void JetCompact(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use for the call.
 
 <!-- end list -->
 
   - sourceDatabase  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The source database that will be compacted.
 
 <!-- end list -->
 
   - destinationDatabase  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name to use for the compacted database.
 
 <!-- end list -->
 
   - statusCallback  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_PFNSTATUS](hh565966\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_PFNSTATUS](hh565966\(v=exchg.10\).md)  
     
     A callback function that can be called periodically through the database compact operation to report progress.
 
 <!-- end list -->
 
   - ignored  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_CONVERT](dn335061\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_CONVERT](dn335061\(v=exchg.10\).md)  
     
     This parameter is ignored and should be null.
 

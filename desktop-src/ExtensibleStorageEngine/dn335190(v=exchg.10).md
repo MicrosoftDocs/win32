@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE\_INFO.hInstanceId property
+# JET_INSTANCE_INFO.hInstanceId property
 
-Gets the JET\_INSTANCE of the given instance.
+Gets the JET_INSTANCE of the given instance.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -55,15 +55,15 @@ public JET_INSTANCE hInstanceId { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_INSTANCE\_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
 
-[JET\_INSTANCE\_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

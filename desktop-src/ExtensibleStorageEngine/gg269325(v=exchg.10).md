@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OSSNAPID
+# JET_OSSNAPID
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_OSSNAPID
+## JET_OSSNAPID
 
-The **JET\_OSSNAPID** data type contains a handle to a snapshot of the database.
+The **JET_OSSNAPID** data type contains a handle to a snapshot of the database.
 
+```cpp
     typedef JET_API_PTR JET_OSSNAPID;
+```
 
 ### Data Types
 
-JET\_OSSNAPID
+JET_OSSNAPID
 
 A handle to a snapshot of the database. This handle is used in JET API elements that are involved with snapshot backup.
 

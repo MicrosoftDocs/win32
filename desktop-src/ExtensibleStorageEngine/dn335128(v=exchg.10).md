@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_INDEXLIST properties
+# JET_INDEXLIST properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_INDEXLIST](dn335123\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXLIST](dn335123\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -116,7 +116,7 @@ Top
 
 #### Reference
 
-[JET\_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

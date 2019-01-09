@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJTYP
+# JET_OBJTYP
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_OBJTYP
+## JET_OBJTYP
 
-The **JET\_OBJTYP** group of constants represent the type of a database object. Currently, only tables are supported.
+The **JET_OBJTYP** group of constants represent the type of a database object. Currently, only tables are supported.
 
 <table>
 <colgroup>

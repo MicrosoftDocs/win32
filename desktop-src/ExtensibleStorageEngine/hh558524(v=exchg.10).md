@@ -34,9 +34,9 @@ ROBOTS: INDEX,FOLLOW
 
 # SetCurrentIndexGrbit enumeration
 
-Options for [JetSetCurrentIndex2(JET\_SESID, JET\_TABLEID, String, SetCurrentIndexGrbit)](dn334005\(v=exchg.10\).md) and [JetSetCurrentIndex3(JET\_SESID, JET\_TABLEID, String, SetCurrentIndexGrbit, Int32)](dn334012\(v=exchg.10\).md).
+Options for [JetSetCurrentIndex2(JET_SESID, JET_TABLEID, String, SetCurrentIndexGrbit)](dn334005\(v=exchg.10\).md) and [JetSetCurrentIndex3(JET_SESID, JET_TABLEID, String, SetCurrentIndexGrbit, Int32)](dn334012\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

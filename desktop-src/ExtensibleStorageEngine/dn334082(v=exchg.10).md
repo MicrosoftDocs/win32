@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.SetColumn method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, DateTime)
+# Api.SetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, DateTime)
 
 Modifies a single column value in a modified record to be inserted or to update the current record.
 
@@ -59,28 +59,28 @@ public static void SetColumn(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to update. An update should be prepared.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to set.
 
 <!-- end list -->
 
   - data  
-    Type: [System.DateTime](http://msdn2.microsoft.com/en-us/library/03ybds8y)  
+    Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)  
     
     The data to set.
 

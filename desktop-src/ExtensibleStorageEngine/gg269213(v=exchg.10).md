@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLTYP
+# JET_COLTYP
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_COLTYP
+## JET_COLTYP
 
-The **JET\_COLTYP** group of constants describe all possible column types that can be found in a table.
+The **JET_COLTYP** group of constants describe all possible column types that can be found in a table.
 
 <table>
 <colgroup>

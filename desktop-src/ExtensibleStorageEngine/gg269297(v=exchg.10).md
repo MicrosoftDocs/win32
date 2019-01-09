@@ -26,7 +26,7 @@ _**Applies to:** Windows | Windows Server_
 
 The following error codes (flags) are used by functions in the Extensible Storage Engine API.
 
-A [JET\_ERR](gg294092\(v=exchg.10\).md) value of zero should be interpreted as success.
+A [JET_ERR](gg294092\(v=exchg.10\).md) value of zero should be interpreted as success.
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ A [JET\_ERR](gg294092\(v=exchg.10\).md) value of zero should be interpreted as s
 </table>
 
 
-A [JET\_ERR](gg294092\(v=exchg.10\).md) value that is greater than zero should be interpreted as a warning.
+A [JET_ERR](gg294092\(v=exchg.10\).md) value that is greater than zero should be interpreted as a warning.
 
 <table>
 <colgroup>
@@ -257,7 +257,7 @@ JET_wrnSeekNotEqual</p></td>
 </table>
 
 
-A [JET\_ERR](gg294092\(v=exchg.10\).md) value that is less than zero should be interpreted as an error.
+A [JET_ERR](gg294092\(v=exchg.10\).md) value that is less than zero should be interpreted as an error.
 
 <table>
 <colgroup>

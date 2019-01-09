@@ -29,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Table.JetTableid property
 
-Gets the JET\_TABLEID that this table contains.
+Gets the JET_TABLEID that this table contains.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,7 +53,7 @@ public JET_TABLEID JetTableid { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
 
 ## See also
 

@@ -27,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LGPOS.GreaterThanOrEqual operator
+# JET_LGPOS.GreaterThanOrEqual operator
 
 Determine whether one log position is after or equal to another log position.
 
@@ -60,29 +60,29 @@ public static bool operator >=(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LGPOS](hh578063\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
     
     The first log position to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LGPOS](hh578063\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
     
     The second log position to compare.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if lhs comes after or is equal to rhs.  
 
 ## See also
 
 #### Reference
 
-[JET\_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
 
-[JET\_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](hh566576\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

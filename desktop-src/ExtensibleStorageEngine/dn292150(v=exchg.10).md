@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetEscrowUpdate method
 
-Performs an atomic addition operation on one column. This function allows multiple sessions to update the same record concurrently without conflicts. Also see [EscrowUpdate(JET\_SESID, JET\_TABLEID, JET\_COLUMNID, Int32)](dn292114\(v=exchg.10\).md).
+Performs an atomic addition operation on one column. This function allows multiple sessions to update the same record concurrently without conflicts. Also see [EscrowUpdate(JET_SESID, JET_TABLEID, JET_COLUMNID, Int32)](dn292114\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -80,21 +80,21 @@ public static void JetEscrowUpdate(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use. The session must be in a transaction.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to update.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The column to update. This must be an escrow updatable column.
 
@@ -108,7 +108,7 @@ public static void JetEscrowUpdate(
 <!-- end list -->
 
   - deltaSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The size of the addend.
 
@@ -122,14 +122,14 @@ public static void JetEscrowUpdate(
 <!-- end list -->
 
   - previousValueLength  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The size of the previousValue buffer.
 
 <!-- end list -->
 
   - actualPreviousValueLength  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the actual size of the previousValue.
 

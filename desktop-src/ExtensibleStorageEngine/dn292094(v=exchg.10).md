@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.IntersectIndexes method
 
-Intersect a group of index ranges and return the bookmarks of the records which are found in all the index ranges. Also see [JetIntersectIndexes(JET\_SESID, \[\], Int32, JET\_RECORDLIST, IntersectIndexesGrbit)](dn292212\(v=exchg.10\).md).
+Intersect a group of index ranges and return the bookmarks of the records which are found in all the index ranges. Also see [JetIntersectIndexes(JET_SESID, \[\], Int32, JET_RECORDLIST, IntersectIndexesGrbit)](dn292212\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,7 +60,7 @@ public static IEnumerable<byte[]> IntersectIndexes(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
@@ -69,11 +69,11 @@ public static IEnumerable<byte[]> IntersectIndexes(
   - tableids  
     Type: \[\]  
     
-    The tableids to use. Each tableid must be from a different index on the same table and have an active index range. Use [JetSetIndexRange(JET\_SESID, JET\_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) to create an index range.
+    The tableids to use. Each tableid must be from a different index on the same table and have an active index range. Use [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) to create an index range.
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](http://msdn2.microsoft.com/en-us/library/9eekhta0)\<\[\]\>  
+Type: [System.Collections.Generic.IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0)\<\[\]\>  
 The bookmarks of the records which are found in all the index ranges. The bookmarks are returned in primary key order.  
 
 ## See also

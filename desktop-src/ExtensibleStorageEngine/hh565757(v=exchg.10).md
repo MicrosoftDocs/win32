@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC.fUpgradeDb property
+# JET_DBINFOMISC.fUpgradeDb property
 
 Gets a value indicating whether the database is being upgraded. This value is for internal use only.
 
@@ -55,15 +55,15 @@ public bool fUpgradeDb { get; internal set; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 ## See also
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

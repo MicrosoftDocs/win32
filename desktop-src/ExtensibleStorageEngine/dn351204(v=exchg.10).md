@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # StringColumnValue.Value property
 
-Gets or sets the value of the column. Use [SetColumns(JET\_SESID, JET\_TABLEID, \[\])](dn334138\(v=exchg.10\).md) to update a record with the column value.
+Gets or sets the value of the column. Use [SetColumns(JET_SESID, JET_TABLEID, \[\])](dn334138\(v=exchg.10\).md) to update a record with the column value.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ public string Value { get; set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 

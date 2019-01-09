@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetObjectInfo** function retrieves information about database objects. Currently, only tables are supported. [JetGetTableInfo](gg269177\(v=exchg.10\).md) can be used to fetch more information than **JetGetObjectInfo**.
 
+```cpp
     JET_ERR JET_API JetGetObjectInfo(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
@@ -41,6 +42,7 @@ The **JetGetObjectInfo** function retrieves information about database objects. 
       __in          unsigned long cbMax,
       __in          unsigned long InfoLevel
     );
+```
 
 ### Parameters
 
@@ -54,7 +56,7 @@ The database from which the information is retrieved.
 
 *objtyp*
 
-The objects that contain information to be retrieved. Currently, only JET\_objtypNil and JET\_objtypTable are supported, both of which behave identically. Only tables will be retrieved.
+The objects that contain information to be retrieved. Currently, only JET_objtypNil and JET_objtypTable are supported, both of which behave identically. Only tables will be retrieved.
 
 *szContainerName*
 
@@ -62,7 +64,7 @@ This parameter is reserved for future use and passes **NULL**. The name of the t
 
 *szObjectName*
 
-The name of the object that contains information to retrieve. When *InfoLevel* uses the JET\_ObjInfoList or JET\_ObjInfoListNoStats options to retrieve a list of all objects, this value should be **NULL** or an empty string.
+The name of the object that contains information to retrieve. When *InfoLevel* uses the JET_ObjInfoList or JET_ObjInfoListNoStats options to retrieve a list of all objects, this value should be **NULL** or an empty string.
 
 Only table names are currently supported.
 
@@ -142,7 +144,7 @@ The following options are available to set for this parameter.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -178,7 +180,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### Remarks
 
-If **JetGetObjectInfo** successfully creates a temporary table (for example, JET\_ObjInfoList or JET\_ObjInfoNoStats), the caller is responsible for closing the temporary table with [JetCloseTable](gg294087\(v=exchg.10\).md).
+If **JetGetObjectInfo** successfully creates a temporary table (for example, JET_ObjInfoList or JET_ObjInfoNoStats), the caller is responsible for closing the temporary table with [JetCloseTable](gg294087\(v=exchg.10\).md).
 
 **JetGetObjectInfo** currently only supports retrieving information about tables.
 
@@ -220,13 +222,13 @@ If **JetGetObjectInfo** successfully creates a temporary table (for example, JET
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_OBJTYP](gg269312\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET\_OBJECTLIST](gg269348\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_OBJTYP](gg269312\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
+[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetGetTableInfo](gg269177\(v=exchg.10\).md)
 

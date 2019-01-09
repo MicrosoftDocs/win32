@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTINFO.objtyp property
+# JET_OBJECTINFO.objtyp property
 
-Gets the JET\_OBJTYP of the table. Currently only tables will be returned (that is, [Table](hh565069\(v=exchg.10\).md)).
+Gets the JET_OBJTYP of the table. Currently only tables will be returned (that is, [Table](hh565069\(v=exchg.10\).md)).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -55,15 +55,15 @@ public JET_objtyp objtyp { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_objtyp](hh565069\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_objtyp](hh565069\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
 
-[JET\_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

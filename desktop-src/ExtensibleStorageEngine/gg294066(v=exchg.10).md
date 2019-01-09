@@ -17,22 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_GRBIT
+# JET_GRBIT
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_GRBIT
+## JET_GRBIT
 
-The **JET\_GRBIT** data type is a group of bits that contain constants that are specific to the functions and structures in which it is used.
+The **JET_GRBIT** data type is a group of bits that contain constants that are specific to the functions and structures in which it is used.
 
     typedef unsigned long JET_GRBIT;
 
 ### Data Types
 
-JET\_GRBIT
+JET_GRBIT
 
-In general, the constants that are used as values for this data type reflect the name of the API element in which they are used. For example, all constants passed to [JetRetrieveColumn](gg269198\(v=exchg.10\).md) begin with "JET\_bitRetrieve". Similarly, all constants passed to [JetSetColumn](gg294137\(v=exchg.10\).md) begin with "JET\_bitSet".
+In general, the constants that are used as values for this data type reflect the name of the API element in which they are used. For example, all constants passed to [JetRetrieveColumn](gg269198\(v=exchg.10\).md) begin with "JET_bitRetrieve". Similarly, all constants passed to [JetSetColumn](gg294137\(v=exchg.10\).md) begin with "JET_bitSet".
 
 A value of zero causes the parameter to be ignored.
 

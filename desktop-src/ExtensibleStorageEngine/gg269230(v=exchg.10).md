@@ -17,23 +17,25 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETSYSPARAM Structure
+# JET_SETSYSPARAM Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SETSYSPARAM Structure
+## JET_SETSYSPARAM Structure
 
-An array of **JET\_SETSYSPARAM** structures indicate a specific set of global system parameters that are set as an argument when using the [JetEnableMultiInstance](gg294107\(v=exchg.10\).md) function.
+An array of **JET_SETSYSPARAM** structures indicate a specific set of global system parameters that are set as an argument when using the [JetEnableMultiInstance](gg294107\(v=exchg.10\).md) function.
 
 **Windows XP:** This structure is introduced in Windows XP.
 
+```cpp
     typedef struct {
       unsigned long paramid;
       JET_API_PTR lParam;
       const tchar* sz;
       JET_ERR err;
     } JET_SETSYSPARAM;
+```
 
 ### Members
 
@@ -86,8 +88,8 @@ The error resulting from the call to [JetSetSystemParameter](gg294044\(v=exchg.1
 ### See Also
 
 [Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md)  
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetEnableMultiInstance](gg294107\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)
 

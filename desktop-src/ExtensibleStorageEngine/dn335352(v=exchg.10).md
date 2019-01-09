@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ErrorInfo enumeration
+# JET_ErrorInfo enumeration
 
 The valid values of InfoLevel for JetGetErrorInfo.
 

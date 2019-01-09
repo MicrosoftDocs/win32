@@ -17,26 +17,28 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXRANGE Structure
+# JET_INDEXRANGE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_INDEXRANGE Structure
+## JET_INDEXRANGE Structure
 
-The **JET\_INDEXRANGE** structure identifies an index range when it is used with the [JetIntersectIndexes](gg269289\(v=exchg.10\).md) function.
+The **JET_INDEXRANGE** structure identifies an index range when it is used with the [JetIntersectIndexes](gg269289\(v=exchg.10\).md) function.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_TABLEID tableid;
       JET_GRBIT grbit;
     } JET_INDEXRANGE;
+```
 
 ### Members
 
 **cbStruct**
 
-The size, in bytes, of the **JET\_INDEXRANGE**.
+The size, in bytes, of the **JET_INDEXRANGE**.
 
 **tableid**
 
@@ -72,7 +74,7 @@ A bitmask composed of exactly one of the following.
 
 ### Remarks
 
-Each **JET\_INDEXRANGE** structure that is passed to [JetIntersectIndexes](gg269289\(v=exchg.10\).md) represents an index range, which will be intersected by the API call. The cursor that is given in **JET\_INDEXRANGE** must have a valid index range set on it already, with a successful call to [JetSetIndexRange](gg294112\(v=exchg.10\).md).
+Each **JET_INDEXRANGE** structure that is passed to [JetIntersectIndexes](gg269289\(v=exchg.10\).md) represents an index range, which will be intersected by the API call. The cursor that is given in **JET_INDEXRANGE** must have a valid index range set on it already, with a successful call to [JetSetIndexRange](gg294112\(v=exchg.10\).md).
 
 ### Requirements
 
@@ -100,9 +102,9 @@ Each **JET\_INDEXRANGE** structure that is passed to [JetIntersectIndexes](gg269
 
 ### See Also
 
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetIntersectIndexes](gg269289\(v=exchg.10\).md)  
 [JetSetIndexRange](gg294112\(v=exchg.10\).md)

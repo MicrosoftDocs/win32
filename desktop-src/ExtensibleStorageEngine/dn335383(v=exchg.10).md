@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Windows8Api.JetSetCursorFilter method
 
-Set an array of simple filters for [JetMove(JET\_SESID, JET\_TABLEID, Int32, MoveGrbit)](dn292217\(v=exchg.10\).md).
+Set an array of simple filters for [JetMove(JET_SESID, JET_TABLEID, Int32, MoveGrbit)](dn292217\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,14 +63,14 @@ public static void JetSetCursorFilter(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use for the call.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to position.
 

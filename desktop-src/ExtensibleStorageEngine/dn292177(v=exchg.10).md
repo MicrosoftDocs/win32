@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetLS method
 
-Enables the application to retrieve the context handle known as Local Storage that is associated with a cursor or the table associated with that cursor. This context handle must have been previously set using [JetSetLS(JET\_SESID, JET\_TABLEID, JET\_LS, LsGrbit)](dn334015\(v=exchg.10\).md). JetGetLS can also be used to simultaneously fetch the current context handle for a cursor or table and reset that context handle.
+Enables the application to retrieve the context handle known as Local Storage that is associated with a cursor or the table associated with that cursor. This context handle must have been previously set using [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn334015\(v=exchg.10\).md). JetGetLS can also be used to simultaneously fetch the current context handle for a cursor or table and reset that context handle.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,21 +63,21 @@ public static void JetGetLS(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to use.
 
 <!-- end list -->
 
   - ls  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
     
     Returns the retrieved context handle.
 

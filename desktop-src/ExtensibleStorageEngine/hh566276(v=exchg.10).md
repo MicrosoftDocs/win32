@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LS.Equality operator
+# JET_LS.Equality operator
 
-Determines whether two specified instances of JET\_LS are equal.
+Determines whether two specified instances of JET_LS are equal.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,29 +60,29 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
     
     The second instance to compare.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 ## See also
 
 #### Reference
 
-[JET\_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](hh557499\(v=exchg.10\).md)
 
-[JET\_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](hh596466\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

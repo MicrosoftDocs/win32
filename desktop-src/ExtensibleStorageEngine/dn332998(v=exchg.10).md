@@ -63,14 +63,14 @@ public static void JetOSSnapshotFreeze(
 #### Parameters
 
   - snapshot  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
     
     The snapshot session.
 
 <!-- end list -->
 
   - numInstances  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the number of instances that are part of the snapshot session.
 

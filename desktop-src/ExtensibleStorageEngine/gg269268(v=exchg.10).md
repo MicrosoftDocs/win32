@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetBeginTransaction2** function causes a session to enter a transaction and create a new save point. This function can be called more than once in a single session to create additional save points. These save points can be used to selectively to keep or discard changes to the database.
 
+```cpp
     JET_ERR JET_API JetBeginTransaction2(
       __in          JET_SESID sesid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -66,7 +68,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -159,9 +161,9 @@ For more information about how transactions work, see [JetBeginTransaction](gg29
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetBeginTransaction](gg294083\(v=exchg.10\).md)  
 [JetCommitTransaction](gg269191\(v=exchg.10\).md)  
 [JetGetSystemParameter](gg269291\(v=exchg.10\).md)  

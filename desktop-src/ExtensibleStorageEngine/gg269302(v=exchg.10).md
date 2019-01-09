@@ -29,6 +29,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetOpenTempTable2** function creates a temporary table with a single index that can be used to store and retrieve records just like an ordinary table created using [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md). This function also has a Locale ID that can be used to compare Unicode key column data in the temporary table. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner.
 
+```cpp
     JET_ERR JET_API JetOpenTempTable2(
       __in          JET_SESID sesid,
       __in          const JET_COLUMNDEF* prgcolumndef,
@@ -38,6 +39,7 @@ The **JetOpenTempTable2** function creates a temporary table with a single index
       __out         JET_TABLEID* ptableid,
       __out         JET_COLUMNID* prgcolumnid
     );
+```
 
 ### Parameters
 
@@ -169,7 +171,7 @@ The column IDs in this array will exactly correspond to the input array of colum
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -313,13 +315,13 @@ See [JetOpenTempTable](gg269211\(v=exchg.10\).md).
 
 #### See Also
 
-[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
+[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetDupCursor](gg269193\(v=exchg.10\).md)  

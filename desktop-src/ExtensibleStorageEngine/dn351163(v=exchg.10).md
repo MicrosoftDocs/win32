@@ -28,11 +28,11 @@ ROBOTS: INDEX,FOLLOW
 
 # Table class
 
-A class that encapsulates a JET\_TABLEID in a disposable object. This opens an existing table. To create a table use the JetCreateTable method.
+A class that encapsulates a JET_TABLEID in a disposable object. This opens an existing table. To create a table use the JetCreateTable method.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   [Microsoft.Isam.Esent.Interop.EsentResource](dn319890\(v=exchg.10\).md)  
     Microsoft.Isam.Esent.Interop.Table  
 

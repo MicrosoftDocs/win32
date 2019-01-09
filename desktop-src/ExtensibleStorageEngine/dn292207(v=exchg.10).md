@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGotoPosition method
 
-Moves a cursor to a new location that is a fraction of the way through the current index. Also see [JetGetRecordPosition(JET\_SESID, JET\_TABLEID, JET\_RECPOS)](dn292181\(v=exchg.10\).md).
+Moves a cursor to a new location that is a fraction of the way through the current index. Also see [JetGetRecordPosition(JET_SESID, JET_TABLEID, JET_RECPOS)](dn292181\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,21 +60,21 @@ public static void JetGotoPosition(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to position.
 
 <!-- end list -->
 
   - recpos  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_RECPOS](dn335256\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RECPOS](dn335256\(v=exchg.10\).md)  
     
     The approximate position to move to.
 

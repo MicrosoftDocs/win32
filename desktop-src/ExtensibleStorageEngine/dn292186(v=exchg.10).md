@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetTableColumnInfo method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, JET\_COLUMNDEF)
+# Api.JetGetTableColumnInfo method (JET_SESID, JET_TABLEID, JET_COLUMNID, JET_COLUMNDEF)
 
 Retrieves information about a table column.
 
@@ -59,28 +59,28 @@ public static void JetGetTableColumnInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table containing the column.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid of the column.
 
 <!-- end list -->
 
   - columndef  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNDEF](dn335038\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNDEF](dn335038\(v=exchg.10\).md)  
     
     Filled in with information about the column.
 

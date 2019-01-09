@@ -17,22 +17,24 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE
+# JET_INSTANCE
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_INSTANCE
+## JET_INSTANCE
 
-The **JET\_INSTANCE** data type contains a handle to the instance of the database to use for a call to the JET API.
+The **JET_INSTANCE** data type contains a handle to the instance of the database to use for a call to the JET API.
 
+```cpp
     typedef JET_API_PTR JET_INSTANCE;
+```
 
 ### Data Types
 
-JET\_INSTANCE
+JET_INSTANCE
 
-Either **NULL** or [JET\_instanceNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid instance handle.
+Either **NULL** or [JET_instanceNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid instance handle.
 
 ### Remarks
 

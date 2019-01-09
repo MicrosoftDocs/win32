@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetVersion** function retrieves the version of the database engine.
 
+```cpp
     JET_ERR JET_API JetGetVersion(
       __in          JET_SESID sesid,
       __out         unsigned long* pwVersion
     );
+```
 
 ### Parameters
 
@@ -46,7 +48,7 @@ A pointer to the version number of the database engine.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -108,6 +110,6 @@ There are no known failure modes.
 
 [Error Handling Parameters](gg269173\(v=exchg.10\).md)  
 [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)
 

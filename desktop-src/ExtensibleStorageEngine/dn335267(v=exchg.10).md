@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_SETCOLUMN properties
+# JET_SETCOLUMN properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_SETCOLUMN](dn335260\(v=exchg.10\).md) type exposes the following members.
+The [JET_SETCOLUMN](dn335260\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -76,7 +76,7 @@ Top
 
 #### Reference
 
-[JET\_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

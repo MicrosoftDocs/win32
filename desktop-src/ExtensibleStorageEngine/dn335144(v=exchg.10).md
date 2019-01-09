@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNVALUE.err property
+# JET_ENUMCOLUMNVALUE.err property
 
 Gets the column status code resulting from the enumeration of the column value.
 
@@ -55,15 +55,15 @@ public JET_wrn err { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

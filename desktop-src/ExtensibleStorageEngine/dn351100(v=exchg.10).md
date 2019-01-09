@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SPACEHINTS.DeepClone method
+# JET_SPACEHINTS.DeepClone method
 
 Returns a deep copy of the object.
 
@@ -51,7 +51,7 @@ public JET_SPACEHINTS DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_SPACEHINTS](dn351095\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SPACEHINTS](dn351095\(v=exchg.10\).md)  
 A deep copy of the object.  
 
 #### Implements
@@ -62,9 +62,9 @@ A deep copy of the object.
 
 #### Reference
 
-[JET\_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
 
-[JET\_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

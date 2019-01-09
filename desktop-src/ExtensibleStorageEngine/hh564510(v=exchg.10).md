@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNID structure
+# JET_COLUMNID structure
 
-A JET\_COLUMNID identifies a column within a table.
+A JET_COLUMNID identifies a column within a table.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

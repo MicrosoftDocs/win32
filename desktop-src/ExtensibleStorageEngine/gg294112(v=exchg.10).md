@@ -29,11 +29,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetSetIndexRange** function temporarily limits the set of index entries that the cursor can walk using [JetMove](gg294117\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria specified by the search key in that cursor and the specified bound criteria. A search key must have been previously constructed using [JetMakeKey](gg269329\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetSetIndexRange(
       __in          JET_SESID sesid,
     __in          JET_TABLEID tableidSrc,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -87,7 +89,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -152,15 +154,15 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, if JET\_bitRangeRemove is specified, then the index range that is currently in effect is canceled. If JET\_bitRangeRemove is not specified and JET\_bitRangeInstantDuration is specified, then no index range is in effect. If neither JET\_bitRangeRemove nor JET\_bitRangeInstantDuration is specified, then a new index range is in effect. This index range will temporarily limit the set of index entries that the cursor can walk using [JetMove](gg294117\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria. The position of the cursor will remain unchanged. If a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur.
+On success, if JET_bitRangeRemove is specified, then the index range that is currently in effect is canceled. If JET_bitRangeRemove is not specified and JET_bitRangeInstantDuration is specified, then no index range is in effect. If neither JET_bitRangeRemove nor JET_bitRangeInstantDuration is specified, then a new index range is in effect. This index range will temporarily limit the set of index entries that the cursor can walk using [JetMove](gg294117\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria. The position of the cursor will remain unchanged. If a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur.
 
-On failure, if JET\_errNoCurrentRecord is not returned, then no index range is in effect. If JET\_errNoCurrentRecord is returned, then a new index range is in effect. This index range will temporarily limit the set of index entries that the cursor can walk using [JetMove](gg294117\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria. The position of the cursor will remain unchanged. If JET\_errNoCurrentRecord was returned and a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur.
+On failure, if JET_errNoCurrentRecord is not returned, then no index range is in effect. If JET_errNoCurrentRecord is returned, then a new index range is in effect. This index range will temporarily limit the set of index entries that the cursor can walk using [JetMove](gg294117\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria. The position of the cursor will remain unchanged. If JET_errNoCurrentRecord was returned and a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur.
 
 #### Remarks
 
 An index range is volatile and will automatically be canceled if any navigation other than [JetMove](gg294117\(v=exchg.10\).md) is performed on the cursor.
 
-Index ranges only work in one direction. If an upper limit is established then only forward motion using [JetMove](gg294117\(v=exchg.10\).md) with JET\_MoveNext or a positive offset will be prevented once the end of the index range has been reached. It is still possible to leave the index range in this case using [JetMove](gg294117\(v=exchg.10\).md) with JET\_MovePrevious or a negative offset. An analogous situation occurs for a lower limit.
+Index ranges only work in one direction. If an upper limit is established then only forward motion using [JetMove](gg294117\(v=exchg.10\).md) with JET_MoveNext or a positive offset will be prevented once the end of the index range has been reached. It is still possible to leave the index range in this case using [JetMove](gg294117\(v=exchg.10\).md) with JET_MovePrevious or a negative offset. An analogous situation occurs for a lower limit.
 
 #### Requirements
 
@@ -196,10 +198,10 @@ Index ranges only work in one direction. If an upper limit is established then o
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetMakeKey](gg269329\(v=exchg.10\).md)  
 [JetMove](gg294117\(v=exchg.10\).md)  
 [JetSetIndexRange](gg294112\(v=exchg.10\).md)  

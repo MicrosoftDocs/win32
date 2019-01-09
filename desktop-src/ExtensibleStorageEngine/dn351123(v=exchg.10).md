@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLECREATE.DeepClone method
+# JET_TABLECREATE.DeepClone method
 
 Returns a deep copy of the object.
 
@@ -51,7 +51,7 @@ public JET_TABLECREATE DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLECREATE](dn351072\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](dn351072\(v=exchg.10\).md)  
 A deep copy of the object.  
 
 #### Implements
@@ -62,9 +62,9 @@ A deep copy of the object.
 
 #### Reference
 
-[JET\_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
 
-[JET\_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

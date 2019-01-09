@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_HANDLE properties
+# JET_HANDLE properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_HANDLE](hh558081\(v=exchg.10\).md) type exposes the following members.
+The [JET_HANDLE](hh558081\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +41,7 @@ Top
 
 #### Reference
 
-[JET\_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

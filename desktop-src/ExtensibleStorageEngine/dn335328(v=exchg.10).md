@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COMMIT\_ID.Equals method (JET\_COMMIT\_ID)
+# JET_COMMIT_ID.Equals method (JET_COMMIT_ID)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_COMMIT\_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
     
     An object to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 true if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_COMMIT\_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
 
-[JET\_COMMIT\_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Equals overload](dn335455\(v=exchg.10\).md)
 

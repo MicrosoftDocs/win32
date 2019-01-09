@@ -26,14 +26,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COMMIT\_ID class
+# JET_COMMIT_ID class
 
-Information context surrounded data emitted from JET\_PFNEMITLOGDATA.
+Information context surrounded data emitted from JET_PFNEMITLOGDATA.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  Microsoft.Isam.Esent.Interop.Windows8.JET\_COMMIT\_ID  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -61,7 +61,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_COMMIT\_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

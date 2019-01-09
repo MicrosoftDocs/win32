@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Windows8Grbits.TTDotNetGuid field
 
-This option requests that the temporary table sort columns of type JET\_coltypGUID according to .NET Framework GUID sort order.
+This option requests that the temporary table sort columns of type JET_coltypGUID according to .NET Framework GUID sort order.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

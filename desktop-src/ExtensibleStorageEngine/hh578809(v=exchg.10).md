@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE.Inequality operator
+# JET_RECSIZE.Inequality operator
 
-Determines whether two specified instances of JET\_RECSIZE are not equal.
+Determines whether two specified instances of JET_RECSIZE are not equal.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,29 +60,29 @@ public static bool operator !=(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
     
     The second instance to compare.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are not equal.  
 
 ## See also
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

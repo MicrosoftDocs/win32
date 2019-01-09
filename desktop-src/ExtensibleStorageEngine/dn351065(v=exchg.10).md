@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SPACEHINTS constructor
+# JET_SPACEHINTS constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_SPACEHINTS()
 
 #### Reference
 
-[JET\_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
 
-[JET\_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.DeserializeObjectFromColumn method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, RetrieveColumnGrbit)
+# Api.DeserializeObjectFromColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, RetrieveColumnGrbit)
 
 Deserialize an object from a column.
 
@@ -62,21 +62,21 @@ public static Object DeserializeObjectFromColumn(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to read from.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The column to read from.
 
@@ -89,7 +89,7 @@ public static Object DeserializeObjectFromColumn(
 
 #### Return value
 
-Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
 The deserialized object. Null if the column was null.  
 
 ## See also

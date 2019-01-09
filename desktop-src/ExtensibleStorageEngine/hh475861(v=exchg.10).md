@@ -8,14 +8,14 @@ ms.date: 04/11/2016
 ms.topic: article
 ---
 
-# JET\_ERRINFOBASIC\_W Structure
+# JET_ERRINFOBASIC_W Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_ERRINFOBASIC\_W Structure
+## JET_ERRINFOBASIC_W Structure
 
-The **JET\_ERRINFOBASIC\_W** structure defines the data that is returned from the [JetGetErrorInfo()](hh475859\(v=exchg.10\).md) method when the JET\_ErrorInfoSpecificErr InfoLevel is passed in.
+The **JET_ERRINFOBASIC_W** structure defines the data that is returned from the [JetGetErrorInfo()](hh475859\(v=exchg.10\).md) method when the JET_ErrorInfoSpecificErr InfoLevel is passed in.
 
 Note: This documentation is based on a preliminary release of the Extensible Storage Engine. This information is subject to change.
 
@@ -32,7 +32,7 @@ Note: This documentation is based on a preliminary release of the Extensible Sto
 
 **cbStruct**
 
-The size of the structure, in bytes. It must be set to sizeof( JET\_ERRINFOBASIC ).
+The size of the structure, in bytes. It must be set to sizeof( JET_ERRINFOBASIC ).
 
 **errValue**
 
@@ -40,11 +40,11 @@ The error value that was evaluated, as passed in for the *pvResult* argument to 
 
 **errcatMostSpecific**
 
-The lowest-level [JET\_ERRCAT](hh475860\(v=exchg.10\).md) constant that is associated with the error; that is, the leaf-level category in the category hierarchy documented in [JET\_ERRCAT](hh475860\(v=exchg.10\).md).
+The lowest-level [JET_ERRCAT](hh475860\(v=exchg.10\).md) constant that is associated with the error; that is, the leaf-level category in the category hierarchy documented in [JET_ERRCAT](hh475860\(v=exchg.10\).md).
 
 **rgCategoricalHierarchy\[8\]**
 
-The hierarchy of error categories that is associated with the error. Position 0 is the highest level in the hierarchy of [JET\_ERRCAT](hh475860\(v=exchg.10\).md), and the rest are subcategories until the most specific category is set, after which all categories are JET\_errcatUnknown.
+The hierarchy of error categories that is associated with the error. Position 0 is the highest level in the hierarchy of [JET_ERRCAT](hh475860\(v=exchg.10\).md), and the rest are subcategories until the most specific category is set, after which all categories are JET_errcatUnknown.
 
 **lSourceLine**
 

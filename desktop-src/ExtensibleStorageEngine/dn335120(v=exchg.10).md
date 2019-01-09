@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXCREATE.pSpaceHints property
+# JET_INDEXCREATE.pSpaceHints property
 
 Gets or sets space allocation, maintenance, and usage hints.
 
@@ -57,15 +57,15 @@ public JET_SPACEHINTS pSpaceHints { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_SPACEHINTS](dn351095\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SPACEHINTS](dn351095\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
 
-[JET\_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

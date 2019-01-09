@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # SystemParameters.ColumnMost field
 
-Maximum size for columns which are not JET\_coltyp.LongBinary or JET\_coltyp.LongText.
+Maximum size for columns which are not JET_coltyp.LongBinary or JET_coltyp.LongText.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

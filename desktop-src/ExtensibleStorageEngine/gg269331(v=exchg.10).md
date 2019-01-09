@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE\_INFO Structure
+# JET_INSTANCE_INFO Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_INSTANCE\_INFO Structure
+## JET_INSTANCE_INFO Structure
 
-The **JET\_INSTANCE\_INFO** structure receives information about running database instances when used with the [JetGetInstanceInfo](gg294149\(v=exchg.10\).md) and [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) functions.
+The **JET_INSTANCE_INFO** structure receives information about running database instances when used with the [JetGetInstanceInfo](gg294149\(v=exchg.10\).md) and [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) functions.
 
+```cpp
     typedef struct _JET_INSTANCE_INFO {
       JET_INSTANCE hInstanceId;
       tchar* szInstanceName;
@@ -34,12 +35,13 @@ The **JET\_INSTANCE\_INFO** structure receives information about running databas
       tchar** szDatabaseDisplayName;
       tchar** szDatabaseSLVFileName;
     } JET_INSTANCE_INFO;
+```
 
 ### Members
 
 **hInstanceId**
 
-The [JET\_INSTANCE](gg294048\(v=exchg.10\).md) of the given instance.
+The [JET_INSTANCE](gg294048\(v=exchg.10\).md) of the given instance.
 
 **szInstanceName**
 
@@ -65,7 +67,7 @@ An array of strings, each holding the file name of the SLV file that is attached
 
 Each database instance can have several databases attached to it.
 
-For a given **JET\_INSTANCE\_INFO** structure, the array of strings that is returned for the databases are in the same order. For example, "szDatabaseDisplayName\[ i \]" and "szDatabaseFileName\[ i \]" both refer to the same database.
+For a given **JET_INSTANCE_INFO** structure, the array of strings that is returned for the databases are in the same order. For example, "szDatabaseDisplayName\[ i \]" and "szDatabaseFileName\[ i \]" both refer to the same database.
 
 ### Requirements
 
@@ -97,8 +99,8 @@ For a given **JET\_INSTANCE\_INFO** structure, the array of strings that is retu
 
 ### See Also
 
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetGetInstanceInfo](gg294149\(v=exchg.10\).md)  
 [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)
 

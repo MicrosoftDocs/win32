@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SPACEHINTS.grbit property
+# JET_SPACEHINTS.grbit property
 
 Gets or sets the space hints options.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.SpaceHintsGrbit](hh163400\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
 
-[JET\_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_THREADSTATS.Subtract method
+# JET_THREADSTATS.Subtract method
 
-Calculate the difference in stats between two JET\_THREADSTATS structures.
+Calculate the difference in stats between two JET_THREADSTATS structures.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,29 +59,29 @@ public static JET_THREADSTATS Subtract(
 #### Parameters
 
   - t1  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_THREADSTATS](hh578565\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
     
-    The first JET\_THREADSTATS.
+    The first JET_THREADSTATS.
 
 <!-- end list -->
 
   - t2  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_THREADSTATS](hh578565\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
     
-    The second JET\_THREADSTATS.
+    The second JET_THREADSTATS.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_THREADSTATS](hh578565\(v=exchg.10\).md)  
-A JET\_THREADSTATS containing the difference in stats between t1 and t2.  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
+A JET_THREADSTATS containing the difference in stats between t1 and t2.  
 
 ## See also
 
 #### Reference
 
-[JET\_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
 
-[JET\_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

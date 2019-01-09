@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # SystemParameters.StopFlushThreshold property
 
-Gets or sets the threshold at which the database page cache ends evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache rises above this threshold then the background process that was started to replenish that pool of available buffers is stopped. This threshold is always relative to the maximum cache size as set by JET\_paramCacheSizeMax. This threshold must also always be greater than the start threshold as set by JET\_paramStartFlushThreshold. The distance between the start threshold and the stop threshold affects the efficiency with which database pages are flushed by the background process. A larger gap will make it more likely that writes to neighboring pages may be combined. However, a high stop threshold will reduce the effective size of the database page cache.
+Gets or sets the threshold at which the database page cache ends evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache rises above this threshold then the background process that was started to replenish that pool of available buffers is stopped. This threshold is always relative to the maximum cache size as set by JET_paramCacheSizeMax. This threshold must also always be greater than the start threshold as set by JET_paramStartFlushThreshold. The distance between the start threshold and the stop threshold affects the efficiency with which database pages are flushed by the background process. A larger gap will make it more likely that writes to neighboring pages may be combined. However, a high stop threshold will reduce the effective size of the database page cache.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -56,7 +56,7 @@ public static int StopFlushThreshold { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 

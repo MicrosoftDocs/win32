@@ -8,14 +8,14 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_LS members
+# JET_LS members
 
 Include protected members  
 Include inherited members  
 
-Local storage for an ESENT handle. Used by [JetGetLS(JET\_SESID, JET\_TABLEID, JET\_LS, LsGrbit)](dn292177\(v=exchg.10\).md) and [JetSetLS(JET\_SESID, JET\_TABLEID, JET\_LS, LsGrbit)](dn334015\(v=exchg.10\).md).
+Local storage for an ESENT handle. Used by [JetGetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn292177\(v=exchg.10\).md) and [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn334015\(v=exchg.10\).md).
 
-The [JET\_LS](hh557499\(v=exchg.10\).md) type exposes the following members.
+The [JET_LS](hh557499\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -53,7 +53,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh578309(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -62,28 +62,28 @@ Top
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh163366(v=exchg.10).md">GetHashCode</a></td>
-<td>Returns the hash code for this instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/y3509fc2">ValueType.GetHashCode()</a>.)</td>
+<td>Returns the hash code for this instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/y3509fc2">ValueType.GetHashCode()</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh557929(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="https://msdn.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -149,7 +149,7 @@ Top
 
 #### Reference
 
-[JET\_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](hh557499\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

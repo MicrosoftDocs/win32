@@ -31,12 +31,14 @@ The **JetUnregisterCallback** function enables the application to configure the 
 
 **Windows XP:**  **JetUnregisterCallback** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetUnregisterCallback(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          JET_CBTYP cbtyp,
       __in          JET_HANDLE hCallbackId
     );
+```
 
 ### Parameters
 
@@ -52,7 +54,7 @@ The cursor to use for this call.
 
 A bitmask composed of the callback reasons that the application no longer wishes to receive notifications.
 
-To create this bitmask, simply or together valid callback reasons from the [JET\_CBTYP](gg294071\(v=exchg.10\).md) enumeration.
+To create this bitmask, simply or together valid callback reasons from the [JET_CBTYP](gg294071\(v=exchg.10\).md) enumeration.
 
 *hCallbackId*
 
@@ -60,7 +62,7 @@ The handle of the registered callback that was returned by [JetRegisterCallback]
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -150,11 +152,11 @@ The given bitmask should exactly match the bitmask that is specified when regist
 
 #### See Also
 
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_CBTYP](gg294071\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_HANDLE](gg269217\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetRegisterCallback](gg269175\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)
 

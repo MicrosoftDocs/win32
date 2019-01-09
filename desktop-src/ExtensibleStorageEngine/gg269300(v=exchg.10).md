@@ -33,11 +33,13 @@ precpos-\>centriesLT/precpos-\>centriesTotal
 
 This operation is performed in response to user scroll box input that is received when the user attempts to show data that starts part way through a data set.
 
+```cpp
     JET_ERR JET_API JetGotoPosition(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          JET_RECPOS* precpos
     );
+```
 
 ### Parameters
 
@@ -55,7 +57,7 @@ The description of the fraction to use in positioning the cursor in the current 
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -119,9 +121,9 @@ If this function fails, the cursor location is left unchanged.
 
 This operation moves the cursor through the table to a position at the following approximate point: precpos-\>centriesLT divided by precpos-\>centriesTotal.
 
-When updates are occurring continuously on the table, subsequent calls with the same [JET\_RECPOS](gg269308\(v=exchg.10\).md) can move the cursor to different positions in the index, both before and after the previous position. Transactional isolation does not apply to positioning through [JET\_RECPOS](gg269308\(v=exchg.10\).md) since it depends on physical properties of the index that are not transaction isolated.
+When updates are occurring continuously on the table, subsequent calls with the same [JET_RECPOS](gg269308\(v=exchg.10\).md) can move the cursor to different positions in the index, both before and after the previous position. Transactional isolation does not apply to positioning through [JET_RECPOS](gg269308\(v=exchg.10\).md) since it depends on physical properties of the index that are not transaction isolated.
 
-[JET\_RECPOS](gg269308\(v=exchg.10\).md) should not be used to describe a record within a table or to reposition a record close to an existing record. Instead, bookmarks for an existing record should be retrieved after an initial **JetGotoPosition** and then used to reposition the same record.
+[JET_RECPOS](gg269308\(v=exchg.10\).md) should not be used to describe a record within a table or to reposition a record close to an existing record. Instead, bookmarks for an existing record should be retrieved after an initial **JetGotoPosition** and then used to reposition the same record.
 
 #### Requirements
 
@@ -157,10 +159,10 @@ When updates are occurring continuously on the table, subsequent calls with the 
 
 #### See Also
 
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_RECPOS](gg269308\(v=exchg.10\).md)  
-[JET\_SETINFO](gg294090\(v=exchg.10\).md)
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_RECPOS](gg269308\(v=exchg.10\).md)  
+[JET_SETINFO](gg294090\(v=exchg.10\).md)
 

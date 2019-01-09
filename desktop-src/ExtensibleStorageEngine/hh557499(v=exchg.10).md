@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LS structure
+# JET_LS structure
 
-Local storage for an ESENT handle. Used by [JetGetLS(JET\_SESID, JET\_TABLEID, JET\_LS, LsGrbit)](dn292177\(v=exchg.10\).md) and [JetSetLS(JET\_SESID, JET\_TABLEID, JET\_LS, LsGrbit)](dn334015\(v=exchg.10\).md).
+Local storage for an ESENT handle. Used by [JetGetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn292177\(v=exchg.10\).md) and [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn334015\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -56,7 +56,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](hh596466\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

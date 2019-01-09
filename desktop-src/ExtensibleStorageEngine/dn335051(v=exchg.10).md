@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNLIST.columnidcoltyp property
+# JET_COLUMNLIST.columnidcoltyp property
 
 Gets the columnid of the column in the temporary table which stores the type of the column.
 
@@ -55,15 +55,15 @@ public JET_COLUMNID columnidcoltyp { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNLIST class](dn335047\(v=exchg.10\).md)
+[JET_COLUMNLIST class](dn335047\(v=exchg.10\).md)
 
-[JET\_COLUMNLIST members](dn335100\(v=exchg.10\).md)
+[JET_COLUMNLIST members](dn335100\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

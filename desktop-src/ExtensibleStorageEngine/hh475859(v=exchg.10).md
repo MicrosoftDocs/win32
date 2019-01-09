@@ -26,7 +26,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetErrorInfoW Function
 
-The **JetGetErrorInfoW** function BAS\_ of the database engine.
+The **JetGetErrorInfoW** function BAS_ of the database engine.
 
 Note: This documentation is based on a preliminary release of the Extensible Storage Engine. This information is subject to change.
 
@@ -83,7 +83,7 @@ Reserved.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg269297\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg269297\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -125,7 +125,7 @@ On failure, the state of the output buffers will be undefined.
 
 ### Remarks
 
-The [JET\_ERRINFOBASIC\_W](hh475861\(v=exchg.10\).md) function and [JET\_ERRCAT](hh475860\(v=exchg.10\).md) group of constants contain documentation about the extended error information that is returned for *InfoLevel* = JET\_ErrorInfoSpecificErr.
+The [JET_ERRINFOBASIC_W](hh475861\(v=exchg.10\).md) function and [JET_ERRCAT](hh475860\(v=exchg.10\).md) group of constants contain documentation about the extended error information that is returned for *InfoLevel* = JET_ErrorInfoSpecificErr.
 
 ### Requirements
 

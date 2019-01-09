@@ -33,6 +33,7 @@ The **JetOpenFileInstance** function opens an attached database, database patch 
 
 **Windows XP:**  **JetOpenFileInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetOpenFileInstance(
       __in          JET_INSTANCE instance,
       __in          JET_PCSTR szFileName,
@@ -40,6 +41,7 @@ The **JetOpenFileInstance** function opens an attached database, database patch 
       __out         unsigned long* pulFileSizeLow,
       __out         unsigned long* pulFileSizeHigh
     );
+```
 
 ### Parameters
 
@@ -49,7 +51,7 @@ The instance to use for this call.
 
 For Windows 2000, the API variant that accepts this parameter is not available because only one instance is supported. The use of this one global instance is implied in this case.
 
-For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET\_errRunningInMultiInstanceMode.
+For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET_errRunningInMultiInstanceMode.
 
 *szFileName*
 
@@ -69,7 +71,7 @@ Pointer to the output buffer that receives the most significant 32 bits of the s
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -209,9 +211,9 @@ The size of the file to be read as reported by this function may not match the s
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_HANDLE](gg269217\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md)  
 [JetCloseFileInstance](gg269270\(v=exchg.10\).md)  

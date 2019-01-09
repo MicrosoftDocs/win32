@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC.bkinfoDiffPrev property
+# JET_DBINFOMISC.bkinfoDiffPrev property
 
 Gets information about the last successful differential backup. Reset when [bkinfoFullPrev](hh577635\(v=exchg.10\).md) is set.
 
@@ -55,15 +55,15 @@ public JET_BKINFO bkinfoDiffPrev { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_BKINFO](hh577892\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_BKINFO](hh577892\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

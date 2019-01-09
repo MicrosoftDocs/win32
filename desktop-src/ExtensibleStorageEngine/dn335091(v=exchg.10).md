@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNID.ToString method
+# JET_ENUMCOLUMNID.ToString method
 
-Returns a [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET\_ENUMCOLUMNID](dn335139\(v=exchg.10\).md).
+Returns a [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET_ENUMCOLUMNID](dn335139\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,16 +51,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
-A [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET\_ENUMCOLUMNID](dn335139\(v=exchg.10\).md).  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+A [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET_ENUMCOLUMNID](dn335139\(v=exchg.10\).md).  
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

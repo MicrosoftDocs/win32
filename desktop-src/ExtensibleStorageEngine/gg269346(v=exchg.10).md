@@ -26,7 +26,7 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used to control other parameters.
 
-JET\_paramConfiguration  
+JET_paramConfiguration  
 129  
 This parameter exposes multiple sets of default values for the entire set of system parameters. When this parameter is set to a specific configuration, all system parameter values are reset to their default values for that configuration. If the configuration is set for a specific instance then global system parameters will not be reset to their default values.
 
@@ -226,91 +226,91 @@ Small Configuration also has several other effects on the database engine, inclu
 </table>
 
 
-JET\_paramEnableAdvanced  
+JET_paramEnableAdvanced  
 130  
-This parameter is used to control when the database engine accepts or rejects changes to a subset of the system parameters. This parameter is used in conjunction with JET\_paramConfiguration to prevent some system parameters from being set away from the selected configuration's defaults.
+This parameter is used to control when the database engine accepts or rejects changes to a subset of the system parameters. This parameter is used in conjunction with JET_paramConfiguration to prevent some system parameters from being set away from the selected configuration's defaults.
 
 The following system parameters will be protected from being set when this parameter is set to False:
 
-  - JET\_paramMaxSessionsfon
+  - JET_paramMaxSessionsfon
 
-  - JET\_paramMaxOpenTables
+  - JET_paramMaxOpenTables
 
-  - JET\_paramPreferredMaxOpenTables
+  - JET_paramPreferredMaxOpenTables
 
-  - JET\_paramMaxCursors
+  - JET_paramMaxCursors
 
-  - JET\_paramMaxVerPages
+  - JET_paramMaxVerPages
 
-  - JET\_paramMaxTemporaryTables
+  - JET_paramMaxTemporaryTables
 
-  - JET\_paramLogBuffers
+  - JET_paramLogBuffers
 
-  - JET\_paramWaitLogFlush
+  - JET_paramWaitLogFlush
 
-  - JET\_paramLogCheckpointPeriod
+  - JET_paramLogCheckpointPeriod
 
-  - JET\_paramLogWaitingUserMax
+  - JET_paramLogWaitingUserMax
 
-  - JET\_paramDbExtensionSize
+  - JET_paramDbExtensionSize
 
-  - JET\_paramPageTempDBMin
+  - JET_paramPageTempDBMin
 
-  - JET\_paramPageFragment
+  - JET_paramPageFragment
 
-  - JET\_paramBatchIOBufferMax
+  - JET_paramBatchIOBufferMax
 
-  - JET\_paramCacheSizeMax
+  - JET_paramCacheSizeMax
 
-  - JET\_paramLRUKCorrInterval
+  - JET_paramLRUKCorrInterval
 
-  - JET\_paramLRUKHistoryMax
+  - JET_paramLRUKHistoryMax
 
-  - JET\_paramLRUKPolicy
+  - JET_paramLRUKPolicy
 
-  - JET\_paramLRUKTimeout
+  - JET_paramLRUKTimeout
 
-  - JET\_paramLRUKTrxCorrInterval
+  - JET_paramLRUKTrxCorrInterval
 
-  - JET\_paramOutstandingIOMax
+  - JET_paramOutstandingIOMax
 
-  - JET\_paramStartFlushThreshold
+  - JET_paramStartFlushThreshold
 
-  - JET\_paramStopFlushThreshold
+  - JET_paramStopFlushThreshold
 
-  - JET\_paramCacheSize
+  - JET_paramCacheSize
 
-  - JET\_paramCacheSizeMin
+  - JET_paramCacheSizeMin
 
-  - JET\_paramPreferredVerPages
+  - JET_paramPreferredVerPages
 
-  - JET\_paramBackupChunkSize
+  - JET_paramBackupChunkSize
 
-  - JET\_paramBackupOutstandingReads
+  - JET_paramBackupOutstandingReads
 
-  - JET\_paramLogFileCreateAsynch
+  - JET_paramLogFileCreateAsynch
 
-  - JET\_paramRecordUpgradeDirtyLevel
+  - JET_paramRecordUpgradeDirtyLevel
 
-  - JET\_paramGlobalMinVerPages
+  - JET_paramGlobalMinVerPages
 
-  - JET\_paramPageHintCacheSize
+  - JET_paramPageHintCacheSize
 
-  - JET\_paramVersionStoreTaskQueueMax
+  - JET_paramVersionStoreTaskQueueMax
 
-  - JET\_paramDBAPageAvailMin
+  - JET_paramDBAPageAvailMin
 
-  - JET\_paramMaxRandomIOSize
+  - JET_paramMaxRandomIOSize
 
-  - JET\_paramCachedClosedTables
+  - JET_paramCachedClosedTables
 
-  - JET\_paramEnableFileCache
+  - JET_paramEnableFileCache
 
-  - JET\_paramEnableViewCache
+  - JET_paramEnableViewCache
 
-  - JET\_paramVerPageSize
+  - JET_paramVerPageSize
 
-  - JET\_paramCheckpointIOMax
+  - JET_paramCheckpointIOMax
 
 <table>
 <colgroup>

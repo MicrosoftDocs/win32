@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LGPOS.Equals method (JET\_LGPOS)
+# JET_LGPOS.Equals method (JET_LGPOS)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LGPOS](hh578063\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
 
-[JET\_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](hh566576\(v=exchg.10\).md)
 
 [Equals overload](hh565039\(v=exchg.10\).md)
 

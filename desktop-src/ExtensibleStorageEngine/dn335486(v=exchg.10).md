@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_sesparam enumeration
+# JET_sesparam enumeration
 
 ESENT session parameters.
 

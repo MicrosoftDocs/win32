@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # SystemParameters.LocaleNameMaxLength field
 
-The maximum length of a locale name (LOCALE\_NAME\_MAX\_LENGTH from winnt.h).
+The maximum length of a locale name (LOCALE_NAME_MAX_LENGTH from winnt.h).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

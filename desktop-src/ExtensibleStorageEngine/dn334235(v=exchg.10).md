@@ -56,13 +56,13 @@ public static DateTime ConvertDoubleToDateTime(
 #### Parameters
 
   - d  
-    Type: [System.Double](http://msdn2.microsoft.com/en-us/library/643eft0t)  
+    Type: [System.Double](https://msdn.microsoft.com/en-us/library/643eft0t)  
     
     The double value.
 
 #### Return value
 
-Type: [System.DateTime](http://msdn2.microsoft.com/en-us/library/03ybds8y)  
+Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)  
 A DateTime.  
 
 ## See also

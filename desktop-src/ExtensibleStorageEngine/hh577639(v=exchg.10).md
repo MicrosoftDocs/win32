@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# IJET\_LOGTIME.ToDateTime method
+# IJET_LOGTIME.ToDateTime method
 
-Generate a DateTime representation of this IJET\_LOGTIME.
+Generate a DateTime representation of this IJET_LOGTIME.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,16 +51,16 @@ Nullable<DateTime> ToDateTime()
 
 #### Return value
 
-Type: [System.Nullable](http://msdn2.microsoft.com/en-us/library/b3h38hb0)\<[DateTime](http://msdn2.microsoft.com/en-us/library/03ybds8y)\>  
-A DateTime representing the IJET\_LOGTIME. If the IJET\_LOGTIME is null then null is returned.  
+Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)\>  
+A DateTime representing the IJET_LOGTIME. If the IJET_LOGTIME is null then null is returned.  
 
 ## See also
 
 #### Reference
 
-[IJET\_LOGTIME interface](hh596687\(v=exchg.10\).md)
+[IJET_LOGTIME interface](hh596687\(v=exchg.10\).md)
 
-[IJET\_LOGTIME members](hh578100\(v=exchg.10\).md)
+[IJET_LOGTIME members](hh578100\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

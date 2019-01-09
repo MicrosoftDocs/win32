@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLECREATE Structure
+# JET_TABLECREATE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_TABLECREATE Structure
+## JET_TABLECREATE Structure
 
-The **JET\_TABLECREATE** structure contains the information that is necessary to create a table populated with columns and indexes in an ESE database. The **JET\_TABLECREATE** structure is used by [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)
+The **JET_TABLECREATE** structure contains the information that is necessary to create a table populated with columns and indexes in an ESE database. The **JET_TABLECREATE** structure is used by [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)
 
+```cpp
     typedef struct tagJET_TABLECREATE {
       unsigned long cbStruct;
       tchar* szTableName;
@@ -40,12 +41,13 @@ The **JET\_TABLECREATE** structure contains the information that is necessary to
       JET_TABLEID tableid;
       unsigned long cCreated;
     } JET_TABLECREATE;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of this structure in bytes (for future expansion). It must be set to sizeof( JET\_TABLECREATE ) in bytes.
+The size of this structure in bytes (for future expansion). It must be set to sizeof( JET_TABLECREATE ) in bytes.
 
 **szTableName**
 
@@ -53,7 +55,7 @@ The name of the table to create.
 
 The name must use meet the following conditions:
 
-  - Have a value less than JET\_cbNameMost, not including the terminating NULL.
+  - Have a value less than JET_cbNameMost, not including the terminating NULL.
 
 <!-- end list -->
 
@@ -81,19 +83,19 @@ The table density, in percentage points. The number must be either 0 or in the r
 
 **rgcolumncreate**
 
-An array of [JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md) structures, each of which corresponds to a column to be created in the new table.
+An array of [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md) structures, each of which corresponds to a column to be created in the new table.
 
 **cColumns**
 
-The number of [JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md) elements in **rgcolumncreate**.
+The number of [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md) elements in **rgcolumncreate**.
 
 **rgindexcreate**
 
-An array of [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structures, each of which corresponds to an index to be created in the new table.
+An array of [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structures, each of which corresponds to an index to be created in the new table.
 
 **cIndexes**
 
-The number of [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) elements in **rgindexcreate**.
+The number of [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) elements in **rgindexcreate**.
 
 **grbit**
 
@@ -129,7 +131,7 @@ A group of bits that contain the options for this call, which include zero or mo
 
 **tableid**
 
-An output field that holds the [JET\_TABLEID](gg269182\(v=exchg.10\).md) of the new table if the API call succeeds. If the API call fails, the value is undefined.
+An output field that holds the [JET_TABLEID](gg269182\(v=exchg.10\).md) of the new table if the API call succeeds. If the API call fails, the value is undefined.
 
 **cCreated**
 
@@ -167,13 +169,13 @@ The count of objects that are created is equal to the sum of columns, tables, an
 
 ### See Also
 
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET\_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)  
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
+[JET_CBTYP](gg294071\(v=exchg.10\).md)  
+[JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
 [JetCreateTable](gg269210\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)

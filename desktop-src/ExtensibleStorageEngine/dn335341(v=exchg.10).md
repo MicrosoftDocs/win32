@@ -60,14 +60,14 @@ public static void JetOSSnapshotPrepareInstance(
 #### Parameters
 
   - snapshot  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
     
     The snapshot identifier.
 
 <!-- end list -->
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to add to the snapshot.
 

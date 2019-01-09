@@ -41,7 +41,7 @@ JET_ERR JET_API JetStopServiceInstance2(
 
 *instance*
 
-The target instance. The **JET\_INSTANCE** data type is a handle to the instance of the database to use for a call to the JET API. This handle is obtained when you create an instance of the database by calling the [JetCreateInstance](gg269354\(v=exchg.10\).md), [JetCreateInstance2](gg269202\(v=exchg.10\).md), [JetInit](gg294068\(v=exchg.10\).md), or [JetInit2](gg294065\(v=exchg.10\).md) functions.
+The target instance. The **JET_INSTANCE** data type is a handle to the instance of the database to use for a call to the JET API. This handle is obtained when you create an instance of the database by calling the [JetCreateInstance](gg269354\(v=exchg.10\).md), [JetCreateInstance2](gg269202\(v=exchg.10\).md), [JetInit](gg294068\(v=exchg.10\).md), or [JetInit2](gg294065\(v=exchg.10\).md) functions.
 
 *grbit*
 
@@ -81,7 +81,7 @@ A group of bits that specifies one or more of the values listed and defined in t
 
 ### Return value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) data type with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -111,9 +111,9 @@ If this function succeeds, it prepares the database cache for an imminent suspen
 
 This function must be called twice. It is called after the application receives the suspension notice from the operating system, but before the application has been suspended. Then it is called again after the operating system resumes the application. For example:
 
-When called to Suspend: JET\_ERR JET\_API JetStopServiceInstance2( instance, JET\_bitStopServiceQuiesceCaches);
+When called to Suspend: JET_ERR JET_API JetStopServiceInstance2( instance, JET_bitStopServiceQuiesceCaches);
 
-When Resumed: JET\_ERR JET\_API JetStopServiceInstance2( instance, JET\_bitStopServiceQuiesceCaches|JET\_bitStopServiceResume );
+When Resumed: JET_ERR JET_API JetStopServiceInstance2( instance, JET_bitStopServiceQuiesceCaches|JET_bitStopServiceResume );
 
 #### Requirements
 
@@ -149,8 +149,8 @@ When Resumed: JET\_ERR JET\_API JetStopServiceInstance2( instance, JET\_bitStopS
 
 #### See also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetCloseDatabase](gg294123\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetDetachDatabase](gg269266\(v=exchg.10\).md)  

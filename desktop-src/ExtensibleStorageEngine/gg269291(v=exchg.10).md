@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetSystemParameter** function reads the numerous configuration settings of the database engine.
 
+```cpp
     JET_ERR JET_API JetGetSystemParameter(
       __in          JET_INSTANCE instance,
       __in          JET_SESID sesid,
@@ -39,6 +40,7 @@ The **JetGetSystemParameter** function reads the numerous configuration settings
       __out_opt     JET_PSTR szParam,
       __in          unsigned long cbMax
     );
+```
 
 ### Parameters
 
@@ -76,7 +78,7 @@ The maximum size in bytes of the string output buffer.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -165,7 +167,7 @@ On failure, the state of the output buffers will be undefined.
 
 #### Remarks
 
-There is an important problem in this API that is present in all releases. If a system parameter with a string value is requested and the output buffer is too small to receive the entire system parameter setting, JET\_wrnBufferTruncated will NOT be returned. JET\_errSuccess is returned instead. If the length of the returned string is equal to the size of the output buffer less the **NULL** terminator, the caller should react as if JET\_wrnBufferTruncated were returned. If a zero-sized string output buffer is specified, the caller should react as if JET\_errInvalidParameter were returned.
+There is an important problem in this API that is present in all releases. If a system parameter with a string value is requested and the output buffer is too small to receive the entire system parameter setting, JET_wrnBufferTruncated will NOT be returned. JET_errSuccess is returned instead. If the length of the returned string is equal to the size of the output buffer less the **NULL** terminator, the caller should react as if JET_wrnBufferTruncated were returned. If a zero-sized string output buffer is specified, the caller should react as if JET_errInvalidParameter were returned.
 
 #### Requirements
 
@@ -205,10 +207,10 @@ There is an important problem in this API that is present in all releases. If a 
 
 #### See Also
 
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)  

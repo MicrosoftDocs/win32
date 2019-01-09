@@ -60,14 +60,14 @@ public static void JetGetVersion(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - version  
-    Type: [System.UInt32](http://msdn2.microsoft.com/en-us/library/ctys3981)  
+    Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981)  
     
     Returns the version number of the database engine.
 

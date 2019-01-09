@@ -31,11 +31,13 @@ The **JetPrepareUpdate** function is the first operation in performing an update
 
 There are a few different options for inserting or replacing records and they are described in more detail below.
 
+```cpp
     JET_ERR JET_API JetPrepareUpdate(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          unsigned long prep
     );
+```
 
 ### Parameters
 
@@ -93,7 +95,7 @@ The options that can be used to prepare for an update, which include the followi
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -159,15 +161,15 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, the cursor is changed to the prepared state for the purpose of the desired update, or in the case of JET\_prepCancel, the cursor is reverted to the non-prepared state and any changes are discarded.
+On success, the cursor is changed to the prepared state for the purpose of the desired update, or in the case of JET_prepCancel, the cursor is reverted to the non-prepared state and any changes are discarded.
 
-On failure, the cursor state is left unchanged. If the failure was JET\_errRollbackError then the cursor state is changed to the non-prepared state but not all of the changes have been reverted.
+On failure, the cursor state is left unchanged. If the failure was JET_errRollbackError then the cursor state is changed to the non-prepared state but not all of the changes have been reverted.
 
 #### Remarks
 
-Inserting a copy of a record is an important optimization when records share data of type JET\_coltypLongText and/or JET\_coltypLongBinary. This data is stored off-record when large and it is possible for multiple records to share the same physical representation of the data. In this case, the data can be updated from either record, but doing so will cause the data to be burst such that each record has its own copy. It is not possible to change data in one record by a modification from another record. Also, it is not possible to block an update of one record by an update of another record. This is a central feature to ESE and is known as Record Level Locking.
+Inserting a copy of a record is an important optimization when records share data of type JET_coltypLongText and/or JET_coltypLongBinary. This data is stored off-record when large and it is possible for multiple records to share the same physical representation of the data. In this case, the data can be updated from either record, but doing so will cause the data to be burst such that each record has its own copy. It is not possible to change data in one record by a modification from another record. Also, it is not possible to block an update of one record by an update of another record. This is a central feature to ESE and is known as Record Level Locking.
 
-[JetUpdate](gg269288\(v=exchg.10\).md) operations which fail leave the cursor in the update prepared state. This is to permit correction to some errors, such as a wrong column value, without requiring the update state to be recreated. This means that in all cases where a cursor abandons an update, it must explicitly call **JetPrepareUpdate** with JET\_prepCancel.
+[JetUpdate](gg269288\(v=exchg.10\).md) operations which fail leave the cursor in the update prepared state. This is to permit correction to some errors, such as a wrong column value, without requiring the update state to be recreated. This means that in all cases where a cursor abandons an update, it must explicitly call **JetPrepareUpdate** with JET_prepCancel.
 
 #### Requirements
 
@@ -203,9 +205,9 @@ Inserting a copy of a record is an important optimization when records share dat
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
 [JetSetColumn](gg294137\(v=exchg.10\).md)  
 [JetUpdate](gg269288\(v=exchg.10\).md)

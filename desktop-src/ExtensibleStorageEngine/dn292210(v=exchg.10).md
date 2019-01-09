@@ -53,7 +53,7 @@ public static void JetInit(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to initialize. If an instance hasn't been allocated then a new one is created and the engine will operate in single-instance mode.
 

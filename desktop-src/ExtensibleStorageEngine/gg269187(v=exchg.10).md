@@ -26,169 +26,169 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine API has the following structures:
 
-  - [JET\_BKINFO](gg294120\(v=exchg.10\).md)
+  - [JET_BKINFO](gg294120\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_BKLOGTIME](gg269219\(v=exchg.10\).md)
+  - [JET_BKLOGTIME](gg269219\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_COLUMNBASE](gg269194\(v=exchg.10\).md)
+  - [JET_COLUMNBASE](gg269194\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md)
+  - [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)
+  - [JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_COLUMNLIST](gg269228\(v=exchg.10\).md)
+  - [JET_COLUMNLIST](gg269228\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)
+  - [JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_CONVERT](gg269220\(v=exchg.10\).md)
+  - [JET_CONVERT](gg269220\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)
+  - [JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_DBINFOUPGRADE](gg294114\(v=exchg.10\).md)
+  - [JET_DBINFOUPGRADE](gg294114\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_ENUMCOLUMN](gg294138\(v=exchg.10\).md)
+  - [JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)
+  - [JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)
+  - [JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)
+  - [JET_INDEXCREATE](gg269186\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_INDEXID](gg269327\(v=exchg.10\).md)
+  - [JET_INDEXID](gg269327\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_INDEXLIST](gg269185\(v=exchg.10\).md)
+  - [JET_INDEXLIST](gg269185\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_INDEXRANGE](gg269335\(v=exchg.10\).md)
+  - [JET_INDEXRANGE](gg269335\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_INSTANCE\_INFO](gg269331\(v=exchg.10\).md)
+  - [JET_INSTANCE_INFO](gg269331\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_LGPOS](gg294113\(v=exchg.10\).md)
+  - [JET_LGPOS](gg294113\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_LOGINFO](gg294063\(v=exchg.10\).md)
+  - [JET_LOGINFO](gg294063\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_LOGTIME](gg294089\(v=exchg.10\).md)
+  - [JET_LOGTIME](gg294089\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_OBJECTINFO](gg269353\(v=exchg.10\).md)
+  - [JET_OBJECTINFO](gg269353\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_OBJECTLIST](gg269348\(v=exchg.10\).md)
+  - [JET_OBJECTLIST](gg269348\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_OPENTEMPORARYTABLE](gg269206\(v=exchg.10\).md)
+  - [JET_OPENTEMPORARYTABLE](gg269206\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RECORDLIST](gg269287\(v=exchg.10\).md)
+  - [JET_RECORDLIST](gg269287\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RECPOS](gg269308\(v=exchg.10\).md)
+  - [JET_RECPOS](gg269308\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RECSIZE](gg294072\(v=exchg.10\).md)
+  - [JET_RECSIZE](gg294072\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RETINFO](gg294049\(v=exchg.10\).md)
+  - [JET_RETINFO](gg294049\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)
+  - [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RSTINFO](gg269216\(v=exchg.10\).md)
+  - [JET_RSTINFO](gg269216\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_RSTMAP](gg294077\(v=exchg.10\).md)
+  - [JET_RSTMAP](gg294077\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_SETCOLUMN](gg269233\(v=exchg.10\).md)
+  - [JET_SETCOLUMN](gg269233\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_SETINFO](gg294090\(v=exchg.10\).md)
+  - [JET_SETINFO](gg294090\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_SETSYSPARAM](gg269230\(v=exchg.10\).md)
+  - [JET_SETSYSPARAM](gg269230\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_SIGNATURE](gg269340\(v=exchg.10\).md)
+  - [JET_SIGNATURE](gg269340\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_SNPROG](gg269328\(v=exchg.10\).md)
+  - [JET_SNPROG](gg269328\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_TABLECREATE](gg294146\(v=exchg.10\).md)
+  - [JET_TABLECREATE](gg294146\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_TABLECREATE2](gg269203\(v=exchg.10\).md)
+  - [JET_TABLECREATE2](gg269203\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_THREADSTATS](gg269227\(v=exchg.10\).md)
+  - [JET_THREADSTATS](gg269227\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md)
+  - [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md)
+  - [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)
 
 <!-- end list -->
 
-  - [JET\_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)
+  - [JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)
 

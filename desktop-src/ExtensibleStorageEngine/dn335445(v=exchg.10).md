@@ -51,7 +51,7 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The structure as a string.  
 
 ## See also

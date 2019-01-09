@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO.bklogtimeMark property
+# JET_BKINFO.bklogtimeMark property
 
 Gets the time of the backup.
 
@@ -55,15 +55,15 @@ public JET_BKLOGTIME bklogtimeMark { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_BKLOGTIME](hh557662\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_BKLOGTIME](hh557662\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
-[JET\_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](hh557851\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

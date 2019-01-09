@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LOGTIME structure
+# JET_LOGTIME structure
 
 Describes a date/time.
 
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

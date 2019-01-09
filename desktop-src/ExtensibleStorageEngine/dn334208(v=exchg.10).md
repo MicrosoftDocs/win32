@@ -72,21 +72,21 @@ protected abstract void GetValueFromBytes(
 <!-- end list -->
 
   - startIndex  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The starting position within the bytes.
 
 <!-- end list -->
 
   - count  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The number of bytes to decode.
 
 <!-- end list -->
 
   - err  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The error returned from ESENT.
 

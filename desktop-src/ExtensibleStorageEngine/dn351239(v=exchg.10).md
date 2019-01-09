@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Table Implicit conversion (Table to JET\_TABLEID)
+# Table Implicit conversion (Table to JET_TABLEID)
 
-Implicit conversion operator from a Table to a JET\_TABLEID. This allows a Table to be used with APIs which expect a JET\_TABLEID.
+Implicit conversion operator from a Table to a JET_TABLEID. This allows a Table to be used with APIs which expect a JET_TABLEID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,8 +63,8 @@ public static implicit operator JET_TABLEID (
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
-The JET\_TABLEID of the table.  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+The JET_TABLEID of the table.  
 
 ## See also
 

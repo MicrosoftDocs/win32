@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNID constructor
+# JET_ENUMCOLUMNID constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_ENUMCOLUMNID()
 
 #### Reference
 
-[JET\_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

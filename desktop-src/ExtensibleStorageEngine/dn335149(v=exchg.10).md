@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNVALUE.pvData property
+# JET_ENUMCOLUMNVALUE.pvData property
 
 Gets the value that was enumerated for the column.
 
@@ -55,15 +55,15 @@ public IntPtr pvData { get; internal set; }
 
 #### Property value
 
-Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

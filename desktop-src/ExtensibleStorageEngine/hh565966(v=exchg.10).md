@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_PFNSTATUS delegate
+# JET_PFNSTATUS delegate
 
 Receives information about the progress of long-running operations, such as defragmentation, backup, or restore operations. During such operations, the database engine calls this callback function to give an update on the progress of the operation.
 
@@ -63,34 +63,34 @@ public delegate JET_err JET_PFNSTATUS(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session with which the long running operation was called.
 
 <!-- end list -->
 
   - snp  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SNP](hh577944\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SNP](hh577944\(v=exchg.10\).md)  
     
     The type of operation.
 
 <!-- end list -->
 
   - snt  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SNT](hh577987\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SNT](hh577987\(v=exchg.10\).md)  
     
     The status of the operation.
 
 <!-- end list -->
 
   - data  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
-    Optional data. May be a [JET\_SNPROG](dn351044\(v=exchg.10\).md).
+    Optional data. May be a [JET_SNPROG](dn351044\(v=exchg.10\).md).
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_err](hh564840\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
 
 ## See also
 

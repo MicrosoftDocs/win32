@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.EnableIndexChecking property
 
-Gets or sets a value indicating whether [JetAttachDatabase(JET\_SESID, String, AttachDatabaseGrbit)](dn292096\(v=exchg.10\).md) will check for indexes that were build using an older version of the NLS library in the operating system.
+Gets or sets a value indicating whether [JetAttachDatabase(JET_SESID, String, AttachDatabaseGrbit)](dn292096\(v=exchg.10\).md) will check for indexes that were build using an older version of the NLS library in the operating system.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ public bool EnableIndexChecking { get; set; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 ## See also
 

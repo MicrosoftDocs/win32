@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET\_RECSIZE.Equals method
+# JET_RECSIZE.Equals method
 
 Include protected members  
 Include inherited members  
@@ -34,7 +34,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh558506(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +51,9 @@ Top
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

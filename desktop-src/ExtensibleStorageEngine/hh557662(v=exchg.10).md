@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKLOGTIME structure
+# JET_BKLOGTIME structure
 
 Describes a date/time when a backup occured.
 
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_BKLOGTIME members](hh565503\(v=exchg.10\).md)
+[JET_BKLOGTIME members](hh565503\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

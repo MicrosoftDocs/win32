@@ -59,14 +59,14 @@ public DurableCommitCallback(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance with which to associate the callback.
 
 <!-- end list -->
 
   - wrappedCallback  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_PFNDURABLECOMMITCALLBACK](dn335363\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK](dn335363\(v=exchg.10\).md)  
     
     The managed code callback to call.
 

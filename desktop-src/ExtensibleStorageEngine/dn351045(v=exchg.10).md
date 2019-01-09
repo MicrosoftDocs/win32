@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTINFO.rgrstmap property
+# JET_RSTINFO.rgrstmap property
 
-Gets or sets the array of [JET\_RSTMAP](dn351048\(v=exchg.10\).md) structures.
+Gets or sets the array of [JET_RSTMAP](dn351048\(v=exchg.10\).md) structures.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
 
-[JET\_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

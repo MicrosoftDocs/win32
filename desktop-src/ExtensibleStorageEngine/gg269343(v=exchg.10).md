@@ -29,13 +29,15 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCreateTableColumnIndex Function
 
-The **JetCreateTableColumnIndex** function creates a table in an ESE database with an initial set of indexes and an initial set of columns from an array of [JET\_TABLECREATE](gg294146\(v=exchg.10\).md) structures. The name **JetCreateTableColumnIndex** comes from the order of creation of the objects. It first creates a table, columns, and then finally indexes.
+The **JetCreateTableColumnIndex** function creates a table in an ESE database with an initial set of indexes and an initial set of columns from an array of [JET_TABLECREATE](gg294146\(v=exchg.10\).md) structures. The name **JetCreateTableColumnIndex** comes from the order of creation of the objects. It first creates a table, columns, and then finally indexes.
 
+```cpp
     JET_ERR JET_API JetCreateTableColumnIndex(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
       __in_out      JET_TABLECREATE* ptablecreate
     );
+```
 
 ### Parameters
 
@@ -49,11 +51,11 @@ The database identifier to use for the API call.
 
 *ptablecreate*
 
-A pointer to a [JET\_TABLECREATE](gg294146\(v=exchg.10\).md) structure which defines the table to be created. See [JET\_TABLECREATE](gg294146\(v=exchg.10\).md) for more details.
+A pointer to a [JET_TABLECREATE](gg294146\(v=exchg.10\).md) structure which defines the table to be created. See [JET_TABLECREATE](gg294146\(v=exchg.10\).md) for more details.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -215,13 +217,13 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### Remarks
 
-Calling **JetCreateTableColumnIndex** is identical to calling [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md), with each field in the [JET\_TABLECREATE2](gg269203\(v=exchg.10\).md) structure containing the value of the corresponding field of [JET\_TABLECREATE](gg294146\(v=exchg.10\).md), with the following exceptions:
+Calling **JetCreateTableColumnIndex** is identical to calling [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md), with each field in the [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure containing the value of the corresponding field of [JET_TABLECREATE](gg294146\(v=exchg.10\).md), with the following exceptions:
 
-  - JET\_TABLECREATE2.cbStruct set to sizeof( JET\_TABLECREATE2)
+  - JET_TABLECREATE2.cbStruct set to sizeof( JET_TABLECREATE2)
 
-  - JET\_TABLECREATE2.szCallback set to NULL
+  - JET_TABLECREATE2.szCallback set to NULL
 
-  - JET\_TABLECREATE2.cbtyp set to 0
+  - JET_TABLECREATE2.cbtyp set to 0
 
 See [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md) for more details.
 
@@ -265,12 +267,12 @@ Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done usi
 
 #### See Also
 
-[JET\_DBID](gg269248\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JET\_TABLECREATE2](gg269203\(v=exchg.10\).md)  
+[JET_DBID](gg269248\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
+[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
 [JetAddColumn](gg294122\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)

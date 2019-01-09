@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetRetrieveKey method
 
-Retrieves the key for the index entry at the current position of a cursor. Also see [RetrieveKey(JET\_SESID, JET\_TABLEID, RetrieveKeyGrbit)](dn334085\(v=exchg.10\).md).
+Retrieves the key for the index entry at the current position of a cursor. Also see [RetrieveKey(JET_SESID, JET_TABLEID, RetrieveKeyGrbit)](dn334085\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -69,14 +69,14 @@ public static void JetRetrieveKey(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the key from.
 
@@ -90,14 +90,14 @@ public static void JetRetrieveKey(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The size of the buffer.
 
 <!-- end list -->
 
   - actualDataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the actual size of the data.
 

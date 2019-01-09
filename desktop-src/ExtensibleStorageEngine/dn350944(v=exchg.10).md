@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A class that encapsulates a [JET\_INSTANCE](hh564593\(v=exchg.10\).md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
+A class that encapsulates a [JET_INSTANCE](hh564593\(v=exchg.10\).md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
 
 The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 
@@ -62,13 +62,13 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/k25x6640">IsClosed</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/k25x6640">IsClosed</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/15b8sk08">IsInvalid</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/s07831kw">SafeHandleZeroOrMinusOneIsInvalid</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/15b8sk08">IsInvalid</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/s07831kw">SafeHandleZeroOrMinusOneIsInvalid</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
@@ -104,53 +104,53 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/k296d386">Close</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/k296d386">Close</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/a1cssf5t">DangerousAddRef</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/a1cssf5t">DangerousAddRef</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/277heftx">DangerousGetHandle</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/277heftx">DangerousGetHandle</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/k2ba91w2">DangerousRelease</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/k2ba91w2">DangerousRelease</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/4h5yzadk">Dispose()</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/4h5yzadk">Dispose()</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/ms146715">Dispose(Boolean)</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms146715">Dispose(Boolean)</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/f967bh71">Finalize</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/f967bh71">Finalize</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -169,23 +169,23 @@ Top
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn350956(v=exchg.10).md">ReleaseHandle</a></td>
-<td>Release the handle for this instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/22ywedf6">SafeHandle.ReleaseHandle()</a>.)</td>
+<td>Release the handle for this instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/22ywedf6">SafeHandle.ReleaseHandle()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/9s47xzk4">SetHandle</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/9s47xzk4">SetHandle</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/18fth6d8">SetHandleAsInvalid</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/18fth6d8">SetHandleAsInvalid</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -195,7 +195,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350960(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn350923(v=exchg.10).md">Instance</a>. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2">Object.ToString()</a>.)</td>
+<td>Returns a <a href="https://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn350923(v=exchg.10).md">Instance</a>. (Overrides <a href="https://msdn.microsoft.com/en-us/library/7bxwbwt2">Object.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -238,8 +238,8 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.protfield(exchg.10).gif" title="Protected field" alt="Protected field" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/exzskf0s">handle</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/exzskf0s">handle</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
 </tr>
 </tbody>
 </table>

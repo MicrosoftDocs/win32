@@ -46,7 +46,7 @@ public void Dispose()
 
 #### Implements
 
-[IDisposable.Dispose()](http://msdn2.microsoft.com/en-us/library/es4s3w1d)  
+[IDisposable.Dispose()](https://msdn.microsoft.com/en-us/library/es4s3w1d)  
 
 ## See also
 

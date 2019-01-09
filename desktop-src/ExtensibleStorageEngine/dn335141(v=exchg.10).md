@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNID.columnid property
+# JET_ENUMCOLUMNID.columnid property
 
 Gets or sets the columnid ID to enumerate.
 
@@ -57,19 +57,19 @@ public JET_COLUMNID columnid { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## Remarks
 
-If the column ID is 0 (zero) then the enumeration of this column is skipped and a corresponding slot in the output array of JET\_ENUMCOLUMN structures will be generated with a column state of JET\_wrnColumnSkipped.
+If the column ID is 0 (zero) then the enumeration of this column is skipped and a corresponding slot in the output array of JET_ENUMCOLUMN structures will be generated with a column state of JET_wrnColumnSkipped.
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

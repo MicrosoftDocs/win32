@@ -33,12 +33,14 @@ The **JetCreateIndex3** function creates indexes over data in an ESE database, w
 
 **Windows 7:  JetCreateIndex3** is introduced in the Windows 7 operating system.
 
+```cpp
     JET_ERR JET_API JetCreateIndex3(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          JET_INDEXCREATE2* pindexcreate,
       __in          unsigned long cIndexCreate
     );
+```
 
 ### Parameters
 
@@ -52,7 +54,7 @@ The table on which the index will be created.
 
 *pindexcreate*
 
-An array of [JET\_INDEXCREATE2](gg294082\(v=exchg.10\).md) structures, each of which defines an index to be created.
+An array of [JET_INDEXCREATE2](gg294082\(v=exchg.10\).md) structures, each of which defines an index to be created.
 
 *cIndexCreate*
 
@@ -60,7 +62,7 @@ The number of elements in the *pindexcreate* array.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) data type with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -184,9 +186,9 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) data type with o
 
 #### Remarks
 
-The return value is JET\_errSuccess on successful completion of all indexes specified.
+The return value is JET_errSuccess on successful completion of all indexes specified.
 
-**JetCreateIndex3** iterates through the indexes given in **pindexcreate**, and will sometimes abort on the first failure. Any indexes after the first index with an error may not have been attempted, even though the **err** member of the [JET\_INDEXCREATE2](gg294082\(v=exchg.10\).md) structure contains JET\_errSuccess.
+**JetCreateIndex3** iterates through the indexes given in **pindexcreate**, and will sometimes abort on the first failure. Any indexes after the first index with an error may not have been attempted, even though the **err** member of the [JET_INDEXCREATE2](gg294082\(v=exchg.10\).md) structure contains JET_errSuccess.
 
 #### Requirements
 
@@ -226,14 +228,14 @@ The return value is JET\_errSuccess on successful completion of all indexes spec
 
 #### See Also
 
-[JET\_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_INDEXCREATE2](gg294082\(v=exchg.10\).md)  
+[JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_INDEXCREATE2](gg294082\(v=exchg.10\).md)  
 [JetCreateIndex](gg294099\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)  
-[JET\_SPACEHINTS](gg269205\(v=exchg.10\).md)
+[JET_SPACEHINTS](gg269205\(v=exchg.10\).md)
 

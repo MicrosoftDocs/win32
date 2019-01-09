@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLEID.Nil property
+# JET_TABLEID.Nil property
 
-Gets a null JET\_TABLEID.
+Gets a null JET_TABLEID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -52,15 +52,15 @@ public static JET_TABLEID Nil { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
 
-[JET\_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](hh596310\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

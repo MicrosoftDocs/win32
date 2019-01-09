@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC.Equals method (JET\_DBINFOMISC)
+# JET_DBINFOMISC.Equals method (JET_DBINFOMISC)
 
 Indicates whether the current object is equal to another object of the same type.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBINFOMISC](hh538867\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBINFOMISC](hh538867\(v=exchg.10\).md)  
     
     An object to compare with this object.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the current object is equal to the other parameter; otherwise, false.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Equals overload](hh577631\(v=exchg.10\).md)
 

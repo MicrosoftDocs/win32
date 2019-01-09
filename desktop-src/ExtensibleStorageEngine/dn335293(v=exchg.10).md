@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OPENTEMPORARYTABLE.tableid property
+# JET_OPENTEMPORARYTABLE.tableid property
 
 Gets the table handle for the temporary table created as a result of a successful call to JetOpenTemporaryTable.
 
@@ -55,15 +55,15 @@ public JET_TABLEID tableid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
 
-[JET\_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

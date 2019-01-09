@@ -30,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 # InitGrbit enumeration
 
-Options for [JetInit2(JET\_INSTANCE, InitGrbit)](dn292214\(v=exchg.10\).md).
+Options for [JetInit2(JET_INSTANCE, InitGrbit)](dn292214\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

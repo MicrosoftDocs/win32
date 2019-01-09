@@ -32,7 +32,7 @@ System parameters that have been added to the Vista version of ESENT.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   Microsoft.Isam.Esent.Interop.Vista.VistaParam  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  

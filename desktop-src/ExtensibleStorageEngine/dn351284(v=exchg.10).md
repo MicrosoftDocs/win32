@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Server2003Grbits.ForwardOnly field
 
-This option requests that the temporary table only be created if the temporary table manager can use the implementation optimized for intermediate query results. If any characteristic of the temporary table would prevent the use of this optimization then the operation will fail with JET\_errCannotMaterializeForwardOnlySort. A side effect of this option is to allow the temporary table to contain records with duplicate index keys. See [Unique](hh558517\(v=exchg.10\).md) for more information.
+This option requests that the temporary table only be created if the temporary table manager can use the implementation optimized for intermediate query results. If any characteristic of the temporary table would prevent the use of this optimization then the operation will fail with JET_errCannotMaterializeForwardOnlySort. A side effect of this option is to allow the temporary table to contain records with duplicate index keys. See [Unique](hh558517\(v=exchg.10\).md) for more information.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

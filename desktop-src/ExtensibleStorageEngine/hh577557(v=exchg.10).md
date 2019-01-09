@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKLOGTIME.ToString method
+# JET_BKLOGTIME.ToString method
 
 Generate a string representation of the structure.
 
@@ -51,16 +51,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The structure as a string.  
 
 ## See also
 
 #### Reference
 
-[JET\_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
+[JET_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
 
-[JET\_BKLOGTIME members](hh565503\(v=exchg.10\).md)
+[JET_BKLOGTIME members](hh565503\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMN.rgEnumColumnValue property
+# JET_ENUMCOLUMN.rgEnumColumnValue property
 
 Gets the enumerated column values for the column. This member is only used if [err](dn335086\(v=exchg.10\).md) is not [ColumnSingleValue](hh557250\(v=exchg.10\).md).
 
@@ -61,9 +61,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
+[JET_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
+[JET_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

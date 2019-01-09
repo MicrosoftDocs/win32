@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Windows8Api.JetCreateTableColumnIndex4 method
 
-Creates a table, adds columns, and indices on that table. [JetCreateTableColumnIndex3(JET\_SESID, JET\_DBID, JET\_TABLECREATE)](dn292129\(v=exchg.10\).md)
+Creates a table, adds columns, and indices on that table. [JetCreateTableColumnIndex3(JET_SESID, JET_DBID, JET_TABLECREATE)](dn292129\(v=exchg.10\).md)
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,21 +60,21 @@ public static void JetCreateTableColumnIndex4(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to which to add the new table.
 
 <!-- end list -->
 
   - tablecreate  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLECREATE](dn351072\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](dn351072\(v=exchg.10\).md)  
     
     Object describing the table to create.
 

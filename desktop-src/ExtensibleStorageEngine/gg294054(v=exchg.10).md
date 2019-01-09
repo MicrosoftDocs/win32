@@ -17,7 +17,6 @@ api_type:
 api_location: 
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-
 ---
 
 # JetEndSession Function
@@ -29,10 +28,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetEndSession** function ends the session, and cleans up and deallocates any resources associated with the specified session.
 
+```cpp
     JET_ERR JET_API JetEndSession(
       __in          JET_SESID sesid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -42,11 +43,11 @@ The session to end. Associated resources are released when the session ends.
 
 *grbit*
 
-Reserved. This parameter can contain the JET\_bitForceSessionClosed flag, but this flag is reserved and setting it has no effect.
+Reserved. This parameter can contain the JET_bitForceSessionClosed flag, but this flag is reserved and setting it has no effect.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -151,8 +152,8 @@ This API will rollback any open transactions (not committed to level 0). Also al
 
 #### See Also
 
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetBeginSession](gg294131\(v=exchg.10\).md)  
 [JetRollback](gg269273\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)  

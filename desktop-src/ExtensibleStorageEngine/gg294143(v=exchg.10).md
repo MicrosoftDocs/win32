@@ -31,6 +31,7 @@ The **JetPrereadKeys** function reads key values to improve the performance of v
 
 **Windows 7:  PrereadKeys** function is introduced in Windows 7.
 
+```cpp
     JET_ERR JET_API JetPrereadKeys(
       __in JET_SESID sesid,
       __in JET_TABLEID tableid,
@@ -40,6 +41,7 @@ The **JetPrereadKeys** function reads key values to improve the performance of v
       __out_opt long * pckeysPreread,
       __in JET_GRBIT grbit
      );
+```
 
 ### Parameters
 
@@ -69,11 +71,11 @@ Returns the number of keys that prereads were actually issued for. This paramete
 
 *grbit*
 
-This must be either JET\_bitPrereadForward or JET\_bitPrereadBackward. If grbit is JET\_bitPrereadForward, the keys must be sorted in ascending order. If grbit is JET\_bitPrereadBackward, the keys must be sorted in descending order.
+This must be either JET_bitPrereadForward or JET_bitPrereadBackward. If grbit is JET_bitPrereadForward, the keys must be sorted in ascending order. If grbit is JET_bitPrereadBackward, the keys must be sorted in descending order.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 Various I/O errors can be returned along with these API usage errors:
 

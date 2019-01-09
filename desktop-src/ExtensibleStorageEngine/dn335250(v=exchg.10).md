@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTMAP constructor
+# JET_RSTMAP constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_RSTMAP()
 
 #### Reference
 
-[JET\_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
 
-[JET\_RSTMAP members](dn335249\(v=exchg.10\).md)
+[JET_RSTMAP members](dn335249\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

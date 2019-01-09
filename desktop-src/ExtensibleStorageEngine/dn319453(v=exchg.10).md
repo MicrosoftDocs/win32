@@ -28,43 +28,43 @@ The [EsentInvalidColumnException](dn319487\(v=exchg.10\).md) type exposes the fo
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/2wyfbc48">Data</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/2wyfbc48">Data</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/71tawy4s">HelpLink</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/71tawy4s">HelpLink</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Protected property" alt="Protected property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/sh5cw61c">HResult</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/sh5cw61c">HResult</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/902sca80">InnerException</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/902sca80">InnerException</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn319488(v=exchg.10).md">Message</a></td>
-<td>Gets a text message describing the exception. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/9btwf6wk">Exception.Message</a>.)</td>
+<td>Gets a text message describing the exception. (Overrides <a href="https://msdn.microsoft.com/en-us/library/9btwf6wk">Exception.Message</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/85weac5w">Source</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/85weac5w">Source</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dxzhy005">StackTrace</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dxzhy005">StackTrace</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/2wchw354">TargetSite</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/2wchw354">TargetSite</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
 </tr>
 </tbody>
 </table>

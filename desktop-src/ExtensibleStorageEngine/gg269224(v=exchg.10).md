@@ -31,10 +31,12 @@ The **JetOSSnapshotPrepare** function begins the preparations for a snapshot ses
 
 **Windows XP:**  **JetOSSnapshotPrepare** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetOSSnapshotPrepare(
       __out         JET_OSSNAPID* psnapId,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -85,7 +87,7 @@ The options for this call. This parameter can have a combination of the followin
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -123,7 +125,7 @@ The running instances of the engine will now be considered part of the snapshot 
 
 The normal API sequence call is: **JetOSSnapshotPrepare**, optionally followed by one or more calls to [JetOSSnapshotPrepareInstance](gg294064\(v=exchg.10\).md), then followed by [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md). Once the freeze is started, it can be terminated using [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md). At any time after the prepare, the snapshot session can be abruptly terminated with [JetOSSnapshotAbort](gg269265\(v=exchg.10\).md).
 
-If JET\_bitContinueAfterThaw is specified after [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md), the snapshot session will remain (although the I/O will resume). This will enable a verification of the snapshot, and if needed, will enable log truncation using [JetOSSnapshotTruncateLog](gg269231\(v=exchg.10\).md) and will require a call to [JetOSSnapshotEnd](gg294136\(v=exchg.10\).md).
+If JET_bitContinueAfterThaw is specified after [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md), the snapshot session will remain (although the I/O will resume). This will enable a verification of the snapshot, and if needed, will enable log truncation using [JetOSSnapshotTruncateLog](gg269231\(v=exchg.10\).md) and will require a call to [JetOSSnapshotEnd](gg294136\(v=exchg.10\).md).
 
 If this function fails, no change in the engine state occurs.
 
@@ -165,8 +167,8 @@ Event log entries will be generated for the different steps of the snapshot.
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_OSSNAPID](gg269325\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_OSSNAPID](gg269325\(v=exchg.10\).md)  
 [JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
 [JetOSSnapshotEnd](gg294136\(v=exchg.10\).md)  
 [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  

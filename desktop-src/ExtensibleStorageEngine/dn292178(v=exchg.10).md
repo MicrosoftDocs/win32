@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetObjectInfo method (JET\_SESID, JET\_DBID, JET\_objtyp, String, JET\_OBJECTINFO)
+# Api.JetGetObjectInfo method (JET_SESID, JET_DBID, JET_objtyp, String, JET_OBJECTINFO)
 
 Retrieves information about database objects.
 
@@ -62,35 +62,35 @@ public static void JetGetObjectInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to use.
 
 <!-- end list -->
 
   - objtyp  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_objtyp](hh565069\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_objtyp](hh565069\(v=exchg.10\).md)  
     
     The type of the object.
 
 <!-- end list -->
 
   - objectName  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The object name about which to retrieve information.
 
 <!-- end list -->
 
   - objectinfo  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OBJECTINFO](dn335219\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OBJECTINFO](dn335219\(v=exchg.10\).md)  
     
     Filled in with information about the objects in the database.
 

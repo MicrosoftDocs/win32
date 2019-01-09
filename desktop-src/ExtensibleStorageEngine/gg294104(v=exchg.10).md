@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNID
+# JET_COLUMNID
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_COLUMNID
+## JET_COLUMNID
 
-The **JET\_COLUMNID** data type identifies a column within a table.
+The **JET_COLUMNID** data type identifies a column within a table.
 
+```cpp
     typedef unsigned long JET_COLUMNID;
+```
 
 ### Data Types
 
-JET\_COLUMNID
+JET_COLUMNID
 
 Identifies a column within a table.
 

@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetComputeStats** function walks each index of a table to exactly compute the number of entries in an index, and the number of distinct keys in an index. This information, together with the number of database pages allocated for an index and the current time of the computation is stored in index metadata in the database. This data can be subsequently retrieved with information operations.
 
+```cpp
     JET_ERR JET_API JetComputeStats(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid
     );
+```
 
 ### Parameters
 
@@ -46,7 +48,7 @@ The cursor that will be used for this call. Describes the table to compute stati
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -108,7 +110,7 @@ This operation can be resource consuming since each index in a table must be wal
 
 The data computed by this operation begins to become out of date and the table is subsequently updated.
 
-Updates to the database made by **JetComputeStats** are made in a lazy fashion. This means that no log flush will be accompanied by this operation and a system crash subsequent to a return of JET\_errSuccess by **JetComputeStats** can still cause these updates to be lost.
+Updates to the database made by **JetComputeStats** are made in a lazy fashion. This means that no log flush will be accompanied by this operation and a system crash subsequent to a return of JET_errSuccess by **JetComputeStats** can still cause these updates to be lost.
 
 #### Requirements
 
@@ -144,9 +146,9 @@ Updates to the database made by **JetComputeStats** are made in a lazy fashion. 
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetGetRecordPosition](gg269316\(v=exchg.10\).md)  
 [JetGetTableInfo](gg269177\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  

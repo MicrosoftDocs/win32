@@ -27,14 +27,16 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetRetrieveColumns Function
 
-The **JetRetrieveColumns** function retrieves multiple column values from the current record in a single operation. An array of [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures is used to describe the set of column values to be retrieved, and to describe output buffers for each column value to be retrieved.
+The **JetRetrieveColumns** function retrieves multiple column values from the current record in a single operation. An array of [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures is used to describe the set of column values to be retrieved, and to describe output buffers for each column value to be retrieved.
 
+```cpp
     JET_ERR JET_API JetRetrieveColumns(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in_out_opt  JET_RETRIEVECOLUMN* pretrievecolumn,
       __in          unsigned long cretrievecolumn
     );
+```
 
 ### Parameters
 
@@ -48,15 +50,15 @@ The cursor to use for this call.
 
 *pretrievecolumn*
 
-A pointer to an array of one or more [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures. Each structure includes descriptions of which column value to retrieve and where to store returned data.
+A pointer to an array of one or more [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures. Each structure includes descriptions of which column value to retrieve and where to store returned data.
 
 *cretrievecolumn*
 
-The number of [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures in the array given by *pretrievecolumn*.
+The number of [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures in the array given by *pretrievecolumn*.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -140,15 +142,15 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, columns data and column size are returned in provided buffers described in array of [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures. If an *itagSequence* was set to 0 (zero) to indicate that the number of instances of a multi-valued field was desired instead of column data, then the number of instances of a multi-valued column is returned in the *itagSequence* field itself. Each [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structure has an error field that contains warnings for the column retrieved. If the column was **NULL** valued, then the error code will be set to JET\_wrnColumnNull.
+On success, columns data and column size are returned in provided buffers described in array of [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structures. If an *itagSequence* was set to 0 (zero) to indicate that the number of instances of a multi-valued field was desired instead of column data, then the number of instances of a multi-valued column is returned in the *itagSequence* field itself. Each [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structure has an error field that contains warnings for the column retrieved. If the column was **NULL** valued, then the error code will be set to JET_wrnColumnNull.
 
 On failure, the cursor location is left unchanged and no data is copied into the provided buffer.
 
 #### Remarks
 
-**JetRetrieveColumns** supports one feature that [JetRetrieveColumn](gg269198\(v=exchg.10\).md) does not. This is the ability to retrieve the number of instances of a multi-valued column. The purpose of this feature is to allow an application to retrieve all values of a column. This can be done by first determining the number of values that a column has. Next, their lengths can be determined by calling **JetRetrieveColumns** again with one [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structure allocated for each value to determine the length of column data. This can be done by passing **NULL***pvData* pointers with *cbMax* of 0 (zero) and retrieving the column length in *cbActual*. The third and last call can be made with allocated memory for the column value data.
+**JetRetrieveColumns** supports one feature that [JetRetrieveColumn](gg269198\(v=exchg.10\).md) does not. This is the ability to retrieve the number of instances of a multi-valued column. The purpose of this feature is to allow an application to retrieve all values of a column. This can be done by first determining the number of values that a column has. Next, their lengths can be determined by calling **JetRetrieveColumns** again with one [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md) structure allocated for each value to determine the length of column data. This can be done by passing **NULL***pvData* pointers with *cbMax* of 0 (zero) and retrieving the column length in *cbActual*. The third and last call can be made with allocated memory for the column value data.
 
-If any column retrieved is truncated due to an insufficient length buffer, then the API will return JET\_wrnBufferTruncated. However, other errors, JET\_wrnColumnNull are returned only in the error field in [JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md). The reason for this is that applications often want to ensure that all data has been retrieved and returning this error from **JetRetrieveColumns** facilitates this understanding.
+If any column retrieved is truncated due to an insufficient length buffer, then the API will return JET_wrnBufferTruncated. However, other errors, JET_wrnColumnNull are returned only in the error field in [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md). The reason for this is that applications often want to ensure that all data has been retrieved and returning this error from **JetRetrieveColumns** facilitates this understanding.
 
 #### Requirements
 
@@ -184,10 +186,10 @@ If any column retrieved is truncated due to an insufficient length buffer, then 
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
 [JetEnumerateColumns](gg269321\(v=exchg.10\).md)  
 [JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
 [JetSetColumns](gg294050\(v=exchg.10\).md)

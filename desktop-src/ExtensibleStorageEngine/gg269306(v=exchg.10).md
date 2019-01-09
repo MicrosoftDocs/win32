@@ -33,12 +33,14 @@ The **JetRestoreInstance** function restores and recovers a streaming backup of 
 
 **Windows XP:**  **JetRestoreInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetRestoreInstance(
       __in          JET_INSTANCE instance,
       __in          JET_PCSTR sz,
       __in_opt      JET_PCSTR szDest,
       __in          JET_PFNSTATUS pfn
     );
+```
 
 ### Parameters
 
@@ -46,7 +48,7 @@ The **JetRestoreInstance** function restores and recovers a streaming backup of 
 
 Specifies the instance to use for this call.
 
-For Windows XP and later releases, the use of this parameter depends on the operating mode of the engine. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported then this parameter may either be NULL or it may be set to a valid output buffer containing NULL or JET\_instanceNil that will return the global instance handle created as a side effect of the initialization. This instance handle can then be passed to any other API that takes an instance. If the engine is operating in multi-instance mode then this parameter must be set to a valid input buffer that contains the instance handle returned by [JetCreateInstance](gg269354\(v=exchg.10\).md) that is being initialized.
+For Windows XP and later releases, the use of this parameter depends on the operating mode of the engine. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported then this parameter may either be NULL or it may be set to a valid output buffer containing NULL or JET_instanceNil that will return the global instance handle created as a side effect of the initialization. This instance handle can then be passed to any other API that takes an instance. If the engine is operating in multi-instance mode then this parameter must be set to a valid input buffer that contains the instance handle returned by [JetCreateInstance](gg269354\(v=exchg.10\).md) that is being initialized.
 
 *sz*
 
@@ -62,7 +64,7 @@ The optional pointer to the function which will be called as notification inform
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -118,7 +120,7 @@ The recovery process will reconstruct the databases attached to the instance dur
 
 **JetRestoreInstance** must be called on an instance which was already created using [JetCreateInstance](gg269354\(v=exchg.10\).md).
 
-Because during recovery a significant number of database pages and transaction logs will be used, there is an entire series of error which might be returned by these functions. Such errors can be from temporary resource allocation failures like Jet\_errOutOfMemory to errors representing physical corruptions like JET\_errReadVerifyFailure, JET\_errLogFileCorrupt or JET\_errBadPageLink. These errors are almost always caused by hardware problems and thus cannot be avoided. File mismanagement will manifest itself most often as JET\_errMissingLogFile or JET\_errAttachedDatabaseMismatch or JET\_errDatabaseSharingViolation or JET\_errInvalidLogSequence. These errors are preventable by the application. The application must be careful to protect the repository of these files from manipulation by outside forces such as the user or other applications. If the application desires to destroy an instance entirely then all the files associated with the instance must be deleted. These include the checkpoint file, the transaction log files, and any database files attached to the instance.
+Because during recovery a significant number of database pages and transaction logs will be used, there is an entire series of error which might be returned by these functions. Such errors can be from temporary resource allocation failures like Jet_errOutOfMemory to errors representing physical corruptions like JET_errReadVerifyFailure, JET_errLogFileCorrupt or JET_errBadPageLink. These errors are almost always caused by hardware problems and thus cannot be avoided. File mismanagement will manifest itself most often as JET_errMissingLogFile or JET_errAttachedDatabaseMismatch or JET_errDatabaseSharingViolation or JET_errInvalidLogSequence. These errors are preventable by the application. The application must be careful to protect the repository of these files from manipulation by outside forces such as the user or other applications. If the application desires to destroy an instance entirely then all the files associated with the instance must be deleted. These include the checkpoint file, the transaction log files, and any database files attached to the instance.
 
 The different steps of the recovery will have Event Log entries generated including the transaction log replay progress and the final result of the restore.
 
@@ -160,9 +162,9 @@ The different steps of the recovery will have Event Log entries generated includ
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetBackup](gg294058\(v=exchg.10\).md)  
 [JetBackupInstance](gg269318\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  

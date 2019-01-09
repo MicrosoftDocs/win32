@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetTableIndexInfo method (JET\_SESID, JET\_TABLEID, String, JET\_INDEXLIST)
+# Api.JetGetTableIndexInfo method (JET_SESID, JET_TABLEID, String, JET_INDEXLIST)
 
 **NOTE: This API is now obsolete.**
 
@@ -63,28 +63,28 @@ public static void JetGetTableIndexInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to retrieve index information about.
 
 <!-- end list -->
 
   - indexname  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     This parameter is ignored.
 
 <!-- end list -->
 
   - indexlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INDEXLIST](dn335123\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXLIST](dn335123\(v=exchg.10\).md)  
     
     Filled in with information about indexes on the table.
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETCOLUMN.ibData property
+# JET_SETCOLUMN.ibData property
 
 Gets or sets the offset of the data to set.
 
@@ -57,15 +57,15 @@ public int ibData { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
-[JET\_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

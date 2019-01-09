@@ -53,7 +53,7 @@ public override Object ValueAsObject { get; }
 
 #### Property value
 
-Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
 
 ## See also
 

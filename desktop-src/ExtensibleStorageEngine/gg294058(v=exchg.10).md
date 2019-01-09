@@ -31,11 +31,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetBackup** function creates a backup of the database while the database is online. This function is primarily for backwards compatibility with Windows 2000 and earlier database engines, where only one instance of a database is allowed. In this case, the active instance is the instance that is backed up.
 
+```cpp
     JET_ERR JET_API JetBackup(
       __in          JET_PCSTR szBackupPath,
       __in          JET_GRBIT grbit,
       __in          JET_PFNSTATUS pfnStatus
     );
+```
 
 ### Parameters
 
@@ -73,11 +75,11 @@ A group of bits specifying zero or more of the following options.
 
 *pfnStatus*
 
-Pointer to the [JET\_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function, which provides notification information about the progress of the backup operation.
+Pointer to the [JET_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function, which provides notification information about the progress of the backup operation.
 
 ### Return Value
 
-The function returns one of the [JET\_ERR](gg294092\(v=exchg.10\).md) error codes. The following are the most commonly returned. (For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).)
+The function returns one of the [JET_ERR](gg294092\(v=exchg.10\).md) error codes. The following are the most commonly returned. (For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).)
 
 <table>
 <colgroup>
@@ -179,7 +181,7 @@ The different steps of the backup will have Event Log entries generated, includi
 
 Incremental backups are possible only after a full backup was taken. Also, incremental backups are possible only if circular logging is turned off. It is recommended that the backup directory should not contain any files other than the one used in the backup or added by a previous successful backup.
 
-The backup directory should exist unless the parameter *JET\_paramCreatePathIfNotExist* is set for the instance. For information, see [System Parameters](gg294139\(v=exchg.10\).md).
+The backup directory should exist unless the parameter *JET_paramCreatePathIfNotExist* is set for the instance. For information, see [System Parameters](gg294139\(v=exchg.10\).md).
 
 The backup will do a checksum verification on all the used database pages and starting with Windows Server 2003, on the log files as well. This gives an opportunity to estimate the health of the database, even for pages which are not read during normal operations. If any such corruption is encountered, the backup will fail.
 
@@ -226,10 +228,10 @@ It is strongly recommended that the backup not be used for any purpose other tha
 #### See Also
 
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET\_PFNSTATUS](gg269326\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
 [JetRestore](gg294093\(v=exchg.10\).md)  
 [JetRestore2](gg269313\(v=exchg.10\).md)  
 [JetRestoreInstance](gg269306\(v=exchg.10\).md)  

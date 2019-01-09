@@ -26,37 +26,37 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine has the following data types:
 
-  - [JET\_API\_PTR](gg269209\(v=exchg.10\).md)
+  - [JET_API_PTR](gg269209\(v=exchg.10\).md)
 
-  - [JET\_COLUMNID](gg294104\(v=exchg.10\).md)
+  - [JET_COLUMNID](gg294104\(v=exchg.10\).md)
 
-  - [JET\_DATESERIAL](gg269338\(v=exchg.10\).md)
+  - [JET_DATESERIAL](gg269338\(v=exchg.10\).md)
 
-  - [JET\_DBID](gg269248\(v=exchg.10\).md)
+  - [JET_DBID](gg269248\(v=exchg.10\).md)
 
-  - [JET\_ERR](gg294092\(v=exchg.10\).md)
+  - [JET_ERR](gg294092\(v=exchg.10\).md)
 
-  - [JET\_GRBIT](gg294066\(v=exchg.10\).md)
+  - [JET_GRBIT](gg294066\(v=exchg.10\).md)
 
-  - [JET\_HANDLE](gg269217\(v=exchg.10\).md)
+  - [JET_HANDLE](gg269217\(v=exchg.10\).md)
 
-  - [JET\_INSTANCE](gg294048\(v=exchg.10\).md)
+  - [JET_INSTANCE](gg294048\(v=exchg.10\).md)
 
-  - [JET\_LS](gg269336\(v=exchg.10\).md)
+  - [JET_LS](gg269336\(v=exchg.10\).md)
 
-  - [JET\_OSSNAPID](gg269325\(v=exchg.10\).md)
+  - [JET_OSSNAPID](gg269325\(v=exchg.10\).md)
 
-  - [JET\_PCSTR](gg269254\(v=exchg.10\).md)
+  - [JET_PCSTR](gg269254\(v=exchg.10\).md)
 
-  - [JET\_PCWSTR](gg294145\(v=exchg.10\).md)
+  - [JET_PCWSTR](gg294145\(v=exchg.10\).md)
 
-  - [JET\_PSTR](gg294056\(v=exchg.10\).md)
+  - [JET_PSTR](gg294056\(v=exchg.10\).md)
 
-  - [JET\_PWSTR](gg269271\(v=exchg.10\).md)
+  - [JET_PWSTR](gg269271\(v=exchg.10\).md)
 
-  - [JET\_SESID](gg269253\(v=exchg.10\).md)
+  - [JET_SESID](gg269253\(v=exchg.10\).md)
 
-  - [JET\_TABLEID](gg269182\(v=exchg.10\).md)
+  - [JET_TABLEID](gg269182\(v=exchg.10\).md)
 
   - [WCHAR](gg269344\(v=exchg.10\).md)
 

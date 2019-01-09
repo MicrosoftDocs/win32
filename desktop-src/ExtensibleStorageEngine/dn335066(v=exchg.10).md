@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNBASE.cp property
+# JET_COLUMNBASE.cp property
 
 Gets code page of the column. This is only meaningful for columns of type [Text](hh577895\(v=exchg.10\).md) and [LongText](hh577895\(v=exchg.10\).md).
 
@@ -55,15 +55,15 @@ public JET_CP cp { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_CP](hh558581\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_CP](hh558581\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
 
-[JET\_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

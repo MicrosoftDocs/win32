@@ -26,8 +26,9 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for resources.
 
-JET\_paramCachedClosedTables  
+*JET_paramCachedClosedTables*  
 125  
+
 This parameter controls the number of B+ Tree resources cached by the instance after the tables they represent have been closed by the application.
 
 Large values for this parameter will cause the database engine to use more memory but will increase the speed with which a large number of tables can be opened randomly by the application. This is useful for applications that have a schema with a very large number of tables.
@@ -86,8 +87,9 @@ Large values for this parameter will cause the database engine to use more memor
 </table>
 
 
-JET\_paramDisablePerfmon  
+*JET_paramDisablePerfmon*  
 107  
+
 This parameter can be used to prevent the database engine from publishing data about its performance to Windows. This can be done to reduce the service thread activity of the database engine.
 
 <table>
@@ -144,8 +146,9 @@ This parameter can be used to prevent the database engine from publishing data a
 </table>
 
 
-JET\_paramGlobalMinVerPages  
+*JET_paramGlobalMinVerPages*  
 81  
+
 This parameter allows applications that operate in multi-instance mode to pre-allocate memory for version pages in a global pool to emulate the older behavior. This is useful in case the application wishes to guarantee that transactions of a certain size can succeed later on even if memory becomes scarce.
 
 **Windows 2000:**  Enough memory to back all version pages is always reserved at [JetInit](gg294068\(v=exchg.10\).md) time.
@@ -206,9 +209,10 @@ This parameter allows applications that operate in multi-instance mode to pre-al
 </table>
 
 
-JET\_paramMaxCursors  
+*JET_paramMaxCursors*  
 8  
-This parameter reserves the requested number of cursor resources for use by an instance. A cursor resource directly corresponds to a [JET\_TABLEID](gg269182\(v=exchg.10\).md) data type. This setting will affect how many cursors can be used at the same time. A cursor resource cannot be shared by different sessions so this parameter must be set to a large enough value so that each session can use as many cursors as are required.
+
+This parameter reserves the requested number of cursor resources for use by an instance. A cursor resource directly corresponds to a [JET_TABLEID](gg269182\(v=exchg.10\).md) data type. This setting will affect how many cursors can be used at the same time. A cursor resource cannot be shared by different sessions so this parameter must be set to a large enough value so that each session can use as many cursors as are required.
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
@@ -266,8 +270,9 @@ This parameter reserves the requested number of cursor resources for use by an i
 </table>
 
 
-JET\_paramMaxInstances  
+*JET_paramMaxInstances*  
 104  
+
 This parameter controls the maximum number of instances that can be created in a single process.
 
 <table>
@@ -324,8 +329,9 @@ This parameter controls the maximum number of instances that can be created in a
 </table>
 
 
-JET\_paramMaxOpenTables  
+*JET_paramMaxOpenTables*  
 6  
+
 This parameter reserves the requested number of B+ Tree resources for use by an instance. This setting will affect how many tables can be used at the same time. This parameter needs to be set relative to the physical schema of the databases in use by the database engine, so this setting is not as straightforward as it could be.
 
 In general, you will need two resources plus one resource per secondary index per table in concurrent use by the application.
@@ -386,9 +392,10 @@ In general, you will need two resources plus one resource per secondary index pe
 </table>
 
 
-JET\_paramMaxSessions  
+*JET_paramMaxSessions*  
 5  
-This parameter reserves the requested number of session resources for use by an instance. A session resource directly corresponds to a [JET\_SESID](gg269253\(v=exchg.10\).md) data type. This setting will affect how many sessions can be used at the same time.
+
+This parameter reserves the requested number of session resources for use by an instance. A session resource directly corresponds to a [JET_SESID](gg269253\(v=exchg.10\).md) data type. This setting will affect how many sessions can be used at the same time.
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
@@ -446,8 +453,9 @@ This parameter reserves the requested number of session resources for use by an 
 </table>
 
 
-JET\_paramMaxTemporaryTables  
+*JET_paramMaxTemporaryTables*  
 10  
+
 This parameter reserves the requested number of temporary table resources for use by an instance. This setting will affect how many temporary tables can be used at the same time.
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
@@ -510,17 +518,18 @@ This parameter reserves the requested number of temporary table resources for us
 </table>
 
 
-JET\_paramMaxVerPages  
+*JET_paramMaxVerPages*  
 9  
+
 This parameter reserves the requested number of version store pages for use by an instance. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. This setting will affect how many updates can be held in memory at a time. This in turn will affect either the maximum number of updates a single transaction can perform, the maximum duration a transaction can be held open, the maximum concurrent load of updating transactions on the system, or a combination of these.
 
 Each version store page as configured by this parameter is 16KB in size.
 
-**Windows Vista and later:**  The version store page size can be read and changed via JET\_paramVerPageSize.
+**Windows Vista and later:**  The version store page size can be read and changed via JET_paramVerPageSize.
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
-**Note**  This is by far the most common resource to be exhausted by the database engine. Careful attention must be paid to the setting of the system parameter and to the transactional load of the application to avoid exhausting this resource under normal operation. When this resource is exhausted, updates to the database will be rejected with JET\_errVersionStoreOutOfMemory. To release some of these resources, the oldest outstanding transaction must be aborted.
+**Note**  This is by far the most common resource to be exhausted by the database engine. Careful attention must be paid to the setting of the system parameter and to the transactional load of the application to avoid exhausting this resource under normal operation. When this resource is exhausted, updates to the database will be rejected with JET_errVersionStoreOutOfMemory. To release some of these resources, the oldest outstanding transaction must be aborted.
 
 <table>
 <colgroup>
@@ -576,8 +585,9 @@ Each version store page as configured by this parameter is 16KB in size.
 </table>
 
 
-JET\_paramPageHintCacheSize  
+*JET_paramPageHintCacheSize*  
 101  
+
 This parameter controls the size of a special cache used to accelerate the lookup of B+ Tree child page pointers in the database page cache. The size of the cache is in bytes.
 
 <table>
@@ -634,13 +644,14 @@ This parameter controls the size of a special cache used to accelerate the looku
 </table>
 
 
-JET\_paramPreferredMaxOpenTables  
+*JET_paramPreferredMaxOpenTables*  
 7  
+
 This parameter attempts to keep the number of B+ Tree resources in use below the specified threshold.
 
-If this parameter is set to zero then it will default to 100% of **JET\_paramMaxOpenTables**.
+If this parameter is set to zero then it will default to 100% of **JET_paramMaxOpenTables**.
 
-**Windows Vista and later:**  This parameter is obsolete and does not affect the operation of the database engine. Applications should use JET\_paramMaxCachedClosedTables instead.
+**Windows Vista and later:**  This parameter is obsolete and does not affect the operation of the database engine. Applications should use JET_paramMaxCachedClosedTables instead.
 
 <table>
 <colgroup>
@@ -696,17 +707,18 @@ If this parameter is set to zero then it will default to 100% of **JET\_paramMax
 </table>
 
 
-JET\_paramPreferredVerPages  
+*JET_paramPreferredVerPages*  
 63  
-This parameter represents a threshold relative to **JET\_paramMaxVerPages** that controls the discretionary use of version pages by the database engine. If the size of the version store exceeds this threshold then any information that is only used for optional background tasks, such as reclaiming deleted space in the database, is instead sacrificed to preserve room for transactional information.
 
-**Windows 2000, Windows XP and Windows Server 2003:**  Setting this parameter to zero would set the threshold to be 90% of **JET\_paramMaxVerPages**.
+This parameter represents a threshold relative to **JET_paramMaxVerPages** that controls the discretionary use of version pages by the database engine. If the size of the version store exceeds this threshold then any information that is only used for optional background tasks, such as reclaiming deleted space in the database, is instead sacrificed to preserve room for transactional information.
+
+**Windows 2000, Windows XP and Windows Server 2003:**  Setting this parameter to zero would set the threshold to be 90% of **JET_paramMaxVerPages**.
 
 **Windows Vista and later:**  This is no longer supported and the default value of this parameter was changed to clarify its behavior.
 
 Each version store page as configured by this parameter is 16KB in size.
 
-**Windows Vista and later:**  The version store page size can be read and changed via JET\_paramVerPageSize.
+**Windows Vista and later:**  The version store page size can be read and changed via JET_paramVerPageSize.
 
 **Note**  If the database engine operates above this threshold too often then it is possible for the database to degrade in performance. This happens because the background processes that clean up the database cannot function without the optional information that is thrown away in this scenario. Online or offline defragmentation will counteract this effect.
 
@@ -765,9 +777,10 @@ Each version store page as configured by this parameter is 16KB in size.
 </table>
 
 
-JET\_paramVerPageSize  
+*JET_paramVerPageSize*  
 128  
-This parameter controls the size of the version store pages used by the database engine to hold transactional information. The value of this parameter is the unit size for all the other system parameters that are in terms of version pages (e.g. JET\_paramMaxVerPages).
+
+This parameter controls the size of the version store pages used by the database engine to hold transactional information. The value of this parameter is the unit size for all the other system parameters that are in terms of version pages (e.g. JET_paramMaxVerPages).
 
 The database engine may choose to use a larger version store page size than requested.
 
@@ -825,8 +838,9 @@ The database engine may choose to use a larger version store page size than requ
 </table>
 
 
-JET\_paramVersionStoreTaskQueueMax  
+*JET_paramVersionStoreTaskQueueMax*  
 105  
+
 This parameter controls the number of background cleanup work items that can be queued to the database engine thread pool at any one time.
 
 <table>

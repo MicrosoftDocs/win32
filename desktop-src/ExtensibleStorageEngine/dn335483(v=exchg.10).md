@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEX\_RANGE constructor
+# JET_INDEX_RANGE constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_INDEX_RANGE()
 
 #### Reference
 
-[JET\_INDEX\_RANGE class](dn335481\(v=exchg.10\).md)
+[JET_INDEX_RANGE class](dn335481\(v=exchg.10\).md)
 
-[JET\_INDEX\_RANGE members](dn335359\(v=exchg.10\).md)
+[JET_INDEX_RANGE members](dn335359\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

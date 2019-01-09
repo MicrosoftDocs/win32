@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNPROG.ToString method
+# JET_SNPROG.ToString method
 
 Generate a string representation of the instance.
 
@@ -51,16 +51,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The structure as a string.  
 
 ## See also
 
 #### Reference
 
-[JET\_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](dn351044\(v=exchg.10\).md)
 
-[JET\_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](dn351084\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

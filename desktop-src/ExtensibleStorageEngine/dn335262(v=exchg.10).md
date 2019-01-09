@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETCOLUMN constructor
+# JET_SETCOLUMN constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_SETCOLUMN()
 
 #### Reference
 
-[JET\_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
-[JET\_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

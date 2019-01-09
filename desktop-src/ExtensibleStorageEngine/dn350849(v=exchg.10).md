@@ -32,8 +32,8 @@ Base class for Usage exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  [System.Exception](http://msdn2.microsoft.com/en-us/library/c18k6c59)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentApiException](dn334231\(v=exchg.10\).md)  
@@ -73,8 +73,8 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  [System.Exception](http://msdn2.microsoft.com/en-us/library/c18k6c59)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentApiException](dn334231\(v=exchg.10\).md)  

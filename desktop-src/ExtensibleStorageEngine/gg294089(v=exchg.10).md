@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LOGTIME Structure
+# JET_LOGTIME Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_LOGTIME Structure
+## JET_LOGTIME Structure
 
-The **JET\_LOGTIME** structure holds elements of the date and time of an event.
+The **JET_LOGTIME** structure holds elements of the date and time of an event.
 
     typedef struct {
       char bSeconds;
@@ -115,5 +115,5 @@ This structure is meant primarily for usage in debugging.
 
 ### See Also
 
-[JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)
+[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
 

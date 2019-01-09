@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET\_SNPROG.Equals method
+# JET_SNPROG.Equals method
 
 Include protected members  
 Include inherited members  
@@ -34,7 +34,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn351052(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Object.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Object.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +51,9 @@ Top
 
 #### Reference
 
-[JET\_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](dn351044\(v=exchg.10\).md)
 
-[JET\_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](dn351084\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

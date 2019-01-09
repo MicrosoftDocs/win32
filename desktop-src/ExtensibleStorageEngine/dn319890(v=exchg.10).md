@@ -32,7 +32,7 @@ This is the base class for all esent resource objects. Subclasses of this class 
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   Microsoft.Isam.Esent.Interop.EsentResource  
     [Microsoft.Isam.Esent.Interop.Session](dn351164\(v=exchg.10\).md)  
     [Microsoft.Isam.Esent.Interop.Table](dn351163\(v=exchg.10\).md)  

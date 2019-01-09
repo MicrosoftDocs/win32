@@ -17,26 +17,28 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNPROG Structure
+# JET_SNPROG Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SNPROG Structure
+## JET_SNPROG Structure
 
-The **JET\_SNPROG** structure contains information about the progress of a long-running operation. When the callback function is called to notify the status of the operation and the operation is still in progress, the last parameter of the callback function is a pointer to a **JET\_SNPROG** structure.
+The **JET_SNPROG** structure contains information about the progress of a long-running operation. When the callback function is called to notify the status of the operation and the operation is still in progress, the last parameter of the callback function is a pointer to a **JET_SNPROG** structure.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       unsigned long cunitDone;
       unsigned long cunitTotal;
     } JET_SNPROG;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the **JET\_SNPROG** structure, in bytes. This value confirms the presence of the following fields.
+The size of the **JET_SNPROG** structure, in bytes. This value confirms the presence of the following fields.
 
 **cunitDone**
 

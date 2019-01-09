@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_INSTANCE\_INFO properties
+# JET_INSTANCE_INFO properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_INSTANCE\_INFO](dn335182\(v=exchg.10\).md) type exposes the following members.
+The [JET_INSTANCE_INFO](dn335182\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -56,7 +56,7 @@ Top
 
 #### Reference
 
-[JET\_INSTANCE\_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

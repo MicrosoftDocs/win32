@@ -114,23 +114,23 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
@@ -139,13 +139,13 @@ Top
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334124(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn334170(v=exchg.10).md">BytesColumnValue</a>. (Overrides <a href="dn334163(v=exchg.10).md">ColumnValue.ToString()</a>.)</td>
+<td>Returns a <a href="https://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn334170(v=exchg.10).md">BytesColumnValue</a>. (Overrides <a href="dn334163(v=exchg.10).md">ColumnValue.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>

@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNDEF Structure
+# JET_COLUMNDEF Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_COLUMNDEF Structure
+## JET_COLUMNDEF Structure
 
-The **JET\_COLUMNDEF** structure defines the data that can be stored in a column.
+The **JET_COLUMNDEF** structure defines the data that can be stored in a column.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_COLUMNID columnid;
@@ -37,12 +38,13 @@ The **JET\_COLUMNDEF** structure defines the data that can be stored in a column
       unsigned long cbMax;
       JET_GRBIT grbit;
     } JET_COLUMNDEF;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the structure, in bytes. It must be set to sizeof( JET\_COLUMNDEF).
+The size of the structure, in bytes. It must be set to sizeof( JET_COLUMNDEF).
 
 **columnid**
 
@@ -50,7 +52,7 @@ Reserved. **columnid** must be set to 0 (zero).
 
 **coltyp**
 
-The type of the column (for example, text, binary, or numerical). For more information, see [JET\_COLTYP](gg269213\(v=exchg.10\).md).
+The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](gg269213\(v=exchg.10\).md).
 
 **wCountry**
 
@@ -195,12 +197,12 @@ A group of bits that contain the options to be used for this call, which include
 
 ### See Also
 
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)  
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)  
 [JetAddColumn](gg294122\(v=exchg.10\).md)  
 [JetEscrowUpdate](gg294125\(v=exchg.10\).md)  
 [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)  

@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLECREATE constructor
+# JET_TABLECREATE constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_TABLECREATE()
 
 #### Reference
 
-[JET\_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
 
-[JET\_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

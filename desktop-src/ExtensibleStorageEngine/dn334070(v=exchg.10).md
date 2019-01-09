@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.RetrieveColumnAsString method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, Encoding, RetrieveColumnGrbit)
+# Api.RetrieveColumnAsString method (JET_SESID, JET_TABLEID, JET_COLUMNID, Encoding, RetrieveColumnGrbit)
 
 Retrieves a string column value from the current record. The record is that record associated with the index entry at the current position of the cursor.
 
@@ -65,28 +65,28 @@ public static string RetrieveColumnAsString(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the column from.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to retrieve.
 
 <!-- end list -->
 
   - encoding  
-    Type: [System.Text.Encoding](http://msdn2.microsoft.com/en-us/library/86hf4sb8)  
+    Type: [System.Text.Encoding](https://msdn.microsoft.com/en-us/library/86hf4sb8)  
     
     The string encoding to use when converting data.
 
@@ -99,7 +99,7 @@ public static string RetrieveColumnAsString(
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The data retrieved from the column as a string. Null if the column is null.  
 
 ## See also

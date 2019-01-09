@@ -26,8 +26,9 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for callbacks.
 
-JET\_paramDisableCallbacks  
+*JET_paramDisableCallbacks*  
 65  
+
 This parameter disables all database engine callbacks to application provided functions. It is primarily intended to support the database engine utilities and is not intended to be used in your application.
 
 <table>
@@ -84,9 +85,10 @@ This parameter disables all database engine callbacks to application provided fu
 </table>
 
 
-JET\_paramEnablePersistedCallbacks  
+*JET_paramEnablePersistedCallbacks*  
 156  
-This parameter enables the use of persistent callbacks in the database. In releases prior to Windows Vista, the use of persistent callbacks was enabled by default. Applications must now explicitly enable the use of persistent callbacks at runtime using this parameter. If this parameter is not set, then any database operation that requires the invocation of a callback will fail with JET\_errCallbackFailed. This parameter does not affect any callbacks that are specified at runtime with the following mechanisms: JET\_paramRuntimeCallback, [JetRegisterCallback](gg269175\(v=exchg.10\).md), or an explicit callback parameter to a JET API. It is still possible to create schema elements that contain persistent callbacks even when the use of those persistent callbacks is disallowed. When this parameter is set to false it overrides JET\_paramDisableCallbacks.
+
+This parameter enables the use of persistent callbacks in the database. In releases prior to Windows Vista, the use of persistent callbacks was enabled by default. Applications must now explicitly enable the use of persistent callbacks at runtime using this parameter. If this parameter is not set, then any database operation that requires the invocation of a callback will fail with JET_errCallbackFailed. This parameter does not affect any callbacks that are specified at runtime with the following mechanisms: JET_paramRuntimeCallback, [JetRegisterCallback](gg269175\(v=exchg.10\).md), or an explicit callback parameter to a JET API. It is still possible to create schema elements that contain persistent callbacks even when the use of those persistent callbacks is disallowed. When this parameter is set to false it overrides JET_paramDisableCallbacks.
 
 <table>
 <colgroup>
@@ -142,9 +144,10 @@ This parameter enables the use of persistent callbacks in the database. In relea
 </table>
 
 
-JET\_paramRuntimeCallback  
+*JET_paramRuntimeCallback*  
 73  
-This parameter configures the engine with a runtime callback function implementing the [JET\_CALLBACK](gg294098\(v=exchg.10\).md) interface. This callback may be called for the following reasons: [JET\_cbtypFreeCursorLS](gg294071\(v=exchg.10\).md), [JET\_cbtypFreeTableLS](gg294071\(v=exchg.10\).md), or [JET\_cbtypNull](gg294071\(v=exchg.10\).md). Please see [JetSetLS](gg269243\(v=exchg.10\).md) for more information.
+
+This parameter configures the engine with a runtime callback function implementing the [JET_CALLBACK](gg294098\(v=exchg.10\).md) interface. This callback may be called for the following reasons: [JET_cbtypFreeCursorLS](gg294071\(v=exchg.10\).md), [JET_cbtypFreeTableLS](gg294071\(v=exchg.10\).md), or [JET_cbtypNull](gg294071\(v=exchg.10\).md). Please see [JetSetLS](gg269243\(v=exchg.10\).md) for more information.
 
 <table>
 <colgroup>
@@ -226,9 +229,9 @@ This parameter configures the engine with a runtime callback function implementi
 
 ### See Also
 
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)  
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
+[JET_CBTYP](gg294071\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  
 [JetSetLS](gg269243\(v=exchg.10\).md)

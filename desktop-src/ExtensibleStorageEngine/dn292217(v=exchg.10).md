@@ -22,9 +22,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetMove method (JET\_SESID, JET\_TABLEID, Int32, MoveGrbit)
+# Api.JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)
 
-Navigate through an index. The cursor can be positioned at the start or end of the index and moved backwards and forwards by a specified number of index entries. Also see [TryMoveFirst(JET\_SESID, JET\_TABLEID)](dn334150\(v=exchg.10\).md), [TryMoveLast(JET\_SESID, JET\_TABLEID)](dn334140\(v=exchg.10\).md), [TryMoveNext(JET\_SESID, JET\_TABLEID)](dn334095\(v=exchg.10\).md), [TryMovePrevious(JET\_SESID, JET\_TABLEID)](dn334144\(v=exchg.10\).md).
+Navigate through an index. The cursor can be positioned at the start or end of the index and moved backwards and forwards by a specified number of index entries. Also see [TryMoveFirst(JET_SESID, JET_TABLEID)](dn334150\(v=exchg.10\).md), [TryMoveLast(JET_SESID, JET_TABLEID)](dn334140\(v=exchg.10\).md), [TryMoveNext(JET_SESID, JET_TABLEID)](dn334095\(v=exchg.10\).md), [TryMovePrevious(JET_SESID, JET_TABLEID)](dn334144\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,21 +59,21 @@ public static void JetMove(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use for the call.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to position.
 
 <!-- end list -->
 
   - numRows  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     An offset which indicates how far to move the cursor.
 

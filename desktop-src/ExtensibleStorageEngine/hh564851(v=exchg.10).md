@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SESID.Equals method (JET\_SESID)
+# JET_SESID.Equals method (JET_SESID)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_SESID structure](hh596745\(v=exchg.10\).md)
+[JET_SESID structure](hh596745\(v=exchg.10\).md)
 
-[JET\_SESID members](hh557719\(v=exchg.10\).md)
+[JET_SESID members](hh557719\(v=exchg.10\).md)
 
 [Equals overload](hh564734\(v=exchg.10\).md)
 

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNID.Equals method (JET\_COLUMNID)
+# JET_COLUMNID.Equals method (JET_COLUMNID)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
 
-[JET\_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
 
 [Equals overload](hh579286\(v=exchg.10\).md)
 

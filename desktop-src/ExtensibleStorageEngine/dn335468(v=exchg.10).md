@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ERRINFOBASIC constructor
+# JET_ERRINFOBASIC constructor
 
-Initializes a new instance of the JET\_ERRINFOBASIC class.
+Initializes a new instance of the JET_ERRINFOBASIC class.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,9 +51,9 @@ public JET_ERRINFOBASIC()
 
 #### Reference
 
-[JET\_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
 
-[JET\_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

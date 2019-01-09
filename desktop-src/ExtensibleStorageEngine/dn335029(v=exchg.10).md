@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNCREATE constructor
+# JET_COLUMNCREATE constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_COLUMNCREATE()
 
 #### Reference
 
-[JET\_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
+[JET_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
 
-[JET\_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
+[JET_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

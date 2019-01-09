@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNVALUE.cbData property
+# JET_ENUMCOLUMNVALUE.cbData property
 
 Gets the size of the column value for the column.
 
@@ -55,15 +55,15 @@ public int cbData { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

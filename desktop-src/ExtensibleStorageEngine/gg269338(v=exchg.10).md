@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DATESERIAL
+# JET_DATESERIAL
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_DATESERIAL
+## JET_DATESERIAL
 
-The **JET\_DATESERIAL** data type represents a date in fractional days since the year 100.
+The **JET_DATESERIAL** data type represents a date in fractional days since the year 100.
 
+```cpp
     typedef double JET_DATESERIAL;
+```
 
 ### Data Types
 
-JET\_DATESERIAL
+JET_DATESERIAL
 
 Holds a double-precision (8-byte) floating point number. This is the same as the C++ [DATE](http://go.microsoft.com/fwlink/?linkid=180735) type.
 

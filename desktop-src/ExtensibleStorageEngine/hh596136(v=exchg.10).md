@@ -36,12 +36,12 @@ dev_langs:
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn334148(v=exchg.10).md">BoolColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50">Boolean</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/a28wyd50">Boolean</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn334109(v=exchg.10).md">ByteColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/yyb1w04y">Byte</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/yyb1w04y">Byte</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -76,12 +76,12 @@ dev_langs:
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn334238(v=exchg.10).md">DateTimeColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/cey1zx63">Guid</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/cey1zx63">Guid</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn273972(v=exchg.10).md">DoubleColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/643eft0t">Double</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/643eft0t">Double</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2201,12 +2201,12 @@ dev_langs:
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn350880(v=exchg.10).md">FloatColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/3www918f">Single</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/3www918f">Single</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn350902(v=exchg.10).md">GuidColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/cey1zx63">Guid</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/cey1zx63">Guid</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2231,17 +2231,17 @@ dev_langs:
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351017(v=exchg.10).md">Int16ColumnValue</a></td>
-<td>An <a href="http://msdn2.microsoft.com/en-us/library/e07e6fds">Int16</a> column value.</td>
+<td>An <a href="https://msdn.microsoft.com/en-us/library/e07e6fds">Int16</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn350992(v=exchg.10).md">Int32ColumnValue</a></td>
-<td>An <a href="http://msdn2.microsoft.com/en-us/library/td2s409d">Int32</a> column value.</td>
+<td>An <a href="https://msdn.microsoft.com/en-us/library/td2s409d">Int32</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351016(v=exchg.10).md">Int64ColumnValue</a></td>
-<td>An <a href="http://msdn2.microsoft.com/en-us/library/6yy583ek">Int64</a> column value.</td>
+<td>An <a href="https://msdn.microsoft.com/en-us/library/6yy583ek">Int64</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2411,17 +2411,17 @@ dev_langs:
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351247(v=exchg.10).md">UInt16ColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/s6eyk10z">UInt16</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/s6eyk10z">UInt16</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351251(v=exchg.10).md">UInt32ColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/ctys3981">UInt32</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/ctys3981">UInt32</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351190(v=exchg.10).md">UInt64ColumnValue</a></td>
-<td>A <a href="http://msdn2.microsoft.com/en-us/library/06cf7918">UInt64</a> column value.</td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/06cf7918">UInt64</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>

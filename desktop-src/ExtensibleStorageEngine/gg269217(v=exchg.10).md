@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_HANDLE
+# JET_HANDLE
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_HANDLE
+## JET_HANDLE
 
-The **JET\_HANDLE** data type contains a generic handle.
+The **JET_HANDLE** data type contains a generic handle.
 
+```cpp
     typedef JET_API_PTR JET_HANDLE;
+```
 
 ### Data Types
 
-JET\_HANDLE
+JET_HANDLE
 
 A value of **NULL** indicates an invalid handle.
 

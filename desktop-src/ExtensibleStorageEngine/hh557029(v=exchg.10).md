@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO.lgposMark property
+# JET_BKINFO.lgposMark property
 
 Gets the log position of the backup.
 
@@ -55,15 +55,15 @@ public JET_LGPOS lgposMark { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_LGPOS](hh578063\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
-[JET\_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](hh557851\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNBASE.grbit property
+# JET_COLUMNBASE.grbit property
 
 Gets the column options.
 
@@ -61,9 +61,9 @@ Type: [Microsoft.Isam.Esent.Interop.ColumndefGrbit](hh578986\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
 
-[JET\_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -17,24 +17,26 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBID
+# JET_DBID
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_DBID
+## JET_DBID
 
-The **JET\_DBID** data type contains the handle to the database. A database handle is used to manage the schema of a database. It can also be used to manage the tables inside of that database.
+The **JET_DBID** data type contains the handle to the database. A database handle is used to manage the schema of a database. It can also be used to manage the tables inside of that database.
 
+```cpp
     typedef unsigned long JET_DBID;
+```
 
 ### Data Types
 
-JET\_DBID
+JET_DBID
 
 Handle to the database.
 
-A value of JET\_dbidNil indicates that the handle is invalid.
+A value of JET_dbidNil indicates that the handle is invalid.
 
 ### Remarks
 

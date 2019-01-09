@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CONDITIONALCOLUMN.szColumnName property
+# JET_CONDITIONALCOLUMN.szColumnName property
 
 Gets or sets the name of the conditional column.
 
@@ -57,15 +57,15 @@ public string szColumnName { get; set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 
 #### Reference
 
-[JET\_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
 
-[JET\_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

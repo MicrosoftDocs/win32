@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CALLBACK Callback Function
+# JET_CALLBACK Callback Function
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_CALLBACK Callback Function
+## JET_CALLBACK Callback Function
 
-The **JET\_CALLBACK** function is a multi-purpose callback function used by the database engine to inform the application of an event involving online defragmentation and cursor state notifications.
+The **JET_CALLBACK** function is a multi-purpose callback function used by the database engine to inform the application of an event involving online defragmentation and cursor state notifications.
 
-See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for specific settings to use for the parameters of this function, as these settings will differ depending upon the **JET\_CBTYP** option that is selected for use in the *cbtyp* parameter.
+See [JET_CBTYP](gg294071\(v=exchg.10\).md) for specific settings to use for the parameters of this function, as these settings will differ depending upon the **JET_CBTYP** option that is selected for use in the *cbtyp* parameter.
 
+```cpp
     JET_ERR JET_API* JET_CALLBACK(
       [in]                 JET_SESID sesid,
       [in]                 JET_DBID dbid,
@@ -38,6 +39,7 @@ See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for specific settings to use for the
       [in]                 void* pvContext,
       [in]                 JET_API_PTR ulUnused
     );
+```
 
 ### Parameters
 
@@ -55,29 +57,29 @@ The cursor for which the callback is being made.
 
 *cbtyp*
 
-The point in the operation at which the callback is being made. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for a list of values and the meaning of the following parameters in each case.
+The point in the operation at which the callback is being made. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for a list of values and the meaning of the following parameters in each case.
 
 *pvArg1*
 
-A parameter used to communicate with the application using the callback. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
 
 *pvArg2*
 
-A parameter used to communicate with the application using the callback. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
 
 *pvContext*
 
-A parameter used to communicate with the application using the callback. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
 
 *ulUnused*
 
-A parameter used to communicate with the application using the callback. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
 
 #### Return Value
 
-The function returns one of the [Extensible Storage Engine error codes](gg269297\(v=exchg.10\).md). For information about how to return these codes as HRESULTs, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md). On success, the operation that issued the callback can proceed normally. In some cases, the callback may return a warning that influences that operation. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of these warnings by the operation.
+The function returns one of the [Extensible Storage Engine error codes](gg269297\(v=exchg.10\).md). For information about how to return these codes as HRESULTs, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md). On success, the operation that issued the callback can proceed normally. In some cases, the callback may return a warning that influences that operation. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of these warnings by the operation.
 
-On failure, the operation that issued the callback may proceed normally or may fail. See [JET\_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of the error code by the operation.
+On failure, the operation that issued the callback may proceed normally or may fail. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of the error code by the operation.
 
 #### Remarks
 
@@ -149,9 +151,9 @@ When you design your callback, take into account that even with these restrictio
 
 ### See Also
 
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_DBID](gg269248\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_DBID](gg269248\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_CBTYP](gg294071\(v=exchg.10\).md)
 

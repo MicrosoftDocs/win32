@@ -8,14 +8,14 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_RECSIZE members
+# JET_RECSIZE members
 
 Include protected members  
 Include inherited members  
 
-Used by [JetGetRecordSize(JET\_SESID, JET\_TABLEID, JET\_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESENT record structure overhead space.
+Used by [JetGetRecordSize(JET_SESID, JET_TABLEID, JET_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESENT record structure overhead space.
 
-The [JET\_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
+The [JET_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -108,7 +108,7 @@ Top
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh558506(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -117,23 +117,23 @@ Top
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh557078(v=exchg.10).md">GetHashCode</a></td>
-<td>Returns the hash code for this instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/y3509fc2">ValueType.GetHashCode()</a>.)</td>
+<td>Returns the hash code for this instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/y3509fc2">ValueType.GetHashCode()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
@@ -142,8 +142,8 @@ Top
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h">ToString</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/aey3s293">ValueType</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/wb77sz3h">ToString</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/aey3s293">ValueType</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -192,7 +192,7 @@ Top
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

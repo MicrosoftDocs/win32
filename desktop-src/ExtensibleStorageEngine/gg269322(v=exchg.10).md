@@ -31,12 +31,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetAttachDatabase2** function attaches a database file for use with a database instance and specifies a maximum size for that database. In order to use the database, it will need to be subsequently opened with [JetOpenDatabase](gg269299\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetAttachDatabase2(
       __in          JET_SESID sesid,
       __in          const tchar* szFilename,
       __in          const unsigned long cpgDatabaseSizeMax,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -92,7 +94,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-The function returns one of the [JET\_ERR](gg294092\(v=exchg.10\).md) error codes. The following are the most commonly returned. (For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).)
+The function returns one of the [JET_ERR](gg294092\(v=exchg.10\).md) error codes. The following are the most commonly returned. (For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).)
 
 <table>
 <colgroup>
@@ -199,10 +201,10 @@ See [JetAttachDatabase](gg294074\(v=exchg.10\).md) for remarks.
 #### See Also
 
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetCreateDatabase](gg269212\(v=exchg.10\).md)  
 [JetOpenDatabase](gg269299\(v=exchg.10\).md)  

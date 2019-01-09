@@ -28,11 +28,11 @@ ROBOTS: INDEX,FOLLOW
 
 # Session class
 
-A class that encapsulates a JET\_SESID in a disposable object.
+A class that encapsulates a JET_SESID in a disposable object.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   [Microsoft.Isam.Esent.Interop.EsentResource](dn319890\(v=exchg.10\).md)  
     Microsoft.Isam.Esent.Interop.Session  
 

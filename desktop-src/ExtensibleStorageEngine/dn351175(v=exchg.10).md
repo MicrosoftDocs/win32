@@ -29,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Session.JetSesid property
 
-Gets the JET\_SESID that this session contains.
+Gets the JET_SESID that this session contains.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,7 +53,7 @@ public JET_SESID JetSesid { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
 
 ## See also
 

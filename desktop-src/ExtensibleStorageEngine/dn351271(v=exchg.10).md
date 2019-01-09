@@ -60,14 +60,14 @@ public static void JetOSSnapshotTruncateLogInstance(
 #### Parameters
 
   - snapshot  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
     
     The snapshot identifier.
 
 <!-- end list -->
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to truncat the log for.
 
@@ -80,7 +80,7 @@ public static void JetOSSnapshotTruncateLogInstance(
 
 ## Remarks
 
-This function should be called only if the snapshot was created with the [ContinueAfterThaw](dn351283\(v=exchg.10\).md) option. Otherwise, the snapshot session ends after the call to [JetOSSnapshotThaw(JET\_OSSNAPID, SnapshotThawGrbit)](dn332986\(v=exchg.10\).md).
+This function should be called only if the snapshot was created with the [ContinueAfterThaw](dn351283\(v=exchg.10\).md) option. Otherwise, the snapshot session ends after the call to [JetOSSnapshotThaw(JET_OSSNAPID, SnapshotThawGrbit)](dn332986\(v=exchg.10\).md).
 
 ## See also
 

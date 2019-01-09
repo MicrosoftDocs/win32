@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ERRINFOBASIC.rgszSourceFile property
+# JET_ERRINFOBASIC.rgszSourceFile property
 
 Gets or sets the source file name for the requested info level.
 
@@ -57,15 +57,15 @@ public string rgszSourceFile { get; set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 
 #### Reference
 
-[JET\_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
 
-[JET\_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

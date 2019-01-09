@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COMMIT\_ID.CompareTo method
+# JET_COMMIT_ID.CompareTo method
 
 Returns a value comparing this instance with another.
 
@@ -57,26 +57,26 @@ public int CompareTo(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_COMMIT\_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 A signed value representing the relative positions of the instances.  
 
 #### Implements
 
-[IComparable\<T\>.CompareTo(T)](http://msdn2.microsoft.com/en-us/library/43hc6wht)  
+[IComparable\<T\>.CompareTo(T)](https://msdn.microsoft.com/en-us/library/43hc6wht)  
 
 ## See also
 
 #### Reference
 
-[JET\_COMMIT\_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
 
-[JET\_COMMIT\_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

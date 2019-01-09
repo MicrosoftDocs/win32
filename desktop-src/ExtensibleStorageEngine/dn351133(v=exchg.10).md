@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_UNICODEINDEX.DeepClone method
+# JET_UNICODEINDEX.DeepClone method
 
 Returns a deep copy of the object.
 
@@ -51,7 +51,7 @@ public JET_UNICODEINDEX DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_UNICODEINDEX](dn351106\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](dn351106\(v=exchg.10\).md)  
 A deep copy of the object.  
 
 #### Implements
@@ -62,9 +62,9 @@ A deep copy of the object.
 
 #### Reference
 
-[JET\_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
 
-[JET\_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
+[JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

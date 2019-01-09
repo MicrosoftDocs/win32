@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC.dbstate property
+# JET_DBINFOMISC.dbstate property
 
 Gets the consistent/inconsistent state of the database.
 
@@ -55,15 +55,15 @@ public JET_dbstate dbstate { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_dbstate](hh578316\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_dbstate](hh578316\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

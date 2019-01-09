@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LS.Nil field
+# JET_LS.Nil field
 
 The null handle.
 
@@ -52,9 +52,9 @@ public static readonly JET_LS Nil
 
 #### Reference
 
-[JET\_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](hh557499\(v=exchg.10\).md)
 
-[JET\_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](hh596466\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

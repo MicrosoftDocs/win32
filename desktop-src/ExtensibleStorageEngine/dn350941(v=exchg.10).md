@@ -29,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Instance.JetInstance property
 
-Gets the JET\_INSTANCE that this instance contains.
+Gets the JET_INSTANCE that this instance contains.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,7 +53,7 @@ public JET_INSTANCE JetInstance { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
 
 ## See also
 

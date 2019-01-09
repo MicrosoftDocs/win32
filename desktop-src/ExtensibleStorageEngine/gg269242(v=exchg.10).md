@@ -31,12 +31,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetSetDatabaseSize** function sets the size of an unopened database file.
 
+```cpp
     JET_ERR JET_API JetSetDatabaseSize(
       __in          JET_SESID sesid,
       __in          JET_PCSTR szDatabaseName,
       __in          unsigned long cpg,
       __out         unsigned long* pcpgReal
     );
+```
 
 ### Parameters
 
@@ -58,7 +60,7 @@ Pointer to a number that receives the size of the database, in pages, after the 
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -114,7 +116,7 @@ If **JetSetDatabaseSize** is called prior to inserting large amounts of data, th
 
 Only growing the file is currently supported. To shrink a file, use the defragmentation feature of the esentutl.exe utility program.
 
-If *cpg* is smaller than the current size of the database, the operation will be ignored. If *cpg* is less than the minimum database size (currently 256 pages), it will return JET\_errInvalidParameter.
+If *cpg* is smaller than the current size of the database, the operation will be ignored. If *cpg* is less than the minimum database size (currently 256 pages), it will return JET_errInvalidParameter.
 
 To set the size of a database that is opened, see [JetGrowDatabase](gg294109\(v=exchg.10\).md).
 
@@ -158,11 +160,11 @@ The file size may not match the number of pages returned in *pcpgReal*. There ar
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET\_OBJECTLIST](gg269348\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
+[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
 [JetGrowDatabase](gg294109\(v=exchg.10\).md)
 

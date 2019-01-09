@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETRIEVECOLUMN.grbit property
+# JET_RETRIEVECOLUMN.grbit property
 
 Gets or sets the options for column retrieval.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.RetrieveColumnGrbit](hh578120\(v=exchg.10\).
 
 #### Reference
 
-[JET\_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
 
-[JET\_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

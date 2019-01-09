@@ -17,28 +17,30 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SESID
+# JET_SESID
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SESID
+## JET_SESID
 
-The **JET\_SESID** data type contains a handle to the session to use for a call to the JET API.
+The **JET_SESID** data type contains a handle to the session to use for a call to the JET API.
 
+```cpp
     typedef JET_API_PTR JET_SESID;
+```
 
 ### Data Types
 
-JET\_SESID
+JET_SESID
 
-Either **NULL** or [JET\_sesidNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid session handle.
+Either **NULL** or [JET_sesidNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid session handle.
 
 ### Remarks
 
 A session is the transaction context of the database engine. It can be used to begin, commit, or abort transactions that affect the visibility and durability of changes that are made by this or other sessions.
 
-A transaction can be started using [JetBeginTransaction](gg294083\(v=exchg.10\).md). A session may be created using [JetBeginSession](gg294131\(v=exchg.10\).md). The maximum number of sessions that can be created at any one time is controlled by [JET\_paramMaxSessions](gg269201\(v=exchg.10\).md), which can be configured by means of [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
+A transaction can be started using [JetBeginTransaction](gg294083\(v=exchg.10\).md). A session may be created using [JetBeginSession](gg294131\(v=exchg.10\).md). The maximum number of sessions that can be created at any one time is controlled by [JET_paramMaxSessions](gg269201\(v=exchg.10\).md), which can be configured by means of [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
 
 A session is explicitly ended by a call to [JetEndSession](gg294054\(v=exchg.10\).md) or implicitly ended by a call to [JetTerm](gg269298\(v=exchg.10\).md).
 
@@ -70,7 +72,7 @@ Each session can only be used by one thread at a time. In addition, the default 
 
 ### See Also
 
-[JET\_paramMaxSessions](gg269201\(v=exchg.10\).md)  
+[JET_paramMaxSessions](gg269201\(v=exchg.10\).md)  
 [JetBeginSession](gg294131\(v=exchg.10\).md)  
 [JetBeginTransaction](gg294083\(v=exchg.10\).md)  
 [JetCommitTransaction](gg269191\(v=exchg.10\).md)  

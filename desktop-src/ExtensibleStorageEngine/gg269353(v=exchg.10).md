@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTINFO Structure
+# JET_OBJECTINFO Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_OBJECTINFO Structure
+## JET_OBJECTINFO Structure
 
-The **JET\_OBJECTINFO** structure holds information about an object. Tables are the only object types that are currently supported.
+The **JET_OBJECTINFO** structure holds information about an object. Tables are the only object types that are currently supported.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_OBJTYP objtyp;
@@ -36,16 +37,17 @@ The **JET\_OBJECTINFO** structure holds information about an object. Tables are 
       unsigned long cRecord;
       unsigned long cPage;
     } JET_OBJECTINFO;
+```
 
 ### Members
 
 **cbStruct**
 
-The size, in bytes, of the **JET\_OBJECTINFO** structure.
+The size, in bytes, of the **JET_OBJECTINFO** structure.
 
 **objtyp**
 
-Holds the [JET\_OBJTYP](gg269312\(v=exchg.10\).md) of the structure. Currently only tables will be returned (that is, JET\_objtypTable).
+Holds the [JET_OBJTYP](gg269312\(v=exchg.10\).md) of the structure. Currently only tables will be returned (that is, JET_objtypTable).
 
 **dtCreate**
 
@@ -132,17 +134,17 @@ A bit field that contains zero or more of the following flags.
 
 The number of records in the table.
 
-This value is retrieved only if **JET\_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
+This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
 
 **cPage**
 
 The number of pages that are being used by the table.
 
-This value is retrieved only if **JET\_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
+This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
 
 ### Remarks
 
-A **JET\_OBJECTINFO** structure gets populated by a call to [JetGetObjectInfo](gg269232\(v=exchg.10\).md) or [JetGetTableInfo](gg269177\(v=exchg.10\).md). If the API call does not succeed, the contents of the structure are undefined.
+A **JET_OBJECTINFO** structure gets populated by a call to [JetGetObjectInfo](gg269232\(v=exchg.10\).md) or [JetGetTableInfo](gg269177\(v=exchg.10\).md). If the API call does not succeed, the contents of the structure are undefined.
 
 If applicable, the table statistics include the number of records and the number of pages that are in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
 
@@ -172,11 +174,11 @@ If applicable, the table statistics include the number of records and the number
 
 ### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_OBJTYP](gg269312\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_OBJTYP](gg269312\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
 [JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  

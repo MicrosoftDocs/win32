@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETINFO.columnidNextTagged property
+# JET_RETINFO.columnidNextTagged property
 
 Gets the columnid of the retrieved tagged, multi-valued or sparse, column when all tagged columns are retrieved by passing 0 as the columnid to JetRetrieveColumn.
 
@@ -55,15 +55,15 @@ public JET_COLUMNID columnidNextTagged { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](dn335277\(v=exchg.10\).md)
 
-[JET\_RETINFO members](dn351022\(v=exchg.10\).md)
+[JET_RETINFO members](dn351022\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

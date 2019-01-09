@@ -31,10 +31,12 @@ The **JetOSSnapshotEnd** function notifies the engine that the snapshot session 
 
 **Windows Vista:**  **JetOSSnapshotEnd** is introduced in Windows Vista:.
 
+```cpp
     JET_ERR JET_API JetOSSnapshotEnd(
       __in          const JET_OSSNAPID snapId,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -72,7 +74,7 @@ The options for this call. This parameter can have a combination of the followin
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -112,11 +114,11 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 If this function succeeds, a snapshot session will complete and the normal engine behavior will resume. A new snapshot session can be started later.
 
-If this function fails, the JET\_errOSSnapshotTimeOut return code returns and the current snapshot session ends but the freeze of IOs during the snapshot period was not respected internally. For all other errors, the snapshot session state will not be changed.
+If this function fails, the JET_errOSSnapshotTimeOut return code returns and the current snapshot session ends but the freeze of IOs during the snapshot period was not respected internally. For all other errors, the snapshot session state will not be changed.
 
 #### Remarks
 
-This function is called only if [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) was called with JET\_bitContinueAfterThaw.
+This function is called only if [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) was called with JET_bitContinueAfterThaw.
 
 The snapshot session must complete for the snapshot verification and log truncation to take place. Event log entries will be generated for the different steps of the snapshot.
 
@@ -156,6 +158,6 @@ The snapshot session must complete for the snapshot verification and log truncat
 
 [Error Handling Parameters](gg269173\(v=exchg.10\).md)  
 [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
 

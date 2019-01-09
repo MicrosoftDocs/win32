@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXID.Equality operator
+# JET_INDEXID.Equality operator
 
-Determines whether two specified instances of JET\_INDEXID are equal.
+Determines whether two specified instances of JET_INDEXID are equal.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,29 +60,29 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INDEXID](hh557060\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](hh557060\(v=exchg.10\).md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INDEXID](hh557060\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](hh557060\(v=exchg.10\).md)  
     
     The second instance to compare.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
 
-[JET\_INDEXID members](hh565743\(v=exchg.10\).md)
+[JET_INDEXID members](hh565743\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

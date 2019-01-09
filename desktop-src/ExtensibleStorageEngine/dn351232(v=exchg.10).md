@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OPENTEMPORARYTABLE.grbit property
+# JET_OPENTEMPORARYTABLE.grbit property
 
 Gets or sets options for the temp table.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.TempTableGrbit](hh558517\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
 
-[JET\_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

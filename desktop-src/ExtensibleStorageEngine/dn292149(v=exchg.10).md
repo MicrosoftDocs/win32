@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetBookmark method
 
-Retrieves the bookmark for the record that is associated with the index entry at the current position of a cursor. This bookmark can then be used to reposition that cursor back to the same record using [JetGotoBookmark(JET\_SESID, JET\_TABLEID, \[\], Int32)](dn292200\(v=exchg.10\).md). The bookmark will be no longer than [BookmarkMost](dn351215\(v=exchg.10\).md) bytes. Also see [GetBookmark(JET\_SESID, JET\_TABLEID)](dn292099\(v=exchg.10\).md).
+Retrieves the bookmark for the record that is associated with the index entry at the current position of a cursor. This bookmark can then be used to reposition that cursor back to the same record using [JetGotoBookmark(JET_SESID, JET_TABLEID, \[\], Int32)](dn292200\(v=exchg.10\).md). The bookmark will be no longer than [BookmarkMost](dn351215\(v=exchg.10\).md) bytes. Also see [GetBookmark(JET_SESID, JET_TABLEID)](dn292099\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -66,14 +66,14 @@ public static void JetGetBookmark(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the bookmark from.
 
@@ -87,14 +87,14 @@ public static void JetGetBookmark(
 <!-- end list -->
 
   - bookmarkSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Size of the bookmark buffer.
 
 <!-- end list -->
 
   - actualBookmarkSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the actual size of the bookmark.
 

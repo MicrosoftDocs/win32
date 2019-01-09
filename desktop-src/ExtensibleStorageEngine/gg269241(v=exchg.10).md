@@ -26,9 +26,10 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used to expose information about the database engine.
 
-JET\_paramKeyMost  
+*JET_paramKeyMost*  
 134  
-This read-only parameter indicates the maximum allowable index key length that can be selected for the current database page size (as configured by JET\_paramDatabasePageSize).
+
+This read-only parameter indicates the maximum allowable index key length that can be selected for the current database page size (as configured by JET_paramDatabasePageSize).
 
 <table>
 <colgroup>
@@ -84,9 +85,10 @@ This read-only parameter indicates the maximum allowable index key length that c
 </table>
 
 
-JET\_paramMaxColtyp  
+*JET_paramMaxColtyp*  
 131  
-This read only parameter returns the maximum [JET\_COLTYP](gg269213\(v=exchg.10\).md) (JET\_coltypMax) for that version of the database engine. This value can be used to test for support of a specific [JET\_COLTYP](gg269213\(v=exchg.10\).md). If a given [JET\_COLTYP](gg269213\(v=exchg.10\).md) is less than the value of this parameter then it is supported by the database engine.
+
+This read only parameter returns the maximum [JET_COLTYP](gg269213\(v=exchg.10\).md) (JET_coltypMax) for that version of the database engine. This value can be used to test for support of a specific [JET_COLTYP](gg269213\(v=exchg.10\).md). If a given [JET_COLTYP](gg269213\(v=exchg.10\).md) is less than the value of this parameter then it is supported by the database engine.
 
 <table>
 <colgroup>
@@ -142,8 +144,9 @@ This read only parameter returns the maximum [JET\_COLTYP](gg269213\(v=exchg.10\
 </table>
 
 
-JET\_paramLVChunkSizeMost  
+*JET_paramLVChunkSizeMost*  
 163  
+
 Read only parameter that returns the long-value chunk size based on configured page size. If a long-value is to be read or written with multiple Jet{Set,Retrieve}Column calls then using a buffer whose size is a multiple of the chunk size is more efficient.
 
 <table>
@@ -232,5 +235,5 @@ Read only parameter that returns the long-value chunk size based on configured p
 
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)
+[JET_COLTYP](gg269213\(v=exchg.10\).md)
 

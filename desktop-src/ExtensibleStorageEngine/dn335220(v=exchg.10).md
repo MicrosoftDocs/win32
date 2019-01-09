@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETINFO.ibLongValue property
+# JET_RETINFO.ibLongValue property
 
 Gets or sets the offset to the first byte to be retrieved from a column of type [LongBinary](hh577895\(v=exchg.10\).md), or [LongText](hh577895\(v=exchg.10\).md).
 
@@ -57,15 +57,15 @@ public int ibLongValue { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](dn335277\(v=exchg.10\).md)
 
-[JET\_RETINFO members](dn351022\(v=exchg.10\).md)
+[JET_RETINFO members](dn351022\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETRIEVECOLUMN Structure
+# JET_RETRIEVECOLUMN Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_RETRIEVECOLUMN Structure
+## JET_RETRIEVECOLUMN Structure
 
-The **JET\_RETRIEVECOLUMN** structure contains input and output parameters for [JetRetrieveColumns](gg294135\(v=exchg.10\).md). Fields in the structure describe what column value to retrieve, how to retrieve it, and where to save results.
+The **JET_RETRIEVECOLUMN** structure contains input and output parameters for [JetRetrieveColumns](gg294135\(v=exchg.10\).md). Fields in the structure describe what column value to retrieve, how to retrieve it, and where to save results.
 
+```cpp
     typedef struct {
       JET_COLUMNID columnid;
       void* pvData;
@@ -37,6 +38,7 @@ The **JET\_RETRIEVECOLUMN** structure contains input and output parameters for [
       JET_COLUMNID columnidNextTagged;
       JET_ERR err;
     } JET_RETRIEVECOLUMN;
+```
 
 ### Members
 
@@ -110,11 +112,11 @@ A group of bits that contain the options for column retrieval, which include zer
 
 **ibLongValue**
 
-The offset to the first byte to be retrieved from a column of type [JET\_coltypLongBinary](gg269213\(v=exchg.10\).md) or [JET\_coltypLongText](gg269213\(v=exchg.10\).md).
+The offset to the first byte to be retrieved from a column of type [JET_coltypLongBinary](gg269213\(v=exchg.10\).md) or [JET_coltypLongText](gg269213\(v=exchg.10\).md).
 
 **itagSequence**
 
-The sequence number of the values that are contained in a multi-valued column. **itagSequence** here in the **JET\_RETRIEVECOLUMN** can be 0. If the **itagSequence** is 0 then the number of instances of a multi-valued column are returned instead of any column data. An **itagSequence** value of 0 cannot be used in calls to [JetRetrieveColumn](gg269198\(v=exchg.10\).md).
+The sequence number of the values that are contained in a multi-valued column. **itagSequence** here in the **JET_RETRIEVECOLUMN** can be 0. If the **itagSequence** is 0 then the number of instances of a multi-valued column are returned instead of any column data. An **itagSequence** value of 0 cannot be used in calls to [JetRetrieveColumn](gg269198\(v=exchg.10\).md).
 
 **columnidNextTagged**
 
@@ -150,11 +152,11 @@ Error codes and warnings returned from the retrieval of the column.
 
 ### See Also
 
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
 [JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
 [JetRetrieveColumns](gg294135\(v=exchg.10\).md)
 

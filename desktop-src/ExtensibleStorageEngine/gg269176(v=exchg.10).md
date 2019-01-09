@@ -29,7 +29,9 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetEndExternalBackup** function ends an external backup session. This function is the last API element in a series of API elements that must be called to execute a successful online (non-VSS based) backup.
 
+```cpp
     JET_ERR JET_API JetEndExternalBackup(void);
+```
 
 ### Parameters
 
@@ -37,7 +39,7 @@ This function has no parameters.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -110,7 +112,7 @@ If the backup sequence is not completed in order and with a successful call to *
 
 For more information about the external backup API sequence, see [JetBeginExternalBackup](gg269292\(v=exchg.10\).md).
 
-Before Windows Vista, if the log truncation was not done, the engine considered that the backup was a copy backup. However, the backup might be a normal backup for which truncation was not done (for example, if there are detached databases). The JET\_bitBackupTruncateDone option can be used to inform the engine about this and allow appropriate database header modifications.
+Before Windows Vista, if the log truncation was not done, the engine considered that the backup was a copy backup. However, the backup might be a normal backup for which truncation was not done (for example, if there are detached databases). The JET_bitBackupTruncateDone option can be used to inform the engine about this and allow appropriate database header modifications.
 
 #### Requirements
 
@@ -151,7 +153,7 @@ Before Windows Vista, if the log truncation was not done, the engine considered
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetCloseFile](gg294127\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetExternalRestore](gg294088\(v=exchg.10\).md)  
 [JetGetAttachInfo](gg269286\(v=exchg.10\).md)  
 [JetGetLogInfo](gg294055\(v=exchg.10\).md)  

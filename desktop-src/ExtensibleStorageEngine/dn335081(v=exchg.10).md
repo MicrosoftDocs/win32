@@ -26,14 +26,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMN class
+# JET_ENUMCOLUMN class
 
-Enumerates the column values of a record using the JetEnumerateColumns function. JetEnumerateColumns returns an array of JET\_ENUMCOLUMNVALUE structures. The array is returned in memory that was allocated using the callback that was supplied to that function.
+Enumerates the column values of a record using the JetEnumerateColumns function. JetEnumerateColumns returns an array of JET_ENUMCOLUMNVALUE structures. The array is returned in memory that was allocated using the callback that was supplied to that function.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  Microsoft.Isam.Esent.Interop.JET\_ENUMCOLUMN  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
+[JET_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -43,28 +43,28 @@ The [EsentResource](dn319890\(v=exchg.10\).md) type exposes the following member
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn350552(v=exchg.10).md">Finalize</a></td>
-<td>Finalizes an instance of the EsentResource class. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Object.Finalize()</a>.)</td>
+<td>Finalizes an instance of the EsentResource class. (Overrides <a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Object.Finalize()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
@@ -83,8 +83,8 @@ The [EsentResource](dn319890\(v=exchg.10\).md) type exposes the following member
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2">ToString</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/7bxwbwt2">ToString</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 </tbody>
 </table>

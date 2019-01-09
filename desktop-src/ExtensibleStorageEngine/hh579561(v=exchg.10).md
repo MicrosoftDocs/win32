@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE.Subtract method
+# JET_RECSIZE.Subtract method
 
-Calculate the difference in sizes between two JET\_RECSIZE structures.
+Calculate the difference in sizes between two JET_RECSIZE structures.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,29 +59,29 @@ public static JET_RECSIZE Subtract(
 #### Parameters
 
   - s1  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
     
-    The first JET\_RECSIZE.
+    The first JET_RECSIZE.
 
 <!-- end list -->
 
   - s2  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
     
-    The second JET\_RECSIZE.
+    The second JET_RECSIZE.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
-A JET\_RECSIZE containing the difference in sizes between s1 and s2.  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
+A JET_RECSIZE containing the difference in sizes between s1 and s2.  
 
 ## See also
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

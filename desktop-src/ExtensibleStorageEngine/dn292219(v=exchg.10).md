@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetOpenDatabase method
 
-Opens a database previously attached with [JetAttachDatabase(JET\_SESID, String, AttachDatabaseGrbit)](dn292096\(v=exchg.10\).md), for use with a database session. This function can be called multiple times for the same database.
+Opens a database previously attached with [JetAttachDatabase(JET_SESID, String, AttachDatabaseGrbit)](dn292096\(v=exchg.10\).md), for use with a database session. This function can be called multiple times for the same database.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -69,28 +69,28 @@ public static JET_wrn JetOpenDatabase(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session that is opening the database.
 
 <!-- end list -->
 
   - database  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The database to open.
 
 <!-- end list -->
 
   - connect  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     Reserved for future use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     Returns the dbid of the attached database.
 
@@ -103,7 +103,7 @@ public static JET_wrn JetOpenDatabase(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 An ESENT warning code.  
 
 ## See also

@@ -31,7 +31,9 @@ The **JetStopService** function prepares an instance for termination.
 
 **JetStopService** is the legacy call when only one instance is allowed. In this case, the only active instance is the one being prepared for termination.
 
+```cpp
     JET_ERR JET_API JetStopService(void);
+```
 
 ### Parameters
 
@@ -39,7 +41,7 @@ This function has no parameters.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -80,7 +82,7 @@ If this function fails, none of the steps to prepare for an instance termination
 
 #### Remarks
 
-This function reduces the work the instance will have to do when terminated, but will not terminate the instance. As a result, this function is just an optimization and is not mandatory to use. Note that the amount of work done in preparation was less in Windows 2000 and Windows XP. Once the function succeeds, calling functions that are no longer allowed will return JET\_errClientRequestToStopJetService. Functions that are still allowed after this call are: [JetRollback](gg269273\(v=exchg.10\).md), [JetCloseTable](gg294087\(v=exchg.10\).md), [JetEndSession](gg294054\(v=exchg.10\).md), [JetCloseDatabase](gg294123\(v=exchg.10\).md), [JetDetachDatabase](gg269266\(v=exchg.10\).md) and [JetResetSessionContext](gg269250\(v=exchg.10\).md).
+This function reduces the work the instance will have to do when terminated, but will not terminate the instance. As a result, this function is just an optimization and is not mandatory to use. Note that the amount of work done in preparation was less in Windows 2000 and Windows XP. Once the function succeeds, calling functions that are no longer allowed will return JET_errClientRequestToStopJetService. Functions that are still allowed after this call are: [JetRollback](gg269273\(v=exchg.10\).md), [JetCloseTable](gg294087\(v=exchg.10\).md), [JetEndSession](gg294054\(v=exchg.10\).md), [JetCloseDatabase](gg294123\(v=exchg.10\).md), [JetDetachDatabase](gg269266\(v=exchg.10\).md) and [JetResetSessionContext](gg269250\(v=exchg.10\).md).
 
 #### Requirements
 
@@ -116,8 +118,8 @@ This function reduces the work the instance will have to do when terminated, but
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetCloseDatabase](gg294123\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetDetachDatabase](gg269266\(v=exchg.10\).md)  

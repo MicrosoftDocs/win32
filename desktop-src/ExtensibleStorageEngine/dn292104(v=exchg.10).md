@@ -57,7 +57,7 @@ public static void JetBeginExternalBackupInstance(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance prepare for backup.
 

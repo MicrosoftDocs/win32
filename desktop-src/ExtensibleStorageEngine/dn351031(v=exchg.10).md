@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETINFO constructor
+# JET_SETINFO constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_SETINFO()
 
 #### Reference
 
-[JET\_SETINFO class](dn351059\(v=exchg.10\).md)
+[JET_SETINFO class](dn351059\(v=exchg.10\).md)
 
-[JET\_SETINFO members](dn351029\(v=exchg.10\).md)
+[JET_SETINFO members](dn351029\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

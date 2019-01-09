@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLECREATE.szCallback property
+# JET_TABLECREATE.szCallback property
 
-Gets or sets a callback function to use for the table. This is in the form "module\!functionName", and assumes unmanaged code. See **JetRegisterCallback(JET\_SESID, JET\_TABLEID, JET\_cbtyp, JET\_CALLBACK, IntPtr, JET\_HANDLE)** for an alternative.
+Gets or sets a callback function to use for the table. This is in the form "module\!functionName", and assumes unmanaged code. See **JetRegisterCallback(JET_SESID, JET_TABLEID, JET_cbtyp, JET_CALLBACK, IntPtr, JET_HANDLE)** for an alternative.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,15 +57,15 @@ public string szCallback { get; set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 
 #### Reference
 
-[JET\_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
 
-[JET\_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

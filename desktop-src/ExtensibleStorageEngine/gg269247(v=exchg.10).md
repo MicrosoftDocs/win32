@@ -33,6 +33,7 @@ The **JetGetLogInfoInstance2** function is used during a backup initiated by [Je
 
 **Windows XP:  JetGetLogInfoInstance2** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetGetLogInfoInstance2(
       __in          JET_INSTANCE instance,
       __out_opt     tchar* szz,
@@ -40,6 +41,7 @@ The **JetGetLogInfoInstance2** function is used during a backup initiated by [Je
       __out_opt     unsigned long* pcbActual,
       __in_out_opt  JET_LOGINFO* pLogInfo
     );
+```
 
 ### Parameters
 
@@ -49,7 +51,7 @@ The instance to use for this call.
 
 For Windows 2000, the API variant that accepts this parameter is not available because only one instance is supported. The use of this one global instance is implied in this case.
 
-For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET\_errRunningInMultiInstanceMode.
+For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET_errRunningInMultiInstanceMode.
 
 *szz*
 
@@ -73,7 +75,7 @@ When this parameter is not present, its value is presumed to be NULL.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -181,9 +183,9 @@ It is important to note that this API does not return an error or warning if the
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET\_LOGINFO](gg294063\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetOpenFile](gg269249\(v=exchg.10\).md)  
 [JetReadFile](gg269257\(v=exchg.10\).md)  

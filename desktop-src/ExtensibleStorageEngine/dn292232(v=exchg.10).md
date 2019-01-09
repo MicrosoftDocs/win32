@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetOpenTempTable2 method
 
-Creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using JetCreateTableColumnIndex. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner. Also see [JetOpenTempTable(JET\_SESID, \[\], Int32, TempTableGrbit, JET\_TABLEID, \[\])](dn292231\(v=exchg.10\).md), [JetOpenTempTable3(JET\_SESID, \[\], Int32, JET\_UNICODEINDEX, TempTableGrbit, JET\_TABLEID, \[\])](dn292233\(v=exchg.10\).md). [JetOpenTemporaryTable(JET\_SESID, JET\_OPENTEMPORARYTABLE)](dn335326\(v=exchg.10\).md).
+Creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using JetCreateTableColumnIndex. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner. Also see [JetOpenTempTable(JET_SESID, \[\], Int32, TempTableGrbit, JET_TABLEID, \[\])](dn292231\(v=exchg.10\).md), [JetOpenTempTable3(JET_SESID, \[\], Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[\])](dn292233\(v=exchg.10\).md). [JetOpenTemporaryTable(JET_SESID, JET_OPENTEMPORARYTABLE)](dn335326\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -75,7 +75,7 @@ public static void JetOpenTempTable2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
@@ -89,14 +89,14 @@ public static void JetOpenTempTable2(
 <!-- end list -->
 
   - numColumns  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Number of column definitions.
 
 <!-- end list -->
 
   - lcid  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The locale ID to use to compare any Unicode key column data in the temporary table. Any locale may be used as long as the appropriate language pack has been installed on the machine.
 
@@ -110,9 +110,9 @@ public static void JetOpenTempTable2(
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
-    Returns the tableid of the temporary table. Closing this tableid with [JetCloseTable(JET\_SESID, JET\_TABLEID)](dn292109\(v=exchg.10\).md) frees the resources associated with the temporary table.
+    Returns the tableid of the temporary table. Closing this tableid with [JetCloseTable(JET_SESID, JET_TABLEID)](dn292109\(v=exchg.10\).md) frees the resources associated with the temporary table.
 
 <!-- end list -->
 

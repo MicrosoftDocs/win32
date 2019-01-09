@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_SPACEHINTS properties
+# JET_SPACEHINTS properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_SPACEHINTS](dn351095\(v=exchg.10\).md) type exposes the following members.
+The [JET_SPACEHINTS](dn351095\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -71,7 +71,7 @@ Top
 
 #### Reference
 
-[JET\_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

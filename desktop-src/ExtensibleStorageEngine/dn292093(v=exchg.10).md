@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.GetTableIndexes method (JET\_SESID, JET\_TABLEID)
+# Api.GetTableIndexes method (JET_SESID, JET_TABLEID)
 
 Iterates over all the indexes in the table, returning information about each one.
 
@@ -56,20 +56,20 @@ public static IEnumerable<IndexInfo> GetTableIndexes(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to retrieve index information for.
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](http://msdn2.microsoft.com/en-us/library/9eekhta0)\<[IndexInfo](dn350919\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0)\<[IndexInfo](dn350919\(v=exchg.10\).md)\>  
 An iterator over an IndexInfo for each index in the table.  
 
 ## See also

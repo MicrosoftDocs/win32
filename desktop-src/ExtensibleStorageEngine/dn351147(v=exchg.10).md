@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_UNICODEINDEX.szLocaleName property
+# JET_UNICODEINDEX.szLocaleName property
 
 Gets or sets the LocaleName to be used when normalizing unicode data.
 
@@ -57,15 +57,15 @@ public string szLocaleName { get; set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 
 #### Reference
 
-[JET\_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
 
-[JET\_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
+[JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

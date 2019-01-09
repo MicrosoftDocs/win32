@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO.genLow property
+# JET_BKINFO.genLow property
 
 Gets the low generation of the backup.
 
@@ -55,15 +55,15 @@ public int genLow { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
-[JET\_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](hh557851\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

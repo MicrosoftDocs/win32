@@ -31,6 +31,7 @@ The **JetGetSecondaryIndexBookmark** function retrieves a special bookmark for t
 
 **Windows XP:  JetGetSecondaryIndexBookmark** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetGetSecondaryIndexBookmark(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -42,6 +43,7 @@ The **JetGetSecondaryIndexBookmark** function retrieves a special bookmark for t
       __out_opt     unsigned long* pcbPrimaryKeyActual,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -91,7 +93,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -154,7 +156,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 On success, the secondary index bookmark for the index entry at the current position of a cursor will be returned in the output buffers. No change to the database state will occur.
 
-On failure, the state of the output buffers and the actual size of the secondary index bookmark will be undefined unless JET\_errBufferTooSmall was returned. In the event that JET\_errBufferTooSmall is returned, the output buffers will contain as much of the secondary index bookmark as will fit in the space provided and the actual size of the secondary index bookmark will be accurate. In any case, no change to the database state will occur.
+On failure, the state of the output buffers and the actual size of the secondary index bookmark will be undefined unless JET_errBufferTooSmall was returned. In the event that JET_errBufferTooSmall is returned, the output buffers will contain as much of the secondary index bookmark as will fit in the space provided and the actual size of the secondary index bookmark will be accurate. In any case, no change to the database state will occur.
 
 #### Remarks
 
@@ -170,7 +172,7 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 
   - It is meaningless to compare bookmarks of records from different tables against each other.
 
-  - A bookmark is always less than or equal to JET\_cbBookmarkMost (256) bytes in length prior to Windows Vista. On Windows Vista and later releases, bookmarks can be larger. The maximum size of a bookmark is equal to the current value of JET\_paramKeyMost + 1.
+  - A bookmark is always less than or equal to JET_cbBookmarkMost (256) bytes in length prior to Windows Vista. On Windows Vista and later releases, bookmarks can be larger. The maximum size of a bookmark is equal to the current value of JET_paramKeyMost + 1.
 
 Keys should generally be treated as opaque chunks of data. No attempt should be made to exploit the internal structure of this data. However, the following properties can be known about all ESENT keys:
 
@@ -178,7 +180,7 @@ Keys should generally be treated as opaque chunks of data. No attempt should be 
 
   - It is meaningless to compare keys of index entries from different indexes against each other.
 
-  - A key is always less than or equal to JET\_cbKeyMost (255) bytes in length prior to Windows Vista. On Windows Vista and later releases, keys can be larger. The maximum size of a key is equal to the current value of JET\_paramKeyMost.
+  - A key is always less than or equal to JET_cbKeyMost (255) bytes in length prior to Windows Vista. On Windows Vista and later releases, keys can be larger. The maximum size of a key is equal to the current value of JET_paramKeyMost.
 
 #### Requirements
 
@@ -214,10 +216,10 @@ Keys should generally be treated as opaque chunks of data. No attempt should be 
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetBookmark](gg269221\(v=exchg.10\).md)  
 [JetGotoSecondaryIndexBookmark](gg269180\(v=exchg.10\).md)  
 [JetRetrieveKey](gg294051\(v=exchg.10\).md)  

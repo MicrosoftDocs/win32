@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OPENTEMPORARYTABLE.ToString method
+# JET_OPENTEMPORARYTABLE.ToString method
 
-Returns a [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET\_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md).
+Returns a [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,16 +51,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
-A [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET\_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md).  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+A [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md).  
 
 ## See also
 
 #### Reference
 
-[JET\_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
 
-[JET\_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

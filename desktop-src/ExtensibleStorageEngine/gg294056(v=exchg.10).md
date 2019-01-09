@@ -14,25 +14,26 @@ api_type:
 - COM
 api_location: 
 ROBOTS: INDEX,FOLLOW
-
 ---
 
-# JET\_PSTR
+# JET_PSTR
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_PSTR
+## JET_PSTR
 
-The JET\_PSTR data type contains a null-terminated ASCII string (char \*).
+The JET_PSTR data type contains a null-terminated ASCII string (char \*).
 
-**Windows Vista:  JET\_PSTR** is introduced in Windows Vista.
+**Windows Vista:  JET_PSTR** is introduced in Windows Vista.
 
+```cpp
     typedef __nullterminated char *  JET_PSTR;
+```
 
 ### Data Types
 
-JET\_PSTR
+JET_PSTR
 
 Null-terminated, ASCII string (char \*).
 

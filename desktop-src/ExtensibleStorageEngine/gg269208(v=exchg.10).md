@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCreateDatabase2** function creates and attaches a database file to be used with the ESE database engine with a maximum database size specified. Calling **JetCreateDatabase2** with *cpgDatabaseSizeMax* set to zero is identical to calling [JetCreateDatabase](gg269212\(v=exchg.10\).md) with *szConnect* set to NULL. Currently up to seven databases can be created per instance.
 
+```cpp
     JET_ERR JET_API JetCreateDatabase2(
       __in          JET_SESID sesid,
       __in          const tchar* szFilename,
@@ -38,6 +39,7 @@ The **JetCreateDatabase2** function creates and attaches a database file to be u
       __out         JET_DBID* pdbid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -93,7 +95,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -173,7 +175,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### Remarks
 
-If the database specified in *szFilename* exists and JET\_bitDbOverwriteExisting was not passed in, the API call will fail. If JET\_bitDbOverwriteExisting was passed in, the old database file will be deleted first.
+If the database specified in *szFilename* exists and JET_bitDbOverwriteExisting was not passed in, the API call will fail. If JET_bitDbOverwriteExisting was passed in, the old database file will be deleted first.
 
 If the API creates a database file and then hits another error, it will clean up and delete the file.
 
@@ -218,10 +220,10 @@ If the API creates a database file and then hits another error, it will clean up
 #### See Also
 
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_DBID](gg269248\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_DBID](gg269248\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetCloseDatabase](gg294123\(v=exchg.10\).md)  
 [JetCreateDatabase](gg269212\(v=exchg.10\).md)  

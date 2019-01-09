@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CP enumeration
+# JET_CP enumeration
 
 Codepage for an ESENT column.
 

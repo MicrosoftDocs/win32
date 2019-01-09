@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LGPOS.isec property
+# JET_LGPOS.isec property
 
 Gets or sets the sector number represented by this log position.
 
@@ -57,15 +57,15 @@ public int isec { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
 
-[JET\_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](hh566576\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -17,27 +17,29 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECORDLIST Structure
+# JET_RECORDLIST Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_RECORDLIST Structure
+## JET_RECORDLIST Structure
 
-The **JET\_RECORDLIST** structure finds records that are in the intersection of specified index ranges when they are used with the [JetIntersectIndexes](gg269289\(v=exchg.10\).md) function.
+The **JET_RECORDLIST** structure finds records that are in the intersection of specified index ranges when they are used with the [JetIntersectIndexes](gg269289\(v=exchg.10\).md) function.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_TABLEID tableid;
       unsigned long cRecord;
       JET_COLUMNID columnidBookmark;
     } JET_RECORDLIST;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the **JET\_RECORDLIST** structure, in bytes.
+The size of the **JET_RECORDLIST** structure, in bytes.
 
 **tableid**
 
@@ -53,7 +55,7 @@ The column identifier of the bookmark column in the temporary table.
 
 ### Remarks
 
-The temporary table that is identified by **tableid** has a single column. That single column holds bookmarks, and each record should fit in a buffer of size JET\_cbBookmarkMost bytes.
+The temporary table that is identified by **tableid** has a single column. That single column holds bookmarks, and each record should fit in a buffer of size JET_cbBookmarkMost bytes.
 
 ### Requirements
 
@@ -81,9 +83,9 @@ The temporary table that is identified by **tableid** has a single column. That 
 
 ### See Also
 
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetIntersectIndexes](gg269289\(v=exchg.10\).md)  
 [JetRollback](gg269273\(v=exchg.10\).md)

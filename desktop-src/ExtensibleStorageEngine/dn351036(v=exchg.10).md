@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETRIEVECOLUMN constructor
+# JET_RETRIEVECOLUMN constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_RETRIEVECOLUMN()
 
 #### Reference
 
-[JET\_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
 
-[JET\_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

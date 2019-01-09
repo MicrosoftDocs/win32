@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.ResetIndexRange method
 
-Removes an index range created with [JetSetIndexRange(JET\_SESID, JET\_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) or [TrySetIndexRange(JET\_SESID, JET\_TABLEID, SetIndexRangeGrbit)](dn334099\(v=exchg.10\).md). If no index range is present this method does nothing.
+Removes an index range created with [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) or [TrySetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334099\(v=exchg.10\).md). If no index range is present this method does nothing.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -56,14 +56,14 @@ public static void ResetIndexRange(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to remove the index range on.
 

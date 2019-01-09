@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Session Implicit conversion (Session to JET\_SESID)
+# Session Implicit conversion (Session to JET_SESID)
 
-Implicit conversion operator from a Session to a JET\_SESID. This allows a Session to be used with APIs which expect a JET\_SESID.
+Implicit conversion operator from a Session to a JET_SESID. This allows a Session to be used with APIs which expect a JET_SESID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,8 +63,8 @@ public static implicit operator JET_SESID (
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
-The JET\_SESID of the session.  
+Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+The JET_SESID of the session.  
 
 ## See also
 

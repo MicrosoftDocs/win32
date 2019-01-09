@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_RECSIZE properties
+# JET_RECSIZE properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
+The [JET_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -91,7 +91,7 @@ Top
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

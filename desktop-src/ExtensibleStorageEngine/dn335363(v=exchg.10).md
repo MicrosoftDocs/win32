@@ -30,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_PFNDURABLECOMMITCALLBACK delegate
+# JET_PFNDURABLECOMMITCALLBACK delegate
 
-Callback for JET\_paramDurableCommitCallback.
+Callback for JET_paramDurableCommitCallback.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -61,14 +61,14 @@ public delegate JET_err JET_PFNDURABLECOMMITCALLBACK(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     Instance to use.
 
 <!-- end list -->
 
   - pCommitIdSeen  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_COMMIT\_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
     
     Commit-id that has just been flushed.
 
@@ -81,7 +81,7 @@ public delegate JET_err JET_PFNDURABLECOMMITCALLBACK(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_err](hh564840\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
 
 ## See also
 

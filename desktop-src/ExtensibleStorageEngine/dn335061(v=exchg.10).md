@@ -26,16 +26,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CONVERT class
+# JET_CONVERT class
 
 **NOTE: This API is now obsolete.**
 
-Conversion options for [JetCompact(JET\_SESID, String, String, JET\_PFNSTATUS, JET\_CONVERT, CompactGrbit)](dn292112\(v=exchg.10\).md). This feature was discontinued in Windows Server 2003.
+Conversion options for [JetCompact(JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](dn292112\(v=exchg.10\).md). This feature was discontinued in Windows Server 2003.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  Microsoft.Isam.Esent.Interop.JET\_CONVERT  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  Microsoft.Isam.Esent.Interop.JET_CONVERT  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,7 +63,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_CONVERT members](dn335114\(v=exchg.10\).md)
+[JET_CONVERT members](dn335114\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

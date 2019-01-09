@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetUnregisterCallback method
 
-Configures the database engine to stop issuing notifications to the application as previously requested through [JetRegisterCallback(JET\_SESID, JET\_TABLEID, JET\_cbtyp, JET\_CALLBACK, IntPtr, JET\_HANDLE)](dn332989\(v=exchg.10\).md).
+Configures the database engine to stop issuing notifications to the application as previously requested through [JetRegisterCallback(JET_SESID, JET_TABLEID, JET_cbtyp, JET_CALLBACK, IntPtr, JET_HANDLE)](dn332989\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,30 +63,30 @@ public static void JetUnregisterCallback(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     A cursor opened on the table that the callback should be registered on.
 
 <!-- end list -->
 
   - cbtyp  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_cbtyp](hh564847\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
     
     The callback reasons for which the application no longer wishes to receive notifications.
 
 <!-- end list -->
 
   - callbackId  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_HANDLE](hh558081\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](hh558081\(v=exchg.10\).md)  
     
-    The handle of the registered callback that was returned by [JetRegisterCallback(JET\_SESID, JET\_TABLEID, JET\_cbtyp, JET\_CALLBACK, IntPtr, JET\_HANDLE)](dn332989\(v=exchg.10\).md).
+    The handle of the registered callback that was returned by [JetRegisterCallback(JET_SESID, JET_TABLEID, JET_cbtyp, JET_CALLBACK, IntPtr, JET_HANDLE)](dn332989\(v=exchg.10\).md).
 
 ## See also
 

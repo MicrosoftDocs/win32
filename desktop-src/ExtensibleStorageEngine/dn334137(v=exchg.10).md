@@ -53,7 +53,7 @@ public IList<byte> DefaultValue { get; }
 
 #### Property value
 
-Type: [System.Collections.Generic.IList](http://msdn2.microsoft.com/en-us/library/5y536ey6)\<[Byte](http://msdn2.microsoft.com/en-us/library/yyb1w04y)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<[Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y)\>  
 
 ## See also
 

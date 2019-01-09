@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_THREADSTATS structure
+# JET_THREADSTATS structure
 
 Contains cumulative statistics on the work performed by the database engine on the current thread. This information is returned via JetGetThreadStats.
 
@@ -57,7 +57,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

@@ -60,21 +60,21 @@ public static void JetCreateTableColumnIndex3(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to which to add the new table.
 
 <!-- end list -->
 
   - tablecreate  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLECREATE](dn351072\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](dn351072\(v=exchg.10\).md)  
     
     Object describing the table to create.
 

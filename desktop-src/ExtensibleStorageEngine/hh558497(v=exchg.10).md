@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET\_COLUMNID.ToString method
+# JET_COLUMNID.ToString method
 
 Include protected members  
 Include inherited members  
@@ -34,7 +34,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh163501(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="https://msdn.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +51,9 @@ Top
 
 #### Reference
 
-[JET\_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
 
-[JET\_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

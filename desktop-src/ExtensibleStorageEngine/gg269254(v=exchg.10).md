@@ -17,22 +17,24 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_PCSTR
+# JET_PCSTR
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_PCSTR
+## JET_PCSTR
 
-The **JET\_PCSTR** data type contains a null-terminated, constant **ASCII** string (char \*).
+The **JET_PCSTR** data type contains a null-terminated, constant **ASCII** string (char \*).
 
-**Windows Vista:  JET\_PCSTR** is introduced in Windows Vista.
+**Windows Vista:  JET_PCSTR** is introduced in Windows Vista.
 
+```cpp
     typedef __nullterminated const char *  JET_PCSTR;
+```
 
 ### Data Types
 
-JET\_PCSTR
+JET_PCSTR
 
 Null-terminated, constant ASCII string (char \*).
 

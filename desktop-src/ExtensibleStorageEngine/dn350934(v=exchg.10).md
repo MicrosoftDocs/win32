@@ -22,9 +22,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Instance.Init method (JET\_RSTINFO, InitGrbit)
+# Instance.Init method (JET_RSTINFO, InitGrbit)
 
-Initialize the JET\_INSTANCE. This API requires at least the Vista version of ESENT.
+Initialize the JET_INSTANCE. This API requires at least the Vista version of ESENT.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ public void Init(
 #### Parameters
 
   - recoveryOptions  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_RSTINFO](dn335235\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RSTINFO](dn335235\(v=exchg.10\).md)  
     
     Additional recovery parameters for remapping databases during recovery, position where to stop recovery at, or recovery status.
 

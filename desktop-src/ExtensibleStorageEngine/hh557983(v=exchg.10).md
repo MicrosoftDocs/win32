@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO.genHigh property
+# JET_BKINFO.genHigh property
 
 Gets or sets the high generation of the backup.
 
@@ -57,15 +57,15 @@ public int genHigh { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
-[JET\_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](hh557851\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

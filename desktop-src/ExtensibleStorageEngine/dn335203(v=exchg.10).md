@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTINFO.grbit property
+# JET_OBJECTINFO.grbit property
 
 Gets the table options.
 
@@ -61,9 +61,9 @@ Type: [Microsoft.Isam.Esent.Interop.ObjectInfoGrbit](hh163294\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
 
-[JET\_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

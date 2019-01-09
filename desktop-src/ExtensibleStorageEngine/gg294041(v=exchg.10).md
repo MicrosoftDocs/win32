@@ -31,12 +31,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetCurrentIndex** function determines the name of the current index of a given cursor. This name is also used to later re-select that index as the current index using [JetSetCurrentIndex](gg294046\(v=exchg.10\).md). It can also be used to discover the properties of that index using [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetGetCurrentIndex(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __out         JET_PSTR szIndexName,
       __in          unsigned long cchIndexName
     );
+```
 
 ### Parameters
 
@@ -58,7 +60,7 @@ The maximum size in characters of the output buffer.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -110,7 +112,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, the name of the current index of the given cursor will be returned in the output buffer. If JET\_wrnBufferTruncated is returned then the output buffer will contain as much of the index name as will fit in the space provided. If the output buffer is at least one character in length then the string returned in that buffer will be null terminated. No change to the database state will occur.
+On success, the name of the current index of the given cursor will be returned in the output buffer. If JET_wrnBufferTruncated is returned then the output buffer will contain as much of the index name as will fit in the space provided. If the output buffer is at least one character in length then the string returned in that buffer will be null terminated. No change to the database state will occur.
 
 On failure, the state of the output buffer will be undefined. No change to the database state will occur.
 
@@ -118,7 +120,7 @@ On failure, the state of the output buffer will be undefined. No change to the d
 
 If there is no current index for the cursor then an empty string will be returned. This can happen when the cursor is on the clustered index of the table and no primary index was defined. This index is known as the sequential index of the table and has no definition. In any case, setting the current index to an empty string using [JetSetCurrentIndex](gg294046\(v=exchg.10\).md) will select the clustered index regardless of the presence of a primary index definition.
 
-There is an important bug in this function that is present in all releases. If the output buffer is too small to receive the entire index name and the output buffer is at least one character in length then JET\_wrnBufferTruncated will NOT be returned. JET\_errSuccess will be returned instead. To avoid this issue, the output buffer should always be at least JET\_cbNameMost + 1 (65) characters in length.
+There is an important bug in this function that is present in all releases. If the output buffer is too small to receive the entire index name and the output buffer is at least one character in length then JET_wrnBufferTruncated will NOT be returned. JET_errSuccess will be returned instead. To avoid this issue, the output buffer should always be at least JET_cbNameMost + 1 (65) characters in length.
 
 #### Requirements
 
@@ -158,9 +160,9 @@ There is an important bug in this function that is present in all releases. If t
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
 [JetSetCurrentIndex](gg294046\(v=exchg.10\).md)
 

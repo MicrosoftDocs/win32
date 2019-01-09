@@ -27,13 +27,13 @@ This procedure will initialize ESE and create a database.
     
     **Windows XP and later:** This function is available in Windows XP and later. On Windows 2000, only one instance is supported and that instance is created implicitly
 
-2.  [JetSetSystemParameter](gg294044\(v=exchg.10\).md): System parameters that the affect the physical layout such as the JET\_paramLogFilePath and JET\_paramSystemPath must be set before initializing the instance with [JetInit](gg294068\(v=exchg.10\).md). The parameters set at this stage are set for all databases created in the instance. [JetSetSystemParameter](gg294044\(v=exchg.10\).md) is the only function that can use the instance before it is initialized with [JetInit](gg294068\(v=exchg.10\).md).
+2.  [JetSetSystemParameter](gg294044\(v=exchg.10\).md): System parameters that the affect the physical layout such as the JET_paramLogFilePath and JET_paramSystemPath must be set before initializing the instance with [JetInit](gg294068\(v=exchg.10\).md). The parameters set at this stage are set for all databases created in the instance. [JetSetSystemParameter](gg294044\(v=exchg.10\).md) is the only function that can use the instance before it is initialized with [JetInit](gg294068\(v=exchg.10\).md).
 
 3.  [JetInit](gg294068\(v=exchg.10\).md): Initializes the instance. Instance must be initialized with [JetInit](gg294068\(v=exchg.10\).md) before it can be used with any other functions.
 
-4.  [JetBeginSession](gg294131\(v=exchg.10\).md): Creates the session for all subsequent transactions. All database transactions take place in the context of the session ([JET\_SESID](gg269253\(v=exchg.10\).md)).
+4.  [JetBeginSession](gg294131\(v=exchg.10\).md): Creates the session for all subsequent transactions. All database transactions take place in the context of the session ([JET_SESID](gg269253\(v=exchg.10\).md)).
 
-5.  [JetCreateDatabase](gg269212\(v=exchg.10\).md): Creates the database and returns a handle to the database ID ([JET\_DBID](gg269248\(v=exchg.10\).md)).
+5.  [JetCreateDatabase](gg269212\(v=exchg.10\).md): Creates the database and returns a handle to the database ID ([JET_DBID](gg269248\(v=exchg.10\).md)).
     
     If the database already exists, step 5 above is replaced by the following two steps:
     

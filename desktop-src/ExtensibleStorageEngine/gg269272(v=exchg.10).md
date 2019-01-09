@@ -33,6 +33,7 @@ The **JetExternalRestore2** function restores an external backup that was taken 
 
 **Windows XP:  JetExternalRestore2** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetExternalRestore2(
       __in          JET_PSTR szCheckpointFilePath,
       __in          JET_PSTR szLogPath,
@@ -45,6 +46,7 @@ The **JetExternalRestore2** function restores an external backup that was taken 
       __in_opt      JET_PSTR szTargetInstanceCheckpointPath,
       __in          JET_PFNSTATUS pfn
     );
+```
 
 ### Parameters
 
@@ -58,7 +60,7 @@ The path or directory for the logs for the final phase (undo) of the recovery an
 
 *rgrstmap*
 
-This is an array of [JET\_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of the databases to restore.
+This is an array of [JET_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of the databases to restore.
 
 *crstfilemap*
 
@@ -90,7 +92,7 @@ The status callback, which reports the progress of the recovery.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -198,10 +200,10 @@ See [JetExternalRestore](gg294088\(v=exchg.10\).md).
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_LOGINFO](gg294063\(v=exchg.10\).md)  
-[JET\_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET\_RSTMAP](gg294077\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
+[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
+[JET_RSTMAP](gg294077\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetExternalRestore](gg294088\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)

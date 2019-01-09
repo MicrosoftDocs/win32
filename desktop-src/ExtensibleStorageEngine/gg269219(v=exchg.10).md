@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKLOGTIME Structure
+# JET_BKLOGTIME Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_BKLOGTIME Structure
+## JET_BKLOGTIME Structure
 
-The **JET\_BKLOGTIME** structure holds the date and time elements of an event. It is an extension of [JET\_LOGTIME](gg294089\(v=exchg.10\).md).
+The **JET_BKLOGTIME** structure holds the date and time elements of an event. It is an extension of [JET_LOGTIME](gg294089\(v=exchg.10\).md).
 
-**Windows Vista:  JET\_BKLOGTIME** is introduced in Windows Vista.
+**Windows Vista:  JET_BKLOGTIME** is introduced in Windows Vista.
 
+```cpp
     typedef struct {
       char bSeconds;
       char bMinutes;
@@ -50,32 +51,33 @@ The **JET\_BKLOGTIME** structure holds the date and time elements of an event. I
         };
       };
     } JET_BKLOGTIME;
+```
 
 ### Members
 
 **bSeconds**
 
-The time of the event in seconds. This can be 0 (zero) to 60. 0 (zero) is used when the **JET\_BKLOGTIME** structure is "null".
+The time of the event in seconds. This can be 0 (zero) to 60. 0 (zero) is used when the **JET_BKLOGTIME** structure is "null".
 
 **bMinutes**
 
-The time of the event in minutes. This can be 0 (zero) to 60. 0 (zero) is used when the **JET\_BKLOGTIME** structure is "null".
+The time of the event in minutes. This can be 0 (zero) to 60. 0 (zero) is used when the **JET_BKLOGTIME** structure is "null".
 
 **bHours**
 
-The time of the event in hours. This can be 0 (zero) to 24. 0 (zero) is used when the **JET\_BKLOGTIME** structure is "null".
+The time of the event in hours. This can be 0 (zero) to 24. 0 (zero) is used when the **JET_BKLOGTIME** structure is "null".
 
 **bDay**
 
-The day of the month of the event. This can be 0 (zero) to 31. 0 (zero) is used when the **JET\_BKLOGTIME** structure is "null".
+The day of the month of the event. This can be 0 (zero) to 31. 0 (zero) is used when the **JET_BKLOGTIME** structure is "null".
 
 **bMonth**
 
-The month of the year of the event. This can be 0 (zero) to 12. 0 (zero) is used when the **JET\_BKLOGTIME** structure is "null".
+The month of the year of the event. This can be 0 (zero) to 12. 0 (zero) is used when the **JET_BKLOGTIME** structure is "null".
 
 **bYear**
 
-The year (offset by 1900) of the event. To achieve the actual year, add 1900 to this value. 0 (zero) is used when the **JET\_BKLOGTIME** structure is "null".
+The year (offset by 1900) of the event. To achieve the actual year, add 1900 to this value. 0 (zero) is used when the **JET_BKLOGTIME** structure is "null".
 
 **bFiller1**
 
@@ -155,6 +157,6 @@ This structure is used when debugging.
 
 ### See Also
 
-[JET\_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)
+[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
+[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
 

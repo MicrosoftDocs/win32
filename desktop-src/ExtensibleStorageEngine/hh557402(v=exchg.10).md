@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET\_DBID.ToString method
+# JET_DBID.ToString method
 
 Include protected members  
 Include inherited members  
@@ -34,7 +34,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh596160(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="https://msdn.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -51,9 +51,9 @@ Top
 
 #### Reference
 
-[JET\_DBID structure](hh596176\(v=exchg.10\).md)
+[JET_DBID structure](hh596176\(v=exchg.10\).md)
 
-[JET\_DBID members](hh566162\(v=exchg.10\).md)
+[JET_DBID members](hh566162\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

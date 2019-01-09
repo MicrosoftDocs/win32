@@ -22,9 +22,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC.Equals method (Object)
+# JET_DBINFOMISC.Equals method (Object)
 
-Determines whether the specified [Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b) is equal to the current [Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b).
+Determines whether the specified [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b) is equal to the current [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,22 +53,22 @@ public override bool Equals(
 #### Parameters
 
   - obj  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
-    The [Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b) to compare with the current [Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b).
+    The [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b) to compare with the current [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b).
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
-True if the specified [Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b) is equal to the current [Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b); otherwise, false.  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+True if the specified [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b) is equal to the current [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b); otherwise, false.  
 
 ## See also
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Equals overload](hh577631\(v=exchg.10\).md)
 

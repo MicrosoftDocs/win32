@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # Int64ColumnValue class
 
-An [Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek) column value.
+An [Int64](https://msdn.microsoft.com/en-us/library/6yy583ek) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)\>  
       Microsoft.Isam.Esent.Interop.Int64ColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

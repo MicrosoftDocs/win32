@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CONDITIONALCOLUMN constructor
+# JET_CONDITIONALCOLUMN constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_CONDITIONALCOLUMN()
 
 #### Reference
 
-[JET\_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
 
-[JET\_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

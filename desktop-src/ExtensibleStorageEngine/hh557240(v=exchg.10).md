@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LS.Value property
+# JET_LS.Value property
 
 Gets or sets the value of the handle.
 
@@ -57,15 +57,15 @@ public IntPtr Value { get; set; }
 
 #### Property value
 
-Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
 
 ## See also
 
 #### Reference
 
-[JET\_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](hh557499\(v=exchg.10\).md)
 
-[JET\_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](hh596466\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

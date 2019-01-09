@@ -31,9 +31,11 @@ The **JetStopBackupInstance** function prevents streaming backup-related activit
 
 **Windows XP:**  **JetStopBackupInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetStopBackupInstance(
       __in          JET_INSTANCE instance
     );
+```
 
 ### Parameters
 
@@ -43,7 +45,7 @@ Identifies the running instance to use for the API call.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -76,7 +78,7 @@ If this function fails, no steps to prepare for the backup termination on the in
 
 #### Remarks
 
-Backup is usually triggered by an event outside the process mechanism and by using this API, the ESENT application itself will make any further calls to the streaming backup APIs to fail. The majority of streaming backup APIs will start failing with JET\_errBackupAbortByServer. As such, any streaming backup progress (such as [JetReadFileInstance](gg294060\(v=exchg.10\).md)) will return an error. Backup operations which are part of the backup termination (like [JetEndExternalBackupInstance](gg269204\(v=exchg.10\).md)) will still be allowed.
+Backup is usually triggered by an event outside the process mechanism and by using this API, the ESENT application itself will make any further calls to the streaming backup APIs to fail. The majority of streaming backup APIs will start failing with JET_errBackupAbortByServer. As such, any streaming backup progress (such as [JetReadFileInstance](gg294060\(v=exchg.10\).md)) will return an error. Backup operations which are part of the backup termination (like [JetEndExternalBackupInstance](gg269204\(v=exchg.10\).md)) will still be allowed.
 
 #### Requirements
 
@@ -112,8 +114,8 @@ Backup is usually triggered by an event outside the process mechanism and by usi
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetEndExternalBackupInstance](gg269204\(v=exchg.10\).md)  
 [JetReadFileInstance](gg294060\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)

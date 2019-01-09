@@ -26,41 +26,41 @@ _**Applies to:** Windows | Windows Server_
 
 These constants are obsolete and should not be used in your application. They are defined in ESENT.H for legacy applications.
 
-JET\_DbInfoLangid
+JET_DbInfoLangid
 
-JET\_bitTableClassMask
+JET_bitTableClassMask
 
-JET\_bitTableClassNone
+JET_bitTableClassNone
 
-JET\_bitTableClass1
+JET_bitTableClass1
 
-JET\_bitTableClass2
+JET_bitTableClass2
 
-JET\_bitTableClass3
+JET_bitTableClass3
 
-JET\_bitTableClass4
+JET_bitTableClass4
 
-JET\_bitTableClass5
+JET_bitTableClass5
 
-JET\_bitTableClass6
+JET_bitTableClass6
 
-JET\_bitTableClass7
+JET_bitTableClass7
 
-JET\_bitTableClass8
+JET_bitTableClass8
 
-JET\_bitTableClass9
+JET_bitTableClass9
 
-JET\_bitTableClass10
+JET_bitTableClass10
 
-JET\_bitTableClass11
+JET_bitTableClass11
 
-JET\_bitTableClass12
+JET_bitTableClass12
 
-JET\_bitTableClass13
+JET_bitTableClass13
 
-JET\_bitTableClass14
+JET_bitTableClass14
 
-JET\_bitTableClass15
+JET_bitTableClass15
 
 ### Requirements
 
