@@ -56,7 +56,7 @@ public static JET_ExceptionAction ExceptionAction { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_ExceptionAction](dn335150\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_ExceptionAction](dn335150\(v=exchg.10\).md)  
 
 ## See also
 

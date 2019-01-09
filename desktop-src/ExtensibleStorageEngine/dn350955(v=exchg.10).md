@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.CleanupMismatchedLogFiles property
 
-Gets or sets a value indicating whether JetInit fails when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit(JET\_INSTANCE)](dn292210\(v=exchg.10\).md) will successfully recover the databases but will fail with [LogFileSizeMismatchDatabasesConsistent](hh564840\(v=exchg.10\).md) to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size. This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
+Gets or sets a value indicating whether JetInit fails when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit(JET_INSTANCE)](dn292210\(v=exchg.10\).md) will successfully recover the databases but will fail with [LogFileSizeMismatchDatabasesConsistent](hh564840\(v=exchg.10\).md) to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size. This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ public bool CleanupMismatchedLogFiles { get; set; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 ## See also
 

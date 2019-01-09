@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETINFO Structure
+# JET_SETINFO Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SETINFO Structure
+## JET_SETINFO Structure
 
-The **JET\_SETINFO** structure contains optional input parameters for [JetSetColumn](gg294137\(v=exchg.10\).md). A **NULL** pointer can be passed where a pointer to this structure would otherwise be passed. The meaning of passing a **NULL** is the same as passing **JET\_SETINFO** with **cbStruct** set to sizeof(JET\_SETINFO), **ibLongValue** set to 0 (zero) and **itagSequence** set to 1.
+The **JET_SETINFO** structure contains optional input parameters for [JetSetColumn](gg294137\(v=exchg.10\).md). A **NULL** pointer can be passed where a pointer to this structure would otherwise be passed. The meaning of passing a **NULL** is the same as passing **JET_SETINFO** with **cbStruct** set to sizeof(JET_SETINFO), **ibLongValue** set to 0 (zero) and **itagSequence** set to 1.
 
     typedef struct {
       unsigned long cbStruct;
@@ -36,17 +36,17 @@ The **JET\_SETINFO** structure contains optional input parameters for [JetSetCol
 
 **cbStruct**
 
-The size, in bytes, of the **JET\_SETINFO**. This value confirms the presence of the following fields.
+The size, in bytes, of the **JET_SETINFO**. This value confirms the presence of the following fields.
 
 **ibLongValue**
 
-The offset to the first byte to be set in a column of type [JET\_coltypLongBinary](gg269213\(v=exchg.10\).md) or [JET\_coltypLongText](gg269213\(v=exchg.10\).md).
+The offset to the first byte to be set in a column of type [JET_coltypLongBinary](gg269213\(v=exchg.10\).md) or [JET_coltypLongText](gg269213\(v=exchg.10\).md).
 
 **itagSequence**
 
 Describes the sequence number of value in a multi-valued column to be set. The array of values is one-based. The first value is sequence 1, not 0 (zero). If the record column has only one value then 1 should be passed as the **itagSequence** if that value is being replaced. A value of 0 (zero) means to add a new column value instance to the end of the sequence of column values.
 
-With a column that can contain multiple values, it is only possible to use a sequence number larger than 1 in [JetSetColumn](gg294137\(v=exchg.10\).md) and [JetRetrieveColumn](gg269198\(v=exchg.10\).md) or 0 in [JetSetColumn](gg294137\(v=exchg.10\).md). In the current implementation of the engine, any column that was created with JET\_bitColumnTagged can contain multiple values. Columns created with JET\_bitColumnMultiValued differ from multi-valued tagged columns only in the way that they are indexed. See [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) for more information.
+With a column that can contain multiple values, it is only possible to use a sequence number larger than 1 in [JetSetColumn](gg294137\(v=exchg.10\).md) and [JetRetrieveColumn](gg269198\(v=exchg.10\).md) or 0 in [JetSetColumn](gg294137\(v=exchg.10\).md). In the current implementation of the engine, any column that was created with JET_bitColumnTagged can contain multiple values. Columns created with JET_bitColumnMultiValued differ from multi-valued tagged columns only in the way that they are indexed. See [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) for more information.
 
 ### Requirements
 

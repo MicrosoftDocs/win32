@@ -34,9 +34,9 @@ ROBOTS: INDEX,FOLLOW
 
 # BackupGrbit enumeration
 
-Options for [JetBackupInstance(JET\_INSTANCE, String, BackupGrbit, JET\_PFNSTATUS)](dn292102\(v=exchg.10\).md).
+Options for [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](dn292102\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

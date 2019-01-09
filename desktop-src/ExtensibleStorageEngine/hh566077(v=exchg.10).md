@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_PFNREALLOC delegate
+# JET_PFNREALLOC delegate
 
 Callback used by JetEnumerateColumns to allocate memory for its output buffers.
 
@@ -65,28 +65,28 @@ public delegate IntPtr JET_PFNREALLOC(
 #### Parameters
 
   - context  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
     Context given to JetEnumerateColumns.
 
 <!-- end list -->
 
   - memory  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
     If non-zero, a pointer to a memory block previously allocated by this callback.
 
 <!-- end list -->
 
   - requestedSize  
-    Type: [System.UInt32](http://msdn2.microsoft.com/en-us/library/ctys3981)  
+    Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981)  
     
     The new size of the memory block (in bytes). If this is 0 and a memory block is specified, that memory block will be freed.
 
 #### Return value
 
-Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
-A pointer to newly allocated memory. If memory could not be allocated then [Zero](http://msdn2.microsoft.com/en-us/library/c61h0w61) should be returned.  
+Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
+A pointer to newly allocated memory. If memory could not be allocated then [Zero](https://msdn.microsoft.com/en-us/library/c61h0w61) should be returned.  
 
 ## See also
 

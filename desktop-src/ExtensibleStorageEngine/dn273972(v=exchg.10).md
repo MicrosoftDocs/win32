@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # DoubleColumnValue class
 
-A [Double](http://msdn2.microsoft.com/en-us/library/643eft0t) column value.
+A [Double](https://msdn.microsoft.com/en-us/library/643eft0t) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Double](http://msdn2.microsoft.com/en-us/library/643eft0t)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Double](https://msdn.microsoft.com/en-us/library/643eft0t)\>  
       Microsoft.Isam.Esent.Interop.DoubleColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

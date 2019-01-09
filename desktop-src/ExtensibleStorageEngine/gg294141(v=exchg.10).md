@@ -27,14 +27,16 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetDupSession Function
 
-The **JetDupSession** function starts a session, and initializes and returns an ESE session handle ([JET\_SESID](gg269253\(v=exchg.10\).md)). Sessions control all access to the database and are used to control the scope of transactions. The session can be used to begin, commit, or abort transactions. The session is also used to attach, create, or open a database. The session is used as the context for all DDL and DML operations. To increase concurrency and parallel access to the database, multiple sessions can be begun.
+The **JetDupSession** function starts a session, and initializes and returns an ESE session handle ([JET_SESID](gg269253\(v=exchg.10\).md)). Sessions control all access to the database and are used to control the scope of transactions. The session can be used to begin, commit, or abort transactions. The session is also used to attach, create, or open a database. The session is used as the context for all DDL and DML operations. To increase concurrency and parallel access to the database, multiple sessions can be begun.
 
 **Note** This API will act in all ways as a [JetBeginSession](gg294131\(v=exchg.10\).md) called on the instance of the session passed in. This function is not recommended, [JetBeginSession](gg294131\(v=exchg.10\).md) is preferred.
 
+```cpp
     JET_ERR JET_API JetDupSession(
       __in          JET_SESID sesid,
       __out         JET_SESID* psesid
     );
+```
 
 ### Parameters
 
@@ -48,7 +50,7 @@ A pointer to the variable that the session handle initializes on successful retu
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -141,7 +143,7 @@ On failure, there are no available sessions or a new session was unable to be in
 
 #### See Also
 
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetBeginSession](gg294131\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)  

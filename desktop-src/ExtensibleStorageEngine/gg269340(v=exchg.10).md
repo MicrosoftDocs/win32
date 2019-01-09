@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SIGNATURE Structure
+# JET_SIGNATURE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SIGNATURE Structure
+## JET_SIGNATURE Structure
 
-The **JET\_SIGNATURE** structure contains information that uniquely identifies a database.
+The **JET_SIGNATURE** structure contains information that uniquely identifies a database.
 
+```cpp
     typedef struct {
       unsigned long ulRandom;
       JET_LOGTIME logtimeCreate;
       char szComputerName[JET_MAX_COMPUTERNAME_LENGTH + 1];
     } JET_SIGNATURE;
+```
 
 ### Members
 
@@ -40,7 +42,7 @@ A randomly assigned number.
 
 **logtimeCreate**
 
-The [JET\_LOGTIME](gg294089\(v=exchg.10\).md) at the time of [JetCreateDatabase](gg269212\(v=exchg.10\).md) is executed.
+The [JET_LOGTIME](gg294089\(v=exchg.10\).md) at the time of [JetCreateDatabase](gg269212\(v=exchg.10\).md) is executed.
 
 **szComputerName**
 
@@ -48,7 +50,7 @@ The optional string value of the NetBIOS name for the computer. This value may n
 
 ### Remarks
 
-This can be found as an element of [JET\_DBINFOMISC](gg294147\(v=exchg.10\).md).
+This can be found as an element of [JET_DBINFOMISC](gg294147\(v=exchg.10\).md).
 
 ### Requirements
 
@@ -76,7 +78,7 @@ This can be found as an element of [JET\_DBINFOMISC](gg294147\(v=exchg.10\).md).
 
 ### See Also
 
-[JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)  
-[JET\_LOGTIME](gg294089\(v=exchg.10\).md)  
+[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)  
+[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
 [JetCreateDatabase](gg269212\(v=exchg.10\).md)
 

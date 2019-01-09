@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_COLUMNLIST properties
+# JET_COLUMNLIST properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_COLUMNLIST](dn335047\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNLIST](dn335047\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +81,7 @@ Top
 
 #### Reference
 
-[JET\_COLUMNLIST class](dn335047\(v=exchg.10\).md)
+[JET_COLUMNLIST class](dn335047\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OSSNAPID.Equals method (Object)
+# JET_OSSNAPID.Equals method (Object)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,22 +53,22 @@ public override bool Equals(
 #### Parameters
 
   - obj  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
     An object to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 ## See also
 
 #### Reference
 
-[JET\_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
 
-[JET\_OSSNAPID members](hh596352\(v=exchg.10\).md)
+[JET_OSSNAPID members](hh596352\(v=exchg.10\).md)
 
 [Equals overload](hh565466\(v=exchg.10\).md)
 

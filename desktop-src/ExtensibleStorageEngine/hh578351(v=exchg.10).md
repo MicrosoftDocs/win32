@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC.signLog property
+# JET_DBINFOMISC.signLog property
 
 Gets the logfile signature of logs used to modify the database.
 
@@ -55,15 +55,15 @@ public JET_SIGNATURE signLog { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_SIGNATURE](hh564644\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](hh564644\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
-[JET\_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

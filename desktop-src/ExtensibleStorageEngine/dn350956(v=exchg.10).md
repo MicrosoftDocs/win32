@@ -50,7 +50,7 @@ protected override bool ReleaseHandle()
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the handle could be released.  
 
 ## See also

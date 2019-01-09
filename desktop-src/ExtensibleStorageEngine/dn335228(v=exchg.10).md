@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETRIEVECOLUMN.cbData property
+# JET_RETRIEVECOLUMN.cbData property
 
 Gets or sets the size of the [pvData](dn351040\(v=exchg.10\).md) buffer, in bytes. The retrieve column operation will not store more data in pvData than cbData.
 
@@ -57,15 +57,15 @@ public int cbData { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
 
-[JET\_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

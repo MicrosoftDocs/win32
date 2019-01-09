@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCommitTransaction** function commits the changes made to the state of the database during the current save point and migrates them to the previous save point. If the outermost save point is committed then the changes made during that save point will be committed to the state of the database and the session will exit the transaction.
 
+```cpp
     JET_ERR JET_API JetCommitTransaction(
       __in          JET_SESID sesid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -81,7 +83,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -184,9 +186,9 @@ There must be one call to **JetCommitTransaction** or [JetRollback](gg269273\(v=
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetBeginTransaction](gg294083\(v=exchg.10\).md)  
 [JetCommitTransaction](gg269191\(v=exchg.10\).md)  
 [JetRollback](gg269273\(v=exchg.10\).md)  

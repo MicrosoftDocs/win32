@@ -31,6 +31,7 @@ The **JetRegisterCallback** function allows the application to configure the dat
 
 **Windows XP:  JetRegisterCallback** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetRegisterCallback(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -39,6 +40,7 @@ The **JetRegisterCallback** function allows the application to configure the dat
       __in          void* pvContext,
       __out         JET_HANDLE* phCallbackId
     );
+```
 
 ### Parameters
 
@@ -54,7 +56,7 @@ The cursor to use for this call.
 
 A bit mask composed of the callback reasons for which the application wishes to receive notifications.
 
-To create this bit mask, simply or together valid callback reasons from the [JET\_CBTYP](gg294071\(v=exchg.10\).md) enumeration.
+To create this bit mask, simply or together valid callback reasons from the [JET_CBTYP](gg294071\(v=exchg.10\).md) enumeration.
 
 *pCallback*
 
@@ -70,7 +72,7 @@ Returns a handle that can later be used to cancel the registration of the given 
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -131,7 +133,7 @@ On failure, the callback will not be registered. No change to the database state
 
 #### Remarks
 
-This method provides a means for the application to associate volatile callbacks with a table in a database. If the application wishes to associate persisted callbacks with a table in the database then it should pass the callback to [JET\_TABLECREATE](gg294146\(v=exchg.10\).md) using [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md).
+This method provides a means for the application to associate volatile callbacks with a table in a database. If the application wishes to associate persisted callbacks with a table in the database then it should pass the callback to [JET_TABLECREATE](gg294146\(v=exchg.10\).md) using [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md).
 
 #### Requirements
 
@@ -167,12 +169,12 @@ This method provides a means for the application to associate volatile callbacks
 
 #### See Also
 
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
+[JET_CBTYP](gg294071\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_HANDLE](gg269217\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetTerm](gg269298\(v=exchg.10\).md)  
 [JetUnregisterCallback](gg294116\(v=exchg.10\).md)

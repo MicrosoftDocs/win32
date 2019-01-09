@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LOGTIME.Equality operator
+# JET_LOGTIME.Equality operator
 
-Determines whether two specified instances of JET\_LOGTIME are equal.
+Determines whether two specified instances of JET_LOGTIME are equal.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,29 +60,29 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LOGTIME](hh557188\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](hh557188\(v=exchg.10\).md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_LOGTIME](hh557188\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](hh557188\(v=exchg.10\).md)  
     
     The second instance to compare.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 ## See also
 
 #### Reference
 
-[JET\_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
 
-[JET\_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

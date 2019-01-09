@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SESID structure
+# JET_SESID structure
 
-A JET\_SESID contains a handle to the session to use for calls to the JET APIr-.
+A JET_SESID contains a handle to the session to use for calls to the JET APIr-.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -56,7 +56,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_SESID members](hh557719\(v=exchg.10\).md)
+[JET_SESID members](hh557719\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXCREATE.cbKeyMost property
+# JET_INDEXCREATE.cbKeyMost property
 
-Gets or sets the maximum allowable size, in bytes, for keys in the index. The minimum supported maximum key size is JET\_cbKeyMostMin (255) which is the legacy maximum key size. The maximum key size is dependent on the database page size [DatabasePageSize](hh596135\(v=exchg.10\).md). The maximum key size can be retrieved with [KeyMost](dn351156\(v=exchg.10\).md). This parameter is ignored on Windows XP and Windows Server 2003. Unlike the unmanaged API, **IndexKeyMost()** (JET\_bitIndexKeyMost) is not needed, it will be added automatically.
+Gets or sets the maximum allowable size, in bytes, for keys in the index. The minimum supported maximum key size is JET_cbKeyMostMin (255) which is the legacy maximum key size. The maximum key size is dependent on the database page size [DatabasePageSize](hh596135\(v=exchg.10\).md). The maximum key size can be retrieved with [KeyMost](dn351156\(v=exchg.10\).md). This parameter is ignored on Windows XP and Windows Server 2003. Unlike the unmanaged API, **IndexKeyMost()** (JET_bitIndexKeyMost) is not needed, it will be added automatically.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,15 +57,15 @@ public int cbKeyMost { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
 
-[JET\_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

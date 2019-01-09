@@ -60,14 +60,14 @@ public static void JetBeginTransaction3(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to begin the transaction for.
 
 <!-- end list -->
 
   - userTransactionId  
-    Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
     
     An optional identifier supplied by the user for identifying the transaction.
 

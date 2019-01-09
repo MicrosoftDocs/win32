@@ -53,7 +53,7 @@ public static void JetGetThreadStats(
 #### Parameters
 
   - threadstats  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_THREADSTATS](hh578565\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
     
     Returns the thread statistics data.
 

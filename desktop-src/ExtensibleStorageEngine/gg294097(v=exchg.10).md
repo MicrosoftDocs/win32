@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_UNICODEINDEX Structure
+# JET_UNICODEINDEX Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_UNICODEINDEX Structure
+## JET_UNICODEINDEX Structure
 
-The **JET\_UNICODEINDEX** structure customizes how Unicode data gets normalized when an index is created over a Unicode column.
+The **JET_UNICODEINDEX** structure customizes how Unicode data gets normalized when an index is created over a Unicode column.
 
     typedef struct tagJET_UNICODEINDEX {
       unsigned long lcid;
@@ -43,11 +43,11 @@ These flags get passed to [LCMapString](http://go.microsoft.com/fwlink/?linkid=1
 
 **Windows 2000**:  The only two legal values for **dwFlags** are:
 
-  - ( LCMAP\_SORTKEY | NORM\_IGNORECASE | NORM\_IGNOREKANATYPE | NORM\_IGNOREWIDTH | NORM\_IGNORENONSPACE )
+  - ( LCMAP_SORTKEY | NORM_IGNORECASE | NORM_IGNOREKANATYPE | NORM_IGNOREWIDTH | NORM_IGNORENONSPACE )
 
 <!-- end list -->
 
-  - ( LCMAP\_SORTKEY | NORM\_IGNORECASE | NORM\_IGNOREKANATYPE | NORM\_IGNOREWIDTH )
+  - ( LCMAP_SORTKEY | NORM_IGNORECASE | NORM_IGNOREKANATYPE | NORM_IGNOREWIDTH )
 
 **dwMapFlags** has the following restrictions.
 
@@ -125,7 +125,7 @@ These flags get passed to [LCMapString](http://go.microsoft.com/fwlink/?linkid=1
 
 ### See Also
 
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
 [JetOpenTempTable3](gg269255\(v=exchg.10\).md)
 

@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetSetSessionContext** function associates a session with the current thread using the given context handle. This association overrides the default engine requirement that a transaction for a given session must occur entirely on the same thread.
 
+```cpp
     JET_ERR JET_API JetSetSessionContext(
       __in          JET_SESID sesid,
       __in          JET_API_PTR ulContext
     );
+```
 
 ### Parameters
 
@@ -46,7 +48,7 @@ A unique identifier to which this session will be associated.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -107,7 +109,7 @@ If this function fails, the session state will remain unchanged. No change to th
 
 #### Remarks
 
-A session is usually bound to a specific thread for the duration of a transaction. This behavior is designed to help applications detect and prevent the conceptually ill-advised sharing of a single session amongst multiple threads. Sometimes, this simple check does not work with the application's architecture. For example, if the application is hosting server-side objects using a thread pool and transactions span multiple server calls to a given object then this protection may cause some of those calls to fail with JET\_errSessionSharingViolation even though the usage pattern is correct. This situation is common for COM object servers.
+A session is usually bound to a specific thread for the duration of a transaction. This behavior is designed to help applications detect and prevent the conceptually ill-advised sharing of a single session amongst multiple threads. Sometimes, this simple check does not work with the application's architecture. For example, if the application is hosting server-side objects using a thread pool and transactions span multiple server calls to a given object then this protection may cause some of those calls to fail with JET_errSessionSharingViolation even though the usage pattern is correct. This situation is common for COM object servers.
 
 **JetSetSessionContext** and [JetResetSessionContext](gg269250\(v=exchg.10\).md) solve this problem by making this session sharing check a little more flexible. When the application starts to make a series of ESE API calls using a particular session, it first sets the session context to a given value. This action associates the session to the calling thread. In the given example, this context could be the address of the object that contains the JET session handle. Once the ESE API calls have been made, the application resets the session context. This action disassociates the session from the calling thread. The object and its session can then be used by another thread even if the session has an active transaction.
 
@@ -149,9 +151,9 @@ It is important to note that **JetSetSessionContext** must be called prior to op
 
 #### See Also
 
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)
 

@@ -8,14 +8,14 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# IJET\_LOGTIME members
+# IJET_LOGTIME members
 
 Include protected members  
 Include inherited members  
 
-Interface for common methods between JET\_LOGTIME and JET\_BKLOGTIME.
+Interface for common methods between JET_LOGTIME and JET_BKLOGTIME.
 
-The [IJET\_LOGTIME](hh596687\(v=exchg.10\).md) type exposes the following members.
+The [IJET_LOGTIME](hh596687\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -65,7 +65,7 @@ Top
 
 #### Reference
 
-[IJET\_LOGTIME interface](hh596687\(v=exchg.10\).md)
+[IJET_LOGTIME interface](hh596687\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

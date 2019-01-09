@@ -26,8 +26,9 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for the database cache.
 
-JET\_paramBatchIOBufferMax  
+*JET_paramBatchIOBufferMax*  
 22  
+
 This parameter controls the size of an auxiliary part of the database page cache that is used to simulate scatter gather I/O when it is otherwise not available. The size is in database pages.
 
 **Windows XP and later:**  This parameter is obsolete and does not affect the operation of the database engine.
@@ -86,11 +87,12 @@ This parameter controls the size of an auxiliary part of the database page cache
 </table>
 
 
-JET\_paramCacheSize  
+*JET_paramCacheSize*  
 41  
+
 This parameter can be used to control the size of the database page cache at run time. Ordinarily, the cache will automatically tune its size as a function of database and machine activity levels. If the application sets this parameter to zero, then the cache will tune its own size in this manner. However, if the application sets this parameter to a non-zero value then the cache will adjust itself to that target size (in database pages). The cache will then hold its size at that threshold until given a new size or until it is released to choose its own size.
 
-**Note**  The cache size is still subject to the limits imposed by **JET\_paramCacheSizeMin** and **JET\_paramCacheSizeMax**.
+**Note**  The cache size is still subject to the limits imposed by **JET_paramCacheSizeMin** and **JET_paramCacheSizeMax**.
 
 When this parameter is read, the actual size of the cache in database pages is returned. This size can be used by the application as an input to drive its manual adjustment of the cache size.
 
@@ -149,11 +151,12 @@ When this parameter is read, the actual size of the cache in database pages is r
 </table>
 
 
-JET\_paramCacheSizeMin  
+*JET_paramCacheSizeMin*  
 60  
+
 This parameter configures the minimum size of the database page cache. The size is in database pages.
 
-By default, the database cache will automatically adjust its size between the limits set by **JET\_paramCacheSizeMin** and **JET\_paramCacheSizeMax**.
+By default, the database cache will automatically adjust its size between the limits set by **JET_paramCacheSizeMin** and **JET_paramCacheSizeMax**.
 
 **Windows 2000:**  On Windows 2000, this parameter should be set to a value roughly equal to four times the number of threads that will be inside the ESE API at the same time. This is required to avoid deadlocks caused by an insufficient number of database page cache buffers to perform complex operations like B+ Tree splits.
 
@@ -217,11 +220,12 @@ By default, the database cache will automatically adjust its size between the li
 </table>
 
 
-JET\_paramCacheSizeMax  
+*JET_paramCacheSizeMax*  
 23  
+
 This parameter configures the maximum size of the database page cache. The size is in database pages.
 
-By default, the database cache will automatically adjust its size between the limits set by **JET\_paramCacheSizeMin** and **JET\_paramCacheSizeMax**.
+By default, the database cache will automatically adjust its size between the limits set by **JET_paramCacheSizeMin** and **JET_paramCacheSizeMax**.
 
 **Note**   If this parameter is left to its default value, then the maximum size of the cache will be set to the size of physical memory when [JetInit](gg294068\(v=exchg.10\).md) is called.
 
@@ -285,11 +289,12 @@ By default, the database cache will automatically adjust its size between the li
 </table>
 
 
-JET\_paramCheckpointDepthMax  
-24  
+*JET_paramCheckpointDepthMax*  
+24 
+
 This parameter controls how aggressively database pages are flushed from the database page cache to minimize the amount of time it will take to recover from a crash. The parameter is a threshold in bytes for about how many transaction log files will need to be replayed after a crash.
 
-If circular logging is enabled using [JET\_paramCircularLog](gg269235\(v=exchg.10\).md) then this parameter will also control the approximate amount of transaction log files that will be retained on disk.
+If circular logging is enabled using [JET_paramCircularLog](gg269235\(v=exchg.10\).md) then this parameter will also control the approximate amount of transaction log files that will be retained on disk.
 
 It is important that this parameter not be set too low. As the value of this parameter approaches zero, the cache will become more and more aggressive when flushing database pages to disk. This not only results in an increased number of writes to the database files but it also indirectly causes an increased number of reads to those files as well. This can cause very significant performance problems in some cases. Unfortunately, setting the smallest optimal value for this parameter can only be done using experimentation with the target application.
 
@@ -349,8 +354,9 @@ It is important that this parameter not be set too low. As the value of this par
 </table>
 
 
-JET\_paramCheckpointIOMax  
+*JET_paramCheckpointIOMax*  
 135  
+
 This parameter controls the maximum number of concurrent writes that the database engine will use to flush modified database pages for the purpose of advancing the checkpoint. The value of this parameter can be used to balance the speed with which the checkpoint can be advanced versus the negative impact this process will have on the response time for other I/O operations to the disks holding the database.
 
 <table>
@@ -407,13 +413,14 @@ This parameter controls the maximum number of concurrent writes that the databas
 </table>
 
 
-JET\_paramEnableViewCache  
+*JET_paramEnableViewCache*  
 127  
+
 When this parameter is **True**, the database engine will use database data directly from the Windows file cache rather than copying the cached data into its own private memory. Any database data that is modified will still be cached in private memory.
 
 The intent of this mode is to further reduce the amount of private memory used by the database engine to cache database data.
 
-The view cache may only be used if the use of the Windows file cache is enabled by setting JET\_paramEnableFileCache to **True**.
+The view cache may only be used if the use of the Windows file cache is enabled by setting JET_paramEnableFileCache to **True**.
 
 <table>
 <colgroup>
@@ -469,8 +476,9 @@ The view cache may only be used if the use of the Windows file cache is enabled 
 </table>
 
 
-JET\_paramLRUKCorrInterval  
+*JET_paramLRUKCorrInterval*  
 25  
+
 This parameter sets the time interval in microseconds over which two database page accesses are considered to be correlated. This correlation interval controls the sensitivity of the cache's page replacement algorithm (LRU-K) to successive page accesses. This in turn will affect which pages it chooses to keep cached.
 
 <table>
@@ -528,8 +536,9 @@ This parameter sets the time interval in microseconds over which two database pa
 </table>
 
 
-JET\_paramLRUKHistoryMax  
+*JET_paramLRUKHistoryMax*  
 26  
+
 This parameter sets the maximum number of non cached database pages for which database page access times will be retained. These history records allow the cache's page replacement algorithm (LRU-K) to more accurately detect popular pages that were wrongly evicted from the database page cache.
 
 **Windows XP and Windows Server 2003:**  This parameter is ignored on Windows XP and Windows Server 2003 and does not affect the operation of the database engine.
@@ -590,8 +599,9 @@ This parameter sets the maximum number of non cached database pages for which da
 </table>
 
 
-JET\_paramLRUKPolicy  
+*JET_paramLRUKPolicy*  
 27  
+
 This parameter configures the number of database page accesses that are considered for determining the usefulness of the page. This parameter is essentially the K in LRU-K, the database page cache's page replacement algorithm.
 
 <table>
@@ -648,8 +658,9 @@ This parameter configures the number of database page accesses that are consider
 </table>
 
 
-JET\_paramLRUKTimeout  
-28  
+*JET_paramLRUKTimeout*  
+28
+
 This parameter indicates the period of time in seconds after which a page in the database page cache is considered to have lost a page access for the purpose of considering the usefulness of the page.
 
 <table>
@@ -707,13 +718,15 @@ This parameter indicates the period of time in seconds after which a page in the
 </table>
 
 
-JET\_paramLRUKTrxCorrInterval  
+*JET_paramLRUKTrxCorrInterval*  
 29  
+
 This parameter is obsolete and does not affect the operation of the database engine.
 
-JET\_paramStartFlushThreshold  
+*JET_paramStartFlushThreshold*  
 31  
-This parameter controls when the database page cache begins evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache drops below this threshold then a background process will be started to replenish that pool of available buffers. This threshold is always relative to the maximum cache size as set by **JET\_paramCacheSizeMax**. This threshold must also always be less than the stop threshold as set by **JET\_paramStopFlushThreshold**.
+
+This parameter controls when the database page cache begins evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache drops below this threshold then a background process will be started to replenish that pool of available buffers. This threshold is always relative to the maximum cache size as set by **JET_paramCacheSizeMax**. This threshold must also always be less than the stop threshold as set by **JET_paramStopFlushThreshold**.
 
 The distance height of the start threshold will determine the response time that the database page cache must have to produce available buffers before the application needs them. A high start threshold will give the background process more time to react. However, a high start threshold implies a higher stop threshold and that will reduce the effective size of the database page cache for modified pages (Windows 2000) or for all pages (Windows XP and later).
 
@@ -774,9 +787,10 @@ The distance height of the start threshold will determine the response time that
 </table>
 
 
-JET\_paramStopFlushThreshold  
+*JET_paramStopFlushThreshold*  
 32  
-This parameter controls when the database page cache ends evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache rises above this threshold then the background process that was started to replenish that pool of available buffers is stopped. This threshold is always relative to the maximum cache size as set by **JET\_paramCacheSizeMax**. This threshold must also always be greater than the start threshold as set by **JET\_paramStartFlushThreshold**.
+
+This parameter controls when the database page cache ends evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache rises above this threshold then the background process that was started to replenish that pool of available buffers is stopped. This threshold is always relative to the maximum cache size as set by **JET_paramCacheSizeMax**. This threshold must also always be greater than the start threshold as set by **JET_paramStartFlushThreshold**.
 
 The distance between the start threshold and the stop threshold affects the efficiency with which database pages are flushed by the background process. A larger gap will make it more likely that writes to neighboring pages may be combined. However, a high stop threshold will reduce the effective size of the database page cache for modified pages (Windows 2000) or for all pages (Windows XP and later).
 

@@ -33,6 +33,7 @@ The **JetUpdate2** function performs an update operation including inserting a n
 
 **JetUpdate2** is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate](gg269339\(v=exchg.10\).md) and then by calling [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md) one or more times to set the record state. Finally, **JetUpdate2** is called to complete the update operation. Indexes are updated only by [JetUpdate](gg269288\(v=exchg.10\).md) or **JetUpdate2**, and not during [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetUpdate2(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -41,6 +42,7 @@ The **JetUpdate2** function performs an update operation including inserting a n
       __out_opt     unsigned long* pcbActual,
       __in            const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -90,7 +92,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -188,7 +190,7 @@ On failure, no changes of any kind are made to the database. Before insert and b
 
 #### Remarks
 
-Record size limitations are enforced by [JetSetColumn](gg294137\(v=exchg.10\).md), and not in general by [JetUpdate](gg269288\(v=exchg.10\).md). The only exception is when the JET\_bitUpdateCheckESE97Compatibility compatibility flag is being used. In this case, the whole record is checked since an individual [JetSetColumn](gg294137\(v=exchg.10\).md) operation that exceeded the limit may be compensated by a subsequent call to [JetSetColumn](gg294137\(v=exchg.10\).md).
+Record size limitations are enforced by [JetSetColumn](gg294137\(v=exchg.10\).md), and not in general by [JetUpdate](gg269288\(v=exchg.10\).md). The only exception is when the JET_bitUpdateCheckESE97Compatibility compatibility flag is being used. In this case, the whole record is checked since an individual [JetSetColumn](gg294137\(v=exchg.10\).md) operation that exceeded the limit may be compensated by a subsequent call to [JetSetColumn](gg294137\(v=exchg.10\).md).
 
 See the Remarks section in [JetUpdate](gg269288\(v=exchg.10\).md) for more information.
 
@@ -226,9 +228,9 @@ See the Remarks section in [JetUpdate](gg269288\(v=exchg.10\).md) for more infor
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetDelete](gg269315\(v=exchg.10\).md)  
 [JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
 [JetRegisterCallback](gg269175\(v=exchg.10\).md)  

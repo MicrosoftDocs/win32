@@ -57,7 +57,7 @@ public static void JetOSSnapshotAbort(
 #### Parameters
 
   - snapid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
     
     Identifier of the snapshot session.
 

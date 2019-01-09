@@ -50,7 +50,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_IdxInfo enumeration
+# JET_IdxInfo enumeration
 
 Info levels for retrieve index information with JetGetIndexInfo. and JetGetTableIndexInfo.
 

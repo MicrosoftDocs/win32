@@ -30,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ExceptionAction enumeration
+# JET_ExceptionAction enumeration
 
-Constants to be used with JET\_paramExceptionAction.
+Constants to be used with JET_paramExceptionAction.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

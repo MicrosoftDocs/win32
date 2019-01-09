@@ -32,9 +32,9 @@ ROBOTS: INDEX,FOLLOW
 
 # SnapshotTruncateLogGrbit enumeration
 
-Options for [JetOSSnapshotTruncateLog(JET\_OSSNAPID, SnapshotTruncateLogGrbit)](dn335343\(v=exchg.10\).md) and [JetOSSnapshotTruncateLogInstance(JET\_OSSNAPID, JET\_INSTANCE, SnapshotTruncateLogGrbit)](dn351271\(v=exchg.10\).md).
+Options for [JetOSSnapshotTruncateLog(JET_OSSNAPID, SnapshotTruncateLogGrbit)](dn335343\(v=exchg.10\).md) and [JetOSSnapshotTruncateLogInstance(JET_OSSNAPID, JET_INSTANCE, SnapshotTruncateLogGrbit)](dn351271\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

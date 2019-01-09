@@ -29,12 +29,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetIndexRecordCount** function counts the number of entries in the current index from the current position forward. The current position is included in the count. The count can be greater than the total number of records in the table if the current index is over a multi-valued column and instances of the column have multiple-values. If the table is empty, then 0 will be returned for the count.
 
+```cpp
     JET_ERR JET_API JetIndexRecordCount(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __out         unsigned long* pcrec,
       __in          unsigned long crecMax
     );
+```
 
 ### Parameters
 
@@ -56,7 +58,7 @@ The maximum number of records to count. A *crecMax* value of 0 indicates that th
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -123,7 +125,7 @@ Index ranges can be used to construct artificial end-of-index limitations for th
 
 **JetIndexRecordCount** accesses index leaf pages in order to exactly count entries. Consequently, it can perform a great deal of I/O and can be slow. The *crecMax* limitation should be used to prevent excessive load. If a range is large, then it might be possible to count the range in an approximated fashion using [JetGetRecordPosition](gg269316\(v=exchg.10\).md).
 
-**Windows XP, Windows Server 2003, Windows 2000 Server, and Windows 2000 Professional:**  If the cursor is positioned on an empty index or index range then **JetIndexRecordCount** erroneously returns JET\_errNoCurrentRecord rather than returning a record count of zero. The application should check to see if the index or index range is empty in this case.
+**Windows XP, Windows Server 2003, Windows 2000 Server, and Windows 2000 Professional:**  If the cursor is positioned on an empty index or index range then **JetIndexRecordCount** erroneously returns JET_errNoCurrentRecord rather than returning a record count of zero. The application should check to see if the index or index range is empty in this case.
 
 #### Requirements
 
@@ -159,9 +161,9 @@ Index ranges can be used to construct artificial end-of-index limitations for th
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetRecordPosition](gg269316\(v=exchg.10\).md)  
 [JetSetIndexRange](gg294112\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)

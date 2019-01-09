@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ERRINFOBASIC.DeepClone method
+# JET_ERRINFOBASIC.DeepClone method
 
 Returns a deep copy of the object.
 
@@ -51,7 +51,7 @@ public JET_ERRINFOBASIC DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_ERRINFOBASIC](dn335334\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC](dn335334\(v=exchg.10\).md)  
 A deep copy of the object.  
 
 #### Implements
@@ -62,9 +62,9 @@ A deep copy of the object.
 
 #### Reference
 
-[JET\_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
 
-[JET\_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

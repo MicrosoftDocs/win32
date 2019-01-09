@@ -31,10 +31,12 @@ The **JetBeginExternalBackupInstance** function initiates an external backup whi
 
 **Windows XP:  JetBeginExternalBackupInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetBeginExternalBackupInstance(
       __in          JET_INSTANCE instance,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -44,7 +46,7 @@ The database instance to use for this call.
 
 For Windows 2000, the API variant that accepts this parameter is not available because only one instance is supported. The use of this one global instance is implied in this case.
 
-For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET\_errRunningInMultiInstanceMode.
+For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET_errRunningInMultiInstanceMode.
 
 *grbit*
 
@@ -126,9 +128,9 @@ The backup will be fuzzy, in that the backup will be consistent to a single poin
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetCloseFile](gg294127\(v=exchg.10\).md)  

@@ -30,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 # SnapshotPrepareInstanceGrbit enumeration
 
-Options for [JetOSSnapshotPrepareInstance(JET\_OSSNAPID, JET\_INSTANCE, SnapshotPrepareInstanceGrbit)](dn335341\(v=exchg.10\).md).
+Options for [JetOSSnapshotPrepareInstance(JET_OSSNAPID, JET_INSTANCE, SnapshotPrepareInstanceGrbit)](dn335341\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

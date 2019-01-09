@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECORDLIST.columnidBookmark property
+# JET_RECORDLIST.columnidBookmark property
 
-Gets the columnid of the column in the temporary table which stores the bookmark of the record. The column is of type JET\_coltyp.Text.
+Gets the columnid of the column in the temporary table which stores the bookmark of the record. The column is of type JET_coltyp.Text.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -55,15 +55,15 @@ public JET_COLUMNID columnidBookmark { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_RECORDLIST class](dn335223\(v=exchg.10\).md)
+[JET_RECORDLIST class](dn335223\(v=exchg.10\).md)
 
-[JET\_RECORDLIST members](dn335227\(v=exchg.10\).md)
+[JET_RECORDLIST members](dn335227\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

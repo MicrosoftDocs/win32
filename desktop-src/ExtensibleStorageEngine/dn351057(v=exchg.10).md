@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_SNPROG properties
+# JET_SNPROG properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_SNPROG](dn351044\(v=exchg.10\).md) type exposes the following members.
+The [JET_SNPROG](dn351044\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +46,7 @@ Top
 
 #### Reference
 
-[JET\_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](dn351044\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

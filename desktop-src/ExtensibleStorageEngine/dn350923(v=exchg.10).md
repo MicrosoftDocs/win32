@@ -28,14 +28,14 @@ ROBOTS: INDEX,FOLLOW
 
 # Instance class
 
-A class that encapsulates a [JET\_INSTANCE](hh564593\(v=exchg.10\).md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
+A class that encapsulates a [JET_INSTANCE](hh564593\(v=exchg.10\).md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  [System.Runtime.ConstrainedExecution.CriticalFinalizerObject](http://msdn2.microsoft.com/en-us/library/9tcc8a46)  
-    [System.Runtime.InteropServices.SafeHandle](http://msdn2.microsoft.com/en-us/library/7s3yckbh)  
-      [Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid](http://msdn2.microsoft.com/en-us/library/s07831kw)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  [System.Runtime.ConstrainedExecution.CriticalFinalizerObject](https://msdn.microsoft.com/en-us/library/9tcc8a46)  
+    [System.Runtime.InteropServices.SafeHandle](https://msdn.microsoft.com/en-us/library/7s3yckbh)  
+      [Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid](https://msdn.microsoft.com/en-us/library/s07831kw)  
         Microsoft.Isam.Esent.Interop.Instance  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

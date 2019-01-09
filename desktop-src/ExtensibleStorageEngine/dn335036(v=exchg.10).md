@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNCREATE.grbit property
+# JET_COLUMNCREATE.grbit property
 
 Gets or sets the column options.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.ColumndefGrbit](hh578986\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
+[JET_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
 
-[JET\_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
+[JET_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

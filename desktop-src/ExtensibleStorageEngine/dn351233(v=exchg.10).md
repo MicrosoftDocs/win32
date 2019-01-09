@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OPENTEMPORARYTABLE.prgcolumnid property
+# JET_OPENTEMPORARYTABLE.prgcolumnid property
 
 Gets or sets the output buffer that receives the array of column IDs generated during the creation of the temporary table. The column IDs in this array will exactly correspond to the input array of column definitions. As a result, the size of this buffer must correspond to the size of [prgcolumndef](dn351228\(v=exchg.10\).md).
 
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
 
-[JET\_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

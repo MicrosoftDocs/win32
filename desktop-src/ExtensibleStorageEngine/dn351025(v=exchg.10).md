@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_RECPOS properties
+# JET_RECPOS properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_RECPOS](dn335256\(v=exchg.10\).md) type exposes the following members.
+The [JET_RECPOS](dn335256\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +46,7 @@ Top
 
 #### Reference
 
-[JET\_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](dn335256\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

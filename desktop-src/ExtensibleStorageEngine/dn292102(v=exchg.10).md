@@ -63,14 +63,14 @@ public static void JetBackupInstance(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to backup.
 
 <!-- end list -->
 
   - destination  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The directory where the backup is to be stored. If the backup path is null to use the function will truncate the logs, if possible.
 
@@ -84,7 +84,7 @@ public static void JetBackupInstance(
 <!-- end list -->
 
   - statusCallback  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_PFNSTATUS](hh565966\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_PFNSTATUS](hh565966\(v=exchg.10\).md)  
     
     Optional status notification callback.
 

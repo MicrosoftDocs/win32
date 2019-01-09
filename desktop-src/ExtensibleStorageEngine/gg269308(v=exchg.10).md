@@ -17,27 +17,29 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECPOS Structure
+# JET_RECPOS Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_RECPOS Structure
+## JET_RECPOS Structure
 
-The **JET\_RECPOS** structure contains a collection of integers that represent a fractional position within an index. **centriesLT** is the number of index entries less than the current index key. **centriesInRange** is the number of index entries equal to the current key. **centriesInRange** is not supported and is always returned as 1. **centriesTotal** is the number of index entries in the index. All values are approximations with no guarantee of accuracy.
+The **JET_RECPOS** structure contains a collection of integers that represent a fractional position within an index. **centriesLT** is the number of index entries less than the current index key. **centriesInRange** is the number of index entries equal to the current key. **centriesInRange** is not supported and is always returned as 1. **centriesTotal** is the number of index entries in the index. All values are approximations with no guarantee of accuracy.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       unsigned long centriesLT;
       unsigned long centriesInRange;
       unsigned long centriesTotal;
     } JET_RECPOS;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the [JET\_RETINFO](gg294049\(v=exchg.10\).md) structure, in bytes. This value confirms the presence of the following fields.
+The size of the [JET_RETINFO](gg294049\(v=exchg.10\).md) structure, in bytes. This value confirms the presence of the following fields.
 
 **centriesLT**
 
@@ -77,6 +79,6 @@ The approximate number of entries in the index.
 
 ### See Also
 
-[JET\_RETINFO](gg294049\(v=exchg.10\).md)  
+[JET_RETINFO](gg294049\(v=exchg.10\).md)  
 [JetGetRecordPosition](gg269316\(v=exchg.10\).md)
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentStopwatch.ToString method
 
-Returns a [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [Stopwatch](http://msdn2.microsoft.com/en-us/library/ebf7z0sw).
+Returns a [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [Stopwatch](https://msdn.microsoft.com/en-us/library/ebf7z0sw).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,8 +51,8 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
-A [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [Stopwatch](http://msdn2.microsoft.com/en-us/library/ebf7z0sw).  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+A [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [Stopwatch](https://msdn.microsoft.com/en-us/library/ebf7z0sw).  
 
 ## See also
 

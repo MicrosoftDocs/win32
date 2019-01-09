@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNP
+# JET_SNP
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_SNP
+## JET_SNP
 
-The **JET\_SNP** group of constants describe the type of the operation for which progress information is to be obtained. These constants are used as the *snp* parameter of the [JET\_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function.
+The **JET_SNP** group of constants describe the type of the operation for which progress information is to be obtained. These constants are used as the *snp* parameter of the [JET_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function.
 
 <table>
 <colgroup>
@@ -106,7 +106,7 @@ The **JET\_SNP** group of constants describe the type of the operation for which
 
 ### See Also
 
-[JET\_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET\_SNPROG](gg269328\(v=exchg.10\).md)  
-[JET\_SNT](gg269294\(v=exchg.10\).md)
+[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
+[JET_SNPROG](gg269328\(v=exchg.10\).md)  
+[JET_SNT](gg269294\(v=exchg.10\).md)
 

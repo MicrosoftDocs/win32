@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetResetSessionContext method
 
-Disassociates a session from the current thread. This should be used in conjunction with [JetSetSessionContext(JET\_SESID, IntPtr)](dn334027\(v=exchg.10\).md).
+Disassociates a session from the current thread. This should be used in conjunction with [JetSetSessionContext(JET_SESID, IntPtr)](dn334027\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,7 +53,7 @@ public static void JetResetSessionContext(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 

@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_COLUMNDEF properties
+# JET_COLUMNDEF properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_COLUMNDEF](dn335038\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNDEF](dn335038\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +61,7 @@ Top
 
 #### Reference
 
-[JET\_COLUMNDEF class](dn335038\(v=exchg.10\).md)
+[JET_COLUMNDEF class](dn335038\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

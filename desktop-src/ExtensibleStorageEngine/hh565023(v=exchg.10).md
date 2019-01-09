@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_COLUMNID operators
+# JET_COLUMNID operators
 
 Include protected members  
 Include inherited members  
 
-The [JET\_COLUMNID](hh564510\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNID](hh564510\(v=exchg.10\).md) type exposes the following members.
 
 ## Operators
 
@@ -66,7 +66,7 @@ Top
 
 #### Reference
 
-[JET\_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

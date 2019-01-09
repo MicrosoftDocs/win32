@@ -53,11 +53,11 @@ public override string Message { get; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 #### Implements
 
-[\_Exception.Message](http://msdn2.microsoft.com/en-us/library/b4sz7awd)  
+[_Exception.Message](https://msdn.microsoft.com/en-us/library/b4sz7awd)  
 
 ## See also
 

@@ -24,7 +24,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Instance constructor (String)
 
-Initializes a new instance of the Instance class. The underlying JET\_INSTANCE is allocated, but not initialized.
+Initializes a new instance of the Instance class. The underlying JET_INSTANCE is allocated, but not initialized.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,7 +51,7 @@ public Instance(
 #### Parameters
 
   - name  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name of the instance. This string must be unique within a given process hosting the database engine.
 

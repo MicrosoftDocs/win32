@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE structure
+# JET_INSTANCE structure
 
-A JET\_INSTANCE contains a handle to the instance of the database to use for calls to the JET API.
+A JET_INSTANCE contains a handle to the instance of the database to use for calls to the JET API.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -56,7 +56,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_INSTANCE members](hh565454\(v=exchg.10\).md)
+[JET_INSTANCE members](hh565454\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

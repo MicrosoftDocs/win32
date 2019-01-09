@@ -8,22 +8,22 @@ ms.date: 04/11/2016
 ms.topic: article
 ---
 
-# JET\_ERRCAT
+# JET_ERRCAT
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_ERRCAT
+## JET_ERRCAT
 
-The **JET\_ERRCAT** group of constants describes higher-level classifications or categories of errors. This group of constants enables applications to define default treatment for a classification of errors, rather than handling each error case individually. It also ensures that the application does not have to handle new error conditions that are included in existing classifications.
+The **JET_ERRCAT** group of constants describes higher-level classifications or categories of errors. This group of constants enables applications to define default treatment for a classification of errors, rather than handling each error case individually. It also ensures that the application does not have to handle new error conditions that are included in existing classifications.
 
 Note: This documentation is based on a preliminary release of the Extensible Storage Engine. This information is subject to change.
 
-The **JET\_ERRCAT** constants are arranged in a specific hierarchy of conditions and subconditions, as follows:
+The **JET_ERRCAT** constants are arranged in a specific hierarchy of conditions and subconditions, as follows:
 
 |--- Error |--- Operation(al) | |--- Fatal | |--- IO | |--- Resource | |--- Memory | |--- Quota | |--- Disk | |--- Data | |--- Corruption | |--- Inconsistent | |--- Fragmentation | |--- Api |--- Usage |--- State
 
-The following table lists the **JET\_ERRCAT** constants and provides a description and recovery information, as applicable.
+The following table lists the **JET_ERRCAT** constants and provides a description and recovery information, as applicable.
 
 <table>
 <colgroup>

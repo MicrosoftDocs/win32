@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXRANGE constructor
+# JET_INDEXRANGE constructor
 
-Initializes a new instance of the JET\_INDEXRANGE class.
+Initializes a new instance of the JET_INDEXRANGE class.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,9 +51,9 @@ public JET_INDEXRANGE()
 
 #### Reference
 
-[JET\_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
 
-[JET\_INDEXRANGE members](dn335176\(v=exchg.10\).md)
+[JET_INDEXRANGE members](dn335176\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

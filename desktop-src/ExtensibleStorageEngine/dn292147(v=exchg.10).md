@@ -53,9 +53,9 @@ public static void JetFreeBuffer(
 #### Parameters
 
   - buffer  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
-    The buffer allocated by a call to the database engine. [Zero](http://msdn2.microsoft.com/en-us/library/c61h0w61) is acceptable, and will be ignored.
+    The buffer allocated by a call to the database engine. [Zero](https://msdn.microsoft.com/en-us/library/c61h0w61) is acceptable, and will be ignored.
 
 ## Remarks
 

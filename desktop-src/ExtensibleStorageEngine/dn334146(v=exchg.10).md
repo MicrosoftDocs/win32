@@ -33,13 +33,13 @@ Include inherited members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/ms227422">Dispose()</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms227422">Dispose()</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/ms143450">Dispose(Boolean)</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms143450">Dispose(Boolean)</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/8f86tw9e">Stream</a>.)</td>
 </tr>
 </tbody>
 </table>

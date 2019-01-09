@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_ENUMCOLUMNVALUE properties
+# JET_ENUMCOLUMNVALUE properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_ENUMCOLUMNVALUE](dn335142\(v=exchg.10\).md) type exposes the following members.
+The [JET_ENUMCOLUMNVALUE](dn335142\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -56,7 +56,7 @@ Top
 
 #### Reference
 
-[JET\_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

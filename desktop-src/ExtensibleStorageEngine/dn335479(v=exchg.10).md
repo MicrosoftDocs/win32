@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEX\_COLUMN.pvData property
+# JET_INDEX_COLUMN.pvData property
 
 Gets or sets the value to comparte the column with.
 
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_INDEX\_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
 
-[JET\_INDEX\_COLUMN members](dn335351\(v=exchg.10\).md)
+[JET_INDEX_COLUMN members](dn335351\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

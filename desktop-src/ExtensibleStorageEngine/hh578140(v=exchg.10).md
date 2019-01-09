@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO.Equals method (JET\_BKINFO)
+# JET_BKINFO.Equals method (JET_BKINFO)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,26 +53,26 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_BKINFO](hh577892\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_BKINFO](hh577892\(v=exchg.10\).md)  
     
     An instance to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 #### Implements
 
-[IEquatable\<T\>.Equals(T)](http://msdn2.microsoft.com/en-us/library/ms131190)  
+[IEquatable\<T\>.Equals(T)](https://msdn.microsoft.com/en-us/library/ms131190)  
 
 ## See also
 
 #### Reference
 
-[JET\_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
-[JET\_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](hh557851\(v=exchg.10\).md)
 
 [Equals overload](hh596441\(v=exchg.10\).md)
 

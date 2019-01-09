@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMNID.rgtagSequence property
+# JET_ENUMCOLUMNID.rgtagSequence property
 
-Gets or sets the array of one-based indices into the array of column values for a given column. A single element is an itagSequence which is defined in JET\_RETRIEVECOLUMN. An itagSequence of 0 (zero) means "skip". An itagSequence of 1 means return the first column value of the column, 2 means the second, and so on.
+Gets or sets the array of one-based indices into the array of column values for a given column. A single element is an itagSequence which is defined in JET_RETRIEVECOLUMN. An itagSequence of 0 (zero) means "skip". An itagSequence of 1 means return the first column value of the column, 2 means the second, and so on.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

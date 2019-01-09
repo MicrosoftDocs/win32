@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE.cLongValues property
+# JET_RECSIZE.cLongValues property
 
 Gets the total number of long values stored in the long-value tree for this record. This does not include intrinsic long values.
 
@@ -55,15 +55,15 @@ public long cLongValues { get; internal set; }
 
 #### Property value
 
-Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
 
 ## See also
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

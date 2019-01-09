@@ -31,9 +31,11 @@ The **JetTruncateLogInstance** function is used during a backup initiated by [Je
 
 **Windows XP:**  **JetTruncateLogInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetTruncateLogInstance(
       __in          JET_INSTANCE instance
     );
+```
 
 ### Parameters
 
@@ -43,11 +45,11 @@ The instance to use for this call.
 
 For Windows 2000, the API variant that accepts this parameter is not available because only one instance is supported. The use of this one global instance is implied in this case.
 
-For Windows XP and later releases, the API variant that does not accept this parameter can only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET\_errRunningInMultiInstanceMode.
+For Windows XP and later releases, the API variant that does not accept this parameter can only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET_errRunningInMultiInstanceMode.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -149,8 +151,8 @@ If this function fails, the backup state machine can be advanced such that the b
 #### See Also
 
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetOpenFile](gg269249\(v=exchg.10\).md)  
 [JetStopBackup](gg294067\(v=exchg.10\).md)  

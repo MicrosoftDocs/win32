@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OPENTEMPORARYTABLE Structure
+# JET_OPENTEMPORARYTABLE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_OPENTEMPORARYTABLE Structure
+## JET_OPENTEMPORARYTABLE Structure
 
-The **JET\_OPENTEMPORARYTABLE** structure contains an easily extensible collection of parameters for the **JET\_OPENTEMPORARYTABLE** function. This structure is the temporary table equivalent of the [JET\_TABLECREATE](gg294146\(v=exchg.10\).md) structure.
+The **JET_OPENTEMPORARYTABLE** structure contains an easily extensible collection of parameters for the **JET_OPENTEMPORARYTABLE** function. This structure is the temporary table equivalent of the [JET_TABLECREATE](gg294146\(v=exchg.10\).md) structure.
 
-**Windows Vista:** The **JET\_OPENTEMPORARYTABLE** structure is introduced in Windows Vista.
+**Windows Vista:** The **JET_OPENTEMPORARYTABLE** structure is introduced in Windows Vista.
 
+```cpp
     typedef struct tagJET_OPENTEMPORARYTABLE {
       unsigned long cbStruct;
       const JET_COLUMNDEF* prgcolumndef;
@@ -39,12 +40,13 @@ The **JET\_OPENTEMPORARYTABLE** structure contains an easily extensible collecti
       unsigned long cbVarSegMac;
       JET_TABLEID tableid;
     } JET_OPENTEMPORARYTABLE;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of this structure in bytes (for future expansion). It must be set to sizeof( JET\_TABLECREATE ) in bytes.
+The size of this structure in bytes (for future expansion). It must be set to sizeof( JET_TABLECREATE ) in bytes.
 
 **prgcolumndef**
 
@@ -89,7 +91,7 @@ The locale ID and normalization flags to use to compare any Unicode key column d
 
 When this parameter is not present and when the *lcid* parameter is not present, then the default LCID will be used to compare any Unicode key columns in the temporary table. The default LCID is the U.S. English locale.
 
-When this parameter is not present, then the default normalization flags will be used to compare any Unicode key column data in the temp table. The default normalization flags are: NORM\_IGNORECASE, NORM\_IGNOREKANATYPE, and NORM\_IGNOREWIDTH.
+When this parameter is not present, then the default normalization flags will be used to compare any Unicode key column data in the temp table. The default normalization flags are: NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH.
 
 **grbit**
 
@@ -163,7 +165,7 @@ The maximum size for a key representing a given row.
 
 The maximum key size may be set to control how keys are truncated. Key truncation is important because it can affect when rows are considered to be distinct.
 
-If this parameter is set to 0 or JET\_cbKeyMostMin (255) then the maximum key size and its semantics will remain identical to the maximum key size supported by Windows Server 2003 and previous releases. This parameter may also be set to a larger value as a function of the database page size for the instance (JET\_paramDatabasePageSize). See JET\_paramKeyMost for more information.
+If this parameter is set to 0 or JET_cbKeyMostMin (255) then the maximum key size and its semantics will remain identical to the maximum key size supported by Windows Server 2003 and previous releases. This parameter may also be set to a larger value as a function of the database page size for the instance (JET_paramDatabasePageSize). See JET_paramKeyMost for more information.
 
 **cbVarSegMac**
 
@@ -201,12 +203,12 @@ The table handle for the temporary table created as a result of a successful cal
 
 ### See Also
 
-[JET\_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
+[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
+[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetOpenTemporaryTable](gg294144\(v=exchg.10\).md)  
 [Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md)
 

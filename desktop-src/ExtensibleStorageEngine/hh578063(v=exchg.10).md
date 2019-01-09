@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LGPOS structure
+# JET_LGPOS structure
 
 Describes an offset in the log sequence.
 
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](hh566576\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -31,10 +31,12 @@ The **JetOSSnapshotThaw** function notifies the engine that it can resume normal
 
 **Windows XP:**  **JetOSSnapshotThaw** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetOSSnapshotThaw(
       __in          const JET_OSSNAPID snapId,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -48,7 +50,7 @@ This parameter is reserved for future use and the only valid value supported is 
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -124,8 +126,8 @@ Event log entries will be generated for the different steps of the snapshot.
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_OSSNAPID](gg269325\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_OSSNAPID](gg269325\(v=exchg.10\).md)  
 [JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
 [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
 [JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)

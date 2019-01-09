@@ -31,6 +31,7 @@ The **JetRenameColumn** function can be used to change the name of an existing c
 
 **Windows XP:**  **JetRenameColumn** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetRenameColumn(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -38,6 +39,7 @@ The **JetRenameColumn** function can be used to change the name of an existing c
       __in          JET_PCSTR szNameNew,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -63,7 +65,7 @@ This parameter must be 0.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -189,9 +191,9 @@ The column ID of a column is not affected by the rename operation.
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetBeginTransaction2](gg269268\(v=exchg.10\).md)
 

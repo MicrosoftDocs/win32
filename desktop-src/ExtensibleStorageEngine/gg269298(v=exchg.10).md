@@ -31,9 +31,11 @@ The **JetTerm** function initiates the shutdown of an instance that has been ini
 
 **JetTerm** can also be used to destroy an uninitialized instance that was created by [JetCreateInstance](gg269354\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetTerm(
       __in          JET_INSTANCE instance
     );
+```
 
 ### Parameters
 
@@ -47,7 +49,7 @@ Specifies the instance to use for this call.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -138,9 +140,9 @@ If the host process of an instance quits for any reason before **JetTerm** is su
 
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetTerm2](gg269223\(v=exchg.10\).md)
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMN.cEnumColumnValue property
+# JET_ENUMCOLUMN.cEnumColumnValue property
 
 Gets the number of column values enumerated for the column. This member is only used if [err](dn335086\(v=exchg.10\).md) is not [ColumnSingleValue](hh557250\(v=exchg.10\).md).
 
@@ -55,15 +55,15 @@ public int cEnumColumnValue { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
+[JET_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
+[JET_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

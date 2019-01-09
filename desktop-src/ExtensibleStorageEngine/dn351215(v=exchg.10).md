@@ -29,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # SystemParameters.BookmarkMost property
 
-Gets the maximum size of a bookmark. [JetGetBookmark(JET\_SESID, JET\_TABLEID, \[\], Int32, Int32)](dn292149\(v=exchg.10\).md).
+Gets the maximum size of a bookmark. [JetGetBookmark(JET_SESID, JET_TABLEID, \[\], Int32, Int32)](dn292149\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -52,7 +52,7 @@ public static int BookmarkMost { get; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 

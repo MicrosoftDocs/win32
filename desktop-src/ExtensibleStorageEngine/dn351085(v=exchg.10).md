@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNPROG constructor
+# JET_SNPROG constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_SNPROG()
 
 #### Reference
 
-[JET\_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](dn351044\(v=exchg.10\).md)
 
-[JET\_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](dn351084\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

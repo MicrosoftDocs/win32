@@ -38,7 +38,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNP enumeration
+# JET_SNP enumeration
 
 The type of operation that progress is being reported for.
 

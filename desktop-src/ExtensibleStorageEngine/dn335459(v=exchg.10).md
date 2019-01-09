@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COMMIT\_ID.GetHashCode method
+# JET_COMMIT_ID.GetHashCode method
 
 Returns the hash code for this instance.
 
@@ -51,16 +51,16 @@ public override int GetHashCode()
 
 #### Return value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 The hash code for this instance.  
 
 ## See also
 
 #### Reference
 
-[JET\_COMMIT\_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
 
-[JET\_COMMIT\_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNLIST constructor
+# JET_COLUMNLIST constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_COLUMNLIST()
 
 #### Reference
 
-[JET\_COLUMNLIST class](dn335047\(v=exchg.10\).md)
+[JET_COLUMNLIST class](dn335047\(v=exchg.10\).md)
 
-[JET\_COLUMNLIST members](dn335100\(v=exchg.10\).md)
+[JET_COLUMNLIST members](dn335100\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

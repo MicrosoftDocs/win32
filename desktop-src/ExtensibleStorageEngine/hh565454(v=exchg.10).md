@@ -8,14 +8,14 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_INSTANCE members
+# JET_INSTANCE members
 
 Include protected members  
 Include inherited members  
 
-A JET\_INSTANCE contains a handle to the instance of the database to use for calls to the JET API.
+A JET_INSTANCE contains a handle to the instance of the database to use for calls to the JET API.
 
-The [JET\_INSTANCE](hh564593\(v=exchg.10\).md) type exposes the following members.
+The [JET_INSTANCE](hh564593\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -53,7 +53,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh566030(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/2dts52z7">ValueType.Equals(Object)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -62,28 +62,28 @@ Top
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh578700(v=exchg.10).md">GetHashCode</a></td>
-<td>Returns the hash code for this instance. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/y3509fc2">ValueType.GetHashCode()</a>.)</td>
+<td>Returns the hash code for this instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/y3509fc2">ValueType.GetHashCode()</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh577403(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="https://msdn.microsoft.com/en-us/library/wb77sz3h">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -127,7 +127,7 @@ Top
 
 #### Reference
 
-[JET\_INSTANCE structure](hh564593\(v=exchg.10\).md)
+[JET_INSTANCE structure](hh564593\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

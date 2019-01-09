@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXLIST.columnidindexname property
+# JET_INDEXLIST.columnidindexname property
 
 Gets the columnid of the column in the temporary table which stores the name of the index. The column is of type [Text](hh577895\(v=exchg.10\).md).
 
@@ -55,15 +55,15 @@ public JET_COLUMNID columnidindexname { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
 
-[JET\_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

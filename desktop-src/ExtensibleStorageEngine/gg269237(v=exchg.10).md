@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_PFNREALLOC Callback Function
+# JET_PFNREALLOC Callback Function
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_PFNREALLOC Callback Function
+## JET_PFNREALLOC Callback Function
 
-The JET\_PFNREALLOC function is a [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback used by [JetEnumerateColumns](gg269321\(v=exchg.10\).md) to allocate memory for its output buffers.
+The JET_PFNREALLOC function is a [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback used by [JetEnumerateColumns](gg269321\(v=exchg.10\).md) to allocate memory for its output buffers.
 
+```cpp
     void * JET_API JET_PFNREALLOC(
       [in]                 void* pvContext,
       [in]                 void* pv,
       [in]                 unsigned long cb
     );
+```
 
 ### Parameters
 

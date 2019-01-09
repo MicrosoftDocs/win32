@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNBASE.columnid property
+# JET_COLUMNBASE.columnid property
 
 Gets the columnid of the column.
 
@@ -55,15 +55,15 @@ public JET_COLUMNID columnid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
 
-[JET\_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

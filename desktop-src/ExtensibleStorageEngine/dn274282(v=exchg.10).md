@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# EsentDiskException constructor (String, JET\_err)
+# EsentDiskException constructor (String, JET_err)
 
 Initializes a new instance of the EsentDiskException class.
 
@@ -55,14 +55,14 @@ protected EsentDiskException(
 #### Parameters
 
   - description  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The description of the error.
 
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
     
     The error code of the exception.
 

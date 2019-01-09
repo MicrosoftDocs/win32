@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE.Add method
+# JET_RECSIZE.Add method
 
-Add the sizes in two JET\_RECSIZE structures.
+Add the sizes in two JET_RECSIZE structures.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,29 +59,29 @@ public static JET_RECSIZE Add(
 #### Parameters
 
   - s1  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
     
-    The first JET\_RECSIZE.
+    The first JET_RECSIZE.
 
 <!-- end list -->
 
   - s2  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
     
-    The second JET\_RECSIZE.
+    The second JET_RECSIZE.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_RECSIZE](hh557010\(v=exchg.10\).md)  
-A JET\_RECSIZE containing the result of adding the sizes in s1 and s2.  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
+A JET_RECSIZE containing the result of adding the sizes in s1 and s2.  
 
 ## See also
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

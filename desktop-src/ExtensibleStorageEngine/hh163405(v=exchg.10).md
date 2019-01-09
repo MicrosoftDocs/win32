@@ -27,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO.HasValue property
+# JET_BKINFO.HasValue property
 
 Gets a value indicating whether this backup info is null.
 
@@ -53,7 +53,7 @@ public bool HasValue { get; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 #### Implements
 
@@ -63,9 +63,9 @@ Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)
 
 #### Reference
 
-[JET\_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
-[JET\_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](hh557851\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

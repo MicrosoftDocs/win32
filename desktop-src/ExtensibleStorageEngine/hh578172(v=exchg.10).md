@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECSIZE.cNonTaggedColumns property
+# JET_RECSIZE.cNonTaggedColumns property
 
 Gets the total number of fixed and variable columns set in this record.
 
@@ -55,15 +55,15 @@ public long cNonTaggedColumns { get; internal set; }
 
 #### Property value
 
-Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
 
 ## See also
 
 #### Reference
 
-[JET\_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
 
-[JET\_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

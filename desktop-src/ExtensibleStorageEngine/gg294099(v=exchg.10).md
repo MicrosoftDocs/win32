@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCreateIndex** function enables you to create an index of data in an Extensible Storage Engine (ESE) database, which you can use to locate specific data quickly.
 
+```cpp
     JET_ERR JET_API JetCreateIndex(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -40,6 +41,7 @@ The **JetCreateIndex** function enables you to create an index of data in an Ext
       __in          unsigned long cbKey,
       __in          unsigned long lDensity
     );
+```
 
 ### Parameters
 
@@ -57,7 +59,7 @@ A pointer to a null-terminated string that specifies the name of the index to be
 
 The index name must conform to the following guidelines:
 
-  - It must contain fewer characters than JET\_cbNameMost, not including the terminating null character.
+  - It must contain fewer characters than JET_cbNameMost, not including the terminating null character.
 
   - It must contain only characters from the following categories: 0 through 9, A through Z, a through z, and all punctuation characters except for "\!" (exclamation point), "," (comma), "\[" (opening bracket), and "\]" (closing bracket) — that is, the ASCII characters 0x20, 0x22 through 0x2d, 0x2f through 0x5a, 0x5c, and 0x5d through 0x7f.
 
@@ -67,13 +69,13 @@ The index name must conform to the following guidelines:
 
 *grbit*
 
-A group of bits that contains the options to be used for a particular call. This parameter can include zero or more of the options found in the [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
+A group of bits that contains the options to be used for a particular call. This parameter can include zero or more of the options found in the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
 
 *szKey*
 
 A pointer to a double null-terminated string of null-delimited tokens.
 
-For more information about this parameter, see the [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
+For more information about this parameter, see the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
 
 *cbKey*
 
@@ -83,11 +85,11 @@ The length, in bytes, of the *szKey* parameter, including the two terminating nu
 
 The percentage density of the initial index B+ tree.
 
-For more information about this parameter, see the [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
+For more information about this parameter, see the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -113,7 +115,7 @@ For a list of additional errors that can be returned by the **JetCreateIndex** f
 
 #### Remarks
 
-Calling the **JetCreateIndex** function is identical to calling the [JetCreateIndex2](gg269324\(v=exchg.10\).md) function with a [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structure containing the same settings as the parameters of **JetCreateIndex**, and a *cIndexCreate* parameter equal to 1. For the fields of the [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structure that do not have corresponding parameters in **JetCreateIndex**, a value of 0 is assumed.
+Calling the **JetCreateIndex** function is identical to calling the [JetCreateIndex2](gg269324\(v=exchg.10\).md) function with a [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure containing the same settings as the parameters of **JetCreateIndex**, and a *cIndexCreate* parameter equal to 1. For the fields of the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure that do not have corresponding parameters in **JetCreateIndex**, a value of 0 is assumed.
 
 Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](gg269324\(v=exchg.10\).md).
 
@@ -155,11 +157,11 @@ Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](gg269324\(
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
 [JetCreateIndex2](gg269324\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)

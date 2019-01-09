@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SESID.Nil property
+# JET_SESID.Nil property
 
-Gets a null JET\_SESID.
+Gets a null JET_SESID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -52,15 +52,15 @@ public static JET_SESID Nil { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_SESID structure](hh596745\(v=exchg.10\).md)
+[JET_SESID structure](hh596745\(v=exchg.10\).md)
 
-[JET\_SESID members](hh557719\(v=exchg.10\).md)
+[JET_SESID members](hh557719\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

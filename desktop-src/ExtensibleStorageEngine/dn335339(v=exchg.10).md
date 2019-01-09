@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_ERRINFOBASIC properties
+# JET_ERRINFOBASIC properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_ERRINFOBASIC](dn335334\(v=exchg.10\).md) type exposes the following members.
+The [JET_ERRINFOBASIC](dn335334\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +61,7 @@ Top
 
 #### Reference
 
-[JET\_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

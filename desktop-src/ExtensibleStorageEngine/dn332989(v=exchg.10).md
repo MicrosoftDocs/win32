@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetRegisterCallback method
 
-Allows the application to configure the database engine to issue notifications to the application for specific events. These notifications are associated with a specific table and remain in effect only until the instance containing the table is shut down using [JetTerm(JET\_INSTANCE)](dn334020\(v=exchg.10\).md).
+Allows the application to configure the database engine to issue notifications to the application for specific events. These notifications are associated with a specific table and remain in effect only until the instance containing the table is shut down using [JetTerm(JET_INSTANCE)](dn334020\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -70,44 +70,44 @@ public static void JetRegisterCallback(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     A cursor opened on the table that the callback should be registered on.
 
 <!-- end list -->
 
   - cbtyp  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_cbtyp](hh564847\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
     
     The callback reasons for which the application wishes to receive notifications.
 
 <!-- end list -->
 
   - callback  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_CALLBACK](hh566065\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](hh566065\(v=exchg.10\).md)  
     
     The callback function.
 
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
     
     A context that will be given to the callback.
 
 <!-- end list -->
 
   - callbackId  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_HANDLE](hh558081\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](hh558081\(v=exchg.10\).md)  
     
-    A handle that can later be used to cancel the registration of the given callback function using [JetUnregisterCallback(JET\_SESID, JET\_TABLEID, JET\_cbtyp, JET\_HANDLE)](dn334019\(v=exchg.10\).md).
+    A handle that can later be used to cancel the registration of the given callback function using [JetUnregisterCallback(JET_SESID, JET_TABLEID, JET_cbtyp, JET_HANDLE)](dn334019\(v=exchg.10\).md).
 
 ## See also
 

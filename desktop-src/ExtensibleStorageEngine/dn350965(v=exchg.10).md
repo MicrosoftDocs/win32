@@ -55,9 +55,9 @@ public InstanceParameters(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
-    The instance to set parameters on. If this is JET\_INSTANCE.Nil, then the settings affect the default settings of future instances.
+    The instance to set parameters on. If this is JET_INSTANCE.Nil, then the settings affect the default settings of future instances.
 
 ## See also
 

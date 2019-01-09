@@ -29,15 +29,17 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCreateTableColumnIndex3 Function
 
-The **JetCreateTableColumnIndex3** function creates a table in an ESE database with an initial set of indexes and an initial set of columns from an array of [JET\_TABLECREATE3](gg269264\(v=exchg.10\).md) structures. The [JET\_TABLECREATE3](gg269264\(v=exchg.10\).md) structure allows a callback function to be specified.
+The **JetCreateTableColumnIndex3** function creates a table in an ESE database with an initial set of indexes and an initial set of columns from an array of [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) structures. The [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) structure allows a callback function to be specified.
 
 **Windows 7:** **JetCreateTableColumnIndex3** is introduced in the Windows 7 operating system.
 
+```cpp
     JET_ERR JET_API JetCreateTableColumnIndex3(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
       __in_out      JET_TABLECREATE3* ptablecreate
     );
+```
 
 ### Parameters
 
@@ -51,11 +53,11 @@ The database identifier to use for the API call.
 
 *ptablecreate*
 
-A pointer to a [JET\_TABLECREATE3](gg269264\(v=exchg.10\).md) structure that defines the table to be created. See [JET\_TABLECREATE3](gg269264\(v=exchg.10\).md) for more details.
+A pointer to a [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) structure that defines the table to be created. See [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) for more details.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -263,17 +265,17 @@ Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done usi
 
 #### See Also
 
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET\_DBID](gg269248\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET\_INDEXCREATE2](gg294082\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET\_TABLECREATE3](gg269264\(v=exchg.10\).md)  
-[JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
+[JET_CBTYP](gg294071\(v=exchg.10\).md)  
+[JET_DBID](gg269248\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
+[JET_INDEXCREATE2](gg294082\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
+[JET_TABLECREATE3](gg269264\(v=exchg.10\).md)  
+[JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
 [JetAddColumn](gg294122\(v=exchg.10\).md)  
 [JetCreateIndex](gg294099\(v=exchg.10\).md)  
 [JetCreateIndex2](gg269324\(v=exchg.10\).md)  

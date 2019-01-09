@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetAddColumn** function adds a new column to an existing table in an ESE database.
 
+```cpp
     JET_ERR JET_API JetAddColumn(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -40,6 +41,7 @@ The **JetAddColumn** function adds a new column to an existing table in an ESE d
       __in          unsigned long cbDefault,
       __out_opt     JET_COLUMNID* pcolumnid
     );
+```
 
 ### Parameters
 
@@ -55,7 +57,7 @@ The table to which to add the column.
 
 The name of the column to add. The name must meet the following criteria:
 
-  - It must be fewer than JET\_cbNameMost characters in length, not including the terminating **NULL**.
+  - It must be fewer than JET_cbNameMost characters in length, not including the terminating **NULL**.
 
   - It must contain characters only from the following sets: 0 through 9, A through Z, a through z, and all other punctuation except for exclamation point (\!), comma (,), opening bracket (\[), and closing bracket (\]) — that is, ASCII characters 0x20, 0x22 through 0x2d, 0x2f through 0x5a, 0x5c, and 0x5d through 0x7f.
 
@@ -65,13 +67,13 @@ The name of the column to add. The name must meet the following criteria:
 
 *pcolumndef*
 
-A pointer to a [JET\_COLUMNDEF](gg294130\(v=exchg.10\).md) structure, which defines the data that can be stored in a column.
+A pointer to a [JET_COLUMNDEF](gg294130\(v=exchg.10\).md) structure, which defines the data that can be stored in a column.
 
 *pvDefault*
 
-A pointer to a buffer that contains the default value for the column. The length of the buffer is **cbDefault**. If there is no default, set **pvDefault** to **NULL** and **cbDefault** to zero. Default values cannot be larger than JET\_cbColumnMost bytes for fixed columns or JET\_cbLVDefaultValueMost bytes for long values. If a default value is larger than that, it will be silently truncated.
+A pointer to a buffer that contains the default value for the column. The length of the buffer is **cbDefault**. If there is no default, set **pvDefault** to **NULL** and **cbDefault** to zero. Default values cannot be larger than JET_cbColumnMost bytes for fixed columns or JET_cbLVDefaultValueMost bytes for long values. If a default value is larger than that, it will be silently truncated.
 
-If *grbit* has JET\_bitColumnUserDefinedDefault set, **pvDefault** will be interpreted as a pointer to a [JET\_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md) structure.
+If *grbit* has JET_bitColumnUserDefinedDefault set, **pvDefault** will be interpreted as a pointer to a [JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md) structure.
 
 *cbDefault*
 
@@ -79,11 +81,11 @@ The size, in bytes, of the buffer that is specified in **pvDefault**.
 
 *pcolumnid*
 
-A pointer to a [JET\_COLUMNID](gg294104\(v=exchg.10\).md) structure, which, on success, will receive the identifier of the newly created column. On failure, the value is undefined.
+A pointer to a [JET_COLUMNID](gg294104\(v=exchg.10\).md) structure, which, on success, will receive the identifier of the newly created column. On failure, the value is undefined.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -253,14 +255,14 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### See Also
 
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
+[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)
 

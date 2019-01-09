@@ -17,16 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CBTYP
+# JET_CBTYP
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_CBTYP
+## JET_CBTYP
 
-The **JET\_CBTYP** group of constants describes all possible points in an operation that the database engine will notify an application by calling the [JET\_CALLBACK](gg294098\(v=exchg.10\).md) callback function. The database engine passes one of these constants in the *cbtyp* parameter of the callback function. The meaning of the other parameters passed by the database engine in this call depend on the specific **JET\_CBTYP** passed.
+The **JET_CBTYP** group of constants describes all possible points in an operation that the database engine will notify an application by calling the [JET_CALLBACK](gg294098\(v=exchg.10\).md) callback function. The database engine passes one of these constants in the *cbtyp* parameter of the callback function. The meaning of the other parameters passed by the database engine in this call depend on the specific **JET_CBTYP** passed.
 
-**Windows XP:**  The **JET\_CBTYP** group of constants are introduced in Windows XP.
+**Windows XP:**  The **JET_CBTYP** group of constants are introduced in Windows XP.
 
 <table>
 <colgroup>
@@ -247,5 +247,5 @@ The **JET\_CBTYP** group of constants describes all possible points in an operat
 
 ### See Also
 
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)
 

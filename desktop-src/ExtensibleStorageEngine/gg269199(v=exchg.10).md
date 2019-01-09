@@ -33,12 +33,14 @@ The **JetGetTruncateLogInfoInstance** function is used during a backup that is i
 
 **Windows XP:**  **JetGetTruncateLogInfoInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetGetTruncateLogInfoInstance(
       __in          JET_INSTANCE instance,
       __out_opt     tchar* szz,
       __in          unsigned long cbMax,
       __out_opt     unsigned long* pcbActual
     );
+```
 
 ### Parameters
 
@@ -62,7 +64,7 @@ Pointer to the output buffer that receives the actual amount of string data.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -173,8 +175,8 @@ This API does not return an error or warning if the output buffer is too small t
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetCloseDatabase](gg294123\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  

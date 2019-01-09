@@ -60,20 +60,20 @@ public static IDictionary<string, JET_COLUMNID> GetColumnDictionary(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The sesid to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to retrieve the information for.
 
 #### Return value
 
-Type: [System.Collections.Generic.IDictionary](http://msdn2.microsoft.com/en-us/library/s4ys34ea)\<[String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf), [JET\_COLUMNID](hh564510\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IDictionary](https://msdn.microsoft.com/en-us/library/s4ys34ea)\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf), [JET_COLUMNID](hh564510\(v=exchg.10\).md)\>  
 A dictionary mapping column names to column IDs.  
 
 ## See also

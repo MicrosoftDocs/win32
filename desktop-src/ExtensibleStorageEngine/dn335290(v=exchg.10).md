@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OPENTEMPORARYTABLE.cbKeyMost property
+# JET_OPENTEMPORARYTABLE.cbKeyMost property
 
 Gets or sets the maximum size for a key representing a given row. The maximum key size may be set to control how keys are truncated. Key truncation is important because it can affect when rows are considered to be distinct. If this parameter is set to 0 or 255 then the maximum key size and its semantics will remain identical to the maximum key size supported by Windows Server 2003. This parameter may also be set to a larger value as a function of the database page size for the instance [DatabasePageSize](hh596135\(v=exchg.10\).md). See [KeyMost](dn335292\(v=exchg.10\).md) for more information.
 
@@ -57,15 +57,15 @@ public int cbKeyMost { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
 
-[JET\_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

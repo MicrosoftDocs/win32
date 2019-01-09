@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_INDEXRANGE properties
+# JET_INDEXRANGE properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_INDEXRANGE](dn335175\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXRANGE](dn335175\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +46,7 @@ Top
 
 #### Reference
 
-[JET\_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

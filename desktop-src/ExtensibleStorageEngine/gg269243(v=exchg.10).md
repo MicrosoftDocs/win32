@@ -31,12 +31,14 @@ The **JetSetLS** function enables the application to associate a context handle 
 
 **Windows XP:**  **JetSetLS** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetSetLS(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          JET_LS ls,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -52,7 +54,7 @@ The cursor to use for this call.
 
 The context handle to be associated with the cursor or table.
 
-When JET\_bitLSReset is specified then the actual value of this parameter is ignored and JET\_LSNil is used.
+When JET_bitLSReset is specified then the actual value of this parameter is ignored and JET_LSNil is used.
 
 *grbit*
 
@@ -92,7 +94,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -152,9 +154,9 @@ On failure, no change to the state of the requested object has occurred. No chan
 
 #### Remarks
 
-The Local Storage for a cursor or table should be viewed as a volatile cache. The application should first try to retrieve the context handle using [JetGetLS](gg269234\(v=exchg.10\).md). If the value is not set (that is it is JET\_LSNil) then the application should create a new context and load it into the cache using **JetSetLS**. The application can purge the cache using a call to [JetGetLS](gg269234\(v=exchg.10\).md) with JET\_bitLSReset. If the database engine purges the cache then a runtime callback will be generated to give the application a chance to cleanup that context. The callback type will be JET\_cbtypFreeCursorLS for a context handle associated with a cursor and JET\_cbtypFreeTableLS for a context handle associated with a table. In either case, the context handle will be passed as pvArg1. See [JET\_CALLBACK](gg294098\(v=exchg.10\).md) for more information.
+The Local Storage for a cursor or table should be viewed as a volatile cache. The application should first try to retrieve the context handle using [JetGetLS](gg269234\(v=exchg.10\).md). If the value is not set (that is it is JET_LSNil) then the application should create a new context and load it into the cache using **JetSetLS**. The application can purge the cache using a call to [JetGetLS](gg269234\(v=exchg.10\).md) with JET_bitLSReset. If the database engine purges the cache then a runtime callback will be generated to give the application a chance to cleanup that context. The callback type will be JET_cbtypFreeCursorLS for a context handle associated with a cursor and JET_cbtypFreeTableLS for a context handle associated with a table. In either case, the context handle will be passed as pvArg1. See [JET_CALLBACK](gg294098\(v=exchg.10\).md) for more information.
 
-The runtime callback must be properly configured for the instance associated with the given session before Local Storage can be used. This callback can be set using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with [JET\_paramRuntimeCallback](gg269310\(v=exchg.10\).md). See [JetSetSystemParameter](gg294044\(v=exchg.10\).md) and [JET\_paramRuntimeCallback](gg269310\(v=exchg.10\).md) in System Parameters for more information.
+The runtime callback must be properly configured for the instance associated with the given session before Local Storage can be used. This callback can be set using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with [JET_paramRuntimeCallback](gg269310\(v=exchg.10\).md). See [JetSetSystemParameter](gg294044\(v=exchg.10\).md) and [JET_paramRuntimeCallback](gg269310\(v=exchg.10\).md) in System Parameters for more information.
 
 #### Requirements
 
@@ -190,12 +192,12 @@ The runtime callback must be properly configured for the instance associated wit
 
 #### See Also
 
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_LS](gg269336\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_LS](gg269336\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetLS](gg269234\(v=exchg.10\).md)  
 [JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
 [System Parameters](gg294139\(v=exchg.10\).md)

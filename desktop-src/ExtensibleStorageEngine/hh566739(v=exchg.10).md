@@ -36,7 +36,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_filetype enumeration
+# JET_filetype enumeration
 
 Esent file types.
 

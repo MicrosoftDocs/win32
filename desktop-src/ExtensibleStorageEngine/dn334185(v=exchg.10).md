@@ -55,7 +55,7 @@ public JET_CP Cp { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_CP](hh558581\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_CP](hh558581\(v=exchg.10\).md)  
 
 ## See also
 

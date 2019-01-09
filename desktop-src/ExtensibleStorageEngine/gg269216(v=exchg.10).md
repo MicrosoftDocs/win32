@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTINFO Structure
+# JET_RSTINFO Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_RSTINFO Structure
+## JET_RSTINFO Structure
 
-The **JET\_RSTINFO** structure contains control information for the recovery process like database relocation information and ability to control stopping recovery.
+The **JET_RSTINFO** structure contains control information for the recovery process like database relocation information and ability to control stopping recovery.
 
-**Windows Vista:** The **JET\_RSTINFO** structure is introduced in Windows Vista.
+**Windows Vista:** The **JET_RSTINFO** structure is introduced in Windows Vista.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_RSTMAP* rgrstmap;
@@ -36,6 +37,7 @@ The **JET\_RSTINFO** structure contains control information for the recovery pro
       JET_LOGTIME logtimeStop;
       JET_PFNSTATUS pfnStatus;
     } JET_RSTINFO;
+```
 
 ### Members
 

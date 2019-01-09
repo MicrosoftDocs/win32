@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetTableIndexInfo method (JET\_SESID, JET\_TABLEID, String, JET\_INDEXID, JET\_IdxInfo)
+# Api.JetGetTableIndexInfo method (JET_SESID, JET_TABLEID, String, JET_INDEXID, JET_IdxInfo)
 
 Retrieves information about indexes on a table.
 
@@ -62,35 +62,35 @@ public static void JetGetTableIndexInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to retrieve index information about.
 
 <!-- end list -->
 
   - indexname  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name of the index.
 
 <!-- end list -->
 
   - result  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INDEXID](hh557060\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](hh557060\(v=exchg.10\).md)  
     
     Filled in with information about indexes on the table.
 
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_IdxInfo](hh565119\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_IdxInfo](hh565119\(v=exchg.10\).md)  
     
     The type of information to retrieve.
 

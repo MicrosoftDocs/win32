@@ -17,22 +17,24 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_PWSTR
+# JET_PWSTR
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_PWSTR
+## JET_PWSTR
 
-The **JET\_PWSTR** data type contains a null-terminated **Unicode** string (char \*).
+The **JET_PWSTR** data type contains a null-terminated **Unicode** string (char \*).
 
-**Windows Vista:  JET\_PWSTR** is introduced in Windows Vista.
+**Windows Vista:  JET_PWSTR** is introduced in Windows Vista.
 
+```cpp
     typedef __nullterminated WCHAR * JET_PWSTR;
+```
 
 ### Data Types
 
-JET\_PWSTR
+JET_PWSTR
 
 Null-terminated, Unicode string (char \*).
 

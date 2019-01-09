@@ -60,13 +60,13 @@ public static CompareOptions CompareOptionsFromLCMapFlags(
 #### Parameters
 
   - lcmapFlags  
-    Type: [System.UInt32](http://msdn2.microsoft.com/en-us/library/ctys3981)  
+    Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981)  
     
     LCMapString flags.
 
 #### Return value
 
-Type: [System.Globalization.CompareOptions](http://msdn2.microsoft.com/en-us/library/cfw20y7b)  
+Type: [System.Globalization.CompareOptions](https://msdn.microsoft.com/en-us/library/cfw20y7b)  
 CompareOptions describing the (known) flags.  
 
 ## See also

@@ -26,14 +26,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEX\_COLUMN class
+# JET_INDEX_COLUMN class
 
-Contains filter definition for [JetPrereadIndexRanges(JET\_SESID, JET\_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](dn335382\(v=exchg.10\).md) and [JetSetCursorFilter(JET\_SESID, JET\_TABLEID, \[\], CursorFilterGrbit)](dn335383\(v=exchg.10\).md).
+Contains filter definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](dn335382\(v=exchg.10\).md) and [JetSetCursorFilter(JET_SESID, JET_TABLEID, \[\], CursorFilterGrbit)](dn335383\(v=exchg.10\).md).
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  Microsoft.Isam.Esent.Interop.Windows8.JET\_INDEX\_COLUMN  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,7 +59,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_INDEX\_COLUMN members](dn335351\(v=exchg.10\).md)
+[JET_INDEX_COLUMN members](dn335351\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

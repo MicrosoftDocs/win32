@@ -29,14 +29,16 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetBeginSession Function
 
-The **JetBeginSession** function starts a session and initializes and returns an ESE session handle ([JET\_SESID](gg269253\(v=exchg.10\).md)). Sessions control all access to the database and are used to control the scope of transactions. The session can be used to begin, commit, or abort transactions. The session is also used to attach, create, or open a database. The session is used as the context for all DDL and DML operations. To increase concurrency and parallel access to the database, multiple sessions can be begun.
+The **JetBeginSession** function starts a session and initializes and returns an ESE session handle ([JET_SESID](gg269253\(v=exchg.10\).md)). Sessions control all access to the database and are used to control the scope of transactions. The session can be used to begin, commit, or abort transactions. The session is also used to attach, create, or open a database. The session is used as the context for all DDL and DML operations. To increase concurrency and parallel access to the database, multiple sessions can be begun.
 
+```cpp
     JET_ERR JET_API JetBeginSession(
       __in          JET_INSTANCE instance,
       __out         JET_SESID* psesid,
       __in_opt      JET_PCSTR szUserName,
       __in_opt      JET_PCSTR szPassword
     );
+```
 
 ### Parameters
 
@@ -58,7 +60,7 @@ This parameter is reserved.
 
 ### Return Value
 
-This function allows for the return of any [JET\_ERR](gg294092\(v=exchg.10\).md)s that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function allows for the return of any [JET_ERR](gg294092\(v=exchg.10\).md)s that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -161,9 +163,9 @@ The session handle should be closed with [JetEndSession](gg294054\(v=exchg.10\).
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetBeginTransaction](gg294083\(v=exchg.10\).md)  
 [JetCommitTransaction](gg269191\(v=exchg.10\).md)  
 [JetDupSession](gg294141\(v=exchg.10\).md)  

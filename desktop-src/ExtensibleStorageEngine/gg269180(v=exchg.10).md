@@ -31,6 +31,7 @@ The **JetGotoSecondaryIndexBookmark** function positions a cursor to an index en
 
 **Windows XP:**  **JetGotoSecondaryIndexBookmark** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetGotoSecondaryIndexBookmark(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -40,6 +41,7 @@ The **JetGotoSecondaryIndexBookmark** function positions a cursor to an index en
       __in          unsigned long cbPrimaryBookmark,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -93,7 +95,7 @@ A group of bits that specifies zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -159,7 +161,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 If this function succeeds, the cursor will be positioned at an index entry that is associated with the specified secondary index bookmark. If a record has been prepared for update, that update will be canceled. If an index range is in effect, that index range will be canceled. If a search key has been constructed for the cursor to use, that search key will be deleted. No change to the database state will occur.
 
-If this function fails, the position of the cursor remains unchanged unless JET\_errRecordDeleted is returned and JET\_bitBookmarkPermitVirtualCurrency is specified. In that case, the cursor will be positioned where the index entry that is associated with the specified secondary index bookmark would have been. The cursor can be moved relative to that position, but is still not on a valid index entry.
+If this function fails, the position of the cursor remains unchanged unless JET_errRecordDeleted is returned and JET_bitBookmarkPermitVirtualCurrency is specified. In that case, the cursor will be positioned where the index entry that is associated with the specified secondary index bookmark would have been. The cursor can be moved relative to that position, but is still not on a valid index entry.
 
 If a record has been prepared for update, that update will be canceled. If an index range is in effect, that index range will be canceled. If a search key has been constructed for the cursor to use, that search key will be deleted. In any case, no change to the database state will occur.
 
@@ -197,10 +199,10 @@ If a record has been prepared for update, that update will be canceled. If an in
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetSecondaryIndexBookmark](gg269285\(v=exchg.10\).md)  
 [JetGotoBookmark](gg294053\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)

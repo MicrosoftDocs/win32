@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetSetSystemParameter method (JET\_INSTANCE, JET\_SESID, JET\_param, Int32, String)
+# Api.JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, Int32, String)
 
 Sets database configuration options.
 
@@ -65,41 +65,41 @@ public static JET_wrn JetSetSystemParameter(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to set the option on or [Nil](hh578872\(v=exchg.10\).md) to set the option on all instances.
 
 <!-- end list -->
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - paramid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_param](hh596135\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_param](hh596135\(v=exchg.10\).md)  
     
     The parameter to set.
 
 <!-- end list -->
 
   - paramValue  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The value of the parameter to set, if the parameter is an integer type.
 
 <!-- end list -->
 
   - paramString  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The value of the parameter to set, if the parameter is a string type.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 An ESENT warning code.  
 
 ## See also

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETCOLUMN.grbit property
+# JET_SETCOLUMN.grbit property
 
 Gets or sets options for the set column operation.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.SetColumnGrbit](hh538951\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
-[JET\_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

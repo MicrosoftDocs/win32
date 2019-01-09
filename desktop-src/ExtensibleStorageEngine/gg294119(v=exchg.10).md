@@ -26,9 +26,10 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for the index.
 
-JET\_paramIndexTupleIncrement  
+*JET_paramIndexTupleIncrement*  
 132  
-This parameter specifies the default for the offset increment used to step through the source column value while generating each tuple. For more information, see the [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure.
+
+This parameter specifies the default for the offset increment used to step through the source column value while generating each tuple. For more information, see the [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure.
 
 <table>
 <colgroup>
@@ -84,9 +85,10 @@ This parameter specifies the default for the offset increment used to step throu
 </table>
 
 
-JET\_paramIndexTupleStart  
+*JET_paramIndexTupleStart*  
 133  
-This parameter specifies the default for the offset in the source column value at which tuple generation will start. For more information, see the [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure.
+
+This parameter specifies the default for the offset in the source column value at which tuple generation will start. For more information, see the [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure.
 
 <table>
 <colgroup>
@@ -142,9 +144,10 @@ This parameter specifies the default for the offset in the source column value a
 </table>
 
 
-JET\_paramIndexTuplesLengthMax  
+*JET_paramIndexTuplesLengthMax*  
 111  
-This parameter specifies the default for the maximum tuple length in a tuple index. For more information, see the [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure.
+
+This parameter specifies the default for the maximum tuple length in a tuple index. For more information, see the [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure.
 
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
@@ -203,9 +206,10 @@ This parameter specifies the default for the maximum tuple length in a tuple ind
 </table>
 
 
-JET\_paramIndexTuplesLengthMin  
+*JET_paramIndexTuplesLengthMin*  
 110  
-This parameter specifies the default for the minimum tuple length in a tuple index. See [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md) for more information.
+
+This parameter specifies the default for the minimum tuple length in a tuple index. See [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) for more information.
 
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
@@ -264,9 +268,10 @@ This parameter specifies the default for the minimum tuple length in a tuple ind
 </table>
 
 
-JET\_paramIndexTuplesToIndexMax  
+*JET_paramIndexTuplesToIndexMax*  
 112  
-This parameter specifies the default for the maximum length of a source string to break into tuples for a tuple index. See [JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md) for more information.
+
+This parameter specifies the default for the maximum length of a source string to break into tuples for a tuple index. See [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) for more information.
 
 **Windows Vista:**  Prior to Windows Vista, setting this parameter to zero would set it back to its default value. For Windows Vista, this is no longer supported.
 
@@ -325,17 +330,18 @@ This parameter specifies the default for the maximum length of a source string t
 </table>
 
 
-JET\_paramUnicodeIndexDefault  
+*JET_paramUnicodeIndexDefault*  
 72  
-This parameter controls the default Unicode parameters used by any index over a Unicode key column. The type of this parameter is [JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md) and is actually passed using a buffer pointer stored in the integer parameter of [JetGetSystemParameter](gg269291\(v=exchg.10\).md) and [JetSetSystemParameter](gg294044\(v=exchg.10\).md). The size of the buffer must equal the size of [JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md) and must be passed to [JetGetSystemParameter](gg269291\(v=exchg.10\).md) using the string buffer size parameter. This is clearly inconsistent but that is the behavior of this parameter.
 
-The default value of this parameter contains an LCID for the U.S. English locale and the following [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags: LCMAP\_SORTKEY, NORM\_IGNORECASE, NORM\_IGNOREKANATYPE, and NORM\_IGNOREWIDTH.
+This parameter controls the default Unicode parameters used by any index over a Unicode key column. The type of this parameter is [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) and is actually passed using a buffer pointer stored in the integer parameter of [JetGetSystemParameter](gg269291\(v=exchg.10\).md) and [JetSetSystemParameter](gg294044\(v=exchg.10\).md). The size of the buffer must equal the size of [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) and must be passed to [JetGetSystemParameter](gg269291\(v=exchg.10\).md) using the string buffer size parameter. This is clearly inconsistent but that is the behavior of this parameter.
 
-**Windows 2000:**  The SORTID in the LCID is ignored. A SORTID of SORT\_DEFAULT is always used.
+The default value of this parameter contains an LCID for the U.S. English locale and the following [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags: LCMAP_SORTKEY, NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH.
 
-**Windows 2000:**  The [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732) flags must contain the following flags: LCMAP\_SORTKEY, NORM\_IGNORECASE, NORM\_IGNOREKANATYPE, and NORM\_IGNOREWIDTH. In addition, the [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags may contain the following flags: NORM\_IGNORENONSPACE.
+**Windows 2000:**  The SORTID in the LCID is ignored. A SORTID of SORT_DEFAULT is always used.
 
-**Note**  If your application wishes to store Unicode data, then it is strongly recommended that you do not rely on the default Unicode parameters for your indexes. The use of U.S. English is tantamount to using the invariant locale and the default [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags are known to seriously interfere with some languages. You should always specify your own settings for the Unicode parameters to JetCreateIndex2 using [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md).
+**Windows 2000:**  The [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732) flags must contain the following flags: LCMAP_SORTKEY, NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH. In addition, the [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags may contain the following flags: NORM_IGNORENONSPACE.
+
+**Note**  If your application wishes to store Unicode data, then it is strongly recommended that you do not rely on the default Unicode parameters for your indexes. The use of U.S. English is tantamount to using the invariant locale and the default [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags are known to seriously interfere with some languages. You should always specify your own settings for the Unicode parameters to JetCreateIndex2 using [JET_INDEXCREATE](gg269186\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -417,9 +423,9 @@ The default value of this parameter contains an LCID for the U.S. English locale
 
 ### See Also
 
-[JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET\_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
-[JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
+[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
+[JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
+[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetGetSystemParameter](gg269291\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  

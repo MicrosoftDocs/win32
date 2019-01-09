@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTINFO.crstmap property
+# JET_RSTINFO.crstmap property
 
 Gets or sets the number of elements in the restore-map array.
 
@@ -57,15 +57,15 @@ public int crstmap { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
 
-[JET\_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

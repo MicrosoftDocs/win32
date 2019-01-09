@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECPOS constructor
+# JET_RECPOS constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_RECPOS()
 
 #### Reference
 
-[JET\_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](dn335256\(v=exchg.10\).md)
 
-[JET\_RECPOS members](dn335257\(v=exchg.10\).md)
+[JET_RECPOS members](dn335257\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

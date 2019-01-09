@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNCREATE Structure
+# JET_COLUMNCREATE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_COLUMNCREATE Structure
+## JET_COLUMNCREATE Structure
 
-The **JET\_COLUMNCREATE** structure describes a column to create in a database.
+The **JET_COLUMNCREATE** structure describes a column to create in a database.
 
+```cpp
     typedef struct tag_JET_COLUMNCREATE {
       unsigned long cbStruct;
       tchar* szColumnName;
@@ -38,18 +39,19 @@ The **JET\_COLUMNCREATE** structure describes a column to create in a database.
       JET_COLUMNID columnid;
       JET_ERR err;
     } JET_COLUMNCREATE;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the structure, in bytes. This field must be initialized to **sizeof( JET\_COLUMNCREATE )**.
+The size of the structure, in bytes. This field must be initialized to **sizeof( JET_COLUMNCREATE )**.
 
 **szColumnName**
 
 The name of the column to create. The name must meet the following criteria:
 
-  - It must be fewer than JET\_cbNameMost characters in length, not including the terminating NULL.
+  - It must be fewer than JET_cbNameMost characters in length, not including the terminating NULL.
 
 <!-- end list -->
 
@@ -65,7 +67,7 @@ The name of the column to create. The name must meet the following criteria:
 
 **coltyp**
 
-The type of the column (for example, text, binary, or numerical). For more information, see [JET\_COLTYP](gg269213\(v=exchg.10\).md).
+The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](gg269213\(v=exchg.10\).md).
 
 **cbMax**
 
@@ -174,7 +176,7 @@ A group of bits that contain the options for this structure, and which include z
 
 **pvDefault**
 
-Points to a buffer which will be the default value for a column. The length of the buffer is **cbDefault**. If there is no default, **pvDefault** should be set to NULL and **cbDefault** should be set to zero. If *grbit* has JET\_bitColumnUserDefinedDefault set, **pvDefault** will be interpreted as a pointer to a JET\_USERDEFINEDDEFAULT structure. Default values cannot be larger than 255 bytes. If a default value is larger than 255 bytes, it will be silently truncated.
+Points to a buffer which will be the default value for a column. The length of the buffer is **cbDefault**. If there is no default, **pvDefault** should be set to NULL and **cbDefault** should be set to zero. If *grbit* has JET_bitColumnUserDefinedDefault set, **pvDefault** will be interpreted as a pointer to a JET_USERDEFINEDDEFAULT structure. Default values cannot be larger than 255 bytes. If a default value is larger than 255 bytes, it will be silently truncated.
 
 **cbDefault**
 
@@ -222,15 +224,15 @@ The **err** field will contain the status of creating this column. See [JetAddCo
 
 ### See Also
 
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_RETINFO](gg294049\(v=exchg.10\).md)  
-[JET\_SETINFO](gg294090\(v=exchg.10\).md)  
-[JET\_SETCOLUMN](gg269233\(v=exchg.10\).md)  
-[JET\_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
-[JET\_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_RETINFO](gg294049\(v=exchg.10\).md)  
+[JET_SETINFO](gg294090\(v=exchg.10\).md)  
+[JET_SETCOLUMN](gg269233\(v=exchg.10\).md)  
+[JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
+[JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
 [JetAddColumn](gg294122\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
 [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)  

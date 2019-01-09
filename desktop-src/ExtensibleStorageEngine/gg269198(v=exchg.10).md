@@ -29,6 +29,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetRetrieveColumn** function retrieves a single column value from the current record. The record is that record associated with the index entry at the current position of the cursor. Alternatively, this function can retrieve a column from a record being created in the cursor copy buffer. This function can also retrieve column data from an index entry that references the current record. In addition to retrieving the actual column value, **JetRetrieveColumn** can also be used to retrieve the size of a column, before retrieving the column data itself so that application buffers can be sized appropriately.
 
+```cpp
     JET_ERR JET_API JetRetrieveColumn(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -39,6 +40,7 @@ The **JetRetrieveColumn** function retrieves a single column value from the curr
       __in          JET_GRBIT grbit,
       __in_out_opt  JET_RETINFO* pretinfo
     );
+```
 
 ### Parameters
 
@@ -52,7 +54,7 @@ The cursor to use for this call.
 
 *columnid*
 
-The [JET\_COLUMNID](gg294104\(v=exchg.10\).md) of the column to retrieve.
+The [JET_COLUMNID](gg294104\(v=exchg.10\).md) of the column to retrieve.
 
 A *columnid* value of 0 (zero) can be given which does not itself refer to any individual column. When *columnid* 0 (zero) is given, all tagged columns, sparse, and multi-valued columns are treated as a single column. This facilitates retrieving all sparse columns that are present in a record.
 
@@ -162,7 +164,7 @@ This parameter is used to provide one or more of the following:
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -249,7 +251,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, the column value for the given column, is copied into the given buffer. Less than all of the column value is copied with the warning JET\_wrnBufferTruncated is returned. If the *pcbActual* was given, the actual size of the column value is returned. Note that **NULL** values have 0 (zero) length and will thus set the returned size to 0 (zero). If the column retrieved was a multi-valued column, and *pretinfo* was given, and JET\_bitReturnTag was set as an option, then the sequence number of the column value is returned in pretinfo-\>itagSequence.
+On success, the column value for the given column, is copied into the given buffer. Less than all of the column value is copied with the warning JET_wrnBufferTruncated is returned. If the *pcbActual* was given, the actual size of the column value is returned. Note that **NULL** values have 0 (zero) length and will thus set the returned size to 0 (zero). If the column retrieved was a multi-valued column, and *pretinfo* was given, and JET_bitReturnTag was set as an option, then the sequence number of the column value is returned in pretinfo-\>itagSequence.
 
 On failure, the cursor location is left unchanged and no data is copied into the provided buffer.
 
@@ -257,11 +259,11 @@ On failure, the cursor location is left unchanged and no data is copied into the
 
 This call is used just once to retrieve data of fixed or known size for non-multi-valued columns. However, when column data is of unknown size, this call is typically used twice. It is called first to determine the size of the data so it can allocate the necessary storage space. Then, the same call is made again to retrieve the column data. When the actual number of values is unknown, because a column is multi-valued, the call is typically used three times. First to get the number of values and then twice more to allocate storage and retrieve the actual data.
 
-Retrieving all the values for a multi-valued column can be done by repeatedly calling this function with a pretinfo-\>itagSequence value beginning at 1 and increasing on each subsequent call. The last column value is known to be retrieved when a JET\_wrnColumnNull is returned from the function. Note that this method cannot be done if the multi-value column has explicit **NULL** values set in its value sequence, since these values would be skipped. If an application desires to retrieve all multi-valued column values, including those explicitly set to **NULL**, then [JetRetrieveColumns](gg294135\(v=exchg.10\).md) must be used instead of **JetRetrieveColumn**. Note that this function does not return the number of values for a multi-valued function when an *itagSequence* value of 0 (zero) is given. Only [JetRetrieveColumns](gg294135\(v=exchg.10\).md) will return the number of values of a column value when an *itagSequence* value of 0 (zero) is passed.
+Retrieving all the values for a multi-valued column can be done by repeatedly calling this function with a pretinfo-\>itagSequence value beginning at 1 and increasing on each subsequent call. The last column value is known to be retrieved when a JET_wrnColumnNull is returned from the function. Note that this method cannot be done if the multi-value column has explicit **NULL** values set in its value sequence, since these values would be skipped. If an application desires to retrieve all multi-valued column values, including those explicitly set to **NULL**, then [JetRetrieveColumns](gg294135\(v=exchg.10\).md) must be used instead of **JetRetrieveColumn**. Note that this function does not return the number of values for a multi-valued function when an *itagSequence* value of 0 (zero) is given. Only [JetRetrieveColumns](gg294135\(v=exchg.10\).md) will return the number of values of a column value when an *itagSequence* value of 0 (zero) is passed.
 
 If this function is called at transaction level 0 (zero), for example, the calling session is not itself in a transaction, then a transaction is opened and closed within the function. The purpose of this is to return consistent results in the case that a long value spans database pages. Note that the transaction is released between function calls and a series of calls to this function when the session is not in a transaction may return data updated after the first call to this function.
 
-The default column value will be retrieved when the column has not been set explicitly to another value, unless the JET\_bitRetrieveIgnoreDefault option is set.
+The default column value will be retrieved when the column has not been set explicitly to another value, unless the JET_bitRetrieveIgnoreDefault option is set.
 
 Retrieving the autoincrement column value from the copy buffer prior to insert is a common means of identifying a record uniquely for linkage when inserting normalized data into multiple tables. The autoincrement value is allocated when the insert operation begins and can be retrieved from the copy buffer at any time until the update is complete.
 
@@ -301,11 +303,11 @@ When retrieving all tagged, multi-valued, and sparse columns, by setting *column
 
 #### See Also
 
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_RETINFO](gg294049\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_RETINFO](gg294049\(v=exchg.10\).md)  
 [JetSetColumn](gg294051\(v=exchg.10\).md)  
 [JetRetrieveColumns](gg294135\(v=exchg.10\).md)
 

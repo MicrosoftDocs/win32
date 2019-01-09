@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OSSNAPID structure
+# JET_OSSNAPID structure
 
-A JET\_OSSNAPID contains a handle to a snapshot of a database.
+A JET_OSSNAPID contains a handle to a snapshot of a database.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -56,7 +56,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_OSSNAPID members](hh596352\(v=exchg.10\).md)
+[JET_OSSNAPID members](hh596352\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

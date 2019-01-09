@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.RetrieveColumnAsDouble method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, RetrieveColumnGrbit)
+# Api.RetrieveColumnAsDouble method (JET_SESID, JET_TABLEID, JET_COLUMNID, RetrieveColumnGrbit)
 
 Retrieves a double column value from the current record. The record is that record associated with the index entry at the current position of the cursor.
 
@@ -62,21 +62,21 @@ public static Nullable<double> RetrieveColumnAsDouble(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the column from.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to retrieve.
 
@@ -89,7 +89,7 @@ public static Nullable<double> RetrieveColumnAsDouble(
 
 #### Return value
 
-Type: [System.Nullable](http://msdn2.microsoft.com/en-us/library/b3h38hb0)\<[Double](http://msdn2.microsoft.com/en-us/library/643eft0t)\>  
+Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Double](https://msdn.microsoft.com/en-us/library/643eft0t)\>  
 The data retrieved from the column as a double. Null if the column is null.  
 
 ## See also

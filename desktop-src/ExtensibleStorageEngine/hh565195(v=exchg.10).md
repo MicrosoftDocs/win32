@@ -30,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 # SnapshotGetFreezeInfoGrbit enumeration
 
-Options for [JetOSSnapshotGetFreezeInfo(JET\_OSSNAPID, Int32, \[\], SnapshotGetFreezeInfoGrbit)](dn351269\(v=exchg.10\).md).
+Options for [JetOSSnapshotGetFreezeInfo(JET_OSSNAPID, Int32, \[\], SnapshotGetFreezeInfoGrbit)](dn351269\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

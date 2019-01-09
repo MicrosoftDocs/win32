@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEX\_COLUMN.columnid property
+# JET_INDEX_COLUMN.columnid property
 
 Gets or sets the column identifier for the column to retrieve.
 
@@ -57,15 +57,15 @@ public JET_COLUMNID columnid { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEX\_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
 
-[JET\_INDEX\_COLUMN members](dn335351\(v=exchg.10\).md)
+[JET_INDEX_COLUMN members](dn335351\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

@@ -29,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentVersion.SupportsLargeKeys property
 
-Gets a value that indicates whether large (\> 255 byte) keys are supported. The key size for an index can be specified in the [JET\_INDEXCREATE](dn335112\(v=exchg.10\).md) object.
+Gets a value that indicates whether large (\> 255 byte) keys are supported. The key size for an index can be specified in the [JET_INDEXCREATE](dn335112\(v=exchg.10\).md) object.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -52,7 +52,7 @@ public static bool SupportsLargeKeys { get; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 ## See also
 

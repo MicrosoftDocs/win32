@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LS.Equals method (Object)
+# JET_LS.Equals method (Object)
 
 Returns a value indicating whether this instance is equal to another instance.
 
@@ -53,22 +53,22 @@ public override bool Equals(
 #### Parameters
 
   - obj  
-    Type: [System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
     
     An object to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 True if the two instances are equal.  
 
 ## See also
 
 #### Reference
 
-[JET\_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](hh557499\(v=exchg.10\).md)
 
-[JET\_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](hh596466\(v=exchg.10\).md)
 
 [Equals overload](hh596807\(v=exchg.10\).md)
 

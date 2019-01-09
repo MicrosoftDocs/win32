@@ -53,7 +53,7 @@ public JET_coltyp Coltyp { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_coltyp](hh577895\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_coltyp](hh577895\(v=exchg.10\).md)  
 
 ## See also
 

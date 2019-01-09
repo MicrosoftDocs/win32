@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_RETINFO properties
+# JET_RETINFO properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_RETINFO](dn335277\(v=exchg.10\).md) type exposes the following members.
+The [JET_RETINFO](dn335277\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -51,7 +51,7 @@ Top
 
 #### Reference
 
-[JET\_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](dn335277\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# IJET\_LOGTIME methods
+# IJET_LOGTIME methods
 
 Include protected members  
 Include inherited members  
 
-The [IJET\_LOGTIME](hh596687\(v=exchg.10\).md) type exposes the following members.
+The [IJET_LOGTIME](hh596687\(v=exchg.10\).md) type exposes the following members.
 
 ## Methods
 
@@ -41,7 +41,7 @@ Top
 
 #### Reference
 
-[IJET\_LOGTIME interface](hh596687\(v=exchg.10\).md)
+[IJET_LOGTIME interface](hh596687\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

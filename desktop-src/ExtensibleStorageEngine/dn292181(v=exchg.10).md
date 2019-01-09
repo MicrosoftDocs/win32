@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetRecordPosition method
 
-Returns the fractional position of the current record in the current index in the form of a [JET\_RECPOS](dn335256\(v=exchg.10\).md) structure. Also see [JetGotoPosition(JET\_SESID, JET\_TABLEID, JET\_RECPOS)](dn292207\(v=exchg.10\).md).
+Returns the fractional position of the current record in the current index in the form of a [JET_RECPOS](dn335256\(v=exchg.10\).md) structure. Also see [JetGotoPosition(JET_SESID, JET_TABLEID, JET_RECPOS)](dn292207\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,21 +60,21 @@ public static void JetGetRecordPosition(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor positioned on the record.
 
 <!-- end list -->
 
   - recpos  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_RECPOS](dn335256\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RECPOS](dn335256\(v=exchg.10\).md)  
     
     Returns the approximate fractional position of the record.
 

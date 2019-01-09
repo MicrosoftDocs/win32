@@ -26,8 +26,9 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for the temporary database.
 
-JET\_paramEnableTempTableVersioning  
+*JET_paramEnableTempTableVersioning*  
 46  
+
 This parameter controls the use of transactions in temporary tables. When this parameter is false, temporary tables will be faster but it will not be possible to rollback any updates made in a transaction.
 
 <table>
@@ -84,11 +85,12 @@ This parameter controls the use of transactions in temporary tables. When this p
 </table>
 
 
-JET\_paramPageTempDBMin  
+*JET_paramPageTempDBMin*  
 19  
+
 This parameter controls the initial size of the temporary database. The size is in database pages. A size of zero indicates that the default size of an ordinary database should be used.
 
-It is often desirable for small applications to configure the temporary database to be as small as possible. Setting this parameter to 14 will achieve the smallest temporary database possible. Note that one can also entirely eliminate the temporary database by setting **JET\_paramMaxTemporaryTables** to zero.
+It is often desirable for small applications to configure the temporary database to be as small as possible. Setting this parameter to 14 will achieve the smallest temporary database possible. Note that one can also entirely eliminate the temporary database by setting **JET_paramMaxTemporaryTables** to zero.
 
 <table>
 <colgroup>
@@ -144,8 +146,9 @@ It is often desirable for small applications to configure the temporary database
 </table>
 
 
-JET\_paramTempPath  
+*JET_paramTempPath*  
 1  
+
 This parameter indicates the relative or absolute file system path of the folder or file that will contain the temporary database for the instance. If the path is to a folder that will contain the temporary database then it must be terminated with a backslash character. The temporary database is used to hold volatile data that is generated in the process of handling ESE API info calls, creating indexes, or storing the contents of a temporary table.
 
 **Note**  If a relative path is specified then it will be relative to the current working directory of the process that hosts the application that is using the database engine.

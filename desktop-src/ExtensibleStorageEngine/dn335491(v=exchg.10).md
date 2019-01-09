@@ -46,7 +46,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JetRelop enumeration
 
-Comparison operation for filter defined as [JET\_INDEX\_COLUMN](dn335349\(v=exchg.10\).md).
+Comparison operation for filter defined as [JET_INDEX_COLUMN](dn335349\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

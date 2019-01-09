@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXLIST.cRecord property
+# JET_INDEXLIST.cRecord property
 
 Gets the number of records in the temporary table.
 
@@ -55,15 +55,15 @@ public int cRecord { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
 
-[JET\_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

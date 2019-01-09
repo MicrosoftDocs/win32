@@ -29,5 +29,5 @@ Columns and indices may be added-to or removed-from the table at any time. Altho
 
 The diagram here is an example of how the data for the table is stored in a B+ tree according to the primary index. The primary index is for Name and ID, and a secondary index is created for the employee's office number. The entries for the secondary index are stored in a separate B+ tree that contains only pointers to the records stored in the primary table. For example, the office number 12348 in the secondary table is related to record 3 in the primary table. Record 3 contains the column values for the employee in office 12348. For more information, see the [Indexing in the Table](gg294106\(v=exchg.10\).md) topic.
 
-![ESE\_Documentation\_tableandrow2](images/Gg269290.ESE_Documentation_tableandrow2(EXCHG.10).gif "ESE_Documentation_tableandrow2")
+![ESE_Documentation_tableandrow2](images/Gg269290.ESE_Documentation_tableandrow2(EXCHG.10).gif "ESE_Documentation_tableandrow2")
 

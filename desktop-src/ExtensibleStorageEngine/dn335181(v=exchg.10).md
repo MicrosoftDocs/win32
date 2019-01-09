@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXRANGE.grbit property
+# JET_INDEXRANGE.grbit property
 
 Gets or sets the indexrange option.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.IndexRangeGrbit](hh558064\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
 
-[JET\_INDEXRANGE members](dn335176\(v=exchg.10\).md)
+[JET_INDEXRANGE members](dn335176\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

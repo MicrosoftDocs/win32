@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLEID.ToString method
+# JET_TABLEID.ToString method
 
 Generate a string representation of the structure.
 
@@ -47,16 +47,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The structure as a string.  
 
 ## See also
 
 #### Reference
 
-[JET\_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
 
-[JET\_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](hh596310\(v=exchg.10\).md)
 
 [ToString overload](hh596553\(v=exchg.10\).md)
 

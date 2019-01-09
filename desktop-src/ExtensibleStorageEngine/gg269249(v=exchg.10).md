@@ -31,12 +31,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetOpenFile** function opens an attached database, database patch file, or transaction log file of an active instance for the purpose of performing a streaming fuzzy backup. The data from these files can subsequently be read through the returned handle using [JetReadFile](gg269257\(v=exchg.10\).md). The returned handle must be closed using [JetCloseFile](gg294127\(v=exchg.10\).md). An external backup of the instance must have been previously initiated using [JetBeginExternalBackup](gg269292\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetOpenFile(
       __in          const tchar* szFileName,
       __out         JET_HANDLE* phfFile,
       __out         unsigned long* pulFileSizeLow,
       __out         unsigned long* pulFileSizeHigh
     );
+```
 
 ### Parameters
 
@@ -58,7 +60,7 @@ The output buffer that receives the most significant 32 bits of the size of the 
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -194,9 +196,9 @@ The size of the file to be read as reported by this function may not match the s
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_HANDLE](gg269217\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetCloseFile](gg294127\(v=exchg.10\).md)  

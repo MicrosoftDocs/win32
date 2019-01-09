@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.RetrieveColumnSize method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID)
+# Api.RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
 Retrieves the size of a single column value from the current record. The record is that record associated with the index entry at the current position of the cursor. Alternatively, this function can retrieve a column from a record being created in the cursor copy buffer. This function can also retrieve column data from an index entry that references the current record.
 
@@ -59,27 +59,27 @@ public static Nullable<int> RetrieveColumnSize(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to retrieve the column from.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to retrieve.
 
 #### Return value
 
-Type: [System.Nullable](http://msdn2.microsoft.com/en-us/library/b3h38hb0)\<[Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)\>  
+Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Int32](https://msdn.microsoft.com/en-us/library/td2s409d)\>  
 The size of the column. 0 if the column is null.  
 
 ## See also

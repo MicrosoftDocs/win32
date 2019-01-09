@@ -31,10 +31,12 @@ The **JetCloseFileInstance** function closes a file that was opened with [JetOpe
 
 **Windows XP:  JetCloseFileInstance** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetCloseFileInstance(
       __in          JET_INSTANCE instance,
       __in          JET_HANDLE hfFile
     );
+```
 
 ### Parameters
 
@@ -44,7 +46,7 @@ The instance to use for this call.
 
 For Windows 2000, the API variant that accepts this parameter is not available because only one instance is supported. The use of this one global instance is implied in this case.
 
-For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET\_errRunningInMultiInstanceMode.
+For Windows XP and later releases, the API variant that does not accept this parameter may only be called when the engine is in legacy mode (Windows 2000 compatibility mode) where only one instance is supported. Otherwise, the operation will fail with JET_errRunningInMultiInstanceMode.
 
 *hfFile*
 
@@ -52,7 +54,7 @@ The handle of the file to be read.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -153,9 +155,9 @@ The database engine currently only supports one open file through [JetOpenFileIn
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_HANDLE](gg269217\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetOpenFileInstance](gg269238\(v=exchg.10\).md)  
 [JetReadFileInstance](gg294060\(v=exchg.10\).md)  
 [JetStopServiceInstance](gg294108\(v=exchg.10\).md)

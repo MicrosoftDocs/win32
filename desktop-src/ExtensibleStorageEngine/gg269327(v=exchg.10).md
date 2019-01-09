@@ -17,19 +17,21 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXID Structure
+# JET_INDEXID Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_INDEXID Structure
+## JET_INDEXID Structure
 
-The **JET\_INDEXID** structure holds an index ID. An index ID is a hint that is used to accelerate the selection of the current index using [JetSetCurrentIndex](gg294046\(v=exchg.10\).md). It is most useful when there is a very large number of indexes over a table. The index ID can be retrieved using [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
+The **JET_INDEXID** structure holds an index ID. An index ID is a hint that is used to accelerate the selection of the current index using [JetSetCurrentIndex](gg294046\(v=exchg.10\).md). It is most useful when there is a very large number of indexes over a table. The index ID can be retrieved using [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
 
+```cpp
     typedef struct tagJET_INDEXID {
       unsigned long cbStruct;
       char rgbIndexId[sizeof(JET_API_PRT) + sizeof(unsigned long) + sizeof(unsigned long)];
     } JET_INDEXID;
+```
 
 ### Members
 

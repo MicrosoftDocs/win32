@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# IJET\_LOGTIME interface
+# IJET_LOGTIME interface
 
-Interface for common methods between JET\_LOGTIME and JET\_BKLOGTIME.
+Interface for common methods between JET_LOGTIME and JET_BKLOGTIME.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,7 +51,7 @@ public interface IJET_LOGTIME : INullableJetStruct
 
 #### Reference
 
-[IJET\_LOGTIME members](hh578100\(v=exchg.10\).md)
+[IJET_LOGTIME members](hh578100\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

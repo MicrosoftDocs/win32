@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_THREADSTATS.cPageRead property
+# JET_THREADSTATS.cPageRead property
 
 Gets the total number of database pages fetched from disk by the database engine on the current thread.
 
@@ -55,15 +55,15 @@ public int cPageRead { get; internal set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
 
-[JET\_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

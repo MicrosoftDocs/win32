@@ -33,12 +33,14 @@ The **JetOSSnapshotFreeze** function starts a snapshot. While the snapshot is in
 
 **Windows XP:**  **JetOSSnapshotFreeze** is introduced in Windows XP.
 
+```cpp
     JET_ERR JET_API JetOSSnapshotFreeze(
       __in          const JET_OSSNAPID snapId,
       __out         unsigned long* pcInstanceInfo,
       __out         JET_INSTANCE_INFO** paInstanceInfo,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -60,7 +62,7 @@ The options for this call. This parameter is reserved for future use and the onl
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -118,7 +120,7 @@ The state in which the databases and the log files will be during the freeze (th
 
 Because there are no write operations during the freeze period, normal API calls into the engine might be stalled for that interval. The client application must be able to handle API calls that might take longer then normal if a freeze occurs.
 
-Due to the possible effects described above, there is an internal timeout after which the snapshot session will stop the freeze phase even if the APIs doing the thaw or abort were not called. The value of the timeout can be changed using the [JET\_paramOSSnapshotTimeout](gg269236\(v=exchg.10\).md) system parameter. Note that the typical freeze interval is in the range of 10 seconds with the default timeout somewhere around 60 seconds.
+Due to the possible effects described above, there is an internal timeout after which the snapshot session will stop the freeze phase even if the APIs doing the thaw or abort were not called. The value of the timeout can be changed using the [JET_paramOSSnapshotTimeout](gg269236\(v=exchg.10\).md) system parameter. Note that the typical freeze interval is in the range of 10 seconds with the default timeout somewhere around 60 seconds.
 
 #### Requirements
 
@@ -158,9 +160,9 @@ Due to the possible effects described above, there is an internal timeout after 
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE\_INFO](gg269331\(v=exchg.10\).md)  
-[JET\_OSSNAPID](gg269325\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE_INFO](gg269331\(v=exchg.10\).md)  
+[JET_OSSNAPID](gg269325\(v=exchg.10\).md)  
 [JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
 [JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)  
 [JetOSSnapshotPrepareInstance](gg294064\(v=exchg.10\).md)  

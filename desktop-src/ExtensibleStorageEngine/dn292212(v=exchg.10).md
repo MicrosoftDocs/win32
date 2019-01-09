@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetIntersectIndexes method
 
-Computes the intersection between multiple sets of index entries from different secondary indices over the same table. This operation is useful for finding the set of records in a table that match two or more criteria that can be expressed using index ranges. Also see [IntersectIndexes(JET\_SESID, \[\])](dn292094\(v=exchg.10\).md).
+Computes the intersection between multiple sets of index entries from different secondary indices over the same table. This operation is useful for finding the set of records in a table that match two or more criteria that can be expressed using index ranges. Also see [IntersectIndexes(JET_SESID, \[\])](dn292094\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -66,7 +66,7 @@ public static void JetIntersectIndexes(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
@@ -75,19 +75,19 @@ public static void JetIntersectIndexes(
   - ranges  
     Type: \[\]  
     
-    An the index ranges to intersect. The tableids in the ranges must have index ranges set on them. Use [JetSetIndexRange(JET\_SESID, JET\_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) to create an index range.
+    An the index ranges to intersect. The tableids in the ranges must have index ranges set on them. Use [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) to create an index range.
 
 <!-- end list -->
 
   - numRanges  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The number of index ranges.
 
 <!-- end list -->
 
   - recordlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_RECORDLIST](dn335223\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RECORDLIST](dn335223\(v=exchg.10\).md)  
     
     Returns information about the temporary table containing the intersection results.
 

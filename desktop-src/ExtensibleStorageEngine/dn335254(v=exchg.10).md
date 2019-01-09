@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTMAP.szNewDatabaseName property
+# JET_RSTMAP.szNewDatabaseName property
 
 Gets or sets the current name/path of the database. Must not be null.
 
@@ -57,15 +57,15 @@ public string szNewDatabaseName { get; set; }
 
 #### Property value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 
 ## See also
 
 #### Reference
 
-[JET\_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
 
-[JET\_RSTMAP members](dn335249\(v=exchg.10\).md)
+[JET_RSTMAP members](dn335249\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

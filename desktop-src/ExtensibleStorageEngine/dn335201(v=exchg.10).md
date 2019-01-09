@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTINFO.cRecord property
+# JET_OBJECTINFO.cRecord property
 
 Gets the number of records in the table.
 
@@ -55,15 +55,15 @@ public int cRecord { get; private set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
 
-[JET\_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

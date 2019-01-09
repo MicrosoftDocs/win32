@@ -29,12 +29,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGrowDatabase** function extends the size of a database that is currently open.
 
+```cpp
     JET_ERR JET_API JetGrowDatabase(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
       __in          unsigned long cpg,
       __in          unsigned long* pcpgReal
     );
+```
 
 ### Parameters
 
@@ -56,7 +58,7 @@ Pointer to a number that receives the size of the database, in pages, after the 
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -130,11 +132,11 @@ The file size might not match the number of pages that are returned in *pcpgReal
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET\_OBJECTLIST](gg269348\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
+[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
 [JetSetDatabaseSize](gg269242\(v=exchg.10\).md)
 

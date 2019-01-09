@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_THREADSTATS.Create method
+# JET_THREADSTATS.Create method
 
-Create a new [JET\_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified valued.
+Create a new [JET_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified valued.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -76,64 +76,64 @@ public static JET_THREADSTATS Create(
 #### Parameters
 
   - cPageReferenced  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Number of pages visited.
 
 <!-- end list -->
 
   - cPageRead  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Number of pages read.
 
 <!-- end list -->
 
   - cPagePreread  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Number of pages preread.
 
 <!-- end list -->
 
   - cPageDirtied  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     TNumber of pages dirtied.
 
 <!-- end list -->
 
   - cPageRedirtied  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Number of pages redirtied.
 
 <!-- end list -->
 
   - cLogRecord  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Number of log records generated.
 
 <!-- end list -->
 
   - cbLogRecord  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Bytes of log records written.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_THREADSTATS](hh578565\(v=exchg.10\).md)  
-A new [JET\_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified values.  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
+A new [JET_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified values.  
 
 ## See also
 
 #### Reference
 
-[JET\_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
 
-[JET\_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
 

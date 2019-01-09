@@ -31,12 +31,14 @@ The **JetGetRecordSize2** function retrieves record size information from the de
 
 **Windows 7:  JetGetRecordSize2** is introduced in the Windows 7 operating system.
 
+```cpp
     JET_ERR JET_API JetGetRecordSize2(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __out         JET_RECSIZE2* precsize,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -50,7 +52,7 @@ Identifies the table or cursor that will be used for the API call. The cursor mu
 
 *precsize*
 
-A pointer to an output buffer for the [JET\_RECSIZE2](gg269174\(v=exchg.10\).md) structure.
+A pointer to an output buffer for the [JET_RECSIZE2](gg269174\(v=exchg.10\).md) structure.
 
 *grbit*
 
@@ -86,7 +88,7 @@ This is one or more of the following values.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -152,7 +154,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### Remarks
 
-The size of the key accumulated in the **cbOverhead** field of [JET\_RECSIZE2](gg269174\(v=exchg.10\).md), is affected by JET\_bitRecordSizeInCopyBuffer. If this bit is specified, the key size accumulated in the **cbOverhead** field is the full key size. If this bit is not used, the key size accumulated will not include any size saved due to key prefix compression.
+The size of the key accumulated in the **cbOverhead** field of [JET_RECSIZE2](gg269174\(v=exchg.10\).md), is affected by JET_bitRecordSizeInCopyBuffer. If this bit is specified, the key size accumulated in the **cbOverhead** field is the full key size. If this bit is not used, the key size accumulated will not include any size saved due to key prefix compression.
 
 #### Requirements
 
@@ -188,9 +190,9 @@ The size of the key accumulated in the **cbOverhead** field of [JET\_RECSIZE2](g
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_RECSIZE](gg294072\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_RECSIZE](gg294072\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)
 

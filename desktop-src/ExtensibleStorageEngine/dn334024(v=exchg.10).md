@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetSetIndexRange method
 
-Temporarily limits the set of index entries that the cursor can walk using [JetMove(JET\_SESID, JET\_TABLEID, Int32, MoveGrbit)](dn292217\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria specified by the search key in that cursor and the specified bound criteria. A search key must have been previously constructed using [JetMakeKey(JET\_SESID, JET\_TABLEID, \[\], Int32, MakeKeyGrbit)](dn292216\(v=exchg.10\).md). Also see [TrySetIndexRange(JET\_SESID, JET\_TABLEID, SetIndexRangeGrbit)](dn334099\(v=exchg.10\).md).
+Temporarily limits the set of index entries that the cursor can walk using [JetMove(JET_SESID, JET_TABLEID, Int32, MoveGrbit)](dn292217\(v=exchg.10\).md) to those starting from the current index entry and ending at the index entry that matches the search criteria specified by the search key in that cursor and the specified bound criteria. A search key must have been previously constructed using [JetMakeKey(JET_SESID, JET_TABLEID, \[\], Int32, MakeKeyGrbit)](dn292216\(v=exchg.10\).md). Also see [TrySetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334099\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -60,14 +60,14 @@ public static void JetSetIndexRange(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to set the index range on.
 

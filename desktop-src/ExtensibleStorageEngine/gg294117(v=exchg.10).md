@@ -29,12 +29,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetMove** function positions a cursor at the start or end of an index and traverses the entries in that index either forward or backward. It is also possible to move the cursor forward or backward on the current index by a specified number of index entries. Another approach is to artificially limit the index entries that can be enumerated using **JetMove** by setting up an index range on the cursor using [JetSetIndexRange](gg294112\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetMove(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          long cRow,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -114,7 +116,7 @@ A group of bits that specify zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -170,19 +172,19 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-If this function succeeds, the cursor will be positioned at an index entry that matches the requested location or offset. If a record has been prepared for update, that update will be canceled. If an index range is in effect and JET\_MoveFirst or JET\_MoveLast was specified, that index range will be canceled. No change to the database state will occur.
+If this function succeeds, the cursor will be positioned at an index entry that matches the requested location or offset. If a record has been prepared for update, that update will be canceled. If an index range is in effect and JET_MoveFirst or JET_MoveLast was specified, that index range will be canceled. No change to the database state will occur.
 
-If this function fails, the position of the cursor will remain unchanged unless JET\_errNoCurrentRecord was returned. In that case, the cursor will be positioned where the index entry that matches the requested location or offset would have been. The cursor can be moved relative to that position but is still not on a valid index entry. If a record has been prepared for update, that update will be canceled. If an index range is in effect and JET\_MoveFirst or JET\_MoveLast was specified, that index range will be canceled. No change to the database state will occur.
+If this function fails, the position of the cursor will remain unchanged unless JET_errNoCurrentRecord was returned. In that case, the cursor will be positioned where the index entry that matches the requested location or offset would have been. The cursor can be moved relative to that position but is still not on a valid index entry. If a record has been prepared for update, that update will be canceled. If an index range is in effect and JET_MoveFirst or JET_MoveLast was specified, that index range will be canceled. No change to the database state will occur.
 
 #### Remarks
 
-A cursor can be moved to two special positions using **JetMove**, Before First and After Last. If the cursor is on the first index entry in the table and **JetMove** is called with JET\_MovePrevious, the call will fail with JET\_errNoCurrentRecord and the cursor will be logically positioned before the first entry in the index. This logical position is maintained even if another index entry is inserted prior to the first entry in the index. An analogous situation occurs for After Last relative to the end of the index. Before First and After Last are most useful when setting up a range of index entries to be iterated using **JetMove**, using an iterator model that expects to always move to the next (or previous) element prior to using that element.
+A cursor can be moved to two special positions using **JetMove**, Before First and After Last. If the cursor is on the first index entry in the table and **JetMove** is called with JET_MovePrevious, the call will fail with JET_errNoCurrentRecord and the cursor will be logically positioned before the first entry in the index. This logical position is maintained even if another index entry is inserted prior to the first entry in the index. An analogous situation occurs for After Last relative to the end of the index. Before First and After Last are most useful when setting up a range of index entries to be iterated using **JetMove**, using an iterator model that expects to always move to the next (or previous) element prior to using that element.
 
 The set of index entries that can be visited by **JetMove** can be limited by setting up an index range on the cursor. This is useful for applications that enumerate a set of index entries that match simple criteria that can be expressed through a pair of search keys built for that index. For more information, see [JetSetIndexRange](gg294112\(v=exchg.10\).md).
 
-On releases prior to Windows Server 2003 SP1, there is a problem in **JetMove** that occurs in some specific cases, that affects the correct enforcement of an index range as set up by the [JetSetIndexRange](gg294112\(v=exchg.10\).md) function. If the cursor is currently before the first index entry and an index range is set with an upper limit that is less than the first index entry, the next call to **JetMove** will erroneously go to that index entry instead of failing with JET\_errNoCurrentRecord, as expected. The same error will happen for the analogous situation starting from the end of the index. This situation can occur in an application that sets up an index range and navigates it using an iterator that expects to start before the first index entry that is a member of the set of entries to enumerate, rather than starting on the first index entry of that set. This situation also occurs on the analogous case starting from the end of the index. The workaround is for the application to manually verify that the index entry acquired is inside the index range by comparing the key for the current index entry (retrieved using [JetRetrieveKey](gg294051\(v=exchg.10\).md)) with the key representing the end of the current index range (retrieved using [JetRetrieveKey](gg294051\(v=exchg.10\).md) using JET\_bitRetrieveCopy).
+On releases prior to Windows Server 2003 SP1, there is a problem in **JetMove** that occurs in some specific cases, that affects the correct enforcement of an index range as set up by the [JetSetIndexRange](gg294112\(v=exchg.10\).md) function. If the cursor is currently before the first index entry and an index range is set with an upper limit that is less than the first index entry, the next call to **JetMove** will erroneously go to that index entry instead of failing with JET_errNoCurrentRecord, as expected. The same error will happen for the analogous situation starting from the end of the index. This situation can occur in an application that sets up an index range and navigates it using an iterator that expects to start before the first index entry that is a member of the set of entries to enumerate, rather than starting on the first index entry of that set. This situation also occurs on the analogous case starting from the end of the index. The workaround is for the application to manually verify that the index entry acquired is inside the index range by comparing the key for the current index entry (retrieved using [JetRetrieveKey](gg294051\(v=exchg.10\).md)) with the key representing the end of the current index range (retrieved using [JetRetrieveKey](gg294051\(v=exchg.10\).md) using JET_bitRetrieveCopy).
 
-It is important to be careful when passing computed offsets to **JetMove**. If the computed offset is less than or equal to JET\_MoveFirst, that offset must be broken up into multiple pieces, each of which is passed to **JetMove** separately but within a single transaction to get the desired effect. The same is true for offsets greater than or equal to JET\_MoveNext. It is unlikely that an application would undergo this in the real world, but it is good to have a defense against this case given the very different semantics of JET\_MoveFirst and JET\_MoveLast from an ordinary offset.
+It is important to be careful when passing computed offsets to **JetMove**. If the computed offset is less than or equal to JET_MoveFirst, that offset must be broken up into multiple pieces, each of which is passed to **JetMove** separately but within a single transaction to get the desired effect. The same is true for offsets greater than or equal to JET_MoveNext. It is unlikely that an application would undergo this in the real world, but it is good to have a defense against this case given the very different semantics of JET_MoveFirst and JET_MoveLast from an ordinary offset.
 
 When **JetMove** is called with a very large offset, such as when the cRow parameter is set to 1000, **JetMove** traverses all 1000 index entries to reach the final position. Currently, the ESE API does not provide an efficient way to move directly to a given index entry by offset without traversing each index entry.
 
@@ -220,10 +222,10 @@ When **JetMove** is called with a very large offset, such as when the cRow param
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetRetrieveKey](gg294051\(v=exchg.10\).md)  
 [JetSetIndexRange](gg294112\(v=exchg.10\).md)
 

@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKINFO Structure
+# JET_BKINFO Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_BKINFO Structure
+## JET_BKINFO Structure
 
-The **JET\_BKINFO** structure holds a collection of data about a specific backup event.
+The **JET_BKINFO** structure holds a collection of data about a specific backup event.
 
+```cpp
     typedef struct {
       JET_LGPOS lgposMark;
       union {
@@ -35,6 +36,7 @@ The **JET\_BKINFO** structure holds a collection of data about a specific backup
       unsigned long genLow;
       unsigned long genHigh;
     } JET_BKINFO;
+```
 
 ### Members
 
@@ -62,7 +64,7 @@ The high log generation number associated with this backup event.
 
 ### Remarks
 
-This structure is used inside the [JET\_DBINFOMISC](gg294147\(v=exchg.10\).md) structure to represent data about the database backup event.
+This structure is used inside the [JET_DBINFOMISC](gg294147\(v=exchg.10\).md) structure to represent data about the database backup event.
 
 ### Requirements
 
@@ -90,8 +92,8 @@ This structure is used inside the [JET\_DBINFOMISC](gg294147\(v=exchg.10\).md) s
 
 ### See Also
 
-[JET\_LGPOS](gg294113\(v=exchg.10\).md)  
-[JET\_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET\_BKLOGTIME](gg269219\(v=exchg.10\).md)  
-[JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)
+[JET_LGPOS](gg294113\(v=exchg.10\).md)  
+[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
+[JET_BKLOGTIME](gg269219\(v=exchg.10\).md)  
+[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
 

@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_INDEX\_COLUMN properties
+# JET_INDEX_COLUMN properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_INDEX\_COLUMN](dn335349\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEX_COLUMN](dn335349\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -56,7 +56,7 @@ Top
 
 #### Reference
 
-[JET\_INDEX\_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

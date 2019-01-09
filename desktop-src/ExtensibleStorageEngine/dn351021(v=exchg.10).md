@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECPOS.centriesLT property
+# JET_RECPOS.centriesLT property
 
 Gets or sets the approximate number of index entries less than the key.
 
@@ -57,15 +57,15 @@ public long centriesLT { get; set; }
 
 #### Property value
 
-Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
 
 ## See also
 
 #### Reference
 
-[JET\_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](dn335256\(v=exchg.10\).md)
 
-[JET\_RECPOS members](dn335257\(v=exchg.10\).md)
+[JET_RECPOS members](dn335257\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

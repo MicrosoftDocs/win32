@@ -36,9 +36,9 @@ ROBOTS: INDEX,FOLLOW
 
 # StopServiceGrbit enumeration
 
-Options for [JetStopServiceInstance2(JET\_INSTANCE, StopServiceGrbit)](dn335494\(v=exchg.10\).md).
+Options for [JetStopServiceInstance2(JET_INSTANCE, StopServiceGrbit)](dn335494\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

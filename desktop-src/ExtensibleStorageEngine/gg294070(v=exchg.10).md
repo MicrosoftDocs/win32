@@ -33,12 +33,14 @@ The **JetOSSnapshotGetFreezeInfo** function retrieves the list of instances and 
 
 **Windows Vista:**  **JetOSSnapshotGetFreezeInfo** is introduced in Windows Vista.
 
+```cpp
     JET_ERR JET_API JetOSSnapshotGetFreezeInfo(
       __in          const JET_OSSNAPID snapId,
       __out         unsigned long* pcInstanceInfo,
       __out         JET_INSTANCE_INFO** paInstanceInfo,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -60,7 +62,7 @@ The options for this call. This parameter is reserved for future use. The only v
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -142,7 +144,7 @@ If this function fails, no change in the engine state occurs.
 
 [Error Handling Parameters](gg269173\(v=exchg.10\).md)  
 [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetFreeBuffer](gg294134\(v=exchg.10\).md)  
 [JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
 [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  

@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LOGTIME.HasValue property
+# JET_LOGTIME.HasValue property
 
-Gets a value indicating whether the JET\_LOGTIME has a null value.
+Gets a value indicating whether the JET_LOGTIME has a null value.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,7 +53,7 @@ public bool HasValue { get; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 #### Implements
 
@@ -63,9 +63,9 @@ Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)
 
 #### Reference
 
-[JET\_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
 
-[JET\_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

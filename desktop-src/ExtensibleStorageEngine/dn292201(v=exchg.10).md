@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetTableInfo method (JET\_SESID, JET\_TABLEID, Int32, JET\_TblInfo)
+# Api.JetGetTableInfo method (JET_SESID, JET_TABLEID, Int32, JET_TblInfo)
 
 Retrieves various pieces of information about a table in a database.
 
@@ -59,28 +59,28 @@ public static void JetGetTableInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to retrieve information about.
 
 <!-- end list -->
 
   - result  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Retrieved information.
 
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TblInfo](hh557667\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TblInfo](hh557667\(v=exchg.10\).md)  
     
     The type of information to retrieve.
 

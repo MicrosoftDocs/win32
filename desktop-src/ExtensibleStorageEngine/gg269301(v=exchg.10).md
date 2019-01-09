@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetIdle** function is defunct, and should only be used for testing purposes. **JetIdle** can be used to perform idle cleanup tasks or check the version store status in ESE.
 
+```cpp
     JET_ERR JET_API JetIdle(
       __in          JET_SESID sesid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -74,7 +76,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -142,8 +144,8 @@ The version store maintains ESE's snapshot isolation mechanism. If the version s
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetCommitTransaction](gg269191\(v=exchg.10\).md)
 

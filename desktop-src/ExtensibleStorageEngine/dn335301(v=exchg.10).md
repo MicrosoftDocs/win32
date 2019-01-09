@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Windows7Api.JetPrereadKeys method (JET\_SESID, JET\_TABLEID, Byte\[\]\[\], Int32 , Int32, Int32, PrereadKeysGrbit)
+# Windows7Api.JetPrereadKeys method (JET_SESID, JET_TABLEID, Byte\[\]\[\], Int32 , Int32, Int32, PrereadKeysGrbit)
 
 If the records with the specified keys are not in the buffer cache then start asynchronous reads to bring the records into the database buffer cache.
 
@@ -69,14 +69,14 @@ public static void JetPrereadKeys(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to issue the prereads against.
 
@@ -97,14 +97,14 @@ public static void JetPrereadKeys(
 <!-- end list -->
 
   - keyCount  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The maximum number of keys to preread.
 
 <!-- end list -->
 
   - keysPreread  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Returns the number of keys to actually preread.
 

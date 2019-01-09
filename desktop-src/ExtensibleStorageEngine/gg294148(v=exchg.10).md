@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOMISC3 Structure
+# JET_DBINFOMISC3 Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_DBINFOMISC3 Structure
+## JET_DBINFOMISC3 Structure
 
-The **JET\_DBINFOMISC3** structure holds miscellaneous information about a database. This is the information that is contained in the database header.
+The **JET_DBINFOMISC3** structure holds miscellaneous information about a database. This is the information that is contained in the database header.
 
+```cpp
     typedef struct {
       unsigned long ulVersion;
       unsigned long ulUpdate;
@@ -65,6 +66,7 @@ The **JET\_DBINFOMISC3** structure holds miscellaneous information about a datab
       unsigned long ulBadChecksumOld;
       unsigned long genCommitted;
     } JET_DBINFOMISC3;
+```
 
 ### Members
 
@@ -291,7 +293,7 @@ Represents the Windows NT version numbers when the databases indexes were updat
 
 Database page size. 0 means the page size is 4 KB.
 
-This value is retrieved only if JET\_DbInfoMisc was passed to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md).
+This value is retrieved only if JET_DbInfoMisc was passed to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md).
 
 **genMinRequired**
 
@@ -355,7 +357,7 @@ The number of times a non-correctable ECC/checksum error was found before last r
 
 **genCommitted**
 
-The current log generation. This can be less than genMaxRequired if JET\_paramWaypointLatency is non-zero.
+The current log generation. This can be less than genMaxRequired if JET_paramWaypointLatency is non-zero.
 
 ### Requirements
 
@@ -383,10 +385,10 @@ The current log generation. This can be less than genMaxRequired if JET\_paramWa
 
 ### See Also
 
-[JET\_BKINFO](gg294120\(v=exchg.10\).md)  
-[JET\_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET\_LGPOS](gg294113\(v=exchg.10\).md)  
-[JET\_SIGNATURE](gg269340\(v=exchg.10\).md)  
+[JET_BKINFO](gg294120\(v=exchg.10\).md)  
+[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
+[JET_LGPOS](gg294113\(v=exchg.10\).md)  
+[JET_SIGNATURE](gg269340\(v=exchg.10\).md)  
 [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md)  
 [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md)
 

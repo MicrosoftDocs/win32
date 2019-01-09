@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ERRINFOBASIC.rgCategoricalHierarchy property
+# JET_ERRINFOBASIC.rgCategoricalHierarchy property
 
-Gets or sets the hierarchy of errors. Position 0 is the highest level in the hierarchy, and the rest are JET\_errcatUnknown.
+Gets or sets the hierarchy of errors. Position 0 is the highest level in the hierarchy, and the rest are JET_errcatUnknown.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
 
-[JET\_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetObjectInfo method (JET\_SESID, JET\_DBID, JET\_OBJECTLIST)
+# Api.JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)
 
 Retrieves information about database objects.
 
@@ -56,21 +56,21 @@ public static void JetGetObjectInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to use.
 
 <!-- end list -->
 
   - objectlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_OBJECTLIST](dn335206\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OBJECTLIST](dn335206\(v=exchg.10\).md)  
     
     Filled in with information about the objects in the database.
 

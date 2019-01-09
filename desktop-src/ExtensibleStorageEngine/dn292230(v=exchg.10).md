@@ -66,35 +66,35 @@ public static void JetOpenFileInstance(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to use.
 
 <!-- end list -->
 
   - file  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The file to open.
 
 <!-- end list -->
 
   - handle  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_HANDLE](hh558081\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](hh558081\(v=exchg.10\).md)  
     
     Returns a handle to the file.
 
 <!-- end list -->
 
   - fileSizeLow  
-    Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
     
     Returns the least significant 32 bits of the file size.
 
 <!-- end list -->
 
   - fileSizeHigh  
-    Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
     
     Returns the most significant 32 bits of the file size.
 

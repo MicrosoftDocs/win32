@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNBASE.GetHashCode method
+# JET_COLUMNBASE.GetHashCode method
 
 Returns the hash code for this instance.
 
@@ -51,16 +51,16 @@ public override int GetHashCode()
 
 #### Return value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 The hash code for this instance.  
 
 ## See also
 
 #### Reference
 
-[JET\_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
 
-[JET\_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

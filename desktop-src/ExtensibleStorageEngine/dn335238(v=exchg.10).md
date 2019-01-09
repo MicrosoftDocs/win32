@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RETINFO.DeepClone method
+# JET_RETINFO.DeepClone method
 
 Returns a deep copy of the object.
 
@@ -51,7 +51,7 @@ public JET_RETINFO DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_RETINFO](dn335277\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_RETINFO](dn335277\(v=exchg.10\).md)  
 A deep copy of the object.  
 
 #### Implements
@@ -62,9 +62,9 @@ A deep copy of the object.
 
 #### Reference
 
-[JET\_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](dn335277\(v=exchg.10\).md)
 
-[JET\_RETINFO members](dn351022\(v=exchg.10\).md)
+[JET_RETINFO members](dn351022\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

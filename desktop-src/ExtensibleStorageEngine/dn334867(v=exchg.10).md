@@ -28,11 +28,11 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentStopwatch class
 
-Provides a set of methods and properties that you can use to measure ESENT work statistics for a thread. If the current version of ESENT doesn't support [JetGetThreadStats(JET\_THREADSTATS)](dn351264\(v=exchg.10\).md) then all ESENT statistics will be 0.
+Provides a set of methods and properties that you can use to measure ESENT work statistics for a thread. If the current version of ESENT doesn't support [JetGetThreadStats(JET_THREADSTATS)](dn351264\(v=exchg.10\).md) then all ESENT statistics will be 0.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
   Microsoft.Isam.Esent.Interop.EsentStopwatch  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

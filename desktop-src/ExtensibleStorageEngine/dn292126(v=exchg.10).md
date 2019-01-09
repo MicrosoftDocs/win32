@@ -63,21 +63,21 @@ public static void JetCreateInstance2(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     Returns the newly create instance.
 
 <!-- end list -->
 
   - name  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     Specifies a unique string identifier for the instance to be created. This string must be unique within a given process hosting the database engine.
 
 <!-- end list -->
 
   - displayName  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     A display name for the instance to be created. This will be used in eventlog entries.
 

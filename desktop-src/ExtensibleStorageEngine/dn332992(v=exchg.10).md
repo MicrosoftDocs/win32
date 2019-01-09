@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetRestoreInstance method
 
-Restores and recovers a streaming backup of an instance including all the attached databases. It is designed to work with a backup created with the [JetBackupInstance(JET\_INSTANCE, String, BackupGrbit, JET\_PFNSTATUS)](dn292102\(v=exchg.10\).md) function. This is the simplest and most encapsulated restore function.
+Restores and recovers a streaming backup of an instance including all the attached databases. It is designed to work with a backup created with the [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](dn292102\(v=exchg.10\).md) function. This is the simplest and most encapsulated restore function.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,28 +63,28 @@ public static void JetRestoreInstance(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to use. The instance should not be initialized. Restoring the files will initialize the instance.
 
 <!-- end list -->
 
   - source  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
-    Location of the backup. The backup should have been created with [JetBackupInstance(JET\_INSTANCE, String, BackupGrbit, JET\_PFNSTATUS)](dn292102\(v=exchg.10\).md).
+    Location of the backup. The backup should have been created with [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](dn292102\(v=exchg.10\).md).
 
 <!-- end list -->
 
   - destination  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     Name of the folder where the database files from the backup set will be copied and recovered. If this is set to null, the database files will be copied and recovered to their original location.
 
 <!-- end list -->
 
   - statusCallback  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_PFNSTATUS](hh565966\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_PFNSTATUS](hh565966\(v=exchg.10\).md)  
     
     Optional status notification callback.
 

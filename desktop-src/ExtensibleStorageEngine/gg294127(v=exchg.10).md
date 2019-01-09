@@ -29,9 +29,11 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCloseFile** function closes a file that was opened with [JetOpenFile](gg269249\(v=exchg.10\).md) after the data from that file has been extracted using [JetReadFile](gg269257\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetCloseFile(
       __in          JET_HANDLE hfFile
     );
+```
 
 ### Parameters
 
@@ -41,7 +43,7 @@ The handle of the file to be read.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -142,9 +144,9 @@ The database engine currently only supports one open file through [JetOpenFile](
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET\_HANDLE](gg269217\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_HANDLE](gg269217\(v=exchg.10\).md)  
 [JetOpenFile](gg269249\(v=exchg.10\).md)  
 [JetReadFile](gg269257\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)

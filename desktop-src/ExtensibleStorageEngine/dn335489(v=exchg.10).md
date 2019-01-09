@@ -63,7 +63,7 @@ public static void JetCommitTransaction2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to commit the transaction for.
 
@@ -77,14 +77,14 @@ public static void JetCommitTransaction2(
 <!-- end list -->
 
   - durableCommit  
-    Type: [System.TimeSpan](http://msdn2.microsoft.com/en-us/library/269ew577)  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
     
     Duration to commit lazy transaction.
 
 <!-- end list -->
 
   - commitId  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_COMMIT\_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
     
     Commit-id associated with this commit record.
 

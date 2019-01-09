@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SIGNATURE structure
+# JET_SIGNATURE structure
 
-The JET\_SIGNATURE structure contains information that uniquely identifies a database or logfile sequence.
+The JET_SIGNATURE structure contains information that uniquely identifies a database or logfile sequence.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,7 +57,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET\_SIGNATURE members](hh565455\(v=exchg.10\).md)
+[JET_SIGNATURE members](hh565455\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

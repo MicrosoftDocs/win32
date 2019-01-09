@@ -29,6 +29,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetBookmark** function retrieves the bookmark for the record that is associated with the index entry at the current position of a cursor. This bookmark can then be used to reposition that cursor back to the same record using [JetGoToBookmark](gg294053\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetGetBookmark(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -36,6 +37,7 @@ The **JetGetBookmark** function retrieves the bookmark for the record that is as
       __in          unsigned long cbMax,
       __out_opt     unsigned long* pcbActual
     );
+```
 
 ### Parameters
 
@@ -65,7 +67,7 @@ If the output buffer is too small, the actual size of the bookmark will still be
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -123,7 +125,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 If this function succeeds, the bookmark for the record that is associated with the index entry at the current position of a cursor will be returned in the output buffer. No change to the database state will occur.
 
-If this function fails, the state of the output buffer and the actual size of the bookmark will be undefined unless JET\_errBufferTooSmall was returned. In the event that JET\_errBufferTooSmall is returned, the output buffer will contain as much of the bookmark as will fit in the space provided and the actual size of the bookmark will be accurate. No change to the database state will occur.
+If this function fails, the state of the output buffer and the actual size of the bookmark will be undefined unless JET_errBufferTooSmall was returned. In the event that JET_errBufferTooSmall is returned, the output buffer will contain as much of the bookmark as will fit in the space provided and the actual size of the bookmark will be accurate. No change to the database state will occur.
 
 #### Remarks
 
@@ -139,9 +141,9 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 
   - It is meaningless to compare bookmarks of records from different tables against each other.
 
-  - A bookmark is always less than or equal to JET\_cbBookmarkMost (256) bytes in length, prior to Windows Vista.
+  - A bookmark is always less than or equal to JET_cbBookmarkMost (256) bytes in length, prior to Windows Vista.
     
-**Windows Vista:** On Windows Vista and later releases, bookmarks can be larger than JET\_cbBookmarkMost (256) bytes. The maximum size of a bookmark is equal to the current value of JET\_paramKeyMost + 1.
+**Windows Vista:** On Windows Vista and later releases, bookmarks can be larger than JET_cbBookmarkMost (256) bytes. The maximum size of a bookmark is equal to the current value of JET_paramKeyMost + 1.
 
 #### Requirements
 
@@ -177,9 +179,9 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGoToBookmark](gg294053\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)  
 [memcmp](http://go.microsoft.com/fwlink/?linkid=180733)

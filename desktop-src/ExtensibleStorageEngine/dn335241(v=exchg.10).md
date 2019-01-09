@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RECORDLIST constructor
+# JET_RECORDLIST constructor
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -49,9 +49,9 @@ public JET_RECORDLIST()
 
 #### Reference
 
-[JET\_RECORDLIST class](dn335223\(v=exchg.10\).md)
+[JET_RECORDLIST class](dn335223\(v=exchg.10\).md)
 
-[JET\_RECORDLIST members](dn335227\(v=exchg.10\).md)
+[JET_RECORDLIST members](dn335227\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

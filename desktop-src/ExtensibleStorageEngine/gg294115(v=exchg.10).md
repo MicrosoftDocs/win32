@@ -31,11 +31,13 @@ The **JetOSSnapshotTruncateLogInstance** function truncates the log for a specif
 
 **Windows Vista:**  **JetOSSnapshotTruncateLogInstance** is introduced in Windows Vista.
 
+```cpp
     JET_ERR JET_API JetOSSnapshotTruncateLogInstance(
       __in          const JET_OSSNAPID snapId,
       __in          JET_INSTANCE instance,
       __in          const JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -79,7 +81,7 @@ The options for this call. This parameter can have a combination of the followin
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -117,7 +119,7 @@ If this function succeeds, the log files for one or all of the instances that ar
 
 #### Remarks
 
-This function should be called only if the snapshot was created with the JET\_bitContinueAfterThaw option. Otherwise, the snapshot session ends after the call to [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md).
+This function should be called only if the snapshot was created with the JET_bitContinueAfterThaw option. Otherwise, the snapshot session ends after the call to [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md).
 
 #### Requirements
 
@@ -155,7 +157,7 @@ This function should be called only if the snapshot was created with the JET\_bi
 
 [Error Handling Parameters](gg269173\(v=exchg.10\).md)  
 [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetOSSnapshotEnd](gg294136\(v=exchg.10\).md)  
 [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
 [JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)  

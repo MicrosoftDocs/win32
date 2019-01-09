@@ -38,7 +38,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_prep enumeration
+# JET_prep enumeration
 
 Update types for JetPrepareUpdate.
 

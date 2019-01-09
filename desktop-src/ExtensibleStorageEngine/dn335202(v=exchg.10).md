@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_OBJECTINFO.flags property
+# JET_OBJECTINFO.flags property
 
 Gets the table type flags.
 
@@ -61,9 +61,9 @@ Type: [Microsoft.Isam.Esent.Interop.ObjectInfoFlags](hh566138\(v=exchg.10\).md)
 
 #### Reference
 
-[JET\_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
 
-[JET\_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

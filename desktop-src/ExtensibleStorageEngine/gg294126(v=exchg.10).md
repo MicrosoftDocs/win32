@@ -27,8 +27,9 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetCursorInfo Function
 
-The **JetGetCursorInfo** function is used to determine whether an update of the current record of a cursor will result in a write conflict, based on the current update status of the record. It is possible that a write conflict will ultimately be returned even if **JetGetCursorInfo** returns JET\_errSuccess, because another session may update the record before the current session is able to update the same record.
+The **JetGetCursorInfo** function is used to determine whether an update of the current record of a cursor will result in a write conflict, based on the current update status of the record. It is possible that a write conflict will ultimately be returned even if **JetGetCursorInfo** returns JET_errSuccess, because another session may update the record before the current session is able to update the same record.
 
+```cpp
     JET_ERR JET_API JetGetCursorInfo(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -36,6 +37,7 @@ The **JetGetCursorInfo** function is used to determine whether an update of the 
       __in          unsigned long cbMax,
       __in          unsigned long InfoLevel
     );
+```
 
 ### Parameters
 
@@ -61,7 +63,7 @@ Must be set to 0 (zero), otherwise unused. It is present for future functionalit
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -125,7 +127,7 @@ On failure, if a negative error code is returned there are no effects to the cur
 
 #### Remarks
 
-This operation does not affect the state of the cursor or the data. It only returns an error code describing whether an update to the current record by the calling session is known to result in a JET\_errWriteConflict, or is unknown to return JET\_errWriteConflict. If another session has already updated this record to use it is certain that an update of this record by this session will result in a write conflict. This will be true until this session commits or rolls back its transactions to transaction level 0 (zero). However, if **JetGetCursorInfo** returns JET\_errSuccess, it is still possible for another session to update this record before the current session and thus it is still possible that an update of the current record by this session in its current transaction will result in a write conflict.
+This operation does not affect the state of the cursor or the data. It only returns an error code describing whether an update to the current record by the calling session is known to result in a JET_errWriteConflict, or is unknown to return JET_errWriteConflict. If another session has already updated this record to use it is certain that an update of this record by this session will result in a write conflict. This will be true until this session commits or rolls back its transactions to transaction level 0 (zero). However, if **JetGetCursorInfo** returns JET_errSuccess, it is still possible for another session to update this record before the current session and thus it is still possible that an update of the current record by this session in its current transaction will result in a write conflict.
 
 #### Requirements
 
@@ -161,9 +163,9 @@ This operation does not affect the state of the cursor or the data. It only retu
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetLock](gg294094\(v=exchg.10\).md)  
 [JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)  

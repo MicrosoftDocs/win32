@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # BytesColumnValue.Value property
 
-Gets or sets the value of the column. Use [SetColumns(JET\_SESID, JET\_TABLEID, \[\])](dn334138\(v=exchg.10\).md) to update a record with the column value.
+Gets or sets the value of the column. Use [SetColumns(JET_SESID, JET_TABLEID, \[\])](dn334138\(v=exchg.10\).md) to update a record with the column value.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

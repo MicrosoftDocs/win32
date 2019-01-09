@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_RSTINFO properties
+# JET_RSTINFO properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_RSTINFO](dn335235\(v=exchg.10\).md) type exposes the following members.
+The [JET_RSTINFO](dn335235\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +61,7 @@ Top
 
 #### Reference
 
-[JET\_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -36,7 +36,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SNT enumeration
+# JET_SNT enumeration
 
 Type of progress being reported.
 

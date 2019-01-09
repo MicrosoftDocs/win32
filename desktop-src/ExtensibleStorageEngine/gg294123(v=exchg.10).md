@@ -29,11 +29,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCloseDatabase** function closes a database file that was previously opened with [JetOpenDatabase](gg269299\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetCloseDatabase(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -51,7 +53,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -115,10 +117,10 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCreateDatabase](gg269212\(v=exchg.10\).md)  
 [JetCreateDatabase2](gg269208\(v=exchg.10\).md)  
 [JetOpenDatabase](gg269299\(v=exchg.10\).md)

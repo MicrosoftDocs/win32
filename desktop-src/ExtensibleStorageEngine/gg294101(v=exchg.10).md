@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## Event Logging Constants
 
-The following constants indicate the detail level for event log messages for the [JET\_ParamEventLoggingLevel](gg294086\(v=exchg.10\).md) system parameter.
+The following constants indicate the detail level for event log messages for the [JET_ParamEventLoggingLevel](gg294086\(v=exchg.10\).md) system parameter.
 
 <table>
 <colgroup>

@@ -31,11 +31,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetAttachInfo** function is used during a backup initiated by [JetBeginExternalBackup](gg269292\(v=exchg.10\).md) to query an instance for the names of database files that should become part of the backup file set. Only databases currently attached to the instance using [JetAttachDatabase](gg294074\(v=exchg.10\).md) will be considered. These files may subsequently be opened using [JetOpenFile](gg269249\(v=exchg.10\).md) and read using [JetReadFile](gg269257\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetGetAttachInfo(
       __out_opt     tchar* szz,
       __in          unsigned long cbMax,
       __out_opt     unsigned long* pcbActual
     );
+```
 
 ### Parameters
 
@@ -53,7 +55,7 @@ Pointer to the output buffer that received the actual amount of string data.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -161,8 +163,8 @@ It is important to note that this API does not return an error or warning if the
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetAttachDatabase](gg294074\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetOpenFile](gg269249\(v=exchg.10\).md)  

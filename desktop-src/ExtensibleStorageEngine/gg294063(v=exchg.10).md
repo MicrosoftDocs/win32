@@ -17,14 +17,14 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LOGINFO Structure
+# JET_LOGINFO Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_LOGINFO Structure
+## JET_LOGINFO Structure
 
-The **JET\_LOGINFO** structure returns structured information about the set of transaction log files that should be a part of a backup file set. The **JET\_LOGINFO** structure is the minimal set of information needed to represent a range of logs that is retrieved with [JetGetLogInfoInstance2](gg269247\(v=exchg.10\).md) or specified for a hard recovery with [JetExternalRestore2](gg269272\(v=exchg.10\).md).
+The **JET_LOGINFO** structure returns structured information about the set of transaction log files that should be a part of a backup file set. The **JET_LOGINFO** structure is the minimal set of information needed to represent a range of logs that is retrieved with [JetGetLogInfoInstance2](gg269247\(v=exchg.10\).md) or specified for a hard recovery with [JetExternalRestore2](gg269272\(v=exchg.10\).md).
 
     typedef struct {
       unsigned long cbSize;
@@ -39,7 +39,7 @@ The **JET\_LOGINFO** structure returns structured information about the set of t
 
 The size of the structure, in bytes.
 
-This member enables future expansion of this structure while enabling backwards compatibility. It should always be set to sizeof( JET\_LOGINFO ).
+This member enables future expansion of this structure while enabling backwards compatibility. It should always be set to sizeof( JET_LOGINFO ).
 
 **ulGenLow**
 
@@ -53,7 +53,7 @@ The highest (or most recent) log file number that is restored. The full fidelity
 
 The prefix used to name the transaction log files.
 
-The value that is returned in this member is always equal to the setting for [JET\_paramBaseName](gg269235\(v=exchg.10\).md) for the instance that generated this information.
+The value that is returned in this member is always equal to the setting for [JET_paramBaseName](gg269235\(v=exchg.10\).md) for the instance that generated this information.
 
 ### Remarks
 

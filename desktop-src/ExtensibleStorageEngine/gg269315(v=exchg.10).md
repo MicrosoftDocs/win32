@@ -29,10 +29,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetDelete** function deletes the current record in a database table.
 
+```cpp
     JET_ERR JET_API JetDelete(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid
     );
+```
 
 ### Parameters
 
@@ -46,7 +48,7 @@ The cursor on a database table. The current row will be deleted.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -136,13 +138,13 @@ On failure, the currency remains unchanged. If an update is prepared (see [JetPr
 
 Not all tables support deletion of rows. A temporary table does not normally support deletion of rows. Deletion of records may be enabled on temporary tables for many reasons, some of which are:
 
-  - JET\_bitTTUpdatable was specified during creation.
+  - JET_bitTTUpdatable was specified during creation.
 
-  - Large temporary tables can support deletion if they were created with JET\_bitTTScrollable or JET\_bitTTIndexed. The threshold at which a temporary table becomes "large" is currently 64 kilobytes, but it may be changed in future releases.
+  - Large temporary tables can support deletion if they were created with JET_bitTTScrollable or JET_bitTTIndexed. The threshold at which a temporary table becomes "large" is currently 64 kilobytes, but it may be changed in future releases.
 
-Windows XP and later. Callback functions can be invoked by **JetDelete**, including JET\_cbtypBeforeDelete and JET\_cbtypAfterDelete.
+Windows XP and later. Callback functions can be invoked by **JetDelete**, including JET_cbtypBeforeDelete and JET_cbtypAfterDelete.
 
-It is important to understand the impact of performing a large number of update operations inside of a single transaction. Each update to the database must be tracked by the database engine in the version store. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. Once the database engine has exhausted the resources used to store these versions then it can no longer accept further changes until some transactions have concluded to allow these resources to be reclaimed. When the engine is in this state, all updates will fail with JET\_errVersionStoreOutOfMemory. The resources available to the database engine to store these versions can be controlled using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with *JET\_paramMaxVerPages* and *JET\_paramGlobalMinVerPages*.
+It is important to understand the impact of performing a large number of update operations inside of a single transaction. Each update to the database must be tracked by the database engine in the version store. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. Once the database engine has exhausted the resources used to store these versions then it can no longer accept further changes until some transactions have concluded to allow these resources to be reclaimed. When the engine is in this state, all updates will fail with JET_errVersionStoreOutOfMemory. The resources available to the database engine to store these versions can be controlled using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with *JET_paramMaxVerPages* and *JET_paramGlobalMinVerPages*.
 
 #### Requirements
 
@@ -178,9 +180,9 @@ It is important to understand the impact of performing a large number of update 
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetOpenTempTable](gg269211\(v=exchg.10\).md)  
 [JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
 [System Parameters](gg294139\(v=exchg.10\).md)

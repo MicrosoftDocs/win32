@@ -15,7 +15,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## Extensible Storage Engine Errors
 
-All possible errors returned by the Extensible Storage Engine (ESE) API are defined by the [JET\_ERR](gg294092\(v=exchg.10\).md) data type. For a list of the error flags that are defined for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).
+All possible errors returned by the Extensible Storage Engine (ESE) API are defined by the [JET_ERR](gg294092\(v=exchg.10\).md) data type. For a list of the error flags that are defined for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).
 
 Throughout the ESE API documentation, only the most important errors are documented. These errors typically represent API usage errors or very important error conditions. Be aware that any of these ESE APIs can also return other errors that are not documented for each API. In these cases, the caller should simply handle the error as they would any other error that is returned by the API. The specific error value may then be used for diagnostic purposes such as tracing.
 
@@ -23,8 +23,9 @@ In general, a value that is greater than zero should be interpreted as a warning
 
 When ESE encounters some of the more serious errors, it creates an event log entry that contains details about the errors. The level of logging can be controlled by [Event Log Parameters](gg294086\(v=exchg.10\).md).
 
-Some applications require the ability to return [JET\_ERR](gg294092\(v=exchg.10\).md)s as HRESULTs. The following C++ example shows how to make that conversion:
+Some applications require the ability to return [JET_ERR](gg294092\(v=exchg.10\).md)s as HRESULTs. The following C++ example shows how to make that conversion:
 
+```cpp
     #ifndef FACILITY_JET_ERR
     #define FACILITY_JET_ERR 0xE5E
     #endif
@@ -55,6 +56,7 @@ Some applications require the ability to return [JET\_ERR](gg294092\(v=exchg.10\
     )
     
     #endif
+```
 
 For information about configuring system parameters for error handling, see [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
@@ -64,5 +66,5 @@ For information about configuring system parameters for error handling, see [Err
 
 [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md)
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)
+[JET_ERR](gg294092\(v=exchg.10\).md)
 

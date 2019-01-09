@@ -76,42 +76,42 @@ public static JET_wrn JetDefragment2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use for the call.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database to be defragmented.
 
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     Unused parameter. Defragmentation is performed for the entire database described by the given database ID.
 
 <!-- end list -->
 
   - passes  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     When starting an online defragmentation task, this parameter sets the maximum number of defragmentation passes. When stopping an online defragmentation task, this parameter is set to the number of passes performed.
 
 <!-- end list -->
 
   - seconds  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     When starting an online defragmentation task, this parameter sets the maximum time for defragmentation. When stopping an online defragmentation task, this output buffer is set to the length of time used for defragmentation.
 
 <!-- end list -->
 
   - callback  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_CALLBACK](hh566065\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](hh566065\(v=exchg.10\).md)  
     
     Callback function that defrag uses to report progress.
 
@@ -124,7 +124,7 @@ public static JET_wrn JetDefragment2(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 A warning code.  
 
 ## Remarks

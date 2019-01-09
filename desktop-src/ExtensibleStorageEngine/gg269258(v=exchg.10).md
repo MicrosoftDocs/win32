@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## Error Handling Constants
 
-The following constants are used to set the range for the [JET\_paramExceptionAction](gg269173\(v=exchg.10\).md) system parameters.
+The following constants are used to set the range for the [JET_paramExceptionAction](gg269173\(v=exchg.10\).md) system parameters.
 
 <table>
 <colgroup>

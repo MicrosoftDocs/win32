@@ -14,24 +14,25 @@ api_type:
 - COM
 api_location: 
 ROBOTS: INDEX,FOLLOW
-
 ---
 
-# JET\_ENUMCOLUMNVALUE Structure
+# JET_ENUMCOLUMNVALUE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_ENUMCOLUMNVALUE Structure
+## JET_ENUMCOLUMNVALUE Structure
 
-The **JET\_ENUMCOLUMNVALUE** structure enumerates the column values of a record using the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET\_ENUMCOLUMNVALUE** structures. The array is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to that function.
+The **JET_ENUMCOLUMNVALUE** structure enumerates the column values of a record using the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMNVALUE** structures. The array is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to that function.
 
+```cpp
     typedef struct {
       unsigned long itagSequence;
       JET_ERR err;
       unsigned long cbData;
       void* pvData;
     } JET_ENUMCOLUMNVALUE;
+```
 
 ### Members
 
@@ -110,9 +111,9 @@ The output buffer is returned in memory that was allocated using the [realloc](h
 
 ### See Also
 
-[JET\_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
-[JET\_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
+[JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
+[JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetEnumerateColumns](gg269321\(v=exchg.10\).md)  
 [realloc](http://go.microsoft.com/fwlink/?linkid=179840)
 

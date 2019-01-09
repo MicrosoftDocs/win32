@@ -17,32 +17,34 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LS
+# JET_LS
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_LS
+## JET_LS
 
-The **JET\_LS** data type contains a context handle to local storage (LS).This handle might be associated with a cursor or a table and might refer to dynamically allocated resources.
+The **JET_LS** data type contains a context handle to local storage (LS).This handle might be associated with a cursor or a table and might refer to dynamically allocated resources.
 
-**Windows XP:  JET\_LS** is introduced in Windows XP.
+**Windows XP:  JET_LS** is introduced in Windows XP.
 
+```cpp
     typedef JET_API_PTR JET_LS;
+```
 
 ### Data Types
 
-JET\_LS
+JET_LS
 
-A value of JET\_LSNil indicates an invalid context handle.
+A value of JET_LSNil indicates an invalid context handle.
 
 ### Remarks
 
-A context handle is initially associated with the **JET\_LS** data type, using [JetSetLS](gg269243\(v=exchg.10\).md). The context handle can be retrieved from the **JET\_LS** data type, using [JetGetLS](gg269234\(v=exchg.10\).md).
+A context handle is initially associated with the **JET_LS** data type, using [JetSetLS](gg269243\(v=exchg.10\).md). The context handle can be retrieved from the **JET_LS** data type, using [JetGetLS](gg269234\(v=exchg.10\).md).
 
-The context handle can be explicitly disassociated from the **JET\_LS** data type using [JetGetLS](gg269234\(v=exchg.10\).md) with JET\_bitLSReset. Alternatively, the context handle can be implicitly disassociated from the **JET\_LS** data type when the underlying object is released by the database engine as a result of direct or indirect action by the application. In the implicit case, a runtime callback is issued to the application so that it can clean up the context handle. For more information on implicitly disassociating from the **JET\_LS** data type, see [JetSetLS](gg269243\(v=exchg.10\).md).
+The context handle can be explicitly disassociated from the **JET_LS** data type using [JetGetLS](gg269234\(v=exchg.10\).md) with JET_bitLSReset. Alternatively, the context handle can be implicitly disassociated from the **JET_LS** data type when the underlying object is released by the database engine as a result of direct or indirect action by the application. In the implicit case, a runtime callback is issued to the application so that it can clean up the context handle. For more information on implicitly disassociating from the **JET_LS** data type, see [JetSetLS](gg269243\(v=exchg.10\).md).
 
-The following flags are associated with the JET\_LS data type.
+The following flags are associated with the JET_LS data type.
 
 <table>
 <colgroup>

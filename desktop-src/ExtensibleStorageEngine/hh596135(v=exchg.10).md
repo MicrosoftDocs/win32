@@ -104,7 +104,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_param enumeration
+# JET_param enumeration
 
 ESENT system parameters.
 

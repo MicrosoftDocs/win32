@@ -29,11 +29,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetSeek** function efficiently positions a cursor to an index entry that matches the search criteria specified by the search key in that cursor and the specified inequality. A search key must have been previously constructed using [JetMakeKey](gg269329\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetSeek(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -104,7 +106,7 @@ A group of bits that contain the options to be used for this call. *Grbit* must 
 
 ### Return Value
 
-This function allows for the return of any [JET\_ERRs](gg294092\(v=exchg.10\).md) that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function allows for the return of any [JET_ERRs](gg294092\(v=exchg.10\).md) that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -172,7 +174,7 @@ This function allows for the return of any [JET\_ERRs](gg294092\(v=exchg.10\).md
 
 On success, the cursor will be positioned at an index entry that matches the search criteria. If a record has been prepared for update, then that update will be canceled. If an index range is in effect, that index range will be canceled. If a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur. When multiple index entries have the same value, the entry closest to the start of the index is always selected.
 
-On failure, the position of the cursor will remain unchanged unless JET\_errRecordNotFound was returned. In that case, the cursor will be positioned where the index entry that matched the search criteria specified by the search key in that cursor and the specified inequality would have been. The cursor can be moved relative to that position but is still not on a valid index entry. If a record has been prepared for update, then that update will be canceled. If an index range is in effect, that index range will be canceled. If a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur.
+On failure, the position of the cursor will remain unchanged unless JET_errRecordNotFound was returned. In that case, the cursor will be positioned where the index entry that matched the search criteria specified by the search key in that cursor and the specified inequality would have been. The cursor can be moved relative to that position but is still not on a valid index entry. If a record has been prepared for update, then that update will be canceled. If an index range is in effect, that index range will be canceled. If a search key has been constructed for the cursor, then that search key will be deleted. No change to the database state will occur.
 
 #### Requirements
 
@@ -208,10 +210,10 @@ On failure, the position of the cursor will remain unchanged unless JET\_errReco
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetMakeKey](gg269329\(v=exchg.10\).md)  
 [JetSetIndexRange](gg294112\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)

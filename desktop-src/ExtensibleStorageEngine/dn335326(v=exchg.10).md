@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # VistaApi.JetOpenTemporaryTable method
 
-Creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using JetCreateTableColumnIndex. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner. Also see [JetOpenTempTable(JET\_SESID, \[\], Int32, TempTableGrbit, JET\_TABLEID, \[\])](dn292231\(v=exchg.10\).md), [JetOpenTempTable3(JET\_SESID, \[\], Int32, JET\_UNICODEINDEX, TempTableGrbit, JET\_TABLEID, \[\])](dn292233\(v=exchg.10\).md).
+Creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using JetCreateTableColumnIndex. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner. Also see [JetOpenTempTable(JET_SESID, \[\], Int32, TempTableGrbit, JET_TABLEID, \[\])](dn292231\(v=exchg.10\).md), [JetOpenTempTable3(JET_SESID, \[\], Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[\])](dn292233\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -57,20 +57,20 @@ public static void JetOpenTemporaryTable(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - temporarytable  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md)  
     
-    Description of the temporary table to create on input. After a successful call, the structure contains the handle to the temporary table and column identifications. Use [JetCloseTable(JET\_SESID, JET\_TABLEID)](dn292109\(v=exchg.10\).md) to free the temporary table when finished.
+    Description of the temporary table to create on input. After a successful call, the structure contains the handle to the temporary table and column identifications. Use [JetCloseTable(JET_SESID, JET_TABLEID)](dn292109\(v=exchg.10\).md) to free the temporary table when finished.
 
 ## Remarks
 
-Introduced in Windows Vista. Use [JetOpenTempTable3(JET\_SESID, \[\], Int32, JET\_UNICODEINDEX, TempTableGrbit, JET\_TABLEID, \[\])](dn292233\(v=exchg.10\).md) for earlier versions of Esent.
+Introduced in Windows Vista. Use [JetOpenTempTable3(JET_SESID, \[\], Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[\])](dn292233\(v=exchg.10\).md) for earlier versions of Esent.
 
 ## See also
 

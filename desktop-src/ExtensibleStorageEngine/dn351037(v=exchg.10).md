@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_SETINFO.itagSequence property
+# JET_SETINFO.itagSequence property
 
 Gets or sets the sequence number of value in a multi-valued column to be set. The array of values is one-based. The first value is sequence 1, not 0 (zero). If the record column has only one value then 1 should be passed as the itagSequence if that value is being replaced. A value of 0 (zero) means to add a new column value instance to the end of the sequence of column values.
 
@@ -57,15 +57,15 @@ public int itagSequence { get; set; }
 
 #### Property value
 
-Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
 
 ## See also
 
 #### Reference
 
-[JET\_SETINFO class](dn351059\(v=exchg.10\).md)
+[JET_SETINFO class](dn351059\(v=exchg.10\).md)
 
-[JET\_SETINFO members](dn351029\(v=exchg.10\).md)
+[JET_SETINFO members](dn351029\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

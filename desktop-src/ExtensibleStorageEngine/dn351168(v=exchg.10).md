@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Table.ReleaseResource method
 
-Free the underlying JET\_TABLEID.
+Free the underlying JET_TABLEID.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

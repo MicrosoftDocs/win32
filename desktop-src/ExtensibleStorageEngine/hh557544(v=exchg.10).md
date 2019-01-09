@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TABLEID.ToString method (String, IFormatProvider)
+# JET_TABLEID.ToString method (String, IFormatProvider)
 
 Formats the value of the current instance using the specified format.
 
@@ -57,33 +57,33 @@ public string ToString(
 #### Parameters
 
   - format  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
-    The [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) specifying the format to use; or, null to use the default format defined for the type of the [IFormattable](http://msdn2.microsoft.com/en-us/library/bk5yxz0f) implementation.
+    The [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) specifying the format to use; or, null to use the default format defined for the type of the [IFormattable](https://msdn.microsoft.com/en-us/library/bk5yxz0f) implementation.
 
 <!-- end list -->
 
   - formatProvider  
-    Type: [System.IFormatProvider](http://msdn2.microsoft.com/en-us/library/efh2ww9y)  
+    Type: [System.IFormatProvider](https://msdn.microsoft.com/en-us/library/efh2ww9y)  
     
-    The [IFormatProvider](http://msdn2.microsoft.com/en-us/library/efh2ww9y) to use to format the value; or, null to obtain the numeric format information from the current locale setting of the operating system.
+    The [IFormatProvider](https://msdn.microsoft.com/en-us/library/efh2ww9y) to use to format the value; or, null to obtain the numeric format information from the current locale setting of the operating system.
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
-A [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) containing the value of the current instance in the specified format.  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+A [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) containing the value of the current instance in the specified format.  
 
 #### Implements
 
-[IFormattable.ToString(String, IFormatProvider)](http://msdn2.microsoft.com/en-us/library/bhf180ey)  
+[IFormattable.ToString(String, IFormatProvider)](https://msdn.microsoft.com/en-us/library/bhf180ey)  
 
 ## See also
 
 #### Reference
 
-[JET\_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
 
-[JET\_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](hh596310\(v=exchg.10\).md)
 
 [ToString overload](hh596553\(v=exchg.10\).md)
 

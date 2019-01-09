@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.GetTableColumns method (JET\_SESID, JET\_TABLEID)
+# Api.GetTableColumns method (JET_SESID, JET_TABLEID)
 
 Iterates over all the columns in the table, returning information about each one.
 
@@ -56,20 +56,20 @@ public static IEnumerable<ColumnInfo> GetTableColumns(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table to retrieve column information for.
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](http://msdn2.microsoft.com/en-us/library/9eekhta0)\<[ColumnInfo](dn334128\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0)\<[ColumnInfo](dn334128\(v=exchg.10\).md)\>  
 An iterator over ColumnInfo for each column in the table.  
 
 ## See also

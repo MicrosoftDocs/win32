@@ -28,12 +28,12 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentLogCorruptDuringHardRecoveryException class
 
-Base class for JET\_err.LogCorruptDuringHardRecovery exceptions.
+Base class for JET_err.LogCorruptDuringHardRecovery exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  [System.Exception](http://msdn2.microsoft.com/en-us/library/c18k6c59)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentDataException](dn334392\(v=exchg.10\).md)  

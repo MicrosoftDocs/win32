@@ -17,17 +17,18 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_THREADSTATS Structure
+# JET_THREADSTATS Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_THREADSTATS Structure
+## JET_THREADSTATS Structure
 
-The **JET\_THREADSTATS** structure contains cumulative statistics on the work performed by the database engine on the current thread. This information is returned via [JetGetThreadStats](gg269196\(v=exchg.10\).md).
+The **JET_THREADSTATS** structure contains cumulative statistics on the work performed by the database engine on the current thread. This information is returned via [JetGetThreadStats](gg269196\(v=exchg.10\).md).
 
-**Windows Vista:**  The **JET\_THREADSTATS** structure is introduced in Windows Vista.
+**Windows Vista:**  The **JET_THREADSTATS** structure is introduced in Windows Vista.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       unsigned long cPageReferenced;
@@ -38,14 +39,15 @@ The **JET\_THREADSTATS** structure contains cumulative statistics on the work pe
       unsigned long cLogRecord;
       unsigned long cbLogRecord;
     } JET_THREADSTATS;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the returned **JET\_THREADSTATS** structure, in bytes.
+The size of the returned **JET_THREADSTATS** structure, in bytes.
 
-**Note**  The **JET\_THREADSTATS** structure will expand in the future to contain more statistics. New statistics will be added to the end of the structure and can be retrieved with an increased output buffer size. The presence of additional statistics can be inferred by a larger **cbStruct** value.
+**Note**  The **JET_THREADSTATS** structure will expand in the future to contain more statistics. New statistics will be added to the end of the structure and can be retrieved with an increased output buffer size. The presence of additional statistics can be inferred by a larger **cbStruct** value.
 
 **cPageReferenced**
 

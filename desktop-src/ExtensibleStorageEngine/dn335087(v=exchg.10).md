@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ENUMCOLUMN.pvData property
+# JET_ENUMCOLUMN.pvData property
 
-Gets the the value that was enumerated for the column. This member is only used if [err](dn335086\(v=exchg.10\).md) is equal to [ColumnSingleValue](hh557250\(v=exchg.10\).md). This points to memory allocated with the [JET\_PFNREALLOC](hh566077\(v=exchg.10\).md) allocator callback passed to [JetEnumerateColumns(JET\_SESID, JET\_TABLEID, Int32, \[\], Int32, \[\], JET\_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)](dn292148\(v=exchg.10\).md). Remember to release the memory when finished.
+Gets the the value that was enumerated for the column. This member is only used if [err](dn335086\(v=exchg.10\).md) is equal to [ColumnSingleValue](hh557250\(v=exchg.10\).md). This points to memory allocated with the [JET_PFNREALLOC](hh566077\(v=exchg.10\).md) allocator callback passed to [JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, \[\], Int32, \[\], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)](dn292148\(v=exchg.10\).md). Remember to release the memory when finished.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -55,15 +55,15 @@ public IntPtr pvData { get; internal set; }
 
 #### Property value
 
-Type: [System.IntPtr](http://msdn2.microsoft.com/en-us/library/5he14kz8)  
+Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
 
 ## See also
 
 #### Reference
 
-[JET\_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
+[JET_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
 
-[JET\_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
+[JET_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

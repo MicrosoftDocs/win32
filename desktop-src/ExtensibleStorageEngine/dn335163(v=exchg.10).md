@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXRANGE.tableid property
+# JET_INDEXRANGE.tableid property
 
 Gets or sets the cursor containing the index range. The cursor should have an index range set with JetSetIndexRange.
 
@@ -57,15 +57,15 @@ public JET_TABLEID tableid { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
 
-[JET\_INDEXRANGE members](dn335176\(v=exchg.10\).md)
+[JET_INDEXRANGE members](dn335176\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

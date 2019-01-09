@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetSetColumn method (JET\_SESID, JET\_TABLEID, JET\_COLUMNID, Byte , Int32, Int32, SetColumnGrbit, JET\_SETINFO)
+# Api.JetSetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Byte , Int32, Int32, SetColumnGrbit, JET_SETINFO)
 
 The JetSetColumn function modifies a single column value in a modified record to be inserted or to update the current record. It can overwrite an existing value, add a new value to a sequence of values in a multi-valued column, remove a value from a sequence of values in a multi-valued column, or update all or part of a long value (a column of type [LongText](hh577895\(v=exchg.10\).md) or [LongBinary](hh577895\(v=exchg.10\).md)).
 
@@ -75,21 +75,21 @@ public static JET_wrn JetSetColumn(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session which is performing the update.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to update. An update should be prepared.
 
 <!-- end list -->
 
   - columnid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
     
     The columnid to set.
 
@@ -103,14 +103,14 @@ public static JET_wrn JetSetColumn(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The size of data to set.
 
 <!-- end list -->
 
   - dataOffset  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The offset in the data buffer to set data from.
 
@@ -124,13 +124,13 @@ public static JET_wrn JetSetColumn(
 <!-- end list -->
 
   - setinfo  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SETINFO](dn351059\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SETINFO](dn351059\(v=exchg.10\).md)  
     
     Used to specify itag or long-value offset.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
 A warning value.  
 
 ## Remarks

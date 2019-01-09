@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetColumnInfo** function retrieves information about a column.
 
+```cpp
     JET_ERR JET_API JetGetColumnInfo(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
@@ -40,6 +41,7 @@ The **JetGetColumnInfo** function retrieves information about a column.
       __in          unsigned long cbMax,
       __in          unsigned long InfoLevel
     );
+```
 
 ### Parameters
 
@@ -69,13 +71,13 @@ The size, in bytes, of the buffer that is passed in *pvResult*.
 
 *InfoLevel*
 
-The type of information to retrieve for the column that is specified by *szColumnName*. The format of the data stored in *pvResult* is dependent on this parameter. For the schema of the temporary table, see [JET\_COLUMNLIST](gg269228\(v=exchg.10\).md).
+The type of information to retrieve for the column that is specified by *szColumnName*. The format of the data stored in *pvResult* is dependent on this parameter. For the schema of the temporary table, see [JET_COLUMNLIST](gg269228\(v=exchg.10\).md).
 
 These *InfoLevels* are differentiated by:
 
-  - JET\_ColInfoListSortColumnid will sort the temporary table by *columnid*.
+  - JET_ColInfoListSortColumnid will sort the temporary table by *columnid*.
 
-  - JET\_ColInfoListCompact will compact the output. For more information about the compact output, see [JET\_COLUMNLIST](gg269228\(v=exchg.10\).md).
+  - JET_ColInfoListCompact will compact the output. For more information about the compact output, see [JET_COLUMNLIST](gg269228\(v=exchg.10\).md).
 
 The following options are available for use with this parameter.
 
@@ -148,7 +150,7 @@ The following options are available for use with this parameter.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -203,7 +205,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
   - **JetGetColumnInfo** identifies a table by *dbid* and *szTableName* combination.
 
-When retrieving data with JET\_ColInfoList, JET\_ColInfoListSortColumnid, or JET\_ColInfoListCompact, a temporary table will be opened. The temporary table contains data, and the [JET\_COLUMNLIST](gg269228\(v=exchg.10\).md) structure contains sufficient information to traverse the temporary table. The temporary table must be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
+When retrieving data with JET_ColInfoList, JET_ColInfoListSortColumnid, or JET_ColInfoListCompact, a temporary table will be opened. The temporary table contains data, and the [JET_COLUMNLIST](gg269228\(v=exchg.10\).md) structure contains sufficient information to traverse the temporary table. The temporary table must be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
 
 #### Requirements
 
@@ -245,14 +247,14 @@ When retrieving data with JET\_ColInfoList, JET\_ColInfoListSortColumnid, or JET
 
 [Error Handling Parameters](gg269173\(v=exchg.10\).md)  
 [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET\_COLUMNBASE](gg269194\(v=exchg.10\).md)  
-[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_COLUMNLIST](gg269228\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_COLUMNBASE](gg269194\(v=exchg.10\).md)  
+[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_COLUMNLIST](gg269228\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)  
 [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)
 

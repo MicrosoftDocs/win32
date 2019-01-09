@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEX\_COLUMN.relop property
+# JET_INDEX_COLUMN.relop property
 
 Gets or sets the filter comparison operation.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.Windows8.JetRelop](dn335491\(v=exchg.10\).md
 
 #### Reference
 
-[JET\_INDEX\_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
 
-[JET\_INDEX\_COLUMN members](dn335351\(v=exchg.10\).md)
+[JET_INDEX_COLUMN members](dn335351\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

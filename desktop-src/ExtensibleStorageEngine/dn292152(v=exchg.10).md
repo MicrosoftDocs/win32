@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetColumnInfo method (JET\_SESID, JET\_DBID, String, String, JET\_COLUMNLIST)
+# Api.JetGetColumnInfo method (JET_SESID, JET_DBID, String, String, JET_COLUMNLIST)
 
 Retrieves information about all columns in a table.
 
@@ -62,35 +62,35 @@ public static void JetGetColumnInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
     
     The database that contains the table.
 
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The name of the table containing the column.
 
 <!-- end list -->
 
   - columnName  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     This parameter is ignored.
 
 <!-- end list -->
 
   - columnlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNLIST](dn335047\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNLIST](dn335047\(v=exchg.10\).md)  
     
     Filled in with information about the columns in the table.
 

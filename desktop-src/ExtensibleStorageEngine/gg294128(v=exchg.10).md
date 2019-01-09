@@ -31,11 +31,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetDeleteTable** function deletes a table in an ESE database.
 
+```cpp
     JET_ERR JET_API JetDeleteTable(
       __in          JET_SESID sesid,
       __in          JET_DBID dbid,
       __in          const tchar* szTableName
     );
+```
 
 ### Parameters
 
@@ -53,7 +55,7 @@ The name of the table to delete.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -125,7 +127,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### See Also
 
-[JET\_DBID](gg269248\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_DBID](gg269248\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetCloseTable](gg294087\(v=exchg.10\).md)
 

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Session constructor
 
-Initializes a new instance of the Session class. A new JET\_SESSION is allocated from the given instance.
+Initializes a new instance of the Session class. A new JET_SESSION is allocated from the given instance.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -55,7 +55,7 @@ public Session(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to start the session in.
 

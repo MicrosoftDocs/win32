@@ -26,11 +26,13 @@ _**Applies to:** Windows | Windows Server_
 
 The WCHAR data type contains a 16-bit Unicode character.
 
+```cpp
     #if !defined(_NATIVE_WCHAR_T_DEFINED)
     typedef unsigned short WCHAR;
     #else
     typedef wchar_t WCHAR;
     #endif
+```
 
 ### Data Types
 

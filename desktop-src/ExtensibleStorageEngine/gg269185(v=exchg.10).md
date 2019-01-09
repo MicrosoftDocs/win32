@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXLIST Structure
+# JET_INDEXLIST Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_INDEXLIST Structure
+## JET_INDEXLIST Structure
 
-The **JET\_INDEXLIST** structure contains the necessary information to traverse a temporary table that is created by the [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md) functions. Each row in the temporary table describes a column of an index.
+The **JET_INDEXLIST** structure contains the necessary information to traverse a temporary table that is created by the [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md) functions. Each row in the temporary table describes a column of an index.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_TABLEID tableid;
@@ -47,12 +48,13 @@ The **JET\_INDEXLIST** structure contains the necessary information to traverse 
       JET_COLUMNID columnidcolumnname;
       JET_COLUMNID columnidLCMapFlags;
     } JET_INDEXLIST;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of the structure in bytes. The API call will update this field, so the caller should ensure that this value matches sizeof( JET\_INDEXLIST ).
+The size of the structure in bytes. The API call will update this field, so the caller should ensure that this value matches sizeof( JET_INDEXLIST ).
 
 **tableid**
 
@@ -66,41 +68,41 @@ The number of records in the temporary table that was created.
 
 The column identifier of the name of the index.
 
-This column is a [JET\_coltypText](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypText](gg269213\(v=exchg.10\).md).
 
 **columnidgrbitIndex**
 
-The column identifier of the *grbits* used on the index. See [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) for a list of valid bits.
+The column identifier of the *grbits* used on the index. See [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) for a list of valid bits.
 
-This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidcKey**
 
 The column identifier of the number of keys in the index.
 
-This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidcEntry**
 
 The column identifier of the number of entries in the index.
 
-This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidcPage**
 
-The column identifier of the number of pages the index uses.This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+The column identifier of the number of pages the index uses.This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidcColumn**
 
 The column identifier of the total number of columns that the index spans.
 
-This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidiColumn**
 
 The column identifier of the number of the columns in the index. For more information, see the Remarks section of this topic.
 
-This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -135,41 +137,41 @@ This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidcolumnid**
 
-The column identifier of the column that is indexed.For more information, see the Remarks section of this topic. This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+The column identifier of the column that is indexed.For more information, see the Remarks section of this topic. This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidcoltyp**
 
-The column identifier of the coltyp of the column which is indexed. For more information, see the Remarks section of this topic. This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+The column identifier of the coltyp of the column which is indexed. For more information, see the Remarks section of this topic. This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 **columnidCountry**
 
 The column identifier of the country code of the column that is indexed. The country code is deprecated.
 
-This column is a [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypShort](gg269213\(v=exchg.10\).md).
 
 **columnidLangid**
 
-The column identifier of the language identifier (LCID) under which the index was created. For more information, see [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md).
+The column identifier of the language identifier (LCID) under which the index was created. For more information, see [JET_INDEXCREATE](gg269186\(v=exchg.10\).md).
 
-This column is a [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypShort](gg269213\(v=exchg.10\).md).
 
 **columnidCp**
 
-The column identifier of the code page under which the index was created. For more information, see [JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md).
+The column identifier of the code page under which the index was created. For more information, see [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md).
 
-This column is a [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypShort](gg269213\(v=exchg.10\).md).
 
 **columnidCollate**
 
 The column identifier of the collation sequence under which the index was created. The collation sequence is deprecated.
 
-This column is a [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypShort](gg269213\(v=exchg.10\).md).
 
 **columnidgrbitColumn**
 
 The column identifier of the *grbits* that apply to the order of the column in the index.
 
-The data for this column can be ordered as JET\_bitKeyAscending or JET\_bitKeyDescending. This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md). For example, an index defined as "-column1\\0+column2\\0" will have JET\_bitKeyDescending for "column1", and JET\_bitKeyAscending for "column2".
+The data for this column can be ordered as JET_bitKeyAscending or JET_bitKeyDescending. This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md). For example, an index defined as "-column1\\0+column2\\0" will have JET_bitKeyDescending for "column1", and JET_bitKeyAscending for "column2".
 
 The following options are valid for this member.
 
@@ -201,13 +203,13 @@ The following options are valid for this member.
 
 The column identifier of the name of the column.
 
-This column is a [JET\_coltypText](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypText](gg269213\(v=exchg.10\).md).
 
 **columnidLCMapFlags**
 
-The column identifier of the flags that are used to create the index. For more information, see the **dwMapFlags** section of [JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md).
+The column identifier of the flags that are used to create the index. For more information, see the **dwMapFlags** section of [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md).
 
-This column is a [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
 
 ### Remarks
 
@@ -275,15 +277,15 @@ The number of keys in a particular index corresponds to the number of unique val
 
 ### See Also
 
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
 [JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)
 

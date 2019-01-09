@@ -17,20 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LGPOS Structure
+# JET_LGPOS Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_LGPOS Structure
+## JET_LGPOS Structure
 
-The **JET\_LGPOS** structure holds data that is internal to the logging mechanism of the database engine. This structure is considered internal.
+The **JET_LGPOS** structure holds data that is internal to the logging mechanism of the database engine. This structure is considered internal.
 
+```cpp
     typedef struct {
       unsigned short ib;
       unsigned short isec;
       long lGeneration;
     } JET_LGPOS;
+```
 
 ### Members
 
@@ -72,6 +74,6 @@ Supports the ESE infrastructure and cannot be used from your code.
 
 ### See Also
 
-[JET\_BKINFO](gg294120\(v=exchg.10\).md)  
-[JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)
+[JET_BKINFO](gg294120\(v=exchg.10\).md)  
+[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
 

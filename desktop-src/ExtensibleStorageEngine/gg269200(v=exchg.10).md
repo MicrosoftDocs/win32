@@ -17,23 +17,25 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_USERDEFINEDDEFAULT Structure
+# JET_USERDEFINEDDEFAULT Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_USERDEFINEDDEFAULT Structure
+## JET_USERDEFINEDDEFAULT Structure
 
-The **JET\_USERDEFINEDDEFAULT** structure is specified in conjunction with JET\_bitColumnUserDefinedDefault to give a new column a default value that is determined using a callback. This technique can be used to implement computed columns.
+The **JET_USERDEFINEDDEFAULT** structure is specified in conjunction with JET_bitColumnUserDefinedDefault to give a new column a default value that is determined using a callback. This technique can be used to implement computed columns.
 
-**Windows XP:** The **JET\_USERDEFINEDDEFAULT** structure is introduced in Windows XP.
+**Windows XP:** The **JET_USERDEFINEDDEFAULT** structure is introduced in Windows XP.
 
+```cpp
     typedef struct tag_JET_USERDEFINEDDEFAULT {
       tchar* szCallback;
       unsigned char* pbUserData;
       unsigned long cbUserData;
       tchar* szDependantColumns;
     } JET_USERDEFINEDDEFAULT;
+```
 
 ### Members
 
@@ -101,7 +103,7 @@ This member should always be set to NULL.
 
 ### See Also
 
-[JET\_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET\_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)
+[JET_CBTYP](gg294071\(v=exchg.10\).md)  
+[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
+[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
 

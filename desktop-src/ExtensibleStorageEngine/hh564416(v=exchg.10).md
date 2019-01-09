@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_BKLOGTIME.IsUtc property
+# JET_BKLOGTIME.IsUtc property
 
-Gets a value indicating whether the JET\_BKLOGTIME is in UTC.
+Gets a value indicating whether the JET_BKLOGTIME is in UTC.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,15 +53,15 @@ public bool IsUtc { get; }
 
 #### Property value
 
-Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
 
 ## See also
 
 #### Reference
 
-[JET\_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
+[JET_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
 
-[JET\_BKLOGTIME members](hh565503\(v=exchg.10\).md)
+[JET_BKLOGTIME members](hh565503\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

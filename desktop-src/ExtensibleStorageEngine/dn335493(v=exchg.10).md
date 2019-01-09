@@ -56,14 +56,14 @@ public static void JetGetErrorInfo(
 #### Parameters
 
   - error  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
     
     The error code about which to retrieve information.
 
 <!-- end list -->
 
   - errinfo  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_ERRINFOBASIC](dn335334\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC](dn335334\(v=exchg.10\).md)  
     
     Information about the specified error code.
 

@@ -60,21 +60,21 @@ public static void JetGetInstanceMiscInfo(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to get information about.
 
 <!-- end list -->
 
   - signature  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SIGNATURE](hh564644\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SIGNATURE](hh564644\(v=exchg.10\).md)  
     
     Retrieved information.
 
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_InstanceMiscInfo](hh566355\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_InstanceMiscInfo](hh566355\(v=exchg.10\).md)  
     
     The type of information to retrieve.
 

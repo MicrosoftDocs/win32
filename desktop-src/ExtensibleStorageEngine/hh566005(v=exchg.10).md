@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_DBINFOMISC properties
+# JET_DBINFOMISC properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_DBINFOMISC](hh538867\(v=exchg.10\).md) type exposes the following members.
+The [JET_DBINFOMISC](hh538867\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -231,7 +231,7 @@ Top
 
 #### Reference
 
-[JET\_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

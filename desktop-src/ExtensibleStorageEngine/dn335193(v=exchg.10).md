@@ -27,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INSTANCE\_INFO.szDatabaseFileName property
+# JET_INSTANCE_INFO.szDatabaseFileName property
 
 Gets a collection of strings, each holding the file name of a database that is attached to the database instance. The array has cDatabases elements.
 
@@ -53,15 +53,15 @@ public IList<string> szDatabaseFileName { get; }
 
 #### Property value
 
-Type: [System.Collections.Generic.IList](http://msdn2.microsoft.com/en-us/library/5y536ey6)\<[String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)\>  
 
 ## See also
 
 #### Reference
 
-[JET\_INSTANCE\_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
 
-[JET\_INSTANCE\_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

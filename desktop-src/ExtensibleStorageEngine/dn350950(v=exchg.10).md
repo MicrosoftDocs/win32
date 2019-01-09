@@ -27,9 +27,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Instance Implicit conversion (Instance to JET\_INSTANCE)
+# Instance Implicit conversion (Instance to JET_INSTANCE)
 
-Provide implicit conversion of an Instance object to a JET\_INSTANCE structure. This is done so that an Instance can be used anywhere a JET\_INSTANCE is required.
+Provide implicit conversion of an Instance object to a JET_INSTANCE structure. This is done so that an Instance can be used anywhere a JET_INSTANCE is required.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -63,8 +63,8 @@ public static implicit operator JET_INSTANCE (
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
-The JET\_INSTANCE wrapped by the instance.  
+Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+The JET_INSTANCE wrapped by the instance.  
 
 ## See also
 

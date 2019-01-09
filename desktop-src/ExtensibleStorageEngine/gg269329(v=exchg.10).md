@@ -29,6 +29,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetMakeKey** function constructs search keys that may then be used to find a set of entries in an index by some simple search criteria on their key column values. A search key is also one of the intrinsic properties of a cursor and is used by the [JetSeek](gg294103\(v=exchg.10\).md) and [JetSetIndexRange](gg294112\(v=exchg.10\).md) operations to locate index entries matching these search criteria on the current index of that cursor. A complete search key is built up in a series of **JetMakeKey** calls where each call is used to load the column value for the next key column of the current index of a cursor. It is also possible to load a previously constructed search key that has been retrieved from the cursor using [JetRetrieveKey](gg294051\(v=exchg.10\).md).
 
+```cpp
     JET_ERR JET_API JetMakeKey(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -36,6 +37,7 @@ The **JetMakeKey** function constructs search keys that may then be used to find
       __in          unsigned long cbData,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -53,15 +55,15 @@ The input buffer containing the column data for the current key column of the cu
 
 The data type of the column data in the input buffer must exactly match the data type and other properties of the column definition of the current key column. No type coercion is performed on the column data whatsoever.
 
-If JET\_bitNormalizedKey is specified in the *grbit* parameter, the input buffer must contain a previously constructed search key. Such keys are obtained using a call to [JetRetrieveKey](gg294051\(v=exchg.10\).md).
+If JET_bitNormalizedKey is specified in the *grbit* parameter, the input buffer must contain a previously constructed search key. Such keys are obtained using a call to [JetRetrieveKey](gg294051\(v=exchg.10\).md).
 
 *cbData*
 
 The size in bytes of the column data provided in the input buffer.
 
-If JET\_bitNormalizedKey is specified in the *grbit* parameter, this is the size of the search key provided in the input buffer.
+If JET_bitNormalizedKey is specified in the *grbit* parameter, this is the size of the search key provided in the input buffer.
 
-If the size of the column data is zero then the contents of the input buffer are ignored. If JET\_bitKeyDataZeroLength is specified in the *grbit* parameter and the current key column of the current index of the cursor is a variable length column, the input column data is presumed to be a zero length value. Otherwise, the input column data is presumed to be a NULL value.
+If the size of the column data is zero then the contents of the input buffer are ignored. If JET_bitKeyDataZeroLength is specified in the *grbit* parameter and the current key column of the current index of the cursor is a variable length column, the input column data is presumed to be a zero length value. Otherwise, the input column data is presumed to be a NULL value.
 
 *grbit*
 
@@ -164,7 +166,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -244,9 +246,9 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 </table>
 
 
-On success, if JET\_bitNormalizedKey and JET\_bitNewKey were not specified, the search key will have been built up by the search criteria for one more key column in the current index. If JET\_bitNormalizedKey was not specified and JET\_bitNewKey was specified, any previously existing search key was discarded and a new one will have been built up by the search criteria for the first key column in the current index. If JET\_bitNormalizedKey was specified, any previously existing search key was discarded and a new one loaded from the input buffer. In any case, no change to the database state will occur.
+On success, if JET_bitNormalizedKey and JET_bitNewKey were not specified, the search key will have been built up by the search criteria for one more key column in the current index. If JET_bitNormalizedKey was not specified and JET_bitNewKey was specified, any previously existing search key was discarded and a new one will have been built up by the search criteria for the first key column in the current index. If JET_bitNormalizedKey was specified, any previously existing search key was discarded and a new one loaded from the input buffer. In any case, no change to the database state will occur.
 
-On failure, if JET\_bitNormalizedKey or JET\_bitNewKey was specified, the state of the search key is undefined. If neither JET\_bitNormalizedKey nor JET\_bitNewKey were specified, no change to the state of the search key will occur. In any case, no change to the database state will occur.
+On failure, if JET_bitNormalizedKey or JET_bitNewKey was specified, the state of the search key is undefined. If neither JET_bitNormalizedKey nor JET_bitNewKey were specified, no change to the state of the search key will occur. In any case, no change to the database state will occur.
 
 #### Remarks
 
@@ -256,9 +258,9 @@ Keys should be treated as opaque chunks of data. No attempt should be made to ex
 
   - It is meaningless to compare keys of index entries from different indexes against each other.
 
-  - A key is always less than or equal to JET\_cbKeyMost (255) bytes in length prior to Windows Vista. On Windows Vista and later releases, keys can be larger. The maximum size of a key is equal to the current value of JET\_paramKeyMost.
+  - A key is always less than or equal to JET_cbKeyMost (255) bytes in length prior to Windows Vista. On Windows Vista and later releases, keys can be larger. The maximum size of a key is equal to the current value of JET_paramKeyMost.
 
-Search keys can be one byte longer if a wildcard option was used. In that case, the search key will be up to JET\_cbLimitKeyMost (256) bytes for releases prior to Windows Vista and JET\_paramKeyMost + 1 bytes for Windows Vista and later releases.
+Search keys can be one byte longer if a wildcard option was used. In that case, the search key will be up to JET_cbLimitKeyMost (256) bytes for releases prior to Windows Vista and JET_paramKeyMost + 1 bytes for Windows Vista and later releases.
 
 There is a very important ramification to this maximum key size. Whenever there is an index entry that has column values that are large enough to cause a key to be generated for that index that would otherwise be larger than this maximum size, that key is silently truncated at that maximum size. This causes two effects:
 
@@ -266,7 +268,7 @@ There is a very important ramification to this maximum key size. Whenever there 
 
   - For entries in all indexes, key truncation will cause index entries that would otherwise not match the search criteria of a given search key to be declared as matches.
 
-Applications must anticipate this truncation and either avoid it or compensate for its effects. In Windows Vista, a new index flag, JET\_bitIndexDisallowTruncation, has been added to make it easier for applications to prevent key truncations. See the [JET\_INDEXCREATE](gg269186\(v=exchg.10\).md) structure for more information on this indexing option.
+Applications must anticipate this truncation and either avoid it or compensate for its effects. In Windows Vista, a new index flag, JET_bitIndexDisallowTruncation, has been added to make it easier for applications to prevent key truncations. See the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure for more information on this indexing option.
 
 #### Requirements
 
@@ -302,10 +304,10 @@ Applications must anticipate this truncation and either avoid it or compensate f
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetCreateIndex](gg294099\(v=exchg.10\).md)  
 [JetRetrieveKey](gg294051\(v=exchg.10\).md)  
 [JetSeek](gg294103\(v=exchg.10\).md)  

@@ -57,7 +57,7 @@ public override long Position { get; set; }
 
 #### Property value
 
-Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
 
 ## See also
 

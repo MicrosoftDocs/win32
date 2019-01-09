@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_COLUMNBASE Structure
+# JET_COLUMNBASE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_COLUMNBASE Structure
+## JET_COLUMNBASE Structure
 
-The **JET\_COLUMNBASE** structure describes the parameters of a base column. The [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) functions use the **JET\_COLUMNBASE** structure.
+The **JET_COLUMNBASE** structure describes the parameters of a base column. The [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) functions use the **JET_COLUMNBASE** structure.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       JET_COLUMNID columnid;
@@ -39,12 +40,13 @@ The **JET\_COLUMNBASE** structure describes the parameters of a base column. The
       tchar szBaseTableName[256];
       tchar szBaseColumnName[256];
     } JET_COLUMNBASE;
+```
 
 ### Members
 
 **cbStruct**
 
-The size of this structure, in bytes. Set **cbStruct** to sizeof( JET\_COLUMNBASE ).
+The size of this structure, in bytes. Set **cbStruct** to sizeof( JET_COLUMNBASE ).
 
 **columnid**
 
@@ -52,7 +54,7 @@ Reserved. Set **columnid** to 0 (zero).
 
 **coltyp**
 
-The type of the column (for example, text, binary, or numerical). For more information, see [JET\_COLTYP](gg269213\(v=exchg.10\).md).
+The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](gg269213\(v=exchg.10\).md).
 
 **wCountry**
 
@@ -185,7 +187,7 @@ The name of the column in the template table.
 
 ### Remarks
 
-**JET\_COLUMNBASE** contains much of the same information as [JET\_COLUMNDEF](gg294130\(v=exchg.10\).md), but it adds string fields to describe the base table (if a hierarchical DDL was used).
+**JET_COLUMNBASE** contains much of the same information as [JET_COLUMNDEF](gg294130\(v=exchg.10\).md), but it adds string fields to describe the base table (if a hierarchical DDL was used).
 
 ### Requirements
 
@@ -217,14 +219,14 @@ The name of the column in the template table.
 
 ### See Also
 
-[JET\_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET\_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET\_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)  
+[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
+[JET_COLTYP](gg269213\(v=exchg.10\).md)  
+[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)  
 [JetGetColumnInfo](gg269215\(v=exchg.10\).md)  
 [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)  
 [JetRenameColumn](gg269218\(v=exchg.10\).md)

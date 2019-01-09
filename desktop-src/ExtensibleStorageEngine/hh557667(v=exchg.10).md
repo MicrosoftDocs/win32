@@ -42,7 +42,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_TblInfo enumeration
+# JET_TblInfo enumeration
 
 Info levels for retrieving table info with JetGetTableInfo.
 

@@ -55,7 +55,7 @@ public JET_THREADSTATS ThreadStats { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET\_THREADSTATS](hh578565\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
 
 ## See also
 

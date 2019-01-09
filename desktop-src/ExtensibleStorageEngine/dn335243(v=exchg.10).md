@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTINFO.ToString method
+# JET_RSTINFO.ToString method
 
-Returns a [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET\_RSTINFO](dn335235\(v=exchg.10\).md).
+Returns a [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET_RSTINFO](dn335235\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,16 +51,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
-A [String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET\_RSTINFO](dn335235\(v=exchg.10\).md).  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+A [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) that represents the current [JET_RSTINFO](dn335235\(v=exchg.10\).md).  
 
 ## See also
 
 #### Reference
 
-[JET\_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
 
-[JET\_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

@@ -31,12 +31,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetDatabaseFileInfo** function retrieves various types of information about the database. This API can be called while a database is attached or online (with [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md)) or while the database or database engine is offline (with **JetGetDatabaseFileInfo**).
 
+```cpp
     JET_ERR JET_API JetGetDatabaseFileInfo(
       __in          const tchar* szDatabaseName,
       __out         void* pvResult,
       __in          unsigned long cbMax,
       __in          unsigned long InfoLevel
     );
+```
 
 ### Parameters
 
@@ -60,7 +62,7 @@ The size, in bytes, of the buffer passed in *pvResult*.
 
 *InfoLevel* specifies which type of information should be retrieved about the specified database. It affects how *pvResult* is interpreted. Some *InfoLevel* objects are available only in the offline (**JetGetDatabaseFileInfo**) or online ([JetGetDatabaseInfo](gg294076\(v=exchg.10\).md)) version of the API.
 
-If the *pvResult* buffer provided is too small, either JET\_errInvalidBufferSize or JET\_errBufferTooSmall will be returned, depending on the *InfoLevel*.
+If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize or JET_errBufferTooSmall will be returned, depending on the *InfoLevel*.
 
 <table>
 <colgroup>
@@ -164,7 +166,7 @@ If the *pvResult* buffer provided is too small, either JET\_errInvalidBufferSize
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -244,8 +246,8 @@ If this function fails, the output buffer will be in an undefined state.
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_DBINFOMISC](gg294147\(v=exchg.10\).md)  
-[JET\_DBINFOUPGRADE](gg294114\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)  
+[JET_DBINFOUPGRADE](gg294114\(v=exchg.10\).md)  
 [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md)
 

@@ -32,9 +32,9 @@ This class provides a streaming interface to a long-value column (i.e. a column 
 
 ## Inheritance hierarchy
 
-[System.Object](http://msdn2.microsoft.com/en-us/library/e5kfa45b)  
-  [System.MarshalByRefObject](http://msdn2.microsoft.com/en-us/library/w4302s1f)  
-    [System.IO.Stream](http://msdn2.microsoft.com/en-us/library/8f86tw9e)  
+[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+  [System.MarshalByRefObject](https://msdn.microsoft.com/en-us/library/w4302s1f)  
+    [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e)  
       Microsoft.Isam.Esent.Interop.ColumnStream  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

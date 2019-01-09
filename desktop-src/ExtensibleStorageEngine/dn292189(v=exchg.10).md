@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.JetGetTableColumnInfo method (JET\_SESID, JET\_TABLEID, String, JET\_COLUMNLIST)
+# Api.JetGetTableColumnInfo method (JET_SESID, JET_TABLEID, String, JET_COLUMNLIST)
 
 Retrieves information about all columns in the table.
 
@@ -59,28 +59,28 @@ public static void JetGetTableColumnInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The table containing the column.
 
 <!-- end list -->
 
   - columnName  
-    Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
     
     The parameter is ignored.
 
 <!-- end list -->
 
   - columnlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_COLUMNLIST](dn335047\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNLIST](dn335047\(v=exchg.10\).md)  
     
     Filled in with information about the columns in the table.
 

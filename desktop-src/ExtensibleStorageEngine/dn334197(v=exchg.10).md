@@ -69,14 +69,14 @@ public override void Write(
 <!-- end list -->
 
   - offset  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The offset in the buffer to write.
 
 <!-- end list -->
 
   - count  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     The number of bytes to write.
 

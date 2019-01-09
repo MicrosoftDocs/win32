@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_RSTINFO.logtimeStop property
+# JET_RSTINFO.logtimeStop property
 
 Gets or sets the time at which it stopped.
 
@@ -57,15 +57,15 @@ public JET_LOGTIME logtimeStop { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET\_LOGTIME](hh557188\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](hh557188\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
 
-[JET\_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

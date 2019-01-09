@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEXID.ToString method
+# JET_INDEXID.ToString method
 
 Generate a string representation of the structure.
 
@@ -51,16 +51,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The structure as a string.  
 
 ## See also
 
 #### Reference
 
-[JET\_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
 
-[JET\_INDEXID members](hh565743\(v=exchg.10\).md)
+[JET_INDEXID members](hh565743\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

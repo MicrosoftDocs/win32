@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ERRINFOBASIC.errcat property
+# JET_ERRINFOBASIC.errcat property
 
 Gets or sets the category of the error.
 
@@ -57,15 +57,15 @@ public JET_ERRCAT errcat { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_ERRCAT](dn335469\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRCAT](dn335469\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
 
-[JET\_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

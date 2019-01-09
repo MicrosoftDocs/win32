@@ -29,7 +29,9 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetTruncateLog** function is used during a backup that is initiated by [JetBeginExternalBackup](gg269292\(v=exchg.10\).md) to delete any transaction log files that will no longer be needed once the current backup completes successfully.
 
+```cpp
     JET_ERR JET_API JetTruncateLog(void);
+```
 
 ### Parameters
 
@@ -37,7 +39,7 @@ This function has no parameters.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -142,8 +144,8 @@ If this function fails, the backup state machine can be advanced such that the b
 
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
 [JetOpenFile](gg269249\(v=exchg.10\).md)  
 [JetStopBackup](gg294067\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)

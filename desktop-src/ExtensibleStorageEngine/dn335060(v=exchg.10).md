@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_CONDITIONALCOLUMN.grbit property
+# JET_CONDITIONALCOLUMN.grbit property
 
 Gets or sets the options for the conditional index.
 
@@ -63,9 +63,9 @@ Type: [Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit](hh578990\(v=exchg.10
 
 #### Reference
 
-[JET\_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
 
-[JET\_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

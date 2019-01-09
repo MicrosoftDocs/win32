@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetTerm method
 
-Terminate an instance that was created with [JetInit(JET\_INSTANCE)](dn292210\(v=exchg.10\).md) or [JetCreateInstance(JET\_INSTANCE, String)](dn292122\(v=exchg.10\).md).
+Terminate an instance that was created with [JetInit(JET_INSTANCE)](dn292210\(v=exchg.10\).md) or [JetCreateInstance(JET_INSTANCE, String)](dn292122\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,7 +53,7 @@ public static void JetTerm(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
     
     The instance to terminate.
 

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_HANDLE.ToString method
+# JET_HANDLE.ToString method
 
 Generate a string representation of the structure.
 
@@ -47,16 +47,16 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
 The structure as a string.  
 
 ## See also
 
 #### Reference
 
-[JET\_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
 
-[JET\_HANDLE members](hh557479\(v=exchg.10\).md)
+[JET_HANDLE members](hh557479\(v=exchg.10\).md)
 
 [ToString overload](hh557848\(v=exchg.10\).md)
 

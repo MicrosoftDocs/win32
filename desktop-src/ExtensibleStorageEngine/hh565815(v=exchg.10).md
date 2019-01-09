@@ -36,9 +36,9 @@ ROBOTS: INDEX,FOLLOW
 
 # GetRecordSizeGrbit enumeration
 
-Options for [JetGetRecordSize(JET\_SESID, JET\_TABLEID, JET\_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md).
+Options for [JetGetRecordSize(JET_SESID, JET_TABLEID, JET_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md).
 
-This enumeration has a [FlagsAttribute](http://msdn2.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

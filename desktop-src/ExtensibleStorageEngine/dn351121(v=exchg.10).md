@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_UNICODEINDEX.dwMapFlags property
+# JET_UNICODEINDEX.dwMapFlags property
 
 Gets or sets the flags to be used with LCMapString when normalizing unicode data.
 
@@ -61,15 +61,15 @@ public uint dwMapFlags { get; set; }
 
 #### Property value
 
-Type: [System.UInt32](http://msdn2.microsoft.com/en-us/library/ctys3981)  
+Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981)  
 
 ## See also
 
 #### Reference
 
-[JET\_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
 
-[JET\_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
+[JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

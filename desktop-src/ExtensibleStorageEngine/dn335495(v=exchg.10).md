@@ -63,14 +63,14 @@ public static void JetSetSessionParameter(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to set the parameter on.
 
 <!-- end list -->
 
   - sesparamid  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_sesparam](dn335486\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam](dn335486\(v=exchg.10\).md)  
     
     The ID of the session parameter to set.
 
@@ -84,7 +84,7 @@ public static void JetSetSessionParameter(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
     
     Size of the data provided.
 

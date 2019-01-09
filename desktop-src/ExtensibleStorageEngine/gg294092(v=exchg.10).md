@@ -17,22 +17,22 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_ERR
+# JET_ERR
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_ERR
+## JET_ERR
 
-The **JET\_ERR** data type contains an [Extensible Storage Engine error code](gg269297\(v=exchg.10\).md).
+The **JET_ERR** data type contains an [Extensible Storage Engine error code](gg269297\(v=exchg.10\).md).
 
     typedef long JET_ERR;
 
 ### Data Types
 
-JET\_ERR
+JET_ERR
 
-A zero value (corresponding to JET\_errSuccess) indicates that the call succeeded. A positive value warns of a non-fatal condition that occurred during an otherwise successful call. A negative value indicates that the call failed.
+A zero value (corresponding to JET_errSuccess) indicates that the call succeeded. A positive value warns of a non-fatal condition that occurred during an otherwise successful call. A negative value indicates that the call failed.
 
 ### Remarks
 

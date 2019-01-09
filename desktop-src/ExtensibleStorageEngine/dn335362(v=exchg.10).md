@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_INDEX\_RANGE.endColumns property
+# JET_INDEX_RANGE.endColumns property
 
 Gets or sets the column values for the end of the index.
 
@@ -63,9 +63,9 @@ Type: \[\]
 
 #### Reference
 
-[JET\_INDEX\_RANGE class](dn335481\(v=exchg.10\).md)
+[JET_INDEX_RANGE class](dn335481\(v=exchg.10\).md)
 
-[JET\_INDEX\_RANGE members](dn335359\(v=exchg.10\).md)
+[JET_INDEX_RANGE members](dn335359\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
 

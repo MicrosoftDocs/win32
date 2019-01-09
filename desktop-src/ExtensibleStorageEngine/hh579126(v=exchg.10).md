@@ -8,12 +8,12 @@ ms.date: 07/30/2014
 ms.topic: article
 ---
 
-# JET\_TABLEID properties
+# JET_TABLEID properties
 
 Include protected members  
 Include inherited members  
 
-The [JET\_TABLEID](hh566310\(v=exchg.10\).md) type exposes the following members.
+The [JET_TABLEID](hh566310\(v=exchg.10\).md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +41,7 @@ Top
 
 #### Reference
 
-[JET\_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

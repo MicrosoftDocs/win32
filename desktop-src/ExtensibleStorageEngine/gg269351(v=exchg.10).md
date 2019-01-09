@@ -26,15 +26,15 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine Constants section contains the following sections:
 
-  - [JET\_CBTYP](gg294071\(v=exchg.10\).md)
+  - [JET_CBTYP](gg294071\(v=exchg.10\).md)
 
-  - [JET\_COLTYP](gg269213\(v=exchg.10\).md)
+  - [JET_COLTYP](gg269213\(v=exchg.10\).md)
 
-  - [JET\_OBJTYP](gg269312\(v=exchg.10\).md)
+  - [JET_OBJTYP](gg269312\(v=exchg.10\).md)
 
-  - [JET\_SNP](gg269311\(v=exchg.10\).md)
+  - [JET_SNP](gg269311\(v=exchg.10\).md)
 
-  - [JET\_SNT](gg269294\(v=exchg.10\).md)
+  - [JET_SNT](gg269294\(v=exchg.10\).md)
 
   - [Error Handling Constants](gg269258\(v=exchg.10\).md)
 

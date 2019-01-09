@@ -54,7 +54,7 @@ The path or directory for the logs for the final phase (undo) of recovery, and p
 
 *rgrstmap*
 
-This is an array of [JET\_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of databases to restore.
+This is an array of [JET_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of databases to restore.
 
 *crstfilemap*
 
@@ -78,7 +78,7 @@ The status callback, to report progress of the recovery.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -156,7 +156,7 @@ Phase III: In the final phase of recovery, any uncommitted transactions are roll
 
 To understand how the paths work, use this flow chart:
 
-![ESE\_Documentation\_ese1](images/Gg294088.ESE_Documentation_ese1(EXCHG.10).gif "ESE_Documentation_ese1")
+![ESE_Documentation_ese1](images/Gg294088.ESE_Documentation_ese1(EXCHG.10).gif "ESE_Documentation_ese1")
 
 #### Requirements
 
@@ -196,10 +196,10 @@ To understand how the paths work, use this flow chart:
 
 #### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET\_RSTMAP](gg294077\(v=exchg.10\).md)  
-[JET\_LOGINFO](gg294063\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
+[JET_RSTMAP](gg294077\(v=exchg.10\).md)  
+[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
 [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)
 

@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Transaction.Commit method (CommitTransactionGrbit, TimeSpan, JET\_COMMIT\_ID)
+# Transaction.Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)
 
 Commit a transaction. This object should be in a transaction.
 
@@ -66,14 +66,14 @@ public void Commit(
 <!-- end list -->
 
   - durableCommit  
-    Type: [System.TimeSpan](http://msdn2.microsoft.com/en-us/library/269ew577)  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
     
     Duration for committing lazy transactions.
 
 <!-- end list -->
 
   - commitId  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET\_COMMIT\_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
     
     Commit-id for this commit record.
 

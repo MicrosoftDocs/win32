@@ -29,6 +29,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetEscrowUpdate** function performs an atomic addition operation on one column. This function allows multiple sessions to update the same record concurrently without conflicts.
 
+```cpp
     JET_ERR JET_API JetEscrowUpdate(
       __in          JET_SESID sesid,
       __in          JET_TABLEID tableid,
@@ -40,6 +41,7 @@ The **JetEscrowUpdate** function performs an atomic addition operation on one co
       __out_opt     unsigned long* pcbOldActual,
       __in          JET_GRBIT grbit
     );
+```
 
 ### Parameters
 
@@ -69,7 +71,7 @@ The output buffer that will receive the current value of the column as stored in
 
 *cbOldMax*
 
-The maximum size of the output buffer that will receive the current value of the column. Currently only JET\_coltypLong is supported, so the buffer must either be 4 bytes or 0 bytes in length. If *pvOld* is NULL then *cbOldMax* should be 0.
+The maximum size of the output buffer that will receive the current value of the column. Currently only JET_coltypLong is supported, so the buffer must either be 4 bytes or 0 bytes in length. If *pvOld* is NULL then *cbOldMax* should be 0.
 
 *pcbOldActual*
 
@@ -101,7 +103,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -181,7 +183,7 @@ This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with on
 
 #### Remarks
 
-Normally, if two sessions attempt to update a record simultaneously, the second session will receive a JET\_errWriteConflict error unless the sessions are completely serialized. To serialize two sessions that update the same record, the second session must start its transaction after the first transaction commits its transaction. See [JetBeginTransaction](gg294083\(v=exchg.10\).md) for more information.
+Normally, if two sessions attempt to update a record simultaneously, the second session will receive a JET_errWriteConflict error unless the sessions are completely serialized. To serialize two sessions that update the same record, the second session must start its transaction after the first transaction commits its transaction. See [JetBeginTransaction](gg294083\(v=exchg.10\).md) for more information.
 
 Multiple columns in the same record can be escrow updated. The updates do not affect each other.
 
@@ -231,7 +233,7 @@ Only **JetEscrowUpdate** operations are compatible with each other. If two diffe
 </table>
 
 
-Escrow operations are versioned and are undone using [JetRollback](gg269273\(v=exchg.10\).md) (unless JET\_bitEscrowNoRollback was specified). **JetEscrowUpdate** returns the raw value of the column stored in the database, because an application may want to perform a special action when a sentinel value is hit. [JetRetrieveColumn](gg269198\(v=exchg.10\).md) returns the correctly versioned view of the column, ignoring updates made by concurrent sessions.
+Escrow operations are versioned and are undone using [JetRollback](gg269273\(v=exchg.10\).md) (unless JET_bitEscrowNoRollback was specified). **JetEscrowUpdate** returns the raw value of the column stored in the database, because an application may want to perform a special action when a sentinel value is hit. [JetRetrieveColumn](gg269198\(v=exchg.10\).md) returns the correctly versioned view of the column, ignoring updates made by concurrent sessions.
 
 Given two sessions operating on the same column of the same record, we can see how this works. Assume the column starts with a value of 0.
 
@@ -339,9 +341,9 @@ Given two sessions operating on the same column of the same record, we can see h
 </table>
 
 
-Replacing a record in the same transaction that performs escrow updates to a record is not recommended. In particular, if an update on a record is prepared with one [JET\_TABLEID](gg269182\(v=exchg.10\).md) and a different [JET\_TABLEID](gg269182\(v=exchg.10\).md) is used to escrow update the record then the escrow updated will be lost when [JetUpdate](gg269288\(v=exchg.10\).md) is called. This happens even if the escrow column was not set during the update.
+Replacing a record in the same transaction that performs escrow updates to a record is not recommended. In particular, if an update on a record is prepared with one [JET_TABLEID](gg269182\(v=exchg.10\).md) and a different [JET_TABLEID](gg269182\(v=exchg.10\).md) is used to escrow update the record then the escrow updated will be lost when [JetUpdate](gg269288\(v=exchg.10\).md) is called. This happens even if the escrow column was not set during the update.
 
-When an escrow updateable column has a value of zero, special behavior can be triggered. This behavior only happens if a **JetEscrowUpdate** operation causes the column to have a value of zero. The action does not happen immediately, but occurs sometime after the transaction which caused the column to have a value of zero commits. The column must still have a value of zero (that is, if no other sessions have modified the column). If the column was created with JET\_bitColumnDeleteOnZero, the record containing the column will be deleted. If the column was created with JET\_bitColumnFinalize then a callback will be issued. A crash may cause these actions not to happen, but online maintenance (using the [JetDefragment](gg269317\(v=exchg.10\).md) function) will correctly redo the actions.
+When an escrow updateable column has a value of zero, special behavior can be triggered. This behavior only happens if a **JetEscrowUpdate** operation causes the column to have a value of zero. The action does not happen immediately, but occurs sometime after the transaction which caused the column to have a value of zero commits. The column must still have a value of zero (that is, if no other sessions have modified the column). If the column was created with JET_bitColumnDeleteOnZero, the record containing the column will be deleted. If the column was created with JET_bitColumnFinalize then a callback will be issued. A crash may cause these actions not to happen, but online maintenance (using the [JetDefragment](gg269317\(v=exchg.10\).md) function) will correctly redo the actions.
 
 #### Requirements
 
@@ -377,11 +379,11 @@ When an escrow updateable column has a value of zero, special behavior can be tr
 
 #### See Also
 
-[JET\_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetBeginTransaction](gg294083\(v=exchg.10\).md)  
 [JetDefragment](gg269317\(v=exchg.10\).md)  
 [JetPrepareUpdate](gg269339\(v=exchg.10\).md)  

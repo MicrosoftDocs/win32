@@ -22,9 +22,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# Api.MakeKey method (JET\_SESID, JET\_TABLEID, Single, MakeKeyGrbit)
+# Api.MakeKey method (JET_SESID, JET_TABLEID, Single, MakeKeyGrbit)
 
-Constructs a search key that may then be used by [JetSeek(JET\_SESID, JET\_TABLEID, SeekGrbit)](dn334003\(v=exchg.10\).md) and [JetSetIndexRange(JET\_SESID, JET\_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md).
+Constructs a search key that may then be used by [JetSeek(JET_SESID, JET_TABLEID, SeekGrbit)](dn334003\(v=exchg.10\).md) and [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,21 +59,21 @@ public static void MakeKey(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
     
     The cursor to create the key on.
 
 <!-- end list -->
 
   - data  
-    Type: [System.Single](http://msdn2.microsoft.com/en-us/library/3www918f)  
+    Type: [System.Single](https://msdn.microsoft.com/en-us/library/3www918f)  
     
     Column data for the current key column of the current index.
 

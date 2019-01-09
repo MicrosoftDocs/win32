@@ -31,6 +31,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetSetSystemParameter** function is used to set the numerous configuration settings of the database engine.
 
+```cpp
     JET_ERR JET_API JetSetSystemParameter(
       __in_out_opt  JET_INSTANCE* pinstance,
       __in          JET_SESID sesid,
@@ -38,6 +39,7 @@ The **JetSetSystemParameter** function is used to set the numerous configuration
       __in          JET_API_PTR lParam,
       __in_opt      JET_PCSTR szParam
     );
+```
 
 ### Parameters
 
@@ -71,7 +73,7 @@ Provides the value for the selected system parameter if that system parameter is
 
 ### Return Value
 
-This function returns the [JET\_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
 
 <table>
 <colgroup>
@@ -213,10 +215,10 @@ Every system parameter has a default value. These default values have evolved ov
 
 #### See Also
 
-[JET\_API\_PTR](gg269209\(v=exchg.10\).md)  
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
+[JET_API_PTR](gg269209\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
 [JetCreateInstance](gg269354\(v=exchg.10\).md)  
 [JetGetSystemParameter](gg269291\(v=exchg.10\).md)  
 [JetInit](gg294068\(v=exchg.10\).md)  

@@ -17,15 +17,16 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_DBINFOUPGRADE Structure
+# JET_DBINFOUPGRADE Structure
 
 
 _**Applies to:** Windows | Windows Server_
 
-## JET\_DBINFOUPGRADE Structure
+## JET_DBINFOUPGRADE Structure
 
-The **JET\_DBINFOUPGRADE** structure holds information about the upgrade status of the database. This value is retrieved only if **JET\_DBINFOUPGRADE** was passed to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md). This structure is not required for current operating system versions of the database engine.
+The **JET_DBINFOUPGRADE** structure holds information about the upgrade status of the database. This value is retrieved only if **JET_DBINFOUPGRADE** was passed to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md). This structure is not required for current operating system versions of the database engine.
 
+```cpp
     typedef struct {
       unsigned long cbStruct;
       unsigned long cbFilesizeLow;
@@ -41,12 +42,13 @@ The **JET\_DBINFOUPGRADE** structure holds information about the upgrade status 
         };
       };
     } JET_DBINFOUPGRADE;
+```
 
 ### Members
 
 **cbStruct**
 
-Set to the size of the **JET\_DBINFOUPGRADE** structure, in bytes.
+Set to the size of the **JET_DBINFOUPGRADE** structure, in bytes.
 
 **cbFilesizeLow**
 
@@ -82,7 +84,7 @@ The database is upgraded to the current database format.
 
 ### Remarks
 
-A **JET\_DBINFOUPGRADE** structure is populated by a call to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md). If the function does not succeed, the contents of the structure are undefined.
+A **JET_DBINFOUPGRADE** structure is populated by a call to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md). If the function does not succeed, the contents of the structure are undefined.
 
 ### Requirements
 
@@ -110,10 +112,10 @@ A **JET\_DBINFOUPGRADE** structure is populated by a call to [JetGetDatabaseInfo
 
 ### See Also
 
-[JET\_ERR](gg294092\(v=exchg.10\).md)  
-[JET\_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET\_SESID](gg269253\(v=exchg.10\).md)  
-[JET\_TABLEID](gg269182\(v=exchg.10\).md)  
+[JET_ERR](gg294092\(v=exchg.10\).md)  
+[JET_GRBIT](gg294066\(v=exchg.10\).md)  
+[JET_SESID](gg269253\(v=exchg.10\).md)  
+[JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
 [JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  

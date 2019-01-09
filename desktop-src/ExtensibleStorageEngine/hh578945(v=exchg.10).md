@@ -26,9 +26,9 @@ ROBOTS: INDEX,FOLLOW
 
 ---
 
-# JET\_LOGTIME.ToDateTime method
+# JET_LOGTIME.ToDateTime method
 
-Generate a DateTime representation of this JET\_LOGTIME.
+Generate a DateTime representation of this JET_LOGTIME.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,20 +51,20 @@ public Nullable<DateTime> ToDateTime()
 
 #### Return value
 
-Type: [System.Nullable](http://msdn2.microsoft.com/en-us/library/b3h38hb0)\<[DateTime](http://msdn2.microsoft.com/en-us/library/03ybds8y)\>  
-A DateTime representing the JET\_LOGTIME. If the JET\_LOGTIME is null then null is returned.  
+Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)\>  
+A DateTime representing the JET_LOGTIME. If the JET_LOGTIME is null then null is returned.  
 
 #### Implements
 
-[IJET\_LOGTIME.ToDateTime()](hh577639\(v=exchg.10\).md)  
+[IJET_LOGTIME.ToDateTime()](hh577639\(v=exchg.10\).md)  
 
 ## See also
 
 #### Reference
 
-[JET\_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
 
-[JET\_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 

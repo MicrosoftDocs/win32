@@ -26,8 +26,9 @@ _**Applies to:** Windows | Windows Server_
 
 This topic contains parameters that are used for backup and restore.
 
-JET\_paramAlternateDatabaseRecoveryPath  
+*JET_paramAlternateDatabaseRecoveryPath*  
 113  
+
 The full path to each database is persisted in the transaction logs at run time. Ordinarily, these databases must remain at the original location for transaction replay to function correctly. This parameter can be used to force crash recovery or a restore operation to look for the databases referenced in the transaction log in the specified folder.
 
 <table>
@@ -84,9 +85,10 @@ The full path to each database is persisted in the transaction logs at run time.
 </table>
 
 
-JET\_paramCleanupMismatchedLogFiles  
+*JET_paramCleanupMismatchedLogFiles*  
 77  
-This parameter controls the outcome of [JetInit](gg294068\(v=exchg.10\).md) when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit](gg294068\(v=exchg.10\).md) will successfully recover the databases but will fail with JET\_errLogFileSizeMismatchDatabasesConsistent to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size, and return JET\_errSuccess.
+
+This parameter controls the outcome of [JetInit](gg294068\(v=exchg.10\).md) when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit](gg294068\(v=exchg.10\).md) will successfully recover the databases but will fail with JET_errLogFileSizeMismatchDatabasesConsistent to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size, and return JET_errSuccess.
 
 This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
 
@@ -144,8 +146,9 @@ This parameter is useful when the application wishes to transparently change its
 </table>
 
 
-JET\_paramDeleteOutOfRangeLogs  
+*JET_paramDeleteOutOfRangeLogs*  
 52  
+
 When this parameter is true, then any transaction log files found on disk that are not part of the current sequence of log files will be deleted by [JetInit](gg294068\(v=exchg.10\).md). This may be used to automatically clean up extraneous log files after a restore operation.
 
 **Windows XP:**  Introduced in Windows XP.
@@ -204,8 +207,9 @@ When this parameter is true, then any transaction log files found on disk that a
 </table>
 
 
-JET\_paramOSSnapshotTimeout  
+*JET_paramOSSnapshotTimeout*  
 82  
+
 This parameter configures the amount of time allowed between a call to [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) and [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) before a timeout occurs. Please see [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) and [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) for more information. The timeout is in milliseconds.
 
 <table>
@@ -263,8 +267,9 @@ This parameter configures the amount of time allowed between a call to [JetOSSna
 </table>
 
 
-JET\_paramZeroDatabaseDuringBackup  
+*JET_paramZeroDatabaseDuringBackup*  
 71  
+
 When this parameter is true then every page in a database that is undergoing a streaming backup will be scrubbed of deleted data. It is important to note that the database pages that are being scrubbed are on disk. The full data set is backed up prior to the scrub process.
 
 <table>
