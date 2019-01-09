@@ -28,7 +28,7 @@ Use the following Background Intelligent Transfer Service (BITS) interfaces to [
 | [**IBackgroundCopyJob4**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4) | Enables peer caching, restrict download time, and inspect user token characteristics. |
 | [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5) | Queries or sets several optional behaviors of a job. |
 | [**IBackgroundCopyJobHttpOptions**](/windows/desktop/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions) | Specifies client certificates for certificate-based client authentication and custom headers for HTTP requests. |
-| [**IBackgroundCopyJobHttpOptions2**](/windows/desktop/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions) | Use this interface to retrieve and/or to override the HTTP method used for a BITS transfer. |
+| [**IBackgroundCopyJobHttpOptions2**](/windows/desktop/api/Bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2) | Use this interface to retrieve and/or to override the HTTP method used for a BITS transfer. |
 | [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) | Creates transfer jobs, retrieves an enumerator object of jobs in the queue, and retrieves individual jobs from the queue. |
 | [**IBitsPeer**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeer) | Gets information about a peer in the neighborhood. |
 | [**IBitsPeerCacheAdministration**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeercacheadministration) | Manage the pool of peers from which you can download content. |
