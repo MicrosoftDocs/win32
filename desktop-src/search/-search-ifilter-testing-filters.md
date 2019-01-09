@@ -12,26 +12,24 @@ The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) tes
 
 This topic is organized as follows:
 
--   [Command-Line Invocation](#command-line-invocation)
-    -   [ifilttst.exe](#ifilttstexe)
-    -   [filtdump.exe](#filtdumpexe)
-    -   [filtreg.exe](#filtregexe)
-    -   [ifilttst.ini](#ifilttstini)
--   [IFilter Test Procedure](#ifilter-test-procedure)
-    -   [Validation Test](#validation-test)
-    -   [Consistency Test](#consistency-test)
-    -   [Invalid Input Test](#invalid-input-test)
-    -   [Testing Different IFilter Configurations](#testing-different-ifilter-configurations)
--   [Ensuring Registered Items Get Indexed](#ensuring-registered-items-get-indexed)
-    -   [Sample Log File](#sample-log-file)
-    -   [Sample Dump File](#sample-dump-file)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [Command-Line Invocation](#command-line-invocation)
+  - [ifilttst.exe](#ifilttstexe)
+  - [filtdump.exe](#filtdumpexe)
+  - [filtreg.exe](#filtregexe)
+  - [ifilttst.ini](#ifilttstini)
+- [IFilter Test Procedure](#ifilter-test-procedure)
+  - [Validation Test](#validation-test)
+  - [Consistency Test](#consistency-test)
+  - [Invalid Input Test](#invalid-input-test)
+  - [Testing Different IFilter Configurations](#testing-different-ifilter-configurations)
+- [Ensuring Registered Items Get Indexed](#ensuring-registered-items-get-indexed)
+  - [Sample Log File](#sample-log-file)
+  - [Sample Dump File](#sample-dump-file)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
-> [!Note]  
+> [!NOTE]  
 > If a new filter handler for a file type is being installed as a replacement for an existing filter registration, the installer should save the current registration and restore it if the new filter handler is uninstalled. There is no mechanism to chain filters. Hence, the new filter handler is responsible for replicating any necessary functionality of the old filter.
-
- 
 
 ## Command-Line Invocation
 
@@ -39,8 +37,6 @@ The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) tes
 
 > [!IMPORTANT]
 > In Windows 7 and later, filters written in managed code are explicitly blocked. Filters MUST be written in native code due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in.
-
- 
 
 ### ifilttst.exe
 
@@ -51,18 +47,14 @@ The ifilttst.exe program runs several tests to validate a filter handler. The fo
 ifilttst /i test.htm /l /d /v 1
 ```
 
-
-
 The example performs the following tasks:
 
--   Directs the program to filter the file test.htm
--   Redirects the log messages to test.htm.log
--   Redirects the dump messages to test.htm.dmp
--   Sets the verbosity to 1
+- Directs the program to filter the file test.htm
+- Redirects the log messages to test.htm.log
+- Redirects the dump messages to test.htm.dmp
+- Sets the verbosity to 1
 
 For the preceding command to work, three files must be located in the current working directory: `test.htm`, [ifilttst.exe](#ifilttstexe), and [ifilttst.ini](#ifilttstini). Command-line switches are listed in the following table.
-
-
 
 <table>
 <colgroup>
@@ -121,45 +113,29 @@ For the preceding command to work, three files must be located in the current wo
 </tbody>
 </table>
 
-
-
- 
-
-> [!Note]  
+> [!NOTE]  
 > You must include a space between the command line switch and the value.
-
- 
 
 ### filtdump.exe
 
 The filtdump.exe program loads a filter handler for a specified document and prints the output produced by the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL. The following example illustrates how to invoke the filtdump.exe program.
 
-
 ```
 filtdump filename.ext
 ```
-
-
-
 Filtdump.exe uses the [ILoadFilter::LoadIFilter](/windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilter) method to load the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL appropriate for the specified file name extension and prints the results. For example, the following command instructs filtdump.exe to load the smpfilt.dll filter handler for the extension .smp, extract all text and properties from the file myfile.smp, and print the results.
-
 
 ```
 filtdump myfile.smp
 ```
 
-
-
 ### filtreg.exe
 
 The filtreg.exe program inspects [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) installation information in the registry. You invoke the filtreg.exe program from the command line by typing its name, as in the following example.
 
-
 ```
 filtreg
 ```
-
-
 
 Filtreg.exe enumerates all file name extensions that have filter handlers associated with them by printing the file name extension and the name of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL for the extension. This is a simple way to verify the correct installation of an **IFilter**.
 
@@ -167,87 +143,73 @@ Filtreg.exe enumerates all file name extensions that have filter handlers associ
 
 An [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface is initialized by calling the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method. The **IFilter::Init** method takes the following four parameters:
 
-1.  *grfFlags*
-2.  *cAttributes*
-3.  *aAttributes*
-4.  *pdwFlags*
+1. *grfFlags*
+2. *cAttributes*
+3. *aAttributes*
+4. *pdwFlags*
 
 The user of the ifilttst.exe program of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) test suite can specify the values for these parameters in a file called ifilttst.ini. The following table describes the entries in the ifilttst.ini file that specify the first three parameters(the input parameters). For a sample file, see [Sample ifilttst.ini File](#sample-ifilttstini-file).
 
-> [!Note]  
+> [!NOTE]  
 > There is no table entry for the *pdwFlags* parameter because it is an output parameter; it does not need to have any special value prior to the call to the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method.
 
- 
-
-
-
-| Entry         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+ | Entry         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Flags         | The names of the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) flags that are to be joined by the OR operator to form the *grfFlags* parameter of the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method. The flag names must all be uppercase, and on the same line.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | *cAttributes* | A decimal integer representing the value of the *cAttributes* parameter.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | *aAttributes* | This entry must start with *aAttributes* and must be different from the other *aAttributes* entries within the section. Legal names for the *aAttributes* entry are: *aAttributes*, *aAttributes1*, *aAttributes2*, and so forth. The first token must be a GUID. The GUID must be formatted exactly as illustrated in the `[Test3]` section of the [Sample ifilttst.ini File](#sample-ifilttstini-file). The second token can be either a property identifier (PID) consisting of a number in hexadecimal notation, or a pointer to a wide character string (lpwstr). A lpwstr can be specified by enclosing the string in double quotes, as illustrated in the `[Test6]` section of the Sample ifilttst.ini File. |
 
-
-
- 
-
 If the Flags and *cAttributes* entries are not specified, they default to 0. If you set *cAttributes* equal to 2, you should specify two *aAttributes* names. In the `[Test5]` section of the sample, *cAttributes* is 1, but no *aAttributes* have been specified. The test then calls the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method with *cAttributes* equal to 1 and *aAttributes* equal to **NULL**. This is a useful test case because it is likely to cause an access violation in the **IFilter::Init** method.
 
 If ifilttst.exe cannot find a file named ifilttst.ini in the working directory, a default configuration is used to initialize the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) object. The following example illustrates the default configuration.
 
-
 ```
 [default]
-            grfFlags = IFILTER_INIT_APPLY_INDEX_ATTRIBUTES 
+            grfFlags = IFILTER_INIT_APPLY_INDEX_ATTRIBUTES
             cAttributes = 0
-            
+
 ```
-
-
 
 ### Sample ifilttst.ini File
 
 The ifilttst.ini file is organized in sections, with the section name enclosed in square brackets. In the example, the sections are named `[Test1]`, `[Test2]`, and so forth. All section names must be unique. The test reads the values from the first section and initializes the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) with those values. Then all the tests are run using this **IFilter** configuration. Then the **IFilter** is released and reinitialized, using parameters that are listed above. The process is repeated until all configurations are tested.
 
-
 ```
 ; Only extract text from the object
             [Test1]
-            Flags = 
+            Flags =
             cAttributes = 0
-             
+
             // Get all attributes (text-type and internal value-type properties.
             [Test2]
             Flags = IFILTER_INIT_APPLY_INDEX_ATTRIBUTES
             cAttributes = 0
-             
-            // This also extracts just text from the object (the GUID is PSGUID_STORAGE, and the propid is 
+
+            // This also extracts just text from the object (the GUID is PSGUID_STORAGE, and the propid is
             // PID_STG_CONTENTS).
             [Test3]
-            Flags = IFILTER_INIT_CANON_PARAGRAPHS IFILTER_INIT_HARD_LINE_BREAKS 
+            Flags = IFILTER_INIT_CANON_PARAGRAPHS IFILTER_INIT_HARD_LINE_BREAKS
             cAttributes = 1
             aAttributes1 = b725f130-47ef-101a-a5f1-02608c9eebac 13
-             
+
             // Only extract requested attribute from the html object (the GUID corresponds to the HTML IFilter.
             [Test4]
-            Flags = IFILTER_INIT_CANON_HYPHENS IFILTER_INIT_CANON_SPACES 
+            Flags = IFILTER_INIT_CANON_HYPHENS IFILTER_INIT_CANON_SPACES
             cAttributes = 1
             aAttributes1 = 70eb7a10-55d9-11cf-b75b-00aa0051fe20 2
-             
+
             // Question: what happens if cAttributes is nonzero, but aAttributes is empty?
             [Test5]
             Flags = IFILTER_INIT_CANON_SPACES IFILTER_INIT_APPLY_INDEX_ATTRIBUTES IFILTER_INIT_APPLY_OTHER_ATTRIBUTES
             cAttributes = 1
-             
+
             // Here is an attribute with a lpwstr instead of a propid (the lpwstr is enclosed in quotes).
             // The GUID corresponds to the meta tag clsid for the HTML IFilter.
             [Test6]
-            Flags = 
+            Flags =
             cAttributes = 1
             aAttributes1 = D1B5D3F0-C0B3-11CF-9A92-00A0C908DBF1 "GENERATOR"
 ```
-
-
 
 ## IFilter Test Procedure
 
@@ -259,15 +221,15 @@ The validation test steps through the object one chunk at a time, verifying each
 
 The validation test verifies the following conditions:
 
--   The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*idChunk* chunk IDs must be unique and increasing.
--   The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*flags* parameter is a recognized chunk state, such as [**CHUNKSTATE**](https://msdn.microsoft.com/en-us/library/Bb266508(v=VS.85).aspx), CHUNK\_TEXT, or CenabledHUNK\_VALUE constants.
--   The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*breakType* parameter is a recognized break type (0, 1, 2, 3, 4).
--   If the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) initialization attributes specify that the **IFilter** should return only chunks containing internal value-type properties, then *idChunkSource* must equal 0.
--   If the chunk is not derived that is, if it is not an internal value-type property, then [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*idChunkSource* must equal **STAT\_CHUNK**.*idChunk*.
--   [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
--   If the chunk contains text, [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns S\_OK, FILTER\_S\_LAST\_TEXT, or FILTER\_E\_NO\_MORE\_TEXT.
--   If [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns FILTER\_S\_LAST\_TEXT, the next call to **IFilter::GetText** returns FILTER\_E\_NO\_MORE\_TEXT.
--   If the chunk contains a value, [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns S\_OK or FILTER\_E\_NO\_MORE\_VALUES.
+- The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*idChunk* chunk IDs must be unique and increasing.
+- The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*flags* parameter is a recognized chunk state, such as [**CHUNKSTATE**](https://msdn.microsoft.com/en-us/library/Bb266508(v=VS.85).aspx), CHUNK\_TEXT, or CenabledHUNK\_VALUE constants.
+- The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*breakType* parameter is a recognized break type (0, 1, 2, 3, 4).
+- If the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) initialization attributes specify that the **IFilter** should return only chunks containing internal value-type properties, then *idChunkSource* must equal 0.
+- If the chunk is not derived that is, if it is not an internal value-type property, then [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*idChunkSource* must equal **STAT\_CHUNK**.*idChunk*.
+- [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
+- If the chunk contains text, [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns S\_OK, FILTER\_S\_LAST\_TEXT, or FILTER\_E\_NO\_MORE\_TEXT.
+- If [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns FILTER\_S\_LAST\_TEXT, the next call to **IFilter::GetText** returns FILTER\_E\_NO\_MORE\_TEXT.
+- If the chunk contains a value, [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns S\_OK or FILTER\_E\_NO\_MORE\_VALUES.
 
 ### Consistency Test
 
@@ -275,8 +237,8 @@ The ifilttxt.exe program re-initializes the [**IFilter**](https://msdn.microsoft
 
 The consistency test verifies the following conditions:
 
--   Each [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx) structure returned by the [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
--   [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
+- Each [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx) structure returned by the [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
+- [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
 
 ### Invalid Input Test
 
@@ -284,16 +246,14 @@ The ifilttst.exe program re-initializes the [**IFilter**](https://msdn.microsoft
 
 The invalid input test verifies the following conditions:
 
--   If the current chunk contains text, [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns FILTER\_E\_NO\_VALUES, and a call to [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) succeeds.
--   If the current chunk contains a value, [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns FILTER\_E\_NO\_TEXT, and a call to [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) succeeds.
--   If the previous call to [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returned FILTER\_E\_NO\_MORE\_TEXT, successive calls to **IFilter::GetText** return FILTER\_E\_NO\_MORE\_TEXT.
--   If the previous call to [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returned FILTER\_E\_NO\_MORE\_VALUES, successive calls to **IFilter::GetValue** return FILTER\_E\_NO\_MORE\_VALUES.
--   If the previous call to [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returned FILTER\_E\_END\_OF\_CHUNKS, successive calls to **IFilter::GetChunk** return FILTER\_E\_END\_OF\_CHUNKS.
+- If the current chunk contains text, [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns FILTER\_E\_NO\_VALUES, and a call to [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) succeeds.
+- If the current chunk contains a value, [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns FILTER\_E\_NO\_TEXT, and a call to [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) succeeds.
+- If the previous call to [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returned FILTER\_E\_NO\_MORE\_TEXT, successive calls to **IFilter::GetText** return FILTER\_E\_NO\_MORE\_TEXT.
+- If the previous call to [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returned FILTER\_E\_NO\_MORE\_VALUES, successive calls to **IFilter::GetValue** return FILTER\_E\_NO\_MORE\_VALUES.
+- If the previous call to [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returned FILTER\_E\_END\_OF\_CHUNKS, successive calls to **IFilter::GetChunk** return FILTER\_E\_END\_OF\_CHUNKS.
 
-> [!Note]  
+> [!NOTE]  
 > The invalid input test compares the current chunk structures to those returned in the validation test to make sure they are identical.
-
- 
 
 ### Testing Different IFilter Configurations
 
@@ -303,68 +263,58 @@ The ifilttst.exe program releases the [**IFilter**](https://msdn.microsoft.com/l
 
 The final test of your [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) ensures that your **IFilter** is properly registered and that it is invoked to index the items that you registered to use it. You can use the Catalog Manager to initiate re-indexing, or use the Crawl Scope Manager (CSM) to set up default rules indicating the URLs that you want the indexer to crawl. After indexing is complete, use the Windows Search UI to search for a string in the content or properties of items. If the items were indexed, they will appear in the search results.
 
-For more information about re-indexing, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md). The ReindexMatchingUrls code sample demonstrates ways to specify which files to re-index and how. The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations. Both code samples are available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+For more information about re-indexing, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md). The ReindexMatchingUrls code sample demonstrates ways to specify which files to re-index and how. The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations. Both code samples are available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
 
 ### Sample Log File
 
 Upon request, the Ifilttst.exe program can produce a log containing a description of the steps it takes during execution. The following examples are excerpts from a log file, with the verbosity set to the highest possible value 3.
 
-
 ```
-1. INFO----**** New configuration ****
-            2. 
+            1. INFO----**** New configuration ****
+            2.
             3. Section name : Test2
             4. grfFlags     : 63
             5. cAttributes  : 0
             6. aAttributes  : NONE
             7. pdwFlags     : 0
-            8. 
+            8.
             9. INFO----Successfully bound filter.
-            10. 
+            10.
             11. PASS----Init() returned a valid value for pdwFlags.
-            12. 
+            12.
             13. INFO----Successfully initialized filter.
-            14. 
+            14.
             15. INFO----Performing validation test. In this part of the test, the chunks structures
             16.         returned by the IFilter are checked for correctness, and the return values
             17.         of the IFilter calls are checked.
-            18. 
+            18.
             19. PASS----GetChunk() succeeded.
-            20. 
+            20.
             21. PASS----The current chunk has a legal value for the flags field.
-            
+
 ```
-
-
 
 The first line is an informational message, indicating that a new configuration has been loaded from the ifilttst.ini file. Line (3) indicates the section name in the ifilttst.ini file from which the current configuration has been read. Lines (4) through (7) list the parameters to [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx). The lines starting with `INFO` are informational messages about the binding of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) and the start of the validation test. Lines starting with `PASS` are messages regarding specific tests that have passed.
 
 The line in the following log example is a warning. Warnings call attention to [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) behavior that is problematic, although legal. This warning indicates that the [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) method has returned a text chunk that contains no text.
 
-
 ```
 WARNING-First call to GetText() returned FILTER_E_NO_MORE_TEXT.
 ```
 
-
-
 The following example error message indicates that the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) emitted a chunk that was not requested.
 
-
 ```
-ERROR---The IFilter has emitted a chunk which it was not requested to emit.
+            ERROR---The IFilter has emitted a chunk which it was not requested to emit.
             Check the initialization parameters in section Test1 of the initialization file.
             INFO----Current chunk propid : 0x5
 ```
-
-
 
 In the case of this example error message, the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) emitted a chunk with a PID of `0x5`. Inspection of section `[Test1]` in ifilttst.ini would show that the **IFilter** was configured to not emit chunks with this PID. For example, if neither IFILTER\_INIT\_APPLY\_INDEX\_ATTRIBUTES nor IFILTER\_INIT\_APPLY\_OTHER\_ATTRIBUTES were specified in the Flags entry and if *cAttributes* were 0, then **IFilter** would emit only chunks with a PID of `0x13` and corresponding to PID\_STG\_CONTENTS.
 
 ### Sample Dump File
 
 Upon request, the Ifilttst.exe program can produce a dump containing the chunks it finds and their content. The following example is an excerpt from such a dump file.
-
 
 ```
                 1. Chunk ID: ........... 2
@@ -376,9 +326,9 @@ Upon request, the Ifilttst.exe program can produce a dump containing the chunks 
                 7. Chunk Length Source . 0x0
                 8. GUID ................ b725f130-47ef-101a-a5f1-02608c9eebac
                 9. Property ID ......... 0x13
-                 
+
                 10. This is a HTML IFilter test page
-                 
+
                 11. Chunk ID: ........... 3
                 12. Chunk Break Type: ... END OF SENTENCE
                 13. Chunk State: ........ TEXT
@@ -388,9 +338,9 @@ Upon request, the Ifilttst.exe program can produce a dump containing the chunks 
                 17. Chunk Length Source . 0x0
                 18. GUID ................ f29f85e0-4ff9-1068-ab91-08002b27b3d9
                 19. Property ID ......... 0x2
-                 
+
                 20. This is a HTML IFilter test page
-                 
+
                 21. Chunk ID: ........... 4
                 22. Chunk Break Type: ... END OF SENTENCE
                 23. Chunk State: ........ VALUE
@@ -400,20 +350,15 @@ Upon request, the Ifilttst.exe program can produce a dump containing the chunks 
                 27. Chunk Length Source . 0x0
                 28. GUID ................ f29f85e0-4ff9-1068-ab91-08002b27b3d9
                 29. Property ID ......... 0x2
-                 
+
                 30. This is an HTML IFilter test page
 ```
 
-
-
 The first nine lines describe the current chunk structure. The GUID and the PID correspond to PSGUID\_STORAGE / PID\_STG\_CONTENTS. This is a chunk containing plain text. The text is in the following chunk structure:
-
 
 ```
 10. This is an HTML IFilter test page
 ```
-
-
 
 The next chunk, starting at line 11, has a different GUID, corresponding to the `HTML IFilter`, and a different PID, corresponding to an HTML HREF. This is an internal value-type property, exported by the `HTML IFilter`.
 
@@ -421,39 +366,23 @@ The next chunk, starting at line 21, has the same GUID and PID, but its chunk st
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
--   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+- For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
+- For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
 
 ## Related topics
 
-<dl> <dt>
-
 [Developing Filter Handlers](-search-ifilter-conceptual.md)
-</dt> <dt>
 
 [About Filter Handlers in Windows Search](-search-ifilter-about.md)
-</dt> <dt>
 
 [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md)
-</dt> <dt>
 
 [Returning Properties from a Filter Handler](-search-ifilter-property-filtering.md)
-</dt> <dt>
 
 [Filter Handlers that Ship with Windows](-search-ifilter-implementations.md)
-</dt> <dt>
 
 [Implementing Filter Handlers in Windows Search](-search-ifilter-constructing-filters.md)
-</dt> <dt>
 
 [Registering Filter Handlers](-search-ifilter-registering-filters.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

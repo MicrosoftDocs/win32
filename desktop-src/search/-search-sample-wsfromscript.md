@@ -17,72 +17,42 @@ The WSFromScript code sample demonstrates how to query Windows Search from a Mic
 
 This topic contains the following sections.
 
--   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
--   [Building the Sample](#building-the-sample)
--   [Related topics](#related-topics)
+- [Requirements](#requirements)
+- [Downloading the Sample](#downloading-the-sample)
+- [Building the Sample](#building-the-sample)
+- [Related topics](#related-topics)
 
 ## Requirements
 
-
-
-| Product     | Minimum Product Version                                                                |
-|-------------|----------------------------------------------------------------------------------------|
-| Windows     | Windows Vista, or Windows XP and Microsoft Windows Desktop Search (WDS) 3.x or greater |
-| Windows SDK | 7.0                                                                                    |
-
-
-
- 
+| Product     | Product Version          |
+|-------------|--------------------------|
+| Windows     | Windows 7, 8.1, or 10    |
+| Windows SDK | 7.0 or greater           |
 
 ## Downloading the Sample
 
-This sample is available in the following locations.
-
-
+This sample is available in the following location.
 
 | Location      | Path URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| Code Gallery  | [WSFromScript sample](http://go.microsoft.com/fwlink/p/?linkid=155654)    |
-| Windows 7 SDK | [Download Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) |
+| Code Gallery  | [WSFromScript sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/WSFromScript)    |
 
-
-
- 
-
- 
-
-> [!Note]  
-> After you have downloaded and installed the Windows Software Development Kit (SDK), you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 software development kit (SDK) results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples`.
-
- 
+> [!NOTE]  
+> For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
 ## Building the Sample
 
 To build the sample from the Command Prompt window:
 
-1.  Open the Command Prompt window and navigate to the **QueryEverything** project directory. For example, the full default installation path is `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\WindowsSearch\WSFromScript`.
-2.  Enter `cscript QueryEverything.vbs`.
+1. Open the Command Prompt window and navigate to the **QueryEverything** project directory. For example, the full default installation path of the Windows 7 SDK is `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\WindowsSearch\WSFromScript`.
+2. Enter `cscript QueryEverything.vbs`.
 
 ## Related topics
 
-<dl> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Search Code Samples](-search-samples-ovw.md)
-</dt> <dt>
-
-**Other Resources**
-</dt> <dt>
+### Conceptual
 
 [**VBScript Language Reference**](https://msdn.microsoft.com/en-us/library/d1wf56tt(v=VS.71).aspx)
-</dt> </dl>
 
- 
+### Other Samples
 
- 
-
-
-
+[Search Code Samples](-search-samples-ovw.md)

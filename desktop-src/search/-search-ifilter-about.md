@@ -12,15 +12,15 @@ Filter handlers, which are implementations of the [**IFilter**](https://msdn.mic
 
 This topic is organized as follows:
 
--   [About the IFilter Interface](#about-the-ifilter-interface)
-    -   [Isolation Process](#isolation-process)
-    -   [IFilter DLLs](#ifilter-dlls)
-    -   [IFilter Structure](#ifilter-structure)
-    -   [Native Code](#native-code)
--   [Finding the IFilter Class Identifier](#finding-the-ifilter-class-identifier)
-    -   [IFilter::GetChunk and Locale Code Identifiers](#ifiltergetchunk-and-locale-code-identifiers)
--   [Additional Resources](#additional-resources)
--   [Related topics](#related-topics)
+- [About the IFilter Interface](#about-the-ifilter-interface)
+  - [Isolation Process](#isolation-process)
+  - [IFilter DLLs](#ifilter-dlls)
+  - [IFilter Structure](#ifilter-structure)
+  - [Native Code](#native-code)
+- [Finding the IFilter Class Identifier](#finding-the-ifilter-class-identifier)
+  - [IFilter::GetChunk and Locale Code Identifiers](#ifiltergetchunk-and-locale-code-identifiers)
+- [Additional Resources](#additional-resources)
+- [Related topics](#related-topics)
 
 ## About the IFilter Interface
 
@@ -30,21 +30,13 @@ The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) int
 
 Windows Search uses three functions, described in the following table, to access registered filter handlers (implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface). These functions are especially useful when loading and binding to an embedded object's filter handler.
 
-
-
 | Function               | Description                                                                                                                                                                                               |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LoadIFilter            | Gets a pointer to the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) that is most suitable for the specified content type.                                                                                            |
 | BindIFilterFromStorage | Gets a pointer to the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) that is most suitable for the content contained in an [IStorage Interface](http://msdn.microsoft.com/en-us/library/aa380015(VS.85).aspx) object. |
 | BindIFilterFromStream  | Gets a pointer to the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) that is most suitable for a specified class identifier (CLSID) retrieved from a stream variable.                                                 |
 
-
-
- 
-
 The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface has five methods, described in the following table.
-
-
 
 | Method                                                    | Description                                                                                                        |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
@@ -54,28 +46,22 @@ The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) int
 | [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx)     | Retrieves values from the current chunk.                                                                           |
 | [**IFilter::BindRegion**](https://msdn.microsoft.com/library/Bb266447(v=VS.85).aspx) | Retrieves an interface representing the specified portion of object. Reserved for future use.                      |
 
-
-
- 
-
 ### Isolation Process
 
 Windows Search runs IFilters in the Local System security context with restricted rights. In this [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) host isolation process, a number of rights are removed:
 
--   Restricted Code
--   Everyone
--   Local
--   Interactive
--   Authenticated Users
--   Built-in Users
--   Users' security identifier (SID)
+- Restricted Code
+- Everyone
+- Local
+- Interactive
+- Authenticated Users
+- Built-in Users
+- Users' security identifier (SID)
 
 The removal of these rights means the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface does not have access to the disk system or network or to any user interface or clipboard functions. Furthermore, the isolation process runs under a job object that prevents child processes from being created and imposes a 100 MB limit on the working set. the **IFilter** interface host isolation process increases the stability of the indexing platform, due to the possibility of incorrectly implemented third-party filters.
 
-> [!Note]  
+> [!NOTE]  
 > Filter handlers must be written to manage buffers, and stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer. You should always test the size of the data against the size of the buffer.
-
- 
 
 ### IFilter DLLs
 
@@ -95,20 +81,20 @@ Filters must be written in native code due to potential common language runtime 
 
 The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL is registered under the PersistentHandler registry key. The following example, for HTML files, illustrates how to find the **IFilter** DLL for an HTML document. This example follows logic similar to that used by the system to find the **IFilter** associated with an item.
 
-1.  Check whether the extension for the type of files that the DLL filters has a PersistentHandler registered under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be `Value1`. If that entry already exists, then skip to step 4 of this procedure and use `Value1` in that key. The values are of type REG\_SZ.
+1. Check whether the extension for the type of files that the DLL filters has a PersistentHandler registered under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be `Value1`. If that entry already exists, then skip to step 4 of this procedure and use `Value1` in that key. The values are of type REG\_SZ.
 
-    ```
+```
     \HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
              .htm
                 PersistentHandler
                    {EEC97550-47A9-11CF-B952-00AA0051FE20}
-    ```
+```
 
-2.  Alternatively, if there is not a PersistentHandler registered for the extension, find the CLSID associated with the document type under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be `Value2`.
+2. Alternatively, if there is not a PersistentHandler registered for the extension, find the CLSID associated with the document type under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be `Value2`.
 
-    ```
+```
     \HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
@@ -116,11 +102,11 @@ The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.
                  = Class for WWW HTML files
                 CLSID
                    {25336920-03F9-11CF-8FD0-00AA00686F13}
-    ```
+```
 
-3.  Determine whether a PersistentHandler is registered for the CLSID. Using `Value2` determined in step 2, find the PersistentHandler for the \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value2 entry. Let this key be `Value3`.
+3. Determine whether a PersistentHandler is registered for the CLSID. Using `Value2` determined in step 2, find the PersistentHandler for the \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value2 entry. Let this key be `Value3`.
 
-    ```
+```
     \HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
@@ -128,37 +114,26 @@ The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.
                  = Class for WWW HTML files
                 PersistentHandler
                    {EEC97550-47A9-11CF-B952-00AA0051FE20}
-    ```
+```
 
-4.  Determine the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) persistent handler GUID. Using `Value1` and `Value3`, find the **IFilter** Persistent Handler GUID for the document type. The value under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value1 or 3\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF"/> yields the **IFilter** PersistentHandler GUID for this document type. Let this key be `Value4`. In this example, the **IFilter** interface GUID is 89BCB740-6119-101A-BCB7-00DD010655AF.
+4. Determine the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) persistent handler GUID. Using `Value1` and `Value3`, find the **IFilter** Persistent Handler GUID for the document type. The value under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value1 or 3\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF"/> yields the **IFilter** PersistentHandler GUID for this document type. Let this key be `Value4`. In this example, the **IFilter** interface GUID is 89BCB740-6119-101A-BCB7-00DD010655AF.
 
-    ```
+```
     HKEY_LOCAL_MACHINE
        SOFTWARE
           Classes
              {EEC97550-47A9-11CF-B952-00AA0051FE20}
-                 = HTML File Persistent Handler<dl>
-    <dt>
+                 = HTML File Persistent Handler
+                    Data type         REG_SZ
+                        PersistentAddinsRegistered
+                        {89BCB740-6119-101A-BCB7-00DD010655AF}
 
-            Data type
-</dt>
-    <dd>            REG_SZ</dd>
-    </dl>
-                PersistentAddinsRegistered
-                   {89BCB740-6119-101A-BCB7-00DD010655AF}
-                    = {E0CA5340-4534-11CF-B952-00AA0051FE20}<dl>
-    <dt>
+                    Data type         REG_SZ
+                        default = {E0CA5340-4534-11CF-B952-00AA0051FE20}
+```
 
-               Data type
-</dt>
-    <dd>               REG_SZ</dd>
-    </dl>
-    ```
-
-> [!Note]  
+> [!NOTE]  
 > In this example, the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL for HTML documents is nlhtml.dll.
-
- 
 
 ### IFilter::GetChunk and Locale Code Identifiers
 
@@ -166,46 +141,28 @@ The LCID of text can change within a single file. For example, the text of an in
 
 If you control the file format and it currently does not contain locale information, you should add a user feature to enable proper locale identification. Using a mismatched word breaker can result in a poor query experience for the user. For more information, see [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker).
 
-> [!Note]  
+> [!NOTE]  
 > Filters are associated with file types, as denoted by file name extensions, MIME types or CLSIDs. While one filter can handle multiple file types, each type works with only one filter.
-
- 
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
--   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample7), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+- For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
+- For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
 
 ## Related topics
 
-<dl> <dt>
-
 [Developing Filter Handlers](-search-ifilter-conceptual.md)
-</dt> <dt>
 
 [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md)
-</dt> <dt>
 
 [Returning Properties from a Filter Handler](-search-ifilter-property-filtering.md)
-</dt> <dt>
 
 [Filter Handlers that Ship with Windows](-search-ifilter-implementations.md)
-</dt> <dt>
 
 [Implementing Filter Handlers in Windows Search](-search-ifilter-constructing-filters.md)
-</dt> <dt>
 
 [Registering Filter Handlers](-search-ifilter-registering-filters.md)
-</dt> <dt>
 
 [Testing Filter Handlers](-search-ifilter-testing-filters.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
