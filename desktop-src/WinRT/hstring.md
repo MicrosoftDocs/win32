@@ -25,11 +25,12 @@ JavaScript and other languages, such as C\#, and Microsoft Visual Basic, can use
 
 
 
-| Programming Language                     | String Representation  |
-|------------------------------------------|------------------------|
-| Visual C++ component extensions (C++/CX) | Platform::String class |
-| JavaScript                               | String object          |
-| .NET Framework                           | System.String class    |
+| Programming Language                                                                    | String Representation                                      |
+|-----------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt)              | [winrt::hstring](/uwp/cpp-ref-for-winrt/hstring) class     |
+| Visual C++ component extensions ([C++/CX](/cpp/cppcx/visual-c-language-reference-c-cx)) | [Platform::String](/cpp/cppcx/platform-string-class) class |
+| JavaScript                                                                              | String object                                              |
+| .NET Framework                                                                          | System.String class                                        |
 
 
 
