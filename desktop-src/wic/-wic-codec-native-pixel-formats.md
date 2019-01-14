@@ -168,17 +168,19 @@ The following table lists the packed bit formats provided by WIC. In these forma
 
 
 | Friendly Name                          | Channel Count | Bits Per Channel       | Bits Per Pixel | Storage Type |
-|----------------------------------------|---------------|------------------------|----------------|--------------|
-| GUID\_WICPixelFormat16bppBGR555        | 3             | 5                      | 16             | UINT         |
-| GUID\_WICPixelFormat16bppBGR565        | 3             | 5(B)/6(G)/5Ã?Â®)       | 16             | UINT         |
-| GUID\_WICPixelFormat16bppBGRA555       | 4             | 5(B)/5(G)/5(R)/1(A)    | 16             | UINT         |
-| GUID\_WICPixelFormat32bppBGR101010     | 3             | 10                     | 32             | UINT         |
-| GUID\_WICPixelFormat32bppRGBA1010102   | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
-| GUID\_WICPixelFormat32bppRGBA1010102XR | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
+|-------------------------------------------|---------------|------------------------|----------------|--------------|
+| GUID\_WICPixelFormat16bppBGR555           | 3             | 5                      | 16             | UINT         |
+| GUID\_WICPixelFormat16bppBGR565           | 3             | 5(B)/6(G)/5Ã?Â®)       | 16             | UINT         |
+| GUID\_WICPixelFormat16bppBGRA555          | 4             | 5(B)/5(G)/5(R)/1(A)    | 16             | UINT         |
+| GUID\_WICPixelFormat32bppBGR101010        | 3             | 10                     | 32             | UINT         |
+| GUID\_WICPixelFormat32bppRGBA1010102      | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
+| GUID\_WICPixelFormat32bppRGBA1010102XR    | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
+| GUID\_WICPixelFormat32bppR10G10B10A2      | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
+| GUID\_WICPixelFormat32bppR10G10B10A2HDR10 | 4             | 10(R)/10(G)/10(B)/2(A) | 32             | UINT         |
 
+For the GUID\_WICPixelFormat32bppBGR101010 and GUID\_WICPixelFormat32bppRGBA1010102 formats, the red channel is stored in the least significant bits. For the GUID\_WICPixelFormat32bppR10G10B10A2 and GUID\_WICPixelFormat32bppR10G10B10A2HDR10 formats, the red channel is defined in the most significant bits, the same layout as [DXGI_FORMAT_R10G10B10A2_UNORM](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-
- 
+The GUID\_WICPixelFormat32bppR10G10B10A2HDR10 format is the 10 bit pixel format for HDR10 (BT.2020 color space and SMPTE ST.2084 EOTF).
 
 ### Grayscale Pixel Formats
 
