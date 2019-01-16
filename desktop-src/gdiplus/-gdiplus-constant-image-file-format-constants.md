@@ -25,6 +25,7 @@ The [**Image::GetRawFormat**](/windows/desktop/api/Gdiplusheaders/nf-gdiplushead
 | <span id="ImageFormatPNG"></span><span id="imageformatpng"></span><span id="IMAGEFORMATPNG"></span><dl> <dt>**ImageFormatPNG**</dt> </dl>                         | Indicates the PNG format.<br/>                                      |
 | <span id="ImageFormatTIFF"></span><span id="imageformattiff"></span><span id="IMAGEFORMATTIFF"></span><dl> <dt>**ImageFormatTIFF**</dt> </dl>                     | Indicates the TIFF format.<br/>                                     |
 | <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**ImageFormatUndefined**</dt> </dl> | Indicates that GDI+ is unable to determine the format.<br/>         |
+| <span id="ImageFormatWEBP"></span><span id="imageformatwebp"></span><span id="ImageFormatWEBP"></span><dl> <dt>**ImageFormatWEBP**</dt> </dl>                     | Indicates the WebP format.<br/>                                     |
 | <span id="ImageFormatWMF"></span><span id="imageformatwmf"></span><span id="IMAGEFORMATWMF"></span><dl> <dt>**ImageFormatWMF**</dt> </dl>                         | Indicates the WMF format.<br/>                                      |
 
 
