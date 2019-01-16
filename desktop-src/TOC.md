@@ -133,6 +133,7 @@
 #####[Monitor Configuration](monitor/monitor-configuration.md)
 #####[OpenGL](opengl/opengl.md)
 #####[Windows Imaging Component](wic/-wic-lh.md)
+#####[Windows Mixed Reality](mixedreality/mixed-reality-portal.md)
 ####[Networking and Internet](networking.md)
 #####[Domain Name System](dns/dns-start-page.md)
 #####[HTTP Server API](http/http-api-start-page.md)

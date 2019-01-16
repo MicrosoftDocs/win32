@@ -1,0 +1,6 @@
+# [Windows Mixed Reality](mixed-reality-portal.md)
+## [Windows Mixed Reality COM Interfaces](mixed-reality-com-interfaces.md)
+### [ISpatialInteractionManagerInterop](/windows/desktop/api/spatialinteractionmanagerinterop/nn-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop)
+#### [GetForWindow method](/windows/desktop/api/spatialinteractionmanagerinterop/nf-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop-getforwindow)
+### [IHolographicSpaceInterop](/windows/desktop/api/holographicspaceinterop/nn-holographicspaceinterop-iholographicspaceinterop)
+#### [CreateForWindow method](/windows/desktop/api/holographicspaceinterop/nf-holographicspaceinterop-iholographicspaceinterop-createforwindow)
