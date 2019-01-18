@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Microsoft Media Foundation AAC encoder is a [Media Foundation Transform](media-foundation-transforms.md) that encodes Advanced Audio Coding (AAC) Low Complexity (LC) profile, as defined by ISO/IEC 13818-7 (MPEG-2 Audio Part 7) .
 
-The AAC encoder does not support encoding to any other AAC profiles, such as Main, SSR, or LTP. It does not support encoding to the MPEG-4 extensions HE-AAC v1/v2.
+The AAC encoder does not support encoding to any other AAC profiles, such as Main, SSR, or LTP.
 
 ## Class Identifier
 
@@ -170,6 +170,18 @@ The default value for both mono and stereo is 1200 (96 Kbps).<br/></td>
 </table>
 
 
+| MF_MT_AAC_PROFILE_LEVEL_INDICATION value | Profile                           |
+|------------------------------------------|-----------------------------------|
+| 0x29                                     | AAC Profile L2                    | 
+| 0x2A                                     | AAC Profile L4                    | 
+| 0x2B                                     | AAC Profile L5                    | 
+| 0x2C                                     | High Efficiency v1 AAC Profile L2 | 
+| 0x2E                                     | High Efficiency v1 AAC Profile L4 | 
+| 0x2F                                     | High Efficiency v1 AAC Profile L5 | 
+| 0x30                                     | High Efficiency v2 AAC Profile L2 | 
+| 0x31                                     | High Efficiency v2 AAC Profile L3 | 
+| 0x32                                     | High Efficiency v2 AAC Profile L4 | 
+| 0x33                                     | High Efficiency v2 AAC Profile L5 | 
 
  
 
