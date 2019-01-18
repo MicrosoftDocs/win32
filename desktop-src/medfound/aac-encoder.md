@@ -169,6 +169,7 @@ The default value for both mono and stereo is 1200 (96 Kbps).<br/></td>
 </tbody>
 </table>
 
+The following table lists the values that can be used for the MF_MT_AAC_PROFILE_LEVEL_INDICATION attribute.
 
 | MF_MT_AAC_PROFILE_LEVEL_INDICATION value | Profile                           |
 |------------------------------------------|-----------------------------------|
