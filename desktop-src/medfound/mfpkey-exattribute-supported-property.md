@@ -47,8 +47,8 @@ The default value is **VARIANT\_FALSE**. If the MFT does not expose the **IPrope
 
 This property is read-only.
 
-> [!Note] This attribute does not apply to asynchronous MFTs. Attributes will not be copied from the input samples to the output samples for asynchronous MFTs, 
-regardless of the value of this attribute.
+> [!NOTE] 
+> This attribute does not apply to asynchronous MFTs. Attributes will not be copied from the input samples to the output samples for asynchronous MFTs, regardless of the value of this attribute.
 
 ## Examples
 
