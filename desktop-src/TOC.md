@@ -135,7 +135,7 @@
 #####[Windows Imaging Component](wic/-wic-lh.md)
 #####[Windows Mixed Reality](mixedreality/mixed-reality-portal.md)
 ####[Networking and Internet](networking.md)
-#####[Delivery Optimization](delivery-optimization-portal.md)
+#####[Delivery Optimization](delivery_optimization/delivery-optimization-portal.md)
 #####[Domain Name System](dns/dns-start-page.md)
 #####[HTTP Server API](http/http-api-start-page.md)
 #####[IP Helper](iphlp/ip-helper-start-page.md)
