@@ -1,0 +1,2775 @@
+- name: "DirectXMath"
+  href: directxmath-portal.md
+  items: 
+  - name: "DirectXMath Programming Guide"
+    href: ovw-xnamath-progguide.md
+    items: 
+    - name: "Getting Started"
+      href: pg-xnamath-getting-started.md
+    - name: "What's New"
+      href: pg-xnamath-whatsnew.md
+    - name: "Code Migration"
+      href: pg-xnamath-migration.md
+    - name: "Working with D3DXMath"
+      href: pg-xnamath-migration-d3dx.md
+    - name: "Code Optimization"
+      href: pg-xnamath-optimizing.md
+    - name: "Library Internals"
+      href: pg-xnamath-internals.md
+  - name: "DirectXMath Programming Reference"
+    href: ovw-xnamath-reference.md
+    items: 
+    - name: "DirectXMath Library Compiler Directives"
+      href: ovw-xnamath-reference-directives.md
+    - name: "DirectXMath Library Constants"
+      href: ovw-xnamath-reference-constants.md
+    - name: "DirectXMath Library Functions"
+      href: ovw-xnamath-reference-functions.md
+      items: 
+      - name: "DirectXMath Library Color Functions"
+        href: ovw-xnamath-reference-functions-color.md
+        items: 
+        - name: "XMColorSRGBToRGB"
+          href: https://msdn.microsoft.com/en-us/library/Dn322044(v=VS.85).aspx
+        - name: "XMColorRGBToSRGB"
+          href: https://msdn.microsoft.com/en-us/library/Dn322043(v=VS.85).aspx
+        - name: "XMColorAdjustContrast"
+          href: https://msdn.microsoft.com/en-us/library/Ee419293(v=VS.85).aspx
+        - name: "XMColorAdjustSaturation"
+          href: https://msdn.microsoft.com/en-us/library/Ee419294(v=VS.85).aspx
+        - name: "XMColorEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee419295(v=VS.85).aspx
+        - name: "XMColorGreater"
+          href: https://msdn.microsoft.com/en-us/library/Ee419296(v=VS.85).aspx
+        - name: "XMColorGreaterOrEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee419297(v=VS.85).aspx
+        - name: "XMColorHSLToRGB"
+          href: https://msdn.microsoft.com/en-us/library/Hh437860(v=VS.85).aspx
+        - name: "XMColorHSVToRGB"
+          href: https://msdn.microsoft.com/en-us/library/Hh437861(v=VS.85).aspx
+        - name: "XMColorIsInfinite"
+          href: https://msdn.microsoft.com/en-us/library/Ee419298(v=VS.85).aspx
+        - name: "XMColorIsNaN"
+          href: https://msdn.microsoft.com/en-us/library/Ee419400(v=VS.85).aspx
+        - name: "XMColorLess"
+          href: https://msdn.microsoft.com/en-us/library/Ee419401(v=VS.85).aspx
+        - name: "XMColorLessOrEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee419402(v=VS.85).aspx
+        - name: "XMColorModulate"
+          href: https://msdn.microsoft.com/en-us/library/Ee419403(v=VS.85).aspx
+        - name: "XMColorNegative"
+          href: https://msdn.microsoft.com/en-us/library/Ee419404(v=VS.85).aspx
+        - name: "XMColorNotEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee419405(v=VS.85).aspx
+        - name: "XMColorRGBToHSL"
+          href: https://msdn.microsoft.com/en-us/library/Hh437862(v=VS.85).aspx
+        - name: "XMColorRGBToHSV"
+          href: https://msdn.microsoft.com/en-us/library/Hh437863(v=VS.85).aspx
+        - name: "XMColorRGBToXYZ"
+          href: https://msdn.microsoft.com/en-us/library/Hh437864(v=VS.85).aspx
+        - name: "XMColorRGBToYUV"
+          href: https://msdn.microsoft.com/en-us/library/Hh437865(v=VS.85).aspx
+        - name: "XMColorRGBToYUV_HD"
+          href: https://msdn.microsoft.com/en-us/library/Hh437866(v=VS.85).aspx
+        - name: "XMColorSRGBToXYZ"
+          href: https://msdn.microsoft.com/en-us/library/Hh437867(v=VS.85).aspx
+        - name: "XMColorXYZToRGB"
+          href: https://msdn.microsoft.com/en-us/library/Hh437868(v=VS.85).aspx
+        - name: "XMColorXYZToSRGB"
+          href: https://msdn.microsoft.com/en-us/library/Hh437879(v=VS.85).aspx
+        - name: "XMColorYUVToRGB"
+          href: https://msdn.microsoft.com/en-us/library/Hh437880(v=VS.85).aspx
+        - name: "XMColorYUVToRGB_HD"
+          href: https://msdn.microsoft.com/en-us/library/Hh437881(v=VS.85).aspx
+      - name: "DirectXMath Library Conversion Functions"
+        href: ovw-xnamath-reference-functions-conversion.md
+        items: 
+        - name: "XMConvertFloatToHalf"
+          href: https://msdn.microsoft.com/en-us/library/Ee419421(v=VS.85).aspx
+        - name: "XMConvertFloatToHalfStream"
+          href: https://msdn.microsoft.com/en-us/library/Hh437913(v=VS.85).aspx
+        - name: "XMConvertHalfToFloat"
+          href: https://msdn.microsoft.com/en-us/library/Ee419423(v=VS.85).aspx
+        - name: "XMConvertHalfToFloatStream"
+          href: https://msdn.microsoft.com/en-us/library/Hh437922(v=VS.85).aspx
+        - name: "XMConvertToDegrees"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmconverttodegrees
+        - name: "XMConvertToRadians"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmconverttoradians
+        - name: "XMConvertVectorFloatToInt"
+          href: https://msdn.microsoft.com/en-us/library/Hh437932(v=VS.85).aspx
+        - name: "XMConvertVectorFloatToUInt"
+          href: https://msdn.microsoft.com/en-us/library/Hh437933(v=VS.85).aspx
+        - name: "XMConvertVectorIntToFloat"
+          href: https://msdn.microsoft.com/en-us/library/Hh437934(v=VS.85).aspx
+        - name: "XMConvertVectorUIntToFloat"
+          href: https://msdn.microsoft.com/en-us/library/Hh437937(v=VS.85).aspx
+      - name: "DirectXMath Library Matrix Functions"
+        href: ovw-xnamath-reference-functions-matrix.md
+        items: 
+        - name: "XMMatrixAffineTransformation"
+          href: https://msdn.microsoft.com/en-us/library/Ee419960(v=VS.85).aspx
+        - name: "XMMatrixAffineTransformation2D"
+          href: https://msdn.microsoft.com/en-us/library/Ee419961(v=VS.85).aspx
+        - name: "XMMatrixDecompose"
+          href: https://msdn.microsoft.com/en-us/library/Ee419962(v=VS.85).aspx
+        - name: "XMMatrixDeterminant"
+          href: https://msdn.microsoft.com/en-us/library/Ee419963(v=VS.85).aspx
+        - name: "XMMatrixIdentity"
+          href: https://msdn.microsoft.com/en-us/library/Ee419964(v=VS.85).aspx
+        - name: "XMMatrixInverse"
+          href: https://msdn.microsoft.com/en-us/library/Ee419965(v=VS.85).aspx
+        - name: "XMMatrixIsIdentity"
+          href: https://msdn.microsoft.com/en-us/library/Ee419966(v=VS.85).aspx
+        - name: "XMMatrixIsInfinite"
+          href: https://msdn.microsoft.com/en-us/library/Ee419967(v=VS.85).aspx
+        - name: "XMMatrixIsNaN"
+          href: https://msdn.microsoft.com/en-us/library/Ee419968(v=VS.85).aspx
+        - name: "XMMatrixLookAtLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419969(v=VS.85).aspx
+        - name: "XMMatrixLookAtRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419970(v=VS.85).aspx
+        - name: "XMMatrixLookToLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419971(v=VS.85).aspx
+        - name: "XMMatrixLookToRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419972(v=VS.85).aspx
+        - name: "XMMatrixMultiply"
+          href: https://msdn.microsoft.com/en-us/library/Ee419973(v=VS.85).aspx
+        - name: "XMMatrixMultiplyTranspose"
+          href: https://msdn.microsoft.com/en-us/library/Ee419974(v=VS.85).aspx
+        - name: "XMMatrixOrthographicLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419975(v=VS.85).aspx
+        - name: "XMMatrixOrthographicOffCenterLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419976(v=VS.85).aspx
+        - name: "XMMatrixOrthographicOffCenterRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419977(v=VS.85).aspx
+        - name: "XMMatrixOrthographicRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419978(v=VS.85).aspx
+        - name: "XMMatrixPerspectiveFovLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419979(v=VS.85).aspx
+        - name: "XMMatrixPerspectiveFovRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419980(v=VS.85).aspx
+        - name: "XMMatrixPerspectiveLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419981(v=VS.85).aspx
+        - name: "XMMatrixPerspectiveOffCenterLH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419982(v=VS.85).aspx
+        - name: "XMMatrixPerspectiveOffCenterRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419983(v=VS.85).aspx
+        - name: "XMMatrixPerspectiveRH"
+          href: https://msdn.microsoft.com/en-us/library/Ee419984(v=VS.85).aspx
+        - name: "XMMatrixReflect"
+          href: https://msdn.microsoft.com/en-us/library/Ee419985(v=VS.85).aspx
+        - name: "XMMatrixRotationAxis"
+          href: https://msdn.microsoft.com/en-us/library/Ee419986(v=VS.85).aspx
+        - name: "XMMatrixRotationNormal"
+          href: https://msdn.microsoft.com/en-us/library/Ee419987(v=VS.85).aspx
+        - name: "XMMatrixRotationQuaternion"
+          href: https://msdn.microsoft.com/en-us/library/Ee419988(v=VS.85).aspx
+        - name: "XMMatrixRotationRollPitchYaw"
+          href: https://msdn.microsoft.com/en-us/library/Ee419989(v=VS.85).aspx
+        - name: "XMMatrixRotationRollPitchYawFromVector"
+          href: https://msdn.microsoft.com/en-us/library/Ee420010(v=VS.85).aspx
+        - name: "XMMatrixRotationX"
+          href: https://msdn.microsoft.com/en-us/library/Ee420011(v=VS.85).aspx
+        - name: "XMMatrixRotationY"
+          href: https://msdn.microsoft.com/en-us/library/Ee420012(v=VS.85).aspx
+        - name: "XMMatrixRotationZ"
+          href: https://msdn.microsoft.com/en-us/library/Ee420013(v=VS.85).aspx
+        - name: "XMMatrixScaling"
+          href: https://msdn.microsoft.com/en-us/library/Ee420014(v=VS.85).aspx
+        - name: "XMMatrixScalingFromVector"
+          href: https://msdn.microsoft.com/en-us/library/Ee420015(v=VS.85).aspx
+        - name: "XMMatrixSet"
+          href: https://msdn.microsoft.com/en-us/library/Ee420016(v=VS.85).aspx
+        - name: "XMMatrixShadow"
+          href: https://msdn.microsoft.com/en-us/library/Ee420017(v=VS.85).aspx
+        - name: "XMMatrixTransformation"
+          href: https://msdn.microsoft.com/en-us/library/Ee420018(v=VS.85).aspx
+        - name: "XMMatrixTransformation2D"
+          href: https://msdn.microsoft.com/en-us/library/Ee420019(v=VS.85).aspx
+        - name: "XMMatrixTranslation"
+          href: https://msdn.microsoft.com/en-us/library/Ee420020(v=VS.85).aspx
+        - name: "XMMatrixTranslationFromVector"
+          href: https://msdn.microsoft.com/en-us/library/Ee420021(v=VS.85).aspx
+        - name: "XMMatrixTranspose"
+          href: https://msdn.microsoft.com/en-us/library/Ee420022(v=VS.85).aspx
+      - name: "DirectXMath Library Plane Functions"
+        href: ovw-xnamath-reference-functions-plane.md
+        items: 
+        - name: "XMPlaneDot"
+          href: https://msdn.microsoft.com/en-us/library/Ee420137(v=VS.85).aspx
+        - name: "XMPlaneDotCoord"
+          href: https://msdn.microsoft.com/en-us/library/Ee420138(v=VS.85).aspx
+        - name: "XMPlaneDotNormal"
+          href: https://msdn.microsoft.com/en-us/library/Ee420139(v=VS.85).aspx
+        - name: "XMPlaneEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee420140(v=VS.85).aspx
+        - name: "XMPlaneFromPointNormal"
+          href: https://msdn.microsoft.com/en-us/library/Ee420141(v=VS.85).aspx
+        - name: "XMPlaneFromPoints"
+          href: https://msdn.microsoft.com/en-us/library/Ee420142(v=VS.85).aspx
+        - name: "XMPlaneIntersectLine"
+          href: https://msdn.microsoft.com/en-us/library/Ee420143(v=VS.85).aspx
+        - name: "XMPlaneIntersectPlane"
+          href: https://msdn.microsoft.com/en-us/library/Ee420144(v=VS.85).aspx
+        - name: "XMPlaneIsInfinite"
+          href: https://msdn.microsoft.com/en-us/library/Ee420145(v=VS.85).aspx
+        - name: "XMPlaneIsNaN"
+          href: https://msdn.microsoft.com/en-us/library/Ee420146(v=VS.85).aspx
+        - name: "XMPlaneNearEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee420147(v=VS.85).aspx
+        - name: "XMPlaneNormalize"
+          href: https://msdn.microsoft.com/en-us/library/Ee420148(v=VS.85).aspx
+        - name: "XMPlaneNormalizeEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420149(v=VS.85).aspx
+        - name: "XMPlaneNotEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee420150(v=VS.85).aspx
+        - name: "XMPlaneTransform"
+          href: https://msdn.microsoft.com/en-us/library/Ee420151(v=VS.85).aspx
+        - name: "XMPlaneTransformStream"
+          href: https://msdn.microsoft.com/en-us/library/Hh404689(v=VS.85).aspx
+      - name: "DirectXMath Library Quaternion Functions"
+        href: ovw-xnamath-reference-functions-quaternion.md
+        items: 
+        - name: "XMQuaternionBaryCentric"
+          href: https://msdn.microsoft.com/en-us/library/Ee420153(v=VS.85).aspx
+        - name: "XMQuaternionBaryCentricV"
+          href: https://msdn.microsoft.com/en-us/library/Ee420154(v=VS.85).aspx
+        - name: "XMQuaternionConjugate"
+          href: https://msdn.microsoft.com/en-us/library/Ee420155(v=VS.85).aspx
+        - name: "XMQuaternionDot"
+          href: https://msdn.microsoft.com/en-us/library/Ee420156(v=VS.85).aspx
+        - name: "XMQuaternionEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee420157(v=VS.85).aspx
+        - name: "XMQuaternionExp"
+          href: https://msdn.microsoft.com/en-us/library/Ee420158(v=VS.85).aspx
+        - name: "XMQuaternionIdentity"
+          href: https://msdn.microsoft.com/en-us/library/Ee420159(v=VS.85).aspx
+        - name: "XMQuaternionInverse"
+          href: https://msdn.microsoft.com/en-us/library/Ee420160(v=VS.85).aspx
+        - name: "XMQuaternionIsIdentity"
+          href: https://msdn.microsoft.com/en-us/library/Ee420161(v=VS.85).aspx
+        - name: "XMQuaternionIsInfinite"
+          href: https://msdn.microsoft.com/en-us/library/Ee420162(v=VS.85).aspx
+        - name: "XMQuaternionIsNaN"
+          href: https://msdn.microsoft.com/en-us/library/Ee420163(v=VS.85).aspx
+        - name: "XMQuaternionLength"
+          href: https://msdn.microsoft.com/en-us/library/Ee420164(v=VS.85).aspx
+        - name: "XMQuaternionLengthSq"
+          href: https://msdn.microsoft.com/en-us/library/Ee420165(v=VS.85).aspx
+        - name: "XMQuaternionLn"
+          href: https://msdn.microsoft.com/en-us/library/Ee420166(v=VS.85).aspx
+        - name: "XMQuaternionMultiply"
+          href: https://msdn.microsoft.com/en-us/library/Ee420167(v=VS.85).aspx
+        - name: "XMQuaternionNormalize"
+          href: https://msdn.microsoft.com/en-us/library/Ee420168(v=VS.85).aspx
+        - name: "XMQuaternionNormalizeEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420169(v=VS.85).aspx
+        - name: "XMQuaternionNotEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee420170(v=VS.85).aspx
+        - name: "XMQuaternionReciprocalLength"
+          href: https://msdn.microsoft.com/en-us/library/Ee420171(v=VS.85).aspx
+        - name: "XMQuaternionRotationAxis"
+          href: https://msdn.microsoft.com/en-us/library/Ee420172(v=VS.85).aspx
+        - name: "XMQuaternionRotationMatrix"
+          href: https://msdn.microsoft.com/en-us/library/Ee420173(v=VS.85).aspx
+        - name: "XMQuaternionRotationNormal"
+          href: https://msdn.microsoft.com/en-us/library/Ee420174(v=VS.85).aspx
+        - name: "XMQuaternionRotationRollPitchYaw"
+          href: https://msdn.microsoft.com/en-us/library/Ee420175(v=VS.85).aspx
+        - name: "XMQuaternionRotationRollPitchYawFromVector"
+          href: https://msdn.microsoft.com/en-us/library/Ee420176(v=VS.85).aspx
+        - name: "XMQuaternionSlerp"
+          href: https://msdn.microsoft.com/en-us/library/Ee420177(v=VS.85).aspx
+        - name: "XMQuaternionSlerpV"
+          href: https://msdn.microsoft.com/en-us/library/Ee420178(v=VS.85).aspx
+        - name: "XMQuaternionSquad"
+          href: https://msdn.microsoft.com/en-us/library/Ee420179(v=VS.85).aspx
+        - name: "XMQuaternionSquadSetup"
+          href: https://msdn.microsoft.com/en-us/library/Ee420180(v=VS.85).aspx
+        - name: "XMQuaternionSquadV"
+          href: https://msdn.microsoft.com/en-us/library/Ee420181(v=VS.85).aspx
+        - name: "XMQuaternionToAxisAngle"
+          href: https://msdn.microsoft.com/en-us/library/Ee420182(v=VS.85).aspx
+      - name: "DirectXMath Library Scalar Functions"
+        href: ovw-xnamath-reference-functions-scalar.md
+        items: 
+        - name: "XMScalarACos"
+          href: https://msdn.microsoft.com/en-us/library/Ee420183(v=VS.85).aspx
+        - name: "XMScalarACosEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420184(v=VS.85).aspx
+        - name: "XMScalarASin"
+          href: https://msdn.microsoft.com/en-us/library/Ee420185(v=VS.85).aspx
+        - name: "XMScalarASinEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420186(v=VS.85).aspx
+        - name: "XMScalarCos"
+          href: https://msdn.microsoft.com/en-us/library/Ee420187(v=VS.85).aspx
+        - name: "XMScalarCosEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420188(v=VS.85).aspx
+        - name: "XMScalarModAngle"
+          href: https://msdn.microsoft.com/en-us/library/Ee420189(v=VS.85).aspx
+        - name: "XMScalarNearEqual"
+          href: https://msdn.microsoft.com/en-us/library/Ee420190(v=VS.85).aspx
+        - name: "XMScalarSin"
+          href: https://msdn.microsoft.com/en-us/library/Ee420191(v=VS.85).aspx
+        - name: "XMScalarSinCos"
+          href: https://msdn.microsoft.com/en-us/library/Ee420192(v=VS.85).aspx
+        - name: "XMScalarSinCosEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420193(v=VS.85).aspx
+        - name: "XMScalarSinEst"
+          href: https://msdn.microsoft.com/en-us/library/Ee420194(v=VS.85).aspx
+      - name: "DirectXMath Library Vector Functions"
+        href: ovw-xnamath-reference-functions-vector.md
+        items: 
+        - name: "Vector Arithmetic Functions"
+          href: ovw-xnamath-reference-functions-vector-arithmetic.md
+          items: 
+          - name: "XMVectorAbs"
+            href: https://msdn.microsoft.com/en-us/library/Ee420988(v=VS.85).aspx
+          - name: "XMVectorAdd"
+            href: https://msdn.microsoft.com/en-us/library/Ee420991(v=VS.85).aspx
+          - name: "XMVectorAddAngles"
+            href: https://msdn.microsoft.com/en-us/library/Ee420992(v=VS.85).aspx
+          - name: "XMVectorCeiling"
+            href: https://msdn.microsoft.com/en-us/library/Ee421007(v=VS.85).aspx
+          - name: "XMVectorClamp"
+            href: https://msdn.microsoft.com/en-us/library/Ee421008(v=VS.85).aspx
+          - name: "XMVectorDivide"
+            href: https://msdn.microsoft.com/en-us/library/Ff729805(v=VS.85).aspx
+          - name: "XMVectorFloor"
+            href: https://msdn.microsoft.com/en-us/library/Ee421024(v=VS.85).aspx
+          - name: "XMVectorIsInfinite"
+            href: https://msdn.microsoft.com/en-us/library/Ee421169(v=VS.85).aspx
+          - name: "XMVectorIsNaN"
+            href: https://msdn.microsoft.com/en-us/library/Ee421170(v=VS.85).aspx
+          - name: "XMVectorMax"
+            href: https://msdn.microsoft.com/en-us/library/Ee421177(v=VS.85).aspx
+          - name: "XMVectorMin"
+            href: https://msdn.microsoft.com/en-us/library/Ee421181(v=VS.85).aspx
+          - name: "XMVectorMod"
+            href: https://msdn.microsoft.com/en-us/library/Ee421183(v=VS.85).aspx
+          - name: "XMVectorModAngles"
+            href: https://msdn.microsoft.com/en-us/library/Ee421184(v=VS.85).aspx
+          - name: "XMVectorMultiply"
+            href: https://msdn.microsoft.com/en-us/library/Ee421185(v=VS.85).aspx
+          - name: "XMVectorMultiplyAdd"
+            href: https://msdn.microsoft.com/en-us/library/Ee421186(v=VS.85).aspx
+          - name: "XMVectorNegate"
+            href: https://msdn.microsoft.com/en-us/library/Ee421188(v=VS.85).aspx
+          - name: "XMVectorNegativeMultiplySubtract"
+            href: https://msdn.microsoft.com/en-us/library/Ee421189(v=VS.85).aspx
+          - name: "XMVectorPow"
+            href: https://msdn.microsoft.com/en-us/library/Ee421196(v=VS.85).aspx
+          - name: "XMVectorReciprocal"
+            href: https://msdn.microsoft.com/en-us/library/Ee421198(v=VS.85).aspx
+          - name: "XMVectorReciprocalEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421199(v=VS.85).aspx
+          - name: "XMVectorReciprocalSqrt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421200(v=VS.85).aspx
+          - name: "XMVectorReciprocalSqrtEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421201(v=VS.85).aspx
+          - name: "XMVectorRound"
+            href: https://msdn.microsoft.com/en-us/library/Ee421208(v=VS.85).aspx
+          - name: "XMVectorSaturate"
+            href: https://msdn.microsoft.com/en-us/library/Ee421209(v=VS.85).aspx
+          - name: "XMVectorScale"
+            href: https://msdn.microsoft.com/en-us/library/Ee421210(v=VS.85).aspx
+          - name: "XMVectorSqrt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421356(v=VS.85).aspx
+          - name: "XMVectorSqrtEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421357(v=VS.85).aspx
+          - name: "XMVectorSubtract"
+            href: https://msdn.microsoft.com/en-us/library/Ee421358(v=VS.85).aspx
+          - name: "XMVectorSubtractAngles"
+            href: https://msdn.microsoft.com/en-us/library/Ee421359(v=VS.85).aspx
+          - name: "XMVectorSum"
+            href: https://msdn.microsoft.com/en-us/library/Mt802013(v=VS.85).aspx
+          - name: "XMVectorTruncate"
+            href: https://msdn.microsoft.com/en-us/library/Ee421366(v=VS.85).aspx
+        - name: "Bit-Wise Vector Functions"
+          href: ovw-xnamath-reference-functions-vector-bit-wise.md
+          items: 
+          - name: "XMVectorAndCInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420993(v=VS.85).aspx
+          - name: "XMVectorAndInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420994(v=VS.85).aspx
+          - name: "XMVectorNorInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421190(v=VS.85).aspx
+          - name: "XMVectorNotEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee421191(v=VS.85).aspx
+          - name: "XMVectorNotEqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421192(v=VS.85).aspx
+          - name: "XMVectorOrInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421193(v=VS.85).aspx
+          - name: "XMVectorXorInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421375(v=VS.85).aspx
+        - name: "Vector Comparison Functions"
+          href: ovw-xnamath-reference-functions-vector-comparison.md
+          items: 
+          - name: "XMVectorEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx
+          - name: "XMVectorEqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421014(v=VS.85).aspx
+          - name: "XMVectorEqualIntR"
+            href: https://msdn.microsoft.com/en-us/library/Hh404784(v=VS.85).aspx
+          - name: "XMVectorEqualR"
+            href: https://msdn.microsoft.com/en-us/library/Hh404785(v=VS.85).aspx
+          - name: "XMVectorGreater"
+            href: https://msdn.microsoft.com/en-us/library/Ee421155(v=VS.85).aspx
+          - name: "XMVectorGreaterOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee421156(v=VS.85).aspx
+          - name: "XMVectorGreaterOrEqualR"
+            href: https://msdn.microsoft.com/en-us/library/Hh404798(v=VS.85).aspx
+          - name: "XMVectorGreaterR"
+            href: https://msdn.microsoft.com/en-us/library/Hh404799(v=VS.85).aspx
+          - name: "XMVectorLess"
+            href: https://msdn.microsoft.com/en-us/library/Ee421173(v=VS.85).aspx
+          - name: "XMVectorLessOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee421174(v=VS.85).aspx
+          - name: "XMVectorNearEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee421187(v=VS.85).aspx
+        - name: "Component-Wise Vector Functions"
+          href: ovw-xnamath-reference-functions-vector-component-wise.md
+          items: 
+          - name: "XMVectorInsert"
+            href: https://msdn.microsoft.com/en-us/library/Hh404801(v=VS.85).aspx
+          - name: "XMVectorMergeXY"
+            href: https://msdn.microsoft.com/en-us/library/Ee421179(v=VS.85).aspx
+          - name: "XMVectorMergeZW"
+            href: https://msdn.microsoft.com/en-us/library/Ee421180(v=VS.85).aspx
+          - name: "XMVectorPermute"
+            href: https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx
+          - name: "XMVectorRotateLeft"
+            href: https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx
+          - name: "XMVectorRotateRight"
+            href: https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx
+          - name: "XMVectorSelect"
+            href: https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx
+          - name: "XMVectorSelectControl"
+            href: https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx
+          - name: "XMVectorShiftLeft"
+            href: https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx
+          - name: "XMVectorSplatW"
+            href: https://msdn.microsoft.com/en-us/library/Ee421352(v=VS.85).aspx
+          - name: "XMVectorSplatX"
+            href: https://msdn.microsoft.com/en-us/library/Ee421353(v=VS.85).aspx
+          - name: "XMVectorSplatY"
+            href: https://msdn.microsoft.com/en-us/library/Ee421354(v=VS.85).aspx
+          - name: "XMVectorSplatZ"
+            href: https://msdn.microsoft.com/en-us/library/Ee421355(v=VS.85).aspx
+          - name: "XMVectorSwizzle"
+            href: https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx
+        - name: "Geometric Vector Functions"
+          href: ovw-xnamath-reference-functions-vector-geometric.md
+          items: 
+          - name: "XMVectorBaryCentric"
+            href: https://msdn.microsoft.com/en-us/library/Ee421003(v=VS.85).aspx
+          - name: "XMVectorBaryCentricV"
+            href: https://msdn.microsoft.com/en-us/library/Ee421004(v=VS.85).aspx
+          - name: "XMVectorCatmullRom"
+            href: https://msdn.microsoft.com/en-us/library/Ee421005(v=VS.85).aspx
+          - name: "XMVectorCatmullRomV"
+            href: https://msdn.microsoft.com/en-us/library/Ee421006(v=VS.85).aspx
+          - name: "XMVectorHermite"
+            href: https://msdn.microsoft.com/en-us/library/Ee421159(v=VS.85).aspx
+          - name: "XMVectorHermiteV"
+            href: https://msdn.microsoft.com/en-us/library/Ee421160(v=VS.85).aspx
+          - name: "XMVectorInBounds"
+            href: https://msdn.microsoft.com/en-us/library/Ee421166(v=VS.85).aspx
+          - name: "XMVectorInBoundsR"
+            href: https://msdn.microsoft.com/en-us/library/Hh404800(v=VS.85).aspx
+          - name: "XMVectorLerp"
+            href: https://msdn.microsoft.com/en-us/library/Ee421171(v=VS.85).aspx
+          - name: "XMVectorLerpV"
+            href: https://msdn.microsoft.com/en-us/library/Ee421172(v=VS.85).aspx
+        - name: "Vector Initialization Functions"
+          href: ovw-xnamath-reference-functions-vector-initialization.md
+          items: 
+          - name: "XMVectorFalseInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421023(v=VS.85).aspx
+          - name: "XMVectorReplicate"
+            href: https://msdn.microsoft.com/en-us/library/Ee421202(v=VS.85).aspx
+          - name: "XMVectorReplicateInt"
+            href: https://msdn.microsoft.com/en-us/library/Hh404803(v=VS.85).aspx
+          - name: "XMVectorReplicateIntPtr"
+            href: https://msdn.microsoft.com/en-us/library/Hh404804(v=VS.85).aspx
+          - name: "XMVectorReplicatePtr"
+            href: https://msdn.microsoft.com/en-us/library/Ee421205(v=VS.85).aspx
+          - name: "XMVectorSet"
+            href: https://msdn.microsoft.com/en-us/library/Ee421213(v=VS.85).aspx
+          - name: "XMVectorSetBinaryConstant"
+            href: https://msdn.microsoft.com/en-us/library/Hh404809(v=VS.85).aspx
+          - name: "XMVectorSetInt"
+            href: https://msdn.microsoft.com/en-us/library/Hh404812(v=VS.85).aspx
+          - name: "XMVectorSplatConstant"
+            href: https://msdn.microsoft.com/en-us/library/Hh404824(v=VS.85).aspx
+          - name: "XMVectorSplatConstantInt"
+            href: https://msdn.microsoft.com/en-us/library/Hh404825(v=VS.85).aspx
+          - name: "XMVectorSplatEpsilon"
+            href: https://msdn.microsoft.com/en-us/library/Ee421347(v=VS.85).aspx
+          - name: "XMVectorSplatInfinity"
+            href: https://msdn.microsoft.com/en-us/library/Ee421348(v=VS.85).aspx
+          - name: "XMVectorSplatOne"
+            href: https://msdn.microsoft.com/en-us/library/Ee421349(v=VS.85).aspx
+          - name: "XMVectorSplatQNaN"
+            href: https://msdn.microsoft.com/en-us/library/Ee421350(v=VS.85).aspx
+          - name: "XMVectorSplatSignMask"
+            href: https://msdn.microsoft.com/en-us/library/Ee421351(v=VS.85).aspx
+          - name: "XMVectorTrueInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee421365(v=VS.85).aspx
+          - name: "XMVectorZero"
+            href: https://msdn.microsoft.com/en-us/library/Ee421376(v=VS.85).aspx
+        - name: "Transcendental Vector Functions"
+          href: ovw-xnamath-reference-functions-vector-transcendental.md
+          items: 
+          - name: "XMVectorACos"
+            href: https://msdn.microsoft.com/en-us/library/Ee420989(v=VS.85).aspx
+          - name: "XMVectorACosEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420990(v=VS.85).aspx
+          - name: "XMVectorASin"
+            href: https://msdn.microsoft.com/en-us/library/Ee420995(v=VS.85).aspx
+          - name: "XMVectorASinEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420996(v=VS.85).aspx
+          - name: "XMVectorATan"
+            href: https://msdn.microsoft.com/en-us/library/Ee420997(v=VS.85).aspx
+          - name: "XMVectorATan2"
+            href: https://msdn.microsoft.com/en-us/library/Ee420998(v=VS.85).aspx
+          - name: "XMVectorATan2Est"
+            href: https://msdn.microsoft.com/en-us/library/Ee421001(v=VS.85).aspx
+          - name: "XMVectorATanEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421002(v=VS.85).aspx
+          - name: "XMVectorCos"
+            href: https://msdn.microsoft.com/en-us/library/Ee421009(v=VS.85).aspx
+          - name: "XMVectorCosEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421010(v=VS.85).aspx
+          - name: "XMVectorCosH"
+            href: https://msdn.microsoft.com/en-us/library/Ee421011(v=VS.85).aspx
+          - name: "XMVectorExp"
+            href: https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx
+          - name: "XMVectorExp2"
+            href: https://msdn.microsoft.com/en-us/library/Dn280641(v=VS.85).aspx
+          - name: "XMVectorExpE"
+            href: https://msdn.microsoft.com/en-us/library/Dn280642(v=VS.85).aspx
+          - name: "XMVectorLog"
+            href: https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx
+          - name: "XMVectorLog2"
+            href: https://msdn.microsoft.com/en-us/library/Dn280647(v=VS.85).aspx
+          - name: "XMVectorLogE"
+            href: https://msdn.microsoft.com/en-us/library/Dn280648(v=VS.85).aspx
+          - name: "XMVectorSin"
+            href: https://msdn.microsoft.com/en-us/library/Ee421238(v=VS.85).aspx
+          - name: "XMVectorSinCos"
+            href: https://msdn.microsoft.com/en-us/library/Ee421239(v=VS.85).aspx
+          - name: "XMVectorSinCosEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421240(v=VS.85).aspx
+          - name: "XMVectorSinEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421241(v=VS.85).aspx
+          - name: "XMVectorSinH"
+            href: https://msdn.microsoft.com/en-us/library/Ee421242(v=VS.85).aspx
+          - name: "XMVectorTan"
+            href: https://msdn.microsoft.com/en-us/library/Ee421361(v=VS.85).aspx
+          - name: "XMVectorTanEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee421362(v=VS.85).aspx
+          - name: "XMVectorTanH"
+            href: https://msdn.microsoft.com/en-us/library/Ee421363(v=VS.85).aspx
+      - name: "DirectXMath Library 2D Vector Functions"
+        href: ovw-xnamath-reference-functions-vector2.md
+        items: 
+        - name: "DirectXMath Library 2D Vector Comparison Functions"
+          href: ovw-xnamath-reference-functions-vector2-comparison.md
+          items: 
+          - name: "XMVector2Equal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420757(v=VS.85).aspx
+          - name: "XMVector2EqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420759(v=VS.85).aspx
+          - name: "XMVector2EqualIntR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420760(v=VS.85).aspx
+          - name: "XMVector2EqualR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420762(v=VS.85).aspx
+          - name: "XMVector2Greater"
+            href: https://msdn.microsoft.com/en-us/library/Ee420764(v=VS.85).aspx
+          - name: "XMVector2GreaterOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420766(v=VS.85).aspx
+          - name: "XMVector2GreaterOrEqualR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420768(v=VS.85).aspx
+          - name: "XMVector2GreaterR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420769(v=VS.85).aspx
+          - name: "XMVector2IsInfinite"
+            href: https://msdn.microsoft.com/en-us/library/Ee420773(v=VS.85).aspx
+          - name: "XMVector2IsNaN"
+            href: https://msdn.microsoft.com/en-us/library/Ee420774(v=VS.85).aspx
+          - name: "XMVector2Less"
+            href: https://msdn.microsoft.com/en-us/library/Ee420779(v=VS.85).aspx
+          - name: "XMVector2LessOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420780(v=VS.85).aspx
+          - name: "XMVector2NearEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420782(v=VS.85).aspx
+          - name: "XMVector2NotEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420785(v=VS.85).aspx
+          - name: "XMVector2NotEqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420786(v=VS.85).aspx
+        - name: "DirectXMath Library 2D Vector Geometric Functions"
+          href: ovw-xnamath-reference-functions-vector2-geometric.md
+          items: 
+          - name: "XMVector2AngleBetweenNormals"
+            href: https://msdn.microsoft.com/en-us/library/Ee420744(v=VS.85).aspx
+          - name: "XMVector2AngleBetweenNormalsEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420745(v=VS.85).aspx
+          - name: "XMVector2AngleBetweenVectors"
+            href: https://msdn.microsoft.com/en-us/library/Ee420747(v=VS.85).aspx
+          - name: "XMVector2ClampLength"
+            href: https://msdn.microsoft.com/en-us/library/Ee420749(v=VS.85).aspx
+          - name: "XMVector2ClampLengthV"
+            href: https://msdn.microsoft.com/en-us/library/Ee420752(v=VS.85).aspx
+          - name: "XMVector2Cross"
+            href: https://msdn.microsoft.com/en-us/library/Ee420754(v=VS.85).aspx
+          - name: "XMVector2Dot"
+            href: https://msdn.microsoft.com/en-us/library/Ee420755(v=VS.85).aspx
+          - name: "XMVector2InBounds"
+            href: https://msdn.microsoft.com/en-us/library/Ee420770(v=VS.85).aspx
+          - name: "XMVector2IntersectLine"
+            href: https://msdn.microsoft.com/en-us/library/Ee420772(v=VS.85).aspx
+          - name: "XMVector2Length"
+            href: https://msdn.microsoft.com/en-us/library/Ee420775(v=VS.85).aspx
+          - name: "XMVector2LengthEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420776(v=VS.85).aspx
+          - name: "XMVector2LengthSq"
+            href: https://msdn.microsoft.com/en-us/library/Ee420778(v=VS.85).aspx
+          - name: "XMVector2LinePointDistance"
+            href: https://msdn.microsoft.com/en-us/library/Ee420781(v=VS.85).aspx
+          - name: "XMVector2Normalize"
+            href: https://msdn.microsoft.com/en-us/library/Ee420783(v=VS.85).aspx
+          - name: "XMVector2NormalizeEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420784(v=VS.85).aspx
+          - name: "XMVector2Orthogonal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420787(v=VS.85).aspx
+          - name: "XMVector2ReciprocalLength"
+            href: https://msdn.microsoft.com/en-us/library/Ee420788(v=VS.85).aspx
+          - name: "XMVector2ReciprocalLengthEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420789(v=VS.85).aspx
+          - name: "XMVector2Reflect"
+            href: https://msdn.microsoft.com/en-us/library/Ee420790(v=VS.85).aspx
+          - name: "XMVector2Refract"
+            href: https://msdn.microsoft.com/en-us/library/Ee420791(v=VS.85).aspx
+          - name: "XMVector2RefractV"
+            href: https://msdn.microsoft.com/en-us/library/Ee420792(v=VS.85).aspx
+        - name: "DirectXMath Library 2D Vector Transformation Functions"
+          href: ovw-xnamath-reference-functions-vector2-transformation.md
+          items: 
+          - name: "XMVector2Transform"
+            href: https://msdn.microsoft.com/en-us/library/Ee420793(v=VS.85).aspx
+          - name: "XMVector2TransformCoord"
+            href: https://msdn.microsoft.com/en-us/library/Ee420794(v=VS.85).aspx
+          - name: "XMVector2TransformCoordStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404773(v=VS.85).aspx
+          - name: "XMVector2TransformNormal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420796(v=VS.85).aspx
+          - name: "XMVector2TransformNormalStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404774(v=VS.85).aspx
+          - name: "XMVector2TransformStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404775(v=VS.85).aspx
+      - name: "DirectXMath Library 3D Vector Functions"
+        href: ovw-xnamath-reference-functions-vector3.md
+        items: 
+        - name: "DirectXMath Library 3D Vector Comparison Functions"
+          href: ovw-xnamath-reference-functions-vector3-comparison.md
+          items: 
+          - name: "XMVector3Equal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420808(v=VS.85).aspx
+          - name: "XMVector3EqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420809(v=VS.85).aspx
+          - name: "XMVector3EqualIntR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420810(v=VS.85).aspx
+          - name: "XMVector3EqualR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420811(v=VS.85).aspx
+          - name: "XMVector3Greater"
+            href: https://msdn.microsoft.com/en-us/library/Ee420812(v=VS.85).aspx
+          - name: "XMVector3GreaterOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420813(v=VS.85).aspx
+          - name: "XMVector3GreaterOrEqualR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420814(v=VS.85).aspx
+          - name: "XMVector3GreaterR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420815(v=VS.85).aspx
+          - name: "XMVector3IsInfinite"
+            href: https://msdn.microsoft.com/en-us/library/Ee420819(v=VS.85).aspx
+          - name: "XMVector3IsNaN"
+            href: https://msdn.microsoft.com/en-us/library/Ee420820(v=VS.85).aspx
+          - name: "XMVector3Less"
+            href: https://msdn.microsoft.com/en-us/library/Ee420824(v=VS.85).aspx
+          - name: "XMVector3LessOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420825(v=VS.85).aspx
+          - name: "XMVector3NearEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420827(v=VS.85).aspx
+          - name: "XMVector3NotEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420830(v=VS.85).aspx
+          - name: "XMVector3NotEqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420831(v=VS.85).aspx
+        - name: "DirectXMath Library 3D Vector Geometric Functions"
+          href: ovw-xnamath-reference-functions-vector3-geometric.md
+          items: 
+          - name: "XMVector3AngleBetweenNormals"
+            href: https://msdn.microsoft.com/en-us/library/Ee420800(v=VS.85).aspx
+          - name: "XMVector3AngleBetweenNormalsEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420801(v=VS.85).aspx
+          - name: "XMVector3AngleBetweenVectors"
+            href: https://msdn.microsoft.com/en-us/library/Ee420802(v=VS.85).aspx
+          - name: "XMVector3ClampLength"
+            href: https://msdn.microsoft.com/en-us/library/Ee420803(v=VS.85).aspx
+          - name: "XMVector3ClampLengthV"
+            href: https://msdn.microsoft.com/en-us/library/Ee420804(v=VS.85).aspx
+          - name: "XMVector3ComponentsFromNormal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420805(v=VS.85).aspx
+          - name: "XMVector3Cross"
+            href: https://msdn.microsoft.com/en-us/library/Ee420806(v=VS.85).aspx
+          - name: "XMVector3Dot"
+            href: https://msdn.microsoft.com/en-us/library/Ee420807(v=VS.85).aspx
+          - name: "XMVector3InBounds"
+            href: https://msdn.microsoft.com/en-us/library/Ee420816(v=VS.85).aspx
+          - name: "XMVector3Length"
+            href: https://msdn.microsoft.com/en-us/library/Ee420821(v=VS.85).aspx
+          - name: "XMVector3LengthEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420822(v=VS.85).aspx
+          - name: "XMVector3LengthSq"
+            href: https://msdn.microsoft.com/en-us/library/Ee420823(v=VS.85).aspx
+          - name: "XMVector3LinePointDistance"
+            href: https://msdn.microsoft.com/en-us/library/Ee420826(v=VS.85).aspx
+          - name: "XMVector3Normalize"
+            href: https://msdn.microsoft.com/en-us/library/Ee420828(v=VS.85).aspx
+          - name: "XMVector3NormalizeEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420829(v=VS.85).aspx
+          - name: "XMVector3Orthogonal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420933(v=VS.85).aspx
+          - name: "XMVector3ReciprocalLength"
+            href: https://msdn.microsoft.com/en-us/library/Ee420936(v=VS.85).aspx
+          - name: "XMVector3ReciprocalLengthEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420937(v=VS.85).aspx
+          - name: "XMVector3Reflect"
+            href: https://msdn.microsoft.com/en-us/library/Ee420938(v=VS.85).aspx
+          - name: "XMVector3Refract"
+            href: https://msdn.microsoft.com/en-us/library/Ee420939(v=VS.85).aspx
+          - name: "XMVector3RefractV"
+            href: https://msdn.microsoft.com/en-us/library/Ee420940(v=VS.85).aspx
+        - name: "DirectXMath Library 3D Vector Transformation Functions"
+          href: ovw-xnamath-reference-functions-vector3-transformation.md
+          items: 
+          - name: "XMVector3InverseRotate"
+            href: https://msdn.microsoft.com/en-us/library/Ee420818(v=VS.85).aspx
+          - name: "XMVector3Project"
+            href: https://msdn.microsoft.com/en-us/library/Ee420934(v=VS.85).aspx
+          - name: "XMVector3ProjectStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404776(v=VS.85).aspx
+          - name: "XMVector3Rotate"
+            href: https://msdn.microsoft.com/en-us/library/Ee420941(v=VS.85).aspx
+          - name: "XMVector3Transform"
+            href: https://msdn.microsoft.com/en-us/library/Ee420942(v=VS.85).aspx
+          - name: "XMVector3TransformCoord"
+            href: https://msdn.microsoft.com/en-us/library/Ee420943(v=VS.85).aspx
+          - name: "XMVector3TransformCoordStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404778(v=VS.85).aspx
+          - name: "XMVector3TransformNormal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420945(v=VS.85).aspx
+          - name: "XMVector3TransformNormalStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404779(v=VS.85).aspx
+          - name: "XMVector3TransformStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404780(v=VS.85).aspx
+          - name: "XMVector3Unproject"
+            href: https://msdn.microsoft.com/en-us/library/Ee420949(v=VS.85).aspx
+          - name: "XMVector3UnprojectStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404782(v=VS.85).aspx
+      - name: "DirectXMath Library 4D Vector Functions"
+        href: ovw-xnamath-reference-functions-vector4.md
+        items: 
+        - name: "DirectXMath Library 4D Vector Comparison Functions"
+          href: ovw-xnamath-reference-functions-vector4-comparison.md
+          items: 
+          - name: "XMVector4Equal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420958(v=VS.85).aspx
+          - name: "XMVector4EqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420959(v=VS.85).aspx
+          - name: "XMVector4EqualIntR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420960(v=VS.85).aspx
+          - name: "XMVector4EqualR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420961(v=VS.85).aspx
+          - name: "XMVector4Greater"
+            href: https://msdn.microsoft.com/en-us/library/Ee420962(v=VS.85).aspx
+          - name: "XMVector4GreaterOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420963(v=VS.85).aspx
+          - name: "XMVector4GreaterOrEqualR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420964(v=VS.85).aspx
+          - name: "XMVector4GreaterR"
+            href: https://msdn.microsoft.com/en-us/library/Ee420965(v=VS.85).aspx
+          - name: "XMVector4IsInfinite"
+            href: https://msdn.microsoft.com/en-us/library/Ee420968(v=VS.85).aspx
+          - name: "XMVector4IsNaN"
+            href: https://msdn.microsoft.com/en-us/library/Ee420969(v=VS.85).aspx
+          - name: "XMVector4Less"
+            href: https://msdn.microsoft.com/en-us/library/Ee420973(v=VS.85).aspx
+          - name: "XMVector4LessOrEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420974(v=VS.85).aspx
+          - name: "XMVector4NearEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420975(v=VS.85).aspx
+          - name: "XMVector4NotEqual"
+            href: https://msdn.microsoft.com/en-us/library/Ee420978(v=VS.85).aspx
+          - name: "XMVector4NotEqualInt"
+            href: https://msdn.microsoft.com/en-us/library/Ee420979(v=VS.85).aspx
+        - name: "DirectXMath Library 4D Vector Geometric Functions"
+          href: ovw-xnamath-reference-functions-vector4-geometric.md
+          items: 
+          - name: "XMVector4AngleBetweenNormals"
+            href: https://msdn.microsoft.com/en-us/library/Ee420951(v=VS.85).aspx
+          - name: "XMVector4AngleBetweenNormalsEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420952(v=VS.85).aspx
+          - name: "XMVector4AngleBetweenVectors"
+            href: https://msdn.microsoft.com/en-us/library/Ee420953(v=VS.85).aspx
+          - name: "XMVector4ClampLength"
+            href: https://msdn.microsoft.com/en-us/library/Ee420954(v=VS.85).aspx
+          - name: "XMVector4ClampLengthV"
+            href: https://msdn.microsoft.com/en-us/library/Ee420955(v=VS.85).aspx
+          - name: "XMVector4Cross"
+            href: https://msdn.microsoft.com/en-us/library/Ee420956(v=VS.85).aspx
+          - name: "XMVector4Dot"
+            href: https://msdn.microsoft.com/en-us/library/Ee420957(v=VS.85).aspx
+          - name: "XMVector4InBounds"
+            href: https://msdn.microsoft.com/en-us/library/Ee420966(v=VS.85).aspx
+          - name: "XMVector4Length"
+            href: https://msdn.microsoft.com/en-us/library/Ee420970(v=VS.85).aspx
+          - name: "XMVector4LengthEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420971(v=VS.85).aspx
+          - name: "XMVector4LengthSq"
+            href: https://msdn.microsoft.com/en-us/library/Ee420972(v=VS.85).aspx
+          - name: "XMVector4Normalize"
+            href: https://msdn.microsoft.com/en-us/library/Ee420976(v=VS.85).aspx
+          - name: "XMVector4NormalizeEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420977(v=VS.85).aspx
+          - name: "XMVector4Orthogonal"
+            href: https://msdn.microsoft.com/en-us/library/Ee420980(v=VS.85).aspx
+          - name: "XMVector4ReciprocalLength"
+            href: https://msdn.microsoft.com/en-us/library/Ee420981(v=VS.85).aspx
+          - name: "XMVector4ReciprocalLengthEst"
+            href: https://msdn.microsoft.com/en-us/library/Ee420982(v=VS.85).aspx
+          - name: "XMVector4Reflect"
+            href: https://msdn.microsoft.com/en-us/library/Ee420983(v=VS.85).aspx
+          - name: "XMVector4Refract"
+            href: https://msdn.microsoft.com/en-us/library/Ee420984(v=VS.85).aspx
+          - name: "XMVector4RefractV"
+            href: https://msdn.microsoft.com/en-us/library/Ee420985(v=VS.85).aspx
+        - name: "DirectXMath Library 4D Vector Transformation Functions"
+          href: ovw-xnamath-reference-functions-vector4-transformation.md
+          items: 
+          - name: "XMVector4Transform"
+            href: https://msdn.microsoft.com/en-us/library/Ee420986(v=VS.85).aspx
+          - name: "XMVector4TransformStream"
+            href: https://msdn.microsoft.com/en-us/library/Hh404783(v=VS.85).aspx
+      - name: "DirectXMath Library Template Functions"
+        href: ovw-xnamath-templates.md
+        items: 
+        - name: "XMMax"
+          href: xmmax-template.md
+        - name: "XMMin"
+          href: xmmin-template.md
+        - name: "XMVectorPermute"
+          href: xmvectorpermute-template.md
+        - name: "XMVectorRotateLeft"
+          href: xmvectorrotateleft-template.md
+        - name: "XMVectorRotateRight"
+          href: xmvectorrotateright-template.md
+        - name: "XMVectorShiftLeft"
+          href: xmvectorshiftleft-template.md
+        - name: "XMVectorSwizzle"
+          href: xmvectorswizzle-template.md
+        - name: "XMVectorInsert"
+          href: xmvectorinsert-template.md
+      - name: "DirectXMath Triangle Test Functions"
+        href: ovw-xnamath-triangletests.md
+        items: 
+        - name: "ContainedBy"
+          href: /windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby
+        - name: "Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)"
+          href: https://msdn.microsoft.com/en-us/library/Hh855919(v=VS.85).aspx
+        - name: "Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, float&)"
+          href: https://msdn.microsoft.com/en-us/library/Hh855922(v=VS.85).aspx
+        - name: "Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)"
+          href: https://msdn.microsoft.com/en-us/library/Hh855933(v=VS.85).aspx
+      - name: "DirectXMath Library Utility Functions"
+        href: ovw-xnamath-utilities.md
+        items: 
+        - name: "XMComparisonAllFalse"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonallfalse
+        - name: "XMComparisonAllInBounds"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonallinbounds
+        - name: "XMComparisonAllTrue"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue
+        - name: "XMComparisonAnyFalse"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonanyfalse
+        - name: "XMComparisonAnyOutOfBounds"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonanyoutofbounds
+        - name: "XMComparisonAnyTrue"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonanytrue
+        - name: "XMComparisonMixed"
+          href: /windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonmixed
+        - name: "XMFresnelTerm"
+          href: https://msdn.microsoft.com/en-us/library/Ee419648(v=VS.85).aspx
+        - name: "XMVerifyCPUSupport"
+          href: https://msdn.microsoft.com/en-us/library/Ee421398(v=VS.85).aspx
+      - name: "DirectXMath Library Vector Accessor Functions"
+        href: ovw-xnamath-reference-functions-accessors.md
+        items: 
+        - name: "XMVectorGetByIndex"
+          href: https://msdn.microsoft.com/en-us/library/Hh404786(v=VS.85).aspx
+        - name: "XMVectorGetByIndexPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404787(v=VS.85).aspx
+        - name: "XMVectorGetIntByIndex"
+          href: https://msdn.microsoft.com/en-us/library/Hh404788(v=VS.85).aspx
+        - name: "XMVectorGetIntByIndexPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404789(v=VS.85).aspx
+        - name: "XMVectorGetIntW"
+          href: https://msdn.microsoft.com/en-us/library/Ee421029(v=VS.85).aspx
+        - name: "XMVectorGetIntWPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404790(v=VS.85).aspx
+        - name: "XMVectorGetIntX"
+          href: https://msdn.microsoft.com/en-us/library/Ee421031(v=VS.85).aspx
+        - name: "XMVectorGetIntXPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404791(v=VS.85).aspx
+        - name: "XMVectorGetIntY"
+          href: https://msdn.microsoft.com/en-us/library/Ee421033(v=VS.85).aspx
+        - name: "XMVectorGetIntYPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404792(v=VS.85).aspx
+        - name: "XMVectorGetIntZ"
+          href: https://msdn.microsoft.com/en-us/library/Ee421145(v=VS.85).aspx
+        - name: "XMVectorGetIntZPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404793(v=VS.85).aspx
+        - name: "XMVectorGetW"
+          href: https://msdn.microsoft.com/en-us/library/Ee421147(v=VS.85).aspx
+        - name: "XMVectorGetWPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404794(v=VS.85).aspx
+        - name: "XMVectorGetX"
+          href: https://msdn.microsoft.com/en-us/library/Ee421149(v=VS.85).aspx
+        - name: "XMVectorGetXPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404795(v=VS.85).aspx
+        - name: "XMVectorGetY"
+          href: https://msdn.microsoft.com/en-us/library/Ee421151(v=VS.85).aspx
+        - name: "XMVectorGetYPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404796(v=VS.85).aspx
+        - name: "XMVectorGetZ"
+          href: https://msdn.microsoft.com/en-us/library/Ee421153(v=VS.85).aspx
+        - name: "XMVectorGetZPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404797(v=VS.85).aspx
+        - name: "XMVectorSetByIndex"
+          href: https://msdn.microsoft.com/en-us/library/Hh404810(v=VS.85).aspx
+        - name: "XMVectorSetByIndexPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404811(v=VS.85).aspx
+        - name: "XMVectorSetIntByIndex"
+          href: https://msdn.microsoft.com/en-us/library/Hh404813(v=VS.85).aspx
+        - name: "XMVectorSetIntByIndexPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404814(v=VS.85).aspx
+        - name: "XMVectorSetIntW"
+          href: https://msdn.microsoft.com/en-us/library/Hh404815(v=VS.85).aspx
+        - name: "XMVectorSetIntWPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404816(v=VS.85).aspx
+        - name: "XMVectorSetIntX"
+          href: https://msdn.microsoft.com/en-us/library/Hh404817(v=VS.85).aspx
+        - name: "XMVectorSetIntXPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404818(v=VS.85).aspx
+        - name: "XMVectorSetIntY"
+          href: https://msdn.microsoft.com/en-us/library/Hh404819(v=VS.85).aspx
+        - name: "XMVectorSetIntYPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404820(v=VS.85).aspx
+        - name: "XMVectorSetIntZ"
+          href: https://msdn.microsoft.com/en-us/library/Hh404821(v=VS.85).aspx
+        - name: "XMVectorSetIntZPtr"
+          href: https://msdn.microsoft.com/en-us/library/Hh404822(v=VS.85).aspx
+        - name: "XMVectorSetW"
+          href: https://msdn.microsoft.com/en-us/library/Ee421229(v=VS.85).aspx
+        - name: "XMVectorSetWPtr"
+          href: https://msdn.microsoft.com/en-us/library/Ee421230(v=VS.85).aspx
+        - name: "XMVectorSetX"
+          href: https://msdn.microsoft.com/en-us/library/Ee421231(v=VS.85).aspx
+        - name: "XMVectorSetXPtr"
+          href: https://msdn.microsoft.com/en-us/library/Ee421232(v=VS.85).aspx
+        - name: "XMVectorSetY"
+          href: https://msdn.microsoft.com/en-us/library/Ee421233(v=VS.85).aspx
+        - name: "XMVectorSetYPtr"
+          href: https://msdn.microsoft.com/en-us/library/Ee421234(v=VS.85).aspx
+        - name: "XMVectorSetZ"
+          href: https://msdn.microsoft.com/en-us/library/Ee421235(v=VS.85).aspx
+        - name: "XMVectorSetZPtr"
+          href: https://msdn.microsoft.com/en-us/library/Ee421236(v=VS.85).aspx
+      - name: "DirectXMath Library Vector Load Functions"
+        href: ovw-xnamath-reference-functions-load.md
+        items: 
+        - name: "XMLoadByte2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404671(v=VS.85).aspx
+        - name: "XMLoadByte4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419747(v=VS.85).aspx
+        - name: "XMLoadByteN2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404672(v=VS.85).aspx
+        - name: "XMLoadByteN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419750(v=VS.85).aspx
+        - name: "XMLoadColor"
+          href: https://msdn.microsoft.com/en-us/library/Ee419752(v=VS.85).aspx
+        - name: "XMLoadDec4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419754(v=VS.85).aspx
+        - name: "XMLoadDecN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419757(v=VS.85).aspx
+        - name: "XMLoadFloat"
+          href: https://msdn.microsoft.com/en-us/library/Ee419765(v=VS.85).aspx
+        - name: "XMLoadFloat2"
+          href: https://msdn.microsoft.com/en-us/library/Ee419767(v=VS.85).aspx
+        - name: "XMLoadFloat2A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419770(v=VS.85).aspx
+        - name: "XMLoadFloat3"
+          href: https://msdn.microsoft.com/en-us/library/Ee419774(v=VS.85).aspx
+        - name: "XMLoadFloat3A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419778(v=VS.85).aspx
+        - name: "XMLoadFloat3PK"
+          href: https://msdn.microsoft.com/en-us/library/Ee419782(v=VS.85).aspx
+        - name: "XMLoadFloat3SE"
+          href: https://msdn.microsoft.com/en-us/library/Ee419784(v=VS.85).aspx
+        - name: "XMLoadFloat3x3"
+          href: https://msdn.microsoft.com/en-us/library/Ee419786(v=VS.85).aspx
+        - name: "XMLoadFloat4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419874(v=VS.85).aspx
+        - name: "XMLoadFloat4A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419876(v=VS.85).aspx
+        - name: "XMLoadFloat4x3"
+          href: https://msdn.microsoft.com/en-us/library/Ee419881(v=VS.85).aspx
+        - name: "XMLoadFloat4x3A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419883(v=VS.85).aspx
+        - name: "XMLoadFloat4x4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419885(v=VS.85).aspx
+        - name: "XMLoadFloat4x4A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419887(v=VS.85).aspx
+        - name: "XMLoadHalf2"
+          href: https://msdn.microsoft.com/en-us/library/Ee419893(v=VS.85).aspx
+        - name: "XMLoadHalf4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419895(v=VS.85).aspx
+        - name: "XMLoadInt"
+          href: https://msdn.microsoft.com/en-us/library/Hh404673(v=VS.85).aspx
+        - name: "XMLoadInt2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404674(v=VS.85).aspx
+        - name: "XMLoadInt2A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419909(v=VS.85).aspx
+        - name: "XMLoadInt3"
+          href: https://msdn.microsoft.com/en-us/library/Ee419912(v=VS.85).aspx
+        - name: "XMLoadInt3A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419913(v=VS.85).aspx
+        - name: "XMLoadInt4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419916(v=VS.85).aspx
+        - name: "XMLoadInt4A"
+          href: https://msdn.microsoft.com/en-us/library/Ee419917(v=VS.85).aspx
+        - name: "XMLoadShort2"
+          href: https://msdn.microsoft.com/en-us/library/Ee419924(v=VS.85).aspx
+        - name: "XMLoadShort4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419925(v=VS.85).aspx
+        - name: "XMLoadShortN2"
+          href: https://msdn.microsoft.com/en-us/library/Ee419927(v=VS.85).aspx
+        - name: "XMLoadShortN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419928(v=VS.85).aspx
+        - name: "XMLoadSInt2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404675(v=VS.85).aspx
+        - name: "XMLoadSInt3"
+          href: https://msdn.microsoft.com/en-us/library/Hh404676(v=VS.85).aspx
+        - name: "XMLoadSInt4"
+          href: https://msdn.microsoft.com/en-us/library/Hh404677(v=VS.85).aspx
+        - name: "XMLoadU555"
+          href: https://msdn.microsoft.com/en-us/library/Ee419931(v=VS.85).aspx
+        - name: "XMLoadU565"
+          href: https://msdn.microsoft.com/en-us/library/Ee419933(v=VS.85).aspx
+        - name: "XMLoadUByte2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404678(v=VS.85).aspx
+        - name: "XMLoadUByte4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419934(v=VS.85).aspx
+        - name: "XMLoadUByteN2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404679(v=VS.85).aspx
+        - name: "XMLoadUByteN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419935(v=VS.85).aspx
+        - name: "XMLoadUDec4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419936(v=VS.85).aspx
+        - name: "XMLoadUDecN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419937(v=VS.85).aspx
+        - name: "XMLoadUDecN4_XR"
+          href: https://msdn.microsoft.com/en-us/library/Dn322045(v=VS.85).aspx
+        - name: "XMLoadUInt2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404680(v=VS.85).aspx
+        - name: "XMLoadUInt3"
+          href: https://msdn.microsoft.com/en-us/library/Hh404681(v=VS.85).aspx
+        - name: "XMLoadUInt4"
+          href: https://msdn.microsoft.com/en-us/library/Hh404682(v=VS.85).aspx
+        - name: "XMLoadUNibble4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419944(v=VS.85).aspx
+        - name: "XMLoadUShort2"
+          href: https://msdn.microsoft.com/en-us/library/Ee419945(v=VS.85).aspx
+        - name: "XMLoadUShort4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419946(v=VS.85).aspx
+        - name: "XMLoadUShortN2"
+          href: https://msdn.microsoft.com/en-us/library/Ee419947(v=VS.85).aspx
+        - name: "XMLoadUShortN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419948(v=VS.85).aspx
+        - name: "XMLoadXDec4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419955(v=VS.85).aspx
+        - name: "XMLoadXDecN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee419956(v=VS.85).aspx
+      - name: "DirectXMath Library Vector Store Functions"
+        href: ovw-xnamath-reference-functions-storage.md
+        items: 
+        - name: "XMStoreByte2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404698(v=VS.85).aspx
+        - name: "XMStoreByte4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420224(v=VS.85).aspx
+        - name: "XMStoreByteN2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404699(v=VS.85).aspx
+        - name: "XMStoreByteN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420225(v=VS.85).aspx
+        - name: "XMStoreColor"
+          href: https://msdn.microsoft.com/en-us/library/Ee420226(v=VS.85).aspx
+        - name: "XMStoreDec4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420316(v=VS.85).aspx
+        - name: "XMStoreDecN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420317(v=VS.85).aspx
+        - name: "XMStoreFloat"
+          href: https://msdn.microsoft.com/en-us/library/Ee420322(v=VS.85).aspx
+        - name: "XMStoreFloat2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420324(v=VS.85).aspx
+        - name: "XMStoreFloat2A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420325(v=VS.85).aspx
+        - name: "XMStoreFloat3"
+          href: https://msdn.microsoft.com/en-us/library/Ee420329(v=VS.85).aspx
+        - name: "XMStoreFloat3A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420331(v=VS.85).aspx
+        - name: "XMStoreFloat3PK"
+          href: https://msdn.microsoft.com/en-us/library/Ee420336(v=VS.85).aspx
+        - name: "XMStoreFloat3SE"
+          href: https://msdn.microsoft.com/en-us/library/Ee420338(v=VS.85).aspx
+        - name: "XMStoreFloat3x3"
+          href: https://msdn.microsoft.com/en-us/library/Ee420340(v=VS.85).aspx
+        - name: "XMStoreFloat4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420343(v=VS.85).aspx
+        - name: "XMStoreFloat4A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420344(v=VS.85).aspx
+        - name: "XMStoreFloat4x3"
+          href: https://msdn.microsoft.com/en-us/library/Ee420347(v=VS.85).aspx
+        - name: "XMStoreFloat4x3A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420348(v=VS.85).aspx
+        - name: "XMStoreFloat4x4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420350(v=VS.85).aspx
+        - name: "XMStoreFloat4x4A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420351(v=VS.85).aspx
+        - name: "XMStoreHalf2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420354(v=VS.85).aspx
+        - name: "XMStoreHalf4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420355(v=VS.85).aspx
+        - name: "XMStoreInt"
+          href: https://msdn.microsoft.com/en-us/library/Hh404700(v=VS.85).aspx
+        - name: "XMStoreInt2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420361(v=VS.85).aspx
+        - name: "XMStoreInt2A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420362(v=VS.85).aspx
+        - name: "XMStoreInt3"
+          href: https://msdn.microsoft.com/en-us/library/Ee420363(v=VS.85).aspx
+        - name: "XMStoreInt3A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420364(v=VS.85).aspx
+        - name: "XMStoreInt4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420365(v=VS.85).aspx
+        - name: "XMStoreInt4A"
+          href: https://msdn.microsoft.com/en-us/library/Ee420366(v=VS.85).aspx
+        - name: "XMStoreShort2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420370(v=VS.85).aspx
+        - name: "XMStoreShort4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420371(v=VS.85).aspx
+        - name: "XMStoreShortN2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420372(v=VS.85).aspx
+        - name: "XMStoreShortN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420373(v=VS.85).aspx
+        - name: "XMStoreSInt2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404701(v=VS.85).aspx
+        - name: "XMStoreSInt3"
+          href: https://msdn.microsoft.com/en-us/library/Hh404702(v=VS.85).aspx
+        - name: "XMStoreSInt4"
+          href: https://msdn.microsoft.com/en-us/library/Hh404703(v=VS.85).aspx
+        - name: "XMStoreU555"
+          href: https://msdn.microsoft.com/en-us/library/Ee420374(v=VS.85).aspx
+        - name: "XMStoreU565"
+          href: https://msdn.microsoft.com/en-us/library/Ee420375(v=VS.85).aspx
+        - name: "XMStoreUByte2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404704(v=VS.85).aspx
+        - name: "XMStoreUByte4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420376(v=VS.85).aspx
+        - name: "XMStoreUByteN2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404705(v=VS.85).aspx
+        - name: "XMStoreUByteN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420377(v=VS.85).aspx
+        - name: "XMStoreUDec4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420378(v=VS.85).aspx
+        - name: "XMStoreUDecN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420379(v=VS.85).aspx
+        - name: "XMStoreUDecN4_XR"
+          href: https://msdn.microsoft.com/en-us/library/Dn322046(v=VS.85).aspx
+        - name: "XMStoreUInt2"
+          href: https://msdn.microsoft.com/en-us/library/Hh404706(v=VS.85).aspx
+        - name: "XMStoreUInt3"
+          href: https://msdn.microsoft.com/en-us/library/Hh404707(v=VS.85).aspx
+        - name: "XMStoreUInt4"
+          href: https://msdn.microsoft.com/en-us/library/Hh404708(v=VS.85).aspx
+        - name: "XMStoreUNibble4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420386(v=VS.85).aspx
+        - name: "XMStoreUShort2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420387(v=VS.85).aspx
+        - name: "XMStoreUShort4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420388(v=VS.85).aspx
+        - name: "XMStoreUShortN2"
+          href: https://msdn.microsoft.com/en-us/library/Ee420389(v=VS.85).aspx
+        - name: "XMStoreUShortN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420390(v=VS.85).aspx
+        - name: "XMStoreXDec4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420398(v=VS.85).aspx
+        - name: "XMStoreXDecN4"
+          href: https://msdn.microsoft.com/en-us/library/Ee420399(v=VS.85).aspx
+    - name: "DirectXMath Library Macros"
+      href: ovw-xnamath-reference-macros.md
+      items: 
+      - name: "XMGLOBALCONST macro"
+        href: xmglobalconst.md
+    - name: "DirectXMath Library Structures"
+      href: ovw-xnamath-reference-structures.md
+      items: 
+      - name: "XMBYTE2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2
+        items: 
+        - name: "XMBYTE2 Extensions"
+          href: ovw-xmbyte2-extensions.md
+          items: 
+          - name: "XMBYTE2 Constructors"
+            href: xmbyte2-ctor.md
+            items: 
+            - name: "XMBYTE2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh437841(v=VS.85).aspx
+            - name: "XMBYTE2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437845(v=VS.85).aspx
+            - name: "XMBYTE2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437844(v=VS.85).aspx
+            - name: "XMBYTE2 (int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437843(v=VS.85).aspx
+            - name: "XMBYTE2 (int8_t,int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437842(v=VS.85).aspx
+          - name: "XMBYTE2 Operators"
+            href: ovw-xmbyte2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh437846(v=VS.85).aspx
+      - name: "XMBYTE4"
+        href: https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx
+        items: 
+        - name: "XMBYTE4 Extensions"
+          href: ovw-xmbyte4-extensions.md
+          items: 
+          - name: "XMBYTE4 Constructors"
+            href: xmbyte4-ctor.md
+            items: 
+            - name: "XMBYTE4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419277(v=VS.85).aspx
+            - name: "XMBYTE4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419282(v=VS.85).aspx
+            - name: "XMBYTE4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419280(v=VS.85).aspx
+            - name: "XMBYTE4 (int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437848(v=VS.85).aspx
+            - name: "XMBYTE4 (int8_t,int8_t,int8_t,int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437847(v=VS.85).aspx
+            - name: "XMBYTE4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437849(v=VS.85).aspx
+          - name: "XMBYTE4 Operators"
+            href: ovw-xmbyte4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419283(v=VS.85).aspx
+      - name: "XMBYTEN2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2
+        items: 
+        - name: "XMBYTEN2 Extensions"
+          href: ovw-xmbyten2-extensions.md
+          items: 
+          - name: "XMBYTEN2 Constructors"
+            href: xmbyten2-ctor.md
+            items: 
+            - name: "XMBYTEN2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh437851(v=VS.85).aspx
+            - name: "XMBYTEN2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437855(v=VS.85).aspx
+            - name: "XMBYTEN2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437854(v=VS.85).aspx
+            - name: "XMBYTEN2 (int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437852(v=VS.85).aspx
+            - name: "XMBYTEN2 (int8_t,int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437853(v=VS.85).aspx
+          - name: "XMBYTEN2 Operators"
+            href: ovw-xmbyten2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh437856(v=VS.85).aspx
+      - name: "XMBYTEN4"
+        href: https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx
+        items: 
+        - name: "XMBYTEN4 Extensions"
+          href: ovw-xmbyten4-extensions.md
+          items: 
+          - name: "XMBYTEN4 Constructors"
+            href: xmbyten4-ctor.md
+            items: 
+            - name: "XMBYTEN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419285(v=VS.85).aspx
+            - name: "XMBYTEN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419290(v=VS.85).aspx
+            - name: "XMBYTEN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419288(v=VS.85).aspx
+            - name: "XMBYTEN4 (int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437857(v=VS.85).aspx
+            - name: "XMBYTEN4 (int8_t,int8_t,int8_t,int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437858(v=VS.85).aspx
+            - name: "XMBYTEN4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437859(v=VS.85).aspx
+          - name: "XMBYTEN4 Operators"
+            href: ovw-xmbyten4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419291(v=VS.85).aspx
+      - name: "XMCOLOR"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor
+        items: 
+        - name: "XMCOLOR Extensions"
+          href: ovw-xmcolor-extensions.md
+          items: 
+          - name: "XMCOLOR Constructors"
+            href: xmcolor-ctor.md
+            items: 
+            - name: "XMCOLOR ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419406(v=VS.85).aspx
+            - name: "XMCOLOR (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419409(v=VS.85).aspx
+            - name: "XMCOLOR (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419407(v=VS.85).aspx
+            - name: "XMCOLOR (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437882(v=VS.85).aspx
+          - name: "XMCOLOR Operators"
+            href: ovw-xmcolor-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh437884(v=VS.85).aspx
+            - name: "operator = "
+              href: xmcolor-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437883(v=VS.85).aspx
+              - name: "operator =  (XMCOLOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee419410(v=VS.85).aspx
+      - name: "XMDEC4"
+        href: https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx
+        items: 
+        - name: "XMDEC4 Extensions"
+          href: ovw-xmdec4-extensions.md
+          items: 
+          - name: "XMDEC4 Constructors"
+            href: xmdec4-ctor.md
+            items: 
+            - name: "XMDEC4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419432(v=VS.85).aspx
+            - name: "XMDEC4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419435(v=VS.85).aspx
+            - name: "XMDEC4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419433(v=VS.85).aspx
+            - name: "XMDEC4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437938(v=VS.85).aspx
+          - name: "XMDEC4 Operators"
+            href: ovw-xmdec4-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh437945(v=VS.85).aspx
+            - name: "operator = "
+              href: xmdec4-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437939(v=VS.85).aspx
+              - name: "operator =  (XMDEC4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee419436(v=VS.85).aspx
+      - name: "XMDECN4"
+        href: https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx
+        items: 
+        - name: "XMDECN4 Extensions"
+          href: ovw-xmdecn4-extensions.md
+          items: 
+          - name: "XMDECN4 Constructors"
+            href: xmdecn4-ctor.md
+            items: 
+            - name: "XMDECN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419441(v=VS.85).aspx
+            - name: "XMDECN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419445(v=VS.85).aspx
+            - name: "XMDECN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419442(v=VS.85).aspx
+            - name: "XMDECN4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437946(v=VS.85).aspx
+          - name: "XMDECN4 Operators"
+            href: ovw-xmdecn4-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh437948(v=VS.85).aspx
+            - name: "operator = "
+              href: xmdecn4-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437947(v=VS.85).aspx
+              - name: "operator =  (XMDECN4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee419446(v=VS.85).aspx
+      - name: "XMFLOAT2"
+        href: https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT2 Extensions"
+          href: ovw-xmfloat2-extensions.md
+          items: 
+          - name: "XMFLOAT2 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Ee415279(v=VS.85).aspx
+            items: 
+            - name: "XMFLOAT2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419471(v=VS.85).aspx
+            - name: "XMFLOAT2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419473(v=VS.85).aspx
+            - name: "XMFLOAT2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419472(v=VS.85).aspx
+          - name: "XMFLOAT2 Operators"
+            href: ovw-xmfloat2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419474(v=VS.85).aspx
+      - name: "XMFLOAT2A"
+        href: https://msdn.microsoft.com/en-us/library/Ee419469(v=VS.85).aspx
+      - name: "XMFLOAT3"
+        href: https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT3 Extensions"
+          href: ovw-xmfloat3-extensions.md
+          items: 
+          - name: "XMFLOAT3 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Ee415292(v=VS.85).aspx
+            items: 
+            - name: "XMFLOAT3 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419604(v=VS.85).aspx
+            - name: "XMFLOAT3 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419606(v=VS.85).aspx
+            - name: "XMFLOAT3 (float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419605(v=VS.85).aspx
+          - name: "XMFLOAT3 Operators"
+            href: ovw-xmfloat3-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419607(v=VS.85).aspx
+      - name: "XMFLOAT3A"
+        href: https://msdn.microsoft.com/en-us/library/Ee419476(v=VS.85).aspx
+      - name: "XMFLOAT3PK"
+        href: https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT3PK Extensions"
+          href: ovw-xmfloat3pk-extensions.md
+          items: 
+          - name: "XMFLOAT3PK Constructors"
+            href: xmfloat3pk-ctor.md
+            items: 
+            - name: "XMFLOAT3PK ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419479(v=VS.85).aspx
+            - name: "XMFLOAT3PK (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419482(v=VS.85).aspx
+            - name: "XMFLOAT3PK (float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419480(v=VS.85).aspx
+            - name: "XMFLOAT3PK (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437951(v=VS.85).aspx
+          - name: "XMFLOAT3PK Operators"
+            href: ovw-xmfloat3pk-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh437959(v=VS.85).aspx
+            - name: "operator = "
+              href: xmfloat3pk-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437952(v=VS.85).aspx
+              - name: "operator =  (XMFLOAT3PK)"
+                href: https://msdn.microsoft.com/en-us/library/Ee419483(v=VS.85).aspx
+      - name: "XMFLOAT3SE"
+        href: https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT3SE Extensions"
+          href: ovw-xmfloat3se-extensions.md
+          items: 
+          - name: "XMFLOAT3SE Constructors"
+            href: xmfloat3se-ctor.md
+            items: 
+            - name: "XMFLOAT3SE ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419491(v=VS.85).aspx
+            - name: "XMFLOAT3SE (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419499(v=VS.85).aspx
+            - name: "XMFLOAT3SE (float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419494(v=VS.85).aspx
+            - name: "XMFLOAT3SE (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437960(v=VS.85).aspx
+          - name: "XMFLOAT3SE Operators"
+            href: ovw-xmfloat3se-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh437962(v=VS.85).aspx
+            - name: "operator = "
+              href: xmfloat3se-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437961(v=VS.85).aspx
+              - name: "operator =  (XMFLOAT3SE)"
+                href: https://msdn.microsoft.com/en-us/library/Ee419502(v=VS.85).aspx
+      - name: "XMFLOAT3X3"
+        href: https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT3X3 Extensions"
+          href: ovw-xmfloat3x3-extensions.md
+          items: 
+          - name: "XMFLOAT3X3 Constructors"
+            href: xmfloat3x3-ctor.md
+            items: 
+            - name: "XMFLOAT3X3 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419513(v=VS.85).aspx
+            - name: "XMFLOAT3X3 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419517(v=VS.85).aspx
+            - name: "XMFLOAT3X3 (float,float,float,float,float,float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419516(v=VS.85).aspx
+          - name: "XMFLOAT3X3 Operators"
+            href: ovw-xmfloat3x3-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419519(v=VS.85).aspx
+            - name: "operator ()"
+              href: xmfloat3x3-operator-parens.md
+              items: 
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437963(v=VS.85).aspx
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437964(v=VS.85).aspx
+      - name: "XMFLOAT4"
+        href: https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT4 Extensions"
+          href: ovw-xmfloat4-extensions.md
+          items: 
+          - name: "XMFLOAT4 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Ee415309(v=VS.85).aspx
+            items: 
+            - name: "XMFLOAT4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419640(v=VS.85).aspx
+            - name: "XMFLOAT4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419645(v=VS.85).aspx
+            - name: "XMFLOAT4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419643(v=VS.85).aspx
+          - name: "XMFLOAT4 Operators"
+            href: ovw-xmfloat4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419647(v=VS.85).aspx
+      - name: "XMFLOAT4A"
+        href: https://msdn.microsoft.com/en-us/library/Ee419609(v=VS.85).aspx
+      - name: "XMFLOAT4X3"
+        href: https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT4X3 Extensions"
+          href: ovw-xmfloat4x3-extensions.md
+          items: 
+          - name: "XMFLOAT4X3 Constructors"
+            href: xmfloat4x3-ctor.md
+            items: 
+            - name: "XMFLOAT4X3 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419614(v=VS.85).aspx
+            - name: "XMFLOAT4X3 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419616(v=VS.85).aspx
+            - name: "XMFLOAT4X3 (float,float,float,float,float,float,float,float,float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419615(v=VS.85).aspx
+          - name: "XMFLOAT4X3 Operators"
+            href: ovw-xmfloat4x3-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419617(v=VS.85).aspx
+            - name: "operator ()"
+              href: xmfloat4x3-operator-parens.md
+              items: 
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437966(v=VS.85).aspx
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh437967(v=VS.85).aspx
+      - name: "XMFLOAT4X3A"
+        href: https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx
+      - name: "XMFLOAT4X4"
+        href: https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx
+        items: 
+        - name: "XMFLOAT4X4 Extensions"
+          href: ovw-xmfloat4x4-extensions.md
+          items: 
+          - name: "XMFLOAT4X4 Constructors"
+            href: xmfloat4x4-ctor.md
+            items: 
+            - name: "XMFLOAT4X4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419628(v=VS.85).aspx
+            - name: "XMFLOAT4X4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419631(v=VS.85).aspx
+            - name: "XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419629(v=VS.85).aspx
+          - name: "XMFLOAT4X4 Operators"
+            href: ovw-xmfloat4x4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419634(v=VS.85).aspx
+            - name: "operator ()"
+              href: xmfloat4x4-operator-parens.md
+              items: 
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404652(v=VS.85).aspx
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404653(v=VS.85).aspx
+      - name: "XMFLOAT4X4A"
+        href: https://msdn.microsoft.com/en-us/library/Ee419623(v=VS.85).aspx
+      - name: "XMHALF2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2
+        items: 
+        - name: "XMHALF2 Extensions"
+          href: ovw-xmhalf2-extensions.md
+          items: 
+          - name: "XMHALF2 Constructors"
+            href: xmhalf2-ctor.md
+            items: 
+            - name: "XMHALF2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419654(v=VS.85).aspx
+            - name: "XMHALF2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419661(v=VS.85).aspx
+            - name: "XMHALF2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419659(v=VS.85).aspx
+            - name: "XMHALF2 (HALF)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419658(v=VS.85).aspx
+            - name: "XMHALF2 (HALF,HALF)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419656(v=VS.85).aspx
+          - name: "XMHALF2 Operators"
+            href: ovw-xmhalf2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419662(v=VS.85).aspx
+      - name: "XMHALF4"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4
+        items: 
+        - name: "XMHALF4 Extensions"
+          href: ovw-xmhalf4-extensions.md
+          items: 
+          - name: "XMHALF4 Constructors"
+            href: xmhalf4-ctor.md
+            items: 
+            - name: "XMHALF4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee419667(v=VS.85).aspx
+            - name: "XMHALF4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419676(v=VS.85).aspx
+            - name: "XMHALF4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419673(v=VS.85).aspx
+            - name: "XMHALF4 (HALF)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419671(v=VS.85).aspx
+            - name: "XMHALF4 (HALF,HALF,HALF,HALF)"
+              href: https://msdn.microsoft.com/en-us/library/Ee419669(v=VS.85).aspx
+          - name: "XMHALF4 Operators"
+            href: ovw-xmhalf4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee419678(v=VS.85).aspx
+      - name: "XMINT2"
+        href: https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx
+        items: 
+        - name: "XMINT2 Extensions"
+          href: ovw-xmint2-extensions.md
+          items: 
+          - name: "XMINT2 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Hh449504(v=VS.85).aspx
+            items: 
+            - name: "XMINT2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404655(v=VS.85).aspx
+            - name: "XMINT2 (int32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404657(v=VS.85).aspx
+            - name: "XMINT2 (int32_t,int32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404656(v=VS.85).aspx
+          - name: "XMINT2 Operators"
+            href: ovw-xmint2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404658(v=VS.85).aspx
+      - name: "XMINT3"
+        href: https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx
+        items: 
+        - name: "XMINT3 Extensions"
+          href: ovw-xmint3-extensions.md
+          items: 
+          - name: "XMINT3 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Hh449510(v=VS.85).aspx
+            items: 
+            - name: "XMINT3 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404660(v=VS.85).aspx
+            - name: "XMINT3 (int32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404662(v=VS.85).aspx
+            - name: "XMINT3 (int32_t,int32_t,int32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404661(v=VS.85).aspx
+          - name: "XMINT3 Operators"
+            href: ovw-xmint3-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404663(v=VS.85).aspx
+      - name: "XMINT4"
+        href: https://msdn.microsoft.com/en-us/library/Hh404664(v=VS.85).aspx
+        items: 
+        - name: "XMINT4 Extensions"
+          href: ovw-xmint4-extensions.md
+          items: 
+          - name: "XMINT4 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Hh449516(v=VS.85).aspx
+            items: 
+            - name: "XMINT4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404667(v=VS.85).aspx
+            - name: "XMINT4 (int32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404669(v=VS.85).aspx
+            - name: "XMINT4 (int32_t,int32_t,int32_t,int32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404668(v=VS.85).aspx
+          - name: "XMINT4 Operators"
+            href: ovw-xmint4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404670(v=VS.85).aspx
+      - name: "XMMATRIX"
+        href: https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx
+        items: 
+        - name: "XMMATRIX Extensions"
+          href: ovw-xmmatrix-extensions.md
+          items: 
+          - name: "XMMATRIX Constructors"
+            href: xmmatrix-ctor.md
+            items: 
+            - name: "XMMATRIX ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420023(v=VS.85).aspx
+            - name: "XMMATRIX (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420024(v=VS.85).aspx
+            - name: "XMMATRIX (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420126(v=VS.85).aspx
+            - name: "XMMATRIX (XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420127(v=VS.85).aspx
+          - name: "XMMATRIX Operators"
+            href: ovw-xmmatrix-operators.md
+            items: 
+            - name: "operator *"
+              href: https://msdn.microsoft.com/en-us/library/Ff621686(v=VS.85).aspx
+            - name: "operator *="
+              href: https://msdn.microsoft.com/en-us/library/Ff621687(v=VS.85).aspx
+            - name: "operator ="
+              href: https://msdn.microsoft.com/en-us/library/Ee420128(v=VS.85).aspx
+            - name: "operator ()"
+              href: xmmatrix-operator-parens.md
+              items: 
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404685(v=VS.85).aspx
+              - name: "operator () (size_t,size_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404686(v=VS.85).aspx
+      - name: "XMSHORT2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2
+        items: 
+        - name: "XMSHORT2 Extensions"
+          href: ovw-xmshort2-extensions.md
+          items: 
+          - name: "XMSHORT2 Constructors"
+            href: xmshort2-ctor.md
+            items: 
+            - name: "XMSHORT2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420196(v=VS.85).aspx
+            - name: "XMSHORT2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420199(v=VS.85).aspx
+            - name: "XMSHORT2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420198(v=VS.85).aspx
+            - name: "XMSHORT2 (int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404691(v=VS.85).aspx
+            - name: "XMSHORT2 (int16_t,int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404690(v=VS.85).aspx
+          - name: "XMSHORT2 Operators"
+            href: ovw-xmshort2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420201(v=VS.85).aspx
+      - name: "XMSHORT4"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4
+        items: 
+        - name: "XMSHORT4 Extensions"
+          href: ovw-xmshort4-extensions.md
+          items: 
+          - name: "XMSHORT4 Constructors"
+            href: xmshort4-ctor.md
+            items: 
+            - name: "XMSHORT4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420203(v=VS.85).aspx
+            - name: "XMSHORT4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420205(v=VS.85).aspx
+            - name: "XMSHORT4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420204(v=VS.85).aspx
+            - name: "XMSHORT4 (int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404693(v=VS.85).aspx
+            - name: "XMSHORT4 (int16_t,int16_t,int16_t,int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404692(v=VS.85).aspx
+          - name: "XMSHORT4 Operators"
+            href: ovw-xmshort4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420208(v=VS.85).aspx
+      - name: "XMSHORTN2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn2
+        items: 
+        - name: "XMSHORTN2 Extensions"
+          href: ovw-xmshortn2-extensions.md
+          items: 
+          - name: "XMSHORTN2 Constructors"
+            href: xmshortn2-ctor.md
+            items: 
+            - name: "XMSHORTN2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420210(v=VS.85).aspx
+            - name: "XMSHORTN2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420213(v=VS.85).aspx
+            - name: "XMSHORTN2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420212(v=VS.85).aspx
+            - name: "XMSHORTN2 (int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404695(v=VS.85).aspx
+            - name: "XMSHORTN2 (int16_t,int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404694(v=VS.85).aspx
+          - name: "XMSHORTN2 Operators"
+            href: ovw-xmshortn2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420215(v=VS.85).aspx
+      - name: "XMSHORTN4"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4
+        items: 
+        - name: "XMSHORTN4 Extensions"
+          href: ovw-xmshortn4-extensions.md
+          items: 
+          - name: "XMSHORTN4 Constructors"
+            href: xmshortn4-ctor.md
+            items: 
+            - name: "XMSHORTN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420217(v=VS.85).aspx
+            - name: "XMSHORTN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420219(v=VS.85).aspx
+            - name: "XMSHORTN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420218(v=VS.85).aspx
+            - name: "XMSHORTN4 (int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404697(v=VS.85).aspx
+            - name: "XMSHORTN4 (int16_t,int16_t,int16_t,int16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404696(v=VS.85).aspx
+          - name: "XMSHORTN4 Operators"
+            href: ovw-xmshortn4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420223(v=VS.85).aspx
+      - name: "XMU555"
+        href: https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx
+        items: 
+        - name: "XMU555 Extensions"
+          href: ovw-xmu555-extensions.md
+          items: 
+          - name: "XMU555 Constructors"
+            href: xmu555-ctor.md
+            items: 
+            - name: "XMU555 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420403(v=VS.85).aspx
+            - name: "XMU555 (float,bool)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420406(v=VS.85).aspx
+            - name: "XMU555 (float,float,float,bool)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420407(v=VS.85).aspx
+            - name: "XMU555 (int8_t,bool)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404711(v=VS.85).aspx
+            - name: "XMU555 (int8_t,int8_t,int8_t,bool)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404710(v=VS.85).aspx
+            - name: "XMU555 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404709(v=VS.85).aspx
+          - name: "XMU555 Operators"
+            href: ovw-xmu555-operators.md
+            items: 
+            - name: "operator uint16_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404713(v=VS.85).aspx
+            - name: "operator = "
+              href: xmu555-operator-eq.md
+              items: 
+              - name: "operator =  (uint16_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404712(v=VS.85).aspx
+              - name: "operator =  (XMU555)"
+                href: https://msdn.microsoft.com/en-us/library/Ee420409(v=VS.85).aspx
+      - name: "XMU565"
+        href: https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx
+        items: 
+        - name: "XMU565 Extensions"
+          href: ovw-xmu565-extensions.md
+          items: 
+          - name: "XMU565 Constructors"
+            href: xmu565-ctor.md
+            items: 
+            - name: "XMU565 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420414(v=VS.85).aspx
+            - name: "XMU565 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420418(v=VS.85).aspx
+            - name: "XMU565 (float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420417(v=VS.85).aspx
+            - name: "XMU565 (int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404716(v=VS.85).aspx
+            - name: "XMU565 (int8_t,int8_t,int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404715(v=VS.85).aspx
+            - name: "XMU565 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404714(v=VS.85).aspx
+          - name: "XMU565 Operators"
+            href: ovw-xmu565-operators.md
+            items: 
+            - name: "operator uint16_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404718(v=VS.85).aspx
+            - name: "operator = "
+              href: xmu565-operator-eq.md
+              items: 
+              - name: "operator =  (uint16_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404717(v=VS.85).aspx
+              - name: "operator =  (XMU565)"
+                href: https://msdn.microsoft.com/en-us/library/Ee420420(v=VS.85).aspx
+      - name: "XMUBYTE2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyte2
+        items: 
+        - name: "XMUBYTE2 Extensions"
+          href: ovw-xmubyte2-extensions.md
+          items: 
+          - name: "XMUBYTE2 Constructors"
+            href: xmubyte2-ctor.md
+            items: 
+            - name: "XMUBYTE2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404720(v=VS.85).aspx
+            - name: "XMUBYTE2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404724(v=VS.85).aspx
+            - name: "XMUBYTE2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404723(v=VS.85).aspx
+            - name: "XMUBYTE2 (uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404721(v=VS.85).aspx
+            - name: "XMUBYTE2 (uint8_t,uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404722(v=VS.85).aspx
+          - name: "XMUBYTE2 Operators"
+            href: ovw-xmubyte2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404725(v=VS.85).aspx
+      - name: "XMUBYTE4"
+        href: https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx
+        items: 
+        - name: "XMUBYTE4 Extensions"
+          href: ovw-xmubyte4-extensions.md
+          items: 
+          - name: "XMUBYTE4 Constructors"
+            href: xmubyte4-ctor.md
+            items: 
+            - name: "XMUBYTE4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420425(v=VS.85).aspx
+            - name: "XMUBYTE4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420489(v=VS.85).aspx
+            - name: "XMUBYTE4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420486(v=VS.85).aspx
+            - name: "XMUBYTE4 (uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404726(v=VS.85).aspx
+            - name: "XMUBYTE4 (uint8_t,uint8_t,uint8_t,uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404727(v=VS.85).aspx
+            - name: "XMUBYTE4 (Uuint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404728(v=VS.85).aspx
+          - name: "XMUBYTE4 Operators"
+            href: ovw-xmubyte4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420491(v=VS.85).aspx
+      - name: "XMUBYTEN2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2
+        items: 
+        - name: "XMUBYTEN2 Extensions"
+          href: ovw-xmubyten2-extensions.md
+          items: 
+          - name: "XMUBYTEN2 Constructors"
+            href: xmubyten2-ctor.md
+            items: 
+            - name: "XMUBYTEN2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404730(v=VS.85).aspx
+            - name: "XMUBYTEN2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404734(v=VS.85).aspx
+            - name: "XMUBYTEN2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404733(v=VS.85).aspx
+            - name: "XMUBYTEN2 (uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404731(v=VS.85).aspx
+            - name: "XMUBYTEN2 (uint8_t,uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404732(v=VS.85).aspx
+          - name: "XMUBYTEN2 Operators"
+            href: ovw-xmubyten2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404735(v=VS.85).aspx
+      - name: "XMUBYTEN4"
+        href: https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx
+        items: 
+        - name: "XMUBYTEN4 Extensions"
+          href: ovw-xmubyten4-extensions.md
+          items: 
+          - name: "XMUBYTEN4 Constructors"
+            href: xmubyten4-ctor.md
+            items: 
+            - name: "XMUBYTEN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420495(v=VS.85).aspx
+            - name: "XMUBYTEN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420504(v=VS.85).aspx
+            - name: "XMUBYTEN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420501(v=VS.85).aspx
+            - name: "XMUBYTEN4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404738(v=VS.85).aspx
+            - name: "XMUBYTEN4 (uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404736(v=VS.85).aspx
+            - name: "XMUBYTEN4 (uint8_t,uint8_t,uint8_t,uint8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404737(v=VS.85).aspx
+          - name: "XMUBYTEN4 Operators"
+            href: ovw-xmubyten4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420506(v=VS.85).aspx
+      - name: "XMUDEC4"
+        href: https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx
+        items: 
+        - name: "XMUDEC4 Extensions"
+          href: ovw-xmudec4-extensions.md
+          items: 
+          - name: "XMUDEC4 Constructors"
+            href: xmudec4-ctor.md
+            items: 
+            - name: "XMUDEC4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420510(v=VS.85).aspx
+            - name: "XMUDEC4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420517(v=VS.85).aspx
+            - name: "XMUDEC4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420512(v=VS.85).aspx
+            - name: "XMUDEC4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404739(v=VS.85).aspx
+          - name: "XMUDEC4 Operators"
+            href: ovw-xmudec4-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404741(v=VS.85).aspx
+            - name: "operator = "
+              href: xmudec4-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404740(v=VS.85).aspx
+              - name: "operator =  (XMUDEC4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee420519(v=VS.85).aspx
+      - name: "XMUDECN4"
+        href: https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx
+        items: 
+        - name: "XMUDECN4 Extensions"
+          href: ovw-xmudecn4-extensions.md
+          items: 
+          - name: "XMUDECN4 Constructors"
+            href: xmudecn4-ctor.md
+            items: 
+            - name: "XMUDECN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420529(v=VS.85).aspx
+            - name: "XMUDECN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420534(v=VS.85).aspx
+            - name: "XMUDECN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420531(v=VS.85).aspx
+            - name: "XMUDECN4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404742(v=VS.85).aspx
+          - name: "XMUDECN4 Operators"
+            href: ovw-xmudecn4-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404744(v=VS.85).aspx
+            - name: "operator = "
+              href: xmudecn4-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404743(v=VS.85).aspx
+              - name: "operator =  (XMUDECN4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee420536(v=VS.85).aspx
+      - name: "XMUINT2"
+        href: https://msdn.microsoft.com/en-us/library/Hh404745(v=VS.85).aspx
+        items: 
+        - name: "XMUINT2 Extensions"
+          href: ovw-xmuint2-extensions.md
+          items: 
+          - name: "XMUINT2 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Hh449553(v=VS.85).aspx
+            items: 
+            - name: "XMUINT2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404746(v=VS.85).aspx
+            - name: "XMUINT2 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404748(v=VS.85).aspx
+            - name: "XMUINT2 (uint32_t,uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404747(v=VS.85).aspx
+          - name: "XMUINT2 Operators"
+            href: ovw-xmuint2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404749(v=VS.85).aspx
+      - name: "XMUINT3"
+        href: https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx
+        items: 
+        - name: "XMUINT3 Extensions"
+          href: ovw-xmuint3-extensions.md
+          items: 
+          - name: "XMUINT3 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Hh449560(v=VS.85).aspx
+            items: 
+            - name: "XMUINT3 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404751(v=VS.85).aspx
+            - name: "XMUINT3 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404753(v=VS.85).aspx
+            - name: "XMUINT3 (uint32_t,uint32_t,uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404752(v=VS.85).aspx
+          - name: "XMUINT3 Operators"
+            href: ovw-xmuint3-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404754(v=VS.85).aspx
+      - name: "XMUINT4"
+        href: https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx
+        items: 
+        - name: "XMUINT4 Extensions"
+          href: ovw-xmuint4-extensions.md
+          items: 
+          - name: "XMUINT4 Constructors"
+            href: https://msdn.microsoft.com/en-us/library/Hh449568(v=VS.85).aspx
+            items: 
+            - name: "XMUINT4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Hh404756(v=VS.85).aspx
+            - name: "XMUINT4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404758(v=VS.85).aspx
+            - name: "XMUINT4 (uint32_t,uint32_t,uint32_t,uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404757(v=VS.85).aspx
+          - name: "XMUINT4 Operators"
+            href: ovw-xmuint4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Hh404759(v=VS.85).aspx
+      - name: "XMUNIBBLE4"
+        href: https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx
+        items: 
+        - name: "XMUNIBBLE4 Extensions"
+          href: ovw-xmunibble4-extensions.md
+          items: 
+          - name: "XMUNIBBLE4 Constructors"
+            href: xmunibble4-ctor.md
+            items: 
+            - name: "XMUNIBBLE4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420615(v=VS.85).aspx
+            - name: "XMUNIBBLE4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420619(v=VS.85).aspx
+            - name: "XMUNIBBLE4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420618(v=VS.85).aspx
+            - name: "XMUNIBBLE4 (int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404762(v=VS.85).aspx
+            - name: "XMUNIBBLE4 (int8_t,int8_t,int8_t,int8_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404761(v=VS.85).aspx
+            - name: "XMUNIBBLE4 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404760(v=VS.85).aspx
+          - name: "XMUNIBBLE4 Operators"
+            href: ovw-xmunibble4-operators.md
+            items: 
+            - name: "operator uint16_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404764(v=VS.85).aspx
+            - name: "operator = "
+              href: xmunibble4-operator-eq.md
+              items: 
+              - name: "operator =  (uint16_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404763(v=VS.85).aspx
+              - name: "operator =  (XMUNIBBLE4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee420621(v=VS.85).aspx
+      - name: "XMUSHORT2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2
+        items: 
+        - name: "XMUSHORT2 Extensions"
+          href: ovw-xmushort2-extensions.md
+          items: 
+          - name: "XMUSHORT2 Constructors"
+            href: xmushort2-ctor.md
+            items: 
+            - name: "XMUSHORT2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420626(v=VS.85).aspx
+            - name: "XMUSHORT2 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420629(v=VS.85).aspx
+            - name: "XMUSHORT2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420627(v=VS.85).aspx
+            - name: "XMUSHORT2 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404766(v=VS.85).aspx
+            - name: "XMUSHORT2 (uint16_t,uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404765(v=VS.85).aspx
+          - name: "XMUSHORT2 Operators"
+            href: ovw-xmushort2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420700(v=VS.85).aspx
+      - name: "XMUSHORT4"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort4
+        items: 
+        - name: "XMUSHORT4 Extensions"
+          href: ovw-xmushort4-extensions.md
+          items: 
+          - name: "XMUSHORT4 Constructors"
+            href: xmushort4-ctor.md
+            items: 
+            - name: "XMUSHORT4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420704(v=VS.85).aspx
+            - name: "XMUSHORT4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420709(v=VS.85).aspx
+            - name: "XMUSHORT4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420706(v=VS.85).aspx
+            - name: "XMUSHORT4 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404768(v=VS.85).aspx
+            - name: "XMUSHORT4 (uint16_t,uint16_t,uint16_t,uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404767(v=VS.85).aspx
+          - name: "XMUSHORT4 Operators"
+            href: ovw-xmushort4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420711(v=VS.85).aspx
+      - name: "XMUSHORTN2"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn2
+        items: 
+        - name: "XMUSHORTN2 Extensions"
+          href: ovw-xmushortn2-extensions.md
+          items: 
+          - name: "XMUSHORTN2 Constructors"
+            href: xmushortn2-ctor.md
+            items: 
+            - name: "XMUSHORTN2 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420715(v=VS.85).aspx
+            - name: "XMUSHORTN2 (float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420716(v=VS.85).aspx
+            - name: "XMUSHORTN2 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404770(v=VS.85).aspx
+            - name: "XMUSHORTN2 (uint16_t,uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404769(v=VS.85).aspx
+          - name: "XMUSHORTN2 Operators"
+            href: ovw-xmushortn2-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420724(v=VS.85).aspx
+      - name: "XMUSHORTN4"
+        href: /windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4
+        items: 
+        - name: "XMUSHORTN4 Extensions"
+          href: ovw-xmushortn4-extensions.md
+          items: 
+          - name: "XMUSHORTN4 Constructors"
+            href: xmushortn4-ctor.md
+            items: 
+            - name: "XMUSHORTN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee420728(v=VS.85).aspx
+            - name: "XMUSHORTN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420738(v=VS.85).aspx
+            - name: "XMUSHORTN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee420734(v=VS.85).aspx
+            - name: "XMUSHORTN4 (uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404772(v=VS.85).aspx
+            - name: "XMUSHORTN4 (uint16_t,uint16_t,uint16_t,uint16_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404771(v=VS.85).aspx
+          - name: "XMUSHORTN4 Operators"
+            href: ovw-xmushortn4-operators.md
+            items: 
+            - name: "operator = "
+              href: https://msdn.microsoft.com/en-us/library/Ee420740(v=VS.85).aspx
+      - name: "XMXDEC4"
+        href: https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx
+        items: 
+        - name: "XMXDEC4 Extensions"
+          href: ovw-xmxdec4-extensions.md
+          items: 
+          - name: "XMXDEC4 Constructors"
+            href: xmxdec4-ctor.md
+            items: 
+            - name: "XMXDEC4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee421400(v=VS.85).aspx
+            - name: "XMXDEC4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee421403(v=VS.85).aspx
+            - name: "XMXDEC4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee421401(v=VS.85).aspx
+            - name: "XMXDEC4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404827(v=VS.85).aspx
+          - name: "XMXDEC4 Operators"
+            href: ovw-xmxdec4-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404829(v=VS.85).aspx
+            - name: "operator = "
+              href: xmxdec4-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404828(v=VS.85).aspx
+              - name: "operator =  (XMXDEC4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421404(v=VS.85).aspx
+      - name: "XMXDECN4"
+        href: https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx
+        items: 
+        - name: "XMXDECN4 Extensions"
+          href: ovw-xmxdecn4-extensions.md
+          items: 
+          - name: "XMXDECN4 Constructors"
+            href: xmxdecn4-ctor.md
+            items: 
+            - name: "XMXDECN4 ()"
+              href: https://msdn.microsoft.com/en-us/library/Ee421409(v=VS.85).aspx
+            - name: "XMXDECN4 (float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee421412(v=VS.85).aspx
+            - name: "XMXDECN4 (float,float,float,float)"
+              href: https://msdn.microsoft.com/en-us/library/Ee421410(v=VS.85).aspx
+            - name: "XMXDECN4 (uint32_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh404830(v=VS.85).aspx
+          - name: "XMXDECN4 Operators"
+            href: ovw-xmxdecn4-operators.md
+            items: 
+            - name: "operator uint32_t"
+              href: https://msdn.microsoft.com/en-us/library/Hh404832(v=VS.85).aspx
+            - name: "operator = "
+              href: xmxdecn4-operator-eq.md
+              items: 
+              - name: "operator =  (uint32_t)"
+                href: https://msdn.microsoft.com/en-us/library/Hh404831(v=VS.85).aspx
+              - name: "operator =  (XMXDECN4)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421413(v=VS.85).aspx
+    - name: "DirectXMath Library Classes"
+      href: ovw-directxmath-classes.md
+      items: 
+      - name: "BoundingBox"
+        href: /windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox
+        items: 
+        - name: "Constructors"
+          href: boundingbox-ctor.md
+          items: 
+          - name: "BoundingBox ()"
+            href: https://msdn.microsoft.com/en-us/library/Hh437810(v=VS.85).aspx
+          - name: "BoundingBox (BoundingBox)"
+            href: https://msdn.microsoft.com/en-us/library/Hh437808(v=VS.85).aspx
+          - name: "BoundingBox (XMFLOAT3,XMFLOAT3)"
+            href: https://msdn.microsoft.com/en-us/library/Hh437809(v=VS.85).aspx
+        - name: "Fields"
+          href: boundingbox-fields.md
+          items: 
+          - name: "Center"
+            href: boundingbox-center.md
+          - name: "CORNER_COUNT"
+            href: boundingbox-corner-count.md
+          - name: "Extents"
+            href: boundingbox-extents.md
+        - name: "Methods"
+          href: boundingbox-methods.md
+          items: 
+          - name: "Contains"
+            href: boundingbox-contains.md
+            items: 
+            - name: "Contains (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449611(v=VS.85).aspx
+            - name: "Contains (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855873(v=VS.85).aspx
+            - name: "Contains (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855883(v=VS.85).aspx
+            - name: "Contains (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449615(v=VS.85).aspx
+            - name: "Contains (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449619(v=VS.85).aspx
+            - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449607(v=VS.85).aspx
+          - name: "CreateFromPoints"
+            href: boundingbox-createfrompoints.md
+            items: 
+            - name: "CreateFromPoints (BoundingBox,size_t,XMFLOAT3,size_t)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437781(v=VS.85).aspx
+            - name: "CreateFromPoints (BoundingBox,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437802(v=VS.85).aspx
+          - name: "Intersects"
+            href: boundingbox-intersects.md
+            items: 
+            - name: "Intersects (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437821(v=VS.85).aspx
+            - name: "Intersects (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855911(v=VS.85).aspx
+            - name: "Intersects (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855925(v=VS.85).aspx
+            - name: "Intersects (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437825(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437827(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437817(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437819(v=VS.85).aspx
+          - name: "Transform"
+            href: boundingbox-transform.md
+            items: 
+            - name: "Transform (BoundingBox,float,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437834(v=VS.85).aspx
+            - name: "Transform (BoundingBox,XMMATRIX)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437835(v=VS.85).aspx
+          - name: "ContainedBy"
+            href: /windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby
+          - name: "CreateFromSphere"
+            href: https://msdn.microsoft.com/en-us/library/Hh437804(v=VS.85).aspx
+          - name: "CreateMerged"
+            href: https://msdn.microsoft.com/en-us/library/Hh437805(v=VS.85).aspx
+          - name: "GetCorners"
+            href: https://msdn.microsoft.com/en-us/library/Hh437816(v=VS.85).aspx
+          - name: "op_Assignment"
+            href: https://msdn.microsoft.com/en-us/library/Hh437829(v=VS.85).aspx
+      - name: "BoundingFrustum"
+        href: https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx
+        items: 
+        - name: "Constructors"
+          href: boundingfrustum-ctor.md
+          items: 
+          - name: "BoundingFrustum ()"
+            href: https://msdn.microsoft.com/en-us/library/Hh855900(v=VS.85).aspx
+          - name: "BoundingFrustum (BoundingFrustum)"
+            href: https://msdn.microsoft.com/en-us/library/Hh855897(v=VS.85).aspx
+          - name: "BoundingFrustum (XMFLOAT3,XMFLOAT4,float,float,float,float,float,float)"
+            href: https://msdn.microsoft.com/en-us/library/Hh855899(v=VS.85).aspx
+          - name: "BoundingFrustum (XMMATRIX)"
+            href: https://msdn.microsoft.com/en-us/library/Hh855905(v=VS.85).aspx
+        - name: "Fields"
+          href: boundingfrustum-fields.md
+          items: 
+          - name: "BottomSlope"
+            href: boundingfrustum-bottomslope.md
+          - name: "CORNER_COUNT"
+            href: boundingfrustum-corner-count.md
+          - name: "Far"
+            href: boundingfrustum-far.md
+          - name: "LeftSlope"
+            href: boundingfrustum-leftslope.md
+          - name: "Near"
+            href: boundingfrustum-near.md
+          - name: "Orientation"
+            href: boundingfrustum-orientation.md
+          - name: "Origin"
+            href: boundingfrustum-origin.md
+          - name: "RightSlope"
+            href: boundingfrustum-rightslope.md
+          - name: "TopSlope"
+            href: boundingfrustum-topslope.md
+        - name: "Methods"
+          href: boundingfrustum-methods.md
+          items: 
+          - name: "Contains"
+            href: boundingfrustum-contains.md
+            items: 
+            - name: "Contains (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855879(v=VS.85).aspx
+            - name: "Contains (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855874(v=VS.85).aspx
+            - name: "Contains (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855884(v=VS.85).aspx
+            - name: "Contains (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855887(v=VS.85).aspx
+            - name: "Contains (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855890(v=VS.85).aspx
+            - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855877(v=VS.85).aspx
+          - name: "Intersects"
+            href: boundingfrustum-intersects.md
+            items: 
+            - name: "Intersects (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855920(v=VS.85).aspx
+            - name: "Intersects (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855912(v=VS.85).aspx
+            - name: "Intersects (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855926(v=VS.85).aspx
+            - name: "Intersects (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855929(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855931(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855915(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855917(v=VS.85).aspx
+          - name: "Transform"
+            href: boundingfrustum-transform.md
+            items: 
+            - name: "Transform (BoundingFrustum,float,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855955(v=VS.85).aspx
+            - name: "Transform (BoundingFrustum,XMMATRIX)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855950(v=VS.85).aspx
+          - name: "ContainedBy"
+            href: /windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby
+          - name: "CreateFromMatrix"
+            href: https://msdn.microsoft.com/en-us/library/Hh855895(v=VS.85).aspx
+          - name: "GetCorners"
+            href: https://msdn.microsoft.com/en-us/library/Hh855908(v=VS.85).aspx
+          - name: "GetPlanes"
+            href: https://msdn.microsoft.com/en-us/library/Hh855910(v=VS.85).aspx
+          - name: "op_Assignment"
+            href: https://msdn.microsoft.com/en-us/library/Hh855936(v=VS.85).aspx
+      - name: "BoundingOrientedBox"
+        href: https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx
+        items: 
+        - name: "Constructors"
+          href: boundingorientedbox-ctor.md
+          items: 
+          - name: "BoundingOrientedBox ()"
+            href: https://msdn.microsoft.com/en-us/library/Hh855902(v=VS.85).aspx
+          - name: "BoundingOrientedBox (BoundingOrientedBox)"
+            href: https://msdn.microsoft.com/en-us/library/Hh855904(v=VS.85).aspx
+          - name: "BoundingOrientedBox (XMFLOAT3,XMFLOAT3,XMFLOAT4)"
+            href: https://msdn.microsoft.com/en-us/library/Hh855898(v=VS.85).aspx
+        - name: "Fields"
+          href: boundingorientedbox-fields.md
+          items: 
+          - name: "Center"
+            href: boundingorientedbox-center.md
+          - name: "CORNER_COUNT"
+            href: boundingorientedbox-corner-count.md
+          - name: "Extents"
+            href: boundingorientedbox-extents.md
+          - name: "Orientation"
+            href: boundingorientedbox-orientation.md
+        - name: "Methods"
+          href: boundingorientedbox-methods.md
+          items: 
+          - name: "Contains"
+            href: boundingorientedbox-contains.md
+            items: 
+            - name: "Contains (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855880(v=VS.85).aspx
+            - name: "Contains (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855875(v=VS.85).aspx
+            - name: "Contains (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855885(v=VS.85).aspx
+            - name: "Contains (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855889(v=VS.85).aspx
+            - name: "Contains (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855891(v=VS.85).aspx
+            - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855878(v=VS.85).aspx
+          - name: "Intersects"
+            href: boundingorientedbox-intersects.md
+            items: 
+            - name: "Intersects (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855921(v=VS.85).aspx
+            - name: "Intersects (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855913(v=VS.85).aspx
+            - name: "Intersects (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855927(v=VS.85).aspx
+            - name: "Intersects (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855930(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855932(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855916(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855918(v=VS.85).aspx
+          - name: "Transform"
+            href: boundingorientedbox-transform.md
+            items: 
+            - name: "Transform (BoundingOrientedBox,float,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855952(v=VS.85).aspx
+            - name: "Transform (BoundingOrientedBox,XMMATRIX)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855951(v=VS.85).aspx
+          - name: "ContainedBy"
+            href: /windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby
+          - name: "CreateFromBoundingBox"
+            href: https://msdn.microsoft.com/en-us/library/Hh855894(v=VS.85).aspx
+          - name: "CreateFromPoints"
+            href: https://msdn.microsoft.com/en-us/library/Hh855896(v=VS.85).aspx
+          - name: "GetCorners"
+            href: https://msdn.microsoft.com/en-us/library/Hh855909(v=VS.85).aspx
+          - name: "op_Assignment"
+            href: https://msdn.microsoft.com/en-us/library/Hh855937(v=VS.85).aspx
+      - name: "BoundingSphere"
+        href: https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx
+        items: 
+        - name: "Constructors"
+          href: boundingsphere-ctor.md
+          items: 
+          - name: "DirectX.BoundingSphere ()"
+            href: https://msdn.microsoft.com/en-us/library/Hh437812(v=VS.85).aspx
+          - name: "DirectX.BoundingSphere (BoundingSphere)"
+            href: https://msdn.microsoft.com/en-us/library/Hh437814(v=VS.85).aspx
+          - name: "DirectX.BoundingSphere (XMFLOAT3,float)"
+            href: https://msdn.microsoft.com/en-us/library/Hh437807(v=VS.85).aspx
+        - name: "Fields"
+          href: boundingsphere-fields.md
+          items: 
+          - name: "Center"
+            href: boundingsphere-center.md
+          - name: "Radius"
+            href: boundingsphere-radius.md
+        - name: "Methods"
+          href: boundingsphere-methods.md
+          items: 
+          - name: "Contains"
+            href: boundingsphere-contains.md
+            items: 
+            - name: "Contains (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449612(v=VS.85).aspx
+            - name: "Contains (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855876(v=VS.85).aspx
+            - name: "Contains (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855886(v=VS.85).aspx
+            - name: "Contains (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449616(v=VS.85).aspx
+            - name: "Contains (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449621(v=VS.85).aspx
+            - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh449609(v=VS.85).aspx
+          - name: "Intersects"
+            href: boundingsphere-intersects.md
+            items: 
+            - name: "Intersects (BoundingBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437822(v=VS.85).aspx
+            - name: "Intersects (BoundingFrustum)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855914(v=VS.85).aspx
+            - name: "Intersects (BoundingOrientedBox)"
+              href: https://msdn.microsoft.com/en-us/library/Hh855928(v=VS.85).aspx
+            - name: "Intersects (BoundingSphere)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437826(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437828(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,float)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437818(v=VS.85).aspx
+            - name: "Intersects (XMVECTOR,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437820(v=VS.85).aspx
+          - name: "Transform"
+            href: boundingsphere-transform.md
+            items: 
+            - name: "Transform (BoundingSphere,float,XMVECTOR,XMVECTOR)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437839(v=VS.85).aspx
+            - name: "Transform (BoundingSphere,XMMATRIX)"
+              href: https://msdn.microsoft.com/en-us/library/Hh437836(v=VS.85).aspx
+          - name: "ContainedBy"
+            href: /windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby
+          - name: "CreateFromBoundingBox"
+            href: https://msdn.microsoft.com/en-us/library/Hh437764(v=VS.85).aspx
+          - name: "CreateFromPoints"
+            href: https://msdn.microsoft.com/en-us/library/Hh437795(v=VS.85).aspx
+          - name: "CreateMerged"
+            href: https://msdn.microsoft.com/en-us/library/Hh437806(v=VS.85).aspx
+          - name: "op_Assignment"
+            href: https://msdn.microsoft.com/en-us/library/Hh437830(v=VS.85).aspx
+    - name: "DirectXMath Enumerations"
+      href: ovw-xnamath-reference-enums.md
+      items: 
+      - name: "ContainmentType"
+        href: /windows/desktop/api/DirectXCollision/ne-directxcollision-containmenttype
+      - name: "PlaneIntersectionType"
+        href: /windows/desktop/api/DirectXCollision/ne-directxcollision-planeintersectiontype
+    - name: "DirectXMath Library Types"
+      href: ovw-xnamath-reference-types.md
+      items: 
+      - name: "HALF Data Type"
+        href: half-data-type.md
+      - name: "XMVECTOR Data Type"
+        href: xmvector-data-type.md
+        items: 
+        - name: "XMVECTOR Extensions"
+          href: ovw-xmvector-extensions.md
+          items: 
+          - name: "XMVECTOR Operators"
+            href: ovw-xmvector-operators.md
+            items: 
+            - name: "operator +="
+              href: https://msdn.microsoft.com/en-us/library/Ee421394(v=VS.85).aspx
+            - name: "operator -="
+              href: https://msdn.microsoft.com/library/windows/desktop/ee421383
+            - name: "operator *"
+              href: xmvector-operator-mul.md
+              items: 
+              - name: "operator * (float,XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421390(v=VS.85).aspx
+              - name: "operator * (XMVECTOR,float)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421391(v=VS.85).aspx
+              - name: "operator * (XMVECTOR,XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421392(v=VS.85).aspx
+            - name: "operator *="
+              href: xmvector-operator-muleq.md
+              items: 
+              - name: "operator *= (XMVECTOR,float)"
+                href: https://msdn.microsoft.com/en-us/library/Ff729806(v=VS.85).aspx
+              - name: "operator *= (XMVECTOR,XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421388(v=VS.85).aspx
+            - name: "operator /"
+              href: xmvector-operator-div.md
+              items: 
+              - name: "operator / (XMVECTOR,float)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421381(v=VS.85).aspx
+              - name: "operator / (XMVECTOR,XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421380(v=VS.85).aspx
+            - name: "operator /="
+              href: xmvector-operator-diveq.md
+              items: 
+              - name: "operator /= (XMVECTOR,float)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421377(v=VS.85).aspx
+              - name: "operator /= (XMVECTOR,XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421378(v=VS.85).aspx
+            - name: "operator -"
+              href: xmvector-operator--.md
+              items: 
+              - name: "operator - (XMVECTOR)"
+                href: https://msdn.microsoft.com/library/windows/desktop/ee421384
+              - name: "operator - (XMVECTOR,XMVECTOR)"
+                href: https://msdn.microsoft.com/library/windows/desktop/ee421385
+            - name: "operator +"
+              href: xmvector-operator-pls.md
+              items: 
+              - name: "operator + (XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421395(v=VS.85).aspx
+              - name: "operator + (XMVECTOR,XMVECTOR)"
+                href: https://msdn.microsoft.com/en-us/library/Ee421396(v=VS.85).aspx
+      - name: "XMVECTORF32 Data Type"
+        href: xmvectorf32-data-type.md
+        items: 
+        - name: "XMVECTORF32 Extensions"
+          href: ovw-xmvectorf32-extensions.md
+          items: 
+          - name: "XMVECTORF32 Operators"
+            href: ovw-xmvectorf32-operators.md
+            items: 
+            - name: "operator __m128d"
+              href: https://msdn.microsoft.com/en-us/library/Ee421020(v=VS.85).aspx
+            - name: "operator __m128i"
+              href: https://msdn.microsoft.com/en-us/library/Ee421021(v=VS.85).aspx
+            - name: "operator XMVECTOR"
+              href: https://msdn.microsoft.com/en-us/library/Ee421022(v=VS.85).aspx
+      - name: "XMVECTORI32 Data Type"
+        href: xmvectori32-data-type.md
+        items: 
+        - name: "XMVECTORI32 Extensions"
+          href: ovw-xmvectori32-extensions.md
+          items: 
+          - name: "XMVECTORI32 Operators"
+            href: ovw-xmvectori32-operators.md
+            items: 
+            - name: "operator __m128i"
+              href: https://msdn.microsoft.com/en-us/library/Ee421164(v=VS.85).aspx
+            - name: "operator XMVECTOR"
+              href: https://msdn.microsoft.com/en-us/library/Ee421165(v=VS.85).aspx
+      - name: "XMVECTORU32 Data Type"
+        href: xmvectoru32-data-type.md
+        items: 
+        - name: "XMVECTORU32 Extensions"
+          href: ovw-xmvectoru32-extensions.md
+          items: 
+          - name: "XMVECTORU32 Operators"
+            href: ovw-xmvectoru32-operators.md
+            items: 
+            - name: "operator __m128i"
+              href: https://msdn.microsoft.com/en-us/library/Ee421369(v=VS.85).aspx
+            - name: "operator XMVECTOR"
+              href: https://msdn.microsoft.com/en-us/library/Ee421370(v=VS.85).aspx
+      - name: "XMVECTORU8 Data Type"
+        href: xmvectoru8-data-type.md
+        items: 
+        - name: "XMVECTORU8 Extensions"
+          href: ovw-xmvectoru8-extensions.md
+          items: 
+          - name: "XMVECTORU8 Operators"
+            href: ovw-xmvectoru8-operators.md
+            items: 
+            - name: "operator __m128i"
+              href: https://msdn.microsoft.com/en-us/library/Ee421373(v=VS.85).aspx
+            - name: "operator XMVECTOR"
+              href: https://msdn.microsoft.com/en-us/library/Ee421374(v=VS.85).aspx

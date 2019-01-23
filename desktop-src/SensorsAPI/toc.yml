@@ -1,0 +1,220 @@
+- name: "Sensor API"
+  href: portal.md
+  items: 
+  - name: "Getting Started"
+    href: getting-started.md
+    items: 
+    - name: "Introduction to the Sensor and Location Platform in Windows"
+      href: introduction-to-the-sensor-and-location-platform-in-windows.md
+    - name: "Privacy and Security in the Sensor and Location Platform"
+      href: privacy-and-security-in-the-sensor-and-location-platform.md
+    - name: "General Requirements for Application Development"
+      href: general-requirements-for-application-development.md
+    - name: "About the Samples and Tools"
+      href: about-the-samples.md
+    - name: "For More Information"
+      href: for-more-information.md
+  - name: "About the Sensor API"
+    href: about-the-sensor-api.md
+    items: 
+    - name: "The Sensor Manager Object"
+      href: the-sensor-manager.md
+    - name: "The Sensor Object"
+      href: the-sensor-object.md
+    - name: "The Sensor Collection Object"
+      href: the-sensor-collection-object.md
+    - name: "The Sensor Data Report Object"
+      href: the-sensor-data-report-object.md
+    - name: "About Sensor API Events"
+      href: about-sensor-events.md
+    - name: "About Sensor Constants"
+      href: about-sensor-constants.md
+    - name: "Managing User Permissions"
+      href: managing-user-permissions.md
+    - name: "About Logical Sensors"
+      href: about-logical-sensors.md
+  - name: "Sensor API Programming Guide"
+    href: sensor-api-programming-guide.md
+    items: 
+    - name: "Retrieving a Sensor Object"
+      href: retrieving-a-sensor.md
+    - name: "Requesting User Permissions"
+      href: requesting-user-permissions.md
+    - name: "Retrieving and Setting Sensor Properties"
+      href: setting-and-retrieving-sensor-properties.md
+    - name: "Checking for Supported Sensor Data Fields"
+      href: checking-for-supported-sensor-data-fields.md
+    - name: "Using Sensor API Events"
+      href: using-sensor-api-events.md
+    - name: "Retrieving Sensor Data Values"
+      href: retrieving-sensor-data-fields.md
+    - name: "Retrieving Vector Types"
+      href: retrieving-vector-types.md
+    - name: "Using Logical Sensors"
+      href: using-logical-sensors.md
+    - name: "Creating Light-Aware User Interfaces"
+      href: creating-light-aware-user-interfaces.md
+      items: 
+      - name: "Fundamentals of Light-Aware User Interfaces"
+        href: fundamentals-of-light-aware-user-interfaces.md
+      - name: "Examples of Light-Aware User Interfaces"
+        href: examples-of-light-aware-user-interfaces.md
+      - name: "Optimizing the User Experience"
+        href: optimizing-the-user-experience.md
+      - name: "Understanding and Interpreting Lux Values"
+        href: understanding-and-interpreting-lux-values.md
+      - name: "Using Light Sensor Data"
+        href: handling-data-from-multiple-light-sensors.md
+  - name: "Sensor API Programming Reference"
+    href: sensor-api-programming-reference.md
+    items: 
+    - name: "COM Interfaces"
+      href: windows-sensors-com-interfaces.md
+      items: 
+      - name: "ILocationPermissions"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions
+        items: 
+        - name: "GetGlobalLocationPermission method"
+          href: winsensors-com-ref/ilocationpermissions-getgloballocationpermission.md)--
+        - name: "CheckLocationCapability method"
+          href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability
+      - name: "ILogicalSensorManager"
+        href: https://msdn.microsoft.com/en-us/library/Dd318934(v=VS.85).aspx
+        items: 
+        - name: "Connect Method"
+          href: winsensors-com-ref/ilogicalsensormanager-connect.md)--
+        - name: "Disconnect Method"
+          href: winsensors-com-ref/ilogicalsensormanager-disconnect.md)--
+        - name: "Uninstall Method"
+          href: winsensors-com-ref/ilogicalsensormanager-uninstall.md)--
+      - name: "ISensor"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensor
+        items: 
+        - name: "GetCategory Method"
+          href: winsensors-com-ref/isensor-getcategory.md)--
+        - name: "GetData Method"
+          href: winsensors-com-ref/isensor-getdata.md)--
+        - name: "GetEventInterest Method"
+          href: winsensors-com-ref/isensor-geteventinterest.md)--
+        - name: "GetFriendlyName Method"
+          href: winsensors-com-ref/isensor-getfriendlyname.md)--
+        - name: "GetID Method"
+          href: winsensors-com-ref/isensor-getid.md)--
+        - name: "GetProperties Method"
+          href: winsensors-com-ref/isensor-getproperties.md)--
+        - name: "GetProperty Method"
+          href: winsensors-com-ref/isensor-getproperty.md)--
+        - name: "GetState Method"
+          href: winsensors-com-ref/isensor-getstate.md)--
+        - name: "GetSupportedDataFields Method"
+          href: winsensors-com-ref/isensor-getsupporteddatafields.md)--
+        - name: "GetType Method"
+          href: winsensors-com-ref/isensor-gettype.md)--
+        - name: "SetEventInterest Method"
+          href: winsensors-com-ref/isensor-seteventinterest.md)--
+        - name: "SetEventSink Method"
+          href: winsensors-com-ref/isensor-seteventsink.md)--
+        - name: "SetProperties Method"
+          href: winsensors-com-ref/isensor-setproperties.md)--
+        - name: "SupportsDataField Method"
+          href: winsensors-com-ref/isensor-supportsdatafield.md)--
+        - name: "SupportsEvent Method"
+          href: winsensors-com-ref/isensor-supportsevent.md)--
+      - name: "ISensorCollection"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection
+        items: 
+        - name: "Add Method"
+          href: winsensors-com-ref/isensorcollection-add.md)--
+        - name: "Clear Method"
+          href: winsensors-com-ref/isensorcollection-clear.md)--
+        - name: "GetAt Method"
+          href: winsensors-com-ref/isensorcollection-getat.md)--
+        - name: "GetCount Method"
+          href: winsensors-com-ref/isensorcollection-getcount.md)--
+        - name: "Remove Method"
+          href: winsensors-com-ref/isensorcollection-remove.md)--
+        - name: "RemoveByID Method"
+          href: winsensors-com-ref/isensorcollection-removebyid.md)--
+      - name: "ISensorDataReport"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport
+        items: 
+        - name: "GetSensorValue Method"
+          href: winsensors-com-ref/isensordatareport-getsensorvalue.md)--
+        - name: "GetSensorValues Method"
+          href: winsensors-com-ref/isensordatareport-getsensorvalues.md)--
+        - name: "GetTimestamp Method"
+          href: winsensors-com-ref/isensordatareport-gettimestamp.md)--
+      - name: "ISensorEvents"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents
+        items: 
+        - name: "OnEvent Method"
+          href: winsensors-com-ref/isensorevents-onevent.md)--
+        - name: "OnDataUpdated Method"
+          href: winsensors-com-ref/isensorevents-ondataupdated.md)--
+        - name: "OnLeave Method"
+          href: winsensors-com-ref/isensorevents-onleave.md)--
+        - name: "OnStateChanged Method"
+          href: winsensors-com-ref/isensorevents-onstatechanged.md)--
+      - name: "ISensorManager"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager
+        items: 
+        - name: "GetSensorByID Method"
+          href: winsensors-com-ref/isensormanager-getsensorbyid.md)--
+        - name: "GetSensorsByCategory Method"
+          href: winsensors-com-ref/isensormanager-getsensorsbycategory.md)--
+        - name: "GetSensorsByType Method"
+          href: winsensors-com-ref/isensormanager-getsensorsbytype.md)--
+        - name: "RequestPermissions Method"
+          href: winsensors-com-ref/isensormanager-requestpermissions.md)--
+        - name: "SetEventSink Method"
+          href: winsensors-com-ref/isensormanager-seteventsink.md)--
+      - name: "ISensorManagerEvents"
+        href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents
+        items: 
+        - name: "OnSensorEnter Method"
+          href: winsensors-com-ref/isensormanagerevents-onsensorenter.md)--
+    - name: "Enumeration Types"
+      href: enumeration-types.md
+      items: 
+      - name: "MagnetometerAccuracy"
+        href: /windows/desktop/api/sensorsapi/ne-sensorsapi-magnetometeraccuracy
+      - name: "SensorConnectionType"
+        href: winsensors-com-ref/sensorconnectiontype.md)--
+      - name: "SensorState"
+        href: winsensors-com-ref/sensorstate.md)--
+    - name: "Constants"
+      href: constants.md
+      items: 
+      - name: "Sensor Categories, Types, and Data Fields"
+        href: sensor-categories--types--and-datafields.md
+        items: 
+        - name: "SENSOR_CATEGORY_ALL"
+          href: sensor-category-all.md
+        - name: "SENSOR_CATEGORY_BIOMETRIC"
+          href: sensor-category-biometric.md
+        - name: "SENSOR_CATEGORY_ELECTRICAL"
+          href: sensor-category-electrical.md
+        - name: "SENSOR_CATEGORY_ENVIRONMENTAL"
+          href: sensor-category-environmental.md
+        - name: "SENSOR_CATEGORY_LIGHT"
+          href: sensor-category-light.md
+        - name: "SENSOR_CATEGORY_LOCATION"
+          href: sensor-category-location.md
+        - name: "SENSOR_CATEGORY_MECHANICAL"
+          href: sensor-category-mechanical.md
+        - name: "SENSOR_CATEGORY_MOTION"
+          href: sensor-category-motion.md
+        - name: "SENSOR_CATEGORY_ORIENTATION"
+          href: sensor-category-orientation.md
+        - name: "SENSOR_CATEGORY_OTHER"
+          href: sensor-category-other.md
+        - name: "SENSOR_CATEGORY_SCANNER"
+          href: sensor-category-scanner.md
+        - name: "SENSOR_CATEGORY_UNSUPPORTED"
+          href: sensor-category-unsupported.md
+      - name: "Sensor Properties"
+        href: sensor-properties.md
+      - name: "Event Constants"
+        href: event-constants.md
+  - name: "Sensor API Glossary"
+    href: sensors-glossary.md

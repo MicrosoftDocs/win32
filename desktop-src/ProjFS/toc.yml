@@ -1,0 +1,17 @@
+- name: "Windows Projected File System"
+  href: projected-file-system.md
+  items: 
+  - name: "Enabling Windows Projected File System"
+    href: enabling-windows-projected-file-system.md
+  - name: "Virtualization Instance Lifecycle"
+    href: virtualization-instance-lifecycle.md
+  - name: "Enumerating Files and Directories"
+    href: enumerating-files-and-directories.md
+  - name: "Providing File Data"
+    href: providing-file-data.md
+  - name: "File System Operation Notifications"
+    href: file-system-operation-notifications.md
+  - name: "Handling View Changes"
+    href: handling-view-changes.md
+  - name: "Asynchronous Callback Handling"
+    href: asynchronous-callback-handling.md

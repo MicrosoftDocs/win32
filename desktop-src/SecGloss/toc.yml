@@ -1,0 +1,45 @@
+- name: "Security Glossary"
+  href: security-glossary.md
+  items: 
+  - name: "A"
+    href: a-gly.md
+  - name: "B"
+    href: b-gly.md
+  - name: "C"
+    href: c-gly.md
+  - name: "D"
+    href: d-gly.md
+  - name: "E"
+    href: e-gly.md
+  - name: "G"
+    href: g-gly.md
+  - name: "H"
+    href: h-gly.md
+  - name: "I"
+    href: i-gly.md
+  - name: "K"
+    href: k-gly.md
+  - name: "L"
+    href: l-gly.md
+  - name: "M"
+    href: m-gly.md
+  - name: "N"
+    href: n-gly.md
+  - name: "O"
+    href: o-gly.md
+  - name: "P"
+    href: p-gly.md
+  - name: "R"
+    href: r-gly.md
+  - name: "S"
+    href: s-gly.md
+  - name: "T"
+    href: t-gly.md
+  - name: "U"
+    href: u-gly.md
+  - name: "V"
+    href: v-gly.md
+  - name: "W"
+    href: w-gly.md
+  - name: "X"
+    href: x-gly.md

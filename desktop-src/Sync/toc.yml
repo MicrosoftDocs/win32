@@ -1,0 +1,557 @@
+- name: "Synchronization"
+  href: synchronization.md
+  items: 
+  - name: "What's New in Synchronization"
+    href: what-s-new-in-synchronization.md
+  - name: "About Synchronization"
+    href: about-synchronization.md
+    items: 
+    - name: "Wait Functions"
+      href: wait-functions.md
+    - name: "Synchronization Objects"
+      href: synchronization-objects.md
+      items: 
+      - name: "Event Objects"
+        href: event-objects.md
+      - name: "Mutex Objects"
+        href: mutex-objects.md
+      - name: "Semaphore Objects"
+        href: semaphore-objects.md
+      - name: "Waitable Timer Objects"
+        href: waitable-timer-objects.md
+      - name: "Synchronization Object Security and Access Rights"
+        href: synchronization-object-security-and-access-rights.md
+    - name: "Interprocess Synchronization"
+      href: interprocess-synchronization.md
+      items: 
+      - name: "Object Names"
+        href: object-names.md
+      - name: "Object Namespaces"
+        href: object-namespaces.md
+      - name: "Object Inheritance"
+        href: object-inheritance.md
+      - name: "Object Duplication"
+        href: object-duplication.md
+    - name: "Synchronization and Multiprocessor Issues"
+      href: synchronization-and-multiprocessor-issues.md
+    - name: "Synchronization and Overlapped Input and Output"
+      href: synchronization-and-overlapped-input-and-output.md
+    - name: "Asynchronous Procedure Calls"
+      href: asynchronous-procedure-calls.md
+    - name: "Critical Section Objects"
+      href: critical-section-objects.md
+    - name: "Condition Variables"
+      href: condition-variables.md
+    - name: "Slim Reader/Writer (SRW) Locks"
+      href: slim-reader-writer--srw--locks.md
+    - name: "One-Time Initialization"
+      href: one-time-initialization.md
+    - name: "Interlocked Variable Access"
+      href: interlocked-variable-access.md
+    - name: "Interlocked Singly Linked Lists"
+      href: interlocked-singly-linked-lists.md
+    - name: "Timer Queues"
+      href: timer-queues.md
+    - name: "Synchronization Barriers"
+      href: synchronization-barriers.md
+  - name: "Using Synchronization"
+    href: using-synchronization.md
+    items: 
+    - name: "Waiting for Multiple Objects"
+      href: waiting-for-multiple-objects.md
+    - name: "Using Named Objects"
+      href: using-named-objects.md
+    - name: "Using Event Objects"
+      href: using-event-objects.md
+    - name: "Using Mutex Objects"
+      href: using-mutex-objects.md
+    - name: "Using Semaphore Objects"
+      href: using-semaphore-objects.md
+    - name: "Using Waitable Timer Objects"
+      href: using-waitable-timer-objects.md
+    - name: "Using Waitable Timers with an Asynchronous Procedure Call"
+      href: using-a-waitable-timer-with-an-asynchronous-procedure-call.md
+    - name: "Using Critical Section Objects"
+      href: using-critical-section-objects.md
+    - name: "Using Condition Variables"
+      href: using-condition-variables.md
+    - name: "Using One-Time Initialization"
+      href: using-one-time-initialization.md
+    - name: "Using Singly Linked Lists"
+      href: using-singly-linked-lists.md
+    - name: "Using Timer Queues"
+      href: using-timer-queues.md
+  - name: "Synchronization Reference"
+    href: synchronization-reference.md
+    items: 
+    - name: "Synchronization Functions"
+      href: synchronization-functions.md
+      items: 
+      - name: "AcquireSRWLockExclusive"
+        href: https://msdn.microsoft.com/en-us/library/ms681930(v=VS.85).aspx
+      - name: "AcquireSRWLockShared"
+        href: https://msdn.microsoft.com/en-us/library/ms681934(v=VS.85).aspx
+      - name: "AddSIDToBoundaryDescriptor"
+        href: https://msdn.microsoft.com/en-us/library/ms681937(v=VS.85).aspx
+      - name: "AddIntegrityLabelToBoundaryDescriptor"
+        href: /windows/desktop/api/WinBase/nf-winbase-addintegritylabeltoboundarydescriptor
+      - name: "APCProc"
+        href: https://msdn.microsoft.com/en-us/library/ms681947(v=VS.85).aspx
+      - name: "CancelWaitableTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms681985(v=VS.85).aspx
+      - name: "ChangeTimerQueueTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms682004(v=VS.85).aspx
+      - name: "ClosePrivateNamespace"
+        href: https://msdn.microsoft.com/en-us/library/ms682026(v=VS.85).aspx
+      - name: "CreateBoundaryDescriptor"
+        href: /windows/desktop/api/WinBase/nf-winbase-createboundarydescriptora
+      - name: "CreateEvent"
+        href: https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx
+      - name: "CreateEventEx"
+        href: https://msdn.microsoft.com/en-us/library/ms682400(v=VS.85).aspx
+      - name: "CreateMutex"
+        href: https://msdn.microsoft.com/en-us/library/ms682411(v=VS.85).aspx
+      - name: "CreateMutexEx"
+        href: https://msdn.microsoft.com/en-us/library/ms682418(v=VS.85).aspx
+      - name: "CreatePrivateNamespace"
+        href: /windows/desktop/api/WinBase/nf-winbase-createprivatenamespacea
+      - name: "CreateSemaphore"
+        href: /windows/desktop/api/WinBase/nf-winbase-createsemaphorea
+      - name: "CreateSemaphoreEx"
+        href: /windows/desktop/api/WinBase/nf-winbase-createsemaphoreexa
+      - name: "CreateTimerQueue"
+        href: https://msdn.microsoft.com/en-us/library/ms682483(v=VS.85).aspx
+      - name: "CreateTimerQueueTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms682485(v=VS.85).aspx
+      - name: "CreateWaitableTimer"
+        href: /windows/desktop/api/WinBase/nf-winbase-createwaitabletimera
+      - name: "CreateWaitableTimerEx"
+        href: /windows/desktop/api/WinBase/nf-winbase-createwaitabletimerexa
+      - name: "DeleteBoundaryDescriptor"
+        href: https://msdn.microsoft.com/en-us/library/ms682549(v=VS.85).aspx
+      - name: "DeleteCriticalSection"
+        href: https://msdn.microsoft.com/en-us/library/ms682552(v=VS.85).aspx
+      - name: "DeleteSynchronizationBarrier"
+        href: /windows/desktop/api/SynchAPI/nf-synchapi-deletesynchronizationbarrier
+      - name: "DeleteTimerQueue"
+        href: /windows/desktop/api/WinBase/nf-winbase-deletetimerqueue
+      - name: "DeleteTimerQueueEx"
+        href: https://msdn.microsoft.com/en-us/library/ms682568(v=VS.85).aspx
+      - name: "DeleteTimerQueueTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms682569(v=VS.85).aspx
+      - name: "EnterCriticalSection"
+        href: https://msdn.microsoft.com/en-us/library/ms682608(v=VS.85).aspx
+      - name: "EnterSynchronizationBarrier"
+        href: /windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier
+      - name: "GetOverlappedResult"
+        href: https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx
+      - name: "GetOverlappedResultEx"
+        href: /windows/desktop/api/Ioapiset/nf-ioapiset-getoverlappedresultex
+      - name: "InitializeConditionVariable"
+        href: https://msdn.microsoft.com/en-us/library/ms683469(v=VS.85).aspx
+      - name: "InitializeCriticalSection"
+        href: https://msdn.microsoft.com/en-us/library/ms683472(v=VS.85).aspx
+      - name: "InitializeCriticalSectionAndSpinCount"
+        href: https://msdn.microsoft.com/en-us/library/ms683476(v=VS.85).aspx
+      - name: "InitializeCriticalSectionEx"
+        href: https://msdn.microsoft.com/en-us/library/ms683477(v=VS.85).aspx
+      - name: "InitializeSListHead"
+        href: https://msdn.microsoft.com/en-us/library/ms683482(v=VS.85).aspx
+      - name: "InitializeSRWLock"
+        href: https://msdn.microsoft.com/en-us/library/ms683483(v=VS.85).aspx
+      - name: "InitializeSynchronizationBarrier"
+        href: /windows/desktop/api/SynchAPI/nf-synchapi-initializesynchronizationbarrier
+      - name: "InitOnceBeginInitialize"
+        href: https://msdn.microsoft.com/en-us/library/ms683487(v=VS.85).aspx
+      - name: "PINIT_ONCE_FN"
+        href: https://msdn.microsoft.com/en-us/library/ms683490(v=VS.85).aspx
+      - name: "InitOnceComplete"
+        href: https://msdn.microsoft.com/en-us/library/ms683491(v=VS.85).aspx
+      - name: "InitOnceExecuteOnce"
+        href: https://msdn.microsoft.com/en-us/library/ms683493(v=VS.85).aspx
+      - name: "InitOnceInitialize"
+        href: https://msdn.microsoft.com/en-us/library/ms683495(v=VS.85).aspx
+      - name: "InterlockedAdd"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockedadd
+      - name: "InterlockedAddAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683507(v=VS.85).aspx
+      - name: "InterlockedAddRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683513(v=VS.85).aspx
+      - name: "InterlockedAddNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972629(v=VS.85).aspx
+      - name: "InterlockedAdd64"
+        href: https://msdn.microsoft.com/en-us/library/ms683506(v=VS.85).aspx
+      - name: "InterlockedAddAcquire64"
+        href: https://msdn.microsoft.com/en-us/library/ms683510(v=VS.85).aspx
+      - name: "InterlockedAddRelease64"
+        href: https://msdn.microsoft.com/en-us/library/ms683514(v=VS.85).aspx
+      - name: "InterlockedAddNoFence64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972630(v=VS.85).aspx
+      - name: "InterlockedAnd"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedand
+      - name: "InterlockedAndAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683539(v=VS.85).aspx
+      - name: "InterlockedAndRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683543(v=VS.85).aspx
+      - name: "InterlockedAndNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972634(v=VS.85).aspx
+      - name: "InterlockedAnd8"
+        href: https://msdn.microsoft.com/en-us/library/ms683532(v=VS.85).aspx
+      - name: "InterlockedAnd8Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683535(v=VS.85).aspx
+      - name: "InterlockedAnd8Release"
+        href: https://msdn.microsoft.com/en-us/library/ms683537(v=VS.85).aspx
+      - name: "InterlockedAnd8NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972633(v=VS.85).aspx
+      - name: "InterlockedAnd16"
+        href: https://msdn.microsoft.com/en-us/library/ms683518(v=VS.85).aspx
+      - name: "InterlockedAnd16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683521(v=VS.85).aspx
+      - name: "InterlockedAnd16Release"
+        href: https://msdn.microsoft.com/en-us/library/ms683525(v=VS.85).aspx
+      - name: "InterlockedAnd16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972631(v=VS.85).aspx
+      - name: "InterlockedAnd64"
+        href: https://msdn.microsoft.com/en-us/library/ms683527(v=VS.85).aspx
+      - name: "InterlockedAnd64Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683529(v=VS.85).aspx
+      - name: "InterlockedAnd64Release"
+        href: https://msdn.microsoft.com/en-us/library/ms683530(v=VS.85).aspx
+      - name: "InterlockedAnd64NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972632(v=VS.85).aspx
+      - name: "InterlockedBitTestAndComplement"
+        href: https://msdn.microsoft.com/en-us/library/Hh802759(v=VS.85).aspx
+      - name: "InterlockedBitTestAndComplement64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972635(v=VS.85).aspx
+      - name: "InterlockedBitTestAndReset"
+        href: https://msdn.microsoft.com/en-us/library/ms683546(v=VS.85).aspx
+      - name: "InterlockedBitTestAndResetAcquire"
+        href: https://msdn.microsoft.com/en-us/library/Hh972636(v=VS.85).aspx
+      - name: "InterlockedBitTestAndResetRelease"
+        href: https://msdn.microsoft.com/en-us/library/Hh972637(v=VS.85).aspx
+      - name: "InterlockedBitTestAndReset64"
+        href: https://msdn.microsoft.com/en-us/library/ms683547(v=VS.85).aspx
+      - name: "InterlockedBitTestAndSet"
+        href: https://msdn.microsoft.com/en-us/library/ms683549(v=VS.85).aspx
+      - name: "InterlockedBitTestAndSetAcquire"
+        href: https://msdn.microsoft.com/en-us/library/Hh972638(v=VS.85).aspx
+      - name: "InterlockedBitTestAndSetRelease"
+        href: https://msdn.microsoft.com/en-us/library/Hh972639(v=VS.85).aspx
+      - name: "InterlockedBitTestAndSet64"
+        href: https://msdn.microsoft.com/en-us/library/ms683551(v=VS.85).aspx
+      - name: "InterlockedCompare64Exchange128"
+        href: https://msdn.microsoft.com/en-us/library/ms683553(v=VS.85).aspx
+      - name: "InterlockedCompare64ExchangeAcquire128"
+        href: https://msdn.microsoft.com/en-us/library/ms683557(v=VS.85).aspx
+      - name: "InterlockedCompare64ExchangeRelease128"
+        href: https://msdn.microsoft.com/en-us/library/ms683558(v=VS.85).aspx
+      - name: "InterlockedCompareExchange"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedcompareexchange
+      - name: "InterlockedCompareExchangeAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683564(v=VS.85).aspx
+      - name: "InterlockedCompareExchangeRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683574(v=VS.85).aspx
+      - name: "InterlockedCompareExchangeNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972645(v=VS.85).aspx
+      - name: "InterlockedCompareExchange16"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockedcompareexchange16
+      - name: "InterlockedCompareExchange16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/Hh972642(v=VS.85).aspx
+      - name: "InterlockedCompareExchange16Release"
+        href: https://msdn.microsoft.com/en-us/library/Hh972644(v=VS.85).aspx
+      - name: "InterlockedCompareExchange16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972643(v=VS.85).aspx
+      - name: "InterlockedCompareExchange64"
+        href: https://msdn.microsoft.com/en-us/library/ms683562(v=VS.85).aspx
+      - name: "InterlockedCompareExchangeAcquire64"
+        href: https://msdn.microsoft.com/en-us/library/ms683566(v=VS.85).aspx
+      - name: "InterlockedCompareExchangeRelease64"
+        href: https://msdn.microsoft.com/en-us/library/ms683576(v=VS.85).aspx
+      - name: "InterlockedCompareExchangeNoFence64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972646(v=VS.85).aspx
+      - name: "InterlockedCompareExchange128"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockedcompareexchange128
+      - name: "InterlockedCompareExchangePointer"
+        href: https://msdn.microsoft.com/en-us/library/ms683568(v=VS.85).aspx
+      - name: "InterlockedCompareExchangePointerAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683570(v=VS.85).aspx
+      - name: "InterlockedCompareExchangePointerRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683571(v=VS.85).aspx
+      - name: "InterlockedCompareExchangePointerNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972647(v=VS.85).aspx
+      - name: "InterlockedDecrement"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockeddecrement
+      - name: "InterlockedDecrementAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683583(v=VS.85).aspx
+      - name: "InterlockedDecrementRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683586(v=VS.85).aspx
+      - name: "InterlockedDecrementNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972652(v=VS.85).aspx
+      - name: "InterlockedDecrement16"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockeddecrement16
+      - name: "InterlockedDecrement16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/Hh972649(v=VS.85).aspx
+      - name: "InterlockedDecrement16Release"
+        href: https://msdn.microsoft.com/en-us/library/Hh972651(v=VS.85).aspx
+      - name: "InterlockedDecrement16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972650(v=VS.85).aspx
+      - name: "InterlockedDecrement64"
+        href: https://msdn.microsoft.com/en-us/library/ms683581(v=VS.85).aspx
+      - name: "InterlockedDecrementAcquire64"
+        href: https://msdn.microsoft.com/en-us/library/ms683585(v=VS.85).aspx
+      - name: "InterlockedDecrementRelease64"
+        href: https://msdn.microsoft.com/en-us/library/ms683588(v=VS.85).aspx
+      - name: "InterlockedDecrementNoFence64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972653(v=VS.85).aspx
+      - name: "InterlockedExchange"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchange
+      - name: "InterlockedExchangeAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683594(v=VS.85).aspx
+      - name: "InterlockedExchangeNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972659(v=VS.85).aspx
+      - name: "InterlockedExchange8"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockedexchange8
+      - name: "InterlockedExchange16"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockedexchange16
+      - name: "InterlockedExchange16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/Hh972654(v=VS.85).aspx
+      - name: "InterlockedExchange16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972655(v=VS.85).aspx
+      - name: "InterlockedExchange64"
+        href: https://msdn.microsoft.com/en-us/library/ms683593(v=VS.85).aspx
+      - name: "InterlockedExchangeAcquire64"
+        href: https://msdn.microsoft.com/en-us/library/ms683596(v=VS.85).aspx
+      - name: "InterlockedExchangeNoFence64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972660(v=VS.85).aspx
+      - name: "InterlockedExchangePointer"
+        href: https://msdn.microsoft.com/en-us/library/ms683609(v=VS.85).aspx
+      - name: "InterlockedExchangePointerAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683611(v=VS.85).aspx
+      - name: "InterlockedExchangePointerNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972661(v=VS.85).aspx
+      - name: "InterlockedExchangeSubtract"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchangesubtract
+      - name: "InterlockedExchangeAdd"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchangeadd
+      - name: "InterlockedExchangeAddAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683601(v=VS.85).aspx
+      - name: "InterlockedExchangeAddRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683605(v=VS.85).aspx
+      - name: "InterlockedExchangeAddNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972657(v=VS.85).aspx
+      - name: "InterlockedExchangeAdd64"
+        href: https://msdn.microsoft.com/en-us/library/ms683599(v=VS.85).aspx
+      - name: "InterlockedExchangeAddAcquire64"
+        href: https://msdn.microsoft.com/en-us/library/ms683604(v=VS.85).aspx
+      - name: "InterlockedExchangeAddRelease64"
+        href: https://msdn.microsoft.com/en-us/library/ms683607(v=VS.85).aspx
+      - name: "InterlockedExchangeAddNoFence64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972658(v=VS.85).aspx
+      - name: "InterlockedIncrement"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedincrement
+      - name: "InterlockedIncrementAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683618(v=VS.85).aspx
+      - name: "InterlockedIncrementRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683622(v=VS.85).aspx
+      - name: "InterlockedIncrementNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972667(v=VS.85).aspx
+      - name: "InterlockedIncrement16"
+        href: /windows/desktop/api/Winnt/nf-winnt-interlockedincrement16
+      - name: "InterlockedIncrement16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/Hh972663(v=VS.85).aspx
+      - name: "InterlockedIncrement16Release"
+        href: https://msdn.microsoft.com/en-us/library/Hh972665(v=VS.85).aspx
+      - name: "InterlockedIncrement16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972664(v=VS.85).aspx
+      - name: "InterlockedIncrement64"
+        href: https://msdn.microsoft.com/en-us/library/ms683615(v=VS.85).aspx
+      - name: "InterlockedIncrementAcquire64"
+        href: https://msdn.microsoft.com/en-us/library/ms683620(v=VS.85).aspx
+      - name: "InterlockedIncrementRelease64"
+        href: https://msdn.microsoft.com/en-us/library/ms683624(v=VS.85).aspx
+      - name: "InterlockedIncrementNoFence64"
+        href: https://msdn.microsoft.com/en-us/library/Hh972668(v=VS.85).aspx
+      - name: "InterlockedOr"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedor
+      - name: "InterlockedOrAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683643(v=VS.85).aspx
+      - name: "InterlockedOrRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms683646(v=VS.85).aspx
+      - name: "InterlockedOrNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972672(v=VS.85).aspx
+      - name: "InterlockedOr8"
+        href: https://msdn.microsoft.com/en-us/library/ms683637(v=VS.85).aspx
+      - name: "InterlockedOr8Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683639(v=VS.85).aspx
+      - name: "InterlockedOr8Release"
+        href: https://msdn.microsoft.com/en-us/library/ms683640(v=VS.85).aspx
+      - name: "InterlockedOr8NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972671(v=VS.85).aspx
+      - name: "InterlockedOr16"
+        href: https://msdn.microsoft.com/en-us/library/ms683627(v=VS.85).aspx
+      - name: "InterlockedOr16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683629(v=VS.85).aspx
+      - name: "InterlockedOr16Release"
+        href: https://msdn.microsoft.com/en-us/library/ms683631(v=VS.85).aspx
+      - name: "InterlockedOr16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972669(v=VS.85).aspx
+      - name: "InterlockedOr64"
+        href: https://msdn.microsoft.com/en-us/library/ms683633(v=VS.85).aspx
+      - name: "InterlockedOr64Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms683634(v=VS.85).aspx
+      - name: "InterlockedOr64Release"
+        href: https://msdn.microsoft.com/en-us/library/ms683636(v=VS.85).aspx
+      - name: "InterlockedOr64NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972670(v=VS.85).aspx
+      - name: "InterlockedPopEntrySList"
+        href: https://msdn.microsoft.com/en-us/library/ms683648(v=VS.85).aspx
+      - name: "InterlockedPushEntrySList"
+        href: https://msdn.microsoft.com/en-us/library/ms684020(v=VS.85).aspx
+      - name: "InterlockedPushListSList"
+        href: https://msdn.microsoft.com/en-us/library/Hh448545(v=VS.85).aspx
+      - name: "InterlockedPushListSListEx"
+        href: /windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex
+      - name: "InterlockedFlushSList"
+        href: https://msdn.microsoft.com/en-us/library/ms683612(v=VS.85).aspx
+      - name: "InterlockedXor"
+        href: /windows/desktop/api/WinBase/nf-winbase-interlockedxor
+      - name: "InterlockedXorAcquire"
+        href: https://msdn.microsoft.com/en-us/library/ms684117(v=VS.85).aspx
+      - name: "InterlockedXorRelease"
+        href: https://msdn.microsoft.com/en-us/library/ms684118(v=VS.85).aspx
+      - name: "InterlockedXorNoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972677(v=VS.85).aspx
+      - name: "InterlockedXor8"
+        href: https://msdn.microsoft.com/en-us/library/ms684110(v=VS.85).aspx
+      - name: "InterlockedXor8Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms684112(v=VS.85).aspx
+      - name: "InterlockedXor8Release"
+        href: https://msdn.microsoft.com/en-us/library/ms684113(v=VS.85).aspx
+      - name: "InterlockedXor8NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972676(v=VS.85).aspx
+      - name: "InterlockedXor16"
+        href: https://msdn.microsoft.com/en-us/library/ms684024(v=VS.85).aspx
+      - name: "InterlockedXor16Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms684026(v=VS.85).aspx
+      - name: "InterlockedXor16Release"
+        href: https://msdn.microsoft.com/en-us/library/ms684033(v=VS.85).aspx
+      - name: "InterlockedXor16NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972674(v=VS.85).aspx
+      - name: "InterlockedXor64"
+        href: https://msdn.microsoft.com/en-us/library/ms684104(v=VS.85).aspx
+      - name: "InterlockedXor64Acquire"
+        href: https://msdn.microsoft.com/en-us/library/ms684107(v=VS.85).aspx
+      - name: "InterlockedXor64Release"
+        href: https://msdn.microsoft.com/en-us/library/ms684108(v=VS.85).aspx
+      - name: "InterlockedXor64NoFence"
+        href: https://msdn.microsoft.com/en-us/library/Hh972675(v=VS.85).aspx
+      - name: "LeaveCriticalSection"
+        href: https://msdn.microsoft.com/en-us/library/ms684169(v=VS.85).aspx
+      - name: "MsgWaitForMultipleObjects"
+        href: /windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects
+      - name: "MsgWaitForMultipleObjectsEx"
+        href: /windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex
+      - name: "OpenEvent"
+        href: https://msdn.microsoft.com/en-us/library/ms684305(v=VS.85).aspx
+      - name: "OpenMutex"
+        href: /windows/desktop/api/WinBase/nf-winbase-openmutexa
+      - name: "OpenPrivateNamespace"
+        href: /windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea
+      - name: "OpenSemaphore"
+        href: /windows/desktop/api/WinBase/nf-winbase-opensemaphorea
+      - name: "OpenWaitableTimer"
+        href: /windows/desktop/api/WinBase/nf-winbase-openwaitabletimera
+      - name: "PulseEvent"
+        href: /windows/desktop/api/WinBase/nf-winbase-pulseevent
+      - name: "QueryDepthSList"
+        href: https://msdn.microsoft.com/en-us/library/ms684916(v=VS.85).aspx
+      - name: "QueueUserAPC"
+        href: https://msdn.microsoft.com/en-us/library/ms684954(v=VS.85).aspx
+      - name: "RegisterWaitForSingleObject"
+        href: /windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject
+      - name: "ReleaseMutex"
+        href: https://msdn.microsoft.com/en-us/library/ms685066(v=VS.85).aspx
+      - name: "ReleaseSemaphore"
+        href: https://msdn.microsoft.com/en-us/library/ms685071(v=VS.85).aspx
+      - name: "ReleaseSRWLockExclusive"
+        href: https://msdn.microsoft.com/en-us/library/ms685076(v=VS.85).aspx
+      - name: "ReleaseSRWLockShared"
+        href: https://msdn.microsoft.com/en-us/library/ms685080(v=VS.85).aspx
+      - name: "ResetEvent"
+        href: https://msdn.microsoft.com/en-us/library/ms685081(v=VS.85).aspx
+      - name: "RtlFirstEntrySList"
+        href: /windows/desktop/api/WinNT/nf-winnt-rtlfirstentryslist
+      - name: "RtlInitializeSListHead"
+        href: /windows/desktop/api/Winnt/nf-winnt-rtlinitializeslisthead
+      - name: "RtlInterlockedFlushSList"
+        href: /windows/desktop/api/Winnt/nf-winnt-rtlinterlockedflushslist
+      - name: "RtlInterlockedPopEntrySList"
+        href: /windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpopentryslist
+      - name: "RtlInterlockedPushEntrySList"
+        href: /windows/desktop/api/Winnt/nf-winnt-rtlinterlockedpushentryslist
+      - name: "RtlQueryDepthSList"
+        href: /windows/desktop/api/Winnt/nf-winnt-rtlquerydepthslist
+      - name: "SetCriticalSectionSpinCount"
+        href: https://msdn.microsoft.com/en-us/library/ms686197(v=VS.85).aspx
+      - name: "SetEvent"
+        href: https://msdn.microsoft.com/en-us/library/ms686211(v=VS.85).aspx
+      - name: "SetWaitableTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms686289(v=VS.85).aspx
+      - name: "SetWaitableTimerEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405521(v=VS.85).aspx
+      - name: "SignalObjectAndWait"
+        href: /windows/desktop/api/WinBase/nf-winbase-signalobjectandwait
+      - name: "SleepConditionVariableCS"
+        href: https://msdn.microsoft.com/en-us/library/ms686301(v=VS.85).aspx
+      - name: "SleepConditionVariableSRW"
+        href: https://msdn.microsoft.com/en-us/library/ms686304(v=VS.85).aspx
+      - name: "PTIMERAPCROUTINE"
+        href: https://msdn.microsoft.com/en-us/library/ms686786(v=VS.85).aspx
+      - name: "TryAcquireSRWLockExclusive"
+        href: https://msdn.microsoft.com/en-us/library/Dd405523(v=VS.85).aspx
+      - name: "TryAcquireSRWLockShared"
+        href: https://msdn.microsoft.com/en-us/library/Dd405524(v=VS.85).aspx
+      - name: "TryEnterCriticalSection"
+        href: https://msdn.microsoft.com/en-us/library/ms686857(v=VS.85).aspx
+      - name: "UnregisterWait"
+        href: /windows/desktop/api/WinBase/nf-winbase-unregisterwait
+      - name: "UnregisterWaitEx"
+        href: unregisterwaitex.md
+      - name: "WaitForMultipleObjects"
+        href: https://msdn.microsoft.com/en-us/library/ms687025(v=VS.85).aspx
+      - name: "WaitForMultipleObjectsEx"
+        href: https://msdn.microsoft.com/en-us/library/ms687028(v=VS.85).aspx
+      - name: "WaitForSingleObject"
+        href: https://msdn.microsoft.com/en-us/library/ms687032(v=VS.85).aspx
+      - name: "WaitForSingleObjectEx"
+        href: https://msdn.microsoft.com/en-us/library/ms687036(v=VS.85).aspx
+      - name: "WaitOnAddress"
+        href: /windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress
+      - name: "WaitOrTimerCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms687066(v=VS.85).aspx
+      - name: "WakeAllConditionVariable"
+        href: https://msdn.microsoft.com/en-us/library/ms687076(v=VS.85).aspx
+      - name: "WakeByAddressAll"
+        href: /windows/desktop/api/SynchAPI/nf-synchapi-wakebyaddressall
+      - name: "WakeByAddressSingle"
+        href: /windows/desktop/api/SynchAPI/nf-synchapi-wakebyaddresssingle
+      - name: "WakeConditionVariable"
+        href: https://msdn.microsoft.com/en-us/library/ms687080(v=VS.85).aspx
+    - name: "Synchronization Macros"
+      href: synchronization-macros.md
+      items: 
+      - name: "HasOverlappedIoCompleted"
+        href: /windows/desktop/api/WinBase/nf-winbase-hasoverlappediocompleted
+      - name: "PreFetchCacheLine"
+        href: /windows/desktop/api/Winnt/nf-winnt-prefetchcacheline
+      - name: "MemoryBarrier"
+        href: https://msdn.microsoft.com/en-us/library/ms684208(v=VS.85).aspx
+      - name: "YieldProcessor"
+        href: https://msdn.microsoft.com/en-us/library/ms687419(v=VS.85).aspx
+    - name: "Synchronization Structures"
+      href: synchronization-structures.md
+      items: 
+      - name: "OVERLAPPED"
+        href: https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx
+      - name: "SLIST_ENTRY"
+        href: /windows/desktop/api/Winnt/ns-winnt-_list_entry

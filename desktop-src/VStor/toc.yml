@@ -1,0 +1,182 @@
+- name: "Virtual Storage"
+  href: virtual-storage.md
+  items: 
+  - name: "Virtual Hard Disk"
+    href: portal.md
+    items: 
+    - name: "About VHD"
+      href: about-vhd.md
+    - name: "VHD Reference"
+      href: vhd-reference.md
+      items: 
+      - name: "VHD Enumerations"
+        href: vhd-enumerations.md
+        items: 
+        - name: "APPLY_SNAPSHOT_VHDSET_FLAG"
+          href: https://msdn.microsoft.com/library/Mt638035(v=VS.85).aspx
+        - name: "APPLY_SNAPSHOT_VHDSET_VERSION"
+          href: https://msdn.microsoft.com/library/Mt638037(v=VS.85).aspx
+        - name: "ATTACH_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323693(v=VS.85).aspx
+        - name: "ATTACH_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323695(v=VS.85).aspx
+        - name: "COMPACT_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323656(v=VS.85).aspx
+        - name: "COMPACT_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323658(v=VS.85).aspx
+        - name: "CREATE_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323660(v=VS.85).aspx
+        - name: "CREATE_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323662(v=VS.85).aspx
+        - name: "DELETE_SNAPSHOT_VHDSET_FLAG"
+          href: https://msdn.microsoft.com/library/Mt414213(v=VS.85).aspx
+        - name: "DELETE_SNAPSHOT_VHDSET_VERSION"
+          href: https://msdn.microsoft.com/library/Mt414215(v=VS.85).aspx
+        - name: "DEPENDENT_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323663(v=VS.85).aspx
+        - name: "DETACH_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323697(v=VS.85).aspx
+        - name: "EXPAND_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323665(v=VS.85).aspx
+        - name: "EXPAND_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323668(v=VS.85).aspx
+        - name: "GET_STORAGE_DEPENDENCY_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323673(v=VS.85).aspx
+        - name: "GET_VIRTUAL_DISK_INFO_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323675(v=VS.85).aspx
+        - name: "MERGE_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323677(v=VS.85).aspx
+        - name: "MERGE_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323679(v=VS.85).aspx
+        - name: "MIRROR_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Hh448679(v=VS.85).aspx
+        - name: "MIRROR_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Hh448681(v=VS.85).aspx
+        - name: "MODIFY_VHDSET_FLAG"
+          href: https://msdn.microsoft.com/library/Mt414217(v=VS.85).aspx
+        - name: "MODIFY_VHDSET_VERSION"
+          href: https://msdn.microsoft.com/library/Mt414219(v=VS.85).aspx
+        - name: "OPEN_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Dd323681(v=VS.85).aspx
+        - name: "OPEN_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323683(v=VS.85).aspx
+        - name: "RAW_SCSI_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Mt764772(v=VS.85).aspx
+        - name: "RAW_SCSI_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Mt764775(v=VS.85).aspx
+        - name: "RESIZE_VIRTUAL_DISK_FLAG"
+          href: https://msdn.microsoft.com/library/Hh832159(v=VS.85).aspx
+        - name: "RESIZE_VIRTUAL_DISK_VERSION"
+          href: https://msdn.microsoft.com/library/Hh832161(v=VS.85).aspx
+        - name: "SET_VIRTUAL_DISK_INFO_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323687(v=VS.85).aspx
+        - name: "STORAGE_DEPENDENCY_INFO_VERSION"
+          href: https://msdn.microsoft.com/library/Dd323691(v=VS.85).aspx
+        - name: "TAKE_SNAPSHOT_VHDSET_FLAG"
+          href: https://msdn.microsoft.com/library/Mt414221(v=VS.85).aspx
+        - name: "TAKE_SNAPSHOT_VHDSET_VERSION"
+          href: https://msdn.microsoft.com/library/Mt414224(v=VS.85).aspx
+        - name: "VIRTUAL_DISK_ACCESS_MASK"
+          href: https://msdn.microsoft.com/library/Dd323702(v=VS.85).aspx
+      - name: "VHD Functions"
+        href: vhd-functions.md
+        items: 
+        - name: "ApplySnapshotVhdSet"
+          href: https://msdn.microsoft.com/library/Mt638034(v=VS.85).aspx
+        - name: "AddVirtualDiskParent"
+          href: https://msdn.microsoft.com/library/Hh832154(v=VS.85).aspx
+        - name: "AttachVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323692(v=VS.85).aspx
+        - name: "BreakMirrorVirtualDisk"
+          href: https://msdn.microsoft.com/library/Hh448676(v=VS.85).aspx
+        - name: "CompactVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323655(v=VS.85).aspx
+        - name: "CreateVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323659(v=VS.85).aspx
+        - name: "DeleteSnapshotVhdSet"
+          href: https://msdn.microsoft.com/library/Mt414212(v=VS.85).aspx
+        - name: "DeleteVirtualDiskMetadata"
+          href: https://msdn.microsoft.com/library/Hh832155(v=VS.85).aspx
+        - name: "DetachVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323696(v=VS.85).aspx
+        - name: "EnumerateVirtualDiskMetadata"
+          href: https://msdn.microsoft.com/library/Hh832156(v=VS.85).aspx
+        - name: "ExpandVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323664(v=VS.85).aspx
+        - name: "GetStorageDependencyInformation"
+          href: https://msdn.microsoft.com/library/Dd323669(v=VS.85).aspx
+        - name: "GetVirtualDiskInformation"
+          href: https://msdn.microsoft.com/library/Dd323670(v=VS.85).aspx
+        - name: "GetVirtualDiskMetadata"
+          href: https://msdn.microsoft.com/library/Hh832157(v=VS.85).aspx
+        - name: "GetVirtualDiskOperationProgress"
+          href: https://msdn.microsoft.com/library/Dd323671(v=VS.85).aspx
+        - name: "GetVirtualDiskPhysicalPath"
+          href: https://msdn.microsoft.com/library/Dd323672(v=VS.85).aspx
+        - name: "MergeVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323676(v=VS.85).aspx
+        - name: "MirrorVirtualDisk"
+          href: https://msdn.microsoft.com/library/Hh448678(v=VS.85).aspx
+        - name: "ModifyVhdSet"
+          href: https://msdn.microsoft.com/library/Mt414216(v=VS.85).aspx
+        - name: "OpenVirtualDisk"
+          href: https://msdn.microsoft.com/library/Dd323680(v=VS.85).aspx
+        - name: "QueryChangesVirtualDisk"
+          href: https://msdn.microsoft.com/library/Mt162230(v=VS.85).aspx
+        - name: "RawSCSIVirtualDisk"
+          href: https://msdn.microsoft.com/library/Mt764771(v=VS.85).aspx
+        - name: "ResizeVirtualDisk"
+          href: https://msdn.microsoft.com/library/Hh832158(v=VS.85).aspx
+        - name: "SetVirtualDiskInformation"
+          href: https://msdn.microsoft.com/library/Dd323685(v=VS.85).aspx
+        - name: "SetVirtualDiskMetadata"
+          href: https://msdn.microsoft.com/library/Hh832162(v=VS.85).aspx
+        - name: "TakeSnapshotVhdSet"
+          href: https://msdn.microsoft.com/library/Mt414220(v=VS.85).aspx
+      - name: "VHD Structures"
+        href: vhd-structures.md
+        items: 
+        - name: "APPLY_SNAPSHOT_VHDSET_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Mt638036(v=VS.85).aspx
+        - name: "ATTACH_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Dd323694(v=VS.85).aspx
+        - name: "COMPACT_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Dd323657(v=VS.85).aspx
+        - name: "CREATE_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Dd323661(v=VS.85).aspx
+        - name: "DELETE_SNAPSHOT_VHDSET_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Mt414214(v=VS.85).aspx
+        - name: "EXPAND_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Dd323667(v=VS.85).aspx
+        - name: "GET_VIRTUAL_DISK_INFO"
+          href: https://msdn.microsoft.com/library/Dd323674(v=VS.85).aspx
+        - name: "MERGE_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Dd323678(v=VS.85).aspx
+        - name: "MIRROR_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Hh448680(v=VS.85).aspx
+        - name: "MODIFY_VHDSET_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Mt414218(v=VS.85).aspx
+        - name: "OPEN_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Dd323682(v=VS.85).aspx
+        - name: "RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Mt764773(v=VS.85).aspx
+        - name: "RAW_SCSI_VIRTUAL_DISK_RESPONSE"
+          href: https://msdn.microsoft.com/library/Mt764774(v=VS.85).aspx
+        - name: "RESIZE_VIRTUAL_DISK_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Hh832160(v=VS.85).aspx
+        - name: "QUERY_CHANGES_VIRTUAL_DISK_RANGE"
+          href: https://msdn.microsoft.com/library/Mt162231(v=VS.85).aspx
+        - name: "SET_VIRTUAL_DISK_INFO"
+          href: https://msdn.microsoft.com/library/Dd323686(v=VS.85).aspx
+        - name: "STORAGE_DEPENDENCY_INFO"
+          href: https://msdn.microsoft.com/library/Dd323688(v=VS.85).aspx
+        - name: "STORAGE_DEPENDENCY_INFO_TYPE_1"
+          href: https://msdn.microsoft.com/library/Dd323689(v=VS.85).aspx
+        - name: "STORAGE_DEPENDENCY_INFO_TYPE_2"
+          href: https://msdn.microsoft.com/library/Dd323690(v=VS.85).aspx
+        - name: "TAKE_SNAPSHOT_VHDSET_PARAMETERS"
+          href: https://msdn.microsoft.com/library/Mt414223(v=VS.85).aspx
+        - name: "VIRTUAL_DISK_PROGRESS"
+          href: https://msdn.microsoft.com/library/Dd323703(v=VS.85).aspx
+        - name: "VIRTUAL_STORAGE_TYPE"
+          href: https://msdn.microsoft.com/library/Dd323704(v=VS.85).aspx

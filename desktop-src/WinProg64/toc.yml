@@ -1,0 +1,82 @@
+- name: "Programming Guide for 64-bit Windows"
+  href: programming-guide-for-64-bit-windows.md
+  items: 
+  - name: "Getting Ready for 64-bit Windows"
+    href: getting-ready-for-64-bit-windows.md
+    items: 
+    - name: "Abstract Data Models"
+      href: abstract-data-models.md
+    - name: "The New Data Types"
+      href: the-new-data-types.md
+    - name: "The Environment"
+      href: the-environment.md
+    - name: "The Tools"
+      href: the-tools.md
+    - name: "Rules for Using Pointers"
+      href: rules-for-using-pointers.md
+    - name: "Virtual Address Space"
+      href: virtual-address-space.md
+    - name: "Alignment Faults"
+      href: fault-alignments.md
+    - name: "Process Interoperability"
+      href: process-interoperability.md
+    - name: "Drivers"
+      href: drivers.md
+  - name: "Designing 64-bit-Compatible Interfaces"
+    href: designing-64-bit-compatible-interfaces.md
+    items: 
+    - name: "Changing an Existing Interface"
+      href: changing-an-existing-interface.md
+    - name: "Avoiding Information Hiding"
+      href: avoiding-information-hiding.md
+    - name: "Avoiding Polymorphism"
+      href: avoiding-polymorphism.md
+    - name: "Using New Data Types in Your IDL File"
+      href: using-new-data-types-in-your-idl-file.md
+    - name: "Preparing Your Application for 64-bit Windows"
+      href: preparing-your-application-for-64-bit-windows.md
+  - name: "Running 32-bit Applications"
+    href: running-32-bit-applications.md
+    items: 
+    - name: "Performance and Memory Consumption Under WOW64"
+      href: performance-and-memory-consumption.md
+    - name: "WOW64 Implementation Details"
+      href: wow64-implementation-details.md
+    - name: "Registry Redirector"
+      href: registry-redirector.md
+      items: 
+      - name: "Registry Reflection"
+        href: registry-reflection.md
+      - name: "Registry Keys Affected by WOW64"
+        href: shared-registry-keys.md
+      - name: "Accessing an Alternate Registry View"
+        href: accessing-an-alternate-registry-view.md
+      - name: "Example of Registry Redirection on WOW64"
+        href: example-of-registry-reflection-and-redirection-on-wow64.md
+      - name: "Remote Registry Access in 64-bit Windows"
+        href: remote-registry-access-in-64-bit-windows.md
+    - name: "File System Redirector"
+      href: file-system-redirector.md
+    - name: "Memory Management under WOW64"
+      href: memory-management.md
+    - name: "Processor Affinity under WOW64"
+      href: processor-affinity.md
+    - name: "Interprocess Communication Between 32-bit and 64-bit Applications"
+      href: interprocess-communication.md
+    - name: "Application Installation on 64-bit Systems"
+      href: application-installation.md
+    - name: "Exception Handling under WOW64"
+      href: exception-handling-under-wow64.md
+    - name: "Debugging WOW64"
+      href: debugging-wow64.md
+  - name: "Migration Tips"
+    href: migration-tips.md
+    items: 
+    - name: "General Porting Guidelines"
+      href: general-porting-guidelines.md
+    - name: "Storing a 64-bit Value"
+      href: storing-a-64-bit-value.md
+    - name: "Common Compiler Errors"
+      href: common-compiler-errors.md
+    - name: "Additional Considerations"
+      href: additional-considerations.md

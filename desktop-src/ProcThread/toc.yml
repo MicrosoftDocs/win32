@@ -1,0 +1,875 @@
+- name: "Processes and Threads"
+  href: processes-and-threads.md
+  items: 
+  - name: "What's New in Processes and Threads"
+    href: what-s-new-in-processes-and-threads.md
+  - name: "About Processes and Threads"
+    href: about-processes-and-threads.md
+    items: 
+    - name: "Multitasking"
+      href: multitasking.md
+      items: 
+      - name: "Advantages of Multitasking"
+        href: advantages-of-multitasking.md
+      - name: "When to Use Multitasking"
+        href: when-to-use-multitasking.md
+      - name: "Multitasking Considerations"
+        href: multitasking-considerations.md
+    - name: "Scheduling"
+      href: scheduling.md
+      items: 
+      - name: "Scheduling Priorities"
+        href: scheduling-priorities.md
+      - name: "Context Switches"
+        href: context-switches.md
+      - name: "Priority Boosts"
+        href: priority-boosts.md
+      - name: "Priority Inversion"
+        href: priority-inversion.md
+      - name: "Multiple Processors"
+        href: multiple-processors.md
+      - name: "NUMA Support"
+        href: numa-support.md
+      - name: "Thread Ordering Service"
+        href: thread-ordering-service.md
+      - name: "Multimedia Class Scheduler Service"
+        href: multimedia-class-scheduler-service.md
+        items: 
+        - name: "Real-Time Work Queue API"
+          href: platform-work-queue-api.md
+          items: 
+          - name: "IRtwqAsyncCallback"
+            href: https://msdn.microsoft.com/en-us/library/Dn448443(v=VS.85).aspx
+            items: 
+            - name: "GetParameters method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448445(v=VS.85).aspx
+            - name: "Invoke method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448446(v=VS.85).aspx
+          - name: "IRtwqAsyncResult"
+            href: https://msdn.microsoft.com/en-us/library/Dn448447(v=VS.85).aspx
+            items: 
+            - name: "GetState method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448449(v=VS.85).aspx
+            - name: "GetStatus method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448451(v=VS.85).aspx
+            - name: "SetStatus method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448452(v=VS.85).aspx
+            - name: "GetObject method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448448(v=VS.85).aspx
+            - name: "GetStateNoAddRef method"
+              href: https://msdn.microsoft.com/en-us/library/Dn448450(v=VS.85).aspx
+          - name: "IRtwqPlatformEvents"
+            href: https://msdn.microsoft.com/en-us/library/Dn271896(v=VS.85).aspx
+            items: 
+            - name: "InitializationComplete method"
+              href: https://msdn.microsoft.com/en-us/library/Dn271893(v=VS.85).aspx
+            - name: "ShutdownStart method"
+              href: https://msdn.microsoft.com/en-us/library/Dn271895(v=VS.85).aspx
+            - name: "ShutdownComplete method"
+              href: https://msdn.microsoft.com/en-us/library/Dn271894(v=VS.85).aspx
+          - name: "RTWQ_WORKQUEUE_TYPE"
+            href: /windows/desktop/api/RTWorkQ/ne-rtworkq-rtwq_workqueue_type
+          - name: "RtwqAddPeriodicCallback"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqaddperiodiccallback
+          - name: "RtwqAllocateSerialWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqallocateserialworkqueue
+          - name: "RtwqAllocateWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqallocateworkqueue
+          - name: "RtwqBeginRegisterWorkQueueWithMMCSS"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqbeginregisterworkqueuewithmmcss
+          - name: "RtwqBeginUnregisterWorkQueueWithMMCSS"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqbeginunregisterworkqueuewithmmcss
+          - name: "RtwqCancelDeadline"
+            href: /windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline
+          - name: "RtwqCancelWorkItem"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqcancelworkitem
+          - name: "RtwqCreateAsyncResult"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqcreateasyncresult
+          - name: "RtwqEndRegisterWorkQueueWithMMCSS"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqendregisterworkqueuewithmmcss
+          - name: "RtwqEndUnregisterWorkQueueWithMMCSS"
+            href: rtwqendunregisterworkqueuewithmmcss.md
+          - name: "RtwqGetWorkQueueMMCSSClass"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqgetworkqueuemmcssclass
+          - name: "RtwqGetWorkQueueMMCSSPriority"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqgetworkqueuemmcsspriority
+          - name: "RtwqGetWorkQueueMMCSSTaskId"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqgetworkqueuemmcsstaskid
+          - name: "RtwqInvokeCallback"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqinvokecallback
+          - name: "RtwqJoinWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqjoinworkqueue
+          - name: "RtwqLockPlatform"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqlockplatform
+          - name: "RtwqLockSharedWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqlocksharedworkqueue
+          - name: "RtwqLockWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqlockworkqueue
+          - name: "RtwqPutWaitingWorkItem"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqputwaitingworkitem
+          - name: "RtwqPutWorkItem"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqputworkitem
+          - name: "RtwqRegisterPlatformEvents"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqregisterplatformevents
+          - name: "RtwqRegisterPlatformWithMMCSS"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqregisterplatformwithmmcss
+          - name: "RtwqRemovePeriodicCallback"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqremoveperiodiccallback
+          - name: "RtwqScheduleWorkItem"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqscheduleworkitem
+          - name: "RtwqSetDeadline"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqsetdeadline
+          - name: "RtwqSetDeadline2"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqsetdeadline2
+          - name: "RtwqSetLongRunning"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqsetlongrunning
+          - name: "RtwqShutdown"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqshutdown
+          - name: "RtwqStartup"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqstartup
+          - name: "RtwqUnjoinWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunjoinworkqueue
+          - name: "RtwqUnlockPlatform"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunlockplatform
+          - name: "RtwqUnlockWorkQueue"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunlockworkqueue
+          - name: "RtwqUnregisterPlatformEvents"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunregisterplatformevents
+          - name: "RtwqUnregisterPlatformFromMMCSS"
+            href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunregisterplatformfrommmcss
+      - name: "Processor Groups"
+        href: processor-groups.md
+    - name: "Multiple Threads"
+      href: multiple-threads.md
+      items: 
+      - name: "Thread Stack Size"
+        href: thread-stack-size.md
+      - name: "Thread Handles and Identifiers"
+        href: thread-handles-and-identifiers.md
+      - name: "Suspending Thread Execution"
+        href: suspending-thread-execution.md
+      - name: "Synchronizing Execution of Multiple Threads"
+        href: synchronizing-execution-of-multiple-threads.md
+      - name: "Multiple Threads and GDI Objects"
+        href: multiple-threads-and-gdi-objects.md
+      - name: "Thread Local Storage"
+        href: thread-local-storage.md
+      - name: "Creating Windows in Threads"
+        href: creating-windows-in-threads.md
+      - name: "Terminating a Thread"
+        href: terminating-a-thread.md
+      - name: "Thread Security and Access Rights"
+        href: thread-security-and-access-rights.md
+    - name: "Child Processes"
+      href: child-processes.md
+      items: 
+      - name: "Setting Window Properties Using STARTUPINFO"
+        href: setting-window-properties-using-startupinfo.md
+      - name: "Process Handles and Identifiers"
+        href: process-handles-and-identifiers.md
+      - name: "Process Enumeration"
+        href: process-enumeration.md
+      - name: "Obtaining Additional Process Information"
+        href: obtaining-additional-process-information.md
+      - name: "Inheritance"
+        href: inheritance.md
+      - name: "Environment Variables"
+        href: environment-variables.md
+      - name: "Terminating a Process"
+        href: terminating-a-process.md
+      - name: "Process Working Set"
+        href: process-working-set.md
+      - name: "Process Security and Access Rights"
+        href: process-security-and-access-rights.md
+    - name: "Thread Pools"
+      href: thread-pools.md
+      items: 
+      - name: "Thread Pool API"
+        href: thread-pool-api.md
+      - name: "Thread Pooling"
+        href: thread-pooling.md
+    - name: "Job Objects"
+      href: job-objects.md
+      items: 
+      - name: "Nested Jobs"
+        href: nested-jobs.md
+      - name: "Job Object Security and Access Rights"
+        href: job-object-security-and-access-rights.md
+    - name: "CPU Sets"
+      href: cpu-sets.md
+    - name: "Fibers"
+      href: fibers.md
+    - name: "User-Mode Scheduling"
+      href: user-mode-scheduling.md
+  - name: "Using Processes and Threads"
+    href: using-processes-and-threads.md
+    items: 
+    - name: "Creating Processes"
+      href: creating-processes.md
+    - name: "Creating Threads"
+      href: creating-threads.md
+    - name: "Creating a Child Process with Redirected Input and Output"
+      href: creating-a-child-process-with-redirected-input-and-output.md
+    - name: "Isolated User Mode (IUM) Processes"
+      href: isolated-user-mode--ium--processes.md
+    - name: "Changing Environment Variables"
+      href: changing-environment-variables.md
+    - name: "Using Thread Local Storage"
+      href: using-thread-local-storage.md
+    - name: "Using Fibers"
+      href: using-fibers.md
+    - name: "Using the Thread Pool Functions"
+      href: using-the-thread-pool-functions.md
+  - name: "Process and Thread Reference"
+    href: process-and-thread-reference.md
+    items: 
+    - name: "Process and Thread Enumerations"
+      href: process-and-thread-enumerations.md
+      items: 
+      - name: "DISPATCHERQUEUE_THREAD_APARTMENTTYPE"
+        href: /windows/desktop/api/DispatcherQueue/ne-dispatcherqueue-dispatcherqueue_thread_apartmenttype
+      - name: "DISPATCHERQUEUE_THREAD_TYPE"
+        href: /windows/desktop/api/DispatcherQueue/ne-dispatcherqueue-dispatcherqueue_thread_type
+      - name: "CPU_SET_INFORMATION_TYPE"
+        href: cpu-set-information-type.md
+      - name: "LOGICAL_PROCESSOR_RELATIONSHIP"
+        href: /windows/desktop/api/WinNT/ne-winnt-_logical_processor_relationship
+      - name: "JOB_OBJECT_NET_RATE_CONTROL_FLAGS"
+        href: /windows/desktop/api/Winnt/ne-winnt-job_object_net_rate_control_flags
+      - name: "PROCESS_MEMORY_EXHAUSTION_TYPE"
+        href: https://msdn.microsoft.com/en-us/library/Mt767998(v=VS.85).aspx
+      - name: "PROCESS_MITIGATION_POLICY"
+        href: /windows/desktop/api/WinNT/ne-winnt-_process_mitigation_policy
+      - name: "PROCESSOR_CACHE_TYPE"
+        href: /windows/desktop/api/WinNT/ne-winnt-_processor_cache_type
+      - name: "UMS_THREAD_INFO_CLASS"
+        href: https://msdn.microsoft.com/en-us/library/Dd627186(v=VS.85).aspx
+    - name: "Process and Thread Functions"
+      href: process-and-thread-functions.md
+      items: 
+      - name: "AssignProcessToJobObject"
+        href: https://msdn.microsoft.com/en-us/library/ms681949(v=VS.85).aspx
+      - name: "AttachThreadInput"
+        href: /windows/desktop/api/Winuser/nf-winuser-attachthreadinput
+      - name: "AvQuerySystemResponsiveness"
+        href: /windows/desktop/api/Avrt/nf-avrt-avquerysystemresponsiveness
+      - name: "AvRevertMmThreadCharacteristics"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrevertmmthreadcharacteristics
+      - name: "AvRtCreateThreadOrderingGroup"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrtcreatethreadorderinggroup
+      - name: "AvRtCreateThreadOrderingGroupEx"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrtcreatethreadorderinggroupexa
+      - name: "AvRtDeleteThreadOrderingGroup"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrtdeletethreadorderinggroup
+      - name: "AvRtJoinThreadOrderingGroup"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrtjointhreadorderinggroup
+      - name: "AvRtLeaveThreadOrderingGroup"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrtleavethreadorderinggroup
+      - name: "AvRtWaitOnThreadOrderingGroup"
+        href: /windows/desktop/api/Avrt/nf-avrt-avrtwaitonthreadorderinggroup
+      - name: "AvSetMmMaxThreadCharacteristics"
+        href: /windows/desktop/api/Avrt/nf-avrt-avsetmmmaxthreadcharacteristicsa
+      - name: "AvSetMmThreadCharacteristics"
+        href: /windows/desktop/api/Avrt/nf-avrt-avsetmmthreadcharacteristicsa
+      - name: "AvSetMmThreadPriority"
+        href: /windows/desktop/api/Avrt/nf-avrt-avsetmmthreadpriority
+      - name: "BindIoCompletionCallback"
+        href: /windows/desktop/api/WinBase/nf-winbase-bindiocompletioncallback
+      - name: "CallbackMayRunLong"
+        href: https://msdn.microsoft.com/en-us/library/ms681981(v=VS.85).aspx
+      - name: "CancelThreadpoolIo"
+        href: https://msdn.microsoft.com/en-us/library/ms681983(v=VS.85).aspx
+      - name: "PTP_CLEANUP_GROUP_CANCEL_CALLBACK"
+        href: https://msdn.microsoft.com/en-us/library/ms682018(v=VS.85).aspx
+      - name: "CloseThreadpool"
+        href: https://msdn.microsoft.com/en-us/library/ms682030(v=VS.85).aspx
+      - name: "CloseThreadpoolCleanupGroup"
+        href: https://msdn.microsoft.com/en-us/library/ms682033(v=VS.85).aspx
+      - name: "CloseThreadpoolCleanupGroupMembers"
+        href: https://msdn.microsoft.com/en-us/library/ms682036(v=VS.85).aspx
+      - name: "CloseThreadpoolIo"
+        href: https://msdn.microsoft.com/en-us/library/ms682038(v=VS.85).aspx
+      - name: "CloseThreadpoolTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms682040(v=VS.85).aspx
+      - name: "CloseThreadpoolWait"
+        href: https://msdn.microsoft.com/en-us/library/ms682042(v=VS.85).aspx
+      - name: "CloseThreadpoolWork"
+        href: https://msdn.microsoft.com/en-us/library/ms682043(v=VS.85).aspx
+      - name: "ConvertFiberToThread"
+        href: /windows/desktop/api/WinBase/nf-winbase-convertfibertothread
+      - name: "ConvertThreadToFiber"
+        href: /windows/desktop/api/WinBase/nf-winbase-convertthreadtofiber
+      - name: "ConvertThreadToFiberEx"
+        href: /windows/desktop/api/WinBase/nf-winbase-convertthreadtofiberex
+      - name: "CreateDispatcherQueueController"
+        href: /windows/desktop/api/DispatcherQueue/nf-dispatcherqueue-createdispatcherqueuecontroller
+      - name: "CreateFiber"
+        href: /windows/desktop/api/WinBase/nf-winbase-createfiber
+      - name: "CreateFiberEx"
+        href: /windows/desktop/api/WinBase/nf-winbase-createfiberex
+      - name: "CreateJobObject"
+        href: /windows/desktop/api/WinBase/nf-winbase-createjobobjecta
+      - name: "CreateProcess"
+        href: https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx
+      - name: "CreateProcessAsUser"
+        href: https://msdn.microsoft.com/en-us/library/ms682429(v=VS.85).aspx
+      - name: "CreateProcessWithLogonW"
+        href: /windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw
+      - name: "CreateProcessWithTokenW"
+        href: /windows/desktop/api/WinBase/nf-winbase-createprocesswithtokenw
+      - name: "CreateRemoteThread"
+        href: https://msdn.microsoft.com/en-us/library/ms682437(v=VS.85).aspx
+      - name: "CreateRemoteThreadEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405484(v=VS.85).aspx
+      - name: "CreateThread"
+        href: https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx
+      - name: "CreateThreadpool"
+        href: https://msdn.microsoft.com/en-us/library/ms682456(v=VS.85).aspx
+      - name: "CreateThreadpoolCleanupGroup"
+        href: https://msdn.microsoft.com/en-us/library/ms682462(v=VS.85).aspx
+      - name: "CreateThreadpoolIo"
+        href: https://msdn.microsoft.com/en-us/library/ms682464(v=VS.85).aspx
+      - name: "CreateThreadpoolTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms682466(v=VS.85).aspx
+      - name: "CreateThreadpoolWait"
+        href: https://msdn.microsoft.com/en-us/library/ms682474(v=VS.85).aspx
+      - name: "CreateThreadpoolWork"
+        href: https://msdn.microsoft.com/en-us/library/ms682478(v=VS.85).aspx
+      - name: "CreateUmsCompletionList"
+        href: /windows/desktop/api/WinBase/nf-winbase-createumscompletionlist
+      - name: "CreateUmsThreadContext"
+        href: /windows/desktop/api/WinBase/nf-winbase-createumsthreadcontext
+      - name: "DeleteFiber"
+        href: /windows/desktop/api/WinBase/nf-winbase-deletefiber
+      - name: "DeleteProcThreadAttributeList"
+        href: https://msdn.microsoft.com/en-us/library/ms682559(v=VS.85).aspx
+      - name: "DeleteUmsCompletionList"
+        href: /windows/desktop/api/WinBase/nf-winbase-deleteumscompletionlist
+      - name: "DeleteUmsThreadContext"
+        href: /windows/desktop/api/WinBase/nf-winbase-deleteumsthreadcontext
+      - name: "DequeueUmsCompletionListItems"
+        href: /windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems
+      - name: "DestroyThreadpoolEnvironment"
+        href: /windows/desktop/api/WinBase/nf-winbase-destroythreadpoolenvironment
+      - name: "DisassociateCurrentThreadFromCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms682581(v=VS.85).aspx
+      - name: "EnterUmsSchedulingMode"
+        href: /windows/desktop/api/WinBase/nf-winbase-enterumsschedulingmode
+      - name: "ExecuteUmsThread"
+        href: /windows/desktop/api/WinBase/nf-winbase-executeumsthread
+      - name: "ExitProcess"
+        href: https://msdn.microsoft.com/en-us/library/ms682658(v=VS.85).aspx
+      - name: "ExitThread"
+        href: https://msdn.microsoft.com/en-us/library/ms682659(v=VS.85).aspx
+      - name: "FiberProc"
+        href: https://msdn.microsoft.com/en-us/library/ms682660(v=VS.85).aspx
+      - name: "FlsAlloc"
+        href: https://msdn.microsoft.com/en-us/library/ms682664(v=VS.85).aspx
+      - name: "PFLS_CALLBACK_FUNCTION"
+        href: /windows/desktop/api/Winnt/nc-winnt-pfls_callback_function
+      - name: "FlsFree"
+        href: https://msdn.microsoft.com/en-us/library/ms682667(v=VS.85).aspx
+      - name: "FlsGetValue"
+        href: https://msdn.microsoft.com/en-us/library/ms683141(v=VS.85).aspx
+      - name: "FlsSetValue"
+        href: https://msdn.microsoft.com/en-us/library/ms683146(v=VS.85).aspx
+      - name: "FlushProcessWriteBuffers"
+        href: https://msdn.microsoft.com/en-us/library/ms683148(v=VS.85).aspx
+      - name: "FreeEnvironmentStrings"
+        href: https://msdn.microsoft.com/en-us/library/ms683151(v=VS.85).aspx
+      - name: "FreeLibraryWhenCallbackReturns"
+        href: https://msdn.microsoft.com/en-us/library/ms683154(v=VS.85).aspx
+      - name: "FreeMemoryJobObject"
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-freememoryjobobject
+      - name: "GetActiveProcessorCount"
+        href: /windows/desktop/api/WinBase/nf-winbase-getactiveprocessorcount
+      - name: "GetActiveProcessorGroupCount"
+        href: /windows/desktop/api/WinBase/nf-winbase-getactiveprocessorgroupcount
+      - name: "GetAutoRotationState"
+        href: /windows/desktop/api/WinUser/nf-winuser-getautorotationstate
+      - name: "GetDisplayAutoRotationPreferencesByProcessId"
+        href: /windows/desktop/api/WinUser/nf-winuser-getdisplayautorotationpreferencesbyprocessid
+      - name: "GetDisplayAutoRotationPreferences"
+        href: https://msdn.microsoft.com/en-us/library/Dn629265(v=VS.85).aspx
+      - name: "GetCommandLine"
+        href: https://msdn.microsoft.com/en-us/library/ms683156(v=VS.85).aspx
+      - name: "GetCurrentProcess"
+        href: https://msdn.microsoft.com/en-us/library/ms683179(v=VS.85).aspx
+      - name: "GetCurrentProcessId"
+        href: https://msdn.microsoft.com/en-us/library/ms683180(v=VS.85).aspx
+      - name: "GetCurrentProcessorNumber"
+        href: https://msdn.microsoft.com/en-us/library/ms683181(v=VS.85).aspx
+      - name: "GetCurrentProcessorNumberEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405487(v=VS.85).aspx
+      - name: "GetCurrentThread"
+        href: https://msdn.microsoft.com/en-us/library/ms683182(v=VS.85).aspx
+      - name: "GetCurrentThreadId"
+        href: https://msdn.microsoft.com/en-us/library/ms683183(v=VS.85).aspx
+      - name: "GetCurrentThreadStackLimits"
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadstacklimits
+      - name: "GetCurrentUmsThread"
+        href: /windows/desktop/api/WinBase/nf-winbase-getcurrentumsthread
+      - name: "GetEnvironmentStrings"
+        href: https://msdn.microsoft.com/en-us/library/ms683187(v=VS.85).aspx
+      - name: "GetEnvironmentVariable"
+        href: /windows/desktop/api/WinBase/nf-winbase-getenvironmentvariable
+      - name: "GetExitCodeProcess"
+        href: https://msdn.microsoft.com/en-us/library/ms683189(v=VS.85).aspx
+      - name: "GetExitCodeThread"
+        href: https://msdn.microsoft.com/en-us/library/ms683190(v=VS.85).aspx
+      - name: "GetGuiResources"
+        href: /windows/desktop/api/Winuser/nf-winuser-getguiresources
+      - name: "GetLogicalProcessorInformation"
+        href: https://msdn.microsoft.com/en-us/library/ms683194(v=VS.85).aspx
+      - name: "GetLogicalProcessorInformationEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405488(v=VS.85).aspx
+      - name: "GetMaximumProcessorCount"
+        href: /windows/desktop/api/WinBase/nf-winbase-getmaximumprocessorcount
+      - name: "GetMaximumProcessorGroupCount"
+        href: /windows/desktop/api/WinBase/nf-winbase-getmaximumprocessorgroupcount
+      - name: "GetNextUmsListItem"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnextumslistitem
+      - name: "GetNumaAvailableMemoryNode"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynode
+      - name: "GetNumaAvailableMemoryNodeEx"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynodeex
+      - name: "GetNumaHighestNodeNumber"
+        href: https://msdn.microsoft.com/en-us/library/ms683203(v=VS.85).aspx
+      - name: "GetNumaNodeNumberFromHandle"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumanodenumberfromhandle
+      - name: "GetNumaNodeProcessorMask"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumanodeprocessormask
+      - name: "GetNumaNodeProcessorMaskEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405493(v=VS.85).aspx
+      - name: "GetNumaProcessorNode"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumaprocessornode
+      - name: "GetNumaProcessorNodeEx"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumaprocessornodeex
+      - name: "GetNumaProximityNode"
+        href: /windows/desktop/api/WinBase/nf-winbase-getnumaproximitynode
+      - name: "GetNumaProximityNodeEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405495(v=VS.85).aspx
+      - name: "GetPriorityClass"
+        href: https://msdn.microsoft.com/en-us/library/ms683211(v=VS.85).aspx
+      - name: "GetProcessAffinityMask"
+        href: /windows/desktop/api/WinBase/nf-winbase-getprocessaffinitymask
+      - name: "GetProcessDefaultCpuSets"
+        href: getprocessdefaultcpusets.md
+      - name: "GetProcessGroupAffinity"
+        href: https://msdn.microsoft.com/en-us/library/Dd405496(v=VS.85).aspx
+      - name: "GetProcessHandleCount"
+        href: https://msdn.microsoft.com/en-us/library/ms683214(v=VS.85).aspx
+      - name: "GetProcessId"
+        href: https://msdn.microsoft.com/en-us/library/ms683215(v=VS.85).aspx
+      - name: "GetProcessIdOfThread"
+        href: https://msdn.microsoft.com/en-us/library/ms683216(v=VS.85).aspx
+      - name: "GetProcessInformation"
+        href: https://msdn.microsoft.com/en-us/library/Hh448381(v=VS.85).aspx
+      - name: "GetProcessIoCounters"
+        href: /windows/desktop/api/WinBase/nf-winbase-getprocessiocounters
+      - name: "GetProcessMitigationPolicy"
+        href: /windows/desktop/api/Processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy
+      - name: "GetProcessPriorityBoost"
+        href: https://msdn.microsoft.com/en-us/library/ms683220(v=VS.85).aspx
+      - name: "GetProcessShutdownParameters"
+        href: https://msdn.microsoft.com/en-us/library/ms683221(v=VS.85).aspx
+      - name: "GetProcessTimes"
+        href: https://msdn.microsoft.com/en-us/library/ms683223(v=VS.85).aspx
+      - name: "GetProcessVersion"
+        href: https://msdn.microsoft.com/en-us/library/ms683224(v=VS.85).aspx
+      - name: "GetProcessWorkingSetSize"
+        href: /windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize
+      - name: "GetProcessWorkingSetSizeEx"
+        href: https://msdn.microsoft.com/en-us/library/ms683227(v=VS.85).aspx
+      - name: "GetProcessorSystemCycleTime"
+        href: https://msdn.microsoft.com/en-us/library/Dd405497(v=VS.85).aspx
+      - name: "GetStartupInfo"
+        href: /windows/desktop/api/WinBase/nf-winbase-getstartupinfoa
+      - name: "GetSystemCpuSetInformation"
+        href: getsystemcpusetinformation.md
+      - name: "GetThreadDescription"
+        href: /windows/desktop/api/ProcessThreadsApi/nf-processthreadsapi-getthreaddescription
+      - name: "GetThreadGroupAffinity"
+        href: https://msdn.microsoft.com/en-us/library/Dd405498(v=VS.85).aspx
+      - name: "GetThreadId"
+        href: https://msdn.microsoft.com/en-us/library/ms683233(v=VS.85).aspx
+      - name: "GetThreadIdealProcessorEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405499(v=VS.85).aspx
+      - name: "GetThreadInformation"
+        href: https://msdn.microsoft.com/en-us/library/Hh448382(v=VS.85).aspx
+      - name: "GetThreadIOPendingFlag"
+        href: https://msdn.microsoft.com/en-us/library/ms683234(v=VS.85).aspx
+      - name: "GetThreadPriority"
+        href: https://msdn.microsoft.com/en-us/library/ms683235(v=VS.85).aspx
+      - name: "GetThreadPriorityBoost"
+        href: https://msdn.microsoft.com/en-us/library/ms683236(v=VS.85).aspx
+      - name: "GetThreadSelectedCpuSets"
+        href: getthreadselectedcpusets.md
+      - name: "GetThreadTimes"
+        href: https://msdn.microsoft.com/en-us/library/ms683237(v=VS.85).aspx
+      - name: "GetUmsCompletionListEvent"
+        href: /windows/desktop/api/WinBase/nf-winbase-getumscompletionlistevent
+      - name: "GetUmsSystemThreadInformation"
+        href: /windows/desktop/api/WinBase/nf-winbase-getumssystemthreadinformation
+      - name: "InitializeProcThreadAttributeList"
+        href: https://msdn.microsoft.com/en-us/library/ms683481(v=VS.85).aspx
+      - name: "InitializeThreadpoolEnvironment"
+        href: /windows/desktop/api/WinBase/nf-winbase-initializethreadpoolenvironment
+      - name: "IoCompletionCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms684124(v=VS.85).aspx
+      - name: "IsImmersiveProcess"
+        href: /windows/desktop/api/Winuser/nf-winuser-isimmersiveprocess
+      - name: "IsProcessInJob"
+        href: https://msdn.microsoft.com/en-us/library/ms684127(v=VS.85).aspx
+      - name: "IsProcessCritical"
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical
+      - name: "IsThreadAFiber"
+        href: https://msdn.microsoft.com/en-us/library/ms684131(v=VS.85).aspx
+      - name: "IsThreadpoolTimerSet"
+        href: https://msdn.microsoft.com/en-us/library/ms684133(v=VS.85).aspx
+      - name: "IsWow64Message"
+        href: /windows/desktop/api/Winuser/nf-winuser-iswow64message
+      - name: "IsWow64Process"
+        href: https://msdn.microsoft.com/en-us/library/ms684139(v=VS.85).aspx
+      - name: "IsWow64Process2"
+        href: /windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2
+      - name: "LeaveCriticalSectionWhenCallbackReturns"
+        href: https://msdn.microsoft.com/en-us/library/ms684171(v=VS.85).aspx
+      - name: "NeedCurrentDirectoryForExePath"
+        href: https://msdn.microsoft.com/en-us/library/ms684269(v=VS.85).aspx
+      - name: "NtGetCurrentProcessorNumber"
+        href: ntgetcurrentprocessornumber.md
+      - name: "NtQueryInformationProcess"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntqueryinformationprocess
+      - name: "NtQueryInformationThread"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntqueryinformationthread
+      - name: "OpenJobObject"
+        href: /windows/desktop/api/WinBase/nf-winbase-openjobobjecta
+      - name: "OpenProcess"
+        href: https://msdn.microsoft.com/en-us/library/ms684320(v=VS.85).aspx
+      - name: "OpenThread"
+        href: https://msdn.microsoft.com/en-us/library/ms684335(v=VS.85).aspx
+      - name: "QueryFullProcessImageName"
+        href: /windows/desktop/api/WinBase/nf-winbase-queryfullprocessimagenamea
+      - name: "QueryIdleProcessorCycleTime"
+        href: https://msdn.microsoft.com/en-us/library/ms684922(v=VS.85).aspx
+      - name: "QueryIdleProcessorCycleTimeEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405507(v=VS.85).aspx
+      - name: "QueryInformationJobObject"
+        href: https://msdn.microsoft.com/en-us/library/ms684925(v=VS.85).aspx
+      - name: "QueryIoRateControlInformationJobObject"
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject
+      - name: "QueryProcessAffinityUpdateMode"
+        href: https://msdn.microsoft.com/en-us/library/Bb309062(v=VS.85).aspx
+      - name: "QueryProcessCycleTime"
+        href: https://msdn.microsoft.com/en-us/library/ms684929(v=VS.85).aspx
+      - name: "QueryProtectedPolicy"
+        href: https://msdn.microsoft.com/en-us/library/Dn893591(v=VS.85).aspx
+      - name: "QueryThreadCycleTime"
+        href: https://msdn.microsoft.com/en-us/library/ms684943(v=VS.85).aspx
+      - name: "QueryThreadpoolStackInformation"
+        href: https://msdn.microsoft.com/en-us/library/Dd405508(v=VS.85).aspx
+      - name: "QueryUmsThreadInformation"
+        href: /windows/desktop/api/WinBase/nf-winbase-queryumsthreadinformation
+      - name: "QueueUserWorkItem"
+        href: https://msdn.microsoft.com/en-us/library/ms684957(v=VS.85).aspx
+      - name: "ReleaseMutexWhenCallbackReturns"
+        href: https://msdn.microsoft.com/en-us/library/ms685070(v=VS.85).aspx
+      - name: "ReleaseSemaphoreWhenCallbackReturns"
+        href: https://msdn.microsoft.com/en-us/library/ms685073(v=VS.85).aspx
+      - name: "ResumeThread"
+        href: https://msdn.microsoft.com/en-us/library/ms685086(v=VS.85).aspx
+      - name: "SetDisplayAutoRotationPreferences"
+        href: /windows/desktop/api/WinUser/nf-winuser-setdisplayautorotationpreferences
+      - name: "SetEnvironmentVariable"
+        href: /windows/desktop/api/WinBase/nf-winbase-setenvironmentvariable
+      - name: "SetEventWhenCallbackReturns"
+        href: https://msdn.microsoft.com/en-us/library/ms686214(v=VS.85).aspx
+      - name: "SetInformationJobObject"
+        href: https://msdn.microsoft.com/en-us/library/ms686216(v=VS.85).aspx
+      - name: "SetIoRateControlInformationJobObject"
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-setioratecontrolinformationjobobject
+      - name: "SetPriorityClass"
+        href: https://msdn.microsoft.com/en-us/library/ms686219(v=VS.85).aspx
+      - name: "SetProcessAffinityMask"
+        href: /windows/desktop/api/WinBase/nf-winbase-setprocessaffinitymask
+      - name: "SetProcessAffinityUpdateMode"
+        href: https://msdn.microsoft.com/en-us/library/Bb309063(v=VS.85).aspx
+      - name: "SetProcessDefaultCpuSets"
+        href: setprocessdefaultcpusets.md
+      - name: "SetProcessInformation"
+        href: https://msdn.microsoft.com/en-us/library/Hh448389(v=VS.85).aspx
+      - name: "SetProcessMitigationPolicy"
+        href: /windows/desktop/api/Processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy
+      - name: "SetProcessPriorityBoost"
+        href: https://msdn.microsoft.com/en-us/library/ms686225(v=VS.85).aspx
+      - name: "SetProcessRestrictionExemption"
+        href: /windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption
+      - name: "SetProcessShutdownParameters"
+        href: https://msdn.microsoft.com/en-us/library/ms686227(v=VS.85).aspx
+      - name: "SetProcessWorkingSetSize"
+        href: /windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize
+      - name: "SetProcessWorkingSetSizeEx"
+        href: https://msdn.microsoft.com/en-us/library/ms686237(v=VS.85).aspx
+      - name: "SetProtectedPolicy"
+        href: https://msdn.microsoft.com/en-us/library/Dn893592(v=VS.85).aspx
+      - name: "SetThreadAffinityMask"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadaffinitymask
+      - name: "SetThreadDescription"
+        href: /windows/desktop/api/ProcessThreadsApi/nf-processthreadsapi-setthreaddescription
+      - name: "SetThreadGroupAffinity"
+        href: https://msdn.microsoft.com/en-us/library/Dd405516(v=VS.85).aspx
+      - name: "SetThreadIdealProcessor"
+        href: https://msdn.microsoft.com/en-us/library/ms686253(v=VS.85).aspx
+      - name: "SetThreadIdealProcessorEx"
+        href: https://msdn.microsoft.com/en-us/library/Dd405517(v=VS.85).aspx
+      - name: "SetThreadInformation"
+        href: https://msdn.microsoft.com/en-us/library/Hh448390(v=VS.85).aspx
+      - name: "SetThreadpoolCallbackCleanupGroup"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackcleanupgroup
+      - name: "SetThreadpoolCallbackLibrary"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbacklibrary
+      - name: "SetThreadpoolCallbackPersistent"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackpersistent
+      - name: "SetThreadpoolCallbackPool"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackpool
+      - name: "SetThreadpoolCallbackPriority"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackpriority
+      - name: "SetThreadpoolCallbackRunsLong"
+        href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackrunslong
+      - name: "SetThreadpoolStackInformation"
+        href: https://msdn.microsoft.com/en-us/library/Dd405520(v=VS.85).aspx
+      - name: "SetThreadpoolThreadMaximum"
+        href: https://msdn.microsoft.com/en-us/library/ms686266(v=VS.85).aspx
+      - name: "SetThreadpoolThreadMinimum"
+        href: https://msdn.microsoft.com/en-us/library/ms686268(v=VS.85).aspx
+      - name: "SetThreadpoolTimer"
+        href: https://msdn.microsoft.com/en-us/library/ms686271(v=VS.85).aspx
+      - name: "SetThreadpoolTimerEx"
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimerex
+      - name: "SetThreadpoolWait"
+        href: https://msdn.microsoft.com/en-us/library/ms686273(v=VS.85).aspx
+      - name: "SetThreadpoolWaitEx"
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex
+      - name: "SetThreadPriority"
+        href: https://msdn.microsoft.com/en-us/library/ms686277(v=VS.85).aspx
+      - name: "SetThreadPriorityBoost"
+        href: https://msdn.microsoft.com/en-us/library/ms686280(v=VS.85).aspx
+      - name: "SetThreadSelectedCpuSets"
+        href: setthreadselectedcpusets.md
+      - name: "SetThreadStackGuarantee"
+        href: https://msdn.microsoft.com/en-us/library/ms686283(v=VS.85).aspx
+      - name: "SetUmsThreadInformation"
+        href: /windows/desktop/api/WinBase/nf-winbase-setumsthreadinformation
+      - name: "SimpleCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms686295(v=VS.85).aspx
+      - name: "Sleep"
+        href: https://msdn.microsoft.com/en-us/library/ms686298(v=VS.85).aspx
+      - name: "SleepEx"
+        href: https://msdn.microsoft.com/en-us/library/ms686307(v=VS.85).aspx
+      - name: "StartThreadpoolIo"
+        href: https://msdn.microsoft.com/en-us/library/ms686326(v=VS.85).aspx
+      - name: "SubmitThreadpoolWork"
+        href: https://msdn.microsoft.com/en-us/library/ms686338(v=VS.85).aspx
+      - name: "SuspendThread"
+        href: https://msdn.microsoft.com/en-us/library/ms686345(v=VS.85).aspx
+      - name: "SwitchToFiber"
+        href: /windows/desktop/api/WinBase/nf-winbase-switchtofiber
+      - name: "SwitchToThread"
+        href: https://msdn.microsoft.com/en-us/library/ms686352(v=VS.85).aspx
+      - name: "TerminateJobObject"
+        href: https://msdn.microsoft.com/en-us/library/ms686709(v=VS.85).aspx
+      - name: "TerminateProcess"
+        href: https://msdn.microsoft.com/en-us/library/ms686714(v=VS.85).aspx
+      - name: "TerminateThread"
+        href: https://msdn.microsoft.com/en-us/library/ms686717(v=VS.85).aspx
+      - name: "ThreadProc"
+        href: https://msdn.microsoft.com/en-us/library/ms686736(v=VS.85).aspx
+      - name: "TimerCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms686790(v=VS.85).aspx
+      - name: "TlsAlloc"
+        href: https://msdn.microsoft.com/en-us/library/ms686801(v=VS.85).aspx
+      - name: "TlsFree"
+        href: https://msdn.microsoft.com/en-us/library/ms686804(v=VS.85).aspx
+      - name: "TlsGetValue"
+        href: https://msdn.microsoft.com/en-us/library/ms686812(v=VS.85).aspx
+      - name: "TlsSetValue"
+        href: https://msdn.microsoft.com/en-us/library/ms686818(v=VS.85).aspx
+      - name: "TpInitializeCallbackEnviron"
+        href: /windows/desktop/api/winnt/nf-winnt-tpinitializecallbackenviron
+      - name: "TpDestroyCallbackEnviron"
+        href: /windows/desktop/api/winnt/nf-winnt-tpdestroycallbackenviron
+      - name: "TpSetCallbackActivationContext"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackactivationcontext
+      - name: "TpSetCallbackCleanupGroup"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackcleanupgroup
+      - name: "TpSetCallbackFinalizationCallback"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackfinalizationcallback
+      - name: "TpSetCallbackLongFunction"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbacklongfunction
+      - name: "TpSetCallbackNoActivationContext"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbacknoactivationcontext
+      - name: "TpSetCallbackPersistent"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackpersistent
+      - name: "TpSetCallbackPriority"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackpriority
+      - name: "TpSetCallbackRaceWithDll"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackracewithdll
+      - name: "TpSetCallbackThreadpool"
+        href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackthreadpool
+      - name: "TrySubmitThreadpoolCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms686862(v=VS.85).aspx
+      - name: "UmsSchedulerProc"
+        href: /windows/desktop/api/WinNT/nc-winnt-rtl_ums_scheduler_entry_point
+      - name: "UmsThreadYield"
+        href: /windows/desktop/api/WinBase/nf-winbase-umsthreadyield
+      - name: "UpdateProcThreadAttribute"
+        href: https://msdn.microsoft.com/en-us/library/ms686880(v=VS.85).aspx
+      - name: "UserHandleGrantAccess"
+        href: /windows/desktop/api/Winuser/nf-winuser-userhandlegrantaccess
+      - name: "WaitCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms687017(v=VS.85).aspx
+      - name: "WaitForInputIdle"
+        href: /windows/desktop/api/Winuser/nf-winuser-waitforinputidle
+      - name: "WaitForThreadpoolIoCallbacks"
+        href: https://msdn.microsoft.com/en-us/library/ms687038(v=VS.85).aspx
+      - name: "WaitForThreadpoolTimerCallbacks"
+        href: https://msdn.microsoft.com/en-us/library/ms687042(v=VS.85).aspx
+      - name: "WaitForThreadpoolWaitCallbacks"
+        href: https://msdn.microsoft.com/en-us/library/ms687047(v=VS.85).aspx
+      - name: "WaitForThreadpoolWorkCallbacks"
+        href: https://msdn.microsoft.com/en-us/library/ms687053(v=VS.85).aspx
+      - name: "WinExec"
+        href: /windows/desktop/api/WinBase/nf-winbase-winexec
+      - name: "WorkCallback"
+        href: https://msdn.microsoft.com/en-us/library/ms687396(v=VS.85).aspx
+      - name: "Wow64SuspendThread"
+        href: /windows/desktop/api/WinBase/nf-winbase-wow64suspendthread
+      - name: "ZwQueryInformationProcess"
+        href: zwqueryinformationprocess.md
+    - name: "Process and Thread Macros"
+      href: process-and-thread-macros.md
+      items: 
+      - name: "GetCurrentFiber"
+        href: https://msdn.microsoft.com/en-us/library/ms683178(v=VS.85).aspx
+      - name: "GetFiberData"
+        href: https://msdn.microsoft.com/en-us/library/ms683191(v=VS.85).aspx
+    - name: "Process and Thread Structures"
+      href: process-and-thread-structures.md
+      items: 
+      - name: "DispatcherQueueOptions"
+        href: /windows/desktop/api/DispatcherQueue/ns-dispatcherqueue-dispatcherqueueoptions
+      - name: "PROCESS_PROTECTION_LEVEL_INFORMATION"
+        href: /windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information
+      - name: "THREAD_POWER_THROTTLING_STATE"
+        href: /windows/desktop/api/processthreadsapi/ns-processthreadsapi-_thread_power_throttling_state
+      - name: "PROCESS_POWER_THROTTLING_STATE"
+        href: /windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_power_throttling_state
+      - name: "APP_MEMORY_INFORMATION"
+        href: https://msdn.microsoft.com/en-us/library/Mt767995(v=VS.85).aspx
+      - name: "AR_STATE"
+        href: /windows/desktop/api/WinUser/ne-winuser-tagar_state
+      - name: "CACHE_DESCRIPTOR"
+        href: /windows/desktop/api/WinNT/ns-winnt-_cache_descriptor
+      - name: "CACHE_RELATIONSHIP"
+        href: /windows/desktop/api/WinNT/ns-winnt-_cache_relationship
+      - name: "GROUP_AFFINITY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_group_affinity
+      - name: "GROUP_RELATIONSHIP"
+        href: /windows/desktop/api/WinNT/ns-winnt-_group_relationship
+      - name: "IO_COUNTERS"
+        href: /windows/desktop/api/WinNT/ns-winnt-_io_counters
+      - name: "JOBOBJECT_ASSOCIATE_COMPLETION_PORT"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_associate_completion_port
+      - name: "JOBOBJECT_BASIC_ACCOUNTING_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_accounting_information
+      - name: "JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_and_io_accounting_information
+      - name: "JOBOBJECT_BASIC_LIMIT_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_limit_information
+      - name: "JOBOBJECT_BASIC_PROCESS_ID_LIST"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_process_id_list
+      - name: "JOBOBJECT_BASIC_UI_RESTRICTIONS"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_ui_restrictions
+      - name: "JOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
+        href: /windows/desktop/api/Winnt/ns-winnt-_jobobject_cpu_rate_control_information
+      - name: "JOBOBJECT_END_OF_JOB_TIME_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_end_of_job_time_information
+      - name: "JOBOBJECT_EXTENDED_LIMIT_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_extended_limit_information
+      - name: "JOBOBJECT_IO_RATE_CONTROL_INFORMATION"
+        href: /windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information
+      - name: "JOBOBJECT_LIMIT_VIOLATION_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_limit_violation_information
+      - name: "JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2"
+        href: /windows/desktop/api/Winnt/ns-winnt-jobobject_limit_violation_information_2
+      - name: "JOBOBJECT_NET_RATE_CONTROL_INFORMATION"
+        href: /windows/desktop/api/Winnt/ns-winnt-jobobject_net_rate_control_information
+      - name: "JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_notification_limit_information
+      - name: "JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2"
+        href: /windows/desktop/api/Winnt/ns-winnt-jobobject_notification_limit_information_2
+      - name: "JOBOBJECT_SECURITY_LIMIT_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_security_limit_information
+      - name: "MEMORY_PRIORITY_INFORMATION"
+        href: https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx
+      - name: "NUMA_NODE_RELATIONSHIP"
+        href: /windows/desktop/api/WinNT/ns-winnt-_numa_node_relationship
+      - name: "ORIENTATION_PREFERENCE"
+        href: /windows/desktop/api/WinUser/ne-winuser-orientation_preference
+      - name: "PEB"
+        href: /windows/desktop/api/Winternl/ns-winternl-_peb
+      - name: "PEB_LDR_DATA"
+        href: /windows/desktop/api/Winternl/ns-winternl-_peb_ldr_data
+      - name: "PROCESS_INFORMATION"
+        href: https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx
+      - name: "PROCESS_MEMORY_EXHAUSTION_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt767997(v=VS.85).aspx
+      - name: "PROCESS_MITIGATION_ASLR_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_aslr_policy
+      - name: "PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_binary_signature_policy
+      - name: "PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_control_flow_guard_policy
+      - name: "PROCESS_MITIGATION_DEP_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_dep_policy
+      - name: "PROCESS_MITIGATION_DYNAMIC_CODE_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_dynamic_code_policy
+      - name: "PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY"
+        href: /windows/desktop/api/winnt/ns-winnt-_process_mitigation_extension_point_disable_policy
+      - name: "PROCESS_MITIGATION_FONT_DISABLE_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_font_disable_policy
+      - name: "PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_image_load_policy
+      - name: "PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_strict_handle_check_policy
+      - name: "PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"
+        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_system_call_disable_policy
+      - name: "PROCESSOR_GROUP_INFO"
+        href: /windows/desktop/api/WinNT/ns-winnt-_processor_group_info
+      - name: "PROCESSOR_NUMBER"
+        href: /windows/desktop/api/WinNT/ns-winnt-_processor_number
+      - name: "PROCESSOR_RELATIONSHIP"
+        href: /windows/desktop/api/WinNT/ns-winnt-_processor_relationship
+      - name: "RTL_USER_PROCESS_PARAMETERS"
+        href: /windows/desktop/api/Winternl/ns-winternl-_rtl_user_process_parameters
+      - name: "STARTUPINFO"
+        href: https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx
+      - name: "STARTUPINFOEX"
+        href: /windows/desktop/api/WinBase/ns-winbase-_startupinfoexa
+      - name: "SYSTEM_CPU_SET_INFORMATION"
+        href: /windows/desktop/api/winnt/ns-winnt-_system_cpu_set_information
+      - name: "SYSTEM_LOGICAL_PROCESSOR_INFORMATION"
+        href: /windows/desktop/api/WinNT/ns-winnt-_system_logical_processor_information
+      - name: "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
+        href: /windows/desktop/api/WinNT/ns-winnt-_system_logical_processor_information_ex
+      - name: "TEB"
+        href: /windows/desktop/api/Winternl/ns-winternl-_teb
+      - name: "UMS_CREATE_THREAD_ATTRIBUTES"
+        href: /windows/desktop/api/WinNT/ns-winnt-_ums_create_thread_attributes
+      - name: "UMS_SCHEDULER_STARTUP_INFO"
+        href: /windows/desktop/api/WinBase/ns-winbase-_ums_scheduler_startup_info
+      - name: "UMS_SYSTEM_THREAD_INFORMATION"
+        href: /windows/desktop/api/WinBase/ns-winbase-_ums_system_thread_information
+    - name: "Process Creation Flags"
+      href: process-creation-flags.md

@@ -1,0 +1,217 @@
+- name: "Cloud Filter API"
+  href: cloud-files-api-portal.md
+  items: 
+  - name: "Cloud Filter Reference"
+    href: cloud-filter-reference.md
+    items: 
+    - name: "Cloud Filter Enumerations"
+      href: cloud-files-enumerations.md
+      items: 
+      - name: "CF_CALLBACK_CANCEL_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827509(v=VS.85).aspx
+      - name: "CF_CALLBACK_CLOSE_COMPLETION_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827510(v=VS.85).aspx
+      - name: "CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827511(v=VS.85).aspx
+      - name: "CF_CALLBACK_DEHYDRATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827512(v=VS.85).aspx
+      - name: "CF_CALLBACK_DELETE_COMPLETION_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827513(v=VS.85).aspx
+      - name: "CF_CALLBACK_DELETE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827514(v=VS.85).aspx
+      - name: "CF_CALLBACK_FETCH_DATA_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827515(v=VS.85).aspx
+      - name: "CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827516(v=VS.85).aspx
+      - name: "CF_CALLBACK_OPEN_COMPLETION_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827518(v=VS.85).aspx
+      - name: "CF_CALLBACK_RENAME_COMPLETION_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827521(v=VS.85).aspx
+      - name: "CF_CALLBACK_RENAME_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827522(v=VS.85).aspx
+      - name: "CF_CALLBACK_TYPE"
+        href: https://msdn.microsoft.com/en-us/library/Mt827523(v=VS.85).aspx
+      - name: "CF_CALLBACK_VALIDATE_DATA_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827524(v=VS.85).aspx
+      - name: "CF_CONNECT_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827525(v=VS.85).aspx
+      - name: "CF_CONVERT_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827526(v=VS.85).aspx
+      - name: "CF_CREATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827527(v=VS.85).aspx
+      - name: "CF_DEHYDRATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827528(v=VS.85).aspx
+      - name: "CF_HARDLINK_POLICY"
+        href: https://msdn.microsoft.com/en-us/library/Mt827531(v=VS.85).aspx
+      - name: "CF_HYDRATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827532(v=VS.85).aspx
+      - name: "CF_HYDRATION_POLICY_MODIFIER"
+        href: https://msdn.microsoft.com/en-us/library/Mt827534(v=VS.85).aspx
+      - name: "CF_HYDRATION_POLICY_PRIMARY"
+        href: https://msdn.microsoft.com/en-us/library/Mt827535(v=VS.85).aspx
+      - name: "CF_INSYNC_POLICY"
+        href: https://msdn.microsoft.com/en-us/library/Mt827536(v=VS.85).aspx
+      - name: "CF_IN_SYNC_STATE"
+        href: https://msdn.microsoft.com/en-us/library/Mt827537(v=VS.85).aspx
+      - name: "CF_OPEN_FILE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827538(v=VS.85).aspx
+      - name: "CF_OPERATION_ACK_DATA_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827539(v=VS.85).aspx
+      - name: "CF_OPERATION_ACK_DEHYDRATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827540(v=VS.85).aspx
+      - name: "CF_OPERATION_ACK_DELETE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827541(v=VS.85).aspx
+      - name: "CF_OPERATION_ACK_RENAME_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827542(v=VS.85).aspx
+      - name: "CF_OPERATION_RESTART_HYDRATION_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827545(v=VS.85).aspx
+      - name: "CF_OPERATION_RETRIEVE_DATA_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827546(v=VS.85).aspx
+      - name: "CF_OPERATION_TRANSFER_DATA_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827547(v=VS.85).aspx
+      - name: "CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827548(v=VS.85).aspx
+      - name: "CF_OPERATION_TYPE"
+        href: https://msdn.microsoft.com/en-us/library/Mt827549(v=VS.85).aspx
+      - name: "CF_PIN_STATE"
+        href: https://msdn.microsoft.com/en-us/library/Mt827550(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_CREATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827552(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_INFO_CLASS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827554(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_RANGE_INFO_CLASS"
+        href: https://msdn.microsoft.com/en-us/library/Mt844617(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_STATE"
+        href: https://msdn.microsoft.com/en-us/library/Mt827557(v=VS.85).aspx
+      - name: "CF_POPULATION_POLICY_MODIFIER"
+        href: https://msdn.microsoft.com/en-us/library/Mt827560(v=VS.85).aspx
+      - name: "CF_POPULATION_POLICY_PRIMARY"
+        href: https://msdn.microsoft.com/en-us/library/Mt827561(v=VS.85).aspx
+      - name: "CF_REGISTER_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827563(v=VS.85).aspx
+      - name: "CF_REVERT_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827564(v=VS.85).aspx
+      - name: "CF_SET_IN_SYNC_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827565(v=VS.85).aspx
+      - name: "CF_SET_PIN_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827566(v=VS.85).aspx
+      - name: "CF_SYNC_PROVIDER_STATUS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827568(v=VS.85).aspx
+      - name: "CF_SYNC_ROOT_INFO_CLASS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827571(v=VS.85).aspx
+      - name: "CF_UPDATE_FLAGS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827574(v=VS.85).aspx
+    - name: "Cloud Filter Functions"
+      href: cloud-files-functions.md
+      items: 
+      - name: "CfCloseHandle"
+        href: https://msdn.microsoft.com/en-us/library/Mt827476(v=VS.85).aspx
+      - name: "CfConnectSyncRoot"
+        href: https://msdn.microsoft.com/en-us/library/Mt827477(v=VS.85).aspx
+      - name: "CfConvertToPlaceholder"
+        href: https://msdn.microsoft.com/en-us/library/Mt827478(v=VS.85).aspx
+      - name: "CfCreatePlaceholders"
+        href: https://msdn.microsoft.com/en-us/library/Mt827479(v=VS.85).aspx
+      - name: "CfDisconnectSyncRoot"
+        href: https://msdn.microsoft.com/en-us/library/Mt827481(v=VS.85).aspx
+      - name: "CfExecute"
+        href: https://msdn.microsoft.com/en-us/library/Mt827482(v=VS.85).aspx
+      - name: "CfGetCorrelationVector"
+        href: https://msdn.microsoft.com/en-us/library/Mt827483(v=VS.85).aspx
+      - name: "CfGetPlaceholderInfo"
+        href: https://msdn.microsoft.com/en-us/library/Mt827484(v=VS.85).aspx
+      - name: "CfGetPlaceholderRangeInfo"
+        href: https://msdn.microsoft.com/en-us/library/Mt827485(v=VS.85).aspx
+      - name: "CfGetPlaceholderStateFromAttributeTag"
+        href: https://msdn.microsoft.com/en-us/library/Mt827486(v=VS.85).aspx
+      - name: "CfGetPlaceholderStateFromFileInfo"
+        href: https://msdn.microsoft.com/en-us/library/Mt827487(v=VS.85).aspx
+      - name: "CfGetPlaceholderStateFromFindData"
+        href: https://msdn.microsoft.com/en-us/library/Mt827488(v=VS.85).aspx
+      - name: "CfGetPlatformInfo"
+        href: https://msdn.microsoft.com/en-us/library/Mt827489(v=VS.85).aspx
+      - name: "CfGetSyncRootInfoByHandle"
+        href: https://msdn.microsoft.com/en-us/library/Mt827490(v=VS.85).aspx
+      - name: "CfGetSyncRootInfoByPath"
+        href: https://msdn.microsoft.com/en-us/library/Mt827491(v=VS.85).aspx
+      - name: "CfGetTransferKey"
+        href: https://msdn.microsoft.com/en-us/library/Mt827492(v=VS.85).aspx
+      - name: "CfGetWin32HandleFromProtectedHandle"
+        href: https://msdn.microsoft.com/en-us/library/Mt827493(v=VS.85).aspx
+      - name: "CfHydratePlaceholder"
+        href: https://msdn.microsoft.com/en-us/library/Mt827494(v=VS.85).aspx
+      - name: "CfOpenFileWithOplock"
+        href: https://msdn.microsoft.com/en-us/library/Mt827495(v=VS.85).aspx
+      - name: "CfQuerySyncProviderStatus"
+        href: https://msdn.microsoft.com/en-us/library/Mt827496(v=VS.85).aspx
+      - name: "CfReferenceProtectedHandle"
+        href: https://msdn.microsoft.com/en-us/library/Mt827497(v=VS.85).aspx
+      - name: "CfRegisterSyncRoot"
+        href: https://msdn.microsoft.com/en-us/library/Mt827498(v=VS.85).aspx
+      - name: "CfReleaseProtectedHandle"
+        href: https://msdn.microsoft.com/en-us/library/Mt827499(v=VS.85).aspx
+      - name: "CfReleaseTransferKey"
+        href: https://msdn.microsoft.com/en-us/library/Mt827500(v=VS.85).aspx
+      - name: "CfReportProviderProgress"
+        href: https://msdn.microsoft.com/en-us/library/Mt827501(v=VS.85).aspx
+      - name: "CfReportSyncStatus"
+        href: https://msdn.microsoft.com/en-us/library/Mt845791(v=VS.85).aspx
+      - name: "CfRevertPlaceholder"
+        href: https://msdn.microsoft.com/en-us/library/Mt827502(v=VS.85).aspx
+      - name: "CfSetCorrelationVector"
+        href: https://msdn.microsoft.com/en-us/library/Mt827503(v=VS.85).aspx
+      - name: "CfSetInSyncState"
+        href: https://msdn.microsoft.com/en-us/library/Mt827504(v=VS.85).aspx
+      - name: "CfSetPinState"
+        href: https://msdn.microsoft.com/en-us/library/Mt827505(v=VS.85).aspx
+      - name: "CfUnregisterSyncRoot"
+        href: https://msdn.microsoft.com/en-us/library/Mt827506(v=VS.85).aspx
+      - name: "CfUpdatePlaceholder"
+        href: https://msdn.microsoft.com/en-us/library/Mt827507(v=VS.85).aspx
+      - name: "CfUpdateSyncProviderStatus"
+        href: https://msdn.microsoft.com/en-us/library/Mt827508(v=VS.85).aspx
+    - name: "Cloud Filter Structures"
+      href: cloud-files-structures.md
+      items: 
+      - name: "CF_CALLBACK_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827517(v=VS.85).aspx
+      - name: "CF_CALLBACK_PARAMETERS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827519(v=VS.85).aspx
+      - name: "CF_CALLBACK_REGISTRATION"
+        href: https://msdn.microsoft.com/en-us/library/Mt827520(v=VS.85).aspx
+      - name: "CF_FILE_RANGE"
+        href: https://msdn.microsoft.com/en-us/library/Mt827529(v=VS.85).aspx
+      - name: "CF_FILE_RANGE_BUFFER"
+        href: https://msdn.microsoft.com/en-us/library/Mt844616(v=VS.85).aspx
+      - name: "CF_FS_METADATA"
+        href: https://msdn.microsoft.com/en-us/library/Mt827530(v=VS.85).aspx
+      - name: "CF_HYDRATION_POLICY"
+        href: https://msdn.microsoft.com/en-us/library/Mt827533(v=VS.85).aspx
+      - name: "CF_OPERATION_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827543(v=VS.85).aspx
+      - name: "CF_OPERATION_PARAMETERS"
+        href: https://msdn.microsoft.com/en-us/library/Mt827544(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_BASIC_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827551(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_CREATE_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827553(v=VS.85).aspx
+      - name: "CF_PLACEHOLDER_STANDARD_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827556(v=VS.85).aspx
+      - name: "CF_PLATFORM_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827558(v=VS.85).aspx
+      - name: "CF_POPULATION_POLICY"
+        href: https://msdn.microsoft.com/en-us/library/Mt827559(v=VS.85).aspx
+      - name: "CF_PROCESS_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827562(v=VS.85).aspx
+      - name: "CF_SYNC_POLICIES"
+        href: https://msdn.microsoft.com/en-us/library/Mt827567(v=VS.85).aspx
+      - name: "CF_SYNC_REGISTRATION"
+        href: https://msdn.microsoft.com/en-us/library/Mt827569(v=VS.85).aspx
+      - name: "CF_SYNC_ROOT_BASIC_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827570(v=VS.85).aspx
+      - name: "CF_SYNC_ROOT_PROVIDER_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827572(v=VS.85).aspx
+      - name: "CF_SYNC_ROOT_STANDARD_INFO"
+        href: https://msdn.microsoft.com/en-us/library/Mt827573(v=VS.85).aspx
+      - name: "CF_SYNC_STATUS"
+        href: https://msdn.microsoft.com/en-us/library/Mt845792(v=VS.85).aspx

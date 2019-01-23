@@ -1,0 +1,1638 @@
+- name: "Developer Notes"
+  href: developer-notes.md
+  items: 
+  - name: "Application Compatibility Database"
+    href: application-compatibility-database.md
+    items: 
+    - name: "APPHELP_DATA"
+      href: apphelp-data.md
+    - name: "ATTRINFO"
+      href: attrinfo.md
+    - name: "BaseFlushAppcompatCache"
+      href: baseflushappcompatcache.md
+    - name: "FIND_INFO"
+      href: find-info.md
+    - name: "INDEXID"
+      href: indexid.md
+    - name: "PATH_TYPE"
+      href: path-type.md
+    - name: "SdbBeginWriteListTag"
+      href: sdbbeginwritelisttag.md
+    - name: "SdbCloseDatabase"
+      href: sdbclosedatabase.md
+    - name: "SdbCloseDatabaseWrite"
+      href: sdbclosedatabasewrite.md
+    - name: "SdbCommitIndexes"
+      href: sdbcommitindexes.md
+    - name: "SdbCreateDatabase"
+      href: sdbcreatedatabase.md
+    - name: "SdbDeclareIndex"
+      href: sdbdeclareindex.md
+    - name: "SdbEndWriteListTag"
+      href: sdbendwritelisttag.md
+    - name: "SdbFindFirstDWORDIndexedTag"
+      href: sdbfindfirstdwordindexedtag.md
+    - name: "SdbFindFirstTag"
+      href: sdbfindfirsttag.md
+    - name: "SdbFindNextTag"
+      href: sdbfindnexttag.md
+    - name: "SdbFormatAttribute"
+      href: sdbformatattribute.md
+    - name: "SdbFreeFileAttributes"
+      href: sdbfreefileattributes.md
+    - name: "SdbGetAppPatchDir"
+      href: sdbgetapppatchdir.md
+    - name: "SdbGetBinaryTagData"
+      href: sdbgetbinarytagdata.md
+    - name: "SdbGetFileAttributes"
+      href: sdbgetfileattributes.md
+    - name: "SdbGetFirstChild"
+      href: sdbgetfirstchild.md
+    - name: "SdbGetIndex"
+      href: sdbgetindex.md
+    - name: "SdbGetMatchingExe"
+      href: sdbgetmatchingexe.md
+    - name: "SdbGetNextChild"
+      href: sdbgetnextchild.md
+    - name: "SdbGetStringTagPtr"
+      href: sdbgetstringtagptr.md
+    - name: "SdbGetTagFromTagID"
+      href: sdbgettagfromtagid.md
+    - name: "SdbInitDatabase"
+      href: sdbinitdatabase.md
+    - name: "SdbIsStandardDatabase"
+      href: sdbisstandarddatabase.md
+    - name: "SdbMakeIndexKeyFromString"
+      href: sdbmakeindexkeyfromstring.md
+    - name: "SdbOpenApphelpDetailsDatabase"
+      href: sdbopenapphelpdetailsdatabase.md
+    - name: "SdbOpenApphelpResourceFile"
+      href: sdbopenapphelpresourcefile.md
+    - name: "SdbOpenDatabase"
+      href: sdbopendatabase.md
+    - name: "SdbQueryDataExTagID"
+      href: sdbquerydataextagid.md
+    - name: "SDBQUERYRESULT"
+      href: sdbqueryresult.md
+    - name: "SdbReadApphelpDetailsData"
+      href: sdbreadapphelpdetailsdata.md
+    - name: "SdbReadBinaryTag"
+      href: sdbreadbinarytag.md
+    - name: "SdbReadDWORDTag"
+      href: sdbreaddwordtag.md
+    - name: "SdbReadQWORDTag"
+      href: sdbreadqwordtag.md
+    - name: "SdbReadStringTag"
+      href: sdbreadstringtag.md
+    - name: "SdbRegisterDatabaseEx"
+      href: sdbregisterdatabaseex.md
+    - name: "SdbReleaseDatabase"
+      href: sdbreleasedatabase.md
+    - name: "SdbReleaseMatchingExe"
+      href: sdbreleasematchingexe.md
+    - name: "SdbStartIndexing"
+      href: sdbstartindexing.md
+    - name: "SdbStopIndexing"
+      href: sdbstopindexing.md
+    - name: "SdbTagRefToTagID"
+      href: sdbtagreftotagid.md
+    - name: "SdbTagToString"
+      href: sdbtagtostring.md
+    - name: "SdbUnregisterDatabase"
+      href: sdbunregisterdatabase.md
+    - name: "SdbWriteBinaryTag"
+      href: sdbwritebinarytag.md
+    - name: "SdbWriteBinaryTagFromFile"
+      href: sdbwritebinarytagfromfile.md
+    - name: "SdbWriteDWORDTag"
+      href: sdbwritedwordtag.md
+    - name: "SdbWriteNULLTag"
+      href: sdbwritenulltag.md
+    - name: "SdbWriteQWORDTag"
+      href: sdbwriteqwordtag.md
+    - name: "SdbWriteStringTag"
+      href: sdbwritestringtag.md
+    - name: "SdbWriteWORDTag"
+      href: sdbwritewordtag.md
+    - name: "Shim Database Types"
+      href: shim-database-types.md
+    - name: "ShimFlushCache"
+      href: shimflushcache.md
+    - name: "TAG"
+      href: tag.md
+    - name: "TAG Types"
+      href: tag-types.md
+    - name: "TAGID"
+      href: tagid.md
+    - name: "TAGREF"
+      href: tagref.md
+  - name: "Application Verifier"
+    href: application-verifier.md
+    items: 
+    - name: "Resource Enumeration"
+      href: resource-enumeration.md
+      items: 
+      - name: "About Resource Enumeration"
+        href: about-resource-enumeration.md
+      - name: "Using Resource Enumeration"
+        href: using-resource-enumeration.md
+      - name: "Resource Enumeration Reference"
+        href: resource-enumeration-reference.md
+        items: 
+        - name: "Resource Enumeration Enumerations"
+          href: resource-enumeration-enumerations.md
+          items: 
+          - name: "eAvrfResourceTypes"
+            href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-eavrfresourcetypes
+          - name: "eHANDLE_TRACE_OPERATIONS"
+            href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-ehandle_trace_operations
+          - name: "eHeapAllocationState"
+            href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-eheapallocationstate
+          - name: "eHeapEnumerationLevel"
+            href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-eheapenumerationlevel
+          - name: "eUserAllocationState"
+            href: /windows/desktop/api/Avrfsdk/ne-avrfsdk-euserallocationstate
+        - name: "Resource Enumeration Functions"
+          href: resource-enumeration-functions.md
+          items: 
+          - name: "AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK"
+            href: /windows/desktop/api/Avrfsdk/nc-avrfsdk-avrf_handleoperation_enumerate_callback
+          - name: "AVRF_HEAP_ALLOCATION_ENUMERATE_CALLBACK"
+            href: /windows/desktop/api/Avrfsdk/nc-avrfsdk-avrf_heapallocation_enumerate_callback
+          - name: "AVRF_RESOURCE_ENUMERATE_CALLBACK"
+            href: /windows/desktop/api/Avrfsdk/nc-avrfsdk-avrf_resource_enumerate_callback
+          - name: "VerifierEnumerateResource"
+            href: /windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierenumerateresource
+        - name: "Resource Enumeration Structures"
+          href: resource-enumeration-structures.md
+          items: 
+          - name: "AVRF_BACKTRACE_INFORMATION"
+            href: /windows/desktop/api/Avrfsdk/ns-avrfsdk-_avrf_backtrace_information
+          - name: "AVRF_HANDLE_OPERATION"
+            href: /windows/desktop/api/Avrfsdk/ns-avrfsdk-_avrf_handle_operation
+          - name: "AVRF_HEAP_ALLOCATION"
+            href: /windows/desktop/api/Avrfsdk/ns-avrfsdk-_avrf_heap_allocation
+    - name: "VerifierIsPerUserSettingsEnabled"
+      href: /windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled
+  - name: "Audio and Video"
+    href: audio-and-video-.md
+    items: 
+    - name: "ICameraUIControl"
+      href: /windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol
+      items: 
+      - name: "Show Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-show
+      - name: "Close Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-close
+      - name: "Suspend Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-suspend
+      - name: "Resume Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-resume
+      - name: "GetCurrentViewType Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getcurrentviewtype
+      - name: "GetActiveItem Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getactiveitem
+      - name: "GetSelectedItems Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getselecteditems
+      - name: "RemoveCapturedItem Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-removecaptureditem
+    - name: "ICameraUIControlEventCallback"
+      href: /windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback
+      items: 
+      - name: "OnStartupComplete Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onstartupcomplete
+      - name: "OnSuspendComplete Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onsuspendcomplete
+      - name: "OnItemCaptured Method"
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onitemcaptured
+      - name: "OnItemDeleted Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh802721(v=VS.85).aspx
+      - name: "OnClosed Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh802719(v=VS.85).aspx
+    - name: "SapCreateInstance Method"
+      href: sapcreateinstance-method.md
+  - name: "Cabinet API"
+    href: cabinet-api.md
+    items: 
+    - name: "Using the Cabinet API"
+      href: using-the-cabinet-api.md
+      items: 
+      - name: "Creating a Cabinet"
+        href: creating-a-cabinet.md
+      - name: "Extracting Files from a Cabinet"
+        href: extracting-files-from-a-cabinet.md
+    - name: "Cabinet API Reference"
+      href: cabinet-api-reference.md
+      items: 
+      - name: "Cabinet API Functions"
+        href: cabinet-api-functions.md
+        items: 
+        - name: "DeleteExtractedFiles"
+          href: deleteextractedfiles.md
+        - name: "DllGetVersion"
+          href: dllgetversion.md
+        - name: "Extract"
+          href: extract.md
+        - name: "FCIAddFile"
+          href: /windows/desktop/api/Fci/nf-fci-fciaddfile
+        - name: "FCICreate"
+          href: /windows/desktop/api/Fci/nf-fci-fcicreate
+        - name: "FCIDestroy"
+          href: /windows/desktop/api/Fci/nf-fci-fcidestroy
+        - name: "FCIFlushCabinet"
+          href: /windows/desktop/api/Fci/nf-fci-fciflushcabinet
+        - name: "FCIFlushFolder"
+          href: /windows/desktop/api/Fci/nf-fci-fciflushfolder
+        - name: "FDICopy"
+          href: /windows/desktop/api/Fdi/nf-fdi-fdicopy
+        - name: "FDICreate"
+          href: /windows/desktop/api/Fdi/nf-fdi-fdicreate
+        - name: "FDIDestroy"
+          href: /windows/desktop/api/Fdi/nf-fdi-fdidestroy
+        - name: "FDIIsCabinet"
+          href: /windows/desktop/api/Fdi/nf-fdi-fdiiscabinet
+        - name: "FDITruncateCabinet"
+          href: /windows/desktop/api/Fdi/nf-fdi-fditruncatecabinet
+        - name: "GetDllVersion"
+          href: getdllversion.md
+      - name: "Cabinet API Macros"
+        href: cabinet-api-macros.md
+        items: 
+        - name: "FNALLOC"
+          href: /windows/desktop/api/fdi/nf-fdi-fnalloc
+        - name: "FNCLOSE"
+          href: /windows/desktop/api/fdi/nf-fdi-fnclose
+        - name: "FNFCIALLOC"
+          href: /windows/desktop/api/fci/nf-fci-fnfcialloc
+        - name: "FNFCICLOSE"
+          href: /windows/desktop/api/fci/nf-fci-fnfciclose
+        - name: "FNFCIDELETE"
+          href: /windows/desktop/api/fci/nf-fci-fnfcidelete
+        - name: "FNFCIFILEPLACED"
+          href: /windows/desktop/api/fci/nf-fci-fnfcifileplaced
+        - name: "FNFCIFREE"
+          href: /windows/desktop/api/fci/nf-fci-fnfcifree
+        - name: "FNFCIGETNEXTCABINET"
+          href: /windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet
+        - name: "FNFCIGETOPENINFO"
+          href: /windows/desktop/api/fci/nf-fci-fnfcigetopeninfo
+        - name: "FNFCIGETTEMPFILE"
+          href: /windows/desktop/api/fci/nf-fci-fnfcigettempfile
+        - name: "FNFCIOPEN"
+          href: /windows/desktop/api/fci/nf-fci-fnfciopen
+        - name: "FNFCIREAD"
+          href: /windows/desktop/api/fci/nf-fci-fnfciread
+        - name: "FNFCISEEK"
+          href: /windows/desktop/api/fci/nf-fci-fnfciseek
+        - name: "FNFCISTATUS"
+          href: /windows/desktop/api/fci/nf-fci-fnfcistatus
+        - name: "FNFCIWRITE"
+          href: /windows/desktop/api/fci/nf-fci-fnfciwrite
+        - name: "FNFDINOTIFY"
+          href: /windows/desktop/api/fdi/nf-fdi-fnfdinotify
+        - name: "FNFREE"
+          href: /windows/desktop/api/fdi/nf-fdi-fnfree
+        - name: "FNOPEN"
+          href: /windows/desktop/api/fdi/nf-fdi-fnopen
+        - name: "FNREAD"
+          href: /windows/desktop/api/fdi/nf-fdi-fnread
+        - name: "FNSEEK"
+          href: /windows/desktop/api/fdi/nf-fdi-fnseek
+        - name: "FNWRITE"
+          href: /windows/desktop/api/fdi/nf-fdi-fnwrite
+        - name: "TCOMPfromLZXWindow"
+          href: /windows/desktop/api/fdi_fci_types/nf-fdi_fci_types-tcompfromlzxwindow
+      - name: "Cabinet API Structures"
+        href: cabinet-api-structures.md
+        items: 
+        - name: "CABINETDLLVERSIONINFO"
+          href: cabinetdllversioninfo.md
+        - name: "CCAB"
+          href: /windows/desktop/api/Fci/ns-fci-ccab
+        - name: "ERF"
+          href: https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx
+        - name: "FDICABINETINFO"
+          href: /windows/desktop/api/Fdi/ns-fdi-fdicabinetinfo
+        - name: "FDINOTIFICATION"
+          href: /windows/desktop/api/Fdi/ns-fdi-fdinotification
+        - name: "SESSION"
+          href: session.md
+  - name: "Debugging"
+    href: debugging.md
+    items: 
+    - name: "Virtual DOS Machine Debug"
+      href: virtual-dos-machine-debug.md
+      items: 
+      - name: "ProcessVDMs"
+        href: https://msdn.microsoft.com/en-us/library/Bb963829(v=VS.85).aspx
+      - name: "ProcessTasks"
+        href: https://msdn.microsoft.com/en-us/library/Bb963828(v=VS.85).aspx
+      - name: "VDMEnumProcessWOW"
+        href: /windows/desktop/api/VdmDbg/nf-vdmdbg-vdmenumprocesswow
+      - name: "VDMEnumTaskWOWEx"
+        href: /windows/desktop/api/VdmDbg/nf-vdmdbg-vdmenumtaskwowex
+    - name: "SymbolServer"
+      href: https://msdn.microsoft.com/en-us/library/Ff797950(v=VS.85).aspx
+    - name: "SymbolServerCallback"
+      href: /windows/desktop/api/DbgHelp/nc-dbghelp-psymbolservercallbackproc
+    - name: "SymbolServerClose"
+      href: https://msdn.microsoft.com/en-us/library/Ff797952(v=VS.85).aspx
+    - name: "SymbolServerGetOptionData"
+      href: https://msdn.microsoft.com/en-us/library/Mt732697(v=VS.85).aspx
+    - name: "SymbolServerGetOptions"
+      href: https://msdn.microsoft.com/en-us/library/Ff797953(v=VS.85).aspx
+    - name: "SymbolServerIsStore"
+      href: https://msdn.microsoft.com/en-us/library/Mt732698(v=VS.85).aspx
+    - name: "SymbolServerPingWEx"
+      href: https://msdn.microsoft.com/en-us/library/Mt732699(v=VS.85).aspx
+    - name: "SymbolServerSetHttpAuthHeader"
+      href: https://msdn.microsoft.com/en-us/library/Mt493460(v=VS.85).aspx
+    - name: "SymbolServerSetOptions"
+      href: https://msdn.microsoft.com/en-us/library/Ff797954(v=VS.85).aspx
+    - name: "SymbolServerStoreFile"
+      href: https://msdn.microsoft.com/en-us/library/Ee942775(v=VS.85).aspx
+  - name: "Diagnostics"
+    href: Diagnostics.md
+    items: 
+    - name: "EtwEventWrite"
+      href: etweventwrite.md
+    - name: "EtwEventWriteFull"
+      href: etweventwritefull.md
+  - name: "Drivers"
+    href: drivers.md
+    items: 
+    - name: "TCP Driver"
+      href: tcp-driver.md
+      items: 
+      - name: "ReferenceTcpDriver"
+        href: referencetcpdriver.md
+      - name: "ReferenceTcpDriverV6"
+        href: referencetcpdriverv6.md
+    - name: "ThunkConnect32"
+      href: thunkconnect32.md
+  - name: "Edition Upgrade API"
+    href: edition-upgrade-api.md
+    items: 
+    - name: "IEditionUpgradeHelper"
+      href: /windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper
+      items: 
+      - name: "CanUpgrade method"
+        href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade
+      - name: "GetGenuineLocalStatus method"
+        href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus
+      - name: "GetOsProductContentId method"
+        href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid
+      - name: "ShowProductKeyUI method"
+        href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-showproductkeyui
+      - name: "UpdateOperatingSystem method"
+        href: /windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-updateoperatingsystem
+  - name: "Feature Staging"
+    href: feature-staging.md
+    items: 
+    - name: "FEATURE_ENABLED_STATE"
+      href: /windows/desktop/api/featurestagingapi/ne-featurestagingapi-feature_enabled_state
+    - name: "FEATURE_ERROR"
+      href: /windows/desktop/api/featurestagingapi/ns-featurestagingapi-feature_error
+    - name: "FEATURE_CHANGE_TIME"
+      href: /windows/desktop/api/featurestagingapi/ne-featurestagingapi-feature_change_time
+    - name: "GetFeatureEnabledState"
+      href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-getfeatureenabledstate
+    - name: "GetFeatureVariant"
+      href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-getfeaturevariant
+    - name: "RecordFeatureError"
+      href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-recordfeatureerror
+    - name: "RecordFeatureUsage"
+      href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-recordfeatureusage
+    - name: "SubscribeFeatureStateChangeNotification"
+      href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-subscribefeaturestatechangenotification
+    - name: "UnsubscribeFeatureStateChangeNotification"
+      href: /windows/desktop/api/featurestagingapi/nf-featurestagingapi-unsubscribefeaturestatechangenotification
+  - name: "FeedbackHub"
+    href: feedbackhub.md
+    items: 
+    - name: "IFeedbackHubAppInfo"
+      href: ifeebackhubappinfo.md
+      items: 
+      - name: "GetAumidFromAppListEntry method"
+        href: ifeedbackhubappinfo-getaumidfromapplistentry.md
+      - name: "GetInstalledLegacyApps method"
+        href: ifeedbackhubappinfo-getinstalledlegacyapps.md
+      - name: "GetRunningApps method"
+        href: ifeedbackhubappinfo-getrunningapps.md
+  - name: "File History API"
+    href: file-history-api.md
+    items: 
+    - name: "FH_BACKUP_STATUS"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_backup_status
+    - name: "FH_DEVICE_VALIDATION_RESULT"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_device_validation_result
+    - name: "FH_LOCAL_POLICY_TYPE"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_local_policy_type
+    - name: "FH_PROTECTED_ITEM_CATEGORY"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_protected_item_category
+    - name: "FH_RETENTION_TYPES"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_retention_types
+    - name: "FH_TARGET_DRIVE_TYPES"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_target_drive_types
+    - name: "FH_TARGET_PROPERTY_TYPE"
+      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_target_property_type
+    - name: "FhConfigMgr"
+      href: fhconfigmgr.md
+    - name: "FhManagew.exe"
+      href: fhmanagew-exe.md
+    - name: "FhReassociation"
+      href: fhreassociation.md
+    - name: "FhServiceClosePipe"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceclosepipe
+    - name: "FhServiceOpenPipe"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceopenpipe
+    - name: "FhServiceReloadConfiguration"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhservicereloadconfiguration
+    - name: "FhServiceBlockBackup"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceblockbackup
+    - name: "FhServiceStartBackup"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhservicestartbackup
+    - name: "FhServiceStopBackup"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhservicestopbackup
+    - name: "FhServiceUnblockBackup"
+      href: /windows/desktop/api/FhSvcCtl/nf-fhsvcctl-fhserviceunblockbackup
+    - name: "IFhConfigMgr"
+      href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhconfigmgr
+      items: 
+      - name: "AddRemoveExcludeRule Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderule
+      - name: "ChangeDefaultTargetRecommendation Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-changedefaulttargetrecommendation
+      - name: "CreateDefaultConfiguration Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration
+      - name: "GetBackupStatus Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus
+      - name: "GetDefaultTarget Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getdefaulttarget
+      - name: "GetIncludeExcludeRules Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules
+      - name: "GetLocalPolicy Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy
+      - name: "LoadConfiguration Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration
+      - name: "ProvisionAndSetNewTarget Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget
+      - name: "QueryProtectionStatus Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-queryprotectionstatus
+      - name: "SaveConfiguration Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration
+      - name: "SetBackupStatus Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus
+      - name: "SetLocalPolicy Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy
+      - name: "ValidateTarget Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget
+    - name: "IFhReassociation"
+      href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhreassociation
+      items: 
+      - name: "GetConfigurationDetails method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-getconfigurationdetails
+      - name: "PerformReassociation method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-performreassociation
+      - name: "ScanTargetForConfigurations method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations
+      - name: "SelectConfiguration method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration
+      - name: "ValidateTarget method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhreassociation-validatetarget
+    - name: "IFhScopeIterator"
+      href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhscopeiterator
+      items: 
+      - name: "GetItem Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhscopeiterator-getitem
+      - name: "MoveToNextItem Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem
+    - name: "IFhTarget"
+      href: /windows/desktop/api/Fhcfg/nn-fhcfg-ifhtarget
+      items: 
+      - name: "GetNumericalProperty Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty
+      - name: "GetStringProperty Method"
+        href: /windows/desktop/api/Fhcfg/nf-fhcfg-ifhtarget-getstringproperty
+  - name: "Files"
+    href: files.md
+    items: 
+    - name: "_lcreat"
+      href: /windows/desktop/api/Winbase/nf-winbase-_lcreat
+    - name: "_llseek"
+      href: /windows/desktop/api/Winbase/nf-winbase-_llseek
+    - name: "_lwrite"
+      href: /windows/desktop/api/Winbase/nf-winbase-_lwrite
+    - name: "FSCTL_SRV_REQUEST_RESUME_KEY"
+      href: fsctl-srv-request-resume-key.md
+    - name: "IOCTL_COPYCHUNK"
+      href: ioctl-copychunk.md
+    - name: "IOCTL_LMR_DISABLE_LOCAL_BUFFERING"
+      href: ioctl-lmr-disable-local-buffering.md
+    - name: "Master File Table"
+      href: master-file-table.md
+      items: 
+      - name: "ATTRIBUTE_LIST_ENTRY"
+        href: attribute-list-entry.md
+      - name: "ATTRIBUTE_RECORD_HEADER"
+        href: attribute-record-header.md
+      - name: "FILE_NAME"
+        href: file-name.md
+      - name: "FILE_RECORD_SEGMENT_HEADER"
+        href: file-record-segment-header.md
+      - name: "MFT_SEGMENT_REFERENCE"
+        href: mft-segment-reference.md
+      - name: "MULTI_SECTOR_HEADER"
+        href: multi-sector-header.md
+      - name: "STANDARD_INFORMATION"
+        href: standard-information.md
+    - name: "NtCreateFile"
+      href: /windows/desktop/api/Winternl/nf-winternl-ntcreatefile
+    - name: "NtOpenDirectoryObject"
+      href: ntopendirectoryobject.md
+    - name: "NtOpenFile"
+      href: /windows/desktop/api/Winternl/nf-winternl-ntopenfile
+    - name: "NtOpenSymbolicLinkObject"
+      href: ntopensymboliclinkobject.md
+    - name: "NtQueryDirectoryObject"
+      href: ntquerydirectoryobject.md
+    - name: "NtQuerySymbolicLinkObject"
+      href: ntquerysymboliclinkobject.md
+    - name: "NtReadFile"
+      href: ntreadfile.md
+    - name: "RtlIsNameLegalDOS8Dot3"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlisnamelegaldos8dot3
+  - name: "IME Share"
+    href: ime-share.md
+    items: 
+    - name: "EndIMEShare"
+      href: endimeshare.md
+    - name: "FBoldIMEStyle"
+      href: fboldimestyle.md
+    - name: "FFundamentalIMEColorStyle"
+      href: ffundamentalimecolorstyle.md
+    - name: "FInitIMEShare"
+      href: finitimeshare.md
+    - name: "FItalicIMEStyle"
+      href: fitalicimestyle.md
+    - name: "FRefreshStyle"
+      href: frefreshstyle.md
+    - name: "FRGBIMEColorStyle"
+      href: frgbimecolorstyle.md
+    - name: "FSpecialIMEColorStyle"
+      href: fspecialimecolorstyle.md
+    - name: "FSpecialTextIMEColorStyle"
+      href: fspecialtextimecolorstyle.md
+    - name: "FSpecialWindowIMEColorStyle"
+      href: fspecialwindowimecolorstyle.md
+    - name: "FUlIMEStyle"
+      href: fulimestyle.md
+    - name: "FWinIMEColorStyle"
+      href: fwinimecolorstyle.md
+    - name: "IdUlIMEStyle"
+      href: idulimestyle.md
+    - name: "PColorStyleBackFromIMEStyle"
+      href: pcolorstylebackfromimestyle.md
+    - name: "PColorStyleTextFromIMEStyle"
+      href: pcolorstyletextfromimestyle.md
+    - name: "PIMEStyleFromAttr"
+      href: pimestylefromattr.md
+    - name: "RGBFromIMEColorStyle"
+      href: rgbfromimecolorstyle.md
+  - name: "Graphics Low-Level Client Support"
+    href: -dxgkernel-low-level-client-support.md
+    items: 
+    - name: "DCIBeginAccess"
+      href: /windows/desktop/api/Dciman/nf-dciman-dcibeginaccess
+    - name: "DCICloseProvider"
+      href: /windows/desktop/api/Dciman/nf-dciman-dcicloseprovider
+    - name: "DCICreatePrimary"
+      href: /windows/desktop/api/Dciman/nf-dciman-dcicreateprimary
+    - name: "DCIDestroy"
+      href: /windows/desktop/api/Dciman/nf-dciman-dcidestroy
+    - name: "DCIEndAccess"
+      href: /windows/desktop/api/Dciman/nf-dciman-dciendaccess
+    - name: "DCIOpenProvider"
+      href: /windows/desktop/api/Dciman/nf-dciman-dciopenprovider
+    - name: "DdAttachSurface"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddattachsurface
+    - name: "DdCreateDIBSection"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedibsection
+    - name: "DdCreateDirectDrawObject"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedirectdrawobject
+    - name: "DdCreateSurfaceObject"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatesurfaceobject
+    - name: "DdDeleteDirectDrawObject"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletedirectdrawobject
+    - name: "DdDeleteSurfaceObject"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletesurfaceobject
+    - name: "DdGetDC"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdc
+    - name: "DdGetDxHandle"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdxhandle
+    - name: "DdQueryDirectDrawObject"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject
+    - name: "DdQueryDisplaySettingsUniqueness"
+      href: /windows/desktop/api/DDrawGDI/nf-ddrawgdi-ddquerydisplaysettingsuniqueness
+    - name: "DdReenableDirectDrawObject"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddreenabledirectdrawobject
+    - name: "DdReleaseDC"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddreleasedc
+    - name: "DdResetVisrgn"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddresetvisrgn
+    - name: "DdSetGammaRamp"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddsetgammaramp
+    - name: "DdSwapTextureHandles"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddswaptexturehandles
+    - name: "DdUnattachSurface"
+      href: /windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddunattachsurface
+    - name: "NtGdiD3DContextCreate"
+      href: -dxgkernel-ntgdid3dcontextcreate.md
+    - name: "NtGdiD3DContextDestroy"
+      href: -dxgkernel-ntgdid3dcontextdestroy.md
+    - name: "NtGdiD3DContextDestroyAll"
+      href: -dxgkernel-ntgdid3dcontextdestroyall.md
+    - name: "NtGdiD3DDrawPrimitives2"
+      href: -dxgkernel-ntgdid3ddrawprimitives2.md
+    - name: "NtGdiD3DGetDriverState"
+      href: -dxgkernel-ntgdid3dgetdriverstate.md
+    - name: "NtGdiD3DValidateTextureStageState"
+      href: -dxgkernel-ntgdid3dvalidatetexturestagestate.md
+    - name: "NtGdiDdAddAttachedSurface"
+      href: -dxgkernel-ntgdiddaddattachedsurface.md
+    - name: "NtGdiDdAddAlphaBlt"
+      href: -dxgkernel-ntgdiddalphablt.md
+    - name: "NtGdiDdAttachSurface"
+      href: -dxgkernel-ntgdiddattachsurface.md
+    - name: "NtGdiDdBeginMoCompFrame"
+      href: -dxgkernel-ntgdiddbeginmocompframe.md
+    - name: "NtGdiDdBlt"
+      href: -dxgkernel-ntgdiddblt.md
+    - name: "NtGdiDdCanCreateD3DBuffer"
+      href: -dxgkernel-ntgdiddcancreated3dbuffer.md
+    - name: "NtGdiDdCanCreateSurface"
+      href: -dxgkernel-ntgdiddcancreatesurface.md
+    - name: "NtGdiDdColorControl"
+      href: -dxgkernel-ntgdiddcolorcontrol.md
+    - name: "NtGdiDdCreateD3DBuffer"
+      href: -dxgkernel-ntgdiddcreated3dbuffer.md
+    - name: "NtGdiDdCreateDirectDrawObject"
+      href: -dxgkernel-ntgdiddcreatedirectdrawobject.md
+    - name: "NtGdiDdCreateMoComp"
+      href: -dxgkernel-ntgdiddcreatemocomp.md
+    - name: "NtGdiDdCreateSurface"
+      href: -dxgkernel-ntgdiddcreatesurface.md
+    - name: "NtGdiDdCreateSurfaceEx"
+      href: -dxgkernel-ntgdiddcreatesurfaceex.md
+    - name: "NtGdiDdCreateSurfaceObject"
+      href: -dxgkernel-ntgdiddcreatesurfaceobject.md
+    - name: "NtGdiDdDeleteDirectDrawObject"
+      href: -dxgkernel-ntgdidddeletedirectdrawobject.md
+    - name: "NtGdiDdDeleteSurfaceObject"
+      href: -dxgkernel-ntgdidddeletesurfaceobject.md
+    - name: "NtGdiDdDestroyD3DBuffer"
+      href: -dxgkernel-ntgdidddestroyd3dbuffer.md
+    - name: "NtGdiDdDestroyMoComp"
+      href: -dxgkernel-ntgdidddestroymocomp.md
+    - name: "NtGdiDdDestroySurface"
+      href: -dxgkernel-ntgdidddestroysurface.md
+    - name: "NtGdiDdEndMoCompFrame"
+      href: -dxgkernel-ntgdiddendmocompframe.md
+    - name: "NtGdiDdFlip"
+      href: -dxgkernel-ntgdiddflip.md
+    - name: "NtGdiDdFlipToGDISurface"
+      href: -dxgkernel-ntgdiddfliptogdisurface.md
+    - name: "NtGdiDdGetAvailDriverMemory"
+      href: -dxgkernel-ntgdiddgetavaildrivermemory.md
+    - name: "NtGdiDdGetBltStatus"
+      href: -dxgkernel-ntgdiddgetbltstatus.md
+    - name: "NtGdiDdGetDC"
+      href: -dxgkernel-ntgdiddgetdc.md
+    - name: "NtGdiDdGetDriverInfo"
+      href: -dxgkernel-ntgdiddgetdriverinfo.md
+    - name: "NtGdiDdGetDxHandle"
+      href: -dxgkernel-ntgdiddgetdxhandle.md
+    - name: "NtGdiDdGetFlipStatus"
+      href: -dxgkernel-ntgdiddgetflipstatus.md
+    - name: "NtGdiDdGetInternalMoCompInfo"
+      href: -dxgkernel-ntgdiddgetinternalmocompinfo.md
+    - name: "NtGdiDdGetMoCompBuffInfo"
+      href: -dxgkernel-ntgdiddgetmocompbuffinfo.md
+    - name: "NtGdiDdGetMoCompFormats"
+      href: -dxgkernel-ntgdiddgetmocompformats.md
+    - name: "NtGdiDdGetMoCompGuids"
+      href: -dxgkernel-ntgdiddgetmocompguids.md
+    - name: "NtGdiDdGetScanLine"
+      href: -dxgkernel-ntgdiddgetscanline.md
+    - name: "NtGdiDdLock"
+      href: -dxgkernel-ntgdiddlock.md
+    - name: "NtGdiDdLockD3D"
+      href: -dxgkernel-ntgdiddlockd3d.md
+    - name: "NtGdiDdQueryDirectDrawObject"
+      href: -dxgkernel-ntgdiddquerydirectdrawobject.md
+    - name: "NtGdiDdQueryMoCompStatus"
+      href: -dxgkernel-ntgdiddquerymocompstatus.md
+    - name: "NtGdiDdReenableDirectDrawObject"
+      href: -dxgkernel-ntgdiddreenabledirectdrawobject.md
+    - name: "NtGdiDdReleaseDC"
+      href: -dxgkernel-ntgdiddreleasedc.md
+    - name: "NtGdiDdRenderMoComp"
+      href: -dxgkernel-ntgdiddrendermocomp.md
+    - name: "NtGdiDdResetVisrgn"
+      href: -dxgkernel-ntgdiddresetvisrgn.md
+    - name: "NtGdiDdSetColorKey"
+      href: -dxgkernel-ntgdiddsetcolorkey.md
+    - name: "NtGdiDdSetExclusiveMode"
+      href: -dxgkernel-ntgdiddsetexclusivemode.md
+    - name: "NtGdiDdSetGammaRamp"
+      href: -dxgkernel-ntgdiddsetgammaramp.md
+    - name: "NtGdiDdSetOverlayPosition"
+      href: -dxgkernel-ntgdiddsetoverlayposition.md
+    - name: "NtGdiDdUnattachSurface"
+      href: -dxgkernel-ntgdiddunattachsurface.md
+    - name: "NtGdiDdUnlock"
+      href: -dxgkernel-ntgdiddunlock.md
+    - name: "NtGdiDdUnlockD3D"
+      href: -dxgkernel-ntgdiddunlockd3d.md
+    - name: "NtGdiDdUpdateOverlay"
+      href: -dxgkernel-ntgdiddupdateoverlay.md
+    - name: "NtGdiDdWaitForVerticalBlank"
+      href: -dxgkernel-ntgdiddwaitforverticalblank.md
+  - name: "Miscellaneous Low-Level Client Support"
+    href: -win32-misclowlevelclientsupport.md
+    items: 
+    - name: "__C_specific_handler"
+      href: --c-specific-handler2.md
+    - name: "_alldiv Routine"
+      href: -win32-alldiv.md
+    - name: "_chkstk Routine"
+      href: -win32-chkstk.md
+    - name: "_lclose"
+      href: /windows/desktop/api/winbase/nf-winbase-_lclose
+    - name: "_lread"
+      href: /windows/desktop/api/winbase/nf-winbase-_lread
+    - name: "_lopen"
+      href: /windows/desktop/api/winbase/nf-winbase-_lopen
+    - name: "AreDvdCodecsEnabled"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-aredvdcodecsenabled
+    - name: "DisableProcessWindowsGhosting"
+      href: /windows/desktop/api/Winuser/nf-winuser-disableprocesswindowsghosting
+    - name: "GetMediaComponentPackageInfo"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getmediacomponentpackageinfo
+    - name: "GetMediaExtensionCommunicationFactory"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getmediaextensioncommunicationfactory
+    - name: "GetServerForPMP"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getserverforpmp
+    - name: "IMESTRUCT"
+      href: https://msdn.microsoft.com/en-us/library/Aa969466(v=VS.85).aspx
+    - name: "InstantiateComponentFromPackage"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage
+    - name: "IsMediaBehaviorEnabled"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-ismediabehaviorenabled
+    - name: "NtClose"
+      href: /windows/desktop/api/Winternl/nf-winternl-ntclose
+    - name: "NtDeviceIoControlFile"
+      href: /windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile
+    - name: "NtWaitForSingleObject"
+      href: /windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject
+    - name: "RegisterServerForPMP"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp
+    - name: "RequireNetworkDuringMediaTaskCompletion"
+      href: /windows/desktop/api/Comppkgsup/nf-comppkgsup-requirenetworkduringmediataskcompletion
+    - name: "RtlAnsiStringToUnicodeString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring
+    - name: "RtlCharToInteger"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlchartointeger
+    - name: "RtlCompareUnicodeString"
+      href: rtlcompareunicodestring.md
+    - name: "RtlFreeAnsiString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlfreeansistring
+    - name: "RtlFreeHeap"
+      href: rtlfreeheap.md
+    - name: "RtlFreeOemString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlfreeoemstring
+    - name: "RtlFreeUnicodeString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlfreeunicodestring
+    - name: "RtlGetVersion"
+      href: rtlgetversion.md
+    - name: "RtlInitString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlinitstring
+    - name: "RtlInitUnicodeString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlinitunicodestring
+    - name: "RtlMoveMemory"
+      href: rtlmovememory.md
+    - name: "RtlPrefixUnicodeString"
+      href: rtlprefixunicodestring.md
+    - name: "RtlUnicodeStringToAnsiString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtoansistring
+    - name: "RtlUnicodeStringToOemString"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring
+    - name: "RtlUnicodeToMultiByteSize"
+      href: /windows/desktop/api/Winternl/nf-winternl-rtlunicodetomultibytesize
+    - name: "RtlUnicodeToUTF8N"
+      href: rtlunicodetoutf8n.md
+    - name: "RtlUTF8ToUnicodeN"
+      href: rtlutf8tounicoden.md
+    - name: "SendIMEMessage"
+      href: -win32-sendimemessage.md
+    - name: "SendIMEMessageEx"
+      href: /windows/desktop/api/Ime/nf-ime-sendimemessageexa
+    - name: "STRING"
+      href: /windows/desktop/api/Winternl/ns-winternl-_string
+    - name: "UnregisterServerForPMP"
+      href: /windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
+    - name: "WINNLSEnableIME"
+      href: /windows/desktop/api/Winnls32/nf-winnls32-winnlsenableime
+  - name: "MSHTML"
+    href: mshtml2.md
+    items: 
+    - name: "IWebBrowser2"
+      href: /windows/desktop/api/Exdisp/nn-exdisp-iwebbrowser2
+      items: 
+      - name: "HWND property"
+        href: https://msdn.microsoft.com/en-us/library/Mt725310(v=VS.85).aspx
+      - name: "TheaterMode property"
+        href: /windows/desktop/api/Exdisp/nf-exdisp-iwebbrowser2-get_theatermode
+      - name: "ToolBar property"
+        href: https://msdn.microsoft.com/en-us/library/Mt725312(v=VS.85).aspx
+  - name: "Installation"
+    href: installation.md
+    items: 
+    - name: "CoInstall"
+      href: https://msdn.microsoft.com/en-us/library/Bb432203(v=VS.85).aspx
+      items: 
+      - name: "CSPLATFORM"
+        href: https://msdn.microsoft.com/en-us/library/Bb432231(v=VS.85).aspx
+      - name: "QUERYCONTEXT"
+        href: https://msdn.microsoft.com/en-us/library/Bb432414(v=VS.85).aspx
+      - name: "TYSPEC"
+        href: tyspec.md
+    - name: "IcfgInstallInetComponents"
+      href: icfginstallinetcomponents.md
+    - name: "IcfgNeedInetComponents"
+      href: icfgneedinetcomponents.md
+    - name: "InstallCatalog"
+      href: installcatalog.md
+    - name: "InstallComponentW"
+      href: installcomponentw.md
+    - name: "InstallPerfDll"
+      href: /windows/desktop/api/LoadPerf/nf-loadperf-installperfdlla
+    - name: "LoadLibraryShim"
+      href: loadlibraryshim.md
+    - name: "OcInitialize"
+      href: ocinitialize.md
+      items: 
+      - name: "OCM_CLIENT_CALLBACKS"
+        href: ocm-client-callbacks.md
+    - name: "OcTerminate"
+      href: octerminate.md
+    - name: "pSetupGetFileTitle"
+      href: psetupgetfiletitle.md
+    - name: "pSetupGetGlobalFlags"
+      href: psetupgetglobalflags.md
+    - name: "pSetupInstallCatalog"
+      href: psetupinstallcatalog.md
+    - name: "pSetupIsUserAdmin"
+      href: psetupisuseradmin.md
+    - name: "pSetupSetGlobalFlags"
+      href: psetupsetglobalflags.md
+    - name: "pSetupStringTableDestroy"
+      href: psetupstringtabledestroy.md
+    - name: "pSetupStringTableAddStringEx"
+      href: psetupstringtableaddstringex.md
+    - name: "pSetupStringTableInitializeEx"
+      href: psetupstringtableinitializeex.md
+    - name: "pSetupStringTableInitialize"
+      href: psetupstringtableinitialize.md
+    - name: "pSetupVerifyCatalogFile"
+      href: psetupverifycatalogfile.md
+    - name: "reload_config"
+      href: reload-config.md
+    - name: "SxsLookupClrGuid"
+      href: sxslookupclrguid.md
+    - name: "UninstallComponent"
+      href: uninstallcomponent.md
+    - name: "VerifyCatalogFile"
+      href: verifycatalogfile.md
+  - name: "iSCSI Target Pass-Through"
+    href: iscsi-target-pass-through.md
+    items: 
+    - name: "SENSE_DATA"
+      href: sense-data.md
+  - name: "Java VM"
+    href: java-vm.md
+    items: 
+    - name: "DownloadJavaEX"
+      href: downloadjavaex.md
+    - name: "JAVA_TRUST"
+      href: /windows/desktop/api/Capi/ns-capi-_java_trust
+    - name: "NotifyBrowserShutdown"
+      href: notifybrowsershutdown.md
+    - name: "ShowJavaConsole"
+      href: showjavaconsole.md
+  - name: "Jet Debugging"
+    href: jet-debugging.md
+    items: 
+    - name: "CchLszOfId2"
+      href: cchlszofid2.md
+    - name: "JetErrIDARawMessage"
+      href: jeterridarawmessage.md
+    - name: "JetErrFormattedMessage"
+      href: jeterrformattedmessage.md
+    - name: "JetErrRawMessage"
+      href: jeterrrawmessage.md
+  - name: "MSN"
+    href: msn.md
+    items: 
+    - name: "Determining if MSN Is in the Sign-in State"
+      href: determining-if-msn-is-in-the-signin-state.md
+  - name: "MSXML 1.0 (Obsolete)"
+    href: msxml-1-0.md
+    items: 
+    - name: "IXMLElementCollection"
+      href: /windows/desktop/api/Msxml/nn-msxml-ixmlelementcollection
+      items: 
+      - name: "item Method"
+        href: /windows/desktop/api/Msxml/nf-msxml-ixmlelementcollection-item
+      - name: "get_length Method"
+        href: /windows/desktop/api/Msxml/nf-msxml-ixmlelementcollection-get_length
+  - name: "Networking"
+    href: networking.md
+    items: 
+    - name: "CheckConnectionWizard"
+      href: /windows/desktop/api/Icwcfg/nf-icwcfg-checkconnectionwizard
+    - name: "InetGetAutodial"
+      href: inetgetautodial.md
+    - name: "I_NetLogonControl2"
+      href: /windows/desktop/api/Lmaccess/nf-lmaccess-i_netlogoncontrol2
+      items: 
+      - name: "NETLOGON_INFO_1"
+        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_1
+      - name: "NETLOGON_INFO_2"
+        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_2
+      - name: "NETLOGON_INFO_3"
+        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_3
+      - name: "NETLOGON_INFO_4"
+        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_4
+    - name: "ResumeSuspendedDownload"
+      href: https://msdn.microsoft.com/en-us/library/Bb432423(v=VS.85).aspx
+    - name: "RPC NDR Engine"
+      href: rpc-ndr-engine.md
+      items: 
+      - name: "NdrComplexArrayBufferSize"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexarraybuffersize
+      - name: "NdrComplexArrayMarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexarraymarshall
+      - name: "NdrComplexArrayUnmarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexarrayunmarshall
+      - name: "NdrComplexStructBufferSize"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexstructbuffersize
+      - name: "NdrComplexStructMarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexstructmarshall
+      - name: "NdrComplexStructUnmarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcomplexstructunmarshall
+      - name: "NdrComformantArrayBufferSize"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantarraybuffersize
+      - name: "NdrComformantArrayMarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantarraymarshall
+      - name: "NdrSimpleStructBufferSize"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimplestructbuffersize
+      - name: "NdrSimpleStructMarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimplestructmarshall
+      - name: "NdrSimpleStructUnmarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimplestructunmarshall
+      - name: "NdrUserMarshalUnmarshall"
+        href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalunmarshall
+  - name: "NFS"
+    href: nfs.md
+    items: 
+    - name: "DA_GET_NFS_ATTRIBUTES"
+      href: da-get-nfs-attributes.md
+  - name: "Offline Files"
+    href: offline-files.md
+    items: 
+    - name: "CSCFindClose"
+      href: cscfindclose.md
+    - name: "CSCFindFirstFileW"
+      href: cscfindfirstfilew.md
+    - name: "CSCFindNextFileW"
+      href: cscfindnextfilew.md
+    - name: "CSCGetSpaceUsageW"
+      href: cscgetspaceusagew.md
+    - name: "CSCIsCSCEnabled"
+      href: csciscscenabled.md
+    - name: "CSCQueryDatabaseStatus"
+      href: cscquerydatabasestatus.md
+  - name: "Offline Registry Library"
+    href: offline-registry-library-portal.md
+    items: 
+    - name: "About the Offline Registry Library"
+      href: about-the-offline-registry-library.md
+    - name: "Offline Registry Library Functions"
+      href: offline-registry-library-functions.md
+      items: 
+      - name: "ORCloseHive"
+        href: orclosehive.md
+      - name: "ORCloseKey"
+        href: orclosekey.md
+      - name: "ORCreateHive"
+        href: orcreatehive.md
+      - name: "ORCreateKey"
+        href: orcreatekey.md
+      - name: "ORDeleteKey"
+        href: ordeletekey.md
+      - name: "ORDeleteValue"
+        href: ordeletevalue.md
+      - name: "OREnumKey"
+        href: orenumkey.md
+      - name: "OREnumValue"
+        href: orenumvalue.md
+      - name: "ORGetKeySecurity"
+        href: orgetkeysecurity.md
+      - name: "ORGetValue"
+        href: orgetvalue.md
+      - name: "ORGetVersion"
+        href: orgetversion.md
+      - name: "ORGetVirtualFlags"
+        href: orgetvirtualflags.md
+      - name: "OROpenHive"
+        href: oropenhive.md
+      - name: "OROpenKey"
+        href: oropenkey.md
+      - name: "ORQueryInfoKey"
+        href: orqueryinfokey.md
+      - name: "ORSaveHive"
+        href: orsavehive.md
+      - name: "ORSetKeySecurity"
+        href: orsetkeysecurity.md
+      - name: "ORSetValue"
+        href: orsetvalue.md
+      - name: "ORSetVirtualFlags"
+        href: orsetvirtualflags.md
+  - name: "PStore"
+    href: pstore.md
+    items: 
+    - name: "IEnumPStoreItems"
+      href: ienumpstoreitems.md
+      items: 
+      - name: "Clone Method"
+        href: ienumpstoreitems-clone.md
+      - name: "Next Method"
+        href: ienumpstoreitems-next.md
+      - name: "Reset Method"
+        href: ienumpstoreitems-reset.md
+      - name: "Skip Method"
+        href: ienumpstoreitems-skip.md
+    - name: "IEnumPStoreProviders"
+      href: ienumpstoreproviders.md
+      items: 
+      - name: "Clone Method"
+        href: ienumpstoreproviders-clone.md
+      - name: "Next Method"
+        href: ienumpstoreproviders-next.md
+      - name: "Reset Method"
+        href: ienumpstoreproviders-reset.md
+      - name: "Skip Method"
+        href: ienumpstoreproviders-skip.md
+    - name: "IEnumPStoreTypes"
+      href: ienumpstoretypes.md
+      items: 
+      - name: "Clone Method"
+        href: ienumpstoretypes-clone.md
+      - name: "Next Method"
+        href: ienumpstoretypes-next.md
+      - name: "Reset Method"
+        href: ienumpstoretypes-reset.md
+      - name: "Skip Method"
+        href: ienumpstoretypes-skip.md
+    - name: "IPStore"
+      href: ipstore.md
+      items: 
+      - name: "CloseItem Method"
+        href: ipstore-closeitem.md
+      - name: "CreateSubtype Method"
+        href: ipstore-createsubtype.md
+        items: 
+        - name: "PST_ACCESSCLAUSE"
+          href: pst-accessclause.md
+        - name: "PST_ACCESSRULE"
+          href: pst-accessrule.md
+        - name: "PST_ACCESSRULESET"
+          href: pst-accessruleset.md
+        - name: "PST_TYPEINFO"
+          href: pst-typeinfo.md
+      - name: "CreateType Method"
+        href: ipstore-createtype.md
+      - name: "DeleteItem Method"
+        href: ipstore-deleteitem.md
+      - name: "DeleteSubtype Method"
+        href: ipstore-deletesubtype.md
+      - name: "DeleteType Method"
+        href: ipstore-deletetype.md
+      - name: "EnumItems Method"
+        href: ipstore-enumitems.md
+      - name: "EnumSubtypes Method"
+        href: ipstore-enumsubtypes.md
+      - name: "EnumTypes Method"
+        href: ipstore-enumtypes.md
+      - name: "GetInfo Method"
+        href: ipstore-getinfo.md
+      - name: "GetProvParam Method"
+        href: ipstore-getprovparam.md
+      - name: "GetSubtypeInfo Method"
+        href: ipstore-getsubtypeinfo.md
+      - name: "GetTypeInfo Method"
+        href: ipstore-gettypeinfo.md
+      - name: "OpenItem Method"
+        href: ipstore-openitem.md
+        items: 
+        - name: "PST_PROMPTINFO"
+          href: pst-promptinfo.md
+      - name: "ReadAccessRuleSet Method"
+        href: ipstore-readaccessruleset.md
+      - name: "ReadItem Method"
+        href: ipstore-readitem.md
+      - name: "SetProvParam Method"
+        href: ipstore-setprovparam.md
+      - name: "WriteAccessRuleset Method"
+        href: ipstore-writeaccessruleset.md
+      - name: "WriteItem Method"
+        href: ipstore-writeitem.md
+    - name: "PStoreCreateInstance"
+      href: pstorecreateinstance.md
+    - name: "PStoreEnumProviders"
+      href: pstoreenumproviders.md
+    - name: "PStore Constants"
+      href: pstore-constants.md
+      items: 
+      - name: "PST_AUTHENTICODEDATA"
+        href: pst-authenticodedata.md
+    - name: "PStore Types"
+      href: pstore-types.md
+  - name: "Registry Values"
+    href: registry-values.md
+    items: 
+    - name: "AddHijriDate"
+      href: addhijridate.md
+    - name: "CEIPEnable"
+      href: ceipenable.md
+    - name: "ConnectTo"
+      href: connectto.md
+    - name: "Exec"
+      href: exec.md
+    - name: "SCRNSAVE.EXE"
+      href: scrnsave-exe.md
+  - name: "Security"
+    href: security.md
+    items: 
+    - name: "IIsolatedAppLauncher"
+      href: /windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher
+      items: 
+      - name: "IsProcessInIsolatedContainer method"
+        href: iisolatedapplauncher-isprocessinisolatedcontainer.md
+    - name: "FveEnableRawAccessW"
+      href: fveenablerawaccessw.md
+    - name: "IPassportManager3 Add-ons"
+      href: ipassportmanager3-add-ons.md
+      items: 
+      - name: "get_Option Method"
+        href: ipassportmanager3-get-option.md
+      - name: "put_Option Method"
+        href: ipassportmanager3-put-option.md
+    - name: "Ntsecpkg"
+      href: ntsecpkg.md
+      items: 
+      - name: "SealMessage"
+        href: https://msdn.microsoft.com/en-us/library/Bb432479(v=VS.85).aspx
+      - name: "UnsealMessage"
+        href: https://msdn.microsoft.com/en-us/library/Bb432499(v=VS.85).aspx
+    - name: "Safer API"
+      href: safer-api.md
+      items: 
+      - name: "SaferiSearchMatchingHashRules"
+        href: saferisearchmatchinghashrules.md
+    - name: "Windows Security Center"
+      href: windows-security-center.md
+      items: 
+      - name: "Windows Security Center Enumerations"
+        href: windows-security-center-enumerations.md
+        items: 
+        - name: "WSC_SECURITY_PRODUCT_STATE"
+          href: /windows/desktop/api/Iwscapi/ne-iwscapi-wsc_security_product_state
+        - name: "WSC_SECURITY_PROVIDER"
+          href: /windows/desktop/api/Wscapi/ne-wscapi-_wsc_security_provider
+        - name: "WSC_SECURITY_PROVIDER_HEALTH"
+          href: /windows/desktop/api/Wscapi/ne-wscapi-_wsc_security_provider_health
+        - name: "WSC_SECURITY_SIGNATURE_STATUS"
+          href: /windows/desktop/api/Iwscapi/ne-iwscapi-_wsc_security_signature_status
+      - name: "Windows Security Center Interfaces"
+        href: windows-security-center-interfaces.md
+        items: 
+        - name: "IWscProduct"
+          href: /windows/desktop/api/Iwscapi/nn-iwscapi-iwscproduct
+          items: 
+          - name: "ProductName method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_productname
+          - name: "ProductState method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_productstate
+          - name: "ProductTimeStamp method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_productstatetimestamp
+          - name: "RemediationPath method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_remediationpath
+          - name: "SignatureStatus method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproduct-get_signaturestatus
+        - name: "IWSCProductList"
+          href: /windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist
+          items: 
+          - name: "Count method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_count
+          - name: "Initialize method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
+          - name: "Item method"
+            href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
+      - name: "Windows Security Center Functions"
+        href: windows-security-center-functions.md
+        items: 
+        - name: "WscGetSecurityProviderHealth"
+          href: /windows/desktop/api/Wscapi/nf-wscapi-wscgetsecurityproviderhealth
+        - name: "WscRegisterForChanges"
+          href: /windows/desktop/api/Wscapi/nf-wscapi-wscregisterforchanges
+        - name: "WscUnRegisterChanges"
+          href: /windows/desktop/api/Wscapi/nf-wscapi-wscunregisterchanges
+  - name: "SMTP"
+    href: smtp.md
+    items: 
+    - name: "AsyncTrace"
+      href: asynctrace.md
+      items: 
+      - name: "AsyncStringTrace"
+        href: -asyncstringtrace.md
+      - name: "InitAsyncTrace"
+        href: -initasynctrace.md
+      - name: "SetAsyncTraceParamsEx"
+        href: -setasynctraceparamsex.md
+      - name: "TermAsyncTrace"
+        href: -termasynctrace.md
+    - name: "CShareLockNH Methods"
+      href: csharelocknh-methods.md
+      items: 
+      - name: "ExclusiveLock Method"
+        href: csharelocknh--exclusivelock.md
+      - name: "ExclusiveToPartial Method"
+        href: csharelocknh--exclusivetopartial.md
+      - name: "ExclusiveUnlock Method"
+        href: csharelocknh--exclusiveunlock.md
+      - name: "FirstPartialToExclusive Method"
+        href: csharelocknh--firstpartialtoexclusive.md
+      - name: "PartialLock Method"
+        href: csharelocknh--partiallock.md
+      - name: "PartialUnlock Method"
+        href: csharelocknh--partialunlock.md
+      - name: "SharedToPartial Method"
+        href: csharelocknh--sharedtopartial.md
+      - name: "ShareLock Method"
+        href: csharelocknh--sharelock.md
+      - name: "ShareUnlock Method"
+        href: csharelocknh--shareunlock.md
+      - name: "TryExclusiveLock Method"
+        href: csharelocknh--tryexclusivelock.md
+    - name: "FCachDLL Library"
+      href: fcachdll-library.md
+      items: 
+      - name: "FCachDLL Callbacks"
+        href: fcachdll-callbacks.md
+        items: 
+        - name: "CACHE_DESTROY_CALLBACK"
+          href: /windows/desktop/api/Filehc/nc-filehc-cache_destroy_callback
+        - name: "CACHE_READ_CALLBACK"
+          href: https://msdn.microsoft.com/en-us/library/Bb432262(v=VS.85).aspx
+        - name: "FCACHE_CREATE_CALLBACK"
+          href: https://msdn.microsoft.com/en-us/library/Bb432261(v=VS.85).aspx
+        - name: "FCACHE_RICHCREATE_CALLBACK"
+          href: https://msdn.microsoft.com/en-us/library/Bb432263(v=VS.85).aspx
+      - name: "FCachDLL Functions"
+        href: fcachdll-functions.md
+        items: 
+        - name: "AssociateContextWithName"
+          href: /windows/desktop/api/Filehc/nf-filehc-associatecontextwithname
+        - name: "AssociateFileEx"
+          href: /windows/desktop/api/Filehc/nf-filehc-associatefileex
+        - name: "CacheCreateFile"
+          href: /windows/desktop/api/Filehc/nf-filehc-cachecreatefile
+        - name: "CacheRichCreateFile"
+          href: /windows/desktop/api/Filehc/nf-filehc-cacherichcreatefile
+        - name: "FindOrCreateNameCache"
+          href: /windows/desktop/api/Filehc/nf-filehc-findorcreatenamecache
+        - name: "FindSyncContextFromName"
+          href: /windows/desktop/api/Filehc/nf-filehc-findsynccontextfromname
+        - name: "GetDotStuffState"
+          href: /windows/desktop/api/Filehc/nf-filehc-getdotstuffstate
+        - name: "GetFileSizeFromContext"
+          href: /windows/desktop/api/Filehc/nf-filehc-getfilesizefromcontext
+        - name: "InitializeCache"
+          href: /windows/desktop/api/Filehc/nf-filehc-initializecache
+        - name: "InsertFile"
+          href: /windows/desktop/api/Filehc/nf-filehc-insertfile
+        - name: "InvalidateName"
+          href: /windows/desktop/api/Filehc/nf-filehc-invalidatename
+        - name: "ProduceDotStuffedContext"
+          href: /windows/desktop/api/Filehc/nf-filehc-producedotstuffedcontext
+        - name: "ReleaseNameCache"
+          href: /windows/desktop/api/Filehc/nf-filehc-releasenamecache
+        - name: "SetDotStuffState"
+          href: /windows/desktop/api/Filehc/nf-filehc-setdotstuffstate
+        - name: "SetDotStuffingOnWrites"
+          href: /windows/desktop/api/Filehc/nf-filehc-setdotstuffingonwrites
+        - name: "TerminateCache"
+          href: /windows/desktop/api/Filehc/nf-filehc-terminatecache
+      - name: "FCachDLL Structure"
+        href: fcachdll-structure.md
+        items: 
+        - name: "NAME_CACHE_CONTEXT"
+          href: /windows/desktop/api/Filehc/ns-filehc-name_cache_context
+  - name: "System"
+    href: system.md
+    items: 
+    - name: "AddLocalAlternateComputerName"
+      href: addlocalalternatecomputername.md
+    - name: "Aux Library"
+      href: aux-library.md
+      items: 
+      - name: "AuxKlibInitialize"
+        href: auxklibinitialize-func.md
+      - name: "AuxKlibQueryModuleInformation"
+        href: auxklibquerymoduleinformation-func.md
+      - name: "AuxUlibInitialize"
+        href: /windows/desktop/api/Aux_ulib/nf-aux_ulib-auxulibinitialize
+      - name: "AuxUlibIsDLLSynchronizationHeld"
+        href: /windows/desktop/api/Aux_ulib/nf-aux_ulib-auxulibisdllsynchronizationheld
+      - name: "AuxUlibSetSystemFileCacheSize"
+        href: /windows/desktop/api/Aux_ulib/nf-aux_ulib-auxulibsetsystemfilecachesize
+      - name: "AUX_MODULE_BASIC_INFO"
+        href: aux-module-basic-info-struct.md
+      - name: "AUX_MODULE_EXTENDED_INFO"
+        href: aux-module-extended-info-struct.md
+    - name: "Delay-Loaded DLLs"
+      href: delay-loaded-dlls.md
+      items: 
+      - name: "DelayLoadFailureHook"
+        href: delayloadfailurehook.md
+      - name: "ResolveDelayLoadedAPI"
+        href: resolvedelayloadedapi.md
+      - name: "ResolveDelayLoadsFromDll"
+        href: resolvedelayloadsfromdll.md
+    - name: "Detecting Kernel-Mode Callbacks"
+      href: detecting-kernel-mode-callbacks.md
+    - name: "DLL Load Notification"
+      href: dll-load-notification.md
+      items: 
+      - name: "LdrDllNotification"
+        href: ldrdllnotification.md
+      - name: "LdrFastFailInLoaderCallout"
+        href: ldrfastfailinloadercallout.md
+      - name: "LdrRegisterDllNotification"
+        href: ldrregisterdllnotification.md
+      - name: "LdrUnregisterDllNotification"
+        href: ldrunregisterdllnotification.md
+    - name: "Inactivity Monitoring"
+      href: inactivity-monitoring.md
+      items: 
+      - name: "BeginIdleDetection"
+        href: beginidledetection.md
+      - name: "EndIdleDetection"
+        href: endidledetection.md
+      - name: "GetIdleMinutes"
+        href: getidleminutes.md
+    - name: "InitializeCriticalSectionAndSpinCount (KernelBase)"
+      href: https://msdn.microsoft.com/en-us/library/Ee388306(v=VS.85).aspx
+    - name: "ObFindHandleForObject"
+      href: obfindhandleforobject.md
+    - name: "Pointers"
+      href: pointers.md
+      items: 
+      - name: "DecodePointer"
+        href: https://msdn.microsoft.com/en-us/library/Bb432242(v=VS.85).aspx
+      - name: "DecodePointer (KernelBase)"
+        href: https://msdn.microsoft.com/en-us/library/Ee388304(v=VS.85).aspx
+      - name: "DecodeRemotePointer"
+        href: https://msdn.microsoft.com/en-us/library/Dn877133(v=VS.85).aspx
+      - name: "DecodeSystemPointer"
+        href: https://msdn.microsoft.com/en-us/library/Bb432243(v=VS.85).aspx
+      - name: "EncodePointer"
+        href: https://msdn.microsoft.com/en-us/library/Bb432254(v=VS.85).aspx
+      - name: "EncodePointer (KernelBase)"
+        href: https://msdn.microsoft.com/en-us/library/Ee388305(v=VS.85).aspx
+      - name: "EncodeRemotePointer"
+        href: https://msdn.microsoft.com/en-us/library/Dn877135(v=VS.85).aspx
+      - name: "EncodeSystemPointer"
+        href: https://msdn.microsoft.com/en-us/library/Bb432255(v=VS.85).aspx
+    - name: "RegDeleteKeyEx (Api-ms-win)"
+      href: https://msdn.microsoft.com/en-us/library/Ee361587(v=VS.85).aspx
+    - name: "RegDeleteKeyEx (KernelBase)"
+      href: https://msdn.microsoft.com/en-us/library/Ee125877(v=VS.85).aspx
+    - name: "Run-time Library"
+      href: run-time-library.md
+      items: 
+      - name: "RtlExtendedIntegerMultiply"
+        href: rtlextendedintegermultiply.md
+      - name: "RtlExtendedLargeIntegerDivide"
+        href: rtlextendedlargeintegerdivide.md
+      - name: "RtlRaiseException"
+        href: /windows/desktop/api/RtlSupportApi/nf-rtlsupportapi-rtlraiseexception
+    - name: "SetThreadStackGuarantee (KernelBase)"
+      href: https://msdn.microsoft.com/en-us/library/Ee388307(v=VS.85).aspx
+    - name: "SndVol32.exe"
+      href: sndvol32-exe-.md
+    - name: "uaw_wcslen"
+      href: /windows/desktop/api/stralign/nf-stralign-uaw_wcslen
+    - name: "Winternl"
+      href: winternl.md
+      items: 
+      - name: "Calling Internal APIs"
+        href: calling-internal-apis.md
+      - name: "Getting the Active Console Session ID"
+        href: getting-the-active-console-session-id.md
+      - name: "Getting the Session ID of the Current Process"
+        href: getting-the-session-id-of-the-current-process.md
+      - name: "IOCTL_TCP_QUERY_INFORMATION_EX"
+        href: /windows/desktop/api/Tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex
+        items: 
+        - name: "TCP_REQUEST_QUERY_INFORMATION_EX"
+          href: /windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k
+        - name: "IFEntry"
+          href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ifentry
+        - name: "IPAddrEntry"
+          href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ipaddrentry
+        - name: "IPInterfaceInfo"
+          href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ipinterfaceinfo
+        - name: "IPSNMPInfo"
+          href: /windows/desktop/api/Tcpioctl/ns-tcpioctl-ipsnmpinfo
+        - name: "TDIEntityID"
+          href: /windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid
+        - name: "TDIObjectID"
+          href: /windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid
+      - name: "NtNotifyChangeMultipleKeys"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntnotifychangemultiplekeys
+      - name: "NtOpenThread"
+        href: ntopenthread.md
+      - name: "NtQueryAttributesFile"
+        href: ntqueryattributesfile.md
+      - name: "NtQueryMultipleValueKey"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntquerymultiplevaluekey
+      - name: "NtQueryObject"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntqueryobject
+      - name: "NtQueryPerformanceCounter"
+        href: ntqueryperformancecounter.md
+      - name: "NtRenameKey"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntrenamekey
+      - name: "NtSetInformationKey"
+        href: /windows/desktop/api/Winternl/nf-winternl-ntsetinformationkey
+      - name: "RtlGetFunctionTableListHead"
+        href: rtlgetfunctiontablelisthead.md
+      - name: "RtlGetUnloadEventTrace"
+        href: rtlgetunloadeventtrace.md
+      - name: "RtlGetUnloadEventTraceEx"
+        href: rtlgetunloadeventtraceex.md
+      - name: "RtlIsNameInExpression"
+        href: rtlisnameinexpression.md
+      - name: "RtlUniform"
+        href: /windows/desktop/api/Winternl/nf-winternl-rtluniform
+    - name: "Wrappers"
+      href: wrappers.md
+      items: 
+      - name: "_CreateFile"
+        href: -createfile.md
+      - name: "_CreateFontIndirect"
+        href: -createfontindirect.md
+      - name: "_DeleteFile"
+        href: -deletefile.md
+      - name: "_FindResource"
+        href: -findresource.md
+      - name: "_FormatMessage"
+        href: -formatmessage.md
+      - name: "_GetComputerName"
+        href: -getcomputername.md
+      - name: "_GetDiskFreeSpaceEx"
+        href: -getdiskfreespaceex.md
+      - name: "_GetModuleFileName"
+        href: -getmodulefilename.md
+      - name: "_GetObject"
+        href: -getobject.md
+      - name: "_GetProcAddress_"
+        href: -getprocaddress-.md
+      - name: "_GetUserName"
+        href: -getusername.md
+      - name: "_GetVersionEx"
+        href: -getversionex.md
+      - name: "_GetWindowText"
+        href: -getwindowtext.md
+      - name: "_LoadCursor"
+        href: -loadcursor.md
+      - name: "_LoadLibrary"
+        href: -loadlibrary.md
+      - name: "_LoadString"
+        href: -loadstring.md
+      - name: "_MessageBox"
+        href: -messagebox.md
+      - name: "_MoveFile"
+        href: -movefile.md
+      - name: "_PeekMessage"
+        href: -peekmessage.md
+      - name: "_SendDlgItemMessage"
+        href: -senddlgitemmessage.md
+      - name: "_SendMessage"
+        href: -sendmessage.md
+      - name: "_SetDlgItemText"
+        href: -setdlgitemtext.md
+      - name: "_SetWindowText"
+        href: -setwindowtext.md
+  - name: "Terminal Server Install Mode"
+    href: terminal-server-install-mode.md
+    items: 
+    - name: "CtxGetIniMapping"
+      href: ctxgetinimapping.md
+    - name: "TermsrvAppInstallMode"
+      href: termsrvappinstallmode.md
+  - name: "User Interface"
+    href: user-interface.md
+    items: 
+    - name: "ApphelpCheckShellObject"
+      href: /windows/desktop/api/AppCompatApi/nf-appcompatapi-apphelpcheckshellobject
+    - name: "Ctl3dAutoSubclass"
+      href: ctl3dautosubclass.md
+    - name: "Ctl3dColorChange"
+      href: ctl3dcolorchange.md
+    - name: "Ctl3dCtlColorEx"
+      href: ctl3dctlcolorex.md
+    - name: "Ctl3dEnabled"
+      href: ctl3denabled.md
+    - name: "Ctl3dGetVer"
+      href: ctl3dgetver.md
+    - name: "Ctl3dRegister"
+      href: ctl3dregister.md
+    - name: "Ctl3dSubclassCtl"
+      href: ctl3dsubclassctl.md
+    - name: "Ctl3dSubclassDlgEx"
+      href: ctl3dsubclassdlgex.md
+    - name: "Ctl3dUnAutoSubclass"
+      href: ctl3dunautosubclass.md
+    - name: "Ctl3dUnsubclassCtl"
+      href: ctl3dunsubclassctl.md
+    - name: "Ctl3dUnregister"
+      href: ctl3dunregister.md
+    - name: "DirectSoundFullDuplexCreate"
+      href: directsoundfullduplexcreate.md
+    - name: "IExtender"
+      href: iextender.md
+      items: 
+      - name: "Move Method"
+        href: iextender-move.md
+    - name: "KRShowKeyMgr"
+      href: krshowkeymgr.md
+    - name: "NmMakeCert"
+      href: nmmakecert.md
+    - name: "SetShellNext"
+      href: /windows/desktop/api/Icwcfg/nf-icwcfg-setshellnext
+    - name: "WM_CTLCOLOR"
+      href: wm-ctlcolor-.md
+  - name: "Visual Studio"
+    href: visual-studio.md
+    items: 
+    - name: "IProvidePropertyBuilder"
+      href: iprovidepropertybuilder.md
+      items: 
+      - name: "ExecuteBuilder Method"
+        href: iprovidepropertybuilder-executebuilder.md
+      - name: "MapPropertyToBuilder Method"
+        href: iprovidepropertybuilder-mappropertytobuilder.md
+  - name: "Windows Secure Mode Policy"
+    href: windows-lockdown-policy.md
+    items: 
+    - name: "WLDP_HOST_ID"
+      href: wldp-host-id.md
+    - name: "WLDP_HOST_INFORMATION"
+      href: wldp-host-information.md
+    - name: "WLDP_WINDOWS_LOCKDOWN_MODE"
+      href: wldp-windows-lockdown-mode.md
+    - name: "WldpIsDynamicCodePolicyEnabled"
+      href: wldpisdynamiccodepolicyenabled.md
+    - name: "WlpdIsClassInApprovedList"
+      href: wlpdisclassinapprovedlist.md
+    - name: "WlpdGetLockdownPolicy"
+      href: wlpdgetlockdownpolicy.md
+    - name: "WldpQueryDynamicCodeTrust"
+      href: wldpquerydynamiccodetrust.md
+    - name: "WldpQueryWindowsLockdownMode"
+      href: wldpquerywindowslockdownmode.md
+    - name: "WldpSetDynamicCodeTrust"
+      href: wldpsetdynamiccodetrust.md
+  - name: "Word Breaker"
+    href: word-breaker.md
+    items: 
+    - name: "IWordInfo"
+      href: iwordinfo.md
+      items: 
+      - name: "BreakText Method"
+        href: iwordinfo-breaktext.md
+    - name: "WordInfo"
+      href: wordinfo-coclass.md
