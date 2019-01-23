@@ -1,0 +1,85 @@
+- name: "Dynamic-Link Libraries"
+  href: dynamic-link-libraries.md
+  items: 
+  - name: "About Dynamic-Link Libraries"
+    href: about-dynamic-link-libraries.md
+    items: 
+    - name: "Advantages of Dynamic Linking"
+      href: advantages-of-dynamic-linking.md
+    - name: "Dynamic-Link Library Creation"
+      href: dynamic-link-library-creation.md
+    - name: "Dynamic-Link Library Entry-Point Function"
+      href: dynamic-link-library-entry-point-function.md
+    - name: "Load-Time Dynamic Linking"
+      href: load-time-dynamic-linking.md
+    - name: "Run-Time Dynamic Linking"
+      href: run-time-dynamic-linking.md
+    - name: "Dynamic-Link Library Search Order"
+      href: dynamic-link-library-search-order.md
+    - name: "Dynamic-Link Library Data"
+      href: dynamic-link-library-data.md
+    - name: "Dynamic-Link Library Redirection"
+      href: dynamic-link-library-redirection.md
+    - name: "Dynamic-Link Library Updates"
+      href: dynamic-link-library-updates.md
+    - name: "Dynamic-Link Library Security"
+      href: dynamic-link-library-security.md
+    - name: "Secure Boot and AppInit DLLs"
+      href: secure-boot-and-appinit-dlls.md
+    - name: "Dynamic-Link Library Best Practices"
+      href: dynamic-link-library-best-practices.md
+  - name: "Using Dynamic-Link Libraries"
+    href: using-dynamic-link-libraries.md
+    items: 
+    - name: "Creating a Simple Dynamic-Link Library"
+      href: creating-a-simple-dynamic-link-library.md
+    - name: "Using Load-Time Dynamic Linking"
+      href: using-load-time-dynamic-linking.md
+    - name: "Using Run-Time Dynamic Linking"
+      href: using-run-time-dynamic-linking.md
+    - name: "Using Shared Memory in a Dynamic-Link Library"
+      href: using-shared-memory-in-a-dynamic-link-library.md
+    - name: "Using Thread Local Storage in a Dynamic-Link Library"
+      href: using-thread-local-storage-in-a-dynamic-link-library.md
+  - name: "Dynamic-Link Library Reference"
+    href: dynamic-link-library-reference.md
+    items: 
+    - name: "Dynamic-Link Library Functions"
+      href: dynamic-link-library-functions.md
+      items: 
+      - name: "AddDllDirectory"
+        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory
+      - name: "DisableThreadLibraryCalls"
+        href: https://msdn.microsoft.com/en-us/library/ms682579(v=VS.85).aspx
+      - name: "DllMain"
+        href: dllmain.md
+      - name: "FreeLibrary"
+        href: https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx
+      - name: "FreeLibraryAndExitThread"
+        href: https://msdn.microsoft.com/en-us/library/ms683153(v=VS.85).aspx
+      - name: "GetDllDirectory"
+        href: /windows/desktop/api/WinBase/nf-winbase-getdlldirectorya
+      - name: "GetModuleFileName"
+        href: https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx
+      - name: "GetModuleHandle"
+        href: https://msdn.microsoft.com/en-us/library/ms683199(v=VS.85).aspx
+      - name: "GetModuleHandleEx"
+        href: https://msdn.microsoft.com/en-us/library/ms683200(v=VS.85).aspx
+      - name: "GetProcAddress"
+        href: https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx
+      - name: "LoadLibrary"
+        href: https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx
+      - name: "LoadLibraryEx"
+        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa
+      - name: "LoadModule"
+        href: /windows/desktop/api/Winbase/nf-winbase-loadmodule
+      - name: "LoadPackagedLibrary"
+        href: /windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary
+      - name: "QueryOptionalDelayLoadedAPI"
+        href: /windows/desktop/api/libloaderapi2/nf-libloaderapi2-queryoptionaldelayloadedapi
+      - name: "RemoveDllDirectory"
+        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-removedlldirectory
+      - name: "SetDefaultDllDirectories"
+        href: /windows/desktop/api/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories
+      - name: "SetDllDirectory"
+        href: /windows/desktop/api/Winbase/nf-winbase-setdlldirectorya

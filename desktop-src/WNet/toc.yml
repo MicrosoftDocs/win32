@@ -1,0 +1,111 @@
+- name: "Windows Networking (WNet)"
+  href: windows-networking-wnet-.md
+  items: 
+  - name: "About Windows Networking"
+    href: about-windows-networking.md
+    items: 
+    - name: "WNet Functions"
+      href: wnet-functions.md
+    - name: "Windows Networking Operations"
+      href: windows-networking-operations.md
+  - name: "Using Windows Networking"
+    href: using-windows-networking.md
+    items: 
+    - name: "Using the Connections Dialog Box"
+      href: using-the-connections-dialog-box.md
+    - name: "Enumerating Network Resources"
+      href: enumerating-network-resources.md
+    - name: "Adding a Network Connection"
+      href: adding-a-network-connection.md
+    - name: "Assigning a Drive to a Share"
+      href: assigning-a-drive-to-a-share.md
+    - name: "Determining the Location of a Share"
+      href: determining-the-location-of-a-share.md
+    - name: "Retrieving the Connection Name"
+      href: retrieving-the-connection-name.md
+    - name: "Retrieving the User Name"
+      href: retrieving-the-user-name.md
+    - name: "Canceling a Network Connection"
+      href: canceling-a-network-connection.md
+    - name: "Retrieving Information About a Network Resource"
+      href: retrieving-information-about-a-network-resource.md
+    - name: "Retrieving Network Errors"
+      href: retrieving-network-errors.md
+  - name: "Windows Networking Reference"
+    href: windows-networking-reference.md
+    items: 
+    - name: "Windows Networking Callbacks"
+      href: windows-networking-callbacks.md
+      items: 
+      - name: "PFNGETPROFILEPATH"
+        href: https://msdn.microsoft.com/en-us/library/Aa385358(v=VS.85).aspx
+      - name: "PFNPROCESSPOLICIES"
+        href: https://msdn.microsoft.com/en-us/library/Aa385360(v=VS.85).aspx
+      - name: "PFNRECONCILEPROFILE"
+        href: https://msdn.microsoft.com/en-us/library/Aa385364(v=VS.85).aspx
+    - name: "Windows Networking Functions"
+      href: windows-networking-functions.md
+      items: 
+      - name: "MultinetGetConnectionPerformance"
+        href: https://msdn.microsoft.com/en-us/library/Aa385342(v=VS.85).aspx
+      - name: "WNetAddConnection"
+        href: https://msdn.microsoft.com/en-us/library/Aa385410(v=VS.85).aspx
+      - name: "WNetAddConnection2"
+        href: https://msdn.microsoft.com/en-us/library/Aa385413(v=VS.85).aspx
+      - name: "WNetAddConnection3"
+        href: https://msdn.microsoft.com/en-us/library/Aa385418(v=VS.85).aspx
+      - name: "WNetCancelConnection"
+        href: https://msdn.microsoft.com/en-us/library/Aa385423(v=VS.85).aspx
+      - name: "WNetCancelConnection2"
+        href: https://msdn.microsoft.com/en-us/library/Aa385427(v=VS.85).aspx
+      - name: "WNetCloseEnum"
+        href: https://msdn.microsoft.com/en-us/library/Aa385431(v=VS.85).aspx
+      - name: "WNetConnectionDialog"
+        href: https://msdn.microsoft.com/en-us/library/Aa385433(v=VS.85).aspx
+      - name: "WNetConnectionDialog1"
+        href: https://msdn.microsoft.com/en-us/library/Aa385436(v=VS.85).aspx
+      - name: "WNetDisconnectDialog"
+        href: https://msdn.microsoft.com/en-us/library/Aa385440(v=VS.85).aspx
+      - name: "WNetDisconnectDialog1"
+        href: https://msdn.microsoft.com/en-us/library/Aa385443(v=VS.85).aspx
+      - name: "WNetEnumResource"
+        href: https://msdn.microsoft.com/en-us/library/Aa385449(v=VS.85).aspx
+      - name: "WNetGetConnection"
+        href: https://msdn.microsoft.com/en-us/library/Aa385453(v=VS.85).aspx
+      - name: "WNetGetLastError"
+        href: https://msdn.microsoft.com/en-us/library/Aa385459(v=VS.85).aspx
+      - name: "WNetGetNetworkInformation"
+        href: https://msdn.microsoft.com/en-us/library/Aa385461(v=VS.85).aspx
+      - name: "WNetGetProviderName"
+        href: https://msdn.microsoft.com/en-us/library/Aa385464(v=VS.85).aspx
+      - name: "WNetGetResourceInformation"
+        href: https://msdn.microsoft.com/en-us/library/Aa385469(v=VS.85).aspx
+      - name: "WNetGetResourceParent"
+        href: https://msdn.microsoft.com/en-us/library/Aa385470(v=VS.85).aspx
+      - name: "WNetGetUniversalName"
+        href: https://msdn.microsoft.com/en-us/library/Aa385474(v=VS.85).aspx
+      - name: "WNetGetUser"
+        href: https://msdn.microsoft.com/en-us/library/Aa385476(v=VS.85).aspx
+      - name: "WNetOpenEnum"
+        href: https://msdn.microsoft.com/en-us/library/Aa385478(v=VS.85).aspx
+      - name: "WNetRestoreConnectionW"
+        href: https://msdn.microsoft.com/en-us/library/Aa385480(v=VS.85).aspx
+      - name: "WNetUseConnection"
+        href: https://msdn.microsoft.com/en-us/library/Aa385482(v=VS.85).aspx
+    - name: "Windows Networking Structures"
+      href: windows-networking-structures.md
+      items: 
+      - name: "CONNECTDLGSTRUCT"
+        href: https://msdn.microsoft.com/en-us/library/Aa385332(v=VS.85).aspx
+      - name: "DISCDLGSTRUCT"
+        href: https://msdn.microsoft.com/en-us/library/Aa385339(v=VS.85).aspx
+      - name: "NETCONNECTINFOSTRUCT"
+        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_netconnectinfostruct
+      - name: "NETINFOSTRUCT"
+        href: https://msdn.microsoft.com/en-us/library/Aa385349(v=VS.85).aspx
+      - name: "NETRESOURCE"
+        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_netresourcea
+      - name: "REMOTE_NAME_INFO"
+        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_remote_name_infoa
+      - name: "UNIVERSAL_NAME_INFO"
+        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_universal_name_infoa

@@ -1,0 +1,5 @@
+- name: "Windows Gadget Platform"
+  href: windows-gadget-platform-portal.md
+  items: 
+  - name: "Introduction to the Gadget Platform"
+    href: introduction-to-the-gadget-platform.md

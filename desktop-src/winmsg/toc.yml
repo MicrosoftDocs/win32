@@ -1,0 +1,749 @@
+- name: "Windows and Messages"
+  href: windowing.md
+  items: 
+  - name: "Windows"
+    href: windows.md
+    items: 
+    - name: "Window Overviews"
+      href: window-overviews.md
+      items: 
+      - name: "About Windows"
+        href: about-windows.md
+      - name: "Window Features"
+        href: window-features.md
+      - name: "Using Windows"
+        href: using-windows.md
+    - name: "Window Reference"
+      href: window-reference.md
+      items: 
+      - name: "Window Constants"
+        href: constants.md
+        items: 
+        - name: "Extended Window Styles"
+          href: extended-window-styles.md
+        - name: "Window Styles"
+          href: window-styles.md
+      - name: "Window Functions"
+        href: window-functions.md
+        items: 
+        - name: "AdjustWindowRect"
+          href: https://msdn.microsoft.com/en-us/library/ms632665(v=VS.85).aspx
+        - name: "AdjustWindowRectEx"
+          href: https://msdn.microsoft.com/en-us/library/ms632667(v=VS.85).aspx
+        - name: "AllowSetForegroundWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms632668(v=VS.85).aspx
+        - name: "AnimateWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms632669(v=VS.85).aspx
+        - name: "AnyPopup"
+          href: https://msdn.microsoft.com/en-us/library/ms632670(v=VS.85).aspx
+        - name: "ArrangeIconicWindows"
+          href: https://msdn.microsoft.com/en-us/library/ms632671(v=VS.85).aspx
+        - name: "BeginDeferWindowPos"
+          href: https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx
+        - name: "BringWindowToTop"
+          href: https://msdn.microsoft.com/en-us/library/ms632673(v=VS.85).aspx
+        - name: "CalculatePopupWindowPosition"
+          href: https://msdn.microsoft.com/en-us/library/Dd565861(v=VS.85).aspx
+        - name: "CascadeWindows"
+          href: https://msdn.microsoft.com/en-us/library/ms632674(v=VS.85).aspx
+        - name: "ChangeWindowMessageFilter"
+          href: https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx
+        - name: "ChangeWindowMessageFilterEx"
+          href: https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx
+        - name: "ChildWindowFromPoint"
+          href: https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx
+        - name: "ChildWindowFromPointEx"
+          href: https://msdn.microsoft.com/en-us/library/ms632677(v=VS.85).aspx
+        - name: "CloseWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx
+        - name: "CreateWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx
+        - name: "CreateWindowEx"
+          href: https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx
+        - name: "DeferWindowPos"
+          href: https://msdn.microsoft.com/en-us/library/ms632681(v=VS.85).aspx
+        - name: "DeregisterShellHookWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms644979(v=VS.85).aspx
+        - name: "DestroyWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx
+        - name: "EndDeferWindowPos"
+          href: https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx
+        - name: "EndTask"
+          href: https://msdn.microsoft.com/en-us/library/ms633492(v=VS.85).aspx
+        - name: "EnumChildProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633493(v=VS.85).aspx
+        - name: "EnumChildWindows"
+          href: https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx
+        - name: "EnumThreadWindows"
+          href: https://msdn.microsoft.com/en-us/library/ms633495(v=VS.85).aspx
+        - name: "EnumThreadWndProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633496(v=VS.85).aspx
+        - name: "EnumWindows"
+          href: https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx
+        - name: "EnumWindowsProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633498(v=VS.85).aspx
+        - name: "FindWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx
+        - name: "FindWindowEx"
+          href: https://msdn.microsoft.com/en-us/library/ms633500(v=VS.85).aspx
+        - name: "GetAltTabInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms633501(v=VS.85).aspx
+        - name: "GetAncestor"
+          href: https://msdn.microsoft.com/en-us/library/ms633502(v=VS.85).aspx
+        - name: "GetClientRect"
+          href: https://msdn.microsoft.com/en-us/library/ms633503(v=VS.85).aspx
+        - name: "GetDesktopWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx
+        - name: "GetForegroundWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633505(v=VS.85).aspx
+        - name: "GetGUIThreadInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx
+        - name: "GetLastActivePopup"
+          href: https://msdn.microsoft.com/en-us/library/ms633507(v=VS.85).aspx
+        - name: "GetLayeredWindowAttributes"
+          href: https://msdn.microsoft.com/en-us/library/ms633508(v=VS.85).aspx
+        - name: "GetNextWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633509(v=VS.85).aspx
+        - name: "GetParent"
+          href: https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx
+        - name: "GetProcessDefaultLayout"
+          href: https://msdn.microsoft.com/en-us/library/ms633511(v=VS.85).aspx
+        - name: "GetShellWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633512(v=VS.85).aspx
+        - name: "GetSysColor"
+          href: https://msdn.microsoft.com/en-us/library/ms724371(v=VS.85).aspx
+        - name: "GetTitleBarInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms633513(v=VS.85).aspx
+        - name: "GetTopWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633514(v=VS.85).aspx
+        - name: "GetWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx
+        - name: "GetWindowDisplayAffinity"
+          href: https://msdn.microsoft.com/en-us/library/Dd375338(v=VS.85).aspx
+        - name: "GetWindowInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms633516(v=VS.85).aspx
+        - name: "GetWindowModuleFileName"
+          href: https://msdn.microsoft.com/en-us/library/ms633517(v=VS.85).aspx
+        - name: "GetWindowPlacement"
+          href: https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx
+        - name: "GetWindowRect"
+          href: https://msdn.microsoft.com/en-us/library/ms633519(v=VS.85).aspx
+        - name: "GetWindowText"
+          href: https://msdn.microsoft.com/en-us/library/ms633520(v=VS.85).aspx
+        - name: "GetWindowTextLength"
+          href: https://msdn.microsoft.com/en-us/library/ms633521(v=VS.85).aspx
+        - name: "GetWindowThreadProcessId"
+          href: https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx
+        - name: "InternalGetWindowText"
+          href: https://msdn.microsoft.com/en-us/library/ms633523(v=VS.85).aspx
+        - name: "IsChild"
+          href: https://msdn.microsoft.com/en-us/library/ms633524(v=VS.85).aspx
+        - name: "IsGUIThread"
+          href: https://msdn.microsoft.com/en-us/library/ms633525(v=VS.85).aspx
+        - name: "IsHungAppWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633526(v=VS.85).aspx
+        - name: "IsIconic"
+          href: https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx
+        - name: "IsProcessDPIAware"
+          href: https://msdn.microsoft.com/en-us/library/Aa969261(v=VS.85).aspx
+        - name: "IsWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633528(v=VS.85).aspx
+        - name: "IsWindowUnicode"
+          href: https://msdn.microsoft.com/en-us/library/ms633529(v=VS.85).aspx
+        - name: "IsWindowVisible"
+          href: https://msdn.microsoft.com/en-us/library/ms633530(v=VS.85).aspx
+        - name: "IsZoomed"
+          href: https://msdn.microsoft.com/en-us/library/ms633531(v=VS.85).aspx
+        - name: "LockSetForegroundWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633532(v=VS.85).aspx
+        - name: "LogicalToPhysicalPoint"
+          href: https://msdn.microsoft.com/en-us/library/ms633533(v=VS.85).aspx
+        - name: "MoveWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633534(v=VS.85).aspx
+        - name: "OpenIcon"
+          href: https://msdn.microsoft.com/en-us/library/ms633535(v=VS.85).aspx
+        - name: "PhysicalToLogicalPoint"
+          href: https://msdn.microsoft.com/en-us/library/ms633536(v=VS.85).aspx
+        - name: "RealChildWindowFromPoint"
+          href: https://msdn.microsoft.com/en-us/library/ms633537(v=VS.85).aspx
+        - name: "RealGetWindowClass"
+          href: https://msdn.microsoft.com/en-us/library/ms633538(v=VS.85).aspx
+        - name: "RegisterShellHookWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx
+        - name: "SetForegroundWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx
+        - name: "SetLayeredWindowAttributes"
+          href: https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx
+        - name: "SetParent"
+          href: https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx
+        - name: "SetProcessDefaultLayout"
+          href: https://msdn.microsoft.com/en-us/library/ms633542(v=VS.85).aspx
+        - name: "SetProcessDPIAware"
+          href: https://msdn.microsoft.com/en-us/library/ms633543(v=VS.85).aspx
+        - name: "SetSysColors"
+          href: https://msdn.microsoft.com/en-us/library/ms724940(v=VS.85).aspx
+        - name: "SetWindowDisplayAffinity"
+          href: https://msdn.microsoft.com/en-us/library/Dd375340(v=VS.85).aspx
+        - name: "SetWindowFeedbackSettings"
+          href: https://msdn.microsoft.com/en-us/library/Hh405402(v=VS.85).aspx
+        - name: "SetWindowPlacement"
+          href: https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx
+        - name: "SetWindowPos"
+          href: https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx
+        - name: "SetWindowText"
+          href: https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx
+        - name: "ShowOwnedPopups"
+          href: https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx
+        - name: "ShowWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx
+        - name: "ShowWindowAsync"
+          href: https://msdn.microsoft.com/en-us/library/ms633549(v=VS.85).aspx
+        - name: "SoundSentry"
+          href: https://msdn.microsoft.com/en-us/library/Aa969269(v=VS.85).aspx
+        - name: "SwitchToThisWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633553(v=VS.85).aspx
+        - name: "TileWindows"
+          href: https://msdn.microsoft.com/en-us/library/ms633554(v=VS.85).aspx
+        - name: "UpdateLayeredWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx
+        - name: "UpdateLayeredWindowIndirect"
+          href: https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx
+        - name: "WindowFromPhysicalPoint"
+          href: https://msdn.microsoft.com/en-us/library/Aa969270(v=VS.85).aspx
+        - name: "WindowFromPoint"
+          href: https://msdn.microsoft.com/en-us/library/ms633558(v=VS.85).aspx
+        - name: "WinMain"
+          href: https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx
+      - name: "Window Macros"
+        href: window-macros.md
+        items: 
+        - name: "GET_X_LPARAM"
+          href: https://msdn.microsoft.com/en-us/library/ms632654(v=VS.85).aspx
+        - name: "GET_Y_LPARAM"
+          href: https://msdn.microsoft.com/en-us/library/ms632655(v=VS.85).aspx
+        - name: "HIBYTE"
+          href: https://msdn.microsoft.com/en-us/library/ms632656(v=VS.85).aspx
+        - name: "HIWORD"
+          href: https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx
+        - name: "LOBYTE"
+          href: https://msdn.microsoft.com/en-us/library/ms632658(v=VS.85).aspx
+        - name: "LOWORD"
+          href: https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx
+        - name: "MAKELONG"
+          href: https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx
+        - name: "MAKELPARAM"
+          href: https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx
+        - name: "MAKELRESULT"
+          href: https://msdn.microsoft.com/en-us/library/ms632662(v=VS.85).aspx
+        - name: "MAKEWORD"
+          href: https://msdn.microsoft.com/en-us/library/ms632663(v=VS.85).aspx
+        - name: "MAKEWPARAM"
+          href: https://msdn.microsoft.com/en-us/library/ms632664(v=VS.85).aspx
+      - name: "Window Messages"
+        href: window-messages.md
+        items: 
+        - name: "MN_GETHMENU"
+          href: mn-gethmenu.md
+        - name: "WM_ERASEBKGND"
+          href: wm-erasebkgnd.md
+        - name: "WM_GETFONT"
+          href: wm-getfont.md
+        - name: "WM_GETTEXT"
+          href: wm-gettext.md
+        - name: "WM_GETTEXTLENGTH"
+          href: wm-gettextlength.md
+        - name: "WM_SETFONT"
+          href: wm-setfont.md
+        - name: "WM_SETICON"
+          href: wm-seticon.md
+        - name: "WM_SETTEXT"
+          href: wm-settext.md
+      - name: "Window Notifications"
+        href: window-notifications.md
+        items: 
+        - name: "WM_ACTIVATEAPP"
+          href: wm-activateapp.md
+        - name: "WM_CANCELMODE"
+          href: wm-cancelmode.md
+        - name: "WM_CHILDACTIVATE"
+          href: wm-childactivate.md
+        - name: "WM_CLOSE"
+          href: wm-close.md
+        - name: "WM_COMPACTING"
+          href: wm-compacting.md
+        - name: "WM_CREATE"
+          href: wm-create.md
+        - name: "WM_DESTROY"
+          href: wm-destroy.md
+        - name: "WM_ENABLE"
+          href: wm-enable.md
+        - name: "WM_ENTERSIZEMOVE"
+          href: wm-entersizemove.md
+        - name: "WM_EXITSIZEMOVE"
+          href: wm-exitsizemove.md
+        - name: "WM_GETICON"
+          href: wm-geticon.md
+        - name: "WM_GETMINMAXINFO"
+          href: wm-getminmaxinfo.md
+        - name: "WM_INPUTLANGCHANGE"
+          href: wm-inputlangchange.md
+        - name: "WM_INPUTLANGCHANGEREQUEST"
+          href: wm-inputlangchangerequest.md
+        - name: "WM_MOVE"
+          href: wm-move.md
+        - name: "WM_MOVING"
+          href: wm-moving.md
+        - name: "WM_NCACTIVATE"
+          href: wm-ncactivate.md
+        - name: "WM_NCCALCSIZE"
+          href: wm-nccalcsize.md
+        - name: "WM_NCCREATE"
+          href: wm-nccreate.md
+        - name: "WM_NCDESTROY"
+          href: wm-ncdestroy.md
+        - name: "WM_NULL"
+          href: wm-null.md
+        - name: "WM_QUERYDRAGICON"
+          href: wm-querydragicon.md
+        - name: "WM_QUERYOPEN"
+          href: wm-queryopen.md
+        - name: "WM_QUIT"
+          href: wm-quit.md
+        - name: "WM_SHOWWINDOW"
+          href: wm-showwindow.md
+        - name: "WM_SIZE"
+          href: wm-size.md
+        - name: "WM_SIZING"
+          href: wm-sizing.md
+        - name: "WM_STYLECHANGED"
+          href: wm-stylechanged.md
+        - name: "WM_STYLECHANGING"
+          href: wm-stylechanging.md
+        - name: "WM_THEMECHANGED"
+          href: wm-themechanged.md
+        - name: "WM_USERCHANGED"
+          href: wm-userchanged.md
+        - name: "WM_WINDOWPOSCHANGED"
+          href: wm-windowposchanged.md
+        - name: "WM_WINDOWPOSCHANGING"
+          href: wm-windowposchanging.md
+      - name: "Window Structures"
+        href: window-structures.md
+        items: 
+        - name: "ALTTABINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms632601(v=VS.85).aspx
+        - name: "CHANGEFILTERSTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/Dd388197(v=VS.85).aspx
+        - name: "CLIENTCREATESTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms632602(v=VS.85).aspx
+        - name: "CREATESTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx
+        - name: "GUITHREADINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms632604(v=VS.85).aspx
+        - name: "MINMAXINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms632605(v=VS.85).aspx
+        - name: "NCCALCSIZE_PARAMS"
+          href: https://msdn.microsoft.com/en-us/library/ms632606(v=VS.85).aspx
+        - name: "STYLESTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms632607(v=VS.85).aspx
+        - name: "TITLEBARINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx
+        - name: "TITLEBARINFOEX"
+          href: https://msdn.microsoft.com/en-us/library/Aa969233(v=VS.85).aspx
+        - name: "UPDATELAYEREDWINDOWINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms632609(v=VS.85).aspx
+        - name: "WINDOWINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms632610(v=VS.85).aspx
+        - name: "WINDOWPLACEMENT"
+          href: https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx
+        - name: "WINDOWPOS"
+          href: https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx
+  - name: "Window Classes"
+    href: window-classes.md
+    items: 
+    - name: "Window Class Overviews"
+      href: window-class-overviews.md
+      items: 
+      - name: "About Window Classes"
+        href: about-window-classes.md
+      - name: "Using Window Classes"
+        href: using-window-classes.md
+    - name: "Window Class Reference"
+      href: window-class-reference.md
+      items: 
+      - name: "Window Class Functions"
+        href: window-class-functions.md
+        items: 
+        - name: "GetClassInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx
+        - name: "GetClassInfoEx"
+          href: https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx
+        - name: "GetClassLong"
+          href: https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx
+        - name: "GetClassLongPtr"
+          href: https://msdn.microsoft.com/en-us/library/ms633581(v=VS.85).aspx
+        - name: "GetClassName"
+          href: https://msdn.microsoft.com/en-us/library/ms633582(v=VS.85).aspx
+        - name: "GetClassWord"
+          href: https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx
+        - name: "GetWindowLong"
+          href: https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx
+        - name: "GetWindowLongPtr"
+          href: https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx
+        - name: "RegisterClass"
+          href: https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx
+        - name: "RegisterClassEx"
+          href: https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx
+        - name: "SetClassLong"
+          href: https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx
+        - name: "SetClassLongPtr"
+          href: https://msdn.microsoft.com/en-us/library/ms633589(v=VS.85).aspx
+        - name: "SetClassWord"
+          href: https://msdn.microsoft.com/en-us/library/ms633590(v=VS.85).aspx
+        - name: "SetWindowLong"
+          href: https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx
+        - name: "SetWindowLongPtr"
+          href: https://msdn.microsoft.com/en-us/library/ms644898(v=VS.85).aspx
+        - name: "UnregisterClass"
+          href: https://msdn.microsoft.com/en-us/library/ms644899(v=VS.85).aspx
+      - name: "Window Class Structures"
+        href: window-class-structures.md
+        items: 
+        - name: "WNDCLASS"
+          href: https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx
+        - name: "WNDCLASSEX"
+          href: https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx
+      - name: "Window Class Styles"
+        href: window-class-styles.md
+  - name: "Window Procedures"
+    href: window-procedures.md
+    items: 
+    - name: "Window Procedure Overviews"
+      href: window-procedure-overviews.md
+      items: 
+      - name: "About Window Procedures"
+        href: about-window-procedures.md
+      - name: "Using Window Procedures"
+        href: using-window-procedures.md
+    - name: "Window Procedure Reference"
+      href: window-procedure-reference.md
+      items: 
+      - name: "Window Procedure Functions"
+        href: window-procedure-functions.md
+        items: 
+        - name: "CallWindowProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx
+        - name: "DefWindowProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx
+        - name: "WindowProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx
+  - name: "Messages and Message Queues"
+    href: messages-and-message-queues.md
+    items: 
+    - name: "Message and Message Queue Overviews"
+      href: message-and-message-queue-overviews.md
+      items: 
+      - name: "About Messages and Message Queues"
+        href: about-messages-and-message-queues.md
+      - name: "Using Messages and Message Queues"
+        href: using-messages-and-message-queues.md
+    - name: "Message Reference"
+      href: message-and-message-queue-reference.md
+      items: 
+      - name: "Message Functions"
+        href: message-and-message-queue-functions.md
+        items: 
+        - name: "BroadcastSystemMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx
+        - name: "BroadcastSystemMessageEx"
+          href: https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx
+        - name: "DispatchMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx
+        - name: "GetInputState"
+          href: https://msdn.microsoft.com/en-us/library/ms644935(v=VS.85).aspx
+        - name: "GetMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx
+        - name: "GetMessageExtraInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx
+        - name: "GetMessagePos"
+          href: https://msdn.microsoft.com/en-us/library/ms644938(v=VS.85).aspx
+        - name: "GetMessageTime"
+          href: https://msdn.microsoft.com/en-us/library/ms644939(v=VS.85).aspx
+        - name: "GetQueueStatus"
+          href: https://msdn.microsoft.com/en-us/library/ms644940(v=VS.85).aspx
+        - name: "InSendMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx
+        - name: "InSendMessageEx"
+          href: https://msdn.microsoft.com/en-us/library/ms644942(v=VS.85).aspx
+        - name: "PeekMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx
+        - name: "PostMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx
+        - name: "PostQuitMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx
+        - name: "PostThreadMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx
+        - name: "RegisterWindowMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx
+        - name: "ReplyMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644948(v=VS.85).aspx
+        - name: "SendAsyncProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644949(v=VS.85).aspx
+        - name: "SendMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx
+        - name: "SendMessageCallback"
+          href: https://msdn.microsoft.com/en-us/library/ms644951(v=VS.85).aspx
+        - name: "SendMessageTimeout"
+          href: https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx
+        - name: "SendNotifyMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx
+        - name: "SetMessageExtraInfo"
+          href: https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx
+        - name: "TranslateMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx
+        - name: "WaitMessage"
+          href: https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx
+      - name: "Message Structures"
+        href: message-and-message-queue-structures.md
+        items: 
+        - name: "BSMINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms644957(v=VS.85).aspx
+        - name: "MSG"
+          href: https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx
+      - name: "Message Constants"
+        href: message-and-message-queue-notifications.md
+        items: 
+        - name: "OCM__BASE"
+          href: ocm--base.md
+        - name: "WM_APP"
+          href: wm-app.md
+        - name: "WM_USER"
+          href: wm-user.md
+  - name: "Timers"
+    href: timers.md
+    items: 
+    - name: "Timer Overviews"
+      href: timer-overviews.md
+      items: 
+      - name: "About Timers"
+        href: about-timers.md
+      - name: "Using Timers"
+        href: using-timers.md
+    - name: "Timer Reference"
+      href: timer-reference.md
+      items: 
+      - name: "Timer Functions"
+        href: timer-functions.md
+        items: 
+        - name: "KillTimer"
+          href: https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx
+        - name: "SetCoalescableTimer"
+          href: https://msdn.microsoft.com/en-us/library/Hh405404(v=VS.85).aspx
+        - name: "SetTimer"
+          href: https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx
+        - name: "TimerProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644907(v=VS.85).aspx
+      - name: "Timer Notifications"
+        href: timer-notifications.md
+        items: 
+        - name: "WM_TIMER"
+          href: wm-timer.md
+  - name: "Window Properties"
+    href: window-properties.md
+    items: 
+    - name: "Window Property Overviews"
+      href: window-property-overviews.md
+      items: 
+      - name: "About Window Properties"
+        href: about-window-properties.md
+      - name: "Using Window Properties"
+        href: using-window-properties.md
+    - name: "Window Property Reference"
+      href: window-property-reference.md
+      items: 
+      - name: "Window Property Functions"
+        href: window-property-functions.md
+        items: 
+        - name: "EnumProps"
+          href: https://msdn.microsoft.com/en-us/library/ms633562(v=VS.85).aspx
+        - name: "EnumPropsEx"
+          href: https://msdn.microsoft.com/en-us/library/ms633563(v=VS.85).aspx
+        - name: "GetProp"
+          href: https://msdn.microsoft.com/en-us/library/ms633564(v=VS.85).aspx
+        - name: "PropEnumProc"
+          href: https://msdn.microsoft.com/en-us/library/ms633565(v=VS.85).aspx
+        - name: "PropEnumProcEx"
+          href: https://msdn.microsoft.com/en-us/library/ms633566(v=VS.85).aspx
+        - name: "RemoveProp"
+          href: https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx
+        - name: "SetProp"
+          href: https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx
+  - name: "Configuration"
+    href: configuration.md
+    items: 
+    - name: "Configuration Reference"
+      href: configuration-reference.md
+      items: 
+      - name: "Configuration Constants"
+        href: configuration-constants.md
+        items: 
+        - name: "Contact Visualization"
+          href: contact-visualization.md
+        - name: "Gesture Visualization"
+          href: gesture-visualization.md
+        - name: "Pen Visualization"
+          href: pen-visualization.md
+      - name: "GetSystemMetrics"
+        href: https://msdn.microsoft.com/en-us/library/ms724385(v=VS.85).aspx
+      - name: "SystemParametersInfo"
+        href: https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx
+        items: 
+        - name: "ANIMATIONINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms724197(v=VS.85).aspx
+        - name: "AUDIODESCRIPTION"
+          href: https://msdn.microsoft.com/en-us/library/Aa379651(v=VS.85).aspx
+        - name: "MINIMIZEDMETRICS"
+          href: https://msdn.microsoft.com/en-us/library/ms724500(v=VS.85).aspx
+        - name: "NONCLIENTMETRICS"
+          href: https://msdn.microsoft.com/en-us/library/Ff729175(v=VS.85).aspx
+        - name: "WM_SETTINGCHANGE"
+          href: wm-settingchange.md
+        - name: "WM_WININICHANGE"
+          href: wm-wininichange.md
+  - name: "Hooks"
+    href: hooks.md
+    items: 
+    - name: "Hook Overview"
+      href: about-hooks.md
+    - name: "Using Hooks"
+      href: using-hooks.md
+    - name: "Hook Reference"
+      href: hook-reference.md
+      items: 
+      - name: "Hook Functions"
+        href: hook-functions.md
+        items: 
+        - name: "CallMsgFilter"
+          href: https://msdn.microsoft.com/en-us/library/ms644973(v=VS.85).aspx
+        - name: "CallNextHookEx"
+          href: https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx
+        - name: "CallWndProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644975(v=VS.85).aspx
+        - name: "CallWndRetProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644976(v=VS.85).aspx
+        - name: "CBTProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx
+        - name: "DebugProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx
+        - name: "ForegroundIdleProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644980(v=VS.85).aspx
+        - name: "GetMsgProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644981(v=VS.85).aspx
+        - name: "JournalPlaybackProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx
+        - name: "JournalRecordProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644983(v=VS.85).aspx
+        - name: "KeyboardProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644984(v=VS.85).aspx
+        - name: "LowLevelKeyboardProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644985(v=VS.85).aspx
+        - name: "LowLevelMouseProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644986(v=VS.85).aspx
+        - name: "MessageProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644987(v=VS.85).aspx
+        - name: "MouseProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644988(v=VS.85).aspx
+        - name: "SetWindowsHookEx"
+          href: https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx
+        - name: "ShellProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx
+        - name: "SysMsgProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644992(v=VS.85).aspx
+        - name: "UnhookWindowsHookEx"
+          href: https://msdn.microsoft.com/en-us/library/ms644993(v=VS.85).aspx
+      - name: "Hook Notifications"
+        href: hook-notifications.md
+        items: 
+        - name: "WM_CANCELJOURNAL"
+          href: wm-canceljournal.md
+        - name: "WM_QUEUESYNC"
+          href: wm-queuesync.md
+      - name: "Hook Structures"
+        href: hook-structures.md
+        items: 
+        - name: "CBT_CREATEWND"
+          href: https://msdn.microsoft.com/en-us/library/ms644962(v=VS.85).aspx
+        - name: "CBTACTIVATESTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644961(v=VS.85).aspx
+        - name: "CWPRETSTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644963(v=VS.85).aspx
+        - name: "CWPSTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644964(v=VS.85).aspx
+        - name: "DEBUGHOOKINFO"
+          href: https://msdn.microsoft.com/en-us/library/ms644965(v=VS.85).aspx
+        - name: "EVENTMSG"
+          href: https://msdn.microsoft.com/en-us/library/ms644966(v=VS.85).aspx
+        - name: "KBDLLHOOKSTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644967(v=VS.85).aspx
+        - name: "MOUSEHOOKSTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx
+        - name: "MOUSEHOOKSTRUCTEX"
+          href: https://msdn.microsoft.com/en-us/library/ms644969(v=VS.85).aspx
+        - name: "MSLLHOOKSTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644970(v=VS.85).aspx
+  - name: "Multiple Document Interface (MDI)"
+    href: multiple-document-interface.md
+    items: 
+    - name: "MDI Overviews"
+      href: multiple-document-interface-overviews.md
+      items: 
+      - name: "About the Multiple Document Interface"
+        href: about-the-multiple-document-interface.md
+      - name: "Using the Multiple Document Interface"
+        href: using-the-multiple-document-interface.md
+    - name: "MDI Reference"
+      href: multiple-document-interface-reference.md
+      items: 
+      - name: "MDI Functions"
+        href: multiple-document-interface-functions.md
+        items: 
+        - name: "CreateMDIWindow"
+          href: https://msdn.microsoft.com/en-us/library/ms644923(v=VS.85).aspx
+        - name: "DefFrameProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644924(v=VS.85).aspx
+        - name: "DefMDIChildProc"
+          href: https://msdn.microsoft.com/en-us/library/ms644925(v=VS.85).aspx
+        - name: "TranslateMDISysAccel"
+          href: https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx
+      - name: "MDI Messages"
+        href: multiple-document-interface-messages.md
+        items: 
+        - name: "WM_MDIACTIVATE"
+          href: wm-mdiactivate.md
+        - name: "WM_MDICASCADE"
+          href: wm-mdicascade.md
+        - name: "WM_MDICREATE"
+          href: wm-mdicreate.md
+        - name: "WM_MDIDESTROY"
+          href: wm-mdidestroy.md
+        - name: "WM_MDIGETACTIVE"
+          href: wm-mdigetactive.md
+        - name: "WM_MDIICONARRANGE"
+          href: wm-mdiiconarrange.md
+        - name: "WM_MDIMAXIMIZE"
+          href: wm-mdimaximize.md
+        - name: "WM_MDINEXT"
+          href: wm-mdinext.md
+        - name: "WM_MDIREFRESHMENU"
+          href: wm-mdirefreshmenu.md
+        - name: "WM_MDIRESTORE"
+          href: wm-mdirestore.md
+        - name: "WM_MDISETMENU"
+          href: wm-mdisetmenu.md
+        - name: "WM_MDITILE"
+          href: wm-mditile.md
+      - name: "MDI Structures"
+        href: multiple-document-interface-structures.md
+        items: 
+        - name: "MDICREATESTRUCT"
+          href: https://msdn.microsoft.com/en-us/library/ms644910(v=VS.85).aspx

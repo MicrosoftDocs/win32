@@ -1,0 +1,300 @@
+- name: "Dialog Boxes"
+  href: dialog-boxes.md
+  items: 
+  - name: "Dialog Box Overviews"
+    href: dialog-box-overviews.md
+    items: 
+    - name: "About Dialog Boxes"
+      href: about-dialog-boxes.md
+    - name: "Dialog Box Programming Considerations"
+      href: dlgbox-programming-considerations.md
+    - name: "Using Dialog Boxes"
+      href: using-dialog-boxes.md
+  - name: "Dialog Box Reference"
+    href: dialog-box-reference.md
+    items: 
+    - name: "Dialog Box Functions"
+      href: dialog-box-functions.md
+      items: 
+      - name: "CreateDialog"
+        href: /windows/desktop/api/Winuser/nf-winuser-createdialoga
+      - name: "CreateDialogIndirect"
+        href: /windows/desktop/api/Winuser/nf-winuser-createdialogindirecta
+      - name: "CreateDialogIndirectParam"
+        href: /windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama
+      - name: "CreateDialogParam"
+        href: /windows/desktop/api/Winuser/nf-winuser-createdialogparama
+      - name: "DefDlgProc"
+        href: /windows/desktop/api/Winuser/nf-winuser-defdlgprocw
+      - name: "DialogBox"
+        href: /windows/desktop/api/Winuser/nf-winuser-dialogboxa
+      - name: "DialogBoxIndirect"
+        href: /windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta
+      - name: "DialogBoxIndirectParam"
+        href: /windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama
+      - name: "DialogBoxParam"
+        href: /windows/desktop/api/Winuser/nf-winuser-dialogboxparama
+      - name: "DLGPROC"
+        href: https://msdn.microsoft.com/en-us/library/ms645469(v=VS.85).aspx
+      - name: "EndDialog"
+        href: /windows/desktop/api/Winuser/nf-winuser-enddialog
+      - name: "GetDialogBaseUnits"
+        href: /windows/desktop/api/Winuser/nf-winuser-getdialogbaseunits
+      - name: "GetDlgCtrlID"
+        href: /windows/desktop/api/Winuser/nf-winuser-getdlgctrlid
+      - name: "GetDlgItem"
+        href: /windows/desktop/api/Winuser/nf-winuser-getdlgitem
+      - name: "GetDlgItemInt"
+        href: /windows/desktop/api/Winuser/nf-winuser-getdlgitemint
+      - name: "GetDlgItemText"
+        href: /windows/desktop/api/Winuser/nf-winuser-getdlgitemtexta
+      - name: "GetNextDlgGroupItem"
+        href: /windows/desktop/api/Winuser/nf-winuser-getnextdlggroupitem
+      - name: "GetNextDlgTabItem"
+        href: /windows/desktop/api/Winuser/nf-winuser-getnextdlgtabitem
+      - name: "IsDialogMessage"
+        href: /windows/desktop/api/Winuser/nf-winuser-isdialogmessagea
+      - name: "MapDialogRect"
+        href: /windows/desktop/api/Winuser/nf-winuser-mapdialogrect
+      - name: "MB_GetString"
+        href: mb-getstring.md
+      - name: "MessageBox"
+        href: /windows/desktop/api/Winuser/nf-winuser-messagebox
+      - name: "MessageBoxEx"
+        href: /windows/desktop/api/Winuser/nf-winuser-messageboxexa
+      - name: "MessageBoxIndirect"
+        href: /windows/desktop/api/Winuser/nf-winuser-messageboxindirecta
+      - name: "SendDlgItemMessage"
+        href: /windows/desktop/api/Winuser/nf-winuser-senddlgitemmessagea
+      - name: "SetDlgItemInt"
+        href: /windows/desktop/api/Winuser/nf-winuser-setdlgitemint
+      - name: "SetDlgItemText"
+        href: /windows/desktop/api/Winuser/nf-winuser-setdlgitemtexta
+    - name: "Dialog Box Messages"
+      href: dialog-box-messages.md
+      items: 
+      - name: "DM_GETDEFID"
+        href: dm-getdefid.md
+      - name: "DM_REPOSITION"
+        href: dm-reposition.md
+      - name: "DM_SETDEFID"
+        href: dm-setdefid.md
+    - name: "Dialog Box Notifications"
+      href: dialog-box-notifications.md
+      items: 
+      - name: "WM_CTLCOLORDLG"
+        href: wm-ctlcolordlg.md
+      - name: "WM_ENTERIDLE"
+        href: wm-enteridle.md
+      - name: "WM_GETDLGCODE"
+        href: wm-getdlgcode.md
+      - name: "WM_INITDIALOG"
+        href: wm-initdialog.md
+      - name: "WM_NEXTDLGCTL"
+        href: wm-nextdlgctl.md
+    - name: "Dialog Box Structures"
+      href: dialog-box-structures.md
+      items: 
+      - name: "DLGITEMTEMPLATE"
+        href: /windows/desktop/api/Winuser/ns-winuser-dlgitemtemplate
+      - name: "DLGITEMTEMPLATEEX"
+        href: dlgitemtemplateex.md
+      - name: "DLGTEMPLATE"
+        href: /windows/desktop/api/Winuser/ns-winuser-dlgtemplate
+      - name: "DLGTEMPLATEEX"
+        href: dlgtemplateex.md
+      - name: "MSGBOXPARAMS"
+        href: /windows/desktop/api/Winuser/ns-winuser-tagmsgboxparamsa
+    - name: "Dialog Box Styles"
+      href: dialog-box-styles.md
+  - name: "Common Dialog Box Library"
+    href: common-dialog-box-library.md
+    items: 
+    - name: "Common Dialog Box Library Overviews"
+      href: common-dialog-box-library-overviews.md
+      items: 
+      - name: "Common Dialog Box Types"
+        href: dialog-box-types.md
+        items: 
+        - name: "Color Dialog Box"
+          href: color-dialog-box.md
+        - name: "Find and Replace Dialog Boxes"
+          href: find-and-replace-dialog-boxes.md
+        - name: "Font Dialog Box"
+          href: font-dialog-box.md
+        - name: "Open and Save As Dialog Boxes"
+          href: open-and-save-as-dialog-boxes.md
+        - name: "Page Setup Dialog Box"
+          href: page-setup-dialog-box.md
+        - name: "Print Dialog Box"
+          href: print-dialog-box.md
+        - name: "Print Property Sheet"
+          href: print-property-sheet.md
+      - name: "Common Dialog Box Initialization Flags"
+        href: common-dialog-box-initialization-flags.md
+      - name: "Customizing Common Dialog Boxes"
+        href: customizing-common-dialog-boxes.md
+      - name: "Using Common Dialog Boxes"
+        href: using-common-dialog-boxes.md
+    - name: "Common Dialog Box Reference"
+      href: common-dialog-box-reference.md
+      items: 
+      - name: "Common Dialog Box Functions"
+        href: common-dialog-box-functions.md
+        items: 
+        - name: "CCHookProc"
+          href: https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx
+        - name: "LPCFHOOKPROC"
+          href: https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx
+        - name: "ChooseColor"
+          href: https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx
+        - name: "ChooseFont"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta
+        - name: "CommDlgExtendedError"
+          href: /windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror
+        - name: "FindText"
+          href: /windows/desktop/api/Commdlg/nf-commdlg-findtexta
+        - name: "LPFRHOOKPROC"
+          href: https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx
+        - name: "GetFileTitle"
+          href: /windows/desktop/api/Commdlg/nf-commdlg-getfiletitlea
+        - name: "GetOpenFileName"
+          href: /windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea
+        - name: "GetSaveFileName"
+          href: /windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea
+        - name: "LPOFNHOOKPROC"
+          href: https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx
+        - name: "LPPAGEPAINTHOOK"
+          href: https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx
+        - name: "PageSetupDlg"
+          href: https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx
+        - name: "LPPAGESETUPHOOK"
+          href: https://msdn.microsoft.com/en-us/library/ms646939(v=VS.85).aspx
+        - name: "PrintDlg"
+          href: https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx
+        - name: "PrintDlgEx"
+          href: https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx
+        - name: "LPPRINTHOOKPROC"
+          href: https://msdn.microsoft.com/en-us/library/ms646944(v=VS.85).aspx
+        - name: "ReplaceText"
+          href: /windows/desktop/api/Commdlg/nf-commdlg-replacetexta
+        - name: "LPSETUPHOOKPROC"
+          href: https://msdn.microsoft.com/en-us/library/ms646948(v=VS.85).aspx
+      - name: "Common Dialog Box Interfaces"
+        href: common-dialog-box-interfaces.md
+        items: 
+        - name: "IPrintDialogCallback"
+          href: https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx
+          items: 
+          - name: "HandleMessage"
+            href: https://msdn.microsoft.com/en-us/library/ms646905(v=VS.85).aspx
+          - name: "InitDone"
+            href: https://msdn.microsoft.com/en-us/library/ms646906(v=VS.85).aspx
+          - name: "SelectionChange"
+            href: https://msdn.microsoft.com/en-us/library/ms646907(v=VS.85).aspx
+        - name: "IPrintDialogServices"
+          href: https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx
+          items: 
+          - name: "GetCurrentDevMode"
+            href: /windows/desktop/api/Commdlg/nf-commdlg-getcurrentdevmode
+          - name: "GetCurrentPortName"
+            href: /windows/desktop/api/Commdlg/nf-commdlg-getcurrentportname
+          - name: "GetCurrentPrinterName"
+            href: /windows/desktop/api/Commdlg/nf-commdlg-getcurrentprintername
+      - name: "Common Dialog Box Messages"
+        href: common-dialog-box-messages.md
+        items: 
+        - name: "CDM_GETFILEPATH"
+          href: cdm-getfilepath.md
+        - name: "CDM_GETFOLDERIDLIST"
+          href: cdm-getfolderidlist.md
+        - name: "CDM_GETFOLDERPATH"
+          href: cdm-getfolderpath.md
+        - name: "CDM_GETSPEC"
+          href: cdm-getspec.md
+        - name: "CDM_HIDECONTROL"
+          href: cdm-hidecontrol.md
+        - name: "CDM_SETCONTROLTEXT"
+          href: cdm-setcontroltext.md
+        - name: "CDM_SETDEFEXT"
+          href: cdm-setdefext.md
+        - name: "SETRGBSTRING"
+          href: setrgbstring.md
+        - name: "WM_CHOOSEFONT_GETLOGFONT"
+          href: wm-choosefont-getlogfont.md
+        - name: "WM_CHOOSEFONT_SETFLAGS"
+          href: wm-choosefont-setflags.md
+        - name: "WM_CHOOSEFONT_SETLOGFONT"
+          href: wm-choosefont-setlogfont.md
+      - name: "Common Dialog Box Notifications"
+        href: common-dialog-box-notifications.md
+        items: 
+        - name: "CDN_FILEOK"
+          href: cdn-fileok.md
+        - name: "CDN_FOLDERCHANGE"
+          href: cdn-folderchange.md
+        - name: "CDN_HELP"
+          href: cdn-help.md
+        - name: "CDN_INCLUDEITEM"
+          href: cdn-includeitem.md
+        - name: "CDN_INITDONE"
+          href: cdn-initdone.md
+        - name: "CDN_SELCHANGE"
+          href: cdn-selchange.md
+        - name: "CDN_SHAREVIOLATION"
+          href: cdn-shareviolation.md
+        - name: "CDN_TYPECHANGE"
+          href: cdn-typechange.md
+        - name: "COLOROKSTRING"
+          href: colorokstring.md
+        - name: "FILEOKSTRING"
+          href: fileokstring.md
+        - name: "FINDMSGSTRING"
+          href: findmsgstring.md
+        - name: "HELPMSGSTRING"
+          href: helpmsgstring.md
+        - name: "LBSELCHSTRING"
+          href: lbselchstring.md
+        - name: "SHAREVISTRING"
+          href: sharevistring.md
+        - name: "WM_PSD_ENVSTAMPRECT"
+          href: wm-psd-envstamprect.md
+        - name: "WM_PSD_FULLPAGERECT"
+          href: wm-psd-fullpagerect.md
+        - name: "WM_PSD_GREEKTEXTRECT"
+          href: wm-psd-greektextrect.md
+        - name: "WM_PSD_MARGINRECT"
+          href: wm-psd-marginrect.md
+        - name: "WM_PSD_MINMARGINRECT"
+          href: wm-psd-minmarginrect.md
+        - name: "WM_PSD_PAGESETUPDLG"
+          href: wm-psd-pagesetupdlg.md
+        - name: "WM_PSD_YAFULLPAGERECT"
+          href: wm-psd-yafullpagerect.md
+      - name: "Common Dialog Box Structures"
+        href: common-dialog-box-structures.md
+        items: 
+        - name: "CHOOSECOLOR"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora
+        - name: "CHOOSEFONT"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta
+        - name: "DEVNAMES"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagdevnames
+        - name: "FINDREPLACE"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea
+        - name: "OFNOTIFY"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya
+        - name: "OFNOTIFYEX"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa
+        - name: "OPENFILENAME"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagofna
+        - name: "OPENFILENAME_NT4"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagofn_nt4a
+        - name: "PAGESETUPDLG"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagpsda
+        - name: "PRINTDLG"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagpda
+        - name: "PRINTDLGEX"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagpdexa
+        - name: "PRINTPAGERANGE"
+          href: /windows/desktop/api/Commdlg/ns-commdlg-tagprintpagerange

@@ -1,0 +1,2313 @@
+- name: "CIMWin32 WMI Providers"
+  href: cimwin32-wmi-providers.md
+  items: 
+  - name: "CIM WMI Provider"
+    href: cim-wmi-provider.md
+    items: 
+    - name: "CIM_Action"
+      href: cim-action.md
+      items: 
+      - name: "CIM_Action Methods"
+        href: cim-action-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-action.md
+    - name: "CIM_ActionSequence"
+      href: cim-actionsequence.md
+    - name: "CIM_ActsAsSpare"
+      href: cim-actsasspare.md
+    - name: "CIM_AdjacentSlots"
+      href: cim-adjacentslots.md
+    - name: "CIM_AggregatePExtent"
+      href: cim-aggregatepextent.md
+      items: 
+      - name: "CIM_AggregatePExtent Methods"
+        href: cim-aggregatepextent-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-aggregatepextent.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-aggregatepextent.md
+    - name: "CIM_AggregatePSExtent"
+      href: cim-aggregatepsextent.md
+      items: 
+      - name: "CIM_AggregatePSExtent Methods"
+        href: cim-aggregatepsextent-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-aggregatepsextent.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-aggregatepsextent.md
+    - name: "CIM_AggregateRedundancyComponent"
+      href: cim-aggregateredundancycomponent.md
+    - name: "CIM_AlarmDevice"
+      href: cim-alarmdevice.md
+      items: 
+      - name: "CIM_AlarmDevice Methods"
+        href: cim-alarmdevice-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-alarmdevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-alarmdevice.md
+        - name: "SetUrgency method"
+          href: seturgency-method-in-class-cim-alarmdevice.md
+    - name: "CIM_AllocatedResource"
+      href: cim-allocatedresource.md
+    - name: "CIM_ApplicationSystem"
+      href: cim-applicationsystem.md
+    - name: "CIM_ApplicationSystemSoftwareFeature"
+      href: cim-applicationsystemsoftwarefeature.md
+    - name: "CIM_AssociatedAlarm"
+      href: cim-associatedalarm.md
+    - name: "CIM_AssociatedBattery"
+      href: cim-associatedbattery.md
+    - name: "CIM_AssociatedCooling"
+      href: cim-associatedcooling.md
+    - name: "CIM_AssociatedMemory"
+      href: cim-associatedmemory.md
+    - name: "CIM_AssociatedProcessorMemory"
+      href: cim-associatedprocessormemory.md
+    - name: "CIM_AssociatedSensor"
+      href: cim-associatedsensor.md
+    - name: "CIM_AssociatedSupplyCurrentSensor"
+      href: cim-associatedsupplycurrentsensor.md
+    - name: "CIM_AssociatedSupplyVoltageSensor"
+      href: cim-associatedsupplyvoltagesensor.md
+    - name: "CIM_BasedOn"
+      href: cim-basedon.md
+    - name: "CIM_Battery"
+      href: cim-battery.md
+      items: 
+      - name: "CIM_Battery Methods"
+        href: cim-battery-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-battery.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-battery.md
+    - name: "CIM_BinarySensor"
+      href: cim-binarysensor.md
+      items: 
+      - name: "CIM_BinarySensor Methods"
+        href: cim-binarysensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-binarysensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-binarysensor.md
+    - name: "CIM_BIOSElement"
+      href: cim-bioselement.md
+    - name: "CIM_BIOSFeature"
+      href: cim-biosfeature.md
+    - name: "CIM_BIOSFeatureBIOSElements"
+      href: cim-biosfeaturebioselements.md
+    - name: "CIM_BIOSLoadedInNV"
+      href: cim-biosloadedinnv.md
+    - name: "CIM_BootOSFromFS"
+      href: cim-bootosfromfs.md
+    - name: "CIM_BootSAP"
+      href: cim-bootsap.md
+    - name: "CIM_BootService"
+      href: cim-bootservice.md
+      items: 
+      - name: "CIM_BootService Methods"
+        href: cim-bootservice-methods.md
+        items: 
+        - name: "StartService method"
+          href: startservice-method-in-class-cim-bootservice.md
+        - name: "StopService method"
+          href: stopservice-method-in-class-cim-bootservice.md
+    - name: "CIM_BootServiceAccessBySAP"
+      href: cim-bootserviceaccessbysap.md
+    - name: "CIM_CacheMemory"
+      href: cim-cachememory.md
+      items: 
+      - name: "CIM_CacheMemory Methods"
+        href: cim-cachememory-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-cachememory.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-cachememory.md
+    - name: "CIM_Card"
+      href: cim-card.md
+      items: 
+      - name: "CIM_Card Methods"
+        href: cim-card-methods.md
+        items: 
+        - name: "IsCompatible method"
+          href: iscompatible-method-in-class-cim-card.md
+    - name: "CIM_CardInSlot"
+      href: cim-cardinslot.md
+    - name: "CIM_CardOnCard"
+      href: cim-cardoncard.md
+    - name: "CIM_CDROMDrive"
+      href: cim-cdromdrive.md
+      items: 
+      - name: "CIM_CDROMDrive Methods"
+        href: cim-cdromdrive-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-cdromdrive.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-cdromdrive.md
+    - name: "CIM_Chassis"
+      href: cim-chassis.md
+      items: 
+      - name: "CIM_Chassis Methods"
+        href: cim-chassis-methods.md
+        items: 
+        - name: "IsCompatible method"
+          href: iscompatible-method-in-class-cim-chassis.md
+    - name: "CIM_ChassisInRack"
+      href: cim-chassisinrack.md
+    - name: "CIM_Check"
+      href: cim-check.md
+      items: 
+      - name: "CIM_Check Methods"
+        href: cim-check-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-check.md
+    - name: "CIM_Chip"
+      href: cim-chip.md
+    - name: "CIM_ClusteringSAP"
+      href: cim-clusteringsap.md
+    - name: "CIM_ClusteringService"
+      href: cim-clusteringservice.md
+      items: 
+      - name: "CIM_ClusteringService Methods"
+        href: cim-clusteringservice-methods.md
+        items: 
+        - name: "AddNode method"
+          href: addnode-method-in-class-cim-clusteringservice.md
+        - name: "EvictNode method"
+          href: evictnode-method-in-class-cim-clusteringservice.md
+        - name: "StartService method"
+          href: startservice-method-in-class-cim-clusteringservice.md
+        - name: "StopService method"
+          href: stopservice-method-in-class-cim-clusteringservice.md
+    - name: "CIM_ClusterServiceAccessBySAP"
+      href: cim-clusterserviceaccessbysap.md
+    - name: "CIM_CollectedCollections"
+      href: cim-collectedcollections.md
+    - name: "CIM_CollectedMSEs"
+      href: cim-collectedmses.md
+    - name: "CIM_CollectionOfMSEs"
+      href: cim-collectionofmses.md
+    - name: "CIM_CollectionOfSensors"
+      href: cim-collectionofsensors.md
+    - name: "CIM_CollectionSetting"
+      href: cim-collectionsetting.md
+    - name: "CIM_CompatibleProduct"
+      href: cim-compatibleproduct.md
+    - name: "CIM_Component"
+      href: cim-component.md
+    - name: "CIM_ComputerSystem"
+      href: cim-computersystem.md
+    - name: "CIM_ComputerSystemDMA"
+      href: cim-computersystemdma.md
+    - name: "CIM_ComputerSystemIRQ"
+      href: cim-computersystemirq.md
+    - name: "CIM_ComputerSystemMappedIO"
+      href: cim-computersystemmappedio.md
+    - name: "CIM_ComputerSystemPackage"
+      href: cim-computersystempackage.md
+    - name: "CIM_ComputerSystemResource"
+      href: cim-computersystemresource.md
+    - name: "CIM_Configuration"
+      href: cim-configuration.md
+    - name: "CIM_ConnectedTo"
+      href: cim-connectedto.md
+    - name: "CIM_ConnectorOnPackage"
+      href: cim-connectoronpackage.md
+    - name: "CIM_Container"
+      href: cim-container.md
+    - name: "CIM_ControlledBy"
+      href: cim-controlledby.md
+    - name: "CIM_Controller"
+      href: cim-controller.md
+      items: 
+      - name: "CIM_Controller Methods"
+        href: cim-controller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-controller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-controller.md
+    - name: "CIM_CoolingDevice"
+      href: cim-coolingdevice.md
+      items: 
+      - name: "CIM_CoolingDevice Methods"
+        href: cim-coolingdevice-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-coolingdevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-coolingdevice.md
+    - name: "CIM_CopyFileAction"
+      href: cim-copyfileaction.md
+      items: 
+      - name: "CIM_CopyFileAction Methods"
+        href: cim-copyfileaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-copyfileaction.md
+    - name: "CIM_CreateDirectoryAction"
+      href: cim-createdirectoryaction.md
+      items: 
+      - name: "CIM_CreateDirectoryAction Methods"
+        href: cim-createdirectoryaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-createdirectoryaction.md
+    - name: "CIM_CurrentSensor"
+      href: cim-currentsensor.md
+      items: 
+      - name: "CIM_CurrentSensor Methods"
+        href: cim-currentsensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-currentsensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-currentsensor.md
+    - name: "CIM_DataFile"
+      href: cim-datafile.md
+      items: 
+      - name: "CIM_DataFile Methods"
+        href: cim-datafile-methods.md
+        items: 
+        - name: "ChangeSecurityPermissions method"
+          href: changesecuritypermissions-method-in-class-cim-datafile.md
+        - name: "ChangeSecurityPermissionsEx method"
+          href: changesecuritypermissionsex-method-in-class-cim-datafile.md
+        - name: "Compress method"
+          href: compress-method-in-class-cim-datafile.md
+        - name: "CompressEx method"
+          href: compressex-method-in-class-cim-datafile.md
+        - name: "Copy method"
+          href: copy-method-in-class-cim-datafile.md
+        - name: "CopyEx method"
+          href: copyex-method-in-class-cim-datafile.md
+        - name: "Delete method"
+          href: delete-method-in-class-cim-datafile.md
+        - name: "DeleteEx method"
+          href: deleteex-method-in-class-cim-datafile.md
+        - name: "GetEffectivePermission method"
+          href: geteffectivepermission-method-in-class-cim-datafile.md
+        - name: "Rename method"
+          href: rename-method-in-class-cim-datafile.md
+        - name: "TakeOwnerShip method"
+          href: takeownership-method-in-class-cim-datafile.md
+        - name: "TakeOwnerShipEx method"
+          href: takeownershipex-method-in-class-cim-datafile.md
+        - name: "Uncompress method"
+          href: uncompress-method-in-class-cim-datafile.md
+        - name: "UncompressEx method"
+          href: uncompressex-method-in-class-cim-datafile.md
+    - name: "CIM_Dependency"
+      href: cim-dependency.md
+    - name: "CIM_DependencyContext"
+      href: cim-dependencycontext.md
+    - name: "CIM_DesktopMonitor"
+      href: cim-desktopmonitor.md
+      items: 
+      - name: "CIM_DesktopMonitor Methods"
+        href: cim-desktopmonitor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-desktopmonitor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-desktopmonitor.md
+    - name: "CIM_DeviceAccessedByFile"
+      href: cim-deviceaccessedbyfile.md
+    - name: "CIM_DeviceConnection"
+      href: cim-deviceconnection.md
+    - name: "CIM_DeviceErrorCounts"
+      href: cim-deviceerrorcounts.md
+      items: 
+      - name: "CIM_DeviceErrorCounts Methods"
+        href: cim-deviceerrorcounts-methods.md
+        items: 
+        - name: "ResetCounter method"
+          href: resetcounter-method-in-class-cim-deviceerrorcounts.md
+    - name: "CIM_DeviceFile"
+      href: cim-devicefile.md
+      items: 
+      - name: "CIM_DeviceFile Methods"
+        href: cim-devicefile-methods.md
+        items: 
+        - name: "ChangeSecurityPermissions method"
+          href: changesecuritypermissions-method-in-class-cim-devicefile.md
+        - name: "ChangeSecurityPermissionsEx method"
+          href: changesecuritypermissionsex-method-in-class-cim-devicefile.md
+        - name: "Compress method"
+          href: compress-method-in-class-cim-devicefile.md
+        - name: "CompressEx method"
+          href: compressex-method-in-class-cim-devicefile.md
+        - name: "Copy method"
+          href: copy-method-in-class-cim-devicefile.md
+        - name: "CopyEx method"
+          href: copyex-method-in-class-cim-devicefile.md
+        - name: "Delete method"
+          href: delete-method-in-class-cim-devicefile.md
+        - name: "DeleteEx method"
+          href: deleteex-method-in-class-cim-devicefile.md
+        - name: "GetEffectivePermission method"
+          href: geteffectivepermission-method-in-class-cim-devicefile.md
+        - name: "Rename method"
+          href: rename-method-in-class-cim-devicefile.md
+        - name: "TakeOwnerShip method"
+          href: takeownership-method-in-class-cim-devicefile.md
+        - name: "TakeOwnerShipEx method"
+          href: takeownershipex-method-in-class-cim-devicefile.md
+        - name: "Uncompress method"
+          href: uncompress-method-in-class-cim-devicefile.md
+        - name: "UncompressEx method"
+          href: uncompressex-method-in-class-cim-devicefile.md
+    - name: "CIM_DeviceSAPImplementation"
+      href: cim-devicesapimplementation.md
+    - name: "CIM_DeviceServiceImplementation"
+      href: cim-deviceserviceimplementation.md
+    - name: "CIM_DeviceSoftware"
+      href: cim-devicesoftware.md
+    - name: "CIM_Directory"
+      href: cim-directory.md
+      items: 
+      - name: "CIM_Directory Methods"
+        href: cim-directory-methods.md
+        items: 
+        - name: "ChangeSecurityPermissions method"
+          href: changesecuritypermissions-method-in-class-cim-directory.md
+        - name: "ChangeSecurityPermissionsEx method"
+          href: changesecuritypermissionsex-method-in-class-cim-directory.md
+        - name: "Compress method"
+          href: compress-method-in-class-cim-directory.md
+        - name: "CompressEx method"
+          href: compressex-method-in-class-cim-directory.md
+        - name: "Copy method"
+          href: copy-method-in-class-cim-directory.md
+        - name: "CopyEx method"
+          href: copyex-method-in-class-cim-directory.md
+        - name: "Delete method"
+          href: delete-method-in-class-cim-directory.md
+        - name: "DeleteEx method"
+          href: deleteex-method-in-class-cim-directory.md
+        - name: "GetEffectivePermission method"
+          href: geteffectivepermission-method-in-class-cim-directory.md
+        - name: "Rename method"
+          href: rename-method-in-class-cim-directory.md
+        - name: "TakeOwnerShip method"
+          href: takeownership-method-in-class-cim-directory.md
+        - name: "TakeOwnerShipEx method"
+          href: takeownershipex-method-in-class-cim-directory.md
+        - name: "Uncompress method"
+          href: uncompress-method-in-class-cim-directory.md
+        - name: "UncompressEx method"
+          href: uncompressex-method-in-class-cim-directory.md
+    - name: "CIM_DirectoryAction"
+      href: cim-directoryaction.md
+      items: 
+      - name: "CIM_DirectoryAction Methods"
+        href: cim-directoryaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-directoryaction.md
+    - name: "CIM_DirectoryContainsFile"
+      href: cim-directorycontainsfile.md
+    - name: "CIM_DirectorySpecification"
+      href: cim-directoryspecification.md
+      items: 
+      - name: "CIM_DirectorySpecification Methods"
+        href: cim-directoryspecification-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-directoryspecification.md
+    - name: "CIM_DirectorySpecificationFile"
+      href: cim-directoryspecificationfile.md
+    - name: "CIM_DiscreteSensor"
+      href: cim-discretesensor.md
+      items: 
+      - name: "CIM_DiscreteSensor Methods"
+        href: cim-discretesensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-discretesensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-discretesensor.md
+    - name: "CIM_DiskDrive"
+      href: cim-diskdrive.md
+      items: 
+      - name: "CIM_DiskDrive Methods"
+        href: cim-diskdrive-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-diskdrive.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-diskdrive.md
+    - name: "CIM_DisketteDrive"
+      href: cim-diskettedrive.md
+      items: 
+      - name: "CIM_DisketteDrive Methods"
+        href: cim-diskettedrive-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-diskettedrive.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-diskettedrive.md
+    - name: "CIM_DiskPartition"
+      href: cim-diskpartition.md
+      items: 
+      - name: "CIM_DiskPartition Methods"
+        href: cim-diskpartition-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-diskpartition.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-diskpartition.md
+    - name: "CIM_DiskSpaceCheck"
+      href: cim-diskspacecheck.md
+      items: 
+      - name: "CIM_DiskSpaceCheck Methods"
+        href: cim-diskspacecheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-diskspacecheck.md
+    - name: "CIM_Display"
+      href: cim-display.md
+      items: 
+      - name: "CIM_Display Methods"
+        href: cim-display-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-display.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-display.md
+    - name: "CIM_DMA"
+      href: cim-dma.md
+    - name: "CIM_Docked"
+      href: cim-docked.md
+    - name: "CIM_ElementCapacity"
+      href: cim-elementcapacity.md
+    - name: "CIM_ElementConfiguration"
+      href: cim-elementconfiguration.md
+    - name: "CIM_ElementSetting"
+      href: cim-elementsetting.md
+    - name: "CIM_ElementsLinked"
+      href: cim-elementslinked.md
+    - name: "CIM_ErrorCountersForDevice"
+      href: cim-errorcountersfordevice.md
+    - name: "CIM_ExecuteProgram"
+      href: cim-executeprogram.md
+      items: 
+      - name: "CIM_ExecuteProgram Methods"
+        href: cim-executeprogram-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-executeprogram.md
+    - name: "CIM_Export"
+      href: cim-export.md
+    - name: "CIM_ExtraCapacityGroup"
+      href: cim-extracapacitygroup.md
+    - name: "CIM_Fan"
+      href: cim-fan.md
+      items: 
+      - name: "CIM_Fan Methods"
+        href: cim-fan-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-fan.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-fan.md
+        - name: "SetSpeed method"
+          href: setspeed-method-in-class-cim-fan.md
+    - name: "CIM_FileAction"
+      href: cim-fileaction.md
+      items: 
+      - name: "CIM_FileAction Methods"
+        href: cim-fileaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-fileaction.md
+    - name: "CIM_FileSpecification"
+      href: cim-filespecification.md
+      items: 
+      - name: "CIM_FileSpecification Methods"
+        href: cim-filespecification-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-filespecification.md
+    - name: "CIM_FileStorage"
+      href: cim-filestorage.md
+    - name: "CIM_FileSystem"
+      href: cim-filesystem.md
+    - name: "CIM_FlatPanel"
+      href: cim-flatpanel.md
+      items: 
+      - name: "CIM_FlatPanel Methods"
+        href: cim-flatpanel-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-flatpanel.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-flatpanel.md
+    - name: "CIM_FromDirectoryAction"
+      href: cim-fromdirectoryaction.md
+    - name: "CIM_FromDirectorySpecification"
+      href: cim-fromdirectoryspecification.md
+    - name: "CIM_FRU"
+      href: cim-fru.md
+    - name: "CIM_FRUIncludesProduct"
+      href: cim-fruincludesproduct.md
+    - name: "CIM_FRUPhysicalElements"
+      href: cim-fruphysicalelements.md
+    - name: "CIM_HeatPipe"
+      href: cim-heatpipe.md
+      items: 
+      - name: "CIM_HeatPipe Methods"
+        href: cim-heatpipe-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-heatpipe.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-heatpipe.md
+    - name: "CIM_HostedAccessPoint"
+      href: cim-hostedaccesspoint.md
+    - name: "CIM_HostedBootSAP"
+      href: cim-hostedbootsap.md
+    - name: "CIM_HostedBootService"
+      href: cim-hostedbootservice.md
+    - name: "CIM_HostedFileSystem"
+      href: cim-hostedfilesystem.md
+    - name: "CIM_HostedJobDestination"
+      href: cim-hostedjobdestination.md
+    - name: "CIM_HostedService"
+      href: cim-hostedservice.md
+    - name: "CIM_InfraredController"
+      href: cim-infraredcontroller.md
+      items: 
+      - name: "CIM_InfraredController Methods"
+        href: cim-infraredcontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-infraredcontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-infraredcontroller.md
+    - name: "CIM_InstalledOS"
+      href: cim-installedos.md
+    - name: "CIM_InstalledSoftwareElement"
+      href: cim-installedsoftwareelement.md
+    - name: "CIM_IRQ"
+      href: cim-irq.md
+    - name: "CIM_Job"
+      href: cim-job.md
+    - name: "CIM_JobDestination"
+      href: cim-jobdestination.md
+    - name: "CIM_JobDestinationJobs"
+      href: cim-jobdestinationjobs.md
+    - name: "CIM_Keyboard"
+      href: cim-keyboard.md
+      items: 
+      - name: "CIM_Keyboard Methods"
+        href: cim-keyboard-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-keyboard.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-keyboard.md
+    - name: "CIM_LinkHasConnector"
+      href: cim-linkhasconnector.md
+    - name: "CIM_LocalFileSystem"
+      href: cim-localfilesystem.md
+    - name: "CIM_Location"
+      href: cim-location.md
+    - name: "CIM_LogicalDevice"
+      href: cim-logicaldevice.md
+      items: 
+      - name: "CIM_LogicalDevice Methods"
+        href: cim-logicaldevice-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-logicaldevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-logicaldevice.md
+    - name: "CIM_LogicalDisk"
+      href: cim-logicaldisk.md
+      items: 
+      - name: "CIM_LogicalDisk Methods"
+        href: cim-logicaldisk-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-logicaldisk.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-logicaldisk.md
+    - name: "CIM_LogicalDiskBasedOnPartition"
+      href: cim-logicaldiskbasedonpartition.md
+    - name: "CIM_LogicalDiskBasedOnVolumeSet"
+      href: cim-logicaldiskbasedonvolumeset.md
+    - name: "CIM_LogicalElement"
+      href: cim-logicalelement.md
+    - name: "CIM_LogicalFile"
+      href: cim-logicalfile.md
+      items: 
+      - name: "CIM_LogicalFile Methods"
+        href: cim-logicalfile-methods.md
+        items: 
+        - name: "ChangeSecurityPermissions method"
+          href: changesecuritypermissions-method-in-class-cim-logicalfile.md
+        - name: "ChangeSecurityPermissionsEx method"
+          href: changesecuritypermissionsex-method-in-class-cim-logicalfile.md
+        - name: "Compress method"
+          href: compress-method-in-class-cim-logicalfile.md
+        - name: "CompressEx method"
+          href: compressex-method-in-class-cim-logicalfile.md
+        - name: "Copy method"
+          href: copy-method-in-class-cim-logicalfile.md
+        - name: "CopyEx method"
+          href: copyex-method-in-class-cim-logicalfile.md
+        - name: "Delete method"
+          href: delete-method-in-class-cim-logicalfile.md
+        - name: "DeleteEx method"
+          href: deleteex-method-in-class-cim-logicalfile.md
+        - name: "GetEffectivePermission method"
+          href: geteffectivepermission-method-in-class-cim-logicalfile.md
+        - name: "Rename method"
+          href: rename-method-in-class-cim-logicalfile.md
+        - name: "TakeOwnerShip method"
+          href: takeownership-method-in-class-cim-logicalfile.md
+        - name: "TakeOwnerShipEx method"
+          href: takeownershipex-method-in-class-cim-logicalfile.md
+        - name: "Uncompress method"
+          href: uncompress-method-in-class-cim-logicalfile.md
+        - name: "UncompressEx method"
+          href: uncompressex-method-in-class-cim-logicalfile.md
+    - name: "CIM_LogicalIdentity"
+      href: cim-logicalidentity.md
+    - name: "CIM_MagnetoOpticalDrive"
+      href: cim-magnetoopticaldrive.md
+      items: 
+      - name: "CIM_MagnetoOpticalDrive Methods"
+        href: cim-magnetoopticaldrive-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-magnetoopticaldrive.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-magnetoopticaldrive.md
+    - name: "CIM_ManagedSystemElement"
+      href: cim-managedsystemelement.md
+    - name: "CIM_ManagementController"
+      href: cim-managementcontroller.md
+      items: 
+      - name: "CIM_ManagementController Methods"
+        href: cim-managementcontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-managementcontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-managementcontroller.md
+    - name: "CIM_MediaAccessDevice"
+      href: cim-mediaaccessdevice.md
+      items: 
+      - name: "CIM_MediaAccessDevice Methods"
+        href: cim-mediaaccessdevice-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-mediaaccessdevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-mediaaccessdevice.md
+    - name: "CIM_MediaPresent"
+      href: cim-mediapresent.md
+    - name: "CIM_Memory"
+      href: cim-memory.md
+      items: 
+      - name: "CIM_Memory Methods"
+        href: cim-memory-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-memory.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-memory.md
+    - name: "CIM_MemoryCapacity"
+      href: cim-memorycapacity.md
+    - name: "CIM_MemoryCheck"
+      href: cim-memorycheck.md
+      items: 
+      - name: "CIM_MemoryCheck Methods"
+        href: cim-memorycheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-memorycheck.md
+    - name: "CIM_MemoryMappedIO"
+      href: cim-memorymappedio.md
+    - name: "CIM_MemoryOnCard"
+      href: cim-memoryoncard.md
+    - name: "CIM_MemoryWithMedia"
+      href: cim-memorywithmedia.md
+    - name: "CIM_ModifySettingAction"
+      href: cim-modifysettingaction.md
+      items: 
+      - name: "CIM_ModifySettingAction Methods"
+        href: cim-modifysettingaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-modifysettingaction.md
+    - name: "CIM_MonitorResolution"
+      href: cim-monitorresolution.md
+    - name: "CIM_MonitorSetting"
+      href: cim-monitorsetting.md
+    - name: "CIM_Mount"
+      href: cim-mount.md
+    - name: "CIM_MultiStateSensor"
+      href: cim-multistatesensor.md
+      items: 
+      - name: "CIM_MultiStateSensor Methods"
+        href: cim-multistatesensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-multistatesensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-multistatesensor.md
+    - name: "CIM_NetworkAdapter"
+      href: cim-networkadapter.md
+      items: 
+      - name: "CIM_NetworkAdapter Methods"
+        href: cim-networkadapter-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-networkadapter.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-networkadapter.md
+    - name: "CIM_NFS"
+      href: cim-nfs.md
+    - name: "CIM_NonVolatileStorage"
+      href: cim-nonvolatilestorage.md
+      items: 
+      - name: "CIM_NonVolatileStorage Methods"
+        href: cim-nonvolatilestorage-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-nonvolatilestorage.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-nonvolatilestorage.md
+    - name: "CIM_NumericSensor"
+      href: cim-numericsensor.md
+      items: 
+      - name: "CIM_NumericSensor Methods"
+        href: cim-numericsensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-numericsensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-numericsensor.md
+    - name: "CIM_OperatingSystem"
+      href: cim-operatingsystem.md
+      items: 
+      - name: "CIM_OperatingSystem Methods"
+        href: cim-operatingsystem-methods.md
+        items: 
+        - name: "Reboot method"
+          href: reboot-method-in-class-cim-operatingsystem.md
+        - name: "Shutdown method"
+          href: shutdown-method-in-class-cim-operatingsystem.md
+    - name: "CIM_OperatingSystemSoftwareFeature"
+      href: cim-operatingsystemsoftwarefeature.md
+    - name: "CIM_OSProcess"
+      href: cim-osprocess.md
+    - name: "CIM_OSVersionCheck"
+      href: cim-osversioncheck.md
+      items: 
+      - name: "CIM_OSVersionCheck Methods"
+        href: cim-osversioncheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-osversioncheck.md
+    - name: "CIM_PackageAlarm"
+      href: cim-packagealarm.md
+    - name: "CIM_PackageCooling"
+      href: cim-packagecooling.md
+    - name: "CIM_PackagedComponent"
+      href: cim-packagedcomponent.md
+    - name: "CIM_PackageInChassis"
+      href: cim-packageinchassis.md
+    - name: "CIM_PackageInSlot"
+      href: cim-packageinslot.md
+    - name: "CIM_PackageTempSensor"
+      href: cim-packagetempsensor.md
+    - name: "CIM_ParallelController"
+      href: cim-parallelcontroller.md
+      items: 
+      - name: "CIM_ParallelController Methods"
+        href: cim-parallelcontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-parallelcontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-parallelcontroller.md
+    - name: "CIM_ParticipatesInSet"
+      href: cim-participatesinset.md
+    - name: "CIM_PCIController"
+      href: cim-pcicontroller.md
+      items: 
+      - name: "CIM_PCIController Methods"
+        href: cim-pcicontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-pcicontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-pcicontroller.md
+    - name: "CIM_PCMCIAController"
+      href: cim-pcmciacontroller.md
+      items: 
+      - name: "CIM_PCMCIAController Methods"
+        href: cim-pcmciacontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-pcmciacontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-pcmciacontroller.md
+    - name: "CIM_PCVideoController"
+      href: cim-pcvideocontroller.md
+      items: 
+      - name: "CIM_PCVideoController Methods"
+        href: cim-pcvideocontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-pcvideocontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-pcvideocontroller.md
+    - name: "CIM_PExtentRedundancyComponent"
+      href: cim-pextentredundancycomponent.md
+    - name: "CIM_PhysicalCapacity"
+      href: cim-physicalcapacity.md
+    - name: "CIM_PhysicalComponent"
+      href: cim-physicalcomponent.md
+    - name: "CIM_PhysicalConnector"
+      href: cim-physicalconnector.md
+    - name: "CIM_PhysicalElement"
+      href: cim-physicalelement.md
+    - name: "CIM_PhysicalElementLocation"
+      href: cim-physicalelementlocation.md
+    - name: "CIM_PhysicalExtent"
+      href: cim-physicalextent.md
+      items: 
+      - name: "CIM_PhysicalExtent Methods"
+        href: cim-physicalextent-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-physicalextent.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-physicalextent.md
+    - name: "CIM_PhysicalFrame"
+      href: cim-physicalframe.md
+      items: 
+      - name: "CIM_PhysicalFrame Methods"
+        href: cim-physicalframe-methods.md
+        items: 
+        - name: "IsCompatible method"
+          href: iscompatible-method-in-class-cim-physicalframe.md
+    - name: "CIM_PhysicalLink"
+      href: cim-physicallink.md
+    - name: "CIM_PhysicalMedia"
+      href: cim-physicalmedia.md
+    - name: "CIM_PhysicalMemory"
+      href: cim-physicalmemory.md
+    - name: "CIM_PhysicalPackage"
+      href: cim-physicalpackage.md
+      items: 
+      - name: "CIM_PhysicalPackage Methods"
+        href: cim-physicalpackage-methods.md
+        items: 
+        - name: "IsCompatible method"
+          href: iscompatible-method-in-class-cim-physicalpackage.md
+    - name: "CIM_PointingDevice"
+      href: cim-pointingdevice.md
+      items: 
+      - name: "CIM_PointingDevice Methods"
+        href: cim-pointingdevice-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-pointingdevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-pointingdevice.md
+    - name: "CIM_POTSModem"
+      href: cim-potsmodem.md
+      items: 
+      - name: "CIM_POTSModem Methods"
+        href: cim-potsmodem-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-potsmodem.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-potsmodem.md
+    - name: "CIM_PowerSupply"
+      href: cim-powersupply.md
+      items: 
+      - name: "CIM_PowerSupply Methods"
+        href: cim-powersupply-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-powersupply.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-powersupply.md
+    - name: "CIM_Printer"
+      href: cim-printer.md
+      items: 
+      - name: "CIM_Printer Methods"
+        href: cim-printer-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-printer.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-printer.md
+    - name: "CIM_Process"
+      href: cim-process.md
+    - name: "CIM_ProcessExecutable"
+      href: cim-processexecutable.md
+    - name: "CIM_Processor"
+      href: cim-processor.md
+      items: 
+      - name: "CIM_Processor Methods"
+        href: cim-processor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-processor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-processor.md
+    - name: "CIM_ProcessThread"
+      href: cim-processthread.md
+    - name: "CIM_Product"
+      href: cim-product.md
+    - name: "CIM_ProductFRU"
+      href: cim-productfru.md
+    - name: "CIM_ProductParentChild"
+      href: cim-productparentchild.md
+    - name: "CIM_ProductPhysicalElements"
+      href: cim-productphysicalelements.md
+    - name: "CIM_ProductProductDependency"
+      href: cim-productproductdependency.md
+    - name: "CIM_ProductSoftwareFeatures"
+      href: cim-productsoftwarefeatures.md
+    - name: "CIM_ProductSupport"
+      href: cim-productsupport.md
+    - name: "CIM_ProtectedSpaceExtent"
+      href: cim-protectedspaceextent.md
+      items: 
+      - name: "CIM_ProtectedSpaceExtent Methods"
+        href: cim-protectedspaceextent-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-protectedspaceextent.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-protectedspaceextent.md
+    - name: "CIM_PSExtentBasedOnPExtent"
+      href: cim-psextentbasedonpextent.md
+    - name: "CIM_Rack"
+      href: cim-rack.md
+      items: 
+      - name: "CIM_Rack Methods"
+        href: cim-rack-methods.md
+        items: 
+        - name: "IsCompatible method"
+          href: iscompatible-method-in-class-cim-rack.md
+    - name: "CIM_Realizes"
+      href: cim-realizes.md
+    - name: "CIM_RealizesAggregatePExtent"
+      href: cim-realizesaggregatepextent.md
+    - name: "CIM_RealizesDiskPartition"
+      href: cim-realizesdiskpartition.md
+    - name: "CIM_RealizesPExtent"
+      href: cim-realizespextent.md
+    - name: "CIM_RebootAction"
+      href: cim-rebootaction.md
+      items: 
+      - name: "CIM_RebootAction Methods"
+        href: cim-rebootaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-rebootaction.md
+    - name: "CIM_RedundancyComponent"
+      href: cim-redundancycomponent.md
+    - name: "CIM_RedundancyGroup"
+      href: cim-redundancygroup.md
+    - name: "CIM_Refrigeration"
+      href: cim-refrigeration.md
+      items: 
+      - name: "CIM_Refrigeration Methods"
+        href: cim-refrigeration-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-refrigeration.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-refrigeration.md
+    - name: "CIM_RelatedStatistics"
+      href: cim-relatedstatistics.md
+    - name: "CIM_RemoteFileSystem"
+      href: cim-remotefilesystem.md
+    - name: "CIM_RemoveDirectoryAction"
+      href: cim-removedirectoryaction.md
+      items: 
+      - name: "CIM_RemoveDirectoryAction Methods"
+        href: cim-removedirectoryaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-removedirectoryaction.md
+    - name: "CIM_RemoveFileAction"
+      href: cim-removefileaction.md
+      items: 
+      - name: "CIM_RemoveFileAction Methods"
+        href: cim-removefileaction-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-removefileaction.md
+    - name: "CIM_ReplacementSet"
+      href: cim-replacementset.md
+    - name: "CIM_ResidesOnExtent"
+      href: cim-residesonextent.md
+    - name: "CIM_RunningOS"
+      href: cim-runningos.md
+    - name: "CIM_SAPSAPDependency"
+      href: cim-sapsapdependency.md
+    - name: "CIM_Scanner"
+      href: cim-scanner.md
+      items: 
+      - name: "CIM_Scanner Methods"
+        href: cim-scanner-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-scanner.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-scanner.md
+    - name: "CIM_SCSIController"
+      href: cim-scsicontroller.md
+      items: 
+      - name: "CIM_SCSIController Methods"
+        href: cim-scsicontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-scsicontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-scsicontroller.md
+    - name: "CIM_SCSIInterface"
+      href: cim-scsiinterface.md
+    - name: "CIM_Sensor"
+      href: cim-sensor.md
+      items: 
+      - name: "CIM_Sensor Methods"
+        href: cim-sensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-sensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-sensor.md
+    - name: "CIM_SerialController"
+      href: cim-serialcontroller.md
+      items: 
+      - name: "CIM_SerialController Methods"
+        href: cim-serialcontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-serialcontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-serialcontroller.md
+    - name: "CIM_SerialInterface"
+      href: cim-serialinterface.md
+    - name: "CIM_Service"
+      href: cim-service.md
+      items: 
+      - name: "CIM_Service Methods"
+        href: cim-service-methods.md
+        items: 
+        - name: "StartService method"
+          href: startservice-method-in-class-cim-service.md
+        - name: "StopService method"
+          href: stopservice-method-in-class-cim-service.md
+    - name: "CIM_ServiceAccessBySAP"
+      href: cim-serviceaccessbysap.md
+    - name: "CIM_ServiceAccessPoint"
+      href: cim-serviceaccesspoint.md
+    - name: "CIM_ServiceSAPDependency"
+      href: cim-servicesapdependency.md
+    - name: "CIM_ServiceServiceDependency"
+      href: cim-serviceservicedependency.md
+    - name: "CIM_Setting"
+      href: cim-setting.md
+    - name: "CIM_SettingCheck"
+      href: cim-settingcheck.md
+      items: 
+      - name: "CIM_SettingCheck Methods"
+        href: cim-settingcheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-settingcheck.md
+    - name: "CIM_SettingContext"
+      href: cim-settingcontext.md
+    - name: "CIM_Slot"
+      href: cim-slot.md
+    - name: "CIM_SlotInSlot"
+      href: cim-slotinslot.md
+    - name: "CIM_SoftwareElement"
+      href: cim-softwareelement.md
+    - name: "CIM_SoftwareElementActions"
+      href: cim-softwareelementactions.md
+    - name: "CIM_SoftwareElementChecks"
+      href: cim-softwareelementchecks.md
+    - name: "CIM_SoftwareElementVersionCheck"
+      href: cim-softwareelementversioncheck.md
+      items: 
+      - name: "CIM_SoftwareElementVersionCheck Methods"
+        href: cim-softwareelementversioncheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-softwareelementversioncheck.md
+    - name: "CIM_SoftwareFeature"
+      href: cim-softwarefeature.md
+    - name: "CIM_SoftwareFeatureSAPImplementation"
+      href: cim-softwarefeaturesapimplementation.md
+    - name: "CIM_SoftwareFeatureServiceImplementation"
+      href: cim-softwarefeatureserviceimplementation.md
+    - name: "CIM_SoftwareFeatureSoftwareElements"
+      href: cim-softwarefeaturesoftwareelements.md
+    - name: "CIM_SpareGroup"
+      href: cim-sparegroup.md
+    - name: "CIM_StatisticalInformation"
+      href: cim-statisticalinformation.md
+    - name: "CIM_Statistics"
+      href: cim-statistics.md
+    - name: "CIM_StorageDefect"
+      href: cim-storagedefect.md
+    - name: "CIM_StorageError"
+      href: cim-storageerror.md
+    - name: "CIM_StorageExtent"
+      href: cim-storageextent.md
+      items: 
+      - name: "CIM_StorageExtent Methods"
+        href: cim-storageextent-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-storageextent.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-storageextent.md
+    - name: "CIM_StorageRedundancyGroup"
+      href: cim-storageredundancygroup.md
+    - name: "CIM_SupportAccess"
+      href: cim-supportaccess.md
+    - name: "CIM_SwapSpaceCheck"
+      href: cim-swapspacecheck.md
+      items: 
+      - name: "CIM_SwapSpaceCheck Methods"
+        href: cim-swapspacecheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-swapspacecheck.md
+    - name: "CIM_System"
+      href: cim-system.md
+    - name: "CIM_SystemComponent"
+      href: cim-systemcomponent.md
+    - name: "CIM_SystemDevice"
+      href: cim-systemdevice.md
+    - name: "CIM_SystemResource"
+      href: cim-systemresource.md
+    - name: "CIM_Tachometer"
+      href: cim-tachometer.md
+      items: 
+      - name: "CIM_Tachometer Methods"
+        href: cim-tachometer-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-tachometer.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-tachometer.md
+    - name: "CIM_TapeDrive"
+      href: cim-tapedrive.md
+      items: 
+      - name: "CIM_TapeDrive Methods"
+        href: cim-tapedrive-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-tapedrive.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-tapedrive.md
+    - name: "CIM_TemperatureSensor"
+      href: cim-temperaturesensor.md
+      items: 
+      - name: "CIM_TemperatureSensor Methods"
+        href: cim-temperaturesensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-temperaturesensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-temperaturesensor.md
+    - name: "CIM_Thread"
+      href: cim-thread.md
+    - name: "CIM_ToDirectoryAction"
+      href: cim-todirectoryaction.md
+    - name: "CIM_ToDirectorySpecification"
+      href: cim-todirectoryspecification.md
+    - name: "CIM_UninterruptiblePowerSupply"
+      href: cim-uninterruptiblepowersupply.md
+      items: 
+      - name: "CIM_UninterruptiblePowerSupply Methods"
+        href: cim-uninterruptiblepowersupply-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-uninterruptiblepowersupply.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-uninterruptiblepowersupply.md
+    - name: "CIM_UnitaryComputerSystem"
+      href: cim-unitarycomputersystem.md
+      items: 
+      - name: "CIM_UnitaryComputerSystem Methods"
+        href: cim-unitarycomputersystem-methods.md
+        items: 
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-unitarycomputersystem.md
+    - name: "CIM_USBController"
+      href: cim-usbcontroller.md
+      items: 
+      - name: "CIM_USBController Methods"
+        href: cim-usbcontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-usbcontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-usbcontroller.md
+    - name: "CIM_USBControllerHasHub"
+      href: cim-usbcontrollerhashub.md
+    - name: "CIM_USBDevice"
+      href: cim-usbdevice.md
+      items: 
+      - name: "CIM_USBDevice Methods"
+        href: cim-usbdevice-methods.md
+        items: 
+        - name: "GetDescriptor method"
+          href: getdescriptor-method-in-class-cim-usbdevice.md
+        - name: "Reset method"
+          href: reset-method-in-class-cim-usbdevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-usbdevice.md
+    - name: "CIM_USBHub"
+      href: cim-usbhub.md
+      items: 
+      - name: "CIM_USBHub Methods"
+        href: cim-usbhub-methods.md
+        items: 
+        - name: "GetDescriptor method"
+          href: getdescriptor-method-in-class-cim-usbhub.md
+        - name: "Reset method"
+          href: reset-method-in-class-cim-usbhub.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-usbhub.md
+    - name: "CIM_UserDevice"
+      href: cim-userdevice.md
+      items: 
+      - name: "CIM_UserDevice Methods"
+        href: cim-userdevice-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-userdevice.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-userdevice.md
+    - name: "CIM_VersionCompatibilityCheck"
+      href: cim-versioncompatibilitycheck.md
+      items: 
+      - name: "CIM_VersionCompatibilityCheck Methods"
+        href: cim-versioncompatibilitycheck-methods.md
+        items: 
+        - name: "Invoke method"
+          href: invoke-method-in-class-cim-versioncompatibilitycheck.md
+    - name: "CIM_VideoBIOSElement"
+      href: cim-videobioselement.md
+    - name: "CIM_VideoBIOSFeature"
+      href: cim-videobiosfeature.md
+    - name: "CIM_VideoBIOSFeatureVideoBIOSElements"
+      href: cim-videobiosfeaturevideobioselements.md
+    - name: "CIM_VideoController"
+      href: cim-videocontroller.md
+      items: 
+      - name: "CIM_VideoController Methods"
+        href: cim-videocontroller-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-videocontroller.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-videocontroller.md
+    - name: "CIM_VideoControllerResolution"
+      href: cim-videocontrollerresolution.md
+    - name: "CIM_VideoSetting"
+      href: cim-videosetting.md
+    - name: "CIM_VolatileStorage"
+      href: cim-volatilestorage.md
+      items: 
+      - name: "CIM_VolatileStorage Methods"
+        href: cim-volatilestorage-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-volatilestorage.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-volatilestorage.md
+    - name: "CIM_VoltageSensor"
+      href: cim-voltagesensor.md
+      items: 
+      - name: "CIM_VoltageSensor Methods"
+        href: cim-voltagesensor-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-voltagesensor.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-voltagesensor.md
+    - name: "CIM_VolumeSet"
+      href: cim-volumeset.md
+      items: 
+      - name: "CIM_VolumeSet Methods"
+        href: cim-volumeset-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-volumeset.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-volumeset.md
+    - name: "CIM_WORMDrive"
+      href: cim-wormdrive.md
+      items: 
+      - name: "CIM_WORMDrive Methods"
+        href: cim-wormdrive-methods.md
+        items: 
+        - name: "Reset method"
+          href: reset-method-in-class-cim-wormdrive.md
+        - name: "SetPowerState method"
+          href: setpowerstate-method-in-class-cim-wormdrive.md
+  - name: "Power Management Event Provider"
+    href: power-management-event-provider.md
+    items: 
+    - name: "Win32_PowerManagementEvent"
+      href: win32-powermanagementevent.md
+  - name: "Win32 Provider"
+    href: win32-provider.md
+    items: 
+    - name: "Computer System Hardware Classes"
+      href: computer-system-hardware-classes.md
+      items: 
+      - name: "Win32_1394Controller"
+        href: win32-1394controller.md
+      - name: "Win32_1394ControllerDevice"
+        href: win32-1394controllerdevice.md
+      - name: "Win32_Fan"
+        href: win32-fan.md
+      - name: "Win32_HeatPipe"
+        href: win32-heatpipe.md
+      - name: "Win32_Refrigeration"
+        href: win32-refrigeration.md
+      - name: "Win32_TemperatureProbe"
+        href: win32-temperatureprobe.md
+      - name: "Win32_AssociatedProcessorMemory"
+        href: win32-associatedprocessormemory.md
+      - name: "Win32_AutochkSetting"
+        href: win32-autochksetting.md
+      - name: "Win32_BaseBoard"
+        href: win32-baseboard.md
+      - name: "Win32_Battery"
+        href: win32-battery.md
+      - name: "Win32_BIOS"
+        href: win32-bios.md
+      - name: "Win32_Bus"
+        href: win32-bus.md
+      - name: "Win32_CacheMemory"
+        href: win32-cachememory.md
+      - name: "Win32_CDROMDrive"
+        href: win32-cdromdrive.md
+      - name: "Win32_CIMLogicalDeviceCIMDataFile"
+        href: win32-cimlogicaldevicecimdatafile.md
+      - name: "Win32_ComputerSystemProcessor"
+        href: win32-computersystemprocessor.md
+      - name: "Win32_CurrentProbe"
+        href: win32-currentprobe.md
+      - name: "Win32_DesktopMonitor"
+        href: win32-desktopmonitor.md
+      - name: "Win32_DeviceBus"
+        href: win32-devicebus.md
+      - name: "Win32_DeviceChangeEvent"
+        href: win32-devicechangeevent.md
+      - name: "Win32_DeviceMemoryAddress"
+        href: win32-devicememoryaddress.md
+      - name: "Win32_DeviceSettings"
+        href: win32-devicesettings.md
+      - name: "Win32_DiskDrive"
+        href: win32-diskdrive.md
+      - name: "Win32_DiskDriveToDiskPartition"
+        href: win32-diskdrivetodiskpartition.md
+      - name: "Win32_DiskPartition"
+        href: win32-diskpartition.md
+        items: 
+        - name: "Reset method"
+          href: win32-diskpartition-reset.md
+        - name: "SetPowerState method"
+          href: win32-diskpartition-setpowerstate.md
+      - name: "Win32_DisplayControllerConfiguration"
+        href: win32-displaycontrollerconfiguration.md
+      - name: "Win32_DMAChannel"
+        href: win32-dmachannel.md
+      - name: "Win32_DriverForDevice"
+        href: win32-driverfordevice.md
+      - name: "Win32_FloppyController"
+        href: win32-floppycontroller.md
+      - name: "Win32_FloppyDrive"
+        href: win32-floppydrive.md
+      - name: "Win32_IDEController"
+        href: win32-idecontroller.md
+      - name: "Win32_IDEControllerDevice"
+        href: win32-idecontrollerdevice.md
+      - name: "Win32_InfraredDevice"
+        href: win32-infrareddevice.md
+      - name: "Win32_IRQResource"
+        href: win32-irqresource.md
+      - name: "Win32_Keyboard"
+        href: win32-keyboard.md
+      - name: "Win32_LogicalDisk"
+        href: win32-logicaldisk.md
+        items: 
+        - name: "Win32_LogicalDisk Methods"
+          href: win32-logicaldisk-methods.md
+          items: 
+          - name: "Chkdsk method"
+            href: chkdsk-method-in-class-win32-logicaldisk.md
+          - name: "ExcludeFromAutochk method"
+            href: excludefromautochk-method-in-class-win32-logicaldisk.md
+          - name: "ScheduleAutoChk method"
+            href: scheduleautochk-method-in-class-win32-logicaldisk.md
+      - name: "Win32_LogicalDiskRootDirectory"
+        href: win32-logicaldiskrootdirectory.md
+      - name: "Win32_LogicalDiskToPartition"
+        href: win32-logicaldisktopartition.md
+      - name: "Win32_LogicalProgramGroup"
+        href: win32-logicalprogramgroup.md
+      - name: "Win32_LogicalProgramGroupDirectory"
+        href: win32-logicalprogramgroupdirectory.md
+      - name: "Win32_LogicalProgramGroupItem"
+        href: win32-logicalprogramgroupitem.md
+      - name: "Win32_LogicalProgramGroupItemDataFile"
+        href: win32-logicalprogramgroupitemdatafile.md
+      - name: "Win32_MappedLogicalDisk"
+        href: win32-mappedlogicaldisk.md
+      - name: "Win32_MemoryArray"
+        href: win32-memoryarray.md
+      - name: "Win32_MemoryArrayLocation"
+        href: win32-memoryarraylocation.md
+      - name: "Win32_MemoryDevice"
+        href: win32-memorydevice.md
+      - name: "Win32_MemoryDeviceArray"
+        href: win32-memorydevicearray.md
+      - name: "Win32_MemoryDeviceLocation"
+        href: win32-memorydevicelocation.md
+      - name: "Win32_MotherboardDevice"
+        href: win32-motherboarddevice.md
+      - name: "Win32_NetworkAdapter"
+        href: win32-networkadapter.md
+        items: 
+        - name: "Win32_NetworkAdapter Methods"
+          href: win32-networkadapter-methods.md
+          items: 
+          - name: "Enable method"
+            href: enable-method-in-class-win32-networkadapter.md
+          - name: "Disable method"
+            href: disable-method-in-class-win32-networkadapter.md
+      - name: "Win32_NetworkAdapterConfiguration"
+        href: win32-networkadapterconfiguration.md
+        items: 
+        - name: "Win32_NetworkAdapterConfiguration Methods"
+          href: win32-networkadapterconfiguration-methods.md
+          items: 
+          - name: "DisableIPSec method"
+            href: disableipsec-method-in-class-win32-networkadapterconfiguration.md
+          - name: "EnableDHCP method"
+            href: enabledhcp-method-in-class-win32-networkadapterconfiguration.md
+          - name: "EnableDNS method"
+            href: enabledns-method-in-class-win32-networkadapterconfiguration.md
+          - name: "EnableIPFilterSec method"
+            href: enableipfiltersec-method-in-class-win32-networkadapterconfiguration.md
+          - name: "EnableIPSec method"
+            href: enableipsec-method-in-class-win32-networkadapterconfiguration.md
+          - name: "EnableStatic method"
+            href: enablestatic-method-in-class-win32-networkadapterconfiguration.md
+          - name: "EnableWINS method"
+            href: enablewins-method-in-class-win32-networkadapterconfiguration.md
+          - name: "ReleaseDHCPLease method"
+            href: releasedhcplease-method-in-class-win32-networkadapterconfiguration.md
+          - name: "ReleaseDHCPLeaseAll method"
+            href: releasedhcpleaseall-method-in-class-win32-networkadapterconfiguration.md
+          - name: "RenewDHCPLease method"
+            href: renewdhcplease-method-in-class-win32-networkadapterconfiguration.md
+          - name: "RenewDHCPLeaseAll method"
+            href: renewdhcpleaseall-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetArpAlwaysSourceRoute method"
+            href: setarpalwayssourceroute-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetArpUseEtherSNAP method"
+            href: setarpuseethersnap-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDatabasePath method"
+            href: setdatabasepath-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDeadGWDetect method"
+            href: setdeadgwdetect-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDefaultTOS method"
+            href: setdefaulttos-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDefaultTTL method"
+            href: setdefaultttl-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDNSDomain method"
+            href: setdnsdomain-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDNSServerSearchOrder method"
+            href: setdnsserversearchorder-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDNSSuffixSearchOrder method"
+            href: setdnssuffixsearchorder-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetDynamicDNSRegistration method"
+            href: setdynamicdnsregistration-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetForwardBufferMemory method"
+            href: setforwardbuffermemory-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetGateways method"
+            href: setgateways-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetIGMPLevel method"
+            href: setigmplevel-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetIPConnectionMetric method"
+            href: setipconnectionmetric-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetIPUseZeroBroadcast method"
+            href: setipusezerobroadcast-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetIPXFrameTypeNetworkPairs method"
+            href: win32-networkadapterconfiguration-setipxframetypenetworkpairs.md
+          - name: "SetIPXVirtualNetworkNumber method"
+            href: win32-networkadapterconfiguration-setipxvirtualnetworknumber.md
+          - name: "SetKeepAliveInterval method"
+            href: setkeepaliveinterval-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetKeepAliveTime method"
+            href: setkeepalivetime-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetMTU method"
+            href: setmtu-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetNumForwardPackets method"
+            href: setnumforwardpackets-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetPMTUBHDetect method"
+            href: setpmtubhdetect-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetPMTUDiscovery method"
+            href: setpmtudiscovery-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetTcpipNetbios method"
+            href: settcpipnetbios-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetTcpMaxConnectRetransmissions method"
+            href: settcpmaxconnectretransmissions-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetTcpMaxDataRetransmissions method"
+            href: settcpmaxdataretransmissions-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetTcpNumConnections method"
+            href: settcpnumconnections-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetTcpUseRFC1122UrgentPointer method"
+            href: settcpuserfc1122urgentpointer-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetTcpWindowSize method"
+            href: settcpwindowsize-method-in-class-win32-networkadapterconfiguration.md
+          - name: "SetWINSServer method"
+            href: setwinsserver-method-in-class-win32-networkadapterconfiguration.md
+      - name: "Win32_NetworkAdapterSetting"
+        href: win32-networkadaptersetting.md
+      - name: "Win32_NetworkClient"
+        href: win32-networkclient.md
+      - name: "Win32_NetworkConnection"
+        href: win32-networkconnection.md
+      - name: "Win32_NetworkLoginProfile"
+        href: win32-networkloginprofile.md
+      - name: "Win32_NetworkProtocol"
+        href: win32-networkprotocol.md
+      - name: "Win32_OnBoardDevice"
+        href: win32-onboarddevice.md
+      - name: "Win32_ParallelPort"
+        href: win32-parallelport.md
+      - name: "Win32_PCMCIAController"
+        href: win32-pcmciacontroller.md
+      - name: "Win32_PhysicalMemory"
+        href: win32-physicalmemory.md
+      - name: "Win32_PhysicalMemoryArray"
+        href: win32-physicalmemoryarray.md
+      - name: "Win32_PhysicalMemoryLocation"
+        href: win32-physicalmemorylocation.md
+      - name: "Win32_PnPAllocatedResource"
+        href: win32-pnpallocatedresource.md
+      - name: "Win32_PnPDevice"
+        href: win32-pnpdevice.md
+      - name: "Win32_PnPDeviceProperty"
+        href: win32-pnpdeviceproperty.md
+      - name: "Win32_PnPDevicePropertyUint8"
+        href: win32-pnpdevicepropertyuint8.md
+      - name: "Win32_PnPDevicePropertyUint16"
+        href: win32-pnpdevicepropertyuint16.md
+      - name: "Win32_PnPDevicePropertyUint32"
+        href: win32-pnpdevicepropertyuint32.md
+      - name: "Win32_PnPDevicePropertyUint64"
+        href: win32-pnpdevicepropertyuint64.md
+      - name: "Win32_PnPDevicePropertySint8"
+        href: win32-pnpdevicepropertysint8.md
+      - name: "Win32_PnPDevicePropertySint16"
+        href: win32-pnpdevicepropertysint16.md
+      - name: "Win32_PnPDevicePropertySint32"
+        href: win32-pnpdevicepropertysint32.md
+      - name: "Win32_PnPDevicePropertySint64"
+        href: win32-pnpdevicepropertysint64.md
+      - name: "Win32_PnPDevicePropertyString"
+        href: win32-pnpdevicepropertystring.md
+      - name: "Win32_PnPDevicePropertyBoolean"
+        href: win32-pnpdevicepropertyboolean.md
+      - name: "Win32_PnPDevicePropertyReal32"
+        href: win32-pnpdevicepropertyreal32.md
+      - name: "Win32_PnPDevicePropertyReal64"
+        href: win32-pnpdevicepropertyreal64.md
+      - name: "Win32_PnPDevicePropertyDateTime"
+        href: win32-pnpdevicepropertydatetime.md
+      - name: "Win32_PnPDevicePropertySecurityDescriptor"
+        href: win32-pnpdevicepropertysecuritydescriptor.md
+      - name: "Win32_PnPDevicePropertyBinary"
+        href: win32-pnpdevicepropertybinary.md
+      - name: "Win32_PnPDevicePropertyUint16Array"
+        href: win32-pnpdevicepropertyuint16array.md
+      - name: "Win32_PnPDevicePropertyUint32Array"
+        href: win32-pnpdevicepropertyuint32array.md
+      - name: "Win32_PnPDevicePropertyUint64Array"
+        href: win32-pnpdevicepropertyuint64array.md
+      - name: "Win32_PnPDevicePropertySint8Array"
+        href: win32-pnpdevicepropertysint8array.md
+      - name: "Win32_PnPDevicePropertySint16Array"
+        href: win32-pnpdevicepropertysint16array.md
+      - name: "Win32_PnPDevicePropertySint32Array"
+        href: win32-pnpdevicepropertysint32array.md
+      - name: "Win32_PnPDevicePropertySint64Array"
+        href: win32-pnpdevicepropertysint64array.md
+      - name: "Win32_PnPDevicePropertyStringArray"
+        href: win32-pnpdevicepropertystringarray.md
+      - name: "Win32_PnPDevicePropertyBooleanArray"
+        href: win32-pnpdevicepropertybooleanarray.md
+      - name: "Win32_PnPDevicePropertyReal32Array"
+        href: win32-pnpdevicepropertyreal32array.md
+      - name: "Win32_PnPDevicePropertyReal64Array"
+        href: win32-pnpdevicepropertyreal64array.md
+      - name: "Win32_PnPDevicePropertyDateTimeArray"
+        href: win32-pnpdevicepropertydatetimearray.md
+      - name: "Win32_PnPDevicePropertySecurityDescriptorArray"
+        href: win32-pnpdevicepropertysecuritydescriptorarray.md
+      - name: "Win32_PnPEntity"
+        href: win32-pnpentity.md
+        items: 
+        - name: "Win32_PnPEntity Methods"
+          href: win32-pnpentity-methods.md
+          items: 
+          - name: "Disable method"
+            href: disable-win32-pnpentity.md
+          - name: "Enable method"
+            href: enable-win32-pnpentity.md
+          - name: "GetDeviceProperties method"
+            href: getdeviceproperties-win32-pnpentity.md
+      - name: "Win32_PointingDevice"
+        href: win32-pointingdevice.md
+      - name: "Win32_PortableBattery"
+        href: win32-portablebattery.md
+      - name: "Win32_PortConnector"
+        href: win32-portconnector.md
+      - name: "Win32_PortResource"
+        href: win32-portresource.md
+      - name: "Win32_POTSModem"
+        href: win32-potsmodem.md
+      - name: "Win32_POTSModemToSerialPort"
+        href: win32-potsmodemtoserialport.md
+      - name: "Win32_Printer"
+        href: win32-printer.md
+        items: 
+        - name: "Win32_Printer Methods"
+          href: win32-printer-methods.md
+          items: 
+          - name: "AddPrinterConnection method"
+            href: addprinterconnection-method-in-class-win32-printer.md
+          - name: "CancelAllJobs method"
+            href: cancelalljobs-method-in-class-win32-printer.md
+          - name: "GetSecurityDescriptor method"
+            href: getsecuritydescriptor-method-in-class-win32-printer.md
+          - name: "Pause method"
+            href: pause-method-in-class-win32-printer.md
+          - name: "PrintTestPage method"
+            href: printtestpage-method-in-class-win32-printer.md
+          - name: "RenamePrinter method"
+            href: renameprinter-method-in-class-win32-printer.md
+          - name: "Resume method"
+            href: resume-method-in-class-win32-printer.md
+          - name: "SetDefaultPrinter method"
+            href: setdefaultprinter-method-in-class-win32-printer.md
+          - name: "SetSecurityDescriptor method"
+            href: setsecuritydescriptor-method-in-class-win32-printer.md
+      - name: "Win32_PrinterConfiguration"
+        href: win32-printerconfiguration.md
+      - name: "Win32_PrinterController"
+        href: win32-printercontroller.md
+      - name: "Win32_PrinterDriver"
+        href: win32-printerdriver.md
+        items: 
+        - name: "Win32_PrinterDriver Methods"
+          href: win32-printerdriver-methods.md
+          items: 
+          - name: "AddPrinterDriver method"
+            href: addprinterdriver-method-in-class-win32-printerdriver.md
+          - name: "StartService method"
+            href: startservice-method-in-class-win32-printerdriver.md
+          - name: "StopService method"
+            href: stopservice-method-in-class-win32-printerdriver.md
+      - name: "Win32_PrinterDriverDll"
+        href: win32-printerdriverdll.md
+      - name: "Win32_PrinterSetting"
+        href: win32-printersetting.md
+      - name: "Win32_PrinterShare"
+        href: win32-printershare.md
+      - name: "Win32_PrintJob"
+        href: win32-printjob.md
+        items: 
+        - name: "Win32_PrintJob Methods"
+          href: win32-printjob-methods.md
+          items: 
+          - name: "Pause method"
+            href: pause-method-in-class-win32-printjob.md
+          - name: "Resume method"
+            href: resume-method-in-class-win32-printjob.md
+      - name: "Win32_Processor"
+        href: win32-processor.md
+      - name: "Win32_SCSIController"
+        href: win32-scsicontroller.md
+      - name: "Win32_SCSIControllerDevice"
+        href: win32-scsicontrollerdevice.md
+      - name: "Win32_SerialPort"
+        href: win32-serialport.md
+      - name: "Win32_SerialPortConfiguration"
+        href: win32-serialportconfiguration.md
+      - name: "Win32_SerialPortSetting"
+        href: win32-serialportsetting.md
+      - name: "Win32_SMBIOSMemory"
+        href: win32-smbiosmemory.md
+      - name: "Win32_SoundDevice"
+        href: win32-sounddevice.md
+      - name: "Win32_TapeDrive"
+        href: win32-tapedrive.md
+      - name: "Win32_TCPIPPrinterPort"
+        href: win32-tcpipprinterport.md
+      - name: "Win32_USBController"
+        href: win32-usbcontroller.md
+      - name: "Win32_USBControllerDevice"
+        href: win32-usbcontrollerdevice.md
+      - name: "Win32_VideoController"
+        href: win32-videocontroller.md
+      - name: "Win32_VideoSettings"
+        href: win32-videosettings.md
+      - name: "Win32_VoltageProbe"
+        href: win32-voltageprobe.md
+    - name: "Operating System Classes"
+      href: operating-system-classes.md
+      items: 
+      - name: "Win32_Account"
+        href: win32-account.md
+      - name: "Win32_AllocatedResource"
+        href: win32-allocatedresource.md
+      - name: "Win32_BootConfiguration"
+        href: win32-bootconfiguration.md
+      - name: "Win32_ClassicCOMApplicationClasses"
+        href: win32-classiccomapplicationclasses.md
+      - name: "Win32_ClassicCOMClass"
+        href: win32-classiccomclass.md
+      - name: "Win32_ClassicCOMClassSetting"
+        href: win32-classiccomclasssetting.md
+      - name: "Win32_ClassicCOMClassSettings"
+        href: win32-classiccomclasssettings.md
+      - name: "Win32_ClusterShare"
+        href: win32-clustershare.md
+        items: 
+        - name: "Win32_ClusterShare Methods"
+          href: win32-clustershare-methods.md
+          items: 
+          - name: "Create method"
+            href: create-win32-clustershare.md
+          - name: "Delete method"
+            href: delete-win32-clustershare.md
+          - name: "GetAccessMask method"
+            href: getaccessmask-win32-clustershare.md
+          - name: "SetShareInfo method"
+            href: setshareinfo-win32-clustershare.md
+      - name: "Win32_BaseService"
+        href: win32-baseservice.md
+        items: 
+        - name: "Win32_BaseService Methods"
+          href: win32-baseservice-methods.md
+          items: 
+          - name: "Change method"
+            href: change-method-in-class-win32-baseservice.md
+          - name: "ChangeStartMode method"
+            href: changestartmode-method-in-class-win32-baseservice.md
+          - name: "Create method"
+            href: create-method-in-class-win32-baseservice.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-baseservice.md
+          - name: "InterrogateService method"
+            href: interrogateservice-method-in-class-win32-baseservice.md
+          - name: "PauseService method"
+            href: pauseservice-method-in-class-win32-baseservice.md
+          - name: "ResumeService method"
+            href: resumeservice-method-in-class-win32-baseservice.md
+          - name: "StartService method"
+            href: startservice-method-in-class-win32-baseservice.md
+          - name: "StopService method"
+            href: stopservice-method-in-class-win32-baseservice.md
+          - name: "UserControlService method"
+            href: usercontrolservice-method-in-class-win32-baseservice.md
+      - name: "Win32_ClientApplicationSetting"
+        href: win32-clientapplicationsetting.md
+      - name: "Win32_CodecFile"
+        href: win32-codecfile.md
+        items: 
+        - name: "Win32_CodecFile Methods"
+          href: win32-codecfile-methods.md
+          items: 
+          - name: "ChangeSecurityPermissions method"
+            href: changesecuritypermissions-method-in-class-win32-codecfile.md
+          - name: "ChangeSecurityPermissionsEx method"
+            href: changesecuritypermissionsex-method-in-class-win32-codecfile.md
+          - name: "Compress method"
+            href: compress-method-in-class-win32-codecfile.md
+          - name: "CompressEx method"
+            href: compressex-method-in-class-win32-codecfile.md
+          - name: "Copy method"
+            href: copy-method-in-class-win32-codecfile.md
+          - name: "CopyEx method"
+            href: copyex-method-in-class-win32-codecfile.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-codecfile.md
+          - name: "DeleteEx method"
+            href: deleteex-method-in-class-win32-codecfile.md
+          - name: "GetEffectivePermission method"
+            href: geteffectivepermission-method-in-class-win32-codecfile.md
+          - name: "Rename method"
+            href: rename-method-in-class-win32-codecfile.md
+          - name: "TakeOwnerShip method"
+            href: takeownership-method-in-class-win32-codecfile.md
+          - name: "TakeOwnerShipEx method"
+            href: takeownershipex-method-in-class-win32-codecfile.md
+          - name: "Uncompress method"
+            href: uncompress-method-in-class-win32-codecfile.md
+          - name: "UncompressEx method"
+            href: uncompressex-method-in-class-win32-codecfile.md
+      - name: "Win32_COMApplication"
+        href: win32-comapplication.md
+      - name: "Win32_COMApplicationClasses"
+        href: win32-comapplicationclasses.md
+      - name: "Win32_COMApplicationSettings"
+        href: win32-comapplicationsettings.md
+      - name: "Win32_COMClass"
+        href: win32-comclass.md
+      - name: "Win32_ComClassAutoEmulator"
+        href: win32-comclassautoemulator.md
+      - name: "Win32_ComClassEmulator"
+        href: win32-comclassemulator.md
+      - name: "Win32_ComponentCategory"
+        href: win32-componentcategory.md
+      - name: "Win32_COMSetting"
+        href: win32-comsetting.md
+      - name: "Win32_ComputerSystem"
+        href: win32-computersystem.md
+        items: 
+        - name: "Win32_ComputerSystem Methods"
+          href: win32-computersystem-methods.md
+          items: 
+          - name: "Rename method"
+            href: rename-method-in-class-win32-computersystem.md
+          - name: "JoinDomainOrWorkgroup method"
+            href: joindomainorworkgroup-method-in-class-win32-computersystem.md
+          - name: "UnjoinDomainOrWorkgroup method"
+            href: unjoindomainorworkgroup-method-in-class-win32-computersystem.md
+      - name: "Win32_DCOMApplication"
+        href: win32-dcomapplication.md
+      - name: "Win32_DCOMApplicationSetting"
+        href: win32-dcomapplicationsetting.md
+        items: 
+        - name: "Win32_DCOMApplicationSetting Methods"
+          href: win32-dcomapplicationsetting-methods.md
+          items: 
+          - name: "GetAccessSecurityDescriptor method"
+            href: getaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md
+          - name: "SetAccessSecurityDescriptor method"
+            href: setaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md
+          - name: "GetConfigurationSecurityDescriptor method"
+            href: getconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md
+          - name: "SetConfigurationSecurityDescriptor method"
+            href: setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md
+          - name: "SetLaunchSecurityDescriptor method"
+            href: getlaunchsecuritydescriptor-in-class-win32-dcomapplicationsetting.md
+          - name: "SetLaunchSecurityDescriptor method"
+            href: setlaunchsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md
+      - name: "Win32_DependentService"
+        href: win32-dependentservice.md
+      - name: "Win32_Desktop"
+        href: win32-desktop.md
+      - name: "Win32_ComputerSystemProduct"
+        href: win32-computersystemproduct.md
+      - name: "Win32_Directory"
+        href: win32-directory.md
+        items: 
+        - name: "Win32_Directory Methods"
+          href: win32-directory-methods.md
+          items: 
+          - name: "ChangeSecurityPermissions method"
+            href: changesecuritypermissions-method-in-class-win32-directory.md
+          - name: "ChangeSecurityPermissionsEx method"
+            href: changesecuritypermissionsex-method-in-class-win32-directory.md
+          - name: "Compress method"
+            href: compress-method-in-class-win32-directory.md
+          - name: "CompressEx method"
+            href: compressex-method-in-class-win32-directory.md
+          - name: "Copy method"
+            href: copy-method-in-class-win32-directory.md
+          - name: "CopyEx method"
+            href: copyex-method-in-class-win32-directory.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-directory.md
+          - name: "DeleteEx method"
+            href: deleteex-method-in-class-win32-directory.md
+          - name: "GetEffectivePermission method"
+            href: geteffectivepermission-method-in-class-win32-directory.md
+          - name: "Rename method"
+            href: rename-method-in-class-win32-directory.md
+          - name: "TakeOwnerShip method"
+            href: takeownership-method-in-class-win32-directory.md
+          - name: "TakeOwnerShipEx method"
+            href: takeownershipex-method-in-class-win32-directory.md
+          - name: "Uncompress method"
+            href: uncompress-method-in-class-win32-directory.md
+          - name: "UncompressEx method"
+            href: uncompressex-method-in-class-win32-directory.md
+      - name: "Win32_Environment"
+        href: win32-environment.md
+      - name: "Win32_Group"
+        href: win32-group.md
+        items: 
+        - name: "Win32_Group Methods"
+          href: win32-group-methods.md
+          items: 
+          - name: "Rename method"
+            href: rename-method-in-class-win32-group.md
+      - name: "Win32_GroupUser"
+        href: win32-groupuser.md
+      - name: "Win32_ImplementedCategory"
+        href: win32-implementedcategory.md
+      - name: "Win32_LoadOrderGroup"
+        href: win32-loadordergroup.md
+      - name: "Win32_LoadOrderGroupServiceDependencies"
+        href: win32-loadordergroupservicedependencies.md
+      - name: "Win32_LoadOrderGroupServiceMembers"
+        href: win32-loadordergroupservicemembers.md
+      - name: "Win32_LogonSessionMappedDisk"
+        href: win32-logonsessionmappeddisk.md
+      - name: "Win32_LoggedOnUser"
+        href: win32-loggedonuser.md
+      - name: "Win32_LogonSession"
+        href: win32-logonsession.md
+      - name: "Win32_OperatingSystem"
+        href: win32-operatingsystem.md
+        items: 
+        - name: "Win32_OperatingSystem Methods"
+          href: win32-operatingsystem-methods.md
+          items: 
+          - name: "Reboot method"
+            href: reboot-method-in-class-win32-operatingsystem.md
+          - name: "SetDateTime method"
+            href: setdatetime-method-in-class-win32-operatingsystem.md
+          - name: "Shutdown method"
+            href: shutdown-method-in-class-win32-operatingsystem.md
+          - name: "Win32Shutdown method"
+            href: win32shutdown-method-in-class-win32-operatingsystem.md
+          - name: "Win32ShutdownTracker method"
+            href: win32shutdowntracker-method-in-class-win32-operatingsystem.md
+      - name: "Win32_OperatingSystemAutochkSetting"
+        href: win32-operatingsystemautochksetting.md
+      - name: "Win32_OperatingSystemQFE"
+        href: win32-operatingsystemqfe.md
+      - name: "Win32_OptionalFeature"
+        href: win32-optionalfeature.md
+      - name: "Win32_OSRecoveryConfiguration"
+        href: win32-osrecoveryconfiguration.md
+      - name: "Win32_PageFile"
+        href: win32-pagefile.md
+        items: 
+        - name: "Win32_PageFile Methods"
+          href: win32-pagefile-methods.md
+          items: 
+          - name: "ChangeSecurityPermissions method"
+            href: changesecuritypermissions-method-in-class-win32-pagefile.md
+          - name: "ChangeSecurityPermissionsEx method"
+            href: changesecuritypermissionsex-method-in-class-win32-pagefile.md
+          - name: "Compress method"
+            href: compress-method-in-class-win32-pagefile.md
+          - name: "CompressEx method"
+            href: compressex-method-in-class-win32-pagefile.md
+          - name: "Copy method"
+            href: copy-method-in-class-win32-pagefile.md
+          - name: "CopyEx method"
+            href: copyex-method-in-class-win32-pagefile.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-pagefile.md
+          - name: "DeleteEx method"
+            href: deleteex-method-in-class-win32-pagefile.md
+          - name: "GetEffectivePermission method"
+            href: geteffectivepermission-method-in-class-win32-pagefile.md
+          - name: "Rename method"
+            href: rename-method-in-class-win32-pagefile.md
+          - name: "TakeOwnerShip method"
+            href: takeownership-method-in-class-win32-pagefile.md
+          - name: "TakeOwnerShipEx method"
+            href: takeownershipex-method-in-class-win32-pagefile.md
+          - name: "Uncompress method"
+            href: uncompress-method-in-class-win32-pagefile.md
+          - name: "UncompressEx method"
+            href: uncompressex-method-in-class-win32-pagefile.md
+      - name: "Win32_PageFileElementSetting"
+        href: win32-pagefileelementsetting.md
+      - name: "Win32_PageFileSetting"
+        href: win32-pagefilesetting.md
+      - name: "Win32_PageFileUsage"
+        href: win32-pagefileusage.md
+      - name: "Win32_PrivilegesStatus"
+        href: win32-privilegesstatus.md
+      - name: "Win32_Process"
+        href: win32-process.md
+        items: 
+        - name: "Win32_Process Methods"
+          href: win32-process-methods.md
+          items: 
+          - name: "AttachDebugger method"
+            href: attachdebugger-method-in-class-win32-process.md
+          - name: "Create method"
+            href: create-method-in-class-win32-process.md
+          - name: "GetAvailableVirtualSize method"
+            href: getavailablevirtualsize-win32-process.md
+          - name: "GetOwner method"
+            href: getowner-method-in-class-win32-process.md
+          - name: "GetOwnerSid method"
+            href: getownersid-method-in-class-win32-process.md
+          - name: "SetPriority method"
+            href: setpriority-method-in-class-win32-process.md
+          - name: "Terminate method"
+            href: terminate-method-in-class-win32-process.md
+      - name: "Win32_ProcessStartup"
+        href: win32-processstartup.md
+      - name: "Win32_ProgramGroupContents"
+        href: win32-programgroupcontents.md
+      - name: "Win32_ProgramGroupOrItem"
+        href: win32-programgrouporitem.md
+      - name: "Win32_ProtocolBinding"
+        href: win32-protocolbinding.md
+      - name: "Win32_QuickFixEngineering"
+        href: win32-quickfixengineering.md
+      - name: "Win32_Registry"
+        href: win32-registry.md
+      - name: "Win32_ScheduledJob"
+        href: win32-scheduledjob.md
+        items: 
+        - name: "Win32_ScheduledJob Methods"
+          href: win32-scheduledjob-methods.md
+          items: 
+          - name: "Create method"
+            href: create-method-in-class-win32-scheduledjob.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-scheduledjob.md
+      - name: "Win32_Service"
+        href: win32-service.md
+        items: 
+        - name: "Win32_Service Methods"
+          href: win32-service-methods.md
+          items: 
+          - name: "Change method"
+            href: change-method-in-class-win32-service.md
+          - name: "ChangeStartMode method"
+            href: changestartmode-method-in-class-win32-service.md
+          - name: "Create method"
+            href: create-method-in-class-win32-service.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-service.md
+          - name: "GetSecurityDescriptor method"
+            href: getsecuritydescriptor-method-in-class-win32-service.md
+          - name: "InterrogateService method"
+            href: interrogateservice-method-in-class-win32-service.md
+          - name: "PauseService method"
+            href: pauseservice-method-in-class-win32-service.md
+          - name: "ResumeService method"
+            href: resumeservice-method-in-class-win32-service.md
+          - name: "SetSecurityDescriptor method"
+            href: setsecuritydescriptor-method-in-class-win32-service.md
+          - name: "StartService method"
+            href: startservice-method-in-class-win32-service.md
+          - name: "StopService method"
+            href: stopservice-method-in-class-win32-service.md
+          - name: "UserControlService method"
+            href: usercontrolservice-method-in-class-win32-service.md
+      - name: "Win32_Session"
+        href: win32-session.md
+      - name: "Win32_SessionProcess"
+        href: win32-sessionprocess.md
+      - name: "Win32_SessionResource"
+        href: win32-sessionresource.md
+      - name: "Win32_Share"
+        href: win32-share.md
+        items: 
+        - name: "Win32_Share Methods"
+          href: win32-share-methods.md
+          items: 
+          - name: "Create method"
+            href: create-method-in-class-win32-share.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-share.md
+          - name: "GetAccessMask method"
+            href: getaccessmask-method-in-class-win32-share.md
+          - name: "SetShareInfo method"
+            href: setshareinfo-method-in-class-win32-share.md
+      - name: "Win32_ShareToDirectory"
+        href: win32-sharetodirectory.md
+      - name: "Win32_StartupCommand"
+        href: win32-startupcommand.md
+      - name: "Win32_SubDirectory"
+        href: win32-subdirectory.md
+      - name: "Win32_SubSession"
+        href: win32-subsession.md
+      - name: "Win32_SystemAccount"
+        href: win32-systemaccount.md
+      - name: "Win32_SystemBIOS"
+        href: win32-systembios.md
+      - name: "Win32_SystemBootConfiguration"
+        href: win32-systembootconfiguration.md
+      - name: "Win32_SystemConfigurationChangeEvent"
+        href: win32-systemconfigurationchangeevent.md
+      - name: "Win32_SystemDesktop"
+        href: win32-systemdesktop.md
+      - name: "Win32_SystemDevices"
+        href: win32-systemdevices.md
+      - name: "Win32_SystemDriver"
+        href: win32-systemdriver.md
+        items: 
+        - name: "Win32_SystemDriver Methods"
+          href: win32-systemdriver-methods.md
+          items: 
+          - name: "Change method"
+            href: change-method-in-class-win32-systemdriver.md
+          - name: "ChangeStartMode method"
+            href: changestartmode-method-in-class-win32-systemdriver.md
+          - name: "Create method"
+            href: create-method-in-class-win32-systemdriver.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-systemdriver.md
+          - name: "InterrogateService method"
+            href: interrogateservice-method-in-class-win32-systemdriver.md
+          - name: "PauseService method"
+            href: pauseservice-method-in-class-win32-systemdriver.md
+          - name: "ResumeService method"
+            href: resumeservice-method-in-class-win32-systemdriver.md
+          - name: "StartService method"
+            href: startservice-method-in-class-win32-systemdriver.md
+          - name: "StopService method"
+            href: stopservice-method-in-class-win32-systemdriver.md
+          - name: "UserControlService method"
+            href: usercontrolservice-method-in-class-win32-systemdriver.md
+      - name: "Win32_SystemDriverPNPEntity"
+        href: win32-systemdriverpnpentity.md
+      - name: "Win32_SystemEnclosure"
+        href: win32-systemenclosure.md
+      - name: "Win32_SystemLoadOrderGroups"
+        href: win32-systemloadordergroups.md
+      - name: "Win32_SystemMemoryResource"
+        href: win32-systemmemoryresource.md
+      - name: "Win32_SystemNetworkConnections"
+        href: win32-systemnetworkconnections.md
+      - name: "Win32_SystemOperatingSystem"
+        href: win32-systemoperatingsystem.md
+      - name: "Win32_SystemPartitions"
+        href: win32-systempartitions.md
+      - name: "Win32_SystemProcesses"
+        href: win32-systemprocesses.md
+      - name: "Win32_SystemProgramGroups"
+        href: win32-systemprogramgroups.md
+      - name: "Win32_SystemResources"
+        href: win32-systemresources.md
+      - name: "Win32_SystemServices"
+        href: win32-systemservices.md
+      - name: "Win32_SystemSetting"
+        href: win32-systemsetting.md
+      - name: "Win32_SystemSlot"
+        href: win32-systemslot.md
+      - name: "Win32_SystemSystemDriver"
+        href: win32-systemsystemdriver.md
+      - name: "Win32_SystemTimeZone"
+        href: win32-systemtimezone.md
+      - name: "Win32_SystemUsers"
+        href: win32-systemusers.md
+      - name: "Win32_Thread"
+        href: win32-thread.md
+      - name: "Win32_TimeZone"
+        href: win32-timezone.md
+      - name: "Win32_UserAccount"
+        href: win32-useraccount.md
+        items: 
+        - name: "Win32_UserAccount Methods"
+          href: win32-useraccount-methods.md
+          items: 
+          - name: "Rename method"
+            href: rename-method-in-class-win32-useraccount.md
+      - name: "Win32_UserDesktop"
+        href: win32-userdesktop.md
+      - name: "Win32_VideoConfiguration"
+        href: win32-videoconfiguration.md
+      - name: "Win32_VolumeChangeEvent"
+        href: win32-volumechangeevent.md
+      - name: "Win32_ShortcutFile"
+        href: win32-shortcutfile.md
+        items: 
+        - name: "Win32_ShortcutFile Methods"
+          href: win32-shortcutfile-methods.md
+          items: 
+          - name: "ChangeSecurityPermissions method"
+            href: changesecuritypermissions-method-in-class-win32-shortcutfile.md
+          - name: "ChangeSecurityPermissionsEx method"
+            href: changesecuritypermissionsex-method-in-class-win32-shortcutfile.md
+          - name: "Compress method"
+            href: compress-method-in-class-win32-shortcutfile.md
+          - name: "CompressEx method"
+            href: compressex-method-in-class-win32-shortcutfile.md
+          - name: "Copy method"
+            href: copy-method-in-class-win32-shortcutfile.md
+          - name: "CopyEx method"
+            href: copyex-method-in-class-win32-shortcutfile.md
+          - name: "Delete method"
+            href: delete-method-in-class-win32-shortcutfile.md
+          - name: "DeleteEx method"
+            href: deleteex-method-in-class-win32-shortcutfile.md
+          - name: "GetEffectivePermission method"
+            href: geteffectivepermission-method-in-class-win32-shortcutfile.md
+          - name: "Rename method"
+            href: rename-method-in-class-win32-shortcutfile.md
+          - name: "TakeOwnerShip method"
+            href: takeownership-method-in-class-win32-shortcutfile.md
+          - name: "TakeOwnerShipEx method"
+            href: takeownershipex-method-in-class-win32-shortcutfile.md
+          - name: "Uncompress method"
+            href: uncompress-method-in-class-win32-shortcutfile.md
+          - name: "UncompressEx method"
+            href: uncompressex-method-in-class-win32-shortcutfile.md
+    - name: "Performance Counter Classes"
+      href: performance-counter-classes.md
+      items: 
+      - name: "Win32_Perf"
+        href: win32-perf.md
+      - name: "Win32_PerfFormattedData"
+        href: win32-perfformatteddata.md
+      - name: "Win32_PerfRawData"
+        href: win32-perfrawdata.md
+    - name: "WMI Service Management Classes"
+      href: wmi-service-management-classes.md
+      items: 
+      - name: "Win32_MethodParameterClass"
+        href: win32-methodparameterclass.md
+      - name: "Win32_WMIElementSetting"
+        href: win32-wmielementsetting.md
+      - name: "Win32_WMISetting"
+        href: win32-wmisetting.md
+  - name: "Win32_ClusterShare"
+    href: win32-clustershare.md
+  - name: "Win32_OptionalFeature"
+    href: win32-optionalfeature.md
+  - name: "Win32_PnPDeviceProperty"
+    href: win32-pnpdeviceproperty.md

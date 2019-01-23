@@ -1,0 +1,490 @@
+- name: "Media Streaming API"
+  href: media-streaming-api-portal.md
+  items: 
+  - name: "Classes"
+    href: classes.md
+    items: 
+    - name: "ActiveBasicDevice"
+      href: https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx
+      items: 
+      - name: "GetCachedBitrateMeasurement method"
+        href: activebasicdevice-getcachedbitratemeasurement.md
+      - name: "GetCachedExtraSinkProtocolInfo method"
+        href: activebasicdevice-getcachedextrasinkprotocolinfo.md
+      - name: "GetCachedSinkProtocolInfo method"
+        href: activebasicdevice-getcachedsinkprotocolinfo.md
+      - name: "GetEffectiveBandwidth method"
+        href: activebasicdevice-geteffectivebandwidth.md
+      - name: "IsAudioSupported property"
+        href: activebasicdevice-isaudiosupported.md
+      - name: "IsImageSupported property"
+        href: activebasicdevice-isimagesupported.md
+      - name: "IsMuteSupported property"
+        href: activebasicdevice-ismutesupported.md
+      - name: "IsSearchSupported property"
+        href: activebasicdevice-issearchsupported.md
+      - name: "IsSetNextSourceSupported property"
+        href: activebasicdevice-issetnextsourcesupported.md
+      - name: "IsVideoSupported property"
+        href: activebasicdevice-isvideosupported.md
+      - name: "LogicalNetworkInterface property"
+        href: activebasicdevice-logicalnetworkinterface.md
+      - name: "MaxVolume property"
+        href: activebasicdevice-maxvolume.md
+      - name: "PhysicalNetworkInterface property"
+        href: activebasicdevice-physicalnetworkinterface.md
+      - name: "SetCachedBitrateMeasurement method"
+        href: activebasicdevice-setcachedbitratemeasurement.md
+      - name: "SetCachedSinkProtocolInfo method"
+        href: activebasicdevice-setcachedsinkprotocolinfo.md
+    - name: "BasicDevice"
+      href: https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx
+      items: 
+      - name: "add_ConnectionStatusChanged Method"
+        href: basicdevice-add-connectionstatuschanged.md
+      - name: "CanWakeDevices Property"
+        href: basicdevice-canwakedevices.md
+      - name: "ConnectionStatus Property"
+        href: https://msdn.microsoft.com/en-us/library/Hh828816(v=VS.85).aspx
+      - name: "Description Property"
+        href: basicdevice-description.md
+      - name: "DiscoveredOnCurrentNetwork Property"
+        href: basicdevice-discoveredoncurrentnetwork.md
+      - name: "FriendlyName Property"
+        href: basicdevice-friendlyname.md
+      - name: "Icons Property"
+        href: basicdevice-icons.md
+      - name: "IpAddresses Property"
+        href: basicdevice-ipaddresses.md
+      - name: "ManufacturerName Property"
+        href: basicdevice-manufacturername.md
+      - name: "ManufacturerUrl Property"
+        href: basicdevice-manufacturerurl.md
+      - name: "ModelName Property"
+        href: basicdevice-modelname.md
+      - name: "ModelUrl Property"
+        href: basicdevice-modelurl.md
+      - name: "PhysicalAddresses Property"
+        href: basicdevice-physicaladdresses.md
+      - name: "PresentationUrl Property"
+        href: basicdevice-presentationurl.md
+      - name: "RemoteStreamingUrls Property"
+        href: basicdevice-remotestreamingurls.md
+      - name: "remove_ConnectionStatusChanged Method"
+        href: basicdevice-remove-connectionstatuschanged.md
+      - name: "SerialNumber Property"
+        href: basicdevice-serialnumber.md
+      - name: "Type Property"
+        href: basicdevice-type.md
+      - name: "UniqueDeviceName Property"
+        href: basicdevice-uniquedevicename.md
+    - name: "CreateMediaRendererOperation"
+      href: createmediarendereroperation.md
+      items: 
+      - name: "Completed Property"
+        href: createmediarendereroperation-completed.md
+      - name: "GetResults Method"
+        href: createmediarendereroperation-getresults.md
+    - name: "DeviceController"
+      href: https://msdn.microsoft.com/en-us/library/Hh828842(v=VS.85).aspx
+      items: 
+      - name: "add_DeviceArrival Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828845(v=VS.85).aspx
+      - name: "add_DeviceDeparture Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828846(v=VS.85).aspx
+      - name: "AddDevice Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828844(v=VS.85).aspx
+      - name: "CachedDevices Method"
+        href: devicecontroller-cacheddevices.md
+      - name: "remove_DeviceArrival Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828849(v=VS.85).aspx
+      - name: "remove_DeviceDeparture Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828850(v=VS.85).aspx
+      - name: "RemoveDevice Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828848(v=VS.85).aspx
+    - name: "DevicePair"
+      href: https://msdn.microsoft.com/en-us/library/Dn385771(v=VS.85).aspx
+      items: 
+      - name: "Renderer property"
+        href: devicepair-renderer.md
+      - name: "Server property"
+        href: devicepair-server.md
+    - name: "GetMuteOperation"
+      href: getmuteoperation.md
+      items: 
+      - name: "Completed Property"
+        href: getmuteoperation-completed.md
+      - name: "GetResults Method"
+        href: getmuteoperation-getresults.md
+    - name: "GetPositionInformationOperation"
+      href: getpositioninformationoperation.md
+      items: 
+      - name: "Completed Property"
+        href: getpositioninformationoperation-completed.md
+      - name: "GetResults Method"
+        href: getpositioninformationoperation-getresults.md
+    - name: "GetStreamPropertiesOperation"
+      href: getstreampropertiesoperation.md
+      items: 
+      - name: "Completed property"
+        href: getstreampropertiesoperation-completed.md
+      - name: "GetResults method"
+        href: getstreampropertiesoperation-getresults.md
+    - name: "GetTransportInformationOperation"
+      href: gettransportinformationoperation.md
+      items: 
+      - name: "Completed Property"
+        href: gettransportinformationoperation-completed.md
+      - name: "GetResults Method"
+        href: gettransportinformationoperation-getresults.md
+    - name: "GetVolumeOperation"
+      href: getvolumeoperation.md
+      items: 
+      - name: "Completed Property"
+        href: getvolumeoperation-completed.md
+      - name: "GetResults Method"
+        href: getvolumeoperation-getresults.md
+    - name: "MediaRenderer"
+      href: mediarenderer.md
+      items: 
+      - name: "ActionInformation Property"
+        href: mediarenderer-actioninformation.md
+      - name: "add_RenderingParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828962(v=VS.85).aspx
+      - name: "add_TransportParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828963(v=VS.85).aspx
+      - name: "GetMuteAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828964(v=VS.85).aspx
+      - name: "GetPositionInformationAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828965(v=VS.85).aspx
+      - name: "GetTransportInformationAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828966(v=VS.85).aspx
+      - name: "GetVolumeAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828967(v=VS.85).aspx
+      - name: "IsAudioSupported Property"
+        href: mediarenderer-isaudiosupported.md
+      - name: "IsImageSupported Property"
+        href: mediarenderer-isimagesupported.md
+      - name: "IsVideoSupported Property"
+        href: mediarenderer-isvideosupported.md
+      - name: "PauseAsync Method"
+        href: mediarenderer-pauseasync.md
+      - name: "PlayAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828972(v=VS.85).aspx
+      - name: "PlayAtSpeedAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828973(v=VS.85).aspx
+      - name: "remove_RenderingParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828974(v=VS.85).aspx
+      - name: "remove_TransportParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828975(v=VS.85).aspx
+      - name: "SeekAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828976(v=VS.85).aspx
+      - name: "SetMuteAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828977(v=VS.85).aspx
+      - name: "SetNextSourceFromMediaSourceAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828978(v=VS.85).aspx
+      - name: "SetNextSourceFromStreamAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828979(v=VS.85).aspx
+      - name: "SetNextSourceFromUriAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828980(v=VS.85).aspx
+      - name: "SetSourceFromMediaSourceAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828981(v=VS.85).aspx
+      - name: "SetSourceFromStreamAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828982(v=VS.85).aspx
+      - name: "SetSourceFromUriAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828983(v=VS.85).aspx
+      - name: "SetVolumeAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828984(v=VS.85).aspx
+      - name: "StopAsync Method"
+        href: mediarenderer-stopasync.md
+    - name: "PlaybackOperation"
+      href: playbackoperation.md
+      items: 
+      - name: "Completed Property"
+        href: playbackoperation-completed.md
+      - name: "GetResults Method"
+        href: playbackoperation-getresults.md
+    - name: "StreamSelectOperation"
+      href: streamselectoperation.md
+      items: 
+      - name: "Completed property"
+        href: streamselectoperation-completed.md
+      - name: "GetResults method"
+        href: streamselectoperation-getresults.md
+    - name: "StreamSelector"
+      href: streamselector.md
+      items: 
+      - name: "GetStreamPropertiesAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx
+      - name: "SelectBestStreamAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Hh829002(v=VS.85).aspx
+  - name: "Delegates"
+    href: delegates.md
+    items: 
+    - name: "ConnectionStatusHandler"
+      href: https://msdn.microsoft.com/en-us/library/Hh828836(v=VS.85).aspx
+    - name: "DeviceControllerFinderHandler"
+      href: https://msdn.microsoft.com/en-us/library/Hh828843(v=VS.85).aspx
+    - name: "RenderingParametersUpdateHandler"
+      href: https://msdn.microsoft.com/en-us/library/Hh828994(v=VS.85).aspx
+    - name: "TransportParametersUpdateHandler"
+      href: https://msdn.microsoft.com/en-us/library/Hh829007(v=VS.85).aspx
+  - name: "Enumerations"
+    href: enumerations.md
+    items: 
+    - name: "ConnectionStatus"
+      href: connectionstatus.md
+    - name: "DeviceTypes"
+      href: devicetypes.md
+    - name: "TransportState"
+      href: transportstate.md
+    - name: "TransportStatus"
+      href: transportstatus.md
+  - name: "Events"
+    href: events.md
+    items: 
+    - name: "ConnectionStatusChanged Event"
+      href: connectionstatuschanged.md
+    - name: "DeviceArrival Event"
+      href: devicearrival.md
+    - name: "DeviceDeparture Event"
+      href: devicedeparture.md
+    - name: "RenderingParametersUpdate Event"
+      href: renderingparametersupdate.md
+    - name: "TransportParametersUpdate Event"
+      href: transportparametersupdate.md
+  - name: "Interfaces"
+    href: interfaces.md
+    items: 
+    - name: "IActiveBasicDevice"
+      href: https://msdn.microsoft.com/en-us/library/Dn385774(v=VS.85).aspx
+      items: 
+      - name: "GetCachedBitrateMeasurement method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385781(v=VS.85).aspx
+      - name: "GetCachedExtraSinkProtocolInfo method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385782(v=VS.85).aspx
+      - name: "GetCachedSinkProtocolInfo method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385783(v=VS.85).aspx
+      - name: "GetEffectiveBandwidth method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385784(v=VS.85).aspx
+      - name: "IsAudioSupported method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385785(v=VS.85).aspx
+      - name: "IsImageSupported method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385786(v=VS.85).aspx
+      - name: "IsMuteSupported method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385787(v=VS.85).aspx
+      - name: "IsSearchSupported method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385788(v=VS.85).aspx
+      - name: "IsSetNextSourceSupported method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385789(v=VS.85).aspx
+      - name: "IsVideoSupported method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385790(v=VS.85).aspx
+      - name: "LogicalNetworkInterface method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385791(v=VS.85).aspx
+      - name: "MaxVolume method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385792(v=VS.85).aspx
+      - name: "NotifyStreamingStatus method"
+        href: https://msdn.microsoft.com/en-us/library/Dn449161(v=VS.85).aspx
+      - name: "PhysicalNetworkInterface method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385793(v=VS.85).aspx
+      - name: "SetCachedBitrateMeasurement method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385794(v=VS.85).aspx
+      - name: "SetCachedSinkProtocolInfo method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385795(v=VS.85).aspx
+    - name: "IActiveBasicDeviceStatics"
+      href: https://msdn.microsoft.com/en-us/library/Dn385775(v=VS.85).aspx
+      items: 
+      - name: "CloneBasicDeviceAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385776(v=VS.85).aspx
+      - name: "CreateBasicDeviceAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385778(v=VS.85).aspx
+      - name: "CreateDevicesOnMatchingNetworkAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385779(v=VS.85).aspx
+      - name: "GetDevicesOnMatchingNetworkAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385780(v=VS.85).aspx
+    - name: "IBasicDevice"
+      href: ibasicdevice.md
+      items: 
+      - name: "add_ConnectionStatusChanged Method"
+        href: ibasicdevice-add-connectionstatuschanged.md
+      - name: "CanWakeDevices Method"
+        href: ibasicdevice-canwakedevices.md
+      - name: "ConnectionStatus Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828873(v=VS.85).aspx
+      - name: "Description Method"
+        href: ibasicdevice-description.md
+      - name: "DiscoveredOnCurrentNetwork Method"
+        href: ibasicdevice-discoveredoncurrentnetwork.md
+      - name: "FriendlyName Method"
+        href: ibasicdevice-friendlyname.md
+      - name: "Icons Method"
+        href: ibasicdevice-icons.md
+      - name: "IpAddresses Method"
+        href: ibasicdevice-ipaddresses.md
+      - name: "ManufacturerName Method"
+        href: ibasicdevice-manufacturername.md
+      - name: "ManufacturerUrl Method"
+        href: ibasicdevice-manufacturerurl.md
+      - name: "ModelName Method"
+        href: ibasicdevice-modelname.md
+      - name: "ModelNumber Method"
+        href: ibasicdevice-modelnumber.md
+      - name: "ModelUrl Method"
+        href: ibasicdevice-modelurl.md
+      - name: "PhysicalAddresses Method"
+        href: ibasicdevice-physicaladdresses.md
+      - name: "PresentationUrl Method"
+        href: ibasicdevice-presentationurl.md
+      - name: "RemoteStreamingUrls Method"
+        href: ibasicdevice-remotestreamingurls.md
+      - name: "remove_ConnectionStatusChanged Method"
+        href: ibasicdevice-remove-connectionstatuschanged.md
+      - name: "SerialNumber Method"
+        href: ibasicdevice-serialnumber.md
+      - name: "Type Method"
+        href: ibasicdevice-type.md
+      - name: "UniqueDeviceName Method"
+        href: ibasicdevice-uniquedevicename.md
+    - name: "IDeviceController"
+      href: https://msdn.microsoft.com/en-us/library/Hh828901(v=VS.85).aspx
+      items: 
+      - name: "add_DeviceArrival Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828903(v=VS.85).aspx
+      - name: "add_DeviceDeparture Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828904(v=VS.85).aspx
+      - name: "AddDevice Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828902(v=VS.85).aspx
+      - name: "CachedDevices Method"
+        href: idevicecontroller-cacheddevices.md
+      - name: "remove_DeviceArrival Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828907(v=VS.85).aspx
+      - name: "remove_DeviceDeparture Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828908(v=VS.85).aspx
+      - name: "RemoveDevice Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828906(v=VS.85).aspx
+    - name: "IDeviceIcon"
+      href: https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx
+      items: 
+      - name: "ContentType Method"
+        href: ideviceicon-contenttype.md
+      - name: "Height Method"
+        href: ideviceicon-height.md
+      - name: "Stream Method"
+        href: ideviceicon-stream.md
+      - name: "Width Method"
+        href: ideviceicon-width.md
+    - name: "IDevicePair"
+      href: https://msdn.microsoft.com/en-us/library/Dn385796(v=VS.85).aspx
+      items: 
+      - name: "get_Renderer method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385797(v=VS.85).aspx
+      - name: "get_Server method"
+        href: https://msdn.microsoft.com/en-us/library/Dn385798(v=VS.85).aspx
+    - name: "IMediaRenderer"
+      href: imediarenderer.md
+      items: 
+      - name: "ActionInformation Method"
+        href: imediarenderer-actioninformation.md
+      - name: "add_RenderingParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828928(v=VS.85).aspx
+      - name: "add_TransportParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828929(v=VS.85).aspx
+      - name: "GetMuteAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx
+      - name: "GetPositionInformationAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828931(v=VS.85).aspx
+      - name: "GetTransportInformationAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828932(v=VS.85).aspx
+      - name: "GetVolumeAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828933(v=VS.85).aspx
+      - name: "IsAudioSupported Method"
+        href: imediarenderer-isaudiosupported.md
+      - name: "IsImageSupported Method"
+        href: imediarenderer-isimagesupported.md
+      - name: "IsVideoSupported Method"
+        href: imediarenderer-isvideosupported.md
+      - name: "PauseAsync Method"
+        href: imediarenderer-pauseasync.md
+      - name: "PlayAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828938(v=VS.85).aspx
+      - name: "PlayAtSpeedAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828939(v=VS.85).aspx
+      - name: "remove_RenderingParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828940(v=VS.85).aspx
+      - name: "remove_TransportParametersUpdate Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828941(v=VS.85).aspx
+      - name: "SeekAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828942(v=VS.85).aspx
+      - name: "SetMuteAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828943(v=VS.85).aspx
+      - name: "SetNextSourceFromMediaSourceAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828944(v=VS.85).aspx
+      - name: "SetNextSourceFromStreamAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828945(v=VS.85).aspx
+      - name: "SetNextSourceFromUriAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828946(v=VS.85).aspx
+      - name: "SetSourceFromMediaSourceAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828947(v=VS.85).aspx
+      - name: "SetSourceFromStreamAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828948(v=VS.85).aspx
+      - name: "SetSourceFromUriAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828949(v=VS.85).aspx
+      - name: "SetVolumeAsync Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828950(v=VS.85).aspx
+      - name: "StopAsync Method"
+        href: imediarenderer-stopasync.md
+    - name: "IMediaRendererActionInformation"
+      href: https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx
+      items: 
+      - name: "IsMuteAvailable Method"
+        href: imediarendereractioninformation-ismuteavailable.md
+      - name: "IsPauseAvailable Method"
+        href: imediarendereractioninformation-ispauseavailable.md
+      - name: "IsPlayAvailable Method"
+        href: imediarendereractioninformation-isplayavailable.md
+      - name: "IsSeekAvailable Method"
+        href: imediarendereractioninformation-isseekavailable.md
+      - name: "IsSetNextSourceAvailable Method"
+        href: imediarendereractioninformation-issetnextsourceavailable.md
+      - name: "IsStopAvailable Method"
+        href: imediarendereractioninformation-isstopavailable.md
+      - name: "IsVolumeAvailable Method"
+        href: imediarendereractioninformation-isvolumeavailable.md
+      - name: "PlaySpeeds Method"
+        href: imediarendereractioninformation-playspeeds.md
+    - name: "IMediaRendererFactory"
+      href: https://msdn.microsoft.com/en-us/library/Hh828924(v=VS.85).aspx
+      items: 
+      - name: "CreateMediaRendererAsync Method"
+        href: imediarendererfactory-createmediarendererasync.md
+      - name: "CreateMediaRendererFromBasicDeviceAsync Method"
+        href: imediarendererfactory-createmediarendererfrombasicdeviceasync.md
+    - name: "IStreamSelectorStatics"
+      href: https://msdn.microsoft.com/en-us/library/Hh828953(v=VS.85).aspx
+      items: 
+      - name: "GetStreamPropertiesAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828954(v=VS.85).aspx
+      - name: "SelectBestStreamAsync method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828955(v=VS.85).aspx
+    - name: "ITransportParameters"
+      href: https://msdn.microsoft.com/en-us/library/Hh828956(v=VS.85).aspx
+      items: 
+      - name: "ActionInformation Method"
+        href: itransportparameters-actioninformation.md
+      - name: "TrackInformation Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828958(v=VS.85).aspx
+      - name: "TransportInformation Method"
+        href: https://msdn.microsoft.com/en-us/library/Hh828959(v=VS.85).aspx
+  - name: "Structures"
+    href: structures.md
+    items: 
+    - name: "PlaySpeed"
+      href: https://msdn.microsoft.com/en-us/library/Hh828990(v=VS.85).aspx
+    - name: "PositionInformation"
+      href: https://msdn.microsoft.com/en-us/library/Hh828991(v=VS.85).aspx
+    - name: "RenderingParameters"
+      href: https://msdn.microsoft.com/en-us/library/Hh828992(v=VS.85).aspx
+    - name: "TrackInformation"
+      href: https://msdn.microsoft.com/en-us/library/Hh829004(v=VS.85).aspx
+    - name: "TransportInformation"
+      href: https://msdn.microsoft.com/en-us/library/Hh829005(v=VS.85).aspx

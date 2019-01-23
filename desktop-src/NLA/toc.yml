@@ -1,0 +1,211 @@
+- name: "Network List Manager"
+  href: portal.md
+  items: 
+  - name: "About the Network List Manager API"
+    href: about-the-network-list-manager-api.md
+    items: 
+    - name: "The Role of Network List Manager"
+      href: the-role-of-network-list-manager.md
+    - name: "Network List Manager Architecture"
+      href: network-list-manager-architecture.md
+  - name: "Network List Manager API Reference"
+    href: network-list-manager-api-reference.md
+    items: 
+    - name: "NLM Interfaces"
+      href: nlm-interfaces.md
+      items: 
+      - name: "IEnumNetworkConnections"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-ienumnetworkconnections
+        items: 
+        - name: "get__NewEnum Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworkconnections-get__newenum
+        - name: "Clone Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworkconnections-clone
+        - name: "Next Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworkconnections-next
+        - name: "Reset Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworkconnections-reset
+        - name: "Skip Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworkconnections-skip
+      - name: "IEnumNetworks"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-ienumnetworks
+        items: 
+        - name: "get__NewEnum Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworks-get__newenum
+        - name: "Clone Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworks-clone
+        - name: "Next Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworks-next
+        - name: "Reset Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworks-reset
+        - name: "Skip Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-ienumnetworks-skip
+      - name: "INetwork"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetwork
+        items: 
+        - name: "get_IsConnected Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-get_isconnected
+        - name: "get_IsConnectedToInternet Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-get_isconnectedtointernet
+        - name: "GetCategory Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getcategory
+        - name: "GetConnectivity Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getconnectivity
+        - name: "GetDescription Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getdescription
+        - name: "GetDomainType Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getdomaintype
+        - name: "GetName Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getname
+        - name: "GetNetworkConnections Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getnetworkconnections
+        - name: "GetNetworkId Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-getnetworkid
+        - name: "GetTimeCreatedAndConnected Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-gettimecreatedandconnected
+        - name: "SetCategory Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-setcategory
+        - name: "SetDescription Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-setdescription
+        - name: "SetName Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetwork-setname
+      - name: "INetworkConnection"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkconnection
+        items: 
+        - name: "get_IsConnected Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-get_isconnected
+        - name: "get_IsConnectedToInternet Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-get_isconnectedtointernet
+        - name: "GetAdapterId Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid
+        - name: "GetConnectionId Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-getconnectionid
+        - name: "GetConnectivity Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-getconnectivity
+        - name: "GetDomainType Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-getdomaintype
+        - name: "GetNetwork Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnection-getnetwork
+      - name: "INetworkConnectionCost"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkconnectioncost
+        items: 
+        - name: "GetCost Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnectioncost-getcost
+        - name: "GetDataPlanStatus Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnectioncost-getdataplanstatus
+      - name: "INetworkConnectionCostEvents"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkconnectioncostevents
+        items: 
+        - name: "ConnectionCostChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnectioncostevents-connectioncostchanged
+        - name: "ConnectionDataPlanStatusChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnectioncostevents-connectiondataplanstatuschanged
+      - name: "INetworkConnectionEvents"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkconnectionevents
+        items: 
+        - name: "NetworkConnectionConnectivityChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnectionevents-networkconnectionconnectivitychanged
+        - name: "NetworkConnectionPropertyChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkconnectionevents-networkconnectionpropertychanged
+      - name: "INetworkCostManager"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkcostmanager
+        items: 
+        - name: "GetCost Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkcostmanager-getcost
+        - name: "GetDataPlanStatus Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkcostmanager-getdataplanstatus
+        - name: "SetDestinationAddresses Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkcostmanager-setdestinationaddresses
+      - name: "INetworkCostManagerEvents"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkcostmanagerevents
+        items: 
+        - name: "CostChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-costchanged
+        - name: "DataPlanStatusChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged
+      - name: "INetworkEvents"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworkevents
+        items: 
+        - name: "NetworkAdded Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkevents-networkadded
+        - name: "NetworkConnectivityChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkevents-networkconnectivitychanged
+        - name: "NetworkDeleted Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkevents-networkdeleted
+        - name: "NetworkPropertyChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworkevents-networkpropertychanged
+      - name: "INetworkListManager"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworklistmanager
+        items: 
+        - name: "ClearSimulatedProfileInfo method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo
+        - name: "get_IsConnected Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-get_isconnected
+        - name: "get_IsConnectedToInternet Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-get_isconnectedtointernet
+        - name: "GetConnectivity Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-getconnectivity
+        - name: "GetNetwork Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-getnetwork
+        - name: "GetNetworkConnection Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-getnetworkconnection
+        - name: "GetNetworkConnections Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-getnetworkconnections
+        - name: "GetNetworks Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-getnetworks
+        - name: "SetSimulatedProfileInfo method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo
+      - name: "INetworkListManagerEvents"
+        href: /windows/desktop/api/Netlistmgr/nn-netlistmgr-inetworklistmanagerevents
+        items: 
+        - name: "ConnectivityChanged Method"
+          href: /windows/desktop/api/Netlistmgr/nf-netlistmgr-inetworklistmanagerevents-connectivitychanged
+    - name: "NLM Structures"
+      href: nlm-structures.md
+      items: 
+      - name: "NLM_SIMULATED_PROFILE_INFO"
+        href: /windows/desktop/api/Netlistmgr/ns-netlistmgr-nlm_simulated_profile_info
+      - name: "NLM_SOCKADDR"
+        href: /windows/desktop/api/Netlistmgr/ns-netlistmgr-nlm_sockaddr
+      - name: "NLM_USAGE_DATA"
+        href: /windows/desktop/api/Netlistmgr/ns-netlistmgr-nlm_usage_data
+      - name: "NLM_DATAPLAN_STATUS"
+        href: /windows/desktop/api/Netlistmgr/ns-netlistmgr-nlm_dataplan_status
+    - name: "NLM Enumerations"
+      href: nlm-enumerations.md
+      items: 
+      - name: "NLM_INTERNET_CONNECTIVITY"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_internet_connectivity
+      - name: "NLM_NETWORK_CLASS"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_network_class
+      - name: "NLM_CONNECTION_COST"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_cost
+      - name: "NLM_CONNECTION_PROPERTY_CHANGE"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_property_change
+      - name: "NLM_CONNECTIVITY"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connectivity
+      - name: "NLM_DOMAIN_TYPE"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_domain_type
+      - name: "NLM_ENUM_NETWORK"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_enum_network
+      - name: "NLM_NETWORK_CATEGORY"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_network_category
+      - name: "NLM_NETWORK_PROPERTY_CHANGE"
+        href: /windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_network_property_change
+  - name: "On Demand Connection Routing Helper API reference"
+    href: on-demand-connection-routing-helper-api.md
+    items: 
+    - name: "NET_INTERFACE_CONTEXT"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/ns-ondemandconnroutehelper-_net_interface_context
+    - name: "NET_INTERFACE_CONTEXT_TABLE"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/ns-ondemandconnroutehelper-_net_interface_context_table
+    - name: "GetInterfaceContextTableForHostName"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname
+    - name: "FreeInterfaceContextTable"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-freeinterfacecontexttable
+    - name: "OnDemandRegisterNotification"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-ondemandregisternotification
+    - name: "OnDemandUnregisterNotification"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-ondemandunregisternotification
+    - name: "OnDemandGetRoutingHint"
+      href: /windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-ondemandgetroutinghint

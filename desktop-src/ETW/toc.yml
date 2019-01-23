@@ -1,0 +1,788 @@
+- name: "Event Tracing"
+  href: event-tracing-portal.md
+  items: 
+  - name: "What's New in Event Tracing"
+    href: what-s-new-in-event-tracing.md
+  - name: "About Event Tracing"
+    href: about-event-tracing.md
+    items: 
+    - name: "Event Tracing Sessions"
+      href: event-tracing-sessions.md
+    - name: "Device Drivers"
+      href: device-drivers.md
+  - name: "Using Event Tracing"
+    href: using-event-tracing.md
+    items: 
+    - name: "Controlling Event Tracing Sessions"
+      href: controlling-event-tracing-sessions.md
+      items: 
+      - name: "Configuring and Starting an Event Tracing Session"
+        href: configuring-and-starting-an-event-tracing-session.md
+        items: 
+        - name: "Example that Creates a Session and Enables a Manifest-based or Classic Provider"
+          href: example-that-creates-a-session-and-enables-a-manifest-based-provider.md
+      - name: "Configuring and Starting a SystemTraceProvider Session"
+        href: configuring-and-starting-a-systemtraceprovider-session.md
+        items: 
+        - name: "Configuring and Starting the NT Kernel Logger Session"
+          href: configuring-and-starting-the-nt-kernel-logger-session.md
+      - name: "Configuring and Starting an AutoLogger Session"
+        href: configuring-and-starting-an-autologger-session.md
+        items: 
+        - name: "Configuring and Starting the Global Logger Session"
+          href: configuring-and-starting-the-global-logger-session.md
+      - name: "Configuring and Starting a Private Logger Session"
+        href: configuring-and-starting-a-private-logger-session.md
+      - name: "Updating an Event Tracing Session"
+        href: updating-an-event-tracing-session.md
+      - name: "Retrieving Additional Event Tracing Data"
+        href: retrieving-additional-event-tracing-data.md
+    - name: "Providing Events"
+      href: providing-events.md
+      items: 
+      - name: "Writing Events"
+        href: writing-events.md
+        items: 
+        - name: "Writing Manifest-based Events"
+          href: writing-manifest-based-events.md
+        - name: "Writing MOF (Classic) Events"
+          href: tracing-events.md
+        - name: "Writing WPP Events"
+          href: windows-software-trace-preprocessor.md
+        - name: "Obtaining a Provider and Class GUID"
+          href: obtaining-a-provider-and-class-guid.md
+        - name: "Provider Traits"
+          href: provider-traits.md
+      - name: "Writing Related Events in an End-to-End Scenario"
+        href: writing-related-events-in-an-end-to-end-scenario.md
+        items: 
+        - name: "Writing Related Events in a Manifest-based Provider"
+          href: writing-related-events-in-a-manifest-base-provider.md
+        - name: "Writing Related Events in a Classic Provider"
+          href: tracing-event-instances.md
+      - name: "Publishing Your Event Schema"
+        href: publishing-your-event-schema.md
+        items: 
+        - name: "Publishing Your Event Schema for a Manifest-based Provider"
+          href: publishing-your-event-schema-for-a-manifest-base-provider.md
+        - name: "Publishing Your Event Schema for a Classic Provider"
+          href: publishing-your-event-schema-for-a-classic-provider.md
+    - name: "Consuming Events"
+      href: consuming-events.md
+      items: 
+      - name: "Retrieving Event Data"
+        href: retrieving-event-data.md
+        items: 
+        - name: "Event Metadata Overview"
+          href: event-metadata-overview.md
+        - name: "Retrieving Event Data Using TDH"
+          href: retrieving-event-data-using-tdh.md
+          items: 
+          - name: "Using TdhFormatProperty to Consume Event Data"
+            href: using-tdhformatproperty-to-consume-event-data.md
+          - name: "Using TdhGetProperty to Consume Event Data"
+            href: using-tdhgetproperty-to-consume-event-data.md
+          - name: "Enumerating Providers"
+            href: enumerating-providers.md
+          - name: "Retrieving Event Metadata"
+            href: retrieving-event-metadata.md
+        - name: "Retrieving Event Data Using MOF"
+          href: retrieving-event-data-using-mof.md
+      - name: "Using Events to Calculate CPU Usage"
+        href: using-events-to-calculate-cpu-usage.md
+  - name: "Event Tracing Reference"
+    href: event-tracing-reference.md
+    items: 
+    - name: "Event Tracing Constants"
+      href: event-tracing-constants.md
+      items: 
+      - name: "NT Kernel Logger Constants"
+        href: nt-kernel-logger-constants.md
+      - name: "Logging Mode Constants"
+        href: logging-mode-constants.md
+    - name: "Event Tracing Enumerations"
+      href: event-tracing-enumerations.md
+      items: 
+      - name: "DECODING_SOURCE"
+        href: /windows/desktop/api/Tdh/ne-tdh-_decoding_source
+      - name: "ETW_PROCESS_HANDLE_INFO_TYPE"
+        href: etw-process-handle-info-type.md
+      - name: "EVENT_FIELD_TYPE"
+        href: /windows/desktop/api/Tdh/ne-tdh-_event_field_type
+      - name: "EVENT_INFO_CLASS"
+        href: /windows/desktop/api/Evntprov/ne-evntprov-_event_info_class
+      - name: "EVENTSECURITYOPERATION"
+        href: /windows/desktop/api/Evntcons/ne-evntcons-eventsecurityoperation
+      - name: "MAP_FLAGS"
+        href: /windows/desktop/api/Tdh/ne-tdh-_map_flags
+      - name: "MAP_VALUETYPE"
+        href: /windows/desktop/api/Tdh/ne-tdh-_map_valuetype
+      - name: "PROPERTY_FLAGS"
+        href: /windows/desktop/api/Tdh/ne-tdh-_property_flags
+      - name: "TDH_CONTEXT_TYPE"
+        href: /windows/desktop/api/Tdh/ne-tdh-_tdh_context_type
+      - name: "TEMPLATE_FLAGS"
+        href: /windows/desktop/api/Tdh/ne-tdh-_template_flags
+      - name: "TRACE_INFO_CLASS"
+        href: trace-info-class.md
+    - name: "Event Tracing Functions"
+      href: event-tracing-functions.md
+      items: 
+      - name: "PEVENT_TRACE_BUFFER_CALLBACK"
+        href: buffercallback.md
+      - name: "CloseTrace"
+        href: closetrace.md
+      - name: "WMIDPREQUEST"
+        href: controlcallback.md
+      - name: "ControlTrace"
+        href: controltrace.md
+      - name: "CreateTraceInstanceId"
+        href: createtraceinstanceid.md
+      - name: "CveEventWrite"
+        href: /windows/desktop/api/SecurityBaseAPI/nf-securitybaseapi-cveeventwrite
+      - name: "EnableCallback"
+        href: /windows/desktop/api/Evntprov/nc-evntprov-penablecallback
+      - name: "EnableTrace"
+        href: enabletrace.md
+      - name: "EnableTraceEx"
+        href: enabletraceex-func.md
+      - name: "EnableTraceEx2"
+        href: enabletraceex2.md
+      - name: "EnumerateTraceGuids"
+        href: enumeratetraceguids.md
+      - name: "EnumerateTraceGuidsEx"
+        href: enumeratetraceguidsex.md
+      - name: "EventAccessControl"
+        href: /windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol
+      - name: "EventAccessQuery"
+        href: /windows/desktop/api/Evntcons/nf-evntcons-eventaccessquery
+      - name: "EventAccessRemove"
+        href: /windows/desktop/api/Evntcons/nf-evntcons-eventaccessremove
+      - name: "EventActivityIdControl"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventactivityidcontrol
+      - name: "PEVENT_CALLBACK"
+        href: eventcallback.md
+      - name: "EventClassCallback"
+        href: eventclasscallback.md
+      - name: "EventEnabled"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventenabled
+      - name: "EventProviderEnabled"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventproviderenabled
+      - name: "PEVENT_RECORD_CALLBACK"
+        href: eventrecordcallback.md
+      - name: "EventRegister"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventregister
+      - name: "EventSetInformation"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventsetinformation
+      - name: "EventUnregister"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventunregister
+      - name: "EventWrite"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventwrite
+      - name: "EventWriteEx"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventwriteex
+      - name: "EventWriteString"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventwritestring
+      - name: "EventWriteTransfer"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventwritetransfer
+      - name: "FlushTrace"
+        href: flushtrace.md
+      - name: "GetTraceEnableFlags"
+        href: gettraceenableflags.md
+      - name: "GetTraceEnableLevel"
+        href: gettraceenablelevel.md
+      - name: "GetTraceLoggerHandle"
+        href: gettraceloggerhandle.md
+      - name: "OpenTrace"
+        href: opentrace.md
+      - name: "ProcessTrace"
+        href: processtrace.md
+      - name: "QueryAllTraces"
+        href: queryalltraces.md
+      - name: "QueryTrace"
+        href: querytrace.md
+      - name: "QueryTraceProcessingHandle"
+        href: querytraceprocessinghandle.md
+      - name: "RegisterTraceGuids"
+        href: registertraceguids.md
+      - name: "RemoveTraceCallback"
+        href: removetracecallback.md
+      - name: "SetTraceCallback"
+        href: settracecallback.md
+      - name: "StartTrace"
+        href: starttrace.md
+      - name: "StopTrace"
+        href: stoptrace.md
+      - name: "TdhAggregatePayloadFilters"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters
+      - name: "TdhCleanupPayloadEventFilterDescriptor"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor
+      - name: "TdhCloseDecodingHandle"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhclosedecodinghandle
+      - name: "TdhCreatePayloadFilter"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter
+      - name: "TdhDeletePayloadFilter"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhdeletepayloadfilter
+      - name: "TdhEnumerateManifestProviderEvents"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhenumeratemanifestproviderevents
+      - name: "TdhEnumerateProviderFieldInformation"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfieldinformation
+      - name: "TdhEnumerateProviderFilters"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfilters
+      - name: "TdhEnumerateProviders"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviders
+      - name: "TdhFormatProperty"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhformatproperty
+      - name: "TdhGetDecodingParameter"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgetdecodingparameter
+      - name: "TdhGetEventInformation"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgeteventinformation
+      - name: "TdhGetEventMapInformation"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgeteventmapinformation
+      - name: "TdhGetManifestEventInformation"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgetmanifesteventinformation
+      - name: "TdhGetProperty"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgetproperty
+      - name: "TdhGetPropertySize"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgetpropertysize
+      - name: "TdhGetWppMessage"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgetwppmessage
+      - name: "TdhGetWppProperty"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhgetwppproperty
+      - name: "TdhLoadManifest"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhloadmanifest
+      - name: "TdhLoadManifestFromBinary"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhloadmanifestfrombinary
+      - name: "TdhOpenDecodingHandle"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhopendecodinghandle
+      - name: "TdhQueryProviderFieldInformation"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhqueryproviderfieldinformation
+      - name: "TdhSetDecodingParameter"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhsetdecodingparameter
+      - name: "TdhUnloadManifest"
+        href: /windows/desktop/api/Tdh/nf-tdh-tdhunloadmanifest
+      - name: "TraceEvent"
+        href: traceevent.md
+      - name: "TraceEventInstance"
+        href: traceeventinstance.md
+      - name: "TraceMessage"
+        href: tracemessage.md
+      - name: "TraceMessageVa"
+        href: tracemessageva.md
+      - name: "TraceQueryInformation"
+        href: tracequeryinformation.md
+      - name: "TraceSetInformation"
+        href: tracesetinformation.md
+      - name: "UnregisterTraceGuids"
+        href: unregistertraceguids.md
+      - name: "UpdateTrace"
+        href: updatetrace.md
+    - name: "Event Tracing Interfaces"
+      href: event-tracing-interfaces.md
+      items: 
+      - name: "ITraceEvent"
+        href: /windows/desktop/api/Relogger/nn-relogger-itraceevent
+        items: 
+        - name: "Clone method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-clone
+        - name: "GetEventRecord method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706646(v=VS.85).aspx
+        - name: "GetUserContext method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-getusercontext
+        - name: "SetEventDescriptor method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-seteventdescriptor
+        - name: "SetKernelTime method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706649(v=VS.85).aspx
+        - name: "SetPayload method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setpayload
+        - name: "SetProcessId method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setprocessid
+        - name: "SetProcessorNumber method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706652(v=VS.85).aspx
+        - name: "SetProviderId method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setproviderid
+        - name: "SetThreadId method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-setthreadid
+        - name: "SetTimeStamp method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itraceevent-settimestamp
+        - name: "SetUserTime method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706656(v=VS.85).aspx
+      - name: "ITraceEventCallback"
+        href: /windows/desktop/api/Relogger/nn-relogger-itraceeventcallback
+        items: 
+        - name: "OnBeginProcessTrace method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706642(v=VS.85).aspx
+        - name: "OnEvent method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706643(v=VS.85).aspx
+        - name: "OnFinalizeProcessTrace method"
+          href: https://msdn.microsoft.com/en-us/library/Hh706644(v=VS.85).aspx
+      - name: "ITraceRelogger"
+        href: /windows/desktop/api/Relogger/nn-relogger-itracerelogger
+        items: 
+        - name: "AddLogfileTraceStream method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-addlogfiletracestream
+        - name: "AddRealtimeTraceStream method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-addrealtimetracestream
+        - name: "Cancel method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-cancel
+        - name: "CreateEventInstance method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-createeventinstance
+        - name: "Inject method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-inject
+        - name: "ProcessTrace method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-processtrace
+        - name: "RegisterCallback method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-registercallback
+        - name: "SetCompressionMode method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-setcompressionmode
+        - name: "SetOutputFilename method"
+          href: /windows/desktop/api/Relogger/nf-relogger-itracerelogger-setoutputfilename
+    - name: "Event Tracing Macros"
+      href: event-tracing-macros.md
+      items: 
+      - name: "EventDataDescCreate"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdatadesccreate
+      - name: "EventDescCreate"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdesccreate
+      - name: "EventDescGetChannel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetchannel
+      - name: "EventDescGetId"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetid
+      - name: "EventDescGetKeyword"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetkeyword
+      - name: "EventDescGetLevel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetlevel
+      - name: "EventDescGetOpcode"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetopcode
+      - name: "EventDescGetTask"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgettask
+      - name: "EventDescGetVersion"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescgetversion
+      - name: "EventDescOrKeyword"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescorkeyword
+      - name: "EventDescSetChannel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetchannel
+      - name: "EventDescSetId"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetid
+      - name: "EventDescSetKeyword"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetkeyword
+      - name: "EventDescSetLevel"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetlevel
+      - name: "EventDescSetOpcode"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetopcode
+      - name: "EventDescSetTask"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsettask
+      - name: "EventDescSetVersion"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdescsetversion
+      - name: "EventDescZero"
+        href: /windows/desktop/api/Evntprov/nf-evntprov-eventdesczero
+    - name: "Event Tracing MOF Classes"
+      href: event-tracing-mof-classes.md
+      items: 
+      - name: "EventTrace"
+        href: eventtrace.md
+        items: 
+        - name: "MSNT_SystemTrace"
+          href: msnt-systemtrace.md
+          items: 
+          - name: "ALPC"
+            href: alpc.md
+            items: 
+            - name: "ALPC_Receive_Message"
+              href: alpc-receive-message.md
+            - name: "ALPC_Send_Message"
+              href: alpc-send-message.md
+            - name: "ALPC_Unwait"
+              href: alpc-unwait.md
+            - name: "ALPC_Wait_For_New_Message"
+              href: alpc-wait-for-new-message.md
+            - name: "ALPC_Wait_For_Reply"
+              href: alpc-wait-for-reply.md
+          - name: "DiskIo"
+            href: diskio.md
+            items: 
+            - name: "DiskIo_TypeGroup1"
+              href: diskio-typegroup1.md
+            - name: "DiskIo_TypeGroup2"
+              href: diskio-typegroup2.md
+            - name: "DiskIo_TypeGroup3"
+              href: diskio-typegroup3.md
+            - name: "DriverCompleteRequest"
+              href: drivercompleterequest.md
+            - name: "DriverCompleteRequestReturn"
+              href: drivercompleterequestreturn.md
+            - name: "DriverCompletionRoutine"
+              href: drivercompletionroutine.md
+            - name: "DriverMajorFunctionCall"
+              href: drivermajorfunctioncall.md
+            - name: "DriverMajorFunctionReturn"
+              href: drivermajorfunctionreturn.md
+          - name: "EventTraceEvent"
+            href: eventtraceevent.md
+            items: 
+            - name: "EventTrace_Header"
+              href: eventtrace-header.md
+          - name: "FileIo"
+            href: fileio.md
+            items: 
+            - name: "FileIo_Create"
+              href: fileio-create.md
+            - name: "FileIo_DirEnum"
+              href: fileio-direnum.md
+            - name: "FileIo_Info"
+              href: fileio-info.md
+            - name: "FileIo_Name"
+              href: fileio-name.md
+            - name: "FileIo_OpEnd"
+              href: fileio-opend.md
+            - name: "FileIo_ReadWrite"
+              href: fileio-readwrite.md
+            - name: "FileIo_SimpleOp"
+              href: fileio-simpleop.md
+          - name: "FileIo_V0"
+            href: fileio-v0.md
+            items: 
+            - name: "FileIo_V0_Name"
+              href: fileio-v0-name.md
+          - name: "FileIo_V1"
+            href: fileio-v1.md
+            items: 
+            - name: "FileIo_V1_Name"
+              href: fileio-v1-name.md
+          - name: "HWConfig"
+            href: hwconfig.md
+            items: 
+            - name: "HWConfig_CPU"
+              href: hwconfig-cpu.md
+            - name: "HWConfig_LogDisk"
+              href: hwconfig-logdisk.md
+            - name: "HWConfig_NIC"
+              href: hwconfig-nic.md
+            - name: "HWConfig_PhyDisk"
+              href: hwconfig-phydisk.md
+          - name: "Image"
+            href: image.md
+            items: 
+            - name: "Image_Load"
+              href: image-load.md
+          - name: "Image_V0"
+            href: image-v0.md
+            items: 
+            - name: "Image_V0_Load"
+              href: image-v0-load.md
+          - name: "Image_V1"
+            href: image-v1.md
+            items: 
+            - name: "Image_V1_Load"
+              href: image-v1-load.md
+          - name: "Lost_Event"
+            href: lost-event.md
+            items: 
+            - name: "RT_LostEvent"
+              href: rt-lostevent.md
+          - name: "ObTrace"
+            href: obtrace.md
+            items: 
+            - name: "ObHandleDuplicateEvent"
+              href: obhandleduplicateevent.md
+            - name: "ObHandleEvent"
+              href: obhandleevent.md
+            - name: "ObHandleRundownEvent"
+              href: obhandlerundownevent.md
+            - name: "ObTypeEvent"
+              href: obtypeevent.md
+          - name: "PageFault_V2"
+            href: pagefault-v2.md
+            items: 
+            - name: "PageFault_HardFault"
+              href: pagefault-hardfault.md
+            - name: "PageFault_ImageLoadBacked"
+              href: pagefault-imageloadbacked.md
+            - name: "PageFault_TransitionFault"
+              href: pagefault-transitionfault.md
+            - name: "PageFault_TypeGroup1"
+              href: pagefault-typegroup1.md
+            - name: "PageFault_VirtualAlloc"
+              href: pagefault-virtualalloc.md
+          - name: "PerfInfo"
+            href: perfinfo.md
+            items: 
+            - name: "DPC"
+              href: dpc.md
+            - name: "ISR"
+              href: isr.md
+            - name: "SampledProfile"
+              href: sampledprofile.md
+            - name: "SysCallEnter"
+              href: syscallenter.md
+            - name: "SysCallExit"
+              href: syscallexit.md
+          - name: "Process"
+            href: process.md
+            items: 
+            - name: "Process_TypeGroup1"
+              href: process-typegroup1.md
+          - name: "Process_V0"
+            href: process-v0.md
+            items: 
+            - name: "Process_V0_TypeGroup1"
+              href: process-v0-typegroup1.md
+          - name: "Process_V1"
+            href: process-v1.md
+            items: 
+            - name: "Process_V1_TypeGroup1"
+              href: process-v1-typegroup1.md
+          - name: "Process_V2"
+            href: process-v2.md
+            items: 
+            - name: "Process_V2_TypeGroup1"
+              href: process-v2-typegroup1.md
+            - name: "Process_V2_TypeGroup2"
+              href: process-v2-typegroup2.md
+          - name: "Registry"
+            href: registry.md
+            items: 
+            - name: "Registry_TypeGroup1"
+              href: registry-typegroup1.md
+          - name: "Registry_V0"
+            href: registry-v0.md
+            items: 
+            - name: "Registry_V0_TypeGroup1"
+              href: registry-v0-typegroup1.md
+          - name: "Registry_V1"
+            href: registry-v1.md
+            items: 
+            - name: "Registry_V1_TypeGroup1"
+              href: registry-v1-typegroup1.md
+          - name: "SplitIo"
+            href: splitio.md
+            items: 
+            - name: "SplitIo_Info"
+              href: splitio-info.md
+          - name: "StackWalk"
+            href: stackwalk.md
+            items: 
+            - name: "StackWalk_Event"
+              href: stackwalk-event.md
+          - name: "SystemConfig"
+            href: systemconfig.md
+            items: 
+            - name: "SystemConfig_CPU"
+              href: systemconfig-cpu.md
+            - name: "SystemConfig_IDEChannel"
+              href: systemconfig-idechannel.md
+            - name: "SystemConfig_IRQ"
+              href: systemconfig-irq.md
+            - name: "SystemConfig_LogDisk"
+              href: systemconfig-logdisk.md
+            - name: "SystemConfig_Network"
+              href: systemconfig-network.md
+            - name: "SystemConfig_NIC"
+              href: systemconfig-nic.md
+            - name: "SystemConfig_PhyDisk"
+              href: systemconfig-phydisk.md
+            - name: "SystemConfig_PnP"
+              href: systemconfig-pnp.md
+            - name: "SystemConfig_Power"
+              href: systemconfig-power.md
+            - name: "SystemConfig_Services"
+              href: systemconfig-services.md
+            - name: "SystemConfig_Video"
+              href: systemconfig-video.md
+          - name: "SystemConfig_V0"
+            href: systemconfig-v0.md
+            items: 
+            - name: "SystemConfig_V0_CPU"
+              href: systemconfig-v0-cpu.md
+            - name: "SystemConfig_V0_LogDisk"
+              href: systemconfig-v0-logdisk.md
+            - name: "SystemConfig_V0_NIC"
+              href: systemconfig-v0-nic.md
+            - name: "SystemConfig_V0_PhyDisk"
+              href: systemconfig-v0-phydisk.md
+            - name: "SystemConfig_V0_Power"
+              href: systemconfig-v0-power.md
+            - name: "SystemConfig_V0_Services"
+              href: systemconfig-v0-services.md
+            - name: "SystemConfig_V0_Video"
+              href: systemconfig-v0-video.md
+          - name: "TcpIp"
+            href: tcpip.md
+            items: 
+            - name: "TcpIp_Fail"
+              href: tcpip-fail.md
+            - name: "TcpIp_SendIPV4"
+              href: tcpip-sendipv4.md
+            - name: "TcpIp_SendIPV6"
+              href: tcpip-sendipv6.md
+            - name: "TcpIp_TypeGroup1"
+              href: tcpip-typegroup1.md
+            - name: "TcpIp_TypeGroup2"
+              href: tcpip-typegroup2.md
+            - name: "TcpIp_TypeGroup3"
+              href: tcpip-typegroup3.md
+            - name: "TcpIp_TypeGroup4"
+              href: tcpip-typegroup4.md
+          - name: "TcpIp_V0"
+            href: tcpip-v0.md
+            items: 
+            - name: "TcpIp_V0_TypeGroup1"
+              href: tcpip-v0-typegroup1.md
+          - name: "TcpIp_V1"
+            href: tcpip-v1.md
+            items: 
+            - name: "TcpIp_V1_TypeGroup1"
+              href: tcpip-v1-typegroup1.md
+          - name: "Thread"
+            href: thread.md
+            items: 
+            - name: "Thread_TypeGroup1"
+              href: thread-typegroup1.md
+          - name: "Thread_V0"
+            href: thread-v0.md
+            items: 
+            - name: "Thread_V0_TypeGroup1"
+              href: thread-v0-typegroup1.md
+          - name: "Thread_V1"
+            href: thread-v1.md
+            items: 
+            - name: "Thread_V1_TypeGroup1"
+              href: thread-v1-typegroup1.md
+            - name: "Thread_V1_TypeGroup2"
+              href: thread-v1-typegroup2.md
+          - name: "Thread_V2"
+            href: thread-v2.md
+            items: 
+            - name: "CSwitch"
+              href: cswitch.md
+            - name: "Thread_V2_TypeGroup1"
+              href: thread-v2-typegroup1.md
+            - name: "ReadyThread"
+              href: readythread.md
+          - name: "UdpIp"
+            href: udpip.md
+            items: 
+            - name: "UdpIp_Fail"
+              href: udpip-fail.md
+            - name: "UdpIp_TypeGroup1"
+              href: udpip-typegroup1.md
+            - name: "UdpIp_TypeGroup2"
+              href: udpip-typegroup2.md
+          - name: "UdpIp_V0"
+            href: udpip-v0.md
+            items: 
+            - name: "UdpIp_V0_TypeGroup1"
+              href: udpip-v0-typegroup1.md
+          - name: "UdpIp_V1"
+            href: udpip-v1.md
+            items: 
+            - name: "UdpIp_V1_TypeGroup1"
+              href: udpip-v1-typegroup1.md
+    - name: "Event Tracing MOF Qualifiers"
+      href: event-tracing-mof-qualifiers.md
+    - name: "Event Tracing Tools"
+      href: event-tracing-tools.md
+    - name: "Event Tracing Samples"
+      href: event-tracing-samples.md
+    - name: "Event Tracing Structures"
+      href: event-tracing-structures.md
+      items: 
+      - name: "ETW_TRACE_PARTITION_INFORMATION"
+        href: etw-trace-partition-information.md
+      - name: "CLASSIC_EVENT_ID"
+        href: classic-event-id.md
+      - name: "ENABLE_TRACE_PARAMETERS"
+        href: enable-trace-parameters.md
+      - name: "ENABLE_TRACE_PARAMETERS_V1"
+        href: enable-trace-parameters-v1.md
+      - name: "ETW_BUFFER_CONTEXT"
+        href: /windows/desktop/api/relogger/ns-relogger-_etw_buffer_context
+      - name: "EVENT_DATA_DESCRIPTOR"
+        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_data_descriptor
+      - name: "EVENT_DESCRIPTOR"
+        href: https://msdn.microsoft.com/en-us/library/Aa363754(v=VS.85).aspx
+      - name: "EVENT_EXTENDED_ITEM_INSTANCE"
+        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_instance
+      - name: "EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
+        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_related_activityid
+      - name: "EVENT_EXTENDED_ITEM_STACK_TRACE32"
+        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace32
+      - name: "EVENT_EXTENDED_ITEM_STACK_TRACE64"
+        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace64
+      - name: "EVENT_EXTENDED_ITEM_TS_ID"
+        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_ts_id
+      - name: "EVENT_FILTER_DESCRIPTOR"
+        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor
+      - name: "EVENT_FILTER_EVENT_NAME"
+        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_name
+      - name: "EVENT_FILTER_LEVEL_KW"
+        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_level_kw
+      - name: "EVENT_FILTER_EVENT_ID"
+        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_id
+      - name: "EVENT_FILTER_HEADER"
+        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_header
+      - name: "EVENT_HEADER"
+        href: https://msdn.microsoft.com/en-us/library/Aa363759(v=VS.85).aspx
+      - name: "EVENT_HEADER_EXTENDED_DATA_ITEM"
+        href: https://msdn.microsoft.com/en-us/library/Aa363760(v=VS.85).aspx
+      - name: "EVENT_INSTANCE_HEADER"
+        href: event-instance-header.md
+      - name: "EVENT_INSTANCE_INFO"
+        href: event-instance-info.md
+      - name: "EVENT_MAP_ENTRY"
+        href: /windows/desktop/api/Tdh/ns-tdh-_event_map_entry
+      - name: "EVENT_MAP_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_event_map_info
+      - name: "EVENT_PROPERTY_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_event_property_info
+      - name: "EVENT_RECORD"
+        href: https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx
+      - name: "EVENT_TRACE"
+        href: event-trace.md
+      - name: "EVENT_TRACE_HEADER"
+        href: event-trace-header.md
+      - name: "EVENT_TRACE_LOGFILE"
+        href: event-trace-logfile.md
+      - name: "EVENT_TRACE_PROPERTIES"
+        href: event-trace-properties.md
+      - name: "EVENT_TRACE_PROPERTIES_V2"
+        href: event-trace-properties-v2.md
+      - name: "MOF_FIELD"
+        href: mof-field.md
+      - name: "PAYLOAD_FILTER_PREDICATE"
+        href: /windows/desktop/api/Tdh/ns-tdh-_payload_filter_predicate
+      - name: "PROPERTY_DATA_DESCRIPTOR"
+        href: /windows/desktop/api/Tdh/ns-tdh-_property_data_descriptor
+      - name: "PROVIDER_ENUMERATION_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_provider_enumeration_info
+      - name: "PROVIDER_EVENT_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_provider_event_info
+      - name: "PROVIDER_FIELD_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_provider_field_info
+      - name: "PROVIDER_FIELD_INFOARRAY"
+        href: /windows/desktop/api/Tdh/ns-tdh-_provider_field_infoarray
+      - name: "PROVIDER_FILTER_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_provider_filter_info
+      - name: "TDH_CONTEXT"
+        href: /windows/desktop/api/Tdh/ns-tdh-_tdh_context
+      - name: "TRACE_ENABLE_INFO"
+        href: trace-enable-info.md
+      - name: "TRACE_EVENT_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_trace_event_info
+      - name: "TRACE_GUID_INFO"
+        href: trace-guid-info.md
+      - name: "TRACE_GUID_PROPERTIES"
+        href: trace-guid-properties.md
+      - name: "TRACE_GUID_REGISTRATION"
+        href: trace-guid-registration.md
+      - name: "TRACE_LOGFILE_HEADER"
+        href: trace-logfile-header.md
+      - name: "TRACE_PERIODIC_CAPTURE_STATE_INFO"
+        href: trace-periodic-capture-state-info.md
+      - name: "TRACE_PROVIDER_INFO"
+        href: /windows/desktop/api/Tdh/ns-tdh-_trace_provider_info
+      - name: "TRACE_PROVIDER_INSTANCE_INFO"
+        href: trace-provider-instance-info.md
+      - name: "TRACE_VERSION_INFO"
+        href: trace-version-info.md
+      - name: "WNODE_HEADER"
+        href: wnode-header.md
