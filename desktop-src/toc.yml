@@ -298,8 +298,10 @@
       - name: "Networking and Internet"
         href: networking.md
         items: 
+        - name: "Delivery Optimization"
+          href: delivery_optimization/delivery-optimization-portal.md
         - name: "Domain Name System"
-          href: dns/dns-start-page.md
+          href: dns/dns-start-page.md          
         - name: "HTTP Server API"
           href: http/http-api-start-page.md
         - name: "IP Helper"
