@@ -142,7 +142,7 @@ Set the following attributes on the output media type.
 <li>20000</li>
 <li>24000</li>
 </ul>
-The default value for both mono and stereo is 1200 (96 Kbps).<br/></td>
+The default value for both mono and stereo is 12000 (96 Kbps).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a></td>
