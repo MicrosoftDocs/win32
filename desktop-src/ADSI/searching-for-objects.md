@@ -49,7 +49,7 @@ Wend
 
 To perform an ADSI search in Visual Basic or a scripting environment, three ADO components are required: **Connection**, **Command**, and **Recordset**. The **Connection** object enables you to specify the provider name, alternate credentials, if applicable, and other flags. The **Command** object enables you to specify search preferences and the query string. You must associate the **Connection** object to a **Command** object before the execution of the query. Finally, the **Recordset** object is used to iterate the result set.
 
-ADSI supports two types of query strings or dialects. The preceding code example uses the SQL dialect. You can also use the LDAP dialect. The LDAP dialect query string is based on [RFC 2254](http://go.microsoft.com/fwlink/p/?linkid=84037) (an RFC is a Request For Comments document, which is the basis for developing LDAP standards). The preceding example can be translated to the following code example.
+ADSI supports two types of query strings or dialects. The preceding code example uses the SQL dialect. You can also use the LDAP dialect. The LDAP dialect query string is based on [RFC 2254](https://go.microsoft.com/fwlink/p/?linkid=84037) (an RFC is a Request For Comments document, which is the basis for developing LDAP standards). The preceding example can be translated to the following code example.
 
 
 ```VB

@@ -126,7 +126,7 @@ Before you move on to actually reading metadata, look at the following diagram o
 
 ![illustration of jpeg image with metadata callouts](graphics/jpegwithcallouts.png)
 
-To query for embedded metadata blocks or specific items by name, call the **GetMetadataByName** method. This method takes a query expression and a [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) in which the metadata item is returned. The following code queries for a nested metadata block and converts the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx) component provided by the PROPVARIANT value to a query reader if found.
+To query for embedded metadata blocks or specific items by name, call the **GetMetadataByName** method. This method takes a query expression and a [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) in which the metadata item is returned. The following code queries for a nested metadata block and converts the [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx) component provided by the PROPVARIANT value to a query reader if found.
 
 
 ```
@@ -144,7 +144,7 @@ if (SUCCEEDED(hr))
 
 
 
-The query expression "/app1/ifd" is querying for the IFD block nested in the App1 block. The JPEG image file contains the IFD nested metadata block, so the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) is returned with a variable type (vt) of `VT_UNKNOWN` and a pointer to an [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx) interface (punkVal). You then query the IUnknown interface for a query reader.
+The query expression "/app1/ifd" is querying for the IFD block nested in the App1 block. The JPEG image file contains the IFD nested metadata block, so the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) is returned with a variable type (vt) of `VT_UNKNOWN` and a pointer to an [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx) interface (punkVal). You then query the IUnknown interface for a query reader.
 
 The following code demonstrates a new query based on the new query reader relative to the nested IFD block.
 
@@ -159,7 +159,7 @@ if (SUCCEEDED(hr))
 
 
 
-The query expression "/{ushort=18249}" queries the IFD block for the MicrosoftPhoto rating embedded under tag 18249. The [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) value will now contain a value type of `VT_UI2` and a data value of 50.
+The query expression "/{ushort=18249}" queries the IFD block for the MicrosoftPhoto rating embedded under tag 18249. The [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) value will now contain a value type of `VT_UI2` and a data value of 50.
 
 However, it is not necessary to obtain a nested block before querying for specific data values. For instance, instead of querying for the nested IFD and then for the MicrosoftPhoto rating, you can instead use the root metadata block and the query shown in the following code to obtain the same information.
 
@@ -287,7 +287,7 @@ if(SUCCEEDED(hr) && pFrameQReader)
 
 ### Adding Metadata
 
-After you obtain a query writer, you can use it to add metadata blocks and items. To write metadata, you use the query writer's **SetMetadataByName** method. **SetMetadataByName** takes two parameters: a query expression (*wzName*) and a pointer to a [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) (*pvarValue*). The query expression defines the block or item to set while the PROPVARIANT provides the actual data value to set.
+After you obtain a query writer, you can use it to add metadata blocks and items. To write metadata, you use the query writer's **SetMetadataByName** method. **SetMetadataByName** takes two parameters: a query expression (*wzName*) and a pointer to a [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) (*pvarValue*). The query expression defines the block or item to set while the PROPVARIANT provides the actual data value to set.
 
 The following example demonstrates how to add a title by using the XMP query writer previously obtained by using the **CreateQueryWriter** method.
 
@@ -310,9 +310,9 @@ if (SUCCEEDED(hr))
 
 
 
-In this example, value's type (vt) is set to `VT_LPWSTR`, indicating that a string will be used as the data value. Because *value*'s type is a string, *pwszVal* is used to set the title to use. **SetMetadataByName** is then called using the query expression "/dc:title" and the newly set [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx). The query expression used indicates that the title property in the digital camera (dc) schema should be set. Note that the expression is not "/xmp/dc:title"; this is because the query writer is already specific to XMP and does not contain an embedded XMP block, which "/xmp/dc:title" would suggest.
+In this example, value's type (vt) is set to `VT_LPWSTR`, indicating that a string will be used as the data value. Because *value*'s type is a string, *pwszVal* is used to set the title to use. **SetMetadataByName** is then called using the query expression "/dc:title" and the newly set [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx). The query expression used indicates that the title property in the digital camera (dc) schema should be set. Note that the expression is not "/xmp/dc:title"; this is because the query writer is already specific to XMP and does not contain an embedded XMP block, which "/xmp/dc:title" would suggest.
 
-Up to this point you haven't actually added any metadata to an image frame. You've simply populated a query writer with data. To add to a frame a metadata block represented by the query writer, you again call **SetMetadataByName** using the query writer as the value of the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx). This effectively copies the metadata in the query writer to the image frame. The following code demonstrates how to add the metadata in the XMP query writer previously obtained to a frame's root metadata block.
+Up to this point you haven't actually added any metadata to an image frame. You've simply populated a query writer with data. To add to a frame a metadata block represented by the query writer, you again call **SetMetadataByName** using the query writer as the value of the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx). This effectively copies the metadata in the query writer to the image frame. The following code demonstrates how to add the metadata in the XMP query writer previously obtained to a frame's root metadata block.
 
 
 ```
@@ -340,7 +340,7 @@ if (SUCCEEDED(hr))
 
 
 
-In this example, a value type (vt) of `VT_UNKOWN` is used; indicating a COM interface value type. The XMP query writer (piXMPWriter) is then used as the value of the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx), adding a reference to it by using the AddRef method. Finally, the XMP query writer is set by calling the frame's **SetMetadataByName** method and passing the query expression "/", indicating the root block, and the newly set PROPVARIANT.
+In this example, a value type (vt) of `VT_UNKOWN` is used; indicating a COM interface value type. The XMP query writer (piXMPWriter) is then used as the value of the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx), adding a reference to it by using the AddRef method. Finally, the XMP query writer is set by calling the frame's **SetMetadataByName** method and passing the query expression "/", indicating the root block, and the newly set PROPVARIANT.
 
 > [!Note]  
 > If the frame already contains the metadata block you are trying to add, the metadata you are adding will be added and existing metadata overwritten.
@@ -439,7 +439,7 @@ if (SUCCEEDED(hr) && formatsEqual)
 
 
 
-Here, a query reader is obtained from the decoded frame and then used as the property value of the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) with a value type set to VT\_UNKNOWN. The query writer for the encoder is obtained and the query expression "/" is used to set the metadata at the root navigation path. You can also use this method when setting nested metadata blocks, by adjusting the query expression to the desired location.
+Here, a query reader is obtained from the decoded frame and then used as the property value of the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) with a value type set to VT\_UNKNOWN. The query writer for the encoder is obtained and the query expression "/" is used to set the metadata at the root navigation path. You can also use this method when setting nested metadata blocks, by adjusting the query expression to the desired location.
 
 Similarly, you can create a query writer based on the decoded frame's query reader by using the imaging factory's **CreateQueryWriterFromReader** method. The query writer created in this operation will be prepopulated with the metadata from the query reader and can then be set in the frame. The following code demonstrates the **CreateQueryWriterFromReader** copy operation.
 

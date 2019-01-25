@@ -30,7 +30,7 @@ Tools and techniques:
 
 PREfast for Drivers is a tool offered by Microsoft that analyzes execution paths in compiled C or C++ to help find run-time bugs. PREfast operates by working through all execution paths in all functions and assessing each path for problems. While this tool is normally used to develop drivers and other kernel code, it can help game developers save time by eliminating some bugs that are hard to find or that are ignored by the compiler. Use of PREfast is an excellent way of reducing your post-release workload and support costs.
 
-PREfast comes with Visual Studio Team System and as part of the [Windows Driver Kit](http://www.microsoft.com/whdc/devtools/WDK/). For more information about PREfast, see [PREfast for Drivers](http://www.microsoft.com/whdc/devtools/tools/PREfast.mspx).
+PREfast comes with Visual Studio Team System and as part of the [Windows Driver Kit](https://www.microsoft.com/whdc/devtools/WDK/). For more information about PREfast, see [PREfast for Drivers](https://www.microsoft.com/whdc/devtools/tools/PREfast.mspx).
 
 ## AppVerifier
 
@@ -38,15 +38,15 @@ The Microsoft Application Verifier, or AppVerifier, is a tool that can help test
 
 While not exhaustive, AppVerifier can be one more component of a tester's toolbox to help a development studio release a quality product and reduce potential post-release costs.
 
-For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/Aa480483(v=MSDN.10).aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](http://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/Aa480483(v=MSDN.10).aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
 
-A similar tool for drivers, Driver Verifier, is also available. For more information, see [Using Driver Verifier to Identify Issues with Windows Drivers for Advanced Users](http://support.microsoft.com/Default.aspx?kbid=244617) on Microsoft Help and Support.
+A similar tool for drivers, Driver Verifier, is also available. For more information, see [Using Driver Verifier to Identify Issues with Windows Drivers for Advanced Users](https://support.microsoft.com/Default.aspx?kbid=244617) on Microsoft Help and Support.
 
 ## Microsoft Application Compatibility Toolkit
 
 The Microsoft Application Compatibility Toolkit is a set of free tools to help developers quickly check to see how their releases will perform on newly released service packs for Microsoft Windows. By being ready for new service packs, developers can prevent or be ready for any issues.
 
-The Application Compatibility Toolkit, and more information, can be found at [Windows Application Compatibility](http://www.microsoft.com/technet/prodtechnol/windows/appcompatibility/default.mspx).
+The Application Compatibility Toolkit, and more information, can be found at [Windows Application Compatibility](https://www.microsoft.com/technet/prodtechnol/windows/appcompatibility/default.mspx).
 
 ## User Account Protection Testing
 
@@ -70,7 +70,7 @@ It is a good practice to restore any compiler warnings that were disabled by **\
 
 Microsoft provides an Internet-accessible server that provides symbol files for the Microsoft Windows operating systems, as well as other Microsoft products. Symbols are also available from the server for current betas and release candidates of Windows products, as well as hot fixes and service packs. You can configure the debugger to download symbols as needed during a debugging session, rather than downloading symbol files separately before a debugging session. The symbols are downloaded to a directory location that you specify, and the debugger loads them from there.
 
-For more information about the Microsoft Symbol Server, see [Debugging Tools and Symbols: Getting Started](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx).
+For more information about the Microsoft Symbol Server, see [Debugging Tools and Symbols: Getting Started](https://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx).
 
 ## Windows Error Reporting
 
@@ -80,7 +80,7 @@ For more information about WER, see [Crash Dump Analysis](https://msdn.microsoft
 
 ## Performance Tuning Tools
 
-Developers can use performance analyzers to tune performance of their game. In addition to PIX, there are a number of popular performance analyzers for Windows, such as the [Intel VTune Performance Analyzer](http://software.intel.com/intel-vtune/) and the [AMD CodeAnalyst Performance Analyzer](http://developer.amd.com/cpu/CodeAnalyst/). These tools help with identifying bottlenecks and with deciding how to improve the overall performance of an application. Improving performance bottlenecks prior to release will help bring down post-release costs.
+Developers can use performance analyzers to tune performance of their game. In addition to PIX, there are a number of popular performance analyzers for Windows, such as the [Intel VTune Performance Analyzer](https://software.intel.com/intel-vtune/) and the [AMD CodeAnalyst Performance Analyzer](https://developer.amd.com/cpu/CodeAnalyst/). These tools help with identifying bottlenecks and with deciding how to improve the overall performance of an application. Improving performance bottlenecks prior to release will help bring down post-release costs.
 
 ## Summary
 

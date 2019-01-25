@@ -42,13 +42,13 @@ The following topics have more information about the samples:
 [Native Wifi](portal.md)
 </dt> <dt>
 
-[Troubleshooting Windows Vista 802.11 Wireless Connections](http://go.microsoft.com/fwlink/p/?linkid=93832)
+[Troubleshooting Windows Vista 802.11 Wireless Connections](https://go.microsoft.com/fwlink/p/?linkid=93832)
 </dt> <dt>
 
 [What's New in Native Wifi](what-s-new-in-native-wifi.md)
 </dt> <dt>
 
-[Windows Vista Wireless SDK Forum](http://go.microsoft.com/fwlink/p/?linkid=313706)
+[Windows Vista Wireless SDK Forum](https://go.microsoft.com/fwlink/p/?linkid=313706)
 </dt> </dl>
 
  

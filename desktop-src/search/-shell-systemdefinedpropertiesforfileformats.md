@@ -174,7 +174,7 @@ The following table categorizes file formats and then lists the most important s
 [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx)
 </dt> <dt>
 
-[System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
+[System Properties](https://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
 </dt> </dl>
 
  

@@ -53,7 +53,7 @@ typedef RECT D3D10_RECT;
 
 
 
-For documentation, see [RECT](http://msdn2.microsoft.com/en-us/library/ms536136.aspx).
+For documentation, see [RECT](https://msdn2.microsoft.com/en-us/library/ms536136.aspx).
 
 ## Related topics
 

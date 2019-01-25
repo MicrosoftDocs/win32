@@ -40,7 +40,7 @@ To create a device that supports the debug layer, you must install the DirectX S
 
  
 
-Alternately, you can enable/disable the debug flag using the [DirectX Control Panel](http://msdn.microsoft.com/library/bb219725(VS.85).aspx) included as part of the DirectX SDK.
+Alternately, you can enable/disable the debug flag using the [DirectX Control Panel](https://msdn.microsoft.com/library/bb219725(VS.85).aspx) included as part of the DirectX SDK.
 
 When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "<unnamed>". You can set the friendly name by using the [**ID3D11DeviceChild::SetPrivateData**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicechild-setprivatedata) method and the **WKPDID\_D3DDebugObjectName** GUID that is in D3Dcommon.h. For example, to name pTexture with a SDKLayer name of mytexture.jpg, use the following code:
 

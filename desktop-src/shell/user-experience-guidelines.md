@@ -14,7 +14,7 @@ topic_type:
 
 # User Experience Guidelines
 
-The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings. See [Control Panels user experience (UX) guidelines](http://go.microsoft.com/fwlink/p/?linkid=200324) for the Windows Vista for the behavior and design of Control Panel items. The guidelines discussed in that topic show a task flow method of organizing a Control Panel item. This places the most important settings on a home page. Less frequently used settings are placed on spoke pages or accessed from links in a side pane.
+The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings. See [Control Panels user experience (UX) guidelines](https://go.microsoft.com/fwlink/p/?linkid=200324) for the Windows Vista for the behavior and design of Control Panel items. The guidelines discussed in that topic show a task flow method of organizing a Control Panel item. This places the most important settings on a home page. Less frequently used settings are placed on spoke pages or accessed from links in a side pane.
 
 The Windows Vista Control Panel includes many Control Panel items that follow these guidelines, such as Windows Update, Ease of Access Center, or Network and Sharing Center. Other Control Panel items use the tabbed dialog property sheet format as in earlier versions of Windows. Examples include the Mouse item and Internet Options. Use of the property sheet format should be discontinued. If you create new Control Panel items for Windows Vista, you should follow the task flow guidelines.
 

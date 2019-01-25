@@ -14,7 +14,7 @@ WSD CodeGen (wsdcodegen.exe) converts a WSDL contract into generated C++ code, w
 
 The WSD Debug Host (wsddebug\_host.exe) and WSD Debug Client (wsddebug\_client.exe) tools help developers debug their clients and hosts. These tools can be used to verify and inspect WS-Discovery and metadata exchange traffic. For more information about WSD Debug Host and WSD Debug Client, see [Debugging Tools](debugging-tools.md). These tools are available only in the Windows SDK.
 
-There is an additional development tool, named [WSDAPI Basic Interoperability Tool (WSDBIT)](http://go.microsoft.com/fwlink/p/?linkid=150223), that is available only in the WDK. This tool is used for testing service methods, Message Transmission Optimization Mechanism (MTOM), attachments or WS-Eventing.
+There is an additional development tool, named [WSDAPI Basic Interoperability Tool (WSDBIT)](https://go.microsoft.com/fwlink/p/?linkid=150223), that is available only in the WDK. This tool is used for testing service methods, Message Transmission Optimization Mechanism (MTOM), attachments or WS-Eventing.
 
 ## Related topics
 
@@ -26,7 +26,7 @@ There is an additional development tool, named [WSDAPI Basic Interoperability To
 [Web Services on Devices Code Generator](web-services-for-devices-code-generator.md)
 </dt> <dt>
 
-[WSDAPI Basic Interoperability Tool (WSDBIT)](http://go.microsoft.com/fwlink/p/?linkid=150223)
+[WSDAPI Basic Interoperability Tool (WSDBIT)](https://go.microsoft.com/fwlink/p/?linkid=150223)
 </dt> <dt>
 
 [Debugging Tools](debugging-tools.md)

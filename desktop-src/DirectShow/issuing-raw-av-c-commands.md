@@ -31,7 +31,7 @@ hr = pTransport->GetTransportBasicParameters(
 
 
 
-The contents of the array are passed directly to the device, so you must be careful to format it correctly. A command can target the unit (camcorder) or a subunit (tape or camera). The relevant standards are available from the [1394 Trade Association Web site](http://1394ta.org).
+The contents of the array are passed directly to the device, so you must be careful to format it correctly. A command can target the unit (camcorder) or a subunit (tape or camera). The relevant standards are available from the [1394 Trade Association Web site](https://1394ta.org).
 
 -   AV/C Digital Interface Command Set General Specification
 -   AV/C Tape Recorder/Player Subunit Specification

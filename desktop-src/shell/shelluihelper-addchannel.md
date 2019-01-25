@@ -85,7 +85,7 @@ JScript:
 <script language="JavaScript">
     function fnShellUIHelperAddChannelJ()
     {
-        ShellUIHelper.AddChannel("http://www.microsoft.com/windows/cdf/g_stock.cdf");
+        ShellUIHelper.AddChannel("https://www.microsoft.com/windows/cdf/g_stock.cdf");
     }
 </script>
 
@@ -105,7 +105,7 @@ Private Sub fnShellUIHelperAddChannelVB()
     Dim objShellUIHelper As ShellUIHelper
     
     Set objShellUIHelper = New ShellUIHelper
-        objShellUIHelper.AddChannel ("http://www.microsoft.com/windows/cdf/g_stock.cdf")
+        objShellUIHelper.AddChannel ("https://www.microsoft.com/windows/cdf/g_stock.cdf")
     Set objShellUIHelper = Nothing
 End Sub
 ```

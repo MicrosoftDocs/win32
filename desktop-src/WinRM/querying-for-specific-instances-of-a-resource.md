@@ -28,8 +28,8 @@ In this example, the resource name for the Resource constant is represented by a
 
     ```VB
     Const RemoteComputer = "servername.domain.com"
-    Const Resource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
-    Const Dialect = "http://schemas.microsoft.com/wbem/wsman/1/WQL"
+    Const Resource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
+    Const Dialect = "https://schemas.microsoft.com/wbem/wsman/1/WQL"
     ```
 
     
@@ -38,7 +38,7 @@ In this example, the resource name for the Resource constant is represented by a
 
     ```VB
     Set objWsman = CreateObject("Wsman.Automation")
-    Set objSession = objWsman.CreateSession("http://" & RemoteComputer)
+    Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
     ```
 
     
@@ -78,11 +78,11 @@ The following VBScript code example shows the complete script.
 
 ```VB
 Const RemoteComputer = "servername.domain.com"
-Const Resource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
-Const Dialect = "http://schemas.microsoft.com/wbem/wsman/1/WQL"
+Const Resource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
+Const Dialect = "https://schemas.microsoft.com/wbem/wsman/1/WQL"
 
 Set objWsman = CreateObject("Wsman.Automation")
-Set objSession = objWsman.CreateSession("http://" & RemoteComputer)
+Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
 
 strFilter = "SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IpEnabled=TRUE"
 

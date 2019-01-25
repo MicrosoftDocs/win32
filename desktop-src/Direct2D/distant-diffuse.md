@@ -71,7 +71,7 @@ The example here shows the input and output images of the distant-diffuse lighti
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D lighting effects sample](http://go.microsoft.com/fwlink/p/?linkid=254010).
+For an example of this effect, download the [Direct2D lighting effects sample](https://go.microsoft.com/fwlink/p/?linkid=254010).
 
 ## Requirements
 

@@ -36,7 +36,7 @@ Packets belonging to the same ALE flow can arrive from multiple interfaces. The 
 
 In a strong host model, which is the default security model for the TCP/IP stack, a connection on a network interface accepts only packets that come in on the same interface. Therefore, arrival interface reauthorization is not used on a strong host computer.
 
-In a weak host model, a connection on a network interface allows packets coming in on any other network interface. Arrival interface reauthorization is used on a weak host computer to implement interface-specific policies. For more information, see ["The Cable Guy: Strong and Weak Host Models."](http://go.microsoft.com/fwlink/p/?linkid=100102)
+In a weak host model, a connection on a network interface allows packets coming in on any other network interface. Arrival interface reauthorization is used on a weak host computer to implement interface-specific policies. For more information, see ["The Cable Guy: Strong and Weak Host Models."](https://go.microsoft.com/fwlink/p/?linkid=100102)
 
 Some [classifiable fields](filtering-conditions.md) may be unknown during reauthorization. For example, if an outbound packet is being reauthorized at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer, all the fields pertaining to the arrival interface are unknown. In that case, the values of the unknown fields are indicated as [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_).
 
@@ -44,13 +44,13 @@ Fields of type [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_da
 
 ## Pending Connection Reauthorization
 
-A callout driver may postpone a classify operation at ALE layers and complete it at a later time, when the filtering decision can be safely made. The ALE postpone/complete functionality is supported via the kernel-mode functions [FwpsPendOperation0](http://go.microsoft.com/fwlink/p/?linkid=100105) and [FwpsCompleteOperation0](http://go.microsoft.com/fwlink/p/?linkid=100107).
+A callout driver may postpone a classify operation at ALE layers and complete it at a later time, when the filtering decision can be safely made. The ALE postpone/complete functionality is supported via the kernel-mode functions [FwpsPendOperation0](https://go.microsoft.com/fwlink/p/?linkid=100105) and [FwpsCompleteOperation0](https://go.microsoft.com/fwlink/p/?linkid=100107).
 
 The reauthorization is triggered immediately following the FwpsCompleteOperation0 call, and it allows the callout driver to permit or to block the flow.
 
 Only an initial authorization can be postponed. A call to FwpsPendOperation0 will fail if [**FWP\_CONDITION\_FLAG\_IS\_REAUTHORIZE**](filtering-condition-flags-.md) flag is set.
 
-For more information, see the [Windows Driver Kit](http://go.microsoft.com/fwlink/p/?linkid=95959) documentation.
+For more information, see the [Windows Driver Kit](https://go.microsoft.com/fwlink/p/?linkid=95959) documentation.
 
 ## Related topics
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Retrieving Compact Disc Track-Specific Information
 
-For CD audio devices, you can get the starting location and length of a track by specifying the MCI\_TRACK flag and setting the **dwTrack** member of [**MCI\_STATUS\_PARMS**](mci-status-parms.md) to the desired track number. To get the starting location of a track, set the **dwItem** member to MCI\_STATUS\_POSITION. To get the length of a track, set **dwItem** to MCI\_STATUS\_LENGTH. For example, the following example retrieves the total number of tracks on the compact disc and the starting location of each track. Then, it uses the [MessageBox](http://go.microsoft.com/fwlink/p/?linkid=17005) function to report the starting locations of the tracks.
+For CD audio devices, you can get the starting location and length of a track by specifying the MCI\_TRACK flag and setting the **dwTrack** member of [**MCI\_STATUS\_PARMS**](mci-status-parms.md) to the desired track number. To get the starting location of a track, set the **dwItem** member to MCI\_STATUS\_POSITION. To get the length of a track, set **dwItem** to MCI\_STATUS\_LENGTH. For example, the following example retrieves the total number of tracks on the compact disc and the starting location of each track. Then, it uses the [MessageBox](https://go.microsoft.com/fwlink/p/?linkid=17005) function to report the starting locations of the tracks.
 
 
 ```C++

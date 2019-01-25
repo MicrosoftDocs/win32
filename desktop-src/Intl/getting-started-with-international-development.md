@@ -21,11 +21,11 @@ This section helps you get started in international development. It presents lin
 You should become familiar with the issues that arise in developing international software for Windows. Start with these overviews.
 
 -   [Understanding Internationalization](understanding-internationalization.md) explains the added difficulty of developing world-ready applications, and defines key terms.
--   The [Get World-Ready](http://msdn.microsoft.com/en-us/goglobal/bb895995.aspx) topic leads you to guidelines and best practices that you can skim through or delve into as needed.
+-   The [Get World-Ready](https://msdn.microsoft.com/en-us/goglobal/bb895995.aspx) topic leads you to guidelines and best practices that you can skim through or delve into as needed.
 -   The [Internationalization Checklist](internationalization-checklist.md) summarizes the actions you should take to create a world-ready application.
 -   Security is always an issue in software development, but you need to consider additional issues when developing international software. Take a look at [Security Considerations: International Features](security-considerations--international-features.md).
 
-Also be aware of the more extensive articles that can be found at the [Go Global Developer Center](http://msdn.microsoft.com/en-us/goglobal/) in the [Globalization Step-by-Step](http://msdn.microsoft.com/en-us/goglobal/bb688110.aspx) section. As you develop international software, you will want to consult the additional overviews and detailed articles that can be found there.
+Also be aware of the more extensive articles that can be found at the [Go Global Developer Center](https://msdn.microsoft.com/en-us/goglobal/) in the [Globalization Step-by-Step](https://msdn.microsoft.com/en-us/goglobal/bb688110.aspx) section. As you develop international software, you will want to consult the additional overviews and detailed articles that can be found there.
 
 ## Learning Paths
 
@@ -35,7 +35,7 @@ The path you follow next in learning to create international software depends on
 
     The challenge is to develop an application that does not have to be rewritten for each language or culture.
 
-    -   Read the article [Understanding Multilingual User Interface (MUI)](http://msdn.microsoft.com/en-us/goglobal/dd218459.aspx).
+    -   Read the article [Understanding Multilingual User Interface (MUI)](https://msdn.microsoft.com/en-us/goglobal/dd218459.aspx).
     -   Explore the documentation for [Multilingual User Interface](multilingual-user-interface.md).
     -   Get started with the [Hello MUI](#the-hello-mui-application) application.
 
@@ -45,8 +45,8 @@ The path you follow next in learning to create international software depends on
 
     -   Read the articles:
 
-        -   [Script and Font Support in Windows](http://msdn.microsoft.com/en-us/goglobal/bb688099.aspx)
-        -   [Input Language: Keyboards and IMEs](http://msdn.microsoft.com/en-us/goglobal/bb688135.aspx)
+        -   [Script and Font Support in Windows](https://msdn.microsoft.com/en-us/goglobal/bb688099.aspx)
+        -   [Input Language: Keyboards and IMEs](https://msdn.microsoft.com/en-us/goglobal/bb688135.aspx)
 
     -   Explore the documentation for:
 
@@ -58,14 +58,14 @@ The path you follow next in learning to create international software depends on
 
     International applications should use locale settings to properly sort strings, and to display culture-sensitive information, such as time, dates, and currency.
 
-    -   Explore the [National Language Support Knowledge Center](http://msdn.microsoft.com/en-us/goglobal/dd565826.aspx).
+    -   Explore the [National Language Support Knowledge Center](https://msdn.microsoft.com/en-us/goglobal/dd565826.aspx).
     -   Examine the documentation for [National Language Support (NLS)](national-language-support.md).
 
 -   **Discover the language or script used by the user, and apply it to the other services of the application.**
 
     If your application can determine the language in which text and user input is written, it can display content such as prompts or help in an understandable language.
 
-    -   Read the article [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](http://msdn.microsoft.com/en-us/goglobal/dd156834.aspx).
+    -   Read the article [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](https://msdn.microsoft.com/en-us/goglobal/dd156834.aspx).
     -   Explore the documentation for [Extended Linguistic Services (ELS)](extended-linguistic-services.md).
 
 ## Internationalization Technologies in the SDK

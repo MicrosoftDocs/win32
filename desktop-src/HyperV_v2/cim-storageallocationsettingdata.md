@@ -187,7 +187,7 @@ Serial Number/Vendor/Model (SNVM) SNVM is 3 strings representing the vendor name
 
 9 = NAA as a generic format. See
 
-http://standards.ieee.org/regauth/oui/tutorials/fibrecomp\_id.html. Formatted as 16 or 32 unseparated uppercase hex characters (2 per binary byte).
+https://standards.ieee.org/regauth/oui/tutorials/fibrecomp\_id.html. Formatted as 16 or 32 unseparated uppercase hex characters (2 per binary byte).
 
 For example '21000020372D3C73'
 
@@ -202,7 +202,7 @@ For example '21000020372D3C73'
 
 EUI as a generic format (EUI64) See
 
-http://standards.ieee.org/regauth/oui/tutorials/EUI64.html.
+https://standards.ieee.org/regauth/oui/tutorials/EUI64.html.
 
 </dd> <dt>
 

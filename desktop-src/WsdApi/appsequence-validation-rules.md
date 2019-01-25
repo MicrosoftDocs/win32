@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 AppSequence information contained in WS-Discovery announcement and response messages ([Hello](hello-message.md), [ProbeMatches](probematches-message.md), and [ResolveMatches](resolvematches-message.md)). This information is processed and validated by WSDAPI before these messages are passed on to components above the stack (such as Network Explorer or an application calling into WSDAPI).
 
-The following XML shows a sample AppSequence element. The wsd prefix refers to the namespace `http://schemas.xmlsoap.org/ws/2005/04/discovery`.
+The following XML shows a sample AppSequence element. The wsd prefix refers to the namespace `https://schemas.xmlsoap.org/ws/2005/04/discovery`.
 
 ``` syntax
 <wsd:AppSequence InstanceId="2"

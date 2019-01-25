@@ -44,7 +44,7 @@ But the slider will not move by itself unless you measure the current position w
 
 ```C++
 <PLAYER
-    URL = "http://proseware.com/laure.wma">
+    URL = "https://proseware.com/laure.wma">
 
     <CONTROLS
         currentPosition_onchange = "myslider.value = player.controls.currentPosition; "/>

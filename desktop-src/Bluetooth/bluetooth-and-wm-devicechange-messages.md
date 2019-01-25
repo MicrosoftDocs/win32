@@ -14,7 +14,7 @@ Bluetooth includes specific [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/li
 
 To receive [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/library/windows/desktop/aa363480) messages, a handle to the local radio must first be opened. To do this, use one of the following methods:
 
--   Use the [SetupDiGetClassDevs](http://go.microsoft.com/fwlink/p/?linkid=91493) function with the following parameters: (GUID\_BTHPORT\_DEVICE\_INTERFACE, …, DIGCF\_PRESENT \| DIGCF\_DEVICEINTERFACE), then use the [SetupDiEnumDeviceInterfaces](http://go.microsoft.com/fwlink/p/?linkid=91492), [SetupDiGetDeviceInterfaceDetail](http://go.microsoft.com/fwlink/p/?linkid=91494), [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), and the [SetupDiDestroyDeviceInfoList](http://go.microsoft.com/fwlink/p/?linkid=91491) functions.
+-   Use the [SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493) function with the following parameters: (GUID\_BTHPORT\_DEVICE\_INTERFACE, …, DIGCF\_PRESENT \| DIGCF\_DEVICEINTERFACE), then use the [SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492), [SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494), [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), and the [SetupDiDestroyDeviceInfoList](https://go.microsoft.com/fwlink/p/?linkid=91491) functions.
 -   Use the [**BluetoothFindFirstRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstradio), [**BluetoothFindNextRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextradio), and [**BluetoothFindRadioClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose) functions.
 
 When the Bluetooth radio handle is opened, call the [**RegisterDeviceNotification**](https://msdn.microsoft.com/library/windows/desktop/aa363431) function and register for notifications on the handle using **DBT\_DEVTYP\_HANDLE** as the devicetype. When registered, the following GUIDs are sent, and the [**DEV\_BROADCAST\_HANDLE**](https://msdn.microsoft.com/library/windows/desktop/aa363245)::**dbch\_data** member is the associated buffer.
@@ -51,13 +51,13 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://msdn
 [**RegisterDeviceNotification**](https://msdn.microsoft.com/library/windows/desktop/aa363431)
 </dt> <dt>
 
-[SetupDiDestroyDeviceInfoList](http://go.microsoft.com/fwlink/p/?linkid=91491)
+[SetupDiDestroyDeviceInfoList](https://go.microsoft.com/fwlink/p/?linkid=91491)
 </dt> <dt>
 
-[SetupDiEnumDeviceInterfaces](http://go.microsoft.com/fwlink/p/?linkid=91492)
+[SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492)
 </dt> <dt>
 
-[SetupDiGetClassDevs](http://go.microsoft.com/fwlink/p/?linkid=91493)
+[SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493)
 </dt> <dt>
 
 [**BLUETOOTH\_ADDRESS**](/windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_address)

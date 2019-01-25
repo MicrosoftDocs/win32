@@ -57,7 +57,7 @@ Key: <Registry hive>\SOFTWARE\Microsoft\Spelling\Spellers\<Provider id string>
 
 
 
-The [spell checking provider sample](http://go.microsoft.com/fwlink/p/?linkid=242819) provides an example of the registration needed to install a provider.
+The [spell checking provider sample](https://go.microsoft.com/fwlink/p/?linkid=242819) provides an example of the registration needed to install a provider.
 
 If you are creating new spell checking options for a spell checking provider, see [**IOptionDescription::Id**](/windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_id) for guidance on naming.
 
@@ -68,10 +68,10 @@ If you are creating new spell checking options for a spell checking provider, se
 [Spell Checking API Reference](spell-checker-api-reference.md)
 </dt> <dt>
 
-[Spell checking client sample](http://go.microsoft.com/fwlink/p/?linkid=242818)
+[Spell checking client sample](https://go.microsoft.com/fwlink/p/?linkid=242818)
 </dt> <dt>
 
-[Spell checking provider sample](http://go.microsoft.com/fwlink/p/?linkid=242819)
+[Spell checking provider sample](https://go.microsoft.com/fwlink/p/?linkid=242819)
 </dt> <dt>
 
 [**IOptionDescription::Id**](/windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_id)

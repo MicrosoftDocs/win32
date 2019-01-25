@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Downloading and Installing a Patch From the Internet
 
-Microsoft Windows Installer accepts a Uniform Resource Locator (URL) as a valid source for a [patch](patch-packages.md). To install a patch located on a web server at http://MyWeb/MyPatch.msp, use the following command line:
+Microsoft Windows Installer accepts a Uniform Resource Locator (URL) as a valid source for a [patch](patch-packages.md). To install a patch located on a web server at https://MyWeb/MyPatch.msp, use the following command line:
 
-**msiexec /p http://MyWeb/MyPatch.msp**
+**msiexec /p https://MyWeb/MyPatch.msp**
 
 To avoid unexpected results, do not launch a patch by clicking the link on the webpage showing the patch file's URL. You can also install a patch by using a script like the following:
 
@@ -21,7 +21,7 @@ To avoid unexpected results, do not launch a patch by clicking the link on the w
 Dim Installer
 On Error Resume Next
 set Installer=CreateObject("WindowsInstaller.Installer")
-Installer.ApplyPatch "http://server/share/patch.msp", "", 0, "REINSTALL=ALL REINSTALLMODE=omus"
+Installer.ApplyPatch "https://server/share/patch.msp", "", 0, "REINSTALL=ALL REINSTALLMODE=omus"
 set Installer=Nothing
 -->
 </SCRIPT>

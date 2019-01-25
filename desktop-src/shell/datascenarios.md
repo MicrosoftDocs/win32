@@ -39,7 +39,7 @@ Each of the following sections discusses a single, fairly specific data transfer
 
 For data sources:
 
--   The Shell Clipboard formats, with the exception of [CF\_HDROP](clipboard.md), are not predefined. Each format you want to use must be registered by calling [RegisterClipboardFormat](http://go.microsoft.com/fwlink/p/?linkid=215068).
+-   The Shell Clipboard formats, with the exception of [CF\_HDROP](clipboard.md), are not predefined. Each format you want to use must be registered by calling [RegisterClipboardFormat](https://go.microsoft.com/fwlink/p/?linkid=215068).
 -   The formats in the data objects are provided in the order of preference from the source. Enumerate the data object and pick the first one you can consume.
 -   Include as many formats as you can support. You generally do not know where the data object will be dropped. This practice improves the odds that the data object will contain a format that the drop target can accept.
 -   Existing files should be offered with the [CF\_HDROP](clipboard.md) format.
@@ -53,7 +53,7 @@ For data sources:
 
 For data targets:
 
--   The Shell Clipboard formats, with the exception of [CF\_HDROP](clipboard.md), are not predefined. Each format you want to use must be registered by calling [RegisterClipboardFormat](http://go.microsoft.com/fwlink/p/?linkid=215068).
+-   The Shell Clipboard formats, with the exception of [CF\_HDROP](clipboard.md), are not predefined. Each format you want to use must be registered by calling [RegisterClipboardFormat](https://go.microsoft.com/fwlink/p/?linkid=215068).
 -   Implement and register an OLE drop target. Avoid using Windows 3.1 targets or the [**WM\_DROPFILES**](wm-dropfiles.md) message, if possible.
 -   The formats contained by a data object vary, depending on where the object comes from. Since you generally do not know in advance where a data object comes from, do not assume that a particular format will be present. The data object should enumerate the formats in order of quality, starting with the best. Thus, to get the best available format, applications normally enumerate the available formats and use the first format in the enumeration that they can support.
 -   Support right-drag. You can customize the drag shortcut menu by creating a [drag-and-drop handler](context-menu-handlers.md).
@@ -102,7 +102,7 @@ The simplest way to retrieve file names from a data object is the [CF\_HDROP](cl
 
 This scenario uses drag-and-drop to transfer the files from Windows Explorer to the application. Prior to the operation, your application must:
 
-1.  Call [RegisterClipboardFormat](http://go.microsoft.com/fwlink/p/?linkid=215068) to register any needed Shell Clipboard formats.
+1.  Call [RegisterClipboardFormat](https://go.microsoft.com/fwlink/p/?linkid=215068) to register any needed Shell Clipboard formats.
 2.  Call [**RegisterDragDrop**](https://msdn.microsoft.com/en-us/library/ms678405(v=VS.85).aspx) to register a target window and your application's [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) interface.
 
 After the user initiates the operation by selecting one or more files and starting to drag them:

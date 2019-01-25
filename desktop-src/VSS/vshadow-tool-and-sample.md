@@ -380,7 +380,7 @@ The **-er** command-line option cannot be combined with other command-line optio
 
 **vshadow** **-wm3**
 
-The **-ws** command-line option enumerates the VSS writers that are currently running on the computer and describes their state. This command is the equivalent of the [Vssadmin list writers](Http://go.microsoft.com/fwlink/p/?linkid=103401) command. There are six possible state values: Stable, Failed, Unknown, Waiting for freeze, Frozen, and Waiting for completion.
+The **-ws** command-line option enumerates the VSS writers that are currently running on the computer and describes their state. This command is the equivalent of the [Vssadmin list writers](https://go.microsoft.com/fwlink/p/?linkid=103401) command. There are six possible state values: Stable, Failed, Unknown, Waiting for freeze, Frozen, and Waiting for completion.
 
 The **-wm** command-line option lists a summary of the writer metadata, including the affected volumes.
 

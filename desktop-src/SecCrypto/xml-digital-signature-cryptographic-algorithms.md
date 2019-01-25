@@ -18,10 +18,10 @@ Digest Methods
 
 | Constant                                 | URI value                                                   |
 |------------------------------------------|-------------------------------------------------------------|
-| wszURI\_XMLNS\_DIGSIG\_SHA1<br/>   | "http://www.w3.org/2000/09/xmldsig\#sha1"<br/>        |
-| wszURI\_XMLNS\_DIGSIG\_SHA256<br/> | "http://www.w3.org/2001/04/xmlenc\#sha256"<br/>       |
-| wszURI\_XMLNS\_DIGSIG\_SHA384<br/> | "http://www.w3.org/2001/04/xmldsig-more\#sha384"<br/> |
-| wszURI\_XMLNS\_DIGSIG\_SHA512<br/> | "http://www.w3.org/2001/04/xmlenc\#sha512"<br/>       |
+| wszURI\_XMLNS\_DIGSIG\_SHA1<br/>   | "https://www.w3.org/2000/09/xmldsig\#sha1"<br/>        |
+| wszURI\_XMLNS\_DIGSIG\_SHA256<br/> | "https://www.w3.org/2001/04/xmlenc\#sha256"<br/>       |
+| wszURI\_XMLNS\_DIGSIG\_SHA384<br/> | "https://www.w3.org/2001/04/xmldsig-more\#sha384"<br/> |
+| wszURI\_XMLNS\_DIGSIG\_SHA512<br/> | "https://www.w3.org/2001/04/xmlenc\#sha512"<br/>       |
 
 
 
@@ -33,19 +33,19 @@ Signature Methods
 
 | Constant                                        | URI value                                                         |
 |-------------------------------------------------|-------------------------------------------------------------------|
-| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA1<br/>     | "http://www.w3.org/2000/09/xmldsig\#rsa-sha1"<br/>          |
-| wszURI\_XMLNS\_DIGSIG\_DSA\_SHA1<br/>     | "http://www.w3.org/2000/09/xmldsig\#dsa-sha1"<br/>          |
-| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA256<br/>   | "http://www.w3.org/2001/04/xmldsig-more\#rsa-sha256"<br/>   |
-| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA384<br/>   | "http://www.w3.org/2001/04/xmldsig-more\#rsa-sha384"<br/>   |
-| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA512<br/>   | "http://www.w3.org/2001/04/xmldsig-more\#rsa-sha512"<br/>   |
-| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA1<br/>   | "http://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha1"<br/>   |
-| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA256<br/> | "http://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha256"<br/> |
-| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA384<br/> | "http://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha384"<br/> |
-| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA512<br/> | "http://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha512"<br/> |
-| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA1<br/>    | "http://www.w3.org/2000/09/xmldsig\#hmac-sha1"<br/>         |
-| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA256<br/>  | "http://www.w3.org/2001/04/xmldsig-more\#hmac-sha256"<br/>  |
-| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA384<br/>  | "http://www.w3.org/2001/04/xmldsig-more\#hmac-sha384"<br/>  |
-| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA512<br/>  | "http://www.w3.org/2001/04/xmldsig-more\#hmac-sha512"<br/>  |
+| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA1<br/>     | "https://www.w3.org/2000/09/xmldsig\#rsa-sha1"<br/>          |
+| wszURI\_XMLNS\_DIGSIG\_DSA\_SHA1<br/>     | "https://www.w3.org/2000/09/xmldsig\#dsa-sha1"<br/>          |
+| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA256<br/>   | "https://www.w3.org/2001/04/xmldsig-more\#rsa-sha256"<br/>   |
+| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA384<br/>   | "https://www.w3.org/2001/04/xmldsig-more\#rsa-sha384"<br/>   |
+| wszURI\_XMLNS\_DIGSIG\_RSA\_SHA512<br/>   | "https://www.w3.org/2001/04/xmldsig-more\#rsa-sha512"<br/>   |
+| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA1<br/>   | "https://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha1"<br/>   |
+| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA256<br/> | "https://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha256"<br/> |
+| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA384<br/> | "https://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha384"<br/> |
+| wszURI\_XMLNS\_DIGSIG\_ECDSA\_SHA512<br/> | "https://www.w3.org/2001/04/xmldsig-more\#ecdsa-sha512"<br/> |
+| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA1<br/>    | "https://www.w3.org/2000/09/xmldsig\#hmac-sha1"<br/>         |
+| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA256<br/>  | "https://www.w3.org/2001/04/xmldsig-more\#hmac-sha256"<br/>  |
+| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA384<br/>  | "https://www.w3.org/2001/04/xmldsig-more\#hmac-sha384"<br/>  |
+| wszURI\_XMLNS\_DIGSIG\_HMAC\_SHA512<br/>  | "https://www.w3.org/2001/04/xmldsig-more\#hmac-sha512"<br/>  |
 
 
 

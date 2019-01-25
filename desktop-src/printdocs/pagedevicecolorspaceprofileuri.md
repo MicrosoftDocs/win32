@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageDeviceColorSpaceProfileURI
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Specifies a relative URI to the package root to an ICC profile contained in an XPS Document. The processing of this option depends of the setting of the PageDeviceColorSpaceUsage feature. All elements using that profile are assumed to be already in the appropriate device color space, and will not be color managed in the driver or device.
 
@@ -79,7 +79,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

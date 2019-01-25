@@ -61,7 +61,7 @@ Because values are not ordered, any new value will have an arbitrary index. This
 
 A pointer to a buffer that receives the name of the value as a null-terminated string. This buffer must be large enough to include the terminating null character.
 
-For more information, see [Registry Element Size Limits](http://go.microsoft.com/fwlink/p/?linkid=128771).
+For more information, see [Registry Element Size Limits](https://go.microsoft.com/fwlink/p/?linkid=128771).
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ A pointer to a variable that specifies the size of the buffer pointed to by the 
 *lpType* \[out, optional\]
 </dt> <dd>
 
-A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](http://go.microsoft.com/fwlink/p/?linkid=128772). The *lpType* parameter can be **NULL** if the type code is not required.
+A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](https://go.microsoft.com/fwlink/p/?linkid=128772). The *lpType* parameter can be **NULL** if the type code is not required.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ If the buffer specified by *lpData* is not large enough to hold the data, the fu
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](http://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 If the *lpData* buffer is too small to receive the value, the function returns ERROR\_MORE\_DATA.
 

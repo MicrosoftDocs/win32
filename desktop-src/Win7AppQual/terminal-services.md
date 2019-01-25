@@ -65,9 +65,9 @@ Prior to the Windows Server 2008 R2 version of Remote Desktop Services, Windows 
 ## Links to Other Resources
 
 -   [Terminal Services Programming Guidelines](https://msdn.microsoft.com/en-us/library/Aa383490(v=VS.85).aspx)
--   [Terminal Services at TechNet](http://go.microsoft.com/fwlink/p/?linkid=205177)
--   [Terminal Services product home page](http://go.microsoft.com/fwlink/p/?linkid=205178)
--   [Application Readiness for Terminal Services white paper](http://go.microsoft.com/fwlink/p/?linkid=205677)
+-   [Terminal Services at TechNet](https://go.microsoft.com/fwlink/p/?linkid=205177)
+-   [Terminal Services product home page](https://go.microsoft.com/fwlink/p/?linkid=205178)
+-   [Application Readiness for Terminal Services white paper](https://go.microsoft.com/fwlink/p/?linkid=205677)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.

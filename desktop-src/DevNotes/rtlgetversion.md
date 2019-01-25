@@ -62,7 +62,7 @@ Because operating system features can be added in a redistributable DLL, checkin
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
-| Target platform<br/>          | <dl> <dt>[Universal](http://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl>                  |
+| Target platform<br/>          | <dl> <dt>[Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl>                  |
 | Header<br/>                   | <dl> <dt>Ntddk.h (include Ntddk.h)</dt> </dl>                                                     |
 | Library<br/>                  | <dl> <dt>Ntdll.lib; </dt> <dt>NtosKrnl.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll; </dt> <dt>NtosKrnl.exe</dt> </dl> |

@@ -171,7 +171,7 @@ int gp : SasGlobal
   string SasEffectCategory = "/surface/procedural/wood";
   string SasEffectCompany = "Microsoft Corporation";
   string SasEffectDescription = "Renders an irridescent surface.";
-  string SasEffectHelp = "For more information, see http://somelocation/skin.htm";    
+  string SasEffectHelp = "For more information, see https://somelocation/skin.htm";    
   string SasEffectRevision = "$Revision$";  
 >;
 ```

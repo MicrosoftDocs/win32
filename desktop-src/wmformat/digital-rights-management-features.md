@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 # Digital Rights Management Features
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](http://aka.ms/p23wo6) instead.\]
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://aka.ms/p23wo6) instead.\]
 
-Digital rights management (DRM) is a technology that content owners can use to protect digital media files by encrypting them with a key (a piece of data that locks and unlocks the content). To play a protected ASF file, a consumer must obtain a separate license containing the key. Each license also contains rights, determined by the content owner or license issuer, which specify how the consumer can use the file. Using DRM technology, content owners can deliver songs, videos, and other digital media files over the Internet in a protected file format and control the use of their digital content. Microsoft DRM technology is also supported by the Windows Media Rights Manager, the Windows Media Encoder, and Windows Media Player. For more background information on Microsoft's DRM technology, see the [Microsoft Windows Media Web site](http://go.microsoft.com/fwlink/p/?linkid=10099).
+Digital rights management (DRM) is a technology that content owners can use to protect digital media files by encrypting them with a key (a piece of data that locks and unlocks the content). To play a protected ASF file, a consumer must obtain a separate license containing the key. Each license also contains rights, determined by the content owner or license issuer, which specify how the consumer can use the file. Using DRM technology, content owners can deliver songs, videos, and other digital media files over the Internet in a protected file format and control the use of their digital content. Microsoft DRM technology is also supported by the Windows Media Rights Manager, the Windows Media Encoder, and Windows Media Player. For more background information on Microsoft's DRM technology, see the [Microsoft Windows Media Web site](https://go.microsoft.com/fwlink/p/?linkid=10099).
 
 > [!Note]  
 > DRM is not supported by the x64-based version of this SDK.

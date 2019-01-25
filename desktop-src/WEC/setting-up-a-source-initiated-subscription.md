@@ -58,12 +58,12 @@ Both the event source computers and the event collector computer must be configu
     The following XML is an example of the contents of a subscription configuration file that creates a source-initiated subscription to forward events from the Application event log of a remote computer to the ForwardedEvents log on the event collector computer.
 
     ```XML
-    <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
+    <Subscription xmlns="https://schemas.microsoft.com/2006/03/windows/events/subscription">
         <SubscriptionId>SampleSISubscription</SubscriptionId>
         <SubscriptionType>SourceInitiated</SubscriptionType>
         <Description>Source Initiated Subscription Sample</Description>
         <Enabled>true</Enabled>
-        <Uri>http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
+        <Uri>https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
 
         <!-- Use Normal (default), Custom, MinLatency, MinBandwidth -->
         <ConfigurationMode>Custom</ConfigurationMode>

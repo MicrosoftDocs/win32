@@ -23,7 +23,7 @@ This guide provides essential information for integrating Active Directory Domai
 -   Windows Server 2016
 
 > [!Note]  
-> These topics are for software developers. For support issues, see [Microsoft Support](http://windows.microsoft.com/windows/support#1tc). For information about administering Active Directory, see [Active Directory Domain Services](https://technet.microsoft.com/library/cc770946.aspx) at TechNet.
+> These topics are for software developers. For support issues, see [Microsoft Support](https://windows.microsoft.com/windows/support#1tc). For information about administering Active Directory, see [Active Directory Domain Services](https://technet.microsoft.com/library/cc770946.aspx) at TechNet.
 
  
 

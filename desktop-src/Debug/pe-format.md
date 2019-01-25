@@ -17,7 +17,7 @@ This specification describes the structure of executable (image) files and objec
 
 This revision of the Microsoft Portable Executable and Common Object File Format Specification replaces all previous revisions of this specification.
 
-For the latest information, see: <http://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx>.
+For the latest information, see: <https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx>.
 
 -   [General Concepts](#general-concepts)
 -   [Overview](#overview)
@@ -1307,7 +1307,7 @@ The options for the WIN\_CERTIFICATE **wCertificateType** member include (but ar
 
  
 
-The WIN\_CERTIFICATE structure's **bCertificate** member contains a variable-length byte array with the content type specified by **wCertificateType**. The type supported by Authenticode is WIN\_CERT\_TYPE\_PKCS\_SIGNED\_DATA, a PKCS\#7 **SignedData** structure. For details on the Authenticode digital signature format, see [Windows Authenticode Portable Executable Signature Format](http://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Authenticode_PE.docx).
+The WIN\_CERTIFICATE structure's **bCertificate** member contains a variable-length byte array with the content type specified by **wCertificateType**. The type supported by Authenticode is WIN\_CERT\_TYPE\_PKCS\_SIGNED\_DATA, a PKCS\#7 **SignedData** structure. For details on the Authenticode digital signature format, see [Windows Authenticode Portable Executable Signature Format](https://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Authenticode_PE.docx).
 
 If the **bCertificate** content does not end on a quadword boundary, the attribute certificate entry is padded with zeros, from the end of **bCertificate** to the next quadword boundary.
 
@@ -2398,11 +2398,11 @@ Downloads and tools for Windows (includes the Windows SDK): <https://developer.m
 
 Creating, Viewing, and Managing Certificates: <https://msdn.microsoft.com/en-us/library/aa379872.aspx>
 
-Kernel-Mode Code Signing Walkthrough: <http://www.microsoft.com/whdc/winlogo/drvsign/kmcs_walkthrough.mspx>
+Kernel-Mode Code Signing Walkthrough: <https://www.microsoft.com/whdc/winlogo/drvsign/kmcs_walkthrough.mspx>
 
 SignTool: <https://msdn.microsoft.com/en-us/library/aa387764.aspx>
 
-Windows Authenticode Portable Executable Signature Format: <http://www.microsoft.com/whdc/winlogo/drvsign/Authenticode_PE.mspx>
+Windows Authenticode Portable Executable Signature Format: <https://www.microsoft.com/whdc/winlogo/drvsign/Authenticode_PE.mspx>
 
 ImageHlp Functions: <https://msdn.microsoft.com/en-us/library/ms680181.aspx>
 

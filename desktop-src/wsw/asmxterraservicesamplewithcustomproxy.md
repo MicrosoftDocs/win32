@@ -88,7 +88,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_SERVICE_PROXY* serviceProxy = NULL;
     WS_HEAP* heap = NULL;
     WS_ENDPOINT_ADDRESS address = {};
-    WS_STRING serviceUrl = WS_STRING_VALUE(L"http://terraservice.net/TerraService2.asmx");
+    WS_STRING serviceUrl = WS_STRING_VALUE(L"https://terraservice.net/TerraService2.asmx");
     WS_CHANNEL_PROPERTY channelPropertyArray[4];
     WS_ADDRESSING_VERSION addressingVersion = WS_ADDRESSING_VERSION_TRANSPORT;
     WS_ENVELOPE_VERSION envelopeVersion = WS_ENVELOPE_VERSION_SOAP_1_1;
@@ -309,9 +309,9 @@ Exit:
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://terraservice-usa.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://terraservice-usa.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="https://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="https://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="https://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://terraservice-usa.com/" xmlns:s="https://www.w3.org/2001/XMLSchema" xmlns:http="https://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://terraservice-usa.com/" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
-    <s:schema elementFormDefault="qualified" targetNamespace="http://terraservice-usa.com/">
+    <s:schema elementFormDefault="qualified" targetNamespace="https://terraservice-usa.com/">
       <s:element name="ConvertLonLatPtToNearestPlace">
         <s:complexType>
           <s:sequence>
@@ -909,9 +909,9 @@ Exit:
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="TerraServiceSoap" type="tns:TerraServiceSoap">
-    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <soap:binding transport="https://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="ConvertLonLatPtToNearestPlace">
-      <soap:operation soapAction="http://terraservice-usa.com/ConvertLonLatPtToNearestPlace" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/ConvertLonLatPtToNearestPlace" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -920,7 +920,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConvertLonLatPtToUtmPt">
-      <soap:operation soapAction="http://terraservice-usa.com/ConvertLonLatPtToUtmPt" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/ConvertLonLatPtToUtmPt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -929,7 +929,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConvertUtmPtToLonLatPt">
-      <soap:operation soapAction="http://terraservice-usa.com/ConvertUtmPtToLonLatPt" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/ConvertUtmPtToLonLatPt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -938,7 +938,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ConvertPlaceToLonLatPt">
-      <soap:operation soapAction="http://terraservice-usa.com/ConvertPlaceToLonLatPt" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/ConvertPlaceToLonLatPt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -947,7 +947,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="CountPlacesInRect">
-      <soap:operation soapAction="http://terraservice-usa.com/CountPlacesInRect" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/CountPlacesInRect" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -956,7 +956,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetAreaFromPt">
-      <soap:operation soapAction="http://terraservice-usa.com/GetAreaFromPt" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetAreaFromPt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -965,7 +965,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetAreaFromRect">
-      <soap:operation soapAction="http://terraservice-usa.com/GetAreaFromRect" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetAreaFromRect" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -974,7 +974,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetAreaFromTileId">
-      <soap:operation soapAction="http://terraservice-usa.com/GetAreaFromTileId" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetAreaFromTileId" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -983,7 +983,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetLatLonMetrics">
-      <soap:operation soapAction="http://terraservice-usa.com/GetLatLonMetrics" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetLatLonMetrics" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -992,7 +992,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetPlaceFacts">
-      <soap:operation soapAction="http://terraservice-usa.com/GetPlaceFacts" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetPlaceFacts" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1001,7 +1001,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetPlaceList">
-      <soap:operation soapAction="http://terraservice-usa.com/GetPlaceList" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetPlaceList" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1010,7 +1010,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetPlaceListInRect">
-      <soap:operation soapAction="http://terraservice-usa.com/GetPlaceListInRect" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetPlaceListInRect" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1019,7 +1019,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetTheme">
-      <soap:operation soapAction="http://terraservice-usa.com/GetTheme" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetTheme" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1028,7 +1028,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetTileMetaFromLonLatPt">
-      <soap:operation soapAction="http://terraservice-usa.com/GetTileMetaFromLonLatPt" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetTileMetaFromLonLatPt" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1037,7 +1037,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetTileMetaFromTileId">
-      <soap:operation soapAction="http://terraservice-usa.com/GetTileMetaFromTileId" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetTileMetaFromTileId" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1046,7 +1046,7 @@ Exit:
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetTile">
-      <soap:operation soapAction="http://terraservice-usa.com/GetTile" style="document" />
+      <soap:operation soapAction="https://terraservice-usa.com/GetTile" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1056,9 +1056,9 @@ Exit:
     </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="TerraService">
-    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">TerraServer Web Service</documentation>
+    <documentation xmlns="https://schemas.xmlsoap.org/wsdl/">TerraServer Web Service</documentation>
     <wsdl:port name="TerraServiceSoap" binding="tns:TerraServiceSoap">
-      <soap:address location="http://terraservice.net/TerraService2.asmx" />
+      <soap:address location="https://terraservice.net/TerraService2.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

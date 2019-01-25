@@ -22,11 +22,11 @@ Windows PowerShell cmdlets for BITS provide much of the same functionality as th
 -   Provides a single tool for all job-related tasks.
 
 > [!Note]  
-> To use these commands, you must first import the BITS PowerShell module, using the `Import-Module BitsTransfer` command. For more information, see the following [TechNet article](http://technet.microsoft.com/magazine/ff382721.aspx).
+> To use these commands, you must first import the BITS PowerShell module, using the `Import-Module BitsTransfer` command. For more information, see the following [TechNet article](https://technet.microsoft.com/magazine/ff382721.aspx).
 
  
 
-For more information on using Windows Powershell, see [Windows PowerShell](http://go.microsoft.com/fwlink/p/?linkid=142509).
+For more information on using Windows Powershell, see [Windows PowerShell](https://go.microsoft.com/fwlink/p/?linkid=142509).
 
 ## BITS PowerShell Classes
 
@@ -40,14 +40,14 @@ These BITS command classes are implemented by Windows PowerShell. These classes 
 
 | Class                           | Description                                                                                                                                                                                                                                         |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **AddBitsFileCommand**          | Adds one or more files to an existing BITS transfer job.<br/> See the [Add-BitsFile](http://go.microsoft.com/fwlink/p/?linkid=154641) cmdlet for detailed information about the parameters and for examples.<br/>                       |
-| **ClearBitsTransferCommand**    | Cancels a BITS transfer job.<br/> See the [Clear-BitsTransfer]( http://go.microsoft.com/fwlink/p/?linkid=154642) cmdlet for detailed information about the parameters and for examples.<br/>                                          |
-| **CompleteBitsTransferCommand** | Completes a BITS transfer job.<br/> See the [Complete-BitsTransfer]( http://go.microsoft.com/fwlink/p/?linkid=154644) cmdlet for detailed information about the parameters and for examples.<br/>                                     |
-| **GetBitsTransferCommand**      | Retrieves the associated BitsJob object for an existing BITS transfer job.<br/> See the [Get-BitsTransfer](http://go.microsoft.com/fwlink/p/?linkid=154645) cmdlet for detailed information about the parameters and for examples.<br/> |
-| **NewBitsTransferCommand**      | Creates a new BITS transfer job.<br/> See the [New-BitsTransfer](http://go.microsoft.com/fwlink/p/?linkid=154646) cmdlet for detailed information about the parameters and for examples.<br/>                                           |
-| **ResumeBitsTransferCommand**   | Resumes a BITS transfer job.<br/> See the [Resume-BitsTransfer](http://go.microsoft.com/fwlink/p/?linkid=154647) cmdlet for detailed information about the parameters and for examples.<br/>                                            |
-| **SetBitsTransferCommand**      | Modifies the properties of an existing BITS transfer job.<br/> See the [Set-BitsTransfer](http://go.microsoft.com/fwlink/p/?linkid=154648) cmdlet for detailed information about the parameters and for examples.<br/>                  |
-| **SuspendBitsTransferCommand**  | Suspends a BITS transfer job.<br/> See the [Suspend-BitsTransfer](http://go.microsoft.com/fwlink/p/?linkid=154649) cmdlet for detailed information about the parameters and for examples.<br/>                                          |
+| **AddBitsFileCommand**          | Adds one or more files to an existing BITS transfer job.<br/> See the [Add-BitsFile](https://go.microsoft.com/fwlink/p/?linkid=154641) cmdlet for detailed information about the parameters and for examples.<br/>                       |
+| **ClearBitsTransferCommand**    | Cancels a BITS transfer job.<br/> See the [Clear-BitsTransfer]( https://go.microsoft.com/fwlink/p/?linkid=154642) cmdlet for detailed information about the parameters and for examples.<br/>                                          |
+| **CompleteBitsTransferCommand** | Completes a BITS transfer job.<br/> See the [Complete-BitsTransfer]( https://go.microsoft.com/fwlink/p/?linkid=154644) cmdlet for detailed information about the parameters and for examples.<br/>                                     |
+| **GetBitsTransferCommand**      | Retrieves the associated BitsJob object for an existing BITS transfer job.<br/> See the [Get-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154645) cmdlet for detailed information about the parameters and for examples.<br/> |
+| **NewBitsTransferCommand**      | Creates a new BITS transfer job.<br/> See the [New-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) cmdlet for detailed information about the parameters and for examples.<br/>                                           |
+| **ResumeBitsTransferCommand**   | Resumes a BITS transfer job.<br/> See the [Resume-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154647) cmdlet for detailed information about the parameters and for examples.<br/>                                            |
+| **SetBitsTransferCommand**      | Modifies the properties of an existing BITS transfer job.<br/> See the [Set-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154648) cmdlet for detailed information about the parameters and for examples.<br/>                  |
+| **SuspendBitsTransferCommand**  | Suspends a BITS transfer job.<br/> See the [Suspend-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154649) cmdlet for detailed information about the parameters and for examples.<br/>                                          |
 
 
 

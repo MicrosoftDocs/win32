@@ -60,7 +60,7 @@ HRESULT hr;
 IBackgroundCopyJob* pJob;
 
 //Replace parameters with variables that contain valid paths.
-hr = pJob->AddFile(L"http://ServerName/Path/File.Ext", L"d:\\Path\\File.Ext");
+hr = pJob->AddFile(L"https://ServerName/Path/File.Ext", L"d:\\Path\\File.Ext");
 if (SUCCEEDED(hr))
 {
   //Do something.

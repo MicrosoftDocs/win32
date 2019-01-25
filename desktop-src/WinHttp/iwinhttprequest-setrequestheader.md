@@ -60,7 +60,7 @@ Headers are transferred across redirects. This can create a security vulnerabili
 
 The **SetRequestHeader** method enables the calling application to add or delete an HTTP request header prior to sending the request. The header name is given in *Header*, and the header token or value is given in *Value*. To add a header, supply a header name and value. If another header already exists with this name, it is replaced. To delete a header, set *Header* to the name of the header to delete and set *Value* to **NULL**.
 
-The name and value of request headers added with this method are validated. Headers must be well formed. For more information about valid HTTP headers, see [RFC 2616](Http://go.microsoft.com/fwlink/p/?linkid=84048). If an invalid header is used, an error occurs and the header is not added.
+The name and value of request headers added with this method are validated. Headers must be well formed. For more information about valid HTTP headers, see [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048). If an invalid header is used, an error occurs and the header is not added.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
@@ -126,7 +126,7 @@ int main()
     if (SUCCEEDED(hr))
     {    // Open WinHttpRequest.
         BSTR bstrMethod  = SysAllocString(L"GET");
-        BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+        BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varFalse);
         SysFreeString(bstrMethod);
         SysFreeString(bstrUrl);
@@ -174,7 +174,7 @@ The following scripting example shows how to open an HTTP connection, set a requ
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("GET", "http://www.microsoft.com", false);
+WinHttpReq.Open("GET", "https://www.microsoft.com", false);
 
 // Add/replace a request header.
 WinHttpReq.SetRequestHeader("Date", Date());

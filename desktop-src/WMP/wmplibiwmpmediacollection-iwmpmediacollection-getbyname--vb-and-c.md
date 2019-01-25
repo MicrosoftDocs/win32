@@ -87,7 +87,7 @@ The following example uses `getByName` to retrieve three items from the library.
 // file name extension.
 
 // Get an interface to a playlist that contains an Internet URL.
-WMPLib.IWMPPlaylist one = player.mediaCollection.getByName("http://www.proseware.com/Media/Laure");
+WMPLib.IWMPPlaylist one = player.mediaCollection.getByName("https://www.proseware.com/Media/Laure");
 
 // Get an interface to a playlist that contains a file on a network server.
 WMPLib.IWMPPlaylist two = player.mediaCollection.getByName("Jeanne");
@@ -122,7 +122,7 @@ player.currentPlaylist.appendItem(three.get_Item(0));
 &#39; file name extension.
 
 &#39; Get an interface to a playlist that contains an Internet URL.
-Dim one As WMPLib.IWMPPlaylist = player.mediaCollection.getByName(&quot;http://www.proseware.com/Media/Laure&quot;)
+Dim one As WMPLib.IWMPPlaylist = player.mediaCollection.getByName(&quot;https://www.proseware.com/Media/Laure&quot;)
 
 &#39; Get an interface to a playlist that contains a file on a network server.
 Dim two As WMPLib.IWMPPlaylist = player.mediaCollection.getByName(&quot;Jeanne&quot;)

@@ -47,7 +47,7 @@ The following three JScript examples use *ClosedCaption*.**SAMIFileName** to spe
 
 ```JScript
 // Display the closed captions from a website.
-Player.closedCaption.SAMIFileName="http://www.proseware.com/ccsample.smi";
+Player.closedCaption.SAMIFileName="https://www.proseware.com/ccsample.smi";
 
 // Display the closed captions from a local network.
 // You must add an escape sequence of a backslash for every original backslash.

@@ -36,7 +36,7 @@ This section contains the following topics.
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> <dt>
 
-[DXVA 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=93647)
+[DXVA 1 Specification](https://go.microsoft.com/fwlink/p/?linkid=93647)
 </dt> </dl>
 
  

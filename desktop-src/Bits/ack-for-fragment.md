@@ -36,7 +36,7 @@ BITS-Error-Context: error-context
 <span id="reason-code"></span><span id="REASON-CODE"></span>reason-code
 </dt> <dd>
 
-Replace reason-code with an HTTP reason code. The following table shows the typical reason codes for a response to a [**Fragment**](fragment.md) request. For a list of HTTP reason codes, see [RFC 2616](http://go.microsoft.com/fwlink/p/?linkid=84048).
+Replace reason-code with an HTTP reason code. The following table shows the typical reason codes for a response to a [**Fragment**](fragment.md) request. For a list of HTTP reason codes, see [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048).
 
 
 

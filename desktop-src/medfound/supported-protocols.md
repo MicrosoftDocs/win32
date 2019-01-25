@@ -72,7 +72,7 @@ Fast Cache disabled:<br/>
 <td>RTSPT</td>
 </tr>
 <tr class="even">
-<td>http://</td>
+<td>https://</td>
 <td><ol>
 <li>HTTP<br/></li>
 <li>HTTPD<br/></li>

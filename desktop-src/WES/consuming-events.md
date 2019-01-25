@@ -80,13 +80,13 @@ For details on consuming events, see the following topics:
 
 The standard end user tools for consuming event are:
 
--   [Event Viewer](http://go.microsoft.com/fwlink/p/?linkid=146293)
--   The Windows PowerShell [Get-WinEvent](http://go.microsoft.com/fwlink/p/?linkid=156783) cmdlet
+-   [Event Viewer](https://go.microsoft.com/fwlink/p/?linkid=146293)
+-   The Windows PowerShell [Get-WinEvent](https://go.microsoft.com/fwlink/p/?linkid=156783) cmdlet
 -   [**WevtUtil**](windows-event-log-tools.md)
 
 ## XPath 1.0 limitations
 
-Windows Event Log supports a subset of XPath 1.0. The primary restriction is that only XML elements that represent events can be selected by an event selector. An XPath query that does not select an event is not valid. All valid selector paths start with \* or "Event". All location paths operate on the event nodes and are composed of a series of steps. Each step is a structure of three parts: the axis, node test, and predicate. For more information about these parts and about XPath 1.0, see [XML Path Language (XPath)](Http://go.microsoft.com/fwlink/p/?linkid=84163). Windows Event Log places the following restrictions on the expression:
+Windows Event Log supports a subset of XPath 1.0. The primary restriction is that only XML elements that represent events can be selected by an event selector. An XPath query that does not select an event is not valid. All valid selector paths start with \* or "Event". All location paths operate on the event nodes and are composed of a series of steps. Each step is a structure of three parts: the axis, node test, and predicate. For more information about these parts and about XPath 1.0, see [XML Path Language (XPath)](https://go.microsoft.com/fwlink/p/?linkid=84163). Windows Event Log places the following restrictions on the expression:
 
 -   Axis: Only the Child (default) and Attribute (and its shorthand "@") axis are supported.
 -   Node Tests: Only node names and NCName tests are supported. The "\*" character, which selects any character, is supported.

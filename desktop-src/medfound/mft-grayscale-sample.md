@@ -28,7 +28,7 @@ To see the grayscale MFT in use, run the [PlaybackFX Sample](https://msdn.micros
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
 
 
 

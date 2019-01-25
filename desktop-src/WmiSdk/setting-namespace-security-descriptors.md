@@ -78,7 +78,7 @@ If you are writing scripts, use the [**GetSecurityDescriptor**](getsecuritydescr
 
 If you are programming in C++, you can manipulate the binary security descriptor using [Security Descriptor Definition Language (SDDL)](https://msdn.microsoft.com/library/windows/desktop/aa379567), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376397) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376401).
 
-Be aware that, starting with Windows Vista, [User Account Control](Http://go.microsoft.com/fwlink/p/?linkid=84440) (UAC) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
+Be aware that, starting with Windows Vista, [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84440) (UAC) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
 ## Related topics
 

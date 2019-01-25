@@ -45,7 +45,7 @@ The optional Boolean <isIndexed> element specifies whether the location describe
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
     <isIndexed>false</isIndexed>
     ...

@@ -127,7 +127,7 @@ For Windows Store apps, the <a href="https://msdn.microsoft.com/library/windows/
 </tr>
 <tr class="even">
 <td>Effects 10</td>
-<td><a href="http://go.microsoft.com/fwlink/p/?LinkId=271568">Effects 11</a> is available as shared source online.
+<td><a href="https://go.microsoft.com/fwlink/p/?LinkId=271568">Effects 11</a> is available as shared source online.
 <blockquote>
 [!Note]<br />
 This solution is not suited to Windows Store apps because it requires the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607340">D3DCompiler APIs</a> at runtime (deployment).
@@ -140,7 +140,7 @@ This solution is not suited to Windows Store apps because it requires the <a hre
 </tr>
 <tr class="even">
 <td>D3DX10</td>
-<td>D3DX11 in the legacy DirectX SDK <a href="http://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=324981">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd368038">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br/></td>
+<td>D3DX11 in the legacy DirectX SDK <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=324981">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd368038">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -210,9 +210,9 @@ Once your code is updated to use the Direct3D 11 API, there are numerous [new fe
 
 ## New Features for DirectX 11.1
 
-Windows 8 includes further DirectX graphics enhancements to consider when you implement your DirectX graphics code, which include [Direct3D 11.1](direct3d-11-features.md), [DXGI 1.2](https://msdn.microsoft.com/library/windows/desktop/hh404490), [Windows Display Driver Model (WDDM) 1.2](http://go.microsoft.com/fwlink/p/?LinkId=226814), [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11.1 hardware, Direct2D device contexts, and other improvements.
+Windows 8 includes further DirectX graphics enhancements to consider when you implement your DirectX graphics code, which include [Direct3D 11.1](direct3d-11-features.md), [DXGI 1.2](https://msdn.microsoft.com/library/windows/desktop/hh404490), [Windows Display Driver Model (WDDM) 1.2](https://go.microsoft.com/fwlink/p/?LinkId=226814), [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11.1 hardware, Direct2D device contexts, and other improvements.
 
-Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 as well via the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), which is available through the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838).
+Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 as well via the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
 
 ## New Features for DirectX 11.2
 

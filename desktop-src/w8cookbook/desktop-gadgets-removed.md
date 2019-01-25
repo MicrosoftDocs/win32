@@ -45,7 +45,7 @@ Developers are able to test compatibility of this change by disabling the option
 
 ## Resources
 
-[Vulnerabilities in Gadgets Could Allow Remote Code Execution](http://go.microsoft.com/fwlink/p/?linkid=325442)
+[Vulnerabilities in Gadgets Could Allow Remote Code Execution](https://go.microsoft.com/fwlink/p/?linkid=325442)
 
  
 

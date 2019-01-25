@@ -22,7 +22,7 @@ The EAPHost configuration used in this wireless profile sample was derived from 
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
-<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+<WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPA2EnterpriseTLS</name>
     <SSIDConfig>
         <SSID>
@@ -39,18 +39,18 @@ The EAPHost configuration used in this wireless profile sample was derived from 
                 <encryption>AES</encryption>
                 <useOneX>true</useOneX>
             </authEncryption>
-            <OneX xmlns="http://www.microsoft.com/networking/OneX/v1">
+            <OneX xmlns="https://www.microsoft.com/networking/OneX/v1">
                 <EAPConfig>
-                    <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig" 
-                                   xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
-                                   xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodConfig">
+                    <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig" 
+                                   xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
+                                   xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodConfig">
  
                         <EapMethod>
                             <eapCommon:Type>13</eapCommon:Type> 
                             <eapCommon:AuthorId>0</eapCommon:AuthorId> 
                         </EapMethod>
-                        <Config xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
-                                xmlns:eapTls="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1">
+                        <Config xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
+                                xmlns:eapTls="https://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1">
 
                             <baseEap:Eap>
                                 <baseEap:Type>13</baseEap:Type> 

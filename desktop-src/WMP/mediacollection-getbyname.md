@@ -64,7 +64,7 @@ The following JScript example uses *MediaCollection*.**getByName** to retrieve t
 // file name extension.
 
 // Get a playlist object that contains an Internet URL.
-var One = Player.mediaCollection.getByName("http://www.proseware.com/Media/Laure");
+var One = Player.mediaCollection.getByName("https://www.proseware.com/Media/Laure");
  
 // Get a playlist object that contains a file on a network server.
 var Two = Player.mediaCollection.getByName("Jeanne");

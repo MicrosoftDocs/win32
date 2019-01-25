@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Calling WDS from Web Pages
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-You can call Microsoft Windows Desktop Search (WDS) from any webpage you create or maintain using the Browser Helper Object (BHO) and Windows Internet Explorer. You can see how this works on the MSN webpage. Above the search box on http://www.msn.com are several search types: Web, News, Images, Desktop, Encarta, and Local. If you click Desktop, the search parameters are passed to Windows Desktop Search, which searches the catalog and displays results in the WDS user interface. For users to start a desktop search from your webpage(s), the WDSBHO must be installed and enabled on their systems, your webpage(s) must be registered with WDS as an allowed URL, and you must create a link to pass the user-enetered query to WDS.
+You can call Microsoft Windows Desktop Search (WDS) from any webpage you create or maintain using the Browser Helper Object (BHO) and Windows Internet Explorer. You can see how this works on the MSN webpage. Above the search box on https://www.msn.com are several search types: Web, News, Images, Desktop, Encarta, and Local. If you click Desktop, the search parameters are passed to Windows Desktop Search, which searches the catalog and displays results in the WDS user interface. For users to start a desktop search from your webpage(s), the WDSBHO must be installed and enabled on their systems, your webpage(s) must be registered with WDS as an allowed URL, and you must create a link to pass the user-enetered query to WDS.
 
 ## Enabling the WDS Browser Help Object
 
@@ -24,13 +24,13 @@ The Registry includes a list of "allowed" domain URLs from which WDS can be call
 
 **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows Desktop Search**\\**DSW**\\**Allowed**\\*<number>* = <domainURL>
 
-Where **<number>** is sequentially numbered, and **<domainURL>** is the URL of the Web Page you want to allow WDS searches from. This URL string can include the wildcard asterisk \* at the beginning or end of the URL. For example, if the string is "\*.mydomain.com", then you can start a WDS search from both http://www.mydomain.com and http://mydomain.com.
+Where **<number>** is sequentially numbered, and **<domainURL>** is the URL of the Web Page you want to allow WDS searches from. This URL string can include the wildcard asterisk \* at the beginning or end of the URL. For example, if the string is "\*.mydomain.com", then you can start a WDS search from both https://www.mydomain.com and https://mydomain.com.
 
 ## Enabling Desktop Search by URL
 
 Another option that does not require access to the Registry is to use the following URL on your webpage(s):
 
-http://toolbar.msn.com/desktop/results.aspx?q=QUERY
+https://toolbar.msn.com/desktop/results.aspx?q=QUERY
 
 where **QUERY** is the URL-encoded string the user is searching on, including any [Advanced Query Syntax](-search-2x-wds-aqsreference.md) terms.
 

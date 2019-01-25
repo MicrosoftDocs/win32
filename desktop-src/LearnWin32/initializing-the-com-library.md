@@ -38,7 +38,7 @@ If either of these constraints is not true, use the multithreaded model. To spec
 You must set exactly one of these flags. Generally, a thread that creates a window should use the **COINIT\_APARTMENTTHREADED** flag, and other threads should use **COINIT\_MULTITHREADED**. However, some COM components require a particular threading model. The MSDN documentation should tell you when that is the case.
 
 > [!Note]  
-> Actually, even if you specify apartment threading, it is still possible to share interfaces between threads, by using a technique called *marshaling*. Marshaling is beyond the scope of this module. The important point is that with apartment threading, you must never simply copy an interface pointer to another thread. For more information about the COM threading models, see [Processes, Threads, and Apartments](https://msdn.microsoft.com/library/windows/desktop/ms693344) and [Understanding and Using COM Threading Models](http://go.microsoft.com/fwlink/p/?linkid=155119).
+> Actually, even if you specify apartment threading, it is still possible to share interfaces between threads, by using a technique called *marshaling*. Marshaling is beyond the scope of this module. The important point is that with apartment threading, you must never simply copy an interface pointer to another thread. For more information about the COM threading models, see [Processes, Threads, and Apartments](https://msdn.microsoft.com/library/windows/desktop/ms693344) and [Understanding and Using COM Threading Models](https://go.microsoft.com/fwlink/p/?linkid=155119).
 
  
 

@@ -37,7 +37,7 @@ The WMI shared provider host process is not secured with a [*service SID*](gloss
 
 </dd> </dl>
 
-**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](http://go.microsoft.com/fwlink/p/?linkid=148767). For more information, see the [Microsoft Security Bulletin MS09-012](http://go.microsoft.com/fwlink/p/?linkid=148768).
+**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://go.microsoft.com/fwlink/p/?linkid=148767). For more information, see the [Microsoft Security Bulletin MS09-012](https://go.microsoft.com/fwlink/p/?linkid=148768).
 
 ## Registry Keys and Values
 
@@ -119,9 +119,9 @@ The following list lists the possible registry settings and the associated runni
 
 ## Configuring a Provider to Run in Secure or Compatible Mode
 
-The registry keys can be modified using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](http://go.microsoft.com/fwlink/p/?linkid=148559).
+The registry keys can be modified using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](https://go.microsoft.com/fwlink/p/?linkid=148559).
 
-The following procedures illustrate how to manage secure and compatible mode settings by using group policy preferences. For more information about group policy preferences, see the [Group Policy Preferences Overview](http://go.microsoft.com/fwlink/p/?linkid=103735).
+The following procedures illustrate how to manage secure and compatible mode settings by using group policy preferences. For more information about group policy preferences, see the [Group Policy Preferences Overview](https://go.microsoft.com/fwlink/p/?linkid=103735).
 
 **To add a provider to either the secure or compatible mode by using Group Policy**
 

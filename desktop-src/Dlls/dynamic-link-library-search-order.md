@@ -148,7 +148,7 @@ If the *lpPathName* parameter is an empty string, the call removes the current d
 
 An application can specify a search order by using one or more **LOAD\_LIBRARY\_SEARCH** flags with the [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function. An application can also use **LOAD\_LIBRARY\_SEARCH** flags with the [**SetDefaultDllDirectories**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories) function to establish a DLL search order for a process. The application can specify additional directories for the process DLL search order by using the [**AddDllDirectory**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory) or [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya) functions.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** The **LOAD\_LIBRARY\_SEARCH** flags are available on systems with [KB2533623](http://go.microsoft.com/fwlink/p/?linkid=217865) installed.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** The **LOAD\_LIBRARY\_SEARCH** flags are available on systems with [KB2533623](https://go.microsoft.com/fwlink/p/?linkid=217865) installed.
 
 **Windows Server 2003 and Windows XP:** The **LOAD\_LIBRARY\_SEARCH** flags are not supported.
 

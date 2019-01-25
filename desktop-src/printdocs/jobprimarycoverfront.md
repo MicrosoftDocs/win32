@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobPrimaryCoverFront
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Describes the front (beginning) cover sheet. The entire job will have a single primary sheet. The cover sheet should be printed on the PageMediaSize and PageMediaType used for the first page of the job. The cover sheet should be integrated into processing options (such as JobDuplexAllDocumentsContiguously, JobNUpAllDocumentsContiguously) as indicated by the Option specified.
 
@@ -60,7 +60,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                               | Data type         | Unit           | Supported values                                                                                                                                                                      | Summary                                                                      |
 |------------------------------------|-------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_OptionName\_<br/>          | string<br/> | n/a<br/> | Valid fully qualified name as defined by [Namespaces in XML](http://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
+| \_OptionName\_<br/>          | string<br/> | n/a<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/> | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/> |
 
 
@@ -69,7 +69,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobPrimaryCoverFront">
@@ -112,7 +112,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Files and Folders
 
-WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file. If you want to copy a file or read and write a file, the easiest way is to use the Windows Script Host [FileSystemObject](Http://go.microsoft.com/fwlink/p/?linkid=84366) rather than WMI. For other examples, see the [Files and Folders](https://TechNet.Microsoft.Com/library/ee176985.aspx) section of the [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710).
+WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file. If you want to copy a file or read and write a file, the easiest way is to use the Windows Script Host [FileSystemObject](https://go.microsoft.com/fwlink/p/?linkid=84366) rather than WMI. For other examples, see the [Files and Folders](https://TechNet.Microsoft.Com/library/ee176985.aspx) section of the [TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710).
 
 [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236) is one of the few [CIM classes](cimclas.md) in WMI that is implemented. Avoid enumerating or querying for all instances of **CIM\_DataFile** on a computer because the volume of data is likely to either affect performance or cause the computer to stop responding.
 
@@ -299,7 +299,7 @@ Next</code></pre></td>
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
  

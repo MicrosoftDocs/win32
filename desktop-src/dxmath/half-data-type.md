@@ -25,7 +25,7 @@ HALF\_MIN = 6.10352e-5f
 
 HALF\_MAX = 65504.f
 
-For more info about the HALF data type, see [Half-precision floating-point format](http://en.wikipedia.org/wiki/Half_precision_floating-point_format).
+For more info about the HALF data type, see [Half-precision floating-point format](https://en.wikipedia.org/wiki/Half_precision_floating-point_format).
 
 **Namespace**: Use DirectX::PackedVector
 

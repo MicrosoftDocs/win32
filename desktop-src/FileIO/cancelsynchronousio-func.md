@@ -57,7 +57,7 @@ If this function cannot find a request to cancel, the return value is 0 (zero), 
 
 The caller must have the [THREAD\_TERMINATE](https://msdn.microsoft.com/library/windows/desktop/ms686769) access right.
 
-If there are any pending I/O operations in progress for the specified thread, the **CancelSynchronousIo** function marks them for cancellation. Most types of operations can be canceled immediately; other operations can continue toward completion before they are actually canceled and the caller is notified. The **CancelSynchronousIo** function does not wait for all canceled operations to complete. For more information, see [I/O Completion/Cancellation Guidelines](Http://go.microsoft.com/fwlink/p/?linkid=85346).
+If there are any pending I/O operations in progress for the specified thread, the **CancelSynchronousIo** function marks them for cancellation. Most types of operations can be canceled immediately; other operations can continue toward completion before they are actually canceled and the caller is notified. The **CancelSynchronousIo** function does not wait for all canceled operations to complete. For more information, see [I/O Completion/Cancellation Guidelines](https://go.microsoft.com/fwlink/p/?linkid=85346).
 
 The operation being canceled is completed with one of three statuses; you must check the completion status to determine the completion state. The three statuses are:
 

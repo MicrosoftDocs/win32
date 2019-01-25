@@ -18,7 +18,7 @@ The Direct2D Clock sample application draws an analog clock, as shown in the scr
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at <http://go.microsoft.com/fwlink/p/?linkid=195535>.
+This sample is available in the MSDN Code Gallery at <https://go.microsoft.com/fwlink/p/?linkid=195535>.
 
 ## Related topics
 

@@ -38,7 +38,7 @@ The **CIM\_PhysicalElement** subclasses define any component of a system that ha
 Tangible managed system elements (usually hardware items) have a physical manifestation. A managed system element is not necessarily a discrete component. For example, it is possible for a single card (a type of physical element) to host more than one logical device. The card would be represented by a single physical element associated with multiple logical devices.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

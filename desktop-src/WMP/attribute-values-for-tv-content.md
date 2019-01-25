@@ -66,7 +66,7 @@ media.setItemInfo("WM/MediaClassSecondaryID", "BA7F258A-62F7-47A9-B21F-4651C42A0
 
 
 
-For more info about the possible values for the media class attributes, see the [Windows Media Metadata Usage Guidelines](http://msdn.microsoft.com/library/ms867702.aspx).
+For more info about the possible values for the media class attributes, see the [Windows Media Metadata Usage Guidelines](https://msdn.microsoft.com/library/ms867702.aspx).
 
 ## Related topics
 

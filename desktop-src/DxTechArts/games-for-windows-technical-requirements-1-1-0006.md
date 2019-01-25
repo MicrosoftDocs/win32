@@ -61,7 +61,7 @@ Here is a summary of the key differences when applying these technical requireme
 
 All games that you register with the [Games Explorer](https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx) are surfaced as tiles in new Windows UI, but much of the metadata that is associated with the title is no longer visible. You still use the Games Definition File Maker tool (GDFMAKER.EXE), which is now available in the Windows Software Development Kit (SDK), to author the metadata. You also use the existing mechanisms for deploying the metadata. Continue to test your Games Explorer registration by using Windows 7, and verify that the new Windows UI tile shows up when you install it on Windows 8 (see [1.1 Games Explorer Integration](#11-games-explorer-integration)).
 
-To download the Windows 8 SDK, see [Downloads for developing desktop apps](http://go.microsoft.com/fwlink/p/?linkid=253588).
+To download the Windows 8 SDK, see [Downloads for developing desktop apps](https://go.microsoft.com/fwlink/p/?linkid=253588).
 
 </dd> <dt>
 
@@ -469,7 +469,7 @@ Adding the manifest element is easy to do with Visual Studio 2005 and 2008; crea
 ``` syntax
             <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
             <asmv3:application>
-            <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+            <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2005/WindowsSettings">
             <dpiAware>true</dpiAware>
             </asmv3:windowsSettings>
             </asmv3:application>
@@ -482,7 +482,7 @@ Visual Studio 2010 includes a setting in the project properties, named **Enable 
 
 On Windows, the traditional display mode defaults to 96 DPI, which was common for CRT monitors.
 
-While full-screen applications change the display resolution, they often use window messages and metrics when setting up buffers and display rectangles. DPI virtualization causes these full-screen display modes to appear cropped, and declaring DPI-aware will prevent these problems. For more information, see [Writing DPI-Aware Win32 Applications](http://go.microsoft.com/fwlink/p/?linkid=129586).
+While full-screen applications change the display resolution, they often use window messages and metrics when setting up buffers and display rectangles. DPI virtualization causes these full-screen display modes to appear cropped, and declaring DPI-aware will prevent these problems. For more information, see [Writing DPI-Aware Win32 Applications](https://go.microsoft.com/fwlink/p/?linkid=129586).
 
 </dd> </dl>
 
@@ -653,7 +653,7 @@ Poorly written or malware drivers can severely affect the stability and security
 
 Both 32-bit and 64-bit native versions of all kernel-mode drivers are needed per requirement 2.2.
 
-More information about Microsoft driver signing programs can be found at the [Windows Hardware Developer portal](http://www.microsoft.com/whdc/winlogo/hwrequirements.mspx).
+More information about Microsoft driver signing programs can be found at the [Windows Hardware Developer portal](https://www.microsoft.com/whdc/winlogo/hwrequirements.mspx).
 
 </dd> </dl>
 
@@ -845,7 +845,7 @@ UAC is active by default on Windows Vista and Windows 7, and the vast majority o
 
 For more details on configuring the Windows Firewall, see the DirectX article [Windows Firewall for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee417690) and the FirewallInstallHelper sample.
 
-Standard launch of the game at the end of the installation process fails to meet the last aspect of this requirement if the installation is launched by a standard user, and if the setup process requires administrative privileges (that is, prompts for a administrator credentials). It also inherits administrative privileges, which is a potential security risk. Instead, a setup bootstrap loader should launch the game after returning from a successful invocation of the installer. For more information, see the MSDN Magazine article [Teach Your Apps to Play Nicely with Windows Vista User Account Control](http://msdn.microsoft.com/msdnmag/issues/07/01/UAC/default.aspx).
+Standard launch of the game at the end of the installation process fails to meet the last aspect of this requirement if the installation is launched by a standard user, and if the setup process requires administrative privileges (that is, prompts for a administrator credentials). It also inherits administrative privileges, which is a potential security risk. Instead, a setup bootstrap loader should launch the game after returning from a successful invocation of the installer. For more information, see the MSDN Magazine article [Teach Your Apps to Play Nicely with Windows Vista User Account Control](https://msdn.microsoft.com/msdnmag/issues/07/01/UAC/default.aspx).
 
 </dd> </dl>
 
@@ -1073,7 +1073,7 @@ AppVerifier tests for many known issues that cause crashes and hangs in Windows 
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](http://msdn.microsoft.com/library/aa480483.aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](http://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/aa480483.aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
 
 This requirement does not apply to pure managed applications without native interop.
 
@@ -1265,7 +1265,7 @@ The primary benefit of 64-bit addressing is the ability to directly access more 
 
 Existing 32-bit applications can benefit from x64 editions by having the capability to process addresses with full 32-bit data when built with the Enable Large Addresses (**/LARGEADDRESSAWARE**) linker option. On 32-bit versions of Windows XP, special boot modes allowed such applications to address up to 3 GB of RAM, and x64 editions provide access up to 4 GB of RAM for Large Address Aware (LAA) apps. While use of LAA in a 32-bit application does not meet this showcase requirement, this bridge technology is an extremely useful way of providing additional scaling benefits on x64 versions of Windows for those not fully implementing this showcase requirement.
 
-For more information, see [64-bit programming for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418798) and [RAM, VRAM, and More RAM: 64-bit Gaming Is Here](http://www.gamasutra.com/view/feature/3602/sponsored_feature_ram_vram_and_.php) in Gamasutra.
+For more information, see [64-bit programming for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418798) and [RAM, VRAM, and More RAM: 64-bit Gaming Is Here](https://www.gamasutra.com/view/feature/3602/sponsored_feature_ram_vram_and_.php) in Gamasutra.
 
 > [!Note]  
 > A key challenge for this showcase is ensuring any third-party libraries or components your game relies on are available for 64-bit native development. Many legacy Microsoft APIs also have been eliminated from the 64-bit native environment, which can prove a challenge for engine code bases containing older implementations of key systems.
@@ -1389,7 +1389,7 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 -   Avoid using legacy and deprecated APIs: DirectDraw, DirectSound, DirectPlay, DirectMusic's performance layer, DirectPlay Voice, and Direct3D Retained Mode. Note that DirectPlay Voice and Direct3D Retained Mode are not available at all on Windows Vista or Windows 7. DirectPlay and DirectMusic's performance layer are not available to x64-native applications.
 -   Optimize using SSE/SSE2 SIMD instruction sets. See the [DirectXMath](https://msdn.microsoft.com/library/windows/desktop/hh437833) API in the Windows SDK as a cross-platform solution for SIMD-optimized math operations.
 -   Use modern best practices for Windows security (including compiler and linker options like **/NXCOMPAT**, **/GS**, **/SAFESEH**, **/DYNAMICBASE**, **/SDL**, and so on). For more information, see [Best Security Practices in Game Development](https://msdn.microsoft.com/library/windows/desktop/ee416233).
--   Use the latest Windows SDK components and libraries. Remove dependencies on the legacy DirectSetup deployed out-of-band components such as D3DX9, D3DX10, and D3DX11. Consider using [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) or [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) or both.
+-   Use the latest Windows SDK components and libraries. Remove dependencies on the legacy DirectSetup deployed out-of-band components such as D3DX9, D3DX10, and D3DX11. Consider using [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) or [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) or both.
 -   Avoid using the older HLSL compiler, and instead, use the modern HLSL compiler. If support for Pixel Shader 1.x is required by your application, use shader assembly rather than HLSL, or limit the use of the older compiler to just those scenarios.
 
 ## Resources
@@ -1399,11 +1399,11 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 | Term                                                                                                                                                                                                                         | Description                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Games_for_Windows__Test_Cases__"></span><span id="games_for_windows__test_cases__"></span><span id="GAMES_FOR_WINDOWS__TEST_CASES__"></span>Games for Windows: Test Cases <br/>                              | Best Practices for Games on Windows XP, Windows Vista, and Windows 7<br/>                                                                               |
-| <span id="Windows_SDK__"></span><span id="windows_sdk__"></span><span id="WINDOWS_SDK__"></span>Windows SDK <br/>                                                                                                      | [Windows SDKs](http://msdn.microsoft.com/bb980924.aspx)<br/>                                                                                      |
-| <span id="User_Account_Control_Guidelines__"></span><span id="user_account_control_guidelines__"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES__"></span>User Account Control Guidelines <br/>                      | [Windows Vista Application Development Requirements for User Account Control Compatibility](http://msdn.microsoft.com/library/bb530410.aspx)<br/> |
+| <span id="Windows_SDK__"></span><span id="windows_sdk__"></span><span id="WINDOWS_SDK__"></span>Windows SDK <br/>                                                                                                      | [Windows SDKs](https://msdn.microsoft.com/bb980924.aspx)<br/>                                                                                      |
+| <span id="User_Account_Control_Guidelines__"></span><span id="user_account_control_guidelines__"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES__"></span>User Account Control Guidelines <br/>                      | [Windows Vista Application Development Requirements for User Account Control Compatibility](https://msdn.microsoft.com/library/bb530410.aspx)<br/> |
 | <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal <br/>                                                  | [Windows Quality Online Services (Winqual)](https://sysdev.microsoft.com/)<br/>                                                                         |
-| <span id="DirectX_Developer_Portal__"></span><span id="directx_developer_portal__"></span><span id="DIRECTX_DEVELOPER_PORTAL__"></span>DirectX Developer Portal <br/>                                                  | [Directx Developer Center](http://msdn.microsoft.com/directx/)<br/>                                                                               |
-| <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog<br/> | [Games for Windows and the DirectX SDK](http://blogs.msdn.com/b/chuckw/)<br/>                                                                           |
+| <span id="DirectX_Developer_Portal__"></span><span id="directx_developer_portal__"></span><span id="DIRECTX_DEVELOPER_PORTAL__"></span>DirectX Developer Portal <br/>                                                  | [Directx Developer Center](https://msdn.microsoft.com/directx/)<br/>                                                                               |
+| <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog<br/> | [Games for Windows and the DirectX SDK](https://blogs.msdn.com/b/chuckw/)<br/>                                                                           |
 | <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles<br/>                                             | [DirectX Technical Articles](https://msdn.microsoft.com/library/windows/desktop/ee416994)<br/>                                                                                    |
 
 

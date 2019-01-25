@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.MakerNote Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.MakerNote](http://msdn.microsoft.com/en-us/library/bb760491(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.MakerNote](https://msdn.microsoft.com/en-us/library/bb760491(VS.85).aspx) property.
 
 ### PKEY
 
@@ -116,7 +116,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.MakerNote](http://msdn.microsoft.com/en-us/library/bb760491(VS.85).aspx)
+[System.Photo.MakerNote](https://msdn.microsoft.com/en-us/library/bb760491(VS.85).aspx)
 </dt> </dl>
 
  

@@ -69,8 +69,8 @@ Re-run the DPI Awareness assessment and verify the issues are fixed.
 
 ## Links to Other Resources
 
--   [Writing DPI-Aware Win32 Applications white paper](http://go.microsoft.com/fwlink/p/?linkid=129586) (PDF version)
--   [Writing DPI-Aware Win32 Applications white paper](http://go.microsoft.com/fwlink/p/?linkid=129588) (XPS version)
+-   [Writing DPI-Aware Win32 Applications white paper](https://go.microsoft.com/fwlink/p/?linkid=129586) (PDF version)
+-   [Writing DPI-Aware Win32 Applications white paper](https://go.microsoft.com/fwlink/p/?linkid=129588) (XPS version)
 -   [Writing DPI-Aware Win32 Applications white paper](https://msdn.microsoft.com/library/Dd464646(v=VS.85).aspx) (MSDN online version)
 -   **Contact for technical questions:** <disup@microsoft.com>
 

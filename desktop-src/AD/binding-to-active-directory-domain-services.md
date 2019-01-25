@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Binding to Active Directory Domain Services
 
-In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](https://msdn.microsoft.com/library/aa705950) or [DirectoryEntry](http://go.microsoft.com/fwlink/p/?linkid=83868) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
+In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](https://msdn.microsoft.com/library/aa705950) or [DirectoryEntry](https://go.microsoft.com/fwlink/p/?linkid=83868) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
 
 ## Binding Functions and Methods
 
@@ -24,7 +24,7 @@ The method for programmatically binding to an Active Directory object will depen
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170)         | [Binding to an ADSI Object](https://msdn.microsoft.com/library/aa772319)                    |
 | [Lightweight Directory Access Protocol](https://msdn.microsoft.com/library/aa367008) | [Establishing an LDAP Session](https://msdn.microsoft.com/library/aa366102)              |
-| [System.DirectoryServices](https://msdn.microsoft.com/library/9t2667d1.aspx)                 | [Binding to Directory Objects](http://go.microsoft.com/fwlink/p/?linkid=83964) |
+| [System.DirectoryServices](https://msdn.microsoft.com/library/9t2667d1.aspx)                 | [Binding to Directory Objects](https://go.microsoft.com/fwlink/p/?linkid=83964) |
 
 
 

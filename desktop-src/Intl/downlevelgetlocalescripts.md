@@ -51,7 +51,7 @@ Pointer to a null-terminated [locale name](locale-names.md).
 *lpScripts* \[out\]
 </dt> <dd>
 
-Pointer to a buffer in which this function retrieves a null-terminated string representing a list of scripts, using the 4-character notation used in [ISO 15924](http://go.microsoft.com/fwlink/p/?linkid=161644). Each script name consists of four Latin characters, and the names are retrieved in alphabetical order. Each of them, including the last, is followed by a semicolon.
+Pointer to a buffer in which this function retrieves a null-terminated string representing a list of scripts, using the 4-character notation used in [ISO 15924](https://go.microsoft.com/fwlink/p/?linkid=161644). Each script name consists of four Latin characters, and the names are retrieved in alphabetical order. Each of them, including the last, is followed by a semicolon.
 
 Alternatively, this parameter can contain **NULL** if *cchScripts* is set to 0. In this case, the function returns the required size for the script buffer.
 
@@ -96,7 +96,7 @@ Here are some examples of inputs and outputs for this function, assuming a suffi
 
 The list does not contain the Latin script unless it is an essential part of the writing system used for a locale. However, Latin characters are often used in the context of locales for which they are not native, as for a foreign business name. In the example above for Hindi in India, the only script retrieved is "Deva" (for Devanagari), although Latin characters can also appear in Hindi text. The [**DownlevelVerifyScripts**](downlevelverifyscripts.md) function has a special flag to address that case.
 
-The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](http://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download, available at the [MSDN Download Center](http://go.microsoft.com/fwlink/p/?linkid=362).
+The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download, available at the [MSDN Download Center](https://go.microsoft.com/fwlink/p/?linkid=362).
 
 ## Requirements
 

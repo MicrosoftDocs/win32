@@ -27,7 +27,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetEnumerateColumns Function
 
-The **JetEnumerateColumns** function efficiently retrieves a set of columns and their values from the current record of a cursor or the copy buffer of that cursor. The columns and values retrieved can be restricted by a list of column IDs, *itagSequence* numbers, and other characteristics. This column retrieval API is unique in that it returns information in dynamically allocated memory that is obtained using a user-provided [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback. This new flexibility permits the efficient retrieval of column data with specific characteristics (such as size and multiplicity) that are unknown to the caller. This eliminates the need for the use of the discovery modes of [JetRetrieveColumn](gg269198\(v=exchg.10\).md) to determine those characteristics in order to setup a final call to [JetRetrieveColumn](gg269198\(v=exchg.10\).md) that will successfully retrieve the desired data.
+The **JetEnumerateColumns** function efficiently retrieves a set of columns and their values from the current record of a cursor or the copy buffer of that cursor. The columns and values retrieved can be restricted by a list of column IDs, *itagSequence* numbers, and other characteristics. This column retrieval API is unique in that it returns information in dynamically allocated memory that is obtained using a user-provided [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback. This new flexibility permits the efficient retrieval of column data with specific characteristics (such as size and multiplicity) that are unknown to the caller. This eliminates the need for the use of the discovery modes of [JetRetrieveColumn](gg269198\(v=exchg.10\).md) to determine those characteristics in order to setup a final call to [JetRetrieveColumn](gg269198\(v=exchg.10\).md) that will successfully retrieve the desired data.
 
 **Windows XP:  JetEnumerateColumns** is introduced in Windows XP.
 
@@ -82,7 +82,7 @@ See *pcEnumColumn*.
 
 *pfnRealloc*
 
-Identifies a [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback and an optional context pointer used to allocate memory for the output array of columns and their values.
+Identifies a [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback and an optional context pointer used to allocate memory for the output array of columns and their values.
 
 *pvReallocContext*
 
@@ -229,9 +229,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 </table>
 
 
-On success, the requested data will be returned in the output buffers. It is the caller's responsibility to free any memory allocated by this callback and returned in the output buffers. That memory should be freed through the provided [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback. No change to the database state will occur.
+On success, the requested data will be returned in the output buffers. It is the caller's responsibility to free any memory allocated by this callback and returned in the output buffers. That memory should be freed through the provided [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback. No change to the database state will occur.
 
-On failure, none of the requested data will be returned. Any memory that was allocated during the call will be freed automatically using the provided [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback. No change to the database state will occur.
+On failure, none of the requested data will be returned. Any memory that was allocated during the call will be freed automatically using the provided [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback. No change to the database state will occur.
 
 #### Remarks
 
@@ -283,7 +283,7 @@ If **JetEnumerateColumns** returns data in its output parameters then the caller
 [JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
 [JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
 [JET_PFNREALLOC](gg269237\(v=exchg.10\).md)  
-[realloc](http://go.microsoft.com/fwlink/?linkid=179840)  
+[realloc](https://go.microsoft.com/fwlink/?linkid=179840)  
 [JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
 [JetRetrieveColumns](gg294135\(v=exchg.10\).md)
 

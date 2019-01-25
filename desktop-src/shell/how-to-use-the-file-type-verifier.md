@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Use the File Type Verifier
 
-This topic describes how to use the File Type Verifier that is provided in the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787). If your program creates file types that users are expected to interact with from the Windows Shell (typically stored in a user's known folder such as **My Documents**), it is very important to test your application and verify that the files it creates are properly registered and provide a high-quality user experience when browsing and searching files. This is especially important if you expect users to run your applications on Windows 7, which relies on high-quality file type handlers for many of the Shell features.
+This topic describes how to use the File Type Verifier that is provided in the [Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787). If your program creates file types that users are expected to interact with from the Windows Shell (typically stored in a user's known folder such as **My Documents**), it is very important to test your application and verify that the files it creates are properly registered and provide a high-quality user experience when browsing and searching files. This is especially important if you expect users to run your applications on Windows 7, which relies on high-quality file type handlers for many of the Shell features.
 
 To verify your file type using the File Type Verifier, follow these steps.
 
@@ -16,7 +16,7 @@ To verify your file type using the File Type Verifier, follow these steps.
 
 ### Step 1:
 
-Install the application on your test environment, and copy the File Type Verifier to that environment. The File Type Verifier is available in the [Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+Install the application on your test environment, and copy the File Type Verifier to that environment. The File Type Verifier is available in the [Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 ### Step 2:
 
@@ -70,7 +70,7 @@ If failures are reported, make the appropriate changes in your application and r
 
 <dl> <dt>
 
-[Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787)
+[Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787)
 </dt> </dl>
 
  

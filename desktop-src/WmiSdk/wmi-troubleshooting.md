@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 When accessing WMI local or remote data in an application or script, you may encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.
 
 > [!Note]  
-> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](http://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://TechNet.Microsoft.Com/library/ff406382.aspx)
+> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](https://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://TechNet.Microsoft.Com/library/ff406382.aspx)
 
  
 
@@ -24,7 +24,7 @@ The WMI diagnosis Utility (WMIDiag.exe) is no longer supported starting with Win
 
 If WMI returns error messages, be aware that they may not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system and emerge as errors through WMI. Under any circumstances, do not delete the WMI repository as a first action because deleting the repository can cause damage to the system or to installed applications.
 
-To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](Http://go.microsoft.com/fwlink/p/?linkid=84435) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility at the [Download Center](Http://go.microsoft.com/fwlink/p/?linkid=84419).
+To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](https://go.microsoft.com/fwlink/p/?linkid=84435) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility at the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=84419).
 
 Provider writers may also encounter debugging issues unless you are writing a [*decoupled provider*](gloss-d.md). For more information, see [Debugging Providers](debugging-providers.md).
 

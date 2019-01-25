@@ -114,7 +114,7 @@ For any other codes not shown in the previous table, the MPEG-4 file source sets
 
 For codes not shown in the table, a decoder must use the [MF\_MT\_MPEG4\_SAMPLE\_DESCRIPTION](mf-mt-mpeg4-sample-description.md) attribute to parse the sample description box.
 
-For a list of sample entry codes and links to relevant specifications, see the ['MP4' Registration Authority](http://mp4ra.org) website.
+For a list of sample entry codes and links to relevant specifications, see the ['MP4' Registration Authority](https://mp4ra.org) website.
 
 ## Limitations
 

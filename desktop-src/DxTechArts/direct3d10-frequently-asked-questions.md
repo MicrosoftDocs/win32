@@ -424,7 +424,7 @@ The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**
 <span id="My_game_runs_out_of_virtual_address_space_on_32-bit_Vista_under_D3D10._It_does_not_have_problems_on_D3D9.__"></span><span id="my_game_runs_out_of_virtual_address_space_on_32-bit_vista_under_d3d10._it_does_not_have_problems_on_d3d9.__"></span><span id="MY_GAME_RUNS_OUT_OF_VIRTUAL_ADDRESS_SPACE_ON_32-BIT_VISTA_UNDER_D3D10._IT_DOES_NOT_HAVE_PROBLEMS_ON_D3D9.__"></span>My game runs out of virtual address space on 32-bit Vista under D3D10. It does not have problems on D3D9. 
 </dt> <dd>
 
-There were some issues with D3D10 and virtual address space. This has been fixed in [KB940105](http://support.microsoft.com/kb/940105). If that does not fix your problem, ensure you are not creating more resources that can be mapped (locked) in D3D10 than you were creating in D3D9. Also think about porting to 64-bit since this will become more prevalent in the future.
+There were some issues with D3D10 and virtual address space. This has been fixed in [KB940105](https://support.microsoft.com/kb/940105). If that does not fix your problem, ensure you are not creating more resources that can be mapped (locked) in D3D10 than you were creating in D3D9. Also think about porting to 64-bit since this will become more prevalent in the future.
 
 </dd> </dl>
 

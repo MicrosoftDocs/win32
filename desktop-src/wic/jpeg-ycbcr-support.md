@@ -44,7 +44,7 @@ Here is an image decomposed into its red, green and blue components.
 
 YC<sub>b</sub>C<sub>r</sub> is an alternate color model that defines color data using a luminance component (Y) and two chrominance components (C<sub>b</sub> and C<sub>r</sub>). It is commonly used in digital imaging and video scenarios. The term YC<sub>b</sub>C<sub>r</sub> is often used interchangeably with YUV, although the two are technically distinct.
 
-There are several variations of YC<sub>b</sub>C<sub>r</sub> which differ in color space and dynamic range definitions – WIC specifically supports JPEG JFIF YC<sub>b</sub>C<sub>r</sub> data. For more information, refer to the [JPEG ITU-T81 specification](http://www.w3.org/Graphics/JPEG/itu-t81.pdf).
+There are several variations of YC<sub>b</sub>C<sub>r</sub> which differ in color space and dynamic range definitions – WIC specifically supports JPEG JFIF YC<sub>b</sub>C<sub>r</sub> data. For more information, refer to the [JPEG ITU-T81 specification](https://www.w3.org/Graphics/JPEG/itu-t81.pdf).
 
 Here is an image decomposed into its Y, C<sub>b</sub>, and C<sub>r</sub> components.
 
@@ -109,7 +109,7 @@ By having the JPEG codec produce YC<sub>b</sub>C<sub>r</sub> data, we can avoid 
 
 This section explains how to use WIC and Direct2D to operate on YC<sub>b</sub>C<sub>r</sub> data.
 
-To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](http://go.microsoft.com/fwlink/p/?LinkID=321091) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
+To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
 
 ### Using YC<sub>b</sub>C<sub>r</sub> JPEG images
 
@@ -163,7 +163,7 @@ Before using the YC<sub>b</sub>C<sub>r</sub> image effect, you should call [**ID
 
 ### Sample Code
 
-Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](http://go.microsoft.com/fwlink/p/?LinkID=321091).
+Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091).
 
 
 ```C++
@@ -223,7 +223,7 @@ Finally, if you want to render the YC<sub>b</sub>C<sub>r</sub> data in Direct2D,
 
 ### Code Sample
 
-Below is a code example demonstrating the steps to decode and render YC<sub>b</sub>C<sub>r</sub> data in Direct2D. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](http://go.microsoft.com/fwlink/p/?LinkID=321091).
+Below is a code example demonstrating the steps to decode and render YC<sub>b</sub>C<sub>r</sub> data in Direct2D. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091).
 
 
 ```C++
@@ -346,7 +346,7 @@ For more information about using [**ID2D1ImageSourceFromWic**](https://msdn.micr
 
 <dl> <dt>
 
-[JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](http://go.microsoft.com/fwlink/p/?LinkID=321091)
+[JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091)
 </dt> </dl>
 
  

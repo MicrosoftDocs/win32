@@ -29,7 +29,7 @@ This sample has the following requirements.
 |                          |                                                                                                         |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 7                                                                                               |
-| Windows SDK              | [Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) for Windows 7 |
+| Windows SDK              | [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=129787) for Windows 7 |
 
 
 
@@ -43,7 +43,7 @@ This sample is available in the following locations.
 
 | Location     | Path/URL                                                                                                                                                                              |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows SDK  | \\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\multimedia\\wic\\ProgressiveDecoding\\ (Download the SDK at [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).) |
+| Windows SDK  | \\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\multimedia\\wic\\ProgressiveDecoding\\ (Download the SDK at [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).) |
 | Code Gallery | [Windows Imaging Component Progressive Decode Win32 Sample](https://code.msdn.microsoft.com/Windows-Imaging-Component-3af3cd49)                                                       |
 
 

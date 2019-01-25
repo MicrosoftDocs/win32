@@ -49,7 +49,7 @@ Cryptography functions are categorized according to usage as follows:
 
 ## CryptXML Functions
 
-The cryptographic XML functions provide an API for creating and representing digital signatures by using XML formatted data. For information about XML formatted signatures, see the XML-Signature Syntax and Processing specification at <http://go.microsoft.com/fwlink/p/?linkid=139649>.
+The cryptographic XML functions provide an API for creating and representing digital signatures by using XML formatted data. For information about XML formatted signatures, see the XML-Signature Syntax and Processing specification at <https://go.microsoft.com/fwlink/p/?linkid=139649>.
 
 
 

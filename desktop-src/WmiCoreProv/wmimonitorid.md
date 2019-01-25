@@ -194,7 +194,7 @@ Year of manufacture.
 
 ## Remarks
 
-For a discussion on how to translate the arrays that store serial number ID's, see the [Reporting Monitor information with Configuration Manager](http://blogs.technet.com/b/kmongwa/archive/2012/09/07/reporting-monitor-information-with-configuration-manager.aspx) blog article.
+For a discussion on how to translate the arrays that store serial number ID's, see the [Reporting Monitor information with Configuration Manager](https://blogs.technet.com/b/kmongwa/archive/2012/09/07/reporting-monitor-information-with-configuration-manager.aspx) blog article.
 
 ## Examples
 

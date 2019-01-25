@@ -325,7 +325,7 @@ Globalization means to create documents or products that are usable in any count
 -   Don't make only part of a sentence a link, because when translated, that text might not remain together. Link text should therefore form a complete sentence by itself.
     -   **Exception:** Glossary links can be inserted inline, as part of a sentence.
 
-For more information, see the [Go Global Developer Center](http://msdn.microsoft.com/goglobal/).
+For more information, see the [Go Global Developer Center](https://msdn.microsoft.com/goglobal/).
 
 ### Title bar text
 

@@ -29,11 +29,11 @@ ms.date: 05/31/2018
 
 # Using the Windows Media Player Control with Firefox
 
-Microsoft provides a plug-in that enables you to embed the Windows Media Player ActiveX control in a webpage so that it will be displayed correctly by a Firefox browser. The plug-in, which must be installed on the client computer, can be downloaded from the [Microsoft Port25 website](http://go.microsoft.com/fwlink/p/?linkid=89562).
+Microsoft provides a plug-in that enables you to embed the Windows Media Player ActiveX control in a webpage so that it will be displayed correctly by a Firefox browser. The plug-in, which must be installed on the client computer, can be downloaded from the [Microsoft Port25 website](https://go.microsoft.com/fwlink/p/?linkid=89562).
 
-For information about the Firefox browser, see the [Firefox website](http://go.microsoft.com/fwlink/p/?linkid=93021).
+For information about the Firefox browser, see the [Firefox website](https://go.microsoft.com/fwlink/p/?linkid=93021).
 
-For more information about using Windows Media Player with Firefox, see the Windows Media Player section of the [mozillaZine website](http://go.microsoft.com/fwlink/p/?linkid=93022).
+For more information about using Windows Media Player with Firefox, see the Windows Media Player section of the [mozillaZine website](https://go.microsoft.com/fwlink/p/?linkid=93022).
 
 The following topics describe how to embed the Windows Media Player control in a webpage that can be displayed correctly by both Internet Explorer and Firefox.
 

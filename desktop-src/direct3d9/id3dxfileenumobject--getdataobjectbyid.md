@@ -39,7 +39,7 @@ HRESULT GetDataObjectById(
 *rguid* \[in\]
 </dt> <dd>
 
-Type: **[REFGUID](http://go.microsoft.com/?linkid=9742306)**
+Type: **[REFGUID](https://go.microsoft.com/?linkid=9742306)**
 
 Reference to the requested GUID.
 

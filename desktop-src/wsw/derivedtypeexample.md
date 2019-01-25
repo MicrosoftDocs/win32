@@ -371,10 +371,10 @@ Exit:
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema targetNamespace="http://example.org/derivedTypes"
-           xmlns:tns="http://example.org/derivedTypes"
+<xs:schema targetNamespace="https://example.org/derivedTypes"
+           xmlns:tns="https://example.org/derivedTypes"
     elementFormDefault="qualified"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    xmlns:xs="https://www.w3.org/2001/XMLSchema">
   <xs:complexType name="PayloadBaseType">
     <xs:sequence>
       <xs:element minOccurs="0" name="Id" type="xs:int" />

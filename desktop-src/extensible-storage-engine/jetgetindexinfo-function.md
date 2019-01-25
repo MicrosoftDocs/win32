@@ -99,7 +99,7 @@ The information that will be stored in *pvResult*. The following options can be 
 </tr>
 <tr class="even">
 <td><p>JET_IdxInfoLangid</p></td>
-<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID and the <a href="http://go.microsoft.com/fwlink/?linkid=181225">LANGIDFROMLCID</a> macro instead.</p></td>
+<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID and the <a href="https://go.microsoft.com/fwlink/?linkid=181225">LANGIDFROMLCID</a> macro instead.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_IdxInfoLCID</p></td>

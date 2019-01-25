@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Direct3D 11.1 Features
 
-The following functionality has been added in Direct3D 11.1, which is included with Windows 8, Windows RT, and Windows Server 2012. Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), which is available through the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838).
+The following functionality has been added in Direct3D 11.1, which is included with Windows 8, Windows RT, and Windows Server 2012. Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
 
 -   [Shader tracing and compiler enhancements](#shader-tracing-and-compiler-enhancements)
 -   [Direct3D device sharing](#direct3d-device-sharing)

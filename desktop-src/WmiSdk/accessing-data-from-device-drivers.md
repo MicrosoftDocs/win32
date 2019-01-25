@@ -27,7 +27,7 @@ The WDM provider transforms all WNODE data into class information. If an error i
 
 Changes made to driver security settings do not take effect until the WDM provider is unloaded and reloaded. For more information, see [Unloading a Provider](unloading-a-provider.md).
 
-WMI can also make high-performance counters for hardware drivers available. For more information about creating high-performance classes and displaying data in Perfmon System Monitor, see [Improving the Efficiency of an Instance Provider](improving-the-efficiency-of-an-instance-provider.md). For more information about writing WMI-enabled device drivers, see [http://www.microsoft.com/ddk](Http://go.microsoft.com/fwlink/p/?linkid=84418). For more information about WDM specific qualifiers in the MOF file, see [**Qualifiers Specific to the WDM Provider**](qualifiers-specific-to-the-wdm-provider.md).
+WMI can also make high-performance counters for hardware drivers available. For more information about creating high-performance classes and displaying data in Perfmon System Monitor, see [Improving the Efficiency of an Instance Provider](improving-the-efficiency-of-an-instance-provider.md). For more information about writing WMI-enabled device drivers, see [https://www.microsoft.com/ddk](https://go.microsoft.com/fwlink/p/?linkid=84418). For more information about WDM specific qualifiers in the MOF file, see [**Qualifiers Specific to the WDM Provider**](qualifiers-specific-to-the-wdm-provider.md).
 
 ## Information for Administrators and Users of Driver Data
 

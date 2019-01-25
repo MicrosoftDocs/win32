@@ -49,17 +49,17 @@ This parameter can contain one of the following:
 -   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171), you cannot use a selector.
 
     ```VB
-    strResourceUri = "http://schemas.microsoft.com/" _ 
+    strResourceUri = "https://schemas.microsoft.com/" _ 
         & "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
 
-    strResourceUri = "http://schemas.microsoft.com/" _ 
+    strResourceUri = "https://schemas.microsoft.com/" _ 
         & "wbem/wsman/1/wmi/root/cimv2/Win32_LocalTime"
     ```
 
     
 
 -   A [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+-   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](https://go.microsoft.com/fwlink/p/?linkid=96658).
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ If objSession is Nothing Then
 End If 
 
 
-strResourceUri = "http://schemas.microsoft.com/" _ 
+strResourceUri = "https://schemas.microsoft.com/" _ 
     & "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
 
 On Error Resume Next
@@ -139,14 +139,14 @@ End If
 
 'Create a Session object.
 Dim objSession
-Set objSession = objWsman.CreateSession( "http://" & RemoteComputer )
+Set objSession = objWsman.CreateSession( "https://" & RemoteComputer )
 If objSession is Nothing Then
     WScript.Echo "Failed to create WSMAN Session object"
     WScript.Quit
 End If 
 
 
-strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/" _ 
+strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/" _ 
     & "Win32_Service?Name=winmgmt"
 
 

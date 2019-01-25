@@ -69,7 +69,7 @@ Null-terminated string that was specified with the **AddFileWithRanges** call.
 **sourceURL**
 </dt> <dd>
 
-Null-terminated string that contains the name of the file on the server (for example, http://&lt;server&gt;/&lt;path&gt;/file.ext).
+Null-terminated string that contains the name of the file on the server (for example, https://&lt;server&gt;/&lt;path&gt;/file.ext).
 
 </dd> <dt>
 

@@ -28,7 +28,7 @@ Direct2D is well-suited for graphics applications that require server-side rende
 
 The following is a typical scenario for a chart server: charts and graphics are rendered on a server and delivered as bitmaps in response to Web requests. The server might be equipped with a low-end graphics card or no graphics card at all.
 
-This scenario reveals three application requirements. First, the application must handle multiple concurrent requests efficiently, especially on multicore servers. Second, the application must use software rendering when running on servers with a low-end graphics card or no graphics card. Finally, the application must run as a service in Session 0 so that it does not require a user to be logged in. For more information about Session 0, see [Impact of Session 0 Isolation on Services and Drivers in Windows](http://www.microsoft.com/whdc/system/sysinternals/Session0Changes.mspx).
+This scenario reveals three application requirements. First, the application must handle multiple concurrent requests efficiently, especially on multicore servers. Second, the application must use software rendering when running on servers with a low-end graphics card or no graphics card. Finally, the application must run as a service in Session 0 so that it does not require a user to be logged in. For more information about Session 0, see [Impact of Session 0 Isolation on Services and Drivers in Windows](https://www.microsoft.com/whdc/system/sysinternals/Session0Changes.mspx).
 
 ## Options for Available APIs
 
@@ -36,7 +36,7 @@ There are three options for server-side rendering: GDI, GDI+ and Direct2D. Like 
 
 ### GDI
 
-Unlike Direct2D and GDI+, GDI does not support high-quality drawing features. For instance, GDI does not support antialiasing for creating smooth lines and has only limited support for transparency. Based on the graphics performance test results on Windows 7 and Windows Server 2008 R2, Direct2D scales more efficiently than GDI, despite the redesign of locks in GDI. For more information about these test results, see [Engineering Windows 7 Graphics Performance](http://blogs.msdn.com/e7/archive/2009/04/25/engineering-windows-7-for-graphics-performance.aspx).
+Unlike Direct2D and GDI+, GDI does not support high-quality drawing features. For instance, GDI does not support antialiasing for creating smooth lines and has only limited support for transparency. Based on the graphics performance test results on Windows 7 and Windows Server 2008 R2, Direct2D scales more efficiently than GDI, despite the redesign of locks in GDI. For more information about these test results, see [Engineering Windows 7 Graphics Performance](https://blogs.msdn.com/e7/archive/2009/04/25/engineering-windows-7-for-graphics-performance.aspx).
 
 In addition, applications using GDI are limited to 10240 GDI handles per process and 65536 GDI handles per session. The reason is that internally Windows uses a 16-bit WORD to store the index of handles for each session.
 
@@ -60,7 +60,7 @@ The following sections describe how to use software rendering, how to optimally 
 
 ### Software Rendering
 
-Server-side applications use software rendering by creating [IWICBitmap](http://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target, with the render target type set to either D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE or D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT. For more information about [IWICBitmap](http://msdn.microsoft.com/library/ee719675(VS.85).aspx) render targets, see the [**ID2D1Factory::CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) method; for more information about the render target types, see [**D2D1\_RENDER\_TARGET\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd756630).
+Server-side applications use software rendering by creating [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target, with the render target type set to either D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE or D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT. For more information about [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render targets, see the [**ID2D1Factory::CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) method; for more information about the render target types, see [**D2D1\_RENDER\_TARGET\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd756630).
 
 ### Multithreading
 
@@ -80,11 +80,11 @@ Figure 3 shows the optimal approach, where a single-threaded factory and a singl
 
 ### Generating a Bitmap File
 
-To generate a bitmap file using software rendering, use an [IWICBitmap](http://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target. Use an [IWICStream](http://msdn.microsoft.com/library/ee719782(VS.85).aspx) to write the bitmap to a file. Use [IWICBitmapFrameEncode](http://msdn.microsoft.com/library/ee690141(VS.85).aspx) to encode the bitmap into a specified image format. The following code example shows how to draw and save the following image to a file.
+To generate a bitmap file using software rendering, use an [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target. Use an [IWICStream](https://msdn.microsoft.com/library/ee719782(VS.85).aspx) to write the bitmap to a file. Use [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/ee690141(VS.85).aspx) to encode the bitmap into a specified image format. The following code example shows how to draw and save the following image to a file.
 
 ![example output image.](images/saveasimagefile-sample.png)
 
-This code example first creates an [IWICBitmap](http://msdn.microsoft.com/library/ee719675(VS.85).aspx) and an [IWICBitmap](http://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target. It then renders a drawing with some text, a path geometry representing an hour glass, and a transformed hour glass into a WIC bitmap. It then uses [IWICStream::InitializeFromFilename](http://msdn.microsoft.com/library/ee719788(VS.85).aspx) to save the bitmap to a file. If your application needs to save the bitmap in memory, use [IWICStream::InitializeFromMemory](http://msdn.microsoft.com/library/ee719792(VS.85).aspx) instead. Finally, it uses [IWICBitmapFrameEncode](http://msdn.microsoft.com/library/ee690141(VS.85).aspx) to encode the bitmap.
+This code example first creates an [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) and an [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target. It then renders a drawing with some text, a path geometry representing an hour glass, and a transformed hour glass into a WIC bitmap. It then uses [IWICStream::InitializeFromFilename](https://msdn.microsoft.com/library/ee719788(VS.85).aspx) to save the bitmap to a file. If your application needs to save the bitmap in memory, use [IWICStream::InitializeFromMemory](https://msdn.microsoft.com/library/ee719792(VS.85).aspx) instead. Finally, it uses [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/ee690141(VS.85).aspx) to encode the bitmap.
 
 
 ```C++

@@ -37,7 +37,7 @@ HTTP is a one-way protocol based on TCP, and is the protocol used by Web servers
 
 Windows Media Services 9 Series in Microsoft Windows Server 2003 will reject any MMSU or MMST requests from a Windows Media Format SDK reader, because RTSP is the preferred streaming protocol. Windows Media Services version 4.1 and earlier do not support RTSP. In this case the reader object falls back to MMSU or HTTP.
 
-Protocol rollover does not apply if the URL scheme gives a specific protocol, such as "rtspu://" for RTSPU or "http://" for HTTP. If the URL scheme is "rtsp://", the reader tries RTSPU and RTSPT, but no others.
+Protocol rollover does not apply if the URL scheme gives a specific protocol, such as "rtspu://" for RTSPU or "https://" for HTTP. If the URL scheme is "rtsp://", the reader tries RTSPU and RTSPT, but no others.
 
 After the reader opens a file, you can query which protocol it is using by calling the [**IWMReaderAdvanced2::GetProtocolName**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname) method on the reader. While the content is being streamed or downloaded, this method returns the name as soon as the content is completely cached, the **GetProtocolName** method returns the string "Cache."
 

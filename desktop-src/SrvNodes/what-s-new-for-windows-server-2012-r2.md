@@ -104,7 +104,7 @@ The following list describes new and updated feature areas for Windows Server 2
 [Windows Server 2012 R2 and Windows Server 2012 on TechNet Library](https://TechNet.Microsoft.Com/library/hh801901.aspx)
 </dt> <dt>
 
-[Windows Server 2012 R2 on Microsoft.Com](http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/default.aspx)
+[Windows Server 2012 R2 on Microsoft.Com](https://www.microsoft.com/server-cloud/products/windows-server-2012-r2/default.aspx)
 </dt> </dl>
 
  

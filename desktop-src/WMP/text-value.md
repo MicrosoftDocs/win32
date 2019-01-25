@@ -56,7 +56,7 @@ The following sample is a complete skin definition file that illustrates how the
       value = "Play"
       cursor = "hand"
       enabled = "wmpenabled:player.controls.play"
-      onClick = "JScript: player.URL='http://proseware.com/laure.wma';"
+      onClick = "JScript: player.URL='https://proseware.com/laure.wma';"
     />
     <TEXT
       top = "50"

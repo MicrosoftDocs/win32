@@ -28,41 +28,41 @@ The following code example shows a complete ServiceInfo.xml document. You can us
 <ServiceInfo Version="1.00" Key="Proseware">
     <FriendlyName>Proseware Service</FriendlyName>
     <Image 
-        MenuURL = "http://www.proseware.com/service/images/menuicon.jpg"
-        ServiceLargeURL = "http://www.proseware.com/service/images/30x30.jpg" />
+        MenuURL = "https://www.proseware.com/service/images/menuicon.jpg"
+        ServiceLargeURL = "https://www.proseware.com/service/images/30x30.jpg" />
     <Color
         MediaPlayer = "#FF8040"
         MediaPlayerText = "#FFFFFF"/>
     <ServiceTask1
-        URL = "http://www.proseware.com/service/html/Music.asp">
+        URL = "https://www.proseware.com/service/html/Music.asp">
         <ButtonText>Proseware\nMusic</ButtonText>
         <ButtonTip>Proseware Music Store</ButtonTip>
     </ServiceTask1>
     <ServiceTask2
-        URL = "http://www.proseware.com/service/html/Video.asp">
+        URL = "https://www.proseware.com/service/html/Video.asp">
         <ButtonText>Proseware\nVideo</ButtonText>
         <ButtonTip>Proseware Video</ButtonTip>
     </ServiceTask2>
     <ServiceTask3
-        URL = "http://www.proseware.com/service/html/Radio.asp">
+        URL = "https://www.proseware.com/service/html/Radio.asp">
         <ButtonText>Proseware\nRadio</ButtonText>
         <ButtonTip>Proseware Radio</ButtonTip>
     </ServiceTask3>
     <Navigate
-        BaseURL = "http://www.proseware.com/service/html/navigate.asp">
+        BaseURL = "https://www.proseware.com/service/html/navigate.asp">
     </Navigate>
     <InfoCenter
-        URL = "http://www.proseware.com/service/html/InfoCenter.asp"/>
+        URL = "https://www.proseware.com/service/html/InfoCenter.asp"/>
     <AlbumInfo
-        URL = "http://www.proseware.com/service/html/AlbumInfo.asp"/>
+        URL = "https://www.proseware.com/service/html/AlbumInfo.asp"/>
     <BuyCD
-        MediaPlayerURL = "http://www.proseware.com/service/html/BuyCDMediaPlayer.asp"
-        MediaCenterURL = "http://www.proseware.com/service/html/BuyCDMediaCenter.asp"
-        BrowserURL = "http://www.proseware.com/service/html/BuyCDBrowser.asp"/>
+        MediaPlayerURL = "https://www.proseware.com/service/html/BuyCDMediaPlayer.asp"
+        MediaCenterURL = "https://www.proseware.com/service/html/BuyCDMediaCenter.asp"
+        BrowserURL = "https://www.proseware.com/service/html/BuyCDBrowser.asp"/>
     <DownloadStatus
-        URL = "http://www.proseware.com/service/html/Music_Download.htm"/>
+        URL = "https://www.proseware.com/service/html/Music_Download.htm"/>
     <HTMLView
-        BaseURL = "http://www.proseware.com/"/>
+        BaseURL = "https://www.proseware.com/"/>
 </ServiceInfo>
 
 ```

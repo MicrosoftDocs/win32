@@ -20,7 +20,7 @@ By default, when a writer is acting as a COM client, if it does not run under th
 
 ## Disabling COM Exception Handling
 
-When developing a writer, set the COM COMGLB\_EXCEPTION\_DONOT\_HANDLE global options flag to disable COM exception handling. It is important to do this because COM exception handling can mask fatal errors in a VSS application. The error that is masked can leave the process in an unstable and unpredictable state, which can lead to corruptions and hangs. For more information about this flag, see [IGlobalOptions](http://go.microsoft.com/fwlink/p/?linkid=98212).
+When developing a writer, set the COM COMGLB\_EXCEPTION\_DONOT\_HANDLE global options flag to disable COM exception handling. It is important to do this because COM exception handling can mask fatal errors in a VSS application. The error that is masked can leave the process in an unstable and unpredictable state, which can lead to corruptions and hangs. For more information about this flag, see [IGlobalOptions](https://go.microsoft.com/fwlink/p/?linkid=98212).
 
 ## Setting Writer Default COM Access Check Permission
 

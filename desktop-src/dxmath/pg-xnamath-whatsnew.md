@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # What's New
 
-The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04](http://blogs.msdn.com/b/chuckw/archive/2011/02/23/xna-math-version-2-04.aspx). Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
+The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04](https://blogs.msdn.com/b/chuckw/archive/2011/02/23/xna-math-version-2-04.aspx). Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
 
 -   [Rlease history](#release-history)
 -   [DirectXMath differences from XNA Math](#directxmath-differences-from-xna-math)

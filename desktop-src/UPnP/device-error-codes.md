@@ -58,7 +58,7 @@ Use the following mapping if **HRESULT** < **UPNP\_E\_ACTION\_SPECIFIC\_BASE**.
 
 ## More Information
 
-Device error codes are specified in [UPnP Device Architecture version 1.0](Http://go.microsoft.com/fwlink/p/?linkid=84160). The constants mentioned in this topic are defined in the files Upnp.h and Upnp.idl.
+Device error codes are specified in [UPnP Device Architecture version 1.0](https://go.microsoft.com/fwlink/p/?linkid=84160). The constants mentioned in this topic are defined in the files Upnp.h and Upnp.idl.
 
  
 

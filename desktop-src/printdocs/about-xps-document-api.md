@@ -67,7 +67,7 @@ The [XPS Document API](documents-xps.md) can be divided into the following categ
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
 </dt> </dl>
 
  

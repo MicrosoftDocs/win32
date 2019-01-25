@@ -35,7 +35,7 @@ Mixing Native Wifi API calls and Wireless Ad Hoc API calls is not recommended. D
 [About the Wireless Ad Hoc API](about-the-wireless-ad-hoc-api.md)
 </dt> <dt>
 
-[Download the Windows Vista SDK](http://go.microsoft.com/fwlink/p/?linkid=102968)
+[Download the Windows Vista SDK](https://go.microsoft.com/fwlink/p/?linkid=102968)
 </dt> </dl>
 
  

@@ -15,9 +15,9 @@ The following manifest defines the events that are used in examples in the [Prov
 ``` syntax
 <!-- <?xml version="1.0" encoding="UTF-16"?> -->
 <instrumentationManifest
-    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"    
+    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
     <instrumentation>

@@ -52,7 +52,7 @@ If you want to use a different response file than the one specified in BITS-Resp
 
 
 ```JavaScript
-  Response.AddHeader "BITS-Static-Response-URL" "http://myserver/mypath/myfile"
+  Response.AddHeader "BITS-Static-Response-URL" "https://myserver/mypath/myfile"
 ```
  
 

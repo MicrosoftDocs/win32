@@ -29,7 +29,7 @@ Object(Replica-Link) syntax. This syntax is only used by the system.
 | MAPI Type    | BINARY                                                            |
 | ADS Type     | ADSTYPE\_OCTET\_STRING                                            |
 | Variant Type | VT\_VARIANT                                                       |
-| SDS Type     | [System.Byte\[\]](http://go.microsoft.com/fwlink/p/?linkid=83861) |
+| SDS Type     | [System.Byte\[\]](https://go.microsoft.com/fwlink/p/?linkid=83861) |
 
 
 
@@ -37,7 +37,7 @@ Object(Replica-Link) syntax. This syntax is only used by the system.
 
 <dl> <dt>
 
-[System.Byte\[\]](http://go.microsoft.com/fwlink/p/?linkid=83861)
+[System.Byte\[\]](https://go.microsoft.com/fwlink/p/?linkid=83861)
 </dt> </dl>
 
  

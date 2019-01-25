@@ -67,7 +67,7 @@ In addition to a working knowledge of Microsoft JScript, this example requires t
         return strResult;
     }
 
-    WScript.Echo(getText("http://www.microsoft.com/default.htm"));
+    WScript.Echo(getText("https://www.microsoft.com/default.htm"));
     ```
 
     
@@ -75,7 +75,7 @@ In addition to a working knowledge of Microsoft JScript, this example requires t
 3.  Save the file as "Retrieve.js".
 4.  From a command prompt, type "cscript Retrieve.js" and press ENTER.
 
-You now have a script that uses a [**WinHttpRequest**](winhttprequest.md) object to obtain the HTML source code for the Web page at http://www.microsoft.com. You might have to wait several seconds for the code to appear.
+You now have a script that uses a [**WinHttpRequest**](winhttprequest.md) object to obtain the HTML source code for the Web page at https://www.microsoft.com. You might have to wait several seconds for the code to appear.
 
 The application contains only one function, "getText". The first line of the script creates the [**WinHttpRequest**](winhttprequest.md) object.
 
@@ -94,12 +94,12 @@ The next line of the script calls the [**Open**](iwinhttprequest-open.md) method
 
 ```JScript
     //  Create an HTTP request.
-    WinHttpReq.Open("GET", "http://www.microsoft.com", false);
+    WinHttpReq.Open("GET", "https://www.microsoft.com", false);
 ```
 
 
 
-Three parameters specify which [*HTTP verb*](glossary.md) to use, the name of the resource, and whether to use WinHTTP synchronously or asynchronously. In this example, the method is using the *HTTP verb*"GET" to obtain data from http://www.microsoft.com. Specifying **FALSE** for the last parameter determines that the transaction occurs synchronously. The [**Open**](iwinhttprequest-open.md) method does not establish a connection to the resource as the name might imply. Rather, it initializes the internal data structures that maintain information about the session, connection, and request.
+Three parameters specify which [*HTTP verb*](glossary.md) to use, the name of the resource, and whether to use WinHTTP synchronously or asynchronously. In this example, the method is using the *HTTP verb*"GET" to obtain data from https://www.microsoft.com. Specifying **FALSE** for the last parameter determines that the transaction occurs synchronously. The [**Open**](iwinhttprequest-open.md) method does not establish a connection to the resource as the name might imply. Rather, it initializes the internal data structures that maintain information about the session, connection, and request.
 
 The [**Send**](iwinhttprequest-send.md) method assembles the request headers and sends the request. When called in synchronous mode, the [**Send**](iwinhttprequest-send.md) method also waits for a response before allowing the application to continue.
 
@@ -162,7 +162,7 @@ The [**WaitForResponse**](iwinhttprequest-waitforresponse.md) method can also be
 [**WinHttpRequest**](winhttprequest.md)
 </dt> <dt>
 
-[HTTP/1.1 Request for Comments (RFC 2616)](Http://go.microsoft.com/fwlink/p/?linkid=84048)
+[HTTP/1.1 Request for Comments (RFC 2616)](https://go.microsoft.com/fwlink/p/?linkid=84048)
 </dt> </dl>
 
  

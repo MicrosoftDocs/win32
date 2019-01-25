@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # simpleLocation url Element (Search Connector Schema)
 
-The <url> element specifies a URL for the location for this search connector. This value can be a regular file:// URL as defined in the RFC 1738 (http://www.ietf.org/rfc/rfc1738.txt) document or or a URL that uses the knownfolders: protocol. This element has no child elements and no attributes.
+The <url> element specifies a URL for the location for this search connector. This value can be a regular file:// URL as defined in the RFC 1738 (https://www.ietf.org/rfc/rfc1738.txt) document or or a URL that uses the knownfolders: protocol. This element has no child elements and no attributes.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ The <url> element specifies a URL for the location for this search connector. Th
 
 ## Remarks
 
-See [KNOWNFOLDERID](http://msdn.microsoft.com/en-us/library/dd378457.aspx) for a list of known folder GUIDs. Use the following format for the value of this element when using the knownfolder: protocol.
+See [KNOWNFOLDERID](https://msdn.microsoft.com/en-us/library/dd378457.aspx) for a list of known folder GUIDs. Use the following format for the value of this element when using the knownfolder: protocol.
 
 
 ```
@@ -172,7 +172,7 @@ The following table shows the Windows 7 known folder GUIDs.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <simpleLocation>
         <url>mapi://{S-1-5-21-2127521184-1604012920-1887927527-2779359}/</url>
@@ -186,7 +186,7 @@ The following table shows the Windows 7 known folder GUIDs.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <simpleLocation>
         <url>knownfolder:{ED4824AF-DCE4-45A8-81E2-FC7965083634}</url>
@@ -201,7 +201,7 @@ The following table shows the Windows 7 known folder GUIDs.
 
 <dl> <dt>
 
-[KNOWNFOLDERID](http://msdn.microsoft.com/en-us/library/dd378457.aspx)
+[KNOWNFOLDERID](https://msdn.microsoft.com/en-us/library/dd378457.aspx)
 </dt> </dl>
 
  

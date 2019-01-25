@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Track Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Track](http://msdn.microsoft.com/en-us/library/bb760591(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Track](https://msdn.microsoft.com/en-us/library/bb760591(VS.85).aspx) property.
 
 ### PKEY
 
@@ -118,7 +118,7 @@ This value is generated from System.GPS.TrackNumerator and System.GPS.TrackDenom
 
 <dl> <dt>
 
-[System.GPS.Track](http://msdn.microsoft.com/en-us/library/bb760591(VS.85).aspx)
+[System.GPS.Track](https://msdn.microsoft.com/en-us/library/bb760591(VS.85).aspx)
 </dt> </dl>
 
  

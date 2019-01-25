@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_ChangedProperties is used by an application to query only changed properties from [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md).
 
-Calling the [**IUISimplePropertySet::GetValue**](https://msdn.microsoft.com/library/windows/desktop/dd371357) method on this [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) object returns an [IPropertyStore](http://go.microsoft.com/fwlink/p/?linkid=139562).
+Calling the [**IUISimplePropertySet::GetValue**](https://msdn.microsoft.com/library/windows/desktop/dd371357) method on this [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) object returns an [IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=139562).
 
 UI\_PKEY\_FontProperties\_ChangedProperties is passed as the last parameter of the [**IUICommandHandler::Execute**](https://msdn.microsoft.com/library/windows/desktop/dd371489) call to the Ribbon host application.
 

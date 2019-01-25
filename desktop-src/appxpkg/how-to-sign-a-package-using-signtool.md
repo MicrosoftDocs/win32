@@ -61,17 +61,17 @@ When you sign the app package, you must use the same hash algorithm that you use
 If you used the app packager with a specific hash algorithm to create the app package, use the same algorithm to sign the package. To determine the hash algorithm to use for signing a package, you can extract the package contents and inspect the AppxBlockMap.xml file. The **HashMethod** attribute of the [**BlockMap**](https://msdn.microsoft.com/library/windows/apps/jj709948) element indicates the hash algorithm that was used when creating the app package. For example:
 
 ``` syntax
-<BlockMap xmlns="http://schemas.microsoft.com/appx/2010/blockmap" 
-HashMethod="http://www.w3.org/2001/04/xmlenc#sha256">
+<BlockMap xmlns="https://schemas.microsoft.com/appx/2010/blockmap" 
+HashMethod="https://www.w3.org/2001/04/xmlenc#sha256">
 ```
 
 The preceding [**BlockMap**](https://msdn.microsoft.com/library/windows/apps/jj709948) element indicates that the SHA256 algorithm was used. This table lists the mapping of the currently available algorithms:
 
 | **HashMethod** value                            | *hashAlgorithm* to use |
 |-------------------------------------------------|------------------------|
-| <http://www.w3.org/2001/04/xmlenc#sha256>       | SHA256 (.appx default) |
-| <http://www.w3.org/2001/04/xmldsig-more#sha384> | SHA384                 |
-| <http://www.w3.org/2001/04/xmlenc#sha512>       | SHA512                 |
+| <https://www.w3.org/2001/04/xmlenc#sha256>       | SHA256 (.appx default) |
+| <https://www.w3.org/2001/04/xmldsig-more#sha384> | SHA384                 |
+| <https://www.w3.org/2001/04/xmlenc#sha512>       | SHA512                 |
 
 
 
@@ -184,13 +184,13 @@ After the package is signed, the certificate that you used to sign the package m
 **Samples**
 </dt> <dt>
 
-[Create app package sample](http://go.microsoft.com/fwlink/p/?linkid=236965)
+[Create app package sample](https://go.microsoft.com/fwlink/p/?linkid=236965)
 </dt> <dt>
 
 **Concepts**
 </dt> <dt>
 
-[Code-Signing Best Practices](http://msdn.microsoft.com/windows/hardware/gg487309.aspx)
+[Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
 </dt> <dt>
 
 [Signing a package in Visual Studio 2012](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx)

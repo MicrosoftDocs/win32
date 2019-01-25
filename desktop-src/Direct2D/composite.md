@@ -112,7 +112,7 @@ The figure here shows an example of each of the modes with images that have an o
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D composite effect modes sample](http://go.microsoft.com/fwlink/p/?linkid=231580).
+For an example of this effect, download the [Direct2D composite effect modes sample](https://go.microsoft.com/fwlink/p/?linkid=231580).
 
 ## Requirements
 

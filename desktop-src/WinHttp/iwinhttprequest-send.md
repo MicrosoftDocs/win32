@@ -114,7 +114,7 @@ int main()
     if (SUCCEEDED(hr))
     {    // Open WinHttpRequest.
         BSTR bstrMethod  = SysAllocString(L"GET");
-        BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+        BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varFalse);
         SysFreeString(bstrMethod);
         SysFreeString(bstrUrl);
@@ -153,7 +153,7 @@ The following scripting example shows how to open an HTTP connection, send an HT
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("GET", "http://www.microsoft.com", false);
+WinHttpReq.Open("GET", "https://www.microsoft.com", false);
 
 // Send the HTTP request.
 WinHttpReq.Send(); 
@@ -172,7 +172,7 @@ The following scripting example shows how to post data to an HTTP server.
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("PUT", "http://postserver/newdoc.htm", false);
+WinHttpReq.Open("PUT", "https://postserver/newdoc.htm", false);
 
 // Post data to the HTTP server.
 WinHttpReq.Send("Post data");

@@ -86,7 +86,7 @@ Visual Studio and other Microsoft debuggers, such as WinDbg, are typically set u
 -   Any local network file share symbol servers.
 -   Any Internet symbol servers, such as the Microsoft symbol server.
 
-To make sure that you have all the PDBs that you need for accurate debugging, install the debugging tools for Windows. The 32 and 64 bit versions can be found at <http://www.microsoft.com/whdc/devtools/debugging/default.mspx>.
+To make sure that you have all the PDBs that you need for accurate debugging, install the debugging tools for Windows. The 32 and 64 bit versions can be found at <https://www.microsoft.com/whdc/devtools/debugging/default.mspx>.
 
 A useful tool that is installed with this package is symchk.exe. It can help to identify missing or incorrect symbols. This tool has a large number of potential command line options. Here are two of the more useful and commonly used ones.
 
@@ -135,7 +135,7 @@ When a debugger searches for symbols, it first searches locally. Then it looks o
 
 ## Using the Microsoft Symbol Server
 
-The Microsoft symbol server allows you to obtain all the latest symbols, including symbols for patched or updated files. The Microsoft symbol server is available at <http://msdl.microsoft.com/download/symbols>.
+The Microsoft symbol server allows you to obtain all the latest symbols, including symbols for patched or updated files. The Microsoft symbol server is available at <https://msdl.microsoft.com/download/symbols>.
 
 You can access the symbol server in one of the following ways:
 

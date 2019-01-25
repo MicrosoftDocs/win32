@@ -39,7 +39,7 @@ INSERT EMP_REVIEW VALUES('Chris Gray', '7/15/1999', 4 )
 
 Now Joe can join the Active Directory user objects to the SQL Server table.
 
-In this example, the [SELECT](http://go.microsoft.com/fwlink/p/?linkid=83924) statement contains the list of data that will be obtained from the directory service and SQL Server. The [FROM](http://go.microsoft.com/fwlink/p/?linkid=83922) statement contains the name of the linked directory server where this information will be obtained from, in this case, viewADUsers. The [WHERE](http://go.microsoft.com/fwlink/p/?linkid=83927) statement provides the search conditions. In this example, it is searching by the name in the directory service, which is set to the SQL userName entered in the previous task.
+In this example, the [SELECT](https://go.microsoft.com/fwlink/p/?linkid=83924) statement contains the list of data that will be obtained from the directory service and SQL Server. The [FROM](https://go.microsoft.com/fwlink/p/?linkid=83922) statement contains the name of the linked directory server where this information will be obtained from, in this case, viewADUsers. The [WHERE](https://go.microsoft.com/fwlink/p/?linkid=83927) statement provides the search conditions. In this example, it is searching by the name in the directory service, which is set to the SQL userName entered in the previous task.
 
 
 ```sql

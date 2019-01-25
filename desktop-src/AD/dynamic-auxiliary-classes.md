@@ -28,7 +28,7 @@ For more information about auxiliary classes, see:
 -   [Determining the Classes Associated With an Object Instance](determining-the-classes-associated-with-an-object-instance.md)
 -   [Adding an Auxiliary Class to an Object Instance](adding-an-auxiliary-class-to-an-object-instance.md)
 
-For more information about forest functional levels, see "How to raise Active Directory domain and forest functional levels" in the Help and Support Knowledge Base at [http://support/microsoft.com/kb/322692\#4](http://go.microsoft.com/fwlink/p/?linkid=83980).
+For more information about forest functional levels, see "How to raise Active Directory domain and forest functional levels" in the Help and Support Knowledge Base at [https://support/microsoft.com/kb/322692\#4](https://go.microsoft.com/fwlink/p/?linkid=83980).
 
  
 

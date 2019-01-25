@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Handling Protected Content in the Application
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](http://aka.ms/p23wo6) instead.\]
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://aka.ms/p23wo6) instead.\]
 
 An application must have a transfer certificate to be able to handle DRM-protected content. To learn where to get this certificate, see [Tools for Development](tools-for-development.md). For handling unprotected content, you can use a dummy certificate as described in [Authenticating the Application](authenticating-the-application.md).
 
@@ -32,7 +32,7 @@ Before using a device, your application should determine whether the device supp
 
  
 
-If your application will link to Windows Media Format SDK methods, it will need to link to the Windows Media Format library WMStubDRM.lib. For more information on calling Windows Media Format methods on DRM-protected content, see "Enabling DRM Support" in the Windows Media Format SDK documentation. Note that there is a problem with linking to both Mssachlp.lib and WMStubDRM.lib. This is covered in [KB article 890079 on MSDN](http://go.microsoft.com/fwlink/p/?linkid=49611).
+If your application will link to Windows Media Format SDK methods, it will need to link to the Windows Media Format library WMStubDRM.lib. For more information on calling Windows Media Format methods on DRM-protected content, see "Enabling DRM Support" in the Windows Media Format SDK documentation. Note that there is a problem with linking to both Mssachlp.lib and WMStubDRM.lib. This is covered in [KB article 890079 on MSDN](https://go.microsoft.com/fwlink/p/?linkid=49611).
 
 The following C++ code example determines whether a device is a Windows Media DRM 10 device and, if so, that its clock is up to date.
 

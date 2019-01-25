@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # User-Principal-Name attribute
 
-This attribute contains the UPN that is an Internet-style login name for a user based on the Internet standard [RFC 822](http://www.ietf.org/rfc/rfc0822.txt). The UPN is shorter than the distinguished name and easier to remember. By convention, this should map to the user email name. The value set for this attribute is equal to the length of the user's ID and the domain name. For more information about this attribute, see [User Naming Attributes](https://msdn.microsoft.com/library/ms677605).
+This attribute contains the UPN that is an Internet-style login name for a user based on the Internet standard [RFC 822](https://www.ietf.org/rfc/rfc0822.txt). The UPN is shorter than the distinguished name and easier to remember. By convention, this should map to the user email name. The value set for this attribute is equal to the length of the user's ID and the domain name. For more information about this attribute, see [User Naming Attributes](https://msdn.microsoft.com/library/ms677605).
 
 
 

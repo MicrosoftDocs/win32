@@ -45,7 +45,7 @@ If yes, removes all entries under the specified URL.
 
 ## Examples
 
-**delete cache url=http://www.contoso.com:80/myresource/ recursive=yes**
+**delete cache url=https://www.contoso.com:80/myresource/ recursive=yes**
 
  
 

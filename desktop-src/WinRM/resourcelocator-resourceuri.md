@@ -43,13 +43,13 @@ A string that identifies the resource. When setting the resource URI for a [**Re
 The following is an example of a proper path for [**ResourceURI**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri).
 
 ``` syntax
-"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
+"https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
 ```
 
 The following path does not work because it contains a key for a specific instance. Use the [**ResourceLocator.AddSelector**](resourcelocator-addselector.md) method to specify a particular instance.
 
 ``` syntax
-"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
+"https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
 ```
 
 **IWSManResourceLocator::ResourceURI** is the corresponding C++ method.

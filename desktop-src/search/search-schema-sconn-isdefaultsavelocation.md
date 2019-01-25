@@ -49,7 +49,7 @@ When a user chooses to save an item, Windows Explorer saves the item to the loca
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <isDefaultSaveLocation>true</isDefaultSaveLocation>
     ...

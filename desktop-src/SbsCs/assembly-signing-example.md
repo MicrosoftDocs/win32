@@ -59,9 +59,9 @@ The next step is to run Makecat.exe over this .cdf to create the security catalo
 
 The final step is to run SignTool.exe to sign the catalog file with the certificate. This should be the same certificate that was used in the preceding to generate the public key token. For more information about SignTool.exe see the [**SignTool**](https://msdn.microsoft.com/library/windows/desktop/aa387764) topic. The call to **SignTool** for the example would appear as follows:
 
-**c:\\MySampleAssembly>signtool sign /f** *<fullpath>***mycompany.pfx /du http://www.mycompany.com/MySampleAssembly /t http://timestamp.verisign.com/scripts/timstamp.dll MySampleAssembly.cat**
+**c:\\MySampleAssembly>signtool sign /f** *<fullpath>***mycompany.pfx /du https://www.mycompany.com/MySampleAssembly /t https://timestamp.verisign.com/scripts/timstamp.dll MySampleAssembly.cat**
 
-If you have an authenticated digital certificate, and your certification authority uses the PVK file format to store the private key, you can use the PVK Digital Certificate Files Importer (pvkimprt.exe) to import the key into your cryptographic service provider (CSP). This utility enables you to export to the industry standard format of PFX/P12. For more information about the PVK Digital Certificate Files Importer, see the Deployment Resources section of the MSDN library or contact your certification authority. You may be able to obtain pvkimprt.exe from http://office.microsoft.com/downloads/2000/pvkimprt.aspx.
+If you have an authenticated digital certificate, and your certification authority uses the PVK file format to store the private key, you can use the PVK Digital Certificate Files Importer (pvkimprt.exe) to import the key into your cryptographic service provider (CSP). This utility enables you to export to the industry standard format of PFX/P12. For more information about the PVK Digital Certificate Files Importer, see the Deployment Resources section of the MSDN library or contact your certification authority. You may be able to obtain pvkimprt.exe from https://office.microsoft.com/downloads/2000/pvkimprt.aspx.
 
 See also, [Creating Signed Files and Catalogs](creating-signed-files-and-catalogs.md).
 

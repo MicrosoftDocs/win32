@@ -39,7 +39,7 @@ The process ID for the engine which is running the task.
 
 ## Remarks
 
-The process ID returned by this property cannot be appended directly to a string. The returned value needs to be converted to an integer value first by calling the [CInt](Http://go.microsoft.com/fwlink/p/?linkid=84361) function on the returned value.
+The process ID returned by this property cannot be appended directly to a string. The returned value needs to be converted to an integer value first by calling the [CInt](https://go.microsoft.com/fwlink/p/?linkid=84361) function on the returned value.
 
 
 ```VB

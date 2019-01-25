@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Starting in Windows 7, Windows Management Instrumentation (WMI) implemented a standard mechanism for discovering profiles by using the CIM schema.
 
-WMI supports the cross-namespace association traversal and association profile registration. For more information about profile registration and the CIM standard implementation of association traversal, see DSP1033 ([http://www.dmtf.org/standards/published\_documents/DSP1033.pdf](http://go.microsoft.com/fwlink/p/?linkid=153378))
+WMI supports the cross-namespace association traversal and association profile registration. For more information about profile registration and the CIM standard implementation of association traversal, see DSP1033 ([https://www.dmtf.org/standards/published\_documents/DSP1033.pdf](https://go.microsoft.com/fwlink/p/?linkid=153378))
 
 To support this feature, the WMI infrastructure did the following:
 

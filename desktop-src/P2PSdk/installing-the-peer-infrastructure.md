@@ -18,7 +18,7 @@ Computers running Windows Vista or Windows Server 2008 already have Windows Pe
 -   Select the **Peer** check box, and then click **OK**.
 -   Click **Next**, and then follow the instructions in the wizard.
 
-Computers running Windows XP with SP1 require the installation of the [Advanced Networking Pack](http://go.microsoft.com/fwlink/p/?linkid=93617), a free download, to enable Peer Networking.
+Computers running Windows XP with SP1 require the installation of the [Advanced Networking Pack](https://go.microsoft.com/fwlink/p/?linkid=93617), a free download, to enable Peer Networking.
 
  
 

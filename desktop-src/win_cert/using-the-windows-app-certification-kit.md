@@ -67,12 +67,12 @@ Before you install the Windows ACK, you need to install and run the operating sy
 
 **Submit for certification**
 
--   After your app is validated, you're ready to submit it for certification [through the portal submission process](http://go.microsoft.com/fwlink/p/?LinkId=708298).
+-   After your app is validated, you're ready to submit it for certification [through the portal submission process](https://go.microsoft.com/fwlink/p/?LinkId=708298).
 
 ## Reference Documents
 
 -   [Certification requirements for Windows desktop apps](https://msdn.microsoft.com/library/windows/desktop/hh749939)
--   [App certification white paper](http://go.microsoft.com/fwlink/p/?LinkId=703908)
+-   [App certification white paper](https://go.microsoft.com/fwlink/p/?LinkId=703908)
 -   [Windows Store onboarding for desktop apps](https://msdn.microsoft.com/library/dn322034)
 -   [Windows 7 desktop app certification requirements](windows-7-certification.md)
 

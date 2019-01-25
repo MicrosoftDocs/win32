@@ -43,7 +43,7 @@ This sample demonstrates the following APIs.
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
 
 
 

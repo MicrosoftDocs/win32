@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](http://go.microsoft.com/fwlink/p/?LinkId=262885) library, **SHProjectCubeMap**.
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://go.microsoft.com/fwlink/p/?LinkId=262885) library, **SHProjectCubeMap**.
 
  
 

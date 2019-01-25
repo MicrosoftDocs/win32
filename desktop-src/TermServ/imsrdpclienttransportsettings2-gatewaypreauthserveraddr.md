@@ -44,7 +44,7 @@ HRESULT get_GatewayPreAuthServerAddr(
 
 ## Property value
 
-The web address of the pre-authentication server; for example, the web address of the Microsoft Internet Security and Acceleration (ISA) server. Specify the web address by using the format "http://*HostName*.*DomainName*.com/*WebsiteName*" or "https://*HostName*.*DomainName*.com/*WebsiteName*".
+The web address of the pre-authentication server; for example, the web address of the Microsoft Internet Security and Acceleration (ISA) server. Specify the web address by using the format "https://*HostName*.*DomainName*.com/*WebsiteName*" or "https://*HostName*.*DomainName*.com/*WebsiteName*".
 
 ## Error codes
 

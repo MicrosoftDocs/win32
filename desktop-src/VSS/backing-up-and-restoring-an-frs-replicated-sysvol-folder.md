@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Backing Up and Restoring an FRS-Replicated SYSVOL Folder
 
-The System Volume (SYSVOL) folder provides a standard location to store important elements of [Group Policy](http://go.microsoft.com/fwlink/p/?linkid=116711) objects and scripts. A copy of the SYSVOL folder exists on each domain controller in a domain. The SYSVOL folder is replicated by either [Distributed File System Replication (DFSR)](http://go.microsoft.com/fwlink/p/?linkid=93057) or the [File Replication Service (FRS)](http://go.microsoft.com/fwlink/p/?linkid=116710). This topic explains how to determine whether a SYSVOL folder is replicated by DFSR or FSR and explains how to backup and restore an FRS-replicated SYSVOL folder.
+The System Volume (SYSVOL) folder provides a standard location to store important elements of [Group Policy](https://go.microsoft.com/fwlink/p/?linkid=116711) objects and scripts. A copy of the SYSVOL folder exists on each domain controller in a domain. The SYSVOL folder is replicated by either [Distributed File System Replication (DFSR)](https://go.microsoft.com/fwlink/p/?linkid=93057) or the [File Replication Service (FRS)](https://go.microsoft.com/fwlink/p/?linkid=116710). This topic explains how to determine whether a SYSVOL folder is replicated by DFSR or FSR and explains how to backup and restore an FRS-replicated SYSVOL folder.
 
 FRS can copy SYSVOL contents to other domain controllers within the domain. FRS monitors the SYSVOL folder and, if a change occurs to any file stored on the SYSVOL folder, then FRS automatically replicates the changed file to the SYSVOL folders on the other domain controllers in the domain.
 
@@ -29,11 +29,11 @@ This topic covers the following subjects:
 
 ## Determining Whether a Domain Controller's SYSVOL Folder is Replicated by DFSR or FRS
 
-The following table summarizes how to determine whether a domain controller's SYSVOL folder is being replicated by [DFSR](http://go.microsoft.com/fwlink/p/?linkid=93057) or FRS.
+The following table summarizes how to determine whether a domain controller's SYSVOL folder is being replicated by [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057) or FRS.
 
 | If the domain controller is running                                                                                                                  | SYSVOL is replicated by |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| Windows Server 2008 + domain functional level of Windows Server 2008 + [SYSVOL migration](http://go.microsoft.com/fwlink/p/?linkid=117145) completed | DFSR                    |
+| Windows Server 2008 + domain functional level of Windows Server 2008 + [SYSVOL migration](https://go.microsoft.com/fwlink/p/?linkid=117145) completed | DFSR                    |
 | Windows Server 2008 + domain functional level below Windows Server 2008                                                                              | FRS                     |
 | Windows Server 2003                                                                                                                                  | FRS                     |
 
@@ -41,13 +41,13 @@ The following table summarizes how to determine whether a domain controller's SY
 
  
 
-If the domain's [functional level](http://go.microsoft.com/fwlink/p/?linkid=116709) is Windows Server 2008 and the domain has undergone [SYSVOL migration](http://go.microsoft.com/fwlink/p/?linkid=117145), [DFSR](http://go.microsoft.com/fwlink/p/?linkid=93057) will be used to replicate the SYSVOL folder. If the first domain controller in the domain was promoted directly into the Windows Server 2008 [functional level](http://go.microsoft.com/fwlink/p/?linkid=116709), DFSR is automatically used for SYSVOL replication. In such cases, there is no need for migration of SYSVOL replication from FRS to DFSR. If the domain was upgraded to Windows Server 2008 [functional level](http://go.microsoft.com/fwlink/p/?linkid=116709), FRS is used for SYSVOL replication until the [migration](http://go.microsoft.com/fwlink/p/?linkid=117145) process from FRS to DFSR is complete.
+If the domain's [functional level](https://go.microsoft.com/fwlink/p/?linkid=116709) is Windows Server 2008 and the domain has undergone [SYSVOL migration](https://go.microsoft.com/fwlink/p/?linkid=117145), [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057) will be used to replicate the SYSVOL folder. If the first domain controller in the domain was promoted directly into the Windows Server 2008 [functional level](https://go.microsoft.com/fwlink/p/?linkid=116709), DFSR is automatically used for SYSVOL replication. In such cases, there is no need for migration of SYSVOL replication from FRS to DFSR. If the domain was upgraded to Windows Server 2008 [functional level](https://go.microsoft.com/fwlink/p/?linkid=116709), FRS is used for SYSVOL replication until the [migration](https://go.microsoft.com/fwlink/p/?linkid=117145) process from FRS to DFSR is complete.
 
-To determine whether DFSR or FRS is being used on a domain controller that is running Windows Server 2008, check the value of the **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Services**\\**DFSR**\\**Parameters**\\**SysVols**\\**Migrating Sysvols**\\**LocalState** registry subkey. If this registry subkey exists and its value is set to 3 (ELIMINATED), [DFSR](http://go.microsoft.com/fwlink/p/?linkid=93057) is being used. If the subkey does not exist, or if it has a different value, FRS is being used.
+To determine whether DFSR or FRS is being used on a domain controller that is running Windows Server 2008, check the value of the **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Services**\\**DFSR**\\**Parameters**\\**SysVols**\\**Migrating Sysvols**\\**LocalState** registry subkey. If this registry subkey exists and its value is set to 3 (ELIMINATED), [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057) is being used. If the subkey does not exist, or if it has a different value, FRS is being used.
 
 ## Backing Up a DFSR-Replicated SYSVOL Folder
 
-If the SYSVOL folder is replicated by [DFSR](http://go.microsoft.com/fwlink/p/?linkid=93057), the DFSR VSS writer can be used to back it up. For more information about the DFSR VSS writer, see [DFSR Replicated Folders](https://msdn.microsoft.com/library/bb540026).
+If the SYSVOL folder is replicated by [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057), the DFSR VSS writer can be used to back it up. For more information about the DFSR VSS writer, see [DFSR Replicated Folders](https://msdn.microsoft.com/library/bb540026).
 
 ## Backing Up an FRS-Replicated SYSVOL Folder on a Windows Server 2008 or Windows Server 2003 Domain
 
@@ -55,18 +55,18 @@ On a domain controller that is running Windows Server 2008 or Windows Server 2
 
 The FRS VSS writer's Writer Metadata Document provides information about the location of the SYSVOL folder and the exclusion lists for the writer. Based on this information, a VSS backup application (requester) can back up the SYSVOL folder using the regular VSS-based backup techniques.
 
-The Writer Metadata Document contains information about the writer, the data that the writer owns, and how to restore that data. This is a read-only document that can be retrieved by the backup application before taking a backup. The [DiskShadow](http://go.microsoft.com/fwlink/p/?linkid=117722) tool can be used to view the FRS VSS writer's Writer Metadata Document. The [DiskShadow list writers](http://go.microsoft.com/fwlink/p/?linkid=117722) command provides information about the writers present on the system. This list contains information about the FRS writer on domain controllers that use FRS for SYSVOL replication or on file servers that use FRS for replication of [DFS link targets](http://go.microsoft.com/fwlink/p/?linkid=117717).
+The Writer Metadata Document contains information about the writer, the data that the writer owns, and how to restore that data. This is a read-only document that can be retrieved by the backup application before taking a backup. The [DiskShadow](https://go.microsoft.com/fwlink/p/?linkid=117722) tool can be used to view the FRS VSS writer's Writer Metadata Document. The [DiskShadow list writers](https://go.microsoft.com/fwlink/p/?linkid=117722) command provides information about the writers present on the system. This list contains information about the FRS writer on domain controllers that use FRS for SYSVOL replication or on file servers that use FRS for replication of [DFS link targets](https://go.microsoft.com/fwlink/p/?linkid=117717).
 
 The following Sample FRS Writer Metadata Document section shows a sample FRS Writer Metadata Document for a domain controller that has the SYSVOL folder on D:\\Windows\\Sysvol. The path shown in the "Excluded files" section will be the same as that obtained when querying the Netlogon service's **SysVol** registry key:
 
 **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Services**\\**NetLogon**\\**Parameters**\\**SysVol**
 
-The only exception to this rule occurs when the domain controller is in the REDIRECTED state of [SYSVOL migration](http://go.microsoft.com/fwlink/p/?linkid=117145). In this state, the writers corresponding to both FRS and the [DFSR](http://go.microsoft.com/fwlink/p/?linkid=93057) service report their respective copies of the SYSVOL folder. However, the [DFSR](http://go.microsoft.com/fwlink/p/?linkid=93057) service's copy of the SYSVOL folder (usually a folder called SYSVOL\_DFSR) is the one that is shared by the domain controller; this path is the one referenced by the **SysVol** registry key.
+The only exception to this rule occurs when the domain controller is in the REDIRECTED state of [SYSVOL migration](https://go.microsoft.com/fwlink/p/?linkid=117145). In this state, the writers corresponding to both FRS and the [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057) service report their respective copies of the SYSVOL folder. However, the [DFSR](https://go.microsoft.com/fwlink/p/?linkid=93057) service's copy of the SYSVOL folder (usually a folder called SYSVOL\_DFSR) is the one that is shared by the domain controller; this path is the one referenced by the **SysVol** registry key.
 
 The FRS VSS writer requires a custom restore method. This means that certain custom steps must be performed when restoring files that are being replicated by FRS. For more information, see Performing a Nonauthoritative Restore of an FRS-Replicated SYSVOL Folder.
 
 > [!Note]  
-> System state backups for Windows domain controllers do not include the FRS database that maintains state information for the FRS service pertaining to the files within the SYSVOL folder and other content sets. The FRS database, debug logs, staging area files, and files in the [pre-existing data folder](http://go.microsoft.com/fwlink/p/?linkid=117716) are excluded from a system state backup. The following sample FRS writer specification contains the exclusion list in the "Excluded files" section.
+> System state backups for Windows domain controllers do not include the FRS database that maintains state information for the FRS service pertaining to the files within the SYSVOL folder and other content sets. The FRS database, debug logs, staging area files, and files in the [pre-existing data folder](https://go.microsoft.com/fwlink/p/?linkid=117716) are excluded from a system state backup. The following sample FRS writer specification contains the exclusion list in the "Excluded files" section.
 
  
 
@@ -175,7 +175,7 @@ When the FRS service is restarted, the following actions occur:
 -   Files in the reinitialized FRS folders are moved to a pre-existing folder.
 -   Event 13565 is logged in the FRS event log to signal that a nonauthoritative restore has started.
     > [!Note]  
-    > FRS event codes are documented in "FRS event log error codes" in the Help and Support Knowledge Base at <http://go.microsoft.com/fwlink/p/?linkid=117779>
+    > FRS event codes are documented in "FRS event log error codes" in the Help and Support Knowledge Base at <https://go.microsoft.com/fwlink/p/?linkid=117779>
 
      
 
@@ -185,7 +185,7 @@ When the FRS service is restarted, the following actions occur:
 -   When the process is complete, an event 13516 is logged to signal that FRS is operational. If the event is not logged, there is a problem with the FRS configuration.
 
 > [!Note]  
-> The placement of files in the [pre-existing](http://go.microsoft.com/fwlink/p/?linkid=117716) folder on reinitialized members is a safeguard in FRS that is designed to prevent accidental data loss. Any files destined for the replica that exist only in the local pre-existing folder and were replicated after the initial replication may then be copied to the appropriate folder. When outbound replication has occurred, files in the pre-existing folder can be deleted to free additional drive space.
+> The placement of files in the [pre-existing](https://go.microsoft.com/fwlink/p/?linkid=117716) folder on reinitialized members is a safeguard in FRS that is designed to prevent accidental data loss. Any files destined for the replica that exist only in the local pre-existing folder and were replicated after the initial replication may then be copied to the appropriate folder. When outbound replication has occurred, files in the pre-existing folder can be deleted to free additional drive space.
 
  
 
@@ -193,14 +193,14 @@ When the FRS service is restarted, the following actions occur:
 
 Authoritative restores are used as a last resort in case of critical situations such as divergence of data on the content set caused by directory collisions. For example, an authoritative restore might be needed to restore an FRS replica set where replication has completely stopped and a rebuild from scratch is required.
 
-If you must perform an authoritative restore of the SYSVOL folder, be aware that it is a very complicated process. Comprehensive guidelines detailing the operations that need to be performed for an authoritative restore of the contents of the SYSVOL folder are documented in "How to rebuild the SYSVOL tree and its content in a domain" in the Help and Support Knowledge Base at <http://go.microsoft.com/fwlink/p/?linkid=117780>.
+If you must perform an authoritative restore of the SYSVOL folder, be aware that it is a very complicated process. Comprehensive guidelines detailing the operations that need to be performed for an authoritative restore of the contents of the SYSVOL folder are documented in "How to rebuild the SYSVOL tree and its content in a domain" in the Help and Support Knowledge Base at <https://go.microsoft.com/fwlink/p/?linkid=117780>.
 
 The following requirements must be met before an authoritative FRS restore is performed:
 
 1.  The FRS service must be disabled on all downstream replication partners (direct and transitive) for the reinitialized SYSVOL folder before the authoritative restore has been configured to occur.
 2.  Events 13553 and 13516 have been logged in the FRS event log. These events indicate that the membership of the SYSVOL replica set has been established on the domain controller that is configured for the authoritative restore.
     > [!Note]  
-    > FRS event codes are documented in "FRS event log error codes" in the Help and Support Knowledge Base at <http://go.microsoft.com/fwlink/p/?linkid=117779>
+    > FRS event codes are documented in "FRS event log error codes" in the Help and Support Knowledge Base at <https://go.microsoft.com/fwlink/p/?linkid=117779>
 
      
 

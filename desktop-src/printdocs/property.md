@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Property
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A Property element declares a device, job formatting, or other relevant property whose name is given by its name attribute. A Value element is used to assign a value to the Property.
 
@@ -74,7 +74,7 @@ A Property may contain one or more Value elements, or one or more child Property
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

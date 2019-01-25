@@ -38,7 +38,7 @@ These methods provide three basic approaches to building the graph:
 
 If you simply want to play a file that is authored in a recognized format, such as AVI, MPEG, WAV, or MP3, use the **RenderFile** method. The article [How To Play a File](how-to-play-a-file.md) shows how to do this.
 
-The **RenderFile** method starts by looking in the registry for a source filter that can parse the file. It uses the protocol (such as " `http://` " in the URL), the file extension, or pre-defined byte patterns in the file to determine the source filter. For details, see [Registering a Custom File Type](registering-a-custom-file-type.md).
+The **RenderFile** method starts by looking in the registry for a source filter that can parse the file. It uses the protocol (such as " `https://` " in the URL), the file extension, or pre-defined byte patterns in the file to determine the source filter. For details, see [Registering a Custom File Type](registering-a-custom-file-type.md).
 
 To build the rest of the graph, the Filter Graph Manager uses an iterative process wherein it takes the media types that a filter supports on its output pins, and searches the registry for filters that will accept that media type as input. It uses several criteria to narrow the search and prioritize filters:
 

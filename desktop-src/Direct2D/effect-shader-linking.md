@@ -199,7 +199,7 @@ When compiling an export function version of the same code, the following code i
 
 Note that the texture input, normally retrieved by sampling a Texture2D, has been replaced with a function input (input0).
 
-To see a full, step by step description of what you need to do to write a linking-compatible effect, see the [Custom effects tutorial](custom-effects.md) and the [Direct2D custom image effects sample](http://code.msdn.microsoft.com/windowsapps/Direct2D-custom-image-7a1f2cb5).
+To see a full, step by step description of what you need to do to write a linking-compatible effect, see the [Custom effects tutorial](custom-effects.md) and the [Direct2D custom image effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-custom-image-7a1f2cb5).
 
 ## Compiling a linking compatible-shader
 
@@ -231,7 +231,7 @@ To compile the export function version of your shader, you must pass the followi
 |                                |                                                                                                                                                                                                                                                           |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Flag**                       | **Description**                                                                                                                                                                                                                                           |
-| /T <ShaderModel>         | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](http://msdn.microsoft.com/library/windows/desktop/bb509709.aspx#profiles). This must be one of the profiles listed under “HLSL shader linking”. |
+| /T <ShaderModel>         | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](https://msdn.microsoft.com/library/windows/desktop/bb509709.aspx#profiles). This must be one of the profiles listed under “HLSL shader linking”. |
 | <MyShaderFile>.hlsl      | Set <MyShaderFile> to the name of the HLSL file.                                                                                                                                                                                                    |
 | /D D2D\_FUNCTION               | This definition instructs FXC to compile the export function version of the shader.                                                                                                                                                                       |
 | /D D2D\_ENTRY=<entry>    | Set <entry> to the name of the HLSL entry point you defined inside the [D2D\_PS\_ENTRY](d2d-ps-entry.md) macro.                                                                                                                                    |
@@ -255,7 +255,7 @@ To compile the full version of your shader with embedded export version, you mus
 |                                        |                                                                                                                                                                                                                                                                                      |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Flag**                               | **Description**                                                                                                                                                                                                                                                                      |
-| /T <ShaderModel>                 | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](http://msdn.microsoft.com/library/windows/desktop/bb509709.aspx#profiles). This must be the pixel shader profile corresponding to the linking profile specified in Step 1. |
+| /T <ShaderModel>                 | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](https://msdn.microsoft.com/library/windows/desktop/bb509709.aspx#profiles). This must be the pixel shader profile corresponding to the linking profile specified in Step 1. |
 | <MyShaderFile>.hlsl              | Set <MyShaderFile> to the name of the HLSL file.                                                                                                                                                                                                                               |
 | /D D2D\_FULL\_SHADER                   | This definition instructs FXC to compile the full version of the shader.                                                                                                                                                                                                             |
 | /D D2D\_ENTRY=<entry>            | Set <entry> to the name of the HLSL entry point you defined inside the D2D\_PS\_ENTRY() macro.                                                                                                                                                                                 |
@@ -314,10 +314,10 @@ The semantics must be defined as above, as D2D will inspect the semantics to dec
 [HLSL Helpers](hlsl-helpers.md)
 </dt> <dt>
 
-[ID3D11Linker interface](http://msdn.microsoft.com/library/windows/desktop/dn280558.aspx)
+[ID3D11Linker interface](https://msdn.microsoft.com/library/windows/desktop/dn280558.aspx)
 </dt> <dt>
 
-[ID3D11FunctionLinkingGraph interface](http://msdn.microsoft.com/library/windows/desktop/dn280535.aspx)
+[ID3D11FunctionLinkingGraph interface](https://msdn.microsoft.com/library/windows/desktop/dn280535.aspx)
 </dt> </dl>
 
  

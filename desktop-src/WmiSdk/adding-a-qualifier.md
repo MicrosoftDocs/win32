@@ -31,7 +31,7 @@ Qualifiers can be divided into standard qualifiers, CIM qualifiers, and unique q
 
 -   CIM qualifier
 
-    A CIM qualifier is a qualifier included in the CIM specification. While use CIM qualifiers in MOF code, the standard qualifiers are designed specifically with WMI in mind. For more information, see the DMTF [CIM Specification](Http://go.microsoft.com/fwlink/p/?linkid=84402).
+    A CIM qualifier is a qualifier included in the CIM specification. While use CIM qualifiers in MOF code, the standard qualifiers are designed specifically with WMI in mind. For more information, see the DMTF [CIM Specification](https://go.microsoft.com/fwlink/p/?linkid=84402).
 
 -   Unique qualifier
 

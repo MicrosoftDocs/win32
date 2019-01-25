@@ -63,7 +63,7 @@ The following Microsoft JScript example adds three media objects to the Windows 
 
 ```JScript
 // Adding a media object using a website.
-Player.mediaCollection.add("http://www.proseware.com/Media/Laure.wma");
+Player.mediaCollection.add("https://www.proseware.com/Media/Laure.wma");
 
 // Adding a media object from a local network.
 // You must add an escape sequence of a backslash for 

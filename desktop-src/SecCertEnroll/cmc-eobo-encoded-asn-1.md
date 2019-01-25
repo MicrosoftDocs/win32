@@ -423,7 +423,7 @@ This configuration generates the following sample output. The configuration spec
 0740:          |     |        |                 |  43 6c 61 73 73 3d 63 52  4c 44 69 73 74 72 69 62  ; Class=cRLDistrib
 0750:          |     |        |                 |  75 74 69 6f 6e 50 6f 69  6e 74                    ; utionPoint
 075a:          |     |        |                 86 67   ; CONTEXT_SPECIFIC[6] (67 Bytes)
-075c:          |     |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+075c:          |     |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 076c:          |     |        |                    6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 077c:          |     |        |                    69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 078c:          |     |        |                    74 45 6e 72 6f 6c 6c 2f  4a 44 4f 4d 43 53 43 25  ; tEnroll/JDOMCSC%
@@ -460,7 +460,7 @@ This configuration generates the following sample output. The configuration spec
 08c2:          |     |        |           |  2b 06 01 05 05 07 30 02
                |     |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
 08ca:          |     |        |           86 81 8d  ; CONTEXT_SPECIFIC[6] (8d Bytes)
-08cd:          |     |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+08cd:          |     |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 08dd:          |     |        |              6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 08ed:          |     |        |              69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 08fd:          |     |        |              74 45 6e 72 6f 6c 6c 2f  4a 41 59 54 45 53 54 37  ; tEnroll/JAYTEST7

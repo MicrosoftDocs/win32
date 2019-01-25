@@ -142,7 +142,7 @@ int main()
     {
         // Open WinHttpRequest.
         BSTR bstrMethod  = SysAllocString(L"GET");
-        BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+        BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod,
                                     bstrUrl,
                                     varFalse);
@@ -227,7 +227,7 @@ WinHttpRequestOption_EscapePercentInURL = 3; // Convert percents
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("GET", "http://www.microsoft.com", false);
+WinHttpReq.Open("GET", "https://www.microsoft.com", false);
 
 // Send the HTTP request.
 WinHttpReq.Send(); 

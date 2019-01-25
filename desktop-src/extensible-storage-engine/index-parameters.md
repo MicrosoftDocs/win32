@@ -335,13 +335,13 @@ This parameter specifies the default for the maximum length of a source string t
 
 This parameter controls the default Unicode parameters used by any index over a Unicode key column. The type of this parameter is [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) and is actually passed using a buffer pointer stored in the integer parameter of [JetGetSystemParameter](gg269291\(v=exchg.10\).md) and [JetSetSystemParameter](gg294044\(v=exchg.10\).md). The size of the buffer must equal the size of [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) and must be passed to [JetGetSystemParameter](gg269291\(v=exchg.10\).md) using the string buffer size parameter. This is clearly inconsistent but that is the behavior of this parameter.
 
-The default value of this parameter contains an LCID for the U.S. English locale and the following [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags: LCMAP_SORTKEY, NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH.
+The default value of this parameter contains an LCID for the U.S. English locale and the following [LCMapStringW](https://go.microsoft.com/fwlink/?linkid=180732)flags: LCMAP_SORTKEY, NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH.
 
 **Windows 2000:**  The SORTID in the LCID is ignored. A SORTID of SORT_DEFAULT is always used.
 
-**Windows 2000:**  The [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732) flags must contain the following flags: LCMAP_SORTKEY, NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH. In addition, the [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags may contain the following flags: NORM_IGNORENONSPACE.
+**Windows 2000:**  The [LCMapStringW](https://go.microsoft.com/fwlink/?linkid=180732) flags must contain the following flags: LCMAP_SORTKEY, NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH. In addition, the [LCMapStringW](https://go.microsoft.com/fwlink/?linkid=180732)flags may contain the following flags: NORM_IGNORENONSPACE.
 
-**Note**  If your application wishes to store Unicode data, then it is strongly recommended that you do not rely on the default Unicode parameters for your indexes. The use of U.S. English is tantamount to using the invariant locale and the default [LCMapStringW](http://go.microsoft.com/fwlink/?linkid=180732)flags are known to seriously interfere with some languages. You should always specify your own settings for the Unicode parameters to JetCreateIndex2 using [JET_INDEXCREATE](gg269186\(v=exchg.10\).md).
+**Note**  If your application wishes to store Unicode data, then it is strongly recommended that you do not rely on the default Unicode parameters for your indexes. The use of U.S. English is tantamount to using the invariant locale and the default [LCMapStringW](https://go.microsoft.com/fwlink/?linkid=180732)flags are known to seriously interfere with some languages. You should always specify your own settings for the Unicode parameters to JetCreateIndex2 using [JET_INDEXCREATE](gg269186\(v=exchg.10\).md).
 
 <table>
 <colgroup>

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Scoping Prefix
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A scope prefix is a textual label pre-appended to a schema keyword to provide a contextual scope. This allows ascribing a specific and well-understood context to keywords in a predefined manner. Print Schema Feature, ParameterDef, ParameterInit, and ParameterRef and root-level Property keyword Elements MUST have one of the following scope prefixes: "Job", "Document", or "Page".
 
@@ -46,7 +46,7 @@ A keyword conflict between settings is defined as, the same root level Print Sch
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

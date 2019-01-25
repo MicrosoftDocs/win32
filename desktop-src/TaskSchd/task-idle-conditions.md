@@ -49,7 +49,7 @@ If reading or writing XML, the idle trigger is specified by the [**IdleTrigger**
 
 The task settings can be used to define how the Task Scheduler handles the task when the computer enters an idle state.
 
-The following illustrations provide three possible timelines that show how these different idle conditions relate to each other. Be aware that the illustrations start when the task trigger is activated or when the task is started on demand (without requesting to [ignore the existing task constraints](http://go.microsoft.com/fwlink/p/?linkid=182209)).
+The following illustrations provide three possible timelines that show how these different idle conditions relate to each other. Be aware that the illustrations start when the task trigger is activated or when the task is started on demand (without requesting to [ignore the existing task constraints](https://go.microsoft.com/fwlink/p/?linkid=182209)).
 
 ![idle condition timeline](images/idle-conditions2.png)
 

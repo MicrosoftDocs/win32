@@ -21,19 +21,19 @@ Learn about the package deployment API, which you can use to install, update, an
 **Samples**
 </dt> <dt>
 
-[Add app package sample (AddPackage)](http://go.microsoft.com/fwlink/p/?linkid=236968)
+[Add app package sample (AddPackage)](https://go.microsoft.com/fwlink/p/?linkid=236968)
 </dt> <dt>
 
-[Enumerate app packages sample (FindPackages)](http://go.microsoft.com/fwlink/p/?linkid=236973)
+[Enumerate app packages sample (FindPackages)](https://go.microsoft.com/fwlink/p/?linkid=236973)
 </dt> <dt>
 
-[Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](http://go.microsoft.com/fwlink/p/?linkid=236974)
+[Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://go.microsoft.com/fwlink/p/?linkid=236974)
 </dt> <dt>
 
-[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](http://go.microsoft.com/fwlink/p/?linkid=236975)
+[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://go.microsoft.com/fwlink/p/?linkid=236975)
 </dt> <dt>
 
-[Remove app package sample (RemovePackage)](http://go.microsoft.com/fwlink/p/?linkid=236972)
+[Remove app package sample (RemovePackage)](https://go.microsoft.com/fwlink/p/?linkid=236972)
 </dt> <dt>
 
 **Concepts**

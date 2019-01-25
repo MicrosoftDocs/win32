@@ -64,7 +64,7 @@ The images themselves are "xy chrominance" diagrams, which map out the "gamut" (
 
  
 
-<dl> *BT.709 and BT.2020 images by CIExy1931.svg: Sakurambo derivative work: GrandDrake (CIExy1931.svg) \[CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0), CC BY-SA 2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)\], via Wikimedia Commons*  
+<dl> *BT.709 and BT.2020 images by CIExy1931.svg: Sakurambo derivative work: GrandDrake (CIExy1931.svg) \[CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0), CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0) or GFDL (https://www.gnu.org/copyleft/fdl.html)\], via Wikimedia Commons*  
 </dl>
 
 D65 is a definition of a "whitepoint". This whitepoint is used in most consumer electronics colorspaces, including sRGB. The triangle you see shows all of the colors that can be represented in a "3 channel additive colorspace" (combinations of R G and B light) such as the output from an LCD display. The xyY colorspace is defined such that you can calculate all of the possible colors that you can obtain via a combination of two lights (for example, a point at pure red and second point at pure green LCD output) by drawing a straight line between these two points.

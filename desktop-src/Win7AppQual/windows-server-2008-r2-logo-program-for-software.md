@@ -19,7 +19,7 @@ The Windows Server 2008 R2 Logo Program has been retired.
 
 Windows Server 2008 R2 2012 test submissions are no longer being accepted for either Microsoft Partner Network (MPN) Competencies or the Certified for Windows Server Logo.
 
-Windows Server 2012 R2 is currently the preferred platform for the Certified for Windows Server Logo. See the [Enterprise Cloud Application Logo Certification Program](http://go.microsoft.com/fwlink/p/?linkid=241671) for more information.
+Windows Server 2012 R2 is currently the preferred platform for the Certified for Windows Server Logo. See the [Enterprise Cloud Application Logo Certification Program](https://go.microsoft.com/fwlink/p/?linkid=241671) for more information.
 
  
 

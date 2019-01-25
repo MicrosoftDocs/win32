@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Flags for Conversion Mode
 
-The following flags are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_CONVERSION](predefined-compartments.md). This is equivalent with [IME\_CMODE](http://msdn.microsoft.com/library/dd318165(VS.85).aspx) values for IMM32.
+The following flags are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_CONVERSION](predefined-compartments.md). This is equivalent with [IME\_CMODE](https://msdn.microsoft.com/library/dd318165(VS.85).aspx) values for IMM32.
 
 
 
@@ -39,7 +39,7 @@ The following flags are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMO
 
  
 
-The following values are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_SENTENCE](predefined-compartments.md). This is equivalent with [IME\_SMODE](http://msdn.microsoft.com/library/dd318164(VS.85).aspx) values for IMM32.
+The following values are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_SENTENCE](predefined-compartments.md). This is equivalent with [IME\_SMODE](https://msdn.microsoft.com/library/dd318164(VS.85).aspx) values for IMM32.
 
 
 

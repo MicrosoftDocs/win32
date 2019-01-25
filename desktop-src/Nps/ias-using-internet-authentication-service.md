@@ -53,7 +53,7 @@ Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framewor
 
 Windows Server 2008 R2
 
-Download link: <http://www.microsoft.com/download/en/confirmation.aspx?id=8279>
+Download link: <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>
 
 MapName: Yes
 
@@ -68,7 +68,7 @@ Windows SDK
 
 Windows Server 2008
 
-Download link: <http://www.microsoft.com/download/en/confirmation.aspx?id=11310>
+Download link: <https://www.microsoft.com/download/en/confirmation.aspx?id=11310>
 
 MapName: Yes
 

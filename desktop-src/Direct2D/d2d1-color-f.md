@@ -21,7 +21,7 @@ typedef D2D_COLOR_F D2D1_COLOR_F;
 
 ## Remarks
 
-**D2D1\_COLOR\_F** is a typedef for [**D2D\_COLOR\_F**](d2d-color-f.md), which is itself a typedef for [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx). For information about the members provided by **D2D1\_COLOR\_F**, see [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx).
+**D2D1\_COLOR\_F** is a typedef for [**D2D\_COLOR\_F**](d2d-color-f.md), which is itself a typedef for [D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx). For information about the members provided by **D2D1\_COLOR\_F**, see [D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx).
 
 The [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) reference.
 
@@ -69,7 +69,7 @@ hr = pCompatibleRenderTarget->CreateSolidColorBrush(
 
 <dl> <dt>
 
-[D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx)
+[D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx)
 </dt> <dt>
 
 [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx)

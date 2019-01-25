@@ -222,7 +222,7 @@ The following example shows a complete RSS feed for a fictitious podcast supplie
 ```C++
 <channel>
     <title>The Digital Publication</title>
-    <link>http://www.lucernepublishing.com/podcasting</link>
+    <link>https://www.lucernepublishing.com/podcasting</link>
     <description>Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications.</description>
     <language>en-us</language>
     <copyright>2006 Lucerne Publishing LP, LLLP. All Rights Reserved.</copyright>
@@ -232,7 +232,7 @@ The following example shows a complete RSS feed for a fictitious podcast supplie
     <lastBuildDate Fri, 9 June 2006 14:00:28 EDT />
     <category>News</category>
     <generator>Podcaster version 1.0</generator>
-    <docs>http://www.lucernepublishing.com/tech/rss</docs>
+    <docs>https://www.lucernepublishing.com/tech/rss</docs>
     <cloud />
     <ttl>240</ttl>
     <rating />
@@ -241,9 +241,9 @@ The following example shows a complete RSS feed for a fictitious podcast supplie
     <skipDays />
 
 <image>
-     <url>http://www.lucernepublishing.com/images/logo.gif</url>
+     <url>https://www.lucernepublishing.com/images/logo.gif</url>
      <title>Lucerne Publishing</title>
-     <link>http://www.lucernepublishing.com/community/podcasts</link>
+     <link>https://www.lucernepublishing.com/community/podcasts</link>
      <width>300</width>
      <height>300</height>
      <description>Lucerne Logo</description>
@@ -251,13 +251,13 @@ The following example shows a complete RSS feed for a fictitious podcast supplie
 
 <item>
     <title>The Digital Publication</title>
-    <link>http://www.lucernepublishing.com/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3</link>
+    <link>https://www.lucernepublishing.com/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3</link>
     <description>Online publications are rapidly changing. A publishing house CEO examines the trends of the past 5 years and their implications.</description>
     <author>Lucerne</author>
     <category>News</category>
     <comments />
-    <enclosure url="http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3" length="10329011" type="audio/mpeg" />
-    <guid>http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3</guid>
+    <enclosure url="https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3" length="10329011" type="audio/mpeg" />
+    <guid>https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3</guid>
     <pubDate>Thur, 1 June 2006 14:00:28 EDT</pubDate>
     <source />
 </item>
@@ -278,14 +278,14 @@ The following table describes how the values in the RSS channel elements in the 
 | **WPD Property**                                                                             | **Value**                                                                                     |
 | [WPD\_MEDIA\_COPYRIGHT](media-properties.md)                            | 2006 Lucerne Publishing LP, LLLP. All Rights Reserved.                                        |
 | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                        | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | http://www.lucernepublishing.com/services/podcasting                                          |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | https://www.lucernepublishing.com/services/podcasting                                          |
 | [WPD\_MEDIA\_GENRE](media-properties.md)                                    | News                                                                                          |
 | [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md)              | Fri, 9 June 2006 14:00:28 EDT                                                                 |
 | [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md)               | someone@example.com                                                                           |
 | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)                     | Fri, 9 June 2006 14:00:28 EDT                                                                 |
 | [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md)                    | 240                                                                                           |
 | [WPD\_MEDIA\_TITLE](media-properties.md)                                    | The Digital Publication                                                                       |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                         | http://www.lucernepublishing/services/podcasting/digital.publication/rss.xml                  |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                         | https://www.lucernepublishing/services/podcasting/digital.publication/rss.xml                  |
 | [WPD\_MEDIA\_WEBMASTER](media-properties.md)                            | someone@example.com                                                                           |
 | [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md)                  | WPD\_CONTENT\_TYPE\_MEDIA\_CAST                                                               |
 | [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
@@ -314,9 +314,9 @@ The following table describes how the values in the RSS Image elements in the pr
 |-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | **WPD Property**                                                                                                        | **Value**                                           |
 | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                                                   | Lucerne Logo                                        |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)                                          | http://www.lucernepublishing.com/community/podcasts |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)                                          | https://www.lucernepublishing.com/community/podcasts |
 | [WPD\_MEDIA\_HEIGHT](media-properties.md)                                                             | 300                                                 |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                                                    | http://www.lucernepublishing.com/images/logo.gif    |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                                                    | https://www.lucernepublishing.com/images/logo.gif    |
 | [WPD\_MEDIA\_WIDTH](media-properties.md)                                                               | 300                                                 |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                              | Lucerne Publishing                                  |
 | [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_DELETE](attributes.md)                               | VARIANT\_TRUE                                       |
@@ -342,11 +342,11 @@ The following table describes how the values in the RSS Item elements in the pre
 | [WPD\_MEDIA\_DURATION](media-properties.md)                              | 10329011                                                                                                                         |
 | [WPD\_MEDIA\_ARTIST](media-properties.md)                                  | Lucerne                                                                                                                          |
 | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                        | Online publications are rapidly changing. A publishing house CEO examines the trends of the past 5 years and their implications. |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
 | [WPD\_MEDIA\_GENRE](media-properties.md)                                    | News                                                                                                                             |
-| [WPD\_MEDIA\_GUID](media-properties.md)                                      | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_GUID](media-properties.md)                                      | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
 | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)                     | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                         | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                         | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
 | [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md)            | 0A1                                                                                                                              |
 | [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md)                  | WPD\_CONTENT\_TYPE\_MEDIA\_IMAGE                                                                                                 |
 | [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |

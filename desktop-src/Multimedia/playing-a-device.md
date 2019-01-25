@@ -45,7 +45,7 @@ Your application can specify the following options to define the playback window
 
 If your application does not specify any window options, the MCIAVI driver creates a default window for playing the sequence. The driver creates this playback window for the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command, but it does not display the window until your application sends a command to either display the window or play the file. This default playback window is a pop-up window with a sizing border, title bar, a thick frame, a **window** menu, and a Minimize button.
 
-Your application can also specify a parent window handle and a window style when it issues the **open** command. In this case, the MCIAVI driver creates a window based on these specifications instead of the default pop-up window. Your application can specify any window style available for the [CreateWindow](http://go.microsoft.com/fwlink/p/?linkid=17095) function. Styles that require a parent window, such as WS\_CHILD, should include a parent window handle.
+Your application can also specify a parent window handle and a window style when it issues the **open** command. In this case, the MCIAVI driver creates a window based on these specifications instead of the default pop-up window. Your application can specify any window style available for the [CreateWindow](https://go.microsoft.com/fwlink/p/?linkid=17095) function. Styles that require a parent window, such as WS\_CHILD, should include a parent window handle.
 
 Your application can also create its own window and supply the handle to the MCIAVI driver by using the [**window**](window.md) ([**MCI\_WINDOW**](mci-window.md)) command. The MCIAVI driver uses this window instead of creating one of its own.
 

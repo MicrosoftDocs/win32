@@ -74,7 +74,7 @@ If the function fails then the return value is a failed **HRESULT** code.
 
 ## Remarks
 
-This function is capable of formatting system error codes in addition to specific error codes returned by malware protection functions. The **HRESULT** error codes specific to malware protection functions have a facility of 0x50. Below is a list of a subset of the malware protection-specific error codes that can be returned by various malware protection functions. Using the macro **HRESULT\_FROM\_MP\_STATUS**, the following error codes can be converted to **HRESULT**. See also [Forefront Client Security anti-malware engine error codes](http://support.microsoft.com/kb/939359) for a list of other possible error codes.
+This function is capable of formatting system error codes in addition to specific error codes returned by malware protection functions. The **HRESULT** error codes specific to malware protection functions have a facility of 0x50. Below is a list of a subset of the malware protection-specific error codes that can be returned by various malware protection functions. Using the macro **HRESULT\_FROM\_MP\_STATUS**, the following error codes can be converted to **HRESULT**. See also [Forefront Client Security anti-malware engine error codes](https://support.microsoft.com/kb/939359) for a list of other possible error codes.
 
 
 
@@ -116,7 +116,7 @@ This function is capable of formatting system error codes in addition to specifi
 [**MpManagerOpen**](mpmanageropen.md)
 </dt> <dt>
 
-[Forefront Client Security anti-malware engine error codes](http://support.microsoft.com/kb/939359)
+[Forefront Client Security anti-malware engine error codes](https://support.microsoft.com/kb/939359)
 </dt> </dl>
 
  

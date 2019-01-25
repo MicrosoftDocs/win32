@@ -16,7 +16,7 @@ When an Agent character animates, it requires the application windows behind the
 
 -   Your system does not meet the minimum system requirements for Agent.
 -   The application window behind the character does not process updates in a timely fashion. Try dragging the character over the desktop or a folder window, or shut down some of your applications. If you see a noticeable improvement, the problem may be unavoidable.
--   You may not have the official release of the Microsoft Internet Explorer 4.0 (or later) installed. Early pre-release versions of Internet Explorer 4.0 did not handle updating the screen correctly. This would result in residual images of the character remaining on the screen. To fix the problem, install the latest official release of the Internet Explorer ([http://www.microsoft.com/windows/ie/](http://go.microsoft.com/fwlink/p/?linkid=198364)).
+-   You may not have the official release of the Microsoft Internet Explorer 4.0 (or later) installed. Early pre-release versions of Internet Explorer 4.0 did not handle updating the screen correctly. This would result in residual images of the character remaining on the screen. To fix the problem, install the latest official release of the Internet Explorer ([https://www.microsoft.com/windows/ie/](https://go.microsoft.com/fwlink/p/?linkid=198364)).
 -   There may be a problem with your system's screen drivers or hardware. Make certain you have the latest drivers for your graphic hardware. If the problem still persists, you may want to contact your PC vendor.
 
 ### The character doesn't produce any audio output when it speaks.
@@ -47,7 +47,7 @@ What occurred was the Agent-enabled webpage (or application) attempted to reques
 
 Microsoft Agent uses SAPI 4.0 to provide speech services. Windows XP however now ships with SAPI 5.0 which does not provide backward compatibility support for its predecessor. Fortunately, SAPI 4.0 and SAPI 5.0 can co-exist together on the same Windows XP computer.
 
-To make the speech engines work with Microsoft Agent in Windows XP, first install the [SAPI 4.0 runtime binaries](http://activex.microsoft.com/activex/controls/sapi/spchapi.exe), then install the particular speech engines.
+To make the speech engines work with Microsoft Agent in Windows XP, first install the [SAPI 4.0 runtime binaries](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe), then install the particular speech engines.
 
 ### The speech engines used to work with Microsoft Agent until I upgraded to Windows XP. What happened?
 

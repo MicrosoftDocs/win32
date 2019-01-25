@@ -30,7 +30,7 @@ If you have a code that requires quotes, use single quotes. Care must be taken w
 
 
 ```C++
-onclick = "JScript: player.URL = 'http://proseware.com/laure.wma' ; "
+onclick = "JScript: player.URL = 'https://proseware.com/laure.wma' ; "
 ```
 
 

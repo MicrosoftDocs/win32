@@ -45,13 +45,13 @@ The Windows Vista Online Printing Wizard supports any image file format for whi
 -   Tagged Image File Format (TIFF)
 -   Windows Media Photo format
 
-For more information about WIC and WIC codecs, see [Windows Imaging Component](http://msdn.microsoft.com/library/ms737408(VS.85).aspx).
+For more information about WIC and WIC codecs, see [Windows Imaging Component](https://msdn.microsoft.com/library/ms737408(VS.85).aspx).
 
 File formats supported by online printing retailers vary from retailer to retailer; it is possible that a particular retailer may not support all of the file formats supported by the Windows Vista Online Printing Wizard. If the user attempts to order prints in a format that is not supported by the selected retailer, the Windows Vista Online Printing Wizard notifies the user that the selected retailer does not support the submitted file format.
 
 ## Programmatically Launching the Online Print Wizard
 
-To invoke the Windows Vista Online Printing Wizard, call the [IDropTarget](http://msdn.microsoft.com/library/ms679679(VS.85).aspx) interface with the following class identifier (CLSID):
+To invoke the Windows Vista Online Printing Wizard, call the [IDropTarget](https://msdn.microsoft.com/library/ms679679(VS.85).aspx) interface with the following class identifier (CLSID):
 
 
 ```
@@ -60,7 +60,7 @@ CLSID_PublishDropTarget
 
 
 
-This CLSID is defined in Shobjidl.h and Shobjidl.idl. The files to be processed by the Windows Vista Online Printing Wizard are specified in an [IDataObject](http://msdn.microsoft.com/library/ms688421(VS.85).aspx) object.
+This CLSID is defined in Shobjidl.h and Shobjidl.idl. The files to be processed by the Windows Vista Online Printing Wizard are specified in an [IDataObject](https://msdn.microsoft.com/library/ms688421(VS.85).aspx) object.
 
 The following code example demonstrates how to invoke the Windows Vista Online Printing Wizard.
 

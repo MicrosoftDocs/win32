@@ -24,7 +24,7 @@ This section describes Quality of Service capabilities available to Winsock deve
 [Quality of Service (QoS)](https://msdn.microsoft.com/en-US/library/Aa374094(v=VS.80).aspx)
 </dt> <dt>
 
-[What Is QoS?](http://go.microsoft.com/fwlink/p/?linkid=193471)
+[What Is QoS?](https://go.microsoft.com/fwlink/p/?linkid=193471)
 </dt> <dt>
 
 [Winsock ATM QoS Extension](winsock-atm-qos-extension.md)

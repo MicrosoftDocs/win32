@@ -35,7 +35,7 @@ The key features of the Windows Media Format SDK are:
 -   Support for reading and editing metadata in MP3 files. This SDK provides integrated support for reading MP3 files with the same methods used to read ASF files. Applications built with the Windows Media Format SDK can also edit metadata attributes in MP3 files using built-in support for the most common ID3 tags used by content creators.
 -   Support for Digital Rights Management protection. This SDK provides methods for reading and writing ASF files and network streams that are protected by Digital Rights Management to prevent unauthorized playback or copying of the content.
 
-To download the Windows Media Format SDK, see the [Windows Media Downloads](http://go.microsoft.com/fwlink/p/?linkid=18502) page at the Microsoft Web site.
+To download the Windows Media Format SDK, see the [Windows Media Downloads](https://go.microsoft.com/fwlink/p/?linkid=18502) page at the Microsoft Web site.
 
 This document describes how you can develop digital media applications using the Windows Media Format SDK. It is divided into the following sections.
 

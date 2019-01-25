@@ -49,7 +49,7 @@ This parameter can contain one of the following:
 
 -   URI with one or more [*selectors*](windows-remote-management-glossary.md). Be aware that the [*WMI plug-in*](windows-remote-management-glossary.md) does not support creating any resource other than a [WS-Management Protocol](ws-management-protocol.md) listener.
 -   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+-   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](https://go.microsoft.com/fwlink/p/?linkid=96658).
 
 </dd> <dt>
 
@@ -99,11 +99,11 @@ Set oWsman = CreateObject( "WSMAN.Automation" )
 Set oSession = oWsman.CreateSession
 
 'Define resourceUri and inputXml 
-resourceUri = "http://schemas.microsoft.com/wbem/wsman/1/"_
+resourceUri = "https://schemas.microsoft.com/wbem/wsman/1/"_
     & "config/Listener?Address=*+Transport=HTTP"
 
 inputXml = _
-    "<cfg:Listener xmlns:cfg=""http://schemas.dmtf.org/wbem/wsman/1/"_
+    "<cfg:Listener xmlns:cfg=""https://schemas.dmtf.org/wbem/wsman/1/"_
     & "config/Listener.xsd"">" _
     & "<cfg:Hostname>" & GetFQDNName() & "</cfg:Hostname>" _            
     & "</cfg:Listener>"

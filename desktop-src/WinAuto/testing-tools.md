@@ -48,7 +48,7 @@ The Windows SDK contains several tools that are useful to help create accessible
 [Accessibility Developer Hub](https://developer.microsoft.com/windows/accessible-apps)
 </dt> <dt>
 
-[Microsoft accessibility](http://go.microsoft.com/fwlink/p/?LinkId=320802)
+[Microsoft accessibility](https://go.microsoft.com/fwlink/p/?LinkId=320802)
 </dt> </dl>
 
  

@@ -73,11 +73,11 @@ Specifies the SDDL string that describes the DACL.
 
 ## Examples
 
-**add urlacl url=http://+:80/MyUri user=DOMAIN\\user**
+**add urlacl url=https://+:80/MyUri user=DOMAIN\\user**
 
-**add urlacl url=http://www.contoso.com:80/MyUri user=DOMAIN\\user listen=yes**
+**add urlacl url=https://www.contoso.com:80/MyUri user=DOMAIN\\user listen=yes**
 
-**add urlacl url=http://www.contoso.com:80/MyUri user=DOMAIN\\user delegate=no**
+**add urlacl url=https://www.contoso.com:80/MyUri user=DOMAIN\\user delegate=no**
 
  
 

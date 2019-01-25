@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Protected User Mode Audio (PUMA)
 
-Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering. It allows only the acceptable audio outputs to be enabled and ensures that the outputs are disabled reliably. For more information about PUMA, see [Output Content Protection and Windows Vista](http://www.microsoft.com/whdc/device/media/output_protect.mspx).
+Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering. It allows only the acceptable audio outputs to be enabled and ensures that the outputs are disabled reliably. For more information about PUMA, see [Output Content Protection and Windows Vista](https://www.microsoft.com/whdc/device/media/output_protect.mspx).
 
 PUMA has been updated for Windows 7 to provide the following features:
 
@@ -19,7 +19,7 @@ PUMA has been updated for Windows 7 to provide the following features:
 
 Digital Rights Management (DRM) provides the ability to package media data in a secure container and attach usage rules to the content. For example, the content provider might use **Copy Protection** or **Digital Output Disable** to disable direct digital copies or transmission out of the PC system.
 
-The audio stack in certain Microsoft products supports DRM by implementing the usage rules that govern playback of the audio content. To play the protected content, the underlying audio driver must be a *trusted driver*; that is, the driver must be logo-certified for DRMLevel 1300. For information about developing trusted drivers, you can use interfaces that are defined in the Windows 2000 Driver Development Kit ("DDK") or later. Drivers developed with the DDK will implement the necessary interfaces to DRM. For more information, see http://microsoft.com/hwdev/audio/DRM.htm.
+The audio stack in certain Microsoft products supports DRM by implementing the usage rules that govern playback of the audio content. To play the protected content, the underlying audio driver must be a *trusted driver*; that is, the driver must be logo-certified for DRMLevel 1300. For information about developing trusted drivers, you can use interfaces that are defined in the Windows 2000 Driver Development Kit ("DDK") or later. Drivers developed with the DDK will implement the necessary interfaces to DRM. For more information, see https://microsoft.com/hwdev/audio/DRM.htm.
 
 To render the protected content, the trusted driver must check whether **Copy Protection** and **Digital Output Disable** are set on the content flowing through the audio stack, and respond to the settings accordingly.
 
@@ -73,7 +73,7 @@ The media application must perform the following tasks.
 
     -   Link to the Mfuuid.lib to use the OTA interfaces.
     -   Disable the kernel debugger and driver verifier to avoid any authentication checking errors.
-2.  Enumerate all endpoints in the system and select the target endpoint from the endpoint collection, as shown in the following code. For more information about enumerating devices, see [Enumerating Audio Devices](http://msdn.microsoft.com/en-us/library/ms678716(VS.85).aspx).
+2.  Enumerate all endpoints in the system and select the target endpoint from the endpoint collection, as shown in the following code. For more information about enumerating devices, see [Enumerating Audio Devices](https://msdn.microsoft.com/en-us/library/ms678716(VS.85).aspx).
     ```
     BOOL IsDigitalEndpoint(IMMDevice *pDevice)
     {
@@ -204,7 +204,7 @@ The media application must perform the following tasks.
 
             
 
-        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](http://msdn.microsoft.com/en-us/library/bb219818(VS.85).aspx) on MSDN.
+        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](https://msdn.microsoft.com/en-us/library/bb219818(VS.85).aspx) on MSDN.
     -   For WASAPI:
         1.  Create an [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IAudioClient as the interface identifier.
             ```
@@ -265,7 +265,7 @@ The media application must perform the following tasks.
 
          
 
-        In the example code, *pPolicy* is a pointer to the [**IMFOutputPolicy**](https://msdn.microsoft.com/en-us/library/ms698985(v=VS.85).aspx) interface of a client-implemented policy object. For information, see [Media Foundation SDK](http://msdn.microsoft.com/en-us/library/ms694197(VS.85).aspx) documentation.
+        In the example code, *pPolicy* is a pointer to the [**IMFOutputPolicy**](https://msdn.microsoft.com/en-us/library/ms698985(v=VS.85).aspx) interface of a client-implemented policy object. For information, see [Media Foundation SDK](https://msdn.microsoft.com/en-us/library/ms694197(VS.85).aspx) documentation.
 
         In the implementation of the [**IMFOutputPolicy::GenerateRequiredSchemas**](https://msdn.microsoft.com/en-us/library/Bb970362(v=VS.85).aspx) method, a collection of the output protection systems (schemas) must be generated that the OTA must enforce. Each schema is identified by a GUID and contains configuration data for the protection system. Make sure that the protection systems in the collection are restricted to using trusted audio drivers. This restriction is identified by the GUID, **MFPROTECTION\_TRUSTEDAUDIODRIVERS**,DISABLE, or CONSTRICTAUDIO. If MFPROTECTION\_TRUSTEDAUDIODRIVERS is used, the configuration data for this schema is a DWORD. For more information about the schemas and the related configuration data, see Protected Environment SDK documentation.
 

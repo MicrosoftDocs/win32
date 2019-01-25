@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Multichannel Audio Playback in DirectShow
 
-To play back a multichannel Windows Media Audio file in DirectShow, you must set the "\_HIRESOUTPUT" property directly on the decoder after it has been connected to the WM ASF Reader. No configuration of the Reader Object is necessary. However, to work with the DMO directly, you need wmcodecconst.h from the [Sample Code for Using the Windows Media Audio and Video Codec Interfaces](http://go.microsoft.com/fwlink/p/?linkid=16185) download package.
+To play back a multichannel Windows Media Audio file in DirectShow, you must set the "\_HIRESOUTPUT" property directly on the decoder after it has been connected to the WM ASF Reader. No configuration of the Reader Object is necessary. However, to work with the DMO directly, you need wmcodecconst.h from the [Sample Code for Using the Windows Media Audio and Video Codec Interfaces](https://go.microsoft.com/fwlink/p/?linkid=16185) download package.
 
 **Note** This configuration procedure is supported only for files that are not protected by Digital Rights Management.
 

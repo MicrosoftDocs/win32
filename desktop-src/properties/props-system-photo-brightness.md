@@ -36,7 +36,7 @@ See the EXIF 2.2 specification, Annex C, for a comparison of [System.Photo.Brigh
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](http://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)

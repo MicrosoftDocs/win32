@@ -16,7 +16,7 @@ These error codes are returned by the Windows Installer functions **MsiExec.exe*
  
 
 > [!Note]  
-> If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](Http://go.microsoft.com/fwlink/p/?linkid=83978).
+> If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
 
  
 

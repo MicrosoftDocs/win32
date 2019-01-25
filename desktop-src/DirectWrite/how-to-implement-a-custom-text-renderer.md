@@ -25,7 +25,7 @@ This tutorial contains the following parts:
 
 Your custom text renderer must implement the methods inherited from IUnknown in addition to the methods listed on the [**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) reference page and below.
 
-For the full source code for the custom text renderer, see the CustomTextRenderer.cpp and CustomTextRenderer.h files of the [DirectWrite Hello World Sample](http://go.microsoft.com/fwlink/?LinkID=624680).
+For the full source code for the custom text renderer, see the CustomTextRenderer.cpp and CustomTextRenderer.h files of the [DirectWrite Hello World Sample](https://go.microsoft.com/fwlink/?LinkID=624680).
 
 ## The Constructor
 

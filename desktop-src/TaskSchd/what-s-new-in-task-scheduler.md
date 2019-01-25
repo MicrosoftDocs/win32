@@ -38,7 +38,7 @@ The following Task Scheduler 2.0 changes are introduced in Windows 8:
     -   XPath query values for event triggers, through the [**ValueQueries**](taskschedulerschema-valuequeries-eventtriggertype-element.md) element.
     -   Do not allow task hard terminate, through the [**AllowHardTerminate**](taskschedulerschema-allowhardterminate-settingstype-element.md) element.
 -   Features deprecated in this release
-    -   Action: [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (you can use [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) with the [Windows PowerShell](http://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](http://technet.microsoft.com/library/hh849925.aspx) cmdlet as a workaround).
+    -   Action: [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (you can use [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) with the [Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](https://technet.microsoft.com/library/hh849925.aspx) cmdlet as a workaround).
     -   Action: [**showMessage**](taskschedulerschema-showmessage-actiongroup-element.md).
     -   AT.exe cmdline utility
 
@@ -58,13 +58,13 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
     -   Task security hardening support: new task security hardening feature is introduced with new IPrincipal2 interface.
     -   Introduced two new task settings with the new ITaskSettings2 interface.
 
-        -   DisallowStartOnRemoteAppSession: The new DisallowStartOnRemoteAppSession setting can reject a task start if triggered in [Remote Applications Integrated Locally (RAIL)](http://go.microsoft.com/fwlink/p/?linkid=168157) sessions.
+        -   DisallowStartOnRemoteAppSession: The new DisallowStartOnRemoteAppSession setting can reject a task start if triggered in [Remote Applications Integrated Locally (RAIL)](https://go.microsoft.com/fwlink/p/?linkid=168157) sessions.
         -   UseUnifiedSchedulingEngine: Using the UseUnifiedSchedulingEngine setting provides a cohesive behavior for Windows Tasks and Services because it is being managed in a uniform manner by a common system-wide scheduling engine. Although using a unified engine is recommended, it does not support some of the Task Scheduler features. If the combination of properties will not allow running of the task under a unified engine, the registration of such will be rejected.
         -   The task features that are not supported by the unified scheduling engine include:
 
             -   Logon types:
 
-                -   [TASK\_LOGON\_INTERACTIVE\_TOKEN\_OR\_PASSWORD](http://go.microsoft.com/fwlink/p/?linkid=168159)
+                -   [TASK\_LOGON\_INTERACTIVE\_TOKEN\_OR\_PASSWORD](https://go.microsoft.com/fwlink/p/?linkid=168159)
 
             -   Multiple instance policy:
 
@@ -72,20 +72,20 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
 
             -   Actions:
 
-                -   [Send email](http://go.microsoft.com/fwlink/p/?linkid=168161)
-                -   [Display message](http://go.microsoft.com/fwlink/p/?linkid=168164)
+                -   [Send email](https://go.microsoft.com/fwlink/p/?linkid=168161)
+                -   [Display message](https://go.microsoft.com/fwlink/p/?linkid=168164)
 
             -   Settings:
 
-                -   [Task network settings](http://go.microsoft.com/fwlink/p/?linkid=168166)
-                -   [Do not allow task hard terminate](http://go.microsoft.com/fwlink/p/?linkid=168167)
+                -   [Task network settings](https://go.microsoft.com/fwlink/p/?linkid=168166)
+                -   [Do not allow task hard terminate](https://go.microsoft.com/fwlink/p/?linkid=168167)
 
             -   Triggers:
 
-                -   [Trigger execution time limit](http://go.microsoft.com/fwlink/p/?linkid=168168)
-                -   [Repetition patterns for calendar triggers]( http://go.microsoft.com/fwlink/p/?linkid=168169)
-                -   [XPath query values for event triggers]( http://go.microsoft.com/fwlink/p/?linkid=168170)
-                -   [Monthly](http://go.microsoft.com/fwlink/p/?linkid=168171) and [Monthly day-of-week](http://go.microsoft.com/fwlink/p/?linkid=168173) trigger types
+                -   [Trigger execution time limit](https://go.microsoft.com/fwlink/p/?linkid=168168)
+                -   [Repetition patterns for calendar triggers]( https://go.microsoft.com/fwlink/p/?linkid=168169)
+                -   [XPath query values for event triggers]( https://go.microsoft.com/fwlink/p/?linkid=168170)
+                -   [Monthly](https://go.microsoft.com/fwlink/p/?linkid=168171) and [Monthly day-of-week](https://go.microsoft.com/fwlink/p/?linkid=168173) trigger types
 
 ## Windows Vista
 

@@ -172,11 +172,11 @@ Keep the normal user experience simple—don't clutter it with information that 
 
 -   **Name the setup file "Setup.exe".** "Install.exe" is an acceptable alternative. This enables Windows (and users) to recognize the file as a setup program.
     -   **Exception:** For programs downloaded from the Internet, help users manage and organize their Downloads folder by including the name of the program in the name of the setup file. For example, SetupVisualStudioExpress2008.exe.
--   **Copy program files to the proper file system locations.** Doing so allows users and Windows to find and organize the files better. For more information, see the [Windows File System Namespace Usage Guidelines](http://www.microsoft.com/downloads/details.aspx?FamilyID=88AD7E7C-4068-48B8-9503-E160A6693BBA&displaylang=en).
+-   **Copy program files to the proper file system locations.** Doing so allows users and Windows to find and organize the files better. For more information, see the [Windows File System Namespace Usage Guidelines](https://www.microsoft.com/downloads/details.aspx?FamilyID=88AD7E7C-4068-48B8-9503-E160A6693BBA&displaylang=en).
 
 ### User Account Control
 
--   **Digitally sign the setup executable file.** Signed executables have many advantages, including using a more specific User Account Control Elevation UI. For information about signing files, see [Introduction to Code Signing](http://msdn.microsoft.com/library/ms537361(VS.85).aspx).
+-   **Digitally sign the setup executable file.** Signed executables have many advantages, including using a more specific User Account Control Elevation UI. For information about signing files, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361(VS.85).aspx).
 -   **If a setup might require elevation, elevate as late as possible.** Display the elevation UI only after the user has committed to an option that requires elevation. Usually, the elevation UI appears during the installation phase, not the decision phase. However, if a setup always requires elevation, elevate at its entry point.
 -   **Always require elevation for uninstall.** Doing so prevents malware from uninstalling critical software without users knowing about it.
 -   **Once elevated, stay elevated until elevated privileges are no longer necessary.** Users shouldn't have to elevate multiple times to perform complete a program installation.

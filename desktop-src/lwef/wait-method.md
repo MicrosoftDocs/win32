@@ -49,8 +49,8 @@ Use this method only when you support multiple (simultaneous) characters and are
 
    Sub window_Onload
 
-   Agent1.Characters.Load "Genie", "http://agent.microsoft.com/characters/v2/genie/genie.acf"
-   Agent1.Characters.Load "Robby", "http://agent.microsoft.com/characters/v2/robby/robby.acf"
+   Agent1.Characters.Load "Genie", "https://agent.microsoft.com/characters/v2/genie/genie.acf"
+   Agent1.Characters.Load "Robby", "https://agent.microsoft.com/characters/v2/robby/robby.acf"
 
    Set Genie = Agent1.Characters("Genie")
    Set Robby = Agent1.Characters("Robby")

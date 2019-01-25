@@ -37,7 +37,7 @@ The following example code shows an .asx file that combines a single digital med
 
 ```XML
 <ASX version="3.0">
-<PARAM name="HTMLView" value="http://www.proseware.com/htmlview.htm"/>
+<PARAM name="HTMLView" value="https://www.proseware.com/htmlview.htm"/>
 
 <ENTRY>
    <REF href="rtsp://www.proseware.com/content1.wma"/>
@@ -58,12 +58,12 @@ You can easily change the webpage that is displayed for each piece of content by
 <ASX version="3.0">
 
 <ENTRY>
-   <PARAM name="HTMLView" value="http://www.proseware.com/htmlview1.htm"/>
+   <PARAM name="HTMLView" value="https://www.proseware.com/htmlview1.htm"/>
    <REF href="rtsp://www.proseware.com/content1.wma"/>
 </ENTRY>
 
 <ENTRY>
-   <PARAM name="HTMLView" value="http://www.proseware.com/htmlview2.htm"/>
+   <PARAM name="HTMLView" value="https://www.proseware.com/htmlview2.htm"/>
    <REF href="rtsp://www.proseware.com/content2.wma"/>
 </ENTRY>
 

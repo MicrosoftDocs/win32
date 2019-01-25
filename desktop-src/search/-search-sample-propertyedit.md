@@ -39,8 +39,8 @@ This sample is available in the following locations.
 
 | Location      | Path URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| Code Gallery  | [PropertyEdit sample](http://go.microsoft.com/fwlink/p/?linkid=155658)    |
-| Windows 7 SDK | [Download Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) |
+| Code Gallery  | [PropertyEdit sample](https://go.microsoft.com/fwlink/p/?linkid=155658)    |
+| Windows 7 SDK | [Download Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) |
 
 
 

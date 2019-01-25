@@ -18,7 +18,7 @@ The Windows Hello World sample application creates and shows an empty window, as
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [http://go.microsoft.com/fwlink/p/?linkid=184824]( http://go.microsoft.com/fwlink/p/?linkid=184824).
+This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=184824]( https://go.microsoft.com/fwlink/p/?linkid=184824).
 
 ## Related topics
 

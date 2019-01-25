@@ -23,7 +23,7 @@ All operations are considered remote and the WinRM service must be started befor
 When using the WinRM service for local operations, the following factors should be considered:
 
 -   The local WinRM configuration can only be read by administrators.
--   WMI namespaces must have remote enable permissions set. For more information, see [Securing a Remote WMI Connection](http://go.microsoft.com/fwlink/p/?linkid=144681).
+-   WMI namespaces must have remote enable permissions set. For more information, see [Securing a Remote WMI Connection](https://go.microsoft.com/fwlink/p/?linkid=144681).
 -   If a WinRM [*listener*](windows-remote-management-glossary.md) is not created, then the WinRM service listens for local requests on port 47001.
 
 Every WinRM script must start by establishing a session or connection to a computer by creating a [**Session**](session.md) object. After the session is created, you can use the **Session** object methods, such as [**Session.Enumerate**](session-enumerate.md) or [**Session.Invoke**](session-invoke.md) to obtain data or to execute methods.
@@ -53,7 +53,7 @@ Calling the [**WSMan.CreateSession**](wsman-createsession.md) method to create a
 3.  Create a resource [*URI*](windows-remote-management-glossary.md) to identify the [*resource*](windows-remote-management-glossary.md) you want to manage or for which you want to obtain data. For more information about formatting a URI, see [Resource URIs](resource-uris.md). This resource URI is for a specific instance of the WMI [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) class, the Winmgmt service. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
     ```VB
-    strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
+    strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
     ```
 
     
@@ -75,7 +75,7 @@ The following VBScript code example shows the complete script that obtains the s
 ```VB
 Set objWsman = CreateObject("Wsman.Automation")
 Set objSession = objWsman.CreateSession()
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
 strResponse = objSession.Get(strResource)
 Wscript.Echo strResponse
 ```
@@ -88,7 +88,7 @@ The following VBScript code example shows the complete script with the data tran
 ```VB
 Set objWsman = CreateObject("Wsman.Automation")
 Set objSession = objWsman.CreateSession()
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
 strResponse = objSession.Get(strResource)
 Set xmlFile = CreateObject("MSXml.DOMDocument")
 Set xslFile = CreateObject("MSXml.DOMDocument")

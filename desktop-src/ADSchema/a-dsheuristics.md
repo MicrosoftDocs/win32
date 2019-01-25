@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Contains global settings for the entire forest.
 
-There is information about adminSDholder exclusion bits available on the Microsoft Help and Support website in an article number [817433, Delegated permissions are not available and inheritance is automatically disabled](http://go.microsoft.com/fwlink/p/?linkid=101642).
+There is information about adminSDholder exclusion bits available on the Microsoft Help and Support website in an article number [817433, Delegated permissions are not available and inheritance is automatically disabled](https://go.microsoft.com/fwlink/p/?linkid=101642).
 
 
 

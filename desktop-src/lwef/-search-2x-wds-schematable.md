@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Schema
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 The schema documents the values and properties that the index uses to store data for indexing or sorting. The Schema table lists the columns and their properties (type and propid) included in the schema for Microsoft Windows Desktop Search (WDS) 2.6.5.
 

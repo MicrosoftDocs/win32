@@ -78,7 +78,7 @@ For more info about printing from Windows Store apps that are written in JavaScr
 [XPS Document API](https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx)
 </dt> <dt>
 
-[Bidirectional printer communications (Hardware Dev Center)](http://go.microsoft.com/fwlink/p/?LinkId=613189  )
+[Bidirectional printer communications (Hardware Dev Center)](https://go.microsoft.com/fwlink/p/?LinkId=613189  )
 </dt> </dl>
 
  

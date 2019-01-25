@@ -805,7 +805,7 @@ HRESULT ComputeOMAC(
 
 
 
-The OMAC-1 algorithm is described in detail at <http://www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html>.
+The OMAC-1 algorithm is described in detail at <https://www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html>.
 
 ## Related topics
 

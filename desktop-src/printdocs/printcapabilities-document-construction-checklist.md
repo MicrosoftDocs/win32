@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintCapabilities Document Construction Checklist
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 The [Summary of Element Types](summary-of-element-types.md) discusses the various elements that make up a PrintCapabilities document. This section provides a checklist that authors of PrintCapabilities documents can use to create a PrintCapabilities document that describes a device.
 
@@ -48,7 +48,7 @@ Note that a functional conflict between settings is defined as two, non-conflict
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

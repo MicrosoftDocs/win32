@@ -41,7 +41,7 @@ The following table lists the default DCOM impersonation, authentication, and au
 
  
 
-WMI remote connections are affected by [User Account Control (UAC)](Http://go.microsoft.com/fwlink/p/?linkid=84439) and [Windows Firewall](Http://go.microsoft.com/fwlink/p/?linkid=84428). For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md) and [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854).
+WMI remote connections are affected by [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439) and [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=84428). For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md) and [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854).
 
 Be aware that connecting to WMI on the local computer has a default authentication level of **PktPrivacy**.
 

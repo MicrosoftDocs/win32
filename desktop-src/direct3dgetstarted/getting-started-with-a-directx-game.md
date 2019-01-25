@@ -27,7 +27,7 @@ To develop a game in DirectX for Windows, you must have a few basic skills. Spec
 Ready to start? Let's review before we head on. You have:
 
 -   An updated and working installation of Windows 8.1.
--   An installation of [Microsoft Visual Studio](http://go.microsoft.com/fwlink/?LinkId=330317).
+-   An installation of [Microsoft Visual Studio](https://go.microsoft.com/fwlink/?LinkId=330317).
 -   An intrepid spirit and a desire to learn more about DirectX game development!
 
 ## Next steps

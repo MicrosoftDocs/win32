@@ -98,7 +98,7 @@ The [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377
 [**XPS\_SIGN\_POLICY**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
 </dt> </dl>
 
  

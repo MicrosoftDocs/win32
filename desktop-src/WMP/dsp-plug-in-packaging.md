@@ -48,7 +48,7 @@ A DSP plug-in that implements custom interfaces and runs in the Media Foundation
 
 DSP plug-in objects must not be created as singletons. Windows Media Player must be able to create multiple separate instances of a particular DSP plug-in.
 
-DSP plug-ins that run in the Windows Vista Protected Media Path (PMP) must be signed. For more information, see [Code Signing for Protected Media Components in Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=69258&).
+DSP plug-ins that run in the Windows Vista Protected Media Path (PMP) must be signed. For more information, see [Code Signing for Protected Media Components in Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=69258&).
 
 ## Related topics
 

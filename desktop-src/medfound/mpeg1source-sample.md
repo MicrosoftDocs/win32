@@ -42,7 +42,7 @@ You can also use the TopoEdit tool to build a playback topology that contains th
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
 
 
 

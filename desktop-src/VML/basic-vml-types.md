@@ -26,10 +26,10 @@ ms.date: 05/31/2018
 
 # Basic VML Types
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -188,7 +188,7 @@ length
 
 A length is a real-world measurement or, sometimes, a measurement in device pixels. It is recommended that implementations avoid the use of device pixels (px).
 
-All the standard [CSS1](http://www.w3.org/pub/WWW/TR/REC-CSS1) unit qualifiers are permitted on a length. In addition, the qualifier emu may be used. This qualifier refers to a unit -- the EMU (English Metric Unit) -- which is a common denominator of the measurement quantities in widespread use in computer graphics. The EMU is <sup>inch</sup> / 914400, i.e., there are 914400 EMU per inch. The following table lists the number of EMUs in a small number of commonly encountered units.
+All the standard [CSS1](https://www.w3.org/pub/WWW/TR/REC-CSS1) unit qualifiers are permitted on a length. In addition, the qualifier emu may be used. This qualifier refers to a unit -- the EMU (English Metric Unit) -- which is a common denominator of the measurement quantities in widespread use in computer graphics. The EMU is <sup>inch</sup> / 914400, i.e., there are 914400 EMU per inch. The following table lists the number of EMUs in a small number of commonly encountered units.
 
 
 
@@ -215,7 +215,7 @@ In practice, physical lengths are used for relatively few measurements in this p
 
 ### Alternative representations
 
-The standard length representations of HTML are defined by [CSS1](http://www.w3.org/pub/WWW/TR/REC-CSS1#length-units) . Relative units, with the exception of the pixel, are not meaningful in the context within which lengths are used in this proposal and must not be used. If the document records the intended (target) pixel size, this defines the translation of pixels into EMU; otherwise, the default of 90 dpi defined by [CSS1](http://www.w3.org/pub/WWW/TR/REC-CSS1#length-units) should be used.
+The standard length representations of HTML are defined by [CSS1](https://www.w3.org/pub/WWW/TR/REC-CSS1#length-units) . Relative units, with the exception of the pixel, are not meaningful in the context within which lengths are used in this proposal and must not be used. If the document records the intended (target) pixel size, this defines the translation of pixels into EMU; otherwise, the default of 90 dpi defined by [CSS1](https://www.w3.org/pub/WWW/TR/REC-CSS1#length-units) should be used.
 
 With the exception of emu, any value may be given as a decimal fraction. When a decimal value is converted to EMU, the implementation may use any arithmetic rounding mode. (The only way for an authoring application to guarantee a particular result is to specify it in emu.)
 
@@ -317,7 +317,7 @@ color
 
 
 
-A color value is a superset of the [CSS1 color definition](http://www.w3.org/pub/WWW/TR/REC-CSS1#color-units) . The extensions allow the RGB color value to be determined from other colors within the shape or from an overall color scheme defined using CSS1.
+A color value is a superset of the [CSS1 color definition](https://www.w3.org/pub/WWW/TR/REC-CSS1#color-units) . The extensions allow the RGB color value to be determined from other colors within the shape or from an overall color scheme defined using CSS1.
 
 If the value of an element is defined to be a color, the *content* of an element defines the color value by means of a single color token optionally modified by an arithmetic operation on the corresponding RGB color.
 
@@ -325,7 +325,7 @@ If the value of an element is defined to be a color, the *content* of an element
 
 ### Color units
 
-The full set of color tokens come from a variety of sources: HTML, CSS1, and this proposal. They are defined as follows using notation from [CSS1](http://www.w3.org/pub/WWW/TR/REC-CSS1) or the XPointer notation defined for XML linking.
+The full set of color tokens come from a variety of sources: HTML, CSS1, and this proposal. They are defined as follows using notation from [CSS1](https://www.w3.org/pub/WWW/TR/REC-CSS1) or the XPointer notation defined for XML linking.
 
 In the XPointer definitions, the location source is the element containing the color value, and the expression refers to the whole element set of the shape as though any base prototype elements had been merged with the shape. When the corresponding element does not exist, the default value for that element is used in its place.
 
@@ -336,7 +336,7 @@ In the XPointer definitions, the location source is the element containing the c
 | name             | See below                                                                                                   | 0     | HTML color name, as listed in the table below.                                                                                                                            |
 | \#rr'gg'bb'      | \#rr'gg'bb'                                                                                                 | 0     | Standard CSS1/sRGB color representation using values in the range 0..255 represented using 2 hexadecimal digits each.                                                     |
 | \#rgb            | \#rrggbb                                                                                                    | 1     | Shortened CSS1 form with only three hexadecimal digits.                                                                                                                   |
-| rgb(r,g,b)       | \#(r)(g)(b)                                                                                                 | 1     | CSS1 rgb form; the elements of the rgb value are converted as defined in [CSS1](http://www.w3.org/pub/WWW/TR/REC-CSS1#color-units) .                                      |
+| rgb(r,g,b)       | \#(r)(g)(b)                                                                                                 | 1     | CSS1 rgb form; the elements of the rgb value are converted as defined in [CSS1](https://www.w3.org/pub/WWW/TR/REC-CSS1#color-units) .                                      |
 | fill             | ancestor(1,shape)<br/> child(1, fill)<br/> child(1, color)<br/>                           | 1     | The foreground fill color of the shape.                                                                                                                                   |
 | fillBack         | ancestor(1,shape)<br/> child(1, fill)<br/> child(1, back)<br/> child(1, color)<br/> | 1     | The background color of the shape fill.                                                                                                                                   |
 | line             | ancestor(1,shape)<br/> child(1, line)<br/> child(1, color)<br/>                           | 1     | The foreground line color of the shape.                                                                                                                                   |
@@ -363,7 +363,7 @@ The definition of a color value must not refer to itself, either directly or ind
 
 ### HTML colors
 
-[HTML](http://www.w3.org/TR/wd-html40-970708/types.mdl#type-color) defines the following sixteen color names:
+[HTML](https://www.w3.org/TR/wd-html40-970708/types.mdl#type-color) defines the following sixteen color names:
 
 
 
@@ -605,7 +605,7 @@ font
 
 
 
-A font is identified using a style attribute as defined in [CSS1 section 5.2 (font properties)](http://www.w3.org/pub/WWW/TR/REC-CSS1#font-properties) . The body of the font element is, at present, undefined but may be used in the future to encode standard font information. Initial implementations of this proposal should preserve but not interpret the information.
+A font is identified using a style attribute as defined in [CSS1 section 5.2 (font properties)](https://www.w3.org/pub/WWW/TR/REC-CSS1#font-properties) . The body of the font element is, at present, undefined but may be used in the future to encode standard font information. Initial implementations of this proposal should preserve but not interpret the information.
 
 It is conceivable that support will be added in the future for out-of-line font information (downloadable fonts, or shared font resources). This will be done by an XML-link element within the content of the font element, ensuring backward compatbility with initial implementations.
 

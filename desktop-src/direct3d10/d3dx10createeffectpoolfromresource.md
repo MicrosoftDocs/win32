@@ -51,7 +51,7 @@ HRESULT D3DX10CreateEffectPoolFromResource(
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](http://msdn.microsoft.com/en-us/library/ms683199.aspx).
+A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](https://msdn.microsoft.com/en-us/library/ms683199.aspx).
 
 </dd> <dt>
 

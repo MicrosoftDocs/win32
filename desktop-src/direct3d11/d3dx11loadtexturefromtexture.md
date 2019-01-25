@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **Resize**, **Convert**, **Compress**, **Decompress**, and/or **CopyRectangle**.
+> Instead of using this function, we recommend that you use the [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) library, **Resize**, **Convert**, **Compress**, **Decompress**, and/or **CopyRectangle**.
 
  
 

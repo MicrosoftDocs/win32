@@ -33,8 +33,8 @@ If you are developing and certifying a UWP app from the start, see [Guidance for
 
 | Topic                                                          | Description                                                                                                                                                                           |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Get the Kit](http://go.microsoft.com/fwlink/p/?LinkID=708304) | To certify your app, you have to install and run the Windows App Certification Kit (included in the Windows SDK).                                                                     |
-| [Using the Kit](using-the-windows-app-certification-kit.md)   | Before you can submit your app, you must test it for readiness. You can also download a copy of the [app certification white paper](http://go.microsoft.com/fwlink/p/?LinkId=703908). |
+| [Get the Kit](https://go.microsoft.com/fwlink/p/?LinkID=708304) | To certify your app, you have to install and run the Windows App Certification Kit (included in the Windows SDK).                                                                     |
+| [Using the Kit](using-the-windows-app-certification-kit.md)   | Before you can submit your app, you must test it for readiness. You can also download a copy of the [app certification white paper](https://go.microsoft.com/fwlink/p/?LinkId=703908). |
 | [Review test details](windows-app-certification-kit-tests.md) | Get the list of the tests your app needs to pass to qualify for compatibility with the latest Windows operating system.                                                               |
 
 
@@ -45,7 +45,7 @@ Note: Filter drivers must also pass the [Hardware Certification Kit](https://go.
 
 ## Step 3: Use the Windows Certification Dashboard
 
-To submit your app for certification, you'll need to log in or register a company account on the [Windows Certification Dashboard](http://go.microsoft.com/fwlink/p/?LinkId=703899). Once you do, not only will you be able to get your app certified, but you'll also gain access to tools to review and manage your app at all stages of the process.
+To submit your app for certification, you'll need to log in or register a company account on the [Windows Certification Dashboard](https://go.microsoft.com/fwlink/p/?LinkId=703899). Once you do, not only will you be able to get your app certified, but you'll also gain access to tools to review and manage your app at all stages of the process.
 
 
 
@@ -66,7 +66,7 @@ To submit your app for certification, you'll need to log in or register a compan
 
 | Topic                                                                      | Description                                                                                                               |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [Check app compatibility](http://go.microsoft.com/fwlink/p/?LinkID=703943) | If you are building an app for Windows 8.1, investigate compatibility concerns.                                           |
+| [Check app compatibility](https://go.microsoft.com/fwlink/p/?LinkID=703943) | If you are building an app for Windows 8.1, investigate compatibility concerns.                                           |
 | [Use the logo with your app](windows-7-certification.md)                  | Display the logo on packaging and in ads and other promotional materials according to the guidelines. For Windows 7 only. |
 
 
@@ -75,11 +75,11 @@ To submit your app for certification, you'll need to log in or register a compan
 
 ## See also:
 
-[App compatibility forum](http://go.microsoft.com/fwlink/p/?LinkId=703925): Find support from the community about compatibility and logo certification.
+[App compatibility forum](https://go.microsoft.com/fwlink/p/?LinkId=703925): Find support from the community about compatibility and logo certification.
 
-[Windows SDK blog](http://go.microsoft.com/fwlink/p/?LinkId=703926): Find tips and news related to app certification.
+[Windows SDK blog](https://go.microsoft.com/fwlink/p/?LinkId=703926): Find tips and news related to app certification.
 
-[Windows Server forum]( http://go.microsoft.com/fwlink/p/?LinkId=703928): Visit the Certification forum to get answers.
+[Windows Server forum]( https://go.microsoft.com/fwlink/p/?LinkId=703928): Visit the Certification forum to get answers.
 
 [Compatibility cookbook](https://msdn.microsoft.com/library/windows/desktop/hh848074): Get info about what's new or changed in the latest version of Windows.
 

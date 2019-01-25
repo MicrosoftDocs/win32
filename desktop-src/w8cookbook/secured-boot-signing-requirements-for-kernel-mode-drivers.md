@@ -34,7 +34,7 @@ When distributing drivers more widely they must be properly signed by a trusted 
 
 ## Resources
 
--   [Signing Drivers](http://go.microsoft.com/fwlink/p/?LinkId=325488)
+-   [Signing Drivers](https://go.microsoft.com/fwlink/p/?LinkId=325488)
 
  
 

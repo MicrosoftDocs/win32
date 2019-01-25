@@ -28,7 +28,7 @@ api_location:
 The **CIM\_Product** class is a concrete class that represents a collection of physical elements, software features and, other products, acquired as a unit. Acquisition implies an agreement between the supplier and consumer, which can have implications on product licensing, support, and warranty.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

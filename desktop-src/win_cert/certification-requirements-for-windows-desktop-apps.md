@@ -247,7 +247,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Support Windows Security Features</td>
-<td>The Windows operating system has implemented many measures to support system security and privacy. Applications must support these measures to maintain the integrity of the OS. Improperly compiled applications could cause buffer overruns that in turn could cause denial of service or make malicious code execute. For more information see the <a href="http://blogs.microsoft.com/cybertrust/2012/08/15/microsofts-free-security-tools-binscope-binary-analyzer/">BinScope tool reference</a>.</td>
+<td>The Windows operating system has implemented many measures to support system security and privacy. Applications must support these measures to maintain the integrity of the OS. Improperly compiled applications could cause buffer overruns that in turn could cause denial of service or make malicious code execute. For more information see the <a href="https://blogs.microsoft.com/cybertrust/2012/08/15/microsofts-free-security-tools-binscope-binary-analyzer/">BinScope tool reference</a>.</td>
 </tr>
 <tr class="odd">
 <td>Adhere to System Restart Manager Messages</td>
@@ -305,7 +305,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 ## See also
 
 -   [Windows Hardware Certification Program](https://msdn.microsoft.com/library/windows/hardware/gg463010)
--   [How to use the Windows App Certification Kit](http://www.microsoft.com/download/details.aspx?id=27414)
+-   [How to use the Windows App Certification Kit](https://www.microsoft.com/download/details.aspx?id=27414)
 
  
 

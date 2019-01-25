@@ -8,16 +8,16 @@ ms.date: 05/31/2018
 
 # PrintCapabilities Document Example
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Notes: The default namespace does not apply to XML Attributes. They must be explicitly prefix-qualified. Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.
 
 ``` syntax
-<psf:PrintCapabilities xmlns:psf="http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
-                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1" 
-                  xmlns:ns0000="http://schemas.microsoft.com/windows/printing/oemdriverpt/ES_LNseries_PowerPrinter" 
-                  xmlns:psk="http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
+<psf:PrintCapabilities xmlns:psf="https://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
+                  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+                  xmlns:xsd="https://www.w3.org/2001/XMLSchema" version="1" 
+                  xmlns:ns0000="https://schemas.microsoft.com/windows/printing/oemdriverpt/ES_LNseries_PowerPrinter" 
+                  xmlns:psk="https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
     <psf:ParameterDef name="ns0000:PageDevmodeSnapshot">
         <psf:Property name="psf:DataType">
             <psf:Value xsi:type="xsd:QName">xsd:string</psf:Value>
@@ -505,7 +505,7 @@ Notes: The default namespace does not apply to XML Attributes. They must be expl
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

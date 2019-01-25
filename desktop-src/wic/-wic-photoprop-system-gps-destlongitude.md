@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestLongitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestLongitude](http://msdn.microsoft.com/en-us/library/bb787508(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestLongitude](https://msdn.microsoft.com/en-us/library/bb787508(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ This value is generated from System.GPS.DestLongitudeNumerator and System.GPS.De
 
 <dl> <dt>
 
-[System.GPS.DestLongitude](http://msdn.microsoft.com/en-us/library/bb787508(VS.85).aspx)
+[System.GPS.DestLongitude](https://msdn.microsoft.com/en-us/library/bb787508(VS.85).aspx)
 </dt> </dl>
 
  

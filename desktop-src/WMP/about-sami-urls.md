@@ -28,7 +28,7 @@ The value of the URL parameter follows the parameter name and an equals sign, as
 
 
 ```C++
-http://proseware.com/samitest.wma?sami=http://acc.proseware.com/test.smi
+https://proseware.com/samitest.wma?sami=https://acc.proseware.com/test.smi
 
 ```
 

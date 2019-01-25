@@ -45,7 +45,7 @@ The optional <author> element specifies the author of this library. This element
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
     <author>Joe Smith</author>
     ...

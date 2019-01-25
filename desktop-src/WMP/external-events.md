@@ -40,7 +40,7 @@ A typical external event handler would name the event and define the code that w
 
 
 ```C++
-onclick = "JScript: player.URL = 'http://proseware.com/laure.wma' ; "
+onclick = "JScript: player.URL = 'https://proseware.com/laure.wma' ; "
 
 ```
 

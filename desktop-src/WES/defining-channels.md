@@ -21,9 +21,9 @@ The following example shows how to import a channel. You must set the **chid** a
 
 ```XML
 <instrumentationManifest
-    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"    
+    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
     <instrumentation>
@@ -66,9 +66,9 @@ The following example shows how to define a channel. You must set the **chid**, 
 
 ```XML
 <instrumentationManifest
-    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"    
+    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
     <instrumentation>

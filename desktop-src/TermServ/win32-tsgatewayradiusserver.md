@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 Describes a Remote Authentication Dial-In User Service (RADIUS) server, which has a set of Remote Desktop Services connection authorization policies (RD CAPs).
 
-RADIUS is an industry-standard protocol that is used to transmit authentication, authorization, and configuration information between a server computer and an authenticating server, called a RADIUS server, with a database that stores user information. For more information, see [RADIUS Protocol](Http://Go.Microsoft.Com/FWLink/p/?LinkID=5919).
+RADIUS is an industry-standard protocol that is used to transmit authentication, authorization, and configuration information between a server computer and an authenticating server, called a RADIUS server, with a database that stores user information. For more information, see [RADIUS Protocol](https://Go.Microsoft.Com/FWLink/p/?LinkID=5919).
 
 ## Syntax
 

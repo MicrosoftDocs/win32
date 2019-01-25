@@ -13,7 +13,7 @@ api_location:
 
 # LAN\_profile Schema Elements
 
-A wired network profile contains the following schema elements. All of the named elements are in the namespace `http://www.microsoft.com/networking/LAN/profile/v1`.
+A wired network profile contains the following schema elements. All of the named elements are in the namespace `https://www.microsoft.com/networking/LAN/profile/v1`.
 
 The following list shows the defined elements in the order in which the elements appear in a profile. The ordering of elements is enforced. This list does not show all possible elements that can appear in a profile, as elements can be added in **xs:any** insertion points.
 

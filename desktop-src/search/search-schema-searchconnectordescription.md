@@ -23,7 +23,7 @@ The <searchConnectorDescriptionType> element is the top level container for the 
 ```
 <!-- searchConnectorDescriptionType -->
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
    <xs:complexType name="searchConnectorDescriptionType">
       <xs:all>
          <xs:element name="isSearchOnlyItem" type="xs:boolean" default="false" minOccurs="0"/>
@@ -151,21 +151,21 @@ The following is an example of a Search Connector Description file for a federat
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
   <description>Search MSDN. Powered by live.com</description>
   <isSearchOnlyItem>true</isSearchOnlyItem>
-  <domain>http://social.msdn.microsoft.com</domain>
+  <domain>https://social.msdn.microsoft.com</domain>
   <supportsAdvancedQuerySyntax>false</supportsAdvancedQuerySyntax>
   <templateInfo>
     <folderType>{8FAF9629-1980-46FF-8023-9DCEAB9C3EE3}</folderType>
   </templateInfo>
   <propertyStore>
-    <property name="OpenSearchHTMLRolloverTemplate">http://social.msdn.microsoft.com/Search/en-US/?Query={searchTerms}</property>
+    <property name="OpenSearchHTMLRolloverTemplate">https://social.msdn.microsoft.com/Search/en-US/?Query={searchTerms}</property>
   </propertyStore>
   <locationProvider clsid="{48E277F6-4E74-4cd6-BA6F-FA4F42898223}">
     <propertyBag>
       <property name="OpenSearchShortName">MSDN</property>
-      <property name="OpenSearchQueryTemplate">http://social.msdn.microsoft.com/Search/Feed.aspx?locale=en-US&Query={searchTerms}&format=RSS&StartIndex={startIndex}</property>
+      <property name="OpenSearchQueryTemplate">https://social.msdn.microsoft.com/Search/Feed.aspx?locale=en-US&Query={searchTerms}&format=RSS&StartIndex={startIndex}</property>
       <property name="MaximumResultCount" type="uint32">100</property>
     </propertyBag>
   </locationProvider>
@@ -179,7 +179,7 @@ The following is an example of a Search Connector Description file for a MAPI pr
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
     <description>Microsoft Outlook</description>
     <isSearchOnlyItem>true</isSearchOnlyItem>
     <includeInStartMenuScope>true</includeInStartMenuScope>

@@ -34,7 +34,7 @@ This issue causes problems for people who rely on a screen-reader and keyboard f
 [Guidelines for Keyboard User Interface Design](https://msdn.microsoft.com/library/ms971323(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Windows User Experience Interaction Guidelines - Keyboard](http://go.microsoft.com/fwlink/p/?linkid=255237)
+[Windows User Experience Interaction Guidelines - Keyboard](https://go.microsoft.com/fwlink/p/?linkid=255237)
 </dt> </dl>
 
  

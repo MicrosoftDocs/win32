@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Features and Options
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Feature/Option and parameter constructs are used in a PrintCapabilities document to represent device attributes that contribute to the definition of the device configuration. For an example of a Feature/Option construct, consider a printing device that is capable of printing in several resolutions. The device attribute that defines the resolution can be represented as a Feature instance, with each of the possible output resolution values represented as an individual Option instance. One Option instance can represent a resolution of 300 dpi, another can represent a resolution of 600 dpi, and so on.
 
@@ -20,7 +20,7 @@ Note that PrintCapabilities authors are not required to utilize the nesting capa
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

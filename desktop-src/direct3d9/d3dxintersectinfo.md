@@ -83,7 +83,7 @@ Distance along the ray where the intersection occurred.
 
 ## Remarks
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](http://go.microsoft.com/?linkid=9742311).
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://go.microsoft.com/?linkid=9742311).
 
 ## Requirements
 

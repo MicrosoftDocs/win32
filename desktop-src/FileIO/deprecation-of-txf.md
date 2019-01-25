@@ -43,12 +43,12 @@ Many applications manage some set of proprietary data structures of varying type
 
 Two suggestions to help manage structured data are:
 
--   Microsoft provides the Extensible Storage Engine (ESE) inbox in Windows to enable applications to perform transacted data update and retrieval operations. For more information on the Extensible Storage Engine (ESE), please see <http://msdn.microsoft.com/library/gg269259.aspx>.
--   For applications that require a more powerful, robust, and scalable database provider, it is recommended that customers consider using the Filestream feature available with Microsoft SQL Server. For more information on SQL Filestreams, please see <http://technet.microsoft.com/library/bb933993.aspx>.
+-   Microsoft provides the Extensible Storage Engine (ESE) inbox in Windows to enable applications to perform transacted data update and retrieval operations. For more information on the Extensible Storage Engine (ESE), please see <https://msdn.microsoft.com/library/gg269259.aspx>.
+-   For applications that require a more powerful, robust, and scalable database provider, it is recommended that customers consider using the Filestream feature available with Microsoft SQL Server. For more information on SQL Filestreams, please see <https://technet.microsoft.com/library/bb933993.aspx>.
 
 ## Applications with Transactions involving files on a local NTFS volume and Tables in an external SQL database
 
-There are classes of applications which either have large dataset needs, or need to have transactional atomicity in an operation involving an external database and local storage. For this scenario, it is highly recommended that developers consider using SQL Filestreams to perform transactional file operations. For more information on SQL Filestreams, please see <http://technet.microsoft.com/library/bb933993.aspx>.
+There are classes of applications which either have large dataset needs, or need to have transactional atomicity in an operation involving an external database and local storage. For this scenario, it is highly recommended that developers consider using SQL Filestreams to perform transactional file operations. For more information on SQL Filestreams, please see <https://technet.microsoft.com/library/bb933993.aspx>.
 
 ## Closing & Recommended Action
 

@@ -166,7 +166,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIB.IETF\|IF-MIB.ifType"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_ProtocolEndpoint**.**OtherTypeDescription**")
 </dt> </dl>
 
-An enumeration used to categorize and classify different instances of this class. The possible values for this property are synchronized with the Internet Assigned Numbers Authority (IANA) ifType MIB-module (management information base), which is maintained at http://www.iana.org/assignments/ianaiftype-mib. Additional values defined by the DMTF are included.
+An enumeration used to categorize and classify different instances of this class. The possible values for this property are synchronized with the Internet Assigned Numbers Authority (IANA) ifType MIB-module (management information base), which is maintained at https://www.iana.org/assignments/ianaiftype-mib. Additional values defined by the DMTF are included.
 
 > [!Note]  
 > If the **ProtocolIFType** is set to 1 (Other), then the protocol type information should be provided in the **OtherTypeDescription** property.

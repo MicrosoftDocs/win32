@@ -52,7 +52,7 @@ hr = pTextLayout_->Draw(
 
 The [**IDWriteTextLayout::Draw**](https://msdn.microsoft.com/en-us/library/Dd316726(v=VS.85).aspx) method calls the methods of the custom renderer callback you provide. The [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx), [**DrawUnderline**](https://msdn.microsoft.com/en-us/library/Dd371533(v=VS.85).aspx), [**DrawInlineObject**](https://msdn.microsoft.com/en-us/library/Dd371527(v=VS.85).aspx), and [**DrawStrikethrough**](https://msdn.microsoft.com/en-us/library/Dd371530(v=VS.85).aspx) methods perform the drawing functions.
 
-[**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) declares methods for drawing a glyph run, underline, strikethrough, and inline objects. It is up to the application to implement these methods. Creating a custom text renderer allows the application to apply additional effects when rendering text, such as a custom fill or outline. A sample custom text renderer is included in the [DirectWrite Hello World Sample](http://go.microsoft.com/fwlink/?LinkID=624680).
+[**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx) declares methods for drawing a glyph run, underline, strikethrough, and inline objects. It is up to the application to implement these methods. Creating a custom text renderer allows the application to apply additional effects when rendering text, such as a custom fill or outline. A sample custom text renderer is included in the [DirectWrite Hello World Sample](https://go.microsoft.com/fwlink/?LinkID=624680).
 
 ## 3. Render ClearType to a GDI surface.
 

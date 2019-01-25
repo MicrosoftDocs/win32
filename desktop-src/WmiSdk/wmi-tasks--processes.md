@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for processes obtain information such as the account under which a process is running. You can perform actions like creating processes. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
+Description: WMI tasks for processes obtain information such as the account under which a process is running. You can perform actions like creating processes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 2ae7c302-ab8b-4150-8ece-ffb66374b3f7
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Processes'
@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Processes
 
-WMI tasks for processes obtain information such as the account under which a process is running. You can perform actions like creating processes. For other examples, see the TechNet ScriptCenter at [http://www.microsoft.com/technet](Http://go.microsoft.com/fwlink/p/?linkid=84103).
+WMI tasks for processes obtain information such as the account under which a process is running. You can perform actions like creating processes. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -405,7 +405,7 @@ get-wmiObject -class Win32_Process -Namespace &quot;root\cimv2&quot; -ComputerNa
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
  

@@ -58,14 +58,14 @@ This parameter can contain one of the following:
 -   URI with or without [*selectors*](windows-remote-management-glossary.md). In the following Visual Basic Scripting Edition (VBScript) example, the key is specified by `Win32_Service?Name=winmgmt`.
 
     ```VB
-    strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _ 
+    strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/" _ 
        & "Win32_Service?Name=winmgmt"
     ```
 
     
 
 -   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=84316).
+-   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](https://go.microsoft.com/fwlink/p/?linkid=84316).
 
 </dd> <dt>
 
@@ -105,11 +105,11 @@ If objSession is Nothing Then
     WScript.Quit
 End If 
 
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
     "wmi/root/cimv2/Win32_Process"
 
 strInputParameters = "<p:Create_INPUT " & _
-    "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process"">" & _
+    "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process"">" & _
     "<p:CommandLine>" & "calc.exe" & _
     "</p:CommandLine>" & _
     "</p:Create_INPUT>"
@@ -150,13 +150,13 @@ Dim strMethodName
 
 set objWsman = CreateObject("Wsman.Automation")
 set objSession = objWsman.CreateSession
-strResourceURI = "http://schemas.microsoft.com/wbem/wsman/1/"_
+strResourceURI = "https://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_Service?Name=w32time"
 strMethodName = "StopService"
 strActionURI = strMethodName                                      
 
 strInputXml = "<p:StopService_INPUT " _
-    & "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/"_
+    & "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_Service""/>"
 
 strResponse = objSession.Invoke(strMethodName, strResourceURI, strInputXml)
@@ -166,7 +166,7 @@ call DisplayOutput(strResponse)
 strMethodName = "StartService" 
 strActionURI = strResourceURI & "/" & strMethodName  
 strInputXml = "<p:StartService_INPUT " _
-    & "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/"_
+    & "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_Service""/>"
 strResponse = objSession.Invoke(strMethodName, _
     strResourceURI, strInputXml)

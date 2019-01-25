@@ -143,7 +143,7 @@ int main(int argc, char* argv[])
     {    // Open WinHttpRequest for synchronous access.
         BSTR bstrMethod = SysAllocString(L"GET");
         BSTR bstrUrl = SysAllocString(
-            L"http://www.microsoft.com/library/homepage/images/ms-banner.gif");
+            L"https://www.microsoft.com/library/homepage/images/ms-banner.gif");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varFalse);
         SysFreeString(bstrMethod);
         SysFreeString(bstrUrl);
@@ -208,7 +208,7 @@ int main(int argc, char* argv[])
     {    // Open WinHttpRequest for synchronous access.
         BSTR bstrMethod = SysAllocString(L"GET");
         BSTR bstrUrl = SysAllocString(
-            L"http://www.microsoft.com/library/homepage/images/ms-banner.gif");
+            L"https://www.microsoft.com/library/homepage/images/ms-banner.gif");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varFalse);
         SysFreeString(bstrMethod);
         SysFreeString(bstrUrl);

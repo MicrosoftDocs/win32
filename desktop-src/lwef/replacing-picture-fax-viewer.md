@@ -157,7 +157,7 @@ HKEY_CLASSES_ROOT
 [Introduction to File Associations](https://msdn.microsoft.com/library/windows/desktop/cc144104)
 </dt> <dt>
 
-[About GDI+](http://msdn.microsoft.com/library/ms533797(VS.85).aspx)
+[About GDI+](https://msdn.microsoft.com/library/ms533797(VS.85).aspx)
 </dt> </dl>
 
  

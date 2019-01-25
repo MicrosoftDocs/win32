@@ -35,15 +35,15 @@ Applications must be designed so that users can complete the desired task withou
 
 ## Resources
 
--   [Input Method Manager Interfaces](http://go.microsoft.com/fwlink/p/?LinkId=325304)
--   [IFECommon](http://go.microsoft.com/fwlink/p/?LinkId=325305)
--   [IFECommon interface](http://go.microsoft.com/fwlink/p/?LinkId=325305)
--   [IFEDictionary interface](http://go.microsoft.com/fwlink/p/?LinkId=325308)
--   [IFELanguage](http://go.microsoft.com/fwlink/p/?LinkId=325309)
--   [IImePad](http://go.microsoft.com/fwlink/p/?LinkId=325310)
--   [IImePadApplet](http://go.microsoft.com/fwlink/p/?LinkId=325311)
--   [IimePlugInDictDictionaryList](http://go.microsoft.com/fwlink/p/?LinkId=325312)
--   [IImeSpecifyApplets](http://go.microsoft.com/fwlink/p/?LinkId=325313)
+-   [Input Method Manager Interfaces](https://go.microsoft.com/fwlink/p/?LinkId=325304)
+-   [IFECommon](https://go.microsoft.com/fwlink/p/?LinkId=325305)
+-   [IFECommon interface](https://go.microsoft.com/fwlink/p/?LinkId=325305)
+-   [IFEDictionary interface](https://go.microsoft.com/fwlink/p/?LinkId=325308)
+-   [IFELanguage](https://go.microsoft.com/fwlink/p/?LinkId=325309)
+-   [IImePad](https://go.microsoft.com/fwlink/p/?LinkId=325310)
+-   [IImePadApplet](https://go.microsoft.com/fwlink/p/?LinkId=325311)
+-   [IimePlugInDictDictionaryList](https://go.microsoft.com/fwlink/p/?LinkId=325312)
+-   [IImeSpecifyApplets](https://go.microsoft.com/fwlink/p/?LinkId=325313)
 
  
 

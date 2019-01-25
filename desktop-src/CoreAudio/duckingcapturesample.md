@@ -25,7 +25,7 @@ This sample demonstrates the following features.
 
 -   [MMDevice API](mmdevice-api.md) for multimedia device enumeration and selection.
 -   [WASAPI](wasapi.md) for accessing the communications capture and render device, stream management operations, and handling ducking events.
--   [WAVE APIs](http://msdn.microsoft.com/en-us/library/ms713499(VS.85).aspx) for accessing the communications device and capturing audio input.
+-   [WAVE APIs](https://msdn.microsoft.com/en-us/library/ms713499(VS.85).aspx) for accessing the communications device and capturing audio input.
 
 ## Requirements
 
@@ -33,7 +33,7 @@ This sample demonstrates the following features.
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
 | Visual Studio 2008                                             |           |
 
 

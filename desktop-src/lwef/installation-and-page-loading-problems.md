@@ -16,7 +16,7 @@ Because Microsoft Agent writes files to your system directory when it installs, 
 
 ### When I attempt to install Microsoft Agent, I get one of the following errors: Process (Regsvr32 /s windows\\msagent\\AgentCtl.dll). Error while creating this file. Cannot find this file. (Note: The directory location cited in the error message varies depending on how you installed Windows.) A required DLL MSVCRT.DLL was not found. Error creating process <c:\\windows\\msagent\\agentsvr.exe /regserver>. Reason: One of the library files needed to run this application cannot be found. (Note: The directory location cited in the error message varies depending on how you installed Windows.)
 
-Installation of Microsoft Agent requires the proper installation of Regsvr32.exe, Msvcrt.dll (the Microsoft C run-time library), and up-to-date OLE dlls. See DCOM update: (<http://www.microsoft.com/com>). The best way to ensure that all the correct system files are present is to install [Microsoft Internet Explorer 4.0](http://www.microsoft.com/ie/download) or later.
+Installation of Microsoft Agent requires the proper installation of Regsvr32.exe, Msvcrt.dll (the Microsoft C run-time library), and up-to-date OLE dlls. See DCOM update: (<https://www.microsoft.com/com>). The best way to ensure that all the correct system files are present is to install [Microsoft Internet Explorer 4.0](https://www.microsoft.com/ie/download) or later.
 
 ### When I attempt to load a page scripted for Microsoft Agent, I get a scripting error: "VBScript Runtime Error, Object required."
 
@@ -30,7 +30,7 @@ One of the following conditions may cause the message to display:
 This can occur if one of the following conditions exists:
 
 -   Check your browser's security options. Your browser must be set to enable the loading of ActiveX scripts and playing of ActiveX controls.
--   If you are accessing pages scripted with Microsoft Agent and using Microsoft Internet Explorer, you must have version 3.02 or later (download the latest version of Internet Explorer at [http://www.microsoft.com/windows/ie/](http://go.microsoft.com/fwlink/p/?linkid=198364)<http://www.microsoft.com/windows/ie/>). In Microsoft Internet Explorer, open the View menu, choose Options, click the Security tab, and select all the Active Content check boxes.
+-   If you are accessing pages scripted with Microsoft Agent and using Microsoft Internet Explorer, you must have version 3.02 or later (download the latest version of Internet Explorer at [https://www.microsoft.com/windows/ie/](https://go.microsoft.com/fwlink/p/?linkid=198364)<https://www.microsoft.com/windows/ie/>). In Microsoft Internet Explorer, open the View menu, choose Options, click the Security tab, and select all the Active Content check boxes.
 -   A Java applet on the page can also cause this error. To run Microsoft Agent on the same page as a Java applet requires version 2.0 of the Microsoft Virtual Machine (VM). For more information, see the [Programming/Scripting FAQ](programming-scripting-faq.md).
 
 ### When I attempt to load a page scripted for Microsoft Agent, I get the message, "Unable to initialize Microsoft Agent."
@@ -43,7 +43,7 @@ This may appear if you attempt to install Microsoft Agent on Microsoft Internet 
 
 ### When I attempt to load a page scripted for Microsoft Agent using Netscape Navigator (or other Internet browsers), I get errors.
 
-Microsoft Agent is implemented using ActiveX interfaces. You can use it only with a browser (such as Microsoft Internet Explorer) that supports embedding ActiveX objects through script on a page, and only on systems running Microsoft Windows 95, Windows 98, and Windows NT 4.0 (or later). If you are not using Microsoft Internet Explorer ([http://www.microsoft.com/windows/ie/](http://go.microsoft.com/fwlink/p/?linkid=198364)), check with your browser vendor for further information on ActiveX support.
+Microsoft Agent is implemented using ActiveX interfaces. You can use it only with a browser (such as Microsoft Internet Explorer) that supports embedding ActiveX objects through script on a page, and only on systems running Microsoft Windows 95, Windows 98, and Windows NT 4.0 (or later). If you are not using Microsoft Internet Explorer ([https://www.microsoft.com/windows/ie/](https://go.microsoft.com/fwlink/p/?linkid=198364)), check with your browser vendor for further information on ActiveX support.
 
  
 

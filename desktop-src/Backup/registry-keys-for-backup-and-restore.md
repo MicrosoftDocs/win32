@@ -129,7 +129,7 @@ If you set this registry value:
 
 ## KeysNotToRestore
 
-The **KeysNotToRestore** registry key specifies the names of the registry subkeys and values that backup applications should not restore. For more information, see [KeysNotToRestore](http://go.microsoft.com/fwlink/p/?linkid=102089). It is not necessary to honor the **KeysNotToRestore** registry key.
+The **KeysNotToRestore** registry key specifies the names of the registry subkeys and values that backup applications should not restore. For more information, see [KeysNotToRestore](https://go.microsoft.com/fwlink/p/?linkid=102089). It is not necessary to honor the **KeysNotToRestore** registry key.
 
 **Windows Server 2003 and Windows XP:** You must honor the **KeysNotToRestore** registry key.
 
@@ -178,7 +178,7 @@ Create a value with the name **MaxShadowCopies** and type DWORD. The default dat
 
 **Note**  The **MaxShadowCopies** setting is supported on Windows Server 2003 or later.
 
-**Windows Server 2003:** On cluster servers, **MaxShadowCopies** registry value's data may need to be set to a lower number. For more information, see "When you use the Volume Shadow Copy Service on Windows Server 2003-based computers that run many I/O operations, disk volumes take longer to go online" in the Help and Support Knowledge Base at [http://support.microsoft.com/kb/945058](http://go.microsoft.com/fwlink/p/?linkid=168305).
+**Windows Server 2003:** On cluster servers, **MaxShadowCopies** registry value's data may need to be set to a lower number. For more information, see "When you use the Volume Shadow Copy Service on Windows Server 2003-based computers that run many I/O operations, disk volumes take longer to go online" in the Help and Support Knowledge Base at [https://support.microsoft.com/kb/945058](https://go.microsoft.com/fwlink/p/?linkid=168305).
 
 **Windows XP:** This registry value is not supported.
 
@@ -200,7 +200,7 @@ If the **MinDiffAreaFileSize** registry value does not exist, the backup applica
 
 Create a value with the name **MinDiffAreaFileSize** and type REG\_DWORD. The data for this key is specified in megabytes. 320 is equal to 320 MB, and 3200 is equal to 3.2 GB. You should specify a number that is a multiple of 32. If you specify a value that is not a multiple of 32, the next multiple of 32 will be used.
 
-Shadow copies might not function correctly if the **MinDiffAreaFileSize** registry value specifies a minimum size that is larger than the maximum size of the shadow copy storage area. To specify the maximum size of the shadow copy storage area, use the [Vssadmin](http://go.microsoft.com/fwlink/p/?linkid=103401) add shadowstorage or the Vssadmin resize shadowstorage command. To see the current maximum size, use the [Vssadmin list shadowstorage](Http://go.microsoft.com/fwlink/p/?linkid=103401) command. If you have not set a maximum size, there is no limit to the amount of space that can be used.
+Shadow copies might not function correctly if the **MinDiffAreaFileSize** registry value specifies a minimum size that is larger than the maximum size of the shadow copy storage area. To specify the maximum size of the shadow copy storage area, use the [Vssadmin](https://go.microsoft.com/fwlink/p/?linkid=103401) add shadowstorage or the Vssadmin resize shadowstorage command. To see the current maximum size, use the [Vssadmin list shadowstorage](https://go.microsoft.com/fwlink/p/?linkid=103401) command. If you have not set a maximum size, there is no limit to the amount of space that can be used.
 
 ## OverallPerformanceSetting and CustomPerformanceSettings
 
@@ -216,9 +216,9 @@ To specify performances settings for all volumes, create a value with the name *
 
 | Value | Meaning                                                                                                                                                                                                                                   |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | Normal backup performance (by using full backups). This setting corresponds to the Normal backup performance setting described in [Optimizing Backup and Server Performance](http://go.microsoft.com/fwlink/p/?linkid=182642).            |
-| 2     | Faster backup performance (by using incremental backups). This setting corresponds to the Faster backup performance setting described in [Optimizing Backup and Server Performance](http://go.microsoft.com/fwlink/p/?linkid=182642).     |
-| 3     | Custom backup performance (by specifying a performance setting for each volume). This setting corresponds to the Custom setting described in [Optimizing Backup and Server Performance](http://go.microsoft.com/fwlink/p/?linkid=182642). |
+| 1     | Normal backup performance (by using full backups). This setting corresponds to the Normal backup performance setting described in [Optimizing Backup and Server Performance](https://go.microsoft.com/fwlink/p/?linkid=182642).            |
+| 2     | Faster backup performance (by using incremental backups). This setting corresponds to the Faster backup performance setting described in [Optimizing Backup and Server Performance](https://go.microsoft.com/fwlink/p/?linkid=182642).     |
+| 3     | Custom backup performance (by specifying a performance setting for each volume). This setting corresponds to the Custom setting described in [Optimizing Backup and Server Performance](https://go.microsoft.com/fwlink/p/?linkid=182642). |
 
 
 

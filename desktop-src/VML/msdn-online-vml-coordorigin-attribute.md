@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # VML CoordOrigin Attribute
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -59,7 +59,7 @@ The center of the bounding box will be the origin (0,0) of the path for the shap
 
 
 
-[CoordOrigin Attribute Example](http://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_coorig.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[CoordOrigin Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_coorig.md). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

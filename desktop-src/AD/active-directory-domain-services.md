@@ -22,7 +22,7 @@ This guide provides an overview of Active Directory Domain Services and sample c
 Windows 2000 Server and later operating systems provide a user interface for users and administrators to work with the objects and data in Active Directory Domain Services. This guide describes how to extend and customize that user interface. It also describes how to extend Active Directory Domain Services by defining new object classes and attributes.
 
 > [!Note]  
-> The following documentation is for computer programmers. If you are an end-user trying to debug a printing error or home network issue, see the [Microsoft community forums](http://answers.microsoft.coms).
+> The following documentation is for computer programmers. If you are an end-user trying to debug a printing error or home network issue, see the [Microsoft community forums](https://answers.microsoft.coms).
 
  
 

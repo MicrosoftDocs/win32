@@ -577,7 +577,7 @@ Access type: Read-only
 The property is used to categorize and classify instances of this class. If the **ProtocolIFType** is set to 1 (Other), then the type information should be provided in the **OtherTypeDescription** property. This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264).
 
 > [!Note]  
-> **ProtocolIFType** is an enumeration that is synchronized with the [IANA ifType MIB](http://www.iana.org/assignments/ianaiftype-mib). Additional values defined by the DMTF are also included.
+> **ProtocolIFType** is an enumeration that is synchronized with the [IANA ifType MIB](https://www.iana.org/assignments/ianaiftype-mib). Additional values defined by the DMTF are also included.
 
  
 

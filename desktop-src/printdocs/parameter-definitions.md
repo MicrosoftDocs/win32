@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Parameter Definitions
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 This section outlines the public parameter definitions which may appear in either a PrintCapabilities document.
 
@@ -32,7 +32,7 @@ A user configurable element keyword may contain a reference to a Parameter. Para
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

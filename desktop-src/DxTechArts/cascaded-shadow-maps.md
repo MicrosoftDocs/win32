@@ -346,7 +346,7 @@ PCF kernels index outside of a cascade partition if the shadow buffer is not pad
 
 ## Variance Shadow Maps
 
-VSMs (see [Variance shadow maps](http://portal.acm.org/citation.cfm?doid=1111411.1111440) by Donnelly and Lauritzen for more information) enable direct shadow map filtering. When using VSMs, all of the power of the texture-filtering hardware can be used. Trilinear and anisotropic (Figure 15) filtering can be used. Additionally, VSMs can be blurred directly through convolution. VSMs do have some drawbacks; two channels of depth data must be stored (depth and depth squared). When shadows overlap, light-bleeding is common. They work well, however, with lower resolutions and can be combined with CSMs.
+VSMs (see [Variance shadow maps](https://portal.acm.org/citation.cfm?doid=1111411.1111440) by Donnelly and Lauritzen for more information) enable direct shadow map filtering. When using VSMs, all of the power of the texture-filtering hardware can be used. Trilinear and anisotropic (Figure 15) filtering can be used. Additionally, VSMs can be blurred directly through convolution. VSMs do have some drawbacks; two channels of depth data must be stored (depth and depth squared). When shadows overlap, light-bleeding is common. They work well, however, with lower resolutions and can be combined with CSMs.
 
 **Figure 15. Anisotropic filtering**
 
@@ -420,7 +420,7 @@ An alternative to raising the percent lit to a power is to avoid configurations 
 
 Layered variance shadow maps (LVSMs) solve the problem at the expense of breaking the frustum into layers that are perpendicular to the light. The number of maps required would be quite large when CSMs are also being used.
 
-Additionally, Andrew Lauritzen, co-author of the paper on VSMs, and author of a paper on LVSMs, discussed combining exponential shadow maps (ESMs) with VSMs to counteract light blending in a [Beyond3D Forum](http://forum.beyond3d.com/showthread.php?t=47427).
+Additionally, Andrew Lauritzen, co-author of the paper on VSMs, and author of a paper on LVSMs, discussed combining exponential shadow maps (ESMs) with VSMs to counteract light blending in a [Beyond3D Forum](https://forum.beyond3d.com/showthread.php?t=47427).
 
 ## VSMs with CSMs
 
@@ -461,9 +461,9 @@ CSMs offer a solution to the perspective aliasing problem. There are several pos
 
 ## References
 
-Donnelly, W. and Lauritzen, A. [Variance shadow maps](http://portal.acm.org/citation.cfm?doid=1111411.1111440). In SI3D '06: Proceedings of the 2006 symposium on Interactive 3D graphics and games. 2006. pp. 161–165. New York, NY, USA: ACM Press.
+Donnelly, W. and Lauritzen, A. [Variance shadow maps](https://portal.acm.org/citation.cfm?doid=1111411.1111440). In SI3D '06: Proceedings of the 2006 symposium on Interactive 3D graphics and games. 2006. pp. 161–165. New York, NY, USA: ACM Press.
 
-Lauritzen, Andrew and McCool, Michael. [Layered variance shadow maps](http://portal.acm.org/citation.cfm?id=1375714.1375739&coll=GUIDE&dl=GUIDE&CFID=45360327&CFTOKEN=34578992). Proceedings of graphics interface 2008, May 28–30, 2008, Windsor, Ontario, Canada.
+Lauritzen, Andrew and McCool, Michael. [Layered variance shadow maps](https://portal.acm.org/citation.cfm?id=1375714.1375739&coll=GUIDE&dl=GUIDE&CFID=45360327&CFTOKEN=34578992). Proceedings of graphics interface 2008, May 28–30, 2008, Windsor, Ontario, Canada.
 
 Engel, Woflgang F. Section 4. Cascaded Shadow Maps. ShaderX5 , Advanced Rendering Techniques, Wolfgang F. Engel, Ed. Charles River Media, Boston, Massachusetts. 2006. pp. 197–206.
 

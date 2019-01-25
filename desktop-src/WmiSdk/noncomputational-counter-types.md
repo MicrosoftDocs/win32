@@ -19,11 +19,11 @@ Counter types are designated by the constant defined in Winperf.h located in the
 
 | CounterType                                                                                                 | Description                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [PERF\_COUNTER\_TEXT](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 2816<br/>                | This counter type shows a variable-length text string in Unicode. It does not display calculated values.               |
-| [PERF\_COUNTER\_RAWCOUNT](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 65536<br/>           | Raw counter value that does not require calculations, and represents one sample which is the last observed value only. |
-| [PERF\_COUNTER\_LARGE\_RAWCOUNT](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 65792<br/>    | Same as **PERF\_COUNTER\_RAWCOUNT**, but a 64-bit representation for larger values.                                    |
-| [PERF\_COUNTER\_RAWCOUNT\_HEX](http://go.microsoft.com/fwlink/p/?linkid=44341)0<br/>                  | Most recently observed value in hexadecimal format. It does not display an average.                                    |
-| [PERF\_COUNTER\_LARGE\_RAWCOUNT\_HEX](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 256<br/> | Same as **PERF\_COUNTER\_RAWCOUNT\_HEX**, but a 64-bit representation in hexadecimal for use with large values.        |
+| [PERF\_COUNTER\_TEXT](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 2816<br/>                | This counter type shows a variable-length text string in Unicode. It does not display calculated values.               |
+| [PERF\_COUNTER\_RAWCOUNT](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 65536<br/>           | Raw counter value that does not require calculations, and represents one sample which is the last observed value only. |
+| [PERF\_COUNTER\_LARGE\_RAWCOUNT](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 65792<br/>    | Same as **PERF\_COUNTER\_RAWCOUNT**, but a 64-bit representation for larger values.                                    |
+| [PERF\_COUNTER\_RAWCOUNT\_HEX](https://go.microsoft.com/fwlink/p/?linkid=44341)0<br/>                  | Most recently observed value in hexadecimal format. It does not display an average.                                    |
+| [PERF\_COUNTER\_LARGE\_RAWCOUNT\_HEX](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 256<br/> | Same as **PERF\_COUNTER\_RAWCOUNT\_HEX**, but a 64-bit representation in hexadecimal for use with large values.        |
 
 
 

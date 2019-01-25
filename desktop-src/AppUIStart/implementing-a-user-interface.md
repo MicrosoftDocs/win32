@@ -28,7 +28,7 @@ Try to limit this step to two or three prototypes at most. Prototypes do not hav
 
 Demonstrate the prototypes and track user feedback to help identify the general usability trends. If it is possible, discard the least successful prototypes and incorporate as much useful feedback as possible into one or more of the remaining prototypes. Repeat this process as time and resources allow.
 
-There are various prototyping tools available including [SketchFlow](http://go.microsoft.com/fwlink/p/?linkid=191570) in Microsoft Expression Studio 3, the layout editor in Microsoft Visual Studio, and even Microsoft Paint.
+There are various prototyping tools available including [SketchFlow](https://go.microsoft.com/fwlink/p/?linkid=191570) in Microsoft Expression Studio 3, the layout editor in Microsoft Visual Studio, and even Microsoft Paint.
 
 ## Construct
 
@@ -48,7 +48,7 @@ When you implement the user interface for an application, consider the following
 
 -   Support for standard user input devices
 
-    Most Windows applications need to support user input through the keyboard and mouse. The ability to navigate and access all application functionality through the keyboard alone is especially important for users who are vision-impaired or have mobility issues. For more information, see [User Input](https://msdn.microsoft.com/library/windows/desktop/ms632585) and the [Engineering Software for Accessibility eBook](http://go.microsoft.com/fwlink/p/?linkid=191556).
+    Most Windows applications need to support user input through the keyboard and mouse. The ability to navigate and access all application functionality through the keyboard alone is especially important for users who are vision-impaired or have mobility issues. For more information, see [User Input](https://msdn.microsoft.com/library/windows/desktop/ms632585) and the [Engineering Software for Accessibility eBook](https://go.microsoft.com/fwlink/p/?linkid=191556).
 
 -   Visual styles, animations, and visual effects
 
@@ -84,7 +84,7 @@ Identify the most common and essential activities that users will perform with t
 
 -   It's Rude to Interrupt
 
-    When an application displays a dialog box, it forces the user to stop whatever it is that they are doing and pay attention to something else. If it is possible, remove the need for a dialog box completely by avoiding error cases and other disruptive user experiences. For more information about message guidelines, see [Messages](http://go.microsoft.com/fwlink/p/?linkid=192617).
+    When an application displays a dialog box, it forces the user to stop whatever it is that they are doing and pay attention to something else. If it is possible, remove the need for a dialog box completely by avoiding error cases and other disruptive user experiences. For more information about message guidelines, see [Messages](https://go.microsoft.com/fwlink/p/?linkid=192617).
 
 -   Simple Can Be Powerful
 

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 This section describes how to use Windows Sockets functions and structures to program a Bluetooth application. Complete reference information for the Windows Sockets API elements can be found in [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673); this section provides only Bluetooth-specific information for each Windows Sockets programming element.
 
-You can also download the [Bluetooth connection sample](http://go.microsoft.com/fwlink/p/?LinkID=331652) for a complete example.
+You can also download the [Bluetooth connection sample](https://go.microsoft.com/fwlink/p/?LinkID=331652) for a complete example.
 
 As with all Windows Sockets application programming, the [**WSAStartup**](https://msdn.microsoft.com/library/windows/desktop/ms742213) function must be called to initiate Windows Sockets functionality and enable Bluetooth.
 

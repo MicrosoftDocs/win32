@@ -57,7 +57,7 @@ For instance, the following example code shows the **Navigate** element in a Ser
 
 ```C++
 <Navigate
-        BaseURL = "http://www.proseware.com/service/html/navigate.asp">
+        BaseURL = "https://www.proseware.com/service/html/navigate.asp">
 ```
 
 
@@ -66,7 +66,7 @@ The resulting URL, complete with query string, is shown in the following example
 
 
 ```C++
-http://www.proseware.com/service/html/navigate.asp?From=Music&To=2
+https://www.proseware.com/service/html/navigate.asp?From=Music&To=2
 
 ```
 
@@ -105,7 +105,7 @@ The preceding code simply creates a URL and redirects the browser to it. First, 
 
 
 ```C++
-http://www.proseware.com/service/html/Video.asp?locale=409&geoid=f4&version=10.0.0.3600&userlocale=409&From=Music&To=2
+https://www.proseware.com/service/html/Video.asp?locale=409&geoid=f4&version=10.0.0.3600&userlocale=409&From=Music&To=2
 
 ```
 

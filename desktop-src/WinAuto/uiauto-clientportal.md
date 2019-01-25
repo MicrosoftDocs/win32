@@ -37,7 +37,7 @@ This section contains information about creating applications that use Microsoft
 
 <dl> <dt>
 
-[Registering with Ease of Access](http://msdn.microsoft.com/library/windows/desktop/bb879984.aspx)
+[Registering with Ease of Access](https://msdn.microsoft.com/library/windows/desktop/bb879984.aspx)
 </dt> <dt>
 
 [Security Considerations for Assistive Technologies](uiauto-securityoverview.md)

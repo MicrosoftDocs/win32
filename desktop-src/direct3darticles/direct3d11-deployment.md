@@ -27,12 +27,12 @@ This article describes how to deploy the Direct3D 11 components on a system if n
 
 The Direct3D 11 API extends the existing Direct3D 10.1 API with support for multithreaded rendering and resource creation, Compute Shader, hardware tessellation, BC6H/BC7 texture compression, and HLSL Shader Model 5.0 with Dynamic Shader Linkage. In addition to the Direct3D 11 component, a number of additional graphics components are included in the DirectX 11 runtime: Direct3D 11, DXGI 1.1, 10level9 feature levels, WARP10 software rendering device, Direct2D, DirectWrite, and an updated Direct3D 10.1 with support for 10level9 and WARP10. For information on these and other Windows graphics components, see [Graphics APIs in Windows](graphics-apis-in-windows-vista.md).
 
-All of these new graphics components are built into the Windows 7 and Windows Server 2008 R2 operating systems. The Direct3D 11 API and related components can also be installed on Windows Vista by using a system update from Windows Update; see Knowledge Base article [KB 971644](http://go.microsoft.com/fwlink/p/?linkid=160189). This update requires Windows Vista and Service Pack 2. End-users with automatic updates enabled will, therefore, likely already have the Direct3D 11 components installed, as will all Windows 7 users.
+All of these new graphics components are built into the Windows 7 and Windows Server 2008 R2 operating systems. The Direct3D 11 API and related components can also be installed on Windows Vista by using a system update from Windows Update; see Knowledge Base article [KB 971644](https://go.microsoft.com/fwlink/p/?linkid=160189). This update requires Windows Vista and Service Pack 2. End-users with automatic updates enabled will, therefore, likely already have the Direct3D 11 components installed, as will all Windows 7 users.
 
 The D3D11InstallHelper sample is designed to simplify detection of the Direct3D 11 API, automatically install the system update if applicable to an end-user's computer, and to provide appropriate messages to the end-user on manual procedure if a newer Service Pack is required.
 
 > [!Note]  
-> The HLSL compiler (D3DCompile\*.dll) and the D3DX utility library for Direct3D 11 (D3DX11\*.dll) are not built into any version of the Windows operating system, but they can be deployed as part of an application's installer by using the existing DirectSetup technology; for more information about using DirectSetup, see [DirectX Installation for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416805). "Effects 11" is available as a shared source support library at [Effects for Direct3D 11 Update](http://go.microsoft.com/fwlink/p/?LinkId=271568), and you can include it directly into an app (much like the DXUT utility library). Thus, it doesn't have any additional run-time redistribution requirements.
+> The HLSL compiler (D3DCompile\*.dll) and the D3DX utility library for Direct3D 11 (D3DX11\*.dll) are not built into any version of the Windows operating system, but they can be deployed as part of an application's installer by using the existing DirectSetup technology; for more information about using DirectSetup, see [DirectX Installation for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416805). "Effects 11" is available as a shared source support library at [Effects for Direct3D 11 Update](https://go.microsoft.com/fwlink/p/?LinkId=271568), and you can include it directly into an app (much like the DXUT utility library). Thus, it doesn't have any additional run-time redistribution requirements.
 
  
 
@@ -46,11 +46,11 @@ Windows 8.1 and Windows Server 2012 R2 ship with the Direct3D 11.2 API built 
 
 ## Direct3D 11.1
 
-Windows 8 and Windows Server 2012 ship with the [Direct3D 11.1 API](https://msdn.microsoft.com/library/windows/desktop/hh404562) built in. Partial support for the Direct3D 11.1 API is available on Windows 7 or Windows Server 2008 R2 with the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838) installed. For more info about the Platform Update for Windows 7, see [Platform Update for Windows 7](platform-update-for-windows-7.md).
+Windows 8 and Windows Server 2012 ship with the [Direct3D 11.1 API](https://msdn.microsoft.com/library/windows/desktop/hh404562) built in. Partial support for the Direct3D 11.1 API is available on Windows 7 or Windows Server 2008 R2 with the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) installed. For more info about the Platform Update for Windows 7, see [Platform Update for Windows 7](platform-update-for-windows-7.md).
 
 ## D3D11InstallHelper.dll
 
-You can download source and executable for D3D11InstallHelper.dll from the [D3D11InstallHelper sample](http://go.microsoft.com/fwlink/p/?LinkId=262642).
+You can download source and executable for D3D11InstallHelper.dll from the [D3D11InstallHelper sample](https://go.microsoft.com/fwlink/p/?LinkId=262642).
 
 D3D11InstallHelper.dll hosts the core functionality for detecting Direct3D 11 components, and performing the system update through the Windows Update service if applicable. The DLL displays no messages or dialog boxes directly.
 
@@ -87,7 +87,7 @@ For more information on the Windows Update API, see [Windows Update Agent API](h
 
 ## D3D11Install.exe
 
-You can download source and executable for D3D11Install.exe from the [D3D11InstallHelper sample](http://go.microsoft.com/fwlink/p/?LinkId=262642).
+You can download source and executable for D3D11Install.exe from the [D3D11InstallHelper sample](https://go.microsoft.com/fwlink/p/?LinkId=262642).
 
 > [!Note]  
 > D3D11Install.exe requires D3D11InstallHelper.dll to execute.
@@ -288,7 +288,7 @@ There are three basic solutions for deploying DirectX 11 in corporate/enterprise
 
 -   In some configurations, it is possible to directly check Windows Update rather than use the locally managed WSUS server. For this reason, D3D11InstallHelper supports the **/wu** command-line switch. However, not all corporate networks allow connections to the public Microsoft servers.
 -   The local IT administrator can approve KB 971512, an enterprise-supported update deployed from WSUS, that includes the Direct3D 11 API. This is the only option for a Standard User to obtain the Direct3D 11 update in an environment that is fully locked down.
--   Alternatively, [KB 971512](http://support.microsoft.com/kb/971512/) can be manually installed.
+-   Alternatively, [KB 971512](https://support.microsoft.com/kb/971512/) can be manually installed.
 
 It is very rare that a gamer's computer can only get updates from a locally managed WSUS server, and it is only developers in large organizations who are likely to be in such environments.
 

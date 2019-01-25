@@ -68,7 +68,7 @@ WMI is accessed through the following WMI-specific COM interfaces.
 
  
 
-For more information about the following topics for COM programming, see [Component Development]( http://go.microsoft.com/fwlink/p/?linkid=195008):
+For more information about the following topics for COM programming, see [Component Development]( https://go.microsoft.com/fwlink/p/?linkid=195008):
 
 -   Interfaces and object design.
 -   Implementing [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx).

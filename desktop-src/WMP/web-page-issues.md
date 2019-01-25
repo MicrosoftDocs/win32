@@ -72,10 +72,10 @@ You can take steps in your code to delay playback until the Windows Media Player
 
 ```XML
 <ASX version="3.0">
-   <PARAM name="HTMLView" value="http://www.proseware.com/htmlview1.htm"/>
+   <PARAM name="HTMLView" value="https://www.proseware.com/htmlview1.htm"/>
 
 <ENTRY>
-   <REF href="http://www.proseware.com/blank.jpg"/>
+   <REF href="https://www.proseware.com/blank.jpg"/>
    <DURATION  VALUE = "1:00"/>
 </ENTRY>
 

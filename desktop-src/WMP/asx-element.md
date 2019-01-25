@@ -102,7 +102,7 @@ Windows Media Player renders the graphic beginning in the leftmost pixel of the 
 
 ```XML
 <ASX VERSION="3.0" PREVIEWMODE="YES" BANNERBAR="auto"  >
-   <ENTRY HREF="http://sample.microsoft.com/sample1.ASX" />
+   <ENTRY HREF="https://sample.microsoft.com/sample1.ASX" />
 </ASX>
 
 ```

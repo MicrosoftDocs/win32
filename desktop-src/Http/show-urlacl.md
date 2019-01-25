@@ -36,9 +36,9 @@ Specifies the fully qualified URL. If unspecified, implies all URLs.
 
 ## Examples
 
-**show urlacl url=http://+:80/MyUrl**
+**show urlacl url=https://+:80/MyUrl**
 
-**show urlacl url=http://www.contoso.com:80/MyUrl**
+**show urlacl url=https://www.contoso.com:80/MyUrl**
 
  
 

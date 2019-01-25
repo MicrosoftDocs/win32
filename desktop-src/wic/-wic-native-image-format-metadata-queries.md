@@ -81,7 +81,7 @@ if (SUCCEEDED(hr))
 The Graphics Interchange Format (GIF) image format supports both global and frame level metadata. The following two sections provide the metadata query paths available for GIF's global and frame level metadata.
 
 > [!Note]  
-> For a full list of GIF metadata along with more detailed information, see the [GIF standard](http://www.w3.org/Graphics/GIF/spec-gif89a.txt) on the W3C website.
+> For a full list of GIF metadata along with more detailed information, see the [GIF standard](https://www.w3.org/Graphics/GIF/spec-gif89a.txt) on the W3C website.
 
  
 
@@ -145,7 +145,7 @@ The following table provides the available metadata query paths that can be used
 The Portable Network Graphics (PNG) image format supports frame level metadata.
 
 > [!Note]  
-> For a full list of PNG metadata along with more detailed information, see the [PNG standard](http://www.w3.org/TR/PNG/) on the W3C website.
+> For a full list of PNG metadata along with more detailed information, see the [PNG standard](https://www.w3.org/TR/PNG/) on the W3C website.
 
  
 
@@ -202,7 +202,7 @@ The following table provides the available metadata query paths that can be used
 The Tagged Image File Format (TIFF) image format supports frame level metadata.
 
 > [!Note]  
-> For a full list of TIFF metadata along with more detailed information, see [the TIFF standard](http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf).
+> For a full list of TIFF metadata along with more detailed information, see [the TIFF standard](https://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf).
 
  
 
@@ -235,7 +235,7 @@ The following table provides the available metadata query paths that can be used
 The JPEG image format supports frame level metadata.
 
 > [!Note]  
-> For full list of JPEG metadata along with more detailed information, see the [EXIF JPEG standard](http://www.cipa.jp/english/hyoujunka/kikaku/pdf/DC-008-2010_E.pdf).
+> For full list of JPEG metadata along with more detailed information, see the [EXIF JPEG standard](https://www.cipa.jp/english/hyoujunka/kikaku/pdf/DC-008-2010_E.pdf).
 
  
 
@@ -491,7 +491,7 @@ The following table provides relative metadata query paths to access some common
 
 XMP is an XML-based, extensible metadata standard. Metadata items can be hierarchical and contain complex data structures. JPEG, TIFF, and JPEG-XR support XMP metadata. Third party formats, like some camera raw formats, may also support XMP metadata.
 
-The XMP standard can be obtained from: <http://www.adobe.com/devnet/xmp.html>.
+The XMP standard can be obtained from: <https://www.adobe.com/devnet/xmp.html>.
 
 XMP and allows third party entities to publish their own schemas, or namespaces, which allow them to define new metadata items without having to modify the XMP standard. An XMP schema is uniquely identified by a URL, but [WIC](-wic-api.md) provides a set of friendly identifiers for well-known schemas.
 
@@ -499,9 +499,9 @@ XMP metadata items are identified by a string name as well as a schema identifie
 
 For example, to obtain the Rating property as defined by the XMP schema in a JPEG image, use the following query:
 
--   /xmp/{wstr=http://ns.adobe.com/xap/1.0/}:Rating
+-   /xmp/{wstr=https://ns.adobe.com/xap/1.0/}:Rating
 
-The first part, "/xmp", retrieves the XMP metadata reader/writer for the image. "http://ns.adobe.com/xap/1.0/" is the URL of the XMP schema, as defined in the XMP standard. The URL is enclosed in a data expression to allow the use of characters such as a forward slash (/). Finally, "Rating" is the actual metadata item name as defined by the XMP schema and it is separated from the schema identifier by a colon (:).
+The first part, "/xmp", retrieves the XMP metadata reader/writer for the image. "https://ns.adobe.com/xap/1.0/" is the URL of the XMP schema, as defined in the XMP standard. The URL is enclosed in a data expression to allow the use of characters such as a forward slash (/). Finally, "Rating" is the actual metadata item name as defined by the XMP schema and it is separated from the schema identifier by a colon (:).
 
 In this example, WIC provides a friendly identifier for the XMP schema which can be used in place of the full URL. So, the previous query can be rewritten as:
 
@@ -513,32 +513,32 @@ In this example, WIC provides a friendly identifier for the XMP schema which can
 
 | Schema Prefix  | Schema URL                                        | Link to Standard                                         |
 |----------------|---------------------------------------------------|----------------------------------------------------------|
-| rdf            | http://www.w3.org/1999/02/22-rdf-syntax-ns\#      | <http://www.w3.org/TR/REC-rdf-syntax/>                   |
-| dc             | http://purl.org/dc/elements/1.1/                  | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmp            | http://ns.adobe.com/xap/1.0/                      | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmpidq         | http://ns.adobe.com/xmp/Identifier/qual/1.0/      | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmpRights      | http://ns.adobe.com/xap/1.0/rights/               | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmpMM          | http://ns.adobe.com/xap/1.0/mm/                   | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmpBJ          | http://ns.adobe.com/xap/1.0/bj/                   | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmpTPg         | http://ns.adobe.com/xap/1.0/t/pg/                 | <http://www.adobe.com/devnet/xmp.html>                   |
-| pdf            | http://ns.adobe.com/pdf/1.3/                      | <http://www.adobe.com/devnet/xmp.html>                   |
-| photoshop      | http://ns.adobe.com/photoshop/1.0/                | <http://www.adobe.com/devnet/xmp.html>                   |
-| tiff           | http://ns.adobe.com/tiff/1.0/                     | <http://www.adobe.com/devnet/xmp.html>                   |
-| exif           | http://ns.adobe.com/exif/1.0/                     | <http://www.adobe.com/devnet/xmp.html>                   |
-| stDim          | http://ns.adobe.com/xap/1.0/sType/Dimensions\#    | <http://www.adobe.com/devnet/xmp.html>                   |
-| xapGImg        | http://ns.adobe.com/xap/1.0/g/img/                | <http://www.adobe.com/devnet/xmp.html>                   |
-| stEvt          | http://ns.adobe.com/xap/1.0/sType/ResourceEvent\# | <http://www.adobe.com/devnet/xmp.html>                   |
-| stRef          | http://ns.adobe.com/xap/1.0/sType/ResourceRef\#   | <http://www.adobe.com/devnet/xmp.html>                   |
-| stVer          | http://ns.adobe.com/xap/1.0/sType/Version\#       | <http://www.adobe.com/devnet/xmp.html>                   |
-| stJob          | http://ns.adobe.com/xap/1.0/sType/Job\#           | <http://www.adobe.com/devnet/xmp.html>                   |
-| aux            | http://ns.adobe.com/exif/1.0/aux/                 | <http://www.adobe.com/devnet/xmp.html>                   |
-| crs            | http://ns.adobe.com/camera-raw-settings/1.0/      | <http://www.adobe.com/devnet/xmp.html>                   |
-| xmpDM          | http://ns.adobe.com/xmp/1.0/DynamicMedia/         | <http://www.adobe.com/devnet/xmp.html>                   |
-| Iptc4xmpCore   | http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/       | <http://www.iptc.org/cms/site/index.html?channel=CH0099> |
-| MicrosoftPhoto | http://ns.microsoft.com/photo/1.0/                | [People Tagging Overview](-wic-people-tagging.md)       |
-| MP             | http://ns.microsoft.com/photo/1.2/                | [People Tagging Overview](-wic-people-tagging.md)       |
-| MPRI           | http://ns.microsoft.com/photo/1.2/t/RegionInfo\#  | [People Tagging Overview](-wic-people-tagging.md)       |
-| MPReg          | http://ns.microsoft.com/photo/1.2/t/Region\#      | [People Tagging Overview](-wic-people-tagging.md)       |
+| rdf            | https://www.w3.org/1999/02/22-rdf-syntax-ns\#      | <https://www.w3.org/TR/REC-rdf-syntax/>                   |
+| dc             | https://purl.org/dc/elements/1.1/                  | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmp            | https://ns.adobe.com/xap/1.0/                      | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpidq         | https://ns.adobe.com/xmp/Identifier/qual/1.0/      | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpRights      | https://ns.adobe.com/xap/1.0/rights/               | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpMM          | https://ns.adobe.com/xap/1.0/mm/                   | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpBJ          | https://ns.adobe.com/xap/1.0/bj/                   | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpTPg         | https://ns.adobe.com/xap/1.0/t/pg/                 | <https://www.adobe.com/devnet/xmp.html>                   |
+| pdf            | https://ns.adobe.com/pdf/1.3/                      | <https://www.adobe.com/devnet/xmp.html>                   |
+| photoshop      | https://ns.adobe.com/photoshop/1.0/                | <https://www.adobe.com/devnet/xmp.html>                   |
+| tiff           | https://ns.adobe.com/tiff/1.0/                     | <https://www.adobe.com/devnet/xmp.html>                   |
+| exif           | https://ns.adobe.com/exif/1.0/                     | <https://www.adobe.com/devnet/xmp.html>                   |
+| stDim          | https://ns.adobe.com/xap/1.0/sType/Dimensions\#    | <https://www.adobe.com/devnet/xmp.html>                   |
+| xapGImg        | https://ns.adobe.com/xap/1.0/g/img/                | <https://www.adobe.com/devnet/xmp.html>                   |
+| stEvt          | https://ns.adobe.com/xap/1.0/sType/ResourceEvent\# | <https://www.adobe.com/devnet/xmp.html>                   |
+| stRef          | https://ns.adobe.com/xap/1.0/sType/ResourceRef\#   | <https://www.adobe.com/devnet/xmp.html>                   |
+| stVer          | https://ns.adobe.com/xap/1.0/sType/Version\#       | <https://www.adobe.com/devnet/xmp.html>                   |
+| stJob          | https://ns.adobe.com/xap/1.0/sType/Job\#           | <https://www.adobe.com/devnet/xmp.html>                   |
+| aux            | https://ns.adobe.com/exif/1.0/aux/                 | <https://www.adobe.com/devnet/xmp.html>                   |
+| crs            | https://ns.adobe.com/camera-raw-settings/1.0/      | <https://www.adobe.com/devnet/xmp.html>                   |
+| xmpDM          | https://ns.adobe.com/xmp/1.0/DynamicMedia/         | <https://www.adobe.com/devnet/xmp.html>                   |
+| Iptc4xmpCore   | https://iptc.org/std/Iptc4xmpCore/1.0/xmlns/       | <https://www.iptc.org/cms/site/index.html?channel=CH0099> |
+| MicrosoftPhoto | https://ns.microsoft.com/photo/1.0/                | [People Tagging Overview](-wic-people-tagging.md)       |
+| MP             | https://ns.microsoft.com/photo/1.2/                | [People Tagging Overview](-wic-people-tagging.md)       |
+| MPRI           | https://ns.microsoft.com/photo/1.2/t/RegionInfo\#  | [People Tagging Overview](-wic-people-tagging.md)       |
+| MPReg          | https://ns.microsoft.com/photo/1.2/t/Region\#      | [People Tagging Overview](-wic-people-tagging.md)       |
 
 
 

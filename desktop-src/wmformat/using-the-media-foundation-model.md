@@ -43,7 +43,7 @@ Several of the asynchronous methods generate events that contain references to o
 [**Getting Started**](drm-getting-started.md)
 </dt> <dt>
 
-[Media Foundation SDK Documentation](http://go.microsoft.com/?linkid=5215226)
+[Media Foundation SDK Documentation](https://go.microsoft.com/?linkid=5215226)
 </dt> </dl>
 
  

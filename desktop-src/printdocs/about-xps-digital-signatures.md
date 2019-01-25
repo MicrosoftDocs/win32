@@ -31,10 +31,10 @@ For examples of how to access the digital signatures of an XPS document, see [Co
 [Packaging](https://msdn.microsoft.com/library/windows/desktop/dd371623)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
 </dt> <dt>
 
-[Standard ECMA-376, Office Open XML File Formats](http://go.microsoft.com/fwlink/p/?linkid=123375)
+[Standard ECMA-376, Office Open XML File Formats](https://go.microsoft.com/fwlink/p/?linkid=123375)
 </dt> </dl>
 
  

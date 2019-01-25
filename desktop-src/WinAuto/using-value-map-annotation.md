@@ -81,7 +81,7 @@ ms.date: 05/31/2018
 
 4.  **Clean up.**
 
-    Before you destroy any value map annotated controls (for example, when handling [WM\_DESTROY](http://go.microsoft.com/fwlink/p/?linkid=178241)), you must clear previously registered properties and release the annotation manager.
+    Before you destroy any value map annotated controls (for example, when handling [WM\_DESTROY](https://go.microsoft.com/fwlink/p/?linkid=178241)), you must clear previously registered properties and release the annotation manager.
 
     To do this, call [**IAccPropServices::ClearHwndProps**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-clearhwndprops) as appropriate and release your pointer to [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices).
 

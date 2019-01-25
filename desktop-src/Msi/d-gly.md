@@ -30,7 +30,7 @@ Required for working with a database. For more information, see [Obtaining a Dat
 <span id="setup.delta_patch_gly"></span><span id="SETUP.DELTA_PATCH_GLY"></span>**delta patch**
 </dt> <dd>
 
-A delta patch is a delta-compressed Windows Installer patch created using a tool, such as Patchwiz.dll, that supports delta compression. Patches that use delta compression can reduce the size of an update by providing only the differences (deltas) between existing files on a target computer and the desired new files. The desired new files are then synthesized from the existing files and the downloaded deltas. For more information about delta compression technology, see the [Delta Compression Application Programming Interface](Http://go.microsoft.com/fwlink/p/?linkid=83882).
+A delta patch is a delta-compressed Windows Installer patch created using a tool, such as Patchwiz.dll, that supports delta compression. Patches that use delta compression can reduce the size of an update by providing only the differences (deltas) between existing files on a target computer and the desired new files. The desired new files are then synthesized from the existing files and the downloaded deltas. For more information about delta compression technology, see the [Delta Compression Application Programming Interface](https://go.microsoft.com/fwlink/p/?linkid=83882).
 
 </dd> </dl>
 

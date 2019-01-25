@@ -23,13 +23,13 @@ Users can install Windows Media Player as a Web download while connected to the 
 
 To redistribute Windows Media Player in this manner, use the following URL:
 
-http://go.microsoft.com/fwlink/p/?linkid=32981&SV=*version*&UserLocale=*localID*&Service=*key*
+https://go.microsoft.com/fwlink/p/?linkid=32981&SV=*version*&UserLocale=*localID*&Service=*key*
 
 In the preceding URL, set *key* to the key name for your online store, and set *localeID* to the identifier of the locale where your store provides service. Set *version* to 2 for Windows Media Player 11 on Windows XP or 1 for Windows Media Player 10. The URL installs Windows Media Player and sets the initial active store to the one specified by *key*.
 
 The following example shows a URL that installs Windows Media Player 11 and sets Proseware as the initial active store. The value of 409 for *localeID* indicates that Proseware provides service in the United States.
 
-http://go.microsoft.com/fwlink/p/?linkid=32981&SV=2&UserLocale=409&Service=Proseware
+https://go.microsoft.com/fwlink/p/?linkid=32981&SV=2&UserLocale=409&Service=Proseware
 
 If the ServiceInfo document for the online store includes an Install element, Windows Media Player setup will customize the setup process. Using the attribute values, setup displays your End User License Agreement (EULA) and your privacy statement, and also retrieves and installs your .cab file to the user's computer. For example, you can use this feature to install the latest version of a COM object that your online store requires.
 

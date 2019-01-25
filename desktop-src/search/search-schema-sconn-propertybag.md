@@ -56,7 +56,7 @@ The required <propertyBag> element specifies a set of one or more properties use
 <locationProvider clsid="{48E277F6-4E74-4cd6-BA6F-FA4F42898223}">
     <propertyBag>
         <property name="OpenSearchShortName">MSDN</property>
-        <property name="OpenSearchQueryTemplate">http://social.msdn.microsoft.com/Search/Feed.aspx?locale=en-US&Query={searchTerms}&format=RSS&StartIndex={startIndex}</property>
+        <property name="OpenSearchQueryTemplate">https://social.msdn.microsoft.com/Search/Feed.aspx?locale=en-US&Query={searchTerms}&format=RSS&StartIndex={startIndex}</property>
         <property name="MaximumResultCount" type="uint32">100</property>
     </propertyBag>
 </locationProvider>

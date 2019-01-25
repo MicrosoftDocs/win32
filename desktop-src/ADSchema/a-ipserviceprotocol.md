@@ -129,7 +129,7 @@ Contains the section of the services map that stores the protocol number for a U
 
 <dl> <dt>
 
-[RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
+[RFC 2307](https://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
  

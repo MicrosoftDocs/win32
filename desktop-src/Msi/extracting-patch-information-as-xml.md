@@ -103,11 +103,11 @@ Copy the following text into Notepad or another text editor to create the schema
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema id="Applicability" 
-    targetNamespace="http://www.microsoft.com/msi/patch_applicability.xsd" 
+    targetNamespace="https://www.microsoft.com/msi/patch_applicability.xsd" 
     elementFormDefault="qualified" 
-    xmlns="http://www.microsoft.com/msi/patch_applicability.xsd" 
-    xmlns:mstns="http://www.microsoft.com/msi/patch_applicability.xsd" 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    xmlns="https://www.microsoft.com/msi/patch_applicability.xsd" 
+    xmlns:mstns="https://www.microsoft.com/msi/patch_applicability.xsd" 
+    xmlns:xs="https://www.w3.org/2001/XMLSchema">
     
     <xs:element name="MsiPatch">
         <xs:complexType>

@@ -226,7 +226,7 @@ The Direct3D 10 HLSL compiler brings enhancements to the HLSL language definitio
 The shader model 4.0 specific HLSL language semantics and intrinsic functions for Direct3D 10 can be found at [HLSL](https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx). Major changes in syntax from Direct3D 9 HLSL to take the most notice of are in the area of texture access. The new syntax is the only form supported by the compiler outside of compatibility mode.
 
 > [!Note]  
-> The Direct3D 10 compiler-type APIs ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) and [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) are supplied by the Direct3D 10, 10.1, and 11 runtimes that run in Windows Vista and later. The Direct3D 10 compiler-type APIs have the same functionality as the HLSL compiler that is shipped in the DirectX SDK (December 2006). This HLSL compiler does not support the Direct3D 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1, fx\_4\_1), and is missing a number of optimizations and improvements. You can get an HLSL compiler that supports the Direct3D 10.1 profiles from the latest legacy [DirectX SDK release](http://go.microsoft.com/fwlink/p/?linkid=25276). For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx). You can get the latest HLSL Fxc.exe command-line compiler and [D3DCompiler](https://msdn.microsoft.com/en-us/library/Dd607340(v=VS.85).aspx) APIs from the Windows SDK.
+> The Direct3D 10 compiler-type APIs ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) and [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) are supplied by the Direct3D 10, 10.1, and 11 runtimes that run in Windows Vista and later. The Direct3D 10 compiler-type APIs have the same functionality as the HLSL compiler that is shipped in the DirectX SDK (December 2006). This HLSL compiler does not support the Direct3D 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1, fx\_4\_1), and is missing a number of optimizations and improvements. You can get an HLSL compiler that supports the Direct3D 10.1 profiles from the latest legacy [DirectX SDK release](https://go.microsoft.com/fwlink/p/?linkid=25276). For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx). You can get the latest HLSL Fxc.exe command-line compiler and [D3DCompiler](https://msdn.microsoft.com/en-us/library/Dd607340(v=VS.85).aspx) APIs from the Windows SDK.
 
  
 
@@ -360,7 +360,7 @@ The **D3DXxxCreateXXX** and **D3DXxxSaveXXX** functions that create or save a te
 For details, compare the Direct3D 9 [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx) enumerations with the [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx10-image-file-format.md) enumerations for Direct3D 10.
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8. For texture file processing, we recommend that you use [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926).
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8. For texture file processing, we recommend that you use [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926).
 
  
 
@@ -520,7 +520,7 @@ In Direct3D 9, there was no real hardware support for integer data types, howeve
 
 ### Mouse Cursors
 
-On previous versions of Windows, the standard GDI mouse cursor routines did not operate correctly on all full-screen exclusive devices. The [**SetCursorProperties**](https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx), [**ShowCursor**](https://msdn.microsoft.com/en-us/library/Bb174470(v=VS.85).aspx), and [**SetCursorPosition**](https://msdn.microsoft.com/en-us/library/Bb174429(v=VS.85).aspx) APIs were added to handle these cases. Since Windows Vista's version of GDI fully understands [DXGI](https://msdn.microsoft.com/en-us/library/Bb205075(v=VS.85).aspx) surfaces, there is no need for this specialized mouse cursor API so there is no Direct3D 10 equivalent. Direct3D 10 applications should instead use the standard [GDI mouse cursor routines](http://msdn2.microsoft.com/en-us/library/ms646970.aspx) for mouse cursors.
+On previous versions of Windows, the standard GDI mouse cursor routines did not operate correctly on all full-screen exclusive devices. The [**SetCursorProperties**](https://msdn.microsoft.com/en-us/library/Bb174430(v=VS.85).aspx), [**ShowCursor**](https://msdn.microsoft.com/en-us/library/Bb174470(v=VS.85).aspx), and [**SetCursorPosition**](https://msdn.microsoft.com/en-us/library/Bb174429(v=VS.85).aspx) APIs were added to handle these cases. Since Windows Vista's version of GDI fully understands [DXGI](https://msdn.microsoft.com/en-us/library/Bb205075(v=VS.85).aspx) surfaces, there is no need for this specialized mouse cursor API so there is no Direct3D 10 equivalent. Direct3D 10 applications should instead use the standard [GDI mouse cursor routines](https://msdn2.microsoft.com/en-us/library/ms646970.aspx) for mouse cursors.
 
 ### Mapping Texels to Pixels in Direct3D 10
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 Vsdiagview and Vssagent are tools that you can use to troubleshoot VSS applications.
 
 > [!Note]  
-> These tools are included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and later. You can download the Windows SDK from [http://msdn.microsoft.com/windowsvista](Http://go.microsoft.com/fwlink/p/?linkid=83945).
+> These tools are included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and later. You can download the Windows SDK from [https://msdn.microsoft.com/windowsvista](https://go.microsoft.com/fwlink/p/?linkid=83945).
 
  
 

@@ -66,7 +66,7 @@ AWE does not require PAE or 4GT but is often used together with PAE to allocate 
 [**IsProcessorFeaturePresent**](https://msdn.microsoft.com/en-us/library/ms724482(v=VS.85).aspx)
 </dt> <dt>
 
-[PAE X86 Technical Reference](http://go.microsoft.com/fwlink/p/?linkid=93594)
+[PAE X86 Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=93594)
 </dt> </dl>
 
  

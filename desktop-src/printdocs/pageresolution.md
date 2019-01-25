@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageResolution
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Defines the page resolution of printed output as either a qualitative value or as dots per inch, or both.
 
@@ -64,7 +64,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                                      | Data type          | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                                                                                                          |
 |-------------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_OptionName\_<br/>                 | string<br/>  | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](http://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                                                                                                               |
+| \_OptionName\_<br/>                 | string<br/>  | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                                                                                                               |
 | \_IdentityOptionValue\_<br/>        | string<br/>  | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/>                                                                                     |
 | \_ResolutionXValue\_<br/>           | integer<br/> | DPI<br/>        | Greater than 0.<br/>                                                                                                                                                            | Specifies the x component of the resolution relative to the PageImageableSize in DPI (relative to the PageMediaSize and feed direction of the media).<br/> |
 | \_ResolutionYValue\_<br/>           | integer<br/> | DPI<br/>        | Greater than 0.<br/>                                                                                                                                                            | Specifies the y component of the resolution relative to the PageImageableSize in DPI (relative to the PageMediaSize and feed direction of the media).<br/> |
@@ -76,7 +76,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:PageResolution">
@@ -104,7 +104,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

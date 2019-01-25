@@ -52,7 +52,7 @@ As with [**Character**](https://msdn.microsoft.com/library/windows/desktop/ms696
    
    Sub window_Onload
 
-   Agent.Characters.Load "Genie", "http://agent.microsoft.com/characters/v2/genie/genie.acf"
+   Agent.Characters.Load "Genie", "https://agent.microsoft.com/characters/v2/genie/genie.acf"
 
    Set Genie = Agent.Characters("Genie")
 

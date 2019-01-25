@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # TRAP-TYPE Macro
 
-For uniformity, each instance of the TRAP-TYPE macro is first mapped to an instance of the [NOTIFICATION-TYPE](notification-type-macro.md) macro using the mapping defined in [RFC 1908](Http://go.microsoft.com/fwlink/p/?linkid=84409).
+For uniformity, each instance of the TRAP-TYPE macro is first mapped to an instance of the [NOTIFICATION-TYPE](notification-type-macro.md) macro using the mapping defined in [RFC 1908](https://go.microsoft.com/fwlink/p/?linkid=84409).
 
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).

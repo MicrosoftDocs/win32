@@ -129,7 +129,7 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 <dl> <dt>
 
-[RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
+[RFC 2307](https://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
  

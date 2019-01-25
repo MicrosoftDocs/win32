@@ -76,7 +76,7 @@ The following VBScript code example deletes the listeners configured for HTTP tr
 ```VB
 Set objWsman = CreateObject( "WSMan.Automation" )
 Set objSession = objWsman.CreateSession
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/" &_
   "config/Listener?Address=*+Transport=HTTP"
 objSession.Delete(strResource)
 ```

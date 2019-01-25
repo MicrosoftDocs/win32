@@ -19,7 +19,7 @@ api_location:
 
 Specifies how often the task needs to be started during Automatic maintenance.
 
-The format for this string is *PnYnMnDTnHnMnS*, where *nY* is the number of years, nM is the number of months, *nD* is the number of days, *T* is the date/time separator, *nH* is the number of hours, *nM* is the number of minutes, and *nS* is the number of seconds (for example, "PT5M" specifies 5 minutes and "P1M4DT2H5M" specifies one month, four days, two hours, and five minutes). The minimum value is one minute. For more information about the duration type, see [XML Schema Part 2: Datatypes Second Edition](http://go.microsoft.com/fwlink/p/?linkid=106886).
+The format for this string is *PnYnMnDTnHnMnS*, where *nY* is the number of years, nM is the number of months, *nD* is the number of days, *T* is the date/time separator, *nH* is the number of hours, *nM* is the number of minutes, and *nS* is the number of seconds (for example, "PT5M" specifies 5 minutes and "P1M4DT2H5M" specifies one month, four days, two hours, and five minutes). The minimum value is one minute. For more information about the duration type, see [XML Schema Part 2: Datatypes Second Edition](https://go.microsoft.com/fwlink/p/?linkid=106886).
 
 ``` syntax
 <xs:element name="Period"

@@ -21,7 +21,7 @@ With the WFP API, developers can implement firewalls, intrusion detection system
 
 Windows Filtering Platform is a development platform and not a firewall itself. The firewall application that is built into Windows Vista, Windows Server 2008, and later operating systems   Windows Firewall with Advanced Security (WFAS)   is implemented using WFP. Therefore, applications developed with the WFP API or the [WFAS API](https://msdn.microsoft.com/library/windows/desktop/aa366459) use the common filtering arbitration logic that is built into WFP.
 
-The WFP API consists of a user-mode API and a kernel-mode API. This section provides an overview of the entire WFP and describes in detail only the user-mode portion of the WFP API. For a detailed description of the kernel-mode WFP API, see the [Windows Driver Kit](http://go.microsoft.com/fwlink/p/?linkid=95958) online help.
+The WFP API consists of a user-mode API and a kernel-mode API. This section provides an overview of the entire WFP and describes in detail only the user-mode portion of the WFP API. For a detailed description of the kernel-mode WFP API, see the [Windows Driver Kit](https://go.microsoft.com/fwlink/p/?linkid=95958) online help.
 
 ## Developer audience
 
@@ -54,16 +54,16 @@ The Windows Filtering Platform is supported on clients running Windows Vista and
 
 ## Additional resources
 
-To ask questions and have discussions about using the WFP API, visit the [Windows Filtering Platform Forum](http://go.microsoft.com/fwlink/p/?linkid=93354).
+To ask questions and have discussions about using the WFP API, visit the [Windows Filtering Platform Forum](https://go.microsoft.com/fwlink/p/?linkid=93354).
 
 ## Related topics
 
 <dl> <dt>
 
-[Kernel-Mode Windows Filtering Platform API - Design Guide](http://go.microsoft.com/fwlink/p/?linkid=95958)
+[Kernel-Mode Windows Filtering Platform API - Design Guide](https://go.microsoft.com/fwlink/p/?linkid=95958)
 </dt> <dt>
 
-[Kernel-Mode Windows Filtering Platform API - Reference](http://go.microsoft.com/fwlink/p/?linkid=95959)
+[Kernel-Mode Windows Filtering Platform API - Reference](https://go.microsoft.com/fwlink/p/?linkid=95959)
 </dt> <dt>
 
 [Windows Firewall with Advanced Security](https://msdn.microsoft.com/library/windows/desktop/ff956124)

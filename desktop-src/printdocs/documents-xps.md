@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The XPS Document API is a native Windows API that enables programs to create, read, edit, save, and print XPS documents. The XPS Document API is supported in Windows 7 and later versions of Windows, and can be used in user-mode programs and XPSDrv printer drivers.
 
-The XPS Document API suports both XPS and OpenXPS, and is designed for C++ programmers who are writing native Windows applications. For more information about the Open XPS specification, see [Open XML Paper Specification (OpenXPS)](http://www.ecma-international.org/memento/TC46.md).
+The XPS Document API suports both XPS and OpenXPS, and is designed for C++ programmers who are writing native Windows applications. For more information about the Open XPS specification, see [Open XML Paper Specification (OpenXPS)](https://www.ecma-international.org/memento/TC46.md).
 
 ### About XPS Document API
 
@@ -43,7 +43,7 @@ The XPS Document API suports both XPS and OpenXPS, and is designed for C++ progr
 [XPS Print API](https://msdn.microsoft.com/en-us/library/Ff728890(v=VS.85).aspx)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
 </dt> </dl>
 
  

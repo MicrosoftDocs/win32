@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Wmiadap is a application that runs on Windows that can update performance information in the WMI repository. Generally, this allows developers and IT Administrators to create scripts that access performance information, such as the amount of memory used by an application. The following topic describes the command-line interface you can use to control how wmiadap retrieves information.
 
-Wmiadap is installed with the operating system on most systems, in the C:\\Windows\\System32\\wbem directory. If you are seeing error messages concerning wmiadap.exe, search [Microsoft Support](http://support.microsoft.com/). Generally, you should not delete wmiadap.exe from your system, unless otherwise instructed.
+Wmiadap is installed with the operating system on most systems, in the C:\\Windows\\System32\\wbem directory. If you are seeing error messages concerning wmiadap.exe, search [Microsoft Support](https://support.microsoft.com/). Generally, you should not delete wmiadap.exe from your system, unless otherwise instructed.
 
 The transfer of data from the performance libraries and the refresh of classes derived from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299) and [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) is done by the [WmiPerfClass](wmi-providers.md) and [WMIPerfInst](wmi-providers.md) providers. The WmiPerfClass provider updates WMI [Performance Counter Classes](https://msdn.microsoft.com/library/aa392738) only when a new performance object is added. You still can run Wmiadap with the **/r** switch to parse the Windows Driver Model drivers to create performance objects. The **/f** switch still forces an update of the WMI classes from the performance libraries.
 

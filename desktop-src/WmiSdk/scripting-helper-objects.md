@@ -26,7 +26,7 @@ The helper objects break down composite data structures so that a script is not 
 
 ## SWbemDateTime
 
-The [**SWbemDateTime**](swbemdatetime.md) object provides properties that parse out the day, month, year, time of day, and so on. It also provides conversion methods to convert the Windows Management Instrumentation (WMI) datetime to and from the **VT\_Date** and [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) formats. For Internet Explorer (IE) security settings, the **SWbemDateTime** object is the only WMI scripting object that is marked safe for initialization and safe for scripting. For more information and examples of date and time conversions, see [Dates and Times](Http://go.microsoft.com/fwlink/p/?linkid=84433) and the article on TechNet ScriptCenter [It's About Time (Oh, and About Dates, too)](Http://go.microsoft.com/fwlink/p/?linkid=84437).
+The [**SWbemDateTime**](swbemdatetime.md) object provides properties that parse out the day, month, year, time of day, and so on. It also provides conversion methods to convert the Windows Management Instrumentation (WMI) datetime to and from the **VT\_Date** and [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) formats. For Internet Explorer (IE) security settings, the **SWbemDateTime** object is the only WMI scripting object that is marked safe for initialization and safe for scripting. For more information and examples of date and time conversions, see [Dates and Times](https://go.microsoft.com/fwlink/p/?linkid=84433) and the article on TechNet ScriptCenter [It's About Time (Oh, and About Dates, too)](https://go.microsoft.com/fwlink/p/?linkid=84437).
 
 ## SWbemObjectPath
 

@@ -22,7 +22,7 @@ The following Microsoft Visual Basic code fragment illustrates the use of an XML
 
 
 ```VB
-Set Obj = GetObject("soap:wsdl=http://servername/vroot/progID.soap?WSDL")
+Set Obj = GetObject("soap:wsdl=https://servername/vroot/progID.soap?WSDL")
 output = Obj.Method(input)
 ```
 
@@ -37,7 +37,7 @@ The following code fragment illustrates the use of an XML web service in WKO mod
 
 ```C++
 HRESULT hr = CoGetObject(
-     L"soap:wsdl=http://servername/vroot/progID.soap?WSDL",
+     L"soap:wsdl=https://servername/vroot/progID.soap?WSDL",
      pBindOptions,
      IID_IUnknown,
      (void**)&pIUnknown);

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # <span id="vhd.about_vhd"></span>About VHD
 
-The Virtual Hard Disk (VHD) format is a publicly-available image format [specification](http://go.microsoft.com/fwlink/p/?linkid=137171) that allows encapsulation of the hard disk into an individual file for use by the operating system as a *virtual disk* in all the same ways physical hard disks are used. These virtual disks are capable of hosting native file systems (NTFS, FAT, exFAT, and UDFS) while supporting standard disk and file operations. VHD API support allows management of the virtual disks. Virtual disks created with the VHD API can function as boot disks.
+The Virtual Hard Disk (VHD) format is a publicly-available image format [specification](https://go.microsoft.com/fwlink/p/?linkid=137171) that allows encapsulation of the hard disk into an individual file for use by the operating system as a *virtual disk* in all the same ways physical hard disks are used. These virtual disks are capable of hosting native file systems (NTFS, FAT, exFAT, and UDFS) while supporting standard disk and file operations. VHD API support allows management of the virtual disks. Virtual disks created with the VHD API can function as boot disks.
 
-An example of how VHD files are used is the [Hyper-V](http://go.microsoft.com/fwlink/p/?linkid=128149) feature in Windows 7, Windows Server 2008, Virtual Server, and Windows Virtual PC. These products use the VHD API to contain the Windows operating system image utilized by a virtual machine as its system boot disk.
+An example of how VHD files are used is the [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=128149) feature in Windows 7, Windows Server 2008, Virtual Server, and Windows Virtual PC. These products use the VHD API to contain the Windows operating system image utilized by a virtual machine as its system boot disk.
 
 The Microsoft Windows Software Development Kit (SDK) integrates Native VHD support for working with virtual disks, making it easier for developers and administrators to create, manage, and deploy Windows images in VHD files using either the platform API support or management tools. It is not necessary to install separate applications or implement a VHD format parser to enable these operations. These APIs allow for generic use of virtual disks independent of any other virtualization technologies.
 
@@ -70,7 +70,7 @@ All virtual disk types have a minimum size of 3 MB.
 
 [VHD Reference](vhd-reference.md)
 
-[Virtual Hard Disk Image Format Specification](http://go.microsoft.com/fwlink/p/?linkid=137171)
+[Virtual Hard Disk Image Format Specification](https://go.microsoft.com/fwlink/p/?linkid=137171)
 
  
 

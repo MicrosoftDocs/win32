@@ -22,10 +22,10 @@ ms.date: 05/31/2018
 
 # Using the Textbox Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -46,7 +46,7 @@ I'm attaching some text to this shape!!!
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/AttachText/textbox1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AttachText/textbox1.md)
 
 To attach a hyperlink to a rounded rectangle that is gradient-filled, you can type the following lines in the <BODY> region of your Web page:
 
@@ -58,7 +58,7 @@ To attach a hyperlink to a rounded rectangle that is gradient-filled, you can ty
 <v:roundrect style='width:80pt;height:30pt;' fillcolor="red">
 <v:fill type="gradient" />
 <v:textbox>
-<a href="http://home.microsoft.com/"> Click here</a>
+<a href="https://home.microsoft.com/"> Click here</a>
 </v:textbox>
 </v:roundrect>
 </body>
@@ -66,9 +66,9 @@ To attach a hyperlink to a rounded rectangle that is gradient-filled, you can ty
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/AttachText/textbox2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AttachText/textbox2.md)
 
-For more information about this element, see the [VML specification](http://www.w3.org/TR/NOTE-VML#-toc416858397) .
+For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858397) .
 
  
 

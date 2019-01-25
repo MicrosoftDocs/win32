@@ -14,7 +14,7 @@ The Microsoft Agent Character Editor enables you to compile character animations
 
 With the Agent Character Editor you can define the character's name and description as well as output options, including text-to-speech (TTS), synthesized voice output, pop-up menu support, and the character's word balloon design.
 
-This document describes the Microsoft Agent Character Editor for Microsoft Agent which you can download from <http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=c21be0ec-1712-427d-a43d-94c122ef8eb6>.
+This document describes the Microsoft Agent Character Editor for Microsoft Agent which you can download from <https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=c21be0ec-1712-427d-a43d-94c122ef8eb6>.
 
 -   [Starting the Agent Character Editor](starting-the-agent-character-editor.md)
 -   [Defining a New Character](defining-a-new-character.md)

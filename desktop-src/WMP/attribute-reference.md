@@ -46,7 +46,7 @@ The Windows Media Player Attribute Reference documents metadata attributes that 
 
  
 
-For more info about the metadata attributes, see the [Windows Media Metadata Usage Guidelines](http://msdn.microsoft.com/library/ms867702.aspx).
+For more info about the metadata attributes, see the [Windows Media Metadata Usage Guidelines](https://msdn.microsoft.com/library/ms867702.aspx).
 
  
 

@@ -18,7 +18,7 @@ You can obtain data or manage resources on remote computers as well as the local
 
 You may need to create a [**ConnectionOptions**](connectionoptions.md) object to specify information about the type of authentication requested for the logon.
 
-If the account on the remote computer has the same logon username and password, the only extra information you need is the transport, the domain name, and the computer name. Because of [User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=84438), the remote account must be a domain account and a member of the remote computer Administrators group. If the account is a local computer member of the Administrators group, then UAC does not allow access to the WinRM service. To access a remote WinRM service in a workgroup, UAC filtering for local accounts must be disabled by creating the following DWORD registry entry and setting its value to 1: **\[HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\] LocalAccountTokenFilterPolicy**.
+If the account on the remote computer has the same logon username and password, the only extra information you need is the transport, the domain name, and the computer name. Because of [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84438), the remote account must be a domain account and a member of the remote computer Administrators group. If the account is a local computer member of the Administrators group, then UAC does not allow access to the WinRM service. To access a remote WinRM service in a workgroup, UAC filtering for local accounts must be disabled by creating the following DWORD registry entry and setting its value to 1: **\[HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\] LocalAccountTokenFilterPolicy**.
 
 **To connect to a remote computer using your logon username and password**
 
@@ -42,7 +42,7 @@ If the account on the remote computer has the same logon username and password, 
 
     ```VB
     
-    Set objSession = objWsman.CreateSession("http://" & RemoteComputer)
+    Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
     ```
 
     
@@ -54,8 +54,8 @@ The following VBScript code example shows the complete script. The script includ
 Const RemoteComputer = "ComputerName.domain.com"
 
 Set objWsman = CreateObject("WSMan.Automation")
-Set objSession = objWsman.CreateSession("http://" & RemoteComputer)
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
+Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
   "wmi/root/cimv2/Win32_OperatingSystem"
 Set objResponse = objSession.Enumerate(strResource)
 
@@ -136,7 +136,7 @@ iFlags = objWsman.SessionFlagUseKerberos Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession("https://" & RemoteComputer, _
   iFlags, objConnectionOptions)
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
   "wmi/root/cimv2/Win32_OperatingSystem"
 Set objResponse = objSession.Enumerate(strResource)
 

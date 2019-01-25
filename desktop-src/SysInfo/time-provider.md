@@ -20,7 +20,7 @@ Time providers are managed by the *time provider manager*. It is responsible for
 
 <dl> <dt>
 
-[Windows Time Service](Http://go.microsoft.com/fwlink/p/?linkid=84119)
+[Windows Time Service](https://go.microsoft.com/fwlink/p/?linkid=84119)
 </dt> </dl>
 
  

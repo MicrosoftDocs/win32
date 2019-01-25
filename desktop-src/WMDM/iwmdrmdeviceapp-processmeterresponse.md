@@ -100,7 +100,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 ## Remarks
 
-More information on metering, including code examples, can be found in the whitepaper [Metering the Use of Digital Media Content with Windows Media DRM 10](http://go.microsoft.com/fwlink/p/?linkid=49518) on the MSDN Web site.
+More information on metering, including code examples, can be found in the whitepaper [Metering the Use of Digital Media Content with Windows Media DRM 10](https://go.microsoft.com/fwlink/p/?linkid=49518) on the MSDN Web site.
 
 ## Requirements
 

@@ -17,7 +17,7 @@ api_location:
 
 # ExecutionTimeLimit (settingsType) Element
 
-Amount of time allowed to complete the task.The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes). For more information about the duration type, see <http://go.microsoft.com/fwlink/p/?linkid=106886>. A value of PT0S will enable the task to run indefinitely.
+Amount of time allowed to complete the task.The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes). For more information about the duration type, see <https://go.microsoft.com/fwlink/p/?linkid=106886>. A value of PT0S will enable the task to run indefinitely.
 
 ``` syntax
 <xs:element name="ExecutionTimeLimit"

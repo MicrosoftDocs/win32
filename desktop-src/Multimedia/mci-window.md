@@ -122,7 +122,7 @@ The handle of the window used for the destination is included in the **hWnd** me
 <span id="MCI_OVLY_WINDOW_STATE"></span><span id="mci_ovly_window_state"></span>MCI\_OVLY\_WINDOW\_STATE
 </dt> <dd>
 
-The **nCmdShow** member of the *lpWindow* structure contains parameters for setting the window state. This flag is equivalent to calling [ShowWindow](http://go.microsoft.com/fwlink/p/?linkid=17097) with the *state* parameter. The constants are the same as those defined in WINDOWS.H (such as SW\_HIDE, SW\_MINIMIZE, or SW\_SHOWNORMAL).
+The **nCmdShow** member of the *lpWindow* structure contains parameters for setting the window state. This flag is equivalent to calling [ShowWindow](https://go.microsoft.com/fwlink/p/?linkid=17097) with the *state* parameter. The constants are the same as those defined in WINDOWS.H (such as SW\_HIDE, SW\_MINIMIZE, or SW\_SHOWNORMAL).
 
 </dd> <dt>
 

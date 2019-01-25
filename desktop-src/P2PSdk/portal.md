@@ -54,10 +54,10 @@ Further information regarding Peer-to-Peer technologies can be found at the foll
 
 |                                                                                                           |                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [Windows Peer Networking Resources](http://go.microsoft.com/fwlink/p/?linkid=59669)                       | Access published white-papers, samples, and presentations detailing the Peer Networking technology.<br/> |
-| [Microsoft Peer Networking Blog](http://go.microsoft.com/fwlink/p/?linkid=91251)                          | Read the latest blog entries from Microsoft's Peer Networking Team.<br/>                                 |
-| [MSDN Peer Networking Forum](http://go.microsoft.com/fwlink/p/?linkid=91252)                              | Discuss Peer technologies and collaborate with other developers.<br/>                                    |
-| [TechNet Peer Networking Resources for IT Professionals](http://go.microsoft.com/fwlink/p/?linkid=144930) | A conceptual Peer Networking overview, as well as guidance, specific to the IT Professional role. <br/>  |
+| [Windows Peer Networking Resources](https://go.microsoft.com/fwlink/p/?linkid=59669)                       | Access published white-papers, samples, and presentations detailing the Peer Networking technology.<br/> |
+| [Microsoft Peer Networking Blog](https://go.microsoft.com/fwlink/p/?linkid=91251)                          | Read the latest blog entries from Microsoft's Peer Networking Team.<br/>                                 |
+| [MSDN Peer Networking Forum](https://go.microsoft.com/fwlink/p/?linkid=91252)                              | Discuss Peer technologies and collaborate with other developers.<br/>                                    |
+| [TechNet Peer Networking Resources for IT Professionals](https://go.microsoft.com/fwlink/p/?linkid=144930) | A conceptual Peer Networking overview, as well as guidance, specific to the IT Professional role. <br/>  |
 
 
 

@@ -25,7 +25,7 @@ For uses of the Windows Property System, see [Property System Overview: Developm
 
 ## Run-time requirements
 
-The supported run-time environment for using the Windows Property System is Windows Vista or later and the Windows Software Development Kit (SDK). Windows XP and Microsoft Windows Desktop Search (WDS) 3.0 or later also include a subset of the Windows Property System. For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+The supported run-time environment for using the Windows Property System is Windows Vista or later and the Windows Software Development Kit (SDK). Windows XP and Microsoft Windows Desktop Search (WDS) 3.0 or later also include a subset of the Windows Property System. For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 ## In this section
 

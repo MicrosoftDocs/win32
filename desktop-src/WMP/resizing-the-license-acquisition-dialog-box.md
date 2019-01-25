@@ -32,7 +32,7 @@ For example, the following license acquisition URL would cause the license acqui
 
 
 ```C++
-http://www.proseware.com/license/lic_acq.htm?DlgX=800&DlgY=600
+https://www.proseware.com/license/lic_acq.htm?DlgX=800&DlgY=600
 
 ```
 

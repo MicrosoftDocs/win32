@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Device-Specific PrintTicket
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A device-specific PrintTicket targets a particular device and is therefore not generally portable across multiple devices.
 
@@ -51,7 +51,7 @@ The steps shown in the following list should be used when you create a device-sp
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

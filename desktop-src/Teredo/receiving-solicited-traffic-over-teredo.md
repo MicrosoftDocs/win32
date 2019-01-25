@@ -27,7 +27,7 @@ A connection established with Teredo is described as 'seamless' because it is ha
 
 When an application attempts to connect to a destination using IPv6 addresses, the following will occur:
 
--   The application obtains a list of IPv6 addresses by calling the [**GetAdaptersAddresses**](https://msdn.microsoft.com/library/windows/desktop/aa365915) API. The Windows Vista stack returns a list of all interfaces based on the sorting order specified in [RFC 3484](Http://go.microsoft.com/fwlink/p/?linkid=84015). As a result, IPv6 and 6to4 IPv6 interfaces will be listed before Teredo interface. However, when native IPv6 or 6to4 connectivity is not available, Teredo will be the only IPv6 capable interface listed.
+-   The application obtains a list of IPv6 addresses by calling the [**GetAdaptersAddresses**](https://msdn.microsoft.com/library/windows/desktop/aa365915) API. The Windows Vista stack returns a list of all interfaces based on the sorting order specified in [RFC 3484](https://go.microsoft.com/fwlink/p/?linkid=84015). As a result, IPv6 and 6to4 IPv6 interfaces will be listed before Teredo interface. However, when native IPv6 or 6to4 connectivity is not available, Teredo will be the only IPv6 capable interface listed.
 
     It is important to remember that an application can use any interface provided by the Windows Vista stack, however the ordering of the interface list returned will most often result in Teredo being attempted last.
 

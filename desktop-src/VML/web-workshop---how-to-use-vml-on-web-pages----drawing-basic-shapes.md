@@ -26,10 +26,10 @@ ms.date: 05/31/2018
 
 # Drawing Basic Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -48,7 +48,7 @@ Alternatively, you can use VML to draw graphics. In the preceding example, you c
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval1.md)
 
 `<v:...>` and `</v:...>` are the start tag and end tag in [XML syntax](#xml-structure).`style='width:100pt; height:75pt'` provides [CSS information](#css-information). **oval** and **fillcolor**="red" are [VML elements](#vml-elements).
 
@@ -61,7 +61,7 @@ You can alter the graphics by simply changing their property attributes in VML. 
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval2.md)
 
 Browsers that support VML can render and display the graphics represented in VML without having to download separate image files. Most graphics represented in VML are rendered faster in browsers, and require less disk space and download time.
 
@@ -77,7 +77,7 @@ The `"v:"` prefix on each XML tag identifies the tag as VML. The `"v:"` prefix i
 
 ## CSS Information
 
-VML uses [Cascading Style Sheets, Level 2 (CSS2)](http://www.w3.org/TR/PR-CSS2/) to determine the size of the graphics and to position the graphics on a Web page. In the preceding example, we specified the size of the oval as 100 points (width) by 75 points (height) (`style='width:100pt;height:75pt'` ).
+VML uses [Cascading Style Sheets, Level 2 (CSS2)](https://www.w3.org/TR/PR-CSS2/) to determine the size of the graphics and to position the graphics on a Web page. In the preceding example, we specified the size of the oval as 100 points (width) by 75 points (height) (`style='width:100pt;height:75pt'` ).
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -85,7 +85,7 @@ VML uses [Cascading Style Sheets, Level 2 (CSS2)](http://www.w3.org/TR/PR-CSS2/)
 
 In the preceding example, we used a VML predefined **<oval>** element to draw an oval. We then used the **fillcolor** property attribute of the **<oval>** element to fill the oval with red.
 
-Based upon the [Start-Tags, End-Tags, and Empty-Element Tags](http://www.w3.org/TR/REC-xml#sec-starttags) section of [XML 1.0 specification](http://www.w3.org/TR/REC-xml), empty-element tags may be used for any element that has no content. For example, as shown in the following VML representation, there is no content (sub-element) within the **<oval>** element. (Note that the **style** and **fillcolor** are the attributes of the **<oval>** element; they are not sub-elements.)
+Based upon the [Start-Tags, End-Tags, and Empty-Element Tags](https://www.w3.org/TR/REC-xml#sec-starttags) section of [XML 1.0 specification](https://www.w3.org/TR/REC-xml), empty-element tags may be used for any element that has no content. For example, as shown in the following VML representation, there is no content (sub-element) within the **<oval>** element. (Note that the **style** and **fillcolor** are the attributes of the **<oval>** element; they are not sub-elements.)
 
 
 ```HTML

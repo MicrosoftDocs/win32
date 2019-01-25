@@ -27,7 +27,7 @@ Enables or disables the **Back**, **Next**, and **Finish** buttons in a wizard. 
 *wParam* 
 </dt> <dd>
 
-Set this parameter to PSWIZBF\_ELEVATIONREQUIRED to display the elevated icon on the buttons specified in *lParam*. The elevated icon (or UAC shield icon) indicates that the elevation prompt will be used to prompt the user for approval or credentials. For more information, see [Designing UAC Applications for Windows Vista]( http://go.microsoft.com/fwlink/p/?linkid=198354).
+Set this parameter to PSWIZBF\_ELEVATIONREQUIRED to display the elevated icon on the buttons specified in *lParam*. The elevated icon (or UAC shield icon) indicates that the elevation prompt will be used to prompt the user for approval or credentials. For more information, see [Designing UAC Applications for Windows Vista]( https://go.microsoft.com/fwlink/p/?linkid=198354).
 
 > [!Note]  
 > Displaying the UAC shield icon is only supported in AeroWizards (PSH\_AEROWIZARD).

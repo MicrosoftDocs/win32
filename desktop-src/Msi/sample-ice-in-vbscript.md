@@ -39,7 +39,7 @@ If 1 <> iStat Then
 recInfo.StringData(0)="ICE08" & Chr(9) & "2" 
     & Chr(9) & "Table: 'Component' missing. 
     ICE08 cannot continue its validation." 
-    & Chr(9) & "http://mypage2"
+    & Chr(9) & "https://mypage2"
 Message &h03000000, recInfo
 ICE08 = 1
 Exit Function
@@ -59,7 +59,7 @@ If lastGuid=rec.StringData(2) Then
 rec.StringData(0)="ICE08" & Chr(9) 
     & "1" & Chr(9) & "Component: [1] 
     has a duplicate GUID: [2]" & Chr(9) 
-    & "http://mypage2" & Chr(9) & 
+    & "https://mypage2" & Chr(9) & 
     "Component" & Chr(9) & "ComponentId" & Chr(9) & "[1]"
 Message &h03000000,rec
 End If

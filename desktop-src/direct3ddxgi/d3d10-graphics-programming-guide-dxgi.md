@@ -302,7 +302,7 @@ We added the following functionality in DXGI 1.1.
 
     Synchronized shared surfaces for Direct3D 10.1 and Direct3D 11 enables efficient read and write surface sharing between multiple Direct3D devices (sharing between Direct3D 10 and Direct3D 11 devices is possible). See [**IDXGIKeyedMutex::AcquireSync**](/windows/desktop/api/DXGI/nf-dxgi-idxgikeyedmutex-acquiresync) and [**IDXGIKeyedMutex::ReleaseSync**](/windows/desktop/api/DXGI/nf-dxgi-idxgikeyedmutex-releasesync).
 
-    The [DXGISyncSharedSurf](http://go.microsoft.com/fwlink/p/?linkid=215064) sample shows how to use DXGI 1.1 synchronized shared surfaces.
+    The [DXGISyncSharedSurf](https://go.microsoft.com/fwlink/p/?linkid=215064) sample shows how to use DXGI 1.1 synchronized shared surfaces.
 
 -   High Color Support
 

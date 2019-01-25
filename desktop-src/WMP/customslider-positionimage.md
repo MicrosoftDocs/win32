@@ -58,7 +58,7 @@ The following code illustrates the use of **CUSTOMSLIDER** attributes.
   >
 
     <PLAYER
-      URL = "http://proseware.com/mellow.wma"
+      URL = "https://proseware.com/mellow.wma"
     >
       <CONTROLS
         currentPosition_onchange = "myslider.value = player.controls.currentPosition;"

@@ -29,7 +29,7 @@ For example, to request the headspace skin be used, type the following http URL:
 
 
 ```C++
-http://www.proseware.com/mymedia.wma?WMPSkin=headspace
+https://www.proseware.com/mymedia.wma?WMPSkin=headspace
 
 ```
 

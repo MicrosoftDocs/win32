@@ -166,10 +166,10 @@ HRESULT MyTabGroupCommandHandler::UpdateProperty(
 
 <dl> <dt>
 
-[Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233)
+[Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233)
 </dt> <dt>
 
-[Ribbon Design Process](http://go.microsoft.com/fwlink/p/?linkid=129234)
+[Ribbon Design Process](https://go.microsoft.com/fwlink/p/?linkid=129234)
 </dt> </dl>
 
  

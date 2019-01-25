@@ -18,7 +18,7 @@ api_location:
 
 # IWMDRMDeviceApp interface
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](http://aka.ms/p23wo6) instead.\]
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://aka.ms/p23wo6) instead.\]
 
 The **IWMDRMDeviceApp** interface enables an application to meter, synchronize licenses, and update a device's DRM components. This interface will only work with devices that support Windows Media DRM 10 for Portable Devices.
 

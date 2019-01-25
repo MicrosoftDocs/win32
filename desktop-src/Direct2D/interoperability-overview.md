@@ -53,7 +53,7 @@ You can also use an [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com
 
 ## Direct3D Interoperability
 
-Direct2D can use a DXGI surface render target (created by the [**CreateDxgiSurfaceRender**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method) to write to an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx). This action enables you to add 2-D backgrounds and interfaces to 3-D scenes and use Direct2D content as a texture for a 3-D model. Direct2D can also take an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx) and use the [**CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx) method to create a bitmap representation.
+Direct2D can use a DXGI surface render target (created by the [**CreateDxgiSurfaceRender**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method) to write to an [IDXGISurface](https://msdn.microsoft.com/library/bb174565(VS.85).aspx). This action enables you to add 2-D backgrounds and interfaces to 3-D scenes and use Direct2D content as a texture for a 3-D model. Direct2D can also take an [IDXGISurface](https://msdn.microsoft.com/library/bb174565(VS.85).aspx) and use the [**CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx) method to create a bitmap representation.
 
 For more information and examples, see the [Direct2D and Direct3D Interoperability Overview](direct2d-and-direct3d-interoperation-overview.md).
 

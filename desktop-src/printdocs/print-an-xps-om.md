@@ -444,7 +444,7 @@ HRESULT MakePagePartUri (
 
 
 
-For more information on the structure of an XPS document, see the [XML Paper Specification](http://go.microsoft.com/?linkid=8435939).
+For more information on the structure of an XPS document, see the [XML Paper Specification](https://go.microsoft.com/?linkid=8435939).
 
 ## Related topics
 
@@ -495,7 +495,7 @@ For more information on the structure of an XPS document, see the [XML Paper Spe
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
 </dt> </dl>
 
  

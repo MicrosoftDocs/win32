@@ -76,7 +76,7 @@ In this example, the same control relationship is shown using layout instead.
 
 **Incorrect:** ![screen shot of drop-down list on a group-box label ](images/ctrl-group-boxes-image9.png)
 
-In this example, a drop-down list is incorrectly placed on a group box. This example should use [tabs](http://msdn.microsoft.com/library/windows/desktop/aa511493.aspx) instead.
+In this example, a drop-down list is incorrectly placed on a group box. This example should use [tabs](https://msdn.microsoft.com/library/windows/desktop/aa511493.aspx) instead.
 
 -   **Don't disable group boxes.** To indicate that a group of controls doesn't currently apply, disable all the controls within the group box, but not the group box itself. This approach is more accessible and can be supported consistently by all UI frameworks.
 

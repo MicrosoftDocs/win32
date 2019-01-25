@@ -40,17 +40,17 @@ For more information about how to migrate to the .NET Framework 4, see [Migratio
 
 ## Compatibility Tests
 
-After you make the changes, test your application to make sure that it runs correctly. You can test compatibility as described in the [.NET Framework 4 Application Compatibility](http://go.microsoft.com/fwlink/p/?linkid=154814) topic.
+After you make the changes, test your application to make sure that it runs correctly. You can test compatibility as described in the [.NET Framework 4 Application Compatibility](https://go.microsoft.com/fwlink/p/?linkid=154814) topic.
 
-If your application or component does not work after .NET Framework 4 is installed, submit a bug through the [Microsoft Connect](http://connect.microsoft.com/visualstudio) website.
+If your application or component does not work after .NET Framework 4 is installed, submit a bug through the [Microsoft Connect](https://connect.microsoft.com/visualstudio) website.
 
 ## Links to Other Resources
 
 -   [**<supportedRuntime> Element**](https://msdn.microsoft.com/en-us/library/w4atty68(v=VS.71).aspx)
 -   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/en-us/library/Ff657133(v=VS.100).aspx)
 -   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/en-us/library/Ff602939(v=VS.100).aspx)
--   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<http://msdn.microsoft.com/en-us/library/dd889541.aspx>
--   [Microsoft Connect](http://go.microsoft.com/fwlink/p/?linkid=101629)
+-   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<https://msdn.microsoft.com/en-us/library/dd889541.aspx>
+-   [Microsoft Connect](https://go.microsoft.com/fwlink/p/?linkid=101629)
 
  
 

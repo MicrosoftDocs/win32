@@ -45,7 +45,7 @@ For information about creating a component that implements the **IWMPSubscriptio
 
 For information about providing Microsoft with a ServiceInfo document, send email to the Windows Media Player Virtual Services team. The team's email address is mpsvctm@microsoft.com.
 
-For technical guidance on using a variety of Windows Media SDKs to create a service that offers licensed digital media content, go to the [Microsoft Windows Media Developer Center](http://go.microsoft.com/fwlink/p/?linkid=62179) and search for "Creating a Windows Media Player 10 Subscription Online Store".
+For technical guidance on using a variety of Windows Media SDKs to create a service that offers licensed digital media content, go to the [Microsoft Windows Media Developer Center](https://go.microsoft.com/fwlink/p/?linkid=62179) and search for "Creating a Windows Media Player 10 Subscription Online Store".
 
 ## Related topics
 

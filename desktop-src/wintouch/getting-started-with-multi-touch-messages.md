@@ -24,7 +24,7 @@ The message used for Windows Touch is [**WM\_TOUCH**](wm-touchdown.md). This mes
 
 ## Testing the Capabilities of the Input Digitizer
 
-The [GetSystemMetrics](http://go.microsoft.com/fwlink/p/?linkid=132199) function can be used to query the capabilities of the input digitizer by passing in the *nIndex* value of **SM\_DIGITIZER**. [GetSystemMetrics](http://go.microsoft.com/fwlink/p/?linkid=132199) returns a bit field that indicates whether the device is ready, whether the device supports pen or touch, whether the input device is integrated or external, and whether the device supports multiple inputs (Windows Touch). The following table shows the bits for the various fields.
+The [GetSystemMetrics](https://go.microsoft.com/fwlink/p/?linkid=132199) function can be used to query the capabilities of the input digitizer by passing in the *nIndex* value of **SM\_DIGITIZER**. [GetSystemMetrics](https://go.microsoft.com/fwlink/p/?linkid=132199) returns a bit field that indicates whether the device is ready, whether the device supports pen or touch, whether the input device is integrated or external, and whether the device supports multiple inputs (Windows Touch). The following table shows the bits for the various fields.
 
 
 

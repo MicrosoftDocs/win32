@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DPWS Specification Compliance
 
-This topic describes how WSDAPI implements the elective functionality in the [Devices Profile for Web Services](http://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) specification. It also describes which DPWS functionality was omitted from the WSDAPI implementation.
+This topic describes how WSDAPI implements the elective functionality in the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) specification. It also describes which DPWS functionality was omitted from the WSDAPI implementation.
 
 The DPWS specification provides a consistent way to message with devices. It also adds specific restrictions and recommendations that simplify the process of supporting web services on embedded hardware.
 
@@ -56,13 +56,13 @@ DPWS also defines MIME part ordering clauses. For R0038, WSDAPI will enforce par
 
 R1013 and R1001 differentiate device discovery and service discovery. WSDAPI complies with R1013. The hosting implementation complies with R1001, but WSDAPI does not enforce this recommendation on the client.
 
-DPWS also provides guidance on types and scope matching rules. WSDAPI supports all of the scope matching rules defined in [WS-Discovery](http://go.microsoft.com/fwlink/p/?linkid=87841) except LDAP. WSDAPI also provides an extensible model for defining custom scope matching rules, thus complying with R1019. The hosting API will also always provide the `wsdp:Device` type in discovery per R1020, but the client API does not require it be present. Other applications built on WSDAPI, such as PnP-X, do have a hard requirement for the `wsdp:Device` type to be present in discovery.
+DPWS also provides guidance on types and scope matching rules. WSDAPI supports all of the scope matching rules defined in [WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) except LDAP. WSDAPI also provides an extensible model for defining custom scope matching rules, thus complying with R1019. The hosting API will also always provide the `wsdp:Device` type in discovery per R1020, but the client API does not require it be present. Other applications built on WSDAPI, such as PnP-X, do have a hard requirement for the `wsdp:Device` type to be present in discovery.
 
 To facilitate discovery and binding, WSDAPI supports R1009 and R1016. Per R1018, WSDAPI will ignore multicast UDP not sent to the anonymous address. R1015, R1021, and R1022 define a HTTP binding for the Probe message, which WSDAPI supports as described.
 
 ## DPWS 5.0 Description
 
-WSDAPI enforces R2044 on the client. On the hosting side, WSDAPI will only ever provide the `wsx:Metadata` element in the SOAP envelope body. R2045 allows devices to support a subset of the [WS-Transfer](http://go.microsoft.com/fwlink/p/?linkid=87964) functionality. The hosting API will always generate the `wsa:ActionNotSupported` fault.
+WSDAPI enforces R2044 on the client. On the hosting side, WSDAPI will only ever provide the `wsx:Metadata` element in the SOAP envelope body. R2045 allows devices to support a subset of the [WS-Transfer](https://go.microsoft.com/fwlink/p/?linkid=87964) functionality. The hosting API will always generate the `wsa:ActionNotSupported` fault.
 
 ### DPWS 5.1 Characteristics
 
@@ -106,7 +106,7 @@ DPWS describes a recommended security model for devices. WSDAPI does not impleme
 
 ## DPWS Appendix I
 
-DPWS amends global constants from other specifications to suit devices. WSDAPI uses the constants from this section, and overrides the default constants in the [WS-Discovery](http://go.microsoft.com/fwlink/p/?linkid=87841) implementation with these constants. Applications using WSDAPI for WS-Discovery will be bound to the constants defined in DPWS, not the constants defined in [WS-Discovery](http://go.microsoft.com/fwlink/p/?linkid=87841).
+DPWS amends global constants from other specifications to suit devices. WSDAPI uses the constants from this section, and overrides the default constants in the [WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) implementation with these constants. Applications using WSDAPI for WS-Discovery will be bound to the constants defined in DPWS, not the constants defined in [WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841).
 
  
 

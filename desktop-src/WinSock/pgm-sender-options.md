@@ -29,7 +29,7 @@ The window advance rate is set by the [RM\_SENDER\_WINDOW\_ADV\_RATE](socket-opt
 
 ## Forward Error Correction (FEC)
 
-Forward error correction is set through use of the RM\_USE\_FEC socket option. This socket option enables the PGM sender to send repair packets as parity packets instead of regular data packets. Doing so minimizes the number of repair packets sent to repair different sequences lost by multiple receivers from within the same data group. Enabling FEC is only set on the PGM sender. PGM receivers automatically follow the policy set by the sender. For a detailed discussion on FEC, refer to the PGM RFC located on the [IETF](Http://go.microsoft.com/fwlink/p/?linkid=84023) website.
+Forward error correction is set through use of the RM\_USE\_FEC socket option. This socket option enables the PGM sender to send repair packets as parity packets instead of regular data packets. Doing so minimizes the number of repair packets sent to repair different sequences lost by multiple receivers from within the same data group. Enabling FEC is only set on the PGM sender. PGM receivers automatically follow the policy set by the sender. For a detailed discussion on FEC, refer to the PGM RFC located on the [IETF](https://go.microsoft.com/fwlink/p/?linkid=84023) website.
 
  
 

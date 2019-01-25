@@ -44,7 +44,7 @@ The Windows Media Player SDK provides overview and reference material for the pr
 <span id="Creating_a_Windows_Media_Player_10_Subscription_Online_Store"></span><span id="creating_a_windows_media_player_10_subscription_online_store"></span><span id="CREATING_A_WINDOWS_MEDIA_PLAYER_10_SUBSCRIPTION_ONLINE_STORE"></span>Creating a Windows Media Player 10 Subscription Online Store
 </dt> <dd>
 
-This document contains technical guidance on using a variety of Windows Media SDKs to create a service that offers licensed digital media content. The document was written for Windows Media Player 10 but much of it still applies to later versions of Windows Media Player. Go to the [MSDN](http://go.microsoft.com/fwlink/p/?linkid=12394) home page and search for "Creating a Windows Media Player 10 Subscription Online Store".
+This document contains technical guidance on using a variety of Windows Media SDKs to create a service that offers licensed digital media content. The document was written for Windows Media Player 10 but much of it still applies to later versions of Windows Media Player. Go to the [MSDN](https://go.microsoft.com/fwlink/p/?linkid=12394) home page and search for "Creating a Windows Media Player 10 Subscription Online Store".
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ Obtain this document from the Windows Media Player Services Virtual Team at mpsv
 <span id="Windows_Media_Rights_Manager_License__if_using_DRM_"></span><span id="windows_media_rights_manager_license__if_using_drm_"></span><span id="WINDOWS_MEDIA_RIGHTS_MANAGER_LICENSE__IF_USING_DRM_"></span>Windows Media Rights Manager License (if using DRM)
 </dt> <dd>
 
-You can request a Windows Media Rights Manager License by using the [Microsoft License Request form](http://go.microsoft.com/?linkid=9742685).
+You can request a Windows Media Rights Manager License by using the [Microsoft License Request form](https://go.microsoft.com/?linkid=9742685).
 
 </dd> <dt>
 

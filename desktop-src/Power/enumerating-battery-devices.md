@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enumerating Battery Devices
 
-To enumerate the battery devices on a local computer, use the [SetupDiGetClassDevs](http://go.microsoft.com/fwlink/p/?linkid=91493) function. The *ClassGuid* parameter is a pointer to **GUID\_DEVCLASS\_BATTERY** (defined in BatClass.h). To enumerate all of the batteries, set the *Enumerator* parameter to **NULL** and set the *Flags* parameter to **DIGCF\_PRESENT** \| **DIGCF\_INTERFACEDEVICE**. To obtain the names of the battery devices, use the [SetupDiEnumDeviceInterfaces](http://go.microsoft.com/fwlink/p/?linkid=91492) and [SetupDiGetDeviceInterfaceDetail](http://go.microsoft.com/fwlink/p/?linkid=91494) functions on the data returned. To open a file handle for each of the battery devices, call the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function with these names.
+To enumerate the battery devices on a local computer, use the [SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493) function. The *ClassGuid* parameter is a pointer to **GUID\_DEVCLASS\_BATTERY** (defined in BatClass.h). To enumerate all of the batteries, set the *Enumerator* parameter to **NULL** and set the *Flags* parameter to **DIGCF\_PRESENT** \| **DIGCF\_INTERFACEDEVICE**. To obtain the names of the battery devices, use the [SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492) and [SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494) functions on the data returned. To open a file handle for each of the battery devices, call the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function with these names.
 
 The following C++ example shows how to enumerate battery devices on a local computer.
 
@@ -175,13 +175,13 @@ To enumerate the battery devices connected to a remote computer, use the [**Win3
 
 <dl> <dt>
 
-[SetupDiGetClassDevs](http://go.microsoft.com/fwlink/p/?linkid=91493)
+[SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493)
 </dt> <dt>
 
-[SetupDiEnumDeviceInterfaces](http://go.microsoft.com/fwlink/p/?linkid=91492)
+[SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492)
 </dt> <dt>
 
-[SetupDiGetDeviceInterfaceDetail](http://go.microsoft.com/fwlink/p/?linkid=91494)
+[SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494)
 </dt> <dt>
 
 [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md)

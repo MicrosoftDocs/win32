@@ -323,7 +323,7 @@ BOOL SetConnectionOptions()
 
     // Set proxy name.
     list.pOptions[1].dwOption = INTERNET_PER_CONN_PROXY_SERVER;
-    list.pOptions[1].Value.pszValue = TEXT("http://proxy:80");
+    list.pOptions[1].Value.pszValue = TEXT("https://proxy:80");
 
     // Set proxy override.
     list.pOptions[2].dwOption = INTERNET_PER_CONN_PROXY_BYPASS;

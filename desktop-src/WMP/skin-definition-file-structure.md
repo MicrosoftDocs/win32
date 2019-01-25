@@ -48,7 +48,7 @@ The following code shows how to set the **URL** value in a skin:
 
 ```C++
 <PLAYER
-  URL = "http://proseware.com/mellow.wma">
+  URL = "https://proseware.com/mellow.wma">
 </PLAYER>
 
 ```

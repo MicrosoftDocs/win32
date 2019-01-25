@@ -12,7 +12,7 @@ The Multimedia Class Scheduler service (MMCSS) enables multimedia applications t
 
 MMCSS uses information stored in the registry to identify supported tasks and determine the relative priority of threads performing these tasks. Each thread that is performing work related to a particular task calls the [**AvSetMmMaxThreadCharacteristics**](/windows/desktop/api/Avrt/nf-avrt-avsetmmmaxthreadcharacteristicsa) or [**AvSetMmThreadCharacteristics**](/windows/desktop/api/Avrt/nf-avrt-avsetmmthreadcharacteristicsa) function to inform MMCSS that it is working on that task.
 
-For an example of a program that uses MMCSS, see [Exclusive-Mode Streams](http://go.microsoft.com/fwlink/p/?linkid=99111).
+For an example of a program that uses MMCSS, see [Exclusive-Mode Streams](https://go.microsoft.com/fwlink/p/?linkid=99111).
 
 **Windows Server 2003 and Windows XP:** MMCSS is not available.
 
@@ -54,7 +54,7 @@ Each task key contains the following set of values that represent characteristic
  
 
 > [!Note]  
-> To conserve power, applications should not set the resolution of the system-wide timer to a small value unless absolutely necessary. For more information, see [Performance](http://go.microsoft.com/fwlink/p/?linkid=193470) in the [Windows 7 Developers Guide](http://go.microsoft.com/fwlink/p/?linkid=148436).
+> To conserve power, applications should not set the resolution of the system-wide timer to a small value unless absolutely necessary. For more information, see [Performance](https://go.microsoft.com/fwlink/p/?linkid=193470) in the [Windows 7 Developers Guide](https://go.microsoft.com/fwlink/p/?linkid=148436).
 
  
 

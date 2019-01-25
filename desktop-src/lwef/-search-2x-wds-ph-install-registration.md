@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Installing and Registering Protocol Handlers
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 Installing **protocol handlers** involves copying the DLL(s) to an appropriate location in the Program Files directory and registering them.
 

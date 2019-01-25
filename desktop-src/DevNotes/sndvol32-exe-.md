@@ -42,7 +42,7 @@ For more information about using this control, start the program and select **He
 
 <dl> <dt>
 
-[SysTray and SndVol32](Http://go.microsoft.com/fwlink/p/?linkid=85315)
+[SysTray and SndVol32](https://go.microsoft.com/fwlink/p/?linkid=85315)
 </dt> </dl>
 
  

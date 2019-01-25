@@ -145,7 +145,7 @@ In addition, the framework does not permanently store any information except wha
 
 To provide a highly accessible UI, the Ribbon framework implements Microsoft Active Accessibility. By automatically populating relevant Microsoft Active Accessibility properties with valid and helpful information, the framework significantly reduces the burden on developers to provide an inclusive experience for all users.
 
-For more information on accessibility in the Ribbon framework, see [Working with Active Accessibility in the 2007 Office Fluent User Interface](http://go.microsoft.com/fwlink/p/?linkid=157256).
+For more information on accessibility in the Ribbon framework, see [Working with Active Accessibility in the 2007 Office Fluent User Interface](https://go.microsoft.com/fwlink/p/?linkid=157256).
 
 In addition, the Ribbon framework is a Windows feature and, as such, is localized for all languages that Windows supports. Developers, however, are responsible for localizing their own specific application resources.
 
@@ -153,7 +153,7 @@ In addition, the Ribbon framework is a Windows feature and, as such, is localize
 
 The Ribbon is a new and engaging form of command presentation that application developers, architects, and designers should consider when designing and building new applications or updating existing ones.
 
-The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=156613) is available to discuss topics and ask questions related to developing applications that implement the Windows Ribbon framework.
+The [Windows Ribbon Development Forum](https://go.microsoft.com/fwlink/p/?linkid=156613) is available to discuss topics and ask questions related to developing applications that implement the Windows Ribbon framework.
 
 ## Related topics
 
@@ -162,10 +162,10 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
 [Declaring Commands and Controls with Ribbon Markup](windowsribbon-schema.md)
 </dt> <dt>
 
-[Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233)
+[Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233)
 </dt> <dt>
 
-[Ribbon Design Process](http://go.microsoft.com/fwlink/p/?linkid=129234)
+[Ribbon Design Process](https://go.microsoft.com/fwlink/p/?linkid=129234)
 </dt> </dl>
 
  

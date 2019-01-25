@@ -15,7 +15,7 @@ api_location:
 
 The OneX Schema defines 802.1X configuration elements. All OneX schema elements apply to both wired and wireless profiles. For a list of defined elements, see [OneX Schema Elements](onexschema-elements.md).
 
-The root element of an 802.1X profile is the [**OneX**](onexschema-onex-element.md) element. Each profile will have exactly one root element. The **OneX** element is in the `http://www.microsoft.com/networking/OneX/v1` namespace.
+The root element of an 802.1X profile is the [**OneX**](onexschema-onex-element.md) element. Each profile will have exactly one root element. The **OneX** element is in the `https://www.microsoft.com/networking/OneX/v1` namespace.
 
 To view sample profiles for wireless networks that include 802.1X configuration elements, see the following profile samples:
 

@@ -37,11 +37,11 @@ Consider the following suggestions early in the design phase to optimize the use
 
 -   Follow UI design guidelines.
 
-    Become familiar with the [Windows User Experience Interaction Guidelines](http://go.microsoft.com/fwlink/p/?linkid=248695) and refer to them often as the design, implementation, and testing of the application UI progresses.
+    Become familiar with the [Windows User Experience Interaction Guidelines](https://go.microsoft.com/fwlink/p/?linkid=248695) and refer to them often as the design, implementation, and testing of the application UI progresses.
 
 -   Ensure that the UI is accessible.
 
-    Be sure to integrate accessibility into the UI design from the beginning of the product lifecycle. Retrofitting accessibility can be extremely costly because part of accessibility development requires attention at the architectural level. For more information, download the [Engineering Software for Accessibility eBook](http://go.microsoft.com/fwlink/p/?linkid=191556).
+    Be sure to integrate accessibility into the UI design from the beginning of the product lifecycle. Retrofitting accessibility can be extremely costly because part of accessibility development requires attention at the architectural level. For more information, download the [Engineering Software for Accessibility eBook](https://go.microsoft.com/fwlink/p/?linkid=191556).
 
 -   Support the international marketplace.
 

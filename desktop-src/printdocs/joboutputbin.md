@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobOutputBin
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Describes the installed output bin in a device or the full list of supported bins for a device. The JobOutputBin, DocumentOutputBin and PageOutputBin keywords are mutually exclusive only one should be specified in a PrintTicket or Print Capabilities document.
 
@@ -62,7 +62,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                                   | Data type          | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                             |
 |----------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| \_OptionName\_<br/>              | string<br/>  | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](http://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                                  |
+| \_OptionName\_<br/>              | string<br/>  | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                                  |
 | \_IdentityOptionValue\_<br/>     | string<br/>  | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/>        |
 | \_BinTypeValue\_<br/>            | string<br/>  | n/a<br/>        | MailBox, Sorter, Stacker, Finisher, None.<br/>                                                                                                                                  | Specifies the general type of the bin.<br/>                                   |
 | \_MediaSheetCapacityValue\_<br/> | integer<br/> | sheets<br/>     | Maximum integer constraint allowed by device.<br/>                                                                                                                              | Specifies the Media capacity in number of pages (full level) of the bin.<br/> |
@@ -73,7 +73,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobOutputBin">
@@ -96,7 +96,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

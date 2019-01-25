@@ -19,7 +19,7 @@ This section contains the reference pages for Direct3D 11-based graphics program
 | [Direct3D 11 Reference](d3d11-graphics-reference.md)<br/>          | The Direct3D 11 API is described in this section.<br/>                                                                                                                                                                                       |
 | [D3DCSX 11 Reference](d3d11-graphics-reference-d3dcsx11.md)<br/>   | This section contains reference information about the D3DCSX utility library, which you can use with a compute shader.<br/>                                                                                                                  |
 | [D3DX 11 Reference](d3d11-graphics-reference-d3dx11.md)<br/>       | The D3DX 11 API is described in this section.<br/>                                                                                                                                                                                           |
-| [Effects 11 Reference](d3d11-graphics-reference-effects11.md)<br/> | Use Effects 11 source to build your effects-type application. The Effects 11 source is available at [Effects for Direct3D 11 Update](http://go.microsoft.com/fwlink/p/?LinkId=271568). The Effects 11 API is described in this section.<br/> |
+| [Effects 11 Reference](d3d11-graphics-reference-effects11.md)<br/> | Use Effects 11 source to build your effects-type application. The Effects 11 source is available at [Effects for Direct3D 11 Update](https://go.microsoft.com/fwlink/p/?LinkId=271568). The Effects 11 API is described in this section.<br/> |
 
 
 

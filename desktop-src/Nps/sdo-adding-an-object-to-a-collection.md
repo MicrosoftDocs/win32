@@ -106,7 +106,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
 
 <dl> <dt>
 
-[\_bstr\_t](Http://go.microsoft.com/fwlink/p/?linkid=83856)
+[\_bstr\_t](https://go.microsoft.com/fwlink/p/?linkid=83856)
 </dt> <dt>
 
 [**ISdoCollection::Add**](https://msdn.microsoft.com/library/bb960641)

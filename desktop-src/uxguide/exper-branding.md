@@ -14,7 +14,7 @@ Branding is the emotional positioning of a product as perceived by its customers
 
 Successful branding requires skillful crafting of a product image, and is not achieved simply by plastering a product logo on every surface and using the product's color scheme at every opportunity. Rather, meaningful and high-quality branding that enhances users' experience will be much more successful.
 
-**Note:** Guidelines related to [icons](vis-icons.md), [fonts](vis-fonts.md), [color](vis-color.md), [animation](vis-animations.md) , [sound](http://msdn.microsoft.com/library/windows/desktop/aa511278.aspx), and [window frames](win-window-frames.md) are presented in separate articles.
+**Note:** Guidelines related to [icons](vis-icons.md), [fonts](vis-fonts.md), [color](vis-color.md), [animation](vis-animations.md) , [sound](https://msdn.microsoft.com/library/windows/desktop/aa511278.aspx), and [window frames](win-window-frames.md) are presented in separate articles.
 
 ## Design concepts
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Web Services on Devices
 
-The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the [Devices Profile for Web Services](http://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS). WSDAPI may be used for the development of both client and server (device) implementations.
+The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS). WSDAPI may be used for the development of both client and server (device) implementations.
 
 Whenever possible, use WSDAPI to create a Windows-based WSD client or device host application. Using WSDAPI reduces the complexity of development and saves time. For more information, see [WSD Application Development on Windows](wsd-application-development-on-windows.md) and [WSDAPI Development Tools](wsdapi-development-tools.md).
 

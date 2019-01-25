@@ -85,7 +85,7 @@ JScript:
 <script language="JavaScript">
     function fnShellUIHelperAddFavoriteJ()
     {
-        ShellUIHelper.AddFavorite("http://www.msn.com", "MSN Home Page");
+        ShellUIHelper.AddFavorite("https://www.msn.com", "MSN Home Page");
     }
 </script>
 
@@ -105,7 +105,7 @@ Private Sub fnShellUIHelperAddFavoriteVB()
     Dim objShellUIHelper As ShellUIHelper
     
     Set objShellUIHelper = New ShellUIHelper
-        objShellUIHelper.AddFavorite "http://www.msn.com", "MSN Home Page"
+        objShellUIHelper.AddFavorite "https://www.msn.com", "MSN Home Page"
     Set objShellUIHelper = Nothing
 End Sub
 ```

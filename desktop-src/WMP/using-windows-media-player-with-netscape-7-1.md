@@ -35,9 +35,9 @@ The Netscape 7.1 Web browser provides native support for Windows Media Player Ac
 
 If you wish to use the Windows Media Player control in Netscape, it is recommended that you use Netscape 7.1.
 
-For more information about using the Windows Media Player control with Netscape 7.1, see the [Netscape website](http://go.microsoft.com/fwlink/p/?linkid=27546).
+For more information about using the Windows Media Player control with Netscape 7.1, see the [Netscape website](https://go.microsoft.com/fwlink/p/?linkid=27546).
 
-For more information about the Gecko ActiveX component, see the [StreamingMedia.com website](http://go.microsoft.com/fwlink/p/?linkid=27952).
+For more information about the Gecko ActiveX component, see the [StreamingMedia.com website](https://go.microsoft.com/fwlink/p/?linkid=27952).
 
 The full download of this SDK includes a sample that demonstrates Web browser detection. For more information about samples included with the SDK, see [Samples](samples.md).
 

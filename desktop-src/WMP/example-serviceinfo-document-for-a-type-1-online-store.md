@@ -34,48 +34,48 @@ The following code example shows a complete ServiceInfo.xml document. You can us
     </Description>
 
     <Image 
-        EulaURL = "http://www.proseware.com/service/images/eula.png"
-        MenuURL = "http://www.proseware.com/service/images/menuicon.jpg"
-        ServiceLargeURL = "http://www.proseware.com/service/images/45x13Large.png"
-        ServiceSmallURL = "http://www.proseware.com/service/images/45x13Small.png" />
+        EulaURL = "https://www.proseware.com/service/images/eula.png"
+        MenuURL = "https://www.proseware.com/service/images/menuicon.jpg"
+        ServiceLargeURL = "https://www.proseware.com/service/images/45x13Large.png"
+        ServiceSmallURL = "https://www.proseware.com/service/images/45x13Small.png" />
 
     <Color
         MediaPlayer = "#FF8040"
         MediaPlayerText = "#FFFFFF"/>
 
     <ServiceTask1
-        URL = "http://www.proseware.com/service/html/Music.asp">
+        URL = "https://www.proseware.com/service/html/Music.asp">
         <ButtonText>Proseware\nMusic</ButtonText>
         <ButtonTip>Proseware Music Store</ButtonTip>
     </ServiceTask1>
 
     <Navigate
-        BaseURL = "http://www.proseware.com/service/html/navigate.asp">
+        BaseURL = "https://www.proseware.com/service/html/navigate.asp">
     </Navigate>
 
     <InfoCenter
-        URL = "http://www.proseware.com/service/html/InfoCenter.asp"/>
+        URL = "https://www.proseware.com/service/html/InfoCenter.asp"/>
 
     <AlbumInfo
-        URL = "http://www.proseware.com/service/html/AlbumInfo.asp"/>
+        URL = "https://www.proseware.com/service/html/AlbumInfo.asp"/>
 
     <BuyCD
-        MediaPlayerURL = "http://www.proseware.com/service/html/BuyCDMediaPlayer.asp"
-        MediaCenterURL = "http://www.proseware.com/service/html/BuyCDMediaCenter.asp"
-        BrowserURL = "http://www.proseware.com/service/html/BuyCDBrowser.asp"/>
+        MediaPlayerURL = "https://www.proseware.com/service/html/BuyCDMediaPlayer.asp"
+        MediaCenterURL = "https://www.proseware.com/service/html/BuyCDMediaCenter.asp"
+        BrowserURL = "https://www.proseware.com/service/html/BuyCDBrowser.asp"/>
 
     <DownloadStatus
-        URL = "http://www.proseware.com/service/html/Music_Download.htm"/>
+        URL = "https://www.proseware.com/service/html/Music_Download.htm"/>
 
     <HTMLView
-        BaseURL = "http://www.proseware.com/"/>
+        BaseURL = "https://www.proseware.com/"/>
 
     <Install
-        EULAURL="http://www.proseware.com/service/html/eula.txt"
-        CodeURL="http://www.proseware.com/service/html/ProsewareInstall.cab"
-        PrivacyInfoURL="http://www.proseware.com/service/html/PrivacyPolicy.htm"
+        EULAURL="https://www.proseware.com/service/html/eula.txt"
+        CodeURL="https://www.proseware.com/service/html/ProsewareInstall.cab"
+        PrivacyInfoURL="https://www.proseware.com/service/html/PrivacyPolicy.htm"
         InstallApp="ProsewareSetup.exe"  
-        CatalogURL="http://www.proseware.com/service/html/Catalog.asp"/>
+        CatalogURL="https://www.proseware.com/service/html/Catalog.asp"/>
 
 </ServiceInfo>
 ```

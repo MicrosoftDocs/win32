@@ -101,9 +101,9 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-See [Types of Bitmaps (GDI+)](http://msdn2.microsoft.com/en-us/library/ms536393.aspx) for more information on some of these formats.
+See [Types of Bitmaps (GDI+)](https://msdn2.microsoft.com/en-us/library/ms536393.aspx) for more information on some of these formats.
 
-D3DX10 makes use of the Windows Imaging Component to implement the majority of the supported bitmap file types. See [Windows Imaging Component Overview](http://msdn.microsoft.com/en-us/library/ms737408.aspx) for additional information.
+D3DX10 makes use of the Windows Imaging Component to implement the majority of the supported bitmap file types. See [Windows Imaging Component Overview](https://msdn.microsoft.com/en-us/library/ms737408.aspx) for additional information.
 
 ## Requirements
 

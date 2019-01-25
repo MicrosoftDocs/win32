@@ -54,7 +54,7 @@ api_location:
 The **CIM\_NFS** class represents a remote file system that is mounted, using the network file system (NFS) protocol, from a computer system. The properties of the NFS object correspond to the operational aspects of the mount and represent the client-side configuration for NFS access. The file system type should be set to indicate the type of file system as it appears to the client.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

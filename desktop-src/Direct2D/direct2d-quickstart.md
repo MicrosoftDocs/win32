@@ -685,7 +685,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
 You've completed the tutorial.
 
 > [!Note]  
-> To use Direct2D, ensure that your application includes the d2d1.h header file and compiles against the d2d1.lib library. You can find d2d1.h and d2d1.lib in [Windows Software Development Kit (SDK) for Windows 7](http://go.microsoft.com/fwlink/p/?linkid=154879).
+> To use Direct2D, ensure that your application includes the d2d1.h header file and compiles against the d2d1.lib library. You can find d2d1.h and d2d1.lib in [Windows Software Development Kit (SDK) for Windows 7](https://go.microsoft.com/fwlink/p/?linkid=154879).
 
  
 

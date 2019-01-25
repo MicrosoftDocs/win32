@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # VML Target Attribute
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -56,14 +56,14 @@ When the rectangle is clicked, the browser loads the Microsoft Corporation home 
 
 ```HTML
    <v:rect id=myrect fillcolor="red"
-   href="http://www.microsoft.com" target="_self"
+   href="https://www.microsoft.com" target="_self"
    style="position:relative;top:1;left:1;width:20;height:20">
    </v:rect>
 ```
 
 
 
-[Target Attribute Example](http://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_target.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Target Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_target.md). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

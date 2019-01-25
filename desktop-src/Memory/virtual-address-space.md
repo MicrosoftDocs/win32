@@ -60,7 +60,7 @@ After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWA
 
 You can use the following command to set a boot entry option that configures the size of the partition that is available for use by the process to a value between 2048 (2 GB) and 3072 (3 GB):
 
-[BCDEdit /set](http://go.microsoft.com/fwlink/p/?linkid=93291) **increaseuserva** *Megabytes*
+[BCDEdit /set](https://go.microsoft.com/fwlink/p/?linkid=93291) **increaseuserva** *Megabytes*
 
 After the boot entry option is set, the memory range for each partition is as follows.
 

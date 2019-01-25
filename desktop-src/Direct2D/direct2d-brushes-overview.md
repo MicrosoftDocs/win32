@@ -47,7 +47,7 @@ The following illustration shows examples of each of the different brush types.
 
 ## Color Basics
 
-Before you paint with an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) or a gradient brush, you need to choose colors. In Direct2D, colors are represented by the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structure (which is actually just a new name for the structure that is used by Direct3D, [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx)).
+Before you paint with an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) or a gradient brush, you need to choose colors. In Direct2D, colors are represented by the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structure (which is actually just a new name for the structure that is used by Direct3D, [D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx)).
 
 Prior to Windows 8, [**D2D1\_COLOR\_F**](d2d1-color-f.md) uses sRGB encoding. sRGB encoding divides colors into four components: red, green, blue, and alpha. Each component is represented by a floating point value with a normal range of 0.0 to 1.0. A value of 0.0 indicates the complete absence of that color, while a value of 1.0 indicates that the color is fully present. For the alpha component, 0.0 represents a fully transparent color and 1.0 represents a fully opaque color.
 

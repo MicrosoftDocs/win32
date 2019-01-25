@@ -16,7 +16,7 @@ For information about implementing a Credential Provider, see the following topi
 
 | Topic                                                                                                           | Description                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [Credential Provider driven Windows Logon Experience](http://go.microsoft.com/fwlink/?LinkId=717287)<br/> | Overview of Winlogon and Credential Provider architecture and a sample Credential Provider.<br/> |
+| [Credential Provider driven Windows Logon Experience](https://go.microsoft.com/fwlink/?LinkId=717287)<br/> | Overview of Winlogon and Credential Provider architecture and a sample Credential Provider.<br/> |
 | [Shell Interfaces](https://msdn.microsoft.com/en-us/library/Bb774328(v=VS.85).aspx)<br/>                                                                | Credential Provider interface reference.<br/>                                                    |
 | [Credential Providers in Windows 10](credential-providers-in-windows.md)<br/>                            | Third-party credential providers and system credential providers in Windows 10.<br/>             |
 

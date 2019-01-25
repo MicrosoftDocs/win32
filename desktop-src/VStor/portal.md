@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## <span id="purpose"></span>Purpose
 
-The Virtual Hard Disk (VHD) format is a publicly-available image format specification that specifies a virtual hard disk encapsulated in a single file, capable of hosting native file systems while supporting standard disk and file operations. An example of how VHD files are used is the [Hyper-V](http://go.microsoft.com/fwlink/p/?linkid=128149) feature in Windows Server 2008, Virtual Server, and Windows Virtual PC. These products use VHDs to contain the Windows operating system image utilized by a virtual machine as its system boot disk.
+The Virtual Hard Disk (VHD) format is a publicly-available image format specification that specifies a virtual hard disk encapsulated in a single file, capable of hosting native file systems while supporting standard disk and file operations. An example of how VHD files are used is the [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=128149) feature in Windows Server 2008, Virtual Server, and Windows Virtual PC. These products use VHDs to contain the Windows operating system image utilized by a virtual machine as its system boot disk.
 
 ## <span id="developer_audience_heading"></span>Developer audience
 

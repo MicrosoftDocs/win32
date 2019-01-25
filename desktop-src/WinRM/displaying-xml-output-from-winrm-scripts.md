@@ -14,7 +14,7 @@ api_location:
 
 # Displaying XML Output from WinRM Scripts
 
-Windows Remote Management scripts return XML rather than objects. The XML is not in a human-readable format. You can use the methods of the [MSXML](http://go.microsoft.com/fwlink/p/?linkid=57523) API and the preinstalled XSL file to transform the data into human-readable format.
+Windows Remote Management scripts return XML rather than objects. The XML is not in a human-readable format. You can use the methods of the [MSXML](https://go.microsoft.com/fwlink/p/?linkid=57523) API and the preinstalled XSL file to transform the data into human-readable format.
 
 For more information about WinRM XML output and examples of raw and formatted XML, see [Scripting in Windows Remote Management](scripting-in-windows-remote-management.md).
 
@@ -43,13 +43,13 @@ The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl tha
 3.  Obtain data through [**Session**](session.md) object methods.
 
     ```VB
-    xmlResponse = Session.Get("http://schemas.microsoft.com/" & _
+    xmlResponse = Session.Get("https://schemas.microsoft.com/" & _
         "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Spooler")
     ```
 
     
 
-4.  Supply the response to the MSXML [loadXML](http://go.microsoft.com/fwlink/p/?linkid=84374) method and the [load](http://go.microsoft.com/fwlink/p/?linkid=84377) method to store the transform file.
+4.  Supply the response to the MSXML [loadXML](https://go.microsoft.com/fwlink/p/?linkid=84374) method and the [load](https://go.microsoft.com/fwlink/p/?linkid=84377) method to store the transform file.
 
     ```VB
     xmlFile.LoadXml(xmlResponse)
@@ -59,7 +59,7 @@ The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl tha
 
     
 
-5.  Use the MSXML [transformNode](http://go.microsoft.com/fwlink/p/?linkid=84376) method and display or save the output.
+5.  Use the MSXML [transformNode](https://go.microsoft.com/fwlink/p/?linkid=84376) method and display or save the output.
 
     ```VB
     Wscript.Echo xmlFile.TransformNode(xslFile)
@@ -76,7 +76,7 @@ Set Session = Wsman.CreateSession
 Set xmlFile = CreateObject( "MSXml.DOMDocument" )
 Set xslFile = CreateObject( "MSXml.DOMDocument" )
 
-xmlResponse = Session.Get("http://schemas.microsoft.com/" & _
+xmlResponse = Session.Get("https://schemas.microsoft.com/" & _
     "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Spooler")
 xmlFile.LoadXml(xmlResponse)
 xslFile.Load("WsmTxt.xsl")
@@ -113,8 +113,8 @@ The following subroutine transforms each line of your data as shown in the follo
 ```VB
 Const RemoteComputer = "servername.domain.com"
 Set objWsman = CreateObject("WSMan.Automation")
-Set objSession = objWsman.CreateSession("http://" & RemoteComputer)
-strResource = "http://schemas.microsoft.com/" & _
+Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
+strResource = "https://schemas.microsoft.com/" & _
     "wbem/wsman/1/wmi/root/cimv2/Win32_LogicalDisk"
 Set objResultSet = objSession.Enumerate(strResource)
 While Not objResultSet.AtEndOfStream

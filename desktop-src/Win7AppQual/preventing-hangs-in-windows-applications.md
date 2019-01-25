@@ -189,7 +189,7 @@ The sample code below illustrates this issue. The unbounded access to the "buffe
 -   [Synchronization Objects](https://msdn.microsoft.com/en-us/library/ms681924(v=VS.85).aspx)
 -   [**TerminateThread Function**](https://msdn.microsoft.com/en-us/library/ms686717(v=VS.85).aspx)
 -   [Windows Error Reporting](https://msdn.microsoft.com/en-us/library/Bb513641(v=VS.85).aspx)
--   [Winqual](http://go.microsoft.com/fwlink/p/?linkid=92793)
+-   [Winqual](https://go.microsoft.com/fwlink/p/?linkid=92793)
 
  
 

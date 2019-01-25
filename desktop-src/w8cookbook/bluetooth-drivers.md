@@ -13,7 +13,7 @@ api_location:
 
 # Bluetooth drivers
 
-IHVs and Enterprise customers should be aware that Bluetooth drivers and third party profile packs will not be migrated to Windows 10 as part of upgrade from Windows 7, Windows 8 or Windows 8.1. Please refer to [this article](http://go.microsoft.com/fwlink/?LinkId=761240) for more information about Bluetooth changes for Windows 10.
+IHVs and Enterprise customers should be aware that Bluetooth drivers and third party profile packs will not be migrated to Windows 10 as part of upgrade from Windows 7, Windows 8 or Windows 8.1. Please refer to [this article](https://go.microsoft.com/fwlink/?LinkId=761240) for more information about Bluetooth changes for Windows 10.
 
  
 

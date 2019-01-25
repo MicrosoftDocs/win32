@@ -34,7 +34,7 @@ Once a screen saver is chosen, Windows monitors keystrokes and mouse movements a
 
 -   The active application is not a Windows-based application.
 -   A computer-based training (CBT) window is present.
--   The active application receives the [WM\_SYSCOMMAND](http://msdn.microsoft.com/library/ms646360(VS.85).aspx) message with the *wParam* parameter set to the SC\_SCREENSAVE value, but it does not pass the message to the [DefWindowProc](http://msdn.microsoft.com/library/ms633572(VS.85).aspx) function.
+-   The active application receives the [WM\_SYSCOMMAND](https://msdn.microsoft.com/library/ms646360(VS.85).aspx) message with the *wParam* parameter set to the SC\_SCREENSAVE value, but it does not pass the message to the [DefWindowProc](https://msdn.microsoft.com/library/ms633572(VS.85).aspx) function.
 
 **Security Context of the Screen Saver**
 
@@ -78,7 +78,7 @@ One of the three required functions in a screen saver module is [**ScreenSaverPr
 | WM\_CREATE     | Retrieve any initialization data from the Regedit.ini file. Set a window timer for the screen saver window. Perform any other required initialization.                                     |
 | WM\_ERASEBKGND | Erase the screen saver window and prepare for subsequent drawing operations.                                                                                                               |
 | WM\_TIMER      | Perform drawing operations.                                                                                                                                                                |
-| WM\_DESTROY    | Destroy the timers created when the application processed the [WM\_CREATE](http://msdn.microsoft.com/library/ms632619(VS.85).aspx) message. Perform any additional required cleanup. |
+| WM\_DESTROY    | Destroy the timers created when the application processed the [WM\_CREATE](https://msdn.microsoft.com/library/ms632619(VS.85).aspx) message. Perform any additional required cleanup. |
 
 
 
@@ -121,7 +121,7 @@ This section uses example code taken from a screen saver application to illustra
 
 ### Creating a Screen Saver
 
-At intervals ranging from 1 through 10 seconds, the application in this example repaints the screen with one of four colors: white, light gray, dark gray, and black. The application paints the screen each time it receives a [WM\_TIMER](http://msdn.microsoft.com/library/ms644902(VS.85).aspx) message. The user can adjust the interval at which this message is sent by selecting the application's configuration dialog box and adjusting a single horizontal scroll bar.
+At intervals ranging from 1 through 10 seconds, the application in this example repaints the screen with one of four colors: white, light gray, dark gray, and black. The application paints the screen each time it receives a [WM\_TIMER](https://msdn.microsoft.com/library/ms644902(VS.85).aspx) message. The user can adjust the interval at which this message is sent by selecting the application's configuration dialog box and adjusting a single horizontal scroll bar.
 
 ### Screen saver library
 
@@ -307,7 +307,7 @@ HANDLE  hInst;
 
 ### Supporting the screen saver window procedure
 
-Each screen saver must support a window procedure named [**ScreenSaverProc**](https://msdn.microsoft.com/library/windows/desktop/bb762098). Like most window procedures, **ScreenSaverProc** processes a set of specific messages and passes any unprocessed messages to a default procedure. However, instead of passing them to the [DefWindowProc](http://msdn.microsoft.com/library/ms633572(VS.85).aspx) function, **ScreenSaverProc** passes unprocessed messages to the [**DefScreenSaverProc**](https://msdn.microsoft.com/library/windows/desktop/bb776402) function. Another difference between **ScreenSaverProc** and a normal window procedure is that the handle passed to **ScreenSaverProc** identifies the entire desktop rather than a client window. The following example shows the **ScreenSaverProc** window procedure for the sample screen saver.
+Each screen saver must support a window procedure named [**ScreenSaverProc**](https://msdn.microsoft.com/library/windows/desktop/bb762098). Like most window procedures, **ScreenSaverProc** processes a set of specific messages and passes any unprocessed messages to a default procedure. However, instead of passing them to the [DefWindowProc](https://msdn.microsoft.com/library/ms633572(VS.85).aspx) function, **ScreenSaverProc** passes unprocessed messages to the [**DefScreenSaverProc**](https://msdn.microsoft.com/library/windows/desktop/bb776402) function. Another difference between **ScreenSaverProc** and a normal window procedure is that the handle passed to **ScreenSaverProc** identifies the entire desktop rather than a client window. The following example shows the **ScreenSaverProc** window procedure for the sample screen saver.
 
 
 ```

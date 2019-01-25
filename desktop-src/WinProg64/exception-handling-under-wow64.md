@@ -14,7 +14,7 @@ In an application running on a 32-bit version of Windows, uncaught exceptions ar
 
 **Windows Vista, Windows Server 2003 and Windows XP:** In the same 32-bit application running under WOW64, the system calls the exception filters but may suppress uncaught exceptions without invoking the associated handlers. This behavior changed starting with Windows Vista with Service Pack 1 (SP1).
 
-For more information about uncaught exceptions in window procedures, see the [WindowProc](http://go.microsoft.com/fwlink/p/?linkid=179930) function.
+For more information about uncaught exceptions in window procedures, see the [WindowProc](https://go.microsoft.com/fwlink/p/?linkid=179930) function.
 
  
 

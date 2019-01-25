@@ -40,16 +40,16 @@ ms.date: 05/31/2018
 
 # Positioning Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
 You've learned how to draw and color shapes on a Web page using VML. In this topic, you'll use VML to precisely position graphics on a Web page.
 
-VML uses the same syntax defined in the [Box Model](http://www.w3.org/TR/PR-CSS2/box.mdl) and [Visual Rendering Model](http://www.w3.org/TR/PR-CSS2/visuren.mdl) sections of [CSS2](http://www.w3.org/TR/PR-CSS2/) to position shapes on a Web page. You can use [static](#static), [relative](#relative), or [absolute](#absolute) to determine where the base point is located on a Web page. You can then use the **top** and **left** style attributes to specify the offset from the base point at which the containing box for the shape will be positioned.
+VML uses the same syntax defined in the [Box Model](https://www.w3.org/TR/PR-CSS2/box.mdl) and [Visual Rendering Model](https://www.w3.org/TR/PR-CSS2/visuren.mdl) sections of [CSS2](https://www.w3.org/TR/PR-CSS2/) to position shapes on a Web page. You can use [static](#static), [relative](#relative), or [absolute](#absolute) to determine where the base point is located on a Web page. You can then use the **top** and **left** style attributes to specify the offset from the base point at which the containing box for the shape will be positioned.
 
 You can also use [z-index](#z-index) to specify the z-order of shapes on a Web page.
 
@@ -84,7 +84,7 @@ End.
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape1.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -108,7 +108,7 @@ End.
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape3.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape3.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -132,7 +132,7 @@ End.
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape2.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -156,7 +156,7 @@ fillcolor="red" />
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape4.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape4.md)
 
 If you change the z-index, as shown in the following VML representation, the red oval would move behind the blue rectangle.
 
@@ -173,7 +173,7 @@ fillcolor="blue" />
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape5.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape5.md)
 
 If you supply a negative integer, you can use z-index to position graphics behind the normal text flow, as shown in the following VML representation.
 
@@ -191,7 +191,7 @@ End.
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape6.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape6.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 

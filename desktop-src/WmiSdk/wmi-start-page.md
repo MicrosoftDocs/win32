@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems. You can write WMI scripts or applications to automate administrative tasks on remote computers but WMI also supplies management data to other parts of the operating system and products, for example System Center Operations Manager, formerly Microsoft Operations Manager (MOM), or Windows Remote Management ([WinRM](https://msdn.microsoft.com/library/aa384426)).
 
 > [!Note]  
-> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](http://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://technet.microsoft.com/library/ff406382.aspx)
+> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](https://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://technet.microsoft.com/library/ff406382.aspx)
 
  
 
@@ -27,13 +27,13 @@ Windows Management Instrumentation (WMI) is the infrastructure for management da
 
 WMI can be used in all Windows-based applications, and is most useful in enterprise applications and administrative scripts.
 
-System administrators can find information about using WMI at the TechNet [ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=37599), and in various books about WMI. For more information, see [Further Information](further-information.md).
+System administrators can find information about using WMI at the TechNet [ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=37599), and in various books about WMI. For more information, see [Further Information](further-information.md).
 
 ## Developer audience
 
 WMI is designed for programmers who use C/C++, the Microsoft Visual Basic application, or a scripting language that has an engine on Windows and handles Microsoft ActiveX objects. While some familiarity with COM programming is helpful, C++ developers who are writing applications can find good examples for getting started at [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md).
 
-To develop managed code providers or applications in C# or Visual Basic .NET using the .NET Framework, see [WMI in .NET Framework](Http://go.microsoft.com/fwlink/p/?linkid=84306).
+To develop managed code providers or applications in C# or Visual Basic .NET using the .NET Framework, see [WMI in .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=84306).
 
 Many administrators and IT professionals access WMI through PowerShell. The Get-WMI cmdlet for PowerShell enables you to retrieve information for a local or remote WMI repository. As such, a number of topics and classes, especially in the [Creating WMI Clients](creating-wmi-clients.md) section, contain PowerShell examples. For additional information on using PowerShell, see [Windows PowerShell](https://msdn.microsoft.com/library/dd835506.aspx) and [Scripting with Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx).
 

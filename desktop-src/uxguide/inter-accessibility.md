@@ -50,9 +50,9 @@ For more guidelines about helping users with these impairments, see [Addressing 
 
 A screen reader enables users with visual disabilities or impairments to navigate a UI by transforming visuals to audio. Thus, UI text, controls, menus, toolbars, graphics, and other screen elements are spoken by the computerized voice of the screen reader. To create a program optimized for screen reader assistive technology, you must plan for how the screen reader will identify each UI element.
 
-Each UI element that the user can interact with must be keyboard accessible, as well as be exposed through an accessibility application programming interface (API). We recommend using UI Automation, the new accessibility framework for all versions of Microsoft Windows that support Windows Presentation Foundation (WPF). UI Automation provides programmatic access to most elements on the desktop, enabling assistive technology products such as screen readers to provide information about the UI to users and to manipulate the UI by means other than standard input (for example, by speaking rather than or in addition to manipulating the mouse or keyboard). For more information, see the [UI Automation Overview](http://msdn2.microsoft.com/library/ms747327.aspx).
+Each UI element that the user can interact with must be keyboard accessible, as well as be exposed through an accessibility application programming interface (API). We recommend using UI Automation, the new accessibility framework for all versions of Microsoft Windows that support Windows Presentation Foundation (WPF). UI Automation provides programmatic access to most elements on the desktop, enabling assistive technology products such as screen readers to provide information about the UI to users and to manipulate the UI by means other than standard input (for example, by speaking rather than or in addition to manipulating the mouse or keyboard). For more information, see the [UI Automation Overview](https://msdn2.microsoft.com/library/ms747327.aspx).
 
-Be aware that although screen readers are a very important assistive technology, there are others as well. For more information about the range of technologies available, see [Types of Assistive Technology Products](http://www.microsoft.com/enable/at/types.aspx).
+Be aware that although screen readers are a very important assistive technology, there are others as well. For more information about the range of technologies available, see [Types of Assistive Technology Products](https://www.microsoft.com/enable/at/types.aspx).
 
 **Speech recognition**
 
@@ -82,7 +82,7 @@ For users who have difficulty with physical keyboards, and need to use an altern
 
 With Mouse Keys enabled, users who prefer the keyboard can use the arrow keys on the numeric keypad to move the mouse pointer.
 
-For a complete list of accessibility features, see [Accessibility in Windows Vista](http://www.microsoft.com/enable/products/windowsvista/default.aspx) on the Microsoft Web site.
+For a complete list of accessibility features, see [Accessibility in Windows Vista](https://www.microsoft.com/enable/products/windowsvista/default.aspx) on the Microsoft Web site.
 
 ### Keyboard-based navigation
 
@@ -149,7 +149,7 @@ Respect as a general, guiding principle is vital for designing accessible progra
 
 You should also demonstrate respect by:
 
--   Using system-wide settings (for example, System Color) rather than hardwiring settings for your particular program. Respect not only the parameters that users have specifically selected for interacting with their programs, but also accessibility features built into the operating system that the user wants in effect no matter which program they are using. For more information, see [About Windows Accessibility Features](http://msdn2.microsoft.com/library/ms695605.aspx).
+-   Using system-wide settings (for example, System Color) rather than hardwiring settings for your particular program. Respect not only the parameters that users have specifically selected for interacting with their programs, but also accessibility features built into the operating system that the user wants in effect no matter which program they are using. For more information, see [About Windows Accessibility Features](https://msdn2.microsoft.com/library/ms695605.aspx).
 -   Preferring common controls to custom controls, because common controls have already implemented the Windows accessibility APIs.
 -   Documenting all accessibility options and features (for example, all keyboard shortcuts). Users with impairments are highly motivated to discover accessibility features, and often expect comprehensive information to be collected in Help.
 -   Creating accessible documentation in accessible formats. Thus, the documentation itself should adhere to the same rules of accessibility as the primary UI, including the ability to enlarge font size, the use of alt text for graphics, and redundant information architecture (for example, using color-coding only as a supplement to text).

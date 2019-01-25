@@ -16,11 +16,11 @@ International Components for Unicode (ICU) is a mature, widely used set of open-
 -   **Collation**: Compare strings according to the conventions and standards of a particular language, region or country. ICU's collation is based on the Unicode Collation Algorithm plus locale-specific comparison rules from CLDR.
 -   **Formatting**: Format numbers, dates, times and currency amounts according the conventions of a chosen locale. This includes translating month and day names into the selected language, choosing appropriate abbreviations, ordering fields correctly, etc. This data also comes from the Common Locale Data Repository.
 -   **Time Calculations**: Multiple types of calendars are provided beyond the traditional Gregorian. A thorough set of time zone calculation APIs are provided.
--   **Unicode Support**: ICU closely tracks the Unicode standard, providing easy access to all of the many Unicode character properties, Unicode Normalization, Case Folding and other fundamental operations as specified by the [Unicode Standard](http://www.unicode.org/).
+-   **Unicode Support**: ICU closely tracks the Unicode standard, providing easy access to all of the many Unicode character properties, Unicode Normalization, Case Folding and other fundamental operations as specified by the [Unicode Standard](https://www.unicode.org/).
 -   **Regular Expression**: ICU's regular expressions fully support Unicode while providing very competitive performance.
 -   **Bidi**: Support for handling text containing a mixture of left to right (English) and right to left (Arabic or Hebrew) data.
 
-For more information, you can visit the ICU website: <http://site.icu-project.org/>
+For more information, you can visit the ICU website: <https://site.icu-project.org/>
 
 ## Overview
 
@@ -31,7 +31,7 @@ In Windows 10 Creators Update, ICU was integrated into Windows, making the C API
 
  
 
-For documentation on the ICU C APIs, please refer to the official ICU documentation page here: <http://icu-project.org/apiref/icu4c/index.html#Module>
+For documentation on the ICU C APIs, please refer to the official ICU documentation page here: <https://icu-project.org/apiref/icu4c/index.html#Module>
 
 ## Getting Started
 

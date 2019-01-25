@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.SpeedRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.SpeedRef](http://msdn.microsoft.com/en-us/library/bb760587(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.SpeedRef](https://msdn.microsoft.com/en-us/library/bb760587(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.SpeedRef](http://msdn.microsoft.com/en-us/library/bb760587(VS.85).aspx)
+[System.GPS.SpeedRef](https://msdn.microsoft.com/en-us/library/bb760587(VS.85).aspx)
 </dt> </dl>
 
  

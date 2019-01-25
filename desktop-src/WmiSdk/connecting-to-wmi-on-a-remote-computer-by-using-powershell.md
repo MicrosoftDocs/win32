@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # Connecting to WMI Remotely with PowerShell
 
-Windows PowerShell provides a simple mechanism to connect to Windows Management Instrumentation (WMI) on a remote computer. Remote connections in WMI are affected by the [Windows Firewall](http://go.microsoft.com/fwlink/p/?linkid=157267), DCOM settings, and [User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=84439). For more information about configuring remote connections, see [Connecting to WMI Remotely Starting with Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Windows PowerShell provides a simple mechanism to connect to Windows Management Instrumentation (WMI) on a remote computer. Remote connections in WMI are affected by the [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=157267), DCOM settings, and [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439). For more information about configuring remote connections, see [Connecting to WMI Remotely Starting with Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
-The examples in this topic are based on the VBScripts from [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md). All of the examples in this topic use the [Get-WmiObject](http://go.microsoft.com/fwlink/p/?linkid=153476) cmdlet. For more information, see [Get-WmiObject](http://go.microsoft.com/fwlink/p/?linkid=153476).
+The examples in this topic are based on the VBScripts from [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md). All of the examples in this topic use the [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476) cmdlet. For more information, see [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476).
 
 ## Windows PowerShell examples
 
@@ -85,9 +85,9 @@ $ColItems[0..47] | Format-List Name, Status
  
 
 -   The computer names in the array must be enclosed in quotation marks because they are strings.
--   The objects returned by the [Get-WmiObject](http://go.microsoft.com/fwlink/p/?linkid=153476) are assigned to the $ColItems variable.
--   The range operator \[\] limited the list of Plug and Play devices to 48 instances. For more information, see [About\_Operators](http://go.microsoft.com/fwlink/p/?linkid=153524).
--   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( http://go.microsoft.com/fwlink/p/?linkid=153477) cmdlet.
+-   The objects returned by the [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476) are assigned to the $ColItems variable.
+-   The range operator \[\] limited the list of Plug and Play devices to 48 instances. For more information, see [About\_Operators](https://go.microsoft.com/fwlink/p/?linkid=153524).
+-   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( https://go.microsoft.com/fwlink/p/?linkid=153477) cmdlet.
 
 The following Windows PowerShell example enables you to connect to a remote computer on a different domain. This example also displays the process names for instances of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) on the remote computer.
 
@@ -112,7 +112,7 @@ write-host "Process Name:" $ObjItem.name
 
  
 
-In the preceding example, the user connects to a remote computer on a different domain and specifies a preferred locale. The [Get-Credential](http://go.microsoft.com/fwlink/p/?linkid=155904) command requests the user's credentials and assigns the credentials to an object. The example also lists the names of instances of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class that are running on the computer.
+In the preceding example, the user connects to a remote computer on a different domain and specifies a preferred locale. The [Get-Credential](https://go.microsoft.com/fwlink/p/?linkid=155904) command requests the user's credentials and assigns the credentials to an object. The example also lists the names of instances of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class that are running on the computer.
 
 ## Related topics
 

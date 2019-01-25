@@ -263,13 +263,13 @@ It's also important to make sure that the direction the geometry is facing is co
 
 The techniques described in this article can be used to increase the quality of standard shadow maps. The next step is to look at techniques that can work well with standard shadow maps. CSMs are recommended as a superior technique to combat perspective aliasing. Percentage closer filtering or variance shadow maps can be used to soften shadow edges. See the [Cascaded Shadow Maps](https://msdn.microsoft.com/library/windows/desktop/ee416307) technical article for more information.
 
-Donnelly, W., and Lauritzen, A. [Variance Shadow Maps](http://portal.acm.org/citation.cfm?doid=1111411.1111440). Symposium on Interactive 3D Graphics, Proceedings of the 2006 Symposium on Interactive 3D Graphics and Games. 2006, pp. 161–165.
+Donnelly, W., and Lauritzen, A. [Variance Shadow Maps](https://portal.acm.org/citation.cfm?doid=1111411.1111440). Symposium on Interactive 3D Graphics, Proceedings of the 2006 Symposium on Interactive 3D Graphics and Games. 2006, pp. 161–165.
 
 Engel, Woflgang F. Section 4. Cascaded Shadow Maps. ShaderX5, *Advanced Rendering Techniques*, Wolfgang F. Engel, Ed. Charles River Media, Boston, Massachusetts. 2006. pp. 197–206.
 
-Stamminger, Marc, and Drettakis, George. [Perspective Shadow Maps](http://portal.acm.org/citation.cfm?id=566616). International Conference on Computer Graphics and Interactive Techniques, *Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques*. 2002, pp 557–562.
+Stamminger, Marc, and Drettakis, George. [Perspective Shadow Maps](https://portal.acm.org/citation.cfm?id=566616). International Conference on Computer Graphics and Interactive Techniques, *Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques*. 2002, pp 557–562.
 
-Wimmer, M., Scherzer, D., and Purgathofer, W. [Light Space Perspective Shadow Maps](http://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf). Eurographics Symposium on Rendering. 2004. Revised June 10, 2005. [Technische Universität Wien](http://www.cg.tuwien.ac.at/research/vr/lispsm/).
+Wimmer, M., Scherzer, D., and Purgathofer, W. [Light Space Perspective Shadow Maps](https://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf). Eurographics Symposium on Rendering. 2004. Revised June 10, 2005. [Technische Universität Wien](https://www.cg.tuwien.ac.at/research/vr/lispsm/).
 
  
 

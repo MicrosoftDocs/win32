@@ -248,7 +248,7 @@ For more details about the helper methods, refer to the sample source code.
 
 ## Running the Sample
 
-The Tablet PC SDK 1.7 installs the Ink Blog Web sample by default. To run the sample, in Internet Explorer, navigate to http://localhost/TabletPCSDK\_WebSamples/InkBlogWeb/Default.aspx. If you are running Windows Server 2003, substitute your computer name for "localhost".
+The Tablet PC SDK 1.7 installs the Ink Blog Web sample by default. To run the sample, in Internet Explorer, navigate to https://localhost/TabletPCSDK\_WebSamples/InkBlogWeb/Default.aspx. If you are running Windows Server 2003, substitute your computer name for "localhost".
 
 > [!Note]  
 > The compiled web samples are not installed by the default installation option for the SDK. You must complete a custom installation and select the "Pre-compiled Web Samples" sub-option to install them.

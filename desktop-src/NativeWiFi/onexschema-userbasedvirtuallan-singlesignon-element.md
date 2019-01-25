@@ -33,7 +33,7 @@ The **userBasedVirtualLan** element is defined by the [**singleSignOn**](onexsch
 
 ## Remarks
 
-This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](Http://go.microsoft.com/fwlink/p/?linkid=120964).
+This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://go.microsoft.com/fwlink/p/?linkid=120964).
 
 ## Requirements
 

@@ -22,7 +22,7 @@ VT\_I4
 
 You can get this value from the encoder after the content is processed. This value can also be set on the decoder for dynamic range control.
 
-For more information on dynamic range control, see the web article [Windows Media Audio Professional Codec Features](http://go.microsoft.com/fwlink/p/?linkid=83063).
+For more information on dynamic range control, see the web article [Windows Media Audio Professional Codec Features](https://go.microsoft.com/fwlink/p/?linkid=83063).
 
 ## Requirements
 

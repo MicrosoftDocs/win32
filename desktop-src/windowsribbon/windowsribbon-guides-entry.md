@@ -72,7 +72,7 @@ The Windows Ribon framework (Ribbon) provides the ability to preserve the state 
 
 [Listening for Ribbon Events](listening-for-ribbon-events.md)
 
-The Ribbon framework uses the [Event Tracing for Windows (ETW)](http://go.microsoft.com/fwlink/p/?linkid=141498) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
+The Ribbon framework uses the [Event Tracing for Windows (ETW)](https://go.microsoft.com/fwlink/p/?linkid=141498) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
 
 ## Markup Compiler
 

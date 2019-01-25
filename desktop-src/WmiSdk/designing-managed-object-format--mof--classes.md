@@ -34,7 +34,7 @@ The following sections are discussed in this topic:
 
 After you identify the part of your enterprise to manage, define the objects to manage. The definition must include the required data, and allow you to implement the relevant business rules accurately. You can define objects at a granular level, but it is best to decide between the level of detail contained in the definition, and the need to provide enough detail to be useful. Shortcuts early in the process may save time, but may be cause more work in the future.
 
-The CIM Tutorial at the Distributed Management Task Force (DMTF) website contains excellent information about the design process. For more information, see [www.dmtf.org](Http://go.microsoft.com/fwlink/p/?linkid=84401).
+The CIM Tutorial at the Distributed Management Task Force (DMTF) website contains excellent information about the design process. For more information, see [www.dmtf.org](https://go.microsoft.com/fwlink/p/?linkid=84401).
 
 Consider the following factors when you develop and implement a schema design:
 

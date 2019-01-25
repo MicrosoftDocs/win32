@@ -72,7 +72,7 @@ The number of characters in the string. If Count is -1, then the pString paramet
 
 Type: **LPRECT**
 
-Pointer to a [RECT](http://msdn.microsoft.com/en-us/library/ms536136.aspx) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. As with any RECT object, the coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
+Pointer to a [RECT](https://msdn.microsoft.com/en-us/library/ms536136.aspx) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. As with any RECT object, the coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
 
 </dd> <dt>
 
@@ -123,7 +123,7 @@ If the function succeeds, the return value is the height of the text in logical 
 
 ## Remarks
 
-The parameters of this method are very similar to those of the [GDI DrawText](http://msdn2.microsoft.com/en-us/library/ms533909.aspx) function.
+The parameters of this method are very similar to those of the [GDI DrawText](https://msdn2.microsoft.com/en-us/library/ms533909.aspx) function.
 
 This method supports both ANSI and Unicode strings.
 

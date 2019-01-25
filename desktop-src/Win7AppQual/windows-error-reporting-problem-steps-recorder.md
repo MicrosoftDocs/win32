@@ -28,8 +28,8 @@ Currently, a Windows Error Reporting service developer must request PSR enableme
 
 ## Links to Other Resources
 
--   [Windows Error Reporting blog entry](http://go.microsoft.com/fwlink/p/?linkid=205208)
--   [Windows Quality Online Services (Winqual)](http://go.microsoft.com/fwlink/p/?linkid=92793)
+-   [Windows Error Reporting blog entry](https://go.microsoft.com/fwlink/p/?linkid=205208)
+-   [Windows Quality Online Services (Winqual)](https://go.microsoft.com/fwlink/p/?linkid=92793)
 
  
 

@@ -22,7 +22,7 @@ This article is intended to address some of the common questions about the Direc
 
 The DirectX runtime consists of core components and optional components.
 
-The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](http://go.microsoft.com/fwlink/p/?linkid=160189)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](https://msdn.microsoft.com/library/windows/desktop/ee417756) for more details.
+The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](https://go.microsoft.com/fwlink/p/?linkid=160189)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](https://msdn.microsoft.com/library/windows/desktop/ee417756) for more details.
 
 The optional components are released in updates of DirectX SDK, and they include D3DX, XACT, XAudio2, XINPUT, Managed DirectX, and other such components. Many of the optional components are regularly updated to integrate customer feedback and expose new features.
 
@@ -43,12 +43,12 @@ While ensuring that DLLs are installed on a system isn't as easy as simply linki
 -   The DirectX redistributable can be configured to contain only those components that your application requires to minimize distribution and media sizes.
 -   The redistributable folder, Program Files\\DirectX SDK\\Redist\\, now contains a cabinet (.cab) file for every possible optional component, so you don't have to dig up an older SDK to find them.
 -   Installing the SDK itself installs every possible optional component.
--   A DirectX redistributable that contains all the optional components is available as both a Web-based installer and as a downloadable package; see the DirectX Developer Center ([DirectX](http://msdn2.microsoft.com/directx/default.aspx)) for more information.
+-   A DirectX redistributable that contains all the optional components is available as both a Web-based installer and as a downloadable package; see the DirectX Developer Center ([DirectX](https://msdn2.microsoft.com/directx/default.aspx)) for more information.
 
 ## Installation of DirectX by the Game's Installer
 
 > [!Note]  
-> See [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416644) and the [D3D11InstallHelper sample](http://go.microsoft.com/fwlink/p/?LinkId=262642).
+> See [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416644) and the [D3D11InstallHelper sample](https://go.microsoft.com/fwlink/p/?LinkId=262642).
 
  
 

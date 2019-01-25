@@ -442,7 +442,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Extract app package contents sample](http://go.microsoft.com/fwlink/p/?linkid=106455)
+[Extract app package contents sample](https://go.microsoft.com/fwlink/p/?linkid=106455)
 </dt> <dt>
 
 **Reference**

@@ -45,7 +45,7 @@ The [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) o
 ```
    Dim MyRequest
    
-   Set MyRequest = Agent1.Characters.Load ("Genie", "http://agent.microsoft.com/characters/v2/genie/genie.acf")
+   Set MyRequest = Agent1.Characters.Load ("Genie", "https://agent.microsoft.com/characters/v2/genie/genie.acf")
 
    If (MyRequest.Status = 2) then
       'do something

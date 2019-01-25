@@ -18,7 +18,7 @@ api_location:
 
 The **WLANProfile** element contains a wireless LAN profile. This element is the unique root element for a wireless profile.
 
-The target namespace for the WLANProfile element is `http://www.microsoft.com/networking/WLAN/profile/v1`.
+The target namespace for the WLANProfile element is `https://www.microsoft.com/networking/WLAN/profile/v1`.
 
 ``` syntax
 <xs:element name="WLANProfile">
@@ -520,7 +520,7 @@ The target namespace for the WLANProfile element is `http://www.microsoft.com/ne
 
 ## Remarks
 
-Most child elements of the WLANProfile element are in the `http://www.microsoft.com/networking/WLAN/profile/v1` namespace. There are two exceptions: the [**FIPSMode**](wlan-profileschema-fipsmode-authencryption-element.md) element is in the `http://www.microsoft.com/networking/WLAN/profile/v2` namespace and the [**OneX**](onexschema-onex-element.md) element is in the `http://www.microsoft.com/networking/OneX/v1` namespace.
+Most child elements of the WLANProfile element are in the `https://www.microsoft.com/networking/WLAN/profile/v1` namespace. There are two exceptions: the [**FIPSMode**](wlan-profileschema-fipsmode-authencryption-element.md) element is in the `https://www.microsoft.com/networking/WLAN/profile/v2` namespace and the [**OneX**](onexschema-onex-element.md) element is in the `https://www.microsoft.com/networking/OneX/v1` namespace.
 
 The [**FIPSMode**](wlan-profileschema-fipsmode-authencryption-element.md) element can be inserted as a child of the [**authEncryption**](wlan-profileschema-authencryption-security-element.md) element. The [**OneX**](onexschema-onex-element.md) element can be inserted as a child of the [**security (MSM)**](wlan-profileschema-security-msm-element.md) element.
 

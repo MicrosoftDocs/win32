@@ -49,13 +49,13 @@ Hyper-V services require an x64-based system that supports hardware-assisted vir
 
 <dl> <dt>
 
-[Hyper-V (Windows Server 2008 R2 Technical Library)](http://go.microsoft.com/fwlink/p/?linkid=111068)
+[Hyper-V (Windows Server 2008 R2 Technical Library)](https://go.microsoft.com/fwlink/p/?linkid=111068)
 </dt> <dt>
 
 [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582)
 </dt> <dt>
 
-[Windows Server Virtualization](http://go.microsoft.com/fwlink/p/?linkid=104682)
+[Windows Server Virtualization](https://go.microsoft.com/fwlink/p/?linkid=104682)
 </dt> </dl>
 
  

@@ -27,8 +27,8 @@ ms.date: 05/31/2018
 > [!Note]  
 > Instead of using this function, we recommend that you use [resource functions](https://msdn.microsoft.com/library/windows/desktop/ff468902), then these:
 >
-> -   [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library (runtime), **CreateXXXTextureFromMemory** (where XXX is DDS or WIC)
-> -   [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then **CreateTexture**
+> -   [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library (runtime), **CreateXXXTextureFromMemory** (where XXX is DDS or WIC)
+> -   [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then **CreateTexture**
 
  
 
@@ -69,7 +69,7 @@ A pointer to the device (see [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
 
-A handle to the source resource. HMODULE can be obtained with [GetModuleHandle Function](http://msdn.microsoft.com/library/ms683199.aspx).
+A handle to the source resource. HMODULE can be obtained with [GetModuleHandle Function](https://msdn.microsoft.com/library/ms683199.aspx).
 
 </dd> <dt>
 

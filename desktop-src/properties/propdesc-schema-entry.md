@@ -37,7 +37,7 @@ The schema subsystem consists of the following:
 -   A subsystem object that implements [**IPropertyDescriptionList**](https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx), which is used as a collection of property descriptions.
 
 > [!Note]  
-> You must add `xmlns=http://schemas.microsoft.com/windows/2006/propertydescriptio`n to the root schema element of your .propdesc files.
+> You must add `xmlns=https://schemas.microsoft.com/windows/2006/propertydescriptio`n to the root schema element of your .propdesc files.
 
  
 

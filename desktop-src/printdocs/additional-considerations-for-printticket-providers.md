@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Additional Considerations for PrintTicket Providers
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 This section contains information on the following topics.
 
@@ -24,7 +24,7 @@ This section contains information on the following topics.
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

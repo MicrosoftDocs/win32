@@ -74,7 +74,7 @@ FAILED HRESULT: Failure creating catalog or invalid arguments passed.
 
 ## Remarks
 
-Called to create a new catalog in the Windows Search indexer. After creation, the methods on the returned [**ISearchCatalog**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results. See the “Managing the Index” documentation for more info: http://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx
+Called to create a new catalog in the Windows Search indexer. After creation, the methods on the returned [**ISearchCatalog**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results. See the “Managing the Index” documentation for more info: https://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx
 
 ## Requirements
 

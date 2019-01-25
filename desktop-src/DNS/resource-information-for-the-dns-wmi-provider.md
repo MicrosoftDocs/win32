@@ -17,8 +17,8 @@ For more information about the DNS WMI Provider, see the topics listed in the fo
 
 | Topic                                                                         | Description                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Windows 2000 DNS whitepaper](Http://go.microsoft.com/fwlink/p/?linkid=84112) | Features the Windows 2000 implementation of DNS with examples, and describes architectural criteria that network architects and administrators should consider when designing a DNS name space for Active Directory services. |
-| [Windows Script Technologies](Http://go.microsoft.com/fwlink/p/?linkid=83944) | Scripting information for a variety of scripting technologies.                                                                                                                                                                |
+| [Windows 2000 DNS whitepaper](https://go.microsoft.com/fwlink/p/?linkid=84112) | Features the Windows 2000 implementation of DNS with examples, and describes architectural criteria that network architects and administrators should consider when designing a DNS name space for Active Directory services. |
+| [Windows Script Technologies](https://go.microsoft.com/fwlink/p/?linkid=83944) | Scripting information for a variety of scripting technologies.                                                                                                                                                                |
 
 
 

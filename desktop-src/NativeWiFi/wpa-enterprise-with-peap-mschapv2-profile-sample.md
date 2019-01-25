@@ -16,7 +16,7 @@ This sample is configured to use Wi-Fi Protected Access security running in Ente
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
-<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+<WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPAEnterprisePEAPMSCHAP</name>
     <SSIDConfig>
         <SSID>
@@ -32,18 +32,18 @@ This sample is configured to use Wi-Fi Protected Access security running in Ente
                 <encryption>TKIP</encryption>
                 <useOneX>true</useOneX>
             </authEncryption>
-            <OneX xmlns="http://www.microsoft.com/networking/OneX/v1">
+            <OneX xmlns="https://www.microsoft.com/networking/OneX/v1">
                 <EAPConfig>
-                    <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig" 
-                                   xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
-                                   xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodConfig">
+                    <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig" 
+                                   xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
+                                   xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodConfig">
                         <EapMethod>
                             <eapCommon:Type>25</eapCommon:Type> 
                             <eapCommon:AuthorId>0</eapCommon:AuthorId> 
                        </EapMethod>
-                       <Config xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
-                               xmlns:msPeap="http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1" 
-                               xmlns:msChapV2="http://www.microsoft.com/provisioning/MsChapV2ConnectionPropertiesV1">
+                       <Config xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
+                               xmlns:msPeap="https://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1" 
+                               xmlns:msChapV2="https://www.microsoft.com/provisioning/MsChapV2ConnectionPropertiesV1">
                            <baseEap:Eap>
                                <baseEap:Type>25</baseEap:Type> 
                                <msPeap:EapType>

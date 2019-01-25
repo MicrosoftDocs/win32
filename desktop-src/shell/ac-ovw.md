@@ -14,7 +14,7 @@ topic_type:
 
 # Using Autocomplete
 
-Autocompletion expands strings that have been partially entered in an [edit control](https://msdn.microsoft.com/library/windows/desktop/bb775458) into complete strings. For example, when a user starts to enter a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URL options that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "http://www.microsoft.com" or "http://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control, such as the [ComboBoxEx](https://msdn.microsoft.com/library/windows/desktop/bb775740) control.
+Autocompletion expands strings that have been partially entered in an [edit control](https://msdn.microsoft.com/library/windows/desktop/bb775458) into complete strings. For example, when a user starts to enter a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URL options that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "https://www.microsoft.com" or "https://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control, such as the [ComboBoxEx](https://msdn.microsoft.com/library/windows/desktop/bb775740) control.
 
 ## Adding Autocomplete Functionality to Your Application
 

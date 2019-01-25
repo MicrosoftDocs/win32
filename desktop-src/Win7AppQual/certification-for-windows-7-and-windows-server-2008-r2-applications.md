@@ -31,15 +31,15 @@ When software applications are ready to be tested, go to the Microsoft Connect W
     The following steps can be taken only after the beta toolkit is released:
 
 5.  Download the beta toolkit, test, and submit for the Logo Once the beta toolkit is available, download, install, and test your application. Submit the passing results to Microsoft.
-6.  Sign the Software Logo License Agreement Once passing results have been submitted, sign the license agreement at: http://winqual.microsoft.com. You can then download and begin to use the Logo artwork and will be eligible to receive all the available Logo benefits.
+6.  Sign the Software Logo License Agreement Once passing results have been submitted, sign the license agreement at: https://winqual.microsoft.com. You can then download and begin to use the Logo artwork and will be eligible to receive all the available Logo benefits.
 
 ## Links to Other Resources
 
--   [Windows 7 Logo Program Overview](http://go.microsoft.com/fwlink/p/?linkid=205026)
--   [Windows Application Compatibility Resources](http://go.microsoft.com/fwlink/p/?linkid=205027)
--   [Microsoft Connect Windows 7 Software Logo Program page](http://go.microsoft.com/fwlink/p/?linkid=205028)
--   [Windows 7 Software Logo Requirements](http://go.microsoft.com/?linkid=9630189)
--   [Windows 7 Software Logo Toolkit - Beta 2](http://go.microsoft.com/fwlink/p/?linkid=205389)
+-   [Windows 7 Logo Program Overview](https://go.microsoft.com/fwlink/p/?linkid=205026)
+-   [Windows Application Compatibility Resources](https://go.microsoft.com/fwlink/p/?linkid=205027)
+-   [Microsoft Connect Windows 7 Software Logo Program page](https://go.microsoft.com/fwlink/p/?linkid=205028)
+-   [Windows 7 Software Logo Requirements](https://go.microsoft.com/?linkid=9630189)
+-   [Windows 7 Software Logo Toolkit - Beta 2](https://go.microsoft.com/fwlink/p/?linkid=205389)
 -   **Client Logo Mailbox:** <SWLogo@Microsoft.com>
 
  

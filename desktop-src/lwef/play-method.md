@@ -47,7 +47,7 @@ To simplify your syntax, you can declare an object reference and set it to refer
 
 ```
    Dim Genie   
-   Agent1.Characters.Load "Genie", "http://agent.microsoft.com/characters/v2/genie/genie.acf"
+   Agent1.Characters.Load "Genie", "https://agent.microsoft.com/characters/v2/genie/genie.acf"
 
    Set Genie = Agent1.Characters ("Genie")
    

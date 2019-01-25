@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Mobile Broadband Profile Schema v1 Elements
 
-A Mobile Broadband v1 Profile is comprised of the following elements. All of the named elements are in the namespace `http://www.microsoft.com/networking/WWAN/profile/v1`.
+A Mobile Broadband v1 Profile is comprised of the following elements. All of the named elements are in the namespace `https://www.microsoft.com/networking/WWAN/profile/v1`.
 
 -   [**MBNProfile**](schema-mbnprofile-element.md)
     -   [**AutoConnectOnInternet (MBNProfile)**](schema-autoconnectoninternet-mbnprofile-element.md)

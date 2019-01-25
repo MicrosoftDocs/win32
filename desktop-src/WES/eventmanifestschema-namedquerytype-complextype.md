@@ -53,7 +53,7 @@ Not used. Defines a list of named queries that query the event message string fo
 
 ## Examples
 
-The following example shows how to use the [**namedQueries**](eventmanifestschema-namedqueries-metadatatype-element.md) element. This example takes the contents of the message string and inserts it into the string http://www.*messagestring*.com. It then replaces the message string with the result. For example, if the message string contained Microsoft, the query would replace the Microsoft message string with http://www.Microsoft.com.
+The following example shows how to use the [**namedQueries**](eventmanifestschema-namedqueries-metadatatype-element.md) element. This example takes the contents of the message string and inserts it into the string https://www.*messagestring*.com. It then replaces the message string with the result. For example, if the message string contained Microsoft, the query would replace the Microsoft message string with https://www.Microsoft.com.
 
 
 ```XML

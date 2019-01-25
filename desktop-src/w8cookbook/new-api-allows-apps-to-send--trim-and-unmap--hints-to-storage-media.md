@@ -20,13 +20,13 @@ TRIM hints notify the drive that certain sectors that previously were allocated 
 
 **What is TRIM?**
 
-Solid state drives (SSDs) are typically flash memory based block-erased devices; this means that when data is written to the SSD, it cannot be over-written in place and must be written elsewhere until the block can be garbage collected. Since the SSD has no internal mechanism for determining that certain blocks are removed and others are needed. The only time the SSD can mark a sector ‘dirty’ is when it is over-written. In other cases, such as when a file is deleted, the SSD retains these sectors because the deletion is performed as a master file table (MFT) change only, and not as an operation to all the sectors of the file. In Windows 7, we introduced a standard way of communicating with SSDs about sectors that are not needed any more. This command is defined in the [T13 specification](http://www.t13.org/Standards/Default.aspx?DocumentType=3) as the TRIM command; NTFS sends the TRIM command for some normal inline operations such as “deletefile.”
+Solid state drives (SSDs) are typically flash memory based block-erased devices; this means that when data is written to the SSD, it cannot be over-written in place and must be written elsewhere until the block can be garbage collected. Since the SSD has no internal mechanism for determining that certain blocks are removed and others are needed. The only time the SSD can mark a sector ‘dirty’ is when it is over-written. In other cases, such as when a file is deleted, the SSD retains these sectors because the deletion is performed as a master file table (MFT) change only, and not as an operation to all the sectors of the file. In Windows 7, we introduced a standard way of communicating with SSDs about sectors that are not needed any more. This command is defined in the [T13 specification](https://www.t13.org/Standards/Default.aspx?DocumentType=3) as the TRIM command; NTFS sends the TRIM command for some normal inline operations such as “deletefile.”
 
 **Other uses of TRIM in the storage world**
 
 Like SSDs, storage area networks (SANs) and the new Windows 8 feature Software Spaces implementations consume TRIM command hints to manage their spaces in thinly provisioned environments. SANs and Software Spaces allocate regions of storage in sizes that are greater than sectors or clusters (anywhere from 1MB to 1GB). When they receive TRIM hints for its allocation size (or greater than the allocation size), the SAN/SSD can de-allocate a region to free up the space for other files. They typically pass through all TRIM hints to the underlying media (SSD or HDD) so that they can consume the freed up space as appropriate. They do not typically move data around to de-allocate regions, nor do they keep track of TRIM areas to de-allocated regions (when the region is empty).
 
-Thinly provisioned SANs use the TRIM hints that are passed to them to help reduce the overall physical storage footprint, hence reducing cost. The [T10 SCSI specification](http://www.t10.org) defines the ‘Unmap’ command (similar to the TRIM command); here the command is applicable to all kinds of storage including HDDs, SSDs, and others. The UnMap command helps to remove physical blocks from the SAN’s allocation.
+Thinly provisioned SANs use the TRIM hints that are passed to them to help reduce the overall physical storage footprint, hence reducing cost. The [T10 SCSI specification](https://www.t10.org) defines the ‘Unmap’ command (similar to the TRIM command); here the command is applicable to all kinds of storage including HDDs, SSDs, and others. The UnMap command helps to remove physical blocks from the SAN’s allocation.
 
 ## How to use the new API
 
@@ -88,8 +88,8 @@ There are no comparable APIs in earlier operating system releases. There should 
 
 ## Resources
 
--   [T13 specification](http://go.microsoft.com/fwlink/p/?LinkId=325502)
--   [T10 SCSI specification](http://go.microsoft.com/fwlink/p/?LinkId=325503)
+-   [T13 specification](https://go.microsoft.com/fwlink/p/?LinkId=325502)
+-   [T10 SCSI specification](https://go.microsoft.com/fwlink/p/?LinkId=325503)
 
  
 

@@ -40,13 +40,13 @@ Therefore, executable code in data sections should be migrated to a code section
 
 <dl> <dt>
 
-[Data Execution Prevention (TechNet)](Http://go.microsoft.com/fwlink/p/?linkid=84122)
+[Data Execution Prevention (TechNet)](https://go.microsoft.com/fwlink/p/?linkid=84122)
 </dt> <dt>
 
-[How to Configure Memory Protection](Http://go.microsoft.com/fwlink/p/?linkid=84124)
+[How to Configure Memory Protection](https://go.microsoft.com/fwlink/p/?linkid=84124)
 </dt> <dt>
 
-[KB Article 875352](Http://go.microsoft.com/fwlink/p/?linkid=83993)
+[KB Article 875352](https://go.microsoft.com/fwlink/p/?linkid=83993)
 </dt> </dl>
 
  

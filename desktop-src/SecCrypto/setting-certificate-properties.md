@@ -109,7 +109,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
     VariantInit( &vExtValue );
     vExtValue.VT_BSTR;
     vExtValue.bstrVal = SysAllocString
-        (L"http://example.microsoft.com");
+        (L"https://example.microsoft.com");
     if ( NULL == vExtValue.bstrVal )
     {
         hr = E_OUTOFMEMORY; 

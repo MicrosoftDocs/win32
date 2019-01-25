@@ -22,10 +22,10 @@ ms.date: 05/31/2018
 
 # Using the Shadow Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -48,13 +48,13 @@ matrix=",-92680f,,,,-95367431641e-17"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/Shadow/Shape1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Shadow/Shape1.md)
 
 -   `on="t"` and `type="perspective"` indicate to turn on the shadow using the perspective type.
 -   The **origin** and **offset** indicate where to draw the shadow.
 -   `matrix="..."` specifies the perspective transform matrix.
 
-For more information about this element, see the [VML specification](http://www.w3.org/TR/NOTE-VML#-toc416858396) .
+For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858396) .
 
  
 

@@ -41,7 +41,7 @@ The following table lists the ACPI power states from highest to lowest power con
 <tr class="even">
 <td>Sleep<br/> (Modern Standby)<br/></td>
 <td>S0 low-power idle<br/></td>
-<td>Some SoC systems support a low-power idle state known as <a href="http://go.microsoft.com/fwlink/p/?LinkID=624142">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
+<td>Some SoC systems support a low-power idle state known as <a href="https://go.microsoft.com/fwlink/p/?LinkID=624142">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
 </tr>
 <tr class="odd">
 <td>Sleep<br/></td>
@@ -88,7 +88,7 @@ During the working state, the system is awake and running. In simple terms, the 
 
 ## Sleep state (Modern Standby)
 
-In the S0 low-power idle mode of the working state, also referred to as [Modern Standby](http://go.microsoft.com/fwlink/p/?LinkID=624142), the system remains partially running. During Modern Standby, the system can stay up-to-date whenever a suitable network is available and also wake when real-time action is required, such as OS maintenance. Modern Standby wakes significantly faster than S1-S3. For more info, see [Modern Standby](http://go.microsoft.com/fwlink/p/?LinkID=624142).
+In the S0 low-power idle mode of the working state, also referred to as [Modern Standby](https://go.microsoft.com/fwlink/p/?LinkID=624142), the system remains partially running. During Modern Standby, the system can stay up-to-date whenever a suitable network is available and also wake when real-time action is required, such as OS maintenance. Modern Standby wakes significantly faster than S1-S3. For more info, see [Modern Standby](https://go.microsoft.com/fwlink/p/?LinkID=624142).
 
 > [!Note]  
 > Modern Standby is only available on some SoC systems. When it's supported, the system does not support S1-S3.

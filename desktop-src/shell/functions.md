@@ -859,7 +859,7 @@ Windows XP SP2 or later: This function is no longer supported.
 </tr>
 <tr class="even">
 <td><a href="https://msdn.microsoft.com/en-us/library/Bb762266(v=VS.85).aspx"><strong>WinExecError</strong></a><br/></td>
-<td>Retrieves the error value generated if the <a href="http://go.microsoft.com/fwlink/p/?linkid=238266">WinExec</a> function cannot run a specified application. <br/></td>
+<td>Retrieves the error value generated if the <a href="https://go.microsoft.com/fwlink/p/?linkid=238266">WinExec</a> function cannot run a specified application. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winuser/nf-winuser-winhelpa"><strong>WinHelp</strong></a><br/></td>

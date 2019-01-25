@@ -13,8 +13,8 @@ The Multi-File Parser filter parses a simple file format that enables multiple f
 
 ```C++
 ;MULTI
-http://server/share/video.mpg
-http://server/share/captions.smi
+https://server/share/video.mpg
+https://server/share/captions.smi
 ```
 
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Deploying Search Connectors in Windows Federated Search
 
-This topic explains how a user registers a new remote data store with federated search by opening an OpenSearch Description (.osdx) file, how to deploy an .osdx file, and how to track usage of your [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) service.
+This topic explains how a user registers a new remote data store with federated search by opening an OpenSearch Description (.osdx) file, how to deploy an .osdx file, and how to track usage of your [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) service.
 
 This topic is organized as follows:
 
@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 ## The .searchconnector-ms (Search Connector) File
 
-Merely opening the .osdx file that describes how to connect to the web service and how to map any custom elements in your RSS or Atom XML registers your new remote data store with federated search. A data store that already has an [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) web service that is compatible with federated search can be added to Windows Explorer when a user opens an .osdx file.
+Merely opening the .osdx file that describes how to connect to the web service and how to map any custom elements in your RSS or Atom XML registers your new remote data store with federated search. A data store that already has an [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) web service that is compatible with federated search can be added to Windows Explorer when a user opens an .osdx file.
 
 After you have given the .osdx to your user and the user opens the .osdx file, the following events occur.
 
@@ -55,11 +55,11 @@ Push deployment describes any type of deployment that does not depend on user in
 
 ## Tracking Usage
 
-To track the usage of your [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) service by users searching from Windows Explorer, filter your web server log files for this user agent string: `Windows-Search+(Windows+NT+6.1)`.
+To track the usage of your [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) service by users searching from Windows Explorer, filter your web server log files for this user agent string: `Windows-Search+(Windows+NT+6.1)`.
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](http://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
 
 ## Related topics
 

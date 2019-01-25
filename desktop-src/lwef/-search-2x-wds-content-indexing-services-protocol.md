@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Content Indexing Services Protocol
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 Protocol Specification, Version 0.12
 
@@ -120,7 +120,7 @@ A WSPP protocol specification does not require the use of Microsoft programming 
 
 ### 1.2.1 Normative References
 
-\[IEEE754\] Institute of Electrical and Electronics Engineers, "Standard for Binary Floating-Point Arithmetic", IEEE 754-1985, October 1985, http://grouper.ieee.org/groups/754/
+\[IEEE754\] Institute of Electrical and Electronics Engineers, "Standard for Binary Floating-Point Arithmetic", IEEE 754-1985, October 1985, https://grouper.ieee.org/groups/754/
 
 \[MS-DCOM\] Microsoft Corporation, "Distributed Component Object Model Remote Protocols", June 2006.
 
@@ -132,13 +132,13 @@ A WSPP protocol specification does not require the use of Microsoft programming 
 
 \[SALTON\] Salton, G., "Automatic Text Processing: The Transformation Analysis and Retrieval of Information by Computer", 1988, ISBN 0-201-2227-8.
 
-\[UNICODE\] The Unicode Consortium, "The Unicode Standard, Version 2.0", 1996, http://www.unicode.org
+\[UNICODE\] The Unicode Consortium, "The Unicode Standard, Version 2.0", 1996, https://www.unicode.org
 
 ### 1.2.2 Informative References
 
-\[MSDN-OLEDB\] Microsoft Corporation, OLE DB, http://msdn.microsoft.com/library/default.asp?url=/library/oledb/htm/dasdkoledboverview.asp.
+\[MSDN-OLEDB\] Microsoft Corporation, OLE DB, https://msdn.microsoft.com/library/default.asp?url=/library/oledb/htm/dasdkoledboverview.asp.
 
-\[MSDN-QUERYERR\] Microsoft Corporation, Query-Execution Values, http://msdn.microsoft.com/library/default.asp?url=/library/indexsrv/html/ixreferr\_5df7.asp
+\[MSDN-QUERYERR\] Microsoft Corporation, Query-Execution Values, https://msdn.microsoft.com/library/default.asp?url=/library/indexsrv/html/ixreferr\_5df7.asp
 
 ### 1.3 Protocol Overview (Synopsis)
 

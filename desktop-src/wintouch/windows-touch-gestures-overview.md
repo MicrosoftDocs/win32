@@ -61,7 +61,7 @@ The following flags indicate the various states of the gestures and are stored i
  
 
 > [!Note]  
-> Most applications should ignore the **GID\_BEGIN** and **GID\_END** and pass them to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637). These messages are used by the default gesture handler. Application behavior is undefined when the **GID\_BEGIN** and **GID\_END** messages are consumed by a third-party application.
+> Most applications should ignore the **GID\_BEGIN** and **GID\_END** and pass them to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637). These messages are used by the default gesture handler. Application behavior is undefined when the **GID\_BEGIN** and **GID\_END** messages are consumed by a third-party application.
 
  
 

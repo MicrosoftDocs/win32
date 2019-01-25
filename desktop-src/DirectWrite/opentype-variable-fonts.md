@@ -16,7 +16,7 @@ This topic describes OpenType variable fonts, their support in DirectWrite and D
 
 ## What are OpenType variable fonts?
 
-Version 1.8 of the [OpenType font format specification](http://www.microsoft.com/typography/otspec/) introduced a new extension to the format known as [OpenType Font Variations](https://www.microsoft.com/typography/otspec/otvaroverview.md). Fonts that use these extensions are known as OpenType variable fonts. An OpenType variable font is a single font that can behave like several fonts by using continuous interpolation between different designs, all defined within the single font.
+Version 1.8 of the [OpenType font format specification](https://www.microsoft.com/typography/otspec/) introduced a new extension to the format known as [OpenType Font Variations](https://www.microsoft.com/typography/otspec/otvaroverview.md). Fonts that use these extensions are known as OpenType variable fonts. An OpenType variable font is a single font that can behave like several fonts by using continuous interpolation between different designs, all defined within the single font.
 
 An OpenType variable font can define continuous variation of its design along one or more independent axes, such as weight or width: 
 

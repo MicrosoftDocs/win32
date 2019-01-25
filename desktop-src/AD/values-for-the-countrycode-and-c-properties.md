@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Values for the countryCode and c Properties
 
-The values for the **countryCode** and **c** properties are obtained from ISO standard 3166. This standard is available at the [International Organization for Standardization](http://go.microsoft.com/fwlink/p/?linkid=84073) website. The **countryCode** property value is the numeric country code from ISO 3166 and the **c** property value is the two letter country/region designation from ISO 3166.
+The values for the **countryCode** and **c** properties are obtained from ISO standard 3166. This standard is available at the [International Organization for Standardization](https://go.microsoft.com/fwlink/p/?linkid=84073) website. The **countryCode** property value is the numeric country code from ISO 3166 and the **c** property value is the two letter country/region designation from ISO 3166.
 
  
 

@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
+Description: WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 0785189e-9638-4776-8414-1414d7b02524
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Registry'
@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Registry
 
-WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at [http://www.microsoft.com/technet](Http://go.microsoft.com/fwlink/p/?linkid=84103).
+WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -469,7 +469,7 @@ If ($results.Returnvalue -eq 0) {&quot;Key Removed&quot;} </code></pre></td>
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> <dt>
 
 [Modifying the System Registry](modifying-the-system-registry.md)

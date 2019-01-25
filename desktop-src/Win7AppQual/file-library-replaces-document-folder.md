@@ -46,8 +46,8 @@ Using the common file dialog will ensure that users can save directly to their l
 
 ## Links to Other Resources
 
--   **Windows Libraries:** http://msdn.microsoft.com/en-us/library/dd758096(VS.85).aspx
--   **Keeping in sync with a library:** http://msdn.microsoft.com/en-us/library/dd758094(VS.85).aspx\#library\_keeping\_in\_sync
+-   **Windows Libraries:** https://msdn.microsoft.com/en-us/library/dd758096(VS.85).aspx
+-   **Keeping in sync with a library:** https://msdn.microsoft.com/en-us/library/dd758094(VS.85).aspx\#library\_keeping\_in\_sync
 
  
 

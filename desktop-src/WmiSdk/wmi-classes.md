@@ -42,9 +42,9 @@ The following Scripting Center code samples affect multiple WMI classes across m
 
 ## Naming Conventions for WMI Classes and Properties
 
-Property names must conform to the Managed Object Format (MOF) syntax defined by the Distributed Management Task Force (DTMF). The initial identifier characters must be from the letters a through z and the underscore character (\_). All additional characters must be from the letters a through z, the underscore character, and the numerals 0 through 9. For more information, see the Unicode Usage section of the [CIM Specification Version 2.2](http://go.microsoft.com/fwlink/p/?linkid=84403).
+Property names must conform to the Managed Object Format (MOF) syntax defined by the Distributed Management Task Force (DTMF). The initial identifier characters must be from the letters a through z and the underscore character (\_). All additional characters must be from the letters a through z, the underscore character, and the numerals 0 through 9. For more information, see the Unicode Usage section of the [CIM Specification Version 2.2](https://go.microsoft.com/fwlink/p/?linkid=84403).
 
-SQL reserve words should not be used in class and property names. For a complete list of the SQL reserve words and for more information, see the Guidelines section of the [CIM Specification Version 2.2](http://go.microsoft.com/fwlink/p/?linkid=84403).
+SQL reserve words should not be used in class and property names. For a complete list of the SQL reserve words and for more information, see the Guidelines section of the [CIM Specification Version 2.2](https://go.microsoft.com/fwlink/p/?linkid=84403).
 
 ## Document Conventions for a WMI Class Reference Page
 

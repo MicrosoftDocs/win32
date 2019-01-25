@@ -45,7 +45,7 @@ If you need more than 32 bits of instance data, pass an address of a structure c
 
 ## Using an Event Callback to Process Driver Messages
 
-To use an event callback, use the [CreateEvent](http://go.microsoft.com/fwlink/p/?linkid=17091) function to retrieve the handle of an event and specify CALLBACK\_EVENT in the call to the [**midiOutOpen**](https://msdn.microsoft.com/en-us/library/Dd798476(v=VS.85).aspx) function.
+To use an event callback, use the [CreateEvent](https://go.microsoft.com/fwlink/p/?linkid=17091) function to retrieve the handle of an event and specify CALLBACK\_EVENT in the call to the [**midiOutOpen**](https://msdn.microsoft.com/en-us/library/Dd798476(v=VS.85).aspx) function.
 
 An event callback is set by anything that might cause a function callback. Unlike callback functions and window or thread callbacks, event callbacks do not receive specific close, done, or open notifications. Therefore, an application may have to check the status of the process it is waiting for after the event occurs.
 

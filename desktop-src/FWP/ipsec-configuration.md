@@ -24,7 +24,7 @@ For more information on IPsec, see also:
 
 <dl>
 
-[IPsec Technical Reference](http://go.microsoft.com/fwlink/p/?linkid=77138)  
+[IPsec Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=77138)  
 </dl>
 
 ## What is IKE
@@ -35,7 +35,7 @@ For more information on IKE, see also:
 
 <dl>
 
-[Internet Key Exchange](http://go.microsoft.com/fwlink/p/?linkid=48953)  
+[Internet Key Exchange](https://go.microsoft.com/fwlink/p/?linkid=48953)  
 </dl>
 
 ## What is AuthIP
@@ -64,7 +64,7 @@ For more information on AuthIP, see also:
 
 <dl>
 
-[AuthIP in Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=76867)  
+[AuthIP in Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=76867)  
 </dl>
 
 ## What is an IPsec Policy
@@ -77,8 +77,8 @@ For more information on IPsec policies, see also:
 
 <dl>
 
-[Overview of IPsec Policy Concepts](http://go.microsoft.com/fwlink/p/?linkid=94675)  
-[Description of an IPsec Policy](http://go.microsoft.com/fwlink/p/?linkid=94677)  
+[Overview of IPsec Policy Concepts](https://go.microsoft.com/fwlink/p/?linkid=94675)  
+[Description of an IPsec Policy](https://go.microsoft.com/fwlink/p/?linkid=94677)  
 </dl>
 
 ## How to Use WFP to Configure IPsec Policies
@@ -152,7 +152,7 @@ Below is a sample isolation policy that may be implemented using IPsec:
 **IPsec Solutions:**
 </dt> <dt>
 
-[Server and Domain Isolation](http://go.microsoft.com/fwlink/p/?linkid=94675)
+[Server and Domain Isolation](https://go.microsoft.com/fwlink/p/?linkid=94675)
 </dt> </dl>
 
  

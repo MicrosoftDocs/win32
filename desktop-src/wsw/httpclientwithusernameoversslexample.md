@@ -323,8 +323,8 @@ $$RC_END_HIGHLIGHT
         
             // TODO: the following should be removed when wsutil generates it
             WS_XML_STRING _faultDetailName = WS_XML_STRING_VALUE("OrderNotFound");
-            WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("http://example.com");
-            WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("http://example.com/fault");
+            WS_XML_STRING _faultDetailNs = WS_XML_STRING_VALUE("https://example.com");
+            WS_XML_STRING _faultAction = WS_XML_STRING_VALUE("https://example.com/fault");
             WS_ELEMENT_DESCRIPTION _faultElementDescription = { &_faultDetailName, &_faultDetailNs, WS_UINT32_TYPE, NULL };
             WS_FAULT_DETAIL_DESCRIPTION orderNotFoundFaultTypeDescription = { &_faultAction, &_faultElementDescription };
         
@@ -435,15 +435,15 @@ Exit:
 
 ``` syntax
 <wsdl:definitions 
-    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-    xmlns:tns="http://example.org" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-    xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" 
-    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
-    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
-    targetNamespace="http://example.org">
+    xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:tns="https://example.org" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" 
+    xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" 
+    xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/" 
+    targetNamespace="https://example.org">
     <wsdl:types>
-        <xsd:schema targetNamespace="http://example.org" elementFormDefault="qualified">
+        <xsd:schema targetNamespace="https://example.org" elementFormDefault="qualified">
             <xsd:element name="PurchaseOrderType">
                 <xsd:complexType>
                     <xsd:sequence>
@@ -501,19 +501,19 @@ Exit:
     </wsdl:message>
     <wsdl:portType name="IPurchaseOrder">
         <wsdl:operation name="Order">
-            <wsdl:input message="tns:PurchaseOrder" wsaw:Action="http://example.org/purchaseorder"/>
-            <wsdl:output message="tns:OrderConfirmation" wsaw:Action="http://example.org/orderconfirmation"/>
+            <wsdl:input message="tns:PurchaseOrder" wsaw:Action="https://example.org/purchaseorder"/>
+            <wsdl:output message="tns:OrderConfirmation" wsaw:Action="https://example.org/orderconfirmation"/>
         </wsdl:operation>
         <wsdl:operation name="OrderStatus">
-            <wsdl:input message="tns:GetOrderStatus" wsaw:Action="http://example.org/getorderstatus"/>
-            <wsdl:output message="tns:GetOrderStatusResponse" wsaw:Action="http://example.org/getorderstatusresponse"/>
-            <wsdl:fault name="OrderNotFound" message="tns:OrderNotFoundFault" wsaw:Action="http://example.org/ordernotfound"/>
+            <wsdl:input message="tns:GetOrderStatus" wsaw:Action="https://example.org/getorderstatus"/>
+            <wsdl:output message="tns:GetOrderStatusResponse" wsaw:Action="https://example.org/getorderstatusresponse"/>
+            <wsdl:fault name="OrderNotFound" message="tns:OrderNotFoundFault" wsaw:Action="https://example.org/ordernotfound"/>
         </wsdl:operation>
     </wsdl:portType>
     <wsdl:binding name="PurchaseOrderBinding" type="tns:IPurchaseOrder">
-        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <soap:binding transport="https://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="Order">
-            <soap:operation soapAction="http://example.org/purchaseorder" style="document"/>
+            <soap:operation soapAction="https://example.org/purchaseorder" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -522,7 +522,7 @@ Exit:
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="OrderStatus">
-            <soap:operation soapAction="http://example.org/getorderstatus" style="document"/>
+            <soap:operation soapAction="https://example.org/getorderstatus" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -536,7 +536,7 @@ Exit:
     </wsdl:binding>
     <wsdl:service name="PurchaseOrderService">
         <wsdl:port name="IPurchaseOrder" binding="tns:PurchaseOrderBinding">
-            <soap:address location="http://example.org/IPurchaseOrder"/>
+            <soap:address location="https://example.org/IPurchaseOrder"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>

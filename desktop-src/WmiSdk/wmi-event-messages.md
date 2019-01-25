@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 The following list lists events supported by WMI logs in Windows Vista and later operating systems.
 
 > [!Note]  
-> The following documentation is designed for developers and IT administrators. If you are attempting to resolve a WMI error message on your home system, please refer to the [Microsoft Support](http://support.microsoft.com/) website.
+> The following documentation is designed for developers and IT administrators. If you are attempting to resolve a WMI error message on your home system, please refer to the [Microsoft Support](https://support.microsoft.com/) website.
 
  
 

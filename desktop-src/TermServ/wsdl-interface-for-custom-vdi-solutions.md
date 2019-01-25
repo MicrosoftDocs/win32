@@ -22,24 +22,24 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
 
 
 ```XML
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://Microsoft.Virtualization.RDV" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" targetNamespace="http://Microsoft.Virtualization.RDV" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="https://schemas.xmlsoap.org/soap/encoding/" xmlns:wsam="https://www.w3.org/2007/05/addressing/metadata" xmlns:tns="https://Microsoft.Virtualization.RDV" xmlns:wsa="https://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="https://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msc="https://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="https://www.w3.org/2005/08/addressing" xmlns:wsx="https://schemas.xmlsoap.org/ws/2004/09/mex" targetNamespace="https://Microsoft.Virtualization.RDV" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
-    <xsd:schema targetNamespace="http://Microsoft.Virtualization.RDV/Imports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-      <xsd:import namespace="http://Microsoft.Virtualization.RDV" />
-      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" />
+    <xsd:schema targetNamespace="https://Microsoft.Virtualization.RDV/Imports" xmlns:xs="https://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="https://Microsoft.Virtualization.RDV" />
+      <xsd:import namespace="https://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" />
       <xs:element name="StartVM">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="type" xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q1:NameType" />
+            <xs:element minOccurs="0" name="type" xmlns:q1="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q1:NameType" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="StartVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
+            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="https://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -61,14 +61,14 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="type" xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q3:NameType" />
+            <xs:element minOccurs="0" name="type" xmlns:q3="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q3:NameType" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="GetVMResult" nillable="true" xmlns:q4="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q4:VMResult" />
+            <xs:element minOccurs="0" name="GetVMResult" nillable="true" xmlns:q4="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q4:VMResult" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -76,21 +76,21 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="type" xmlns:q5="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q5:NameType" />
+            <xs:element minOccurs="0" name="type" xmlns:q5="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q5:NameType" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="PlaceVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
+            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="https://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="JobUpdated">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="job" nillable="true" xmlns:q7="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q7:Job" />
+            <xs:element minOccurs="0" name="job" nillable="true" xmlns:q7="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q7:Job" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -216,29 +216,29 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
   </wsdl:message>
   <wsdl:portType msc:usingSession="true" name="IRDVServer">
     <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="StartVM">
-      <wsdl:input wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/StartVM" message="tns:IRDVServer_StartVM_InputMessage" />
-      <wsdl:output wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/StartVMResponse" message="tns:IRDVServer_StartVM_OutputMessage" />
+      <wsdl:input wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/StartVM" message="tns:IRDVServer_StartVM_InputMessage" />
+      <wsdl:output wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/StartVMResponse" message="tns:IRDVServer_StartVM_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SetLocale">
-      <wsdl:input wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/SetLocale" message="tns:IRDVServer_SetLocale_InputMessage" />
-      <wsdl:output wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/SetLocaleResponse" message="tns:IRDVServer_SetLocale_OutputMessage" />
+      <wsdl:input wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/SetLocale" message="tns:IRDVServer_SetLocale_InputMessage" />
+      <wsdl:output wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/SetLocaleResponse" message="tns:IRDVServer_SetLocale_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetVM">
-      <wsdl:input wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/GetVM" message="tns:IRDVServer_GetVM_InputMessage" />
-      <wsdl:output wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/GetVMResponse" message="tns:IRDVServer_GetVM_OutputMessage" />
+      <wsdl:input wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/GetVM" message="tns:IRDVServer_GetVM_InputMessage" />
+      <wsdl:output wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/GetVMResponse" message="tns:IRDVServer_GetVM_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="PlaceVM">
-      <wsdl:input wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/PlaceVM" message="tns:IRDVServer_PlaceVM_InputMessage" />
-      <wsdl:output wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/PlaceVMResponse" message="tns:IRDVServer_PlaceVM_OutputMessage" />
+      <wsdl:input wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/PlaceVM" message="tns:IRDVServer_PlaceVM_InputMessage" />
+      <wsdl:output wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/PlaceVMResponse" message="tns:IRDVServer_PlaceVM_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="JobUpdated">
-      <wsdl:output wsaw:Action="http://Microsoft.Virtualization.RDV/IRDVServer/JobUpdated" message="tns:IRDVServer_JobUpdated_OutputCallbackMessage" />
+      <wsdl:output wsaw:Action="https://Microsoft.Virtualization.RDV/IRDVServer/JobUpdated" message="tns:IRDVServer_JobUpdated_OutputCallbackMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="DefaultBinding_IRDVServer" type="tns:IRDVServer">
-    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <soap:binding transport="https://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="StartVM">
-      <soap:operation soapAction="http://Microsoft.Virtualization.RDV/IRDVServer/StartVM" style="document" />
+      <soap:operation soapAction="https://Microsoft.Virtualization.RDV/IRDVServer/StartVM" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -247,7 +247,7 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="SetLocale">
-      <soap:operation soapAction="http://Microsoft.Virtualization.RDV/IRDVServer/SetLocale" style="document" />
+      <soap:operation soapAction="https://Microsoft.Virtualization.RDV/IRDVServer/SetLocale" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -256,7 +256,7 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetVM">
-      <soap:operation soapAction="http://Microsoft.Virtualization.RDV/IRDVServer/GetVM" style="document" />
+      <soap:operation soapAction="https://Microsoft.Virtualization.RDV/IRDVServer/GetVM" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -265,7 +265,7 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="PlaceVM">
-      <soap:operation soapAction="http://Microsoft.Virtualization.RDV/IRDVServer/PlaceVM" style="document" />
+      <soap:operation soapAction="https://Microsoft.Virtualization.RDV/IRDVServer/PlaceVM" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -274,7 +274,7 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="JobUpdated">
-      <soap:operation soapAction="http://Microsoft.Virtualization.RDV/IRDVServer/JobUpdated" style="document" />
+      <soap:operation soapAction="https://Microsoft.Virtualization.RDV/IRDVServer/JobUpdated" style="document" />
       <wsdl:output>
         <soap:body use="literal" />
       </wsdl:output>
@@ -305,7 +305,7 @@ The filter plug-in passes the following element to the method.
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="type" xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q3:NameType" />
+            <xs:element minOccurs="0" name="type" xmlns:q3="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q3:NameType" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -320,7 +320,7 @@ The web service must return the following element to the filter plug-in.
       <xs:element name="GetVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="GetVMResult" nillable="true" xmlns:q4="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q4:VMResult" />
+            <xs:element minOccurs="0" name="GetVMResult" nillable="true" xmlns:q4="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q4:VMResult" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -339,7 +339,7 @@ The web service passes the following element to the filter plug-in.
       <xs:element name="JobUpdated">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="job" nillable="true" xmlns:q7="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q7:Job" />
+            <xs:element minOccurs="0" name="job" nillable="true" xmlns:q7="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q7:Job" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -359,7 +359,7 @@ The filter plug-in passes the following element to the method.
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="type" xmlns:q5="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q5:NameType" />
+            <xs:element minOccurs="0" name="type" xmlns:q5="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q5:NameType" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -374,7 +374,7 @@ The web service must return the following element to the filter plug-in.
       <xs:element name="PlaceVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
+            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="https://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -428,7 +428,7 @@ The filter plug-in passes the following element to the method.
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="type" xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q1:NameType" />
+            <xs:element minOccurs="0" name="type" xmlns:q1="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" type="q1:NameType" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -443,7 +443,7 @@ The web service must return the following element to the filter plug-in.
       <xs:element name="StartVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
+            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="https://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

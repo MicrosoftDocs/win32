@@ -12,9 +12,9 @@ Windows Installer accepts a Uniform Resource Locator (URL) as a valid source for
 
 If the installation database is at a URL, the installer downloads the database to a cache location before starting the installation. The installer also downloads the files and cabinet files from the Internet source that are appropriate for the user's selections. See [A URL-based Windows Installer Installation Example](a-url-based-windows-installer-installation-example.md) for more information.
 
-For example, to install a package with a source located on a web server at http://server/share/package.msi, you can use the [command line](command-line-options.md) options to install the package and set [public](public-properties.md) properties.
+For example, to install a package with a source located on a web server at https://server/share/package.msi, you can use the [command line](command-line-options.md) options to install the package and set [public](public-properties.md) properties.
 
-msiexec /i http://server/share/package.msi *PROPERTY=VALUE*
+msiexec /i https://server/share/package.msi *PROPERTY=VALUE*
 
 A command line like the one previously shown should be passed to the installer to start an installation from a web browser. In general, you should not download and install the package simply by double-clicking the .msi file from within the browser. This downloads the .msi file to the temporary Internet files folder and passes the following command to the installer:
 
@@ -37,7 +37,7 @@ The [**InstallProduct**](installer-installproduct.md) method could be used to ru
 Dim Installer
 On Error Resume Next
 set Installer=CreateObject("WindowsInstaller.Installer")
-Installer.InstallProduct "http://server/share/package.msi", "PROPERTY=VALUE "
+Installer.InstallProduct "https://server/share/package.msi", "PROPERTY=VALUE "
 set Installer=Nothing
 -->
 </SCRIPT>

@@ -59,7 +59,7 @@ HRESULT D3DX11PreprocessShaderFromResource(
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
 
-Handle to the resource module containing the shader. HMODULE can be obtained with [GetModuleHandle Function](http://msdn.microsoft.com/library/ms683199.aspx).
+Handle to the resource module containing the shader. HMODULE can be obtained with [GetModuleHandle Function](https://msdn.microsoft.com/library/ms683199.aspx).
 
 </dd> <dt>
 

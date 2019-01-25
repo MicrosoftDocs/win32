@@ -42,9 +42,9 @@ Substitute a valid path to your Windows Media file using the syntax in the follo
 | Source of content                                                                                 | Syntax                                    |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------|
 | Content is a file on a Windows Media server                                                       | mms://ServerName/Path/FileName.wma        |
-| Content is a broadcast multicast that is accessed from a Windows Media station                    | http://WebServerName/Stations/kxyz.nsc    |
+| Content is a broadcast multicast that is accessed from a Windows Media station                    | https://WebServerName/Stations/kxyz.nsc    |
 | Content is a broadcast unicast that is accessed from a publishing point on a Windows Media server | mms://ServerName/PublishingPointAlias     |
-| Content is a file on a web server                                                                 | http://WebServerName/Path/Filename.wma    |
+| Content is a file on a web server                                                                 | https://WebServerName/Path/Filename.wma    |
 | Content is a file on a local hard disk                                                            | file://c:\\Path\\Filename.wma             |
 | Content is a file on a network share                                                              | file://\\\\ServerName\\Path\\Filename.wma |
 | Content is a file on a Windows Media server                                                       | mms://ServerName/Path/FileName.wmv        |

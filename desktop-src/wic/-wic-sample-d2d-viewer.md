@@ -29,7 +29,7 @@ This sample has the following requirements:
 |                          |                                                                                                         |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows Vista                                                                                           |
-| Windows SDK              | [Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) for Windows 7 |
+| Windows SDK              | [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=129787) for Windows 7 |
 
 
 
@@ -80,7 +80,7 @@ After you start the application, load an image file by using the **Open** comman
 [References](-wic-codec-reference.md)
 
 
-[Direct2D](http://msdn.microsoft.com/en-us/library/dd370990(VS.85).aspx)
+[Direct2D](https://msdn.microsoft.com/en-us/library/dd370990(VS.85).aspx)
 
 
 [Samples and Code Examples](-wic-samples.md)

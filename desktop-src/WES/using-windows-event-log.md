@@ -25,7 +25,7 @@ For details, see the following topics:
 
 <dl> <dt>
 
-[How Do I Enable WPP Tracing Through the Windows Event Log Service?](http://go.microsoft.com/fwlink/p/?linkid=193187)
+[How Do I Enable WPP Tracing Through the Windows Event Log Service?](https://go.microsoft.com/fwlink/p/?linkid=193187)
 </dt> <dt>
 
 [Windows Event Log Reference](windows-event-log-reference.md)

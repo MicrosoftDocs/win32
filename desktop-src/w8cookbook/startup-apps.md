@@ -35,7 +35,7 @@ New functionality has been added to Windows to ensure that end users are always 
 -   **Medium impact**   Apps that use 300 ms - 1000 ms of CPU time or 300 KB - 3 MB of disk I/O
 -   **Low impact**   Apps that use less than 300 ms of CPU time and less than 300 KB of disk I/O
 
-Microsoft provides tools to help app developers assess, analyze and take steps to reduce their startup impact and improve the user experience. The Assessment and Deployment Kit provides the ability to run a boot performance assessment and measure the impact of apps that run at startup. The assessment results contain detailed analysis and remediation info where applicable, for the top-impacting components at Windows startup. Using the Windows Performance Analyzer, app developers can perform deep analysis to find the root cause of the performance impact and improve Windows startup performance. Install the Windows ADK from [here](http://go.microsoft.com/fwlink/p/?linkid=234980).
+Microsoft provides tools to help app developers assess, analyze and take steps to reduce their startup impact and improve the user experience. The Assessment and Deployment Kit provides the ability to run a boot performance assessment and measure the impact of apps that run at startup. The assessment results contain detailed analysis and remediation info where applicable, for the top-impacting components at Windows startup. Using the Windows Performance Analyzer, app developers can perform deep analysis to find the root cause of the performance impact and improve Windows startup performance. Install the Windows ADK from [here](https://go.microsoft.com/fwlink/p/?linkid=234980).
 
 ## Guidance
 
@@ -175,7 +175,7 @@ Draw attention to goods and services available for purchase
  
 
 > [!Note]  
-> Accessibility apps guidelines are covered by separate direct engagements with ISVs. See [*Programming for Ease of Access*](http://msdn.microsoft.com/windows/bb879984.aspx) for details.
+> Accessibility apps guidelines are covered by separate direct engagements with ISVs. See [*Programming for Ease of Access*](https://msdn.microsoft.com/windows/bb879984.aspx) for details.
 
  
 
@@ -187,12 +187,12 @@ Windows Store apps enhance the user experience by introducing a Windows space wi
 -   XAML/C#
 -   XAML/C++
 
-Aggregated info for developing Windows Store apps is available at the [Windows Dev Center](http://go.microsoft.com/fwlink/p/?linkid=221445).
+Aggregated info for developing Windows Store apps is available at the [Windows Dev Center](https://go.microsoft.com/fwlink/p/?linkid=221445).
 
 Examples:
 
--   [Developing Windows Store games](http://go.microsoft.com/fwlink/p/?linkid=228452)
--   [Developing Windows Store app that use Media](http://go.microsoft.com/fwlink/p/?linkid=228453)
+-   [Developing Windows Store games](https://go.microsoft.com/fwlink/p/?linkid=228452)
+-   [Developing Windows Store app that use Media](https://go.microsoft.com/fwlink/p/?linkid=228453)
 
 **Automatic maintenance tasks**
 
@@ -200,9 +200,9 @@ Periodic background activity should be designed as Automatic Maintenance tasks. 
 
 ## Resources
 
--   [Accessibility Guidelines](http://go.microsoft.com/fwlink/p/?LinkId=325489)
--   [Windows Dev Center](http://go.microsoft.com/fwlink/p/?linkid=221445)
--   [Windows ADK](http://go.microsoft.com/fwlink/p/?linkid=234980)
+-   [Accessibility Guidelines](https://go.microsoft.com/fwlink/p/?LinkId=325489)
+-   [Windows Dev Center](https://go.microsoft.com/fwlink/p/?linkid=221445)
+-   [Windows ADK](https://go.microsoft.com/fwlink/p/?linkid=234980)
 
  
 

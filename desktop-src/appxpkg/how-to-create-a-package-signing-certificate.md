@@ -151,13 +151,13 @@ By adding a certificate to [local machine certificate stores](https://msdn.micro
 **Samples**
 </dt> <dt>
 
-[Create app package sample](http://go.microsoft.com/fwlink/p/?linkid=236965)
+[Create app package sample](https://go.microsoft.com/fwlink/p/?linkid=236965)
 </dt> <dt>
 
 **Concepts**
 </dt> <dt>
 
-[Code-Signing Best Practices](http://msdn.microsoft.com/windows/hardware/gg487309.aspx)
+[Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
 </dt> <dt>
 
 [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To develop a secure desktop environment, you must mitigate the threats from malicious ActiveX controls and provide an appropriate level of application compatibility in your environment. An *ActiveX control* is a piece of executable code (typically an OCX file that is packaged within a cabinet file) that is installed and run through Windows Internet Explorer. You can create ActiveX controls to add functionality to web applications that you cannot easily achieve by using standard HTML code or a simple script.
 
-Installing ActiveX controls becomes a compatibility issue when your migration to Windows 7 includes a transition to standard users. This type of transition is a common best practice in which IT professionals move their environment to a [standard user account](http://go.microsoft.com/fwlink/p/?linkid=205157). This transition is not a requirement for deploying Windows Internet Explorer 8.
+Installing ActiveX controls becomes a compatibility issue when your migration to Windows 7 includes a transition to standard users. This type of transition is a common best practice in which IT professionals move their environment to a [standard user account](https://go.microsoft.com/fwlink/p/?linkid=205157). This transition is not a requirement for deploying Windows Internet Explorer 8.
 
 ## ActiveX Control Installation
 
@@ -27,7 +27,7 @@ There are two policy settings for AXIS:
 -   The Approved Installation Sites for ActiveX Controls policy setting consists of a list of approved installation sites, which the AXIS uses to determine whether an ActiveX control can be installed.
 -   The ActiveX installation policy for sites in Trusted zones policy setting identifies how Trusted sites zones can be used to install ActiveX controls.
 
-When a website tries to install an ActiveX control, the AXIS checks to see if the URL of the website is listed in the list of approved installation sites or as part of the trusted sites zone. If the site is in either of these lists, the AXIS makes sure that the site meets the requirements that the policy defines. If the site and the ActiveX control meet all of the requirements of the policy settings, the control is installed. For more information, see [Administering the ActiveX Installer Service](http://go.microsoft.com/fwlink/p/?linkid=205158).
+When a website tries to install an ActiveX control, the AXIS checks to see if the URL of the website is listed in the list of approved installation sites or as part of the trusted sites zone. If the site is in either of these lists, the AXIS makes sure that the site meets the requirements that the policy defines. If the site and the ActiveX control meet all of the requirements of the policy settings, the control is installed. For more information, see [Administering the ActiveX Installer Service](https://go.microsoft.com/fwlink/p/?linkid=205158).
 
 ## Related topics
 

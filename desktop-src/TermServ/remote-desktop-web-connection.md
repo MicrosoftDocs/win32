@@ -45,7 +45,7 @@ For more information, see these topics:
 
 ## Installing Remote Desktop Web Connection
 
-The following steps install the Remote Desktop ActiveX control and sample webpage to the %systemroot%\\Web\\Tsweb directory. They share the webpage in the Tsweb directory on your server, for example, at http://*MyServer*/tsweb. The control (Msrdp.ocx) and the Remote Desktop Web Connection code are located in Msrdp.cab.
+The following steps install the Remote Desktop ActiveX control and sample webpage to the %systemroot%\\Web\\Tsweb directory. They share the webpage in the Tsweb directory on your server, for example, at https://*MyServer*/tsweb. The control (Msrdp.ocx) and the Remote Desktop Web Connection code are located in Msrdp.cab.
 
 **To install Remote Desktop Web Connection**
 

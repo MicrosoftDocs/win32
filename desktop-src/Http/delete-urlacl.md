@@ -32,9 +32,9 @@ delete urlacl [url=]string
 
 ## Examples
 
-**delete urlacl url=http://+:80/MyUri**
+**delete urlacl url=https://+:80/MyUri**
 
-**delete urlacl url=http://www.contoso.com:80/MyUri**
+**delete urlacl url=https://www.contoso.com:80/MyUri**
 
  
 

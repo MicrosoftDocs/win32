@@ -24,7 +24,7 @@ A control panel category page lists the items within a single category, along wi
 
 Control panel items are implemented using [task flows](glossary.md) or property sheets. For Windows Vista and later, task flows are the preferred user interface (UI).
 
-**Developers:** To learn how to create control panel items, see [Control Panel Items](http://msdn.microsoft.com/library/bb776838.aspx).
+**Developers:** To learn how to create control panel items, see [Control Panel Items](https://msdn.microsoft.com/library/bb776838.aspx).
 
 **Note:** Guidelines related to [property sheets](win-property-win.md) are presented in a separate article.
 
@@ -35,7 +35,7 @@ To decide, consider these questions:
 -   **Is the purpose to configure system-level features?** If not, use another integration point. Make your application features configurable directly from the UI using options dialog boxes, instead of using Control Panel. For utilities that aren't used for setup, configuration, or related tasks (like troubleshooting), use the Start menu as the integration point.
 -   **Does the system-level feature have its own UI?** If so, that UI is where users should go to make changes. For example, a system backup utility should be configured from its program options instead of from Control Panel.
 -   **Will users need to change the configuration often?** If so (say, several times a week), consider alternative solutions, perhaps in addition to using Control Panel. For example, the Windows master volume setting can be configured directly from its icon in the notification area. Some settings can be configured automatically. In Windows Explorer, for example, the Compatibility tab for application properties allows an application to be run in 256 color mode instead of requiring users to change the video mode manually.
--   **Are the target users IT professionals?** If so, use a [Microsoft Management Console (MMC)](http://msdn2.microsoft.com/library/aa814987.aspx) snap-in instead, which is designed specifically for system management tasks. In some cases, the best solution is to have both a control panel item for general users and an MMC snap-in for IT professionals.
+-   **Are the target users IT professionals?** If so, use a [Microsoft Management Console (MMC)](https://msdn2.microsoft.com/library/aa814987.aspx) snap-in instead, which is designed specifically for system management tasks. In some cases, the best solution is to have both a control panel item for general users and an MMC snap-in for IT professionals.
 
     ![screen shot of computer management window ](images/winenv-ctrl-panels-image2.png)
 
@@ -126,7 +126,7 @@ Task flow items use a hub page to present the high-level choices, and spoke page
     -   Use the Back button in the menu bar to return to previously viewed pages. Do not add a Back button to the command area.
     -   Use the Address bar to return directly to the control panel home page.
     -   Use See also links in the task pane to navigate to pages in other control panel items. Otherwise, navigation should stay within a single control panel item.
--   **Put only the control panel home page in the Address bar.** Clicking that link returns to the control panel home page, abandoning any work in progress without a [confirmation](http://msdn.microsoft.com/library/windows/desktop/aa511273.aspx).
+-   **Put only the control panel home page in the Address bar.** Clicking that link returns to the control panel home page, abandoning any work in progress without a [confirmation](https://msdn.microsoft.com/library/windows/desktop/aa511273.aspx).
 -   **Don't put a Close command button on control panel pages.** Users can close a control panel window using the Close button on the title bar.
 
 **Task links and buttons**

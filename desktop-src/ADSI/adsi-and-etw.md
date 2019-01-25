@@ -183,7 +183,7 @@ Scenario 1: The administrator sees an unexpected error in an application that se
 
     **tracelog.exe -start scripttrace -guid \#7288c9f8-d63c-4932-a345-89d6b060174d -f .\\adsi.etl -flag 0x2 -level 0x4**
 
-Scenario 2: The administrator wants to trace the schema parsing and download operations in an [ASP](http://go.microsoft.com/fwlink/p/?linkid=83851) application named w3wp.exe that is already running. To do this, the administrator would take the following steps:
+Scenario 2: The administrator wants to trace the schema parsing and download operations in an [ASP](https://go.microsoft.com/fwlink/p/?linkid=83851) application named w3wp.exe that is already running. To do this, the administrator would take the following steps:
 
 1.  Create the registry key
 

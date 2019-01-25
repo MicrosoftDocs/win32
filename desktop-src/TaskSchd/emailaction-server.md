@@ -41,7 +41,7 @@ The name of the server that you use to send email from.
 
 ## Remarks
 
-Make sure the SMTP server that sends the email is setup correctly. E-mail is sent using NTLM authentication for Windows SMTP servers, which means that the security credentials used for running the task must also have privileges on the SMTP server to send email message. If the SMTP server is a non-Windows based server, then the email will be sent if the server allows anonymous access. For information about setting up the SMTP server, see [SMTP Server Setup](http://go.microsoft.com/fwlink/p/?linkid=69001), and for information about managing SMTP server settings, see [SMTP Administration](http://go.microsoft.com/fwlink/p/?linkid=69002).
+Make sure the SMTP server that sends the email is setup correctly. E-mail is sent using NTLM authentication for Windows SMTP servers, which means that the security credentials used for running the task must also have privileges on the SMTP server to send email message. If the SMTP server is a non-Windows based server, then the email will be sent if the server allows anonymous access. For information about setting up the SMTP server, see [SMTP Server Setup](https://go.microsoft.com/fwlink/p/?linkid=69001), and for information about managing SMTP server settings, see [SMTP Administration](https://go.microsoft.com/fwlink/p/?linkid=69002).
 
 ## Requirements
 

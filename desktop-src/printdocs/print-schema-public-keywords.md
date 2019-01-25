@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Print Schema Public Keywords
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 The following section specifies the public keywords which are defined for the Print Schema.
 
@@ -28,7 +28,7 @@ Keywords specified under PrintCapabilities Public Keywords MAY appear in a Print
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

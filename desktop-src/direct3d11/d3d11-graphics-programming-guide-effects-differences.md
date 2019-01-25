@@ -201,7 +201,7 @@ These expressions could appear in state block expressions (such as FILTER) and p
 
 Effects 10 was distributed in D3D10.dll. Effects 11 is distributed as source, with corresponding Visual Studio solutions to compile it. When you create effects-type applications, we recommend that you include the Effects 11 source directly in those applications.
 
-You can get Effects 11 from [Effects for Direct3D 11 Update](http://go.microsoft.com/fwlink/p/?LinkId=271568).
+You can get Effects 11 from [Effects for Direct3D 11 Update](https://go.microsoft.com/fwlink/p/?LinkId=271568).
 
 ## Related topics
 

@@ -80,7 +80,7 @@ Pointer to the data buffer as received by [**BandedDataCallback**](/windows/desk
 
 Type: **BSTR\***
 
-**BSTR** that receives a description of the status or error encountered during the data transfer. This parameter cannot be **NULL**. The caller must free the string using [SysFreeString](http://msdn.microsoft.com/en-US/library/ms221481.aspx), and the implementor must allocate the string using [SysAllocString](http://msdn.microsoft.com/en-US/library/ms221458.aspx).
+**BSTR** that receives a description of the status or error encountered during the data transfer. This parameter cannot be **NULL**. The caller must free the string using [SysFreeString](https://msdn.microsoft.com/en-US/library/ms221481.aspx), and the implementor must allocate the string using [SysAllocString](https://msdn.microsoft.com/en-US/library/ms221458.aspx).
 
 </dd> </dl>
 

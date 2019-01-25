@@ -23,7 +23,7 @@ The following command signs the file using a certificate stored in a password-pr
 
 The following command signs and time stamps the file:
 
-**SignTool sign /f***MyCert***.pfx /t http://timestamp.verisign.com/scripts/timstamp.dll MyControl.exe**
+**SignTool sign /f***MyCert***.pfx /t https://timestamp.verisign.com/scripts/timstamp.dll MyControl.exe**
 
 > [!Note]  
 > For information about time stamping a file after it has already been signed, see [Adding Time Stamps to Previously Signed Files](adding-time-stamps-to-previously-signed-files.md).
@@ -36,7 +36,7 @@ The following command signs the file using a certificate located in the My store
 
 The following command signs an ActiveX control and provides information that is displayed by Internet Explorer when the user is prompted to install the control:
 
-**SignTool sign /f MyCert.pfx /d "***My Product Name***" /du "http://www.***example***.com/***my\_product***/info.html" MyControl.exe**
+**SignTool sign /f MyCert.pfx /d "***My Product Name***" /du "https://www.***example***.com/***my\_product***/info.html" MyControl.exe**
 
 The following command signs the file using a certificate whose [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) information is protected by a hardware cryptography module. For example purposes, assume that the certificate called "My High-Value Certificate," has a private key installed in a hardware cryptography module, and the certificate is properly installed.
 

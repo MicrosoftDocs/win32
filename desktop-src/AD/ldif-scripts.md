@@ -22,7 +22,7 @@ An LDIF file must apply schema changes when there are dependencies between the a
 
 Be aware that for binary values, you must encode the values as base64. Base64 encoding is defined in IETF RFC 2045, Section 6.8.
 
-For more information about the format of LDIF files, see [The LDAP Data Interchange Format (LDIF) - Technical Specification](http://go.microsoft.com/fwlink/p/?linkid=84053) (RFC 2849) on the Internet Engineering Task Force website.
+For more information about the format of LDIF files, see [The LDAP Data Interchange Format (LDIF) - Technical Specification](https://go.microsoft.com/fwlink/p/?linkid=84053) (RFC 2849) on the Internet Engineering Task Force website.
 
 ## NTDS-specific LDIF changetypes
 

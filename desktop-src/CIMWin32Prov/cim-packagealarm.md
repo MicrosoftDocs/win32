@@ -23,7 +23,7 @@ api_location:
 The [**CIM\_PackageAlarm**](https://msdn.microsoft.com/library/windows/desktop/aa382397) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment its security state or its overall health.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

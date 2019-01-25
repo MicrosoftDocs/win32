@@ -147,7 +147,7 @@ JScript:
 <script language="JavaScript">
     function fnShellUIHelperAddDesktopComponentJ()
     {
-        ShellUIHelper.AddDesktopComponent("http://www.microsoft.com/", "website");
+        ShellUIHelper.AddDesktopComponent("https://www.microsoft.com/", "website");
     }
 </script>
 
@@ -167,7 +167,7 @@ Private Sub fnShellUIHelperAddDesktopComponentVB()
     Dim objShellUIHelper As ShellUIHelper
     
     Set objShellUIHelper = New ShellUIHelper
-        objShellUIHelper.AddDesktopComponent "http://www.microsoft.com/", "website"
+        objShellUIHelper.AddDesktopComponent "https://www.microsoft.com/", "website"
     Set objShellUIHelper = Nothing
 End Sub
 ```

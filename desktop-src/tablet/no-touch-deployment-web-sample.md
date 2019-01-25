@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # No-Touch Deployment Web Sample
 
-This sample shows how to deploy a managed Tablet PC application over the Web by using no-touch deployment. You should be familiar with the concepts discussed in [No-Touch Deployment in the .NET Framework](http://go.microsoft.com/fwlink/p/?linkid=21880). Your computer must have Microsoft Internet Information Services (IIS) installed to run this sample.
+This sample shows how to deploy a managed Tablet PC application over the Web by using no-touch deployment. You should be familiar with the concepts discussed in [No-Touch Deployment in the .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=21880). Your computer must have Microsoft Internet Information Services (IIS) installed to run this sample.
 
 ## Overview
 
@@ -17,7 +17,7 @@ With no-touch deployment, Tablet PCWindows Forms applications-desktop applicatio
 This sample takes the original project for [Auto Claims Form Sample](auto-claims-form-sample.md), AutoClaims, and provides an installer project, AutoClaims\_NoTouchWeb. Once compiled and run, the installer project creates a new virtual root, also called AutoClaims\_NoTouchWeb. The installer copies a file, default.htm, that includes a link to the AutoClaims.exe assembly. To launch the rich client application, navigate to the virtual root with Microsoft Internet Explorer, and then click the link in the default.htm page.
 
 > [!Note]  
-> You must navigate to the virtual root by way of IIS (for example, http://localhost/AutoClaims\_NoTouchWeb/default.htm) and not directly through the file system in order for the application to work in the Internet Explorer application domain.
+> You must navigate to the virtual root by way of IIS (for example, https://localhost/AutoClaims\_NoTouchWeb/default.htm) and not directly through the file system in order for the application to work in the Internet Explorer application domain.
 
  
 

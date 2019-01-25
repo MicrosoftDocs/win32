@@ -364,7 +364,7 @@ The configuration specifies the type of request (PKCS \#7) and the serial number
 05e9:          |           |              |        |                 |  43 6c 61 73 73 3d 63 52  4c 44 69 73 74 72 69 62  ; Class=cRLDistrib
 05f9:          |           |              |        |                 |  75 74 69 6f 6e 50 6f 69  6e 74                    ; utionPoint
 0603:          |           |              |        |                 86 67  ; CONTEXT_SPECIFIC[6] (67 Bytes)
-0605:          |           |              |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+0605:          |           |              |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 0615:          |           |              |        |                    6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 0625:          |           |              |        |                    69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 0635:          |           |              |        |                    74 45 6e 72 6f 6c 6c 2f  4a 44 4f 4d 43 53 43 25  ; tEnroll/JDOMCSC%
@@ -401,7 +401,7 @@ The configuration specifies the type of request (PKCS \#7) and the serial number
 076b:          |           |              |        |           |  2b 06 01 05 05 07 30 02
                |           |              |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
 0773:          |           |              |        |           86 81 8d ; CONTEXT_SPECIFIC[6] (8d Bytes)
-0776:          |           |              |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+0776:          |           |              |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 0786:          |           |              |        |              6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 0796:          |           |              |        |              69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 07a6:          |           |              |        |              74 45 6e 72 6f 6c 6c 2f  4a 41 59 54 45 53 54 37  ; tEnroll/JAYTEST7
@@ -687,7 +687,7 @@ The configuration specifies the type of request (PKCS \#7) and the serial number
 0d4c:          |     |        |                 |  43 6c 61 73 73 3d 63 52  4c 44 69 73 74 72 69 62  ; Class=cRLDistrib
 0d5c:          |     |        |                 |  75 74 69 6f 6e 50 6f 69  6e 74                    ; utionPoint
 0d66:          |     |        |                 86 67   ; CONTEXT_SPECIFIC[6] (67 Bytes)
-0d68:          |     |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+0d68:          |     |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 0d78:          |     |        |                    6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 0d88:          |     |        |                    69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 0d98:          |     |        |                    74 45 6e 72 6f 6c 6c 2f  4a 44 4f 4d 43 53 43 25  ; tEnroll/JDOMCSC%
@@ -724,7 +724,7 @@ The configuration specifies the type of request (PKCS \#7) and the serial number
 0ece:          |     |        |           |  2b 06 01 05 05 07 30 02
                |     |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
 0ed6:          |     |        |           86 81 8d  ; CONTEXT_SPECIFIC[6] (8d Bytes)
-0ed9:          |     |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+0ed9:          |     |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 0ee9:          |     |        |              6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 0ef9:          |     |        |              69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 0f09:          |     |        |              74 45 6e 72 6f 6c 6c 2f  4a 41 59 54 45 53 54 37  ; tEnroll/JAYTEST7

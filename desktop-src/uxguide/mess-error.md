@@ -457,7 +457,7 @@ Error messages have several usage patterns:
 In this example, an unconstrained text box is used for constrained input. Use a slider instead.
 
 -   **Use modeless error handling (in-place errors or balloons) for contextual user input problems.**
--   **Use balloons for non-critical, single-point user input problems detected while in a text box or immediately after a text box loses focus.**[Balloons](http://msdn.microsoft.com/library/windows/desktop/aa511451.aspx) don't require available screen space or the dynamic layout that is required to display in-place messages. Display only a single balloon at a time. Because the problem isn't critical, no error icon is necessary. Balloons go away when clicked, when the problem is resolved, or after a timeout.
+-   **Use balloons for non-critical, single-point user input problems detected while in a text box or immediately after a text box loses focus.**[Balloons](https://msdn.microsoft.com/library/windows/desktop/aa511451.aspx) don't require available screen space or the dynamic layout that is required to display in-place messages. Display only a single balloon at a time. Because the problem isn't critical, no error icon is necessary. Balloons go away when clicked, when the problem is resolved, or after a timeout.
 
 ![screen shot of message: incorrect character ](images/mess-error-image36.png)
 

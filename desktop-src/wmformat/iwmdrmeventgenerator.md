@@ -50,7 +50,7 @@ The **IWMDRMEventGenerator** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> <dt>
 
-[Media Foundation SDK](http://msdn.microsoft.com/library/ms694197(VS.85).aspx)
+[Media Foundation SDK](https://msdn.microsoft.com/library/ms694197(VS.85).aspx)
 </dt> </dl>
 
  

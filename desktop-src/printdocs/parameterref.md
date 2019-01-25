@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ParameterRef
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A ParameterRef element defines a reference to a ParameterInit element. A ScoredProperty element that contains a ParameterRef element does not have an explicitly-set Value element. Instead, the ScoredProperty element receives its value from the ParameterInit element referenced by a ParameterRef element.
 
@@ -74,7 +74,7 @@ The following example illustrates how to use ParameterRef elements to enable use
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

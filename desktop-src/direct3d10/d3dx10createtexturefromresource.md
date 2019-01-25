@@ -55,7 +55,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A handle to the source resource. HMODULE can be obtained with [GetModuleHandle Function](http://msdn.microsoft.com/en-us/library/ms683199.aspx).
+A handle to the source resource. HMODULE can be obtained with [GetModuleHandle Function](https://msdn.microsoft.com/en-us/library/ms683199.aspx).
 
 </dd> <dt>
 

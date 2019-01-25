@@ -71,7 +71,7 @@ The advantage of this method is its simplicity. However, this method is unsuitab
 
  
 
-When implementing this method, the executable file that applies the patch must be different from the game executable. The manifest of the patching executable should specify requireAdministrator for requestedExecutionLevel to denote it as an application that requires Administrator rights. More information about how to do this can be found at [Developer Best Practices and Guidelines for Applications in a Least Privileged Environment](http://msdn2.microsoft.com/library/aa480150.aspx), in "Application Manifest Schema."
+When implementing this method, the executable file that applies the patch must be different from the game executable. The manifest of the patching executable should specify requireAdministrator for requestedExecutionLevel to denote it as an application that requires Administrator rights. More information about how to do this can be found at [Developer Best Practices and Guidelines for Applications in a Least Privileged Environment](https://msdn2.microsoft.com/library/aa480150.aspx), in "Application Manifest Schema."
 
 When this method is used, even with the settings in the manifest, the executable file might still be launched without Administrator rights in two cases:
 
@@ -108,7 +108,7 @@ One final possibility is to write a custom service. In general, writing a custom
 
 Ultimately, it is up to you to decide which method to implement. You need to weigh the factors are that are important to you. Security, frequency of patching, ease of use by customer, workload required to implement, complexity of solution, and platform feature compliance are the factors that each developer must consider before deciding on a particular method.
 
-You can find more information about user account protection in [Windows Vista Application Development Requirements for User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=81232).
+You can find more information about user account protection in [Windows Vista Application Development Requirements for User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=81232).
 
  
 

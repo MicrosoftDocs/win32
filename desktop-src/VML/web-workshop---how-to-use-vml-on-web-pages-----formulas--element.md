@@ -22,10 +22,10 @@ ms.date: 05/31/2018
 
 # Using the Formulas Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -60,7 +60,7 @@ m4960@0c8853@3,12747@3,16640@0nfe">
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/Formulas/shape1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Formulas/shape1.md)
 
 -   `adj="17520"` defines a value (= 17520). This value can be referenced as \#0.
 -   The first formula, `<v:f eqn="sum 33030 0 #0"/>`, defines the value (= 33030 + 0 - \#0). This value can be referenced as @0.
@@ -92,9 +92,9 @@ m4960@0c8853@3,12747@3,16640@0nfe">
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/Formulas/shape2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Formulas/shape2.md)
 
-For more information about this element, see the [VML specification](http://www.w3.org/TR/NOTE-VML#-toc416858392) .
+For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858392) .
 
  
 

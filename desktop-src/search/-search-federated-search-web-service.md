@@ -34,13 +34,13 @@ A user registers a new remote data store with Windows Federated Search by openin
 3.  A shortcut appears in the Windows Explorer navigation **Favorites** pane, enabling the user to navigate into the new data store, and query the web service.
 
 > [!Note]  
-> A data store that already has an [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) web service that is compatible with Windows Federated Search can be added to Windows Explorer when a user opens an .osdx file.
+> A data store that already has an [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) web service that is compatible with Windows Federated Search can be added to Windows Explorer when a user opens an .osdx file.
 
  
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](http://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
 
 ## Related topics
 

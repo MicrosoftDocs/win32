@@ -13,7 +13,7 @@ api_location:
 
 # LAN\_policy Schema Elements
 
-A wired (LAN) policy profile contains the following schema elements. All of the named elements are in the namespace `http://www.microsoft.com/networking/LAN/policy/v1`.
+A wired (LAN) policy profile contains the following schema elements. All of the named elements are in the namespace `https://www.microsoft.com/networking/LAN/policy/v1`.
 
 The following list shows the defined elements in the order in which the elements appear in a profile. The ordering of elements is enforced. Not all elements are in every profile, as some elements are optional.
 

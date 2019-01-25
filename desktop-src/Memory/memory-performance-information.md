@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Memory Performance Information
 
-Memory performance information is available from the memory manager through the system [performance counters](https://msdn.microsoft.com/en-us/library/Aa373083(v=VS.85).aspx) and through functions such as [**GetPerformanceInfo**](https://msdn.microsoft.com/library/ms683210(v=VS.85).aspx), [**GetProcessMemoryInfo**](https://msdn.microsoft.com/library/ms683219(v=VS.85).aspx), and [**GlobalMemoryStatusEx**](https://msdn.microsoft.com/en-us/library/Aa366589(v=VS.85).aspx). Applications such as the Windows Task Manager, the Reliability and Performance Monitor, and the [Process Explorer](http://go.microsoft.com/fwlink/p/?linkid=107401) tool use performance counters to display memory information for the system and for individual processes.
+Memory performance information is available from the memory manager through the system [performance counters](https://msdn.microsoft.com/en-us/library/Aa373083(v=VS.85).aspx) and through functions such as [**GetPerformanceInfo**](https://msdn.microsoft.com/library/ms683210(v=VS.85).aspx), [**GetProcessMemoryInfo**](https://msdn.microsoft.com/library/ms683219(v=VS.85).aspx), and [**GlobalMemoryStatusEx**](https://msdn.microsoft.com/en-us/library/Aa366589(v=VS.85).aspx). Applications such as the Windows Task Manager, the Reliability and Performance Monitor, and the [Process Explorer](https://go.microsoft.com/fwlink/p/?linkid=107401) tool use performance counters to display memory information for the system and for individual processes.
 
 This topic associates performance counters with the data returned by memory performance functions and the Windows Task Manager:
 
@@ -77,16 +77,16 @@ The following table associates process object performance counters with the data
 
 <dl> <dt>
 
-[Memory Object](Http://go.microsoft.com/fwlink/p/?linkid=84003)
+[Memory Object](https://go.microsoft.com/fwlink/p/?linkid=84003)
 </dt> <dt>
 
-[Objects Object](Http://go.microsoft.com/fwlink/p/?linkid=84009)
+[Objects Object](https://go.microsoft.com/fwlink/p/?linkid=84009)
 </dt> <dt>
 
-[Process Object](Http://go.microsoft.com/fwlink/p/?linkid=84007)
+[Process Object](https://go.microsoft.com/fwlink/p/?linkid=84007)
 </dt> <dt>
 
-[Process Explorer tool](http://go.microsoft.com/fwlink/p/?linkid=108235)
+[Process Explorer tool](https://go.microsoft.com/fwlink/p/?linkid=108235)
 </dt> </dl>
 
  

@@ -16,7 +16,7 @@ The following sections explain how to use Windows Image Acquisition (WIA) video 
 -   [Capturing a Still Image from a Video Stream](-wia-capturing-a-still-image-from-a-video-stream.md)
 
 > [!Note]  
-> WIA does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](http://msdn.microsoft.com/en-us/library/ms783323(VS.85).aspx) to acquire images from video.
+> WIA does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](https://msdn.microsoft.com/en-us/library/ms783323(VS.85).aspx) to acquire images from video.
 
  
 

@@ -60,10 +60,10 @@ There is no limit to the number of **LOGURL** elements in a metafile playlist.
 ```XML
 <ASX VERSION="3.0">
   <TITLE>Example Media Player Show</TITLE>
-  <LOGURL HREF="http://example.microsoft.com/info/showlog.asp?whatsup" />
+  <LOGURL HREF="https://example.microsoft.com/info/showlog.asp?whatsup" />
   <ENTRY>
     <REF href="mms://ucast.proseware.com/Media1.asf" />
-    <LOGURL HREF="http://www.proseware.com/cgi-bin/logging.pl?SomeArg=SomeVal"/>
+    <LOGURL HREF="https://www.proseware.com/cgi-bin/logging.pl?SomeArg=SomeVal"/>
   </ENTRY>
 </ASX>
 ```
@@ -76,7 +76,7 @@ URL of an ISAPI application:
 
 
 ```XML
-http://www.proseware.com/logs/WMSLogging.dll
+https://www.proseware.com/logs/WMSLogging.dll
 ```
 
 
@@ -85,7 +85,7 @@ URL of a CGI script:
 
 
 ```XML
-http://www.proseware.com/cgi-bin/My_WMS_Logging_Script.pl
+https://www.proseware.com/cgi-bin/My_WMS_Logging_Script.pl
 ```
 
 
@@ -94,7 +94,7 @@ A valid HTTP URL:
 
 
 ```XML
-http://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=FooPubPoint&AnotherName=AnotherValue
+https://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=FooPubPoint&AnotherName=AnotherValue
 ```
 
 

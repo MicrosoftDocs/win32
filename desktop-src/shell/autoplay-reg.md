@@ -90,7 +90,7 @@ BOOL DialogProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ## Using the Registry to Disable AutoRun
 
-There are two registry values that can be used to persistently disable AutoRun: NoDriveAutoRun and NoDriveTypeAutoRun. The first value disables AutoRun for specified drive letters and the second disables AutoRun for a class of drives. If either of these values is set to disable AutoRun for a particular device, it will be disabled. See the Knowledge Base article [How to disable the Autorun functionality in Windows](http://go.microsoft.com/fwlink/p/?linkid=200323) for more information on disabling AutoRun functionality. This article lists the different updates that you must have installed to correctly disable the Autorun functionality.
+There are two registry values that can be used to persistently disable AutoRun: NoDriveAutoRun and NoDriveTypeAutoRun. The first value disables AutoRun for specified drive letters and the second disables AutoRun for a class of drives. If either of these values is set to disable AutoRun for a particular device, it will be disabled. See the Knowledge Base article [How to disable the Autorun functionality in Windows](https://go.microsoft.com/fwlink/p/?linkid=200323) for more information on disabling AutoRun functionality. This article lists the different updates that you must have installed to correctly disable the Autorun functionality.
 
 > [!Note]  
 > The NoDriveAutoRun and NoDriveTypeAutoRun values should only be modified by system administrators to change the value for the entire system for testing or administrative purposes. Applications should not modify these values, as there is no way to reliably restore them to their original values.

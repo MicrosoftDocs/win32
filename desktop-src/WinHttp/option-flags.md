@@ -463,7 +463,7 @@ Sets the maximum number of redirects that WinHTTP follows; the default is 10. Th
 
 
 
-The maximum number of Informational 100-199 status code responses ignored before returning the final status code to the WinHTTP client. Informational 100-199 status codes can be sent by the server before the final status code, and are described in the specification for HTTP/1.1 (for more information, see [RFC 2616](Http://go.microsoft.com/fwlink/p/?linkid=84048)). The default is 10.
+The maximum number of Informational 100-199 status code responses ignored before returning the final status code to the WinHTTP client. Informational 100-199 status codes can be sent by the server before the final status code, and are described in the specification for HTTP/1.1 (for more information, see [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048)). The default is 10.
 
 **Windows XP with SP1 and Windows 2000 with SP3:** This flag is obsolete.
 

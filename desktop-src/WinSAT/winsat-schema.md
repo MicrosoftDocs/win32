@@ -23,7 +23,7 @@ The following is the WinSAT schema that you can use to determine the XPath.
 ```xsd
 <?xml version="1.0" encoding="utf-16" ?>                                
 <xsd:schema elementFormDefault="qualified"            
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+            xmlns:xsd="https://www.w3.org/2001/XMLSchema"> 
 
   <!-- Defines an assessment. -->   
   <xsd:element name="WinSAT">

@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
+Description: WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Software'
@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Computer Software
 
-WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at [http://www.microsoft.com/technet](Http://go.microsoft.com/fwlink/p/?linkid=84103).
+WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -35,7 +35,7 @@ The following procedure describes how to run a script.
  
 
 > [!Note]  
-> Running a "Select \* from Win32\_Product" query may result in unexpected behavior. This is because the provider that supports Win32\_Product is not query optimized. For more information, see [KB Article 974524](http://support.microsoft.com/kb/974524).
+> Running a "Select \* from Win32\_Product" query may result in unexpected behavior. This is because the provider that supports Win32\_Product is not query optimized. For more information, see [KB Article 974524](https://support.microsoft.com/kb/974524).
 
  
 
@@ -237,7 +237,7 @@ The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
  

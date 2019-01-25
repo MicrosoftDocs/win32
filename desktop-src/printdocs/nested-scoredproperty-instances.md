@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Nested ScoredProperty Instances
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Notice that you are not restricted to adding ScoredProperty instances as child elements of an Option instance. ScoredProperty instances may also be nested within other ScoredProperty instances. This is useful when a device property is complex and is best represented by multiple subproperties. Adding subproperties to an existing (or public) Property or ScoredProperty is a good way to enhance an Option, while retaining portability with existing Option instances. For example, the standard Option instances for the MediaType Feature contain a ScoredProperty describing the weight of the media as Light, Medium, Heavy, or ExtraHeavy. If you want more precise descriptions of the weight, you can add a subproperty (GramsPer100Sheets in the following example) that contains the actual weight (in grams) of 100 sheets of media. The enhanced Option might look like the following example.
 
@@ -31,7 +31,7 @@ A comparison of the original and enhanced Option instances produces a near-perfe
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

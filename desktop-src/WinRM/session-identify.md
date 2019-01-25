@@ -55,7 +55,7 @@ An XML string that specifies the WS-Management protocol version, the operating s
 
 
 ```XML
-xmlns:wsmid="http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity"
+xmlns:wsmid="https://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity"
 ```
 
 

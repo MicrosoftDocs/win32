@@ -17,7 +17,7 @@ api_location:
 
 # Duration (repetitionType) Element
 
-Specifies how long the pattern is repeated. The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes). For more information about the duration type, see <http://go.microsoft.com/fwlink/p/?linkid=106886>. If no value is specified for the duration, then the pattern is repeated indefinitely. The minimum value is one minute.
+Specifies how long the pattern is repeated. The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes). For more information about the duration type, see <https://go.microsoft.com/fwlink/p/?linkid=106886>. If no value is specified for the duration, then the pattern is repeated indefinitely. The minimum value is one minute.
 
 ``` syntax
 <xs:element name="Duration"

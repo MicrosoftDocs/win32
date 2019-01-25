@@ -59,7 +59,7 @@ To retrieve information about customizing a configuration, type **winrm help con
 
     WinRM service type changed to delayed auto start.
     WinRM service started.
-    Created a WinRM listener on HTTP://* to accept WS-Man requests to any IP on this
+    Created a WinRM listener on https://* to accept WS-Man requests to any IP on this
      machine.
     ```
 
@@ -117,7 +117,7 @@ Specifies whether the listener is enabled or disabled. The default is **True**.
 <span id="URLPrefix"></span><span id="urlprefix"></span><span id="URLPREFIX"></span>URLPrefix
 </dt> <dd>
 
-Specifies a URL prefix on which to accept HTTP or HTTPS requests. This is a string containing only the characters a-z, A-Z, 9-0, underscore (\_), and slash (/). The string must not start with or end with a slash (/). For example, if the computer name is SampleMachine, the WinRM client would specify http://SampleMachine/<*URLPrefix*> in the destination address. The default URL prefix is "wsman".
+Specifies a URL prefix on which to accept HTTP or HTTPS requests. This is a string containing only the characters a-z, A-Z, 9-0, underscore (\_), and slash (/). The string must not start with or end with a slash (/). For example, if the computer name is SampleMachine, the WinRM client would specify https://SampleMachine/<*URLPrefix*> in the destination address. The default URL prefix is "wsman".
 
 </dd> <dt>
 
@@ -502,7 +502,7 @@ If the [*baseboard management controller (BMC)*](windows-remote-management-gloss
 
 If your system does not automatically detect the BMC and install the driver, but a BMC was detected during the setup process, the BMC device must be manually created. To do this, type the following command at a command prompt: **Rundll32 ipmisetp.dll, AddTheDevice**. After this command is executed, the IPMI device is created and appears in Device Manager. If you uninstall the Hardware Management component, the device is removed.
 
-For more information, see [Hardware Management Introduction](http://go.microsoft.com/fwlink/p/?linkid=45204).
+For more information, see [Hardware Management Introduction](https://go.microsoft.com/fwlink/p/?linkid=45204).
 
 The IPMI provider places the hardware classes in the **root\\hardware** [*namespace*](https://msdn.microsoft.com/library/aa390820#wmi-gloss-namespace) of WMI. For more information about the hardware classes, see [IPMI Provider](https://msdn.microsoft.com/library/aa391402). For more information about WMI *namespaces*, see [WMI Architecture](https://msdn.microsoft.com/library/aa394553).
 
@@ -512,7 +512,7 @@ Beginning with Windows 8 and Windows Server 2012, [*WMI plug-ins*](windows-rem
 
 -   run **lusrmgr.msc** to add the user to the **WinRMRemoteWMIUsers\_\_** group in the **Local Users and Groups** window, or
 
--   use the **winrm** command-line tool to configure the security descriptor for the [*namespace*](windows-remote-management-glossary.md) of the [*WMI plug-in*](windows-remote-management-glossary.md), as follows: **winrm configSDDL http://schemas.microsoft.com/wbem/wsman/1/wmi/***WmiNamespace*.
+-   use the **winrm** command-line tool to configure the security descriptor for the [*namespace*](windows-remote-management-glossary.md) of the [*WMI plug-in*](windows-remote-management-glossary.md), as follows: **winrm configSDDL https://schemas.microsoft.com/wbem/wsman/1/wmi/***WmiNamespace*.
 
     When the user interface appears, add the user.
 

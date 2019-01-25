@@ -18,7 +18,7 @@ If the content is stored in a temporary local cache file on the computer that is
 
 The client sends streaming log data to the server to indicate how the client received the content, but not how it was rendered. The client can send the streaming log long before the client finishes rendering the content.
 
-This topic does not provide information about all the log fields. For a complete reference, see [Logging Model for Windows Media Services 9 Series](http://go.microsoft.com/fwlink/p/?linkid=68214).
+This topic does not provide information about all the log fields. For a complete reference, see [Logging Model for Windows Media Services 9 Series](https://go.microsoft.com/fwlink/p/?linkid=68214).
 
 ## Configuring Log Fields
 
@@ -54,7 +54,7 @@ The following table describes the log fields and the corresponding properties th
 </tr>
 <tr class="even">
 <td>cs(Referer)</td>
-<td>URL of the webpage in which the player was embedded (if it was embedded). The client can send this information to the server in the <a href="mfnetsource-browserwebpage-property"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample value: &quot;http://www.example.microsoft.com&quot;<br/></td>
+<td>URL of the webpage in which the player was embedded (if it was embedded). The client can send this information to the server in the <a href="mfnetsource-browserwebpage-property"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample value: &quot;https://www.example.microsoft.com&quot;<br/></td>
 </tr>
 <tr class="odd">
 <td>c-hostexe</td>

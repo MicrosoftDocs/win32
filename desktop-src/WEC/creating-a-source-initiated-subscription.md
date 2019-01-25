@@ -83,7 +83,7 @@ void __cdecl wmain()
     sub.Description = L"A subscription that collects events that are published in\n" \
         L"the Microsoft-Windows-TaskScheduler/Operational log and forwards them \n" \
         L"to the ForwardedEvents log.";
-    sub.URI = L"http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog";
+    sub.URI = L"https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog";
     sub.Query = L"<QueryList>" \
         L"<Query Path=\"Microsoft-Windows-TaskScheduler/Operational\">" \
         L"<Select>*</Select>" \
@@ -430,7 +430,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 <dl> <dt>
 
-[Configure Computers to Forward and Collect Events](http://go.microsoft.com/fwlink/p/?linkid=73696)
+[Configure Computers to Forward and Collect Events](https://go.microsoft.com/fwlink/p/?linkid=73696)
 </dt> <dt>
 
 [Setting up a Source Initiated Subscription](setting-up-a-source-initiated-subscription.md)

@@ -37,7 +37,7 @@ void LaunchPage(IWMPMedia *pMedia)
     {
         // Create the search URL.
         TCHAR szSearch[MAX_PATH];
-        _stprintf_s(szSearch, MAX_PATH, _T("http://search.msn.com/results.asp?q=%s"), OLE2T(bstrArtist));
+        _stprintf_s(szSearch, MAX_PATH, _T("https://search.msn.com/results.asp?q=%s"), OLE2T(bstrArtist));
         CComBSTR bstrURL = szSearch;
 
         // Launch the search page.

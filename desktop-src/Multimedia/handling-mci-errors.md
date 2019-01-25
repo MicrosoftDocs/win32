@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 You should always check the return value of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function. If it indicates an error, you can use [**mciGetErrorString**](https://msdn.microsoft.com/en-us/library/Dd757158(v=VS.85).aspx) to get a textual description of the error.
 
-The following example passes the MCI error code specified by *dwError* to **mciGetErrorString**, and then displays the resulting textual error description using the [MessageBox](http://go.microsoft.com/fwlink/p/?linkid=17005) function.
+The following example passes the MCI error code specified by *dwError* to **mciGetErrorString**, and then displays the resulting textual error description using the [MessageBox](https://go.microsoft.com/fwlink/p/?linkid=17005) function.
 
 
 ```C++

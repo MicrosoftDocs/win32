@@ -168,7 +168,7 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 
   - The bookmark of a record is the same as the key of that record on the primary index over the table containing that record. If no primary index is defined over that table, the database engine will create its own bookmark for the record.
 
-  - Bookmarks may be compared against each other using [memcmp](http://go.microsoft.com/fwlink/?linkid=180733) to establish their relative ordering in the primary index over the table of the source records. If no primary index is defined over that table, the relative ordering of bookmarks from that table is not meaningful.
+  - Bookmarks may be compared against each other using [memcmp](https://go.microsoft.com/fwlink/?linkid=180733) to establish their relative ordering in the primary index over the table of the source records. If no primary index is defined over that table, the relative ordering of bookmarks from that table is not meaningful.
 
   - It is meaningless to compare bookmarks of records from different tables against each other.
 
@@ -176,7 +176,7 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 
 Keys should generally be treated as opaque chunks of data. No attempt should be made to exploit the internal structure of this data. However, the following properties can be known about all ESENT keys:
 
-  - Keys may be compared against each other using [memcmp](http://go.microsoft.com/fwlink/?linkid=180733) to establish their relative ordering in the originating index over the table of the source index entries.
+  - Keys may be compared against each other using [memcmp](https://go.microsoft.com/fwlink/?linkid=180733) to establish their relative ordering in the originating index over the table of the source index entries.
 
   - It is meaningless to compare keys of index entries from different indexes against each other.
 
@@ -223,5 +223,5 @@ Keys should generally be treated as opaque chunks of data. No attempt should be 
 [JetGetBookmark](gg269221\(v=exchg.10\).md)  
 [JetGotoSecondaryIndexBookmark](gg269180\(v=exchg.10\).md)  
 [JetRetrieveKey](gg294051\(v=exchg.10\).md)  
-[memcmp](http://go.microsoft.com/fwlink/?linkid=180733)
+[memcmp](https://go.microsoft.com/fwlink/?linkid=180733)
 

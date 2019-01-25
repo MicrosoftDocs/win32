@@ -100,7 +100,7 @@ Example of the **Navigate** element:
 
 ```XML
 <Navigate
-    BaseURL = "http://www.proseware.com/online store/html/navigate.asp">
+    BaseURL = "https://www.proseware.com/online store/html/navigate.asp">
 </Navigate>
 ```
 
@@ -119,7 +119,7 @@ Example of resulting URL used for the webpage displayed in **ServiceTask1**:
 
 
 ```XML
-http://www.proseware.com/online store/html/navigate.asp?Pane=Store
+https://www.proseware.com/online store/html/navigate.asp?Pane=Store
 ```
 
 

@@ -52,7 +52,7 @@ The format of the value of this element follows the ISO 8601 standard. A common 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
     <dateCreated>2009-04-05T12:00:00-05:00</dateCreated>
     ...

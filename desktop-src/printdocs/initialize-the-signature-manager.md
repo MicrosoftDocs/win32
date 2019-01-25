@@ -92,7 +92,7 @@ After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
 </dt> </dl>
 
  

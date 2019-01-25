@@ -229,7 +229,7 @@ This section describes the window message processing performed by a tree-view co
 
 <dl> <dt>
 
-[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)](http://go.microsoft.com/fwlink/p/?linkid=198348)
+[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)](https://go.microsoft.com/fwlink/p/?linkid=198348)
 </dt> </dl>
 
  

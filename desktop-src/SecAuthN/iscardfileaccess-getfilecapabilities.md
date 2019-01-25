@@ -57,7 +57,7 @@ typedef struct
 
 
 
-For more information on TLV structures, see [http://www.pcscworkgroup.com/](http://go.microsoft.com/fwlink/p/?linkid=84156).
+For more information on TLV structures, see [https://www.pcscworkgroup.com/](https://go.microsoft.com/fwlink/p/?linkid=84156).
 
 </dd> <dt>
 

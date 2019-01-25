@@ -64,8 +64,8 @@ The Web Help pages always contain the latest and most detailed information about
 
 To access the Web Help pages directly, use the following error code and support center links:
 
--   [Windows Media Player Error Code Information](http://support.microsoft.com/kb/886273)
--   [Windows Media Player Solution Center](http://go.microsoft.com/fwlink/p/?linkid=10187)
+-   [Windows Media Player Error Code Information](https://support.microsoft.com/kb/886273)
+-   [Windows Media Player Solution Center](https://go.microsoft.com/fwlink/p/?linkid=10187)
 
 ## Examples
 

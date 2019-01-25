@@ -48,8 +48,8 @@ The following example is a portion of a playlist file that a user might receive.
 <ENTRY ClientSkip="no">
     <!<entity type="mdash"/>- Commercial Element 1 -->
     <REF HREF="mms://proseware.com/Commercial.wma" />
-    <BANNER HREF="http://www.proseware.com/images/MoreInfo.gif" >
-        <MOREINFO HREF="http://www.proseware.com" target="_blank" />
+    <BANNER HREF="https://www.proseware.com/images/MoreInfo.gif" >
+        <MOREINFO HREF="https://www.proseware.com" target="_blank" />
     <ABSTRACT>Courtesy of Windows Media Technologies
     </ABSTRACT>
     </BANNER>

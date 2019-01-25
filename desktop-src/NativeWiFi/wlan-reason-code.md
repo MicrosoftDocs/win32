@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WLAN\_REASON\_CODE** type indicates the reason a WLAN operation has failed.
 
-You can use the [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) function to map a numeric reason code (for example, 0x00050007) to its text meaning. You can also use the lookup table to help interpret the numeric value of the reason code. To view the lookup table, see Appendix E: Mapping of reason codes to event messages in the document [Troubleshooting Windows Vista 802.11 Wireless Connections](http://go.microsoft.com/fwlink/p/?linkid=93832).
+You can use the [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) function to map a numeric reason code (for example, 0x00050007) to its text meaning. You can also use the lookup table to help interpret the numeric value of the reason code. To view the lookup table, see Appendix E: Mapping of reason codes to event messages in the document [Troubleshooting Windows Vista 802.11 Wireless Connections](https://go.microsoft.com/fwlink/p/?linkid=93832).
 
 
 ```C++

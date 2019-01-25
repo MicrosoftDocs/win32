@@ -1272,7 +1272,7 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 The **Win32\_Keyboard** class is derived from [**CIM\_Keyboard**](cim-keyboard.md).
 
-For more information about using Win32\_Keyboard, see [Use PowerShell and WMI to Find Wireless Keyboard & Mouse](http://blogs.technet.com/b/heyscriptingguy/archive/2012/11/30/use-powershell-and-wmi-to-find-wireless-keyboard-amp-mouse.aspx).
+For more information about using Win32\_Keyboard, see [Use PowerShell and WMI to Find Wireless Keyboard & Mouse](https://blogs.technet.com/b/heyscriptingguy/archive/2012/11/30/use-powershell-and-wmi-to-find-wireless-keyboard-amp-mouse.aspx).
 
 ## Examples
 

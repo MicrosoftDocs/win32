@@ -29,7 +29,7 @@ The Windows Virtual PC COM interfaces are for developers who are creating client
 
 Windows Virtual PC requires one of the following Windows 7 editions - Home Basic, Home Premium, Professional, Ultimate, or Enterprise edition.
 
-To obtain the related header and library files, install the Windows SDK for Windows 7 from the [Microsoft Download Center](http://go.microsoft.com/fwlink/p/?linkid=139812).
+To obtain the related header and library files, install the Windows SDK for Windows 7 from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=139812).
 
 ## In this section
 
@@ -39,7 +39,7 @@ To obtain the related header and library files, install the Windows SDK for Wind
 
 <dl> <dt>
 
-[Windows Virtual PC](http://go.microsoft.com/fwlink/p/?linkid=150439)
+[Windows Virtual PC](https://go.microsoft.com/fwlink/p/?linkid=150439)
 </dt> </dl>
 
  

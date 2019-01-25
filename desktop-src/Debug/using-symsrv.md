@@ -47,7 +47,7 @@ The following table displays examples of the supported symbol store types..
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \\\\server\\share          | A fully qualified UNC path to a share on a remote server.                                                                                                                                                                                                                                                                                                 |
 | c:\\LocalCache             | A path to a directory on the client computer.                                                                                                                                                                                                                                                                                                             |
-| http://InternetSite        | The URL to a web site hosting the symbols. Must be the rightmost store in the list and should not be the only store in the list.                                                                                                                                                                                                                          |
+| https://InternetSite        | The URL to a web site hosting the symbols. Must be the rightmost store in the list and should not be the only store in the list.                                                                                                                                                                                                                          |
 | https://SecureInternetSite | The URL to a secure web site hosting the symbols. This can support passwords, Windows login credentials, certificates, and smartcards. Must be the rightmost store in the list and should not be the only store in the list.                                                                                                                              |
 | <blank>              | If there is no text between two asterisks, this indicates the *default downstream store*. The location is set by calling [**SymSetHomeDirectory**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory). The default value is a directory named "sym" immediately below the program directory of the calling application. This is sometimes referred to as the *default local cache*. |
 
@@ -73,11 +73,11 @@ To set the symbol path so that the debugger will copy symbol files from a symbol
 
 To use a cascading store, set the following symbol path:
 
-**set \_NT\_SYMBOL\_PATH = srv\*c:\\localsymbols\*\\\\NearbyServer\\store\*http://DistantServer**
+**set \_NT\_SYMBOL\_PATH = srv\*c:\\localsymbols\*\\\\NearbyServer\\store\*https://DistantServer**
 
-In this example, SymSrv first looks for the file in c:\\localsymbols. If it is found there, it will return a path to the file. Otherwise, SymSrv looks for the file in \\\\NearbyServer\\store. If it is found there, SymSrv copies the file to c:\\localsymbols and returns a path to the file; if it is not found, SymSrv looks for the file in http://DistantServer, and if it is found there, SymSrv copies the file to \\\\NearbyServer\\store, then to c:\\localsymbols.
+In this example, SymSrv first looks for the file in c:\\localsymbols. If it is found there, it will return a path to the file. Otherwise, SymSrv looks for the file in \\\\NearbyServer\\store. If it is found there, SymSrv copies the file to c:\\localsymbols and returns a path to the file; if it is not found, SymSrv looks for the file in https://DistantServer, and if it is found there, SymSrv copies the file to \\\\NearbyServer\\store, then to c:\\localsymbols.
 
-This last example shows how judicious design of a symbol path can be used to optimize the downloading of symbols. If you have a work site with a group of debuggers and they all need to get symbols from a distant location, you can set up a common server with a symbol store near all the debuggers. Then setup every debugger with the symbol path above. The first debugger that requires a certain version of foo.pdb will download it from http://DistantServer to \\\\NearbyServer\\store and then to its own machine in c:\\localsymbols. The next debugger that requires the same file will be able to download it from \\\\NearbyServer\\store because it was already downloaded to that location by the previous debugger. This multi-level caching saves significant time and network bandwidth.
+This last example shows how judicious design of a symbol path can be used to optimize the downloading of symbols. If you have a work site with a group of debuggers and they all need to get symbols from a distant location, you can set up a common server with a symbol store near all the debuggers. Then setup every debugger with the symbol path above. The first debugger that requires a certain version of foo.pdb will download it from https://DistantServer to \\\\NearbyServer\\store and then to its own machine in c:\\localsymbols. The next debugger that requires the same file will be able to download it from \\\\NearbyServer\\store because it was already downloaded to that location by the previous debugger. This multi-level caching saves significant time and network bandwidth.
 
 ## Microsoft Symbol Store
 
@@ -87,10 +87,10 @@ The Internet symbol server is populated with a variety of Windows symbols for Mi
 
 If you have access to the Internet during debugging, you can configure the debugger to download symbols as needed during a debugging session, rather than downloading symbol files separately before a debugging session. The symbols are downloaded to a directory location that you specify and then the debugger loads them from there.
 
-The URL for the Microsoft symbol store is http://msdl.microsoft.com/download/symbols. The following example shows how to set the debugger symbol path (substitute your downstream store path for *c:\\DownstreamStore*):
+The URL for the Microsoft symbol store is https://msdl.microsoft.com/download/symbols. The following example shows how to set the debugger symbol path (substitute your downstream store path for *c:\\DownstreamStore*):
 
 ``` syntax
-srv*c:\DownstreamStore*http://msdl.microsoft.com/download/symbols
+srv*c:\DownstreamStore*https://msdl.microsoft.com/download/symbols
 ```
 
 ## Compressed Files

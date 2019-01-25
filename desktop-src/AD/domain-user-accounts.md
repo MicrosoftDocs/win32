@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 A domain user account enables the service to take full advantage of the service security features of Windows and Microsoft Active Directory Domain Services. The service has whatever local and network access is granted to the account, or to any groups of which the account is a member. The service can support Kerberos mutual authentication.
 
 > [!Note]  
-> The following documentation is for computer programmers. If you are an end-user looking for information about an error message involving domain user accounts, see the [Microsoft community forums](http://answers.microsoft.com). For information about managing domain user accounts, see [TechNet](https://technet.microsoft.com/library/cc754217.aspx).
+> The following documentation is for computer programmers. If you are an end-user looking for information about an error message involving domain user accounts, see the [Microsoft community forums](https://answers.microsoft.com). For information about managing domain user accounts, see [TechNet](https://technet.microsoft.com/library/cc754217.aspx).
 
  
 

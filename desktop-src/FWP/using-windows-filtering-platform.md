@@ -60,7 +60,7 @@ How to configure the Internet Protocol Security (IPsec).
 [Implementing the Teredo Security Model](https://msdn.microsoft.com/library/windows/desktop/bb190942)
 </dt> <dt>
 
-[WFP Discussion Forum](http://go.microsoft.com/fwlink/p/?linkid=93354)
+[WFP Discussion Forum](https://go.microsoft.com/fwlink/p/?linkid=93354)
 </dt> </dl>
 
  

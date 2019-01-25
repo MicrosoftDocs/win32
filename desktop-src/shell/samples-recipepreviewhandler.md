@@ -46,8 +46,8 @@ This sample is available in the following locations.
 
 | Location      | Link                                                                                                 |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155659) |
-| Windows 7 SDK | [Download Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787)                            |
+| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155659) |
+| Windows 7 SDK | [Download Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787)                            |
 
 
 

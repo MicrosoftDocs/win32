@@ -212,7 +212,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
  
 
-For more information about group type and scope, see the [Group types](http://go.microsoft.com/fwlink/p/?linkid=84115) and [Group scope](http://go.microsoft.com/fwlink/p/?linkid=84114) topics on Microsoft TechNet.
+For more information about group type and scope, see the [Group types](https://go.microsoft.com/fwlink/p/?linkid=84115) and [Group scope](https://go.microsoft.com/fwlink/p/?linkid=84114) topics on Microsoft TechNet.
 
  
 

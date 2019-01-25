@@ -146,7 +146,7 @@ int main()
     if (SUCCEEDED(hr))
     {    // Open WinHttpRequest.
         BSTR bstrMethod  = SysAllocString(L"GET");
-        BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+        BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod,
                                     bstrUrl,
                                     varFalse);
@@ -191,7 +191,7 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 WinHttpReq.SetTimeouts(30000, 30000, 30000, 30000);
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("GET", "http://www.microsoft.com", false);
+WinHttpReq.Open("GET", "https://www.microsoft.com", false);
 
 // Send the HTTP request.
 WinHttpReq.Send();

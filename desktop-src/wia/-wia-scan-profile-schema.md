@@ -25,9 +25,9 @@ Here is the complete Scan Profile Schema. A sample profile follows.
 
 ```
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-            targetNamespace="http://www.microsoft.com"
-            xmlns="http://www.microsoft.com"
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema"
+            targetNamespace="https://www.microsoft.com"
+            xmlns="https://www.microsoft.com"
             elementFormDefault="qualified">
 
 <xs:element name="ScanProfile">

@@ -244,7 +244,7 @@ Again, this operation works only when the source and destination images have the
 
 ## Part 5: Add Additional Metadata
 
-The following example demonstrates how to add metadata to the destination image. This is done by calling the query writer's **SetMetadataByName** method using a query expression and the data stored in a [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx).
+The following example demonstrates how to add metadata to the destination image. This is done by calling the query writer's **SetMetadataByName** method using a query expression and the data stored in a [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx).
 
 
 ```C++

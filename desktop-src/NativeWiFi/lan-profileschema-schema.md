@@ -15,7 +15,7 @@ api_location:
 
 The LAN\_profile schema defines a wired (LAN) network profile. A LAN profile contains network settings for an Ethernet interface.
 
-The root element of a LAN profile is the [**LANProfile**](lan-profileschema-lanprofile-element.md) element. Each profile will have exactly one root element. All LAN\_profile elements are in the namespace `http://www.microsoft.com/networking/LAN/profile/v1`.
+The root element of a LAN profile is the [**LANProfile**](lan-profileschema-lanprofile-element.md) element. Each profile will have exactly one root element. All LAN\_profile elements are in the namespace `https://www.microsoft.com/networking/LAN/profile/v1`.
 
 To view sample LAN profiles, see [Wired Profile Samples](wired-profile-samples.md).
 

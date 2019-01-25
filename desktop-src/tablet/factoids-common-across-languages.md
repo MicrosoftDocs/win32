@@ -44,7 +44,7 @@ A number of factoids describe input that is common to all language recognizers a
 The default settings for the recognizer include the <strong>Web</strong> factoid. Because of this, you may not notice a large difference between the <strong>Web</strong> factoid and the default setting. However, the <strong>Web</strong> factoid does help eliminate spaces between words in a URL.
 </blockquote>
 <br/></td>
-<td>http:\\microsoft.net<br/> http://microsoft.us/<br/> https:\\www.microsoft.au\<br/> https://microsoft.com<br/> www.microsoft_world.com<br/> www.microsoft.us\<br/> http:\\www.microsoft.com\myfile.htm<br/> http:\\www.microsoft.com\myfile.html<br/> http:\\www.microsoft.com\myfile.asp<br/> http:\\www.microsoft.uk<br/> http:\\www.microsoft.info<br/> www.microsoft.biz<br/></td>
+<td>http:\\microsoft.net<br/> https://microsoft.us/<br/> https:\\www.microsoft.au\<br/> https://microsoft.com<br/> www.microsoft_world.com<br/> www.microsoft.us\<br/> http:\\www.microsoft.com\myfile.htm<br/> http:\\www.microsoft.com\myfile.html<br/> http:\\www.microsoft.com\myfile.asp<br/> http:\\www.microsoft.uk<br/> http:\\www.microsoft.info<br/> www.microsoft.biz<br/></td>
 </tr>
 <tr class="even">
 <td><strong>Default</strong></td>

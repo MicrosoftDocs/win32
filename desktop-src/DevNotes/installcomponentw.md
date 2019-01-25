@@ -120,7 +120,7 @@ This function returns an **HRESULT** value (S\_OK or a failure code). A failure 
 
 Exception packages are Windows system files that are released outside of a full package Windows release and that update operating-system files. Exception packages are authored only by operating-system teams that have been granted authorization to update Windows system files.
 
-To install and uninstall files that are not protected by Windows File Protection, use the functions documented in [General Setup Functions](Http://go.microsoft.com/fwlink/p/?linkid=85320). To install device drivers, venders should use functions documented in [Device Installation Functions](Http://go.microsoft.com/fwlink/p/?linkid=85318) and [PnP Configuration Manager Functions](Http://go.microsoft.com/fwlink/p/?linkid=85319).
+To install and uninstall files that are not protected by Windows File Protection, use the functions documented in [General Setup Functions](https://go.microsoft.com/fwlink/p/?linkid=85320). To install device drivers, venders should use functions documented in [Device Installation Functions](https://go.microsoft.com/fwlink/p/?linkid=85318) and [PnP Configuration Manager Functions](https://go.microsoft.com/fwlink/p/?linkid=85319).
 
 This function has no associated import library or header file; you must call it by using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
 

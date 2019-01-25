@@ -58,7 +58,7 @@ Vectors and quaternions are not byte aligned in D3DX. When using vectors and qua
 
 
 
-Other compilers interpret **D3DXMATRIXA16** as [**D3DXMATRIX**](d3d10-d3dxmatrix.md). Using this structure on a compiler that does not actually align the matrix can be problematic because it will not expose bugs that ignore alignment. For example, if a **D3DXMATRIXA16** object is inside a structure or class, a [memcpy](http://msdn2.microsoft.com/en-us/library/dswaw1wk(vs.71).aspx) might be done with tight packing (ignoring 16-byte boundaries). This would cause build breaks if the compiler were to sometime add matrix aligning.
+Other compilers interpret **D3DXMATRIXA16** as [**D3DXMATRIX**](d3d10-d3dxmatrix.md). Using this structure on a compiler that does not actually align the matrix can be problematic because it will not expose bugs that ignore alignment. For example, if a **D3DXMATRIXA16** object is inside a structure or class, a [memcpy](https://msdn2.microsoft.com/en-us/library/dswaw1wk(vs.71).aspx) might be done with tight packing (ignoring 16-byte boundaries). This would cause build breaks if the compiler were to sometime add matrix aligning.
 
 ### D3DXMATRIXA16 Extensions
 

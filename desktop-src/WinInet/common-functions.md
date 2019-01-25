@@ -495,7 +495,7 @@ hRootHandle = InternetOpen( TEXT("Example"),
                             NULL, 0);
 
 hOpenUrlHandle = InternetOpenUrl(hRootHandle, 
-    TEXT("http://www.server.com/default.htm"), NULL, 0, 
+    TEXT("https://www.server.com/default.htm"), NULL, 0, 
     INTERNET_FLAG_RAW_DATA,0);
 
 // Close the handle created by InternetOpenUrl so that the

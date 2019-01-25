@@ -21,7 +21,7 @@ Intelligent Connect involves the following [**IGraphBuilder**](/windows/desktop/
 
 ### IGraphBuilder::AddSourceFilter
 
-The [**IGraphBuilder::AddSourceFilter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-addsourcefilter) method adds a source filter that can render a specified file. First it looks in the registry and matches against the protocol (such as `http://`), the file name extension, or a set of predetermined *check bytes*, which are bytes at particular offsets in the file that match certain patterns. For details, see [Registering a Custom File Type](registering-a-custom-file-type.md). Assuming that the method locates an appropriate source filter, it then creates an instance of that filter, adds it to the graph, and calls the filter's [**IFileSourceFilter::Load**](/windows/desktop/api/Strmif/nf-strmif-ifilesourcefilter-load) method with the file name.
+The [**IGraphBuilder::AddSourceFilter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-addsourcefilter) method adds a source filter that can render a specified file. First it looks in the registry and matches against the protocol (such as `https://`), the file name extension, or a set of predetermined *check bytes*, which are bytes at particular offsets in the file that match certain patterns. For details, see [Registering a Custom File Type](registering-a-custom-file-type.md). Assuming that the method locates an appropriate source filter, it then creates an instance of that filter, adds it to the graph, and calls the filter's [**IFileSourceFilter::Load**](/windows/desktop/api/Strmif/nf-strmif-ifilesourcefilter-load) method with the file name.
 
 ### IGraphBuilder::Render
 

@@ -46,7 +46,7 @@ In the following example, the client program would first attempt to connect to t
 ```XML
 [reference]
 Ref01 = mms://example.com/MusicFile.wma
-Ref02 = http://example.com/MusicFile.wma
+Ref02 = https://example.com/MusicFile.wma
 
 ```
 

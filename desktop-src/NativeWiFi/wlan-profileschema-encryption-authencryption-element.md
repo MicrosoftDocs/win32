@@ -47,7 +47,7 @@ The element is defined by the [**authEncryption**](wlan-profileschema-authencryp
 
 When the **encryption** element has a value of WEP, [**keyType**](wlan-profileschema-keytype-sharedkey-element.md) must be set to **networkKey**.
 
-The AES encryption method is as specified in the [802.1X](http://go.microsoft.com/fwlink/p/?linkid=89910) and [802.11i](http://go.microsoft.com/fwlink/p/?linkid=89906) specifications.
+The AES encryption method is as specified in the [802.1X](https://go.microsoft.com/fwlink/p/?linkid=89910) and [802.11i](https://go.microsoft.com/fwlink/p/?linkid=89906) specifications.
 
 ## Examples
 

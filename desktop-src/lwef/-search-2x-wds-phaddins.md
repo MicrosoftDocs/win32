@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Developing Protocol Handler Add-ins
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 You can extend Microsoft Windows Desktop Search (WDS) to include new data stores by implementing a custom protocol handler.
 

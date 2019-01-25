@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Responsibilities of PrintCapabilities Providers
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 PrintCapabilities providers must support a minimum set of capabilities, which are implied by the PrintTicket/PrintCapabilities Provider Interface. These capabilities are listed here.
 
@@ -38,7 +38,7 @@ In addition to the foregoing requirements, the PrintCapabilities document must c
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

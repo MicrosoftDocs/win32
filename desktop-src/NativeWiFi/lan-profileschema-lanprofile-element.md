@@ -18,7 +18,7 @@ api_location:
 
 The LANProfile element contains a wired network profile. This element is the unique root element for a wired network profile.
 
-The target namespace for the LANProfile element is `http://www.microsoft.com/networking/LAN/profile/v1`.
+The target namespace for the LANProfile element is `https://www.microsoft.com/networking/LAN/profile/v1`.
 
 ``` syntax
 <xs:element name="LANProfile">

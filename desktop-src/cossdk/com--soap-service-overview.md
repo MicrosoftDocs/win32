@@ -14,7 +14,7 @@ It is often useful for a client application to be able to call a method implemen
 
 Like webpages, XML web services are accessed via a web server, such as IIS, using HTTP. However, instead of webpages encoded in HTML, these HTTP packets contain the input and output parameters of calls to a method implemented on the server, encoded in SOAP.
 
-To use an XML web service, you need to know the URL where the service is exposed and the name of the method you want to call, and you must provide the input parameters to the method. [The SOAP 1.1 standard](http://go.microsoft.com/fwlink/p/?linkid=6025) provides the following example of an HTTP packet containing a remote call to an XML web service at http://www.stockquoteserver.com/StockQuote, which returns the current price of the stock corresponding to a given ticker symbol.
+To use an XML web service, you need to know the URL where the service is exposed and the name of the method you want to call, and you must provide the input parameters to the method. [The SOAP 1.1 standard](https://go.microsoft.com/fwlink/p/?linkid=6025) provides the following example of an HTTP packet containing a remote call to an XML web service at https://www.stockquoteserver.com/StockQuote, which returns the current price of the stock corresponding to a given ticker symbol.
 
 ``` syntax
 POST /StockQuote HTTP/1.1
@@ -24,8 +24,8 @@ Content-Length: nnnn
 SOAPAction: "Some-URI"
 
 <SOAP-ENV:Envelope
-xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
-SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/envelope/"
+SOAP-ENV:encodingStyle="https://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
 <m:GetLastTradePrice xmlns:m="Some-URI">
 <symbol>DIS</symbol>
@@ -42,8 +42,8 @@ Content-Type: text/xml; "charset=utf-8"
 Content-Length: nnnn
 
 <SOAP-ENV:Envelope
-xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
-SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding//">
+xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/envelope/"
+SOAP-ENV:encodingStyle="https://schemas.xmlsoap.org/soap/encoding//">
 <SOAP-ENV:Body>
 <m:GetLastTradePriceResponse xmlns:m="Some-URI">
 <Price>34.5</Price>

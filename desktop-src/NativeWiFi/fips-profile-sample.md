@@ -21,7 +21,7 @@ The FIPS profile sample can be used to connect to a network that requires securi
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
-<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+<WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>FIPS_TEST</name>
     <SSIDConfig>
         <SSID>
@@ -39,16 +39,16 @@ The FIPS profile sample can be used to connect to a network that requires securi
                 <authentication>WPA2</authentication>
                 <encryption>AES</encryption>
                 <useOneX>true</useOneX>
-                <FIPSMode xmlns="http://www.microsoft.com/networking/WLAN/profile/v2">true</FIPSMode>
+                <FIPSMode xmlns="https://www.microsoft.com/networking/WLAN/profile/v2">true</FIPSMode>
             </authEncryption>
-            <OneX xmlns="http://www.microsoft.com/networking/OneX/v1">
+            <OneX xmlns="https://www.microsoft.com/networking/OneX/v1">
                 <EAPConfig>
-                    <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig">
+                    <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig">
                     <EapMethod>
-                        <Type xmlns="http://www.microsoft.com/provisioning/EapCommon">25</Type>
-                        <VendorId xmlns="http://www.microsoft.com/provisioning/EapCommon">0</VendorId>
-                        <VendorType xmlns="http://www.microsoft.com/provisioning/EapCommon">0</VendorType>
-                        <AuthorId xmlns="http://www.microsoft.com/provisioning/EapCommon">0</AuthorId>
+                        <Type xmlns="https://www.microsoft.com/provisioning/EapCommon">25</Type>
+                        <VendorId xmlns="https://www.microsoft.com/provisioning/EapCommon">0</VendorId>
+                        <VendorType xmlns="https://www.microsoft.com/provisioning/EapCommon">0</VendorType>
+                        <AuthorId xmlns="https://www.microsoft.com/provisioning/EapCommon">0</AuthorId>
                     </EapMethod>
                     <ConfigBlob></ConfigBlob>
                     </EapHostConfig>

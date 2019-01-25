@@ -73,7 +73,7 @@ DeleteObject(hBitmapHot);    // Delete the loaded bitmap.
 [Using Toolbar Controls](using-toolbar-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](http://go.microsoft.com/fwlink/p/?linkid=214295)
+[Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=214295)
 </dt> </dl>
 
  

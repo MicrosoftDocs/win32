@@ -32,7 +32,7 @@ This documentation includes the following sections.
 
 <dl> <dt>
 
-[Media Technologies for Windows](http://go.microsoft.com/fwlink/p/?linkid=208025)
+[Media Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=208025)
 </dt> </dl>
 
  

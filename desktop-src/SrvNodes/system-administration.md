@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # System Administration
 
 > [!Note]  
-> These topics are for software developers. For customer support issues, see [Support - Windows Help](http://windows.microsoft.com/windows/support#1TC=windows-10).
+> These topics are for software developers. For customer support issues, see [Support - Windows Help](https://windows.microsoft.com/windows/support#1TC=windows-10).
 
  
 

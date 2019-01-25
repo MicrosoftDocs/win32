@@ -20,7 +20,7 @@ Active Directory Service Interfaces (ADSI) is a set of COM interfaces used to ac
 ADSI enables common administrative tasks, such as adding new users, managing printers, and locating resources in a distributed computing environment.
 
 > [!Note]  
-> The following documentation is for computer programmers. If you are an end-user trying to debug a printing error or home network issue, see the [Microsoft community forums](http://answers.microsoft.coms).
+> The following documentation is for computer programmers. If you are an end-user trying to debug a printing error or home network issue, see the [Microsoft community forums](https://answers.microsoft.coms).
 
  
 

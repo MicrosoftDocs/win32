@@ -76,7 +76,7 @@ Under the label **Window** you'll find a dropdown that lists all the HWND window
 
 ## Using the AccScope visualization
 
-The image below is a screenshot of the AccScope visualization. This particular screenshot shows the AccScope tool viewing the top-level window for the [XAML accessibility sample](http://go.microsoft.com/fwlink/p/?linkid=238570) output, running as an app on the same machine. This screenshot shows the default element mode of **Leaf Control** and the **Visual** value for **Layout**.
+The image below is a screenshot of the AccScope visualization. This particular screenshot shows the AccScope tool viewing the top-level window for the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) output, running as an app on the same machine. This screenshot shows the default element mode of **Leaf Control** and the **Visual** value for **Layout**.
 
 ![](images/accscopescreenshot.png)
 
@@ -125,7 +125,7 @@ Here are some specific areas of your app to test for the Narrator scenario:
 [UI Automation Verify](ui-automation-verify.md)
 </dt> <dt>
 
-[Microsoft Accessibility](http://go.microsoft.com/fwlink/p/?LinkId=320802)
+[Microsoft Accessibility](https://go.microsoft.com/fwlink/p/?LinkId=320802)
 </dt> </dl>
 
  

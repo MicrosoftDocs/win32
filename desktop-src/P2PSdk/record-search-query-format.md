@@ -12,7 +12,7 @@ A call to the [**PeerGroupSearchRecords**](/windows/desktop/api/P2P/nf-p2p-peerg
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema">
 
   <xs:simpleType name="alphanumType">
      <xs:restriction base="xs:string">
@@ -85,7 +85,7 @@ The primary element in a record search is **peersearch**, which contains the Uni
 
     ``` syntax
     <?xml version="1.0" encoding="utf-8" ?> 
-    <peersearch xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <peersearch xmlns:xs="https://www.w3.org/2001/XMLSchema">
        <and>
           <clause attrib="peercreatorid" type="string" compare="equal">James Peters</clause>
           <or>
@@ -102,12 +102,12 @@ The primary element in a record search is **peersearch**, which contains the Uni
 
     ``` syntax
     <?xml version="1.0" encoding="utf-8" ?> 
-    <peersearch xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <peersearch xmlns:xs="https://www.w3.org/2001/XMLSchema">
        <clause attrib="peercreatorid" type="string" compare="equal">James Peters</clause>
     </peersearch>
     ```
 
-    Common **type** attributes include **int**, **string**, and **date**. The **date** attribute can be one of the standard date formats described at [http://www.w3.org/TR/NOTE-datetime](http://go.microsoft.com/fwlink/p/?linkid=84446).
+    Common **type** attributes include **int**, **string**, and **date**. The **date** attribute can be one of the standard date formats described at [https://www.w3.org/TR/NOTE-datetime](https://go.microsoft.com/fwlink/p/?linkid=84446).
 
     Values for the **compare** attribute are **equal**, **notequal**, **less**, **greater**, **lessorequal**, and **greaterorequal**.
 
@@ -117,7 +117,7 @@ The primary element in a record search is **peersearch**, which contains the Uni
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?> 
-<peersearch xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<peersearch xmlns:xs="https://www.w3.org/2001/XMLSchema">
    <or>
       <clause attrib="peercreatorid" type="string" compare="equal">James Peters</clause>
       <and>
@@ -136,7 +136,7 @@ The following search query is incorrect:
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?> 
-<peersearch xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<peersearch xmlns:xs="https://www.w3.org/2001/XMLSchema">
    <clause attrib="peercreatorid" type="string" compare="equal">James Peters</clause>
    <and>
       <clause attrib="peerlastmodificationtime" type="date" compare="greater">2003-01-31</clause>
@@ -151,7 +151,7 @@ To obtain all records that contain a name equal to James Peters, and a last upda
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?> 
-<peersearch xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<peersearch xmlns:xs="https://www.w3.org/2001/XMLSchema">
     <and>
       <clause attrib="peercreatorid" type="string" compare="equal">James Peters</clause>
       <and>

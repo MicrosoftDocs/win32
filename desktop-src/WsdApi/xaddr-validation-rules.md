@@ -12,11 +12,11 @@ Transport addresses (XAddrs) included in [ProbeMatches](probematches-message.md)
 
 This is in order to ensure that the XAddrs are on the same subnet as the client.
 
-The following XML shows a sample XAddrs element. The wsd prefix refers to the namespace `http://schemas.xmlsoap.org/ws/2005/04/discovery`.
+The following XML shows a sample XAddrs element. The wsd prefix refers to the namespace `https://schemas.xmlsoap.org/ws/2005/04/discovery`.
 
 ``` syntax
 <wsd:XAddrs>
-    http://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
+    https://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
 </wsd:XAddrs>
 ```
 

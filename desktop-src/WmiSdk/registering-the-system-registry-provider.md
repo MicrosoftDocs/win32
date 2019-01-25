@@ -22,7 +22,7 @@ The following procedure describes how to register the System Registry provider.
 
 1.  Register the provider as a COM server.
 
-    If necessary, you may need to create registry entries. This process applies to all COM servers and is unrelated to WMI. For more information, see the [COM](http://go.microsoft.com/fwlink/p/?linkid=96666) documentation in the Microsoft Windows Software Development Kit (SDK).
+    If necessary, you may need to create registry entries. This process applies to all COM servers and is unrelated to WMI. For more information, see the [COM](https://go.microsoft.com/fwlink/p/?linkid=96666) documentation in the Microsoft Windows Software Development Kit (SDK).
 
 2.  Create an instance of the [**\_\_Win32Provider**](--win32provider.md) class to describe the implementation of the System Registry provider.
 

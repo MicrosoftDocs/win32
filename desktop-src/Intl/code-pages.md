@@ -19,7 +19,7 @@ Most applications written today handle character data primarily as [Unicode](uni
 
  
 
-Each code page is represented by a code page identifier, for example, 1252, and is handled by the Unicode and character set API functions. For a list of supported code page identifiers, see [Code Page Identifiers](code-page-identifiers.md). The "Code Pages" reference on the Microsoft [Go Global Developer Center](http://msdn.microsoft.com/goglobal) gives full descriptions of many code pages.
+Each code page is represented by a code page identifier, for example, 1252, and is handled by the Unicode and character set API functions. For a list of supported code page identifiers, see [Code Page Identifiers](code-page-identifiers.md). The "Code Pages" reference on the Microsoft [Go Global Developer Center](https://msdn.microsoft.com/goglobal) gives full descriptions of many code pages.
 
 Windows code pages, commonly called "ANSI code pages", are code pages for which non-ASCII values (values greater than 127) represent international characters. These code pages are used natively in Windows Me, and are also available on Windows NT and later.
 

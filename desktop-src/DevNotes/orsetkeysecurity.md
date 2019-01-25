@@ -46,14 +46,14 @@ A handle to an open registry key in an offline registry hive.
 *SecurityInformation* \[in\]
 </dt> <dd>
 
-Bit flags that indicate the type of security information to set. This parameter can be a combination of the [SECURITY\_INFORMATION](http://go.microsoft.com/fwlink/p/?linkid=128774) bit flags.
+Bit flags that indicate the type of security information to set. This parameter can be a combination of the [SECURITY\_INFORMATION](https://go.microsoft.com/fwlink/p/?linkid=128774) bit flags.
 
 </dd> <dt>
 
 *pSecurityDescriptor* \[in\]
 </dt> <dd>
 
-A pointer to a [SECURITY\_DESCRIPTOR](http://go.microsoft.com/fwlink/p/?linkid=128770) structure that specifies the security attributes to set for the specified key.
+A pointer to a [SECURITY\_DESCRIPTOR](https://go.microsoft.com/fwlink/p/?linkid=128770) structure that specifies the security attributes to set for the specified key.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ A pointer to a [SECURITY\_DESCRIPTOR](http://go.microsoft.com/fwlink/p/?linkid=1
 
 If the function succeeds, the function returns ERROR\_SUCCESS.
 
-If the function fails, it returns a nonzero error code defined in Winerror.h. You can use the [FormatMessage](http://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, it returns a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Requirements
 
@@ -91,10 +91,10 @@ If the function fails, it returns a nonzero error code defined in Winerror.h. Yo
 [**ORGetKeySecurity**](orgetkeysecurity.md)
 </dt> <dt>
 
-[SECURITY\_DESCRIPTOR](http://go.microsoft.com/fwlink/p/?linkid=128770)
+[SECURITY\_DESCRIPTOR](https://go.microsoft.com/fwlink/p/?linkid=128770)
 </dt> <dt>
 
-[SECURITY\_INFORMATION](http://go.microsoft.com/fwlink/p/?linkid=128774)
+[SECURITY\_INFORMATION](https://go.microsoft.com/fwlink/p/?linkid=128774)
 </dt> </dl>
 
  

@@ -17,7 +17,7 @@ topic_type:
 This topic shows you how to create a shortcut for your app, assign it an [AppUserModelID](appids.md), and install it in the Start screen. We strongly recommend that you do this in the Windows Installer rather than in your app's code. Without a valid shortcut installed in the Start screen or in **All Programs**, you cannot raise a toast notification from a desktop app.
 
 > [!Note]  
-> The example methods used in this topic are taken from the [Desktop toast sample](http://go.microsoft.com/fwlink/p/?linkid=242463).
+> The example methods used in this topic are taken from the [Desktop toast sample](https://go.microsoft.com/fwlink/p/?linkid=242463).
 
  
 
@@ -142,7 +142,7 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
 
 ## Remarks
 
-As an alternative to the approach shown in this topic, you can use a framework such as the Windows Installer XML (WiX) to generate the shortcut and deploy it as part of the Windows Installer. In that case, this code should be included in the MSI rather than in the app's code. For more information, see the sample WiX configuration file included with the [Sending toast notifications from desktop apps](http://go.microsoft.com/fwlink/p/?linkid=242463) sample.
+As an alternative to the approach shown in this topic, you can use a framework such as the Windows Installer XML (WiX) to generate the shortcut and deploy it as part of the Windows Installer. In that case, this code should be included in the MSI rather than in the app's code. For more information, see the sample WiX configuration file included with the [Sending toast notifications from desktop apps](https://go.microsoft.com/fwlink/p/?linkid=242463) sample.
 
 ## Related topics
 
@@ -151,7 +151,7 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Quickstart: Sending a toast notification from the desktop](quickstart-sending-desktop-toast.md)
 </dt> <dt>
 
-[Sending toast notifications from desktop apps sample](http://go.microsoft.com/fwlink/p/?linkid=242463)
+[Sending toast notifications from desktop apps sample](https://go.microsoft.com/fwlink/p/?linkid=242463)
 </dt> <dt>
 
 [Application User Model IDs (AppUserModelIDs)](appids.md)
@@ -160,10 +160,10 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [How to: Install the Windows Installer XML (WiX) Tools](https://msdn.microsoft.com/en-us/library/Gg513936(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Sending toast notifications from desktop apps sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
+[Sending toast notifications from desktop apps sample](https://go.microsoft.com/fwlink/p/?linkid=231503)
 </dt> <dt>
 
-[Toast notifications sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
+[Toast notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231503)
 </dt> <dt>
 
 [Toast XML schema](https://msdn.microsoft.com/en-us/library/BR230849(v=Win.10).aspx)

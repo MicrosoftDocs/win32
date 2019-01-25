@@ -16,7 +16,7 @@ The following procedure describes how an application creates a temporary file fo
 
 1.  The application opens the user-provided source text file by using [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea).
 2.  The application retrieves a temporary file path and file name by using the [**GetTempPath**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppatha) and [**GetTempFileName**](/windows/desktop/api/FileAPI/nf-fileapi-gettempfilenamea) functions, and then uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to create the temporary file.
-3.  The application reads blocks of text data into a buffer, converts the buffer contents to uppercase using the [CharUpperBuffA](Http://go.microsoft.com/fwlink/p/?linkid=163943) function, and writes the converted buffer to the temporary file.
+3.  The application reads blocks of text data into a buffer, converts the buffer contents to uppercase using the [CharUpperBuffA](https://go.microsoft.com/fwlink/p/?linkid=163943) function, and writes the converted buffer to the temporary file.
 4.  When all of the source file is written to the temporary file, the application closes both files, and renames the temporary file to "allcaps.txt" by using the [**MoveFileEx**](/windows/desktop/api/WinBase/nf-winbase-movefileexa) function.
 
 Each of the previous steps is checked for success before moving to the next step, and a failure description is displayed if an error occurs. The application will terminate immediately after displaying the error message.

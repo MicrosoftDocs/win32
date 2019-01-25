@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The CertMgr tools replaces DumpCert. It includes new capabilities for the management of [*certificates*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), [*certificate trust lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTLs), and [*certificate revocation lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRLs). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
-CertMgr is available as part of the Windows SDK, which you can download from <http://go.microsoft.com/fwlink/p/?linkid=84091>.
+CertMgr is available as part of the Windows SDK, which you can download from <https://go.microsoft.com/fwlink/p/?linkid=84091>.
 
 CertMgr performs one of four functions depending on the action indicated in the command.
 

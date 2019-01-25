@@ -15,7 +15,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                             |
 |-------------------|-------------------------------------------------------------|
 | Name              | curve25519                                                  |
-| Standard          | [Curve 25519](http://cr.yp.to/ecdh/curve25519-20060209.pdf) |
+| Standard          | [Curve 25519](https://cr.yp.to/ecdh/curve25519-20060209.pdf) |
 | Key size (bits)   | 255                                                         |
 | TLS capable       |                                                             |
 | Object identifier | None                                                        |
@@ -29,7 +29,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP160r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 160                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.1                                                                                              |
@@ -43,7 +43,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP160t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 160                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.2                                                                                              |
@@ -57,7 +57,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP192r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 192                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.3                                                                                              |
@@ -71,7 +71,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP192t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 192                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.4                                                                                              |
@@ -85,7 +85,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP224r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 224                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.5                                                                                              |
@@ -99,7 +99,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP224t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 224                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.6                                                                                              |
@@ -113,7 +113,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP256r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 256                                                                                                               |
 | TLS capable       | Yes                                                                                                               |
 | Object identifier | 1.3.36.3.3.2.8.1.1.7                                                                                              |
@@ -127,7 +127,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP256t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 256                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.8                                                                                              |
@@ -141,7 +141,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP320r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 320                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.9                                                                                              |
@@ -155,7 +155,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP320t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 320                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.10                                                                                             |
@@ -169,7 +169,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP384r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 384                                                                                                               |
 | TLS capable       | Yes                                                                                                               |
 | Object identifier | 1.3.36.3.3.2.8.1.1.11                                                                                             |
@@ -183,7 +183,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP384t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 384                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.12                                                                                             |
@@ -197,7 +197,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP512r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 512                                                                                                               |
 | TLS capable       | Yes                                                                                                               |
 | Object identifier | 1.3.36.3.3.2.8.1.1.13                                                                                             |
@@ -211,7 +211,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP512t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](http://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
 | Key size (bits)   | 512                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.14                                                                                             |
@@ -239,7 +239,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP192                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](http://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Key size (bits)   | 192                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.2.840.10045.3.1.1                                                                                                          |
@@ -253,7 +253,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP224                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](http://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Key size (bits)   | 224                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.3.132.0.33                                                                                                                 |
@@ -267,7 +267,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP256                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](http://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Key size (bits)   | 256                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.2.840.10045.3.1.7                                                                                                          |
@@ -281,7 +281,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP384                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](http://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Key size (bits)   | 384                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.3.132.0.34                                                                                                                 |
@@ -295,7 +295,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP521                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](http://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
 | Key size (bits)   | 521                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.3.132.0.35                                                                                                                 |
@@ -309,7 +309,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                                         |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Name              | numsP256t1                                                                                                                              |
-| Standard          | [Specification of Curve Selection and Supported Curve Parameters in MSR ECCLib](http://research.microsoft.com/pubs/219966/curvegen.pdf) |
+| Standard          | [Specification of Curve Selection and Supported Curve Parameters in MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
 | Key size (bits)   | 256                                                                                                                                     |
 | TLS capable       | No                                                                                                                                      |
 | Object identifier | None                                                                                                                                    |
@@ -323,7 +323,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                                         |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Name              | numsP384t1                                                                                                                              |
-| Standard          | [Specification of Curve Selection and Supported Curve Parameters in MSR ECCLib](http://research.microsoft.com/pubs/219966/curvegen.pdf) |
+| Standard          | [Specification of Curve Selection and Supported Curve Parameters in MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
 | Key size (bits)   | 384                                                                                                                                     |
 | TLS capable       | No                                                                                                                                      |
 | Object identifier | None                                                                                                                                    |
@@ -337,7 +337,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                                         |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Name              | numsP512t1                                                                                                                              |
-| Standard          | [Specification of Curve Selection and Supported Curve Parameters in MSR ECCLib](http://research.microsoft.com/pubs/219966/curvegen.pdf) |
+| Standard          | [Specification of Curve Selection and Supported Curve Parameters in MSR ECCLib](https://research.microsoft.com/pubs/219966/curvegen.pdf) |
 | Key size (bits)   | 512                                                                                                                                     |
 | TLS capable       | No                                                                                                                                      |
 | Object identifier | None                                                                                                                                    |
@@ -351,7 +351,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP160k1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 160                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.9                                                                     |
@@ -365,7 +365,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP160r1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 160                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.8                                                                     |
@@ -379,7 +379,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP160r2                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 160                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.30                                                                    |
@@ -393,7 +393,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP192k1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 192                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.31                                                                    |
@@ -407,7 +407,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP192r1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 192                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.2.840.10045.3.1.1                                                             |
@@ -421,7 +421,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP224k1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 224                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.32                                                                    |
@@ -435,7 +435,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP224r1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 224                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.33                                                                    |
@@ -449,7 +449,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP256k1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 256                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.10                                                                    |
@@ -463,7 +463,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP256r1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 256                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.2.840.10045.3.1.7                                                             |
@@ -477,7 +477,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP384r1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 384                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.34                                                                    |
@@ -491,7 +491,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                 |
 |-------------------|---------------------------------------------------------------------------------|
 | Name              | secP521r1                                                                       |
-| Standard          | [Recommended Elliptic Curve Domain Parameters](http://www.secg.org/sec2-v2.pdf) |
+| Standard          | [Recommended Elliptic Curve Domain Parameters](https://www.secg.org/sec2-v2.pdf) |
 | Key size (bits)   | 521                                                                             |
 | TLS capable       | Yes                                                                             |
 | Object identifier | 1.3.132.0.35                                                                    |

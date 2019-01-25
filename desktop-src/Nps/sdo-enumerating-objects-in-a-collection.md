@@ -119,13 +119,13 @@ The following code enumerates the protocols in the NPS protocols collection.
 
 ## Remarks
 
-The vtName and vtProtocol variables are of type [\_variant\_t](Http://go.microsoft.com/fwlink/p/?linkid=83857). A [\_variant\_t](Http://go.microsoft.com/fwlink/p/?linkid=83857) object encapsulates, or encloses, the **VARIANT** data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/en-us/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx) as appropriate.
+The vtName and vtProtocol variables are of type [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857). A [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857) object encapsulates, or encloses, the **VARIANT** data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/en-us/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx) as appropriate.
 
 ## Related topics
 
 <dl> <dt>
 
-[\_variant\_t](Http://go.microsoft.com/fwlink/p/?linkid=83857)
+[\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857)
 </dt> <dt>
 
 [Adding a Client](https://msdn.microsoft.com/library/bb960607)

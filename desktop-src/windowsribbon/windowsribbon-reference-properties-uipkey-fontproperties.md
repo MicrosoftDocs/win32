@@ -31,7 +31,7 @@ UI\_PKEY\_FontProperties is a property store used by an application to query all
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[IPropertyStore](http://go.microsoft.com/fwlink/p/?linkid=139562)
+[IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=139562)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)

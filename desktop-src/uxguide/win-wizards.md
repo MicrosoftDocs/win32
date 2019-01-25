@@ -92,7 +92,7 @@ Design questions naturally arise around the number and organization of pages and
 -   Should there be more pages that require fewer choices? Or fewer pages with more complexity? Which design is considered more usable?
 -   Can you engineer faster wizard experiences by applying UI conventions such as tabbed pages?
 
-Microsoft used to advise that wizards of three pages or fewer be designed as simple wizards, and those of four or more pages use an advanced wizard design (see the [Windows User Experience](http://msdn.microsoft.com/library/ms997609.aspx) guidelines from 1999). But current wizard design standards dispense with what had been one of the key differences between the simple and advanced forms (the use of the Welcome and Congratulations pages), so these categories now feel inadequate, and the number of pages determining the design choice seems arbitrary.
+Microsoft used to advise that wizards of three pages or fewer be designed as simple wizards, and those of four or more pages use an advanced wizard design (see the [Windows User Experience](https://msdn.microsoft.com/library/ms997609.aspx) guidelines from 1999). But current wizard design standards dispense with what had been one of the key differences between the simple and advanced forms (the use of the Welcome and Congratulations pages), so these categories now feel inadequate, and the number of pages determining the design choice seems arbitrary.
 
 Your wizard should be as long or short as the task requires; there is no fixed guideline for its length. A one-page wizard should really be presented as a dialog box, so two pages is probably the most condensed form possible for a wizard.
 

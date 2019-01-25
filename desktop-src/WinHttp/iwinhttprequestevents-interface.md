@@ -46,13 +46,13 @@ The **IWinHttpRequestEvents** interface has these methods.
 
 The following procedure describes how to register for notifications.
 
-1.  Get an [IConnectionPointContainer](http://go.microsoft.com/fwlink/p/?linkid=109916) interface by calling **QueryInterface** on an [**IWinHttpRequest**](iwinhttprequest-interface.md) object.
-2.  Call [FindConnectionPoint](http://go.microsoft.com/fwlink/p/?linkid=109922) on the returned interface and pass **IID\_IWinHttpRequestEvents** to *riid*.
-3.  Call [Advise](http://go.microsoft.com/fwlink/p/?linkid=109923) on the returned connection point and pass a pointer to an **IUnknown** interface on an object that implements **IWinHttpRequestEvents** to *pUnk*.
+1.  Get an [IConnectionPointContainer](https://go.microsoft.com/fwlink/p/?linkid=109916) interface by calling **QueryInterface** on an [**IWinHttpRequest**](iwinhttprequest-interface.md) object.
+2.  Call [FindConnectionPoint](https://go.microsoft.com/fwlink/p/?linkid=109922) on the returned interface and pass **IID\_IWinHttpRequestEvents** to *riid*.
+3.  Call [Advise](https://go.microsoft.com/fwlink/p/?linkid=109923) on the returned connection point and pass a pointer to an **IUnknown** interface on an object that implements **IWinHttpRequestEvents** to *pUnk*.
 
-Notifications can be terminated by calling [Unadvise](http://go.microsoft.com/fwlink/p/?linkid=109924) on the connection point returned in step 2.
+Notifications can be terminated by calling [Unadvise](https://go.microsoft.com/fwlink/p/?linkid=109924) on the connection point returned in step 2.
 
-To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](http://go.microsoft.com/fwlink/p/?linkid=109917) article.
+To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](https://go.microsoft.com/fwlink/p/?linkid=109917) article.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.

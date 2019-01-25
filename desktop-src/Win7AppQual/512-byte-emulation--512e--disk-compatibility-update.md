@@ -33,7 +33,7 @@ This topic introduces the effect of Advanced Format storage devices on software,
 -   Windows Vista with Microsoft KB 2553708
 -   Windows Server 2008 with Microsoft KB 2553708
 
-For additional details, see [Information about Microsoft support policy for large-sector drives in Windows](http://support.microsoft.com/kb/2510009).
+For additional details, see [Information about Microsoft support policy for large-sector drives in Windows](https://support.microsoft.com/kb/2510009).
 
 For more information about Advanced Format disks, please contact your storage vendor.
 
@@ -45,7 +45,7 @@ One of the concerns in introducing this change in the media format is compatibil
 
 -   **Physical Sector**: The unit for which read and write operations to the device are completed in a single operation. This is the unit of atomic write.
 
-Most current Windows APIs, such as **IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY** will return the logical sector size, but the physical sector size can be retrieved through the [IOCTL\_STORAGE\_QUERY\_PROPERTY](http://msdn.microsoft.com/en-us/library/ff560590.aspx) control code, with the relevant information contained in the **BytesPerPhysicalSector** field in the [STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR](http://msdn.microsoft.com/en-us/library/ff800831.aspx) structure. This is discussed in more detail later in the article.
+Most current Windows APIs, such as **IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY** will return the logical sector size, but the physical sector size can be retrieved through the [IOCTL\_STORAGE\_QUERY\_PROPERTY](https://msdn.microsoft.com/en-us/library/ff560590.aspx) control code, with the relevant information contained in the **BytesPerPhysicalSector** field in the [STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR](https://msdn.microsoft.com/en-us/library/ff800831.aspx) structure. This is discussed in more detail later in the article.
 
 ## Initial Types of Large Sector Media
 
@@ -110,7 +110,7 @@ Moreover, if you are currently aligning the writes to the sector size, this sect
 
 **How to Query for the Physical Sector Size**
 
-Microsoft has provided a code sample on MSDN detailing how an application can query for the physical sector size of the volume. The code sample is located at <http://msdn.microsoft.com/library/ff800831.aspx>.
+Microsoft has provided a code sample on MSDN detailing how an application can query for the physical sector size of the volume. The code sample is located at <https://msdn.microsoft.com/library/ff800831.aspx>.
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking on the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 
@@ -173,20 +173,20 @@ This is a living document, and is meant as an aid for developers to help underst
 
 ## Links to Other Resources
 
--   **Windows General Support Statement**: <http://support.microsoft.com/kb/2510009>
--   **Hotfix for Windows 7 and Windows Server 2008 R2**: <http://support.microsoft.com/kb/982018>
--   **Hotfix for Windows Vista and Windows Server 2008**: <http://support.microsoft.com/kb/2470478>
--   **HyperV Support Statement**: <http://support.microsoft.com/kb/2515143>
--   **General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code**: [http://msdn.microsoft.com/library/ff560590.aspx](http://msdn.microsoft.com/library/ff560590(VS.85).aspx)
--   **IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code**: [http://msdn.microsoft.com/library/ff800830.aspx](http://msdn.microsoft.com/library/ff800830(VS.85).aspx)
--   **General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure**: [http://msdn.microsoft.com/library/ff566344.aspx](http://msdn.microsoft.com/library/ff566344(VS.85).aspx)
--   **Description of the standard terminology used to describe Microsoft software updates**: <http://support.microsoft.com/kb/824684/>
--   **WDK sample code** with details for how to extract the reported storage access alignment information from the **STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR** structure when making a call to the **IOCTL\_STORAGE\_QUERY\_PROPERTY** control code: [http://msdn.microsoft.com/library/ff800831.aspx](http://msdn.microsoft.com/library/ff800831.aspx)
--   **General information about ImageX Command-Line Options**: <http://technet.microsoft.com/library/dd799302(WS.10).aspx>
--   **Intel Chipset driver requirements to support 4 KB Sector Drives**: <http://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm>
+-   **Windows General Support Statement**: <https://support.microsoft.com/kb/2510009>
+-   **Hotfix for Windows 7 and Windows Server 2008 R2**: <https://support.microsoft.com/kb/982018>
+-   **Hotfix for Windows Vista and Windows Server 2008**: <https://support.microsoft.com/kb/2470478>
+-   **HyperV Support Statement**: <https://support.microsoft.com/kb/2515143>
+-   **General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code**: [https://msdn.microsoft.com/library/ff560590.aspx](https://msdn.microsoft.com/library/ff560590(VS.85).aspx)
+-   **IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code**: [https://msdn.microsoft.com/library/ff800830.aspx](https://msdn.microsoft.com/library/ff800830(VS.85).aspx)
+-   **General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure**: [https://msdn.microsoft.com/library/ff566344.aspx](https://msdn.microsoft.com/library/ff566344(VS.85).aspx)
+-   **Description of the standard terminology used to describe Microsoft software updates**: <https://support.microsoft.com/kb/824684/>
+-   **WDK sample code** with details for how to extract the reported storage access alignment information from the **STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR** structure when making a call to the **IOCTL\_STORAGE\_QUERY\_PROPERTY** control code: [https://msdn.microsoft.com/library/ff800831.aspx](https://msdn.microsoft.com/library/ff800831.aspx)
+-   **General information about ImageX Command-Line Options**: <https://technet.microsoft.com/library/dd799302(WS.10).aspx>
+-   **Intel Chipset driver requirements to support 4 KB Sector Drives**: <https://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm>
 -   For more information on Advanced Format Disks, visit the following IDEMA websites:
-    -   <http://idema.org/_smartsite/external/bigsector/index.php?cmd=list>
-    -   <http://idema.org/_smartsite/external/bigsector/AF_Are_You_Ready.pdf>
+    -   <https://idema.org/_smartsite/external/bigsector/index.php?cmd=list>
+    -   <https://idema.org/_smartsite/external/bigsector/AF_Are_You_Ready.pdf>
 
  
 

@@ -70,11 +70,11 @@ The following printed material is available to help you learn more about WMI:
 The following online documentation and examples are available to help you learn to use WMI:
 
 -   The most up-to-date version of WMI SDK documentation is on the MSDN Library. This documentation is located under Win32 and COM Development \| Administration and Management \| Windows Management Instrumentation.
--   [TechNet ScriptCenter](Http://go.microsoft.com/fwlink/p/?linkid=46710)
+-   [TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 
     Search by category and task to find short administrative scripts. For example, in the Monitoring category, you can find a script titled "Monitor Available Disk Space".
 
--   [TechNet scripting articles: Tales from the Script](Http://go.microsoft.com/fwlink/p/?linkid=84424)
+-   [TechNet scripting articles: Tales from the Script](https://go.microsoft.com/fwlink/p/?linkid=84424)
 
     Articles about topics such as how to run WMI scripts on remote computers or use WMI events. Each article provides examples.
 
@@ -82,23 +82,23 @@ The following online documentation and examples are available to help you learn 
 
     Articles about the basics of WMI administrator scripting. Each article provides examples.
 
-    [WMI Scripting Primer: Part 1](Http://go.microsoft.com/fwlink/p/?linkid=84314)
+    [WMI Scripting Primer: Part 1](https://go.microsoft.com/fwlink/p/?linkid=84314)
 
-    [WMI Scripting Primer: Part 2](Http://go.microsoft.com/fwlink/p/?linkid=84315)
+    [WMI Scripting Primer: Part 2](https://go.microsoft.com/fwlink/p/?linkid=84315)
 
-    [WMI Scripting Primer: Part 3](Http://go.microsoft.com/fwlink/p/?linkid=84312)
+    [WMI Scripting Primer: Part 3](https://go.microsoft.com/fwlink/p/?linkid=84312)
 
 -   WMI Blog
 
-    You can search for posts on WMI at [http://blogs.msdn.com/wmi/default.aspx](Http://go.microsoft.com/fwlink/p/?linkid=84294).
+    You can search for posts on WMI at [https://blogs.msdn.com/wmi/default.aspx](https://go.microsoft.com/fwlink/p/?linkid=84294).
 
--   [Scripting Guide](Http://go.microsoft.com/fwlink/p/?linkid=84421)
+-   [Scripting Guide](https://go.microsoft.com/fwlink/p/?linkid=84421)
 
     A comprehensive overview of the scripting technologies available in the Windows operating systems, including WMI. This Microsoft TechNet website offers hundreds of administrator scripting examples and information about how to modify them for the needs of your system.
 
 ## MSDN Scripting
 
-The Scripting Clinic under [Columns](Http://go.microsoft.com/fwlink/p/?linkid=84304) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](Http://go.microsoft.com/fwlink/p/?linkid=84313) from Excel data.
+The Scripting Clinic under [Columns](https://go.microsoft.com/fwlink/p/?linkid=84304) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](https://go.microsoft.com/fwlink/p/?linkid=84313) from Excel data.
 
 ## Downloads
 
@@ -106,14 +106,14 @@ The Scripting Clinic under [Columns](Http://go.microsoft.com/fwlink/p/?linkid=84
 
 | SDK name                                                                              | Windows Server version | URL (download link)                                               | Location                                               |
 |---------------------------------------------------------------------------------------|------------------------|-------------------------------------------------------------------|--------------------------------------------------------|
-| Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 | Windows Server 2008 R2 | <http://www.microsoft.com/download/en/confirmation.aspx?id=8279>  | %Install Path%\\Microsoft SDKs\\Windows\\v7.1\\Samples |
-| Microsoft Windows Software Development Kit (SDK)                                      | Windows Server 2008    | <http://www.microsoft.com/download/en/confirmation.aspx?id=11310> | %Install Path%\\Microsoft SDKs\\Windows\\v6.1          |
+| Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 | Windows Server 2008 R2 | <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>  | %Install Path%\\Microsoft SDKs\\Windows\\v7.1\\Samples |
+| Microsoft Windows Software Development Kit (SDK)                                      | Windows Server 2008    | <https://www.microsoft.com/download/en/confirmation.aspx?id=11310> | %Install Path%\\Microsoft SDKs\\Windows\\v6.1          |
 
 
 
  
 
-CIM\_Studio and other WMI Administrative Tools can be downloaded from [WMI Administrative Tools](Http://go.microsoft.com/fwlink/p/?linkid=84420).
+CIM\_Studio and other WMI Administrative Tools can be downloaded from [WMI Administrative Tools](https://go.microsoft.com/fwlink/p/?linkid=84420).
 
 The WMI tools include:
 
@@ -143,7 +143,7 @@ The WMI tools include:
 
     You can use the Event Viewer to display the occurrence of WMI events you have configured in the WMI Event Registration.
 
-You can download PowerShell RC1 and documentation at [http://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx](Http://go.microsoft.com/fwlink/p/?linkid=84436).
+You can download PowerShell RC1 and documentation at [https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx](https://go.microsoft.com/fwlink/p/?linkid=84436).
 
 > [!Note]  
 > These books and resources may not be available in some languages and countries or regions.

@@ -39,7 +39,7 @@ The following example metafile playlist shows the use of the **PARAM** element t
 
     <ENTRY>
         <TITLE>Example Clip</TITLE>
-        <REF HREF="http://www.proseware.com/media.wma" />
+        <REF HREF="https://www.proseware.com/media.wma" />
         <PARAM NAME="Title" VALUE="Example Clip" />
         <PARAM NAME="Location" VALUE="North America" />
         <PARAM NAME="Release Date" VALUE="March 1998" />
@@ -47,7 +47,7 @@ The following example metafile playlist shows the use of the **PARAM** element t
 
     <ENTRY>
         <TITLE>Another Clip</TITLE>
-        <REF HREF="http://www.proseware.com/more_media.wma" />
+        <REF HREF="https://www.proseware.com/more_media.wma" />
         <PARAM NAME="Title" VALUE="Another Clip" />
         <PARAM NAME="Location" VALUE="Japan" />
         <PARAM NAME="Release Date" VALUE="December 2000" />

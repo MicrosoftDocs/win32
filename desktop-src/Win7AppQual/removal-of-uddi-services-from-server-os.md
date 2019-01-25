@@ -46,9 +46,9 @@ To do this, follow these steps:
 
 ## Links to Other Resources
 
--   [Microsoft UDDI Services website](http://go.microsoft.com/fwlink/p/?linkid=129130)
--   [UDDI specifications](http://go.microsoft.com/fwlink/p/?linkid=161492)
--   [UDDI Services v3.0 download for Windows Server 2008 R2](http://go.microsoft.com/fwlink/p/?linkid=137770)
+-   [Microsoft UDDI Services website](https://go.microsoft.com/fwlink/p/?linkid=129130)
+-   [UDDI specifications](https://go.microsoft.com/fwlink/p/?linkid=161492)
+-   [UDDI Services v3.0 download for Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=137770)
 
  
 

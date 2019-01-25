@@ -75,7 +75,7 @@ A security group provides a logical grouping of objects and the group itself can
 
 A distribution group also provides a logical grouping of objects, but cannot provide any access privileges. Distribution groups are not security enabled and cannot be used as a security principal in an ACL. Distribution groups are only used for grouping purposes. For example, distribution lists can be used with email applications, such as Exchange, to send email to a collection of users.
 
-For more information about group types in Active Directory Domain Services, see the [Group types](http://go.microsoft.com/fwlink/p/?linkid=84115) topic on [Microsoft TechNet](http://go.microsoft.com/fwlink/p/?linkid=84103).
+For more information about group types in Active Directory Domain Services, see the [Group types](https://go.microsoft.com/fwlink/p/?linkid=84115) topic on [Microsoft TechNet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
 ## Group Scope
 

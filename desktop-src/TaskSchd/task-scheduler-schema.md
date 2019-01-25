@@ -30,10 +30,10 @@ The entire Task Scheduler schema is defined by the following XSD file.
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema
-    targetNamespace="http://schemas.microsoft.com/windows/2004/02/mit/task"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"
-    xmlns:td="http://schemas.microsoft.com/windows/2004/02/mit/task"
+    targetNamespace="https://schemas.microsoft.com/windows/2004/02/mit/task"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    xmlns="https://schemas.microsoft.com/windows/2004/02/mit/task"
+    xmlns:td="https://schemas.microsoft.com/windows/2004/02/mit/task"
     elementFormDefault="qualified">
 
     <xs:element name="Task" type="taskType">

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 As a software interface for graphics hardware, OpenGL renders multidimensional objects into a framebuffer. The Microsoft implementation of OpenGL for the Windows operating system is industry-standard graphics software with which programmers can create high-quality still and animated three-dimensional color images. The version of OpenGL described in this section is 1.1.
 
-For information about OpenGL ES running on Windows, see [ANGLE for Windows Store](http://go.microsoft.com/fwlink/p/?linkid=618387).
+For information about OpenGL ES running on Windows, see [ANGLE for Windows Store](https://go.microsoft.com/fwlink/p/?linkid=618387).
 
 ## Where applicable
 

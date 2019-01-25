@@ -55,7 +55,7 @@ Finally, a simple **PLAYER** element with the **URL** attribute was added to cho
 
 ```C++
       <PLAYER
-          URL = "http://proseware.com/mellow.wma">
+          URL = "https://proseware.com/mellow.wma">
       </PLAYER>
 
 ```

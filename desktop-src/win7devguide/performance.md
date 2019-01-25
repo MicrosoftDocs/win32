@@ -16,7 +16,7 @@ Building energy efficient applications that take advantage of the latest power m
 
 Extended operation on battery power and the use of energy efficient technologies are key requirements for today's developers. Windows 7 greatly reduces the number of activities that the operating system performs that prevent use of power-saving modes. It also supports the trigger-starting of system services to enable processors to become idle more often and stay idle longer, which decreases power consumption. In addition, Windows 7 takes advantage of the latest energy-efficient hardware, including network adapters, storage devices, and graphics cards.
 
-Windows 7 provides the infrastructure and tools that make it easy for developers to determine the energy impact of their applications. A set of event callbacks enable applications to reduce their activity when the system is on battery power and automatically scale up when the system is on *AC* power. For applications that involve a background process or service, Windows 7 features new infrastructure to automatically enable background tasks when most appropriate in order to maximize energy efficiency. (See [WHDC Performance Central](http://go.microsoft.com/?linkid=9669670) and [Power Management in Windows 7 Overview](http://go.microsoft.com/?linkid=9669671).)
+Windows 7 provides the infrastructure and tools that make it easy for developers to determine the energy impact of their applications. A set of event callbacks enable applications to reduce their activity when the system is on battery power and automatically scale up when the system is on *AC* power. For applications that involve a background process or service, Windows 7 features new infrastructure to automatically enable background tasks when most appropriate in order to maximize energy efficiency. (See [WHDC Performance Central](https://go.microsoft.com/?linkid=9669670) and [Power Management in Windows 7 Overview](https://go.microsoft.com/?linkid=9669671).)
 
 ## Service Control Manager
 
@@ -27,7 +27,7 @@ The Windows 7Service Control Manager (SCM) has been extended so that a service 
 -   Group policy change: Start a service automatically when group policies are refreshed on the system.
 -   IP address arrival: Start a service only when the system is connected to the network.
 
-Software developers can use the predefined trigger types for Windows 7 and the configuration options to enable trigger-start capability. The Windows 7SCM exposes a new set of APIs that enable a service to register for specific custom trigger events. (See [Service Control Manager](http://go.microsoft.com/?linkid=9669673).)
+Software developers can use the predefined trigger types for Windows 7 and the configuration options to enable trigger-start capability. The Windows 7SCM exposes a new set of APIs that enable a service to register for specific custom trigger events. (See [Service Control Manager](https://go.microsoft.com/?linkid=9669673).)
 
 ## Windows Troubleshooting Platform
 
@@ -35,7 +35,7 @@ Windows 7 delivers a comprehensive and extensible Troubleshooting Platform that
 
 The troubleshooting wizard provides a consistent experience across troubleshooting packs, communicating with the troubleshooting engine to troubleshoot and resolve problems that are specified in a troubleshooting pack. Execution of a troubleshooting pack can also be controlled through a set of PowerShell*commandlets*.
 
-The Troubleshooting Platform seamlessly integrates with the Windows 7PC Solution Center, enabling other applications to execute diagnostics in a similar manner as part of their PC management regimen. The Troubleshooting Platform is configurable by IT professionals through *Group Policy* for use within the enterprise, and a Windows Troubleshooting Toolkit that allows developers to author troubleshooting packs is also available. (See [Windows Troubleshooting Platform](http://go.microsoft.com/?linkid=9669687).)
+The Troubleshooting Platform seamlessly integrates with the Windows 7PC Solution Center, enabling other applications to execute diagnostics in a similar manner as part of their PC management regimen. The Troubleshooting Platform is configurable by IT professionals through *Group Policy* for use within the enterprise, and a Windows Troubleshooting Toolkit that allows developers to author troubleshooting packs is also available. (See [Windows Troubleshooting Platform](https://go.microsoft.com/?linkid=9669687).)
 
 ![troubleshooting platform ui](images/windows7-devguide-troubleshoot.jpg)
 

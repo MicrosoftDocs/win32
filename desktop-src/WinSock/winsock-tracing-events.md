@@ -17,7 +17,7 @@ Winsock tracing is a troubleshooting feature that can be enabled in retail binar
 
  
 
-Winsock tracing uses Event Tracing for Windows (ETW), a general-purpose, high-speed tracing facility provided by the operating system. ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers. ETW can enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts. Support for Winsock tracing using ETW was added on Windows Vista and later. For general information on ETW, see [Improve Debugging And Performance Tuning With ETW](http://go.microsoft.com/fwlink/p/?linkid=103737).
+Winsock tracing uses Event Tracing for Windows (ETW), a general-purpose, high-speed tracing facility provided by the operating system. ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers. ETW can enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts. Support for Winsock tracing using ETW was added on Windows Vista and later. For general information on ETW, see [Improve Debugging And Performance Tuning With ETW](https://go.microsoft.com/fwlink/p/?linkid=103737).
 
 The following list provides detailed information for each Winsock tracing event. For additional information on any event, click the event name.
 
@@ -40,7 +40,7 @@ The following list provides detailed information for each Winsock tracing event.
 
 <dl> <dt>
 
-[Improve Debugging And Performance Tuning With ETW](http://go.microsoft.com/fwlink/p/?linkid=103737)
+[Improve Debugging And Performance Tuning With ETW](https://go.microsoft.com/fwlink/p/?linkid=103737)
 </dt> <dt>
 
 [Winsock Tracing](winsock-tracing.md)

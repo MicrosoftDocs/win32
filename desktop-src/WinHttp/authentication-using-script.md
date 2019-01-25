@@ -44,7 +44,7 @@ In addition to a working knowledge of Microsoft JScript, this example requires t
     {
       // Specify the target resource.
       WinHttpReq.open( "GET", 
-                       "http://[authenticationSite]", 
+                       "https://[authenticationSite]", 
                        false;
 
       // Send a request to the server and wait for a response.
@@ -64,7 +64,7 @@ In addition to a working knowledge of Microsoft JScript, this example requires t
 
       // Specify the target resource.
       WinHttpReq.open( "GET", 
-                       "http://[authenticationSite]", 
+                       "https://[authenticationSite]", 
                        false );
 
       // Set credentials for server.
@@ -145,7 +145,7 @@ function getText2() {
   HTTPREQUEST_SETCREDENTIALS_FOR_PROXY = 1;
 
   // Specify the target resource.
-  var targURL = "http://[authenticationSite]";
+  var targURL = "https://[authenticationSite]";
   WinHttpReq.open( "GET", targURL, false );
 
   var Done = false;
@@ -222,7 +222,7 @@ Again, save and run the file. The second method still retrieves the document, bu
 [**SetCredentials**](iwinhttprequest-setcredentials.md)
 </dt> <dt>
 
-[HTTP/1.1 Request for Comments (RFC 2616)](Http://go.microsoft.com/fwlink/p/?linkid=84048)
+[HTTP/1.1 Request for Comments (RFC 2616)](https://go.microsoft.com/fwlink/p/?linkid=84048)
 </dt> </dl>
 
  

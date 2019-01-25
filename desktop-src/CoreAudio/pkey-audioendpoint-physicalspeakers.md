@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 The **PKEY\_AudioEndpoint\_PhysicalSpeakers** property specifies the channel-configuration mask for the audio endpoint device. The mask indicates the physical configuration of a set of speakers and specifies the assignment of channels to speakers. For more information about channel-configuration masks, see the following:
 
 1.  The description of the KSPROPERTY\_AUDIO\_CHANNEL\_CONFIG property in the Windows DDK documentation.
-2.  The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the [Audio Device Technologies for Windows](http://go.microsoft.com/fwlink/p/?linkid=62989) website.
+2.  The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the [Audio Device Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=62989) website.
 
 The **vt** member of the **PROPVARIANT** structure is set to VT\_UI4.
 

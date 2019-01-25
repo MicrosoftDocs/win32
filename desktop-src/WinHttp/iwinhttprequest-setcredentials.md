@@ -143,7 +143,7 @@ int main()
     if (SUCCEEDED(hr))
     {    // Open WinHttpRequest.
         BSTR bstrMethod = SysAllocString(L"GET");
-        BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+        BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varFalse);
         SysFreeString(bstrMethod);
         SysFreeString(bstrUrl);
@@ -198,7 +198,7 @@ HTTPREQUEST_SETCREDENTIALS_FOR_PROXY = 1;
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 // Specify the target resource.
-var targURL = "http://msdn.microsoft.com/downloads/samples/"+
+var targURL = "https://msdn.microsoft.com/downloads/samples/"+
               "internet/winhttp/auth/authenticate.asp";    
 WinHttpReq.open("GET", targURL, false);
 

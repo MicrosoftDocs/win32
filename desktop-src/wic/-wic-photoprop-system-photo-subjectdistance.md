@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.SubjectDistance Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.SubjectDistance](http://msdn.microsoft.com/en-us/library/bb787273(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.SubjectDistance](https://msdn.microsoft.com/en-us/library/bb787273(VS.85).aspx) property.
 
 ### PKEY
 
@@ -118,7 +118,7 @@ This value is generated from System.Photo.SubjectDistanceNumerator and System.Ph
 
 <dl> <dt>
 
-[System.Photo.SubjectDistance](http://msdn.microsoft.com/en-us/library/bb787273(VS.85).aspx)
+[System.Photo.SubjectDistance](https://msdn.microsoft.com/en-us/library/bb787273(VS.85).aspx)
 </dt> </dl>
 
  

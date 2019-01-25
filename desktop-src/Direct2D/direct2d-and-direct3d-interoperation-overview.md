@@ -20,7 +20,7 @@ ms.custom: "seodec18"
 
 Hardware accelerated 2-D and 3-D graphics are increasingly becoming a part of non-gaming applications, and most gaming applications use 2-D graphics in the form of menus and Heads-Up Displays (HUDs). There is lots of value that can be added by enabling traditional 2-D rendering to be mixed with Direct3D rendering in an efficient manner.
 
-This topic describes how to integrate 2-D and 3-D graphics by using Direct2D and [Direct3D](http://go.microsoft.com/fwlink/p/?linkid=154846).
+This topic describes how to integrate 2-D and 3-D graphics by using Direct2D and [Direct3D](https://go.microsoft.com/fwlink/p/?linkid=154846).
 
 It contains the following sections.
 
@@ -71,7 +71,7 @@ Regardless of how you create the DXGI surface, the surface must use one of the D
 
 Additionally, the [**ID3D10Device1**](https://msdn.microsoft.com/library/windows/desktop/bb694546) associated with the DXGI surface must support BGRA DXGI formats for the surface to work with Direct2D. To ensure this support, use the [**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**](https://msdn.microsoft.com/library/windows/desktop/bb204909) flag when you call the [**D3D10CreateDevice1**](https://msdn.microsoft.com/library/windows/desktop/bb694526) method to create the device.
 
-The following code defines a method that creates an [**ID3D10Device1**](https://msdn.microsoft.com/library/windows/desktop/bb694546). It selects the best feature level available and falls back to [Windows Advanced Rasterization Platform (WARP)](http://go.microsoft.com/fwlink/p/?linkid=154849) when hardware rendering is not available.
+The following code defines a method that creates an [**ID3D10Device1**](https://msdn.microsoft.com/library/windows/desktop/bb694546). It selects the best feature level available and falls back to [Windows Advanced Rasterization Platform (WARP)](https://go.microsoft.com/fwlink/p/?linkid=154849) when hardware rendering is not available.
 
 
 ```C++
@@ -435,7 +435,7 @@ To accommodate this approach, your resize method should test to see whether the 
 [**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx)
 </dt> <dt>
 
-[Windows DirectX Graphics](http://go.microsoft.com/fwlink/p/?linkid=154846)
+[Windows DirectX Graphics](https://go.microsoft.com/fwlink/p/?linkid=154846)
 </dt> </dl>
 
  

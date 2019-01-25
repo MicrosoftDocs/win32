@@ -16,12 +16,12 @@ Windows has become an essential platform for customers worldwide. International 
 
 The development of world-ready applications requires the use of many services and tools. Windows contains features that enable you to develop solutions that:
 
--   Support the different language-specific and locale-specific needs of users around the world (including specialized text enablement, sorting behavior, date and time formatting, and keyboard layouts). (For more information, see [National Language Support Knowledge Center](http://msdn.microsoft.com/en-us/goglobal/dd565826.aspx).)
--   Are globalized (can be deployed worldwide from a single binary image) and localizable (able to be adapted for specific local markets). (For more information, see [Understanding Multilingual User Interface](http://msdn.microsoft.com/en-us/goglobal/dd218459.aspx).)
--   Display international fonts and text, and allow users to specify the font they want. (For more information, see [Script and Font Support in Windows](http://msdn.microsoft.com/en-us/goglobal/bb688099.aspx).)
--   Permit the user to enter complex characters and symbols with a standard keyboard. (For more information, see [Input Language: Keyboards and IMEs](http://msdn.microsoft.com/en-us/goglobal/bb688135.aspx).)
+-   Support the different language-specific and locale-specific needs of users around the world (including specialized text enablement, sorting behavior, date and time formatting, and keyboard layouts). (For more information, see [National Language Support Knowledge Center](https://msdn.microsoft.com/en-us/goglobal/dd565826.aspx).)
+-   Are globalized (can be deployed worldwide from a single binary image) and localizable (able to be adapted for specific local markets). (For more information, see [Understanding Multilingual User Interface](https://msdn.microsoft.com/en-us/goglobal/dd218459.aspx).)
+-   Display international fonts and text, and allow users to specify the font they want. (For more information, see [Script and Font Support in Windows](https://msdn.microsoft.com/en-us/goglobal/bb688099.aspx).)
+-   Permit the user to enter complex characters and symbols with a standard keyboard. (For more information, see [Input Language: Keyboards and IMEs](https://msdn.microsoft.com/en-us/goglobal/bb688135.aspx).)
 -   Provide support for many different written languages through Unicode and traditional character sets.
--   Discover the language input by a user, and tailor the user experience provided by your application. (For more information, see [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](http://msdn.microsoft.com/en-us/goglobal/dd156834.aspx).)
+-   Discover the language input by a user, and tailor the user experience provided by your application. (For more information, see [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](https://msdn.microsoft.com/en-us/goglobal/dd156834.aspx).)
 
 ## In this Section
 
@@ -97,13 +97,13 @@ The following international support technologies are documented in this section.
 
 International development support is also available for applications written in managed code. If you are developing for the .NET Framework, you will need some or all of these:
 
--   The [System.Globalization Namespace](http://msdn.microsoft.com/en-us/library/system.globalization.aspx) contains classes that define culture-related information and provide advanced globalization functions.
--   The [System.Text Namespace](http://msdn.microsoft.com/en-us/library/system.text.aspx) contains classes that represent character encodings, convert blocks of characters, and manipulate and format String objects.
--   The [Windows API Code Pack for Microsoft .NET Framework](http://code.msdn.microsoft.com/WindowsAPICodePack) provides a managed code wrapper for the [Extended Linguistic Services](extended-linguistic-services.md) APIs (as well as many other Windows features not yet available in the .NET Framework).
+-   The [System.Globalization Namespace](https://msdn.microsoft.com/en-us/library/system.globalization.aspx) contains classes that define culture-related information and provide advanced globalization functions.
+-   The [System.Text Namespace](https://msdn.microsoft.com/en-us/library/system.text.aspx) contains classes that represent character encodings, convert blocks of characters, and manipulate and format String objects.
+-   The [Windows API Code Pack for Microsoft .NET Framework](https://code.msdn.microsoft.com/WindowsAPICodePack) provides a managed code wrapper for the [Extended Linguistic Services](extended-linguistic-services.md) APIs (as well as many other Windows features not yet available in the .NET Framework).
 
 ## Other Resources
 
-The [Go Global Developer Center](http://msdn.microsoft.com/en-us/goglobal/) contains additional articles on building international software, tools and utility downloads, and a code gallery. The Center provides information on all Microsoft International Support Technologies, including unmanaged and managed technologies.
+The [Go Global Developer Center](https://msdn.microsoft.com/en-us/goglobal/) contains additional articles on building international software, tools and utility downloads, and a code gallery. The Center provides information on all Microsoft International Support Technologies, including unmanaged and managed technologies.
 
  
 

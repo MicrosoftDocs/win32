@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting the System Version
 
-The following example uses the [Version API Helper functions](version-helper-apis.md) to determine the version of the current operating system, if it is a Server or Client release, and then displays this information to the console. If compatibility mode is in effect, the example displays the operating system selected for [application compatibility](http://go.microsoft.com/fwlink/p/?linkid=115300).
+The following example uses the [Version API Helper functions](version-helper-apis.md) to determine the version of the current operating system, if it is a Server or Client release, and then displays this information to the console. If compatibility mode is in effect, the example displays the operating system selected for [application compatibility](https://go.microsoft.com/fwlink/p/?linkid=115300).
 
 To obtain the full version number for the operating system, call the [**GetFileVersionInfo**](https://msdn.microsoft.com/library/ms647003(v=VS.85).aspx) function on one of the system DLLs, such as Kernel32.dll, then call [**VerQueryValue**](https://msdn.microsoft.com/library/ms647464(v=VS.85).aspx) to obtain the \\\\StringFileInfo\\\\<lang><codepage>\\\\ProductVersion subblock of the file version information.
 

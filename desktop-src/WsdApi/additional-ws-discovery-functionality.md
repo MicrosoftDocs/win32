@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Additional WS-Discovery Functionality
 
-In some cases, the [Devices Profile for Web Services](http://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) and related specifications do not explicitly define implementation functionality. For example, the [WS-Discovery](http://go.microsoft.com/fwlink/p/?linkid=87841) specification does not define client and host behavior in multi-homed environments. When WSDAPI was implemented, some discovery functionality was added beyond the functionality defined in the specification.
+In some cases, the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) and related specifications do not explicitly define implementation functionality. For example, the [WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) specification does not define client and host behavior in multi-homed environments. When WSDAPI was implemented, some discovery functionality was added beyond the functionality defined in the specification.
 
 WSDAPI also implements selected portions of WS-Discovery v1.1 CD1 for communicating with a discovery proxy over HTTP.
 
@@ -16,7 +16,7 @@ The purpose of this topic is to describe the discovery functionality implemented
 
 ## IPv6 addresses and the soap.udp URI format
 
-SOAP-over-UDP and WS-Discovery do not explicitly describe how a literal IPv6 address is represented in the soap.udp URI format. [RFC 2396](http://go.microsoft.com/fwlink/p/?linkid=95851), entitled "Uniform Resource Identifiers (URI): Generic Syntax", indicates that literal IPv6 addresses are not supported by the soap.udp URI format.
+SOAP-over-UDP and WS-Discovery do not explicitly describe how a literal IPv6 address is represented in the soap.udp URI format. [RFC 2396](https://go.microsoft.com/fwlink/p/?linkid=95851), entitled "Uniform Resource Identifiers (URI): Generic Syntax", indicates that literal IPv6 addresses are not supported by the soap.udp URI format.
 
 For simplicity, WSDAPI recognizes IPv6 addresses enclosed in square brackets in the soap.udp scheme. For example, the address `soap.udp://[2001:abcd:0001:0002:0003:0004:0005:0032]:3702` is recognized by WSDAPI. This is similar to how IPv6 addresses are handled in HTTP.
 

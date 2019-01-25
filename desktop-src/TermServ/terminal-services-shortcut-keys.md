@@ -43,7 +43,7 @@ The default key combinations will work on whichever machine has the full desktop
 
 </dd> </dl>
 
-For more user information about Remote Desktop connection, See [Remote Desktop Connection: frequently asked questions](http://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
+For more user information about Remote Desktop connection, See [Remote Desktop Connection: frequently asked questions](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
 
 
 

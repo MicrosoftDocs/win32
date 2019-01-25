@@ -13,7 +13,7 @@ Windows Remote Management (WinRM) supports the delegation of user credentials ac
 
 CredSSP authentication is intended for environments where Kerberos delegation cannot be used. Support for CredSSP was added to allow a user to connect to a remote server and have the ability to access a second-hop machine, such as a file share.
 
-For more information about CredSSP, see [KB 951608](http://go.microsoft.com/fwlink/p/?linkid=157266).
+For more information about CredSSP, see [KB 951608](https://go.microsoft.com/fwlink/p/?linkid=157266).
 
 > [!Note]  
 > WinRM clients and servers will support CredSSP authentication only with explicit credentials.
@@ -22,7 +22,7 @@ For more information about CredSSP, see [KB 951608](http://go.microsoft.com/fwli
 
 ## Multi-Hop Support Configuration Setup and Details
 
-There are multiple mechanisms for configuring WinRM settings. In the following procedure, the **winrm** utility and Group Policy editor (**GPEdit.msc**) are used. CredSSP can also be enabled for WinRM by using Windows PowerShell. See the [Enable-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155385), [Get-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155386), and [Disable-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155383) Windows PowerShell cmdlets for detailed configuration information and usage examples.
+There are multiple mechanisms for configuring WinRM settings. In the following procedure, the **winrm** utility and Group Policy editor (**GPEdit.msc**) are used. CredSSP can also be enabled for WinRM by using Windows PowerShell. See the [Enable-WSManCredSSP](https://go.microsoft.com/fwlink/p/?linkid=155385), [Get-WSManCredSSP](https://go.microsoft.com/fwlink/p/?linkid=155386), and [Disable-WSManCredSSP](https://go.microsoft.com/fwlink/p/?linkid=155383) Windows PowerShell cmdlets for detailed configuration information and usage examples.
 
 CredSSP delegation must be enabled in the client settings and in the service settings on the remote computer. In addition, using CredSSP requires setting up an HTTP or HTTPS [*listener*](windows-remote-management-glossary.md) on the server.
 
@@ -56,7 +56,7 @@ CredSSP delegation must be enabled in the client settings and in the service set
 
     For more information about setting Group Policies, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
-    For more information about the **AllowFreshCredentials** policy, see the policy description provided by the Group Policy editor and [KB 951608](http://go.microsoft.com/fwlink/p/?linkid=157266). The **AllowFreshCredentials** policy is located at the following path: Computer Configuration\\Administrative Templates\\System\\Credentials Delegation.
+    For more information about the **AllowFreshCredentials** policy, see the policy description provided by the Group Policy editor and [KB 951608](https://go.microsoft.com/fwlink/p/?linkid=157266). The **AllowFreshCredentials** policy is located at the following path: Computer Configuration\\Administrative Templates\\System\\Credentials Delegation.
 
 4.  An HTTPS or HTTP [*listener*](windows-remote-management-glossary.md) must be configured on the server. The certificate thumbprint used for configuring the HTTPS *listener* is also used to configure the CertificateThumbprint setting under the WinRM service settings.
 
@@ -75,7 +75,7 @@ If Kerberos authentication between the client and server is not possible, the us
 
 -   If neither Kerberos authentication nor certificate thumbprints are available, the user can enable NTLM authentication. If NTLM authentication is used, the Allow Fresh Credentials with NTLM-only Server Authentication (**AllowFreshCredentialsWhenNTLMOnly**) policy must be enabled, and an SPN with the WSMAN prefix must be added to the policy. This setting is less secure than both Kerberos authentication and certificate thumbprints, because credentials are sent to an unauthenticated server.
 
-    For more information about the **AllowFreshCredentialsWhenNTLMOnly** policy, see the policy description provided by the Group Policy editor and [KB 951608](http://go.microsoft.com/fwlink/p/?linkid=157266). The **AllowFreshCredentialsWhenNTLMOnly** policy is located at the following path: Computer Configuration\\Administrative Templates\\System\\Credentials Delegation.
+    For more information about the **AllowFreshCredentialsWhenNTLMOnly** policy, see the policy description provided by the Group Policy editor and [KB 951608](https://go.microsoft.com/fwlink/p/?linkid=157266). The **AllowFreshCredentialsWhenNTLMOnly** policy is located at the following path: Computer Configuration\\Administrative Templates\\System\\Credentials Delegation.
 
 ## Using CredSSP Authentication with Explicit Credentials
 

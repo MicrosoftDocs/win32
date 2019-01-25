@@ -22,10 +22,10 @@ ms.date: 05/31/2018
 
 # Using the Path Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -50,14 +50,14 @@ fillcolor="blue" coordorigin="0 0" coordsize="200 200">
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/CustomShape/Shape1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/CustomShape/Shape1.md)
 
 -   The values `m 8,65` indicate that the drawing starts at the point (8,65).
 -   The values `l 72,65, 92,11, 112,65, 174,65, 122,100, 142,155, 92,121, 42,155, 60,100` indicate that a straight line begins at the current point (8, 65) and ends at the given point (72, 65), which becomes the new current point. A new line begins at the current point (72, 65) and ends at the given point, which becomes the new current point, and so on, to the final point (60, 100).
 -   `x` indicates that the path will close by a straight line that starts at the current point (60, 100) and ends at the original point (8, 65).
 -   `e` indicates stop drawing.
 
-For more information about this element, see the [VML specification](http://www.w3.org/TR/NOTE-VML#-toc416858391) .
+For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858391) .
 
  
 

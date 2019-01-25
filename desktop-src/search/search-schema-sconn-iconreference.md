@@ -42,14 +42,14 @@ The optional <iconReference> element specifies a custom icon for this location. 
 
 ## Remarks
 
-The format of the reference must be specified in a form suitable for the [PathParseIconLocation](http://msdn.microsoft.com/en-us/library/bb773737.aspx) function: (for example, <dll file name>,<icon index>).
+The format of the reference must be specified in a form suitable for the [PathParseIconLocation](https://msdn.microsoft.com/en-us/library/bb773737.aspx) function: (for example, <dll file name>,<icon index>).
 
 ## Example
 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
     <iconReference>example.dll,-1002</iconReference>
     ...

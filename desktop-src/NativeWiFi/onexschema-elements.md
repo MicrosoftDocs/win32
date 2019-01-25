@@ -13,7 +13,7 @@ api_location:
 
 # OneX Schema Elements
 
-An 802.1X profile contains the following schema elements. All OneX schema elements apply to both wired and wireless profiles. Most of the named elements are in the namespace `http://www.microsoft.com/networking/OneX/v1`, except for [**EAPConfig (OneX)**](onexschema-eapconfig-onex-element.md) which is in the namespace `http://www.microsoft.com/provisioning/EapHostConfig`.
+An 802.1X profile contains the following schema elements. All OneX schema elements apply to both wired and wireless profiles. Most of the named elements are in the namespace `https://www.microsoft.com/networking/OneX/v1`, except for [**EAPConfig (OneX)**](onexschema-eapconfig-onex-element.md) which is in the namespace `https://www.microsoft.com/provisioning/EapHostConfig`.
 
 The following list shows the defined elements in the order in which the elements appear in a profile. The ordering of elements is enforced. Not all elements are in every profile, as some elements are optional.
 

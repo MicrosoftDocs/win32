@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # OpenSearch
 
-The OpenSearch code sample demonstrates how to create a federated search service using the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+The OpenSearch code sample demonstrates how to create a federated search service using the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 
 This topic contains the following sections.
 
@@ -39,8 +39,8 @@ This sample is available in the following locations.
 
 | Location      | Path URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| Code Gallery  | [OpenSearch sample](http://go.microsoft.com/fwlink/p/?linkid=155654)      |
-| Windows 7 SDK | [Download Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) |
+| Code Gallery  | [OpenSearch sample](https://go.microsoft.com/fwlink/p/?linkid=155654)      |
+| Windows 7 SDK | [Download Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) |
 
 
 

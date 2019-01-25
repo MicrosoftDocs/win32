@@ -16,7 +16,7 @@ This sample profile is configured to use Wi-Fi Protected Access security running
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
-<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+<WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleNonBroadcast</name>
     <SSIDConfig>
         <SSID>

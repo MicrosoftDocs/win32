@@ -46,13 +46,13 @@ ELAM drivers must be specially signed by Microsoft to ensure they are started by
 
 ## Resources
 
--   [Early Launch Antimalware Whitepaper](http://go.microsoft.com/fwlink/p/?LinkId=325481)
--   [CmRegisterCallbackEx()](http://go.microsoft.com/fwlink/p/?LinkId=325482)
--   [CmUnRegisterCallback()](http://go.microsoft.com/fwlink/p/?LinkId=325483)
--   [IoRegisterBootDriverCallback()](http://go.microsoft.com/fwlink/p/?LinkId=325484)
--   [IoUnRegisterBootDriverCallback()](http://go.microsoft.com/fwlink/p/?LinkId=325485)
--   [Certifying hardware with the Windows Hardware Certification Kit Build Conference presentation](http://go.microsoft.com/fwlink/p/?LinkId=325486)
--   [Download Kits and Tools](http://go.microsoft.com/fwlink/p/?LinkId=325487)
+-   [Early Launch Antimalware Whitepaper](https://go.microsoft.com/fwlink/p/?LinkId=325481)
+-   [CmRegisterCallbackEx()](https://go.microsoft.com/fwlink/p/?LinkId=325482)
+-   [CmUnRegisterCallback()](https://go.microsoft.com/fwlink/p/?LinkId=325483)
+-   [IoRegisterBootDriverCallback()](https://go.microsoft.com/fwlink/p/?LinkId=325484)
+-   [IoUnRegisterBootDriverCallback()](https://go.microsoft.com/fwlink/p/?LinkId=325485)
+-   [Certifying hardware with the Windows Hardware Certification Kit Build Conference presentation](https://go.microsoft.com/fwlink/p/?LinkId=325486)
+-   [Download Kits and Tools](https://go.microsoft.com/fwlink/p/?LinkId=325487)
 
  
 
