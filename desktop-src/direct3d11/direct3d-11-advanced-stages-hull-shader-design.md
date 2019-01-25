@@ -82,7 +82,7 @@ After you have designed a hull shader, see [How To: Create a Hull Shader](direct
 
     Properties of the patch constant function include:
 
-    -   One input specifies a variable containing a patch id, and is identified by the **SV\_PrimitiveID** system value (see [semantics](http://msdn.microsoft.com/library/bb509647(VS.85).aspx) in shader model 4).
+    -   One input specifies a variable containing a patch id, and is identified by the **SV\_PrimitiveID** system value (see [semantics](https://msdn.microsoft.com/library/bb509647(VS.85).aspx) in shader model 4).
     -   One input parameter is the input control points, declared in **VS\_CONTROL\_POINT\_OUTPUT** in this example. A patch function can see all the input control points for each patch, there are 32 control points per patch in this example.
     -   As a minimum, the function must calculate per-patch tessellation factors for the tessellator stage which are identified with [SV\_TessFactor](https://msdn.microsoft.com/library/windows/desktop/ff471574). A quad domain requires four tessellation factors for the edges and two additional factors (identified by [SV\_InsideTessFactor](https://msdn.microsoft.com/library/windows/desktop/ff471572)) for tessellating the inside of the patch. The fixed function tessellator doesn't look at any other hull shader outputs (such as the patch constant data or any of the control points).
     -   The outputs are usually defined by a structure and is identified by **HS\_CONSTANT\_DATA\_OUTPUT** in this example; the structure depends on the domain type and would be different for triangle or isoline domains.

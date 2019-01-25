@@ -12,9 +12,9 @@ This topic summarizes the main programming considerations to keep in mind when a
 
 ## Requirements for a MUI Application
 
-MUI functionality is applied only to the localization of a fully globalized application, created using a process called software internationalization. The Microsoft [Go Global Developer Center](http://msdn.microsoft.com/goglobal) provides a wide selection of related documentation that helps you design, build, and deploy world-ready applications. These documents help you consider how the characteristics of different human languages can affect the design of your software. Note that the portal also provides a complete archive of Dr. International columns.
+MUI functionality is applied only to the localization of a fully globalized application, created using a process called software internationalization. The Microsoft [Go Global Developer Center](https://msdn.microsoft.com/goglobal) provides a wide selection of related documentation that helps you design, build, and deploy world-ready applications. These documents help you consider how the characteristics of different human languages can affect the design of your software. Note that the portal also provides a complete archive of Dr. International columns.
 
-Your MUI application can run under any language or locale setting, and the user can request any language for which the application includes support. Therefore, the application must encode user interface text to support the widest possible variety of languages. The most important thing to remember is to use [Unicode](unicode.md) to handle all text processing. For more information about globalization using Unicode, see the Microsoft [Go Global Developer Center](http://msdn.microsoft.com/goglobal).
+Your MUI application can run under any language or locale setting, and the user can request any language for which the application includes support. Therefore, the application must encode user interface text to support the widest possible variety of languages. The most important thing to remember is to use [Unicode](unicode.md) to handle all text processing. For more information about globalization using Unicode, see the Microsoft [Go Global Developer Center](https://msdn.microsoft.com/goglobal).
 
 ## Supported Programming Environments
 

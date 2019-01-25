@@ -31,9 +31,9 @@ For a listing of the publisher configuration file schema, see [Publisher Configu
 
 Other technologies extend the format used by Windows versioning and configuration manifests. Developers should refer to the documentation that is specific to the technology being used for information about the manifest format. For example:
 
--   [ClickOnce](Http://go.microsoft.com/fwlink/p/?linkid=83950)
--   [Common Language Runtime](Http://go.microsoft.com/fwlink/p/?linkid=83952)
--   [User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=150449)
+-   [ClickOnce](https://go.microsoft.com/fwlink/p/?linkid=83950)
+-   [Common Language Runtime](https://go.microsoft.com/fwlink/p/?linkid=83952)
+-   [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=150449)
 
  
 

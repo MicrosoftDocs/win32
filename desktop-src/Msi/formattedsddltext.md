@@ -12,7 +12,7 @@ A database field of the **FormattedSDDLText** data type holds a text string that
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This data type is available beginning with Windows Installer 5.0.
 
-The **FormattedSDDLText** data type can hold a SDDL string written in valid [Security Descriptor String Format](https://msdn.microsoft.com/en-us/library/Aa379570(v=VS.85).aspx). For more information about SDDL, see the [Access Control](https://msdn.microsoft.com/en-us/library/Aa374860(v=VS.85).aspx) section of the [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=162443). In addition, a **FormattedSDDLText** text string can use angle brackets (<>) to contain the domain and user name of the user whose account SID is to be determined.
+The **FormattedSDDLText** data type can hold a SDDL string written in valid [Security Descriptor String Format](https://msdn.microsoft.com/en-us/library/Aa379570(v=VS.85).aspx). For more information about SDDL, see the [Access Control](https://msdn.microsoft.com/en-us/library/Aa374860(v=VS.85).aspx) section of the [Microsoft Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=162443). In addition, a **FormattedSDDLText** text string can use angle brackets (<>) to contain the domain and user name of the user whose account SID is to be determined.
 
 If the user having user name *SampleUser* belongs to a domain named *SampleDomain*, then the **FormattedSDDLText** value can identify the owner using the SID string, the user name and domain name, or the Windows environment variables. For example, the following strings would be possible.
 

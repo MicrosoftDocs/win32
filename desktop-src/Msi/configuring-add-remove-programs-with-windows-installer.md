@@ -121,7 +121,7 @@ This only affects the display in the ARP. The Windows Installer is still capable
  
 
 > [!Note]  
-> For information regarding the Set Program and Defaults tool, please refer to the section [Working with Set Program Access and Computer Defaults](Http://go.microsoft.com/fwlink/p/?linkid=83959).
+> For information regarding the Set Program and Defaults tool, please refer to the section [Working with Set Program Access and Computer Defaults](https://go.microsoft.com/fwlink/p/?linkid=83959).
 
  
 

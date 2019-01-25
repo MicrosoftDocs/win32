@@ -125,9 +125,9 @@ They will return TRUE or FALSE depending on the question you are asking, and you
 
 ## Resources
 
--   [Application Compatibility Toolkit Download](http://go.microsoft.com/fwlink/p/?LinkID=205020)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](http://go.microsoft.com/fwlink/p/?LinkID=205039)
--   [VersionHelpers APIs](http://go.microsoft.com/fwlink/p/?LinkId=325426)
+-   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?LinkID=205020)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/p/?LinkID=205039)
+-   [VersionHelpers APIs](https://go.microsoft.com/fwlink/p/?LinkId=325426)
 
  
 

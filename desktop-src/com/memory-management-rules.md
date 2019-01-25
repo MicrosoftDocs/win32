@@ -26,7 +26,7 @@ Another area that needs special attention is the treatment of out and in-out par
 
 Remember that these memory management conventions for COM applications apply only across public interfaces and APIsâ€”there is no requirement at all that memory allocation strictly internal to a COM application need be done using these mechanisms.
 
-COM internally uses Remote Procedure Calls (RPC) to communicate between clients and servers. For more information about managing memory in RPC server stubs, see the [Server-stub Memory Management](http://go.microsoft.com/fwlink/p/?linkid=103725) topic.
+COM internally uses Remote Procedure Calls (RPC) to communicate between clients and servers. For more information about managing memory in RPC server stubs, see the [Server-stub Memory Management](https://go.microsoft.com/fwlink/p/?linkid=103725) topic.
 
 ## Related topics
 

@@ -55,7 +55,7 @@ The [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) interfac
 <span id="Adding_Members_to_a_Group_by_Using_System.DirectoryServices"></span><span id="adding_members_to_a_group_by_using_system.directoryservices"></span><span id="ADDING_MEMBERS_TO_A_GROUP_BY_USING_SYSTEM.DIRECTORYSERVICES"></span>Adding Members to a Group by Using System.DirectoryServices
 </dt> <dd>
 
-You can use the [System.DirectoryServices](https://msdn.microsoft.com/library/9t2667d1.aspx) namespace to add members to a group by using the **PropertyValueCollection.Add** method on the **member** property of the group object. For more information, see [Setting Properties on Directory Objects](http://go.microsoft.com/fwlink/p/?linkid=83966).
+You can use the [System.DirectoryServices](https://msdn.microsoft.com/library/9t2667d1.aspx) namespace to add members to a group by using the **PropertyValueCollection.Add** method on the **member** property of the group object. For more information, see [Setting Properties on Directory Objects](https://go.microsoft.com/fwlink/p/?linkid=83966).
 
 </dd> <dt>
 

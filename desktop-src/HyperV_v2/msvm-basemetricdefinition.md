@@ -329,7 +329,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Identifies the specific units of a value. The value of this property will be a legal value of the Programmatic Units qualifier as defined in Appendix C.1 of [DSP0004 V2.4](http://www.dmtf.org/sites/default/files/standards/documents/DSP0004_2.5.0.pdf) or later. This property is inherited from **CIM\_BaseMetricDefinition**.
+Identifies the specific units of a value. The value of this property will be a legal value of the Programmatic Units qualifier as defined in Appendix C.1 of [DSP0004 V2.4](https://www.dmtf.org/sites/default/files/standards/documents/DSP0004_2.5.0.pdf) or later. This property is inherited from **CIM\_BaseMetricDefinition**.
 
 </dd> <dt>
 

@@ -76,7 +76,7 @@ This interface supports DXVA 1.0 only. It does not support DXVA 2.0.
 [DirectX Video Acceleration 2.0](directx-video-acceleration-2-0.md)
 </dt> <dt>
 
-[DXVA 1.0 specification](http://go.microsoft.com/fwlink/p/?linkid=93647)
+[DXVA 1.0 specification](https://go.microsoft.com/fwlink/p/?linkid=93647)
 </dt> </dl>
 
  

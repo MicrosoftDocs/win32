@@ -177,16 +177,16 @@ Codec developers may choose to implement the [**IWICProgressiveLevelControl**](/
 **Other Resources**
 </dt> <dt>
 
-[Digital Compression and Coding of Continuous-Tone Still Images - Requirements and Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129341)
+[Digital Compression and Coding of Continuous-Tone Still Images - Requirements and Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129341)
 </dt> <dt>
 
-[JPEG File Interchange Format](http://go.microsoft.com/fwlink/p/?linkid=129342)
+[JPEG File Interchange Format](https://go.microsoft.com/fwlink/p/?linkid=129342)
 </dt> <dt>
 
-[GIF89a Specification](http://go.microsoft.com/fwlink/p/?linkid=120784)
+[GIF89a Specification](https://go.microsoft.com/fwlink/p/?linkid=120784)
 </dt> <dt>
 
-[Portable Network Graphics (PNG) Specification and Extensions](http://go.microsoft.com/fwlink/p/?linkid=129343)
+[Portable Network Graphics (PNG) Specification and Extensions](https://go.microsoft.com/fwlink/p/?linkid=129343)
 </dt> </dl>
 
  

@@ -49,9 +49,9 @@ Support for Bluetooth 2.1 is offered in Windows Vista SP2 and Windows 7.
 
 |                                                                                      |                                                                                                                             |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [Bluetooth Wireless Technology FAQ](http://go.microsoft.com/fwlink/p/?linkid=127707) | Information about Bluetooth wireless technology support for Windows operating systems, focusing primarily on Windows Vista. |
-| [Windows Vista Wireless SDK Forum](http://go.microsoft.com/fwlink/p/?linkid=93833)   | Discuss Bluetooth implementation in relation to Windows Vista.                                                              |
-| [Windows XP Wireless SDK Forum](http://go.microsoft.com/fwlink/p/?linkid=105786)     | Discuss Bluetooth implementation in relation to Windows XP.                                                                 |
+| [Bluetooth Wireless Technology FAQ](https://go.microsoft.com/fwlink/p/?linkid=127707) | Information about Bluetooth wireless technology support for Windows operating systems, focusing primarily on Windows Vista. |
+| [Windows Vista Wireless SDK Forum](https://go.microsoft.com/fwlink/p/?linkid=93833)   | Discuss Bluetooth implementation in relation to Windows Vista.                                                              |
+| [Windows XP Wireless SDK Forum](https://go.microsoft.com/fwlink/p/?linkid=105786)     | Discuss Bluetooth implementation in relation to Windows XP.                                                                 |
 
 
 

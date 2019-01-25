@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 The Enhanced Video Renderer (EVR) filter is a 16-channel video mixer and renderer. It has the same core functionality and plug-in model as the Media Foundation EVR media sink.
 
-The DirectShow EVR filter is documented in the Media Foundation SDK documentation; for more information, see [Enhanced Video Renderer](http://go.microsoft.com/fwlink/p/?linkid=104315).
+The DirectShow EVR filter is documented in the Media Foundation SDK documentation; for more information, see [Enhanced Video Renderer](https://go.microsoft.com/fwlink/p/?linkid=104315).
 
 
 

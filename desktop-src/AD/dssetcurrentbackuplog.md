@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DsSetCurrentBackupLog function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsSetCurrentBackupLog** function sets the current backup log number after a successful restore. Because Active Directory Domain Services only support circular logging, this function is not normally used.
 

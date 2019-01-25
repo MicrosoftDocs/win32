@@ -38,7 +38,7 @@ api_location:
 The **CIM\_PhysicalConnector** class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class. For example, slots and D-shell connectors are types of physical connectors.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

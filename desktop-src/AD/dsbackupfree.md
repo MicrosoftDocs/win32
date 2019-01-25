@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DsBackupFree function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupFree** function releases memory allocated by the Active Directory Domain Services backup and restore functions. The following functions allocate memory that must be released with the **DsBackupFree** function.
 

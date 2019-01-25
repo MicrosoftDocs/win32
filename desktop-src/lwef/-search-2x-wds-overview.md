@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Windows Desktop Search 2.x
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).
+The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).
 
 WDS is an indexing service and platform that provides fast search of files and data across different data sources and locations. WDS helps users and other applications find almost anything on their computers, email messages, calendar appointments, photos, documents, and more. Additionally, WDS can return results from multiple data sources all in a Windows Explorer environment so your users can quickly preview, filter, and act on search results.
 

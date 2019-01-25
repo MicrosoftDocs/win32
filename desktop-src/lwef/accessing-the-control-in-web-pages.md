@@ -30,7 +30,7 @@ Agent can also be installed from your own HTTP server or as part of an applicati
 ``` syntax
 <OBJECT
 classid="clsid: D45FD31B-5C6E-11D1-9EC1-00C04FD7081F"
-CODEBASE = "http://your server/msagent.exe#VERSION=2,0,0,0"
+CODEBASE = "https://your server/msagent.exe#VERSION=2,0,0,0"
  id=Agent
 >
 </OBJECT>

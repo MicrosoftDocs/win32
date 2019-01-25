@@ -22,7 +22,7 @@ Various aspects of a ribbon, including configuration and interaction preferences
 
 ## A Predictable Experience
 
-The [Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233) advise that, to provide the most predictable user experience possible, Ribbon applications should preserve the state of the ribbon (aside from the last selected tab) as the application is closed. In this way, when the same application is launched, the settings and customizations from the previous session can be restored and the user can expect to continue interacting with the application in the same way as they left it.
+The [Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233) advise that, to provide the most predictable user experience possible, Ribbon applications should preserve the state of the ribbon (aside from the last selected tab) as the application is closed. In this way, when the same application is launched, the settings and customizations from the previous session can be restored and the user can expect to continue interacting with the application in the same way as they left it.
 
 Ribbon settings that can be modified at run time and preserved across application sessions are listed in the Command context menu. They include:
 
@@ -59,9 +59,9 @@ Ribbon settings that can be modified at run time and preserved across applicatio
 
 ## Save Ribbon Settings
 
-The [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method writes a binary representation of the persistent ribbon state (outlined in the previous section) to an [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object. The application then saves the content of the IStream object to a file or the Windows registry.
+The [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method writes a binary representation of the persistent ribbon state (outlined in the previous section) to an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object. The application then saves the content of the IStream object to a file or the Windows registry.
 
-The following example demonstrates the basic code required to write the ribbon state to an [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object using the [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method.
+The following example demonstrates the basic code required to write the ribbon state to an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object using the [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method.
 
 
 ```C++
@@ -95,9 +95,9 @@ HRESULT CApplication::SaveRibbonStatusToStream(
 
 ## Load Ribbon Settings
 
-The [**IUIRibbon::LoadSettingsFromStream**](https://msdn.microsoft.com/library/windows/desktop/dd371361) method is used to retrieve the persistent ribbon state information stored as an [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object by the [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method. The information in the IStream object is applied to the ribbon UI when the application initializes.
+The [**IUIRibbon::LoadSettingsFromStream**](https://msdn.microsoft.com/library/windows/desktop/dd371361) method is used to retrieve the persistent ribbon state information stored as an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object by the [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method. The information in the IStream object is applied to the ribbon UI when the application initializes.
 
-The following example demonstrates the basic code required to load the ribbon state from an [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object with the [**IUIRibbon::LoadSettingsFromStream**](https://msdn.microsoft.com/library/windows/desktop/dd371361) method.
+The following example demonstrates the basic code required to load the ribbon state from an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object with the [**IUIRibbon::LoadSettingsFromStream**](https://msdn.microsoft.com/library/windows/desktop/dd371361) method.
 
 
 ```C++
@@ -158,9 +158,9 @@ HRESULT CMyRibbonApplication::_LoadRibbonSettings(IUIRibbon* pRibbon)
 
 
 
-Multiple instances of the same Ribbon framework application can manage each ribbon state independently as separate [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) objects or as a group through a single IStream object.
+Multiple instances of the same Ribbon framework application can manage each ribbon state independently as separate [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) objects or as a group through a single IStream object.
 
-When synchronizing ribbon state across a group of application instances, each top-level window must listen for a [WM\_ACTIVATE](http://go.microsoft.com/fwlink/p/?linkid=157711) notification. The top-level window being deactivated saves its ribbon state using the [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method, and the top-level window being activated loads its ribbon state using the [**IUIRibbon::LoadSettingsFromStream**](https://msdn.microsoft.com/library/windows/desktop/dd371361) method.
+When synchronizing ribbon state across a group of application instances, each top-level window must listen for a [WM\_ACTIVATE](https://go.microsoft.com/fwlink/p/?linkid=157711) notification. The top-level window being deactivated saves its ribbon state using the [**IUIRibbon::SaveSettingsToStream**](https://msdn.microsoft.com/library/windows/desktop/dd371362) method, and the top-level window being activated loads its ribbon state using the [**IUIRibbon::LoadSettingsFromStream**](https://msdn.microsoft.com/library/windows/desktop/dd371361) method.
 
 ## Related topics
 

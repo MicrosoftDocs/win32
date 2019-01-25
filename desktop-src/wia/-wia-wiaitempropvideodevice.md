@@ -23,7 +23,7 @@ api_location:
 The standard Windows Image Acquisition (WIA) video driver (wiavusd.dll) supports the following properties for streaming video devices.
 
 > [!Note]  
-> WIA does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](http://msdn.microsoft.com/en-us/library/ms783323(VS.85).aspx) to acquire images from video.
+> WIA does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](https://msdn.microsoft.com/en-us/library/ms783323(VS.85).aspx) to acquire images from video.
 
  
 

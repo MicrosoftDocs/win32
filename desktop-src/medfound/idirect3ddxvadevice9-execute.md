@@ -43,7 +43,7 @@ HRESULT Execute(
 *FunctionNum* 
 </dt> <dd>
 
-A **DWORD** that contains one or more DXVA function numbers. For details, refer to the [DXVA 1.0 specification](http://go.microsoft.com/fwlink/p/?linkid=93647).
+A **DWORD** that contains one or more DXVA function numbers. For details, refer to the [DXVA 1.0 specification](https://go.microsoft.com/fwlink/p/?linkid=93647).
 
 </dd> <dt>
 

@@ -40,7 +40,7 @@ If the function fails, the return value can be one of the status codes defined i
 
 ## Remarks
 
-The object library that implements this API can be downloaded from [here](Http://go.microsoft.com/fwlink/p/?linkid=85311).
+The object library that implements this API can be downloaded from [here](https://go.microsoft.com/fwlink/p/?linkid=85311).
 
 ## Requirements
 

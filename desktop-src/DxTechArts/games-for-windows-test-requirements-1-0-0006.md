@@ -1203,7 +1203,7 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
         </requestedPrivileges>
       </security>
     </trustInfo>
-      <asmv3:windowsSettings xmlns=http://schemas.microsoft.com/SMI/2005/WindowsSettings>
+      <asmv3:windowsSettings xmlns=https://schemas.microsoft.com/SMI/2005/WindowsSettings>
         <dpiAware>true<dpiAware>
       </asmv3:windowsSettings>
     </asmv3:application>
@@ -1290,14 +1290,14 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Windows_SDK"></span><span id="windows_sdk"></span><span id="WINDOWS_SDK"></span>Windows SDK
 </dt> <dd>
 
-[Windows SDKs](http://msdn.microsoft.com/bb980924.aspx)
+[Windows SDKs](https://msdn.microsoft.com/bb980924.aspx)
 
 </dd> <dt>
 
 <span id="User_Account_Control_Guidelines"></span><span id="user_account_control_guidelines"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES"></span>User Account Control Guidelines
 </dt> <dd>
 
-[Windows Vista Application Development Requirements for User Account Control Compatibility](http://msdn.microsoft.com/library/bb530410.aspx)
+[Windows Vista Application Development Requirements for User Account Control Compatibility](https://msdn.microsoft.com/library/bb530410.aspx)
 
 </dd> <dt>
 
@@ -1318,14 +1318,14 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="DirectX_Developer_Portal"></span><span id="directx_developer_portal"></span><span id="DIRECTX_DEVELOPER_PORTAL"></span>DirectX Developer Portal
 </dt> <dd>
 
-[DirectX Developer Center](http://msdn.microsoft.com/directx/)
+[DirectX Developer Center](https://msdn.microsoft.com/directx/)
 
 </dd> <dt>
 
 <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog
 </dt> <dd>
 
-[Games for Windows and the DirectX SDK](http://blogs.msdn.com/b/chuckw/)
+[Games for Windows and the DirectX SDK](https://blogs.msdn.com/b/chuckw/)
 
 </dd> <dt>
 

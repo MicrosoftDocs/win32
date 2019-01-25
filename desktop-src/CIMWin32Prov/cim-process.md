@@ -39,7 +39,7 @@ api_location:
 The **CIM\_Process** class represents a single instance of a running program. A user typically sees a process as an application or task. A process is defined by a workspace of memory resources and environmental settings that are allocated to it. On a multitasking system, the workspace prevents intrusion of resources by other processes. Additionally, a process can execute as multiple threads, all which run within the same workspace.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

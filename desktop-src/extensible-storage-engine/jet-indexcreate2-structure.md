@@ -194,7 +194,7 @@ The locale identifier (LCID) to use when normalizing the data when the JET_bitIn
 
 **pidxunicode**
 
-A pointer to a [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](http://msdn.microsoft.com/en-us/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
+A pointer to a [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](https://msdn.microsoft.com/en-us/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
 
 **cbVarSegMac**
 

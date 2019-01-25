@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Extending the Index
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).
+The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).
 
 WDS can be extended to index the contents of new file types and data stores. Currently, WDS 2.x contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)and protocol handler technology as SharePoint Services. If you already have filter implementations installed for your new file types, WDS can use the existing filter interfaces to index this data.
 

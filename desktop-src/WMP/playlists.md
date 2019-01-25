@@ -223,7 +223,7 @@ You can use *PlaylistCollection*.**getByName** to test whether a playlist exists
 
 ```C++
 // Specify an .asx playlist file.
-WMP9.URL = "http://www.microsoft.com/someplaylist.asx";
+WMP9.URL = "https://www.microsoft.com/someplaylist.asx";
 
 // Open the playlist and start playing the content.
 WMP9.controls.play();

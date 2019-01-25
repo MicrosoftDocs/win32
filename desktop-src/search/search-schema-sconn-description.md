@@ -49,7 +49,7 @@ The description should be user-friendly as it may be used in tooltips.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
     <description>Search AdventureWorks.com</description>
     ...

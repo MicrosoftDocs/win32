@@ -46,7 +46,7 @@ You can specify one element of an array property by supplying the array index as
 
 
 ```VB
-Const Uri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_NetworkAdapterConfiguration"
+Const Uri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_NetworkAdapterConfiguration"
 Const FragmentPath = "DNSServerSearchOrder[1]"
 ```
 
@@ -56,7 +56,7 @@ To get the whole array, specify the array property name as shown in the followin
 
 
 ```VB
-Const Uri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_NetworkAdapterConfiguration"
+Const Uri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_NetworkAdapterConfiguration"
 Const FragmentPath = "DNSServerSearchOrder"
 ```
 

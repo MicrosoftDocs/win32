@@ -62,8 +62,8 @@ Generally, applications should not perform operating system version checks. If a
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](http://go.microsoft.com/fwlink/p/?linkid=205020)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](http://go.microsoft.com/fwlink/p/?linkid=205039)
+-   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/p/?linkid=205039)
 
  
 

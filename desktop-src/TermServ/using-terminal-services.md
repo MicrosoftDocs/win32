@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Remote Desktop Services
 
-The following sections describe how to program in the Remote Desktop Services environment and how to extend Remote Desktop Services (formerly known as Terminal Services) technology to the web by using Remote Desktop Web Connection. If you are looking for user information for Remote Desktop connections, See [Connect to another computer using Remote Desktop Connection](http://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7).
+The following sections describe how to program in the Remote Desktop Services environment and how to extend Remote Desktop Services (formerly known as Terminal Services) technology to the web by using Remote Desktop Web Connection. If you are looking for user information for Remote Desktop connections, See [Connect to another computer using Remote Desktop Connection](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7).
 
 > [!Note]  
 > This topic is for software developers.

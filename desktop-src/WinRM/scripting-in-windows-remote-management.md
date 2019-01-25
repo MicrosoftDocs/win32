@@ -44,7 +44,7 @@ The following WinRM script produces raw XML output.
 Set Wsman = CreateObject("Wsman.Automation")
 Set xmlFile = CreateObject( "MSxml.DOMDocument")
 Set Session = Wsman.CreateSession
-Response = Session.Get("http://schemas.microsoft.com/wbem/wsman/" _
+Response = Session.Get("https://schemas.microsoft.com/wbem/wsman/" _
     & "1/wmi/root/cimv2/Win32_Service?Name=Spooler")
 xmlFile.LoadXml(Response)
 xmlFile.Save( "c:\RawOutput.xml")
@@ -56,9 +56,9 @@ The following block of text shows the XML output from the WinRM script.
 
 
 ```XML
-<p:Win32_Service xmlns:xsi="http://www.w3.org/2001/XMLSchema-
-instance" xmlns:p="http://schemas.microsoft.com/wbem/wsman/1
-/wmi/root/cimv2/Win32_Service" xmlns:cim="http://schemas.dmtf
+<p:Win32_Service xmlns:xsi="https://www.w3.org/2001/XMLSchema-
+instance" xmlns:p="https://schemas.microsoft.com/wbem/wsman/1
+/wmi/root/cimv2/Win32_Service" xmlns:cim="https://schemas.dmtf
 .org/wbem/wsman/1/base" cim:Class="Win32_Service"><p:AcceptP
 ause>false</p:AcceptPause><p:AcceptStop>true</p:AcceptStop>
 <p:Caption>Print Spooler</p:Caption><p:CheckPoint>0</p:CheckP
@@ -76,11 +76,11 @@ StartName><p:State>Running</p:State><p:Status>OK</p:Status><p
 :SystemCreationClassName>Win32_ComputerSystem</p:SystemCreati
 onClassName><p:SystemName>wsplab6-4</p:SystemName><p:TagId>0<
 /p:TagId><p:WaitHint>0</p:WaitHint><cim:Location xmlns:cim="h
-ttp://schemas.dmtf.org/wbem/wsman/1/base" xmlns:a="http://sc
-hemas.xmlsoap.org/ws/2004/08/addressing" xmlns:w="http://sche
-mas.dmtf.org/wbem/wsman/1/wsman"><a:Address>http://schemas.xm
+ttp://schemas.dmtf.org/wbem/wsman/1/base" xmlns:a="https://sc
+hemas.xmlsoap.org/ws/2004/08/addressing" xmlns:w="https://sche
+mas.dmtf.org/wbem/wsman/1/wsman"><a:Address>https://schemas.xm
 lsoap.org/ws/2004/08/addressing/role/anonymous</a:Address><a:
-ReferenceParameters><w:ResourceURI>http://schemas.microsoft.c
+ReferenceParameters><w:ResourceURI>https://schemas.microsoft.c
 om/wbem/wsman/1/wmi/root/cimv2/Win32_Service</w:ResourceURI><
 w:SelectorSet><w:Selector Name="Name">spooler</w:Selector></w
 :SelectorSet></a:ReferenceParameters></cim:Location></p:Win32
@@ -100,7 +100,7 @@ Set xmlFile = CreateObject( "MSXml.DOMDocument" )
 Set xslFile = CreateObject( "MSXml.DOMDocument" )
 
 Set Session = Wsman.CreateSession
-Response = Session.Get("http://schemas.microsoft.com/wbem/wsman/" _
+Response = Session.Get("https://schemas.microsoft.com/wbem/wsman/" _
     & "1/wmi/root/cimv2/Win32_Service?Name=Spooler")
 xmlFile.LoadXml(Response)
 xslFile.Load( "WsmTxt.xsl" )
@@ -157,10 +157,10 @@ The output from a WinRM script is encoded in Unicode. If you create a [FileSyste
 [Using Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[MSXSL](http://go.microsoft.com/fwlink/p/?linkid=57523)
+[MSXSL](https://go.microsoft.com/fwlink/p/?linkid=57523)
 </dt> <dt>
 
-[DOM Reference](http://go.microsoft.com/fwlink/p/?linkid=84378)
+[DOM Reference](https://go.microsoft.com/fwlink/p/?linkid=84378)
 </dt> </dl>
 
  

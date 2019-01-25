@@ -112,7 +112,7 @@ In VBScript, you cannot declare a reference as a particular type. However, you c
    Sub window_OnLoad
    
    'Load the character
-   AgentCtl.Characters.Load "Genie", "http://agent.microsoft.com/characters/v2/genie/genie.acf"
+   AgentCtl.Characters.Load "Genie", "https://agent.microsoft.com/characters/v2/genie/genie.acf"
 
    'Create an object reference to the character in the collection
    set Genie= AgentCtl.Characters ("Genie")
@@ -149,7 +149,7 @@ In addition, you can also create a reference to the [**Character**](https://msdn
    
    //Load the character's data
    AgentCtl.Characters.Load ("Genie", _
-      "http://agent.microsoft.com/characters/v2/genie/genie.acf");   
+      "https://agent.microsoft.com/characters/v2/genie/genie.acf");   
 
    //Create a reference to this object
    Genie = AgentCtl.Characters.Character("Genie");

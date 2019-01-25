@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.VersionID Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.VersionID](http://msdn.microsoft.com/en-us/library/bb760599(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.VersionID](https://msdn.microsoft.com/en-us/library/bb760599(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.VersionID](http://msdn.microsoft.com/en-us/library/bb760599(VS.85).aspx)
+[System.GPS.VersionID](https://msdn.microsoft.com/en-us/library/bb760599(VS.85).aspx)
 </dt> </dl>
 
  

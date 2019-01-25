@@ -79,7 +79,7 @@ The following elements have the same name as this one, but different content or 
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://www.microsoft.com/networking/WWAN/profile/v4</p></td>
+<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
 </tr>
 </tbody>
 </table>

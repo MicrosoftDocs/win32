@@ -14,7 +14,7 @@ This shows you how to measure some of the most important performance time measur
 
 ### **XPerf**
 
-**XPerf** is a set of performance analysis tools built on top of Event Tracing for Windows (ETW) designed for measuring and analyzing detailed system and app performance and resource usage. Starting in Windows 8 this command line tool has a graphical user interface and is called the Windows Performance Recorder (WPR) and Windows Performance Analyzer (WPA). More information about these tools can be found at the web page for [Windows Performance Toolkit](http://go.microsoft.com/fwlink/p/?linkid=258381) (WPT): [Windows Performance Toolkit](http://go.microsoft.com/fwlink/p/?linkid=258381).
+**XPerf** is a set of performance analysis tools built on top of Event Tracing for Windows (ETW) designed for measuring and analyzing detailed system and app performance and resource usage. Starting in Windows 8 this command line tool has a graphical user interface and is called the Windows Performance Recorder (WPR) and Windows Performance Analyzer (WPA). More information about these tools can be found at the web page for [Windows Performance Toolkit](https://go.microsoft.com/fwlink/p/?linkid=258381) (WPT): [Windows Performance Toolkit](https://go.microsoft.com/fwlink/p/?linkid=258381).
 
 An ETW collects requested kernel events and saves them into a file called an event trace log (ETL) file. These kernel events provide extensive information about an app and system characteristics when running the app. Data is collected by enabling trace capture, performing the desired app scenario that needs analysis, stopping the capture which saves the data in an ETL file. You can then analyze the file on the same or a different machine using either the command line tool **xperf.exe** or the visual trace analysis tool **xperfview.exe**.
 
@@ -78,7 +78,7 @@ Perform these steps to take a trace:
 
 ## Measurements
 
-This section uses the [Direct2D Geometry Realization Sample](http://go.microsoft.com/fwlink/p/?linkid=231619) as an example for capturing traces and analyzing data.
+This section uses the [Direct2D Geometry Realization Sample](https://go.microsoft.com/fwlink/p/?linkid=231619) as an example for capturing traces and analyzing data.
 
 > [!Note]  
 > The measurements for geometry realization sample are taken on a Quad Core machine with an integrated DirectX11 graphics card. The measurements vary depending upon the machine configuration.

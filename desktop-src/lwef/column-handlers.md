@@ -65,7 +65,7 @@ HKEY_CLASSES_ROOT
 
 ## Implementing Column Handlers
 
-Like all Shell extension handlers, column handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export the [**IColumnProvider**](https://msdn.microsoft.com/library/windows/desktop/bb776147) interface in addition to [IUnknown](http://msdn.microsoft.com/library/ms680509(VS.85).aspx).
+Like all Shell extension handlers, column handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export the [**IColumnProvider**](https://msdn.microsoft.com/library/windows/desktop/bb776147) interface in addition to [IUnknown](https://msdn.microsoft.com/library/ms680509(VS.85).aspx).
 
 Windows Explorer calls the three methods exported by [**IColumnProvider**](https://msdn.microsoft.com/library/windows/desktop/bb776147) to request the information it needs to display the column. The procedure used by Windows Explorer is:
 

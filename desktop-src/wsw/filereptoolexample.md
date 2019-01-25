@@ -483,7 +483,7 @@ static WS_XML_STRING fileRequestDictionaryStrings[] =
     WS_XML_STRING_DICTIONARY_VALUE("FilePosition", &fileRequestDictionary, 0),
     WS_XML_STRING_DICTIONARY_VALUE("FileName", &fileRequestDictionary, 1),
     WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &fileRequestDictionary, 2),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileRequestDictionary, 3),
+    WS_XML_STRING_DICTIONARY_VALUE("https://tempuri.org/FileRep", &fileRequestDictionary, 3),
     WS_XML_STRING_DICTIONARY_VALUE("FileRequest", &fileRequestDictionary, 4),
 };
 
@@ -569,7 +569,7 @@ static WS_XML_STRING fileInfoDictionaryStrings[] =
     WS_XML_STRING_DICTIONARY_VALUE("FileLength", &fileInfoDictionary, 1),
     WS_XML_STRING_DICTIONARY_VALUE("ChunkSize", &fileInfoDictionary, 2),
     WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &fileInfoDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileInfoDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("https://tempuri.org/FileRep", &fileInfoDictionary, 4),
     WS_XML_STRING_DICTIONARY_VALUE("FileInfo", &fileInfoDictionary, 5),
 };
 
@@ -659,7 +659,7 @@ struct FileChunk
     // Size of the content must match the defined chunk length or be last chunk, 
     // in which case size+chunkPosition must match the length of the file.
     WS_BYTES fileContent;  
-    LPWSTR error;  // Contains "http://tempuri.org/FileRep/NoError" in the success case.
+    LPWSTR error;  // Contains "https://tempuri.org/FileRep/NoError" in the success case.
 };
 
 extern WS_XML_DICTIONARY fileChunkDictionary;
@@ -670,7 +670,7 @@ static WS_XML_STRING fileChunkDictionaryStrings[] =
     WS_XML_STRING_DICTIONARY_VALUE("FileContent", &fileChunkDictionary, 1),
     WS_XML_STRING_DICTIONARY_VALUE("Error", &fileChunkDictionary, 2),
     WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &fileChunkDictionary, 3),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &fileChunkDictionary, 4),
+    WS_XML_STRING_DICTIONARY_VALUE("https://tempuri.org/FileRep", &fileChunkDictionary, 4),
     WS_XML_STRING_DICTIONARY_VALUE("FileChunk", &fileChunkDictionary, 5),
 };
 
@@ -802,7 +802,7 @@ static WS_XML_STRING userRequestDictionaryStrings[] =
     WS_XML_STRING_DICTIONARY_VALUE("SourcePath", &userRequestDictionary, 5),
     WS_XML_STRING_DICTIONARY_VALUE("DestinationPath", &userRequestDictionary, 6),
     WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &userRequestDictionary, 7),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &userRequestDictionary, 8),
+    WS_XML_STRING_DICTIONARY_VALUE("https://tempuri.org/FileRep", &userRequestDictionary, 8),
     WS_XML_STRING_DICTIONARY_VALUE("UserRequest", &userRequestDictionary, 9),
 };
 
@@ -951,7 +951,7 @@ static WS_XML_STRING userResponseDictionaryStrings[] =
 {
     WS_XML_STRING_DICTIONARY_VALUE("ReturnValue", &userResponseDictionary, 0),
     WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &userResponseDictionary, 1),
-    WS_XML_STRING_DICTIONARY_VALUE("http://tempuri.org/FileRep", &userResponseDictionary, 2),
+    WS_XML_STRING_DICTIONARY_VALUE("https://tempuri.org/FileRep", &userResponseDictionary, 2),
     WS_XML_STRING_DICTIONARY_VALUE("UserResponse", &userResponseDictionary, 3),
 };
 
@@ -1009,23 +1009,23 @@ static WS_ELEMENT_DESCRIPTION userResponseElement =
 
 
 // Set up the action value for the file request message
-static WS_XML_STRING fileRequestAction = WS_XML_STRING_VALUE("http://tempuri.org/FileRep/filerequest");
+static WS_XML_STRING fileRequestAction = WS_XML_STRING_VALUE("https://tempuri.org/FileRep/filerequest");
 
 // Set up the action value for the reply message
-static WS_XML_STRING fileReplyAction = WS_XML_STRING_VALUE("http://tempuri.org/FileRep/filereply");
+static WS_XML_STRING fileReplyAction = WS_XML_STRING_VALUE("https://tempuri.org/FileRep/filereply");
 
 // Set up the action value for the info message
-static WS_XML_STRING fileInfoAction = WS_XML_STRING_VALUE("http://tempuri.org/FileRep/fileinfo");
+static WS_XML_STRING fileInfoAction = WS_XML_STRING_VALUE("https://tempuri.org/FileRep/fileinfo");
 
 
 // Set up the action value for the user request message
-static WS_XML_STRING userRequestAction = WS_XML_STRING_VALUE("http://tempuri.org/FileRep/userrequest");
+static WS_XML_STRING userRequestAction = WS_XML_STRING_VALUE("https://tempuri.org/FileRep/userrequest");
 
 // Set up the action value for the user reply message
-static WS_XML_STRING userResponseAction = WS_XML_STRING_VALUE("http://tempuri.org/FileRep/userresponse");
+static WS_XML_STRING userResponseAction = WS_XML_STRING_VALUE("https://tempuri.org/FileRep/userresponse");
 
 // Set up the action value for the fault message
-static WS_XML_STRING faultAction = WS_XML_STRING_VALUE("http://tempuri.org/FileRep/fault");
+static WS_XML_STRING faultAction = WS_XML_STRING_VALUE("https://tempuri.org/FileRep/fault");
 
 
 // We are allowing very large messages so that the server can chose the optimal

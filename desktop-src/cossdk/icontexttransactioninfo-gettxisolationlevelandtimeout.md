@@ -37,7 +37,7 @@ HRESULT GetTxIsolationLevelAndTimeout(
 *pIsoLevel* \[out\]
 </dt> <dd>
 
-The [ISOLATIONLEVEL](http://go.microsoft.com/fwlink/p/?linkid=148531) value for the transaction.
+The [ISOLATIONLEVEL](https://go.microsoft.com/fwlink/p/?linkid=148531) value for the transaction.
 
 </dd> <dt>
 

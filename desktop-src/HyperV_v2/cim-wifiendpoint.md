@@ -449,7 +449,7 @@ Access type: Read-only
 Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("ProtocolIFType")
 </dt> </dl>
 
-The category or classification of this instance. The possible values are limited to the Wi-Fi and reserved values from the DMTF and [IANA ifType MIB](http://www.iana.org/assignments/ianaiftype-mib).
+The category or classification of this instance. The possible values are limited to the Wi-Fi and reserved values from the DMTF and [IANA ifType MIB](https://www.iana.org/assignments/ianaiftype-mib).
 
 If the **ProtocolIFType** is set to "1" (Other), then the type information should be provided in the **OtherTypeDescription** property.
 

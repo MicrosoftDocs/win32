@@ -68,7 +68,7 @@ The vertical position of the menu, in screen coordinates.
 
 ## Return value
 
-Type: **[BSTR](http://msdn.microsoft.com/en-US/library/ms221069.aspx)\***
+Type: **[BSTR](https://msdn.microsoft.com/en-US/library/ms221069.aspx)\***
 
 When this method returns, contains the command string.
 

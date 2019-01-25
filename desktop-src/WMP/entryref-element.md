@@ -62,7 +62,7 @@ The URL specified in the **HREF** attribute becomes the base URL for any relativ
 ```XML
 <ASX VERSION="3.0">
    <TITLE>Example of Using EntryRef</TITLE>
-   <ENTRYREF HREF="http://sample.microsoft.com/metafile.asx" />
+   <ENTRYREF HREF="https://sample.microsoft.com/metafile.asx" />
 </ASX>
 
 ```

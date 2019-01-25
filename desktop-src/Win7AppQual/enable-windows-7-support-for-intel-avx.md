@@ -72,7 +72,7 @@ There are three general levels of potential impact.
 ## Links to Other Resources
 
 -   For information about the XState functions in the Windows SDK, see [Debugging Functions](https://msdn.microsoft.com/library/ms679303(v=VS.85).aspx).
--   For an overview of the instructions and capabilities of the Intel AVX, see [Intel AVX: New Frontiers in Performance Improvements and Energy Efficiency](http://go.microsoft.com/fwlink/p/?linkid=205042).
+-   For an overview of the instructions and capabilities of the Intel AVX, see [Intel AVX: New Frontiers in Performance Improvements and Energy Efficiency](https://go.microsoft.com/fwlink/p/?linkid=205042).
 
  
 

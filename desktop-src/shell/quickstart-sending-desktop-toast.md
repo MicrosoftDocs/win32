@@ -91,13 +91,13 @@ Bring your app's window to the foreground if it receives an "activated" callback
 
 <dl> <dt>
 
-[Sending toast notifications from desktop apps sample](http://go.microsoft.com/fwlink/p/?linkid=242463)
+[Sending toast notifications from desktop apps sample](https://go.microsoft.com/fwlink/p/?linkid=242463)
 </dt> <dt>
 
 [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md)
 </dt> <dt>
 
-[Toast notifications sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
+[Toast notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231503)
 </dt> <dt>
 
 [Toast XML schema](https://msdn.microsoft.com/en-us/library/BR230849(v=Win.10).aspx)

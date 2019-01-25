@@ -331,7 +331,7 @@ Next
 
 
 
-The following VBScript code example changes an environment variable named BUILD\_TYPE to a value input by the user. The script assumes that the BUILD\_TYPE variable already exists. If it does not exist then the script ends. The input value is checked: it must be either "Build1", "Build2", or "Build3", and no other value is accepted. The VBScript [UCase](Http://go.microsoft.com/fwlink/p/?linkid=84304) function makes the input case-insensitive. If what is typed in is not one of the three acceptable values, the script ends.
+The following VBScript code example changes an environment variable named BUILD\_TYPE to a value input by the user. The script assumes that the BUILD\_TYPE variable already exists. If it does not exist then the script ends. The input value is checked: it must be either "Build1", "Build2", or "Build3", and no other value is accepted. The VBScript [UCase](https://go.microsoft.com/fwlink/p/?linkid=84304) function makes the input case-insensitive. If what is typed in is not one of the three acceptable values, the script ends.
 
 
 ```VB

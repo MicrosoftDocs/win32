@@ -26,7 +26,7 @@ The following illustration shows the format of the bits in a locale identifier.
 
 ## Predefined Locale Identifiers
 
-The predefined locale identifiers supported by NLS are defined in the [National Language Support (NLS) API Reference](http://msdn.microsoft.com/en-us/goglobal/bb896001.aspx).
+The predefined locale identifiers supported by NLS are defined in the [National Language Support (NLS) API Reference](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx).
 
 NLS uses the following locale information constants to represent locale identifiers.
 
@@ -45,7 +45,7 @@ NLS uses the following locale information constants to represent locale identifi
 
 ## Building a Locale
 
-You can use the Locale Builder utility provided by NLS to build locales. For more information, see [Microsoft Locale Builder](http://go.microsoft.com/fwlink/p/?linkid=96654).
+You can use the Locale Builder utility provided by NLS to build locales. For more information, see [Microsoft Locale Builder](https://go.microsoft.com/fwlink/p/?linkid=96654).
 
 Your application can construct a locale identifier using the [**MAKELCID**](/windows/desktop/api/Winnt/nf-winnt-makelcid) macro. Alternatively it can use one of the default identifiers corresponding to the constants listed below.
 

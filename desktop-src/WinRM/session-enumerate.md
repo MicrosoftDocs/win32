@@ -51,14 +51,14 @@ This parameter can contain one of the following:
 -   The URI of the resource.
 
     ```VB
-    strResourceUri = "http://schemas.microsoft.com/" _ 
+    strResourceUri = "https://schemas.microsoft.com/" _ 
         & "wbem/wsman/1/wmi/root/cimv2/Win32_Service"
     ```
 
     
 
 -   A [**ResourceLocator**](resourcelocator.md) object.
--   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+-   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](https://go.microsoft.com/fwlink/p/?linkid=96658).
 
 </dd> <dt>
 
@@ -110,9 +110,9 @@ The following VBScript code example enumerates the [**Win32\_LogicalDisk**](http
 Const RemoteComputer = "servername.domain.com"
 Set objWsman = CreateObject( "WSMan.Automation" )
 
-Set objSession = objWsman.CreateSession( "http://" & REMOTECOMPUTER )
+Set objSession = objWsman.CreateSession( "https://" & REMOTECOMPUTER )
 
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/" &_
               "wmi/root/cimv2/Win32_LogicalDisk"
 
 Set objResultSet = objSession.Enumerate( strResource )

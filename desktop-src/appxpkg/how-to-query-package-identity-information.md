@@ -341,7 +341,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Query app package and app manifest sample](http://go.microsoft.com/fwlink/p/?linkid=236966)
+[Query app package and app manifest sample](https://go.microsoft.com/fwlink/p/?linkid=236966)
 </dt> <dt>
 
 **Reference**

@@ -90,7 +90,7 @@ The **WinHttpRequest** object has these properties.
 
 ## Remarks
 
-The **WinHttpRequest** object uses the [**IErrorInfo**](https://msdn.microsoft.com/library/windows/desktop/ms221233) interface to provide error data. A description and numerical error value can be obtained with the [Err](Http://go.microsoft.com/fwlink/p/?linkid=84529) object in Microsoft Visual Basic Scripting Edition (VBScript), and the [Error](Http://go.microsoft.com/fwlink/p/?linkid=84528) object in Microsoft JScript. The lower 16 bits of an error number correspond to the values found in [**Error Messages**](error-messages.md).
+The **WinHttpRequest** object uses the [**IErrorInfo**](https://msdn.microsoft.com/library/windows/desktop/ms221233) interface to provide error data. A description and numerical error value can be obtained with the [Err](https://go.microsoft.com/fwlink/p/?linkid=84529) object in Microsoft Visual Basic Scripting Edition (VBScript), and the [Error](https://go.microsoft.com/fwlink/p/?linkid=84528) object in Microsoft JScript. The lower 16 bits of an error number correspond to the values found in [**Error Messages**](error-messages.md).
 
 > [!Note]  
 > For Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).

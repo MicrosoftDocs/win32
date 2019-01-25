@@ -51,7 +51,7 @@ This guide provides information about using the features of the Windows Media DR
 [**Windows Media DRM Client Extended APIs**](windows-media-drm-client-extended-apis.md)
 </dt> <dt>
 
-[Windows Media Rights Manager SDK](http://go.microsoft.com/fwlink/p/?linkid=30608)
+[Windows Media Rights Manager SDK](https://go.microsoft.com/fwlink/p/?linkid=30608)
 </dt> </dl>
 
  

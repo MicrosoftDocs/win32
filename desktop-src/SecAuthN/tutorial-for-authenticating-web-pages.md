@@ -32,7 +32,7 @@ Next [Authentication for web pages](authentication-for-web-pages.md)
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](http://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
 </dt> <dt>
 
 [**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/en-us/library/BR227044(v=Win.10).aspx)

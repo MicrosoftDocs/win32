@@ -153,7 +153,7 @@ WPA is currently the only viewer you can use to view TraceLogging trace (.etl) f
 
     ![view the event from the simpletraceloggingprovider](images/eventview.png)
 
-    For more information about using WPA, see [Windows Performance Analyzer](http://msdn.microsoft.com/library/windows/hardware/hh448170.aspx).
+    For more information about using WPA, see [Windows Performance Analyzer](https://msdn.microsoft.com/library/windows/hardware/hh448170.aspx).
 
 ## Summary and next steps
 

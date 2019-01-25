@@ -267,7 +267,7 @@ A package of information transmitted between computers or separate networks cons
 **namespace**
 </dt> <dd>
 
-A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372). Namespaces appear in the resource URI for WMI classes, for example http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
+A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372). Namespaces appear in the resource URI for WMI classes, for example https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
 
 </dd> <dt>
 
@@ -533,7 +533,7 @@ A public standard protocol, which is SOAP-based, for accessing XML representatio
 **XPath**
 </dt> <dd>
 
-A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](http://go.microsoft.com/fwlink/p/?linkid=84384) for [*fragment dialect*](windows-remote-management-glossary.md).
+A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](https://go.microsoft.com/fwlink/p/?linkid=84384) for [*fragment dialect*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 

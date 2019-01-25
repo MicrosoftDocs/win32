@@ -12,7 +12,7 @@ The property proxy for the System.Photo.ExposureBias photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) uhVal member.
 
 ### Containers
 
@@ -38,7 +38,7 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.Photo.ExposureBias](http://msdn.microsoft.com/en-us/library/bb760423(VS.85).aspx)
+[System.Photo.ExposureBias](https://msdn.microsoft.com/en-us/library/bb760423(VS.85).aspx)
 </dt> </dl>
 
  

@@ -65,7 +65,7 @@ If you set any of the properties in the previous list, the value you set overrid
 
  
 
-Setting the value of the MFPKEY\_COMPRESSIONOPTIMIZATIONTYPE property to 1 also has the effect of setting the Dquant Option registry setting to 2, and the Motion Vector Cost Method registry setting to 1. For more information, see the web article [Using the Advanced Settings of the Windows Media Video 9 Advanced Profile Codec](http://go.microsoft.com/fwlink/p/?linkid=180526).
+Setting the value of the MFPKEY\_COMPRESSIONOPTIMIZATIONTYPE property to 1 also has the effect of setting the Dquant Option registry setting to 2, and the Motion Vector Cost Method registry setting to 1. For more information, see the web article [Using the Advanced Settings of the Windows Media Video 9 Advanced Profile Codec](https://go.microsoft.com/fwlink/p/?linkid=180526).
 
 ## Requirements
 

@@ -50,10 +50,10 @@ ms.date: 05/31/2018
 
 # Using the Image Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -92,7 +92,7 @@ croptop="0.4" cropleft="0.3"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image1.md)
 
 The first image, `<v:image style='width:100pt;height:80pt' src="image1.jpg" />`, doesn't have any crop value. Therefore, 100 percent of the original image is displayed at a size of 100 points by 80 points.
 
@@ -123,7 +123,7 @@ For example, to display five pictures that have different contrast settings, you
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image2.md)
 
 When the **gain** property attribute is set to 0, the entire image becomes gray because there is no contrast. The contrast is more noticeable when the **gain** property attribute is set to 3 than when it is set to 0.5. The contrast is reversed when the **gain** property attribute is set to a negative value such as -0.4.
 
@@ -150,7 +150,7 @@ For example, to display five pictures that have different brightness settings, y
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image3.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image3.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -175,7 +175,7 @@ grayscale=true />
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image4.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image4.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -198,9 +198,9 @@ For example, to display three pictures that have different gamma settings, you c
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image5.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/UseImage/image5.md)
 
-For more information about this element, see the [VML specification](http://www.w3.org/TR/NOTE-VML#-toc416858408) .
+For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858408) .
 
  
 

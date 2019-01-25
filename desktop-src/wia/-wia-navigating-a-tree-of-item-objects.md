@@ -13,7 +13,7 @@ api_location:
 # Navigating a Tree of Item Objects
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](http://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
 
  
 

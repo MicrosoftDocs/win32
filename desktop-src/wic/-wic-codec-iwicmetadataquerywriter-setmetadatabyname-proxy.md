@@ -58,7 +58,7 @@ The name of the metadata item.
 *pvarValue* \[in\]
 </dt> <dd>
 
-Type: **const [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx)\***
+Type: **const [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx)\***
 
 The metadata to set.
 

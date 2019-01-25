@@ -13,7 +13,7 @@ Records can have application-specific attributes that are a sequence of name or 
 A record attribute can be one of the following three types:
 
 -   **int** is an integer value.
--   **date** is a datetime value represented as one of the standard formats described at [http://www.w3.org/TR/NOTE-datetime](Http://go.microsoft.com/fwlink/p/?linkid=84446).
+-   **date** is a datetime value represented as one of the standard formats described at [https://www.w3.org/TR/NOTE-datetime](https://go.microsoft.com/fwlink/p/?linkid=84446).
 -   **string** is a Unicode string value.
 
 The following list identifies the specific attribute names that are reserved by the Peer Infrastructure:
@@ -32,7 +32,7 @@ The following schema example shows you how to define record attributes:
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema">
    <xs:simpleType name="alphanum">
        <xs:restriction base="xs:string">
           <xs:pattern value="\c+" />

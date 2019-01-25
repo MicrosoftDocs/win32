@@ -32,7 +32,7 @@ Using a webpage editor, create a new html page which accepts the distinguished n
 <html>
 <body>
 
-<form method="POST" action="http://localhost/Enum.asp" ID="Form1">
+<form method="POST" action="https://localhost/Enum.asp" ID="Form1">
 <p>Distinguished name of container:<input type="text" name="inpContainer" size="100" ID="Text2"></p>
 <p><input type="SUBMIT" value="GO" ID="Submit1" NAME="Submit1"></p>
 </form>

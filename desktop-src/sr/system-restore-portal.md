@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 System Restore automatically monitors and records key system changes on a user's computer. It is designed to reduce support costs and increase customer satisfaction by enabling a user to undo a change that may have caused a problem with the system, or revert to a day when the system was performing optimally.
 
 > [!Note]  
-> The following documentation is targeted for developers. If you are an end-user looking for information on how to use System Restore, see [What Is System Restore?](http://windows.microsoft.com/windows/What-is-System-Restore#1TC=windows-7)
+> The following documentation is targeted for developers. If you are an end-user looking for information on how to use System Restore, see [What Is System Restore?](https://windows.microsoft.com/windows/What-is-System-Restore#1TC=windows-7)
 
  
 

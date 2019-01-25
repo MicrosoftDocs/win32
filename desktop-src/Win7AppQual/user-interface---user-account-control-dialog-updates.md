@@ -31,8 +31,8 @@ The application development requirements in Windows 7 for UAC compatibility are 
 ## Links to Other Resources
 
 -   [Windows Vista Application Compatibility Cookbook](https://msdn.microsoft.com/en-us/library/Bb757005(v=MSDN.10).aspx)
--   [Application Compatibility Toolkit Download](http://go.microsoft.com/fwlink/p/?linkid=205020)
--   [Standard User Analyzer](http://go.microsoft.com/fwlink/p/?linkid=205195)
+-   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)
+-   [Standard User Analyzer](https://go.microsoft.com/fwlink/p/?linkid=205195)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.

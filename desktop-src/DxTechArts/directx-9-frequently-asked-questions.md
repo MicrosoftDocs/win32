@@ -129,7 +129,7 @@ Since these new interfaces rely on the WDDM technology, they will never be avail
 <span id="Will_DirectX_11_be_available_for_Windows_Vista_or_Windows_XP__"></span><span id="will_directx_11_be_available_for_windows_vista_or_windows_xp__"></span><span id="WILL_DIRECTX_11_BE_AVAILABLE_FOR_WINDOWS_VISTA_OR_WINDOWS_XP__"></span>**Will DirectX 11 be available for Windows Vista or Windows XP?** 
 </dt> <dd>
 
-DirectX 11 is built into Windows 7, and it is available as an update for Windows Vista (see <http://go.microsoft.com/fwlink/p/?linkid=160189>). This includes the Direct3D 11 API, DirectX Graphics Infrastructure (DXGI) 1.1, 10Level9 feature levels, Windows Advanced Rasterization Platform (WARP) 10 software rendering device, Direct2D, DirectWrite, and an update to the Direct3D 10.1 API to support 10Level9 and WARP 10.
+DirectX 11 is built into Windows 7, and it is available as an update for Windows Vista (see <https://go.microsoft.com/fwlink/p/?linkid=160189>). This includes the Direct3D 11 API, DirectX Graphics Infrastructure (DXGI) 1.1, 10Level9 feature levels, Windows Advanced Rasterization Platform (WARP) 10 software rendering device, Direct2D, DirectWrite, and an update to the Direct3D 10.1 API to support 10Level9 and WARP 10.
 
 For the same reasons noted in the preceding question (**Will DirectX 10 be available for Windows XP?** ), Direct3D 11 and related APIs are not available on Windows XP.
 
@@ -145,7 +145,7 @@ DirectShow was removed from the DirectX SDK as of April 2005. You can obtain the
 <span id="What_changes_were_made_to_the_DirectX_runtime_for_Windows_Vista__"></span><span id="what_changes_were_made_to_the_directx_runtime_for_windows_vista__"></span><span id="WHAT_CHANGES_WERE_MADE_TO_THE_DIRECTX_RUNTIME_FOR_WINDOWS_VISTA__"></span>**What changes were made to the DirectX runtime for Windows Vista?** 
 </dt> <dd>
 
-The primary changes were made to support the new WDDM. For details on the new driver model, on the impacts on Direct3D 9, and on the two new graphics interfaces, Direct3D 9Ex and Direct3D 10, please review [Graphics APIs in Windows](https://msdn.microsoft.com/library/windows/desktop/ee417756). New graphics APIs for Windows 7—Direct3D 11, Direct2D, DirectWrite, DXGI 1.1, and an updated Direct3D 10.1—are available as an update for Windows Vista (see <http://go.microsoft.com/fwlink/p/?linkid=160189>).
+The primary changes were made to support the new WDDM. For details on the new driver model, on the impacts on Direct3D 9, and on the two new graphics interfaces, Direct3D 9Ex and Direct3D 10, please review [Graphics APIs in Windows](https://msdn.microsoft.com/library/windows/desktop/ee417756). New graphics APIs for Windows 7—Direct3D 11, Direct2D, DirectWrite, DXGI 1.1, and an updated Direct3D 10.1—are available as an update for Windows Vista (see <https://go.microsoft.com/fwlink/p/?linkid=160189>).
 
 Windows Vista Service Pack 1 includes an updated version of the DirectX runtime. This update extends support of Windows Vista to include Direct3D 10.1, exposing new optional hardware features. (All hardware that is capable of supporting Direct3D 10.1 also fully supports all of the features of Direct3D 10.)
 
@@ -288,13 +288,13 @@ Lots. However, the two that are highly recommended are:
 Microsoft publish stripped symbols for all system DLLs (plus a few others). To access them add the following to your symbol path in the project settings inside Visual Studio:
 
 ``` syntax
-srv*http://msdl.microsoft.com/download/symbols
+srv*https://msdl.microsoft.com/download/symbols
 ```
 
 for caching symbols locally use the following syntax:
 
 ``` syntax
-srv*c:\cache*http://msdl.microsoft.com/download/symbols
+srv*c:\cache*https://msdl.microsoft.com/download/symbols
 ```
 
 Where c:\\cache is a local directory for caching symbol files.

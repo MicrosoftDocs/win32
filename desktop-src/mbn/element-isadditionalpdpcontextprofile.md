@@ -58,7 +58,7 @@ This outermost (document) element may not be contained by any other elements.
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://www.microsoft.com/networking/WWAN/profile/v3</p></td>
+<td><p>https://www.microsoft.com/networking/WWAN/profile/v3</p></td>
 </tr>
 </tbody>
 </table>

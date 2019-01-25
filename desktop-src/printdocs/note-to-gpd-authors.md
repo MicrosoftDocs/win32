@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Note to GPD Authors
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 For those authors of PrintCapabilities documents who are familiar with GPD files, some GPD keywords have no equivalents in the PrintCapabilities document. The following table contains the GPD keywords without a PrintCapabilities document equivalent, and the reason there is no equivalent.
 
@@ -29,7 +29,7 @@ For those authors of PrintCapabilities documents who are familiar with GPD files
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

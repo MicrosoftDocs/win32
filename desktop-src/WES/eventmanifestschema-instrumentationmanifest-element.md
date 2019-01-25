@@ -69,9 +69,9 @@ The root node of the manifest.
 
 The **instrumentationManifest** element must contain the following namespaces:
 
-<dl> xmlns="http://schemas.microsoft.com/win/2004/08/events"  
-xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"  
-xmlns:xs="http://www.w3.org/2001/XMLSchema"  
+<dl> xmlns="https://schemas.microsoft.com/win/2004/08/events"  
+xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"  
+xmlns:xs="https://www.w3.org/2001/XMLSchema"  
 </dl>
 
 A manifest must contain an instrumentation section and a localization section. The instrumentation section and metadata section are mutually exclusive (you cannot define both in the same manifest). Although you can create a manifest that contains a metadata section, the service will not use it; the only metadata that the service recognizes is the metadata found in the Winmeta.xml file.
@@ -83,9 +83,9 @@ The following example shows the skeleton of a fully defined instrumentation mani
 
 ```XML
 <instrumentationManifest
-    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"    
+    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
     <instrumentation>

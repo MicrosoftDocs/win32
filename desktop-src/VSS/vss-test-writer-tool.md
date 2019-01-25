@@ -13,7 +13,7 @@ The Test Writer is a utility that you can use to test VSS requester applications
 Each instance of the writer is initialized with an XML configuration file that describes exactly what components the writer will report on, and how the writer behaves. The writer can be configured to report on various types of scenarios, including more complicated scenarios using the incremental and differential interfaces. The writer will perform checks at various points during the process to ensure that the requester is behaving in a proper manner. After the restore is completed, the writer will check that all necessary files have been restored without corruption. The writer can also be configured to perform other operations such as failing specific events.
 
 > [!Note]  
-> This tool is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and later. You can download the Windows SDK from [http://msdn.microsoft.com/windowsvista](Http://go.microsoft.com/fwlink/p/?linkid=83945).
+> This tool is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and later. You can download the Windows SDK from [https://msdn.microsoft.com/windowsvista](https://go.microsoft.com/fwlink/p/?linkid=83945).
 
  
 

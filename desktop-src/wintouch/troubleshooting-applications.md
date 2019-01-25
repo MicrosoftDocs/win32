@@ -63,7 +63,7 @@ This section gives solutions to common problems.
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>You can call <a href="http://go.microsoft.com/fwlink/p/?linkid=153394">GetMessageExtraInfo</a> for the <strong>WM_LBUTTONDOWN</strong> and <strong>WM_LBUTTONUP</strong> messages to determine the source. The following code shows how this could be done. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>You can call <a href="https://go.microsoft.com/fwlink/p/?linkid=153394">GetMessageExtraInfo</a> for the <strong>WM_LBUTTONDOWN</strong> and <strong>WM_LBUTTONUP</strong> messages to determine the source. The following code shows how this could be done. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -243,7 +243,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <div class="alert">
 <blockquote>
 [!Note]<br />
-In order to use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd162952"><strong>ScreenToClient</strong></a> function, you must have high DPI support in your application. For more information on supporting high DPI, visit the <a href=" http://go.microsoft.com/fwlink/p/?linkid=153387">High DPI</a> section of MSDN.
+In order to use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd162952"><strong>ScreenToClient</strong></a> function, you must have high DPI support in your application. For more information on supporting high DPI, visit the <a href=" https://go.microsoft.com/fwlink/p/?linkid=153387">High DPI</a> section of MSDN.
 </blockquote>
 </div>
 <div>
@@ -289,7 +289,7 @@ In order to use the <a href="https://msdn.microsoft.com/library/windows/desktop/
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | After handling the [**WM\_GESTURE**](wm-gesture.md) message, I stop getting boundary feedback. Or, a gesture that worked previously does not work now.                                                                                                                                                                                                                         |
 | Cause    | Consuming the [**WM\_GESTURE**](wm-gesture.md) message without handling it.                                                                                                                                                                                                                                                                                                    |
-| Solution | You are probably consuming a Windows Touch message without forwarding it to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637), which will result in unexpected behavior. Check [Getting Started with Windows Gestures](getting-started-with-multi-touch-gestures.md) for more information on how to properly handle [**WM\_GESTURE**](wm-gesture.md) messages. |
+| Solution | You are probably consuming a Windows Touch message without forwarding it to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637), which will result in unexpected behavior. Check [Getting Started with Windows Gestures](getting-started-with-multi-touch-gestures.md) for more information on how to properly handle [**WM\_GESTURE**](wm-gesture.md) messages. |
 
 
 

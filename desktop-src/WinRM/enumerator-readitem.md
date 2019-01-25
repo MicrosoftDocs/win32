@@ -66,9 +66,9 @@ The following VBScript example calls the [**Session.Enumerate**](session-enumera
 Const RemoteComputer = "servername.domain.com"
 
 Set objWsman = CreateObject( "WSMan.Automation" )
-Set objSession = objWsman.CreateSession( "http://" & RemoteComputer )
+Set objSession = objWsman.CreateSession( "https://" & RemoteComputer )
 
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/" &_
               "wmi/root/cimv2/Win32_ScheduledJob"
 
 Set objResultSet = objSession.Enumerate( strResource )

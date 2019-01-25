@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The final step is to place a reference to the Setup.exe on the hypothetical MySetup webpage (MySetup.html) described in [A URL Based Windows Installer Installation Example](a-url-based-windows-installer-installation-example.md). Use the following HTML script:
 
 ``` syntax
-[MySetup Installation](http://www.blueyonderairlines.com/Products/MySetup/setup.exe)
+[MySetup Installation](https://www.blueyonderairlines.com/Products/MySetup/setup.exe)
 ```
 
 Clicking on the "MySetup Installation" link presents users with the option to save or run from that location. If the user selects run from that location, the Setup.exe upgrades the version of Windows Installer on the computer, if necessary, verifies the digital signature on the installer package, and installs the package on their computer.

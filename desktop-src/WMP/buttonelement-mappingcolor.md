@@ -44,7 +44,7 @@ The following sample is a complete skin definition file that illustrates how som
     titleBar = "False"
   >
     <PLAYER
-      URL = "http://proseware.com/mellow.wma"
+      URL = "https://proseware.com/mellow.wma"
     />
     <EFFECTS
       id = "myeffects"

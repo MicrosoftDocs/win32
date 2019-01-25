@@ -45,8 +45,8 @@ This sample is available in the following locations.
 
 | Location      | Path URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155659) |
-| Windows 7 SDK | [Download Windows 7 SDK](http://go.microsoft.com/fwlink/p/?linkid=129787)                            |
+| Code Gallery  | [Windows Shell Integration Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155659) |
+| Windows 7 SDK | [Download Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787)                            |
 
 
 
@@ -73,7 +73,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 2.  Type `regsvr32.exe RecipePropertyHandler.dll`
 3.  (Optional) Type `prop.exe schema register RecipeProperties.propdesc` to register the custom .recipe properties in the property schema.
     > [!Note]  
-    > The Prop.exe file can be obtained from <http://www.codeplex.com/prop>. The [Property Schema Sample](https://msdn.microsoft.com/library/Dd940373(v=VS.85).aspx) can also be used to register the schema.
+    > The Prop.exe file can be obtained from <https://www.codeplex.com/prop>. The [Property Schema Sample](https://msdn.microsoft.com/library/Dd940373(v=VS.85).aspx) can also be used to register the schema.
 
      
 

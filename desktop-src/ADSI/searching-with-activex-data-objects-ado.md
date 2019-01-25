@@ -229,7 +229,7 @@ Wend
 
 
 
-For more information about the ADO object model, see [Microsoft ActiveX Data Objects](http://go.microsoft.com/fwlink/p/?linkid=83858).
+For more information about the ADO object model, see [Microsoft ActiveX Data Objects](https://go.microsoft.com/fwlink/p/?linkid=83858).
 
  
 

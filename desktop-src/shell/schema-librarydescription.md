@@ -16,7 +16,7 @@ The <libraryDescription> element is the top-level container for the library defi
 ```
 <!-- libraryDescription -->
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xs:include schemaLocation="commonTypes-ms.xsd"/>
     <xs:element name="libraryDescription">
         <xs:complexType>
@@ -87,7 +87,7 @@ A library can have a unique set of properties, and locations in the library can 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<libraryDescription xmlns="http://schemas.microsoft.com/windows/2009/library">
+<libraryDescription xmlns="https://schemas.microsoft.com/windows/2009/library">
     <name>@shell32.dll,-34575</name>
     <ownerSID>S-1-5-21-379071477-2495173225-776587366-1000</ownerSID>
     <version>1</version>

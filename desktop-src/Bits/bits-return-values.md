@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BITS Return Values
 
-The Bitsmsg.h file contains the following return value constants. The constants represent return values that BITS generates and HTTP return values that BITS captures. All other return values that you can receive are COM, RPC, or converted Windows return values (BITS uses the [HRESULT\_FROM\_WIN32](http://go.microsoft.com/fwlink/p/?linkid=141230) macro to convert the Windows return values to HRESULT values).
+The Bitsmsg.h file contains the following return value constants. The constants represent return values that BITS generates and HTTP return values that BITS captures. All other return values that you can receive are COM, RPC, or converted Windows return values (BITS uses the [HRESULT\_FROM\_WIN32](https://go.microsoft.com/fwlink/p/?linkid=141230) macro to convert the Windows return values to HRESULT values).
 
 Note that the Bitsmsg.h file contains additional return values not listed below.
 
@@ -400,7 +400,7 @@ The server does not support the HTTP protocol version specified in the remote fi
 
 </dd> </dl>
 
-The Bitsmsg.h header file contains additional HTTP return values not listed above that BITS uses internally. For information on these and other HTTP return values you can receive, see the RFC 2616 specification from the Internet Engineering Task Force at [http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\#sec10](http://go.microsoft.com/fwlink/p/?linkid=84161).
+The Bitsmsg.h header file contains additional HTTP return values not listed above that BITS uses internally. For information on these and other HTTP return values you can receive, see the RFC 2616 specification from the Internet Engineering Task Force at [https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\#sec10](https://go.microsoft.com/fwlink/p/?linkid=84161).
 
  
 

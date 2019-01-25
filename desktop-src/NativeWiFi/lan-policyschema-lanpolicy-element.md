@@ -18,7 +18,7 @@ api_location:
 
 The LANPolicy element contains a wired LAN policy. This element is the unique root element for a wired network policy profile.
 
-The target namespace for the **LANPolicy** element is `http://www.microsoft.com/networking/LAN/policy/v1`.
+The target namespace for the **LANPolicy** element is `https://www.microsoft.com/networking/LAN/policy/v1`.
 
 ``` syntax
 <xs:element name="LANPolicy">

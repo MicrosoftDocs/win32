@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating an OpenSearch Description File in Windows Federated Search
 
-Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) protocol. Federated search enables users to search a remote data store and view the results from within Windows Explorer.
+Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) protocol. Federated search enables users to search a remote data store and view the results from within Windows Explorer.
 
 This topic contains the following sections:
 
@@ -36,7 +36,7 @@ This topic contains the following sections:
 
 An OpenSearch Description (.osdx) file for Windows Federated Search must abide by the following rules:
 
--   Be a valid OpenSearch Description document, as defined by the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) 1.1 specification.
+-   Be a valid OpenSearch Description document, as defined by the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) 1.1 specification.
 -   Provide a URL template with either an RSS or an Atom format type.
 -   Use the .osdx file name extension, or be associated with the .osdx file name extension when downloading from the web. For example, a server is not required to use .osdx. A server can return the file with any file name extension, such as .xml for example, and treated as if it were an .osdx file if it uses the correct MIME Type for OpenSearch Description documents (.osdx files).
 -   Provide a **ShortName** element value (recommended).
@@ -47,10 +47,10 @@ The following example .osdx file consists of **ShortName** and `Url` elements, w
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/">
     <ShortName>My web Service</ShortName>
     <Url format="application/rss+xml" 
-        template="http://example.com/rss.php?query=
+        template="https://example.com/rss.php?query=
         {searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
 </OpenSearchDescription>
 ```
@@ -69,7 +69,7 @@ The following code illustrates how to use the **ShortName** element in an .osdx 
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/">
     <ShortName>My web Service</ShortName>
     ...
 </OpenSearchDescription>
@@ -83,7 +83,7 @@ Windows uses the **Description** element value to populate the file description 
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/">
     ...
     <Description>Searches the example company book catalog</Description>
 </OpenSearchDescription>
@@ -102,9 +102,9 @@ The .osdx file must include one **Url format** element and **template** attribut
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/">
    ...
-        <Url format="application/rss+xml" template="http://example.com/rss.php?query=
+        <Url format="application/rss+xml" template="https://example.com/rss.php?query=
             {searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
 </OpenSearchDescription>
 ```
@@ -117,9 +117,9 @@ If there is a version of the search results that can be viewed in a web browser,
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/">
     ...
-    <Url format="text/html" template="http://example.com/html.php?query={searchTerms}" />
+    <Url format="text/html" template="https://example.com/html.php?query={searchTerms}" />
 </OpenSearchDescription>
 ```
 
@@ -167,16 +167,16 @@ An item index identifies the first result item in a page of results. If you want
 
 ```
 <Url format="application/rss+xml" 
-    template="http://example.com/rss.php?query={searchTerms}&amp;start={startIndex}" />
+    template="https://example.com/rss.php?query={searchTerms}&amp;start={startIndex}" />
 ```
 
 
 
-The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider then replaces the token in the URL with a starting index value. The first request starts with the first item, as illustrated in the following example:
+The [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider then replaces the token in the URL with a starting index value. The first request starts with the first item, as illustrated in the following example:
 
 
 ```
-http://example.com/rss.php?query=frogs&start=1
+https://example.com/rss.php?query=frogs&start=1
 ```
 
 
@@ -195,7 +195,7 @@ A page index identifies the specified page of results. If you want clients to se
 
 ```
 <Url format="application/rss+xml" 
-    template="http://example.com/rss.php?query={searchTerms}&amp;page={startPage}" />
+    template="https://example.com/rss.php?query={searchTerms}&amp;page={startPage}" />
 ```
 
 
@@ -204,7 +204,7 @@ The OpenSearch provider then replaces the token in the URL with a page number pa
 
 
 ```
-http://example.com/rss.php?query=frogs&page=1
+https://example.com/rss.php?query=frogs&page=1
 ```
 
 
@@ -221,16 +221,16 @@ You may want to configure your web service to permit a request to specify the si
 
 ```
 <Url format="application/rss+xml" 
-    template="http://example.com/rss.php?query={searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
+    template="https://example.com/rss.php?query={searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
 ```
 
 
 
-The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider can then set the desired page size, in number of results per page, as shown in the following example:
+The [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider can then set the desired page size, in number of results per page, as shown in the following example:
 
 
 ```
-http://example.com/rss.php?query=frogs&start=1&cnt=50
+https://example.com/rss.php?query=frogs&start=1&cnt=50
 ```
 
 
@@ -243,11 +243,11 @@ The OpenSearch provider determines the page size based on the number of results 
 
 In addition to the standard elements, federated search supports the following extended elements: **MaximumResultCount** and **ResultsProcessing**.
 
-Because these extended child elements are not supported in the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) v1.1 specification, they must be added by using the following namespace:
+Because these extended child elements are not supported in the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) v1.1 specification, they must be added by using the following namespace:
 
 
 ```
-http://schemas.microsoft.com/opensearchext/2009/
+https://schemas.microsoft.com/opensearchext/2009/
 ```
 
 
@@ -258,8 +258,8 @@ By default, search connectors are limited to 100 results per user query. This li
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" 
-    xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/" 
+    xmlns:ms-ose="https://schemas.microsoft.com/opensearchext/2009/">
         ...
         <ms-ose:MaximumResultCount>200</ms-ose:MaximumResultCount>
 </OpenSearchDescription>
@@ -267,7 +267,7 @@ By default, search connectors are limited to 100 results per user query. This li
 
 
 
-The preceding example declares the namespace prefix `ms-ose` in the top-level **OpenSearchDescription** element, and then uses it as a prefix in the element name. This declaration is required because the **MaximumResultCount** is not supported in the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) v1.1 specification.
+The preceding example declares the namespace prefix `ms-ose` in the top-level **OpenSearchDescription** element, and then uses it as a prefix in the element name. This declaration is required because the **MaximumResultCount** is not supported in the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) v1.1 specification.
 
 ### Property Mapping
 
@@ -277,7 +277,7 @@ When results are returned by the web service as an RSS or Atom feed, the OpenSea
 
 ### Default Mappings
 
-The default mappings of RSS XML elements to Windows Shell system properties, are listed in the following table. XML paths are relative to the item element. The `"media:"` prefix is defined by the [Yahoo Search Namespace](http://www.rssboard.org/media-rss) namespace.
+The default mappings of RSS XML elements to Windows Shell system properties, are listed in the following table. XML paths are relative to the item element. The `"media:"` prefix is defined by the [Yahoo Search Namespace](https://www.rssboard.org/media-rss) namespace.
 
 
 
@@ -327,11 +327,11 @@ The following diagram illustrates how an RSS extension maps to Windows propertie
 
 ### Example RSS results and OSD Property Mapping
 
-The following example RSS output identifies `http://example.com/schema/2009` as the XML namespace with the prefix "example". This prefix must appear again before the **email** element.
+The following example RSS output identifies `https://example.com/schema/2009` as the XML namespace with the prefix "example". This prefix must appear again before the **email** element.
 
 
 ```
-<rss version="2.0" xmlns:example="http://example.com/schema/2009">
+<rss version="2.0" xmlns:example="https://example.com/schema/2009">
    ...
     <item>
       <title>Someone</title>
@@ -341,18 +341,18 @@ The following example RSS output identifies `http://example.com/schema/2009` as 
 
 
 
-In the following example .osdx file, the XML **email** element maps to the Windows Shell property [System.Contact.EmailAddress](http://msdn.microsoft.com/en-us/library/bb787626(VS.85).aspx).
+In the following example .osdx file, the XML **email** element maps to the Windows Shell property [System.Contact.EmailAddress](https://msdn.microsoft.com/en-us/library/bb787626(VS.85).aspx).
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-    xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/"
+    xmlns:ms-ose="https://schemas.microsoft.com/opensearchext/2009/">
 ...
  <ms-ose:ResultsProcessing format="application/rss+xml">
    <ms-ose:PropertyMapList>
-     <ms-ose:PropertyMap sourceNamespaceURI="http://example.com/schema/2009/" >
+     <ms-ose:PropertyMap sourceNamespaceURI="https://example.com/schema/2009/" >
        <ms-ose:Source path="email">
-         <ms-ose:Property schema="http://schemas.microsoft.com/windows/2008/propertynamespace" name="System.Contact.EmailAddress" />
+         <ms-ose:Property schema="https://schemas.microsoft.com/windows/2008/propertynamespace" name="System.Contact.EmailAddress" />
        </ms-ose:Source>
      </ms-ose:PropertyMap>
    </ms-ose:PropertyMapList>
@@ -363,7 +363,7 @@ In the following example .osdx file, the XML **email** element maps to the Windo
 
 
 
-There are some properties that cannot be mapped because values for them are either overridden later or are not editable. For example, [System.ItemFolderPathDisplay](http://msdn.microsoft.com/en-us/library/bb760776(VS.85).aspx) or [System.ItemPathDisplayNarrow](http://msdn.microsoft.com/en-us/library/bb760779(VS.85).aspx) cannot be mapped because they are calculated from the URL value provided in either the link or enclosure elements.
+There are some properties that cannot be mapped because values for them are either overridden later or are not editable. For example, [System.ItemFolderPathDisplay](https://msdn.microsoft.com/en-us/library/bb760776(VS.85).aspx) or [System.ItemPathDisplayNarrow](https://msdn.microsoft.com/en-us/library/bb760779(VS.85).aspx) cannot be mapped because they are calculated from the URL value provided in either the link or enclosure elements.
 
 ### Thumbnails
 
@@ -371,17 +371,17 @@ Thumbnail image URLs can be provided for any item by using the **media:thumbnail
 
 ### Open File Location Context Menu
 
-Windows provides a shortcut menu named **Open file location** for result items. If the user selects an item from that menu, the "parent" URL for the selected item is opened. If the URL is a web URL, such as `http://...`, the web browser is opened and navigated to that URL. Your feed should provide a custom URL for each item to ensure that Windows opens a valid URL. This can be accomplished by including the URL within an element inside the item's XML, as illustrated in the following example:
+Windows provides a shortcut menu named **Open file location** for result items. If the user selects an item from that menu, the "parent" URL for the selected item is opened. If the URL is a web URL, such as `https://...`, the web browser is opened and navigated to that URL. Your feed should provide a custom URL for each item to ensure that Windows opens a valid URL. This can be accomplished by including the URL within an element inside the item's XML, as illustrated in the following example:
 
 
 ```
-<rss version="2.0" xmlns:example="http://example.com/schema/2009" 
-    xmlns:win="http://schemas.microsoft.com/windows/2008/propertynamespace">
+<rss version="2.0" xmlns:example="https://example.com/schema/2009" 
+    xmlns:win="https://schemas.microsoft.com/windows/2008/propertynamespace">
 ...
    <item>
       <title>Someone</title>
-      <link>http://example.com/pictures.aspx?id=01</link>
-      <win:System.ItemFolderPathDisplay>http://example.com/pictures_list.aspx
+      <link>https://example.com/pictures.aspx?id=01</link>
+      <win:System.ItemFolderPathDisplay>https://example.com/pictures_list.aspx
    </win:System.ItemFolderPathDisplay>
    </item>
 ...
@@ -389,7 +389,7 @@ Windows provides a shortcut menu named **Open file location** for result items. 
 
 
 
-If this property is not explicitly set in the item's XML, the OpenSearch provider sets it to the parent folder of the URL of the item. In the example above, the OpenSearch provider would use the link value, and set the [System.ItemFolderPathDisplay](http://msdn.microsoft.com/en-us/library/bb760764(VS.85).aspx) Windows Shell property value to `"http://example.com/"`.
+If this property is not explicitly set in the item's XML, the OpenSearch provider sets it to the parent folder of the URL of the item. In the example above, the OpenSearch provider would use the link value, and set the [System.ItemFolderPathDisplay](https://msdn.microsoft.com/en-us/library/bb760764(VS.85).aspx) Windows Shell property value to `"https://example.com/"`.
 
 ### Customize Windows Explorer Views with Property Description Lists
 
@@ -432,7 +432,7 @@ Each area of Windows Explorer has an associated set of proplists, which themselv
     ```
     <ms-ose:ResultsProcessing format="application/rss+xml">
         <ms-ose:PropertyDefaultValues>
-          <ms-ose:Property schema="http://schemas.microsoft.com/windows/2008/propertynamespace"
+          <ms-ose:Property schema="https://schemas.microsoft.com/windows/2008/propertynamespace"
             name="System.PropList.ContentViewModeForSearch">prop:~System.ItemNameDisplay;System.Photo.DateTaken;
             ~System.ItemPathDisplay;~System.Search.AutoSummary;System.Size;System.Author;System.Keywords</ms-ose:Property>
         </ms-ose:PropertyDefaultValues>
@@ -443,7 +443,7 @@ Each area of Windows Explorer has an associated set of proplists, which themselv
 
 ### Content View Mode Layout of Properties
 
-The list of properties specified in the **System.PropList.ContentViewModeForSearch** and **System.PropList.ContentViewModeForBrowse** proplists determines what is shown in Content view mode. For more information about property lists, see [PropList](http://msdn.microsoft.com/en-us/library/bb761436(VS.85).aspx).
+The list of properties specified in the **System.PropList.ContentViewModeForSearch** and **System.PropList.ContentViewModeForBrowse** proplists determines what is shown in Content view mode. For more information about property lists, see [PropList](https://msdn.microsoft.com/en-us/library/bb761436(VS.85).aspx).
 
 The properties are laid out according to the numbers shown in the following layout pattern:
 
@@ -494,7 +494,7 @@ It is possible to use a different URL for the preview than for the item itself. 
 
 How Windows Explorer determines what URL to use:
 
-1.  If you provide a mapping to [System.ItemFolderPathDisplay](http://msdn.microsoft.com/en-us/library/bb760764(VS.85).aspx), then Windows Explorer uses that URL
+1.  If you provide a mapping to [System.ItemFolderPathDisplay](https://msdn.microsoft.com/en-us/library/bb760764(VS.85).aspx), then Windows Explorer uses that URL
 2.  If you do not provide a mapping, then Windows Explorer identifies whether the link and enclosure URLs are different. If so, then Windows Explorer uses the link URL.
 3.  If the URLs are the same or if there is only a link URL, then Windows Explorer parses the link to find the parent container by removing the file name from the full URL.
     > [!Note]  
@@ -512,7 +512,7 @@ When a user clicks **Open file location**, Windows Explorer attempts to find a p
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](http://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
 
 ## Related topics
 

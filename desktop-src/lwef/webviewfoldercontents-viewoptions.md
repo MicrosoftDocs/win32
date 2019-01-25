@@ -35,7 +35,7 @@ objViewOptions = WebViewFolderContents.ViewOptions
 
 ## Property value
 
-A variable of type [IDispatch](http://msdn.microsoft.com/en-US/library/ms221608.aspx) that receives the view options object.
+A variable of type [IDispatch](https://msdn.microsoft.com/en-US/library/ms221608.aspx) that receives the view options object.
 
 ## Examples
 

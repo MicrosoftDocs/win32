@@ -49,7 +49,7 @@ If you include the search connector in the Start menu scope, users can search yo
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
     <includeinStartMenuScope>true</includeinStartMenuScope>
     ...

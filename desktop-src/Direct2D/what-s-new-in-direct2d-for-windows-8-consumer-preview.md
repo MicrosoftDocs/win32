@@ -19,7 +19,7 @@ The following features and APIs were added or updated for Windows 10 Creators Up
 
 Starting in Windows 10 Creators Update, Direct2D provides support for parsing and drawing SVG images, allowing developers to render assets produced in their favorite vector art tools without converting them to raster images first. Use this feature to improve the disk footprint and scaling behavior of your in-app iconography, and use Direct2D’s new SVG object model APIs to make programmatic changes to your app’s SVG. Note that Direct2D only supports a limited subset of SVG suitable for images and does not support all SVG drawing features. If you need browser-grade SVG compatibility or SVG’s web-oriented features, consider using the [XAML WebView control](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.WebView) instead. For more information, see the following topics:
 
--   [Direct2D SVG image rendering sample](http://go.microsoft.com/fwlink/p/?LinkId=848071)
+-   [Direct2D SVG image rendering sample](https://go.microsoft.com/fwlink/p/?LinkId=848071)
 -   [SVG Support](svg-support.md)
 -   [**ID2D1DeviceContext5::CreateSvgDocument**](https://msdn.microsoft.com/en-us/library/Mt797810(v=VS.85).aspx) method
 -   [**ID2D1DeviceContext5::DrawSvgDocument**](https://msdn.microsoft.com/en-us/library/Mt797811(v=VS.85).aspx) method
@@ -49,7 +49,7 @@ Starting in Windows 10 Anniversary Update, Direct2D now supports rendering a wid
 Direct2D supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) flag is enabled. For more information, see the following topics:
 
 -   [Color Fonts](https://msdn.microsoft.com/library/windows/desktop/mt765165)
--   [DirectWrite color glyph sample](http://go.microsoft.com/fwlink/p/?LinkId=832476)
+-   [DirectWrite color glyph sample](https://go.microsoft.com/fwlink/p/?LinkId=832476)
 
 ### New image effects
 
@@ -71,7 +71,7 @@ Starting in Windows 10, Direct2D provides support for creating and rendering spr
 
 Starting in Windows 10, Direct2D provides a new primitive for gradient meshes. Gradient meshes are often used by professional illustrators in graphic design software, and they allow artists to render complex (even photo-realistic) multicolored shapes with all the memory and scalability benefits of vectors. For more information, see the follow topics:
 
--   [Direct2D gradient mesh sample](http://go.microsoft.com/fwlink/p/?LinkId=620532)
+-   [Direct2D gradient mesh sample](https://go.microsoft.com/fwlink/p/?LinkId=620532)
 -   [**D2D1\_GRADIENT\_MESH\_PATCH**](/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch) structure
 -   [**ID2D1DeviceContext2::DrawGradientMesh**](https://msdn.microsoft.com/en-us/library/Dn900378(v=VS.85).aspx) method
 
@@ -79,7 +79,7 @@ Starting in Windows 10, Direct2D provides a new primitive for gradient meshes. G
 
 Starting with Windows 10, Direct2D offers a new API for loading images, ID2D1ImageSource. The image source improves upon existing image loading APIs including CreateBitmapFromWicBitmap, the Bitmap Source effect, and the YCbCr effect. The Direct2D image source combines the capabilities of these APIs with support for arbitrarily large images, easy integration with printing and effects, and numerous optimizations including YCbCr JPEG and indexed JPEG. For more information, see these topics:
 
--   [Direct2D Photo Adjustment SDK sample](http://go.microsoft.com/fwlink/p/?LinkId=620533)
+-   [Direct2D Photo Adjustment SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620533)
 -   [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx)
 -   [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx)
 -   [IWICJpegFrameDecode::SetIndexing](https://msdn.microsoft.com/library/windows/desktop/dn903861.aspx)
@@ -98,7 +98,7 @@ Direct2D effects are implemented using HLSL pixel, vertex, and/or compute shader
 
 -   [Effect Shader Linking](effect-shader-linking.md)
 -   [Direct2D HLSL Helpers](hlsl-helpers.md)
--   [Direct2D custom effects SDK sample](http://go.microsoft.com/fwlink/p/?LinkId=620531)
+-   [Direct2D custom effects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531)
 
 Effect shader linking is designed to not affect the visual output of effects. However, this is not always possible due to specific behavior around effect precision and numerical clipping. For more information on how to control for these behaviors, see:
 
@@ -140,7 +140,7 @@ Starting with Windows 10, Direct2D includes a rich set of new built-in effects w
 
 -   [Chroma-key effect](chromakey-effect.md)
 
-The straighten, saturation, contrast, highlights and shadows, and temperature and tint effects are demonstrated in the [Direct2D Photo Adjustment SDK sample](http://go.microsoft.com/fwlink/p/?LinkId=620533).
+The straighten, saturation, contrast, highlights and shadows, and temperature and tint effects are demonstrated in the [Direct2D Photo Adjustment SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620533).
 
 ## What's new for Windows 8.1
 

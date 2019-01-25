@@ -22,7 +22,7 @@ Most of the tasks you may have been performing using the Windows Media Player 6.
 
 
 ```C++
-WMP64.FileName = "http://www.microsoft.com/somefile.wmv";
+WMP64.FileName = "https://www.microsoft.com/somefile.wmv";
 
 ```
 
@@ -32,7 +32,7 @@ When using the Windows Media Player 7 or later object model, you must set the **
 
 
 ```C++
-WMP9.URL = "http://www.microsoft.com/somefile.wmv";
+WMP9.URL = "https://www.microsoft.com/somefile.wmv";
 
 ```
 

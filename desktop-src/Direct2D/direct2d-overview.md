@@ -76,7 +76,7 @@ Developers can specify aliased rendering of vector graphics. This is used in sce
 
 Integrating Direct2D-based rendering is made easier for developers through surface-level interoperability with GDI and Direct3D. Applications that render content primarily with GDI, GDI+, or Direct3D, can begin by using Direct2D to render specific areas of their application, and over time move to a model where rendering is performed primarily via Direct2D, using GDI primarily for plug-ins or legacy extensibility.
 
-Direct2D also makes it easy to use [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) for high quality text and the advanced imaging features of the [Microsoft Windows Imaging Component (WIC)](http://msdn.microsoft.com/library/ms737408.aspx).
+Direct2D also makes it easy to use [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) for high quality text and the advanced imaging features of the [Microsoft Windows Imaging Component (WIC)](https://msdn.microsoft.com/library/ms737408.aspx).
 
 For more information about Direct2D interoperability, see the [Interoperability section of the Direct2D SDK.](interoperability.md)
 

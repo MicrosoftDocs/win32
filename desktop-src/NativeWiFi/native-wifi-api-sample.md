@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Native Wifi API Sample
 
-A Native Wifi API sample that demonstrates the use of basic wireless network management functions is included with the Microsoft Windows Software Development Kit (SDK). The latest version of the Windows SDK is available from the [Download Center](http://go.microsoft.com/fwlink/p/?linkid=102968).
+A Native Wifi API sample that demonstrates the use of basic wireless network management functions is included with the Microsoft Windows Software Development Kit (SDK). The latest version of the Windows SDK is available from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=102968).
 
 By default, the Native Wifi sample source code is installed in the following directory:
 
@@ -41,10 +41,10 @@ The Native Wifi sample demonstrates how to perform the following tasks:
 [Using Native Wifi](using-native-wifi.md)
 </dt> <dt>
 
-[Windows Vista Wireless SDK Forum](http://go.microsoft.com/fwlink/p/?linkid=313706)
+[Windows Vista Wireless SDK Forum](https://go.microsoft.com/fwlink/p/?linkid=313706)
 </dt> <dt>
 
-[Troubleshooting Windows Vista 802.11 Wireless Connections](http://go.microsoft.com/fwlink/p/?linkid=93832)
+[Troubleshooting Windows Vista 802.11 Wireless Connections](https://go.microsoft.com/fwlink/p/?linkid=93832)
 </dt> </dl>
 
  

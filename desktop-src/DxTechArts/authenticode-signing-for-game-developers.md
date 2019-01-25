@@ -37,11 +37,11 @@ The signature can be verified in multiple ways. Programs can call the CertVerify
 
 Authenticode signing is not only useful for data authentication by end users, but is also needed for patching of Limited User Accounts and by parental controls in Windows Vista and Windows 7. In addition, future technologies in Windows operating systems may also require that code is signed, so it is strongly advised that all professional and amateur developers acquire a code-signing certificate from a CA. More information on how this is done can be found later in this article in [Using a Trusted Certificate Authority](#using-a-trusted-certificate-authority).
 
-Game code, patchers, and installers can further leverage Authenicode signing by verifying files are authentic in code. This can be used for anti-cheat and general network security. Example code for checking if a file is signed can be found here: [Example C Program: Verifying the Signature of a PE File](http://msdn.microsoft.com/library/aa382384.aspx), and example code for checking ownership of a signing certificate on a signed file can be found here: [How To Get Information from Authenticode Signed Executables](http://support.microsoft.com/kb/323809).
+Game code, patchers, and installers can further leverage Authenicode signing by verifying files are authentic in code. This can be used for anti-cheat and general network security. Example code for checking if a file is signed can be found here: [Example C Program: Verifying the Signature of a PE File](https://msdn.microsoft.com/library/aa382384.aspx), and example code for checking ownership of a signing certificate on a signed file can be found here: [How To Get Information from Authenticode Signed Executables](https://support.microsoft.com/kb/323809).
 
 ## Getting Started
 
-To get started, Microsoft provides tools with Visual Studio 2005 and Visual Studio 2008, and in the [Windows SDK](http://msdn.microsoft.com/windowsserver/bb980924.aspx), to help perform and verify the code-signing process. After installing Visual Studio or the Windows SDK, the tools described in this technical article are located in a subdirectory of the installation, which may include one or more of the following:
+To get started, Microsoft provides tools with Visual Studio 2005 and Visual Studio 2008, and in the [Windows SDK](https://msdn.microsoft.com/windowsserver/bb980924.aspx), to help perform and verify the code-signing process. After installing Visual Studio or the Windows SDK, the tools described in this technical article are located in a subdirectory of the installation, which may include one or more of the following:
 
 -   %SystemDrive%\\Program Files\\Microsoft Visual Studio 8\\SDK\\v2.0\\Bin
 -   %SystemDrive%\\Program Files\\Microsoft Visual Studio 8\\VC\\PlatformSDK\\Bin
@@ -80,7 +80,7 @@ Signs file by using the .pfx file. SignTool supports the signing of DLL files, e
 
 ## Using a Trusted Certificate Authority
 
-To obtain a trusted certificate, you must apply to a Certificate Authority (CA), such as VeriSign or Thawte. Microsoft doesn't recommend any CA over another, but if you want to integrate into the Windows Error Reporting (WER) service, you should consider using VeriSign to issue the certificate, because accessing the WER database requires a WinQual account which requires a VeriSign ID. For a complete list of trusted third-party certificate authorities, see [Microsoft Root Certificate Program Members](http://msdn.microsoft.com/library/ms995347.aspx). For more information about registering with WER, see "[Introducing Windows Error Reporting](http://msdn.microsoft.com/isv/bb190483.aspx)" in [ISV Zone](http://msdn.microsoft.com/isv/default.aspx).
+To obtain a trusted certificate, you must apply to a Certificate Authority (CA), such as VeriSign or Thawte. Microsoft doesn't recommend any CA over another, but if you want to integrate into the Windows Error Reporting (WER) service, you should consider using VeriSign to issue the certificate, because accessing the WER database requires a WinQual account which requires a VeriSign ID. For a complete list of trusted third-party certificate authorities, see [Microsoft Root Certificate Program Members](https://msdn.microsoft.com/library/ms995347.aspx). For more information about registering with WER, see "[Introducing Windows Error Reporting](https://msdn.microsoft.com/isv/bb190483.aspx)" in [ISV Zone](https://msdn.microsoft.com/isv/default.aspx).
 
 After you receive your certificate from the CA, you can sign your program by using SignTool and release your program to the public. However, you must be careful to protect your private key, which is contained in your .pfx and .pvk files. Be sure to keep these files in a secure location.
 
@@ -171,9 +171,9 @@ In the event that the security of the private key is compromised or some securit
 
 Drivers can and should be Authenticode-signed. Kernel-mode drivers have additional requirements: 64-bit editions of Windows Vista and Windows 7 will prevent installation of all unsigned kernel-mode drivers, and all versions of Windows will present a warning prompt when a user attempts to install an unsigned driver. In addition, administrators can set Group Policy to prevent unsigned drivers from being installed on Microsoft Windows Server 2003, Windows XP Professional x64 Edition, and 32-bit editions of Windows Vista and Windows 7.
 
-Many types of drivers can be signed with a Microsoft-trusted signature — as part of the Windows Certification Program of [Windows Hardware Quality Labs](http://www.microsoft.com/whdc/whql/) (WHQL) or the [Unclassified Signature Program](http://www.microsoft.com/whdc/winlogo/drvsign/dqs.mspx) (formerly named Driver Reliability Signature) — which allows the system to fully trust these drivers and install them even without administrative credentials.
+Many types of drivers can be signed with a Microsoft-trusted signature — as part of the Windows Certification Program of [Windows Hardware Quality Labs](https://www.microsoft.com/whdc/whql/) (WHQL) or the [Unclassified Signature Program](https://www.microsoft.com/whdc/winlogo/drvsign/dqs.mspx) (formerly named Driver Reliability Signature) — which allows the system to fully trust these drivers and install them even without administrative credentials.
 
-At a minimum, drivers should be Authenticode-signed, because drivers that are unsigned or self-signed (that is, signed with a test certificate) will fail to install on many Windows-based platforms. For more information about signing drivers and code and related feature, see [Driver Signing Requirements for Windows](http://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx) on [Windows Hardware Developer Central](http://www.microsoft.com/whdc/).
+At a minimum, drivers should be Authenticode-signed, because drivers that are unsigned or self-signed (that is, signed with a test certificate) will fail to install on many Windows-based platforms. For more information about signing drivers and code and related feature, see [Driver Signing Requirements for Windows](https://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx) on [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
 
 ## Summary
 
@@ -184,11 +184,11 @@ Using Microsoft Authenticode is a straightforward process. Once you have obtaine
 More information about tools and processes related to signing code, see the following links:
 
 -   [Cryptography Tools](https://msdn.microsoft.com/library/windows/desktop/aa380259)
--   [Crypto API Tools Reference](http://msdn.microsoft.com/library/aa380240.aspx)
--   [Authenticode Overview and Turtorials](http://msdn.microsoft.com/library/ms537360.aspx)
+-   [Crypto API Tools Reference](https://msdn.microsoft.com/library/aa380240.aspx)
+-   [Authenticode Overview and Turtorials](https://msdn.microsoft.com/library/ms537360.aspx)
 -   [Digital Certificates](https://msdn.microsoft.com/library/windows/desktop/aa381975)
--   [Deploying Authenticode](http://www.microsoft.com/technet/security/topics/cryptographyetc/authenticodets.mspx)
--   [How To: Create Temporary Certificates for Use During Development](http://msdn.microsoft.com/library/ms733813.aspx)
+-   [Deploying Authenticode](https://www.microsoft.com/technet/security/topics/cryptographyetc/authenticodets.mspx)
+-   [How To: Create Temporary Certificates for Use During Development](https://msdn.microsoft.com/library/ms733813.aspx)
 
  
 

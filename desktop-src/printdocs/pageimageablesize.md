@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageImageableSize
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Describes the imaged canvas for layout and rendering. This will be reported based on PageMediaSize and PageOrientation.
 
@@ -86,7 +86,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Property name="psk:PageImageableSize">
@@ -118,7 +118,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

@@ -46,7 +46,7 @@ Structures related to the MFT include the following:
 
 <dl> <dt>
 
-[NTFS Technical Reference](http://go.microsoft.com/fwlink/p/?linkid=89389)
+[NTFS Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89389)
 </dt> </dl>
 
  

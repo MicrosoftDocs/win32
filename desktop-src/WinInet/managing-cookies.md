@@ -105,11 +105,11 @@ The following example demonstrates two calls to [**InternetSetCookie**](/windows
 BOOL bReturn;
 
 // Create a session cookie.
-bReturn = InternetSetCookie(TEXT("http://www.adventure_works.com"), NULL,
+bReturn = InternetSetCookie(TEXT("https://www.adventure_works.com"), NULL,
             TEXT("TestData = Test"));
 
 // Create a persistent cookie.
-bReturn = InternetSetCookie(TEXT("http://www.adventure_works.com"), NULL,
+bReturn = InternetSetCookie(TEXT("https://www.adventure_works.com"), NULL,
            TEXT("TestData = Test; expires = Sat,01-Jan-2000 00:00:00 GMT"));
 
 ```

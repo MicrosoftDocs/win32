@@ -62,7 +62,7 @@ A private field used internally.
 *Process* 
 </dt> <dd>
 
-The [EPROCESS](http://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](http://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) structure.
+The [EPROCESS](https://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) structure.
 
 </dd> <dt>
 

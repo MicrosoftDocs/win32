@@ -74,7 +74,7 @@ If Neighbor Discovery fails to resolve the destination link-local address on all
 
  
 
-For more information on Neighbor Discovery for IP version 6, see [RFC4861](http://go.microsoft.com/fwlink/p/?linkid=189050) published by the IETF.
+For more information on Neighbor Discovery for IP version 6, see [RFC4861](https://go.microsoft.com/fwlink/p/?linkid=189050) published by the IETF.
 
 ## Related topics
 

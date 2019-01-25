@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Notifying the Index of Changes
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 With Microsoft Windows Desktop Search (WDS) 2.6, protocol handlers for a given data store can tell the WDS Indexer when data in their store has changed. This improves performance by ensuring the Indexer doesn't crawl the entire store on incremental indexes. Using notification APIs, protocol handlers can notify the Indexer that an item has been moved or deleted, and they can add scopes to the WDS Indexer's crawl queue of URLs requiring indexing. Notification is helpful for applications such as email, where the protocol handler monitors the store and notifies the Indexer that items have changed and require indexing.
 

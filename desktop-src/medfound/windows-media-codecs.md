@@ -85,7 +85,7 @@ For older codecs, use the same procedures as when using the current codecs; howe
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> <dt>
 
-[Media Technologies for Windows](http://go.microsoft.com/fwlink/p/?linkid=208025)
+[Media Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=208025)
 </dt> </dl>
 
  

@@ -14,7 +14,7 @@ This sample application shows how to use mouse input to draw a circle.
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [http://go.microsoft.com/fwlink/p/?linkid=201699]( http://go.microsoft.com/fwlink/p/?linkid=201699).
+This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=201699]( https://go.microsoft.com/fwlink/p/?linkid=201699).
 
 ## Related topics
 

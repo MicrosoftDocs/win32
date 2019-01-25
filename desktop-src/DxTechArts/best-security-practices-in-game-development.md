@@ -23,7 +23,7 @@ The three most common mistakes made by a development team when releasing a produ
 
 -   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee419001).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](http://msdn.microsoft.com/magazine/cc163794.aspx) by Martyn Lovell. Also, you can get the [banned.h](http://go.microsoft.com/?linkid=9707345) header file that can help you remove banned functions from code.
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://msdn.microsoft.com/magazine/cc163794.aspx) by Martyn Lovell. Also, you can get the [banned.h](https://go.microsoft.com/?linkid=9707345) header file that can help you remove banned functions from code.
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -48,7 +48,7 @@ On the surface this code looks ok — it calls a safe function, after all. Data 
 
 Even if data doesn't come from the network initially, there still is potential risk. Modern game development requires many people designing, developing, and testing the same code base. There is no way to know how the function will be called in the future. Always ask yourself where the data came from and what could an attacker control? While network-based attacks are the most common, they are not the only methods of creating security holes. Could an attacker create a mod or edit a saved file in a way that opens a security hole? What about user-supplied image and sound files? Malicious versions of these files could be posted on the Internet and create dangerous security risks for your customers.
 
-As a side note, use strsafe.h or Safe CRT instead of **strncpy** to correct the example. Safe CRT is a complete security overhaul of the C Runtime and comes with part of Visual Studio 2005. More information about Safe CRT can be found in [Security Enhancements in the CRT](http://msdn.microsoft.com/library/8ef0s5kh(VS.80).aspx) by Michael Howard.
+As a side note, use strsafe.h or Safe CRT instead of **strncpy** to correct the example. Safe CRT is a complete security overhaul of the C Runtime and comes with part of Visual Studio 2005. More information about Safe CRT can be found in [Security Enhancements in the CRT](https://msdn.microsoft.com/library/8ef0s5kh(VS.80).aspx) by Michael Howard.
 
 ## Ways to improve security
 
@@ -61,11 +61,11 @@ There are several ways to improve security in the development cycle. Here are so
 
 The book, *Writing Secure Code, Second Edition* by Michael Howard and David LeBlanc, provides an in-depth and clear explanation of strategies and methods of preventing attacks and mitigating exploits. Starting with methods of designing security into a release to techniques for securing network applications, the book covers all aspects that a game developer needs to help protect themselves, their products, and their customers from attackers. The book can be used to instill a culture of security in a development studio. Don't just think of code security as a developer's problem or a tester's problem. Think of security as something the whole team — from program manager to designer to developer to tester — should be thinking about when they work on a project. The more eyes that are part of the review process, the greater the chance of catching a security hole prior to release.
 
-*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](http://www.microsoft.com/mspress/books/5957.asp) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](http://msdn.microsoft.com/library/ms972812.aspx) by Michael Howard.
+*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](https://www.microsoft.com/mspress/books/5957.asp) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](https://msdn.microsoft.com/library/ms972812.aspx) by Michael Howard.
 
 Michael Howard, David LeBlanc, and John Viega have written another book on the subject that covers all common operating systems and programming languages entitled, *19 Deadly Sins of Software Security*.
 
-Security presentations focused on games can be found at the [Microsoft XNA Developer Presentations](http://msdn.microsoft.com/xna/aa937787.aspx) download page.
+Security presentations focused on games can be found at the [Microsoft XNA Developer Presentations](https://msdn.microsoft.com/xna/aa937787.aspx) download page.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ When threat modeling, pay special attention to:
 
 These are the areas that have good potential for security weaknesses.
 
-More on Threat Modeling can be found at [Threat Modeling](http://msdn.microsoft.com/security/aa570411.aspx) on the MSDN Security Development Center and in the book [Threat Modeling](http://www.microsoft.com/mspress/books/6892.asp) by Frank Swiderski and Window Snyder.
+More on Threat Modeling can be found at [Threat Modeling](https://msdn.microsoft.com/security/aa570411.aspx) on the MSDN Security Development Center and in the book [Threat Modeling](https://www.microsoft.com/mspress/books/6892.asp) by Frank Swiderski and Window Snyder.
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ More on Threat Modeling can be found at [Threat Modeling](http://msdn.microsoft.
 
 A recent tool in mitigating multiple exploits is data execution prevention (DEP). If you include the switch **/NX** in the build command, Visual Studio will mark memory pages with flags that denote whether the code has the right to execute or not. Any program attempting to execute in a memory page not flagged with EXECUTE permission will cause a forcible termination of the program. The prevention is enforced on the processor level and will impact developers who are using self-modifying code or native JIT language compilers. Currently, only AMD's Athlon64 and Opteron processors and Intel's Itanium and latest Pentium 4 processors support execution prevention, but it is expected that all 32-bit and 64-bit processors will support execution prevention in the future. (A copy-protection scheme used by a developer may be affected by execution prevention, but Microsoft has been working with copy-protection vendors to minimize the impact.) It is a good practice to use DEP.
 
-For more details on DEP, see [Data Execution Prevention](http://msdn.microsoft.com/library/aa366553.aspx).
+For more details on DEP, see [Data Execution Prevention](https://msdn.microsoft.com/library/aa366553.aspx).
 
 </dd> <dt>
 
@@ -105,9 +105,9 @@ Using the **/GS** flag causes the compiler to construct a check for some forms o
 
 Using the **/SAFESEH** flag will instruct the linker to only generate an executable or DLL if it can also generate a table of the safe exception handlers of the executable or DLL. Safe Structured Exception Handling (SafeSEH) eliminates exception handling as a target of buffer overrun attacks by ensuring that, before an exception is dispatched, the exception handler is registered in the function table located within the image file. These protection benefits are enabled with Windows XP SP2, Windows Server 2003, Windows Vista, and Windows 7. Also for **/SAFESEH** to work properly, it must be used in an all-or-nothing method. All libraries containing code bound to an executable or DLL must be compiled with **/SAFESEH** or the table will not be generated.
 
-More information about [Buffer Security Check](http://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](http://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
+More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
 
-See also info about Microsoft Visual Studio 2012's [**/SDL** flag](http://blogs.msdn.com/b/sdl/archive/2011/12/02/security.aspx) and Visual Studio 2012's [enhancements to the **/GS** flag](http://blogs.msdn.com/b/sdl/archive/2012/01/26/enhancements-to-gs-in-visual-studio-11.aspx).
+See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://blogs.msdn.com/b/sdl/archive/2011/12/02/security.aspx) and Visual Studio 2012's [enhancements to the **/GS** flag](https://blogs.msdn.com/b/sdl/archive/2012/01/26/enhancements-to-gs-in-visual-studio-11.aspx).
 
 </dd> <dt>
 
@@ -117,11 +117,11 @@ See also info about Microsoft Visual Studio 2012's [**/SDL** flag](http://blogs
 PREfast is a free tool offered by Microsoft that analyzes execution paths in compiled C or C++ to help find run-time bugs. PREfast operates by working through all execution paths in all functions and assessing each path for problems. Originally used to develop drivers and other kernel code, this tool can help game developers save time by eliminating some bugs that are hard to find or are ignored by the compiler. Using PREfast is an excellent way of reducing workload and focusing the efforts of both the development team and test team. PREfast is available in Visual Studio Team Suite and Visual Studio Team Edition for Software Developers as Code Analysis, enabled by the compiler switch **/analyze**. (This option is also available in the free version of the compiler that ships with the Windows Software Development Kit.)
 
 > [!Note]  
-> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](http://blogs.msdn.com/b/codeanalysis/archive/2012/03/09/what-s-new-in-code-analysis-for-visual-studio-11.aspx).
+> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](https://blogs.msdn.com/b/codeanalysis/archive/2012/03/09/what-s-new-in-code-analysis-for-visual-studio-11.aspx).
 
  
 
-Through the use of header annotation (particularly for buffer pointer arguments), PREfast can expose additional issues, such as memory overwrite bugs, a common source of crashes and potential security vulnerabilities. This is done by using the Standard Annotation Language (SAL), which is a form of mark-up for C/C++ function prototypes that provide additional information about expected pointer argument semantics and correlation with length parameters, declared buffer sizes, etc. All of the headers for Windows operating systems are annotated, and adding SAL mark-up in public API headers in your own libraries enables PREfast to perform more detailed and aggressive checks in your client code for such APIs. For an introduction to SAL and links to more information, see Michael Howard's blog entry, "[A Brief Introduction to the Standard Annotation Language (SAL)](http://blogs.msdn.com/michael_howard/archive/2006/05/19/602077.aspx)."
+Through the use of header annotation (particularly for buffer pointer arguments), PREfast can expose additional issues, such as memory overwrite bugs, a common source of crashes and potential security vulnerabilities. This is done by using the Standard Annotation Language (SAL), which is a form of mark-up for C/C++ function prototypes that provide additional information about expected pointer argument semantics and correlation with length parameters, declared buffer sizes, etc. All of the headers for Windows operating systems are annotated, and adding SAL mark-up in public API headers in your own libraries enables PREfast to perform more detailed and aggressive checks in your client code for such APIs. For an introduction to SAL and links to more information, see Michael Howard's blog entry, "[A Brief Introduction to the Standard Annotation Language (SAL)](https://blogs.msdn.com/michael_howard/archive/2006/05/19/602077.aspx)."
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Through the use of header annotation (particularly for buffer pointer arguments)
 
 The Windows Application Verifier, or AppVerifier, can help testers by providing multiple functions in one tool. The AppVerifier is a tool that was developed to make common programming errors more testable. AppVerifier can check parameters passed to API calls, inject erroneous input to check error handling ability, and log changes to the registry and file system. AppVerifier can also detect buffer overruns in the heap, check that an Access Control List (ACL) has been properly defined, and enforce the safe use of socket APIs. While not exhaustive, AppVerifier can be one tool in the tester's toolbox to help a development studio release a quality product.
 
-For more information about Application Verifier, see [Application Verifier](http://msdn.microsoft.com/library/ms220948.aspx) and [Using Application Verifier Within Your Software Development Lifecycle](http://msdn.microsoft.com/library/aa480483.aspx) on MSDN.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/library/ms220948.aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/aa480483.aspx) on MSDN.
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ For more information about Application Verifier, see [Application Verifier](http
 
 *Fuzz testing* is a semi-automated method of testing that can enhance current testing methodologies. The central idea behind fuzz testing is to make a full assessment of all inputs by inputing random data to see what breaks; this includes all network data, mods and saved games, etc. Fuzz testing is fairly easy to do. Simply alter well-formed files or network data by inserting random bytes, flipping adjacent bytes, or negating numerical values. 0xff, 0xffff, 0xffffffff, 0x00, 0x0000, 0x00000000, and 0x80000000 are values that are good at exposing security holes while fuzz testing. You can observe the resulting interaction combinations using AppVerifier. While fuzzing is not exhaustive, it is easy to implement and automate, and it can catch the more elusive and unpredictable bugs.
 
-For more information on fuzz testing, see the [Gamefest 2007](http://msdn.microsoft.com/xna/aa937787.aspx) presentation *Practical Steps in Game Security*.
+For more information on fuzz testing, see the [Gamefest 2007](https://msdn.microsoft.com/xna/aa937787.aspx) presentation *Practical Steps in Game Security*.
 
 </dd> <dt>
 
@@ -161,7 +161,7 @@ For more information on Authenticode signing, see [Authenticode Signing for Game
 
 In general processes should run with the minimum set of privileges required to operate. On Windows Vista and Windows 7, this is accomplished by using [User Account Control](https://msdn.microsoft.com/library/windows/desktop/ee419001), allowing the game to run as a Standard User rather than an administrator. For Windows XP, typically games are always running as administrator. Even on Windows Vista and Windows 7, it is sometimes necessary to elevate to full administrator rights for some specific operations.
 
-In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](http://msdn.microsoft.com/library/bb530716.aspx)).
+In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](https://msdn.microsoft.com/library/bb530716.aspx)).
 
 While a process cannot gain more rights once started, it can easily give up rights. At startup, the process can immediately use Win32 APIs to remove rights that it does not require.
 
@@ -174,7 +174,7 @@ Windows Vista and Windows 7 includes a number of new features that improve code 
 
 -   The opt-in Address Space Layout Randomization feature. This is enabled by linking with the option **/DYNAMICBASE** on Visual Studio 2005 Service Pack 1 or Visual Studio 2008. This causes the system to randomize the positions of many of the key system DLLs in your process space, making it much more difficult to write exploitable attack programs that propagate broadly across the Internet. This linker flag is ignored by Windows XP and older versions of Windows.
 -   Heap corruption can lead to an entire class of security exploits, so the memory system of Windows Vista and Windows 7 now supports a mode which terminates the process if heap corruption is detected. Calling [**HeapSetInformation**](https://msdn.microsoft.com/library/windows/desktop/aa366705) with **HeapEnableTermianteOnCorruption** will opt-in to this behavior. This call fails on Windows XP and older version of Windows.
--   When writing services, they can be configured using a new feature to specify which privileges are actually required, as well as to limit resource access to a specific SID. This is done through [ChangeSeviceConfig2](http://msdn.microsoft.com/library/ms681988.aspx), using SERVICE\_CONFIG\_REQUIRED\_PRIVILEGES\_INFO and SERVICE\_CONFIG\_SERVICE\_SID\_INFO.
+-   When writing services, they can be configured using a new feature to specify which privileges are actually required, as well as to limit resource access to a specific SID. This is done through [ChangeSeviceConfig2](https://msdn.microsoft.com/library/ms681988.aspx), using SERVICE\_CONFIG\_REQUIRED\_PRIVILEGES\_INFO and SERVICE\_CONFIG\_SERVICE\_SID\_INFO.
 
 </dd> </dl>
 
@@ -182,7 +182,7 @@ Windows Vista and Windows 7 includes a number of new features that improve code 
 
 Developing a game for the current and future marketplace is costly and time consuming. Releasing a game with security issues will ultimately cost more money and time to properly fix. So, it is in the interests of all game developers to integrate tools and techniques to mitigate security exploits prior to release.
 
-The information in this article is just an introduction to what a development studio can do to help themselves and their customers. More information of general security practices and security information can be found at [Microsoft Security Developer Center](http://msdn.microsoft.com/security/default.aspx).
+The information in this article is just an introduction to what a development studio can do to help themselves and their customers. More information of general security practices and security information can be found at [Microsoft Security Developer Center](https://msdn.microsoft.com/security/default.aspx).
 
  
 

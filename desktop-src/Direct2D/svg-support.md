@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Beginning in Windows 10 Anniversary Update, Direct2D supports rendering [color fonts](https://msdn.microsoft.com/library/windows/desktop/mt765165) that contain SVG glyph outlines, as described in the [OpenType specification](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) (see the [‘SVG ’ table](https://www.microsoft.com/typography/otspec/svg.md)). Beginning in Windows 10 Creators Update, Direct2D also supports rendering standalone SVG images. However, certain SVG features are disallowed within OpenType SVG fonts, and certain SVG features are currently unsupported by Direct2D.  
 
-This topic identifies the set of [SVG 1.1](http://www.w3.org/TR/SVG11/) features supported by Direct2D in Windows 10 Anniversary Update and newer. This document applies to SVG in OpenType fonts as well as standalone SVG images.
+This topic identifies the set of [SVG 1.1](https://www.w3.org/TR/SVG11/) features supported by Direct2D in Windows 10 Anniversary Update and newer. This document applies to SVG in OpenType fonts as well as standalone SVG images.
 
 ## Supported SVG elements and attributes
 
@@ -20,24 +20,24 @@ Direct2D supports rendering the following SVG elements and the associated attrib
 
 | Element                                                                                  | Supported regular attributes                                                             |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [circle](http://www.w3.org/TR/SVG11/shapes.mdl#circleelement)                           | id, style, transform, cx, cy, r                                                          |
-| [clipPath](http://www.w3.org/TR/SVG11/masking.mdl#clippathelement)                      | id, style, transform, clipPathUnits                                                      |
-| [defs](http://www.w3.org/TR/SVG11/struct.mdl#defselement)                               | id, style, transform                                                                     |
-| [desc](http://www.w3.org/TR/SVG11/struct.mdl#descriptionandtitleelements)<sup>\*</sup>  | id                                                                                       |
-| [ellipse](http://www.w3.org/TR/SVG11/shapes.mdl#ellipseelement)                         | id, style, transform, cx, cy, rx, ry                                                     |
-| [g](http://www.w3.org/TR/SVG11/struct.mdl#gelement)                                     | id, style, transform                                                                     |
-| [image](http://www.w3.org/TR/SVG11/struct.mdl#imageelement)                             | id, style, transform, x, y, width, height, preserveAspectRatio, xlink:href               |
-| [line](http://www.w3.org/TR/SVG11/shapes.mdl#lineelement)                               | id, style, transform, x1, y1, x2, y2                                                     |
-| [linearGradient](http://www.w3.org/TR/SVG11/pservers.mdl#lineargradientelement)         | id, style, x1, y1, x2, y2, gradientUnits, gradientTransform, spreadMethod, xlink:href    |
-| [path](http://www.w3.org/TR/SVG11/paths.mdl#pathelement)                                | id, style, transform, d                                                                  |
-| [polygon](http://www.w3.org/TR/SVG11/shapes.mdl#polygonelement)                         | id, style, transform, points                                                             |
-| [polyline](http://www.w3.org/TR/SVG11/shapes.mdl#polylineelement)                       | id, style, transform, points                                                             |
-| [radialGradient](http://www.w3.org/TR/SVG11/pservers.mdl#radialgradientelement)         | id, style, cx, cy, r, fx, fy, gradientUnits, gradientTransform, spreadMethod, xlink:href |
-| [rect](http://www.w3.org/TR/SVG11/shapes.mdl#rectelement)                               | id, style, transform, x, y, width, height, rx, ry                                        |
-| [stop](http://www.w3.org/TR/SVG11/pservers.mdl#stopelement)                             | id, style, offset                                                                        |
-| [svg](http://www.w3.org/TR/SVG11/struct.mdl#svgelement)                                 | id, style, x, y, width, height, viewBox, preserveAspectRatio                             |
-| [title](http://www.w3.org/TR/SVG11/struct.mdl#descriptionandtitleelements)<sup>\*</sup> | id                                                                                       |
-| [use](http://www.w3.org/TR/SVG11/struct.mdl#useelement)                                 | id, style, transform, x, y, width, height, xlink:href                                    |
+| [circle](https://www.w3.org/TR/SVG11/shapes.mdl#circleelement)                           | id, style, transform, cx, cy, r                                                          |
+| [clipPath](https://www.w3.org/TR/SVG11/masking.mdl#clippathelement)                      | id, style, transform, clipPathUnits                                                      |
+| [defs](https://www.w3.org/TR/SVG11/struct.mdl#defselement)                               | id, style, transform                                                                     |
+| [desc](https://www.w3.org/TR/SVG11/struct.mdl#descriptionandtitleelements)<sup>\*</sup>  | id                                                                                       |
+| [ellipse](https://www.w3.org/TR/SVG11/shapes.mdl#ellipseelement)                         | id, style, transform, cx, cy, rx, ry                                                     |
+| [g](https://www.w3.org/TR/SVG11/struct.mdl#gelement)                                     | id, style, transform                                                                     |
+| [image](https://www.w3.org/TR/SVG11/struct.mdl#imageelement)                             | id, style, transform, x, y, width, height, preserveAspectRatio, xlink:href               |
+| [line](https://www.w3.org/TR/SVG11/shapes.mdl#lineelement)                               | id, style, transform, x1, y1, x2, y2                                                     |
+| [linearGradient](https://www.w3.org/TR/SVG11/pservers.mdl#lineargradientelement)         | id, style, x1, y1, x2, y2, gradientUnits, gradientTransform, spreadMethod, xlink:href    |
+| [path](https://www.w3.org/TR/SVG11/paths.mdl#pathelement)                                | id, style, transform, d                                                                  |
+| [polygon](https://www.w3.org/TR/SVG11/shapes.mdl#polygonelement)                         | id, style, transform, points                                                             |
+| [polyline](https://www.w3.org/TR/SVG11/shapes.mdl#polylineelement)                       | id, style, transform, points                                                             |
+| [radialGradient](https://www.w3.org/TR/SVG11/pservers.mdl#radialgradientelement)         | id, style, cx, cy, r, fx, fy, gradientUnits, gradientTransform, spreadMethod, xlink:href |
+| [rect](https://www.w3.org/TR/SVG11/shapes.mdl#rectelement)                               | id, style, transform, x, y, width, height, rx, ry                                        |
+| [stop](https://www.w3.org/TR/SVG11/pservers.mdl#stopelement)                             | id, style, offset                                                                        |
+| [svg](https://www.w3.org/TR/SVG11/struct.mdl#svgelement)                                 | id, style, x, y, width, height, viewBox, preserveAspectRatio                             |
+| [title](https://www.w3.org/TR/SVG11/struct.mdl#descriptionandtitleelements)<sup>\*</sup> | id                                                                                       |
+| [use](https://www.w3.org/TR/SVG11/struct.mdl#useelement)                                 | id, style, transform, x, y, width, height, xlink:href                                    |
 
 
 
@@ -47,7 +47,7 @@ Direct2D supports rendering the following SVG elements and the associated attrib
 
 ## Supported SVG presentation attributes
 
-Direct2D also supports the following presentation attributes. These can be specified on any SVG elements, but they only affect the appearance of certain elements as described in the SVG specification (see [Presentation attributes](http://www.w3.org/TR/SVG11/attindex.mdl#presentationattributes)).
+Direct2D also supports the following presentation attributes. These can be specified on any SVG elements, but they only affect the appearance of certain elements as described in the SVG specification (see [Presentation attributes](https://www.w3.org/TR/SVG11/attindex.mdl#presentationattributes)).
 
 -   clip-path
 -   clip-rule

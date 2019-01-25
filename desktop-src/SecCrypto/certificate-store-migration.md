@@ -103,7 +103,7 @@ During a computer upgrade or a computer-to-computer migration, the certificates 
 
  
 
-Other certificate stores created by applications are not migrated by default. Applications that create their own stores are responsible for migration of the stores that they create. To create stores, we recommend that you define a registry key in the application settings and create a store within the registry settings by using the **CERT\_STORE\_PROV\_REG** store provider. For more information about migrating application settings, see the *How To Create a Custom .xml File* topic in the *Using USMT 3.0* guide at [User State Migration Tool 3.0](http://go.microsoft.com/fwlink/p/?linkid=56486). (This resource may not be available in some languages and countries or regions.)
+Other certificate stores created by applications are not migrated by default. Applications that create their own stores are responsible for migration of the stores that they create. To create stores, we recommend that you define a registry key in the application settings and create a store within the registry settings by using the **CERT\_STORE\_PROV\_REG** store provider. For more information about migrating application settings, see the *How To Create a Custom .xml File* topic in the *Using USMT 3.0* guide at [User State Migration Tool 3.0](https://go.microsoft.com/fwlink/p/?linkid=56486). (This resource may not be available in some languages and countries or regions.)
 
  
 

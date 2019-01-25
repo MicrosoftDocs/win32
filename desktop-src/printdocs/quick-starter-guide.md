@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Quick Starter Guide
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 This page is designed to give you a quick start to implement PrintTicket and PrintCapabilities for your application or device driver. Although we encourage that you read the Print Schema specification in full, this page will help give you a jump start in key areas you should pay attention to.
 
@@ -32,7 +32,7 @@ This page is designed to give you a quick start to implement PrintTicket and Pri
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

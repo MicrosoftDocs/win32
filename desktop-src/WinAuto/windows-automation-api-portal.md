@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Microsoft Windows offers two API specifications for user interface accessibility and software test automation: Microsoft Active Accessibility, and Microsoft UI Automation. Microsoft Active Accessibility is the legacy API that was introduced in Windows 95 as a platform add-in. UI Automation is a Windows implementation of the UI Automation specification (see [UI Automation Specification]( http://go.microsoft.com/fwlink/p/?linkid=198404) ).
+Microsoft Windows offers two API specifications for user interface accessibility and software test automation: Microsoft Active Accessibility, and Microsoft UI Automation. Microsoft Active Accessibility is the legacy API that was introduced in Windows 95 as a platform add-in. UI Automation is a Windows implementation of the UI Automation specification (see [UI Automation Specification]( https://go.microsoft.com/fwlink/p/?linkid=198404) ).
 
 By using the Windows Automation API and following accessible design practices, developers can make applications running on Windows more accessible to many people with vision, hearing, or motion disabilities. Also, UI Automation is specifically designed to provide robust functionality for automated testing scenarios.
 
@@ -18,7 +18,7 @@ By using the Windows Automation API and following accessible design practices, d
 
 The Windows Automation API is designed for experienced C/C++ developers. In general, developers need a moderate level of understanding about Component Object Model (COM) objects and interfaces, Unicode, and Windows API programming.
 
-For information about UI Automation for managed code, please see [Accessibility]( http://go.microsoft.com/fwlink/p/?linkid=195587) in the .NET Framework Developer's Guide section of MSDN.
+For information about UI Automation for managed code, please see [Accessibility]( https://go.microsoft.com/fwlink/p/?linkid=195587) in the .NET Framework Developer's Guide section of MSDN.
 
 ## Run-time requirements
 

@@ -177,13 +177,13 @@ For example, to enable the auditing of Filtering Platform Policy Change events y
 
 <dl> <dt>
 
-[Auditpol](http://go.microsoft.com/fwlink/p/?linkid=84473)
+[Auditpol](https://go.microsoft.com/fwlink/p/?linkid=84473)
 </dt> <dt>
 
-[Event Log](http://go.microsoft.com/fwlink/p/?linkid=93460)
+[Event Log](https://go.microsoft.com/fwlink/p/?linkid=93460)
 </dt> <dt>
 
-[Group Policy](http://go.microsoft.com/fwlink/p/?linkid=59182)
+[Group Policy](https://go.microsoft.com/fwlink/p/?linkid=59182)
 </dt> </dl>
 
  

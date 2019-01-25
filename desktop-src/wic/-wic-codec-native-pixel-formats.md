@@ -608,7 +608,7 @@ Custom image formats can use pixel formats that are not natively provided by WIC
 [How to Write a WIC-Enabled CODEC](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[HD Photo Specification 1.0](http://go.microsoft.com/fwlink/p/?linkid=74506)
+[HD Photo Specification 1.0](https://go.microsoft.com/fwlink/p/?linkid=74506)
 </dt> </dl>
 
  

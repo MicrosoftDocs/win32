@@ -25,7 +25,7 @@ A new troubleshooting tool is available for download.
 <span id="WMI_Diagnosis_Utility"></span><span id="wmi_diagnosis_utility"></span><span id="WMI_DIAGNOSIS_UTILITY"></span>WMI Diagnosis Utility
 </dt> <dd>
 
-This utility examines the current state of the WMI service and related components, DCOM settings, and registry settings on the local computer. The utility reports problems and offers suggestions for repair. For more information and to download the utility, see [WMI Diagnosis Utility](Http://go.microsoft.com/fwlink/p/?linkid=84435).
+This utility examines the current state of the WMI service and related components, DCOM settings, and registry settings on the local computer. The utility reports problems and offers suggestions for repair. For more information and to download the utility, see [WMI Diagnosis Utility](https://go.microsoft.com/fwlink/p/?linkid=84435).
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ The [**Win32\_SecurityDescriptorHelper**](https://msdn.microsoft.com/library/aa3
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>User Account Control
 </dt> <dd>
 
-User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](Http://go.microsoft.com/fwlink/p/?linkid=84438).
+User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=84438).
 
 </dd> </dl>
 
@@ -107,14 +107,14 @@ WMI [IP Route Provider](https://msdn.microsoft.com/library/aa391405) and network
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>Changes to remote connections
 </dt> <dd>
 
-Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](Http://go.microsoft.com/fwlink/p/?linkid=84428), [User Account Control](Http://go.microsoft.com/fwlink/p/?linkid=84439), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=84428), [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84439), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 </dd> <dt>
 
 <span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>Changes to [**Win32\_QuickFixEngineering**](https://msdn.microsoft.com/library/aa394391)
 </dt> <dd>
 
-For systems running on the Windows Vista and later operating system, this class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Windows Installer (MSI) or the [Windows Update](http://go.microsoft.com/fwlink/p/?linkid=33483) are not returned by [**Win32\_QuickFixEngineering**](https://msdn.microsoft.com/library/aa394391).
+For systems running on the Windows Vista and later operating system, this class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Windows Installer (MSI) or the [Windows Update](https://go.microsoft.com/fwlink/p/?linkid=33483) are not returned by [**Win32\_QuickFixEngineering**](https://msdn.microsoft.com/library/aa394391).
 
 </dd> <dt>
 

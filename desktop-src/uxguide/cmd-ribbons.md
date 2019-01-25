@@ -28,7 +28,7 @@ Ribbon tabs are composed of groups, which are a labeled set of closely related c
 -   Enhanced tooltips, which concisely explain their associated commands and give the shortcut keys. They may also include graphics and references to Help. Enhanced tooltips reduce the need for command-related Help.
 -   Dialog box launchers, which are buttons at the bottom of some groups that open dialog boxes containing features related to the group.
 
-Ribbons were originally introduced with Microsoft Office 2007. To learn why Office needs to use ribbons and the many problems using a ribbon solves, see [The Story of the Ribbon](http://blogs.msdn.com/jensenh/archive/2008/03/12/the-story-of-the-ribbon.aspx).
+Ribbons were originally introduced with Microsoft Office 2007. To learn why Office needs to use ribbons and the many problems using a ribbon solves, see [The Story of the Ribbon](https://blogs.msdn.com/jensenh/archive/2008/03/12/the-story-of-the-ribbon.aspx).
 
 > [!Note]  
 > Guidelines related to [menus](cmd-menus.md), [toolbars](cmd-toolbars.md), [command buttons](ctrl-command-buttons.md), and [icons](vis-icons.md) are presented in separate articles.
@@ -126,7 +126,7 @@ Rich commands refer to the presentation and interaction of commands used by ribb
 
     These unintelligible icons require labels for rich commands.
 
--   **Sizing.** Instead of uniform sizing, commands are sized relative to their frequency of use and importance. In addition to making the most frequently used commands easier to find and click, it also makes them more [touchable](http://msdn.microsoft.com/library/windows/desktop/cc872774.aspx).
+-   **Sizing.** Instead of uniform sizing, commands are sized relative to their frequency of use and importance. In addition to making the most frequently used commands easier to find and click, it also makes them more [touchable](https://msdn.microsoft.com/library/windows/desktop/cc872774.aspx).
 
     ![screen shot of one large and three small buttons ](images/cmd-ribbons-image5.png)
 

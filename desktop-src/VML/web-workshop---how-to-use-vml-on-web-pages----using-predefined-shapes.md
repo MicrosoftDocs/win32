@@ -46,10 +46,10 @@ ms.date: 05/31/2018
 
 # Using Predefined Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -81,9 +81,9 @@ strokecolor="red" strokeweight="3.5pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/RECT1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/RECT1.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858405) . (Note: The VML specification doesn't have a bookmark for the <rect> element.)
+For more information about this element, see the [VML specification](https://WWW.w3.org/TR/NOTE-VML#-toc416858405) . (Note: The VML specification doesn't have a bookmark for the <rect> element.)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -104,9 +104,9 @@ strokecolor="red" strokeweight="2pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/ROUNDRECT1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/ROUNDRECT1.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858405) .
+For more information about this element, see the [VML specification](https://WWW.w3.org/TR/NOTE-VML#-toc416858405) .
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -126,7 +126,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/line1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/line1.md)
 
 You can draw a vertical or diagonal line by simply specifying different values for the **from** and **to** property attributes, as shown in the following VML representation:
 
@@ -140,9 +140,9 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/Line2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/Line2.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858402) .
+For more information about this element, see the [VML specification](https://WWW.w3.org/TR/NOTE-VML#-toc416858402) .
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -162,9 +162,9 @@ strokecolor="red" strokeweight="2pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/polyline1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/polyline1.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858403) .
+For more information about this element, see the [VML specification](https://WWW.w3.org/TR/NOTE-VML#-toc416858403) .
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -185,9 +185,9 @@ to="300pt,0" strokecolor="red" strokeweight="3pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/curve1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/curve1.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858404) .
+For more information about this element, see the [VML specification](https://WWW.w3.org/TR/NOTE-VML#-toc416858404) .
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -208,7 +208,7 @@ strokecolor="red" strokeweight="2pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/arc1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/arc1.md)
 
 You can change the arc by specifying different **startangle** and **endangle** values, as shown in the following VML representation:
 
@@ -223,7 +223,7 @@ strokecolor="red" strokeweight="2pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/arc2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/arc2.md)
 
 ![arc3.gif (807 bytes)](images/arc3.gif)
 
@@ -236,9 +236,9 @@ strokecolor="red" strokeweight="2pt"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/arc3.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PredefinedShape/arc3.md)
 
-For more information about this element, see the [VML specification](http://WWW.w3.org/TR/NOTE-VML#-toc416858407) .
+For more information about this element, see the [VML specification](https://WWW.w3.org/TR/NOTE-VML#-toc416858407) .
 
 [![back to top](images/top.gif) Back to top](#top)
 

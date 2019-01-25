@@ -23,7 +23,7 @@ api_location:
 The **CIM\_SoftwareFeatureServiceImplementation** class represents an association between a service and how it is implemented in software. A service can be provided by more than one software feature, operating in conjunction with one another. Additionally, a software feature can provide more than one service. When multiple software features are associated with a single service, it is assumed that the elements operate in conjunction to provide the service. If different implementations of a service exist, each implementation would result in individual instantiations of the service object. Individual instantiations would then have associations to the unique implementations.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

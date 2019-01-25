@@ -48,7 +48,7 @@ The WinRM service registers port 5985 with the "wsman" prefix by default. If the
 If both the IIS and the WinRM service share port 80, the following configuration is needed to share the port:
 
 -   The IIS host service needs to enable WinRM on an application under the site.
--   The application name needs to be added to the URI. For example: http://servername/myapplication.
+-   The application name needs to be added to the URI. For example: https://servername/myapplication.
 
 Each IIS host application is stored in the IIS configuration as a web.config file residing in the physical directory corresponding to the configured virtual directory. The following section describes how the IIS configuration system works and how it can be extended to support WinRM IIS host configuration.
 
@@ -60,9 +60,9 @@ For example, there are separate **sections** for sites, logging, caching, and so
 
 For more information about IIS configuration, see the following:
 
--   [IIS 7.0 Settings Schema](http://go.microsoft.com/fwlink/p/?linkid=122234)
--   [http://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx](http://go.microsoft.com/fwlink/p/?linkid=122233)
--   [http://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Deep-Dive-into-IIS7](http://go.microsoft.com/fwlink/p/?linkid=122235)
+-   [IIS 7.0 Settings Schema](https://go.microsoft.com/fwlink/p/?linkid=122234)
+-   [https://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx](https://go.microsoft.com/fwlink/p/?linkid=122233)
+-   [https://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Deep-Dive-into-IIS7](https://go.microsoft.com/fwlink/p/?linkid=122235)
 
 The IIS configuration schema used to validate IIS configuration data is XML files stored in the IIS schema directory (typically, %windir%\\System32\\InetSrv\\Config\\Schema). The IIS configuration schema is not XSD. IIS configuration supports extensibility. New configuration sections can be directly integrated into the IIS configuration system, and the IIS configuration system's settings can be manipulated using the existing administration APIs.
 

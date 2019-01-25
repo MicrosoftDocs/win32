@@ -16,7 +16,7 @@ api_location:
 
 Windows Remote Management is intended to improve hardware management in a network environment with various devices running a variety of operating systems. The entire design of the service is focused on monitoring and managing remote computers by implementing an interoperable standard protocol.
 
-Because the [WinRM Scripting API](winrm-scripting-api.md) and the [WinRM C++ API](winrm-c---api.md) implement and closely model the operations defined for the WS-Management protocol, scripts and applications receive streams of XML in response to requests. Input parameters to method calls must be constructed in XML. You can use the methods of the [MSXML](http://go.microsoft.com/fwlink/p/?linkid=57523) API to display or construct XML strings. For an example, see [Displaying XML Output from WinRM Scripts](displaying-xml-output-from-winrm-scripts.md).
+Because the [WinRM Scripting API](winrm-scripting-api.md) and the [WinRM C++ API](winrm-c---api.md) implement and closely model the operations defined for the WS-Management protocol, scripts and applications receive streams of XML in response to requests. Input parameters to method calls must be constructed in XML. You can use the methods of the [MSXML](https://go.microsoft.com/fwlink/p/?linkid=57523) API to display or construct XML strings. For an example, see [Displaying XML Output from WinRM Scripts](displaying-xml-output-from-winrm-scripts.md).
 
 The following list includes topics that describe how to use WinRM scripting:
 

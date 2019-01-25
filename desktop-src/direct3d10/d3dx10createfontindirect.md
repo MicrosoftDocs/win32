@@ -21,7 +21,7 @@ api_location:
 Creates a font object.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/en-us/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
+> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/en-us/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
 
  
 

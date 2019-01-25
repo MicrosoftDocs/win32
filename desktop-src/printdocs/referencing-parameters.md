@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Referencing Parameters
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A concrete example of an Option that includes a ParameterRef element is the custom media size Option. Note that it references two parameters: PageMediaSizeMediaSizeWidth and PageMediaSizeMediaSizeHeight. Each ParameterRef instance refers to a ParameterDef instance that is defined elsewhere in the PrintCapabilities document. For information about the ParameterDef element, see [ParameterDef](parameterdef.md). For conceptual information about defining parameters, see [ParameterDef and ParameterInit Elements](parameterdef-and-parameterinit-elements.md).
 
@@ -30,7 +30,7 @@ Merely creating a parameterized Option is not sufficient to ensure that the Opti
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

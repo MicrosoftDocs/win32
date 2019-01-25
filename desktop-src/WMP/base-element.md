@@ -61,7 +61,7 @@ A **BASE** element defined as the child of an **ASX** element becomes the defaul
 
 
 ```XML
-<BASE HREF="http://msdn.microsoft.com/" />
+<BASE HREF="https://msdn.microsoft.com/" />
 
 ```
 

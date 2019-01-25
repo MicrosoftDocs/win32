@@ -61,7 +61,7 @@ The device-driver type (see the [**D3D10\_DRIVER\_TYPE**](/windows/desktop/api/D
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A handle to a loaded module that implements a software driver (such as D3D10Ref.dll). To get a handle, call the [GetModuleHandle](http://msdn2.microsoft.com/en-us/library/ms683199.aspx) function.
+A handle to a loaded module that implements a software driver (such as D3D10Ref.dll). To get a handle, call the [GetModuleHandle](https://msdn2.microsoft.com/en-us/library/ms683199.aspx) function.
 
 </dd> <dt>
 

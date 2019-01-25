@@ -63,7 +63,7 @@ A window can process this message in much the same manner as [**WM\_PAINT**](htt
 
 Windows that can be used anywhere in the system, such as controls, should process this message. It is probably worthwhile for other windows to process this message as well because it is relatively easy to implement.
 
-The [AnimateWindow](http://msdn.microsoft.com/en-us/library/ms632669.aspx) function requires that the window being animated implements the **WM\_PRINTCLIENT** message.
+The [AnimateWindow](https://msdn.microsoft.com/en-us/library/ms632669.aspx) function requires that the window being animated implements the **WM\_PRINTCLIENT** message.
 
 ## Requirements
 

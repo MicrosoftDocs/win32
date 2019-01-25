@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Feature
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A Feature element contains a complete list of the Option and Property elements that fully describe a device attribute, job formatting setting, or other relevant characteristic.
 
@@ -128,7 +128,7 @@ The Print Schema Framework also allows Option elements to appear at the same lev
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

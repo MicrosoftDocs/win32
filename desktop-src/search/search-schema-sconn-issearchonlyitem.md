@@ -48,7 +48,7 @@ The value `true` indicates that the search connector location cannot be browsed 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <isSearchOnlyItem>true</isSearchOnlyItem>
     ...

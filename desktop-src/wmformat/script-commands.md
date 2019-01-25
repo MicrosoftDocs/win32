@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # Script Commands
 
-The script commands supported by the Windows Media Format SDK are simple name and value string pairs. For example, a common script command is "URL", which is used by Windows Media Player and other playing applications to open Web pages. The other half of the script pair for "URL" command contains a valid uniform resource locator (URL), like "http://www.adatum.com". No support is provided by the objects of this SDK for any specific commands; your application must include logic to handle whatever commands you use. You can use the commands supported by Windows Media Player to maintain compatibility with most players.
+The script commands supported by the Windows Media Format SDK are simple name and value string pairs. For example, a common script command is "URL", which is used by Windows Media Player and other playing applications to open Web pages. The other half of the script pair for "URL" command contains a valid uniform resource locator (URL), like "https://www.adatum.com". No support is provided by the objects of this SDK for any specific commands; your application must include logic to handle whatever commands you use. You can use the commands supported by Windows Media Player to maintain compatibility with most players.
 
 Script commands can be delivered in one of two ways: in a script stream or in the file header.
 

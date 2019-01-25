@@ -29,7 +29,7 @@ When Windows Media Player is installed in this manner, the Player appends the Se
 
 
 ```C++
-http://www.proseware.com/XML/serviceinfo.asp?OEM=Fabrikam
+https://www.proseware.com/XML/serviceinfo.asp?OEM=Fabrikam
 ```
 
 

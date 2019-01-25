@@ -110,17 +110,17 @@ The remainder of this Windows Property System SDK documentation contains the fol
 
 -   [Property System Code Samples](property-system-code-samples.md)
 
-    Describes the individual property samples included in the Windows Software Development Kit (SDK). Most samples can be downloaded from [MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+    Describes the individual property samples included in the Windows Software Development Kit (SDK). Most samples can be downloaded from [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 ## Additional Resources
 
 -   For information about reusing the In-Memory Property Store, see [Initializing Property Handlers](building-property-handlers-property-handlers.md) and [**PSCreateMemoryPropertyStore**](/windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore).
--   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](http://go.microsoft.com/fwlink/p/?linkid=212834).
+-   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](https://go.microsoft.com/fwlink/p/?linkid=212834).
 -   The relationship between Windows Search and indexing, and how to extend the index, are explained in the following topics in Windows Search:
     -   [Developing Filter Handlers for Windows Search](https://msdn.microsoft.com/en-us/library/Dd940430(v=VS.85).aspx)
     -   [Developing Protocol Handlers for Windows Search](https://msdn.microsoft.com/en-us/library/Bb266531(v=VS.85).aspx)
     -   [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/en-us/library/Bb266532(v=VS.85).aspx)
-    -   For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+    -   For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 ## Related topics
 

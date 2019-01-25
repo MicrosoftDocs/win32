@@ -72,7 +72,7 @@ The following example shows a search scope that includes C:\\FolderA and all its
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <scope>
         <scopeItem>

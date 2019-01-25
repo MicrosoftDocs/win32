@@ -39,7 +39,7 @@ The Locale ID to use when normalizing the data. Any locale may be used as long a
 
 **dwMapFlags**
 
-These flags get passed to [LCMapString](http://go.microsoft.com/fwlink/?linkid=180732) when Unicode data gets normalized to a key, which enables user-defined flags to override the default.
+These flags get passed to [LCMapString](https://go.microsoft.com/fwlink/?linkid=180732) when Unicode data gets normalized to a key, which enables user-defined flags to override the default.
 
 **Windows 2000**:  The only two legal values for **dwFlags** are:
 

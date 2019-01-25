@@ -60,7 +60,7 @@ The following code example illustrates how to declare a Button control, labeled 
 
 
 ```
-<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+<Application xmlns="https://schemas.microsoft.com/windows/2009/Ribbon">
   <Application.Commands>
     <Command Name="cmdExit" LabelTitle="Exit application" />
   </Application.Commands>
@@ -101,7 +101,7 @@ The following image shows UICC added as a Custom Build Step in Visual Studio.
 
 ![screen shot showing uicc.exe added as a custom build step in visual studio.](images/overviews/screenshot-vs-intentcl-custombuildstep.png)
 
-The UICC generates three files: a binary version of the markup (.bml), an ID definition header (.h file) to expose markup elements to the Ribbon host application, and a [resource-definition script](http://go.microsoft.com/fwlink/p/?linkid=155732) (.rc file) to link Ribbon image and string resources to the host application at compile time.
+The UICC generates three files: a binary version of the markup (.bml), an ID definition header (.h file) to expose markup elements to the Ribbon host application, and a [resource-definition script](https://go.microsoft.com/fwlink/p/?linkid=155732) (.rc file) to link Ribbon image and string resources to the host application at compile time.
 
 For more detail on compiling Ribbon framework markup, see [Compiling Ribbon Markup](windowsribbon-intentcl.md).
 
@@ -115,7 +115,7 @@ Once the preliminary UI for a Ribbon application has been designed and implement
 >
 > If the IIDs are defined by the application then the GUIDs specified in UIRibbon.idl must be used.
 >
-> UIRibbon.idl ships as part of the [Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=147890) and can be found at the standard installation path of %ProgramFiles%\\Microsoft SDKs\\Windows\\v7.0\\Include.
+> UIRibbon.idl ships as part of the [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=147890) and can be found at the standard installation path of %ProgramFiles%\\Microsoft SDKs\\Windows\\v7.0\\Include.
 
  
 
@@ -231,7 +231,7 @@ At this point, the markup resource files must be linked to the host application 
 
 
 
-Depending on the compiler and linker being used, the resource-definition script may also require compiling before the Ribbon application can be compiled. The [resource compiler (RC)](http://go.microsoft.com/fwlink/p/?linkid=155730) command line tool that ships with Microsoft Visual Studio and the Windows SDK can be used for this task.
+Depending on the compiler and linker being used, the resource-definition script may also require compiling before the Ribbon application can be compiled. The [resource compiler (RC)](https://go.microsoft.com/fwlink/p/?linkid=155730) command line tool that ships with Microsoft Visual Studio and the Windows SDK can be used for this task.
 
 ### Compile the Application
 
@@ -280,10 +280,10 @@ For an example of a Windows Forms application that implements lightweight manage
 [Declaring Commands and Controls with Ribbon Markup](https://msdn.microsoft.com/library/Dd316913(v=VS.85).aspx)
 </dt> <dt>
 
-[Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233)
+[Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233)
 </dt> <dt>
 
-[Ribbon Design Process](http://go.microsoft.com/fwlink/p/?linkid=129234)
+[Ribbon Design Process](https://go.microsoft.com/fwlink/p/?linkid=129234)
 </dt> </dl>
 
  

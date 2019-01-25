@@ -72,7 +72,7 @@ Namespaces implied by type reflection or specified in WSDL and XSD files are par
 The following XML shows a nameSpace element (with children omitted for brevity).
 
 ``` syntax
-<nameSpace uri="http://www.example.com/namespace">
+<nameSpace uri="https://www.example.com/namespace">
   ...
 </nameSpace>
 ```

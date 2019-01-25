@@ -57,7 +57,7 @@ The ellipses are stored in an STL **list** container:
 
 
 > [!Note]  
-> **shared\_ptr** is a smart-pointer class that was added to C++ in TR1 and formalized in C++0x. Visual Studio 2010 adds support for **shared\_pt**r and other C++0x features. For more information, see [Exploring New C++ and MFC Features in Visual Studio 2010](http://msdn.microsoft.com/magazine/ee336130.aspx) in *MSDN Magazine*. (This resource may not be available in some languages and countries.)
+> **shared\_ptr** is a smart-pointer class that was added to C++ in TR1 and formalized in C++0x. Visual Studio 2010 adds support for **shared\_pt**r and other C++0x features. For more information, see [Exploring New C++ and MFC Features in Visual Studio 2010](https://msdn.microsoft.com/magazine/ee336130.aspx) in *MSDN Magazine*. (This resource may not be available in some languages and countries.)
 
  
 

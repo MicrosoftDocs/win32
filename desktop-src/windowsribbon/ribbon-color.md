@@ -140,7 +140,7 @@ Conversion of HSL (with each component in the range of 0.0 to 1.0) to a Ribbon H
 
 <dl> <dt>
 
-[Color Guidelines](http://go.microsoft.com/fwlink/p/?linkid=153376)
+[Color Guidelines](https://go.microsoft.com/fwlink/p/?linkid=153376)
 </dt> <dt>
 
 [Framework Properties](windowsribbon-reference-properties-framework.md)

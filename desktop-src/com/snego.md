@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Snego
 
-Snego, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_NEGOTIATE, does not actually provide authentication services itself. Instead, it takes a list of authentication services and negotiates a service that will work between the client and server. The authentication parameters are not used by Snego but are passed to the chosen authentication service, which does the actual authentication. Snego was standardized by the Internet Engineering Task Force (IETF) in December 1998, in document [RFC 2478](http://go.microsoft.com/fwlink/p/?linkid=103724).
+Snego, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_NEGOTIATE, does not actually provide authentication services itself. Instead, it takes a list of authentication services and negotiates a service that will work between the client and server. The authentication parameters are not used by Snego but are passed to the chosen authentication service, which does the actual authentication. Snego was standardized by the Internet Engineering Task Force (IETF) in December 1998, in document [RFC 2478](https://go.microsoft.com/fwlink/p/?linkid=103724).
 
 Snego is useful when you don't know what authentication services the remote computer can provide.
 

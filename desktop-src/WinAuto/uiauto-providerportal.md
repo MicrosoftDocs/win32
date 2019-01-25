@@ -32,16 +32,16 @@ This section contains information about creating Microsoft UI Automation provide
 [UI Automation](entry-uiauto-win32.md)
 </dt> <dt>
 
-[UI Automation Simple Provider Sample](http://go.microsoft.com/fwlink/p/?linkid=241454)
+[UI Automation Simple Provider Sample](https://go.microsoft.com/fwlink/p/?linkid=241454)
 </dt> <dt>
 
-[UI Automation Core Window Provider Sample](http://go.microsoft.com/fwlink/p/?linkid=231583)
+[UI Automation Core Window Provider Sample](https://go.microsoft.com/fwlink/p/?linkid=231583)
 </dt> <dt>
 
-[UI Automation Fragment Provider Sample](http://go.microsoft.com/fwlink/p/?linkid=241456)
+[UI Automation Fragment Provider Sample](https://go.microsoft.com/fwlink/p/?linkid=241456)
 </dt> <dt>
 
-[UI Automation Document Content Provider Sample](http://go.microsoft.com/fwlink/p/?linkid=241458)
+[UI Automation Document Content Provider Sample](https://go.microsoft.com/fwlink/p/?linkid=241458)
 </dt> </dl>
 
  

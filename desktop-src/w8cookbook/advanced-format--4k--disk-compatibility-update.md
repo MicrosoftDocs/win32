@@ -47,7 +47,7 @@ One of the problems of introducing this change in the media format is the potent
 
 <dl> **Logical sector:** The unit that is used for logical block addressing for the media. We can also think of it as the smallest unit of write that the storage can accept. This is the  emulation.   
 **Physical sector:** The unit for which read and write operations to the device are completed in a single operation. This is the unit of atomic write.  
-</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="http://msdn.microsoft.com/library/ff560590.aspx">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="http://msdn.microsoft.com/library/ff800831.aspx">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
+</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="https://msdn.microsoft.com/library/ff560590.aspx">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="https://msdn.microsoft.com/library/ff800831.aspx">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
 
 **Initial types of large sector media**
 
@@ -57,7 +57,7 @@ The storage industry is quickly ramping up efforts to transition to this new Adv
 **512-byte emulation (512e):** This media has an emulation layer as discussed in the previous section and exposes 512-bytes as its logical sector size (similar to a regular disk today), but makes its physical sector size info (4 KB) available. The overall issue with this new type of media is that the majority of app and operating systems do not understand the existence of the physical sector size, which can result in a number of issues as will be discussed below.  
 </dl>**Overall Windows support for large sector media**
 
-This table documents the official Microsoft support policy for various media and their resulting reported sector sizes. See this [KB article](http://support.microsoft.com/kb/2510009) for details.
+This table documents the official Microsoft support policy for various media and their resulting reported sector sizes. See this [KB article](https://support.microsoft.com/kb/2510009) for details.
 
 
 
@@ -163,7 +163,7 @@ typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
 
 **Legacy method for Windows 7 and Windows Vista**
 
-Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](http://msdn.microsoft.com/library/ff800831.aspx) on MSDN detailing how an app can query for the physical sector size of the volume.
+Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](https://msdn.microsoft.com/library/ff800831.aspx) on MSDN detailing how an app can query for the physical sector size of the volume.
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking of the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 
@@ -230,19 +230,19 @@ A 4K Native Disk has the  Bytes Per Sector  and  Bytes Per Physical Sector  fiel
 
 ## Resources
 
--   [Windows General Support Statement](http://go.microsoft.com/fwlink/p/?linkid=325443)
--   [Microsoft KB 982018](http://support.microsoft.com/kb/982018)
--   [Microsoft KB 2553708](http://go.microsoft.com/fwlink/p/?LinkId=325447)
--   [Hotfix for Windows 7 and Windows Server 2008 R2](http://go.microsoft.com/fwlink/p/?linkid=325446)
--   [Hotfix for Windows Vista and Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=325447)
--   [HyperV Support Statement](http://go.microsoft.com/fwlink/p/?linkid=325448)
--   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](http://go.microsoft.com/fwlink/p/?linkid=325449)
--   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](http://go.microsoft.com/fwlink/p/?LinkId=325450)
--   [General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure](http://go.microsoft.com/fwlink/p/?LinkId=325460)
--   [Description of the standard terminology used to describe Microsoft software updates](http://go.microsoft.com/fwlink/p/?LinkId=325461)
--   [WDK sample code with details for how to extract the reported storage access alignment info from the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure when making a call to the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](http://go.microsoft.com/fwlink/p/?LinkId=325462)
--   [General information about ImageX Command-Line Options](http://go.microsoft.com/fwlink/p/?LinkId=325463)
--   [Intel Chipset driver requirements to support 4 KB Sector Drives](http://go.microsoft.com/fwlink/p/?LinkId=325464)
+-   [Windows General Support Statement](https://go.microsoft.com/fwlink/p/?linkid=325443)
+-   [Microsoft KB 982018](https://support.microsoft.com/kb/982018)
+-   [Microsoft KB 2553708](https://go.microsoft.com/fwlink/p/?LinkId=325447)
+-   [Hotfix for Windows 7 and Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=325446)
+-   [Hotfix for Windows Vista and Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=325447)
+-   [HyperV Support Statement](https://go.microsoft.com/fwlink/p/?linkid=325448)
+-   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://go.microsoft.com/fwlink/p/?linkid=325449)
+-   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](https://go.microsoft.com/fwlink/p/?LinkId=325450)
+-   [General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure](https://go.microsoft.com/fwlink/p/?LinkId=325460)
+-   [Description of the standard terminology used to describe Microsoft software updates](https://go.microsoft.com/fwlink/p/?LinkId=325461)
+-   [WDK sample code with details for how to extract the reported storage access alignment info from the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure when making a call to the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://go.microsoft.com/fwlink/p/?LinkId=325462)
+-   [General information about ImageX Command-Line Options](https://go.microsoft.com/fwlink/p/?LinkId=325463)
+-   [Intel Chipset driver requirements to support 4 KB Sector Drives](https://go.microsoft.com/fwlink/p/?LinkId=325464)
 
  
 

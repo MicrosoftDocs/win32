@@ -106,7 +106,7 @@ The following example illustrates how to declare a set of images to accommodate 
 
 
 
-If images declared in markup are invalidated at run time for any reason, the host application is queried for new images. When these images are generated and loaded programmatically, the application should attempt to return images that are sized according to the default system icon sizes determined by the [SM\_CXICON system metric](http://go.microsoft.com/fwlink/p/?linkid=136759).
+If images declared in markup are invalidated at run time for any reason, the host application is queried for new images. When these images are generated and loaded programmatically, the application should attempt to return images that are sized according to the default system icon sizes determined by the [SM\_CXICON system metric](https://go.microsoft.com/fwlink/p/?linkid=136759).
 
 > [!Note]  
 > Large images have a size of SM\_CXICON by SM\_CXICON and small images have a size of SM\_CXICON/2 by SM\_CXICON/2.
@@ -200,9 +200,9 @@ WHITE
 
 For more information on the image formats supported by the Ribbon framework, see the following:
 
--   [BITMAPINFOHEADER structure](http://go.microsoft.com/fwlink/p/?linkid=156867) - describes the 32 BPP ARGB pixel format.
--   [CreateDIBSection function](http://go.microsoft.com/fwlink/p/?linkid=156868) - describes how to create a 32 BPP ARGB pixel format image.
--   [LoadImage function](http://go.microsoft.com/fwlink/p/?linkid=156869) - describes how to load a 32 BPP ARGB pixel format image.
+-   [BITMAPINFOHEADER structure](https://go.microsoft.com/fwlink/p/?linkid=156867) - describes the 32 BPP ARGB pixel format.
+-   [CreateDIBSection function](https://go.microsoft.com/fwlink/p/?linkid=156868) - describes how to create a 32 BPP ARGB pixel format image.
+-   [LoadImage function](https://go.microsoft.com/fwlink/p/?linkid=156869) - describes how to load a 32 BPP ARGB pixel format image.
 
 ## Accessibility
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuration Information Not Related to PrintCapabilities
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 In addition to providing selections for the device attributes defined in the PrintCapabilities, the PrintTicket allows additional information to be added by clients in the form of Property elements. The Print Schema defines a number of standard Property instances, and the interface provider is free to introduce private Property instances as well. For example, if members of an organization send most of their print jobs to a central batch facility, they can specify for each job a private Property instance that contains a return address. This Property can make it easier to deliver the completed job can be delivered to the originator.
 
@@ -16,7 +16,7 @@ In addition to providing selections for the device attributes defined in the Pri
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

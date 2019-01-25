@@ -63,7 +63,7 @@ HRESULT GetPackageWriter(
     _In_ LPCWSTR outputFileName,
     _Outptr_ IAppxPackageWriter** writer)
 {
-    const LPCWSTR Sha256AlgorithmUri = L"http://www.w3.org/2001/04/xmlenc#sha256"; 
+    const LPCWSTR Sha256AlgorithmUri = L"https://www.w3.org/2001/04/xmlenc#sha256"; 
     HRESULT hr = S_OK;
     IStream* outputStream = NULL;
     IUri* hashMethod = NULL;
@@ -300,7 +300,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Create app package sample](http://go.microsoft.com/fwlink/p/?linkid=236965)
+[Create app package sample](https://go.microsoft.com/fwlink/p/?linkid=236965)
 </dt> <dt>
 
 **Reference**

@@ -24,7 +24,7 @@ The following table shows examples of bindings.
 | Service      | Binding                                                                                                                                                                                                                     |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | File Service | UNC Name for a share. For example "\\\\MyServer\\MyshareName".                                                                                                                                                              |
-| Web Service  | URL. For example "http://www.fabrikam.com".                                                                                                                                                                                 |
+| Web Service  | URL. For example "https://www.fabrikam.com".                                                                                                                                                                                 |
 | RPC Service  | Remote procedure call (RPC) binding: special encoded information used to connect to the RPC server. RPC bindings can be converted to and from strings with the RPC APIs. For example: "ncacn\_ip\_tcp:server.fabrikam.com". |
 
 

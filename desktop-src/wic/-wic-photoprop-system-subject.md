@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Subject Photo Metadata Policy
 
-The photo metadata policy for the [System.Subject](http://msdn.microsoft.com/en-us/library/bb787576(VS.85).aspx) property.
+The photo metadata policy for the [System.Subject](https://msdn.microsoft.com/en-us/library/bb787576(VS.85).aspx) property.
 
 ### PKEY
 
@@ -120,7 +120,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Subject](http://msdn.microsoft.com/en-us/library/bb787576(VS.85).aspx)
+[System.Subject](https://msdn.microsoft.com/en-us/library/bb787576(VS.85).aspx)
 </dt> </dl>
 
  

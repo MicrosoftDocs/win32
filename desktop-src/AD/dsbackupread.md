@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DsBackupRead function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupRead** function reads a block of data from the current open file, into a buffer. The client application is expected to call this function repeatedly until the entire backup file has been received. The [**DsBackupOpenFile**](dsbackupopenfile.md) function provides the entire size of the backup file.
 

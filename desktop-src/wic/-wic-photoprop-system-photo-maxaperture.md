@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.MaxAperture Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.MaxAperture](http://msdn.microsoft.com/en-us/library/bb760495(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.MaxAperture](https://msdn.microsoft.com/en-us/library/bb760495(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ This value is generated from System.Photo.MaxApertureNumerator and System.Photo.
 
 <dl> <dt>
 
-[System.Photo.MaxAperture](http://msdn.microsoft.com/en-us/library/bb760495(VS.85).aspx)
+[System.Photo.MaxAperture](https://msdn.microsoft.com/en-us/library/bb760495(VS.85).aspx)
 </dt> </dl>
 
  

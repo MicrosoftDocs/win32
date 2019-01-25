@@ -303,7 +303,7 @@ The portion of the Web view below the banner is used to present detailed informa
 
 
 
-Most of the work of collecting the information is handled by a [folder information script](#retrieving-and-displaying-folder-information) that is discussed later in the chapter. It displays the information by assigning the text to [TextBlock.innerHTML](http://msdn.microsoft.com/library/ms533897(VS.85).aspx).
+Most of the work of collecting the information is handled by a [folder information script](#retrieving-and-displaying-folder-information) that is discussed later in the chapter. It displays the information by assigning the text to [TextBlock.innerHTML](https://msdn.microsoft.com/library/ms533897(VS.85).aspx).
 
 You can easily customize the information display by modifying these elements or including additional ones. Anything that you can put on a webpage can be used. For example, to display a link to your website, you can add an anchor element after the text block in Generic.htt.
 
@@ -314,7 +314,7 @@ You can easily customize the information display by modifying these elements or 
         <span id="TextBlock">
         </span>
         <span>
-        <p> Click on <a href="http://your.address"></a>
+        <p> Click on <a href="https://your.address"></a>
         </span>
 </div>
                     
@@ -360,7 +360,7 @@ As a Web view is resized, the width of the Info region will change to maintain t
 
 ### Loading and Initializing the Web View
 
-When a Web view is loaded, the layout needs to be adjusted to fit the available display area. Because no item has been selected yet, Web views normally display some default information that applies to the whole folder. To handle initialization, the <BODY> tag for Generic.htt detects the [onload](http://msdn.microsoft.com/library/ms531409(VS.85).aspx) event and calls the **Init** function.
+When a Web view is loaded, the layout needs to be adjusted to fit the available display area. Because no item has been selected yet, Web views normally display some default information that applies to the whole folder. To handle initialization, the <BODY> tag for Generic.htt detects the [onload](https://msdn.microsoft.com/library/ms531409(VS.85).aspx) event and calls the **Init** function.
 
 
 ```
@@ -384,7 +384,7 @@ function Init() {
 
 
 
-**Init** binds [FixSize](#adjusting-the-layout-by-using-the-fixsize-function) to the [window.onresize](http://msdn.microsoft.com/library/ms536959(VS.85).aspx) event so that it will be called whenever the Web view display area changes. It then runs FixSize to set the initial layout and assigns L\_Intro\_Text to the Info region. L\_Intro\_Text is a block of introductory text that is defined in the style sheet section.
+**Init** binds [FixSize](#adjusting-the-layout-by-using-the-fixsize-function) to the [window.onresize](https://msdn.microsoft.com/library/ms536959(VS.85).aspx) event so that it will be called whenever the Web view display area changes. It then runs FixSize to set the initial layout and assigns L\_Intro\_Text to the Info region. L\_Intro\_Text is a block of introductory text that is defined in the style sheet section.
 
 
 ```
@@ -446,7 +446,7 @@ else {
 
 
 
-Generic.htt uses 400 pixels as the dividing line between narrow and wide displays. If the Web view is too narrow, [FixSize](#adjusting-the-layout-by-using-the-fixsize-function) hides the Info region and modifies the FileList [pixelLeft](http://msdn.microsoft.com/library/ms534336(VS.85).aspx) property so that it fills the entire region below the banner.
+Generic.htt uses 400 pixels as the dividing line between narrow and wide displays. If the Web view is too narrow, [FixSize](#adjusting-the-layout-by-using-the-fixsize-function) hides the Info region and modifies the FileList [pixelLeft](https://msdn.microsoft.com/library/ms534336(VS.85).aspx) property so that it fills the entire region below the banner.
 
 The final few lines of [FixSize](#adjusting-the-layout-by-using-the-fixsize-function) adjust several layout properties based on the results of the preceding code. The width of the FileList region is adjusted so that it exactly fills the portion of the Web view not occupied by the Info region. The height of the Info region is sized to fit between the banner and the bottom of the Web view.
 
@@ -506,7 +506,7 @@ When a user selects an item, the FileList object fires a [SelectionChanged](#ret
 
 The script uses two FileList properties, [**FileList.FocusedItem**](https://msdn.microsoft.com/library/windows/desktop/bb774020)and [**FileList.Folder**](https://msdn.microsoft.com/library/windows/desktop/bb774022) to obtain information about the item. **FileList.FocusedItem** identifies the selected item, with the item's name given by **FileList.FocusedItem.Name**. **FileList.Folder** is actually a pointer to a [**Folder**](https://msdn.microsoft.com/library/windows/desktop/bb787868) object. The Folder object's [**GetDetailsOf**](https://msdn.microsoft.com/library/windows/desktop/bb787870) method is used to retrieve the remaining information about the item.
 
-All the information is concatenated into a single text string, separated by <BR> tags for readability. The text is then displayed by assigning it to [TextBlock.innerHTML](http://msdn.microsoft.com/library/ms533897(VS.85).aspx).
+All the information is concatenated into a single text string, separated by <BR> tags for readability. The text is then displayed by assigning it to [TextBlock.innerHTML](https://msdn.microsoft.com/library/ms533897(VS.85).aspx).
 
 ## Summary
 

@@ -101,7 +101,7 @@ Notification queries that request notification of the creation of a resource and
 
 `SELECT * FROM __InstanceCreationEvent WITHIN PollingInterval WHERE TargetInstance ISA 'Win32_Process' and TargetInstance.Name = 'notepad.exe'`
 
-For a larger discussion of using **\_\_InstanceCreationEvent** as a way to monitor file systems, see [WMI and File System Monitoring](http://www.codeproject.com/Articles/42212/WMI-and-File-System-Monitoring) on CodeProject.
+For a larger discussion of using **\_\_InstanceCreationEvent** as a way to monitor file systems, see [WMI and File System Monitoring](https://www.codeproject.com/Articles/42212/WMI-and-File-System-Monitoring) on CodeProject.
 
 ## Examples
 

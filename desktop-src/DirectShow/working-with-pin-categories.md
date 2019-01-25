@@ -135,7 +135,7 @@ if (SUCCEEDED(hr))
 
 
 
-For more information about property sets, refer to the [Windows Driver Kit (WDK)](http://go.microsoft.com/fwlink/p/?linkid=181442) documentation.
+For more information about property sets, refer to the [Windows Driver Kit (WDK)](https://go.microsoft.com/fwlink/p/?linkid=181442) documentation.
 
 ## Related topics
 

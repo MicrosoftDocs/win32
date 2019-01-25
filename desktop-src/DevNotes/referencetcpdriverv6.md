@@ -49,7 +49,7 @@ If the function succeeds, it returns **STATUS\_SUCCESS**. If it fails, it will r
 
 This function can be called only from kernel mode. The caller must decrement the reference count by calling the **ObDereferenceObject** function when it has finished with the object.
 
-This function is implemented in Drvref.lib, which is available for download. See [Windows Network Driver Reference API Library](Http://go.microsoft.com/fwlink/p/?linkid=85310).
+This function is implemented in Drvref.lib, which is available for download. See [Windows Network Driver Reference API Library](https://go.microsoft.com/fwlink/p/?linkid=85310).
 
 ## Requirements
 

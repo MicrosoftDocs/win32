@@ -25,7 +25,7 @@ api_location:
 The **CIM\_BasedOn** class represents an association that describes how storage extents can be assembled from lower-level extents. For example, physical extents include protected space extents. Thus, volume sets are assembled from one or more physical or protected space extents. Cache memory can be defined independently and realized in a physical element, or it can be based on volatile or non-volatile storage extents.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

@@ -57,7 +57,7 @@ To change the previous example to upload the data to a server application, add t
 
 ```JScript
 VirtualDir.BITSServerNotificationType = 1;
-VirtualDir.BITSServerNotificationURL = "http://myserver/mypath/myasp.asp";
+VirtualDir.BITSServerNotificationURL = "https://myserver/mypath/myasp.asp";
 ```
 
 

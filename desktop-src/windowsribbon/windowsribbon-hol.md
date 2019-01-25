@@ -18,7 +18,7 @@ This tutorial and accompanying code samples are intended for C++ developers who 
 
 ## Usage
 
-The [Ribbon Development Introductory Tutorial](http://go.microsoft.com/fwlink/p/?linkid=137046) sample can be downloaded as a standalone Microsoft Visual Studio project from the [Microsoft Download Center](http://go.microsoft.com/fwlink/p/?linkid=147893).
+The [Ribbon Development Introductory Tutorial](https://go.microsoft.com/fwlink/p/?linkid=137046) sample can be downloaded as a standalone Microsoft Visual Studio project from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=147893).
 
 ### Building the Sample
 
@@ -38,7 +38,7 @@ To run the compiled sample with debugging in Visual Studio, press F5.
 
 ## Support
 
-The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=156613) is available to discuss topics and ask questions related to developing Windows Ribbon applications.
+The [Windows Ribbon Development Forum](https://go.microsoft.com/fwlink/p/?linkid=156613) is available to discuss topics and ask questions related to developing Windows Ribbon applications.
 
 ## Minimum Requirements
 
@@ -46,8 +46,8 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
 
 |                          |                                                                                                                                                                          |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
-| Minimum supported server | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
+| Minimum supported client | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
+| Minimum supported server | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
 | Windows SDK              | 7.0                                                                                                                                                                      |
 | Visual Studio            | 2005                                                                                                                                                                     |
 | Header and IDL files     | uiribbon.h, uiribbon.idl                                                                                                                                                 |
@@ -57,7 +57,7 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
  
 
 > [!Note]  
-> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
+> The [Platform Update for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
 
  
 

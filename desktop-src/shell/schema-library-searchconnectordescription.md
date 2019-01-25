@@ -15,7 +15,7 @@ The <searchConnectorDescription> element is the top level container element of a
 ``` syntax
 <!-- searchConnectorDescription -->
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
    <xs:complexType name="searchConnectorDescriptionType">
       <xs:all>
          <xs:element name="isSearchOnlyItem" type="xs:boolean" default="false" minOccurs="0"/>

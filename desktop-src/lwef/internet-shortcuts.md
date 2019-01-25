@@ -34,29 +34,29 @@ You can create an Internet shortcut by using a WebBrowser control or with the UR
 
 If your application hosts a WebBrowser control, you can use the Internet shortcut object to create shortcuts in the following way.
 
-1.  Create an instance of the Internet shortcut object with [CoCreateInstance](http://msdn.microsoft.com/library/ms686615(VS.85).aspx), using a class identifier (CLSID) of CLSID\_InternetShortcut.
-2.  Pass the pointer to the WebBrowser's [IUnknown](http://msdn.microsoft.com/library/ms680509(VS.85).aspx) interface to the Internet shortcut object with [IObjectWithSite::SetSite](http://msdn.microsoft.com/library/ms683869(VS.85).aspx).
-3.  Call the Internet shortcut object's [IPersistFile::Save](http://msdn.microsoft.com/library/ms693701(VS.85).aspx) method when you want to create a shortcut to the page being viewed by the WebBrowser control.
+1.  Create an instance of the Internet shortcut object with [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(VS.85).aspx), using a class identifier (CLSID) of CLSID\_InternetShortcut.
+2.  Pass the pointer to the WebBrowser's [IUnknown](https://msdn.microsoft.com/library/ms680509(VS.85).aspx) interface to the Internet shortcut object with [IObjectWithSite::SetSite](https://msdn.microsoft.com/library/ms683869(VS.85).aspx).
+3.  Call the Internet shortcut object's [IPersistFile::Save](https://msdn.microsoft.com/library/ms693701(VS.85).aspx) method when you want to create a shortcut to the page being viewed by the WebBrowser control.
 
-A shortcut will be created in the location specified in [IPersistFile::Save](http://msdn.microsoft.com/library/ms693701(VS.85).aspx). This location enables the WebBrowser control to restore its state, which includes the task of loading of the correct documents into framesets.
+A shortcut will be created in the location specified in [IPersistFile::Save](https://msdn.microsoft.com/library/ms693701(VS.85).aspx). This location enables the WebBrowser control to restore its state, which includes the task of loading of the correct documents into framesets.
 
 ### Creating an Internet Shortcut from a URL
 
 You can also create an Internet shortcut if you have the URL of the page to which you want to link.
 
-1.  Create an instance of the Internet shortcut object with [CoCreateInstance](http://msdn.microsoft.com/library/ms686615(VS.85).aspx), using a CLSID of CLSID\_InternetShortcut.
-2.  Use the [IUniformResourceLocator::SetURL](http://msdn.microsoft.com/library/dd565676(VS.85).aspx) method to set the URL in the shortcut.
-3.  Use the [IPersistFile::Save](http://msdn.microsoft.com/library/ms693701(VS.85).aspx) method to save the shortcut file to a desired location.
+1.  Create an instance of the Internet shortcut object with [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(VS.85).aspx), using a CLSID of CLSID\_InternetShortcut.
+2.  Use the [IUniformResourceLocator::SetURL](https://msdn.microsoft.com/library/dd565676(VS.85).aspx) method to set the URL in the shortcut.
+3.  Use the [IPersistFile::Save](https://msdn.microsoft.com/library/ms693701(VS.85).aspx) method to save the shortcut file to a desired location.
 
 ## Accessing Property Storage
 
-The Internet shortcut object contains several properties that you can access through the object's [IPropertySetStorage](http://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface with the following procedure.
+The Internet shortcut object contains several properties that you can access through the object's [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface with the following procedure.
 
-1.  Get the [IPropertySetStorage](http://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [QueryInterface](http://msdn.microsoft.com/library/ms682521(VS.85).aspx) with IID\_IPropertySetStorage.
-2.  Access the Internet shortcut property storage set by calling [IPropertySetStorage::Open](http://msdn.microsoft.com/library/Aa379965(VS.85).aspx) with FMTID\_Intshcut or FMTID\_InternetSite to obtain the [IPropertyStorage](http://msdn.microsoft.com/library/Aa379968(VS.85).aspx) interface.
-3.  Read the property storage information with [IPropertyStorage::ReadMultiple](http://msdn.microsoft.com/library/Aa379975(VS.85).aspx) by passing the appropriate property ID.
+1.  Get the [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [QueryInterface](https://msdn.microsoft.com/library/ms682521(VS.85).aspx) with IID\_IPropertySetStorage.
+2.  Access the Internet shortcut property storage set by calling [IPropertySetStorage::Open](https://msdn.microsoft.com/library/Aa379965(VS.85).aspx) with FMTID\_Intshcut or FMTID\_InternetSite to obtain the [IPropertyStorage](https://msdn.microsoft.com/library/Aa379968(VS.85).aspx) interface.
+3.  Read the property storage information with [IPropertyStorage::ReadMultiple](https://msdn.microsoft.com/library/Aa379975(VS.85).aspx) by passing the appropriate property ID.
 
-With [version 4.70 or higher](https://msdn.microsoft.com/library/windows/desktop/bb776779) of Shell32.dll, you can also retrieve the [IPropertySetStorage](http://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [**IShellFolder::BindToStorage**](https://msdn.microsoft.com/library/windows/desktop/bb775061) with the *pidl* parameter set to the .URL file and the *riid* parameter set to IID\_IPropertySetStorage.
+With [version 4.70 or higher](https://msdn.microsoft.com/library/windows/desktop/bb776779) of Shell32.dll, you can also retrieve the [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [**IShellFolder::BindToStorage**](https://msdn.microsoft.com/library/windows/desktop/bb775061) with the *pidl* parameter set to the .URL file and the *riid* parameter set to IID\_IPropertySetStorage.
 
 The following property IDs can be requested for FMTID\_Intshcut.
 
@@ -148,12 +148,12 @@ The Internet shortcut object exposes a number of interfaces.
 
 ### OLE interfaces
 
--   [IDataObject](http://msdn.microsoft.com/library/ms688421(VS.85).aspx)
--   [IPersistFile](http://msdn.microsoft.com/library/ms687223(VS.85).aspx)
--   [IPersistStream](http://msdn.microsoft.com/library/ms690091(VS.85).aspx)
--   [IOleCommandTarget](http://msdn.microsoft.com/library/ms683797(VS.85).aspx)
--   [IPropertySetStorage](http://msdn.microsoft.com/library/Aa379840(VS.85).aspx)
--   [IObjectWithSite](http://msdn.microsoft.com/library/ms693765(VS.85).aspx)
+-   [IDataObject](https://msdn.microsoft.com/library/ms688421(VS.85).aspx)
+-   [IPersistFile](https://msdn.microsoft.com/library/ms687223(VS.85).aspx)
+-   [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx)
+-   [IOleCommandTarget](https://msdn.microsoft.com/library/ms683797(VS.85).aspx)
+-   [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx)
+-   [IObjectWithSite](https://msdn.microsoft.com/library/ms693765(VS.85).aspx)
 
 ### Shell interfaces
 

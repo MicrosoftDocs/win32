@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageMediaSizeMediaSizeWidth
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Specifies the dimension MediaSizeWidth direction for the Custom MediaSize option.
 
@@ -84,7 +84,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

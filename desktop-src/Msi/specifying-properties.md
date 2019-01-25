@@ -28,7 +28,7 @@ Use your database editor to open MNP2000.msi and enter the following data into t
 
 | Property                                         | Value                                     |
 |--------------------------------------------------|-------------------------------------------|
-| [**ARPHELPLINK**](arphelplink.md)               | http://www.microsoft.com/management       |
+| [**ARPHELPLINK**](arphelplink.md)               | https://www.microsoft.com/management       |
 | BannerBitmap                                     | bannrbmp                                  |
 | ButtonText\_Back                                 | < &Back                                |
 | ButtonText\_Browse                               | Br&owse                                   |

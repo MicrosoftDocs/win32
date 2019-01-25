@@ -72,8 +72,8 @@ This section shows how to create a Web application that uses Silverlight to capt
 Before you begin, you must perform the following steps on your Windows Server 2008 R2 server.
 
 -   Install Visual Studio 2008.
--   Install Service Pack 1 for Visual Studio 2008. This update is available [here](http://go.microsoft.com/fwlink/p/?linkid=155681).
--   Install Silverlight tools for Visual Studio. This is available [here](http://go.microsoft.com/fwlink/p/?linkid=155682).
+-   Install Service Pack 1 for Visual Studio 2008. This update is available [here](https://go.microsoft.com/fwlink/p/?linkid=155681).
+-   Install Silverlight tools for Visual Studio. This is available [here](https://go.microsoft.com/fwlink/p/?linkid=155682).
 
 After you have installed these applications and updates, you are ready to create your server-side recognition Web application.
 
@@ -286,8 +286,8 @@ Now that you have a class that collects ink, you will need to update the XAML in
 
 ```XML
 <UserControl x:Class="InkRecognition.Page"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml">
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

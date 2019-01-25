@@ -60,7 +60,7 @@ Now, create a service host and open it for communication.
 
 ``` syntax
 WS_SERVICE_ENDPOINT serviceEndpoint = {0};
-serviceEndpoint.uri.chars = L"http://+:80/example"; // address given as uri
+serviceEndpoint.uri.chars = L"https://+:80/example"; // address given as uri
 serviceEndpoint.binding.channelBinding =  WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
 serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
 serviceEndpoint.uri.length = (ULONG)wcslen(serviceEndpoint.uri.chars);

@@ -129,7 +129,7 @@ A [**ResultCodes**](/windows/desktop/api/NapTypes/ns-naptypes-tagresultcodes) st
 
 **case(sohAttributeTypeTimeOfLastUpdate, sohAttributeTypeSoHGenerationTime)**
 
-A [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains the time of the last [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) update or the **SoH** generation time.
+A [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains the time of the last [**SoH**](/windows/desktop/api/NapTypes/ns-naptypes-tagsoh) update or the **SoH** generation time.
 
 </dd> <dt>
 

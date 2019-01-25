@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintTicket Syntax and Schema
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 PrintTickets are expressed in the syntax of the XML-based Print Schema Framework. Therefore, the reader should review the [Summary of Element Types](summary-of-element-types.md) for the required syntax.
 
@@ -18,7 +18,7 @@ The PrintTicket Schema closely parallels the Print Schema Framework in terms of 
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

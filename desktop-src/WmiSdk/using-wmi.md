@@ -28,7 +28,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
 
 **To obtain data from WMI by writing a script or application**
 
-1.  Decide which language to use. For more information about scripting, see [Creating a WMI Script](creating-a-wmi-script.md). For more information about C++, see [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md). For using more information about C# or WMI .NET, see [WMI .NET Overview](Http://go.microsoft.com/fwlink/p/?linkid=84385).
+1.  Decide which language to use. For more information about scripting, see [Creating a WMI Script](creating-a-wmi-script.md). For more information about C++, see [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md). For using more information about C# or WMI .NET, see [WMI .NET Overview](https://go.microsoft.com/fwlink/p/?linkid=84385).
 
     You can view or manipulate WMI data in many languages. The following table lists the topics that describe how to use the scripting and application languages to obtain data.
 
@@ -48,11 +48,11 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     <tbody>
     <tr class="odd">
     <td>Scripts written in Microsoft ActiveX script hosting, including Visual Basic Scripting Edition (VBScript) and Perl<br/></td>
-    <td><a href="scripting-api-for-wmi">Scripting API for WMI</a>.<br/> Start with [Creating a WMI Script](creating-a-wmi-script.md).<br/> For script code examples, see <a href=""></a>[WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md) and the TechNet <a href="http://go.microsoft.com/fwlink/p/?linkid=46710">ScriptCenter</a> Script Repository.<br/></td>
+    <td><a href="scripting-api-for-wmi">Scripting API for WMI</a>.<br/> Start with [Creating a WMI Script](creating-a-wmi-script.md).<br/> For script code examples, see <a href=""></a>[WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md) and the TechNet <a href="https://go.microsoft.com/fwlink/p/?linkid=46710">ScriptCenter</a> Script Repository.<br/></td>
     </tr>
     <tr class="even">
     <td>Windows PowerShell<br/></td>
-    <td><a href="http://go.microsoft.com/fwlink/p/?linkid=113440">Getting Started with Windows PowerShell</a><br/> WMI PowerShell Cmdlets, such as <a href="http://go.microsoft.com/fwlink/p/?linkid=153476">Get-WmiObject</a>.<br/></td>
+    <td><a href="https://go.microsoft.com/fwlink/p/?linkid=113440">Getting Started with Windows PowerShell</a><br/> WMI PowerShell Cmdlets, such as <a href="https://go.microsoft.com/fwlink/p/?linkid=153476">Get-WmiObject</a>.<br/></td>
     </tr>
     <tr class="odd">
     <td>Visual Basic applications<br/></td>
@@ -71,7 +71,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     <td>Classes in the <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
     <blockquote>
     [!Note]<br />
-    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=98072">WMI .NET Overview</a>.)
+    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=98072">WMI .NET Overview</a>.)
     </blockquote>
     <br/></td>
     </tr>
@@ -130,7 +130,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     -   Using the WMI ATL Wizard in Visual Studio.
 
-        This approach creates an unmanaged COM provider. For more information, see [Adding a WMI Instance Provider](Http://go.microsoft.com/fwlink/p/?linkid=84372) and [Adding a WMI Event Provider](Http://go.microsoft.com/fwlink/p/?linkid=84371).
+        This approach creates an unmanaged COM provider. For more information, see [Adding a WMI Instance Provider](https://go.microsoft.com/fwlink/p/?linkid=84372) and [Adding a WMI Event Provider](https://go.microsoft.com/fwlink/p/?linkid=84371).
 
     -   Using COM directly in any integrated development environment.
 
@@ -138,7 +138,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     -   Using WMI in the .NET Framework to create a managed code provider.
 
-        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](https://msdn.microsoft.com/library/aa394388). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](Http://go.microsoft.com/fwlink/p/?linkid=84306).
+        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](https://msdn.microsoft.com/library/aa394388). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](https://go.microsoft.com/fwlink/p/?linkid=84306).
 
     -   Using the [provider framework classes](wmi-c-classes.md) is not recommended.
 
@@ -150,7 +150,7 @@ The following procedure describes how to supply data to WMI by writing a provide
     |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
     | COM provider in the same process as WMI<br/>            | [Providing Data to WMI](providing-data-to-wmi.md)<br/>                                           |
     | COM decoupled provider<br/>                             | [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md)<br/> |
-    | .NET Framework provider in C# or Visual Basic.NET<br/> | [Managing Applications Using WMI](Http://go.microsoft.com/fwlink/p/?linkid=84306)<br/>            |
+    | .NET Framework provider in C# or Visual Basic.NET<br/> | [Managing Applications Using WMI](https://go.microsoft.com/fwlink/p/?linkid=84306)<br/>            |
 
     
 

@@ -84,7 +84,7 @@ The following example adds three media objects to the Windows Media Player media
 
 ```CSharp
 // Adding a media object using a website.
-player.mediaCollection.add("http://www.proseware.com/Media/Laure.wma");
+player.mediaCollection.add("https://www.proseware.com/Media/Laure.wma");
 
 // Adding a media object from a local network.
 // Either use the @ symbol to denote a quoted string literal or add additional

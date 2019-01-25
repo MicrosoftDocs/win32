@@ -69,8 +69,8 @@ Recommended foundational knowledge:
 
 |                                        |                                                                                                                                                                          |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client               | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
-| Minimum supported server               | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
+| Minimum supported client               | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
+| Minimum supported server               | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
 | Windows Software Development Kit (SDK) | 7.0                                                                                                                                                                      |
 | Header and IDL files                   | uiribbon.h, uiribbon.idl                                                                                                                                                 |
 
@@ -79,19 +79,19 @@ Recommended foundational knowledge:
  
 
 > [!Note]  
-> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
+> The [Platform Update for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
 
  
 
 ## See Also
 
-[Component Object Model (COM)](http://go.microsoft.com/fwlink/p/?linkid=161229)
+[Component Object Model (COM)](https://go.microsoft.com/fwlink/p/?linkid=161229)
 
 
-[Windows API](http://go.microsoft.com/fwlink/p/?linkid=161230)
+[Windows API](https://go.microsoft.com/fwlink/p/?linkid=161230)
 
 
-[XAML](http://go.microsoft.com/fwlink/p/?linkid=129166)
+[XAML](https://go.microsoft.com/fwlink/p/?linkid=129166)
 
 
  

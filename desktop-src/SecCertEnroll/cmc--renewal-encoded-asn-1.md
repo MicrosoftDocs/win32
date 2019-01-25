@@ -404,7 +404,7 @@ The configuration specifies the type of request (CMC) and the serial number of t
 0671:          |           |        |              |        |                 |  43 6c 61 73 73 3d 63 52  4c 44 69 73 74 72 69 62  ; Class=cRLDistrib
 0681:          |           |        |              |        |                 |  75 74 69 6f 6e 50 6f 69  6e 74                    ; utionPoint
 068b:          |           |        |              |        |                 86 67 ; CONTEXT_SPECIFIC[6] (67 Bytes)
-068d:          |           |        |              |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+068d:          |           |        |              |        |                    68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 069d:          |           |        |              |        |                    6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 06ad:          |           |        |              |        |                    69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 06bd:          |           |        |              |        |                    74 45 6e 72 6f 6c 6c 2f  4a 44 4f 4d 43 53 43 25  ; tEnroll/JDOMCSC%
@@ -441,7 +441,7 @@ The configuration specifies the type of request (CMC) and the serial number of t
 07f3:          |           |        |              |        |           |  2b 06 01 05 05 07 30 02
                |           |        |              |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
 07fb:          |           |        |              |        |           86 81 8d    ; CONTEXT_SPECIFIC[6] (8d Bytes)
-07fe:          |           |        |              |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; http://jaytest7.
+07fe:          |           |        |              |        |              68 74 74 70 3a 2f 2f 6a  61 79 74 65 73 74 37 2e  ; https://jaytest7.
 080e:          |           |        |              |        |              6a 64 6f 6d 63 73 63 2e  6e 74 74 65 73 74 2e 6d  ; jdomcsc.nttest.m
 081e:          |           |        |              |        |              69 63 72 6f 73 6f 66 74  2e 63 6f 6d 2f 43 65 72  ; icrosoft.com/Cer
 082e:          |           |        |              |        |              74 45 6e 72 6f 6c 6c 2f  4a 41 59 54 45 53 54 37  ; tEnroll/JAYTEST7

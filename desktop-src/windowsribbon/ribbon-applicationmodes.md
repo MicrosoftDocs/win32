@@ -188,7 +188,7 @@ This example demonstrates the following:
 -   The default mode can be removed. Although in RibbonApp the default mode (mode 0) is never removed, it can be removed with the following call: `g_pFramework->SetModes(UI_MAKEAPPMODE(ADVANCED_MODE))`, exposing only the advanced commands in the UI.
 
 > [!Note]  
-> When the modes of an application are reconfigured, the Ribbon will attempt to preserve the previously selected tab in the UI. If the new set of modes no longer contains the tab that was selected before the call, the Ribbon will select the tab in its layout that is closest to the [Application Menu](windowsribbon-controls-applicationmenu.md). This tab is meant to contain the commands that are most relevant to the user. For more information, see [Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233).
+> When the modes of an application are reconfigured, the Ribbon will attempt to preserve the previously selected tab in the UI. If the new set of modes no longer contains the tab that was selected before the call, the Ribbon will select the tab in its layout that is closest to the [Application Menu](windowsribbon-controls-applicationmenu.md). This tab is meant to contain the commands that are most relevant to the user. For more information, see [Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233).
 
  
 
@@ -204,7 +204,7 @@ Not all areas of the Ribbon UI are affected by application modes. For example, i
 
 <dl> <dt>
 
-[Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233)
+[Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233)
 </dt> <dt>
 
 [Displaying Contextual Tabs](ribbon-contextualtabs.md)

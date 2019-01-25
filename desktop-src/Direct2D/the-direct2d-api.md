@@ -76,7 +76,7 @@ The Direct2D API is defined by the following header files.
 
 To use Direct2D, your application should include the d2d1.h header file.
 
-To compile a Direct2D application, add d2d1.lib to the list of libraries. You can find d2d1.h and d2d1.lib in [Windows Software Development Kit (SDK) for Windows 7](http://go.microsoft.com/fwlink/p/?linkid=154879).
+To compile a Direct2D application, add d2d1.lib to the list of libraries. You can find d2d1.h and d2d1.lib in [Windows Software Development Kit (SDK) for Windows 7](https://go.microsoft.com/fwlink/p/?linkid=154879).
 
 The following sections describe some of the common interfaces provided by the Direct2D API.
 
@@ -207,7 +207,7 @@ You do not use a factory or a render target to instantiate Direct2D primitives. 
 [Direct2D Reference](reference.md)
 </dt> <dt>
 
-[DirectWrite Hello World Sample](http://go.microsoft.com/fwlink/?LinkID=624680)
+[DirectWrite Hello World Sample](https://go.microsoft.com/fwlink/?LinkID=624680)
 </dt> <dt>
 
 [Introducing DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd371554)

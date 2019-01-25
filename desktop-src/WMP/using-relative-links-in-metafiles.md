@@ -20,7 +20,7 @@ api_location:
 
 # Using Relative Links in Metafiles
 
-Relative links are a fully supported feature of Windows Media metafiles. You can use relative links in metafiles much like you use them in HTML documents. The use of relative links enables you to create metafiles that are portable, meaning you can copy or move an entire directory structure to another server without updating the paths to graphic files used as banners or the **HREF** attributes of **MOREINFO** elements (if they reference files on the same web server as the stored metafile). Relative links work, in any application that supports them, because the parts of the URL not included in the **HREF** attribute of an element are included in the URL sent by the application to the server when that URL is requested. This means that the protocol (such as http://), the server name, and the virtual directory in which the file containing the relative link is located are all included in the URL that is sent to the server. If the media file, or URL you link to using a relative link does not reside on the same server as the metafile, the relative link is not valid.
+Relative links are a fully supported feature of Windows Media metafiles. You can use relative links in metafiles much like you use them in HTML documents. The use of relative links enables you to create metafiles that are portable, meaning you can copy or move an entire directory structure to another server without updating the paths to graphic files used as banners or the **HREF** attributes of **MOREINFO** elements (if they reference files on the same web server as the stored metafile). Relative links work, in any application that supports them, because the parts of the URL not included in the **HREF** attribute of an element are included in the URL sent by the application to the server when that URL is requested. This means that the protocol (such as https://), the server name, and the virtual directory in which the file containing the relative link is located are all included in the URL that is sent to the server. If the media file, or URL you link to using a relative link does not reside on the same server as the metafile, the relative link is not valid.
 
 > [!Note]  
 > This information on relative links is correct only when using a link to metafiles that are opened in the stand-alone Windows Media Player. When you use the embedded Windows Media Player control, all links are relative to the page on which the control is hosted, unless the **BASE** child element of the **ASX** element is used to redirect the relative path.
@@ -40,7 +40,7 @@ In the following example playlist, the first **ENTRYREF** contains a URL for ano
 
 ```XML
 <ASX>
-    <ENTRYREF HREF="http://example.microsoft.com/metafiles/relative.wax"/>
+    <ENTRYREF HREF="https://example.microsoft.com/metafiles/relative.wax"/>
 </ASX>
 
 ```

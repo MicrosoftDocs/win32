@@ -97,7 +97,7 @@ The following example code uses autoproxy. It sets up an HTTP GET request by fir
 // from the session).
 //
   if( WinHttpGetProxyForUrl( hHttpSession,
-                             L"http://www.microsoft.com/ms.htm",
+                             L"https://www.microsoft.com/ms.htm",
                              &AutoProxyOptions,
                              &ProxyInfo))
   {
@@ -174,7 +174,7 @@ In the provided example code, the call to [**WinHttpGetProxyForUrl**](/windows/d
 
 If the application does know the PAC URL, it can specify it in the WINHTTP\_AUTOPROXY\_OPTIONS structure and configure [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) to skip the auto-detection phase.
 
-For example, if a PAC file is available on the local network at the URL, "http://InternalSite/proxy-config.pac", the call to [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) would look the following.
+For example, if a PAC file is available on the local network at the URL, "https://InternalSite/proxy-config.pac", the call to [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) would look the following.
 
 
 ```C++
@@ -187,7 +187,7 @@ For example, if a PAC file is available on the local network at the URL, "http:/
   AutoProxyOptions.dwFlags = WINHTTP_AUTOPROXY_CONFIG_URL;
 
 // Set the proxy auto-config URL.
-  AutoProxyOptions. lpszAutoConfigUrl =  L"http://InternalSite/proxy-config.pac";
+  AutoProxyOptions. lpszAutoConfigUrl =  L"https://InternalSite/proxy-config.pac";
 
 // If obtaining the PAC script requires NTLM/Negotiate
 // authentication, then automatically supply the client
@@ -203,7 +203,7 @@ For example, if a PAC file is available on the local network at the URL, "http:/
 // handle will inherit from the session).
 //
   if( WinHttpGetProxyForUrl( hHttpSession,
-                             L"http://www.microsoft.com/ms.htm",
+                             L"https://www.microsoft.com/ms.htm",
                              &AutoProxyOptions,
                              &ProxyInfo ) )
 {

@@ -19,7 +19,7 @@ In response to this requirement, the Unicode Consortium has defined a process ca
 
 To use Unicode normalization, an application can call the [**NormalizeString**](/windows/desktop/api/Winnls/nf-winnls-normalizestring) and [**IsNormalizedString**](/windows/desktop/api/Winnls/nf-winnls-isnormalizedstring) functions for rearrangement of strings acccording to Unicode 4.0 TR\#15. Normalization can help improve security by reducing alternate string representations that have the same linguistic meaning. Remember, however, that normalization cannot eliminate alternate representations entirely.
 
-For a detailed description of the Unicode standards for normalization, refer to [Unicode Standard Annex \#15: Unicode Normalization Forms](http://go.microsoft.com/fwlink/p/?linkid=161647) (UAX \#15).
+For a detailed description of the Unicode standards for normalization, refer to [Unicode Standard Annex \#15: Unicode Normalization Forms](https://go.microsoft.com/fwlink/p/?linkid=161647) (UAX \#15).
 
 > [!Caution]  
 > Because normalization can change the form of a string, security mechanisms or character validation algorithms should usually be implemented after normalization. For more information, see [Security Considerations: International Features](security-considerations--international-features.md).

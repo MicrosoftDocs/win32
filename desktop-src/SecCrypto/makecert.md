@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 The MakeCert tool creates an [*X.509*](https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx) certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both. The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
-MakeCert is available as part of the Windows SDK, which you can download from <http://go.microsoft.com/fwlink/p/?linkid=84091>.
+MakeCert is available as part of the Windows SDK, which you can download from <https://go.microsoft.com/fwlink/p/?linkid=84091>.
 
 The MakeCert tool uses the following command syntax:
 

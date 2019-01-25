@@ -70,12 +70,12 @@ This section details how developers can create a task using a task definition in
 
 **Using XML**
 
-Task Scheduler includes a built-in command-line tool, schtasks.exe, that can import a task definition in XML format. The schema for task definition is documented at http://msdn.microsoft.com/library/aa383609(v=VS.85).aspx. Below is an example of an Automatic Maintenance task defined in XML.
+Task Scheduler includes a built-in command-line tool, schtasks.exe, that can import a task definition in XML format. The schema for task definition is documented at https://msdn.microsoft.com/library/aa383609(v=VS.85).aspx. Below is an example of an Automatic Maintenance task defined in XML.
 
 
 ```
 <?xml version="1.0" encoding="UTF-16"?>
-<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+<Task version="1.4" xmlns="https://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
     <Date>2011-07-01T11:34:31</Date>
     <Author>IT Deptartment</Author>
@@ -415,7 +415,7 @@ Run this command line to launch the task and validate that the Task Scheduler UI
 
 ## Resources
 
--   [Task Schedule 2.0](http://go.microsoft.com/fwlink/p/?LinkId=325490)
+-   [Task Schedule 2.0](https://go.microsoft.com/fwlink/p/?LinkId=325490)
 
  
 

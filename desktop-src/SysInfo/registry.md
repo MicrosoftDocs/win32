@@ -22,7 +22,7 @@ For more information on the registry database and programmatic access to the reg
 
 <dl> <dt>
 
-[Windows Server 2003 Resource Kit Registry Reference](http://go.microsoft.com/fwlink/p/?linkid=114989)
+[Windows Server 2003 Resource Kit Registry Reference](https://go.microsoft.com/fwlink/p/?linkid=114989)
 </dt> </dl>
 
  

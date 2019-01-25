@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # International Font Enumeration and Selection
 
-In each major release of Windows, there are fonts added to support international languages and scripts. Please reference [Script and Font Support in Windows](http://msdn.microsoft.com/en-us/goglobal/bb688099.aspx) for the fonts that have been added in each Windows version since Windows 2000, as well as their supported scripts, regions, and languages.
+In each major release of Windows, there are fonts added to support international languages and scripts. Please reference [Script and Font Support in Windows](https://msdn.microsoft.com/en-us/goglobal/bb688099.aspx) for the fonts that have been added in each Windows version since Windows 2000, as well as their supported scripts, regions, and languages.
 
 ## EnumFontFamiliesEx
 

@@ -31,7 +31,7 @@ Put the Play **BUTTONELEMENT** code after the closing angle bracket of **BUTTONG
         <BUTTONELEMENT
             mappingColor = "#00FF00"
             upToolTip = "Play"
-            onClick = "JScript: player.URL='http://proseware.com/laure.wma';" />
+            onClick = "JScript: player.URL='https://proseware.com/laure.wma';" />
 
 ```
 

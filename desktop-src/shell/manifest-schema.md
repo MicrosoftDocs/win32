@@ -753,7 +753,7 @@ A destination folder specified in Universal Naming Convention (UNC) format or as
 
 | Attribute | Description                                                                                                                 |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------|
-| href      | Required. The URL of the destination folder. Use the **http://** form for WebDAV or the **\\\\server\\share** form for UNC. |
+| href      | Required. The URL of the destination folder. Use the **https://** form for WebDAV or the **\\\\server\\share** form for UNC. |
 
 
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WIA Minidriver Service Library
 
-To simplify driver implementation as much as possible, Windows Image Acquisition (WIA) provides a Minidriver Service Library that performs many of the administrative tasks required by the WIA architecture. The service library provides helper functions to maintain the device's tree of [IWiaDrvItem Interface](http://go.microsoft.com/fwlink/p/?linkid=181163) objects.
+To simplify driver implementation as much as possible, Windows Image Acquisition (WIA) provides a Minidriver Service Library that performs many of the administrative tasks required by the WIA architecture. The service library provides helper functions to maintain the device's tree of [IWiaDrvItem Interface](https://go.microsoft.com/fwlink/p/?linkid=181163) objects.
 
 The basic service library functions perform helper functions that most device drivers would otherwise need to implement. These functions read and write properties. They also create driver item objects and copy device information properties.
 

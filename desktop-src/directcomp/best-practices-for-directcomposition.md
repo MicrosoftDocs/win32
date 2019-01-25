@@ -41,8 +41,8 @@ The following table presents the practices recommended for working with Microsof
 
 The following articles provide guidance for writing secure C++ code.
 
--   [Security Best Practices for C++](http://go.microsoft.com/fwlink/p/?linkid=122097)
--   [Patterns & Practices Security Guidance for Applications](http://go.microsoft.com/fwlink/p/?linkid=214028)
+-   [Security Best Practices for C++](https://go.microsoft.com/fwlink/p/?linkid=122097)
+-   [Patterns & Practices Security Guidance for Applications](https://go.microsoft.com/fwlink/p/?linkid=214028)
 
 ## Related topics
 

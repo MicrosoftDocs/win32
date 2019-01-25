@@ -64,15 +64,15 @@ This topic contains information about low-level APIs that are used by the Window
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-ntclose"><strong>NtClose</strong></a></td>
-<td>Deprecated. This function is used to close the specified handle. <a href="/windows/desktop/api/Winternl/nf-winternl-ntclose"><strong>NtClose</strong></a> is superseded by <a href="http://msdn.microsoft.com/en-us/library/ms724211(VS.85).aspx">CloseHandle</a>.<br/></td>
+<td>Deprecated. This function is used to close the specified handle. <a href="/windows/desktop/api/Winternl/nf-winternl-ntclose"><strong>NtClose</strong></a> is superseded by <a href="https://msdn.microsoft.com/en-us/library/ms724211(VS.85).aspx">CloseHandle</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile"><strong>NtDeviceIoControlFile</strong></a></td>
-<td>Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. <a href="/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile"><strong>NtDeviceIoControlFile</strong></a> is superseded by <a href="http://msdn.microsoft.com/en-us/library/aa363216(VS.85).aspx">DeviceIoControl</a>.<br/></td>
+<td>Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. <a href="/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile"><strong>NtDeviceIoControlFile</strong></a> is superseded by <a href="https://msdn.microsoft.com/en-us/library/aa363216(VS.85).aspx">DeviceIoControl</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject"><strong>NtWaitForSingleObject</strong></a></td>
-<td>Deprecated. Waits until the specified object attains a state of <code>signaled</code>. <a href="/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject"><strong>NtWaitForSingleObject</strong></a> is superseded by <a href="http://msdn.microsoft.com/en-us/library/ms687032.aspx">WaitForSingleObject</a>.<br/></td>
+<td>Deprecated. Waits until the specified object attains a state of <code>signaled</code>. <a href="/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject"><strong>NtWaitForSingleObject</strong></a> is superseded by <a href="https://msdn.microsoft.com/en-us/library/ms687032.aspx">WaitForSingleObject</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a></td>
@@ -96,7 +96,7 @@ This topic contains information about low-level APIs that are used by the Window
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlfreeunicodestring"><strong>RtlFreeUnicodeString</strong></a></td>
-<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a> or by <a href="http://msdn.microsoft.com/en-us/library/ms803011.aspx">RtlUpcaseUnicodeString</a>.<br/></td>
+<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a> or by <a href="https://msdn.microsoft.com/en-us/library/ms803011.aspx">RtlUpcaseUnicodeString</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlinitstring"><strong>RtlInitString</strong></a></td>

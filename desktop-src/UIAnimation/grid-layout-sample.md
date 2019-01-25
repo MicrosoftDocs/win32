@@ -18,8 +18,8 @@ This sample is available in the following locations.
 
 | Location                               | Path/URL                                                                                          |
 |----------------------------------------|---------------------------------------------------------------------------------------------------|
-| Windows Software Development Kit (SDK) | [Microsoft Windows Software Development Kit 7.0](http://go.microsoft.com/fwlink/p/?linkid=129787) |
-| Code Gallery                           | [Windows Animation Manager Sample Code](http://go.microsoft.com/fwlink/p/?linkid=155660)          |
+| Windows Software Development Kit (SDK) | [Microsoft Windows Software Development Kit 7.0](https://go.microsoft.com/fwlink/p/?linkid=129787) |
+| Code Gallery                           | [Windows Animation Manager Sample Code](https://go.microsoft.com/fwlink/p/?linkid=155660)          |
 
 
 

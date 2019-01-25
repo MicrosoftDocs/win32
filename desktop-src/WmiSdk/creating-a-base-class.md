@@ -19,7 +19,7 @@ The following sections are discussed in this topic:
 
 ## Creating a Base Class Using MOF
 
-WMI classes usually rely on inheritance. Before creating a base class, check the Common Information Model (CIM) classes available from the Distributed Management Task Force ([DMTF](Http://go.microsoft.com/fwlink/p/?linkid=84401)).
+WMI classes usually rely on inheritance. Before creating a base class, check the Common Information Model (CIM) classes available from the Distributed Management Task Force ([DMTF](https://go.microsoft.com/fwlink/p/?linkid=84401)).
 
 If many derived classes will use the same properties, put these properties and methods in your base class. The maximum number of properties you can define in a WMI class is 1024.
 

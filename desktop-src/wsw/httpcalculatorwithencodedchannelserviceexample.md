@@ -179,7 +179,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     
     
     // Initialize service endpoint
-    serviceEndpoint.address.url.chars = L"http://+:80/example"; // address given as uri
+    serviceEndpoint.address.url.chars = L"https://+:80/example"; // address given as uri
     serviceEndpoint.address.url.length = (ULONG)wcslen(serviceEndpoint.address.url.chars);
     serviceEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     serviceEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
@@ -648,15 +648,15 @@ WS_CHANNEL_DECODER channelDecoder =
 
 ``` syntax
 <wsdl:definitions 
-    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-    xmlns:tns="http://Example.org" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-    xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" 
-    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
-    targetNamespace="http://Example.org" 
-    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:tns="https://Example.org" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" 
+    xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" 
+    targetNamespace="https://Example.org" 
+    xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/">
     <wsdl:types>
-        <xsd:schema targetNamespace="http://Example.org" elementFormDefault="qualified" >
+        <xsd:schema targetNamespace="https://Example.org" elementFormDefault="qualified" >
             <xsd:element name="Add">
                 <xsd:complexType>
                     <xsd:sequence>
@@ -703,18 +703,18 @@ WS_CHANNEL_DECODER channelDecoder =
     </wsdl:message>
     <wsdl:portType name="ICalculator">
         <wsdl:operation name="Add">
-            <wsdl:input wsaw:Action="http://Example.org/ICalculator/Add" message="tns:ICalculator_Add_InputMessage" />
-            <wsdl:output wsaw:Action="http://Example.org/ICalculator/AddResponse" message="tns:ICalculator_Add_OutputMessage" />
+            <wsdl:input wsaw:Action="https://Example.org/ICalculator/Add" message="tns:ICalculator_Add_InputMessage" />
+            <wsdl:output wsaw:Action="https://Example.org/ICalculator/AddResponse" message="tns:ICalculator_Add_OutputMessage" />
         </wsdl:operation>
         <wsdl:operation name="Subtract">
-            <wsdl:input wsaw:Action="http://Example.org/ICalculator/Subtract" message="tns:ICalculator_Subtract_InputMessage" />
-            <wsdl:output wsaw:Action="http://Example.org/ICalculator/SubtractResponse" message="tns:ICalculator_Subtract_OutputMessage" />
+            <wsdl:input wsaw:Action="https://Example.org/ICalculator/Subtract" message="tns:ICalculator_Subtract_InputMessage" />
+            <wsdl:output wsaw:Action="https://Example.org/ICalculator/SubtractResponse" message="tns:ICalculator_Subtract_OutputMessage" />
         </wsdl:operation>
     </wsdl:portType>
     <wsdl:binding name="DefaultBinding_ICalculator" type="tns:ICalculator">
-        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+        <soap:binding transport="https://schemas.xmlsoap.org/soap/http" />
         <wsdl:operation name="Add">
-            <soap:operation soapAction="http://Example.org/ICalculator/Add" style="document" />
+            <soap:operation soapAction="https://Example.org/ICalculator/Add" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -723,7 +723,7 @@ WS_CHANNEL_DECODER channelDecoder =
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="Subtract">
-            <soap:operation soapAction="http://Example.org/ICalculator/Subtract" style="document" />
+            <soap:operation soapAction="https://Example.org/ICalculator/Subtract" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -734,7 +734,7 @@ WS_CHANNEL_DECODER channelDecoder =
     </wsdl:binding>
     <wsdl:service name="CalculatorService">
         <wsdl:port name="ICalculator" binding="tns:DefaultBinding_ICalculator">
-            <soap:address location="http://Example.org/ICalculator" />
+            <soap:address location="https://Example.org/ICalculator" />
         </wsdl:port>
     </wsdl:service>
 

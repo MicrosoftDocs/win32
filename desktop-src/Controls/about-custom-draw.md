@@ -153,7 +153,7 @@ SetWindowTheme (hwnd, "", "");
 
 Most common controls can be handled in essentially the same way. However, the list-view and tree-view controls have some features that require a somewhat different approach to custom draw.
 
-For [Version 5.0](common-control-versions.md), these two controls may display clipped text if you change the font by returning [**CDRF\_NEWFONT**](cdrf-constants.md). This behavior is necessary for backward compatibility with earlier versions of the common controls. If you want to change the font of a list-view or tree-view control, you will get better results if you send a [**CCM\_SETVERSION**](ccm-setversion.md) message with the *wParam* value set to 5 before adding any items to the control. For an example of a tree-view control that uses custom draw see Knowledge Base article [SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)]( http://go.microsoft.com/fwlink/p/?linkid=198348).
+For [Version 5.0](common-control-versions.md), these two controls may display clipped text if you change the font by returning [**CDRF\_NEWFONT**](cdrf-constants.md). This behavior is necessary for backward compatibility with earlier versions of the common controls. If you want to change the font of a list-view or tree-view control, you will get better results if you send a [**CCM\_SETVERSION**](ccm-setversion.md) message with the *wParam* value set to 5 before adding any items to the control. For an example of a tree-view control that uses custom draw see Knowledge Base article [SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)]( https://go.microsoft.com/fwlink/p/?linkid=198348).
 
 ### Custom Draw With List-View Controls
 
@@ -188,7 +188,7 @@ For an example of a list-view [NM\_CUSTOMDRAW](nm-customdraw.md) notification ha
 **Other Resources**
 </dt> <dt>
 
-[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)]( http://go.microsoft.com/fwlink/p/?linkid=198348)
+[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)]( https://go.microsoft.com/fwlink/p/?linkid=198348)
 </dt> </dl>
 
  

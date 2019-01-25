@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About the Certificate Enrollment API
 
-The Certificate Enrollment API enables you to create client applications that can be used to request and install certificates. Certificate requests are discussed in the following sections. For the latest information, see the Microsoft Developer Network (MSDN) Library ([http://msdn.microsoft.com/library/default.asp](http://go.microsoft.com/fwlink/p/?linkid=83469)).
+The Certificate Enrollment API enables you to create client applications that can be used to request and install certificates. Certificate requests are discussed in the following sections. For the latest information, see the Microsoft Developer Network (MSDN) Library ([https://msdn.microsoft.com/library/default.asp](https://go.microsoft.com/fwlink/p/?linkid=83469)).
 
 -   [Public Key Infrastructure](public-key-infrastructure.md)
 -   [Certificate Request Encoding](about-certificate-request-encoding.md)

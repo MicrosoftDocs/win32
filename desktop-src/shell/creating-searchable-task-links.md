@@ -43,8 +43,8 @@ Task links are defined in an XML file. This section provides the details of an e
 
 ```
 <?xml version="1.0" ?>
-<applications xmlns="http://schemas.microsoft.com/windows/cpltasks/v1" 
-              xmlns:sh="http://schemas.microsoft.com/windows/tasks/v1">
+<applications xmlns="https://schemas.microsoft.com/windows/cpltasks/v1" 
+              xmlns:sh="https://schemas.microsoft.com/windows/tasks/v1">
     
     <!-- Notepad -->
     <application id="{0052D9FC-6764-4D29-A66F-2F3BD9E2BB40}"> 

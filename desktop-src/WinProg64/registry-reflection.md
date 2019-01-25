@@ -39,7 +39,7 @@ Most of the keys under the classes root are in this category. Updates to the key
 
 For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\CLSID** and **HKEY\_CURRENT\_USER\\Software\\Classes\\CLSID**, only CLSIDs that do not specify InprocServer32 or InprocHandler32 are reflected. Only LocalServer32 CLSIDs are reflected because they run out-of-process and can be activated by either 32- or 64-bit applications. InProcServer32 CLSIDs are not reflected because it is not possible to load a 32-bit DLL for execution in a 64-bit process, or a 64-bit DLL for execution in a 32-bit process.
 
-For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\Appid** and **HKEY\_CURRENT\_USER\\Software\\Classes\\Appid**, the [DllSurrogate](http://go.microsoft.com/fwlink/p/?linkid=150167) and [DllSurrogateExecutable]( http://go.microsoft.com/fwlink/p/?linkid=150169) registry values are not reflected if their value is an empty string.
+For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\Appid** and **HKEY\_CURRENT\_USER\\Software\\Classes\\Appid**, the [DllSurrogate](https://go.microsoft.com/fwlink/p/?linkid=150167) and [DllSurrogateExecutable]( https://go.microsoft.com/fwlink/p/?linkid=150169) registry values are not reflected if their value is an empty string.
 
 To disable and enable registry reflection for a particular reflected key, use the [**RegDisableReflectionKey**](https://msdn.microsoft.com/library/windows/desktop/ms724858) and [**RegEnableReflectionKey**](https://msdn.microsoft.com/library/windows/desktop/ms724859) functions. These functions do not affect keys that are not on the list of reflected keys earlier in this topic. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine whether the keys on the reflection list have been disabled, use the [**RegQueryReflectionKey**](https://msdn.microsoft.com/library/windows/desktop/ms724907) function.
 
@@ -52,7 +52,7 @@ Reflected keys should not be used in transacted registry operations. Writing to 
 [Registry Redirector](registry-redirector.md)
 </dt> <dt>
 
-[Registry Reflection in Windows](http://go.microsoft.com/fwlink/p/?linkid=149694)
+[Registry Reflection in Windows](https://go.microsoft.com/fwlink/p/?linkid=149694)
 </dt> <dt>
 
 [Registry Keys Affected by WOW64](shared-registry-keys.md)

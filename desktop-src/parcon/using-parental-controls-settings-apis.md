@@ -90,13 +90,13 @@ This feature is not supported on Windows 8.
 
 <WebAddresses>
 
-<URL AllowBlock="1">http://alloweddomain.com/</URL>
+<URL AllowBlock="1">https://alloweddomain.com/</URL>
 
-<URL AllowBlock="1">http://allowedurl.com/allowed/default.html</URL>
+<URL AllowBlock="1">https://allowedurl.com/allowed/default.html</URL>
 
-<URL AllowBlock="2">http://blockeddomain.com/</URL>
+<URL AllowBlock="2">https://blockeddomain.com/</URL>
 
-<URL AllowBlock="2">http://blockedurl.com/blocked/default.html</URL>
+<URL AllowBlock="2">https://blockedurl.com/blocked/default.html</URL>
 
 </WebAddresses>
 

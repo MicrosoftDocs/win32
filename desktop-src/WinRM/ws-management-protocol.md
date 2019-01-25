@@ -13,11 +13,11 @@ The WS-Management protocol was developed by a group of hardware and software man
 
 ## Standards
 
-For more information about WS-Management protocol, see [Web Services for Management (WS-Management) Specification](http://go.microsoft.com/fwlink/p/?linkid=73965).
+For more information about WS-Management protocol, see [Web Services for Management (WS-Management) Specification](https://go.microsoft.com/fwlink/p/?linkid=73965).
 
 The intent of the protocol is to provide consistency and interoperability for management operations across many types of devices (including firmware) and operating systems. WS-Management protocol can be extended as new operations are identified by the IT industry.
 
-The current implementation of the WS-Management protocol is based on the following standard specifications: HTTPS, SOAP over HTTP (WS-I profile), SOAP 1.2, WS-Addressing, WS-Transfer, WS-Enumeration, and WS-Eventing. For more information about the WS-Management standards and XML schemas see <http://dmtf.org/standards/wsman>
+The current implementation of the WS-Management protocol is based on the following standard specifications: HTTPS, SOAP over HTTP (WS-I profile), SOAP 1.2, WS-Addressing, WS-Transfer, WS-Enumeration, and WS-Eventing. For more information about the WS-Management standards and XML schemas see <https://dmtf.org/standards/wsman>
 
 ## Messages
 
@@ -33,21 +33,21 @@ The characters before the colon at the beginning of each tag indicate which stan
 
 
 ```XML
-<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" 
-            xmlns:a="http://schemas.xmlsoap.org/ws/2004/08/addressing" 
-            xmlns:w="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+<s:Envelope xmlns:s="https://www.w3.org/2003/05/soap-envelope" 
+            xmlns:a="https://schemas.xmlsoap.org/ws/2004/08/addressing" 
+            xmlns:w="https://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
   <s:Header>
-    <a:To>http://RemoteComputer:80/wsman</a:To> 
+    <a:To>https://RemoteComputer:80/wsman</a:To> 
     <w:ResourceURI s:mustUnderstand="true">
-      http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_logicaldisk
+      https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_logicaldisk
     </w:ResourceURI> 
     <a:ReplyTo>
     <a:Address s:mustUnderstand="true">
-      http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
+      https://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
     </a:Address> 
     </a:ReplyTo>
     <a:Action s:mustUnderstand="true">
-      http://schemas.xmlsoap.org/ws/2004/09/transfer/Get
+      https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
     </a:Action> 
     <w:MaxEnvelopeSize s:mustUnderstand="true">153600</w:MaxEnvelopeSize> 
     <a:MessageID>uuid:4ED2993C-4339-4E99-81FC-C2FD3812781A</a:MessageID> 

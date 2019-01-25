@@ -63,7 +63,7 @@ The following example creates an HTML BUTTON element that, when clicked, display
 <INPUT  TYPE = "BUTTON"  ID = "GOTOMS"  VALUE = "Microsoft.com"  onClick = "
 
     /* Open the Microsoft website. */
-    Player.launchURL('http://www.microsoft.com');
+    Player.launchURL('https://www.microsoft.com');
 ">
 
 ```

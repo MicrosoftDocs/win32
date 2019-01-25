@@ -27,10 +27,10 @@ The GDI+ C++ class-based interface is designed for use by C/C++ programmers. Fam
 
 ## Run-time requirements
 
-GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windows XP and Windows Server 2003. For information about which operating systems are required to use a particular class or method, see the More Information section of the documentation for the class or method. GDI+ is available as a redistributable for earlier operating systems. To download the latest redistributable, see <http://go.microsoft.com/fwlink/p/?linkid=20993>.
+GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windows XP and Windows Server 2003. For information about which operating systems are required to use a particular class or method, see the More Information section of the documentation for the class or method. GDI+ is available as a redistributable for earlier operating systems. To download the latest redistributable, see <https://go.microsoft.com/fwlink/p/?linkid=20993>.
 
 > [!Note]  
-> If you are redistributing GDI+ to a down-level platform or a platform that does not ship with that version of GDI+ natively, install Gdiplus.dll in your application directory. This puts it in your address space, but you should use the linker's `/BASE` option to rebase the Gdiplus.dll to prevent address space conflict. For more information, see [/BASE (Base Address)](http://msdn.microsoft.com/en-us/library/f7f5138s.aspx).
+> If you are redistributing GDI+ to a down-level platform or a platform that does not ship with that version of GDI+ natively, install Gdiplus.dll in your application directory. This puts it in your address space, but you should use the linker's `/BASE` option to rebase the Gdiplus.dll to prevent address space conflict. For more information, see [/BASE (Base Address)](https://msdn.microsoft.com/en-us/library/f7f5138s.aspx).
 
  
 
@@ -52,16 +52,16 @@ GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windo
 
 <dl> <dt>
 
-[Windows GDI](http://msdn.microsoft.com/library/en-us/gdi/wingdistart_9ezp.asp)
+[Windows GDI](https://msdn.microsoft.com/library/en-us/gdi/wingdistart_9ezp.asp)
 </dt> <dt>
 
-[DirectX](http://go.microsoft.com/fwlink/p/?linkid=182492)
+[DirectX](https://go.microsoft.com/fwlink/p/?linkid=182492)
 </dt> <dt>
 
-[Windows Image Acquisition](http://msdn.microsoft.com/library/en-us/wia/wia/overviews/startpage.asp)
+[Windows Image Acquisition](https://msdn.microsoft.com/library/en-us/wia/wia/overviews/startpage.asp)
 </dt> <dt>
 
-[OpenGL](http://msdn.microsoft.com/library/en-us/opengl/openglstart_9uw5.asp)
+[OpenGL](https://msdn.microsoft.com/library/en-us/opengl/openglstart_9uw5.asp)
 </dt> <dt>
 
 [Windows Multimedia](https://msdn.microsoft.com/en-us/library/Dd743883(v=VS.85).aspx)

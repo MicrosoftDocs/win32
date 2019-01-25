@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 ## Format Support
 
-In Windows 7, [Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) provides extensive format support that includes codecs for *H.264* video, *MJPEG*, and *MP3*; new sources for *MP4*, *3GP*, *AAC* audio, and *AVI*; and new file sinks for *MP4*, *3GP*, and *MP3*. (See [Supported Media Formats in Media Foundation](http://go.microsoft.com/?linkid=9669720).)
+In Windows 7, [Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) provides extensive format support that includes codecs for *H.264* video, *MJPEG*, and *MP3*; new sources for *MP4*, *3GP*, *AAC* audio, and *AVI*; and new file sinks for *MP4*, *3GP*, and *MP3*. (See [Supported Media Formats in Media Foundation](https://go.microsoft.com/?linkid=9669720).)
 
 ## Hardware Devices
 
@@ -25,7 +25,7 @@ In Windows 7, [Media Foundation](https://msdn.microsoft.com/library/windows/des
 
 Hardware codecs can perform very fast video transcoding. For example, suppose you want to transfer a *Windows Media Video (WMV)* file to a cell phone that supports only *3GP* files. With a hardware encoder, the file can be transcoded "as needed," immediately before transferring it to the device.
 
-Hardware devices are represented in [Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) by a proxy object, and are used in the pipeline just like software-based components. (See [What's New for Media Foundation](http://go.microsoft.com/?linkid=9669721).)
+Hardware devices are represented in [Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) by a proxy object, and are used in the pipeline just like software-based components. (See [What's New for Media Foundation](https://go.microsoft.com/?linkid=9669721).)
 
 ## Simplified Programming Model
 
@@ -48,7 +48,7 @@ Windows 7 includes numerous enhancements to the underlying [Media Foundation](h
 
 <dl> <dt>
 
-[What's New for Media Foundation](http://go.microsoft.com/?linkid=9669721)
+[What's New for Media Foundation](https://go.microsoft.com/?linkid=9669721)
 </dt> </dl>
 
  

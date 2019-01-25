@@ -16,7 +16,7 @@ This sample profile uses a pre-shared key for network authentication. The key is
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
-<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+<WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPAPSK</name>
     <SSIDConfig>
         <SSID>

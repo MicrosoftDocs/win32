@@ -18,7 +18,7 @@ The initiator starts communication by sending a command to the responder. The re
 
 The responder can start communication independent of the initiator. For example, the responder can send events to the initiator. However, no data can be sent together with the event. If there is any data that needs to be read as part of the event, the initiator must send an MTP command, and the device can then send data in response to the command.
 
-For a complete description of MTP, refer to the [MTP specification](http://go.microsoft.com/fwlink/p/?linkid=179917).
+For a complete description of MTP, refer to the [MTP specification](https://go.microsoft.com/fwlink/p/?linkid=179917).
 
 ## Sending MTP Commands
 

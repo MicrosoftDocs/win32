@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) is central to all certificate management operations. The functionality of the [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) function can be extended through the use of an installable (or registered) certificate-store-provider function. For an overview of how to install or register functions for use with the CryptoAPI, see [OID Overview](oid-overview.md).
 
 > [!Note]  
-> Custom certificate stores are not automatically migrated when performing automated deployments. To migrate custom certificate stores, you must create a manifest for migrating the custom stores and use the Windows User State Migration Tool (USMT). The USMT is available for download from the Microsoft Download Center at <http://go.microsoft.com/fwlink/p/?linkid=115109>.
+> Custom certificate stores are not automatically migrated when performing automated deployments. To migrate custom certificate stores, you must create a manifest for migrating the custom stores and use the Windows User State Migration Tool (USMT). The USMT is available for download from the Microsoft Download Center at <https://go.microsoft.com/fwlink/p/?linkid=115109>.
 
  
 

@@ -14,7 +14,7 @@ The following examples show how to use the BITSAdmin tool to perform the most co
 
 The **/transfer** switch is a shortcut for performing the tasks listed below. This switch creates the job, adds the files to the job, activates the job in the transfer queue, and completes the job. BITSAdmin continues to show progress information in the MS-DOS window until the transfer completes or an error occurs.
 
-**bitsadmin /transfer myDownloadJob /download /priority normal http://downloadsrv/10mb.zip c:\\10mb.zip**
+**bitsadmin /transfer myDownloadJob /download /priority normal https://downloadsrv/10mb.zip c:\\10mb.zip**
 
 ## Create a Download Job
 
@@ -34,7 +34,7 @@ Next, use the **/addfile** switch to add one or more files to the download job.
 
 Use the **/addfile** switch to add a file to the job. Repeat this call for each file you want to add. If multiple jobs use myDownloadJob as their name, you must replace myDownloadJob with the job's GUID to uniquely identify the job.
 
-**bitsadmin /addfile myDownloadJob http://downloadsrv/10mb.zip c:\\10mb.zip**
+**bitsadmin /addfile myDownloadJob https://downloadsrv/10mb.zip c:\\10mb.zip**
 
 To activate the job in the transfer queue, use the **/resume** switch.
 
@@ -63,13 +63,13 @@ COMPLETION TIME: UNKNOWN
 NOTIFY INTERFACE: UNREGISTERED NOTIFICATION FLAGS: 3
 RETRY DELAY: 600 NO PROGRESS TIMEOUT: 1209600 ERROR COUNT: 0
 PROXY USAGE: PRECONFIG PROXY LIST: NULL PROXY BYPASS LIST: NULL
-ERROR FILE:    http://downloadsrv/10mb.zip -> c:\10mb.zip
+ERROR FILE:    https://downloadsrv/10mb.zip -> c:\10mb.zip
 ERROR CODE:    0x80072ee7 - The server name or address could not be resolved
 ERROR CONTEXT: 0x00000005 - The error occurred while the remote file was being 
 processed.
 DESCRIPTION:
 JOB FILES:
-        0 / UNKNOWN WORKING http://downloadsrv/10mb.zip -> c:\10mb.zip
+        0 / UNKNOWN WORKING https://downloadsrv/10mb.zip -> c:\10mb.zip
 NOTIFICATION COMMAND LINE: none
 ```
 

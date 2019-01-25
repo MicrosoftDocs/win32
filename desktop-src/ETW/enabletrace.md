@@ -129,7 +129,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_WMI_GUID_NOT_FOUND</strong></dt> </dl></td>
-<td>The provider is not registered. Occurs when <a href="Http://go.microsoft.com/fwlink/p/?linkid=83987">KB307331</a> or Windows 2000 Service Pack 4 is installed and the provider is not registered. To avoid this error, the provider must first be registered. <br/></td>
+<td>The provider is not registered. Occurs when <a href="https://go.microsoft.com/fwlink/p/?linkid=83987">KB307331</a> or Windows 2000 Service Pack 4 is installed and the provider is not registered. To avoid this error, the provider must first be registered. <br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_NO_SYSTEM_RESOURCES</strong> </dt> </dl></td>

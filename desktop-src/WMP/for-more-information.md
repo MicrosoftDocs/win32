@@ -17,12 +17,12 @@ ms.date: 05/31/2018
 
 # For More Information
 
--   For more information about developing digital media solutions, see the [Microsoft Windows Media Developer Center](http://go.microsoft.com/fwlink/p/?linkid=62179).
--   For more information about Windows Media, see the [Windows Media website](http://go.microsoft.com/fwlink/p/?linkid=740).
--   For more information about Windows Media Player, see the [Windows Media Player webpage](http://go.microsoft.com/fwlink/p/?linkid=53293) on the Windows Media website.
--   To download the Windows SDK, which includes the Windows Media Player SDK, go to the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=149631) page in the Windows Developer Center.
--   For more information about programming with Microsoft technologies, including Windows Media technologies and software development kits, see the [MSDN Library](http://go.microsoft.com/fwlink/p/?linkid=8483).
--   The current version of the Windows Media Player SDK is version 12. For issues related to the Windows Media Player 11 SDK, see the [Windows Media Player 11 SDK Readme](http://go.microsoft.com/fwlink/p/?linkid=64051).
+-   For more information about developing digital media solutions, see the [Microsoft Windows Media Developer Center](https://go.microsoft.com/fwlink/p/?linkid=62179).
+-   For more information about Windows Media, see the [Windows Media website](https://go.microsoft.com/fwlink/p/?linkid=740).
+-   For more information about Windows Media Player, see the [Windows Media Player webpage](https://go.microsoft.com/fwlink/p/?linkid=53293) on the Windows Media website.
+-   To download the Windows SDK, which includes the Windows Media Player SDK, go to the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=149631) page in the Windows Developer Center.
+-   For more information about programming with Microsoft technologies, including Windows Media technologies and software development kits, see the [MSDN Library](https://go.microsoft.com/fwlink/p/?linkid=8483).
+-   The current version of the Windows Media Player SDK is version 12. For issues related to the Windows Media Player 11 SDK, see the [Windows Media Player 11 SDK Readme](https://go.microsoft.com/fwlink/p/?linkid=64051).
 
 ## Related topics
 

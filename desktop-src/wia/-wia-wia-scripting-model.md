@@ -16,7 +16,7 @@ api_location:
 Windows Image Acquisition (WIA) provides automation objects for use in scripting languages, such as Microsoft JScript and Microsoft Visual Basic Scripting Edition (VBScript) development software, and high-level programming languages such as Microsoft Visual Basic development system.
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](http://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
 
  
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Digital Signatures and Windows Installer
 
-The Windows Installer can use digital signatures to detect corrupted resources. A signer certificate may be compared to the signer certificate of an external resource to be installed by the package. For more information regarding the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/library/windows/desktop/aa388208), see the [Security](Http://go.microsoft.com/fwlink/p/?linkid=83879) section of the Microsoft Windows Software Development Kit (SDK).
+The Windows Installer can use digital signatures to detect corrupted resources. A signer certificate may be compared to the signer certificate of an external resource to be installed by the package. For more information regarding the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/library/windows/desktop/aa388208), see the [Security](https://go.microsoft.com/fwlink/p/?linkid=83879) section of the Microsoft Windows Software Development Kit (SDK).
 
 With Windows Installer, digital signatures can be used with Windows Installer packages, transforms, patches, merge modules, and external cabinet files. Windows Installer is integrated with Software Restriction Policy on Microsoft Windows XP. Policies can be created to allow or prevent installations based upon different criteria, including a particular signer certificate or publisher. The Windows Installer can perform signature validation of external cabinet files on all platforms where CryptoAPI version 2.0 is installed.
 

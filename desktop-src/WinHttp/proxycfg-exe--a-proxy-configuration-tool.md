@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 **Windows Vista and Windows Server 2008:  **
 
-ProxyCfg.exe has been deprecated. It is replaced by the [Netsh.exe winhttp](http://go.microsoft.com/fwlink/p/?linkid=199086) commands.
+ProxyCfg.exe has been deprecated. It is replaced by the [Netsh.exe winhttp](https://go.microsoft.com/fwlink/p/?linkid=199086) commands.
 
 This topic explains the use of the [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) proxy configuration tool, "ProxyCfg.exe".
 
@@ -81,7 +81,7 @@ The following table lists the command line parameters available for use with the
 
  
 
-You can specify proxies in a space-delimited string. The proxy listings can contain the port number that is used to access the proxy. To list a proxy for a specific protocol, the string must follow the format, <protocol>=http://<proxy\_name>. The valid protocols are HTTP and HTTPS. For example, to list an HTTP proxy, a valid string is http=http://http\_proxy\_name:80, where http\_proxy\_name is the name of the proxy server and 80 is the port number that you must use to access the proxy. If the proxy uses the default port number for that protocol, then you can omit the port number. If a proxy name is listed by itself, you can use it as the default proxy for any protocols that do not have a specified proxy. For example, http=http://http\_proxy other\_proxy uses http\_proxy for any HTTP operations, while the HTTPS protocol uses the proxy named other\_proxy.
+You can specify proxies in a space-delimited string. The proxy listings can contain the port number that is used to access the proxy. To list a proxy for a specific protocol, the string must follow the format, <protocol>=https://<proxy\_name>. The valid protocols are HTTP and HTTPS. For example, to list an HTTP proxy, a valid string is http=https://http\_proxy\_name:80, where http\_proxy\_name is the name of the proxy server and 80 is the port number that you must use to access the proxy. If the proxy uses the default port number for that protocol, then you can omit the port number. If a proxy name is listed by itself, you can use it as the default proxy for any protocols that do not have a specified proxy. For example, http=https://http\_proxy other\_proxy uses http\_proxy for any HTTP operations, while the HTTPS protocol uses the proxy named other\_proxy.
 
 You can list locally known host names or IP addresses in the proxy bypass list. This list can contain wildcards, such as "\*", that cause the application to bypass the proxy server for addresses that fit the specified pattern, for example, "\*.microsoft.com" or "\*.org". Wildcard characters must be the left-most characters in the list. For example, "aaa.\*" is not supported. To list multiple addresses and host names, separate them with blank spaces or semicolons in the proxy bypass string. If you specify the <local> macro, the function bypasses any host name that does not contain a period.
 

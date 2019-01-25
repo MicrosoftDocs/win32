@@ -42,16 +42,16 @@ The optional <domain> element specifies the URL of the search service used by th
 
 ## Remarks
 
-The URL should be the top-level domain for the search provider. For example, http://www.example.com.
+The URL should be the top-level domain for the search provider. For example, https://www.example.com.
 
 ## Example
 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="http://schemas.adventureworks.com/searchConnector">
+<searchConnectorDescription xmlns="https://schemas.adventureworks.com/searchConnector">
     ...
-    <domain>http://www.adventureworks.com</domain>
+    <domain>https://www.adventureworks.com</domain>
     ...
 </searchConnectionDescription>
 ```

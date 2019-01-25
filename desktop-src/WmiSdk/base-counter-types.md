@@ -21,11 +21,11 @@ The following table lists the **CounterType** constant values.
 
 | CounterType Constant                                                                                      | Description                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [PERF\_AVERAGE\_BASE](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939458<br/>        | Base value used to calculate the **PERF\_AVERAGE\_TIMER** and **PERF\_AVERAGE\_BULK** counter types.                                                                                             |
-| [PERF\_COUNTER\_MULTI\_BASE](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1107494144<br/> | Base value used to calculate the **PERF\_COUNTER\_MULTI\_TIMER**, **PERF\_COUNTER\_MULTI\_TIMER\_INV**, **PERF\_100NSEC\_MULTI\_TIMER**, and **PERF\_100NSEC\_MULTI\_TIMER\_INV** counter types. |
-| [PERF\_LARGE\_RAW\_BASE](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939712<br/>     | Base value found in the calculation of **PERF\_RAW\_FRACTION**, 64 bits.                                                                                                                         |
-| [PERF\_RAW\_BASE](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939459<br/>            | Base value used to calculate the **PERF\_RAW\_FRACTION** counter type.                                                                                                                           |
-| [PERF\_SAMPLE\_BASE](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939457<br/>         | Base value used to calculate the **PERF\_SAMPLE\_COUNTER** and **PERF\_SAMPLE\_FRACTION** counter types.                                                                                         |
+| [PERF\_AVERAGE\_BASE](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939458<br/>        | Base value used to calculate the **PERF\_AVERAGE\_TIMER** and **PERF\_AVERAGE\_BULK** counter types.                                                                                             |
+| [PERF\_COUNTER\_MULTI\_BASE](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1107494144<br/> | Base value used to calculate the **PERF\_COUNTER\_MULTI\_TIMER**, **PERF\_COUNTER\_MULTI\_TIMER\_INV**, **PERF\_100NSEC\_MULTI\_TIMER**, and **PERF\_100NSEC\_MULTI\_TIMER\_INV** counter types. |
+| [PERF\_LARGE\_RAW\_BASE](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939712<br/>     | Base value found in the calculation of **PERF\_RAW\_FRACTION**, 64 bits.                                                                                                                         |
+| [PERF\_RAW\_BASE](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939459<br/>            | Base value used to calculate the **PERF\_RAW\_FRACTION** counter type.                                                                                                                           |
+| [PERF\_SAMPLE\_BASE](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 1073939457<br/>         | Base value used to calculate the **PERF\_SAMPLE\_COUNTER** and **PERF\_SAMPLE\_FRACTION** counter types.                                                                                         |
 
 
 
@@ -38,7 +38,7 @@ The following table lists the **CounterType** constant values.
 [WMI Performance Counter Types](wmi-performance-counter-types.md)
 </dt> <dt>
 
-[Counter Types](http://go.microsoft.com/fwlink/p/?linkid=44341)
+[Counter Types](https://go.microsoft.com/fwlink/p/?linkid=44341)
 </dt> </dl>
 
  

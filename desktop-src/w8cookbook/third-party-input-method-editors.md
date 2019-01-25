@@ -86,7 +86,7 @@ Digital signing, in addition to revocation by Windows Defender, prevents malicio
 The IME must be TSF-aware in order to be able to run in Windows 8. Windows 8 blocks non-TSF-aware IMEs from running in Windows Store apps. When an app is started, TSF loads the IME .dll for the IME that the user has selected into the app process.
 
 > [!Note]  
-> To provide separate functionality or UIs between Windows Store apps and desktop apps, the .dll loaded by TSF can check which type of app it is being loaded into. The IME calls the [ITfThreadMgrEx::GetActiveFlags](http://msdn.microsoft.com/library/windows/desktop/aa383154.aspx) method and checks the TF\_TMF\_IMMERSIVEMODE flag, and can trigger different app logic depending on the result.
+> To provide separate functionality or UIs between Windows Store apps and desktop apps, the .dll loaded by TSF can check which type of app it is being loaded into. The IME calls the [ITfThreadMgrEx::GetActiveFlags](https://msdn.microsoft.com/library/windows/desktop/aa383154.aspx) method and checks the TF\_TMF\_IMMERSIVEMODE flag, and can trigger different app logic depending on the result.
 
  
 
@@ -126,7 +126,7 @@ Make sure that your candidate pane’s UI (and other UI elements) are not drawn 
 
 **Searching**
 
-In Windows 8, Windows Store apps can easily provide their users with search features by implementing the [search contract](http://msdn.microsoft.com/library/windows/apps/hh464906.aspx#search-) and integrating with the Search pane. The Search pane is a central location for users to perform searches across all their apps. Windows helps apps that use the Search pane get their users where they want to go as fast as possible. In particular, for IME users, it provides a unique search experience that lets compatible IMEs integrate with the Windows 8 for greater efficiency and usability.
+In Windows 8, Windows Store apps can easily provide their users with search features by implementing the [search contract](https://msdn.microsoft.com/library/windows/apps/hh464906.aspx#search-) and integrating with the Search pane. The Search pane is a central location for users to perform searches across all their apps. Windows helps apps that use the Search pane get their users where they want to go as fast as possible. In particular, for IME users, it provides a unique search experience that lets compatible IMEs integrate with the Windows 8 for greater efficiency and usability.
 
 An IME is compatible with the integrated search experience if it meets these criteria:
 
@@ -153,8 +153,8 @@ All third-party IMEs must be digitally signed in order to be installed onto the 
 
 -   **Use an Authenticode signature to digitally sign programs**
     -   Obtain a valid Authenticode code signing certificate from one of the many certificate authorities supported by Windows
-    -   Use development tools (such as [signtool.exe](http://msdn.microsoft.com/library/aa387764.aspx)) to sign the apps prior to distribution
-    -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](http://blogs.msdn.com/b/ieinternals/archive/2011/03/22/authenticode-code-signing-for-developers-for-file-downloads-building-smartscreen-application-reputation.aspx) blog entry
+    -   Use development tools (such as [signtool.exe](https://msdn.microsoft.com/library/aa387764.aspx)) to sign the apps prior to distribution
+    -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](https://blogs.msdn.com/b/ieinternals/archive/2011/03/22/authenticode-code-signing-for-developers-for-file-downloads-building-smartscreen-application-reputation.aspx) blog entry
 -   **Ensure downloads are not detected as malware**
     -   Downloaded programs that are detected and confirmed as malware affect both the download’s reputation and the reputation of the digital certificate used to sign that file
 -   **Apply for Windows certification**
@@ -162,10 +162,10 @@ All third-party IMEs must be digitally signed in order to be installed onto the 
 
 For more info, see these articles about digital signatures and code signing:
 
--   [Authenticode Overview](http://msdn.microsoft.com/library/ms537359.aspx)
--   [Ensuring Integrity and Authenticity](http://msdn.microsoft.com/library/ms537361.aspx#ensuring-integrity-a)
--   [Code Signing Best Practices](http://msdn.microsoft.com/windows/hardware/gg487309.aspx)
--   [What are Digital Certificates?](http://msdn.microsoft.com/library/Aa190113)
+-   [Authenticode Overview](https://msdn.microsoft.com/library/ms537359.aspx)
+-   [Ensuring Integrity and Authenticity](https://msdn.microsoft.com/library/ms537361.aspx#ensuring-integrity-a)
+-   [Code Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
+-   [What are Digital Certificates?](https://msdn.microsoft.com/library/Aa190113)
 
 If an IME **is not** signed, the user receives this warning message when they try to download the IME:
 
@@ -183,17 +183,17 @@ IMEs that are malicious or that do not follow the Windows 8 IME Guidelines can 
 
 ## Resources
 
--   [ITfThreadMgrEx::Get Active Flags method](http://go.microsoft.com/fwlink/p/?LinkId=325492)
--   [SignTool](http://go.microsoft.com/fwlink/p/?LinkId=325493)
--   [Everything you need to know about Authenticode Code Signing](http://go.microsoft.com/fwlink/p/?LinkId=325494)
--   [Windows app contracts and extensions](http://go.microsoft.com/fwlink/p/?LinkId=325495)
--   [Certification requirements for Windows 8 desktop apps](http://go.microsoft.com/fwlink/p/?LinkId=325496)
--   [Certification requirements for Windows apps](http://go.microsoft.com/fwlink/p/?LinkId=235357)
--   [Using the Windows App Certification Kit](http://go.microsoft.com/fwlink/p/?LinkId=325497)
--   [Authenticode Overview](http://go.microsoft.com/fwlink/p/?LinkId=325498)
--   [Ensuring Integrity and Authenticity](http://go.microsoft.com/fwlink/p/?LinkId=325499)
--   [Code Signing Best Practices](http://go.microsoft.com/fwlink/p/?LinkId=325500)
--   [What are Digital Certificates?](http://go.microsoft.com/fwlink/p/?LinkId=325501)
+-   [ITfThreadMgrEx::Get Active Flags method](https://go.microsoft.com/fwlink/p/?LinkId=325492)
+-   [SignTool](https://go.microsoft.com/fwlink/p/?LinkId=325493)
+-   [Everything you need to know about Authenticode Code Signing](https://go.microsoft.com/fwlink/p/?LinkId=325494)
+-   [Windows app contracts and extensions](https://go.microsoft.com/fwlink/p/?LinkId=325495)
+-   [Certification requirements for Windows 8 desktop apps](https://go.microsoft.com/fwlink/p/?LinkId=325496)
+-   [Certification requirements for Windows apps](https://go.microsoft.com/fwlink/p/?LinkId=235357)
+-   [Using the Windows App Certification Kit](https://go.microsoft.com/fwlink/p/?LinkId=325497)
+-   [Authenticode Overview](https://go.microsoft.com/fwlink/p/?LinkId=325498)
+-   [Ensuring Integrity and Authenticity](https://go.microsoft.com/fwlink/p/?LinkId=325499)
+-   [Code Signing Best Practices](https://go.microsoft.com/fwlink/p/?LinkId=325500)
+-   [What are Digital Certificates?](https://go.microsoft.com/fwlink/p/?LinkId=325501)
 
  
 

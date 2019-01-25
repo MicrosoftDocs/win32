@@ -65,11 +65,11 @@ On Windows Vista, the Photo Print Wizard supports any image file format for whi
 -   TIFF
 -   Windows Media Photo format
 
-For more information about WIC and WIC codecs, see [Windows Imaging Component](http://msdn.microsoft.com/library/ms737408(VS.85).aspx)
+For more information about WIC and WIC codecs, see [Windows Imaging Component](https://msdn.microsoft.com/library/ms737408(VS.85).aspx)
 
 ## Programmatically Launching the Photo Print Wizard
 
-To invoke the Photo Printing Wizard, call the [IDropTarget](http://msdn.microsoft.com/library/ms679679(VS.85).aspx) interface with the following class identifier (CLSID):
+To invoke the Photo Printing Wizard, call the [IDropTarget](https://msdn.microsoft.com/library/ms679679(VS.85).aspx) interface with the following class identifier (CLSID):
 
 
 ```
@@ -79,7 +79,7 @@ static const CLSID CLSID_PrintPhotosDropTarget =
 
 
 
-The files to be processed by the Photo Printing Wizard are specified in an [IDataObject](http://msdn.microsoft.com/library/ms688421(VS.85).aspx) object.
+The files to be processed by the Photo Printing Wizard are specified in an [IDataObject](https://msdn.microsoft.com/library/ms688421(VS.85).aspx) object.
 
 The following code example demonstrates how to invoke the Photo Printing Wizard.
 

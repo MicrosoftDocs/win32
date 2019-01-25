@@ -60,7 +60,7 @@ The following interfaces use linear-tapered curves for their volume settings:
 -   [**IChannelAudioVolume**](/windows/desktop/api/Audioclient/nn-audioclient-ichannelaudiovolume)
 -   [**IAudioStreamVolume**](/windows/desktop/api/Audioclient/nn-audioclient-iaudiostreamvolume)
 
-For more information about these interfaces, see [Session Volume Controls](session-volume-controls.md). And for information about the volume ranges and the default volume levels in the various versions of Windows, see [Default Audio Volume Settings](http://msdn.microsoft.com/en-us/library/windows/hardware/ff536251.aspx).
+For more information about these interfaces, see [Session Volume Controls](session-volume-controls.md). And for information about the volume ranges and the default volume levels in the various versions of Windows, see [Default Audio Volume Settings](https://msdn.microsoft.com/en-us/library/windows/hardware/ff536251.aspx).
 
 ## Related topics
 

@@ -27,7 +27,7 @@ By default, WMI events are not traced. This procedure describes how to use **Eve
 **To view WMI Events in Event Viewer**
 
 1.  Open **Event Viewer**. On the **View** menu, click **Show Analytic and Debug Logs**. Locate the **Trace** channel log for WMI under Applications and Service Logs \| Microsoft \| Windows \| WMI Activity.
-2.  Right-click the **Trace** log and select **Log Properties**. Click the **Enable Logging** check box to start the WMI event tracing. For more information about channels, see [Event Logs and Channels in Windows Event Log](http://go.microsoft.com/fwlink/p/?linkid=157292).
+2.  Right-click the **Trace** log and select **Log Properties**. Click the **Enable Logging** check box to start the WMI event tracing. For more information about channels, see [Event Logs and Channels in Windows Event Log](https://go.microsoft.com/fwlink/p/?linkid=157292).
 3.  WMI events appear in the event window for **WMI-Activity**. Double-click an event in the list to see the detailed information. You can view an event in **XML View** or in **Friendly View** format.
 
 The **Event ID** field displays a value that contains the following information.
@@ -78,15 +78,15 @@ Only the **GroupOperationID** is shown.
 
 ## Enabling WMI Tracing at Command Prompt
 
-You can also enable WMI event tracing through the Wevtutil command-line tool. Use the following command: **Wevtutil.exe sl Microsoft-Windows-WMI-Activity/Trace /e:true**. The WMI event source is Microsoft-Windows-WMI. For more information about Wevtutil.exe, see [About Windows Event Log](http://go.microsoft.com/fwlink/p/?linkid=157291).
+You can also enable WMI event tracing through the Wevtutil command-line tool. Use the following command: **Wevtutil.exe sl Microsoft-Windows-WMI-Activity/Trace /e:true**. The WMI event source is Microsoft-Windows-WMI. For more information about Wevtutil.exe, see [About Windows Event Log](https://go.microsoft.com/fwlink/p/?linkid=157291).
 
 ## Using WPP-based WMI Tracing
 
 In Windows operating systems starting with Windows Vista, WMI creates an active trace channel during the boot process. The name of the channel is WMI\_Trace\_Session. Only errors are logged to the channel.
 
-The Windows software trace preprocessor (WPP) records information in a binary file. To read the file, you must first translate it into a readable, text format. You use a tool called tracefmt.exe from the [Windows Driver Kit (WDK)](http://go.microsoft.com/fwlink/p/?linkid=96667) to do the translation. The tool requires information stored in some associated files. The files are located in the %SystemRoot%\\System32\\wbem\\tmf directory and have a .tmf file name extension. The tool actually requires a single .tmf file . You make that single file by concatenating all of the .tmf files into another .tmf file. For more information about .tmf files, see [Trace Message Format File](https://msdn.microsoft.com/library/windows/hardware/ff553922.aspx).
+The Windows software trace preprocessor (WPP) records information in a binary file. To read the file, you must first translate it into a readable, text format. You use a tool called tracefmt.exe from the [Windows Driver Kit (WDK)](https://go.microsoft.com/fwlink/p/?linkid=96667) to do the translation. The tool requires information stored in some associated files. The files are located in the %SystemRoot%\\System32\\wbem\\tmf directory and have a .tmf file name extension. The tool actually requires a single .tmf file . You make that single file by concatenating all of the .tmf files into another .tmf file. For more information about .tmf files, see [Trace Message Format File](https://msdn.microsoft.com/library/windows/hardware/ff553922.aspx).
 
-After installing the [Windows Driver Kit (WDK)](http://go.microsoft.com/fwlink/p/?linkid=96667) to get the tracelog.exe and tracefmt.exe command-line tools, perform the following steps to collect a WPP-based WMI trace.
+After installing the [Windows Driver Kit (WDK)](https://go.microsoft.com/fwlink/p/?linkid=96667) to get the tracelog.exe and tracefmt.exe command-line tools, perform the following steps to collect a WPP-based WMI trace.
 
 **To view a WPP-based WMI trace**
 
@@ -95,7 +95,7 @@ After installing the [Windows Driver Kit (WDK)](http://go.microsoft.com/fwlink/p
 2.  Type **copy /y %SystemRoot%\\System32\\wbem\\tmf\\\*.tmf %SystemRoot%\\System32\\wbem\\tmf\\wmi.tmf**. This will create a file named wmi.tmf that includes the contents of all of the other .tmf files.
 
 3.  Type **tracelog -flush WMI\_Trace\_Session**. This will flush the WPP buffers on the disk.
-4.  Type **set TRACE\_FORMAT\_PREFIX = \[%9!d!\]%8!04X!.%3!04X!.%3!04X!::%4!s!\[%1!s!\](%!COMPNAME!:%!FUNC !:%2!s!)**. The tracefmt tool adds some default information to each trace message. You can configure what information is included by setting the TRACE\_FORMAT\_PREFIX environment variable. To learn about the syntax used, see [Trace Message Prefix](http://go.microsoft.com/fwlink/p/?linkid=96662).
+4.  Type **set TRACE\_FORMAT\_PREFIX = \[%9!d!\]%8!04X!.%3!04X!.%3!04X!::%4!s!\[%1!s!\](%!COMPNAME!:%!FUNC !:%2!s!)**. The tracefmt tool adds some default information to each trace message. You can configure what information is included by setting the TRACE\_FORMAT\_PREFIX environment variable. To learn about the syntax used, see [Trace Message Prefix](https://go.microsoft.com/fwlink/p/?linkid=96662).
 5.  Type **tracefmt -tmf %systemroot%\\system32\\wbem\\tmf\\wmi.tmf -o OUTPUT.TXT %systemroot%\\system32\\wbem\\logs\\WMITracing.log**. This performs the translation from binary format to readable text format.
 6.  Type **notepad %systemroot%\\system32\\wbem\\tmf\\OUTPUT.TXT**. This will open the trace file in Notepad.
 

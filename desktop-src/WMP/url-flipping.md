@@ -52,7 +52,7 @@ Next, create the player.html file referenced in the frameset by using the follow
 <HTML>
 <BODY>
 <OBJECT ID="Player" CLASSID="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">
-  <PARAM name="URL" value="http://www.proseware.com/Media/video.wmv"/>
+  <PARAM name="URL" value="https://www.proseware.com/Media/video.wmv"/>
   <PARAM name="defaultFrame" value="content"/>
 </OBJECT>
 </BODY>

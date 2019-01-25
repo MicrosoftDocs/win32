@@ -17,7 +17,7 @@ Choose a long file name extension that you want to use to identify the file type
 
 ### Step 2:
 
-Check the [Internet Assigned Numbers Authority (IANA)](http://go.microsoft.com/fwlink/p/?linkid=161569) MIME database to determine whether the file name extension is already associated with another application.
+Check the [Internet Assigned Numbers Authority (IANA)](https://go.microsoft.com/fwlink/p/?linkid=161569) MIME database to determine whether the file name extension is already associated with another application.
 
 ### Step 3:
 

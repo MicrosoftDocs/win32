@@ -41,7 +41,7 @@ Games need accurate timing information, but you also need to implement timing co
 
 Many developers have made assumptions about the behavior of RDTSC over many years, so it is quite likely that some existing applications will exhibit problems when run on a system with multiple processors or cores due to the timing implementation. These problems will usually manifest as glitching or slow-motion movement. There is no easy remedy for applications that are not aware of power management, but there is an existing shim for forcing an application to always run on a single processor in a multiprocessor system.
 
-To create this shim, download the Microsoft Application Compatibility Toolkit from [Windows Application Compatibility](http://www.microsoft.com/windows/appcompatibility/).
+To create this shim, download the Microsoft Application Compatibility Toolkit from [Windows Application Compatibility](https://www.microsoft.com/windows/appcompatibility/).
 
 Using the Compatibility Administrator, part of the toolkit, create a database of your application and associated fixes. Create a new compatibility mode for this database and select the compatibility fix **SingleProcAffinity** to force all of the threads of the application to run on a single processor/core. By using the command-line tool Fixpack.exe (also part of the toolkit), you can convert this database into an installable package for installation, testing, and distribution.
 
@@ -49,8 +49,8 @@ For instruction on using Compatibility Administrator, see the toolkit's document
 
 For customer-oriented information, see the following knowledge base articles from Microsoft Help and Support:
 
--   [Programs that user the QueryPerformanceCounter function may perform poorly in Windows Server 2003 and in Windows XP](http://support.microsoft.com/kb/895980) (article 895980)
--   [Game performance may be poor on a Windows XP-based computer that is using a dual-core processor](http://support.microsoft.com/kb/909944) (article 909944)
+-   [Programs that user the QueryPerformanceCounter function may perform poorly in Windows Server 2003 and in Windows XP](https://support.microsoft.com/kb/895980) (article 895980)
+-   [Game performance may be poor on a Windows XP-based computer that is using a dual-core processor](https://support.microsoft.com/kb/909944) (article 909944)
 
  
 

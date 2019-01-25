@@ -12,7 +12,7 @@ The **PKEY\_AudioEndpoint\_Disable\_SysFx** property specifies whether system ef
 
 System effects are implemented as audio processing objects (APOs) that can be inserted into an audio stream. APOs are software modules that perform audio processing functions such as volume control and format conversion. Disabling the system effects for an endpoint device enables the associated stream to pass through the APOs unmodified.
 
-For more information about system effects in Windows Vista, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing Windows Vista Audio System Effects" at the [Audio Device Technologies for Windows](http://go.microsoft.com/fwlink/p/?linkid=62989) website.
+For more information about system effects in Windows Vista, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing Windows Vista Audio System Effects" at the [Audio Device Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=62989) website.
 
 This property applies only to the local-effects and global-effects APOs that were installed by the .inf file that installed the audio adapter to which the endpoint device is connected. In addition, this property affects only the target endpoint device—it has no effect on the system effects for any other endpoint devices, even if they connect to the same adapter.
 

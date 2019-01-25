@@ -37,7 +37,7 @@ In Windows 7 and later, we recommend that you install a filter handler in conj
 
 If only a filter handler is installed without a corresponding property handler, then automatic re-indexing occurs either after a restart of the indexing service, or a restart of the system.
 
-For property description flags specific to Windows 7, see the following reference topics: [GETPROPERTYSTOREFLAGS](http://msdn.microsoft.com/en-us/library/bb762582(VS.85).aspx), [PROPDESC\_COLUMNINDEX\_TYPE](http://msdn.microsoft.com/en-us/library/bb762587(VS.85).aspx) and [PROPDESC\_SEARCHINFO\_FLAGS](http://msdn.microsoft.com/en-us/library/bb762588(VS.85).aspx).
+For property description flags specific to Windows 7, see the following reference topics: [GETPROPERTYSTOREFLAGS](https://msdn.microsoft.com/en-us/library/bb762582(VS.85).aspx), [PROPDESC\_COLUMNINDEX\_TYPE](https://msdn.microsoft.com/en-us/library/bb762587(VS.85).aspx) and [PROPDESC\_SEARCHINFO\_FLAGS](https://msdn.microsoft.com/en-us/library/bb762588(VS.85).aspx).
 
 ### Windows Vista Implementation
 
@@ -45,17 +45,17 @@ In Windows Vista and earlier, installing an [**IFilter**](https://msdn.microsof
 
 There are two major differences between legacy applications like Indexing Service and newer applications like Windows Search that you should be aware of when implementing filters:
 
-- Use of the [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) interface.
+- Use of the [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) interface.
 - Use of property handlers.
 
-First, Windows Vista and Windows Search 3.0 and later require you use [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) for the following reasons:
+First, Windows Vista and Windows Search 3.0 and later require you use [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) for the following reasons:
 
 - To ensure performance and future compatibility.
-- To help increase security. Filters implemented with [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) are more secure because the context in which the filter runs does not need the rights to open files on the disk or over the network.
+- To help increase security. Filters implemented with [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx) are more secure because the context in which the filter runs does not need the rights to open files on the disk or over the network.
 
-While Windows Search uses only [IPersistStream](http://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx), you can also include [IPersistFile Interface](http://msdn.microsoft.com/en-us/library/ms687223(VS.85).aspx) and/or [IPersistStorage Interface](http://msdn.microsoft.com/en-us/library/ms679731(VS.85).aspx) implementations in your filters for backward compatibility.
+While Windows Search uses only [IPersistStream](https://msdn.microsoft.com/en-us/library/ms690091(VS.85).aspx), you can also include [IPersistFile Interface](https://msdn.microsoft.com/en-us/library/ms687223(VS.85).aspx) and/or [IPersistStorage Interface](https://msdn.microsoft.com/en-us/library/ms679731(VS.85).aspx) implementations in your filters for backward compatibility.
 
-The second major difference is that Windows Vista and Windows Search 3.0 and later have a new [Property System](http://msdn.microsoft.com/en-us/library/Cc144125(VS.85).aspx) that uses property handlers to enumerate properties of items.
+The second major difference is that Windows Vista and Windows Search 3.0 and later have a new [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(VS.85).aspx) that uses property handlers to enumerate properties of items.
 
 However, there are times when you need to implement a filter that handles both content and properties in order to:
 
@@ -70,7 +70,7 @@ In these situations, you need a full filter implementation, including the [**IFi
 
 As noted earlier, Windows Vista and Windows Search include a new property system that encapsulates an item's properties that is separate from an item's content. This property system does not exist in earlier versions of Microsoft Windows Desktop Search (WDS) 2.x. If your filter must support other applications as described above, it may need to handle both content and properties.
 
-For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](http://msdn.microsoft.com/en-us/library/ms691105(VS.85).aspx), and [Developing Filter Add-ins (for legacy applications)](https://msdn.microsoft.com/library/Aa965717(v=VS.85).aspx).
+For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](https://msdn.microsoft.com/en-us/library/ms691105(VS.85).aspx), and [Developing Filter Add-ins (for legacy applications)](https://msdn.microsoft.com/library/Aa965717(v=VS.85).aspx).
 
 ## Windows Search Filters
 
@@ -219,8 +219,8 @@ When a registered binary file is encountered, the null filter handler is used. T
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
-- For an overview of file types, see [File Types](http://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
-- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](http://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- For an overview of file types, see [File Types](https://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
 
 ## Related topics
 

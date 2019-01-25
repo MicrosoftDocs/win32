@@ -16,10 +16,10 @@ The following procedure defines how to create the SEL event subscription to retr
 1.  Save the following XML in an .xml file (in this example the file is named Wsmanselrg.xml). This XML defines the subscription.
 
     ```XML
-    <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
+    <Subscription xmlns="https://schemas.microsoft.com/2006/03/windows/events/subscription">
         <Description>A subscription for the HardwareEvents</Description>
         <SubscriptionId>WSManSelRg</SubscriptionId>
-        <Uri>http://schemas.microsoft.com/wbem/wsman/1/logrecord/sel</Uri>
+        <Uri>https://schemas.microsoft.com/wbem/wsman/1/logrecord/sel</Uri>
         <EventSources>
             <EventSource>
                 <Address>LOCALHOST</Address>
@@ -44,7 +44,7 @@ The following procedure defines how to create the SEL event subscription to retr
 
     **Wecutil gr** *wsmanselrg*
 
-The BMC is a microcontroller attached locally to a server. BMCs have sensors that monitor the physical state of the server and a separate network connection that can communicate over the network, even if the server is offline. You have access to BMC data through the Intelligent Platform Management Interface (IPMI) WMI Provider. For more information about the IPMI provider, see [IPMI Provider](http://go.microsoft.com/fwlink/p/?linkid=98107).
+The BMC is a microcontroller attached locally to a server. BMCs have sensors that monitor the physical state of the server and a separate network connection that can communicate over the network, even if the server is offline. You have access to BMC data through the Intelligent Platform Management Interface (IPMI) WMI Provider. For more information about the IPMI provider, see [IPMI Provider](https://go.microsoft.com/fwlink/p/?linkid=98107).
 
 The computer must have the BMC and the IPMI provider installed for the event subscription to work. For computers running on Windows Server 2008, the IPMI provider is installed by default. If the BMC is not available, then IPMI driver cannot be installed and the subscription runtime status will always display an error (0x8004001 - WMI Generic Failure).
 

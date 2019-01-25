@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Representing Attributes as Feature/Option Constructs or as Parameters
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 The author of a PrintCapabilities document defines device attributes that make up the configuration. In the PrintCapabilities document, the author can choose to represent a device attribute either as a Feature/Option construct or as a parameter construct.
 
@@ -20,7 +20,7 @@ If a device attribute can be represented by a range of integers, parameter repre
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

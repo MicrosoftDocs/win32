@@ -30,7 +30,7 @@ UIA Verify consists of an API called the UI Automation Test Library, and a GUI i
 
 UI Automation must be present on the system. For more information, see the "Requirements" section of [UI Automation](entry-uiauto-win32.md).
 
-UIA Verify is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](http://go.microsoft.com/fwlink/p/?LinkID=271979) (There's also an SDK download archive linked from that page, if you need a previous version.)
+UIA Verify is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](https://go.microsoft.com/fwlink/p/?LinkID=271979) (There's also an SDK download archive linked from that page, if you need a previous version.)
 
 To run UIA Verify as a visual tool, find VisualUIAVerifyNative.exe in the \\bin\\<*platform*>\\UIAVerify folder and run it (you don't typically have to run as administrator). For more information, see [Visual UI Automation Verify](visual-ui-automation-verify.md). To use the libraries, see [UI Automation Test Library](ui-automation-test-library.md).
 

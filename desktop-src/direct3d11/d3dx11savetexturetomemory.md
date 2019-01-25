@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **CaptureTexture** then **SaveToXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+> Instead of using this function, we recommend that you use the [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) library, **CaptureTexture** then **SaveToXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 
  
 

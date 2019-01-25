@@ -80,7 +80,7 @@ The following example demonstrates how to retrieve a tree-view item's check stat
 [Using Tree-View Controls](using-treeview.md)
 </dt> <dt>
 
-[CustDTv sample illustrates custom draw in a Tree-View control](http://go.microsoft.com/fwlink/p/?linkid=198348)
+[CustDTv sample illustrates custom draw in a Tree-View control](https://go.microsoft.com/fwlink/p/?linkid=198348)
 </dt> </dl>
 
  

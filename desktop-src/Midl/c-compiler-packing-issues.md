@@ -68,10 +68,10 @@ For packing level 1, the structure is aligned at 1 and its size is 6. The struct
 
 </dt> <dt>
 
-[/Zp](Http://go.microsoft.com/fwlink/p/?linkid=83956)
+[/Zp](https://go.microsoft.com/fwlink/p/?linkid=83956)
 </dt> <dt>
 
-[/pack](Http://go.microsoft.com/fwlink/p/?linkid=83955)
+[/pack](https://go.microsoft.com/fwlink/p/?linkid=83955)
 </dt> </dl>
 
  

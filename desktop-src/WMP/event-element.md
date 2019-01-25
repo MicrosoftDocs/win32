@@ -80,7 +80,7 @@ Windows Media Player discards events it receives while processing another event.
 
 ## Examples
 
-In this example, when Windows Media Player receives the script command EVENT and command string "Adlink" in the streaming media it is rendering, it searches the playlist for an **EVENTNAME** "Adlink". Windows Media Player switches from the stream it is rendering and plays the content referenced in the **EVENT**, "http://example.microsoft.com/adlink.htm".
+In this example, when Windows Media Player receives the script command EVENT and command string "Adlink" in the streaming media it is rendering, it searches the playlist for an **EVENTNAME** "Adlink". Windows Media Player switches from the stream it is rendering and plays the content referenced in the **EVENT**, "https://example.microsoft.com/adlink.htm".
 
 **ENTRY** attribute **CLIENTSKIP** is set to NO to prevent the **EVENT** clip from being skipped. It must be played.
 
@@ -90,10 +90,10 @@ The script `WHENDONE="RESUME"` instructs Windows Media Player to resume playing 
 ```XML
 <ASX VERSION="3.0">
 <ENTRY CLIENTSKIP="NO">
-   <REF HREF="http://example.microsoft.com/clip1.asf" />
+   <REF HREF="https://example.microsoft.com/clip1.asf" />
 </ENTRY>
 <EVENT NAME="Adlink" WHENDONE="RESUME">
-   <ENTRYREF HREF="http://example.microsoft.com/adlink.htm" 
+   <ENTRYREF HREF="https://example.microsoft.com/adlink.htm" 
        CLIENTSKIP="NO" />
 </EVENT>
 </ASX>

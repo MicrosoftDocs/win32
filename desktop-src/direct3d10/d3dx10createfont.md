@@ -21,7 +21,7 @@ api_location:
 Creates a font object for a device and font.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/en-us/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
+> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/en-us/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
 
  
 
@@ -169,7 +169,7 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXCreateFontW. Otherwise, the function call resolves to D3DXCreateFontA because ANSI strings are being used.
 
-If you want more information about font parameters, see [The Logical Font](http://msdn2.microsoft.com/en-us/library/ms533985.aspx).
+If you want more information about font parameters, see [The Logical Font](https://msdn2.microsoft.com/en-us/library/ms533985.aspx).
 
 ## Requirements
 

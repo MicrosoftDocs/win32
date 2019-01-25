@@ -160,7 +160,7 @@ The location of the bitmap is (0, 0) or the value of the center point property.
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D interpolation modes sample](http://go.microsoft.com/fwlink/p/?linkid=253990).
+For an example of this effect, download the [Direct2D interpolation modes sample](https://go.microsoft.com/fwlink/p/?linkid=253990).
 
 ## Requirements
 

@@ -333,7 +333,7 @@ Next</code></pre></td>
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
  

@@ -63,7 +63,7 @@ When you create a render target, you must specify its pixel format. To specify t
 
 The [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure has two fields:
 
--   **format**, a [DXGI\_FORMAT](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) value that describes the size and arrangement of channels in each pixel, and
+-   **format**, a [DXGI\_FORMAT](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) value that describes the size and arrangement of channels in each pixel, and
 -   **alpha**, a [**D2D1\_ALPHA\_MODE**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) value that describes how alpha information is interpreted.
 
 The following example creates a [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure and uses it to specify the pixel format and alpha mode of an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx).
@@ -168,7 +168,7 @@ To force a render target to use software rendering, use the [**D2D1\_RENDER\_TAR
 
  
 
-Regardless of whether the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) is hardware accelerated, the [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses [DXGI\_FORMAT\_B8G8R8A8](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses **D2D1\_ALPHA\_MODE\_IGNORE** by default.
+Regardless of whether the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) is hardware accelerated, the [DXGI\_FORMAT\_UNKNOWN](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses [DXGI\_FORMAT\_B8G8R8A8](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses **D2D1\_ALPHA\_MODE\_IGNORE** by default.
 
 ## Supported formats for ID2D1DeviceContext
 
@@ -200,7 +200,7 @@ A compatible render target (an [**ID2D1BitmapRenderTarget**](https://msdn.micros
 
  
 
-The [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses the parent render target format by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses **D2D1\_ALPHA\_MODE\_PREMULTIPLIED** by default.
+The [DXGI\_FORMAT\_UNKNOWN](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses the parent render target format by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses **D2D1\_ALPHA\_MODE\_PREMULTIPLIED** by default.
 
 ## Supported Formats for DXGI Surface Render Target
 
@@ -228,7 +228,7 @@ A DXGI render target is an [**ID2D1RenderTarget**](https://msdn.microsoft.com/en
 
  
 
-The [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses the DXGI surface format by default. Do not use the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode with a DXGI surface render target. It has no default value and will cause the DXGI surface render target creation to fail.
+The [DXGI\_FORMAT\_UNKNOWN](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses the DXGI surface format by default. Do not use the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode with a DXGI surface render target. It has no default value and will cause the DXGI surface render target creation to fail.
 
 ## Supported Formats for WIC Bitmap Render Target
 
@@ -254,7 +254,7 @@ A WIC bitmap render target is an [**ID2D1RenderTarget**](https://msdn.microsoft.
 
 The pixel format of the WIC bitmap target must match the pixel format of the WIC bitmap.
 
-The[DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses the WIC bitmap format by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses WIC bitmap alpha mode by default.
+The[DXGI\_FORMAT\_UNKNOWN](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses the WIC bitmap format by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses WIC bitmap alpha mode by default.
 
 ## Supported Formats for ID2D1DCRenderTarget
 
@@ -271,7 +271,7 @@ An [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v
 
  
 
-Do not use the [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format or the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode with an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx). It has no default value and will cause the **ID2D1DCRenderTarget** creation to fail.
+Do not use the [DXGI\_FORMAT\_UNKNOWN](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) format or the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode with an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx). It has no default value and will cause the **ID2D1DCRenderTarget** creation to fail.
 
 ## Specifying a Pixel Format for an ID2D1Bitmap
 
@@ -382,7 +382,7 @@ You can use the [**SetTextAntialiasMode**](https://msdn.microsoft.com/en-us/libr
 [**D2D1\_ALPHA\_MODE**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode)
 </dt> <dt>
 
-[DXGI\_FORMAT](http://msdn.microsoft.com/library/bb173059(VS.85).aspx)
+[DXGI\_FORMAT](https://msdn.microsoft.com/library/bb173059(VS.85).aspx)
 </dt> </dl>
 
  

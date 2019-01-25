@@ -97,7 +97,7 @@ When authoring a Windows Media file, you can specify which frame the new URL is 
 
 ```JScript
 scType = "URL"
-Param = http://myweb/mypage.html&&myframe
+Param = https://myweb/mypage.html&&myframe
 
 ```
 

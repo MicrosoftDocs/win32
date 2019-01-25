@@ -92,7 +92,7 @@ while( dwHeight-- )
 
 
 
-For more information about video formats, see the [FourCC website](http://go.microsoft.com/fwlink/p/?linkid=10183).
+For more information about video formats, see the [FourCC website](https://go.microsoft.com/fwlink/p/?linkid=10183).
 
 ## Related topics
 

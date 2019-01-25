@@ -112,7 +112,7 @@ To set \_WIN32\_WINNT using the /D compiler option, use the following command:
 
 **cl -c /D\_WIN32\_WINNT=0x0502** *source***.cpp**
 
-For information on using the /D compiler option, see [/D (preprocessor definitions)](http://msdn.microsoft.com/library/hhzbb5c8.aspx).
+For information on using the /D compiler option, see [/D (preprocessor definitions)](https://msdn.microsoft.com/library/hhzbb5c8.aspx).
 
 Note that some features introduced in the latest version of Windows may be added to a service pack for a previous version of Windows. Therefore, to target a service pack, you may need to define \_WIN32\_WINNT with the value for the next major operating system release. For example, the [**GetDllDirectory**](https://msdn.microsoft.com/library/windows/desktop/ms683186) function was introduced in Windows Server 2003 and is conditionally defined if \_WIN32\_WINNT is 0x0502 or greater. This function was also added to Windows XP with SP1. Therefore, if you were to define \_WIN32\_WINNT as 0x0501 to target Windows XP, you would miss features that are defined in Windows XP with SP1.
 
@@ -120,7 +120,7 @@ Note that some features introduced in the latest version of Windows may be added
 
 Projects should be compiled to use the default structure packing, which is currently 8 bytes because the largest integral type is 8 bytes. Doing so ensures that all structure types within the header files are compiled into the application with the same alignment the Windows API expects. It also ensures that structures with 8-byte values are properly aligned and will not cause alignment faults on processors that enforce data alignment.
 
-For more information, see [/Zp (struct member alignment)](http://msdn.microsoft.com/library/xh3e3fd0.aspx) or [pack](http://msdn.microsoft.com/library/2e70t5y1.aspx).
+For more information, see [/Zp (struct member alignment)](https://msdn.microsoft.com/library/xh3e3fd0.aspx) or [pack](https://msdn.microsoft.com/library/2e70t5y1.aspx).
 
 ## Faster Builds with Smaller Header Files
 
@@ -138,7 +138,7 @@ You can reduce the size of the Windows header files by excluding some of the les
 
 <dl> <dt>
 
-[Windows SDK download site](Http://go.microsoft.com/fwlink/p/?linkid=84091)
+[Windows SDK download site](https://go.microsoft.com/fwlink/p/?linkid=84091)
 </dt> </dl>
 
  

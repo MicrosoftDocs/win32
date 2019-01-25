@@ -83,7 +83,7 @@ JScript:
     {
         var bReturn;
         
-        bReturn = ShellUIHelper.IsSubscribed("http://www.microsoft.com/");
+        bReturn = ShellUIHelper.IsSubscribed("https://www.microsoft.com/");
         alert(bReturn);
     }
 </script>
@@ -105,7 +105,7 @@ Private Sub fnShellUIHelperIsSubscribedVB()
     Dim bReturn          As Boolean
     
     Set objShellUIHelper = New ShellUIHelper
-        bReturn = objShellUIHelper.IsSubscribed("http://www.microsoft.com/")
+        bReturn = objShellUIHelper.IsSubscribed("https://www.microsoft.com/")
         Debug.Print bReturn
     Set objShellUIHelper = Nothing
 End Sub

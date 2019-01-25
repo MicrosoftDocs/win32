@@ -18,7 +18,7 @@ api_location:
 
 The **WLANPolicy** element contains a wireless LAN policy. This element is the unique root element for a wireless policy profile.
 
-The target namespace for the **WLANPolicy** element is `http://www.microsoft.com/networking/WLAN/policy/v1`.
+The target namespace for the **WLANPolicy** element is `https://www.microsoft.com/networking/WLAN/policy/v1`.
 
 ``` syntax
 <xs:element name="WLANPolicy">

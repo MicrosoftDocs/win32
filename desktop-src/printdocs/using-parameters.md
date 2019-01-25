@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Parameters
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 In addition to properly scoring an Option that contains ParameterRef instances (see [Referencing Parameters](referencing-parameters.md)), PrintCapabilities or PrintTicket providers and clients must be prepared to handle the following situations involving parameters.
 
@@ -22,7 +22,7 @@ If there is any dependency of the PrintCapabilities on the parameters specified 
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

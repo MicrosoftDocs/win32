@@ -254,7 +254,7 @@ On failure, if JET_bitNormalizedKey or JET_bitNewKey was specified, the state of
 
 Keys should be treated as opaque chunks of data. No attempt should be made to exploit the internal structure of this data. However, the following is known about all ESENT keys:
 
-  - Keys may be compared against each other using [memcmp](http://go.microsoft.com/fwlink/?linkid=180733) to establish their relative ordering in the originating index over the table of the source index entries.
+  - Keys may be compared against each other using [memcmp](https://go.microsoft.com/fwlink/?linkid=180733) to establish their relative ordering in the originating index over the table of the source index entries.
 
   - It is meaningless to compare keys of index entries from different indexes against each other.
 

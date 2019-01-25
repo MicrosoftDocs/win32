@@ -1551,7 +1551,7 @@ ID number of the parent server feature. This property is 0 if the feature repres
 
 ## Remarks
 
-Read the [Windows Server 2008 Server Manager Technical Overview](http://go.microsoft.com/fwlink/p/?linkid=109936) to learn about server features.
+Read the [Windows Server 2008 Server Manager Technical Overview](https://go.microsoft.com/fwlink/p/?linkid=109936) to learn about server features.
 
 Enterprises that do not use management software that reports server features, such as System Center Operations Manager with management packs installed, can get that information by querying the **Win32\_ServerFeature** class.
 

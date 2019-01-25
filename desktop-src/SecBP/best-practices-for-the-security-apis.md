@@ -8,17 +8,17 @@ ms.date: 05/31/2018
 
 # Best Practices for the Security APIs
 
-To help develop secure software, we recommend that you use the following best practices when developing applications. For more information, see [Security Developer Center](http://go.microsoft.com/fwlink/p/?linkid=122809).
+To help develop secure software, we recommend that you use the following best practices when developing applications. For more information, see [Security Developer Center](https://go.microsoft.com/fwlink/p/?linkid=122809).
 
 ## Security Development Life Cycle
 
-The [Security Development Life Cycle](http://go.microsoft.com/fwlink/p/?linkid=120814) (SDL) is a process that aligns a series of security-focused activities and deliverables to each phase of software development. These activities and deliverables include:
+The [Security Development Life Cycle](https://go.microsoft.com/fwlink/p/?linkid=120814) (SDL) is a process that aligns a series of security-focused activities and deliverables to each phase of software development. These activities and deliverables include:
 
 -   Developing threat models
 -   Using code-scanning tools
 -   Conducting code reviews and security testing
 
-For more information about the SDL, see the [SDL Blog](http://go.microsoft.com/fwlink/p/?linkid=120815).
+For more information about the SDL, see the [SDL Blog](https://go.microsoft.com/fwlink/p/?linkid=120815).
 
 ## Threat Models
 
@@ -26,7 +26,7 @@ Conducting a threat model analysis can help you discover potential points of att
 
 ## Service Packs and Security Updates
 
-Build and test environments should mirror the same levels of service packs and security updates of the targeted user base. We recommend that you install the latest service packs and security updates for any Microsoft platform or application that is part of your build and test environment and encourage your users to do the same for the finished application environment. For more information about service packs and security updates, see [Microsoft Windows Update](http://go.microsoft.com/fwlink/p/?linkid=84012) and [Microsoft Security](http://go.microsoft.com/fwlink/p/?linkid=84102).
+Build and test environments should mirror the same levels of service packs and security updates of the targeted user base. We recommend that you install the latest service packs and security updates for any Microsoft platform or application that is part of your build and test environment and encourage your users to do the same for the finished application environment. For more information about service packs and security updates, see [Microsoft Windows Update](https://go.microsoft.com/fwlink/p/?linkid=84012) and [Microsoft Security](https://go.microsoft.com/fwlink/p/?linkid=84102).
 
 ## Authorization
 

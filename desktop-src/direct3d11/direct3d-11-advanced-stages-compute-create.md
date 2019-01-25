@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How To: Create a Compute Shader
 
-A compute shader is an Microsoft High Level Shader Language (HLSL) programmable shader that uses generalized input and output memory access to support virtually any type of calculation. This topic shows how to create a compute shader. The compute shader technology is also known as the [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) technology.
+A compute shader is an Microsoft High Level Shader Language (HLSL) programmable shader that uses generalized input and output memory access to support virtually any type of calculation. This topic shows how to create a compute shader. The compute shader technology is also known as the [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) technology.
 
 **To create a compute shader:**
 

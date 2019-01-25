@@ -16,7 +16,7 @@ The LFH is not a separate heap. Instead, it is a policy that applications can en
 
 An application should enable the LFH only for the default heap of the calling process or for [private heaps](heap-functions.md) that the application has created. To enable the LFH for a heap, use the [**GetProcessHeap**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap) function to obtain a handle to the default heap of the calling process, or use the handle to a private heap created by the [**HeapCreate**](/windows/desktop/api/HeapApi/nf-heapapi-heapcreate) function. Then call the [**HeapSetInformation**](/windows/desktop/api/HeapApi/nf-heapapi-heapsetinformation) function with the handle.
 
-The LFH cannot be enabled for heaps created with **HEAP\_NO\_SERIALIZE** or for heaps created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in [Debugging Tools for Windows](http://go.microsoft.com/fwlink/p/?linkid=153784) or [Microsoft Application Verifier](http://go.microsoft.com/fwlink/p/?linkid=153785).
+The LFH cannot be enabled for heaps created with **HEAP\_NO\_SERIALIZE** or for heaps created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in [Debugging Tools for Windows](https://go.microsoft.com/fwlink/p/?linkid=153784) or [Microsoft Application Verifier](https://go.microsoft.com/fwlink/p/?linkid=153785).
 
 After the LFH has been enabled for a heap, it cannot be disabled.
 

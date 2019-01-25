@@ -615,7 +615,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The [IANA ifType MIB](http://www.iana.org/assignments/ianaiftype-mib). This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264), and it is always set to 1 (Other).
+The [IANA ifType MIB](https://www.iana.org/assignments/ianaiftype-mib). This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264), and it is always set to 1 (Other).
 
 </dd> <dt>
 

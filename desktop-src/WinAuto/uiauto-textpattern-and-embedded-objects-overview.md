@@ -70,7 +70,7 @@ This section presents examples of common scenarios that involve embedded objects
 
 The following text range contains an embedded text hyperlink.
 
-  {The URL http://www.microsoft.com is embedded in text}.
+  {The URL https://www.microsoft.com is embedded in text}.
 
 Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext), [**GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement), [**GetChildren**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren), and [**IUIAutomationTextPattern::RangeFromChild**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild) methods results in the behaviors described in the following table.
 
@@ -78,10 +78,10 @@ Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomat
 
 | Method called                                                                                                                                                                                                                                                     | Result                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext)                                                                                                                                                                                  | Returns the string "The URL http://www.microsoft.com is embedded in text".                                                                               |
+| [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext)                                                                                                                                                                                  | Returns the string "The URL https://www.microsoft.com is embedded in text".                                                                               |
 | [**IUIAutomationTextRange::GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement)                                                                                                                                                          | Returns the innermost UI Automation element that encloses the text range, in this case, the automation element that represents the text provider itself. |
 | [**IUIAutomationTextRange::GetChildren**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren)                                                                                                                                                                          | Returns a UI Automation element representing the hyperlink control.                                                                                      |
-| [**IUIAutomationTextPattern::RangeFromChild**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild), where the UI Automation element was returned by the previous [**IUIAutomationTextRange::GetChildren**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren) method. | Returns the range that represents "http://www.microsoft.com".                                                                                            |
+| [**IUIAutomationTextPattern::RangeFromChild**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild), where the UI Automation element was returned by the previous [**IUIAutomationTextRange::GetChildren**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren) method. | Returns the range that represents "https://www.microsoft.com".                                                                                            |
 
 
 
@@ -91,7 +91,7 @@ Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomat
 
 The following text range partially spans an embedded text hyperlink.
 
-  The URL http://{www} is embedded in text.
+  The URL https://{www} is embedded in text.
 
 Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext), [**GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement), and [**GetChildren**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren) methods results in the behaviors described in the following table.
 
@@ -111,7 +111,7 @@ Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomat
 
 The following text range partially spans the content of a text container. The text container has an embedded text hyperlink that is not part of the text range.
 
-  {The URL} http://www.microsoft.com is embedded in text.
+  {The URL} https://www.microsoft.com is embedded in text.
 
 Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext), [**GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement), and [**Move**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move) methods results in the behaviors described in the following table.
 
@@ -121,7 +121,7 @@ Calling the [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomat
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IUIAutomationTextRange::GetText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext)                         | Returns the string "The URL".                                                                                                                                                                                                     |
 | [**IUIAutomationTextRange::GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement) | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself.                                                                                     |
-| [**IUIAutomationTextRange::Move**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move)                               | Moves the text range span to "http://" because the text of the hyperlink is made up of individual words. In this case, the hyperlink is not treated as a single object.<br/> The URL {http} is embedded in text.<br/> |
+| [**IUIAutomationTextRange::Move**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move)                               | Moves the text range span to "https://" because the text of the hyperlink is made up of individual words. In this case, the hyperlink is not treated as a single object.<br/> The URL {http} is embedded in text.<br/> |
 
 
 

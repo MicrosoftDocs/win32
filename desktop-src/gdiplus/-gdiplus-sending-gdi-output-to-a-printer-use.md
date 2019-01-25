@@ -54,21 +54,21 @@ INT main()
 
 
 
-In the preceding code, the three GDI+ drawing commands are in between calls to the [StartDoc](http://msdn.microsoft.com/library/en-us/gdi/prntspol_95sz.asp) and [EndDoc](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0qhv.asp) functions, each of which receives the printer device context handle. All graphics commands between StartDoc and EndDoc are routed to a temporary metafile. After the call to EndDoc, the printer driver converts the data in the metafile into the format required by the specific printer being used.
+In the preceding code, the three GDI+ drawing commands are in between calls to the [StartDoc](https://msdn.microsoft.com/library/en-us/gdi/prntspol_95sz.asp) and [EndDoc](https://msdn.microsoft.com/library/en-us/gdi/prntspol_0qhv.asp) functions, each of which receives the printer device context handle. All graphics commands between StartDoc and EndDoc are routed to a temporary metafile. After the call to EndDoc, the printer driver converts the data in the metafile into the format required by the specific printer being used.
 
 > [!Note]  
 > If spooling is not enabled for the printer being used, the graphics output is not routed to a metafile. Instead, individual graphics commands are processed by the printer driver and then sent to the printer.
 
  
 
-Generally you won't want to hard-code the name of a printer as was done in the preceding console application. One alternative to hard-coding the name is to call [GetDefaultPrinter](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) to obtain the name of the default printer. Before you call GetDefaultPrinter, you must allocate a buffer large enough to hold the printer name. You can determine the size of the required buffer by calling GetDefaultPrinter, passing **NULL** as the first argument.
+Generally you won't want to hard-code the name of a printer as was done in the preceding console application. One alternative to hard-coding the name is to call [GetDefaultPrinter](https://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) to obtain the name of the default printer. Before you call GetDefaultPrinter, you must allocate a buffer large enough to hold the printer name. You can determine the size of the required buffer by calling GetDefaultPrinter, passing **NULL** as the first argument.
 
 > [!Note]  
-> The [GetDefaultPrinter](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) function is supported only on Windows 2000 and later.
+> The [GetDefaultPrinter](https://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) function is supported only on Windows 2000 and later.
 
  
 
-The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) call is in between calls to [StartPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_2isl.asp) and [EndPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
+The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/en-us/library/ms536003(v=VS.85).aspx) call is in between calls to [StartPage](https://msdn.microsoft.com/library/en-us/gdi/prntspol_2isl.asp) and [EndPage](https://msdn.microsoft.com/library/en-us/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
 
 
 ```

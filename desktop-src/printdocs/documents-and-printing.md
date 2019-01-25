@@ -56,7 +56,7 @@ The XPS Print API is not supported and may be altered or unavailable in the futu
 </tr>
 <tr class="even">
 <td><a href="https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx">Print Schema</a><br/></td>
-<td>The Print Schema and related technologies describe a printer's features and specify the printing preferences of a document to printers and viewing applications. The <a href="http://go.microsoft.com/?linkid=7141496">Print Schema Specification</a> is a downloadable document that contains information about the Print Schema and how to use it in documents and printing. The online information that is found in this section is provided for your information only and might not accurately reflect the current version of the <a href="http://go.microsoft.com/?linkid=7141496">Print Schema Specification</a>.<br/> Refer to the <a href="http://go.microsoft.com/?linkid=7141496">Print Schema Specification</a> for the most current design information.<br/></td>
+<td>The Print Schema and related technologies describe a printer's features and specify the printing preferences of a document to printers and viewing applications. The <a href="https://go.microsoft.com/?linkid=7141496">Print Schema Specification</a> is a downloadable document that contains information about the Print Schema and how to use it in documents and printing. The online information that is found in this section is provided for your information only and might not accurately reflect the current version of the <a href="https://go.microsoft.com/?linkid=7141496">Print Schema Specification</a>.<br/> Refer to the <a href="https://go.microsoft.com/?linkid=7141496">Print Schema Specification</a> for the most current design information.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ The XPS Print API is not supported and may be altered or unavailable in the futu
 
 ## Additional resources
 
-The [Print Sample sample app](http://go.microsoft.com/fwlink/p/?linkid=242999) demonstrates how to print from a Windows Store app starting with Windows 8.
+The [Print Sample sample app](https://go.microsoft.com/fwlink/p/?linkid=242999) demonstrates how to print from a Windows Store app starting with Windows 8.
 
 The features described in this section are for native Windows programming. To use similar features in .NET (managed) programming, see [Windows Presentation Foundation Documents](https://msdn.microsoft.com/en-us/library/ms749165(v=VS.85).aspx).
 
@@ -77,7 +77,7 @@ XPS documents are built on the [Packaging](https://msdn.microsoft.com/library/wi
 
 <dl> <dt>
 
-[Bidirectional printer communications (Hardware Dev Center)](http://go.microsoft.com/fwlink/p/?LinkId=613189  )
+[Bidirectional printer communications (Hardware Dev Center)](https://go.microsoft.com/fwlink/p/?LinkId=613189  )
 </dt> </dl>
 
  

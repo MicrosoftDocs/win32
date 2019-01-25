@@ -56,18 +56,18 @@ For example, the following playlist uses an ad banner and the associated **MOREI
 <ASX version ="3.0">
 <Title>Windows Media Example</Title>
 <Abstract>Windows Media Technologies</Abstract>
-<MoreInfo href = "http://www.proseware.com"/>
+<MoreInfo href = "https://www.proseware.com"/>
     <!--This is the first Entry -->
     <Entry>
         <Title>This is the ad</Title>
         <Author>Ad Department</Author>
         <Copyright>2000</Copyright>
         <Abstract>This is a description of the ad.</Abstract>
-        <MoreInfo href = "http://www.proseware.com/"/>
+        <MoreInfo href = "https://www.proseware.com/"/>
         <Ref href="ad.wma"/>
         <Banner href ="purchase.gif">
            <Abstract>Click here to go to our website.</Abstract>
-           <MoreInfo href = "http://www.litwareinc.com/" />
+           <MoreInfo href = "https://www.litwareinc.com/" />
         </Banner>
      </Entry>        
     <!-- This is the second Entry -->

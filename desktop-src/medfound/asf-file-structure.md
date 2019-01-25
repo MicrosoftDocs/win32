@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes the structure of an Advanced Systems Format (ASF) file.
 
-For detailed information about ASF files, download the [ASF Specification](http://go.microsoft.com/fwlink/p/?linkid=91307). You can also use the [Windows Media ASF Viewer 9 Series](http://go.microsoft.com/fwlink/p/?linkid=94626) tool to see the structure of an existing ASF file.
+For detailed information about ASF files, download the [ASF Specification](https://go.microsoft.com/fwlink/p/?linkid=91307). You can also use the [Windows Media ASF Viewer 9 Series](https://go.microsoft.com/fwlink/p/?linkid=94626) tool to see the structure of an existing ASF file.
 
 The base unit of organization for ASF files is called an *object*. An ASF file object contains the following data.
 

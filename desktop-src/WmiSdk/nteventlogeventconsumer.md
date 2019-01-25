@@ -316,7 +316,7 @@ Access type: Read-only
 
 Name of the computer on which to log an event, or **NULL** if the event is to be logged on a local server.
 
-Authenticated users cannot, by default, log events to the Application log on a remote computer. As a result, using this property to specify a remote computer will not work. To learn how to change event log security, consult this [KB article](http://go.microsoft.com/fwlink/p/?linkid=98071).
+Authenticated users cannot, by default, log events to the Application log on a remote computer. As a result, using this property to specify a remote computer will not work. To learn how to change event log security, consult this [KB article](https://go.microsoft.com/fwlink/p/?linkid=98071).
 
 </dd> </dl>
 

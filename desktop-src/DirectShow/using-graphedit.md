@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using GraphEdit
 
-GraphEdit is available in the Microsoft Windows Software Development Kit (SDK) (<http://go.microsoft.com/fwlink/p/?linkid=62332>).
+GraphEdit is available in the Microsoft Windows Software Development Kit (SDK) (<https://go.microsoft.com/fwlink/p/?linkid=62332>).
 
 The name of the GraphEdit application is "graphedt.exe". After you install the SDK, "graphedt.exe" is located in the following directory: \[Program Files\]\\Microsoft SDKs\\Windows\\\[version\]\\Bin\\.
 

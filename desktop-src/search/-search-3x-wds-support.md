@@ -29,7 +29,7 @@ The merits of each approach are described in the following sections.
 
 ## Crawls
 
-Notification-enabled sources do an incremental crawl on start-up and then rely on notifications or an explicit command to crawl again. This happens automatically on Windows Vista and later. On operating systems prior to Windows Vista, you must set up a scheduled event in the [Task Scheduler](http://msdn.microsoft.com/en-us/library/aa383614(VS.85).aspx) that calls into your code to initiate a crawl over your start page(s). You do not need to implement any form of notifications. As a background process, the indexer traverses its crawl scope, looking for changes and updating the catalog. This option is recommended for almost all situations.
+Notification-enabled sources do an incremental crawl on start-up and then rely on notifications or an explicit command to crawl again. This happens automatically on Windows Vista and later. On operating systems prior to Windows Vista, you must set up a scheduled event in the [Task Scheduler](https://msdn.microsoft.com/en-us/library/aa383614(VS.85).aspx) that calls into your code to initiate a crawl over your start page(s). You do not need to implement any form of notifications. As a background process, the indexer traverses its crawl scope, looking for changes and updating the catalog. This option is recommended for almost all situations.
 
 ## Indexer-Managed Notifications
 

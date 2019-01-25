@@ -68,7 +68,7 @@ This message does not return a value.
 
 ## Remarks
 
-An application should do only a minimal amount of processing of MIM\_MOREDATA messages. (In particular, applications should not call the [PostMessage](http://go.microsoft.com/fwlink/p/?linkid=16990) function while processing MIM\_MOREDATA.) Instead, the application should place the event data into a buffer and then return.
+An application should do only a minimal amount of processing of MIM\_MOREDATA messages. (In particular, applications should not call the [PostMessage](https://go.microsoft.com/fwlink/p/?linkid=16990) function while processing MIM\_MOREDATA.) Instead, the application should place the event data into a buffer and then return.
 
 When an application receives an [**MIM\_DATA**](mim-data.md) message after a series of MIM\_MOREDATA messages, it has caught up with incoming MIDI events and can safely call time-intensive functions.
 

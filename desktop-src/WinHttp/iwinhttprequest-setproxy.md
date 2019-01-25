@@ -159,7 +159,7 @@ int main()
     if (SUCCEEDED(hr))
     {   // Open WinHttpRequest.
             BSTR bstrMethod  = SysAllocString(L"GET");
-                BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+                BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varFalse);
                 SysFreeString(bstrMethod);
                 SysFreeString(bstrUrl);
@@ -214,7 +214,7 @@ WinHttpReq.SetProxy( HTTPREQUEST_PROXYSETTING_PROXY,
                      "*.microsoft.com");
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("GET", "http://www.microsoft.com", false);
+WinHttpReq.Open("GET", "https://www.microsoft.com", false);
 
 // Send the HTTP request.
 WinHttpReq.Send(); 

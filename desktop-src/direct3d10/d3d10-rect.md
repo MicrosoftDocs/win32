@@ -14,7 +14,7 @@ D3D10\_RECT is declared as follows:
 typedef RECT D3D10_RECT;
 ```
 
-For more information about this GDI rectangle structure, see [RECT](http://msdn2.microsoft.com/en-us/library/ms536136.aspx).
+For more information about this GDI rectangle structure, see [RECT](https://msdn2.microsoft.com/en-us/library/ms536136.aspx).
 
 ## Remarks
 

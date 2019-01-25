@@ -23,7 +23,7 @@ api_location:
 The **CIM\_DeviceSAPImplementation** class represents an association between a service access point (SAP) and how it is implemented. When many logical devices are associated with one SAP, the elements operate in conjunction to provide the access point. If different implementations of a SAP exist, each implementation results in individual instantiations of the SAP object.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  
 

@@ -18,23 +18,23 @@ topic_type:
 
 # <span id="WWAN_profile_v4.Schema_Root"></span>Mobile Broadband Profile Schema v4
 
-The Windows 10Mobile Broadband Profile Schema v4 is available in the namespace `http://www.microsoft.com/networking/WWAN/profile/v4`.
+The Windows 10Mobile Broadband Profile Schema v4 is available in the namespace `https://www.microsoft.com/networking/WWAN/profile/v4`.
 
 -   [Mobile Broadband Profile Schema v4 Elements](root-elements.md)
 -   [Mobile Broadband Profile Schema v4 Simple Types](simple-types.md)
 
 ``` syntax
-<xs:schema targetNamespace="http://www.microsoft.com/networking/WWAN/profile/v4"
-    xmlns="http://www.microsoft.com/networking/WWAN/profile/v4"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:WWAN_profile_v1="http://www.microsoft.com/networking/WWAN/profile/v1"
-    xmlns:WWAN_profile_v2="http://www.microsoft.com/networking/WWAN/profile/v2"
-    xmlns:WWAN_profile_v3="http://www.microsoft.com/networking/WWAN/profile/v3"
+<xs:schema targetNamespace="https://www.microsoft.com/networking/WWAN/profile/v4"
+    xmlns="https://www.microsoft.com/networking/WWAN/profile/v4"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    xmlns:WWAN_profile_v1="https://www.microsoft.com/networking/WWAN/profile/v1"
+    xmlns:WWAN_profile_v2="https://www.microsoft.com/networking/WWAN/profile/v2"
+    xmlns:WWAN_profile_v3="https://www.microsoft.com/networking/WWAN/profile/v3"
     elementFormDefault="qualified">
 
-    <xs:import namespace="http://www.microsoft.com/networking/WWAN/profile/v1" schemaLocation="WWAN_profile_v1.xsd"/>
-    <xs:import namespace="http://www.microsoft.com/networking/WWAN/profile/v2" schemaLocation="WWAN_profile_v2.xsd"/>
-    <xs:import namespace="http://www.microsoft.com/networking/WWAN/profile/v3" schemaLocation="WWAN_profile_v3.xsd"/>
+    <xs:import namespace="https://www.microsoft.com/networking/WWAN/profile/v1" schemaLocation="WWAN_profile_v1.xsd"/>
+    <xs:import namespace="https://www.microsoft.com/networking/WWAN/profile/v2" schemaLocation="WWAN_profile_v2.xsd"/>
+    <xs:import namespace="https://www.microsoft.com/networking/WWAN/profile/v3" schemaLocation="WWAN_profile_v3.xsd"/>
 
   <!-- type definition section -->
 

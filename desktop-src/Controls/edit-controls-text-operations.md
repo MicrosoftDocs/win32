@@ -131,7 +131,7 @@ To determine the character closest to a specified point in the client area of an
 
 ## Autocompletion of Strings
 
-Autocompletion expands strings that have been partially entered in an edit control into complete strings. For example, when a user starts to enter a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URLs that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "http://www.microsoft.com" or "http://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control.
+Autocompletion expands strings that have been partially entered in an edit control into complete strings. For example, when a user starts to enter a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URLs that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "https://www.microsoft.com" or "https://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control.
 
 For more information, see the [**IAutoComplete**](https://msdn.microsoft.com/library/windows/desktop/bb776292) and [**IAutoComplete2**](https://msdn.microsoft.com/library/windows/desktop/bb776288) interface documentation.
 

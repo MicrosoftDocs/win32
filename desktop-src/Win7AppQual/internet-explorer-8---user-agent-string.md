@@ -43,11 +43,11 @@ Ensure that your applications properly handle the new 'MSIE 8.0' version in the 
 ## Links to Other Resources
 
 -   [Understanding User Agent Strings](https://msdn.microsoft.com/library/ms537503(v=VS.85).aspx)
--   [Internet Explorer 8 User-Agent String](http://go.microsoft.com/fwlink/p/?linkid=205081)
--   [User-Agent String and Version Vector](http://go.microsoft.com/fwlink/p/?linkid=203822)
+-   [Internet Explorer 8 User-Agent String](https://go.microsoft.com/fwlink/p/?linkid=205081)
+-   [User-Agent String and Version Vector](https://go.microsoft.com/fwlink/p/?linkid=203822)
 -   [Hosting and Reuse](https://msdn.microsoft.com/library/Aa752038(v=VS.85).aspx)
--   [Application Compatibility Toolkit Download](http://go.microsoft.com/fwlink/p/?linkid=205020)
--   [Known Internet Explorer Security Feature Issues](http://go.microsoft.com/fwlink/p/?linkid=205080)
+-   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)
+-   [Known Internet Explorer Security Feature Issues](https://go.microsoft.com/fwlink/p/?linkid=205080)
 
  
 

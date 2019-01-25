@@ -58,10 +58,10 @@ The following example code demonstrates how to use closed captions with the Wind
 <!-- The following script code runs when the page is fully loaded. -->
 <SCRIPT for="window" event="onload()">
   Player.closedCaption.captioningID = "captions";
-  Player.closedCaption.SAMIFileName = "http://www.proseware.com/Media/seattle.smi";
+  Player.closedCaption.SAMIFileName = "https://www.proseware.com/Media/seattle.smi";
   // The digital media file will open automatically, after which
   // the OpenStateChange event (handled below) will fire.
-  Player.URL = "http://www.proseware.com/Media/seattle.wmv";
+  Player.URL = "https://www.proseware.com/Media/seattle.wmv";
 </SCRIPT>
 
 <!-- The following script code runs when a media file is opened. -->

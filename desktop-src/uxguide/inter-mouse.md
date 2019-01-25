@@ -271,7 +271,7 @@ The following table summarizes the mouse button interactions that apply in most 
 -   **Provide users a margin of error spatially.** Allow for some mouse movement (for example, three pixels) when users release a mouse button. Users sometimes move the mouse slightly as they release the mouse button, so the mouse position just before button release better reflects the user's intention than the position just after.
 -   **Provide users a margin of error temporally.** Use the system double-click speed to distinguish between single and double clicks.
 -   **Have clicks take effect on mouse button up.** Allow users to abandon mouse actions by removing the mouse from valid targets before releasing the mouse button. For most mouse interactions, pressing a mouse button only indicates the selected target and releasing the button activates the action. Auto-repeat functions (such as pressing a scroll arrow to continuously scroll) are an exception.
--   [Capture the mouse](http://msdn2.microsoft.com/library/ms646262.aspx) for selecting, moving, resizing, splitting, and dragging.
+-   [Capture the mouse](https://msdn2.microsoft.com/library/ms646262.aspx) for selecting, moving, resizing, splitting, and dragging.
 -   Use the Esc key to let users abandon compound mouse interactions such as moving, resizing, splitting, and dragging.
 -   **If an object doesn't support double clicks but users are likely to assume it does, interpret a "double click" as one single click.** Assume the user intended a single action instead of two.
 

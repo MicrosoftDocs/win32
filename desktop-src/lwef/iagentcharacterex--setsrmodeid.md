@@ -24,7 +24,7 @@ bszModeID
 
 The mode ID setting of the speech recognition engine for the character.
 
-This setting sets the engine for a character's speech input. The mode ID for a speech recognition engine is the GUID defined by the speech vendor that uniquely identifies the engine's mode (formatted with braces and dashes). For more information, see the [Microsoft Speech SDK documentation](http://go.microsoft.com/fwlink/p/?linkid=198367).
+This setting sets the engine for a character's speech input. The mode ID for a speech recognition engine is the GUID defined by the speech vendor that uniquely identifies the engine's mode (formatted with braces and dashes). For more information, see the [Microsoft Speech SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=198367).
 
 If you specify a mode ID that does not match the character's language setting, if the user has disabled speech recognition (in the Microsoft Agent property sheet), or the engine is not installed, this call will fail. If you do not set a speech recognition engine mode ID for the character, the server sets one that matches the character's language setting (using Microsoft Speech API interfaces).
 

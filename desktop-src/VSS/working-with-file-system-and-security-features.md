@@ -52,8 +52,8 @@ The introduction of User Account Control (UAC) in Windows Vista means that unle
 
 <dl>
 
-[The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=71814)  
-[Windows Vista Application Development Requirements for User Account Control Compatibility](http://go.microsoft.com/fwlink/p/?linkid=104243)  
+[The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=71814)  
+[Windows Vista Application Development Requirements for User Account Control Compatibility](https://go.microsoft.com/fwlink/p/?linkid=104243)  
 [User Account Control (UAC) Patching](https://msdn.microsoft.com/en-us/library/Aa372388(v=VS.85).aspx)  
 </dl>
 
@@ -68,7 +68,7 @@ To restore data onto an encrypted drive, perform the following steps:
 3.  Perform the restore.
 4.  Boot into the restored operating system and turn on BitLocker Drive Encryption.
 
-For detailed information about BitLocker Drive Encryption, including a step-by-step guide, see [BitLocker Drive Encryption](http://go.microsoft.com/fwlink/p/?linkid=71815) on the Microsoft TechNet Windows Vista website. For information about the BitLocker Drive Encryption WMI provider, see [BitLocker Drive Encryption Provider](https://msdn.microsoft.com/en-us/library/Aa376409(v=VS.85).aspx).
+For detailed information about BitLocker Drive Encryption, including a step-by-step guide, see [BitLocker Drive Encryption](https://go.microsoft.com/fwlink/p/?linkid=71815) on the Microsoft TechNet Windows Vista website. For information about the BitLocker Drive Encryption WMI provider, see [BitLocker Drive Encryption Provider](https://msdn.microsoft.com/en-us/library/Aa376409(v=VS.85).aspx).
 
  
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Color management effect
 
-Use the color management effect to transform an image from one ICC (International Color Consortium) color profile to another. The effect transforms the image according to the [ICC specification](http://www.color.org).
+Use the color management effect to transform an image from one ICC (International Color Consortium) color profile to another. The effect transforms the image according to the [ICC specification](https://www.color.org).
 
 The CLSID for this effect is CLSID\_D2D1ColorManagement.
 
@@ -200,7 +200,7 @@ The color management effect fails when drawing if the application requests a qua
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D effects photo adjustment sample](http://go.microsoft.com/fwlink/p/?linkid=231533) and see Lesson 4 of the sample.
+For an example of this effect, download the [Direct2D effects photo adjustment sample](https://go.microsoft.com/fwlink/p/?linkid=231533) and see Lesson 4 of the sample.
 
 ## Requirements
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 **Note**  
 
-The information on this page is intended to be used by programmers so that the software they write can better deal with errors. If you are an end-user that is experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [http://support.microsoft.com](Http://go.microsoft.com/fwlink/p/?linkid=83978).
+The information on this page is intended to be used by programmers so that the software they write can better deal with errors. If you are an end-user that is experiencing difficulty with an application you are installing or running, contact customer support for the software that is displaying the error message. To obtain support for a Microsoft product, go to [https://support.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=83978).
 
 The System Error Codes are very broad. Each one can occur in one of many hundreds of locations in the system. Consequently the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the run-time context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. Sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
 
@@ -832,7 +832,7 @@ The search results exceed the offset range specified.
 
 
 
-The directory service detected the subsystem that allocates relative identifiers is disabled. This can occur as a protective mechanism when the system determines a significant portion of relative identifiers (RIDs) have been exhausted. Please see <http://go.microsoft.com/fwlink/p/?linkid=228610> for recommended diagnostic steps and the procedure to re-enable account creation.
+The directory service detected the subsystem that allocates relative identifiers is disabled. This can occur as a protective mechanism when the system determines a significant portion of relative identifiers (RIDs) have been exhausted. Please see <https://go.microsoft.com/fwlink/p/?linkid=228610> for recommended diagnostic steps and the procedure to re-enable account creation.
 
 
 </dt> </dl> </dd> <dt>
@@ -5291,7 +5291,7 @@ The functional level of the AD LDS configuration set cannot be raised to the req
 
 
 
-The domain join cannot be completed because the SID of the domain you attempted to join was identical to the SID of this machine. This is a symptom of an improperly cloned operating system install. You should run sysprep on this machine in order to generate a new machine SID. Please see <http://go.microsoft.com/fwlink/p/?linkid=168895> for more information.
+The domain join cannot be completed because the SID of the domain you attempted to join was identical to the SID of this machine. This is a symptom of an improperly cloned operating system install. You should run sysprep on this machine in order to generate a new machine SID. Please see <https://go.microsoft.com/fwlink/p/?linkid=168895> for more information.
 
 
 </dt> </dl> </dd> <dt>

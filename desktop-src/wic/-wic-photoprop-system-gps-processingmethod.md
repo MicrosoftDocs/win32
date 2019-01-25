@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.ProcessingMethod Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.ProcessingMethod](http://msdn.microsoft.com/en-us/library/bb760578(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.ProcessingMethod](https://msdn.microsoft.com/en-us/library/bb760578(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.ProcessingMethod](http://msdn.microsoft.com/en-us/library/bb760578(VS.85).aspx)
+[System.GPS.ProcessingMethod](https://msdn.microsoft.com/en-us/library/bb760578(VS.85).aspx)
 </dt> </dl>
 
  

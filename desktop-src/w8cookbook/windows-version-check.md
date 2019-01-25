@@ -84,9 +84,9 @@ Adding the trustInfo isn’t essential, but it is highly recommended. This will 
 
 ## Resources
 
--   [Application Compatibility Toolkit Download: Download the Windows ADK for Windows 10](http://go.microsoft.com/fwlink/p/?LinkId=526740)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](http://go.microsoft.com/fwlink/?LinkID=205039)
--   [Version Helpers API](http://go.microsoft.com/fwlink/p/?LinkId=325426)
+-   [Application Compatibility Toolkit Download: Download the Windows ADK for Windows 10](https://go.microsoft.com/fwlink/p/?LinkId=526740)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/?LinkID=205039)
+-   [Version Helpers API](https://go.microsoft.com/fwlink/p/?LinkId=325426)
 
  
 

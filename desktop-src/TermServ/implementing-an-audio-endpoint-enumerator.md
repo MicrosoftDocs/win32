@@ -49,7 +49,7 @@ Beginning with Windows Server 2008 R2, you can implement a custom remote audio e
     <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316591"><strong>PKEY_Device_DeviceDesc</strong></a></li>
     <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316594"><strong>PKEY_Device_FriendlyName</strong></a></li>
     </ul>
-    The property store object must implement the <a href="http://go.microsoft.com/fwlink/p/?linkid=177452">IPropertyStore</a> interface.<br/></td>
+    The property store object must implement the <a href="https://go.microsoft.com/fwlink/p/?linkid=177452">IPropertyStore</a> interface.<br/></td>
     </tr>
     </tbody>
     </table>
@@ -97,7 +97,7 @@ For additional reference documentation about how to implement and register audio
 [**IMMEndpoint**](https://msdn.microsoft.com/library/windows/desktop/dd371414)
 </dt> <dt>
 
-[IPropertyStore](http://go.microsoft.com/fwlink/p/?linkid=177452)
+[IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=177452)
 </dt> </dl>
 
  

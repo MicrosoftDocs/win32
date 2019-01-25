@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WSD Application Development on Windows
 
-The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the [Devices Profile for Web Services](http://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS). WSDAPI may be used for the development of both client and server (device) implementations.
+The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS). WSDAPI may be used for the development of both client and server (device) implementations.
 
 Quite often, WSDAPI code for these applications is generated using [WsdCodeGen](web-services-for-devices-code-generator.md). Some WSDAPI functions and methods are intended to be called only by generated code. The API reference documentation indicates when a function or method should be used or implemented only by generated code.
 

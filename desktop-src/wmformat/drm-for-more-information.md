@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # For More Information
 
--   For general information about developing applications that use Windows Media technologies, see the [Windows Media Developer Center](http://go.microsoft.com/fwlink/p/?linkid=56124).
--   For more information about Windows Media DRM, see the latest [Windows Media Rights Manager SDK documentation](http://go.microsoft.com/fwlink/p/?linkid=56123).
--   For more information about the Windows Media Format SDK, see the latest [Windows Media Format SDK documentation](http://go.microsoft.com/fwlink/p/?linkid=56122).
+-   For general information about developing applications that use Windows Media technologies, see the [Windows Media Developer Center](https://go.microsoft.com/fwlink/p/?linkid=56124).
+-   For more information about Windows Media DRM, see the latest [Windows Media Rights Manager SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=56123).
+-   For more information about the Windows Media Format SDK, see the latest [Windows Media Format SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=56122).
 
 ## Related topics
 

@@ -35,7 +35,7 @@ When the user attempts to copy a digital media file that has a custom file name 
 
 A device that supports MTP can supply Windows Media Player with a DeviceInfo dataset, which contains, among other things, a list of format codes supported by the device.
 
-If you are in the process of developing a custom file format, you can request a format code from Microsoft. For information about how to request a format code, see the Microsoft Media Transport Protocol Porting Kit, which is available at the [Microsoft Windows Media Developer Center](http://go.microsoft.com/fwlink/p/?linkid=62179).
+If you are in the process of developing a custom file format, you can request a format code from Microsoft. For information about how to request a format code, see the Microsoft Media Transport Protocol Porting Kit, which is available at the [Microsoft Windows Media Developer Center](https://go.microsoft.com/fwlink/p/?linkid=62179).
 
 ## Related topics
 

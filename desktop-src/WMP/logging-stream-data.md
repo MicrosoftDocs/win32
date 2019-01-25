@@ -51,11 +51,11 @@ The log field specified in the **NAME** attribute is set to the value of the **V
 ```XML
 
     <ASX version="3.0">
-      <LOGURL href="http://www.proseware.com/log.asp?SomeArg=SomeVal" />
+      <LOGURL href="https://www.proseware.com/log.asp?SomeArg=SomeVal" />
       <ENTRY>
         <REF href="mms://ucast.proseware.com/Media1.wma" />
-        <LOGURL href="http://www.proseware.com/cgi-bin/logging.pl?SomeArg=SomeVal" />
-        <LOGURL href="http://www.proseware.com/WMLogging.dll?SomeArg=SomeVal" />
+        <LOGURL href="https://www.proseware.com/cgi-bin/logging.pl?SomeArg=SomeVal" />
+        <LOGURL href="https://www.proseware.com/WMLogging.dll?SomeArg=SomeVal" />
         <PARAM name="log:cs-media-role" value="Advertisement"/>
         <PARAM name="log:cs-media-name:namespace" value="Music"/>
         <REF href=rtsp://ucast.proseware.com/Media1.wma"/>

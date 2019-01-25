@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # Header Annotations
 
-\[This topic describes the annotations supported in the Windows headers through Windows 7. If you are developing for Windows 8, you should use the annotations described in [SAL Annotations]( http://go.microsoft.com/fwlink/p/?linkid=247283).\]\]
+\[This topic describes the annotations supported in the Windows headers through Windows 7. If you are developing for Windows 8, you should use the annotations described in [SAL Annotations]( https://go.microsoft.com/fwlink/p/?linkid=247283).\]\]
 
 Header annotations describe how a function uses its parameters and return value. These annotations have been added to many of the Windows header files to help you ensure that you are calling the Windows API correctly. If you enable code analysis, which is available starting with the Visual Studio 2005, the compiler will produce level 6000 warnings if you are not calling these functions per the usage described through the annotations. You can also add these annotations in your own code to ensure that it is being called correctly. To enable code analysis in Visual Studio, see the documentation for your version of Visual Studio.
 
@@ -293,10 +293,10 @@ UnhandledExceptionFilter(
 
 <dl> <dt>
 
-[SAL Annotations](http://go.microsoft.com/fwlink/p/?linkid=101212)
+[SAL Annotations](https://go.microsoft.com/fwlink/p/?linkid=101212)
 </dt> <dt>
 
-[Walkthrough: Analyzing C/C++ Code for Defects](http://go.microsoft.com/fwlink/p/?linkid=101213)
+[Walkthrough: Analyzing C/C++ Code for Defects](https://go.microsoft.com/fwlink/p/?linkid=101213)
 </dt> </dl>
 
  

@@ -76,7 +76,7 @@ Of course, color is often used in graphics for purely aesthetic reasons. While a
 
 **Users' interpretation of color is often culturally dependent.** For example, in the United States, wedding attire for the bride is largely associated with the color white, while black is associated with funerals. However, long ago in Japan the color symbolism was just the opposite: white was the predominant color at funerals, and black was considered a color that brings good luck for weddings.
 
-That said, **the interpretation of red, yellow, and green for status is consistent globally.** This is due to the [UNESCO Vienna Convention on Road Signs and Signals](http://www.unece.org/trans/conventn/signalse.pdf), which defines the worldwide convention for traffic lights (where red means stop, green means proceed, and yellow means proceed with caution). You can use these status colors without concern for culturally dependent interpretations.
+That said, **the interpretation of red, yellow, and green for status is consistent globally.** This is due to the [UNESCO Vienna Convention on Road Signs and Signals](https://www.unece.org/trans/conventn/signalse.pdf), which defines the worldwide convention for traffic lights (where red means stop, green means proceed, and yellow means proceed with caution). You can use these status colors without concern for culturally dependent interpretations.
 
 Beyond the status colors, Windows assigns meanings to colors based on convention, as presented in the Guidelines section of this article. Be sure that your program's color usage is compatible with these color conventions.
 
@@ -100,7 +100,7 @@ The primary colors as seen with Deuteranopia (6% of male population).
 
 The primary colors as seen with Tritanopia (1% of male population).
 
-For more information, see [Can Color-Blind Users See Your Site?](http://msdn2.microsoft.com/library/bb263953.aspx)
+For more information, see [Can Color-Blind Users See Your Site?](https://msdn2.microsoft.com/library/bb263953.aspx)
 
 ### Use color to reinforce visually
 
@@ -170,7 +170,7 @@ In this example, a darker window background color is derived from the theme colo
 
 ### Testing colors
 
-To determine if your program's use of color is accessible and not used as a primary method of communication, we recommend using the [Fujitsu ColorDoctor](http://design.fujitsu.com/en/universal/assistance/colordoctor/) or the [Vischeck](http://www.vischeck.com/) utilities to check for:
+To determine if your program's use of color is accessible and not used as a primary method of communication, we recommend using the [Fujitsu ColorDoctor](https://design.fujitsu.com/en/universal/assistance/colordoctor/) or the [Vischeck](https://www.vischeck.com/) utilities to check for:
 
 -   Overall dependency on color using the Gray scale filter.
 -   Specific color confusion problems using the Protanopia, Deuteranopia, and Tritanopia filters.

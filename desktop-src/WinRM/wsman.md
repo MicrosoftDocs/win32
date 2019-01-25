@@ -176,7 +176,7 @@ Dim objWsman
 Dim Session, Resource 
 Set objWsman = CreateObject( "WSMAN.Automation" )
 Set Session = objWsman.CreateSession
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_OperatingSystem"
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_OperatingSystem"
 ```
 
 

@@ -84,7 +84,7 @@ L<sub>r</sub>, L<sub>g</sub>, L<sub>b</sub> = the light color in RGB components.
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D lighting effects sample](http://go.microsoft.com/fwlink/p/?linkid=254010).
+For an example of this effect, download the [Direct2D lighting effects sample](https://go.microsoft.com/fwlink/p/?linkid=254010).
 
 ## Requirements
 

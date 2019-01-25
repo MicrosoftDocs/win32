@@ -56,7 +56,7 @@ An [**ACCESS\_MASK**](https://msdn.microsoft.com/en-us/library/Aa374896(v=VS.85)
 *ObjectAttributes* \[in\]
 </dt> <dd>
 
-A pointer to an [OBJECT\_ATTRIBUTES](Http://go.microsoft.com/fwlink/p/?linkid=85317) structure. The **ObjectName** member of this structure must be NULL.
+A pointer to an [OBJECT\_ATTRIBUTES](https://go.microsoft.com/fwlink/p/?linkid=85317) structure. The **ObjectName** member of this structure must be NULL.
 
 **Windows Server 2003 and Windows XP:** The **ObjectName** member of this structure can point to an object name. If **ObjectName** is not NULL, the *ClientId* parameter must be NULL.
 

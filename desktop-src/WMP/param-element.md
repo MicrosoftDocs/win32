@@ -99,14 +99,14 @@ This **ASX** element is only available for Windows Media Player version 6.01 and
    
    <ENTRY>
       <TITLE>Example Clip</TITLE>
-      <REF HREF="http://sample.microsoft.com/media.asf" />
+      <REF HREF="https://sample.microsoft.com/media.asf" />
       <PARAM NAME="Location" VALUE="North America" />
       <PARAM NAME="Release Date" VALUE="March 1998" />
    </ENTRY>
    
    <ENTRY>
       <TITLE>Another Clip</TITLE>
-      <REF HREF="http://sample.microsoft.com/more_media.asf" />
+      <REF HREF="https://sample.microsoft.com/more_media.asf" />
       <PARAM NAME="Location" VALUE="Japan">
       <PARAM NAME="Release Date" VALUE="December 1996" />
    </ENTRY>

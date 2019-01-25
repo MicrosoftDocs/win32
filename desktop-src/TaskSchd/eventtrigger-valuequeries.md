@@ -33,7 +33,7 @@ EventTrigger.ValueQueries As String
 
 ## Property value
 
-A collection of of name-value pairs. Each name-value pair in the collection defines a unique name for a property value of the event that triggers the event trigger. The property value of the event is defined as an XPath event query. For more information about XPath event queries, see [Event Selection](http://go.microsoft.com/fwlink/p/?linkid=168218).
+A collection of of name-value pairs. Each name-value pair in the collection defines a unique name for a property value of the event that triggers the event trigger. The property value of the event is defined as an XPath event query. For more information about XPath event queries, see [Event Selection](https://go.microsoft.com/fwlink/p/?linkid=168218).
 
 ## Remarks
 
@@ -63,7 +63,7 @@ name: machine
 value: Event/UserData/MachineName
 ```
 
-For more information about writing a query string for certain events, see [Event Selection](http://go.microsoft.com/fwlink/p/?linkid=168218) and [Subscribing to Events](http://go.microsoft.com/fwlink/p/?linkid=168415).
+For more information about writing a query string for certain events, see [Event Selection](https://go.microsoft.com/fwlink/p/?linkid=168218) and [Subscribing to Events](https://go.microsoft.com/fwlink/p/?linkid=168415).
 
 ## Requirements
 

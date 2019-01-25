@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # NDF Diagnostics Example
 
-The following example shows how to launch the NDF user interface and diagnose connectivity to the website http://www.microsoft.com.
+The following example shows how to launch the NDF user interface and diagnose connectivity to the website https://www.microsoft.com.
 
 
 ```C++
@@ -16,7 +16,7 @@ The following example shows how to launch the NDF user interface and diagnose co
 
 NDFHANDLE hNDF;
 HRESULT hr = NdfCreateWebIncident (
-                    L"http://www.microsoft.com",
+                    L"https://www.microsoft.com",
                     &hNDF);
 
 if(SUCCEEDED(hr))

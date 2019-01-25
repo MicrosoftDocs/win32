@@ -61,7 +61,7 @@ The following is an example of a **BANNER** element without child elements:
 
 
 ```XML
-<BANNER HREF="http://sample.microsoft.com/art/banner1.bmp" />
+<BANNER HREF="https://sample.microsoft.com/art/banner1.bmp" />
 ```
 
 
@@ -70,9 +70,9 @@ The following is an example of a **BANNER** element containing **ABSTRACT** and 
 
 
 ```XML
-<BANNER HREF="http://www.proseware.com/logos/banner1.bmp">
+<BANNER HREF="https://www.proseware.com/logos/banner1.bmp">
     <ABSTRACT>Click here to go to our website.</ABSTRACT>
-    <MOREINFO HREF="http://sample.microsoft.com" />
+    <MOREINFO HREF="https://sample.microsoft.com" />
     <!-- The text in the Abstract element displays as a 
          ToolTip when the mouse hovers over the banner 
          graphic. When a user clicks the banner, the URL 

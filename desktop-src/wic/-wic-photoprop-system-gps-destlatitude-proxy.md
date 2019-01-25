@@ -12,7 +12,7 @@ The property proxy for the System.GPS.DestLatitude photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) uhVal member.
 
 ### Containers
 
@@ -38,7 +38,7 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.GPS.DestLatitude](http://msdn.microsoft.com/en-us/library/bb787500(VS.85).aspx)
+[System.GPS.DestLatitude](https://msdn.microsoft.com/en-us/library/bb787500(VS.85).aspx)
 </dt> </dl>
 
  

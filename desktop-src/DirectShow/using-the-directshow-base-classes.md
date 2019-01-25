@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To use the base classes in DirectShow, you must build and link the base class library.
 
-The base class library is provided as a SDK sample in the Microsoft Windows Software Development Kit (SDK) (<http://go.microsoft.com/fwlink/p/?linkid=62332>). The exact location depends on the version of the SDK that you have installed, but the relative path is:
+The base class library is provided as a SDK sample in the Microsoft Windows Software Development Kit (SDK) (<https://go.microsoft.com/fwlink/p/?linkid=62332>). The exact location depends on the version of the SDK that you have installed, but the relative path is:
 
 *(SDK samples root)*\\DirectShow\\BaseClasses
 

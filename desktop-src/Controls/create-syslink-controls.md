@@ -39,7 +39,7 @@ The following example code creates a SysLink control that displays two hyperlink
 HWND CreateSysLink(HWND hDlg, HINSTANCE hInst, RECT rect)
 {
     return CreateWindowEx(0, WC_LINK, 
-        L"For more information, <A HREF=\"http://www.microsoft.com\">click here</A> " \
+        L"For more information, <A HREF=\"https://www.microsoft.com\">click here</A> " \
         L"or <A ID=\"idInfo\">here</A>.", 
         WS_VISIBLE | WS_CHILD | WS_TABSTOP, 
         rect.left, rect.top, rect.right, rect.bottom, 
@@ -64,7 +64,7 @@ Version 6 of ComCtl32.dll supports Unicode only. Therefore, you cannot create AN
 [Using SysLink Controls](https://msdn.microsoft.com/library/windows/desktop/hh270419)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](http://go.microsoft.com/fwlink/p/?linkid=214295)
+[Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=214295)
 </dt> </dl>
 
  

@@ -108,7 +108,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-See [Types of Bitmaps (GDI+)](http://msdn2.microsoft.com/library/ms536393.aspx) for more information on some of these formats.
+See [Types of Bitmaps (GDI+)](https://msdn2.microsoft.com/library/ms536393.aspx) for more information on some of these formats.
 
 ## Requirements
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Migrating virtual machines
 
-The following C# sample demonstrates how to use the [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md) method to perform a simple migration of a virtual machine. This example uses resource pools to obtain the correct VHD paths. This code is taken from the [Hyper-V virtual machine migration sample]( http://go.microsoft.com/fwlink/p/?LinkID=268415).
+The following C# sample demonstrates how to use the [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md) method to perform a simple migration of a virtual machine. This example uses resource pools to obtain the correct VHD paths. This code is taken from the [Hyper-V virtual machine migration sample]( https://go.microsoft.com/fwlink/p/?LinkID=268415).
 
 The command-line syntax to run this sample is:
 

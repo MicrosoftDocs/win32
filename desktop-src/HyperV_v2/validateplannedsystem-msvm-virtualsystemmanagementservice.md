@@ -99,7 +99,7 @@ This method returns one of the following values.
 
 ## Examples
 
-The following C# sample uses the **ValidatePlannedSystem** method to validate a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](http://go.microsoft.com/fwlink/p/?LinkID=268728). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
+The following C# sample uses the **ValidatePlannedSystem** method to validate a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](https://go.microsoft.com/fwlink/p/?LinkID=268728). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
 > [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.

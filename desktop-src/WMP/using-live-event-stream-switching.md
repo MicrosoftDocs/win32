@@ -68,7 +68,7 @@ Example Code
 ```XML
 <BANNER HREF="SomePath\2.gif">
     <ABSTRACT>Read This Ad and Buy.</ABSTRACT>
-    <MOREINFO HREF="http://www.proseware.com" />
+    <MOREINFO HREF="https://www.proseware.com" />
 </BANNER>
 
 ```

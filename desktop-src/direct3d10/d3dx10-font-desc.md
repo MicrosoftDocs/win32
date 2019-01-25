@@ -157,7 +157,7 @@ A NULL-terminated string that specifies the typeface name of the font. The lengt
 
 The compiler setting also determines the structure type. If Unicode is defined, the D3DX10\_FONT\_DESC structure type resolves to a D3DX10\_FONT\_DESCW; otherwise the structure type resolves to a D3DX10\_FONT\_DESCA.
 
-Possible values of the above members are given in the GDI [LOGFONT](http://msdn2.microsoft.com/en-us/library/ms533931.aspx) structure.
+Possible values of the above members are given in the GDI [LOGFONT](https://msdn2.microsoft.com/en-us/library/ms533931.aspx) structure.
 
 ## Requirements
 

@@ -12,7 +12,7 @@ Windows 10 and the Universal Windows Platform (UWP) offer many features you can 
 This article describes the Windows 10 and UWP features that you can use in your desktop applications today.
 
 > [!NOTE]
-> Do you need assistance migrating desktop applications to Windows 10? The [Desktop App Assure](https://docs.microsoft.com/FastTrack/win-10-desktop-app-assure) service provides direct, no-cost support to application developers who are porting their applications to Windows 10. This program is available to all ISVs and eligible enterprises. For more details on eligibility and about the program itself, visit [http://aka.ms/DesktopAppAssure](http://aka.ms/DesktopAppAssure). To get started now, [submit your request](http://aka.ms/DesktopAppAssureRequest).
+> Do you need assistance migrating desktop applications to Windows 10? The [Desktop App Assure](https://docs.microsoft.com/FastTrack/win-10-desktop-app-assure) service provides direct, no-cost support to application developers who are porting their applications to Windows 10. This program is available to all ISVs and eligible enterprises. For more details on eligibility and about the program itself, visit [https://aka.ms/DesktopAppAssure](https://aka.ms/DesktopAppAssure). To get started now, [submit your request](https://aka.ms/DesktopAppAssureRequest).
 
 ## MSIX packages
 
@@ -83,7 +83,7 @@ See [Windows UI Library (Preview version)](https://docs.microsoft.com/uwp/toolki
 
 .NET Core 3 is the next major release of .NET Core. The highlight of this upcoming release is support for Windows desktop applications, including Windows Forms and WPF applications. You will be able to run new and existing Windows desktop applications on .NET Core 3 and enjoy all the benefits that .NET Core has to offer. UWP controls that are hosted in [XAML islands](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls) can also be used in Windows Forms and WPF applications that target .NET Core 3.
 
-For more information, see the [announcement blog](http://aka.ms/netcore3preview1).
+For more information, see the [announcement blog](https://aka.ms/netcore3preview1).
 
 ### Microsoft Graph
 

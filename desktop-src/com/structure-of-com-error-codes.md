@@ -51,7 +51,7 @@ Error codes are defined within the context of an interface implementation. Once 
 [Error Handling in COM](error-handling-in-com.md)
 </dt> <dt>
 
-[Windows Protocols: HRESULT](http://go.microsoft.com/fwlink/p/?linkid=204958)
+[Windows Protocols: HRESULT](https://go.microsoft.com/fwlink/p/?linkid=204958)
 </dt> </dl>
 
  

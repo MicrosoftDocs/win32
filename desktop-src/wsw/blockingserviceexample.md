@@ -270,17 +270,17 @@ Exit:
 ``` syntax
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions 
-    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
-    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-    xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
-    xmlns:tns="http://www.example.org" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-    targetNamespace="http://www.example.org" 
-    xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl">
+    xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/" 
+    xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:http="https://schemas.xmlsoap.org/wsdl/http/" 
+    xmlns:xs="https://www.w3.org/2001/XMLSchema" 
+    xmlns:mime="https://schemas.xmlsoap.org/wsdl/mime/" 
+    xmlns:tns="https://www.example.org" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    targetNamespace="https://www.example.org" 
+    xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl">
     <wsdl:types>
-        <xs:schema targetNamespace="http://www.example.org" elementFormDefault="qualified">
+        <xs:schema targetNamespace="https://www.example.org" elementFormDefault="qualified">
             <xsd:element name="BlockServiceType">
                 <xsd:complexType/>
             </xsd:element>
@@ -309,18 +309,18 @@ Exit:
     </wsdl:message>
     <wsdl:portType name="IBlockUnBlockService">
         <wsdl:operation name="Block">
-            <wsdl:input message="tns:BlockServiceMessage" wsaw:Action="http://www.example.org/Block"/>
-            <wsdl:output message="tns:BlockServiceResponseMessage" wsaw:Action="http://www.example.org/BlockResponse"/>
+            <wsdl:input message="tns:BlockServiceMessage" wsaw:Action="https://www.example.org/Block"/>
+            <wsdl:output message="tns:BlockServiceResponseMessage" wsaw:Action="https://www.example.org/BlockResponse"/>
         </wsdl:operation>
         <wsdl:operation name="UnBlock">
-            <wsdl:input message="tns:UnBlockServiceMessage" wsaw:Action="http://www.example.org/UnBlock"/>
-            <wsdl:output message="tns:UnBlockServiceResponseMessage" wsaw:Action="http://www.example.org/UnBlockResponse"/>
+            <wsdl:input message="tns:UnBlockServiceMessage" wsaw:Action="https://www.example.org/UnBlock"/>
+            <wsdl:output message="tns:UnBlockServiceResponseMessage" wsaw:Action="https://www.example.org/UnBlockResponse"/>
         </wsdl:operation>
     </wsdl:portType>
     <wsdl:binding name="BlockServiceBinding" type="tns:IBlockUnBlockService">
-        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <soap:binding style="document" transport="https://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="Block">
-            <soap:operation soapAction="http://www.example.org/Block"/>
+            <soap:operation soapAction="https://www.example.org/Block"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -329,7 +329,7 @@ Exit:
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="UnBlock">
-            <soap:operation soapAction="http://www.example.org/UnBlock"/>
+            <soap:operation soapAction="https://www.example.org/UnBlock"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>

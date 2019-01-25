@@ -26,7 +26,7 @@ Accessible Event Watcher is installed with the Windows Software Development Kit 
 
 AccEvent can be used to examine accessibility data on systems that don't have UI Automation, it was originally written for Microsoft Active Accessibility. To examine UI Automation, UI Automation must be present on the system. For more information, see the "Requirements" section of [UI Automation](entry-uiauto-win32.md).
 
-AccEvent is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate exe download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](http://go.microsoft.com/fwlink/p/?LinkID=271979) (There's also an SDK download archive linked from that page, if you need a previous version.)
+AccEvent is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate exe download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](https://go.microsoft.com/fwlink/p/?LinkID=271979) (There's also an SDK download archive linked from that page, if you need a previous version.)
 
 To run AccEvent, find AccEvent.exe in the \\bin\\<*version*>\\<*platform*> folder and run it (you don't typically have to run as administrator).
 
@@ -132,7 +132,7 @@ The **WinEvent Settings** dialog box contains the following panes:
 
     | When this option is selected                                  | AccEvent does this                                                                                                                                                                                 |
     |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Use Invoke                                                    | Uses [IDispatch::Invoke](http://go.microsoft.com/fwlink/p/?linkid=143844) to retrieve object properties instead of using [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) methods.                               |
+    | Use Invoke                                                    | Uses [IDispatch::Invoke](https://go.microsoft.com/fwlink/p/?linkid=143844) to retrieve object properties instead of using [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) methods.                               |
     | Always Get Object (even if no object properties selected)     | Retrieves the object associated with the event even if no items are selected in the Object Properties pane.                                                                                        |
     | Display default property (in addition to selected properties) | Displays the default property, if any, for the object associated with the event, along with the items selected in the Object Properties pane.                                                      |
     | Display event information from invisible/hidden windows       | Displays the selected items from the Event Information pane for all objects, including those in invisible or hidden windows.                                                                       |

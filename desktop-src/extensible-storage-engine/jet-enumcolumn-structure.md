@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_ENUMCOLUMN Structure
 
-The **JET_ENUMCOLUMN** structure enumerates the column values of a record when the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function is used. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMN** structures. The array is returned in memory that is allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to that API.
+The **JET_ENUMCOLUMN** structure enumerates the column values of a record when the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function is used. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMN** structures. The array is returned in memory that is allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to that API.
 
 ```cpp
     typedef struct {
@@ -95,7 +95,7 @@ The column status code that results from the enumeration of the column.
 
 **cEnumColumnValue**
 
-The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
 This output buffer is used when the column status code is not equal to JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
@@ -103,7 +103,7 @@ This is returned if "err \!= JET_wrnColumnSingleValue".
 
 **rgEnumColumnValue**
 
-The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
 This output buffer is used when the column status code is not equal to JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
@@ -113,7 +113,7 @@ This is returned if "err \!= JET_wrnColumnSingleValue".
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The output buffer is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
 This output buffer is only used when the column status code is JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
@@ -123,7 +123,7 @@ This is returned if "err == JET_wrnColumnSingleValue".
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The output buffer is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
 This output buffer is only used when the column status code is JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
@@ -160,5 +160,5 @@ This is returned if "err == JET_wrnColumnSingleValue".
 [JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)  
 [JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
 [JetEnumerateColumns](gg269321\(v=exchg.10\).md)  
-[realloc](http://go.microsoft.com/fwlink/?linkid=179840)
+[realloc](https://go.microsoft.com/fwlink/?linkid=179840)
 

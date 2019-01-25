@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The two types of custom locales are supplemental locales and replacement locales. Supplemental locales are custom locales that allow corporations, universities, governments, and other third parties to create locale data not available in the shipping operating system. Replacement locales are custom locales that ship with the operating system without changing the [locale identifiers](locale-identifiers.md) or [locale names](locale-names.md).
 
-You can use the Locale Builder utility provided by NLS to build custom locales. For more information, see [Microsoft Locale Builder](http://go.microsoft.com/fwlink/p/?linkid=96654). Instructions for using custom locales in your applications are provided in [Working with Custom Locales](working-with-custom-locales.md).
+You can use the Locale Builder utility provided by NLS to build custom locales. For more information, see [Microsoft Locale Builder](https://go.microsoft.com/fwlink/p/?linkid=96654). Instructions for using custom locales in your applications are provided in [Working with Custom Locales](working-with-custom-locales.md).
 
 ## Comparison of Custom Locale Types
 

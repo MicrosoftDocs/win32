@@ -25,7 +25,7 @@ The following examples define representations of OpenType feature tags.
 -   The language tags for Romanian, Urdu, and Persian are "ROM ", "URD ", and "FAR ", respectively. Note that each of these tags ends with a space.
 -   The script tags for Latin and Arabic scripts are "latn" and "arab", respectively.
 
-For more information on OpenType feature tags and the OpenType specification, see <http://www.microsoft.com/typography/otspec/featuretags.htm>.
+For more information on OpenType feature tags and the OpenType specification, see <https://www.microsoft.com/typography/otspec/featuretags.htm>.
 
 ## Requirements
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DsBackupGetDatabaseNames function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupGetDatabaseNames** function obtains the list of database files to be backed up for the given backup context.
 

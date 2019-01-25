@@ -52,9 +52,9 @@ Add at 02/28/07 15:16:51
 + EPR:
   + Address:                 urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
 + Types:
-    (wsdp) http://schemas.xmlsoap.org/ws/2006/02/devprof:Device
+    (wsdp) https://schemas.xmlsoap.org/ws/2006/02/devprof:Device
 + XAddrs:
-  http://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
+  https://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
 + Metadata version:          2
 + Instance ID:               1
 + Probe/Resolve tag:         WSDAPI debug_client
@@ -67,7 +67,7 @@ Getting metadata for host at 02/28/07 15:16:51:
 + Endpoint reference:
   + Address:
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-Using xAddr: http://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
+Using xAddr: https://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
 Client metadata>
 *****************************************************************************
 Metadata for host:
@@ -75,20 +75,20 @@ Metadata for host:
   + Address:           urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
 Metadata section:
   + Dialect:
-    http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice
+    https://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice
   + Friendly name:
     [no lang]: Debugging Host
   + Firmware version:  1.0
   + Serial number:     00000000
 Metadata section:
   + Dialect:
-    http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel
+    https://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel
   + Manufacturer:
     [no lang]: Microsoft Corporation
-  + Manufacturer URL:  http://www.microsoft.com/
+  + Manufacturer URL:  https://www.microsoft.com/
   + Model names:
     [no lang]: Microsoft Debugging Host
-  + Model number:      http://www.microsoft.com/
+  + Model number:      https://www.microsoft.com/
 End of metadata
 Client metadata>
 ```
@@ -104,7 +104,7 @@ If the device address and device metadata do not appear in the WSD Debug Client 
 -   The transport address advertised by the host is incorrect or malformed. WSD Debug Client attempts to get device metadata from the URL provided in the **XAddrs** element of a [ProbeMatches](probematches-message.md) or [ResolveMatches](resolvematches-message.md) message. The URL used for metadata exchange appears in the WSD Debug Client output, prefixed by the phrase `Using xAddr`. The following example shows the XAddrs used for metadata exchange in the above WSD Debug Client output.
 
     ``` syntax
-    Using xAddr: http://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
+    Using xAddr: https://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
     ```
 
     If the supplied XAddrs do not conform to the [XAddr validation rules](xaddr-validation-rules.md), then the WSD Debug Client cannot get the device's metadata.

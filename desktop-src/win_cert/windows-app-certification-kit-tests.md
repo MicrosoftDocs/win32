@@ -225,10 +225,10 @@ Monitors the app during certification testing to record when it crashes or hangs
         3.  Review the log entries for info that might explain why the app didn't launch.
     -   Troubleshoot the file with the problem, identify and fix the problem. Rebuild and re-test the app.
 -   Additional resources
-    -   [Using Application Verifier Within Your Software Development Lifecycle](http://go.microsoft.com/fwlink/p/?linkid=247432)
-    -   [Application Verifier]( http://go.microsoft.com/fwlink/p/?LinkId=708300)
-    -   [Using Application Verifier](http://go.microsoft.com/fwlink/p/?LinkId=708301)
-    -   [AppInit DLLs](http://go.microsoft.com/fwlink/p/?LinkId=708302)
+    -   [Using Application Verifier Within Your Software Development Lifecycle](https://go.microsoft.com/fwlink/p/?linkid=247432)
+    -   [Application Verifier]( https://go.microsoft.com/fwlink/p/?LinkId=708300)
+    -   [Using Application Verifier](https://go.microsoft.com/fwlink/p/?LinkId=708301)
+    -   [AppInit DLLs](https://go.microsoft.com/fwlink/p/?LinkId=708302)
     -   [Minimize startup time (Windows Store apps using C#/VB/C++ and XAML)](https://msdn.microsoft.com/library/windows/apps/hh994639)
 
 ## Compatibility and resiliency test

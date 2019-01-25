@@ -44,21 +44,21 @@ typedef struct _BG_JOB_TIMES {
 **CreationTime**
 </dt> <dd>
 
-Time the job was created. The time is specified as [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=128776).
+Time the job was created. The time is specified as [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776).
 
 </dd> <dt>
 
 **ModificationTime**
 </dt> <dd>
 
-Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the [**IBackgroundCopyJob\***](https://msdn.microsoft.com/library/windows/desktop/mt811348) interfaces changes this value. In addition, changes to the state of the job and calling the [**Suspend**](ibackgroundcopyjob-suspend.md), [**Resume**](ibackgroundcopyjob-resume.md), [**Cancel**](ibackgroundcopyjob-cancel.md), and [**Complete**](ibackgroundcopyjob-complete.md) methods change this value. The time is specified as [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=128776).
+Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the [**IBackgroundCopyJob\***](https://msdn.microsoft.com/library/windows/desktop/mt811348) interfaces changes this value. In addition, changes to the state of the job and calling the [**Suspend**](ibackgroundcopyjob-suspend.md), [**Resume**](ibackgroundcopyjob-resume.md), [**Cancel**](ibackgroundcopyjob-cancel.md), and [**Complete**](ibackgroundcopyjob-complete.md) methods change this value. The time is specified as [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776).
 
 </dd> <dt>
 
 **TransferCompletionTime**
 </dt> <dd>
 
-Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified as [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=128776).
+Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified as [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776).
 
 </dd> </dl>
 

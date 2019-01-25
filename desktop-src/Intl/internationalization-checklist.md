@@ -14,7 +14,7 @@ This topic provides actions to take to create code that supports multiple market
     -   Design icons and bitmaps to be meaningful and not offensive in your target markets, and to not contain text.
     -   Design menus and dialog boxes to leave room for text expansion. For example, English strings often expand by 40% when translated into German or Dutch.
     -   Do not use slang or culturally-specific references in UI elements or messages.
-    -   Create shortcut key combinations that are accessible on international keyboards. For example, avoid using punctuation character keys as shortcut keys because they are not always found on international keyboards or easily produced by the user. For examples of keyboard layouts, see [Windows Keyboard Layouts](http://go.microsoft.com/fwlink/p/?linkid=177657).
+    -   Create shortcut key combinations that are accessible on international keyboards. For example, avoid using punctuation character keys as shortcut keys because they are not always found on international keyboards or easily produced by the user. For examples of keyboard layouts, see [Windows Keyboard Layouts](https://go.microsoft.com/fwlink/p/?linkid=177657).
     -   Consider local laws affecting feature designs, such as requirements that government entities purchase software that supports multiple official languages.
     -   Develop third-party agreements that support your organization's international UI standards and design decisions.
     -   Use consistent terminology in user interface strings that must be translated.

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing a Protocol Handler for WDS
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 Creating a protocol handler involves implementing [**ISearchProtocol**](https://msdn.microsoft.com/library/windows/desktop/bb231440) to manage UrlAccessor objects, [**IUrlAccessor**](https://msdn.microsoft.com/library/windows/desktop/bb231426) to generate metadata about and to identify appropriate filters for items in the data store, IProtocolHandlerSite to instantiate a SearchProtocol object and identify appropriate filters, and [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)to filter proprietary files or to enumerate and filter hierarchically stored files. The protocol handler must be multithreaded.
 

@@ -38,17 +38,17 @@ Microsoft has decided to discontinue development of Microsoft Agent technologies
 
 Developers can still use the following resources for previous versions of Windows:
 
--   [Microsoft Agent Core Components (for use only on Microsoft Windows 95, Windows 98 and Windows NT 4.0)](http://go.microsoft.com/fwlink/p/?linkid=205159)
--   [Merlin Character File](http://go.microsoft.com/fwlink/p/?linkid=205160)
--   [Peedy Character File](http://go.microsoft.com/fwlink/p/?linkid=205161)
--   [Genie Character File](http://go.microsoft.com/fwlink/p/?linkid=205162)
--   [Robby Character File](http://go.microsoft.com/fwlink/p/?linkid=205163)
+-   [Microsoft Agent Core Components (for use only on Microsoft Windows 95, Windows 98 and Windows NT 4.0)](https://go.microsoft.com/fwlink/p/?linkid=205159)
+-   [Merlin Character File](https://go.microsoft.com/fwlink/p/?linkid=205160)
+-   [Peedy Character File](https://go.microsoft.com/fwlink/p/?linkid=205161)
+-   [Genie Character File](https://go.microsoft.com/fwlink/p/?linkid=205162)
+-   [Robby Character File](https://go.microsoft.com/fwlink/p/?linkid=205163)
 
 ## Links to Other Resources
 
 <dl>
 
-[Microsoft Agent Resources](http://go.microsoft.com/fwlink/p/?linkid=140671)  
+[Microsoft Agent Resources](https://go.microsoft.com/fwlink/p/?linkid=140671)  
 </dl>
 
  

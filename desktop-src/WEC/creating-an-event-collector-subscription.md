@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating a Collector Initiated Subscription
 
-You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription. In a collector-initiated subscription, the subscription must contain a list of all the event sources. Before a collector computer can subscribe to events and a remote event source can forward events, both computers must be configured for event collecting and forwarding. For more information about how to configure the computers, see [Configure Computers to Forward and Collect Events](http://go.microsoft.com/fwlink/p/?linkid=73696).
+You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription. In a collector-initiated subscription, the subscription must contain a list of all the event sources. Before a collector computer can subscribe to events and a remote event source can forward events, both computers must be configured for event collecting and forwarding. For more information about how to configure the computers, see [Configure Computers to Forward and Collect Events](https://go.microsoft.com/fwlink/p/?linkid=73696).
 
 The following code example follows a series of steps to create a collector initiated subscription:
 
@@ -81,7 +81,7 @@ void __cdecl wmain()
     sub.Description = L"A subscription that collects events that are published in\n" \
         L"the Microsoft-Windows-TaskScheduler/Operational log and forwards them\n" \
         L"to the ForwardedEvents log.";
-    sub.URI = L"http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog";
+    sub.URI = L"https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog";
     sub.Query = L"<QueryList>" \
         L"<Query Path=\"Microsoft-Windows-TaskScheduler/Operational\">" \
         L"<Select>*</Select>" \
@@ -528,7 +528,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 <dl> <dt>
 
-[Configure Computers to Forward and Collect Events](http://go.microsoft.com/fwlink/p/?linkid=73696)
+[Configure Computers to Forward and Collect Events](https://go.microsoft.com/fwlink/p/?linkid=73696)
 </dt> <dt>
 
 [Adding an Event Source to an Event Collector Subscription](adding-an-event-source-to-an-event-collector-subscription.md)

@@ -21,7 +21,7 @@ The scripting calls to receive event notifications are essentially the same as a
 
 **To receive asynchronous event notifications in VBScript**
 
-1.  Create a sink object by calling [WScript.CreateObject](Http://go.microsoft.com/fwlink/p/?linkid=84364) and specifying the progid of "WbemScripting" and the object type of [**SWbemSink**](swbemsink.md). The sink object receives the notifications.
+1.  Create a sink object by calling [WScript.CreateObject](https://go.microsoft.com/fwlink/p/?linkid=84364) and specifying the progid of "WbemScripting" and the object type of [**SWbemSink**](swbemsink.md). The sink object receives the notifications.
 2.  Write a subroutine for each event you want to handle. The following table lists the [**SWbemSink**](swbemsink.md) events.
 
     

@@ -16,7 +16,7 @@ api_location:
 
 # IRichChunk::RemoteGetData method
 
-Retrieves the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) and input string that represents a chunk of data. Calling this method is the same as calling [**GetData**](/windows/desktop/api/StructuredQueryCondition/nf-structuredquerycondition-irichchunk-getdata).
+Retrieves the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) and input string that represents a chunk of data. Calling this method is the same as calling [**GetData**](/windows/desktop/api/StructuredQueryCondition/nf-structuredquerycondition-irichchunk-getdata).
 
 ## Syntax
 
@@ -60,7 +60,7 @@ Receives the associated Unicode string value, or **NULL** if not available.
 *pValue* \[out\]
 </dt> <dd>
 
-Receives the associated [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) value, or **VT\_EMPTY** if not available. This parameter can be **NULL**.
+Receives the associated [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) value, or **VT\_EMPTY** if not available. This parameter can be **NULL**.
 
 </dd> </dl>
 

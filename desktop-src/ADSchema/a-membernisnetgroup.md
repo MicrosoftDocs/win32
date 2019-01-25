@@ -129,7 +129,7 @@ Contains the list of netgroups that are members of this netgroup.
 
 <dl> <dt>
 
-[RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
+[RFC 2307](https://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
  

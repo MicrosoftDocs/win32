@@ -188,13 +188,13 @@ Some GDI+ methods return **ObjectBusy** if a thread attempts to call a method wh
 
 <dl> <dt>
 
-[MSDN Security Developer Center](http://go.microsoft.com/fwlink/p/?linkid=182493)
+[MSDN Security Developer Center](https://go.microsoft.com/fwlink/p/?linkid=182493)
 </dt> <dt>
 
-[Security How-To Resources](http://go.microsoft.com/fwlink/p/?linkid=182494)
+[Security How-To Resources](https://go.microsoft.com/fwlink/p/?linkid=182494)
 </dt> <dt>
 
-[TechNet Security Center](http://go.microsoft.com/fwlink/p/?linkid=182496)
+[TechNet Security Center](https://go.microsoft.com/fwlink/p/?linkid=182496)
 </dt> </dl>
 
  

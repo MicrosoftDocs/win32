@@ -44,7 +44,7 @@ The following list contains best practices for developing applications using the
 
 -   Perform packet inspection at Stream/Datagram Data layer rather than at the Transport layer.
 
-    This applies to developing callouts. For more information, see [Callout Driver Programming Considerations](http://go.microsoft.com/fwlink/p/?linkid=159728) in the Windows Driver Kit (WDK).
+    This applies to developing callouts. For more information, see [Callout Driver Programming Considerations](https://go.microsoft.com/fwlink/p/?linkid=159728) in the Windows Driver Kit (WDK).
 
 -   Consider performance implications when using complex filters.
 

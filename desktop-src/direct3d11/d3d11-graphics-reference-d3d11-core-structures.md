@@ -250,7 +250,7 @@ typedef RECT D3D11_RECT;
 
 
 
-For documentation, see [RECT](http://msdn.microsoft.com/library/ms536136.aspx) in [Windows GDI](http://msdn.microsoft.com/library/ms536795.aspx) on [MSDN](http://msdn.microsoft.com/).
+For documentation, see [RECT](https://msdn.microsoft.com/library/ms536136.aspx) in [Windows GDI](https://msdn.microsoft.com/library/ms536795.aspx) on [MSDN](https://msdn.microsoft.com/).
 
 ## Related topics
 

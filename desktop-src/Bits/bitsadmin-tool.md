@@ -637,7 +637,7 @@ Use the <usage> parameter to specify the form of proxy detection to use. Possibl
 
     The bypass list is a space-delimited list of host names or IP addresses, or both, for which transfers are not to be routed through a proxy. This can be <local> to refer to all servers on the same LAN. Values of **NULL** or "" may be used for an empty proxy bypass list.
 
--   AUTOSCRIPT—Same as AUTODETECT, except it also executes a script. Specify the script URL immediately following the usage tag. For example, AUTOSCRIPT http://server/proxy.js.
+-   AUTOSCRIPT—Same as AUTODETECT, except it also executes a script. Specify the script URL immediately following the usage tag. For example, AUTOSCRIPT https://server/proxy.js.
 -   RESET—Same as NO\_PROXY, except it removes the manual proxy URLs (if specified) and URLs discovered using automatic detection.
 
 Note that each successive call using this switch does not replace the previously specified usage. For example, if you specify NO\_PROXY, AUTODETECT, and MANUAL\_PROXY on separate calls, BITS uses automatic detection to determine the proxy to use. If automatic detection fails, BITS uses MANUAL\_PROXY.

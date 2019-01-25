@@ -120,7 +120,7 @@ The MPEG-2 Demultiplexer can create new pins and new PID mappings while the grap
 
 ## Downloading the Sample
 
-To download the DirectShow SDK samples, install the latest version of the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 This sample is installed under the following path: *\[SDK Root\]*\\Samples\\Multimedia\\DirectShow\\Filters\\PSIParser.
 

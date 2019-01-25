@@ -89,11 +89,11 @@ If the metafile is opened in the stand-alone Windows Media Player, the **TARGET*
 <ASX VERSION="3.0">
 
    <TITLE>Example Media Player Show</TITLE>
-   <MOREINFO HREF="http://example.microsoft.com/info/show_info.htm" />
+   <MOREINFO HREF="https://example.microsoft.com/info/show_info.htm" />
    
    <ENTRY>
       <TITLE>Example Clip</TITLE>
-      <MOREINFO HREF="http://example.microsoft.com/info/clip1_info.htm" />
+      <MOREINFO HREF="https://example.microsoft.com/info/clip1_info.htm" />
       <REF HREF="mms://example.microsoft.com/media.asf" />
    </ENTRY>
    

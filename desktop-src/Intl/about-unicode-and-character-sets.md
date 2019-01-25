@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The world's character-based data was developed using both [Unicode](unicode.md) and traditional character sets. Because of this, Windows provides character set functions that help applications convert the character-based data from its original character set to Unicode or another traditional character set. These character set functions also help applications create character-based data that can be transferred to and used on any operating system, including those that do not support Unicode.
 
-For details about Unicode beyond the scope of this overview, see [The Unicode Standard](http://go.microsoft.com/fwlink/p/?linkid=161649).
+For details about Unicode beyond the scope of this overview, see [The Unicode Standard](https://go.microsoft.com/fwlink/p/?linkid=161649).
 
 This section covers the following topics.
 

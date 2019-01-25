@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # UWP APIs callable from a classic desktop app
 
-With some notable exceptions, the general rule is that a Universal Windows Platform (UWP) API can be called from a classic desktop app. The two main areas of APIs that are an exception to this general rule are XAML UI APIs, and APIs that require the calling app to have a package identity. UWP apps have a well-defined app model, and they have a package identity. Classic desktop apps do not have a well-defined app model, and they do not have a package identity. A [classic desktop app that has been converted to a UWP app](http://go.microsoft.com/fwlink/p/?LinkId=761468) does have a package identity.
+With some notable exceptions, the general rule is that a Universal Windows Platform (UWP) API can be called from a classic desktop app. The two main areas of APIs that are an exception to this general rule are XAML UI APIs, and APIs that require the calling app to have a package identity. UWP apps have a well-defined app model, and they have a package identity. Classic desktop apps do not have a well-defined app model, and they do not have a package identity. A [classic desktop app that has been converted to a UWP app](https://go.microsoft.com/fwlink/p/?LinkId=761468) does have a package identity.
 
 ## The DualApiPartition attribute
 

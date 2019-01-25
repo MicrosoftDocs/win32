@@ -39,8 +39,8 @@ When a user changes the IME mode on an application, the change doesn’t affect 
 
 ## Resources
 
--   [IME Conversion Mode Values](http://go.microsoft.com/fwlink/p/?LinkID=327523)
--   [IME Sentence Mode Values](http://go.microsoft.com/fwlink/p/?LinkID=327524)
+-   [IME Conversion Mode Values](https://go.microsoft.com/fwlink/p/?LinkID=327523)
+-   [IME Sentence Mode Values](https://go.microsoft.com/fwlink/p/?LinkID=327524)
 
  
 

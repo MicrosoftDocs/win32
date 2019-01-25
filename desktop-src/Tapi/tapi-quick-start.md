@@ -64,7 +64,7 @@ Usenet newsgroups can be good forums for the exchange of information and for ass
 
 Microsoft hosts a number of newsgroups, including one specializing in TAPI.
 
-[http://msdn.microsoft.com/newsgroups](Http://go.microsoft.com/fwlink/p/?linkid=83943)
+[https://msdn.microsoft.com/newsgroups](https://go.microsoft.com/fwlink/p/?linkid=83943)
 
 In the left pane navigate to Windows Development, then to Windows SDK and choose win32.programmer.tapi.
 

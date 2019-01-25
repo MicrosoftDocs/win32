@@ -22,7 +22,7 @@ The [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structur
 
 | Device capability             | Description                                                                                                                                                  |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| D3DDEVCAPS\_NPATCHES          | Device supports N-patches and is based on [Curved PN Triangles](http://go.microsoft.com/fwlink/p/?linkid=254214) (a special kind of cubic Bézier triangles). |
+| D3DDEVCAPS\_NPATCHES          | Device supports N-patches and is based on [Curved PN Triangles](https://go.microsoft.com/fwlink/p/?linkid=254214) (a special kind of cubic Bézier triangles). |
 | D3DDEVCAPS\_QUINTICRTPATCHES  | Device supports quintic Bezier curves and B-splines.                                                                                                         |
 | D3DDEVCAPS\_RTPATCHES         | Device supports rectangular and triangular patches (RT-patches).                                                                                             |
 | D3DDEVCAPS\_RTPATCHHANDLEZERO | RT-patches might be drawn efficiently using handle zero.                                                                                                     |

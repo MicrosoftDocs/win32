@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ScoredProperty
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 A ScoredProperty element declares a property that is intrinsic to an Option definition. Such properties should be compared when evaluating how closely a requested Option matches a device-supported Option.
 
@@ -66,7 +66,7 @@ Declare a ScoredProperty element named MediaSizeWidth with a Value of 11.
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

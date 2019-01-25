@@ -296,7 +296,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **TRUE**, this printer supports [RFC 1759](Http://go.microsoft.com/fwlink/p/?linkid=84407) (Simple Network Management Protocol) and can provide rich status information from the device.
+If **TRUE**, this printer supports [RFC 1759](https://go.microsoft.com/fwlink/p/?linkid=84407) (Simple Network Management Protocol) and can provide rich status information from the device.
 
 </dd> <dt>
 

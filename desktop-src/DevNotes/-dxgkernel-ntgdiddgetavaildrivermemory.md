@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetAvailDriverMemoryData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_GETAVAILDRIVERMEMORYDATA](http://msdn.microsoft.com/en-us/library/ms794088.aspx) structure that contains the information required to perform the query.
+Pointer to a [DD\_GETAVAILDRIVERMEMORYDATA](https://msdn.microsoft.com/en-us/library/ms794088.aspx) structure that contains the information required to perform the query.
 
 </dd> </dl>
 

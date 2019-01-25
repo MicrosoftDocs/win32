@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Fixing Compatibility Issues in Web Applications by Using Compatibility View
 
-This section describes basic mitigation steps and how to plan for future application compatibility while you are addressing any issues now. The [Website Troubleshooting Guidance](http://go.microsoft.com/fwlink/p/?linkid=205675) white paper contains resources and information to help you isolate compatibility issues.
+This section describes basic mitigation steps and how to plan for future application compatibility while you are addressing any issues now. The [Website Troubleshooting Guidance](https://go.microsoft.com/fwlink/p/?linkid=205675) white paper contains resources and information to help you isolate compatibility issues.
 
 Windows Internet Explorer supports the legacy Internet Explorer models whenever feasible so that sites that you develop to them continue to behave as expected in newer versions of Internet Explorer. Starting with Windows Internet Explorer 8, you can choose to support legacy behaviors by selecting the rendering mode on a page-by-page basis.
 

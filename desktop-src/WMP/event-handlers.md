@@ -19,7 +19,7 @@ You can have more than one line of code in an event handler, but care must be ta
 
 
 ```C++
-onclick = "JScript: player.URL = 'http://proseware.com/cool.wma' ; myText.value = 'Playing'; "
+onclick = "JScript: player.URL = 'https://proseware.com/cool.wma' ; myText.value = 'Playing'; "
 
 ```
 

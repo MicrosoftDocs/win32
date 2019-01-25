@@ -31,7 +31,7 @@ This section contains reference information for the instruction modifiers implem
 
 ## Centroid
 
-The centroid modifier is an optional modifier that clamps attribute interpolation within the range of the primitive when a multisample pixel center is not covered by the primitive. This can be seen in [Centroid Sampling](http://msdn.microsoft.com/library/ee415231(VS.85).aspx).
+The centroid modifier is an optional modifier that clamps attribute interpolation within the range of the primitive when a multisample pixel center is not covered by the primitive. This can be seen in [Centroid Sampling](https://msdn.microsoft.com/library/ee415231(VS.85).aspx).
 
 You can apply the centroid modifier to an assembly instruction as shown here:
 

@@ -24,7 +24,7 @@ The Windows Media Player SDK includes a variety of samples that demonstrate many
 -   A C# sample demonstrates using the Windows Media Player ActiveX control with the .NET Framework.
 -   A Visual Basic .NET sample demonstrates using the Windows Media Player ActiveX control with the .NET Framework.
 
-To use the samples, you must install the Windows SDK, which includes the Windows Media Player SDK. To download the Windows SDK, go to the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=149631) page in the Windows Developer Center.
+To use the samples, you must install the Windows SDK, which includes the Windows Media Player SDK. To download the Windows SDK, go to the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=149631) page in the Windows Developer Center.
 
 ## Related topics
 

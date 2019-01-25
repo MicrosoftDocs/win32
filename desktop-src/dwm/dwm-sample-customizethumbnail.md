@@ -32,7 +32,7 @@ The following illustration shows a default thumbnail transformed into a customiz
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 7 or Windows Vista with Service Pack 2 (SP2) and Platform Update for Windows Vista                          |
 | Minimum supported server | Windows Server 2008 R2 or Windows Server 2008 with Service Pack 2 (SP2) and Platform Update for Windows Server 2008 |
-| Windows SDK              | [Windows Software Development Kit (SDK) for Windows 7](http://go.microsoft.com/fwlink/p/?linkid=154879)             |
+| Windows SDK              | [Windows Software Development Kit (SDK) for Windows 7](https://go.microsoft.com/fwlink/p/?linkid=154879)             |
 
 
 
@@ -46,7 +46,7 @@ This sample is available in the following locations.
 
 | Location     | Path/URL                                                                           |
 |--------------|------------------------------------------------------------------------------------|
-| Code Gallery | [Download from MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=196367) |
+| Code Gallery | [Download from MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=196367) |
 
 
 

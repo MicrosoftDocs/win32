@@ -180,18 +180,18 @@ Exit:
 
 ``` syntax
 <wsdl:definitions 
-    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-    xmlns:tns="http://Example.org" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-    xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" 
-    xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" 
-    xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" 
-    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
-    targetNamespace="http://Example.org" 
-    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:tns="https://Example.org" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" 
+    xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" 
+    xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" 
+    xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" 
+    targetNamespace="https://Example.org" 
+    xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/">
     <wsp:Policy wsu:Id="policy1">
       <wsp:ExactlyOne>
-              <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+              <sp:TransportBinding xmlns:sp="https://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
                   <wsp:Policy>
                       <sp:TransportToken>
                           <wsp:Policy>
@@ -215,7 +215,7 @@ Exit:
     </wsp:Policy>
 
     <wsdl:types>
-        <xsd:schema targetNamespace="http://Example.org" elementFormDefault="qualified" >
+        <xsd:schema targetNamespace="https://Example.org" elementFormDefault="qualified" >
             <xsd:element name="Add">
                 <xsd:complexType>
                     <xsd:sequence>
@@ -262,19 +262,19 @@ Exit:
     </wsdl:message>
     <wsdl:portType name="ICalculator">
         <wsdl:operation name="Add">
-            <wsdl:input wsaw:Action="http://Example.org/ICalculator/Add" message="tns:ICalculator_Add_InputMessage" />
-            <wsdl:output wsaw:Action="http://Example.org/ICalculator/AddResponse" message="tns:ICalculator_Add_OutputMessage" />
+            <wsdl:input wsaw:Action="https://Example.org/ICalculator/Add" message="tns:ICalculator_Add_InputMessage" />
+            <wsdl:output wsaw:Action="https://Example.org/ICalculator/AddResponse" message="tns:ICalculator_Add_OutputMessage" />
         </wsdl:operation>
         <wsdl:operation name="Subtract">
-            <wsdl:input wsaw:Action="http://Example.org/ICalculator/Subtract" message="tns:ICalculator_Subtract_InputMessage" />
-            <wsdl:output wsaw:Action="http://Example.org/ICalculator/SubtractResponse" message="tns:ICalculator_Subtract_OutputMessage" />
+            <wsdl:input wsaw:Action="https://Example.org/ICalculator/Subtract" message="tns:ICalculator_Subtract_InputMessage" />
+            <wsdl:output wsaw:Action="https://Example.org/ICalculator/SubtractResponse" message="tns:ICalculator_Subtract_OutputMessage" />
         </wsdl:operation>
     </wsdl:portType>
     <wsdl:binding name="DefaultBinding_ICalculator" type="tns:ICalculator">
-        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+        <soap:binding transport="https://schemas.xmlsoap.org/soap/http" />
         <wsp:PolicyReference URI="#policy1" />
         <wsdl:operation name="Add">
-            <soap:operation soapAction="http://Example.org/ICalculator/Add" style="document" />
+            <soap:operation soapAction="https://Example.org/ICalculator/Add" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -283,7 +283,7 @@ Exit:
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="Subtract">
-            <soap:operation soapAction="http://Example.org/ICalculator/Subtract" style="document" />
+            <soap:operation soapAction="https://Example.org/ICalculator/Subtract" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -294,7 +294,7 @@ Exit:
     </wsdl:binding>
     <wsdl:service name="CalculatorService">
         <wsdl:port name="ICalculator" binding="tns:DefaultBinding_ICalculator">
-            <soap:address location="http://Example.org/ICalculator" />
+            <soap:address location="https://Example.org/ICalculator" />
         </wsdl:port>
     </wsdl:service>
 
@@ -314,7 +314,7 @@ all: $(OUTDIR) $(OUTDIR)\WsHttpCalculatorWithSslPolicyClient.exe
     if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
     
 $(OUTDIR)\CalculatorServiceWithPolicy.wsdl.c: CalculatorServiceWithPolicy.wsdl
-     Wsutil.exe /wsdl:CalculatorServiceWithPolicy.wsdl:http://Example.org /string:WS_STRING /out:$(OUTDIR)
+     Wsutil.exe /wsdl:CalculatorServiceWithPolicy.wsdl:https://Example.org /string:WS_STRING /out:$(OUTDIR)
     
 $(OUTDIR)\CalculatorServiceWithPolicy.wsdl.obj: $(OUTDIR)\CalculatorServiceWithPolicy.wsdl.c
     $(cc) $(cdebug) $(cflags) $(cvarsmt) /WX -I$(OUTDIR) /Fo"$(OUTDIR)\\" /Fd"$(OUTDIR)\\" $(OUTDIR)\CalculatorServiceWithPolicy.wsdl.c

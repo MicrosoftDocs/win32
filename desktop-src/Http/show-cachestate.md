@@ -36,7 +36,7 @@ Fully qualified URL. If unspecified, implies all URLs. The URL can also be a pre
 
 ## Examples
 
-**show cachestate url=http://www.contoso.com:80/myresource**
+**show cachestate url=https://www.contoso.com:80/myresource**
 
  
 

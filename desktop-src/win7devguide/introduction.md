@@ -18,15 +18,15 @@ This guide summarizes the key developer advances in each of the following three 
 
 Great user experiences start with a solid foundation. Windows 7 delivers a solid development platform and innovative tools that give you more options, increased application compatibility, better performance, and sophisticated document support. This results in a simple, more reliable environment for your applications and a familiar, intuitive one for your users.
 
-We've kept the user interface consistent, predictable and easy to use, while adding multi-touch support, scrolling, and other intuitive interaction features that take advantage of the latest PC and mobile device capabilities. With Windows 7, developers have the power to build the right user experiences for their applications. (See [Windows User Experience Interaction Guidelines](http://go.microsoft.com/?linkid=9669659).)
+We've kept the user interface consistent, predictable and easy to use, while adding multi-touch support, scrolling, and other intuitive interaction features that take advantage of the latest PC and mobile device capabilities. With Windows 7, developers have the power to build the right user experiences for their applications. (See [Windows User Experience Interaction Guidelines](https://go.microsoft.com/?linkid=9669659).)
 
 [Richer Application Experiences](richer-application-experiences.md)
 
-Windows 7 enables developers to build applications today that will run on the PCs of tomorrow. Service-enabled software and devices, such as mobile phones, portable media players, and digital cameras, demand constant connectivity and advanced applications. Windows 7 delivers a platform for both, making it easy for developers to take advantage of the functionality and features of next generation hardware, while ensuring that users are always on, and always connected. (See [Windows Hardware Developer Central](http://go.microsoft.com/?linkid=9669663).)
+Windows 7 enables developers to build applications today that will run on the PCs of tomorrow. Service-enabled software and devices, such as mobile phones, portable media players, and digital cameras, demand constant connectivity and advanced applications. Windows 7 delivers a platform for both, making it easy for developers to take advantage of the functionality and features of next generation hardware, while ensuring that users are always on, and always connected. (See [Windows Hardware Developer Central](https://go.microsoft.com/?linkid=9669663).)
 
 [The Best of Windows and the Web](the-best-of-windows-and-the-web.md)
 
-With Windows 7, it's easy to get connected and stay connected. Windows networking offers developers options for better caching and sharing of data to improve network performance. Network diagnostics in Windows 7 give developers relevant information for monitoring network issues. Windows Internet Explorer 8 is the essential platform for building fast, rich web experiences. Whether the goal is to connect devices, connect to a network, or connect to the *Internet*, Windows 7 provides an enhanced platform. (See [Web Development](http://go.microsoft.com/?linkid=9669664).)
+With Windows 7, it's easy to get connected and stay connected. Windows networking offers developers options for better caching and sharing of data to improve network performance. Network diagnostics in Windows 7 give developers relevant information for monitoring network issues. Windows Internet Explorer 8 is the essential platform for building fast, rich web experiences. Whether the goal is to connect devices, connect to a network, or connect to the *Internet*, Windows 7 provides an enhanced platform. (See [Web Development](https://go.microsoft.com/?linkid=9669664).)
 
  
 

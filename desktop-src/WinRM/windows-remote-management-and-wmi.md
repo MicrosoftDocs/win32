@@ -26,9 +26,9 @@ A WMI class or method is identified by a [*URI*](windows-remote-management-gloss
 
 ## Constructing the URI Prefix for WMI Classes
 
-The URI prefix contains a fixed part and the WMI namespace. For example, the URI prefix in Windows Server that contains the fixed part of the prefix is: http://schemas.microsoft.com/wbem/wsman/1/wmi/<WmiNamespace>. This allows the URI prefix to be generated for any WMI namespace. For example, to access the **root\\default** WMI namespace, use the following URI prefix: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/default/.
+The URI prefix contains a fixed part and the WMI namespace. For example, the URI prefix in Windows Server that contains the fixed part of the prefix is: https://schemas.microsoft.com/wbem/wsman/1/wmi/<WmiNamespace>. This allows the URI prefix to be generated for any WMI namespace. For example, to access the **root\\default** WMI namespace, use the following URI prefix: https://schemas.microsoft.com/wbem/wsman/1/wmi/root/default/.
 
-The majority of the WMI classes for management are in the **root\\cimv2** namespace. To access classes and instances in **root\\cimv2** namespace, use the URI prefix: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/. For more information, see [Resource URIs](resource-uris.md).
+The majority of the WMI classes for management are in the **root\\cimv2** namespace. To access classes and instances in **root\\cimv2** namespace, use the URI prefix: https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/. For more information, see [Resource URIs](resource-uris.md).
 
 ## Generating a Complete URI for WMI Classes
 
@@ -40,21 +40,21 @@ The following procedure describes how to generate a resource URI either to get a
 
 1.  Start with the prefix that indicates the WS-Management protocol schema should be used.
 
-    http://schemas.microsoft.com/wbem/wsman/1
+    https://schemas.microsoft.com/wbem/wsman/1
 
     The resource URI prefix for WMI classes is always the same. For more information, see [URI Prefixes](uri-prefixes.md).
 
 2.  Add the WMI namespace to the prefix.
 
-    http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/
+    https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/
 
 3.  Add the class name.
 
-    http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service
+    https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service
 
 4.  To set the value of a property, or to invoke a specific method, add the required key value or values for the class.
 
-    http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Name=Winmgmt
+    https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Name=Winmgmt
 
     If you leave the key value blank, you will not alter the original property value.
 
@@ -69,9 +69,9 @@ You can obtain WMI data either through the command-line tool, **Winrm**, or thro
 
 The WinRM URI for a WMI class contains two parts: the [URI prefix](uri-prefixes.md) and the class that you want to access.
 
-For example, the following URI can be supplied to the [**Session.Enumerate**](session-enumerate.md) method to list all the services on a computer. The URI prefix is http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/ and the class is [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
+For example, the following URI can be supplied to the [**Session.Enumerate**](session-enumerate.md) method to list all the services on a computer. The URI prefix is https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/ and the class is [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
 
-`strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_CurrentTime"`
+`strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_CurrentTime"`
 
 In WMI, list the data for all of the instances of a resource or class in several ways:
 
@@ -87,7 +87,7 @@ In WinRM, there is one way to list all of the instances of a resource: [**Sessio
 
 
 ```VB
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
+strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
 Set colServices = objSession.Enumerate( strResource )
 ```
 
@@ -103,10 +103,10 @@ You can obtain a specific instance of a class in several ways:
 
     ```VB
     RemoteComputer = "servername.domain.com"
-    strDialect = "http://schemas.microsoft.com/wbem/wsman/1/WQL"
-    strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
+    strDialect = "https://schemas.microsoft.com/wbem/wsman/1/WQL"
+    strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
     Set objWsman = CreateObject("Wsman.Automation")
-    Set objSession = objWsman.CreateSession("http://" & RemoteComputer)
+    Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
 
     strFilter = "SELECT * FROM Win32_Share WHERE Name='Admin$'"
     Set objResultSet = objSession.Enumerate(strResource, strFilter, strDialect)
@@ -116,15 +116,15 @@ You can obtain a specific instance of a class in several ways:
 
 -   A call to [**SWbemServices.Get**](https://msdn.microsoft.com/library/aa393868). For [**Session.Get**](session-get.md), you must supply one or more specific key values, preceded by a question mark (?).
 
-    The format of the URI for a specific instance is "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/WMI\_Class?Key1=Value".
+    The format of the URI for a specific instance is "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/WMI\_Class?Key1=Value".
 
     ```VB
-    strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
+    strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
     ```
 
     
 
-    A WMI class may have more than one key. Key name-value pairs are separated by a "+" sign. In that case, the format is: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Key1=Value1+Key2=Value2.
+    A WMI class may have more than one key. Key name-value pairs are separated by a "+" sign. In that case, the format is: https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Key1=Value1+Key2=Value2.
 
     The WinRM syntax to obtain a singleton WMI object is different from WMI. A singleton is a WMI class defined so that only one instance is allowed. [**Win32\_CurrentTime**](https://msdn.microsoft.com/library/aa394114) or [**Win32\_WMISetting**](https://msdn.microsoft.com/library/aa394522) are examples of a WMI singleton class.
 
@@ -139,7 +139,7 @@ You can obtain a specific instance of a class in several ways:
     The following example shows the WinRM singleton syntax which does not use "@".
 
     ```VB
-    strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_CurrentTime"
+    strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_CurrentTime"
     ```
 
     
@@ -149,7 +149,7 @@ You can obtain a specific instance of a class in several ways:
     The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](https://msdn.microsoft.com/library/aa394373).
 
     ```VB
-    strUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Processor"
+    strUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Processor"
     Set objWsman = CreateObject("Wsman.Automation")
     Set Session = objWsman.CreateSession
     Set Locator = objWsman.CreateResourceLocator(strUri)

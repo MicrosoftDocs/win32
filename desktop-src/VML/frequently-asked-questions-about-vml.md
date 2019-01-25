@@ -32,10 +32,10 @@ ms.date: 05/31/2018
 
 # Frequently Asked Questions About VML
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -69,7 +69,7 @@ No, it currently doesn't. However, we are working with our VML partners to add a
 
 No. VML is a text-based interchange and delivery format for vector graphics, whereas Flash is a binary format for the delivery of vector-based graphics and animation.
 
-Macromedia did not submit their file format to the W3C. However, they did open their file format up for application developers, Web developers and end users. See <http://www.macromedia.com> for more information.
+Macromedia did not submit their file format to the W3C. However, they did open their file format up for application developers, Web developers and end users. See <https://www.macromedia.com> for more information.
 
 [Back to the VML overview](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md)
 

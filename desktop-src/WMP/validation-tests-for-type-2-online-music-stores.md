@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 This topic describes tests that Microsoft will perform to validate your Type 2 online store. Microsoft requires that you run these tests before you submit a release candidate. Your online store must successfully pass these tests to be published.
 
 > [!Note]  
-> If your store is Type 1 rather than Type 2, you can use this topic as a guideline to understand the scope of the certification testing that is covered for Type 1 stores. For the complete set of tests for Type 1 stores, contact [Microsoft Support](http://support.microsoft.com/ph/7763#tab0).
+> If your store is Type 1 rather than Type 2, you can use this topic as a guideline to understand the scope of the certification testing that is covered for Type 1 stores. For the complete set of tests for Type 1 stores, contact [Microsoft Support](https://support.microsoft.com/ph/7763#tab0).
 
  
 

@@ -34,7 +34,7 @@ The following table describes the memory management registry keys that can be us
 
  
 
-Determining whether system VA space is being exhausted requires the use of a kernel debugger. For more information, see [Debugging Tools for Windows](http://go.microsoft.com/fwlink/p/?linkid=116392).
+Determining whether system VA space is being exhausted requires the use of a kernel debugger. For more information, see [Debugging Tools for Windows](https://go.microsoft.com/fwlink/p/?linkid=116392).
 
  
 

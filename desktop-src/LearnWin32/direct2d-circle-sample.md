@@ -18,7 +18,7 @@ The Direct2D Circle sample application draws a circle, as shown in the screen sh
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [http://go.microsoft.com/fwlink/p/?linkid=195524]( http://go.microsoft.com/fwlink/p/?linkid=195524).
+This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=195524]( https://go.microsoft.com/fwlink/p/?linkid=195524).
 
 ## Related topics
 

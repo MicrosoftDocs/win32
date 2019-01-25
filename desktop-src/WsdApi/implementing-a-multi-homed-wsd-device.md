@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing a Multi-Homed WSD Device
 
-[WS-Discovery](http://go.microsoft.com/fwlink/p/?linkid=87841) and the [Devices Profile for Web Services](http://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) do not describe the implementation of multi-homed devices. This topic describes multi-homed device support in WSDAPI, and provides implementation recommendations to client and device developers. In this topic, it is assumed that discovery messages are sent over both IPv4 and IPv6 (if available) with the same message ID and application sequencing information.
+[WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) and the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) do not describe the implementation of multi-homed devices. This topic describes multi-homed device support in WSDAPI, and provides implementation recommendations to client and device developers. In this topic, it is assumed that discovery messages are sent over both IPv4 and IPv6 (if available) with the same message ID and application sequencing information.
 
 ## Discovery in a multi-homed environment
 

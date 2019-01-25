@@ -49,7 +49,7 @@ This documentation is broken into three major sections:
 
 -   The [Shell Developer's Guide](intro.md) provides conceptual material about how the Shell works and how to use the Shell's API in your application.
 -   The [Shell Reference](shell-reference-bumper.md) section documents programming elements that make up the various Shell APIs.
--   [Shell SDK Samples](samples-entry.md) provides links to Shell samples. Most samples can be downloaded from [MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+-   [Shell SDK Samples](samples-entry.md) provides links to Shell samples. Most samples can be downloaded from [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 The following table provides an outline of the Shell Reference section. Unless otherwise noted, all programming elements are documented in unmanaged C++.
 

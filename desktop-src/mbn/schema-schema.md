@@ -12,7 +12,7 @@ The Mobile Broadband Profile Schema defines a Mobile Broadband Profile.
 
 Profiles store Mobile Broadband connection related user and network configuration parameters. They also store the user preferences for a connection.
 
-The root element of a Mobile Broadband profile is the [**MBNProfile**](schema-mbnprofile-element.md) element. Each profile has exactly one root element. All Mobile Broadband Profile Schema elements used by Windows 7 are in the namespace `http://www.microsoft.com/networking/WWAN/profile/v1` and the elements used by Windows 8 are in the namespace `http://www.microsoft.com/networking/WWAN/profile/v2`.
+The root element of a Mobile Broadband profile is the [**MBNProfile**](schema-mbnprofile-element.md) element. Each profile has exactly one root element. All Mobile Broadband Profile Schema elements used by Windows 7 are in the namespace `https://www.microsoft.com/networking/WWAN/profile/v1` and the elements used by Windows 8 are in the namespace `https://www.microsoft.com/networking/WWAN/profile/v2`.
 
 The Mobile Broadband Profile Schema strictly enforces the order of the nodes. Nodes specified in a profile must adhere to the **Mobile Broadband Profile Schema** and appear in the order prescribed in the schema definition. For example, [**UserLogonCred**](schema-userlogoncred-contexttype-element.md) must be specified immediately after [**AccessString**](schema-accessstring-contexttype-element.md).
 

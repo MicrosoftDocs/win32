@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The SignTool tool is a command-line tool that digitally signs files, verifies signatures in files, or time stamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
-SignTool is available as part of the Windows SDK, which you can download from <http://go.microsoft.com/fwlink/p/?linkid=84091>.
+SignTool is available as part of the Windows SDK, which you can download from <https://go.microsoft.com/fwlink/p/?linkid=84091>.
 
 **Windows Server 2008 R2 and Windows 7:  **
 
@@ -340,7 +340,7 @@ The following command line shows signing a file automatically using the best cer
 **signtool sign** **/a** *MyFile.exe*
 
 > [!Note]  
-> When signing an executable file that is larger than approximately 300 megabytes for use on a computer running Windows XP with Service Pack 2 (SP2) and later, you should use catalog signing with the [MakeCat](makecat.md) tool rather than use the SignTool tool. Depending on the available system resources of the computer on which the file is verified, some applications may not be able to verify the binary signature of a large file. For more information, see KB article [922225](http://go.microsoft.com/fwlink/p/?linkid=84540).
+> When signing an executable file that is larger than approximately 300 megabytes for use on a computer running Windows XP with Service Pack 2 (SP2) and later, you should use catalog signing with the [MakeCat](makecat.md) tool rather than use the SignTool tool. Depending on the available system resources of the computer on which the file is verified, some applications may not be able to verify the binary signature of a large file. For more information, see KB article [922225](https://go.microsoft.com/fwlink/p/?linkid=84540).
 
  
 

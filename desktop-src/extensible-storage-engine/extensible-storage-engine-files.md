@@ -33,7 +33,7 @@ The Extensible Storage Engine uses the following types of files:
 
 This table contains an overview of the data file names that are managed by ESE. For Windows Vista and later, the JET_paramLegacyNames setting impacts the file names that are used.
 
-<table xmlns="http://www.w3.org/1999/xhtml">
+<table xmlns="https://www.w3.org/1999/xhtml">
   <tr>
     <th>
       <p>Operating System</p>

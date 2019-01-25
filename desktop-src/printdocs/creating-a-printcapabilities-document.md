@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a PrintCapabilities Document
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 After a PrintTicket is validated, it can be used to create a snapshot of the PrintCapabilities. The provider must have an internal representation for any Property whose Value is dependent on the device configuration. For example, if SpotDiameter is a Property that is dependent on both the Resolution and MediaType Features, an internal representation of SpotDiameter as it relates to the various values for Resolution and MediaType might appear as in the following table:
 
@@ -35,7 +35,7 @@ To create a snapshot of the default PrintCapabilities document, provide a defaul
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

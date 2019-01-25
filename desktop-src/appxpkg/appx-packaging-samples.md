@@ -14,25 +14,25 @@ These samples demonstrate the packaging, deployment, and query APIs for Windows 
 
 The following are sample desktop apps:
 
--   [Create app package sample (CreateAppx)](http://go.microsoft.com/fwlink/p/?linkid=236965)
--   [Extract app package contents sample (ExtractAppx)](http://go.microsoft.com/fwlink/p/?linkid=106455)
--   [Query app package and app manifest sample (DescribeAppx)](http://go.microsoft.com/fwlink/p/?linkid=236966)
+-   [Create app package sample (CreateAppx)](https://go.microsoft.com/fwlink/p/?linkid=236965)
+-   [Extract app package contents sample (ExtractAppx)](https://go.microsoft.com/fwlink/p/?linkid=106455)
+-   [Query app package and app manifest sample (DescribeAppx)](https://go.microsoft.com/fwlink/p/?linkid=236966)
 
 ## Package deployment API samples
 
 The following are sample desktop apps:
 
--   [Add app package sample (AddPackage)](http://go.microsoft.com/fwlink/p/?linkid=236968)
--   [Enumerate app packages sample (FindPackages)](http://go.microsoft.com/fwlink/p/?linkid=236973)
--   [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](http://go.microsoft.com/fwlink/p/?linkid=236974)
--   [Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](http://go.microsoft.com/fwlink/p/?linkid=236975)
--   [Remove app package sample (RemovePackage)](http://go.microsoft.com/fwlink/p/?linkid=236972)
+-   [Add app package sample (AddPackage)](https://go.microsoft.com/fwlink/p/?linkid=236968)
+-   [Enumerate app packages sample (FindPackages)](https://go.microsoft.com/fwlink/p/?linkid=236973)
+-   [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://go.microsoft.com/fwlink/p/?linkid=236974)
+-   [Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://go.microsoft.com/fwlink/p/?linkid=236975)
+-   [Remove app package sample (RemovePackage)](https://go.microsoft.com/fwlink/p/?linkid=236972)
 
 ## Package query samples
 
 The following is a sample Windows Store app app that uses the Windows Runtime query API:
 
--   [App package information sample (Package)](http://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)
+-   [App package information sample (Package)](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)
 
 The sample code for the Win32 [query API](functions.md) isn't available for download at this time, but is included in the documentation.
 

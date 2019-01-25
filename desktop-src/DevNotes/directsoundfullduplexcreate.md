@@ -17,7 +17,7 @@ api_location:
 
 # DirectSoundFullDuplexCreate function
 
-The **DirectSoundFullDuplexCreate** function is documented under a different name. For complete documentation of this function, see [DirectSoundFullDuplexCreate8](Http://go.microsoft.com/fwlink/p/?linkid=85302).
+The **DirectSoundFullDuplexCreate** function is documented under a different name. For complete documentation of this function, see [DirectSoundFullDuplexCreate8](https://go.microsoft.com/fwlink/p/?linkid=85302).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 <dl> <dt>
 
-[DirectSoundFullDuplexCreate8](Http://go.microsoft.com/fwlink/p/?linkid=85302)
+[DirectSoundFullDuplexCreate8](https://go.microsoft.com/fwlink/p/?linkid=85302)
 </dt> </dl>
 
  

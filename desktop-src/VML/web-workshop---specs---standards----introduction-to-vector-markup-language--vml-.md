@@ -19,18 +19,18 @@ ms.date: 05/31/2018
 
 # Vector Markup Language (VML)
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
-Vector Markup Language (VML) is an XML-based exchange, editing, and delivery format for high-quality vector graphics on the Web that meets the needs of both productivity users and graphic design professionals. XML is an emerging simple, flexible, and open text-based language that complements HTML. (See the [XML section](http://msdn.microsoft.com/library/default.asp?frame=true) of the MSDN Library for detailed information on XML.)
+Vector Markup Language (VML) is an XML-based exchange, editing, and delivery format for high-quality vector graphics on the Web that meets the needs of both productivity users and graphic design professionals. XML is an emerging simple, flexible, and open text-based language that complements HTML. (See the [XML section](https://msdn.microsoft.com/library/default.asp?frame=true) of the MSDN Library for detailed information on XML.)
 
 VML is currently supported by Microsoft Internet Explorer version 5.0 or later.
 
-VML has been proposed to the W3C as a standard for vector graphics on the Web (see [http://www.w3.org/TR/NOTE-VML](http://go.microsoft.com/fwlink/p/?linkid=161711)). Microsoft is continuing to lead the charge in the development and implementation of XML-based technologies, working with leading industry partners (AutoDesk, Hewlett-Packard, Macromedia, Visio) and the W3C to advance Web-based standards. We expect to work with the W3C to ultimately drive to one standard format for vector graphics on the Web.
+VML has been proposed to the W3C as a standard for vector graphics on the Web (see [https://www.w3.org/TR/NOTE-VML](https://go.microsoft.com/fwlink/p/?linkid=161711)). Microsoft is continuing to lead the charge in the development and implementation of XML-based technologies, working with leading industry partners (AutoDesk, Hewlett-Packard, Macromedia, Visio) and the W3C to advance Web-based standards. We expect to work with the W3C to ultimately drive to one standard format for vector graphics on the Web.
 
 VML is also supported by Microsoft Office 2000 or later. Microsoft Word, Microsoft Excel, and Microsoft PowerPoint can be used to create VML graphics.
 
@@ -64,7 +64,7 @@ Finally, add VML elements to define visuals effects. For example, the following 
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/redoval.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/redoval.md)
 
 > [!Note]  
 > For best results when using strict mode documents, be sure your markup is valid and well-formed. For more information, please see the !DOCTYPE reference page.
@@ -82,7 +82,7 @@ Finally, add VML elements to define visuals effects. For example, the following 
 See the links below:
 
 -   For answers to frequently asked questions about VML, see the [VML FAQ](frequently-asked-questions-about-vml.md).
--   For a tutorial on using VML on Web pages, see [How to Use VML on Web Pages](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), which complements the [VML specification](http://go.microsoft.com/fwlink/p/?linkid=161711) submitted to the W3C.
+-   For a tutorial on using VML on Web pages, see [How to Use VML on Web Pages](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), which complements the [VML specification](https://go.microsoft.com/fwlink/p/?linkid=161711) submitted to the W3C.
 -   For information on VML data types, see the [Basic VML Types](basic-vml-types.md) document.
 -   For the complete reference on VML, including information on how to use VML with tags as well as scripting, see the [VML Reference](msdn-online-vml-introduction.md).
 

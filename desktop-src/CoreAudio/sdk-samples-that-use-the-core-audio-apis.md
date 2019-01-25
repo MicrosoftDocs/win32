@@ -80,7 +80,7 @@ This sample has been deprecated in Windows 7.
 
  
 
-You can download the Windows SDK from the [Microsoft Windows SDK Download Center](http://go.microsoft.com/fwlink/p/?linkid=55774) website.
+You can download the Windows SDK from the [Microsoft Windows SDK Download Center](https://go.microsoft.com/fwlink/p/?linkid=55774) website.
 
 ## Related topics
 

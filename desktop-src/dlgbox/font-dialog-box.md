@@ -125,7 +125,7 @@ In earlier Windows versions, the font.dlg template file contains one default Cho
 
     ![screen shot showing the font control panel in windows 7](images/fontcontrolpanelforwin7.png)
 
-2.  To use this link control, your calling application must use the COMCTL32.DLL version 6 or later. Otherwise, the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function returns an error when it tries to create the link control in your custom template. To determine if this control is enabled, compile your calling application against COMCTL32.DLL version 6.0. For more information, see [Enabling Visual Styles with Common Controls](http://msdn.microsoft.com/library/ms649781(VS.85).aspx).
+2.  To use this link control, your calling application must use the COMCTL32.DLL version 6 or later. Otherwise, the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function returns an error when it tries to create the link control in your custom template. To determine if this control is enabled, compile your calling application against COMCTL32.DLL version 6.0. For more information, see [Enabling Visual Styles with Common Controls](https://msdn.microsoft.com/library/ms649781(VS.85).aspx).
 3.  If your application uses COMCTL32.DLL version 5.0 or earlier, you must do the following when you create a custom template:
 
     -   Specify the control as a **PUSHBUTTON**. The control used to launch the **Fonts Control Panel** will appear as a button rather than as a link.

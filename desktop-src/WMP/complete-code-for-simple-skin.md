@@ -34,7 +34,7 @@ Here is the complete code for the first sample skin:
         <BUTTONELEMENT
             mappingColor = "#00FF00"
             upToolTip = "Play"
-            onClick="JScript: player.URL='http://proseware.com/laure.wma';" />
+            onClick="JScript: player.URL='https://proseware.com/laure.wma';" />
                           
         <BUTTONELEMENT
             mappingColor = "#FF0000"

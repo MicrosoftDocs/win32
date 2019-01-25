@@ -68,7 +68,7 @@ The following table describes the enumeration values.
 
  
 
-For more information about 802.11 authentication methods, see the [WPA](http://go.microsoft.com/fwlink/p/?linkid=391356), [802.1X](http://go.microsoft.com/fwlink/p/?linkid=89910), and [802.11i](http://go.microsoft.com/fwlink/p/?linkid=89906) specifications.
+For more information about 802.11 authentication methods, see the [WPA](https://go.microsoft.com/fwlink/p/?linkid=391356), [802.1X](https://go.microsoft.com/fwlink/p/?linkid=89910), and [802.11i](https://go.microsoft.com/fwlink/p/?linkid=89906) specifications.
 
 ## Examples
 

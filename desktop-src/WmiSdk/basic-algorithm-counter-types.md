@@ -17,11 +17,11 @@ The basic algorithms in the following table are provided.
 
 | CounterType Constant                                                                                    | Description                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [PERF\_RAW\_FRACTION](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 537003008<br/>       | Ratio of a subset to its set as a percentage. This counter type displays the current percentage only, not an average over time.                                    |
-| [PERF\_SAMPLE\_FRACTION](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 549585920<br/>    | Average ratio of hits to all operations during the last two sample intervals. This counter type requires a base property with the PERF\_SAMPLE\_BASE counter type. |
-| [PERF\_COUNTER\_DELTA](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 4195328<br/>        | This counter type shows the change in the measured attribute between the two most recent sample intervals.                                                         |
-| [PERF\_COUNTER\_LARGE\_DELTA](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 4195584<br/> | Same as PERF\_COUNTER\_DELTA but a 64-bit representation for larger values.                                                                                        |
-| [PERF\_ELAPSED\_TIME](http://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 807666944<br/>       | Total time between when the process started and the time when this value is calculated.                                                                            |
+| [PERF\_RAW\_FRACTION](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 537003008<br/>       | Ratio of a subset to its set as a percentage. This counter type displays the current percentage only, not an average over time.                                    |
+| [PERF\_SAMPLE\_FRACTION](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 549585920<br/>    | Average ratio of hits to all operations during the last two sample intervals. This counter type requires a base property with the PERF\_SAMPLE\_BASE counter type. |
+| [PERF\_COUNTER\_DELTA](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 4195328<br/>        | This counter type shows the change in the measured attribute between the two most recent sample intervals.                                                         |
+| [PERF\_COUNTER\_LARGE\_DELTA](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 4195584<br/> | Same as PERF\_COUNTER\_DELTA but a 64-bit representation for larger values.                                                                                        |
+| [PERF\_ELAPSED\_TIME](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 807666944<br/>       | Total time between when the process started and the time when this value is calculated.                                                                            |
 
 
 

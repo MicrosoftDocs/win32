@@ -322,7 +322,7 @@ IManipulationProcessor* g_pIManipProc;
 
 
 
-After you have your variable for the manipulation processor and you have included the headers for manipulations, you have to create an instance of the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface. This is a COM object. Therefore, you must call [CoCreateInstance](http://go.microsoft.com/fwlink/p/?linkid=144398), and then create an instance of your reference to the **IManipulationProcessor**. The following code shows how you can create an instance of this interface.
+After you have your variable for the manipulation processor and you have included the headers for manipulations, you have to create an instance of the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface. This is a COM object. Therefore, you must call [CoCreateInstance](https://go.microsoft.com/fwlink/p/?linkid=144398), and then create an instance of your reference to the **IManipulationProcessor**. The following code shows how you can create an instance of this interface.
 
 
 ```C++

@@ -40,7 +40,7 @@ BOOL GetTextMetrics(
 
 Type: **TEXTMETRIC\***
 
-Pointer to a [TEXTMETRIC](http://msdn2.microsoft.com/en-us/library/ms534202.aspx) structure, which contains font properties. If Unicode is defined, the function returns a TEXTMETRICW structure. Otherwise, the function returns a TEXTMETRICA structure.
+Pointer to a [TEXTMETRIC](https://msdn2.microsoft.com/en-us/library/ms534202.aspx) structure, which contains font properties. If Unicode is defined, the function returns a TEXTMETRICW structure. Otherwise, the function returns a TEXTMETRICA structure.
 
 </dd> </dl>
 

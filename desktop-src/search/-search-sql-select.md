@@ -82,7 +82,7 @@ SELECT TOP 10 System.ItemName, System.ItemUrl FROM SystemIndex WHERE CONTAINS('M
 **Other Resources**
 </dt> <dt>
 
-[System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
+[System Properties](https://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
 </dt> </dl>
 
  

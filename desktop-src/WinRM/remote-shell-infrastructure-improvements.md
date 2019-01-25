@@ -120,7 +120,7 @@ The following text-based example displays the output for shell enumeration:
 ``` syntax
 Shell
     ShellId = 0A6E6A01-8AB2-4037-86CC-BFC826A1244E
-    ResourceUri = http://schemas.microsoft.com/wbem/wsman/1/windows/shell/cmd
+    ResourceUri = https://schemas.microsoft.com/wbem/wsman/1/windows/shell/cmd
     Owner = FABRIKAM\myAccount
     ClientIP = ::1
     IdleTimeOut = PT180.000S
@@ -131,7 +131,7 @@ Shell
 
 Shell
     ShellId = EE3F11CE-FB3C-4C4E-B113-6F4D643C97D8
-    ResourceUri = http://schemas.microsoft.com/powershell/Microsoft.PowerShell
+    ResourceUri = https://schemas.microsoft.com/powershell/Microsoft.PowerShell
     Owner = FABRIKAM\myAccount
     ClientIP = ::1
     IdleTimeOut = PT180.000S
@@ -144,7 +144,7 @@ Shell
 
 Shell
     ShellId = 8FD7F2C4-A434-4D58-A7E8-46F8BF202D0B
-    ResourceUri = http://schemas.microsoft.com/powershell/Microsoft.PowerShell
+    ResourceUri = https://schemas.microsoft.com/powershell/Microsoft.PowerShell
     Owner = FABRIKAM\myAccount
     ClientIP = ::1
     IdleTimeOut = PT180.000S
@@ -167,7 +167,7 @@ The following text-based example displays the output for shell information:
 ``` syntax
 Shell
     ShellId = 0A6E6A01-8AB2-4037-86CC-BFC826A1244E
-    ResourceUri = http://schemas.microsoft.com/wbem/wsman/1/windows/shell/cmd
+    ResourceUri = https://schemas.microsoft.com/wbem/wsman/1/windows/shell/cmd
     Owner = FABRIKAM\myAccount
     ClientIP = ::1
     IdleTimeOut = PT180.000S

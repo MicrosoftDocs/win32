@@ -46,16 +46,16 @@ Applications that require support for Windows Animation Manager on Windows Vista
 
 ## Additional resources
 
--   [Windows Scenic Animation Overview](http://go.microsoft.com/fwlink/p/?linkid=202702) (video)
--   [Inside Windows 7: Animation Manager Deep Dive and Tutorial](http://go.microsoft.com/fwlink/p/?linkid=202703) (video)
--   [Windows Animation - Advanced Topics](http://go.microsoft.com/fwlink/p/?linkid=202705) (video)
--   [Windows Animation Manager Sample Code](http://go.microsoft.com/fwlink/p/?linkid=202706) (Code Gallery)
+-   [Windows Scenic Animation Overview](https://go.microsoft.com/fwlink/p/?linkid=202702) (video)
+-   [Inside Windows 7: Animation Manager Deep Dive and Tutorial](https://go.microsoft.com/fwlink/p/?linkid=202703) (video)
+-   [Windows Animation - Advanced Topics](https://go.microsoft.com/fwlink/p/?linkid=202705) (video)
+-   [Windows Animation Manager Sample Code](https://go.microsoft.com/fwlink/p/?linkid=202706) (Code Gallery)
 
 ## Related topics
 
 <dl> <dt>
 
-[Animation Overview (.NET Framework)](http://go.microsoft.com/fwlink/p/?linkid=189507)
+[Animation Overview (.NET Framework)](https://go.microsoft.com/fwlink/p/?linkid=189507)
 </dt> </dl>
 
  

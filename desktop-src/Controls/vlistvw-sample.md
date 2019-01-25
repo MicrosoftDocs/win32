@@ -35,7 +35,7 @@ The VListVW Sample shows how to implement a simple virtual list-view control in 
 
 ## Downloading the Sample
 
-The VListVW Sample is installed as part of the [Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=147890) and is available in the following location.
+The VListVW Sample is installed as part of the [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=147890) and is available in the following location.
 
 
 

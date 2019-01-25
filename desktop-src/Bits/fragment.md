@@ -89,7 +89,7 @@ Do not send this header if the encoding type is Identity. The BITS server suppor
 
 The fragment is a range of bytes sent in the body of the packet. The client sends the fragments in sequential order starting with offset zero; the server does not keep track of non-contiguous ranges. If the client sends non-contiguous ranges, the server returns an HTTP 416 (range-not-satisfiable) return code in the [**Ack for Fragment**](ack-for-fragment.md) response.
 
-The Content-*xxxx* headers are standard HTTP 1.1 headers. For more details on the Content-*xxxx* headers, see the [RFC 2616](http://go.microsoft.com/fwlink/p/?linkid=84048) specification.
+The Content-*xxxx* headers are standard HTTP 1.1 headers. For more details on the Content-*xxxx* headers, see the [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048) specification.
 
 ## See also
 

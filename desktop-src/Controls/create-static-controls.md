@@ -104,7 +104,7 @@ The identifier of the static icon control (IDI\_STATIC\_ICON) is defined in a gl
 [Using Static Controls](using-static-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](http://go.microsoft.com/fwlink/p/?linkid=214295)
+[Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=214295)
 </dt> </dl>
 
  

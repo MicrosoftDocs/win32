@@ -352,7 +352,7 @@ Retrieves the resource location for the entity enclosed in the message.
 
 
 
-Retrieves an MD5 digest of the entity-body for the purpose of providing an end-to-end message integrity check (MIC) for the entity-body. For more information, see RFC1864, The Content-MD5 Header Field, at [http://ftp.isi.edu/in-notes/rfc1864.txt](Http://go.microsoft.com/fwlink/p/?linkid=84522).
+Retrieves an MD5 digest of the entity-body for the purpose of providing an end-to-end message integrity check (MIC) for the entity-body. For more information, see RFC1864, The Content-MD5 Header Field, at [https://ftp.isi.edu/in-notes/rfc1864.txt](https://go.microsoft.com/fwlink/p/?linkid=84522).
 
 
 </dt> </dl> </dd> <dt>

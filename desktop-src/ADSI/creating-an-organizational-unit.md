@@ -19,7 +19,7 @@ Dim dom as IADsContainer
 Set dom = GetObject("LDAP://DC=Fabrikam,DC=Com")
 Set salesOrg = dom.Create("organizationalUnit", "OU=Sales")
 salesOrg.Put "description", "Sales Headquarter,SF"
-salesOrg.Put "wwwHomePage", "http://fabrikam.com/sales"
+salesOrg.Put "wwwHomePage", "https://fabrikam.com/sales"
 salesOrg.SetInfo
 ```
 
@@ -45,7 +45,7 @@ To bind directly to the East region in the Sales organization, specify the disti
 ```VB
 Set east = GetObject("LDAP://OU=East,OU=Sales,DC=Fabrikam,DC=COM")
 Debug.Print east.Get "description"
-east.Put "wwwHomePage", "http://fabrikam.com/sales/east"
+east.Put "wwwHomePage", "https://fabrikam.com/sales/east"
 ```
 
 

@@ -80,7 +80,7 @@ If you cannot completely discontinue use of these APIs and binaries, ensure that
 
 ## Resources
 
--   [Existing Server Core docs on MSDN](http://go.microsoft.com/fwlink/p/?LinkId=325406)
+-   [Existing Server Core docs on MSDN](https://go.microsoft.com/fwlink/p/?LinkId=325406)
 
  
 

@@ -40,7 +40,7 @@ HRESULT get__NewEnum(
 
 ## Property value
 
-The [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) enumerator.
+The [IEnumVARIANT](https://go.microsoft.com/fwlink/p/?linkid=120799) enumerator.
 
 ## Error codes
 

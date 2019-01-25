@@ -25,7 +25,7 @@ AMCap supports MPEG-2 program stream input, for example from analog TV Tuners th
 
 ## Downloading the Sample
 
-To download the DirectShow SDK samples, install the latest version of the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 This sample is installed under the following path: \[*SDK Root*\]\\Samples\\Multimedia\\DirectShow\\Capture\\AmCap.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Image.Compression Photo Metadata Policy
 
-The photo metadata policy for the [System.Image.Compression](http://msdn.microsoft.com/en-us/library/bb787454(VS.85).aspx) property.
+The photo metadata policy for the [System.Image.Compression](https://msdn.microsoft.com/en-us/library/bb787454(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Image.Compression](http://msdn.microsoft.com/en-us/library/bb787454(VS.85).aspx)
+[System.Image.Compression](https://msdn.microsoft.com/en-us/library/bb787454(VS.85).aspx)
 </dt> </dl>
 
  

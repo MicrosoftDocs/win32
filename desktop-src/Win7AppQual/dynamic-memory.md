@@ -44,7 +44,7 @@ Virtual machines must have updated integration services (SP1) installed in order
 
 ## Links to Other Resources
 
--   [Dynamic Memory Coming To Hyper-V blog](http://go.microsoft.com/fwlink/p/?linkid=205041)
+-   [Dynamic Memory Coming To Hyper-V blog](https://go.microsoft.com/fwlink/p/?linkid=205041)
 -   [Using the Hyper-V WMI Provider](https://msdn.microsoft.com/en-us/library/Cc723875(v=VS.85).aspx)
 
 ## Disclaimer

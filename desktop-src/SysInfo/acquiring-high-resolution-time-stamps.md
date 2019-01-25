@@ -234,7 +234,7 @@ You don't need to perform this check yourself. Windows operating systems perform
 -   checking the values returned by the CPUID instruction pertaining to the TSC characteristics
 -   the processor manufacturer’s documentation
 
-The following shows the TSC-INVARIANT info that is provided by the Windows Sysinternals Coreinfo.exe utility ([www.sysinternals.com](http://www.sysinternals.com)). An asterisk means "True".
+The following shows the TSC-INVARIANT info that is provided by the Windows Sysinternals Coreinfo.exe utility ([www.sysinternals.com](https://www.sysinternals.com)). An asterisk means "True".
 
 ``` syntax
 > Coreinfo.exe 

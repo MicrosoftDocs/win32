@@ -90,7 +90,7 @@ Topics that describe the changes in each release of the Remote Desktop Services 
 
 <dl> <dt>
 
-[Connect to another computer using Remote Desktop Connection](http://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)
+[Connect to another computer using Remote Desktop Connection](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)
 </dt> </dl>
 
  

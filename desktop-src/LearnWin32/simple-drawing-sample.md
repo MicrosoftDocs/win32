@@ -14,7 +14,7 @@ This sample application is a very simple drawing program that shows how to use m
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [http://go.microsoft.com/fwlink/p/?linkid=201702]( http://go.microsoft.com/fwlink/p/?linkid=201702).
+This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=201702]( https://go.microsoft.com/fwlink/p/?linkid=201702).
 
 ## Related topics
 

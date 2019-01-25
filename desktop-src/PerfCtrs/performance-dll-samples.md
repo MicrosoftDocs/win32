@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Performance DLL Samples
 
-The Windows SDK (WSDK) contains three complete sample performance DLLs. These samples are located in the Samples\\WinBase\\WinNT\\PerfTool\\PerfDlls directory. The root of this path is the base installation directory of the WSDK. You can download the WSDK from the [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=162443) (search for Windows SDK and select the download for the latest released operating system).
+The Windows SDK (WSDK) contains three complete sample performance DLLs. These samples are located in the Samples\\WinBase\\WinNT\\PerfTool\\PerfDlls directory. The root of this path is the base installation directory of the WSDK. You can download the WSDK from the [Microsoft Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=162443) (search for Windows SDK and select the download for the latest released operating system).
 
 The samples contained in this directory are:
 

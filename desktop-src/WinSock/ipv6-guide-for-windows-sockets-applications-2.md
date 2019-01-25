@@ -41,7 +41,7 @@ To go straight to the sample application, see [Appendix A: IPv4-only Source Code
 [IPv6 Support](ipv6-support-2.md)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](http://go.microsoft.com/fwlink/p/?linkid=193479)
+[IPv6 Technology Preview for Windows 2000](https://go.microsoft.com/fwlink/p/?linkid=193479)
 </dt> <dt>
 
 [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md)

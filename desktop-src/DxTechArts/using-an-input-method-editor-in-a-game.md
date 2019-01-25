@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Using an Input Method Editor in a Game
 
 > [!Note]  
-> This article details working with the Windows XP Input Method Editor (IME). Changes were made to the IME for Windows Vista that are not fully detailed in this article. For more info about changes to the IME for Windows Vista, see [Input Method Editors (IME)](http://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) in [Windows Vista - An Ever-Expanding View of Internationalization](http://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) on the Microsoft Global Development and Computing Portal.
+> This article details working with the Windows XP Input Method Editor (IME). Changes were made to the IME for Windows Vista that are not fully detailed in this article. For more info about changes to the IME for Windows Vista, see [Input Method Editors (IME)](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) in [Windows Vista - An Ever-Expanding View of Internationalization](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) on the Microsoft Global Development and Computing Portal.
 
  
 
@@ -406,7 +406,7 @@ For additional information, see the following:
 
 -   [Installing and Using Input Method Editors](https://msdn.microsoft.com/library/windows/desktop/ee418266)
 -   [International Text Display](https://msdn.microsoft.com/library/windows/desktop/dd317783)
--   [The Unicode Consortium](http://www.unicode.org/)
+-   [The Unicode Consortium](https://www.unicode.org/)
 -   Developing International Software. Dr. International. 2nd ed. Redmond, WA: Microsoft Press, 2003.
 
 ## GetReadingString

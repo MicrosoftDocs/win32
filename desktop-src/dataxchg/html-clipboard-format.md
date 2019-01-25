@@ -47,7 +47,7 @@ Version:0.9
     <HTML>
     <HEAD>
     <TITLE> The HTML Clipboard</TITLE>
-    <BASE HREF="http://sample/specs">
+    <BASE HREF="https://sample/specs">
     </HEAD>
     <BODY>
     <UL>

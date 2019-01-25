@@ -32,7 +32,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[Network Diagnostics Tools Feature Overview](Http://go.microsoft.com/fwlink/p/?linkid=85313)
+[Network Diagnostics Tools Feature Overview](https://go.microsoft.com/fwlink/p/?linkid=85313)
 </dt> </dl>
 
  

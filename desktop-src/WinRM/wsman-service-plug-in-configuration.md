@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 
 # WinRM Service Plug-in Configuration
 
-A Windows Remote Management (WinRM) plug-in must be registered in the WinRM catalog to enable the infrastructure to dynamically determine the set of available plug-ins and the [*resource URIs*](windows-remote-management-glossary.md) that they support. All [*resource URIs*](windows-remote-management-glossary.md) for WinRM plug-ins should conform to the format that is defined in RFC 3986 ([http://www.ietf.org/rfc/rfc3986.txt](http://go.microsoft.com/fwlink/p/?linkid=144676)). Configuration is done through the main WinRM service.
+A Windows Remote Management (WinRM) plug-in must be registered in the WinRM catalog to enable the infrastructure to dynamically determine the set of available plug-ins and the [*resource URIs*](windows-remote-management-glossary.md) that they support. All [*resource URIs*](windows-remote-management-glossary.md) for WinRM plug-ins should conform to the format that is defined in RFC 3986 ([https://www.ietf.org/rfc/rfc3986.txt](https://go.microsoft.com/fwlink/p/?linkid=144676)). Configuration is done through the main WinRM service.
 
 The following command registers a plug-in configuration with the WinRM service:
 
-**winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlugIn -file:myplugin.xml**
+**winrm create https://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlugIn -file:myplugin.xml**
 
 > [!Note]  
 > The WinRM service needs to be restarted to expose the newly registered plug-ins.
@@ -24,7 +24,7 @@ Plug-in configuration is specified in XML. The following is an example.
 
 
 ```XML
-<PlugInConfiguration xmlns="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
+<PlugInConfiguration xmlns="https://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
                      Name="MyPlugIn"
                      Filename="%systemroot%\system32\myplugin.dll" 
                      SDKVersion="1"
@@ -38,7 +38,7 @@ Plug-in configuration is specified in XML. The following is an example.
  </InitializationParameters>
 
  <Resources>
-  <Resource ResourceUri="http://schemas.MyCompany.com/MyUri1" SupportsOptions="true" ExactMatch="false">
+  <Resource ResourceUri="https://schemas.MyCompany.com/MyUri1" SupportsOptions="true" ExactMatch="false">
    <Capability Type="Get" SupportsFragment="true"/>
    <Capability Type="Put" SupportsFragment="true"/>
    <Capability Type="Create"/>
@@ -47,9 +47,9 @@ Plug-in configuration is specified in XML. The following is an example.
    <Capability Type="Enumerate" SupportsFiltering="true"/>
   </Resource>
 
-  <Resource ResourceUri="http://schemas.MyCompany.com/MyUri2" SupportsOptions="false" ExactMatch="true">
-   <Security Uri="http://schemas.MyCompany.com/MyUri2" Sddl="O:NSG:BAD:P(A;;GA;;;BA)"/>
-   <Security Uri="http://schemas.MyCompany.com/MyUri2/MoreSpecific" Sddl="O:NSG:BAD:P(A;;GR;;;BA)" ExactMatch="true"/>
+  <Resource ResourceUri="https://schemas.MyCompany.com/MyUri2" SupportsOptions="false" ExactMatch="true">
+   <Security Uri="https://schemas.MyCompany.com/MyUri2" Sddl="O:NSG:BAD:P(A;;GA;;;BA)"/>
+   <Security Uri="https://schemas.MyCompany.com/MyUri2/MoreSpecific" Sddl="O:NSG:BAD:P(A;;GR;;;BA)" ExactMatch="true"/>
    <Capability Type="Shell"/>
   </Resource>
  </Resources>
@@ -213,9 +213,9 @@ The following is the plug-in configuration schema specified as an XSD.
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" 
            elementFormDefault="qualified" 
-           targetNamespace="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
-           xmlns="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+           targetNamespace="https://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
+           xmlns="https://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
+           xmlns:xs="https://www.w3.org/2001/XMLSchema">
  <xs:element name="PlugInConfiguration">
   <xs:complexType>
    <xs:sequence>

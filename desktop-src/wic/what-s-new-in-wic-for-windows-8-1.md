@@ -47,7 +47,7 @@ Starting in Windows 8.1, WIC adds a new codec that supports DDS images encoded 
 
 ## What's new for Windows 8
 
-In Windows 8, WIC has been updated with several new features. The updated version of WIC is also available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://msdn.microsoft.com/en-us/library/JJ863687(v=VS.85).aspx), which is available through the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838).
+In Windows 8, WIC has been updated with several new features. The updated version of WIC is also available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://msdn.microsoft.com/en-us/library/JJ863687(v=VS.85).aspx), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
 
 ### Improved Direct2D integration
 
@@ -148,7 +148,7 @@ Objects within a multithreaded apartment (MTA) may be called concurrently by any
 
 There are currently a variety of metadata storage formats that contain overlapping properties, without any clear industry standard or guidance on consistent methods for reading and writing these metadata formats. To help with this variety of formats and properties, the Metadata Working Group (MWG) was formed. The aim of the MWG is to provide guidelines that ensure interoperability among a wide variety of platforms, applications, and devices. The guidelines established by the MWG apply to the XMP, Exif, and IPTC metadata fields, and to the JPEG, TIFF, and PSD image formats.
 
-In Windows 7, the photo metadata handler and the metadata policy layer have been updated to read and write image metadata according to the guidelines established by the MWG. For more information on the Metadata Working Group (MWG) and the established metadata guidelines, visit the [Metadata Working Group](http://go.microsoft.com/fwlink/p/?linkid=134772) Web site.
+In Windows 7, the photo metadata handler and the metadata policy layer have been updated to read and write image metadata according to the guidelines established by the MWG. For more information on the Metadata Working Group (MWG) and the established metadata guidelines, visit the [Metadata Working Group](https://go.microsoft.com/fwlink/p/?linkid=134772) Web site.
 
 ### Windows 7 features supported on Windows Vista and Windows Server 2008
 

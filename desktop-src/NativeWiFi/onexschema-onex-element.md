@@ -18,7 +18,7 @@ api_location:
 
 The OneX element specifies 802.1X configuration information for a wired or wireless LAN profile. This element is the unique root element for an 802.1X profile.
 
-The target namespace for the OneX element is `http://www.microsoft.com/networking/OneX/v1`. Most child elements of the OneX element are in the `OneX` namespace. There is one exception: the [**EAPConfig**](onexschema-eapconfig-onex-element.md) element is in the `http://www.microsoft.com/provisioning/EapHostConfig` namespace.
+The target namespace for the OneX element is `https://www.microsoft.com/networking/OneX/v1`. Most child elements of the OneX element are in the `OneX` namespace. There is one exception: the [**EAPConfig**](onexschema-eapconfig-onex-element.md) element is in the `https://www.microsoft.com/provisioning/EapHostConfig` namespace.
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** Only the [**EAPConfig**](onexschema-eapconfig-onex-element.md) element is supported. Other elements, if present in a profile, will be ignored.
 

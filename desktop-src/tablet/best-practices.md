@@ -47,7 +47,7 @@ To use the [**PenInputPanel**](peninputpanel-class.md) object in a windowless en
 [Microsoft.Ink.PenInputPanel](https://msdn.microsoft.com/library/ms583923(v=VS.90).aspx)
 </dt> <dt>
 
-[Text Services Framework](http://go.microsoft.com/fwlink/p/?linkid=9037)
+[Text Services Framework](https://go.microsoft.com/fwlink/p/?linkid=9037)
 </dt> </dl>
 
  

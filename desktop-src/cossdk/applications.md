@@ -185,7 +185,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
  
 
-For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services in IIS 6.0](http://go.microsoft.com/fwlink/p/?linkid=94420).
+For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services in IIS 6.0](https://go.microsoft.com/fwlink/p/?linkid=94420).
 
 ### ApplicationProxy
 

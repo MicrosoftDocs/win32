@@ -56,7 +56,7 @@ First, users back up licenses in the application, for example, by choosing a men
 
 At this point, the user must be connected to the Internet; a request from the application is sent to the License Management Service. If the computer from which the license was backed up is different from the original computer (or the original computer has been reformatted), the License Management Service issues a new license to the new computer. Otherwise, the license that was previously issued to that computer is reissued.
 
-Because the License Management Service retrieves information from the user, you must display the Microsoft privacy policy or provide a link to that page at the [Microsoft Web site](http://go.microsoft.com/fwlink/p/?linkid=10240).
+Because the License Management Service retrieves information from the user, you must display the Microsoft privacy policy or provide a link to that page at the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=10240).
 
 > [!Note]  
 > When an end user restores a license to a different computer and the license requires individualization, the end user must authorize the DRM components to be updated. You must implement a process in your player application to support this feature.

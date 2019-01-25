@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
+Description: WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 1cd92981-c074-4ff7-a32c-ce492e6d6aa5
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Services'
@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Services
 
-WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at [http://www.microsoft.com/technet](Http://go.microsoft.com/fwlink/p/?linkid=84103).
+WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -373,7 +373,7 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Name
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
  

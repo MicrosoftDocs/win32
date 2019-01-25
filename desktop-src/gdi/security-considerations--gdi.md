@@ -20,13 +20,13 @@ An application can specify the security descriptor for some of the printing and 
 
 <dl> <dt>
 
-[Microsoft Security Central](http://www.microsoft.com/security/)
+[Microsoft Security Central](https://www.microsoft.com/security/)
 </dt> <dt>
 
-[Security Developer Center](http://msdn.microsoft.com/en-us/security/default.aspx)
+[Security Developer Center](https://msdn.microsoft.com/en-us/security/default.aspx)
 </dt> <dt>
 
-[Security TechCenter](http://technet.microsoft.com/en-us/security/default.aspx)
+[Security TechCenter](https://technet.microsoft.com/en-us/security/default.aspx)
 </dt> </dl>
 
  

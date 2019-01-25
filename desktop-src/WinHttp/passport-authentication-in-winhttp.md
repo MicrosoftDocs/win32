@@ -110,11 +110,11 @@ For example, "https://nexus.passport.com/rdr/pprdr.asp" returns the following co
 ``` syntax
 PassportURLs: DARealm=Passport.net,
 DALogin=login.passport.com/login2.asp,
-DAReg=http://register.passport.com/defaultwiz.asp,
+DAReg=https://register.passport.com/defaultwiz.asp,
 Properties=https://memberservices.passport.com/ppsecure/MSRV_EditProfile.asp,
-Privacy=http://www.passport.com/consumer/privacypolicy.asp,
-GeneralRedir=http://nexusrdr.passport.com/redir.asp,
-Help=http://memberservices.passport.com/UI/MSRV_UI_Help.asp,
+Privacy=https://www.passport.com/consumer/privacypolicy.asp,
+GeneralRedir=https://nexusrdr.passport.com/redir.asp,
+Help=https://memberservices.passport.com/UI/MSRV_UI_Help.asp,
 ConfigVersion=2
 \r\n
 ```

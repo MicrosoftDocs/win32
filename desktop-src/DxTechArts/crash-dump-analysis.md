@@ -34,7 +34,7 @@ The basic options for writing a minidump are as follows:
 
     If you implement a custom routine for unhandled exceptions, you are strongly urged to use the [**ReportFault**](https://msdn.microsoft.com/library/windows/desktop/bb513615) function in the exception handler to also send an automated minidump to WER. The **ReportFault** function handles all of the issues of connecting to and sending the minidump to WER. Not sending minidumps to WER violates the requirements of Games for Windows.
 
-    For more information on how WER works, see [How Windows Error Reporting Works](http://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx). For an explanation of registration details, see [Introducing Windows Error Reporting](http://msdn.microsoft.com/isv/bb190483.aspx) on MSDN's [ISV Zone](http://msdn.microsoft.com/isv/default.aspx).
+    For more information on how WER works, see [How Windows Error Reporting Works](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx). For an explanation of registration details, see [Introducing Windows Error Reporting](https://msdn.microsoft.com/isv/bb190483.aspx) on MSDN's [ISV Zone](https://msdn.microsoft.com/isv/default.aspx).
 
 -   Use a product from the Microsoft Visual Studio Team System. On the **Debug** menu, click **Save Dump As** to save a copy of a dump. Use of a locally saved dump is only an option for in-house testing and debugging.
 -   Add code to your project. Add the [**MiniDumpWriteDump**](https://msdn.microsoft.com/library/windows/desktop/ms680360) function and the appropriate exception handling code to save and send a minidump directly to the developer. This article demonstrates how to implement this option. However, note that **MiniDumpWriteDump** does not currently work with managed code and is only available on Windows XP, Windows Vista, Windows 7.
@@ -120,9 +120,9 @@ MSDN has more detailed information on the [**MINIDUMP\_EXCEPTION\_INFORMATION**]
 
 ## Using Dumpchk.exe
 
-Dumpchk.exe is a command-line utility that can be used to verify that a dump file was created correctly. If Dumpchk.exe generates an error, then the dump file is corrupt and cannot be analyzed. For information on using Dumpchk.exe, see [How to Use Dumpchk.exe to Check a Memory Dump File](http://support.microsoft.com/kb/315271/).
+Dumpchk.exe is a command-line utility that can be used to verify that a dump file was created correctly. If Dumpchk.exe generates an error, then the dump file is corrupt and cannot be analyzed. For information on using Dumpchk.exe, see [How to Use Dumpchk.exe to Check a Memory Dump File](https://support.microsoft.com/kb/315271/).
 
-Dumpchk.exe is included on the Windows XP product CD and can be installed to System Drive\\Program Files\\Support Tools\\ by running Setup.exe in the Support\\Tools\\ folder on the Windows XP product CD. You can also get the latest version of Dumpchk.exe by download and installing the debugging tools available from [Windows Debugging Tools](http://www.microsoft.com/whdc/devtools/debugging/) on [Windows Hardware Developer Central](http://www.microsoft.com/whdc/).
+Dumpchk.exe is included on the Windows XP product CD and can be installed to System Drive\\Program Files\\Support Tools\\ by running Setup.exe in the Support\\Tools\\ folder on the Windows XP product CD. You can also get the latest version of Dumpchk.exe by download and installing the debugging tools available from [Windows Debugging Tools](https://www.microsoft.com/whdc/devtools/debugging/) on [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
 
 ## Analyzing a Minidump
 
@@ -152,7 +152,7 @@ To get the stack for driver- or system-level crashes, it might be necessary to c
 
 ### Debugging a Minidump with WinDbg
 
-You can also use WinDbg, a debugger that is part of the Windows Debugging Tools, to debug a minidump. WinDbg allows you to debug without having to use Visual Studio. To download Windows Debugging Tools, see [Windows Debugging Tools](http://www.microsoft.com/whdc/devtools/debugging/) on [Windows Hardware Developer Central](http://www.microsoft.com/whdc/).
+You can also use WinDbg, a debugger that is part of the Windows Debugging Tools, to debug a minidump. WinDbg allows you to debug without having to use Visual Studio. To download Windows Debugging Tools, see [Windows Debugging Tools](https://www.microsoft.com/whdc/devtools/debugging/) on [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
 
 After installing Windows Debugging Tools, you must enter the symbol path in WinDbg.
 
@@ -161,7 +161,7 @@ After installing Windows Debugging Tools, you must enter the symbol path in WinD
 1.  On the **File** menu, click **Symbol Path**.
 2.  In the **Symbol Search Path** window, enter the following:
 
-    "srv\*c:\\cache\*http://msdl.microsoft.com/download/symbols;"
+    "srv\*c:\\cache\*https://msdl.microsoft.com/download/symbols;"
 
 ### Using Copy-Protection Tools with Minidumps
 

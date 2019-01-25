@@ -21,9 +21,9 @@ When using any third-party speech engine, you also need to install Microsoft SAP
 </OBJECT>
 ```
 
-For more information about the SAPI runtime binaries, refer to the [Microsoft Speech group's website](http://go.microsoft.com/fwlink/p/?linkid=198367). Microsoft Agent also installs the SAPI runtime binaries with the Microsoft Speech Recognition Engine, the Speech Control Panel, and the Agent Character Editor.
+For more information about the SAPI runtime binaries, refer to the [Microsoft Speech group's website](https://go.microsoft.com/fwlink/p/?linkid=198367). Microsoft Agent also installs the SAPI runtime binaries with the Microsoft Speech Recognition Engine, the Speech Control Panel, and the Agent Character Editor.
 
-Please note that these links point to servers that are not under Microsoft control. Please read the Microsoft [official statement](http://www.microsoft.com/isapi/gomscom.asp?TARGET=/Misc/NonMS.md) regarding other servers. Microsoft does not endorse the content nor the software provided at these websites. All technical and support questions should also be directed to the suppliers of the engines and not to Microsoft or the Microsoft Agent team.
+Please note that these links point to servers that are not under Microsoft control. Please read the Microsoft [official statement](https://www.microsoft.com/isapi/gomscom.asp?TARGET=/Misc/NonMS.md) regarding other servers. Microsoft does not endorse the content nor the software provided at these websites. All technical and support questions should also be directed to the suppliers of the engines and not to Microsoft or the Microsoft Agent team.
 
 **Digalo Text-To-Speech Engine**
 

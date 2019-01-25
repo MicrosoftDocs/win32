@@ -50,9 +50,9 @@ Add at 02/28/07 15:16:51
 + EPR:
   + Address:                 urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
 + Types:
-    (wsdp) http://schemas.xmlsoap.org/ws/2006/02/devprof:Device
+    (wsdp) https://schemas.xmlsoap.org/ws/2006/02/devprof:Device
 + XAddrs:
-  http://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
+  https://[::1]:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
 + Metadata version:          2
 + Instance ID:               1
 + Probe/Resolve tag:         WSDAPI debug_client

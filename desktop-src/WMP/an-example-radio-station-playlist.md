@@ -46,17 +46,17 @@ One of the playlists representing a radio station might look like this.
 ```XML
 <ASX version = "3.0">
     <TITLE>Adventure Works Radio</TITLE>
-    <MOREINFO href = "http://www.adventure-works.com" />
+    <MOREINFO href = "https://www.adventure-works.com" />
     <ENTRY clientSkip = "no" skipIfRef = "yes">
-       <REF href = "http://www.adventure-works.com/ad.asp/" />
+       <REF href = "https://www.adventure-works.com/ad.asp/" />
     </ENTRY>
     <ENTRY>
         <TITLE>MyWRCK Radio</TITLE>
         <ABSTRACT>MyTown's Best Rock 'n Roll</ABSTRACT>
         <COPYRIGHT>2000 RadioNetwork</COPYRIGHT>
-        <MOREINFO href = "http://www.adventure-works.com" />
-        <REF href = "http://www.adventure-works.com" />
-        <REF href = "http://backup.adventure-works.com" />
+        <MOREINFO href = "https://www.adventure-works.com" />
+        <REF href = "https://www.adventure-works.com" />
+        <REF href = "https://backup.adventure-works.com" />
     </ENTRY>
 </ASX>
 
@@ -72,17 +72,17 @@ Example Code
 ```XML
 <ASX Version = "3.0">
     <TITLE>Adventure Works Radio Top 3 Rock Stations</TITLE>
-    <MOREINFO href = "http://www.adventure-works.com/MyTop3Rocks"/>
+    <MOREINFO href = "https://www.adventure-works.com/MyTop3Rocks"/>
     <REPEAT>
         <ENTRY ClientSkip = "no">
-            <REF HREF = "http://www.adventure-works.com/ad.asp/">
+            <REF HREF = "https://www.adventure-works.com/ad.asp/">
         </ENTRY>
         <DURATION VALUE="00:00:30" />
-        <ENTRYREF  HREF = "http://www.adventure-works.com/asx/RadioNetwork.wax"/>
+        <ENTRYREF  HREF = "https://www.adventure-works.com/asx/RadioNetwork.wax"/>
         <DURATION VALUE="00:00:30" />
-        <ENTRYREF HREF = "http://www.adventure-works.com/asx/RadioNetwork2.wax/>
+        <ENTRYREF HREF = "https://www.adventure-works.com/asx/RadioNetwork2.wax/>
         <DURATION VALUE="00:00:30" />
-        <ENTRYREF HREF = "http://www.adventure-works.com/asx/RadioNetwork3.wax"/>
+        <ENTRYREF HREF = "https://www.adventure-works.com/asx/RadioNetwork3.wax"/>
     </REPEAT>
 </ASX>
 

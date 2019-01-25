@@ -14,7 +14,7 @@ A portal group object models an iSCSI portal group that is contained within an i
 
 Use the [**IVdsIscsiTarget::QueryPortalGroups**](/windows/desktop/api/Vds/nf-vds-ivdsiscsitarget-queryportalgroups) method to determine the portal groups that are contained by a specific target. Use the [**IVdsIscsiPortal::QueryAssociatedPortalGroups**](/windows/desktop/api/Vds/nf-vds-ivdsiscsiportal-queryassociatedportalgroups) method to determine the portal groups that are associated with a specified portal. Callers can get a pointer to a specific portal group by selecting the desired portal group object from the enumeration that is returned by the **QueryPortalGroups** method or the **QueryAssociatedPortalGroups** method. With a portal group object, you can add or remove portals and query for portal group properties, associated portals, and the target that contains the portal group.
 
-Portal group object properties include an [object identifier](vds-data-types.md) and the portal group tag. For more information about portal group tags, see the iSCSI specification at <http://go.microsoft.com/fwlink/p/?linkid=158752>.
+Portal group object properties include an [object identifier](vds-data-types.md) and the portal group tag. For more information about portal group tags, see the iSCSI specification at <https://go.microsoft.com/fwlink/p/?linkid=158752>.
 
 The following table lists related interfaces, enumerations, and structures.
 

@@ -50,7 +50,7 @@ The D3DCompiler API is available in the Windows SDK.
 </tr>
 <tr class="odd">
 <td><span id="PIX_for_"></span><span id="pix_for_"></span><span id="PIX_FOR_"></span>PIX for Windows<br/></td>
-<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx">HLSL</a> debugging. For more info about this new feature, see <a href="http://msdn.microsoft.com/en-us/library/hh315751.aspx">Debugging DirectX Graphics</a>.<br/></td>
+<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx">HLSL</a> debugging. For more info about this new feature, see <a href="https://msdn.microsoft.com/en-us/library/hh315751.aspx">Debugging DirectX Graphics</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="https://msdn.microsoft.com/en-us/library/Hh405049(v=VS.85).aspx">XAudio2</a> for Windows<br/></td>
@@ -77,13 +77,13 @@ The D3DCompiler API is available in the Windows SDK.
 <td>The <a href="https://msdn.microsoft.com/en-us/library/Hh437965(v=VS.85).aspx">Games Explorer</a> API presents games to users of Windows. The Games Explorer API is supported only on Windows Vista and Windows 7. Use the Games Definition File Maker tool (GDFMAKER.EXE) to declare game ratings for Windows Store apps. <br/> The Game Definition File Maker tool (GDFMaker.exe) is included in the x86 subdirectory under the bin folder in the Windows SDK, and supports both Windows Store apps and Win32 desktop applications.<br/>
 <blockquote>
 [!Note]<br />
-The <a href="http://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition File Validator</a> tool (gdftrace.exe) and <a href="http://code.msdn.microsoft.com/GameuxInstallHelper-6a9335ca">Gameux Install Helper</a> sample are both available in the MSDN Code Gallery.
+The <a href="https://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition File Validator</a> tool (gdftrace.exe) and <a href="https://code.msdn.microsoft.com/GameuxInstallHelper-6a9335ca">Gameux Install Helper</a> sample are both available in the MSDN Code Gallery.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>All new samples that highlight DirectX technologies on Windows are online in the <a href="http://go.microsoft.com/fwlink/p/?LinkID=246562">Windows SDK Samples Gallery</a>. Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see <a href="http://blogs.msdn.com/b/chuckw/archive/2013/09/20/directx-sdk-samples-catalog.aspx">DirectX SDK Samples Catalog</a>. <br/></td>
+<td>All new samples that highlight DirectX technologies on Windows are online in the <a href="https://go.microsoft.com/fwlink/p/?LinkID=246562">Windows SDK Samples Gallery</a>. Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see <a href="https://blogs.msdn.com/b/chuckw/archive/2013/09/20/directx-sdk-samples-catalog.aspx">DirectX SDK Samples Catalog</a>. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>
@@ -96,10 +96,10 @@ The <a href="http://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition 
 
  
 
-For access to historical versions of these DirectX SDK tools and technologies, download previous versions of the DirectX SDK from the [Microsoft Download Center](http://go.microsoft.com/fwlink/p/?linkid=226640). We shipped the last version of the DirectX SDK in June 2010.
+For access to historical versions of these DirectX SDK tools and technologies, download previous versions of the DirectX SDK from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=226640). We shipped the last version of the DirectX SDK in June 2010.
 
 > [!Note]  
-> The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](http://go.microsoft.com/fwlink/p/?linkid=256626).
+> The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://go.microsoft.com/fwlink/p/?linkid=256626).
 
  
 
@@ -112,11 +112,11 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 1.  Ensure that the June 2010 release of the DirectX SDK is installed on your development computer. If you install onto a computer running Windows 8 and later, you will be prompted and required to enable .NET 3.5 as a prerequisite installation to the DirectX SDK.
 
     > [!Note]  
-    > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](http://go.microsoft.com/fwlink/p/?linkid=256626).
+    > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://go.microsoft.com/fwlink/p/?linkid=256626).
 
      
 
-2.  Make sure that you are using one of the premium Visual Studio SKUs. Microsoft Visual Studio Express 2012 for Windows 8 or Microsoft Visual Studio Express 2013 for Windows won't build Windows 8 and later desktop applications such as the DirectX SDK samples. To install one of the premium Visual Studio SKUs, go to: [Visual Studio downloads](http://go.microsoft.com/fwlink/p/?LinkId=251517) and follow the instructions.
+2.  Make sure that you are using one of the premium Visual Studio SKUs. Microsoft Visual Studio Express 2012 for Windows 8 or Microsoft Visual Studio Express 2013 for Windows won't build Windows 8 and later desktop applications such as the DirectX SDK samples. To install one of the premium Visual Studio SKUs, go to: [Visual Studio downloads](https://go.microsoft.com/fwlink/p/?LinkId=251517) and follow the instructions.
 
 3.  Use the DirectX SDK Sample Browser to install the project files for the desired sample. Open the sample’s Microsoft Visual Studio 2010 compatible solution file (suffixed with **\_2010**).
 
@@ -149,7 +149,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
     2.  Wherever "d3dx9.h", "d3dx10.h", or "d3dx11.h" are included in your project, be sure to explicitly include "d3d9.h", "d3d10.h" and "dxgi.h", or "d3d11.h" and "dxgi.h" first to ensure you are picking up the newer version. You can disable **warning C4005** if needed; however, this warning indicates you are using the older version of these headers.
     3.  Remove all references to DXGIType.h in your project. This header doesn't exist in the Windows SDK, and the DirectX SDK version conflicts with the new winerror.h.
     4.  All D3DX DLLs are installed onto your development computer by the DirectX SDK installation. Ensure that the necessary D3DX dependencies are redistributed with any sample or with your application if it is moved to another machine.
-    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](http://blogs.msdn.com/b/chuckw/archive/2012/03/02/directxtk.aspx). D3DXMath is replaced by [DirectXMath](https://msdn.microsoft.com/en-us/library/Hh437833(v=VS.85).aspx).
+    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://blogs.msdn.com/b/chuckw/archive/2012/03/02/directxtk.aspx). D3DXMath is replaced by [DirectXMath](https://msdn.microsoft.com/en-us/library/Hh437833(v=VS.85).aspx).
 
 6.  Ensure that you are using the new version of the HLSL shader compiler by observing the following conditions:
 
@@ -203,16 +203,16 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 **Games for Windows and the DirectX SDK**
 </dt> <dt>
 
-[Where is the DirectX SDK (2013 Edition)?](http://blogs.msdn.com/b/chuckw/archive/2013/07/01/where-is-the-directx-sdk-2013-edition.aspx)
+[Where is the DirectX SDK (2013 Edition)?](https://blogs.msdn.com/b/chuckw/archive/2013/07/01/where-is-the-directx-sdk-2013-edition.aspx)
 </dt> <dt>
 
-[Where is the DirectX SDK?](http://blogs.msdn.com/b/chuckw/archive/2012/03/22/where-is-the-directx-sdk.aspx)
+[Where is the DirectX SDK?](https://blogs.msdn.com/b/chuckw/archive/2012/03/22/where-is-the-directx-sdk.aspx)
 </dt> <dt>
 
-[DirectX SDKs of a certain age](http://blogs.msdn.com/b/chuckw/archive/2012/08/22/directx-sdk-s-of-a-certain-age.aspx)
+[DirectX SDKs of a certain age](https://blogs.msdn.com/b/chuckw/archive/2012/08/22/directx-sdk-s-of-a-certain-age.aspx)
 </dt> <dt>
 
-[Living without D3DX](http://blogs.msdn.com/b/chuckw/archive/2013/08/21/living-without-d3dx.aspx)
+[Living without D3DX](https://blogs.msdn.com/b/chuckw/archive/2013/08/21/living-without-d3dx.aspx)
 </dt> </dl>
 
  

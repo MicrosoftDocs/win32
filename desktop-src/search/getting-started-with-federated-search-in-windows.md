@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 ## What is Federated Search?
 
-Windows 7 supports the connection of external sources to the Windows client through the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) protocol. This enables users to search a remote data store and view results from within Windows Explorer. The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) v1.1 standard defines simple file formats that can be used to describe how a client should query the web service for the data store and how the service should return results to be rendered by the client. Windows federated search connects to web services that receive [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) queries, and returns results in either the RSS or Atom XML format.
+Windows 7 supports the connection of external sources to the Windows client through the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) protocol. This enables users to search a remote data store and view results from within Windows Explorer. The [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) v1.1 standard defines simple file formats that can be used to describe how a client should query the web service for the data store and how the service should return results to be rendered by the client. Windows federated search connects to web services that receive [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) queries, and returns results in either the RSS or Atom XML format.
 
 The following screen shot illustrates the search results obtained after remotely searching a SharePoint site.
 
@@ -32,7 +32,7 @@ The following screen shot illustrates the search results obtained after remotely
 
 To build federated search, perform the following steps:
 
-1.  Enable your data store to be searched from Windows Explorer by providing an [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911)-compatible web service that can return results in RSS or Atom format.
+1.  Enable your data store to be searched from Windows Explorer by providing an [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911)-compatible web service that can return results in RSS or Atom format.
 2.  Create an OpenSearch Description (.osdx) file that describes how to connect to the web service and how to map any custom elements in your RSS or Atom XML.
 3.  Deploy the search connectors to Windows client computers with an .osdx file.
 
@@ -42,7 +42,7 @@ The following diagram illustrates the steps for building federated search.
 
 ## How Federated Search Works
 
-Communication between Windows Explorer and your [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) web service is performed through the Windows Data Layer. The Windows Data Layer can communicate with different types of data stores through Windows Store Providers. Each provider specializes in communicating with data stores that support a particular protocol and have specific capabilities. For example, the following illustration sows how the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider communicates with data stores that provide a web service that supports the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) standard.
+Communication between Windows Explorer and your [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) web service is performed through the Windows Data Layer. The Windows Data Layer can communicate with different types of data stores through Windows Store Providers. Each provider specializes in communicating with data stores that support a particular protocol and have specific capabilities. For example, the following illustration sows how the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider communicates with data stores that provide a web service that supports the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) standard.
 
 ![diagram showing communication from windows explorer on the client through the opensearch data store on the remote server](images/windowssearchfederationfunctionality.png)
 
@@ -68,7 +68,7 @@ To enable your data store to support federated search in Windows 7, you must pe
 
 ## Sending Queries and Returning Search Results in RSS or Atom
 
-When the user types a term into the search box in the upper-right corner of Windows Explorer, the query is sent to the [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider, which then sends the query to the remote data store. The remote web service responds to the query by providing results in an XML document, typically referred to as a feed, in one of two supported formats (RSS or Atom). Each result item in the feed includes XML child elements to represent or describe item metadata, such as the title, URL, description, thumbnail image, and so forth. The [OpenSearch](http://go.microsoft.com/fwlink/p/?linkid=147911) provider is responsible for mapping the XML element values to Windows Shell system properties that can be used by Windows applications.
+When the user types a term into the search box in the upper-right corner of Windows Explorer, the query is sent to the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider, which then sends the query to the remote data store. The remote web service responds to the query by providing results in an XML document, typically referred to as a feed, in one of two supported formats (RSS or Atom). Each result item in the feed includes XML child elements to represent or describe item metadata, such as the title, URL, description, thumbnail image, and so forth. The [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider is responsible for mapping the XML element values to Windows Shell system properties that can be used by Windows applications.
 
 ## Federated Search Examples
 
@@ -76,9 +76,9 @@ The following example OpenSearch Description (.osdx) file consists of `ShortName
 
 
 ```
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/">
         <ShortName>My web Service</ShortName>
-        <Url format="application/rss+xml" template="http://example.com/rss.php?query={searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
+        <Url format="application/rss+xml" template="https://example.com/rss.php?query={searchTerms}&amp;start={startIndex}&amp;cnt={count}" />
         </OpenSearchDescription>
 ```
 
@@ -88,16 +88,16 @@ The following example illustrates how to make a web-enabled data store searchabl
 
 
 ```
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:example="http://example.com/namespace">
+<rss version="2.0" xmlns:media="https://search.yahoo.com/mrss/" xmlns:example="https://example.com/namespace">
    <channel>
       <title>Search Results</title>
       <item>
          <title>An example result</title>
-         <link>http://example.com/pictures.aspx?id=01</link>
+         <link>https://example.com/pictures.aspx?id=01</link>
          <description>This is a test of the emergency search results system. If this were a real emergency result, then you would be reading something more useful.</description>
          <pubDate>Wed, 1 Oct 2008 23:12:00 GMT</pubDate>
-         <media:content url="http://example.com/pictures/picture01.jpg" fileSize="212889" type="image/jpeg" height="768" width="1024"/>
-         <media:thumbnail url="http://example.com/thumbnails/picture01.jpg" height="120" width="160"/>
+         <media:content url="https://example.com/pictures/picture01.jpg" fileSize="212889" type="image/jpeg" height="768" width="1024"/>
+         <media:thumbnail url="https://example.com/thumbnails/picture01.jpg" height="120" width="160"/>
          <example:dateTaken>Mon, 22 Sep 2008 23:12:00 GMT</example:dateTaken>
       </item>
    </channel>

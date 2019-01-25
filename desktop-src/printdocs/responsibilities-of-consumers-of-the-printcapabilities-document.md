@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Responsibilities of Consumers of the PrintCapabilities Document
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 Consumers of PrintCapabilities documents have certain obligations they must uphold before they can use a PrintCapabilities document. The following requirements apply to clients of a PrintCapabilities document.
 
@@ -30,7 +30,7 @@ Consumers of PrintCapabilities documents have certain obligations they must upho
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

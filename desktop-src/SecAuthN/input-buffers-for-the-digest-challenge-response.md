@@ -26,7 +26,7 @@ HTTP authentication using Microsoft Digest requires three input buffers to gener
 
 Buffer zero contains the Digest challenge received from the server in response to the initial request for an access-protected resource.
 
-Buffer 1 contains the string representation of the method, such as "GET" or "POST". The method is used in the calculation of A2, as described in [RFC 2617](http://go.microsoft.com/fwlink/p/?linkid=84049).
+Buffer 1 contains the string representation of the method, such as "GET" or "POST". The method is used in the calculation of A2, as described in [RFC 2617](https://go.microsoft.com/fwlink/p/?linkid=84049).
 
 Buffer 2 is the [*MD5*](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx) hash of the message's entity-body as described in RFC 2617.
 

@@ -83,7 +83,7 @@ The preceding webpage example incorporates two frames. The first frame displays 
 
 <!-- Embed Windows Media Player and disable the invokeURLs parameter -->
 <OBJECT CLASSID = "CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6" ID = "Player">
-  <PARAM name = "URL"  value = "http://www.proseware.com/Media/video.wmv">
+  <PARAM name = "URL"  value = "https://www.proseware.com/Media/video.wmv">
   <PARAM name = "invokeURLs"  value = "false">
 </OBJECT>
 

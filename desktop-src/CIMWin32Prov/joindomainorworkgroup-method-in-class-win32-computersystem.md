@@ -67,7 +67,7 @@ You can also use the user principal name (UPPED) in the form user@domain.
 *AccountOU* \[in\]
 </dt> <dd>
 
-Specifies the pointer to a constant **null**-terminated character string that contains the [RFC 1779](Http://go.microsoft.com/fwlink/p/?linkid=84030) format name of the organizational unit (OU) for the computer account. If you specify this parameter, the string must contain a full path, otherwise *Accent* must be **NULL**.
+Specifies the pointer to a constant **null**-terminated character string that contains the [RFC 1779](https://go.microsoft.com/fwlink/p/?linkid=84030) format name of the organizational unit (OU) for the computer account. If you specify this parameter, the string must contain a full path, otherwise *Accent* must be **NULL**.
 
 Example: "OU=testOU; DC=domain; DC=Domain; DC=com"
 

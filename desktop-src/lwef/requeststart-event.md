@@ -48,7 +48,7 @@ The event returns a [**Request**](https://msdn.microsoft.com/library/windows/des
    Sub window_Onload
    
    Agent1.Characters.Load "Genie", _
-      "http://agent.microsoft.com/characters/v2/genie/genie.acf"   
+      "https://agent.microsoft.com/characters/v2/genie/genie.acf"   
 
    Set Genie = Agent1.Characters("Genie")
 
@@ -90,7 +90,7 @@ Because animation [**Request**](https://msdn.microsoft.com/library/windows/deskt
 
 
 > [!Note]  
-> In VBScript 1.0, this event fires even if you don't define references to a [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) object. This has been fixed in VBScript 2.0, which can be downloaded from <http://microsoft.com/msdownload/vbscript/scripting.asp>.
+> In VBScript 1.0, this event fires even if you don't define references to a [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) object. This has been fixed in VBScript 2.0, which can be downloaded from <https://microsoft.com/msdownload/vbscript/scripting.asp>.
 
  
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Uniform Resource Locators (URLs) in WinHTTP
 
-A URL is a compact representation of the location and access method for a resource located on the Internet. Each URL consists of a scheme (HTTP, HTTPS, FTP, or Gopher) and a scheme-specific string. This string can also include a combination of a directory path, search string, or name of the resource. The Microsoft Windows HTTP Services (WinHTTP) functions provide the ability to create, combine, break down, and canonicalize URLs. For more information, see [RFC 1738](Http://go.microsoft.com/fwlink/p/?linkid=84554), [Uniform Resource Locators](Http://go.microsoft.com/fwlink/p/?linkid=84554) and [RFC 2396](Http://go.microsoft.com/fwlink/p/?linkid=84561), [Uniform Resource Identifiers (URI): Generic Syntax](Http://go.microsoft.com/fwlink/p/?linkid=84554).
+A URL is a compact representation of the location and access method for a resource located on the Internet. Each URL consists of a scheme (HTTP, HTTPS, FTP, or Gopher) and a scheme-specific string. This string can also include a combination of a directory path, search string, or name of the resource. The Microsoft Windows HTTP Services (WinHTTP) functions provide the ability to create, combine, break down, and canonicalize URLs. For more information, see [RFC 1738](https://go.microsoft.com/fwlink/p/?linkid=84554), [Uniform Resource Locators](https://go.microsoft.com/fwlink/p/?linkid=84554) and [RFC 2396](https://go.microsoft.com/fwlink/p/?linkid=84561), [Uniform Resource Identifiers (URI): Generic Syntax](https://go.microsoft.com/fwlink/p/?linkid=84554).
 
 ## What Is a Canonicalized URL?
 
@@ -50,7 +50,7 @@ The following sample code shows how to use the [**WinHttpCrackUrl**](/windows/de
 ```C++
   URL_COMPONENTS urlComp;
   LPCWSTR pwszUrl1 = 
-    L"http://search.msn.com/results.asp?RS=CHECKED&FORM=MSNH&v=1&q=wininet";
+    L"https://search.msn.com/results.asp?RS=CHECKED&FORM=MSNH&v=1&q=wininet";
   DWORD dwUrlLen = 0;
 
   // Initialize the URL_COMPONENTS structure.

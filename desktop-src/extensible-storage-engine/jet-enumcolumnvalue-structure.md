@@ -23,7 +23,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_ENUMCOLUMNVALUE Structure
 
-The **JET_ENUMCOLUMNVALUE** structure enumerates the column values of a record using the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMNVALUE** structures. The array is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to that function.
+The **JET_ENUMCOLUMNVALUE** structure enumerates the column values of a record using the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMNVALUE** structures. The array is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to that function.
 
 ```cpp
     typedef struct {
@@ -77,13 +77,13 @@ The column status code resulting from the enumeration of the column value.
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The output buffer is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
 **pvData**
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](http://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The output buffer is returned in memory that was allocated using the [realloc](https://go.microsoft.com/fwlink/?linkid=179840) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
 
 ### Requirements
 
@@ -115,5 +115,5 @@ The output buffer is returned in memory that was allocated using the [realloc](h
 [JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
 [JET_ERR](gg294092\(v=exchg.10\).md)  
 [JetEnumerateColumns](gg269321\(v=exchg.10\).md)  
-[realloc](http://go.microsoft.com/fwlink/?linkid=179840)
+[realloc](https://go.microsoft.com/fwlink/?linkid=179840)
 

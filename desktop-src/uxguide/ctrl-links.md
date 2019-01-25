@@ -311,11 +311,11 @@ In the incorrect example, the icon doesn't lead into the text.
 
 -   **Start the link with a noun and clearly describe where clicking the link will go.** Don't use ending punctuation. On occasion you may need to start navigation links with a verb, but don't use verbs that reiterate navigation that is already implied by the fact of linking, such as View, Open, or Go to.
 -   **Present a navigation link as a URL if it navigates to a Web page and you expect the target users to recall the URL and type it into a browser.** If possible, design such URLs to be short and easy to remember.
--   **If the link includes a URL to a Web site starting with "www," omit the http:// protocol name and use lowercase text.**
+-   **If the link includes a URL to a Web site starting with "www," omit the https:// protocol name and use lowercase text.**
 
     **Incorrect:**
 
-    http://www.microsoft.com
+    https://www.microsoft.com
 
     www.microsoft.com
 
@@ -323,7 +323,7 @@ In the incorrect example, the icon doesn't lead into the text.
 
     microsoft.com
 
-    In the incorrect examples, the "http://" and "www" go without saying.
+    In the incorrect examples, the "https://" and "www" go without saying.
 
 **Task links**
 

@@ -22,7 +22,7 @@ To change the default settings, store the changes under **HKEY\_LOCAL\_MACHINE\\
 
 Processes running in a security context other than that of the interactive user should not use the **HKEY\_CLASSES\_ROOT** key with the registry functions. Instead, such processes can explicitly open the **HKEY\_LOCAL\_MACHINE\\Software\\Classes** key to access the default settings. To open a registry key that merges the contents of **HKEY\_LOCAL\_MACHINE\\Software\\Classes** with the settings for a specified user, these processes can call the [**RegOpenUserClassesRoot**](/windows/desktop/api/Winreg/nf-winreg-regopenuserclassesroot) function. For example, a thread that is [impersonating](https://msdn.microsoft.com/library/windows/desktop/aa376391) a client can call **RegOpenUserClassesRoot** if it needs to retrieve a merged view for the client being impersonated. Note that **RegOpenUserClassesRoot** fails if the user profile for the specified user has not been loaded. The system automatically loads the profile for the interactive user when logging on. For other users, you need to call the [**LoadUserProfile**](https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx) function to explicitly load the user's profile.
 
-If an application is run with administrator rights and User Account Control is disabled, the COM runtime ignores the per-user COM configuration and accesses only the per-machine COM configuration. Applications that require administrator rights should register dependent COM objects during installation to the per-machine COM configuration store (**HKEY\_LOCAL\_MACHINE\\Software\\Classes**). For more information, see [AC: UAC: COM Per-User Configuration](http://go.microsoft.com/fwlink/p/?linkid=122793).
+If an application is run with administrator rights and User Account Control is disabled, the COM runtime ignores the per-user COM configuration and accesses only the per-machine COM configuration. Applications that require administrator rights should register dependent COM objects during installation to the per-machine COM configuration store (**HKEY\_LOCAL\_MACHINE\\Software\\Classes**). For more information, see [AC: UAC: COM Per-User Configuration](https://go.microsoft.com/fwlink/p/?linkid=122793).
 
 **Windows Server 2003 and Windows XP/2000:** Applications can register dependent COM objects to either the per-machine or per-user COM configuration store (**HKEY\_LOCAL\_MACHINE\\Software\\Classes** or **HKEY\_CURRENT\_USER\\Software\\Classes**).
 
@@ -30,7 +30,7 @@ If an application is run with administrator rights and User Account Control is d
 
 <dl> <dt>
 
-[HKEY\_CLASSES\_ROOT (Resource Kit Registry Reference)](http://go.microsoft.com/fwlink/p/?linkid=114994)
+[HKEY\_CLASSES\_ROOT (Resource Kit Registry Reference)](https://go.microsoft.com/fwlink/p/?linkid=114994)
 </dt> </dl>
 
  

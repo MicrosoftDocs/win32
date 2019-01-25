@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DO Return Values
 
-The below constants represent return values that Delivery Optimization (DO) generates and HTTP return values that DO captures. All other return values that you can receive are COM, RPC, or converted Windows return values (DO uses the [HRESULT_FROM_WIN32](http://go.microsoft.com/fwlink/p/?linkid=141230) macro to convert the Windows return values to HRESULT values).
+The below constants represent return values that Delivery Optimization (DO) generates and HTTP return values that DO captures. All other return values that you can receive are COM, RPC, or converted Windows return values (DO uses the [HRESULT_FROM_WIN32](https://go.microsoft.com/fwlink/p/?linkid=141230) macro to convert the Windows return values to HRESULT values).
 
 <dl> <dt>
 

@@ -160,7 +160,7 @@ Direct2D provides a 4x4 matrix class to provide helper functions for transformin
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D 3D transform effect sample](http://go.microsoft.com/fwlink/p/?linkid=254009).
+For an example of this effect, download the [Direct2D 3D transform effect sample](https://go.microsoft.com/fwlink/p/?linkid=254009).
 
 ## Requirements
 

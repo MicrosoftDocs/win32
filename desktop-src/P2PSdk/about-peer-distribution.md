@@ -50,7 +50,7 @@ The User creates a completion port by calling [**CreateIoCompletionPort**](https
 
 The caller should use [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/windows/desktop/aa364986) function to manage asynchronous completion. If the asynchronous operation fails the **GetQueuedCompletionStatus** function will return **FALSE** and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return the appropriate error code. The caller should ignore all the fields of the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure if the error code is anything other than **ERROR\_SUCCESS**. The asynchronous operation succeeds if the **GetQueuedCompletionStatus** function returns **TRUE**.
 
-For more information see [I/O Completion Ports](http://msdn.microsoft.com/library/aa365198.aspx).
+For more information see [I/O Completion Ports](https://msdn.microsoft.com/library/aa365198.aspx).
 
 **Event Based Completion**
 

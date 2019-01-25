@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
  
 
-The following table describes only the most important aspects of the RADIUS accounting packets. The RADIUS Accounting Request for Comments document ([RFC 2866](Http://go.microsoft.com/fwlink/p/?linkid=84056)) provides detailed information on these packets.
+The following table describes only the most important aspects of the RADIUS accounting packets. The RADIUS Accounting Request for Comments document ([RFC 2866](https://go.microsoft.com/fwlink/p/?linkid=84056)) provides detailed information on these packets.
 
 RADIUS accounting packets can be divided into the following categories.
 

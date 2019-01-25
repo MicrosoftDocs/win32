@@ -70,7 +70,7 @@ Skins included with Windows Media Download Packages must be rectangular in shape
 
     <ENTRY>
         <PARAM name="YourAlbumTitle" value="YourTitle.jpg"/>
-        <PARAM name="link" value="http://www.proseware.com"/>
+        <PARAM name="link" value="https://www.proseware.com"/>
         <TITLE>(The Artist)-YourTitle</TITLE>
         <REF HREF="(The Artist)-YourSongTitle.wma"/>
     </ENTRY>

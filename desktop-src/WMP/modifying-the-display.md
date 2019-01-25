@@ -84,7 +84,7 @@ Text and image areas of the user interface can be associated with URLs. During p
 ```XML
 <BANNER HREF="YourPath\2.gif">
     <ABSTRACT>More Information.</ABSTRACT>
-    <MOREINFO HREF="http://www.proseware.com" />
+    <MOREINFO HREF="https://www.proseware.com" />
 </BANNER>
 
 ```

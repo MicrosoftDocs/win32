@@ -25,7 +25,7 @@ This topic contains the following sections:
 
 ## Notification and Notification Area Guidelines
 
-See the [Notifications](http://go.microsoft.com/fwlink/p/?linkid=200328) and [Notification Area](http://go.microsoft.com/fwlink/p/?linkid=200327) sections of the Windows User Experience Interaction Guidelines for best practices in the use of notifications and the notification area. The goal is to provide user benefit through appropriate use of notifications, without being annoying or distracting.
+See the [Notifications](https://go.microsoft.com/fwlink/p/?linkid=200328) and [Notification Area](https://go.microsoft.com/fwlink/p/?linkid=200327) sections of the Windows User Experience Interaction Guidelines for best practices in the use of notifications and the notification area. The goal is to provide user benefit through appropriate use of notifications, without being annoying or distracting.
 
 The notification area is not for critical information that must be acted on immediately. It is also not intended for quick program or command access. As of Windows 7, much of that functionality is best accomplished through an application's taskbar button.
 

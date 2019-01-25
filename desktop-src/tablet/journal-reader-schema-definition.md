@@ -14,7 +14,7 @@ This topic contains the definition of the Journal Reader schema.
 
 
 ```C++
-<xs:schema id="JntXml" xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+<xs:schema id="JntXml" xmlns:xs="https://www.w3.org/2001/XMLSchema" 
   targetNamespace="urn:schemas-microsoft-com:tabletpc:journalreader"
   xmlns="urn:schemas-microsoft-com:tabletpc:journalreader" elementFormDefault="qualified">
   <xs:annotation>

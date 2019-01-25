@@ -75,7 +75,7 @@ The code constant that tells MXDC what to do.
 
 ## Remarks
 
-Before calling [**MXDC\_ESCAPE**](mxdc-escape.md),\_applications should first verify that the driver is MXDC by calling [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/en-us/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC the function returns the zero-terminated string "http://schemas.microsoft.com/xps/2005/06".
+Before calling [**MXDC\_ESCAPE**](mxdc-escape.md),\_applications should first verify that the driver is MXDC by calling [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/en-us/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC the function returns the zero-terminated string "https://schemas.microsoft.com/xps/2005/06".
 
 This structure is always at the beginning of the data passed to the [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) function in its *lpszInData* parameter.
 

@@ -81,7 +81,7 @@ The following example creates a button that, when clicked, displays the Microsof
 private void goToMS_Click(object sender, System.EventArgs e)
 {
     // Open the Microsoft website. 
-    player.launchURL("http://www.microsoft.com");
+    player.launchURL("https://www.microsoft.com");
 }
 ```
 
@@ -101,7 +101,7 @@ private void goToMS_Click(object sender, System.EventArgs e)
 <td><pre><code>Public Sub goToMS_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles goToMS.Click
 
     &#39; Open the Microsoft website. 
-    player.launchURL(&quot;http://www.microsoft.com&quot;)
+    player.launchURL(&quot;https://www.microsoft.com&quot;)
 
 End Sub</code></pre></td>
 </tr>

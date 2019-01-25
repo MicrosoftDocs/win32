@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Mobile Broadband Profile Schema v1
 
-The Windows 7Mobile Broadband Profile Schema v1 is available in the namespace `http://www.microsoft.com/networking/WWAN/profile/v1`.
+The Windows 7Mobile Broadband Profile Schema v1 is available in the namespace `https://www.microsoft.com/networking/WWAN/profile/v1`.
 
 -   [Mobile Broadband Profile Schema v1 Elements](schema-elements.md)
 -   [Mobile Broadband Profile Schema v1 Simple Types](schema-simple-types.md)
@@ -16,9 +16,9 @@ The Windows 7Mobile Broadband Profile Schema v1 is available in the namespace `
 
 ``` syntax
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema targetNamespace="http://www.microsoft.com/networking/WWAN/profile/v1"
-    xmlns="http://www.microsoft.com/networking/WWAN/profile/v1" 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:schema targetNamespace="https://www.microsoft.com/networking/WWAN/profile/v1"
+    xmlns="https://www.microsoft.com/networking/WWAN/profile/v1" 
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
     elementFormDefault="qualified">
 
   <!-- type definition section -->

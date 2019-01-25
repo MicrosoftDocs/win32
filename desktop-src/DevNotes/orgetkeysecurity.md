@@ -47,7 +47,7 @@ A handle to an open registry key in an offline registry hive.
 *SecurityInformation* \[in\]
 </dt> <dd>
 
-A [SECURITY\_INFORMATION](http://go.microsoft.com/fwlink/p/?linkid=128774) value that indicates the requested security information.
+A [SECURITY\_INFORMATION](https://go.microsoft.com/fwlink/p/?linkid=128774) value that indicates the requested security information.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 
 If the function succeeds, the function returns ERROR\_SUCCESS.
 
-If the function fails, it returns a nonzero error code defined in Winerror.h. You can use the [FormatMessage](http://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, it returns a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 If the buffer specified by the *pSecurityDescriptor* parameter is too small, the function returns ERROR\_INSUFFICIENT\_BUFFER and the *lpcbSecurityDescriptor* parameter contains the number of bytes required for the requested security descriptor.
 
@@ -98,7 +98,7 @@ If the buffer specified by the *pSecurityDescriptor* parameter is too small, the
 [**ORSetKeySecurity**](orsetkeysecurity.md)
 </dt> <dt>
 
-[SECURITY\_INFORMATION](http://go.microsoft.com/fwlink/p/?linkid=128774)
+[SECURITY\_INFORMATION](https://go.microsoft.com/fwlink/p/?linkid=128774)
 </dt> </dl>
 
  

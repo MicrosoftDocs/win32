@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The [Microsoft Agent Genie Character](http://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414) is a copyrighted work of Microsoft Corporation.
+The [Microsoft Agent Genie Character](https://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414) is a copyrighted work of Microsoft Corporation.
 
 Genie supports the animations listed in the table below. Refer to [Programming the Microsoft Agent Server Interface](https://msdn.microsoft.com/library/windows/desktop/ms697903) and [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) for information on how to call the character's animations.
 

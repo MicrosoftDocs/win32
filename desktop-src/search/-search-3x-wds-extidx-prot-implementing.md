@@ -23,7 +23,7 @@ This topic is organized as follows:
 
 When users need to search legacy databases, email stores or other data structures that are not supported by Windows Search, you should first determine whether a protocol handler already exists for that data store, perhaps for use with another application such as SharePoint Server. If so, you can install that protocol handler on the system. Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably.
 
-For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](http://msdn.microsoft.com/en-us/library/bb931109.aspx).
+For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](https://msdn.microsoft.com/en-us/library/bb931109.aspx).
 
 ### Shell Data Stores
 
@@ -42,7 +42,7 @@ If you want users to view their search results from within Windows Explorer, the
 -   Icon handler
 -   Some other type of file handler
 
-For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md). For information on creating handlers, see [Registering Shell Extensions](http://msdn.microsoft.com/en-us/library/cc144110(VS.85).aspx), [Context Menu](http://msdn.microsoft.com/en-us/library/cc144169(VS.85).aspx), and [File Type Handlers](http://msdn.microsoft.com/en-us/library/cc144146(VS.85).aspx).
+For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md). For information on creating handlers, see [Registering Shell Extensions](https://msdn.microsoft.com/en-us/library/cc144110(VS.85).aspx), [Context Menu](https://msdn.microsoft.com/en-us/library/cc144169(VS.85).aspx), and [File Type Handlers](https://msdn.microsoft.com/en-us/library/cc144146(VS.85).aspx).
 
 ### Protocol Handlers
 
@@ -119,8 +119,8 @@ Windows Search requires a start page for a protocol in order to know what URLs t
     ```
 
 3.  When Windows Search periodically does an incremental crawl on your .zip:/// root URL, you must reflect back the list of URLs that Windows Search is already maintaining that are .zip URLs. If a deletion is discovered in the native store where the .zip file is stored, it does not appear in your enumeration, and that branch of the tree in the .zip is removed.
-4.  To bind to the .zip data for another protocol handler, you should ideally go through the [IShellFolder](http://msdn.microsoft.com/en-us/library/bb775075(VS.85).aspx) for that URL to bind to the storage of the object, and not assume it is always a file. Doing so affords you the flexibility to work with attachments in mail stores, for example.
-5.  When emitting child URLs for each .zip file, you should use PKEY\_Search\_UrlToIndexWithModificationTime ([System.Search.UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx)) to pass PKEY\_DateModified ([System.DateModified](http://msdn.microsoft.com/en-us/library/bb760685(VS.85).aspx)) of the actual .zip file so that the indexer crawls the .zip file only if it has changed.
+4.  To bind to the .zip data for another protocol handler, you should ideally go through the [IShellFolder](https://msdn.microsoft.com/en-us/library/bb775075(VS.85).aspx) for that URL to bind to the storage of the object, and not assume it is always a file. Doing so affords you the flexibility to work with attachments in mail stores, for example.
+5.  When emitting child URLs for each .zip file, you should use PKEY\_Search\_UrlToIndexWithModificationTime ([System.Search.UrlToIndexWithModificationTime](https://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx)) to pass PKEY\_DateModified ([System.DateModified](https://msdn.microsoft.com/en-us/library/bb760685(VS.85).aspx)) of the actual .zip file so that the indexer crawls the .zip file only if it has changed.
 
 To have your .zip URLs indexed immediately after they are created or modified, and not have to wait for an incremental crawl to discover their new state, you could conceivably monitor the file system yourself for .zip file changes. However, such an approach would not work for other data stores such as MAPI.
 

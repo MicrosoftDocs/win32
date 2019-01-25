@@ -26,7 +26,7 @@ To declare the **smbios** restricted capability in the app manifest, add the **r
 ``` syntax
 <Package
   ...
-  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:rescap="https://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap mp rescap">  
   ...
   <Capabilities>

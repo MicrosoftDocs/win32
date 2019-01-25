@@ -132,7 +132,7 @@ You can remove the certificate after you no longer need it.
     Certutil -delStore TrustedPeople certID
     ```
 
-We recommend that you avoid manually adding root certificates to the local machine [Trusted Root Certification Authorities Certificate Store](https://msdn.microsoft.com/library/windows/hardware/ff553506). Having several applications that are signed with certificates that chain to the same root certificate, such as line of business applications, can be more efficient than installing individual certificates to the Trusted People store. The Trusted People store contains certificates that are considered trusted by default and so aren't verified by higher authorities or certificate trust lists or chains. For considerations around adding certificates to the Trusted Root Certification Authorities certificate store, see [Code-Signing Best Practices](http://msdn.microsoft.com/windows/hardware/gg487309.aspx).
+We recommend that you avoid manually adding root certificates to the local machine [Trusted Root Certification Authorities Certificate Store](https://msdn.microsoft.com/library/windows/hardware/ff553506). Having several applications that are signed with certificates that chain to the same root certificate, such as line of business applications, can be more efficient than installing individual certificates to the Trusted People store. The Trusted People store contains certificates that are considered trusted by default and so aren't verified by higher authorities or certificate trust lists or chains. For considerations around adding certificates to the Trusted Root Certification Authorities certificate store, see [Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx).
 
 ## Security Considerations
 
@@ -145,7 +145,7 @@ By adding a certificate to [local machine certificate stores](https://msdn.micro
 **Samples**
 </dt> <dt>
 
-[Create app package sample](http://go.microsoft.com/fwlink/p/?linkid=236965)
+[Create app package sample](https://go.microsoft.com/fwlink/p/?linkid=236965)
 </dt> <dt>
 
 **Concepts**

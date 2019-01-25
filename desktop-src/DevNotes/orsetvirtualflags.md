@@ -65,7 +65,7 @@ This parameter controls the behavior of the registry when a Create or Open opera
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](http://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Remarks
 
@@ -79,7 +79,7 @@ Registry virtualization is enabled only for the following:
 -   Keys in **HKEY\_LOCAL\_MACHINE\\Software**
 -   Keys that an administrator can write to
 
-For more information, see [Registry Virtualization](http://go.microsoft.com/fwlink/p/?linkid=128768).
+For more information, see [Registry Virtualization](https://go.microsoft.com/fwlink/p/?linkid=128768).
 
 ## Requirements
 
@@ -100,7 +100,7 @@ For more information, see [Registry Virtualization](http://go.microsoft.com/fwli
 [**ORGetVirtualFlags**](orgetvirtualflags.md)
 </dt> <dt>
 
-[Registry Virtualization](http://go.microsoft.com/fwlink/p/?linkid=128768)
+[Registry Virtualization](https://go.microsoft.com/fwlink/p/?linkid=128768)
 </dt> </dl>
 
  

@@ -44,7 +44,7 @@ netsh interface ipv6 set prefixpolicy ::/96 3 4
 netsh interface ipv6 show prefixpolicy
 ```
 
-Address ordering is also determined by an algorithm outlined in the RFC 3484 on *Default Address Selection for Internet Protocol version 6 (IPv6)* published by the IETF. For more information, see [http://www.ietf.org/rfc/rfc3484.txt](http://go.microsoft.com/fwlink/p/?linkid=202912). (This resource may only be available in English.)
+Address ordering is also determined by an algorithm outlined in the RFC 3484 on *Default Address Selection for Internet Protocol version 6 (IPv6)* published by the IETF. For more information, see [https://www.ietf.org/rfc/rfc3484.txt](https://go.microsoft.com/fwlink/p/?linkid=202912). (This resource may only be available in English.)
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL sorts addresses from best to worst, and fills in **sin6\_scope\_id** members, if needed. For site-local addresses, SIO\_ADDRESS\_LIST\_SORT either fills in the scope-id, or removes the address.
 

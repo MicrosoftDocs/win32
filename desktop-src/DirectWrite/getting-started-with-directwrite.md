@@ -38,7 +38,7 @@ This tutorial contains the following parts:
 
 ## Source Code
 
-The source code shown in this overview is taken from the [DirectWrite Hello World sample](http://go.microsoft.com/fwlink/?LinkId=624680). Each part is implemented in a separate class (SimpleText and MultiformattedText) and is displayed in a separate child window. Each class represents a Microsoft Win32 window. In addition to the *WndProc* method, each class contains the following methods:
+The source code shown in this overview is taken from the [DirectWrite Hello World sample](https://go.microsoft.com/fwlink/?LinkId=624680). Each part is implemented in a separate class (SimpleText and MultiformattedText) and is displayed in a separate child window. Each class represents a Microsoft Win32 window. In addition to the *WndProc* method, each class contains the following methods:
 
 
 
@@ -56,7 +56,7 @@ The source code shown in this overview is taken from the [DirectWrite Hello Worl
 
  
 
-You can use the sample provided, or use the instructions that follow to add [DirectWrite](direct-write-portal.md) and [Direct2D](rendering-by-using-direct2d.md) to your own Win32 application. For more information about the sample and the associated project files, see the [DirectWriteHelloWorld sample](http://go.microsoft.com/fwlink/?LinkId=624680).
+You can use the sample provided, or use the instructions that follow to add [DirectWrite](direct-write-portal.md) and [Direct2D](rendering-by-using-direct2d.md) to your own Win32 application. For more information about the sample and the associated project files, see the [DirectWriteHelloWorld sample](https://go.microsoft.com/fwlink/?LinkId=624680).
 
 ## Drawing Simple Text
 
@@ -340,13 +340,13 @@ This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2
 
 ![screen shot of "hello world using directwrite!", with some parts in different styles, sizes, and formats](images/multiformattedcropped.png)
 
-The code for this section is implemented as the MultiformattedText class in the [DWriteHelloWorld Sample](http://go.microsoft.com/fwlink/?LinkId=624680). It is based on the steps from the previous section.
+The code for this section is implemented as the MultiformattedText class in the [DWriteHelloWorld Sample](https://go.microsoft.com/fwlink/?LinkId=624680). It is based on the steps from the previous section.
 
 To create multi-formatted text, you use the [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface in addition to the [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd316628(v=VS.85).aspx) interface introduced in the previous section. The **IDWriteTextLayout** interface describes the formatting and layout of a block of text. In addition to default formatting specified by an **IDWriteTextFormat** object, the formatting for specific ranges of text can be changed by using **IDWriteTextLayout**. This includes font family name, size, weight, style, stretch, strikethrough, and underlining.
 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) also provides hit-testing methods. The hit-testing metrics returned by these methods are relative to the layout box specified when the **IDWriteTextLayout** interface object is created by using the [**CreateTextLayout**](https://msdn.microsoft.com/en-us/library/Dd368205(v=VS.85).aspx) method of the [**IDWriteFactory**](https://msdn.microsoft.com/en-us/library/Dd368183(v=VS.85).aspx) interface.
 
-The [**IDWriteTypography**](https://msdn.microsoft.com/en-us/library/Dd371541(v=VS.85).aspx) interface is used to add optional [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097) typographic features to a text layout, such as swashes and alternative stylistic text sets. Typographic features can be added to a specific range of text within a text layout by calling the [**AddFontFeature**](https://msdn.microsoft.com/en-us/library/Dd371545(v=VS.85).aspx) method of the **IDWriteTypography** interface. This method receives a [**DWRITE\_FONT\_FEATURE**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag) structure as a parameter that contains a **DWRITE\_FONT\_FEATURE\_TAG** enumeration constant and a **UINT32** execution parameter. A list of registered OpenType features can be found at the [OpenType Layout Tag Registry](http://go.microsoft.com/fwlink/p/?linkid=134581) on microsoft.com. For the equivalent DirectWrite enumeration constants, see **DWRITE\_FONT\_FEATURE\_TAG**.
+The [**IDWriteTypography**](https://msdn.microsoft.com/en-us/library/Dd371541(v=VS.85).aspx) interface is used to add optional [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097) typographic features to a text layout, such as swashes and alternative stylistic text sets. Typographic features can be added to a specific range of text within a text layout by calling the [**AddFontFeature**](https://msdn.microsoft.com/en-us/library/Dd371545(v=VS.85).aspx) method of the **IDWriteTypography** interface. This method receives a [**DWRITE\_FONT\_FEATURE**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag) structure as a parameter that contains a **DWRITE\_FONT\_FEATURE\_TAG** enumeration constant and a **UINT32** execution parameter. A list of registered OpenType features can be found at the [OpenType Layout Tag Registry](https://go.microsoft.com/fwlink/p/?linkid=134581) on microsoft.com. For the equivalent DirectWrite enumeration constants, see **DWRITE\_FONT\_FEATURE\_TAG**.
 
 ### Part 1: Create an IDWriteTextLayout Interface.
 

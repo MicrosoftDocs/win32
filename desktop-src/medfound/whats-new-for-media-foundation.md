@@ -113,7 +113,7 @@ Some of the new updates to Media Foundation with Windows 8 are:
 -   There have been updates and improvements to Media Foundation work queues. See [Work Queue and Threading Improvements](media-foundation-work-queue-and-threading-improvements.md) for more info.
 -   [H.264 UVC 1.5 camera encoders](camera-encoder-h264-uvc-1-5.md).
 -   For a list of the Media Foundation API which can be used with Windows Store apps see [Win32 and COM for Windows Store apps (multimedia)](media-foundation-headers-and-libraries.md).
--   Media Foundation is not included with the N and KN editions of Windows 8. For more information, see [Microsoft Windows Media Feature Pack for N and KN Versions of all Windows 8 Editions](http://support.microsoft.com/kb/2703761).
+-   Media Foundation is not included with the N and KN editions of Windows 8. For more information, see [Microsoft Windows Media Feature Pack for N and KN Versions of all Windows 8 Editions](https://support.microsoft.com/kb/2703761).
 
 ## Related topics
 

@@ -78,7 +78,7 @@ To better carry such device specific commands through the Windows storage stack,
 
 ### Supporting the Command Effects Log
 
-The Command Effects Log (as described in Commands Supported and Effects, section 5.10.1.5 of [NVMe Specification 1.2](http://nvmexpress.org/specifications)) allows the description of the effects of vendor-specific commands together with specification-defined commands. This facilitates both command support validation as well as command behavior optimization, and therefore should be implemented for the entire set of commands that the device supports. The following conditions describe the result on how the command is sent based on its Command Effects Log entry.
+The Command Effects Log (as described in Commands Supported and Effects, section 5.10.1.5 of [NVMe Specification 1.2](https://nvmexpress.org/specifications)) allows the description of the effects of vendor-specific commands together with specification-defined commands. This facilitates both command support validation as well as command behavior optimization, and therefore should be implemented for the entire set of commands that the device supports. The following conditions describe the result on how the command is sent based on its Command Effects Log entry.
 
 For any specific command described in the Command Effects Log...
 

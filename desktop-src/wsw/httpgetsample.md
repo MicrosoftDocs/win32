@@ -83,30 +83,30 @@ static const WCHAR ExpectedShipDate [] = L"1/1/2006";
 static const WCHAR OrderStatusString [] = L"Pending";
 
 static WS_XML_STRING serviceName = WS_XML_STRING_VALUE("PurchaseOrderService");
-static WS_XML_STRING serviceNamespace = WS_XML_STRING_VALUE("http://example.org");
+static WS_XML_STRING serviceNamespace = WS_XML_STRING_VALUE("https://example.org");
 
 static WS_XML_STRING portName = WS_XML_STRING_VALUE("IPurchaseOrder");
 static WS_XML_STRING bindingName = WS_XML_STRING_VALUE("PurchaseOrderBinding");
-static WS_XML_STRING bindingNs = WS_XML_STRING_VALUE("http://example.org");
+static WS_XML_STRING bindingNs = WS_XML_STRING_VALUE("https://example.org");
 
 // The WSDL document used by this example
 const static WS_XML_STRING wsdl = WS_XML_STRING_VALUE(
 "<wsdl:definitions "
-"    xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/' "
-"    xmlns:wsu='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd' "
-"    xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' "
-"    xmlns:tns='http://example.org' xmlns:wsa='http://schemas.xmlsoap.org/ws/2004/08/addressing' "
-"    xmlns:wsp='http://schemas.xmlsoap.org/ws/2004/09/policy' "
-"    xmlns:wsap='http://schemas.xmlsoap.org/ws/2004/08/addressing/policy' "
-"    xmlns:xsd='http://www.w3.org/2001/XMLSchema' "
-"    xmlns:msc='http://schemas.microsoft.com/ws/2005/12/wsdl/contract' "
-"    xmlns:wsaw='http://www.w3.org/2006/05/addressing/wsdl' "
-"    xmlns:soap12='http://schemas.xmlsoap.org/wsdl/soap12/' xmlns:wsa10='http://www.w3.org/2005/08/addressing' "
-"    xmlns:wsx='http://schemas.xmlsoap.org/ws/2004/09/mex' xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/' "
-"    targetNamespace='http://example.org'>"
+"    xmlns:soap='https://schemas.xmlsoap.org/wsdl/soap/' "
+"    xmlns:wsu='https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd' "
+"    xmlns:soapenc='https://schemas.xmlsoap.org/soap/encoding/' "
+"    xmlns:tns='https://example.org' xmlns:wsa='https://schemas.xmlsoap.org/ws/2004/08/addressing' "
+"    xmlns:wsp='https://schemas.xmlsoap.org/ws/2004/09/policy' "
+"    xmlns:wsap='https://schemas.xmlsoap.org/ws/2004/08/addressing/policy' "
+"    xmlns:xsd='https://www.w3.org/2001/XMLSchema' "
+"    xmlns:msc='https://schemas.microsoft.com/ws/2005/12/wsdl/contract' "
+"    xmlns:wsaw='https://www.w3.org/2006/05/addressing/wsdl' "
+"    xmlns:soap12='https://schemas.xmlsoap.org/wsdl/soap12/' xmlns:wsa10='https://www.w3.org/2005/08/addressing' "
+"    xmlns:wsx='https://schemas.xmlsoap.org/ws/2004/09/mex' xmlns:wsdl='https://schemas.xmlsoap.org/wsdl/' "
+"    targetNamespace='https://example.org'>"
 "  <wsdl:types>"
-"    <xsd:schema targetNamespace='http://example.org/Imports'>"
-"      <xsd:import namespace='http://example.org' schemaLocation='xsd'/>"
+"    <xsd:schema targetNamespace='https://example.org/Imports'>"
+"      <xsd:import namespace='https://example.org' schemaLocation='xsd'/>"
 "    </xsd:schema>"
 "  </wsdl:types>"
 "  <wsdl:message name='PurchaseOrder'>"
@@ -123,18 +123,18 @@ const static WS_XML_STRING wsdl = WS_XML_STRING_VALUE(
 "  </wsdl:message>"
 "  <wsdl:portType name='IPurchaseOrder'>"
 "    <wsdl:operation name='Order'>"
-"       <wsdl:input message='tns:PurchaseOrder' wsaw:Action='http://example.org/purchaseorder'/>"
-"       <wsdl:output message='tns:OrderConfirmation' wsaw:Action='http://example.org/orderconfirmation'/>"
+"       <wsdl:input message='tns:PurchaseOrder' wsaw:Action='https://example.org/purchaseorder'/>"
+"       <wsdl:output message='tns:OrderConfirmation' wsaw:Action='https://example.org/orderconfirmation'/>"
 "    </wsdl:operation>"
 "    <wsdl:operation name='OrderStatus'>"
-"       <wsdl:input message='tns:GetOrderStatus' wsaw:Action='http://example.org/getorderstatus'/>"
-"       <wsdl:output message='tns:GetOrderStatusResponse' wsaw:Action='http://example.org/getorderstatusresponse'/>"
+"       <wsdl:input message='tns:GetOrderStatus' wsaw:Action='https://example.org/getorderstatus'/>"
+"       <wsdl:output message='tns:GetOrderStatusResponse' wsaw:Action='https://example.org/getorderstatusresponse'/>"
 "     </wsdl:operation>"
 "  </wsdl:portType>"
 " <wsdl:binding name='PurchaseOrderBinding' type='tns:IPurchaseOrder'>"
-"  <soap12:binding transport='http://schemas.xmlsoap.org/soap/http' />"
+"  <soap12:binding transport='https://schemas.xmlsoap.org/soap/http' />"
 "       <wsdl:operation name='Order'>"
-"           <soap12:operation soapAction='http://example.org/purchaseorder' style='document'/>"
+"           <soap12:operation soapAction='https://example.org/purchaseorder' style='document'/>"
 "           <wsdl:input>"
 "               <soap12:body use='literal'/>"
 "           </wsdl:input>"
@@ -143,7 +143,7 @@ const static WS_XML_STRING wsdl = WS_XML_STRING_VALUE(
 "           </wsdl:output>"
 "       </wsdl:operation>"
 "       <wsdl:operation name='OrderStatus'>"
-"           <soap12:operation soapAction='http://example.org/getorderstatus' style='document'/>"
+"           <soap12:operation soapAction='https://example.org/getorderstatus' style='document'/>"
 "           <wsdl:input>"
 "               <soap12:body use='literal'/>"
 "           </wsdl:input>"
@@ -156,10 +156,10 @@ const static WS_XML_STRING wsdl = WS_XML_STRING_VALUE(
 );
 
 static const WS_XML_STRING xsd = WS_XML_STRING_VALUE(
-"<xsd:schema xmlns:tns='http://example.org'"
+"<xsd:schema xmlns:tns='https://example.org'"
 "elementFormDefault='qualified' "
-"targetNamespace='http://example.org' "
-"xmlns:xsd='http://www.w3.org/2001/XMLSchema'>"
+"targetNamespace='https://example.org' "
+"xmlns:xsd='https://www.w3.org/2001/XMLSchema'>"
 "<xsd:element name='PurchaseOrderType'>"
 "<xsd:complexType>"
 "<xsd:sequence>"
@@ -253,10 +253,10 @@ static const BYTE replyBodyBytes[] =
 "</p>"
 "<h3>Metadata</h3>"
 "<p>"
-"Metadata for this service can be fetched using WS-MetadataExchange v1.1 by using the address, http://localhost/example"
+"Metadata for this service can be fetched using WS-MetadataExchange v1.1 by using the address, https://localhost/example"
 "</p>"
 "<p>"
-"Alternatively you can fetch the WSDL document directly using the address, http://localhost/metadata/wsdl"
+"Alternatively you can fetch the WSDL document directly using the address, https://localhost/metadata/wsdl"
 "</p>"
 "</body>"
 "</html>"
@@ -684,7 +684,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpointPropertiesTypedContract[2].value = &metadataExchangeTypeMex;
     serviceEndpointPropertiesTypedContract[2].valueSize = sizeof(metadataExchangeTypeMex);
     
-    typedHttpEndpoint.address.url.chars = L"http://+:80/example"; // address given as uri
+    typedHttpEndpoint.address.url.chars = L"https://+:80/example"; // address given as uri
     typedHttpEndpoint.address.url.length = (ULONG)wcslen(typedHttpEndpoint.address.url.chars);
     typedHttpEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     typedHttpEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
@@ -700,7 +700,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     serviceEndpointPropertiesMetadata[1].value = &closeCallbackProperty;
     serviceEndpointPropertiesMetadata[1].valueSize = sizeof(closeCallbackProperty);
     
-    unTypedHttpEndpoint.address.url.chars = L"http://+:80/metadata"; // address given as uri
+    unTypedHttpEndpoint.address.url.chars = L"https://+:80/metadata"; // address given as uri
     unTypedHttpEndpoint.address.url.length = (ULONG)wcslen(unTypedHttpEndpoint.address.url.chars);
     unTypedHttpEndpoint.channelBinding = WS_HTTP_CHANNEL_BINDING; // channel binding for the endpoint
     unTypedHttpEndpoint.channelType = WS_CHANNEL_TYPE_REPLY; // the channel type
@@ -804,15 +804,15 @@ Exit:
 
 ``` syntax
 <wsdl:definitions 
-    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
-    xmlns:tns="http://example.org" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-    xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" 
-    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
-    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
-    targetNamespace="http://example.org">
+    xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:tns="https://example.org" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" 
+    xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" 
+    xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/" 
+    targetNamespace="https://example.org">
     <wsdl:types>
-        <xsd:schema targetNamespace="http://example.org" elementFormDefault="qualified">
+        <xsd:schema targetNamespace="https://example.org" elementFormDefault="qualified">
             <xsd:element name="PurchaseOrderType">
                 <xsd:complexType>
                     <xsd:sequence>
@@ -870,19 +870,19 @@ Exit:
     </wsdl:message>
     <wsdl:portType name="IPurchaseOrder">
         <wsdl:operation name="Order">
-            <wsdl:input message="tns:PurchaseOrder" wsaw:Action="http://example.org/purchaseorder"/>
-            <wsdl:output message="tns:OrderConfirmation" wsaw:Action="http://example.org/orderconfirmation"/>
+            <wsdl:input message="tns:PurchaseOrder" wsaw:Action="https://example.org/purchaseorder"/>
+            <wsdl:output message="tns:OrderConfirmation" wsaw:Action="https://example.org/orderconfirmation"/>
         </wsdl:operation>
         <wsdl:operation name="OrderStatus">
-            <wsdl:input message="tns:GetOrderStatus" wsaw:Action="http://example.org/getorderstatus"/>
-            <wsdl:output message="tns:GetOrderStatusResponse" wsaw:Action="http://example.org/getorderstatusresponse"/>
-            <wsdl:fault name="OrderNotFound" message="tns:OrderNotFoundFault" wsaw:Action="http://example.org/ordernotfound"/>
+            <wsdl:input message="tns:GetOrderStatus" wsaw:Action="https://example.org/getorderstatus"/>
+            <wsdl:output message="tns:GetOrderStatusResponse" wsaw:Action="https://example.org/getorderstatusresponse"/>
+            <wsdl:fault name="OrderNotFound" message="tns:OrderNotFoundFault" wsaw:Action="https://example.org/ordernotfound"/>
         </wsdl:operation>
     </wsdl:portType>
     <wsdl:binding name="PurchaseOrderBinding" type="tns:IPurchaseOrder">
-        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <soap:binding transport="https://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="Order">
-            <soap:operation soapAction="http://example.org/purchaseorder" style="document"/>
+            <soap:operation soapAction="https://example.org/purchaseorder" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -891,7 +891,7 @@ Exit:
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="OrderStatus">
-            <soap:operation soapAction="http://example.org/getorderstatus" style="document"/>
+            <soap:operation soapAction="https://example.org/getorderstatus" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -905,7 +905,7 @@ Exit:
     </wsdl:binding>
     <wsdl:service name="PurchaseOrderService">
         <wsdl:port name="IPurchaseOrder" binding="tns:PurchaseOrderBinding">
-            <soap:address location="http://example.org/IPurchaseOrder"/>
+            <soap:address location="https://example.org/IPurchaseOrder"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>

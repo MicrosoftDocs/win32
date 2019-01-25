@@ -31,7 +31,7 @@ The security descriptor definition language (SDDL) defines the string format tha
 [SID Strings](sid-strings.md)
 </dt> <dt>
 
-[\[MS-DTYP\]: Security Descriptor Description Language](http://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
+[\[MS-DTYP\]: Security Descriptor Description Language](https://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
 </dt> </dl>
 
  

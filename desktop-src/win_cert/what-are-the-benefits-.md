@@ -29,13 +29,13 @@ When you certify your Windows 8.1 or Windows 8 desktop apps, you are eligible to
 [Verify that your apps are compatible with Windows.](https://msdn.microsoft.com/library/windows/desktop/hh848074)
 </dt> <dt>
 
-[Get the Windows SDK (includes the Windows App Certification Kit) and other downloads.](http://go.microsoft.com/fwlink/p/?LinkId=708294)
+[Get the Windows SDK (includes the Windows App Certification Kit) and other downloads.](https://go.microsoft.com/fwlink/p/?LinkId=708294)
 </dt> <dt>
 
 [Get details for using the Windows logo with your desktop app.](https://msdn.microsoft.com/library/windows/hardware/dn641154)
 </dt> <dt>
 
-[Get help with developing desktop apps.](http://go.microsoft.com/fwlink/p/?LinkId=708296)
+[Get help with developing desktop apps.](https://go.microsoft.com/fwlink/p/?LinkId=708296)
 </dt> </dl>
 
  

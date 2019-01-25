@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Server Message Block (SMB) Protocol is a network file sharing protocol, and as implemented in Microsoft Windows is known as Microsoft SMB Protocol. The set of message packets that defines a particular version of the protocol is called a dialect. The Common Internet File System (CIFS) Protocol is a dialect of SMB. Both SMB and CIFS are also available on VMS, several versions of Unix, and other operating systems.
 
-The technical reference to CIFS is available from Microsoft Corporation at [Common Internet File System (CIFS) File Access Protocol](Http://go.microsoft.com/fwlink/p/?linkid=84095).
+The technical reference to CIFS is available from Microsoft Corporation at [Common Internet File System (CIFS) File Access Protocol](https://go.microsoft.com/fwlink/p/?linkid=84095).
 
 Although its main purpose is file sharing, additional Microsoft SMB Protocol functionality includes the following:
 

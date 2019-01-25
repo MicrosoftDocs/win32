@@ -787,7 +787,7 @@ Retrieves an unsigned long integer value that contains the type of the [**HINTER
 
 
 
-Gets/sets a BOOL indicating whether WinInet should follow HTTP Strict Transport Security (HSTS) directives from servers. If enabled, http:// schemed requests to domains which have an HSTS policy cached by WinInet will be redirected to matching https:// URLs. The default is FALSE. Supported in Windows 8.1 and later.
+Gets/sets a BOOL indicating whether WinInet should follow HTTP Strict Transport Security (HSTS) directives from servers. If enabled, https:// schemed requests to domains which have an HSTS policy cached by WinInet will be redirected to matching https:// URLs. The default is FALSE. Supported in Windows 8.1 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -1045,7 +1045,7 @@ Sets or retrieves an [**INTERNET\_PER\_CONN\_OPTION\_LIST**](/windows/desktop/ap
 
  
 
-For more information and code examples, see [KB article 226473](Http://go.microsoft.com/fwlink/p/?linkid=84538).
+For more information and code examples, see [KB article 226473](https://go.microsoft.com/fwlink/p/?linkid=84538).
 
 
 </dt> </dl> </dd> <dt>
@@ -1074,7 +1074,7 @@ Not implemented.
 Sets or retrieves an [**INTERNET\_PROXY\_INFO**](/windows/desktop/api/Wininet/ns-wininet-internet_proxy_info) structure that contains the proxy data for an existing [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) handle when the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is not **NULL**. If the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is **NULL**, the function sets or queries the global proxy data. This option can be used on the handle returned by **InternetOpen**. It is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
 
 > [!Note]  
-> It is recommended that INTERNET\_OPTION\_PER\_CONNECTION\_OPTION be used instead of INTERNET\_OPTION\_PROXY. For more information, see [KB article 226473](Http://go.microsoft.com/fwlink/p/?linkid=84538).
+> It is recommended that INTERNET\_OPTION\_PER\_CONNECTION\_OPTION be used instead of INTERNET\_OPTION\_PROXY. For more information, see [KB article 226473](https://go.microsoft.com/fwlink/p/?linkid=84538).
 
  
 
@@ -1603,7 +1603,7 @@ When used in reference to an FTP transaction, this option refers to the control 
 
 
 
-Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910). You must call [**CertFreeCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376073) on the returned [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910) when you are done with the certificate-chain context.
+Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910). You must call [**CertFreeCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376073) on the returned [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910) when you are done with the certificate-chain context.
 
 **Version:** Requires Internet Explorer 8.0.
 

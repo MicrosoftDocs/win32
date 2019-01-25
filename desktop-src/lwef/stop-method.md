@@ -47,7 +47,7 @@ To stop a specific animation or [**Get**](get-method.md) call, declare an object
    Dim MyRequest
    Dim Genie
 
-   Agent1.Characters.Load "Genie", "http://agent.microsoft.com/characters/v2/genie/genie.acf"
+   Agent1.Characters.Load "Genie", "https://agent.microsoft.com/characters/v2/genie/genie.acf"
 
    Set Genie = Agent1.Characters ("Genie")
 

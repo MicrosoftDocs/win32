@@ -95,7 +95,7 @@ where Light?, Light<sub>y</sub>, and Light<sub>z</sub> are the input light posit
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D lighting effects sample](http://go.microsoft.com/fwlink/p/?linkid=254010).
+For an example of this effect, download the [Direct2D lighting effects sample](https://go.microsoft.com/fwlink/p/?linkid=254010).
 
 ## Requirements
 

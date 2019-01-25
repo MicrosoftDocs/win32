@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 One of the constructors for the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class receives a device context handle and a printer handle. When you send Windows GDI+ commands to certain PostScript printers, the performance will be better if you create your **Graphics** object with that particular constructor.
 
-The following console application calls [GetDefaultPrinter](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) to get the name of the default printer. The code passes the printer name to [CreateDC](http://msdn.microsoft.com/library/en-us/gdi/devcons_5g83.asp) to obtain a device context handle for the printer. The code also passes the printer name to [OpenPrinter](http://msdn.microsoft.com/library/en-us/gdi/prntspol_9qnm.asp) to obtain a printer handle. Both the device context handle and the printer handle are passed to the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. Then two figures are drawn on the printer.
+The following console application calls [GetDefaultPrinter](https://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) to get the name of the default printer. The code passes the printer name to [CreateDC](https://msdn.microsoft.com/library/en-us/gdi/devcons_5g83.asp) to obtain a device context handle for the printer. The code also passes the printer name to [OpenPrinter](https://msdn.microsoft.com/library/en-us/gdi/prntspol_9qnm.asp) to obtain a printer handle. Both the device context handle and the printer handle are passed to the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. Then two figures are drawn on the printer.
 
 > [!Note]  
-> The [GetDefaultPrinter](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) function is supported only on Windows 2000 and later.
+> The [GetDefaultPrinter](https://msdn.microsoft.com/library/en-us/gdi/prntspol_0hma.asp) function is supported only on Windows 2000 and later.
 
  
 

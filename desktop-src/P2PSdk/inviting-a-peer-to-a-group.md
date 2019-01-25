@@ -18,7 +18,7 @@ A peer group is created when an application makes a call to [**PeerGroupCreate**
 
 To participate in a peer group, each peer must have a peer identity. Call [**PeerEnumIdentities**](/windows/desktop/api/P2P/nf-p2p-peerenumidentities) until all peer identities defined for the peer have been returned, and select the one that should be used. If a peer identity does not exist, create one by calling [**PeerIdentityCreate**](/windows/desktop/api/P2P/nf-p2p-peeridentitycreate).
 
-Each peer identity is associated with a specific set of credentials that can be used to prove peer group membership when connecting, as well as when publishing records or inviting additional members. These credentials are represented as chains of [X.509 certificates](Http://go.microsoft.com/fwlink/p/?linkid=84413) called Group Membership Certificates (GMC).
+Each peer identity is associated with a specific set of credentials that can be used to prove peer group membership when connecting, as well as when publishing records or inviting additional members. These credentials are represented as chains of [X.509 certificates](https://go.microsoft.com/fwlink/p/?linkid=84413) called Group Membership Certificates (GMC).
 
 To create the GMC for a peer identity, you must first obtain its public key. This key is obtained by calling [**PeerIdentityGetXML**](/windows/desktop/api/P2P/nf-p2p-peeridentitygetxml) on the potential invitee and passing in its peer identity. This function returns a base-64 encoded certificate (IDC) that contains the RSA public key used to create the GMC for the peer identity (among other things), encapsulated in an XML blob, in the following format:
 

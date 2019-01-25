@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Parameter Initializers
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 For a summary of the ParameterInit element type, please refer to [ParameterInit](parameterinit.md) section.
 
@@ -20,7 +20,7 @@ For more information on the interaction between ParameterDef elements and Parame
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

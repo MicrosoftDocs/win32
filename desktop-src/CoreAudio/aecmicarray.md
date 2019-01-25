@@ -34,7 +34,7 @@ This sample demonstrates the following features.
 
 | Product                                                        | Version                     |
 |----------------------------------------------------------------|-----------------------------|
-| [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows Vista or later      |
+| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows Vista or later      |
 | Visual Studio                                                  | 2005 (non-express editions) |
 
 

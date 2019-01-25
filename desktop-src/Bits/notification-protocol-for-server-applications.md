@@ -44,9 +44,9 @@ The following table shows the response headers.
 The following request shows BITS sending the location of the upload file to the server application.
 
 ``` syntax
-POST http://myserver/myvdir/handle_upload.asp?ACCOUNT=873112 HTTP/1.1
+POST https://myserver/myvdir/handle_upload.asp?ACCOUNT=873112 HTTP/1.1
 Host: myserver
-BITS-Original-Request-URL: http://front-end-server/vdir
+BITS-Original-Request-URL: https://front-end-server/vdir
 BITS-Request-DataFile-Name: c:\physical-path\BITS-Sessions\{5e53c221-f2d6-4bf2-
 b994-1dc43ceaca8d}\request
 BITS-Response-DataFile-Name: c:\physical-path\BITS-Sessions\{5e53c221-f2d6-4bf2-
@@ -91,9 +91,9 @@ The following table shows the response headers.
 The following request shows BITS passing the uploaded file to the server application in the body of the request.
 
 ``` syntax
-POST http://myserver/myvdir/handle_upload.asp?ACCOUNT=873112 HTTP/1.1
+POST https://myserver/myvdir/handle_upload.asp?ACCOUNT=873112 HTTP/1.1
 Host: myserver
-BITS-Original-Request-URL: http://front-end-server/vdir
+BITS-Original-Request-URL: https://front-end-server/vdir
 Content-Length: 80000
 
 80000 bytes of upload data goes here

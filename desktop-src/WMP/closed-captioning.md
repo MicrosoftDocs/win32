@@ -49,7 +49,7 @@ Player.closedCaption.captioningID = "CCDiv";
 
 
 
-The Windows Media Player Software Development Kit (SDK) contains a working sample of an embedded Player that displays closed caption text. To get the SDK samples, download and install the complete Windows Media Player SDK from the Microsoft Web Site. For more information about closed captions and SAMI, see the [Microsoft Accessibility website](http://go.microsoft.com/?linkid=9742683).
+The Windows Media Player Software Development Kit (SDK) contains a working sample of an embedded Player that displays closed caption text. To get the SDK samples, download and install the complete Windows Media Player SDK from the Microsoft Web Site. For more information about closed captions and SAMI, see the [Microsoft Accessibility website](https://go.microsoft.com/?linkid=9742683).
 
 ## Related topics
 

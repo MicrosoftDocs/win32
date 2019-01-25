@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using WIA Enumerators
 
-WIA provides several interfaces for enumerating various capabilities, properties, and information. The Windows Image Acquisition (WIA) enumeration interfaces are all specific implementations of the standard Component Object Model (COM) enumeration interface. For details, see [IEnumXXXX](http://msdn.microsoft.com/en-us/library/ms680089(VS.85).aspx).
+WIA provides several interfaces for enumerating various capabilities, properties, and information. The Windows Image Acquisition (WIA) enumeration interfaces are all specific implementations of the standard Component Object Model (COM) enumeration interface. For details, see [IEnumXXXX](https://msdn.microsoft.com/en-us/library/ms680089(VS.85).aspx).
 
 The following table provides information about the WIA enumeration interfaces. 
 

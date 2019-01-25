@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FocalLength Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FocalLength](http://msdn.microsoft.com/en-us/library/bb760462(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FocalLength](https://msdn.microsoft.com/en-us/library/bb760462(VS.85).aspx) property.
 
 ### PKEY
 
@@ -118,7 +118,7 @@ This value is generated from System.Photo.FocalLengthNumerator and System.Photo.
 
 <dl> <dt>
 
-[System.Photo.FocalLength](http://msdn.microsoft.com/en-us/library/bb760462(VS.85).aspx)
+[System.Photo.FocalLength](https://msdn.microsoft.com/en-us/library/bb760462(VS.85).aspx)
 </dt> </dl>
 
  

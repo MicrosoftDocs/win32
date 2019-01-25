@@ -27,7 +27,7 @@ As with any other file, the system can write data to or read data from any posit
 
  
 
-Defragmentation tools that handle compressed files on NTFS file systems will correctly handle sparse files on NTFS file system volumes. Large and highly fragmented sparse files can exceed the NTFS limitation on disk extents before available space is used. For more information, see [Extending a File may fail with "Disk Full" Error even though Volume has Free Space](Http://go.microsoft.com/fwlink/p/?linkid=128908).
+Defragmentation tools that handle compressed files on NTFS file systems will correctly handle sparse files on NTFS file system volumes. Large and highly fragmented sparse files can exceed the NTFS limitation on disk extents before available space is used. For more information, see [Extending a File may fail with "Disk Full" Error even though Volume has Free Space](https://go.microsoft.com/fwlink/p/?linkid=128908).
 
  
 

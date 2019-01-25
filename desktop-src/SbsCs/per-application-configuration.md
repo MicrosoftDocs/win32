@@ -17,7 +17,7 @@ Starting with Windows Server 2003, per-application configuration always overrid
 
  
 
-Starting with Windows Server 2003, a per-application configuration will override a [publisher configuration](publisher-configuration.md) if the [application configuration file](application-configuration-files.md) specifies *apply="yes"* in **publisherPolicy** and the EnableAppConfig flag is set for the application in the Application Compatibility database. This capability to override a publisher configuration using a per-application configuration enables the application to be run in Safemode. For more information about the Application Compatibility database and Safemode, see the Windows Application Compatibility Toolkit. You can obtain the Windows Application Compatibility Toolkit from [http://www.microsoft.com/downloads](Http://go.microsoft.com/fwlink/p/?linkid=83468).
+Starting with Windows Server 2003, a per-application configuration will override a [publisher configuration](publisher-configuration.md) if the [application configuration file](application-configuration-files.md) specifies *apply="yes"* in **publisherPolicy** and the EnableAppConfig flag is set for the application in the Application Compatibility database. This capability to override a publisher configuration using a per-application configuration enables the application to be run in Safemode. For more information about the Application Compatibility database and Safemode, see the Windows Application Compatibility Toolkit. You can obtain the Windows Application Compatibility Toolkit from [https://www.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=83468).
 
 > [!Note]  
 > If you ship components with an [application configuration file](application-configuration-files.md) (.config file) that specifies *apply="no"* in **publisherPolicy**, this will cause the generation of the activation context to fail. The per-application configuration will be ignored if you ship components with a .config file specifying *apply="yes"* in **publisherPolicy**.
@@ -49,7 +49,7 @@ The following is an example of an application configuration file. For more infor
 </configuration>
 ```
 
-The application administrator should add the required entries to the Application Compatibility database. Download and install the Windows Application Compatibility Toolkit 2.6 from [http://www.microsoft.com/downloads](Http://go.microsoft.com/fwlink/p/?linkid=83468). Create a new custom or update your existing database using the Compatibility Administrator as outlined in the toolkit. The Compatibility Fix you want to choose for the compatibility layer for your application is EnableAppConfig. You must always test applications before installing a new compatibility database.
+The application administrator should add the required entries to the Application Compatibility database. Download and install the Windows Application Compatibility Toolkit 2.6 from [https://www.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=83468). Create a new custom or update your existing database using the Compatibility Administrator as outlined in the toolkit. The Compatibility Fix you want to choose for the compatibility layer for your application is EnableAppConfig. You must always test applications before installing a new compatibility database.
 
  
 

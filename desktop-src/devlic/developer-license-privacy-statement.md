@@ -16,7 +16,7 @@ The developer licensing service issues a developer license for your PC, which al
 
 ### Collection and Use of Your Information
 
-To obtain a developer license, you must sign in to the developer licensing web service with a Microsoft account. This gives the service access to the contact information in your Microsoft account profile, such as your name and email address. You can also use your Microsoft account to sign in to many different Microsoft sites and services, as well as those of select Microsoft partners. By signing in to one Microsoft site or service, you may be automatically signed in when you visit other Microsoft sites and services. To learn more about how your credential information is used when you sign in to participating sites, please read the privacy statement at <http://go.microsoft.com/fwlink/p/?linkid=260845>.
+To obtain a developer license, you must sign in to the developer licensing web service with a Microsoft account. This gives the service access to the contact information in your Microsoft account profile, such as your name and email address. You can also use your Microsoft account to sign in to many different Microsoft sites and services, as well as those of select Microsoft partners. By signing in to one Microsoft site or service, you may be automatically signed in when you visit other Microsoft sites and services. To learn more about how your credential information is used when you sign in to participating sites, please read the privacy statement at <https://go.microsoft.com/fwlink/p/?linkid=260845>.
 
 When you request a developer license, Microsoft collects information about your PC and the apps installed on it. This information includes your PC’s name, manufacturer, and model; your IP address; a unique identifier generated based on your PC’s hardware configuration; and the edition of Windows you’re using. If there’s already a developer license installed on your PC (for example, if you’re renewing a developer license that has expired), Windows will also send the app name and information about the publisher for any app on your PC that was installed using that developer license.
 
@@ -46,7 +46,7 @@ We will occasionally update this privacy statement to reflect changes in our pro
 
 ### For More Information
 
-Microsoft welcomes your comments regarding this privacy statement. If you have questions about this statement or believe that we have not adhered to it, please contact us at <http://go.microsoft.com/fwlink/p/?linkid=227290>.
+Microsoft welcomes your comments regarding this privacy statement. If you have questions about this statement or believe that we have not adhered to it, please contact us at <https://go.microsoft.com/fwlink/p/?linkid=227290>.
 
 Microsoft Privacy
 

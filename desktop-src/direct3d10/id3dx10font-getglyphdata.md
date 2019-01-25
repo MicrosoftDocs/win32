@@ -61,7 +61,7 @@ Address of a pointer to a ID3D10Texture object that contains the glyph.
 
 Type: **[**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)\***
 
-Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](http://msdn2.microsoft.com/en-us/library/ms536136.aspx).
+Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](https://msdn2.microsoft.com/en-us/library/ms536136.aspx).
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ Pointer to the smallest rectangle object that completely encloses the glyph. See
 
 Type: **POINT\***
 
-Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [POINT](http://msdn2.microsoft.com/en-us/library/ms536119.aspx).
+Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [POINT](https://msdn2.microsoft.com/en-us/library/ms536119.aspx).
 
 </dd> </dl>
 

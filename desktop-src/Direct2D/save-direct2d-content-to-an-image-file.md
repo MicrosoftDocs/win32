@@ -220,7 +220,7 @@ Now you have a file containing the [Direct2D](https://msdn.microsoft.com/en-us/l
 
 ## Complete example
 
-Here the full code for this example. You can find a modified version of this code in the [SaveAsImageFile SDK sample](http://go.microsoft.com/fwlink/p/?linkid=231589).
+Here the full code for this example. You can find a modified version of this code in the [SaveAsImageFile SDK sample](https://go.microsoft.com/fwlink/p/?linkid=231589).
 
 
 ```C++

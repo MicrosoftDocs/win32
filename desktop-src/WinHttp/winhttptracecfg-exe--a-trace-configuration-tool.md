@@ -19,7 +19,7 @@ This trace facility can be a valuable tool for debugging. It can be used, for ex
 
 WinHTTP obtains tracing control parameters from the registry. These control parameters affect how WinHTTP produces trace output, and how that output is formatted. All applications that use WinHTTP share the same settings.
 
-A trace facility configuration tool, WinHttpTraceCfg.exe, is available as a download on the [Windows Server 2003 Resource Kit Tools](Http://go.microsoft.com/fwlink/p/?linkid=84566) website. The configuration tool sets or retrieves the trace facility registry settings based on the specified command line parameters.
+A trace facility configuration tool, WinHttpTraceCfg.exe, is available as a download on the [Windows Server 2003 Resource Kit Tools](https://go.microsoft.com/fwlink/p/?linkid=84566) website. The configuration tool sets or retrieves the trace facility registry settings based on the specified command line parameters.
 
 ``` syntax
 WinHttpTraceCfg [-e <0|1>] [-l [log-file]] [-d <0|1>] [-s <0|1|2>] 

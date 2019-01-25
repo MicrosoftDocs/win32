@@ -24,7 +24,7 @@ If you would like your online digital media store to be integrated with Windows 
 
 ## For More Information
 
-For technical guidance on using a variety of Windows Media SDKs to create a service that offers licensed digital media content, go to the [Microsoft Windows Media Developer Center](http://go.microsoft.com/fwlink/p/?linkid=62179) and search for "Creating a Windows Media Player 10 Subscription Online Store".
+For technical guidance on using a variety of Windows Media SDKs to create a service that offers licensed digital media content, go to the [Microsoft Windows Media Developer Center](https://go.microsoft.com/fwlink/p/?linkid=62179) and search for "Creating a Windows Media Player 10 Subscription Online Store".
 
 ## Online Stores in Windows Media Player 9 Series
 

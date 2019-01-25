@@ -133,7 +133,7 @@ The GECOS field is an optional field that is used to store various pieces of inf
 
 <dl> <dt>
 
-[RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
+[RFC 2307](https://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
  

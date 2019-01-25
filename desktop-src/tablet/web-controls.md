@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Web Controls
 
-One way to create ink-enabled Web applications is to put Windows Forms controls inside awebpagewithin Microsoft Internet Explorer. A good tutorial on this technique can be found at [Using Windows Forms Controls in Internet Explorer](http://windowsclient.net/articles/iesourcing.aspx). The basic steps in the tutorial are:
+One way to create ink-enabled Web applications is to put Windows Forms controls inside awebpagewithin Microsoft Internet Explorer. A good tutorial on this technique can be found at [Using Windows Forms Controls in Internet Explorer](https://windowsclient.net/articles/iesourcing.aspx). The basic steps in the tutorial are:
 
 1.  Create a control that inherits from [**System.Windows.Forms.UserControl**](https://msdn.microsoft.com/library/97855yck(v=VS.100).aspx).
 2.  Create an HTML page with an object tag that refers to that UserControl.

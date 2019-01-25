@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Developing IFilter Add-ins
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 You can extend Microsoft Windows Desktop Search (WDS) with filter add-ins, components that implement the [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface, to include new file types. Filters are responsible for accessing and parsing data in files and for returning pairs of properties and values as well as chunks of text for indexing. During the indexing process, WDS calls the appropriate filter with the URL for each file or item. The filter first extracts metadata that corresponds to properties that are marked retrievable in the WDS schema, such as title, file size, and last modified date. Then it breaks the item content into chunks of text. WDS adds the properties and text returned by the filter to the catalog. WDS can index any file type for which it has a registered filter.
 
@@ -35,9 +35,9 @@ This section contains the following topics:
 
 A filter add-in must implement the [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface and one of the following interfaces:
 
--   [IPersistStream](http://msdn.microsoft.com/library/ms690091(VS.85).aspx) - To load data from a stream. This is more secure than using files because nothing is written to disk. The IPersistStream interface is the preferred method for forward compatibility with Windows Vista.
--   [IPersistFile Interface](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) - To load data from a file. This interface is not supported in Windows Vista.
--   [IPersistStorage Interface](http://msdn.microsoft.com/library/ms679731(VS.85).aspx) - To load data from an OLE COM Structured Storage.
+-   [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx) - To load data from a stream. This is more secure than using files because nothing is written to disk. The IPersistStream interface is the preferred method for forward compatibility with Windows Vista.
+-   [IPersistFile Interface](https://msdn.microsoft.com/library/ms687223(VS.85).aspx) - To load data from a file. This interface is not supported in Windows Vista.
+-   [IPersistStorage Interface](https://msdn.microsoft.com/library/ms679731(VS.85).aspx) - To load data from an OLE COM Structured Storage.
 
 A filter add-in uses these interfaces to get the contents of the item and return them iteratively to the index until the end of the file is reached. A filter add-in should be as robust as possible to handle corrupt files and those that do not meet expected input formats.
 
@@ -61,7 +61,7 @@ This is a required interface for a filter implementation. For more information, 
 
 ### IPersistStream
 
-This interface loads a file from a stream for more secure processing than [IPersistFile Interface](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) because the context in which a [IPersistStream](http://msdn.microsoft.com/library/ms690091(VS.85).aspx) filter runs does not need the rights to open any files on the disk or over the network. Of the two methods for accessing a single file, this is the preferred method for forward compatibility with Windows.
+This interface loads a file from a stream for more secure processing than [IPersistFile Interface](https://msdn.microsoft.com/library/ms687223(VS.85).aspx) because the context in which a [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx) filter runs does not need the rights to open any files on the disk or over the network. Of the two methods for accessing a single file, this is the preferred method for forward compatibility with Windows.
 
 
 
@@ -98,7 +98,7 @@ This interface loads a file by absolute path and is not supported in Windows Vi
 
 ### IPersistStorage
 
-This interface supports the structured storage model, in which each contained object has its own storage that is nested within the container's storage. Like [IPersistFile Interface](http://msdn.microsoft.com/library/ms687223(VS.85).aspx), this interface loads by absolute path and is not supported in Windows Vista.
+This interface supports the structured storage model, in which each contained object has its own storage that is nested within the container's storage. Like [IPersistFile Interface](https://msdn.microsoft.com/library/ms687223(VS.85).aspx), this interface loads by absolute path and is not supported in Windows Vista.
 
 
 
@@ -125,7 +125,7 @@ The chunk locale identifier is used to choose an appropriate word breaker, and i
 
 **GetChunk** only manages accessing chunks and does not return the text or property value itself. Rather, subsequent calls to **GetText** and **GetValue** retrieve the body of the chunk. **GetText** returns text chunks, which are Unicode strings, from the current CHUNK\_TEXT chunk. If the current chunk is too large, more than one call to the **GetText** method can be required. Each call to the **GetText** method retrieves text that immediately follows the text from the last call to the **GetText** method. For example, the last character from one call can be in the middle of a word, and the first character in the next call would continue that word. Search engines must handle this situation.
 
-**GetValue** returns property values for the current CHUNK\_VALUE chunk in PROPVARIANT structures, which can hold a wide variety of data types. **GetValue** must allocate the PROPVARIANT structure itself using CoTaskMemAlloc. The caller of **GetValue** is responsible for freeing memory pointed to by the PROPVARIANT using PropVariantClear, and for freeing the structure itself with CoTaskMemFree. For more information on PROPVARIANTs, see the [PROPVARIANT](http://msdn.microsoft.com/library/Aa380072(VS.85).aspx) reference.
+**GetValue** returns property values for the current CHUNK\_VALUE chunk in PROPVARIANT structures, which can hold a wide variety of data types. **GetValue** must allocate the PROPVARIANT structure itself using CoTaskMemAlloc. The caller of **GetValue** is responsible for freeing memory pointed to by the PROPVARIANT using PropVariantClear, and for freeing the structure itself with CoTaskMemFree. For more information on PROPVARIANTs, see the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) reference.
 
 ### Property Values
 

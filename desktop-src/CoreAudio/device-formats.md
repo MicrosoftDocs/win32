@@ -17,7 +17,7 @@ If an application is using a device in exclusive mode, the application must use 
 Many audio devices support both PCM and non-PCM stream formats. However, the audio engine can mix only PCM streams. Thus, only exclusive-mode streams can have non-PCM formats. In addition, only non-PCM formats with fixed data rates are supported in exclusive mode. An example of a fixed-rate non-PCM format is a 48-kHz Windows Media Audio Professional (WMA Pro) audio stream that passes through a Sony/Philips digital interface (S/PDIF) link in digital form without being decoded. For more information about using WMA Pro streams over S/PDIF, see the following documentation:
 
 -   The description of the WAVE\_FORMAT\_WMA\_SPDIF wave-format tag in the Windows DDK documentation.
--   The white paper titled "Audio Driver Support for the WMA Pro-over-S/PDIF Format" at the [Audio Device Technologies for Windows](http://go.microsoft.com/fwlink/p/?linkid=62989) website.
+-   The white paper titled "Audio Driver Support for the WMA Pro-over-S/PDIF Format" at the [Audio Device Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=62989) website.
 
 WASAPI uses a **WAVEFORMATEX** or **WAVEFORMATEXTENSIBLE** structure to specify a stream format. A **WAVEFORMATEXTENSIBLE** structure is effectively a **WAVEFORMATEX** structure that has been extended to describe a greater range of formats. Any format that can be described by a stand-alone **WAVEFORMATEX** structure can also be described by a **WAVEFORMATEXTENSIBLE** structure.
 

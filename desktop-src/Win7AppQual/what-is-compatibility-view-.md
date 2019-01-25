@@ -14,9 +14,9 @@ In Internet Explorer 8, Compatibility View changes how the browser interprets c
 
 In an enterprise environment, some areas have lower risk for compatibility issues. For example, Intranet Zone websites use Compatibility View by default. Client web applications that render by using the Web Browser Control, or the WebOC (Internet Explorer rendering engine), also have a low risk for compatibility issues because Internet Explorer 8 defaults to a compatibility mode for the WebOC. However, the default configuration settings for Compatibility View might not ensure complete compatibility. To determine if a website or web application is compatible with Internet Explorer 8, you should test the website or web application.
 
-For more information about the differences between Internet Explorer 8 Compatibility View and Internet Explorer 7, see the [Site Compatibility and Internet Explorer 8 blog](http://go.microsoft.com/fwlink/p/?linkid=204994). For a list of what to check when you upgrade to Internet Explorer 8, see the [Internet Explorer 8 Readiness Toolkit](http://go.microsoft.com/fwlink/p/?linkid=205204).
+For more information about the differences between Internet Explorer 8 Compatibility View and Internet Explorer 7, see the [Site Compatibility and Internet Explorer 8 blog](https://go.microsoft.com/fwlink/p/?linkid=204994). For a list of what to check when you upgrade to Internet Explorer 8, see the [Internet Explorer 8 Readiness Toolkit](https://go.microsoft.com/fwlink/p/?linkid=205204).
 
-For more information about Compatibility View, see the [Internet Explorer Team Blog](http://go.microsoft.com/fwlink/p/?linkid=204995).
+For more information about Compatibility View, see the [Internet Explorer Team Blog](https://go.microsoft.com/fwlink/p/?linkid=204995).
 
 ## Related topics
 

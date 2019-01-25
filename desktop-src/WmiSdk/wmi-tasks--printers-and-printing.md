@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for printers and printing manage and obtain data about printers, such as finding or setting the default printer. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
+Description: WMI tasks for printers and printing manage and obtain data about printers, such as finding or setting the default printer. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 56aa8043-08cc-42c9-82b0-f1328cd52ff8
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Printers and Printing'
@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Printers and Printing
 
-WMI tasks for printers and printing manage and obtain data about printers, such as finding or setting the default printer. For other examples, see the TechNet ScriptCenter at [http://www.microsoft.com/technet](Http://go.microsoft.com/fwlink/p/?linkid=84103).
+WMI tasks for printers and printing manage and obtain data about printers, such as finding or setting the default printer. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -224,7 +224,7 @@ Next</code></pre></td>
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
  

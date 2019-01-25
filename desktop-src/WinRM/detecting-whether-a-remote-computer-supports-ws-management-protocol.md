@@ -15,14 +15,14 @@ If a WS-Management protocol service is configured on the remote computer and is 
 
 
 ```XML
-xmlns:wsmid="http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity"
+xmlns:wsmid="https://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity"
 ```
 
 
 
 The WS-Management protocol service that receives the request returns the information, contained in the following list, in the body of the message:
 
--   The WS-Management protocol version. For example, "http://schemas.dmtf.org/wbem/wsman/1/wsman".
+-   The WS-Management protocol version. For example, "https://schemas.dmtf.org/wbem/wsman/1/wsman".
 -   The product vendor, for example, "Microsoft Corporation".
 -   The product version. If the request is sent with **WSManFlagUseNoAuthentication** in the *flags* parameter, then no product version information is returned. If the request is sent with either the default authentication in effect or with another authentication mode specified, then the product version information can be returned.
 
@@ -69,13 +69,13 @@ WScript.Echo objSession.Identify
 
 
 
-The following response shows the XML returned by the remote computer. The WS-Management protocol version ("http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd") and the operating system vendor ("Microsoft Corporation") are specified in the returned XML. Because the message is sent unauthenticated, the product version is not returned by the Windows Remote Management service.
+The following response shows the XML returned by the remote computer. The WS-Management protocol version ("https://schemas.dmtf.org/wbem/wsman/1/wsman.xsd") and the operating system vendor ("Microsoft Corporation") are specified in the returned XML. Because the message is sent unauthenticated, the product version is not returned by the Windows Remote Management service.
 
 
 ```XML
 <wsmid:IdentifyResponse xmlns:wsmid=
-    "http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd">
-<wsmid:ProtocolVersion>http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd
+    "https://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd">
+<wsmid:ProtocolVersion>https://schemas.dmtf.org/wbem/wsman/1/wsman.xsd
     </wsmid:ProtocolVersion>
 <wsmid:ProductVendor>Microsoft Corporation</wsmid:ProductVendor>
 <wsmid:ProductVersion>OS: 0.0.0 SP: 0.0 Stack:1.0</wsmid:ProductVersion>
@@ -101,8 +101,8 @@ Because the request was sent with authentication, the version information is ret
 
 ```XML
 <wsmid:IdentifyResponse xmlns:wsmid=
-    "http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd">
-<wsmid:ProtocolVersion>http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd
+    "https://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd">
+<wsmid:ProtocolVersion>https://schemas.dmtf.org/wbem/wsman/1/wsman.xsd
     </wsmid:ProtocolVersion>
 <wsmid:ProductVendor>Microsoft Corporation</wsmid:ProductVendor>
 <wsmid:ProductVersion>OS: 6.0.5384 SP: 0.0 Stack:1.0</wsmid:ProductVersion>

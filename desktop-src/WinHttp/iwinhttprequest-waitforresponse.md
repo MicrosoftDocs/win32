@@ -135,7 +135,7 @@ int main()
     if (SUCCEEDED(hr))
     {    // Open WinHttpRequest.
         BSTR bstrMethod  = SysAllocString(L"GET");
-        BSTR bstrUrl = SysAllocString(L"http://microsoft.com");
+        BSTR bstrUrl = SysAllocString(L"https://microsoft.com");
         hr = pIWinHttpRequest->Open(bstrMethod, bstrUrl, varTrue);
         SysFreeString(bstrMethod);
         SysFreeString(bstrUrl);
@@ -180,7 +180,7 @@ The following scripting example shows how to open an asynchronous HTTP connectio
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 // Initialize an HTTP request.  
-WinHttpReq.Open("GET", "http://www.microsoft.com", true);
+WinHttpReq.Open("GET", "https://www.microsoft.com", true);
 
 // Send the HTTP request.
 WinHttpReq.Send(); 

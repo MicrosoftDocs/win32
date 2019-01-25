@@ -19,7 +19,7 @@ When you receive an error code, you have the following options:
 
 -   Retrieve the error code normally.
 
-    WMI supports the standard techniques to retrieve error codes, which are COM error codes for C++, and native error objects, such as [Err Object (VBScript)](http://go.microsoft.com/fwlink/p/?linkid=125685), or [**SWbemLastError**](swbemlasterror.md) if the provider supplies error information.
+    WMI supports the standard techniques to retrieve error codes, which are COM error codes for C++, and native error objects, such as [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685), or [**SWbemLastError**](swbemlasterror.md) if the provider supplies error information.
 
 For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
@@ -32,10 +32,10 @@ The following sections are discussed in this topic:
 
 If a call to WMI through the Scripting API for WMI causes an error, you have the following options to access the error information:
 
--   Use native error mechanisms of the scripting language, for example, in VBScript use [Err Object (VBScript)](http://go.microsoft.com/fwlink/p/?linkid=125685) to support error handling.
+-   Use native error mechanisms of the scripting language, for example, in VBScript use [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685) to support error handling.
 -   Create an [**SWbemLastError**](swbemlasterror.md) object to get an error report.
 
-The following script shows use of the native [Err Object (VBScript)](http://go.microsoft.com/fwlink/p/?linkid=125685). When an incorrect value for the process handle is given, an error is generated.
+The following script shows use of the native [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685). When an incorrect value for the process handle is given, an error is generated.
 
 
 ```VB
@@ -49,9 +49,9 @@ Wscript.Echo Err.Number
 
 > [!Note]
 >
-> The **Description** property of [Err Object (VBScript)](http://go.microsoft.com/fwlink/p/?linkid=125685) is empty when connecting to WMI through the "winmgmts:" moniker. However, if you connect using [**SWbemLocator**](swbemlocator.md), the description is available.
+> The **Description** property of [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685) is empty when connecting to WMI through the "winmgmts:" moniker. However, if you connect using [**SWbemLocator**](swbemlocator.md), the description is available.
 >
-> The following table lists the properties of [Err Object (VBScript)](http://go.microsoft.com/fwlink/p/?linkid=125685).
+> The following table lists the properties of [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685).
 >
 > 
 >
@@ -88,15 +88,15 @@ A client application must follow the COM standards for checking status and error
 
 **To access synchronous and semisynchronous error messages using C++**
 
-1.  Retrieve the error information with a call to the [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) COM function.
+1.  Retrieve the error information with a call to the [GetErrorInfo]( https://go.microsoft.com/fwlink/p/?linkid=119575) COM function.
 
-    Make sure to call [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult) methods you call while processing a semisynchronous process.
+    Make sure to call [GetErrorInfo]( https://go.microsoft.com/fwlink/p/?linkid=119575) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult) methods you call while processing a semisynchronous process.
 
 2.  Examine the returned COM error object with a call to the [**IErrorInterface::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method.
 
     Make sure to specify IID\_WbemClassObject for the *riid* parameter in the [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) call. The **QueryInterface** method returns an instance of a WMI class, typically [**\_\_ExtendedStatus**](--extendedstatus.md).
 
-WMI does not deliver the error object through [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) for an asynchronous call because there is no way to know when, or on which thread the asynchronous call occurred. Therefore, your code can only handle specific errors or pass the call failure through COM.
+WMI does not deliver the error object through [GetErrorInfo]( https://go.microsoft.com/fwlink/p/?linkid=119575) for an asynchronous call because there is no way to know when, or on which thread the asynchronous call occurred. Therefore, your code can only handle specific errors or pass the call failure through COM.
 
 > [!Note]  
 > Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).

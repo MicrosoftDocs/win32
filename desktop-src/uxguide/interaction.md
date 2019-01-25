@@ -47,11 +47,11 @@ Indirect input has had the benefit of more than 25 years of refinement. Features
 
 We provide some general user interaction guidelines here and cover device-specific guidelines in these topics.
 
--   [Touch](http://msdn.microsoft.com/library/windows/desktop/cc872774.aspx)
--   [Mouse](http://msdn.microsoft.com/library/windows/desktop/bb545459.aspx)
--   [Pen](http://msdn.microsoft.com/library/windows/desktop/cc872775.aspx)
--   [Keyboard](http://msdn.microsoft.com/library/windows/desktop/bb545460.aspx)
--   [Accessibility](http://msdn.microsoft.com/library/windows/desktop/bb545462.aspx)
+-   [Touch](https://msdn.microsoft.com/library/windows/desktop/cc872774.aspx)
+-   [Mouse](https://msdn.microsoft.com/library/windows/desktop/bb545459.aspx)
+-   [Pen](https://msdn.microsoft.com/library/windows/desktop/cc872775.aspx)
+-   [Keyboard](https://msdn.microsoft.com/library/windows/desktop/bb545460.aspx)
+-   [Accessibility](https://msdn.microsoft.com/library/windows/desktop/bb545462.aspx)
 
 ## Visuals for feedback
 

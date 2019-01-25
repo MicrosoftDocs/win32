@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 **To use direct annotation to override the value of a property**
 
-1.  Use the [CoCreateInstance](http://go.microsoft.com/fwlink/p/?linkid=120140) or [CoCreateInstanceEx](http://go.microsoft.com/fwlink/p/?linkid=120141) function to create the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) object.
-2.  Call [**IAccPropServices::SetHwndProp**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-sethwndprop), passing the **HWND**, object ID, child ID, the property to be overridden, and a [VARIANT](http://go.microsoft.com/fwlink/p/?linkid=127015) containing the new value of the property. This step annotates the value.
+1.  Use the [CoCreateInstance](https://go.microsoft.com/fwlink/p/?linkid=120140) or [CoCreateInstanceEx](https://go.microsoft.com/fwlink/p/?linkid=120141) function to create the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) object.
+2.  Call [**IAccPropServices::SetHwndProp**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-sethwndprop), passing the **HWND**, object ID, child ID, the property to be overridden, and a [VARIANT](https://go.microsoft.com/fwlink/p/?linkid=127015) containing the new value of the property. This step annotates the value.
 3.  Release the interface pointers and free memory.
 
 The following example shows how to annotate the [**Role**](role-property.md) property of a static text control.

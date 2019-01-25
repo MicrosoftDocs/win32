@@ -84,7 +84,7 @@ WARP fully supports all Direct3D 10 and 10.1 features. For example, WARP support
 -   Anisotropic filtering
 -   32-bit and 64-bit applications and large address aware 32-bit applications
 
-When you install the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838) on Windows 7 SP1 or Windows Server 2008 R2 SP1, that operating system then includes the Direct3D 11.1 runtime and a version of WARP that supports Direct3D 11.x when used with [feature levels](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, and 11\_0.
+When you install the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) on Windows 7 SP1 or Windows Server 2008 R2 SP1, that operating system then includes the Direct3D 11.1 runtime and a version of WARP that supports Direct3D 11.x when used with [feature levels](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, and 11\_0.
 
 Windows 8, Windows Server 2012, and Windows RT include the Direct3D 11.1 runtime and a new version of WARP. This version supports Direct3D 11.x when used with [feature levels](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, 11\_0, and 11\_1.
 
@@ -201,7 +201,7 @@ WARP passes all the standard Windows Hardware Quality Labs (WHQL) conformance te
 
 WARP has been tested against a suite of Direct3D 10 and Direct3D 10.1 applications and benchmarks, and against SDK samples from DirectX, NVIDIA, and AMD.
 
-WARP used the [PIX](http://go.microsoft.com/fwlink/p/?linkid=208505) debugging and analysis tool for Windows in its testing; Microsoft has a large library of single frame captures of applications that are used to compare between hardware and WARP. The majority of the images appear almost identical between hardware and WARP; where small differences sometimes occur, they are found to be within the tolerances defined by the Direct3D 10 specification.
+WARP used the [PIX](https://go.microsoft.com/fwlink/p/?linkid=208505) debugging and analysis tool for Windows in its testing; Microsoft has a large library of single frame captures of applications that are used to compare between hardware and WARP. The majority of the images appear almost identical between hardware and WARP; where small differences sometimes occur, they are found to be within the tolerances defined by the Direct3D 10 specification.
 
 ## 
 

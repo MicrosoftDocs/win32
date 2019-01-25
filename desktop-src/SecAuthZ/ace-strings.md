@@ -398,7 +398,7 @@ For more information, see [Security Descriptor String Format](security-descripto
 
 <dl> <dt>
 
-[\[MS-DTYP\]: Security Descriptor Description Language](http://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
+[\[MS-DTYP\]: Security Descriptor Description Language](https://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
 </dt> </dl>
 
  

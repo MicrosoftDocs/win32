@@ -28,7 +28,7 @@ SendMessage (hWndC, WM_CAP_SEQUENCE, 0, 0L);
 
 
 
-A macro interface is also available that provides an alternative to using the [SendMessage](http://go.microsoft.com/fwlink/p/?linkid=17094) function and improves the readability of an application. The following example uses the macro interface to add video capture to an application.
+A macro interface is also available that provides an alternative to using the [SendMessage](https://go.microsoft.com/fwlink/p/?linkid=17094) function and improves the readability of an application. The following example uses the macro interface to add video capture to an application.
 
 
 ```C++

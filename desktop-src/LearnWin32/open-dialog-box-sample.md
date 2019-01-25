@@ -18,7 +18,7 @@ The Open Dialog Box sample application displays the **Open** dialog box, as show
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at <http://go.microsoft.com/fwlink/p/?linkid=184840>.
+This sample is available in the MSDN Code Gallery at <https://go.microsoft.com/fwlink/p/?linkid=184840>.
 
 ## Related topics
 

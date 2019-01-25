@@ -18,7 +18,7 @@ The left side of the Object Browser window displays all of the classes of refere
 
 You can filter which COM object classes are displayed by selecting an object library from the library selection drop-down list.
 
-For more information, see [Browsing ActiveX Component Type Libraries](http://go.microsoft.com/fwlink/p/?linkid=138987) in the Visual Basic documentation.
+For more information, see [Browsing ActiveX Component Type Libraries](https://go.microsoft.com/fwlink/p/?linkid=138987) in the Visual Basic documentation.
 
 In some cases, the Visual Basic Object Browser appears not to show a return type for a function or property. No return type appears when the return type is the default type, **Variant**. If the description pane of the Object Browser describes the element as a function or property and a return type is not shown, the return type statement is "As Variant".
 

@@ -20,7 +20,7 @@ By default, when the application creates a topology, the media source is created
 
 1.  The media source must implement the [**IMFPMPClient**](/windows/desktop/api/mfidl/nn-mfidl-imfpmpclient) interface.
 2.  During topology resolution, the Media Session proxy calls the [**IMFPMPClient::SetPMPHost**](/windows/desktop/api/mfidl/nf-mfidl-imfpmpclient-setpmphost) method on the media source.
-3.  The media source calls [**IMFPMPHost::CreateObjectByCLSID**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) to create the object inside the PMP process. The object must have a registered CLSID. Also, to load inside the PE, the object must be trusted and digitally signed. For information about code signing protected media components, see the white paper [Code Signing for Protected Media Components in Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=69258)
+3.  The media source calls [**IMFPMPHost::CreateObjectByCLSID**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) to create the object inside the PMP process. The object must have a registered CLSID. Also, to load inside the PE, the object must be trusted and digitally signed. For information about code signing protected media components, see the white paper [Code Signing for Protected Media Components in Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=69258)
 
 The following illustration shows the media source created in the application process.
 

@@ -62,7 +62,7 @@ If functionality in a credential provider is needed that is not included nativel
 
 <dl> <dt>
 
-[Credential Provider driven Windows Logon Experience](http://go.microsoft.com/fwlink/?LinkId=717287)
+[Credential Provider driven Windows Logon Experience](https://go.microsoft.com/fwlink/?LinkId=717287)
 </dt> <dt>
 
 [**ICredentialProvider**](https://msdn.microsoft.com/library/windows/desktop/bb776042)

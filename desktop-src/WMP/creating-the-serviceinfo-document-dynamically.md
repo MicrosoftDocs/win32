@@ -46,16 +46,16 @@ The following example code shows a simple ASP page that dynamically creates a Se
 <ServiceInfo Version="1.00" Key="MyCommerceService">
     <FriendlyName>My Online Store</FriendlyName>
     <ServiceTask1
-        URL = "http://<%= sHost %>/service/html/Music.asp">
+        URL = "https://<%= sHost %>/service/html/Music.asp">
     </ServiceTask1>
     <ServiceTask2
-        URL = "http://<%= sHost %>/service/html/Video.asp">
+        URL = "https://<%= sHost %>/service/html/Video.asp">
     </ServiceTask2>
     <ServiceTask3
-        URL = "http://<%= sHost %>/service/html/Radio.asp">
+        URL = "https://<%= sHost %>/service/html/Radio.asp">
     </ServiceTask3>
     <Navigate
-        BaseURL = "http://<%= sHost %>/service/html/navigate.asp?myloc<%= sLocale %>">
+        BaseURL = "https://<%= sHost %>/service/html/navigate.asp?myloc<%= sLocale %>">
     </Navigate>
 </ServiceInfo>
 ```

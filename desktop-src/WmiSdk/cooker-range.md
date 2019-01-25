@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The COOKER\_RANGE counter type formula shows the difference between the [Min](cooker-min.md) and [Max](cooker-max.md) values for a set of raw observations of a property in a [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299) instance. This counter type is defined only within WMI, and it is not available to the performance monitoring technologies, such as [Performance Counters Version 6.0](https://msdn.microsoft.com/library/windows/desktop/aa373083).
 
-For more information about the counter type formula, see [Counter Types](http://go.microsoft.com/fwlink/p/?linkid=44341).
+For more information about the counter type formula, see [Counter Types](https://go.microsoft.com/fwlink/p/?linkid=44341).
 
 For more information about high-performance providers and scripting, see [WMI Performance Counter Types](wmi-performance-counter-types.md).
 

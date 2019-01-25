@@ -174,7 +174,7 @@ The following table provides some invalid examples and the reasons they would be
 
 ## Photo Metadata Policy Expressions
 
-As noted previously, a fully qualified query expression starts with a slash (/). Expressions that do not begin with the slash are evaluated as policy expressions. A policy expression enables you to query the photo metadata for image-related Windows [Shell Properties](http://msdn.microsoft.com/en-us/library/ms788673(VS.85).aspx). In the Data Selection section earlier in this document, the expression "/xmp/xmp:Rating" was used to access the XMP rating property. This property can also be queried using the following policy expression:
+As noted previously, a fully qualified query expression starts with a slash (/). Expressions that do not begin with the slash are evaluated as policy expressions. A policy expression enables you to query the photo metadata for image-related Windows [Shell Properties](https://msdn.microsoft.com/en-us/library/ms788673(VS.85).aspx). In the Data Selection section earlier in this document, the expression "/xmp/xmp:Rating" was used to access the XMP rating property. This property can also be queried using the following policy expression:
 
 -   System.SimpleRating
 

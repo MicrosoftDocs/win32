@@ -67,7 +67,7 @@ Address of an array of [**DXVACompBufferInfo**](/windows/desktop/api/dxva9typ/ns
 
 Set all of the array elements to zero before calling this method.
 
-Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator returns a list of up to **DXVA\_NUM\_TYPES\_COMP\_BUFFERS** array entries. For details, refer to the [DXVA 1.0 specification](http://go.microsoft.com/fwlink/p/?linkid=93647), section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile, the entry at that index contains zeros for all values.
+Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator returns a list of up to **DXVA\_NUM\_TYPES\_COMP\_BUFFERS** array entries. For details, refer to the [DXVA 1.0 specification](https://go.microsoft.com/fwlink/p/?linkid=93647), section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile, the entry at that index contains zeros for all values.
 
 </dd> </dl>
 

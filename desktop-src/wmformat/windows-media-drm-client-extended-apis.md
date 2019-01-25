@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Windows Media DRM Client Extended APIs
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](http://aka.ms/p23wo6) instead.\]
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://aka.ms/p23wo6) instead.\]
 
 This documentation describes the Microsoft Windows Media Digital Rights Management (DRM) Client Extended Application Programming Interfaces (APIs). The Windows Media DRM Client Extended APIs include objects that can be used to manage Windows Media Digital Rights Management (DRM) operations on a client computer.
 

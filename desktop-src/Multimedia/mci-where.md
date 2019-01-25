@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MCI\_WHERE command
 
-The MCI\_WHERE command obtains the clipping rectangle for the video device. Digital-video, and video-overlay devices recognize this command. The **top** and **left** members of the returned [RECT](http://go.microsoft.com/fwlink/p/?linkid=16998) contain the origin of the clipping rectangle, and the **right** and **bottom** members contain the width and height of the clipping rectangle. (This is not the standard use of the **right** and **bottom** members.)
+The MCI\_WHERE command obtains the clipping rectangle for the video device. Digital-video, and video-overlay devices recognize this command. The **top** and **left** members of the returned [RECT](https://go.microsoft.com/fwlink/p/?linkid=16998) contain the origin of the clipping rectangle, and the **right** and **bottom** members contain the width and height of the clipping rectangle. (This is not the standard use of the **right** and **bottom** members.)
 
 To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 

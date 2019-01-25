@@ -70,7 +70,7 @@ Currently the voice capture DMO supports only single-channel acoustic echo cance
 
 ### Microphone Array Processing
 
-A microphone array is a set of closely positioned microphones. Microphone arrays achieve better directionality than a single microphone, because the acoustic waves arrive at each microphone at a slightly different time. For more information on microphone arrays see the web articles [Microphone Array Support in Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=180535) and [How to Build and Use Microphone Arrays for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=180527).
+A microphone array is a set of closely positioned microphones. Microphone arrays achieve better directionality than a single microphone, because the acoustic waves arrive at each microphone at a slightly different time. For more information on microphone arrays see the web articles [Microphone Array Support in Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=180535) and [How to Build and Use Microphone Arrays for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=180527).
 
 ### Using the Voice Capture DSP
 

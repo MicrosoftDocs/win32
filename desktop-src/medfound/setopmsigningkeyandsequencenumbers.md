@@ -50,7 +50,7 @@ A handle to the protected output object. This handle is obtained by calling [**C
 *pParameters* \[out\]
 </dt> <dd>
 
-A pointer to a [**DXGKMDT\_OPM\_ENCRYPTED\_PARAMETERS**](https://msdn.microsoft.com/en-us/library/Ff560863(v=VS.85).aspx) structure that contains a 256-byte array. For more information about how to initialize this array, see [DxgkDdiOPMSetSigningKeyAndSequenceNumbers](http://msdn.microsoft.com/en-us/library/aa906703.aspx).
+A pointer to a [**DXGKMDT\_OPM\_ENCRYPTED\_PARAMETERS**](https://msdn.microsoft.com/en-us/library/Ff560863(v=VS.85).aspx) structure that contains a 256-byte array. For more information about how to initialize this array, see [DxgkDdiOPMSetSigningKeyAndSequenceNumbers](https://msdn.microsoft.com/en-us/library/aa906703.aspx).
 
 </dd> </dl>
 

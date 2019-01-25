@@ -28,7 +28,7 @@ g\_wszISAN
 
 ## Remarks
 
-ISAN is an international standard for identifying audiovisual works. For information about ISAN, visit the standard's [Web site](http://go.microsoft.com/fwlink/p/?linkid=161595).
+ISAN is an international standard for identifying audiovisual works. For information about ISAN, visit the standard's [Web site](https://go.microsoft.com/fwlink/p/?linkid=161595).
 
 The metadata editor object verifies the ISAN string when you set this attribute. The acceptable string formatting, as described in section 4.1 of the ISAN specification, consists of 16 hexadecimal digits, optionally separated by whitespace or hyphens into 4-digit segments. The formatted number must be followed, also optionally separated by a space or hyphen, by a valid check character. The check character can be a decimal digit or a capital letter. Refer to annex A of the ISAN user guide for information about how to derive the check number.
 

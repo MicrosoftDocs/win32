@@ -18,7 +18,7 @@ The [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) a
 
 <dl> <dt>
 
-[Shutdown Event Tracker (TechNet)](http://go.microsoft.com/fwlink/p/?linkid=103786)
+[Shutdown Event Tracker (TechNet)](https://go.microsoft.com/fwlink/p/?linkid=103786)
 </dt> </dl>
 
  

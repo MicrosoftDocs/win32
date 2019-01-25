@@ -93,12 +93,12 @@ The **SKIPIFREF** attribute pertains only to **ENTRY** elements that are include
    
    <ENTRY>
       <TITLE>Example Clip</TITLE>
-      <REF HREF="http://example.microsoft.com/media.asf" />
+      <REF HREF="https://example.microsoft.com/media.asf" />
    </ENTRY>
    
    <ENTRY>
       <TITLE>Another Clip</TITLE>
-      <REF HREF="http://example.microsoft.com/more_media.asf" />
+      <REF HREF="https://example.microsoft.com/more_media.asf" />
    </ENTRY>
 </ASX>
 

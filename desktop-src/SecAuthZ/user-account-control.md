@@ -30,7 +30,7 @@ For information about UAC, see the following topics.
 
 | Topic                                                                                                                                        | Description                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Guidelines for User Account Control in UI Development](http://msdn.microsoft.com/library/aa511445(l=en-us,v=MSDN.10).aspx)<br/> | General information about UAC.<br/>                                                                                                     |
+| [Guidelines for User Account Control in UI Development](https://msdn.microsoft.com/library/aa511445(l=en-us,v=MSDN.10).aspx)<br/> | General information about UAC.<br/>                                                                                                     |
 | [Developing Applications that Require Administrator Privilege](developing-applications-that-require-administrator-privilege.md)<br/>  | Models for developing applications that perform operations that require administrative privilege, but that run as a standard user.<br/> |
 | [Authorization Reference](authorization-reference.md)<br/>                                                                            | Detailed information about authorization functions, interfaces, structures, and other programming elements.<br/>                        |
 

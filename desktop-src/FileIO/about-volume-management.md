@@ -32,10 +32,10 @@ Volumes are implemented by a device driver called a volume manager. Examples inc
 
 <dl> <dt>
 
-[Basic Disks and Volumes Technical Reference](Http://go.microsoft.com/fwlink/p/?linkid=89438)
+[Basic Disks and Volumes Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89438)
 </dt> <dt>
 
-[Dynamic Disks and Volumes Technical Reference](Http://go.microsoft.com/fwlink/p/?linkid=89439)
+[Dynamic Disks and Volumes Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89439)
 </dt> <dt>
 
 [Volume Management Reference](volume-management-reference.md)

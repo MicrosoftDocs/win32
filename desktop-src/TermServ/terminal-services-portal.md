@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 with Remote Desktop Services (formerly known as Terminal Services) allow a server to host multiple, simultaneous client sessions. Remote Desktop uses Remote Desktop Services technology to allow a single session to run remotely. A user can connect to a Remote Desktop Session Host (RD Session Host) server (formerly known as a terminal server) by using Remote Desktop Connection (RDC) client software. The Remote Desktop Web Connection extends Remote Desktop Services technology to the web.
 
 > [!Note]  
-> This topic is for software developers. If you are looking for user information for Remote Desktop connections, See [Remote Desktop Connection: frequently asked questions](http://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
+> This topic is for software developers. If you are looking for user information for Remote Desktop connections, See [Remote Desktop Connection: frequently asked questions](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
 
  
 

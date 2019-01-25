@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Effects 11 Reference
 
-Use Effects 11 source to build your effects-type application. The Effects 11 source is available at [Effects for Direct3D 11 Update](http://go.microsoft.com/fwlink/p/?LinkId=271568). The Effects 11 API is described in this section.
+Use Effects 11 source to build your effects-type application. The Effects 11 source is available at [Effects for Direct3D 11 Update](https://go.microsoft.com/fwlink/p/?LinkId=271568). The Effects 11 API is described in this section.
 
 ## 
 

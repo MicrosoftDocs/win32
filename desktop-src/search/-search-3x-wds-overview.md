@@ -57,11 +57,11 @@ The Search service is designed to protect the user experience and system perform
 
 The preferred way to access the Search APIs and create Windows Search applications is through a Shell data source. A Shell data source is a component that is used to extend the Shell namespace and expose items in a data store. A data store is a repository of data. A data store can be exposed to the Shell programming model as a container that uses a Shell data source. The items in a data store can be indexed by the Windows Search system using a protocol handler.
 
-For example, [ISearchFolderItemFactory](http://msdn.microsoft.com/en-us/library/bb775176(VS.85).aspx) is a component that can create instances of the search folder data source, which is a sort of "virtual" data source provided by the Shell that can execute queries over other data sources in the Shell namespace and enumerate results. It can do so either by using the indexer or by manually enumerating and inspecting items in the specified scopes. This interface permits you to set up the parameters of the search by using methods that create and modify search folders. If methods of this interface are not called, default values are used instead.
+For example, [ISearchFolderItemFactory](https://msdn.microsoft.com/en-us/library/bb775176(VS.85).aspx) is a component that can create instances of the search folder data source, which is a sort of "virtual" data source provided by the Shell that can execute queries over other data sources in the Shell namespace and enumerate results. It can do so either by using the indexer or by manually enumerating and inspecting items in the specified scopes. This interface permits you to set up the parameters of the search by using methods that create and modify search folders. If methods of this interface are not called, default values are used instead.
 
 Accessing the Windows Search capability indirectly through the Shell data model is preferred because it provides access to full Shell functionality at the level of the Shell data model. For example, you can set the scope of a search to a library (which is a feature available in Windows 7 and later) to use the library folders as the scope of the query. Windows Search then aggregates the search results from those locations if they are in different indexes (if the folders are on different computers). The Shell data layer also creates a more complete view of items' properties, synthesizing some property values. It also provides access to search features for data stores that are not indexed by Windows Search. For example, you can search a Universal Serial Bus (USB) storage devices, portable device that uses the MTP protocol, or an File Transfer Protocol (FTP) server through the Shell data sources that provides access to those storage systems. Doing so ensures a better user experience.
 
-Windows Search has a cache of property values that is used in the implementation of the Windows Search Service (WSS). These property values can be programmatically queried by using the Windows Search OLE DB provider, or through [ISearchFolderItemFactory](http://msdn.microsoft.com/en-us/library/bb775176(VS.85).aspx), which represents items in search results and query-based views. Windows Search then collects and stores properties emitted by filter handlers or property handlers when an item such as a Word document is indexed. This store is discarded and rebuilt when the index is rebuilt.
+Windows Search has a cache of property values that is used in the implementation of the Windows Search Service (WSS). These property values can be programmatically queried by using the Windows Search OLE DB provider, or through [ISearchFolderItemFactory](https://msdn.microsoft.com/en-us/library/bb775176(VS.85).aspx), which represents items in search results and query-based views. Windows Search then collects and stores properties emitted by filter handlers or property handlers when an item such as a Word document is indexed. This store is discarded and rebuilt when the index is rebuilt.
 
 Third-party developers can create applications that consume the data in the index through programmatic queries, and can extend the data in the index for custom file and item types to be indexed by Windows Search. If you want to show query results in Windows Explorer, you must implement a Shell data source before you can create a protocol handler to extend the index. However, if all queries are programmatic (through OLE DB for example) and interpreted by the application's code rather than the Shell, a Shell namespace is still preferred but not required.
 
@@ -80,7 +80,7 @@ In Windows Vista and later, Windows Search is integrated into all Windows Explo
 -   Documents can be tagged with keywords to group them by custom criteria that are defined by the user. Tags are metadata items that are assigned by the user or applications to make it easier to find files based on keywords that may not be in the item name or contents. For example, a set of pictures might be tagged as "Arizona Vacation 2009" to quickly retrieve later by searching for any of the included words.
 -   Enhanced column headers in Windows Explorer views enable sorting and grouping documents in different ways. For example, files can be sorted according to name, date modified, type, size, and tags. Documents can also be grouped according to any of these properties and each group can be filtered (hidden or displayed) as desired.
 -   Documents can be stacked according to name, date modified, type, size, and tags. Stacks include all documents that have the specified property and are located within any subfolder of the selected folder.
--   Searches can be saved (to be retrieved later) by clicking the **Save Search** button in the search pane in Windows Explorer. The results will be dynamically repopulated based on the original criteria when the saved search is opened. For instructions, see [Save Your Search Results](http://windows.microsoft.com/en-US/windows-vista/Save-your-search-results).
+-   Searches can be saved (to be retrieved later) by clicking the **Save Search** button in the search pane in Windows Explorer. The results will be dynamically repopulated based on the original criteria when the saved search is opened. For instructions, see [Save Your Search Results](https://windows.microsoft.com/en-US/windows-vista/Save-your-search-results).
 -   Preview handlers and thumbnail handlers enable users to preview documents in Windows Explorer without having to open the application that created them.
 
 ## Technical Prerequisites
@@ -93,11 +93,11 @@ Before you start reading the Windows Search SDK documentation, you should have a
 
 A Shell data source is a component that is used to extend the Shell namespace and expose items in a data store. In the past, the Shell data source was referred to as the Shell namespace extension. A handler is a Component Object Model (COM) object that provides functionality for a Shell item. For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md).
 
-For more information about the Windows Search SDK interoperability assembly for working with COM objects that are exposed by Windows Search and other programs that use managed code, see [Using Managed Code with Shell Data and Windows Search](-search-3x-wds-managed-code.md). However, note that filters, property handlers, and protocol handlers must be written in native code. This is due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in. Developers who are new to C++ can get started with the [Visual C++ Developer Center](http://msdn.microsoft.com/en-us/visualc/default.aspx) and [Windows Development Getting Started](http://msdn.microsoft.com/en-us/library/ee663266(VS.85).aspx).
+For more information about the Windows Search SDK interoperability assembly for working with COM objects that are exposed by Windows Search and other programs that use managed code, see [Using Managed Code with Shell Data and Windows Search](-search-3x-wds-managed-code.md). However, note that filters, property handlers, and protocol handlers must be written in native code. This is due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in. Developers who are new to C++ can get started with the [Visual C++ Developer Center](https://msdn.microsoft.com/en-us/visualc/default.aspx) and [Windows Development Getting Started](https://msdn.microsoft.com/en-us/library/ee663266(VS.85).aspx).
 
 ### SDK Download and Contents
 
-In addition to meeting the listed technical prerequirements, you must also download the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) to get the Windows Search libraries. The [Windows Search SDK Samples](http://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8) contain useful code samples and an interoperability assembly for developing with managed code. For more information on using the code samples, see [Windows Search Code Samples](-search-3x-wds-sampleentry.md).
+In addition to meeting the listed technical prerequirements, you must also download the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) to get the Windows Search libraries. The [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8) contain useful code samples and an interoperability assembly for developing with managed code. For more information on using the code samples, see [Windows Search Code Samples](-search-3x-wds-sampleentry.md).
 
 ## Windows Search SDK Documentation
 
@@ -117,7 +117,7 @@ The contents of the Windows Search SDK documentation are as follows:
 
 -   [Windows Search Code Samples](-search-samples-ovw.md)
 
-    Lists and describes briefly the Search API code samples that are provided in the Windows 7 SDK. Most samples can be downloaded from [MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
+    Lists and describes briefly the Search API code samples that are provided in the Windows 7 SDK. Most samples can be downloaded from [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
 
 -   [Federated Search in Windows](-search-federated-search-overview.md)
 
@@ -142,21 +142,21 @@ Windows Search is built into Windows Vista and later, and is available as a red
 -   Windows Server 2003 with Service Pack 1 (SP1) and later.
 -   All x64-based versions of Windows Server 2003.
 
-Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search. For more information, see [KB article 917013: Description of Windows Desktop Search 3.01 and the Multilingual User Interface Pack for Windows Desktop Search 3.01](http://support.microsoft.com/kb/917013).
+Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search. For more information, see [KB article 917013: Description of Windows Desktop Search 3.01 and the Multilingual User Interface Pack for Windows Desktop Search 3.01](https://support.microsoft.com/kb/917013).
 
 ## Additional Resources
 
--   For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](http://msdn.microsoft.com/en-us/library/bb776815.aspx).
--   For more information about [ISearchFolderItemFactory](http://msdn.microsoft.com/en-us/library/bb775176.aspx) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](http://msdn.microsoft.com/en-us/library/bb762592.aspx). See also [Association Arrays](http://msdn.microsoft.com/en-us/library/ee872122.aspx) and [IPropertySystem::GetPropertyDescriptionListFromString](http://msdn.microsoft.com/en-us/library/bb761436.aspx).
--   For information on OLE DB, see [OLE DB Programming Overview](http://go.microsoft.com/fwlink/p/?linkid=215069). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](http://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx) documentation.
+-   For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/bb776815.aspx).
+-   For more information about [ISearchFolderItemFactory](https://msdn.microsoft.com/en-us/library/bb775176.aspx) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](https://msdn.microsoft.com/en-us/library/bb762592.aspx). See also [Association Arrays](https://msdn.microsoft.com/en-us/library/ee872122.aspx) and [IPropertySystem::GetPropertyDescriptionListFromString](https://msdn.microsoft.com/en-us/library/bb761436.aspx).
+-   For information on OLE DB, see [OLE DB Programming Overview](https://go.microsoft.com/fwlink/p/?linkid=215069). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx) documentation.
 -   For an overview of file type handlers (also known as Shell extension handlers and Search handlers), see [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md).
--   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](http://go.microsoft.com/fwlink/p/?linkid=201207).
+-   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://go.microsoft.com/fwlink/p/?linkid=201207).
 -   To download the Search SDK Code Samples:
-    -   For Windows 7: [Windows Search Samples on Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=155654).
-    -   For Windows Vista: [Windows Search SDK Samples](http://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+    -   For Windows 7: [Windows Search Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155654).
+    -   For Windows Vista: [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 -   To download the Windows SDK:
-    -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](http://go.microsoft.com/fwlink/p/?linkid=129787).
-    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](http://www.microsoft.com/downloads/details.aspx?FamilyID=4377f86d-c913-4b5c-b87e-ef72e5b4e065).
+    -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=129787).
+    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/downloads/details.aspx?FamilyID=4377f86d-c913-4b5c-b87e-ef72e5b4e065).
 
 ## Related topics
 

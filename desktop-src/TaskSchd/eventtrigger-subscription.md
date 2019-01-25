@@ -39,7 +39,7 @@ A query string that identifies the event that fires the trigger.
 
 When reading or writing your own XML for a task, the event subscription is specified using the [**Subscription**](taskschedulerschema-subscription-eventtriggertype-element.md) element of the Task Scheduler schema.
 
-For more information about writing a query string for certain events, see [Event Selection](http://go.microsoft.com/fwlink/p/?linkid=168218) and [Subscribing to Events](http://go.microsoft.com/fwlink/p/?linkid=168415).
+For more information about writing a query string for certain events, see [Event Selection](https://go.microsoft.com/fwlink/p/?linkid=168218) and [Subscribing to Events](https://go.microsoft.com/fwlink/p/?linkid=168415).
 
 ## Examples
 

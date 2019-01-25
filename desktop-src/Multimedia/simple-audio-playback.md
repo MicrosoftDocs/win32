@@ -24,7 +24,7 @@ You can use the following functions to play waveform audio in your application i
 
 | Function                                                      | Description                                                                                                         |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| [MessageBeep](http://go.microsoft.com/fwlink/p/?linkid=17107) | Plays the sound that corresponds to a specified system-alert level.                                                 |
+| [MessageBeep](https://go.microsoft.com/fwlink/p/?linkid=17107) | Plays the sound that corresponds to a specified system-alert level.                                                 |
 | [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx)                          | Plays the sound that corresponds to the system sound entered in the registry or the contents of the specified file. |
 | [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx)                                | Provides all the functionality of [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx) and can directly access resources.           |
 

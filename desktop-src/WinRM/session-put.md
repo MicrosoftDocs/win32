@@ -50,14 +50,14 @@ This parameter can contain one of elements contained in the following list:
 -   URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Put** method to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`.
 
     ```VB
-    strResourceUri = "http://schemas.microsoft.com/" & _ 
+    strResourceUri = "https://schemas.microsoft.com/" & _ 
       "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
     ```
 
     
 
 -   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=84316).
+-   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](https://go.microsoft.com/fwlink/p/?linkid=84316).
 
 </dd> <dt>
 
@@ -103,10 +103,10 @@ End If
 'Change the property value by putting
 'the new XML content into the resource.
 Dim strResourceUri, strReturnedResourceUri, newXmlContent
-strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _
+strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/" _
   & "wmi/root/cimv2/Win32_WMISetting"
 newXmlContent = _
-  "<p:Win32_WMISetting xmlns:p=""http://schemas.microsoft.com/" & _
+  "<p:Win32_WMISetting xmlns:p=""https://schemas.microsoft.com/" & _
   "wbem/wsman/1/wmi/root/cimv2/Win32_WMISetting"">" & _
   "<p:LoggingLevel>2</p:LoggingLevel></p:Win32_WMISetting>" 
 

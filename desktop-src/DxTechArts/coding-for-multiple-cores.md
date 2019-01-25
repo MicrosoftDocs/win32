@@ -270,7 +270,7 @@ The only safe way to destroy a thread is to have the thread itself exit, either 
 
 ## OpenMP
 
-OpenMP is a language extension for adding multithreading to your program by using pragmas to guide the compiler in parallelizing loops. OpenMP is supported by Visual C++ 2005 on Windows and Xbox 360 and can be used in conjunction with manual thread management. OpenMP can be a convenient way to multithread parts of your code, but is unlikely to be the ideal solution, especially for games. OpenMP may be more applicable to longer-running production tasks such as processing art and other resources. For more information, see the Visual C++ documentation or go to the OpenMP [website](http://www.openmp.org/).
+OpenMP is a language extension for adding multithreading to your program by using pragmas to guide the compiler in parallelizing loops. OpenMP is supported by Visual C++ 2005 on Windows and Xbox 360 and can be used in conjunction with manual thread management. OpenMP can be a convenient way to multithread parts of your code, but is unlikely to be the ideal solution, especially for games. OpenMP may be more applicable to longer-running production tasks such as processing art and other resources. For more information, see the Visual C++ documentation or go to the OpenMP [website](https://www.openmp.org/).
 
 ## Profiling
 
@@ -332,8 +332,8 @@ Multithreaded programming can be tricky, and some multithreaded bugs show up onl
 
 For games targeting the newer versions of Windows, there are a number of APIs that can simplify the creation of scalable multithreaded applications. This is particularly true with the new ThreadPool API and some additional syncrhonziation primitives (condition variables, the slim read/writer lock, and one-time initialization). You can find an overview of these technologies in the following MSDN Magazine articles:
 
--   [Improve Scalability With New Thread Pool APIs](http://msdn.microsoft.com/magazine/cc163327.aspx)
--   [Synchronization Primitives New To Windows Vista](http://msdn.microsoft.com/magazine/cc163405.aspx)
+-   [Improve Scalability With New Thread Pool APIs](https://msdn.microsoft.com/magazine/cc163327.aspx)
+-   [Synchronization Primitives New To Windows Vista](https://msdn.microsoft.com/magazine/cc163405.aspx)
 
 Applications using [Direct3D 11 Features](https://msdn.microsoft.com/library/windows/desktop/ff476342) on these operating systems can also take advantage of the new design for concurrent object creation and deferred context command lists for better scalability for multithreaded rendering.
 
@@ -346,7 +346,7 @@ With careful design that minimizes the interactions between threads, you can get
 -   Jim Beveridge & Robert Weiner, *Multithreading Applications in Win32*, Addison-Wesley, 1997
 -   Chuck Walbourn, [Game Timing and Multicore Processors](https://msdn.microsoft.com/library/windows/desktop/ee417693), Microsoft Corporation, 2005
 -   MSDN Library: [**GetLogicalProcessorInformation**](https://msdn.microsoft.com/library/windows/desktop/ms683194)
--   [OpenMP](http://www.openmp.org/)
+-   [OpenMP](https://www.openmp.org/)
 
  
 

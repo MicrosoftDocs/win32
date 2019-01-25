@@ -125,11 +125,11 @@ For example, performing a connect using one of the connection managers will chan
 
 ## Sending And Receiving Bytes
 
-Use the IP Helper functions [GetlfEntry](http://go.microsoft.com/fwlink/p/?linkid=165603) and [GetlfEntry2](http://go.microsoft.com/fwlink/p/?linkid=165602) to send and receive bytes.
+Use the IP Helper functions [GetlfEntry](https://go.microsoft.com/fwlink/p/?linkid=165603) and [GetlfEntry2](https://go.microsoft.com/fwlink/p/?linkid=165602) to send and receive bytes.
 
 ## Using The Pin Unblock API
 
-A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges. See [A Description of the Network Configuration Operators Group]( http://go.microsoft.com/fwlink/p/?linkid=194211) for more information.
+A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges. See [A Description of the Network Configuration Operators Group]( https://go.microsoft.com/fwlink/p/?linkid=194211) for more information.
 
 ## Working With SafeArrays
 

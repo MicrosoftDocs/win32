@@ -17,7 +17,7 @@ api_location:
 
 # About Windows Remote Management
 
-Windows Remote Management is one component of the [Windows Hardware Management](http://go.microsoft.com/fwlink/p/?linkid=45204) features that manage server hardware locally and remotely. These features include a service that implements the [*WS-Management*](windows-remote-management-glossary.md) protocol, hardware diagnosis and control through baseboard management controllers ([*BMCs*](windows-remote-management-glossary.md)), and a COM API and [scripting objects](winrm-scripting-api.md) that allow you to write applications that communicate remotely through the WS-Management protocol. For more information about the public specification for WS-Management protocol, see [Web Services for Management (WS–Management)](http://go.microsoft.com/fwlink/p/?linkid=73965).
+Windows Remote Management is one component of the [Windows Hardware Management](https://go.microsoft.com/fwlink/p/?linkid=45204) features that manage server hardware locally and remotely. These features include a service that implements the [*WS-Management*](windows-remote-management-glossary.md) protocol, hardware diagnosis and control through baseboard management controllers ([*BMCs*](windows-remote-management-glossary.md)), and a COM API and [scripting objects](winrm-scripting-api.md) that allow you to write applications that communicate remotely through the WS-Management protocol. For more information about the public specification for WS-Management protocol, see [Web Services for Management (WS–Management)](https://go.microsoft.com/fwlink/p/?linkid=73965).
 
 ## Components of WinRM and Hardware Management
 
@@ -43,13 +43,13 @@ The following is a list of components and features that are supplied by WinRM an
 
 -   WMI service
 
-    The WMI service continues to run side-by-side with WinRM and provides requested data or control through the [*WMI plug-in*](windows-remote-management-glossary.md). You can continue to obtain data from standard WMI classes, such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372), as well as IPMI-supplied data. For more information about configuration and installation required for WinRM, see [Hardware Management Introduction](http://go.microsoft.com/fwlink/p/?linkid=45204).
+    The WMI service continues to run side-by-side with WinRM and provides requested data or control through the [*WMI plug-in*](windows-remote-management-glossary.md). You can continue to obtain data from standard WMI classes, such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372), as well as IPMI-supplied data. For more information about configuration and installation required for WinRM, see [Hardware Management Introduction](https://go.microsoft.com/fwlink/p/?linkid=45204).
 
 -   WS-Management protocol
 
     WS-Management protocol, a SOAP-based, firewall-friendly protocol, was designed for systems to locate and exchange management information. The intent of the WS-Management protocol specification is to provide interoperability and consistency for enterprise systems that have computers running on a variety of operating systems from different vendors.
 
-    WS-Management protocol is based on the following standard web service specifications: HTTPS, SOAP over HTTP (WS-I profile), SOAP 1.2, WS-Addressing, WS-Transfer, WS-Enumeration, and WS-Eventing. For more information about the current draft of the specification, see the [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+    WS-Management protocol is based on the following standard web service specifications: HTTPS, SOAP over HTTP (WS-I profile), SOAP 1.2, WS-Addressing, WS-Transfer, WS-Enumeration, and WS-Eventing. For more information about the current draft of the specification, see the [Management Specifications Index Page](https://go.microsoft.com/fwlink/p/?linkid=96658).
 
 ## Working with WinRM
 
@@ -69,7 +69,7 @@ The following table lists topics that provide information about the WS-Managemen
 | [Windows Remote Management and WMI](windows-remote-management-and-wmi.md)                                                       | Because WinRM is integrated with [Windows Management Instrumentation (WMI)](https://msdn.microsoft.com/library/aa394582), you can obtain WMI data with scripts or applications that use the [WinRM Scripting API](winrm-scripting-api.md) or through the Winrm command-line tool.                                                                                                                     |
 | [Resource URIs](resource-uris.md)                                                                                               | A [*resource URI*](windows-remote-management-glossary.md) is an identifier for a management operation or value. For example, disk drives represent a type of resource.                                                                                                                                                                              |
 | [Remote Hardware Management](remote-hardware-management.md)                                                                     | The [IPMI provider](https://msdn.microsoft.com/library/aa391402) supplies [classes](https://msdn.microsoft.com/library/aa391402) and data that describe the baseboard management controller (BMC) hardware management domain, the BMC computer systems in the domain, and the BMC sensors. Other objects represent the BMC System Event Log (SEL) and the messages in the log. |
-| [Events](events.md)                                                                                                             | You cannot obtain events through WinRM scripting, but you can use the Wevtutil.exe command-line tool to view [Event Collector](http://go.microsoft.com/fwlink/p/?linkid=84396) events.                                                                                                                                                                                        |
+| [Events](events.md)                                                                                                             | You cannot obtain events through WinRM scripting, but you can use the Wevtutil.exe command-line tool to view [Event Collector](https://go.microsoft.com/fwlink/p/?linkid=84396) events.                                                                                                                                                                                        |
 
 
 

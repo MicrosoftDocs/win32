@@ -23,12 +23,12 @@ The Windows App Certification Kit 3.1 has been updated to provide the developers
 
 ## Resources
 
--   [Windows App Certification Kit](http://go.microsoft.com/fwlink/p/?LinkId=325345) provides an overview of the Windows App Certification Kit 3.0, what’s new in version 3.0 and a link to “Get the Windows App Certification Kit for Windows RT”
--   [Using the Windows App Certification Kit](http://go.microsoft.com/fwlink/p/?LinkId=267228) lists the pre-requisites for developing a store app and how to validate your store app using Windows App Certification Kit”
--   [Using the Windows App Certification Kit White Paper](http://go.microsoft.com/fwlink/p/?LinkId=325368) provides a step-by-step overview of the Windows App Certification Kit, and guidance on integrating the kit into existing test services using the command line mode
--   [Windows Store app development for Windows RT PCs](http://go.microsoft.com/fwlink/p/?LinkID=258446) addresses various aspects of developing Windows Store apps for Windows RT
--   [Get Certified](http://go.microsoft.com/fwlink/p/?LinkId=227193) provides various resources to help you certify your desktop app
--   [Certify your app](http://go.microsoft.com/fwlink/p/?LinkId=325365) describes the certification process for Windows Store
+-   [Windows App Certification Kit](https://go.microsoft.com/fwlink/p/?LinkId=325345) provides an overview of the Windows App Certification Kit 3.0, what’s new in version 3.0 and a link to “Get the Windows App Certification Kit for Windows RT”
+-   [Using the Windows App Certification Kit](https://go.microsoft.com/fwlink/p/?LinkId=267228) lists the pre-requisites for developing a store app and how to validate your store app using Windows App Certification Kit”
+-   [Using the Windows App Certification Kit White Paper](https://go.microsoft.com/fwlink/p/?LinkId=325368) provides a step-by-step overview of the Windows App Certification Kit, and guidance on integrating the kit into existing test services using the command line mode
+-   [Windows Store app development for Windows RT PCs](https://go.microsoft.com/fwlink/p/?LinkID=258446) addresses various aspects of developing Windows Store apps for Windows RT
+-   [Get Certified](https://go.microsoft.com/fwlink/p/?LinkId=227193) provides various resources to help you certify your desktop app
+-   [Certify your app](https://go.microsoft.com/fwlink/p/?LinkId=325365) describes the certification process for Windows Store
 
  
 

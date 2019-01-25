@@ -16,7 +16,7 @@ api_location:
 
 # FIPSMode (authEncryption) Element
 
-The **FIPSMode** (authEncryption) element indicates whether Federal Information Processing Standards (FIPS) mode is enabled. When a wireless connection is operating in FIPS mode, the security level of the connection complies with the FIPS 140-2 standard. For more information about FIPS, see the [FIPS Home Page](http://go.microsoft.com/fwlink/p/?linkid=86229).
+The **FIPSMode** (authEncryption) element indicates whether Federal Information Processing Standards (FIPS) mode is enabled. When a wireless connection is operating in FIPS mode, the security level of the connection complies with the FIPS 140-2 standard. For more information about FIPS, see the [FIPS Home Page](https://go.microsoft.com/fwlink/p/?linkid=86229).
 
 This element is optional. If this element is not specified in a profile, then FIPS mode is not enabled.
 
@@ -26,7 +26,7 @@ This element is optional. If this element is not specified in a profile, then FI
 -   The [**authentication**](wlan-profileschema-authentication-authencryption-element.md) element has a value of `WPA2` or `WPA2PSK`.
 -   The [**encryption**](wlan-profileschema-encryption-authencryption-element.md) element has a value of `AES`.
 
-Unlike most elements in the WLAN\_profile schema, this element is in the `http://www.microsoft.com/networking/WLAN/profile/v2` namespace.
+Unlike most elements in the WLAN\_profile schema, this element is in the `https://www.microsoft.com/networking/WLAN/profile/v2` namespace.
 
 The value of the **FIPSMode** element is ignored if the miniport driver for the wireless interface does not support FIPS mode.
 
@@ -42,7 +42,7 @@ The element is defined by the [**authEncryption**](wlan-profileschema-authencryp
 
 ## Remarks
 
-This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](Http://go.microsoft.com/fwlink/p/?linkid=120964).
+This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://go.microsoft.com/fwlink/p/?linkid=120964).
 
 ## Examples
 

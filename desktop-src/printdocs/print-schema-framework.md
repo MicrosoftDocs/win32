@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Print Schema Framework
 
-This topic is not current. For the most current information, see the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
 
 This section provides more detailed information on the meaning and usage of the Print Schema element types. The main focus of the initial version of the Print Schema Framework is to represent configurations and capabilities of device attributes. At a high level, this framework offers two different styles of describing a device attribute: as a Feature/Option construct, or as a parameter construct. If a device attribute has a small number of available values or states, then the attribute should be characterized as a Feature with the allowed values or states referred to as Option elements. Conversely, if a device attribute has a large number of available values or states and the set of all possible values is easily defined without resorting to explicit enumeration, the device attribute should be characterized as a parameter. (A parameter is defined by means of a ParameterDef element, and a parameter instance is initialized by means of a ParameterInit element.) Property elements are used within Feature/Option and parameter constructs to provide a finer level of differentiation.
 
@@ -16,7 +16,7 @@ This section provides more detailed information on the meaning and usage of the 
 
 <dl> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> </dl>
 
  

@@ -117,7 +117,7 @@ To query MSIDXSPROP\_SERVER\_VERSION, it is necessary to issue the dummy query t
 
 `SELECT top 1 workid from servername.systemindex`
 
-After the rowset has been returned, call [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) for the capabilities of the rowset and then call [IRowsetInfo::GetProperties](http://msdn.microsoft.com/en-us/library/ms719611(VS.85).aspx) for the new property (MSIDXSPROP\_SERVER\_VERSION). The property has a type of **VT\_I4** and can be one of the following values:
+After the rowset has been returned, call [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) for the capabilities of the rowset and then call [IRowsetInfo::GetProperties](https://msdn.microsoft.com/en-us/library/ms719611(VS.85).aspx) for the new property (MSIDXSPROP\_SERVER\_VERSION). The property has a type of **VT\_I4** and can be one of the following values:
 
 \#define CI\_VERSION\_WDS30 0x102 // 258
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 You can use the [Windows Imaging Component](https://msdn.microsoft.com/library/windows/desktop/ee719902) API to initialize a [texture](overviews-direct3d-11-resources-textures.md) from a file. To load a texture, you must create a texture and a texture view. This topic shows how to use Windows Imaging Component (WIC) to create the texture and the view separately.
 
 > [!Note]  
-> This topic is useful for images that you create as simple 2D textures. For more complex resources, use [DDS](https://msdn.microsoft.com/library/windows/desktop/bb943990). For a full-featured DDS file reader, writer, and texture processing pipeline, see [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929).
+> This topic is useful for images that you create as simple 2D textures. For more complex resources, use [DDS](https://msdn.microsoft.com/library/windows/desktop/bb943990). For a full-featured DDS file reader, writer, and texture processing pipeline, see [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929).
 
  
 
@@ -134,8 +134,8 @@ Here is the header that you can include in your app. The header declares the **C
 //
 // Copyright (c) Microsoft Corporation. All rights reserved.
 //
-// http://go.microsoft.com/fwlink/?LinkId=248926
-// http://go.microsoft.com/fwlink/?LinkId=248929
+// https://go.microsoft.com/fwlink/?LinkId=248926
+// https://go.microsoft.com/fwlink/?LinkId=248929
 //--------------------------------------------------------------------------------------
 
 #ifdef _MSC_VER
@@ -196,8 +196,8 @@ Here is the full source that you can use in your app. The source implements the 
 //
 // Copyright (c) Microsoft Corporation. All rights reserved.
 //
-// http://go.microsoft.com/fwlink/?LinkId=248926
-// http://go.microsoft.com/fwlink/?LinkId=248929
+// https://go.microsoft.com/fwlink/?LinkId=248926
+// https://go.microsoft.com/fwlink/?LinkId=248929
 //--------------------------------------------------------------------------------------
 
 // We could load multi-frame images (TIFF/GIF) into a texture array.

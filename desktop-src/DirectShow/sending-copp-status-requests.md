@@ -53,7 +53,7 @@ The response is written into the **COPPStatus** member of the [**AMCOPPStatusOut
 1.  Calculate the OMAC tag for the block of data that appears after the **macKDI** member of the [**AMCOPPStatusOutput**](/windows/desktop/api/strmif/ns-strmif-_amcoppstatusoutput) structure (in other words, **cbSizeData** plus **COPPStatus**).
 2.  Compare this tag with the value in **macKDI**, using a straight **memcmp**.
 
-The OMAC 1 algorithm is described in detail at [http://www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html](http://go.microsoft.com/fwlink?linkID=161618). COPP uses the following OMAC-1 parameters:
+The OMAC 1 algorithm is described in detail at [https://www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html](https://go.microsoft.com/fwlink?linkID=161618). COPP uses the following OMAC-1 parameters:
 
 -   E = AES
 -   t = 128 bits

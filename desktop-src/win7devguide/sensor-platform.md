@@ -27,10 +27,10 @@ The [Sensor Class Extension](https://msdn.microsoft.com/library/windows/hardware
 
 <dl> <dt>
 
-[Sensor API](http://go.microsoft.com/?linkid=9669730)
+[Sensor API](https://go.microsoft.com/?linkid=9669730)
 </dt> <dt>
 
-[Windows Sensor And Location Platforms Developer Resources](http://go.microsoft.com/?linkid=9669731)
+[Windows Sensor And Location Platforms Developer Resources](https://go.microsoft.com/?linkid=9669731)
 </dt> </dl>
 
  

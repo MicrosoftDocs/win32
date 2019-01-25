@@ -14,7 +14,7 @@ The Unicode standard has established 16 additional "planes" of characters, each 
 
 ## About Supplementary Characters
 
-A supplementary character is a character located beyond the BMP, and a "surrogate" is a UTF-16 code value. For UTF-16, a "surrogate pair" is required to represent a single supplementary character. The first (high) surrogate is a 16-bit code value in the range U+D800 to U+DBFF. The second (low) surrogate is a 16-bit code value in the range U+DC00 to U+DFFF. Using the surrogate mechanism, UTF-16 can support all 1,114,112 potential Unicode characters. For more details about supplementary characters, surrogates, and surrogate pairs, refer to [The Unicode Standard](http://go.microsoft.com/fwlink/p/?linkid=161649).
+A supplementary character is a character located beyond the BMP, and a "surrogate" is a UTF-16 code value. For UTF-16, a "surrogate pair" is required to represent a single supplementary character. The first (high) surrogate is a 16-bit code value in the range U+D800 to U+DBFF. The second (low) surrogate is a 16-bit code value in the range U+DC00 to U+DFFF. Using the surrogate mechanism, UTF-16 can support all 1,114,112 potential Unicode characters. For more details about supplementary characters, surrogates, and surrogate pairs, refer to [The Unicode Standard](https://go.microsoft.com/fwlink/p/?linkid=161649).
 
 > [!Note]  
 > Windows 2000 introduces support for basic input, output, and simple sorting of supplementary characters. However, not all system components are compatible with supplementary characters.
@@ -23,7 +23,7 @@ A supplementary character is a character located beyond the BMP, and a "surrogat
 
 The operating system supports supplementary characters in the following ways:
 
--   Format 12 of the OpenType font cmap table directly supports the 4-byte character code. For more information, see the [OpenType font specification](http://www.microsoft.com/OpenType/OTSpec/cmap.md).
+-   Format 12 of the OpenType font cmap table directly supports the 4-byte character code. For more information, see the [OpenType font specification](https://www.microsoft.com/OpenType/OTSpec/cmap.md).
 -   Windows supports surrogate-enabled [input method editors (IMEs)](https://msdn.microsoft.com/en-us/library/Ee418266(v=VS.85).aspx).
 -   The [Windows GDI](https://msdn.microsoft.com/en-us/library/Dd145203(v=VS.85).aspx) API supports format 12 cmap tables in fonts so that surrogates can be displayed correctly.
 -   The [Uniscribe](uniscribe.md) API supports supplementary characters.

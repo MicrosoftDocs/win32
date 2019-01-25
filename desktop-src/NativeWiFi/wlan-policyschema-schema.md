@@ -15,7 +15,7 @@ api_location:
 
 The WLAN\_policy schema defines a WLAN policy profile used by the Native Wifi AutoConfig service.
 
-The root element of a WLAN policy profile is the [**WLANPolicy**](wlan-policyschema-wlanpolicy-element.md) element. Each profile will have exactly one root element. All WLAN\_policy elements are in the namespace `http://www.microsoft.com/networking/WLAN/policy/v1`.
+The root element of a WLAN policy profile is the [**WLANPolicy**](wlan-policyschema-wlanpolicy-element.md) element. Each profile will have exactly one root element. All WLAN\_policy elements are in the namespace `https://www.microsoft.com/networking/WLAN/policy/v1`.
 
 -   [WLAN\_policySchema Elements](wlan-policyschema-elements.md)
 -   [WLAN\_policySchema Simple Types](wlan-policyschema-simple-types.md)

@@ -171,7 +171,7 @@ In each mode, pressing the HOME key resets the parameters for that mode to their
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
 
 
 

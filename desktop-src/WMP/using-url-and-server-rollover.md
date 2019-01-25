@@ -44,7 +44,7 @@ Example Code
       <REF HREF="mms://Server1.proseware.com/Path/Rollover.wma"/>
       <REF HREF="mms://Server2.proseware.com/Path/Rollover.wma"/>
       <REF HREF="mms://Server3.proseware.com/Path/Rollover.wma"/>
-      <REF HREF="http://www.proseware.com/Path/Rollover.wma"/>
+      <REF HREF="https://www.proseware.com/Path/Rollover.wma"/>
    </ENTRY>
 </ASX>
 

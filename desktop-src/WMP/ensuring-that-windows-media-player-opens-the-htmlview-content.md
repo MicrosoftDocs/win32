@@ -59,7 +59,7 @@ function PlayASX()
     if(parseInt(Player.versionInfo) >= 9)
         {
             // Open the full-mode Player to show HTMLView.
-            Player.openPlayer("http://www.proseware.com/MyHTMLView.asx");
+            Player.openPlayer("https://www.proseware.com/MyHTMLView.asx");
         }
         else
         {
@@ -67,7 +67,7 @@ function PlayASX()
             Player.uiMode = "full";
             Player.height = 200;
             Player.width = 200;
-            Player.URL = "http://www.proseware.com/MyHTMLView.asx";
+            Player.URL = "https://www.proseware.com/MyHTMLView.asx";
         }
 }
 </SCRIPT>

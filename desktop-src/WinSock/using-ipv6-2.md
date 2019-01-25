@@ -40,7 +40,7 @@ These older tools are not provided on Windows Server 2003 and later. The "netsh
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](http://go.microsoft.com/fwlink/p/?linkid=193479)
+[IPv6 Technology Preview for Windows 2000](https://go.microsoft.com/fwlink/p/?linkid=193479)
 </dt> </dl>
 
  

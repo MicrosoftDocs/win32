@@ -24,10 +24,10 @@ ms.date: 05/31/2018
 
 # Coloring Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -39,7 +39,7 @@ VML extends HTML and CSS color syntax. When the attribute type of a VML element 
 
 ## Keyword Color Name
 
-HTML 4.0 defines a list of keyword color names. They are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. The RGB value for these 16 colors are defined in [HTML 4.0 specification](http://www.w3.org/TR/REC-html40/types.mdl#h-6-5) .
+HTML 4.0 defines a list of keyword color names. They are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. The RGB value for these 16 colors are defined in [HTML 4.0 specification](https://www.w3.org/TR/REC-html40/types.mdl#h-6-5) .
 
 For example, you can draw a rectangle filled with yellow by specifying `fillcolor="yellow"`, and give it a blue outline by specifying `strokecolor="blue"`, as shown in the following VML representation:
 
@@ -53,7 +53,7 @@ fillcolor="yellow" strokecolor="blue"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/Color/color1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Color/color1.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -73,7 +73,7 @@ fillcolor="#FDF9BA" strokecolor="blue"/>
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/Color/color2.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Color/color2.md)
 
 If the RGB in hexadecimal has a pattern such as XXYYZZ, you can abbreviate it to XYZ. For example, "\#66FF99" can be written out as "\#6F9".
 

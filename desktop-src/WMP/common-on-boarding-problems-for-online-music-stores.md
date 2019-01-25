@@ -26,7 +26,7 @@ Here is a list of common Windows Media Player on-boarding problems you should tr
 
     If your store installs a plug-in or an ActiveX control, you must provide the user an easy way to uninstall it. For example, Microsoft recently found that some online stores installed ActiveX controls in Windows Media Player 11 for Windows Vista that could not be removed through the Add/Remove Programs menu. After some investigation, Microsoft found that the ActiveX controls could be removed through the Add-on manager in Internet Explorer. It's important that you communicate (through a Help file, at the least) the way to install and uninstall ActiveX controls and plug-ins.
 
-    For more information on how to integrate your store with the security infrastructure in Windows Vista, see the article titled ["Developer Best Practices and Guidelines for Applications in a Least Privileged Environment"](http://go.microsoft.com/fwlink/p/?linkid=81232).
+    For more information on how to integrate your store with the security infrastructure in Windows Vista, see the article titled ["Developer Best Practices and Guidelines for Applications in a Least Privileged Environment"](https://go.microsoft.com/fwlink/p/?linkid=81232).
 
  
 

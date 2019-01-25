@@ -27,10 +27,10 @@ ms.date: 05/31/2018
 
 # Using the Shapetype Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
 
  
 
@@ -104,7 +104,7 @@ path="m10860,2187c10451,1746,9529,1018,9015,730,7865,152,6685,,5415,,4175,
 
 
 
-[Show Me](http://samples.msdn.microsoft.com/workshop/samples/vml/examples/ShapeType/type1.md)
+[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/ShapeType/type1.md)
 
 As you've learned, when a shape is instantiated from a shapetype, it inherits all of the property attributes from the shapetype. You can overwrite some or all of the inherited attributes by redefining attributes inside the <shape> element. Be aware that the inheritance is only one level. This is because only a <shape> element can reference a <shapetype> element. A <shapetype> element cannot reference another <shapetype> element.
 
@@ -133,7 +133,7 @@ For example, in the following VML representation, Rect1 and Rect2 are in GroupA,
 
 
 
-For more information about this element, see the [VML specification](http://www.w3.org/TR/NOTE-VML#-toc416858387) .
+For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858387) .
 
  
 

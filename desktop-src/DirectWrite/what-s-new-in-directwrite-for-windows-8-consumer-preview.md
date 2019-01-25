@@ -18,7 +18,7 @@ The following features and APIs were added or updated for Windows 10 Creators Up
 
 Windows 10 included APIs that allow apps to easily access fonts from a Windows font service. In the Windows 10 Creators Update, APIs for remote fonts are extended to allow easy access to fonts from other sources on the Web that can be accessed using HTTP or HTTPS. 
 
-The new remote-font APIs can be used with public or private Web services. In addition, they can be used to access raw, OpenType font files (.ttf, .otf., .ttc, .otc), or fonts packaged in [WOFF](http://www.w3.org/TR/WOFF/) or [WOFF2](http://www.w3.org/TR/WOFF2/) container formats. The new APIs are used in conjunction with existing APIs for queuing requests to download remote font data and for handling the actual download process.
+The new remote-font APIs can be used with public or private Web services. In addition, they can be used to access raw, OpenType font files (.ttf, .otf., .ttc, .otc), or fonts packaged in [WOFF](https://www.w3.org/TR/WOFF/) or [WOFF2](https://www.w3.org/TR/WOFF2/) container formats. The new APIs are used in conjunction with existing APIs for queuing requests to download remote font data and for handling the actual download process.
 
 Other new APIs make it easier for apps to work with custom fonts that are stored in the local file system or that are loaded into a memory buffer.
 
@@ -50,7 +50,7 @@ Starting in Windows 10 Anniversary Update, DirectWrite provides built-in support
 [Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd370990.aspx), which uses DirectWrite for text rendering, supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](https://msdn.microsoft.com/library/windows/desktop/dd368095) flag is enabled. For more information, see the following topics:
 
 -   [Color Fonts](color-fonts.md)
--   [DirectWrite color glyph sample](http://go.microsoft.com/fwlink/p/?LinkId=832476)
+-   [DirectWrite color glyph sample](https://go.microsoft.com/fwlink/p/?LinkId=832476)
 
 ### Support for Adobe Typekit and other font-service clients
 
@@ -68,14 +68,14 @@ The OpenType and TrueType font formats have long supported the ability for multi
 
 Starting in Windows 10, fonts that are included with Windows are available in an online service and are accessible via DirectWrite on any Windows 10 device. This applies to all Windows 10 editions, including Windows 10 Mobile, Xbox and HoloLens as well as the desktop client. This allows applications to display content using any Windows font even if the font is not currently installed on the device.
 
-Support for the DirectWrite font-service mechanisms has been implemented in the XAML framework, which means that any applications that use XAML require no code changes in order to take advantage of the font service. The [Downloadable fonts (XAML) code sample](http://go.microsoft.com/fwlink/p/?LinkId=620632) demonstrates this. Applications that call DirectWrite APIs directly will need to use new APIs to make use of the font-service mechanisms. For more information, see the following topics:
+Support for the DirectWrite font-service mechanisms has been implemented in the XAML framework, which means that any applications that use XAML require no code changes in order to take advantage of the font service. The [Downloadable fonts (XAML) code sample](https://go.microsoft.com/fwlink/p/?LinkId=620632) demonstrates this. Applications that call DirectWrite APIs directly will need to use new APIs to make use of the font-service mechanisms. For more information, see the following topics:
 
 -   [**IDWriteFactory3::GetSystemFontCollection**](https://msdn.microsoft.com/en-us/library/Dn890761(v=VS.85).aspx) method
 -   [**IDWriteTextLayout3**](idwritetextlayout3.md) interface
 -   [**IDWriteFontDownloadQueue**](https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx) interface
 -   [**IDWriteFontDownloadListener**](https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx) interface
 
-The [Downloadable fonts (DirectWrite) code sample](http://go.microsoft.com/fwlink/p/?LinkId=620539) illustrates the use of several of the new APIs.
+The [Downloadable fonts (DirectWrite) code sample](https://go.microsoft.com/fwlink/p/?LinkId=620539) illustrates the use of several of the new APIs.
 
 ### Font set APIs
 
@@ -102,7 +102,7 @@ DirectWrite’s text format and text layout interfaces support new line-spacing 
 -   [**IDWriteTextLayout3::GetLineMetrics**](idwritetextlayout3-getlinemetrics.md) method
 -   [**DWRITE\_LINE\_METRICS1**](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_line_metrics1) structure
 
-The [Line spacing (DirectWrite) code sample](http://go.microsoft.com/fwlink/p/?LinkId=620538) illustrates use of several of the new APIs, and also provides a visualization of all of the different line-spacing modes that makes it much easier to understand the various line-spacing options that are available.
+The [Line spacing (DirectWrite) code sample](https://go.microsoft.com/fwlink/p/?LinkId=620538) illustrates use of several of the new APIs, and also provides a visualization of all of the different line-spacing modes that makes it much easier to understand the various line-spacing options that are available.
 
 ### GDI interop
 
@@ -154,7 +154,7 @@ Here are several areas that help you implement rich text apps that can be tailor
 
 ### Chinese, Japanese, and Korean extensions C & D
 
-Every few years, the Unicode Consortium releases a standardized list of additions to Chinese, Japanese, and Korean Unified Ideograph block. With the Unicode 6.0 revision, they have released extension blocks C and D. These blocks of ideographs can be found on the Unicode website [Extension C](http://www.unicode.org/charts/PDF/U2A700.pdf) and [Extension D](http://www.unicode.org/charts/PDF/U2B740.pdf).
+Every few years, the Unicode Consortium releases a standardized list of additions to Chinese, Japanese, and Korean Unified Ideograph block. With the Unicode 6.0 revision, they have released extension blocks C and D. These blocks of ideographs can be found on the Unicode website [Extension C](https://www.unicode.org/charts/PDF/U2A700.pdf) and [Extension D](https://www.unicode.org/charts/PDF/U2B740.pdf).
 
 Starting with Windows 8, [DirectWrite](direct-write-portal.md) supports the Unicode codepoints for these new blocks of standardized CJK Ideographs, so you can use them in DirectWrite apps.
 

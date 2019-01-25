@@ -18,7 +18,7 @@ Do not use the string table in the manifest to specify strings. Instead, specify
 
 When the manifest is complete, call the [CTRPP](ctrpp.md) tool to generate code for your provider. Complete your provider and then run the LodCtr.exe tool to write the name of the binary file that contains the localized resource strings and resource IDs to the registry. You must have administrator privileges to run LodCtr.exe.
 
-The following example shows how to run the LodCtr.exe tool. For complete details on the LodCtr.exe tool, see [Microsoft TechNet](Http://go.microsoft.com/fwlink/p/?linkid=84000).
+The following example shows how to run the LodCtr.exe tool. For complete details on the LodCtr.exe tool, see [Microsoft TechNet](https://go.microsoft.com/fwlink/p/?linkid=84000).
 
 **LodCtr.exe** \[**/m:***manifest* \[*path*\]\]
 
@@ -32,10 +32,10 @@ The following is the performance counters schema that you can use to validate th
 
 ``` syntax
 <xs:schema
-  targetNamespace="http://schemas.microsoft.com/win/2005/12/counters"
+  targetNamespace="https://schemas.microsoft.com/win/2005/12/counters"
   elementFormDefault="qualified"
-  xmlns:man="http://schemas.microsoft.com/win/2005/12/counters"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  xmlns:man="https://schemas.microsoft.com/win/2005/12/counters"
+  xmlns:xs="https://www.w3.org/2001/XMLSchema">
 
   <xs:simpleType name="GUIDType">
     <xs:restriction base="xs:string">
@@ -467,14 +467,14 @@ The following shows an example manifest that defines performance counters.
 ```XML
 <!-- <?xml version="1.0" encoding="UTF-16"?> -->
 <instrumentationManifest     
-    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"    
+    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
     <instrumentation>
 
-        <counters xmlns="http://schemas.microsoft.com/win/2005/12/counters">
+        <counters xmlns="https://schemas.microsoft.com/win/2005/12/counters">
 
             <provider callback = "custom"
               applicationIdentity = "myprovider.exe"

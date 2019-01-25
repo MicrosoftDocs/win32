@@ -500,7 +500,7 @@ Certificate Extensions: 8
              Distribution Point Name:
                   Full Name:
                        URL=ldap:///CN=JDOMCSC%20Longhorn%20Enterprise%20Root%20CA,CN=JAYTEST7,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=jdomcsc,DC=nttest,DC=microsoft,DC=com?certificateRevocationList?base?objectClass=cRLDistributionPoint
-                       URL=http://jaytest7.jdomcsc.nttest.microsoft.com/CertEnroll/JDOMCSC%20Longhorn%20Enterprise%20Root%20CA.crl
+                       URL=https://jaytest7.jdomcsc.nttest.microsoft.com/CertEnroll/JDOMCSC%20Longhorn%20Enterprise%20Root%20CA.crl
 
     0000  30 82 01 62 30 82 01 5e  a0 82 01 5a a0 82 01 56   0..b0..^...Z...V
     0010  86 81 ea 6c 64 61 70 3a  2f 2f 2f 43 4e 3d 4a 44   ...ldap:///CN=JD
@@ -535,7 +535,7 @@ Certificate Extensions: 8
         [2]Authority Info Access
              Access Method=Certification Authority Issuer (1.3.6.1.5.5.7.48.2)
              Alternative Name:
-                  URL=http://jaytest7.jdomcsc.nttest.microsoft.com/CertEnroll/JAYTEST7.jdomcsc.nttest.microsoft.com_JDOMCSC%20Longhorn%20Enterprise%20Root%20CA.crt
+                  URL=https://jaytest7.jdomcsc.nttest.microsoft.com/CertEnroll/JAYTEST7.jdomcsc.nttest.microsoft.com_JDOMCSC%20Longhorn%20Enterprise%20Root%20CA.crt
 
     0000  30 82 01 81 30 81 e1 06  08 2b 06 01 05 05 07 30   0...0....+.....0
     0010  02 86 81 d4 6c 64 61 70  3a 2f 2f 2f 43 4e 3d 4a   ....ldap:///CN=J
@@ -552,7 +552,7 @@ Certificate Extensions: 8
     00c0  3f 62 61 73 65 3f 6f 62  6a 65 63 74 43 6c 61 73   ?base?objectClas
     00d0  73 3d 63 65 72 74 69 66  69 63 61 74 69 6f 6e 41   s=certificationA
     00e0  75 74 68 6f 72 69 74 79  30 81 9a 06 08 2b 06 01   uthority0....+..
-    00f0  05 05 07 30 02 86 81 8d  68 74 74 70 3a 2f 2f 6a   ...0....http://j
+    00f0  05 05 07 30 02 86 81 8d  68 74 74 70 3a 2f 2f 6a   ...0....https://j
     0100  61 79 74 65 73 74 37 2e  6a 64 6f 6d 63 73 63 2e   aytest7.jdomcsc.
     0110  6e 74 74 65 73 74 2e 6d  69 63 72 6f 73 6f 66 74   nttest.microsoft
     0120  2e 63 6f 6d 2f 43 65 72  74 45 6e 72 6f 6c 6c 2f   .com/CertEnroll/

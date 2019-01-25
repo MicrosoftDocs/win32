@@ -214,7 +214,7 @@ The following procedure describes how to use Logman with your VSS application.
 
 The trace log file is *x:\\*vss.etl.
 
-For more information about the Logman tool, see [Logman](http://go.microsoft.com/fwlink/p/?linkid=106888).
+For more information about the Logman tool, see [Logman](https://go.microsoft.com/fwlink/p/?linkid=106888).
 
 ## Using Tracelog
 
@@ -241,7 +241,7 @@ The following procedure describes how to use Tracelog.
 
 The trace log file is *x:\\*vss.etl.
 
-For more information about the Tracelog tool, see [Tracelog](http://go.microsoft.com/fwlink/p/?linkid=106889).
+For more information about the Tracelog tool, see [Tracelog](https://go.microsoft.com/fwlink/p/?linkid=106889).
 
  
 

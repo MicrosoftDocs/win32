@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Displaying Performance Data
 
-Most counters require two sample values in order to compute a displayable value. The formula for each counter determines if the counter requires two samples. For a list of counters and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](Http://go.microsoft.com/fwlink/p/?linkid=84422).
+Most counters require two sample values in order to compute a displayable value. The formula for each counter determines if the counter requires two samples. For a list of counters and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://go.microsoft.com/fwlink/p/?linkid=84422).
 
 [Collecting Performance Data](collecting-performance-data.md) shows how to retrieve sample data. Once you have the samples, you typically call [**PdhGetFormattedCounterValue**](/windows/desktop/api/Pdh/nf-pdh-pdhgetformattedcountervalue) to calculate a displayable value.
 

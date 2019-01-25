@@ -19,7 +19,7 @@ You can use the WMI scripting type library to call WMI Scripting API methods fro
 ## Using the WMI Scripting Type Library with Microsoft Visual Studio
 
 > [!Note]  
-> Visual InterDev 6.0 features have been integrated into [Microsoft Visual Studio .NET](Http://go.microsoft.com/fwlink/p/?linkid=84381).
+> Visual InterDev 6.0 features have been integrated into [Microsoft Visual Studio .NET](https://go.microsoft.com/fwlink/p/?linkid=84381).
 
  
 

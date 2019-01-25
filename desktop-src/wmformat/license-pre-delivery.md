@@ -25,7 +25,7 @@ Because pre-delivery is not done as a response to attempted access, it is typica
 
 License pre-delivery is similar to [Non-Silent License Acquisition](non-silent-license-acquisition.md). Follow the same steps, except that you don't have a DRM header to pass to [**IWMDRMLicenseManagement::AcquireLicense**](iwmdrmlicensemanagement-acquirelicense.md). The method will generate a challenge that is not content-specific that you can send to your license server.
 
-Alternatively you can use the [Windows Media Rights Manager](http://technet.microsoft.com/library/bb676133.aspx) to pre-deliver licenses.
+Alternatively you can use the [Windows Media Rights Manager](https://technet.microsoft.com/library/bb676133.aspx) to pre-deliver licenses.
 
 ## Related topics
 

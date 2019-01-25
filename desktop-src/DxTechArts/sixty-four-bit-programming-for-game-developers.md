@@ -42,7 +42,7 @@ The first thing most developers notice is that 64-bit processors provide a huge 
 -   32-bit applications built with the /LARGEADDRESSAWARE:YES linker flag on 32-bit Windows XP or Windows Server 2003 with the special /3gb boot option can address up to 3 GB. This constrains the kernel to only 1 GB which may cause some drivers and/or services to fail.
 -   32-bit applications built with the /LARGEADDRESSAWARE:YES linker flag on the 32-bit editions of Windows Vista, Windows Server 2008, and Windows 7 can address memory up to the number specified by the boot configuration data (BCD) element IncreaseUserVa. IncreaseUserVa can have a value ranging from 2048, the default, to 3072 (which matches the amount of memory configured by the /3gb boot option on Windows XP). The remainder of 4 GB is allocated to the kernel and can result in failing driver and service configurations.
 
-    For more information about BCD, see [Boot Configuration Data](http://msdn.microsoft.com/library/aa362692.aspx) on MSDN.
+    For more information about BCD, see [Boot Configuration Data](https://msdn.microsoft.com/library/aa362692.aspx) on MSDN.
 
 -   32-bit applications on 64-bit platforms can address up to 2 GB, or up to 4 GB with the /LARGEADDRESSAWARE:YES linker flag.
 -   64-bit applications use 43 bits for addressing, which provides 8 TB of virtual address for applications and 8 TB reserved for the kernel.
@@ -61,7 +61,7 @@ Sixty-four-bit Windows operating systems are binary compatible with the IA32 arc
 
 WOW64 has an execution layer that handles the marshalling of 32-bit data. WOW64 redirects DLL file requests, redirects some registry branches for 32-bit applications, and reflects some registry branches for 32- and 64-bit applications.
 
-More information on WOW64 can be found at [WOW64 Implementation Details](https://msdn.microsoft.com/library/windows/desktop/aa384274) on MSDN. For best practices for building applications that run on WOW64, see [Best Practices for WOW64](http://www.microsoft.com/whdc/system/platform/64bit/WoW64_bestprac.mspx) on Windows Hardware Developer Central.
+More information on WOW64 can be found at [WOW64 Implementation Details](https://msdn.microsoft.com/library/windows/desktop/aa384274) on MSDN. For best practices for building applications that run on WOW64, see [Best Practices for WOW64](https://www.microsoft.com/whdc/system/platform/64bit/WoW64_bestprac.mspx) on Windows Hardware Developer Central.
 
 ### Potential Compatibility Pitfalls
 
@@ -108,7 +108,7 @@ Pointers are 64-bits on a 64-bit OS, so casting pointers to other data types can
 <span id="Data_Types_and_Binary_Files"></span><span id="data_types_and_binary_files"></span><span id="DATA_TYPES_AND_BINARY_FILES"></span>**Data Types and Binary Files**
 </dt> <dd>
 
-While pointers increase from 32 bits to 64 on a 64-bit platform, other data types don't. Fixed-precision data types (DWORD32, DWORD64, INT32, INT64, LONG32, LONG64, UINT32, UINT64) can be used in places where the size of the data type must be known; for example, in a binary file structure. The changes in pointer size and data alignment require special handling to ensure 32-bit-to-64-bit compatibility. More information can be found in [Getting Ready for 64-bit Windows: The New Data Types](http://msdn.microsoft.com/library/aa384264.aspx).
+While pointers increase from 32 bits to 64 on a 64-bit platform, other data types don't. Fixed-precision data types (DWORD32, DWORD64, INT32, INT64, LONG32, LONG64, UINT32, UINT64) can be used in places where the size of the data type must be known; for example, in a binary file structure. The changes in pointer size and data alignment require special handling to ensure 32-bit-to-64-bit compatibility. More information can be found in [Getting Ready for 64-bit Windows: The New Data Types](https://msdn.microsoft.com/library/aa384264.aspx).
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Some Win32 APIs have been deprecated and replaced with more neutral API calls su
 
 The performance penalty for non-aligned accesses is greater on x64 platform than on an x86 platform. The TYPE\_ALIGNMENT(t) and the FIELD\_OFFSET(t, member) macros can be used to determine alignment information that can used directly by code. Correct use of these aforementioned macros should eliminate potential non-aligned access penalties.
 
-More information on the TYPE\_ALIGNMENT macro, the FIELD\_OFFSET macro, and general 64-bit programming information can be found at [64-bit Windows Programming: Migration Tips: Additional Considerations](http://msdn.microsoft.com/library/aa384137.aspx) and [Getting Ready for 64-bit Windows: Rules for Using Pointers](http://msdn.microsoft.com/library/aa384242.aspx).
+More information on the TYPE\_ALIGNMENT macro, the FIELD\_OFFSET macro, and general 64-bit programming information can be found at [64-bit Windows Programming: Migration Tips: Additional Considerations](https://msdn.microsoft.com/library/aa384137.aspx) and [Getting Ready for 64-bit Windows: Rules for Using Pointers](https://msdn.microsoft.com/library/aa384242.aspx).
 
 </dd> <dt>
 
@@ -147,13 +147,13 @@ All developers need to re-profile any applications that are being ported to new 
 
 Some structures may have their internal data types reordered to conserve memory space and improve caching. Array indices can be used instead of a full 64-bit pointer in some cases. The /fp:fast flag can improve floating-point optimizing and vectorization. Using \_\_restrict, declspec(restrict), and declspec(noalias) can help the compiler resolve aliasing and improve use of the register file.
 
-More information on /fp:fast can be found at [/fp (Specify Floating-Point Behavior)](http://msdn.microsoft.com/library/e7s85ffb.aspx).
+More information on /fp:fast can be found at [/fp (Specify Floating-Point Behavior)](https://msdn.microsoft.com/library/e7s85ffb.aspx).
 
-More information on \_\_restrict can be found at [Microsoft-Specific Modifiers](http://msdn.microsoft.com/library/6bh0054z.aspx).
+More information on \_\_restrict can be found at [Microsoft-Specific Modifiers](https://msdn.microsoft.com/library/6bh0054z.aspx).
 
-More information on declspec(restrict) can be found at [Optimization Best Practices](http://msdn.microsoft.com/library/ms235601.aspx).
+More information on declspec(restrict) can be found at [Optimization Best Practices](https://msdn.microsoft.com/library/ms235601.aspx).
 
-More information on declspec(noalias) can be found at [\_\_declspec(noalias)](http://msdn.microsoft.com/library/k649tyc7(VS.80).aspx).
+More information on declspec(noalias) can be found at [\_\_declspec(noalias)](https://msdn.microsoft.com/library/k649tyc7(VS.80).aspx).
 
 ## Managed Code on a 64-bit Operating System
 
@@ -169,7 +169,7 @@ When you compile applications as 64-bit, the calculations get more complicated. 
 
 Sixty-four-bit architectures allow developers to push the limitations on how games look, sound, and play. Transitioning from 32-bit programming to 64-bit programming is not trivial, however. By understanding the differences between the two, and by using the newest tools, the transition to 64-bit platforms can be easier and faster.
 
-More information on 64-bit programming can be found at [Visual C++ Developer Center: 64-Bit Programming](http://msdn.microsoft.com/visualc/aa336463.aspx).
+More information on 64-bit programming can be found at [Visual C++ Developer Center: 64-Bit Programming](https://msdn.microsoft.com/visualc/aa336463.aspx).
 
  
 

@@ -19,7 +19,7 @@ A full-range speaker is capable of playing sounds over the full range from bass 
 The channel-configuration mask for this property is in the same format as the channel-configuration mask for the [**PKEY\_AudioEndpoint\_PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md) property. For more information about channel-configuration masks, see the following:
 
 -   The description of the KSPROPERTY\_AUDIO\_CHANNEL\_CONFIG property in the Windows DDK documentation.
--   The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the [Audio Device Technologies for Windows](http://go.microsoft.com/fwlink/p/?linkid=62989) website.
+-   The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the [Audio Device Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=62989) website.
 
 The system obtains the channel-configuration mask for the PKEY\_AudioEndpoint\_FullRangeSpeakers property from the user. The user enters this information through the Windows multimedia control panel, Mmsys.cpl. For more information about Mmsys.cpl, see the Windows DDK documentation.
 

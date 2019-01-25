@@ -68,7 +68,7 @@ This method generates textures that contain glyphs that represent the input text
 
 Text will not be rendered to the device; ID3DX10Font::DrawText must still be called to render the text. However, by preloading text into video memory, ID3DX10Font::DrawText will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](http://msdn2.microsoft.com/en-us/library/ms534004.aspx).
+This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](https://msdn2.microsoft.com/en-us/library/ms534004.aspx).
 
 ## Requirements
 
