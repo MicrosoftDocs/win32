@@ -124,7 +124,7 @@ While a normal pointer is quite familiar to any C/C++ developer, COM often uses 
 Unlike a C++ object, you don't access a COM object's methods directly. Instead, you must obtain a pointer to an interface that exposes the method. To invoke the method, you use essentially the same syntax as you would to invoke a pointer to a C++ method. For example, to invoke the **IMyInterface::DoSomething** method, you would use the following syntax.
 
 ```cpp
-IMyInterface * pMyIface = NULL;
+IMyInterface * pMyIface = nullptr;
 ...
 pMyIface->DoSomething(...);
 ```
@@ -132,9 +132,9 @@ pMyIface->DoSomething(...);
 The need for a second level of indirection comes from the fact that you don't create interface pointers directly. You must call one of a variety of methods, such as the **D3D12CreateDevice** method shown above. To use such a method to obtain an interface pointer, you declare a variable as a pointer to the desired interface, and then you pass the address of that variable to the method. In other words, you pass the address of a pointer to the method. When the method returns, the variable points to the requested interface, and you can use that pointer to call any of the interface's methods.
 
 ```cpp
-IDXGIAdapter * pIDXGIAdapter = NULL;
+IDXGIAdapter * pIDXGIAdapter = nullptr;
 ...
-ID3D12Device * pD3D12Device = NULL;
+ID3D12Device * pD3D12Device = nullptr;
 HRESULT hr = ::D3D12CreateDevice(
     pIDXGIAdapter,
     D3D_FEATURE_LEVEL_11_0,
@@ -162,7 +162,7 @@ The **CoCreateInstance** function has five parameters. For the COM objects you w
 Set this to the CLSID of the object that you want to create.
 
 *pUnkOuter*
-Set to `nullptr` (or NULL). This parameter is used only if you are aggregating objects. A discussion of COM aggregation is outside the scope of this topic.
+Set to `nullptr`. This parameter is used only if you are aggregating objects. A discussion of COM aggregation is outside the scope of this topic.
 
 *dwClsContext*
 Set to CLSCTX_INPROC_SERVER. This setting indicates that the object is implemented as a DLL and runs as part of your application's process.
@@ -196,17 +196,17 @@ For example, the following code fragment calls **IDXGIFactory2::CreateSwapChainF
 ```cpp
 HRESULT hr = S_OK;
 
-IDXGISwapChain1 * pDXGISwapChain1 = NULL;
+IDXGISwapChain1 * pDXGISwapChain1 = nullptr;
 hr = pIDXGIFactory->CreateSwapChainForHwnd(
     pCommandQueue, // For D3D12, this is a pointer to a direct command queue.
     hWnd,
     &swapChainDesc,
-    NULL,
-    NULL,
+    nullptr,
+    nullptr,
     &pDXGISwapChain1));
 if (FAILED(hr)) return hr;
 
-IDXGISwapChain3 * pDXGISwapChain3 = NULL;
+IDXGISwapChain3 * pDXGISwapChain3 = nullptr;
 hr = pDXGISwapChain1->QueryInterface(IID_IDXGISwapChain3, (LPVOID*)&pDXGISwapChain3);
 if (FAILED(hr)) return hr;
 ```
@@ -223,28 +223,28 @@ Properly handling reference counting is a crucial part of COM programming. Failu
 
 Whenever you obtain a new interface pointer, the reference count must be incremented by a call to [**IUnknown::AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref). However, your application doesn't usually need to call this method. If you obtain an interface pointer by calling an object creation method, or by calling **IUnknown::QueryInterface**, then the object automatically increments the reference count. However, if you create an interface pointer in some other way, such as copying an existing pointer, then you must explicitly call **IUnknown::AddRef**. Otherwise, when you release the original interface pointer, the object may be destroyed even though you may still need to use the copy of the pointer.
 
-You must release all interface pointers, regardless of whether you or the object incremented the reference count. When you no longer need an interface pointer, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) to decrement the reference count. A common practice is to initialize all interface pointers to NULL, and then to set them back to NULL when they are released. That convention allows you to test all interface pointers in your cleanup code. Those that are not NULL are still active, and you need to release them before you terminate the application.
+You must release all interface pointers, regardless of whether you or the object incremented the reference count. When you no longer need an interface pointer, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) to decrement the reference count. A common practice is to initialize all interface pointers to `nullptr`, and then to set them back to `nullptr` when they are released. That convention allows you to test all interface pointers in your cleanup code. Those that are not `nullptr` are still active, and you need to release them before you terminate the application.
 
 The following code fragment extends the sample shown earlier to illustrate how to handle reference counting.
 
 ```cpp
 HRESULT hr = S_OK;
 
-IDXGISwapChain1 * pDXGISwapChain1 = NULL;
+IDXGISwapChain1 * pDXGISwapChain1 = nullptr;
 hr = pIDXGIFactory->CreateSwapChainForHwnd(
     pCommandQueue, // For D3D12, this is a pointer to a direct command queue.
     hWnd,
     &swapChainDesc,
-    NULL,
-    NULL,
+    nullptr,
+    nullptr,
     &pDXGISwapChain1));
 if (FAILED(hr)) return hr;
 
-IDXGISwapChain3 * pDXGISwapChain3 = NULL;
+IDXGISwapChain3 * pDXGISwapChain3 = nullptr;
 hr = pDXGISwapChain1->QueryInterface(IID_IDXGISwapChain3, (LPVOID*)&pDXGISwapChain3);
 if (FAILED(hr)) return hr;
 
-IDXGISwapChain3 * pDXGISwapChain3Copy = NULL;
+IDXGISwapChain3 * pDXGISwapChain3Copy = nullptr;
 
 // Make a copy of the IDXGISwapChain3 interface pointer.
 // Call AddRef to increment the reference count and to ensure that
@@ -254,20 +254,20 @@ pDXGISwapChain3Copy->AddRef();
 ...
 // Cleanup code. Check to see whether the pointers are still active.
 // If they are, then call Release to release the interface.
-if (pDXGISwapChain1 != NULL)
+if (pDXGISwapChain1 != nullptr)
 {
     pDXGISwapChain1->Release();
-    pDXGISwapChain1 = NULL;
+    pDXGISwapChain1 = nullptr;
 }
-if (pDXGISwapChain3 != NULL)
+if (pDXGISwapChain3 != nullptr)
 {
     pDXGISwapChain3->Release();
-    pDXGISwapChain3 = NULL;
+    pDXGISwapChain3 = nullptr;
 }
-if (pDXGISwapChain3Copy != NULL)
+if (pDXGISwapChain3Copy != nullptr)
 {
     pDXGISwapChain3Copy->Release();
-    pDXGISwapChain3Copy = NULL;
+    pDXGISwapChain3Copy = nullptr;
 }
 ```
 
