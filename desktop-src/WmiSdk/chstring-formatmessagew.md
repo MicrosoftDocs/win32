@@ -1,8 +1,6 @@
 ---
 Description: 'The overloaded FormatMessageW method formats a message string.'
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
 ms.assetid: '45780467-d3aa-4927-aa53-60e5ee277c27'
 ms.tgt_platform: multiple
 title: 'CHString::FormatMessageW methods'

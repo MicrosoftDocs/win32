@@ -35,7 +35,6 @@ Abstract:
     This module contains a stub implementation of a Sensor Adapter
     plug-in for the Windows Biometric service.
 
-Author:
 
     -
 

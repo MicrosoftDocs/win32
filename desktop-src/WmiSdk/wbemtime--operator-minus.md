@@ -1,8 +1,6 @@
 ---
 Description: 'The WBEMTime class subtraction operator (&\#8211;) has been overloaded to:'
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
 ms.assetid: '0fa51aab-7ea2-4af7-bb12-1646388b0405'
 ms.tgt_platform: multiple
 title: 'WBEMTime::operator- operators'

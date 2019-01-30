@@ -1,8 +1,6 @@
 ---
 Description: 'The GetLocalOffsetForDate method returns the offset in minutes (+ or &\#8211;) between GMT and local time for the time supplied in the argument.'
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
 ms.assetid: '15cc5f45-604c-4335-bcd3-92d62dc15420'
 ms.tgt_platform: multiple
 title: 'WBEMTime::GetLocalOffsetForDate methods'

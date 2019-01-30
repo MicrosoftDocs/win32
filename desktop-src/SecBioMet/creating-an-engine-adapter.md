@@ -30,7 +30,6 @@ Abstract:
     This module contains a stub implementation of an Engine Adapter
     plug-in for the Windows Biometric service.
 
-Author:
 
     -
 

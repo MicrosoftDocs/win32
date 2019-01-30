@@ -1,8 +1,6 @@
 ---
 Description: 'The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.'
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
 ms.assetid: '1d6355bc-7df2-4aa3-8e47-0239d726ed7d'
 ms.tgt_platform: multiple
 title: 'CHStringArray::InsertAt methods'
