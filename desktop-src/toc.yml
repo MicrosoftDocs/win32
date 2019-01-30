@@ -239,6 +239,8 @@
           items: 
           - name: "Getting Started with DirectX Graphics"
             href: getting-started-with-directx-graphics.md
+          - name: "Programming DirectX with COM"
+            href: prog-dx-with-com.md
           - name: "Direct2D"
             href: direct2d/direct2d-portal.md
           - name: "Direct3D"
