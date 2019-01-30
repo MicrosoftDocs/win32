@@ -440,7 +440,7 @@
         - name: "GetDataFromIDList Method"
           href: /windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getdatafromidlist(pcuidlist_relative)
         - name: "GetPropertyFromIDList Methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh289343(v=VS.85).aspx
+          href: citemidfactory-getpropertyfromidlist-methods.md
           items: 
           - name: "GetPropertyFromIDList Method"
             href: https://msdn.microsoft.com/en-us/library/Hh289341(v=VS.85).aspx

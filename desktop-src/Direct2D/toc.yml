@@ -903,7 +903,7 @@
         - name: "SetOpacity method"
           href: https://msdn.microsoft.com/en-us/library/Dd371181(v=VS.85).aspx
         - name: "SetTransform Overloaded method"
-          href: https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx
+          href: id2d1brush-settransform.md
           items: 
           - name: "SetTransform Method (D2D1_MATRIX_3X2_F&)"
             href: https://msdn.microsoft.com/en-us/library/Dd371186(v=VS.85).aspx
@@ -1052,7 +1052,7 @@
         - name: "CreateDeviceContext method"
           href: https://msdn.microsoft.com/en-us/library/Hh404545(v=VS.85).aspx
         - name: "CreatePrintControl methods"
-          href: /windows/desktop/api/d2d1_1/nf-d2d1_1-createprintcontrol
+          href: id2d1device-createprintcontrol.md
           items: 
           - name: "CreatePrintControl method (IWICImagingFactory*, IPrintDocumentPackageTarget*, D2D1_PRINT_CONTROL_PROPERTIES*, ID2D1PrintControl**)"
             href: https://msdn.microsoft.com/en-us/library/Hh404550(v=VS.85).aspx
@@ -1124,7 +1124,7 @@
           - name: "CreateBitmapBrush method (ID2D1Bitmap*, D2D1_BITMAP_BRUSH_PROPERTIES1, D2D1_BRUSH_PROPERTIES*, ID2D1BitmapBrush1**)"
             href: https://msdn.microsoft.com/en-us/library/JJ841133(v=VS.85).aspx
         - name: "CreateBitmapFromDxgiSurface methods"
-          href: /windows/desktop/api/d2d1_1/nf-d2d1_1-createbitmapfromdxgisurface
+          href: id2d1devicecontext-createbitmapfromdxgisurface-overload.md
           items: 
           - name: "CreateBitmapFromDxgiSurface method (IDXGISurface*, D2D1_BITMAP_PROPERTIES1*, ID2D1Bitmap1**)"
             href: https://msdn.microsoft.com/en-us/library/Hh404482(v=VS.85).aspx
@@ -1263,7 +1263,7 @@
         - name: "CreateImageSourceFromDxgi method"
           href: https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx
         - name: "CreateImageSourceFromWic methods"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic
+          href: id2d1devicecontext2-createimagesourcefromwic-overload.md
           items: 
           - name: "CreateImageSourceFromWic (IWICBitmapSource*, D2D1_IMAGE_SOURCE_LOADING_OPTIONS, D2D1_ALPHA_MODE, ID2D1ImageSourceFromWic**) method"
             href: https://msdn.microsoft.com/en-us/library/Dn890792(v=VS.85).aspx
@@ -1272,14 +1272,14 @@
           - name: "CreateImageSourceFromWic (IWICBitmapSource*, ID2D1ImageSourceFromWic**) method"
             href: https://msdn.microsoft.com/en-us/library/Dn890794(v=VS.85).aspx
         - name: "CreateInk methods"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-createink
+          href: id2d1devicecontext2-createink-overload.md
           items: 
           - name: "CreateInk (D2D1_INK_POINT&, ID2D1Ink**) method"
             href: https://msdn.microsoft.com/en-us/library/Dn900367(v=VS.85).aspx
           - name: "CreateInk (D2D1_INK_POINT*, ID2D1Ink**) method"
             href: https://msdn.microsoft.com/en-us/library/Dn900368(v=VS.85).aspx
         - name: "CreateInkStyle methods"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-createinkstyle
+          href: id2d1devicecontext2-createinkstyle-overload.md
           items: 
           - name: "CreateInkStyle (D2D1_INK_STYLE_PROPERTIES&, ID2D1InkStyle **) method"
             href: https://msdn.microsoft.com/en-us/library/Dn900369(v=VS.85).aspx
@@ -1310,7 +1310,7 @@
         - name: "CreateSpriteBatch method"
           href: https://msdn.microsoft.com/en-us/library/Mt619827(v=VS.85).aspx
         - name: "DrawSpriteBatch methods"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch
+          href: id2d1devicecontext3-drawspritebatch-overloaded.md
           items: 
           - name: "DrawSpriteBatch(ID2D1SpriteBatch*, UINT32, UINT32, ID2D1Bitmap*, D2D1_BITMAP_INTERPOLATION_MODE, D2D1_SPRITE_OPTIONS) method"
             href: https://msdn.microsoft.com/en-us/library/Mt619828(v=VS.85).aspx
@@ -1494,14 +1494,14 @@
           - name: "CreateDrawingStateBlock Method (ID2D1DrawingStateBlock**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371253(v=VS.85).aspx
         - name: "CreateDxgiSurfaceRenderTarget Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget
+          href: id2d1factory-createdxgisurfacerendertarget.md
           items: 
           - name: "CreateDxgiSurfaceRenderTarget Method (IDXGISurface*,D2D1_RENDER_TARGET_PROPERTIES&,ID2D1RenderTarget**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371264(v=VS.85).aspx
           - name: "CreateDxgiSurfaceRenderTarget Method (IDXGISurface*,D2D1_RENDER_TARGET_PROPERTIES*,ID2D1RenderTarget**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx
         - name: "CreateEllipseGeometry Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createellipsegeometry
+          href: id2d1factory-createellipsegeometry.md
           items: 
           - name: "CreateEllipseGeometry Method (D2D1_ELLIPSE&,ID2D1EllipseGeometry**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371270(v=VS.85).aspx
@@ -1510,7 +1510,7 @@
         - name: "CreateGeometryGroup method"
           href: https://msdn.microsoft.com/en-us/library/Dd371273(v=VS.85).aspx
         - name: "CreateHwndRenderTarget Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget
+          href: id2d1factory-createhwndrendertarget.md
           items: 
           - name: "CreateHwndRenderTarget Method (D2D1_RENDER_TARGET_PROPERTIES*,D2D1_HWND_RENDER_TARGET_PROPERTIES*,ID2D1HwndRenderTarget**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx
@@ -1519,14 +1519,14 @@
         - name: "CreatePathGeometry method"
           href: https://msdn.microsoft.com/en-us/library/Dd371282(v=VS.85).aspx
         - name: "CreateRectangleGeometry Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createrectanglegeometry
+          href: id2d1factory-createrectanglegeometry.md
           items: 
           - name: "CreateRectangleGeometry Method (D2D1_RECT_F*,ID2D1RectangleGeometry**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371286(v=VS.85).aspx
           - name: "CreateRectangleGeometry Method (D2D1_RECT_F&,ID2D1RectangleGeometry**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371289(v=VS.85).aspx
         - name: "CreateRoundedRectangleGeometry Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createroundedrectanglegeometry
+          href: id2d1factory-createroundedrectanglegeometry.md
           items: 
           - name: "CreateRoundedRectangleGeometry Method (D2D1_ROUNDED_RECT&,ID2D1RoundedRectangleGeometry**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371293(v=VS.85).aspx
@@ -1540,7 +1540,7 @@
           - name: "CreateStrokeStyle Method (D2D1_STROKE_STYLE_PROPERTIES*,FLOAT*,ID2D1StrokeStyle**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371298(v=VS.85).aspx
         - name: "CreateTransformedGeometry Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry
+          href: id2d1factory-createtransformedgeometry.md
           items: 
           - name: "CreateTransformedGeometry Method (ID2D1Geometry*,D2D1_MATRIX_3X2_F*,ID2D1TransformedGeometry**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx
@@ -1723,7 +1723,7 @@
           - name: "FillContainsPoint Method (D2D1_POINT_2F,D2D1_MATRIX_3X2_F*,FLOAT,BOOL*)"
             href: https://msdn.microsoft.com/en-us/library/Dd316687(v=VS.85).aspx
         - name: "GetBounds Overloaded method"
-          href: /windows/desktop/api/d2d1_1/nf-d2d1_1-getbounds
+          href: id2d1geometry-getbounds.md
           items: 
           - name: "GetBounds Method (D2D1_MATRIX_3X2_F*,D2D1_RECT_F*)"
             href: https://msdn.microsoft.com/en-us/library/Dd316699(v=VS.85).aspx
@@ -1810,14 +1810,14 @@
         href: https://msdn.microsoft.com/en-us/library/Dd316592(v=VS.85).aspx
         items: 
         - name: "AddArc Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-addarc
+          href: id2d1geometrysink-addarc.md
           items: 
           - name: "AddArc Method (D2D1_ARC_SEGMENT&)"
             href: https://msdn.microsoft.com/en-us/library/Dd316597(v=VS.85).aspx
           - name: "AddArc Method (D2D1_ARC_SEGMENT*)"
             href: https://msdn.microsoft.com/en-us/library/Dd316595(v=VS.85).aspx
         - name: "AddBezier Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-addbezier
+          href: id2d1geometrysink-addbezier.md
           items: 
           - name: "AddBezier Method (D2D1_BEZIER_SEGMENT&)"
             href: https://msdn.microsoft.com/en-us/library/Dd316601(v=VS.85).aspx
@@ -1826,7 +1826,7 @@
         - name: "AddLine method"
           href: https://msdn.microsoft.com/en-us/library/Dd316604(v=VS.85).aspx
         - name: "AddQuadraticBezier Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-addquadraticbezier
+          href: id2d1geometrysink-addquadraticbezier.md
           items: 
           - name: "AddQuadraticBezier Method (D2D1_QUADRATIC_BEZIER_SEGMENT&)"
             href: https://msdn.microsoft.com/en-us/library/Dd316614(v=VS.85).aspx
@@ -1873,7 +1873,7 @@
         - name: "GetHwnd method"
           href: https://msdn.microsoft.com/en-us/library/Dd371470(v=VS.85).aspx
         - name: "Resize Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-resize
+          href: id2d1hwndrendertarget-resize.md
           items: 
           - name: "Resize Method (D2D1_SIZE_U&)"
             href: https://msdn.microsoft.com/en-us/library/Dd371479(v=VS.85).aspx
@@ -1920,7 +1920,7 @@
         href: https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx
         items: 
         - name: "EnsureCached methods"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-ensurecached
+          href: id2d1imagesourcefromwic-ensurecached-overload.md
           items: 
           - name: "EnsureCached method (D2D1_RECT_U*)"
             href: https://msdn.microsoft.com/en-us/library/Dn900419(v=VS.85).aspx
@@ -1929,7 +1929,7 @@
         - name: "GetSource method"
           href: https://msdn.microsoft.com/en-us/library/Dn900422(v=VS.85).aspx
         - name: "TrimCache method"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-trimcache
+          href: id2d1imagesourcefromwic-trimcache-overload.md
           items: 
           - name: "TrimCache method (D2D1_RECT_U*)"
             href: https://msdn.microsoft.com/en-us/library/Dn900423(v=VS.85).aspx
@@ -1951,7 +1951,7 @@
         - name: "RemoveSegmentsAtEnd method"
           href: https://msdn.microsoft.com/en-us/library/Dn900439(v=VS.85).aspx
         - name: "SetSegmentAtEnd methods"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-setsegmentatend
+          href: id2d1ink-setsegmentatend-overload.md
           items: 
           - name: "SetSegmentAtEnd method (D2D1_INK_BEZIER_SEGMENT*)"
             href: https://msdn.microsoft.com/en-us/library/Dn900440(v=VS.85).aspx
@@ -1987,7 +1987,7 @@
         - name: "SetNibShape method"
           href: https://msdn.microsoft.com/en-us/library/Dn900430(v=VS.85).aspx
         - name: "SetNibTransform method"
-          href: /windows/desktop/api/d2d1_3/nf-d2d1_3-setnibtransform
+          href: id2d1inkstyle-setnibtransform-overload.md
           items: 
           - name: "SetNibTransform method (D2D1_MATRIX_3X2_F*)"
             href: https://msdn.microsoft.com/en-us/library/Dn900431(v=VS.85).aspx
@@ -2139,7 +2139,7 @@
           - name: "SetValue(U, constBYTE*, UINT32) method"
             href: https://msdn.microsoft.com/en-us/library/JJ151752(v=VS.85).aspx
         - name: "SetValueByName methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh997717(v=VS.85).aspx
+          href: id2d1properties-setvaluebyname-overload.md
           items: 
           - name: "SetValueByName Method(PCWSTR, D2D1_PROPERTY_TYPE, CONST BYTE, dataSize)"
             href: https://msdn.microsoft.com/en-us/library/Hh997719(v=VS.85).aspx
@@ -2226,7 +2226,7 @@
           - name: "CreateBitmapFromWicBitmap Method (IWICBitmapSource*,D2D1_BITMAP_PROPERTIES*,ID2D1Bitmap**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371792(v=VS.85).aspx
         - name: "CreateCompatibleRenderTarget Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget
+          href: id2d1rendertarget-createcompatiblerendertarget.md
           items: 
           - name: "CreateCompatibleRenderTarget Method (ID2D1BitmapRenderTarget**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371825(v=VS.85).aspx
@@ -2241,14 +2241,14 @@
           - name: "CreateCompatibleRenderTarget Method (D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371811(v=VS.85).aspx
         - name: "CreateGradientStopCollection Overloaded method"
-          href: https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx
+          href: id2d1rendertarget-creategradientstopcollection.md
           items: 
           - name: "CreateGradientStopCollection Method (D2D1_GRADIENT_STOP*,ID2D1GradientStopCollection**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371832(v=VS.85).aspx
           - name: "CreateGradientStopCollection Method (D2D1_GRADIENT_STOP*,D2D1_GAMMA,D2D1_EXTEND_MODE,ID2D1GradientStopCollection**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371830(v=VS.85).aspx
         - name: "CreateLayer Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createlayer
+          href: id2d1rendertarget-createlayer.md
           items: 
           - name: "CreateLayer Method (ID2D1Layer**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371839(v=VS.85).aspx
@@ -2257,7 +2257,7 @@
           - name: "CreateLayer Method (D2D1_SIZE_F,ID2D1Layer**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371835(v=VS.85).aspx
         - name: "CreateLinearGradientBrush Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createlineargradientbrush
+          href: id2d1rendertarget-createlineargradientbrush.md
           items: 
           - name: "CreateLinearGradientBrush Method (D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES&,D2D1_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1LinearGradientBrush**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371850(v=VS.85).aspx
@@ -2268,7 +2268,7 @@
         - name: "CreateMesh method"
           href: https://msdn.microsoft.com/en-us/library/Dd371851(v=VS.85).aspx
         - name: "CreateRadialGradientBrush Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createradialgradientbrush
+          href: id2d1rendertarget-createradialgradientbrush.md
           items: 
           - name: "CreateRadialGradientBrush Method (D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,D2D1_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371861(v=VS.85).aspx
@@ -2279,7 +2279,7 @@
         - name: "CreateSharedBitmap method"
           href: https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx
         - name: "CreateSolidColorBrush Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush
+          href: id2d1rendertarget-createsolidcolorbrush.md
           items: 
           - name: "CreateSolidColorBrush Method (D2D1_COLOR_F&,ID2D1SolidColorBrush**)"
             href: https://msdn.microsoft.com/en-us/library/Dd371871(v=VS.85).aspx
@@ -2297,7 +2297,7 @@
           - name: "DrawBitmap Method (ID2D1Bitmap*,D2D1_RECT_F*,FLOAT,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_RECT_F*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371876(v=VS.85).aspx
         - name: "DrawEllipse Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-drawellipse
+          href: id2d1rendertarget-drawellipse.md
           items: 
           - name: "DrawEllipse Method (D2D1_ELLIPSE&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371886(v=VS.85).aspx
@@ -2310,14 +2310,14 @@
         - name: "DrawLine method"
           href: https://msdn.microsoft.com/en-us/library/Dd371895(v=VS.85).aspx
         - name: "DrawRectangle Overloaded method"
-          href: https://msdn.microsoft.com/en-us/library/Dd742846(v=VS.85).aspx
+          href: id2d1rendertarget-drawrectangle.md
           items: 
           - name: "DrawRectangle Method (D2D1_RECT_F&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx
           - name: "DrawRectangle Method (D2D1_RECT_F*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371899(v=VS.85).aspx
         - name: "DrawRoundedRectangle Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-drawroundedrectangle
+          href: id2d1rendertarget-drawroundedrectangle.md
           items: 
           - name: "DrawRoundedRectangle Method (D2D1_ROUNDED_RECT&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371910(v=VS.85).aspx
@@ -2335,7 +2335,7 @@
         - name: "EndDraw method"
           href: https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx
         - name: "FillEllipse Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-fillellipse
+          href: id2d1rendertarget-fillellipse.md
           items: 
           - name: "FillEllipse Method (D2D1_ELLIPSE&,ID2D1Brush*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371930(v=VS.85).aspx
@@ -2353,14 +2353,14 @@
           - name: "FillOpacityMask Method (ID2D1Bitmap*,ID2D1Brush*,D2D1_OPACITY_MASK_CONTENT,D2D1_RECT_F*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371943(v=VS.85).aspx
         - name: "FillRectangle Overloaded method"
-          href: https://msdn.microsoft.com/en-us/library/Dd742851(v=VS.85).aspx
+          href: id2d1rendertarget-fillrectangle.md
           items: 
           - name: "FillRectangle Method (D2D1_RECT_F&,ID2D1Brush*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx
           - name: "FillRectangle Method (D2D1_RECT_F*,ID2D1Brush*)"
             href: https://msdn.microsoft.com/en-us/library/Dd371950(v=VS.85).aspx
         - name: "FillRoundedRectangle Overloaded method"
-          href: /windows/desktop/api/d2d1/nf-d2d1-fillroundedrectangle
+          href: id2d1rendertarget-fillroundedrectangle.md
           items: 
           - name: "FillRoundedRectangle Method (D2D1_ROUNDED_RECT&,ID2D1Brush*)"
             href: https://msdn.microsoft.com/en-us/library/Dd316795(v=VS.85).aspx
@@ -2395,14 +2395,14 @@
         - name: "PopLayer method"
           href: https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx
         - name: "PushAxisAlignedClip Overloaded method"
-          href: https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx
+          href: id2d1rendertarget-pushaxisalignedclip.md
           items: 
           - name: "PushAxisAlignedClip Method (D2D1_RECT_F&,D2D1_ANTIALIAS_MODE)"
             href: https://msdn.microsoft.com/en-us/library/Dd316860(v=VS.85).aspx
           - name: "PushAxisAlignedClip Method (D2D1_RECT_F*,D2D1_ANTIALIAS_MODE)"
             href: https://msdn.microsoft.com/en-us/library/Dd316856(v=VS.85).aspx
         - name: "PushLayer Overloaded method"
-          href: https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx
+          href: id2d1rendertarget-push-layer.md
           items: 
           - name: "PushLayer Method (D2D1_LAYER_PARAMETERS&,ID2D1Layer*)"
             href: https://msdn.microsoft.com/en-us/library/Dd316869(v=VS.85).aspx
@@ -2530,7 +2530,7 @@
         href: https://msdn.microsoft.com/en-us/library/Mt797817(v=VS.85).aspx
         items: 
         - name: "CreatePaint methods"
-          href: /windows/desktop/api/d2d1svg/nf-d2d1svg-createpaint
+          href: id2d1svgdocument-createpaint-overload.md
           items: 
           - name: "CreatePaint(D2D1_SVG_PAINT_TYPE, D2D1_COLOR_F *, PCWSTR, ID2D1SvgPaint **) method"
             href: https://msdn.microsoft.com/en-us/library/Mt797818(v=VS.85).aspx
@@ -2651,7 +2651,7 @@
         - name: "ReplaceChild method"
           href: https://msdn.microsoft.com/en-us/library/Mt797874(v=VS.85).aspx
         - name: "SetAttributeValue methods"
-          href: /windows/desktop/api/d2d1svg/nf-d2d1svg-setattributevalue
+          href: id2d1svgelement-setattributevalue-overload.md
           items: 
           - name: "SetAttributeValue(PCWSTR, D2D1_SVG_ATTRIBUTE_STRING_TYPE, PCWSTR) method"
             href: https://msdn.microsoft.com/en-us/library/Mt797875(v=VS.85).aspx
@@ -2758,7 +2758,7 @@
         href: https://msdn.microsoft.com/en-us/library/Mt797917(v=VS.85).aspx
         items: 
         - name: "GetDashes methods"
-          href: /windows/desktop/api/d2d1svg/nf-d2d1svg-getdashes
+          href: id2d1svgstrokedasharray-getdashes-overload.md
           items: 
           - name: "GetDashes(FLOAT *, UINT32, UINT32) method"
             href: https://msdn.microsoft.com/en-us/library/Mt797918(v=VS.85).aspx
@@ -2769,7 +2769,7 @@
         - name: "RemoveDashesAtEnd method"
           href: https://msdn.microsoft.com/en-us/library/Mt797921(v=VS.85).aspx
         - name: "UpdateDashes methods"
-          href: /windows/desktop/api/d2d1svg/nf-d2d1svg-updatedashes
+          href: id2d1svgstrokedasharray-updatedashes-overload.md
           items: 
           - name: "UpdateDashes(FLOAT *, UINT32, UINT32) method"
             href: https://msdn.microsoft.com/en-us/library/Mt797922(v=VS.85).aspx

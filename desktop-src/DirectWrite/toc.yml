@@ -323,7 +323,7 @@
         - name: "CreateFontCollectionFromFontSet method"
           href: https://msdn.microsoft.com/en-us/library/Dn890755(v=VS.85).aspx
         - name: "CreateFontFaceReference methods"
-          href: /windows/desktop/api/dwrite_3/nf-dwrite_3-createfontfacereference
+          href: idwritefactory3-createfontfacereference-overload.md
           items: 
           - name: "CreateFontFaceReference(IDWriteFontFile*, UINT32, DWRITE_FONT_SIMULATIONS, IDWriteFontFaceReference**) method"
             href: https://msdn.microsoft.com/en-us/library/Dn890756(v=VS.85).aspx
@@ -343,7 +343,7 @@
         href: https://msdn.microsoft.com/en-us/library/Mt725315(v=VS.85).aspx
         items: 
         - name: "ComputeGlyphOrigins methods"
-          href: /windows/desktop/api/dwrite_3/nf-dwrite_3-computeglyphorigins
+          href: idwritefactory4-computeglyphorigins-overload.md
           items: 
           - name: "ComputeGlyphOrigins(DWRITE_GLYPH_RUN, DWRITE_MEASURING_MODE, D2D1_POINT_2F, DWRITE_MATRIX, D2D1_POINT_2F*) method"
             href: https://msdn.microsoft.com/en-us/library/Mt725316(v=VS.85).aspx
@@ -567,7 +567,7 @@
         - name: "GetGlyphImageData method"
           href: https://msdn.microsoft.com/en-us/library/Mt725321(v=VS.85).aspx
         - name: "GetGlyphImageFormats methods"
-          href: /windows/desktop/api/dwrite_3/nf-dwrite_3-getglyphimageformats
+          href: idwritefontface4-getglyphimageformats-overload.md
           items: 
           - name: "GetGlyphImageFormats() method"
             href: https://msdn.microsoft.com/en-us/library/Mt725322(v=VS.85).aspx
@@ -698,7 +698,7 @@
         - name: "FindFontFaceReference method"
           href: https://msdn.microsoft.com/en-us/library/Dn958414(v=VS.85).aspx
         - name: "GetPropertyValues methods"
-          href: /windows/desktop/api/dwrite_3/nf-dwrite_3-getpropertyvalues
+          href: idwritefontset-getpropertyvalues-overload.md
           items: 
           - name: "GetPropertyValues(UINT32, DWRITE_FONT_PROPERTY_ID, BOOL*, IDWriteLocalizedStrings**) method"
             href: https://msdn.microsoft.com/en-us/library/Dn933249(v=VS.85).aspx
@@ -719,7 +719,7 @@
         href: https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx
         items: 
         - name: "AddFontFaceReference methods"
-          href: /windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference
+          href: idwritefontsetbuilder-addfontfacereference-overload.md
           items: 
           - name: "AddFontFaceReference(IDWriteFontFaceReference*)"
             href: https://msdn.microsoft.com/en-us/library/Dn933237(v=VS.85).aspx
@@ -757,7 +757,7 @@
         - name: "GetMatchingFontsByLOGFONT"
           href: https://msdn.microsoft.com/en-us/library/Dn958420(v=VS.85).aspx
         - name: "GetFontSignature methods"
-          href: /windows/desktop/api/dwrite_3/nf-dwrite_3-getfontsignature
+          href: idwritegdiinterop1-getfontsignature-overload.md
           items: 
           - name: "GetFontSignature(IDWriteFont*, FONTSIGNATURE*)"
             href: https://msdn.microsoft.com/en-us/library/Dn958417(v=VS.85).aspx

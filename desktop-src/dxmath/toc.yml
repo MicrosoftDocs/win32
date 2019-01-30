@@ -1426,7 +1426,7 @@
           href: ovw-xmfloat2-extensions.md
           items: 
           - name: "XMFLOAT2 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Ee415279(v=VS.85).aspx
+            href: xmfloat2-ctor.md
             items: 
             - name: "XMFLOAT2 ()"
               href: https://msdn.microsoft.com/en-us/library/Ee419471(v=VS.85).aspx
@@ -1448,7 +1448,7 @@
           href: ovw-xmfloat3-extensions.md
           items: 
           - name: "XMFLOAT3 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Ee415292(v=VS.85).aspx
+            href: xmfloat3-ctor.md
             items: 
             - name: "XMFLOAT3 ()"
               href: https://msdn.microsoft.com/en-us/library/Ee419604(v=VS.85).aspx
@@ -1555,7 +1555,7 @@
           href: ovw-xmfloat4-extensions.md
           items: 
           - name: "XMFLOAT4 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Ee415309(v=VS.85).aspx
+            href: xmfloat4-ctor.md
             items: 
             - name: "XMFLOAT4 ()"
               href: https://msdn.microsoft.com/en-us/library/Ee419640(v=VS.85).aspx
@@ -1683,7 +1683,7 @@
           href: ovw-xmint2-extensions.md
           items: 
           - name: "XMINT2 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Hh449504(v=VS.85).aspx
+            href: xmint2-ctor.md
             items: 
             - name: "XMINT2 ()"
               href: https://msdn.microsoft.com/en-us/library/Hh404655(v=VS.85).aspx
@@ -1703,7 +1703,7 @@
           href: ovw-xmint3-extensions.md
           items: 
           - name: "XMINT3 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Hh449510(v=VS.85).aspx
+            href: xmint3-ctor.md
             items: 
             - name: "XMINT3 ()"
               href: https://msdn.microsoft.com/en-us/library/Hh404660(v=VS.85).aspx
@@ -1723,7 +1723,7 @@
           href: ovw-xmint4-extensions.md
           items: 
           - name: "XMINT4 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Hh449516(v=VS.85).aspx
+            href: xmint4-ctor.md
             items: 
             - name: "XMINT4 ()"
               href: https://msdn.microsoft.com/en-us/library/Hh404667(v=VS.85).aspx
@@ -2096,7 +2096,7 @@
           href: ovw-xmuint2-extensions.md
           items: 
           - name: "XMUINT2 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Hh449553(v=VS.85).aspx
+            href: xmuint2-ctor.md
             items: 
             - name: "XMUINT2 ()"
               href: https://msdn.microsoft.com/en-us/library/Hh404746(v=VS.85).aspx
@@ -2116,7 +2116,7 @@
           href: ovw-xmuint3-extensions.md
           items: 
           - name: "XMUINT3 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Hh449560(v=VS.85).aspx
+            href: xmuint3-ctor.md
             items: 
             - name: "XMUINT3 ()"
               href: https://msdn.microsoft.com/en-us/library/Hh404751(v=VS.85).aspx
@@ -2136,7 +2136,7 @@
           href: ovw-xmuint4-extensions.md
           items: 
           - name: "XMUINT4 Constructors"
-            href: https://msdn.microsoft.com/en-us/library/Hh449568(v=VS.85).aspx
+            href: xmuint4-ctor.md
             items: 
             - name: "XMUINT4 ()"
               href: https://msdn.microsoft.com/en-us/library/Hh404756(v=VS.85).aspx

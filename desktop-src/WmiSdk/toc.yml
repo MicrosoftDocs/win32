@@ -946,7 +946,7 @@
             - name: "GetRequiredProperties method"
               href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getrequiredproperties
             - name: "GetValuesForProp methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa384849(v=VS.85).aspx
+              href: cframeworkquery-getvaluesforprop.md
               items: 
               - name: "GetValuesForProp(CHStringArray&, LPCWSTR) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa384851(v=VS.85).aspx
@@ -1048,7 +1048,7 @@
             - name: "SetWCHARSplat method"
               href: /windows/desktop/api/Instance/nf-instance-cinstance-setwcharsplat
             - name: "SetWBEMINT64 methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa389221(v=VS.85).aspx
+              href: cinstance--setwbemint64.md
               items: 
               - name: "SetWBEMINT64(LPCWSTR, constLONGLONG&) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa389211(v=VS.85).aspx
@@ -1108,7 +1108,7 @@
             - name: "GetAllInstancesAsynch method"
               href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallinstancesasynch
             - name: "GetEmptyInstance methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa389788(v=VS.85).aspx
+              href: cwbemproviderglue-getemptyinstance.md
               items: 
               - name: "GetEmptyInstance(LPCWSTR, CInstance**, LPCWSTR) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa389789(v=VS.85).aspx
@@ -1210,7 +1210,7 @@
             - name: "AllocSysString method"
               href: /windows/desktop/api/ChString/nf-chstring-chstring-allocsysstring
             - name: "CHString constructors"
-              href: https://msdn.microsoft.com/en-us/library/Aa385428(v=VS.85).aspx
+              href: chstring-chstring.md
               items: 
               - name: "CHString() constructor"
                 href: https://msdn.microsoft.com/en-us/library/Aa385468(v=VS.85).aspx
@@ -1235,23 +1235,23 @@
             - name: "Empty method"
               href: /windows/desktop/api/ChString/nf-chstring-chstring-empty
             - name: "Find methods"
-              href: /windows/desktop/api/ChString/nf-chstring-chstring-find
+              href: chstring-find.md
               items: 
               - name: "Find(LPCWSTR) method"
-                href: /windows/desktop/api/ChString/nf-chstring-chstring-find(lpcwstr)
+                href: chstring-find.md(lpcwstr)
               - name: "Find(WCHAR) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa385501(v=VS.85).aspx
             - name: "FindOneOf method"
-              href: /windows/desktop/api/ChString/nf-chstring-chstring-findoneof
+              href: chstring-find.mdoneof
             - name: "Format methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa385504(v=VS.85).aspx
+              href: chstring-format.md
               items: 
               - name: "Format(LPCWSTR, ) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa385527(v=VS.85).aspx
               - name: "Format(UINT, ) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa385532(v=VS.85).aspx
             - name: "FormatMessageW methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa385509(v=VS.85).aspx
+              href: chstring-formatmessagew.md
               items: 
               - name: "FormatMessageW(LPCWSTR, ) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa385515(v=VS.85).aspx
@@ -1288,10 +1288,10 @@
             - name: "MakeUpper method"
               href: /windows/desktop/api/ChString/nf-chstring-chstring-makeupper
             - name: "Mid methods"
-              href: /windows/desktop/api/ChString/nf-chstring-chstring-mid
+              href: chstring-mid.md
               items: 
               - name: "Mid(int) method"
-                href: /windows/desktop/api/ChString/nf-chstring-chstring-mid(int)
+                href: chstring-mid.md(int)
               - name: "Mid(int, int) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa385636(v=VS.85).aspx
             - name: "operator["
@@ -1373,7 +1373,7 @@
             - name: "GetUpperBound method"
               href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getupperbound
             - name: "InsertAt methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa390886(v=VS.85).aspx
+              href: insertat-method-in-class-chstringarray.md
               items: 
               - name: "InsertAt(int, CHStringArray*) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa385381(v=VS.85).aspx
@@ -1405,7 +1405,7 @@
             - name: "CObjectPathParser method"
               href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-cobjectpathparser
             - name: "Free methods"
-              href: https://msdn.microsoft.com/en-us/library/Bb204795(v=VS.85).aspx
+              href: cobjectpathparser--free.md
               items: 
               - name: "Free(LPWSTR) method"
                 href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-free(lpwstr)
@@ -1462,7 +1462,7 @@
             - name: "GetFILETIME method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getfiletime
             - name: "GetLocalOffsetForDate methods"
-              href: https://msdn.microsoft.com/en-us/library/Aa394049(v=VS.85).aspx
+              href: wbemtime--getlocaloffsetfordate.md
               items: 
               - name: "GetLocalOffsetForDate(constFILETIME*) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa394022(v=VS.85).aspx
@@ -1483,7 +1483,7 @@
             - name: "IsOk method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-isok
             - name: "operator- operators"
-              href: https://msdn.microsoft.com/en-us/library/Aa394051(v=VS.85).aspx
+              href: wbemtime--operator-minus.md
               items: 
               - name: "operator-(constWBEMTime&) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa394037(v=VS.85).aspx
@@ -1506,7 +1506,7 @@
             - name: "operator+= method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator+=
             - name: "operator= operators"
-              href: https://msdn.microsoft.com/en-us/library/Aa394050(v=VS.85).aspx
+              href: wbemtime--operator-equal.md
               items: 
               - name: "operator=(constBSTR&) method"
                 href: https://msdn.microsoft.com/en-us/library/Aa394031(v=VS.85).aspx
@@ -1523,7 +1523,7 @@
             - name: "SetDMTF method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-setdmtf
             - name: "WBEMTime constructors"
-              href: https://msdn.microsoft.com/en-us/library/Aa394042(v=VS.85).aspx
+              href: wbemtime-wbemtime.md
               items: 
               - name: "WBEMTime() constructor"
                 href: https://msdn.microsoft.com/en-us/library/Aa394048(v=VS.85).aspx
@@ -1544,7 +1544,7 @@
             href: wbemtimespan-methods.md
             items: 
             - name: "WbemTimeSpan constructors"
-              href: https://msdn.microsoft.com/en-us/library/Aa394007(v=VS.85).aspx
+              href: wbemtimespan-wbemtimespan.md
               items: 
               - name: "WBEMTimeSpan() constructor"
                 href: https://msdn.microsoft.com/en-us/library/Aa394010(v=VS.85).aspx
