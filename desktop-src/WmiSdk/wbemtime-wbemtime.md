@@ -4,8 +4,6 @@ audience: developer
 author: 'REDMOND\\markl'
 manager: 'REDMOND\\markl'
 ms.assetid: '8b0ce221-2186-4aed-a474-00f88cef6350'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
 ms.tgt_platform: multiple
 title: 'WBEMTime::WBEMTime constructors'
 ---

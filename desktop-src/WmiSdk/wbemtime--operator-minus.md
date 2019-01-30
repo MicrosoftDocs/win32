@@ -4,8 +4,6 @@ audience: developer
 author: 'REDMOND\\markl'
 manager: 'REDMOND\\markl'
 ms.assetid: '0fa51aab-7ea2-4af7-bb12-1646388b0405'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
 ms.tgt_platform: multiple
 title: 'WBEMTime::operator- operators'
 ---

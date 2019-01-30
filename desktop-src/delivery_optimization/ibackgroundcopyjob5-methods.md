@@ -2,8 +2,6 @@
 title: IBackgroundCopyJob5 Methods
 description: The IBackgroundCopyJob5 interface exposes the following methods.
 ms.assetid: 505488FE-C669-4301-A81D-6BE0BA23EFC7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: 'REDMOND\\markl'
 manager: 'REDMOND\\markl'
 ms.assetid: '2873b466-3782-4d63-a777-5b25e3fb7615'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
 ms.tgt_platform: multiple
 title: 'CWbemProviderGlue::GetEmptyInstance methods'
 ---

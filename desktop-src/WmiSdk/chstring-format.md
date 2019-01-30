@@ -4,8 +4,6 @@ audience: developer
 author: 'REDMOND\\markl'
 manager: 'REDMOND\\markl'
 ms.assetid: '95d24b0e-3580-4a5d-8dad-50d44ef1ca39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
 ms.tgt_platform: multiple
 title: 'CHString::Format methods'
 ---

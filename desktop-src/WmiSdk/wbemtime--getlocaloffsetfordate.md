@@ -4,8 +4,6 @@ audience: developer
 author: 'REDMOND\\markl'
 manager: 'REDMOND\\markl'
 ms.assetid: '15cc5f45-604c-4335-bcd3-92d62dc15420'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
 ms.tgt_platform: multiple
 title: 'WBEMTime::GetLocalOffsetForDate methods'
 ---

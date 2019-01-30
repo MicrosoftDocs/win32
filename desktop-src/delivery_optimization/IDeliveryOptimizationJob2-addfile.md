@@ -13,8 +13,6 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 01/18/2018

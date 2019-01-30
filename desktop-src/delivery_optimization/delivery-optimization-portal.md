@@ -2,8 +2,6 @@
 title: Delivery Optimization (DO)
 description: Delivery Optimization is a cloud-managed, peer-to-peer client and a downloader service that delivers updates to an organization's networked devices.
 ms.assetid: c6b30f6f-61ed-4bdc-a747-34ac88fd9d69
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

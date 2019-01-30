@@ -2,8 +2,6 @@
 title: DO Return Values
 description: The below constants represent return values that Delivery Optimization (DO) generates and HTTP return values that DO captures.
 ms.assetid: 68AC4581-C748-49AB-A588-15816E534756
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

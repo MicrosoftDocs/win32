@@ -12,8 +12,6 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/19/2018
