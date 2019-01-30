@@ -318,7 +318,7 @@
           href: -gdiplus-class-bitmap-methods.md
           items: 
           - name: "Clone Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms536287(v=VS.85).aspx
+            href: -gdiplus-CLASS-Bitmap-Clone-Methods.md
             items: 
             - name: "Clone(Rect&,PixelFormat)"
               href: https://msdn.microsoft.com/en-us/library/ms536302(v=VS.85).aspx
@@ -329,7 +329,7 @@
             - name: "Clone(INT,INT,INT,INT,PixelFormat)"
               href: https://msdn.microsoft.com/en-us/library/ms536305(v=VS.85).aspx
           - name: "ApplyEffect Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx
+            href: -gdiplus-CLASS-Bitmap-ApplyEffect-Methods.md
             items: 
             - name: "ApplyEffect(Bitmap**,INT,Effect*,RECT*,RECT*,Bitmap**)"
               href: https://msdn.microsoft.com/en-us/library/ms536320(v=VS.85).aspx
@@ -420,7 +420,7 @@
         href: /windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange
         items: 
         - name: "CharacterRange Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms536266(v=VS.85).aspx
+          href: -gdiplus-CLASS-CharacterRange-Constructors.md
           items: 
           - name: "CharacterRange()"
             href: /windows/desktop/api/Gdiplustypes/nf-gdiplustypes-characterrange-characterrange~r2
@@ -432,7 +432,7 @@
         href: /windows/desktop/api/gdipluscolor/nl-gdipluscolor-color
         items: 
         - name: "Color Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms536243(v=VS.85).aspx
+          href: -gdiplus-CLASS-Color-Constructors.md
           items: 
           - name: "Color(BYTE,BYTE,BYTE,BYTE)"
             href: https://msdn.microsoft.com/en-us/library/ms536258(v=VS.85).aspx
@@ -577,7 +577,7 @@
         href: /windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font
         items: 
         - name: "Font Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms536189(v=VS.85).aspx
+          href: -gdiplus-CLASS-Font-Constructors.md
           items: 
           - name: "Font(FontFamily*,REAL,INT,Unit)"
             href: https://msdn.microsoft.com/en-us/library/ms536203(v=VS.85).aspx
@@ -599,7 +599,7 @@
           - name: "GetFamily"
             href: /windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-font-getfamily
           - name: "GetHeight Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms536192(v=VS.85).aspx
+            href: -gdiplus-CLASS-Font-GetHeight-Methods.md
             items: 
             - name: "GetHeight(Graphics*)"
               href: https://msdn.microsoft.com/en-us/library/ms536201(v=VS.85).aspx
@@ -637,7 +637,7 @@
         href: /windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily
         items: 
         - name: "FontFamily Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms536168(v=VS.85).aspx
+          href: -gdiplus-CLASS-FontFamily-Constructors.md
           items: 
           - name: "FontFamily()"
             href: https://msdn.microsoft.com/en-us/library/ms536182(v=VS.85).aspx
@@ -688,7 +688,7 @@
         href: /windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics
         items: 
         - name: "Graphics Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535632(v=VS.85).aspx
+          href: -gdiplus-CLASS-Graphics-Constructors.md
           items: 
           - name: "Graphics(Image*)"
             href: https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx
@@ -704,7 +704,7 @@
           - name: "AddMetafileComment"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-addmetafilecomment
           - name: "BeginContainer Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535731(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-BeginContainer-Methods.md
             items: 
             - name: "BeginContainer()"
               href: https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx
@@ -715,7 +715,7 @@
           - name: "Clear"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-clear
           - name: "DrawArc Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535733(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawArc-Methods.md
             items: 
             - name: "DrawArc(Pen*,Rect&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms536152(v=VS.85).aspx
@@ -726,7 +726,7 @@
             - name: "DrawArc(Pen*,INT,INT,INT,INT,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms536155(v=VS.85).aspx
           - name: "DrawBezier Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535734(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawBezier-Methods.md
             items: 
             - name: "DrawBezier(Pen*,POINT&,POINT&,POINT&,POINT&)"
               href: https://msdn.microsoft.com/en-us/library/ms536148(v=VS.85).aspx
@@ -737,7 +737,7 @@
             - name: "DrawBezier(Pen*,INT,INT,INT,INT,INT,INT,INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536151(v=VS.85).aspx
           - name: "DrawBeziers Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535738(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawBeziers-Methods.md
             items: 
             - name: "DrawBeziers(Pen*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536146(v=VS.85).aspx
@@ -746,7 +746,7 @@
           - name: "DrawCachedBitmap"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcachedbitmap
           - name: "DrawClosedCurve Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535740(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawClosedCurve-Methods.md
             items: 
             - name: "DrawClosedCurve(Pen*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536142(v=VS.85).aspx
@@ -757,7 +757,7 @@
             - name: "DrawClosedCurve(Pen*,Point*,INT,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms536145(v=VS.85).aspx
           - name: "DrawCurve Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535742(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawCurve-Methods.md
             items: 
             - name: "DrawCurve(Pen*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536069(v=VS.85).aspx
@@ -774,7 +774,7 @@
           - name: "DrawDriverString"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring
           - name: "DrawEllipse Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535744(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawEllipse-Methods.md
             items: 
             - name: "DrawEllipse(Pen*,Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms536062(v=VS.85).aspx
@@ -785,7 +785,7 @@
             - name: "DrawEllipse(Pen*,INT,INT,INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536067(v=VS.85).aspx
           - name: "DrawImage Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawImage-Methods.md
             items: 
             - name: "DrawImage(Image*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx
@@ -824,7 +824,7 @@
             - name: "DrawImage(Image*,RectF*,Matrix*,Effect*,ImageAttributes*,Unit*)"
               href: https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx
           - name: "DrawLine Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535748(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawLine-Methods.md
             items: 
             - name: "DrawLine(Pen*,Point&,Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms536020(v=VS.85).aspx
@@ -835,7 +835,7 @@
             - name: "DrawLine(Pen*,INT,INT,INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536026(v=VS.85).aspx
           - name: "DrawLines Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535749(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawLines-Methods.md
             items: 
             - name: "DrawLines(Pen*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms536017(v=VS.85).aspx
@@ -844,7 +844,7 @@
           - name: "DrawPath"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath
           - name: "DrawPie Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535751(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawPie-Methods.md
             items: 
             - name: "DrawPie(Pen*,Rect&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms536011(v=VS.85).aspx
@@ -855,14 +855,14 @@
             - name: "DrawPie(Pen*,RectF&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms536016(v=VS.85).aspx
           - name: "DrawPolygon Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535753(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawPolygon-Methods.md
             items: 
             - name: "DrawPolygon(Pen*,Point*,INT*)"
               href: https://msdn.microsoft.com/en-us/library/ms536008(v=VS.85).aspx
             - name: "DrawPolygon(Pen*,PointF*,INT*)"
               href: https://msdn.microsoft.com/en-us/library/ms536009(v=VS.85).aspx
           - name: "DrawRectangle Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535755(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawRectangle-Methods.md
             items: 
             - name: "DrawRectangle(Pen*,Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms536001(v=VS.85).aspx
@@ -873,14 +873,14 @@
             - name: "DrawRectangle(Pen*,RectF&)"
               href: https://msdn.microsoft.com/en-us/library/ms536006(v=VS.85).aspx
           - name: "DrawRectangles Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535757(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawRectangles-Methods.md
             items: 
             - name: "DrawRectangles(Pen*,Rect*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535996(v=VS.85).aspx
             - name: "DrawRectangles(Pen*,RectF*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535998(v=VS.85).aspx
           - name: "DrawString Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-DrawString-Methods.md
             items: 
             - name: "DrawString(WCHAR*,INT,Font*,RectF&,StringFormat*,Brush*)"
               href: https://msdn.microsoft.com/en-us/library/ms535991(v=VS.85).aspx
@@ -891,7 +891,7 @@
           - name: "EndContainer"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer
           - name: "EnumerateMetafile Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535761(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-EnumerateMetafile-Methods.md
             items: 
             - name: "EnumerateMetafile(Metafile*,Metafile&,EnumerateMetafileProc,VOID*,ImageAttributes*)"
               href: https://msdn.microsoft.com/en-us/library/ms535977(v=VS.85).aspx
@@ -918,7 +918,7 @@
             - name: "EnumerateMetafile(Metafile*,PointF&,EnumerateMetafileProc,VOID*,ImageAttributes*)"
               href: https://msdn.microsoft.com/en-us/library/ms535989(v=VS.85).aspx
           - name: "ExcludeClip Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535763(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-ExcludeClip-Methods.md
             items: 
             - name: "ExcludeClip(Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms535974(v=VS.85).aspx
@@ -927,7 +927,7 @@
             - name: "ExcludeClip(Region*)"
               href: https://msdn.microsoft.com/en-us/library/ms535976(v=VS.85).aspx
           - name: "FillClosedCurve Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535765(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FillClosedCurve-Methods.md
             items: 
             - name: "FillClosedCurve(Brush*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535970(v=VS.85).aspx
@@ -938,7 +938,7 @@
             - name: "FillClosedCurve(Brush*,PointF*,INT,FillMode,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535973(v=VS.85).aspx
           - name: "FillEllipse Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535767(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FillEllipse-Methods.md
             items: 
             - name: "FillEllipse(Brush*,Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms535966(v=VS.85).aspx
@@ -951,7 +951,7 @@
           - name: "FillPath"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath
           - name: "FillPie Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535769(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FillPie-Methods.md
             items: 
             - name: "FillPie(Brush*,Rect&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535962(v=VS.85).aspx
@@ -962,7 +962,7 @@
             - name: "FillPie(Brush*,RectF&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535965(v=VS.85).aspx
           - name: "FillPolygon Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535770(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FillPolygon-Methods.md
             items: 
             - name: "FillPolygon(Brush*,Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535958(v=VS.85).aspx
@@ -973,7 +973,7 @@
             - name: "FillPolygon(Brush*,PointF*,INT,FillMode)"
               href: https://msdn.microsoft.com/en-us/library/ms535961(v=VS.85).aspx
           - name: "FillRectangle Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535773(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FillRectangle-Methods.md
             items: 
             - name: "FillRectangle(Brush*,Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms535954(v=VS.85).aspx
@@ -984,7 +984,7 @@
             - name: "FillRectangle(Brush*,INT,INT,INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx
           - name: "FillRectangles Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535775(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FillRectangles-Methods.md
             items: 
             - name: "FillRectangles(Brush*,Rect*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535952(v=VS.85).aspx
@@ -995,7 +995,7 @@
           - name: "Flush"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-flush
           - name: "FromHDC Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535778(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-FromHDC-Methods.md
             items: 
             - name: "FromHDC(HDC)"
               href: https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx
@@ -1008,7 +1008,7 @@
           - name: "GetClip"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-getclip
           - name: "GetClipBounds Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535780(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-GetClipBounds-Methods.md
             items: 
             - name: "GetClipBounds(Rect*)"
               href: https://msdn.microsoft.com/en-us/library/ms535948(v=VS.85).aspx
@@ -1049,14 +1049,14 @@
           - name: "GetTransform"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-gettransform
           - name: "GetVisibleClipBounds Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535781(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-GetVisibleClipBounds-Methods.md
             items: 
             - name: "GetVisibleClipBounds(Rect*)"
               href: https://msdn.microsoft.com/en-us/library/ms535946(v=VS.85).aspx
             - name: "GetVisibleClipBounds(RectF*)"
               href: https://msdn.microsoft.com/en-us/library/ms535947(v=VS.85).aspx
           - name: "IntersectClip Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535783(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-IntersectClip-Methods.md
             items: 
             - name: "IntersectClip(Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms535943(v=VS.85).aspx
@@ -1067,7 +1067,7 @@
           - name: "IsClipEmpty"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-isclipempty
           - name: "IsVisible Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535785(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-IsVisible-Methods.md
             items: 
             - name: "IsVisible(Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms535834(v=VS.85).aspx
@@ -1092,7 +1092,7 @@
           - name: "MeasureDriverString"
             href: /windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-measuredriverstring
           - name: "MeasureString Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-MeasureString-Methods.md
             items: 
             - name: "MeasureString(WCHAR*,INT,Font*,RectF&,RectF*)"
               href: https://msdn.microsoft.com/en-us/library/ms535829(v=VS.85).aspx
@@ -1123,7 +1123,7 @@
           - name: "SetAbort"
             href: /windows/desktop/api/GdiplusGraphics/nf-gdiplusgraphics-graphics-setabort
           - name: "SetClip Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535789(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-SetClip-Methods.md
             items: 
             - name: "SetClip(Graphics*,CombineMode)"
               href: https://msdn.microsoft.com/en-us/library/ms535823(v=VS.85).aspx
@@ -1162,7 +1162,7 @@
           - name: "TransformPoints"
             href: https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx
           - name: "TranslateClip Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535791(v=VS.85).aspx
+            href: -gdiplus-CLASS-Graphics-TranslateClip-Methods.md
             items: 
             - name: "TranslateClip(INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535821(v=VS.85).aspx
@@ -1174,7 +1174,7 @@
         href: /windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath
         items: 
         - name: "GraphicsPath Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535523(v=VS.85).aspx
+          href: -gdiplus-CLASS-GraphicsPath-Constructors.md
           items: 
           - name: "GraphicsPath(Point*,BYTE*,INT,FillMode)"
             href: https://msdn.microsoft.com/en-us/library/ms535629(v=VS.85).aspx
@@ -1186,7 +1186,7 @@
           href: -gdiplus-class-graphicspath-methods.md
           items: 
           - name: "AddArc Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535537(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddArc-Methods.md
             items: 
             - name: "AddArc(Rect&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535625(v=VS.85).aspx
@@ -1197,7 +1197,7 @@
             - name: "AddArc(REAL,REAL,REAL,REAL,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535628(v=VS.85).aspx
           - name: "AddBezier Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535538(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddBezier-Methods.md
             items: 
             - name: "AddBezier(Point&,Point&,Point&,Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms535621(v=VS.85).aspx
@@ -1208,14 +1208,14 @@
             - name: "AddBezier(INT,INT,INT,INT,INT,INT,INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535624(v=VS.85).aspx
           - name: "AddBeziers Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535539(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddBeziers-Methods.md
             items: 
             - name: "AddBeziers(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535619(v=VS.85).aspx
             - name: "AddBeziers(PointF*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535620(v=VS.85).aspx
           - name: "AddClosedCurve Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535540(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddClosedCurve-Methods.md
             items: 
             - name: "AddClosedCurve(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535615(v=VS.85).aspx
@@ -1226,7 +1226,7 @@
             - name: "AddClosedCurve(PointF*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535618(v=VS.85).aspx
           - name: "AddCurve Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535541(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddCurve-Methods.md
             items: 
             - name: "AddCurve(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535609(v=VS.85).aspx
@@ -1241,7 +1241,7 @@
             - name: "AddCurve(PointF*,INT,INT,INT,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535614(v=VS.85).aspx
           - name: "AddEllipse Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535542(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddEllipse-Methods.md
             items: 
             - name: "AddEllipse(Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms535605(v=VS.85).aspx
@@ -1252,7 +1252,7 @@
             - name: "AddEllipse(REAL,REAL,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535608(v=VS.85).aspx
           - name: "AddLine Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535543(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddLine-Methods.md
             items: 
             - name: "AddLine(Point&,Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms535601(v=VS.85).aspx
@@ -1263,7 +1263,7 @@
             - name: "AddLine(INT,INT,INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535604(v=VS.85).aspx
           - name: "AddLines Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535544(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddLines-Methods.md
             items: 
             - name: "AddLines(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535599(v=VS.85).aspx
@@ -1272,7 +1272,7 @@
           - name: "AddPath"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-addpath
           - name: "AddPie Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535545(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddPie-Methods.md
             items: 
             - name: "AddPie(Rect&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535595(v=VS.85).aspx
@@ -1283,28 +1283,28 @@
             - name: "AddPie(RectF&,REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms535598(v=VS.85).aspx
           - name: "AddPolygon Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535546(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddPolygon-Methods.md
             items: 
             - name: "AddPolygon(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535593(v=VS.85).aspx
             - name: "AddPolygon(PointF*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535594(v=VS.85).aspx
           - name: "AddRectangle Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535547(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddRectangle-Methods.md
             items: 
             - name: "AddRectangle(Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms535591(v=VS.85).aspx
             - name: "AddRectangle(RectF&)"
               href: https://msdn.microsoft.com/en-us/library/ms535592(v=VS.85).aspx
           - name: "AddRectangles Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535548(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddRectangles-Methods.md
             items: 
             - name: "AddRectangles(Rect*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535589(v=VS.85).aspx
             - name: "AddRectangles(RectF*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535590(v=VS.85).aspx
           - name: "AddString Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535549(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-AddString-Methods.md
             items: 
             - name: "AddString(WCHAR*,INT,FontFamily*,INT,REAL,Rect&,StringFormat*)"
               href: https://msdn.microsoft.com/en-us/library/ms535585(v=VS.85).aspx
@@ -1325,7 +1325,7 @@
           - name: "Flatten"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-flatten
           - name: "GetBounds Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535560(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-GetBounds-Methods.md
             items: 
             - name: "GetBounds(Rect*,Matrix*,Pen*)"
               href: https://msdn.microsoft.com/en-us/library/ms535583(v=VS.85).aspx
@@ -1340,7 +1340,7 @@
           - name: "GetPathData"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-getpathdata
           - name: "GetPathPoints Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535561(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-GetPathPoints-Methods.md
             items: 
             - name: "GetPathPoints(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535581(v=VS.85).aspx
@@ -1351,7 +1351,7 @@
           - name: "GetPointCount"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-getpointcount
           - name: "IsOutlineVisible Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535562(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPath-IsOutlineVisible-Methods.md
             items: 
             - name: "IsOutlineVisible(Point&,Pen*,Graphics*)"
               href: https://msdn.microsoft.com/en-us/library/ms535577(v=VS.85).aspx
@@ -1411,7 +1411,7 @@
           - name: "HasCurve"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-hascurve
           - name: "NextMarker Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535457(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPathIterator-NextMarker-Methods.md
             items: 
             - name: "NextMarker(GraphicsPath*)"
               href: https://msdn.microsoft.com/en-us/library/ms535464(v=VS.85).aspx
@@ -1420,7 +1420,7 @@
           - name: "NextPathType"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype
           - name: "NextSubpath Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx
+            href: -gdiplus-CLASS-GraphicsPathIterator-NextSubpath-Methods.md
             items: 
             - name: "NextSubpath(GraphicsPath*,BOOL*)"
               href: https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx
@@ -1458,7 +1458,7 @@
         href: /windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image
         items: 
         - name: "Image Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535365(v=VS.85).aspx
+          href: -gdiplus-CLASS-Image-Constructors.md
           items: 
           - name: "Image(IStream*,BOOL)"
             href: https://msdn.microsoft.com/en-us/library/ms535410(v=VS.85).aspx
@@ -1534,14 +1534,14 @@
           - name: "RotateFlip"
             href: /windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-rotateflip
           - name: "Save Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535399(v=VS.85).aspx
+            href: -gdiplus-CLASS-Image-Save-Methods.md
             items: 
             - name: "Save(IStream*,CLSID*,EncoderParameters*)"
               href: https://msdn.microsoft.com/en-us/library/ms535406(v=VS.85).aspx
             - name: "Save(WCHAR*,CLSID*,EncoderParameters*)"
               href: https://msdn.microsoft.com/en-us/library/ms535407(v=VS.85).aspx
           - name: "SaveAdd Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535398(v=VS.85).aspx
+            href: -gdiplus-CLASS-Image-SaveAdd-Methods.md
             items: 
             - name: "SaveAdd(EncoderParameters*)"
               href: https://msdn.microsoft.com/en-us/library/ms535408(v=VS.85).aspx
@@ -1642,7 +1642,7 @@
         href: /windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush
         items: 
         - name: "LinearGradientBrush Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535326(v=VS.85).aspx
+          href: -gdiplus-CLASS-LinearGradientBrush-Constructors.md
           items: 
           - name: "LinearGradientBrush(PointF&,PointF&,Color&,Color&)"
             href: https://msdn.microsoft.com/en-us/library/ms535353(v=VS.85).aspx
@@ -1672,7 +1672,7 @@
           - name: "GetLinearColors"
             href: /windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getlinearcolors
           - name: "GetRectangle Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535337(v=VS.85).aspx
+            href: -gdiplus-CLASS-PathGradientBrush-GetRectangle-Methods.md
             items: 
             - name: "GetRectangle(Rect*)"
               href: https://msdn.microsoft.com/en-us/library/ms535351(v=VS.85).aspx
@@ -1758,14 +1758,14 @@
           - name: "Shear"
             href: /windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear
           - name: "TransformPoints Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535306(v=VS.85).aspx
+            href: -gdiplus-CLASS-Matrix-TransformPoints-Methods.md
             items: 
             - name: "TransformPoints(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535320(v=VS.85).aspx
             - name: "TransformPoints(PointF*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535321(v=VS.85).aspx
           - name: "TransformVectors Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535307(v=VS.85).aspx
+            href: -gdiplus-CLASS-Matrix-TransformVectors-Methods.md
             items: 
             - name: "TransformVectors(Point*,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms535318(v=VS.85).aspx
@@ -1777,7 +1777,7 @@
         href: /windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile
         items: 
         - name: "Metafile Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535267(v=VS.85).aspx
+          href: -gdiplus-CLASS-Metafile-Constructors.md
           items: 
           - name: "Metafile(HDC,EmfType,WCHAR*)"
             href: https://msdn.microsoft.com/en-us/library/ms535284(v=VS.85).aspx
@@ -1809,7 +1809,7 @@
           href: -gdiplus-class-metafile-methods.md
           items: 
           - name: "ConvertToEmfPlus Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535272(v=VS.85).aspx
+            href: -gdiplus-CLASS-Metafile-ConvertToEmfPlus-Methods.md
             items: 
             - name: "ConvertToEmfPlus(Graphics*,BOOL*,EmfType,WCHAR*)"
               href: https://msdn.microsoft.com/en-us/library/ms535281(v=VS.85).aspx
@@ -1824,7 +1824,7 @@
           - name: "GetHENHMETAFILE"
             href: /windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-gethenhmetafile
           - name: "GetMetafileHeader Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535273(v=VS.85).aspx
+            href: -gdiplus-CLASS-Metafile-GetMetafileHeader-Methods.md
             items: 
             - name: "GetMetafileHeader(WCHAR*,MetafileHeader*)"
               href: https://msdn.microsoft.com/en-us/library/ms535276(v=VS.85).aspx
@@ -1889,7 +1889,7 @@
         href: /windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush
         items: 
         - name: "PathGradientBrush Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535060(v=VS.85).aspx
+          href: -gdiplus-CLASS-PathGradientBrush-Constructors.md
           items: 
           - name: "PathGradientBrush(Point*,INT,WrapMode)"
             href: https://msdn.microsoft.com/en-us/library/ms535100(v=VS.85).aspx
@@ -1907,7 +1907,7 @@
           - name: "GetCenterColor"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getcentercolor
           - name: "GetCenterPoint Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535076(v=VS.85).aspx
+            href: -gdiplus-CLASS-PathGradientBrush-GetCenterPoint-Methods.md
             items: 
             - name: "GetCenterPoint(Point*)"
               href: https://msdn.microsoft.com/en-us/library/ms535098(v=VS.85).aspx
@@ -1957,7 +1957,7 @@
           - name: "SetCenterColor"
             href: /windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor
           - name: "SetCenterPoint Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms535078(v=VS.85).aspx
+            href: -gdiplus-CLASS-PathGradientBrush-SetCenterPoint-Methods.md
             items: 
             - name: "SetCenterPoint(Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms535094(v=VS.85).aspx
@@ -1983,7 +1983,7 @@
         href: /windows/desktop/api/gdipluspen/nl-gdipluspen-pen
         items: 
         - name: "Pen Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms535014(v=VS.85).aspx
+          href: -gdiplus-CLASS-Pen-Constructors.md
           items: 
           - name: "Pen(Brush*,REAL)"
             href: https://msdn.microsoft.com/en-us/library/ms535058(v=VS.85).aspx
@@ -2154,7 +2154,7 @@
           - name: "Clone"
             href: /windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-clone
           - name: "Contains Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534973(v=VS.85).aspx
+            href: -gdiplus-CLASS-RectF-Contains-Methods.md
             items: 
             - name: "Contains(Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms534984(v=VS.85).aspx
@@ -2179,14 +2179,14 @@
           - name: "GetTop"
             href: /windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-gettop
           - name: "Inflate Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534974(v=VS.85).aspx
+            href: -gdiplus-CLASS-RectF-Inflate-Methods.md
             items: 
             - name: "Inflate(INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms534982(v=VS.85).aspx
             - name: "Inflate(Point&)"
               href: https://msdn.microsoft.com/en-us/library/ms534983(v=VS.85).aspx
           - name: "Intersect Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534975(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-Intersect-Methods.md
             items: 
             - name: "Intersect(Rect&,Rect&,Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms534980(v=VS.85).aspx
@@ -2197,7 +2197,7 @@
           - name: "IsEmptyArea"
             href: /windows/desktop/api/Gdiplustypes/nf-gdiplustypes-rect-isemptyarea
           - name: "Offset Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534976(v=VS.85).aspx
+            href: -gdiplus-CLASS-RectF-Offset-Methods.md
             items: 
             - name: "Offset(INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms534978(v=VS.85).aspx
@@ -2310,7 +2310,7 @@
           - name: "Clone"
             href: /windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-clone
           - name: "Complement Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534774(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-Complement-Methods.md
             items: 
             - name: "Complement(GraphicsPath*)"
               href: https://msdn.microsoft.com/en-us/library/ms534829(v=VS.85).aspx
@@ -2323,7 +2323,7 @@
           - name: "Equals"
             href: /windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-equals
           - name: "Exclude Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534775(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-Exclude-Methods.md
             items: 
             - name: "Exclude(GraphicsPath*)"
               href: https://msdn.microsoft.com/en-us/library/ms534820(v=VS.85).aspx
@@ -2351,7 +2351,7 @@
           - name: "GetLastStatus"
             href: /windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-getlaststatus
           - name: "GetRegionScans Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534778(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-GetRegionScans-Methods.md
             items: 
             - name: "GetRegionScans(Matrix*,Rect*,INT*)"
               href: https://msdn.microsoft.com/en-us/library/ms534812(v=VS.85).aspx
@@ -2400,14 +2400,14 @@
           - name: "Transform"
             href: /windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-transform
           - name: "Translate Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534781(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-Translate-Methods.md
             items: 
             - name: "Translate(REAL,REAL)"
               href: https://msdn.microsoft.com/en-us/library/ms534793(v=VS.85).aspx
             - name: "Translate(INT,INT)"
               href: https://msdn.microsoft.com/en-us/library/ms534794(v=VS.85).aspx
           - name: "Union Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534782(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-Union-Methods.md
             items: 
             - name: "Union(Rect&)"
               href: https://msdn.microsoft.com/en-us/library/ms534789(v=VS.85).aspx
@@ -2418,7 +2418,7 @@
             - name: "Union(GraphicsPath*)"
               href: https://msdn.microsoft.com/en-us/library/ms534792(v=VS.85).aspx
           - name: "Xor Overloaded Method"
-            href: https://msdn.microsoft.com/en-us/library/ms534783(v=VS.85).aspx
+            href: -gdiplus-CLASS-Region-Xor-Methods.md
             items: 
             - name: "Xor(GraphicsPath*)"
               href: https://msdn.microsoft.com/en-us/library/ms534785(v=VS.85).aspx
@@ -2502,7 +2502,7 @@
         href: /windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat
         items: 
         - name: "StringFormat Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms534560(v=VS.85).aspx
+          href: -gdiplus-CLASS-StringFormat-Constructors.md
           items: 
           - name: "StringFormat(INT,LANGID)"
             href: https://msdn.microsoft.com/en-us/library/ms534732(v=VS.85).aspx
@@ -2559,7 +2559,7 @@
         href: /windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush
         items: 
         - name: "TextureBrush Overloaded Constructor"
-          href: https://msdn.microsoft.com/en-us/library/ms534521(v=VS.85).aspx
+          href: -gdiplus-CLASS-TextureBrush-Constructors.md
           items: 
           - name: "TextureBrush(Image*,wrapMode,RectF&)"
             href: https://msdn.microsoft.com/en-us/library/ms534544(v=VS.85).aspx

@@ -1,0 +1,60 @@
+---
+title: IDCompositionVisual SetOffsetY methods
+description: Changes or animates the value of the OffsetY property of this visual, altering the vertical position of the visual relative to its parent.
+ms.assetid: 'E364BDB4-57E0-4206-9095-F39E6B5B9190'
+keywords: ["SetOffsetY methods DirectComposition"]
+topic_type:
+- apiref
+api_location:
+- Dcomp.dll
+api_type:
+- DllExport
+---
+
+# IDCompositionVisual::SetOffsetY methods
+
+Changes or animates the value of the OffsetY property of this visual, altering the vertical position of the visual relative to its parent.
+
+### Overload list
+
+
+
+| Method                                                                                                | Description                                           |
+|:------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
+| [**SetOffsetY(float)**](https://msdn.microsoft.com/en-us/library/Hh449167(v=VS.85).aspx)                                     | Changes the value of the OffsetY property.<br/> |
+| [**SetOffsetY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449169(v=VS.85).aspx) | Animates the value of the OffsetY property<br/> |
+
+
+
+## Requirements
+
+
+
+|                                     |                                                                                      |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
+| Header<br/>                   | <dl> <dt>Dcomp.h</dt> </dl>   |
+| Library<br/>                  | <dl> <dt>Dcomp.lib</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx)
+</dt> <dt>
+
+[**IDCompositionVisual::SetOffsetX**](idcompositionvisual-setoffsetx-overloaded.md)
+</dt> </dl>
+
+�
+
+�
+
+
+
+
+

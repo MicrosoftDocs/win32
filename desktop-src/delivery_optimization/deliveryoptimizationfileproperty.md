@@ -11,8 +11,6 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 01/18/2019

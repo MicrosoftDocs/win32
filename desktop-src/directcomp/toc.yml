@@ -81,7 +81,7 @@
         - name: "SetTransformMatrix method"
           href: https://msdn.microsoft.com/en-us/library/Dn919695(v=VS.85).aspx
         - name: "SetTransformMatrixElement methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-settransformmatrixelement
+          href: idcompositionaffinetransform2deffect-settransformmatrixelement-overloaded.md
           items: 
           - name: "SetTransformMatrixElement method"
             href: https://msdn.microsoft.com/en-us/library/Dn919696(v=VS.85).aspx
@@ -108,28 +108,28 @@
         - name: "SetClampOutput method"
           href: https://msdn.microsoft.com/en-us/library/Dn919699(v=VS.85).aspx
         - name: "SetCoefficient1 methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setcoefficient1
+          href: idcompositionarithmeticcompositeeffect-setcoefficient1-overloaded.md
           items: 
           - name: "SetCoefficient1 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919700(v=VS.85).aspx
           - name: "SetCoefficient1 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919701(v=VS.85).aspx
         - name: "SetCoefficient2 methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setcoefficient2
+          href: idcompositionarithmeticcompositeeffect-setcoefficient2-overloaded.md
           items: 
           - name: "SetCoefficient2 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919702(v=VS.85).aspx
           - name: "SetCoefficient2 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919703(v=VS.85).aspx
         - name: "SetCoefficient3 methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setcoefficient3
+          href: idcompositionarithmeticcompositeeffect-setcoefficient3-overloaded.md
           items: 
           - name: "SetCoefficient3 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919704(v=VS.85).aspx
           - name: "SetCoefficient3 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919705(v=VS.85).aspx
         - name: "SetCoefficient4 methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setcoefficient4
+          href: idcompositionarithmeticcompositeeffect-setcoefficient4-overloaded.md
           items: 
           - name: "SetCoefficient4 method"
             href: https://msdn.microsoft.com/en-us/library/Dn919706(v=VS.85).aspx
@@ -148,14 +148,14 @@
         - name: "SetBlackPoint method"
           href: https://msdn.microsoft.com/en-us/library/Dn919712(v=VS.85).aspx
         - name: "SetBlackPointX methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setblackpointx
+          href: idcompositionbrightnesseffect-setblackpointx-overloaded.md
           items: 
           - name: "SetBlackPointX method"
             href: https://msdn.microsoft.com/en-us/library/Dn919713(v=VS.85).aspx
           - name: "SetBlackPointX method"
             href: https://msdn.microsoft.com/en-us/library/Dn919714(v=VS.85).aspx
         - name: "SetBlackPointY methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setblackpointy
+          href: idcompositionbrightnesseffect-setblackpointy-overloaded.md
           items: 
           - name: "SetBlackPointY method"
             href: https://msdn.microsoft.com/en-us/library/Dn919715(v=VS.85).aspx
@@ -164,14 +164,14 @@
         - name: "SetWhitePoint method"
           href: https://msdn.microsoft.com/en-us/library/Dn919717(v=VS.85).aspx
         - name: "SetWhitePointX methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setwhitepointx
+          href: idcompositionbrightnesseffect-setwhitepointx-overloaded.md
           items: 
           - name: "SetWhitePointX method"
             href: https://msdn.microsoft.com/en-us/library/Dn919718(v=VS.85).aspx
           - name: "SetWhitePointX method"
             href: https://msdn.microsoft.com/en-us/library/Dn919719(v=VS.85).aspx
         - name: "SetWhitePointY methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setwhitepointy
+          href: idcompositionbrightnesseffect-setwhitepointy-overloaded.md
           items: 
           - name: "SetWhitePointY method"
             href: https://msdn.microsoft.com/en-us/library/Dn919720(v=VS.85).aspx
@@ -187,7 +187,7 @@
         - name: "SetMatrix method"
           href: https://msdn.microsoft.com/en-us/library/Dn919725(v=VS.85).aspx
         - name: "SetMatrixElement methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setmatrixelement
+          href: idcompositionmatrixtransform3d-setmatrixelement-overloaded.md
           items: 
           - name: "SetMatrixElement method"
             href: https://msdn.microsoft.com/en-us/library/Dn919726(v=VS.85).aspx
@@ -349,7 +349,7 @@
         href: https://msdn.microsoft.com/en-us/library/Hh437418(v=VS.85).aspx
         items: 
         - name: "SetOpacity methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setopacity
+          href: idcompositioneffectgroup-setopacity-overloaded.md
           items: 
           - name: "SetOpacity(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh437420(v=VS.85).aspx
@@ -373,7 +373,7 @@
         - name: "SetBorderMode method"
           href: https://msdn.microsoft.com/en-us/library/Dn919735(v=VS.85).aspx
         - name: "SetStandardDeviation methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setstandarddeviation
+          href: idcompositionshadoweffect-setstandarddeviation-overloaded.md
           items: 
           - name: "SetStandardDeviation method"
             href: https://msdn.microsoft.com/en-us/library/Dn919736(v=VS.85).aspx
@@ -383,7 +383,7 @@
         href: https://msdn.microsoft.com/en-us/library/Dn919738(v=VS.85).aspx
         items: 
         - name: "SetAngle methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setangle
+          href: idcompositionrotatetransform3d-setangle-overloaded.md
           items: 
           - name: "SetAngle method"
             href: https://msdn.microsoft.com/en-us/library/Dn919739(v=VS.85).aspx
@@ -395,14 +395,14 @@
         - name: "SetAlphaDisable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919742(v=VS.85).aspx
         - name: "SetAlphaSlope methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setalphaslope
+          href: idcompositionlineartransfereffect-setalphaslope-overloaded.md
           items: 
           - name: "SetAlphaSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919743(v=VS.85).aspx
           - name: "SetAlphaSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919744(v=VS.85).aspx
         - name: "SetAlphaYIntercept methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setalphayintercept
+          href: idcompositionlineartransfereffect-setalphayintercept-overloaded.md
           items: 
           - name: "SetAlphaYIntercept method"
             href: https://msdn.microsoft.com/en-us/library/Dn919745(v=VS.85).aspx
@@ -411,14 +411,14 @@
         - name: "SetBlueDisable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919747(v=VS.85).aspx
         - name: "SetBlueSlope methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setblueslope
+          href: idcompositionlineartransfereffect-setblueslope-overloaded.md
           items: 
           - name: "SetBlueSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919748(v=VS.85).aspx
           - name: "SetBlueSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919749(v=VS.85).aspx
         - name: "SetBlueYIntercept methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setblueyintercept
+          href: idcompositionlineartransfereffect-setblueyintercept-overloaded.md
           items: 
           - name: "SetBlueYIntercept method"
             href: https://msdn.microsoft.com/en-us/library/Dn919750(v=VS.85).aspx
@@ -429,14 +429,14 @@
         - name: "SetGreenDisable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919753(v=VS.85).aspx
         - name: "SetGreenSlope methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setgreenslope
+          href: idcompositionlineartransfereffect-setgreenslope-overloaded.md
           items: 
           - name: "SetGreenSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919754(v=VS.85).aspx
           - name: "SetGreenSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919755(v=VS.85).aspx
         - name: "SetGreenYIntercept methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setgreenyintercept
+          href: idcompositionlineartransfereffect-setgreenyintercept-overloaded.md
           items: 
           - name: "SetGreenYIntercept method"
             href: https://msdn.microsoft.com/en-us/library/Dn919756(v=VS.85).aspx
@@ -445,14 +445,14 @@
         - name: "SetRedDisable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919758(v=VS.85).aspx
         - name: "SetRedSlope methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setredslope
+          href: idcompositionlineartransfereffect-setredslope-overloaded.md
           items: 
           - name: "SetRedSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919759(v=VS.85).aspx
           - name: "SetRedSlope method"
             href: https://msdn.microsoft.com/en-us/library/Dn919760(v=VS.85).aspx
         - name: "SetRedYIntercept methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setredyintercept
+          href: idcompositionlineartransfereffect-setredyintercept-overloaded.md
           items: 
           - name: "SetRedYIntercept method"
             href: https://msdn.microsoft.com/en-us/library/Dn919761(v=VS.85).aspx
@@ -486,84 +486,84 @@
         href: https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx
         items: 
         - name: "SetBottom methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setbottom
+          href: idcompositionrectangleclip-setbottom-overloaded.md
           items: 
           - name: "SetBottom(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448860(v=VS.85).aspx
           - name: "SetBottom(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448862(v=VS.85).aspx
         - name: "SetBottomLeftRadiusX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setbottomleftradiusx
+          href: idcompositionrectangleclip-setbottomleftradiusx.md
           items: 
           - name: "SetBottomLeftRadiusX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh437436(v=VS.85).aspx
           - name: "SetBottomLeftRadiusX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh437438(v=VS.85).aspx
         - name: "SetBottomLeftRadiusY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setbottomleftradiusy
+          href: idcompositionrectangleclip-setbottomleftradiusy.md
           items: 
           - name: "SetBottomLeftRadiusY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh437443(v=VS.85).aspx
           - name: "SetBottomLeftRadiusY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh437445(v=VS.85).aspx
         - name: "SetBottomRightRadiusX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setbottomrightradiusx
+          href: idcompositionrectangleclip-setbottomrightradiusx.md
           items: 
           - name: "SetBottomRightRadiusX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448851(v=VS.85).aspx
           - name: "SetBottomRightRadiusX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448853(v=VS.85).aspx
         - name: "SetBottomRightRadiusY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setbottomrightradiusy
+          href: idcompositionrectangleclip-setbottomrightradiusy.md
           items: 
           - name: "SetBottomRightRadiusY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448857(v=VS.85).aspx
           - name: "SetBottomRightRadiusY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448858(v=VS.85).aspx
         - name: "SetLeft methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setleft
+          href: idcompositionrectangleclip-setleft-overloaded.md
           items: 
           - name: "SetLeft(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448899(v=VS.85).aspx
           - name: "SetLeft(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448901(v=VS.85).aspx
         - name: "SetRight methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setright
+          href: idcompositionrectangleclip-setright-overloaded.md
           items: 
           - name: "SetRight(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448905(v=VS.85).aspx
           - name: "SetRight(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448907(v=VS.85).aspx
         - name: "SetTop methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-settop
+          href: idcompositionrectangleclip-settop-overloaded.md
           items: 
           - name: "SetTop(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448921(v=VS.85).aspx
           - name: "SetTop(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448922(v=VS.85).aspx
         - name: "SetTopLeftRadiusX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-settopleftradiusx
+          href: idcompositionrectangleclip-settopleftradiusx.md
           items: 
           - name: "SetTopLeftRadiusX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448910(v=VS.85).aspx
           - name: "SetTopLeftRadiusX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448911(v=VS.85).aspx
         - name: "SetTopLeftRadiusY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-settopleftradiusy
+          href: idcompositionrectangleclip-settopleftradiusy.md
           items: 
           - name: "SetTopLeftRadiusY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448913(v=VS.85).aspx
           - name: "SetTopLeftRadiusY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448914(v=VS.85).aspx
         - name: "SetTopRightRadiusX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-settoprightradiusx
+          href: idcompositionrectangleclip-settoprightradiusx.md
           items: 
           - name: "SetTopRightRadiusX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448916(v=VS.85).aspx
           - name: "SetTopRightRadiusX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448917(v=VS.85).aspx
         - name: "SetTopRightRadiusY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-settoprightradiusy
+          href: idcompositionrectangleclip-settoprightradiusy.md
           items: 
           - name: "SetTopRightRadiusY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448919(v=VS.85).aspx
@@ -580,14 +580,14 @@
           - name: "SetAngle(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448974(v=VS.85).aspx
         - name: "SetCenterX methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh448982(v=VS.85).aspx
+          href: idcompositionskewtransform-setcenterx-overloaded.md
           items: 
           - name: "SetCenterX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448978(v=VS.85).aspx
           - name: "SetCenterX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448980(v=VS.85).aspx
         - name: "SetCenterY methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh448988(v=VS.85).aspx
+          href: idcompositionskewtransform-setcentery-overloaded.md
           items: 
           - name: "SetCenterY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448984(v=VS.85).aspx
@@ -614,21 +614,21 @@
           - name: "SetAngle(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448931(v=VS.85).aspx
         - name: "SetAxisX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setaxisx
+          href: idcompositionrotatetransform3d-setaxisx-overloaded.md
           items: 
           - name: "SetAxisX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448935(v=VS.85).aspx
           - name: "SetAxisX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448937(v=VS.85).aspx
         - name: "SetAxisY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setaxisy
+          href: idcompositionrotatetransform3d-setaxisy-overloaded.md
           items: 
           - name: "SetAxisY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448941(v=VS.85).aspx
           - name: "SetAxisY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448943(v=VS.85).aspx
         - name: "SetAxisZ methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setaxisz
+          href: idcompositionrotatetransform3d-setaxisz-overloaded.md
           items: 
           - name: "SetAxisZ(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448947(v=VS.85).aspx
@@ -649,7 +649,7 @@
           - name: "SetCenterY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448961(v=VS.85).aspx
         - name: "SetCenterZ methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setcenterz
+          href: idcompositionscaletransform3d-setcenterz-overloaded.md
           items: 
           - name: "SetCenterZ(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh448965(v=VS.85).aspx
@@ -673,14 +673,14 @@
           - name: "SetCenterY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449040(v=VS.85).aspx
         - name: "SetScaleX methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh449048(v=VS.85).aspx
+          href: idcompositionscaletransform3d-setscalex-overloaded.md
           items: 
           - name: "SetScaleX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449044(v=VS.85).aspx
           - name: "SetScaleX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449046(v=VS.85).aspx
         - name: "SetScaleY methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh449055(v=VS.85).aspx
+          href: idcompositionscaletransform3d-setscaley-overloaded.md
           items: 
           - name: "SetScaleY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449050(v=VS.85).aspx
@@ -725,7 +725,7 @@
           - name: "SetScaleY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449022(v=VS.85).aspx
         - name: "SetScaleZ methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setscalez
+          href: idcompositionscaletransform3d-setscalez-overloaded.md
           items: 
           - name: "SetScaleZ(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449026(v=VS.85).aspx
@@ -735,14 +735,14 @@
         href: https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx
         items: 
         - name: "SetAngleX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setanglex
+          href: idcompositionskewtransform-setanglex-overloaded.md
           items: 
           - name: "SetAngleX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449059(v=VS.85).aspx
           - name: "SetAngleX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449061(v=VS.85).aspx
         - name: "SetAngleY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setangley
+          href: idcompositionskewtransform-setangley-overloaded.md
           items: 
           - name: "SetAngleY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449065(v=VS.85).aspx
@@ -773,7 +773,7 @@
           - name: "SetAlpha method"
             href: https://msdn.microsoft.com/en-us/library/Dn919768(v=VS.85).aspx
         - name: "SetBlue methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setblue
+          href: idcompositionshadoweffect-setblue-overloaded.md
           items: 
           - name: "SetBlue method"
             href: https://msdn.microsoft.com/en-us/library/Dn919769(v=VS.85).aspx
@@ -782,14 +782,14 @@
         - name: "SetColor method"
           href: https://msdn.microsoft.com/en-us/library/Dn919771(v=VS.85).aspx
         - name: "SetGreen methods"
-          href: https://msdn.microsoft.com/en-us/library/Dn905302(v=VS.85).aspx
+          href: idcompositionshadoweffect-setgreen-overloaded.md
           items: 
           - name: "SetGreen method"
             href: https://msdn.microsoft.com/en-us/library/Dn919772(v=VS.85).aspx
           - name: "SetGreen method"
             href: https://msdn.microsoft.com/en-us/library/Dn919773(v=VS.85).aspx
         - name: "SetRed methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setred
+          href: idcompositionshadoweffect-setred-overloaded.md
           items: 
           - name: "SetRed method"
             href: https://msdn.microsoft.com/en-us/library/Dn919774(v=VS.85).aspx
@@ -823,7 +823,7 @@
         - name: "SetAlphaTable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919785(v=VS.85).aspx
         - name: "SetAlphaTableValue methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setalphatablevalue
+          href: idcompositiontabletransfereffect-setalphatablevalue-overloaded.md
           items: 
           - name: "SetAlphaTableValue method"
             href: https://msdn.microsoft.com/en-us/library/Dn919786(v=VS.85).aspx
@@ -834,7 +834,7 @@
         - name: "SetBlueTable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919789(v=VS.85).aspx
         - name: "SetBlueTableValue methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setbluetablevalue
+          href: idcompositiontabletransfereffect-setbluetablevalue-overloaded.md
           items: 
           - name: "SetBlueTableValue method"
             href: https://msdn.microsoft.com/en-us/library/Dn919790(v=VS.85).aspx
@@ -847,7 +847,7 @@
         - name: "SetGreenTable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919794(v=VS.85).aspx
         - name: "SetGreenTableValue methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setgreentablevalue
+          href: idcompositiontabletransfereffect-setgreentablevalue-overloaded.md
           items: 
           - name: "SetGreenTableValue method"
             href: https://msdn.microsoft.com/en-us/library/Dn919795(v=VS.85).aspx
@@ -858,7 +858,7 @@
         - name: "SetRedTable method"
           href: https://msdn.microsoft.com/en-us/library/Dn919798(v=VS.85).aspx
         - name: "SetRedTableValue methods"
-          href: /windows/desktop/api/dcomp/nf-dcomp-setredtablevalue
+          href: idcompositiontabletransfereffect-setredtablevalue-overloaded.md
           items: 
           - name: "SetRedTableValue method"
             href: https://msdn.microsoft.com/en-us/library/Dn919799(v=VS.85).aspx
@@ -884,14 +884,14 @@
         href: https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx
         items: 
         - name: "SetOffsetX methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh449126(v=VS.85).aspx
+          href: idcompositionvisual-setoffsetx-overloaded.md
           items: 
           - name: "SetOffsetX(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449124(v=VS.85).aspx
           - name: "SetOffsetX(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449125(v=VS.85).aspx
         - name: "SetOffsetY methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh449131(v=VS.85).aspx
+          href: idcompositionvisual-setoffsety-overloaded.md
           items: 
           - name: "SetOffsetY(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449127(v=VS.85).aspx
@@ -932,7 +932,7 @@
           - name: "SetOffsetY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449119(v=VS.85).aspx
         - name: "SetOffsetZ methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setoffsetz
+          href: idcompositionvisual3-setoffsetz-overloaded.md
           items: 
           - name: "SetOffsetZ(float) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449121(v=VS.85).aspx
@@ -959,7 +959,7 @@
         - name: "SetBorderMode method"
           href: https://msdn.microsoft.com/en-us/library/Hh449149(v=VS.85).aspx
         - name: "SetClip methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setclip
+          href: idcompositionvisual-setclip-overloaded.md
           items: 
           - name: "SetClip(D2D_RECT_F) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449151(v=VS.85).aspx
@@ -986,7 +986,7 @@
           - name: "SetOffsetY(IDCompositionAnimation) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449169(v=VS.85).aspx
         - name: "SetTransform methods"
-          href: https://msdn.microsoft.com/en-us/library/Hh449178(v=VS.85).aspx
+          href: idcompositionvisual3-settransform-overloaded.md
           items: 
           - name: "SetTransform(D2D_MATRIX_3X2_F) method"
             href: https://msdn.microsoft.com/en-us/library/Hh449174(v=VS.85).aspx

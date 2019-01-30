@@ -2,8 +2,6 @@
 title: DO Enumerations
 description: The Delivery Optimization (DO) interfaces use the following enumerations.
 ms.assetid: 0B0C627D-F6B7-4A10-83C0-03BFE329E974
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

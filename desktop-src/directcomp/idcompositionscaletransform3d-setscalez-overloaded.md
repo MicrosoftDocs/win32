@@ -1,0 +1,63 @@
+---
+title: IDCompositionScaleTransform3D SetScaleZ methods
+description: Changes or animates the value of the ScaleZ property of a scale transform.
+ms.assetid: 'CD00FBB3-246E-45D0-A7F6-5A7F9C37376B'
+keywords: ["SetScaleZ methods DirectComposition"]
+topic_type:
+- apiref
+api_location:
+- Dcomp.dll
+api_type:
+- DllExport
+---
+
+# IDCompositionScaleTransform3D::SetScaleZ methods
+
+Changes or animates the value of the ScaleZ property of a scale transform. The ScaleZ property specifies the scale factor along the z-axis.
+
+### Overload list
+
+
+
+| Method                                                                                                        | Description                                           |
+|:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
+| [**SetScaleZ(float)**](https://msdn.microsoft.com/en-us/library/Hh449026(v=VS.85).aspx)                                     | Changes the value of the ScaleZ property.<br/>  |
+| [**SetScaleZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449028(v=VS.85).aspx) | Animates the value of the ScaleZ property.<br/> |
+
+
+
+## Requirements
+
+
+
+|                                     |                                                                                      |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
+| Header<br/>                   | <dl> <dt>Dcomp.h</dt> </dl>   |
+| Library<br/>                  | <dl> <dt>Dcomp.lib</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx)
+</dt> <dt>
+
+[**IDCompositionScaleTransform3D::SetScaleX**](idcompositionscaletransform3d-setscalex-overloaded.md)
+</dt> <dt>
+
+[**IDCompositionScaleTransform3D::SetScaleY**](idcompositionscaletransform3d-setscaley-overloaded.md)
+</dt> </dl>
+
+�
+
+�
+
+
+
+
+
