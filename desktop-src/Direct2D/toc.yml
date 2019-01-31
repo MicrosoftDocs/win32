@@ -558,6 +558,10 @@
         href: /windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation
       - name: "D2D1_GEOMETRY_SIMPLIFICATION_OPTION"
         href: /windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_simplification_option
+      - name: "D2D1_HDRTONEMAP_DISPLAY_MODE"
+        href: /windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode
+      - name: "D2D1_HDRTONEMAP_PROP"
+        href: /windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop
       - name: "D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA"
         href: /windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_input_gamma
       - name: "D2D1_HIGHLIGHTSANDSHADOWS_PROP"
@@ -722,6 +726,8 @@
         href: /windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_usage
       - name: "D2D1_VIGNETTE_PROP"
         href: /windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_vignette_prop
+      - name: "D2D1_WHITELEVELADJUSTMENT_PROP"
+        href: /windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop
       - name: "D2D1_WINDOW_STATE"
         href: /windows/desktop/api/d2d1/ne-d2d1-d2d1_window_state
       - name: "D2D1_YCBCR_CHROMA_SUBSAMPLING"
