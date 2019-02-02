@@ -1,0 +1,28 @@
+---
+title: Direct Machine Learning (DirectML)
+description: Direct Machine Learning (DirectML) is a low-level API for machine learning.
+ms.topic: article
+ms.date: 02/01/2019
+---
+
+# Direct Machine Learning (DirectML)
+
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
+
+Direct Machine Learning (DirectML) is a low-level API for machine learning. It has a familiar (native C++, nano-COM) programming interface and workflow in the style of DirectX 12. You can integrate machine learning inferencing workloads into your game, engine, middleware, backend, or other application. DirectML is supported by all DirectX 12-compatible hardware.
+
+## In this section
+
+| Topic | Description |
+|-|-|
+| [Introduction to DirectML](dml-intro.md) | Direct Machine Learning (DirectML) is a low-level API for machine learning (ML). |
+| [Binding in DirectML](dml-binding.md) | In DirectML, *binding* refers to the attachment of resources to the pipeline for the GPU to use during the initialization and execution of your machine learning operators. These resources can be input and output tensors, for example, as well as any temporary or persistent resources that the operator needs. |
+| [A minimal DirectML application](dml-min-app.md) | A full source code listing of a minimal DirectML application. |
+
+## Related topics
+
+* [Direct3D 12 programming guide](directx-12-programming-guide.md)

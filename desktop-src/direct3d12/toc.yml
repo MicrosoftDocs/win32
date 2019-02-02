@@ -201,6 +201,15 @@
       items: 
       - name: "Using D3D12 Debug Layer GPU-Based Validation"
         href: using-d3d12-debug-layer-gpu-based-validation.md
+    - name: "Direct Machine Learning (DirectML)"
+      href: dml.md
+      items: 
+      - name: "Introduction to DirectML"
+        href: dml-intro.md
+      - name: "Binding in DirectML"
+        href: dml-binding.md
+      - name: "A minimal DirectML application"
+        href: dml-min-app.md
   - name: "Direct3D 12 Reference"
     href: direct3d-12-reference.md
     items: 
