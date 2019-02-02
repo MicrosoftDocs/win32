@@ -29,10 +29,10 @@ Used when packing input layout elements. It indicates that the elements must be 
 **D2D1\_DEFAULT\_FLATTENING\_TOLERANCE** (0.25f)
 The default tolerance for geometric flattening operations.
 
-**D2D1\_INVALID\_PROPERTY\_INDEX** (UINT\_MAX)
+**D2D1\_INVALID\_PROPERTY\_INDEX** (UINT_MAX)
 When the invalid property index is specified to GetValue or GetValueByName, the call fails and the output buffer is zero-filled.
 
-**D2D1\_INVALID\_TAG** (ULONGLONG\_MAX)
+**D2D1\_INVALID\_TAG** (ULONGLONG_MAX)
 Reserved; do not use.
 
 **D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL** (80.0f)

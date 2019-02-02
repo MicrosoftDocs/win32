@@ -21,11 +21,11 @@ The CLSID for this effect is CLSID\_D2D1Grayscale.
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Example Image
+## Example image
 
 ![example of effect output](images/grayscale-effect.png)
 
-## Effect Properties
+## Effect properties
 
 This effect has no properties.
 
@@ -41,20 +41,6 @@ This effect has no properties.
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

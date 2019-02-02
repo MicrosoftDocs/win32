@@ -1,12 +1,12 @@
 ---
-title: 3D Lookup Table effect
+title: 3D lookup table effect
 description: A 3D look-up table is a general-purpose effect that is used to encapsulate any 1 1 imaging effect by pre-computing how the effect maps inputs to outputs for a subset of all input values.
 ms.assetid: 2f0b4b6d-f371-101c-918a-bf564778e593
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# 3D Lookup Table effect
+# 3D lookup table effect
 
 A 3D look-up table is a general-purpose effect that is used to encapsulate any 1:1 imaging effect by pre-computing how the effect maps inputs to outputs for a subset of all input values.
 
@@ -26,14 +26,13 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Example Image
+## Example image
 
 ![example of effect output](images/3dlookuptable-effect.png)
 
-## Sample Code
+## Sample code
 
-
-```C++
+```cpp
 //
     // 1. Generate the lookup table data and create an ID2D1LookupTable3D.
     //
@@ -112,9 +111,7 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
     IFR(sp3dLutEffect->SetValue(D2D1_LOOKUPTABLE3D_PROP_LUT, _spLut));
 ```
 
-
-
-## Effect Properties
+## Effect properties
 
 The properties for the 3D lookup table effect are defined by the [**D2D1\_LOOKUPTABLE3D\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_lookuptable3d_prop) enumeration.
 
@@ -129,21 +126,6 @@ The properties for the 3D lookup table effect are defined by the [**D2D1\_LOOKUP
 | Header                   | d2d1effects\_2.h                                  |
 | Library                  | d2d1.lib, dxguid.lib                              |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

@@ -3086,6 +3086,8 @@
         href: gaussian-blur.md
       - name: "Grayscale effect"
         href: grayscale-effect.md
+      - name: "HDR tone map effect"
+        href: hdr-tone-map-effect.md
       - name: "Highlights and shadows effect"
         href: highlights-and-shadows-effect.md
       - name: "Histogram effect"
@@ -3146,6 +3148,8 @@
         href: unpremultiply.md
       - name: "Vignette effect"
         href: vignette-effect.md
+      - name: "White level adjustment effect"
+        href: white-level-adjustment-effect.md
       - name: "YCbCr Effect"
         href: ycbcr-effect.md
     - name: "HLSL Helpers"

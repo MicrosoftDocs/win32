@@ -161,7 +161,7 @@ This check is only necessary if you are using the Direct2D YC<sub>b</sub>C<sub>r
 
 Before using the YC<sub>b</sub>C<sub>r</sub> image effect, you should call [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/en-us/library/Hh847982(v=VS.85).aspx) to ensure that both formats are supported by the driver.
 
-### Sample Code
+### Sample code
 
 Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091).
 

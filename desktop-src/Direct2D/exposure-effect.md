@@ -1,12 +1,12 @@
 ---
-title: Exposure Effect
+title: Exposure effect
 description: Increase or decreases the exposure of the image.
 ms.assetid: d384f539-5c19-53c7-e52b-bf833e221449
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Exposure Effect
+# Exposure effect
 
 Increase or decreases the exposure of the image.
 
@@ -18,11 +18,11 @@ The CLSID for this effect is CLSID\_D2D1Exposure.
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Example Image
+## Example image
 
 ![example of effect output](images/exposure-effect.png)
 
-## Sample Code
+## Sample code
 
 
 ```C++
@@ -41,7 +41,7 @@ m_d2dContext->EndDraw();
 
 
 
-## Effect Properties
+## Effect properties
 
 The properties for the exposure effect are defined by the [**D2D1\_EXPOSURE\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_exposure_prop) enumeration.
 
@@ -57,19 +57,9 @@ The properties for the exposure effect are defined by the [**D2D1\_EXPOSURE\_PRO
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 
 
 

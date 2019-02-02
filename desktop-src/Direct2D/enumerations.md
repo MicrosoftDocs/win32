@@ -15,723 +15,179 @@ Direct2D defines the following enumerations.
 
 ## In this section
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_2daffinetransform_interpolation_mode"><strong>D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE</strong></a><br/></td>
-<td>The interpolation mode to be used with the 2D affine transform effect to scale the image. There are 6 scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_2daffinetransform_prop"><strong>D2D1_2DAFFINETRANSFORM_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="2d-affine-transform.md">2D affine transform effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dperspectivetransform_interpolation_mode"><strong>D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="3d-perspective-transform.md">3D perspective transform effect</a> uses on the image. There are 5 scale modes that range in quality and speed. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dperspectivetransform_prop"><strong>D2D1_3DPERSPECTIVETRANSFORM_PROP</strong></a><br/></td>
-<td>Identifiers for the properties of the <a href="3d-perspective-transform.md">3D perspective transform effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dtransform_interpolation_mode"><strong>D2D1_3DTRANSFORM_INTERPOLATION_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="3d-transform.md">3D transform effect</a> uses on the image. There are 5 scale modes that range in quality and speed. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dtransform_prop"><strong>D2D1_3DTRANSFORM_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="3d-transform.md">3D transform effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode"><strong>D2D1_ALPHA_MODE</strong></a><br/></td>
-<td>Specifies how the alpha value of a bitmap or render target should be treated.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode"><strong>D2D1_ANTIALIAS_MODE</strong></a><br/></td>
-<td>Specifies how the edges of nontext primitives are rendered.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_arc_size"><strong>D2D1_ARC_SIZE</strong></a><br/></td>
-<td>Specifies whether an arc should be greater than 180 degrees.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_arithmeticcomposite_prop"><strong>D2D1_ARITHMETICCOMPOSITE_PROP</strong></a><br/></td>
-<td>Identifiers for the properties of the <a href="arithmetic-composite.md">Arithmetic composite effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_atlas_prop"><strong>D2D1_ATLAS_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="atlas.md">Atlas effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_alpha_mode"><strong>D2D1_BITMAPSOURCE_ALPHA_MODE</strong></a><br/></td>
-<td>Specifies the alpha mode of the output of the <a href="bitmap-source.md">Bitmap source effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode"><strong>D2D1_BITMAPSOURCE_INTERPOLATION_MODE</strong></a><br/></td>
-<td>The interpolation mode used to scale the image in the <a href="bitmap-source.md">Bitmap source effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation"><strong>D2D1_BITMAPSOURCE_ORIENTATION</strong></a><br/></td>
-<td>Speficies whether a flip and/or rotation operation should be performed by the <a href="bitmap-source.md">Bitmap source effect</a><br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_prop"><strong>D2D1_BITMAPSOURCE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="bitmap-source.md">Bitmap source effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode"><strong>D2D1_BITMAP_INTERPOLATION_MODE</strong></a><br/></td>
-<td>Specifies the algorithm that is used when images are scaled or rotated.<br/>
-<blockquote>
-[!Note]<br />
-Starting in Windows 8, more interpolations modes are available. See <a href="https://msdn.microsoft.com/library/windows/desktop/hh447004"><strong>D2D1_INTERPOLATION_MODE</strong></a> for more info.
-</blockquote>
-<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_bitmap_options"><strong>D2D1_BITMAP_OPTIONS</strong></a><br/></td>
-<td>Specifies how a bitmap can be used.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend.md"><strong>D2D1_BLEND</strong></a><br/></td>
-<td>Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode"><strong>D2D1_BLEND_MODE</strong></a><br/></td>
-<td>The blend mode used for the <a href="blend.md">Blend effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_blend_operation"><strong>D2D1_BLEND_OPERATION</strong></a><br/></td>
-<td>Specifies the blend operation on two color sources.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_prop"><strong>D2D1_BLEND_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="blend.md">Blend effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_edge_mode"><strong>D2D1_BORDER_EDGE_MODE</strong></a><br/></td>
-<td>The edge mode for the <a href="border.md">Border effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode"><strong>D2D1_BORDER_MODE</strong></a><br/></td>
-<td>Specifies how the <a href="crop.md">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_prop"><strong>D2D1_BORDER_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="border.md">Border effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_brightness_prop"><strong>D2D1_BRIGHTNESS_PROP</strong></a><br/></td>
-<td>Identifiers for the properties of the <a href="brightness.md">Brightness effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision"><strong>D2D1_BUFFER_PRECISION</strong></a><br/></td>
-<td>Represents the bit depth of the imaging pipeline in Direct2D.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style"><strong>D2D1_CAP_STYLE</strong></a><br/></td>
-<td>Describes the shape at the end of a line or segment.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_change_type"><strong>D2D1_CHANGE_TYPE</strong></a><br/></td>
-<td>Describes flags that influence how the renderer interacts with a custom vertex shader.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_channel_depth"><strong>D2D1_CHANNEL_DEPTH</strong></a><br/></td>
-<td>Allows a caller to control the channel depth of a stage in the rendering pipeline.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector"><strong>D2D1_CHANNEL_SELECTOR</strong></a><br/></td>
-<td>Specifies the color channel the <a href="displacement-map.md">Displacement map effect</a> extracts the intensity from and uses it to spatially displace the image in the X or Y direction.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_chromakey_prop"><strong>D2D1_CHROMAKEY_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="chromakey-effect.md">Chroma-key effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_alpha_mode"><strong>D2D1_COLORMANAGEMENT_ALPHA_MODE</strong></a><br/></td>
-<td>Indicates how the <a href="color-management.md">Color management effect</a> should interpret alpha data that is contained in the input image. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_prop"><strong>D2D1_COLORMANAGEMENT_PROP</strong></a><br/></td>
-<td>Identifiers for the properties of the <a href="color-management.md">Color management effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_quality"><strong>D2D1_COLORMANAGEMENT_QUALITY</strong></a><br/></td>
-<td>The quality level of the transform for the <a href="color-management.md">Color management effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_rendering_intent"><strong>D2D1_COLORMANAGEMENT_RENDERING_INTENT</strong></a><br/></td>
-<td>Specifies which ICC rendering intent the <a href="color-management.md">Color management effect</a> should use.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormatrix_alpha_mode"><strong>D2D1_COLORMATRIX_ALPHA_MODE</strong></a><br/></td>
-<td>The alpha mode of the output of the <a href="color-matrix.md">Color matrix effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormatrix_prop"><strong>D2D1_COLORMATRIX_PROP</strong></a><br/></td>
-<td>Identifiers for the properties of the <a href="color-matrix.md">Color matrix effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_bitmap_glyph_snap_option"><strong>D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION</strong></a><br/></td>
-<td>Specifies the pixel snapping policy when rendering color bitmap glyphs.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_context_type"><strong>D2D1_COLOR_CONTEXT_TYPE</strong></a><br/></td>
-<td>Specifies which way a color profile is defined.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_color_space"><strong>D2D1_COLOR_SPACE</strong></a><br/></td>
-<td>Defines options that should be applied to the color space.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_interpolation_mode"><strong>D2D1_COLOR_INTERPOLATION_MODE</strong></a><br/></td>
-<td>Defines how to interpolate between colors.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_combine_mode"><strong>D2D1_COMBINE_MODE</strong></a><br/></td>
-<td>Specifies the different methods by which two geometries can be combined.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_compatible_render_target_options"><strong>D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS</strong></a><br/></td>
-<td>Specifies additional features supportable by a compatible render target when it is created. This enumeration allows a bitwise combination of its member values.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_composite_mode"><strong>D2D1_COMPOSITE_MODE</strong></a><br/></td>
-<td>Used to specify the blend mode for all of the Direct2D blending operations.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_composite_prop"><strong>D2D1_COMPOSITE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="composite.md">Composite effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_contrast_prop"><strong>D2D1_CONTRAST_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="contrast-effect.md">Contrast effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_prop"><strong>D2D1_CONVOLVEMATRIX_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="convolve-matrix.md">Convolve matrix effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode"><strong>D2D1_CONVOLVEMATRIX_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="convolve-matrix.md">Convolve matrix effect</a> uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_crop_prop"><strong>D2D1_CROP_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="crop.md">Crop effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style"><strong>D2D1_DASH_STYLE</strong></a><br/></td>
-<td>Describes the sequence of dashes and gaps in a stroke. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_dc_initialize_mode"><strong>D2D1_DC_INITIALIZE_MODE</strong></a><br/></td>
-<td>Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_debug_level"><strong>D2D1_DEBUG_LEVEL</strong></a><br/></td>
-<td>Indicates the type of information provided by the <a href="direct2ddebuglayer-overview.md">Direct2D Debug Layer</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_device_context_options"><strong>D2D1_DEVICE_CONTEXT_OPTIONS</strong></a><br/></td>
-<td>This specifies options that apply to the device context for its lifetime.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_directionalblur_optimization"><strong>D2D1_DIRECTIONALBLUR_OPTIMIZATION</strong></a><br/></td>
-<td>Specifies the optimization mode for the <a href="directional-blur.md">Directional blur effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_directionalblur_prop"><strong>D2D1_DIRECTIONALBLUR_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="directional-blur.md">Directional blur effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_discretetransfer_prop"><strong>D2D1_DISCRETETRANSFER_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="discrete-transfer.md">Discrete transfer effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_displacementmap_prop"><strong>D2D1_DISPLACEMENTMAP_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="displacement-map.md">Displacement map effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantdiffuse_prop"><strong>D2D1_DISTANTDIFFUSE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="distant-diffuse.md">Distant-diffuse lighting effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantdiffuse_scale_mode"><strong>D2D1_DISTANTDIFFUSE_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantspecular_prop"><strong>D2D1_DISTANTSPECULAR_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="distant-specular.md">Distant-specular lighting effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantspecular_scale_mode"><strong>D2D1_DISTANTSPECULAR_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="distant-specular.md">Distant-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_interpolation_mode"><strong>D2D1_DPICOMPENSATION_INTERPOLATION_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="dpi-compensation.md">DPI compensation effect</a> uses to scale the image. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_prop"><strong>D2D1_DPICOMPENSATION_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="dpi-compensation.md">DPI compensation effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options"><strong>D2D1_DRAW_TEXT_OPTIONS</strong></a><br/></td>
-<td>Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_mode"><strong>D2D1_EDGEDETECTION_MODE</strong></a><br/></td>
-<td>Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop"><strong>D2D1_EDGEDETECTION_PROP_MODE</strong></a> property of the <a href="edge-detection-effect.md">Edge Detection effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop"><strong>D2D1_EDGEDETECTION_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the Edge Detection effect.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop"><strong>D2D1_EMBOSS_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="emboss-effect.md">Emboss effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_exposure_prop"><strong>D2D1_EXPOSURE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="exposure-effect.md">Exposure effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode"><strong>D2D1_EXTEND_MODE</strong></a><br/></td>
-<td>Specifies how a brush paints areas outside of its normal content area.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type"><strong>D2D1_FACTORY_TYPE</strong></a><br/></td>
-<td>Specifies whether Direct2D provides synchronization for an <a href="https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx"><strong>ID2D1Factory</strong></a> and the resources it creates, so that they may be safely accessed from multiple threads. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_feature"><strong>D2D1_FEATURE</strong></a><br/></td>
-<td>Defines capabilities of the underlying Direct3D device which may be queried using <a href="https://msdn.microsoft.com/en-us/library/Hh871455(v=VS.85).aspx"><strong>ID2D1EffectContext::CheckFeatureSupport</strong></a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_feature_level"><strong>D2D1_FEATURE_LEVEL</strong></a><br/></td>
-<td>Describes the minimum DirectX support required for hardware rendering by a render target.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_begin"><strong>D2D1_FIGURE_BEGIN</strong></a><br/></td>
-<td>Indicates whether a specific <a href="https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx"><strong>ID2D1SimplifiedGeometrySink</strong></a> figure is filled or hollow. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_end"><strong>D2D1_FIGURE_END</strong></a><br/></td>
-<td>Indicates whether a specific <a href="https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx"><strong>ID2D1SimplifiedGeometrySink</strong></a> figure is open or closed. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode"><strong>D2D1_FILL_MODE</strong></a><br/></td>
-<td>Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_filter"><strong>D2D1_FILTER</strong></a><br/></td>
-<td>Represents filtering modes that a transform may select to use on input textures.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_flood_prop"><strong>D2D1_FLOOD_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="flood.md">Flood effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma"><strong>D2D1_GAMMA</strong></a><br/></td>
-<td>Specifies which gamma is used for interpolation.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_gamma1"><strong>D2D1_GAMMA1</strong></a><br/></td>
-<td>Determines what gamma is used for interpolation and blending.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gammatransfer_prop"><strong>D2D1_GAMMATRANSFER_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="gamma-transfer.md">Gamma transfer effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_optimization"><strong>D2D1_GAUSSIANBLUR_OPTIMIZATION</strong></a><br/></td>
-<td>The optimization mode for the <a href="gaussian-blur.md">Gaussian blur effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_prop"><strong>D2D1_GAUSSIANBLUR_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="gaussian-blur.md">Gaussian blur effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh447002(v=VS.85).aspx"><strong>D2D1_GAMMA_CONVERSION</strong></a><br/></td>
-<td>Defines the conversion between color spaces.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation"><strong>D2D1_GEOMETRY_RELATION</strong></a><br/></td>
-<td>Describes how one geometry object is spatially related to another geometry object. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_simplification_option"><strong>D2D1_GEOMETRY_SIMPLIFICATION_OPTION</strong></a><br/></td>
-<td>Specifies how a geometry is simplified to an <a href="https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx"><strong>ID2D1SimplifiedGeometrySink</strong></a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode"><strong>D2D1_HDRTONEMAP_DISPLAY_MODE</strong></a><br/></td>
-<td>Defines constants that specify a value for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop"><strong>D2D1_HDRTONEMAP_PROP_DISPLAY_MODE</strong></a> property of the <a href="/windows/desktop/Direct2D/hdr-tone-map-effect">HDR Tone Map effect</a>.</td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop"><strong>D2D1_HDRTONEMAP_PROP</strong></a><br/></td>
-<td>Defines constants that identify the top level properties of the <a href="/windows/desktop/Direct2D/hdr-tone-map-effect">HDR Tone Map effect</a>.</td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_input_gamma"><strong>D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA</strong></a><br/></td>
-<td>Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop"><strong>D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</strong></a> property of the <a href="highlights-and-shadows-effect.md">Highlights and Shadows effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop"><strong>D2D1_HIGHLIGHTSANDSHADOWS_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="highlights-and-shadows-effect.md">Highlights and Shadows effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_histogram_prop"><strong>D2D1_HISTOGRAM_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="histogram.md">Histogram effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_huerotation_prop"><strong>D2D1_HUEROTATION_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="hue-rotate.md">Hue rotate effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_input_color_space"><strong>D2D1_HUETORGB_INPUT_COLOR_SPACE</strong></a><br/></td>
-<td>Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_prop"><strong>D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE</strong></a> property of the <a href="hue-to-rgb-effect.md">Hue to RGB effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_prop"><strong>D2D1_HUETORGB_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="hue-to-rgb-effect.md">Hue to RGB effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options"><strong>D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS</strong></a><br/></td>
-<td>Option flags controlling primary conversion performed by <a href="https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx"><strong>CreateImageSourceFromDxgi</strong></a>, if any.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_loading_options"><strong>D2D1_IMAGE_SOURCE_LOADING_OPTIONS</strong></a><br/></td>
-<td>Controls option flags for a new ID2D1ImageSource when it is created.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape"><strong>D2D1_INK_NIB_SHAPE</strong></a><br/></td>
-<td>Specifies the appearance of the ink nib (pen tip) as part of an <a href="/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties"><strong>D2D1_INK_STYLE_PROPERTIES</strong></a> structure. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_interpolation_mode"><strong>D2D1_INTERPOLATION_MODE</strong></a><br/></td>
-<td>This is used to specify the quality of image scaling with <a href="https://msdn.microsoft.com/en-us/library/Hh404511(v=VS.85).aspx"><strong>ID2D1DeviceContext::DrawImage</strong></a> and with the <a href="2d-affine-transform.md">2D affine transform effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options"><strong>D2D1_LAYER_OPTIONS</strong></a><br/></td>
-<td>Specifies options that can be applied when a layer resource is applied to create a layer. <br/>
-<blockquote>
-[!Note]<br />
-Starting in Windows 8, the <strong>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</strong> option is no longer supported. See <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_layer_options1"><strong>D2D1_LAYER_OPTIONS1</strong></a> for Windows 8 layer options.
-</blockquote>
-<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_layer_options1"><strong>D2D1_LAYER_OPTIONS1</strong></a><br/></td>
-<td>Specifies how the layer contents should be prepared. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_lineartransfer_prop"><strong>D2D1_LINEARTRANSFER_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="linear-transfer.md">Linear transfer effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join"><strong>D2D1_LINE_JOIN</strong></a><br/></td>
-<td>Describes the shape that joins two lines or segments. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_lookuptable3d_prop"><strong>D2D1_LOOKUPTABLE3D_PROP</strong></a><br/></td>
-<td>Identifiers for the properties of the 3D Lookup Table effect.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_morphology_mode"><strong>D2D1_MORPHOLOGY_MODE</strong></a><br/></td>
-<td>The mode for the <a href="morphology.md">Morphology effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_morphology_prop"><strong>D2D1_MORPHOLOGY_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="morphology.md">Morphology effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_map_options"><strong>D2D1_MAP_OPTIONS</strong></a><br/></td>
-<td>Specifies how the memory to be mapped from the corresponding <a href="https://msdn.microsoft.com/en-us/library/Hh404349(v=VS.85).aspx"><strong>ID2D1Bitmap1</strong></a> should be treated.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_opacitymetadata_prop"><strong>D2D1_OPACITYMETADATA_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="opacity-metadata-effect.md">Opacity metadata effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content"><strong>D2D1_OPACITY_MASK_CONTENT</strong></a><br/></td>
-<td>Describes whether an opacity mask contains graphics or text. Direct2D uses this information to determine which gamma space to use when blending the opacity mask.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_orientation"><strong>D2D1_ORIENTATION</strong></a><br/></td>
-<td>Specifies the flip and rotation at which an image appears.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_patch_edge_mode"><strong>D2D1_PATCH_EDGE_MODE</strong></a><br/></td>
-<td>Specifies how to render gradient mesh edges.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_path_segment"><strong>D2D1_PATH_SEGMENT</strong></a><br/></td>
-<td>Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_pixel_options"><strong>D2D1_PIXEL_OPTIONS</strong></a><br/></td>
-<td>Indicates how pixel shader sampling will be restricted.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointdiffuse_prop"><strong>D2D1_POINTDIFFUSE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="point-diffuse-lighting.md">Point-diffuse lighting effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointdiffuse_scale_mode"><strong>D2D1_POINTDIFFUSE_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="point-diffuse-lighting.md">Point-diffuse lighting effect</a> uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_prop"><strong>D2D1_POINTSPECULAR_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="point-specular.md">Point-specular lighting effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_scale_mode"><strong>D2D1_POINTSPECULAR_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="point-specular.md">Point-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_posterize_prop"><strong>D2D1_POSTERIZE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="posterize-effect.md">Posterize effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options"><strong>D2D1_PRESENT_OPTIONS</strong></a><br/></td>
-<td>Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend.md"><strong>D2D1_PRIMITIVE_BLEND</strong></a><br/></td>
-<td>Used to specify the geometric blend mode for all Direct2D primitives. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode"><strong>D2D1_PRINT_FONT_SUBSET_MODE</strong></a><br/></td>
-<td>Defines when font resources should be subset during printing.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type"><strong>D2D1_PROPERTY_TYPE</strong></a><br/></td>
-<td>Specifies the types of properties supported by the Direct2D property interface. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property"><strong>D2D1_PROPERTY</strong></a><br/></td>
-<td>Specifies the indices of the system properties present on the <a href="https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx"><strong>ID2D1Properties</strong></a> interface for an <a href="https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx"><strong>ID2D1Effect</strong></a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2D1_2/ne-d2d1_2-d2d1_rendering_priority"><strong>D2D1_RENDERING_PRIORITY</strong></a><br/></td>
-<td>The rendering priority affects the extent to which <a href="direct2d-portal.md">Direct2D</a> will throttle its rendering workload.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type"><strong>D2D1_RENDER_TARGET_TYPE</strong></a><br/></td>
-<td>Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage"><strong>D2D1_RENDER_TARGET_USAGE</strong></a><br/></td>
-<td>Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.<br/></td>
-</tr>
-<tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/Hh447014(v=VS.85).aspx"><strong>D2D1_RESOURCE_TYPE</strong></a><br/></td>
-<td>Specifies which kinds of resources should be released when <a href="https://msdn.microsoft.com/en-us/library/Hh404542(v=VS.85).aspx"><strong>ID2D1Device::ClearResources</strong></a> is invoked. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_output_color_space"><strong>D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE</strong></a><br/></td>
-<td>Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop"><strong>D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</strong></a> property of the <a href="rgb-to-hue-effect.md">RGB to Hue effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop"><strong>D2D1_RGBTOHUE_PROP</strong></a><br/></td>
-<td>Indentifiers for properties of the <a href="rgb-to-hue-effect.md">RGB to Hue effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_saturation_prop"><strong>D2D1_SATURATION_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="saturation.md">Saturation effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_scale_interpolation_mode"><strong>D2D1_SCALE_INTERPOLATION_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="high-quality-scale.md">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_scale_prop"><strong>D2D1_SCALE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="high-quality-scale.md">Scale effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sepia_prop"><strong>D2D1_SEPIA_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="sepia-effect.md">Sepia effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_shadow_optimization"><strong>D2D1_SHADOW_OPTIMIZATION</strong></a><br/></td>
-<td>The level of performance optimization for the <a href="drop-shadow.md">Shadow effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_shadow_prop"><strong>D2D1_SHADOW_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="drop-shadow.md">Shadow effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sharpen_prop"><strong>D2D1_SHARPEN_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="sharpen-effect.md">Sharpen effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotdiffuse_prop"><strong>D2D1_SPOTDIFFUSE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="diffuse-lighting.md">Spot-diffuse lighting effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotdiffuse_scale_mode"><strong>D2D1_SPOTDIFFUSE_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="diffuse-lighting.md">Spot-diffuse lighting effect</a> uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotspecular_prop"><strong>D2D1_SPOTSPECULAR_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="specular-lighting.md">Spot-specular lighting effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotspecular_scale_mode"><strong>D2D1_SPOTSPECULAR_SCALE_MODE</strong></a><br/></td>
-<td>The interpolation mode the <a href="specular-lighting.md">Spot-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_sprite_options"><strong>D2D1_SPRITE_OPTIONS</strong></a><br/></td>
-<td>Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-drawspritebatch(id2d1spritebatch_uint32_uint32_id2d1bitmap_d2d1_bitmap_interpolation_mode_d2d1_sprite_options)"><strong>ID2D1DeviceContext3::DrawSpriteBatch</strong></a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop"><strong>D2D1_STRAIGHTEN_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="straighten-effect.md">Straighten effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_scale_mode"><strong>D2D1_STRAIGHTEN_SCALE_MODE</strong></a><br/></td>
-<td>Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop"><strong>D2D1_STRAIGHTEN_PROP_SCALE_MODE</strong></a> property of the <a href="straighten-effect.md">Straighten effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type"><strong>D2D1_STROKE_TRANSFORM_TYPE</strong></a><br/></td>
-<td>Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_subproperty"><strong>D2D1_SUBPROPERTY</strong></a><br/></td>
-<td>Specifies the indices of the system sub-properties that may be present in any property.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_aspect_align"><strong>D2D1_SVG_ASPECT_ALIGN</strong></a><br/></td>
-<td>The alignment portion of the SVG preserveAspectRatio attribute.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_aspect_scaling"><strong>D2D1_SVG_ASPECT_SCALING</strong></a><br/></td>
-<td>The meetOrSlice portion of the SVG preserveAspectRatio attribute.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_pod_type"><strong>D2D1_SVG_ATTRIBUTE_POD_TYPE</strong></a><br/></td>
-<td>Defines the type of SVG POD attribute to set or get.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_string_type"><strong>D2D1_SVG_ATTRIBUTE_STRING_TYPE</strong></a><br/></td>
-<td>Defines the type of SVG string attribute to set or get.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_display"><strong>D2D1_SVG_DISPLAY</strong></a><br/></td>
-<td>Specifies a value for the SVG display property.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_length_units"><strong>D2D1_SVG_LENGTH_UNITS</strong></a><br/></td>
-<td>Specifies the units for an SVG length.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_line_cap"><strong>D2D1_SVG_LINE_CAP</strong></a><br/></td>
-<td>Specifies a value for the SVG stroke-linecap property.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_line_join"><strong>D2D1_SVG_LINE_JOIN</strong></a><br/></td>
-<td>Specifies a value for the SVG stroke-linejoin property.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_overflow"><strong>D2D1_SVG_OVERFLOW</strong></a><br/></td>
-<td>Specifies a value for the SVG overflow property.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type"><strong>D2D1_SVG_PAINT_TYPE</strong></a><br/></td>
-<td>Specifies the paint type for an SVG fill or stroke.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_path_command"><strong>D2D1_SVG_PATH_COMMAND</strong></a><br/></td>
-<td>Represents a path commmand. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_unit_type"><strong>D2D1_SVG_UNIT_TYPE</strong></a><br/></td>
-<td>Defines the coordinate system used for SVG gradient or clipPath elements.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_visibility"><strong>D2D1_SVG_VISIBILITY</strong></a><br/></td>
-<td>Specifies a value for the SVG visibility property.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction"><strong>D2D1_SWEEP_DIRECTION</strong></a><br/></td>
-<td>Defines the direction that an elliptical arc is drawn. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_tabletransfer_prop"><strong>D2D1_TABLETRANSFER_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="table-transfer.md">Table transfer effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop"><strong>D2D1_TEMPERATUREANDTINT_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="temperature-and-tint-effect.md">Temperature and Tint effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode"><strong>D2D1_TEXT_ANTIALIAS_MODE</strong></a><br/></td>
-<td>Describes the antialiasing mode used for drawing text. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_threading_mode"><strong>D2D1_THREADING_MODE</strong></a><br/></td>
-<td>Specifies the threading mode used while simultaneously creating the device, factory, and device context. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_tile_prop"><strong>D2D1_TILE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="tile.md">Tile effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_transformed_image_source_options"><strong>D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS</strong></a><br/></td>
-<td>Option flags for transformed image sources.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_turbulence_noise"><strong>D2D1_TURBULENCE_NOISE</strong></a><br/></td>
-<td>The turbulence noise mode for the <a href="turbulence.md">Turbulence effect</a>. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_turbulence_prop"><strong>D2D1_TURBULENCE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="turbulence.md">Turbulence effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_unit_mode"><strong>D2D1_UNIT_MODE</strong></a><br/></td>
-<td>Specifies how units in Direct2D will be interpreted.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_options"><strong>D2D1_VERTEX_OPTIONS</strong></a><br/></td>
-<td>Describes flags that influence how the renderer interacts with a custom vertex shader.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_usage"><strong>D2D1_VERTEX_USAGE</strong></a><br/></td>
-<td>Indicates whether the vertex buffer changes infrequently or frequently.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_vignette_prop"><strong>D2D1_VIGNETTE_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="vignette-effect.md">Vignette effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop"><strong>D2D1_WHITELEVELADJUSTMENT_PROP</strong></a><br/></td>
-<td>Defines constants that identify the top level properties of the <a href="/windows/desktop/Direct2D/white-level-adjustment-effect">White Level Adjustment effect</a>.</td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_window_state"><strong>D2D1_WINDOW_STATE</strong></a><br/></td>
-<td>Describes whether a window is occluded. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_chroma_subsampling"><strong>D2D1_YCBCR_CHROMA_SUBSAMPLING</strong></a><br/></td>
-<td>Specifies the chroma subsampling of the input chroma image used by the <a href="ycbcr-effect.md">YCbCr effect</a>. <br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_interpolation_mode"><strong>D2D1_YCBCR_INTERPOLATION_MODE</strong></a><br/></td>
-<td>Specifies the interpolation mode for the <a href="ycbcr-effect.md">YCbCr effect</a>.<br/></td>
-</tr>
-<tr>
-<td><a href="/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_prop"><strong>D2D1_YCBCR_PROP</strong></a><br/></td>
-<td>Identifiers for properties of the <a href="ycbcr-effect.md">YCbCr effect</a>. <br/></td>
-</tr>
-</tbody>
-</table>
+| Topic and description |
+|-|
+|[**D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_2daffinetransform_interpolation_mode). The interpolation mode to be used with the 2D affine transform effect to scale the image. There are 6 scale modes, which range in quality and speed.|
+|[**D2D1_2DAFFINETRANSFORM_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_2daffinetransform_prop). Identifiers for properties of the [2D affine transform effect](2d-affine-transform.md).|
+|[**D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dperspectivetransform_interpolation_mode). The interpolation mode the [3D perspective transform effect](3d-perspective-transform.md") uses on the image. There are 5 scale modes, which range in quality and speed.|
+|[**D2D1_3DPERSPECTIVETRANSFORM_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dperspectivetransform_prop). Identifiers for the properties of the [3D perspective transform effect](3d-perspective-transform.md).|
+|[**D2D1_3DTRANSFORM_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dtransform_interpolation_mode). The interpolation mode the [3D transform effect](3d-transform.md) uses on the image. There are 5 scale modes, which range in quality and speed.|
+|[**D2D1_3DTRANSFORM_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_3dtransform_prop). Identifiers for properties of the [3D transform effect](3d-transform.md).|
+|[**D2D1_ALPHA_MODE**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode). Specifies how the alpha value of a bitmap or render target should be treated.|
+|[**D2D1_ANTIALIAS_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode). Specifies how the edges of nontext primitives are rendered.|
+|[**D2D1_ARC_SIZE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_arc_size). Specifies whether an arc should be greater than 180 degrees.|
+|[**D2D1_ARITHMETICCOMPOSITE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_arithmeticcomposite_prop). Identifiers for the properties of the [arithmetic composite effect](arithmetic-composite.md).|
+|[**D2D1_ATLAS_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_atlas_prop). Identifiers for properties of the [atlas effect](atlas.md).|
+|[**D2D1_BITMAPSOURCE_ALPHA_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_alpha_mode). Specifies the alpha mode of the output of the [bitmap source effect](bitmap-source.md).|
+|[**D2D1_BITMAPSOURCE_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode). The interpolation mode used to scale the image in the [bitmap source effect](bitmap-source.md).|
+|[**D2D1_BITMAPSOURCE_ORIENTATION**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation). Specifies whether a flip and/or rotation operation should be performed by the [bitmap source effect](bitmap-source.md).|
+|[**D2D1_BITMAPSOURCE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_prop). Identifiers for properties of the [bitmap source effect](bitmap-source.md).|
+|[**D2D1_BITMAP_INTERPOLATION_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode). Specifies the algorithm that is used when images are scaled or rotated. See [**D2D1_INTERPOLATION_MODE**](https://msdn.microsoft.com/library/windows/desktop/hh447004).|
+|[**D2D1_BITMAP_OPTIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_bitmap_options). Specifies how a bitmap can be used.|
+|[**D2D1_BLEND**](/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend.md). Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.|
+|[**D2D1_BLEND_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode). The blend mode used for the [blend effect](blend.md).|
+|[**D2D1_BLEND_OPERATION**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_blend_operation). Specifies the blend operation on two color sources.|
+|[**D2D1_BLEND_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_prop). Identifiers for properties of the [blend effect](blend.md).|
+|[**D2D1_BORDER_EDGE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_edge_mode). The edge mode for the [border effect](border.md).|
+|[**D2D1_BORDER_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode). Specifies how the [crop effect](crop.md) handles the crop rectangle falling on fractional pixel coordinates.|
+|[**D2D1_BORDER_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_prop). Identifiers for properties of the [border effect](border.md).|
+|[**D2D1_BRIGHTNESS_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_brightness_prop). Identifiers for the properties of the [brightness effect](brightness.md).|
+|[**D2D1_BUFFER_PRECISION**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision). Represents the bit depth of the imaging pipeline in [Direct2D](direct2d-portal.md).|
+|[**D2D1_CAP_STYLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style). Describes the shape at the end of a line or segment.|
+|[**D2D1_CHANGE_TYPE**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_change_type). Describes flags that influence how the renderer interacts with a custom vertex shader.|
+|[**D2D1_CHANNEL_DEPTH**](/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_channel_depth). Allows a caller to control the channel depth of a stage in the rendering pipeline.|
+|[**D2D1_CHANNEL_SELECTOR**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector). Specifies the color channel the [displacement map effect](displacement-map.md) extracts the intensity from and uses it to spatially displace the image in the X or Y direction.|
+|[**D2D1_CHROMAKEY_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_chromakey_prop). Identifiers for properties of the [chroma-key effect](chromakey-effect.md).|
+|[**D2D1_COLORMANAGEMENT_ALPHA_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_alpha_mode). Indicates how the [color management effect](color-management.md) should interpret alpha data that is contained in the input image.|
+|[**D2D1_COLORMANAGEMENT_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_prop). Identifiers for the properties of the [color management effect](color-management.md).|
+|[**D2D1_COLORMANAGEMENT_QUALITY**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_quality). The quality level of the transform for the [color management effect](color-management.md).|
+|[**D2D1_COLORMANAGEMENT_RENDERING_INTENT**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_rendering_intent). Specifies which ICC rendering intent the [color management effect](color-management.md) should use.|
+|[**D2D1_COLORMATRIX_ALPHA_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormatrix_alpha_mode). The alpha mode of the output of the [color matrix effect](color-matrix.md).|
+|[**D2D1_COLORMATRIX_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormatrix_prop). Identifiers for the properties of the [color matrix effect](color-matrix.md).|
+|[**D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_bitmap_glyph_snap_option). Specifies the pixel snapping policy when rendering color bitmap glyphs.|
+|[**D2D1_COLOR_CONTEXT_TYPE**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_context_type). Specifies which way a color profile is defined.|
+|[**D2D1_COLOR_SPACE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_color_space). Defines options that should be applied to the color space.|
+|[**D2D1_COLOR_INTERPOLATION_MODE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_interpolation_mode). Defines how to interpolate between colors.|
+|[**D2D1_COMBINE_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_combine_mode). Specifies the different methods by which two geometries can be combined.|
+|[**D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_compatible_render_target_options). Specifies additional features supportable by a compatible render target when it is created. This enumeration allows a bitwise combination of its member values.|
+|[**D2D1_COMPOSITE_MODE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_composite_mode). Used to specify the blend mode for all of the [Direct2D](direct2d-portal.md) blending operations.|
+|[**D2D1_COMPOSITE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_composite_prop). Identifiers for properties of the [composite effect](composite.md).|
+|[**D2D1_CONTRAST_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_contrast_prop). Identifiers for properties of the [contrast effect](contrast-effect.md).|
+|[**D2D1_CONVOLVEMATRIX_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_prop). Identifiers for properties of the [convolve matrix effect](convolve-matrix.md).|
+|[**D2D1_CONVOLVEMATRIX_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode). The interpolation mode the [convolve matrix effect](convolve-matrix.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_CROP_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_crop_prop). Identifiers for properties of the [crop effect](crop.md).|
+|[**D2D1_DASH_STYLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style). Describes the sequence of dashes and gaps in a stroke.|
+|[**D2D1_DC_INITIALIZE_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_dc_initialize_mode). Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.|
+|[**D2D1_DEBUG_LEVEL**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_debug_level). Indicates the type of information provided by the [Direct2D Debug Layer](direct2ddebuglayer-overview.md).|
+|[**D2D1_DEVICE_CONTEXT_OPTIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_device_context_options). This specifies options that apply to the device context for its lifetime.|
+|[**D2D1_DIRECTIONALBLUR_OPTIMIZATION**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_directionalblur_optimization). Specifies the optimization mode for the [directional blur effect](directional-blur.md).|
+|[**D2D1_DIRECTIONALBLUR_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_directionalblur_prop). Identifiers for properties of the [directional blur effect](directional-blur.md).|
+|[**D2D1_DISCRETETRANSFER_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_discretetransfer_prop). Identifiers for properties of the [discrete transfer effect](discrete-transfer.md).|
+|[**D2D1_DISPLACEMENTMAP_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_displacementmap_prop). Identifiers for properties of the [displacement map effect](displacement-map.md).|
+|[**D2D1_DISTANTDIFFUSE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantdiffuse_prop). Identifiers for properties of the [distant-diffuse lighting effect](distant-diffuse.md).|
+|[**D2D1_DISTANTDIFFUSE_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantdiffuse_scale_mode). The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_DISTANTSPECULAR_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantspecular_prop). Identifiers for properties of the [distant-specular lighting effect](distant-specular.md).|
+|[**D2D1_DISTANTSPECULAR_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_distantspecular_scale_mode). The interpolation mode the [distant-specular lighting effect](distant-specular.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_DPICOMPENSATION_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_interpolation_mode). The interpolation mode the [DPI compensation effect](dpi-compensation.md) uses to scale the image.|
+|[**D2D1_DPICOMPENSATION_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_prop). Identifiers for properties of the [DPI compensation effect](dpi-compensation.md).|
+|[**D2D1_DRAW_TEXT_OPTIONS**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options). Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.|
+|[**D2D1_EDGEDETECTION_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_mode). Values for the [**D2D1_EDGEDETECTION_PROP_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop) property of the [edge detection effect](edge-detection-effect.md).|
+|[**D2D1_EDGEDETECTION_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_edgedetection_prop). Identifiers for properties of the [edge detection effect](edge-detection-effect.md).|
+|[**D2D1_EMBOSS_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop). Identifiers for properties of the [emboss effect](emboss-effect.md).|
+|[**D2D1_EXPOSURE_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_exposure_prop). Identifiers for properties of the [exposure effect](exposure-effect.md).|
+|[**D2D1_EXTEND_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode). Specifies how a brush paints areas outside of its normal content area.|
+|[**D2D1_FACTORY_TYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type). Specifies whether [Direct2D](direct2d-portal.md) provides synchronization for an [**ID2D1Factory**](/windows/desktop/api/d2d1/nn-d2d1-id2d1factory) and the resources it creates, so that they may be safely accessed from multiple threads.|
+|[**D2D1_FEATURE**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_feature). Defines capabilities of the underlying Direct3D device which may be queried using [**ID2D1EffectContext::CheckFeatureSupport**](https://msdn.microsoft.com/en-us/library/Hh871455(v=VS.85).aspx).|
+|[**D2D1_FEATURE_LEVEL**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_feature_level). Describes the minimum DirectX support required for hardware rendering by a render target.|
+|[**D2D1_FIGURE_BEGIN**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_begin). Indicates whether a specific [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx) figure is filled or hollow.|
+|[**D2D1_FIGURE_END**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_end). Indicates whether a specific [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx) figure is open or closed.|
+|[**D2D1_FILL_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode). Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.|
+|[**D2D1_FILTER**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_filter). Represents filtering modes that a transform may select to use on input textures.|
+|[**D2D1_FLOOD_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_flood_prop). Identifiers for properties of the [flood effect](flood.md).|
+|[**D2D1_GAMMA**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma). Specifies which gamma is used for interpolation.|
+|[**D2D1_GAMMA1**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_gamma1). Determines what gamma is used for interpolation and blending.|
+|[**D2D1_GAMMATRANSFER_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gammatransfer_prop). Identifiers for properties of the [gamma transfer effect](gamma-transfer.md).|
+|[**D2D1_GAUSSIANBLUR_OPTIMIZATION**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_optimization). The optimization mode for the [gaussian blur effect](gaussian-blur.md).|
+|[**D2D1_GAUSSIANBLUR_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_prop). Identifiers for properties of the [gaussian blur effect](gaussian-blur.md).|
+|[**D2D1_GAMMA_CONVERSION**](https://msdn.microsoft.com/en-us/library/Hh447002(v=VS.85).aspx). Defines the conversion between color spaces.|
+|[**D2D1_GEOMETRY_RELATION**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation). Describes how one geometry object is spatially related to another geometry object.|
+|[**D2D1_GEOMETRY_SIMPLIFICATION_OPTION**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_simplification_option). Specifies how a geometry is simplified to an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).|
+|[**D2D1_HDRTONEMAP_DISPLAY_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode). Defines constants that specify a value for the [**D2D1_HDRTONEMAP_PROP_DISPLAY_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop) property of the [HDR tone map effect](/windows/desktop/Direct2D/hdr-tone-map-effect).|
+|[**D2D1_HDRTONEMAP_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop). Defines constants that identify the top level properties of the [HDR tone map effect](/windows/desktop/Direct2D/hdr-tone-map-effect).|
+|[**D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_input_gamma). Values for the [**D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop) property of the [highlights and shadows effect](highlights-and-shadows-effect.md).|
+|[**D2D1_HIGHLIGHTSANDSHADOWS_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_highlightsandshadows_prop). Identifiers for properties of the [highlights and shadows effect](highlights-and-shadows-effect.md).|
+|[**D2D1_HISTOGRAM_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_histogram_prop). Identifiers for properties of the [histogram effect](histogram.md).|
+|[**D2D1_HUEROTATION_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_huerotation_prop). Identifiers for properties of the [hue rotate effect](hue-rotate.md).|
+|[**D2D1_HUETORGB_INPUT_COLOR_SPACE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_input_color_space). Values for the [**D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE **](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_prop)property of the [hue-to-RGB effect](hue-to-rgb-effect.md).|
+|[**D2D1_HUETORGB_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_prop). Identifiers for properties of the [hue-to-RGB effect](hue-to-rgb-effect.md).|
+|[**D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options). Option flags controlling primary conversion performed by [**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx), if any.|
+|[**D2D1_IMAGE_SOURCE_LOADING_OPTIONS**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_loading_options). Controls option flags for a new [**ID2D1ImageSource**](/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource) when it is created.|
+|[**D2D1_INK_NIB_SHAPE**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape). Specifies the appearance of the ink nib (pen tip) as part of an [**D2D1_INK_STYLE_PROPERTIES**](/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties) structure.|
+|[**D2D1_INTERPOLATION_MODE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_interpolation_mode). This is used to specify the quality of image scaling with [**ID2D1DeviceContext::DrawImage**](https://msdn.microsoft.com/en-us/library/Hh404511(v=VS.85).aspx) and with the [2D affine transform effect](2d-affine-transform.md).|
+|[**D2D1_LAYER_OPTIONS**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options). Specifies options that can be applied when a layer resource is applied to create a layer.|
+|[**D2D1_LAYER_OPTIONS1**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_layer_options1). Specifies how the layer contents should be prepared.|
+|[**D2D1_LINEARTRANSFER_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_lineartransfer_prop). Identifiers for properties of the [linear transfer effect](linear-transfer.md).|
+|[**D2D1_LINE_JOIN**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join). Describes the shape that joins two lines or segments.|
+|[**D2D1_LOOKUPTABLE3D_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_lookuptable3d_prop). Identifiers for the properties of the 3D Lookup Table effect.|
+|[**D2D1_MORPHOLOGY_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_morphology_mode). The mode for the [morphology effect](morphology.md).|
+|[**D2D1_MORPHOLOGY_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_morphology_prop). Identifiers for properties of the [morphology effect](morphology.md).|
+|[**D2D1_MAP_OPTIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_map_options). Specifies how the memory to be mapped from the corresponding [**ID2D1Bitmap1**](https://msdn.microsoft.com/en-us/library/Hh404349(v=VS.85).aspx) should be treated.|
+|[**D2D1_OPACITYMETADATA_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_opacitymetadata_prop). Identifiers for properties of the [opacity metadata effect](opacity-metadata-effect.md).|
+|[**D2D1_OPACITY_MASK_CONTENT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content). Describes whether an opacity mask contains graphics or text. [Direct2D](direct2d-portal.md) uses this information to determine which gamma space to use when blending the opacity mask.|
+|[**D2D1_ORIENTATION**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_orientation). Specifies the flip and rotation at which an image appears.|
+|[**D2D1_PATCH_EDGE_MODE**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_patch_edge_mode). Specifies how to render gradient mesh edges.|
+|[**D2D1_PATH_SEGMENT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_path_segment). Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.|
+|[**D2D1_PIXEL_OPTIONS**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_pixel_options). Indicates how pixel shader sampling will be restricted.|
+|[**D2D1_POINTDIFFUSE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointdiffuse_prop). Identifiers for properties of the [point-diffuse lighting effect](point-diffuse-lighting.md).|
+|[**D2D1_POINTDIFFUSE_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointdiffuse_scale_mode). The interpolation mode that the [point-diffuse lighting effect](point-diffuse-lighting.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_POINTSPECULAR_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_prop). Identifiers for properties of the [point-specular lighting effect](point-specular.md).|
+|[**D2D1_POINTSPECULAR_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_scale_mode). The interpolation mode the [point-specular lighting effect](point-specular.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_POSTERIZE_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_posterize_prop). Identifiers for properties of the [posterize effect](posterize-effect.md).|
+|[**D2D1_PRESENT_OPTIONS**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options). Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.|
+|[**D2D1_PRIMITIVE_BLEND**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend.md). Used to specify the geometric blend mode for all [Direct2D](direct2d-portal.md) primitives.|
+|[**D2D1_PRINT_FONT_SUBSET_MODE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode). Defines when font resources should be subset during printing.|
+|[**D2D1_PROPERTY_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type). Specifies the types of properties supported by the [Direct2D](direct2d-portal.md) property interface.|
+|[**D2D1_PROPERTY**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property). Specifies the indices of the system properties present on the [**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx) interface for an [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx).|
+|[**D2D1_RENDERING_PRIORITY**](/windows/desktop/api/D2D1_2/ne-d2d1_2-d2d1_rendering_priority). The rendering priority affects the extent to which [Direct2D](direct2d-portal.md) throttles its rendering workload.|
+|[**D2D1_RENDER_TARGET_TYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type). Describes whether a render target uses hardware or software rendering, or whether [Direct2D](direct2d-portal.md) should select the rendering mode.|
+|[**D2D1_RENDER_TARGET_USAGE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage). Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.|
+|[**D2D1_RESOURCE_TYPE**](https://msdn.microsoft.com/en-us/library/Hh447014(v=VS.85).aspx). Specifies which kinds of resources should be released when [**ID2D1Device::ClearResources**](https://msdn.microsoft.com/en-us/library/Hh404542(v=VS.85).aspx) is invoked.|
+|[**D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_output_color_space). Values for the [**D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop) property of the [RGB-to-hue effect](rgb-to-hue-effect.md).|
+|[**D2D1_RGBTOHUE_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop). Identifiers for properties of the [RGB-to-hue effect](rgb-to-hue-effect.md).|
+|[**D2D1_SATURATION_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_saturation_prop). Identifiers for properties of the [saturation effect](saturation.md).|
+|[**D2D1_SCALE_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_scale_interpolation_mode). The interpolation mode the [scale effect](high-quality-scale.md) uses to scale the image. There are 6 scale modes, which range in quality and speed.|
+|[**D2D1_SCALE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_scale_prop). Identifiers for properties of the [scale effect](high-quality-scale.md).|
+|[**D2D1_SEPIA_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sepia_prop). Identifiers for properties of the [sepia effect](sepia-effect.md).|
+|[**D2D1_SHADOW_OPTIMIZATION**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_shadow_optimization). The level of performance optimization for the [shadow effect](drop-shadow.md).|
+|[**D2D1_SHADOW_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_shadow_prop). Identifiers for properties of the [shadow effect](drop-shadow.md).|
+|[**D2D1_SHARPEN_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sharpen_prop). Identifiers for properties of the [sharpen effect](sharpen-effect.md).|
+|[**D2D1_SPOTDIFFUSE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotdiffuse_prop). Identifiers for properties of the [spot-diffuse lighting effect](diffuse-lighting.md).|
+|[**D2D1_SPOTDIFFUSE_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotdiffuse_scale_mode). The interpolation mode the [spot-diffuse lighting effect](diffuse-lighting.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_SPOTSPECULAR_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotspecular_prop). Identifiers for properties of the [spot-specular lighting effect](specular-lighting.md).|
+|[**D2D1_SPOTSPECULAR_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_spotspecular_scale_mode). The interpolation mode the [spot-specular lighting effect](specular-lighting.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
+|[**D2D1_SPRITE_OPTIONS**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_sprite_options). Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to [**ID2D1DeviceContext3::DrawSpriteBatch**](/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-drawspritebatch(id2d1spritebatch_uint32_uint32_id2d1bitmap_d2d1_bitmap_interpolation_mode_d2d1_sprite_options)).|
+|[**D2D1_STRAIGHTEN_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop). Identifiers for properties of the [straighten effect](straighten-effect.md).|
+|[**D2D1_STRAIGHTEN_SCALE_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_scale_mode). Values for the [**D2D1_STRAIGHTEN_PROP_SCALE_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop) property of the [straighten effect](straighten-effect.md).|
+|[**D2D1_STROKE_TRANSFORM_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type). Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.|
+|[**D2D1_SUBPROPERTY**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_subproperty). Specifies the indices of the system sub-properties that may be present in any property.|
+|[**D2D1_SVG_ASPECT_ALIGN**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_aspect_align). The alignment portion of the SVG preserveAspectRatio attribute.|
+|[**D2D1_SVG_ASPECT_SCALING**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_aspect_scaling). The meetOrSlice portion of the SVG preserveAspectRatio attribute.|
+|[**D2D1_SVG_ATTRIBUTE_POD_TYPE**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_pod_type). Defines the type of SVG POD attribute to set or get.|
+|[**D2D1_SVG_ATTRIBUTE_STRING_TYPE**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_attribute_string_type). Defines the type of SVG string attribute to set or get.|
+|[**D2D1_SVG_DISPLAY**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_display). Specifies a value for the SVG display property.|
+|[**D2D1_SVG_LENGTH_UNITS**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_length_units). Specifies the units for an SVG length.|
+|[**D2D1_SVG_LINE_CAP**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_line_cap). Specifies a value for the SVG stroke-linecap property.|
+|[**D2D1_SVG_LINE_JOIN**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_line_join). Specifies a value for the SVG stroke-linejoin property.|
+|[**D2D1_SVG_OVERFLOW**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_overflow). Specifies a value for the SVG overflow property.|
+|[**D2D1_SVG_PAINT_TYPE**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type). Specifies the paint type for an SVG fill or stroke.|
+|[**D2D1_SVG_PATH_COMMAND**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_path_command). Represents a path commmand. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.|
+|[**D2D1_SVG_UNIT_TYPE**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_unit_type). Defines the coordinate system used for SVG gradient or clipPath elements.|
+|[**D2D1_SVG_VISIBILITY**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_visibility). Specifies a value for the SVG visibility property.|
+|[**D2D1_SWEEP_DIRECTION**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction). Defines the direction that an elliptical arc is drawn.|
+|[**D2D1_TABLETRANSFER_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_tabletransfer_prop). Identifiers for properties of the [table transfer effect](table-transfer.md).|
+|[**D2D1_TEMPERATUREANDTINT_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop). Identifiers for properties of the [temperature and tint effect](temperature-and-tint-effect.md).|
+|[**D2D1_TEXT_ANTIALIAS_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode). Describes the antialiasing mode used for drawing text.|
+|[**D2D1_THREADING_MODE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_threading_mode). Specifies the threading mode used while simultaneously creating the device, factory, and device context.|
+|[**D2D1_TILE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_tile_prop). Identifiers for properties of the [tile effect](tile.md).|
+|[**D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS**](/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_transformed_image_source_options). Option flags for transformed image sources.|
+|[**D2D1_TURBULENCE_NOISE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_turbulence_noise). The turbulence noise mode for the [turbulence effect](turbulence.md). Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.|
+|[**D2D1_TURBULENCE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_turbulence_prop). Identifiers for properties of the [turbulence effect](turbulence.md).|
+|[**D2D1_UNIT_MODE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_unit_mode). Specifies how units in [Direct2D](direct2d-portal.md) will be interpreted.|
+|[**D2D1_VERTEX_OPTIONS**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_options). Describes flags that influence how the renderer interacts with a custom vertex shader.|
+|[**D2D1_VERTEX_USAGE**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_usage). Indicates whether the vertex buffer changes infrequently or frequently.|
+|[**D2D1_VIGNETTE_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_vignette_prop). Identifiers for properties of the [vignette effect](vignette-effect.md).|
+|[**D2D1_WHITELEVELADJUSTMENT_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop). Defines constants that identify the top level properties of the [white level adjustment effect](/windows/desktop/Direct2D/white-level-adjustment-effect).|
+|[**D2D1_WINDOW_STATE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_window_state). Describes whether a window is occluded.|
+|[**D2D1_YCBCR_CHROMA_SUBSAMPLING**](/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_chroma_subsampling). Specifies the chroma subsampling of the input chroma image used by the [YCbCr effect](ycbcr-effect.md).|
+|[**D2D1_YCBCR_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_interpolation_mode). Specifies the interpolation mode for the [YCbCr effect](ycbcr-effect.md).|
+|[**D2D1_YCBCR_PROP**](/windows/desktop/api/d2d1effects_1/ne-d2d1effects_1-d2d1_ycbcr_prop). Identifiers for properties of the [YCbCr effect](ycbcr-effect.md).|

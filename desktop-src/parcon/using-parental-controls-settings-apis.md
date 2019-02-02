@@ -108,7 +108,7 @@ Application restrictions overrides are set on a per user basis to allow specific
 
 If an Administrator changes settings for a logged-in standard user, a warning message is generated. It states the settings changes may not take effect until the controlled user logs out and back in again. This is conservative design. Most settings will take effect nearly immediately while the controlled user is logged in. One exception is for games, where settings will take effect the next time the Games Explorer is run or invoking the game is attempted.
 
-## Sample Code
+## Sample code
 
 C++ samples are provided in the SDK demonstrating use of the settings extensibility features. Please see the Parental Controls Samples section.
 
@@ -144,7 +144,7 @@ The Compliance API controlled by header file Wpcapi.h provides simplified read-o
 -   GetVisibility()—provides information on whether the Parental Controls UI is currently hidden.
 -   GetWebFilterInfo()—provides an interface for obtaining the ID of the currently active Web Content Filter.
 
-### Sample Code
+### Sample code
 
 C++ samples are provided in the SDK demonstrating use of the Compliance API. Please see the Parental Controls Samples section.
 

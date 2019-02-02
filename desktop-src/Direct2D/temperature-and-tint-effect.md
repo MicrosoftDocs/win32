@@ -6,19 +6,13 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Temperature and Tint Effect
+# Temperature and tint effect
 
 The CLSID for this effect is CLSID\_D2D1TemperatureTint.
 
--   [Sample Code](#sample-code)
--   [Effect Properties](#effect-properties)
--   [Requirements](#requirements)
--   [Related topics](#related-topics)
+## Sample code
 
-## Sample Code
-
-
-```C++
+```cpp
 ComPtr<ID2D1Effect> temperatureTintEffect;
 m_d2dContext->CreateEffect(CLSID_D2D1TemperatureTint, &temperatureTintEffect);
  
@@ -29,13 +23,9 @@ temperatureTintEffect->SetValue(D2D1_TEMPERATUREANDTINT_PROP_TINT, 0.5f);
 m_d2dContext->BeginDraw();
 m_d2dContext->DrawImage(temperatureTintEffect.Get());
 m_d2dContext->EndDraw();
-
-
 ```
 
-
-
-## Effect Properties
+## Effect properties
 
 The properties for the temperature and tint effect are defined by the [**D2D1\_TEMPERATUREANDTINT\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_temperatureandtint_prop) enumeration.
 
@@ -56,15 +46,4 @@ The properties for the temperature and tint effect are defined by the [**D2D1\_T
 
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

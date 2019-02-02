@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The following sample code shows how to create user interface extensions for a custom protocol handler.
 
-## Sample Code
+## Sample code
 
 > [!Note]
 >

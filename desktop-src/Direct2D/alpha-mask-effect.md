@@ -12,7 +12,7 @@ This effect applies an alpha mask to an image. It has two inputs, named Destinat
 
 The CLSID for this effect is CLSID\_D2D1AlphaMask.
 
-## Effect Properties
+## Effect properties
 
 This effect has no effect-specific properties.
 
@@ -27,21 +27,7 @@ This effect has no effect-specific properties.
 | Header                   | d2d1effects\_2.h                                  |
 | Library                  | d2d1.lib, dxguid.lib                              |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 

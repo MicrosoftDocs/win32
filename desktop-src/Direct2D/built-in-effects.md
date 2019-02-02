@@ -18,6 +18,7 @@ ms.date: 05/31/2018
 -   [Discrete transfer effect](discrete-transfer.md) - CLSID\_D2D1DiscreteTransfer
 -   [DPI compensation effect](dpi-compensation.md) - CLSID\_D2D1DpiCompensation
 -   [Gamma transfer effect](gamma-transfer.md) - CLSID\_D2D1GammaTransfer
+-   [HDR tone map effect](hdr-tone-map-effect.md) - CLSID_D2D1HdrToneMap
 -   [Hue to RGB effect](hue-to-rgb-effect.md) - CLSID\_D2D1HueToRgb
 -   [Hue rotation effect](hue-rotate.md) - CLSID\_D2D1HueRotation
 -   [Linear transfer effect](linear-transfer.md) - CLSID\_D2D1LinearTransfer
@@ -28,6 +29,7 @@ ms.date: 05/31/2018
 -   [Table transfer effect](table-transfer.md) - CLSID\_D2D1TableTransfer
 -   [Tint effect](tint-effect.md) - CLSID\_D2D1Tint
 -   [Unpremultiply effect](unpremultiply.md) - CLSID\_D2D1UnPremultiply
+-   [White level adjustment effect](white-level-adjustment-effect.md) - CLSID_D2D1WhiteLevelAdjustment
 -   [YCbCr Effect](ycbcr-effect.md) - CLSID\_D2D1YCbCr
 
 ## Composition

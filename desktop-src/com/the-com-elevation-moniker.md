@@ -96,7 +96,7 @@ The elevation moniker can also be used to get a class object, which implements [
 Elevation:Administrator!clsid:{guid}
 ```
 
-## Sample Code
+## Sample code
 
 The following code example shows how to use the elevation moniker. It assumes that you have already initialized COM on the current thread.
 
