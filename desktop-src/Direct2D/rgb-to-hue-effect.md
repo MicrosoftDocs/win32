@@ -1,12 +1,12 @@
 ---
-title: RGB to Hue Effect
+title: RGB-to-hue effect
 description: Converts an RGB image to either the HSL (Hue, Saturation, Lightness) or HSV (Hue, Saturation, Value) color spaces.
 ms.assetid: 1def972d-8172-9217-8ce7-abce4a93f6e1
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RGB to Hue Effect
+# RGB-to-hue effect
 
 Converts an RGB image to either the HSL (Hue, Saturation, Lightness) or HSV (Hue, Saturation, Value) color spaces.
 
@@ -23,7 +23,7 @@ To reverse the behavior of this effect, use the [Hue to RGB effect](hue-to-rgb-e
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Sample Code
+## Sample code
 
 
 ```C++
@@ -41,7 +41,7 @@ m_d2dContext->EndDraw();
 
 
 
-## Effect Properties
+## Effect properties
 
 The properties for the contrast effect are defined by the [**D2D1\_RGBTOHUE\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop) enumeration.
 
@@ -58,19 +58,6 @@ The properties for the contrast effect are defined by the [**D2D1\_RGBTOHUE\_PRO
 
 
 
- 
+ ## Related topics
 
-## Related topics
-
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

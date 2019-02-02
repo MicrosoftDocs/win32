@@ -12,11 +12,11 @@ This effect adjusts the opacity of an image by multiplying the alpha channel of 
 
 The CLSID for this effect is CLSID\_D2D1Opacity.
 
-## Effect Properties
+## Effect properties
 
 
 
-| Display anme and index enumeration              | Type and default value | Descripiton                                                                                                 |
+| Display name and index enumeration              | Type and default value | Description                                                                                                 |
 |-------------------------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------|
 | Opacity D2D1\_OPACITY\_PROP\_OPACITY<br/> | FLOAT1.0f<br/>   | The multiplier to the input image's alpha channel. The minimum value is 0.0f and the maximum value is 1.0f. |
 
@@ -36,21 +36,6 @@ The CLSID for this effect is CLSID\_D2D1Opacity.
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

@@ -40,7 +40,7 @@ To make UpdateAuthorAddress a transactional component, the following steps are r
 
 COM+ binds the transaction service with just-in-time (JIT) activation and concurrency. When you declare a component to be transactional, COM+ also enforces JIT activation and concurrency protection (synchronization).
 
-## Sample Code
+## Sample code
 
 The UpdateAuthorAddress component opens a connection to the Pubs database, allowing the user to modify an author's name, address, or contract status. It also calls a second component, which is discussed in [Step 2: Extending a Transaction Across Multiple Components](step-2--extending-a-transaction-across-multiple-components.md).
 

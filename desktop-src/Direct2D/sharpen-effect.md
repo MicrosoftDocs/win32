@@ -1,12 +1,12 @@
 ---
-title: Sharpen Effect
+title: Sharpen effect
 description: Sharpens the image.
 ms.assetid: 1eb12d1e-83c1-ba13-33be-df2078f3ccb8
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Sharpen Effect
+# Sharpen effect
 
 Sharpens the image.
 
@@ -18,11 +18,11 @@ The CLSID for this effect is CLSID\_D2D1Sharpen.
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Example Image
+## Example image
 
 ![example of effect output](images/sharpen-effect.png)
 
-## Sample Code
+## Sample code
 
 
 ```C++
@@ -42,7 +42,7 @@ m_d2dContext->EndDraw();
 
 
 
-## Effect Properties
+## Effect properties
 
 The properties for the sharpen effect are defined by the [**D2D1\_SHARPEN\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sharpen_prop) enumeration.
 
@@ -58,20 +58,9 @@ The properties for the sharpen effect are defined by the [**D2D1\_SHARPEN\_PROP*
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 
 
 

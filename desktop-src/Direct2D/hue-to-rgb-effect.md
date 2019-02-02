@@ -1,12 +1,12 @@
 ---
-title: Hue to RGB Effect
+title: Hue-to-RGB effect
 description: Converts an HSL (Hue, Saturation, Lightness) or HSV (Hue, Saturation, Value) image to the RGB color space.
 ms.assetid: 18e92535-9e89-bf8d-b8c3-a49b645fc417
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Hue to RGB Effect
+# Hue-to-RGB effect
 
 Converts an HSL (Hue, Saturation, Lightness) or HSV (Hue, Saturation, Value) image to the RGB color space.
 
@@ -23,10 +23,9 @@ To reverse the behavior of this effect, use the [RGB to Hue effect](rgb-to-hue-e
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Sample Code
+## Sample code
 
-
-```C++
+```cpp
 ComPtr<ID2D1Effect> hueToRgbEffect;
 m_d2dContext->CreateEffect(CLSID_D2D1HueToRgb, &hueToRgbEffect);
  
@@ -36,13 +35,9 @@ hueToRgbEffect->SetValue(D2D1_HUETORGB_INPUT_COLOR_SPACE, D2D1_HUETORGB_INPUT_CO
 m_d2dContext->BeginDraw();
 m_d2dContext->DrawImage(hueToRgbEffect.Get());
 m_d2dContext->EndDraw();
-
-
 ```
 
-
-
-## Effect Properties
+## Effect properties
 
 The properties for the contrast effect are defined by the [**D2D1\_HUETORGB\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_prop) enumeration.
 
@@ -59,19 +54,6 @@ The properties for the contrast effect are defined by the [**D2D1\_HUETORGB\_PRO
 
 
 
- 
-
 ## Related topics
 
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

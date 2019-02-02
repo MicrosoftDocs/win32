@@ -58,7 +58,7 @@ Voting also occurs implicitly, as is done in the `ValidateAuthorAddress` compone
 
 When `ValidateAuthorAddress` returns to its caller, COM+ reads its vote as a commit. COM+ doesn't count the votes until it deactivates the root object, which is the first object in the transaction in this case, the `UpdateAuthorAddress` object.
 
-## Sample Code
+## Sample code
 
 The `ValidateAuthorAddress` component makes a simple check of the author's address. Because `UpdateAuthorAddress` does not vote explicitly, COM+ uses the default vote settings.
 

@@ -36,7 +36,7 @@ In this example, reusing the `UpdateAuthorAddress` component is easy—COM+ auto
 
  
 
-## Sample Code
+## Sample code
 
 The AddNewAuthor component performs batch additions of new authors by allowing the object to remain active until the client releases its reference to the object.
 

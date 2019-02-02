@@ -12,11 +12,11 @@ This effect tints the source image by multiplying the source image by the specif
 
 The CLSID for this effect is CLSID\_D2D1Tint.
 
-## Effect Properties
+## Effect properties
 
 
 
-| Display anme and index enumeration                    | Type and default value                              | Descripiton                                                      |
+| Display name and index enumeration                    | Type and default value                              | Description                                                      |
 |-------------------------------------------------------|-----------------------------------------------------|------------------------------------------------------------------|
 | ColorD2D1\_TINT\_PROP\_COLOR<br/>               | D2D1\_VECTOR\_4F(1.0f, 1.0f, 1.0f, 1.0f)<br/> | Colors from the source image are multiplied by this value.       |
 | ClampOutputD2D1\_TINT\_PROP\_CLAMP\_OUTPUT<br/> | BOOLFALSE<br/>                                | Whether or not to clamp the output values to the range \[0, 1\]. |
@@ -38,20 +38,6 @@ The CLSID for this effect is CLSID\_D2D1Tint.
 
 
 
- 
+ ## Related topics
 
-## Related topics
-
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

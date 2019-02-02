@@ -1,12 +1,12 @@
 ---
-title: Sepia Effect
+title: Sepia effect
 description: Converts an image to sepia tones.
 ms.assetid: fe321be9-6ade-bd0c-1c66-cc8042e5a5e1
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Sepia Effect
+# Sepia effect
 
 Converts an image to sepia tones.
 
@@ -18,11 +18,11 @@ The CLSID for this effect is CLSID\_D2D1Sepia.
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
-## Example Image
+## Example image
 
 ![example of effect output](images/sepia-effect.png)
 
-## Sample Code
+## Sample code
 
 
 ```C++
@@ -42,7 +42,7 @@ m_d2dContext->EndDraw();
 
 
 
-## Effect Properties
+## Effect properties
 
 The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_sepia_prop) enumeration.
 
@@ -59,18 +59,9 @@ The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](/
 
 
 
- 
+ ## Related topics
 
-## Related topics
-
-<dl> <dt>
-
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
+* [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 
 
 

@@ -1190,7 +1190,7 @@ The connection was refused.
 
 
 
-The peer anme classifer is too long.
+The peer name classifer is too long.
 
 
 </dt> </dl> </dd> <dt>
@@ -1892,7 +1892,7 @@ No more data could be found.
 
 
 
-The existing peer anme is already registered.
+The existing peer name is already registered.
 
 
 </dt> </dl> </dd> <dt>
