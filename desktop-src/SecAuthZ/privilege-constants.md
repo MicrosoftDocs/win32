@@ -3,7 +3,7 @@ Description: Privileges determine the type of system operations that a user acco
 ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/05/2019
 ---
 
 # Privilege Constants
@@ -76,54 +76,58 @@ User Right: Back up files and directories.<br/></td>
 <td style="text-align: left;">Required to debug and adjust the memory of a process owned by another account. <br/> User Right: Debug programs.<br/></td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;"><span id="SE_DELEGATE_SESSION_USER_IMPERSONATE_NAME"></span><span id="se_delegate_session_user_impersonate_name"></span><dl> <dt><strong>SE_DELEGATE_SESSION_USER_IMPERSONATE_NAME</strong></dt> <dt>TEXT(&quot;SeDelegateSessionUserImpersonatePrivilege&quot;)</dt> </dl></td>
+<td style="text-align: left;">Required to obtain an impersonation token for another user in the same session. <br/> User Right: Impersonate other users.<br/></td>
+</tr>
+<tr class="even">
 <td style="text-align: left;"><span id="SE_ENABLE_DELEGATION_NAME"></span><span id="se_enable_delegation_name"></span><dl> <dt><strong>SE_ENABLE_DELEGATION_NAME</strong></dt> <dt>TEXT(&quot;SeEnableDelegationPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to mark user and computer accounts as trusted for delegation.<br/> User Right: Enable computer and user accounts to be trusted for delegation.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_IMPERSONATE_NAME"></span><span id="se_impersonate_name"></span><dl> <dt><strong>SE_IMPERSONATE_NAME</strong></dt> <dt>TEXT(&quot;SeImpersonatePrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to impersonate.<br/> User Right: Impersonate a client after authentication.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_INC_BASE_PRIORITY_NAME"></span><span id="se_inc_base_priority_name"></span><dl> <dt><strong>SE_INC_BASE_PRIORITY_NAME</strong></dt> <dt>TEXT(&quot;SeIncreaseBasePriorityPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to increase the base priority of a process. <br/> User Right: Increase scheduling priority.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_INCREASE_QUOTA_NAME"></span><span id="se_increase_quota_name"></span><dl> <dt><strong>SE_INCREASE_QUOTA_NAME</strong></dt> <dt>TEXT(&quot;SeIncreaseQuotaPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to increase the quota assigned to a process. <br/> User Right: Adjust memory quotas for a process.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_INC_WORKING_SET_NAME"></span><span id="se_inc_working_set_name"></span><dl> <dt><strong>SE_INC_WORKING_SET_NAME</strong></dt> <dt>TEXT(&quot;SeIncreaseWorkingSetPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to allocate more memory for applications that run in the context of users.<br/> User Right: Increase a process working set.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_LOAD_DRIVER_NAME"></span><span id="se_load_driver_name"></span><dl> <dt><strong>SE_LOAD_DRIVER_NAME</strong></dt> <dt>TEXT(&quot;SeLoadDriverPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to load or unload a device driver. <br/> User Right: Load and unload device drivers.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_LOCK_MEMORY_NAME"></span><span id="se_lock_memory_name"></span><dl> <dt><strong>SE_LOCK_MEMORY_NAME</strong></dt> <dt>TEXT(&quot;SeLockMemoryPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to lock physical pages in memory. <br/> User Right: Lock pages in memory.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_MACHINE_ACCOUNT_NAME"></span><span id="se_machine_account_name"></span><dl> <dt><strong>SE_MACHINE_ACCOUNT_NAME</strong></dt> <dt>TEXT(&quot;SeMachineAccountPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to create a computer account. <br/> User Right: Add workstations to domain.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_MANAGE_VOLUME_NAME"></span><span id="se_manage_volume_name"></span><dl> <dt><strong>SE_MANAGE_VOLUME_NAME</strong></dt> <dt>TEXT(&quot;SeManageVolumePrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to enable volume management privileges. <br/> User Right: Manage the files on a volume.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_PROF_SINGLE_PROCESS_NAME"></span><span id="se_prof_single_process_name"></span><dl> <dt><strong>SE_PROF_SINGLE_PROCESS_NAME</strong></dt> <dt>TEXT(&quot;SeProfileSingleProcessPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to gather profiling information for a single process. <br/> User Right: Profile single process.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_RELABEL_NAME"></span><span id="se_relabel_name"></span><dl> <dt><strong>SE_RELABEL_NAME</strong></dt> <dt>TEXT(&quot;SeRelabelPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to modify the mandatory integrity level of an object.<br/> User Right: Modify an object label.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_REMOTE_SHUTDOWN_NAME"></span><span id="se_remote_shutdown_name"></span><dl> <dt><strong>SE_REMOTE_SHUTDOWN_NAME</strong></dt> <dt>TEXT(&quot;SeRemoteShutdownPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to shut down a system using a network request. <br/> User Right: Force shutdown from a remote system.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_RESTORE_NAME"></span><span id="se_restore_name"></span><dl> <dt><strong>SE_RESTORE_NAME</strong></dt> <dt>TEXT(&quot;SeRestorePrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to perform restore operations. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the <a href="https://msdn.microsoft.com/library/windows/desktop/ms724917"><strong>RegLoadKey</strong></a> function. The following access rights are granted if this privilege is held:<br/>
 <ul>
@@ -137,51 +141,51 @@ User Right: Back up files and directories.<br/></td>
 </ul>
 User Right: Restore files and directories.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_SECURITY_NAME"></span><span id="se_security_name"></span><dl> <dt><strong>SE_SECURITY_NAME</strong></dt> <dt>TEXT(&quot;SeSecurityPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to perform a number of security-related functions, such as controlling and viewing audit messages. This privilege identifies its holder as a security operator. <br/> User Right: Manage auditing and security log.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_SHUTDOWN_NAME"></span><span id="se_shutdown_name"></span><dl> <dt><strong>SE_SHUTDOWN_NAME</strong></dt> <dt>TEXT(&quot;SeShutdownPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to shut down a local system. <br/> User Right: Shut down the system.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_SYNC_AGENT_NAME"></span><span id="se_sync_agent_name"></span><dl> <dt><strong>SE_SYNC_AGENT_NAME</strong></dt> <dt>TEXT(&quot;SeSyncAgentPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required for a domain controller to use the <a href="https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-lightweight-directory-access-protocol-gly"><em>Lightweight Directory Access Protocol</em></a> directory synchronization services. This privilege enables the holder to read all objects and properties in the directory, regardless of the protection on the objects and properties. By default, it is assigned to the Administrator and LocalSystem accounts on domain controllers. <br/> User Right: Synchronize directory service data.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_SYSTEM_ENVIRONMENT_NAME"></span><span id="se_system_environment_name"></span><dl> <dt><strong>SE_SYSTEM_ENVIRONMENT_NAME</strong></dt> <dt>TEXT(&quot;SeSystemEnvironmentPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to modify the nonvolatile RAM of systems that use this type of memory to store configuration information. <br/> User Right: Modify firmware environment values.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_SYSTEM_PROFILE_NAME"></span><span id="se_system_profile_name"></span><dl> <dt><strong>SE_SYSTEM_PROFILE_NAME</strong></dt> <dt>TEXT(&quot;SeSystemProfilePrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to gather profiling information for the entire system. <br/> User Right: Profile system performance.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_SYSTEMTIME_NAME"></span><span id="se_systemtime_name"></span><dl> <dt><strong>SE_SYSTEMTIME_NAME</strong></dt> <dt>TEXT(&quot;SeSystemtimePrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to modify the system time. <br/> User Right: Change the system time.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_TAKE_OWNERSHIP_NAME"></span><span id="se_take_ownership_name"></span><dl> <dt><strong>SE_TAKE_OWNERSHIP_NAME</strong></dt> <dt>TEXT(&quot;SeTakeOwnershipPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to take ownership of an object without being granted discretionary access. This privilege allows the owner value to be set only to those values that the holder may legitimately assign as the owner of an object. <br/> User Right: Take ownership of files or other objects.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_TCB_NAME"></span><span id="se_tcb_name"></span><dl> <dt><strong>SE_TCB_NAME</strong></dt> <dt>TEXT(&quot;SeTcbPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">This privilege identifies its holder as part of the trusted computer base. Some trusted protected subsystems are granted this privilege. <br/> User Right: Act as part of the operating system.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_TIME_ZONE_NAME"></span><span id="se_time_zone_name"></span><dl> <dt><strong>SE_TIME_ZONE_NAME</strong></dt> <dt>TEXT(&quot;SeTimeZonePrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to adjust the time zone associated with the computer's internal clock.<br/> User Right: Change the time zone.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_TRUSTED_CREDMAN_ACCESS_NAME"></span><span id="se_trusted_credman_access_name"></span><dl> <dt><strong>SE_TRUSTED_CREDMAN_ACCESS_NAME</strong></dt> <dt>TEXT(&quot;SeTrustedCredManAccessPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to access Credential Manager as a trusted caller.<br/> User Right: Access Credential Manager as a trusted caller.<br/></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><span id="SE_UNDOCK_NAME"></span><span id="se_undock_name"></span><dl> <dt><strong>SE_UNDOCK_NAME</strong></dt> <dt>TEXT(&quot;SeUndockPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to undock a laptop.<br/> User Right: Remove computer from docking station.<br/></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;"><span id="SE_UNSOLICITED_INPUT_NAME"></span><span id="se_unsolicited_input_name"></span><dl> <dt><strong>SE_UNSOLICITED_INPUT_NAME</strong></dt> <dt>TEXT(&quot;SeUnsolicitedInputPrivilege&quot;)</dt> </dl></td>
 <td style="text-align: left;">Required to read unsolicited input from a <a href="https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-terminal-gly"><em>terminal</em></a> device.<br/> User Right: Not applicable.<br/></td>
 </tr>
