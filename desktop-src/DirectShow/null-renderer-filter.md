@@ -8,7 +8,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- Null
+- Null Renderer Filter
 api_type: 
 - HeaderDef
 api_location: 
