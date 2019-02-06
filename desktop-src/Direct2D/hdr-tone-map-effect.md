@@ -9,7 +9,7 @@ ms.date: 02/01/2019
 
 This effect adjusts the dynamic range of an image to better suit its content to the capability of the output display.
 
-The CLSID for this effect is CLSID_D2D1HdrToneMap.
+The properties for this effect are identified by the [**D2D1_HDRTONEMAP_PROP enumeration**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop.md), and the CLSID is **CLSID_D2D1HdrToneMap**.
 
 ## Effect properties
 
@@ -20,7 +20,7 @@ The CLSID for this effect is CLSID_D2D1HdrToneMap.
 | DisplayMode, D2D1_HDRTONEMAP_PROP_DISPLAY_MODE | [**D2D1_HDRTONEMAP_DISPLAY_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode) | When set to **_HDR**, the tone mapping curve is adjusted to better fit the fit the behavior of common HDR displays. |
 
 ## Remarks
-The value for `InputMaxLuminance` is typically derived from the image metadata.
+The value for `InputMaxLuminance` is typically derived from the image metadata. For cases where the metadata is not present, you can use the **D2DAdvancedColorImagesRenderer::ComputeHdrMetadata** function (in the [Direct2D advanced color image rendering sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages)) to compute the maximum light level (MaxCLL) of an image, in nits.
 
 The value for `OutputMaxLuminance` is designed to be derived from the display, using [**DXGI_OUTPUT_DESC1::MaxLuminance**](/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1).
 
