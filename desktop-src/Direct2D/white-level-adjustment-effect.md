@@ -25,14 +25,24 @@ On Windows, all SDR/WCG content is assumed to be in a display-referred luminance
 
 When the Windows desktop is in SDR or WCG mode, the desktop is composed in a display-referred luminance space. But if the Windows desktop is in HDR mode, then desktop composition happens in scene-referred luminance space. That said, the Desktop Window Manager (DWM) itself performs luminance adjustments (often called SDRBoost) for 8-bit composition surfaces, and that simplifies your application for that case. Even so, the automatic boost means that your application's role in converting from one luminance space to another is dependent upon the composition format that your application is using to present its content.
 
-This table describes the cases when your application should and should not perform a white level adjustment, as well as what that adjustment should be. In the table, the value 80 is the reference white level, in nits, for sRGB or scRGB content. For this, you can use the constant [**D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL**](/windows/desktop/direct2d/direct2d-constants), which is defined in `d2d1effects_2.h`. The value `SDRWhite` is the number of nits that the display should use to display white sRGB content. You can retrieve this value by accessing the [**AdvancedColorInfo.SdrWhiteLevelInNits**](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits) property.
+The table below describes the cases when your application should and should not perform a white level adjustment, as well as what that adjustment should be. In general, the adjustment depends on three factors.
 
-|Input content|SDR/WCG|SDR/WCG|SDR/WCG|HDR|HDR|G|
-|-|-|-|-|-|-|-|
-|Composition format|8bpc|FP16|FP16|Any|8bpc|FP16|
-|Desktop composition mode|Any|SDR/WCG|HDR|SDR/WCG|HDR|HDR|
-|InputWhiteLevel|N/A|N/A|SDRWhite|80|80|N/A|
-|OutputWhiteLevel|N/A|N/A|80|[**DXGI_OUTPUT_DESC1::MaxLuminance**](/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1)|SDRWhite|N/A|
+1. Input content colorspace. Whether your input content contains high dynamic range (HDR) luminance values or not. WCG content behaves the same as SDR for luminance behavior.
+2. Composition format. The pixel format of the target surface that is presented to the DWM&mdash;for example, a [swap chain](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) or a [composition surface](/uwp/api/Windows.UI.Composition.ICompositionSurface). When rendering using Direct2D, this is either **UINT8** or **FP16**.
+3. Desktop advanced color mode. Whether the DWM is running in SDR, WCG, or HDR mode for the current display. Obtain this information via [**DXGI_OUTPUT_DESC1::ColorSpace**](/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1) or [**AdvancedColorInfo.CurrentAdvancedColorKind**](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind).
+
+Based on these three factors, you should set the appropriate values for the `InputWhiteLevel` and `OutputWhiteLevel` properties.
+
+|Input content|Composition format|Advanced color mode|InputWhiteLevel|OutputWhiteLevel|
+|-|-|-|-|-|
+|SDR/WCG|**UINT8**|Any|N/A|N/A|
+|SDR/WCG|**FP16**|SDR/WCG|N/A|N/A|
+|SDR/WCG|**FP16**|HDR|SDRWhite|80|
+|HDR|Any|SDR/WCG|80|[**DXGI_OUTPUT_DESC1::MaxLuminance**](/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1)|
+|HDR|**UINT8**|HDR|80|SDRWhite|
+|HDR|**FP16**|HDR|N/A|N/A|
+
+In the table, the value 80 is the reference white level, in nits, for sRGB or scRGB content. For this, you can use the constant [**D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL**](/windows/desktop/direct2d/direct2d-constants), which is defined in `d2d1effects_2.h`. The value `SDRWhite` is the number of nits that the display should use to display white sRGB content. You can retrieve this value by accessing the [**AdvancedColorInfo.SdrWhiteLevelInNits**](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits) property. The value N/A means that white level adjustment is not used in this scenario; you can either remove the effect from your graph, or set values for a no-op.
 
 Note that, in cases where a white level adjustment is not needed by the application, the DWM or the display may be handling the conversion from display-referred luminance space to scene-referred luminance space.
 
@@ -50,3 +60,4 @@ Note that, in cases where a white level adjustment is not needed by the applicat
 ## Related topics
 
 * [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
+* [D2D1_WHITELEVELADJUSTMENT_PROP enumeration](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop.md)
