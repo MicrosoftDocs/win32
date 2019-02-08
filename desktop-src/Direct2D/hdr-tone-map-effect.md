@@ -9,7 +9,7 @@ ms.date: 02/01/2019
 
 This effect adjusts the dynamic range of an image to better suit its content to the capability of the output display.
 
-The properties for this effect are identified by the [**D2D1_HDRTONEMAP_PROP enumeration**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop.md), and the CLSID is **CLSID_D2D1HdrToneMap**.
+The properties for this effect are identified by the [**D2D1_HDRTONEMAP_PROP enumeration**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop), and the CLSID is **CLSID_D2D1HdrToneMap**.
 
 ## Effect properties
 
@@ -45,4 +45,4 @@ This effect is intended to be combined with the [White level adjustment effect](
 ## Related topics
 
 * [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
-* [D2D1_HDRTONEMAP_PROP enumeration](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop.md)
+* [D2D1_HDRTONEMAP_PROP enumeration](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop)

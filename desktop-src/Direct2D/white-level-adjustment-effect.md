@@ -9,7 +9,7 @@ ms.date: 02/01/2019
 
 This effect allows the white level of an image to be linearly scaled. This is especially helpful when you convert between display-referred luminance space and scene-referred luminance space, or vice versa.
 
-The properties for this effect are identified by the [**D2D1_WHITELEVELADJUSTMENT_PROP enumeration**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop.md), and the CLSID is **CLSID_D2D1WhiteLevelAdjustment**.
+The properties for this effect are identified by the [**D2D1_WHITELEVELADJUSTMENT_PROP enumeration**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop), and the CLSID is **CLSID_D2D1WhiteLevelAdjustment**.
 
 ## Effect properties
 
@@ -60,4 +60,4 @@ Note that, in cases where a white level adjustment is not needed by the applicat
 ## Related topics
 
 * [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
-* [D2D1_WHITELEVELADJUSTMENT_PROP enumeration](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop.md)
+* [D2D1_WHITELEVELADJUSTMENT_PROP enumeration](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_whiteleveladjustment_prop)
