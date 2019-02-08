@@ -227,6 +227,9 @@ You must release all interface pointers, regardless of whether you or the object
 
 The following code fragment extends the sample shown earlier to illustrate how to handle reference counting.
 
+> [!IMPORTANT]
+> The code below essentially opens up a window into the low-level mechanics of COM reference-counting. Instead of coding like this (which is at a raw and error-prone level), your code will be more reliable and no less efficient if you use a smart pointer class. For more info, see [How to create and use CComPtr and CComQIPtr](/cpp/cpp/how-to-create-and-use-ccomptr-and-ccomqiptr-instances), [CComPtr class](/cpp/atl/reference/ccomptr-class), and [COM smart pointers revisited](https://msdn.microsoft.com/magazine/dn904668.aspx).
+
 ```cpp
 HRESULT hr = S_OK;
 
