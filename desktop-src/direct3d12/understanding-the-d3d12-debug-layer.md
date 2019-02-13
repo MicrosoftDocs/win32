@@ -12,7 +12,7 @@ ms.date: 02/12/2019
 
 | Topic | Description |
 |-|-|
-| [Use GPU-based validation with the Direct3D 12 Debug Layer](using-d3d12-debug-layer-gpu-based-validation.md)<br/> | This topic describes how to make best use of the Direct3D 12 Debug Layer. GPU-based validation (GBV) enables validation scenarios on the GPU timeline that are not possible during API calls on the CPU. |
+| [Use GPU-based validation with the Direct3D 12 Debug Layer](using-d3d12-debug-layer-gpu-based-validation.md) | This topic describes how to make best use of the Direct3D 12 Debug Layer. GPU-based validation (GBV) enables validation scenarios on the GPU timeline that are not possible during API calls on the CPU. |
 
 ## Related topics
 
