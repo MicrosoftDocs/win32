@@ -196,10 +196,10 @@
         href: dynamic-indexing-using-hlsl-5-1.md
       - name: "Indirect drawing and GPU culling"
         href: indirect-drawing-and-gpu-culling-.md
-    - name: "Understanding the D3D12 Debug Layer"
+    - name: "Debugging and diagnostics"
       href: understanding-the-d3d12-debug-layer.md
       items: 
-      - name: "Using D3D12 Debug Layer GPU-Based Validation"
+      - name: "Use Debug Layer GPU-based validation"
         href: using-d3d12-debug-layer-gpu-based-validation.md
   - name: "Direct3D 12 Reference"
     href: direct3d-12-reference.md
