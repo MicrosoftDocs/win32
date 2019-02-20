@@ -3,41 +3,26 @@ title: BITS Enumerations
 description: The Background Intelligent Transfer Service (BITS) interfaces use the following enumerations.
 ms.assetid: e43337c8-0c41-41e9-88fd-f2a46f666157
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/20/2019
 ---
 
-# BITS Enumerations
+# BITS enumerations
 
 The [Background Intelligent Transfer Service (BITS) interfaces](bits-interfaces.md) use the following enumerations.
 
 ## In this section
 
-
-
-| Topic                                                                      | Description                                                                                                                                                                                                      |
-|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002)<br/>                      | The [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002) enumeration defines the constant values that specify the authentication scheme to use when a proxy or server requests user authentication.<br/>             |
-| [**BG\_AUTH\_TARGET**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0001)<br/>                      | The [**BG\_AUTH\_TARGET**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0001) enumeration defines the constant values that specify whether the credentials are used for proxy or server user authentication requests.<br/>                |
-| [**BG\_CERT\_STORE\_LOCATION**](/windows/desktop/api/Bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001)<br/>     | The [**BG\_CERT\_STORE\_LOCATION**](/windows/desktop/api/Bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001) enumeration defines the location of the certificate store.<br/>                                                                            |
-| [**BG\_ERROR\_CONTEXT**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyerror_0001)<br/>                  | The [**BG\_ERROR\_CONTEXT**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyerror_0001) enumeration defines the constant values that specify the context in which the error occurred.<br/>                                                      |
-| [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001)<br/>                    | The [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001) enumeration defines the constant values that specify the priority level of a job. <br/>                                                                   |
-| [**BG\_JOB\_PROXY\_USAGE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0004)<br/>             | The [**BG\_JOB\_PROXY\_USAGE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0004) enumeration defines constant values that specify which proxy to use for file transfers. You can define different proxy settings for each job.<br/> |
-| [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002)<br/>                          | The [**BG\_JOB\_STATE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002) enumeration defines constant values for the different states of a job.<br/>                                                                                     |
-| [**BG\_JOB\_TYPE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0003)<br/>                            | The [**BG\_JOB\_TYPE**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0003) enumeration defines constant values that specify the type of transfer job, such as download.<br/>                                                                 |
-| [**BITS\_COST\_STATE**](bits-cost-state.md)<br/>                    | The BITS\_COST\_STATE enumeration defines the constant values that specify the BITS cost state.<br/>                                                                                                       |
-| [**BITS\_FILE\_PROPERTY\_ID**](/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0004)<br/>       | Enumerates values that define ID values corresponding to BackgroundCopyFile properties.<br/>                                                                                                               |
-| [**BITS\_JOB\_PROPERTY\_ID**](/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002)<br/>         | Specifies the ID of the property for the BITS job.<br/>                                                                                                                                                    |
-| [**BITS\_JOB\_TRANSFER\_POLICY**](/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001)<br/> | Enumeration that defines ID values corresponding to BITS properties.<br/>                                                                                                                                  |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-
+| Topic | Description |
+|-|-|
+| [**BG_AUTH_SCHEME**](/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme) | Defines constants that specify the authentication scheme to use when a proxy or server requests user authentication. |
+| [**BG_AUTH_TARGET**](/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_target) | Defines constants that specify whether the credentials are used for proxy or server user authentication requests. |
+| [**BG_CERT_STORE_LOCATION**](/windows/desktop/api/bits2_5/ne-bits2_5-bg_cert_store_location) | Defines constants that specify the location of the certificate store. |
+| [**BG_ERROR_CONTEXT**](/windows/desktop/api/bits/ne-bits-bg_error_context) | Defines constants that specify the context in which the error occurred. |
+| [**BG_JOB_PRIORITY**](/windows/desktop/api/bits/ne-bits-bg_job_priority) | Defines constants that specify the priority level of a job.  |
+| [**BG_JOB_PROXY_USAGE**](/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage) | Defines constants that specify which proxy to use for file transfers. You can define different proxy settings for each job. |
+| [**BG_JOB_STATE**](/windows/desktop/api/bits/ne-bits-bg_job_state) | Defines constants that specify the different states of a job. |
+| [**BG_JOB_TYPE**](/windows/desktop/api/bits/ne-bits-bg_job_type) | Defines constants that specify the type of transfer job, such as download. |
+| [**BITS_COST_STATE**](/windows/desktop/bits/bits-cost-state) | Defines constants that specify the BITS cost state. |
+| [**BITS_FILE_PROPERTY_ID**](/windows/desktop/api/bits5_0/ne-bits5_0-bits_file_property_id) | Defines constants that specify ID values corresponding to background copy file properties. See [IBackgroundCopyFile5::GetProperty](/windows/desktop/delivery_optimization/ibackgroundcopyfile5-getproperty) and [SetProperty](/windows/desktop/delivery_optimization/ibackgroundcopyfile5-setproperty). |
+| [**BITS_JOB_PROPERTY_ID**](/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id) | Defines constants that specify the ID of the property for the BITS job. |
+| [**BITS_JOB_TRANSFER_POLICY**](/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy) | Defines constants that specify ID values corresponding to BITS properties. |
