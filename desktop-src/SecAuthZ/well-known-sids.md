@@ -97,7 +97,7 @@ The SECURITY\_NT\_AUTHORITY (S-1-5) predefined identifier authority produces SID
 | SECURITY\_LOCAL\_SYSTEM\_RID<br/>           | S-1-5-18<br/>        | A special account used by the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | SECURITY\_NT\_NON\_UNIQUE<br/>              | S-1-5-21<br/>        | SIDS are not unique.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | SECURITY\_BUILTIN\_DOMAIN\_RID<br/>         | S-1-5-32<br/>        | The built-in system domain.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-
+| SECURITY\_WRITE\_RESTRICTED\_CODE\_RID<br/> | S-1-5-33<br/>        | Write restricted code.<br/> |
 
 
  
@@ -121,7 +121,12 @@ The following RIDs are relative to each domain.
 | DOMAIN\_GROUP\_RID\_SCHEMA\_ADMINS<br/>                            | The schema administrators' group. Members of this group can modify the Active Directory schema.<br/>                                                                                                                                           |
 | DOMAIN\_GROUP\_RID\_ENTERPRISE\_ADMINS<br/>                        | The enterprise administrators' group. Members of this group have full access to all domains in the Active Directory forest. Enterprise administrators are responsible for forest-level operations such as adding or removing new domains.<br/> |
 | DOMAIN\_GROUP\_RID\_POLICY\_ADMINS<br/>                            | The policy administrators' group.<br/>                                                                                                                                                                                                         |
-| DOMAIN\_GROUP\_RID\_READONLY\_CONTROLLERS<br/>                     | The group of read-only domain controllers.<br/>                                                                                                                                                                                                |
+| DOMAIN\_GROUP\_RID\_READONLY\_CONTROLLERS<br/>                     | The group of read-only domain controllers.<br/>                                                                                                                                                                                                |                                             
+| DOMAIN\_GROUP\_RID\_CLONEABLE\_CONTROLLERS<br />                   | The group of cloneable domain controllers.<br/>                                                                                                                                                                                                |
+| DOMAIN\_GROUP\_RID\_CDC\_RESERVED<br />                            | The reserved CDC group.<br/>                                                                                                                                                                                                                   |
+| DOMAIN\_GROUP\_RID\_PROTECTED\_USERS<br />                         | The protected users group.</br>                                                                                                                                                                                                                |
+| DOMAIN\_GROUP\_RID\_KEY\_ADMINS<br />                              | The key admins group.<br/>                                                                                                                                                                                                                     |
+| DOMAIN\_GROUP\_RID\_ENTERPRISE\_KEY\_ADMINS<br />                  | The enterprise key admins group</br>                                                                                                                                                                                                           |
 
 
 
@@ -176,7 +181,14 @@ The following table has examples of domain-relative RIDs that you can use to for
 | DOMAIN\_ALIAS\_RID\_NON\_CACHEABLE\_PRINCIPALS\_GROUP<br/> | 0x0000023C<br/> | A local group that represents principals that cannot be cached.<br/>                                                                                                                                                                                                                 |
 | DOMAIN\_ALIAS\_RID\_EVENT\_LOG\_READERS\_GROUP<br/>        | 0x0000023D<br/> | A local group that represents event log readers.<br/>                                                                                                                                                                                                                                |
 | DOMAIN\_ALIAS\_RID\_CERTSVC\_DCOM\_ACCESS\_GROUP<br/>      | 0x0000023E<br/> | The local group of users who can connect to certification authorities using Distributed Component Object Model (DCOM).<br/>                                                                                                                                                          |
-
+| DOMAIN\_ALIAS\_RID\_RDS\_REMOTE\_ACCESS\_SERVERS<br />     | 0x0000023FL<br/>| A local group that represents RDS remote access servers.<br/> |
+| DOMAIN\_ALIAS\_RID\_RDS\_ENDPOINT\_SERVERS                 | 0x00000240L<br/>| A local group that represents endpoint servers.<br/> |
+| DOMAIN\_ALIAS\_RID\_RDS\_MANAGEMENT\_SERVERS               | 0x00000241L<br/>| A local group that represents management servers. <br/>|
+| DOMAIN\_ALIAS\_RID\_HYPER\_V\_ADMINS                       | 0x00000242L<br/>| A local group that represents hyper-v admins <br/>|
+| DOMAIN\_ALIAS\_RID\_ACCESS\_CONTROL\_ASSISTANCE\_OPS       | 0x00000243L<br/>| A local group that represents access control assistance OPS.<br/> |
+| DOMAIN\_ALIAS\_RID\_REMOTE\_MANAGEMENT\_USERS              | 0x00000244L<br/>| A local group that represents remote management users. <br/>|
+| DOMAIN\_ALIAS\_RID\_DEFAULT\_ACCOUNT                       | 0x00000245L<br/>| A local group that represents the default account. <br/>|
+| DOMAIN\_ALIAS\_RID\_STORAGE\_REPLICA\_ADMINS               | 0x00000246L<br/>| A local group that represents storage replica admins. <br/>|
 
 
  
