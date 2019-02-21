@@ -14,6 +14,9 @@ ms.date: 05/31/2018
 
 # About WinINet
 
+> [!NOTE]
+> For app containers since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default (but it can be turned off).
+
 The Windows Internet (WinINet) application programming interface (API) enables applications to interact with FTP, and HTTP protocols to access Internet resources. As standards evolve, these functions handle the changes in underlying protocols, enabling them to maintain consistent behavior.
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also enabled applications to interact with Gopher.
