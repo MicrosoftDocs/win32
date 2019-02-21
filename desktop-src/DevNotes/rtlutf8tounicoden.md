@@ -3,7 +3,7 @@ Description: Translates the specified source string into a Unicode string, using
 ms.assetid: 2871a81b-74f9-462e-9e5c-c59d06bb6841
 title: RtlUTF8ToUnicodeN function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 2/21/2019
 topic_type: 
 - APIRef
 - kbSyntax
@@ -25,8 +25,8 @@ Translates the specified source string into a Unicode string, using the 8-bit Un
 ```C++
 NTSTATUS WINAPI RtlUTF8ToUnicodeN(
   _Out_     PWSTR  UnicodeStringDestination,
-  _In_      ULONG  UnicodeStringMaxWCharCount,
-  _Out_opt_ PULONG UnicodeStringActualWCharCount,
+  _In_      ULONG  UnicodeStringMaxByteCount,
+  _Out_opt_ PULONG UnicodeStringActualByteCount,
   _In_      PCCH   UTF8StringSource,
   _In_      ULONG  UTF8StringByteCount
 );
@@ -45,17 +45,17 @@ A pointer to a caller-allocated buffer that receives the translated string.
 
 </dd> <dt>
 
-*UnicodeStringMaxWCharCount* \[in\]
+*UnicodeStringMaxByteCount* \[in\]
 </dt> <dd>
 
-Maximum number of WCHAR to be written at *UnicodeStringDestination*. If this value causes the translated string to be truncated, **RtlUTF8ToUnicodeN** returns an error status.
+Maximum number of bytes to be written at *UnicodeStringDestination*. If this value causes the translated string to be truncated, **RtlUTF8ToUnicodeN** returns an error status.
 
 </dd> <dt>
 
-*UnicodeStringActualWCharCount* \[out, optional\]
+*UnicodeStringActualByteCount* \[out, optional\]
 </dt> <dd>
 
-A pointer to a caller-allocated variable that receives the length, in WCHAR, of the translated string. This parameter is optional and can be **NULL**. If the string is truncated then the returned number counts the actual truncated string count.
+A pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter is optional and can be **NULL**. If the string is truncated then the returned number counts the actual truncated string count.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Size, in bytes, of the string at *UTF8StringSource*.
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**STATUS\_SUCCESS**</dt> </dl>               | The string was converted to Unicode.<br/>                                                                 |
 | <dl> <dt>**STATUS\_SOME\_NOT\_MAPPED**</dt> </dl>     | An invalid input character was encountered and replaced. This status is considered a success status.<br/> |
-| <dl> <dt>**STATUS\_INVALID\_PARAMETER**</dt> </dl>    | Both pointers to *UnicodeStringDestination* and *UnicodeStringActualWCharCount* were **NULL**.<br/>       |
+| <dl> <dt>**STATUS\_INVALID\_PARAMETER**</dt> </dl>    | Both pointers to *UnicodeStringDestination* and *UnicodeStringActualByteCount* were **NULL**.<br/>       |
 | <dl> <dt>**STATUS\_INVALID\_PARAMETER\_4**</dt> </dl> | The *UTF8StringSource* was **NULL**.<br/>                                                                 |
 | <dl> <dt>**STATUS\_BUFFER\_TOO\_SMALL**</dt> </dl>    | *UnicodeStringDestination* was truncated.<br/>                                                            |
 
@@ -93,11 +93,11 @@ Size, in bytes, of the string at *UTF8StringSource*.
 
 ## Remarks
 
-Although *UnicodeStringActualWCharCount* is optional and can be **NULL**, callers should provide storage for it, because the received length can be used to determine whether the conversion was successful.
+Although *UnicodeStringActualByteCount* is optional and can be **NULL**, callers should provide storage for it, because the received length can be used to determine whether the conversion was successful.
 
 If the output is truncated and an invalid input character is encountered then the function returns STATUS\_BUFFER\_TOO\_SMALL error.
 
-If the *UnicodeStringDestination* is set to **NULL** the function will return the required number of WCHAR to host the translated string without any truncation in *UnicodeStringActualWCharCount*.
+If the *UnicodeStringDestination* is set to **NULL** the function will return the required number of bytes to host the translated string without any truncation in *UnicodeStringActualByteCount*.
 
 **RtlUTF8ToUnicodeN** does not modify the source string unless the *UnicodeStringDestination* and *UTF8StringSource* pointers are equivalent. The returned Unicode string is not null-terminated.
 
