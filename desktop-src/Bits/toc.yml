@@ -108,7 +108,7 @@
   - name: "BITS Reference"
     href: bits-reference.md
     items: 
-    - name: "BITS Enumerations"
+    - name: "BITS enumerations"
       href: bits-enumerations.md
       items: 
       - name: "BG_AUTH_SCHEME"
@@ -543,7 +543,7 @@
           items: 
           - name: "GetObject method"
             href: /windows/desktop/api/Bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject
-    - name: "BITS Structures and Unions"
+    - name: "BITS structures and unions"
       href: bits-c---structures-and-unions.md
       items: 
       - name: "BG_AUTH_CREDENTIALS"
