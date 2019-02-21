@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # About WinHTTP
 
+> [!NOTE]
+> For app containers and system services since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default (but it can be turned off).
+
 Microsoft Windows HTTP Services (WinHTTP) provides developers with a server-supported, high-level interface to the HTTP/1.1 Internet protocol. WinHTTP is designed to be used primarily in server-based scenarios by server applications that communicate with HTTP servers.
 
 [WinINet](https://msdn.microsoft.com/library/windows/desktop/aa385331) was designed as an HTTP client platform for interactive desktop applications. WinINet displays a user interface for some operations such as collecting user credentials. WinHTTP, however, handles these operations programmatically. Server applications that require HTTP client services should use WinHTTP instead of WinINet. For more information, see [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md).
