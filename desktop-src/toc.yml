@@ -146,7 +146,7 @@
             href: backup/backup.md
           - name: "Volume Shadow Copy Service"
             href: vss/volume-shadow-copy-service-portal.md
-        - name: "Cloud Filter API"
+        - name: "Cloud Sync Engines"
           href: cfapi/cloud-files-api-portal.md
         - name: "Distributed File System"
           href: dfs/distributed-file-system.md

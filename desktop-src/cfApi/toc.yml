@@ -1,6 +1,8 @@
-- name: "Cloud Filter API"
+- name: "Cloud Sync Engines"
   href: cloud-files-api-portal.md
   items: 
+  - name: "Build a Cloud Sync Engine that Supports Placeholder Files"
+    href: build-a-cloud-file-sync-engine.md
   - name: "Cloud Filter Reference"
     href: cloud-filter-reference.md
     items: 
