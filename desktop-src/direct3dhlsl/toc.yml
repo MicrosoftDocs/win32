@@ -60,6 +60,8 @@
         href: hlsl-specified-root-signature.md
     - name: "HLSL Shader Model 6.0"
       href: hlsl-shader-model-6-0-features-for-direct3d-12.md
+    - name: "HLSL Shader Model 6.4"
+      href: hlsl-shader-model-6-4-features-for-direct3d-12.md
   - name: "Reference for HLSL"
     href: dx-graphics-hlsl-reference.md
     items: 
