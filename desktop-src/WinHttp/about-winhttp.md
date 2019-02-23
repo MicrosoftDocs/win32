@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows HTTP Services (WinHTTP) provides developers with a server-supported, high-level interface to the HTTP/1.1 Internet protocol.
+Description: Microsoft Windows HTTP Services (WinHTTP) provides you with a server-supported, high-level interface to the HTTP/2 and 1.1 Internet protocols.
 ms.assetid: 8337f699-3ec0-4397-acc2-6dc813f7542d
 title: About WinHTTP
 ms.topic: article
@@ -9,9 +9,19 @@ ms.date: 05/31/2018
 # About WinHTTP
 
 > [!NOTE]
-> For app containers and system services since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default (but it can be turned off).
+> For app containers and system services since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default.
+> 
+> WinINet supports HTTP/2 only in a secure connection (HTTPS); there's no clear-text implementation. The server makes the final choice in the HTTP protocol negotiation, and it may decline to use HTTP/2 for any reason. A client has no way of forcing the use of HTTP/2; the server must be willing.
+> 
+> To control whether HTTP/2 is enabled, set the **WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL** [option flag](/windows/desktop/winhttp/option-flags), which can be set on the session, connection, or request. **WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL** is a DWORD bitmask. If the **WINHTTP_PROTOCOL_FLAG_HTTP2** (0x1) bit is set, then HTTP/2 is enabled.
+> 
+> To determine what happened after server negotiation, query the option flag **WINHTTP_OPTION_HTTP_PROTOCOL_USED**, which can be queried only on the request (not on the session, nor the connection), and pass a DWORD initialized to 0. If, in the result, the **WINHTTP_PROTOCOL_FLAG_HTTP2** (0x1) bit is set, then the request was over HTTP/2.
+> 
+> The **HTTP_PROTOCOL_FLAG_HTTP2** (0x1) bit must be set and tested via a bitwise operation. Don't just compare the entire DWORD bitmask for equality with the flag.
+> 
+> When you use HTTP/2, we recommend that you set a connection limit, even if it's **INFINITE** - 1.
 
-Microsoft Windows HTTP Services (WinHTTP) provides developers with a server-supported, high-level interface to the HTTP/1.1 Internet protocol. WinHTTP is designed to be used primarily in server-based scenarios by server applications that communicate with HTTP servers.
+Microsoft Windows HTTP Services (WinHTTP) provides you with a server-supported, high-level interface to the HTTP/2 and 1.1 Internet protocols. WinHTTP is designed to be used primarily in server-based scenarios by server applications that communicate with HTTP servers.
 
 [WinINet](https://msdn.microsoft.com/library/windows/desktop/aa385331) was designed as an HTTP client platform for interactive desktop applications. WinINet displays a user interface for some operations such as collecting user credentials. WinHTTP, however, handles these operations programmatically. Server applications that require HTTP client services should use WinHTTP instead of WinINet. For more information, see [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md).
 
@@ -24,11 +34,9 @@ Starting with Windows 8, WinHTTP provides APIs to enable connections using the 
 > [!Caution]  
 > WinHTTP is not reentrant except during asynchronous completion callback. That is, while a thread has a call pending to one of the WinHTTP functions such as WinHttpSendRequest, WinHttpReceiveResponse, WinHttpQueryDataAvailable, WinHttpSendData, or WinHttpWriteData, it must never call WinHTTP a second time until the first call has completed. One scenario under which a second call could occur is as follows: If an application queues an Asynchronous Procedure Call (APC) to the thread that calls into WinHTTP, and if WinHTTP performs an alertable wait internally, the APC can run. If the APC routine happens also to call WinHTTP, it reenters the WinHTTP API, and the internal state of WinHTTP can be corrupted.
 
- 
-
 ## WinHTTP 5.1 Features
 
-The following features have been added in version 5.1 of WinHTTP:
+The following features were added in version 5.1 of WinHTTP:
 
 -   IPv6 support.
 -   AutoProxy capabilities.
@@ -47,19 +55,12 @@ For more information about changes introduced in version 5.1, see [What's New in
 
 ## Getting Started with WinHTTP
 
-For more information about WinHTTP, see the following topics:
+For more information about WinHTTP, see the following topics.
 
--   [WinHTTP vs. WinINet](winhttp-vs-wininet.md) compares the two technologies for accessing HTTP.
--   [WinHTTP Versions](winhttp-versions.md) describes the version history of WinHTTP.
--   [What's New in WinHTTP 5.1](what-s-new-in-winhttp-5-1.md) describes changes and new features in WinHTTP 5.1.
--   [Network Terminology](network-terminology.md) describes useful concepts and terminology relating to networking in general and the HTTP protocol in particular.
--   [Choosing a WinHTTP Interface](choosing-a-winhttp-interface.md) describes the C/C++ API and the COM interface for WinHTTP.
--   [WinHTTP Security Considerations](winhttp-security-considerations.md) describes security issues to be aware of when using WinHTTP.
--   [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md) describes how to modify your existing [WinINet](https://msdn.microsoft.com/library/windows/desktop/aa385331) applications to use the WinHTTP API.
-
- 
-
- 
-
-
-
+* [WinINet vs. WinHTTP](/windows/desktop/wininet/wininet-vs-winhttp) compares the two technologies for accessing HTTP.
+* [WinHTTP Versions](winhttp-versions.md) describes the version history of WinHTTP.
+* [What's New in WinHTTP 5.1](what-s-new-in-winhttp-5-1.md) describes changes and new features in WinHTTP 5.1.
+* [Network Terminology](network-terminology.md) describes useful concepts and terminology relating to networking in general and the HTTP protocol in particular.
+* [Choosing a WinHTTP Interface](choosing-a-winhttp-interface.md) describes the C/C++ API and the COM interface for WinHTTP.
+* [WinHTTP Security Considerations](winhttp-security-considerations.md) describes security issues to be aware of when using WinHTTP.
+* [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md) describes how to modify your existing [WinINet](https://msdn.microsoft.com/library/windows/desktop/aa385331) applications to use the WinHTTP API.
