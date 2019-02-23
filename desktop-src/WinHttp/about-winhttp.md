@@ -10,16 +10,6 @@ ms.date: 05/31/2018
 
 > [!NOTE]
 > For app containers and system services since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default.
-> 
-> WinINet supports HTTP/2 only in a secure connection (HTTPS); there's no clear-text implementation. The server makes the final choice in the HTTP protocol negotiation, and it may decline to use HTTP/2 for any reason. A client has no way of forcing the use of HTTP/2; the server must be willing.
-> 
-> To control whether HTTP/2 is enabled, set the **WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL** [option flag](/windows/desktop/winhttp/option-flags), which can be set on the session, connection, or request. **WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL** is a DWORD bitmask. If the **WINHTTP_PROTOCOL_FLAG_HTTP2** (0x1) bit is set, then HTTP/2 is enabled.
-> 
-> To determine what happened after server negotiation, query the option flag **WINHTTP_OPTION_HTTP_PROTOCOL_USED**, which can be queried only on the request (not on the session, nor the connection), and pass a DWORD initialized to 0. If, in the result, the **WINHTTP_PROTOCOL_FLAG_HTTP2** (0x1) bit is set, then the request was over HTTP/2.
-> 
-> The **HTTP_PROTOCOL_FLAG_HTTP2** (0x1) bit must be set and tested via a bitwise operation. Don't just compare the entire DWORD bitmask for equality with the flag.
-> 
-> When you use HTTP/2, we recommend that you set a connection limit, even if it's **INFINITE** - 1.
 
 Microsoft Windows HTTP Services (WinHTTP) provides you with a server-supported, high-level interface to the HTTP/2 and 1.1 Internet protocols. WinHTTP is designed to be used primarily in server-based scenarios by server applications that communicate with HTTP servers.
 
