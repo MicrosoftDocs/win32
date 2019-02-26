@@ -1588,6 +1588,11 @@
             href: /windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource
           - name: "ReleaseWrappedResources"
             href: /windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources
+        - name: "ID3D11On12Device1"
+          href: /windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device1
+          items: 
+          - name: "GetD3D12Device"
+            href: /windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device1-getd3d12device
       - name: "11on12 Functions"
         href: direct3d-11-on-12-functions-.md
         items: 
