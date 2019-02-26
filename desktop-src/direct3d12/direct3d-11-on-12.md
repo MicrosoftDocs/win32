@@ -61,9 +61,13 @@ All other resources or objects created by D3D11On12 will be cleaned up at the ap
 
 ## Limitations
 
-The D3D11On12 layer implements a very large subset of the D3D11 API, but there are some known gaps. In addition to bugs in the implementation which can cause incorrect rendering, the shader interfaces feature is currently unimplemented in D3D11On12. Attempting to use this feature will cause errors and debug messages. Additionally, swap chains are not currently supported on D3D11On12 devices.
+The D3D11On12 layer implements a very large subset of the D3D11 API, but there are some known gaps (in addition to bugs in the implementation that can cause incorrect rendering).
 
-D3D11On12 has not currently been optimized for performance. There will likely be moderate CPU overhead compared to a standard D3D11 driver, minimal GPU overhead, and there is known to be significant memory overhead. Therefore it is not recommended to use D3D11On12 for complicated 3D scenes, and it is instead recommended for simple scenes or 2D rendering.
+As of Windows 10, version 1809 (10.0; Build 17763), as long as D3D11On12 is running on a driver that supports Shader Model 6.0 or later, then it can run shaders that use interfaces. In earlier versions of Windows, the shader interfaces feature is not implemented in D3D11On12, and attempting to use the feature will cause errors and debug messages.
+
+As of Windows 10, version 1803 (10.0; Build 17134), swap chains are supported on D3D11On12 devices. In earlier versions of Windows, they are not.
+
+D3D11On12 has not been optimized for performance. There will likely be moderate CPU overhead compared to a standard D3D11 driver, minimal GPU overhead, and there is known to be significant memory overhead. Therefore it is not recommended to use D3D11On12 for complicated 3D scenes, and it is instead recommended for simple scenes, or 2D rendering.
 
 ## APIs
 
