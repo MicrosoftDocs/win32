@@ -34,7 +34,7 @@ The following table identifies what is new for each release of Background Intell
 <ul>
 <li>BITS version 10.1 is included in Windows 10 Creator's Update and later.</li>
 <li>Added <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6"><strong>BackgroundCopyFile6</strong></a> and <a href="/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3"><strong>IBackgroundCopyCallback3</strong></a> to enable  random access  scenarios for HTTP downloads.</li>
-<li>Added <strong>BITS_JOB_PROPERTY_ON_DEMAND_MODE</strong> and <strong>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</strong> to the <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002"><strong>BITS_JOB_PROPERTY_ID</strong></a> enumeration to tweak download and notification behaviors, respectively.</li>
+<li>Added <strong>BITS_JOB_PROPERTY_ON_DEMAND_MODE</strong> and <strong>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</strong> to the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a> enumeration to tweak download and notification behaviors, respectively.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -42,10 +42,10 @@ The following table identifies what is new for each release of Background Intell
 <td>New features:<br/>
 <ul>
 <li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface which adds generic methods for getting and setting BITS job properties to the methods inherited from the <a href="/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4"><strong>IBackgroundCopyJob4</strong></a> interface.<br/> For information on using the new <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface, see <a href="how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md">How to control whether a BITS job is allowed to download over an expensive connection</a> and <a href="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job.md">How to get the last set of HTTP headers received for each file in a BITS download job</a>.<br/></li>
-<li>Added the <a href="/windows/desktop/api/Bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0003"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
+<li>Added the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_value"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
 <li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> interface, which adds methods for getting and setting generic properties on BackgroundCopyFile objects to the methods inherited from the <a href="/windows/desktop/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4"><strong>IBackgroundCopyFile4</strong></a> interface. The addition of generic properties will make it possible to enhance BackgroundCopyFile capabilities in the future without requiring that a new interface be created.</li>
 <li>The first generic property exposed by <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> is the <strong>HttpResponseHeaders</strong> property.</li>
-<li>Added the <a href="/windows/desktop/api/Bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0005"><strong>BITS_FILE_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0004"><strong>BITS_FILE_PROPERTY_ID</strong></a> enumeration.</li>
+<li>Added the <a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_file_property_value"><strong>BITS_FILE_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_file_property_id"><strong>BITS_FILE_PROPERTY_ID</strong></a> enumeration.</li>
 </ul>
 BITS version 5.0 is included in the Windows Server 2012 and Windows 8 operating systems, where the version of %windir%\System32\QMgr.dll is &quot;7.7.xxxx.xxxx&quot;.<br/> The following features were added to BITS in Windows 10<br/>
 <ul>
@@ -116,7 +116,7 @@ The following interfaces were added for this version
 -   [**BackgroundCopyFile6**](/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6)
 -   [**IBackgroundCopyCallback3**](/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3)
 
-The following constants were added to use with the [**BITS\_JOB\_PROPERTY\_ID**](/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002) enumeration:
+The following constants were added to use with the [BITS_JOB_PROPERTY_ID enumeration](/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id).
 
 -   **BITS\_JOB\_PROPERTY\_ON\_DEMAND\_MODE**
 -   **BITS\_JOB\_PROPERTY\_MINIMUM\_NOTIFICATION\_INTERVAL\_MS**
