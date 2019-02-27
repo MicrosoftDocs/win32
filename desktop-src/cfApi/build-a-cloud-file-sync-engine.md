@@ -14,7 +14,7 @@ Windows 10 version 1709 (also called the Fall Creators Update) introduced the *c
 The cloud files API contains the following native Win32 APIs and Universal Windows Platform (UWP) APIs:
 
 * [Cloud Filter API](cloud-filter-reference.md): This native Win32 API provides functionality at the boundary between the user mode and the file system. This API handles the creation and management of placeholder files and directories.
-* [Windows.Storage.Provider namesapce](https://docs.microsoft.com/uwp/api/windows.storage.provider): This WinRT API enables applications to configure and register a cloud storage provider's sync root with the operating system.
+* [Windows.Storage.Provider namespace](https://docs.microsoft.com/uwp/api/windows.storage.provider): This WinRT API enables applications to configure and register a cloud storage provider's sync root with the operating system.
 
 ## Supported features
 
@@ -49,7 +49,7 @@ The following image demonstrates how the placeholder, full, and pinned full file
   * Opening a placeholder file that takes more than a few seconds to hydrate will show hydration progress. Progress is shown in a few locations depending on context:
     * In a copy engine dialog window.
     * Inline progress is shown next to the file in File Explorer.
-    * If the file is not opened at the user’s specific instruction, a toast notification is shown to inform the user and provide a way to control unintended hydration activity. 
+    * If the file is not opened at the user’s specific instruction, a toast notification is shown to inform the user and provide a way to control unintended hydration activity.
 * Thumbnails and metadata:
   * Placeholder files can have rich service-provided thumbnails and extended file metadata to provide the user with a seamless File Explorer experience.
 * File Explorer navigation pane:
