@@ -37,6 +37,21 @@ Below, we see the result of running the script in Windows PowerShell. You'll see
 
 ![Windows Defender detecting the AMSI test sample](images/AMSI9proper.png)
 
+## AMSI integration with JavaScript/VBA
+
+The illustrated workflow below describes the end-to-end flow of another example, in which we demonstrate AMSI's integration with macro execution within Microsoft Office.
+
+![AMSI integration with JavaScript/VBA](images/integ-js-vba.png)
+
+- The user receives a document containing a (malicious) macro, which evades static antivirus software scans by employing techniques such as obfuscation, password-protected files, or other.
+- The user then opens the document containing the (malicious) macro. If the document opens in Protected View, then the user clicks **Enable Editing** to exit Protected View.
+- The user clicks **Enable Macros** to allow macros to run.
+- As the macro runs, the VBA runtime uses a circular buffer to log \[1\] data and parameters related to calls to Win32, COM, and VBA APIs.
+- When specific Win32 or COM APIs that are considered high risk (also known as *triggers*) \[2\] are observed, macro execution is halted, and the contents of the circular buffer are passed to AMSI.
+- The registered AMSI anti-malware service provider responds with a verdict to indicate whether or not the macro behavior is malicious.
+- If the behavior is non-malicious, then macro execution proceeds.
+- Otherwise, if the behavior is malicious, then Microsoft Office closes the session in response to the alert \[3\], and the AV can quarantine the file.
+
 ## What does this mean for you?
 
 For Windows users, any malicious software that uses obfuscation and evasion techniques on Windows 10's built-in scripting hosts is automatically inspected at a much deeper level than ever before, providing additional levels of protection.
