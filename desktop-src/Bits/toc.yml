@@ -512,11 +512,8 @@
           href: example-using-sspi-authentication-encoding-with-bits.md
         - name: "Example: Adding a Helper Token to a BITS Transfer Job"
           href: example-adding-a-helper-token-to-a-bits-transfer-job-.md
-      - name: "BITSAdmin Tool"
+      - name: "BITSAdmin tool"
         href: bitsadmin-tool.md
-        items: 
-        - name: "BITSAdmin Examples"
-          href: bitsadmin-examples.md
     - name: "BITS Server Settings for Upload Jobs"
       href: bits-server-settings-for-upload-jobs.md
       items: 
