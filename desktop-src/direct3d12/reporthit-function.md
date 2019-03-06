@@ -39,7 +39,7 @@ An unsigned integer that identifies the type of hit that occurred.  This is a us
 
 `Attributes`
 
-The user-defined [**IntersectionAttributeStructure**](intersectionattributestructure.md) structure specifying the intersection attributes.  
+The user-defined [**Intersection Attribute Structure**](intersection-attributes.md) structure specifying the intersection attributes.  
 
 ## Return Value
 
@@ -49,7 +49,7 @@ The user-defined [**IntersectionAttributeStructure**](intersectionattributestruc
 
 This function can be called from the following raytracing shader types:
 
-* [**Intersection Shader**](/intersection-shader.md)
+* [**Intersection Shader**](intersection-shader.md)
 
 
 

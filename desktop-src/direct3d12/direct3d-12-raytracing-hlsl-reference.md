@@ -16,7 +16,11 @@ This section provides information on the HLSL constructs that support the Direct
 
 | Topic                                                        | Description                                                                            |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Direct3D 12 Raytracing HLSL Enumerations](direct3d-12-raytracing-enumerations.md)<br/>     | Describes theHLSL enumerations support the Direct3D 12 raytracing pipeline. <br/>                          |
+| [Direct3D 12 Raytracing HLSL Enumerations](direct3d-12-raytracing-hlsl-enumerations)<br/>     | Describes the HLSL enumerations that support the Direct3D 12 raytracing pipeline. <br/>                          |
+| [Direct3D 12 Raytracing HLSL Intrinsics](direct3d-12-raytracing-hlsl-intrinsics)<br/>     | Describes the HLSL instrinsics that support the Direct3D 12 raytracing pipeline. <br/>                          |
+| [Direct3D 12 Raytracing HLSL Resource Types](direct3d-12-raytracing-hlsl-resource-types)<br/>     | Describes the HLSL resource types that support the Direct3D 12 raytracing pipeline. <br/>                          |
+| [Direct3D 12 Raytracing HLSL Shaders](direct3d-12-raytracing-hlsl-shaders)<br/>     | Describes the HLSL shaders that support the Direct3D 12 raytracing pipeline. <br/>                          |
+| [Direct3D 12 Raytracing HLSL Structures](direct3d-12-raytracing-hlsl-structures)<br/>     | Describes the HLSL structures that support the Direct3D 12 raytracing pipeline. <br/>                          |
 
 
 
@@ -26,7 +30,7 @@ This section provides information on the HLSL constructs that support the Direct
 
 <dl> <dt>
 
-[Direct3D 12 Reference](direct3d-12-reference.md)
+[Direct3D 12 Reference](direct3d-12-reference)
 </dt> </dl>
 
  

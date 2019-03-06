@@ -34,10 +34,10 @@ void AcceptHitAndEndSearch();
 
 This function can be called from the following raytracing shader types:
 
-* [**Callable Shader**](/callable-shader.md)
-* [**Closest Hit Shader**](/closest-hit-shader.md)
-* [**Miss Shader**](/miss-shader.md)
-* [**Ray Generation Shader**](/ray-generation-shader.md)
+* [**Callable Shader**](callable-shader.md)
+* [**Closest Hit Shader**](closest-hit-shader.md)
+* [**Miss Shader**](miss-shader.md)
+* [**Ray Generation Shader**](ray-generation-shader.md)
 
 
 
