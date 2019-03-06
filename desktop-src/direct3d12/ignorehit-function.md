@@ -33,7 +33,7 @@ void IgnoreHit();
 
 This function can be called from the following raytracing shader types:
 
-* [**Any Hit Shader**](/any-hit-shader.md)
+* [**Any Hit Shader**](any-hit-shader.md)
 
 
 
