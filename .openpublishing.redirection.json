@@ -41929,6 +41929,11 @@
       "source_path": "desktop-src/extensible-storage-engine/jj835047(v=exchg.10).md",
       "redirect_url": "/windows/desktop/extensible-storage-engine/jetresizedatabase-function",
       "redirect_document_id": true
+},
+{
+	"source_path": "desktop-src/bits/bitsadmin-examples.md",
+	"redirect_url": "/windows-server/administration/windows-commands/bitsadmin-examples",
+	"redirect_document_id": true
 }
   ]
 }
