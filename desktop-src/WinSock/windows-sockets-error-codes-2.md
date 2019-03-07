@@ -16,8 +16,6 @@ For information on how to handle error codes when porting socket applications to
 
 The following list describes the possible error codes returned by the [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function. Errors are listed in numerical order with the error macro name. Some error codes defined in the *Winsock2.h* header file are not returned from any function.
 
-
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -32,27 +30,27 @@ The following list describes the possible error codes returned by the [**WSAGetL
 <tbody>
 <tr class="odd">
 <td><span id="WSA_INVALID_HANDLE"></span><span id="wsa_invalid_handle"></span><dl> <dt><strong>WSA_INVALID_HANDLE</strong></dt> <dt>6</dt> </dl></td>
-<td><dl> <dt><span id="Specified_event_object_handle_is_invalid."></span><span id="specified_event_object_handle_is_invalid."></span><span id="SPECIFIED_EVENT_OBJECT_HANDLE_IS_INVALID."></span>Specified event object handle is invalid.</dt> <dd> An application attempts to use an event object, but the specified handle is not valid. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Specified_event_object_handle_is_invalid."></span><span id="specified_event_object_handle_is_invalid."></span><span id="SPECIFIED_EVENT_OBJECT_HANDLE_IS_INVALID."></span>Specified event object handle is invalid.</dt> <dd> An application attempts to use an event object, but the specified handle is not valid.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_NOT_ENOUGH_MEMORY"></span><span id="wsa_not_enough_memory"></span><dl> <dt><strong>WSA_NOT_ENOUGH_MEMORY</strong></dt> <dt>8</dt> </dl></td>
-<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>Insufficient memory available.</dt> <dd> An application used a Windows Sockets function that directly maps to a Windows function. The Windows function is indicating a lack of required memory resources. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>Insufficient memory available.</dt> <dd> An application used a Windows Sockets function that directly maps to a Windows function. The Windows function is indicating a lack of required memory resources.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_INVALID_PARAMETER"></span><span id="wsa_invalid_parameter"></span><dl> <dt><strong>WSA_INVALID_PARAMETER</strong></dt> <dt>87</dt> </dl></td>
-<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>One or more parameters are invalid.</dt> <dd> An application used a Windows Sockets function which directly maps to a Windows function. The Windows function is indicating a problem with one or more parameters. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>One or more parameters are invalid.</dt> <dd> An application used a Windows Sockets function which directly maps to a Windows function. The Windows function is indicating a problem with one or more parameters.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_OPERATION_ABORTED"></span><span id="wsa_operation_aborted"></span><dl> <dt><strong>WSA_OPERATION_ABORTED</strong></dt> <dt>995</dt> </dl></td>
-<td><dl> <dt><span id="Overlapped_operation_aborted."></span><span id="overlapped_operation_aborted."></span><span id="OVERLAPPED_OPERATION_ABORTED."></span>Overlapped operation aborted.</dt> <dd> An overlapped operation was canceled due to the closure of the socket, or the execution of the SIO_FLUSH command in <a href="/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl"><strong>WSAIoctl</strong></a>. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Overlapped_operation_aborted."></span><span id="overlapped_operation_aborted."></span><span id="OVERLAPPED_OPERATION_ABORTED."></span>Overlapped operation aborted.</dt> <dd> An overlapped operation was canceled due to the closure of the socket, or the execution of the SIO_FLUSH command in <a href="/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl"><strong>WSAIoctl</strong></a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_IO_INCOMPLETE"></span><span id="wsa_io_incomplete"></span><dl> <dt><strong>WSA_IO_INCOMPLETE</strong></dt> <dt>996</dt> </dl></td>
-<td><dl> <dt><span id="Overlapped_I_O_event_object_not_in_signaled_state."></span><span id="overlapped_i_o_event_object_not_in_signaled_state."></span><span id="OVERLAPPED_I_O_EVENT_OBJECT_NOT_IN_SIGNALED_STATE."></span>Overlapped I/O event object not in signaled state.</dt> <dd> The application has tried to determine the status of an overlapped operation which is not yet completed. Applications that use <a href="/windows/desktop/api/Winsock2/nf-winsock2-wsagetoverlappedresult"><strong>WSAGetOverlappedResult</strong></a> (with the <em>fWait</em> flag set to <strong>FALSE</strong>) in a polling mode to determine when an overlapped operation has completed, get this error code until the operation is complete. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Overlapped_I_O_event_object_not_in_signaled_state."></span><span id="overlapped_i_o_event_object_not_in_signaled_state."></span><span id="OVERLAPPED_I_O_EVENT_OBJECT_NOT_IN_SIGNALED_STATE."></span>Overlapped I/O event object not in signaled state.</dt> <dd> The application has tried to determine the status of an overlapped operation which is not yet completed. Applications that use <a href="/windows/desktop/api/Winsock2/nf-winsock2-wsagetoverlappedresult"><strong>WSAGetOverlappedResult</strong></a> (with the <em>fWait</em> flag set to <strong>FALSE</strong>) in a polling mode to determine when an overlapped operation has completed, get this error code until the operation is complete.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_IO_PENDING"></span><span id="wsa_io_pending"></span><dl> <dt><strong>WSA_IO_PENDING</strong></dt> <dt>997</dt> </dl></td>
-<td>Overlapped operations will complete later. <br/> <dl> <dt><span></span></dt> <dd> The application has initiated an overlapped operation that cannot be completed immediately. A completion indication will be given later when the operation has been completed. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td>Overlapped operations will complete later. <br/> <dl> <dt><span></span></dt> <dd> The application has initiated an overlapped operation that cannot be completed immediately. A completion indication will be given later when the operation has been completed.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEINTR"></span><span id="wsaeintr"></span><dl> <dt><strong>WSAEINTR</strong></dt> <dt>10004</dt> </dl></td>
