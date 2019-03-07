@@ -1854,6 +1854,7 @@
             href: traceray-function.md
         - name: "Direct3D 12 Raytracing HLSL Resource Types"
           href: direct3d-12-raytracing-hlsl-resource-types.md
+          items: 
           - name: "RaytracingAccelerationStructure"
             href: raytracingaccelerationstructure.md
         - name: "Direct3D 12 Raytracing HLSL Shaders"
