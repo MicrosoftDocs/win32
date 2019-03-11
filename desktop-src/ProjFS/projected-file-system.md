@@ -28,7 +28,7 @@ Each callback lists a number of possible return values specific to that callback
 | HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) | A buffer passed to a callback was too small.
 | HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)      | The file does not exist in the provider’s backing store.
 | HRESULT_FROM_WIN32(ERROR_INVALID_PARAMETER)   | A callback argument is invalid.  For example, an enumeration ID doesn't correspond to an active enumeration session.
-| HRESULT_FROM_NT(STATUS_CANNOT_DELETE)         | The provider does not want to allow this file or directory to be deleted.
+| HRESULT_FROM_WIN32(ERROR_ACCESS_DENIED)       | The provider wishes to prevent an operation, such as a rename or delete, from taking place.
 
 Callbacks may also return any errors they may receive from calls to ProjFS APIs.
 If a callback returns an error code that is not on the preceding list or that did not come from a ProjFS API, ProjFS will return it to the file system as STATUS_INTERNAL_ERROR.

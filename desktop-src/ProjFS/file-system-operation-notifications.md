@@ -99,7 +99,6 @@ ProjFS sends notifications of file system operations by calling the provider's *
 ProjFS sends the notifications in the following list before the associated file system operation takes place.  If the provider returns a failure code from the **PRJ_NOTIFICATION_CB** callback, the file system operation will fail and return the failure code the provider specified.
 
 * PRJ_NOTIFICATION_PRE_DELETE - The file is about to be deleted.
-  * A provider must return HRESULT_FROM_NT(STATUS_CANNOT_DELETE) to ensure that the file system correctly fails the delete operation.  To access NTSTATUS definitions, #include ntstatus.h.  Note that you must #define UMDF_USING_NTSTATUS before #include'ing windows.h to prevent macro redefinition conflicts.
 * PRJ_NOTIFICATION_PRE_RENAME - The file is about to be renamed.
 * PRJ_NOTIFICATION_PRE_SET_HARDLINK - A hard link is about to be created for the file.
 * PRJ_NOTIFICATION_FILE_PRE_CONVERT_TO_FULL - A file is about to be expanded from a placeholder to a full file, which indicates its contents are likely to be modified.
@@ -123,11 +122,7 @@ The **PRJ_NOTIFICATION_CB** callback's _notificationParameters_ parameter specif
 The following sample shows simple examples of how a provider might process the notifications it registered for in the code snippet above.
 
 ```C++
-// This needs to be defined to prevent macro redefinition conflicts when we
-// #include ntstatus.h so that we can use HRESULT_FROM_NT(STATUS_CANNOT_DELETE).
-#define UMDF_USING_NTSTATUS
 #include <windows.h>
-#include <ntstatus.h>
 
 HRESULT
 MyNotificationCallback(
@@ -173,7 +168,7 @@ MyNotificationCallback(
         if (!MyAllowDelete(callbackData->FilePathName, isDirectory))
         {
             wprintf(L"DENIED\n");
-            hr = HRESULT_FROM_NT(STATUS_CANNOT_DELETE);
+            hr = HRESULT_FROM_WIN32(ERROR_ACCESS_DENIED);
         }
         else
         {
