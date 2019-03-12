@@ -66,7 +66,7 @@ An unsigned integer specifying the index of the miss shader within a shader tabl
 
 `Ray`
 
-A [**RayDesc**](raydesk.md) representing the ray to be traced.
+A [**RayDesc**](raydesc.md) representing the ray to be traced.
 
 `Payload`
 
@@ -80,9 +80,9 @@ A user defined ray payload accessed both for both input and output by shaders in
 
 This function can be called from the following raytracing shader types:
 
-* [**Closest Hit Shader**](/closest-hit-shader.md)
-* [**Miss Shader**](/miss-shader.md)
-* [**Ray Generation Shader**](/ray-generation-shader.md)
+* [**Closest Hit Shader**](closest-hit-shader)
+* [**Miss Shader**](miss-shader)
+* [**Ray Generation Shader**](ray-generation-shader)
 
 
 

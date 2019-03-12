@@ -1,17 +1,19 @@
-- name: "Antimalware Scan Interface"
+- name: "Antimalware Scan Interface (AMSI)"
   href: antimalware-scan-interface-portal.md
   items: 
-  - name: "AMSI Reference"
+  - name: "How AMSI helps"
+    href: how-amsi-helps.md
+  - name: "AMSI reference"
     href: antimalware-scan-interface-reference.md
     items: 
-    - name: "AMSI Enumerations"
+    - name: "AMSI enumerations"
       href: antimalware-scan-interface-enumerations.md
       items: 
       - name: "AMSI_ATTRIBUTE"
         href: /windows/desktop/api/amsi/ne-amsi-amsi_attribute
       - name: "AMSI_RESULT"
         href: /windows/desktop/api/amsi/ne-amsi-amsi_result
-    - name: "AMSI Functions"
+    - name: "AMSI functions"
       href: antimalware-scan-interface-functions.md
       items: 
       - name: "AmsiCloseSession"
@@ -28,7 +30,7 @@
         href: /windows/desktop/api/amsi/nf-amsi-amsiscanstring
       - name: "AmsiUninitialize"
         href: /windows/desktop/api/amsi/nf-amsi-amsiuninitialize
-    - name: "AMSI Interfaces"
+    - name: "AMSI interfaces"
       href: antimalware-scan-interface-interfaces.md
       items: 
       - name: "IAmsiStream"

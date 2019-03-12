@@ -108,33 +108,33 @@
   - name: "BITS Reference"
     href: bits-reference.md
     items: 
-    - name: "BITS Enumerations"
+    - name: "BITS enumerations"
       href: bits-enumerations.md
       items: 
       - name: "BG_AUTH_SCHEME"
-        href: /windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002
+        href: /windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme
       - name: "BG_AUTH_TARGET"
-        href: /windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0001
+        href: /windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_target
       - name: "BG_CERT_STORE_LOCATION"
-        href: /windows/desktop/api/Bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001
+        href: /windows/desktop/api/bits2_5/ne-bits2_5-bg_cert_store_location
       - name: "BG_ERROR_CONTEXT"
-        href: /windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyerror_0001
+        href: /windows/desktop/api/bits/ne-bits-bg_error_context
       - name: "BG_JOB_PRIORITY"
-        href: /windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0001
+        href: /windows/desktop/api/bits/ne-bits-bg_job_priority
       - name: "BG_JOB_PROXY_USAGE"
-        href: /windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0004
+        href: /windows/desktop/api/bits/ne-bits-bg_job_proxy_usage
       - name: "BG_JOB_STATE"
-        href: /windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0002
+        href: /windows/desktop/api/bits/ne-bits-bg_job_state
       - name: "BG_JOB_TYPE"
-        href: /windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0003
+        href: /windows/desktop/api/bits/ne-bits-bg_job_type
       - name: "BITS_COST_STATE"
-        href: bits-cost-state.md
+        href: /windows/desktop/bits/bits-cost-state
       - name: "BITS_FILE_PROPERTY_ID"
-        href: /windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0004
+        href: /windows/desktop/api/bits5_0/ne-bits5_0-bits_file_property_id
       - name: "BITS_JOB_PROPERTY_ID"
-        href: /windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002
+        href: /windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id
       - name: "BITS_JOB_TRANSFER_POLICY"
-        href: /windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001
+        href: /windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy
     - name: "BITS Interfaces"
       href: bits-interfaces.md
       items: 
@@ -512,11 +512,8 @@
           href: example-using-sspi-authentication-encoding-with-bits.md
         - name: "Example: Adding a Helper Token to a BITS Transfer Job"
           href: example-adding-a-helper-token-to-a-bits-transfer-job-.md
-      - name: "BITSAdmin Tool"
+      - name: "BITSAdmin tool"
         href: bitsadmin-tool.md
-        items: 
-        - name: "BITSAdmin Examples"
-          href: bitsadmin-examples.md
     - name: "BITS Server Settings for Upload Jobs"
       href: bits-server-settings-for-upload-jobs.md
       items: 
@@ -543,7 +540,7 @@
           items: 
           - name: "GetObject method"
             href: /windows/desktop/api/Bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject
-    - name: "BITS Structures and Unions"
+    - name: "BITS structures and unions"
       href: bits-c---structures-and-unions.md
       items: 
       - name: "BG_AUTH_CREDENTIALS"

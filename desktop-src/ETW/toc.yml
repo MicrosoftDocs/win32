@@ -152,6 +152,8 @@
         href: enumeratetraceguids.md
       - name: "EnumerateTraceGuidsEx"
         href: enumeratetraceguidsex.md
+      - name: "EtwEventUnregister"
+        href: nf-ntetw-etweventunregister.md
       - name: "EventAccessControl"
         href: /windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol
       - name: "EventAccessQuery"

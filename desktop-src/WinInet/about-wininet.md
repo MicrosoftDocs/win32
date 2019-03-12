@@ -1,6 +1,6 @@
 ---
 title: About WinINet
-description: The Windows Internet (WinINet) application programming interface (API) enables applications to interact with FTP, and HTTP protocols to access Internet resources.
+description: The Windows Internet (WinINet) application programming interface (API) enables your application to interact with FTP and HTTP protocols to access Internet resources.
 ms.assetid: 0a06f2af-957a-4dff-a8cc-187370181b5c
 keywords:
 - About WinINet WinINet
@@ -14,7 +14,10 @@ ms.date: 05/31/2018
 
 # About WinINet
 
-The Windows Internet (WinINet) application programming interface (API) enables applications to interact with FTP, and HTTP protocols to access Internet resources. As standards evolve, these functions handle the changes in underlying protocols, enabling them to maintain consistent behavior.
+> [!NOTE]
+> For app containers since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default.
+
+The Windows Internet (WinINet) application programming interface (API) enables your application to interact with FTP and HTTP protocols to access Internet resources. As standards evolve, these functions handle the changes in underlying protocols, enabling them to maintain consistent behavior.
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also enabled applications to interact with Gopher.
 
@@ -42,17 +45,7 @@ The two primary Internet protocols are FTP and HTTP. For more information about 
 -   [RFC 1945](https://go.microsoft.com/fwlink/p/?linkid=84520), *Hypertext Transfer Protocol - HTTP/1.0*.
 -   [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048), *Hypertext Transfer Protocol - HTTP/1.1*.
 
-> [!Note]  
+> [!NOTE]  
 > (These resources may not be available in some languages and countries.)
 
- 
-
 **Windows XP and Windows Server 2003 R2 and earlier:** The Gopher protocol was also supported. See [RFC 1436](https://go.microsoft.com/fwlink/p/?linkid=84551), *The Internet Gopher Protocol*.
-
- 
-
- 
-
-
-
-

@@ -196,10 +196,10 @@
         href: dynamic-indexing-using-hlsl-5-1.md
       - name: "Indirect drawing and GPU culling"
         href: indirect-drawing-and-gpu-culling-.md
-    - name: "Understanding the D3D12 Debug Layer"
+    - name: "Debugging and diagnostics"
       href: understanding-the-d3d12-debug-layer.md
       items: 
-      - name: "Using D3D12 Debug Layer GPU-Based Validation"
+      - name: "Use Debug Layer GPU-based validation"
         href: using-d3d12-debug-layer-gpu-based-validation.md
     - name: "Direct Machine Learning (DirectML)"
       href: dml.md
@@ -1597,6 +1597,11 @@
             href: /windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource
           - name: "ReleaseWrappedResources"
             href: /windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources
+        - name: "ID3D11On12Device1"
+          href: /windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device1
+          items: 
+          - name: "GetD3D12Device"
+            href: /windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device1-getd3d12device
       - name: "11on12 Functions"
         href: direct3d-11-on-12-functions-.md
         items: 
@@ -1858,6 +1863,9 @@
             href: traceray-function.md
         - name: "Direct3D 12 Raytracing HLSL Resource Types"
           href: direct3d-12-raytracing-hlsl-resource-types.md
+          items: 
+          - name: "RaytracingAccelerationStructure"
+            href: raytracingaccelerationstructure.md
         - name: "Direct3D 12 Raytracing HLSL Shaders"
           href: direct3d-12-raytracing-hlsl-shaders.md
           items: 
