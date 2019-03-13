@@ -13,7 +13,7 @@ ms.date: 02/01/2019
 > [!IMPORTANT]
 > The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
 
-Below is the full source code listing of a minimal DirectML application. To build and run this source code example, create a new **Visual C++** > **Windows Desktop** > **Windows Console Application (C++/WinRT)** project in Microsoft Visual Studio. Configure the project to target Windows SDK version 10.0.?????.0 (Windows 10, version 19??), or later.
+Below is the full source code listing of a minimal DirectML application. To build and run this source code example, create a new **Visual C++** > **Windows Desktop** > **Windows Console Application (C++/WinRT)** project in Microsoft Visual Studio. Configure the project to target Windows SDK version 10.0.?????.0 (Windows 10, version 1903), or later.
 
 First, download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12), and add that header file to your project.
 
