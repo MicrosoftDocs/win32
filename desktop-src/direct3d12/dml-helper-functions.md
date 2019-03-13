@@ -7,6 +7,12 @@ ms.date: 03/13/2019
 
 # DirectML helper functions
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
+
 ## DMLCalcBufferTensorSize
 
 This helper function calculates the minimum number of bytes required to store a buffer tensor with the specified type, sizes, and strides. The formula can be expressed as the following.

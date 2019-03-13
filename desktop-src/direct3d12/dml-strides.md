@@ -7,6 +7,12 @@ ms.date: 03/12/2019
 
 # Using strides to express padding and memory layout
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
+
 DirectML tensors&mdash;which are are backed by Direct3D 12 buffers&mdash;are described by properties known as the *sizes* and the *strides* of the tensor. The tensor's *sizes* describe the logical dimensions of the tensor. For example, a 2D tensor might have a height of 2 and a width of 3. Logically, the tensor has 6 distinct elements, although the sizes don't specify how those elements are stored in memory. The tensor's *strides* describe the physical memory layout of the tensor's elements.
 
 ## Two-dimensional (2D) arrays
