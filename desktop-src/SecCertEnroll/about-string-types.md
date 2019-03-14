@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 One of the most common uses of strings in a public key infrastructure (PKI) is to create an X.500 Distinguished Name. For example, the subject name of a certificate request is created by combining a sequence of relative distinguished names as shown in the following syntax example.
 
-## ``` syntax
-
-## -- Breakdown of a subject name in a certificate request.
-
+``` syntax
+---------------------------------------------------------------------
+-- Breakdown of a subject name in a certificate request.
+---------------------------------------------------------------------
 
 CertificationRequestInfo ::= SEQUENCE 
 {
@@ -61,10 +61,10 @@ Certreq.exe name: IA5\_STRING
 
 The International Alphabet number 5 (IA5) is generally equivalent to the ASCII alphabet, but different versions can include accents or other characters specific to a regional language. The following example shows the **IA5String** type used in the ASN.1 definition of the **AlternativeNames** certificate extension.
 
-## ``` syntax
-
-## -- AlternativeNames extension
-
+``` syntax
+---------------------------------------------------------------------
+-- AlternativeNames extension
+---------------------------------------------------------------------
 
 AltNames ::= SEQUENCE OF GeneralName
 

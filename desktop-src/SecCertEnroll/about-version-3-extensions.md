@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 An X.509 version 3 certificate contains the fields defined in version 1 and version 2 and adds certificate extensions. The ASN.1 syntax of certificate extensions is shown in the following example.
 
-## ``` syntax
-
-## -- Extensions (beginning with version 3).
-
+``` syntax
+---------------------------------------------------------------------
+-- Extensions (beginning with version 3).
+---------------------------------------------------------------------
 Extensions ::= SEQUENCE OF Extension
 
 Extension ::= SEQUENCE 
@@ -24,7 +24,9 @@ Extension ::= SEQUENCE
 }
 ```
 
-The standard version 3 extensions and their object identifiers (OIDs) are listed in the following table. Microsoft supports these and includes additional custom extensions. For more information, see [Extensions](extensions.md).
+The standard version 3 extensions and their object identifiers (OIDs) are listed in the following table. 
+Microsoft supports these and includes additional custom extensions. 
+For more information, see [Extensions](extensions.md).
 
 | Extension                                         | Description                                                                                                                                                                                              |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
