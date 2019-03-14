@@ -14,10 +14,10 @@ An X.509 version 2 certificate contains the basic fields defined in version 1 an
 
 Contains a unique value that can be used to make the X.500 name of the CA unambiguous when reused by different entities over time.
 
-## ``` syntax
-
-## -- Issuer Unique identifier
-
+``` syntax
+---------------------------------------------------------------------
+-- Issuer Unique identifier
+---------------------------------------------------------------------
 issuerUniqueIdentifier ::= [1] IMPLICIT UniqueIdentifier OPTIONAL
 
 UniqueIdentifier ::= BITSTRING
@@ -27,10 +27,10 @@ UniqueIdentifier ::= BITSTRING
 
 Contains a unique value that can be used to make the X.500 name of the certificate subject unambiguous when reused by different entities over time.
 
-## ``` syntax
-
-## -- Issuer Unique identifier
-
+``` syntax
+---------------------------------------------------------------------
+-- Issuer Unique identifier
+---------------------------------------------------------------------
 subjectUniqueIdentifier ::= [2] IMPLICIT UniqueIdentifier OPTIONAL
 
 UniqueIdentifier ::= BITSTRING

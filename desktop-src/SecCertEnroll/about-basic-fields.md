@@ -14,10 +14,10 @@ An X.509 version 1 certificate contains the following fields. Version 2 fields a
 
 Specifies the version number of the encoded certificate. Currently, the possible values of this field are 0, 1, or 2, but this may be expanded in the future.
 
-## ``` syntax
-
-## -- Version number. Currently, this can be 0, 1, or 2.
-
+``` syntax
+---------------------------------------------------------------------
+-- Version number. Currently, this can be 0, 1, or 2.
+---------------------------------------------------------------------
 CertificateVersion ::= INTEGER {v1(0), v2(1), v3(2)}
 ```
 
@@ -25,21 +25,22 @@ CertificateVersion ::= INTEGER {v1(0), v2(1), v3(2)}
 
 Contains a positive, unique integer assigned by the certification authority (CA) to the certificate.
 
-## ``` syntax
-
-## -- Certificate serial number
-
+``` syntax
+---------------------------------------------------------------------
+-- Certificate serial number
+---------------------------------------------------------------------
 CertificateSerialNumber ::= INTEGER
 ```
 
 ## Signature Algorithm
 
-Contains an [*object identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OID) that specifies the algorithm used by the CA to sign the certificate. For example, 1.2.840.113549.1.1.5 specifies a SHA-1 hashing algorithm combined with the RSA encryption algorithm from RSA Laboratories.
+Contains an [*object identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OID) that specifies the algorithm used by the CA to sign the certificate. 
+For example, 1.2.840.113549.1.1.5 specifies a SHA-1 hashing algorithm combined with the RSA encryption algorithm from RSA Laboratories.
 
-## ``` syntax
-
-## -- Signature OID
-
+``` syntax
+---------------------------------------------------------------------
+-- Signature OID
+---------------------------------------------------------------------
 signature ::= AlgorithmIdentifier
 
 AlgorithmIdentifier ::= SEQUENCE 
@@ -53,10 +54,10 @@ AlgorithmIdentifier ::= SEQUENCE
 
 Contains the [*X.500*](https://msdn.microsoft.com/library/windows/desktop/ms721636#-security-x-500-gly) distinguished name (DN) of the CA that created and signed the certificate.
 
-## ``` syntax
-
-## -- Issuer name 
-
+``` syntax
+---------------------------------------------------------------------
+-- Issuer name 
+---------------------------------------------------------------------
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
 RelativeDistinguishedName ::= SET OF AttributeTypeValue
@@ -70,12 +71,14 @@ AttributeTypeValue ::= SEQUENCE
 
 ## Validity
 
-Specifies the time interval during which the certificate is valid. Dates through the end of 2049 use the Coordinated Universal Time (Greenwich Mean Time) format (*yymmddhhmmssz*). Dates beginning with January 1st, 2050 use the generalized time format (*yyyymmddhhmmssz*).
+Specifies the time interval during which the certificate is valid. 
+Dates through the end of 2049 use the Coordinated Universal Time (Greenwich Mean Time) format (*yymmddhhmmssz*). 
+Dates beginning with January 1st, 2050 use the generalized time format (*yyyymmddhhmmssz*).
 
-## ``` syntax
-
-## -- Validity period 
-
+``` syntax
+---------------------------------------------------------------------
+-- Validity period 
+---------------------------------------------------------------------
 Validity ::= SEQUENCE 
 {
   notBefore           ChoiceOfTime,
@@ -93,10 +96,10 @@ ChoiceOfTime ::= CHOICE
 
 Contains an X.500 distinguished name of the entity associated with the public key contained in the certificate.
 
-## ``` syntax
-
-## -- Subject name 
-
+``` syntax
+---------------------------------------------------------------------
+-- Subject name 
+---------------------------------------------------------------------
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
 RelativeDistinguishedName ::= SET OF AttributeTypeValue
@@ -112,10 +115,10 @@ AttributeTypeValue ::= SEQUENCE
 
 Contains the public key and associated algorithm information.
 
-## ``` syntax
-
-## --  Subject public key information
-
+``` syntax
+---------------------------------------------------------------------
+--  Subject public key information
+---------------------------------------------------------------------
 SubjectPublicKeyInfo ::= SEQUENCE 
 {
   algorithm           AlgorithmIdentifier,
