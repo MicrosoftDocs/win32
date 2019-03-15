@@ -222,7 +222,7 @@
         href: dml-helper-functions.md
       - name: "Sample applications"
         href: dml-min-app.md
-    - name: "Direct3D 12 Reference"
+  - name: "Direct3D 12 Reference"
     href: direct3d-12-reference.md
     items: 
     - name: "Interface hierarchy"
