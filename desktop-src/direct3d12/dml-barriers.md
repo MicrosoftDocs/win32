@@ -43,7 +43,7 @@ In the following example, a convolution operator's output is fed into a ReLU act
 BATCH_NORMALIZATION (batch1)
 ```
 
-Since a data dependency exists between all three operators, you'll need a UAV barrier between each successive dispatch.
+Since a data dependency exists between all three operators, you'll need a UAV barrier between each successive dispatch (see [**IDMLCommandRecorder::RecordDispatch**](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch)).
 
 1. `dmlCommandRecorder->RecordDispatch(d3d12CommandList, `**conv1**`)`
 2. `d3d12CommandList->ResourceBarrier(`**UAV barrier**`)`

@@ -1,6 +1,6 @@
 ---
 title: Direct Machine Learning (DirectML)
-description: Direct Machine Learning (DirectML) is a low-level API for machine learning.
+description: TBD
 ms.topic: article
 ms.date: 02/01/2019
 ---
@@ -23,9 +23,11 @@ Direct Machine Learning (DirectML) is a low-level API for machine learning. It h
 | [Binding in DirectML](dml-binding.md) | In DirectML, *binding* refers to the attachment of resources to the pipeline for the GPU to use during the initialization and execution of your machine learning operators. These resources can be input and output tensors, for example, as well as any temporary or persistent resources that the operator needs. |
 | [UAV barriers and resource state barriers in DirectML](dml-barriers.md) | Describes the correctness benefits of barriers, and how you can work with them in DirectML. |
 | [Using strides to express padding and memory layout](dml-strides.md) | DirectML tensors are described by properties known as the *sizes* and the *strides* of the tensor. |
+| [Resource lifetime and synchronization](dml-resource-lifetime.md) | In order to avoid undefined behavior, your DirectML application must correctly manage object lifetimes and synchronization between the CPU and the GPU. |
 | [Using the DirectML debug layer](dml-debug-layer.md) | The DirectML debug layer is an optional development-time component that helps you in debugging your DirectML code. |
+| [Handling errors and device-removal](dml-errors.md) | This topic discusses how to debug DirectML device-removal, and other error conditions. |
 | [DirectML helper functions](dml-helper-functions.md) | Code listings of essential DirectML helper functions. |
-| [A minimal DirectML application](dml-min-app.md) | A full source code listing of a minimal DirectML application. |
+| [DirectML sample applications](dml-min-app.md) | Links to DirectML sample applications, including a sample of a minimal DirectML application. |
 
 ## Related topics
 

@@ -208,17 +208,21 @@
         href: dml-intro.md
       - name: "Binding in DirectML"
         href: dml-binding.md
-      - name: "UAV barriers and resource state barriers in DirectML"
+      - name: "UAV barriers and resource state barriers"
         href: dml-barriers.md
-      - name: "Using strides to express padding and memory layout"
+      - name: "Using strides to express padding, memory layout"
         href: dml-strides.md
-      - name: "Using the DirectML debug layer"
+      - name: "Resource lifetime and synchronization"
+        href: dml-resource-lifetime.md
+      - name: "Using the debug layer"
         href: dml-debug-layer.md
-      - name: "DirectML helper functions"
+      - name: "Handling errors and device-removal"
+        href: dml-errors.md
+      - name: "Helper functions"
         href: dml-helper-functions.md
-      - name: "A minimal DirectML application"
+      - name: "Sample applications"
         href: dml-min-app.md
-  - name: "Direct3D 12 Reference"
+    - name: "Direct3D 12 Reference"
     href: direct3d-12-reference.md
     items: 
     - name: "Interface hierarchy"
