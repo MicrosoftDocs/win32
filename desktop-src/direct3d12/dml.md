@@ -28,7 +28,7 @@ Direct Machine Learning (DirectML) is a low-level API for machine learning. It h
 | [Handling errors and device-removal](dml-errors.md) | This topic discusses how to debug DirectML device-removal, and other error conditions. |
 | [DirectML helper functions](dml-helper-functions.md) | Code listings of essential DirectML helper functions. |
 | [DirectML sample applications](dml-min-app.md) | Links to DirectML sample applications, including a sample of a minimal DirectML application. |
-| [DirectML reference](http://download.microsoft.com/download/C/5/A/C5A81A2A-78C9-4E8F-AB3B-A40D344B05FF/directmlref.chm) | For this pre-release version of the DirectML documentation, the API reference content is available as a Compiled HTML Help download. Download `directmlref.chm` using the link in the first column. Then, in File Explorer, navigate to your Downloads folder, right-click `directmlref.chm` > Properties > General > Security > Unblock > OK. Then double-click the file to open and view it. |
+| [DirectML reference](http://download.microsoft.com/download/C/5/A/C5A81A2A-78C9-4E8F-AB3B-A40D344B05FF/directmlref.chm) | For this pre-release version of the DirectML documentation, the API reference content is available as a Compiled HTML Help download. Download `directmlref.chm` using the link in the first column. Then, in File Explorer, navigate to your Downloads folder, right-click `directmlref.chm` > **Properties** > **General** > **Security** > **Unblock** > **OK**. Then double-click the file to open and view it. |
 
 ## Related topics
 
