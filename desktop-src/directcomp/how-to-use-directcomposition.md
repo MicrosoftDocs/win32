@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to use DirectComposition
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This section describes best practices for using the Microsoft DirectComposition API, and demonstrates how to use the API to accomplish several common tasks.
 
 ## In this section

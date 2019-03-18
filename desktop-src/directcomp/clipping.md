@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Clipping
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 Clipping provides a way to reveal only a portion of a visual or visual tree by limiting the rendering of the visual or tree to a particular rectangular area. This topic describes Microsoft DirectComposition support for clipping visuals. It includes the following sections:
 
 -   [Clip rectangle](#clip-rectangle)

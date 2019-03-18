@@ -12,6 +12,9 @@ ms.date: 05/31/2018
 
 # How to apply animations
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic demonstrates how to animate the properties of a visual by using Microsoft DirectComposition. The example in this topic animates the Effect property of a visual, causing the visual's opacity to change from zero (transparent) to one (fully opaque) over a period of two seconds.
 
 ## What you need to know

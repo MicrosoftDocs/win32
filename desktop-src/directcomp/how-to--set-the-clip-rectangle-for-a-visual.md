@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to clip with a rectangle clip object
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic demonstrates how to use a rectangle clip object to clip a visual or visual tree.
 
 The example in this topic defines a rectangular clip that is centered at the mouse location, and applies the clip to a visual that is centered in the client area of the composition target window. This screen shot shows the result of applying the rectangle clip object to the visual.

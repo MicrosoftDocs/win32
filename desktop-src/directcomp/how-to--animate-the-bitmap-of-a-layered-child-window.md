@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to animate the bitmap of a layered child window
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visual's content. The example described in this topic uses an animated scale transformation to "grow" the bitmap of a child window from thumb size to full size. For more information about layered windows, see [Window Bitmaps](bitmap-surfaces.md).
 
 ## What you need to know
