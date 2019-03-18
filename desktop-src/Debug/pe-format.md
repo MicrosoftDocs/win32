@@ -3,7 +3,7 @@ Description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
-ms.date: 11/05/2018
+ms.date: 03/18/2019
 ---
 
 # PE Format
@@ -17,71 +17,102 @@ This specification describes the structure of executable (image) files and objec
 
 This revision of the Microsoft Portable Executable and Common Object File Format Specification replaces all previous revisions of this specification.
 
-For the latest information, see: <https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx>.
-
--   [General Concepts](#general-concepts)
--   [Overview](#overview)
--   [File Headers](#file-headers)
-    -   [MS-DOS Stub (Image Only)](#ms-dos-stub-image-only)
-    -   [Signature (Image Only)](#signature-image-only)
-    -   [COFF File Header (Object and Image)](#coff-file-header-object-and-image)
-    -   [Optional Header (Image Only)](#optional-header-image-only)
--   [Section Table (Section Headers)](#section-table-section-headers)
-    -   [Section Flags](#section-flags)
-    -   [Grouped Sections (Object Only)](#grouped-sections-object-only)
--   [Other Contents of the File](#other-contents-of-the-file)
-    -   [Section Data](#section-data)
-    -   [COFF Relocations (Object Only)](#coff-relocations-object-only)
-    -   [Type Indicators](#type-indicators)
-    -   [COFF Line Numbers (Deprecated)](#coff-line-numbers-deprecated)
-    -   [COFF Symbol Table](#coff-symbol-table)
-    -   [Auxiliary Symbol Records](#auxiliary-symbol-records)
-    -   [COFF String Table](#coff-string-table)
-    -   [The Attribute Certificate Table (Image Only)](#the-attribute-certificate-table-image-only)
--   [Special Sections](#special-sections)
-    -   [The .debug Section](#the-debug-section)
--   [The .drectve Section (Object Only)](#the-drectve-section-object-only)
--   [The .edata Section (Image Only)](#the-edata-section-image-only)
-    -   [Export Directory Table](#export-directory-table)
-    -   [Export Address Table](#export-address-table)
-    -   [Export Name Pointer Table](#export-name-pointer-table)
-    -   [Export Ordinal Table](#export-ordinal-table)
-    -   [Export Name Table](#export-name-table)
--   [The .idata Section](#the-idata-section)
-    -   [Import Directory Table](#import-directory-table)
-    -   [Import Lookup Table](#import-lookup-table)
-    -   [Hint/Name Table](#hintname-table)
-    -   [Import Address Table](#delay-import-address-table)
--   [The .pdata Section](#the-pdata-section)
--   [The .reloc Section (Image Only)](#the-reloc-section-image-only)
-    -   [Base Relocation Block](#base-relocation-block)
-    -   [Base Relocation Types](#base-relocation-types)
--   [The .tls Section](#the-tls-section)
-    -   [The TLS Directory](#the-tls-directory)
-    -   [TLS Callback Functions](#tls-callback-functions)
--   [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only)
-    -   [Load Configuration Directory](#load-configuration-directory)
-    -   [Load Configuration Layout](#load-configuration-layout)
--   [The .rsrc Section](#the-rsrc-section)
--   [Resource Directory Table](#resource-directory-table)
-    -   [Resource Directory Entries](#resource-directory-entries)
-    -   [Resource Directory String](#resource-directory-string)
-    -   [Resource Data Entry](#resource-data-entry)
--   [The .cormeta Section (Object Only)](#the-cormeta-section-object-only)
--   [The .sxdata Section](#the-sxdata-section)
--   [Archive (Library) File Format](#archive-library-file-format)
--   [Archive File Signature](#archive-file-signature)
-    -   [Archive Member Headers](#archive-member-headers)
-    -   [First Linker Member](#first-linker-member)
-    -   [Second Linker Member](#second-linker-member)
-    -   [Longnames Member](#longnames-member)
--   [Import Library Format](#import-library-format)
-    -   [Import Header](#import-header)
-    -   [Import Type](#import-type)
--   [Appendix A: Calculating Authenticode PE Image Hash](#appendix-a-calculating-authenticode-pe-image-hash)
-    -   [A.1 What is an Authenticode PE Image Hash?](#a1-what-is-an-authenticode-pe-image-hash)
-    -   [A.2 What is Covered in an Authenticode PE Image Hash?](#a2-what-is-covered-in-an-authenticode-pe-image-hash)
--   [References](#references)
+- [General Concepts](#general-concepts)
+- [Overview](#overview)
+- [File Headers](#file-headers)
+  - [MS-DOS Stub (Image Only)](#ms-dos-stub-image-only)
+  - [Signature (Image Only)](#signature-image-only)
+  - [COFF File Header (Object and Image)](#coff-file-header-object-and-image)
+    - [Machine Types](#machine-types)
+    - [Characteristics](#characteristics)
+  - [Optional Header (Image Only)](#optional-header-image-only)
+    - [Optional Header Standard Fields (Image Only)](#optional-header-standard-fields-image-only)
+    - [Optional Header Windows-Specific Fields (Image Only)](#optional-header-windows-specific-fields-image-only)
+    - [Optional Header Data Directories (Image Only)](#optional-header-data-directories-image-only)
+- [Section Table (Section Headers)](#section-table-section-headers)
+  - [Section Flags](#section-flags)
+  - [Grouped Sections (Object Only)](#grouped-sections-object-only)
+- [Other Contents of the File](#other-contents-of-the-file)
+  - [Section Data](#section-data)
+  - [COFF Relocations (Object Only)](#coff-relocations-object-only)
+    - [Type Indicators](#type-indicators)
+  - [COFF Line Numbers (Deprecated)](#coff-line-numbers-deprecated)
+  - [COFF Symbol Table](#coff-symbol-table)
+    - [Symbol Name Representation](#symbol-name-representation)
+    - [Section Number Values](#section-number-values)
+    - [Type Representation](#type-representation)
+    - [Storage Class](#storage-class)
+  - [Auxiliary Symbol Records](#auxiliary-symbol-records)
+    - [Auxiliary Format 1: Function Definitions](#auxiliary-format-1-function-definitions)
+    - [Auxiliary Format 2: .bf and .ef Symbols](#auxiliary-format-2-bf-and-ef-symbols)
+    - [Auxiliary Format 3: Weak Externals](#auxiliary-format-3-weak-externals)
+    - [Auxiliary Format 4: Files](#auxiliary-format-4-files)
+    - [Auxiliary Format 5: Section Definitions](#auxiliary-format-5-section-definitions)
+    - [COMDAT Sections (Object Only)](#comdat-sections-object-only)
+    - [CLR Token Definition (Object Only)](#clr-token-definition-object-only)
+  - [COFF String Table](#coff-string-table)
+  - [The Attribute Certificate Table (Image Only)](#the-attribute-certificate-table-image-only)
+    - [Certificate Data](#certificate-data)
+  - [Delay-Load Import Tables (Image Only)](#delay-load-import-tables-image-only)
+    - [The Delay-Load Directory Table](#the-delay-load-directory-table)
+    - [Attributes](#attributes)
+    - [Name](#name)
+    - [Module Handle](#module-handle)
+    - [Delay Import Address Table](#delay-import-address-table)
+    - [Delay Import Name Table](#delay-import-name-table)
+    - [Delay Bound Import Address Table and Time Stamp](#delay-bound-import-address-table-and-time-stamp)
+    - [Delay Unload Import Address Table](#delay-unload-import-address-table)
+- [Special Sections](#special-sections)
+  - [The .debug Section](#the-debug-section)
+    - [Debug Directory (Image Only)](#debug-directory-image-only)
+    - [Debug Type](#debug-type)
+    - [.debug$F (Object Only)](#debug$f-object-only)
+    - [.debug$S (Object Only)](#debug$s-object-only)
+    - [.debug$P (Object Only)](#debug$p-object-only)
+    - [.debug$T (Object Only)](#debug$t-object-only)
+    - [Linker Support for Microsoft Debug Information](#linker-support-for-microsoft-debug-information)
+  - [The .drectve Section (Object Only)](#the-drectve-section-object-only)
+  - [The .edata Section (Image Only)](#the-edata-section-image-only)
+    - [Export Directory Table](#export-directory-table)
+    - [Export Address Table](#export-address-table)
+    - [Export Name Pointer Table](#export-name-pointer-table)
+    - [Export Ordinal Table](#export-ordinal-table)
+    - [Export Name Table](#export-name-table)
+  - [The .idata Section](#the-idata-section)
+    - [Import Directory Table](#import-directory-table)
+    - [Import Lookup Table](#import-lookup-table)
+    - [Hint/Name Table](#hintname-table)
+    - [Import Address Table](#delay-import-address-table)
+  - [The .pdata Section](#the-pdata-section)
+  - [The .reloc Section (Image Only)](#the-reloc-section-image-only)
+    - [Base Relocation Block](#base-relocation-block)
+    - [Base Relocation Types](#base-relocation-types)
+  - [The .tls Section](#the-tls-section)
+    - [The TLS Directory](#the-tls-directory)
+    - [TLS Callback Functions](#tls-callback-functions)
+  - [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only)
+    - [Load Configuration Directory](#load-configuration-directory)
+    - [Load Configuration Layout](#load-configuration-layout)
+  - [The .rsrc Section](#the-rsrc-section)
+    - [Resource Directory Table](#resource-directory-table)
+    - [Resource Directory Entries](#resource-directory-entries)
+    - [Resource Directory String](#resource-directory-string)
+    - [Resource Data Entry](#resource-data-entry)
+  - [The .cormeta Section (Object Only)](#the-cormeta-section-object-only)
+  - [The .sxdata Section](#the-sxdata-section)
+- [Archive (Library) File Format](#archive-library-file-format)
+  - [Archive File Signature](#archive-file-signature)
+  - [Archive Member Headers](#archive-member-headers)
+  - [First Linker Member](#first-linker-member)
+  - [Second Linker Member](#second-linker-member)
+  - [Longnames Member](#longnames-member)
+- [Import Library Format](#import-library-format)
+  - [Import Header](#import-header)
+  - [Import Type](#import-type)
+- [Appendix A: Calculating Authenticode PE Image Hash](#appendix-a-calculating-authenticode-pe-image-hash)
+  - [A.1 What is an Authenticode PE Image Hash?](#a1-what-is-an-authenticode-pe-image-hash)
+  - [A.2 What is Covered in an Authenticode PE Image Hash?](#a2-what-is-covered-in-an-authenticode-pe-image-hash)
+- [References](#references)
 
 ## General Concepts
 
@@ -184,7 +215,7 @@ At the beginning of an object file, or immediately after the signature of an ima
 
  
 
-### Machine Types
+#### Machine Types
 
 The Machine field has one of the following values that specifies its CPU type. An image file can be run only on the specified machine or on a system that emulates the specified machine.
 
@@ -222,7 +253,7 @@ The Machine field has one of the following values that specifies its CPU type. A
 
  
 
-### Characteristics
+#### Characteristics
 
 The Characteristics field contains flags that indicate attributes of the object or image file. The following flags are currently defined:
 
@@ -288,7 +319,7 @@ The optional header itself has three major parts.
 
  
 
-### Optional Header Standard Fields (Image Only)
+#### Optional Header Standard Fields (Image Only)
 
 The first eight fields of the optional header are standard fields that are defined for every implementation of COFF. These fields contain general information that is useful for loading and running an executable file. They are unchanged for the PE32+ format.
 
@@ -321,7 +352,7 @@ PE32 contains this additional field, which is absent in PE32+, following BaseOfC
 
  
 
-### Optional Header Windows-Specific Fields (Image Only)
+#### Optional Header Windows-Specific Fields (Image Only)
 
 The next 21 fields are an extension to the COFF optional header format. They contain additional information that is required by the linker and loader in Windows.
 
@@ -355,7 +386,7 @@ The next 21 fields are an extension to the COFF optional header format. They con
 
  
 
-### Windows Subsystem
+##### Windows Subsystem
 
 The following values defined for the Subsystem field of the optional header determine which Windows subsystem (if any) is required to run the image.
 
@@ -382,7 +413,7 @@ The following values defined for the Subsystem field of the optional header dete
 
  
 
-### DLL Characteristics
+##### DLL Characteristics
 
 The following values are defined for the DllCharacteristics field of the optional header.
 
@@ -410,7 +441,7 @@ The following values are defined for the DllCharacteristics field of the optiona
 
  
 
-### Optional Header Data Directories (Image Only)
+#### Optional Header Data Directories (Image Only)
 
 Each data directory gives the address and size of a table or string that Windows uses. These data directory entries are all loaded into memory so that the system can use them at run time. A data directory is an 8-byte field that has the following declaration:
 
@@ -592,11 +623,11 @@ For each section in an object file, an array of fixed-length records holds the s
 
 If the symbol referred to by the SymbolTableIndex field has the storage class IMAGE\_SYM\_CLASS\_SECTION, the symbol's address is the beginning of the section. The section is usually in the same file, except when the object file is part of an archive (library). In that case, the section can be found in any other object file in the archive that has the same archive-member name as the current object file. (The relationship with the archive-member name is used in the linking of import tables, that is, the .idata section.)
 
-### Type Indicators
+#### Type Indicators
 
 The Type field of the relocation record indicates what kind of relocation should be performed. Different relocation types are defined for each type of machine.
 
-### x64 Processors
+##### x64 Processors
 
 The following relocation type indicators are defined for x64 and compatible processors.
 
@@ -626,7 +657,7 @@ The following relocation type indicators are defined for x64 and compatible proc
 
  
 
-### ARM Processors
+##### ARM Processors
 
 The following relocation type indicators are defined for ARM processors.
 
@@ -654,7 +685,7 @@ The following relocation type indicators are defined for ARM processors.
 
  
 
-### ARM64 Processors
+##### ARM64 Processors
 
 The following relocation type indicators are defined for ARM64 processors.
 
@@ -681,7 +712,7 @@ The following relocation type indicators are defined for ARM64 processors.
 | IMAGE\_REL\_ARM64\_BRANCH14 <br/>        | 0x0010 <br/> | The 14-bit offset to the relocation target, for instructions TBZ and TBNZ. <br/>                                                                        |
 | IMAGE\_REL\_ARM64\_REL32 <br/>           | 0x0011 <br/> | The 32-bit relative address from the byte following the relocation. <br/>                                                                               |
 
-### Hitachi SuperH Processors
+##### Hitachi SuperH Processors
 
 The following relocation type indicators are defined for SH3 and SH4 processors. SH5-specific relocations are noted as SHM (SH Media).
 
@@ -720,7 +751,7 @@ The following relocation type indicators are defined for SH3 and SH4 processors.
 
  
 
-### IBM PowerPC Processors
+##### IBM PowerPC Processors
 
 The following relocation type indicators are defined for PowerPC processors.
 
@@ -751,7 +782,7 @@ The following relocation type indicators are defined for PowerPC processors.
 
  
 
-### Intel 386 Processors
+##### Intel 386 Processors
 
 The following relocation type indicators are defined for Intel 386 and compatible processors.
 
@@ -775,7 +806,7 @@ The following relocation type indicators are defined for Intel 386 and compatibl
 
  
 
-### Intel Itanium Processor Family (IPF)
+##### Intel Itanium Processor Family (IPF)
 
 The following relocation type indicators are defined for the Intel Itanium processor family and compatible processors. Note that relocations on instructions use the bundle's offset and slot number for the relocation offset.
 
@@ -817,7 +848,7 @@ The following relocation type indicators are defined for the Intel Itanium proce
 
  
 
-### MIPS Processors
+##### MIPS Processors
 
 The following relocation type indicators are defined for MIPS processors.
 
@@ -845,7 +876,7 @@ The following relocation type indicators are defined for MIPS processors.
 
  
 
-### Mitsubishi M32R
+##### Mitsubishi M32R
 
 The following relocation type indicators are defined for the Mitsubishi M32R processors.
 
@@ -951,7 +982,7 @@ Zero or more auxiliary symbol-table records immediately follow each standard sym
 
 Tools that read COFF symbol tables must ignore auxiliary symbol records whose interpretation is unknown. This allows the symbol table format to be extended to add new auxiliary records, without breaking existing tools.
 
-### Symbol Name Representation
+#### Symbol Name Representation
 
 The ShortName field in a symbol table consists of 8 bytes that contain the name itself, if it is not more than 8 bytes long, or the ShortName field gives an offset into the string table. To determine whether the name itself or an offset is given, test the first 4 bytes for equality to zero.
 
@@ -969,7 +1000,7 @@ By convention, the names are treated as zero-terminated UTF-8 encoded strings.
 
  
 
-### Section Number Values
+#### Section Number Values
 
 Normally, the Section Value field in a symbol table entry is a one-based index into the section table. However, this field is a signed integer and can take negative values. The following values, less than one, have special meanings.
 
@@ -985,7 +1016,7 @@ Normally, the Section Value field in a symbol table entry is a one-based index i
 
  
 
-### Type Representation
+#### Type Representation
 
 The Type field of a symbol table entry contains 2 bytes, where each byte represents type information. The LSB represents the simple (base) data type, and the MSB represents the complex type, if any:
 
@@ -1043,7 +1074,7 @@ It is very important to specify the function attribute correctly. This informati
 
  
 
-### Storage Class
+#### Storage Class
 
 The StorageClass field of the symbol table indicates what kind of definition a symbol represents. The following table shows possible values. Note that the StorageClass field is an unsigned 1-byte integer. The special value -1 should therefore be taken to mean its unsigned equivalent, 0xFF.
 
@@ -1091,7 +1122,7 @@ Auxiliary symbol table records always follow, and apply to, some standard symbol
 
 The traditional COFF design also includes auxiliary-record formats for arrays and structures. Microsoft tools do not use these, but instead place that symbolic information in Visual C++ debug format in the debug sections.
 
-### Auxiliary Format 1: Function Definitions
+#### Auxiliary Format 1: Function Definitions
 
 A symbol table record marks the beginning of a function definition if it has all of the following: a storage class of EXTERNAL (2), a Type value that indicates it is a function (0x20), and a section number that is greater than zero. Note that a symbol table record that has a section number of UNDEFINED (0) does not define the function and does not have an auxiliary record. Function-definition symbol records are followed by an auxiliary record in the format described below:
 
@@ -1109,7 +1140,7 @@ A symbol table record marks the beginning of a function definition if it has all
 
  
 
-### Auxiliary Format 2: .bf and .ef Symbols
+#### Auxiliary Format 2: .bf and .ef Symbols
 
 For each function definition in the symbol table, three items describe the beginning, ending, and number of lines. Each of these symbols has storage class FUNCTION (101):
 
@@ -1135,7 +1166,7 @@ The .bf and .ef symbol records (but not .lf records) are followed by an auxiliar
 
  
 
-### Auxiliary Format 3: Weak Externals
+#### Auxiliary Format 3: Weak Externals
 
 "Weak externals" are a mechanism for object files that allows flexibility at link time. A module can contain an unresolved external symbol (sym1), but it can also include an auxiliary record that indicates that if sym1 is not present at link time, another external symbol (sym2) is used to resolve references instead.
 
@@ -1157,7 +1188,7 @@ Weak externals are represented by a symbol table record with EXTERNAL storage cl
 
 Note that the Characteristics field is not defined in WINNT.H; instead, the Total Size field is used.
 
-### Auxiliary Format 4: Files
+#### Auxiliary Format 4: Files
 
 This format follows a symbol-table record with storage class FILE (103). The symbol name itself should be .file, and the auxiliary record that follows it gives the name of a source-code file.
 
@@ -1171,7 +1202,7 @@ This format follows a symbol-table record with storage class FILE (103). The sym
 
  
 
-### Auxiliary Format 5: Section Definitions
+#### Auxiliary Format 5: Section Definitions
 
 This format follows a symbol-table record that defines a section. Such a record has a symbol name that is the name of a section (such as .text or .drectve) and has storage class STATIC (3). The auxiliary record provides information about the section to which it refers. Thus, it duplicates some of the information in the section header.
 
@@ -1191,7 +1222,7 @@ This format follows a symbol-table record that defines a section. Such a record 
 
  
 
-### COMDAT Sections (Object Only)
+#### COMDAT Sections (Object Only)
 
 The Selection field of the section definition auxiliary format is applicable if the section is a COMDAT section. A COMDAT section is a section that can be defined by more than one object file. (The flag IMAGE\_SCN\_LNK\_COMDAT is set in the Section Flags field of the section header.) The Selection field determines the way in which the linker resolves the multiple definitions of COMDAT sections.
 
@@ -1214,7 +1245,7 @@ The values for the Selection field are shown below.
 
  
 
-### CLR Token Definition (Object Only)
+#### CLR Token Definition (Object Only)
 
 This auxiliary symbol generally follows the IMAGE\_SYM\_CLASS\_CLR\_TOKEN. It is used to associate a token with the COFF symbol table's namespace.
 
@@ -1323,7 +1354,7 @@ The **Certificate Table size**-specified in the **Certificates Table** entry in 
 
 For more information on using the ImageHlp API to enumerate, add, and remove certificates from PE Files, see [ImageHlp Functions](imagehlp-functions.md).
 
-### Certificate Data
+#### Certificate Data
 
 As stated in the preceding section, the certificates in the attribute certificate table can contain any certificate type. Certificates that ensure a PE file's integrity may include a PE image hash.
 
@@ -1337,7 +1368,7 @@ The Win32 **ImageGetDigestStream** function provides a data stream from a target
 
 These tables were added to the image to support a uniform mechanism for applications to delay the loading of a DLL until the first call into that DLL. The layout of the tables matches that of the traditional import tables that are described in section 6.4, "The **.idata** Section." Only a few details are discussed here.
 
-### The Delay-Load Directory Table
+#### The Delay-Load Directory Table
 
 The delay-load directory table is the counterpart to the import directory table. It can be retrieved through the Delay Import Descriptor entry in the optional header data directories list (offset 200). The table is arranged as follows:
 
@@ -1360,31 +1391,31 @@ The delay-load directory table is the counterpart to the import directory table.
 
 The tables that are referenced in this data structure are organized and sorted just as their counterparts are for traditional imports. For details, see [The .idata Section](https://docs.microsoft.com/windows).
 
-### Attributes
+#### Attributes
 
 As yet, no attribute flags are defined. The linker sets this field to zero in the image. This field can be used to extend the record by indicating the presence of new fields, or it can be used to indicate behaviors to the delay or unload helper functions.
 
-### Name
+#### Name
 
 The name of the DLL to be delay-loaded resides in the read-only data section of the image. It is referenced through the szName field.
 
-### Module Handle
+#### Module Handle
 
 The handle of the DLL to be delay-loaded is in the data section of the image. The phmod field points to the handle. The supplied delay-load helper uses this location to store the handle to the loaded DLL.
 
-### Delay Import Address Table
+#### Delay Import Address Table
 
 The delay import address table (IAT) is referenced by the delay import descriptor through the pIAT field. The delay-load helper updates these pointers with the real entry points so that the thunks are no longer in the calling loop. The function pointers are accessed by using the expression `pINT->u1.Function`.
 
-### Delay Import Name Table
+#### Delay Import Name Table
 
 The delay import name table (INT) contains the names of the imports that might require loading. They are ordered in the same fashion as the function pointers in the IAT. They consist of the same structures as the standard INT and are accessed by using the expression `pINT->u1.AddressOfData->Name[0]`.
 
-Delay Bound Import Address Table and Time Stamp
+#### Delay Bound Import Address Table and Time Stamp
 
 The delay bound import address table (BIAT) is an optional table of IMAGE\_THUNK\_DATA items that is used along with the timestamp field of the delay-load directory table by a post-process binding phase.
 
-### Delay Unload Import Address Table
+#### Delay Unload Import Address Table
 
 The delay unload import address table (UIAT) is an optional table of IMAGE\_THUNK\_DATA items that the unload code uses to handle an explicit unload request. It consists of initialized data in the read-only section that is an exact copy of the original IAT that referred the code to the delay-load thunks. On the unload request, the library can be freed, the \*phmod cleared, and the UIAT written over the IAT to restore everything to its preload state.
 
@@ -1439,7 +1470,7 @@ The next section describes the format of the debug directory, which can be anywh
 
 The default for the linker is that debug information is not mapped into the address space of the image. A .debug section exists only when debug information is mapped in the address space.
 
-### Debug Directory (Image Only)
+#### Debug Directory (Image Only)
 
 Image files contain an optional debug directory that indicates what form of debug information is present and where it is. This directory consists of an array of debug directory entries whose location and size are indicated in the image optional header.
 
@@ -1466,7 +1497,7 @@ A debug directory entry has the following format:
 
  
 
-### Debug Type
+#### Debug Type
 
 The following values are defined for the Type field of the debug directory entry:
 
@@ -1487,6 +1518,7 @@ The following values are defined for the Type field of the debug directory entry
 | IMAGE\_DEBUG\_TYPE\_RESERVED10 <br/>      | 10 <br/> | Reserved. <br/>                                                                                                                                                                                            |
 | IMAGE\_DEBUG\_TYPE\_CLSID <br/>           | 11 <br/> | Reserved. <br/>                                                                                                                                                                                            |
 | IMAGE\_DEBUG\_TYPE\_REPRO <br/>           | 16 <br/> | PE determinism or reproducibility. <br/>                                                                                                                                                                   |
+| IMAGE\_DEBUG\_TYPE\_EX\_DLLCHARACTERISTICS | 20 | Extended DLL characteristics bits. |
 
 
 
@@ -1518,7 +1550,17 @@ typedef struct _FPO_DATA {
 
 The presence of an entry of type IMAGE\_DEBUG\_TYPE\_REPRO indicates the PE file is built in a way to achieve determinism or reproducibility. If the input does not change, the output PE file is guaranteed to be bit-for-bit identical no matter when or where the PE is produced. Various date/time stamp fields in the PE file are filled with part or all the bits from a calculated hash value that uses PE file content as input, and therefore no longer represent the actual date and time when a PE file or related specific data within the PE is produced. The raw data of this debug entry may be empty, or may contain a calculated hash value preceded by a four-byte value that represents the hash value length.
 
-### .debug$F (Object Only)
+If the Type field is set to IMAGE\_DEBUG\_TYPE\_EX\_DLLCHARACTERISTICS, the debug raw data contains extended DLL characteristics bits, in additional to those that could be set in image’s optional header. See [DLL Characteristics](#dll-characteristics) in section [Optional Header Windows-Specific Fields (Image Only)](#optional-header-windows-specific-fields-image-only).
+
+##### Extended DLL Characteristics
+
+The following values are defined for the extended DLL characteristics bits.
+
+| Constant | Value | Description |
+|-|-|-|
+| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is CET compatible. |
+
+#### .debug$F (Object Only)
 
 The data in this section has been superseded in Visual C++ version 7.0 and later by a more extensive set of data that is emitted into a **.debug$S** subsection.
 
@@ -1528,19 +1570,19 @@ The linker recognizes these **.debug$F** records. If debug information is being 
 
 The compiler should not generate FPO records for procedures that have a standard frame format.
 
-### .debug$S (Object Only)
+#### .debug$S (Object Only)
 
 This section contains Visual C++ debug information (symbolic information).
 
-### .debug$P (Object Only)
+#### .debug$P (Object Only)
 
 This section contains Visual C++ debug information (precompiled information). These are shared types among all of the objects that were compiled by using the precompiled header that was generated with this object.
 
-### .debug$T (Object Only)
+#### .debug$T (Object Only)
 
 This section contains Visual C++ debug information (type information).
 
-### Linker Support for Microsoft Debug Information
+#### Linker Support for Microsoft Debug Information
 
 To support debug information, the linker:
 
@@ -1548,13 +1590,13 @@ To support debug information, the linker:
 
 -   Processes that data along with the linker-generated debugging information into the PDB file, and creates a debug directory entry to refer to it.
 
-## The .drectve Section (Object Only)
+### The .drectve Section (Object Only)
 
 A section is a directive section if it has the IMAGE\_SCN\_LNK\_INFO flag set in the section header and has the **.drectve** section name. The linker removes a **.drectve** section after processing the information, so the section does not appear in the image file that is being linked.
 
 A **.drectve** section consists of a string of text that can be encoded as ANSI or UTF-8. If the UTF-8 byte order marker (BOM, a three-byte prefix that consists of 0xEF, 0xBB, and 0xBF) is not present, the directive string is interpreted as ANSI. The directive string is a series of linker options that are separated by spaces. Each option contains a hyphen, the option name, and any appropriate attribute. If an option contains spaces, the option must be enclosed in quotes. The **.drectve** section must not have relocations or line numbers.
 
-## The .edata Section (Image Only)
+### The .edata Section (Image Only)
 
 The export data section, named .edata, contains information about symbols that other images can access through dynamic linking. Exported symbols are generally found in DLLs, but DLLs can also import symbols.
 
@@ -1578,7 +1620,7 @@ When another image file imports a symbol by name, the Win32 loader searches the 
 
 When another image file imports a symbol by ordinal, it is unnecessary to search the name pointer table for a matching string. Direct use of an ordinal is therefore more efficient. However, an export name is easier to remember and does not require the user to know the table index for the symbol.
 
-### Export Directory Table
+#### Export Directory Table
 
 The export symbol information begins with the export directory table, which describes the remainder of the export symbol information. The export directory table contains address information that is used to resolve imports to the entry points within this image.
 
@@ -1602,7 +1644,7 @@ The export symbol information begins with the export directory table, which desc
 
  
 
-### Export Address Table
+#### Export Address Table
 
 The export address table contains the address of exported entry points and exported data and absolutes. An ordinal number is used as an index into the export address table.
 
@@ -1623,13 +1665,13 @@ A forwarder RVA exports a definition from some other image, making it appear as 
 
 For example, in Kernel32.dll in Windows XP, the export named "HeapAlloc" is forwarded to the string "NTDLL.RtlAllocateHeap." This allows applications to use the Windows XP-specific module Ntdll.dll without actually containing import references to it. The application's import table refers only to Kernel32.dll. Therefore, the application is not specific to Windows XP and can run on any Win32 system.
 
-### Export Name Pointer Table
+#### Export Name Pointer Table
 
 The export name pointer table is an array of addresses (RVAs) into the export name table. The pointers are 32 bits each and are relative to the image base. The pointers are ordered lexically to allow binary searches.
 
 An export name is defined only if the export name pointer table contains a pointer to it.
 
-### Export Ordinal Table
+#### Export Ordinal Table
 
 The export ordinal table is an array of 16-bit indexes into the export address table. The ordinals are biased by the Ordinal Base field of the export directory table. In other words, the ordinal base must be subtracted from the ordinals to obtain true indexes into the export address table.
 
@@ -1646,7 +1688,7 @@ SymbolRVA = ExportAddressTable [ordinal - OrdinalBase];
 
 
 
-### Export Name Table
+#### Export Name Table
 
 The export name table contains the actual string data that was pointed to by the export name pointer table. The strings in this table are public names that other images can use to import the symbols. These public export names are not necessarily the same as the private symbol names that the symbols have in their own image file and source code, although they can be.
 
@@ -1654,7 +1696,7 @@ Every exported symbol has an ordinal value, which is just the index into the exp
 
 The structure of the export name table is a series of null-terminated ASCII strings of variable length.
 
-## The .idata Section
+### The .idata Section
 
 All image files that import symbols, including virtually all executable (EXE) files, have an .idata section. A typical file layout for the import information follows:
 
@@ -1676,7 +1718,7 @@ All image files that import symbols, including virtually all executable (EXE) fi
 
 -   Hint-Name Table
 
-### Import Directory Table
+#### Import Directory Table
 
 The import information begins with the import directory table, which describes the remainder of the import information. The import directory table contains address information that is used to resolve fixup references to the entry points within a DLL image. The import directory table consists of an array of import directory entries, one entry for each DLL to which the image refers. The last directory entry is empty (filled with null values), which indicates the end of the directory table.
 
@@ -1696,7 +1738,7 @@ Each import directory entry has the following format:
 
  
 
-### Import Lookup Table
+#### Import Lookup Table
 
 An import lookup table is an array of 32-bit numbers for PE32 or an array of 64-bit numbers for PE32+. Each entry uses the bit-field format that is described in the following table. In this format, bit 31 is the most significant bit for PE32 and bit 63 is the most significant bit for PE32+. The collection of these entries describes all imports from a given DLL. The last entry is set to zero (NULL) to indicate the end of the table.
 
@@ -1712,7 +1754,7 @@ An import lookup table is an array of 32-bit numbers for PE32 or an array of 64-
 
  
 
-### Hint/Name Table
+#### Hint/Name Table
 
 One hint/name table suffices for the entire import section. Each entry in the hint/name table has the following format:
 
@@ -1728,11 +1770,11 @@ One hint/name table suffices for the entire import section. Each entry in the hi
 
  
 
-### Import Address Table
+#### Import Address Table
 
 The structure and content of the import address table are identical to those of the import lookup table, until the file is bound. During binding, the entries in the import address table are overwritten with the 32-bit (for PE32) or 64-bit (for PE32+) addresses of the symbols that are being imported. These addresses are the actual memory addresses of the symbols, although technically they are still called "virtual addresses." The loader typically processes the binding.
 
-## The .pdata Section
+### The .pdata Section
 
 The .pdata section contains an array of function table entries that are used for exception handling. It is pointed to by the exception table entry in the image data directory. The entries must be sorted according to the function addresses (the first field in each structure) before being emitted into the final image. The target platform determines which of the three function table entry format variations described below is used.
 
@@ -1782,13 +1824,13 @@ For x64 and Itanium platforms, function table entries have the following format:
 
  
 
-## The .reloc Section (Image Only)
+### The .reloc Section (Image Only)
 
 The base relocation table contains entries for all base relocations in the image. The Base Relocation Table field in the optional header data directories gives the number of bytes in the base relocation table. For more information, see [Optional Header Data Directories (Image Only)](#optional-header-data-directories-image-only). The base relocation table is divided into blocks. Each block represents the base relocations for a 4K page. Each block must start on a 32-bit boundary.
 
 The loader is not required to process base relocations that are resolved by the linker, unless the load image cannot be loaded at the image base that is specified in the PE header.
 
-### Base Relocation Block
+#### Base Relocation Block
 
 Each base relocation block starts with the following structure:
 
@@ -1818,7 +1860,7 @@ The Block Size field is then followed by any number of Type or Offset field entr
 
 To apply a base relocation, the difference is calculated between the preferred base address and the base where the image is actually loaded. If the image is loaded at its preferred base, the difference is zero and thus the base relocations do not have to be applied.
 
-### Base Relocation Types
+#### Base Relocation Types
 
 
 
@@ -1843,7 +1885,7 @@ To apply a base relocation, the difference is calculated between the preferred b
 
  
 
-## The .tls Section
+### The .tls Section
 
 The .tls section provides direct PE and COFF support for static thread local storage (TLS). TLS is a special storage class that Windows supports in which a data object is not an automatic (stack) variable, yet is local to each individual thread that runs the code. Thus, each thread can maintain a different value for a variable declared by using TLS.
 
@@ -1877,7 +1919,7 @@ Executable code accesses a static TLS data object through the following steps:
 
 The TLS array is an array of addresses that the system maintains for each thread. Each address in this array gives the location of TLS data for a given module (EXE or DLL) within the program. The TLS index indicates which member of the array to use. The index is a number (meaningful only to the system) that identifies the module.
 
-### The TLS Directory
+#### The TLS Directory
 
 The TLS directory has the following format:
 
@@ -1896,7 +1938,7 @@ The TLS directory has the following format:
 
  
 
-### TLS Callback Functions
+#### TLS Callback Functions
 
 The program can provide one or more TLS callback functions to support additional initialization and termination for TLS data objects. A typical use for such a callback function would be to call constructors and destructors for objects.
 
@@ -1931,17 +1973,17 @@ The Reserved parameter should be set to zero. The Reason parameter can take the 
 
  
 
-## The Load Configuration Structure (Image Only)
+### The Load Configuration Structure (Image Only)
 
 The load configuration structure (IMAGE\_LOAD\_CONFIG\_DIRECTORY) was formerly used in very limited cases in the Windows NT operating system itself to describe various features too difficult or too large to describe in the file header or optional header of the image. Current versions of the Microsoft linker and Windows XP and later versions of Windows use a new version of this structure for 32-bit x86-based systems that include reserved SEH technology. This provides a list of safe structured exception handlers that the operating system uses during exception dispatching. If the handler address resides in an image's VA range and is marked as reserved SEH-aware (that is, IMAGE\_DLLCHARACTERISTICS\_NO\_SEH is clear in the DllCharacteristics field of the optional header, as described earlier), then the handler must be in the list of known safe handlers for that image. Otherwise, the operating system terminates the application. This helps prevent the "x86 exception handler hijacking" exploit that has been used in the past to take control of the operating system.
 
 The Microsoft linker automatically provides a default load configuration structure to include the reserved SEH data. If the user code already provides a load configuration structure, it must include the new reserved SEH fields. Otherwise, the linker cannot include the reserved SEH data and the image is not marked as containing reserved SEH.
 
-### Load Configuration Directory
+#### Load Configuration Directory
 
 The data directory entry for a pre-reserved SEH load configuration structure must specify a particular size of the load configuration structure because the operating system loader always expects it to be a certain value. In that regard, the size is really only a version check. For compatibility with Windows XP and earlier versions of Windows, the size must be 64 for x86 images.
 
-### Load Configuration Layout
+#### Load Configuration Layout
 
 The load configuration structure has the following layout for 32-bit and 64-bit PE files:
 
@@ -2030,7 +2072,7 @@ Additionally, the Windows SDK winnt.h header defines this macro for the amount o
 
 ` #define IMAGE_GUARD_CF_FUNCTION_TABLE_SIZE_SHIFT  28`
 
-## The .rsrc Section
+### The .rsrc Section
 
 Resources are indexed by a multiple-level binary-sorted tree structure. The general design can incorporate 2\*\*31 levels. By convention, however, Windows uses three levels:
 
@@ -2058,7 +2100,7 @@ The general structure of the .rsrc section is:
 
  
 
-## Resource Directory Table
+#### Resource Directory Table
 
 Each resource directory table has the following format. This data structure should be considered the heading of a table because the table actually consists of directory entries (described in section 6.9.2, "Resource Directory Entries") and this structure:
 
@@ -2077,7 +2119,7 @@ Each resource directory table has the following format. This data structure shou
 
  
 
-### Resource Directory Entries
+#### Resource Directory Entries
 
 The directory entries make up the rows of a table. Each resource directory entry has the following format. Whether the entry is a Name or ID entry is indicated by the resource directory table, which indicates how many Name and ID entries follow it (remember that all the Name entries precede all the ID entries for the table). All entries for the table are sorted in ascending order: the Name entries by case-sensitive string and the ID entries by numeric value. Offsets are relative to the address in the IMAGE\_DIRECTORY\_ENTRY\_RESOURCE DataDirectory.
 
@@ -2094,7 +2136,7 @@ The directory entries make up the rows of a table. Each resource directory entry
 
  
 
-### Resource Directory String
+#### Resource Directory String
 
 The resource directory string area consists of Unicode strings, which are word-aligned. These strings are stored together after the last Resource Directory entry and before the first Resource Data entry. This minimizes the impact of these variable-length strings on the alignment of the fixed-size directory entries. Each resource directory string has the following format:
 
@@ -2109,7 +2151,7 @@ The resource directory string area consists of Unicode strings, which are word-a
 
  
 
-### Resource Data Entry
+#### Resource Data Entry
 
 Each Resource Data entry describes an actual unit of raw data in the Resource Data area. A Resource Data entry has the following format:
 
@@ -2126,11 +2168,11 @@ Each Resource Data entry describes an actual unit of raw data in the Resource Da
 
  
 
-## The .cormeta Section (Object Only)
+### The .cormeta Section (Object Only)
 
 CLR metadata is stored in this section. It is used to indicate that the object file contains managed code. The format of the metadata is not documented, but can be handed to the CLR interfaces for handling metadata.
 
-## The .sxdata Section
+### The .sxdata Section
 
 The valid exception handlers of an object are listed in the **.sxdata** section of that object. The section is marked IMAGE\_SCN\_LNK\_INFO. It contains the COFF symbol index of each valid handler, using 4 bytes per index.
 
@@ -2178,7 +2220,7 @@ An archive member header precedes each member. The following list shows the gene
     (COFF format)  
     </dl>
 
-## Archive File Signature
+### Archive File Signature
 
 The archive file signature identifies the file type. Any utility (for example, a linker) that takes an archive file as input can check the file type by reading this signature. The signature consists of the following ASCII characters, in which each character below is represented literally, except for the newline (\\n) character:
 
@@ -2323,19 +2365,26 @@ This structure is followed by two null-terminated strings that describe the impo
 
 The following values are defined for the Type field in the import header:
 
-
-
 | Constant                  | Value         | Description                                      |
 |---------------------------|---------------|--------------------------------------------------|
 | IMPORT\_CODE <br/>  | 0 <br/> | Executable code. <br/>                     |
 | IMPORT\_DATA <br/>  | 1 <br/> | Data. <br/>                                |
 | IMPORT\_CONST <br/> | 2 <br/> | Specified as CONST in the .def file. <br/> |
 
-
-
- 
-
 These values are used to determine which section contributions must be generated by the tool that uses the library if it must access that data.
+
+### Import Name Type
+
+The null-terminated import symbol name immediately follows its associated import header. The following values are defined for the Name Type field in the import header. They indicate how the name is to be used to generate the correct symbols that represent the import:
+
+| Constant | Value | Description |
+| - | - | - |
+| IMPORT\_ORDINAL | 0 | The import is by ordinal. This indicates that the value in the Ordinal/Hint field of the import header is the import's ordinal. If this constant is not specified, then the Ordinal/Hint field should always be interpreted as the import's hint. |
+| IMPORT\_NAME | 1 | The import name is identical to the public symbol name. |
+| IMPORT\_NAME\_NOPREFIX | 2 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_. |
+| IMPORT\_NAME\_UNDECORATE | 3 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_, and truncating at the first @. |
+
+
 
 ## Appendix A: Calculating Authenticode PE Image Hash
 
@@ -2347,25 +2396,6 @@ The Authenticode PE image hash, or file hash for short, is similar to a file che
 
 In an Authenticode signature, the file hash is digitally signed by using a private key known only to the signer of the file. A software consumer can verify the integrity of the file by calculating the hash value of the file and comparing it to the value of signed hash contained in the Authenticode digital signature. If the file hashes do not match, part of the file covered by the PE image hash has been modified.
 
-### Import Name Type
-
-The null-terminated import symbol name immediately follows its associated import header. The following values are defined for the Name Type field in the import header. They indicate how the name is to be used to generate the correct symbols that represent the import:
-
-
-
-| Constant                             | Value         | Description                                                                                                                                                                                                                                                   |
-|--------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| IMPORT\_ORDINAL <br/>          | 0 <br/> | The import is by ordinal. This indicates that the value in the Ordinal/Hint field of the import header is the import's ordinal. If this constant is not specified, then the Ordinal/Hint field should always be interpreted as the import's hint. <br/> |
-| IMPORT\_NAME <br/>             | 1 <br/> | The import name is identical to the public symbol name. <br/>                                                                                                                                                                                           |
-| IMPORT\_NAME\_NOPREFIX <br/>   | 2 <br/> | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_. <br/>                                                                                                                                                       |
-| IMPORT\_NAME\_UNDECORATE <br/> | 3 <br/> | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_, and truncating at the first @. <br/>                                                                                                                        |
-
-
-
- 
-
-Several attribute certificates are expected to be used to verify the integrity of the images. However, the most common is Authenticode signature. An Authenticode signature can be used to verify that the relevant sections of a PE image file have not been altered in any way from the file's original form. To accomplish this task, Authenticode signatures contain something called a PE image hash.
-
 ### A.2 What is Covered in an Authenticode PE Image Hash?
 
 It is not possible or desirable to include all image file data in the calculation of the PE image hash. Sometimes it simply presents undesirable characteristics (for example, debugging information cannot be removed from publicly released files); sometimes it is simply impossible. For example, it is not possible to include all information within an image file in an Authenticode signature, then insert the Authenticode signature that contains that PE image hash into the PE image, and later be able to generate an identical PE image hash by including all image file data in the calculation again, because the file now contains the Authenticode signature that was not originally there.
@@ -2374,42 +2404,34 @@ This appendix illustrates how a PE image hash is calculated and what parts of th
 
 It is worth noting that the PE image hash for a specific file can be included in a separate catalog file without including an attribute certificate within the hashed file. This is relevant, because it becomes possible to invalidate the PE image hash in an Authenticode-signed catalog file by modifying a PE image that does not actually contain an Authenticode signature.
 
-### Process for Generating the Authenticode PE Image Hash
+#### Process for Generating the Authenticode PE Image Hash
 
 All data in sections of the PE image that are specified in the section table are hashed in their entirety except for the following exclusion ranges:
 
--   **The file CheckSum field of the Windows-specific fields of the optional header.** This checksum includes the entire file (including any attribute certificates in the file). In all likelihood, the checksum will be different than the original value after inserting the Authenticode signature.
+- **The file CheckSum field of the Windows-specific fields of the optional header.** This checksum includes the entire file (including any attribute certificates in the file). In all likelihood, the checksum will be different than the original value after inserting the Authenticode signature.
 
-    Information related to attribute certificates. The areas of the PE image that are related to the Authenticode signature are not included in the calculation of the PE image hash because Authenticode signatures can be added to or removed from an image without affecting the overall integrity of the image. This is not a problem, because there are user scenarios that depend on re-signing PE images or adding a time stamp. Authenticode excludes the following information from the hash calculation:
+- **Information related to attribute certificates**. The areas of the PE image that are related to the Authenticode signature are not included in the calculation of the PE image hash because Authenticode signatures can be added to or removed from an image without affecting the overall integrity of the image. This is not a problem, because there are user scenarios that depend on re-signing PE images or adding a time stamp. Authenticode excludes the following information from the hash calculation:
 
-    -   The Certificate Table field of the optional header data directories.
+  - The Certificate Table field of the optional header data directories.
 
-    -   The Certificate Table and corresponding certificates that are pointed to by the Certificate Table field listed immediately above.
+  - The Certificate Table and corresponding certificates that are pointed to by the Certificate Table field listed immediately above.
 
-    To calculate the PE image hash, Authenticode orders the sections that are specified in the section table by address range, then hashes the resulting sequence of bytes, passing over the exclusion ranges.
+  To calculate the PE image hash, Authenticode orders the sections that are specified in the section table by address range, then hashes the resulting sequence of bytes, passing over the exclusion ranges.
 
--   **Information past of the end of the last section.** The area past the last section (defined by highest offset) is not hashed. This area commonly contains debug information. Debug information can generally be considered advisory to debuggers; it does not affect the actual integrity of the executable program. It is quite literally possible to remove debug information from an image after a product has been delivered and not affect the functionality of the program. In fact, this is sometimes done as a disk-saving measure. It is worth noting that debug information contained within the specified sections of the PE Image cannot be removed without invaliding the Authenticode signature.
+- **Information past of the end of the last section.** The area past the last section (defined by highest offset) is not hashed. This area commonly contains debug information. Debug information can generally be considered advisory to debuggers; it does not affect the actual integrity of the executable program. It is quite literally possible to remove debug information from an image after a product has been delivered and not affect the functionality of the program. In fact, this is sometimes done as a disk-saving measure. It is worth noting that debug information contained within the specified sections of the PE Image cannot be removed without invaliding the Authenticode signature.
 
-    You can use the makecert and signtool tools provided in the Windows Platform SDK to experiment with creating and verifying Authenticode signatures. For more information, see Reference, below.
+You can use the makecert and signtool tools provided in the Windows Platform SDK to experiment with creating and verifying Authenticode signatures. For more information, see Reference, below.
 
 ## References
 
-Downloads and tools for Windows (includes the Windows SDK): <https://developer.microsoft.com/en-us/windows/downloads>
+[Downloads and tools for Windows (includes the Windows SDK)](https://developer.microsoft.com/windows/downloads)
 
-Creating, Viewing, and Managing Certificates: <https://msdn.microsoft.com/en-us/library/aa379872.aspx>
+[Creating, Viewing, and Managing Certificates](/windows/desktop/SecCrypto/creating-viewing-and-managing-certificates)
 
-Kernel-Mode Code Signing Walkthrough: <https://www.microsoft.com/whdc/winlogo/drvsign/kmcs_walkthrough.mspx>
+[Kernel-Mode Code Signing Walkthrough (.doc)](https://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/KMCS_Walkthrough.doc)
 
-SignTool: <https://msdn.microsoft.com/en-us/library/aa387764.aspx>
+[SignTool](/windows/desktop/SecCrypto/signtool)
 
-Windows Authenticode Portable Executable Signature Format: <https://www.microsoft.com/whdc/winlogo/drvsign/Authenticode_PE.mspx>
+[Windows Authenticode Portable Executable Signature Format (.docx)](https://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Authenticode_PE.docx)
 
-ImageHlp Functions: <https://msdn.microsoft.com/en-us/library/ms680181.aspx>
-
- 
-
- 
-
-
-
-
+[ImageHlp Functions](/windows/desktop/Debug/imagehlp-functions)
