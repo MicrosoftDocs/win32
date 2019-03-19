@@ -8,7 +8,9 @@ ms.date: 05/31/2018
 
 # KNOWNFOLDERID
 
-The **KNOWNFOLDERID** constants represent GUIDs that identify standard folders registered with the system as [Known Folders](known-folders.md). These folders are installed with Windows Vista and later operating systems, and a computer will have only folders appropriate to it installed. For descriptions of these folders, see [**CSIDL**](csidl.md).
+The **KNOWNFOLDERID** constants represent GUIDs that identify standard folders registered with the system as [Known Folders](known-folders.md). 
+These folders are installed with Windows Vista and later operating systems, and a computer will have only folders appropriate to it installed. 
+For descriptions of these folders, see [**CSIDL**](csidl.md).
 
 
 
@@ -4770,396 +4772,89 @@ This FOLDERID is deprecated in Windows 10, version 1803 and later versions. In 
 
 ## Remarks
 
-The interpretation of certain **KNOWNFOLDERID** values depends on whether the folder is part of a 32-bit or 64-bit application and whether that application is running on a 32-bit or 64-bit operating system. If your application needs to distinguish between, for example, **Program Files** and **Program Files (x86)**, you must use the right **KNOWNFOLDERID** for the situation.
+The interpretation of certain **KNOWNFOLDERID** values depends on whether the folder is part of a 32-bit or 64-bit application and whether that application is running on a 32-bit or 64-bit operating system. 
+If your application needs to distinguish between, for example, **Program Files** and **Program Files (x86)**, you must use the right **KNOWNFOLDERID** for the situation.
 
 The following tables summarize the **KNOWNFOLDERID** use in those cases.
 
 
+**FOLDERID\_ProgramFiles** 
+
+| Operating System | Application | KNOWNFOLDERID | Default Path | CSIDL Equivalent |
+|------------------|-------------|---------------|--------------|------------------|  
+| 32 bit | 32 bit | FOLDERID\_ProgramFiles | %SystemDrive%\\Program Files | CSIDL\_PROGRAM\_FILES |
+| 32 bit | 32 bit | FOLDERID\_ProgramFilesX86 | %SystemDrive%\\Program Files | CSIDL\_PROGRAM\_FILESX86 |
+| 32 bit | 32 bit | FOLDERID\_ProgramFilesX64 (not supported under 32-bit operating systems) | Not applicable | Not applicable |
+| 64 bit | 64 bit | FOLDERID\_ProgramFiles | %SystemDrive%\\Program Files | CSIDL\_PROGRAM\_FILES |
+| 64 bit | 64 bit | FOLDERID\_ProgramFilesX86 | %SystemDrive%\\Program Files (x86) | CSIDL\_PROGRAM\_FILESX86 |
+| 64 bit | 64 bit | FOLDERID\_ProgramFilesX64 | %SystemDrive%\\Program Files | None |
+| 64 bit | 32 bit | FOLDERID\_ProgramFiles | %SystemDrive%\\Program Files (x86) | CSIDL\_PROGRAM\_FILES |
+| 64 bit | 32 bit | FOLDERID\_ProgramFilesX86 | %SystemDrive%\\Program Files (x86) | CSIDL\_PROGRAM\_FILESX86 |
+| 64 bit | 32 bit | FOLDERID\_ProgramFilesX64 (not supported for 32-bit applications) | Not applicable | Not applicable |
+
+
+**FOLDERID\_ProgramFilesCommon**
+
+| Operating System | Application | KNOWNFOLDERID | Default Path | CSIDL Equivalent |
+|------------------|-------------|---------------|--------------|------------------|  
+| 32 bit | 32 bit | FOLDERID\_ProgramFilesCommon | %ProgramFiles%\\Common Files | CSIDL\_PROGRAM\_FILES\_COMMON |
+| 32 bit | 32 bit | FOLDERID\_ProgramFilesCommonX86 | %ProgramFiles%\\Common Files | CSIDL\_PROGRAM\_FILES\_COMMONX86 |
+| 32 bit | 32 bit | FOLDERID\_ProgramFilesCommonX64 (undefined) | Not applicable | Not applicable |
+| 64 bit | 64 bit | FOLDERID\_ProgramFilesCommon | %ProgramFiles%\\Common Files | CSIDL\_PROGRAM\_FILES\_COMMON |
+| 64 bit | 64 bit | FOLDERID\_ProgramFilesCommonX86 | %ProgramFiles(x86)%\\Common Files | CSIDL\_PROGRAM\_FILES\_COMMONX86 |
+| 64 bit | 64 bit | FOLDERID\_ProgramFilesCommonX64 | %ProgramFiles%\\Common Files | None |
+| 64 bit | 32 bit | FOLDERID\_ProgramFilesCommon | %ProgramFiles(x86)%\\Common Files | CSIDL\_PROGRAM\_FILES\_COMMON |
+| 64 bit | 32 bit | FOLDERID\_ProgramFilesCommonX86 | %ProgramFiles(x86)%\\Common Files | CSIDL\_PROGRAM\_FILES\_COMMONX86 |
+| 64 bit | 32 bit | FOLDERID\_ProgramFilesCommonX64 | %ProgramFiles%\\Common Files | None |
+
+
+**FOLDERID\_System**
+
+| Operating System | Application | KNOWNFOLDERID | Default Path | CSIDL Equivalent |
+|------------------|-------------|---------------|--------------|------------------|  
+| 32 bit | 32 bit | FOLDERID\_System | %windir%\\system32 | CSIDL\_SYSTEM |
+| 32 bit | 32 bit | FOLDERID\_SystemX86 | %windir%\\system32 | CSIDL\_SYSTEMX86 |
+| 64 bit | 64 bit | FOLDERID\_System | %windir%\\system32 | CSIDL\_SYSTEM |
+| 64 bit | 64 bit | FOLDERID\_SystemX86 | %windir%\\syswow64 | CSIDL\_SYSTEMX86 |
+| 64 bit | 32 bit | FOLDERID\_System | %windir%\\system32 | CSIDL\_SYSTEM |
+| 64 bit | 32 bit | FOLDERID\_SystemX86 | %windir%\\syswow64 | CSIDL\_SYSTEMX86 |
+
+
+We have used environment strings to provide generic paths throughout this topic. 
+The following tables give examples of the paths those environment strings represent. 
+In some cases, these paths might not match those on a particular computer because of choices made during installation or later folder redirection. 
+Note that some paths have changed for Windows Vista.
+
+
+**Windows Vista and later**
+
+| Environment String | Example Path |
+|--------------------|--------------|
+| %ALLUSERSPROFILE% | C:\\ProgramData |
+| %APPDATA% | C:\\Users\\*username*\\AppData\\Roaming |
+| %LOCALAPPDATA% | C:\\Users\\*username*\\AppData\\Local |
+| %ProgramData% | C:\\ProgramData |
+| %ProgramFiles% | C:\\Program Files |
+| %ProgramFiles(x86)% | C:\\Program Files (x86) |
+| %PUBLIC% | C:\\Users\\Public |
+| %SystemDrive% | C: |
+| %USERPROFILE% | C:\\Users\\*username* |
+| %windir% | C:\\Windows |
+
+
+**Windows XP and earlier**
+
+| Environment String | Example Path |
+|--------------------|--------------|
+| %ALLUSERSPROFILE% | C:\\Documents and Settings\\All Users |
+| %APPDATA% | C:\\Documents and Settings\\*username*\\Application Data |
+| %ProgramFiles% | C:\\Program Files |
+| %SystemDrive% | C: |
+| %USERPROFILE% | C:\\Documents and Settings\\*username* |
+| %windir% | C:\\Windows |
 
-FOLDERID\_ProgramFiles
-
-Operating System
-
-Application
-
-KNOWNFOLDERID
-
-Default Path
-
-CSIDL Equivalent
-
-32 bit
-
-32 bit
-
-FOLDERID\_ProgramFiles
-
-%SystemDrive%\\Program Files
-
-CSIDL\_PROGRAM\_FILES
-
-32 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesX86
-
-%SystemDrive%\\Program Files
-
-CSIDL\_PROGRAM\_FILESX86
-
-32 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesX64 (not supported under 32-bit operating systems)
-
-Not applicable
-
-Not applicable
-
-64 bit
-
-64 bit
-
-FOLDERID\_ProgramFiles
-
-%SystemDrive%\\Program Files
-
-CSIDL\_PROGRAM\_FILES
-
-64 bit
-
-64 bit
-
-FOLDERID\_ProgramFilesX86
-
-%SystemDrive%\\Program Files (x86)
-
-CSIDL\_PROGRAM\_FILESX86
-
-64 bit
-
-64 bit
-
-FOLDERID\_ProgramFilesX64
-
-%SystemDrive%\\Program Files
-
-None
-
-64 bit
-
-32 bit
-
-FOLDERID\_ProgramFiles
-
-%SystemDrive%\\Program Files (x86)
-
-CSIDL\_PROGRAM\_FILES
-
-64 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesX86
-
-%SystemDrive%\\Program Files (x86)
-
-CSIDL\_PROGRAM\_FILESX86
-
-64 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesX64 (not supported for 32-bit applications)
-
-Not applicable
-
-Not applicable
-
-
-
- 
-
-
-
-FOLDERID\_ProgramFilesCommon
-
-Operating System
-
-Application
-
-KNOWNFOLDERID
-
-Default Path
-
-CSIDL Equivalent
-
-32 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesCommon
-
-%ProgramFiles%\\Common Files
-
-CSIDL\_PROGRAM\_FILES\_COMMON
-
-32 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesCommonX86
-
-%ProgramFiles%\\Common Files
-
-CSIDL\_PROGRAM\_FILES\_COMMONX86
-
-32 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesCommonX64 (undefined)
-
-Not applicable
-
-Not applicable
-
-64 bit
-
-64 bit
-
-FOLDERID\_ProgramFilesCommon
-
-%ProgramFiles%\\Common Files
-
-CSIDL\_PROGRAM\_FILES\_COMMON
-
-64 bit
-
-64 bit
-
-FOLDERID\_ProgramFilesCommonX86
-
-%ProgramFiles(x86)%\\Common Files
-
-CSIDL\_PROGRAM\_FILES\_COMMONX86
-
-64 bit
-
-64 bit
-
-FOLDERID\_ProgramFilesCommonX64
-
-%ProgramFiles%\\Common Files
-
-None
-
-64 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesCommon
-
-%ProgramFiles(x86)%\\Common Files
-
-CSIDL\_PROGRAM\_FILES\_COMMON
-
-64 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesCommonX86
-
-%ProgramFiles(x86)%\\Common Files
-
-CSIDL\_PROGRAM\_FILES\_COMMONX86
-
-64 bit
-
-32 bit
-
-FOLDERID\_ProgramFilesCommonX64
-
-%ProgramFiles%\\Common Files
-
-None
-
-
-
- 
-
-
-
-FOLDERID\_System
-
-Operating System
-
-Application
-
-KNOWNFOLDERID
-
-Default Path
-
-CSIDL Equivalent
-
-32 bit
-
-32 bit
-
-FOLDERID\_System
-
-%windir%\\system32
-
-CSIDL\_SYSTEM
-
-32 bit
-
-32 bit
-
-FOLDERID\_SystemX86
-
-%windir%\\system32
-
-CSIDL\_SYSTEMX86
-
-64 bit
-
-64 bit
-
-FOLDERID\_System
-
-%windir%\\system32
-
-CSIDL\_SYSTEM
-
-64 bit
-
-64 bit
-
-FOLDERID\_SystemX86
-
-%windir%\\syswow64
-
-CSIDL\_SYSTEMX86
-
-64 bit
-
-32 bit
-
-FOLDERID\_System
-
-%windir%\\system32
-
-CSIDL\_SYSTEM
-
-64 bit
-
-32 bit
-
-FOLDERID\_SystemX86
-
-%windir%\\syswow64
-
-CSIDL\_SYSTEMX86
-
-
-
- 
-
-We have used environment strings to provide generic paths throughout this topic. The following tables give examples of the paths those environment strings represent. In some cases, these paths might not match those on a particular computer because of choices made during installation or later folder redirection. Note that some paths have changed for Windows Vista.
-
-
-
-Windows Vista and later
-
-Environment String
-
-Example Path
-
-%ALLUSERSPROFILE%
-
-C:\\ProgramData
-
-%APPDATA%
-
-C:\\Users\\*username*\\AppData\\Roaming
-
-%LOCALAPPDATA%
-
-C:\\Users\\*username*\\AppData\\Local
-
-%ProgramData%
-
-C:\\ProgramData
-
-%ProgramFiles%
-
-C:\\Program Files
-
-%ProgramFiles(x86)%
-
-C:\\Program Files (x86)
-
-%PUBLIC%
-
-C:\\Users\\Public
-
-%SystemDrive%
-
-C:
-
-%USERPROFILE%
-
-C:\\Users\\*username*
-
-%windir%
-
-C:\\Windows
-
-
-
- 
-
-
-
-Windows XP and earlier
-
-Environment String
-
-Example Path
-
-%ALLUSERSPROFILE%
-
-C:\\Documents and Settings\\All Users
-
-%APPDATA%
-
-C:\\Documents and Settings\\*username*\\Application Data
-
-%ProgramFiles%
-
-C:\\Program Files
-
-%SystemDrive%
-
-C:
-
-%USERPROFILE%
-
-C:\\Documents and Settings\\*username*
-
-%windir%
-
-C:\\Windows
-
-
-
- 
 
 ## Requirements
-
 
 
 |                   |                                                                                           |

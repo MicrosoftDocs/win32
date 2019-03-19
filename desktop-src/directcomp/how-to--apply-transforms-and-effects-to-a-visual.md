@@ -14,6 +14,9 @@ ms.date: 05/31/2018
 
 # How to apply effects
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic demonstrates how to use Microsoft DirectComposition to apply effects and 3D transformations to a visual. The example in this topic changes the opacity of a visual and rotates it around a vertical axis located at the center of the visual. To learn more about other effects supported by DirectComposition, see [Effects](effects.md).
 
 ## What you need to know

@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Defining Channels
 
-Events can be written to event log channels, event tracing log files, or both. A channel is basically a sink that collects events. If the target audience for your events uses event consumers such as the Windows Event Viewer, you must define the channels to where your events are written or import an existing channel that another provider defined.
+Events can be written to event log channels, event tracing log files, or both. A channel is basically a sink that collects events. If the target audience for your events uses event consumers such as the Windows Event Viewer, you must define new channels to collect your events or import an existing channel that another provider defined.
 
-To define your own channels, use the **channel** element. To define an imported channel, use the **importChannel** element. You can specify up to eight channels in any combination of imported channels or channels that you provider define.
+To define your own channels, use the **channel** element. To define an imported channel, use the **importChannel** element. You can specify up to eight channels in any combination of imported channels or channels that you define.
 
 The channel must be of one of four types: Admin, Operational, Analytic, and Debug. Each channel type has an intended audience, which determines the type of events that you write to the channel. For a description of each type, see the [**ChannelType**](eventmanifestschema-channeltype-complextype.md) complex type.
 
-To specify the channel to which an event is written, set the event definition's **channel** attribute to the same value as the channel definition's **chid** attribute. The event is always written to the channel, regardless of whether an ETW tracing session enabled the provider. If the event does not specify a channel, that event can be written only to an ETW tracing session.
+To specify the channel to which an event is written, set the event definition's **channel** attribute to the same value as the channel definition's **chid** attribute. Events can only be written to one channel at a time, but can also be collected by up to 7 other ETW sessions at the same time.
 
 The following example shows how to import a channel. You must set the **chid** and **name** attributes. The **chid** attribute uniquely identifies the channel—each channel identifier in your list of channels must be unique. Set the **name** attribute to the same name that the provider used when it defined the channel.
 
@@ -38,7 +38,8 @@ The following example shows how to import a channel. You must set the **chid** a
                 <channels>
                     <importChannel chid="c1" 
                                    name="Microsoft-Windows-BaseProvider/Admin"
-                                   symbol="CHANNEL_BASEPROVIDER_ADMIN">
+                                   symbol="CHANNEL_BASEPROVIDER_ADMIN"
+                                   />
                 </channels>
 
                 . . .
@@ -83,12 +84,13 @@ The following example shows how to define a channel. You must set the **chid**, 
                 <channels>
                     <importChannel chid="c1" 
                                    name="Microsoft-Windows-BaseProvider/Admin"
-                                   symbol="CHANNEL_BASEPROVIDER_ADMIN">
-
+                                   symbol="CHANNEL_BASEPROVIDER_ADMIN"
+                                   />
                     <channel chid="c2" 
                              name="Microsoft-Windows-SampleProvider/Operational"
                              type="Operational"
-                             enabled="true">
+                             enabled="true"
+                             />
                 </channels>
 
                 . . .

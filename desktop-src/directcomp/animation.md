@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Animation
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic discusses the basics of Microsoft DirectComposition animation. It contains the following topics:
 
 -   [What is an animation?](#what-is-an-animation)
