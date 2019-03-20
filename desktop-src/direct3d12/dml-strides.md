@@ -1,6 +1,7 @@
 ---
 title: Binding in DirectML
 description: DirectML tensors are described by properties known as the *sizes* and the *strides* of the tensor.
+ms.custom: 19H1
 ms.topic: article
 ms.date: 03/12/2019
 ---
