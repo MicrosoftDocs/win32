@@ -114,7 +114,6 @@ In this example, the command creates the following entries.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**ThreadingModel    REG_SZ    Both**
 
- 
 In addition to regular COM registration, you also need to enroll the provider with AMSI. You do that by adding an entry to the following key.
 
 **HKLM\SOFTWARE\Microsoft\AMSI\Providers**
