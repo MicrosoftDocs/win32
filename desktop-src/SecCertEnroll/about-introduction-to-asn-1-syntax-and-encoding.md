@@ -14,10 +14,10 @@ The Certificate Enrollment API uses Abstract Syntax Notation One (ASN.1) to defi
 
 A certificate request contains, among other things, the name of the entity that is making the request or for which the request is being made. The name is a sequence of X.500 relative distinguished names (RDNs). Each RDN in the sequence consists of an object identifier (OID) and a value. The ASN.1 syntax for a subject name is shown in the following example.
 
-## ``` syntax
-
-## -- Subject name
-
+``` syntax
+---------------------------------------------------------------------
+-- Subject name
+---------------------------------------------------------------------
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
 RelativeDistinguishedName ::= SET OF AttributeTypeValue

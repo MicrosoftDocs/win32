@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to build a simple visual tree
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic demonstrates how to build a simple Microsoft DirectComposition visual tree. The example in this topic builds and composes a visual tree that consists of a root visual and three child visuals. The content of the root visual is a light-blue bitmap that serves as the background for the child visuals. This illustration shows the composition created by the example code in this topic.
 
 ![a composition consisting of a root bitmap and three child bitmaps](images/buildvisualtree.png)

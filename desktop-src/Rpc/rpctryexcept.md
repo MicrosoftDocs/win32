@@ -22,7 +22,7 @@ The **RpcTryExcept** statement provides structured exception handling for RPC ap
 
 For more information, see [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
 
-**Windows Vista and later versions of Windows:  **[**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter) is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
+**Windows Vista and later versions of Windows:**  [**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter) is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
 
 ## Requirements
 
