@@ -47,7 +47,13 @@
       "titleSuffix": "Windows applications",
       "ms.prod": "desktop",
       "ms.author": "windowssdkdev",
-      "author": "windows-sdk-content"
+      "author": "windows-sdk-content",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "MSDN.desktop",
+          "folder_relative_path_in_docset": "./"
+        }
+      }
     },
     "fileMetadata": {
       "feedback_system": {
