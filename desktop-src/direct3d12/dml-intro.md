@@ -21,7 +21,7 @@ Direct Machine Learning (DirectML) is a low-level API for machine learning (ML).
 You can integrate machine learning inferencing workloads into your game, engine, middleware, backend, or other application. DirectML has a familiar (native C++, nano-COM) DirectX 12-style programming interface and workflow, and it's supported by all DirectX 12-compatible hardware. For DirectML sample applications, including a sample of a minimal DirectML application, see [DirectML sample applications](dml-min-app.md).
 
 > [!NOTE]
-> DirectML is introduced in the Windows SDK version 10.0.XXXXX.0 (Windows 10, version 1903).
+> DirectML is introduced in Windows 10, version 1903, and in the corresponding version of the Windows SDK.
 
 ## Is DirectML appropriate for my project?
 
