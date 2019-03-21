@@ -3,6 +3,8 @@
   items: 
   - name: "How AMSI helps"
     href: how-amsi-helps.md
+  - name: "Developer audience, samples"
+    href: dev-audience.md
   - name: "AMSI reference"
     href: antimalware-scan-interface-reference.md
     items: 
