@@ -18,7 +18,7 @@ ms.date: 03/13/2019
 
 This helper function calculates the minimum number of bytes required to store a buffer tensor with the specified type, sizes, and strides. The formula can be expressed as the following.
 
-```
+```cpp
 IndexOfLastElement = dot(Sizes - 1, Strides);
 MinimumImpliedSizeInBytes = roundup((IndexOfLastElement + 1) * ElementSizeInBytes, 4)
 ```

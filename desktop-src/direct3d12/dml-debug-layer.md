@@ -22,7 +22,7 @@ We highly recommended that you enable the debug layer while developing applicati
 
 To install the optional Graphics Tools feature-on-demand (FOD) package, run the following command from an administrator Powershell prompt.
 
-```
+```powershell
 Add-WindowsCapability -Online -Name "Tools.Graphics.DirectX~~~~0.0.1.0"
 ```
 
@@ -37,7 +37,7 @@ Once the Graphics Tools package is installed, you can enable the DirectML debug 
 
 Once you've enabled the DirectML debug layer, any DirectML errors or invalid API calls will cause debugging information to be emitted as debug output. Here's an example.
 
-```
+```console
 DML_OPERATOR_CONVOLUTION: invalid D3D12_HEAP_TYPE. DirectML requires all bound buffers to be D3D12_HEAP_TYPE_DEFAULT.
 ```
 
