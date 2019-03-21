@@ -36,7 +36,7 @@ As UAV barriers are a form of synchronization, unnecessary use of UAV barriers m
 
 In the following example, a convolution operator's output is fed into a ReLU activation, followed by a batch normalization.
 
-```
+```console
     CONVOLUTION (conv1)
          |
   ACTIVATION_RELU (relu1)
@@ -54,7 +54,7 @@ Since a data dependency exists between all three operators, you'll need a UAV ba
 
 ### Example 2
 
-```
+```console
      MAX_POOLING (pool1)
         /    \
 CONVOLUTION  CONVOLUTION
