@@ -34,7 +34,7 @@ tensor[1][2] = 'F';
 
 The logical view of the above tensor is visualized below.
 
-```
+```console
 A B C
 D E F
 ```
@@ -67,7 +67,7 @@ In general, the *packed* stride of a dimension is equal to the product of the si
 
 Let's extend the 2D example to three dimensions, so that we have a tensor with depth 2, height 2, and width 3 (for a total of 12 logical elements).
 
-```
+```console
 A B C
 D E F
 
@@ -97,7 +97,7 @@ The examples above illustrate *packed* tensors. A tensor is said to be *packed* 
 
 If a tensor's buffer size (in elements) is smaller than the product of its logical dimensions, then it follows that there must be some overlapping of elements. The usual case for this is known as *broadcasting*; where the elements of a dimension are a duplicate of another dimension. For example, let's revisit the 2D example. Let's say that we want a tensor that is logically 2x3, but the second row is identical to the first row. Here's how that looks.
 
-```
+```console
 A B C
 A B C
 ```
@@ -118,7 +118,7 @@ A|B|C|x|x|D|E|F|x|x
 
 The padded tensor can be described by using a height-stride of 5 instead of 3. Instead of stepping by 3 elements to get to the next row, the step is 5 elements (3 *real* elements plus 2 padding elements). Padding is common in computer graphics, for example, to ensure that an image has a power-of-two alignment.
 
-```
+```console
 A B C
 D E F
 ```
