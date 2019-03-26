@@ -272,20 +272,8 @@ HBITMAP hbmMask;
 HBITMAP hbmIcon;
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// Message handler for Square Meal dialog box.
+```C++
+// Message handler for Square Meal dialog box.
 INT_PTR CALLBACK FoodDlgProc(HWND hDlg, UINT message, WPARAM wParam, 
     LPARAM lParam)
 {
@@ -585,11 +573,8 @@ void DeleteIconBitmaps(void)
     FreeResource(reinterpret_cast<HGLOBAL>(hbmMeat));
     FreeResource(reinterpret_cast<HGLOBAL>(hbmFruit));
     FreeResource(reinterpret_cast<HGLOBAL>(hbmMask));
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
-
+}
+```
 
 
 ## Related topics
