@@ -201,6 +201,27 @@
       items: 
       - name: "Use Debug Layer GPU-based validation"
         href: using-d3d12-debug-layer-gpu-based-validation.md
+    - name: "Direct Machine Learning (DirectML)"
+      href: dml.md
+      items: 
+      - name: "Introduction to DirectML"
+        href: dml-intro.md
+      - name: "Binding in DirectML"
+        href: dml-binding.md
+      - name: "UAV barriers and resource state barriers"
+        href: dml-barriers.md
+      - name: "Using strides to express padding, memory layout"
+        href: dml-strides.md
+      - name: "Resource lifetime and synchronization"
+        href: dml-resource-lifetime.md
+      - name: "Using the debug layer"
+        href: dml-debug-layer.md
+      - name: "Handling errors and device-removal"
+        href: dml-errors.md
+      - name: "Helper functions"
+        href: dml-helper-functions.md
+      - name: "Sample applications"
+        href: dml-min-app.md
   - name: "Direct3D 12 Reference"
     href: direct3d-12-reference.md
     items: 
