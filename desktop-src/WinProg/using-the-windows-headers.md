@@ -20,7 +20,7 @@ The header files for the Windows API enable you to create 32- and 64-bit applica
 
 -   [Visual C++ and the Windows Header Files](#visual-c-and-the-windows-header-files)
 -   [Macros for Conditional Declarations](#macros-for-conditional-declarations)
--   [Setting WINVER or \_WIN32\_WINNT](https://docs.microsoft.com/windows)
+-   [Setting WINVER or \_WIN32\_WINNT](#setting-winver-or-_win32_winnt)
 -   [Controlling Structure Packing](#controlling-structure-packing)
 -   [Faster Builds with Smaller Header Files](#faster-builds-with-smaller-header-files)
 -   [Related topics](#related-topics)
