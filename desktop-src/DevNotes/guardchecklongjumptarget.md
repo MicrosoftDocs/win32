@@ -44,11 +44,11 @@ req.redist:
 
 ## -description
 
-Attempts to verify whether the target of a long jump is valid for a process which has Control Flow Guard (CFG) enabled.
+Attempts to verify whether the target of a [longjmp](/cpp/c-runtime-library/reference/longjmp) is valid for a process which has [Control Flow Guard (CFG)](../secbp/control-flow-guard.ms) enabled.
 
 If the target address corresponds to an image mapping, the valid targets are extracted for the binary.
 The function uses those targets to validate the target.
-If the binary does not have metadata that describes the set of valid long jump targets, then the function returns TRUE.
+If the binary does not have metadata that describes the set of valid *longjmp* targets, the function returns **TRUE**.
 
 If the target address corresponds to a non-image mapping, as in JIT code, a global read-only policy is consulted to determine whether the jump is allowed.
 
@@ -61,7 +61,7 @@ The target address for the jump.
 ### -param Flags [in]
 
 Flags describing the operation to be performed on the address.
-If you specify **GUARD_CHECK_LONGJUMP_NON_FATAL**, this function does not terminate the process if the target is invalid.
+If you specify **GUARD_CHECK_LONGJUMP_NON_FATAL** (0x1), this function does not terminate the process if the target is invalid.
 
 ## -returns
 
