@@ -2,11 +2,11 @@
 UID: 
 title: GuardCheckLongJumpTarget function
 author: windows-sdk-content
-description: 
+description: "Attempts to verify whether the target of a longjmp is valid."
 old-location:
 ms.assetid: na
 ms.author: windowssdkdev
-ms.date: 
+ms.date: 04/02/2019
 ms.keywords: 
 ms.topic: function
 req.header: guardapiset.h
