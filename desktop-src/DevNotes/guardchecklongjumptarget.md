@@ -1,7 +1,7 @@
 ---
 UID: 
 title: GuardCheckLongJumpTarget function
-author: windows-sdk-content
+author: TimShererWithAquent
 description: "Attempts to verify whether the target of a longjmp is valid."
 old-location:
 ms.assetid: na
@@ -34,7 +34,8 @@ api_location:
  - api-ms-win-core-guard-l1-1-0.dll
 api_name:
  - GuardCheckLongJumpTarget
-product: Windows
+product: 
+ - Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -44,7 +45,7 @@ req.redist:
 
 ## -description
 
-Attempts to verify whether the target of a [longjmp](/cpp/c-runtime-library/reference/longjmp) is valid for a process which has [Control Flow Guard (CFG)](../secbp/control-flow-guard.ms) enabled.
+Attempts to verify whether the target of a [longjmp](/cpp/c-runtime-library/reference/longjmp) is valid for a process which has [Control Flow Guard (CFG)](../secbp/control-flow-guard.md) enabled.
 
 If the target address corresponds to an image mapping, the valid targets are extracted for the binary.
 The function uses those targets to validate the target.
