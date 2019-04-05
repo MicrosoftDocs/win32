@@ -205,20 +205,9 @@ private:
  };
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#include &quot;SimpleComboBox.h&quot;
+```C++
+#include "SimpleComboBox.h"
 
 /******************************************************************
 *                                                                 *
@@ -484,11 +473,8 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
         }
     }
 
-    return result;</code></pre></td>
-</tr>
-</tbody>
-</table>
-
+    return result;
+```
 
 
 ## Related topics
