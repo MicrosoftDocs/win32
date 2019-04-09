@@ -18,22 +18,7 @@ The following example creates an [**ID2D1PathGeometry**](https://msdn.microsoft.
 ```C++
 ID2D1GeometrySink *pSink = NULL;
 
-```
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// Create a path geometry.
+// Create a path geometry.
 if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
@@ -74,12 +59,8 @@ if (SUCCEEDED(hr))
         }
         SafeRelease(&pSink);
     }
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-
+}
+```
 
 Note that an [**ID2D1PathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371512(v=VS.85).aspx) is a device-independent resource and can, therefore, be created once and retained for the life of the application. (For more information about different types of resources, see the [Resources Overview](resources-and-resource-domains.md).)
 
@@ -95,22 +76,8 @@ if (SUCCEEDED(hr))
         &m_pBlackBrush
         );
 }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>if (SUCCEEDED(hr))
+if (SUCCEEDED(hr))
 {
     // Create a linear gradient.
     static const D2D1_GRADIENT_STOP stops[] =
@@ -138,10 +105,8 @@ if (SUCCEEDED(hr))
     }
 
     SafeRelease(&pGradientStops);
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
 
 
 
@@ -153,22 +118,7 @@ The final example uses the [**DrawGeometry**](https://msdn.microsoft.com/en-us/l
 ```C++
 void DemoApp::RenderGeometryExample()
 {
-```
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    // Translate subsequent drawings by 20 device-independent pixels.
+   // Translate subsequent drawings by 20 device-independent pixels.
     m_pRenderTarget->SetTransform(
         D2D1::Matrix3x2F::Translation(20.f, 20.f)
         );
@@ -176,36 +126,7 @@ void DemoApp::RenderGeometryExample()
     // Draw the hour glass geometry at the upper left corner of the client area.
     m_pRenderTarget->DrawGeometry(m_pPathGeometry, m_pBlackBrush, 10.f);
     m_pRenderTarget->FillGeometry(m_pPathGeometry, m_pLGBrush);</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-<span codelanguage="ManagedCPlusPlus"></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>}</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-
+```
 
 Code has been omitted from this example. For more information about geometries, see the [Geometries Overview](direct2d-geometries-overview.md).
-
- 
-
- 
-
-
-
 
