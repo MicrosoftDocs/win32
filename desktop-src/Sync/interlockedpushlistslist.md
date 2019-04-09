@@ -31,8 +31,10 @@ req.irql:
 topic_type:
  - APIRef
 api_type:
-api_location: API-MS-Win-Core-interlocked-l1-1-0.dll
-api_name: InterlockedPushListSList
+api_location: 
+ - API-MS-Win-Core-interlocked-l1-1-0.dll
+api_name: 
+ - InterlockedPushListSList
 product: 
  - Windows SDK
 targetos: Windows
