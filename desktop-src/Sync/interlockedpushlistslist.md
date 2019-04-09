@@ -9,8 +9,9 @@ ms.author: windowssdkdev
 ms.date: 4/10/2019
 ms.keywords: InterlockedPushListSListEx
 ms.topic: function
-req.header: WinBase.h on Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2; 
-InterlockedAPI.h on Windows 8 and Windows Server 2012
+req.header: 
+ - WinBase.h on Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2 
+ - InterlockedAPI.h on Windows 8 and Windows Server 2012
 req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]

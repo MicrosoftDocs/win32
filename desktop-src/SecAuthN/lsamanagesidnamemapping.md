@@ -33,7 +33,8 @@ topic_type:
  - APIRef
 api_type:
 api_location:
-api_name: LsaManageSidNameMapping
+api_name: 
+ - LsaManageSidNameMapping
 product: 
  - Windows SDK
 targetos: Windows

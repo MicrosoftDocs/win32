@@ -29,8 +29,10 @@ req.irql:
 topic_type:
  - APIRef
 api_type:
-api_location: c_g18030.dll
-api_name: UnicodeToBytes
+api_location: 
+ - c_g18030.dll
+api_name: 
+ - UnicodeToBytes
 product: 
  - Windows SDK
 targetos: Windows
