@@ -189,6 +189,7 @@ The following table has examples of domain-relative RIDs that you can use to for
 | DOMAIN\_ALIAS\_RID\_REMOTE\_MANAGEMENT\_USERS              | 0x00000244L<br/>| A local group that represents remote management users. <br/>|
 | DOMAIN\_ALIAS\_RID\_DEFAULT\_ACCOUNT                       | 0x00000245L<br/>| A local group that represents the default account. <br/>|
 | DOMAIN\_ALIAS\_RID\_STORAGE\_REPLICA\_ADMINS               | 0x00000246L<br/>| A local group that represents storage replica admins. <br/>|
+| DOMAIN\_ALIAS\_RID\_DEVICE\_OWNERS	                     | 0x00000247L<br/>| A local group that represents can make settings expected for Device Owners.<br/>|
 
 
  
