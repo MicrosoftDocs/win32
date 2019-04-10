@@ -27,14 +27,14 @@ req.lib: Kernel32.lib
 req.dll: API-MS-Win-Core-rtlsupport-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
+- APIRef
 api_type:
 api_location: 
- - API-MS-Win-Core-rtlsupport-l1-1-0.dll
+- API-MS-Win-Core-rtlsupport-l1-1-0.dll
 api_name: 
- - CaptureStackBackTrace
+- CaptureStackBackTrace
 product: 
- - Windows SDK
+- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -42,7 +42,7 @@ req.redist:
 
 # CaptureStackBackTrace function
 
-## -description
+## Description
 
 Captures a stack back trace by walking up the stack and recording the information for each frame.
 
@@ -55,24 +55,24 @@ USHORT WINAPI CaptureStackBackTrace(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param FramesToSkip [in]
+### param FramesToSkip [in]
 
 The number of frames to skip from the start of the back trace.
 
-### -param FramesToCapture [in]
+### param FramesToCapture [in]
 
 The number of frames to be captured.
 You can capture up to **MAXUSHORT** frames.
 
 **Windows Server 2003 and Windows XP:**  The sum of the *FramesToSkip* and *FramesToCapture* parameters must be less than 63.
 
-### -param BackTrace [out]
+### param BackTrace [out]
 
 An array of pointers captured from the current stack trace.
 
-### -param BackTraceHash [out, optional]
+### param BackTraceHash [out, optional]
 
 A value that can be used to organize hash tables.
 If this parameter is **NULL**, then no hash value is computed.
@@ -80,13 +80,13 @@ If this parameter is **NULL**, then no hash value is computed.
 This value is calculated based on the values of the pointers returned in the BackTrace array.
 Two identical stack traces will generate identical hash values.
 
-## -returns
+## Returns
 
 The number of captured frames.
 
-## -remarks
+## Remarks
 
 The **CaptureStackBackTrace** function is defined as the **RtlCaptureStackBackTrace** function (the definition is included in the Windows SDK beginning with Windows Vista).
 For more information, see WinBase.h and WinNT.h.
 
-## -see-also
+## See also

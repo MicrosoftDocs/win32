@@ -27,14 +27,14 @@ req.lib:
 req.dll: api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 req.irql: 
 topic_type:
- - APIRef
+- APIRef
 api_type:
 api_location: 
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name: 
 - SHIsChildOrSelf
 product: 
- - Windows SDK
+- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -42,7 +42,7 @@ req.redist:
 
 # SHIsChildOrSelf function
 
-## -description
+## Description
 
 \[This function is available through Windows XP and Windows Server 2003.
 It might be altered or unavailable in subsequent versions of Windows.\]
@@ -56,21 +56,21 @@ HRESULT SHIsChildOrSelf(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param hwndParent [in]
+### param hwndParent [in]
 
 Type: **HWND**
 
 A handle to the first window.
 
-### -param hwnd [in]
+### param hwnd [in]
 
 Type: **HWND**
 
 A handle to a window to be tested against *hwndParent*.
 
-## -returns
+## Returns
 
 Type: **HRESULT**
 
@@ -78,8 +78,8 @@ Returns **S_OK** if the window specified by *hwnd* is equal to, a child of, or a
 Returns **S_FALSE** if the window specified by hwnd is not equal to, not a child of, and not a descendent of the window specified by *hwndParent*.
 The return value is undefined if either window handle is invalid.
 
-## -remarks
+## Remarks
 
-## -see-also
+## See also
 
 [IsChild](/windows/desktop/api/winuser/nf-winuser-ischild)

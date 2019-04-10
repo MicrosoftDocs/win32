@@ -27,14 +27,14 @@ req.lib: Shell32.lib
 req.dll: API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
+- APIRef
 api_type:
 api_location: 
- - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
 api_name: 
- - SHGetFolderPathEx
+- SHGetFolderPathEx
 product: 
- - Windows SDK
+- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -42,7 +42,7 @@ req.redist:
 
 # SHGetFolderPathEx function
 
-## -description
+## Description
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released.
 Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
@@ -60,18 +60,18 @@ HRESULT WINAPI SHGetFolderPathEx(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param rfid [in]
+### param rfid [in]
 
 A reference to the **KNOWNFOLDERID** that identifies the folder.
 
-### -param dwFlags [in]
+### param dwFlags [in]
 
 Flags that specify special retrieval options.
 This value can be 0; otherwise, one or more of the [KNOWN_FOLDER_FLAG](/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag) values.
 
-### -param hToken [in, optional]
+### param hToken [in, optional]
 
 An [access token](/windows/desktop/SecAuthZ/access-tokens) that represents a particular user.
 If this parameter is **NULL**, which is the most common usage, the function requests the known folder for the current user.
@@ -89,25 +89,25 @@ The Default User user profile is duplicated when any new user account is created
 Any items added to the Default User folder also appear in any new user account.
 Note that access to the Default User folders requires administrator privileges.
 
-### -param pszPath [out]
+### param pszPath [out]
 
 A null-terminated, Unicode string.
 This buffer must be of size cchPath.
 When **SHGetFolderPathEx** returns successfully, this parameter contains the path for the known folder.
 
-### -param cchPath [in]
+### param cchPath [in]
 
 The size of the *ppszPath* buffer, in characters.
 
-## -returns
+## Returns
 
 Returns **S_OK** if successful, or an error value otherwise.
 
-## -remarks
+## Remarks
 
 Since [SHGetFolderPath](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) is a wrapper for [SHGetKnownFolderPath](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath), this function (**SHGetFolderPathEx**) also serves as an extension to **SHGetFolderPath**.
 
-## -see-also
+## See also
 
 [KNOWNFOLDERID](/windows/desktop/shell/knownfolderid)
 

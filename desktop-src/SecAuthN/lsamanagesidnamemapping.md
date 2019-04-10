@@ -25,18 +25,18 @@ req.assembly:
 req.type-library: 
 req.lib: Secur32.lib
 req.dll: 
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
- - API-MS-Win-security-lsalookup-l2-1-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+- API-MS-Win-security-lsalookup-l2-1-1.dll
 req.irql: 
 topic_type:
- - APIRef
+- APIRef
 api_type:
 api_location:
 api_name: 
- - LsaManageSidNameMapping
+- LsaManageSidNameMapping
 product: 
- - Windows SDK
+- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -44,7 +44,7 @@ req.redist:
 
 # LsaManageSidNameMapping function
 
-## -description
+## Description
 
 The **LsaManageSidNameMapping** function adds or removes SID/name mappings from the mapping set registered with the LSA Lookup Service.
 
@@ -56,17 +56,17 @@ void WINAPI LsaManageSidNameMapping(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param OpType [in]
+### param OpType [in]
 
 Indicates if a this function is being called to add or remove an SID/name mapping.
 
-### -param OpInput [in]
+### param OpInput [in]
 
 Indicates the domain, account, and SID values to use during this operation. Additional flags can also be set within this structure.
 
-### -param OpOutput [out]
+### param OpOutput [out]
 
 Contains a value of [LSA_SID_NAME_MAPPING_OPERATION_ERROR](/library/dn280707.aspx) that indicates operation success or failure.
 
@@ -80,11 +80,11 @@ Contains a value of [LSA_SID_NAME_MAPPING_OPERATION_ERROR](/library/dn280707.asp
 | **DomainSidPrefixMismatch** | Provided SID doesn't have the correct domain prefix. |
 | **MappingNotFound** | Mapping not found in the cache. |
 
-## -returns
+## Returns
 
 If the mapping is inserted successfully, the return value is STATUS_SUCCESS.
 Otherwise, if the function fails due to SID or name conflicts, STATUS_INVALID_PARAMETER error will be returned.
 
-## -remarks
+## Remarks
 
-## -see-also
+## See also

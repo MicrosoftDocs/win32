@@ -27,14 +27,14 @@ req.lib:
 req.dll: c_g18030.dll
 req.irql: 
 topic_type:
- - APIRef
+- APIRef
 api_type:
 api_location: 
- - c_g18030.dll
+- c_g18030.dll
 api_name: 
- - UnicodeToBytes
+- UnicodeToBytes
 product: 
- - Windows SDK
+- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -42,7 +42,7 @@ req.redist:
 
 # UnicodeToBytes function
 
-## -description
+## Description
 
 Deprecated. Converts Unicode characters to GB18030 bytes.
 
@@ -57,33 +57,33 @@ DWORD UnicodeToBytes(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param lpWideCharStr [in]
+### param lpWideCharStr [in]
 
 Pointer to the Unicode string to convert.
 
-### -param cchWideChar [in]
+### param cchWideChar [in]
 
 Character count of the Unicode string to convert.
 
-### -param lpMultiByteStr [in]
+### param lpMultiByteStr [in]
 
 Pointer to the target multibyte buffer.
 If *lpMultiByteStr* is 0, the byte count of the GB18030 result is returned, and no conversion is done.
 
-### -param cchMultiByte [in]
+### param cchMultiByte [in]
 
 Byte count of the target multibyte buffer.
 If *cchMultiByte* is 0, the byte count of the GB18030 result is returned, and no conversion is done.
 
-## -returns
+## Returns
 
 Returns the byte count of the multibyte characters that are generated, if successful.
 
-## -remarks
+## Remarks
 
-## -see-also
+## See also
 
 [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
 
