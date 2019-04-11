@@ -58,15 +58,15 @@ void WINAPI LsaManageSidNameMapping(
 
 ## Parameters
 
-### param OpType [in]
+### OpType [in]
 
 Indicates if a this function is being called to add or remove an SID/name mapping.
 
-### param OpInput [in]
+### OpInput [in]
 
 Indicates the domain, account, and SID values to use during this operation. Additional flags can also be set within this structure.
 
-### param OpOutput [out]
+### OpOutput [out]
 
 Contains a value of [LSA_SID_NAME_MAPPING_OPERATION_ERROR](/library/dn280707.aspx) that indicates operation success or failure.
 

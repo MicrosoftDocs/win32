@@ -60,20 +60,20 @@ PSLIST_ENTRY  FASTCALL InterlockedPushListSList(
 
 ## Parameters
 
-### param ListHead [in, out]
+### ListHead [in, out]
 
 Pointer to an **SLIST_HEADER** structure that represents the head of a singly linked list.
 The list specified by the *List* and *ListEnd* parameters is inserted at the front of this list.
 
-### param List [in, out]
+### List [in, out]
 
 Pointer to an [SLIST_ENTRY](/windows/desktop/api/winnt/ns-winnt-_list_entry) structure that represents the first item in the list to be inserted.
 
-### param ListEnd [in, out]
+### ListEnd [in, out]
 
 Pointer to an [SLIST_ENTRY](/windows/desktop/api/winnt/ns-winnt-_list_entry) structure that represents the last item in the list to be inserted.
 
-### param Count [in]
+### Count [in]
 
 The number of items in the list to be inserted.
 

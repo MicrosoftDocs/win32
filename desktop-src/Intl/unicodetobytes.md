@@ -59,20 +59,20 @@ DWORD UnicodeToBytes(
 
 ## Parameters
 
-### param lpWideCharStr [in]
+### lpWideCharStr [in]
 
 Pointer to the Unicode string to convert.
 
-### param cchWideChar [in]
+### cchWideChar [in]
 
 Character count of the Unicode string to convert.
 
-### param lpMultiByteStr [in]
+### lpMultiByteStr [in]
 
 Pointer to the target multibyte buffer.
 If *lpMultiByteStr* is 0, the byte count of the GB18030 result is returned, and no conversion is done.
 
-### param cchMultiByte [in]
+### cchMultiByte [in]
 
 Byte count of the target multibyte buffer.
 If *cchMultiByte* is 0, the byte count of the GB18030 result is returned, and no conversion is done.

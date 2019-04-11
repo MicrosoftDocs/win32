@@ -62,16 +62,16 @@ HRESULT WINAPI SHGetFolderPathEx(
 
 ## Parameters
 
-### param rfid [in]
+### rfid [in]
 
 A reference to the **KNOWNFOLDERID** that identifies the folder.
 
-### param dwFlags [in]
+### dwFlags [in]
 
 Flags that specify special retrieval options.
 This value can be 0; otherwise, one or more of the [KNOWN_FOLDER_FLAG](/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag) values.
 
-### param hToken [in, optional]
+### hToken [in, optional]
 
 An [access token](/windows/desktop/SecAuthZ/access-tokens) that represents a particular user.
 If this parameter is **NULL**, which is the most common usage, the function requests the known folder for the current user.
@@ -89,13 +89,13 @@ The Default User user profile is duplicated when any new user account is created
 Any items added to the Default User folder also appear in any new user account.
 Note that access to the Default User folders requires administrator privileges.
 
-### param pszPath [out]
+### pszPath [out]
 
 A null-terminated, Unicode string.
 This buffer must be of size cchPath.
 When **SHGetFolderPathEx** returns successfully, this parameter contains the path for the known folder.
 
-### param cchPath [in]
+### cchPath [in]
 
 The size of the *ppszPath* buffer, in characters.
 

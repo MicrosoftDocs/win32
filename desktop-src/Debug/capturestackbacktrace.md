@@ -57,22 +57,22 @@ USHORT WINAPI CaptureStackBackTrace(
 
 ## Parameters
 
-### param FramesToSkip [in]
+### FramesToSkip [in]
 
 The number of frames to skip from the start of the back trace.
 
-### param FramesToCapture [in]
+### FramesToCapture [in]
 
 The number of frames to be captured.
 You can capture up to **MAXUSHORT** frames.
 
 **Windows Server 2003 and Windows XP:**  The sum of the *FramesToSkip* and *FramesToCapture* parameters must be less than 63.
 
-### param BackTrace [out]
+### BackTrace [out]
 
 An array of pointers captured from the current stack trace.
 
-### param BackTraceHash [out, optional]
+### BackTraceHash [out, optional]
 
 A value that can be used to organize hash tables.
 If this parameter is **NULL**, then no hash value is computed.

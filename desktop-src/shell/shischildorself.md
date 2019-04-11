@@ -58,13 +58,13 @@ HRESULT SHIsChildOrSelf(
 
 ## Parameters
 
-### param hwndParent [in]
+### hwndParent [in]
 
 Type: **HWND**
 
 A handle to the first window.
 
-### param hwnd [in]
+### hwnd [in]
 
 Type: **HWND**
 
