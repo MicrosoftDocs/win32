@@ -3,7 +3,7 @@ title: How to Load a Bitmap from a Resource
 description: Shows how to load a Direct2D bitmap stored as an application resource.
 ms.assetid: 7285e6ea-ebc7-4693-8a77-99bff0b5d0d1
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/9/2019
 ---
 
 # How to Load a Bitmap from a Resource
@@ -22,12 +22,9 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
     #include "windows.h"
 
     SampleImage Image "sampleImage.jpg"
-    
     ```
 
-    
-
-    This resource will be added to the application's resource file when the application is built.
+This resource will be added to the application's resource file when the application is built.
 
 2.  Load the image from the application resource file.
 
@@ -137,46 +134,17 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
     
 
 7.  Before Direct2D can use the image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**IWICImagingFactory::CreateFormatConverter**](https://msdn.microsoft.com/en-us/library/Ee690317(v=VS.85).aspx) method to create an [**IWICFormatConverter**](https://msdn.microsoft.com/en-us/library/Ee690274(v=VS.85).aspx) object, then use the **IWICFormatConverter** object's [**Initialize**](https://msdn.microsoft.com/en-us/library/Ee690279(v=VS.85).aspx) method to perform the conversion.
-    ```C++
+ 
+```C++
         if (SUCCEEDED(hr))
         {
             // Convert the image format to 32bppPBGRA
             // (DXGI_FORMAT_B8G8R8A8_UNORM + D2D1_ALPHA_MODE_PREMULTIPLIED).
             hr = pIWICFactory->CreateFormatConverter(&pConverter);
         }
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>    if (SUCCEEDED(hr))
-        {</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
-
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>            
+       if (SUCCEEDED(hr))
+        {           
         hr = pConverter->Initialize(
             pSource,
             GUID_WICPixelFormat32bppPBGRA,
@@ -184,27 +152,8 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
             NULL,
             0.f,
             WICBitmapPaletteTypeMedianCut
-            );</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
-
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>    }</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+            );
+ ```
 
     
 
