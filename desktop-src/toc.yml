@@ -45,6 +45,11 @@
     - name: "Desktop app technologies"
       href: desktop-app-technologies.md
       items: 
+      - name: "Accessibility"
+        href: accessibility.md
+        items: 
+        - name: "Windows Accessibility Features"
+          href: winauto/windows-accessibility-features.md
       - name: "Desktop App User Interface"
         href: windows-application-ui-development.md
         items: 
@@ -52,11 +57,6 @@
           href: appuistart/getting-started-developing-user-interfaces-portal.md
         - name: "Internationalization for Windows Applications"
           href: intl/international-support.md
-        - name: "Accessibility"
-          href: accessibility.md
-          items: 
-          - name: "Windows Accessibility Features"
-            href: winauto/windows-accessibility-features.md
         - name: "User Interaction"
           href: user-interaction.md
           items: 
