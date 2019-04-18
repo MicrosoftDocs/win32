@@ -4,6 +4,7 @@ description: The following enumerations are declared in d3d12.h.
 ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
 ms.topic: article
 ms.date: 11/27/2018
+ms.custom: 19H1
 ---
 
 # Core enumerations
@@ -16,6 +17,7 @@ The following enumerations are declared in d3d12.h.
 |-|
 | [**D3D_ROOT_SIGNATURE_VERSION**](/windows/desktop/api/D3D12/ne_d3d12_d3d_root_signature_version). Specifies the version of root signature layout. |
 | [**D3D_SHADER_MODEL**](/windows/desktop/api/d3d12/ne_d3d12_d3d_shader_model). Specifies a shader model. |
+| [**D3D12_AUTO_BREADCRUMB_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_auto_breadcrumb_op). Defines constants that specify render/compute GPU operations. |
 | [**D3D12_BLEND**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_blend). Specifies blend factors, which modulate values for the pixel shader and render target. |
 | [**D3D12_BLEND_OP**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_blend_op). Specifies RGB or alpha blending operations. |
 | [**D3D12_BUFFER_SRV_FLAGS**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_buffer_srv_flags). Identifies how to view a buffer resource. |
@@ -38,6 +40,10 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_DESCRIPTOR_HEAP_TYPE**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_descriptor_heap_type). Specifies a type of descriptor heap.  |
 | [**D3D12_DESCRIPTOR_RANGE_FLAGS**](/windows/desktop/api/d3d12/ne_d3d12_d3d12_descriptor_range_flags). Specifies the volatility of both descriptors and the data they reference in a Root Signature 1.1 description, which can enable some driver optimizations. |
 | [**D3D12_DESCRIPTOR_RANGE_TYPE**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_descriptor_range_type). Specifies a range so that, for example, if part of a descriptor table has 100 shader resource views (SRVs) that range can be declared in one entry rather than 100.  |
+| [**D3D12_DRED_ALLOCATION_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_dred_allocation_type). Defines constants that specify render/compute GPU operations. |
+| [**D3D12_DRED_ENABLEMENT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_dred_enablement). Defines constants (used by the [ID3D12DeviceRemovedExtendedDataSettings interface](/windows/desktop/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings)) that specify how individual Device Removed Extended Data (DRED) features are enabled. |
+| [**D3D12_DRED_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_dred_flags). Defines constants used in the [D3D12_DEVICE_REMOVED_EXTENDED_DATA structure](/windows/desktop/api/ns-d3d12-d3d12_device_removed_extended_data) to specify control flags for the Direct3D runtime. |
+| [**D3D12_DRED_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_dred_version). Defines constants that specify a version of Device Removed Extended Data (DRED), as used by the [D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA structure](/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_device_removed_extended_data). |
 | [**D3D12_DSV_DIMENSION**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_dsv_dimension). Specifies how to access a resource used in a depth-stencil view. |
 | [**D3D12_DSV_FLAGS**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_dsv_flags). Specifies depth-stencil view options. |
 | [**D3D12_FEATURE**](/windows/desktop/api/D3D12/ne_d3d12_d3d12_feature). Direct3D 12 feature options that are supported by the current graphics driver.  |

@@ -4,6 +4,7 @@ description: The following interfaces are declared in d3d12.h.
 ms.assetid: A9BD5910-8FF2-4540-BB8E-E8EA5C10528C
 ms.topic: article
 ms.date: 11/27/2018
+ms.custom: 19H1
 ---
 
 # Core interfaces
@@ -25,6 +26,8 @@ The following interfaces are declared in d3d12.h.
 | [**ID3D12Device3**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device3) | Represents a virtual adapter. This interface extends [**Id3d12device2**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device2) to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario. |
 | [**ID3D12Device5**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device5) | Represents a virtual adapter. This interface extends **Id3d12device4**. |
 | [**ID3D12DeviceChild**](/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild) | An interface from which other core interfaces inherit from, including [**ID3D12PipelineLibrary**](/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary), [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist), [**ID3D12Pageable**](https://msdn.microsoft.com/en-us/library/Dn788704(v=VS.85).aspx), and [**ID3D12RootSignature**](https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx). It provides a method to get back to the device object it was created against. |
+| [**ID3D12DeviceRemovedExtendedData**](/windows/desktop/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata) | Provides runtime access to Device Removed Extended Data (DRED) data. |
+| [**ID3D12DeviceRemovedExtendedDataSettings**](/windows/desktop/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings) | This interface controls Device Removed Extended Data (DRED) settings. |
 | [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence) | Represents a fence, an object used for synchronization of the CPU and one or more GPUs.  |
 | [**ID3D12Fence1**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence1) | Represents a fence. This interface extends [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence), and supports the retrieval of the flags used to create the original fence.  |
 | [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) | Encapsulates a list of graphics commands for rendering. Includes APIs for instrumenting the command list execution, and for setting and clearing the pipeline state. |

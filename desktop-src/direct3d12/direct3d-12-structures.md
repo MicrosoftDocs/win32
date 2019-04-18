@@ -4,6 +4,7 @@ description: The following structures are declared in d3d12.h.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
 ms.topic: article
 ms.date: 11/27/2018
+ms.custom: 19H1
 ---
 
 # Core structures
@@ -14,6 +15,7 @@ The following structures are declared in d3d12.h.
 
 | Topic and description |
 |-|
+| [**D3D12_AUTO_BREADCRUMB_NODE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_auto_breadcrumb_node). Represents Device Removed Extended Data (DRED) auto-breadcrumb data as a node in a linked list. |
 | [**D3D12_BLEND_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_blend_desc). Describes the blend state. |
 | [**D3D12_BOX**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_box). Describes a 3D box. |
 | [**D3D12_BUFFER_RTV**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_buffer_rtv). Describes the elements in a buffer resource to use in a render-target view. |
@@ -34,10 +36,15 @@ The following structures are declared in d3d12.h.
 | [**D3D12_DESCRIPTOR_HEAP_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_heap_desc). Describes the descriptor heap. |
 | [**D3D12_DESCRIPTOR_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range). Describes a descriptor range. |
 | [**D3D12_DESCRIPTOR_RANGE1**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range1). Describes a descriptor range, with flags to determine their volatility. |
+| [**D3D12_DEVICE_REMOVED_EXTENDED_DATA**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_device_removed_extended_data). Represents Device Removed Extended Data (DRED) version 1.0 data. |
+| [**D3D12_DEVICE_REMOVED_EXTENDED_DATA1**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_device_removed_extended_data1). Represents Device Removed Extended Data (DRED) version 1.1 device removal data, so that debuggers and debugger extensions can access DRED data. |
 | [**D3D12_DISCARD_REGION**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_discard_region). Describes details for the discard-resource operation. |
 | [**D3D12_DISPATCH_ARGUMENTS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_dispatch_arguments). Describes dispatch parameters, for use by the compute shader. |
 | [**D3D12_DRAW_ARGUMENTS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_draw_arguments). Describes parameters for drawing instances. |
 | [**D3D12_DRAW_INDEXED_ARGUMENTS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_draw_indexed_arguments). Describes parameters for drawing indexed instances. |
+| [**D3D12_DRED_ALLOCATION_NODE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_dred_allocation_node). Describes, as a node in a linked list, data about an allocation tracked by Device Removed Extended Data (DRED). |
+| [**D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_dred_auto_breadcrumbs_output). Contains a pointer to the head of a linked list of [D3D12_AUTO_BREADCRUMB_NODE](/windows/desktop/api/d3d12/ns-d3d12-d3d12_auto_breadcrumb_node) objects. The list represents the auto-breadcrumb state prior to device removal. |
+| [**D3D12_DRED_PAGE_FAULT_OUTPUT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_dred_page_fault_output). Describes allocation data related to a GPU page fault on a given virtual address (VA). |
 | [**D3D12_FEATURE_DATA_ARCHITECTURE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_feature_data_architecture). Provide detail about the adapter architecture, helping applications better optimize for certain adapter properties. |
 | [**D3D12_FEATURE_DATA_ARCHITECTURE1**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_feature_data_architecture1). Provide detail about the adapter architecture, helping applications better optimize for certain adapter properties. |
 | [**D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_command_queue_priority). Details the adapter's support for prioritization of different command queue types. |
@@ -160,6 +167,7 @@ The following structures are declared in d3d12.h.
 | [**D3D12_TILED_RESOURCE_COORDINATE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_tiled_resource_coordinate). Describes the coordinates of a tiled resource. |
 | [**D3D12_UNORDERED_ACCESS_VIEW_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_unordered_access_view_desc). Describes the subresources from a resource that are accessible by using an unordered-access view. |
 | [**D3D12_VERTEX_BUFFER_VIEW**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view). Describes a vertex buffer view. |
+| [**D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_device_removed_extended_data). Represents versioned Device Removed Extended Data (DRED) data, so that debuggers and debugger extensions can access DRED data. |
 | [**D3D12_VERSIONED_ROOT_SIGNATURE_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc). Holds any version of a root signature description, and is designed to be used with serialization/deserialization functions. |
 | [**D3D12_VIEW_INSTANCE_LOCATION**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_view_instance_location). Specifies the viewport/stencil and render target associated with a view instance. |
 | [**D3D12_VIEW_INSTANCING_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_view_instancing_desc). Specifies parameters used during view instancing configuration. |
