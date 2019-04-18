@@ -1,9 +1,9 @@
----
+﻿---
 title: Direct3D 12 reference
 description: This section covers APIs for Direct3D 12-based graphics programming.
 ms.assetid: C4958E15-28BA-4275-882B-244D4CC22E1A
 ms.topic: article
-ms.date: 11/27/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

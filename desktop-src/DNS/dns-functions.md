@@ -1,11 +1,11 @@
----
+﻿---
 title: DNS Functions
 description: Domain Name System (DNS) functions navigation page.
 ms.assetid: 9b3c1c20-5516-41de-b00f-b95736ff53f1
 keywords:
 - Domain Name System, reference, functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

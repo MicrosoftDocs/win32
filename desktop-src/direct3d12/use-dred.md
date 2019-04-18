@@ -1,9 +1,9 @@
----
+﻿---
 title: Use DRED to diagnose GPU faults
 description: Device Removed Extended Data (DRED) is an evolving set of diagnostic features designed to help you to identify the cause of unexpected device removal errors.
 ms.custom: 19H1
 ms.topic: article
-ms.date: 02/14/2019
+ms.date: 04/19/2019
 ---
 
 # Use DRED to diagnose GPU faults

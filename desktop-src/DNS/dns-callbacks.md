@@ -1,9 +1,9 @@
----
+﻿---
 title: DNS Callbacks
 description: DNS Callbacks
 ms.assetid: 0564A588-F372-483E-AC12-9B8E834ECCFF
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

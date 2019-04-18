@@ -1,9 +1,9 @@
----
+﻿---
 title: Core enumerations
 description: The following enumerations are declared in d3d12.h.
 ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
 ms.topic: article
-ms.date: 11/27/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

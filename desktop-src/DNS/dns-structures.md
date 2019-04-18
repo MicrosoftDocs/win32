@@ -1,4 +1,4 @@
----
+﻿---
 title: DNS Structures
 description: Domain Name System (DNS) structures navigation page.
 ms.assetid: 636399be-43a5-4ddf-b652-f8efb81fbf42
@@ -7,7 +7,7 @@ keywords:
 - DNS Structures
 - Domain Name System, reference, structures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

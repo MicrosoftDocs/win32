@@ -1,9 +1,9 @@
----
+﻿---
 title: Binding in DirectML
 description: The DirectML debug layer is an optional development-time component that helps you in debugging your DirectML code.
 ms.custom: 19H1
 ms.topic: article
-ms.date: 03/13/2019
+ms.date: 04/19/2019
 ---
 
 # Using the DirectML debug layer

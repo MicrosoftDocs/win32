@@ -1,9 +1,9 @@
----
+﻿---
 title: Direct Machine Learning (DirectML)
 description: TBD
 ms.custom: 19H1
 ms.topic: article
-ms.date: 02/01/2019
+ms.date: 04/19/2019
 ---
 
 # Direct Machine Learning (DirectML)

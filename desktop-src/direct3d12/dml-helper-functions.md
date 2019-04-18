@@ -1,9 +1,9 @@
----
+﻿---
 title: Binding in DirectML
 description: Some code listings of essential DirectML helper functions.
 ms.custom: 19H1
 ms.topic: article
-ms.date: 03/13/2019
+ms.date: 04/19/2019
 ---
 
 # DirectML helper functions

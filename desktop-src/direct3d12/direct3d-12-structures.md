@@ -1,9 +1,9 @@
----
+﻿---
 title: Core structures
 description: The following structures are declared in d3d12.h.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
 ms.topic: article
-ms.date: 11/27/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

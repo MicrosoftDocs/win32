@@ -1,9 +1,9 @@
----
+﻿---
 title: Binding in DirectML
 description: Describes the correctness benefits of barriers, and how you can work with them in DirectML.
 ms.custom: 19H1
 ms.topic: article
-ms.date: 03/12/2019
+ms.date: 04/19/2019
 ---
 
 # UAV barriers and resource state barriers in DirectML
