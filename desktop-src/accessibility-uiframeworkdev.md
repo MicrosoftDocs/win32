@@ -5,19 +5,18 @@ ms.topic: article
 ms.date: 04/18/2019
 ---
 
-# Developing accessible Windows applications
+# Developing accessible UI frameworks for Windows
 
-Building a UI framework for the Windows platform that provides robust usability for the most people possible requires significant investment in accessibility support.
+To be usable by as many people as possible, UI frameworks built for the Windows platform should support accessibility features that make it easier for those with disabilities, personal preferences, or specific work styles to use their Windows devices successfully.
 
- supports a variety of accessibility features that can make it easier for users with disabilities, personal preferences, or specific work styles to successfully use any Windows device.
-supported in each, and how you can incorporate them as you build your application.
-
-This overview describes the accessibility features you should consider supporting in any UI framework you build, including programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization with user settings.
+This overview describes how to build a UI framework that supports features such as programmatic access and automation, keyboard navigation and commanding, color and theme options, and personalization through user settings.
 
 ## In this section
 
-- [Web applications](https://docs.microsoft.com/microsoft-edge/accessibility)
-- [Win32 apps](https://docs.microsoft.com/en-us/windows/desktop/winauto/windows-accessibility-features)
-- [UWP apps](https://docs.microsoft.com/windows/uwp/design/accessibility/accessibility)
-- [WinForms apps](https://docs.microsoft.com/dotnet/framework/winforms/advanced/windows-forms-accessibility)
-- [WPF apps](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/)
+- Programmatic access
+  - [UI Automation for Win32](https://docs.microsoft.com/en-us/windows/desktop/winauto/entry-uiauto-win32)
+  - [UI Automation for .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-overview)
+- [Keyboard accessibility](https://docs.microsoft.com/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
+- [Color and theme \***LINK**\*](???)
+- [User settings \***LINK**\*](???)
+- [Samples](https://github.com/Microsoft/WPF-Samples/tree/master/Accessibility)
