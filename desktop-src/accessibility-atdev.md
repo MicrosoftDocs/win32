@@ -1,11 +1,13 @@
 ---
 Description: Overview of the Windows accessibility features you can incorporate into your UI framework.
-title: Developing accessible UI frameworks for Windows
+title: Developing assistive technology for Windows
 ms.topic: article
 ms.date: 04/18/2019
 ---
 
-# Developing accessible UI frameworks for Windows
+# Developing assistive technology for Windows
+
+
 
 To be usable by as many people as possible, UI frameworks built for the Windows platform should support accessibility features that make it easier for those with disabilities, personal preferences, or specific work styles to use their Windows devices successfully.
 
@@ -13,10 +15,8 @@ This overview describes how to build a UI framework that supports features such 
 
 ## In this section
 
-- Programmatic access
-  - [UI Automation for Win32](https://docs.microsoft.com/en-us/windows/desktop/winauto/entry-uiauto-win32)
-  - [UI Automation for .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-overview)
-- [Keyboard accessibility](https://docs.microsoft.com/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
+- [Windows Automation API](https://docs.microsoft.com/en-us/windows/desktop/WinAuto/windows-automation-api-portal)
+- [Ease of Access Assistive Technology Registration](https://docs.microsoft.com/en-us/windows/desktop/winauto/ease-of-access---assistive-technology-registration)
+- [Magnification API](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/magapi/entry-magapi-sdk)
 - [Color and theme \***LINK**\*](???)
-- [User settings \***LINK**\*](???)
-- [Samples](https://github.com/Microsoft/WPF-Samples/tree/master/Accessibility)
+- [Hearing \***LINK**\*](???)

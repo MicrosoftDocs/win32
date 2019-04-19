@@ -1,6 +1,6 @@
 ---
-Description: Overview of the Windows accessibility features you can incorporate as you build your application.
-title: Developing accessible Windows applications
+Description: Overview of the Windows accessibility features you can incorporate when building your application.
+title: Developing accessible applications for Windows
 ms.topic: article
 ms.date: 04/18/2019
 ---
