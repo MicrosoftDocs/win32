@@ -50,9 +50,11 @@
         items: 
         - name: "What's new"
           href: accessibility-whatsnew.md
-        - name: "What's new"
-          href: accessibility-appdev.md
         - name: "Developing accessible Windows applications"
+          href: accessibility-appdev.md
+        - name: "Developing accessible UI frameworks"
+          href: accessibility-uiframeworkdev.md
+        - name: "Windows Accessibility Features"
           href: winauto/windows-accessibility-features.md
       - name: "Desktop App User Interface"
         href: windows-application-ui-development.md
