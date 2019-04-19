@@ -6,15 +6,13 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Accessibility
+# Windows accessibility
 
-The Accessibility documentation provides information for developers seeking to create Windows-based applications that can be used by as many people as possible, including those with impairments or disabilities. It describes the Windows features and APIs that developers can use to create accessible applications, and that assistive technology developers can use to create tools such as screen readers and magnifiers.
+This section includes documentation for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
 
-This documentation also provides information for software test engineers seeking to create automated scripts and tools for testing Windows-based applications.
+Use the resources provided here to build accessible Windows applications that can be used by as many people as possible, including those with disabilities, personal preferences, and specific work styles. 
 
 ## In this section
-
-
 
 | Topic                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
