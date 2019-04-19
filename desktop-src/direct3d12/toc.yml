@@ -1687,7 +1687,7 @@
           - name: "RecordDispatch"
             href: /windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch
         - name: "IDMLCompiledOperator"
-          href: /windows/desktop/api/directml/nf-directml-idmlcompiledoperator
+          href: /windows/desktop/api/directml/nn-directml-idmlcompiledoperator
           items: 
           - name: "StoreCompiledOperator"
             href: /windows/desktop/api/directml/nf-directml-idmlcompiledoperator-storecompiledoperator
