@@ -1692,12 +1692,12 @@
           - name: "StoreCompiledOperator"
             href: /windows/desktop/api/directml/nf-directml-idmlcompiledoperator-storecompiledoperator
         - name: "IDMLDebugDevice"
-          href: /windows/desktop/api/directml/nf-directml-idmldebugdevice
+          href: /windows/desktop/api/directml/nn-directml-idmldebugdevice
           items: 
           - name: "SetMuteDebugOutput"
             href: /windows/desktop/api/directml/nf-directml-idmldebugdevice-setmutedebugoutput
         - name: "IDMLDevice"
-          href: /windows/desktop/api/directml/nf-directml-idmldevice
+          href: /windows/desktop/api/directml/nn-directml-idmldevice
           items: 
           - name: "CheckFeatureSupport"
             href: /windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport
@@ -1722,17 +1722,17 @@
           - name: "MakeResident"
             href: /windows/desktop/api/directml/nf-directml-idmldevice-makeresident
         - name: "IDMLDeviceChild"
-          href: /windows/desktop/api/directml/nf-directml-idmldevicechild
+          href: /windows/desktop/api/directml/nn-directml-idmldevicechild
           items: 
           - name: "GetDevice"
             href: /windows/desktop/api/directml/nf-directml-idmldevicechild-getdevice
         - name: "IDMLDispatchable"
-          href: /windows/desktop/api/directml/nf-directml-idmldispatchable
+          href: /windows/desktop/api/directml/nn-directml-idmldispatchable
           items: 
           - name: "GetBindingProperties"
             href: /windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties
         - name: "IDMLObject"
-          href: /windows/desktop/api/directml/nf-directml-idmlobject
+          href: /windows/desktop/api/directml/nn-directml-idmlobject
           items: 
           - name: "GetPrivateData"
             href: /windows/desktop/api/directml/nf-directml-idmlobject-getprivatedata
@@ -1743,14 +1743,14 @@
           - name: "SetPrivateDataInterface"
             href: /windows/desktop/api/directml/nf-directml-idmlobject_setprivatedatainterface
         - name: "IDMLOperator"
-          href: /windows/desktop/api/directml/nf-directml-idmloperator
+          href: /windows/desktop/api/directml/nn-directml-idmloperator
         - name: "IDMLOperatorInitializer"
-          href: /windows/desktop/api/directml/nf-directml-idmloperatorinitializer
+          href: /windows/desktop/api/directml/nn-directml-idmloperatorinitializer
           items: 
           - name: "Reset"
             href: /windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset
         - name: "IDMLPageable"
-          href: /windows/desktop/api/directml/nf-directml-idmlpageable
+          href: /windows/desktop/api/directml/nn-directml-idmlpageable
       - name: "DirectML functions"
         href: direct3d-directml-functions.md
         items: 
