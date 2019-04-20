@@ -54,6 +54,10 @@
           href: accessibility-appdev.md
         - name: "Developing accessible UI frameworks"
           href: accessibility-uiframeworkdev.md
+        - name: "Developing assistive technology for Windows"
+          href: accessibility-atdev.md
+        - name: "Testing with UI Automation"
+          href: accessibility-testwithuia.md
         - name: "Windows Accessibility Features"
           href: winauto/windows-accessibility-features.md
       - name: "Desktop App User Interface"
