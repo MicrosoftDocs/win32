@@ -48,7 +48,7 @@
       - name: "Accessibility"
         href: accessibility.md
         items: 
-        - name: "What's new"
+        - name: "What's new in Windows accessibility and automation"
           href: accessibility-whatsnew.md
         - name: "Developing accessible Windows applications"
           href: accessibility-appdev.md
@@ -58,9 +58,11 @@
           href: accessibility-atdev.md
         - name: "Testing with UI Automation"
           href: accessibility-testwithuia.md
-        - name: "Testing with UI Automation"
+        - name: "Legacy accessibility and automation technology"
           href: accessibility-legacy.md
-        - name: "Legacy accessibility technology - MSAA to UI Automation"
+        - name: "Accessibility and automation feature reference"
+          href: accessibility-reference.md
+        - name: "Windows Accessibility Features"
           href: winauto/windows-accessibility-features.md
       - name: "Desktop App User Interface"
         href: windows-application-ui-development.md

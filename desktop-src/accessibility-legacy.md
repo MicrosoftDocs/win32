@@ -1,11 +1,11 @@
 ---
-Description: Overview of the Windows accessibility features you can incorporate into your UI framework.
-title: Developing assistive technology for Windows
+Description: Overview of the Windows accessibility technologies, including MSAA and UI Automation.
+title: Legacy Windows accessibility and automation technology - MSAA to UI Automation
 ms.topic: article
 ms.date: 04/18/2019
 ---
 
-# Legacy accessibility technology - MSAA to UI Automation
+# Legacy accessibility and automation technology - MSAA to UI Automation
 
 Windows accessibility and automation consist of two technologies—Microsoft Active Accessibility (MSAA) and Microsoft UI Automation. MSAA is a legacy technology introduced with Windows 95, while UI Automation is a newer, more capable technology that addresses the limitations of MSAA.
 
