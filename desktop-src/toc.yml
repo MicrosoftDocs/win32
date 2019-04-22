@@ -58,7 +58,9 @@
           href: accessibility-atdev.md
         - name: "Testing with UI Automation"
           href: accessibility-testwithuia.md
-        - name: "Windows Accessibility Features"
+        - name: "Testing with UI Automation"
+          href: accessibility-legacy.md
+        - name: "Legacy accessibility technology - MSAA to UI Automation"
           href: winauto/windows-accessibility-features.md
       - name: "Desktop App User Interface"
         href: windows-application-ui-development.md
