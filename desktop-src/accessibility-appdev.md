@@ -7,7 +7,7 @@ ms.date: 04/18/2019
 
 # Developing accessible applications for Windows
 
-Each Windows application development framework supports numerous accessibility features that make it easier for users with disabilities, personal preferences, or specific work styles to successfully use any Windows device they choose.
+Each Windows application framework supports numerous accessibility features that make it easier for users with disabilities, personal preferences, or specific work styles to successfully use any Windows device they choose.
 
 This overview describes the accessibility features supported in each framework, and how you can incorporate them as you build your application.
 

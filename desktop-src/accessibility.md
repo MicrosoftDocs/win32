@@ -10,24 +10,24 @@ ms.date: 05/31/2018
 
 This section includes documentation for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
 
-Use the resources provided here to build accessible Windows applications that can be used by as many people as possible, including those with disabilities, personal preferences, and specific work styles. 
+Use the resources provided here to build accessible Windows applications that can be used by as many people as possible, including those with disabilities, personal preferences, and specific work styles.
 
 ## In this section
 
-| Topic                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Windows Accessibility Features](https://msdn.microsoft.com/library/windows/desktop/dd373879)<br/> | Describes the Windows system settings and parameters that help make the computer easier to use for people with impairments or disabilities, and explains how to use Windows API elements to programmatically access these settings and parameters.<br/>                                                                                                                                                                         |
-| [Windows Automation API](https://msdn.microsoft.com/library/windows/desktop/ff486375)<br/>          | Describes the Windows APIs that developers can use to make applications running on Windows more accessible to many people with vision, hearing, or motion disabilities. The APIs includes Microsoft Microsoft UI Automation and its predecessor technology, Microsoft Active Accessibility. In addition to accessibility support, UI Automation provides robust support for automated software testing scripts and tools. <br/> |
-| [Magnification API](https://msdn.microsoft.com/library/windows/desktop/ms692162)<br/>                             | Describes the Windows API that developers can use to create assistive technology applications that magnify portions of the screen, as well as apply color effects and other transformations.<br/>                                                                                                                                                                                                                               |
+| Topic | Description |
+|-|-|
+| [New Windows accessibility features, tools, documentation, and samples for developers](accessibility-whatsnew.md) | The Windows platform is constantly being updated with new accessibility and automation features for developers. |
+| [Developing accessible applications for Windows](accessibility-appdev.md) | Each Windows application framework supports numerous accessibility features that make it easier for users with disabilities, personal preferences, or specific work styles to successfully use any Windows device they choose. |
+| [Developing accessible UI frameworks for Windows](accessibility-uiframeworkdev.md) | To be usable by as many people as possible, UI frameworks built for the Windows platform should support accessibility features that make it easier for those with disabilities, personal preferences, or specific work styles to use their Windows devices successfully. |
+| [Developing assistive technology for Windows](accessibility-atdev.md) | Third-party assistive technology products—such as screen readers, magnifiers and speciality hardware—are essential tools for many users of Windows (and other Microsoft products). |
+| [Testing with UI Automation and other tools](accessibility-testwithuia.md) | Testing the accessibility of your Windows applications, assistive technology tools, and UI frameworks is a critical step in ensuring successful user experiences for people with disabilities and other limitations, as well as users who prefer keyboard interactions. |
+| [Legacy accessibility and automation technology - MSAA to UI Automation](accessibility-legacy.md) | Windows accessibility and automation consist of two technologies—Microsoft Active Accessibility (MSAA) and Microsoft UI Automation. MSAA is a legacy technology introduced with Windows 95, while UI Automation is a newer, more capable technology that addresses the limitations of MSAA. |
+| [Windows accessibility and automation reference](accessibility-reference.md) | The Desktop Win32 APIs provide accessibility and automation features to help developers build applications and UI frameworks, assistive technology vendors build tools, testers ensure quality implementations, and people with disabilities use their computers and devices. |
 
+## Old links (for reference)
 
-
- 
-
- 
-
- 
-
-
-
-
+| Topic | Description |
+|-|-|
+| [Windows Accessibility Features](https://msdn.microsoft.com/library/windows/desktop/dd373879) | Describes the Windows system settings and parameters that help make the computer easier to use for people with impairments or disabilities, and explains how to use Windows API elements to programmatically access these settings and parameters. |
+| [Windows Automation API](https://msdn.microsoft.com/library/windows/desktop/ff486375) | Describes the Windows APIs that developers can use to make applications running on Windows more accessible to many people with vision, hearing, or motion disabilities. The APIs includes Microsoft Microsoft UI Automation and its predecessor technology, Microsoft Active Accessibility. In addition to accessibility support, UI Automation provides robust support for automated software testing scripts and tools. |
+| [Magnification API](https://msdn.microsoft.com/library/windows/desktop/ms692162) | Describes the Windows API that developers can use to create assistive technology applications that magnify portions of the screen, as well as apply color effects and other transformations. |

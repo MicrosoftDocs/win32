@@ -7,7 +7,7 @@ ms.date: 04/18/2019
 
 # New Windows accessibility features, tools, documentation, and samples for developers
 
-Windows accessibility is constantly being updated with new features for developers across the Windows platform.
+The Windows platform is constantly being updated with new accessibility and automation features for developers.
 
 [Install the tools and SDK](https://go.microsoft.com/fwlink/?LinkId=821431) on Windows 10 and you’re ready to either create a new Universal Windows app or explore how you can use your existing app code on Windows.
 
