@@ -109,7 +109,7 @@ If the screen-space image is larger than it needs to be for a given render targe
 If the screen-space image is too small for a given render target, any attempted read from the image beyond its actual extents yields a default shading rate of 1x1. This is because the screen-space image's top left (0, 0) is locked to the render-target's top left (0, 0) and "reading beyond the render-target extents" means reading too-great of values for x and y.
 
 #### Format, layout, resource properties
-The format of this surface is a single-channel 8-bit surface ([**DXGI_FORMAT_R8_UINT**](windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)).
+The format of this surface is a single-channel 8-bit surface ([**DXGI_FORMAT_R8_UINT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)).
 
 The resource is dimension **TEXTURE2D**.
 
@@ -145,7 +145,7 @@ The resource can't be SIMULTANEOUS_ACCESS. The resource is not allowed to be cro
 Each byte of the screen-space image corresponds to a value of the [**D3D12_SHADING_RATE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate)  enumeration.
 
 #### Resource state
-A resource needs to be transitioned into a read-only state when used as a screen-space image. A read-only state, [**D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE**](windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states), is defined for this purpose.
+A resource needs to be transitioned into a read-only state when used as a screen-space image. A read-only state, [**D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states), is defined for this purpose.
 
 The image resource is transitioned out of that state to become writable again.
 
@@ -488,7 +488,7 @@ This next section describes the manner in which variable-rate shading is accessi
 
 ### Capability querying
 
-To query for the adapter's variable-rate shading capability, call [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) with [**D3D12_FEATURE::D3D12_FEATURE_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature), and provide a [**D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure](ns-d3d12-d3d12_feature_data_d3d12_options6) for the function to fill in for you. The **D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure contains several members, including one of the enumerated type [**D3D12_VARIABLE_SHADING_RATE_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier).
+To query for the adapter's variable-rate shading capability, call [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) with [**D3D12_FEATURE::D3D12_FEATURE_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature), and provide a [**D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6) for the function to fill in for you. The **D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure contains several members, including one of the enumerated type [**D3D12_VARIABLE_SHADING_RATE_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier).
 
 To query for Tier 1 capability, for example, you can do this.
 
@@ -541,6 +541,6 @@ m_commandList->RSSetShadingRateImage(screenSpaceImage);
 ```
 
 ### Querying the tile size
-You can query the tile size from the [**D3D12_FEATURE_DATA_D3D12_OPTIONS6::ShadingRateImageTileSize**](ns-d3d12-d3d12_feature_data_d3d12_options6) member. See [Capability querying](#capability-querying) above.
+You can query the tile size from the [**D3D12_FEATURE_DATA_D3D12_OPTIONS6::ShadingRateImageTileSize**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6) member. See [Capability querying](#capability-querying) above.
 
 One dimension is retrieved, since the horizontal and vertical dimensions are always the same. If the system's capability is [**D3D12_SHADING_RATE_TIER_NOT_SUPPORTED**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier), then the tile size returned is 0.

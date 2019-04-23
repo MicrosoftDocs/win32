@@ -34,6 +34,8 @@
         href: using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md
       - name: "Pipelines and Shaders with Direct3D 12"
         href: pipelines-and-shaders-with-directx-12.md
+      - name: "Variable-rate shading (VRS)"
+        href: vrs.md
       - name: "Render passes"
         href: direct3d-12-render-passes.md
     - name: "Resource Binding in Direct3D 12"
