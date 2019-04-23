@@ -27,6 +27,16 @@ This topic contains information about low-level APIs that are used by the Window
 </thead>
 <tbody>
 <tr class="odd">
+<td><a href="/windows/desktop/api/DevNotes/-win32-allmul"><strong>_allmul</strong></a></td>
+<td>Multiplies two <strong>LONGLONG</strong> or <strong>ULONGLONG</strong> integers.
+For example, to multiply two int64 values the compiler might generate a call to the <strong>_allmul</strong> routine.<br/></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/DevNotes/-win32-aulldiv"><strong>_aulldiv</strong></a></td>
+<td>Divides two <strong>ULONGLONG</strong> integers.
+For example, to divide two uint64 values the compiler might generate a call to the <strong>_aulldiv</strong> routine.<br/></td>
+</tr>
+<tr class="odd">
 <td><a href="/windows/desktop/api/winbase/nf-winbase-_lclose"><strong>_lclose</strong></a></td>
 <td>The _lclose function closes the specified file so that it is no longer available for reading or writing. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CloseHandle function.<br/></td>
 </tr>
