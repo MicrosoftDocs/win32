@@ -27,7 +27,6 @@ This topic contains information about low-level APIs that are used by the Window
 </thead>
 <tbody>
 <tr class="odd">
-<tr class="odd">
 <td><a href="/windows/desktop/api/winbase/nf-winbase-_lclose"><strong>_lclose</strong></a></td>
 <td>The _lclose function closes the specified file so that it is no longer available for reading or writing. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CloseHandle function.<br/></td>
 </tr>
