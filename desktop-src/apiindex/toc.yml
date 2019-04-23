@@ -23,5 +23,3 @@
       href: windows-8-api-sets.md
   - name: "UWP APIs callable from a classic desktop app"
     href: uwp-apis-callable-from-a-classic-desktop-app.md
-  - name: "WinRT 8.x APIs for desktop"
-    href: winrt-apis-for-desktop-apps.md

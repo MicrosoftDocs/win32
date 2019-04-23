@@ -637,8 +637,12 @@
         href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageid
       - name: "GetCurrentPackageInfo"
         href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageinfo
+      - name: "GetCurrentPackageInfo2"
+        href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackageinfo2
       - name: "GetCurrentPackagePath"
         href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagepath
+      - name: "GetCurrentPackagePath2"
+        href: /windows/desktop/api/AppModel/nf-appmodel-getcurrentpackagepath2
       - name: "GetPackageApplicationIds"
         href: /windows/desktop/api/AppModel/nf-appmodel-getpackageapplicationids
       - name: "GetPackageFamilyName"
@@ -653,16 +657,22 @@
         href: /windows/desktop/api/AppModel/nf-appmodel-getpackageid
       - name: "GetPackageInfo"
         href: /windows/desktop/api/AppModel/nf-appmodel-getpackageinfo
+      - name: "GetPackageInfo2"
+        href: /windows/desktop/api/AppModel/nf-appmodel-getpackageinfo2
       - name: "GetPackagePath"
         href: /windows/desktop/api/AppModel/nf-appmodel-getpackagepath
       - name: "GetPackagePathByFullName"
         href: /windows/desktop/api/AppModel/nf-appmodel-getpackagepathbyfullname
+      - name: "GetPackagePathByFullName2"
+        href: /windows/desktop/api/AppModel/nf-appmodel-getpackagepathbyfullname2
       - name: "GetPackagesByPackageFamily"
         href: /windows/desktop/api/AppModel/nf-appmodel-getpackagesbypackagefamily
       - name: "GetStagedPackageOrigin"
         href: /windows/desktop/api/AppModel/nf-appmodel-getstagedpackageorigin
       - name: "GetStagedPackagePathByFullName"
         href: /windows/desktop/api/AppModel/nf-appmodel-getstagedpackagepathbyfullname
+      - name: "GetStagedPackagePathByFullName2"
+        href: /windows/desktop/api/AppModel/nf-appmodel-getstagedpackagepathbyfullname2
       - name: "OpenPackageInfoByFullName"
         href: /windows/desktop/api/AppModel/nf-appmodel-openpackageinfobyfullname
       - name: "PackageFamilyNameFromFullName"

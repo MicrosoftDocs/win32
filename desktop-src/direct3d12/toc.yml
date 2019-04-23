@@ -34,6 +34,8 @@
         href: using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md
       - name: "Pipelines and Shaders with Direct3D 12"
         href: pipelines-and-shaders-with-directx-12.md
+      - name: "Variable-rate shading (VRS)"
+        href: vrs.md
       - name: "Render passes"
         href: direct3d-12-render-passes.md
     - name: "Resource Binding in Direct3D 12"
@@ -201,6 +203,8 @@
       items: 
       - name: "Use Debug Layer GPU-based validation"
         href: using-d3d12-debug-layer-gpu-based-validation.md
+      - name: "Use DRED to diagnose GPU faults"
+        href: use-dred.md
     - name: "Direct Machine Learning (DirectML)"
       href: dml.md
       items: 
@@ -401,6 +405,22 @@
           items: 
           - name: "GetDevice"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12devicechild-getdevice
+        - name: "ID3D12DeviceRemovedExtendedData"
+          href: /windows/desktop/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata
+          items: 
+          - name: "GetAutoBreadcrumbsOutput"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddata-getautobreadcrumbsoutput
+          - name: "GetPageFaultAllocationOutput"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddata-getpagefaultallocationoutput
+        - name: "ID3D12DeviceRemovedExtendedDataSettings"
+          href: /windows/desktop/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings
+          items: 
+          - name: "SetAutoBreadcrumbsEnablement"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddatasettings-setautobreadcrumbsenablement
+          - name: "SetPageFaultEnablement"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddatasettings-setpagefaultenablement
+          - name: "SetWatsonDumpEnablement"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12deviceremovedextendeddatasettings-setwatsondumpenablement
         - name: "ID3D12Fence"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12fence
           items: 
@@ -566,6 +586,13 @@
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand
           - name: "SetPipelineState1"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-setpipelinestate1
+        - name: "ID3D12GraphicsCommandList5"
+          href: /windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist5
+          items: 
+          - name: "RSSetShadingRate"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrate
+          - name: "RSSetShadingRateImage"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrateimage
         - name: "ID3D12Heap"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12heap
           items: 
@@ -697,6 +724,8 @@
       - name: "Core structures"
         href: direct3d-12-structures.md
         items: 
+        - name: "D3D12_AUTO_BREADCRUMB_NODE"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_auto_breadcrumb_node
         - name: "D3D12_BLEND_DESC"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_blend_desc
         - name: "D3D12_BOX"
@@ -743,6 +772,10 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range
         - name: "D3D12_DESCRIPTOR_RANGE1"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range1
+        - name: "D3D12_DEVICE_REMOVED_EXTENDED_DATA"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_device_removed_extended_data
+        - name: "D3D12_DEVICE_REMOVED_EXTENDED_DATA1"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_device_removed_extended_data1
         - name: "D3D12_DISCARD_REGION"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_discard_region
         - name: "D3D12_DISPATCH_ARGUMENTS"
@@ -753,6 +786,12 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_draw_arguments
         - name: "D3D12_DRAW_INDEXED_ARGUMENTS"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_draw_indexed_arguments
+        - name: "D3D12_DRED_ALLOCATION_NODE"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_dred_allocation_node
+        - name: "D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_dred_auto_breadcrumbs_output
+        - name: "D3D12_DRED_PAGE_FAULT_OUTPUT"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_dred_page_fault_output
         - name: "D3D12_DXIL_LIBRARY_DESC"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_library_desc
         - name: "D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
@@ -775,6 +814,10 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options2
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS3"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS5"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS6"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6
         - name: "D3D12_FEATURE_DATA_EXISTING_HEAPS"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps
         - name: "D3D12_FEATURE_DATA_FEATURE_LEVELS"
@@ -1031,6 +1074,8 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc
         - name: "D3D12_VERTEX_BUFFER_VIEW"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view
+        - name: "D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_device_removed_extended_data
         - name: "D3D12_VERSIONED_ROOT_SIGNATURE_DESC"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc
         - name: "D3D12_VIEW_INSTANCE_LOCATION"
@@ -1048,6 +1093,10 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version
         - name: "D3D_SHADER_MODEL"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d_shader_model
+        - name: "D3D12_AUTO_BREADCRUMB_OP"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_auto_breadcrumb_op
+        - name: "D3D12_AXIS_SHADING_RATE"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_axis_shading_rate
         - name: "D3D12_BLEND"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_blend
         - name: "D3D12_BLEND_OP"
@@ -1092,6 +1141,10 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags
         - name: "D3D12_DESCRIPTOR_RANGE_TYPE"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type
+        - name: "D3D12_DRED_ALLOCATION_TYPE"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_dred_allocation_type
+        - name: "D3D12_DRED_ENABLEMENT"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_dred_enablement
         - name: "D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_matching_identifier_status
         - name: "D3D12_DSV_DIMENSION"
@@ -1222,6 +1275,10 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support
         - name: "D3D12_SHADER_VISIBILITY"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility
+        - name: "D3D12_SHADING_RATE"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate
+        - name: "D3D12_SHADING_RATE_COMBINER"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate_combiner
         - name: "D3D12_SRV_DIMENSION"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension
         - name: "D3D12_STATE_OBJECT_FLAGS"
@@ -1250,6 +1307,8 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier
         - name: "D3D12_UAV_DIMENSION"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_uav_dimension
+        - name: "D3D12_VARIABLE_SHADING_RATE_TIER"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier
         - name: "D3D12_VIEW_INSTANCE_FLAGS"
           href: https://msdn.microsoft.com/en-us/library/Mt844810(v=VS.85).aspx
         - name: "D3D12_VIEW_INSTANCING_TIER"
@@ -1624,6 +1683,318 @@
         items: 
         - name: "D3D11_RESOURCE_FLAGS"
           href: /windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags
+    - name: "DirectML reference"
+      href: direct3d-directml-reference.md
+      items: 
+      - name: "DirectML interfaces"
+        href: direct3d-directml-interfaces.md
+        items: 
+        - name: "IDMLBindingTable"
+          href: /windows/desktop/api/directml/nn-directml-idmlbindingtable
+          items: 
+          - name: "BindInputs"
+            href: /windows/desktop/api/directml/nf-directml-idmlbindingtable-bindinputs
+          - name: "BindOutputs"
+            href: /windows/desktop/api/directml/nf-directml-idmlbindingtable-bindoutputs
+          - name: "BindPersistentResource"
+            href: /windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource
+          - name: "BindTemporaryResource"
+            href: /windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource
+          - name: "Reset"
+            href: /windows/desktop/api/directml/nf-directml-idmlbindingtable-reset
+        - name: "IDMLCommandRecorder"
+          href: /windows/desktop/api/directml/nn-directml-idmlcommandrecorder
+          items: 
+          - name: "RecordDispatch"
+            href: /windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch
+        - name: "IDMLCompiledOperator"
+          href: /windows/desktop/api/directml/nn-directml-idmlcompiledoperator
+          items: 
+          - name: "StoreCompiledOperator"
+            href: /windows/desktop/api/directml/nf-directml-idmlcompiledoperator-storecompiledoperator
+        - name: "IDMLDebugDevice"
+          href: /windows/desktop/api/directml/nn-directml-idmldebugdevice
+          items: 
+          - name: "SetMuteDebugOutput"
+            href: /windows/desktop/api/directml/nf-directml-idmldebugdevice-setmutedebugoutput
+        - name: "IDMLDevice"
+          href: /windows/desktop/api/directml/nn-directml-idmldevice
+          items: 
+          - name: "CheckFeatureSupport"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport
+          - name: "CompileOperator"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-compileoperator
+          - name: "CreateBindingTable"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable
+          - name: "CreateCommandRecorder"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-createcommandrecorder
+          - name: "CreateOperator"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-createoperator
+          - name: "CreateOperatorInitializer"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-createoperatorinitializer
+          - name: "Evict"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-evict
+          - name: "GetDeviceRemovedReason"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-getdeviceremovedreason
+          - name: "GetParentDevice"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-getparentdevice
+          - name: "LoadCompiledOperator"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-loadcompiledoperator
+          - name: "MakeResident"
+            href: /windows/desktop/api/directml/nf-directml-idmldevice-makeresident
+        - name: "IDMLDeviceChild"
+          href: /windows/desktop/api/directml/nn-directml-idmldevicechild
+          items: 
+          - name: "GetDevice"
+            href: /windows/desktop/api/directml/nf-directml-idmldevicechild-getdevice
+        - name: "IDMLDispatchable"
+          href: /windows/desktop/api/directml/nn-directml-idmldispatchable
+          items: 
+          - name: "GetBindingProperties"
+            href: /windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties
+        - name: "IDMLObject"
+          href: /windows/desktop/api/directml/nn-directml-idmlobject
+          items: 
+          - name: "GetPrivateData"
+            href: /windows/desktop/api/directml/nf-directml-idmlobject-getprivatedata
+          - name: "SetName"
+            href: /windows/desktop/api/directml/nf-directml-idmlobject-setname
+          - name: "SetPrivateData"
+            href: /windows/desktop/api/directml/nf-directml-idmlobject-setprivatedata
+          - name: "SetPrivateDataInterface"
+            href: /windows/desktop/api/directml/nf-directml-idmlobject_setprivatedatainterface
+        - name: "IDMLOperator"
+          href: /windows/desktop/api/directml/nn-directml-idmloperator
+        - name: "IDMLOperatorInitializer"
+          href: /windows/desktop/api/directml/nn-directml-idmloperatorinitializer
+          items: 
+          - name: "Reset"
+            href: /windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset
+        - name: "IDMLPageable"
+          href: /windows/desktop/api/directml/nn-directml-idmlpageable
+      - name: "DirectML functions"
+        href: direct3d-directml-functions.md
+        items: 
+        - name: "DMLCreateDevice"
+          href: /windows/desktop/api/directml/nf-directml-dmlcreatedevice
+      - name: "DirectML structures"
+        href: direct3d-directml-structures.md
+        items: 
+        - name: "DML_ACTIVATION_ELU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_elu_operator_desc
+        - name: "DML_ACTIVATION_HARDMAX_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_hardmax_operator_desc
+        - name: "DML_ACTIVATION_HARD_SIGMOID_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_hard_sigmoid_operator_desc
+        - name: "DML_ACTIVATION_IDENTITY_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_identity_operator_desc
+        - name: "DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_leaky_relu_operator_desc
+        - name: "DML_ACTIVATION_LINEAR_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_linear_operator_desc
+        - name: "DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_log_softmax_operator_desc
+        - name: "DML_ACTIVATION_PARAMETERIZED_RELU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_parameterized_relu_operator_desc
+        - name: "DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_parametric_softplus_operator_desc
+        - name: "DML_ACTIVATION_RELU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_relu_operator_desc
+        - name: "DML_ACTIVATION_SCALED_ELU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_scaled_elu_operator_desc
+        - name: "DML_ACTIVATION_SCALED_TANH_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_scaled_tanh_operator_desc
+        - name: "DML_ACTIVATION_SIGMOID_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_sigmoid_operator_desc
+        - name: "DML_ACTIVATION_SOFTMAX_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_softmax_operator_desc
+        - name: "DML_ACTIVATION_SOFTPLUS_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_softplus_operator_desc
+        - name: "DML_ACTIVATION_SOFTSIGN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_softsign_operator_desc
+        - name: "DML_ACTIVATION_TANH_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_tanh_operator_desc
+        - name: "DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_activation_thresholded_relu_operator_desc
+        - name: "DML_AVERAGE_POOLING_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_average_pooling_operator_desc
+        - name: "DML_BATCH_NORMALIZATION_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_batch_normalization_operator_desc
+        - name: "DML_BINDING_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_binding_desc
+        - name: "DML_BINDING_PROPERTIES"
+          href: /windows/desktop/api/directml/ns-directml-dml_binding_properties
+        - name: "DML_BINDING_TABLE_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_binding_table_desc
+        - name: "DML_BUFFER_ARRAY_BINDING"
+          href: /windows/desktop/api/directml/ns-directml-dml_buffer_array_binding
+        - name: "DML_BUFFER_BINDING"
+          href: /windows/desktop/api/directml/ns-directml-dml_buffer_binding
+        - name: "DML_BUFFER_TENSOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_buffer_tensor_desc
+        - name: "DML_CAST_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_cast_operator_desc
+        - name: "DML_CONVOLUTION_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_convolution_operator_desc
+        - name: "DML_DEPTH_TO_SPACE_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_depth_to_space_operator_desc
+        - name: "DML_ELEMENT_WISE_ABS_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_abs_operator_desc
+        - name: "DML_ELEMENT_WISE_ACOS_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_acos_operator_desc
+        - name: "DML_ELEMENT_WISE_ADD_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_add_operator_desc
+        - name: "DML_ELEMENT_WISE_ASIN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_asin_operator_desc
+        - name: "DML_ELEMENT_WISE_ATAN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_atan_operator_desc
+        - name: "DML_ELEMENT_WISE_CEIL_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_ceil_operator_desc
+        - name: "DML_ELEMENT_WISE_CLIP_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_clip_operator_desc
+        - name: "DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_constant_pow_operator_desc
+        - name: "DML_ELEMENT_WISE_COS_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_cos_operator_desc
+        - name: "DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc
+        - name: "DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_divide_operator_desc
+        - name: "DML_ELEMENT_WISE_EXP_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_exp_operator_desc
+        - name: "DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_floor_operator_desc
+        - name: "DML_ELEMENT_WISE_IDENTITY_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_identity_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_and_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_EQUALS_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_equals_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_greater_than_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_less_than_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_NOT_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_not_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_or_operator_desc
+        - name: "DML_ELEMENT_WISE_LOGICAL_XOR_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_logical_xor_operator_desc
+        - name: "DML_ELEMENT_WISE_LOG_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_log_operator_desc
+        - name: "DML_ELEMENT_WISE_MAX_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_max_operator_desc
+        - name: "DML_ELEMENT_WISE_MEAN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_mean_operator_desc
+        - name: "DML_ELEMENT_WISE_MIN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_min_operator_desc
+        - name: "DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_multiply_operator_desc
+        - name: "DML_ELEMENT_WISE_POW_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_pow_operator_desc
+        - name: "DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc
+        - name: "DML_ELEMENT_WISE_RECIP_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_recip_operator_desc
+        - name: "DML_ELEMENT_WISE_SIN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_sin_operator_desc
+        - name: "DML_ELEMENT_WISE_SQRT_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_sqrt_operator_desc
+        - name: "DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_subtract_operator_desc
+        - name: "DML_ELEMENT_WISE_TAN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_tan_operator_desc
+        - name: "DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_element_wise_threshold_operator_desc
+        - name: "DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT"
+          href: /windows/desktop/api/directml/ns-directml-dml_feature_data_tensor_data_type_support
+        - name: "DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT"
+          href: /windows/desktop/api/directml/ns-directml-dml_feature_query_tensor_data_type_support
+        - name: "DML_GATHER_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_gather_operator_desc
+        - name: "DML_GEMM_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_gemm_operator_desc
+        - name: "DML_GRU_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_gru_operator_desc
+        - name: "DML_JOIN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_join_operator_desc
+        - name: "DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_local_response_normalization_operator_desc
+        - name: "DML_LP_NORMALIZATION_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_lp_normalization_operator_desc
+        - name: "DML_LP_POOLING_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_lp_pooling_operator_desc
+        - name: "DML_LSTM_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_lstm_operator_desc
+        - name: "DML_MAX_POOLING_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_max_pooling_operator_desc
+        - name: "DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_mean_variance_normalization_operator_desc
+        - name: "DML_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_operator_desc
+        - name: "DML_PADDING_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_padding_operator_desc
+        - name: "DML_REDUCE_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_reduce_operator_desc
+        - name: "DML_RNN_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_rnn_operator_desc
+        - name: "DML_ROI_POOLING_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_roi_pooling_operator_desc
+        - name: "DML_SCALE_BIAS"
+          href: /windows/desktop/api/directml/ns-directml-dml_scale_bias
+        - name: "DML_SIZE_2D"
+          href: /windows/desktop/api/directml/ns-directml-dml_size_2d
+        - name: "DML_SLICE_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_slice_operator_desc
+        - name: "DML_SPACE_TO_DEPTH_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_space_to_depth_operator_desc
+        - name: "DML_SPLIT_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_split_operator_desc
+        - name: "DML_TENSOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_tensor_desc
+        - name: "DML_TILE_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_tile_operator_desc
+        - name: "DML_TOP_K_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_top_k_operator_desc
+        - name: "DML_UPSAMPLE_2D_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_upsample_2d_operator_desc
+        - name: "DML_VALUE_SCALE_2D_OPERATOR_DESC"
+          href: /windows/desktop/api/directml/ns-directml-dml_value_scale_2d_operator_desc
+      - name: "DirectML enumerations"
+        href: direct3d-directml-enumerations.md
+        items: 
+        - name: "DML_BINDING_TYPE"
+          href: /windows/desktop/api/directml/ne-directml-dml_binding_type
+        - name: "DML_CONVOLUTION_DIRECTION"
+          href: /windows/desktop/api/directml/ne-directml-dml_convolution_direction
+        - name: "DML_CONVOLUTION_MODE"
+          href: /windows/desktop/api/directml/ne-directml-dml_convolution_mode
+        - name: "DML_CREATE_DEVICE_FLAGS"
+          href: /windows/desktop/api/directml/ne-directml-dml_create_device_flags
+        - name: "DML_EXECUTION_FLAGS"
+          href: /windows/desktop/api/directml/ne-directml-dml_execution_flags
+        - name: "DML_FEATURE"
+          href: /windows/desktop/api/directml/ne-directml-dml_feature
+        - name: "DML_INTERPOLATION_MODE"
+          href: /windows/desktop/api/directml/ne-directml-dml_interpolation_mode
+        - name: "DML_MATRIX_TRANSFORM"
+          href: /windows/desktop/api/directml/ne-directml-dml_matrix_transform
+        - name: "DML_OPERATOR_TYPE"
+          href: /windows/desktop/api/directml/ne-directml-dml_operator_type
+        - name: "DML_PADDING_MODE"
+          href: /windows/desktop/api/directml/ne-directml-dml_padding_mode
+        - name: "DML_RECURRENT_NETWORK_DIRECTION"
+          href: /windows/desktop/api/directml/ne-directml-dml_recurrent_network_direction
+        - name: "DML_REDUCE_FUNCTION"
+          href: /windows/desktop/api/directml/ne-directml-dml_reduce_function
+        - name: "DML_TENSOR_DATA_TYPE"
+          href: /windows/desktop/api/directml/ne-directml-dml_tensor_data_type
+        - name: "DML_TENSOR_FLAGS"
+          href: /windows/desktop/api/directml/ne-directml-dml_tensor_flags
+        - name: "DML_TENSOR_TYPE"
+          href: /windows/desktop/api/directml/ne-directml-dml_tensor_type
+      - name: "DirectML constants"
+        href: direct3d-directml-constants.md
     - name: "Helper Structures and Functions for D3D12"
       href: helper-structures-and-functions-for-d3d12.md
       items: 
