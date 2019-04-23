@@ -8,12 +8,6 @@ ms.date: 02/01/2019
 
 # Binding in DirectML
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
-
 In DirectML, *binding* refers to the attachment of resources to the pipeline for the GPU to use during the initialization and execution of your machine learning operators. These resources can be input and output tensors, for example, as well as any temporary or persistent resources that the operator needs.
 
 This topic addresses the conceptual and procedural details of binding. We recommend that you also fully read the documentation for the APIs that you call, including parameters and Remarks.

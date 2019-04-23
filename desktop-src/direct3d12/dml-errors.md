@@ -8,12 +8,6 @@ ms.date: 03/14/2019
 
 # Handling errors and device-removal in DirectML
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
-
 ## Device-removal
 
 If an unrecoverable error occurs, the DirectML device may enter a "device-removed" state. Unrecoverable errors that cause device-removal include invalid API usage (for methods that don't return an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes)), driver error, hardware fault, or out-of-memory (OOM) conditions.

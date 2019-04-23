@@ -8,20 +8,13 @@ ms.date: 02/01/2019
 
 # Introduction to DirectML
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
-
 ## Summary
 
 Direct Machine Learning (DirectML) is a low-level API for machine learning (ML). Hardware-accelerated machine learning primitives (called operators) are the building blocks of DirectML. From those building blocks, you can develop such machine learning techniques as upscaling, anti-aliasing, and style transfer, to name but a few. Denoising and super-resolution, for example, allow you to achieve impressive raytraced effects with fewer rays per pixel.
 
 You can integrate machine learning inferencing workloads into your game, engine, middleware, backend, or other application. DirectML has a familiar (native C++, nano-COM) DirectX 12-style programming interface and workflow, and it's supported by all DirectX 12-compatible hardware. For DirectML sample applications, including a sample of a minimal DirectML application, see [DirectML sample applications](dml-min-app.md).
 
-> [!NOTE]
-> DirectML is introduced in Windows 10, version 1903, and in the corresponding version of the Windows SDK.
+DirectML is introduced in Windows 10, version 1903, and in the corresponding version of the Windows SDK.
 
 ## Is DirectML appropriate for my project?
 

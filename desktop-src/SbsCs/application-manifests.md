@@ -4,6 +4,7 @@ ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: 19H1
 ---
 
 # Application Manifests
@@ -31,6 +32,7 @@ Application manifests have the following elements and attributes.
 | **compatibility**                     |                           | No       |
 | **application**                       |                           | No       |
 | **supportedOS**                       | **Id**                    | No       |
+| **maxVersionTested**                  | **Id**                    | No       |
 | **dependency**                        |                           | No       |
 | **dependentAssembly**                 |                           | No       |
 | **file**                              |                           | No       |
@@ -140,7 +142,7 @@ Contains at least one **application**. It has no attributes. Optional. Applicati
 <span id="application"></span><span id="APPLICATION"></span>**application**
 </dt> <dd>
 
-Contains at least one **supportedOS**. It has no attributes. Optional.
+Contains at least one **supportedOS** element. Starting in Windows 10, version 1903, it can also contain one optional **maxVersionTested** element. It has no attributes. Optional.
 
 </dd> <dt>
 
@@ -154,11 +156,18 @@ The **supportedOS** element has the following attribute. It has no subelements.
 | Attribute | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](https://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10 and Windows Server 2016<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
+</dd> <dt>
 
+<span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>**maxVersionTested**
+</dt> <dd>
 
+The **maxVersionTested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
 
- 
+The **maxVersionTested** element has the following attribute. It has no subelements.
 
+| Attribute | Description    |
+|-----------|----------------|
+| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18226.0". |
 </dd> <dt>
 
 <span id="dependency"></span><span id="DEPENDENCY"></span>**dependency**

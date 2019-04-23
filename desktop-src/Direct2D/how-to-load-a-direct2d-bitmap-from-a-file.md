@@ -3,7 +3,7 @@ title: How to Load a Bitmap from a File
 description: Shows how to load a Direct2D bitmap from an image file.
 ms.assetid: 4abfbc2b-2730-4d96-897e-1e2232383a72
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/9/2019
 ---
 
 # How to Load a Bitmap from a File
@@ -66,48 +66,15 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
      
         if (SUCCEEDED(hr))
         {
-    ```
-
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>        hr = pConverter->Initialize(
+            hr = pConverter->Initialize(
                 pSource,
                 GUID_WICPixelFormat32bppPBGRA,
                 WICBitmapDitherTypeNone,
                 NULL,
                 0.f,
                 WICBitmapPaletteTypeMedianCut
-                );</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
-
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>    }</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+                );
+    ```
 
     
 
