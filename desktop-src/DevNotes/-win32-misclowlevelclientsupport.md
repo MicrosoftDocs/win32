@@ -119,12 +119,12 @@ This topic contains information about low-level APIs that are used by the Window
 <td>Determines how many bytes are needed to represent a Unicode string as an ANSI string.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a></td>
-<td>The <a href="rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br/></td>
+<td><a href="/windows/desktop/devnotes/rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a></td>
+<td>The <a href="/windows/desktop/devnotes/rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a></td>
-<td>The <a href="rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> function translates the specified source string into a Unicode string, using the UTF-8 code page.<br/></td>
+<td><a href="/windows/desktop/devnotes/rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a></td>
+<td>The <a href="/windows/desktop/devnotes/rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> function translates the specified source string into a Unicode string, using the UTF-8 code page.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Ime/nf-ime-sendimemessageexa"><strong>SendIMEMessageEx</strong></a></td>
