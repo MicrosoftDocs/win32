@@ -93,7 +93,7 @@ Windows Sonic is focused on sound positioning simulation on an idealized sphere 
 
 ## Additional Resources
 
--   [Microsoft Spatial Sound samples github repository](https://github.com/Microsoft/Xbox-ATG-Samples/tree/master/Samples/Audio)
+-   [Microsoft Spatial Sound samples github repository](https://aka.ms/MSSpatialSamples)
 -   Dolby offers a number of support resources relating to Dolby Atmos and the Dolby Access app at <https://developer.dolby.com>.
 
 ## Spatial Sound Interfaces
