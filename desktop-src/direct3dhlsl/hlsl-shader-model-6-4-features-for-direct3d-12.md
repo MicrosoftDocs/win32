@@ -9,7 +9,7 @@ ms.date: 02/21/2019
 
 Describes the machine learning intrinsics added to HLSL Shader Model 6.4.
 
-## Shader Model 6.0
+## Shader Model 6.4
 These intrinsics are a required/supported feature of Shader model 6.4. Consequently, no separate capability bit check is required, beyond assuring the use of Shader Model 6.4. The minimum supported client for these routines is Windows 10, version 1903.
 
 ## Shading language intrinsics

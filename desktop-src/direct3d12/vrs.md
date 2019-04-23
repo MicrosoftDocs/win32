@@ -33,7 +33,7 @@ Here's a table describing which MSAA level is supported with which coarse pixel 
 For the feature tiers discussed in the next section, there's no coarse-pixel-size-and-sample-count combination where hardware needs to track more than 16 samples per pixel shader invocation. Those combinations are halftone-shaded in the table above.
 
 ## Feature tiers
-There are two tiers to the VSR implementation, and two capabilities that you can query for. Each tier is described in greater detail after the table.
+There are two tiers to the VRS implementation, and two capabilities that you can query for. Each tier is described in greater detail after the table.
 
 ![tiers](images/Tiers.PNG "Tiers")
 
@@ -49,8 +49,8 @@ There are two tiers to the VSR implementation, and two capabilities that you can
 - Screen-space image tile size is 16x16 or smaller.
 - Shading rate requested by your application is guaranteed to be delivered exactly (for precision of temporal and other reconstruction filters).
 - SV_ShadingRate PS input is supported.
-- The per-provoking-vertex (also known as per-primitive) shading rate, is valid when one viewport is used and `SV_ViewportIndex` is not written to.
-- The per-provoking-vertex rate can be used with more than one viewport if the *SupportsPerVertexShadingRateWithMultipleViewports* capability is set to `true`. Additionally, in that case, that rate can be used when `SV_ViewportIndex` is written to.
+- The per-provoking-vertex (also known as per-primitive) shading rate, is valid when one viewport is used and `SV_ViewportArrayIndex` is not written to.
+- The per-provoking-vertex rate can be used with more than one viewport if the *SupportsPerVertexShadingRateWithMultipleViewports* capability is set to `true`. Additionally, in that case, that rate can be used when `SV_ViewportArrayIndex` is written to.
 
 ### List of capabilities
 - *AdditionalShadingRatesSupported*
@@ -63,10 +63,10 @@ There are two tiers to the VSR implementation, and two capabilities that you can
 ## Specifying shading rate
 For flexibility in applications, there are a variety of mechanisms provided to control the shading rate. Different mechanisms are available depending on the hardware feature tier.
 
-### Pipeline state
+### Command list
 This is the simplest mechanism for setting the shading rate. It's available on all tiers.
 
-Your application can specify a subsampling level in the command buffer. That API takes a single enum argument. The API provides an overall control of the level of quality for rendering&mdash;the ability to set the shading rate on a per-draw basis.
+Your application can specify a coarse pixel size using the [**ID3D12GraphicsCommandList5::RSSetShadingRate** method](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrate). That API takes a single enum argument. The API provides an overall control of the level of quality for rendering&mdash;the ability to set the shading rate on a per-draw basis.
 
 Values for this state are expressed through the [**D3D12_SHADING_RATE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate) enumeration.
 
@@ -203,7 +203,7 @@ If the output of a combiner doesn't correspond to a shading rate supported on th
 ### Default state, and state clearing
 All shading rate sources, namely
 
-- the pipeline state-specified rate,
+- the pipeline state-specified rate (specified on the command list),
 - the screen-space image-specified rate, and
 - the per-primitive attribute
 
@@ -228,7 +228,7 @@ The data is interpreted as a value of the [**D3D12_SHADING_RATE**](/windows/desk
 If coarse pixel shading is not being used, then `SV_ShadingRate` is read back as a value of 1x1, indicating fine pixels.
 
 ### Behavior under sample-based execution
-A pixel shader fails compilation if it inputs `SV_ShadingRate` and also uses sample-based execution7mdash;for example, by inputting `SV_SampleIndex`, or using the sample interpolation keyword.
+A pixel shader fails compilation if it inputs `SV_ShadingRate` and also uses sample-based execution&mdash;for example, by inputting `SV_SampleIndex`, or using the sample interpolation keyword.
 
 > ### Remarks on deferred shading
 >
@@ -483,12 +483,12 @@ You can call variable-rate shading APIs on a bundle.
 ## Render passes
 You can call variable-rate shading APIs in a [render pass](/windows/desktop/direct3d12/direct3d-12-render-passes).
 
-## Calling the VSR APIs
+## Calling the VRS APIs
 This next section describes the manner in which variable-rate shading is accessible to your application through Direct3D 12.
 
 ### Capability querying
 
-To query for the adapter's variable-rate shading capability, call [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) with [**D3D12_FEATURE::D3D12_FEATURE_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature), and provide a [**D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6) for the function to fill in for you. The **D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure contains several members, including one of the enumerated type [**D3D12_VARIABLE_SHADING_RATE_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier).
+To query for the adapter's variable-rate shading capability, call [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) with [**D3D12_FEATURE::D3D12_FEATURE_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature), and provide a [**D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6) for the function to fill in for you. The **D3D12_FEATURE_DATA_D3D12_OPTIONS6** structure contains several members, including one that is of the enumerated type [**D3D12_VARIABLE_SHADING_RATE_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier) (D3D12_FEATURE_DATA_D3D12_OPTIONS6::VariableShadingRateTier), and one that indicates whether background processing is supported (D3D12_FEATURE_DATA_D3D12_OPTIONS6::BackgroundProcessingSupported).
 
 To query for Tier 1 capability, for example, you can do this.
 
