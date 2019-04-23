@@ -1,7 +1,7 @@
 ---
 title: '_aulldiv Routine'
 author: TimShererWithAquent
-description: Divides two **ULONGLONG** integers.
+description: Divides two ULONGLONG integers.
 ms.assetid: na
 ms.author: windowssdkdev
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: '_allmul Routine'
 author: TimShererWithAquent
-description: Multiplies two **LONGLONG** or **ULONGLONG** integers.
+description: Multiplies two LONGLONG or ULONGLONG integers.
 ms.assetid: na
 ms.author: windowssdkdev
 ms.topic: article
