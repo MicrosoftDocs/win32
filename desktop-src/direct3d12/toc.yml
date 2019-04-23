@@ -584,6 +584,13 @@
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand
           - name: "SetPipelineState1"
             href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-setpipelinestate1
+        - name: "ID3D12GraphicsCommandList5"
+          href: /windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist5
+          items: 
+          - name: "RSSetShadingRate"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrate
+          - name: "RSSetShadingRateImage"
+            href: /windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist5-rssetshadingrateimage
         - name: "ID3D12Heap"
           href: /windows/desktop/api/d3d12/nn-d3d12-id3d12heap
           items: 
@@ -805,6 +812,10 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options2
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS3"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS5"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS6"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6
         - name: "D3D12_FEATURE_DATA_EXISTING_HEAPS"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps
         - name: "D3D12_FEATURE_DATA_FEATURE_LEVELS"
@@ -1082,6 +1093,8 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d_shader_model
         - name: "D3D12_AUTO_BREADCRUMB_OP"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_auto_breadcrumb_op
+        - name: "D3D12_AXIS_SHADING_RATE"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_axis_shading_rate
         - name: "D3D12_BLEND"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_blend
         - name: "D3D12_BLEND_OP"
@@ -1260,6 +1273,10 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support
         - name: "D3D12_SHADER_VISIBILITY"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility
+        - name: "D3D12_SHADING_RATE"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate
+        - name: "D3D12_SHADING_RATE_COMBINER"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate_combiner
         - name: "D3D12_SRV_DIMENSION"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension
         - name: "D3D12_STATE_OBJECT_FLAGS"
@@ -1288,6 +1305,8 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier
         - name: "D3D12_UAV_DIMENSION"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_uav_dimension
+        - name: "D3D12_VARIABLE_SHADING_RATE_TIER"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier
         - name: "D3D12_VIEW_INSTANCE_FLAGS"
           href: https://msdn.microsoft.com/en-us/library/Mt844810(v=VS.85).aspx
         - name: "D3D12_VIEW_INSTANCING_TIER"
