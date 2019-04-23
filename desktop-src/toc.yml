@@ -62,8 +62,6 @@
           href: accessibility-legacy.md
         - name: "Accessibility and automation feature reference"
           href: accessibility-reference.md
-        - name: "Windows Accessibility Features"
-          href: winauto/windows-accessibility-features.md
       - name: "Desktop App User Interface"
         href: windows-application-ui-development.md
         items: 
