@@ -1251,7 +1251,6 @@ Next
 
 
 ```PowerShell
-
 $colItems = Get-WmiObject Win32_Fan -Namespace &quot;root\cimv2&quot;
 foreach ($objItem in $colItems)
 {
