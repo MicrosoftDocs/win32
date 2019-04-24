@@ -31,9 +31,9 @@ In this document, Windows graphics API interoperability refers to the sharing of
 
 In Windows 7 (and Windows Vista SP2 with Windows 7 Interop Pack, Vista 7IP), the graphics rendering APIs are Direct3D 11, Direct2D, Direct3D 10.1, Direct3D 10.0, Direct3D 9Ex, Direct3D 9c and earlier Direct3D APIs, as well GDI and GDI+. Windows Imaging Component (WIC) and DirectWrite are related technologies for image processing, and Direct2D performs text rendering. DirectX Video Acceleration API (DXVA), based on Direct3D 9c and Direct3D 9Ex, is used for video processing.
 
-As Windows graphics APIs evolve towards being Direct3D-based, Microsoft is investing more effort in ensuring interoperability across APIs. Newly developed Direct3D APIs and higher level APIs based on Direct3D APIs also provide support where needed for bridging compatibility with older APIs. To illustrate, Direct2D applications can use Direct3D 10.1 by sharing a Direct3D 10.1 device. Also, Direct3D 11, Direct2D, and Direct3D 10.1 APIs can all take advantage of DirectX Graphics Infrastructure (DXGI) 1.1, which enables synchronized shared surfaces that fully support interoperability among these APIs. A sample is provided on MSDN Code Gallery, at <https://code.msdn.microsoft.com/DXGISyncSharedSurf>, that showcases the usage of DXGI 1.1 Synchronized Shared Surfaces. DXGI 1.1-based APIs interoperate with GDI, and with GDI+ by association, by obtaining the GDI device context from a DXGI 1.1 surface. For more information, see the DXGI and GDI interoperability documentation available on MSDN.
+As Windows graphics APIs evolve towards being Direct3D-based, Microsoft is investing more effort in ensuring interoperability across APIs. Newly developed Direct3D APIs and higher level APIs based on Direct3D APIs also provide support where needed for bridging compatibility with older APIs. To illustrate, Direct2D applications can use Direct3D 10.1 by sharing a Direct3D 10.1 device. Also, Direct3D 11, Direct2D, and Direct3D 10.1 APIs can all take advantage of DirectX Graphics Infrastructure (DXGI) 1.1, which enables synchronized shared surfaces that fully support interoperability among these APIs. DXGI 1.1-based APIs interoperate with GDI, and with GDI+ by association, by obtaining the GDI device context from a DXGI 1.1 surface. For more information, see the DXGI and GDI interoperability documentation available on MSDN.
 
-Unsynchronized surface sharing is supported by the Direct3D 9Ex runtime. An updated Direct3D9 Ex and DXGI interoperability helper is provided at the MSDN Code Gallery, <https://code.msdn.microsoft.com/D3D9ExDXGISharedSurf>, that shows how you can manually synchronize surface sharing between DXGI 1.1-based APIs and the Direct3D 9Ex API. DXVA-based video applications can use the Direct3D 9Ex and DXGI interoperability helper for Direct3D 9Ex-based DXVA interoperability with Direct3D 11 for compute shader, or can interoperate with Direct2D for 2D controls or text rendering. WIC and DirectWrite also interoperate with GDI, Direct2D, and by association, other Direct3D APIs.
+Unsynchronized surface sharing is supported by the Direct3D 9Ex runtime. DXVA-based video applications can use the Direct3D 9Ex and DXGI interoperability helper for Direct3D 9Ex-based DXVA interoperability with Direct3D 11 for compute shader, or can interoperate with Direct2D for 2D controls or text rendering. WIC and DirectWrite also interoperate with GDI, Direct2D, and by association, other Direct3D APIs.
 
 Direct3D 10.0, Direct3D 9c, and older Direct3D runtimes do not support shared surfaces. System memory copies will continue to be used for interoperability with GDI or DXGI-based APIs.
 
@@ -111,7 +111,6 @@ pSwapChain->Present(0, 0);
 -   The associated Direct3D 10.1 device must support BGRA format. That device was created by calling D3D10CreateDevice1 with parameter D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT. BGRA format is supported starting with Direct3D 10 feature level 9.1.
 -   The application should not create multiple ID2D1RenderTargets associating to the same Direct3D10.1 device.
 -   For optimal performance, keep at least one resource around at all times, such as textures or surfaces associated with the device.
--   For a complete sample, please see the Direct2D and DXGI Interoperability sample at the MSDN Code Gallery: <https://code.msdn.microsoft.com/d2ddxgiinterop>.
 
 Device sharing is suitable for in-process, single-threaded usage of one rendering device shared by both Direct3D 10.1 and Direct2D rendering APIs. Synchronized shared surfaces enable multi-threaded, in-process and out-of-process usage of multiple rendering devices used by Direct3D 10.1, Direct2D and Direct3D 11 APIs.
 
@@ -287,7 +286,7 @@ result = g_pDXGIKeyedMutex_dev1->ReleaseSync(0);
 
 
 
-For the complete sample, see <https://code.msdn.microsoft.com/DXGISyncSharedSurf>. Note that the sample makes several assumptions for the sake of simplicity. A real-world application may always render to an intermediate surface that is then copied into the shared surface to prevent any one device waiting on another device that shares the surface.
+Note that a real-world application might always render to an intermediate surface that is then copied into the shared surface to prevent any one device waiting on another device that shares the surface.
 
 ### Using Synchronized Shared Surfaces with Direct2D and Direct3D 11
 
@@ -301,7 +300,7 @@ Synchronized shared surfaces are not supported when applications use the Direct3
 
 ### Interoperability between Direct3D 9Ex and DXGI based APIs
 
-Direct3D 9Ex APIs included the notion of surface sharing to allow other APIs to read from the shared surface. In order to share reading and writing to a Direct3D 9Ex shared surface, you must add manual synchronization to the application itself. To ease this process and improve efficiency and accuracy in surface sharing synchronization, helper source code is provided at MSDN Code Gallery for Direct3D 9Ex and DXGI-based API interoperability at <https://code.msdn.microsoft.com/D3D9ExDXGISharedSurf>.
+Direct3D 9Ex APIs included the notion of surface sharing to allow other APIs to read from the shared surface. In order to share reading and writing to a Direct3D 9Ex shared surface, you must add manual synchronization to the application itself.
 
 ### Direct3D 9Ex Shared Surfaces Plus Manual Synchronization Helper
 
