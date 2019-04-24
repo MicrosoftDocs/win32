@@ -72,22 +72,9 @@ The second tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library
                 &m_pBitmap
                 );                    
         }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>        m_pRenderTarget->FillOpacityMask(
+        m_pRenderTarget->FillOpacityMask(
             m_pBitmapMask,
             m_pFernBitmapBrush,
             D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
@@ -96,10 +83,10 @@ The second tag value. See [**SetTags**](https://msdn.microsoft.com/en-us/library
 
         hr = m_pRenderTarget->Flush();
 
-        hr = m_pRenderTarget->EndDraw();</code></pre></td>
-</tr>
-</tbody>
-</table>
+        hr = m_pRenderTarget->EndDraw();
+```
+
+
 
 
 

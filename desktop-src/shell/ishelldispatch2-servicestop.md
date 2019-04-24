@@ -29,26 +29,16 @@ retVal = IShellDispatch2.ServiceStop(
 )
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch2.ServiceStop( _
+```VB
+
+IShellDispatch2.ServiceStop( _
   ByVal sServiceName As BSTR, _
   ByVal vPersistent As Variant _
-) As Variant</code></pre></td>
-</tr>
-</tbody>
-</table>
+) As Variant
+```
+
+
 
 
 

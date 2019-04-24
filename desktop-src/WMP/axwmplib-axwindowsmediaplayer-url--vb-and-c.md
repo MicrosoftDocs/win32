@@ -29,23 +29,13 @@ The URL property gets or sets the name of the media item to play.
 public System.String URL {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property URL As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property URL As System.String
+```
+
+
 
 
 
@@ -77,20 +67,10 @@ private void openMedia_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub openMedia_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles openMedia.Click
+```VB
+
+Public Sub openMedia_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles openMedia.Click
 
     &#39; Set the URL property to the file path obtained from the text box. 
     player.URL = inputURL.Text
@@ -98,10 +78,10 @@ private void openMedia_Click(object sender, System.EventArgs e)
     &#39; Play the media file. 
     player.Ctlcontrols.play()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

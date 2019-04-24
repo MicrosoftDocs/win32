@@ -36,22 +36,9 @@ Use the [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/deskt
 
 ```C++
     ID3D11Device *m_pD3D11Device;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    D3D_FEATURE_LEVEL featureLevelSupported;
+    D3D_FEATURE_LEVEL featureLevelSupported;
 
     // Create the D3D device object. The D3D11_CREATE_DEVICE_BGRA_SUPPORT
     // flag enables rendering on surfaces using Direct2D.
@@ -65,10 +52,10 @@ Use the [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/deskt
         D3D11_SDK_VERSION,
         &m_pD3D11Device,
         &featureLevelSupported,
-        nullptr);</code></pre></td>
-</tr>
-</tbody>
-</table>
+        nullptr);
+```
+
+
 
 
 
@@ -97,31 +84,18 @@ Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcomp
 
 ```C++
     IDCompositionDevice *m_pDCompDevice;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    if (SUCCEEDED(hr))
+    if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, 
                 __uuidof(IDCompositionDevice), 
                 reinterpret_cast<void **>(&m_pDCompDevice));
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -132,30 +106,17 @@ Use the [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.co
 
 ```C++
     IDCompositionTarget *m_pDCompTarget;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    if (SUCCEEDED(hr))
+    if (SUCCEEDED(hr))
     {
         // Create the composition target object based on the 
         // specified application window.
         hr = m_pDCompDevice->CreateTargetForHwnd(m_hwnd, TRUE, &m_pDCompTarget);   
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -488,22 +449,9 @@ private:
     IDCompositionDevice *m_pDCompDevice;
     IDCompositionTarget *m_pDCompTarget;
  };
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//
+//
 // SimpleComposition.cpp
 //
 // THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
@@ -994,10 +942,10 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
     return hr;
 }
-</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+```
+
+
 
 
 

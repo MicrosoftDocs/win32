@@ -31,26 +31,16 @@ public System.Int32 getSAMILangID(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getSAMILangID( _
+```VB
+
+Public Function getSAMILangID( _
   ByVal nIndex As System.Int32 _
 ) As System.Int32
-Implements IWMPClosedCaption2.getSAMILangID</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPClosedCaption2.getSAMILangID
+```
+
+
 
 
 

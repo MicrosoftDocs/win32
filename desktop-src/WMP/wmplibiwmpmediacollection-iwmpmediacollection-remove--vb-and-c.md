@@ -32,27 +32,17 @@ public void remove(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub remove( _
+```VB
+
+Public Sub remove( _
   ByVal pItem As IWMPMedia, _
   ByVal varfDeleteFile As System.Boolean _
 )
-Implements IWMPMediaCollection.remove</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.remove
+```
+
+
 
 
 
@@ -115,20 +105,10 @@ if (result == System.Windows.Forms.DialogResult.OK)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to the first item from the media collection. 
+```VB
+
+' Get an interface to the first item from the media collection. 
 Dim media As WMPLib.IWMPMedia3 = player.mediaCollection.getAll().Item(0)
 
 &#39; Store the name of the retrieved media item.
@@ -151,10 +131,10 @@ If (result = System.Windows.Forms.DialogResult.OK) Then
     &#39; Report that the item was deleted.
     System.Windows.Forms.MessageBox.Show(&quot;Deleted item &quot; + mediaName)
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

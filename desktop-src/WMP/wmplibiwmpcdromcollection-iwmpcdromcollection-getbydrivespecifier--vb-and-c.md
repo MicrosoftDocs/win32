@@ -31,26 +31,16 @@ public IWMPCdrom getByDriveSpecifier(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByDriveSpecifier( _
+```VB
+
+Public Function getByDriveSpecifier( _
   ByVal bstrDriveSpecifier As System.String _
 ) As IWMPCdrom
-Implements IWMPCdromCollection.getByDriveSpecifier</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPCdromCollection.getByDriveSpecifier
+```
+
+
 
 
 
@@ -94,20 +84,10 @@ WMPLib.IWMPCdrom drive = player.cdromCollection.getByDriveSpecifier(driveLetter)
 drive.eject();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Store the drive letter provided by the user.
+```VB
+
+' Store the drive letter provided by the user.
 Dim driveLetter As String = myText.Text
 
 &#39; Append a colon to the drive letter to create a valid drive specifier.
@@ -117,10 +97,10 @@ driveLetter += &quot;:&quot;
 Dim drive As WMPLib.IWMPCdrom = player.cdromCollection.getByDriveSpecifier(driveLetter)
 
 &#39; Use the eject method of the IWMPCdrom interface to open the drive door.
-drive.eject()</code></pre></td>
-</tr>
-</tbody>
-</table>
+drive.eject()
+```
+
+
 
 
 

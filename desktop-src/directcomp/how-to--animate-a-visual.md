@@ -47,25 +47,12 @@ Use the [**CreateAnimation**](https://msdn.microsoft.com/en-us/library/Hh437394(
 
 ```C++
 HRESULT hr = S_OK;
+
+
+IDCompositionAnimation *m_pFadeInAnimation;
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IDCompositionAnimation *m_pFadeInAnimation;</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -95,25 +82,12 @@ In Microsoft DirectComposition, any object property that takes a scalar value ca
 
 ```C++
 IDCompositionEffectGroup *m_pEffectGroup;
+
+
+hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
@@ -313,22 +287,9 @@ private:
     LPCTSTR m_pImageFileNames[5]; 
     LPCTSTR m_pImageDir;
  };
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//
+//
 // ApplyAnimations.cpp
 //
 // THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
@@ -1031,10 +992,10 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
         FindClose(hFind);
     }
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

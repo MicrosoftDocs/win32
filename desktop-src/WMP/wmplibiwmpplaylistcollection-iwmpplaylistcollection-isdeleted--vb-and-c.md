@@ -31,26 +31,16 @@ public System.Boolean isDeleted(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function isDeleted( _
+```VB
+
+Public Function isDeleted( _
   ByVal pItem As IWMPPlaylist _
 ) As System.Boolean
-Implements IWMPPlaylistCollection.isDeleted</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPPlaylistCollection.isDeleted
+```
+
+
 
 
 

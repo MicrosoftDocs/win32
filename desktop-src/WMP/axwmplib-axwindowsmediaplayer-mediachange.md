@@ -67,20 +67,10 @@ private void player_MediaChange(object sender, AxWMPLib._WMPOCXEvents_MediaChang
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_MediaChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_MediaChangeEvent) Handles player.MediaChange
+```VB
+
+Public Sub player_MediaChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_MediaChangeEvent) Handles player.MediaChange
 
     &#39; Get an interface to the changed media item that is returned in the event data.
     Dim changedItem As WMPLib.IWMPMedia3 = e.item
@@ -88,10 +78,10 @@ private void player_MediaChange(object sender, AxWMPLib._WMPOCXEvents_MediaChang
     &#39; Display the name of the changed media item.
     mediaName.Text = changedItem.name
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

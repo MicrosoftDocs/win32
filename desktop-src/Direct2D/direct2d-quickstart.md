@@ -43,7 +43,7 @@ Upon completion, the DemoApp class produces the output shown in the following il
 In this step, you set up your application to use Direct2D by adding the necessary headers and macros. You also declare the methods and data members you'll use in later parts of this tutorial.
 
 1.  In your application header file, include the following frequently used headers.
-    ```C++
+```C++
     // Windows Header Files:
     #include <windows.h>
 
@@ -58,12 +58,12 @@ In this step, you set up your application to use Direct2D by adding the necessar
     #include <d2d1helper.h>
     #include <dwrite.h>
     #include <wincodec.h>
-    ```
+```
 
     
 
 2.  Declare additional functions for releasing interfaces and macros for error handling and retrieving the module's base address.
-    ```C++
+```C++
     template<class Interface>
     inline void SafeRelease(
         Interface **ppInterfaceToRelease
@@ -92,12 +92,12 @@ In this step, you set up your application to use Direct2D by adding the necessar
     EXTERN_C IMAGE_DOS_HEADER __ImageBase;
     #define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
     #endif
-    ```
+```
 
     
 
 3.  Declare methods for initializing the class, creating and discarding resources, handling the message loop, rendering content, and the windows procedure.
-    ```C++
+```C++
     class DemoApp
     {
     public:
@@ -136,36 +136,24 @@ In this step, you set up your application to use Direct2D by adding the necessar
             WPARAM wParam,
             LPARAM lParam
             );
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>};</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+};
+```
+
+
 
     
 
 4.  Declare pointers for an [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) object, an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) object, and two [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) objects as class members.
-    ```C++
+```C++
     private:
     HWND m_hwnd;
     ID2D1Factory* m_pDirect2dFactory;
     ID2D1HwndRenderTarget* m_pRenderTarget;
     ID2D1SolidColorBrush* m_pLightSlateGrayBrush;
     ID2D1SolidColorBrush* m_pCornflowerBlueBrush;
-    ```
+```
 
     
 
@@ -174,7 +162,7 @@ In this step, you set up your application to use Direct2D by adding the necessar
 In this part, you implement the DemoApp constructor and destructor, its initialization and message looping methods, and the WinMain function. Most of these methods look the same as those found in any other Win32 application. The only exception is the Initialize method, which calls the CreateDeviceIndependentResources method (which you define in the next part) that creates several Direct2D resources.
 
 1.  In the class implementation file, implement the class constructor and destructor. The constructor should initialize its members to **NULL**. The destructor should release any interfaces stored as class members.
-    ```C++
+```C++
     DemoApp::DemoApp() :
         m_hwnd(NULL),
         m_pDirect2dFactory(NULL),
@@ -183,36 +171,24 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
         m_pCornflowerBlueBrush(NULL)
     {
     }
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>DemoApp::~DemoApp()
+    
+DemoApp::~DemoApp()
     {
         SafeRelease(&m_pDirect2dFactory);
         SafeRelease(&m_pRenderTarget);
         SafeRelease(&m_pLightSlateGrayBrush);
         SafeRelease(&m_pCornflowerBlueBrush);
 
-    }</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    }
+```
+
+
 
     
 
 2.  Implement the DemoApp::RunMessageLoop method that translates and dispatches messages.
-    ```C++
+```C++
     void DemoApp::RunMessageLoop()
     {
         MSG msg;
@@ -223,12 +199,12 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
             DispatchMessage(&msg);
         }
     }
-    ```
+```
 
     
 
 3.  Implement the Initialize method that creates the window, shows it, and calls the DemoApp::CreateDeviceIndependentResources method. You implement the CreateDeviceIndependentResources method in the next section.
-    ```C++
+```C++
     HRESULT DemoApp::Initialize()
     {
         HRESULT hr;
@@ -287,12 +263,12 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
 
         return hr;
     }
-    ```
+```
 
     
 
 4.  Create the WinMain method that serves as the application entry point. Initialize an instance of the DemoApp class and begin its message loop.
-    ```C++
+```C++
     int WINAPI WinMain(
         HINSTANCE /* hInstance */,
         HINSTANCE /* hPrevInstance */,
@@ -322,7 +298,7 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
 
         return 0;
     }
-    ```
+```
 
     
 
@@ -331,7 +307,7 @@ In this part, you implement the DemoApp constructor and destructor, its initiali
 In this part, you create the Direct2D resources that you use to draw. Direct2D provides two types of resources: device-independent resources that can last for the duration of the application, and device-dependent resources. Device-dependent resources are associated with a particular rendering device and will cease to function if that device is removed.
 
 1.  Implement the DemoApp::CreateDeviceIndependentResources method. In the method, create an [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx), a device-independent resource, for creating other Direct2D resources. Use the **m\_pDirect2DdFactory** class member to store the factory.
-    ```C++
+```C++
     HRESULT DemoApp::CreateDeviceIndependentResources()
     {
         HRESULT hr = S_OK;
@@ -341,12 +317,12 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 
         return hr;
     }
-    ```
+```
 
     
 
 2.  Implement the DemoApp::CreateDeviceResources method. This method creates the window's device-dependent resources, a render target, and two brushes. Retrieve the size of the client area and create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) of the same size that renders to the window's **HWND**. Store the render target in the **m\_pRenderTarget** class member.
-    ```C++
+```C++
             RECT rc;
             GetClientRect(m_hwnd, &rc);
 
@@ -362,12 +338,12 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
                 &m_pRenderTarget
                 );
     
-    ```
+```
 
     
 
 3.  Use the render target to create a gray [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) and a cornflower blue **ID2D1SolidColorBrush**.
-    ```C++
+```C++
             if (SUCCEEDED(hr))
             {
                 // Create a gray brush.
@@ -384,12 +360,12 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
                     &m_pCornflowerBlueBrush
                     );
             }
-    ```
+```
 
     
 
 4.  Because this method will be called repeatedly, add an if statement to check whether the render target (**m\_pRenderTarget** ) already exists. The following code shows the complete CreateDeviceResources method.
-    ```C++
+```C++
     HRESULT DemoApp::CreateDeviceResources()
     {
         HRESULT hr = S_OK;
@@ -432,19 +408,19 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 
         return hr;
     }
-    ```
+```
 
     
 
 5.  Implement the DemoApp::DiscardDeviceResources method. In this method, release the render target and the two brushes you created in the DemoApp::CreateDeviceResources method.
-    ```C++
+```C++
     void DemoApp::DiscardDeviceResources()
     {
         SafeRelease(&m_pRenderTarget);
         SafeRelease(&m_pLightSlateGrayBrush);
         SafeRelease(&m_pCornflowerBlueBrush);
     }
-    ```
+```
 
     
 
@@ -453,7 +429,7 @@ In this part, you create the Direct2D resources that you use to draw. Direct2D p
 In this part, you implement the windows procedure, the OnRender method that paints content, and the OnResize method that adjusts the size of the render target when the window is resized.
 
 1.  Implement the DemoApp::WndProc method to handle window messages. For the [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message, call the DemoApp::OnResize method and pass it the new width and height. For the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145210) messages, call the DemoApp::OnRender method to paint the window. You implement the OnRender and OnResize methods in the steps that follow.
-    ```C++
+```C++
     LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
     {
         LRESULT result = 0;
@@ -531,50 +507,50 @@ In this part, you implement the windows procedure, the OnRender method that pain
         return result;
     }
     
-    ```
+```
 
     
 
 2.  Implement the DemoApp::OnRender method. First, create an **HRESULT**. Then call the CreateDeviceResource method. This method is called every time the window is painted. Recall that, in step 4 of Part 3, you added an **if** statement to prevent the method from doing any work if the render target already exists.
-    ```C++
+```C++
     HRESULT DemoApp::OnRender()
     {
         HRESULT hr = S_OK;
 
         hr = CreateDeviceResources();
-    ```
+```
 
     
 
 3.  Verify that the CreateDeviceResource method succeeded. If it didn't, don't perform any drawing.
-    ```C++
+```C++
         if (SUCCEEDED(hr))
         {
-    ```
+```
 
     
 
 4.  Inside the **if** statement you just created, initiate drawing by calling the render target's BeginDraw method. Set the render target's transform to the identity matrix, and clear the window.
-    ```C++
+```C++
             m_pRenderTarget->BeginDraw();
 
             m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
             m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
     
-    ```
+```
 
     
 
 5.  Retrieve the size of the drawing area.
-    ```C++
+```C++
             D2D1_SIZE_F rtSize = m_pRenderTarget->GetSize();
-    ```
+```
 
     
 
 6.  Draw a grid background by using a **for** loop and the render target's [**DrawLine**](https://msdn.microsoft.com/en-us/library/Dd371895(v=VS.85).aspx) method to draw a series of lines.
-    ```C++
+```C++
             // Draw a grid background.
             int width = static_cast<int>(rtSize.width);
             int height = static_cast<int>(rtSize.height);
@@ -598,12 +574,12 @@ In this part, you implement the windows procedure, the OnRender method that pain
                     0.5f
                     );
             }
-    ```
+```
 
     
 
 7.  Create two rectangle primitives that are centered on the screen.
-    ```C++
+```C++
             // Draw two rectangles.
             D2D1_RECT_F rectangle1 = D2D1::RectF(
                 rtSize.width/2 - 50.0f,
@@ -619,55 +595,55 @@ In this part, you implement the windows procedure, the OnRender method that pain
                 rtSize.height/2 + 100.0f
                 );
     
-    ```
+```
 
     
 
 8.  Use the render target's [**FillRectangle**](https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx) method to paint the interior of the first rectangle with the gray brush.
-    ```C++
+```C++
             // Draw a filled rectangle.
             m_pRenderTarget->FillRectangle(&rectangle1, m_pLightSlateGrayBrush);
-    ```
+```
 
     
 
 9.  Use the render target's [**DrawRectangle**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx) method to paint the outline of the second rectangle with the cornflower blue brush.
-    ```C++
+```C++
             // Draw the outline of a rectangle.
             m_pRenderTarget->DrawRectangle(&rectangle2, m_pCornflowerBlueBrush);
-    ```
+```
 
     
 
 10. Call the render target's [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method. The **EndDraw** method returns an **HRESULT** to indicate whether the drawing operations were successful. Close the **if** statement you began in Step 3.
-    ```C++
+```C++
             hr = m_pRenderTarget->EndDraw();
         }
-    ```
+```
 
     
 
 11. Check the **HRESULT** returned by [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx). If it indicates that the render target needs to be recreated, call the DemoApp::DiscardDeviceResources method to release it; it will be recreated the next time the window receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) or [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145210) message.
-    ```C++
+```C++
         if (hr == D2DERR_RECREATE_TARGET)
         {
             hr = S_OK;
             DiscardDeviceResources();
         }
-    ```
+```
 
     
 
 12. Return the **HRESULT** and close the method.
-    ```C++
+```C++
         return hr;
     }
-    ```
+```
 
     
 
 13. Implement the DemoApp::OnResize method so that it resizes the render target to the new size of the window.
-    ```C++
+```C++
     void DemoApp::OnResize(UINT width, UINT height)
     {
         if (m_pRenderTarget)
@@ -678,7 +654,7 @@ In this part, you implement the windows procedure, the OnRender method that pain
             m_pRenderTarget->Resize(D2D1::SizeU(width, height));
         }
     }
-    ```
+```
 
     
 

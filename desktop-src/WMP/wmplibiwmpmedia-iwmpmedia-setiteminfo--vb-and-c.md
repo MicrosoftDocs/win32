@@ -32,27 +32,17 @@ public void setItemInfo(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setItemInfo( _
+```VB
+
+Public Sub setItemInfo( _
   ByVal bstrItemName As System.String, _
   ByVal bstrVal As System.String _
 )
-Implements IWMPMedia.setItemInfo</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.setItemInfo
+```
+
+
 
 
 
@@ -113,20 +103,10 @@ private void setNewGenre_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setNewGenre_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setNewGenre.Click
+```VB
+
+Public Sub setNewGenre_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setNewGenre.Click
 
     &#39; Store a WMPLib.IWMPMedia3 interface to the current media item. 
     Dim cm As WMPLib.IWMPMedia3 = player.currentMedia
@@ -142,10 +122,10 @@ private void setNewGenre_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -30,26 +30,16 @@ HRESULT getCACount(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>SCrdEnr.getCACount( _
+```VB
+
+SCrdEnr.getCACount( _
   ByVal bstrCertTemplateName, _
   ByRef pdwCACount _
-)</code></pre></td>
-</tr>
-</tbody>
-</table>
+)
+```
+
+
 
 
 

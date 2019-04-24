@@ -31,23 +31,13 @@ This property is read-only.
 public WMPPlayState playState {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property playState As WMPPlayState</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property playState As WMPPlayState
+```
+
+
 
 
 
@@ -76,20 +66,10 @@ else
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Test whether Windows Media Player is in the playing state. 
+```VB
+
+' Test whether Windows Media Player is in the playing state. 
 If (player.playState = WMPLib.WMPPlayState.wmppsPlaying) Then
 
     playStateLabel.Text = &quot;Windows Media Player is playing!&quot;
@@ -98,10 +78,10 @@ Else
 
     playStateLabel.Text = &quot;Windows Media Player is NOT playing!&quot;
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

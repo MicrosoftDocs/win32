@@ -32,23 +32,13 @@ This property is read-only.
 public System.String currentPositionString {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property currentPositionString As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property currentPositionString As System.String
+```
+
+
 
 
 
@@ -80,20 +70,10 @@ private void TimerEventProcessor(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Set the timer to fire an event every second and start the timer.
+```VB
+
+' Set the timer to fire an event every second and start the timer.
 timer.Interval = 1000
 timer.Start()
 
@@ -105,10 +85,10 @@ Public Sub TimerEventProcessor(ByVal sender As Object, ByVal e As System.EventAr
 
     currentPositionLabel.Text = player.Ctlcontrols.currentPositionString
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

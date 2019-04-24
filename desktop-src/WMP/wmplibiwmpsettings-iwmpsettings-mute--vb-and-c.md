@@ -29,23 +29,13 @@ The **mute** property gets or sets a value indicating whether audio is muted.
 public System.Boolean mute {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property mute As System.Boolean</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property mute As System.Boolean
+```
+
+
 
 
 
@@ -71,20 +61,10 @@ private void Mute_CheckStateChanged(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub Mute_CheckStateChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles Mute.CheckStateChanged
+```VB
+
+Public Sub Mute_CheckStateChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles Mute.CheckStateChanged
 
     Dim cb As System.Windows.Forms.CheckBox = sender
 
@@ -102,10 +82,10 @@ private void Mute_CheckStateChanged(object sender, System.EventArgs e)
     &#39;  Use the checked state to set the mute property. 
     player.settings.mute = cb.Checked
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

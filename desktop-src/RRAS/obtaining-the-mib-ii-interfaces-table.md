@@ -49,22 +49,9 @@ void main()
     
     pIntfTable = ( PMIB_IFTABLE ) pMibOpaqueInfo -> rgbyData;
 }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#include <windows.h>
+#include <windows.h>
 #include <stdio.h>
 #include &quot;Iphlpapi.h&quot;
 
@@ -113,10 +100,10 @@ int __cdecl main(){
     }
 
     return ERROR_SUCCESS;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

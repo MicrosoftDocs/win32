@@ -62,39 +62,39 @@ foreach ($Drive in $objCol)
 1.  Add a reference to the **Microsoft.Management.Infrastructure** reference assembly. (This assembly ships as part of the [Windows Software Development Kit (SDK) for Windows 8](https://Go.Microsoft.Com/FWLink/p/?LinkID=306595).)
 2.  Add a **using** statement for the **Microsoft.Management.Infrastructure** namespace.
 
-    ```CSharp
+```CSharp
     using Microsoft.Management.Infrastructure;
-    ```
+```
 
     
 
 3.  Instantiate a [CimSession](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.aspx) object. The following snippet uses the standard "localhost" value for the [**CimSession.Create**](https://msdn.microsoft.com/library/Hh832529(v=VS.85).aspx) method.
 
-    ```CSharp
+```CSharp
     CimSession cimSession = CimSession.Create("localhost");
-    ```
+```
 
     
 
 4.  Call the [**CimSession.QueryInstances**](https://www.bing.com/search?q=**CimSession.QueryInstances**) method passing the desired CIM namespace and WQL to use. The following snippet will return two instances representing two standard Windows processes where the handle property (representing a process ID, or PID) has a value of either 0 or 4.
 
-    ```CSharp
+```CSharp
     IEnumerable<CimInstance> queryInstances =     
       cimSession.QueryInstances(@"root\cimv2", 
                                 "WQL", 
                                 @"select name from win32_process where handle = 0 or handle = 4");
-    ```
+```
 
     
 
 5.  Loop through the returned [**CimInstance**](https://www.bing.com/search?q=**CimInstance**) objects.
 
-    ```CSharp
+```CSharp
     foreach (CimInstance cimInstance in enumeratedInstances)
     { 
       Console.WriteLine("Process name: {0}", cimInstance.CimInstanceProperties["Name"].Value);  
     }
-    ```
+```
 
     
 
@@ -163,20 +163,10 @@ public partial class MI
 }
 ```
 
-<span codelanguage="CSharp"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C#</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>using System;
+```CSharp
+
+using System;
 
 namespace MIClientManaged
 {
@@ -193,10 +183,10 @@ namespace MIClientManaged
             }
         }
     }
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

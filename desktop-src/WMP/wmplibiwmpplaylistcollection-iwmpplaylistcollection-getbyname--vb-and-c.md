@@ -31,26 +31,16 @@ public IWMPPlaylistArray getByName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByName( _
+```VB
+
+Public Function getByName( _
   ByVal bstrName As System.String _
 ) As IWMPPlaylistArray
-Implements IWMPPlaylistCollection.getByName</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPPlaylistCollection.getByName
+```
+
+
 
 
 
@@ -95,20 +85,10 @@ if (checkit > 0)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39;  Get the count of the playlists named &quot;Favorites -- 4 and 5 star rated&quot;.
+```VB
+
+'  Get the count of the playlists named &quot;Favorites -- 4 and 5 star rated&quot;.
 Dim checkit As Integer = player.playlistCollection.getByName(&quot;Favorites -- 4 and 5 star rated&quot;).count
 
 &#39;  Since duplicate playlist names are allowed, the count returned
@@ -120,10 +100,10 @@ If (checkit > 0) Then
     &#39;  current playlist.
     player.currentPlaylist = player.playlistCollection.getByName(&quot;Favorites -- 4 and 5 star rated&quot;).Item(0)
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

@@ -31,26 +31,16 @@ public IWMPPlaylist getByAlbum(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByAlbum( _
+```VB
+
+Public Function getByAlbum( _
   ByVal bstrAlbum As System.String _
 ) As IWMPPlaylist
-Implements IWMPMediaCollection.getByAlbum</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.getByAlbum
+```
+
+
 
 
 
@@ -99,20 +89,10 @@ private void playAlbum_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub playAlbum_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playAlbum.Click
+```VB
+
+Public Sub playAlbum_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playAlbum.Click
 
     &#39; ...Add code to ensure that the text box contains a valid value.
 
@@ -128,10 +108,10 @@ private void playAlbum_Click(object sender, System.EventArgs e)
     &#39; Play the media in the current playlist. 
     player.Ctlcontrols.play()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

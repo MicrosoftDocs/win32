@@ -32,27 +32,17 @@ public void setProxySettings(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxySettings( _
+```VB
+
+Public Sub setProxySettings( _
   ByVal bstrProtocol As System.String, _
   ByVal lProxySetting As System.Int32 _
 )
-Implements IWMPNetwork.setProxySettings</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.setProxySettings
+```
+
+
 
 
 
@@ -119,20 +109,10 @@ private void proxySettings_OnSelectedIndexChanged(object sender, System.EventArg
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Load the list box with the proxy settings in order so that their index in the
+```VB
+
+' Load the list box with the proxy settings in order so that their index in the
 &#39; list box matches their value.
 proxySettings.Items.Add(&quot;Do not use a proxy server.  (Value = 0)&quot;)
 proxySettings.Items.Add(&quot;Use the proxy settings of the current browser. Valid for HTTP only.  (Value = 1)&quot;)
@@ -149,10 +129,10 @@ Public Sub proxySettings_OnSelectedIndexChanged(ByVal sender As Object, ByVal e 
     &#39; Change the proxy setting. 
     player.network.setProxySettings(&quot;HTTP&quot;, setting)
     
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

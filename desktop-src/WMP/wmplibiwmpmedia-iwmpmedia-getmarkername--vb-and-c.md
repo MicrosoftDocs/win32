@@ -31,26 +31,16 @@ public System.String getMarkerName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getMarkerName( _
+```VB
+
+Public Function getMarkerName( _
   ByVal MarkerNum As System.Int32 _
 ) As System.String
-Implements IWMPMedia.getMarkerName</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.getMarkerName
+```
+
+
 
 
 
@@ -106,20 +96,10 @@ if (mcount > 0)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get the number of markers in the current media item.
+```VB
+
+' Get the number of markers in the current media item.
 Dim mCount As Integer = player.currentMedia.markerCount
 
 &#39; Create an array to store the list of marker names
@@ -139,10 +119,10 @@ If (mCount > 0) Then
 End If
 
 &#39; Display the marker names in the text box.
-markerNames.Lines = markers</code></pre></td>
-</tr>
-</tbody>
-</table>
+markerNames.Lines = markers
+```
+
+
 
 
 

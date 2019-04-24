@@ -17,28 +17,15 @@ The example code in this section makes use of the following additional included 
 #include <windows.h>
 #include <initguid.h>
 #include <propkeydef.h>
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#include <iostream>
+#include <iostream>
 #include <propvarutil.h>
 #include <functiondiscoverykeys.h>
-#include <assert.h></code></pre></td>
-</tr>
-</tbody>
-</table>
+#include <assert.h>
+```
+
+
 
 
 

@@ -26,23 +26,13 @@ Restores all desktop windows to the state they were in before the last [**Minimi
 IShellDispatch.UndoMinimizeALL()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch.UndoMinimizeALL()</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+IShellDispatch.UndoMinimizeALL()
+```
+
+
 
 
 

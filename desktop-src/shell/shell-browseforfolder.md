@@ -41,28 +41,18 @@ retVal = Shell.BrowseForFolder(
 )
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Shell.BrowseForFolder( _
+```VB
+
+Shell.BrowseForFolder( _
   ByVal Hwnd As Integer, _
   ByVal sTitle As BSTR, _
   ByVal iOptions As Integer, _
   [ ByVal vRootFolder As Variant ] _
-) As FOLDER</code></pre></td>
-</tr>
-</tbody>
-</table>
+) As FOLDER
+```
+
+
 
 
 

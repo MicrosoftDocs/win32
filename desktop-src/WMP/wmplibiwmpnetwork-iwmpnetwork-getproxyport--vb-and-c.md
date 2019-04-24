@@ -31,26 +31,16 @@ public System.Int32 getProxyPort(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getProxyPort( _
+```VB
+
+Public Function getProxyPort( _
   ByVal bstrProtocol As System.String _
 ) As System.Int32
-Implements IWMPNetwork.getProxyPort</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.getProxyPort
+```
+
+
 
 
 
@@ -102,20 +92,10 @@ proxyPorts[1] = ("The current MMS proxy port is: " + proxyPortMMS.ToString());
 proxyPortText.Lines = proxyPorts;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Variables to hold the results of calls to getProxyPort. 
+```VB
+
+' Variables to hold the results of calls to getProxyPort. 
 Dim proxyPortHTTP As Integer = 0
 Dim proxyPortMMS As Integer = 0
 
@@ -137,10 +117,10 @@ End If
 &#39; text box. Unavailable proxy port numbers will display as &quot;undefined&quot;.
 proxyPorts(0) = (&quot;The current HTTP proxy port is: &quot; + proxyPortHTTP.ToString())
 proxyPorts(1) = (&quot;The current MMS proxy port is: &quot; + proxyPortMMS.ToString())
-proxyPortText.Lines = proxyPorts</code></pre></td>
-</tr>
-</tbody>
-</table>
+proxyPortText.Lines = proxyPorts
+```
+
+
 
 
 

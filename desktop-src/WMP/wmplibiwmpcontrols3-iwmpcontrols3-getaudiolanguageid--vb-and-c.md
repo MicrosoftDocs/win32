@@ -31,26 +31,16 @@ public System.Int32 getAudioLanguageID(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getAudioLanguageID( _
+```VB
+
+Public Function getAudioLanguageID( _
   ByVal lIndex As System.Int32 _
 ) As System.Int32
-Implements IWMPControls3.getAudioLanguageID</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPControls3.getAudioLanguageID
+```
+
+
 
 
 

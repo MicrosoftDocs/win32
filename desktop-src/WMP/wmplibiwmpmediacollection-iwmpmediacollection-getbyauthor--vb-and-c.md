@@ -31,26 +31,16 @@ public IWMPPlaylist getByAuthor(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByAuthor( _
+```VB
+
+Public Function getByAuthor( _
   ByVal bstrAuthor As System.String _
 ) As IWMPPlaylist
-Implements IWMPMediaCollection.getByAuthor</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.getByAuthor
+```
+
+
 
 
 
@@ -99,20 +89,10 @@ private void playAuthor_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub playAuthor_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playAuthor.Click
+```VB
+
+Public Sub playAuthor_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playAuthor.Click
 
     &#39; ...Add code to ensure that the text box contains a valid value.
 
@@ -128,10 +108,10 @@ private void playAuthor_Click(object sender, System.EventArgs e)
     &#39; Play the media in the current playlist. 
     player.Ctlcontrols.play()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

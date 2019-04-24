@@ -44,22 +44,9 @@ if (hTheme)
 {
     CloseThemeData(hTheme);
 }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>void DrawMyControl(HDC hDC, HWND hwndButton, HTHEME hTheme, int iState)
+void DrawMyControl(HDC hDC, HWND hwndButton, HTHEME hTheme, int iState)
 {
     RECT rc, rcContent;
     TCHAR szButtonText[255];
@@ -93,10 +80,10 @@ if (hTheme)
     {
         // Draw the control without using visual styles.
     }
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

@@ -77,22 +77,9 @@ HRESULT ConfigureVideoInput(IWMWriter* pWriter,
     
     // Stride = (width * bytes/pixel), rounded to the next DWORD boundary.
     lStride = (lFrameWidth * (pbmi->biBitCount / 8) + 3) & ~3;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    // Image size = stride * height. 
+    // Image size = stride * height. 
     pbmi->biSizeImage = lFrameHeight * lStride;
 
     // Apply the adjusted type to the video input. 
@@ -108,10 +95,10 @@ Exit:
     delete [] pType;
     SAFE_RELEASE(pProps);
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

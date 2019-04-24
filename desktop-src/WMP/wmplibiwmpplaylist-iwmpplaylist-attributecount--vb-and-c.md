@@ -29,23 +29,13 @@ The **attributeCount** property gets the number of attributes associated with a 
 public System.Int32 attributeCount {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property attributeCount As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property attributeCount As System.Int32
+```
+
+
 
 
 
@@ -114,20 +104,10 @@ for(int i = 0; i < playlist.count; i++)
 displayAttributes.Nodes.Add(mediaRootNode);
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Dim playlist As WMPLib.IWMPPlaylist = player.currentPlaylist
+```VB
+
+Dim playlist As WMPLib.IWMPPlaylist = player.currentPlaylist
 Dim Media As WMPLib.IWMPMedia
 Dim name As String
 
@@ -175,10 +155,10 @@ For i As Integer = 0 To (playlist.count - 1) Step 1
 Next i
 
 &#39; Add the media root node to the tree
-displayAttributes.Nodes.Add(mediaRootNode)</code></pre></td>
-</tr>
-</tbody>
-</table>
+displayAttributes.Nodes.Add(mediaRootNode)
+```
+
+
 
 
 

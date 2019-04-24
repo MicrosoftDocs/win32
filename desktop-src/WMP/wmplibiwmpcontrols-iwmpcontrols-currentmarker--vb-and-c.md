@@ -29,23 +29,13 @@ The **currentMarker** property gets or sets the current marker number.
 public System.Int32 currentMarker {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property currentMarker As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property currentMarker As System.Int32
+```
+
+
 
 
 
@@ -82,20 +72,10 @@ private void markers_OnSelectedIndexChanged(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Fill the list box with the marker identifiers of the current media item.
+```VB
+
+' Fill the list box with the marker identifiers of the current media item.
 markers.Items.Add(&quot;Begining&quot;)
 markers.Items.Add(&quot;Sunrise&quot;)
 markers.Items.Add(&quot;Car chase&quot;)
@@ -109,10 +89,10 @@ Public Sub markers_SelectedIndexChanged(ByVal sender As Object, ByVal e As Syste
 
     player.Ctlcontrols.currentMarker = selectedMarker
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

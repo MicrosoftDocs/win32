@@ -29,24 +29,14 @@ The **startRip** method rips the CD.
 public void startRip();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub startRip()
-Implements IWMPCdromRip.startRip</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub startRip()
+Implements IWMPCdromRip.startRip
+```
+
+
 
 
 

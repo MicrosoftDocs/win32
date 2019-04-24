@@ -29,24 +29,14 @@ The **getAll** method returns an **IWMPPlaylist** interface that corresponds to 
 public IWMPPlaylist getAll();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getAll() As IWMPPlaylist
-Implements IWMPMediaCollection.getAll</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Function getAll() As IWMPPlaylist
+Implements IWMPMediaCollection.getAll
+```
+
+
 
 
 
@@ -86,20 +76,10 @@ player.currentMedia = player.mediaCollection.getAll().get_Item(rand);
 player.Ctlcontrols.play();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create a random number generator. 
+```VB
+
+' Create a random number generator. 
 Dim randGenerator As System.Random = New System.Random()
 
 &#39; Store the count of all media items in the media collection.
@@ -112,10 +92,10 @@ Dim rand As Integer = randGenerator.Next(count)
 player.currentMedia = player.mediaCollection.getAll().Item(rand)
 
 &#39; Play the media item.
-player.Ctlcontrols.play()</code></pre></td>
-</tr>
-</tbody>
-</table>
+player.Ctlcontrols.play()
+```
+
+
 
 
 

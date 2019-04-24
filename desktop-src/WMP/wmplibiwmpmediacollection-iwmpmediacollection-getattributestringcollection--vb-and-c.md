@@ -32,27 +32,17 @@ public IWMPStringCollection getAttributeStringCollection(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getAttributeStringCollection( _
+```VB
+
+Public Function getAttributeStringCollection( _
   ByVal bstrAttribute As System.String, _
   ByVal bstrMediaType As System.String _
 ) As IWMPStringCollection
-Implements IWMPMediaCollection.getAttributeStringCollection</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.getAttributeStringCollection
+```
+
+
 
 
 
@@ -119,20 +109,10 @@ private void audioAttributes_OnSelectedIndexChanged(object sender, System.EventA
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub audioAttributes_OnSelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles audioAttributes.SelectedIndexChanged
+```VB
+
+Public Sub audioAttributes_OnSelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles audioAttributes.SelectedIndexChanged
 
     &#39; Retrieve the attribute type from the ListBox
     Dim lb As System.Windows.Forms.ListBox = sender
@@ -161,10 +141,10 @@ private void audioAttributes_OnSelectedIndexChanged(object sender, System.EventA
     &#39; Display the items in the text box.
     attributeValues.Lines = attributeArray
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

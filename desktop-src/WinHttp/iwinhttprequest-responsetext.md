@@ -32,23 +32,13 @@ HRESULT get_ResponseText(
 );
 ```
 
-<span codelanguage="JScript"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JScript</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>strResponseText = WinHttpRequest.ResponseText</code></pre></td>
-</tr>
-</tbody>
-</table>
+```JScript
+
+strResponseText = WinHttpRequest.ResponseText
+```
+
+
 
 
 
