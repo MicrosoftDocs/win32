@@ -8,12 +8,6 @@ ms.date: 03/14/2019
 
 # Resource lifetime and synchronization
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these feature appears is Windows 10 Insider Preview, version 1903 (10.0; Build 18309).
-
 Just as with Direct3D 12, your DirectML application must (in order to avoid undefined behavior) correctly manage object lifetimes and synchronization between the CPU and the GPU. DirectML follows an identical resource lifetime model to that of Direct3D 12.
 
 - Lifetime dependencies between two CPU objects are maintained by DirectML using strong reference counts. Your application needn't manually manage CPU lifetime dependencies. For example, every device child holds a strong reference to its parent device.

@@ -13,6 +13,14 @@
       items: 
       - name: "DNS_QUERY_COMPLETION_ROUTINE"
         href: /windows/desktop/api/Windns/nc-windns-dns_query_completion_routine
+      - name: "DNS_SERVICE_BROWSE_CALLBACK"
+        href: /windows/desktop/api/Windns/nc-windns-dns_service_browse_callback
+      - name: "DNS_SERVICE_REGISTER_COMPLETE"
+        href: /windows/desktop/api/Windns/nc-windns-dns_service_register_complete
+      - name: "DNS_SERVICE_RESOLVE_COMPLETE"
+        href: /windows/desktop/api/Windns/nc-windns-dns_service_resolve_complete
+      - name: "MDNS_QUERY_CALLBACK"
+        href: /windows/desktop/api/Windns/nc-windns-mdns_query_callback
     - name: "DNS Constants"
       href: dns-constants.md
     - name: "DNS Data Types"
@@ -73,6 +81,30 @@
         href: /windows/desktop/api/Windns/nf-windns-dnsreleasecontexthandle
       - name: "DnsReplaceRecordSet"
         href: /windows/desktop/api/Windns/nf-windns-dnsreplacerecordseta
+      - name: "DnsServiceBrowse"
+        href: /windows/desktop/api/Windns/nf-windns-dnsservicebrowse
+      - name: "DnsServiceBrowseCancel"
+        href: /windows/desktop/api/Windns/nf-windns-dnsservicebrowsecancel
+      - name: "DnsServiceConstructInstance"
+        href: /windows/desktop/api/Windns/nf-windns-dnsserviceconstructinstance
+      - name: "DnsServiceCopyInstance"
+        href: /windows/desktop/api/Windns/nf-windns-dnsservicecopyinstance
+      - name: "DnsServiceDeRegister"
+        href: /windows/desktop/api/Windns/nf-windns-dnsservicederegister
+      - name: "DnsServiceFreeInstance"
+        href: /windows/desktop/api/Windns/nf-windns-dnsservicefreeinstance
+      - name: "DnsServiceRegister"
+        href: /windows/desktop/api/Windns/nf-windns-dnsserviceregister
+      - name: "DnsServiceRegisterCancel"
+        href: /windows/desktop/api/Windns/nf-windns-dnsserviceregistercancel
+      - name: "DnsServiceResolve"
+        href: /windows/desktop/api/Windns/nf-windns-dnsserviceresolve
+      - name: "DnsServiceResolveCancel"
+        href: /windows/desktop/api/Windns/nf-windns-dnsserviceresolvecancel
+      - name: "DnsStartMulticastQuery"
+        href: /windows/desktop/api/Windns/nf-windns-dnsstartmulticastquery
+      - name: "DnsStopMulticastQuery"
+        href: /windows/desktop/api/Windns/nf-windns-dnsstopmulticastquery
       - name: "DnsValidateName"
         href: /windows/desktop/api/Windns/nf-windns-dnsvalidatename
       - name: "DnsValidateServerStatus"
@@ -136,6 +168,16 @@
         href: /windows/desktop/api/Windns/ns-windns-_dnsrecorda
       - name: "DNS_RECORD_FLAGS"
         href: /windows/desktop/api/Windns/ns-windns-_dnsrecordflags
+      - name: "DNS_SERVICE_BROWSE_REQUEST"
+        href: /windows/desktop/api/windns/ns-windns-dns_service_browse_request
+      - name: "DNS_SERVICE_CANCEL"
+        href: /windows/desktop/api/windns/ns-windns-dns_service_cancel
+      - name: "DNS_SERVICE_INSTANCE"
+        href: /windows/desktop/api/windns/ns-windns-dns_service_instance
+      - name: "DNS_SERVICE_REGISTER_REQUEST"
+        href: /windows/desktop/api/windns/ns-windns-dns_service_register_request
+      - name: "DNS_SERVICE_RESOLVE_REQUEST"
+        href: /windows/desktop/api/windns/ns-windns-dns_service_resolve_request
       - name: "DNS_SIG_DATA"
         href: https://msdn.microsoft.com/en-us/library/ms682094(v=VS.85).aspx
       - name: "DNS_SOA_DATA"
@@ -162,6 +204,10 @@
         href: /windows/desktop/api/Windns/ns-windns-_ip4_array
       - name: "IP6_ADDRESS"
         href: /windows/desktop/api/Windns/ns-windns-__unnamed_struct_0
+      - name: "MDNS_QUERY_HANDLE"
+        href: /windows/desktop/api/windns/ns-windns-mdns_query_handle
+      - name: "MDNS_QUERY_REQUEST"
+        href: /windows/desktop/api/windns/ns-windns-mdns_query_request
   - name: "DNS WMI Provider"
     href: dns-wmi-provider.md
     items: 

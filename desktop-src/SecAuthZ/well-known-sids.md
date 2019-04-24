@@ -4,6 +4,7 @@ ms.assetid: eb2f95c4-9465-409b-b76c-9ccae1d05eda
 title: Well-known SIDs
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: 19H1
 ---
 
 # Well-known SIDs
