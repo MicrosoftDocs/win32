@@ -22,3 +22,7 @@ The following features, tools, developer guidance, samples, and videos have been
 ## What's new for Windows 10 October 2018 Update (Version 1809)
 
 The following features, tools, developer guidance, samples, and videos have been made available for the [Windows 10 October 2018 Update](https://blogs.windows.com/windowsexperience/2018/10/02/how-to-get-the-windows-10-october-2018-update/#R6DJStjqlIkK34BT.97).
+
+| Release | Feature | Description | Link |
+| --- | --- | --- | --- |
+| 1809 | UI Automation support for Active Text Position Change events | Supporting links on a web page or app that navigate to an anchor on that same page. | [IUIAutomation6 interface](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6) |

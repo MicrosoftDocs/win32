@@ -7,7 +7,8 @@ ms.date: 04/18/2019
 
 # Testing with UI Automation and other tools
 
-Testing the accessibility of your Windows applications, assistive technology tools, and UI frameworks is a critical step in ensuring successful user experiences for people with disabilities and other limitations, as well as users who prefer keyboard interactions.
+Testing the accessibility of your Windows applications, assistive technology tools, and UI frameworks is a critical step in ensuring successful user experiences for people with various disabilities, as well as users who just prefer using a keyboard.
+
 
 Without adequate access, many users of assistive technology, such as screen reader and on-screen keyboard users, would be unable to use your application. It is important to thoroughly test your application to ensure that it provides adequate information about its UI elements, and that all of your application scenarios can be accomplished with just a keyboard.
 
