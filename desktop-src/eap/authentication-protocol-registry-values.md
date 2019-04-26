@@ -28,33 +28,33 @@ ms.date: 05/31/2018
 
 The setup software for the EAP DLL may create the following registry values below **&lt;eaptypeid&gt;**. These registry values are defined in the Raseapif.h header file. The **RAS_EAP_VALUENAME_PATH** and **RAS_EAP_VALUENAME_FRIENDLY_NAME** values are required. The setup software may create other keys and values as well. These could be used by the authentication protocol itself. For more information and an example of registry configuration, see [Registry Values Example](registry-values-example.md).
 
-[RAS_EAP_VALUENAME_PATH](#ras-eap-valuename-path)
+[RAS_EAP_VALUENAME_PATH](#raseapvaluenamepath)
 
-[RAS_EAP_VALUENAME_FRIENDLY_NAME](#ras-eap-valuename-friendly-name)
+[RAS_EAP_VALUENAME_FRIENDLY_NAME](#raseapvaluenamefriendlyname)
 
-[RAS_EAP_VALUENAME_CONFIGUI](#ras-eap-valuename-configui)
+[RAS_EAP_VALUENAME_CONFIGUI](#raseapvaluenameconfigui)
 
-[RAS_EAP_VALUENAME_DEFAULT_DATA](#ras-eap-valuename-default-data)
+[RAS_EAP_VALUENAME_DEFAULT_DATA](#raseapvaluenamedefaultdata)
 
-[RAS_EAP_VALUENAME_REQUIRE_CONFIGUI](#ras-eap-valuename-require-configui)
+[RAS_EAP_VALUENAME_REQUIRE_CONFIGUI](#raseapvaluenamerequireconfigui)
 
-[RAS_EAP_VALUENAME_CONFIG_CLSID](#ras-eap-valuename-config-clsid)
+[RAS_EAP_VALUENAME_CONFIG_CLSID](#raseapvaluenameconfigclsid)
 
-[RAS_EAP_VALUENAME_IDENTITY](#ras-eap-valuename-identity)
+[RAS_EAP_VALUENAME_IDENTITY](#raseapvaluenameidentity)
 
-[RAS_EAP_VALUENAME_INTERACTIVEUI](#ras-eap-valuename-interactiveui)
+[RAS_EAP_VALUENAME_INTERACTIVEUI](#raseapvaluenameinteractiveui)
 
-[RAS_EAP_VALUENAME_INVOKE_NAMEDLG](#ras-eap-valuename-invoke-namedlg)
+[RAS_EAP_VALUENAME_INVOKE_NAMEDLG](#raseapvaluenameinvokenamedlg)
 
-[RAS_EAP_VALUENAME_INVOKE_PWDDLG](#ras-eap-valuename-invoke-pwddlg)
+[RAS_EAP_VALUENAME_INVOKE_PWDDLG](#raseapvaluenameinvokepwddlg)
 
-[RAS_EAP_VALUENAME_ENCRYPTION](#ras-eap-valuename-encryption)
+[RAS_EAP_VALUENAME_ENCRYPTION](#raseapvaluenameencryption)
 
-[RAS_EAP_VALUENAME_STANDALONE_SUPPORTED](#ras-eap-valuename-standalone-supported)
+[RAS_EAP_VALUENAME_STANDALONE_SUPPORTED](#raseapvaluenamestandalonesupported)
 
-[RAS_EAP_VALUENAME_ROLES_SUPPORTED](#ras-eap-valuename-roles-supported)
+[RAS_EAP_VALUENAME_ROLES_SUPPORTED](#raseapvaluenamerolessupported)
 
-[RAS_EAP_VALUENAME_PER_POLICY_CONFIG](#ras-eap-valuename-per-policy-config)
+[RAS_EAP_VALUENAME_PER_POLICY_CONFIG](#raseapvaluenameperpolicyconfig)
 
 ## RAS_EAP_VALUENAME_PATH
 
