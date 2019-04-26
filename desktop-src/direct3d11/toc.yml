@@ -874,18 +874,9 @@
             items: 
             - name: "GetDesc"
               href: /windows/desktop/api/D3D11/nf-d3d11-id3d11samplerstate-getdesc
-          - name: "IDirect3DDxgiInterfaceAccess"
-            href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nn-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess
-            items: 
-            - name: "GetInterface"
-              href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface
         - name: "Core Functions"
           href: d3d11-graphics-reference-d3d11-core-functions.md
           items: 
-          - name: "CreateDirect3D11DeviceFromDXGIDevice"
-            href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11devicefromdxgidevice
-          - name: "CreateDirect3D11SurfaceFromDXGISurface"
-            href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11surfacefromdxgisurface
           - name: "D3D11CreateDevice"
             href: /windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice
           - name: "D3D11CreateDeviceAndSwapChain"
