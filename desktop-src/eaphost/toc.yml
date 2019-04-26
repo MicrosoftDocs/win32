@@ -430,38 +430,38 @@
       href: common-eap-host-api-enumerations.md
       items: 
       - name: "EAP_ATTRIBUTE_TYPE"
-        href: /previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type
+        href: /windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type
       - name: "EAP_CONFIG_INPUT_FIELD_TYPE"
-        href: /previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type
+        href: /windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type
       - name: "EapCode"
-        href: /previous-versions/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode
+        href: /windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode
     - name: "Common EAPHost API Structures"
       href: common-eap-host-api-structures.md
       items: 
       - name: "EAP_ATTRIBUTE"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute
       - name: "EAP_ATTRIBUTES"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes
       - name: "EAP_CONFIG_INPUT_FIELD_ARRAY"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array
       - name: "EAP_CONFIG_INPUT_FIELD_DATA"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data
       - name: "EAP_ERROR"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_error
       - name: "EAP_METHOD_INFO"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info
       - name: "EAP_METHOD_INFO_EX"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_ex
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_ex
       - name: "EAP_METHOD_INFO_ARRAY"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array
       - name: "EAP_METHOD_INFO_ARRAY_EX"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array_ex
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array_ex
       - name: "EAP_METHOD_TYPE"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type
       - name: "EAP_TYPE"
-        href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type
+        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_type
       - name: "EapPacket"
-        href: /previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket
+        href: /windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket
     - name: "Common EAPHost Constants"
       href: common-eap-host-error-constants.md
       items: 
@@ -482,94 +482,94 @@
         href: eap-host-supplicant-configuration-functions.md
         items: 
         - name: "EapHostPeerConfigBlob2Xml"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml
         - name: "EapHostPeerConfigXml2Blob"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob
         - name: "EapHostPeerCredentialsXml2Blob"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob
         - name: "EapHostPeerFreeErrorMemory"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory
         - name: "EapHostPeerFreeMemory"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory
         - name: "EapHostPeerGetMethodProperties"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties
         - name: "EapHostPeerGetMethods"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods
         - name: "EapHostPeerInvokeConfigUI"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui
         - name: "EapHostPeerInvokeIdentityUI"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeidentityui
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeidentityui
         - name: "EapHostPeerInvokeInteractiveUI"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui
         - name: "EapHostPeerQueryCredentialInputFields"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields
         - name: "EapHostPeerQueryInteractiveUIInputFields"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryinteractiveuiinputfields
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryinteractiveuiinputfields
         - name: "EapHostPeerQueryUIBlobFromInteractiveUIInputFields"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuiblobfrominteractiveuiinputfields
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuiblobfrominteractiveuiinputfields
         - name: "EapHostPeerQueryUserBlobFromCredentialInputFields"
-          href: /previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields
+          href: /windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields
       - name: "EAPHost Supplicant Run-time Functions"
         href: eap-host-supplicant-run-time-functions.md
         items: 
         - name: "EapHostPeerBeginSession"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession
         - name: "EapHostPeerClearConnection"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerclearconnection
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerclearconnection
         - name: "EapHostPeerEndSession"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerendsession
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerendsession
         - name: "EapHostPeerFreeEapError"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror
         - name: "EapHostPeerGetAuthStatus"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus
         - name: "EapHostPeerGetDataToUnplumbCredentials"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetdatatounplumbcredentials
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetdatatounplumbcredentials
         - name: "EapHostPeerGetResponseAttributes"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresponseattributes
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresponseattributes
         - name: "EapHostPeerGetIdentity"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetidentity
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetidentity
         - name: "EapHostPeerGetResult"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresult
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresult
         - name: "EapHostPeerFreeRuntimeMemory"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeruntimememory
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeruntimememory
         - name: "EapHostPeerGetSendPacket"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetsendpacket
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetsendpacket
         - name: "EapHostPeerGetUIContext"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext
         - name: "EapHostPeerInitialize"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize
         - name: "EapHostPeerProcessReceivedPacket"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket
         - name: "EapHostPeerSetResponseAttributes"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetresponseattributes
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetresponseattributes
         - name: "EapHostPeerSetUIContext"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetuicontext
         - name: "EapHostPeerUninitialize"
-          href: /previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize
+          href: /windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize
       - name: "EAPHost Supplicant Callbacks"
         href: eap-host-supplicant-callbacks.md
         items: 
         - name: "NotificationHandler"
-          href: /previous-versions/windows/desktop/api/eappapis/nc-eappapis-notificationhandler
+          href: /windows/desktop/api/eappapis/nc-eappapis-notificationhandler
       - name: "EAPHost Supplicant Enumerations"
         href: eap-host-supplicant-enumerations.md
         items: 
         - name: "EAP_INTERACTIVE_UI_DATA_TYPE"
-          href: /previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_interactive_ui_data_type
+          href: /windows/desktop/api/eaptypes/ne-eaptypes-_eap_interactive_ui_data_type
         - name: "EAP_METHOD_PROPERTY_TYPE"
-          href: /previous-versions/windows/desktop/api/EapTypes/ne-eaptypes-_eap_method_property_type
+          href: /windows/desktop/api/EapTypes/ne-eaptypes-_eap_method_property_type
         - name: "EAP_METHOD_PROPERTY_VALUE_TYPE"
-          href: /previous-versions/windows/desktop/api/EapTypes/ne-eaptypes-_eap_method_property_value_type
+          href: /windows/desktop/api/EapTypes/ne-eaptypes-_eap_method_property_value_type
         - name: "EAPHOST_AUTH_STATUS"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_eaphost_auth_status
+          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_eaphost_auth_status
         - name: "EapHostPeerAuthParams"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams
+          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams
         - name: "EapHostPeerMethodResultReason"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeermethodresultreason
+          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeermethodresultreason
         - name: "EapHostPeerResponseAction"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction
+          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction
         - name: "ISOLATION_STATE"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state
+          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state
       - name: "EAPHost Supplicant Structures"
         href: eap-host-supplicant-structures.md
         items: 
@@ -582,27 +582,27 @@
         - name: "EAP_CRED_RESP"
           href: eap-cred-resp.md
         - name: "EAP_CRED_EXPIRY_REQ"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_cred_expiry_req
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_cred_expiry_req
         - name: "EAP_INTERACTIVE_UI_DATA"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data
         - name: "EAP_METHOD_PROPERTY"
-          href: /previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property
+          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property
         - name: "EAP_METHOD_PROPERTY_ARRAY"
-          href: /previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_array
+          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_array
         - name: "EAP_METHOD_PROPERTY_VALUE"
-          href: /previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value
+          href: /windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value
         - name: "EAP_METHOD_PROPERTY_VALUE_BOOL"
-          href: /previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_bool
+          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_bool
         - name: "EAP_METHOD_PROPERTY_VALUE_DWORD"
-          href: /previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_dword
+          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_dword
         - name: "EAP_METHOD_PROPERTY_VALUE_STRING"
-          href: /previous-versions/windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_string
+          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_string
         - name: "EAP_UI_DATA_FORMAT"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_ui_data_format
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-eap_ui_data_format
         - name: "EAPHOST_AUTH_INFO"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-_eaphost_auth_info
+          href: /windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-_eaphost_auth_info
         - name: "EapHostPeerMethodResult"
-          href: /previous-versions/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-tageaphostpeermethodresult
+          href: /windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-tageaphostpeermethodresult
         - name: "EapHostPeerNapInfo"
           href: eaphostpeernapinfo.md
     - name: "EAPHost Peer Method API Reference"
@@ -612,90 +612,90 @@
         href: eaphost-peer-method-configuration-functions.md
         items: 
         - name: "EapPeerConfigBlob2Xml"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerconfigblob2xml
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerconfigblob2xml
         - name: "EapPeerConfigXml2Blob"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerconfigxml2blob
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerconfigxml2blob
         - name: "EapPeerCredentialsXml2Blob"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeercredentialsxml2blob
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeercredentialsxml2blob
         - name: "EapPeerFreeErrorMemory"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory
         - name: "EapPeerFreeMemory"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreememory
         - name: "EapPeerGetMethodProperties"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetmethodproperties
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetmethodproperties
         - name: "EapPeerInvokeConfigUI"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeconfigui
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeconfigui
         - name: "EapPeerInvokeIdentityUI"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeidentityui
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeidentityui
         - name: "EapPeerInvokeInteractiveUI"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui
         - name: "EapPeerQueryCredentialInputFields"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerquerycredentialinputfields
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerquerycredentialinputfields
         - name: "EapPeerQueryInteractiveUIInputFields"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryinteractiveuiinputfields
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryinteractiveuiinputfields
         - name: "EapPeerQueryUIBlobFromInteractiveUIInputFields"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields
         - name: "EapPeerQueryUserBlobFromCredentialInputFields"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuserblobfromcredentialinputfields
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuserblobfromcredentialinputfields
       - name: "EAPHost Peer Method Run-Time Functions"
         href: eaphost-peer-method-run-time-functions.md
         items: 
         - name: "EapPeerBeginSession"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession
         - name: "EapPeerEndSession"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession
         - name: "EapPeerGetConfigBlobAndUserBlob"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetconfigblobanduserblob
         - name: "EapPeerGetIdentity"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetidentity
         - name: "EapPeerGetInfo"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo
         - name: "EapPeerGetResponseAttributes"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes
         - name: "EapPeerGetResponsePacket"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket
         - name: "EapPeerGetResult"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresult
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresult
         - name: "EapPeerGetUIContext"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext
         - name: "EapPeerInitialize"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize
         - name: "EapPeerProcessRequestPacket"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket
         - name: "EapPeerSetCredentials"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials
         - name: "EapPeerSetResponseAttributes"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes
         - name: "EapPeerSetUIContext"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetuicontext
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetuicontext
         - name: "EapPeerShutdown"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown
+          href: /windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown
       - name: "EAPHost Peer Method Enumerations"
         href: eap-host-peer-method-enumerations.md
         items: 
         - name: "EapCredentialType"
-          href: /previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype
+          href: /windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype
         - name: "EapPeerMethodResponseAction"
-          href: /previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction
+          href: /windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction
         - name: "EapPeerMethodResultReason"
-          href: /previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresultreason
+          href: /windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresultreason
       - name: "EAPHost Peer Method Structures"
         href: eap-host-peer-method-structures.md
         items: 
         - name: "EapCertificateCredential"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcertificatecredential
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapcertificatecredential
         - name: "EapCredential"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcredential
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapcredential
         - name: "EAP_PEER_METHOD_ROUTINES"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-_eap_peer_method_routines
+          href: /windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-_eap_peer_method_routines
         - name: "EapPeerMethodOutput"
-          href: /previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-tageappeermethodouput
+          href: /windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-tageappeermethodouput
         - name: "EapPeerMethodResult"
-          href: /previous-versions/windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-tageappeermethodresult
+          href: /windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-tageappeermethodresult
         - name: "EapSimCredential"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapsimcredential
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapsimcredential
         - name: "EapUsernamePasswordCredential"
-          href: /previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapusernamepasswordcredential
+          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapusernamepasswordcredential
     - name: "EAPHost Authenticator Method APIs"
       href: eaphost-authenticator-method-apis.md
       items: 
@@ -703,44 +703,44 @@
         href: eap-host-authenticator-method-functions.md
         items: 
         - name: "EapMethodAuthenticatorBeginSession"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorbeginsession
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorbeginsession
         - name: "EapMethodAuthenticatorEndSession"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorendsession
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorendsession
         - name: "EapMethodAuthenticatorFreeErrorMemory"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory
         - name: "EapMethodAuthenticatorGetAttributes"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetattributes
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetattributes
         - name: "EapMethodAuthenticatorFreeMemory"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory
         - name: "EapMethodAuthenticatorGetInfo"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetinfo
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetinfo
         - name: "EapMethodAuthenticatorGetResult"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetresult
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetresult
         - name: "EapMethodAuthenticatorInitialize"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinitialize
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinitialize
         - name: "EapMethodAuthenticatorInvokeConfigUI"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui
         - name: "EapMethodAuthenticatorReceivePacket"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorreceivepacket
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorreceivepacket
         - name: "EapMethodAuthenticatorSendPacket"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsendpacket
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsendpacket
         - name: "EapMethodAuthenticatorSetAttributes"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsetattributes
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsetattributes
         - name: "EapMethodAuthenticatorShutdown"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorshutdown
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorshutdown
         - name: "EapMethodAuthenticatorUpdateInnerMethodParams"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams
+          href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams
       - name: "EAPHost Authenticator Method Enumerations"
         href: eap-host-authenticator-method-enumerations.md
         items: 
         - name: "EAP_AUTHENTICATOR_SEND_TIMEOUT"
-          href: /previous-versions/windows/desktop/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-_eap_authenticator_send_timeout
+          href: /windows/desktop/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-_eap_authenticator_send_timeout
         - name: "EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION"
-          href: /previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action
+          href: /windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action
       - name: "EAPHost Authenticator Method Structures"
         href: eap-host-authenticator-method-structures.md
         items: 
         - name: "EAP_AUTHENTICATOR_METHOD_ROUTINES"
-          href: /previous-versions/windows/desktop/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-_eap_authenticator_method_routines
+          href: /windows/desktop/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-_eap_authenticator_method_routines
         - name: "EAP_METHOD_AUTHENTICATOR_RESULT"
-          href: /previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result
+          href: /windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result
