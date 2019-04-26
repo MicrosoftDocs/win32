@@ -31,26 +31,16 @@ public IWMPPlaylist getByName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByName( _
+```VB
+
+Public Function getByName( _
   ByVal bstrName As System.String _
 ) As IWMPPlaylist
-Implements IWMPMediaCollection.getByName</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.getByName
+```
+
+
 
 
 
@@ -103,20 +93,10 @@ player.currentPlaylist.appendItem(two.get_Item(0));
 player.currentPlaylist.appendItem(three.get_Item(0));
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; In each case, use the name exactly as it appears in the library.
+```VB
+
+' In each case, use the name exactly as it appears in the library.
 &#39; Windows Media Player does not include file name extensions or file paths
 &#39; in the name. Internet URLs include the entire path, but not the 
 &#39; file name extension.
@@ -135,10 +115,10 @@ Dim three As WMPLib.IWMPPlaylist = player.mediaCollection.getByName(&quot;house&
 &#39; property with an index of zero to reference that item.
 player.currentPlaylist.appendItem(one.Item(0))
 player.currentPlaylist.appendItem(two.Item(0))
-player.currentPlaylist.appendItem(three.Item(0))</code></pre></td>
-</tr>
-</tbody>
-</table>
+player.currentPlaylist.appendItem(three.Item(0))
+```
+
+
 
 
 

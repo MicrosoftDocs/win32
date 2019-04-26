@@ -73,22 +73,9 @@ void _FreeMediaType(AM_MEDIA_TYPE& mt)
         mt.pUnk = NULL;
     }
 }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// Delete a media type structure that was allocated on the heap.
+// Delete a media type structure that was allocated on the heap.
 void _DeleteMediaType(AM_MEDIA_TYPE *pmt)
 {
     if (pmt != NULL)
@@ -96,10 +83,10 @@ void _DeleteMediaType(AM_MEDIA_TYPE *pmt)
         _FreeMediaType(*pmt); 
         CoTaskMemFree(pmt);
     }
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

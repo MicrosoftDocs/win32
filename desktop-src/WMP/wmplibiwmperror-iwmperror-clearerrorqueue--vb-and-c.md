@@ -29,24 +29,14 @@ The **clearErrorQueue** method clears the errors from the error queue.
 public void clearErrorQueue();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub clearErrorQueue()
-Implements IWMPError.clearErrorQueue</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub clearErrorQueue()
+Implements IWMPError.clearErrorQueue
+```
+
+
 
 
 
@@ -90,20 +80,10 @@ private void player_ErrorEvent_clearErrorQueue(object sender, System.EventArgs e
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_ErrorEvent_clearErrorQueue(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
+```VB
+
+Public Sub player_ErrorEvent_clearErrorQueue(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
 
     &#39; Store the number of errors in the queue.
     Dim max As Integer = player.Error.errorCount
@@ -122,10 +102,10 @@ private void player_ErrorEvent_clearErrorQueue(object sender, System.EventArgs e
     &#39; Clear the error queue to prepare for the next group of errors.
     player.Error.clearErrorQueue()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

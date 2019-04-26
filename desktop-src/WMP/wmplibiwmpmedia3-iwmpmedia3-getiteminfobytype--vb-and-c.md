@@ -33,28 +33,18 @@ public System.Object getItemInfoByType(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getItemInfoByType( _
+```VB
+
+Public Function getItemInfoByType( _
   ByVal bstrType As System.String, _
   ByVal bstrLanguage As System.String, _
   ByVal lIndex As System.Int32 _
 ) As System.Object
-Implements IWMPMedia3.getItemInfoByType</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia3.getItemInfoByType
+```
+
+
 
 
 

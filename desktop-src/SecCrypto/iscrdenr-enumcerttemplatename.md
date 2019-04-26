@@ -31,27 +31,17 @@ HRESULT enumCertTemplateName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>SCrdEnr.enumCertTemplateName( _
+```VB
+
+SCrdEnr.enumCertTemplateName( _
   ByVal dwIndex, _
   ByVal dwFlags, _
   ByRef pbstrCertTemplateName _
-)</code></pre></td>
-</tr>
-</tbody>
-</table>
+)
+```
+
+
 
 
 

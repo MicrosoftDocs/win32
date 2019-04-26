@@ -56,27 +56,17 @@ Set objService = objLocator.ConnectServer(".", "root\cimv2")
 Set objWMIService = GetObject("winmgmts:")
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#Already has all the defaults set
+```PowerShell
+
+#Already has all the defaults set
 get-WmiObject Win32_LogicalDisk
 
 #Or, to be explicit,
-get-WmiObject -class Win32_LogicalDisk -Computer &quot;.&quot; -Namespace &quot;root\cimv2&quot; -Impersonation Impersonate</code></pre></td>
-</tr>
-</tbody>
-</table>
+get-WmiObject -class Win32_LogicalDisk -Computer &quot;.&quot; -Namespace &quot;root\cimv2&quot; -Impersonation Impersonate
+```
+
+
 
 
 
@@ -101,27 +91,17 @@ Set colScheduledJobs = objService.InstancesOf("Win32_ScheduledJob")
 SSet Service = GetObject("WinMgmts:{impersonationLevel=impersonate}!Win32_Service=""ALERTER""")
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#default - you don&#39;t actually need to use the -Class parameter
+```PowerShell
+
+#default - you don't actually need to use the -Class parameter
 Get-WMIObject Win32_WmiSetting
 
 #but you can if you want to
-Get-WMIObject -Class Win32_WmiSetting</code></pre></td>
-</tr>
-</tbody>
-</table>
+Get-WMIObject -Class Win32_WmiSetting
+```
+
+
 
 
 
@@ -145,27 +125,17 @@ For Each objJob in colScheduledJobs
     Wscript.Echo "Job ID: " & objJob.JobId & "Command: " & objJob.Command & VBNewLine
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Get-WmiObject -query &quot;SELECT * FROM Win32_logicalDisk WHERE DeviceID = &#39;C:&#39;&quot;
+```PowerShell
+
+Get-WmiObject -query &quot;SELECT * FROM Win32_logicalDisk WHERE DeviceID = 'C:'&quot;
 
 #or
 
-get-wmiObject -Class Win32_LogicalDisk -Filter &quot;DeviceID = &#39;C:&#39;&quot;</code></pre></td>
-</tr>
-</tbody>
-</table>
+get-wmiObject -Class Win32_LogicalDisk -Filter &quot;DeviceID = &#39;C:&#39;&quot;
+```
+
+
 
 
 
@@ -185,20 +155,10 @@ For more information, see [Accessing a Collection](accessing-a-collection.md).
 For Each Disk In GetObject("winmgmts:").InstancesOf ("CIM_LogicalDevice")
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$logicalDevices = Get-WmiObject CIM_LogicalDevice
+```PowerShell
+
+$logicalDevices = Get-WmiObject CIM_LogicalDevice
 foreach ($device in $logicalDevices)
 {
     $device.name
@@ -207,10 +167,10 @@ foreach ($device in $logicalDevices)
 #or, to be more compact
 
 Get-WmiObject cim_logicalDevice | ForEach-Object { $_.name }
-</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+```
+
+
 
 
 
@@ -234,26 +194,16 @@ Set objService = objLocator.ConnectServer(".", "root\cimv2")
 Set objWMIService = GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & "." & "\root\cimv2")
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Get-WmiObject -list * -Namespace root\default
+```PowerShell
+
+Get-WmiObject -list * -Namespace root\default
 
 #or, to retrieve all namespaces,
-Get-WmiObject -Namespace root -Class __Namespace</code></pre></td>
-</tr>
-</tbody>
-</table>
+Get-WmiObject -Namespace root -Class __Namespace
+```
+
+
 
 
 
@@ -351,29 +301,19 @@ Set objInstancePath = objNewInst.Put_
 WScript.Echo objInstancePath.Path
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$mySettings = get-WMIObject Win32_WmiSetting
+```PowerShell
+
+$mySettings = get-WMIObject Win32_WmiSetting
 $mySettings.LoggingLevel = 1
 $mySettings.Put()
 
 #or
 
-Set-WMIInstance -class Win32_WMISetting -argument @{LoggingLevel=1}</code></pre></td>
-</tr>
-</tbody>
-</table>
+Set-WMIInstance -class Win32_WMISetting -argument @{LoggingLevel=1}
+```
+
+
 
 
 
@@ -411,26 +351,16 @@ For Each objProcess in colSWbemObjectSet
 Next
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$Computer = &quot;atl-dc-01&quot;
+```PowerShell
+
+$Computer = &quot;atl-dc-01&quot;
 
 Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_Process -Credential FABRIKAM\administrator  `
--ComputerName $Computer</code></pre></td>
-</tr>
-</tbody>
-</table>
+-ComputerName $Computer
+```
+
+
 
 
 
@@ -460,25 +390,15 @@ For Each objJob in colScheduledJobs
     Wscript.Echo "Job ID: " & objJob.JobId & "Command: " & objJob.Command & VBNewLine
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$Computer = &quot;atl-dc-01&quot;
+```PowerShell
 
-Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_logicalDisk -ComputerName $Computer</code></pre></td>
-</tr>
-</tbody>
-</table>
+$Computer = &quot;atl-dc-01&quot;
+
+Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_logicalDisk -ComputerName $Computer
+```
+
+
 
 
 
@@ -505,26 +425,16 @@ service.Security_.ImpersonationLevel = wbemImpersonationLevelImpersonate
 Set objinstance = Service.Get("Win32_Service=""ALERTER""")
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$Computer = &quot;atl-dc-01&quot;
+```PowerShell
+
+$Computer = &quot;atl-dc-01&quot;
 
 Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_Process -Impersonation Impersonate `
- -Authentication PacketIntegrity -Credential FABRIKAM\administrator -ComputerName $Computer</code></pre></td>
-</tr>
-</tbody>
-</table>
+ -Authentication PacketIntegrity -Credential FABRIKAM\administrator -ComputerName $Computer
+```
+
+
 
 
 

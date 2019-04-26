@@ -32,23 +32,13 @@ HRESULT get_ResponseBody(
 );
 ```
 
-<span codelanguage="JScript"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JScript</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>vtResponseBody = WinHttpRequest.ResponseBody</code></pre></td>
-</tr>
-</tbody>
-</table>
+```JScript
+
+vtResponseBody = WinHttpRequest.ResponseBody
+```
+
+
 
 
 

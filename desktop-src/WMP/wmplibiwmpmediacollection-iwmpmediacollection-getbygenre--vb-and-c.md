@@ -31,26 +31,16 @@ public IWMPPlaylist getByGenre(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByGenre( _
+```VB
+
+Public Function getByGenre( _
   ByVal bstrGenre As System.String _
 ) As IWMPPlaylist
-Implements IWMPMediaCollection.getByGenre</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.getByGenre
+```
+
+
 
 
 
@@ -99,20 +89,10 @@ private void playGenre_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub playGenre_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playGenre.Click
+```VB
+
+Public Sub playGenre_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playGenre.Click
 
     &#39; ...Add code to ensure that the text box contains a valid value.
 
@@ -128,10 +108,10 @@ private void playGenre_Click(object sender, System.EventArgs e)
     &#39; Play the media in the current playlist. 
     player.Ctlcontrols.play()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

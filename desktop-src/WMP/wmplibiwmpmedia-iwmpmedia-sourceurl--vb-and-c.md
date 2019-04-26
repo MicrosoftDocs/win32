@@ -32,23 +32,13 @@ This property is read-only.
 public System.String sourceURL {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property sourceURL As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property sourceURL As System.String
+```
+
+
 
 
 
@@ -75,20 +65,10 @@ player.URL = media.sourceURL;
 player.Ctlcontrols.play();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to the All Music Playlist. 
+```VB
+
+' Get an interface to the All Music Playlist. 
 Dim pl As WMPLib.IWMPPlaylist = player.playlistCollection.getByName(&quot;All Music&quot;).Item(0)
 
 &#39; Store a WMPLib.IWMPMedia3 interface to the first media item in the playlist. 
@@ -98,10 +78,10 @@ Dim media As WMPLib.IWMPMedia3 = pl.Item(0)
 player.URL = Media.sourceURL
 
 &#39; Play the media item.
-player.Ctlcontrols.play()</code></pre></td>
-</tr>
-</tbody>
-</table>
+player.Ctlcontrols.play()
+```
+
+
 
 
 

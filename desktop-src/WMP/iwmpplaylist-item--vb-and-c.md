@@ -73,20 +73,10 @@ private void weblist_SelectedIndexChanged(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub weblist_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles weblist.SelectedIndexChanged
+```VB
+
+Public Sub weblist_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles weblist.SelectedIndexChanged
 
     &#39; Store the index of the selected item in the list box.
     Dim lb As System.Windows.Forms.ListBox = sender
@@ -98,10 +88,10 @@ private void weblist_SelectedIndexChanged(object sender, System.EventArgs e)
     &#39; Set the player URL to the URL of the selected media item.
     player.URL = listItem.sourceURL
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

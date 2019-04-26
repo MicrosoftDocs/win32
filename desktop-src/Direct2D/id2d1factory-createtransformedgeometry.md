@@ -84,29 +84,16 @@ The next example uses the **CreateTransformedGeometry** method to scale the geom
          D2D1::Point2F(175.f, 175.f)),
      &amp;m_pTransformedGeometry
      );
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// Replace the previous render target transform.
-m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
+// Replace the previous render target transform.
+m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
 // Draw the transformed geometry.
-m_pRenderTarget-&gt;DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);</code></pre></td>
-</tr>
-</tbody>
-</table>
+m_pRenderTarget-&gt;DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
+```
+
+
 
 
 

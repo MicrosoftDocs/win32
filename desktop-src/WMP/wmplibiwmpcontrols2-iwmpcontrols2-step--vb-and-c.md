@@ -31,26 +31,16 @@ public void step(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub step( _
+```VB
+
+Public Sub step( _
   ByVal lStep As System.Int32 _
 )
-Implements IWMPControls2.step</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPControls2.step
+```
+
+
 
 
 

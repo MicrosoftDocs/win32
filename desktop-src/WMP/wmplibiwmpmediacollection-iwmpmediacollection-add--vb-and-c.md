@@ -31,26 +31,16 @@ public IWMPMedia add(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function add( _
+```VB
+
+Public Function add( _
   ByVal bstrURL As System.String _
 ) As IWMPMedia
-Implements IWMPMediaCollection.add</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.add
+```
+
+
 
 
 
@@ -97,30 +87,20 @@ player.mediaCollection.add(@"\\yourservername\Public\Jeanne.wma");
 player.mediaCollection.add(@"C:\WMSDK\WMPSDK\samples\media\house.wma");
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Adding a media object using a website.
+```VB
+
+' Adding a media object using a website.
 player.mediaCollection.add(&quot;http:&#39;www.proseware.com/Media/Laure.wma&quot;)
 
 &#39; Adding a media object from a local network.
 player.mediaCollection.add(&quot;\\yourservername\Public\Jeanne.wma&quot;)
 
 &#39; Adding a media object from a file on a local drive.
-player.mediaCollection.add(&quot;C:\WMSDK\WMPSDK\samples\media\house.wma&quot;)</code></pre></td>
-</tr>
-</tbody>
-</table>
+player.mediaCollection.add(&quot;C:\WMSDK\WMPSDK\samples\media\house.wma&quot;)
+```
+
+
 
 
 

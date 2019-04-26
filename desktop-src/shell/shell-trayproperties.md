@@ -26,23 +26,13 @@ Displays the **Taskbar and Start Menu Properties** dialog box. This method has t
 iRetVal = Shell.TrayProperties()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Shell.TrayProperties() As Integer</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Shell.TrayProperties() As Integer
+```
+
+
 
 
 

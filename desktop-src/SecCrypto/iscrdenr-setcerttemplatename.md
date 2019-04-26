@@ -30,26 +30,16 @@ HRESULT setCertTemplateName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>SCrdEnr.setCertTemplateName( _
+```VB
+
+SCrdEnr.setCertTemplateName( _
   ByVal dwFlags, _
   ByVal bstrCertTemplateName _
-)</code></pre></td>
-</tr>
-</tbody>
-</table>
+)
+```
+
+
 
 
 

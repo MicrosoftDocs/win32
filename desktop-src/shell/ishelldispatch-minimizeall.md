@@ -26,23 +26,13 @@ Minimizes all of the windows on the desktop. This method has the same effect as 
 IShellDispatch.MinimizeAll()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch.MinimizeAll()</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+IShellDispatch.MinimizeAll()
+```
+
+
 
 
 

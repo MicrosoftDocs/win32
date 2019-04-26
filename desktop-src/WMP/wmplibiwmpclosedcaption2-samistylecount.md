@@ -29,23 +29,13 @@ The **SAMIStyleCount** property gets the number of styles supported by the curre
 public System.Int32 SAMIStyleCount {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property SAMIStyleCount As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property SAMIStyleCount As System.Int32
+```
+
+
 
 
 

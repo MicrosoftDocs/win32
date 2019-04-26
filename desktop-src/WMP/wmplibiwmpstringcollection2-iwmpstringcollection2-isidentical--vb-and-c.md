@@ -31,26 +31,16 @@ public System.Boolean isIdentical(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function isIdentical( _
+```VB
+
+Public Function isIdentical( _
   ByVal pIWMPStringCollection2 As IWMPStringCollection2 _
 ) As System.Boolean
-Implements IWMPStringCollection2.isIdentical</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPStringCollection2.isIdentical
+```
+
+
 
 
 

@@ -51,27 +51,17 @@ For Each objService in colServices
 Next
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$colServices= Get-WmiObject -Class Win32_Service -Filter &#39;Name = &quot;Alerter&quot;&#39;
+```PowerShell
+
+$colServices= Get-WmiObject -Class Win32_Service -Filter 'Name = &quot;Alerter&quot;'
 foreach ($objService in $colServices)
 {
     $objService.StopService()
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

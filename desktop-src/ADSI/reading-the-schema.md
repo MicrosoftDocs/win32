@@ -19,23 +19,13 @@ Dim SchemaContainer As Object
 Set SchemaContainer = GetObject("LDAP://Fabrikam/Schema")
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, IID_IADsContainer, (void**) &pSchema );</code></pre></td>
-</tr>
-</tbody>
-</table>
+```C++
+
+hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, IID_IADsContainer, (void**) &pSchema );
+```
+
+
 
 
 
@@ -60,20 +50,10 @@ For Each prop In Class.OptionalProperties
 Next
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IADsContainer *pSchema=NULL;
+```C++
+
+IADsContainer *pSchema=NULL;
  HRESULT hr;
 
  CoInitialize(NULL);
@@ -121,10 +101,10 @@ Next
    }
  }
 
- CoUninitialize();</code></pre></td>
-</tr>
-</tbody>
-</table>
+ CoUninitialize();
+```
+
+
 
 
 

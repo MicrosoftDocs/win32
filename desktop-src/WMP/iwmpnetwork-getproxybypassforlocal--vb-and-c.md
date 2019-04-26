@@ -31,26 +31,16 @@ public System.Boolean getProxyBypassForLocal(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getProxyBypassForLocal( _
+```VB
+
+Public Function getProxyBypassForLocal( _
   ByVal bstrProtocol As System.String _
 ) As System.Boolean
-Implements IWMPNetwork.getProxyBypassForLocal</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.getProxyBypassForLocal
+```
+
+
 
 
 
@@ -105,20 +95,10 @@ proxyInfo(1) = ("The current MMS proxy bypass for local value: " + proxyBypassFo
 proxyBypassText.Lines = proxyInfo
 ```
 
-<span codelanguage="CSharp"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C#</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// Boolean values to hold the results of calls to getProxyBypassForLocal. 
+```CSharp
+
+// Boolean values to hold the results of calls to getProxyBypassForLocal. 
 bool proxyBypassForLocalHTTP = false;
 bool proxyBypassForLocalMMS = false;
 
@@ -139,10 +119,10 @@ if (player.network.getProxySettings(&quot;MMS&quot;) == 2)
 // as &quot;undefined&quot;.
 proxyInfo[0] = (&quot;The current HTTP proxy bypass for local value: &quot; + proxyBypassForLocalHTTP.ToString());
 proxyInfo[1] = (&quot;The current MMS proxy bypass for local value: &quot; + proxyBypassForLocalMMS.ToString());
-proxyBypassText.Lines = proxyInfo;</code></pre></td>
-</tr>
-</tbody>
-</table>
+proxyBypassText.Lines = proxyInfo;
+```
+
+
 
 
 

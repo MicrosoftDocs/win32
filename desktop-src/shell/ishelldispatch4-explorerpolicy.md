@@ -28,25 +28,15 @@ retVal = IShellDispatch4.ExplorerPolicy(
 )
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch4.ExplorerPolicy( _
+```VB
+
+IShellDispatch4.ExplorerPolicy( _
   ByVal bstrPolicyName As BSTR _
-) As Variant</code></pre></td>
-</tr>
-</tbody>
-</table>
+) As Variant
+```
+
+
 
 
 

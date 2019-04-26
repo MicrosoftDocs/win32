@@ -29,15 +29,15 @@ To begin, you will need an application that uses an [**IDWriteTextLayout**](http
 To add a text layout you must do the following:
 
 1.  Declare a pointer to an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface as a member of the class.
-    ```C++
+```C++
     IDWriteTextLayout* pTextLayout_;
     
-    ```
+```
 
     
 
 2.  At the end of the **CreateDeviceIndependentResources** method, create an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface object by calling the [**CreateTextLayout**](https://msdn.microsoft.com/en-us/library/Dd368205(v=VS.85).aspx) method.
-    ```C++
+```C++
     // Create a text layout using the text format.
     if (SUCCEEDED(hr))
     {
@@ -56,19 +56,19 @@ To add a text layout you must do the following:
             );
     }
     
-    ```
+```
 
     
 
 3.  Then, you must change the call to the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) method to [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) as shown in the following code.
-    ```C++
+```C++
     pRT_->DrawTextLayout(
         origin,
         pTextLayout_,
         pBlackBrush_
         );
     
-    ```
+```
 
     
 
@@ -77,37 +77,25 @@ To add a text layout you must do the following:
 Now add a method to the class that will use the hit testing functionality of the text layout.
 
 1.  Declare an **OnClick** method in the class header file.
-    ```C++
+```C++
     void OnClick(
         UINT x,
         UINT y
         );
-    ```
+```
 
     
 
 2.  Define an **OnClick** method in the class implementation file.
-    ```C++
+```C++
     void DemoApp::OnClick(UINT x, UINT y)
     {
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>}</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+}
+```
+
+
 
     
 
@@ -119,11 +107,11 @@ Add the following to the **OnClick** method that you defined in Step 2.
 
 1.  Declare the variables we will pass as parameters to the method.
 
-    ```C++
+```C++
         DWRITE_HIT_TEST_METRICS hitTestMetrics;
         BOOL isTrailingHit;
         BOOL isInside; 
-    ```
+```
 
     
 
@@ -143,7 +131,7 @@ Add the following to the **OnClick** method that you defined in Step 2.
 
 2.  Call the [**HitTestPoint**](https://msdn.microsoft.com/en-us/library/Dd371464(v=VS.85).aspx) method of the [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object.
 
-    ```C++
+```C++
     pTextLayout_->HitTestPoint(
                     (FLOAT)x, 
                     (FLOAT)y,
@@ -151,7 +139,7 @@ Add the following to the **OnClick** method that you defined in Step 2.
                     &isInside,
                     &hitTestMetrics
                     );
-    ```
+```
 
     
 

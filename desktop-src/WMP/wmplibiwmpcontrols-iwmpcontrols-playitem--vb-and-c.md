@@ -31,26 +31,16 @@ public void playItem(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub playItem( _
+```VB
+
+Public Sub playItem( _
   ByVal pIWMPMedia As IWMPMedia _
 )
-Implements IWMPControls.playItem</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPControls.playItem
+```
+
+
 
 
 
@@ -94,20 +84,10 @@ WMPLib.IWMPMedia media = player.currentPlaylist.get_Item(index);
 player.Ctlcontrols.playItem(media);
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Declare a variable to hold the position of the media item 
+```VB
+
+' Declare a variable to hold the position of the media item 
 &#39; in the current playlist. An arbitrary value is supplied here.
 Dim index As Integer = 3
 
@@ -115,10 +95,10 @@ Dim index As Integer = 3
 Dim Media As WMPLib.IWMPMedia = player.currentPlaylist.Item(index)
 
 &#39; Play the media item.
-player.Ctlcontrols.playItem(Media)</code></pre></td>
-</tr>
-</tbody>
-</table>
+player.Ctlcontrols.playItem(Media)
+```
+
+
 
 
 

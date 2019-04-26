@@ -31,26 +31,16 @@ public System.String getProxyExceptionList(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getProxyExceptionList( _
+```VB
+
+Public Function getProxyExceptionList( _
   ByVal bstrProtocol As System.String _
 ) As System.String
-Implements IWMPNetwork.getProxyExceptionList</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.getProxyExceptionList
+```
+
+
 
 
 
@@ -107,20 +97,10 @@ proxyExList[1] = ("The current MMS proxy exception list: " + proxyExceptionListM
 proxyExceptionListText.Lines = proxyExList;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; String values to hold the results of calls to getProxyExceptionList. 
+```VB
+
+' String values to hold the results of calls to getProxyExceptionList. 
 Dim proxyExceptionListHTTP As String = &quot;&quot;
 Dim proxyExceptionListMMS As String = &quot;&quot;
 
@@ -143,10 +123,10 @@ End If
 &#39; as &quot;undefined&quot;.
 proxyExList(0) = (&quot;The current HTTP proxy exception list: &quot; + proxyExceptionListHTTP)
 proxyExList(1) = (&quot;The current MMS proxy exception list: &quot; + proxyExceptionListMMS)
-proxyExceptionList.Lines = proxyExList</code></pre></td>
-</tr>
-</tbody>
-</table>
+proxyExceptionList.Lines = proxyExList
+```
+
+
 
 
 

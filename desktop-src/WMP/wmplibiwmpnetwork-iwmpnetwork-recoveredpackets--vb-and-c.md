@@ -29,23 +29,13 @@ The **recoveredPackets** property gets the number of recovered packets.
 public System.Int32 recoveredPackets {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property recoveredPackets As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property recoveredPackets As System.Int32
+```
+
+
 
 
 
@@ -91,20 +81,10 @@ private void UpdateRecoveredPackets(object sender, EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create an event handler for the PlayStateChange event.
+```VB
+
+' Create an event handler for the PlayStateChange event.
 Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_PlayStateChangeEvent) Handles player.PlayStateChange
 
     &#39; Test whether packets may be arriving.
@@ -134,10 +114,10 @@ Public Sub UpdateRecoveredPackets(ByVal sender As Object, ByVal e As System.Even
 
     recoveredPacketsLabel.Text = (&quot;Packets recovered: &quot; + player.network.recoveredPackets.ToString())
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

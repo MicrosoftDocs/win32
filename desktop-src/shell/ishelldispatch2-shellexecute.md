@@ -32,29 +32,19 @@ iRetVal = IShellDispatch2.ShellExecute(
 )
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch2.ShellExecute( _
+```VB
+
+IShellDispatch2.ShellExecute( _
   ByVal sFile As BSTR, _
   [ ByVal vArguments As Variant ], _
   [ ByVal vDirectory As Variant ], _
   [ ByVal vOperation As Variant ], _
   [ ByVal vShow As Variant ] _
-) As Integer</code></pre></td>
-</tr>
-</tbody>
-</table>
+) As Integer
+```
+
+
 
 
 

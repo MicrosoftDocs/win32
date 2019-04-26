@@ -32,22 +32,9 @@ To start, create the [Filter Graph Manager](filter-graph-manager.md) and query f
     IGraphBuilder *pGraph = NULL;
     IMediaControl *pControl = NULL;
     IMediaEventEx *pEvent = NULL;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL, 
+    HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL, 
         CLSCTX_INPROC_SERVER,IID_PPV_ARGS(&pGraph));
     if (FAILED(hr))
     {
@@ -64,10 +51,10 @@ To start, create the [Filter Graph Manager](filter-graph-manager.md) and query f
     if (FAILED(hr))
     {
         goto done;
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -79,22 +66,9 @@ Create an instance of the Sample Grabber filter and addit to the filter graph. Q
 ```C++
     IBaseFilter *pGrabberF = NULL;
     ISampleGrabber *pGrabber = NULL;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    // Create the Sample Grabber filter.
+    // Create the Sample Grabber filter.
     hr = CoCreateInstance(CLSID_SampleGrabber, NULL, CLSCTX_INPROC_SERVER,
         IID_PPV_ARGS(&pGrabberF));
     if (FAILED(hr))
@@ -112,10 +86,10 @@ Create an instance of the Sample Grabber filter and addit to the filter graph. Q
     if (FAILED(hr))
     {
         goto done;
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -152,22 +126,9 @@ For example, if you specified uncompressed video, you can connect a source filte
     IBaseFilter *pSourceF = NULL;
     IEnumPins *pEnum = NULL;
     IPin *pPin = NULL;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    hr = pGraph->AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
+    hr = pGraph->AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
     if (FAILED(hr))
     {
         goto done;
@@ -192,10 +153,10 @@ For example, if you specified uncompressed video, you can connect a source filte
     if (FAILED(hr))
     {
         goto done;
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -206,22 +167,9 @@ The following example connects the Sample Grabber to the Null Renderer filter:
 
 ```C++
     IBaseFilter *pNullF = NULL;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    hr = CoCreateInstance(CLSID_NullRenderer, NULL, CLSCTX_INPROC_SERVER, 
+    hr = CoCreateInstance(CLSID_NullRenderer, NULL, CLSCTX_INPROC_SERVER, 
         IID_PPV_ARGS(&pNullF));
     if (FAILED(hr))
     {
@@ -238,10 +186,10 @@ The following example connects the Sample Grabber to the Null Renderer filter:
     if (FAILED(hr))
     {
         goto done;
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -372,22 +320,9 @@ template <class T> void SafeRelease(T **ppT)
     }
 }
 
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>HRESULT WriteBitmap(PCWSTR, BITMAPINFOHEADER*, size_t, BYTE*, size_t);
+HRESULT WriteBitmap(PCWSTR, BITMAPINFOHEADER*, size_t, BYTE*, size_t);
 
 HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
 {
@@ -618,10 +553,10 @@ HRESULT WriteBitmap(PCWSTR pszFileName, BITMAPINFOHEADER *pBMI, size_t cbBMI,
     CloseHandle(hFile);
 
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

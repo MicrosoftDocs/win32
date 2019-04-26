@@ -164,7 +164,7 @@ The following steps describe how to create a DXGI surface render target and use 
 
 1.  Use the [**CreateSwapChain**](https://msdn.microsoft.com/library/windows/desktop/bb174537) method to create a swap chain for an [**ID3D10Device1**](https://msdn.microsoft.com/library/windows/desktop/bb694546) (the *m\_pDevice* variable). The swap chain uses the [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://msdn.microsoft.com/library/windows/desktop/bb173059) DXGI format, one of the DXGI formats supported by Direct2D.
 
-    ```C++
+```C++
     if (SUCCEEDED(hr))
     {
         hr = pDevice->QueryInterface(&m_pDevice);
@@ -200,24 +200,24 @@ The following steps describe how to create a DXGI surface render target and use 
 
         hr = pDXGIFactory->CreateSwapChain(m_pDevice, &swapDesc, &m_pSwapChain);
     }
-    ```
+```
 
     
 
 2.  Use the swap chain's [**GetBuffer**](https://msdn.microsoft.com/library/windows/desktop/bb174570) method to obtain a DXGI surface.
 
-    ```C++
+```C++
     // Get a surface in the swap chain
     hr = m_pSwapChain->GetBuffer(
         0,
         IID_PPV_ARGS(&pBackBuffer)
         );
-    ```
+```
 
     
 
 3.  Use the DXGI surface to create a DXGI render target.
-    ```C++
+```C++
     // Create the DXGI Surface Render Target.
     FLOAT dpiX;
     FLOAT dpiY;
@@ -232,56 +232,32 @@ The following steps describe how to create a DXGI surface render target and use 
             );
 
     // Create a Direct2D render target which can draw into the surface in the swap chain
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
+    
+hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
         pBackBuffer,
         &props,
         &m_pBackBufferRT
         );
-    </code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+```
+
+
 
     
 
 4.  Use the render target to draw a gradient background.
 
-    ```C++
+```C++
     // Swap chain will tell us how big the back buffer is
     DXGI_SWAP_CHAIN_DESC swapDesc;
     hr = m_pSwapChain->GetDesc(&swapDesc);
 
     if (SUCCEEDED(hr))
     {
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>// Draw a gradient background.
+    
+// Draw a gradient background.
     if (m_pBackBufferRT)
     {
         D2D1_SIZE_F targetSize = m_pBackBufferRT->GetSize();
@@ -302,10 +278,10 @@ The following steps describe how to create a DXGI surface render target and use 
         m_pBackBufferRT->FillRectangle(&rect, m_pBackBufferGradientBrush);
 
         hr = m_pBackBufferRT->EndDraw();
-    }</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    }
+```
+
+
 
     
 
@@ -321,7 +297,7 @@ The following examples show how to create a DXGI surface render target that rend
 
 1.  First, use a Direct3D device to create a 2-D texture. The texture uses the [**D3D10\_BIND\_RENDER\_TARGET**](https://msdn.microsoft.com/library/windows/desktop/bb204891) and **D3D10\_BIND\_SHADER\_RESOURCE** bind flags, and it uses the [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://msdn.microsoft.com/library/windows/desktop/bb173059) DXGI format, one of the DXGI formats supported by Direct2D.
 
-    ```C++
+```C++
     // Allocate a offscreen D3D surface for D2D to render our 2D content into
     D3D10_TEXTURE2D_DESC texDesc;
     texDesc.ArraySize = 1;
@@ -337,38 +313,26 @@ The following examples show how to create a DXGI surface render target that rend
     texDesc.Usage = D3D10_USAGE_DEFAULT;
 
     hr = m_pDevice->CreateTexture2D(&texDesc, NULL, &m_pOffscreenTexture);
-    ```
+```
 
     
 
 2.  Use the texture to obtain a DXGI surface.
 
-    ```C++
+```C++
     IDXGISurface *pDxgiSurface = NULL;
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
+```
+
+
 
     
 
 3.  Use the surface with the [**CreateDxgiSurfaceRenderTarget**]/windows/desktop/dd371264(v=vs.85).aspx) method to obtain a Direct2D render target.
 
-    ```C++
+```C++
     if (SUCCEEDED(hr))
     {
         // Create a D2D render target which can draw into our offscreen D3D
@@ -381,29 +345,17 @@ The following examples show how to create a DXGI surface render target that rend
                 96,
                 96
                 );
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>    hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
+    
+    hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
             pDxgiSurface,
             &props,
             &m_pRenderTarget
             );
-    }</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    }
+```
+
+
 
     
 

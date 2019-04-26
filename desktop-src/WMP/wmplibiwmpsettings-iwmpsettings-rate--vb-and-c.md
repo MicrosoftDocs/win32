@@ -29,23 +29,13 @@ The **rate** property gets or sets the current playback rate for video.
 public System.Double rate {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property rate As System.Double</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property rate As System.Double
+```
+
+
 
 
 
@@ -97,20 +87,10 @@ private void playbackRate_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub playbackRate_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playbackRate.Click
+```VB
+
+Public Sub playbackRate_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles playbackRate.Click
 
     &#39;  Get the new value of the control as a double.
     Dim nUpDown As System.Windows.Forms.NumericUpDown = sender
@@ -124,10 +104,10 @@ private void playbackRate_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

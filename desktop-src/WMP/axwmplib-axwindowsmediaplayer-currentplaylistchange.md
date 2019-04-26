@@ -95,20 +95,10 @@ private void player_CurrentPlaylistChange(object sender, AxWMPLib._WMPOCXEvents_
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_CurrentPlaylistChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_CurrentPlaylistChangeEvent) Handles player.CurrentPlaylistChange
+```VB
+
+Public Sub player_CurrentPlaylistChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_CurrentPlaylistChangeEvent) Handles player.CurrentPlaylistChange
 
     Select Case e.change
 
@@ -136,10 +126,10 @@ private void player_CurrentPlaylistChange(object sender, AxWMPLib._WMPOCXEvents_
             playlistItems.Lines = mediaItems
     End Select
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

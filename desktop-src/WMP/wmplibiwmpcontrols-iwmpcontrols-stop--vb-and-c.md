@@ -29,24 +29,14 @@ The **stop** method stops playback of the media item.
 public void stop();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub stop()
-Implements IWMPControls.stop</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub stop()
+Implements IWMPControls.stop
+```
+
+
 
 
 
@@ -84,20 +74,10 @@ private void stopButton_Click(object o, System.EventArgs args)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub stopButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles stopButton.Click
+```VB
+
+Public Sub stopButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles stopButton.Click
 
     &#39; To get all of the available functionality of the player controls, Dim the
     &#39; value returned by player.Ctlcontrols as a WMPLib.IWMPControls3 interface.
@@ -110,10 +90,10 @@ private void stopButton_Click(object o, System.EventArgs args)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 
