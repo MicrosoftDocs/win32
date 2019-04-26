@@ -32,27 +32,17 @@ public IWMPLibrary getLibraryByType(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getLibraryByType( _
+```VB
+
+Public Function getLibraryByType( _
   ByVal wmplt As WMPLibraryType, _
   ByVal lIndex As System.Int32 _
 ) As IWMPLibrary
-Implements IWMPLibraryServices.getLibraryByType</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPLibraryServices.getLibraryByType
+```
+
+
 
 
 

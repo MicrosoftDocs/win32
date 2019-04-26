@@ -31,26 +31,16 @@ public System.String getProxyName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getProxyName( _
+```VB
+
+Public Function getProxyName( _
   ByVal bstrProtocol As System.String _
 ) As System.String
-Implements IWMPNetwork.getProxyName</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.getProxyName
+```
+
+
 
 
 
@@ -102,20 +92,10 @@ proxyNames[1] = ("The current MMS proxy server name is: " + proxyNameMMS);
 proxyNameText.Lines = proxyNames;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; String values to hold the results of calls to getProxyExceptionList. 
+```VB
+
+' String values to hold the results of calls to getProxyExceptionList. 
 Dim proxyNameHTTP As String = &quot;&quot;
 Dim proxyNameMMS As String = &quot;&quot;
 
@@ -137,10 +117,10 @@ End If
 &#39; text box. Unavailable proxy server names will display as &quot;undefined&quot;.
 proxyNames(0) = (&quot;The current HTTP proxy server name is: &quot; + proxyNameHTTP)
 proxyNames(1) = (&quot;The current MMS proxy server name is: &quot; + proxyNameMMS)
-proxyNameText.Lines = proxyNames</code></pre></td>
-</tr>
-</tbody>
-</table>
+proxyNameText.Lines = proxyNames
+```
+
+
 
 
 

@@ -29,23 +29,13 @@ The **errorCount** property gets the number of errors in the error queue.
 public System.Int32 errorCount {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property errorCount As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property errorCount As System.Int32
+```
+
+
 
 
 
@@ -77,20 +67,10 @@ private void player_ErrorEvent_errorCount(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_ErrorEvent_errorCount(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
+```VB
+
+Public Sub player_ErrorEvent_errorCount(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
 
     &#39; Store the number of errors in the queue.
     Dim max As Integer = player.Error.errorCount
@@ -102,10 +82,10 @@ private void player_ErrorEvent_errorCount(object sender, System.EventArgs e)
     &#39; Display the error description.
     System.Windows.Forms.MessageBox.Show(errDesc)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

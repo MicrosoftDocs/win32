@@ -26,23 +26,13 @@ Tiles all of the windows on the desktop vertically. This method has the same eff
 iRetVal = Shell.TileVertically()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Shell.TileVertically() As Integer</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Shell.TileVertically() As Integer
+```
+
+
 
 
 

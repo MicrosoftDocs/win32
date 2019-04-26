@@ -31,26 +31,16 @@ public System.String getItemInfoByAtom(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getItemInfoByAtom( _
+```VB
+
+Public Function getItemInfoByAtom( _
   ByVal lAtom As System.Int32 _
 ) As System.String
-Implements IWMPMedia.getItemInfoByAtom</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.getItemInfoByAtom
+```
+
+
 
 
 

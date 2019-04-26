@@ -31,26 +31,16 @@ public System.Boolean requestMediaAccessRights(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function requestMediaAccessRights( _
+```VB
+
+Public Function requestMediaAccessRights( _
   ByVal bstrDesiredAccess As System.String _
 ) As System.Boolean
-Implements IWMPSettings2.requestMediaAccessRights</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPSettings2.requestMediaAccessRights
+```
+
+
 
 
 

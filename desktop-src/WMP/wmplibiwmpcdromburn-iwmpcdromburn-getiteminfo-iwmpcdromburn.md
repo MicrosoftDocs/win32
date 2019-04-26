@@ -31,26 +31,16 @@ public System.String getItemInfo(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getItemInfo( _
+```VB
+
+Public Function getItemInfo( _
   ByVal bstrItem As System.String _
 ) As System.String
-Implements IWMPCdromBurn.getItemInfo</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPCdromBurn.getItemInfo
+```
+
+
 
 
 

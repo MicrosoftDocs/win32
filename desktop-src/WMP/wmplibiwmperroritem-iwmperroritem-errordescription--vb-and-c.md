@@ -29,23 +29,13 @@ The **errorDescription** property gets a description of the error.
 public System.String errorDescription {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property errorDescription As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property errorDescription As System.String
+```
+
+
 
 
 
@@ -73,20 +63,10 @@ private void player_ErrorEvent_errorDescription(object sender, System.EventArgs 
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_ErrorEvent_errorDescription(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
+```VB
+
+Public Sub player_ErrorEvent_errorDescription(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
 
     &#39; Get the error description for the first error item.
     Dim errDesc As String = player.Error.Item(0).errorDescription
@@ -94,10 +74,10 @@ private void player_ErrorEvent_errorDescription(object sender, System.EventArgs 
     &#39; Display the error description.
     System.Windows.Forms.MessageBox.Show(&quot;Error: &quot; + errDesc)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -57,20 +57,10 @@ private void player_ErrorEvent(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_ErrorEvent(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
+```VB
+
+Public Sub player_ErrorEvent(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
 
     &#39; Get the description of the first error. 
     Dim errDesc As String = player.Error.Item(0).errorDescription
@@ -78,10 +68,10 @@ private void player_ErrorEvent(object sender, System.EventArgs e)
     &#39; Display the error description.
     System.Windows.Forms.MessageBox.Show(errDesc)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

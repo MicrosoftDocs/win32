@@ -53,22 +53,9 @@ Use the [**IDCompositionDevice::CreateRotateTransform3D**](https://msdn.microsof
     IDCompositionAnimation *pAnimation = nullptr;
     IDCompositionRotateTransform3D *pRotate3D = nullptr;
     IDCompositionEffectGroup *pEffectGroup = nullptr;
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    // Create a 3D rotate transform object.
+    // Create a 3D rotate transform object.
     hr = m_pDevice->CreateRotateTransform3D(&pRotate3D);
 
     if (SUCCEEDED(hr))
@@ -81,10 +68,10 @@ Use the [**IDCompositionDevice::CreateRotateTransform3D**](https://msdn.microsof
     {
         // Create an animation object.
         hr = m_pDevice->CreateAnimation(&pAnimation);
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -147,29 +134,16 @@ The following example sets up a 3D rotate transform for spinning a visual around
         // of the effect group object.
         hr = pEffectGroup->SetTransform3D(pRotate3D);
     }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    if (SUCCEEDED(hr))
+    if (SUCCEEDED(hr))
     {
         // Set the Opacity of the effect group object.
         hr = pEffectGroup->SetOpacity(opacity);
-    }</code></pre></td>
-</tr>
-</tbody>
-</table>
+    }
+```
+
+
 
 
 
@@ -338,22 +312,9 @@ private:
     IDCompositionTarget *m_pCompTarget;
     IDCompositionVisual *m_pVisual;
  };
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//
+//
 // ApplyEffects.cpp
 //
 // THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
@@ -1048,10 +1009,10 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
     SafeRelease(&pDXGISurface);
 
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

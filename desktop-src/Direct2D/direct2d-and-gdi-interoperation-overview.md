@@ -72,26 +72,13 @@ The following code binds a DC to a DC render target.
 ```C++
 HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
 {
+
+
+// Get the dimensions of the client drawing area.
+GetClientRect(m_hwnd, &rc);
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// Get the dimensions of the client drawing area.
-GetClientRect(m_hwnd, &rc);</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

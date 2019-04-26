@@ -103,20 +103,10 @@ namespace HyperVSamples
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>option explicit 
+```VB
+
+option explicit 
 
 dim objWMIService
 dim managementService
@@ -277,10 +267,10 @@ End Function
 &#39;------------------------------------------------------------------------------
 Function Format1(myString, arg0)
     Format1 = Replace(myString, &quot;{0}&quot;, arg0)
-End Function</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Function
+```
+
+
 
 
 

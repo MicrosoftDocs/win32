@@ -33,28 +33,18 @@ public void addCondition(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub addCondition( _
+```VB
+
+Public Sub addCondition( _
   ByVal bstrAttribute As System.String, _
   ByVal bstrOperator As System.String, _
   ByVal bstrValue As System.String _
 )
-Implements IWMPQuery.addCondition</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPQuery.addCondition
+```
+
+
 
 
 
@@ -142,20 +132,10 @@ for (int i = 0; i < result.count; i++)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get a new Query interface.
+```VB
+
+' Get a new Query interface.
 Dim mc As WMPLib.IWMPMediaCollection2 = player.mediaCollection
 Dim q As WMPLib.IWMPQuery = mc.createQuery()
 
@@ -173,10 +153,10 @@ For i As Integer = 0 To (result.count - 1)
 
     queryResults.Items.Add(result.Item(i))
 
-Next i</code></pre></td>
-</tr>
-</tbody>
-</table>
+Next i
+```
+
+
 
 
 

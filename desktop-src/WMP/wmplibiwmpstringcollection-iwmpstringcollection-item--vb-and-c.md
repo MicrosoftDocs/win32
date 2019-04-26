@@ -31,26 +31,16 @@ public System.String Item(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function Item( _
+```VB
+
+Public Function Item( _
   ByVal lIndex As System.Int32 _
 ) As System.String
-Implements IWMPStringCollection.Item</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPStringCollection.Item
+```
+
+
 
 
 

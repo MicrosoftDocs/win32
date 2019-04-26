@@ -29,24 +29,14 @@ The **erase** method erases the current CD.
 public void erase();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub erase()
-Implements IWMPCdromBurn.erase</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub erase()
+Implements IWMPCdromBurn.erase
+```
+
+
 
 
 

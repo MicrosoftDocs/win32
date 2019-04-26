@@ -70,20 +70,10 @@ if (newMedia.get_isIdentical(player.currentMedia) != true)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>If (newMedia.isIdentical(player.currentMedia) <> True) Then
+```VB
+
+If (newMedia.isIdentical(player.currentMedia) <> True) Then
 
     &#39; Change the current media to the new media item.
     player.currentMedia = newMedia
@@ -91,10 +81,10 @@ if (newMedia.get_isIdentical(player.currentMedia) != true)
     &#39; Play the new media item.
     player.Ctlcontrols.play()
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

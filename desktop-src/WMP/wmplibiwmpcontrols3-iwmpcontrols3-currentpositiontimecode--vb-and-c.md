@@ -29,23 +29,13 @@ The **currentPositionTimecode** property gets or sets the current position in th
 public System.String currentPositionTimecode {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property currentPositionTimecode As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property currentPositionTimecode As System.String
+```
+
+
 
 
 
@@ -79,28 +69,18 @@ WMPLib.IWMPControls3 controls = (WMPLib.IWMPControls3)player.Ctlcontrols;
 controls.currentPositionTimecode = "[00000]01:00:30.05";
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Cast the interface returned by player.Ctlcontrols to an IWMPControls3 interface
+```VB
+
+' Cast the interface returned by player.Ctlcontrols to an IWMPControls3 interface
 &#39; so that you can use the currentPositionTimecode property.
 Dim controls As WMPLib.IWMPControls3 = player.Ctlcontrols
 
 &#39; Seek to a frame using SMPTE time code.
-Controls.currentPositionTimecode = &quot;[00000]01:00:30.05&quot;</code></pre></td>
-</tr>
-</tbody>
-</table>
+Controls.currentPositionTimecode = &quot;[00000]01:00:30.05&quot;
+```
+
+
 
 
 

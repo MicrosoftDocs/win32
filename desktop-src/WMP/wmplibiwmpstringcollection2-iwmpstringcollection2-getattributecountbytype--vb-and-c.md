@@ -33,28 +33,18 @@ public System.Int32 getAttributeCountByType(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getAttributeCountByType( _
+```VB
+
+Public Function getAttributeCountByType( _
   ByVal lCollectionIndex As System.Int32, _
   ByVal bstrType As System.String, _
   ByVal bstrLanguage As System.String _
 ) As System.Int32
-Implements IWMPStringCollection2.getAttributeCountByType</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPStringCollection2.getAttributeCountByType
+```
+
+
 
 
 

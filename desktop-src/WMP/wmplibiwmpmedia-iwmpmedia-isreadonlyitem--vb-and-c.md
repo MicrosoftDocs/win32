@@ -31,26 +31,16 @@ public System.Boolean isReadOnlyItem(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function isReadOnlyItem( _
+```VB
+
+Public Function isReadOnlyItem( _
   ByVal bstrItemName As System.String _
 ) As System.Boolean
-Implements IWMPMedia.isReadOnlyItem</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.isReadOnlyItem
+```
+
+
 
 
 
@@ -110,20 +100,10 @@ for (int i = 0; i < cm.attributeCount; i++)
 rwText.Lines = atInfo;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Store a WMPLib.IWMPMedia3 interface to the current media item.
+```VB
+
+' Store a WMPLib.IWMPMedia3 interface to the current media item.
 Dim cm As WMPLib.IWMPMedia3 = player.currentMedia
 
 &#39; Get the number of attributes in the current media item.
@@ -155,10 +135,10 @@ For i As Integer = 0 To (cm.attributeCount - 1)
 Next i
 
 &#39; Display the attribute information in the text box.
-rwText.Lines = atInfo</code></pre></td>
-</tr>
-</tbody>
-</table>
+rwText.Lines = atInfo
+```
+
+
 
 
 

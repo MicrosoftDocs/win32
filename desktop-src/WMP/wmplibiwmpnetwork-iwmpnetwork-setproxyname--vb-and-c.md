@@ -32,27 +32,17 @@ public void setProxyName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxyName( _
+```VB
+
+Public Sub setProxyName( _
   ByVal bstrProtocol As System.String, _
   ByVal bstrProxyName As System.String _
 )
-Implements IWMPNetwork.setProxyName</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.setProxyName
+```
+
+
 
 
 
@@ -109,20 +99,10 @@ private void setProxyName_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxyName_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setProxyName.Click
+```VB
+
+Public Sub setProxyName_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setProxyName.Click
 
     &#39; Test whether proxy settings are manual.
     If (player.network.getProxySettings(&quot;MMS&quot;) = 2) Then
@@ -140,10 +120,10 @@ private void setProxyName_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

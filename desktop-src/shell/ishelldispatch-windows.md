@@ -26,23 +26,13 @@ Creates and returns a [**ShellWindows**](shellwindows.md) object. This object re
 retVal = IShellDispatch.Windows()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch.Windows() As IDispatch</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+IShellDispatch.Windows() As IDispatch
+```
+
+
 
 
 

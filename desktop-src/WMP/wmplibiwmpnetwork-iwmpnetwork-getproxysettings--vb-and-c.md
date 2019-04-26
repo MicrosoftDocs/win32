@@ -31,26 +31,16 @@ public System.Int32 getProxySettings(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getProxySettings( _
+```VB
+
+Public Function getProxySettings( _
   ByVal bstrProtocol As System.String _
 ) As System.Int32
-Implements IWMPNetwork.getProxySettings</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.getProxySettings
+```
+
+
 
 
 
@@ -120,20 +110,10 @@ switch(proxySetting)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Retrieve a number representing the current proxy settings.
+```VB
+
+' Retrieve a number representing the current proxy settings.
 Dim proxySetting As Integer = player.network.getProxySettings(&quot;MMS&quot;)
 
 &#39; Display the message that corresponds to the current settings.
@@ -154,10 +134,10 @@ Select Case proxySetting
     Case Else
         proxySettingsLabel.Text = &quot;Unable to determine proxy setting, try again.&quot;
 
-End Select</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Select
+```
+
+
 
 
 

@@ -32,27 +32,17 @@ public void setProxyExceptionList(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxyExceptionList( _
+```VB
+
+Public Sub setProxyExceptionList( _
   ByVal bstrProtocol As System.String, _
   ByVal pbstrExceptionList As System.String _
 )
-Implements IWMPNetwork.setProxyExceptionList</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.setProxyExceptionList
+```
+
+
 
 
 
@@ -113,20 +103,10 @@ private void setExList_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setExList_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setExList.Click
+```VB
+
+Public Sub setExList_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setExList.Click
 
     &#39; Test whether proxy settings are manual.
     If (player.network.getProxySettings(&quot;MMS&quot;) = 2) Then
@@ -144,10 +124,10 @@ private void setExList_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

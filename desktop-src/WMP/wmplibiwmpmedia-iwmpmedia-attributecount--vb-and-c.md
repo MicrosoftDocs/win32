@@ -32,23 +32,13 @@ This property is read-only.
 public System.Int32 attributeCount {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property attributeCount As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property attributeCount As System.Int32
+```
+
+
 
 
 
@@ -96,20 +86,10 @@ for (int i = 0; i < numAttributes; i++)
 attributeList.Lines = atList;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Store an IWMPMedia3 interface to the current media item. 
+```VB
+
+' Store an IWMPMedia3 interface to the current media item. 
 Dim cm As WMPLib.IWMPMedia3 = player.currentMedia
 
 &#39; Store the number of attributes in the current media item using attributeCount.
@@ -135,10 +115,10 @@ For i As Integer = 0 To (numAttributes - 1)
 Next i
 
 &#39; Display the attribute information in the text box.
-attributeList.Lines = atList</code></pre></td>
-</tr>
-</tbody>
-</table>
+attributeList.Lines = atList
+```
+
+
 
 
 

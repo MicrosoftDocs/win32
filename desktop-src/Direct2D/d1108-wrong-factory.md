@@ -75,22 +75,9 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
             &m_pD2DFactory
             );
 #endif
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>        // Domain violation. Create a second Direct2D factory.
+        // Domain violation. Create a second Direct2D factory.
         options.debugLevel = D2D1_DEBUG_LEVEL_INFORMATION;
         hr = D2D1CreateFactory(
             D2D1_FACTORY_TYPE_SINGLE_THREADED,
@@ -102,10 +89,10 @@ The following example first creates two debug-enabled [**ID2D1Factory**](https:/
         hr = m_pD2DFactory1->CreateRectangleGeometry(
             D2D1::RectF(100, 50, 400, 160),
             &m_pRectangleGeometry
-            );</code></pre></td>
-</tr>
-</tbody>
-</table>
+            );
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

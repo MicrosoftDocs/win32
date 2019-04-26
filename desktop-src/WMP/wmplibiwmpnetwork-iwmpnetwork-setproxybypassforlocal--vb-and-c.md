@@ -32,27 +32,17 @@ public void setProxyBypassForLocal(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxyBypassForLocal( _
+```VB
+
+Public Sub setProxyBypassForLocal( _
   ByVal bstrProtocol As System.String, _
   ByVal fBypassForLocal As System.Boolean _
 )
-Implements IWMPNetwork.setProxyBypassForLocal</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.setProxyBypassForLocal
+```
+
+
 
 
 
@@ -123,20 +113,10 @@ else
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Prepare a message, a caption and buttons for the user prompt.
+```VB
+
+' Prepare a message, a caption and buttons for the user prompt.
 Dim message As String = &quot;Bypass proxy server for local addresses?&quot;
 Dim caption As String = &quot;Proxy Settings&quot;
 Dim buttons As System.Windows.Forms.MessageBoxButtons = System.Windows.Forms.MessageBoxButtons.YesNo
@@ -168,10 +148,10 @@ Else
     &#39; Warn that proxy settings must be set to 2 (manual).
     System.Windows.Forms.MessageBox.Show(&quot;Proxy settings must be manual!&quot;)
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

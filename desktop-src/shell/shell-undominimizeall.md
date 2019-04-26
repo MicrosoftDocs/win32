@@ -26,23 +26,13 @@ Restores all desktop windows to the same state they were in before the last [**M
 iRetVal = Shell.UndoMinimizeALL()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Shell.UndoMinimizeALL() As Integer</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Shell.UndoMinimizeALL() As Integer
+```
+
+
 
 
 

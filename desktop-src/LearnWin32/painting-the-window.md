@@ -32,22 +32,9 @@ In our first example program, the painting routine is very simple. It just fills
 ```C++
     switch (uMsg)
     {
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    case WM_PAINT:
+    case WM_PAINT:
         {
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hwnd, &ps);
@@ -59,10 +46,10 @@ In our first example program, the painting routine is very simple. It just fills
             EndPaint(hwnd, &ps);
         }
         return 0;
-</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

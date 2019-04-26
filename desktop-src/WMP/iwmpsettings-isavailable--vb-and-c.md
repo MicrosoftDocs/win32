@@ -104,20 +104,10 @@ for (int i = 0; i < propertyList.Length; i++)
 playerSettings.Lines = results;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39;  Create a string array that contains a list of IWMPSettings properties.
+```VB
+
+'  Create a string array that contains a list of IWMPSettings properties.
 Dim propertyList As String() = New String(11) { _
     &quot;AutoStart&quot;, &quot;Balance&quot;, &quot;BaseURL&quot;, &quot;DefaultFrame&quot;, &quot;EnableErrorDialogs&quot;, _
     &quot;GetMode&quot;, &quot;InvokeURLs&quot;, &quot;Mute&quot;, &quot;PlayCount&quot;, &quot;Rate&quot;, &quot;SetMode&quot;, &quot;Volume&quot; _
@@ -137,10 +127,10 @@ For i As Integer = 0 To (propertyList.Length - 1)
 Next i
 
 &#39;  Display the results in a multi-line text box.
-playerSettings.Lines = results</code></pre></td>
-</tr>
-</tbody>
-</table>
+playerSettings.Lines = results
+```
+
+
 
 
 

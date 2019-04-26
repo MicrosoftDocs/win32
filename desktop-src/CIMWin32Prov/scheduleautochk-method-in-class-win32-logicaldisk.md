@@ -89,23 +89,13 @@ Set objDisk = objWMIService.Get("Win32_LogicalDisk")
 errReturn = objDisk.ScheduleAutoChk(Array("C:")) 
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&quot;C:&quot;)</code></pre></td>
-</tr>
-</tbody>
-</table>
+```PowerShell
+
+Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&quot;C:&quot;)
+```
+
+
 
 
 
