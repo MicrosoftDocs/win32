@@ -66,6 +66,10 @@
       href: /windows/desktop/api/corewindow/nf-corewindow-createcontrolinput
     - name: "CreateControlInputEx"
       href: /windows/desktop/api/corewindow/nf-corewindow-createcontrolinputex
+    - name: "CreateDirect3D11DeviceFromDXGIDevice"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11devicefromdxgidevice
+    - name: "CreateDirect3D11SurfaceFromDXGISurface"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11surfacefromdxgisurface
     - name: "CreateRandomAccessStreamOnFile"
       href: https://msdn.microsoft.com/en-us/library/Hh846256(v=VS.85).aspx
     - name: "CreateRandomAccessStreamOverStream"
@@ -423,6 +427,11 @@
         href: /windows/desktop/api/corewindow/nf-corewindow-icorewindowinterop-get_windowhandle
       - name: "MessageHandled property"
         href: /windows/desktop/api/corewindow/nf-corewindow-icorewindowinterop-put_messagehandled
+    - name: "IDirect3DDxgiInterfaceAccess"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nn-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess
+      items: 
+      - name: "GetInterface"
+        href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface
     - name: "IDllServerActivatableClassRegistration"
       href: https://msdn.microsoft.com/en-us/library/Dn408455(v=VS.85).aspx
       items: 
