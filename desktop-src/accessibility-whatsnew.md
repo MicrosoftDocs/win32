@@ -23,6 +23,10 @@ The following features, tools, developer guidance, samples, and videos have been
 
 The following features, tools, developer guidance, samples, and videos have been made available for the [Windows 10 October 2018 Update](https://blogs.windows.com/windowsexperience/2018/10/02/how-to-get-the-windows-10-october-2018-update/#R6DJStjqlIkK34BT.97).
 
-| Release | Feature | Description | Link |
-| --- | --- | --- | --- |
-| 1809 | UI Automation support for Active Text Position Change events | Supporting links on a web page or app that navigate to an anchor on that same page. | [IUIAutomation6 interface](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6) |
+| Release | Platform | Feature | Description | Link |
+| --- | --- | --- | --- | --- |
+| 1809 | Win32 | UI Automation supports Active Text Position Change events | UI Automation providers can explicitly set a starting position within a text range. Assistive technology (AT) clients can then convey this position to a user. For example, if a user clicks a link to an anchor on the same page (a bookmark link), the new location is provided to the AT. | [IUIAutomation6 interface](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6) |
+| 1809 | Win32 | UI Automation supports event coalescing | Duplicate events are detected and filtered for AT clients. | [IUIAutomation6 interface](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6) |
+| 1809 | Win32 | UI Automation supports connection recovery behavior | AT clients can adjust provider request timeouts if the provider is non-responsive. | [IUIAutomation6 interface](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6) |
+| 1809 | UWP | Enhanced screen reader services | AT clients know the audible screen reading location (control or content) and the reading mode. | [ScreenReaderService Class](https://docs.microsoft.com/en-us/uwp/api/windows.ui.accessibility.screenreaderservice) |
+| 1809 | Win32, UWP | UI Automation supports dialog windows | UI Automation providers can mark UIA elements specifically as dialog windows. ATs often present dialogs differently to users.  | [ScreenReaderService Class](https://docs.microsoft.com/en-us/uwp/api/windows.ui.accessibility.screenreaderservice) |
