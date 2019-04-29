@@ -23,11 +23,3 @@ Use the resources provided here to build accessible Windows applications that ca
 | [Testing with UI Automation and other tools](accessibility-testwithuia.md) | Testing the accessibility of your Windows applications, assistive technology tools, and UI frameworks is a critical step in ensuring successful user experiences for people with disabilities and other limitations, as well as users who prefer keyboard interactions. |
 | [Legacy accessibility and automation technology - MSAA to UI Automation](accessibility-legacy.md) | Windows accessibility and automation consist of two technologies—Microsoft Active Accessibility (MSAA) and Microsoft UI Automation. MSAA is a legacy technology introduced with Windows 95, while UI Automation is a newer, more capable technology that addresses the limitations of MSAA. |
 | [Windows accessibility and automation reference](accessibility-reference.md) | The Desktop Win32 APIs provide accessibility and automation features to help developers build applications and UI frameworks, assistive technology vendors build tools, testers ensure quality implementations, and people with disabilities use their computers and devices. |
-
-## Old links (for reference)
-
-| Topic | Description |
-|-|-|
-| [Windows Accessibility Features](https://msdn.microsoft.com/library/windows/desktop/dd373879) | Describes the Windows system settings and parameters that help make the computer easier to use for people with impairments or disabilities, and explains how to use Windows API elements to programmatically access these settings and parameters. |
-| [Windows Automation API](https://msdn.microsoft.com/library/windows/desktop/ff486375) | Describes the Windows APIs that developers can use to make applications running on Windows more accessible to many people with vision, hearing, or motion disabilities. The APIs includes Microsoft Microsoft UI Automation and its predecessor technology, Microsoft Active Accessibility. In addition to accessibility support, UI Automation provides robust support for automated software testing scripts and tools. |
-| [Magnification API](https://msdn.microsoft.com/library/windows/desktop/ms692162) | Describes the Windows API that developers can use to create assistive technology applications that magnify portions of the screen, as well as apply color effects and other transformations. |
