@@ -17,7 +17,7 @@ The following features, tools, developer guidance, samples, and videos have been
 
 | Release | Platform | Feature | Description | Link |
 | --- | --- | --- | --- | --- |
-| 1903 | Win32 | UI Automation supports IAccessible2 | Assistive technology (AT) clients can access IAccessible2 information from providers such as the Chrome browser, which supports IAccessible2 rather than UI Automation. | n/a |
+| 1903 | Win32 | UI Automation supports IAccessible2 | UI Automation clients can now seamlessly access information from IAccessible2 providers such as the Chrome browser. | n/a |
 | 1903 | UWP | Scrollbar visibility  | Scroll bars automatically hidden when not being interacted with. | [UISettings.AutoHideScrollBars Property](https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.uisettings.autohidescrollbars) |
 | 1903 | Win32 | UI Automation supports structured markup | Intended, but not limited to, MathML parsing. | n/a |
 
