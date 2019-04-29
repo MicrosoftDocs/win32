@@ -13,10 +13,13 @@ This overview describes how to build a UI framework that supports features such 
 
 ## In this section
 
-- Programmatic access
-  - [UI Automation for Win32](https://docs.microsoft.com/en-us/windows/desktop/winauto/entry-uiauto-win32)
-  - [UI Automation for .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-overview)
+- [UI Automation for Win32](https://docs.microsoft.com/windows/desktop/winauto/entry-uiauto-win32)
 - [Keyboard accessibility](https://docs.microsoft.com/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
-- [Color and theme \***LINK**\*](???)
-- [User settings \***LINK**\*](???)
-- [Samples](https://github.com/Microsoft/WPF-Samples/tree/master/Accessibility)
+- [Respecting High Contrast](https://docs.microsoft.com/windows/desktop/w8cookbook/high-contrast-mode)
+- [User settings](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa)
+
+Samples
+
+- [UI Automation WPF Framework Implementation sample](https://github.com/Microsoft/WPF-Samples/tree/master/Accessibility)
+- [UI contrast and settings sample](https://code.msdn.microsoft.com/windowsapps/High-Contrast-UI-Settings-9a310961)
+- [User settings sample](https://devblogs.microsoft.com/oldnewthing/?p=36243)

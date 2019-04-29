@@ -13,6 +13,4 @@ This section describes the main differences between Microsoft Active Accessibili
 
 ## In this section
 
-- [UI Automation for Win32](https://docs.microsoft.com/en-us/windows/desktop/winauto/entry-uiauto-win32)
-- [UI Automation for .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-overview)
-- [Microsoft Active Accessibility and UI Automation Compared](https://docs.microsoft.com/windows/desktop/winauto/microsoft-active-accessibility-and-ui-automation-compared)
+- [Microsoft Active Accessibility and UI Automation Compared](https://docs.microsoft.com/windows/desktop/winauto/microsoft-active-accessibility)

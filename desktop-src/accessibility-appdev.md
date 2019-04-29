@@ -14,7 +14,7 @@ This overview describes the accessibility features supported in each framework, 
 ## In this section
 
 - [Web applications](https://docs.microsoft.com/microsoft-edge/accessibility)
-- [Win32 apps](https://docs.microsoft.com/en-us/windows/desktop/winauto/windows-accessibility-features)
+- [Win32 apps](https://docs.microsoft.comwindows/desktop/winauto/uiauto-controlsupport)
 - [UWP apps](https://docs.microsoft.com/windows/uwp/design/accessibility/accessibility)
 - [WinForms apps](https://docs.microsoft.com/dotnet/framework/winforms/advanced/windows-forms-accessibility)
-- [WPF apps](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/)
+- [WPF apps](https://docs.microsoft.com/dotnet/framework/ui-automation/)
