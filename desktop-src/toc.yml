@@ -7,7 +7,7 @@
     - name: "Overview"
       href: desktop-programming.md
       items: 
-      - name: "Get Started with Win32 and C++"
+      - name: "Create your first C++ Win32 app"
         href: learnwin32/learn-to-program-for-windows.md
       - name: "Create your first Windows app using DirectX"
         href: direct3dgetstarted/building-your-first-directx-app.md

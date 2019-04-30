@@ -25,13 +25,10 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>Get started</h3>
                         <p>
-                            <a href="/windows/apps/choose-your-platform">Choose your platform</a>
+                            <a href="desktop-programming.md">Get started with Win32 desktop Windows apps</a>
                         </p>
                         <p>
-                            <a href="/windows/apps/modernize-desktop">Modernize your desktop applications for Windows 10</a>
-                        </p>
-                        <p>
-                            <a href="learnwin32/learn-to-program-for-windows">Get started with Win32 and C++</a>
+                            <a href="learnwin32/learn-to-program-for-windows">Create your first C++ Win32 app</a>
                         </p>
                         <p>
                             <a href="direct3dgetstarted/building-your-first-directx-app">Create your first app using DirectX</a>
