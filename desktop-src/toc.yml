@@ -4,27 +4,7 @@
   - name: "Get Started"
     href: 
     items: 
-    - name: "Choose Your Platform"
-      href: choose-your-technology.md
-    - name: "Enhance Your Desktop Applications for Windows 10"
-      href: modernize-desktop-applications.md
-    - name: "What's new"
-      href: windows-8.md
-      items: 
-      - name: "Windows 8 and 8.1 Technologies"
-        href: whatsnew/windows-8-technologies.md
-      - name: "Compatibility cookbook for Windows"
-        href: w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
-      - name: "Windows 7"
-        href: windows-7.md
-        items: 
-        - name: "Windows 7 and Windows Server 2008 R2 Application Quality Cookbook"
-          href: win7appqual/windows-7-application-quality-cookbook.md
-        - name: "Windows 7 Developer Guide"
-          href: win7devguide/windows-7-developer-guide.md
-        - name: "Platform Update for Windows Vista"
-          href: win7ip/platform-update-for-windows-vista-portal.md
-    - name: "Desktop Programming"
+    - name: "Overview"
       href: desktop-programming.md
       items: 
       - name: "Create your first Windows app using DirectX"
@@ -35,8 +15,23 @@
         href: winprog64/programming-guide-for-64-bit-windows.md
       - name: "Using the Windows Headers"
         href: winprog/using-the-windows-headers.md
+    - name: "What's new"
+      href: windows-8.md
     - name: "Downloads and Tools"
-      href: https://developer.microsoft.com/en-us/windows/downloads
+      href: https://developer.microsoft.com/windows/downloads
+    - name: "Cookbooks and guides"
+      items:
+      - name: "Compatibility cookbook for Windows"
+        href: w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+      - name: "Windows 7 guides"
+        href: windows-7.md
+        items: 
+        - name: "Windows 7 and Windows Server 2008 R2 Application Quality Cookbook"
+          href: win7appqual/windows-7-application-quality-cookbook.md
+        - name: "Windows 7 Developer Guide"
+          href: win7devguide/windows-7-developer-guide.md
+        - name: "Platform Update for Windows Vista"
+          href: win7ip/platform-update-for-windows-vista-portal.md
   - name: "Design"
     href: uxguide/toc.yml
   - name: "Develop"

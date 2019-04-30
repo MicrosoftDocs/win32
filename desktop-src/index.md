@@ -3,11 +3,13 @@ layout: LandingPage
 description:
 title: Develop Windows desktop applications
 ms.topic: landing-page
-ms.date: 05/22/2018
+ms.date: 04/30/2019
 keywords: windows win32, desktop development
 ms.localizationpriority: medium
 ---
-# Develop Windows desktop applications
+
+# Develop Windows desktop apps using Win32
+
 Create Windows desktop applications that your customers can use at work and play by using Win32 and COM APIs to leverage features of the operating system.
 
 <ul class="panelContent cardsF">
@@ -23,25 +25,22 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>Get started</h3>
                         <p>
-                            <a href="choose-your-technology">Choose your platform</a>
+                            <a href="/windows/apps/choose-your-platform">Choose your platform</a>
                         </p>
                         <p>
-                            <a href="modernize-desktop-applications">Modernize your desktop applications for Windows 10</a>
-                        </p>
-                        <p>
-                            <a href="//docs.microsoft.com/windows/uwp/get-started">Get started with UWP</a>
-                        </p>
-                        <p>
-                            <a href="//docs.microsoft.com/dotnet/framework/wpf/getting-started/">Get started with WPF</a>
-                        </p>
-                        <p>
-                            <a href="//docs.microsoft.com/dotnet/framework/winforms/getting-started-with-windows-forms">Get started with Windows Forms</a>
+                            <a href="/windows/apps/modernize-desktop">Modernize your desktop applications for Windows 10</a>
                         </p>
                         <p>
                             <a href="learnwin32/learn-to-program-for-windows">Get started with Win32 and C++</a>
                         </p>
                         <p>
                             <a href="direct3dgetstarted/building-your-first-directx-app">Create your first app using DirectX</a>
+                        </p>
+                        <p>
+                            <a href="//docs.microsoft.com/dotnet/framework/wpf/getting-started/">Get started with WPF</a>
+                        </p>
+                        <p>
+                            <a href="//docs.microsoft.com/dotnet/framework/winforms/getting-started-with-windows-forms">Get started with Windows Forms</a>
                         </p>
                     </div>
                 </div>
