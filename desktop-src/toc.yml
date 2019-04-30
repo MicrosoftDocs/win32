@@ -7,10 +7,10 @@
     - name: "Overview"
       href: desktop-programming.md
       items: 
-      - name: "Create your first Windows app using DirectX"
-        href: direct3dgetstarted/building-your-first-directx-app.md
       - name: "Get Started with Win32 and C++"
         href: learnwin32/learn-to-program-for-windows.md
+      - name: "Create your first Windows app using DirectX"
+        href: direct3dgetstarted/building-your-first-directx-app.md
       - name: "Programming Guide for 64-bit Windows"
         href: winprog64/programming-guide-for-64-bit-windows.md
       - name: "Using the Windows Headers"
@@ -19,7 +19,7 @@
       href: windows-8.md
     - name: "Downloads and Tools"
       href: https://developer.microsoft.com/windows/downloads
-    - name: "Cookbooks and guides"
+    - name: "Platform Guides"
       items:
       - name: "Compatibility cookbook for Windows"
         href: w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
