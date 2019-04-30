@@ -18,10 +18,10 @@ If you're new to building desktop apps using the Win32 API, the following tutori
 
 | Topic        | Description      |
 |---------------|-----------------|
-| [Learn how to write a desktop program](/LearnWin32/learn-to-program-for-windows.md)    | This tutorial teaches you how to write a Windows program in C++ using Win32 and COM APIs.  |
-| [Create your first app using DirectX](/direct3dgetstarted/building-your-first-directx-app.md) | This basic tutorial will get you started with DirectX app development.            |
-| [Programming Guide for 64-bit Windows](/WinProg64/programming-guide-for-64-bit-windows.md)    | Describes programming for 64-bit versions of the Windows operating system. |
-| [Using the Windows Headers](/WinProg/using-the-windows-headers.md)     | Provides an overview of some of the conventions used in the Windows header files. |
+| [Learn how to write a desktop program](LearnWin32/learn-to-program-for-windows.md)    | This tutorial teaches you how to write a Windows program in C++ using Win32 and COM APIs.  |
+| [Create your first app using DirectX](direct3dgetstarted/building-your-first-directx-app.md) | This basic tutorial will get you started with DirectX app development.            |
+| [Programming Guide for 64-bit Windows](WinProg64/programming-guide-for-64-bit-windows.md)    | Describes programming for 64-bit versions of the Windows operating system. |
+| [Using the Windows Headers](WinProg/using-the-windows-headers.md)     | Provides an overview of some of the conventions used in the Windows header files. |
 
 ## Modernize your desktop apps for Windows 10
 
@@ -31,7 +31,7 @@ For more information, see [Modernize your desktop apps](/windows/apps/modernize-
 
 ## Related topics
 
-[Get started with UWP](https://review.docs.microsoft.com/en-us/windows/uwp/get-started/)
-[Get started with the .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/get-started/index)
-[Get started with WPF](https://docs.microsoft.com/dotnet/framework/wpf/getting-started/)
-[Get stared with Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/getting-started-with-windows-forms)
+* [Get started with UWP](https://review.docs.microsoft.com/en-us/windows/uwp/get-started/)
+* [Get started with the .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/get-started/index)
+* [Get started with WPF](https://docs.microsoft.com/dotnet/framework/wpf/getting-started/)
+* [Get stared with Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/getting-started-with-windows-forms)
