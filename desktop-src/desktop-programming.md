@@ -21,7 +21,7 @@ Follow these instructions and start creating C++ Win32 apps for Windows 10.
     > [!NOTE]
     > When you install Visual Studio, you can optionally select the **.NET desktop development** and **Universal Windows Platform development** options for access to other project types and app platforms for building desktop Windows apps.
 
-2. If you want to build your desktop app into an MSIX package (this process is also called the Desktop Bridge) and test or debug the packaged app on your development computer, you'll need to [enable Developer Mode on your computer](/windows/uwp/get-started/enable-your-device-for-development). This is not necessary if you plan to 
+2. If you want to build your desktop app into an [MSIX package](/windows/msix/desktop/desktop-to-uwp-root) and test or debug the packaged app on your development computer, you'll need to [enable Developer Mode on your computer](/windows/uwp/get-started/enable-your-device-for-development).
 
 > [!NOTE]
 > For scripts you can use to set up your development computer and install other features or packages, check out [this GitHub project](https://github.com/Microsoft/windows-dev-box-setup-scripts).
