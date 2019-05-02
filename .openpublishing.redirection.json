@@ -41936,13 +41936,13 @@
 	"redirect_document_id": false
 },
 {
-	"source_path": "choose-your-technology.md",
-	"redirect_url": "https://docs.microsoft.com/windows/apps/choose-your-platform",
+	"source_path": "desktop-src/choose-your-technology.md",
+	"redirect_url": "/windows/apps/choose-your-platform",
 	"redirect_document_id": false
 },
 {
-	"source_path": "modernize-desktop-applications.md",
-	"redirect_url": "https://docs.microsoft.com/windows/apps/modernize-desktop",
+	"source_path": "desktop-src/modernize-desktop-applications.md",
+	"redirect_url": "/windows/apps/modernize-desktop",
 	"redirect_document_id": false
 }
   ]

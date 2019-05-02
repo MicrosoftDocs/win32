@@ -12,7 +12,21 @@ The Win32 API (also called the Windows API) is the original platform for native 
 
 The Win32 API is just one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](/windows/apps/choose-your-platform).
 
-## Learn how to create new apps using the Win32 API
+## Get set up
+
+Follow these instructions and start creating C++ Win32 apps for Windows 10.
+
+1. Download or update Visual Studio 2019. If you don't already have Visual Studio 2019, you can install the free Microsoft Visual Studio Community 2019. When you install Visual Studio, make sure to select the **Desktop development with C++** option. For download links, see our [Downloads](https://developer.microsoft.com/windows/downloads) page.
+
+    > [!NOTE]
+    > When you install Visual Studio, you can optionally select the **.NET desktop development** and **Universal Windows Platform development** options for access to other project types and app platforms for building desktop Windows apps.
+
+2. If you want to build your desktop app into an MSIX package (this process is also called the Desktop Bridge) and test or debug the packaged app on your development computer, you'll need to [enable Developer Mode on your computer](/windows/uwp/get-started/enable-your-device-for-development). This is not necessary if you plan to 
+
+> [!NOTE]
+> For scripts you can use to set up your development computer and install other features or packages, check out [this GitHub project](https://github.com/Microsoft/windows-dev-box-setup-scripts).
+
+## Learn how to create desktop apps using the Win32 API
 
 If you're new to building desktop apps using the Win32 API, the following tutorials and articles will help get you started.
 
@@ -22,6 +36,8 @@ If you're new to building desktop apps using the Win32 API, the following tutori
 | [Create your first app using DirectX](direct3dgetstarted/building-your-first-directx-app.md) | This basic tutorial will get you started with DirectX app development.            |
 | [Programming Guide for 64-bit Windows](WinProg64/programming-guide-for-64-bit-windows.md)    | Describes programming for 64-bit versions of the Windows operating system. |
 | [Using the Windows Headers](WinProg/using-the-windows-headers.md)     | Provides an overview of some of the conventions used in the Windows header files. |
+
+You can also try out the [desktop app samples](https://github.com/Microsoft/Windows-classic-samples).
 
 ## Modernize your desktop apps for Windows 10
 
