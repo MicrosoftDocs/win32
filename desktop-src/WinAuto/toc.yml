@@ -1347,9 +1347,9 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement9
             items: 
             - name: "CachedHeadingLevel property"
-              href: uiauto-iuiautomationelement9-get_currentisdialog.md
+              href: /windows/desktop/api/UIAutomationClient/uiauto-iuiautomationelement9-get_currentisdialog
             - name: "CurrentHeadingLevel property"
-              href: uiauto-iuiautomationelement9-get_cachedisdialog.md
+              href: /windows/desktop/api/UIAutomationClient/uiauto-iuiautomationelement9-get_cachedisdialog
           - name: "IUIAutomationElementArray"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray
             items: 
