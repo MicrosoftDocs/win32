@@ -54,20 +54,10 @@ objWMIServices.ExecNotificationQueryAsync sink,"SELECT * FROM __InstanceCreation
 WScript.Echo "Waiting for events"
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code> # Define event Query
+```PowerShell
+
+ # Define event Query
 $query = &quot;SELECT * FROM __InstanceCreationEvent 
           WHERE TargetInstance ISA &#39;Win32_NTLogEvent&#39; &quot;
 
@@ -80,10 +70,10 @@ Register-WmiEvent -Source Demo1 -Query $query -Action {
                 Write-Host &quot;EVENT MESSAGE&quot;
                 Write-Host $event.SourceEventArgs.NewEvent.TargetInstance.Message}
 <# So wait #>
-&quot;Waiting for events&quot;</code></pre></td>
-</tr>
-</tbody>
-</table>
+&quot;Waiting for events&quot;
+```
+
+
 
 
 

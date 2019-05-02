@@ -414,6 +414,10 @@
               items: 
               - name: "Active Directory Federation Services Overview"
                 href: https://msdn.microsoft.com/en-us/library/ms674895(v=vs.85).aspx
+        - name: "Extensible Authentication Protocol"
+          href: eap/eap-start-page.md
+        - name: "Extensible Authentication Protocol Host"
+          href: eaphost/portal.md
         - name: "Network Access Protection"
           href: nap/network-access-protection-start-page.md
         - name: "Network Policy Server"

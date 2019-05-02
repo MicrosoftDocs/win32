@@ -29,23 +29,13 @@ The **currentPosition** property gets or sets the current position in the media 
 public System.Double currentPosition {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property currentPosition As System.Double</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property currentPosition As System.Double
+```
+
+
 
 
 
@@ -68,30 +58,20 @@ private void setPosition_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setPosition_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setPosition.Click
+```VB
+
+Public Sub setPosition_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setPosition.Click
 
     &#39; ...Add code to ensure that the text box contains a valid value.
 
     &#39; Set the current position of the media item to the position entered by the user.
     player.Ctlcontrols.currentPosition = Convert.ToDouble(newPosition.Text)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -36,23 +36,13 @@ Displays the **Windows Security** dialog box.
 IShellDispatch4.WindowsSecurity()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch4.WindowsSecurity()</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+IShellDispatch4.WindowsSecurity()
+```
+
+
 
 
 

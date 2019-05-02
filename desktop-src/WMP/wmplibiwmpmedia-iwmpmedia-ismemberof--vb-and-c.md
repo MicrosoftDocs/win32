@@ -31,26 +31,16 @@ public System.Boolean isMemberOf(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function isMemberOf( _
+```VB
+
+Public Function isMemberOf( _
   ByVal pPlaylist As IWMPPlaylist _
 ) As System.Boolean
-Implements IWMPMedia.isMemberOf</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.isMemberOf
+```
+
+
 
 
 
@@ -92,20 +82,10 @@ if (player.currentMedia.isMemberOf(sPlaylist) == false)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to the playlist named All Music.
+```VB
+
+' Get an interface to the playlist named All Music.
 Dim sPlaylist As WMPLib.IWMPPlaylist = player.playlistCollection.getByName(&quot;All Music&quot;).Item(0)
 
 &#39; Test whether the current media item is a member of the All Music playlist.
@@ -114,10 +94,10 @@ If (player.currentMedia.isMemberOf(sPlaylist) = False) Then
 
     sPlaylist.appendItem(player.currentMedia)
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

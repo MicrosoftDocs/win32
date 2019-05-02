@@ -31,26 +31,16 @@ public System.String getAttributeName(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getAttributeName( _
+```VB
+
+Public Function getAttributeName( _
   ByVal lIndex As System.Int32 _
 ) As System.String
-Implements IWMPMedia.getAttributeName</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.getAttributeName
+```
+
+
 
 
 
@@ -103,20 +93,10 @@ for (int i = 0; i < attCount; i++)
 attributeNames.Lines = attInfo;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Store an IWMPMedia3 interface for the current media item. 
+```VB
+
+' Store an IWMPMedia3 interface for the current media item. 
 Dim cm As WMPLib.IWMPMedia3 = player.currentMedia
 
 &#39; Get the number of attributes for the current media. 
@@ -134,10 +114,10 @@ For i As Integer = 0 To (attCount - 1)
 Next i
 
 &#39; Display the attribute information in the text box.
-attributeNames.Lines = attInfo</code></pre></td>
-</tr>
-</tbody>
-</table>
+attributeNames.Lines = attInfo
+```
+
+
 
 
 

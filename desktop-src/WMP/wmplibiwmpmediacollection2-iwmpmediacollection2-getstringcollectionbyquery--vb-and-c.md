@@ -35,30 +35,20 @@ public IWMPStringCollection getStringCollectionByQuery(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getStringCollectionByQuery( _
+```VB
+
+Public Function getStringCollectionByQuery( _
   ByVal bstrAttribute As System.String, _
   ByVal pQuery As IWMPQuery, _
   ByVal bstrMediaType As System.String, _
   ByVal bstrSortAttribute As System.String, _
   ByVal fSortAscending As System.Boolean _
 ) As IWMPStringCollection
-Implements IWMPMediaCollection2.getStringCollectionByQuery</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection2.getStringCollectionByQuery
+```
+
+
 
 
 

@@ -31,25 +31,15 @@ public void launchURL(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub launchURL( _
+```VB
+
+Public Sub launchURL( _
   ByVal bstrURL As System.String _
-)</code></pre></td>
-</tr>
-</tbody>
-</table>
+)
+```
+
+
 
 
 
@@ -85,28 +75,18 @@ private void goToMS_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub goToMS_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles goToMS.Click
+```VB
+
+Public Sub goToMS_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles goToMS.Click
 
     &#39; Open the Microsoft website. 
     player.launchURL(&quot;https://www.microsoft.com&quot;)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

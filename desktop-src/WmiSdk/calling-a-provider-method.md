@@ -66,20 +66,10 @@ Else
 End If  
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>try
+```PowerShell
+
+try
 { 
     $myProcess = ([wmiclass]&quot;win32_process&quot;).create(&quot;notepad.exe&quot;, $null, $null) 
 }
@@ -90,10 +80,10 @@ catch
     return 
 }
 #else
-&quot;Notepad was started with a process ID of &quot; + $myProcess.ProcessID</code></pre></td>
-</tr>
-</tbody>
-</table>
+&quot;Notepad was started with a process ID of &quot; + $myProcess.ProcessID
+```
+
+
 
 
 
@@ -155,7 +145,7 @@ The following procedure describes how to call a provider method using C++.
 
     The following example shows how to connect to WMI. For more information about security issues in WMI provider calls, see [Maintaining WMI Security](maintaining-wmi-security.md).
 
-    ```C++
+```C++
     HRESULT hr = CoInitialize(0);
         hr  =  CoInitializeSecurity(
                 NULL, 
@@ -172,7 +162,7 @@ The following procedure describes how to call a provider method using C++.
                 IID_IWbemLocator, (LPVOID *) &pLocator);
         hr = pLocator->ConnectServer(path, NULL, NULL, 
                 NULL, 0, NULL, NULL, &pNamespace);
-    ```
+```
 
     
 
@@ -180,9 +170,9 @@ The following procedure describes how to call a provider method using C++.
 
     The [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) method returns an [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) pointer that points to the class definition.
 
-    ```C++
+```C++
     hr = pNamespace->GetObject(ClassPath, 0, NULL, &pClass, NULL);
-    ```
+```
 
     
 
@@ -190,29 +180,29 @@ The following procedure describes how to call a provider method using C++.
 
     [**GetMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethod) returns an [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) pointer that points to the input parameter class.
 
-    ```C++
+```C++
     hr = pClass->GetMethod(MethodName, 0, &pInClass, NULL);
-    ```
+```
 
     
 
 4.  Generate an instance of the input parameter class with a call to the [**IWbemClassObject::SpawnInstance**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-spawninstance) method.
 
-    ```C++
+```C++
     hr = pInClass->SpawnInstance(0, &pInInst);
-    ```
+```
 
     
 
 5.  Set the properties of the input parameter class with a call to the [**IWbemClassObject::Put**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-put) method.
 
-    ```C++
+```C++
     VARIANT var;
     var.vt = VT_BSTR;
     var.bstrVal= SysAllocString(L"hello");
     hr = pInInst->Put(ArgName, 0, &var, 0);
     VariantClear(&var);
-    ```
+```
 
     
 
@@ -220,9 +210,9 @@ The following procedure describes how to call a provider method using C++.
 
     For [**ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod), WMI returns any output parameters in the call. For [**ExecMethodAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync), WMI returns any output parameters through a call to [**IWbemObjectSink**](iwbemobjectsink.md). For more information, see [Calling a Method](calling-a-method.md).
 
-    ```C++
+```C++
     hr = pNamespace->ExecMethod(ClassPath, MethodName, 0, NULL, pInInst, &pOutInst, NULL);
-    ```
+```
 
     
 

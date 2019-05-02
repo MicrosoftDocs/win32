@@ -32,23 +32,13 @@ This property is read-only.
 public System.String durationString {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property durationString As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property durationString As System.String
+```
+
+
 
 
 
@@ -80,20 +70,10 @@ private void player_OpenStateChange(object sender, AxWMPLib._WMPOCXEvents_OpenSt
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create an event handler for the OpenStateChange event.
+```VB
+
+' Create an event handler for the OpenStateChange event.
 Public Sub player_OpenStateChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_OpenStateChangeEvent) Handles player.OpenStateChange
 
     &#39; Test whether the current media item is open.
@@ -104,10 +84,10 @@ Public Sub player_OpenStateChange(ByVal sender As Object, ByVal e As AxWMPLib._W
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

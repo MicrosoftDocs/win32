@@ -29,23 +29,13 @@ The fullScreen property gets or sets a value indicating whether video content is
 public System.Boolean fullScreen {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property fullScreen As System.Boolean</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property fullScreen As System.Boolean
+```
+
+
 
 
 
@@ -86,20 +76,10 @@ private void fullScreen_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub fullScreen_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles fullScreen.Click
+```VB
+
+Public Sub fullScreen_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles fullScreen.Click
 
     &#39; If the player is playing, switch to full screen. 
     If (player.playState = WMPLib.WMPPlayState.wmppsPlaying) Then
@@ -108,10 +88,10 @@ private void fullScreen_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

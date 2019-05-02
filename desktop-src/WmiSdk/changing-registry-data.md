@@ -64,29 +64,19 @@ Else
 End If
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$HKEY_LOCAL_MACHINE = 2147483650 
+```PowerShell
+
+$HKEY_LOCAL_MACHINE = 2147483650 
 $strComputer = &quot;.&quot;
 $strPath = &quot;SOFTWARE\MyKey\MySubKey&quot;
 
 $reg = [wmiclass]&quot;\\$strComputer\root\default:StdRegprov&quot;
 
-[void]$reg.CreateKey($HKEY_LOCAL_MACHINE, $strPath)</code></pre></td>
-</tr>
-</tbody>
-</table>
+[void]$reg.CreateKey($HKEY_LOCAL_MACHINE, $strPath)
+```
+
+
 
 
 
@@ -119,20 +109,10 @@ For Each strValue in arrStringValues
 Next
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$HKEY_LOCAL_MACHINE = 2147483650 
+```PowerShell
+
+$HKEY_LOCAL_MACHINE = 2147483650 
 $strComputer = &quot;.&quot;
 $strPath = &quot;SOFTWARE\MyKey\MySubKey&quot;
 
@@ -144,10 +124,10 @@ $reg = [wmiclass]&quot;\\$strComputer\root\default:StdRegprov&quot;
 [void]$reg.SetMultiStringValue($HKEY_LOCAL_MACHINE, $strKeyPath, $strValueName, $arrStringValues)
 
 $multiValues = $reg.GetMultiStringValue($HKEY_LOCAL_MACHINE, $strKeyPath, $strValueName)
-$multiValues.sValue</code></pre></td>
-</tr>
-</tbody>
-</table>
+$multiValues.sValue
+```
+
+
 
 
 

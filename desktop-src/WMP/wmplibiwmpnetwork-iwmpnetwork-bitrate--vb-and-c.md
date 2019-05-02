@@ -29,23 +29,13 @@ The **bitRate** property gets the current bit rate being received.
 public System.Int32 bitRate {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property bitRate As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property bitRate As System.Int32
+```
+
+
 
 
 
@@ -85,20 +75,10 @@ private void player_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlaySt
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create an event handler for the PlayStateChange event.
+```VB
+
+' Create an event handler for the PlayStateChange event.
 Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_PlayStateChangeEvent) Handles player.PlayStateChange
 
     &#39; Display the bitRate when the player is playing. 
@@ -114,10 +94,10 @@ Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._W
 
     End Select
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

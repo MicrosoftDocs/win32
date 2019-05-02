@@ -29,23 +29,13 @@ The **bufferingTime** property gets or sets the amount of time in milliseconds a
 public System.Int32 bufferingTime {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property bufferingTime As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property bufferingTime As System.Int32
+```
+
+
 
 
 
@@ -77,20 +67,10 @@ private void setBufTime_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setBufTime_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setBufTime.Click
+```VB
+
+Public Sub setBufTime_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setBufTime.Click
 
     &#39; Retrieve input from the user and convert it to an integer.
     Dim newTime As Integer = System.Convert.ToInt32(bufText.Text)
@@ -107,10 +87,10 @@ private void setBufTime_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

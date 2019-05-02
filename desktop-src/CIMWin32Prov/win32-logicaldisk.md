@@ -1946,20 +1946,10 @@ For Each objDisk in colDisks
 Next
 ```
 
-<span codelanguage="CSharp"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C#</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//be sure to References->Add->System.Management to your project
+```CSharp
+
+//be sure to References->Add->System.Management to your project
 using System.Management;
 ...
 {
@@ -1994,10 +1984,10 @@ using System.Management;
       //Readline is in here so the user can see the result before the code exists
       Console.ReadLine();
    }
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 
@@ -2015,20 +2005,10 @@ For Each objDisk in colDisks
 Next
 ```
 
-<span codelanguage="CSharp"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C#</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//be sure to References->Add->System.Management to your project
+```CSharp
+
+//be sure to References->Add->System.Management to your project
 using System.Management;
 ...
 
@@ -2045,10 +2025,10 @@ foreach (ManagementObject objDisk in colDisks)
     Console.WriteLine(&quot;Device ID : {0}&quot;, objDisk[&quot;DeviceID&quot;]);
     Console.WriteLine(&quot;Free Disk Space : {0}&quot;, objDisk[&quot;FreeSpace&quot;]);
     Console.ReadLine();
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 
@@ -2065,23 +2045,13 @@ For Each objDisk in colDisks
 Next
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Get-WMIObject Win32_LogicalDisk | Select DeviceID, FileSystem | Format=Table -AutoSize</code></pre></td>
-</tr>
-</tbody>
-</table>
+```PowerShell
+
+Get-WMIObject Win32_LogicalDisk | Select DeviceID, FileSystem | Format=Table -AutoSize
+```
+
+
 
 
 

@@ -32,27 +32,17 @@ public IWMPPlaylist getByAttribute(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByAttribute( _
+```VB
+
+Public Function getByAttribute( _
   ByVal bstrAttribute As System.String, _
   ByVal bstrValue As System.String _
 ) As IWMPPlaylist
-Implements IWMPMediaCollection.getByAttribute</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.getByAttribute
+```
+
+
 
 
 
@@ -121,30 +111,20 @@ player.currentPlaylist = pl;
 player.Ctlcontrols.play();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to a playlist that contains media items by a particular artist.
+```VB
+
+' Get an interface to a playlist that contains media items by a particular artist.
 Dim pl As WMPLib.IWMPPlaylist = player.mediaCollection.getByAttribute(&quot;Artist&quot;, &quot;Triode 48&quot;)
 
 &#39; Make the new playlist the current one.
 player.currentPlaylist = pl
 
 &#39; Play the media items in the current playlist. 
-player.Ctlcontrols.play()</code></pre></td>
-</tr>
-</tbody>
-</table>
+player.Ctlcontrols.play()
+```
+
+
 
 
 

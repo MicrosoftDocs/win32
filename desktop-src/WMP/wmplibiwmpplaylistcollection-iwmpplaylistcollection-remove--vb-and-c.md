@@ -31,26 +31,16 @@ public void remove(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub remove( _
+```VB
+
+Public Sub remove( _
   ByVal pItem As IWMPPlaylist _
 )
-Implements IWMPPlaylistCollection.remove</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPPlaylistCollection.remove
+```
+
+
 
 
 

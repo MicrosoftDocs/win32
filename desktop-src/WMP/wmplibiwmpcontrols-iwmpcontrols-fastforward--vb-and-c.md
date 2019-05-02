@@ -29,24 +29,14 @@ The **fastForward** method starts fast play of the media item in the forward dir
 public void fastForward();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub fastForward()
-Implements IWMPControls.fastForward</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub fastForward()
+Implements IWMPControls.fastForward
+```
+
+
 
 
 
@@ -84,20 +74,10 @@ private void fastForwardButton_Click(object o, System.EventArgs args)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub fastForwardButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles fastForwardButton.Click
+```VB
+
+Public Sub fastForwardButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles fastForwardButton.Click
 
     &#39; To get all of the available functionality of the player controls, Dim the
     &#39; value returned by player.Ctlcontrols as a WMPLib.IWMPControls3 interface. 
@@ -110,10 +90,10 @@ private void fastForwardButton_Click(object o, System.EventArgs args)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -31,26 +31,16 @@ public IWMPPlaylist newPlaylist(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function newPlaylist( _
+```VB
+
+Public Function newPlaylist( _
   ByVal bstrName As System.String _
 ) As IWMPPlaylist
-Implements IWMPPlaylistCollection.newPlaylist</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPPlaylistCollection.newPlaylist
+```
+
+
 
 
 
@@ -89,24 +79,14 @@ The following example creates a new empty playlist called "ThreeList", adds it t
 WMPLib.IWMPPlaylist newList = player.playlistCollection.newPlaylist("ThreeList");
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39;  Add a new empty playlist, named ThreeList, to the playlist collection.
-Dim newList As WMPLib.IWMPPlaylist = player.playlistCollection.newPlaylist(&quot;ThreeList&quot;)</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+'  Add a new empty playlist, named ThreeList, to the playlist collection.
+Dim newList As WMPLib.IWMPPlaylist = player.playlistCollection.newPlaylist(&quot;ThreeList&quot;)
+```
+
+
 
 
 

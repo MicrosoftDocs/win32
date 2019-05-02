@@ -32,27 +32,17 @@ public void setDeleted(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setDeleted( _
+```VB
+
+Public Sub setDeleted( _
   ByVal pItem As IWMPMedia, _
   ByVal varfIsDeleted As System.Boolean _
 )
-Implements IWMPMediaCollection.setDeleted</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection.setDeleted
+```
+
+
 
 
 
@@ -106,20 +96,10 @@ else
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Test whether the media item has already been deleted.
+```VB
+
+' Test whether the media item has already been deleted.
 If (Not player.mediaCollection.isDeleted(media)) Then
 
     &#39; The item is available to be deleted move it to the deleted items folder.
@@ -133,10 +113,10 @@ Else
     &#39; Tell the user the operation is unnecessary.
     System.Windows.Forms.MessageBox.Show(&quot;Item is already deleted!&quot;)
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

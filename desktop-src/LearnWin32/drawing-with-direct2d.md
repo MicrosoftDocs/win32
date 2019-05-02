@@ -27,30 +27,17 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
     switch (uMsg)
     {
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    case WM_PAINT:
+    case WM_PAINT:
         OnPaint();
         return 0;
 
      // Other messages not shown...
-</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

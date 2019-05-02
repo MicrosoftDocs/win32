@@ -1249,20 +1249,9 @@ For Each objItem in colItems
 Next
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$colItems = Get-WmiObject Win32_Fan -Namespace &quot;root\cimv2&quot;
+```PowerShell
+$colItems = Get-WmiObject Win32_Fan -Namespace &quot;root\cimv2&quot;
 foreach ($objItem in $colItems)
 {
     &quot;Active Cooling: &quot; + $objItem.ActiveCooling 
@@ -1270,10 +1259,10 @@ foreach ($objItem in $colItems)
     &quot;Device ID: &quot; + $objItem.DeviceID 
     &quot;Name: &quot; + $objItem.Name 
     &quot;Status Information: &quot; + $objItem.StatusInfo 
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

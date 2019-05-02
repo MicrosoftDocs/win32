@@ -136,20 +136,10 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
          LabelTitle="HighlightColors"/>
 ```
 
-<span codelanguage="XML"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>XML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code><Group CommandName=&quot;cmdDropDownColorPickerGroup&quot;
+```XML
+
+<Group CommandName=&quot;cmdDropDownColorPickerGroup&quot;
        SizeDefinition=&quot;ThreeButtons&quot;>
   <DropDownColorPicker
     CommandName=&quot;cmdDropDownColorPickerThemeColors&quot;
@@ -161,10 +151,10 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
     CommandName=&quot;cmdDropDownColorPickerHighlightColors&quot;
     ColorTemplate=&quot;HighlightColors&quot;
     StandardColorGridRows=&quot;1&quot;/>
-</Group></code></pre></td>
-</tr>
-</tbody>
-</table>
+</Group>
+```
+
+
 
 
 

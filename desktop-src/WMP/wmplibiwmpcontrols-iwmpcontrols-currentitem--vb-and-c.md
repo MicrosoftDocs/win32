@@ -29,23 +29,13 @@ The **currentItem** property gets or sets the current media item in a playlist.
 public IWMPMedia currentItem {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property currentItem As IWMPMedia</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property currentItem As IWMPMedia
+```
+
+
 
 
 
@@ -78,20 +68,10 @@ private void playItem_OnSelectedIndexChanged(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub playItem_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles playItem.SelectedIndexChanged
+```VB
+
+Public Sub playItem_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles playItem.SelectedIndexChanged
 
     Dim lb As System.Windows.Forms.ListBox = sender
     Dim selectedItem As Integer = lb.SelectedIndex
@@ -105,10 +85,10 @@ private void playItem_OnSelectedIndexChanged(object sender, System.EventArgs e)
     &#39; Play the current item.
     player.Ctlcontrols.play()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -33,23 +33,13 @@ This property is read/write.
 public System.String name {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property name As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property name As System.String
+```
+
+
 
 
 
@@ -79,20 +69,10 @@ private void setNewName_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setNewName_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setNewName.Click
+```VB
+
+Public Sub setNewName_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setNewName.Click
 
     &#39; ...Add code to ensure that the TextBox contains a valid value.
 
@@ -102,10 +82,10 @@ private void setNewName_Click(object sender, System.EventArgs e)
     &#39; Change the name. 
     cm.name = nameText.Text
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -29,23 +29,13 @@ The **defaultFrame** property gets or sets the name of the frame used to display
 public System.String defaultFrame {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property defaultFrame As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property defaultFrame As System.String
+```
+
+
 
 
 

@@ -57,7 +57,11 @@
     },
     "fileMetadata": {
       "feedback_system": {
-        "docs-ref-autogen/**/*": "None"
+        "docs-ref-autogen/**/*": "None",
+        "contributors_to_exclude": [
+          "msatranjr",
+          "GrantMeStrength"
+      ]
       }
     },
     "template": [],

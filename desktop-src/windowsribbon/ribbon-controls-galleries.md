@@ -250,20 +250,10 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
          LabelTitle="ComboBox"/>
 ```
 
-<span codelanguage="XML"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>XML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code><!-- DropDownGallery -->
+```XML
+
+<!-- DropDownGallery -->
 <Command Name=&quot;cmdDropDownGalleryGroup&quot;
          Symbol=&quot;cmdDropDownGalleryGroup&quot;
          Comment=&quot;DropDownGallery Group&quot;
@@ -271,10 +261,10 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
 <Command Name=&quot;cmdDropDownGallery&quot;
          Symbol=&quot;cmdDropDownGallery&quot;
          Comment=&quot;DropDownGallery&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/></code></pre></td>
-</tr>
-</tbody>
-</table>
+         LabelTitle=&quot;DropDownGallery&quot;/>
+```
+
+
 
 <span codelanguage="XML"></span>
 

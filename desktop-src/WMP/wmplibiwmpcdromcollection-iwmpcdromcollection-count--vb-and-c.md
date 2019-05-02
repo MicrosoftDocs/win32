@@ -29,23 +29,13 @@ The **count** property gets the number of available CD and DVD drives on the sys
 public System.Int32 count {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property count As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property count As System.Int32
+```
+
+
 
 
 
@@ -72,27 +62,17 @@ int numDrives = player.cdromCollection.count;
 System.Windows.Forms.MessageBox.Show("Number of available CD and DVD drives:  " + numDrives.ToString());
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Store the number of available drives.
+```VB
+
+' Store the number of available drives.
 Dim numDrives As Integer = player.cdromCollection.count
 
 &#39; Display the number of drives as a string.
-System.Windows.Forms.MessageBox.Show(&quot;Number of available CD and DVD drives:  &quot; + numDrives.ToString())</code></pre></td>
-</tr>
-</tbody>
-</table>
+System.Windows.Forms.MessageBox.Show(&quot;Number of available CD and DVD drives:  &quot; + numDrives.ToString())
+```
+
+
 
 
 

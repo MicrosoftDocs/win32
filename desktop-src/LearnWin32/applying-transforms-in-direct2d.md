@@ -96,31 +96,18 @@ void Scene::RenderScene()
     m_pRenderTarget->FillEllipse(m_ellipse, m_pFill);
     m_pRenderTarget->DrawEllipse(m_ellipse, m_pStroke);
 
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    // Draw hands
+    // Draw hands
     SYSTEMTIME time;
     GetLocalTime(&time);
 
     // 60 minutes = 30 degrees, 1 minute = 0.5 degree
     const float fHourAngle = (360.0f / 12) * (time.wHour) + (time.wMinute * 0.5f); 
-    const float fMinuteAngle =(360.0f / 60) * (time.wMinute);</code></pre></td>
-</tr>
-</tbody>
-</table>
+    const float fMinuteAngle =(360.0f / 60) * (time.wMinute);
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

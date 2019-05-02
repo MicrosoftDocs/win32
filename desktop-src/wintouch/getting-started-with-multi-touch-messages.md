@@ -140,22 +140,9 @@ You can handle the Windows Touch messages from applications in Windows operating
         return DefWindowProc(hWnd, WM_TOUCH, wParam, lParam);
     }
   }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     int wmId, wmEvent;
     PAINTSTRUCT ps;
@@ -166,10 +153,10 @@ You can handle the Windows Touch messages from applications in Windows operating
       // pass touch messages to the touch handler 
       case WM_TOUCH:
         OnTouch(hWnd, wParam, lParam);
-        break;</code></pre></td>
-</tr>
-</tbody>
-</table>
+        break;
+```
+
+
 
 
 

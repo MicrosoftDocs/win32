@@ -59,29 +59,16 @@ Here is the code from the [Open dialog box example](example--the-open-dialog-box
     {
         IFileOpenDialog *pFileOpen;
 
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>        hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
+        hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL, 
                 IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
 
         if (SUCCEEDED(hr))
-        {</code></pre></td>
-</tr>
-</tbody>
-</table>
+        {
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

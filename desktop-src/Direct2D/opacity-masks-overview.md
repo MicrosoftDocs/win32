@@ -84,25 +84,12 @@ The next example defines the brush, *m\_pFernBitmapBrush*, to which the opacity 
                     propertiesXClampYClamp,
                     &m_pFernBitmapBrush
                     );
+
+
+            }
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            }</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -120,22 +107,9 @@ The next example sets the render target's antialiasing mode to [**D2D1\_ANTIALIA
 
 ```C++
         D2D1_RECT_F rcBrushRect = D2D1::RectF(5, 5, 155, 155);
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>        // D2D1_ANTIALIAS_MODE_ALIASED must be set for FillOpacityMask to function properly
+        // D2D1_ANTIALIAS_MODE_ALIASED must be set for FillOpacityMask to function properly
         m_pRenderTarget->SetAntialiasMode(D2D1_ANTIALIAS_MODE_ALIASED);
         m_pRenderTarget->FillOpacityMask(
             m_pBitmapMask,
@@ -143,10 +117,10 @@ The next example sets the render target's antialiasing mode to [**D2D1\_ANTIALIA
             D2D1_OPACITY_MASK_CONTENT_GRAPHICS,
             &rcBrushRect
             );
-        m_pRenderTarget->SetAntialiasMode(D2D1_ANTIALIAS_MODE_PER_PRIMITIVE);</code></pre></td>
-</tr>
-</tbody>
-</table>
+        m_pRenderTarget->SetAntialiasMode(D2D1_ANTIALIAS_MODE_PER_PRIMITIVE);
+```
+
+
 
 
 
@@ -173,7 +147,7 @@ The following diagram shows the effect of applying a linear gradient brush to a 
 The steps that follow describe how to re-create this effect.
 
 1.  Define the content to be masked. The following example creates an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx), *m\_pLinearFadeFlowersBitmap*. The extend mode x- and y- for *m\_pLinearFadeFlowersBitmap* are set to [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) so that it can be used with an opacity mask by the [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) method.
-    ```C++
+```C++
                 if (SUCCEEDED(hr))
                 {
                     // Create the bitmap to be used by the bitmap brush.
@@ -185,31 +159,19 @@ The steps that follow describe how to re-create this effect.
                         &m_pLinearFadeFlowersBitmap
                         );
                 }
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>            if (SUCCEEDED(hr))
+    
+            if (SUCCEEDED(hr))
                 {
                     D2D1_BITMAP_BRUSH_PROPERTIES propertiesXClampYClamp = 
                         D2D1::BitmapBrushProperties(
                         D2D1_EXTEND_MODE_CLAMP,
                         D2D1_EXTEND_MODE_CLAMP,
                         D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR
-                        );</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+                        );
+```
+
+
 
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
@@ -255,7 +217,7 @@ The steps that follow describe how to re-create this effect.
     
 
 2.  Define the opacity mask. The next code example creates a diagonal linear gradient brush (*m\_pLinearGradientBrush*) that fades from fully opaque black at position 0 to completely transparent white at position 1.
-    ```C++
+```C++
                 if (SUCCEEDED(hr))
                 {
                     ID2D1GradientStopCollection *pGradientStops = NULL;
@@ -281,36 +243,24 @@ The steps that follow describe how to re-create this effect.
                             pGradientStops,
                             &m_pLinearGradientBrush);
                     }
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>                pGradientStops->Release();
-                }</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+                pGradientStops->Release();
+                }
+```
+
+
 
     
 
 3.  Use the [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) method. The final example uses the **FillGeometry** method to the content brush to fill a [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/en-us/library/Dd371561(v=VS.85).aspx) (*m\_pRectGeo*) with an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) (*m\_pLinearFadeFlowersBitmap*) and applies an opacity mask (*m\_pLinearGradientBrush*).
-    ```C++
+```C++
             m_pRenderTarget->FillGeometry(
                 m_pRectGeo, 
                 m_pLinearFadeFlowersBitmapBrush, 
                 m_pLinearGradientBrush
                 );
-    ```
+```
 
     
 
@@ -337,32 +287,19 @@ The first example creates an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/e
                     &m_pRadialFadeFlowersBitmap
                     );
             }
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (SUCCEEDED(hr))
+            if (SUCCEEDED(hr))
             {
                 D2D1_BITMAP_BRUSH_PROPERTIES propertiesXClampYClamp = 
                     D2D1::BitmapBrushProperties(
                     D2D1_EXTEND_MODE_CLAMP,
                     D2D1_EXTEND_MODE_CLAMP,
                     D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR
-                    );</code></pre></td>
-</tr>
-</tbody>
-</table>
+                    );
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
@@ -429,22 +366,9 @@ The next example defines the radial gradient brush that will be used as the opac
                     &pGradientStops);
 
 
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>                if (SUCCEEDED(hr))
+                if (SUCCEEDED(hr))
                 {
                     hr = m_pRenderTarget->CreateRadialGradientBrush(
                         D2D1::RadialGradientBrushProperties(
@@ -456,10 +380,10 @@ The next example defines the radial gradient brush that will be used as the opac
                         &m_pRadialGradientBrush);
                 }
                 pGradientStops->Release();
-            }</code></pre></td>
-</tr>
-</tbody>
-</table>
+            }
+```
+
+
 
 
 

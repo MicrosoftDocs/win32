@@ -17,22 +17,9 @@ In this tutorial, the `DShowPlayer` class manages all DirectShow functionality. 
 #include <new>
 #include <windows.h>
 #include <dshow.h>
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>enum PlaybackState
+enum PlaybackState
 {
     STATE_NO_GRAPH,
     STATE_RUNNING,
@@ -79,10 +66,10 @@ private:
     IMediaControl   *m_pControl;
     IMediaEventEx   *m_pEvent;
     CVideoRenderer  *m_pVideo;
-};</code></pre></td>
-</tr>
-</tbody>
-</table>
+};
+```
+
+
 
 
 

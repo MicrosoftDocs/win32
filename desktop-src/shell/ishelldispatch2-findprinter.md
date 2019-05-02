@@ -30,27 +30,17 @@ iRetVal = IShellDispatch2.FindPrinter(
 )
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IShellDispatch2.FindPrinter( _
+```VB
+
+IShellDispatch2.FindPrinter( _
   [ ByVal sName As BSTR ], _
   [ ByVal sLocation As BSTR ], _
   [ ByVal sModel As BSTR ] _
-) As Integer</code></pre></td>
-</tr>
-</tbody>
-</table>
+) As Integer
+```
+
+
 
 
 

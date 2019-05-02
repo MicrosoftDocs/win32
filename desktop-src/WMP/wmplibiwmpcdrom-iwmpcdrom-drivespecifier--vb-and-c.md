@@ -29,23 +29,13 @@ The **driveSpecifier** property gets the CD or DVD drive letter.
 public System.String driveSpecifier {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property driveSpecifier As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property driveSpecifier As System.String
+```
+
+
 
 
 
@@ -84,20 +74,10 @@ for (int i = 0; i < numDrives; i++)
 System.Windows.Forms.MessageBox.Show(MyDriveSpecifiers);
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39;  String that will contain the list of drive specifiers.
+```VB
+
+'  String that will contain the list of drive specifiers.
 Dim MyDriveSpecifiers As String = &quot;Drive letters found:  &quot;
 
 &#39;  Store the number of available drives.
@@ -110,10 +90,10 @@ For i As Integer = 0 To (numDrives - 1)
 Next i
 
 &#39;  Display the list of drive specifiers in a message box.
-System.Windows.Forms.MessageBox.Show(MyDriveSpecifiers)</code></pre></td>
-</tr>
-</tbody>
-</table>
+System.Windows.Forms.MessageBox.Show(MyDriveSpecifiers)
+```
+
+
 
 
 

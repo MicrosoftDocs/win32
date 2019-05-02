@@ -32,27 +32,17 @@ public void setProxyPort(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxyPort( _
+```VB
+
+Public Sub setProxyPort( _
   ByVal bstrProtocol As System.String, _
   ByVal lProxyPort As System.Int32 _
 )
-Implements IWMPNetwork.setProxyPort</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPNetwork.setProxyPort
+```
+
+
 
 
 
@@ -109,20 +99,10 @@ private void setProxyPort_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setProxyPort_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setProxyPort.Click
+```VB
+
+Public Sub setProxyPort_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles setProxyPort.Click
 
     &#39; Test whether proxy settings are manual.
     If (player.network.getProxySettings(&quot;MMS&quot;) = 2) Then
@@ -140,10 +120,10 @@ private void setProxyPort_Click(object sender, System.EventArgs e)
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 
