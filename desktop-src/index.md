@@ -10,29 +10,23 @@ ms.localizationpriority: medium
 
 # Desktop Win32 apps documentation
 
-Create Windows desktop applications that your customers can use at work and play by using the Win32 API. The Win32 API (also called the Windows API) is the platform of choice for applications that need the highest level of performance and direct access to system hardware.
+<p>Create Windows desktop applications that your customers can use at work and play by using the Win32 API. The Win32 API (also called the Windows API) is the platform of choice for applications that need the highest level of performance and direct access to system hardware.</p>  
 
-<ul class="panelContent cardsF">
+<ul class="cardsK panelContent">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg?branch=master" alt="Get started icon" />
+                        <div class="cardImage bgdAccent1">
+                            <img src="/media/illustrations/biztalk-get-started-get-started.svg?branch=master" alt="Get started illustration" data-linktype="external" class="x-hidden-focus">
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Get started</h3>
-                        <p>
-                            <a href="desktop-programming.md">Get started with Win32 apps</a>
-                        </p>
-                        <p>
-                            <a href="learnwin32/learn-to-program-for-windows">Create your first C++ Win32 app</a>
-                        </p>
-                        <p>
-                            <a href="direct3dgetstarted/building-your-first-directx-app">Create your first app using DirectX</a>
-                        </p>
+                        <p></p>Follow our instructions to set up your development computer and learn how to create desktop Win32 apps for Windows 10.</p>
+                        <br>
+                        <p><a href="/windows/desktop/desktop-programming">Get started</a></p>
                     </div>
                 </div>
             </div>
@@ -43,25 +37,16 @@ Create Windows desktop applications that your customers can use at work and play
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_management.svg?branch=master" alt="Design icon" />
+                        <div class="cardImage bgdAccent1">
+                            <img src="/media/illustrations/biztalk-developer-documentation-1.svg?branch=master" alt="Desktop app technologies illustration" data-linktype="external" class="x-hidden-focus">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Design</h3>
-                        <p>
-                            <a href="uxguide/designprinciples">Design basics</a>
-                        </p>
-                         <p>
-                            <a href="uxguide/guidelines">Design guidelines</a>
-                        </p>
-                        <p>
-                            <a href="uxguide/visual-index">Visual index</a>
-                        </p>
-                        <p>
-                            <a href="uxguide/glossary">Glossary</a>
-                        </p>                      
-                    </div>
+                    <h3>Desktop app technologies</h3>
+                    <p>Learn how to use a specific Windows feature or technology in your desktop Win32 apps.</p>
+                        <br>
+                        <p><a href="/windows/desktop/desktop-app-technologies">Desktop app technologies</a></p>
+                  </div>
                 </div>
             </div>
         </div>
@@ -71,219 +56,183 @@ Create Windows desktop applications that your customers can use at work and play
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_form.svg?branch=master" alt="User Interfaces icon" />
+                        <div class="cardImage bgdAccent1">
+                            <img src="/media/illustrations/nuget-tools-reference_2.svg?branch=master" alt="API index illustration" data-linktype="external" class="x-hidden-focus">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>User Interface programming</h3>
-                        <p>
-                            <a href="windows-application-ui-development">Desktop User Interface</a>
-                        </p>
-                        <p>
-                            <a href="user-interface">Desktop environment and shell</a>
-                        </p>
-                        <p>
-                            <a href="/windows/apps/modernize-desktop/xaml-islands">Host UWP controls in desktop applications</a>
-                        </p>
-                        <p>
-                            <a href="winmsg/windowing">Windows and messages</a>
-                        </p>
-                        <p>
-                            <a href="menurc/resources">Menus and other resources</a>
-                        </p>
-                        <p>
-                            <a href="hidpi/high-dpi-desktop-application-development-on-windows">High DPI</a>
-                        </p>
-                        <p>
-                            <a href="controls/window-controls">Windows controls</a>
-                        </p>
+                        <h3>API index</h3>
+                        <p>Navigate the full Win32 API index for developing desktop and server applications Windows 10 and earlier versions.</p>
+                        <br>
+                        <p><a href="/windows/desktop/apiindex/windows-api-list">API index</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
+</ul>
+<ul class="panelContent cardsF">
+  <li>
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="/media/common/i_form.svg?branch=master" alt="User Interfaces icon" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>User Interface programming</h3>
+                    <p>Get information about Win32 UI concepts and features.</p>
+                    <br>
+                    <p><a href="/windows/desktop/windows-application-ui-development">Desktop User Interface</a></p>
+                    <p><a href="/windows/desktop/user-interface">Desktop environment and shell</a></p>
+                    <p><a href="/windows/desktop/winmsg/windowing">Windows and messages</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </li>
+  <li>
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="/media/common/i_deploy.svg?branch=master" alt="Graphics, DirectX, and gaming icon" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Graphics, DirectX, and gaming</h3>
+                    <p>Get firsthand experience APIs that you can use to create games and other high-performance multimedia applications.</p>
+                    <br>
+                    <p><a href="/windows/desktop/graphics-and-multimedia">Graphics and gaming technologies</a></p>
+                    <p><a href="/windows/desktop/getting-started-with-directx-graphics">Get started with DirectX</a></p>
+                    <p><a href="/windows/desktop/direct2d/direct2d-portal">Direct2D</a></p>
+                    <p><a href="/windows/desktop/direct3d">Direct3D</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </li>
+  <li>
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="/media/common/i_drivers.svg?branch=master" alt="Fundamentals and hardware icon" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Fundamentals and hardware</h3>
+                    <p>Learn the about core system and hardware APIs, from processes and threads to power management and COM.</p>
+                    <br>
+                    <p><a href="/windows/desktop/system-services">System services</a></p>
+                    <p><a href="/windows/desktop/networking">Networking and Internet</a></p>
+                    <p><a href="/windows/desktop/data-access-and-storage">Data access and storage</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </li>
+</ul>
+    <ul class="cardsY panelContent featuredContent">
+       <li>
+            <a href="https://github.com/Microsoft/Windows-classic-samples">
+                <div class="cardSize">
+                    <div class="cardPadding">
+                        <div class="card">
+                            <div class="cardImageOuter">
+                                <div class="cardImage">
+                                    <img data-hoverimage="/media/common/i_code-samples.svg?branch=master" src="/media/common/i_code-samples.svg?branch=master" alt="Samples icon" />
+                                </div>
+                            </div>
+                            <div class="cardText">
+                                <h3>Desktop Win32 samples</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="/windows/apps/modernize-desktop">
+                <div class="cardSize">
+                    <div class="cardPadding">
+                        <div class="card">
+                            <div class="cardImageOuter">
+                                <div class="cardImage">
+                                    <img data-hoverimage="/media/common/i_extensions.svg?branch=master" src="/media/common/i_extensions.svg?branch=master" alt="Modernize icon" />
+                                </div>
+                            </div>
+                            <div class="cardText">
+                                <h3>Modernize desktop apps</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="/windows/msix/desktop/desktop-to-uwp-root">
+                <div class="cardSize">
+                    <div class="cardPadding">
+                        <div class="card">
+                            <div class="cardImageOuter">
+                                <div class="cardImage">
+                                    <img data-hoverimage="/media/common/i_download-install.svg?branch=master" src="/media/common/i_download-install.svg?branch=master" alt="Package icon" />
+                                </div>
+                            </div>
+                            <div class="cardText">
+                                <h3>Package with MSIX</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<hr />
+<ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_drivers.svg?branch=master" alt="Fundamentals and hardware icon" />
-                        </div>
-                    </div>
                     <div class="cardText">
-                        <h3>Fundamentals and hardware</h3>
-                        <p>
-                            <a href="system-services">System services</a>
-                        </p>
-                        <p>
-                            <a href="networking">Networking and internet</a>
-                        </p>
-                        <p>
-                            <a href="data-access-and-storage">Data access and storage</a>
-                        </p>
-                        <p>
-                            <a href="printdocs/documents-and-printing">Documents and printing</a>
-                        </p>
-                        <p>
-                            <a href="security">Security and identity</a>
-                        </p>
+                        <h3>Developer tools</h3>
+                        <p><a href="//docs.microsoft.com/windows/uwpcommunitytoolkit/">Windows Community Toolkit</a></p>
+                        <p><a href="//developer.microsoft.com/windows/downloads/virtual-machines">Virtual machines</a></p>
+                        <p><a href="//docs.microsoft.com/windows/wsl/about">Bash on Ubuntu on Windows</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_dashboard.svg?branch=master" alt="Audio and video icon" />
-                        </div>
-                    </div>
                     <div class="cardText">
-                        <h3>Audio and video</h3>
-                        <p>
-                            <a href="audio-and-video">Audio and video technologies</a>
-                        </p>
-                        <p>
-                            <a href="coreaudio/core-audio-apis-in-windows-vista">Core Audio APIs</a>
-                        </p>
-                        <p>
-                            <a href="directshow/directshow">DirectShow</a>
-                        </p>
-                        <p>
-                            <a href="medfound/microsoft-media-foundation-sdk">Microsoft Media Foundation</a>
-                        </p>
-                        <p>
-                            <a href="multimedia/windows-multimedia-start-page">Windows Multimedia</a>
-                        </p>
+                        <h3>New to development?</h3>
+                        <p><a href="//mva.microsoft.com/training-topics/c-app-development">Microsoft Virtual Academy</a></p>
+                        <p><a href="//www.linkedin.com/learning/learning-universal-windows-app-development/welcome">LinkedIn Learning</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_deploy.svg?branch=master" alt="Graphics, DirectX, and gaming icon" />
-                        </div>
-                    </div>
                     <div class="cardText">
-                        <h3>Graphics, DirectX, and gaming</h3>
-                        <p>
-                            <a href="graphics-and-multimedia">Graphics and gaming technologies</a>
-                        </p>
-                        <p>
-                            <a href="getting-started-with-directx-graphics">Get started with DirectX</a>
-                        </p>
-                        <p>
-                            <a href="direct2d/direct2d-portal">Direct2D</a>
-                        </p>
-                        <p>
-                            <a href="direct3d">Direct3D</a>
-                        </p>
-                        <p>
-                            <a href="xaudio2/xaudio2-apis-portal">XAudio2 APIs</a>
-                        </p>
-                        <p>
-                            <a href="gdi/windows-gdi">Windows GDI</a>
-                        </p>
-                        <p>
-                            <a href="gdiplus/-gdiplus-gdi-start">GDI+</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg?branch=master" alt="Diagnostics and testing icon" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Diagnostics and testing</h3>
-                        <p>
-                            <a href="diagnostics">Diagnostics</a>
-                        </p>
-                        <p>
-                            <a href="debugging-and-error-handling">Debugging and error handling</a>
-                        </p>
-                        <p>
-                            <a href="perfctrs/performance-counters-portal">Performance counters</a>
-                        </p>
-                        <p>
-                            <a href="wer/windows-error-reporting">Windows error reporting</a>
-                        </p>
-                        <p>
-                            <a href="events/windows-events">Windows events</a>
-                        </p>
-                        <p>
-                            <a href="//docs.microsoft.com/windows-hardware/drivers/debugger/index">Debugging tools for Windows</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_download-install.svg?branch=master" alt="Installation and servicing icon" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Packaging and installation</h3>
-                        <p>
-                            <a href="//docs.microsoft.com/windows/msix">MSIX</a>
-                        </p>
-                        <p>
-                            <a href="msi/windows-installer-portal">Windows Installer</a>
-                        </p>
-                        <p>
-                            <a href="appxpkg/windows-desktop-application-program">Windows Desktop Application Program</a>
-                        </p>
-                        <p>
-                            <a href="//docs.microsoft.com/virtualization/windowscontainers/about/">Windows containers</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_api.svg?branch=master" alt="Get started icon" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>API reference</h3>
-                        <p>
-                            <a href="api">Windows API reference</a>
-                        </p>
-                        <p>
-                            <a href="apiindex/api-index-portal">Windows API index</a>
-                        </p>
-                        <p>
-                            <a href="winrt/reference">Windows Runtime C++ reference</a>
-                        </p>
+                        <h3>Explore related docs</h3>
+                        <p><a href="//docs.microsoft.com/dotnet/framework/wpf">WPF</a></p>
+                        <p><a href="//docs.microsoft.com/dotnet/framework/winforms/">Windows Forms</a></p>
+                        <p><a href="/windows/uwp/">UWP</a></p>
+                        <p><a href="//docs.microsoft.com/visualstudio/ide/">Visual Studio</a></p>
                     </div>
                 </div>
             </div>
