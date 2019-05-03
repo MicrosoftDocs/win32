@@ -60,25 +60,48 @@ Learn how to use a specific Windows feature or technology in your C++ Win32 apps
         * [Windows controls](controls/window-controls.md)
     :::column-end:::
     :::column:::
-        ### Heading 2
-        * [Microsoft Graph](https://developer.microsoft.com/graph)
-        * [Mixer](https://dev.mixer.com/reference/interactive/index.html)
-        * [MSIX](https://docs.microsoft.com/windows/msix)
-        * [.NET](https://docs.microsoft.com/dotnet)
-        * [Progressive Web Apps](https://docs.microsoft.com/microsoft-edge/progressive-web-apps)
-        * [Project Rome](https://docs.microsoft.com/windows/project-rome/)
-        * [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp)
-        * [Windows Containers](https://docs.microsoft.com/virtualization/#pivot=main&panel=containers)
+        ### Fundamentals and hardware
+        * [System services](system-services.md)
+        * [Networking and internet](networking.md)
+        * [Data access and storage](data-access-and-storage.md)
+        * [Documents and printing](printdocs/documents-and-printing.md)
+        * [Security and identity](security.md)
     :::column-end:::
     :::column:::
-        ### Heading 3
-        * [Windows API (Win32)](https://docs.microsoft.com/windows/desktop/apiindex/windows-api-list)
-        * [Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms)
-        * [Windows IoT](https://docs.microsoft.com/windows/iot-core/)
-        * [Windows ML](https://docs.microsoft.com/windows/ai/)
-        * [Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/)
-        * [WPF](https://docs.microsoft.com/dotnet/framework/wpf)
-        * [Xamarin](https://docs.microsoft.com/xamarin)
+        ### Audio and video
+        * [Audio and video technologies](audio-and-video.md)
+        * [Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
+        * [DirectShow](directshow/directshow.md)
+        * [Microsoft Media Foundation](medfound/microsoft-media-foundation-sdk.md)
+        * [Windows Multimedia](multimedia/windows-multimedia-start-page.md)
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        ### Graphics, DirectX, and gaming
+        * [Graphics and gaming technologies](graphics-and-multimedia.md)
+        * [Get started with DirectX](getting-started-with-directx-graphics.md)
+        * [Direct2D](direct2d/direct2d-portal.md)
+        * [Direct3D](direct3d.md)
+        * [XAudio2 APIs](xaudio2/xaudio2-apis-portal.md)
+        * [Windows GDI](gdi/windows-gdi.md)
+        * [GDI+](gdiplus/-gdiplus-gdi-start.md)
+    :::column-end:::
+    :::column:::
+        ### Diagnostics and testing
+        * [Diagnostics](diagnostics.md)
+        * [Debugging and error handling](debugging-and-error-handling.md)
+        * [Performance counters](perfctrs/performance-counters-portal.md)
+        * [Windows error reporting](wer/windows-error-reporting.md)
+        * [Windows events](events/windows-events.md)
+        * [Debugging tools for Windows](//docs.microsoft.com/windows-hardware/drivers/debugger/index)
+    :::column-end:::
+    :::column:::
+        ### Packaging and installation
+        * [MSIX](//docs.microsoft.com/windows/msix)
+        * [Windows Installer](msi/windows-installer-portal.md)
+        * [Windows Desktop Application Program](appxpkg/windows-desktop-application-program.md)
+        * [Windows containers](//docs.microsoft.com/virtualization/windowscontainers/about/)
     :::column-end:::
 :::row-end:::
 
