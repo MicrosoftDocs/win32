@@ -25,7 +25,7 @@ An entity creates the context before it first accesses the TBS and maintains the
 For Windows Server 2008 and Windows Vista, the TBS restricts access to the TBS API to the Administrators, NT AUTHORITY\\LocalService, and NT AUTHORITY\\NetworkService accounts. By default, these accounts are the only ones that can connect to TBS and create contexts. Access restrictions can be modified by creating a registry key **Access** with a string (**REG\_SZ**) registry value name **SecurityDescriptor** <dl> <dt>
 
 Data type
-</dt> <dd>REG\_SZ</dd> </dl> under it as follows:
+</dt> <dd>REG_SZ</dd> </dl> under it as follows:
 
 ```
 HKEY_LOCAL_MACHINE
