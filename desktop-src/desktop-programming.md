@@ -45,7 +45,7 @@ Windows 10 and the Universal Windows Platform (UWP) offer many features you can 
 
 For more information, see [Modernize your desktop apps](/windows/apps/modernize-desktop).
 
-## Features and technologies
+## Get started with features and technologies
 
 Learn how to use a specific Windows feature or technology in your C++ Win32 apps.
 
@@ -105,9 +105,13 @@ Learn how to use a specific Windows feature or technology in your C++ Win32 apps
     :::column-end:::
 :::row-end:::
 
+## Get started with features and technologies
+
+Learn how to use a specific Windows feature or technology in your C++ Win32 apps.
+
 ## Related topics
 
-* [Get started with UWP](https://review.docs.microsoft.com/en-us/windows/uwp/get-started/)
-* [Get started with the .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/get-started/index)
-* [Get started with WPF](https://docs.microsoft.com/dotnet/framework/wpf/getting-started/)
-* [Get stared with Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/getting-started-with-windows-forms)
+* [Develop desktop apps](/windows/apps/desktop-apps)
+* [Windows API reference](api)
+* [Windows API index](apiindex/api-index-portal)
+* [Windows Runtime C++ reference](winrt/reference)
