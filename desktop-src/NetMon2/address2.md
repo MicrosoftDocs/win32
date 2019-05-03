@@ -55,7 +55,7 @@ typedef struct _ADDRESS {
 
 Address type. Values can be one of the following:
 
-<dl> <dd>ADDRESS\_TYPE\_ETHERNET</dd> <dd>ADDRESS\_TYPE\_IP</dd> <dd>ADDRESS\_TYPE\_IP6</dd> <dd>ADDRESS\_TYPE\_IPX</dd> <dd>ADDRESS\_TYPE\_TOKENRING</dd> <dd>ADDRESS\_TYPE\_FDDI</dd> <dd>ADDRESS\_TYPE\_XNS</dd> <dd>ADDRESS\_TYPE\_ANY</dd> <dd>ADDRESS\_TYPE\_ANY\_GROUP</dd> <dd>ADDRESS\_TYPE\_FIND\_HIGHEST</dd> <dd>ADDRESS\_TYPE\_VINES\_IP</dd> <dd>ADDRESS\_TYPE\_LOCAL\_ONLY</dd> <dd>ADDRESS\_TYPE\_ATM</dd> <dd>ADDRESS\_TYPE\_1394</dd> </dl> </dd> <dt>
+<dl> <dd>ADDRESS_TYPE_ETHERNET</dd> <dd>ADDRESS_TYPE_IP</dd> <dd>ADDRESS_TYPE_IP6</dd> <dd>ADDRESS_TYPE_IPX</dd> <dd>ADDRESS_TYPE_TOKENRING</dd> <dd>ADDRESS_TYPE_FDDI</dd> <dd>ADDRESS_TYPE_XNS</dd> <dd>ADDRESS_TYPE_ANY</dd> <dd>ADDRESS_TYPE_ANY_GROUP</dd> <dd>ADDRESS_TYPE_FIND_HIGHEST</dd> <dd>ADDRESS_TYPE_VINES_IP</dd> <dd>ADDRESS_TYPE_LOCAL_ONLY</dd> <dd>ADDRESS_TYPE_ATM</dd> <dd>ADDRESS_TYPE_1394</dd> </dl> </dd> <dt>
 
 **MACAddress**
 </dt> <dd>
