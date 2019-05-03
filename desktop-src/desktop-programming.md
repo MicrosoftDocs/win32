@@ -14,7 +14,7 @@ The Win32 API is just one of several app platforms you can use to build desktop 
 
 ## Get set up
 
-Follow these instructions and start creating C++ Win32 apps for Windows 10.
+Follow these instructions and start creating desktop Win32 apps for Windows 10.
 
 1. Download or update Visual Studio 2019. If you don't already have Visual Studio 2019, you can install the free Microsoft Visual Studio Community 2019. When you install Visual Studio, make sure to select the **Desktop development with C++** option. For download links, see our [Downloads](https://developer.microsoft.com/windows/downloads) page.
 
@@ -41,13 +41,21 @@ You can also try out the [desktop app samples](https://github.com/Microsoft/Wind
 
 ## Modernize your desktop apps for Windows 10
 
-Windows 10 and the Universal Windows Platform (UWP) offer many features you can use to deliver a modern experience in your desktop apps. Most of these features are available as modular components that you can adopt in your desktop apps at your own pace without having to rewrite your application for a different platform. You can enhance your existing desktop apps by choosing which parts of Windows 10 and UWP to adopt.
+If you have an existing desktop Win32 app, there are many features in the Universal Windows Platform (UWP) that you can use to deliver the best possible experience on Windows 10. For example, starting in Windows 10, version 1903, you can host UWP XAML controls in your desktop Win32 app (this feature is also called XAML Islands).
+
+Most of these UWP features are available as modular components that you can adopt in your desktop app at your own pace without having to rewrite your entire application. You can enhance your existing desktop app by choosing which parts of Windows 10 and UWP to adopt.
 
 For more information, see [Modernize your desktop apps](/windows/apps/modernize-desktop).
 
-## Get started with features and technologies
+## What's new in Windows 10
 
-Learn how to use a specific Windows feature or technology in your C++ Win32 apps.
+Learn about what's new for desktop Win32 app developers starting in Windows 10.
+
+* [What's new](whats-new.md)
+
+## Get started with Win32 features and technologies
+
+Learn how to use a specific Windows feature or technology in your desktop Win32 apps.
 
 :::row:::
     :::column:::
@@ -104,10 +112,6 @@ Learn how to use a specific Windows feature or technology in your C++ Win32 apps
         * [Windows containers](//docs.microsoft.com/virtualization/windowscontainers/about/)
     :::column-end:::
 :::row-end:::
-
-## Get started with features and technologies
-
-Learn how to use a specific Windows feature or technology in your C++ Win32 apps.
 
 ## Related topics
 

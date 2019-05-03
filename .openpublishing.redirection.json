@@ -41944,6 +41944,11 @@
 	"source_path": "desktop-src/modernize-desktop-applications.md",
 	"redirect_url": "/windows/apps/modernize-desktop",
 	"redirect_document_id": false
+},
+{
+	"source_path": "desktop-src/windows-8.md",
+	"redirect_url": "/windows/desktop/whats-new",
+	"redirect_document_id": false
 }
   ]
 }
