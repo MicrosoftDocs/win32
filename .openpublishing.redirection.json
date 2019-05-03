@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "desktop-src/winauto/windows-accessibility-features.md",
+      "redirect_url": "/windows/desktop/accessibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/direct3dtools/ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-int-float-arr4-float-arr4-bstr-uint-bstr-arr-float-arr-uint-bstr-arr-bool-arr-bstr-ipixengine5callbacks-ptr-dword-dword.md",
       "redirect_url": "/windows/desktop/direct3dtools/ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-short-name",
       "redirect_document_id": false
