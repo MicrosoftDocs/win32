@@ -28,7 +28,7 @@ Before the Security Configuration Engine can call your attachment engine to proc
 3.  Create the following string value in the new registry key. *attachment engine path* is the full path to the attachment engine module.<dl> <dd>**ServiceAttachmentPath** = *attachment engine path*<dl> <dt>
 
 Data type
-</dt> <dd>REG\_SZ</dd> </dl> </dd> </dl>
+</dt> <dd>REG_SZ</dd> </dl> </dd> </dl>
 
  
 
