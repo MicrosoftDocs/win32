@@ -45,6 +45,43 @@ Windows 10 and the Universal Windows Platform (UWP) offer many features you can 
 
 For more information, see [Modernize your desktop apps](/windows/apps/modernize-desktop).
 
+## Features and technologies
+
+Learn how to use a specific Windows feature or technology in your C++ Win32 apps.
+
+:::row:::
+    :::column:::
+        ### User Interface programming
+        * [Desktop User Interface](windows-application-ui-development.md)
+        * [Desktop environment and shell](user-interface.md)
+        * [Windows and messages](winmsg/windowing.md)
+        * [Menus and other resources](menurc/resources.md)
+        * [High DPI](hidpi/high-dpi-desktop-application-development-on-windows.md)
+        * [Windows controls](controls/window-controls.md)
+    :::column-end:::
+    :::column:::
+        ### Heading 2
+        * [Microsoft Graph](https://developer.microsoft.com/graph)
+        * [Mixer](https://dev.mixer.com/reference/interactive/index.html)
+        * [MSIX](https://docs.microsoft.com/windows/msix)
+        * [.NET](https://docs.microsoft.com/dotnet)
+        * [Progressive Web Apps](https://docs.microsoft.com/microsoft-edge/progressive-web-apps)
+        * [Project Rome](https://docs.microsoft.com/windows/project-rome/)
+        * [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp)
+        * [Windows Containers](https://docs.microsoft.com/virtualization/#pivot=main&panel=containers)
+    :::column-end:::
+    :::column:::
+        ### Heading 3
+        * [Windows API (Win32)](https://docs.microsoft.com/windows/desktop/apiindex/windows-api-list)
+        * [Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms)
+        * [Windows IoT](https://docs.microsoft.com/windows/iot-core/)
+        * [Windows ML](https://docs.microsoft.com/windows/ai/)
+        * [Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/)
+        * [WPF](https://docs.microsoft.com/dotnet/framework/wpf)
+        * [Xamarin](https://docs.microsoft.com/xamarin)
+    :::column-end:::
+:::row-end:::
+
 ## Related topics
 
 * [Get started with UWP](https://review.docs.microsoft.com/en-us/windows/uwp/get-started/)
