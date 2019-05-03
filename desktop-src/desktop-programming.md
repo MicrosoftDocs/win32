@@ -49,7 +49,7 @@ For more information, see [Modernize your desktop apps](/windows/apps/modernize-
 
 ## What's new in Windows 10
 
-Learn about what's new for desktop Win32 app developers starting in Windows 10.
+Learn about new Win32 APIs that have been introduced in Windows 10.
 
 * [What's new](whats-new.md)
 
@@ -60,6 +60,7 @@ Learn how to use a specific Windows feature or technology in your desktop Win32 
 :::row:::
     :::column:::
         ### User Interface programming
+        ![User Interface programming](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg)
         * [Desktop User Interface](windows-application-ui-development.md)
         * [Desktop environment and shell](user-interface.md)
         * [Windows and messages](winmsg/windowing.md)
@@ -69,6 +70,7 @@ Learn how to use a specific Windows feature or technology in your desktop Win32 
     :::column-end:::
     :::column:::
         ### Fundamentals and hardware
+        ![Fundamentals and hardware](/media/illustrations/biztalk-get-started-get-started.svg)
         * [System services](system-services.md)
         * [Networking and internet](networking.md)
         * [Data access and storage](data-access-and-storage.md)
@@ -77,6 +79,7 @@ Learn how to use a specific Windows feature or technology in your desktop Win32 
     :::column-end:::
     :::column:::
         ### Audio and video
+        ![Audio and video](/media/illustrations/dynamics-resource-library.svg)
         * [Audio and video technologies](audio-and-video.md)
         * [Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
         * [DirectShow](directshow/directshow.md)
@@ -87,6 +90,7 @@ Learn how to use a specific Windows feature or technology in your desktop Win32 
 :::row:::
     :::column:::
         ### Graphics, DirectX, and gaming
+        ![Graphics, DirectX, and gaming](/media/illustrations/virtualization-containers-samples.svg)
         * [Graphics and gaming technologies](graphics-and-multimedia.md)
         * [Get started with DirectX](getting-started-with-directx-graphics.md)
         * [Direct2D](direct2d/direct2d-portal.md)
@@ -98,6 +102,7 @@ Learn how to use a specific Windows feature or technology in your desktop Win32 
     :::column:::
         ### Diagnostics and testing
         * [Diagnostics](diagnostics.md)
+        ![Diagnostics and testing](/media/illustrations/team-services-dev-ops-test.svg)
         * [Debugging and error handling](debugging-and-error-handling.md)
         * [Performance counters](perfctrs/performance-counters-portal.md)
         * [Windows error reporting](wer/windows-error-reporting.md)
@@ -106,6 +111,7 @@ Learn how to use a specific Windows feature or technology in your desktop Win32 
     :::column-end:::
     :::column:::
         ### Packaging and installation
+        ![Packaging and installation](/media/illustrations/biztalk-host-integration-install-configure.svg )
         * [MSIX](//docs.microsoft.com/windows/msix)
         * [Windows Installer](msi/windows-installer-portal.md)
         * [Windows Desktop Application Program](appxpkg/windows-desktop-application-program.md)

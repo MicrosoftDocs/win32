@@ -8,7 +8,7 @@ keywords: windows win32, desktop development
 ms.localizationpriority: medium
 ---
 
-# Develop Windows desktop apps using the Win32 API
+# Desktop Win32 apps documentation
 
 Create Windows desktop applications that your customers can use at work and play by using the Win32 API. The Win32 API (also called the Windows API) is the platform of choice for applications that need the highest level of performance and direct access to system hardware.
 
