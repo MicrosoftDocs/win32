@@ -26,7 +26,7 @@ ms.localizationpriority: medium
                         <h3>Get started</h3>
                         <p></p>Follow our instructions to set up your development computer and learn how to create desktop Win32 apps for Windows 10.</p>
                         <br>
-                        <p><a href="/windows/desktop/desktop-programming">Get started</a></p>
+                        <p><a href="/windows/desktop/desktop-programming">Start here</a></p>
                     </div>
                 </div>
             </div>
@@ -38,14 +38,14 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/biztalk-developer-documentation-1.svg?branch=master" alt="Desktop app technologies illustration" data-linktype="external" class="x-hidden-focus">
+                            <img src="/media/illustrations/biztalk-get-started-scenarios.svg?branch=master" alt="Desktop app technologies illustration" data-linktype="external" class="x-hidden-focus">
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Desktop app technologies</h3>
+                    <h3>Technologies and features index</h3>
                     <p>Learn how to use a specific Windows feature or technology in your desktop Win32 apps.</p>
                         <br>
-                        <p><a href="/windows/desktop/desktop-app-technologies">Desktop app technologies</a></p>
+                        <p><a href="/windows/desktop/desktop-app-technologies">Start here</a></p>
                   </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ ms.localizationpriority: medium
                         <h3>API index</h3>
                         <p>Navigate the full Win32 API index for developing desktop and server applications Windows 10 and earlier versions.</p>
                         <br>
-                        <p><a href="/windows/desktop/apiindex/windows-api-list">API index</a></p>
+                        <p><a href="/windows/desktop/apiindex/windows-api-list">Start here</a></p>
                     </div>
                 </div>
             </div>
@@ -106,8 +106,7 @@ ms.localizationpriority: medium
                     <h3>Graphics, DirectX, and gaming</h3>
                     <p>Get firsthand experience APIs that you can use to create games and other high-performance multimedia applications.</p>
                     <br>
-                    <p><a href="/windows/desktop/graphics-and-multimedia">Graphics and gaming technologies</a></p>
-                    <p><a href="/windows/desktop/getting-started-with-directx-graphics">Get started with DirectX</a></p>
+                    <p><a href="/windows/desktop/directx">DirectX graphics and gaming</a></p>
                     <p><a href="/windows/desktop/direct2d/direct2d-portal">Direct2D</a></p>
                     <p><a href="/windows/desktop/direct3d">Direct3D</a></p>
                 </div>
