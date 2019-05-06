@@ -11,8 +11,8 @@
     - name: "What's new"
       href: windows-8.md
       items: 
-      - name: "Windows 8 and 8.1 Technologies"
-        href: whatsnew/windows-8-technologies.md
+      # - name: "Windows 8 and 8.1 Technologies"
+      #   href: whatsnew/windows-8-technologies.md
       - name: "Compatibility cookbook for Windows"
         href: w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
       - name: "Windows 7"
@@ -45,6 +45,23 @@
     - name: "Desktop app technologies"
       href: desktop-app-technologies.md
       items: 
+      - name: "Accessibility"
+        href: accessibility.md
+        items: 
+        - name: "What's new in Windows accessibility and automation"
+          href: accessibility-whatsnew.md
+        - name: "Developing accessible Windows applications"
+          href: accessibility-appdev.md
+        - name: "Developing accessible UI frameworks"
+          href: accessibility-uiframeworkdev.md
+        - name: "Developing assistive technology for Windows"
+          href: accessibility-atdev.md
+        - name: "Testing with UI Automation"
+          href: accessibility-testwithuia.md
+        - name: "Legacy accessibility and automation technology"
+          href: accessibility-legacy.md
+        - name: "Accessibility and automation feature reference"
+          href: accessibility-reference.md
       - name: "Desktop App User Interface"
         href: windows-application-ui-development.md
         items: 
@@ -52,11 +69,6 @@
           href: appuistart/getting-started-developing-user-interfaces-portal.md
         - name: "Internationalization for Windows Applications"
           href: intl/international-support.md
-        - name: "Accessibility"
-          href: accessibility.md
-          items: 
-          - name: "Windows Accessibility Features"
-            href: winauto/windows-accessibility-features.md
         - name: "User Interaction"
           href: user-interaction.md
           items: 
@@ -204,8 +216,8 @@
           href: netmon2/network-monitor.md
         - name: "Performance Counters"
           href: perfctrs/performance-counters-portal.md
-        - name: "Process Snapshotting"
-          href: proc_snap/process-snapshotting-portal.md
+        # - name: "Process Snapshotting"
+        #   href: proc_snap/process-snapshotting-portal.md
         - name: "Process Status API"
           href: psapi/process-status-helper.md
         - name: "System Event Notification Service"
@@ -497,18 +509,18 @@
         - name: "WMI Providers"
           href: 
           items: 
-          - name: "Boot Configuration Data WMI Provider"
-            href: bcd/boot-configuration-data-portal.md
+          # - name: "Boot Configuration Data WMI Provider"
+          #   href: bcd/boot-configuration-data-portal.md
           - name: "Boot Event Collector WMI Provider"
             href: bevtcolprov/boot-event-collector-wmi-provider-portal.md
-          - name: "CIMWin32a Provider"
-            href: cimwin32a/cimwin32a-provider-classes.md
+          # - name: "CIMWin32a Provider"
+          #   href: cimwin32a/cimwin32a-provider-classes.md
           - name: "Hyper-V management"
             href: hyperv_v2/hyper-v-management.md
           - name: "MDM Bridge WMI Provider"
             href: dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
-          - name: "Software License Provider"
-            href: sppwmi/software-license-provider-.md
+          # - name: "Software License Provider"
+          #   href: sppwmi/software-license-provider-.md
           - name: "Windows System Assessment Tool"
             href: winsat/windows-system-assessment-tool-portal.md
           - name: "WMI Core Provider"
