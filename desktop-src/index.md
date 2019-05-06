@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsK panelContent">
     <li>
+      <a href="desktop-programming.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -25,14 +26,14 @@ ms.localizationpriority: medium
                     <div class="cardText">
                         <h3>Get started</h3>
                         <p></p>Follow our instructions to set up your development computer and learn how to create desktop Win32 apps for Windows 10.</p>
-                        <br>
-                        <p><a href="desktop-programming.md">Start here</a></p>
                     </div>
                 </div>
             </div>
         </div>
+      </a>
     </li>
     <li>
+      <a href="desktop-app-technologies.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -44,14 +45,14 @@ ms.localizationpriority: medium
                     <div class="cardText">
                     <h3>Technologies and features index</h3>
                     <p>Learn how to use a specific Windows feature or technology in your desktop Win32 apps.</p>
-                        <br>
-                        <p><a href="desktop-app-technologies.md">Start here</a></p>
                   </div>
                 </div>
             </div>
         </div>
+      </a>
     </li>
     <li>
+      <a href="apiindex/windows-api-list.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -63,12 +64,11 @@ ms.localizationpriority: medium
                     <div class="cardText">
                         <h3>API index</h3>
                         <p>Navigate the full Win32 API index for developing desktop and server applications Windows 10 and earlier versions.</p>
-                        <br>
-                        <p><a href="apiindex/windows-api-list.md">Start here</a></p>
                     </div>
                 </div>
             </div>
         </div>
+      </a>
     </li>
 </ul>
 <!--

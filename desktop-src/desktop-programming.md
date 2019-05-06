@@ -74,8 +74,8 @@ The following articles help you get started with the Win32 API for key Windows f
         ![Accessibility](/media/illustrations/dynamics-accessibility.svg?branch=master)
         ### Accessibility
         * [Overview](accessibility.md)
-        * [Developing accessible Windows applications](accessibility-appdev.md)
-        * [Developing accessible UI frameworks for Windows](accessibility-uiframeworkdev.md)
+        * [Developing accessible applications](accessibility-appdev.md)
+        * [Developing accessible UI frameworks](accessibility-uiframeworkdev.md)
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -101,7 +101,6 @@ The following articles help you get started with the Win32 API for key Windows f
         * [MSIX](//docs.microsoft.com/windows/msix)
         * [Windows Installer](msi/windows-installer-portal.md)
         * [Windows Desktop Application Program](appxpkg/windows-desktop-application-program.md)
-        * [Windows containers](//docs.microsoft.com/virtualization/windowscontainers/about/)
     :::column-end:::
 :::row-end:::
 

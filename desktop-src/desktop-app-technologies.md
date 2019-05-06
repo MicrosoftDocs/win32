@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Desktop app technologies
 
-The following sections provide a comprehensive index for guidance about Win32 API for Windows features and technologies.
+This article provides an index of guidance about all Win32 APIs for Windows features and technologies.
 
 :::row:::
     :::column:::
-        ![User Interface, desktop environment, and accessibility](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
+        ![User Interface and accessibility](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
         ### User Interface, desktop environment, and accessibility
         * [Desktop User Interface](windows-application-ui-development.md)
         * [Windows and messages](winmsg/windowing.md)
@@ -26,10 +26,6 @@ The following sections provide a comprehensive index for guidance about Win32 AP
         * [Windows Shell](/shell/shell-entry.md)
         * [Windows Property System](/properties/windows-properties-system.md)
         * [Accessibility](accessibility.md)
-        * [Developing accessible Windows applications](accessibility-appdev.md)
-        * [Developing accessible UI frameworks for Windows](accessibility-uiframeworkdev.md)
-        * [Developing assistive technology for Windows](accessibility-atdev.md)
-        * [Testing with UI automation](accessibility-testwithuia.md)
     :::column-end:::
     :::column:::
         ![System services and fundamentals](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
@@ -71,7 +67,7 @@ The following sections provide a comprehensive index for guidance about Win32 AP
 :::row-end:::
 :::row:::
     :::column:::
-        ![Networking and Internet](/media/illustrations/teams-voice-deployment.svg.svg?branch=master)
+        ![Networking and Internet](/media/illustrations/teams-voice-deployment.svg?branch=master)
         ### Networking and Internet
         * [Overview](networking.md)
         * [Remote Procedure Call](rpc/rpc-start-page.md)
@@ -92,7 +88,7 @@ The following sections provide a comprehensive index for guidance about Win32 AP
         * [Windows Web Services](wsw/portal.md)
     :::column-end:::
     :::column:::
-        ![Data access and storage](/media/illustrations/azure-architecture-patterns.svg.svg?branch=master)
+        ![Data access and storage](/media/illustrations/azure-architecture-patterns.svg?branch=master)
         ### Data access and storage
         * [Overview](data-access-and-storage.md)
         * [Local File Systems](fileio/file-systems.md)
@@ -104,7 +100,7 @@ The following sections provide a comprehensive index for guidance about Win32 AP
         * [Backup](backup.md)
     :::column-end:::
     :::column:::
-        ![Devices, documents, and printing](/media/illustrations/virtualization-hperv-server-doc-archive.svg.svg?branch=master)
+        ![Devices, documents, and printing](/media/illustrations/virtualization-hperv-server-doc-archive.svg?branch=master)
         ### Devices, documents, and printing
         * [Devices](devices.md)
         * [Communications Resources](devio/communications-resources.md)
@@ -117,24 +113,22 @@ The following sections provide a comprehensive index for guidance about Win32 AP
 :::row-end:::
 :::row:::
     :::column:::
-        ![Security and identity](/media/illustrations/bcs-partner-advanced-management-password-3.svg.svg?branch=master)
+        ![Security and identity](/media/illustrations/bcs-partner-advanced-management-password-3.svg?branch=master)
         ### Security and identity
         * [Overview](security.md)
         * [Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)
         * [Authentication](secauthn/authentication-portal.md)
         * [Authorization](secauthz/authorization-portal.md)
-        * [Best Practices for the Security APIs](secbp/best-practices-for-the-security-apis.md)
         * [Certificate Enrollment API](seccertenroll/certenroll-portal.md)
-        * [Cryptography](seccrypto/cryptography-portal.md)
-        * [Cryptography API: Next Generation](seccng/cng-portal.md)
+        * [Cryptography (CNG)](seccng/cng-portal.md)
         * [Active Directory Domain Services](ad/active-directory-domain-services.md)
         * [Active Directory Schema](adschema/active-directory-schema.md)
-        * ["Active Directory Service Interfaces](adsi/active-directory-service-interfaces-adsi.md)
+        * [Active Directory Service Interfaces](adsi/active-directory-service-interfaces-adsi.md)
         * [Extensible Authentication Protocol](eap/eap-start-page.md)
         * [Extensible Authentication Protocol Host](eaphost/portal.md)
         * [Network Access Protection](nap/network-access-protection-start-page.md)
         * [Network Policy Server](nps/portal.md)
-        * [Rights Management](SrvNodes/rights-management)
+        * [Rights Management](SrvNodes/rights-management.md)
         * [Security Management](secmgmt/management-portal.md)
         * [TPM Base Services](tbs/tpm-base-services-portal.md)
         * [Windows Biometric Framework](secbiomet/biometric-service-api-portal.md)
