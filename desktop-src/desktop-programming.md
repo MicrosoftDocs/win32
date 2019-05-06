@@ -53,16 +53,9 @@ See [what's new](whats-new.md) to learn about new Win32 APIs that have been intr
 
 ## Get started with Win32 features and technologies
 
-The following articles can help you get started with the Win32 API for key Windows features and technologies. For a complete index of all features and technologies, see [this article](desktop-app-technologies.md).
+The following articles help you get started with the Win32 API for key Windows features and technologies. For a complete index of all features and technologies, see [this article](desktop-app-technologies.md).
 
 :::row:::
-    :::column:::
-        ![Fundamentals and hardware](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
-        ### Fundamentals and hardware
-        * [System services](system-services.md)
-        * [Networking and internet](networking.md)
-        * [Data access and storage](data-access-and-storage.md)
-    :::column-end:::
     :::column:::
         ![User Interface programming](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
         ### User Interface programming
@@ -71,21 +64,28 @@ The following articles can help you get started with the Win32 API for key Windo
         * [Windows and messages](winmsg/windowing.md)
     :::column-end:::
     :::column:::
+        ![Fundamentals and hardware](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
+        ### Fundamentals and hardware
+        * [System services](system-services.md)
+        * [Networking and internet](networking.md)
+        * [Data access and storage](data-access-and-storage.md)
+    :::column-end:::
+    :::column:::
+        ![Accessibility](/media/illustrations/dynamics-accessibility.svg?branch=master)
+        ### Accessibility
+        * [Overview](accessibility.md)
+        * [Developing accessible Windows applications](accessibility-appdev.md)
+        * [Developing accessible UI frameworks for Windows](accessibility-uiframeworkdev.md)
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
         ![Graphics, DirectX, and gaming](/media/illustrations/virtualization-containers-samples.svg?branch=master)
         ### Graphics, DirectX, and gaming
         * [Graphics and gaming technologies](graphics-and-multimedia.md)
         * [DirectX](directx.md)
         * [Direct2D](direct2d/direct2d-portal.md)
         * [Direct3D](direct3d.md)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
-        ![Audio and video](/media/illustrations/dynamics-resource-library.svg?branch=master)
-        ### Audio and video
-        * [Audio and video technologies](audio-and-video.md)
-        * [Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
-        * [DirectShow](directshow/directshow.md)
     :::column-end:::
     :::column:::
         ![Diagnostics and testing](/media/illustrations/team-services-dev-ops-test.svg?branch=master)
