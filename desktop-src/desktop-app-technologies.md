@@ -13,7 +13,7 @@ This article provides an index of documentation about the available Win32 APIs f
 :::row:::
     :::column:::
         ![User Interface and accessibility](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
-        #### User Interface, desktop environment, and accessibility
+        ### User Interface and accessibility
         * [Desktop User Interface](windows-application-ui-development.md)
         * [Windows and messages](winmsg/windowing.md)
         * [Desktop Window Manager](/dwm/dwm-overview.md)
@@ -23,13 +23,12 @@ This article provides an index of documentation about the available Win32 APIs f
         * [High DPI](hidpi/high-dpi-desktop-application-development-on-windows.md)
         * [Windows controls (Win32)](/controls/window-controls.md)
         * [Desktop environment and shell](user-interface.md)
-        * [Windows Shell](/shell/shell-entry.md)
         * [Windows Property System](/properties/windows-properties-system.md)
         * [Accessibility](accessibility.md)
     :::column-end:::
     :::column:::
-        ![System services and fundamentals](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
-        #### System services and fundamentals
+        ![System and fundamentals](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
+        ### System services and fundamentals
         * [System services](system-services.md)
         * [Component Object Model (COM)](com/component-object-model--com--portal.md)
         * [COM+](cossdk/component-services-portal.md)
@@ -45,11 +44,10 @@ This article provides an index of documentation about the available Win32 APIs f
     :::column-end:::
     :::column:::
         ![Audio, video, and graphics](/media/illustrations/virtualization-containers-samples.svg?branch=master)
-        #### Audio, video, and graphics
+        ### Audio, video, and graphics
         * [Audio and video technologies](audio-and-video.md)
         * [Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
         * [DirectShow](directshow/directshow.md)
-        * [Microsoft Media Foundation](medfound/microsoft-media-foundation-sdk.md)
         * [Windows Multimedia](multimedia/windows-multimedia-start-page.md)
         * [Graphics and gaming technologies](graphics-and-multimedia.md)
         * [DirectX](directx.md)
@@ -57,14 +55,14 @@ This article provides an index of documentation about the available Win32 APIs f
         * [Direct3D](direct3d.md)
         * [Windows GDI](gdi/windows-gdi.md)
         * [GDI+](gdiplus/-gdiplus-gdi-start.md)
-        * [OpenGL](/opengl/opengl.md)
-        * [Windows Imaging Component](/wic/-wic-lh.md)
+        * [OpenGL](opengl/opengl.md)
+        * [Windows Imaging Component](wic/-wic-lh.md)
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
         ![Networking and Internet](/media/illustrations/teams-voice-deployment.svg?branch=master)
-        #### Networking and Internet
+        ### Networking and Internet
         * [Networking and Internet overview](networking.md)
         * [Remote Procedure Call](rpc/rpc-start-page.md)
         * [Delivery Optimization](delivery_optimization/delivery-optimization-portal.md)
@@ -77,7 +75,7 @@ This article provides an index of documentation about the available Win32 APIs f
     :::column-end:::
     :::column:::
         ![Data access and storage](/media/illustrations/azure-architecture-patterns.svg?branch=master)
-        #### Data access and storage
+        ### Data access and storage
         * [Data access and storage overview](data-access-and-storage.md)
         * [Local File Systems](fileio/file-systems.md)
         * [Distributed File System](dfs/distributed-file-system.md)
@@ -89,7 +87,7 @@ This article provides an index of documentation about the available Win32 APIs f
     :::column-end:::
     :::column:::
         ![Devices, documents, and printing](/media/illustrations/virtualization-hperv-server-doc-archive.svg?branch=master)
-        #### Devices, documents, and printing
+        ### Devices, documents, and printing
         * [Devices overview](devices.md)
         * [Communications Resources](devio/communications-resources.md)
         * [Location API](locationapi/windows-location-api-portal.md)
@@ -102,7 +100,7 @@ This article provides an index of documentation about the available Win32 APIs f
 :::row:::
     :::column:::
         ![Security and identity](/media/illustrations/bcs-partner-advanced-management-password-3.svg?branch=master)
-        #### Security and identity
+        ### Security and identity
         * [Security and identity overview](security.md)
         * [Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)
         * [Authentication](secauthn/authentication-portal.md)
@@ -116,7 +114,7 @@ This article provides an index of documentation about the available Win32 APIs f
     :::column-end:::
     :::column:::
         ![Diagnostics and testing](/media/illustrations/team-services-dev-ops-test.svg?branch=master)
-        #### Diagnostics and testing
+        ### Diagnostics and testing
         * [Diagnostics overview](diagnostics.md)
         * [Debugging and error handling](debugging-and-error-handling.md)
         * [Network Monitor](netmon2/network-monitor.md)
@@ -129,7 +127,7 @@ This article provides an index of documentation about the available Win32 APIs f
     :::column-end:::
     :::column:::
         ![Packaging and installation](/media/illustrations/biztalk-host-integration-install-configure.svg?branch=master)
-        #### Packaging and installation
+        ### Packaging and installation
         * [MSIX packaging and deployment](//docs.microsoft.com/windows/msix)
         * [Application Installation and Servicing](application-installing-and-servicing.md)
         * [Isolated Applications and Side-by-side Assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)

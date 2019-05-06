@@ -38,7 +38,7 @@ If you're new to building desktop apps using the Win32 API, the following tutori
 | [Programming Guide for 64-bit Windows](WinProg64/programming-guide-for-64-bit-windows.md)    | Describes programming for 64-bit versions of the Windows operating system. |
 | [Using the Windows Headers](WinProg/using-the-windows-headers.md)     | Provides an overview of some of the conventions used in the Windows header files. |
 
-You can also try out the [desktop app samples](https://github.com/Microsoft/Windows-classic-samples).
+You can also browse the [desktop app samples](https://github.com/Microsoft/Windows-classic-samples).
 
 ## Modernize your desktop apps for Windows 10
 
@@ -50,7 +50,7 @@ For more information, see [Modernize your desktop apps](/windows/apps/modernize-
 
 ## What's new for Win32 APIs in Windows 10
 
-See [what's new](whats-new.md) to learn about new Win32 APIs that have been introduced in Windows 10.
+To learn about new Win32 APIs that have been introduced in Windows 10, see [what's new](whats-new.md).
 
 ## Get started with Win32 features and technologies
 
