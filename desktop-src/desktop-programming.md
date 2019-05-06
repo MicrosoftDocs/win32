@@ -10,7 +10,8 @@ ms.date: 05/31/2018
 
 The Win32 API (also called the Windows API) is the original platform for native C/C++ Windows applications that require direct access to Windows and hardware. It provides a first-class development experience without depending on a managed runtime environment like .NET and WinRT (for UWP apps for Windows 10). This makes the Win32 API the platform of choice for applications that need the highest level of performance and direct access to system hardware.
 
-The Win32 API is just one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](/windows/apps/choose-your-platform).
+> [!NOTE]
+> This documentation covers how to create desktop Windows apps with the Win32 API. The Win32 API is one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](/windows/apps/choose-your-platform).
 
 ## Get set up
 
@@ -41,33 +42,19 @@ You can also try out the [desktop app samples](https://github.com/Microsoft/Wind
 
 ## Modernize your desktop apps for Windows 10
 
-If you have an existing desktop Win32 app, there are many features in the Universal Windows Platform (UWP) that you can use to deliver the best possible experience on Windows 10. For example, starting in Windows 10, version 1903, you can host UWP XAML controls in your desktop Win32 app (this feature is also called XAML Islands).
+If you have an existing desktop Win32 app, there are many features in the Universal Windows Platform (UWP) that you can use to deliver the best possible experience on Windows 10. For example, starting in Windows 10, version 1903, you can host UWP XAML controls in your desktop Win32 app using a feature called XAML Islands.
 
 Most of these UWP features are available as modular components that you can adopt in your desktop app at your own pace without having to rewrite your entire application. You can enhance your existing desktop app by choosing which parts of Windows 10 and UWP to adopt.
 
 For more information, see [Modernize your desktop apps](/windows/apps/modernize-desktop).
 
-## What's new in Windows 10
+## What's new for Win32 APIs in Windows 10
 
 See [what's new](whats-new.md) to learn about new Win32 APIs that have been introduced in Windows 10.
 
 ## Get started with Win32 features and technologies
 
-To get started learning about the Win32 APIs for key Windows features and technologies, see the following articles. For a more in-depth index of all features and technologies, see [this article](desktop-app-technologies.md).
-
-* [Desktop User Interface](windows-application-ui-development.md)
-* [Desktop environment and shell](user-interface.md)
-* [Accessibility](accessibility.md)
-* [Audio and video technologies](audio-and-video.md) 
-* [Graphics and gaming technologies](graphics-and-multimedia.md)
-* [System services](system-services.md)
-* [Networking and Internet](networking.md)
-* [Data access and storage](data-access-and-storage.md)
-* [Security and identity](security.md)
-* [Diagnostics](diagnostics.md)
-* [Debugging and error handling](debugging-and-error-handling.md)
-* [Application installation and servicing](application-installing-and-servicing.md)
-* [MSIX packaging and deployment](//docs.microsoft.com/windows/msix)
+Win32 APIs exist for many features and technologies in Windows 10, including core user interface and windowing APIs, audio and graphics, and networking. For guidance and code samples about using these APIs, [see our features and technologies index](desktop-app-technologies.md).
 
 ## Related topics
 
