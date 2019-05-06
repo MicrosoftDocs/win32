@@ -8,12 +8,12 @@ ms.date: 05/31/2018
 
 # Desktop app technologies
 
-This article provides an index of guidance about all Win32 APIs for Windows features and technologies.
+This article provides an index of documentation about the available Win32 APIs for Windows features and technologies.
 
 :::row:::
     :::column:::
         ![User Interface and accessibility](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
-        ### User Interface, desktop environment, and accessibility
+        #### User Interface, desktop environment, and accessibility
         * [Desktop User Interface](windows-application-ui-development.md)
         * [Windows and messages](winmsg/windowing.md)
         * [Desktop Window Manager](/dwm/dwm-overview.md)
@@ -29,15 +29,13 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
     :::column-end:::
     :::column:::
         ![System services and fundamentals](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
-        ### System services and fundamentals
+        #### System services and fundamentals
         * [System services](system-services.md)
         * [Component Object Model (COM)](com/component-object-model--com--portal.md)
         * [COM+](cossdk/component-services-portal.md)
-        * [Microsoft Interface Definition Language (MIDL)](midl/midl-start-page.md)
         * [Structured storage](stg/structured-storage-start-page.md)
         * [Dynamic-link libraries](dlls/dynamic-link-libraries.md)
         * [Interprocess communications](ipc/interprocess-communications.md)
-        * [Kernel Transaction Manager](ktm/kernel-transaction-manager-portal.md)
         * [Memory management](memory/memory-management.md)
         * [Power management](power/power-management-portal.md)
         * [Processes and threads](procthread/processes-and-threads.md)
@@ -47,7 +45,7 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
     :::column-end:::
     :::column:::
         ![Audio, video, and graphics](/media/illustrations/virtualization-containers-samples.svg?branch=master)
-        ### Audio, video, and graphics
+        #### Audio, video, and graphics
         * [Audio and video technologies](audio-and-video.md)
         * [Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
         * [DirectShow](directshow/directshow.md)
@@ -57,40 +55,30 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
         * [DirectX](directx.md)
         * [Direct2D](direct2d/direct2d-portal.md)
         * [Direct3D](direct3d.md)
-        * [XAudio2 APIs](xaudio2/xaudio2-apis-portal.md)
         * [Windows GDI](gdi/windows-gdi.md)
         * [GDI+](gdiplus/-gdiplus-gdi-start.md)
         * [OpenGL](/opengl/opengl.md)
         * [Windows Imaging Component](/wic/-wic-lh.md)
-        * [Windows Mixed Reality](/mixedreality/mixed-reality-portal.md)
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
         ![Networking and Internet](/media/illustrations/teams-voice-deployment.svg?branch=master)
-        ### Networking and Internet
-        * [Overview](networking.md)
+        #### Networking and Internet
+        * [Networking and Internet overview](networking.md)
         * [Remote Procedure Call](rpc/rpc-start-page.md)
         * [Delivery Optimization](delivery_optimization/delivery-optimization-portal.md)
-        * [Domain Name System](dns/dns-start-page.md  )
-        * [HTTP Server API](http/http-api-start-page.md)
         * [Network interfaces](network-interfaces.md)
-        * [Network List Manager](nla/portal.md)
         * [Network Management](netmgmt/network-management.md)
         * [Network Share Management](netshare/network-share-management.md)
-        * [Routing and Remote Access Service](rras/portal.md)
-        * [Simple Network Management Protocol](snmp/snmp-start-page.md)
         * [Windows Networking](wnet/windows-networking-wnet-.md)
         * [Windows Sockets 2](winsock/windows-sockets-start-page-2.md)
         * [Wireless Networking](wireless-networking.md)
-        * [Windows HTTP Services](winhttp/winhttp-start-page.md)
-        * [Windows Internet](wininet/portal.md)
-        * [Windows Web Services](wsw/portal.md)
     :::column-end:::
     :::column:::
         ![Data access and storage](/media/illustrations/azure-architecture-patterns.svg?branch=master)
-        ### Data access and storage
-        * [Overview](data-access-and-storage.md)
+        #### Data access and storage
+        * [Data access and storage overview](data-access-and-storage.md)
         * [Local File Systems](fileio/file-systems.md)
         * [Distributed File System](dfs/distributed-file-system.md)
         * [Projected File System](projfs/projected-file-system.md)
@@ -101,8 +89,8 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
     :::column-end:::
     :::column:::
         ![Devices, documents, and printing](/media/illustrations/virtualization-hperv-server-doc-archive.svg?branch=master)
-        ### Devices, documents, and printing
-        * [Devices](devices.md)
+        #### Devices, documents, and printing
+        * [Devices overview](devices.md)
         * [Communications Resources](devio/communications-resources.md)
         * [Location API](locationapi/windows-location-api-portal.md)
         * [Sensor API](sensorsapi/portal.md)
@@ -114,20 +102,13 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
 :::row:::
     :::column:::
         ![Security and identity](/media/illustrations/bcs-partner-advanced-management-password-3.svg?branch=master)
-        ### Security and identity
-        * [Overview](security.md)
+        #### Security and identity
+        * [Security and identity overview](security.md)
         * [Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)
         * [Authentication](secauthn/authentication-portal.md)
         * [Authorization](secauthz/authorization-portal.md)
         * [Certificate Enrollment API](seccertenroll/certenroll-portal.md)
         * [Cryptography (CNG)](seccng/cng-portal.md)
-        * [Active Directory Domain Services](ad/active-directory-domain-services.md)
-        * [Active Directory Schema](adschema/active-directory-schema.md)
-        * [Active Directory Service Interfaces](adsi/active-directory-service-interfaces-adsi.md)
-        * [Extensible Authentication Protocol](eap/eap-start-page.md)
-        * [Extensible Authentication Protocol Host](eaphost/portal.md)
-        * [Network Access Protection](nap/network-access-protection-start-page.md)
-        * [Network Policy Server](nps/portal.md)
         * [Rights Management](SrvNodes/rights-management.md)
         * [Security Management](secmgmt/management-portal.md)
         * [TPM Base Services](tbs/tpm-base-services-portal.md)
@@ -135,8 +116,8 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
     :::column-end:::
     :::column:::
         ![Diagnostics and testing](/media/illustrations/team-services-dev-ops-test.svg?branch=master)
-        ### Diagnostics and testing
-        * [Overview](diagnostics.md)
+        #### Diagnostics and testing
+        * [Diagnostics overview](diagnostics.md)
         * [Debugging and error handling](debugging-and-error-handling.md)
         * [Network Monitor](netmon2/network-monitor.md)
         * [System Monitor](sysmon/system-monitor-portal.md)
@@ -148,8 +129,8 @@ This article provides an index of guidance about all Win32 APIs for Windows feat
     :::column-end:::
     :::column:::
         ![Packaging and installation](/media/illustrations/biztalk-host-integration-install-configure.svg?branch=master)
-        ### Packaging and installation
-        * [MSIX](//docs.microsoft.com/windows/msix)
+        #### Packaging and installation
+        * [MSIX packaging and deployment](//docs.microsoft.com/windows/msix)
         * [Application Installation and Servicing](application-installing-and-servicing.md)
         * [Isolated Applications and Side-by-side Assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)
         * [Packaging, deployment, and query of UWP apps](appxpkg/appx-portal.md)

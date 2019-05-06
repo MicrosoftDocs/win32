@@ -140,24 +140,6 @@ ms.localizationpriority: medium
 -->
     <ul class="cardsY panelContent featuredContent">
        <li>
-            <a href="https://github.com/Microsoft/Windows-classic-samples">
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                    <img data-hoverimage="/media/common/i_code-samples.svg?branch=master" src="/media/common/i_code-samples.svg?branch=master" alt="Samples icon" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Desktop Win32 samples</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li>
             <a href="/windows/apps/modernize-desktop">
                 <div class="cardSize">
                     <div class="cardPadding">
@@ -175,27 +157,6 @@ ms.localizationpriority: medium
                 </div>
             </a>
         </li>
-        <li>
-            <a href="/windows/msix/desktop/desktop-to-uwp-root">
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                    <img data-hoverimage="/media/common/i_download-install.svg?branch=master" src="/media/common/i_download-install.svg?branch=master" alt="Package icon" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Package with MSIX</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </li>
-    </ul>
-</div>
-    <ul class="cardsY panelContent featuredContent">
        <li>
             <a href="appxpkg/windows-desktop-application-program.md">
                 <div class="cardSize">
@@ -208,24 +169,6 @@ ms.localizationpriority: medium
                             </div>
                             <div class="cardText">
                                 <h3>Windows Desktop Application Program</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="https://developer.microsoft.com/en-us/windows/downloads">
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                    <img data-hoverimage="/media/common/i_tools.svg?branch=master" src="/media/common/i_tools.svg?branch=master" alt="Tools icon" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Tools and downloads</h3>
                             </div>
                         </div>
                     </div>
@@ -259,7 +202,8 @@ ms.localizationpriority: medium
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Related tools</h3>
+                        <h3>Tools</h3>
+                        <p><a href="//developer.microsoft.com/en-us/windows/downloads">Downloads and tools for Windows 10</a></p>
                         <p><a href="//docs.microsoft.com/windows/communitytoolkit/">Windows Community Toolkit</a></p>
                         <p><a href="//developer.microsoft.com/windows/downloads/virtual-machines">Virtual machines</a></p>
                         <p><a href="//docs.microsoft.com/windows/wsl/about">Bash on Ubuntu on Windows</a></p>
@@ -273,7 +217,8 @@ ms.localizationpriority: medium
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>New to development?</h3>
+                        <h3>Other resources</h3>
+                        <p><a href="https://github.com/Microsoft/Windows-classic-samples">Desktop Win32 samples</a></p>
                         <p><a href="//mva.microsoft.com/training-topics/c-app-development">Microsoft Virtual Academy</a></p>
                         <p><a href="//www.linkedin.com/learning/learning-universal-windows-app-development/welcome">LinkedIn Learning</a></p>
                         </div>
@@ -286,11 +231,11 @@ ms.localizationpriority: medium
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Explore related docs</h3>
+                        <h3>Related docs</h3>
+                        <p><a href="/windows/msix/desktop/desktop-to-uwp-root">MSIX packaging and deployment</a></p>
+                        <p><a href="/windows/uwp/">UWP</a></p>
                         <p><a href="//docs.microsoft.com/dotnet/framework/wpf">WPF</a></p>
                         <p><a href="//docs.microsoft.com/dotnet/framework/winforms/">Windows Forms</a></p>
-                        <p><a href="/windows/uwp/">UWP</a></p>
-                        <p><a href="//docs.microsoft.com/visualstudio/ide/">Visual Studio</a></p>
                     </div>
                 </div>
             </div>

@@ -53,7 +53,7 @@ See [what's new](whats-new.md) to learn about new Win32 APIs that have been intr
 
 ## Get started with Win32 features and technologies
 
-The following articles are a good starting point for information about key Windows features and technologies. For a complete index of all features and technologies, see [this article](desktop-app-technologies.md).
+To get started learning about the Win32 APIs for key Windows features and technologies, see the following articles. For a more in-depth index of all features and technologies, see [this article](desktop-app-technologies.md).
 
 * [Desktop User Interface](windows-application-ui-development.md)
 * [Desktop environment and shell](user-interface.md)
@@ -66,8 +66,8 @@ The following articles are a good starting point for information about key Windo
 * [Security and identity](security.md)
 * [Diagnostics](diagnostics.md)
 * [Debugging and error handling](debugging-and-error-handling.md)
-* [Application Installation and Servicing](application-installing-and-servicing.md)
-* [MSIX](//docs.microsoft.com/windows/msix)
+* [Application installation and servicing](application-installing-and-servicing.md)
+* [MSIX packaging and deployment](//docs.microsoft.com/windows/msix)
 
 ## Related topics
 
