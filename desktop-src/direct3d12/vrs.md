@@ -24,7 +24,7 @@ Your application can control its shading rate by choosing between per-pixel-base
 ## With variable-rate shading (VRS)
 The variable-rate shading (VRS) model extends supersampling-with-MSAA into the opposite, "coarse pixel", direction, by adding the concept of coarse shading. This is where shading can be performed at a frequency more coarse than a pixel. In other words, a group of pixels can be shaded as a single unit, and the result is then broadcast to all samples in the group.
 
-A coarse-shading API allows your application to specify the number of pixels that belong to a shaded group, or *coarse pixel*. You can vary the coarse pixel size after you've allocated the render target. So, different portions of the screen or different draw passes can have different subsampling rates.
+A coarse-shading API allows your application to specify the number of pixels that belong to a shaded group, or *coarse pixel*. You can vary the coarse pixel size after you've allocated the render target. So, different portions of the screen or different draw passes can have different shading rates.
 
 Here's a table describing which MSAA level is supported with which coarse pixel size. Some are not supported on any platform; while others are conditionally enabled based on a capability (*AdditionalShadingRatesSupported*), indicated by "Cap".
 
@@ -78,7 +78,7 @@ There is a capability, *AdditionalShadingRatesSupported*, to indicate whether 2x
 ### Screen-space image (image-based)
 On Tier 2 and higher, you can specify the pixel-shading rate with a screen-space image.
 
-The screen-space image allows your application to create a "level-of-detail (LOD) mask" image indicating regions of varying quality, such as areas that will be covered by motion blur, depth-of-field blur, transparent objects, or HUD UI elements. The resolution of the image is in macroblocks; it's not in the resolution of the render target. In other words, the subsampling data is specified at a granularity of 8x8 or 16x16 pixel tiles, as indicated by the VRS tile size.
+The screen-space image allows your application to create a "level-of-detail (LOD) mask" image indicating regions of varying quality, such as areas that will be covered by motion blur, depth-of-field blur, transparent objects, or HUD UI elements. The resolution of the image is in macroblocks; it's not in the resolution of the render target. In other words, the shading rate data is specified at a granularity of 8x8 or 16x16 pixel tiles, as indicated by the VRS tile size.
 
 #### Tile size
 Your application can query an API to retrieve the supported VRS tile size for its device.
@@ -466,7 +466,7 @@ The following table shows 4x MSAA pixels, where each pixel has four samples of i
 When the HLSL semantic `discard` is used with coarse pixel shading, coarse pixels are discarded.
 
 ## Target-independent rasterization (TIR)
-TIR is not supported when subsampling is used.
+TIR is not supported when coarse pixel shading is used.
 
 ## Raster order views (ROVs)
 ROV interlocks are specified as operating at fine pixel granularity. If shading is performed per sample, then interlocks are operating at sample granularity.
