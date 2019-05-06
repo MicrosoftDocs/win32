@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Get started with Win32 desktop Windows apps
+# Get started with desktop Windows apps that use the Win32 API
 
 The Win32 API (also called the Windows API) is the original platform for native C/C++ Windows applications that require direct access to Windows and hardware. It provides a first-class development experience without depending on a managed runtime environment like .NET and WinRT (for UWP apps for Windows 10). This makes the Win32 API the platform of choice for applications that need the highest level of performance and direct access to system hardware.
 
@@ -14,7 +14,7 @@ The Win32 API is just one of several app platforms you can use to build desktop 
 
 ## Get set up
 
-Follow these instructions and start creating desktop Win32 apps for Windows 10.
+Follow these instructions and start creating desktop apps for Windows 10 that use the Win32 API.
 
 1. Download or update Visual Studio 2019. If you don't already have Visual Studio 2019, you can install the free Microsoft Visual Studio Community 2019. When you install Visual Studio, make sure to select the **Desktop development with C++** option. For download links, see our [Downloads](https://developer.microsoft.com/windows/downloads) page.
 
@@ -53,56 +53,21 @@ See [what's new](whats-new.md) to learn about new Win32 APIs that have been intr
 
 ## Get started with Win32 features and technologies
 
-The following articles help you get started with the Win32 API for key Windows features and technologies. For a complete index of all features and technologies, see [this article](desktop-app-technologies.md).
+The following articles are a good starting point for information about key Windows features and technologies. For a complete index of all features and technologies, see [this article](desktop-app-technologies.md).
 
-:::row:::
-    :::column:::
-        ![User Interface programming](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
-        ### User Interface programming
-        * [Desktop User Interface](windows-application-ui-development.md)
-        * [Desktop environment and shell](user-interface.md)
-        * [Windows and messages](winmsg/windowing.md)
-    :::column-end:::
-    :::column:::
-        ![Fundamentals and hardware](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
-        ### Fundamentals and hardware
-        * [System services](system-services.md)
-        * [Networking and internet](networking.md)
-        * [Data access and storage](data-access-and-storage.md)
-    :::column-end:::
-    :::column:::
-        ![Accessibility](/media/illustrations/dynamics-accessibility.svg?branch=master)
-        ### Accessibility
-        * [Overview](accessibility.md)
-        * [Developing accessible applications](accessibility-appdev.md)
-        * [Developing accessible UI frameworks](accessibility-uiframeworkdev.md)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
-        ![Graphics, DirectX, and gaming](/media/illustrations/virtualization-containers-samples.svg?branch=master)
-        ### Graphics, DirectX, and gaming
-        * [Graphics and gaming technologies](graphics-and-multimedia.md)
-        * [DirectX](directx.md)
-        * [Direct2D](direct2d/direct2d-portal.md)
-        * [Direct3D](direct3d.md)
-    :::column-end:::
-    :::column:::
-        ![Diagnostics and testing](/media/illustrations/team-services-dev-ops-test.svg?branch=master)
-        ### Diagnostics and testing
-        * [Diagnostics](diagnostics.md)
-        * [Debugging and error handling](debugging-and-error-handling.md)
-        * [Windows error reporting](wer/windows-error-reporting.md)
-        * [Windows events](events/windows-events.md)
-    :::column-end:::
-    :::column:::
-        ![Packaging and installation](/media/illustrations/biztalk-host-integration-install-configure.svg?branch=master)
-        ### Packaging and installation
-        * [MSIX](//docs.microsoft.com/windows/msix)
-        * [Windows Installer](msi/windows-installer-portal.md)
-        * [Windows Desktop Application Program](appxpkg/windows-desktop-application-program.md)
-    :::column-end:::
-:::row-end:::
+* [Desktop User Interface](windows-application-ui-development.md)
+* [Desktop environment and shell](user-interface.md)
+* [Accessibility](accessibility.md)
+* [Audio and video technologies](audio-and-video.md) 
+* [Graphics and gaming technologies](graphics-and-multimedia.md)
+* [System services](system-services.md)
+* [Networking and Internet](networking.md)
+* [Data access and storage](data-access-and-storage.md)
+* [Security and identity](security.md)
+* [Diagnostics](diagnostics.md)
+* [Debugging and error handling](debugging-and-error-handling.md)
+* [Application Installation and Servicing](application-installing-and-servicing.md)
+* [MSIX](//docs.microsoft.com/windows/msix)
 
 ## Related topics
 
