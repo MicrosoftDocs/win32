@@ -16,6 +16,7 @@ This article provides information about what's new for desktop Win32 app develop
 
 The following articles contain info about new Win32 APIs that were introduced starting in Windows 10:
 
+* [What's new in accessibility](accessibility-whatsnew.md)
 * [What's new in Direct3D 12](direct3d12/new-releases.md)
 * [What's new in DirectXMath](dxmath/pg-xnamath-whatsnew.md)
 * [What's new in Direct2D](Direct2D/what-s-new-in-direct2d-for-windows-8-consumer-preview.md)

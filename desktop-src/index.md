@@ -26,7 +26,7 @@ ms.localizationpriority: medium
                         <h3>Get started</h3>
                         <p></p>Follow our instructions to set up your development computer and learn how to create desktop Win32 apps for Windows 10.</p>
                         <br>
-                        <p><a href="/windows/desktop/desktop-programming">Start here</a></p>
+                        <p><a href="desktop-programming.md">Start here</a></p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ ms.localizationpriority: medium
                     <h3>Technologies and features index</h3>
                     <p>Learn how to use a specific Windows feature or technology in your desktop Win32 apps.</p>
                         <br>
-                        <p><a href="/windows/desktop/desktop-app-technologies">Start here</a></p>
+                        <p><a href="desktop-app-technologies.md">Start here</a></p>
                   </div>
                 </div>
             </div>
@@ -64,13 +64,14 @@ ms.localizationpriority: medium
                         <h3>API index</h3>
                         <p>Navigate the full Win32 API index for developing desktop and server applications Windows 10 and earlier versions.</p>
                         <br>
-                        <p><a href="/windows/desktop/apiindex/windows-api-list">Start here</a></p>
+                        <p><a href="apiindex/windows-api-list.md">Start here</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
 </ul>
+<!--
 <ul class="panelContent cardsF">
   <li>
     <div class="cardSize">
@@ -85,9 +86,9 @@ ms.localizationpriority: medium
                     <h3>User Interface programming</h3>
                     <p>Get information about Win32 UI concepts and features.</p>
                     <br>
-                    <p><a href="/windows/desktop/windows-application-ui-development">Desktop User Interface</a></p>
-                    <p><a href="/windows/desktop/user-interface">Desktop environment and shell</a></p>
-                    <p><a href="/windows/desktop/winmsg/windowing">Windows and messages</a></p>
+                    <p><a href="windows-application-ui-development.md">Desktop User Interface</a></p>
+                    <p><a href="user-interface.md">Desktop environment and shell</a></p>
+                    <p><a href="winmsg/windowing.md">Windows and messages</a></p>
                 </div>
             </div>
         </div>
@@ -106,9 +107,9 @@ ms.localizationpriority: medium
                     <h3>Graphics, DirectX, and gaming</h3>
                     <p>Get firsthand experience APIs that you can use to create games and other high-performance multimedia applications.</p>
                     <br>
-                    <p><a href="/windows/desktop/directx">DirectX graphics and gaming</a></p>
-                    <p><a href="/windows/desktop/direct2d/direct2d-portal">Direct2D</a></p>
-                    <p><a href="/windows/desktop/direct3d">Direct3D</a></p>
+                    <p><a href="directx.md">DirectX graphics and gaming</a></p>
+                    <p><a href="direct2d/direct2d-portal.md">Direct2D</a></p>
+                    <p><a href="direct3d.md">Direct3D</a></p>
                 </div>
             </div>
         </div>
@@ -127,15 +128,16 @@ ms.localizationpriority: medium
                     <h3>Fundamentals and hardware</h3>
                     <p>Learn the about core system and hardware APIs, from processes and threads to power management and COM.</p>
                     <br>
-                    <p><a href="/windows/desktop/system-services">System services</a></p>
-                    <p><a href="/windows/desktop/networking">Networking and Internet</a></p>
-                    <p><a href="/windows/desktop/data-access-and-storage">Data access and storage</a></p>
+                    <p><a href="system-services.md">System services</a></p>
+                    <p><a href="networking.md">Networking and Internet</a></p>
+                    <p><a href="data-access-and-storage.md">Data access and storage</a></p>
                 </div>
             </div>
         </div>
     </div>
   </li>
 </ul>
+-->
     <ul class="cardsY panelContent featuredContent">
        <li>
             <a href="https://github.com/Microsoft/Windows-classic-samples">
@@ -201,7 +203,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Developer tools</h3>
-                        <p><a href="//docs.microsoft.com/windows/uwpcommunitytoolkit/">Windows Community Toolkit</a></p>
+                        <p><a href="//docs.microsoft.com/windows/communitytoolkit/">Windows Community Toolkit</a></p>
                         <p><a href="//developer.microsoft.com/windows/downloads/virtual-machines">Virtual machines</a></p>
                         <p><a href="//docs.microsoft.com/windows/wsl/about">Bash on Ubuntu on Windows</a></p>
                         </div>

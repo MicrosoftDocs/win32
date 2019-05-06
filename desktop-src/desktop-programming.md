@@ -49,65 +49,51 @@ For more information, see [Modernize your desktop apps](/windows/apps/modernize-
 
 ## What's new in Windows 10
 
-Learn about new Win32 APIs that have been introduced in Windows 10.
-
-* [What's new](whats-new.md)
+See [what's new](whats-new.md) to learn about new Win32 APIs that have been introduced in Windows 10.
 
 ## Get started with Win32 features and technologies
 
-Learn how to use a specific Windows feature or technology in your desktop Win32 apps.
+The following articles can help you get started with the Win32 API for key Windows features and technologies. For a complete index of all features and technologies, see [this article](desktop-app-technologies.md).
 
 :::row:::
-    :::column:::
-        ![User Interface programming](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
-        ### User Interface programming
-        * [Desktop User Interface](windows-application-ui-development.md)
-        * [Desktop environment and shell](user-interface.md)
-        * [Windows and messages](winmsg/windowing.md)
-        * [Menus and other resources](menurc/resources.md)
-        * [High DPI](hidpi/high-dpi-desktop-application-development-on-windows.md)
-        * [Windows controls](controls/window-controls.md)
-    :::column-end:::
     :::column:::
         ![Fundamentals and hardware](/media/illustrations/biztalk-get-started-get-started.svg?branch=master)
         ### Fundamentals and hardware
         * [System services](system-services.md)
         * [Networking and internet](networking.md)
         * [Data access and storage](data-access-and-storage.md)
-        * [Documents and printing](printdocs/documents-and-printing.md)
-        * [Security and identity](security.md)
     :::column-end:::
+    :::column:::
+        ![User Interface programming](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
+        ### User Interface programming
+        * [Desktop User Interface](windows-application-ui-development.md)
+        * [Desktop environment and shell](user-interface.md)
+        * [Windows and messages](winmsg/windowing.md)
+    :::column-end:::
+    :::column:::
+        ![Graphics, DirectX, and gaming](/media/illustrations/virtualization-containers-samples.svg?branch=master)
+        ### Graphics, DirectX, and gaming
+        * [Graphics and gaming technologies](graphics-and-multimedia.md)
+        * [DirectX](directx.md)
+        * [Direct2D](direct2d/direct2d-portal.md)
+        * [Direct3D](direct3d.md)
+    :::column-end:::
+:::row-end:::
+:::row:::
     :::column:::
         ![Audio and video](/media/illustrations/dynamics-resource-library.svg?branch=master)
         ### Audio and video
         * [Audio and video technologies](audio-and-video.md)
         * [Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
         * [DirectShow](directshow/directshow.md)
-        * [Microsoft Media Foundation](medfound/microsoft-media-foundation-sdk.md)
-        * [Windows Multimedia](multimedia/windows-multimedia-start-page.md)
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
-        ![Graphics, DirectX, and gaming](/media/illustrations/virtualization-containers-samples.svg?branch=master)
-        ### Graphics, DirectX, and gaming
-        * [Graphics and gaming technologies](graphics-and-multimedia.md)
-        * [Get started with DirectX](getting-started-with-directx-graphics.md)
-        * [Direct2D](direct2d/direct2d-portal.md)
-        * [Direct3D](direct3d.md)
-        * [XAudio2 APIs](xaudio2/xaudio2-apis-portal.md)
-        * [Windows GDI](gdi/windows-gdi.md)
-        * [GDI+](gdiplus/-gdiplus-gdi-start.md)
     :::column-end:::
     :::column:::
         ![Diagnostics and testing](/media/illustrations/team-services-dev-ops-test.svg?branch=master)
         ### Diagnostics and testing
         * [Diagnostics](diagnostics.md)
         * [Debugging and error handling](debugging-and-error-handling.md)
-        * [Performance counters](perfctrs/performance-counters-portal.md)
         * [Windows error reporting](wer/windows-error-reporting.md)
         * [Windows events](events/windows-events.md)
-        * [Debugging tools for Windows](//docs.microsoft.com/windows-hardware/drivers/debugger/index)
     :::column-end:::
     :::column:::
         ![Packaging and installation](/media/illustrations/biztalk-host-integration-install-configure.svg?branch=master)
