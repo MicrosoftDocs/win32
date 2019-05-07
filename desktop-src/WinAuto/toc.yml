@@ -1347,7 +1347,7 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement9
             items: 
             - name: "CachedIsDialog property"
-              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement9-get_cachedisdialog
+              href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement9-get_cachedisdialog
             - name: "CurrentIsDialog property"
               href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement9-get_currentisdialog
           - name: "IUIAutomationElementArray"
