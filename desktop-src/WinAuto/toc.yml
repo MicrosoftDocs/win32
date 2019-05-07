@@ -1320,9 +1320,9 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement6
             items: 
             - name: "CachedFullDescription property"
-              href: uiauto-iuiautomationelement6-cachedfulldescription.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_cachedfulldescription
             - name: "CurrentFullDescription property"
-              href: uiauto-iuiautomationelement6-currentfulldescription.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_currentfulldescription
           - name: "IUIAutomationElement7"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement7
             items: 
