@@ -19,7 +19,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 |                                                                                                            |
 |------------------------------------------------------------------------------------------------------------|
-| DXGI\_FORMAT Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] ); |
+| <Template Type> Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] ); |
 
 
 
@@ -197,7 +197,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 ## Return Value
 
-The texture format which is one of the typed values listed in [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
 
 ## Minimum Shader Model
 

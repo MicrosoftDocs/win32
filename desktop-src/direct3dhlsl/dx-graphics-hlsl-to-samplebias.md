@@ -19,7 +19,7 @@ Samples a texture, after applying the input bias to the mipmap level.
 
 |                                                                                                  |
 |--------------------------------------------------------------------------------------------------|
-| DXGI\_FORMAT Object.SampleBias( sampler\_state S, float Location, float Bias \[, int Offset\] ); |
+| <Template Type> Object.SampleBias( sampler\_state S, float Location, float Bias \[, int Offset\] ); |
 
 
 
@@ -127,7 +127,7 @@ Samples a texture, after applying the input bias to the mipmap level.
 
 ## Return Value
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
 
 ## Minimum Shader Model
 

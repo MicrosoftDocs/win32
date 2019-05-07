@@ -173,7 +173,7 @@ void DrawFrame()
         sizeof(constants) // size
          };
 
-    commandList->CreateConstantBufferView(
+    d3dDevice->CreateConstantBufferView(
         &constantBufferViewDesc,
         ...
         ));
