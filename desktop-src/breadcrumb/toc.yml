@@ -6,6 +6,6 @@
     tocHref: /windows/
     topicHref: /windows/
     items:
-      - name: Desktop
+      - name: Win32
         tocHref: /windows/desktop/
         topicHref: "/windows/desktop/index"
