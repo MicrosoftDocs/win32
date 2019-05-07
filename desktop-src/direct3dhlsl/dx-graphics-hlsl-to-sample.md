@@ -144,7 +144,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the BasicHLSL10.fx file in the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx).
+This partial code example is based on the BasicHLSL11.fx file in the [BasicHLSL11 Sample](https://code.msdn.microsoft.com/Basic-DXUT-Win32-Samples-e59c0682).
 
 
 ```
