@@ -1346,10 +1346,10 @@
           - name: "IUIAutomationElement9"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement9
             items: 
-            - name: "CachedHeadingLevel property"
-              href: /windows/desktop/api/UIAutomationClient/uiauto-iuiautomationelement9-get_currentisdialog
-            - name: "CurrentHeadingLevel property"
-              href: /windows/desktop/api/UIAutomationClient/uiauto-iuiautomationelement9-get_cachedisdialog
+            - name: "CachedIsDialog property"
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement9-get_cachedisdialog
+            - name: "CurrentIsDialog property"
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement9-get_currentisdialog
           - name: "IUIAutomationElementArray"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray
             items: 
