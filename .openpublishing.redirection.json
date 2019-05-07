@@ -1,5 +1,45 @@
 {
   "redirections": [
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement5-cachedlandmarktype.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlandmarktype",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement5-omationcachedlocalizedlandmarktype.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlocalizedlandmarktype",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement5-currentlandmarktype.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_currentlandmarktype",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement5-currentlocalizedlandmarktype.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_currentlocalizedlandmarktype",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement6-cachedfulldescription.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_cachedfulldescription",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement6-currentfulldescription.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_currentfulldescription",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement8-cachedheadinglevel.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement8-get_cachedheadinglevel",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement8-currentheadinglevel.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement8-get_currentheadinglevel",
+            "redirect_document_id": false
+      },
     {
       "source_path": "desktop-src/winauto/windows-accessibility-features.md",
       "redirect_url": "/windows/desktop/accessibility",
