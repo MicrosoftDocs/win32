@@ -19,7 +19,7 @@ Samples a texture using a mipmap-level offset.
 
 |                                                                                                  |
 |--------------------------------------------------------------------------------------------------|
-| DXGI\_FORMAT Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] ); |
+| <Template Type> Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] ); |
 
 
 
@@ -130,7 +130,7 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 
 ## Return Value
 
-The texture format which is one of the typed values listed in [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
 
 ## Minimum Shader Model
 
