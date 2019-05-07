@@ -1340,9 +1340,9 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement8
             items: 
             - name: "CachedHeadingLevel property"
-              href: uiauto-iuiautomationelement8-cachedheadinglevel.md
+              href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement8-get_cachedheadinglevel
             - name: "CurrentHeadingLevel property"
-              href: uiauto-iuiautomationelement8-currentheadinglevel.md
+              href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement8-get_currentheadinglevel
           - name: "IUIAutomationElement9"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement9
             items: 

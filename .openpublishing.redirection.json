@@ -30,6 +30,16 @@
             "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_currentfulldescription",
             "redirect_document_id": false
       },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement8-cachedheadinglevel.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement8-get_cachedheadinglevel",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/winauto/uiauto-iuiautomationelement8-currentheadinglevel.md",
+            "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement8-get_currentheadinglevel",
+            "redirect_document_id": false
+      },
     {
       "source_path": "desktop-src/winauto/windows-accessibility-features.md",
       "redirect_url": "/windows/desktop/accessibility",
