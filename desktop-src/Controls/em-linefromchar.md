@@ -27,7 +27,7 @@ Gets the index of the line that contains the specified character index in a mult
 *wParam* 
 </dt> <dd>
 
-The character index of the character contained in the line whose number is to be retrieved. If this parameter is  1, **EM\_LINEFROMCHAR** retrieves either the line number of the current line (the line containing the caret) or, if there is a selection, the line number of the line containing the beginning of the selection.
+The character index of the character contained in the line whose number is to be retrieved. If this parameter is -1, **EM\_LINEFROMCHAR** retrieves either the line number of the current line (the line containing the caret) or, if there is a selection, the line number of the line containing the beginning of the selection.
 
 </dd> <dt>
 
