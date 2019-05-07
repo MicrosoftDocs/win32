@@ -363,6 +363,13 @@
           href: /windows/desktop/api/Bits10_2/nf-bits10_2-ibackgroundcopyjobhttpoptions2-gethttpmethod
         - name: "SetHttpMethod method"
           href: /windows/desktop/api/Bits10_2/nf-bits10_2-ibackgroundcopyjobhttpoptions2-sethttpmethod
+      - name: "IBackgroundCopyJobHttpOptions3"
+        href: /windows/desktop/api/Bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3
+        items: 
+        - name: "MakeCustomHeadersWriteOnly method"
+          href: /windows/desktop/api/Bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-makecustomheaderswriteonly
+        - name: "SetServerCertificateValidationInterface method"
+          href: /windows/desktop/api/Bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-setservercertificatevalidationinterface
       - name: "IBackgroundCopyManager"
         href: /windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager
         items: 
@@ -374,6 +381,11 @@
           href: /windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-geterrordescription
         - name: "GetJob method"
           href: /windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-getjob
+      - name: "IBackgroundCopyServerCertificateValidationCallback"
+        href: /windows/desktop/api/Bits10_3/nn-bits10_3-ibackgroundcopyservercertificatevalidationcallback
+        items: 
+        - name: "ValidateServerCertificate"
+          href: /windows/desktop/api/Bits10_3/nf-bits10_3-ibackgroundcopyservercertificatevalidationcallback-validateservercertificate
       - name: "IBitsPeer"
         href: /windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeer
         items: 
