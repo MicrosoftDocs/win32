@@ -58,7 +58,7 @@ Win32 APIs exist for many features and technologies in Windows 10, including cor
 
 ## Related topics
 
-* [Develop desktop apps](/windows/apps/desktop-apps)
+* [Build desktop apps for Windows PCs](/windows/apps/desktop-apps)
 * [Windows API reference](api)
 * [Windows API index](apiindex/api-index-portal)
 * [Windows Runtime C++ reference](winrt/reference)

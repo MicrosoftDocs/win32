@@ -165,7 +165,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Related docs</h3>
-                        <p><a href="/windows/apps/desktop-apps">Desktop apps for Windows 10</a></p>
+                        <p><a href="/windows/apps/desktop-apps">Build desktop apps for Windows PCs</a></p>
                         <p><a href="/windows/uwp/cpp-and-winrt-apis">C++/WinRT</a></p>
                         <p><a href="//docs.microsoft.com/dotnet/framework/wpf">WPF</a></p>
                         <p><a href="//docs.microsoft.com/dotnet/framework/winforms/">Windows Forms</a></p>
