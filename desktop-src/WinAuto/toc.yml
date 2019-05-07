@@ -1311,11 +1311,11 @@
             - name: "CachedLandmarkType property"
               href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlandmarktype
             - name: "CachedLocalizedLandmarkType property"
-              href: uiauto-iuiautomationelement5-cachedlocalizedlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlocalizedlandmarktype
             - name: "CurrentLandmarkType property"
-              href: uiauto-iuiautomationelement5-currentlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_currentlandmarktype
             - name: "CurrentLocalizedLandmarkType property"
-              href: uiauto-iuiautomationelement5-currentlocalizedlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_currentlocalizedlandmarktype
           - name: "IUIAutomationElement6"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement6
             items: 
