@@ -1309,7 +1309,7 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement5
             items: 
             - name: "CachedLandmarkType property"
-              href: uiauto-iuiautomationelement5-cachedlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlandmarktype
             - name: "CachedLocalizedLandmarkType property"
               href: uiauto-iuiautomationelement5-cachedlocalizedlandmarktype.md
             - name: "CurrentLandmarkType property"
