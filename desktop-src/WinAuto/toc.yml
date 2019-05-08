@@ -19,6 +19,8 @@
         href: client-area-animation.md
       - name: "Message Duration"
         href: message-duration.md
+    - name: "Security Considerations for Assistive Technologies"
+      href: uiauto-securityoverview.md
     - name: "Built-in Accessibility Features"
       href: built-in-accessibility-features.md
     - name: "Ease of Access - Assistive Technology Registration"
