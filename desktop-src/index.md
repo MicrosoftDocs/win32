@@ -94,6 +94,9 @@ Create Windows desktop applications that your customers can use at work and play
                             <a href="user-interface">Desktop environment and shell</a>
                         </p>
                         <p>
+                            <a href="accessibility">Accessibility</a>
+                        </p>
+                        <p>
                             <a href="//docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls">Host UWP controls in desktop applications</a>
                         </p>
                         <p>
