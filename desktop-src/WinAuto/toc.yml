@@ -1,72 +1,69 @@
-- name: "Windows Accessibility Features"
-  href: windows-accessibility-features.md
+- name: "About Windows Accessibility Features"
+  href: about-windows-accessibility-features.md
   items: 
-  - name: "About Windows Accessibility Features"
-    href: about-windows-accessibility-features.md
+  - name: "Accessibility Parameters"
+    href: accessibility-parameters.md
     items: 
-    - name: "Accessibility Parameters"
-      href: accessibility-parameters.md
-      items: 
-      - name: "High Contrast Parameter"
-        href: high-contrast-parameter.md
-      - name: "Keyboard Preference Parameter"
-        href: keyboard-preference-parameter.md
-      - name: "Screen Reader Parameter"
-        href: screen-reader-parameter.md
-      - name: "ShowSounds Parameter and Audio Descriptions Flag"
-        href: showsounds-parameter.md
-      - name: "Client Area Animation"
-        href: client-area-animation.md
-      - name: "Message Duration"
-        href: message-duration.md
-    - name: "Security Considerations for Assistive Technologies"
-      href: uiauto-securityoverview.md
-    - name: "Built-in Accessibility Features"
-      href: built-in-accessibility-features.md
-    - name: "Ease of Access - Assistive Technology Registration"
-      href: ease-of-access---assistive-technology-registration.md
-  - name: "Using Windows Accessibility Features"
-    href: using-windows-accessibility-features.md
+    - name: "High Contrast Parameter"
+      href: high-contrast-parameter.md
+    - name: "Keyboard Preference Parameter"
+      href: keyboard-preference-parameter.md
+    - name: "Screen Reader Parameter"
+      href: screen-reader-parameter.md
+    - name: "ShowSounds Parameter and Audio Descriptions Flag"
+      href: showsounds-parameter.md
+    - name: "Client Area Animation"
+      href: client-area-animation.md
+    - name: "Message Duration"
+      href: message-duration.md
+  - name: "Security Considerations for Assistive Technologies"
+    href: uiauto-securityoverview.md
+  - name: "Built-in Accessibility Features"
+    href: built-in-accessibility-features.md
+  - name: "Ease of Access - Assistive Technology Registration"
+    href: ease-of-access---assistive-technology-registration.md
+- name: "Using Windows Accessibility Features"
+  href: using-windows-accessibility-features.md
+  items: 
+  - name: "Checking the State of an Accessibility Parameter"
+    href: checking-the-state-of-an-accessibility-parameter.md
+  - name: "Enabling a Built-in Accessibility Feature"
+    href: enabling-a-built-in-accessibility-feature.md
+- name: "Windows Accessibility Features Reference"
+  href: windows-accessibility-features-reference.md
+  items: 
+  - name: "Accessibility Functions"
+    href: accessibility-functions.md
     items: 
-    - name: "Checking the State of an Accessibility Parameter"
-      href: checking-the-state-of-an-accessibility-parameter.md
-    - name: "Enabling a Built-in Accessibility Feature"
-      href: enabling-a-built-in-accessibility-feature.md
-  - name: "Windows Accessibility Features Reference"
-    href: windows-accessibility-features-reference.md
+    - name: "RegisterPointerInputTarget"
+      href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtarget
+    - name: "RegisterPointerInputTargetEx"
+      href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtargetex
+    - name: "SoundSentryProc"
+      href: https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx
+    - name: "UnregisterPointerInputTarget"
+      href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget
+    - name: "UnregisterPointerInputTargetEx"
+      href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtargetex
+  - name: "Accessibility Structures"
+    href: accessibility-structures.md
     items: 
-    - name: "Accessibility Functions"
-      href: accessibility-functions.md
-      items: 
-      - name: "RegisterPointerInputTarget"
-        href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtarget
-      - name: "RegisterPointerInputTargetEx"
-        href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtargetex
-      - name: "SoundSentryProc"
-        href: https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx
-      - name: "UnregisterPointerInputTarget"
-        href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget
-      - name: "UnregisterPointerInputTargetEx"
-        href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtargetex
-    - name: "Accessibility Structures"
-      href: accessibility-structures.md
-      items: 
-      - name: "ACCESSTIMEOUT"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagaccesstimeout
-      - name: "FILTERKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagfilterkeys
-      - name: "HIGHCONTRAST"
-        href: /windows/desktop/api/Winuser/ns-winuser-taghighcontrasta
-      - name: "MOUSEKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagmousekeys
-      - name: "SERIALKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagserialkeysa
-      - name: "SOUNDSENTRY"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagsoundsentrya
-      - name: "STICKYKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
-      - name: "TOGGLEKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
+    - name: "ACCESSTIMEOUT"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagaccesstimeout
+    - name: "FILTERKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagfilterkeys
+    - name: "HIGHCONTRAST"
+      href: /windows/desktop/api/Winuser/ns-winuser-taghighcontrasta
+    - name: "MOUSEKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagmousekeys
+    - name: "SERIALKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagserialkeysa
+    - name: "SOUNDSENTRY"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagsoundsentrya
+    - name: "STICKYKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
+    - name: "TOGGLEKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
 - name: "Windows Automation API"
   href: windows-automation-api-portal.md
   items: 
