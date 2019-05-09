@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About Windows Accessibility Features
 
-Windows Accessibility comprises two categories of features available to Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
+Windows Accessibility supports two categories of features for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
 
 ## Win32 APIs
 
