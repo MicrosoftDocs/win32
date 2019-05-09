@@ -1,6 +1,6 @@
 ---
 title: About Windows Accessibility Features
-description: Windows Accessibility comprises two categories of features available to Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications.
+description: Windows Accessibility supports two categories of features for Windows developers: Win32 APIs and User Settings.
 ms.assetid: 823bbc5b-062b-43ef-9f3e-822dc6f55c5d
 ms.topic: article
 ms.date: 05/31/2018
