@@ -63,7 +63,6 @@
   href: windows-automation-api-portal.md
   items: 
   - name: "Windows Automation API Overview"
-    href: windows-automation-api-overview.md
     items: 
     - name: "Microsoft Active Accessibility and UI Automation Compared"
       href: microsoft-active-accessibility-and-ui-automation-compared.md
