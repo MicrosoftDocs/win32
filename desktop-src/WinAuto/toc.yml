@@ -19,10 +19,6 @@
       href: message-duration.md
   - name: "Built-in Accessibility Features"
     href: built-in-accessibility-features.md
-  - name: "Security Considerations for Assistive Technologies"
-    href: uiauto-securityoverview.md
-  - name: "Ease of Access - Assistive Technology Registration"
-    href: ease-of-access---assistive-technology-registration.md
   - name: "Using Windows Accessibility features"
     href: using-windows-accessibility-features.md
     items: 
@@ -3374,3 +3370,7 @@
           href: visual-ui-automation-verify.md
     - name: "Glossary"
       href: uiauto-glossary.md
+  - name: "Security Considerations for Assistive Technologies"
+    href: uiauto-securityoverview.md
+  - name: "Ease of Access - Assistive Technology Registration"
+    href: ease-of-access---assistive-technology-registration.md
