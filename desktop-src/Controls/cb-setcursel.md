@@ -27,7 +27,7 @@ An application sends a **CB\_SETCURSEL** message to select a string in the list 
 *wParam* 
 </dt> <dd>
 
-Specifies the zero-based index of the string to select. If this parameter is  1, any current selection in the list is removed and the edit control is cleared.
+Specifies the zero-based index of the string to select. If this parameter is -1, any current selection in the list is removed and the edit control is cleared.
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ This parameter is not used.
 
 ## Return value
 
-If the message is successful, the return value is the index of the item selected. If *wParam* is greater than the number of items in the list or if *wParam* is  1, the return value is CB\_ERR and the selection is cleared.
+If the message is successful, the return value is the index of the item selected. If *wParam* is greater than the number of items in the list or if *wParam* is -1, the return value is CB\_ERR and the selection is cleared.
 
 ## Requirements
 

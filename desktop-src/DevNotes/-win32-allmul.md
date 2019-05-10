@@ -7,9 +7,17 @@ ms.author: windowssdkdev
 ms.topic: article
 ms.date: 04/29/2019
 ms.keywords: _allmul, ntoskrnl.exe!_allmul
+topic_type: 
+- APIRef
+api_type: 
+- DllExport
+api_location: 
+- ntoskrnl.exe
 api_name: 
 - _allmul
-- ntoskrnl.exe!_allmul
+product: 
+- Windows
+targetos: Windows
 ---
 
 # \_allmul Routine

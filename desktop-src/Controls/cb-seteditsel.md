@@ -34,9 +34,9 @@ This parameter is not used.
 *lParam* \[in\]
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of *lParam* specifies the starting position. If the **LOWORD** is  1, the selection, if any, is removed.
+The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of *lParam* specifies the starting position. If the **LOWORD** is -1, the selection, if any, is removed.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of *lParam* specifies the ending position. If the **HIWORD** is  1, all text from the starting position to the last character in the edit control is selected.
+The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of *lParam* specifies the ending position. If the **HIWORD** is -1, all text from the starting position to the last character in the edit control is selected.
 
 </dd> </dl>
 

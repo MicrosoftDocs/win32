@@ -1,6 +1,6 @@
 ---
 title: Memory Management Strategies
-description: A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discreet (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.The recommended strategy for Direct3D 12 memory management , described in this section, is \ 0034;classify, budget and stream \ 0034;.
+description: A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discrete (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.The recommended strategy for Direct3D 12 memory management , described in this section, is \ 0034;classify, budget and stream \ 0034;.
 ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Memory Management Strategies
 
-A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discreet (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.
+A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discrete (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.
 
 The recommended strategy for Direct3D 12 memory management , described in this section, is "classify, budget and stream".
 
@@ -37,7 +37,7 @@ In Direct3D 12 when you allocate a heap you are creating the physical memory asp
 
 GPUs do not support page faulting, so developers must be conscious that they do not over commit, especially to systems say with only 1Gb of system memory. If an app does over commit, then the OS uses coarser-grained scheduling of processes by their demand on physical memory. The scheduler will freeze foreground processes and essentially page some of it out, in order to page-in a background process that wants to run. Available physical memory can vary considerably depending on what the user is doing in the background (such as running a browser or watching a video).
 
-The API for memory budget is [**QueryVideoMemoryInfo**](https://msdn.microsoft.com/library/windows/desktop/dn933223). For discreet adapters "local" is video memory, "non-local" is system memory. For UMA adapters non-local is always zero. One design question is whether your engine will manage both budgets or just the local budget. Managing only the local budget is simpler but has some caveats; for example say there is a maximum local budget of 1Gb, then all heaps will come from that 1Gb in a UMA system and there is no overflow to system memory (clearly, as there is none).
+The API for memory budget is [**QueryVideoMemoryInfo**](https://msdn.microsoft.com/library/windows/desktop/dn933223). For discrete adapters "local" is video memory, "non-local" is system memory. For UMA adapters non-local is always zero. One design question is whether your engine will manage both budgets or just the local budget. Managing only the local budget is simpler but has some caveats; for example say there is a maximum local budget of 1Gb, then all heaps will come from that 1Gb in a UMA system and there is no overflow to system memory (clearly, as there is none).
 
 Since Direct3D11 managed memory for applications, unused resources would essentially be paged out.
 
@@ -62,7 +62,7 @@ In order to manage resources effectively in memory bound scenarios, consider cla
 
 The more applications gravitate to streaming resources for most of the work, the more they will leverage placed and reserved resources, which will maximize memory re-use between these four classifications. The more applications stream, the more they budget and prioritize bandwidth.
 
-Typically with Direct3D 12 graphics engines need to honor a more diverse and dynamic budget, and do it more strictly then they did in the past. The best applications will locate all four categories into the budget given to the process, scaling the game play from background mobile app to full-screen discrete budgets. But, many applications will likely struggle by starting with too many critical category types of resources. Direct3D 11 enabled resources to be anonymously created and occupy critical status without impacting performance. However, for Direct3D 12, developers must diligently search for randomly created resources throughout their engine and middleware and re-assign them to one of the other categories.
+Typically with Direct3D 12 graphics engines need to honor a more diverse and dynamic budget, and do it more strictly than they did in the past. The best applications will locate all four categories into the budget given to the process, scaling the game play from background mobile app to full-screen discrete budgets. But, many applications will likely struggle by starting with too many critical category types of resources. Direct3D 11 enabled resources to be anonymously created and occupy critical status without impacting performance. However, for Direct3D 12, developers must diligently search for randomly created resources throughout their engine and middleware and re-assign them to one of the other categories.
 
 Other problem areas are middleware components, user controls, and intra-frame streaming. Middleware components may not be exposed to a budget, nor have to work tightly together. Middleware components likely could expose features as rendering techniques; and the application could rely on exposing middleware and engine settings. Developers could rely on Direct3D 11 to do the paging and achieve the right frame rate. In some cases, Direct3D 11 applications may have been paging resource contents in and out every frame; and it resulted in acceptable frame rates for the user. Most engines only stream resource data as a background activity, where it has no graceful fallback to high-priority intra-frame streaming. Asking engines to implement that will erode some of the CPU overhead gains they are seeking by moving to Direct3D 12. Engine developers could consider teasing their frames into phases to provide more opportunity for re-usable resources; and likely work with middleware vendors to support placed resources and heaps for intra-frame memory re-use.
 

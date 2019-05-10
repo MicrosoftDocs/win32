@@ -73,7 +73,7 @@ ms.localizationpriority: medium
 </ul>
     <ul class="cardsY panelContent featuredContent">
        <li>
-            <a href="/windows/apps/modernize-desktop">
+            <a href="/windows/apps/desktop/modernize">
                 <div class="cardSize">
                     <div class="cardPadding">
                         <div class="card">
@@ -139,7 +139,6 @@ ms.localizationpriority: medium
                         <p><a href="//developer.microsoft.com/en-us/windows/downloads">Downloads and tools for Windows 10</a></p>
                         <p><a href="//docs.microsoft.com/windows/communitytoolkit/">Windows Community Toolkit</a></p>
                         <p><a href="//developer.microsoft.com/windows/downloads/virtual-machines">Virtual machines</a></p>
-                        <p><a href="//docs.microsoft.com/windows/wsl/about">Bash on Ubuntu on Windows</a></p>
                         </div>
                     </div>
                 </div>
@@ -165,7 +164,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Related docs</h3>
-                        <p><a href="/windows/apps/desktop-apps">Desktop apps for Windows 10</a></p>
+                        <p><a href="/windows/apps/desktop/">Desktop apps for Windows 10</a></p>
                         <p><a href="/windows/uwp/cpp-and-winrt-apis">C++/WinRT</a></p>
                         <p><a href="//docs.microsoft.com/dotnet/framework/wpf">WPF</a></p>
                         <p><a href="//docs.microsoft.com/dotnet/framework/winforms/">Windows Forms</a></p>

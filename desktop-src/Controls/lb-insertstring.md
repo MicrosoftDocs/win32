@@ -27,7 +27,7 @@ Inserts a string or item data into a list box. Unlike the [**LB\_ADDSTRING**](lb
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the position at which to insert the string. If this parameter is  1, the string is added to the end of the list.
+The zero-based index of the position at which to insert the string. If this parameter is -1, the string is added to the end of the list.
 
 </dd> <dt>
 

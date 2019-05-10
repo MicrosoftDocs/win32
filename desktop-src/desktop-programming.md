@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The Win32 API (also called the Windows API) is the original platform for native C/C++ Windows applications that require direct access to Windows and hardware. It provides a first-class development experience without depending on a managed runtime environment like .NET and WinRT (for UWP apps for Windows 10). This makes the Win32 API the platform of choice for applications that need the highest level of performance and direct access to system hardware.
 
 > [!NOTE]
-> This documentation covers how to create desktop Windows apps with the Win32 API. The Win32 API is one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](/windows/apps/choose-your-platform).
+> This documentation covers how to create desktop Windows apps with the Win32 API. The Win32 API is one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](windows/apps/desktop/choose-your-platform).
 
 ## Get set up
 
@@ -46,7 +46,7 @@ If you have an existing desktop Win32 app, there are many features in the Univer
 
 Most of these UWP features are available as modular components that you can adopt in your desktop app at your own pace without having to rewrite your entire application. You can enhance your existing desktop app by choosing which parts of Windows 10 and UWP to adopt.
 
-For more information, see [Modernize your desktop apps](/windows/apps/modernize-desktop).
+For more information, see [Modernize your desktop apps](/windows/apps/desktop/modernize).
 
 ## What's new for Win32 APIs in Windows 10
 
@@ -58,7 +58,7 @@ Win32 APIs exist for many features and technologies in Windows 10, including cor
 
 ## Related topics
 
-* [Develop desktop apps](/windows/apps/desktop-apps)
+* [Develop desktop apps](/windows/apps/desktop)
 * [Windows API reference](api)
 * [Windows API index](apiindex/api-index-portal)
 * [Windows Runtime C++ reference](winrt/reference)

@@ -1309,20 +1309,20 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement5
             items: 
             - name: "CachedLandmarkType property"
-              href: uiauto-iuiautomationelement5-cachedlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlandmarktype
             - name: "CachedLocalizedLandmarkType property"
-              href: uiauto-iuiautomationelement5-cachedlocalizedlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlocalizedlandmarktype
             - name: "CurrentLandmarkType property"
-              href: uiauto-iuiautomationelement5-currentlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_currentlandmarktype
             - name: "CurrentLocalizedLandmarkType property"
-              href: uiauto-iuiautomationelement5-currentlocalizedlandmarktype.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_currentlocalizedlandmarktype
           - name: "IUIAutomationElement6"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement6
             items: 
             - name: "CachedFullDescription property"
-              href: uiauto-iuiautomationelement6-cachedfulldescription.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_cachedfulldescription
             - name: "CurrentFullDescription property"
-              href: uiauto-iuiautomationelement6-currentfulldescription.md
+              href: /windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement6-get_currentfulldescription
           - name: "IUIAutomationElement7"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement7
             items: 
@@ -1340,9 +1340,9 @@
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement8
             items: 
             - name: "CachedHeadingLevel property"
-              href: uiauto-iuiautomationelement8-cachedheadinglevel.md
+              href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement8-get_cachedheadinglevel
             - name: "CurrentHeadingLevel property"
-              href: uiauto-iuiautomationelement8-currentheadinglevel.md
+              href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement8-get_currentheadinglevel
           - name: "IUIAutomationElement9"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement9
             items: 
