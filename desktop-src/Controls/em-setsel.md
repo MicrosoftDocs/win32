@@ -48,7 +48,7 @@ The start value can be greater than the end value. The lower of the two values s
 
 The start value is the anchor point of the selection, and the end value is the active end. If the user uses the SHIFT key to adjust the size of the selection, the active end can move but the anchor point remains the same.
 
-If the start is 0 and the end is  1, all the text in the edit control is selected. If the start is  1, any current selection is deselected.
+If the start is 0 and the end is -1, all the text in the edit control is selected. If the start is -1, any current selection is deselected.
 
 **Edit controls:** The control displays a flashing caret at the end position regardless of the relative values of start and end.
 

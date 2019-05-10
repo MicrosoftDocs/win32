@@ -42,7 +42,7 @@ This parameter is not used.
 
 ## Return value
 
-If an error occurs, the return value is LB\_ERR. If the *wParam* parameter is  1, the return value is LB\_ERR even though no error occurred.
+If an error occurs, the return value is LB\_ERR. If the *wParam* parameter is -1, the return value is LB\_ERR even though no error occurred.
 
 ## Remarks
 

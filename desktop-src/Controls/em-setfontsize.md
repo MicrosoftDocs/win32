@@ -27,7 +27,7 @@ Sets the font size for the selected text in a rich edit control.
 *wParam* 
 </dt> <dd>
 
-Change in point size of the selected text. The result will be rounded according to values shown in the following table. This parameter should be in the range of  1637 to 1638. The resulting font size will be within the range of 1 to 1638.
+Change in point size of the selected text. The result will be rounded according to values shown in the following table. This parameter should be in the range of -1637 to 1638. The resulting font size will be within the range of 1 to 1638.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ If an error occurred, the return value is **FALSE**.
 
 You can easily get the font size by sending the [**EM\_GETCHARFORMAT**](em-getcharformat.md) message.
 
-Rich Edit first adds *wParam*to the current font size and then uses the resulting size and the following table to determine the rounding value.
+Rich Edit first adds *wParam* to the current font size and then uses the resulting size and the following table to determine the rounding value.
 
 
 
@@ -68,7 +68,7 @@ Rich Edit first adds *wParam*to the current font size and then uses the resultin
 
 If the resulting font size is not evenly divisible by the rounding value, the font size is then rounded to a number evenly divisible by the rounding value. So if the font size is less than or equal to 12, the rounding value will be 1. Similarly, if the font size is less than or equal to 28, the rounding value is 2. For values greater than 28, font sizes are rounded to the next band. So, the font size jumps to 36, 48, 72, 80. After 80, all rounding is done in increments of ten points.
 
-The font size is rounded up or down depending on the sign of *wParam*. If *wParam* is positive, the rounding is always up. Otherwise, rounding is always down. So, if the current font size is 10 and *wParam* is 3, the resulting font size would be 14 (10 + 3 = 13, which is not divisible by 2, so the size rounds up to 14). Conversely, if the current font size is 14 and *wParam* is  3, the resulting font size would be 10 (14   3 = 11, which is not divisible by 2, so the size rounds down to 10).
+The font size is rounded up or down depending on the sign of *wParam*. If *wParam* is positive, the rounding is always up. Otherwise, rounding is always down. So, if the current font size is 10 and *wParam* is 3, the resulting font size would be 14 (10 + 3 = 13, which is not divisible by 2, so the size rounds up to 14). Conversely, if the current font size is 14 and *wParam* is -3, the resulting font size would be 10 (14 - 3 = 11, which is not divisible by 2, so the size rounds down to 10).
 
 The change is applied to each part of the selection. So, if some of the text is 10pt and some 20pt, after a call with *wParam* set to 1, the font sizes become 11pt and 22pt, respectively.
 

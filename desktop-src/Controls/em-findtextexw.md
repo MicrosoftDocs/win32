@@ -55,13 +55,13 @@ A [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) stru
 
 ## Return value
 
-If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is  1.
+If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is -1.
 
 ## Remarks
 
 Use this message to find Unicode strings. For ANSI;, use [**EM\_FINDTEXTEX**](em-findtextex.md).
 
-The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point of the search, and **cpMax** specifies the end point. When searching backward, **cpMin** must be equal to or greater than **cpMax**. When searching forward, a value of  1 in **cpMax** extends the search range to the end of the text.
+The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point of the search, and **cpMax** specifies the end point. When searching backward, **cpMin** must be equal to or greater than **cpMax**. When searching forward, a value of -1 in **cpMax** extends the search range to the end of the text.
 
 If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_findtextexa) structure returns the range of character positions that contains the matching text.
 

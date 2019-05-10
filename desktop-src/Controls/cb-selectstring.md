@@ -27,7 +27,7 @@ Searches the list of a combo box for an item that begins with the characters in 
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the item preceding the first item to be searched. When the search reaches the bottom of the list, it continues from the top of the list back to the item specified by the *wParam* parameter. If *wParam* is  1, the entire list is searched from the beginning.
+The zero-based index of the item preceding the first item to be searched. When the search reaches the bottom of the list, it continues from the top of the list back to the item specified by the *wParam* parameter. If *wParam* is -1, the entire list is searched from the beginning.
 
 </dd> <dt>
 
