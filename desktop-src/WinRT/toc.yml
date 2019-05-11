@@ -70,6 +70,10 @@
       href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11devicefromdxgidevice
     - name: "CreateDirect3D11SurfaceFromDXGISurface"
       href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11surfacefromdxgisurface
+    - name: "CreateDirect3DDevice"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3ddevice
+    - name: "CreateDirect3DSurface"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface
     - name: "CreateRandomAccessStreamOnFile"
       href: https://msdn.microsoft.com/en-us/library/Hh846256(v=VS.85).aspx
     - name: "CreateRandomAccessStreamOverStream"
@@ -80,6 +84,12 @@
       href: createxamluipresenter.md
     - name: "DbgRaiseAssertionFailure"
       href: https://msdn.microsoft.com/en-us/library/JJ635749(v=VS.85).aspx
+    - name: "GetDXGIInterface(IDirect3DDevice^, DXGI_TYPE**)"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface
+    - name: "GetDXGIInterface(IDirect3DSurface^, DXGI_TYPE**)"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface~r1
+    - name: "GetDXGIInterfaceFromObject"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterfacefromobject
     - name: "GetRestrictedErrorInfo"
       href: https://msdn.microsoft.com/en-us/library/JJ219013(v=VS.85).aspx
     - name: "HSTRING_UserFree"
