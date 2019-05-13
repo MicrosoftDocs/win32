@@ -7,13 +7,11 @@ ms.date: 04/18/2019
 
 # Windows accessibility and automation reference
 
-The Desktop Win32 APIs provide accessibility and automation features to help developers build applications and UI frameworks, assistive technology vendors build tools, testers ensure quality implementations, and people with disabilities use their computers and devices.
+Windows Accessibility supports two categories of features to help Windows developers design accessible applications, assistive technology developers build tools such as screen readers and magnifiers, and software test engineers create automated scripts for testing Windows applications: User settings and a comprehensive set of Win32 APIs.
 
-This section describes these features and the APIs that support them.
+The following sections describe these features and the APIs that support them.
 
-## In this section
-
-- [About Windows Accessibility Features](WinAuto/about-windows-accessibility-features.md)
+- [Windows Accessibility Features](WinAuto/about-windows-accessibility-features.md)
 - [Using Windows Accessibility Features](WinAuto/using-windows-accessibility-features.md)
 - [Windows Accessibility Features Reference](WinAuto/windows-accessibility-features-reference.md)
 - [Windows Automation Reference](WinAuto/windows-automation-api-portal.md)
