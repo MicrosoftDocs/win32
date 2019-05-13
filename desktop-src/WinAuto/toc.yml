@@ -1,8 +1,24 @@
 - name: "Windows Accessibility features"
   href: about-windows-accessibility-features.md
 - name: "Windows Accessibility features reference"
-  href: windows-accessibility-features-reference.md
   items: 
+  - name: "Accessibility Parameters"
+    href: accessibility-parameters.md
+    items: 
+    - name: "High Contrast Parameter"
+      href: high-contrast-parameter.md
+    - name: "Keyboard Preference Parameter"
+      href: keyboard-preference-parameter.md
+    - name: "Screen Reader Parameter"
+      href: screen-reader-parameter.md
+    - name: "ShowSounds Parameter and Audio Descriptions Flag"
+      href: showsounds-parameter.md
+    - name: "Client Area Animation"
+      href: client-area-animation.md
+    - name: "Message Duration"
+      href: message-duration.md
+  - name: "Built-in Accessibility Features"
+    href: built-in-accessibility-features.md
   - name: "Accessibility Functions"
     href: accessibility-functions.md
     items: 
@@ -35,23 +51,6 @@
       href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
     - name: "TOGGLEKEYS"
       href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
-  - name: "Accessibility Parameters"
-  href: accessibility-parameters.md
-  items: 
-  - name: "High Contrast Parameter"
-    href: high-contrast-parameter.md
-  - name: "Keyboard Preference Parameter"
-    href: keyboard-preference-parameter.md
-  - name: "Screen Reader Parameter"
-    href: screen-reader-parameter.md
-  - name: "ShowSounds Parameter and Audio Descriptions Flag"
-    href: showsounds-parameter.md
-  - name: "Client Area Animation"
-    href: client-area-animation.md
-  - name: "Message Duration"
-    href: message-duration.md
-- name: "Built-in Accessibility Features"
-  href: built-in-accessibility-features.md
 - name: "Windows Accessibility features"
   href: using-windows-accessibility-features.md
   items: 
