@@ -12,6 +12,5 @@ Windows Accessibility supports two categories of features to help Windows develo
 The following sections describe these features and the APIs that support them.
 
 - [Windows Accessibility Features](WinAuto/about-windows-accessibility-features.md)
-- [Using Windows Accessibility Features](WinAuto/using-windows-accessibility-features.md)
 - [Windows Accessibility Features Reference](WinAuto/windows-accessibility-features-reference.md)
 - [Windows Automation Reference](WinAuto/windows-automation-api-portal.md)

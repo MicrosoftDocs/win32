@@ -51,9 +51,6 @@
       href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
     - name: "TOGGLEKEYS"
       href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
-- name: "Windows Accessibility features"
-  href: using-windows-accessibility-features.md
-  items: 
   - name: "Checking the State of an Accessibility Parameter"
     href: checking-the-state-of-an-accessibility-parameter.md
   - name: "Enabling a Built-in Accessibility Feature"
