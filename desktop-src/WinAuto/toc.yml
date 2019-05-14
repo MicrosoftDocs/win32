@@ -55,21 +55,18 @@
     href: checking-the-state-of-an-accessibility-parameter.md
   - name: "Enabling a Built-in Accessibility Feature"
     href: enabling-a-built-in-accessibility-feature.md
-- name: "Windows Automation API"
-  href: windows-automation-api-portal.md
+- name: "Windows Accessibility API reference"
   items: 
-  - name: "Windows Automation API reference"
-    items: 
-    - name: "Microsoft Active Accessibility and UI Automation Compared"
-      href: microsoft-active-accessibility-and-ui-automation-compared.md
-    - name: "Architecture and Interoperability"
-      href: architecture-and-interoperability.md
-    - name: "UI Automation Specification"
-      href: ui-automation-specification.md
-    - name: "32-bit and 64-bit Interoperability"
-      href: 32-bit-and-64-bit-interoperability.md
-    - name: "Accessibility Best Practices"
-      href: accessibility-best-practices.md
+  - name: "Windows Accessibility API overview"
+    href: windows-automation-api-portal.md
+  - name: "Microsoft Active Accessibility and UI Automation Compared"
+    href: microsoft-active-accessibility-and-ui-automation-compared.md
+  - name: "Architecture and Interoperability"
+    href: architecture-and-interoperability.md
+  - name: "UI Automation Specification"
+    href: ui-automation-specification.md
+  - name: "32-bit and 64-bit Interoperability"
+    href: 32-bit-and-64-bit-interoperability.md
   - name: "UI Automation"
     href: entry-uiauto-win32.md
     items: 
@@ -3363,6 +3360,8 @@
         href: visual-ui-automation-verify.md
   - name: "Glossary"
     href: uiauto-glossary.md
+- name: "Accessibility Best Practices"
+  href: accessibility-best-practices.md
 - name: "Security Considerations for Assistive Technologies"
   href: uiauto-securityoverview.md
 - name: "Ease of Access - Assistive Technology Registration"
