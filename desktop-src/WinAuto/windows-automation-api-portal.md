@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Windows Automation API overview
 
-This section provides a high-level overview of the Microsoft Windows Automation API 3.0, which includes the legacy Microsoft Active Accessibility (introduced in Windows 95 as a platform add-in), and the Windows implementation of the Microsoft [UI Automation Specification](https://go.microsoft.com/fwlink/p/?linkid=198404)).
+This section provides high-level overviews and detailed API reference for both the Microsoft Windows Automation API 3.0, which includes the Windows implementation of the Microsoft [UI Automation Specification](https://go.microsoft.com/fwlink/p/?linkid=198404)), and Microsoft Active Accessibility (legacy feature introduced in Windows 95 as a platform add-in).
 
 We describe the similarities and differences between Microsoft Active Accessibility and UI Automation, the components and features that enable the two technologies to work together, and provide guidelines for choosing which technology to implement for your specific scenario.
+
+## Related topics
+
+[UI Automation Community Promise](https://go.microsoft.com/fwlink/p/?linkid=198405)
+</dt> </dl>

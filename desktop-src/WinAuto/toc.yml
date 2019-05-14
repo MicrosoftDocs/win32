@@ -107,8 +107,6 @@
           href: uiauto-uiautomationtextunits.md
       - name: "UI Automation Support for Drag-and-Drop"
         href: ui-automation-support-for-drag-and-drop.md
-      - name: "Security Considerations for Assistive Technologies"
-        href: uiauto-securityoverview.md
       - name: "Best Practices for Using Safe Arrays"
         href: uiauto-workingwithsafearrays.md
       - name: "UI Automation Specification and Community Promise"
