@@ -1,8 +1,7 @@
-- name: "Desktop Apps (Win32)"
+- name: "Desktop Win32 Apps"
   href: index.md
   items: 
   - name: "Get Started"
-    href: 
     items: 
     - name: "Overview"
       href: desktop-programming.md
