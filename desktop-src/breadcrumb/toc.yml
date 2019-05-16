@@ -4,8 +4,8 @@
   items:
   - name: Windows
     tocHref: /windows/
-    topicHref: /windows/index
+    topicHref: /windows/
     items:
       - name: Win32
         tocHref: /windows/desktop/
-        topicHref: "/windows/desktop/index"
+        topicHref: "/windows/desktop/"
