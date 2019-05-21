@@ -806,6 +806,8 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture1
         - name: "D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_command_queue_priority
+        - name: "D3D12_FEATURE_DATA_CROSS_NODE"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_cross_node
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS1"
@@ -814,6 +816,8 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options2
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS3"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS4"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options4
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS5"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS6"
@@ -830,8 +834,12 @@
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support
         - name: "D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_multisample_quality_levels
+        - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_support
         - name: "D3D12_FEATURE_DATA_ROOT_SIGNATURE"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_root_signature
+        - name: "D3D12_FEATURE_DATA_SERIALIZATION"
+          href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_serialization
         - name: "D3D12_FEATURE_DATA_SHADER_CACHE"
           href: /windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache
         - name: "D3D12_FEATURE_DATA_SHADER_MODEL"
@@ -1175,6 +1183,8 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_graphics_states
         - name: "D3D12_HEAP_FLAGS"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags
+        - name: "D3D12_HEAP_SERIALIZATION_TIER"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_serialization_tier
         - name: "D3D12_HEAP_TYPE"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type
         - name: "D3D12_HIT_GROUP_TYPE"
@@ -1209,6 +1219,8 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type
         - name: "D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_programmable_sample_positions_tier
+        - name: "D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_resource_session_support_flags
         - name: "D3D12_QUERY_HEAP_TYPE"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_query_heap_type
         - name: "D3D12_QUERY_TYPE"
@@ -1279,6 +1291,8 @@
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate
         - name: "D3D12_SHADING_RATE_COMBINER"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate_combiner
+        - name: "D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER"
+          href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_shared_resource_compatibility_tier
         - name: "D3D12_SRV_DIMENSION"
           href: /windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension
         - name: "D3D12_STATE_OBJECT_FLAGS"

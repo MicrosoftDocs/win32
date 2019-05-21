@@ -1,90 +1,76 @@
-- name: "Windows Accessibility Features"
-  href: windows-accessibility-features.md
+- name: "Windows Accessibility features"
+  href: about-windows-accessibility-features.md
+- name: "Windows Accessibility features reference"
   items: 
-  - name: "About Windows Accessibility Features"
-    href: about-windows-accessibility-features.md
+  - name: "Accessibility Parameters"
+    href: accessibility-parameters.md
     items: 
-    - name: "Accessibility Parameters"
-      href: accessibility-parameters.md
-      items: 
-      - name: "High Contrast Parameter"
-        href: high-contrast-parameter.md
-      - name: "Keyboard Preference Parameter"
-        href: keyboard-preference-parameter.md
-      - name: "Screen Reader Parameter"
-        href: screen-reader-parameter.md
-      - name: "ShowSounds Parameter and Audio Descriptions Flag"
-        href: showsounds-parameter.md
-      - name: "Client Area Animation"
-        href: client-area-animation.md
-      - name: "Message Duration"
-        href: message-duration.md
-    - name: "Built-in Accessibility Features"
-      href: built-in-accessibility-features.md
-    - name: "Ease of Access - Assistive Technology Registration"
-      href: ease-of-access---assistive-technology-registration.md
-  - name: "Using Windows Accessibility Features"
-    href: using-windows-accessibility-features.md
+    - name: "High Contrast Parameter"
+      href: high-contrast-parameter.md
+    - name: "Keyboard Preference Parameter"
+      href: keyboard-preference-parameter.md
+    - name: "Screen Reader Parameter"
+      href: screen-reader-parameter.md
+    - name: "ShowSounds Parameter and Audio Descriptions Flag"
+      href: showsounds-parameter.md
+    - name: "Client Area Animation"
+      href: client-area-animation.md
+    - name: "Message Duration"
+      href: message-duration.md
+  - name: "Built-in Accessibility Features"
+    href: built-in-accessibility-features.md
+  - name: "Accessibility Functions"
+    href: accessibility-functions.md
     items: 
-    - name: "Checking the State of an Accessibility Parameter"
-      href: checking-the-state-of-an-accessibility-parameter.md
-    - name: "Enabling a Built-in Accessibility Feature"
-      href: enabling-a-built-in-accessibility-feature.md
-  - name: "Windows Accessibility Features Reference"
-    href: windows-accessibility-features-reference.md
+    - name: "RegisterPointerInputTarget"
+      href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtarget
+    - name: "RegisterPointerInputTargetEx"
+      href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtargetex
+    - name: "SoundSentryProc"
+      href: https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx
+    - name: "UnregisterPointerInputTarget"
+      href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget
+    - name: "UnregisterPointerInputTargetEx"
+      href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtargetex
+  - name: "Accessibility Structures"
+    href: accessibility-structures.md
     items: 
-    - name: "Accessibility Functions"
-      href: accessibility-functions.md
-      items: 
-      - name: "RegisterPointerInputTarget"
-        href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtarget
-      - name: "RegisterPointerInputTargetEx"
-        href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtargetex
-      - name: "SoundSentryProc"
-        href: https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx
-      - name: "UnregisterPointerInputTarget"
-        href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget
-      - name: "UnregisterPointerInputTargetEx"
-        href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtargetex
-    - name: "Accessibility Structures"
-      href: accessibility-structures.md
-      items: 
-      - name: "ACCESSTIMEOUT"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagaccesstimeout
-      - name: "FILTERKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagfilterkeys
-      - name: "HIGHCONTRAST"
-        href: /windows/desktop/api/Winuser/ns-winuser-taghighcontrasta
-      - name: "MOUSEKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagmousekeys
-      - name: "SERIALKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagserialkeysa
-      - name: "SOUNDSENTRY"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagsoundsentrya
-      - name: "STICKYKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
-      - name: "TOGGLEKEYS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
-- name: "Windows Automation API"
-  href: windows-automation-api-portal.md
+    - name: "ACCESSTIMEOUT"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagaccesstimeout
+    - name: "FILTERKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagfilterkeys
+    - name: "HIGHCONTRAST"
+      href: /windows/desktop/api/Winuser/ns-winuser-taghighcontrasta
+    - name: "MOUSEKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagmousekeys
+    - name: "SERIALKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagserialkeysa
+    - name: "SOUNDSENTRY"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagsoundsentrya
+    - name: "STICKYKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
+    - name: "TOGGLEKEYS"
+      href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
+  - name: "Checking the State of an Accessibility Parameter"
+    href: checking-the-state-of-an-accessibility-parameter.md
+  - name: "Enabling a Built-in Accessibility Feature"
+    href: enabling-a-built-in-accessibility-feature.md
+- name: "Windows Accessibility API reference"
   items: 
-  - name: "Windows Automation API Overview"
-    href: windows-automation-api-overview.md
-    items: 
-    - name: "Microsoft Active Accessibility and UI Automation Compared"
-      href: microsoft-active-accessibility-and-ui-automation-compared.md
-    - name: "Architecture and Interoperability"
-      href: architecture-and-interoperability.md
-    - name: "UI Automation Specification"
-      href: ui-automation-specification.md
-    - name: "32-bit and 64-bit Interoperability"
-      href: 32-bit-and-64-bit-interoperability.md
-    - name: "Accessibility Best Practices"
-      href: accessibility-best-practices.md
+  - name: "Windows Accessibility API overview"
+    href: windows-automation-api-portal.md
+  - name: "Microsoft Active Accessibility and UI Automation Compared"
+    href: microsoft-active-accessibility-and-ui-automation-compared.md
+  - name: "Architecture and Interoperability"
+    href: architecture-and-interoperability.md
+  - name: "UI Automation Specification"
+    href: ui-automation-specification.md
+  - name: "32-bit and 64-bit Interoperability"
+    href: 32-bit-and-64-bit-interoperability.md
   - name: "UI Automation"
     href: entry-uiauto-win32.md
     items: 
-    - name: "UI Automation Fundamentals"
+    - name: "UI Automation fundamentals"
       href: entry-uiautocore-overview.md
       items: 
       - name: "UI Automation Overview"
@@ -121,13 +107,11 @@
           href: uiauto-uiautomationtextunits.md
       - name: "UI Automation Support for Drag-and-Drop"
         href: ui-automation-support-for-drag-and-drop.md
-      - name: "Security Considerations for Assistive Technologies"
-        href: uiauto-securityoverview.md
       - name: "Best Practices for Using Safe Arrays"
         href: uiauto-workingwithsafearrays.md
       - name: "UI Automation Specification and Community Promise"
         href: uiauto-specandcommunitypromise.md
-    - name: "UI Automation Provider Programmer's Guide"
+    - name: "UI Automation provider programmer's guide"
       href: uiauto-providerportal.md
       items: 
       - name: "UI Automation Providers Overview"
@@ -303,7 +287,7 @@
           href: uiauto-howto-support-controlpatterns-in-provider.md
         - name: "How to Create a Client-Side (Proxy) UI Automation Provider"
           href: uiauto-howto-create-clientside-provider.md
-    - name: "UI Automation Client Programmer's Guide"
+    - name: "UI Automation client programmer's guide"
       href: uiauto-clientportal.md
       items: 
       - name: "UI Automation Clients Overview"
@@ -359,10 +343,10 @@
     - name: "Reference"
       href: entry-uiautocore-ref.md
       items: 
-      - name: "UI Automation Providers"
+      - name: "UI Automation providers"
         href: uiauto-entry-uiautoprovidersforwin32apps.md
         items: 
-        - name: "Interfaces for Providers"
+        - name: "Interfaces for providers"
           href: uiauto-interfaces.md
           items: 
           - name: "IAccessibleEx"
@@ -3138,7 +3122,7 @@
         href: appendix-f--object-identifier-values-for-objid-queryclassnameidx.md
       - name: "Appendix G: Active Accessibility Bridge to UI Automation"
         href: appendix-g--active-accessibility-bridge-to-ui-automation.md
-  - name: "Common Infrastructure"
+  - name: "Common infrastructure"
     href: common-infrastructure.md
     items: 
     - name: "WinEvents"
@@ -3196,181 +3180,187 @@
         href: host-a-ui-automation-windowless-activex-control.md
       - name: "How to Host an MSAA Windowless ActiveX Control"
         href: host-an-msaa-windowless-activex-control.md
-  - name: "Testing Tools"
-    href: testing-tools.md
+- name: "Accessibility best practices"
+  href: accessibility-best-practices.md
+- name: "Accessibility testing tools"
+  href: testing-tools.md
+  items: 
+  - name: "Accessible Event Watcher"
+    href: accessible-event-watcher.md
+  - name: "Inspect"
+    href: inspect-objects.md
+  - name: "AccScope"
+    href: accscope.md
+  - name: "UI Accessibility Checker"
+    href: ui-accessibility-checker.md
     items: 
-    - name: "Accessible Event Watcher"
-      href: accessible-event-watcher.md
-    - name: "Inspect"
-      href: inspect-objects.md
-    - name: "AccScope"
-      href: accscope.md
-    - name: "UI Accessibility Checker"
-      href: ui-accessibility-checker.md
+    - name: "Testing with AccChecker"
+      href: testing-with-accchecker.md
+    - name: "The AccChecker Graphical User Interface"
+      href: the-accchecker-graphical-user-interface.md
+    - name: "The AccChecker Console"
+      href: the-accchecker-console.md
+    - name: "The AccChecker API"
+      href: the-accchecker-api.md
+    - name: "Verification Routines"
+      href: verification-routines.md
+    - name: "Custom Verification Routines"
+      href: custom-verification-routines.md
+    - name: "Verification Log Messages"
+      href: verification-log-messages.md
       items: 
-      - name: "Testing with AccChecker"
-        href: testing-with-accchecker.md
-      - name: "The AccChecker Graphical User Interface"
-        href: the-accchecker-graphical-user-interface.md
-      - name: "The AccChecker Console"
-        href: the-accchecker-console.md
-      - name: "The AccChecker API"
-        href: the-accchecker-api.md
-      - name: "Verification Routines"
-        href: verification-routines.md
-      - name: "Custom Verification Routines"
-        href: custom-verification-routines.md
-      - name: "Verification Log Messages"
-        href: verification-log-messages.md
-        items: 
-        - name: "AccessibleObjectFromPointReturnedNullIAccessible"
-          href: accessibleobjectfrompointreturnednulliaccessible.md
-        - name: "AccessibleObjectFromPointReturnedNot_S_OK"
-          href: accessibleobjectfrompointreturnednot-s-ok.md
-        - name: "AccessibleObjectFromPointReturnedNullChildId"
-          href: accessibleobjectfrompointreturnednullchildid.md
-        - name: "AccNameContainsInvalidString"
-          href: accnamecontainsinvalidstring.md
-        - name: "AccNameLengthTooLong"
-          href: accnamelengthtoolong.md
-        - name: "AccNameShouldNotContainRole"
-          href: accnameshouldnotcontainrole.md
-        - name: "AccNavigate_ReturnedElementWithIncorrectParent"
-          href: accnavigate-returnedelementwithincorrectparent.md
-        - name: "AppearsToNotSupportTabbing"
-          href: appearstonotsupporttabbing.md
-        - name: "ARIA Container Tabindex Error"
-          href: aria-container-tabindex.md
-        - name: "ARIA Container Role Keyboard Accessibility Error"
-          href: aria-container-keyboard-events.md
-        - name: "ARIA Container Role (without active descendant) Tabindex Error"
-          href: aria-container--no-active-descendant--tabindex.md
-        - name: "ARIA Container Role (without active descendant) Keyboard Accessibility Error"
-          href: aria-container--no-active-descendants--keyboard-events.md
-        - name: "ARIA Container Role Error"
-          href: aria-container-role.md
-        - name: "ARIA Data Table Error"
-          href: aria-table-name-and-header.md
-        - name: "ARIA Data Table Warning"
-          href: aria-data-table-description.md
-        - name: "ARIA Grid Structure Error"
-          href: aria-grid-structure.md
-        - name: "ARIA Label Error"
-          href: aria-label.md
-        - name: "ARIA Presentation Table Error"
-          href: aria-layout-table.md
-        - name: "ARIA Range Control Attributes Missing"
-          href: aria-range-control-attributes-missing.md
-        - name: "ARIA Range Control Attributes Incompatible"
-          href: aria-range-control-attribute-out-of-range.md
-        - name: "ARIA Role Error"
-          href: aria-role-invalid.md
-        - name: "ARIA Role Error for elements with event handlers"
-          href: aria-role-missing.md
-        - name: "ARIA Tabindex Error"
-          href: aria-click-tabindex.md
-        - name: "BoundingRectIsIncorrect"
-          href: boundingrectisincorrect.md
-        - name: "BoundingRectNotHitTestable"
-          href: boundingrectnothittestable.md
-        - name: "CheckTreeDepth"
-          href: checktreedepth.md
-        - name: "ControlShouldHaveValue"
-          href: controlshouldhavevalue.md
-        - name: "ControlTypeNoExpectedPatternsSupported"
-          href: controltypenoexpectedpatternssupported.md
-        - name: "ControlTypeRequiredPatternNotSupported"
-          href: controltyperequiredpatternnotsupported.md
-        - name: "CustomControlTypeWithoutLocalizedControlType"
-          href: customcontroltypewithoutlocalizedcontroltype.md
-        - name: "DragPattern/DragDropPattern elements requires Name"
-          href: dragpattern-dragdroppattern-elements-requires-name-.md
-        - name: "DragPattern/DragDropPattern elements requires valid DropEffect"
-          href: dragpattern-dragdroppattern-elements-requires-valid-dropeffect.md
-        - name: "DuplicateAccessKey"
-          href: duplicateaccesskey.md
-        - name: "DuplicateSiblingIDs"
-          href: duplicatesiblingids.md
-        - name: "DuplicateSiblingNames"
-          href: duplicatesiblingnames.md
-        - name: "ElementFromPointReturnedNull"
-          href: elementfrompointreturnednull.md
-        - name: "ElementHasNoName"
-          href: elementhasnoname.md
-        - name: "ElementIsChildOfParentMulipleTimes"
-          href: elementischildofparentmulipletimes.md
-        - name: "ElementIsNotChildOfElementsParent"
-          href: elementisnotchildofelementsparent.md
-        - name: "ElementIsOrphaned"
-          href: elementisorphaned.md
-        - name: "ElementsChildHasDifferentParent"
-          href: elementschildhasdifferentparent.md
-        - name: "ElementShouldBeOffScreen"
-          href: elementshouldbeoffscreen.md
-        - name: "FirstChildLastChildMismatch"
-          href: firstchildlastchildmismatch.md
-        - name: "GatheringElement"
-          href: gatheringelement.md
-        - name: "InconsistentState, InconsistentProperties"
-          href: inconsistentstate--inconsistentproperties.md
-        - name: "IncorrectRoundTrip"
-          href: incorrectroundtrip.md
-        - name: "InvalidRole"
-          href: invalidrole.md
-        - name: "MemberNotImplememented"
-          href: membernotimplememented.md
-        - name: "MethodExceptionOccured"
-          href: methodexceptionoccured.md
-        - name: "MethodReturnedUnexpectedHResult"
-          href: methodreturnedunexpectedhresult.md
-        - name: "MissingItemInTabOrder"
-          href: missingitemintaborder.md
-        - name: "NullParent"
-          href: nullparent.md
-        - name: "StartingTab"
-          href: startingtab.md
-        - name: "TabbedBackwardTo"
-          href: tabbedbackwardto.md
-        - name: "TabbedForwardTo"
-          href: tabbedforwardto.md
-        - name: "TabbedToInfo"
-          href: tabbedtoinfo.md
-        - name: "TabbedToUnknownElement"
-          href: tabbedtounknownelement.md
-        - name: "TabbingNotCyclic"
-          href: tabbingnotcyclic.md
-        - name: "TabbingNotSymmetric"
-          href: tabbingnotsymmetric.md
-        - name: "TabOrderInQuestion"
-          href: taborderinquestion.md
-        - name: "TooManyChildren"
-          href: toomanychildren.md
-        - name: "TreeMightBeCyclic"
-          href: treemightbecyclic.md
-        - name: "TreeTooDeep"
-          href: treetoodeep.md
-        - name: "UiaDuplicateAccessKey"
-          href: uiaduplicateaccesskey.md
-        - name: "UiaElementDoesNotParentToRoot"
-          href: uiaelementdoesnotparenttoroot.md
-        - name: "UiaElementIsOrphaned"
-          href: uiaelementisorphaned.md
-        - name: "UiaNameLengthTooLong"
-          href: uianamelengthtoolong.md
-        - name: "UiaNameShouldNotContainControlType"
-          href: uianameshouldnotcontaincontroltype.md
-        - name: "UnexpectedTestError"
-          href: unexpectedtesterror.md
-        - name: "VariantNotInt (CheckRole)"
-          href: variantnotint.md
-        - name: "VariantNotInt (CheckState)"
-          href: variantnotint--checkstate-.md
-    - name: "UI Automation Verify"
-      href: ui-automation-verify.md
-      items: 
-      - name: "UI Automation Test Library"
-        href: ui-automation-test-library.md
-      - name: "Visual UI Automation Verify"
-        href: visual-ui-automation-verify.md
-  - name: "Glossary"
-    href: uiauto-glossary.md
+      - name: "AccessibleObjectFromPointReturnedNullIAccessible"
+        href: accessibleobjectfrompointreturnednulliaccessible.md
+      - name: "AccessibleObjectFromPointReturnedNot_S_OK"
+        href: accessibleobjectfrompointreturnednot-s-ok.md
+      - name: "AccessibleObjectFromPointReturnedNullChildId"
+        href: accessibleobjectfrompointreturnednullchildid.md
+      - name: "AccNameContainsInvalidString"
+        href: accnamecontainsinvalidstring.md
+      - name: "AccNameLengthTooLong"
+        href: accnamelengthtoolong.md
+      - name: "AccNameShouldNotContainRole"
+        href: accnameshouldnotcontainrole.md
+      - name: "AccNavigate_ReturnedElementWithIncorrectParent"
+        href: accnavigate-returnedelementwithincorrectparent.md
+      - name: "AppearsToNotSupportTabbing"
+        href: appearstonotsupporttabbing.md
+      - name: "ARIA Container Tabindex Error"
+        href: aria-container-tabindex.md
+      - name: "ARIA Container Role Keyboard Accessibility Error"
+        href: aria-container-keyboard-events.md
+      - name: "ARIA Container Role (without active descendant) Tabindex Error"
+        href: aria-container--no-active-descendant--tabindex.md
+      - name: "ARIA Container Role (without active descendant) Keyboard Accessibility Error"
+        href: aria-container--no-active-descendants--keyboard-events.md
+      - name: "ARIA Container Role Error"
+        href: aria-container-role.md
+      - name: "ARIA Data Table Error"
+        href: aria-table-name-and-header.md
+      - name: "ARIA Data Table Warning"
+        href: aria-data-table-description.md
+      - name: "ARIA Grid Structure Error"
+        href: aria-grid-structure.md
+      - name: "ARIA Label Error"
+        href: aria-label.md
+      - name: "ARIA Presentation Table Error"
+        href: aria-layout-table.md
+      - name: "ARIA Range Control Attributes Missing"
+        href: aria-range-control-attributes-missing.md
+      - name: "ARIA Range Control Attributes Incompatible"
+        href: aria-range-control-attribute-out-of-range.md
+      - name: "ARIA Role Error"
+        href: aria-role-invalid.md
+      - name: "ARIA Role Error for elements with event handlers"
+        href: aria-role-missing.md
+      - name: "ARIA Tabindex Error"
+        href: aria-click-tabindex.md
+      - name: "BoundingRectIsIncorrect"
+        href: boundingrectisincorrect.md
+      - name: "BoundingRectNotHitTestable"
+        href: boundingrectnothittestable.md
+      - name: "CheckTreeDepth"
+        href: checktreedepth.md
+      - name: "ControlShouldHaveValue"
+        href: controlshouldhavevalue.md
+      - name: "ControlTypeNoExpectedPatternsSupported"
+        href: controltypenoexpectedpatternssupported.md
+      - name: "ControlTypeRequiredPatternNotSupported"
+        href: controltyperequiredpatternnotsupported.md
+      - name: "CustomControlTypeWithoutLocalizedControlType"
+        href: customcontroltypewithoutlocalizedcontroltype.md
+      - name: "DragPattern/DragDropPattern elements requires Name"
+        href: dragpattern-dragdroppattern-elements-requires-name-.md
+      - name: "DragPattern/DragDropPattern elements requires valid DropEffect"
+        href: dragpattern-dragdroppattern-elements-requires-valid-dropeffect.md
+      - name: "DuplicateAccessKey"
+        href: duplicateaccesskey.md
+      - name: "DuplicateSiblingIDs"
+        href: duplicatesiblingids.md
+      - name: "DuplicateSiblingNames"
+        href: duplicatesiblingnames.md
+      - name: "ElementFromPointReturnedNull"
+        href: elementfrompointreturnednull.md
+      - name: "ElementHasNoName"
+        href: elementhasnoname.md
+      - name: "ElementIsChildOfParentMulipleTimes"
+        href: elementischildofparentmulipletimes.md
+      - name: "ElementIsNotChildOfElementsParent"
+        href: elementisnotchildofelementsparent.md
+      - name: "ElementIsOrphaned"
+        href: elementisorphaned.md
+      - name: "ElementsChildHasDifferentParent"
+        href: elementschildhasdifferentparent.md
+      - name: "ElementShouldBeOffScreen"
+        href: elementshouldbeoffscreen.md
+      - name: "FirstChildLastChildMismatch"
+        href: firstchildlastchildmismatch.md
+      - name: "GatheringElement"
+        href: gatheringelement.md
+      - name: "InconsistentState, InconsistentProperties"
+        href: inconsistentstate--inconsistentproperties.md
+      - name: "IncorrectRoundTrip"
+        href: incorrectroundtrip.md
+      - name: "InvalidRole"
+        href: invalidrole.md
+      - name: "MemberNotImplememented"
+        href: membernotimplememented.md
+      - name: "MethodExceptionOccured"
+        href: methodexceptionoccured.md
+      - name: "MethodReturnedUnexpectedHResult"
+        href: methodreturnedunexpectedhresult.md
+      - name: "MissingItemInTabOrder"
+        href: missingitemintaborder.md
+      - name: "NullParent"
+        href: nullparent.md
+      - name: "StartingTab"
+        href: startingtab.md
+      - name: "TabbedBackwardTo"
+        href: tabbedbackwardto.md
+      - name: "TabbedForwardTo"
+        href: tabbedforwardto.md
+      - name: "TabbedToInfo"
+        href: tabbedtoinfo.md
+      - name: "TabbedToUnknownElement"
+        href: tabbedtounknownelement.md
+      - name: "TabbingNotCyclic"
+        href: tabbingnotcyclic.md
+      - name: "TabbingNotSymmetric"
+        href: tabbingnotsymmetric.md
+      - name: "TabOrderInQuestion"
+        href: taborderinquestion.md
+      - name: "TooManyChildren"
+        href: toomanychildren.md
+      - name: "TreeMightBeCyclic"
+        href: treemightbecyclic.md
+      - name: "TreeTooDeep"
+        href: treetoodeep.md
+      - name: "UiaDuplicateAccessKey"
+        href: uiaduplicateaccesskey.md
+      - name: "UiaElementDoesNotParentToRoot"
+        href: uiaelementdoesnotparenttoroot.md
+      - name: "UiaElementIsOrphaned"
+        href: uiaelementisorphaned.md
+      - name: "UiaNameLengthTooLong"
+        href: uianamelengthtoolong.md
+      - name: "UiaNameShouldNotContainControlType"
+        href: uianameshouldnotcontaincontroltype.md
+      - name: "UnexpectedTestError"
+        href: unexpectedtesterror.md
+      - name: "VariantNotInt (CheckRole)"
+        href: variantnotint.md
+      - name: "VariantNotInt (CheckState)"
+        href: variantnotint--checkstate-.md
+  - name: "UI Automation Verify"
+    href: ui-automation-verify.md
+    items: 
+    - name: "UI Automation Test Library"
+      href: ui-automation-test-library.md
+    - name: "Visual UI Automation Verify"
+      href: visual-ui-automation-verify.md
+- name: "Security considerations for assistive technologies"
+  href: uiauto-securityoverview.md
+- name: "Ease of Access - assistive technology registration"
+  href: ease-of-access---assistive-technology-registration.md
+- name: "Glossary"
+  href: uiauto-glossary.md

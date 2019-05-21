@@ -286,8 +286,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "desktop-src/ETW/index.md",
-      "redirect_url": "/windows/desktop/ETW/event-tracing-portal",
+      "source_path": "desktop-src/eap/index.md",
+      "redirect_url": "/windows/desktop/eap/eap-start-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/eaphost/index.md",
+      "redirect_url": "/windows/desktop/eaphost/portal",
       "redirect_document_id": false
     },
     {
