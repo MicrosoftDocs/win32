@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The Win32 API (also called the Windows API) is the original platform for native C/C++ Windows applications that require direct access to Windows and hardware. It provides a first-class development experience without depending on a managed runtime environment like .NET and WinRT (for UWP apps for Windows 10). This makes the Win32 API the platform of choice for applications that need the highest level of performance and direct access to system hardware.
 
 > [!NOTE]
-> This documentation covers how to create desktop Windows apps with the Win32 API. The Win32 API is one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](windows/apps/desktop/choose-your-platform).
+> This documentation covers how to create desktop Windows apps with the Win32 API. The Win32 API is one of several app platforms you can use to build desktop Windows apps. For more info about other app platforms, see [Choose your platform](/windows/apps/desktop/choose-your-platform).
 
 ## Get set up
 
@@ -59,6 +59,6 @@ Win32 APIs exist for many features and technologies in Windows 10, including cor
 ## Related topics
 
 * [Develop desktop apps](/windows/apps/desktop)
-* [Windows API reference](api)
-* [Windows API index](apiindex/api-index-portal)
-* [Windows Runtime C++ reference](winrt/reference)
+* [Windows API reference](/windows/desktop/api/)
+* [Windows API index](/windows/desktop/apiindex/api-index-portal)
+* [Windows Runtime C++ reference](/windows/desktop/winrt/reference)

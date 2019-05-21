@@ -32,5 +32,5 @@ The following articles contain info about new Win32 APIs that were introduced st
 
 * [Get started with Win32 desktop Windows apps](desktop-programming.md)
 * [What's cool in Windows 10](https://developer.microsoft.com/windows/windows-10-for-developers)
-* [Windows API reference](api)
-* [Windows API index](apiindex/api-index-portal)
+* [Windows API reference](/windows/desktop/api/)
+* [Windows API index](/windows/desktop/apiindex/api-index-portal)
