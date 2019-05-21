@@ -140,8 +140,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTCONN** | The socket s is not connected. |
 | **WSAENOTSOCK** | The descriptor s is not a socket. |
-| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported.
-This error is returned if the **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT** IOCTL is not supported by the transport provider. |
+| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT** IOCTL is not supported by the transport provider. |
 
 ## Remarks
 

@@ -134,10 +134,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAEFAULT** | The *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
-| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified.
-This error is also returned if the *cbInBuffer* parameter is less than the `sizeof(UCHAR)` or the *lpvInBuffer* parameter points to value that is not a **RCVALL_VALUE** enumeration value.
-This error can also be returned if the network interface associated with the socket cannot be found.
-This could occur if the network interface associated with the socket is deleted or removed (a remove PCMCIA or USB network device, for example). |
+| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. This error is also returned if the *cbInBuffer* parameter is less than the `sizeof(UCHAR)` or the *lpvInBuffer* parameter points to value that is not a **RCVALL_VALUE** enumeration value. This error can also be returned if the network interface associated with the socket cannot be found. This could occur if the network interface associated with the socket is deleted or removed (a remove PCMCIA or USB network device, for example). |
 | **WSAENETDOWN** | The network subsystem has failed. |
 | **WSAENOBUFS** | No buffer space available. |
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
