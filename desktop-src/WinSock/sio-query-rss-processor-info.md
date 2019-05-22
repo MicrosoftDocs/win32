@@ -16,7 +16,7 @@ api_location:
 
 ## Description
 
-The **SIO_QUERY_RSS_PROCESSOR_INFO** control code queries the association between a socket and an RSS processor core and NUMA node.
+The **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** control code queries the association between a socket and an RSS processor core and NUMA node.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
 
@@ -59,7 +59,7 @@ A descriptor identifying a socket.
 ### dwIoControlCode
 
 The control code for the operation.
-Use **SIO_QUERY_RSS_PROCESSOR_INFO** for this operation.
+Use **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** for this operation.
 
 ### lpvInBuffer
 
@@ -74,12 +74,12 @@ This parameter is unused for this operation.
 ### lpvOutBuffer
 
 A pointer to the output buffer.
-This parameter should point to a [**SOCKET_PROCESSOR_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure if the *lpOverlapped* and *lpCompletionRoutine* parameters are **NULL**.
+This parameter should point to a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure if the *lpOverlapped* and *lpCompletionRoutine* parameters are **NULL**.
 
 ### cbOutBuffer
 
 The size, in bytes, of the output buffer.
-This parameter must be at least the size of a [**SOCKET_PROCESSOR_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure.
+This parameter must be at least the size of a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure.
 
 ### lpcbBytesReturned
 
@@ -131,28 +131,28 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 
 | Error code | Meaning |
 |------------|---------|
-| **ERROR_INSUFFICIENT_BUFFER** | The data area passed to a system call is too small. This error is returned if the buffer pointed to by the *lpvOutBuffer* parameter with a buffer size passed in the *cbOutBuffer* parameter is too small. The buffer size required will be returned in the *lpcbBytesReturned* parameter. This error is returned if the *cbOutBuffer* parameter is less than the size of a [**SOCKET_PROCESSOR_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure. |
-| **WSA_IO_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
-| **WSA_OPERATION_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO_FLUSH** IOCTL command. |
+| **ERROR\_INSUFFICIENT\_BUFFER** | The data area passed to a system call is too small. This error is returned if the buffer pointed to by the *lpvOutBuffer* parameter with a buffer size passed in the *cbOutBuffer* parameter is too small. The buffer size required will be returned in the *lpcbBytesReturned* parameter. This error is returned if the *cbOutBuffer* parameter is less than the size of a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure. |
+| **WSA\_IO\_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
+| **WSA\_OPERATION\_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO\_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The *lpvInBuffer*, *lpvoutBuffer*, *lpcbBytesReturned*, *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
-| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. This error is returned if the *cbOutBuffer* parameter is less than the size of a [**SOCKET_PROCESSOR_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure.
+| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. This error is returned if the *cbOutBuffer* parameter is less than the size of a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure.
 | **WSAENETDOWN** | The network subsystem has failed. |
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTCONN** | The socket *s* is not connected. |
 | **WSAENOTSOCK** | The descriptor *s* is not a socket. |
-| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO_QUERY_RSS_PROCESSOR_INFO** IOCTL is not supported by the transport provider. |
+| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** IOCTL is not supported by the transport provider. |
 
 ## Remarks
 
-The **SIO_QUERY_RSS_PROCESSOR_INFO** IOCTL is supported on Windows 8, and Windows Server 2012, and later versions of the operating system.
+The **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** IOCTL is supported on Windows 8, and Windows Server 2012, and later versions of the operating system.
 
-The **SIO_QUERY_RSS_PROCESSOR_INFO** IOCTL is used to determine the association between a socket and an RSS processor core and NUMA node.
-This IOCTL returns a [**SOCKET_PROCESSOR_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure that contains the [**PROCESSOR_NUMBER**](/windows/desktop/api/winnt/ns-winnt-processor_number) and the NUMA node ID.
-The returned [**PROCESSOR_NUMBER**](/windows/desktop/api/winnt/ns-winnt-processor_number) structure contains a group number and relative processor number within the group.
+The **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** IOCTL is used to determine the association between a socket and an RSS processor core and NUMA node.
+This IOCTL returns a [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity) structure that contains the [**PROCESSOR\_NUMBER**](/windows/desktop/api/winnt/ns-winnt-processor_number) and the NUMA node ID.
+The returned [**PROCESSOR\_NUMBER**](/windows/desktop/api/winnt/ns-winnt-processor_number) structure contains a group number and relative processor number within the group.
 
-If the socket is a UDP socket, the socket must be connected for the **SIO_QUERY_RSS_PROCESSOR_INFO** IOCTL to work properly.
+If the socket is a UDP socket, the socket must be connected for the **SIO\_QUERY\_RSS\_PROCESSOR\_INFO** IOCTL to work properly.
 
 ## See also
 

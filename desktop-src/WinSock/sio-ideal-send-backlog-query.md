@@ -16,7 +16,7 @@ api_location:
 
 ## Description
 
-The **SIO_IDEAL_SEND_BACKLOG_QUERY** control code retrieves the ideal send backlog (ISB) value for the underlying connection.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** control code retrieves the ideal send backlog (ISB) value for the underlying connection.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
 
@@ -59,7 +59,7 @@ A descriptor identifying a socket.
 ### dwIoControlCode
 
 The control code for the operation.
-Use **SIO_IDEAL_SEND_BACKLOG_QUERY** for this operation.
+Use **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** for this operation.
 
 ### lpvInBuffer
 
@@ -131,8 +131,8 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 
 | Error code | Meaning |
 |------------|---------|
-| **WSA_IO_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
-| **WSA_OPERATION_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO_FLUSH** IOCTL command. |
+| **WSA\_IO\_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
+| **WSA\_OPERATION\_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO\_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The *lpvInBuffer*, *lpvoutBuffer*, *lpcbBytesReturned*, *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
@@ -141,28 +141,28 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTCONN** | The socket s is not connected. |
 | **WSAENOTSOCK** | The descriptor *s* is not a socket. |
-| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL is not supported by the transport provider. This error is also returned when an attempt to use the **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL is made on a datagram socket. |
+| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is not supported by the transport provider. This error is also returned when an attempt to use the **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is made on a datagram socket. |
 
 ## Remarks
 
-The **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL is supported on Windows Server 2008, Windows Vista with Service Pack 1 (SP1), and later versions of the operating system.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is supported on Windows Server 2008, Windows Vista with Service Pack 1 (SP1), and later versions of the operating system.
 
 When sending data over a TCP connection using Windows sockets, it is important to keep a sufficient amount of data outstanding (sent but not acknowledged yet) in TCP in order to achieve the highest throughput.
 The ideal value for the amount of data outstanding to achieve the best throughput for the TCP connection is called the ideal send backlog (ISB) size.
 The ISB value is a function of the bandwidth-delay product of the TCP connection and the receiver's advertised receive window (and partly the amount of congestion in the network).
 
 The ISB value per connection is available from the TCP protocol implementation in Windows Server 2008, Windows Vista with SP1, and later versions of the operating system.
-The **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL can be used by an application to get a notification when the ISB value changes dynamically for a connection.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL can be used by an application to get a notification when the ISB value changes dynamically for a connection.
 
-On Windows Server 2008, Windows Vista with SP1, and later versions of the operating system, the [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTLs are supported on stream-oriented sockets that are in a connected state.
+On Windows Server 2008, Windows Vista with SP1, and later versions of the operating system, the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs are supported on stream-oriented sockets that are in a connected state.
 
 The range for the ISB value for a TCP connection can theoretically vary from 0 to a maximum of 16 megabytes.
 
-The typical usage of the [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTLs is based on the send method used by the applications.
+The typical usage of the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs is based on the send method used by the applications.
 Two common cases are discussed.
 
 Applications that perform one blocking or non-blocking send request at a time typically rely on internal send buffering by Winsock to achieve decent throughput.
-The send buffer limit for a given connection is controlled by the **SO_SNDBUF** socket option.
+The send buffer limit for a given connection is controlled by the **SO\_SNDBUF** socket option.
 For the blocking and non-blocking send method, the send buffer limit determines how much data is kept outstanding in TCP.
 If the ISB value for the connection is larger than the send buffer limit, then the throughput achieved on the connection will not be optimal.
 In order to achieve better throughput, the applications can set the send buffer limit based on the result of the ISB query as ISB change notifications occur on the connection.
@@ -176,30 +176,30 @@ Ideally, the application should try to keep the following equation satisfied:
 Note that using the ISB IOCTLs over TCP sockets in the above fashion can lead to increased memory usage in exchange for increased throughput on connections with a high bandwidth-delay product.
 The TCP implementation in Windows will throttle ISB values as necessary based on overall system memory usage.
 
-The **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL is allowed only on a stream socket that is in the connected state.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is allowed only on a stream socket that is in the connected state.
 Otherwise the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function will fail with **WSAENOTCONN**.
 
 Any IOCTL may block indefinitely, depending on the service provider's implementation.
 If the application cannot tolerate blocking in a [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function call, overlapped I/O would be advised for IOCTLs that are especially likely to block.
 
-The **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL is not likely to block so it is normally called synchronously with the *lpOverlapped* and *lpCompletionRoutine* parameters set to **NULL**.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is not likely to block so it is normally called synchronously with the *lpOverlapped* and *lpCompletionRoutine* parameters set to **NULL**.
 
-The **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL can fail with **WSAEINTR** or **WSA_OPERATION_ABORTED** under the following cases:
+The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL can fail with **WSAEINTR** or **WSA\_OPERATION\_ABORTED** under the following cases:
 
 The TCP connection is gracefully disconnected in the send direction.
-This can occur as a result of a call to shutdown function with the how parameter set to **SD_SEND**, a call to the DisconnectEx function, or a call to the TransmitFile or TransmitPackets function with dwFlags parameter set to **TF_DISCONNECT** or **TF_REUSE**.
+This can occur as a result of a call to shutdown function with the how parameter set to **SD\_SEND**, a call to the DisconnectEx function, or a call to the TransmitFile or TransmitPackets function with dwFlags parameter set to **TF\_DISCONNECT** or **TF\_REUSE**.
 The TCP connection has been reset or aborted.
 The request is canceled by the I/O Manager.
 
 Two inline wrapper functions for these IOCTLs are defined in the *Ws2tcpip.h* header file.
-It is recommended that these inline functions be used instead of using the [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTLs directly.
+It is recommended that these inline functions be used instead of using the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs directly.
 
-The inline wrapper function for the [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](sio-ideal-send-backlog-change.md) IOCTL is the idealsendbacklognotify function.
+The inline wrapper function for the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) IOCTL is the idealsendbacklognotify function.
 
-The inline wrapper function for the **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTL is the idealsendbacklogquery function.
+The inline wrapper function for the **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is the idealsendbacklogquery function.
 
 Dynamic send buffering for TCP was added on Windows 7 and Windows Server 2008 R2.
-By default, dynamic send buffering for TCP is enabled unless an application sets the **SO_SNDBUF** socket option on the stream socket.
+By default, dynamic send buffering for TCP is enabled unless an application sets the **SO\_SNDBUF** socket option on the stream socket.
 
 Using netsh is the recommended method to query or set dynamic send buffering for TCP.
 
@@ -221,7 +221,7 @@ While it is discouraged, dynamic send buffering can be disabled from an applicat
 
 When changing the value for dynamic send buffering using NetSh.exe or changing the registry value, the computer must be restarted for the change to take effect.
 
-With dynamic send buffering on Windows 7 and Windows Server 2008 R2, the use of the [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO_IDEAL_SEND_BACKLOG_QUERY** IOCTLs are needed only in special circumstances.
+With dynamic send buffering on Windows 7 and Windows Server 2008 R2, the use of the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs are needed only in special circumstances.
 
 ## See also
 

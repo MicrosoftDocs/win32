@@ -1,5 +1,5 @@
 ---
-Description: The SIO\_ACQUIRE\_PORT\_RESERVATION control code acquires a runtime reservation for a block of TCP or UDP ports.
+Description: Control code acquires a runtime reservation for a block of TCP or UDP ports.
 ms.assetid: 1A2E3920-88D2-4109-B7EF-E66BD4AB6153
 title: SIO_ACQUIRE_PORT_RESERVATION Control Code
 author: TimShererWithAquent
@@ -12,7 +12,7 @@ api_location:
  - mstcpip.h
 ---
 
-# SIO\_ACQUIRE\_PORT\_RESERVATION Control Code
+# SIO_ACQUIRE_PORT_RESERVATION Control Code
 
 ## Description
 
@@ -23,7 +23,8 @@ To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2
 ```cpp
 int WSAIoctl(
   (socket) s,             // descriptor identifying a socket
-  SIO_ACQUIRE_PORT_RESERVATION, // dwIoControlCode(LPVOID) lpvInBuffer,  // pointer to an INET_PORT_RANGE structure
+  SIO_ACQUIRE_PORT_RESERVATION, // dwIoControlCode
+  (LPVOID) lpvInBuffer,  // pointer to an INET_PORT_RANGE structure
   (DWORD) cbInBuffer,    // size, in bytes, of the input buffer
   (LPVOID) lpvOutBuffer,             // pointer to an INET_PORT_RESERVATION_INSTANCE structure
   (DWORD) cbOutBuffer,   // size, in bytes, of the output buffer
@@ -36,7 +37,8 @@ int WSAIoctl(
 ```cpp
 int WSPIoctl(
   (socket) s,             // descriptor identifying a socket
-  SIO_ACQUIRE_PORT_RESERVATION, // dwIoControlCode(LPVOID) lpvInBuffer,  // pointer to an INET_PORT_RANGE structure
+  SIO_ACQUIRE_PORT_RESERVATION, // dwIoControlCode
+  (LPVOID) lpvInBuffer,  // pointer to an INET_PORT_RANGE structure
   (DWORD) cbInBuffer,    // size, in bytes, of the input buffer
   (LPVOID) lpvOutBuffer,             // pointer to a INET_PORT_RESERVATION_INSTANCE structure
   (DWORD) cbOutBuffer,   // size, in bytes, of the output buffer

@@ -16,7 +16,7 @@ api_location:
 
 ## Description
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** control code notifies an application when the ideal send backlog (ISB) value changes for the connection.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** control code notifies an application when the ideal send backlog (ISB) value changes for the connection.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
 
@@ -59,7 +59,7 @@ A descriptor identifying a socket.
 ### dwIoControlCode
 
 The control code for the operation.
-Use **SIO_IDEAL_SEND_BACKLOG_CHANGE** for this operation.
+Use **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** for this operation.
 
 ### lpvInBuffer
 
@@ -118,13 +118,13 @@ A pointer to the error code.
 
 If the operation completes successfully, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function returns zero.
 
-If the operation fails or is pending, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function returns SOCKET\_ERROR.
+If the operation fails or is pending, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function returns **SOCKET\_ERROR**.
 To get extended error information, call [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror).
 
 | Error code | Meaning |
 |------------|---------|
-| **WSA_IO_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
-| **WSA_OPERATION_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO_FLUSH** IOCTL command. |
+| **WSA\_IO\_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
+| **WSA\_OPERATION\_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO\_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
@@ -133,32 +133,32 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTCONN** | The socket *s* is not connected. |
 | **WSAENOTSOCK** | The descriptor *s* is not a socket. |
-| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL is not supported by the transport provider. This error is also returned when an attempt to use the **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL is made on a datagram socket. |
+| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL is not supported by the transport provider. This error is also returned when an attempt to use the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL is made on a datagram socket. |
 
 ## Remarks
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL is supported on Windows Server 2008, Windows Vista with Service Pack 1 (SP1), and later versions of the operating system.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL is supported on Windows Server 2008, Windows Vista with Service Pack 1 (SP1), and later versions of the operating system.
 
 When sending data over a TCP connection using Windows sockets, it is important to keep a sufficient amount of data outstanding (sent but not acknowledged yet) in TCP in order to achieve the highest throughput.
 The ideal value for the amount of data outstanding to achieve the best throughput for the TCP connection is called the ideal send backlog (ISB) size.
 The ISB value is a function of the bandwidth-delay product of the TCP connection and the receiver's advertised receive window (and partly the amount of congestion in the network).
 
 The ISB value per connection is available from the TCP protocol implementation in Windows Server 2008, Windows Vista with SP1, and later versions of the operating system.
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL can be used by an application to get a notification when the ISB value changes dynamically for a connection.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL can be used by an application to get a notification when the ISB value changes dynamically for a connection.
 
-On Windows Server 2008, Windows Vista with SP1, and later versions of the operating system, the **SIO_IDEAL_SEND_BACKLOG_CHANGE** and [**SIO_IDEAL_SEND_BACKLOG_QUERY**](sio-ideal-send-backlog-query.md) IOCTLs are supported on stream-oriented sockets that are in a connected state.
+On Windows Server 2008, Windows Vista with SP1, and later versions of the operating system, the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** and [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](sio-ideal-send-backlog-query.md) IOCTLs are supported on stream-oriented sockets that are in a connected state.
 
 The range for the ISB value for a TCP connection can theoretically vary from 0 to a maximum of 16 megabytes.
 
-See the [**SIO_IDEAL_SEND_BACKLOG_QUERY**](sio-ideal-send-backlog-query.md) IOCTL reference page for typical usage of the ISB mechanism for achieving better throughput over high bandwidth-delay product connections.
+See the [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](sio-ideal-send-backlog-query.md) IOCTL reference page for typical usage of the ISB mechanism for achieving better throughput over high bandwidth-delay product connections.
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL is allowed only on a stream socket that is in the connected state.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL is allowed only on a stream socket that is in the connected state.
 Otherwise the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function will fail with **WSAENOTCONN**.
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL uses no input or output buffers and pends or blocks until an ISB change occurs on the underlying connection.
-When this IOCTL is completed, a Winsock application can use the [**SIO_IDEAL_SEND_BACKLOG_QUERY**](sio-ideal-send-backlog-query.md) IOCTL to retrieve the new ISB value on the connection.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL uses no input or output buffers and pends or blocks until an ISB change occurs on the underlying connection.
+When this IOCTL is completed, a Winsock application can use the [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](sio-ideal-send-backlog-query.md) IOCTL to retrieve the new ISB value on the connection.
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL does not support non-blocking mode.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL does not support non-blocking mode.
 An application is allowed to issue this IOCTL on a non-blocking socket, but the IOCTL will simply block or pend until the ISB value changes.
 
 If both *lpOverlapped* and *lpCompletionRoutine* parameters are NULL, the socket in this function will be treated as a non-overlapped socket.
@@ -170,23 +170,23 @@ For overlapped sockets, operations that cannot be completed immediately will be 
 Any IOCTL may block indefinitely, depending on the service provider's implementation.
 If the application cannot tolerate blocking in a [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function call, overlapped I/O would be advised for IOCTLs that are especially likely to block.
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL provides a notification and is expected to block or pend until the ISB value changes.
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL provides a notification and is expected to block or pend until the ISB value changes.
 So it would commonly be called asynchronously with the lpOverlapped parameter set to a valid WSAOVERLAPPED structure.
 
-The **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL can fail with **WSAEINTR** or **WSA_OPERATION_ABORTED** under the following cases:
+The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL can fail with **WSAEINTR** or **WSA\_OPERATION\_ABORTED** under the following cases:
 
-* The TCP connection is gracefully disconnected in the send direction. This can occur as a result of a call to shutdown function with the how parameter set to SD_SEND, a call to the DisconnectEx function, or a call to the TransmitFile or TransmitPackets function with dwFlags parameter set to TF_DISCONNECT or TF_REUSE.
+* The TCP connection is gracefully disconnected in the send direction. This can occur as a result of a call to shutdown function with the how parameter set to **SD\_SEND**, a call to the DisconnectEx function, or a call to the TransmitFile or TransmitPackets function with dwFlags parameter set to **TF\_DISCONNECT** or **TF\_REUSE**.
 * The TCP connection has been reset or aborted.
-* The application issues a **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL when there is already a pended notification request. Only one one pended **SIO_IDEAL_SEND_BACKLOG_CHANGE** request is allowed at a time.
+* The application issues a **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL when there is already a pended notification request. Only one one pended **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** request is allowed at a time.
 * The request is canceled by the I/O Manager.
 * The socket is closed.
 
 Two inline wrapper functions for these IOCTLs are defined in the *Ws2tcpip.h* header file.
-It is recommended that these inline functions be used instead of using the **SIO_IDEAL_SEND_BACKLOG_CHANGE** and [**SIO_IDEAL_SEND_BACKLOG_QUERY**](sio-ideal-send-backlog-query.md) IOCTLs directly.
+It is recommended that these inline functions be used instead of using the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** and [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](sio-ideal-send-backlog-query.md) IOCTLs directly.
 
-The inline wrapper function for the **SIO_IDEAL_SEND_BACKLOG_CHANGE** IOCTL is the **idealsendbacklognotify** function.
+The inline wrapper function for the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL is the **idealsendbacklognotify** function.
 
-The inline wrapper function for the [**SIO_IDEAL_SEND_BACKLOG_QUERY**](sio-ideal-send-backlog-query.md) IOCTL is the **idealsendbacklogquery** function.
+The inline wrapper function for the [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](sio-ideal-send-backlog-query.md) IOCTL is the **idealsendbacklogquery** function.
 
 ## See also
 

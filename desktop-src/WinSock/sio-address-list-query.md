@@ -16,7 +16,7 @@ api_location:
 
 ## Description
 
-The **SIO_ADDRESS_LIST_QUERY** control code obtains a list of local transport addresses of the socket's protocol family to which the application can bind.
+The **SIO\_ADDRESS\_LIST\_QUERY** control code obtains a list of local transport addresses of the socket's protocol family to which the application can bind.
 The list of addresses varies based on address family and some addresses are excluded from the list.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
@@ -60,7 +60,7 @@ A descriptor identifying a socket.
 ### dwIoControlCode
 
 The control code for the operation.
-Use **SIO_ADDRESS_LIST_QUERY** for this operation.
+Use **SIO\_ADDRESS\_LIST\_QUERY** for this operation.
 
 ### lpvInBuffer
 
@@ -117,13 +117,13 @@ A pointer to the error code.
 
 If the operation completes successfully, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function returns zero.
 
-If the operation fails or is pending, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function returns SOCKET\_ERROR.
+If the operation fails or is pending, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function returns **SOCKET\_ERROR**.
 To get extended error information, call [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror).
 
 | Error code | Meaning |
 |------------|---------|
-| **WSA_IO_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
-| **WSA_OPERATION_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO_FLUSH** IOCTL command. |
+| **WSA\_IO\_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
+| **WSA\_OPERATION\_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO\_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
@@ -132,49 +132,49 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAENOBUFS** | No buffer space available. |
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTSOCK** | The descriptor *s* is not a socket. |
-| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO_ADDRESS_LIST_QUERY** IOCTL is not supported by the transport provider. |
+| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_ADDRESS\_LIST\_QUERY** IOCTL is not supported by the transport provider. |
 
 ## Remarks
 
-The **SIO_ADDRESS_LIST_QUERY** IOCTL is supported on Windows 2000 and later versions of the operating system.
+The **SIO\_ADDRESS\_LIST\_QUERY** IOCTL is supported on Windows 2000 and later versions of the operating system.
 
-The **SIO_ADDRESS_LIST_QUERY** control code obtains a list of local transport addresses of the socket's protocol family to which the application can bind.
+The **SIO\_ADDRESS\_LIST\_QUERY** control code obtains a list of local transport addresses of the socket's protocol family to which the application can bind.
 The list of addresses varies based on address family.
 
-For the AF_INET6 address family, all addresses are returned except for the following:
+For the AF\_INET6 address family, all addresses are returned except for the following:
 
 * Any IP address where the duplicate address detection (DAD) state is not IpDadStatePreferred.
-* Any IP address with a scope level lower than ScopeLevelSubnet on an interface where the interface type is **IF_TYPE_SOFTWARE_LOOPBACK**.
-This means link-local (fe80:*) and loopback (::1) addresses on interfaces of **IF_TYPE_SOFTWARE_LOOPBACK** type are excluded, but not if these addresses are on an interface with a different type.
+* Any IP address with a scope level lower than ScopeLevelSubnet on an interface where the interface type is **IF\_TYPE\_SOFTWARE\_LOOPBACK**.
+This means link-local (fe80:*) and loopback (::1) addresses on interfaces of **IF\_TYPE\_SOFTWARE\_LOOPBACK** type are excluded, but not if these addresses are on an interface with a different type.
 
-For the AF_INET address family, all addresses are returned except for the following:
+For the AF\_INET address family, all addresses are returned except for the following:
 
 * Any IP address where the duplicate address detection (DAD) state is not IpDadStatePreferred.
-* Any IP address on an interface where the interface type is **IF_TYPE_SOFTWARE_LOOPBACK** and link is local.
-This means link-local (169.254.*) and loopback (127.*) addresses on interfaces of **IF_TYPE_SOFTWARE_LOOPBACK** type are excluded, but not if these addresses are on an interface with a different type.
+* Any IP address on an interface where the interface type is **IF\_TYPE\_SOFTWARE\_LOOPBACK** and link is local.
+This means link-local (169.254.*) and loopback (127.*) addresses on interfaces of **IF\_TYPE\_SOFTWARE\_LOOPBACK** type are excluded, but not if these addresses are on an interface with a different type.
 
-For more information on DAD state, see the IP Helper documentation on the [**IP_DAD_STATE**](/windows/desktop/api/nldef/ne-nldef-nl_dad_state) enumeration and [**IP_ADAPTER_UNICAST_ADDRESS**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh) structure and the MIB documentation on the [**MIB_UNICASTIPADDRESS_ROW**](/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row) structure.
-For more information on interface type, see the IP Helper documentation on the [**IP_ADAPTER_ADDRESSES**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_xp) structure and the [**GetAdaptersAddresses**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) function and the MIB documentation on [**MIB_IF_ROW2**](windows/desktop/api/netioapi/ns-netioapi-mib_if_row2) structure.
-For more information on the scope level, see the IP Helper documentation on the [**IP_ADAPTER_ADDRESSES**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_xp) structure and the [**SCOPE_LEVEL**](/windows/desktop/api/ws2def/ne-ws2def-scope_level) enumeration.
+For more information on DAD state, see the IP Helper documentation on the [**IP\_DAD\_STATE**](/windows/desktop/api/nldef/ne-nldef-nl_dad_state) enumeration and [**IP\_ADAPTER\_UNICAST\_ADDRESS**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh) structure and the MIB documentation on the [**MIB\_UNICASTIPADDRESS\_ROW**](/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row) structure.
+For more information on interface type, see the IP Helper documentation on the [**IP\_ADAPTER\_ADDRESSES**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_xp) structure and the [**GetAdaptersAddresses**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) function and the MIB documentation on [**MIB_IF_ROW2**](windows/desktop/api/netioapi/ns-netioapi-mib_if_row2) structure.
+For more information on the scope level, see the IP Helper documentation on the [**IP_ADAPTER_ADDRESSES**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_xp) structure and the [**SCOPE\_LEVEL**](/windows/desktop/api/ws2def/ne-ws2def-scope_level) enumeration.
 
-The list returned in the output buffer pointed to by the lpvOutBuffer parameter is in the form of a [**SOCKET_ADDRESS_LIST**](/windows/desktop/api/ws2def/ns-ws2def-socket_address_list) structure.
+The list returned in the output buffer pointed to by the lpvOutBuffer parameter is in the form of a [**SOCKET\_ADDRESS\_LIST**](/windows/desktop/api/ws2def/ns-ws2def-socket_address_list) structure.
 
-If the output buffer specified in the *lpvOutBuffer* parameter is not large enough to contain the address list, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](windows-sockets-error-codes-2.md).
+If the output buffer specified in the *lpvOutBuffer* parameter is not large enough to contain the address list, **SOCKET\_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](windows-sockets-error-codes-2.md).
 The required size, in bytes, for the output buffer is returned in the *lpcbBytesReturned* parameter in this case.
 Note the [WSAEFAULT](windows-sockets-error-codes-2.md) error code is also returned if the *lpvInBuffer*, *lpvOutBuffer*, or *lpcbBytesReturned* parameter is not completely contained in a valid part of the user address space.
 
-The **SIO_ADDRESS_LIST_QUERY** IOCTL is normally called synchronously with the lpvOverlapped parameter set to **NULL**, since the list of addresses is returned immediately.
+The **SIO\_ADDRESS\_LIST\_QUERY** IOCTL is normally called synchronously with the lpvOverlapped parameter set to **NULL**, since the list of addresses is returned immediately.
 
 **Note**  In Windows Plug-n-Play environments, addresses can be added and removed dynamically.
-Therefore, applications cannot rely on the information returned by **SIO_ADDRESS_LIST_QUERY** to be persistent.
-Applications may register for address change notifications through the **SIO_ADDRESS_LIST_CHANGE** IOCTL which provides for notification through either overlapped I/O or **FD_ADDRESS_LIST_CHANGE** event.
+Therefore, applications cannot rely on the information returned by **SIO\_ADDRESS\_LIST\_QUERY** to be persistent.
+Applications may register for address change notifications through the **SIO\_ADDRESS\_LIST\_CHANGE** IOCTL which provides for notification through either overlapped I/O or **FD\_ADDRESS\_LIST\_CHANGE** event.
 The following sequence of actions can be used to guarantee that the application always has current address list information:
 
-* Issue the **SIO_ADDRESS_LIST_CHANGE IOCTL**
-* Issue the **SIO_ADDRESS_LIST_QUERY** IOCTL
-* Whenever the **SIO_ADDRESS_LIST_CHANGE** IOCTL call notifies the application of an address list change (either through overlapped I/O or by signaling **FD_ADDRESS_LIST_CHANGE** event), the whole sequence of actions should be repeated.
+* Issue the **SIO\_ADDRESS\_LIST\_CHANGE IOCTL**
+* Issue the **SIO\_ADDRESS\_LIST\_QUERY** IOCTL
+* Whenever the **SIO\_ADDRESS\_LIST\_CHANGE** IOCTL call notifies the application of an address list change (either through overlapped I/O or by signaling **FD\_ADDRESS\_LIST\_CHANGE** event), the whole sequence of actions should be repeated.
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the **SIO_ADDRESS_LIST_QUERY** control code is defined in the *Ws2def.h* header file.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the **SIO\_ADDRESS\_LIST\_QUERY** control code is defined in the *Ws2def.h* header file.
 Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, and should never be used directly.
 
 ## See also

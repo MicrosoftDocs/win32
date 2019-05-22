@@ -16,14 +16,15 @@ api_location:
 
 ## Description
 
-The **SIO_SET_COMPATIBILITY_MODE** control code requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
+The **SIO\_SET\_COMPATIBILITY\_MODE** control code requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
 
 ```cpp
 int WSAIoctl(
   (socket) s,             // descriptor identifying a socket
-  SIO_SET_COMPATIBILITY_MODE, // dwIoControlCode(LPVOID) lpvInBuffer,    // pointer to WSA_COMPATIBILITY_MODE struct
+  SIO_SET_COMPATIBILITY_MODE, // dwIoControlCode
+  (LPVOID) lpvInBuffer,    // pointer to WSA_COMPATIBILITY_MODE struct
   (DWORD) cbInBuffer,      // length of input buffer
   NULL,         // output buffer
   0,       // size of output buffer
@@ -36,7 +37,8 @@ int WSAIoctl(
 ```cpp
 int WSPIoctl(
   (socket) s,             // descriptor identifying a socket
-  SIO_SET_COMPATIBILITY_MODE, // dwIoControlCode(LPVOID) lpvInBuffer,    // pointer to WSA_COMPATIBILITY_MODE struct
+  SIO_SET_COMPATIBILITY_MODE, // dwIoControlCode
+  (LPVOID) lpvInBuffer,    // pointer to WSA_COMPATIBILITY_MODE struct
   (DWORD) cbInBuffer,      // length of input buffer
   NULL,         // output buffer
   0,       // size of output buffer
@@ -57,17 +59,17 @@ A descriptor identifying a socket.
 ### dwIoControlCode
 
 The control code for the operation.
-Use **SIO_SET_COMPATIBILITY_MODE** for this operation.
+Use **SIO\_SET\_COMPATIBILITY\_MODE** for this operation.
 
 ### lpvInBuffer
 
 A pointer to the input buffer.
-This parameter should point to a **WSA_COMPATIBILITY_MODE** structure.
+This parameter should point to a **WSA\_COMPATIBILITY\_MODE** structure.
 
 ### cbInBuffer
 
 The size, in bytes, of the input buffer.
-This parameter should equal to or greater than the size of the **WSA_COMPATIBILITY_MODE** structure pointed to by the *lpvInBuffer* parameter.
+This parameter should equal to or greater than the size of the **WSA\_COMPATIBILITY\_MODE** structure pointed to by the *lpvInBuffer* parameter.
 
 ### lpvOutBuffer
 
@@ -122,23 +124,23 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 
 | Error code | Meaning |
 |------------|---------|
-| **WSA_IO_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
-| **WSA_OPERATION_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO_FLUSH** IOCTL command. |
+| **WSA\_IO\_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
+| **WSA\_OPERATION\_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO\_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
-| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. This error is returned if the *cbInBuffer* parameter is less than the sizeof the **WSA_COMPATIBILITY_MODE** structure.
+| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. This error is returned if the *cbInBuffer* parameter is less than the sizeof the **WSA\_COMPATIBILITY\_MODE** structure.
 | **WSAENETDOWN** | The network subsystem has failed. |
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTCONN** | The socket s is not connected. |
 | **WSAENOTSOCK** | The descriptor *s* is not a socket. |
-| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO_SET_COMPATIBILITY_MODE** IOCTL is not supported by the transport provider. This error is also returned when an attempt to use the **SIO_SET_COMPATIBILITY_MODE** IOCTL is made on a datagram socket. |
+| **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_SET\_COMPATIBILITY\_MODE** IOCTL is not supported by the transport provider. This error is also returned when an attempt to use the **SIO\_SET\_COMPATIBILITY\_MODE** IOCTL is made on a datagram socket. |
 
 ## Remarks
 
-the **SIO_SET_COMPATIBILITY_MODE** IOCTL requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
-The input argument structure for **SIO_SET_COMPATIBILITY_MODE** is specified in the **WSA_COMPATIBILITY_MODE** structure defined in the *Mswsockdef.h* header file.
-A pointer to the **WSA_COMPATIBILITY_MODE** structure is passed in the cbInBuffer parameter.
+the **SIO\_SET\_COMPATIBILITY\_MODE** IOCTL requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
+The input argument structure for **SIO\_SET\_COMPATIBILITY\_MODE** is specified in the **WSA\_COMPATIBILITY\_MODE** structure defined in the *Mswsockdef.h* header file.
+A pointer to the **WSA\_COMPATIBILITY\_MODE** structure is passed in the cbInBuffer parameter.
 This structure is defined as follows:
 
 ```cpp
@@ -154,28 +156,28 @@ typedef struct _WSA_COMPATIBILITY_MODE {
 The value specified in the **BehaviorId** member indicates the behavior requested.
 The value specified in the **TargetOsVersion** member indicates the Windows version that is being requested for the behavior.
 
-The **BehaviorId** member can be one of the values from the **WSA_COMPATIBILITY_BEHAVIOR_ID** enumeration type defined in the *Mswsockdef.h* header file.
+The **BehaviorId** member can be one of the values from the **WSA\_COMPATIBILITY\_BEHAVIOR\_ID** enumeration type defined in the *Mswsockdef.h* header file.
 The possible values for the **BehaviorId** member are as follows
 
 | Term | Description |
 |------|-------------|
-| WsaBehaviorAll | This is equivalent to requesting all of the possible compatible behaviors defined for **WSA_COMPATIBILITY_BEHAVIOR_ID**. |
-| WsaBehaviorReceiveBuffering | When the **TargetOsVersion** member is set to a value for Windows Vista or later, reductions to the TCP receive buffer size on this socket using the **SO_RCVBUF** socket option are allowed even after a TCP connection has been establishment. When the TargetOsVersion member is set to a value earlier than Windows Vista, reductions to the TCP receive buffer size on this socket using the **SO_RCVBUF** socket option are not allowed after connection establishment. |
+| WsaBehaviorAll | This is equivalent to requesting all of the possible compatible behaviors defined for **WSA\_COMPATIBILITY\_BEHAVIOR\_ID**. |
+| WsaBehaviorReceiveBuffering | When the **TargetOsVersion** member is set to a value for Windows Vista or later, reductions to the TCP receive buffer size on this socket using the **SO\_RCVBUF** socket option are allowed even after a TCP connection has been establishment. When the TargetOsVersion member is set to a value earlier than Windows Vista, reductions to the TCP receive buffer size on this socket using the **SO\_RCVBUF** socket option are not allowed after connection establishment. |
 | WsaBehaviorAutoTuning | When the **TargetOsVersion** member is set to a value for Windows Vista or later, receive window auto-tuning is enabled and the TCP window scale factor is reduced to 2 from the default value of 8. When the **TargetOsVersion** is set to a value earlier than Windows Vista, receive window auto-tuning is disabled.
 The TCP window scaling option is also disabled and the maximum true receive window size is limited to 65,535 bytes.
-The TCP window scaling option can't be negotiated on the connection even if the **SO_RCVBUF** socket option was called on this socket specifying a value greater than 65,535 bytes before the connection was established. |
+The TCP window scaling option can't be negotiated on the connection even if the **SO\_RCVBUF** socket option was called on this socket specifying a value greater than 65,535 bytes before the connection was established. |
 
 The **TargetOsVersion** member can be one of the NTDDI version constants defined in the *Sdkddkver.h* header file.
 Some of the possible values for the TargetOsVersion member are as follows:
 
 | Term | Description |
 |------|-------------|
-| NTDDI_LONGHORN | The target behavior is the default for Windows Vista. |
-| NTDDI_WS03 | The target behavior is the default for Windows Server 2003. |
-| NTDDI_WINXP | The target behavior is the default for Windows XP. |
-| NTDDI_WIN2K | The target behavior is the default for Windows 2000. |
+| NTDDI\_LONGHORN | The target behavior is the default for Windows Vista. |
+| NTDDI\_WS03 | The target behavior is the default for Windows Server 2003. |
+| NTDDI\_WINXP | The target behavior is the default for Windows XP. |
+| NTDDI\_WIN2K | The target behavior is the default for Windows 2000. |
 
-The primary impact of the **TargetOsVersion** member is whether this member is set to a value equal or greater than **NTDDI_LONGHORN**.
+The primary impact of the **TargetOsVersion** member is whether this member is set to a value equal or greater than **NTDDI\_LONGHORN**.
 
 TCP performance depends not only on the transfer rate itself, but rather on the product of the transfer rate and the round-trip delay time.
 This bandwidth-delay product measures the amount of data that would "fill the pipe".
@@ -227,14 +229,14 @@ So the default is that the WSopt extension is disabled and the TCP receive windo
 When window scaling is enabled on Windows Server 2003 and Windows XP by setting the Tcp1323Opts registry value, window scaling on a TCP connection is still only used when both the sender and receiver include a TCP window scale option in the synchronize (SYN) segment sent to each other to negotiate a window scale factor.
 When window scaling is used on a connection, the Window field in the TCP header is set to 65,535 bytes and the window scale factor is used to adjust the true receive window size upward by the window scale factor negotiated when the connection is established.
 
-An application can specify the TCP receive window size for a connection by using the **SO_RCVBUF** socket option.
-The TCP receive window size for a socket can be increased at any time using **SO_RCVBUF**, but it can only be decreased prior to establishing a connection.
-In order to use window scaling, an application must specify a window size larger than 65,535 bytes when using the **SO_RCVBUF** socket option before the connection is established.
+An application can specify the TCP receive window size for a connection by using the **SO\_RCVBUF** socket option.
+The TCP receive window size for a socket can be increased at any time using **SO\_RCVBUF**, but it can only be decreased prior to establishing a connection.
+In order to use window scaling, an application must specify a window size larger than 65,535 bytes when using the **SO\_RCVBUF** socket option before the connection is established.
 
 The ideal value for the TCP receive window size is often difficult to determine.
 In order to fill the capacity of the network between the sender and receiver, the receive window size should be set to the bandwidth-delay product for the connection, which is the bandwidth multiplied by the round-trip time.
 Even if an application can correctly determine the bandwidth-delay product, it is still not known how quickly the receiving application will retrieve data from the incoming data buffer (the application retrieve rate).
-Despite the support for TCP window scaling, the maximum receive window size in Windows Server 2003 and Windows XP can still limit throughput because it is a fixed maximum size for all TCP connections (unless specified per application using **SO_RCVBUF**), which can enhance throughput for some connections and decrease throughput for others.
+Despite the support for TCP window scaling, the maximum receive window size in Windows Server 2003 and Windows XP can still limit throughput because it is a fixed maximum size for all TCP connections (unless specified per application using **SO\_RCVBUF**), which can enhance throughput for some connections and decrease throughput for others.
 Additionally, the fixed maximum receive window size for a TCP connection does not vary with changing network conditions.
 
 To solve the problem of correctly determining the value of the maximum receive window size for a TCP connection based on the current conditions of the network, the TCP/IP stack in Windows Vista supports a receive window auto-tuning feature.
@@ -247,10 +249,10 @@ The TCP/IP stack in Windows Vista no longer uses the **TCPWindowSize** registry 
 With better throughput between TCP peers, the utilization of network bandwidth increases during data transfer.
 If all the applications are optimized to receive TCP data, then the overall utilization of the network can increase substantially, making the use of Quality of Service (QoS) more important on networks that are operating at or near capacity.
 
-The default behavior on Windows Vista for receive buffering when **SIO_SET_COMPATIBILITY_MODE** is not specified using **WsaBehaviorReceiveBuffering** is that no receive window size reductions using SO_RCVBUF socket option are allowed after a connection is established.
+The default behavior on Windows Vista for receive buffering when **SIO\_SET\_COMPATIBILITY\_MODE** is not specified using **WsaBehaviorReceiveBuffering** is that no receive window size reductions using **SO\_RCVBUF** socket option are allowed after a connection is established.
 
-The default behavior on Windows Vista for auto-tuning when **SIO_SET_COMPATIBILITY_MODE** is not specified using **WsaBehaviorAutoTuning** is that the stack will do receive window auto-tuning using a window scale factor of 8.
-Note that if an application sets a valid receive window size with the SO_RCVBUF socket option, the stack will use the size specified and window receive auto-tuning will disabled.
+The default behavior on Windows Vista for auto-tuning when **SIO\_SET\_COMPATIBILITY\_MODE** is not specified using **WsaBehaviorAutoTuning** is that the stack will do receive window auto-tuning using a window scale factor of 8.
+Note that if an application sets a valid receive window size with the **SO\_RCVBUF** socket option, the stack will use the size specified and window receive auto-tuning will disabled.
 Windows autotuning may also be disabled completely using the following command, `netsh interface tcp set global autotuninglevel=disabled`, in which case specifying **WsaBehaviorAutoTuning** will have no affect.
 Window receive autotuning can also be disabled based on group policy set on Windows Server 2008.
 
@@ -265,7 +267,7 @@ This can result in data being received very slowly by the receiver.
 
 Setting the **BehaviorId** member to **WsaBehaviorAutoTuning** and the **TargetOsVersion** to Windows Vista reduces the window scale factor to 2, so the Window field in the TCP header is initially set to 16,384 bytes and the window scale factor is set to 2 for an initial true window receive size of 64K bytes.
 The window auto-tuning feature can then increase the true window receive size up to 262,140 bytes by setting the Window field in the TCP header to 65,535 bytes.
-An application should set the **SIO_SET_COMPATIBILITY_MODE** IOCTL as soon as a socket is created, since this option doesn't make sense or apply after a SYN is sent.
+An application should set the **SIO\_SET\_COMPATIBILITY\_MODE** IOCTL as soon as a socket is created, since this option doesn't make sense or apply after a SYN is sent.
 Setting this option has the same impact as the following command: `netsh interface tcp set global autotuninglevel=highlyrestricted`
 
 Note that the *Mswsockdef.h* header file is automatically included in *Mswsock.h* or *Netiodef.h*, and should not be used directly.
