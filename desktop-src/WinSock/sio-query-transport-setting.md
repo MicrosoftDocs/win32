@@ -173,7 +173,7 @@ This IOCTL applies only to TCP sockets.
 
 [**REAL_TIME_NOTIFICATION_SETTING_OUTPUT**](/windows/desktop/api/mstcpip/ns-mstcpip-real_time_notification_setting_output)
 
-[**SIO_APPLY_TRANSPORT_SETTING**](sio_apply_transport_setting.md)
+[**SIO_APPLY_TRANSPORT_SETTING**](sio-apply-transport-setting.md)
 
 [socket](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

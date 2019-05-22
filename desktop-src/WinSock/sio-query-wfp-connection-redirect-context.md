@@ -178,9 +178,9 @@ This is an opaque blob of data that the application needs to retrieve and pass b
 
 [**IPPROTO_IP Socket Options**](/windows/desktop/winsock/ipproto-ip-socket-options)
 
-[**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS**](sio_query_wfp_connection_redirect_records.md)
+[**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS**](sio-query-wfp-connection-redirect-records.md)
 
-[**SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS**](sio_set_wfp_connection_redirect_records.md)
+[**SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS**](sio-set-wfp-connection-redirect-records.md)
 
 [**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

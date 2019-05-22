@@ -157,7 +157,7 @@ For runtime port reservations, the port pool requires that reservations be consu
 Runtime port reservations last only as long as the lifetime of the socket on which the **SIO\_ACQUIRE\_PORT\_RESERVATION**  IOCTL was called.
 In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation) or [**CreatePersistentUdpPortReservation**](/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation) function may be consumed by any process with the ability to obtain persistent reservations.
 
-Once a runtime TCP or UDP port reservation has been obtained, an application can request port assignments from the port reservation by opening a TCP or UDP socket, then calling the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) function specifying the [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](sio_associate_port_reservation.md) IOCTL and passing the reservation token before issuing a call to the bind function on the socket.
+Once a runtime TCP or UDP port reservation has been obtained, an application can request port assignments from the port reservation by opening a TCP or UDP socket, then calling the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) function specifying the [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](sio-associate-port-reservation.md) IOCTL and passing the reservation token before issuing a call to the bind function on the socket.
 
 If both *lpOverlapped* and *lpCompletionRoutine* parameters are **NULL**, the socket in this function will be treated as a non-overlapped socket.
 For a non-overlapped socket, *lpOverlapped* and *lpCompletionRoutine* parameters are ignored, except that the function can block if socket *s* is in blocking mode.
@@ -400,9 +400,9 @@ int wmain(int argc, WCHAR ** argv)
 
 [**LookupPersistentUdpPortReservation**](/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation)
 
-[**SIO\_ASSOCIATE\_PORT\_RESERVATION**](sio_associate_port_reservation.md)
+[**SIO\_ASSOCIATE\_PORT\_RESERVATION**](sio-associate-port-reservation.md)
 
-[**SIO\_RELEASE\_PORT\_RESERVATION**](sio_release_port_reservation.md)
+[**SIO\_RELEASE\_PORT\_RESERVATION**](sio-release-port-reservation.md)
 
 [**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

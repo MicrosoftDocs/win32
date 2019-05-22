@@ -339,7 +339,7 @@ int wmain(int argc, WCHAR ** argv)
 
 [**SIO_ACQUIRE_PORT_RESERVATION**](sio-acquire-port-reservation.md)
 
-[**SIO_ASSOCIATE_PORT_RESERVATION**](sio_associate_port_reservation.md)
+[**SIO_ASSOCIATE_PORT_RESERVATION**](sio-associate-port-reservation.md)
 
 [socket](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

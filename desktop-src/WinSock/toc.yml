@@ -659,7 +659,7 @@
       - name: "SIO_LOOPBACK_FAST_PATH"
         href: sio-loopback-fast-path.md
       - name: "SIO_QUERY_RSS_PROCESSOR_INFO"
-        href: sio-query-rss-processor-infor.md
+        href: sio-query-rss-processor-info.md
       - name: "SIO_QUERY_TRANSPORT_SETTING"
         href: sio-query-transport-setting.md
       - name: "SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS"
