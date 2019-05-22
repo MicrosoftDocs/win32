@@ -162,15 +162,15 @@ In contrast, persistent port reservations created using the [**CreatePersistentT
 The **SIO\_RELEASE\_PORT\_RESERVATION** IOCTL is used to release a runtime reservation for a block of TCP or UDP ports.
 
 If both *lpOverlapped* and *lpCompletionRoutine* parameters are **NULL**, the socket in this function will be treated as a non-overlapped socket.
-For a non-overlapped socket, *lpOverlapped* and *lpCompletionRoutine* parameters are ignored, except that the function can block if socket s is in blocking mode.
-If socket s is in non-blocking mode, this function will still block since this particular IOCTL does not support non-blocking mode.
+For a non-overlapped socket, *lpOverlapped* and *lpCompletionRoutine* parameters are ignored, except that the function can block if socket *s* is in blocking mode.
+If socket *s* is in non-blocking mode, this function will still block since this particular IOCTL does not support non-blocking mode.
 
 For overlapped sockets, operations that cannot be completed immediately will be initiated, and completion will be indicated at a later time.
 
 Any IOCTL may block indefinitely, depending on the service provider's implementation.
 If the application cannot tolerate blocking in a [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function call, overlapped I/O would be advised for IOCTLs that are especially likely to block.
 
-The **SIO\_RELEASE\_PORT\_RESERVATION** IOCTL can fail with WSAEINTR or WSA_OPERATION_ABORTED under the following cases:
+The **SIO\_RELEASE\_PORT\_RESERVATION** IOCTL can fail with **WSAEINTR** or **WSA\_OPERATION\_ABORTED** under the following cases:
 
 * The request is canceled by the I/O Manager.
 * The socket is closed.

@@ -148,7 +148,7 @@ An application, if using this option, must supply suitable values before startin
 
 The [**TCP_INITIAL_RTO_PARAMETERS**](/windows/desktop/api/mstcpip/ns-mstcpip-tcp_initial_rto_parameters) IOCTL allows an application to configure the initial (SYN) retransmission timeout (RTO) used by the socket.
 
-A pointer to a [**TCP_INITIAL_RTO_PARAMETERS**](/windows/desktop/api/mstcpip/ns-mstcpip-tcp_initial_rto_parameters) structure passed in the lpvInBuffer parameter allows an application to configure the initial round trip time (RTT) used to compute the retransmission timeout.
+A pointer to a [**TCP_INITIAL_RTO_PARAMETERS**](/windows/desktop/api/mstcpip/ns-mstcpip-tcp_initial_rto_parameters) structure passed in the *lpvInBuffer* parameter allows an application to configure the initial round trip time (RTT) used to compute the retransmission timeout.
 The application can also configure the number of retransmissions that will be attempted before the connection attempt fails.
 
 ## See also

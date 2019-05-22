@@ -187,16 +187,16 @@ The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is not likely to block so it is n
 The **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL can fail with **WSAEINTR** or **WSA\_OPERATION\_ABORTED** under the following cases:
 
 The TCP connection is gracefully disconnected in the send direction.
-This can occur as a result of a call to shutdown function with the how parameter set to **SD\_SEND**, a call to the DisconnectEx function, or a call to the TransmitFile or TransmitPackets function with dwFlags parameter set to **TF\_DISCONNECT** or **TF\_REUSE**.
+This can occur as a result of a call to shutdown function with the how parameter set to **SD\_SEND**, a call to the **DisconnectEx** function, or a call to the **TransmitFile** or **TransmitPackets** function with *dwFlags* parameter set to **TF\_DISCONNECT** or **TF\_REUSE**.
 The TCP connection has been reset or aborted.
 The request is canceled by the I/O Manager.
 
 Two inline wrapper functions for these IOCTLs are defined in the *Ws2tcpip.h* header file.
 It is recommended that these inline functions be used instead of using the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs directly.
 
-The inline wrapper function for the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) IOCTL is the idealsendbacklognotify function.
+The inline wrapper function for the [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](sio-ideal-send-backlog-change.md) IOCTL is the **idealsendbacklognotify** function.
 
-The inline wrapper function for the **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is the idealsendbacklogquery function.
+The inline wrapper function for the **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTL is the **idealsendbacklogquery** function.
 
 Dynamic send buffering for TCP was added on Windows 7 and Windows Server 2008 R2.
 By default, dynamic send buffering for TCP is enabled unless an application sets the **SO\_SNDBUF** socket option on the stream socket.

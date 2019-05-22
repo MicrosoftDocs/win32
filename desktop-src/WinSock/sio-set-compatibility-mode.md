@@ -140,7 +140,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 
 the **SIO\_SET\_COMPATIBILITY\_MODE** IOCTL requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
 The input argument structure for **SIO\_SET\_COMPATIBILITY\_MODE** is specified in the **WSA\_COMPATIBILITY\_MODE** structure defined in the *Mswsockdef.h* header file.
-A pointer to the **WSA\_COMPATIBILITY\_MODE** structure is passed in the cbInBuffer parameter.
+A pointer to the **WSA\_COMPATIBILITY\_MODE** structure is passed in the *cbInBuffer* parameter.
 This structure is defined as follows:
 
 ```cpp
@@ -162,13 +162,11 @@ The possible values for the **BehaviorId** member are as follows:
 | Term | Description |
 |------|-------------|
 | WsaBehaviorAll | This is equivalent to requesting all of the possible compatible behaviors defined for **WSA\_COMPATIBILITY\_BEHAVIOR\_ID**. |
-| WsaBehaviorReceiveBuffering | When the **TargetOsVersion** member is set to a value for Windows Vista or later, reductions to the TCP receive buffer size on this socket using the **SO\_RCVBUF** socket option are allowed even after a TCP connection has been establishment. When the TargetOsVersion member is set to a value earlier than Windows Vista, reductions to the TCP receive buffer size on this socket using the **SO\_RCVBUF** socket option are not allowed after connection establishment. |
-| WsaBehaviorAutoTuning | When the **TargetOsVersion** member is set to a value for Windows Vista or later, receive window auto-tuning is enabled and the TCP window scale factor is reduced to 2 from the default value of 8. When the **TargetOsVersion** is set to a value earlier than Windows Vista, receive window auto-tuning is disabled.
-The TCP window scaling option is also disabled and the maximum true receive window size is limited to 65,535 bytes.
-The TCP window scaling option can't be negotiated on the connection even if the **SO\_RCVBUF** socket option was called on this socket specifying a value greater than 65,535 bytes before the connection was established. |
+| WsaBehaviorReceiveBuffering | When the **TargetOsVersion** member is set to a value for Windows Vista or later, reductions to the TCP receive buffer size on this socket using the **SO\_RCVBUF** socket option are allowed even after a TCP connection has been establishment. When the **TargetOsVersion** member is set to a value earlier than Windows Vista, reductions to the TCP receive buffer size on this socket using the **SO\_RCVBUF** socket option are not allowed after connection establishment. |
+| WsaBehaviorAutoTuning | When the **TargetOsVersion** member is set to a value for Windows Vista or later, receive window auto-tuning is enabled and the TCP window scale factor is reduced to 2 from the default value of 8. When the **TargetOsVersion** is set to a value earlier than Windows Vista, receive window auto-tuning is disabled. The TCP window scaling option is also disabled and the maximum true receive window size is limited to 65,535 bytes. The TCP window scaling option can't be negotiated on the connection even if the **SO\_RCVBUF** socket option was called on this socket specifying a value greater than 65,535 bytes before the connection was established. |
 
 The **TargetOsVersion** member can be one of the NTDDI version constants defined in the *Sdkddkver.h* header file.
-Some of the possible values for the TargetOsVersion member are as follows:
+Some of the possible values for the **TargetOsVersion** member are as follows:
 
 | Term | Description |
 |------|-------------|

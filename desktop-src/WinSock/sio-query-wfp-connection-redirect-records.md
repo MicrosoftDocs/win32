@@ -72,7 +72,7 @@ This parameter is unused for this operation.
 ### lpvOutBuffer
 
 A pointer to the output buffer.
-This parameter should point to a **ULONG** data type if the lpOverlapped and lpCompletionRoutine parameters are **NULL**.
+This parameter should point to a **ULONG** data type if the *lpOverlapped* and *lpCompletionRoutine* parameters are **NULL**.
 
 ### cbOutBuffer
 
@@ -129,7 +129,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 
 | Error code | Meaning |
 |------------|---------|
-| **ERROR\_INSUFFICIENT\_BUFFER** | The data area passed to a system call is too small. This error is returned if the buffer pointed to by the lpvOutBuffer parameter with a buffer size passed in the cbOutBuffer parameter is too small. The buffer size required will be returned in the lpcbBytesReturned parameter. |
+| **ERROR\_INSUFFICIENT\_BUFFER** | The data area passed to a system call is too small. This error is returned if the buffer pointed to by the *lpvOutBuffer* parameter with a buffer size passed in the *cbOutBuffer* parameter is too small. The buffer size required will be returned in the *lpcbBytesReturned* parameter. |
 | **WSA_IO_PENDING** | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
 | **WSA_OPERATION_ABORTED** | An overlapped operation was canceled due to the closure of the socket or the execution of the **SIO_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The *lpvOutBuffer*, *lpcbBytesReturned*, *lpOverlapped*, or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
