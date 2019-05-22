@@ -138,8 +138,8 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. This error is returned if the *cbOutBuffer* parameter is less than the size of a **ULONG** data type. |
 | **WSAENETDOWN** | The network subsystem has failed. |
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
-| **WSAENOTCONN** | The socket s is not connected. |
-| **WSAENOTSOCK** | The descriptor s is not a socket. |
+| **WSAENOTCONN** | The socket *s* is not connected. |
+| **WSAENOTSOCK** | The descriptor *s* is not a socket. |
 | **WSAEOPNOTSUPP** | The specified IOCTL command is not supported. This error is returned if the **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT** IOCTL is not supported by the transport provider. |
 
 ## Remarks

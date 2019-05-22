@@ -136,7 +136,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAEFAULT** | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned of the *lpvInBuffer*, *lpvoutBuffer*, *lpcbBytesReturned*, *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | A blocking operation is currently executing. This error is returned if the function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted by a call to *WSACancelBlockingCall*. This error is returned if a blocking operation was interrupted. |
-| **WSAEINVAL** | An invalid argument was supplied. This error is returned if the dwIoControlCode parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. |
+| **WSAEINVAL** | An invalid argument was supplied. This error is returned if the *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. |
 | **WSAENETDOWN** | A socket operation encountered a dead network. This error is returned if the network subsystem has failed. |
 | **WSAENOTSOCK** | An operation was attempted on something that is not a socket. This error is returned if the descriptor s is not a socket. |
 | **WSAEOPNOTSUPP** | The attempted operation is not supported for the type of object referenced. This error is returned if the specified IOCTL command is not supported. This error is also returned if the **SIO\_TCP\_INITIAL\_RTO** IOCTL is not supported by the transport provider. |

@@ -136,7 +136,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAEFAULT** | The *lpvOutBuffer*, *lpcbBytesReturned*, *lpOverlapped*, or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | The function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted. |
-| **WSAEINVAL** | The dwIoControlCode parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. |
+| **WSAEINVAL** | The *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. |
 | **WSAENETDOWN** | The network subsystem has failed. |
 | **WSAENOPROTOOPT** | The socket option is not supported on the specified protocol. |
 | **WSAENOTCONN** | The socket s is not connected. |

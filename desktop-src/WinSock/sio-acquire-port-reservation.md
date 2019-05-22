@@ -111,8 +111,8 @@ A pointer to the completion routine called when the operation has been completed
 
 ### lpThreadId
 
-A pointer to a [**WSATHREADID**](/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid) structure to be used by the provider in a subsequent call to WPUQueueApc.
-The provider should store the referenced [**WSATHREADID**](/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid) structure (not the pointer to same) until after the WPUQueueApc function returns.
+A pointer to a [**WSATHREADID**](/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid) structure to be used by the provider in a subsequent call to **WPUQueueApc**.
+The provider should store the referenced [**WSATHREADID**](/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid) structure (not the pointer to same) until after the **WPUQueueApc** function returns.
 
 **Note**  This parameter applies only to the **WSPIoctl** function.
 
@@ -132,7 +132,7 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | Error code | Meaning |
 |------------|---------|
 |**WSA\_IO\_PENDING** | Overlapped I/O operation is in progress. This value is returned if an overlapped operation was successfully initiated and completion will be indicated at a later time. |
-| **WSA\_OPERATION\_ABORTED** | The I/O operation has been aborted because of either a thread exit or an application request. This error is returned if an overlapped operation was canceled due to the closure of the socket or the execution of the SIO\_FLUSH IOCTL command. |
+| **WSA\_OPERATION\_ABORTED** | The I/O operation has been aborted because of either a thread exit or an application request. This error is returned if an overlapped operation was canceled due to the closure of the socket or the execution of the **SIO\_FLUSH** IOCTL command. |
 | **WSAEFAULT** | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned of the *lpvInBuffer*, *lpvoutBuffer*, *lpcbBytesReturned*, *lpOverlapped* or *lpCompletionRoutine* parameter is not totally contained in a valid part of the user address space. |
 | **WSAEINPROGRESS** | A blocking operation is currently executing. This error is returned if the function is invoked when a callback is in progress. |
 | **WSAEINTR** | A blocking operation was interrupted by a call to [**WSACancelBlockingCall**](/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall). This error is returned if a blocking operation was interrupted. |
@@ -168,7 +168,7 @@ For overlapped sockets, operations that cannot be completed immediately will be 
 Any IOCTL may block indefinitely, depending on the service provider's implementation.
 If the application cannot tolerate blocking in a WSAIoctl or **WSPIoctl** function call, overlapped I/O would be advised for IOCTLs that are especially likely to block.
 
-The **SIO\_ACQUIRE\_PORT\_RESERVATION**  IOCTL can fail with WSAEINTR or WSA\_OPERATION\_ABORTED under the following cases:
+The **SIO\_ACQUIRE\_PORT\_RESERVATION**  IOCTL can fail with **WSAEINTR** or **WSA\_OPERATION\_ABORTED** under the following cases:
 
 * The request is canceled by the I/O Manager.
 * The socket is closed.

@@ -147,7 +147,7 @@ For the AF\_INET6 address family, all addresses are returned except for the foll
 * Any IP address with a scope level lower than ScopeLevelSubnet on an interface where the interface type is **IF\_TYPE\_SOFTWARE\_LOOPBACK**.
 This means link-local (fe80:*) and loopback (::1) addresses on interfaces of **IF\_TYPE\_SOFTWARE\_LOOPBACK** type are excluded, but not if these addresses are on an interface with a different type.
 
-For the AF\_INET address family, all addresses are returned except for the following:
+For the **AF\_INET** address family, all addresses are returned except for the following:
 
 * Any IP address where the duplicate address detection (DAD) state is not IpDadStatePreferred.
 * Any IP address on an interface where the interface type is **IF\_TYPE\_SOFTWARE\_LOOPBACK** and link is local.
@@ -157,20 +157,20 @@ For more information on DAD state, see the IP Helper documentation on the [**IP\
 For more information on interface type, see the IP Helper documentation on the [**IP\_ADAPTER\_ADDRESSES**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_xp) structure and the [**GetAdaptersAddresses**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) function and the MIB documentation on [**MIB_IF_ROW2**](/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2) structure.
 For more information on the scope level, see the IP Helper documentation on the [**IP_ADAPTER_ADDRESSES**](/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_xp) structure and the [**SCOPE\_LEVEL**](/windows/desktop/api/ws2def/ne-ws2def-scope_level) enumeration.
 
-The list returned in the output buffer pointed to by the lpvOutBuffer parameter is in the form of a [**SOCKET\_ADDRESS\_LIST**](/windows/desktop/api/ws2def/ns-ws2def-socket_address_list) structure.
+The list returned in the output buffer pointed to by the *lpvOutBuffer* parameter is in the form of a [**SOCKET\_ADDRESS\_LIST**](/windows/desktop/api/ws2def/ns-ws2def-socket_address_list) structure.
 
 If the output buffer specified in the *lpvOutBuffer* parameter is not large enough to contain the address list, **SOCKET\_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](windows-sockets-error-codes-2.md).
 The required size, in bytes, for the output buffer is returned in the *lpcbBytesReturned* parameter in this case.
 Note the [WSAEFAULT](windows-sockets-error-codes-2.md) error code is also returned if the *lpvInBuffer*, *lpvOutBuffer*, or *lpcbBytesReturned* parameter is not completely contained in a valid part of the user address space.
 
-The **SIO\_ADDRESS\_LIST\_QUERY** IOCTL is normally called synchronously with the lpvOverlapped parameter set to **NULL**, since the list of addresses is returned immediately.
+The **SIO\_ADDRESS\_LIST\_QUERY** IOCTL is normally called synchronously with the *lpvOverlapped* parameter set to **NULL**, since the list of addresses is returned immediately.
 
 **Note**  In Windows Plug-n-Play environments, addresses can be added and removed dynamically.
 Therefore, applications cannot rely on the information returned by **SIO\_ADDRESS\_LIST\_QUERY** to be persistent.
 Applications may register for address change notifications through the **SIO\_ADDRESS\_LIST\_CHANGE** IOCTL which provides for notification through either overlapped I/O or **FD\_ADDRESS\_LIST\_CHANGE** event.
 The following sequence of actions can be used to guarantee that the application always has current address list information:
 
-* Issue the **SIO\_ADDRESS\_LIST\_CHANGE IOCTL**
+* Issue the **SIO\_ADDRESS\_LIST\_CHANGE** IOCTL
 * Issue the **SIO\_ADDRESS\_LIST\_QUERY** IOCTL
 * Whenever the **SIO\_ADDRESS\_LIST\_CHANGE** IOCTL call notifies the application of an address list change (either through overlapped I/O or by signaling **FD\_ADDRESS\_LIST\_CHANGE** event), the whole sequence of actions should be repeated.
 

@@ -157,7 +157,7 @@ The value specified in the **BehaviorId** member indicates the behavior requeste
 The value specified in the **TargetOsVersion** member indicates the Windows version that is being requested for the behavior.
 
 The **BehaviorId** member can be one of the values from the **WSA\_COMPATIBILITY\_BEHAVIOR\_ID** enumeration type defined in the *Mswsockdef.h* header file.
-The possible values for the **BehaviorId** member are as follows
+The possible values for the **BehaviorId** member are as follows:
 
 | Term | Description |
 |------|-------------|
