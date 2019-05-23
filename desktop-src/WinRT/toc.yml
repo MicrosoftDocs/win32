@@ -438,7 +438,7 @@
       - name: "MessageHandled property"
         href: /windows/desktop/api/corewindow/nf-corewindow-icorewindowinterop-put_messagehandled
     - name: "IDirect3DDxgiInterfaceAccess"
-      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nn-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/ns-windows-graphics-directx-direct3d11-interop-idirect3ddxgiinterfaceaccess
       items: 
       - name: "GetInterface"
         href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface
