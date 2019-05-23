@@ -85,7 +85,7 @@ This parameter must be at least the size of a **ULONG** data type.
 
 A pointer to a variable that receives the size, in bytes, of the data stored in the output buffer.
 
-If the output buffer is too small, the call fails, [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns **[**WSAEINVAL**](windows-sockets-error-codes-2.md)**, and the *lpcbBytesReturned* parameter points to a **DWORD** value of zero.
+If the output buffer is too small, the call fails, [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) returns [**WSAEINVAL**](windows-sockets-error-codes-2.md), and the *lpcbBytesReturned* parameter points to a **DWORD** value of zero.
 
 If *lpOverlapped* is **NULL**, the **DWORD** value pointed to by the *lpcbBytesReturned* parameter that is returned on a successful call cannot be zero.
 
