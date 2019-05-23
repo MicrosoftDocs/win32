@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Connecting to WMI on a Remote Computer
 
-WMI can be used to manage and access WMI data on remote computers. Remote connections in WMI are affected by the [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=84428) and DCOM settings. [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439) may also require changes to some settings. However, once your have your settings correct, the call to a remote system is very similar to a local WMI call. You may choose to make it more complex however, by using different credentials, alternate authentication protocols, and other security features.
+WMI can be used to manage and access WMI data on remote computers. Remote connections in WMI are affected by the [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=157267) and DCOM settings. [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439) may also require changes to some settings. However, once your have your settings correct, the call to a remote system is very similar to a local WMI call. You may choose to make it more complex however, by using different credentials, alternate authentication protocols, and other security features.
 
 ## Configuring a Computer for a Remote Connection
 
