@@ -209,7 +209,7 @@ At the beginning of an object file, or immediately after the signature of an ima
 | 8 <br/>  | 4 <br/> | PointerToSymbolTable <br/> | The file offset of the COFF symbol table, or zero if no COFF symbol table is present. This value should be zero for an image because COFF debugging information is deprecated. <br/>                                                                           |
 | 12 <br/> | 4 <br/> | NumberOfSymbols <br/>      | The number of entries in the symbol table. This data can be used to locate the string table, which immediately follows the symbol table. This value should be zero for an image because COFF debugging information is deprecated. <br/>                        |
 | 16 <br/> | 2 <br/> | SizeOfOptionalHeader <br/> | The size of the optional header, which is required for executable files but not for object files. This value should be zero for an object file. For a description of the header format, see [Optional Header (Image Only)](#optional-header-image-only). <br/> |
-| 18 <br/> | 2 <br/> | Characteristics <br/>      | The flags that indicate the attributes of the file. For specific flag values, see [Characteristics](#dll-characteristics). <br/>                                                                                                                               |
+| 18 <br/> | 2 <br/> | Characteristics <br/>      | The flags that indicate the attributes of the file. For specific flag values, see [Characteristics](#characteristics). <br/>                                                                                                                               |
 
 
 
