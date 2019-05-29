@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_RANGE\_UINT64 structure
 
-A helper structure to enable easy initialization of a [**D3D12\_RANGE\_UINT64**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_range_uint64) structure.
+A helper structure to enable easy initialization of a [**D3D12\_RANGE\_UINT64**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_range_uint64) structure.
 
 ## Syntax
 
@@ -48,7 +49,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_RANGE\_UINT64.
 **explicit CD3DX12\_RANGE\_UINT64(const D3D12\_RANGE\_UINT64 &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_RANGE\_UINT64, initialized with values copied from a [**D3D12\_RANGE\_UINT64**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_range_uint64) structure.
+Creates a new instance of a CD3DX12\_RANGE\_UINT64, initialized with values copied from a [**D3D12\_RANGE\_UINT64**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_range_uint64) structure.
 
 </dd> <dt>
 
@@ -83,7 +84,7 @@ Implicit conversion to a D3D12\_RANGE\_UINT64 structure. Because D3D12\_RANGE\_U
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> <dt>
 
-[**D3D12\_RANGE\_UINT64**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_range_uint64)
+[**D3D12\_RANGE\_UINT64**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_range_uint64)
 </dt> </dl>
 
  

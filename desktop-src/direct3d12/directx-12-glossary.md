@@ -3,6 +3,7 @@ title: Direct3D 12 glossary
 description: These terms are distinctive of Direct3D 12.
 Robots: noindex, nofollow
 ms.assetid: 46B0F055-7E4F-4F8D-9915-3D195FD695B7
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -296,7 +297,7 @@ A collection of large, contiguous memory allocations that are recycled without a
 <span id="direct3d12.directx_12_glossary_volume_tiled_resources"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_VOLUME_TILED_RESOURCES"></span>**volume tiled resources**
 </dt> <dd>
 
-Three-dimensional [tiled resources](https://docs.microsoft.com/windows).
+Three-dimensional [tiled resources](/windows).
 
 </dd> </dl>
 

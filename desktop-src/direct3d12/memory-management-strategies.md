@@ -2,6 +2,7 @@
 title: Memory Management Strategies
 description: A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discrete (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.The recommended strategy for Direct3D 12 memory management , described in this section, is \ 0034;classify, budget and stream \ 0034;.
 ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,7 +28,7 @@ Reserved resources differ from placed resources in that reserved resources have 
 
 The reserved resource can be made to reference regions in the heap with API calls such as [**UpdateTileMappings**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings) and they can be made resident by the app by updating page tables on the fly. When a VA range is mapped to NULL or a non-resident heap, that portion of the resource is considered non-resident. When a VA range is mapped to a resident heap, that portion of the resource is considered resident. Heaps are resident upon creation.
 
-Placed resources are a much simpler design, being simply a pointer to a certain region of a heap (for example, a 1Mb region for a texture in a 5Mb heap). Aliasing barriers enable the use of overlapping placed resources (refer to [**CreatePlacedResource**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createplacedresource) and [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)).
+Placed resources are a much simpler design, being simply a pointer to a certain region of a heap (for example, a 1Mb region for a texture in a 5Mb heap). Aliasing barriers enable the use of overlapping placed resources (refer to [**CreatePlacedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource) and [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)).
 
 Reserved resources are not available on all Direct3D 12 hardware, and placed resources are a reasonable fallback, though placed resources must be contiguous and cannot be partially resident.
 
@@ -70,10 +71,10 @@ Other problem areas are middleware components, user controls, and intra-frame st
 
 <dl> <dt>
 
-[**CreateCommittedResource**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource)
+[**CreateCommittedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource)
 </dt> <dt>
 
-[**CreateReservedResource**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createreservedresource)
+[**CreateReservedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource)
 </dt> <dt>
 
 [Direct3D 12 Programming Guide](directx-12-programming-guide.md)

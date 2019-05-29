@@ -2,6 +2,7 @@
 Description: A float representing the current parametric starting point for the ray. 
 ms.assetid: 
 title: RayTMin
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

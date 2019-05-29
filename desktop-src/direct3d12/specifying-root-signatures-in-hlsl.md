@@ -2,6 +2,7 @@
 title: Specifying Root Signatures in HLSL
 description: Specifying root signatures in HLSL Shader Model 5.1 is an alternative to specifying them in C++ code.
 ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -89,7 +90,7 @@ The HLSL root signature language closely corresponds to the C++ root signature A
 
 ## RootFlags
 
-The optional *RootFlags* clause takes either 0 (the default value to indicate no flags), or one or several of predefined root flags values, connected via the OR ‘\|’ operator. The allowed root flag values are defined by [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags).
+The optional *RootFlags* clause takes either 0 (the default value to indicate no flags), or one or several of predefined root flags values, connected via the OR ‘\|’ operator. The allowed root flag values are defined by [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags).
 
 For example:
 
@@ -116,7 +117,7 @@ RootConstants(num32BitConstants=3, b3)
 
 ## Visibility
 
-Visibility is an optional parameter that can have one of the values from [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility).
+Visibility is an optional parameter that can have one of the values from [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility).
 
 SHADER\_VISIBILITY\_ALL broadcasts the root arguments to all shaders. On some hardware this has no cost, but on other hardware there is a cost to fork the data to all the shader stages. Setting one of the options, such as SHADER\_VISIBILITY\_VERTEX, limits the root argument to a single shader stage.
 
@@ -241,15 +242,15 @@ StaticSampler(s4, filter=FILTER_MIN_MAG_MIP_LINEAR)
 
 The parameter options are very similar to the C++ API calls, except for *borderColor*, which is restricted to an enum in HLSL.
 
-The filter field can be one of [**D3D12\_FILTER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_filter).
+The filter field can be one of [**D3D12\_FILTER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter).
 
-The address fields can each be one of [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode).
+The address fields can each be one of [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode).
 
-The comparison function can be one of [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func).
+The comparison function can be one of [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func).
 
-The border color field can be one of [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_static_border_color).
+The border color field can be one of [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_static_border_color).
 
-Visibility can be one of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility).
+Visibility can be one of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility).
 
 ## Compiling an HLSL root signature
 

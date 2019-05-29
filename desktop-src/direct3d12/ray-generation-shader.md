@@ -2,6 +2,7 @@
 Description: A shader that calls TraceRay to generate rays.  
 ms.assetid: 
 title: Ray Generation Shader
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

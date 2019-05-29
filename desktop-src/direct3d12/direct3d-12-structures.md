@@ -2,6 +2,7 @@
 title: Core structures
 description: The following structures are declared in d3d12.h.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 11/27/2018
 ms.custom: 19H1
@@ -176,7 +177,7 @@ The following structures are declared in d3d12.h.
 | [**D3D12_VIEW_INSTANCE_LOCATION**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_view_instance_location). Specifies the viewport/stencil and render target associated with a view instance. |
 | [**D3D12_VIEW_INSTANCING_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_view_instancing_desc). Specifies parameters used during view instancing configuration. |
 | [**D3D12_VIEWPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport). Describes the dimensions of a viewport. |
-| [**D3D12_WRITEBUFFERIMMEDIATE_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter). Specifies the immediate value and destination address written using [**ID3D12CommandList2::WriteBufferImmediate**](https://msdn.microsoft.com/en-us/library/Mt844817(v=VS.85).aspx). |
+| [**D3D12_WRITEBUFFERIMMEDIATE_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter). Specifies the immediate value and destination address written using [**ID3D12CommandList2::WriteBufferImmediate**](https://msdn.microsoft.com/library/Mt844817(v=VS.85).aspx). |
 
 ## Related topics
 

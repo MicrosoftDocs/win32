@@ -2,6 +2,7 @@
 title: New Releases
 description: Describes the most significant new documentation available with the latest SDK release.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -28,13 +29,13 @@ Describes the most significant new documentation available with the latest SDK r
 
 These interfaces have been added to the Direct3D documentation for Windows 10, version 1709.
 
--   [**ID3D12Fence1**](/windows/desktop/api/D3D12/nn-d3d12-id3d12fence1) extends the functionality of creating fences by supporting the retrieval of flags passed in to create the fence.
--   [**ID3D12GraphicsCommandList2**](/windows/desktop/api/D3D12/nn-d3d12-id3d12graphicscommandlist2) extends the list of available graphics commands by supporting writing immediate values directly to a buffer.
--   [**ID3D12Device3**](/windows/desktop/api/D3D12/nn-d3d12-id3d12device3) extends the virtual adapter functionality by creating special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
+-   [**ID3D12Fence1**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence1) extends the functionality of creating fences by supporting the retrieval of flags passed in to create the fence.
+-   [**ID3D12GraphicsCommandList2**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2) extends the list of available graphics commands by supporting writing immediate values directly to a buffer.
+-   [**ID3D12Device3**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device3) extends the virtual adapter functionality by creating special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
 
 The [**D3D\_SHADER\_MODEL**](/windows/desktop/api/d3d12/ne-d3d12-d3d_shader_model) enumeration has a new **D3D\_SHADER\_MODEL\_6\_1** value added to describe the shader model 6.1.
 
-The [**D3D12\_FEATURE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_feature) enumeration also has the new **D3D12\_FEATURE\_D3D12\_OPTIONS3** and **D3D12\_FEATURE\_EXISTING\_HEAPS** values. As the names imply, these values allow you to check for additional Direct3D12 options, as well as checking for support of existing heaps.
+The [**D3D12\_FEATURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature) enumeration also has the new **D3D12\_FEATURE\_D3D12\_OPTIONS3** and **D3D12\_FEATURE\_EXISTING\_HEAPS** values. As the names imply, these values allow you to check for additional Direct3D12 options, as well as checking for support of existing heaps.
 
 ## Windows 10, version 1703
 
@@ -42,15 +43,15 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
 
 -   The [**ID3D12Device2::CreatePipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate) method and [**D3D12\_Pipeline\_State\_Stream\_Desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) struct represent new and more robust way to create PSOs, and unifies the inteface for creating graphics and compute pipelines.
 -   The [**ID3D12Device1::CreatePipelineLibrary1**](https://www.bing.com/search?q=**ID3D12Device1::CreatePipelineLibrary1**) method expands the pipeline library interface to accept the PSOs created with the new, unified [**D3D12\_Pipeline\_State\_Stream\_Desc**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) structure.
--   The [**D3D12EnableExperimentalFeatures**](/windows/desktop/api/D3D12/nf-d3d12-d3d12enableexperimentalfeatures) function allows developers to experiment with certain in-development features using a machine in Developer Mode.
+-   The [**D3D12EnableExperimentalFeatures**](/windows/desktop/api/d3d12/nf-d3d12-d3d12enableexperimentalfeatures) function allows developers to experiment with certain in-development features using a machine in Developer Mode.
 -   There are five new interfaces (refer to [Interface Hierarchy](interface-hierarchy.md)):
-    -   [**ID3D12GraphicsCommandList1**](/windows/desktop/api/D3D12/nn-d3d12-id3d12graphicscommandlist1)
+    -   [**ID3D12GraphicsCommandList1**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1)
     -   [**ID3D12PipelineLibrary1**](https://msdn.microsoft.com/library/windows/desktop/mt492661)
-    -   [**ID3D12Device2**](/windows/desktop/api/D3D12/nn-d3d12-id3d12device2)
+    -   [**ID3D12Device2**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device2)
     -   [**ID3D12Debug2**](/windows/desktop/api/D3D12sdklayers/nn-d3d12sdklayers-id3d12debug2)
     -   [**ID3D12Tools**](/windows/desktop/api/d3d12/nn-d3d12-id3d12tools)
 -   Refer to the [HLSL Shader Model 6.0 Overview](https://msdn.microsoft.com/library/windows/desktop/mt733232), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
--   The use of [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
+-   The use of [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
 -   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](https://msdn.microsoft.com/library/windows/desktop/mt661819).
 -   [**AtomicCopyBufferUINT**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint) and [**AtomicCopyBufferUINT64**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64) enable **late-latch** to reduce pervieved latency.
 -   [**ID3D12Device2::CreatePipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate) and [**OMSetDepthBounds**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-omsetdepthbounds) enable **depth-bounds testing** on supported hardware.
@@ -85,7 +86,7 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
     -   [**ID3D12Device1**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device1)
     -   [**ID3D12VersionedRootSignatureDeserializer**](/windows/desktop/api/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer)
 -   Refer to the [HLSL Shader Model 6.0 Overview](https://msdn.microsoft.com/library/windows/desktop/mt733232), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
--   The use of [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
+-   The use of [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
 -   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](https://msdn.microsoft.com/library/windows/desktop/mt661819).
 -   The range of supported libraries for Direct3D 12 has been updated, refer to the **Supported tools and libraries** section of [Direct3D 12 Programming Environment Setup](directx-12-programming-environment-set-up.md).
 -   [High Dynamic Range and Wide Color Gamut](https://msdn.microsoft.com/library/windows/desktop/mt742103)

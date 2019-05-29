@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -38,9 +39,9 @@ bool inline D3D12IsLayoutOpaque(
 *Layout* 
 </dt> <dd>
 
-Type: **[**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_layout)**
+Type: **[**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout)**
 
-The layout to check, as a [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_layout).
+The layout to check, as a [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout).
 
 </dd> </dl>
 

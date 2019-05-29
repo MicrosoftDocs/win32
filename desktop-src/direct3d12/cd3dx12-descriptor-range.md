@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_DESCRIPTOR\_RANGE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range) structure.
+A helper structure to enable easy initialization of a [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range) structure.
 
 ## Syntax
 
@@ -49,7 +50,7 @@ Creates a new, uninitialized, instance of a D3DX12\_DESCRIPTOR\_RANGE.
 **explicit CD3DX12\_DESCRIPTOR\_RANGE(const D3D12\_DESCRIPTOR\_RANGE &o)**
 </dt> <dd>
 
-Creates a new instance of a D3DX12\_DESCRIPTOR\_RANGE, initialized with the contents of another [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range) structure.
+Creates a new instance of a D3DX12\_DESCRIPTOR\_RANGE, initialized with the contents of another [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range) structure.
 
 </dd> <dt>
 
@@ -58,7 +59,7 @@ Creates a new instance of a D3DX12\_DESCRIPTOR\_RANGE, initialized with the cont
 
 Creates a new instance of a D3DX12\_DESCRIPTOR\_RANGE, initializing the following parameters:
 
-[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) rangeType
+[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) rangeType
 
 UINT numDescriptors
 
@@ -75,7 +76,7 @@ UINT offsetInDescriptorsFromTableStart = D3D12\_DESCRIPTOR\_RANGE\_OFFSET\_APPEN
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) rangeType
+[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) rangeType
 
 UINT numDescriptors
 
@@ -92,9 +93,9 @@ UINT offsetInDescriptorsFromTableStart = D3D12\_DESCRIPTOR\_RANGE\_OFFSET\_APPEN
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range) &range
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range) &range
 
-[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) rangeType
+[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) rangeType
 
 UINT numDescriptors
 
@@ -120,7 +121,7 @@ UINT offsetInDescriptorsFromTableStart = D3D12\_DESCRIPTOR\_RANGE\_OFFSET\_APPEN
 
 <dl> <dt>
 
-[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range)
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

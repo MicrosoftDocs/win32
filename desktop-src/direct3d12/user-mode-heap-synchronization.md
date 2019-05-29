@@ -2,6 +2,7 @@
 title: Synchronization and Multi-Engine
 description: Most modern GPUs contain multiple independent engines that provide specialized functionality.
 ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -113,19 +114,19 @@ In D3D12 the concept of a command queue is the API representation of a roughly s
 
 The D3D 12 device has methods to create and retrieve command queues of different types and priorities. Most applications should use the default command queues because these allow for shared usage by other components. Applications with additional concurrency requirements can create additional queues. Queues are specified by the command list type that they consume.
 
-Refer to the following creation methods of [**ID3D12Device**](/windows/desktop/api/D3D12/nn-d3d12-id3d12device):
+Refer to the following creation methods of [**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device):
 
--   [**CreateCommandQueue**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandqueue) : creates a command queue based on information in a [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_queue_desc) structure.
--   [**CreateCommandList**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandlist) : creates a command list of type [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_command_list_type).
--   [**CreateFence**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createfence) : creates a fence, noting the flags in [**D3D12\_FENCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_fence_flags). Fences are used to synchronize queues.
+-   [**CreateCommandQueue**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandqueue) : creates a command queue based on information in a [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_queue_desc) structure.
+-   [**CreateCommandList**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist) : creates a command list of type [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type).
+-   [**CreateFence**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createfence) : creates a fence, noting the flags in [**D3D12\_FENCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_fence_flags). Fences are used to synchronize queues.
 
 Queues of all types (3D, compute and copy) share the same interface and are all command-list based.
 
-Refer to the following methods of [**ID3D12CommandQueue**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandqueue):
+Refer to the following methods of [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue):
 
--   [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) : submits an array of command lists for execution. Each command list being defined by [**ID3D12CommandList**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandlist).
--   [**Signal**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandqueue-signal) : sets a fence value when the queue (running on the GPU) reaches a certain point.
--   [**Wait**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandqueue-wait) : the queue waits until the specified fence reaches the specified value.
+-   [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) : submits an array of command lists for execution. Each command list being defined by [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist).
+-   [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-signal) : sets a fence value when the queue (running on the GPU) reaches a certain point.
+-   [**Wait**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait) : the queue waits until the specified fence reaches the specified value.
 
 Note that bundles are not consumed by any queues and therefore this type cannot be used to create a queue.
 
@@ -133,15 +134,15 @@ Note that bundles are not consumed by any queues and therefore this type cannot 
 
 The multi-engine API provides explicit APIs to create and synchronize using fences. A fence is a synchronization construct determined by monotonically increasing a UINT64 value. Fence values are set by the application. A signal operation increases the fence value and a wait operation blocks until the fence has reached the requested value. An event can be fired when a fence reaches a certain value.
 
-Refer to the methods of the [**ID3D12Fence**](/windows/desktop/api/D3D12/nn-d3d12-id3d12fence) interface:
+Refer to the methods of the [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence) interface:
 
--   [**GetCompletedValue**](/windows/desktop/api/D3D12/nf-d3d12-id3d12fence-getcompletedvalue) : returns the current value of the fence.
--   [**SetEventOnCompletion**](/windows/desktop/api/D3D12/nf-d3d12-id3d12fence-seteventoncompletion) : causes an event to fire when the fence reaches a given value.
--   [**Signal**](/windows/desktop/api/D3D12/nf-d3d12-id3d12fence-signal) : sets the fence to the given value.
+-   [**GetCompletedValue**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue) : returns the current value of the fence.
+-   [**SetEventOnCompletion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion) : causes an event to fire when the fence reaches a given value.
+-   [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-signal) : sets the fence to the given value.
 
 Fences allow CPU access to the current fence value, and CPU waits and signals. Independent components can share the default queues but create their own fences and control their own fence values and synchronization.
 
-The [**Signal**](/windows/desktop/api/D3D12/nf-d3d12-id3d12fence-signal) method on the [**ID3D12Fence**](/windows/desktop/api/D3D12/nn-d3d12-id3d12fence) interface updates a fence from the CPU side. The [**Signal**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandqueue-signal) method on [**ID3D12CommandQueue**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandqueue) updates a fence from the GPU side.
+The [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-signal) method on the [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence) interface updates a fence from the CPU side. The [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-signal) method on [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) updates a fence from the GPU side.
 
 All nodes in a multi-engine setup can read and react to any fence reaching the right value.
 
@@ -165,7 +166,7 @@ Copy and compute command lists can use the following methods:
 
 Compute command lists can also use the following methods:
 
--   [**ClearState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12graphicscommandlist-clearstate)
+-   [**ClearState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearstate)
 -   [**ClearUnorderedAccessViewFloat**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat)
 -   [**ClearUnorderedAccessViewUint**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint)
 -   [**DiscardResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource)
@@ -327,7 +328,7 @@ void AsyncPipelinedComputeGraphics()
 
 To access a resource on more than one queue an application must adhere to the following rules.
 
--   Resource access (refer to [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)) is determined by queue type class not queue object. There are two type classes of queue: Compute/3D queue is one type class, Copy is a second type class. So a resource that has a barrier to the NON\_PIXEL\_SHADER\_RESOURCE state on one 3D queue can be used in that state on any 3D or Compute queue, subject to synchronization requirements which require most writes to be serialized. The resource states that are shared between the two type classes (COPY\_SOURCE and COPY\_DEST) are considered different states for each type class. So that if a resource transitions to COPY\_DEST on a Copy queue it is not accessible as a copy destination from 3D or Compute queues and vice versa.
+-   Resource access (refer to [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)) is determined by queue type class not queue object. There are two type classes of queue: Compute/3D queue is one type class, Copy is a second type class. So a resource that has a barrier to the NON\_PIXEL\_SHADER\_RESOURCE state on one 3D queue can be used in that state on any 3D or Compute queue, subject to synchronization requirements which require most writes to be serialized. The resource states that are shared between the two type classes (COPY\_SOURCE and COPY\_DEST) are considered different states for each type class. So that if a resource transitions to COPY\_DEST on a Copy queue it is not accessible as a copy destination from 3D or Compute queues and vice versa.
 
     To summarize:
 

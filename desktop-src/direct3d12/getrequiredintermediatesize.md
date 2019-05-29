@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,9 +41,9 @@ UINT64 inline GetRequiredIntermediateSize(
 *pDestinationResource* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\***
+Type: **[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\***
 
-A pointer to the [**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource) interface that represents the destination resource.
+A pointer to the [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) interface that represents the destination resource.
 
 </dd> <dt>
 

@@ -2,6 +2,7 @@
 title: Queries
 description: In Direct3D 12, queries are grouped into arrays of queries called a query heap. A query heap has a type which defines the valid types of queries that can be used with that heap.
 ms.assetid: 'd7403b5d-7e1b-4dd2-ae45-52e1153233c6'
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -29,19 +30,19 @@ A new binary occlusion query type has been added to Direct3D 12.
 
 ## Query Heaps
 
-Queries can be one from a number of types ([**D3D12\_QUERY\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_heap_type)), and are grouped into query heaps before being submitted to the GPU.
+Queries can be one from a number of types ([**D3D12\_QUERY\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_heap_type)), and are grouped into query heaps before being submitted to the GPU.
 
 A new query type D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION is available and acts like D3D12\_QUERY\_TYPE\_OCCLUSION except that it returns a binary 0/1 result: 0 indicates that no samples passed depth and stencil testing, 1 indicates that at least one sample passed depth and stencil testing. This enables occlusion queries to not interfere with any GPU performance optimization associated with depth/stencil testing.
 
 ## Creating Query heaps
 
-The APIs relevant to creating query heaps are the enum [**D3D12\_QUERY\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_heap_type), the struct [**D3D12\_QUERY\_HEAP\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_query_heap_desc), and the method [**CreateQueryHeap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createqueryheap).
+The APIs relevant to creating query heaps are the enum [**D3D12\_QUERY\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_heap_type), the struct [**D3D12\_QUERY\_HEAP\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc), and the method [**CreateQueryHeap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createqueryheap).
 
-The core runtime will validate that the query heap type is a valid member of the [**D3D12\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type) enumeration, and that the count is greater than 0.
+The core runtime will validate that the query heap type is a valid member of the [**D3D12\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type) enumeration, and that the count is greater than 0.
 
 Each individual query element within a query heap can be started and stopped separately.
 
-The APIs for using the query heaps are the enum [**D3D12\_QUERY\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type), and the methods [**BeginQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) and [**EndQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery).
+The APIs for using the query heaps are the enum [**D3D12\_QUERY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type), and the methods [**BeginQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) and [**EndQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery).
 
 D3D12\_QUERY\_TYPE\_TIMESTAMP is the only query that supports [**EndQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery) only. All other query types require [**BeginQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) and **EndQuery**.
 
@@ -55,7 +56,7 @@ The core runtime will validate the following:
 -   [**BeginQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) cannot be called on a timestamp query.
 -   For the query types which support both [**BeginQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) and [**EndQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery) (all except for timestamp), a query for a given element must not span command list boundaries.
 -   *ElementIndex* must be within range.
--   The query type is a valid member of the [**D3D12\_QUERY\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type) enum.
+-   The query type is a valid member of the [**D3D12\_QUERY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) enum.
 -   The query type must be compatible with the query heap. The following table shows the query heap type required for each query type:
 
     

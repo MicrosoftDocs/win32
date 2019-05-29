@@ -2,6 +2,7 @@
 title: Suballocation Within Heaps
 description: Resource heaps transfer data from the CPU to the GPU (upload), and from the GPU to the CPU (read back).
 ms.assetid: 7E319BCF-FF3F-43CB-9C48-A9DD2A043592
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,10 +28,10 @@ Resource heaps transfer data from the CPU to the GPU (upload), and from the GPU 
 
 <dl> <dt>
 
-[**ID3D12Device::CreateHeap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createheap)
+[**ID3D12Device::CreateHeap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap)
 </dt> <dt>
 
-[**ID3D12Heap**](/windows/desktop/api/D3D12/nn-d3d12-id3d12heap)
+[**ID3D12Heap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12heap)
 </dt> <dt>
 
 [Memory Management](memory-management.md)

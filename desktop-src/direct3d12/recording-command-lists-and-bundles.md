@@ -2,6 +2,7 @@
 title: Creating and Recording Command Lists and Bundles
 description: This topic describes recording command lists and bundles in Direct3D 12 apps. Command lists and bundles both allow apps to record drawing or state-changing calls for later execution on the graphics processing unit (GPU).
 ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +12,7 @@ ms.date: 05/31/2018
 This topic describes recording command lists and bundles in Direct3D 12 apps. Command lists and bundles both allow apps to record drawing or state-changing calls for later execution on the graphics processing unit (GPU).
 
 -   [Creating command lists](#creating-command-lists)
-    -   [D3D12\_COMMAND\_LIST\_TYPE](https://docs.microsoft.com/windows)
+    -   [D3D12\_COMMAND\_LIST\_TYPE](/windows)
     -   [ID3D12CommandAllocator](#id3d12commandallocator)
     -   [ID3D12PipelineState](#id3d12pipelinestate)
     -   [ID3D12DescriptorHeap](#id3d12descriptorheap)
@@ -32,21 +33,21 @@ There are different restrictions for creating and executing bundles and direct c
 
 ## Creating command lists
 
-Direct command lists and bundles are created by calling [**ID3D12Device::CreateCommandList**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandlist). This method takes the following parameters as input:
+Direct command lists and bundles are created by calling [**ID3D12Device::CreateCommandList**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist). This method takes the following parameters as input:
 
 ### D3D12\_COMMAND\_LIST\_TYPE
 
-The [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_command_list_type) enumeration indicates the type of command list that is being created. It can be a direct command list, a bundle, a compute command list, or a copy command list.
+The [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type) enumeration indicates the type of command list that is being created. It can be a direct command list, a bundle, a compute command list, or a copy command list.
 
 ### ID3D12CommandAllocator
 
-A command allocator allows the app to manage the memory that is allocated for command lists. The command allocator is created by calling [**CreateCommandAllocator**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandallocator). When creating a command list, the command list type of the allocator, specified by [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_command_list_type), must match the type of command list being created. A given allocator can be associated with no more than one *currently recording* command list at a time, though one command allocator can be used to create any number of [**GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) objects.
+A command allocator allows the app to manage the memory that is allocated for command lists. The command allocator is created by calling [**CreateCommandAllocator**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator). When creating a command list, the command list type of the allocator, specified by [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type), must match the type of command list being created. A given allocator can be associated with no more than one *currently recording* command list at a time, though one command allocator can be used to create any number of [**GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) objects.
 
-To reclaim the memory allocated by a command allocator, an app calls [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandallocator-reset). But before doing so, the app must make sure that the GPU is no longer executing any command lists which are associated with the allocator; otherwise, the call will fail. Also, note that this API is not free-threaded and therefore can't be called on the same allocator at the same time from multiple threads.
+To reclaim the memory allocated by a command allocator, an app calls [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset). But before doing so, the app must make sure that the GPU is no longer executing any command lists which are associated with the allocator; otherwise, the call will fail. Also, note that this API is not free-threaded and therefore can't be called on the same allocator at the same time from multiple threads.
 
 ### ID3D12PipelineState
 
-The initial pipeline state for the command list. In Microsoft Direct3D 12, most graphics pipeline state is set within a command list using the [**ID3D12PipelineState**](/windows/desktop/api/D3D12/nn-d3d12-id3d12pipelinestate) object. An app will create a large number of these, typically during app initialization, and then the state is updated by changing the currently bound state object using [**ID3D12GraphicsCommandList::SetPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate). For more information about pipeline state objects, see [Managing graphics pipeline state in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md).
+The initial pipeline state for the command list. In Microsoft Direct3D 12, most graphics pipeline state is set within a command list using the [**ID3D12PipelineState**](/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate) object. An app will create a large number of these, typically during app initialization, and then the state is updated by changing the currently bound state object using [**ID3D12GraphicsCommandList::SetPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate). For more information about pipeline state objects, see [Managing graphics pipeline state in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md).
 
 Note that bundles don't inherit the pipeline state set by previous calls in direct command lists that are their parents.
 
@@ -54,7 +55,7 @@ If this parameter is NULL, a default state is used.
 
 ### ID3D12DescriptorHeap
 
-The [**ID3D12DescriptorHeap**](/windows/desktop/api/D3D12/nn-d3d12-id3d12descriptorheap) allows command lists to bind resources to the graphics pipeline. Direct command lists must specify an initial descriptor heap, but may change the currently-bound descriptor heap inside the command list by calling [**ID3D12GraphicsCommandList::SetDescriptorHeap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps).
+The [**ID3D12DescriptorHeap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap) allows command lists to bind resources to the graphics pipeline. Direct command lists must specify an initial descriptor heap, but may change the currently-bound descriptor heap inside the command list by calling [**ID3D12GraphicsCommandList::SetDescriptorHeap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps).
 
 Specifying a descriptor heap at creation time is optional for bundles. If a descriptor heap is not specified, however, the application is not allowed to set any descriptor tables within that bundle. Either way, bundles are not permitted to change the descriptor heap within a bundle. If a heap is specified for a bundle, it must match the currently bound heap in the direct command list that is the calling parent.
 
@@ -62,7 +63,7 @@ For more information, refer to [Descriptor Heaps](descriptor-heaps.md).
 
 ## Recording command lists
 
-Immediately after being created, command lists are in the recording state. You can also re-use an existing command list by calling I[**D3D12GraphicsCommandList::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), which also leaves the command list in the recording state. Unlike [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandallocator-reset), you can call **Reset** while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. Note that only one command list associated with each command allocator may be in a recording state at one time.
+Immediately after being created, command lists are in the recording state. You can also re-use an existing command list by calling I[**D3D12GraphicsCommandList::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), which also leaves the command list in the recording state. Unlike [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset), you can call **Reset** while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. Note that only one command list associated with each command allocator may be in a recording state at one time.
 
 Once a command list is in the recording state, you simply call methods of the [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) interface to add commands to the list. Many of these methods enable common Direct3D functionality that will be familiar to Microsoft Direct3D 11 developers; other APIs are new for Direct3D 12.
 
@@ -212,9 +213,9 @@ Most APIs on [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12
 Applications can expect to see DXGI\_DEVICE\_REMOVED errors in the following API calls:
 
 -   Any resource creation method
--   [**ID3D12Resource::Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map)
+-   [**ID3D12Resource::Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map)
 -   [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797)
--   [**GetDeviceRemovedReason**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-getdeviceremovedreason)
+-   [**GetDeviceRemovedReason**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason)
 
 ## Bundle restrictions
 

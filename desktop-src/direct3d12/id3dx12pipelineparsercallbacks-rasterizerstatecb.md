@@ -14,6 +14,7 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,7 +41,7 @@ void RasterizerStateCb(
 *RasterizerState* \[ref\]
 </dt> <dd>
 
-Type: **const [**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_rasterizer_desc)**
+Type: **const [**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc)**
 
 Details of the rasterizer state description subobject parsed from a pipeline state stream.
 
@@ -72,7 +73,7 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_rasterizer_desc)
+[**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc)
 </dt> </dl>
 
  

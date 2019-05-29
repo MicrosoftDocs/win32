@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_RESOURCE\_BARRIER structure
 
-A helper structure to enable easy initialization of a [**D3D12\_RESOURCE\_BARRIER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier) structure.
+A helper structure to enable easy initialization of a [**D3D12\_RESOURCE\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_barrier) structure.
 
 ## Syntax
 
@@ -50,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_RESOURCE\_BARRIER.
 **explicit CD3DX12\_RESOURCE\_BARRIER(const D3D12\_RESOURCE\_BARRIER &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_RESOURCE\_BARRIER, initialized with the contents of another [**D3D12\_RESOURCE\_BARRIER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier).
+Creates a new instance of a CD3DX12\_RESOURCE\_BARRIER, initialized with the contents of another [**D3D12\_RESOURCE\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_barrier).
 
 </dd> <dt>
 
@@ -59,11 +60,11 @@ Creates a new instance of a CD3DX12\_RESOURCE\_BARRIER, initialized with the con
 
 Transitions between resource states, using the following parameters:
 
-[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\* pResource
+[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\* pResource
 
-[**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states) stateBefore
+[**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) stateBefore
 
-[**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states) stateAfter
+[**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) stateAfter
 
 (opt) UINT subresource = [**D3D12\_RESOURCE\_BARRIER\_ALL\_SUBRESOURCES**](constants.md)
 
@@ -76,9 +77,9 @@ Transitions between resource states, using the following parameters:
 
 Creates aliases for the resource before and after the barrier transition. Parameters:
 
-[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\* pResourceBefore
+[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\* pResourceBefore
 
-[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\* pResourceAfter
+[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\* pResourceAfter
 
 </dd> <dt>
 
@@ -87,7 +88,7 @@ Creates aliases for the resource before and after the barrier transition. Parame
 
 Creates an unordered-access-view (UAV) for the resource. Parameters:
 
-[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\* pResource
+[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\* pResource
 
 </dd> <dt>
 
@@ -112,7 +113,7 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_RESOURCE\_BARRIER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier)
+[**D3D12\_RESOURCE\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_barrier)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

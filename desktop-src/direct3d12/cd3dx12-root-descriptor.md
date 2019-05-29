@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_ROOT\_DESCRIPTOR structure
 
-A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor) structure.
+A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor) structure.
 
 ## Syntax
 
@@ -49,7 +50,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_ROOT\_DESCRIPTOR.
 **explicit CD3DX12\_ROOT\_DESCRIPTOR(const D3D12\_ROOT\_DESCRIPTOR &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor) structure.
+Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor) structure.
 
 </dd> <dt>
 
@@ -80,7 +81,7 @@ UINT shaderRegister
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor) &table
+[**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor) &table
 
 UINT shaderRegister
 
@@ -102,7 +103,7 @@ UINT shaderRegister
 
 <dl> <dt>
 
-[**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor)
+[**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

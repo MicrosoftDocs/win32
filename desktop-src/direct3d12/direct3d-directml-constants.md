@@ -11,6 +11,7 @@ api_location:
 - DirectML.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/10/2019
 ms.custom: 19H1
