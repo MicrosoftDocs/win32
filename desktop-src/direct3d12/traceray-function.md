@@ -2,6 +2,7 @@
 Description: Sends a ray into a search for hits in an acceleration structure.
 ms.assetid: 
 title: TraceRay function
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 
@@ -80,9 +81,9 @@ A user defined ray payload accessed both for both input and output by shaders in
 
 This function can be called from the following raytracing shader types:
 
-* [**Closest Hit Shader**](closest-hit-shader)
-* [**Miss Shader**](miss-shader)
-* [**Ray Generation Shader**](ray-generation-shader)
+* [**Closest Hit Shader**](closest-hit-shader.md)
+* [**Miss Shader**](miss-shader.md)
+* [**Ray Generation Shader**](ray-generation-shader.md)
 
 
 

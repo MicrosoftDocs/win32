@@ -26,23 +26,13 @@ Displays the **Run** dialog to the user. This method has the same effect as clic
 Shell.FileRun()
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Shell.FileRun()</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Shell.FileRun()
+```
+
+
 
 
 

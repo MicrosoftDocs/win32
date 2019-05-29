@@ -11,6 +11,9 @@ ms.date: 05/31/2018
 
 # How to apply 2D transforms
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic demonstrates how to apply 2D transforms to a visual by using Microsoft DirectComposition. The example in this topic applies a group of transforms that:
 
 1.  Rotate the visual by 180 degrees.

@@ -12,6 +12,9 @@ ms.date: 05/31/2018
 
 # How to apply animations
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic demonstrates how to animate the properties of a visual by using Microsoft DirectComposition. The example in this topic animates the Effect property of a visual, causing the visual's opacity to change from zero (transparent) to one (fully opaque) over a period of two seconds.
 
 ## What you need to know
@@ -44,25 +47,12 @@ Use the [**CreateAnimation**](https://msdn.microsoft.com/en-us/library/Hh437394(
 
 ```C++
 HRESULT hr = S_OK;
+
+
+IDCompositionAnimation *m_pFadeInAnimation;
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>IDCompositionAnimation *m_pFadeInAnimation;</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -92,25 +82,12 @@ In Microsoft DirectComposition, any object property that takes a scalar value ca
 
 ```C++
 IDCompositionEffectGroup *m_pEffectGroup;
+
+
+hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
@@ -310,22 +287,9 @@ private:
     LPCTSTR m_pImageFileNames[5]; 
     LPCTSTR m_pImageDir;
  };
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//
+//
 // ApplyAnimations.cpp
 //
 // THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
@@ -1028,10 +992,10 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
         FindClose(hFind);
     }
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

@@ -29,24 +29,14 @@ The **eject** method ejects the CD or DVD from the drive.
 public void eject();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub eject()
-Implements IWMPCdrom.eject</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub eject()
+Implements IWMPCdrom.eject
+```
+
+
 
 
 
@@ -76,27 +66,17 @@ private void ejectButton_Click(object o, System.EventArgs args)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub ejectButton_Click(ByVal o As Object, ByVal args As System.EventArgs) Handles ejectButton.Click
+```VB
+
+Public Sub ejectButton_Click(ByVal o As Object, ByVal args As System.EventArgs) Handles ejectButton.Click
 
     player.cdromCollection.Item(0).eject()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

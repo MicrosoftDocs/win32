@@ -39,24 +39,14 @@ HRESULT get_Option(
 );
 ```
 
-<span codelanguage="JScript"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JScript</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>vtOption = WinHttpRequest.Option
-WinHttpRequest.Option = vtOption</code></pre></td>
-</tr>
-</tbody>
-</table>
+```JScript
+
+vtOption = WinHttpRequest.Option
+WinHttpRequest.Option = vtOption
+```
+
+
 
 
 

@@ -34,29 +34,19 @@ public System.Object getItemInfobyType(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getItemInfobyType( _
+```VB
+
+Public Function getItemInfobyType( _
   ByVal lCollectionIndex As System.Int32, _
   ByVal bstrType As System.String, _
   ByVal bstrLanguage As System.String, _
   ByVal lAttributeIndex As System.Int32 _
 ) As System.Object
-Implements IWMPStringCollection2.getItemInfobyType</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPStringCollection2.getItemInfobyType
+```
+
+
 
 
 

@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to animate the bitmap of a layered child window
 
+> [!NOTE]
+> For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).
+
 This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visual's content. The example described in this topic uses an animated scale transformation to "grow" the bitmap of a child window from thumb size to full size. For more information about layered windows, see [Window Bitmaps](bitmap-surfaces.md).
 
 ## What you need to know
@@ -31,23 +34,11 @@ This topic describes how to create and animate a visual that uses the bitmap of 
 Use the following steps to create a layered child window.
 
 1.  Register the child window class and create a child window that has the [**WS\_EX\_LAYERED**](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-layered) style. In the following example, `m_dpiX` and `m_dpiY` specify the screen resolution in pixels per logical inch, and `m_hwndMain` is the handle of the main application window.
-    ```C++
+```C++
     HWND m_hwndLayeredChild;
-    ```
 
-    <span codelanguage="ManagedCPlusPlus"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>C++</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>HRESULT hr = S_OK;
+    
+HRESULT hr = S_OK;
 
     WNDCLASSEXW wcex;
     wcex.cbSize         = sizeof(wcex);
@@ -79,21 +70,21 @@ Use the following steps to create a layered child window.
         m_hwndMain,                               
         NULL,                                     
         HINST_THISCOMPONENT,                    
-        this);                                   </code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+        this);                                   
+```
+
+
 
     
 
 2.  Call the [**SetLayeredWindowAttributes**](https://msdn.microsoft.com/library/windows/desktop/ms633540) function to set the transparency color key and opacity of the layered child window. The following code sets the transparency color key to zero and the opacity to 255 (opaque).
 
-    ```C++
+```C++
     if (!SetLayeredWindowAttributes(m_hwndLayeredChild, 0, 255, LWA_ALPHA))
     {
         hr = HRESULT_FROM_WIN32(GetLastError());
     }
-    ```
+```
 
     
 
@@ -247,26 +238,13 @@ Be sure to release all DirectComposition objects when you no longer need them. T
 SafeRelease(&pVisual);
 SafeRelease(&pAnimateScale);
 SafeRelease(&pScale);
+
+
+SafeRelease(&m_pDevice);
+SafeRelease(&m_pCompTarget);
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>SafeRelease(&m_pDevice);
-SafeRelease(&m_pCompTarget);</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -409,22 +387,9 @@ private:
     IWICImagingFactory *m_pWICFactory;
 
  };
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>//
+//
 // AnimateLayeredChildWindow.cpp
 //
 // THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
@@ -1297,10 +1262,10 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
     SafeRelease(&pConverter);
 
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

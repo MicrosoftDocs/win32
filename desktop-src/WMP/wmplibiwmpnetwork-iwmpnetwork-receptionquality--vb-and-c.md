@@ -29,23 +29,13 @@ The **receptionQuality** property gets the percentage of packets not lost in the
 public System.Int32 receptionQuality {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property receptionQuality As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property receptionQuality As System.Int32
+```
+
+
 
 
 
@@ -93,20 +83,10 @@ private void UpdateReceptionQuality(object sender, EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create an event handler for the PlayStateChange event.
+```VB
+
+' Create an event handler for the PlayStateChange event.
 Public Sub player_PlayStateChange(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_PlayStateChangeEvent) Handles player.PlayStateChange
 
     &#39; Test whether packets may be arriving.
@@ -136,10 +116,10 @@ Public Sub UpdateReceptionQuality(ByVal sender As Object, ByVal e As System.Even
 
     receptionQualityLabel.Text = (&quot;Packets recovered: &quot; + player.network.receptionQuality.ToString() + &quot;%&quot;)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

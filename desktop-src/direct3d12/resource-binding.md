@@ -2,6 +2,7 @@
 title: Resource Binding
 description: Binding is the process of linking resource objects to the shaders of the graphics pipeline.
 ms.assetid: CB0065EF-4E53-4E16-9F7E-09A261C360FB
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -20,7 +21,7 @@ Binding is the process of linking resource objects to the shaders of the graphic
 | [Descriptor Heaps](descriptor-heaps.md) | A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor. |
 | [Descriptor Tables](descriptor-tables.md) | A descriptor table is logically an array of descriptors. |
 | [Root Signatures](root-signatures.md) | The root signature defines what types of resources are bound to the graphics pipeline. |
-| [Capability Querying](capability-querying.md) | Your application can discover the level of support for resource binding, and many other features, with a call to [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-checkfeaturesupport). |
+| [Capability Querying](capability-querying.md) | Your application can discover the level of support for resource binding, and many other features, with a call to [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport). |
 | [Resource Binding in HLSL](resource-binding-in-hlsl.md) | This section describes some specific features of using High Level Shading Language (HLSL) [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is. |
 | [UMA Optimizations: CPU Accessible Textures and Standard Swizzle](default-texture-mapping.md) | Universal Memory Architecture (UMA) GPUs offer some efficiency advantages over discrete GPUs, especially when optimizing for mobile devices. Giving resources CPU access when the GPU is UMA can reduce the amount of copying that occurs between CPU and GPU. While we don t recommend applications blindly give CPU access to all resources on UMA designs, there are opportunities to improve efficiencies by giving the right resources CPU access. Unlike discrete GPUs, the CPU can technically have a pointer to all resources that the GPU can access. |
 | [Typed Unordered Access View Loads](typed-unordered-access-view-loads.md) | Unordered Access View (UAV) Typed Load is the ability for a shader to read from a UAV with a specific [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059). |

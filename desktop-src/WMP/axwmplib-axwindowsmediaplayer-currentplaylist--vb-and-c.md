@@ -29,23 +29,13 @@ The currentPlaylist property gets or sets the current **IWMPPlaylist** interface
 public IWMPPlaylist currentPlaylist {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property currentPlaylist As IWMPPlaylist</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property currentPlaylist As IWMPPlaylist
+```
+
+
 
 
 
@@ -75,30 +65,20 @@ player.currentPlaylist = firstPlaylist;
 currentPlaylistLabel.Text = ("Found first playlist. Name = " + player.currentPlaylist.name);
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to the first playlist from the library. 
+```VB
+
+' Get an interface to the first playlist from the library. 
 Dim firstPlaylist As WMPLib.IWMPPlaylist = player.playlistCollection.getAll().Item(0)
 
 &#39; Make the retrieved playlist the current playlist.
 player.currentPlaylist = firstPlaylist
 
 &#39; Display the name of the current playlist.
-currentPlaylistLabel.Text = (&quot;Found first playlist. Name = &quot; + player.currentPlaylist.name)</code></pre></td>
-</tr>
-</tbody>
-</table>
+currentPlaylistLabel.Text = (&quot;Found first playlist. Name = &quot; + player.currentPlaylist.name)
+```
+
+
 
 
 

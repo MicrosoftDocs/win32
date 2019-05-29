@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_DEPTH\_STENCIL\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_depth_stencil_desc) structure.
+A helper structure to enable easy initialization of a [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc) structure.
 
 ## Syntax
 
@@ -50,7 +51,7 @@ Creates a new, uninitialized, instance of a D3DX12\_DEPTH\_STENCIL\_DESC.
 **explicit CD3DX12\_DEPTH\_STENCIL\_DESC(const D3D12\_DEPTH\_STENCIL\_DESC& o)**
 </dt> <dd>
 
-Creates a new instance of a D3DX12\_DEPTH\_STENCIL\_DESC, initialized with the contents of another [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_depth_stencil_desc) structure.
+Creates a new instance of a D3DX12\_DEPTH\_STENCIL\_DESC, initialized with the contents of another [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc) structure.
 
 </dd> <dt>
 
@@ -81,9 +82,9 @@ Creates a new instance of a D3DX12\_DEPTH\_STENCIL\_DESC, initializing the follo
 
 BOOL depthEnable
 
-[**D3D12\_DEPTH\_WRITE\_MASK**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_depth_write_mask) depthWriteMask
+[**D3D12\_DEPTH\_WRITE\_MASK**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_depth_write_mask) depthWriteMask
 
-[**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func) depthFunc
+[**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func) depthFunc
 
 BOOL stencilEnable
 
@@ -91,21 +92,21 @@ UINT8 stencilReadMask
 
 UINT8 stencilWriteMask
 
-[**D3D12\_STENCIL\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_stencil_op) frontStencilFailOp
+[**D3D12\_STENCIL\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_stencil_op) frontStencilFailOp
 
-[**D3D12\_STENCIL\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_stencil_op) frontStencilDepthFailOp
+[**D3D12\_STENCIL\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_stencil_op) frontStencilDepthFailOp
 
-[**D3D12\_STENCIL\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_stencil_op) frontStencilPassOp
+[**D3D12\_STENCIL\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_stencil_op) frontStencilPassOp
 
-[**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func) frontStencilFunc
+[**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func) frontStencilFunc
 
-[**D3D12\_STENCIL\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_stencil_op) backStencilFailOp
+[**D3D12\_STENCIL\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_stencil_op) backStencilFailOp
 
-[**D3D12\_STENCIL\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_stencil_op) backStencilDepthFailOp
+[**D3D12\_STENCIL\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_stencil_op) backStencilDepthFailOp
 
-[**D3D12\_STENCIL\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_stencil_op) backStencilPassOp
+[**D3D12\_STENCIL\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_stencil_op) backStencilPassOp
 
-[**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func) backStencilFunc
+[**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func) backStencilFunc
 
 </dd> <dt>
 
@@ -137,7 +138,7 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_depth_stencil_desc)
+[**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

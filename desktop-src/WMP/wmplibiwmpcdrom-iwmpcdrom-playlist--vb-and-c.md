@@ -29,23 +29,13 @@ The **Playlist** property gets an **IWMPPlaylist** interface representing the tr
 public IWMPPlaylist Playlist {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property Playlist As IWMPPlaylist</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property Playlist As IWMPPlaylist
+```
+
+
 
 
 
@@ -85,20 +75,10 @@ for (int i = 0; i < playlist.count; i++)
 myText.Lines = trackList;
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39;  Get an interface that provides access to the CD playlist.
+```VB
+
+'  Get an interface that provides access to the CD playlist.
 Dim playlist As WMPLib.IWMPPlaylist = player.cdromCollection.Item(0).Playlist
 
 &#39;  Create a string array to hold the track list.
@@ -112,10 +92,10 @@ For i As Integer = 0 To (playlist.count - 1)
 Next i
 
 &#39;  Display the list of CD tracks in a multi-line text box.
-myText.Lines = trackList</code></pre></td>
-</tr>
-</tbody>
-</table>
+myText.Lines = trackList
+```
+
+
 
 
 

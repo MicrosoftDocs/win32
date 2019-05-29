@@ -47,11 +47,21 @@
       "titleSuffix": "Windows applications",
       "ms.prod": "desktop",
       "ms.author": "windowssdkdev",
-      "author": "windows-sdk-content"
+      "author": "GrantMeStrength",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "MSDN.desktop",
+          "folder_relative_path_in_docset": "./"
+        }
+      }
     },
     "fileMetadata": {
       "feedback_system": {
-        "docs-ref-autogen/**/*": "None"
+        "docs-ref-autogen/**/*": "None",
+        "contributors_to_exclude": [
+          "msatranjr",
+          "GrantMeStrength"
+      ]
       }
     },
     "template": [],

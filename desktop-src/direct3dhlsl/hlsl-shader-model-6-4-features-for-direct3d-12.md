@@ -7,15 +7,9 @@ ms.date: 02/21/2019
 
 # HLSL Shader Model 6.4
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 Describes the machine learning intrinsics added to HLSL Shader Model 6.4.
 
-## Shader Model 6.0
+## Shader Model 6.4
 These intrinsics are a required/supported feature of Shader model 6.4. Consequently, no separate capability bit check is required, beyond assuring the use of Shader Model 6.4. The minimum supported client for these routines is Windows 10, version 1903.
 
 ## Shading language intrinsics

@@ -55,7 +55,7 @@ A [**FINDTEXTW**](/windows/desktop/api/Richedit/ns-richedit-_findtext) structure
 
 ## Return value
 
-If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is  1.
+If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is -1.
 
 ## Remarks
 

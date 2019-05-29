@@ -33,28 +33,18 @@ public IWMPPlaylist getByAttributeAndMediaType(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getByAttributeAndMediaType( _
+```VB
+
+Public Function getByAttributeAndMediaType( _
   ByVal bstrAttribute As System.String, _
   ByVal bstrValue As System.String, _
   ByVal bstrMediaType As System.String _
 ) As IWMPPlaylist
-Implements IWMPMediaCollection2.getByAttributeAndMediaType</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMediaCollection2.getByAttributeAndMediaType
+```
+
+
 
 
 

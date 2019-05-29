@@ -12,6 +12,7 @@ api_location:
 - D3D12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -354,6 +355,7 @@ The following constants are declared in d3d12.h, for use by a D3D12 title.
 | D3D12\_REQ\_TEXTURECUBE\_DIMENSION                                               | 16384            |
 | D3D12\_RESINFO\_INSTRUCTION\_MISSING\_COMPONENT\_RETVAL                          | 0                |
 | D3D12\_RESOURCE\_BARRIER\_ALL\_SUBRESOURCES                                      | 0xffffffff       |
+| D3D12_RS_SET_SHADING_RATE_COMBINER_COUNT                                         | 2       |
 | D3D12\_SHADER\_MAJOR\_VERSION                                                    | 5                |
 | D3D12\_SHADER\_MAX\_INSTANCES                                                    | 65535            |
 | D3D12\_SHADER\_MAX\_INTERFACES                                                   | 253              |
@@ -424,13 +426,7 @@ The following constants are declared in d3d12.h, for use by a D3D12 title.
 | D3D12\_WHQL\_DRAWINDEXED\_INDEX\_COUNT\_2\_TO\_EXP                               | 25               |
 | D3D12\_WHQL\_DRAW\_VERTEX\_COUNT\_2\_TO\_EXP                                     | 25               |
 
-
-
- 
-
 ## Requirements
-
-
 
 |                   |                                                                                    |
 |-------------------|------------------------------------------------------------------------------------|

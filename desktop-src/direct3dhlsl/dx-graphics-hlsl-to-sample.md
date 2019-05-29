@@ -19,7 +19,7 @@ Samples a texture.
 
 |                                                                                  |
 |----------------------------------------------------------------------------------|
-| DXGI\_FORMAT Object.Sample( sampler\_state S, float Location \[, int Offset\] ); |
+| <Template Type> Object.Sample( sampler\_state S, float Location \[, int Offset\] ); |
 
 
 
@@ -123,7 +123,7 @@ Samples a texture.
 
 ## Return Value
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
 
 ## Minimum Shader Model
 
@@ -144,7 +144,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the BasicHLSL10.fx file in the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx).
+This partial code example is based on the BasicHLSL11.fx file in the [BasicHLSL11 Sample](https://code.msdn.microsoft.com/Basic-DXUT-Win32-Samples-e59c0682).
 
 
 ```

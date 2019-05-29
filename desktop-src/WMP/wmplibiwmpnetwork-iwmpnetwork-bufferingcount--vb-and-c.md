@@ -29,23 +29,13 @@ The **bufferingCount** property gets the number of times buffering occurred duri
 public System.Int32 bufferingCount {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property bufferingCount As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property bufferingCount As System.Int32
+```
+
+
 
 
 
@@ -79,20 +69,10 @@ private void player_Buffering(object sender, AxWMPLib._WMPOCXEvents_BufferingEve
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create an event handler for the Buffering event.
+```VB
+
+' Create an event handler for the Buffering event.
 Public Sub player_Buffering(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_BufferingEvent) Handles player.Buffering
 
     &#39; Display the bufferingCount when buffering has started.
@@ -102,10 +82,10 @@ Public Sub player_Buffering(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXE
 
     End If
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -32,23 +32,13 @@ This property is read-only.
 public System.Double duration {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property duration As System.Double</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property duration As System.Double
+```
+
+
 
 
 
@@ -91,20 +81,10 @@ private void TimerEventProcessor(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Set the timer to fire an event every second and start the timer.
+```VB
+
+' Set the timer to fire an event every second and start the timer.
 Timer.Interval = 1000
 Timer.Start()
 
@@ -121,10 +101,10 @@ Public Sub TimerEventProcessor(ByVal sender As Object, ByVal e As System.EventAr
     &#39; Display the time remaining in the current media.
     timeRemaining.Text = (&quot;Seconds remaining: &quot; + t.ToString())
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

@@ -29,23 +29,13 @@ The **enableErrorDialogs** property gets or sets a value indicating whether erro
 public System.Boolean enableErrorDialogs {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property enableErrorDialogs As System.Boolean</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property enableErrorDialogs As System.Boolean
+```
+
+
 
 
 

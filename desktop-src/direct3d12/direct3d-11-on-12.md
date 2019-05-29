@@ -2,6 +2,7 @@
 title: Direct3D 11 on 12
 description: D3D11On12 is a mechanism by which developers can use D3D11 interfaces and objects to drive the D3D12 API.
 ms.assetid: 8412D8BB-B6DD-471E-AAB2-A81121FB0FFA
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -28,7 +29,7 @@ After you have a D3D11 device and immediate context, you can `QueryInterface` of
 
 Typical usage of D3D11On12 would be to use D2D to render text or images on top of a D3D12 back buffer. See the D3D11On12 sample for example code. Here is a rough outline of the steps to take to do so:
 
--   Create a D3D12 device ([**D3D12CreateDevice**](/windows/desktop/api/D3D12/nf-d3d12-d3d12createdevice)) and a D3D12 swap chain ([**CreateSwapChain**](https://msdn.microsoft.com/library/windows/desktop/bb174537) with an [**ID3D12CommandQueue**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandqueue) as an input).
+-   Create a D3D12 device ([**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice)) and a D3D12 swap chain ([**CreateSwapChain**](https://msdn.microsoft.com/library/windows/desktop/bb174537) with an [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) as an input).
 -   Create a D3D11On12 device using the D3D12 device and the same command queue as input.
 -   Retrieve the swap chain back buffers, and create D3D11 wrapped resources for each of them. The input state used should be the last way that D3D12 used it (e.g. RENDER\_TARGET) and the output state should be the way that D3D12 will use it after D3D11 has finished (e.g. PRESENT).
 -   Initialize D2D, and provide the D3D11 wrapped resources to D2D to prepare for rendering.

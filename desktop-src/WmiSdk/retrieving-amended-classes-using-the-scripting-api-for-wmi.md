@@ -23,23 +23,13 @@ The following code example shows how to retrieve a localized class by using a WM
 Set objwbemobject = GetObject("winmgmts:[locale=ms_409]!root/test:myclass")
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Get-WmiObject myclass -Namespace &quot;root\test&quot; -Locale &quot;ms_409&quot;</code></pre></td>
-</tr>
-</tbody>
-</table>
+```PowerShell
+
+Get-WmiObject myclass -Namespace &quot;root\test&quot; -Locale &quot;ms_409&quot;
+```
+
+
 
 
 

@@ -2,6 +2,8 @@
 title: Direct3D 12 programming guide
 description: Direct3D 12 provides an API and platform that allows apps to take advantage of the graphics and computing capabilities of PCs equipped with one or more Direct3D 12-compatible GPUs.
 ms.assetid: 16F78A6B-74C4-4ED1-809F-FE6DE157F368
+ms.custom: 19H1
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 02/12/2019
 ---
@@ -26,7 +28,7 @@ Direct3D 12 provides an API and platform that allows apps to take advantage of t
 | [Working with Direct3D 11, Direct3D 10 and Direct2D](direct3d-12-interop.md) | This section covers interop techniques with earlier versions of Direct3D and Direct2D, the Direct3D 11on12 API, and porting guidelines from Direct3D 11 to Direct3D 12. |
 | [Working samples](working-samples.md) | Working samples are available for download, showing the usage of a number of features of Direct3D 12. |
 | [D3D12 code walk-throughs](d3d12-code-walk-throughs.md) | This section provides code for sample scenarios. Many of the walk-throughs provide details on what coding is required to be added to a basic sample, to avoid repeating the basic component code for each scenario. |
-| [Debugging and diagnostics with Direct3D 12](understanding-the-d3d12-debug-layer.md) | Includes a topic that describes how to make best use of the Direct3D 12 Debug Layer, with GPU-based validation (GBV). |
+| [Debugging and diagnostics with Direct3D 12](understanding-the-d3d12-debug-layer.md) | Includes topics that describes how to make best use of the Direct3D 12 Debug Layer with GPU-based validation (GBV), and how to use Device Removed Extended Data (DRED). |
 
 ## Related topics
 

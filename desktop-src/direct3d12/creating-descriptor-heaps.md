@@ -2,6 +2,7 @@
 title: Creating Descriptor Heaps
 description: To create and configure a descriptor heap, you must select a descriptor heap type, determine how many descriptors it contains, and set flags that indicate whether it is CPU visible and/or shader visible.
 ms.assetid: 58677023-692C-4BA4-90B7-D568F3DD3F73
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +20,7 @@ To create and configure a descriptor heap, you must select a descriptor heap typ
 
 ## Descriptor Heap types
 
-The type of heap is determined by one member of the [**D3D12\_DESCRIPTOR\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_type) enum:
+The type of heap is determined by one member of the [**D3D12\_DESCRIPTOR\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type) enum:
 
 ``` syntax
 typedef enum D3D12_DESCRIPTOR_HEAP_TYPE
@@ -34,7 +35,7 @@ typedef enum D3D12_DESCRIPTOR_HEAP_TYPE
 
 ## Descriptor Heap Properties
 
-Heap properties are set on the [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_heap_desc) structure, which references both the [**D3D12\_DESCRIPTOR\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_type) and [**D3D12\_DESCRIPTOR\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_flags) enums.
+Heap properties are set on the [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc) structure, which references both the [**D3D12\_DESCRIPTOR\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type) and [**D3D12\_DESCRIPTOR\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags) enums.
 
 The flag D3D12\_DESCRIPTOR\_HEAP\_FLAG\_SHADER\_VISIBLE can optionally be set on a descriptor heap to indicate it is be bound on a command list for reference by shaders. Descriptor heaps created *without* this flag allow applications the option to stage descriptors in CPU memory before copying them to a shader visible descriptor heap, as a convenience. But it is also fine for applications to directly create descriptors into shader visible descriptor heaps with no requirement to stage anything on the CPU.
 
@@ -74,13 +75,13 @@ m_srvUavDescriptorSize = m_device->GetDescriptorHandleIncrementSize(D3D12_DESCRI
 
 ## Descriptor Handles
 
-The [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle) and [**D3D12\_CPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_cpu_descriptor_handle) structures identify specific descriptors in a descriptor heap. A handle is a bit like a pointer, but the application must not dereference it manually; otherwise, the behavior is undefined. The use of the handles must go through the API. A handle itself can be copied freely or passed into APIs that operate on/use descriptors. There is no ref counting, so the application must ensure that it does not use a handle after the underlying descriptor heap has been deleted.
+The [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle) and [**D3D12\_CPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle) structures identify specific descriptors in a descriptor heap. A handle is a bit like a pointer, but the application must not dereference it manually; otherwise, the behavior is undefined. The use of the handles must go through the API. A handle itself can be copied freely or passed into APIs that operate on/use descriptors. There is no ref counting, so the application must ensure that it does not use a handle after the underlying descriptor heap has been deleted.
 
 Applications can find out the increment size of the descriptors for a given descriptor heap type, so that they can generate handles to any location in a descriptor heap manually starting from the handle to the base. Applications must never hardcode descriptor handle increment sizes, and should always query them for a given device instance; otherwise, the behavior is undefined. Applications must also not use the increment sizes and handles to do their own examination or manipulation of descriptor heap data, as the results from doing so are undefined. The handles may not actually be used as pointers, but rather as proxies for pointers so as to avoid accidental dereferencing.
 
 > [!Note]
 >
-> There is a helper structure, CD3DX12\_GPU\_DESCRIPTOR\_HANDLE, defined in the header d3dx12.h, which inherits the [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle) structure and provides initialization and other useful operations. Similarly the CD3DX12\_CPU\_DESCRIPTOR\_HANDLE helper structure is defined for the [**D3D12\_CPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_cpu_descriptor_handle) structure.
+> There is a helper structure, CD3DX12\_GPU\_DESCRIPTOR\_HANDLE, defined in the header d3dx12.h, which inherits the [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle) structure and provides initialization and other useful operations. Similarly the CD3DX12\_CPU\_DESCRIPTOR\_HANDLE helper structure is defined for the [**D3D12\_CPU\_DESCRIPTOR\_HANDLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle) structure.
 
  
 
@@ -159,13 +160,13 @@ void D3D12nBodyGravity::PopulateCommandList()
 
 ## Descriptor Heap Methods
 
-Descriptor heaps ([**ID3D12DescriptorHeap**](/windows/desktop/api/D3D12/nn-d3d12-id3d12descriptorheap)) inherit from [**ID3D12Pageable**](https://msdn.microsoft.com/en-us/library/Dn788704(v=VS.85).aspx). This imposes the responsibility for the residency management of descriptor heaps on applications, just like resource heaps. The residency management methods only apply to shader visible heaps since the non shader visible heaps are not visible to the GPU directly.
+Descriptor heaps ([**ID3D12DescriptorHeap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap)) inherit from [**ID3D12Pageable**](https://msdn.microsoft.com/library/Dn788704(v=VS.85).aspx). This imposes the responsibility for the residency management of descriptor heaps on applications, just like resource heaps. The residency management methods only apply to shader visible heaps since the non shader visible heaps are not visible to the GPU directly.
 
-The [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize) method allows applications to manually offset handles into a heap (producing handles into anywhere in a descriptor heap). The heap start location’s handle comes from [**ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart**](/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart)/[**ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart**](/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart). Offsetting is done by adding the increment size \* the number of descriptors to offset to the descriptor heap start . Note that the increment size cannot be thought of as a byte size since applications must not dereference handles as if they are memory – the memory pointed to has a non-standardized layout and can vary even for a given device.
+The [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize) method allows applications to manually offset handles into a heap (producing handles into anywhere in a descriptor heap). The heap start location’s handle comes from [**ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart)/[**ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart). Offsetting is done by adding the increment size \* the number of descriptors to offset to the descriptor heap start . Note that the increment size cannot be thought of as a byte size since applications must not dereference handles as if they are memory – the memory pointed to has a non-standardized layout and can vary even for a given device.
 
-[**GetCPUDescriptorHandleForHeapStart**](/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart) returns a CPU handle for CPU visible descriptor heaps. It returns a NULL handle (and the debug layer will report an error) if the descriptor heap is not CPU visible.
+[**GetCPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart) returns a CPU handle for CPU visible descriptor heaps. It returns a NULL handle (and the debug layer will report an error) if the descriptor heap is not CPU visible.
 
-[**GetGPUDescriptorHandleForHeapStart**](/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart) returns a GPU handle for shader visible descriptor heaps. It returns a NULL handle (and the debug layer will report an error) if the descriptor heap is not shader visible.
+[**GetGPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart) returns a GPU handle for shader visible descriptor heaps. It returns a NULL handle (and the debug layer will report an error) if the descriptor heap is not shader visible.
 
 For example, creating render target views to display D2D text using an 11on12 device.
 

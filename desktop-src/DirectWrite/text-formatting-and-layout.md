@@ -81,7 +81,7 @@ You can use an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/
 
 ```C++
 // Set the font weight to bold for the first 5 letters.
-DWRITE_TEXT_RANGE textRange = {0, 4};
+DWRITE_TEXT_RANGE textRange = {0, 5};
 
 if (SUCCEEDED(hr))
 {

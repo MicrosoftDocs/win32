@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -53,18 +54,18 @@ A pointer to the [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d
 *pDestinationResource* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\***
+Type: **[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\***
 
-A pointer to the [**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource) interface that represents the destination resource.
+A pointer to the [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) interface that represents the destination resource.
 
 </dd> <dt>
 
 *pIntermediate* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\***
+Type: **[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\***
 
-A pointer to the [**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource) interface that represents the intermediate resource.
+A pointer to the [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) interface that represents the intermediate resource.
 
 </dd> <dt>
 
@@ -98,9 +99,9 @@ The number of subresources in the resource. The range of valid values is 0 to (D
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_subresource_data)\***
+Type: **[**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_data)\***
 
-Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_subresource_data) structures containing descriptions of the subresource data used for the update.
+Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_data) structures containing descriptions of the subresource data used for the update.
 
 </dd> </dl>
 

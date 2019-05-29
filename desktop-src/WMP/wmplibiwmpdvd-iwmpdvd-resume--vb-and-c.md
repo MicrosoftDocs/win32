@@ -29,24 +29,14 @@ The **resume** method returns to playback mode from menu mode, resuming at the s
 public void resume();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub resume()
-Implements IWMPDVD.resume</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub resume()
+Implements IWMPDVD.resume
+```
+
+
 
 
 

@@ -477,22 +477,9 @@ Controls can be added only before the dialog is shown. However, once the dialog 
 #define CONTROL_RADIOBUTTON2    2       // It is OK for this to have the same ID
                     // as CONTROL_RADIOBUTTONLIST, because it 
                     // is a child control under CONTROL_RADIOBUTTONLIST
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>// This code snippet demonstrates how to add custom controls in the Common File Dialog.
+// This code snippet demonstrates how to add custom controls in the Common File Dialog.
 HRESULT AddCustomControls()
 {
     // CoCreate the File Open Dialog object.
@@ -581,10 +568,10 @@ HRESULT AddCustomControls()
         pfd->Release();
     }
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 
@@ -598,22 +585,9 @@ Similarly, choices can be added to the **Open** or **Save** buttons, which are t
 #define OPENCHOICES 0
 #define OPEN 0
 #define OPEN_AS_READONLY 1
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>HRESULT AddOpenChoices()
+HRESULT AddOpenChoices()
 {
     // CoCreate the File Open Dialog object.
     IFileDialog *pfd = NULL;
@@ -662,10 +636,10 @@ Similarly, choices can be added to the **Open** or **Save** buttons, which are t
     }
     pfd->Release();
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

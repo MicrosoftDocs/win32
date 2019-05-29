@@ -31,26 +31,16 @@ public void appendItem(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub appendItem( _
+```VB
+
+Public Sub appendItem( _
   ByVal pIWMPMedia As IWMPMedia _
 )
-Implements IWMPPlaylist.appendItem</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPPlaylist.appendItem
+```
+
+
 
 
 
@@ -89,30 +79,20 @@ WMPLib.IWMPPlaylist plThreeList = player.playlistCollection.getByName("ThreeList
 plThreeList.appendItem(currMedia);
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to the current media item.
+```VB
+
+' Get an interface to the current media item.
 Dim currMedia As WMPLib.IWMPMedia = player.currentMedia
 
 &#39; Get an interface to the playlist named &quot;ThreeList&quot;.
 Dim plThreeList As WMPLib.IWMPPlaylist = player.playlistCollection.getByName(&quot;ThreeList&quot;).Item(0)
 
 &#39; Append the media item to the playlist.
-plThreeList.appendItem(currMedia)</code></pre></td>
-</tr>
-</tbody>
-</table>
+plThreeList.appendItem(currMedia)
+```
+
+
 
 
 

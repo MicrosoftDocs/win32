@@ -29,23 +29,13 @@ The uiMode property gets or sets a value indicating which controls are shown in 
 public System.String uiMode {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property uiMode As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property uiMode As System.String
+```
+
+
 
 
 
@@ -104,20 +94,10 @@ private void uiModeOptions_OnSelectedIndexChanged(object sender, System.EventArg
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Load the list box with the four UI mode options.
+```VB
+
+' Load the list box with the four UI mode options.
 uiModeOptions.Items.Add(&quot;invisible&quot;)
 uiModeOptions.Items.Add(&quot;none&quot;)
 uiModeOptions.Items.Add(&quot;mini&quot;)
@@ -133,10 +113,10 @@ Public Sub uiModeOptions_OnSelectedIndexChanged(ByVal sender As Object, ByVal e 
     &#39; Set the UI mode that the user selected.
     player.uiMode = newMode
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

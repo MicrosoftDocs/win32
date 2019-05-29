@@ -103,27 +103,14 @@ HRESULT Player::CreateFilterGraph()
     }
 
     hr = pSite->SetSite(this);
+
+
+done:
+    return hr;
+}
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>done:
-    return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -157,22 +144,9 @@ The following code shows how to build the graph:
 ```C++
 HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 {
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    BOOL bIsWindowsMediaFile = IsWindowsMediaFile(pwszFile);
+    BOOL bIsWindowsMediaFile = IsWindowsMediaFile(pwszFile);
 
     HRESULT hr = S_OK;
 
@@ -213,10 +187,10 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
     if (bIsWindowsMediaFile)
     {
-            hr = m_pFileSource->Load(pwszFile, NULL);</code></pre></td>
-</tr>
-</tbody>
-</table>
+            hr = m_pFileSource->Load(pwszFile, NULL);
+```
+
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
@@ -309,22 +283,9 @@ The following code shows how to get a pointer to the [**IWMDRMReader**](https://
 ```C++
 HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
 {
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    CComPtr<IServiceProvider> pService;
+    CComPtr<IServiceProvider> pService;
     CComPtr<IWMDRMReader> pDrmReader;
 
     HRESULT hr = pFilter->QueryInterface(&pService);
@@ -334,10 +295,10 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
             __uuidof(IWMDRMReader), IID_PPV_ARGS(&m_pDrmReader));
     }
     return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

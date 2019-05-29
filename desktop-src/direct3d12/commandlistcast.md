@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -52,7 +53,7 @@ The template argument **t\_CommandListType** specifies any strongly-typed comman
 
 Type: **ID3D12CommandList \* const \***
 
-The strongly-typed command list, reinterpreted as an [**ID3D12CommandList**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandlist).
+The strongly-typed command list, reinterpreted as an [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist).
 
 ## Remarks
 

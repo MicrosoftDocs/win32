@@ -2,6 +2,7 @@
 title: Root Signature Version 1.1
 description: The purpose of Root Signature version 1.1 is to enable applications to indicate to drivers when descriptors in a descriptor heap won’t change or the data descriptors point to won’t change.
 ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -12,10 +13,10 @@ The purpose of Root Signature version 1.1 is to enable applications to indicate 
 
 -   [Overview](#overview)
 -   [Static and Volatile Flags](#static-and-volatile-flags)
-    -   [DESCRIPTORS\_VOLATILE](https://docs.microsoft.com/windows)
-    -   [DATA\_VOLATILE](https://docs.microsoft.com/windows)
-    -   [DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE](https://docs.microsoft.com/windows)
-    -   [DATA\_STATIC](https://docs.microsoft.com/windows)
+    -   [DESCRIPTORS\_VOLATILE](/windows)
+    -   [DATA\_VOLATILE](/windows)
+    -   [DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE](/windows)
+    -   [DATA\_STATIC](/windows)
     -   [Combining Flags](#combining-flags)
     -   [Flag Summary](#flag-summary)
 -   [Version 1.1 API Summary](#version-11-api-summary)
@@ -164,7 +165,7 @@ The following API calls enable version 1.1.
 
 These enumerations contain the key flags to specify descriptor and data volatility.
 
--   [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/D3D12/ne-d3d12-d3d_root_signature_version) : version ids.
+-   [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version) : version ids.
 -   [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags) : a range of flags determining if descriptors or data are volatile or static.
 -   [**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_descriptor_flags) : a similar range of flags to [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags), except that only data flags apply to root descriptors.
 
@@ -172,7 +173,7 @@ These enumerations contain the key flags to specify descriptor and data volatili
 
 Updated structures (from version 1.0) contain references to the volatility/static flags.
 
--   [**D3D12\_FEATURE\_DATA\_ROOT\_SIGNATURE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_root_signature) : pass this structure to [**CheckFeatureSupport**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-checkfeaturesupport) to check for Root Signature Version 1.1 support.
+-   [**D3D12\_FEATURE\_DATA\_ROOT\_SIGNATURE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_root_signature) : pass this structure to [**CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) to check for Root Signature Version 1.1 support.
 -   [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc) : can hold any version of a root signature description, and is designed to be used with the serialization/deserialization functions listed below.
 -   These structures are equivalent to those used in version 1.0, with the addition of new flags fields for descriptor ranges and root descriptors:
 
@@ -184,7 +185,7 @@ Updated structures (from version 1.0) contain references to the volatility/stati
 
 ### Functions
 
-The methods listed here supersede the original [**D3D12SerializeRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-d3d12serializerootsignature) and [**D3D12CreateRootSignatureDeserializer**](/windows/desktop/api/D3D12/nf-d3d12-d3d12createrootsignaturedeserializer) functions, as they are designed to work on any version of root signature. The serialized form is what is passed into the [**CreateRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrootsignature) API. If a shader has been authored with a root signature in it, the compiled shader will contain a serialized root signature in it already.
+The methods listed here supersede the original [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature) and [**D3D12CreateRootSignatureDeserializer**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createrootsignaturedeserializer) functions, as they are designed to work on any version of root signature. The serialized form is what is passed into the [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature) API. If a shader has been authored with a root signature in it, the compiled shader will contain a serialized root signature in it already.
 
 -   [**D3D12SerializeVersionedRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializeversionedrootsignature) : if an application procedurally generates the [**D3D12\_VERSIONED\_ROOT\_SIGNATURE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc) data structure, it must make the serialized form using this function.
 -   [**D3D12CreateVersionedRootSignatureDeserializer**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createversionedrootsignaturedeserializer) : generates an interface that can return the deserialized data structure, via [**GetUnconvertedRootSignatureDesc**](/windows/desktop/api/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc).

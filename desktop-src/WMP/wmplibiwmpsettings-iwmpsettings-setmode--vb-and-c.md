@@ -32,27 +32,17 @@ public void setMode(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub setMode( _
+```VB
+
+Public Sub setMode( _
   ByVal bstrMode As System.String, _
   ByVal varfMode As System.Boolean _
 )
-Implements IWMPSettings.setMode</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPSettings.setMode
+```
+
+
 
 
 

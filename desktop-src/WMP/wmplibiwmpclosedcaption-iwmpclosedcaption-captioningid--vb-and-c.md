@@ -29,23 +29,13 @@ The **IWMPClosedCaption** property gets or sets the name of the HTML element dis
 public System.String captioningId {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property captioningId As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property captioningId As System.String
+```
+
+
 
 
 

@@ -29,24 +29,14 @@ The **webHelp** method launches the Windows Media Player Web Help page to displa
 public void webHelp();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub webHelp()
-Implements IWMPError.webHelp</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Sub webHelp()
+Implements IWMPError.webHelp
+```
+
+
 
 
 
@@ -80,28 +70,18 @@ private void webHelpButton_Click(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub webHelpButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles webHelpButton.Click
+```VB
+
+Public Sub webHelpButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles webHelpButton.Click
 
     &#39; Launch the Microsoft Windows Media Player Web Help page in the browser.
     player.Error.webHelp()
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

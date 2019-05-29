@@ -14,6 +14,7 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,7 +41,7 @@ void PrimitiveTopologyTypeCb(
 *PrimitiveTopologyType* 
 </dt> <dd>
 
-Type: **[**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_primitive_topology_type)**
+Type: **[**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type)**
 
 Details of the primitive topology type subobject parsed from a pipeline state stream.
 
@@ -72,7 +73,7 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_primitive_topology_type)
+[**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type)
 </dt> </dl>
 
  

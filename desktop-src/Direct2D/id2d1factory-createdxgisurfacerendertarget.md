@@ -53,26 +53,13 @@ hr = m_pSwapChain->GetBuffer(
     0,
     IID_PPV_ARGS(&amp;pBackBuffer)
     );
+
+
+    if (SUCCEEDED(hr))
+    {
 ```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>    if (SUCCEEDED(hr))
-    {</code></pre></td>
-</tr>
-</tbody>
-</table>
 
 <span codelanguage="ManagedCPlusPlus"></span>
 

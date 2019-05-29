@@ -80,20 +80,10 @@ private void player_ErrorEvent_get_Item(object sender, System.EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Sub player_ErrorEvent_get_Item(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
+```VB
+
+Public Sub player_ErrorEvent_get_Item(ByVal sender As Object, ByVal e As System.EventArgs) Handles player.ErrorEvent
 
     &#39; Store the index of the most recent error.
     Dim max As Integer = (player.Error.errorCount - 1)
@@ -108,10 +98,10 @@ private void player_ErrorEvent_get_Item(object sender, System.EventArgs e)
     &#39; Display the error info.
     System.Windows.Forms.MessageBox.Show(errNum.ToString() + &quot;:  &quot; + errDesc)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

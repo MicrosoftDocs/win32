@@ -2,6 +2,7 @@
 Description: A shader that is invoked when no ray intersections are found or accepted.    
 ms.assetid: 
 title: Miss Shader
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

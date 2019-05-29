@@ -66,6 +66,14 @@
       href: /windows/desktop/api/corewindow/nf-corewindow-createcontrolinput
     - name: "CreateControlInputEx"
       href: /windows/desktop/api/corewindow/nf-corewindow-createcontrolinputex
+    - name: "CreateDirect3D11DeviceFromDXGIDevice"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11devicefromdxgidevice
+    - name: "CreateDirect3D11SurfaceFromDXGISurface"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11surfacefromdxgisurface
+    - name: "CreateDirect3DDevice"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3ddevice
+    - name: "CreateDirect3DSurface"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface
     - name: "CreateRandomAccessStreamOnFile"
       href: https://msdn.microsoft.com/en-us/library/Hh846256(v=VS.85).aspx
     - name: "CreateRandomAccessStreamOverStream"
@@ -76,6 +84,12 @@
       href: createxamluipresenter.md
     - name: "DbgRaiseAssertionFailure"
       href: https://msdn.microsoft.com/en-us/library/JJ635749(v=VS.85).aspx
+    - name: "GetDXGIInterface(IDirect3DDevice^, DXGI_TYPE**)"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface
+    - name: "GetDXGIInterface(IDirect3DSurface^, DXGI_TYPE**)"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface~r1
+    - name: "GetDXGIInterfaceFromObject"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterfacefromobject
     - name: "GetRestrictedErrorInfo"
       href: https://msdn.microsoft.com/en-us/library/JJ219013(v=VS.85).aspx
     - name: "HSTRING_UserFree"
@@ -423,6 +437,11 @@
         href: /windows/desktop/api/corewindow/nf-corewindow-icorewindowinterop-get_windowhandle
       - name: "MessageHandled property"
         href: /windows/desktop/api/corewindow/nf-corewindow-icorewindowinterop-put_messagehandled
+    - name: "IDirect3DDxgiInterfaceAccess"
+      href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/ns-windows-graphics-directx-direct3d11-interop-idirect3ddxgiinterfaceaccess
+      items: 
+      - name: "GetInterface"
+        href: /windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-idirect3ddxgiInterfaceaccess-getinterface
     - name: "IDllServerActivatableClassRegistration"
       href: https://msdn.microsoft.com/en-us/library/Dn408455(v=VS.85).aspx
       items: 

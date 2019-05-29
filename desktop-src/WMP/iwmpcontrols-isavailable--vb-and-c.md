@@ -89,28 +89,18 @@ if (player.Ctlcontrols.get_isAvailable("currentPosition"))
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; If the currentPosition property is supported, seek to position 0.
+```VB
+
+' If the currentPosition property is supported, seek to position 0.
 If (player.Ctlcontrols.isAvailable(&quot;currentPosition&quot;)) Then
 
     player.Ctlcontrols.currentPosition = 0
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

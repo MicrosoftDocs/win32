@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -60,27 +61,27 @@ Creates a new instance of a CD3DX12\_STATIC\_SAMPLER\_DESC, initializing the fol
 
 UINT shaderRegister
 
-(opt) [**D3D12\_FILTER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_filter) filter = D3D12\_FILTER\_ANISOTROPIC
+(opt) [**D3D12\_FILTER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter) filter = D3D12\_FILTER\_ANISOTROPIC
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
 (opt) FLOAT mipLODBias = 0
 
 (opt) UINT maxAnisotropy = 16
 
-(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
+(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
 
-(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_static_border_color) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
+(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_static_border_color) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
 
 (opt) FLOAT minLOD = 0.f
 
 (opt) FLOAT maxLOD = D3D12\_FLOAT32\_MAX
 
-(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
+(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 (opt) UINT registerSpace = 0
 
@@ -95,27 +96,27 @@ Specifies a function that initializes the following parameters:
 
 UINT shaderRegister
 
-(opt) [**D3D12\_FILTER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_filter) filter = D3D12\_FILTER\_ANISOTROPIC
+(opt) [**D3D12\_FILTER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter) filter = D3D12\_FILTER\_ANISOTROPIC
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
 (opt) FLOAT mipLODBias = 0
 
 (opt) UINT maxAnisotropy = 16
 
-(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
+(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
 
-(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_static_border_color) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
+(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_static_border_color) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
 
 (opt) FLOAT minLOD = 0.f
 
 (opt) FLOAT maxLOD = D3D12\_FLOAT32\_MAX
 
-(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
+(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 (opt) UINT registerSpace = 0
 
@@ -128,27 +129,27 @@ Specifies a function that initializes the following parameters:
 
 UINT shaderRegister
 
-(opt) [**D3D12\_FILTER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_filter) filter = D3D12\_FILTER\_ANISOTROPIC
+(opt) [**D3D12\_FILTER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter) filter = D3D12\_FILTER\_ANISOTROPIC
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
 (opt) FLOAT mipLODBias = 0
 
 (opt) UINT maxAnisotropy = 16
 
-(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
+(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
 
-(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_static_border_color) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
+(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_static_border_color) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
 
 (opt) FLOAT minLOD = 0.f
 
 (opt) FLOAT maxLOD = D3D12\_FLOAT32\_MAX
 
-(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
+(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 (opt) UINT registerSpace = 0
 

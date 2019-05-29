@@ -29,23 +29,13 @@ The **SAMILang** property gets or sets the language displayed for closed caption
 public System.String SAMILang {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property SAMILang As System.String</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property SAMILang As System.String
+```
+
+
 
 
 

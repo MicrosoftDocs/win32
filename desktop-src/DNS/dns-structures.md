@@ -8,59 +8,59 @@ keywords:
 - Domain Name System, reference, structures
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: 19H1
 ---
 
 # DNS Structures
 
 The following structures are defined for use with DNS:
 
--   [**DNS\_ADDR**](/windows/desktop/api/Windns/ns-windns-_dnsaddr)
--   [**DNS\_ADDR\_ARRAY**](/windows/desktop/api/Windns/ns-windns-_dnsaddrarray)
--   [**DNS\_HEADER**](/windows/desktop/api/Windns/ns-windns-_dns_header)
--   [**DNS\_MESSAGE\_BUFFER**](/windows/desktop/api/Windns/ns-windns-_dns_message_buffer)
--   [**DNS\_PROXY\_INFORMATION**](/windows/desktop/api/Windns/ns-windns-dns_proxy_information)
--   [**DNS\_QUERY\_REQUEST**](/windows/desktop/api/Windns/ns-windns-_dns_query_request)
--   [**DNS\_RECORD**](/windows/desktop/api/Windns/ns-windns-_dnsrecorda)
--   [**DNS\_RECORD\_FLAGS**](/windows/desktop/api/Windns/ns-windns-_dnsrecordflags)
--   [**IP4\_ARRAY**](/windows/desktop/api/Windns/ns-windns-_ip4_array)
--   [**IP6\_ADDRESS**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_0)
+- [**DNS_ADDR**](/windows/desktop/api/Windns/ns-windns-_dnsaddr)
+- [**DNS_ADDR_ARRAY**](/windows/desktop/api/Windns/ns-windns-_dnsaddrarray)
+- [**DNS_HEADER**](/windows/desktop/api/Windns/ns-windns-_dns_header)
+- [**DNS_MESSAGE_BUFFER**](/windows/desktop/api/Windns/ns-windns-_dns_message_buffer)
+- [**DNS_PROXY_INFORMATION**](/windows/desktop/api/Windns/ns-windns-dns_proxy_information)
+- [**DNS_QUERY_REQUEST**](/windows/desktop/api/Windns/ns-windns-_dns_query_request)
+- [**DNS_RECORD**](/windows/desktop/api/Windns/ns-windns-_dnsrecorda)
+- [**DNS_RECORD_FLAGS**](/windows/desktop/api/Windns/ns-windns-_dnsrecordflags)
+- [**DNS_SERVICE_BROWSE_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_browse_request)
+- [**DNS_SERVICE_CANCEL**](/windows/desktop/api/Windns/ns-windns-dns_service_cancel)
+- [**DNS_SERVICE_INSTANCE**](/windows/desktop/api/Windns/ns-windns-dns_service_instance)
+- [**DNS_SERVICE_REGISTER_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_register_request)
+- [**DNS_SERVICE_RESOLVE_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_resolve_request)
+- [**IP4_ARRAY**](/windows/desktop/api/Windns/ns-windns-_ip4_array)
+- [**IP6_ADDRESS**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_0)
+- [**MDNS_QUERY_HANDLE**](/windows/desktop/api/Windns/ns-windns-mdns_query_handle)
+- [**MDNS_QUERY_REQUEST**](/windows/desktop/api/Windns/ns-windns-mdns_query_request)
 
-The following Resource Record (RR) structures are also included in the DNS API. These structures are used with the DNS\_RECORD structure to programmatically manage DNS resource records:
+The following Resource Record (RR) structures are also included in the DNS API. These structures are used with the **DNS_RECORD** structure to programmatically manage DNS resource records.
 
--   [**DNS\_A\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_2)
--   [**DNS\_AAAA\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_15)
--   [**DNS\_ATMA\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_34)
--   [**DNS\_DHCID\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_19)
--   [**DNS\_DNSKEY\_DATA**](https://msdn.microsoft.com/library/windows/desktop/dd392295)
--   [**DNS\_DS\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_25)
--   [**DNS\_KEY\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_18)
--   [**DNS\_LOC\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_27)
--   [**DNS\_MINFO\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_7)
--   [**DNS\_MX\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_10)
--   [**DNS\_NAPTR\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_32)
--   [**DNS\_NSEC\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_20)
--   [**DNS\_NULL\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_13)
--   [**DNS\_NXT\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_28)
--   [**DNS\_OPT\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_26)
--   [**DNS\_PTR\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_3)
--   [**DNS\_RRSET**](/windows/desktop/api/Windns/ns-windns-_dnsrrset)
--   [**DNS\_RRSIG\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_16)
--   [**DNS\_SIG\_DATA**](https://msdn.microsoft.com/en-us/library/ms682094(v=VS.85).aspx)
--   [**DNS\_SOA\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_5)
--   [**DNS\_SRV\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_30)
--   [**DNS\_TKEY\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_35)
--   [**DNS\_TSIG\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_37)
--   [**DNS\_TXT\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_11)
--   [**DNS\_WINS\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_40)
--   [**DNS\_WINSR\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_41)
--   [**DNS\_WIRE\_QUESTION**](/windows/desktop/api/Windns/ns-windns-_dns_wire_question)
--   [**DNS\_WIRE\_RECORD**](/windows/desktop/api/Windns/ns-windns-_dns_wire_record)
--   [**DNS\_WKS\_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_14)
-
- 
-
- 
-
-
-
-
+- [**DNS_A_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_2)
+- [**DNS_AAAA_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_15)
+- [**DNS_ATMA_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_34)
+- [**DNS_DHCID_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_19)
+- [**DNS_DNSKEY_DATA**](https://msdn.microsoft.com/library/windows/desktop/dd392295)
+- [**DNS_DS_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_25)
+- [**DNS_KEY_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_18)
+- [**DNS_LOC_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_27)
+- [**DNS_MINFO_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_7)
+- [**DNS_MX_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_10)
+- [**DNS_NAPTR_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_32)
+- [**DNS_NSEC_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_20)
+- [**DNS_NULL_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_13)
+- [**DNS_NXT_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_28)
+- [**DNS_OPT_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_26)
+- [**DNS_PTR_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_3)
+- [**DNS_RRSET**](/windows/desktop/api/Windns/ns-windns-_dnsrrset)
+- [**DNS_RRSIG_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_16)
+- [**DNS_SIG_DATA**](https://msdn.microsoft.com/en-us/library/ms682094(v=VS.85).aspx)
+- [**DNS_SOA_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_5)
+- [**DNS_SRV_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_30)
+- [**DNS_TKEY_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_35)
+- [**DNS_TSIG_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_37)
+- [**DNS_TXT_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_11)
+- [**DNS_WINS_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_40)
+- [**DNS_WINSR_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_41)
+- [**DNS_WIRE_QUESTION**](/windows/desktop/api/Windns/ns-windns-_dns_wire_question)
+- [**DNS_WIRE_RECORD**](/windows/desktop/api/Windns/ns-windns-_dns_wire_record)
+- [**DNS_WKS_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_14)

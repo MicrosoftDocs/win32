@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -48,7 +49,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_PR
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_PRIMITIVE\_TOPOLOGY(D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_PRIMITIVE\_TOPOLOGY, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_PRIMITIVE\_TOPOLOGY** and subobject data copied from *i*, a [**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_primitive_topology_type) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_PRIMITIVE\_TOPOLOGY, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_PRIMITIVE\_TOPOLOGY** and subobject data copied from *i*, a [**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type) structure.
 
 </dd> <dt>
 
@@ -62,7 +63,7 @@ Copy-assignment operator.
 **operator D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_primitive_topology_type) structure.
+Implicit conversion to a [**D3D12\_PRIMITIVE\_TOPOLOGY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type) structure.
 
 </dd> </dl>
 

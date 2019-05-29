@@ -12,6 +12,7 @@ api_name:
 - ID3D12Resource.GetDesc
 api_type:
 - COM
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 
@@ -73,7 +74,7 @@ Refer to the [Example Code in the D3D12 Reference](notes-on-example-code.md).
 
 <dl> <dt>
 
-[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)
+[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)
 </dt> </dl>
 
  

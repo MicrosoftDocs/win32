@@ -32,23 +32,13 @@ This property is read-only.
 public System.Int32 markerCount {get;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property markerCount As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property markerCount As System.Int32
+```
+
+
 
 
 
@@ -91,20 +81,10 @@ if (mcount > 0)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get the number of markers in the current media item.
+```VB
+
+' Get the number of markers in the current media item.
 Dim mcount As Integer = player.currentMedia.markerCount
 
 &#39; Create an array to store the list of markers.
@@ -124,10 +104,10 @@ If (mcount > 0) Then
     &#39; Display the marker names in the text box.
     markerList.Lines = markerNames
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

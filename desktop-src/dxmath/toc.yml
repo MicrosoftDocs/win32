@@ -2365,17 +2365,17 @@
             href: boundingbox-contains.md
             items: 
             - name: "Contains (BoundingBox)"
-              href: https://msdn.microsoft.com/en-us/library/Hh449611(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingbox-contains(constboundingbox_)
             - name: "Contains (BoundingFrustum)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855873(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingbox-contains(constboundingfrustum_)
             - name: "Contains (BoundingOrientedBox)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855883(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingbox-contains(constboundingorientedbox_)
             - name: "Contains (BoundingSphere)"
-              href: https://msdn.microsoft.com/en-us/library/Hh449615(v=VS.85).aspx
-            - name: "Contains (XMVECTOR)"
-              href: https://msdn.microsoft.com/en-us/library/Hh449619(v=VS.85).aspx
-            - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
-              href: https://msdn.microsoft.com/en-us/library/Hh449607(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingbox-contains(constboundingsphere_)
+            - name: "Contains (FXMVECTOR)"
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingbox-contains
+            - name: "Contains (FXMVECTOR, FXMVECTOR, FXMVECTOR)"
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingbox-contains(fxmvector_fxmvector_fxmvector)
           - name: "CreateFromPoints"
             href: boundingbox-createfrompoints.md
             items: 
@@ -2459,17 +2459,17 @@
             href: boundingfrustum-contains.md
             items: 
             - name: "Contains (BoundingBox)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855879(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains(constboundingbox_)
             - name: "Contains (BoundingFrustum)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855874(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains(constboundingfrustum_)
             - name: "Contains (BoundingOrientedBox)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855884(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains(constboundingorientedbox_)
             - name: "Contains (BoundingSphere)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855887(v=VS.85).aspx
-            - name: "Contains (XMVECTOR)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855890(v=VS.85).aspx
-            - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
-              href: https://msdn.microsoft.com/en-us/library/Hh855877(v=VS.85).aspx
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains(constboundingsphere_)
+            - name: "Contains (FXMVECTOR)"
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains
+            - name: "Contains (FXMVECTOR, FXMVECTOR, FXMVECTOR)"
+              href: /windows/desktop/api/directxcollision/nf-directxcollision-boundingfrustum-contains(fxmvector_fxmvector_fxmvector)
           - name: "Intersects"
             href: boundingfrustum-intersects.md
             items: 

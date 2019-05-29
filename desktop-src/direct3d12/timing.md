@@ -2,6 +2,7 @@
 title: Timing
 description: This section covers querying timestamps, and calibrating the GPU and CPU timestamp counters.
 ms.assetid: CC1E5BAB-4363-43FF-BF5B-6C9AEBECD6CA
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -35,10 +36,10 @@ Note that GPU and CPU timestamp counters are not necessarily directly related to
 [Counters and Queries](counters-and-queries.md)
 </dt> <dt>
 
-[**ID3D12Device::SetStablePowerState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-setstablepowerstate)
+[**ID3D12Device::SetStablePowerState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate)
 </dt> <dt>
 
-[**ID3D12Object::SetName**](/windows/desktop/api/D3D12/nf-d3d12-id3d12object-setname)
+[**ID3D12Object::SetName**](/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname)
 </dt> <dt>
 
 [**ID3DUserDefinedAnnotation**](https://msdn.microsoft.com/library/windows/desktop/hh446881)

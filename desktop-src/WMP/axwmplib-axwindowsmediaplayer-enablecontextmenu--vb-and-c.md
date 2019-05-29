@@ -29,23 +29,13 @@ The enableContextMenu property gets or sets a value indicating whether to enable
 public System.Boolean enableContextMenu {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property enableContextMenu As System.Boolean</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property enableContextMenu As System.Boolean
+```
+
+
 
 
 

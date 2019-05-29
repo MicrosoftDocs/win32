@@ -31,26 +31,16 @@ public System.Double getMarkerTime(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getMarkerTime( _
+```VB
+
+Public Function getMarkerTime( _
   ByVal MarkerNum As System.Int32 _
 ) As System.Double
-Implements IWMPMedia.getMarkerTime</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPMedia.getMarkerTime
+```
+
+
 
 
 
@@ -108,20 +98,10 @@ if (mcount > 0)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get the number of markers in the current media item.
+```VB
+
+' Get the number of markers in the current media item.
 Dim mcount As Integer = player.currentMedia.markerCount
 
 &#39; Create an array to store the list of marker times.
@@ -143,10 +123,10 @@ If (mcount > 0) Then
     &#39; Display the marker times in the text box.
     markerTimes.Lines = markers
 
-End If</code></pre></td>
-</tr>
-</tbody>
-</table>
+End If
+```
+
+
 
 
 

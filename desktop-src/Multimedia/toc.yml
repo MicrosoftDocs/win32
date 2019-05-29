@@ -3064,7 +3064,7 @@
       - name: "freeze"
         href: freeze.md
       - name: "index"
-        href: index.md
+        href: index-command.md
       - name: "info"
         href: info.md
       - name: "list"

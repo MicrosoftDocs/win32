@@ -61,12 +61,12 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
 
     The following example creates a predefined color and uses it to specify the color of an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx).
 
-    ```C++
+```C++
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
         &m_pBlackBrush
         );
-    ```
+```
 
     
 
@@ -74,23 +74,23 @@ To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structu
 
     The following example specifies the red, green, blue, and alpha values for a color.
 
-    ```C++
+```C++
     ID2D1SolidColorBrush *pGridBrush = NULL;
     hr = pCompatibleRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0.93f, 0.94f, 0.96f, 1.0f)),
         &pGridBrush
         );
-    ```
+```
 
     
 
 -   Use the [**ColorF(UINT32, FLOAT)**](https://msdn.microsoft.com/en-us/library/Dd370910(v=VS.85).aspx) constructor to specify the hexadecimal value of a color and an alpha value, as shown in the following example.
-    ```C++
+```C++
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
         &m_pYellowGreenBrush
         );
-    ```
+```
 
     
 
@@ -160,7 +160,7 @@ To create the gradient shown in the preceding illustration, complete these steps
 
     The following code creates an array of two [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects. The first stop specifies the color "Yellow" at a position 0, and the second stop specifies the color "ForestGreen" at position 1.
 
-    ```C++
+```C++
     // Create an array of gradient stops to put in the gradient stop
     // collection that will be used in the gradient brush.
     ID2D1GradientStopCollection *pGradientStops = NULL;
@@ -170,13 +170,13 @@ To create the gradient shown in the preceding illustration, complete these steps
     gradientStops[0].position = 0.0f;
     gradientStops[1].color = D2D1::ColorF(D2D1::ColorF::ForestGreen, 1);
     gradientStops[1].position = 1.0f;
-    ```
+```
 
     
 
 2.  Create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx). The following example calls [**CreateGradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx), passing in the array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects, the number of gradient stops (2), [**D2D1\_GAMMA\_2\_2**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma) for interpolation, and [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) for the extend mode.
 
-    ```C++
+```C++
     // Create the ID2D1GradientStopCollection from a previously
     // declared array of D2D1_GRADIENT_STOP structs.
     hr = m_pRenderTarget->CreateGradientStopCollection(
@@ -186,12 +186,12 @@ To create the gradient shown in the preceding illustration, complete these steps
         D2D1_EXTEND_MODE_CLAMP,
         &pGradientStops
         );
-    ```
+```
 
     
 
 3.  Create the [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx). The next example calls the [**CreateLinearGradientBrush**](/windows/desktop/dd371845(v=vs.85).aspx) method and passes it the linear gradient brush properties that contain the start point at (0, 0) and the end point at (150, 150), and the gradient stops created in the previous step.
-    ```C++
+```C++
     // The line that determines the direction of the gradient starts at
     // the upper-left corner of the square and ends at the lower-right corner.
 
@@ -205,14 +205,14 @@ To create the gradient shown in the preceding illustration, complete these steps
             &m_pLinearGradientBrush
             );
     }
-    ```
+```
 
     
 
 4.  Use the [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx). The next code example uses the brush to fille a rectangle.
-    ```C++
+```C++
     m_pRenderTarget->FillRectangle(&rcBrushRect, m_pLinearGradientBrush);
-    ```
+```
 
     
 
@@ -440,22 +440,9 @@ if (SUCCEEDED(hr))
 ```C++
 D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 
-```
 
-<span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code> // Demonstrate the effect of transforming a bitmap brush.
+ // Demonstrate the effect of transforming a bitmap brush.
  m_pBitmapBrush->SetTransform(
      D2D1::Matrix3x2F::Translation(D2D1::SizeF(50,50))
      );
@@ -467,10 +454,10 @@ D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
      m_pBitmapBrush
      );
 
- m_pRenderTarget->DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);</code></pre></td>
-</tr>
-</tbody>
-</table>
+ m_pRenderTarget->DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
+```
+
+
 
 
 

@@ -1,0 +1,33 @@
+---
+title: EAPHost Authenticator Method Enumerations
+description: EAPHost Authenticator Method Enumerations
+ms.assetid: 8c21625f-a9b7-4ea5-98ff-cdcce637dad8
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# EAPHost Authenticator Method Enumerations
+
+The EAPHost Authenticator Method enumerations are as follows.
+
+
+
+| Enumeration                                                                                      | Description                                                                                                                                        |
+|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**EAP\_AUTHENTICATOR\_SEND\_TIMEOUT**](/previous-versions/windows/desktop/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-_eap_authenticator_send_timeout)                      | Indicates to the information system (IS) the amount of time to wait for user input after the packet is sent. The timeout value can be set to none. |
+| [**EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_ACTION**](/previous-versions/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action) | Defines the response instructions sent by the authenticator to the supplicant or EAP peer method.                                                  |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+

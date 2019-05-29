@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -42,18 +43,18 @@ void inline MemcpySubresource(
 *pDest* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D12\_MEMCPY\_DEST**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_memcpy_dest)\***
+Type: **const [**D3D12\_MEMCPY\_DEST**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_memcpy_dest)\***
 
-A pointer to a [**D3D12\_MEMCPY\_DEST**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_memcpy_dest) structure that describes the destination of the memory copy operation.
+A pointer to a [**D3D12\_MEMCPY\_DEST**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_memcpy_dest) structure that describes the destination of the memory copy operation.
 
 </dd> <dt>
 
 *pSrc* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_subresource_data)\***
+Type: **const [**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_data)\***
 
-A pointer to a [**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_subresource_data) structure that describes the source of the memory copy operation.
+A pointer to a [**D3D12\_SUBRESOURCE\_DATA**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_data) structure that describes the source of the memory copy operation.
 
 </dd> <dt>
 

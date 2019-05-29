@@ -29,23 +29,13 @@ The currentMedia property gets or sets the IWMPMedia interface that corresponds 
 public IWMPMedia currentMedia {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Property currentMedia As IWMPMedia</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Property currentMedia As IWMPMedia
+```
+
+
 
 
 
@@ -75,30 +65,20 @@ player.currentMedia = firstMedia;
 currentMediaLabel.Text = ("Found first media item. Name = " + player.currentMedia.name);
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an interface to the first media item in the library. 
+```VB
+
+' Get an interface to the first media item in the library. 
 Dim firstMedia As WMPLib.IWMPMedia3 = player.mediaCollection.getAll().Item(0)
 
 &#39; Make the retrieved media item the current media item.
 player.currentMedia = firstMedia
 
 &#39; Display the name of the current media item.
-currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.currentMedia.name)</code></pre></td>
-</tr>
-</tbody>
-</table>
+currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.currentMedia.name)
+```
+
+
 
 
 

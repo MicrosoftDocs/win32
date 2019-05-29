@@ -2,6 +2,7 @@
 Description: The current x and y location within the width and height obtained with the DispatchRaysDimensions system value intrinsic.
 ms.assetid: 
 title: DispatchRaysIndex
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

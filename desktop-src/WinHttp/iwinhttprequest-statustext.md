@@ -32,23 +32,13 @@ HRESULT get_StatusText(
 );
 ```
 
-<span codelanguage="JScript"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JScript</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>StatusText = WinHttpRequest.StatusText</code></pre></td>
-</tr>
-</tbody>
-</table>
+```JScript
+
+StatusText = WinHttpRequest.StatusText
+```
+
+
 
 
 

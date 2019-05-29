@@ -29,23 +29,13 @@ The **bufferingProgress** property gets the percentage of buffering completed.
 public System.Int32 bufferingProgress {get; set;}
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public ReadOnly Property bufferingProgress As System.Int32</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public ReadOnly Property bufferingProgress As System.Int32
+```
+
+
 
 
 
@@ -96,20 +86,10 @@ private void UpdateBufferingProgress(object sender, EventArgs e)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Create an event handler for the Buffering event.
+```VB
+
+' Create an event handler for the Buffering event.
 Public Sub player_Buffering(ByVal sender As Object, ByVal e As AxWMPLib._WMPOCXEvents_BufferingEvent) Handles player.Buffering
 
     &#39; Test whether packets may be arriving.
@@ -140,10 +120,10 @@ Public Sub UpdateBufferingProgress(ByVal sender As Object, ByVal e As System.Eve
 
     bufferingProgressLabel.Text = (&quot;Buffering progress: &quot; + player.network.bufferingProgress + &quot; percent complete&quot;)
 
-End Sub</code></pre></td>
-</tr>
-</tbody>
-</table>
+End Sub
+```
+
+
 
 
 

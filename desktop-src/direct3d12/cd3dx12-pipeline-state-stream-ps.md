@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -48,7 +49,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_PS
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_PS(D3D12\_SHADER\_BYTECODE const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_PS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_PS** and subobject data copied from *i*, a [**D3D12\_SHADER\_BYTECODE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_bytecode) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_PS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_PS** and subobject data copied from *i*, a [**D3D12\_SHADER\_BYTECODE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_bytecode) structure.
 
 </dd> <dt>
 
@@ -62,7 +63,7 @@ Copy-assignment operator.
 **operator D3D12\_SHADER\_BYTECODE() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_SHADER\_BYTECODE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_bytecode) structure.
+Implicit conversion to a [**D3D12\_SHADER\_BYTECODE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_bytecode) structure.
 
 </dd> </dl>
 

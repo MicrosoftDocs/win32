@@ -119,12 +119,12 @@ This topic contains information about low-level APIs that are used by the Window
 <td>Determines how many bytes are needed to represent a Unicode string as an ANSI string.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a></td>
-<td>The <a href="rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br/></td>
+<td><a href="/windows/desktop/devnotes/rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a></td>
+<td>The <a href="/windows/desktop/devnotes/rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a></td>
-<td>The <a href="rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> function translates the specified source string into a Unicode string, using the UTF-8 code page.<br/></td>
+<td><a href="/windows/desktop/devnotes/rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a></td>
+<td>The <a href="/windows/desktop/devnotes/rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> function translates the specified source string into a Unicode string, using the UTF-8 code page.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Ime/nf-ime-sendimemessageexa"><strong>SendIMEMessageEx</strong></a></td>
@@ -172,16 +172,6 @@ This function is obsolete and should not be used.
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [**\_\_C\_specific\_handler Routine**](--c-specific-handler2.md) | [**\_\_C\_specific\_handler**](--c-specific-handler2.md) is a helper routine for the C compiler.<br/> |
 | [\_alldiv Routine](-win32-alldiv.md)                             | [\_alldiv Routine](-win32-alldiv.md) is a helper routine for the C compiler.<br/>                     |
+| [\_allmul](-win32-allmul.md) | Multiplies two **LONGLONG** or **ULONGLONG**. |
+| [\_aulldiv](-win32-aulldiv.md) | Divides two **ULONGLONG** integers. |
 | [\_chkstk Routine](-win32-chkstk.md)                             | [\_chkstk Routine](-win32-chkstk.md) is a helper routine for the C compiler.<br/>                     |
-
-
-
- 
-
- 
-
- 
-
-
-
-

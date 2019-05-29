@@ -24,12 +24,11 @@ Not all bugs can be found prior to release, which means not all bugs that throw 
 
 The basic options for writing a minidump are as follows:
 
--   Do nothing. Windows automatically generates a minidump whenever a program throws an unhandled exception. Automatic generation of a minidump is available on Windows XP, Windows Vista, and Windows 7. If the user allows it, the minidump will be sent to Microsoft, and not to the developer, through Windows Error Reporting (WER). Developers can contact the Microsoft Windows Gaming & Graphics developer relations group to arrange for access to the WER service.
+-   Do nothing. Windows automatically generates a minidump whenever a program throws an unhandled exception. Automatic generation of a minidump is available since Windows XP. If the user allows it, the minidump will be sent to Microsoft, and not to the developer, through Windows Error Reporting (WER). Developers can gain access to these minidumps through the [Windows Desktop Application Program](http://aka.ms/desktopprogram).
 
     Use of WER requires:
 
     -   Developers to sign their applications using Authenticode
-    -   Developers to obtain a VeriSign ID to access the WinQual service
     -   Applications have valid VERSIONINFO resource in every executable and DLL
 
     If you implement a custom routine for unhandled exceptions, you are strongly urged to use the [**ReportFault**](https://msdn.microsoft.com/library/windows/desktop/bb513615) function in the exception handler to also send an automated minidump to WER. The **ReportFault** function handles all of the issues of connecting to and sending the minidump to WER. Not sending minidumps to WER violates the requirements of Games for Windows.

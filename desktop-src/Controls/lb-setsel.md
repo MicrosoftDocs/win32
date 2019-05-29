@@ -34,7 +34,7 @@ Specifies how to set the selection. If this parameter is **TRUE**, the item is s
 *lParam* 
 </dt> <dd>
 
-Specifies the zero-based index of the item to set. If this parameter is  1, the selection is added to or removed from all items, depending on the value of *wParam*, and no scrolling occurs.
+Specifies the zero-based index of the item to set. If this parameter is -1, the selection is added to or removed from all items, depending on the value of *wParam*, and no scrolling occurs.
 
 </dd> </dl>
 

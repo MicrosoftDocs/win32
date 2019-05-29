@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -58,7 +59,7 @@ Creates a new instance of a CD3DX12\_DESCRIPTOR\_RANGE1, initialized with the co
 
 Creates a new instance of a CD3DX12\_DESCRIPTOR\_RANGE1, initializing the following parameters:
 
-[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) rangeType
+[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) rangeType
 
 UINT numDescriptors
 
@@ -77,7 +78,7 @@ UINT offsetInDescriptorsFromTableStart = D3D12\_DESCRIPTOR\_RANGE\_OFFSET\_APPEN
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) rangeType
+[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) rangeType
 
 UINT numDescriptors
 
@@ -98,7 +99,7 @@ Specifies a function that initializes the following parameters:
 
 [**D3D12\_DESCRIPTOR\_RANGE1**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range1) &range
 
-[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) rangeType
+[**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) rangeType
 
 UINT numDescriptors
 

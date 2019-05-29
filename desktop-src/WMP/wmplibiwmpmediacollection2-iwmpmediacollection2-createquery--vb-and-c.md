@@ -29,24 +29,14 @@ The `createQuery` method returns an **IWMPQuery** interface that represents a ne
 public IWMPQuery createQuery();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function createQuery() As IWMPQuery
-Implements IWMPMediaCollection2.createQuery</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Function createQuery() As IWMPQuery
+Implements IWMPMediaCollection2.createQuery
+```
+
+
 
 
 
@@ -86,20 +76,10 @@ for (int i = 0; i < allTitles.count; i++)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Get an IWMPMediaCollection2 interface so that you can access
+```VB
+
+' Get an IWMPMediaCollection2 interface so that you can access
 &#39; the createQuery and getStringCollectionByQuery methods.
 Dim mc As WMPLib.IWMPMediaCollection2 = player.mediaCollection
 
@@ -115,10 +95,10 @@ For i As Integer = 0 To (allTitles.count - 1)
 
     queryResults.Items.Add(allTitles.Item(i))
 
-Next i</code></pre></td>
-</tr>
-</tbody>
-</table>
+Next i
+```
+
+
 
 
 

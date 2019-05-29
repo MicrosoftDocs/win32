@@ -59,20 +59,10 @@ Wscript.Echo subkey
 Next
 ```
 
-<span codelanguage="PowerShell"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>PowerShell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>$HKEY_LOCAL_MACHINE = 2147483650
+```PowerShell
+
+$HKEY_LOCAL_MACHINE = 2147483650
 $strKeyPath = &quot;SOFTWARE\Microsoft&quot;
 
 $objReg = [WMIClass]&quot;root\default:StdRegProv&quot;
@@ -81,10 +71,10 @@ $arrSubKeys = $objReg.EnumKey($HKEY_LOCAL_MACHINE, $strKeyPath)
 foreach ($subKey in ($arrSubKeys.sNames))
 {
     $subKey
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+}
+```
+
+
 
 
 

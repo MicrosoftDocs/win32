@@ -29,24 +29,14 @@ The **getAll** method returns an **IWMPPlaylistArray** interface that provides a
 public IWMPPlaylistArray getAll();
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function getAll() As IWMPPlaylistArray
-Implements IWMPPlaylistCollection.getAll</code></pre></td>
-</tr>
-</tbody>
-</table>
+```VB
+
+Public Function getAll() As IWMPPlaylistArray
+Implements IWMPPlaylistCollection.getAll
+```
+
+
 
 
 

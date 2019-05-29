@@ -27,7 +27,7 @@ Gets the character index of the first character of a specified line in a multili
 *wParam* 
 </dt> <dd>
 
-The zero-based line number. A value of  1 specifies the current line number (the line that contains the caret).
+The zero-based line number. A value of -1 specifies the current line number (the line that contains the caret).
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ This parameter is not used.
 
 ## Return value
 
-The return value is the character index of the line specified in the *wParam* parameter, or it is  1 if the specified line number is greater than the number of lines in the edit control.
+The return value is the character index of the line specified in the *wParam* parameter, or it is -1 if the specified line number is greater than the number of lines in the edit control.
 
 ## Remarks
 

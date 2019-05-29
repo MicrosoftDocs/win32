@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -62,7 +63,7 @@ Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initializ
 **explicit CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC(const D3D12\_ROOT\_SIGNATURE\_DESC &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_signature_desc) structure.
+Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc) structure.
 
 </dd> <dt>
 
@@ -80,13 +81,13 @@ Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initializ
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_parameter)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -103,7 +104,7 @@ UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -120,7 +121,7 @@ UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -131,13 +132,13 @@ Specifies a function that initializes the following parameters:
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_parameter)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -150,13 +151,13 @@ Specifies a function that initializes the following parameters:
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_parameter)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -173,7 +174,7 @@ UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -192,7 +193,7 @@ UINT numStaticSamplers = 0
 
 const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> </dl>
 

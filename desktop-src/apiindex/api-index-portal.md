@@ -4,6 +4,7 @@ ms.assetid: 00b345ad-4c53-4fa5-8b7a-d3b3377cb30a
 title: API Index
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: 19H1
 ---
 
 # API Index
@@ -19,11 +20,11 @@ The Windows API can be used in all Windows-based desktop applications, and the s
 ## [Windows API Sets](windows-apisets.md)
 API Sets are strongly named API contracts that provide architectural separation between an API contract and the associated host (DLL) implementation. API Sets contains a subset of the Windows API. The decoupling offers many engineering advantages including reducing the number of DLLs loaded in a process.
 
-## [.NET APIs](https://msdn.microsoft.com/en-us/library/Gg145045.aspx)
+## [.NET APIs](https://docs.microsoft.com/dotnet/api/index?view=netframework-4.7.2)
 The .NET Framework class library provides access to system functionality for managed application development. It is the foundation on which .NET Framework applications, components, and controls are built.
 
-## [Windows Runtime APIs used in desktop apps](winrt-apis-for-desktop-apps.md)
-Desktop apps can use a subset of the Windows Runtime APIs.
+## [UWP APIs callable from a classic desktop app](uwp-apis-callable-from-a-classic-desktop-app.md)
+Desktop apps can use a subset of the UWP APIs.
 
-## [Windows APIs (Win32 and COM) used in Windows Store apps](https://msdn.microsoft.com/en-us/library/BR205757.aspx)
-Windows Store apps can use a subset of the Win32 and COM API. This subset of APIs was chosen to support key scenarios for Windows Store apps that were not already covered by the Windows Runtime, HTML/CSS, or other supported languages or standards.
+## [Win32 and COM APIs for UWP apps](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps)
+Universal Windows Platform (UWP) apps can use a subset of the Win32 and COM API. This subset of APIs was chosen to support key scenarios for UWP apps that were not already covered by the Windows Runtime, HTML/CSS, or other supported languages or standards.

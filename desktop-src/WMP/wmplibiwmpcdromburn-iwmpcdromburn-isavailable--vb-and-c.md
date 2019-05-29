@@ -31,26 +31,16 @@ public System.Boolean isAvailable(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function isAvailable( _
+```VB
+
+Public Function isAvailable( _
   ByVal bstrItem As System.String _
 ) As System.Boolean
-Implements IWMPCdromBurn.isAvailable</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPCdromBurn.isAvailable
+```
+
+
 
 
 

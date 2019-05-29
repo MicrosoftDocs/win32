@@ -2,6 +2,7 @@
 Description: Called from an any hit shader to reject the hit and end the shader.
 ms.assetid: 
 title: IgnoreHit function
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 
@@ -15,7 +16,7 @@ api_type:
 
 # IgnoreHit function
 
-Called from an [any hit shader](any-hit-shader) to reject the hit and end the shader. The hit search continues on without committing the distance and attributes for the current hit.  The [**ReportHit**](reporthit-function.md) call in the [intersection shader](intersection-shader.md), if there is one, will return false.  Any modifications made to the ray payload up to this point in the any hit shader are preserved.
+Called from an [any hit shader](any-hit-shader.md) to reject the hit and end the shader. The hit search continues on without committing the distance and attributes for the current hit.  The [**ReportHit**](reporthit-function.md) call in the [intersection shader](intersection-shader.md), if there is one, will return false.  Any modifications made to the ray payload up to this point in the any hit shader are preserved.
 
 ## Syntax
 

@@ -1,7 +1,7 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "desktop",
+      "docset_name": "win32",
       "build_source_folder": "desktop-src",
       "build_output_subfolder": "desktop",
       "locale": "en-us",
@@ -18,7 +18,7 @@
     }
   ],
   "notification_subscribers": [
-    "misatran@microsoft.com"
+    "jken@microsoft.com"
   ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,

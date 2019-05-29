@@ -2,6 +2,7 @@
 title: Uploading Texture Data Through Buffers
 description: Uploading 2D or 3D texture data is similar to uploading 1D data, except that applications need to pay closer attention to data alignment related to row pitch.
 ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -87,7 +88,7 @@ commandList->CopyTextureRegion(
         nullptr );
 ```
 
-Note the use of the helper structures [**CD3DX12\_HEAP\_PROPERTIES**](cd3dx12-heap-properties.md) and [**CD3DX12\_TEXTURE\_COPY\_LOCATION**](cd3dx12-texture-copy-location.md), and the methods [**CreateCommittedResource**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource) and [**CopyTextureRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion).
+Note the use of the helper structures [**CD3DX12\_HEAP\_PROPERTIES**](cd3dx12-heap-properties.md) and [**CD3DX12\_TEXTURE\_COPY\_LOCATION**](cd3dx12-texture-copy-location.md), and the methods [**CreateCommittedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource) and [**CopyTextureRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion).
 
 ## Copying
 
@@ -102,7 +103,7 @@ const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 
 -   [**D3D12\_SUBRESOURCE\_FOOTPRINT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_footprint)
 -   [**D3D12\_PLACED\_SUBRESOURCE\_FOOTPRINT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint)
--   [**D3D12\_TEXTURE\_COPY\_LOCATION**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_texture_copy_location)
+-   [**D3D12\_TEXTURE\_COPY\_LOCATION**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_texture_copy_location)
 -   [**D3D12\_TEXTURE\_COPY\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_copy_type)
 -   [**ID3D12Device::GetCopyableFootprints**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints)
 -   [**ID3D12GraphicsCommandList::CopyResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource)
@@ -113,13 +114,13 @@ const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 
 ## Mapping and unmapping
 
-[**Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map) and [**Unmap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-unmap) can be called by multiple threads safely. The first call to **Map** allocates a CPU virtual address range for the resource. The last call to **Unmap** deallocates the CPU virtual address range. The CPU virtual address is commonly returned to the application.
+[**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map) and [**Unmap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap) can be called by multiple threads safely. The first call to **Map** allocates a CPU virtual address range for the resource. The last call to **Unmap** deallocates the CPU virtual address range. The CPU virtual address is commonly returned to the application.
 
-Whenever data is passed between the CPU and GPU through resources in readback heaps, [**Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map) and [**Unmap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-unmap) must be used to support all systems D3D12 is supported on. Keeping the ranges as tight as possible maximizes efficiency on the systems that require ranges (refer to [**D3D12\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_range)).
+Whenever data is passed between the CPU and GPU through resources in readback heaps, [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map) and [**Unmap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap) must be used to support all systems D3D12 is supported on. Keeping the ranges as tight as possible maximizes efficiency on the systems that require ranges (refer to [**D3D12\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_range)).
 
-The performance of debugging tools benefit not only from the accurate usage of ranges on all [**Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map) / [**Unmap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-unmap) calls, but also from applications unmapping resources when CPU modifications will no longer be made.
+The performance of debugging tools benefit not only from the accurate usage of ranges on all [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map) / [**Unmap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap) calls, but also from applications unmapping resources when CPU modifications will no longer be made.
 
-The D3D11 method of using [**Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map) (with the DISCARD parameter set) to rename resources is not supported in D3D12. Applications must implement resource renaming themselves. All **Map** calls are implicitly NO\_OVERWRITE and multi-threaded. It is the application’s responsibility to ensure that any relevant GPU work contained in command lists is finished before the accessing data with the CPU. D3D12 calls to **Map** do not implicitly flush any command buffers, nor do they block waiting for the GPU to finish work. As a result, **Map** and [**Unmap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-unmap) may even be optimized out in some scenarios.
+The D3D11 method of using [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map) (with the DISCARD parameter set) to rename resources is not supported in D3D12. Applications must implement resource renaming themselves. All **Map** calls are implicitly NO\_OVERWRITE and multi-threaded. It is the application’s responsibility to ensure that any relevant GPU work contained in command lists is finished before the accessing data with the CPU. D3D12 calls to **Map** do not implicitly flush any command buffers, nor do they block waiting for the GPU to finish work. As a result, **Map** and [**Unmap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap) may even be optimized out in some scenarios.
 
 ## Buffer alignment
 

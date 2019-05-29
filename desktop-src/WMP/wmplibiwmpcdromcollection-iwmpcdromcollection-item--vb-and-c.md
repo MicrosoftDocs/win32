@@ -31,26 +31,16 @@ public IWMPCdrom Item(
 );
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>Public Function Item( _
+```VB
+
+Public Function Item( _
   ByVal lIndex As System.Int32 _
 ) As IWMPCdrom
-Implements IWMPCdromCollection.Item</code></pre></td>
-</tr>
-</tbody>
-</table>
+Implements IWMPCdromCollection.Item
+```
+
+
 
 
 
@@ -94,20 +84,10 @@ for (int i = 0; i < numDrives; i++)
 }
 ```
 
-<span codelanguage="VisualBasic"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VB</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>&#39; Store the number of available drives.
+```VB
+
+' Store the number of available drives.
 Dim numDrives As Integer = player.cdromCollection.count
 
 &#39; Loop through the available drives.
@@ -120,10 +100,10 @@ For i As Integer = 0 To (numDrives - 1)
     &#39; Add the string to a list box.
     myPlaylists.Items.Add(pl)
 
-Next i</code></pre></td>
-</tr>
-</tbody>
-</table>
+Next i
+```
+
+
 
 
 

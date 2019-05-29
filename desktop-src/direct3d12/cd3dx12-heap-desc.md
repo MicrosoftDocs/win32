@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_HEAP\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_HEAP\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_desc) structure.
+A helper structure to enable easy initialization of a [**D3D12\_HEAP\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc) structure.
 
 ## Syntax
 
@@ -53,7 +54,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_HEAP\_DESC.
 **explicit CD3DX12\_HEAP\_DESC(const D3D12\_HEAP\_DESC &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_HEAP\_DESC, initialized with the contents of another [**D3D12\_HEAP\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_desc) structure.
+Creates a new instance of a CD3DX12\_HEAP\_DESC, initialized with the contents of another [**D3D12\_HEAP\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc) structure.
 
 </dd> <dt>
 
@@ -64,11 +65,11 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 UINT64 size
 
-[**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_properties) properties
+[**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties) properties
 
 (opt) UINT64 alignment = 0
 
-(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -79,11 +80,11 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 UINT64 size
 
-[**D3D12\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type) type
+[**D3D12\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type) type
 
 (opt) UINT64 alignment = 0
 
-(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -94,13 +95,13 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 UINT64 size
 
-[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_cpu_page_property) cpuPageProperty
+[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_cpu_page_property) cpuPageProperty
 
-[**D3D12\_MEMORY\_POOL**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_memory_pool) memoryPoolPreference
+[**D3D12\_MEMORY\_POOL**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_memory_pool) memoryPoolPreference
 
 (opt) UINT64 alignment = 0
 
-(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -109,11 +110,11 @@ UINT64 size
 
 Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
 
-[**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_properties) properties
+[**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties) properties
 
-(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -122,11 +123,11 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
 
-[**D3D12\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type) type
+[**D3D12\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type) type
 
-(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -135,13 +136,13 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
 
-[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_cpu_page_property) cpuPageProperty
+[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_cpu_page_property) cpuPageProperty
 
-[**D3D12\_MEMORY\_POOL**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_memory_pool) memoryPoolPreference
+[**D3D12\_MEMORY\_POOL**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_memory_pool) memoryPoolPreference
 
-(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -166,7 +167,7 @@ Defines the & pass-by-reference operator for the CD3DX12\_HEAP\_DESC structure t
 
 <dl> <dt>
 
-[**D3D12\_HEAP\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_desc)
+[**D3D12\_HEAP\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

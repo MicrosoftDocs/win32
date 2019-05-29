@@ -2,6 +2,7 @@
 title: Indirect drawing and GPU culling
 description: The D3D12ExecuteIndirect sample demonstrates how to use indirect commands to draw content. It also demonstrates how these commands can be manipulated on the GPU in a compute shader before they are issued.
 ms.assetid: 09F90837-D6BF-498E-8018-5C28EDD9BDC3
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -46,7 +47,7 @@ struct IndirectCommand
 | Call flow                                              | Parameters |
 |--------------------------------------------------------|------------|
 | D3D12\_GPU\_VIRTUAL\_ADDRESS (simply a UINT64)         |            |
-| [**D3D12\_DRAW\_ARGUMENTS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_draw_arguments) |            |
+| [**D3D12\_DRAW\_ARGUMENTS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_draw_arguments) |            |
 
 
 
@@ -76,9 +77,9 @@ To accompany the data structure, a command signature is also created which instr
 
 | Call flow                                                               | Parameters                                                              |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| [**D3D12\_INDIRECT\_ARGUMENT\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_indirect_argument_desc) | [**D3D12\_INDIRECT\_ARGUMENT\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_indirect_argument_type) |
-| [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_command_signature_desc) |                                                                         |
-| [**CreateCommandSignature**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandsignature)   |                                                                         |
+| [**D3D12\_INDIRECT\_ARGUMENT\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc) | [**D3D12\_INDIRECT\_ARGUMENT\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_indirect_argument_type) |
+| [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_signature_desc) |                                                                         |
+| [**CreateCommandSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandsignature)   |                                                                         |
 
 
 
@@ -86,7 +87,7 @@ To accompany the data structure, a command signature is also created which instr
 
 ## Create a graphics and compute root signature
 
-We also create both a graphics and a compute root signature. The graphics root signature just defines a root CBV. Note that we map the index of this root parameter in the [**D3D12\_INDIRECT\_ARGUMENT\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_indirect_argument_desc) (shown above) when the command signature is defined. The compute root signature defines:
+We also create both a graphics and a compute root signature. The graphics root signature just defines a root CBV. Note that we map the index of this root parameter in the [**D3D12\_INDIRECT\_ARGUMENT\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc) (shown above) when the command signature is defined. The compute root signature defines:
 
 -   A common descriptor table with three slots (two SRV’s and one UAV):
     -   One SRV exposes the constant buffers to the compute shader
@@ -133,17 +134,17 @@ We also create both a graphics and a compute root signature. The graphics root s
 
 | Call flow                                                             | Parameters                                                            |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility)          |
-| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags)   |
+| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)          |
+| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
 | [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)                                   |                                                                       |
-| [**D3D12SerializeRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/D3D12/ne-d3d12-d3d_root_signature_version)   |
-| [**CreateRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
-| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) |
-| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility)          |
-| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags)   |
+| [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
+| [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) |
+| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)          |
+| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
 | [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)                                   |                                                                       |
-| [**D3D12SerializeRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/D3D12/ne-d3d12-d3d_root_signature_version)   |
-| [**CreateRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
+| [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 
 
 
@@ -184,18 +185,18 @@ After creating the pipeline state objects, vertex buffers, a depth stencil, and 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
-<a href="constants">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
+<a href="constants.md">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="cd3dx12-cpu-descriptor-handle"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
+<td><a href="cd3dx12-cpu-descriptor-handle.md"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createshaderresourceview"><strong>CreateShaderResourceView</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview"><strong>CreateShaderResourceView</strong></a></td>
 
 </tr>
 </tbody>
@@ -271,19 +272,19 @@ After uploading the command buffers to the GPU, we also create an SRV of them fo
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
-<a href="constants">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_buffer_srv_flags"><strong>D3D12_BUFFER_SRV_FLAG</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
+<a href="constants.md">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_buffer_srv_flags"><strong>D3D12_BUFFER_SRV_FLAG</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="cd3dx12-cpu-descriptor-handle"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
+<td><a href="cd3dx12-cpu-descriptor-handle.md"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createshaderresourceview"><strong>CreateShaderResourceView</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview"><strong>CreateShaderResourceView</strong></a></td>
 
 </tr>
 </tbody>
@@ -342,30 +343,30 @@ for (UINT frame = 0; frame < FrameCount; frame++)
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="cd3dx12-cpu-descriptor-handle"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
+<td><a href="cd3dx12-cpu-descriptor-handle.md"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
-<td><a href="cd3dx12-resource-desc"><strong>CD3DX12_RESOURCE_DESC</strong></a></td>
+<td><a href="cd3dx12-resource-desc.md"><strong>CD3DX12_RESOURCE_DESC</strong></a></td>
 <td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags"><strong>D3D12_RESOURCE_FLAGS</strong></a></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
-<td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
+<td><dl><a href="cd3dx12-heap-properties.md"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_unordered_access_view_desc"><strong>D3D12_UNORDERED_ACCESS_VIEW_DESC</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc"><strong>D3D12_UNORDERED_ACCESS_VIEW_DESC</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_uav_dimension"><strong>D3D12_UAV_DIMENSION</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_buffer_uav_flags"><strong>D3D12_BUFFER_UAV_FLAGS</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_uav_dimension"><strong>D3D12_UAV_DIMENSION</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_buffer_uav_flags"><strong>D3D12_BUFFER_UAV_FLAGS</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createunorderedaccessview"><strong>CreateUnorderedAccessView</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview"><strong>CreateUnorderedAccessView</strong></a></td>
 
 </tr>
 </tbody>
@@ -420,15 +421,15 @@ ThrowIfFailed(m_computeCommandList->Close());
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle"><strong>D3D12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart"><strong>GetGPUDescriptorHandleForHeapStart</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle"><strong>D3D12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart"><strong>GetGPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootsignature"><strong>SetComputeRootSignature</strong></a></td>
 
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/nn-d3d12-id3d12descriptorheap"><strong>ID3D12DescriptorHeap</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap"><strong>ID3D12DescriptorHeap</strong></a></td>
 
 </tr>
 <tr class="even">
@@ -437,7 +438,7 @@ ThrowIfFailed(m_computeCommandList->Close());
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootdescriptortable"><strong>SetComputeRootDescriptorTable</strong></a></td>
-<td><a href="cd3dx12-gpu-descriptor-handle"><strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="cd3dx12-gpu-descriptor-handle.md"><strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstants"><strong>SetComputeRoot32BitConstants</strong></a></td>
@@ -448,9 +449,9 @@ ThrowIfFailed(m_computeCommandList->Close());
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier"><strong>D3D12_RESOURCE_BARRIER</strong></a></td>
-<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_barrier"><strong>D3D12_RESOURCE_BARRIER</strong></a></td>
+<td><dl><a href="cd3dx12-resource-barrier.md"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -564,7 +565,7 @@ Then we will execute the commands in either the UAV (GPU culling enabled) or the
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/D3D12/nn-d3d12-id3d12descriptorheap"><strong>ID3D12DescriptorHeap</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap"><strong>ID3D12DescriptorHeap</strong></a></td>
 
 </tr>
 <tr class="odd">
@@ -580,9 +581,9 @@ Then we will execute the commands in either the UAV (GPU culling enabled) or the
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier"><strong>D3D12_RESOURCE_BARRIER</strong></a></td>
-<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_barrier"><strong>D3D12_RESOURCE_BARRIER</strong></a></td>
+<td><dl><a href="cd3dx12-resource-barrier.md"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -590,8 +591,8 @@ Then we will execute the commands in either the UAV (GPU culling enabled) or the
 
 </tr>
 <tr class="even">
-<td><a href="cd3dx12-cpu-descriptor-handle"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
+<td><a href="cd3dx12-cpu-descriptor-handle.md"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets"><strong>OMSetRenderTargets</strong></a></td>
@@ -619,7 +620,7 @@ Then we will execute the commands in either the UAV (GPU culling enabled) or the
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close"><strong>Close</strong></a></td>
@@ -655,11 +656,11 @@ m_commandQueue->ExecuteCommandLists(_countof(ppCommandLists), ppCommandLists);
 
 | Call flow                                                             | Parameters |
 |-----------------------------------------------------------------------|------------|
-| [**ID3D12CommandList**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandlist)                        |            |
+| [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                        |            |
 | [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) |            |
-| [**Signal**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandqueue-signal)                           |            |
-| [**Wait**](/windows/desktop/api/D3D12/nf-d3d12-id3d12commandqueue-wait)                               |            |
-| [**ID3D12CommandList**](/windows/desktop/api/D3D12/nn-d3d12-id3d12commandlist)                        |            |
+| [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                           |            |
+| [**Wait**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                               |            |
+| [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                        |            |
 | [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) |            |
 
 
