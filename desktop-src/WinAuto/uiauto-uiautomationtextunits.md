@@ -51,6 +51,18 @@ If a particular text-based control does not support the specified text unit, the
 
 The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](https://msdn.microsoft.com/library/windows/desktop/dd319118). For more information, see [Uniscribe](https://msdn.microsoft.com/library/windows/desktop/dd374091) on the MSDN website.
 
+## Endpoint inclusivity
+
+A text unit endpoint can serve as both a [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint and an [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint for adjacent text ranges of the same type. If the end of one text unit is also the start of another text unit, the range containing the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint does not share any attributes or objects of the adjacent range containing the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint.
+
+For example, a text stream, "Hello **world**", contains two word units with different font weight attributes (normal and bold). In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Hello" and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "**world**" are the same, which results in the following:
+
+- The range of "Hello" does not share the bold attribute of the word unit "world" and does not return the mixed attribute value for the font weight text attribute.
+- The range of "**world**" has a single font weight (bold), and does not share the font weight of the preceding word unit “Hello”.
+
+
+
+
 ## Text Unit Descriptions
 
 This section describes each of the text units supported by UI Automation.
@@ -97,21 +109,12 @@ The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern 
 
 ## Related topics
 
-<dl> <dt>
+### Reference
 
-**Conceptual**
-</dt> <dt>
+[TextPatternRangeEndpoint](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint)
+
+### Conceptual
 
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
-</dt> <dt>
 
 [Working with Text-based Controls](uiauto-workingwithtextbasedcontrols.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
