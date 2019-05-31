@@ -75,7 +75,7 @@ HRESULT hr = ::DwmGetWindowAttribute(hWnd,
 
 [**DwmSetWindowAttribute**](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) enables your application to set the non-client area rendering policy. That function also determines how your application should handle DWM transition effects.
 
-This next example disables non-client area rendering.
+This next example disables non-client area rendering. This causes any previous calls to [DwmEnableBlurBehindWindow](/windows/desktop/api/dwmapi/nf-dwmapi-dwmenableblurbehindwindow) or to [DwmExtendFrameIntoClientArea](/windows/desktop/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) to be disabled.
 
 ```
 HRESULT DisableNCRendering(HWND hWnd)
