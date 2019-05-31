@@ -36,7 +36,10 @@ Typically, the document element in the preceding example supports the [Text](uia
 When implementing the [**ITextChildProvider**](https://msdn.microsoft.com/library/windows/desktop/hh437317) interface, note the following guidelines and conventions:
 
 -   The [**ITextChildProvider::TextContainer**](https://msdn.microsoft.com/library/windows/desktop/hh448814) property should specify the nearest ancestor element that supports [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) interface, regardless of whether elements higher in the ancestor chain also support **ITextProvider**.
--   An element should not support both the[**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) and the [**ITextChildProvider**](https://msdn.microsoft.com/library/windows/desktop/hh437317) interface.
+- 
+-   An element should not support both the[**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) and the ITextChildProvider**](https://docs.microsoft.com/en-us/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider) interface.
+- 
+- An element that implements [**ITextChildProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider) must be a child, or descendent, of an element that implements [**ITextProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider). It is not required that this element also implement the [Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 -   The [**ITextChildProvider::TextRange**](https://msdn.microsoft.com/library/windows/desktop/hh448816) property should specify the same text range as the one that the containing text provider element returns when its [**ITextProvider::RangeFromChild**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefromchild) function is called with the text child element as the enclosed child element.
 
 ## Required Members for **ITextChildProvider**
