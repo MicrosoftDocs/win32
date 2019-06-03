@@ -15,7 +15,7 @@ ms.date: 03/15/2019
 
 | Topic                                                                                                                                 | Description                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [Direct3D 12 Video Enumerations](direct3d-1-video-enumerations.md)<br/>                                                       | This section contains reference information for the Direct3D 12 video API enumerations.<br/>  |
+| [Direct3D 12 Video Enumerations](direct3d-12-video-enumerations.md)<br/>                                                       | This section contains reference information for the Direct3D 12 video API enumerations.<br/>  |
 | [Direct3D 12 Video Structures](direct3d-12-video-structures.md)<br/>                                                           | This section contains reference information for the Direct3D 1 video API structures.<br/>    |
 | [Direct3D 1 Video GUIDs](direct3d-12-video-guids.md)<br/>                                                                 | The following GUIDs support Direct3D 12 Video APIs.<br/>                                      |
 

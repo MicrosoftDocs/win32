@@ -1,84 +1,63 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 11 video API structures.
-ms.assetid: 416159A4-F50E-4027-9367-727BA81D2A21
-title: Direct3D 11 Video Structures
+Description: This section contains reference information for the Microsoft Direct3D 12 video API structures.
+ms.assetid: 
+title: Direct3D 12 Video Structures
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/03/2019
 ---
 
-# Direct3D 11 Video Structures
+# Direct3D 12 Video Structures
 
-This section contains reference information for the Microsoft Direct3D 11 video API structures.
+This section contains reference information for the Microsoft Direct3D 12 video API structures.
 
 ## In this section
 
--   [**D3D11\_AES\_CTR\_IV**](/windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_ACCESSIBLE\_ENCRYPTION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_accessible_encryption_input)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_CRYPTO\_SESSION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_INITIALIZE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_output)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_PROTECTION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_protection_input)
--   [**D3D11\_AUTHENTICATED\_CONFIGURE\_SHARED\_RESOURCE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_shared_resource_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_ENCRYPTION\_GUID\_COUNT\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_count_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_ENCRYPTION\_GUID\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_ENCRYPTION\_GUID\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_acessibility_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_CHANNEL\_TYPE\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_channel_type_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_CRYPTO\_SESSION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_crypto_session_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_CRYPTO\_SESSION\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_crypto_session_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_CURRENT\_ACCESSIBILITY\_ENCRYPTION\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_current_accessibility_encryption_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_DEVICE\_HANDLE\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_device_handle_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_OUTPUT\_ID\_COUNT\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output_id_count_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_OUTPUT\_ID\_COUNT\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output_id_count_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_OUTPUT\_ID\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output_id_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_OUTPUT\_ID\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output_id_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_PROTECTION\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_protection_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_RESTRICTED\_SHARED\_RESOURCE\_PROCESS\_COUNT\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_restricted_shared_resource_process_count_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_RESTRICTED\_SHARED\_RESOURCE\_PROCESS\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_restricted_shared_resource_process_input)
--   [**D3D11\_AUTHENTICATED\_QUERY\_RESTRICTED\_SHARED\_RESOURCE\_PROCESS\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_restricted_shared_resource_process_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_UNRESTRICTED\_PROTECTED\_SHARED\_RESOURCE\_COUNT\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_unrestricted_protected_shared_resource_count_output)
--   [**D3D11\_AUTHENTICATED\_PROTECTION\_FLAGS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_protection_flags)
--   [**D3D11\_ENCRYPTED\_BLOCK\_INFO**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_encrypted_block_info)
--   [**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION\_DATA**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_data)
--   [**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION\_INPUT\_DATA**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data)
--   [**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION\_OUTPUT\_DATA**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data)
--   [**D3D11\_OMAC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_omac)
--   [**D3D11\_TEX2D\_ARRAY\_VPOV**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_array_vpov)
--   [**D3D11\_TEX2D\_VDOV**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_vdov)
--   [**D3D11\_TEX2D\_VPIV**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_vpiv)
--   [**D3D11\_TEX2D\_VPOV**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_vpov)
--   [**D3D11\_VIDEO\_COLOR**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color)
--   [**D3D11\_VIDEO\_COLOR\_RGBA**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color_rgba)
--   [**D3D11\_VIDEO\_COLOR\_YCbCrA**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_color_ycbcra)
--   [**D3D11\_VIDEO\_CONTENT\_PROTECTION\_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps)
--   [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session)
--   [**D3D11\_VIDEO\_DECODER\_BUFFER\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_buffer_desc)
--   [**D3D11\_VIDEO\_DECODER\_BUFFER\_DESC1**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_buffer_desc1)
--   [**D3D11\_VIDEO\_DECODER\_CONFIG**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_config)
--   [**D3D11\_VIDEO\_DECODER\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_desc)
--   [**D3D11\_VIDEO\_DECODER\_EXTENSION**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_extension)
--   [**D3D11\_VIDEO\_DECODER\_OUTPUT\_VIEW\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_output_view_desc)
--   [**D3D11\_VIDEO\_DECODER\_SUB\_SAMPLE\_MAPPING\_BLOCK**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_sub_sample_mapping_block)
--   [**D3D11\_VIDEO\_PROCESSOR\_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_COLOR\_SPACE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_color_space)
--   [**D3D11\_VIDEO\_PROCESSOR\_CONTENT\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_content_desc)
--   [**D3D11\_VIDEO\_PROCESSOR\_CUSTOM\_RATE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_custom_rate)
--   [**D3D11\_VIDEO\_PROCESSOR\_FILTER\_RANGE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_filter_range)
--   [**D3D11\_VIDEO\_PROCESSOR\_INPUT\_VIEW\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_input_view_desc)
--   [**D3D11\_VIDEO\_PROCESSOR\_OUTPUT\_VIEW\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_output_view_desc)
--   [**D3D11\_VIDEO\_PROCESSOR\_RATE\_CONVERSION\_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_rate_conversion_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_STREAM**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_stream)
--   [**D3D11\_VIDEO\_PROCESSOR\_STREAM\_BEHAVIOR\_HINT**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_processor_stream_behavior_hint)
--   [**D3D11\_VIDEO\_SAMPLE\_DESC**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_sample_desc)
+| Topic                                                                                | Description                                                                                              |
+|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| [D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_conversion_support)  | Retrieves the list of supported profiles.|
+| [D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_formats)  | Retrieves the list of supported formats.|
+| [D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles)  | Retrieves the list of supported profiles.|
+| [D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_support)  | Retrieves support information for video decoding.|
+| [D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_max_input_streams)  | Retrieves the maximum number of enabled input streams supported by the video processor.|
+| [D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_reference_info)  | Retrieves the number of past and future reference frames required for the specified deinterlace mode, filter, rate conversion, or auto processing features.|
+| [D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_support)  | Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_PROCESS_SUPPORT.|
+| [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics)  | Represents data for a video decode statistics query invoked by calling ID3D12VideoDecodeCommandList::EndQuery.|
+| [D3D12_VIDEO_DECODER_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decoder_desc)  | Describes a ID3D12VideoDecoder.|
+| [D3D12_VIDEO_DECODER_HEAP_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decoder_heap_desc)  | Describes a ID3D12VideoDecoderHeap.|
+| [D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_compressed_bitstream)  | Represents a compressed bitstream from which video is decoded.|
+| [D3D12_VIDEO_DECODE_CONFIGURATION](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_configuration)  | Describes the configuration for a video decoder.|
+| [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_conversion_arguments)  | Specifies the parameters for decode output conversion.|
+| [D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_conversion_arguments1)  | Specifies the parameters for decode output conversion.|
+| [D3D12_VIDEO_DECODE_FRAME_ARGUMENT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_frame_argument)  | Represents the decode parameters for a frame.|
+| [D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_input_stream_arguments)  | Specifies the parameters for the input stream for a video decode operation.|
+| [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments)  | Specifies the parameters for the output stream for a video decode operation.|
+| [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments1)  | Specifies the parameters for the output stream for a video decode operation.|
+| [D3D12_VIDEO_DECODE_REFERENCE_FRAMES](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_reference_frames)  | Contains the list of reference frames for the current decode operation.|
+| [D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_sub_sample_mapping_block)  | Defines the encryption byte mapping of sub samples for video decoding.|
+| [D3D12_VIDEO_FORMAT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_format)  | Defines the combination of a pixel format and color space for a resource content description.|
+| [D3D12_VIDEO_PROCESS_ALPHA_BLENDING](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_alpha_blending)  | Specifies alpha blending parameters for video processing.|
+| [D3D12_VIDEO_PROCESS_FILTER_RANGE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_filter_range)  | Defines the range of supported values for an image filter.|
+| [D3D12_VIDEO_PROCESS_INPUT_STREAM](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream)  | Contains input information for the video processor blend functionality.|
+| [D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments)  | Specifies input stream arguments for an input stream passed to ID3D12VideoCommandList::ProcessFrames.|
+| [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc)  | Specifies the parameters for the input stream for a video process operation.|
+| [D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_rate)  | Provides information about the stream rate.|
+| [D3D12_VIDEO_PROCESS_LUMA_KEY](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_luma_key)  | Specifies the settings used for luma keying.|
+| [D3D12_VIDEO_PROCESS_OUTPUT_STREAM](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream)  | Represents the output stream for video processing commands.|
+| [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_arguments)  | Specifies output stream arguments for the output passed to ID3D12VideoCommandList::ProcessFrames.|
+| [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc)  | Specifies output stream arguments for the output passed to ID3D12VideoProcessCommandList::ProcessFrames.|
+| [D3D12_VIDEO_PROCESS_REFERENCE_SET](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_reference_set)  | Contains the reference frames needed to perform video processing.|
+| [D3D12_VIDEO_PROCESS_TRANSFORM](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_transform)  | Specifies transform parameters for video processing.|
+| [D3D12_VIDEO_SAMPLE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_sample)  | Describes the width, height, format, and color space of a picture buffer.|
+| [D3D12_VIDEO_SCALE_SUPPORT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_scale_support)  | Describes the supported scaling range of output sizes for a video scaler.|
+| [D3D12_VIDEO_SIZE_RANGE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_size_range)  | Describes the range of supported sizes for a video scaler.|
+
+
 
 ## Related topics
 
 <dl> <dt>
 
-[Direct3D 11 Video APIs](direct3d-11-video-apis.md)
+[Direct3D 12 Video APIs](direct3d-12-video-apis.md)
 </dt> </dl>
 
  

@@ -1,52 +1,46 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 11 video API enumerations.
-ms.assetid: 40061AD1-BCD9-4170-A442-34B4C792BB55
-title: Direct3D 11 Video Enumerations
+Description: This section contains reference information for the Microsoft Direct3D 12 video API enumerations.
+ms.assetid: 
+title: Direct3D 12 Video Enumerations
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/03/2019
 ---
 
-# Direct3D 11 Video Enumerations
+# Direct3D 12 Video Enumerations
 
-This section contains reference information for the Microsoft Direct3D 11 video API enumerations.
+This section contains reference information for the Microsoft Direct3D 12 video API enumerations.
 
 ## In this section
 
--   [**D3D11\_AUTHENTICATED\_CHANNEL\_TYPE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_authenticated_channel_type)
--   [**D3D11\_AUTHENTICATED\_PROCESS\_IDENTIFIER\_TYPE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_authenticated_process_identifier_type)
--   [**D3D11\_BUS\_TYPE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_bus_type)
--   [**D3D11\_CONTENT\_PROTECTION\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps)
--   [**D3D11\_CRYPTO\_SESSION\_STATUS**](/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status)
--   [**D3D11\_VDOV\_DIMENSION**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_vdov_dimension)
--   [**D3D11\_VIDEO\_DECODER\_BUFFER\_TYPE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_decoder_buffer_type)
--   [**D3D11\_VIDEO\_DECODER\_CAPS**](/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps)
--   [**D3D11\_VIDEO\_FRAME\_FORMAT**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_frame_format)
--   [**D3D11\_VIDEO\_PROCESSOR\_ALPHA\_FILL\_MODE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_alpha_fill_mode)
--   [**D3D11\_VIDEO\_PROCESSOR\_AUTO\_STREAM\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_BEHAVIOR\_HINTS**](/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_processor_behavior_hints)
--   [**D3D11\_VIDEO\_PROCESSOR\_DEVICE\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_device_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_FEATURE\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_FILTER**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_filter)
--   [**D3D11\_VIDEO\_PROCESSOR\_FILTER\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_filter_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_FORMAT\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_FORMAT\_SUPPORT**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_support)
--   [**D3D11\_VIDEO\_PROCESSOR\_ITELECINE\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_itelecine_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_OUTPUT\_RATE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_output_rate)
--   [**D3D11\_VIDEO\_PROCESSOR\_NOMINAL\_RANGE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_nominal_range)
--   [**D3D11\_VIDEO\_PROCESSOR\_PROCESSOR\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_processor_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_ROTATION**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_rotation)
--   [**D3D11\_VIDEO\_PROCESSOR\_STEREO\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_caps)
--   [**D3D11\_VIDEO\_PROCESSOR\_STEREO\_FLIP\_MODE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_flip_mode)
--   [**D3D11\_VIDEO\_PROCESSOR\_STEREO\_FORMAT**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format)
--   [**D3D11\_VIDEO\_USAGE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_usage)
--   [**D3D11\_VPIV\_DIMENSION**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_vpiv_dimension)
--   [**D3D11\_VPOV\_DIMENSION**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_vpov_dimension)
+| Topic                                                                                | Description                                                                                              |
+|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| [D3D12_BITSTREAM_ENCRYPTION_TYPE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_bitstream_encryption_type)  | Specifies a bitstream encryption type.|
+| [D3D12_FEATURE_VIDEO](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_feature_video)  | Specifies a Direct3D 12 video feature or feature set to query about.|
+| [D3D12_VIDEO_DECODE_ARGUMENT_TYPE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_argument_type)  | Specifies the argument type of a D3D12_VIDEO_DECODE_FRAME_ARGUMENT|
+| [D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_configuration_flags)  | Specifies the configuration for video decoding.|
+| [D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_conversion_support_flags)  | Specifies whether a video decode conversion operation is supported.|
+| [D3D12_VIDEO_DECODE_STATUS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_status)  | Specifes the status of a video decode operation.|
+| [D3D12_VIDEO_DECODE_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_support_flags)  | Specifies whether a video decoding operation is supported.|
+| [D3D12_VIDEO_DECODE_TIER](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier)  | Specifies the decoding tier of a hardware video decoder, which determines the required format of application-defined textures and buffers.|
+| [D3D12_VIDEO_FIELD_TYPE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_field_type)  | Specifies how a video frame is interlaced.|
+| [D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_coded_interlace_type)  | |
+| [D3D12_VIDEO_FRAME_STEREO_FORMAT](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format)  | Defines the layout in memory of a stereo 3D video frame.|
+| [D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_alpha_fill_mode)  | Specifies the alpha fill mode for video processing.|
+| [D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_auto_processing_flags)  | Specifies the automatic processing features that a video processor can support.|
+| [D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_deinterlace_flags)  | Specifies the deinterlacing video processor capabilities.|
+| [D3D12_VIDEO_PROCESS_FEATURE_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_feature_flags)  | Specifies the features that a video processor can support.|
+| [D3D12_VIDEO_PROCESS_FILTER_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_filter_flags)  | Specifies support for the image filters defined by the D3D12_VIDEO_PROCESS_FILTER enumeration.|
+| [D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_input_stream_flags)  | Specifies flags for video processing input streams.|
+| [D3D12_VIDEO_PROCESS_ORIENTATION](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_orientation)  | Specifies an orientation operation to be performed by a video processor.|
+| [D3D12_VIDEO_PROCESS_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_support_flags)  | Specifies whether a video format and colorspace conversion operation is supported.|
+| [D3D12_VIDEO_SCALE_SUPPORT_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_scale_support_flags)  | Specifies the scaling capabilities of the video scaler.|
+
 
 ## Related topics
 
 <dl> <dt>
 
-[Direct3D 11 Video APIs](direct3d-11-video-apis.md)
+[Direct3D 12 Video APIs](direct3d-12-video-apis.md)
 </dt> </dl>
 
  
