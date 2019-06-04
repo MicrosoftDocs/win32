@@ -15,9 +15,11 @@ This section covers Direct Machine Learning (DirectML) APIs declared in DirectML
 
 | Topic | Description |
 |-|-|
-| [DirectML enumerations](direct3d-directml-enumerations.md) | The following enumerations are declared in directml.h. |
-| [DirectML functions](direct3d-directml-functions.md) | The following functions are declared in directml.h. |
+| [DirectML interfaces](direct3d-directml-interfaces.md) | The following interfaces, and their methods, are declared in directml.h. |
+| [DirectML functions](direct3d-directml-functions.md) | The following free functions are declared in directml.h. |
 | [DirectML structures](direct3d-directml-structures.md) | The following structures are declared in directml.h. |
+| [DirectML enumerations](direct3d-directml-enumerations.md) | The following enumerations are declared in directml.h. |
+| [DirectML constants](direct3d-directml-constants.md) | The following constants are declared in directml.h. |
 
 ## Related topics
 
