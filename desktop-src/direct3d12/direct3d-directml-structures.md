@@ -7,7 +7,7 @@ ms.date: 04/10/2019
 ms.custom: 19H1
 ---
 
-# DirectML enumerations
+# DirectML structures
 
 The following structures are declared in DirectML.h.
 
