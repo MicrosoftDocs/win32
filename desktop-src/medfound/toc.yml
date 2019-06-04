@@ -1375,7 +1375,7 @@
       - name: "Direct3D 11 Video GUIDs"
         href: direct3d-11-video-guids.md
     - name: "Direct3D 12 Video APIs"
-      href: direct3d-11-video-apis.md
+      href: direct3d-12-video-apis.md
       items:
       - name: "Direct3D 12 Video Enumerations"
         href: direct3d-12-video-enumerations.md
