@@ -32,10 +32,10 @@ A class that encapsulates a [JET_INSTANCE](hh564593\(v=exchg.10\).md) in a dispo
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
-  [System.Runtime.ConstrainedExecution.CriticalFinalizerObject](https://msdn.microsoft.com/en-us/library/9tcc8a46)  
-    [System.Runtime.InteropServices.SafeHandle](https://msdn.microsoft.com/en-us/library/7s3yckbh)  
-      [Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid](https://msdn.microsoft.com/en-us/library/s07831kw)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+  [System.Runtime.ConstrainedExecution.CriticalFinalizerObject](https://docs.microsoft.com/dotnet/api/system.runtime.constrainedexecution.criticalfinalizerobject?redirectedfrom=MSDN)  
+    [System.Runtime.InteropServices.SafeHandle](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN)  
+      [Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid](https://docs.microsoft.com/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid?redirectedfrom=MSDN)  
         Microsoft.Isam.Esent.Interop.Instance  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

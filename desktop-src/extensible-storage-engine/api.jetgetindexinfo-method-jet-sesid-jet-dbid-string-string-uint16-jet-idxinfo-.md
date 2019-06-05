@@ -83,21 +83,21 @@ public static void JetGetIndexInfo(
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the table to retrieve index information about.
 
 <!-- end list -->
 
   - indexname  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the index to retrieve information about.
 
 <!-- end list -->
 
   - result  
-    Type: [System.UInt16](https://msdn.microsoft.com/en-us/library/s6eyk10z)  
+    Type: [System.UInt16](https://docs.microsoft.com/dotnet/api/system.uint16?redirectedfrom=MSDN)  
     
     Filled in with information about indexes on the table.
 

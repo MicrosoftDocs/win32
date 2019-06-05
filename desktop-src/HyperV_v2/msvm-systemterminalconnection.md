@@ -55,7 +55,7 @@ Data type: **[**Msvm\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent"), [**Max**](https://msdn.microsoft.com/library/aa393650) (1)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The virtual machine to which the connection is attached.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_TerminalConnection**](msvm-terminalconnection.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The connection to the virtual machine.
@@ -80,7 +80,7 @@ The connection to the virtual machine.
 
 ## Remarks
 
-Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -103,7 +103,7 @@ Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UA
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> <dt>
 
-[**CIM\_HostedDependency**](https://msdn.microsoft.com/library/cc136861)
+[**CIM\_HostedDependency**](https://docs.microsoft.com/previous-versions//cc136861(v=vs.85))
 </dt> <dt>
 
 [Video Classes](video-classes.md)

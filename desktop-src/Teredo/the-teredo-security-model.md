@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The Teredo Security Model
 
-The [Teredo](about-teredo.md) technology, when coupled with Windows Security Center and [Windows Firewall](https://msdn.microsoft.com/library/windows/desktop/aa366453), provides enhanced security to the end user. For Windows Firewall, IPv6 traffic sent and received over the Teredo interface is processed the same as native IPv6 traffic. The Teredo interface is recognized as another mini-port in the system.
+The [Teredo](about-teredo.md) technology, when coupled with Windows Security Center and [Windows Firewall](https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page), provides enhanced security to the end user. For Windows Firewall, IPv6 traffic sent and received over the Teredo interface is processed the same as native IPv6 traffic. The Teredo interface is recognized as another mini-port in the system.
 
 For details on usage, see [Implementing the Teredo Security Model](implementing-the-teredo-security-model.md).
 

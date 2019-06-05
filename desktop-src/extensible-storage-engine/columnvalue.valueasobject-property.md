@@ -53,7 +53,7 @@ public abstract Object ValueAsObject { get; }
 
 #### Property value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
 
 ## See also
 

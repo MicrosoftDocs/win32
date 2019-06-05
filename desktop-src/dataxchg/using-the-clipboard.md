@@ -49,13 +49,13 @@ Before information can be copied to the clipboard, the user must select specific
 
 ### Creating an Edit Menu
 
-An application should load an accelerator table containing the standard keyboard accelerators for the **Edit** menu commands. The [**TranslateAccelerator**](https://msdn.microsoft.com/library/windows/desktop/ms646373) function must be added to the application's message loop for the accelerators to take effect. For more information about keyboard accelerators, see [Keyboard Accelerators](https://msdn.microsoft.com/library/windows/desktop/ms645526).
+An application should load an accelerator table containing the standard keyboard accelerators for the **Edit** menu commands. The [**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function must be added to the application's message loop for the accelerators to take effect. For more information about keyboard accelerators, see [Keyboard Accelerators](https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators).
 
 ### Processing the WM\_INITMENUPOPUP Message
 
-Not all clipboard commands are available to the user at any given time. An application should process the [**WM\_INITMENUPOPUP**](https://msdn.microsoft.com/library/windows/desktop/ms646347) message to enable the menu items for available commands and disable unavailable commands.
+Not all clipboard commands are available to the user at any given time. An application should process the [**WM\_INITMENUPOPUP**](https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup) message to enable the menu items for available commands and disable unavailable commands.
 
-Following is the [**WM\_INITMENUPOPUP**](https://msdn.microsoft.com/library/windows/desktop/ms646347) case for an application named Label.
+Following is the [**WM\_INITMENUPOPUP**](https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup) case for an application named Label.
 
 
 ```
@@ -125,7 +125,7 @@ void WINAPI InitMenu(HMENU hmenu)
 
 ### Processing the WM\_COMMAND Message
 
-To process menu commands, add the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) case to your application's main window procedure. Following is the **WM\_COMMAND** case for the Label application's window procedure.
+To process menu commands, add the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) case to your application's main window procedure. Following is the **WM\_COMMAND** case for the Label application's window procedure.
 
 
 ```
@@ -575,7 +575,7 @@ If a window places information on the clipboard by using the **CF\_OWNERDISPLAY*
 
 -   Process the [**WM\_SIZECLIPBOARD**](wm-sizeclipboard.md) message. This message is sent to the clipboard owner when the clipboard viewer window has been resized or its content has changed.
 
-    Typically, a window responds to this message by setting the scroll positions and ranges for the clipboard viewer window. In response to this message, the Label application also updates a [**SIZE**](https://msdn.microsoft.com/library/windows/desktop/dd145106) structure for the clipboard viewer window.
+    Typically, a window responds to this message by setting the scroll positions and ranges for the clipboard viewer window. In response to this message, the Label application also updates a [**SIZE**](https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)) structure for the clipboard viewer window.
 
 -   Process the [**WM\_HSCROLLCLIPBOARD**](wm-hscrollclipboard.md) and [**WM\_VSCROLLCLIPBOARD**](wm-vscrollclipboard.md) messages. These messages are sent to the clipboard owner when a scroll bar event occurs in the clipboard viewer window.
 
@@ -690,7 +690,7 @@ A clipboard viewer window displays the current content of the clipboard, and rec
 
 A window adds itself to the clipboard viewer chain by calling the [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) function. The return value is the handle to the next window in the chain. A window must keep track of this value — for example, by saving it in a static variable named *hwndNextViewer*.
 
-The following example adds a window to the clipboard viewer chain in response to the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message.
+The following example adds a window to the clipboard viewer chain in response to the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message.
 
 
 ```
@@ -738,7 +738,7 @@ case WM_CHANGECBCHAIN:
 
 ### Removing a Window from the Clipboard Viewer Chain
 
-To remove itself from the clipboard viewer chain, a window calls the [**ChangeClipboardChain**](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain) function. The following example removes a window from the clipboard viewer chain in response to the [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620) message.
+To remove itself from the clipboard viewer chain, a window calls the [**ChangeClipboardChain**](/windows/desktop/api/Winuser/nf-winuser-changeclipboardchain) function. The following example removes a window from the clipboard viewer chain in response to the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message.
 
 
 ```

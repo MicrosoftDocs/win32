@@ -100,21 +100,21 @@ public static void JetPrereadKeys(
 <!-- end list -->
 
   - keyIndex  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The index of the first key in the keys array to read.
 
 <!-- end list -->
 
   - keyCount  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The maximum number of keys to preread.
 
 <!-- end list -->
 
   - keysPreread  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the number of keys to actually preread.
 

@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 The objects in the SDO object model are arranged in a hierarchy. This means objects in SDO provide access to other objects in SDO.
 
-Objects provide access to other objects in two ways. One way is for the object to expose an interface that provides methods to retrieve other objects. An example of this approach is the Machine object. The Machine object exposes the [**ISdoMachine**](https://msdn.microsoft.com/library/bb960655) interface. The [**ISdoMachine::GetServiceSDO**](https://msdn.microsoft.com/library/bb960661) method retrieves a Service object. The [**ISdoMachine::GetUserSDO**](https://msdn.microsoft.com/library/bb960662) method retrieves a User Object.
+Objects provide access to other objects in two ways. One way is for the object to expose an interface that provides methods to retrieve other objects. An example of this approach is the Machine object. The Machine object exposes the [**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine) interface. The [**ISdoMachine::GetServiceSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo) method retrieves a Service object. The [**ISdoMachine::GetUserSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo) method retrieves a User Object.
 
 ![machine object exposing isdomachine interface](images/sdo01.png)
 
-For more information, see [Obtaining Service and User SDOs](https://msdn.microsoft.com/library/bb960694).
+For more information, see [Obtaining Service and User SDOs](https://docs.microsoft.com/windows/desktop/Nps/sdo-obtaining-service-and-user-sdos).
 
-The second way that objects provide access to other objects is that an object collection is represented as a property of the object that contains it. To retrieve an object collection, call [**ISdo::GetProperty**](https://msdn.microsoft.com/library/bb960671) on the property of an object that represents the collection. For example, to retrieve the Policies collection, call **ISdo::GetProperty** on the [**ISdo**](https://msdn.microsoft.com/library/bb960639) interface exposed by the NPS object.
+The second way that objects provide access to other objects is that an object collection is represented as a property of the object that contains it. To retrieve an object collection, call [**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) on the property of an object that represents the collection. For example, to retrieve the Policies collection, call **ISdo::GetProperty** on the [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface exposed by the NPS object.
 
 > [!Note]  
 > Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.
@@ -26,37 +26,37 @@ The second way that objects provide access to other objects is that an object co
 
 ![retrieving the policies collection](images/sdo02.png)
 
-For sample code that retrieves the Policies collection, see [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708).
+For sample code that retrieves the Policies collection, see [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection).
 
-The [**NPS Server Data Object**](https://msdn.microsoft.com/library/bb960636) has the following properties that represent collections:
+The [**NPS Server Data Object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties) has the following properties that represent collections:
 
 <dl> <dt>
 
 <span id="Auditors"></span><span id="auditors"></span><span id="AUDITORS"></span>Auditors
 </dt> <dd>
 
-The only auditor in the Auditors collection is the [**NT Event Log**](https://msdn.microsoft.com/library/bb960688).
+The only auditor in the Auditors collection is the [**NT Event Log**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_nteventlogproperties).
 
 </dd> <dt>
 
 <span id="Policies"></span><span id="policies"></span><span id="POLICIES"></span>Policies
 </dt> <dd>
 
-Each [**policy object**](https://msdn.microsoft.com/library/bb960696) has a property that represents a collection of conditions.
+Each [**policy object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties) has a property that represents a collection of conditions.
 
 </dd> <dt>
 
 <span id="Profiles"></span><span id="profiles"></span><span id="PROFILES"></span>Profiles
 </dt> <dd>
 
-Each [**profile object**](https://msdn.microsoft.com/library/bb960697) in the Profiles collections has a property that represents an attributes collection. See [SDO Supported Attributes](https://msdn.microsoft.com/library/bb960711) for a list of the attributes supported by SDO.
+Each [**profile object**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties) in the Profiles collections has a property that represents an attributes collection. See [SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes) for a list of the attributes supported by SDO.
 
 </dd> <dt>
 
 <span id="Protocols"></span><span id="protocols"></span><span id="PROTOCOLS"></span>Protocols
 </dt> <dd>
 
-The protocols collection contains the RADIUS protocol object, which contains a clients collection that represents RADIUS clients. See [Adding a Client](https://msdn.microsoft.com/library/bb960607) for sample code that shows how to retrieve the client collection.
+The protocols collection contains the RADIUS protocol object, which contains a clients collection that represents RADIUS clients. See [Adding a Client](https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-a-client) for sample code that shows how to retrieve the client collection.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ This collection contains profiles used for connection request processing.
 <span id="RADIUS_Server_Groups"></span><span id="radius_server_groups"></span><span id="RADIUS_SERVER_GROUPS"></span>RADIUS Server Groups
 </dt> <dd>
 
-Each [**RADIUS server group**](https://msdn.microsoft.com/library/bb960701) in the RADIUS Server Groups collection has a property that represents the collection of servers in that server group.
+Each [**RADIUS server group**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusservergroupproperties) in the RADIUS Server Groups collection has a property that represents the collection of servers in that server group.
 
 </dd> <dt>
 
@@ -92,10 +92,10 @@ This collection contains the "Microsoft Realms Evaluator" collection. The "Micro
 
 <dl> <dt>
 
-[SDO Objects and Properties](https://msdn.microsoft.com/library/bb960690)
+[SDO Objects and Properties](https://docs.microsoft.com/windows/desktop/Nps/sdo-objects-and-properties)
 </dt> <dt>
 
-[SDO Supported Attributes](https://msdn.microsoft.com/library/bb960711)
+[SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> </dl>
 
  

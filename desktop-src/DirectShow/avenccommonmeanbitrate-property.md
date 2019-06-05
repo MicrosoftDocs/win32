@@ -26,7 +26,7 @@ Encoders can implement this property as an enumerated set or as a linear range.
 
 ## Remarks
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.microsoft.com/library/windows/desktop/jj218765).
+This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
 ## Requirements
 

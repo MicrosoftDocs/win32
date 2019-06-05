@@ -24,7 +24,7 @@ This interface can be obtained from a reader object.
 
 ## Members
 
-The **IReferenceClock** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IReferenceClock** also has these types of members:
+The **IReferenceClock** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IReferenceClock** also has these types of members:
 
 -   [Methods](#methods)
 

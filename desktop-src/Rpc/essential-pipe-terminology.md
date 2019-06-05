@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Essential Pipe Terminology
 
-Like other types of parameters to remote procedure calls, pipes can be \[ [**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] or \[ [**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] parameters. Since the server controls the transfer of data through a pipe, pipes with the \[**in**\] attribute are said to *pull* data to the server. Similarly, output pipes *push* data from the server to the client. The procedures that do the data transfer are called the *pull procedure* and the *push procedure*, respectively.
+Like other types of parameters to remote procedure calls, pipes can be \[ [**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] or \[ [**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] parameters. Since the server controls the transfer of data through a pipe, pipes with the \[**in**\] attribute are said to *pull* data to the server. Similarly, output pipes *push* data from the server to the client. The procedures that do the data transfer are called the *pull procedure* and the *push procedure*, respectively.
 
 The MIDL compiler generates the push and pull procedures for the server. In addition, it manages the allocation of data buffers in memory. However, the client must provide its own push and pull procedures. It must also provide a procedure for allocating the memory buffers used by the pipe. These are automatically called at the appropriate time by the client stub. The allocation procedure is often called the alloc procedure or the alloc function.
 

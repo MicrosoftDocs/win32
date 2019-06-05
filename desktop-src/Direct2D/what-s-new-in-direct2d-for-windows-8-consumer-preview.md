@@ -48,7 +48,7 @@ Starting in Windows 10 Anniversary Update, Direct2D now supports rendering a wid
 
 Direct2D supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) flag is enabled. For more information, see the following topics:
 
--   [Color Fonts](https://msdn.microsoft.com/library/windows/desktop/mt765165)
+-   [Color Fonts](https://docs.microsoft.com/windows/desktop/DirectWrite/color-fonts)
 -   [DirectWrite color glyph sample](https://go.microsoft.com/fwlink/p/?LinkId=832476)
 
 ### New image effects
@@ -82,7 +82,7 @@ Starting with Windows 10, Direct2D offers a new API for loading images, ID2D1Ima
 -   [Direct2D Photo Adjustment SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620533)
 -   [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx)
 -   [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx)
--   [IWICJpegFrameDecode::SetIndexing](https://msdn.microsoft.com/library/windows/desktop/dn903861.aspx)
+-   [IWICJpegFrameDecode::SetIndexing](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing)
 
 ### Improved support for ink rendering
 
@@ -160,14 +160,14 @@ Starting in Windows 8.1, Direct2D offers geometry realizations. Geometry realiz
 Starting in Windows 8.1, Direct2D provides support for rendering image data in the JPEG Y’CbCr format. Apps can render JPEG content in its native Y’CbCr representation instead of decompressing to BGRA. This can significantly reduce graphics memory consumption and resource creation time. For more information, see the following topics:
 
 -   Direct2D [YCbCr effect](ycbcr-effect.md)
--   [**IWICPlanarBitmapSourceTransform**](https://msdn.microsoft.com/library/windows/desktop/dn302093) interface
+-   [**IWICPlanarBitmapSourceTransform**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform) interface
 
 ### Support for block compressed formats (DDS files)
 
 Starting in Windows 8.1, Direct2D provides support for bitmaps that contain DXGI\_FORMAT\_BC1\_UNORM, DXGI\_FORMAT\_BC2\_UNORM, and DXGI\_FORMAT\_BC3\_UNORM pixel data. Apps can replace their image assets with block compressed DDS images. This can significantly reduce graphics memory consumption and resource creation time. For more information, see the following topics:
 
 -   [**ID2D1DeviceContext::CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) method
--   [**IWICDdsFrameDecode**](https://msdn.microsoft.com/library/windows/desktop/dn302086) interface
+-   [**IWICDdsFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsframedecode) interface
 
 ### Rendering priority
 
@@ -180,7 +180,7 @@ Starting in Windows 8.1, Direct2D provides support for per-device rendering pri
 
 The following features and APIs were added or updated for Windows 8.
 
-The new Direct2D interfaces are supported on Windows 7 with the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687) installed.
+The new Direct2D interfaces are supported on Windows 7 with the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7) installed.
 
 Direct2D's semantics for devices and device contexts have been updated to more closely resemble the semantics used by Direct3D, and to provide concise operation on Windows Store apps. See [Devices and device contexts](devices-and-device-contexts.md) for more info.
 

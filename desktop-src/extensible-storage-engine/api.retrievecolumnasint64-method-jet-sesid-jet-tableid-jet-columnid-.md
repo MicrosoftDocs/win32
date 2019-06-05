@@ -79,7 +79,7 @@ public static Nullable<long> RetrieveColumnAsInt64(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a long. Null if the column is null.  
 
 ## See also

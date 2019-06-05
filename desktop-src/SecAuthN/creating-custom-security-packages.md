@@ -16,9 +16,9 @@ The SampSSP sample shipped with the Platform Software Development Kit (SDK) cont
 
 ## SSP/AP Security Packages
 
-Custom [*security support provider*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-support-provider-gly)/[*authentication packages*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-authentication-package-gly) (SSP/APs) contain security packages that function as authentication packages (APs) and security support providers (SSPs). These packages implement separate APIs to support each role.
+Custom [*security support provider*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly)/[*authentication packages*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (SSP/APs) contain security packages that function as authentication packages (APs) and security support providers (SSPs). These packages implement separate APIs to support each role.
 
-Because it functions as an AP, a custom SSP/AP [*security package*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-package-gly) must provide implementations for all of the [Functions Implemented by Authentication Packages](authentication-functions.md).
+Because it functions as an AP, a custom SSP/AP [*security package*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) must provide implementations for all of the [Functions Implemented by Authentication Packages](authentication-functions.md).
 
 To provide integrated security support, a custom SSP/AP security package must provide implementations for the [Functions implemented by SSP/APs](authentication-functions.md). [LSA Functions Called by SSP/APs](authentication-functions.md) describes the support functions available to the SSP/AP developers that want to interact with the LSA.
 

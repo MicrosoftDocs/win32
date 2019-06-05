@@ -52,9 +52,9 @@ Manifest-based providers:
 -   Use a manifest to define events so that consumers know how to consume them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
-[TraceLogging](https://msdn.microsoft.com/library/windows/desktop/dn904632) providers:
+[TraceLogging](https://docs.microsoft.com/windows/desktop/tracelogging/trace-logging-about) providers:
 
--   Use [**TraceLoggingRegister**](https://msdn.microsoft.com/library/windows/desktop/dn904610) and [**TraceLoggingWrite**](https://msdn.microsoft.com/library/windows/desktop/dn904617) to register and write events.
+-   Use [**TraceLoggingRegister**](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) and [**TraceLoggingWrite**](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) to register and write events.
 -   Use self-describing events so that the events themselves contain all required information for consuming them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 

@@ -47,7 +47,7 @@ OLE linking includes the same heuristic link tracking. Windows also includes the
 
  
 
-For more information about shell shortcuts, see [**IShellLink**](https://msdn.microsoft.com/library/windows/desktop/bb774950).
+For more information about shell shortcuts, see [**IShellLink**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka).
 
 For more information about OLE links, see [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx).
 
@@ -95,7 +95,7 @@ This server service maintains information in the domain controllers about volume
 
 </dd> </dl>
 
-The link tracking services are exposed by the [**IShellLink**](https://msdn.microsoft.com/library/windows/desktop/bb774950) and [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx) interfaces. Therefore, they are used by shell shortcuts. When the [**IShellLink::Resolve**](https://msdn.microsoft.com/library/windows/desktop/bb774952) method is called and the referent file cannot be found, for example, when the user activates a shell shortcut, the tracking service is called automatically to find the file. Similarly, when the [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx) implementation cannot find a file, for example, in its [**BindToSource**](https://msdn.microsoft.com/library/windows/desktop/ms679752) method, it automatically calls on the tracking service.
+The link tracking services are exposed by the [**IShellLink**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka) and [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx) interfaces. Therefore, they are used by shell shortcuts. When the [**IShellLink::Resolve**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve) method is called and the referent file cannot be found, for example, when the user activates a shell shortcut, the tracking service is called automatically to find the file. Similarly, when the [**IOleLink**](https://msdn.microsoft.com/en-us/library/ms682297(v=VS.85).aspx) implementation cannot find a file, for example, in its [**BindToSource**](https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource) method, it automatically calls on the tracking service.
 
 ## Link Tracking Limitations
 

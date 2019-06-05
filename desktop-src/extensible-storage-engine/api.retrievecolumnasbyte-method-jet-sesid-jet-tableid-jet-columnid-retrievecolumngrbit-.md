@@ -89,7 +89,7 @@ public static Nullable<byte> RetrieveColumnAsByte(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a byte. Null if the column is null.  
 
 ## See also

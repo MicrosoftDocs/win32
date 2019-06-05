@@ -88,7 +88,7 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D11_1/ne-d3d11_1-d3d11_1_create_device_context_state_flag"><strong>D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG</strong></a><br/></td>
-<td>Describes flags that are used to create a device context state object (<a href="https://msdn.microsoft.com/en-us/library/Hh446878(v=VS.85).aspx"><strong>ID3DDeviceContextState</strong></a>) with the <a href="/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11device1-createdevicecontextstate"><strong>ID3D11Device1::CreateDeviceContextState</strong></a> method.<br/></td>
+<td>Describes flags that are used to create a device context state object (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate"><strong>ID3DDeviceContextState</strong></a>) with the <a href="/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11device1-createdevicecontextstate"><strong>ID3D11Device1::CreateDeviceContextState</strong></a> method.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/D3D11/ne-d3d11-d3d11_cull_mode"><strong>D3D11_CULL_MODE</strong></a><br/></td>
@@ -147,11 +147,11 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 <br/> Specifies logical operations to configure for a render target.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Ff476188(v=VS.85).aspx"><strong>D3D11_PRIMITIVE</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive"><strong>D3D11_PRIMITIVE</strong></a><br/></td>
 <td>Indicates how the pipeline interprets geometry or hull shader input primitives. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Ff476189(v=VS.85).aspx"><strong>D3D11_PRIMITIVE_TOPOLOGY</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)"><strong>D3D11_PRIMITIVE_TOPOLOGY</strong></a><br/></td>
 <td>How the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.<br/></td>
 </tr>
 <tr class="even">

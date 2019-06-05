@@ -21,7 +21,7 @@ typedef D3DCOLORVALUE DWRITE_COLOR_F;
 
 ## Remarks
 
-For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/library/windows/desktop/bb172520).
+For more information, see [**D3DCOLORVALUE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcolorvalue).
 
 ## Requirements
 
@@ -40,7 +40,7 @@ For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/library
 
 <dl> <dt>
 
-[**D3DCOLORVALUE**](https://msdn.microsoft.com/library/windows/desktop/bb172520)
+[**D3DCOLORVALUE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcolorvalue)
 </dt> </dl>
 
  

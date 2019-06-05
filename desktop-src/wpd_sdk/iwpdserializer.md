@@ -26,7 +26,7 @@ To get this interface, call **CoCreateInstance** and pass in **IID\_IWpdSerializ
 
 ## Members
 
-The **IWpdSerializer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWpdSerializer** also has these types of members:
+The **IWpdSerializer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWpdSerializer** also has these types of members:
 
 -   [Methods](#methods)
 

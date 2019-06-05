@@ -12,7 +12,7 @@ The LSA provides functions that administrators can use to query and set global p
 
 Before you can manage policy information, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md). This handle is required by the functions that manage policy information.
 
-To retrieve information about the local security policy, call [**LsaQueryInformationPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378313). To set local security policy, call [**LsaSetInformationPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378325). The description of the [**POLICY\_INFORMATION\_CLASS**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_information_class) enumeration details the types of policy information that can be queried or set.
+To retrieve information about the local security policy, call [**LsaQueryInformationPolicy**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy). To set local security policy, call [**LsaSetInformationPolicy**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy). The description of the [**POLICY\_INFORMATION\_CLASS**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_information_class) enumeration details the types of policy information that can be queried or set.
 
 The following example demonstrates how to obtain a system's account domain information, given a handle to the system's [**Policy**](policy-object.md) object.
 

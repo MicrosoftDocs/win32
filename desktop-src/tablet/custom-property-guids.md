@@ -19,7 +19,7 @@ GUID_STROKE_TIMESTAMP = {4EA66C4-F33A-461B-B8FE-68070D9C7575}
 
 
 
-This is a [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) structure that indicates the time at which the stroke was created or added to the document.
+This is a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure that indicates the time at which the stroke was created or added to the document.
 
 
 ```C++

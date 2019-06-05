@@ -54,8 +54,8 @@ This function is similar to the [**all**](dx-graphics-hlsl-all.md) HLSL intrinsi
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Size |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------|
-| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | any  |
-| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md)                            | [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                                                                                 | 1    |
+| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**bool**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | any  |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md)                            | [**bool**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                                                                                 | 1    |
 
 
 

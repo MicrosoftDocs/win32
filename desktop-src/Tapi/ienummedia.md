@@ -14,7 +14,7 @@ The **IEnumMedia** interface provides COM-standard enumeration methods for the [
 
 ## Members
 
-The **IEnumMedia** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IEnumMedia** also has these types of members:
+The **IEnumMedia** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IEnumMedia** also has these types of members:
 
 -   [Methods](#methods)
 

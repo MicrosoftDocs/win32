@@ -25,7 +25,7 @@ The **ChangeSecurityPermissionsEx** method changes the security permissions for 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -52,7 +52,7 @@ uint32 ChangeSecurityPermissionsEx(
 Specifies security information.
 
 > [!Note]  
-> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure grants unlimited access.
+> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure grants unlimited access.
 
  
 
@@ -125,7 +125,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-String that represents the child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If the parameter value is **null**, the operation is performed on the file or directory specified in the [**ExecMethod**](https://msdn.microsoft.com/library/aa393862) call.
+String that represents the child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If the parameter value is **null**, the operation is performed on the file or directory specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> <dt>
 

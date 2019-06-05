@@ -1025,7 +1025,7 @@ else
 
 
 
-The following c\# sample uses [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/en-us/library/microsoft.management.infrastructure.aspx) to retrieve all the running services on the local machine.
+The following c\# sample uses [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) to retrieve all the running services on the local machine.
 
 
 ```CSharp
@@ -1053,10 +1053,10 @@ static void QueryInstanceFunc()
 
 
 
-The following C\# code sample uses [System.Management](https://msdn.microsoft.com/en-us/library/system.management.aspx) namespace to retrieve all running services on the local machine.
+The following C\# code sample uses [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) namespace to retrieve all running services on the local machine.
 
 > [!Note]  
-> [System.Management](https://msdn.microsoft.com/en-us/library/system.management.aspx) contains the original classes used to access WMI; however, they are considered slower and generally do not scale as well as their [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/en-us/library/microsoft.management.infrastructure.aspx) counterparts.
+> [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) contains the original classes used to access WMI; however, they are considered slower and generally do not scale as well as their [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) counterparts.
 
  
 

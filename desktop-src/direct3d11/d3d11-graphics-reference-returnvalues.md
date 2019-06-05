@@ -31,7 +31,7 @@ The return codes from API functions.
 
  
 
-For more return codes, see [DXGI\_ERROR](https://msdn.microsoft.com/library/windows/desktop/bb509553).
+For more return codes, see [DXGI\_ERROR](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
 
 ## Related topics
 

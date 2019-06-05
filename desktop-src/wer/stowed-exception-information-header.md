@@ -40,7 +40,7 @@ typedef struct _STOWED_EXCEPTION_INFORMATION_HEADER {
 **Size**
 </dt> <dd>
 
-Type: **[**ULONG**](https://msdn.microsoft.com/library/windows/desktop/aa383751#ulong)**
+Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Size, in bytes, of the parent structure.
 **Signature**
 </dt> <dd>
 
-Type: **[**ULONG**](https://msdn.microsoft.com/library/windows/desktop/aa383751#ulong)**
+Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

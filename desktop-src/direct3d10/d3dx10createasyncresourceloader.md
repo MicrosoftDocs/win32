@@ -41,7 +41,7 @@ HRESULT D3DX10CreateAsyncResourceLoader(
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-Handle to the resource module. Use [GetModuleHandle Function](https://msdn.microsoft.com/en-us/library/ms683199.aspx) to get the handle.
+Handle to the resource module. Use [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) to get the handle.
 
 </dd> <dt>
 

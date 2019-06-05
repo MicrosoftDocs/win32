@@ -41,11 +41,11 @@ This class was not designed to be used in Visual Basic.
 
 ## Remarks
 
-To create this object, call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
+To create this object, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 Objects instantiated from the **CServiceConfig** class aggregate the free-threaded marshaler so that they can be stored by system runtimes and reused in different apartments.
 
-To configure an individual service, call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration.
+To configure an individual service, call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration.
 
 ## Requirements
 
@@ -66,7 +66,7 @@ To configure an individual service, call [**QueryInterface**](https://msdn.micro
 [**CoCreateActivity**](/windows/desktop/api/ComSvcs/nf-comsvcs-cocreateactivity)
 </dt> <dt>
 
-[**CoCreateFreeThreadedMarshaler**](https://msdn.microsoft.com/library/windows/desktop/ms694500)
+[**CoCreateFreeThreadedMarshaler**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler)
 </dt> <dt>
 
 [**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain)

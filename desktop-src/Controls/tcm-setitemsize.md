@@ -30,13 +30,13 @@ Sets the width and height of tabs in a fixed-width or owner-drawn tab control. Y
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is an **INT** value that specifies the new width, in pixels. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) is an **INT** value that specifies the new height, in pixels.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is an **INT** value that specifies the new width, in pixels. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is an **INT** value that specifies the new height, in pixels.
 
 </dd> </dl>
 
 ## Return value
 
-Returns the old width and height. The width is in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of the return value, and the height is in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657).
+Returns the old width and height. The width is in the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of the return value, and the height is in the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)).
 
 ## Remarks
 

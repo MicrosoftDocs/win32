@@ -48,11 +48,11 @@ A pointer to a variable that receives the address of the [**PRINT\_EXECUTION\_DA
 
 ## Return value
 
-Returns **TRUE** if the function succeeds; otherwise **FALSE**. If the return value is **FALSE**, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) to get the error status.
+Returns **TRUE** if the function succeeds; otherwise **FALSE**. If the return value is **FALSE**, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get the error status.
 
 ## Remarks
 
-Printer drivers should call [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) on the winspool.drv module to get the address of the **GetPrintExecutionData** function because **GetPrintExecutionData** is not supported on Windows Vista or earlier versions of Windows.
+Printer drivers should call [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) on the winspool.drv module to get the address of the **GetPrintExecutionData** function because **GetPrintExecutionData** is not supported on Windows Vista or earlier versions of Windows.
 
 **GetPrintExecutionData** only fails if the value of *pData* is **NULL**.
 
@@ -75,10 +75,10 @@ The value of the **clientAppPID** member of [**PRINT\_EXECUTION\_DATA**](print-e
 
 <dl> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360)
+[**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 </dt> <dt>
 
-[**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212)
+[**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
 </dt> <dt>
 
 [**PRINT\_EXECUTION\_CONTEXT**](print-execution-context.md)

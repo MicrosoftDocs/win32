@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # BoolColumnValue class
 
-A [Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50) column value.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)\>  
       Microsoft.Isam.Esent.Interop.BoolColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

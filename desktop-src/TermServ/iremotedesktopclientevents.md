@@ -24,7 +24,7 @@ Provides methods that receive information from the server that are related to cl
 
 ## Members
 
-The **IRemoteDesktopClientEvents** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IRemoteDesktopClientEvents** also has these types of members:
+The **IRemoteDesktopClientEvents** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRemoteDesktopClientEvents** also has these types of members:
 
 -   [Methods](#methods)
 

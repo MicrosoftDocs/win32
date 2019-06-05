@@ -40,7 +40,7 @@ The rootDSE is a well-known and reliable location on every directory server to g
 
 In summary, an application should use serverless binding to bind to the directory on the current domain, use rootDSE to get the distinguished name for a namespace, and use that distinguished name to bind to objects in the namespace.
 
-For more information about attributes supported by rootDSE, see [RootDSE](https://msdn.microsoft.com/library/ms684291) in the Active Directory Schema documentation.
+For more information about attributes supported by rootDSE, see [RootDSE](https://docs.microsoft.com/windows/desktop/ADSchema/rootdse) in the Active Directory Schema documentation.
 
 For more information and a code example that shows how to use serverless binding and rootDSE, see [Example Code for Getting the Distinguished Name of the Domain](example-code-for-getting-the-distinguished-name-of-the-domain.md).
 

@@ -154,10 +154,10 @@ SupportsDigestAlgorithm (
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://msdn.microsoft.com/library/windows/desktop/aa380255)
+[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://msdn.microsoft.com/library/windows/desktop/aa380252)
+[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
 [XPS Digital Signature API Errors](xps-digital-signatures-errors.md)

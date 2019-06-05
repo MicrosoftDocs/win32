@@ -34,7 +34,7 @@ Operation to perform. If this parameter is **TRUE**, *lParam* specifies a displa
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that specifies the given rectangle and receives the calculated rectangle.
+Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that specifies the given rectangle and receives the calculated rectangle.
 
 </dd> </dl>
 

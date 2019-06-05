@@ -71,7 +71,7 @@ If *wParam* is IGP\_PROPERTY, it returns one or more of the following values.
 | IME\_PROP\_CANDLIST\_START\_FROM\_1 | If set, strings in the candidate list are numbered starting at 1. If clear, strings start at zero.                                                                                                                                                                |
 | IME\_PROP\_UNICODE                  | If set, the IME is viewed as a UnicodeIME. The system and the IME will communicate through the UnicodeIME interface. If clear, IME will use the ANSI interface to communicate with the system.                                                                    |
 | IME\_PROP\_COMPLETE\_ON\_UNSELECT   | If set, conversion window is at the caret position. If clear, the window is near caret position.                                                                                                                                                                  |
-| IME\_PROP\_ACCEPT\_WIDE\_VKEY       | If set, the IME processes the injected Unicode that came from the [**SendInput**](https://msdn.microsoft.com/library/windows/desktop/ms646310) function by using VK\_PACKET. If clear, the IME might not process the injected Unicode, and the injected Unicode might be sent to the application directly. |
+| IME\_PROP\_ACCEPT\_WIDE\_VKEY       | If set, the IME processes the injected Unicode that came from the [**SendInput**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput) function by using VK\_PACKET. If clear, the IME might not process the injected Unicode, and the injected Unicode might be sent to the application directly. |
 
 
 
@@ -97,9 +97,9 @@ If *wParam* is IGP\_SETCOMPSTR, it returns one or more of the following values.
 
 |                              |                                                                                                                                                                                                        |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SCS\_CAP\_COMPSTR            | Can create the composition string by calling the [**ImmSetCompositionString**](https://msdn.microsoft.com/library/windows/desktop/dd318580) function with the SCS\_SETSTR value.                                                      |
-| SCS\_CAP\_MAKEREAD           | Can create the reading string from corresponding composition string when using the [**ImmSetCompositionString**](https://msdn.microsoft.com/library/windows/desktop/dd318580) function with SCS\_SETSTR and without setting *lpRead*. |
-| SCS\_CAP\_SETRECONVERTSTRING | This IME can support reconversion. Use [**ImmSetCompositionString**](https://msdn.microsoft.com/library/windows/desktop/dd318580) to do the reconversion.                                                                             |
+| SCS\_CAP\_COMPSTR            | Can create the composition string by calling the [**ImmSetCompositionString**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa) function with the SCS\_SETSTR value.                                                      |
+| SCS\_CAP\_MAKEREAD           | Can create the reading string from corresponding composition string when using the [**ImmSetCompositionString**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa) function with SCS\_SETSTR and without setting *lpRead*. |
+| SCS\_CAP\_SETRECONVERTSTRING | This IME can support reconversion. Use [**ImmSetCompositionString**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa) to do the reconversion.                                                                             |
 
 
 
@@ -131,7 +131,7 @@ If *wParam* is IGP\_GETIMEVERSION, it returns one or more of the following value
 
  
 
-This message is similar to [**ImmGetProperty**](https://msdn.microsoft.com/library/windows/desktop/dd318567), except that it uses the current input locale. The application should call [**EM\_ISIME**](em-isime.md) before calling this function.
+This message is similar to [**ImmGetProperty**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetproperty), except that it uses the current input locale. The application should call [**EM\_ISIME**](em-isime.md) before calling this function.
 
 ## Requirements
 
@@ -158,7 +158,7 @@ This message is similar to [**ImmGetProperty**](https://msdn.microsoft.com/libra
 **Other Resources**
 </dt> <dt>
 
-[**ImmGetProperty**](https://msdn.microsoft.com/library/windows/desktop/dd318567)
+[**ImmGetProperty**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetproperty)
 </dt> </dl>
 
  

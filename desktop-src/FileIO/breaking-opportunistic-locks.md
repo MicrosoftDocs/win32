@@ -14,7 +14,7 @@ The client holding the lock then takes actions appropriate to the type of lock, 
 
 In acknowledging a break of any exclusive lock (filter, level 1, or batch), the holder of a broken lock cannot request another exclusive lock. It can degrade an exclusive lock to a level 2 lock or no lock at all. The holder typically releases the lock and closes the file when it is about to close the file anyway.
 
-Applications are notified that an opportunistic lock is broken by using the **hEvent** member of the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure associated with the file on which the lock is broken. Applications may also use functions such as [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) and [**HasOverlappedIoCompleted**](https://msdn.microsoft.com/library/windows/desktop/ms683244).
+Applications are notified that an opportunistic lock is broken by using the **hEvent** member of the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure associated with the file on which the lock is broken. Applications may also use functions such as [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) and [**HasOverlappedIoCompleted**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted).
 
  
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Choosing a Protocol Sequence
 
-**Best practice:** Use [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104) when making a remote call. Use [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115) for local calls. Do not use [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108), [**ncacn\_spx**](https://msdn.microsoft.com/library/windows/desktop/aa367109), or any of the **ncadg\_\*** protocol sequences; they are less efficient and have inferior capabilities.
+**Best practice:** Use [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) when making a remote call. Use [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc) for local calls. Do not use [**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np), [**ncacn\_spx**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-spx), or any of the **ncadg\_\*** protocol sequences; they are less efficient and have inferior capabilities.
 
  
 

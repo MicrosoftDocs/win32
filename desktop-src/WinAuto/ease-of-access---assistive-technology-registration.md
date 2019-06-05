@@ -159,7 +159,7 @@ The disadvantages of not running in a job include:
 
 ### Windows Logo key + U
 
-If your accessibility application is configured to run in a job, your application's startup code should include a call to the [**IsProcessInJob**](https://msdn.microsoft.com/library/windows/desktop/ms684127) function to determine whether the application is starting in a job. If it is, the application should start the Ease of Access Center and then exit. The following example shows how to call **IsProcessInJob**.
+If your accessibility application is configured to run in a job, your application's startup code should include a call to the [**IsProcessInJob**](https://docs.microsoft.com/windows/desktop/api/jobapi/nf-jobapi-isprocessinjob) function to determine whether the application is starting in a job. If it is, the application should start the Ease of Access Center and then exit. The following example shows how to call **IsProcessInJob**.
 
 
 ```C++

@@ -45,7 +45,7 @@ To decide, consider these questions:
 
 -   **Is the additional information a sentence or sentence fragment that describes what an item does or how it can be used?** If so, consider using a [tooltip](ctrl-tooltips-and-infotips.md) or infotip.
 -   **Is the additional information related to the current task, but independent of the currently displayed information?** If so, consider using [tabs](ctrl-tabs.md) instead. However, collapsible lists are often preferable to tabs because they are more flexible and scalable.
--   **Is showing or hiding the additional information essentially a data filter?** If so, consider using a [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) or [check boxes](ctrl-check-boxes.md) instead to apply the filter to the entire list.
+-   **Is showing or hiding the additional information essentially a data filter?** If so, consider using a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) or [check boxes](ctrl-check-boxes.md) instead to apply the filter to the entire list.
 
 ## Design concepts
 

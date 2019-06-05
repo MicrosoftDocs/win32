@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The DBT\_USERDEFINED device event identifies a user-defined event.
 
-To broadcast this device event, call the [**BroadcastSystemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644932) function with the [**WM\_DEVICECHANGE**](wm-devicechange.md) message. Set *wParam* to DBT\_USERDEFINED and set *lParam* as described following.
+To broadcast this device event, call the [**BroadcastSystemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage) function with the [**WM\_DEVICECHANGE**](wm-devicechange.md) message. Set *wParam* to DBT\_USERDEFINED and set *lParam* as described following.
 
 
 ```C++
@@ -86,7 +86,7 @@ Return **TRUE**.
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> <dt>
 
-[**BroadcastSystemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644932)
+[**BroadcastSystemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage)
 </dt> </dl>
 
  

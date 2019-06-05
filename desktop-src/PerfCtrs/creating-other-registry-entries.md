@@ -46,7 +46,7 @@ HKEY_LOCAL_MACHINE
                   Collect Timeout = Timeout value for your collect function, in milliseconds
 ```
 
-To obtain the performance data for some applications (those that return counters using the [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function), it is necessary to use the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function to open the device associated with the application. In this case, the name specified in **CreateFile** must also be installed in the DOS Devices node of the registry, as shown here:
+To obtain the performance data for some applications (those that return counters using the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function), it is necessary to use the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to open the device associated with the application. In this case, the name specified in **CreateFile** must also be installed in the DOS Devices node of the registry, as shown here:
 
 ```
 HKEY_LOCAL_MACHINE

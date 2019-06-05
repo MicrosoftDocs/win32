@@ -40,7 +40,7 @@ The Network Share Management structures can be grouped as follows.
 [**SHARE\_INFO\_2**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_2)  
 [**SHARE\_INFO\_501**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_501)  
 [**SHARE\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_502)  
-[**SHARE\_INFO\_503**](https://msdn.microsoft.com/library/windows/desktop/cc462916)  
+[**SHARE\_INFO\_503**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503)  
 [**SHARE\_INFO\_1004**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1004)  
 [**SHARE\_INFO\_1005**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1005)  
 [**SHARE\_INFO\_1006**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1006)  

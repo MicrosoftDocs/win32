@@ -60,14 +60,14 @@ The name of the share whose security descriptor is to be retrieved from the DSDM
 *si* \[in\]
 </dt> <dd>
 
-A [**SECURITY\_INFORMATION**](https://msdn.microsoft.com/library/windows/desktop/aa379573) value that specifies the security information to be retrieved from the security descriptor associated with the share.
+A [**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information) value that specifies the security information to be retrieved from the security descriptor associated with the share.
 
 </dd> <dt>
 
 *pSD* \[out\]
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure that receives the self-relative security descriptor. This parameter can be **NULL**. If this parameter is **NULL**, the DSDM determines the size of the requested security information and returns the number of bytes needed in the *lpcbsdRequired* parameter along with the NDDE\_BUF\_TOO\_SMALL error code.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that receives the self-relative security descriptor. This parameter can be **NULL**. If this parameter is **NULL**, the DSDM determines the size of the requested security information and returns the number of bytes needed in the *lpcbsdRequired* parameter along with the NDDE\_BUF\_TOO\_SMALL error code.
 
 </dd> <dt>
 
@@ -116,7 +116,7 @@ If the function fails, the return value is an error code, which can be translate
 [Network DDE Functions](network-dde-functions.md)
 </dt> <dt>
 
-[**SECURITY\_INFORMATION**](https://msdn.microsoft.com/library/windows/desktop/aa379573)
+[**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information)
 </dt> <dt>
 
 [**NDdeSetShareSecurity**](nddesetsharesecurity.md)

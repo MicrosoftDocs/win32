@@ -15,15 +15,15 @@ Objects are manipulated by retrieving and setting object properties.
 
 The following sections describe how the SDO API uses objects, object properties, and collections:
 
--   [Objects and Properties](https://msdn.microsoft.com/library/bb960690)
--   [Object Model Hierarchy](https://msdn.microsoft.com/library/bb960691)
--   [Attributes](https://msdn.microsoft.com/library/bb960711)
+-   [Objects and Properties](https://docs.microsoft.com/windows/desktop/Nps/sdo-objects-and-properties)
+-   [Object Model Hierarchy](https://docs.microsoft.com/windows/desktop/Nps/sdo-object-model-hierarchy)
+-   [Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes)
 
 ## Related topics
 
 <dl> <dt>
 
-[Order in Which to Use the SDO API](https://msdn.microsoft.com/library/bb960695)
+[Order in Which to Use the SDO API](https://docs.microsoft.com/windows/desktop/Nps/sdo-order-in-which-to-use-the-sdo-api)
 </dt> </dl>
 
  

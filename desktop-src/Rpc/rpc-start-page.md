@@ -48,7 +48,7 @@ The RPC run-time libraries are included with Windows. The components of the RPC 
 
 <dl> <dt>
 
-[Microsoft Interface Definition Language (MIDL)](https://msdn.microsoft.com/library/windows/desktop/aa367091)
+[Microsoft Interface Definition Language (MIDL)](https://docs.microsoft.com/windows/desktop/Midl/midl-start-page)
 </dt> </dl>
 
  

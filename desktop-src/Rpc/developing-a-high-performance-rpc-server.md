@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Developing a High Performance RPC Server
 
-The information in this section applies to remote protocol sequences: [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104), [**ncacn\_http**](https://msdn.microsoft.com/library/windows/desktop/aa367103), [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108), and to Windows 2000 and Windows XP.
+The information in this section applies to remote protocol sequences: [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp), [**ncacn\_http**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http), [**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np), and to Windows 2000 and Windows XP.
 
 This section addresses three primary aspects of RPC server performance:
 

@@ -17,7 +17,7 @@ api_location:
 
 # MFCreateURLFromPath function
 
-\[This API is not supported and may be altered or unavailable in the future. Instead, Applications should call [UrlCreateFromPath](https://msdn.microsoft.com/en-us/library/bb773773.aspx).\]
+\[This API is not supported and may be altered or unavailable in the future. Instead, Applications should call [UrlCreateFromPath](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlcreatefrompatha).\]
 
 Converts a Microsoft MS-DOS path to a canonicalized URL.
 

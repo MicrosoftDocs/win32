@@ -34,13 +34,13 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the horizontal padding, in pixels. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the vertical padding, in pixels.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the horizontal padding, in pixels. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the vertical padding, in pixels.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **DWORD** value that contains the previous horizontal padding in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) and the previous vertical padding in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657), in pixels.
+Returns a **DWORD** value that contains the previous horizontal padding in the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous vertical padding in the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)), in pixels.
 
 ## Remarks
 

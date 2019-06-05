@@ -191,7 +191,7 @@ End If
 [Restore Points](restore-points.md)
 </dt> <dt>
 
-[Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582)
+[Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page)
 </dt> </dl>
 
  

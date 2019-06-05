@@ -45,7 +45,7 @@ The Web Publishing Wizard and Online Print Ordering Wizard are discussed in deta
 -   [Server-Side Design](pubwiz-server.md)
 -   [Registering a Service](pubwiz-reg.md)
 -   [Using the Transfer Manifest](pubwiz-manifest.md)
--   [Transfer Manifest Schema](https://msdn.microsoft.com/library/windows/desktop/bb773857)
+-   [Transfer Manifest Schema](https://docs.microsoft.com/windows/desktop/shell/interfaces)
 
  
 

@@ -16,7 +16,7 @@ This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 M
 
 ## Members
 
-The **ITCallQualityControl** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITCallQualityControl** also has these types of members:
+The **ITCallQualityControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITCallQualityControl** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -114,7 +114,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Short textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -166,10 +166,10 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
 </dt> </dl>
 
-A summary description of the error, if present. This property is inherited from [**CIM\_Job**](https://msdn.microsoft.com/library/aa387873).
+A summary description of the error, if present. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Date and time the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Date and time the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -195,7 +195,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Unique identifier for the service that also provides an indication of the functionality that is managed. For more information about the functionality, see the object's **Description** property. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Unique identifier for the service that also provides an indication of the functionality that is managed. For more information about the functionality, see the object's **Description** property. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -244,7 +244,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 Values include the following:
 

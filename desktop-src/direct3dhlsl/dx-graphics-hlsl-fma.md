@@ -62,7 +62,7 @@ The double-precision fused multiply-addition of parameters *a* \* *b* + *c*. The
 
 The **fma** intrinsic must support NaNs, INFs, and Denorms.
 
-To use the **fma** intrinsic in your shader code, call the [**ID3D11Device::CheckFeatureSupport**](https://msdn.microsoft.com/library/windows/desktop/ff476497) method with [**D3D11\_FEATURE\_D3D11\_OPTIONS**](https://msdn.microsoft.com/library/windows/desktop/ff476124#d3d11-feature-d3d11-options) to verify that the Direct3D device supports the [**ExtendedDoublesShaderInstructions**](https://msdn.microsoft.com/library/windows/desktop/hh404457) feature option. The **fma** intrinsic requires a WDDM 1.2 display driver, and all WDDM 1.2 display drivers must support **fma**. If your app creates a rendering device with [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 11.0 or 11.1 and the compilation target is shader model 5 or later, the HLSL source code can use the **fma** intrinsic.
+To use the **fma** intrinsic in your shader code, call the [**ID3D11Device::CheckFeatureSupport**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport) method with [**D3D11\_FEATURE\_D3D11\_OPTIONS**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature) to verify that the Direct3D device supports the [**ExtendedDoublesShaderInstructions**](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options) feature option. The **fma** intrinsic requires a WDDM 1.2 display driver, and all WDDM 1.2 display drivers must support **fma**. If your app creates a rendering device with [feature level](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 11.0 or 11.1 and the compilation target is shader model 5 or later, the HLSL source code can use the **fma** intrinsic.
 
 ### Type Description
 
@@ -70,10 +70,10 @@ To use the **fma** intrinsic in your shader code, call the [**ID3D11Device::Chec
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                         |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------|
-| *a*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | any                          |
-| *b*   | same as input *a*                                                                                              | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | same dimensions as input *a* |
-| *c*   | same as input *a*                                                                                              | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | same dimensions as input *a* |
-| *ret* | same as input *a*                                                                                              | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | same dimensions as input *a* |
+| *a*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**double**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                       | any                          |
+| *b*   | same as input *a*                                                                                              | [**double**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                       | same dimensions as input *a* |
+| *c*   | same as input *a*                                                                                              | [**double**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                       | same dimensions as input *a* |
+| *ret* | same as input *a*                                                                                              | [**double**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                       | same dimensions as input *a* |
 
 
 

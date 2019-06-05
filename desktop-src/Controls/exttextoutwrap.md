@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # ExtTextOutWrap function
 
-\[**ExtTextOutWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713) directly instead.\]
+\[**ExtTextOutWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**ExtTextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta) directly instead.\]
 
-Draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opacity, or both. This function wraps a call to [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713).
+Draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opacity, or both. This function wraps a call to [**ExtTextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ BOOL ExtTextOutWrap(
 *hdc* \[in\]
 </dt> <dd>
 
-Type: **[**HDC**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hdc)**
+Type: **[**HDC**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A handle to the device context.
 
@@ -74,25 +74,25 @@ The y-coordinate, in logical coordinates, of the reference point used to positio
 *uOptions* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751#uint)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Values that specify how to use the application-defined rectangle. See [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713) for a complete list of options.
+Values that specify how to use the application-defined rectangle. See [**ExtTextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta) for a complete list of options.
 
 </dd> <dt>
 
 *lprc* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)\***
+Type: **const [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85))\***
 
-A pointer to an optional [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opacity, or both.
+A pointer to an optional [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opacity, or both.
 
 </dd> <dt>
 
 *lpString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751#lpctstr)**
+Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A pointer to a buffer that contains the text to be drawn. The string does not need to be zero-terminated, since *cbCount* specifies the length of the string.
 
@@ -101,7 +101,7 @@ A pointer to a buffer that contains the text to be drawn. The string does not ne
 *cbCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751#uint)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The length of the string, in bytes, pointed to by *lpString*.
 
@@ -110,7 +110,7 @@ The length of the string, in bytes, pointed to by *lpString*.
 *lpDx* \[in\]
 </dt> <dd>
 
-Type: **const [**INT**](https://msdn.microsoft.com/library/windows/desktop/aa383751#int)\***
+Type: **const [**INT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to an optional array of values that indicate the distance between origins of adjacent character cells. For example, *lpDx*\[x\] logical units separate the origins of character cell x and character cell (x + 1).
 
@@ -118,19 +118,19 @@ A pointer to an optional array of values that indicate the distance between orig
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751#bool)**
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Returns a nonzero value if the string is drawn successfully. However, if the ANSI version of [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713) is called with ETO\_GLYPH\_INDEX, the function returns **TRUE** even though the function does nothing.
+Returns a nonzero value if the string is drawn successfully. However, if the ANSI version of [**ExtTextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta) is called with ETO\_GLYPH\_INDEX, the function returns **TRUE** even though the function does nothing.
 
 If the function fails, the return value is zero.
 
-To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
-**ExtTextOutWrap** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) and request ordinal 417 from ComCtl32.dll to obtain a function pointer.
+**ExtTextOutWrap** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 417 from ComCtl32.dll to obtain a function pointer.
 
-For additional remarks, please see [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713).
+For additional remarks, please see [**ExtTextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta).
 
 ## Requirements
 

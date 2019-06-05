@@ -59,7 +59,7 @@ Creates a new instance of a CD3DX12\_SHADER\_BYTECODE, initialized with the cont
 
 Creates a new instance of a CD3DX12\_SHADER\_BYTECODE, initializing the following parameters:
 
-[**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)\* pShaderBlob
+[**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))\* pShaderBlob
 
 </dd> <dt>
 

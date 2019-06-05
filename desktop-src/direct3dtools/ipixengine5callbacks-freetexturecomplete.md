@@ -32,7 +32,7 @@ A callback function used to notify the host when a texture has been freed.
 
 ## <span id="see_also"></span>See also
 
-[**IPixEngine5Callbacks**](https://msdn.microsoft.com/library/windows/desktop/mt432756)
+[**IPixEngine5Callbacks**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine5callbacks)
 
  
 

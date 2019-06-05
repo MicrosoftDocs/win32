@@ -41,7 +41,7 @@ void ErrorDuplicateSubobject(
 *DuplicateType* 
 </dt> <dd>
 
-Type: **[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)**
+Type: **[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)**
 
 The subobject type that was duplicated.
 
@@ -73,7 +73,7 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
+[**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_subobject_type)
 </dt> </dl>
 
  

@@ -30,11 +30,11 @@ Currently not used, should be **NULL**.
 
 ## Return value
 
-Applications should call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) after handling this message. See **DefWindowProc** for information about its return values.
+Applications should call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) after handling this message. See **DefWindowProc** for information about its return values.
 
 ## Remarks
 
-This notification lets you know when the input panel is opening. If you want to perform an action when this happens, handle the message, perform your operation in the handler, and then pass on the message to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+This notification lets you know when the input panel is opening. If you want to perform an action when this happens, handle the message, perform your operation in the handler, and then pass on the message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
 > [!Note]  
 > This message is also sent when the Text Input Panel is already visible and the user switches from the keyboard to the handwriting skin.

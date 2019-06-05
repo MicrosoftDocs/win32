@@ -13,7 +13,7 @@ api_location:
 
 # Using the Windows App Certification Kit
 
-To give your desktop app the best chance of getting certified, validate and test it on your computer before you submit it for certification and listing in the Windows Store. To certify your app, you need to install and run the [Windows App Certification Kit](https://msdn.microsoft.com/library/mt637081). For details on specific tests within the kit, refer to [Windows App Certification Kit tests](windows-app-certification-kit-tests.md).
+To give your desktop app the best chance of getting certified, validate and test it on your computer before you submit it for certification and listing in the Windows Store. To certify your app, you need to install and run the [Windows App Certification Kit](https://docs.microsoft.com/previous-versions//mt637081(v=vs.85)). For details on specific tests within the kit, refer to [Windows App Certification Kit tests](windows-app-certification-kit-tests.md).
 
 For a high level look at the certification process, and where the use of this tool fits in, see [Certify your desktop app](windows-certification-portal.md).
 
@@ -29,7 +29,7 @@ Before you install the Windows ACK, you need to install and run the operating sy
 -   If you're developing a Windows 8 desktop app or Windows 8 desktop device app, you can install and run Windows 8 or Windows 8.1.
 -   If you're developing a Windows 8.1 desktop app or Windows 8 desktop device app, install Windows 8.1.
 
-2. Install the [Windows App Certification Kit 3.3](https://msdn.microsoft.com/library/mt637081), which is included in the Windows Software Development Kit (SDK) for Windows 8.1.
+2. Install the [Windows App Certification Kit 3.3](https://docs.microsoft.com/previous-versions//mt637081(v=vs.85)), which is included in the Windows Software Development Kit (SDK) for Windows 8.1.
 
 **Note:**When you install Windows App Certification Kit 3.3 or higher on your PC, you replace any previously installed version of the kit.
 
@@ -71,9 +71,9 @@ Before you install the Windows ACK, you need to install and run the operating sy
 
 ## Reference Documents
 
--   [Certification requirements for Windows desktop apps](https://msdn.microsoft.com/library/windows/desktop/hh749939)
+-   [Certification requirements for Windows desktop apps](https://msdn.microsoft.com/library/windows/desktop/mt674655.aspx)
 -   [App certification white paper](https://go.microsoft.com/fwlink/p/?LinkId=703908)
--   [Windows Store onboarding for desktop apps](https://msdn.microsoft.com/library/dn322034)
+-   [Windows Store onboarding for desktop apps](https://docs.microsoft.com/previous-versions//dn322034(v=vs.85))
 -   [Windows 7 desktop app certification requirements](windows-7-certification.md)
 
 ## Windows App Certification Kit tests

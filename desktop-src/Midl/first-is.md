@@ -71,7 +71,7 @@ HRESULT Proc1(
 
 <dl> <dt>
 
-[field\_attributes](https://msdn.microsoft.com/library/windows/desktop/aa373864)
+[field\_attributes](https://docs.microsoft.com/windows/desktop/Rpc/field-attributes)
 </dt> <dt>
 
 [Interface Definition (IDL) File](interface-definition-idl-file.md)

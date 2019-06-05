@@ -45,7 +45,7 @@ struct DDS_PIXELFORMAT {
 **dwSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -56,7 +56,7 @@ Structure size; set to 32 (bytes).
 **dwFlags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -82,7 +82,7 @@ Values which indicate what type of data is in the surface.
 **dwFourCC**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -93,7 +93,7 @@ Four-character codes for specifying compressed or custom formats. Possible value
 **dwRGBBitCount**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -104,7 +104,7 @@ Number of bits in an RGB (possibly including alpha) format. Valid when **dwFlags
 **dwRBitMask**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -115,7 +115,7 @@ Red (or lumiannce or Y) mask for reading color data. For instance, given the A8R
 **dwGBitMask**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -126,7 +126,7 @@ Green (or U) mask for reading color data. For instance, given the A8R8G8B8 forma
 **dwBBitMask**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -137,7 +137,7 @@ Blue (or V) mask for reading color data. For instance, given the A8R8G8B8 format
 **dwABitMask**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

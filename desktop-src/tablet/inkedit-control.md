@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The [InkEdit](inkedit-control-reference.md) control provides an easy way to capture, recognize, and display ink.
 
-This implementation of the [InkEdit](inkedit-control-reference.md) control is based on the [**RichEdit**](https://msdn.microsoft.com/library/windows/desktop/bb774306) control. The managed (.NET Framework) implementation of [InkEdit](https://msdn.microsoft.com/library/ms835842(v=MSDN.10).aspx) is based on the [**RichTextBox**](https://msdn.microsoft.com/library/ms612650(v=VS.96).aspx) control.
+This implementation of the [InkEdit](inkedit-control-reference.md) control is based on the [**RichEdit**](https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole) control. The managed (.NET Framework) implementation of [InkEdit](https://msdn.microsoft.com/library/ms835842(v=MSDN.10).aspx) is based on the [**RichTextBox**](https://msdn.microsoft.com/library/ms612650(v=VS.96).aspx) control.
 
 The primary purpose of the [InkEdit](inkedit-control-reference.md) control is to collect ink, recognize it, and display it in text form. Additionally, it supports displaying ink as an embedded object with text formatting capabilities, such as bold and underline.
 

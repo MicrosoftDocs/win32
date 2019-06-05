@@ -52,7 +52,7 @@ For more information, see the following topics:
 
 <dl> <dt>
 
-[Requests](https://msdn.microsoft.com/library/windows/desktop/aa387669)
+[Requests](https://docs.microsoft.com/windows/desktop/SecCrypto/requests)
 </dt> </dl>
 
  

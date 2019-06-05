@@ -12,18 +12,18 @@ ms.date: 05/31/2018
 
 # Bluetooth and getpeername
 
-The [**getpeername**](https://msdn.microsoft.com/library/windows/desktop/ms738533) function is used to retrieve the Bluetooth address of the peer Bluetooth device. The **getpeername** function is only valid for connected Bluetooth sockets.
+The [**getpeername**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getpeername) function is used to retrieve the Bluetooth address of the peer Bluetooth device. The **getpeername** function is only valid for connected Bluetooth sockets.
 
-For more information, see [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673).
+For more information, see [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2).
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
+[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**getpeername**](https://msdn.microsoft.com/library/windows/desktop/ms738533)
+[**getpeername**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getpeername)
 </dt> </dl>
 
  

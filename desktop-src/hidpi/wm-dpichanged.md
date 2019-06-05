@@ -39,14 +39,14 @@ The current DPI for a window always equals the last DPI sent by **WM\_DPICHANGED
 *wParam* 
 </dt> <dd>
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of the *wParam* contains the Y-axis value of the new dpi of the window. The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of the *wParam* contains the X-axis value of the new DPI of the window. For example, 96, 120, 144, or 192. The values of the X-axis and the Y-axis are identical for Windows apps.
+The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of the *wParam* contains the Y-axis value of the new dpi of the window. The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of the *wParam* contains the X-axis value of the new DPI of the window. For example, 96, 120, 144, or 192. The values of the X-axis and the Y-axis are identical for Windows apps.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that provides a suggested size and position of the current window scaled for the new DPI. The expectation is that apps will reposition and resize windows based on the suggestions provided by *lParam* when handling this message.
+A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that provides a suggested size and position of the current window scaled for the new DPI. The expectation is that apps will reposition and resize windows based on the suggestions provided by *lParam* when handling this message.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ This message is only relevant for **PROCESS\_PER\_MONITOR\_DPI\_AWARE** applicat
 
 You only need to use either the X-axis or the Y-axis value when scaling your application since they are the same.
 
-In order to handle this message correctly, you will need to resize and reposition your window based on the suggestions provided by *lParam* and using [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545). If you do not do this, your window will grow or shrink with respect to everything else on the new monitor. For example, if a user is using multiple monitors and drags your window from a 96 DPI monitor to a 192 DPI monitor, your window will appear to be half as large with respect to other items on the 192 DPI monitor.
+In order to handle this message correctly, you will need to resize and reposition your window based on the suggestions provided by *lParam* and using [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos). If you do not do this, your window will grow or shrink with respect to everything else on the new monitor. For example, if a user is using multiple monitors and drags your window from a 96 DPI monitor to a 192 DPI monitor, your window will appear to be half as large with respect to other items on the 192 DPI monitor.
 
 The base value of DPI is defined as **USER\_DEFAULT\_SCREEN\_DPI** which is set to 96. To determine the scaling factor for a monitor, take the DPI value and divide by **USER\_DEFAULT\_SCREEN\_DPI**. The following table provides some sample DPI values and associated scaling factors.
 

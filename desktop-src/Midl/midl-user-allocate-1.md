@@ -69,7 +69,7 @@ void __RPC_FAR * __RPC_API midl_user_allocate(size_t cBytes)
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://msdn.microsoft.com/library/windows/desktop/aa373540)
+[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md)
@@ -78,7 +78,7 @@ void __RPC_FAR * __RPC_API midl_user_allocate(size_t cBytes)
 [**in**](in.md)
 </dt> <dt>
 
-[**midl\_user\_free**](https://msdn.microsoft.com/library/windows/desktop/aa378716)
+[**midl\_user\_free**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-free-function)
 </dt> <dt>
 
 [**/osf**](-osf.md)

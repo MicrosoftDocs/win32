@@ -40,7 +40,7 @@ Number of file copy, rename, or delete operations in the subqueue.
 
 ## Return value
 
-If an error occurs, the callback routine should call [**SetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms680627), specifying the error, and then return zero. The [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) function will return **FALSE** and a subsequent call to [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return the error code set by the callback routine.
+If an error occurs, the callback routine should call [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), specifying the error, and then return zero. The [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) function will return **FALSE** and a subsequent call to [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the error code set by the callback routine.
 
 If no error occurs, the callback routine should return a nonzero value.
 

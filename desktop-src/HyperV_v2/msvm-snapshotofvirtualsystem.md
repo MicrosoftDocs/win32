@@ -55,7 +55,7 @@ Data type: **[**Msvm\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class that represents the virtual system. This property is derived from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class that represents the virtual system. This property is derived from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ Data type: **[**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) class that represents the snapshot. This property is derived from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) class that represents the snapshot. This property is derived from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> </dl>
 

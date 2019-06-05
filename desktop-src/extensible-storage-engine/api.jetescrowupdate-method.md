@@ -108,7 +108,7 @@ public static void JetEscrowUpdate(
 <!-- end list -->
 
   - deltaSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The size of the addend.
 
@@ -122,14 +122,14 @@ public static void JetEscrowUpdate(
 <!-- end list -->
 
   - previousValueLength  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The size of the previousValue buffer.
 
 <!-- end list -->
 
   - actualPreviousValueLength  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the actual size of the previousValue.
 

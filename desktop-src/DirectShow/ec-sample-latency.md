@@ -55,7 +55,7 @@ The simplest way to calculate *lParam1* is: *QPC now*   *QPC target*, where *QPC
 [Event Notification Codes](event-notification-codes.md)
 </dt> <dt>
 
-[How to Write an EVR Presenter](https://msdn.microsoft.com/library/windows/desktop/bb530107)
+[How to Write an EVR Presenter](https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter)
 </dt> </dl>
 
  

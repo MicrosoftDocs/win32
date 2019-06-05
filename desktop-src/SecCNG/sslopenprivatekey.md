@@ -17,7 +17,7 @@ api_location:
 
 # SslOpenPrivateKey function
 
-The **SslOpenPrivateKey** function opens a handle to a [*private key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-private-key-gly).
+The **SslOpenPrivateKey** function opens a handle to a [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly).
 
 ## Syntax
 
@@ -40,7 +40,7 @@ SECURITY_STATUS WINAPI SslOpenPrivateKey(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Possible return codes include, but are not limited to, the following.
 
 ## Remarks
 
-The private key obtained is part of a [*public/private key pair*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-private-key-pair-gly) within a [*certificate*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-gly). This function merely extracts the private key from the certificate specified by the *pCertContext* parameter.
+The private key obtained is part of a [*public/private key pair*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) within a [*certificate*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly). This function merely extracts the private key from the certificate specified by the *pCertContext* parameter.
 
 ## Requirements
 

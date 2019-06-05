@@ -130,7 +130,7 @@ Learn about the packaging API, which you can use to create, read, and write app 
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://msdn.microsoft.com/library/windows/apps/hh464929)
+[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -139,7 +139,7 @@ Learn about the packaging API, which you can use to create, read, and write app 
 **Reference**
 </dt> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Package deployment API](package-deployment-api.md)

@@ -19,7 +19,7 @@ The string binding is an unsigned character string composed of strings that repr
 <span id="ObjectUUID"></span><span id="objectuuid"></span><span id="OBJECTUUID"></span>*ObjectUUID*
 </dt> <dd>
 
-[UUID](https://msdn.microsoft.com/library/windows/desktop/aa367302) of the object operated on by the remote procedure call. At the server, the RPC run-time library maps the object type to a manager entry-point vector (an array of function pointers) to invoke the correct manager routine. For a discussion of how to map object UUIDs to manager entry-point vectors, see [Registering Interfaces](registering-interfaces.md).
+[UUID](https://docs.microsoft.com/windows/desktop/Midl/uuid) of the object operated on by the remote procedure call. At the server, the RPC run-time library maps the object type to a manager entry-point vector (an array of function pointers) to invoke the correct manager routine. For a discussion of how to map object UUIDs to manager entry-point vectors, see [Registering Interfaces](registering-interfaces.md).
 
 </dd> <dt>
 
@@ -40,13 +40,13 @@ Network address of the system to receive remote procedure calls.
 
  
 
--   [ncacn\_nb\_tcp](https://msdn.microsoft.com/library/windows/desktop/aa367107)
--   [ncacn\_nb\_nb](https://msdn.microsoft.com/library/windows/desktop/aa367106)
--   [ncacn\_nb\_ipx](https://msdn.microsoft.com/library/windows/desktop/aa367105)
--   [ncacn\_dnet\_nsp](https://msdn.microsoft.com/library/windows/desktop/aa367102)
--   [ncacn\_vns\_spp](https://msdn.microsoft.com/library/windows/desktop/aa367110)
--   [ncadg\_mq](https://msdn.microsoft.com/library/windows/desktop/aa367114)
--   [ncadg\_ipx](https://msdn.microsoft.com/library/windows/desktop/aa367112)
+-   [ncacn\_nb\_tcp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-tcp)
+-   [ncacn\_nb\_nb](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-nb)
+-   [ncacn\_nb\_ipx](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-ipx)
+-   [ncacn\_dnet\_nsp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-dnet-nsp)
+-   [ncacn\_vns\_spp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-vns-spp)
+-   [ncadg\_mq](https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq)
+-   [ncadg\_ipx](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ipx)
 
 The format and content of the network address depend on the specified protocol sequence as follows.
 
@@ -54,20 +54,20 @@ The format and content of the network address depend on the specified protocol s
 
 | Protocol sequence                       | Network address                                                                                                                                  | Examples                                               |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| [ncacn\_nb\_tcp](https://msdn.microsoft.com/library/windows/desktop/aa367107)     | Computer name                                                                                                                                    | myserver                                               |
-| [ncacn\_nb\_ipx](https://msdn.microsoft.com/library/windows/desktop/aa367105)     | Computer name                                                                                                                                    | myserver                                               |
-| [ncacn\_nb\_nb](https://msdn.microsoft.com/library/windows/desktop/aa367106)       | Computer name                                                                                                                                    | myserver                                               |
-| [ncacn\_ip\_tcp](https://msdn.microsoft.com/library/windows/desktop/aa367104)     | Four-octet Internet address, or host name. If the IPv6 network stack is installed, IPv6 is fully supported and an IPv6 address is also accepted. | 128.10.2.30 anynode.microsoft.com                      |
-| [ncacn\_np](https://msdn.microsoft.com/library/windows/desktop/aa367108)              | Server name (leading double backslashes are optional)                                                                                            | myserver \\\\myotherserver                             |
-| [ncacn\_spx](https://msdn.microsoft.com/library/windows/desktop/aa367109)            | IPX Internet address, or server name                                                                                                             | ~0000000108002B30612C myserver                         |
-| [ncacn\_dnet\_nsp](https://msdn.microsoft.com/library/windows/desktop/aa367102) | Area and node syntax                                                                                                                             | 4.120                                                  |
-| [ncacn\_at\_dsp](https://msdn.microsoft.com/library/windows/desktop/aa367101)     | Computer name, optionally followed by @ and the AppleTalk zone name. Defaults to @\*, the client's zone, if no zone provided                     | servername@zonename servername                         |
-| [ncacn\_vns\_spp](https://msdn.microsoft.com/library/windows/desktop/aa367110)   | StreetTalk server name of the form item@group@organization                                                                                       | printserver@sdkdocs@microsoft                          |
-| [ncadg\_mq](https://msdn.microsoft.com/library/windows/desktop/aa367114)              | Server name                                                                                                                                      | myserver                                               |
-| [ncacn\_http](https://msdn.microsoft.com/library/windows/desktop/aa367103)          | Internet address (either four-octet or friendly name, or local server name                                                                       | 128.10.2.30 somesvr@anywhere.com mylocalsvr<br/> |
-| [ncadg\_ip\_udp](https://msdn.microsoft.com/library/windows/desktop/aa367113)     | Four-octet Internet address, or host name                                                                                                        | 128.10.2.30 anynode.microsoft.com                      |
-| [ncadg\_ipx](https://msdn.microsoft.com/library/windows/desktop/aa367112)            | IPX Internet address, or server name                                                                                                             | ~0000000108002B30612C myserver                         |
-| [ncalrpc](https://msdn.microsoft.com/library/windows/desktop/aa367115)                 | Machine name                                                                                                                                     | thismachine                                            |
+| [ncacn\_nb\_tcp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-tcp)     | Computer name                                                                                                                                    | myserver                                               |
+| [ncacn\_nb\_ipx](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-ipx)     | Computer name                                                                                                                                    | myserver                                               |
+| [ncacn\_nb\_nb](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-nb)       | Computer name                                                                                                                                    | myserver                                               |
+| [ncacn\_ip\_tcp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp)     | Four-octet Internet address, or host name. If the IPv6 network stack is installed, IPv6 is fully supported and an IPv6 address is also accepted. | 128.10.2.30 anynode.microsoft.com                      |
+| [ncacn\_np](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np)              | Server name (leading double backslashes are optional)                                                                                            | myserver \\\\myotherserver                             |
+| [ncacn\_spx](https://docs.microsoft.com/windows/desktop/Midl/ncacn-spx)            | IPX Internet address, or server name                                                                                                             | ~0000000108002B30612C myserver                         |
+| [ncacn\_dnet\_nsp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-dnet-nsp) | Area and node syntax                                                                                                                             | 4.120                                                  |
+| [ncacn\_at\_dsp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-at-dsp)     | Computer name, optionally followed by @ and the AppleTalk zone name. Defaults to @\*, the client's zone, if no zone provided                     | servername@zonename servername                         |
+| [ncacn\_vns\_spp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-vns-spp)   | StreetTalk server name of the form item@group@organization                                                                                       | printserver@sdkdocs@microsoft                          |
+| [ncadg\_mq](https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq)              | Server name                                                                                                                                      | myserver                                               |
+| [ncacn\_http](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http)          | Internet address (either four-octet or friendly name, or local server name                                                                       | 128.10.2.30 somesvr@anywhere.com mylocalsvr<br/> |
+| [ncadg\_ip\_udp](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp)     | Four-octet Internet address, or host name                                                                                                        | 128.10.2.30 anynode.microsoft.com                      |
+| [ncadg\_ipx](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ipx)            | IPX Internet address, or server name                                                                                                             | ~0000000108002B30612C myserver                         |
+| [ncalrpc](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc)                 | Machine name                                                                                                                                     | thismachine                                            |
 
 
 
@@ -95,20 +95,20 @@ Protocol-specific options. The option field is not required. Each option is spec
 
 | Protocol sequence                       | Endpoint                                                                                           | Examples             | Option name                                            |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------|----------------------|--------------------------------------------------------|
-| [ncacn\_nb\_tcp](https://msdn.microsoft.com/library/windows/desktop/aa367107)     | Integer between 1 and 254. Many values between 0 and 32 are reserved by Microsoft.                 | 100                  | None                                                   |
-| [ncacn\_nb\_ipx](https://msdn.microsoft.com/library/windows/desktop/aa367105)     | (as above)                                                                                         | (as above)           | None                                                   |
-| [ncacn\_nb\_nb](https://msdn.microsoft.com/library/windows/desktop/aa367106)       | (as above)                                                                                         | (as above)           | None                                                   |
-| [ncacn\_ip\_tcp](https://msdn.microsoft.com/library/windows/desktop/aa367104)     | Internet port number.                                                                              | 1025                 | None                                                   |
-| [ncacn\_np](https://msdn.microsoft.com/library/windows/desktop/aa367108)              | Named pipe. Name must start with "\\\\pipe".                                                       | \\\\pipe\\\\pipename | Security                                               |
-| [ncacn\_spx](https://msdn.microsoft.com/library/windows/desktop/aa367109)            | Integer between 1 and 65535.                                                                       | 5000                 | None                                                   |
-| [ncacn\_dnet\_nsp](https://msdn.microsoft.com/library/windows/desktop/aa367102) | DECnet phase IV object number (must be preceded by the \# character), or object name.              | mailserver \#17      | None                                                   |
-| [ncacn\_at\_dsp](https://msdn.microsoft.com/library/windows/desktop/aa367101)     | A character string, up to 22 bytes long.                                                           | myservicesendpoint   | None                                                   |
-| [ncacn\_vns\_spp](https://msdn.microsoft.com/library/windows/desktop/aa367110)   | Vines SPP port number between 250 and 511.                                                         | 500                  | None                                                   |
-| [ncadg\_mq](https://msdn.microsoft.com/library/windows/desktop/aa367114)              | Integer between 1 and 65535.                                                                       | 5000                 | None                                                   |
-| [ncacn\_http](https://msdn.microsoft.com/library/windows/desktop/aa367103)          | Internet port number.                                                                              | 2215                 | HTTP and RPC proxy server names, HttpConnection option |
-| [ncadg\_ip\_udp](https://msdn.microsoft.com/library/windows/desktop/aa367113)     | Internet port number.                                                                              | 1025                 | None                                                   |
-| [ncadg\_ipx](https://msdn.microsoft.com/library/windows/desktop/aa367112)            | Integer between 1 and 65535.                                                                       | 5000                 | None                                                   |
-| [ncalrpc](https://msdn.microsoft.com/library/windows/desktop/aa367115)                 | String specifying application or service name. The string cannot include any backslash characters. | my\_printer          | Security                                               |
+| [ncacn\_nb\_tcp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-tcp)     | Integer between 1 and 254. Many values between 0 and 32 are reserved by Microsoft.                 | 100                  | None                                                   |
+| [ncacn\_nb\_ipx](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-ipx)     | (as above)                                                                                         | (as above)           | None                                                   |
+| [ncacn\_nb\_nb](https://docs.microsoft.com/windows/desktop/Midl/ncacn-nb-nb)       | (as above)                                                                                         | (as above)           | None                                                   |
+| [ncacn\_ip\_tcp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp)     | Internet port number.                                                                              | 1025                 | None                                                   |
+| [ncacn\_np](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np)              | Named pipe. Name must start with "\\\\pipe".                                                       | \\\\pipe\\\\pipename | Security                                               |
+| [ncacn\_spx](https://docs.microsoft.com/windows/desktop/Midl/ncacn-spx)            | Integer between 1 and 65535.                                                                       | 5000                 | None                                                   |
+| [ncacn\_dnet\_nsp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-dnet-nsp) | DECnet phase IV object number (must be preceded by the \# character), or object name.              | mailserver \#17      | None                                                   |
+| [ncacn\_at\_dsp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-at-dsp)     | A character string, up to 22 bytes long.                                                           | myservicesendpoint   | None                                                   |
+| [ncacn\_vns\_spp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-vns-spp)   | Vines SPP port number between 250 and 511.                                                         | 500                  | None                                                   |
+| [ncadg\_mq](https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq)              | Integer between 1 and 65535.                                                                       | 5000                 | None                                                   |
+| [ncacn\_http](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http)          | Internet port number.                                                                              | 2215                 | HTTP and RPC proxy server names, HttpConnection option |
+| [ncadg\_ip\_udp](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp)     | Internet port number.                                                                              | 1025                 | None                                                   |
+| [ncadg\_ipx](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ipx)            | Integer between 1 and 65535.                                                                       | 5000                 | None                                                   |
+| [ncalrpc](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc)                 | String specifying application or service name. The string cannot include any backslash characters. | my\_printer          | Security                                               |
 
 
 

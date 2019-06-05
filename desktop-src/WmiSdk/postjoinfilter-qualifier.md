@@ -17,7 +17,7 @@ api_location:
 
 # PostJoinFilter Qualifier
 
-You can filter the instances of a join view class by assigning a WQL query to the **PostJoinFilter** qualifier. The value of the WQL query is applied to the instances of the join view class. You can use this qualifier to restrict the instances of your view class to those that meet specific conditions. The following WQL query filters instances of a join class called based on instances of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173).
+You can filter the instances of a join view class by assigning a WQL query to the **PostJoinFilter** qualifier. The value of the WQL query is applied to the instances of the join view class. You can use this qualifier to restrict the instances of your view class to those that meet specific conditions. The following WQL query filters instances of a join class called based on instances of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk).
 
 
 ```C++

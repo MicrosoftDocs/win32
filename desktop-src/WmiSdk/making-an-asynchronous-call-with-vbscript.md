@@ -45,7 +45,7 @@ The following procedure describes how to make an asynchronous call by using VBSc
 
     
 
-2.  Create the object sink using either [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) or (for Windows Script Host 2.0 only) the OBJECT tag with an events attribute set to **TRUE**.
+2.  Create the object sink using either [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) or (for Windows Script Host 2.0 only) the OBJECT tag with an events attribute set to **TRUE**.
 
     ```VB
     Set sink = WScript.CreateObject("WbemScripting.SWbemSink","SINK_")
@@ -121,7 +121,7 @@ The following procedure describes how to make an asynchronous call by using VBSc
 
     
 
-The following code example shows an asynchronous query for all the instances of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) on the local machine. For a semisynchronous version of the same method, see [Calling a Method](calling-a-method.md).
+The following code example shows an asynchronous query for all the instances of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) on the local machine. For a semisynchronous version of the same method, see [Calling a Method](calling-a-method.md).
 
 
 ```VB

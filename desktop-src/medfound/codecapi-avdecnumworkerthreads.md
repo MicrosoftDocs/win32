@@ -22,7 +22,7 @@ CODECAPI\_AVDecNumWorkerThreads
 
 If the value is  1, the decoder selects the number of threads.
 
-For the [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953) interface, set this property as a **LONG** value (**VT\_I4**). For the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface, set this property as a **UINT32**, although the value is signed.
+For the [**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi) interface, set this property as a **LONG** value (**VT\_I4**). For the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface, set this property as a **UINT32**, although the value is signed.
 
 ## Requirements
 
@@ -43,7 +43,7 @@ For the [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
+[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

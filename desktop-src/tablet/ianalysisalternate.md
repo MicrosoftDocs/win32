@@ -21,7 +21,7 @@ Represents the possible handwriting recognition word matches for [**IContextNode
 
 ## Members
 
-The **IAnalysisAlternate** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IAnalysisAlternate** also has these types of members:
+The **IAnalysisAlternate** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisAlternate** also has these types of members:
 
 -   [Methods](#methods)
 

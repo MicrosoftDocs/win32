@@ -56,11 +56,11 @@ Pointer to the [**RAS\_SERVER\_0**](ras-server-0-str.md) structure that receives
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is an error code. Possible error codes include those returned by [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) for the [**CallNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365144) function. There is no extended error information for this function; do not call **GetLastError**.
+If the function fails, the return value is an error code. Possible error codes include those returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the [**CallNamedPipe**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-callnamedpipea) function. There is no extended error information for this function; do not call **GetLastError**.
 
 ## Remarks
 
-To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://msdn.microsoft.com/library/windows/desktop/aa370623) function and specify SV\_TYPE\_DIALIN for the *servertype* parameter.
+To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum) function and specify SV\_TYPE\_DIALIN for the *servertype* parameter.
 
 ## Requirements
 

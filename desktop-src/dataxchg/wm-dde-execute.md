@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A Dynamic Data Exchange (DDE) client application posts a **WM\_DDE\_EXECUTE** message to a DDE server application to send a string to the server to be processed as a series of commands. The server application is expected to post a [**WM\_DDE\_ACK**](wm-dde-ack.md) message in response.
 
-To post this message, call the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function with the following parameters.
+To post this message, call the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
 
 
 ```C++
@@ -81,11 +81,11 @@ Note that, under the old rules, parentheses and brackets had to be doubled, as f
 
 Servers should be able to parse commands in either form.
 
-Unicode execute strings should be used only when both the client and server window handles cause the [**IsWindowUnicode**](https://msdn.microsoft.com/library/windows/desktop/ms633529) function to return **TRUE**.
+Unicode execute strings should be used only when both the client and server window handles cause the [**IsWindowUnicode**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowunicode) function to return **TRUE**.
 
 ### Posting
 
-The client application allocates the global memory object by calling the [**GlobalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366574) function.
+The client application allocates the global memory object by calling the [**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc) function.
 
 When processing the [**WM\_DDE\_ACK**](wm-dde-ack.md) message that the server posts in reply to a **WM\_DDE\_EXECUTE** message, the client application must delete the object returned by the **WM\_DDE\_ACK** message.
 
@@ -114,19 +114,19 @@ Unless specified otherwise by a sub-protocol, the server should not post the [**
 **Reference**
 </dt> <dt>
 
-[**IsWindowUnicode**](https://msdn.microsoft.com/library/windows/desktop/ms633529)
+[**IsWindowUnicode**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowunicode)
 </dt> <dt>
 
 [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam)
 </dt> <dt>
 
-[**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
+[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
 [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-dde-reuseddelparam)
 </dt> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
+[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**UnpackDDElParam**](/windows/desktop/api/Dde/nf-dde-unpackddelparam)

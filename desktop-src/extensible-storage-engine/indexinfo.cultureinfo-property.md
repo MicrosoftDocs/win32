@@ -53,7 +53,7 @@ public CultureInfo CultureInfo { get; }
 
 #### Property value
 
-Type: [System.Globalization.CultureInfo](https://msdn.microsoft.com/en-us/library/kx54z3k7)  
+Type: [System.Globalization.CultureInfo](https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN)  
 
 ## See also
 

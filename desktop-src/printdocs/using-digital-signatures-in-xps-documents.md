@@ -54,7 +54,7 @@ The following topics require some special consideration when you use the XPS Dig
 
 [**IXpsSignature::Verify**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-verify) checks only the signed content to determine that it has not changed since it was signed. **IXpsSignature::Verify** does not verify any of the certificates that were used to sign the document content.
 
-For more information about certificates and cryptography, see [About Cryptography](https://msdn.microsoft.com/library/windows/desktop/aa375538).
+For more information about certificates and cryptography, see [About Cryptography](https://docs.microsoft.com/windows/desktop/SecCrypto/about-cryptography).
 
 For an example of how to verify document signatures in a program, see [Verify Document Signatures and Certificates](verify-document-signatures.md).
 
@@ -72,9 +72,9 @@ For more information about how to embed certificates in an XPS document, see [Em
 
 ### Using the CERT\_CONTEXT Structure
 
-The [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) and [**CERT\_INFO**](https://msdn.microsoft.com/library/windows/desktop/aa377200) structures are the main data structures that hold certificate information. For more information about using these structures, see [Using a CERT\_INFO Data Structure](https://msdn.microsoft.com/library/windows/desktop/aa388153).
+The [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) and [**CERT\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info) structures are the main data structures that hold certificate information. For more information about using these structures, see [Using a CERT\_INFO Data Structure](https://docs.microsoft.com/windows/desktop/SecCrypto/using-a-cert-info-data-structure).
 
-[**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) structures that are returned by Crypto API functions must be released when they are no longer needed. To release a **CERT\_CONTEXT** structure, call the [**CertFreeCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376075) function.
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) structures that are returned by Crypto API functions must be released when they are no longer needed. To release a **CERT\_CONTEXT** structure, call the [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) function.
 
 ## Related topics
 
@@ -86,13 +86,13 @@ The [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377
 [Additional Digital Signature Programming Tasks](advanced-digital-signature-programming-tasks.md)
 </dt> <dt>
 
-[**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189)
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)
 </dt> <dt>
 
-[**CERT\_INFO**](https://msdn.microsoft.com/library/windows/desktop/aa377200)
+[**CERT\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info)
 </dt> <dt>
 
-[**CertFreeCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376075)
+[**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)
 </dt> <dt>
 
 [**XPS\_SIGN\_POLICY**](/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002)

@@ -28,7 +28,7 @@ Retrieves the preferred height of a link for the control's current width.
 </dt> <dd>Maximum width of the link, in pixels.</dd> <dt>
 
 *lParam* \[out\]
-</dt> <dd>When this message returns, contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd145106">**SIZE**</a> structure. The **cy** member of this structure indicates the ideal height of the control for the given width. It adjusts the **cx** member to the amount of space actually needed.</dd> </dl>
+</dt> <dd>When this message returns, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">**SIZE**</a> structure. The **cy** member of this structure indicates the ideal height of the control for the given width. It adjusts the **cx** member to the amount of space actually needed.</dd> </dl>
 
 ## Return value
 

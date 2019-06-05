@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # RB\_GETDROPTARGET message
 
-Retrieves a rebar control's [**IDropTarget**](https://msdn.microsoft.com/library/windows/desktop/ms679679) interface pointer.
+Retrieves a rebar control's [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) interface pointer.
 
 ## Parameters
 
@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**IDropTarget**](https://msdn.microsoft.com/library/windows/desktop/ms679679) pointer that receives the interface pointer. It is the caller's responsibility to call [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on this pointer when it is no longer needed.
+Pointer to an [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) pointer that receives the interface pointer. It is the caller's responsibility to call [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on this pointer when it is no longer needed.
 
 </dd> </dl>
 

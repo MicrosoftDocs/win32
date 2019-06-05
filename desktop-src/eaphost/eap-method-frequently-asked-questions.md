@@ -62,7 +62,7 @@ This topic provides answers to commonly-asked programming questions about EAP me
 <td>To install an EAP method, you must first implement [<strong>DllRegisterServer</strong>](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) and [<strong>DllUnregisterServer</strong>](https://msdn.microsoft.com/windows/desktop/b71137a7-284e-4521-a3b2-9dad9c9d3c54) in the EAP method DLL itself. After that, use <strong>regsvr32.exe</strong> to install and uninstall the method. The appropriate registry keys must also be set. For more information, see [Installing an EAP Method](installing-an-eap-method.md).<br/></td>
 </tr>
 <tr class="odd">
-<td>What is in-band [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP) support?</td>
+<td>What is in-band [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP) support?</td>
 <td>When in-band NAP support is enabled, NAP packets are transported inside EAP method packets. In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](Http://go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets, and NAP-generated certificates are used in EAP method authentication.</td>
 </tr>
 <tr class="even">

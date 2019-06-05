@@ -22,7 +22,7 @@ The following sections detail ink interoperability.
 -   [Building Blocks](building-blocks.md)
 -   [Storing Ink in HTML](storing-ink-in-html.md)
 
-This document assumes a detailed understanding of the Clipboard. For more information about the Clipboard, see the [Clipboard documentation](https://msdn.microsoft.com/library/windows/desktop/ms648709).
+This document assumes a detailed understanding of the Clipboard. For more information about the Clipboard, see the [Clipboard documentation](https://docs.microsoft.com/windows/desktop/dataxchg/clipboard).
 
  
 

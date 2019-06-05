@@ -61,7 +61,7 @@ The **InkRecognizerGuide** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method.
 
 By default, there is no recognizer guide. A default guide has all property values set to 0. You must use the properties of this object to set the guide.
 

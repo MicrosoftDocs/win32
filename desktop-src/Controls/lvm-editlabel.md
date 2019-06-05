@@ -44,7 +44,7 @@ Returns the handle to the edit control that is used to edit the item text if suc
 
 When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but you should not destroy it.
 
-The control must have the focus before you send this message to the control. Focus can be set using the [**SetFocus**](https://msdn.microsoft.com/library/windows/desktop/ms646312) function.
+The control must have the focus before you send this message to the control. Focus can be set using the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function.
 
 If *wParam* is -1, an [LVN\_ENDLABELEDIT](lvn-endlabeledit.md) notification code is sent.
 
@@ -65,7 +65,7 @@ If *wParam* is -1, an [LVN\_ENDLABELEDIT](lvn-endlabeledit.md) notification code
 
 <dl> <dt>
 
-[**WM\_CANCELMODE**](https://msdn.microsoft.com/library/windows/desktop/ms632615)
+[**WM\_CANCELMODE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode)
 </dt> </dl>
 
  

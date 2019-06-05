@@ -18,9 +18,9 @@ api_location:
 
 # UncompressEx method of the Win32\_ShortcutFile class
 
-The **UncompressEx** [WMI class](https://msdn.microsoft.com/library/aa393244) method uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the [**Uncompress**](uncompress-method-in-class-win32-directory.md) method.
+The **UncompressEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the [**Uncompress**](uncompress-method-in-class-win32-directory.md) method.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -180,7 +180,7 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)

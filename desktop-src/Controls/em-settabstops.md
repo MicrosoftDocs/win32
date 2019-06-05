@@ -48,9 +48,9 @@ If all the tabs are not set, the return value is **FALSE**.
 
 ## Remarks
 
-The **EM\_SETTABSTOPS** message does not automatically redraw the edit control window. If the application is changing the tab stops for text already in the edit control, it should call the [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) function to redraw the edit control window.
+The **EM\_SETTABSTOPS** message does not automatically redraw the edit control window. If the application is changing the tab stops for text already in the edit control, it should call the [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function to redraw the edit control window.
 
-The values specified in the array are in dialog template units, which are the device-independent units used in dialog box templates. To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502) function.
+The values specified in the array are in dialog template units, which are the device-independent units used in dialog box templates. To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect) function.
 
 **Rich Edit:** Supported in Microsoft Rich Edit 3.0 and later. A rich edit control can have the maximum number of tab stops specified by MAX\_TAB\_STOPS. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
@@ -73,10 +73,10 @@ The values specified in the array are in dialog template units, which are the de
 **Other Resources**
 </dt> <dt>
 
-[**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002)
+[**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect)
 </dt> <dt>
 
-[**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502)
+[**MapDialogRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect)
 </dt> </dl>
 
  

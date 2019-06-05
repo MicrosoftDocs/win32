@@ -51,7 +51,7 @@ The **Msvm\_ElementCapabilities** class has these properties.
 **Capabilities**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_Capabilities**](https://msdn.microsoft.com/library/cc136806)**
+Data type: **[**CIM\_Capabilities**](https://docs.microsoft.com/previous-versions//cc136806(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -60,7 +60,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-The capabilities object associated with the element. This property is inherited from [**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044).
+The capabilities object associated with the element. This property is inherited from [**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities).
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Provides descriptive information about the capabilities. This property is inherited from [**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044).
+Provides descriptive information about the capabilities. This property is inherited from [**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities).
 
 
 
@@ -91,7 +91,7 @@ Provides descriptive information about the capabilities. This property is inheri
 **ManagedElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218)**
+Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
@@ -100,13 +100,13 @@ Access type: Read-only
 Qualifiers: **Key**, **Min** ( 1 )
 </dt> </dl>
 
-The managed element. This property is inherited from [**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044).
+The managed element. This property is inherited from [**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ElementCapabilities** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ElementCapabilities** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -129,10 +129,10 @@ Access to the **Msvm\_ElementCapabilities** class might be restricted by UAC Fil
 [**CIM\_ElementCapabilities**](cim-elementcapabilities.md)
 </dt> <dt>
 
-[**CIM\_ElementCapabilities**](https://msdn.microsoft.com/library/mt446044)
+[**CIM\_ElementCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementcapabilities)
 </dt> <dt>
 
-[**Msvm\_ElementCapabilities (V1)**](https://msdn.microsoft.com/library/cc136833)
+[**Msvm\_ElementCapabilities (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-elementcapabilities)
 </dt> </dl>
 
  

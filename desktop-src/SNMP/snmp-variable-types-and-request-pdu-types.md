@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SNMP Variable Types and Request PDU Types
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://msdn.microsoft.com/library/aa384426), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The definitions for some SNMP variable types and request PDU types have changed. The Snmp.h file maps old types to the corresponding new types.
 

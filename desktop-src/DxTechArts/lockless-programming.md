@@ -328,9 +328,9 @@ It is also possible to use the [**\_ReadBarrier**](https://msdn.microsoft.com/en
 
 ## Preventing CPU Reordering
 
-CPU reordering is more subtle than compiler reordering. You can't ever see it happen directly, you just see inexplicable bugs. In order to prevent CPU reordering of reads and writes you need to use memory barrier instructions, on some processors. The all-purpose name for a memory barrier instruction, on Xbox 360 and on Windows, is [**MemoryBarrier**](https://msdn.microsoft.com/library/windows/desktop/ms684208). This macro is implemented appropriately for each platform.
+CPU reordering is more subtle than compiler reordering. You can't ever see it happen directly, you just see inexplicable bugs. In order to prevent CPU reordering of reads and writes you need to use memory barrier instructions, on some processors. The all-purpose name for a memory barrier instruction, on Xbox 360 and on Windows, is [**MemoryBarrier**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-memorybarrier). This macro is implemented appropriately for each platform.
 
-On Xbox 360, [**MemoryBarrier**](https://msdn.microsoft.com/library/windows/desktop/ms684208) is defined as **lwsync** (lightweight sync), also available through the **\_\_lwsync** intrinsic, which is defined in ppcintrinsics.h. **\_\_lwsync** also serves as a compiler memory barrier, preventing rearranging of reads and writes by the compiler.
+On Xbox 360, [**MemoryBarrier**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-memorybarrier) is defined as **lwsync** (lightweight sync), also available through the **\_\_lwsync** intrinsic, which is defined in ppcintrinsics.h. **\_\_lwsync** also serves as a compiler memory barrier, preventing rearranging of reads and writes by the compiler.
 
 The **lwsync** instruction is a memory barrier on Xbox 360 that synchronizes one processor core with the L2 cache. It guarantees that all writes before **lwsync** make it to the L2 cache before any writes that follow. It also guarantees that any reads that follow **lwsync** don't get older data from L2 than previous reads. The one type of reordering that it does not prevent is a read moving ahead of a write to a different address. Thus, **lwsync** enforces memory ordering that matches the default memory ordering on x86 and x64 processors. To get full memory ordering requires the more expensive sync instruction (also known as heavyweight sync), but in most cases, this is not required. The memory reordering options on Xbox 360 are shown in the following table.
 
@@ -349,9 +349,9 @@ The **lwsync** instruction is a memory barrier on Xbox 360 that synchronizes one
 
 PowerPC also has the synchronization instructions **isync** and **eieio** (which is used to control reordering to caching-inhibited memory). These synchronization instructions should not be needed for normal synchronization purposes.
 
-On Windows, [**MemoryBarrier**](https://msdn.microsoft.com/library/windows/desktop/ms684208) is defined in Winnt.h and gives you a different memory barrier instruction depending on whether you are compiling for x86 or x64. The memory barrier instruction serves as a full barrier, preventing all reordering of reads and writes across the barrier. Thus, **MemoryBarrier** on Windows gives a stronger reordering guarantee than it does on Xbox 360.
+On Windows, [**MemoryBarrier**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-memorybarrier) is defined in Winnt.h and gives you a different memory barrier instruction depending on whether you are compiling for x86 or x64. The memory barrier instruction serves as a full barrier, preventing all reordering of reads and writes across the barrier. Thus, **MemoryBarrier** on Windows gives a stronger reordering guarantee than it does on Xbox 360.
 
-On Xbox 360, and on many other CPUs, there is one additional way that read-reordering by the CPU can be prevented. If you read a pointer and then use that pointer to load other data, the CPU guarantees that the reads off of the pointer are not older than the read of the pointer. If your lock flag is a pointer and if all reads of shared data are off of the pointer, the [**MemoryBarrier**](https://msdn.microsoft.com/library/windows/desktop/ms684208) can be omitted, for a modest performance savings.
+On Xbox 360, and on many other CPUs, there is one additional way that read-reordering by the CPU can be prevented. If you read a pointer and then use that pointer to load other data, the CPU guarantees that the reads off of the pointer are not older than the read of the pointer. If your lock flag is a pointer and if all reads of shared data are off of the pointer, the [**MemoryBarrier**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-memorybarrier) can be omitted, for a modest performance savings.
 
 ``` syntax
 Data* localPointer = g_sharedPointer;
@@ -368,13 +368,13 @@ if( localPointer )
 }
 ```
 
-The [**MemoryBarrier**](https://msdn.microsoft.com/library/windows/desktop/ms684208) instruction only prevents reordering of reads and writes to cacheable memory. If you allocate memory as PAGE\_NOCACHE or PAGE\_WRITECOMBINE, a common technique for device driver authors and for game developers on Xbox 360, **MemoryBarrier** has no effect on accesses to this memory. Most developers don't need synchronization of non-cacheable memory. That is beyond the scope of this article.
+The [**MemoryBarrier**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-memorybarrier) instruction only prevents reordering of reads and writes to cacheable memory. If you allocate memory as PAGE\_NOCACHE or PAGE\_WRITECOMBINE, a common technique for device driver authors and for game developers on Xbox 360, **MemoryBarrier** has no effect on accesses to this memory. Most developers don't need synchronization of non-cacheable memory. That is beyond the scope of this article.
 
 ## Interlocked Functions and CPU Reordering
 
 Sometimes the read or write that acquires or releases a resource is done using one of the **InterlockedXxx** functions. On Windows, this simplifies things; because on Windows, the **InterlockedXxx** functions are all full-memory barriers. They effectively have a CPU memory barrier both before and after them, which means that they are a full read-acquire or write-release barrier all by themselves.
 
-On Xbox 360, the **InterlockedXxx** functions do not contain CPU memory barriers. They prevent compiler reordering of reads and writes but not CPU reordering. Therefore, in most cases when using **InterlockedXxx** functions on Xbox 360, you should precede or follow them with an **\_\_lwsync**, to make them a read-acquire or write-release barrier. For convenience and for easier readability, there are **Acquire** and **Release** versions of many of the **InterlockedXxx** functions. These come with a built-in memory barrier. For instance, [**InterlockedIncrementAcquire**](https://msdn.microsoft.com/library/windows/desktop/ms683618) does an interlocked increment followed by an **\_\_lwsync** memory barrier to give the full read-acquire functionality.
+On Xbox 360, the **InterlockedXxx** functions do not contain CPU memory barriers. They prevent compiler reordering of reads and writes but not CPU reordering. Therefore, in most cases when using **InterlockedXxx** functions on Xbox 360, you should precede or follow them with an **\_\_lwsync**, to make them a read-acquire or write-release barrier. For convenience and for easier readability, there are **Acquire** and **Release** versions of many of the **InterlockedXxx** functions. These come with a built-in memory barrier. For instance, [**InterlockedIncrementAcquire**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)) does an interlocked increment followed by an **\_\_lwsync** memory barrier to give the full read-acquire functionality.
 
 It is recommended that you use the **Acquire** and **Release** versions of the **InterlockedXxx** functions (most of which are available on Windows as well, with no performance penalty) to make your intent more obvious and to make it easier to get the memory barrier instructions in the correct place. Any use of **InterlockedXxx** on Xbox 360 without a memory barrier should be examined very carefully, because it is often a bug.
 
@@ -418,10 +418,10 @@ A pipe is a construct that lets one or more threads write data that is then read
 
 ## Xbox 360 Performance
 
-The performance of synchronization instructions and functions on Xbox 360 will vary depending on what other code is running. Acquiring locks will take much longer if another thread currently owns the lock. [**InterlockedIncrement**](https://msdn.microsoft.com/library/windows/desktop/ms683614) and critical section operations will take much longer if other threads are writing to the same cache line. The contents of the store queues can also affect performance. Therefore, all of these numbers are just approximations, generated from very simple tests:
+The performance of synchronization instructions and functions on Xbox 360 will vary depending on what other code is running. Acquiring locks will take much longer if another thread currently owns the lock. [**InterlockedIncrement**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement) and critical section operations will take much longer if other threads are writing to the same cache line. The contents of the store queues can also affect performance. Therefore, all of these numbers are just approximations, generated from very simple tests:
 
 -   **lwsync** was measured as taking 33-48 cycles.
--   [**InterlockedIncrement**](https://msdn.microsoft.com/library/windows/desktop/ms683614) was measured as taking 225-260 cycles.
+-   [**InterlockedIncrement**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement) was measured as taking 225-260 cycles.
 -   Acquiring or releasing a critical section was measured as taking about 345 cycles.
 -   Acquiring or releasing a mutex was measured as taking about 2350 cycles.
 
@@ -431,8 +431,8 @@ The performance of synchronization instructions and functions on Windows vary wi
 
 However, even some measurements generated from very simple tests are helpful:
 
--   [**MemoryBarrier**](https://msdn.microsoft.com/library/windows/desktop/ms684208) was measured as taking 20-90 cycles.
--   [**InterlockedIncrement**](https://msdn.microsoft.com/library/windows/desktop/ms683614) was measured as taking 36-90 cycles.
+-   [**MemoryBarrier**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-memorybarrier) was measured as taking 20-90 cycles.
+-   [**InterlockedIncrement**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement) was measured as taking 36-90 cycles.
 -   Acquiring or releasing a critical section was measured as taking 40-100 cycles.
 -   Acquiring or releasing a mutex was measured as taking about 750-2500 cycles.
 
@@ -442,7 +442,7 @@ While acquiring and releasing locks is more expensive than using lockless progra
 
 ## Performance Thoughts
 
-Acquiring or releasing a critical section consists of a memory barrier, an **InterlockedXxx** operation, and some extra checking to handle recursion and to fall back to a mutex, if necessary. You should be wary of implementing your own critical section, because spinning in a loop waiting for a lock to be free, without falling back to a mutex, can waste considerable performance. For critical sections that are heavily contended but not held for long, you should consider using [**InitializeCriticalSectionAndSpinCount**](https://msdn.microsoft.com/library/windows/desktop/ms683476) so that the operating system will spin for a while waiting for the critical section to be available rather than immediately deferring to a mutex if the critical section is owned when you try to acquire it. In order to identify critical sections that can benefit from a spin count, it is necessary to measure the length of the typical wait for a particular lock.
+Acquiring or releasing a critical section consists of a memory barrier, an **InterlockedXxx** operation, and some extra checking to handle recursion and to fall back to a mutex, if necessary. You should be wary of implementing your own critical section, because spinning in a loop waiting for a lock to be free, without falling back to a mutex, can waste considerable performance. For critical sections that are heavily contended but not held for long, you should consider using [**InitializeCriticalSectionAndSpinCount**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount) so that the operating system will spin for a while waiting for the critical section to be available rather than immediately deferring to a mutex if the critical section is owned when you try to acquire it. In order to identify critical sections that can benefit from a spin count, it is necessary to measure the length of the typical wait for a particular lock.
 
 If a shared heap is used for memory allocations—the default behavior—every memory allocation and free involves acquiring a lock. As the number of threads and the number of allocations increases, performance levels off, and eventually starts to decrease. Using per-thread heaps, or reducing the number of allocations, can avoid this locking bottleneck.
 
@@ -471,7 +471,7 @@ Lockless algorithms are not guaranteed to be faster than algorithms that use loc
 ## References
 
 -   MSDN Library. "[**volatile (C++)**](https://msdn.microsoft.com/en-us/library/12a04hfd(v=VS.71).aspx)." C++ Language Reference.
--   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](https://msdn.microsoft.com/magazine/cc163715.aspx)." MSDN Magazine, October 2005.
+-   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](https://msdn.microsoft.com/magazine/ee310108.aspx)." MSDN Magazine, October 2005.
 -   Lyons, Michael. "[PowerPC Storage Model and AIX Programming](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)." IBM developerWorks, 16 Nov 2005.
 -   McKenney, Paul E. "[Memory Ordering in Modern Microprocessors, Part II](https://www.linuxjournal.com/article/8212)." Linux Journal, September 2005. \[This article has some x86 details.\]
 -   Intel Corporation. "[Intel® 64 Architecture Memory Ordering](https://developer.intel.com/products/processor/manuals/index.md)." August 2007. \[Applies to both IA-32 and Intel 64 processors.\]

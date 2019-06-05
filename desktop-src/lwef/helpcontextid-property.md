@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets an associated context number for the [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) object. Used to provide context-sensitive Help for the **Commands** object.
+Returns or sets an associated context number for the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object. Used to provide context-sensitive Help for the **Commands** object.
 
 </dd> <dt>
 
@@ -38,7 +38,7 @@ Returns or sets an associated context number for the [**Commands**](https://msdn
 
 ## Remarks
 
-If you've created a Windows Help file for your application and set the character's [**HelpFile**](helpfile-property.md) property, Agent automatically calls Help when [**HelpModeOn**](helpmodeon-property.md) is set to **True** and the user selects the [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) object. If you set a context number in the **HelpContextID**, Agent calls Help and searches for the topic identified by that context number.
+If you've created a Windows Help file for your application and set the character's [**HelpFile**](helpfile-property.md) property, Agent automatically calls Help when [**HelpModeOn**](helpmodeon-property.md) is set to **True** and the user selects the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object. If you set a context number in the **HelpContextID**, Agent calls Help and searches for the topic identified by that context number.
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 

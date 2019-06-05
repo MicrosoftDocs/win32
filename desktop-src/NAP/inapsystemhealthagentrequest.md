@@ -28,7 +28,7 @@ The **INapSystemHealthAgentRequest** interface provides methods that SHAs use to
 
 ## Members
 
-The **INapSystemHealthAgentRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapSystemHealthAgentRequest** also has these types of members:
+The **INapSystemHealthAgentRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthAgentRequest** also has these types of members:
 
 -   [Methods](#methods)
 

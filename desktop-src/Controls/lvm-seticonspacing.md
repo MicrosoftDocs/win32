@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the distance, in pixels, to set between icons on the x-axis. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the distance, in pixels, to set between icons on the y-axis. See Remarks.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the distance, in pixels, to set between icons on the x-axis. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the distance, in pixels, to set between icons on the y-axis. See Remarks.
 
 </dd> </dl>
 

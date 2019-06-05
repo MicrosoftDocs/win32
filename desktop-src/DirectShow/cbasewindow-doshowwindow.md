@@ -40,7 +40,7 @@ HRESULT DoShowWindow(
 *ShowCmd* 
 </dt> <dd>
 
-Flag that specifies how the window is to be shown. The value can be any constant defined for the *nCmdShow* parameter of the [**ShowWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633548) function.
+Flag that specifies how the window is to be shown. The value can be any constant defined for the *nCmdShow* parameter of the [**ShowWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow) function.
 
 </dd> </dl>
 

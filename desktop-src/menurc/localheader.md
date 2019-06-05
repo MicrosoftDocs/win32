@@ -59,7 +59,7 @@ The y-coordinate of the cursor hot spot, in pixels.
 
 ## Remarks
 
-The **LOCALHEADER** structure is the first data written to the [RT\_CURSOR](https://msdn.microsoft.com/library/windows/desktop/ms648009) resource if a [**RESDIR**](resdir.md) structure contains information about a cursor.
+The **LOCALHEADER** structure is the first data written to the [RT\_CURSOR](https://docs.microsoft.com/windows/desktop/menurc/resource-types) resource if a [**RESDIR**](resdir.md) structure contains information about a cursor.
 
 ## Requirements
 

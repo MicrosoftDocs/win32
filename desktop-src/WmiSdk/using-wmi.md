@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 You can use WMI from client applications and scripts. It provides an infrastructure that makes it easy to both discover and perform management tasks. In addition, you can add to the set of possible management tasks by creating your own WMI providers.
 
 > [!Note]  
-> The next-generation version of WMI for writing applications and scripts is available through the Windows Management Infrastructure (MI). For more information, see [MI Providers and Clients](https://msdn.microsoft.com/library/dn313132).
+> The next-generation version of WMI for writing applications and scripts is available through the Windows Management Infrastructure (MI). For more information, see [MI Providers and Clients](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-providers-and-clients-node-page).
 
  
 
@@ -68,10 +68,10 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     </tr>
     <tr class="even">
     <td>.NET Framework applications written in C#, Visual Basic .NET, or J#<br/></td>
-    <td>Classes in the <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
+    <td>Classes in the <a href="https://docs.microsoft.com/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
     <blockquote>
     [!Note]<br />
-    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="https://msdn.microsoft.com/library/hh872326"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=98072">WMI .NET Overview</a>.)
+    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="https://docs.microsoft.com/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=98072">WMI .NET Overview</a>.)
     </blockquote>
     <br/></td>
     </tr>
@@ -138,7 +138,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     -   Using WMI in the .NET Framework to create a managed code provider.
 
-        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](https://msdn.microsoft.com/library/aa394388). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](https://go.microsoft.com/fwlink/p/?linkid=84306).
+        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](https://go.microsoft.com/fwlink/p/?linkid=84306).
 
     -   Using the [provider framework classes](wmi-c-classes.md) is not recommended.
 

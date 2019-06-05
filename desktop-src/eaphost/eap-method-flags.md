@@ -251,7 +251,7 @@ Do not use. Reserved for future use.
 
 
 
-Indicates the cause of re-authentication is a [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP) callback; NAP initiated the authentication session because the health state changed. This flag must be sent only when this function is called by a NAP-specific [*NotificationHandler*](/previous-versions/windows/desktop/api) callback provided by a previous call to this function.
+Indicates the cause of re-authentication is a [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP) callback; NAP initiated the authentication session because the health state changed. This flag must be sent only when this function is called by a NAP-specific [*NotificationHandler*](/previous-versions/windows/desktop/api) callback provided by a previous call to this function.
 
 
 </dt> </dl> </dd> <dt>

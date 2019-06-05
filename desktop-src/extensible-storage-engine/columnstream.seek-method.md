@@ -60,20 +60,20 @@ public override long Seek(
 #### Parameters
 
   - offset  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
     
     Byte offset relative to the origin parameter.
 
 <!-- end list -->
 
   - origin  
-    Type: [System.IO.SeekOrigin](https://msdn.microsoft.com/en-us/library/883dhyx0)  
+    Type: [System.IO.SeekOrigin](https://docs.microsoft.com/dotnet/api/system.io.seekorigin?redirectedfrom=MSDN)  
     
     A SeekOrigin indicating the reference point for the new position.
 
 #### Return value
 
-Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
 The new position in the current stream.  
 
 ## See also

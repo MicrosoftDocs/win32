@@ -27,7 +27,7 @@ By getting the **defaultNamingContext** attribute from **RootDSE**, you can bind
 
 To enumerate the properties of the **RootDSE**, use the [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist) interface. [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) cannot be used for this task.
 
-For more information, see [Serverless Binding and RootDSE](https://msdn.microsoft.com/library/ms677945).
+For more information, see [Serverless Binding and RootDSE](https://docs.microsoft.com/windows/desktop/AD/serverless-binding-and-rootdse).
 
  
 

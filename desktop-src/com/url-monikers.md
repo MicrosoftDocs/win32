@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The OLE moniker architecture provides a convenient programming model for working with URLs. The moniker architecture supports extensible and complete name parsing through the [**MkParseDisplayName**](/windows/desktop/api/Objbase/nf-objbase-mkparsedisplayname) function and the [**IParseDisplayName**](/windows/desktop/api/OleIdl/nn-oleidl-iparsedisplayname) and [**IMoniker**](/windows/desktop/api/ObjIdl/nn-objidl-imoniker) interfaces, as well as printable names through the [**IMoniker::GetDisplayName**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-getdisplayname) method. The **IMoniker** interface is the way you actually use URLs you encounter, and building components that fit into the moniker architecture is the way to actually extend URL namespaces in practice.
 
-A system-provided moniker class, the URL moniker, provides a framework for building and using certain URLs. Because URLs frequently see resources across high-latency networks, the URL moniker supports asynchronous as well as synchronous binding. The URL moniker does not currently support [asynchronous storage](https://msdn.microsoft.com/library/windows/desktop/aa378862).
+A system-provided moniker class, the URL moniker, provides a framework for building and using certain URLs. Because URLs frequently see resources across high-latency networks, the URL moniker supports asynchronous as well as synchronous binding. The URL moniker does not currently support [asynchronous storage](https://docs.microsoft.com/windows/desktop/Stg/asynchronous-storage).
 
 The following diagram shows the components involved in using URL monikers. All these components should be familiar. (See [Asynchronous Monikers](asynchronous-monikers.md).)
 
@@ -33,7 +33,7 @@ For more information, see the following topics:
 [Asynchronous Monikers](asynchronous-monikers.md)
 </dt> <dt>
 
-[About URL Monikers](https://msdn.microsoft.com/library/ms775149)
+[About URL Monikers](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775149(v=vs.85))
 </dt> </dl>
 
  

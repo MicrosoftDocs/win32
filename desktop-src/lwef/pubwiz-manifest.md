@@ -35,7 +35,7 @@ The top-level organization of the transfer manifest is as follows:
 
 
 
-The server-side HTML page can use the nodes in the manifest to obtain certain information about the files to be copied and then modify the service's UI accordingly. For instance, a photo printing site might use the information to display thumbnails of the chosen images, while a storage site might use the information to ensure that sufficient storage space is available for that user. For complete information on the transfer manifest nodes and attributes, see [Transfer Manifest Schema](https://msdn.microsoft.com/library/windows/desktop/bb773857).
+The server-side HTML page can use the nodes in the manifest to obtain certain information about the files to be copied and then modify the service's UI accordingly. For instance, a photo printing site might use the information to display thumbnails of the chosen images, while a storage site might use the information to ensure that sufficient storage space is available for that user. For complete information on the transfer manifest nodes and attributes, see [Transfer Manifest Schema](https://docs.microsoft.com/windows/desktop/shell/interfaces).
 
 The transfer manifest schema is written as an open model so that elements not specifically defined in the schema may appear in the transfer manifest. Therefore, a provider site might add proprietary elements for its own use without disturbing the validity of the manifest. The schema is also defined so that the order of elements is not restricted.
 
@@ -48,7 +48,7 @@ The transfer manifest schema is written as an open model so that elements not sp
 
 <dl> <dt>
 
-[Transfer Manifest Schema](https://msdn.microsoft.com/library/windows/desktop/bb773857)
+[Transfer Manifest Schema](https://docs.microsoft.com/windows/desktop/shell/interfaces)
 </dt> </dl>
 
  

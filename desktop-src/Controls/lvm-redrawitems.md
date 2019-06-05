@@ -44,7 +44,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-The specified items are not actually redrawn until the list-view window receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message to repaint. To repaint immediately, call the [**UpdateWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145167) function after using this macro.
+The specified items are not actually redrawn until the list-view window receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message to repaint. To repaint immediately, call the [**UpdateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow) function after using this macro.
 
 ## Requirements
 

@@ -54,7 +54,7 @@ Describes the resource being shared.
 *Access* \[in, optional\]
 </dt> <dd>
 
-Security descriptor for user-level permissions. A security descriptor contains information about the permission, owner, and access capabilities of the resource. For more information, see [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402).
+Security descriptor for user-level permissions. A security descriptor contains information about the permission, owner, and access capabilities of the resource. For more information, see [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
 
 </dd> </dl>
 

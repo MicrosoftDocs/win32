@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Finding a List of Attributes To Query
 
-When searching for objects of a particular class, comparisons in your search filter should specify attributes that actually exist on the objects of that class. To get the list attributes on an object of a particular class, bind to that class in the abstract schema and retrieve the [**IADsClass.MandatoryProperties**](https://msdn.microsoft.com/library/aa705973) and **IADsClass.OptionalProperties** properties. For more information, see [Reading the Abstract Schema](reading-the-abstract-schema.md).
+When searching for objects of a particular class, comparisons in your search filter should specify attributes that actually exist on the objects of that class. To get the list attributes on an object of a particular class, bind to that class in the abstract schema and retrieve the [**IADsClass.MandatoryProperties**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods) and **IADsClass.OptionalProperties** properties. For more information, see [Reading the Abstract Schema](reading-the-abstract-schema.md).
 
 In addition, all objects inherit from the top abstract class. Therefore, any attribute in **top** can exist, although it may not be set, on any object.
 

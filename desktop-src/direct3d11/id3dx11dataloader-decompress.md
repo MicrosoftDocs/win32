@@ -56,7 +56,7 @@ Pointer to the raw data to decompress.
 *pcBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 The size of the data pointed to by ppData.
 

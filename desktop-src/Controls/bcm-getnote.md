@@ -46,7 +46,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 The **BCM\_GETNOTE** message works only with buttons that have the the [**BS\_COMMANDLINK**](button-styles.md) or [**BS\_DEFCOMMANDLINK**](button-styles.md) button style.
 
-[**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will contain:
+[**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will contain:
 
 -   ERROR\_NOT\_SUPPORTED, if the button does not have the [**BS\_DEFCOMMANDLINK**](button-styles.md) or [**BS\_COMMANDLINK**](button-styles.md) style.
 -   ERROR\_INSUFFICIENT\_BUFFER, if the *lParam* buffer is too small. The *wParam* parameter will contain the required buffer size, in characters.

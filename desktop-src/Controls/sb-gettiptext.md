@@ -29,7 +29,7 @@ Retrieves the tooltip text for a part in a status bar. The status bar must be cr
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the zero-based index of the part that receives the tooltip text. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the size of the buffer at *lParam*, in characters.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the zero-based index of the part that receives the tooltip text. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the size of the buffer at *lParam*, in characters.
 
 </dd> <dt>
 

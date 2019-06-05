@@ -19,11 +19,11 @@ Applications can use the following functions with [window station](window-statio
 | [**EnumWindowStations**](https://msdn.microsoft.com/en-us/library/ms682644(v=VS.85).aspx)             | Enumerates all window stations in the current session.                                                          |
 | [**GetProcessWindowStation**](https://msdn.microsoft.com/en-us/library/ms683225(v=VS.85).aspx)   | Retrieves a handle to the current window station for the calling process.                                       |
 | [**GetUserObjectInformation**](https://msdn.microsoft.com/en-us/library/ms683238(v=VS.85).aspx) | Retrieves information about the specified window station or desktop object.                                     |
-| [**GetUserObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa446675)  | Retrieves security information for the specified window station or desktop object.                              |
+| [**GetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity)  | Retrieves security information for the specified window station or desktop object.                              |
 | [**OpenWindowStation**](https://msdn.microsoft.com/en-us/library/ms684339(v=VS.85).aspx)               | Opens the specified window station.                                                                             |
 | [**SetProcessWindowStation**](https://msdn.microsoft.com/en-us/library/ms686232(v=VS.85).aspx)   | Assigns the specified window station to the calling process.                                                    |
 | [**SetUserObjectInformation**](https://msdn.microsoft.com/en-us/library/ms686287(v=VS.85).aspx) | Sets information about the specified window station or desktop object.                                          |
-| [**SetUserObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379592)  | Sets security information for the specified window station or desktop object.                                   |
+| [**SetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity)  | Sets security information for the specified window station or desktop object.                                   |
 
 
 
@@ -42,12 +42,12 @@ Applications can use the following functions with [desktop](desktops.md) objects
 | [**EnumDesktopWindows**](https://msdn.microsoft.com/en-us/library/ms682615(v=VS.85).aspx)             | Enumerates all top-level windows associated with the specified desktop.                                                            |
 | [**GetThreadDesktop**](https://msdn.microsoft.com/en-us/library/ms683232(v=VS.85).aspx)                 | Retrieves a handle to the desktop assigned to the specified thread.                                                                |
 | [**GetUserObjectInformation**](https://msdn.microsoft.com/en-us/library/ms683238(v=VS.85).aspx) | Gets information about a window station or desktop object.                                                                         |
-| [**GetUserObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa446675)  | Gets security information for a window station or desktop object.                                                                  |
+| [**GetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity)  | Gets security information for a window station or desktop object.                                                                  |
 | [**OpenDesktop**](https://msdn.microsoft.com/en-us/library/ms684303(v=VS.85).aspx)                           | Opens the specified desktop object.                                                                                                |
 | [**OpenInputDesktop**](https://msdn.microsoft.com/en-us/library/ms684309(v=VS.85).aspx)                 | Opens the desktop that receives user input.                                                                                        |
 | [**SetThreadDesktop**](https://msdn.microsoft.com/en-us/library/ms686250(v=VS.85).aspx)                 | Assigns the specified desktop to the calling thread.                                                                               |
 | [**SetUserObjectInformation**](https://msdn.microsoft.com/en-us/library/ms686287(v=VS.85).aspx) | Sets information about a window station or desktop object.                                                                         |
-| [**SetUserObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379592)  | Sets security information for a window station or desktop object.                                                                  |
+| [**SetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity)  | Sets security information for a window station or desktop object.                                                                  |
 | [**SwitchDesktop**](https://msdn.microsoft.com/en-us/library/ms686347(v=VS.85).aspx)                       | Makes a desktop visible and activates it. This enables the desktop to receive input from the user.                                 |
 
 

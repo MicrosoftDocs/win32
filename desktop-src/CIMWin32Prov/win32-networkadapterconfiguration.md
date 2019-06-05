@@ -1345,7 +1345,7 @@ $IstapAdapterConfig
 
 
 
-The following C\# sample retrieves the description and index number of all network adapter configuration instances. Note that this C\# sample uses the [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/en-us/library/microsoft.management.infrastructure.aspx) namespace, which generally scales more efficiently than the [System.Management](https://msdn.microsoft.com/en-us/library/system.management.aspx) namespace WMI classes.
+The following C\# sample retrieves the description and index number of all network adapter configuration instances. Note that this C\# sample uses the [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) namespace, which generally scales more efficiently than the [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) namespace WMI classes.
 
 
 ```CSharp
@@ -1369,7 +1369,7 @@ Console.ReadLine();
 
 
 
-The following C\# sample retrieves the description and index number of all network adapter configuration instances. Note that this C\# sample uses the original [System.Management](https://msdn.microsoft.com/en-us/library/system.management.aspx) namespace, which has been superceded by [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/en-us/library/microsoft.management.infrastructure.aspx).
+The following C\# sample retrieves the description and index number of all network adapter configuration instances. Note that this C\# sample uses the original [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) namespace, which has been superceded by [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)).
 
 
 ```CSharp

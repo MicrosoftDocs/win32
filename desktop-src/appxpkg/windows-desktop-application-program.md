@@ -158,7 +158,7 @@ Keeping the metadata of your apps and files up to date helps make sure they are 
 -   Every time you make changes to your metadata, you may see a new entry for your application in your dashboard. If you make a change, new incoming telemetry data will reflect your changes, but your old telemetry data will still appear as an **Unknown** application.
 -   When you revise a file, make sure to update the application version and product version numbers.
     > [!Tip]  
-    > Use [**VERSIONINFO**](https://msdn.microsoft.com/library/windows/desktop/aa381058.aspx) resources to set the **FileDescription**, **FileVersion**, **ProductName**, and **ProductVersion** for your files and applications. The following example defines a **VERSIONINFO** resource:
+    > Use [**VERSIONINFO**](https://docs.microsoft.com/windows/desktop/menurc/versioninfo-resource) resources to set the **FileDescription**, **FileVersion**, **ProductName**, and **ProductVersion** for your files and applications. The following example defines a **VERSIONINFO** resource:
     >
     > ``` syntax
     > #define VER_PRODUCTNAME_STR      "Sample App"

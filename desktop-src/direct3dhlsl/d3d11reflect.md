@@ -37,7 +37,7 @@ HRESULT D3D11Reflect(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A pointer to source data as compiled HLSL code.
 
@@ -46,7 +46,7 @@ A pointer to source data as compiled HLSL code.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Length of *pSrcData*.
 
@@ -55,25 +55,25 @@ Length of *pSrcData*.
 *ppReflector* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D11ShaderReflection**](https://msdn.microsoft.com/library/windows/desktop/ff476590)\*\***
+Type: **[**ID3D11ShaderReflection**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection)\*\***
 
-The address of a pointer to the [**ID3D11ShaderReflection**](https://msdn.microsoft.com/library/windows/desktop/ff476590) interface.
+The address of a pointer to the [**ID3D11ShaderReflection**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) interface.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hresult)**
+Type: **[**HRESULT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Returns one of the return codes described in the topic [Direct3D 11 Return Codes](https://msdn.microsoft.com/library/windows/desktop/ff476174).
+Returns one of the return codes described in the topic [Direct3D 11 Return Codes](https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues).
 
 ## Remarks
 
-The inline **D3D11Reflect** compiler function is a wrapper for the [**D3DReflect**](d3dreflect.md) compiler function. **D3D11Reflect** can retrieve only a [**ID3D11ShaderReflection**](https://msdn.microsoft.com/library/windows/desktop/ff476590) interface from a shader. **D3DReflect** can retrieve a **ID3D11ShaderReflection** interface or a Direct3D 10 or Direct3D 10.1 reflection interface, for example, [**ID3D10ShaderReflection**](https://msdn.microsoft.com/library/windows/desktop/bb173835).
+The inline **D3D11Reflect** compiler function is a wrapper for the [**D3DReflect**](d3dreflect.md) compiler function. **D3D11Reflect** can retrieve only a [**ID3D11ShaderReflection**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) interface from a shader. **D3DReflect** can retrieve a **ID3D11ShaderReflection** interface or a Direct3D 10 or Direct3D 10.1 reflection interface, for example, [**ID3D10ShaderReflection**](https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection).
 
 Shader code contains metadata that can be inspected using the reflection APIs.
 
-The following code shows how to retrieve a [**ID3D11ShaderReflection**](https://msdn.microsoft.com/library/windows/desktop/ff476590) interface from a shader.
+The following code shows how to retrieve a [**ID3D11ShaderReflection**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) interface from a shader.
 
 
 ```C++

@@ -41,7 +41,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The constant-buffer name.
 

@@ -42,7 +42,7 @@ A handle to the device context for the sample page.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that contains the coordinates, in pixels, of the envelope-stamp rectangle.
+A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that contains the coordinates, in pixels, of the envelope-stamp rectangle.
 
 </dd> </dl>
 

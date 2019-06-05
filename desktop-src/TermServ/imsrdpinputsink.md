@@ -24,7 +24,7 @@ Remote desktop input sink.
 
 ## Members
 
-The **IMsRdpInputSink** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMsRdpInputSink** also has these types of members:
+The **IMsRdpInputSink** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpInputSink** also has these types of members:
 
 -   [Methods](#methods)
 

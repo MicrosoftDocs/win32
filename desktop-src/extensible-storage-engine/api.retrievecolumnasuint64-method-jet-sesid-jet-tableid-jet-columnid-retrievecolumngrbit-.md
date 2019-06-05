@@ -93,7 +93,7 @@ public static Nullable<ulong> RetrieveColumnAsUInt64(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[UInt64](https://msdn.microsoft.com/en-us/library/06cf7918)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[UInt64](https://docs.microsoft.com/dotnet/api/system.uint64?redirectedfrom=MSDN)\>  
 The data retrieved from the column as an UInt64. Null if the column is null.  
 
 ## See also

@@ -42,7 +42,7 @@ Pointer to a [**SCROLLBARINFO**](/windows/desktop/api/Winuser/ns-winuser-tagscro
 
 Returns nonzero if successful or zero otherwise.
 
-To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Requirements
 

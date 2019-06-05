@@ -45,7 +45,7 @@ proxy.dll : $(PROXYSTUBOBJX) example.def
 
 If you do not specify these preprocessor definitions at compile time, these functions are not automatically defined. (That is, the macros in Rpcproxy.c expand to nothing.) You would have to have defined them explicitly in another source file, whose module would also be included in the final linking and compilation on the C compiler command line.
 
-When REGISTER\_PROXY\_DLL is defined, Rpcproxy.h provides for additional conditional compilation control with PROXY\_CLSID=*guid*, PROXY\_CLSID\_IS=*explicit value of guid*, and ENTRY\_PREFIX=*prefix string*. These macro definitions are described in greater detail in [C-Compiler Definitions for Proxy/Stubs](https://msdn.microsoft.com/library/windows/desktop/aa366768) in the MIDL Programmer's Guide.
+When REGISTER\_PROXY\_DLL is defined, Rpcproxy.h provides for additional conditional compilation control with PROXY\_CLSID=*guid*, PROXY\_CLSID\_IS=*explicit value of guid*, and ENTRY\_PREFIX=*prefix string*. These macro definitions are described in greater detail in [C-Compiler Definitions for Proxy/Stubs](https://docs.microsoft.com/windows/desktop/Midl/c-compiler-definitions-for-proxy-stubs) in the MIDL Programmer's Guide.
 
 ## Manually Registering the Proxy DLL
 
@@ -71,7 +71,7 @@ HKEY_CLASSES_ROOT
 
 <dl> <dt>
 
-[C-Compiler Definitions for Proxy/Stubs](https://msdn.microsoft.com/library/windows/desktop/aa366768)
+[C-Compiler Definitions for Proxy/Stubs](https://docs.microsoft.com/windows/desktop/Midl/c-compiler-definitions-for-proxy-stubs)
 </dt> <dt>
 
 [Registering COM Servers](registering-com-servers.md)

@@ -16,24 +16,24 @@ To use Microsoft Active Accessibility effectively, you should understand the fol
 
 ### Functions:
 
--   [**OleInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms690134)
--   [**CoInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms678543) or [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279)
--   [**IUnknown::AddRef**](https://msdn.microsoft.com/library/windows/desktop/ms691379) and [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317)
--   [**VariantInit**](https://msdn.microsoft.com/library/windows/desktop/ms221402) and [**VariantClear**](https://msdn.microsoft.com/library/windows/desktop/ms221165)
--   [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) and [**WideCharToMultiByte**](https://msdn.microsoft.com/library/windows/desktop/dd374130)
--   [**SysAllocString**](https://msdn.microsoft.com/library/windows/desktop/ms221458) and [**SysFreeString**](https://msdn.microsoft.com/library/windows/desktop/ms221481)
+-   [**OleInitialize**](https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize)
+-   [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex)
+-   [**IUnknown::AddRef**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
+-   [**VariantInit**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear)
+-   [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) and [**WideCharToMultiByte**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
+-   [**SysAllocString**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring) and [**SysFreeString**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring)
 
 ### Structures and data types:
 
 -   [**VARIANT**](variant-structure.md)
--   [**HRESULT**](https://msdn.microsoft.com/library/windows/desktop/ms690088)
--   [**BSTR**](https://msdn.microsoft.com/library/windows/desktop/ms221069)
+-   [**HRESULT**](https://docs.microsoft.com/windows/desktop/com/structure-of-com-error-codes)
+-   [**BSTR**](https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr)
 
 ### COM Interfaces:
 
--   [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509)
+-   [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)
 -   [**IDispatch**](idispatch-interface.md)
--   [**IEnumVARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221053)
+-   [**IEnumVARIANT**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant)
 
 ## In this section
 

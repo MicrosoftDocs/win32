@@ -78,7 +78,7 @@ See <a href="gamma">Windowed Swap Chains</a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl> <dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt> </dl></td>
-<td style="text-align: left;">Clips the rendered contents to the monitor/device the adapter is targeting, shows thumbnails for the content in the Flip3D view and taskbar thumbnails on other monitors. <br/> This flag is available in Direct3D 9Ex only.<br/> See <a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager</a> for further details on this feature of Windows Vista. If you are not running in desktop composition mode, the flag gives the same behavior as <a href="d3dpresentflag">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
+<td style="text-align: left;">Clips the rendered contents to the monitor/device the adapter is targeting, shows thumbnails for the content in the Flip3D view and taskbar thumbnails on other monitors. <br/> This flag is available in Direct3D 9Ex only.<br/> See <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager</a> for further details on this feature of Windows Vista. If you are not running in desktop composition mode, the flag gives the same behavior as <a href="d3dpresentflag">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
 <blockquote>
 [!Note]<br />
 This flag should only be used with swap effect D3DSWAPEFFECT_FLIPEX. The use of this flag with <em>other</em> swap effects is being deprecated, and may not work in future versions of Windows.

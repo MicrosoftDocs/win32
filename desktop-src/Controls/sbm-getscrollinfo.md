@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **SBM\_GETSCROLLINFO** message is sent to retrieve the parameters of a scroll bar.
 
-Applications should not send this message directly. Instead, they should use the [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **GetScrollInfo** function to work properly.
+Applications should not send this message directly. Instead, they should use the [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function. A window receives this message through its [*WindowProc*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. Applications which implement a custom scroll bar control must respond to these messages for the **GetScrollInfo** function to work properly.
 
 ## Parameters
 

@@ -24,7 +24,7 @@ The Extensible Authentication Protocol (EAP) is a standard supported by several 
 
 EAP improves on previous authentication protocols such as Password Authentication Protocol (PAP) and Challenge Handshake Authentication Protocol (CHAP).
 
-For new EAP method development, see [Extensible Authentication Protocol Host](https://msdn.microsoft.com/library/windows/desktop/aa364249).
+For new EAP method development, see [Extensible Authentication Protocol Host](https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/portal).
 
 ## Developer audience
 
@@ -41,13 +41,13 @@ EAP is supported on client and server computers running on  Windows 2000 and l
 
 </dt> <dt>
 
-[Remote Access Service](https://msdn.microsoft.com/library/windows/desktop/bb545687)
+[Remote Access Service](https://docs.microsoft.com/windows/desktop/RRAS/remote-access-start-page)
 </dt> <dt>
 
 
 </dt> <dt>
 
-[Internet Authentication Service](https://msdn.microsoft.com/library/bb891989)
+[Internet Authentication Service](https://docs.microsoft.com/windows/desktop/Nps/ias-extensions)
 </dt> <dt>
 
 

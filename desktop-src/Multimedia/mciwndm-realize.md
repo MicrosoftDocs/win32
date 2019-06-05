@@ -46,7 +46,7 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-**MCIWNDM\_REALIZE** uses the palette of the MCI device and calls the [**RealizePalette**](https://msdn.microsoft.com/library/windows/desktop/dd162896) function. If your application explicitly handles the [**WM\_PALETTECHANGED**](https://msdn.microsoft.com/library/windows/desktop/dd145214) and [**WM\_QUERYNEWPALETTE**](https://msdn.microsoft.com/library/windows/desktop/dd145218) messages, you should use this message in your application instead of using **RealizePalette**. If the body of one of these message handlers contains only **RealizePalette**, forward the message to the MCIWnd window, which will automatically realize the palette.
+**MCIWNDM\_REALIZE** uses the palette of the MCI device and calls the [**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette) function. If your application explicitly handles the [**WM\_PALETTECHANGED**](https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged) and [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) messages, you should use this message in your application instead of using **RealizePalette**. If the body of one of these message handlers contains only **RealizePalette**, forward the message to the MCIWnd window, which will automatically realize the palette.
 
 ## Requirements
 
@@ -67,13 +67,13 @@ Returns zero if successful or an error otherwise.
 [**MCIWndRealize**](/windows/desktop/api/Vfw/nf-vfw-mciwndrealize)
 </dt> <dt>
 
-[**RealizePalette**](https://msdn.microsoft.com/library/windows/desktop/dd162896)
+[**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette)
 </dt> <dt>
 
-[**WM\_PALETTECHANGED**](https://msdn.microsoft.com/library/windows/desktop/dd145214)
+[**WM\_PALETTECHANGED**](https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged)
 </dt> <dt>
 
-[**WM\_QUERYNEWPALETTE**](https://msdn.microsoft.com/library/windows/desktop/dd145218)
+[**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette)
 </dt> </dl>
 
  

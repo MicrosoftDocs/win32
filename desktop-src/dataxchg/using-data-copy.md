@@ -107,7 +107,7 @@ case WM_COPYDATA:
 **Reference**
 </dt> <dt>
 
-[**FindWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633499)
+[**FindWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa)
 </dt> </dl>
 
  

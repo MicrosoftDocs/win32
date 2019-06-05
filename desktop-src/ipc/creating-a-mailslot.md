@@ -44,7 +44,7 @@ void main()
 
 
 
-To create a mailslot that can be inherited by child processes, an application should change the [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure passed as the last parameter of [**CreateMailslot**](/windows/desktop/api/Winbase/nf-winbase-createmailslota). To do this, the application sets the **bInheritHandle** member of this structure to **TRUE** (the default setting is **FALSE**).
+To create a mailslot that can be inherited by child processes, an application should change the [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure passed as the last parameter of [**CreateMailslot**](/windows/desktop/api/Winbase/nf-winbase-createmailslota). To do this, the application sets the **bInheritHandle** member of this structure to **TRUE** (the default setting is **FALSE**).
 
  
 

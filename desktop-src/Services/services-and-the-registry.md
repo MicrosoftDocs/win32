@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Services and the Registry
 
-A service should not access **HKEY\_CURRENT\_USER** or **HKEY\_CLASSES\_ROOT**, especially when impersonating a user. Instead, use the [**RegOpenCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/ms724894) or [**RegOpenUserClassesRoot**](https://msdn.microsoft.com/library/windows/desktop/ms724899) function.
+A service should not access **HKEY\_CURRENT\_USER** or **HKEY\_CLASSES\_ROOT**, especially when impersonating a user. Instead, use the [**RegOpenCurrentUser**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopencurrentuser) or [**RegOpenUserClassesRoot**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenuserclassesroot) function.
 
 If you attempt to access **HKEY\_CURRENT\_USER** or **HKEY\_CLASSES\_ROOT** from a service it may fail, or it may appear to work but there is an underlying leak that can lead to problems loading or unloading the user profile.
 

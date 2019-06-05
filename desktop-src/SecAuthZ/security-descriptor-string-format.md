@@ -13,7 +13,7 @@ The **Security Descriptor String Format** is a text format for storing or transp
 The format is a **null**-terminated string with tokens to indicate each of the four main components of a security descriptor: owner (O:), primary group (G:), DACL (D:), and SACL (S:).
 
 > [!Note]  
-> [*Access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> [*Access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
  
 

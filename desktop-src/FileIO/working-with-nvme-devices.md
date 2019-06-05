@@ -120,7 +120,7 @@ For example, in NVMe, the IOCTL will allow the sending down of the following com
 -   Vendor Specific Admin Commands (C0h – FFh)
 -   Vendor Specific NVMe Commands (80h – FFh)
 
-As with all other IOCTLs, Use [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/desktop/api/winioctl/ns-winioctl-_storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
+As with all other IOCTLs, Use [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/desktop/api/winioctl/ns-winioctl-_storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
 
 
 ```C++
@@ -181,7 +181,7 @@ For getting storage information and updating firmware, Windows also supports Pow
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](https://msdn.microsoft.com/library/windows/hardware/dn530631).
+> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](https://msdn.microsoft.com/windows/hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
 
  
 

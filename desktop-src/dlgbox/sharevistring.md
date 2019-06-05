@@ -67,7 +67,7 @@ The hook procedure must return one of the following values to indicate how the d
 
 ## Remarks
 
-The hook procedure must specify the **SHAREVISTRING** constant in a call to the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get the identifier for the message sent by the dialog box.
+The hook procedure must specify the **SHAREVISTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
 
 The dialog box sends the **SHAREVISTRING** registered message only if you did not specify the **OFN\_SHAREAWARE** flag in the **Flags** member of the [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure when you created the dialog.
 
@@ -99,7 +99,7 @@ If the hook procedure returns an undefined value, the dialog box responds as if 
 [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
+[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**

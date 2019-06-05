@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enabling a Built-in Accessibility Feature
 
-The following code fragment uses the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function to enable the FilterKeys feature:
+The following code fragment uses the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to enable the FilterKeys feature:
 
 
 ```C++

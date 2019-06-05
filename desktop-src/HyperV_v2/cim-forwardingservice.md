@@ -53,7 +53,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (32), [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_ForwardingService**.**ProtocolType**")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (32), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_ForwardingService**.**ProtocolType**")
 </dt> </dl>
 
 Defines the type of protocol to forward when the value of the **ProtocolType** property is 1 (Other).
@@ -69,7 +69,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_ForwardingService**.**OtherProtocolType**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_ForwardingService**.**OtherProtocolType**")
 </dt> </dl>
 
 The type of protocol to forward.

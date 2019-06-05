@@ -26,7 +26,7 @@ The two exceptions are:
 -   [*Reference properties*](gloss-r.md), which have the type **CIM\_REFERENCE**, that contains the "REF:classname" value. The classname value describes the class type of the reference property.
 -   Embedded object properties, which have the **CIM\_OBJECT** type.
 
-Please note, however, that the **CIMType** qualifier can and should be used to type a reference property more exactly. For example, if the property always refers to instances of the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class, its **CIMType** qualifier should be set to:
+Please note, however, that the **CIMType** qualifier can and should be used to type a reference property more exactly. For example, if the property always refers to instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class, its **CIMType** qualifier should be set to:
 
 
 ```mof

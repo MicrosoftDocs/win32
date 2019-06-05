@@ -85,7 +85,7 @@ public static void JetOpenTempTable(
 <!-- end list -->
 
   - numColumns  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Number of column definitions.
 

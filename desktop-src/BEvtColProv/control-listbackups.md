@@ -42,14 +42,14 @@ void ListBackups(
 *OriginalTimestampLow* \[out\]
 </dt> <dd>
 
-The timestamp of when the current configuration was set (if restored from backup, will contain the original timestamp). This is the low part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the current configuration was set (if restored from backup, will contain the original timestamp). This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OriginalTimestampHigh* \[out\]
 </dt> <dd>
 
-The timestamp of when the current configuration was set (if restored from backup, will contain the original timestamp). This is the high part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the current configuration was set (if restored from backup, will contain the original timestamp). This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
@@ -63,14 +63,14 @@ The list of available backup files, in order from the newest to the oldest.
 *FilesTimestampLow* \[out\]
 </dt> <dd>
 
-For each backup file, the timestamp of when its configuration was set. This is the low part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+For each backup file, the timestamp of when its configuration was set. This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *FilesTimestampHigh* \[out\]
 </dt> <dd>
 
-For each backup file, the timestamp of when its configuration was set. This is the high part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+For each backup file, the timestamp of when its configuration was set. This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> </dl>
 

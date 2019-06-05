@@ -15,7 +15,7 @@ api_location:
 
 Constant integer registers are used only by [loop - ps](loop---ps.md) and [rep - ps](rep---ps.md).
 
-They can be set using [defi - ps](defi---ps.md) or [**SetPixelShaderConstantI**](https://msdn.microsoft.com/library/windows/desktop/bb174453).
+They can be set using [defi - ps](defi---ps.md) or [**SetPixelShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti).
 
 When used as an argument to the [loop - ps](loop---ps.md) instruction:
 

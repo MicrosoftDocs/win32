@@ -24,7 +24,7 @@ Contains information about a drive object.
 
 ## Members
 
-The **IMsRdpDrive** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMsRdpDrive** also has these types of members:
+The **IMsRdpDrive** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDrive** also has these types of members:
 
 -   [Properties](#properties)
 

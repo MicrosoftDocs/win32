@@ -24,7 +24,7 @@ MkTypLib also supports several optional parameters. For a complete list, run the
 
 **mktyplib /?**
 
-Because MkTypLib is an obsolete application, it cannot parse IDL files or files with interfaces defined outside of a [**library**](https://msdn.microsoft.com/library/windows/desktop/aa367069) statement. For more information, see [Differences Between MIDL and MkTypLib](https://msdn.microsoft.com/library/windows/desktop/aa366797).
+Because MkTypLib is an obsolete application, it cannot parse IDL files or files with interfaces defined outside of a [**library**](https://docs.microsoft.com/windows/desktop/Midl/library) statement. For more information, see [Differences Between MIDL and MkTypLib](https://docs.microsoft.com/windows/desktop/Midl/differences-between-midl-and-mktyplib).
 
 ## Related topics
 

@@ -32,10 +32,10 @@ Using the packaging, deployment, and query APIs, you can programmatically perfor
 | Topic                                                                                                    | Description                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [How to create an app package (C++)](how-to-create-a-package.md)                                        | Learn how to create an app package using the packaging API.                                                                                                                           |
-| [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md)      | Learn how to use [**MakeCert**](https://msdn.microsoft.com/library/windows/hardware/ff548309) and [**Pvk2Pfx**](https://msdn.microsoft.com/library/windows/hardware/ff550672) to create a test code signing certificate, so that you can sign your app packages. |
-| [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)                    | Learn how to use [**SignTool**](https://msdn.microsoft.com/library/windows/hardware/ff551778) to sign your app packages so they can be deployed.                                                                    |
+| [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md)      | Learn how to use [**MakeCert**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/makecert) and [**Pvk2Pfx**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/pvk2pfx) to create a test code signing certificate, so that you can sign your app packages. |
+| [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)                    | Learn how to use [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) to sign your app packages so they can be deployed.                                                                    |
 | [How to troubleshoot app package signature errors](how-to-troubleshoot-app-package-signature-errors.md) | An app deployment failure can be caused by a failure to validate the digital signature of the app package. Learn how to recognize these failures, and what to do about them.          |
-| [How to programmatically sign an app package (C++)](how-to-programmatically-sign-a-package.md)          | Learn how to sign an app package by using the [**SignerSignEx2**](https://msdn.microsoft.com/library/windows/desktop/hh968155) function.                                                                                   |
+| [How to programmatically sign an app package (C++)](how-to-programmatically-sign-a-package.md)          | Learn how to sign an app package by using the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function.                                                                                   |
 | [How to develop an OEM app that uses a custom file](how-to-develop-oem-app-with-custom-file.md)         | Learn how to develop an app that uses a custom file to pass info from the OEM to the app.                                                                                             |
 | [Extract app package contents (C++)](how-to-extract-content-from-a-package.md)                          | Learn how to extract files from an app package using the packaging API.                                                                                                               |
 | [Query app package manifest info (C++)](how-to-query-package-identity-information.md)                   | Learn how to get info from an app package manifest using the packaging API                                                                                                            |
@@ -58,25 +58,25 @@ Using the packaging, deployment, and query APIs, you can programmatically perfor
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://msdn.microsoft.com/library/windows/apps/hh464929)
+[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 **Other Reference**
 </dt> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
-[**Windows.ApplicationModel.Package**](https://msdn.microsoft.com/library/windows/apps/br224667)
+[**Windows.ApplicationModel.Package**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Package)
 </dt> <dt>
 
-[**Windows.ApplicationModel.PackageId**](https://msdn.microsoft.com/library/windows/apps/br224668)
+[**Windows.ApplicationModel.PackageId**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.PackageId)
 </dt> <dt>
 
-[**Windows.Management.Deployment.PackageManager**](https://msdn.microsoft.com/library/windows/apps/br240960)
+[**Windows.Management.Deployment.PackageManager**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment.PackageManager)
 </dt> <dt>
 
-[**Windows.Management.Deployment.PackageUserInformation**](https://msdn.microsoft.com/library/windows/apps/br240980)
+[**Windows.Management.Deployment.PackageUserInformation**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment.PackageUserInformation)
 </dt> </dl>
 
  

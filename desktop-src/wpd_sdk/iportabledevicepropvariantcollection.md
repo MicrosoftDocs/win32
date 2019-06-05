@@ -24,7 +24,7 @@ This interface can be retrieved from a method or, if a new object is required, c
 
 ## Members
 
-The **IPortableDevicePropVariantCollection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPortableDevicePropVariantCollection** also has these types of members:
+The **IPortableDevicePropVariantCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPortableDevicePropVariantCollection** also has these types of members:
 
 -   [Methods](#methods)
 

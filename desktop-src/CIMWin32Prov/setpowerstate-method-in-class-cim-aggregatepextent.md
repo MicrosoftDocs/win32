@@ -20,7 +20,7 @@ api_location:
 
 The **SetPowerState** method sets the desired power state for a logical device and when the device should be put into that state. In a subclass, the set of possible return codes should be specified using a **ValueMap** qualifier on the method. The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
-For more information about using this method with C/C++, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+For more information about using this method with C/C++, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 ## Implementing the Language Bar Object
 
-To support adding an item to the language bar, a text service must implement an object that supports the [ITfSource](https://msdn.microsoft.com/library/windows/desktop/ms628941) interface and one of the [ITfLangBarItem](https://msdn.microsoft.com/library/windows/desktop/ms628701) control elements. When the item is installed, the language bar installs an [ITfLangBarItemSink](https://msdn.microsoft.com/library/windows/desktop/ms628736) sink by calling the item's [ITfSource::AdviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628945) with IID\_ITfLangBarItemSink. The item uses the **ITfLangBarItemSink** interface to notify the language bar of changes, for example when the item is hidden, shown, enabled, or disabled.
+To support adding an item to the language bar, a text service must implement an object that supports the [ITfSource](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource) interface and one of the [ITfLangBarItem](https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem) control elements. When the item is installed, the language bar installs an [ITfLangBarItemSink](https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink) sink by calling the item's [ITfSource::AdviseSink](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink) with IID\_ITfLangBarItemSink. The item uses the **ITfLangBarItemSink** interface to notify the language bar of changes, for example when the item is hidden, shown, enabled, or disabled.
 
 Four types of language bar items can be installed and each of the required interfaces is created from **ITfLangBarItem**. The following are possible **ITfLangBarItem** control elements.
 
@@ -42,7 +42,7 @@ Four types of language bar items can be installed and each of the required inter
 
 ## Button Styles
 
-A button element can function as any of the following. The function of the button item is determined by the flags set in the **dwStyle** member of the [TF\_LANGBARITEMINFO](https://msdn.microsoft.com/library/windows/desktop/ms629074) structure in the [ITfLangBarItem::GetInfo](https://msdn.microsoft.com/library/windows/desktop/ms628741) method.
+A button element can function as any of the following. The function of the button item is determined by the flags set in the **dwStyle** member of the [TF\_LANGBARITEMINFO](https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo) structure in the [ITfLangBarItem::GetInfo](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo) method.
 
 
 
@@ -58,7 +58,7 @@ A button element can function as any of the following. The function of the butto
 
 ## Implementing a Menu Button
 
-When the user clicks a menu button, the language bar calls [ITfLangBarItemButton::InitMenu](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu). The item adds items to the menu using the [ITfMenu](https://msdn.microsoft.com/library/windows/desktop/ms628780) interface passed to InitMenu.
+When the user clicks a menu button, the language bar calls [ITfLangBarItemButton::InitMenu](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu). The item adds items to the menu using the [ITfMenu](https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu) interface passed to InitMenu.
 
 To add a submenu to the menu, call [ITfMenu::AddMenuItem](/windows/desktop/api/Ctfutb/nf-ctfutb-itfmenu-addmenuitem) with TF\_LBMENUF\_SUBMENU. When this is done, a new **ITfMenu** object that represents the submenu is returned in the *ppMenu* parameter of AddMenuItem. This new menu object is used to add items to the submenu.
 
@@ -66,36 +66,36 @@ When the user selects an item in the menu, the language bar calls [ITfLangBarIte
 
 ## Adding Items to the Language Bar
 
-A text service should add its items to the language bar when its [ITfTextInputProcessor::Activate](https://msdn.microsoft.com/library/windows/desktop/ms628965) method is called and remove them when its [ITfTextInputProcessor::Deactivate](https://msdn.microsoft.com/library/windows/desktop/ms628966) is called.
+A text service should add its items to the language bar when its [ITfTextInputProcessor::Activate](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate) method is called and remove them when its [ITfTextInputProcessor::Deactivate](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-deactivate) is called.
 
-To add an item to the language bar, the text service obtains an [ITfLangBarItemMgr](https://msdn.microsoft.com/library/windows/desktop/ms628723) interface by calling ITfThreadMgr::QueryInterface with IID\_ITfLangBarItemMgr. The text service then calls [ITfLangBarItemMgr::AddItem](https://msdn.microsoft.com/library/windows/desktop/ms628724) with the pointer to the language bar item object.
+To add an item to the language bar, the text service obtains an [ITfLangBarItemMgr](https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr) interface by calling ITfThreadMgr::QueryInterface with IID\_ITfLangBarItemMgr. The text service then calls [ITfLangBarItemMgr::AddItem](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem) with the pointer to the language bar item object.
 
-The text service must remove the item when deactivated. The text service either uses the same **ITfLangBarItemMgr** interface used to add the items or obtains another instance of the interface. The text service then calls [ITfLangBarItemMgr::RemoveItem](https://msdn.microsoft.com/library/windows/desktop/ms628733) with the interface pointer of the item to remove.
+The text service must remove the item when deactivated. The text service either uses the same **ITfLangBarItemMgr** interface used to add the items or obtains another instance of the interface. The text service then calls [ITfLangBarItemMgr::RemoveItem](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-removeitem) with the interface pointer of the item to remove.
 
 ## Extending System Language Bar Items
 
 TSF provides the ability to add menu items to existing language bar menus. This enables a text service to add items to the menu of another text service without having to add a separate button to the toolbar. This also enables the menu items to be organized into logical groups. For example, a text service that provides additional features to the standard speech text service can add items to the speech text service menu rather than adding its own top-level menu button.
 
-A text service provides a language bar menu extension by implementing an object that supports the [ITfSystemLangBarItemSink](https://msdn.microsoft.com/library/windows/desktop/ms628957) interface. This interface works exactly like the [ITfLangBarItemButton](/windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritembutton) interface for a menu button. When the menu is displayed, the text service being extended calls [ITfSystemLangBarItemSink::InitMenu](https://msdn.microsoft.com/library/windows/desktop/ms628958). The extension adds items to the menu using the [ITfMenu](https://msdn.microsoft.com/library/windows/desktop/ms628780) interface passed to **InitMenu**. When the user selects an item added by the extension, the text service being extended calls [ITfSystemLangBarItemSink::OnMenuSelect](https://msdn.microsoft.com/library/windows/desktop/ms628959) with the identifier of the selected menu item.
+A text service provides a language bar menu extension by implementing an object that supports the [ITfSystemLangBarItemSink](https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink) interface. This interface works exactly like the [ITfLangBarItemButton](/windows/desktop/api/Ctfutb/nn-ctfutb-itflangbaritembutton) interface for a menu button. When the menu is displayed, the text service being extended calls [ITfSystemLangBarItemSink::InitMenu](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemsink-initmenu). The extension adds items to the menu using the [ITfMenu](https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu) interface passed to **InitMenu**. When the user selects an item added by the extension, the text service being extended calls [ITfSystemLangBarItemSink::OnMenuSelect](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemsink-onmenuselect) with the identifier of the selected menu item.
 
 To install a language bar menu extension, the text service completes the following steps.
 
-1.  Obtain the **ITfLangBarItem** interface for the item to extend by calling [ITfLangBarItemMgr::GetItem](https://msdn.microsoft.com/library/windows/desktop/ms628728) with the **GUID** for the item to be extended.
+1.  Obtain the **ITfLangBarItem** interface for the item to extend by calling [ITfLangBarItemMgr::GetItem](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem) with the **GUID** for the item to be extended.
 2.  Obtain the **ITfSource** interface for the item to extend by calling ITfLangBarItem::QueryInterface with IID\_ITfSource.
-3.  Call [ITfSource::AdviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628945) with IID\_ITfSystemLangBarItemSink and the pointer to the **ITfSystemLangBarItemSink** object. If ITfSource::AdviseSink fails, the text service does not support menu extensions.
+3.  Call [ITfSource::AdviseSink](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink) with IID\_ITfSystemLangBarItemSink and the pointer to the **ITfSystemLangBarItemSink** object. If ITfSource::AdviseSink fails, the text service does not support menu extensions.
 
-[ITfSource::UnadviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628946)**ITfSource::AdviseSink**
+[ITfSource::UnadviseSink](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink)**ITfSource::AdviseSink**
 
 ## Supporting Language Bar Menu Extensions
 
-A text service can enable other text services to add items to its language bar menus as shown above. The text service that must publish its GUID so that the item can be obtained by calling [ITfLangBarItemMgr::GetItem](https://msdn.microsoft.com/library/windows/desktop/ms628728).
+A text service can enable other text services to add items to its language bar menus as shown above. The text service that must publish its GUID so that the item can be obtained by calling [ITfLangBarItemMgr::GetItem](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem).
 
-To support menu extensions, the text service must support the [ITfSource](https://msdn.microsoft.com/library/windows/desktop/ms628941) interface. The following steps enable support for one or more menu extensions.
+To support menu extensions, the text service must support the [ITfSource](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource) interface. The following steps enable support for one or more menu extensions.
 
-1.  When [ITfSource::AdviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628945) with IID\_ITfSystemLangBarItemSink is called, the text service must store the **ITfSystemLangBarItemSink** interface and return a cookie value that will identify the extension.
-2.  When [ITfLangBarItemButton::InitMenu](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu) is called, the text service calls the extension's [ITfSystemLangBarItemSink::InitMenu](https://msdn.microsoft.com/library/windows/desktop/ms628958) method. The text service must implement a way to identify the menu items added by the extension as opposed to the items added by the text service itself.
+1.  When [ITfSource::AdviseSink](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink) with IID\_ITfSystemLangBarItemSink is called, the text service must store the **ITfSystemLangBarItemSink** interface and return a cookie value that will identify the extension.
+2.  When [ITfLangBarItemButton::InitMenu](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu) is called, the text service calls the extension's [ITfSystemLangBarItemSink::InitMenu](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritemsink-initmenu) method. The text service must implement a way to identify the menu items added by the extension as opposed to the items added by the text service itself.
 3.  When [ITfLangBarItemButton::OnMenuSelect](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect) is called with a menu item identifier that belongs to an extension, the text service calls the extensions's **ITfSystemLangBarItemSink::OnMenuSelect** method.
-4.  When [ITfSource::UnadviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628946) is called with the appropriate cookie, the text service removes the menu extension.
+4.  When [ITfSource::UnadviseSink](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink) is called with the appropriate cookie, the text service removes the menu extension.
 
 ## Related topics
 

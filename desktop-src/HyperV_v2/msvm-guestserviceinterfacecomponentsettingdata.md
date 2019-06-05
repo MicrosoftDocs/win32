@@ -38,7 +38,7 @@ api_location:
 
 # Msvm\_GuestServiceInterfaceComponentSettingData class
 
-Represents the configured state of the guest service interface component. This class derives from the [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214) class.
+Represents the configured state of the guest service interface component. This class derives from the [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -237,7 +237,7 @@ Access type: Read-only
 
 The enabled and disabled states of an element.
 
-This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](https://msdn.microsoft.com/library/cc136807) method (or [**ModifyResourceSettings**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) in Windows 10 or later) of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
+This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/modifyvirtualsystemresources-msvm-virtualsystemmanagementservice) method (or [**ModifyResourceSettings**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) in Windows 10 or later) of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
 Valid values are:
 
@@ -557,7 +557,7 @@ This property specifies a relative priority for this allocation in relation to o
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> <dt>
 
-[**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)
+[**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)
 </dt> </dl>
 
  

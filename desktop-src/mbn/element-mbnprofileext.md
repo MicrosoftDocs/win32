@@ -146,7 +146,7 @@ None.
 <ul>
 <li>Its <a href="element-name"><strong>Name</strong></a> element must contain a system-wide unique name.</li>
 <li>Its <a href="../mbn/schema_profilecreationtype_mbnprofile_element"><strong>ProfileCreationType</strong></a> must be set to <strong>UserProvisioned</strong>.</li>
-<li>Its <a href="https://msdn.microsoft.com/en-us/library/Dd323201(v=VS.85).aspx"><strong>SimIccID</strong></a> must contain the ICCID of the SIM that this profile is intended for.</li>
+<li>Its <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid"><strong>SimIccID</strong></a> must contain the ICCID of the SIM that this profile is intended for.</li>
 <li>Its <a href="../mbn/schema_connectionmode_mbnprofile_element"><strong>ConnectionMode</strong></a> must be set to <strong>Manual</strong>.</li>
 <li>Its <a href="element-purposegroupguid"><strong>PurposeGroupGuid</strong></a> must contain the GUID for MMS purpose group.</li>
 <li>Its <a href="../WWAN_profile_v3/element_IsAdditionalPdpContextProfile"><strong>IsAdditionalPdpContextProfile</strong></a> must be set to <strong>true</strong>.</li>
@@ -174,7 +174,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-simiccid">SimIccID</a></td>
-<td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 <a href="https://msdn.microsoft.com/en-us/library/Dd323201(v=VS.85).aspx"><strong>SimIccID</strong></a> element.</p></td>
+<td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid"><strong>SimIccID</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-subscriberid">SubscriberID</a></td>

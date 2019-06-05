@@ -48,7 +48,7 @@ This section describes the Windows Shell functions.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses"><strong>AssocCreateForClasses</strong></a><br/></td>
-<td>Retrieves an object that implements an <a href="https://msdn.microsoft.com/en-us/library/Bb761400(v=VS.85).aspx"><strong>IQueryAssociations</strong></a> interface.<br/></td>
+<td>Retrieves an object that implements an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>IQueryAssociations</strong></a> interface.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-assocgetdetailsofpropkey"><strong>AssocGetDetailsOfPropKey</strong></a><br/></td>
@@ -72,7 +72,7 @@ This function is not supported as of Windows 8.
 <td>Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time <em>argv</em> and <em>argc</em> values.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx"><strong>APPLET_PROC</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc"><strong>APPLET_PROC</strong></a><br/></td>
 <td>Serves as the entry point for a Control Panel application. This is a library-defined callback function.<br/></td>
 </tr>
 <tr class="even">
@@ -81,7 +81,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock"><strong>CreateEnvironmentBlock</strong></a><br/></td>
-<td>Retrieves the environment variables for the specified user. This block can then be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms682429(v=VS.85).aspx"><strong>CreateProcessAsUser</strong></a> function.<br/></td>
+<td>Retrieves the environment variables for the specified user. This block can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera"><strong>CreateProcessAsUser</strong></a> function.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="createmrulist"><strong>CreateMRUListW</strong></a><br/></td>
@@ -140,7 +140,7 @@ This function is not supported as of Windows 8.
 <td>Retrieves the position of the mouse pointer at the time a file was dropped during a drag-and-drop operation.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776411(v=VS.85).aspx"><strong>DuplicateIcon</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-duplicateicon"><strong>DuplicateIcon</strong></a><br/></td>
 <td>Creates a duplicate of a specified icon.<br/></td>
 </tr>
 <tr class="odd">
@@ -148,16 +148,16 @@ This function is not supported as of Windows 8.
 <td>Expands the source string by using the environment block established for the specified user.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776414(v=VS.85).aspx"><strong>ExtractAssociatedIcon</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona"><strong>ExtractAssociatedIcon</strong></a><br/></td>
 <td>Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx"><strong>ExtractIcon</strong></a><br/></td>
-<td>Gets a handle to an icon from the specified executable file, DLL, or icon file. <br/> To retrieve an array of handles to large or small icons, use the <a href="https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx"><strong>ExtractIconEx</strong></a> function.<br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona"><strong>ExtractIcon</strong></a><br/></td>
+<td>Gets a handle to an icon from the specified executable file, DLL, or icon file. <br/> To retrieve an array of handles to large or small icons, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa"><strong>ExtractIconEx</strong></a> function.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx"><strong>ExtractIconEx</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx"><strong>ExtractIconEx</strong></a> function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.<br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa"><strong>ExtractIconEx</strong></a><br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa"><strong>ExtractIconEx</strong></a> function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="fileiconinit"><strong>FileIconInit</strong></a><br/></td>
@@ -204,7 +204,7 @@ This function is not supported as of Windows 8.
 <td>Gets the location of the registry storage associated with an app container.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/JJ152005(v=VS.85).aspx"><strong>GetContractDelegateWindow</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj152005(v=vs.85)"><strong>GetContractDelegateWindow</strong></a><br/></td>
 <td>Retrieves a window that has been set as a delegate for an app's primary foreground window for the purpose of associating the delegate window with the app's contracts. Use this function if you are a developer writing a Windows Store app in native C++.<br/></td>
 </tr>
 <tr class="odd">
@@ -217,7 +217,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiforshelluicomponent"><strong>GetDpiForShellUiComponent</strong></a><br/></td>
-<td>Retrieves the dots per inch (dpi) occupied by a <a href="/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-shell_ui_component"><strong>SHELL_UI_COMPONENT</strong></a> based on the current scale factor and <a href="https://msdn.microsoft.com/en-us/library/Dn280512(v=VS.85).aspx"><strong>PROCESS_DPI_AWARENESS</strong></a>.<br/></td>
+<td>Retrieves the dots per inch (dpi) occupied by a <a href="/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-shell_ui_component"><strong>SHELL_UI_COMPONENT</strong></a> based on the current scale factor and <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness"><strong>PROCESS_DPI_AWARENESS</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winuser/nf-winuser-getmenucontexthelpid"><strong>GetMenuContextHelpId</strong></a><br/></td>
@@ -328,7 +328,7 @@ This function is not supported as of Windows 8.
 <td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776455(v=VS.85).aspx"><strong>ILNext(PUIDLIST_RELATIVE)</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776455(v=vs.85)"><strong>ILNext(PUIDLIST_RELATIVE)</strong></a><br/></td>
 <td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
@@ -344,7 +344,7 @@ This function is not supported as of Windows 8.
 <td>Skips a given number of bytes in a constant, unaligned, relative <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb776459(v=VS.85).aspx"><strong>ILSkip(PUIDLIST_RELATIVE, UINT)</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776459(v=vs.85)"><strong>ILSkip(PUIDLIST_RELATIVE, UINT)</strong></a><br/></td>
 <td>Skips a given number of bytes in an unaligned, relative <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
@@ -613,7 +613,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shevaluatesystemcommandtemplate"><strong>SHEvaluateSystemCommandTemplate</strong></a><br/></td>
-<td>Enforces strict validation of parameters used in a call to <a href="https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx"><strong>CreateProcess</strong></a> or <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>.<br/></td>
+<td>Enforces strict validation of parameters used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> or <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>SHFileOperation</strong></a><br/></td>
@@ -629,7 +629,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder"><strong>SHGetDesktopFolder</strong></a><br/></td>
-<td>Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx"><strong>IShellFolder</strong></a> interface for the desktop folder, which is the root of the Shell's namespace.<br/></td>
+<td>Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> interface for the desktop folder, which is the root of the Shell's namespace.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetdiskfreespaceexa"><strong>SHGetDiskFreeSpaceEx</strong></a><br/></td>
@@ -644,7 +644,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Mt757093(v=VS.85).aspx"><strong>SHGetFolderPathEx</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt757093(v=vs.85)"><strong>SHGetFolderPathEx</strong></a><br/></td>
 <td>Retrieves the full path of a known folder identified by the folder's <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a>. This extends <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a> by allowing you to set the initial size of the string buffer.<br/></td>
 </tr>
 <tr class="even">
@@ -665,7 +665,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromdataobject"><strong>SHGetItemFromDataObject</strong></a><br/></td>
-<td>Creates an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> or related object based on an item specified by an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx"><strong>IDataObject</strong></a>.<br/></td>
+<td>Creates an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>IShellItem</strong></a> or related object based on an item specified by an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromobject"><strong>SHGetItemFromObject</strong></a><br/></td>
@@ -692,8 +692,8 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Retrieves the display name of an item identified by its IDList.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762192(v=VS.85).aspx"><strong>SHGetNameFromPropertyKey</strong></a><br/></td>
-<td>Retrieves the property's canonical name given its <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx"><strong>PROPERTYKEY</strong></a>.<br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762192(v=vs.85)"><strong>SHGetNameFromPropertyKey</strong></a><br/></td>
+<td>Retrieves the property's canonical name given its <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey"><strong>PROPERTYKEY</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetnewlinkinfoa"><strong>SHGetNewLinkInfo</strong></a><br/></td>
@@ -724,7 +724,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Retrieves a specified user's unread message count for any or all email accounts.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762212(v=VS.85).aspx"><strong>SHIsFileAvailableOffline</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shisfileavailableoffline"><strong>SHIsFileAvailableOffline</strong></a><br/></td>
 <td>Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.<br/></td>
 </tr>
 <tr class="even">
@@ -732,7 +732,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Creates an instance of the specified object class from within the context of the Shell's process. <br/> <strong>Windows Vista</strong> and later: This function has been disabled and returns E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762215(v=VS.85).aspx"><strong>SHLoadNonloadedIconOverlayIdentifiers</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shloadnonloadediconoverlayidentifiers"><strong>SHLoadNonloadedIconOverlayIdentifiers</strong></a><br/></td>
 <td>Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.<br/></td>
 </tr>
 <tr class="even">
@@ -752,7 +752,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Displays the <strong>Open With</strong> dialog box.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762235(v=VS.85).aspx"><strong>ShowShareFolderUI</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/shell/showsharefolderui"><strong>ShowShareFolderUI</strong></a><br/></td>
 <td>Displays the <strong>Folder Sharing</strong> tab on the properties sheet for the specified folder.<br/></td>
 </tr>
 <tr class="odd">
@@ -760,7 +760,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a PIDL.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762237(v=VS.85).aspx"><strong>SHPathPrepareForWrite</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shpathprepareforwritea"><strong>SHPathPrepareForWrite</strong></a><br/></td>
 <td>Checks to see if the path exists. This includes remounting mapped network drives, prompting for ejectable media to be reinserted, creating the paths, prompting for the media to be formatted, and providing the appropriate user interfaces, if necessary. Read/write permissions for the medium are not checked.<br/></td>
 </tr>
 <tr class="odd">
@@ -810,7 +810,7 @@ This function is not supported as of Windows Vista
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shtesttokenmembership"><strong>SHTestTokenMembership</strong></a><br/></td>
-<td>Uses <a href="https://msdn.microsoft.com/en-us/library/Aa376389(v=VS.85).aspx"><strong>CheckTokenMembership</strong></a> to test whether the given token is a member of the local group with the specified RID.<br/></td>
+<td>Uses <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership"><strong>CheckTokenMembership</strong></a> to test whether the given token is a member of the local group with the specified RID.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea"><strong>SHUpdateImage</strong></a><br/></td>
@@ -858,7 +858,7 @@ Windows XP SP2 or later: This function is no longer supported.
 <br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/Bb762266(v=VS.85).aspx"><strong>WinExecError</strong></a><br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762266(v=vs.85)"><strong>WinExecError</strong></a><br/></td>
 <td>Retrieves the error value generated if the <a href="https://go.microsoft.com/fwlink/p/?linkid=238266">WinExec</a> function cannot run a specified application. <br/></td>
 </tr>
 <tr class="odd">

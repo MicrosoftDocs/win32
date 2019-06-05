@@ -52,7 +52,7 @@ Next [Best practices for designing authentication web pages](best-practices-for-
 [Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/library/windows/apps/br227044)
+[**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  

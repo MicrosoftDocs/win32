@@ -79,7 +79,7 @@ public static Nullable<Guid> RetrieveColumnAsGuid(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Guid](https://msdn.microsoft.com/en-us/library/cey1zx63)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a guid. Null if the column is null.  
 
 ## See also

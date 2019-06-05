@@ -41,7 +41,7 @@ HRESULT UndoSetDepthStencilState(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Index into an array of depth-stencil interfaces. If there is only one depth-stencil interface, use 0.
 

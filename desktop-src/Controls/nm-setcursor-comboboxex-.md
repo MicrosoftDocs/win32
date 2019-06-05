@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # NM\_SETCURSOR (ComboBoxEx) notification code
 
-Notifies a ComboBoxEx control's parent window that the control is setting the cursor in response to a [**WM\_SETCURSOR**](https://msdn.microsoft.com/library/windows/desktop/ms648382) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Notifies a ComboBoxEx control's parent window that the control is setting the cursor in response to a [**WM\_SETCURSOR**](https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

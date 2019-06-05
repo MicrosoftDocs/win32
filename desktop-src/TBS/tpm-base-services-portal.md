@@ -19,7 +19,7 @@ The TBS feature runs as a system service in Windows Server 2008, Windows Vista, 
 
 > [!Note]
 >
-> The TPM can be used for key storage operations. However, developers are encouraged to use the [Key Storage APIs](https://msdn.microsoft.com/library/windows/desktop/bb204778.aspx) for these scenarios instead. The Key Storage APIs provide the functionality to create, sign or encrypt with, and persist cryptographic keys, and they are higher-level and easier to use than the TBS for these targeted scenarios.
+> The TPM can be used for key storage operations. However, developers are encouraged to use the [Key Storage APIs](https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-and-retrieval) for these scenarios instead. The Key Storage APIs provide the functionality to create, sign or encrypt with, and persist cryptographic keys, and they are higher-level and easier to use than the TBS for these targeted scenarios.
 
  
 

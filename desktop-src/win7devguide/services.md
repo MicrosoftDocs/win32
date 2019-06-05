@@ -16,10 +16,10 @@ Windows 7 also lets developers take advantage of better caching and searching c
 
 ## Windows Web Services
 
-With [Windows Web Services](https://msdn.microsoft.com/library/windows/desktop/dd430435), you can create applications that communicate easily with a local computer or a remote web service. Windows Web Services is a native-code implementation of SOAP and provides core network communication by supporting a broad set of the web services (*WS*) family of protocols. Windows Web Services is a peer to [Windows Communication Foundation](https://msdn.microsoft.com/library/cc907054) (*WCF*, managed-code web services), and provides a high-performance subset of *WCF* functionality. Windows Web Services provides the following benefits:
+With [Windows Web Services](https://docs.microsoft.com/windows/desktop/wsw/portal), you can create applications that communicate easily with a local computer or a remote web service. Windows Web Services is a native-code implementation of SOAP and provides core network communication by supporting a broad set of the web services (*WS*) family of protocols. Windows Web Services is a peer to [Windows Communication Foundation](https://docs.microsoft.com/previous-versions/windows/desktop/cc907054(v=vs.85)) (*WCF*, managed-code web services), and provides a high-performance subset of *WCF* functionality. Windows Web Services provides the following benefits:
 
 -   The ability to build native code web services in C/C++ in Windows client and server.
--   Extensive integration with [Windows Communication Foundation](https://msdn.microsoft.com/library/cc907054) services.
+-   Extensive integration with [Windows Communication Foundation](https://docs.microsoft.com/previous-versions/windows/desktop/cc907054(v=vs.85)) services.
 -   The ability to build web services with minimal startup time.
 -   The ability to build services based on the core *WS* family of protocols and *W3C* standards.
 -   The ability to use web services in resource-constrained environments.
@@ -28,7 +28,7 @@ For more information, see [Windows Web Services API](https://go.microsoft.com/?l
 
 ## Distributed Routing Table
 
-Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](https://msdn.microsoft.com/library/dd407953). The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system. It can be used to build distributed hash tables and construct topologies for overlay networks. (See [Distributed Routing Table API](https://go.microsoft.com/?linkid=9669727).)
+Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](https://docs.microsoft.com/windows/desktop/P2PSdk/distributed-routing-table-api-reference). The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system. It can be used to build distributed hash tables and construct topologies for overlay networks. (See [Distributed Routing Table API](https://go.microsoft.com/?linkid=9669727).)
 
 ## **Windows BranchCache**
 

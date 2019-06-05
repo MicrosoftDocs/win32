@@ -16,27 +16,27 @@ The session functions are listed following.
 
 | Function                                      | Description                                                                                       |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [**NetSessionDel**](https://msdn.microsoft.com/library/windows/desktop/bb525381)         | Deletes the current connections between a workstation and server; terminates the network session. |
-| [**NetSessionEnum**](https://msdn.microsoft.com/library/windows/desktop/bb525382)       | Returns information about all current sessions established for a server.                          |
-| [**NetSessionGetInfo**](https://msdn.microsoft.com/library/windows/desktop/bb525383) | Returns information about a particular session.                                                   |
+| [**NetSessionDel**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiondel)         | Deletes the current connections between a workstation and server; terminates the network session. |
+| [**NetSessionEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum)       | Returns information about all current sessions established for a server.                          |
+| [**NetSessionGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiongetinfo) | Returns information about a particular session.                                                   |
 
 
 
  
 
-A *session* is a link between a workstation and a server. A session is established the first time a workstation makes a connection to a shared resource on the server. Until the session ends, all further connections between the workstation and the server are part of the same session. To end a session, an application on the server end of a connection calls the [**NetSessionDel**](https://msdn.microsoft.com/library/windows/desktop/bb525381) function.
+A *session* is a link between a workstation and a server. A session is established the first time a workstation makes a connection to a shared resource on the server. Until the session ends, all further connections between the workstation and the server are part of the same session. To end a session, an application on the server end of a connection calls the [**NetSessionDel**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiondel) function.
 
 The network management session functions manage information on a per-user basis with the *username* parameter. Because there can be multiple users per session, this parameter is necessary to access the user-specific information for the session.
 
 Session functions are available at the following information levels:
 
--   [**SESSION\_INFO\_0**](https://msdn.microsoft.com/library/windows/desktop/bb525397)
--   [**SESSION\_INFO\_1**](https://msdn.microsoft.com/library/windows/desktop/bb525399)
--   [**SESSION\_INFO\_2**](https://msdn.microsoft.com/library/windows/desktop/bb525400)
--   [**SESSION\_INFO\_10**](https://msdn.microsoft.com/library/windows/desktop/bb525398)
--   [**SESSION\_INFO\_502**](https://msdn.microsoft.com/library/windows/desktop/bb525401)
+-   [**SESSION\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0)
+-   [**SESSION\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1)
+-   [**SESSION\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2)
+-   [**SESSION\_INFO\_10**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10)
+-   [**SESSION\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_502)
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://msdn.microsoft.com/library/aa746331) and [**IADsFileServiceOperations**](https://msdn.microsoft.com/library/aa706015).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see [**IADsSession**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
 
  
 

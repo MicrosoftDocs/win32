@@ -84,7 +84,7 @@ pActiveDesktop->ApplyChanges(AD_APPLY_ALL);
 
 ### Enumerating the Desktop Items
 
-To enumerate the desktop items currently installed on the Active Desktop, the client application needs to retrieve the total number of desktop items installed using the [**IActiveDesktop::GetDesktopItemCount**](https://msdn.microsoft.com/en-us/library/Bb776352(v=VS.85).aspx) method and then creating a loop that retrieves the [**COMPONENT**](https://msdn.microsoft.com/library/windows/desktop/bb773225) structure for each desktop item by calling the [**IActiveDesktop::GetDesktopItem**](https://msdn.microsoft.com/en-us/library/Bb776349(v=VS.85).aspx) method using the desktop item index.
+To enumerate the desktop items currently installed on the Active Desktop, the client application needs to retrieve the total number of desktop items installed using the [**IActiveDesktop::GetDesktopItemCount**](https://msdn.microsoft.com/en-us/library/Bb776352(v=VS.85).aspx) method and then creating a loop that retrieves the [**COMPONENT**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent) structure for each desktop item by calling the [**IActiveDesktop::GetDesktopItem**](https://msdn.microsoft.com/en-us/library/Bb776349(v=VS.85).aspx) method using the desktop item index.
 
 The following sample demonstrates one way to enumerate the desktop items.
 

@@ -47,9 +47,9 @@ When a user uses a UPN to log on to a domain, the UPN is validated by searching 
 
 ## objectGUID
 
-The **objectGUID** attribute is the unique identifier of a user. The attribute is a single-valued 128-bit Globally Unique Identifier (GUID), and is stored as an [**ADS\_OCTET\_STRING**](https://msdn.microsoft.com/library/aa772272) structure. The GUID is created by the Active Directory server when a user object is created.
+The **objectGUID** attribute is the unique identifier of a user. The attribute is a single-valued 128-bit Globally Unique Identifier (GUID), and is stored as an [**ADS\_OCTET\_STRING**](https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0002) structure. The GUID is created by the Active Directory server when a user object is created.
 
-Because an object's distinguished name changes if the object is renamed or moved, the distinguished name is not a reliable identifier of an object. In Active Directory Domain Services, an object's **objectGUID** attribute never changes, even if the object is renamed or moved. You can retrieve the string form of the **objectGUID** using the **GUID** property method in [IADs Property Methods](https://msdn.microsoft.com/library/aa746351).
+Because an object's distinguished name changes if the object is renamed or moved, the distinguished name is not a reliable identifier of an object. In Active Directory Domain Services, an object's **objectGUID** attribute never changes, even if the object is renamed or moved. You can retrieve the string form of the **objectGUID** using the **GUID** property method in [IADs Property Methods](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods).
 
 ## sAMAccountName
 

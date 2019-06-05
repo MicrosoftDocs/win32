@@ -38,7 +38,7 @@ Even with the render passes feature, neither the Direct3D 12 runtime nor the dis
 - Properly identify data/ordering dependencies for its operations.
 - Order its submissions in a way that minimizes flushes (so, minimize your use of **_PRESERVE** flags).
 - Correctly make use of resource barriers, and track resource state.
-- Avoid unneeded copies/clears. To help identify these, you can make use of the automated performance warnings from the [PIX on Windows tool](https://blogs.msdn.microsoft.com/pix).
+- Avoid unneeded copies/clears. To help identify these, you can make use of the automated performance warnings from the [PIX on Windows tool](https://devblogs.microsoft.com/pix/).
 
 ## Using the render pass feature
 

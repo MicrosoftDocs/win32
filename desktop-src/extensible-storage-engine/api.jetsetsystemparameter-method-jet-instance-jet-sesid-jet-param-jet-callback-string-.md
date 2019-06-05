@@ -93,7 +93,7 @@ public static JET_wrn JetSetSystemParameter(
 <!-- end list -->
 
   - paramString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The value of the parameter to set, if the parameter is a string type.
 

@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_ColorType is used by an application to query color setting of the [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) control.
 
-The property value is from the [**UI\_SWATCHCOLORTYPE**](https://msdn.microsoft.com/library/windows/desktop/dd371583) enumeration.
+The property value is from the [**UI\_SWATCHCOLORTYPE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype) enumeration.
 
 
 
@@ -38,7 +38,7 @@ The property value is from the [**UI\_SWATCHCOLORTYPE**](https://msdn.microsoft.
 
  
 
-UI\_PKEY\_ColorType is passed to the [**IUICommandHandler::Execute**](https://msdn.microsoft.com/library/windows/desktop/dd371489) callback method when a color swatch is selected in a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md).
+UI\_PKEY\_ColorType is passed to the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) callback method when a color swatch is selected in a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md).
 
 ## Related topics
 

@@ -18,9 +18,9 @@ api_location:
 
 # Terminate method of the Win32\_Process class
 
-The **Terminate** [WMI class](https://msdn.microsoft.com/library/aa393244) method terminates a process and all of its threads.
+The **Terminate** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method terminates a process and all of its threads.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Exit code for the process and for all of the threads terminated as a result of t
 
 ## Return value
 
-Returns a value of 0 (zero) if the process was successfully terminated, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns a value of 0 (zero) if the process was successfully terminated, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -108,7 +108,7 @@ objLoc.Security_.privileges.addasstring "sedebugprivilege", true
 
 
 
-For more information about enabling this privilege in C++, see [Enabling and Disabling Privileges in C++](https://msdn.microsoft.com/library/windows/desktop/aa446619).
+For more information about enabling this privilege in C++, see [Enabling and Disabling Privileges in C++](https://docs.microsoft.com/windows/desktop/SecAuthZ/enabling-and-disabling-privileges-in-c--).
 
 ## Examples
 
@@ -170,7 +170,7 @@ Next
 
 
 
-The following C++ code terminates the Notepad.exe process on the local computer. Specify a or process handle (process id) in the code to terminate the process. This value can be found in the handle property in the [**Win32\_Process**](win32-process.md) class (the key property for the class). By specifying a value for the Handle property, you are supplying a path to the instance of the class that you want to terminate. For more information about connecting to a remote computer, see [Example: Getting WMI Data From a Remote Computer](https://msdn.microsoft.com/library/aa390422).
+The following C++ code terminates the Notepad.exe process on the local computer. Specify a or process handle (process id) in the code to terminate the process. This value can be found in the handle property in the [**Win32\_Process**](win32-process.md) class (the key property for the class). By specifying a value for the Handle property, you are supplying a path to the instance of the class that you want to terminate. For more information about connecting to a remote computer, see [Example: Getting WMI Data From a Remote Computer](https://docs.microsoft.com/windows/desktop/WmiSdk/example--getting-wmi-data-from-a-remote-computer).
 
 
 ```C++
@@ -397,16 +397,16 @@ int main(int iArgCnt, char ** argv)
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Process**](win32-process.md)
 </dt> <dt>
 
-[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/library/aa394597)
+[WMI Tasks: Performance Monitoring](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--performance-monitoring)
 </dt> <dt>
 
-[WMI Tasks: Processes](https://msdn.microsoft.com/library/aa394599)
+[WMI Tasks: Processes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--processes)
 </dt> </dl>
 
  

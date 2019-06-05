@@ -17,9 +17,9 @@ The following table lists the classes for the WMI policy provider.
 
 | Class                                               | Description                                                       |
 |-----------------------------------------------------|-------------------------------------------------------------------|
-| [**MSFT\_Providers**](https://msdn.microsoft.com/library/aa392509) | Exposes configuration relating to provider instances.             |
-| [**MSFT\_Rule**](https://msdn.microsoft.com/library/aa392510)                | Defines a single rule within a Scope of Management (SOM).         |
-| [**MSFT\_SomFilter**](https://msdn.microsoft.com/library/aa392511)      | Provides a list of rules which are evaluated on a target machine. |
+| [**MSFT\_Providers**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-providers) | Exposes configuration relating to provider instances.             |
+| [**MSFT\_Rule**](https://docs.microsoft.com/previous-versions/windows/desktop/policmanprov/msft-rule)                | Defines a single rule within a Scope of Management (SOM).         |
+| [**MSFT\_SomFilter**](https://docs.microsoft.com/previous-versions/windows/desktop/policmanprov/msft-somfilter)      | Provides a list of rules which are evaluated on a target machine. |
 
 
 

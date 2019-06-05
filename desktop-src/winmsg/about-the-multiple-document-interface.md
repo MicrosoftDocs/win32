@@ -82,7 +82,7 @@ When the user is navigating through an MDI application's menus by using cursor k
 
 ## Multiple Document Accelerators
 
-To receive and process accelerator keys for its child windows, an MDI application must include the [**TranslateMDISysAccel**](https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx) function in its message loop. The loop must call **TranslateMDISysAccel** before calling the [**TranslateAccelerator**](https://msdn.microsoft.com/library/windows/desktop/ms646373) or [**DispatchMessage**](https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx) function.
+To receive and process accelerator keys for its child windows, an MDI application must include the [**TranslateMDISysAccel**](https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx) function in its message loop. The loop must call **TranslateMDISysAccel** before calling the [**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora) or [**DispatchMessage**](https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx) function.
 
 Accelerator keys on the window menu for an MDI child window are different from those for a non-MDI child window. In an MDI child window, the ALT+ – (minus) key combination opens the window menu, the CTRL+F4 key combination closes the active child window, and the CTRL+F6 key combination activates the next child window.
 

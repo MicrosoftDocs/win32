@@ -20,7 +20,7 @@ api_location:
 
 The **UnjoinDomainOrWorkgroup** method removes a computer system from a domain or workgroup.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -45,7 +45,7 @@ uint32 UnjoinDomainOrWorkgroup(
 If the *UserName* parameter specifies an account name, the *Password* parameter must point to the password to use when connecting to the domain controller. Otherwise, this parameter must be **NULL**.
 
 > [!Note]  
-> *Password* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
+> *Password* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx) on the [**IWbemServices**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) pointer. If local to Winmgmt, this is not a concern.
 
  
 
@@ -57,7 +57,7 @@ If the *UserName* parameter specifies an account name, the *Password* parameter 
 Pointer to a constant null-terminated character string that specifies the account name to use when connecting to the domain controller. Must specify a domain and user account, for example, "domain\\user" or "user@domain". If this parameter is **NULL**, the caller context is used.
 
 > [!Note]  
-> *UserName* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
+> *UserName* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx) on the [**IWbemServices**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) pointer. If local to Winmgmt, this is not a concern.
 
  
 
@@ -94,7 +94,7 @@ Disable the Active Directory account after the unjoin operation, but do not dele
 
 ## Return value
 
-The **UnjoinDomainOrWorkgroup** method returns 0 (zero) on success or when no options are involved. Any other value indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+The **UnjoinDomainOrWorkgroup** method returns 0 (zero) on success or when no options are involved. Any other value indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 

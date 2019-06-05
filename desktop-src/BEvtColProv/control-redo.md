@@ -47,42 +47,42 @@ Uint32 Redo(
 *OldTimestampLow* \[in\]
 </dt> <dd>
 
-The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OldTimestampHigh* \[in\]
 </dt> <dd>
 
-The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the previous configuration was set. If not 0, enables the atomicity check: the new configuration will be applied only if the timestamp of the old configuration matches (i.e. the configuration was not changed in between). This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *NewTimestampLow* \[out\]
 </dt> <dd>
 
-The timestamp of when the new configuration was set, if the call succeeds. This is the low part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the new configuration was set, if the call succeeds. This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *NewTimestampHigh* \[out\]
 </dt> <dd>
 
-The timestamp of when the new configuration was set, if the call succeeds. This is the high part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The timestamp of when the new configuration was set, if the call succeeds. This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OriginalTimestampLow* \[out\]
 </dt> <dd>
 
-The original timestamp of when the restored configuration was set for the first time. This is the low part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The original timestamp of when the restored configuration was set for the first time. This is the low part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 *OriginalTimestampHigh* \[out\]
 </dt> <dd>
 
-The original timestamp of when the restored configuration was set for the first time. This is the high part of [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284).
+The original timestamp of when the restored configuration was set for the first time. This is the high part of [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 

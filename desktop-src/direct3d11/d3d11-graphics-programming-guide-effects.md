@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Effects (Direct3D 11)
 
-A DirectX effect is a collection of pipeline state, set by expressions written in [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509638) and some syntax that is specific to the effect framework.
+A DirectX effect is a collection of pipeline state, set by expressions written in [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-reference) and some syntax that is specific to the effect framework.
 
 After compiling an effect, use the effect framework APIs to render. Effect functionality can range from something as simple as a vertex shader that transforms geometry and a pixel shader that outputs a solid color, to a rendering technique that requires multiple passes, uses every stage of the graphics pipeline, and manipulates shader state as well as the pipeline state not associated with the programmable shaders.
 

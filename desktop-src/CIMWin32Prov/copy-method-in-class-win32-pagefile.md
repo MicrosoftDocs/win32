@@ -18,9 +18,9 @@ api_location:
 
 # Copy method of the Win32\_PageFile class
 
-The **Copy** [WMI class](https://msdn.microsoft.com/library/aa393244) method copies the logical paging file or directory specified in the object path to the location specified by the input parameter. A copy is not supported if overwriting an existing logical file is required.
+The **Copy** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical paging file or directory specified in the object path to the location specified by the input parameter. A copy is not supported if overwriting an existing logical file is required.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -161,7 +161,7 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_PageFile**](win32-pagefile.md)

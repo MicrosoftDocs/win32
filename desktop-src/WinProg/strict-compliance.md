@@ -28,8 +28,8 @@ Any function declarations that you copied from Windows.h into your source code m
 
 Some functions have generic return types or parameters. For example, the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function returns data that may be any number of types, depending on the context. When you see any of these functions in your source code, make sure that you use the correct type cast and that it is as specific as possible. The following list is an example of these functions.
 
--   [**LocalLock**](https://msdn.microsoft.com/library/windows/desktop/aa366737)
--   [**GlobalLock**](https://msdn.microsoft.com/library/windows/desktop/aa366584)
+-   [**LocalLock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock)
+-   [**GlobalLock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock)
 -   [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx)
 -   [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)
 -   [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)

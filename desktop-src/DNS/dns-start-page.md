@@ -51,10 +51,10 @@ DNS is used on all IP networks that require an Internet-compatible locator servi
 
 <dl> <dt>
 
-[DHCP](https://msdn.microsoft.com/library/windows/desktop/aa363383)
+[DHCP](https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-start-page)
 </dt> <dt>
 
-[Internet Protocol Helper](https://msdn.microsoft.com/library/windows/desktop/aa366073)
+[Internet Protocol Helper](https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page)
 </dt> <dt>
 
 [Directory Services](https://msdn.microsoft.com/library/Dd425378(v=VS.85).aspx)

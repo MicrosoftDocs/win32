@@ -42,7 +42,7 @@ uint32 GetVirtualSystemThumbnailImage(
 
 Type: **CIM\_VirtualSystemSettingData**
 
-A reference to the [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) instance whose thumbnail image is to be retrieved. This instance may represent either the current instantiation of the virtual machine, or an instance of a virtual machine snapshot.
+A reference to the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance whose thumbnail image is to be retrieved. This instance may represent either the current instantiation of the virtual machine, or an instance of a virtual machine snapshot.
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 

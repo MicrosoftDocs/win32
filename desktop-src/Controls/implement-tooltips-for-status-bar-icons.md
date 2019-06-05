@@ -55,9 +55,9 @@ Shell_NotifyIcon(NIM_MODIFY, &IconData);
 
 ## Remarks
 
-For a detailed discussion of the status bar, see [The Taskbar](https://msdn.microsoft.com/library/windows/desktop/cc144179).
+For a detailed discussion of the status bar, see [The Taskbar](https://docs.microsoft.com/windows/desktop/shell/taskbar).
 
-To display a balloon tooltip, you need to set the NIF\_INFO flag in the [**NOTIFYICONDATA**](https://msdn.microsoft.com/library/windows/desktop/bb773352) structure, and use the **szInfo** and **uTimeout** members to specify the tooltip text and time-out duration.
+To display a balloon tooltip, you need to set the NIF\_INFO flag in the [**NOTIFYICONDATA**](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa) structure, and use the **szInfo** and **uTimeout** members to specify the tooltip text and time-out duration.
 
 ## Related topics
 

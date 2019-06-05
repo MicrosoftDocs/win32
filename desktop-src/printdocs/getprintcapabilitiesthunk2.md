@@ -65,7 +65,7 @@ The size, in bytes, of the buffer referenced by *pPrintTicket*.
 *ppbPrintCapabilities* \[out\]
 </dt> <dd>
 
-The address of the buffer that is allocated by this function and contains the valid print capabilities information, encoded as XML. This function calls [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/windows/desktop/ms692727) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722).
+The address of the buffer that is allocated by this function and contains the valid print capabilities information, encoded as XML. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 

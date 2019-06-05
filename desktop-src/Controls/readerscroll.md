@@ -68,7 +68,7 @@ The distance to scroll vertically. If the RMF\_HORIZONTALONLY flag is set in the
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751#bool)**
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 This function should always return **TRUE**.
 

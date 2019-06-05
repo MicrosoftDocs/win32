@@ -11,18 +11,18 @@ ms.date: 05/31/2018
 
 # Determining an Attribute Type
 
-The [**systemFlags**](https://msdn.microsoft.com/library/ms680022) attribute of an [**attributeSchema**](https://msdn.microsoft.com/library/ms680969) object contains a set of flags that indicate various qualities of the attribute object, such as whether the attribute is constructed or non-replicated. The following table lists the flags of the **systemFlags** attribute that affect the storage type of the attribute. 
+The [**systemFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-systemflags) attribute of an [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object contains a set of flags that indicate various qualities of the attribute object, such as whether the attribute is constructed or non-replicated. The following table lists the flags of the **systemFlags** attribute that affect the storage type of the attribute. 
 
 | Flag value | Description                                                                                                          |
 |------------|----------------------------------------------------------------------------------------------------------------------|
-| 0x00000001 | If this flag is present in the [**systemFlags**](https://msdn.microsoft.com/library/ms680022) attribute, the attribute is not replicated. |
-| 0x00000004 | If this flag is present in the [**systemFlags**](https://msdn.microsoft.com/library/ms680022) attribute, the attribute is constructed.    |
+| 0x00000001 | If this flag is present in the [**systemFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-systemflags) attribute, the attribute is not replicated. |
+| 0x00000004 | If this flag is present in the [**systemFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-systemflags) attribute, the attribute is constructed.    |
 
 
 
  
 
-It is possible to construct a query string that can be used to query for constructed or non-replicated attributes. For example, the following query string finds all non-replicated [**attributeSchema**](https://msdn.microsoft.com/library/ms680969) objects. Be aware that the query string requires the decimal equivalent of the value, not the hexadecimal equivalent of the value. For more information about the matching rule OID used by this query string, see [How to Specify Comparison Values](how-to-specify-comparison-values.md).
+It is possible to construct a query string that can be used to query for constructed or non-replicated attributes. For example, the following query string finds all non-replicated [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) objects. Be aware that the query string requires the decimal equivalent of the value, not the hexadecimal equivalent of the value. For more information about the matching rule OID used by this query string, see [How to Specify Comparison Values](how-to-specify-comparison-values.md).
 
 
 ```C++
@@ -31,7 +31,7 @@ It is possible to construct a query string that can be used to query for constru
 
 
 
-The [**searchFlags**](https://msdn.microsoft.com/library/ms679765) attribute of each attribute's [**attributeSchema**](https://msdn.microsoft.com/library/ms680969) object defines whether an attribute is indexed; an indexed attribute has a value of 1, a non-indexed attribute has a value of 0. For example, the following query string finds the **attributeSchema** objects representing indexed attributes.
+The [**searchFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-searchflags) attribute of each attribute's [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object defines whether an attribute is indexed; an indexed attribute has a value of 1, a non-indexed attribute has a value of 0. For example, the following query string finds the **attributeSchema** objects representing indexed attributes.
 
 
 ```C++
@@ -40,7 +40,7 @@ The [**searchFlags**](https://msdn.microsoft.com/library/ms679765) attribute of 
 
 
 
-The [**isMemberOfPartialAttributeSet**](https://msdn.microsoft.com/library/ms676807) attribute of each attribute's [**attributeSchema**](https://msdn.microsoft.com/library/ms680969) object defines whether an attribute is replicated to the global catalog. This attribute has a value of **TRUE** if the attribute is a member of the global catalog or **FALSE** if the attributes is not in the global catalog. For example, the following query string searches the **attributeSchema** objects that are replicated to the global catalog.
+The [**isMemberOfPartialAttributeSet**](https://docs.microsoft.com/windows/desktop/ADSchema/a-ismemberofpartialattributeset) attribute of each attribute's [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object defines whether an attribute is replicated to the global catalog. This attribute has a value of **TRUE** if the attribute is a member of the global catalog or **FALSE** if the attributes is not in the global catalog. For example, the following query string searches the **attributeSchema** objects that are replicated to the global catalog.
 
 
 ```C++

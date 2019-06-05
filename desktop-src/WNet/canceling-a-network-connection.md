@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To cancel a connection to a network resource, an application can call the [**WNetCancelConnection2**](https://msdn.microsoft.com/en-us/library/Aa385427(v=VS.85).aspx) function, as shown in the following example.
 
-The call to **WNetCancelConnection2** specifies that a network connection should no longer be persistent. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://msdn.microsoft.com/library/windows/desktop/dd145133) function for printing.
+The call to **WNetCancelConnection2** specifies that a network connection should no longer be persistent. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta) function for printing.
 
 
 ```C++

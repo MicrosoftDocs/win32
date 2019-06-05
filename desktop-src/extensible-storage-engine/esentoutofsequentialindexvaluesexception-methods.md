@@ -1,4 +1,4 @@
-﻿---
+---
 title: EsentOutOfSequentialIndexValuesException methods (Microsoft.Isam.Esent.Interop)
 TOCTitle: EsentOutOfSequentialIndexValuesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException
@@ -28,23 +28,23 @@ The [EsentOutOfSequentialIndexValuesException](dn319807\(v=exchg.10\).md) type e
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/49kcee3b">GetBaseException</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.getbaseexception?redirectedfrom=MSDN#System_Exception_GetBaseException">GetBaseException</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -53,18 +53,18 @@ The [EsentOutOfSequentialIndexValuesException](dn319807\(v=exchg.10\).md) type e
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/44zb316t">GetType</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.gettype?redirectedfrom=MSDN#System_Exception_GetType">GetType</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/es4y6f7e">ToString</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/c18k6c59">Exception</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.tostring?redirectedfrom=MSDN#System_Exception_ToString">ToString</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 </tbody>
 </table>

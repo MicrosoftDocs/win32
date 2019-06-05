@@ -19,11 +19,11 @@ With DirectX, Win32 developers can also use the GPU's parallelism for general-pu
 These enhanced graphics capabilities are provided by the following *COM*-based APIs:
 
 -   [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) for drawing 2D graphics.
--   [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) for arranging and rendering text.
--   [Windows Imaging Component](https://msdn.microsoft.com/library/windows/desktop/ee719902) for processing and displaying images.
--   [Direct3D 10](https://msdn.microsoft.com/library/windows/desktop/bb205066) for drawing 3D graphics.
--   [Direct3D 11](https://msdn.microsoft.com/library/windows/desktop/ff476080) for drawing 3D graphics, and providing access to next-generation GPU technologies, such as tessellation, limited support for texture streaming, and general purpose computing.
--   [DirectX Graphics Infrastructure (DXGI)](https://msdn.microsoft.com/library/windows/desktop/hh404534) for managing local and remote display devices and GPU resources, and providing interoperability between DirectX and GDI.
+-   [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal) for arranging and rendering text.
+-   [Windows Imaging Component](https://docs.microsoft.com/windows/desktop/wic/-wic-lh) for processing and displaying images.
+-   [Direct3D 10](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics) for drawing 3D graphics.
+-   [Direct3D 11](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) for drawing 3D graphics, and providing access to next-generation GPU technologies, such as tessellation, limited support for texture streaming, and general purpose computing.
+-   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi) for managing local and remote display devices and GPU resources, and providing interoperability between DirectX and GDI.
 
 ## Direct2D
 
@@ -31,7 +31,7 @@ Built on Microsoft Direct3D 10, [Direct2D](https://msdn.microsoft.com/en-us/lib
 
 ## DirectWrite
 
-Many of today's applications need to support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038), a new DirectX component, provides these features and more:
+Many of today's applications need to support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal), a new DirectX component, provides these features and more:
 
 -   A device-independent text layout system that improves text readability in documents and in UI.
 -   High-quality, sub-pixel, *ClearType* text rendering that can use GDI, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx), or application-specific rendering technology.
@@ -41,11 +41,11 @@ Many of today's applications need to support high-quality text rendering, resolu
 -   Support for the layout and rendering of text in all supported languages.
 -   GDI-compatible layout and rendering.
 
-The [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) font system enables "any font anywhere" font usage, where users don't have to perform a separate installation step just to use a font, and an improved structural hierarchy of font grouping to help with manual or programmatic font discovery. The APIs support measuring, drawing, and hit-testing of multi-format text. DirectWrite handles text in all supported languages for global and localized applications, building on the key language infrastructure found in Windows 7. DirectWrite also provides low-level glyph rendering APIs for developers who want to perform their own layout and Unicode-to-glyph processing. (See [DirectWrite](https://go.microsoft.com/?linkid=9669718).)
+The [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal) font system enables "any font anywhere" font usage, where users don't have to perform a separate installation step just to use a font, and an improved structural hierarchy of font grouping to help with manual or programmatic font discovery. The APIs support measuring, drawing, and hit-testing of multi-format text. DirectWrite handles text in all supported languages for global and localized applications, building on the key language infrastructure found in Windows 7. DirectWrite also provides low-level glyph rendering APIs for developers who want to perform their own layout and Unicode-to-glyph processing. (See [DirectWrite](https://go.microsoft.com/?linkid=9669718).)
 
 ## Windows Imaging Component
 
-In Windows Vista, the [Windows Imaging Component](https://msdn.microsoft.com/library/windows/desktop/ee719902) introduced an extensible framework for working with images and image metadata. The image formats supported by Windows Imaging Component include *JPEG*, *PNG*, and *TIFF*, and the supported metadata formats include *XMP* and *EXIF*. With Windows 7, Windows Imaging Component broadens its standards compliance by providing support for progressive image decoding, expanded *PNG* features, *GIF* metadata, and metadata that spans *APPn* segments. (See [What's New for WIC in Windows 7](https://go.microsoft.com/?linkid=9669722).)
+In Windows Vista, the [Windows Imaging Component](https://docs.microsoft.com/windows/desktop/wic/-wic-lh) introduced an extensible framework for working with images and image metadata. The image formats supported by Windows Imaging Component include *JPEG*, *PNG*, and *TIFF*, and the supported metadata formats include *XMP* and *EXIF*. With Windows 7, Windows Imaging Component broadens its standards compliance by providing support for progressive image decoding, expanded *PNG* features, *GIF* metadata, and metadata that spans *APPn* segments. (See [What's New for WIC in Windows 7](https://go.microsoft.com/?linkid=9669722).)
 
 ## Direct3D 11
 
@@ -55,9 +55,9 @@ Geometry and high-order surfaces can now be tessellated to support scalable, dyn
 
 To make good use of the parallel processing power available from multiple CPU cores, multithreading increases the number of potential rendering calls per frame by distributing the application, runtime, and driver calls across multiple cores. In addition, resource creation and management has been optimized for multithreaded use, enabling more efficient dynamic texture management for streaming.
 
-New general-purpose compute shaders have been created for Direct3D 11. Unlike existing shaders, these are extensions to the programmable pipeline that enable your application to do more work completely on the GPU, independent of the CPU. [**DrawAuto**](https://msdn.microsoft.com/library/windows/desktop/ff476408), which was introduced in Direct3D 10, has been extended to interact with a compute shader.
+New general-purpose compute shaders have been created for Direct3D 11. Unlike existing shaders, these are extensions to the programmable pipeline that enable your application to do more work completely on the GPU, independent of the CPU. [**DrawAuto**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-drawauto), which was introduced in Direct3D 10, has been extended to interact with a compute shader.
 
-Several improvements have been made to the high-level shading language ([HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561)), such as a limited form of dynamic linkage in shaders to improve specialization complexity, and object-oriented programming constructs like classes and interfaces. (See [What's New in the March 2009 DirectX SDK](https://go.microsoft.com/?linkid=9669710).)
+Several improvements have been made to the high-level shading language ([HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl)), such as a limited form of dynamic linkage in shaders to improve specialization complexity, and object-oriented programming constructs like classes and interfaces. (See [What's New in the March 2009 DirectX SDK](https://go.microsoft.com/?linkid=9669710).)
 
 ## Direct3D 10 Improvements
 
@@ -67,7 +67,7 @@ The pipeline also introduces the geometry shader stage, which offloads work enti
 
 Several other improvements are designed specifically for faster performance. Predicated rendering performs occlusion culling to reduce the amount of geometry that is rendered. Instancing APIs can dramatically reduce the amount of geometry that needs to be transferred to the GPU by drawing multiple-instances of similar objects. Texture arrays enable the GPU to do texture swapping without CPU intervention.
 
-Several additions have been made to Direct3D 10 and Direct3D 11 to extend the gamut of configurations that can be targeted with these APIs. The [Windows Advanced Rasterization Platform (WARP)](https://msdn.microsoft.com/library/windows/desktop/gg615082) implements fast, multi-core scalable CPU rendering for Direct3D 10, enabling full-featured graphics rendering on systems without graphics hardware. The addition of new "Feature Levels," specifically called [Direct3D 10 Level 9](https://msdn.microsoft.com/library/windows/desktop/ff476148), allow the Direct3D 10 and Direct3D 11APIs to drive Microsoft Direct3D 9-class hardware, expanding the number of configurations a Direct3D 10 or Direct3D 11 application can target to nearly every computer system on the market. (See [Direct3D 10 Graphics](https://go.microsoft.com/?linkid=9669717).)
+Several additions have been made to Direct3D 10 and Direct3D 11 to extend the gamut of configurations that can be targeted with these APIs. The [Windows Advanced Rasterization Platform (WARP)](https://docs.microsoft.com/windows/desktop/direct3darticles/directx-warp) implements fast, multi-core scalable CPU rendering for Direct3D 10, enabling full-featured graphics rendering on systems without graphics hardware. The addition of new "Feature Levels," specifically called [Direct3D 10 Level 9](https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-10level9), allow the Direct3D 10 and Direct3D 11APIs to drive Microsoft Direct3D 9-class hardware, expanding the number of configurations a Direct3D 10 or Direct3D 11 application can target to nearly every computer system on the market. (See [Direct3D 10 Graphics](https://go.microsoft.com/?linkid=9669717).)
 
 ## DirectX/GDI Interoperability
 

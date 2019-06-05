@@ -21,7 +21,7 @@ The **IMonitor** interface provides methods that control monitor operation. Thes
 
 ## Members
 
-The **IMonitor** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMonitor** also has these types of members:
+The **IMonitor** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMonitor** also has these types of members:
 
 -   [Methods](#methods)
 

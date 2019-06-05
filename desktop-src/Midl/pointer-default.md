@@ -53,7 +53,7 @@ interface dictionary
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://msdn.microsoft.com/library/windows/desktop/aa373540)
+[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [**ptr**](ptr.md)
@@ -65,7 +65,7 @@ interface dictionary
 [**unique**](unique.md)
 </dt> <dt>
 
-[Default Pointer Types](https://msdn.microsoft.com/library/windows/desktop/aa373628)
+[Default Pointer Types](https://docs.microsoft.com/windows/desktop/Rpc/default-pointer-types)
 </dt> </dl>
 
  

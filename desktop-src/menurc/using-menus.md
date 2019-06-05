@@ -84,13 +84,13 @@ To load a menu-template resource, use the [**LoadMenu**](/windows/desktop/api/Wi
 
 To create a menu from a menu template that is already in memory, use the [**LoadMenuIndirect**](/windows/desktop/api/Winuser/nf-winuser-loadmenuindirecta) function. This is useful if your application generates menu templates dynamically.
 
-To assign a menu to a window, use the [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) function or specify the menu's handle in the *hMenu* parameter of the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function when creating a window. Another way you can assign a menu to a window is to specify a menu template when you register a window class; the template identifies the specified menu as the class menu for that window class.
+To assign a menu to a window, use the [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) function or specify the menu's handle in the *hMenu* parameter of the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function when creating a window. Another way you can assign a menu to a window is to specify a menu template when you register a window class; the template identifies the specified menu as the class menu for that window class.
 
 To have the system automatically assign a specific menu to a window, specify the menu's template when you register the window's class. The template identifies the specified menu as the class menu for that window class. Then, when you create a window of the specified class, the system automatically assigns the specified menu to the window.
 
 You cannot assign a menu to a window that is a child window.
 
-To create a class menu, include the identifier of the menu-template resource as the **lpszMenuName** member of a [**WNDCLASS**](https://msdn.microsoft.com/library/windows/desktop/ms633576) structure and then pass a pointer to the structure to the [**RegisterClass**](https://msdn.microsoft.com/library/windows/desktop/ms633586) function.
+To create a class menu, include the identifier of the menu-template resource as the **lpszMenuName** member of a [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) structure and then pass a pointer to the structure to the [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) function.
 
 ### Creating a Class Menu
 
@@ -210,7 +210,7 @@ LRESULT APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ## Creating a Shortcut Menu
 
-To use a shortcut menu in an application, pass its handle to the [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex) function. An application typically calls **TrackPopupMenuEx** in a window procedure in response to a user-generated message, such as [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) or [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280).
+To use a shortcut menu in an application, pass its handle to the [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex) function. An application typically calls **TrackPopupMenuEx** in a window procedure in response to a user-generated message, such as [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) or [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown).
 
 In addition to the pop-up menu handle, [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex) requires that you specify a handle to the owner window, the position of the shortcut menu (in screen coordinates), and the mouse button that the user can use to choose an item.
 
@@ -226,7 +226,7 @@ You should permit the user to choose an item from a shortcut menu by using the s
 
 ### Processing the WM\_CONTEXTMENU Message
 
-The [**WM\_CONTEXTMENU**](wm-contextmenu.md) message is generated when an application's window procedure passes the [**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms646243) or [**WM\_NCRBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645630) message to the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function. The application can process this message to display a shortcut menu appropriate to a specific portion of its screen. If the application does not display a shortcut menu, it should pass the message to **DefWindowProc** for default handling.
+The [**WM\_CONTEXTMENU**](wm-contextmenu.md) message is generated when an application's window procedure passes the [**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup) or [**WM\_NCRBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-ncrbuttonup) message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. The application can process this message to display a shortcut menu appropriate to a specific portion of its screen. If the application does not display a shortcut menu, it should pass the message to **DefWindowProc** for default handling.
 
 Following is an example of [**WM\_CONTEXTMENU**](wm-contextmenu.md) message processing as it might appear in an application's window procedure. The low-order and high-order words of the *lParam* parameter specify the screen coordinates of the mouse when the right mouse button is released (note that these coordinates can take negative values on systems with multiple monitors). The application-defined **OnContextMenu** function returns **TRUE** if it displays a context menu, or **FALSE** if it does not.
 
@@ -451,16 +451,16 @@ Applications written for earlier versions of the system can continue to use the 
 
 ### Creating the Bitmap
 
-When you set the **MIIM\_BITMAP** or **MF\_BITMAP** type flag for a menu item, you must also specify a handle to the bitmap that the system should display for the menu item. You can provide the bitmap as a bitmap resource or create the bitmap at run time. If you use a bitmap resource, you can use the [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033) function to load the bitmap and obtain its handle.
+When you set the **MIIM\_BITMAP** or **MF\_BITMAP** type flag for a menu item, you must also specify a handle to the bitmap that the system should display for the menu item. You can provide the bitmap as a bitmap resource or create the bitmap at run time. If you use a bitmap resource, you can use the [**LoadBitmap**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa) function to load the bitmap and obtain its handle.
 
 To create the bitmap at run time, use Windows Graphics Device Interface (GDI) functions. GDI provides several ways to create a bitmap at run time, but developers typically use the following method:
 
-1.  Use the [**CreateCompatibleDC**](https://msdn.microsoft.com/library/windows/desktop/dd183489) function to create a device context compatible with the device context used by the application's main window.
-2.  Use the [**CreateCompatibleBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd183488) function to create a bitmap compatible with the application's main window or use the [**CreateBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd183485) function to create a monochrome bitmap.
-3.  Use the [**SelectObject**](https://msdn.microsoft.com/library/windows/desktop/dd162957) function to select the bitmap into the compatible device context.
-4.  Use GDI drawing functions, such as [**Ellipse**](https://msdn.microsoft.com/library/windows/desktop/dd162510) and [**LineTo**](https://msdn.microsoft.com/library/windows/desktop/dd145029), to draw an image into the bitmap.
+1.  Use the [**CreateCompatibleDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc) function to create a device context compatible with the device context used by the application's main window.
+2.  Use the [**CreateCompatibleBitmap**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap) function to create a bitmap compatible with the application's main window or use the [**CreateBitmap**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap) function to create a monochrome bitmap.
+3.  Use the [**SelectObject**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject) function to select the bitmap into the compatible device context.
+4.  Use GDI drawing functions, such as [**Ellipse**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse) and [**LineTo**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto), to draw an image into the bitmap.
 
-For more information, see [Bitmaps](https://msdn.microsoft.com/library/windows/desktop/dd183377).
+For more information, see [Bitmaps](https://docs.microsoft.com/windows/desktop/gdi/bitmaps).
 
 ### Adding Lines and Graphs to a Menu
 
@@ -689,11 +689,11 @@ VOID MakeLineMenu(HWND hwnd, HPEN phpen, HBITMAP phbmp)
 
 The example in this topic creates two menus, each containing several bitmap menu items. For each menu, the application adds a corresponding menu name to the main window's menu bar.
 
-The first menu contains menu items showing each of three chart types: pie, line, and bar. The bitmaps for these menu items are defined as resources and are loaded by using the [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033) function. Associated with this menu is a "Chart" menu name on the menu bar.
+The first menu contains menu items showing each of three chart types: pie, line, and bar. The bitmaps for these menu items are defined as resources and are loaded by using the [**LoadBitmap**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa) function. Associated with this menu is a "Chart" menu name on the menu bar.
 
-The second menu contains menu items showing each of the five line styles used with the [**CreatePen**](https://msdn.microsoft.com/library/windows/desktop/dd183509) function: **PS\_SOLID**, **PS\_DASH**, **PS\_DOT**, **PS\_DASHDOT**, and **PS\_DASHDOTDOT**. The application creates the bitmaps for these menu items at run time using GDI drawing functions. Associated with this menu is a **Lines** menu name on the menu bar.
+The second menu contains menu items showing each of the five line styles used with the [**CreatePen**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen) function: **PS\_SOLID**, **PS\_DASH**, **PS\_DOT**, **PS\_DASHDOT**, and **PS\_DASHDOTDOT**. The application creates the bitmaps for these menu items at run time using GDI drawing functions. Associated with this menu is a **Lines** menu name on the menu bar.
 
-Defined in the application's window procedure are two static arrays of bitmap handles. One array contains the handles of the three bitmaps used for the **Chart** menu. The other contains the handles of the five bitmaps used for the **Lines** menu. When processing the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message, the window procedure loads the chart bitmaps, creates the line bitmaps, and then adds the corresponding menu items. When processing the [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620) message, the window procedure deletes all of the bitmaps.
+Defined in the application's window procedure are two static arrays of bitmap handles. One array contains the handles of the three bitmaps used for the **Chart** menu. The other contains the handles of the five bitmaps used for the **Lines** menu. When processing the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message, the window procedure loads the chart bitmaps, creates the line bitmaps, and then adds the corresponding menu items. When processing the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message, the window procedure deletes all of the bitmaps.
 
 Following are the relevant portions of the application's header file.
 
@@ -789,7 +789,7 @@ LRESULT CALLBACK MainWindowProc(
 
 
 
-The application-defined LoadChartBitmaps function loads the bitmap resources for the chart menu by calling the [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033) function, as follows.
+The application-defined LoadChartBitmaps function loads the bitmap resources for the chart menu by calling the [**LoadBitmap**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa) function, as follows.
 
 
 ```
@@ -1015,14 +1015,14 @@ END
 
 
 
-The application's window procedure processes the messages involved in using owner-drawn menu items. The application uses the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message to do the following:
+The application's window procedure processes the messages involved in using owner-drawn menu items. The application uses the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message to do the following:
 
 -   Set the **MF\_OWNERDRAW** flag for the menu items.
 -   Set the text strings for the menu items.
 -   Obtain handles of the fonts used to draw the items.
 -   Obtain the text and background color values for selected menu items.
 
-The text strings and font handles are stored in an array of application-defined MYITEM structures. The application-defined GetAFont function creates a font that corresponds to the specified font attribute and returns a handle to the font. The handles are destroyed during the processing of the [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620) message.
+The text strings and font handles are stored in an array of application-defined MYITEM structures. The application-defined GetAFont function creates a font that corresponds to the specified font attribute and returns a handle to the font. The handles are destroyed during the processing of the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message.
 
 During the processing of the [**WM\_MEASUREITEM**](https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx) message, the example gets the width and height of a menu-item string and copies these values into the [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775804(v=VS.85).aspx) structure. The system uses the width and height values to calculate the size of the menu.
 
@@ -1257,7 +1257,7 @@ HFONT GetAFont(int fnFont)
 
 The example in this topic uses owner-drawn menu items in a menu. The menu items select specific font attributes, and the application displays each menu item using a font that has the corresponding attribute. For example, the **Italic** menu item is displayed in an italic font. The **Character** menu name on the menu bar opens the menu.
 
-The menu bar and drop-down menu are defined initially by an extended menu-template resource. Because a menu template cannot specify owner-drawn items, the menu initially contains four text menu items with the following strings: "Regular," "Bold," "Italic," and "Underline." The application's window procedure changes these to owner-drawn items when it processes the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message. When it receives the **WM\_CREATE** message, the window procedure calls the application-defined OnCreate function, which performs the following steps for each menu item:
+The menu bar and drop-down menu are defined initially by an extended menu-template resource. Because a menu template cannot specify owner-drawn items, the menu initially contains four text menu items with the following strings: "Regular," "Bold," "Italic," and "Underline." The application's window procedure changes these to owner-drawn items when it processes the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message. When it receives the **WM\_CREATE** message, the window procedure calls the application-defined OnCreate function, which performs the following steps for each menu item:
 
 -   Allocates an application-defined MYITEM structure.
 -   Gets the text of the menu item and saves it in the application-defined MYITEM structure.
@@ -1266,11 +1266,11 @@ The menu bar and drop-down menu are defined initially by an extended menu-templa
 
 Because a pointer to each application-defined MYITEM structure is saved as item data, it is passed to the window procedure in conjunction with the [**WM\_MEASUREITEM**](https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx) and [**WM\_DRAWITEM**](https://msdn.microsoft.com/library/Bb775923(v=VS.85).aspx) messages for the corresponding menu item. The pointer is contained in the **itemData** member of both the [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775804(v=VS.85).aspx) and [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structures.
 
-A [**WM\_MEASUREITEM**](https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx) message is sent for each owner-drawn menu item the first time it is displayed. The application processes this message by selecting the font for the menu item into a device context and then determining the space required to display the menu item text in that font. The font and menu item text are both specified by the menu item's `MYITEM` structure (the structure defined by the application). The application determines the size of the text by using the [**GetTextExtentPoint32**](https://msdn.microsoft.com/library/windows/desktop/dd144938) function.
+A [**WM\_MEASUREITEM**](https://msdn.microsoft.com/library/Bb775925(v=VS.85).aspx) message is sent for each owner-drawn menu item the first time it is displayed. The application processes this message by selecting the font for the menu item into a device context and then determining the space required to display the menu item text in that font. The font and menu item text are both specified by the menu item's `MYITEM` structure (the structure defined by the application). The application determines the size of the text by using the [**GetTextExtentPoint32**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a) function.
 
 The window procedure processes the [**WM\_DRAWITEM**](https://msdn.microsoft.com/library/Bb775923(v=VS.85).aspx) message by displaying the menu item text in the appropriate font. The font and menu item text are both specified by the menu item's `MYITEM` structure. The application selects text and background colors appropriate to the menu item's state.
 
-The window procedure processes the [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620) message to destroy fonts and free memory. The application deletes the font and frees the application-defined MYITEM structure for each menu item.
+The window procedure processes the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message to destroy fonts and free memory. The application deletes the font and frees the application-defined MYITEM structure for each menu item.
 
 The following are the relevant portions of the application's header file.
 
@@ -1529,31 +1529,31 @@ The system provides a default check-mark bitmap for displaying next to a menu it
 
 ### Creating Custom Check Mark Bitmaps
 
-A custom check-mark bitmap must be the same size as the default check-mark bitmap. You can retrieve the default check-mark size of the bitmap by calling the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function. The low-order word of this function's return value specifies the width; the high-order word specifies the height.
+A custom check-mark bitmap must be the same size as the default check-mark bitmap. You can retrieve the default check-mark size of the bitmap by calling the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. The low-order word of this function's return value specifies the width; the high-order word specifies the height.
 
-You can use bitmap resources to provide check-mark bitmaps. However, because the required bitmap size varies depending on the display type, you may need to resize the bitmap at run time by using the [**StretchBlt**](https://msdn.microsoft.com/library/windows/desktop/dd145120) function. Depending on the bitmap, the distortion caused by sizing could produce unacceptable results.
+You can use bitmap resources to provide check-mark bitmaps. However, because the required bitmap size varies depending on the display type, you may need to resize the bitmap at run time by using the [**StretchBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt) function. Depending on the bitmap, the distortion caused by sizing could produce unacceptable results.
 
 Instead of using a bitmap resource, you can create a bitmap at run time by using GDI functions.
 
 **To create a bitmap at run time**
 
-1.  Use the [**CreateCompatibleDC**](https://msdn.microsoft.com/library/windows/desktop/dd183489) function to create a device context compatible with the one used by the application's main window.
+1.  Use the [**CreateCompatibleDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc) function to create a device context compatible with the one used by the application's main window.
 
-    The function's *hdc* parameter can specify either **NULL** or the return value from the function. [**CreateCompatibleDC**](https://msdn.microsoft.com/library/windows/desktop/dd183489) returns a handle to the compatible device context.
+    The function's *hdc* parameter can specify either **NULL** or the return value from the function. [**CreateCompatibleDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc) returns a handle to the compatible device context.
 
-2.  Use the [**CreateCompatibleBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd183488) function to create a bitmap compatible with the application's main window.
+2.  Use the [**CreateCompatibleBitmap**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap) function to create a bitmap compatible with the application's main window.
 
-    This function's *nWidth* and *nHeight* parameters set the size of the bitmap; they should specify the width and height information returned by the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function.
+    This function's *nWidth* and *nHeight* parameters set the size of the bitmap; they should specify the width and height information returned by the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function.
 
     > [!Note]  
-    > You can also use the [**CreateBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd183485) function to create a monochrome bitmap.
+    > You can also use the [**CreateBitmap**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap) function to create a monochrome bitmap.
 
      
 
-3.  Use the [**SelectObject**](https://msdn.microsoft.com/library/windows/desktop/dd162957) function to select the bitmap into the compatible device context.
-4.  Use GDI drawing functions, such as [**Ellipse**](https://msdn.microsoft.com/library/windows/desktop/dd162510) and [**LineTo**](https://msdn.microsoft.com/library/windows/desktop/dd145029), to draw an image into the bitmap, or use functions such as [**BitBlt**](https://msdn.microsoft.com/library/windows/desktop/dd183370) and [**StretchBlt**](https://msdn.microsoft.com/library/windows/desktop/dd145120) to copy an image into the bitmap.
+3.  Use the [**SelectObject**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject) function to select the bitmap into the compatible device context.
+4.  Use GDI drawing functions, such as [**Ellipse**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ellipse) and [**LineTo**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto), to draw an image into the bitmap, or use functions such as [**BitBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt) and [**StretchBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt) to copy an image into the bitmap.
 
-For more information, see [Bitmaps](https://msdn.microsoft.com/library/windows/desktop/dd183377).
+For more information, see [Bitmaps](https://docs.microsoft.com/windows/desktop/gdi/bitmaps).
 
 ### Associating Bitmaps with a Menu Item
 
@@ -1575,7 +1575,7 @@ The example replaces the default check-mark bitmap with two bitmaps: a bitmap wi
 
 The system provides a predefined bitmap that contains the images used for check boxes and radio buttons. The example isolates the selected and empty check boxes, copies them to two separate bitmaps, and then uses them as the selected and cleared bitmaps for items in the **Character** menu.
 
-To retrieve a handle to the system-defined check box bitmap, the example calls the [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033) function, specifying **NULL** as the *hInstance* parameter and **OBM\_CHECKBOXES** as the *lpBitmapName* parameter. Because the images in the bitmap are all the same size, the example can isolate them by dividing the bitmap width and height by the number of images in its rows and columns.
+To retrieve a handle to the system-defined check box bitmap, the example calls the [**LoadBitmap**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa) function, specifying **NULL** as the *hInstance* parameter and **OBM\_CHECKBOXES** as the *lpBitmapName* parameter. Because the images in the bitmap are all the same size, the example can isolate them by dividing the bitmap width and height by the number of images in its rows and columns.
 
 The following portion of a resource-definition file shows how the menu items in the **Character** menu are defined. Note that no font attributes are in effect initially, so the check-mark attribute for the **Regular** item is set to selected and, by default, the check-mark attribute of the remaining items is set to clear.
 
@@ -1905,13 +1905,13 @@ The example in this topic assigns custom check-mark bitmaps to menu items in two
 
 The menu items in the second menu specify paragraph alignment settings: left, centered, and right. Only one of these menu items is selected at any time. For these menu items, the example uses check-mark bitmaps that resemble the selected and clear states of a radio button control.
 
-The window procedure processes the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message by calling the application-defined OnCreate function. `OnCreate` creates the four check-mark bitmaps and then assigns them to their appropriate menu items by using the [**SetMenuItemBitmaps**](/windows/desktop/api/Winuser/nf-winuser-setmenuitembitmaps) function.
+The window procedure processes the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message by calling the application-defined OnCreate function. `OnCreate` creates the four check-mark bitmaps and then assigns them to their appropriate menu items by using the [**SetMenuItemBitmaps**](/windows/desktop/api/Winuser/nf-winuser-setmenuitembitmaps) function.
 
 To create each bitmap, OnCreate calls the application-defined CreateMenuBitmaps function, specifying a pointer to a bitmap-specific drawing function. CreateMenuBitmaps creates a monochrome bitmap of the required size, selects it into a memory device context, and erases the background. Then it calls the specified drawing function to fill in the foreground.
 
 The four application-defined drawing functions are DrawCheck, DrawUncheck, **DrawRadioCheck**, and DrawRadioUncheck. They draw a rectangle with an X, an empty rectangle, an ellipse containing a smaller filled ellipse, and an empty ellipse, respectively.
 
-The window procedure processes the [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620) message by deleting the check-mark bitmaps. It retrieves each bitmap handle by using the [**GetMenuItemInfo**](/windows/desktop/api/Winuser/nf-winuser-getmenuiteminfoa) function and then passes a handle to the function.
+The window procedure processes the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message by deleting the check-mark bitmaps. It retrieves each bitmap handle by using the [**GetMenuItemInfo**](/windows/desktop/api/Winuser/nf-winuser-getmenuiteminfoa) function and then passes a handle to the function.
 
 When the user chooses a menu item, a [**WM\_COMMAND**](wm-command.md) message is sent to the owner window. For menu items on the **Character** menu, the window procedure calls the application-defined CheckCharacterItem function. For items on the **Paragraph** menu, the window procedure calls the application-defined CheckParagraphItem function.
 

@@ -149,7 +149,7 @@ The single instance of the **ScriptingStandardConsumerSetting** class resides in
 
 <dl> <dt>
 
-[**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461)
+[**CIM\_Setting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-setting)
 </dt> <dt>
 
 [Standard Consumer Classes](standard-consumer-classes.md)

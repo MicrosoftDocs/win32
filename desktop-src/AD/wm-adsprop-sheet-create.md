@@ -66,7 +66,7 @@ The return value for this message is always zero.
 
 ## Remarks
 
-The caller must allocate the [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md) structure, the title string and all [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) strings using a single call to the [**LocalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366723) function. The **WM\_ADSPROP\_SHEET\_CREATE** message is an asynchronous message, so it will return before the secondary sheet is created. Because of this, the memory must remain intact after the message returns. The receiver will free this memory with a single call to the [**LocalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366730) function after the secondary sheet is created.
+The caller must allocate the [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md) structure, the title string and all [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) strings using a single call to the [**LocalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc) function. The **WM\_ADSPROP\_SHEET\_CREATE** message is an asynchronous message, so it will return before the secondary sheet is created. Because of this, the memory must remain intact after the message returns. The receiver will free this memory with a single call to the [**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree) function after the secondary sheet is created.
 
 ## Requirements
 
@@ -95,10 +95,10 @@ The caller must allocate the [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md) st
 [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject)
 </dt> <dt>
 
-[**LocalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366723)
+[**LocalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc)
 </dt> <dt>
 
-[**LocalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366730)
+[**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree)
 </dt> </dl>
 
  

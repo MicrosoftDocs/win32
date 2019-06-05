@@ -18,13 +18,13 @@ For information about how to use the XPS Object Model and how it is implemented 
 
 Before you start using the XPS Document API, make sure that you are familiar with the following programming topics:<dl>
 
-[COM Programming](https://msdn.microsoft.com/library/windows/desktop/ms680573)  
-[Error Handling in COM](https://msdn.microsoft.com/library/windows/desktop/ms679692)  
+[COM Programming](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal)  
+[Error Handling in COM](https://docs.microsoft.com/windows/desktop/com/error-handling-in-com)  
 </dl>
 
 When using the XPS Document API, you might also want to use the following technologies:<dl>
 
-[DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038)  
+[DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal)  
 [XPS Print API](https://msdn.microsoft.com/en-us/library/Ff728890(v=VS.85).aspx)  
 [XPS Digital Signature API](xps-digital-signatures.md)  
 </dl>

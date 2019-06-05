@@ -37,11 +37,11 @@ In the earlier shader models, only the constant register bank could be indexed. 
 
 ### Vertex Textures
 
-This shader model supports texture lookup in the vertex shader using texldl. The vertex engine has four texture sampler stages (distinct from the displacement map sampler and the texture samplers in the pixel engine) that can be used to sample textures set at those stages. See [Vertex Textures in vs\_3\_0 (DirectX HLSL)](https://msdn.microsoft.com/library/windows/desktop/bb206339).
+This shader model supports texture lookup in the vertex shader using texldl. The vertex engine has four texture sampler stages (distinct from the displacement map sampler and the texture samplers in the pixel engine) that can be used to sample textures set at those stages. See [Vertex Textures in vs\_3\_0 (DirectX HLSL)](https://docs.microsoft.com/windows/desktop/direct3d9/vertex-textures-in-vs-3-0).
 
 ### Vertex Stream Frequency
 
-This feature allows a subset of the input registers to be initialized at a rate different from once per vertex. See [Drawing Non-Indexed Geometry](https://msdn.microsoft.com/library/windows/desktop/bb173349).
+This feature allows a subset of the input registers to be initialized at a rate different from once per vertex. See [Drawing Non-Indexed Geometry](https://docs.microsoft.com/windows/desktop/direct3d9/efficiently-drawing-multiple-instances-of-geometry).
 
 ### Shader Output
 
@@ -65,7 +65,7 @@ Instruction predication is supported. Use [setp\_comp - vs](setp-comp---vs.md) t
 
 ### Instruction Count
 
-Each vertex shader is allowed anywhere from 512 up to the number of slots in MaxVertexShader30InstructionSlots in [**D3DCAPS9**](https://msdn.microsoft.com/library/windows/desktop/bb172513). The number of instructions run can be much higher because of the loop/rep support; however, this is capped by MaxVShaderInstructionsExecuted in D3DCAPS9 which should be at least 0xFFFF.
+Each vertex shader is allowed anywhere from 512 up to the number of slots in MaxVertexShader30InstructionSlots in [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9). The number of instructions run can be much higher because of the loop/rep support; however, this is capped by MaxVShaderInstructionsExecuted in D3DCAPS9 which should be at least 0xFFFF.
 
 ### Device Caps
 
@@ -117,12 +117,12 @@ If Vertex Shader 3\_0 is supported, the following caps are supported in hardware
 <tr class="odd">
 <td>VertexTextureFilterCaps</td>
 <td><ul>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/bb172593">D3DPTFILTERCAPS_MINFPOINT</a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/bb172593">D3DPTFILTERCAPS_MAGFPOINT</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb172537">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
 <td>Vertex elements in a vertex declaration can share the same stream offset.</td>
 </tr>
 <tr class="odd">

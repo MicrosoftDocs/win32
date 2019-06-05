@@ -24,7 +24,7 @@ The following topics discuss provider security:
 The following topics discuss how clients and scripts interact with provider security:
 
 -   [Setting Authentication in WMI](setting-authentication-in-wmi.md)
--   [Connecting Between Different Operating Systems](https://msdn.microsoft.com/library/aa389284)
+-   [Connecting Between Different Operating Systems](https://docs.microsoft.com/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection)
 -   [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md)
 -   [Setting Client Application Process Security](setting-client-application-process-security.md)
 

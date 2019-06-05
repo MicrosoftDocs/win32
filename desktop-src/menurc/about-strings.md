@@ -40,7 +40,7 @@ Many string functions duplicate or enhance familiar string functions from the st
 
 The **strlen** function, for example, always returns the number of bytes in a string, but the [**lstrlen**](/windows/desktop/api/Winbase/nf-winbase-lstrlena) function returns the number of **TCHAR** values, which refers to bytes for ANSI versions of the function or **WCHAR** values for Unicode versions.
 
-The following string functions differ from standard C functions such as **tolower** and **toupper** in that they operate on any character in a character set. By using the [**CharLower**](/windows/desktop/api/Winuser/nf-winuser-charlowera) function, for example, an application can convert an uppercase U with an umlaut (Ü) to lowercase (ü). For more information about character sets, see [Single-byte Character Sets](https://msdn.microsoft.com/library/windows/desktop/dd374056).
+The following string functions differ from standard C functions such as **tolower** and **toupper** in that they operate on any character in a character set. By using the [**CharLower**](/windows/desktop/api/Winuser/nf-winuser-charlowera) function, for example, an application can convert an uppercase U with an umlaut (Ü) to lowercase (ü). For more information about character sets, see [Single-byte Character Sets](https://docs.microsoft.com/windows/desktop/Intl/single-byte-character-sets).
 
 
 
@@ -89,7 +89,7 @@ The following table shows the Unicode extensions to the standard C run-time (CRT
 
 An application that maintains character strings in resources can be translated into new languages with minimum effort. Instead of searching for strings in the source modules, you can simply translate the strings in the resource file and relink the application. In addition, using string resources simplifies creation of Unicode and non-Unicode versions of the application from the same source files.
 
-The [**LoadString**](/windows/desktop/api/Winuser/nf-winuser-loadstringa) function loads a string resource from an application's executable file. The [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function loads a string resource and interprets formatting options that may be embedded in the string.
+The [**LoadString**](/windows/desktop/api/Winuser/nf-winuser-loadstringa) function loads a string resource from an application's executable file. The [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) function loads a string resource and interprets formatting options that may be embedded in the string.
 
 Resources in binary form are stored in Unicode format. When loading resources, applications can use the Unicode version of the resource functions ([**LoadStringW**](/windows/desktop/api/Winuser/nf-winuser-loadstringa), for example) to obtain resources as Unicode data.
 

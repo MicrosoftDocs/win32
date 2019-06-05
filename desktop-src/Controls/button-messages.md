@@ -21,7 +21,7 @@ The following topics are discussed in this section.
 
 ## Sending Messages to Buttons
 
-A parent window can send messages to a button in an overlapped or child window by using the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function, or it can send messages to a button in a dialog box by using the [**SendDlgItemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms645515), [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton), [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton), and [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) functions.
+A parent window can send messages to a button in an overlapped or child window by using the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function, or it can send messages to a button in a dialog box by using the [**SendDlgItemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea), [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton), [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton), and [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) functions.
 
 An application can use the [**BM\_GETCHECK**](bm-getcheck.md) message to retrieve the check state of a check box or radio button. An application can also use the [**BM\_GETSTATE**](bm-getstate.md) message to retrieve the button's current states (the check state, push state, and focus state). To get information about a specific state, use a bitmask on the returned state value.
 
@@ -29,19 +29,19 @@ The [**BM\_SETCHECK**](bm-setcheck.md) message sets the check state of a check b
 
 A button of the [**BS\_BITMAP**](button-styles.md) or [**BS\_ICON**](button-styles.md) style displays a bitmap or icon instead of text. The [**BM\_SETIMAGE**](bm-setimage.md) message associates a handle to a bitmap or icon with a button. The [**BM\_GETIMAGE**](bm-getimage.md) message retrieves a handle to the bitmap or icon associated with a button.
 
-An application can also use the [**DM\_GETDEFID**](https://msdn.microsoft.com/library/windows/desktop/ms645406) message to retrieve the identifier of the default push button control in a dialog box. An application can use the [**DM\_SETDEFID**](https://msdn.microsoft.com/library/windows/desktop/ms645413) message to set the default push button for a dialog box.
+An application can also use the [**DM\_GETDEFID**](https://docs.microsoft.com/windows/desktop/dlgbox/dm-getdefid) message to retrieve the identifier of the default push button control in a dialog box. An application can use the [**DM\_SETDEFID**](https://docs.microsoft.com/windows/desktop/dlgbox/dm-setdefid) message to set the default push button for a dialog box.
 
 Calling the [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton) or [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton) function is equivalent to sending a [**BM\_SETCHECK**](bm-setcheck.md) message. Calling the [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) function is equivalent to sending a [**BM\_GETCHECK**](bm-getcheck.md) message.
 
 ## Handling Messages from a Button
 
-Notifications from a button are sent as either [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) or [**WM\_NOTIFY**](wm-notify.md) messages. Information about which message is used can be found on the reference page for each notification.
+Notifications from a button are sent as either [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) or [**WM\_NOTIFY**](wm-notify.md) messages. Information about which message is used can be found on the reference page for each notification.
 
 For more information on how to handle messages, see [Control Messages](control-messages.md). See also Button Messages.
 
 ## Notification Messages from Buttons
 
-When the user clicks a button, its state changes, and the button sends notification codes, in the form of [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages, to its parent window. For example, a push button control sends the [BN\_CLICKED](bn-clicked.md) notification code whenever the user chooses the button. In all cases (except for [BCN\_HOTITEMCHANGE](bcn-hotitemchange.md)), the low-order word of the *wParam* parameter contains the control identifier, the high-order word of *wParam* contains the notification code, and the *lParam* parameter contains the control window handle.
+When the user clicks a button, its state changes, and the button sends notification codes, in the form of [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages, to its parent window. For example, a push button control sends the [BN\_CLICKED](bn-clicked.md) notification code whenever the user chooses the button. In all cases (except for [BCN\_HOTITEMCHANGE](bcn-hotitemchange.md)), the low-order word of the *wParam* parameter contains the control identifier, the high-order word of *wParam* contains the notification code, and the *lParam* parameter contains the control window handle.
 
 Both the message and the parent window's response depend on the type, style, and current state of the button. Following are the button notification codes an application should monitor and process.
 
@@ -71,7 +71,7 @@ When the user selects an owner-drawn button, the button sends its parent window 
 
 ## Button Color Messages
 
-The system provides default color values for buttons. An application can retrieve the default values for these colors by calling the [**GetSysColor**](https://msdn.microsoft.com/library/windows/desktop/ms724371) function, or set the values by calling the [**SetSysColors**](https://msdn.microsoft.com/library/windows/desktop/ms724940) function. The following table shows the default button-color values.
+The system provides default color values for buttons. An application can retrieve the default values for these colors by calling the [**GetSysColor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor) function, or set the values by calling the [**SetSysColors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors) function. The following table shows the default button-color values.
 
 
 
@@ -90,7 +90,7 @@ The system provides default color values for buttons. An application can retriev
 
  
 
-However, calling [**SetSysColors**](https://msdn.microsoft.com/library/windows/desktop/ms724940) affects all applications, so you should not call this function to customize buttons for your application.
+However, calling [**SetSysColors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors) affects all applications, so you should not call this function to customize buttons for your application.
 
 The system sends a [**WM\_CTLCOLORBTN**](wm-ctlcolorbtn.md) message to a button's parent window before drawing a button. This message contains a handle to the button's device context and a handle to the child window. The parent window can use these handles to change the button's text and background colors. However, only owner-drawn buttons respond to the parent window processing the message.
 
@@ -114,7 +114,7 @@ The window procedure for the predefined button control window class carries out 
 <tbody>
 <tr class="odd">
 <td><a href="bm-click"><strong>BM_CLICK</strong></a></td>
-<td>Sends the button a <a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="https://msdn.microsoft.com/library/windows/desktop/ms645608"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
+<td>Sends the button a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="even">
 <td><a href="bm-getcheck"><strong>BM_GETCHECK</strong></a></td>
@@ -130,7 +130,7 @@ The window procedure for the predefined button control window class carries out 
 </tr>
 <tr class="odd">
 <td><a href="bm-setcheck"><strong>BM_SETCHECK</strong></a></td>
-<td>Sets the check state for all styles of radio buttons and check boxes. If the <em>wParam</em> parameter is greater than zero for radio buttons, the button is given the <a href="https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop"><strong>WS_TABSTOP</strong></a> style.</td>
+<td>Sets the check state for all styles of radio buttons and check boxes. If the <em>wParam</em> parameter is greater than zero for radio buttons, the button is given the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles"><strong>WS_TABSTOP</strong></a> style.</td>
 </tr>
 <tr class="even">
 <td><a href="bm-setimage"><strong>BM_SETIMAGE</strong></a></td>
@@ -145,19 +145,19 @@ The window procedure for the predefined button control window class carries out 
 <td>Sets the button style. If the low-order word of the <em>lParam</em> parameter is <strong>TRUE</strong>, the button is redrawn.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646276"><strong>WM_CHAR</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a></td>
 <td>Checks a check box or automatic check box when the user presses the plus (+) or equal (=) keys. Clears a check box or automatic check box when the user presses the minus (–) key.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632621"><strong>WM_ENABLE</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-enable"><strong>WM_ENABLE</strong></a></td>
 <td>Paints the button.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms648055"><strong>WM_ERASEBKGND</strong></a></td>
-<td>Erases the background for owner-drawn buttons. The backgrounds of other buttons are erased as part of the <a href="https://msdn.microsoft.com/library/windows/desktop/dd145213"><strong>WM_PAINT</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ms632621"><strong>WM_ENABLE</strong></a> processing.</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd"><strong>WM_ERASEBKGND</strong></a></td>
+<td>Erases the background for owner-drawn buttons. The backgrounds of other buttons are erased as part of the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint"><strong>WM_PAINT</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-enable"><strong>WM_ENABLE</strong></a> processing.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645425"><strong>WM_GETDLGCODE</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-getdlgcode"><strong>WM_GETDLGCODE</strong></a></td>
 <td>Returns values that indicate the type of input processed by the default button procedure, as shown in the following table. 
 <table>
 <thead>
@@ -201,63 +201,63 @@ The window procedure for the predefined button control window class carries out 
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632624"><strong>WM_GETFONT</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-getfont"><strong>WM_GETFONT</strong></a></td>
 <td>Returns a handle to the current font.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646280"><strong>WM_KEYDOWN</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown"><strong>WM_KEYDOWN</strong></a></td>
 <td>Pushes the button if the user presses the SPACEBAR.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646281"><strong>WM_KEYUP</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup"><strong>WM_KEYUP</strong></a></td>
 <td>Releases the mouse capture for all cases except the TAB key.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646282"><strong>WM_KILLFOCUS</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-killfocus"><strong>WM_KILLFOCUS</strong></a></td>
 <td>Removes the focus rectangle from a button. For push buttons and default push buttons, the focus rectangle is invalidated. If the button has the mouse capture, the capture is released, the button is not clicked, and any push state is removed.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645606"><strong>WM_LBUTTONDBLCLK</strong></a></td>
-<td>Sends a <a href="bn-dblclk">BN_DBLCLK</a> notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a <a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a> message.</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk"><strong>WM_LBUTTONDBLCLK</strong></a></td>
+<td>Sends a <a href="bn-dblclk">BN_DBLCLK</a> notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> message.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a></td>
 <td>Highlights the button if the position of the mouse cursor is within the button's client rectangle.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645608"><strong>WM_LBUTTONUP</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup"><strong>WM_LBUTTONUP</strong></a></td>
 <td>Releases the mouse capture if the button had the mouse capture.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645616"><strong>WM_MOUSEMOVE</strong></a></td>
-<td>Performs the same action as <a href="https://msdn.microsoft.com/library/windows/desktop/ms645607"><strong>WM_LBUTTONDOWN</strong></a>, if the button has the mouse capture. Otherwise, no action is performed.</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove"><strong>WM_MOUSEMOVE</strong></a></td>
+<td>Performs the same action as <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a>, if the button has the mouse capture. Otherwise, no action is performed.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632635"><strong>WM_NCCREATE</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate"><strong>WM_NCCREATE</strong></a></td>
 <td>Turns any <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button into a <a href="button-styles"><strong>BS_PUSHBUTTON</strong></a> button.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms645618"><strong>WM_NCHITTEST</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest"><strong>WM_NCHITTEST</strong></a></td>
 <td>Returns HTTRANSPARENT, if the button control is a group box.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd145213"><strong>WM_PAINT</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint"><strong>WM_PAINT</strong></a></td>
 <td>Draws the button according to its style and current state.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646283"><strong>WM_SETFOCUS</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus"><strong>WM_SETFOCUS</strong></a></td>
 <td>Draws a focus rectangle on the button getting the focus. For radio buttons and automatic radio buttons, the parent window is sent a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632642"><strong>WM_SETFONT</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont"><strong>WM_SETFONT</strong></a></td>
 <td>Sets a new font and optionally updates the window.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms632644"><strong>WM_SETTEXT</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext"><strong>WM_SETTEXT</strong></a></td>
 <td>Sets the text of the button. In the case of a group box, the message paints over the preexisting text before repainting the group box with the new text.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646287"><strong>WM_SYSKEYUP</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup"><strong>WM_SYSKEYUP</strong></a></td>
 <td>Releases the mouse capture for all cases except the TAB key.</td>
 </tr>
 </tbody>
@@ -267,7 +267,7 @@ The window procedure for the predefined button control window class carries out 
 
  
 
-The predefined window procedure passes all other messages to the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function for default processing.
+The predefined window procedure passes all other messages to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for default processing.
 
 ## Related topics
 

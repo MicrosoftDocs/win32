@@ -14,7 +14,7 @@ Starting with Windows 7, whenever the default audio device changes, an app's aud
 
 Starting with the Windows 10, version 1607, apps that use WASAPI can take advantage of automatic stream routing. If your application uses WASAPI it is highly recommended that you update your application to take advantage of this new capability using the following steps:
 
-1.  Windows 10, version 1607, defines two new GUIDs that can be used to activate an audio render or capture interface with automatic stream routing, [DEVINTERFACE\_AUDIO\_RENDER](https://msdn.microsoft.com/en-us/library/windows/desktop/dn911486.aspx) and [DEVINTERFACE\_AUDIO\_CAPTURE](https://msdn.microsoft.com/en-us/library/windows/desktop/dn911486.aspx). Get a string representation of these GUIDs by calling [**StringFromIID**](https://msdn.microsoft.com/library/windows/desktop/ms688692). The following example shows this call for the audio render GUID.
+1.  Windows 10, version 1607, defines two new GUIDs that can be used to activate an audio render or capture interface with automatic stream routing, [DEVINTERFACE\_AUDIO\_RENDER](https://docs.microsoft.com/windows/desktop/CoreAudio/devinterface-xxx-guids) and [DEVINTERFACE\_AUDIO\_CAPTURE](https://docs.microsoft.com/windows/desktop/CoreAudio/devinterface-xxx-guids). Get a string representation of these GUIDs by calling [**StringFromIID**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid). The following example shows this call for the audio render GUID.
 
     ```C++
     PWSTR audioRenderGuidString;
@@ -55,10 +55,10 @@ To demonstrate automatic stream routing, use a laptop or tablet equipped with in
 [Stream Routing](stream-routing.md)
 </dt> <dt>
 
-[**MediaDevice.GetDefaultAudioRenderId**](https://msdn.microsoft.com/library/windows/apps/br226819)
+[**MediaDevice.GetDefaultAudioRenderId**](https://docs.microsoft.com/uwp/api/windows.media.devices.mediadevice.getdefaultaudiorenderid)
 </dt> <dt>
 
-[**MediaDevice.GetDefaultAudioCaptureId**](https://msdn.microsoft.com/library/windows/apps/br226818)
+[**MediaDevice.GetDefaultAudioCaptureId**](https://docs.microsoft.com/uwp/api/windows.media.devices.mediadevice.getdefaultaudiocaptureid)
 </dt> <dt>
 
 [**ActivateAudioInterfaceAsync**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync)

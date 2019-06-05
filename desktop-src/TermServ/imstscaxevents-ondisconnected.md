@@ -140,7 +140,7 @@ Encryption error.
 
 </dt> <dd>
 
-Windows Sockets [**gethostbyname**](https://msdn.microsoft.com/library/windows/desktop/ms738524) call failed.
+Windows Sockets [**gethostbyname**](https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) call failed.
 
 </dd> <dt>
 
@@ -349,7 +349,7 @@ Failed to unpack server certificate.
 
 </dt> <dd>
 
-Windows Sockets [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) failed.
+Windows Sockets [**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) failed.
 
 </dd> <dt>
 
@@ -360,7 +360,7 @@ Windows Sockets [**connect**](https://msdn.microsoft.com/library/windows/desktop
 
 </dt> <dd>
 
-Windows Sockets [**recv**](https://msdn.microsoft.com/library/windows/desktop/ms740121) call failed.
+Windows Sockets [**recv**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv) call failed.
 
 </dd> <dt>
 
@@ -393,7 +393,7 @@ Internal timer error.
 
 </dt> <dd>
 
-Windows Sockets [**send**](https://msdn.microsoft.com/library/windows/desktop/ms740149) call failed.
+Windows Sockets [**send**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send) call failed.
 
 </dd> <dt>
 

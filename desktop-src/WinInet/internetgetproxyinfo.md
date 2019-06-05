@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # InternetGetProxyInfo function
 
-Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll". For better autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](https://msdn.microsoft.com/library/windows/desktop/aa384240).
+Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll". For better autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support).
 
 ## Syntax
 
@@ -84,7 +84,7 @@ A pointer to a variable that receives the size, in bytes, of the string returned
 
 ## Return value
 
-Returns **TRUE** if successful, or **FALSE** otherwise. To get extended error data, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+Returns **TRUE** if successful, or **FALSE** otherwise. To get extended error data, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -121,7 +121,7 @@ To call **InternetGetProxyInfo**, you must dynamically link to it using the defi
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

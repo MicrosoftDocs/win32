@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following information structures are for the IPv4 transport. The structure **INTERFACE\_ROUTE\_INFO** is defined in Iprtinfo.h. The **MIB\_IPFORWARDROW** structure is defined in Ipmib.h.
 
 -   [**INTERFACE\_ROUTE\_INFO**](interface-route-info.md)
--   [**MIB\_IPFORWARDROW**](https://msdn.microsoft.com/library/windows/desktop/aa366850)
+-   [**MIB\_IPFORWARDROW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow)
 
  
 

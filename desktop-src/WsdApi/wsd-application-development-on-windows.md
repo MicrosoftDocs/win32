@@ -14,6 +14,6 @@ Quite often, WSDAPI code for these applications is generated using [WsdCodeGen](
 
 The Windows SDK includes some sample WSDL files, WsdCodeGen configuration files, and generated code. For more information, see [WSDAPI Samples](wsdapi-samples.md).
 
-If you want to enumerate devices using the WSD protocol and query WSD device metadata, you can use the [Function Discovery](https://msdn.microsoft.com/library/windows/desktop/aa814070) API instead.
+If you want to enumerate devices using the WSD protocol and query WSD device metadata, you can use the [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) API instead.
 
 If you want to implement a WSD device that does not run Windows, see [WSD Device Development](wsd-device-development.md).

@@ -42,7 +42,7 @@ The HTTP Server API is supported on Windows Server 2003 operating systems and on
 
 <dl> <dt>
 
-[Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273)
+[Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  

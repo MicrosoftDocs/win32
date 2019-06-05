@@ -38,7 +38,7 @@ The following procedure describes how to update a provider.
 
         For example, use the **regsvr32** **/umyprov.dll** command to unregister the old DLL.
 
-    2.  Mark the old DLL to be deleted on reboot by calling [**MoveFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365240).
+    2.  Mark the old DLL to be deleted on reboot by calling [**MoveFileEx**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa).
 
 You can take similar steps to upgrade a local server-implemented provider.
 

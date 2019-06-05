@@ -52,7 +52,7 @@ The Application Compatibility Toolkit, and more information, can be found at [Wi
 
 Windows Vista and Windows 7 have two primary types of user accounts: Standard User and Administrator. Standard User accounts are the preferred type for all users, since they reduce the risk of damage to the system by malicious applications. Because Standard User has access restrictions — such as not being able to write to the Program Files folder or to HKEY\_LOCAL\_MACHINE (HKLM) in the registry — it is important that games be designed and tested to work with a Standard User account.
 
-More information about this topic can be found in the articles [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://msdn.microsoft.com/library/windows/desktop/ee418715) and [User Account Control for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee419001).
+More information about this topic can be found in the articles [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://docs.microsoft.com/windows/desktop/DxTechArts/patching-methods-in-windows-xp-and-vista) and [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
 
 ## PIX for Windows
 
@@ -76,7 +76,7 @@ For more information about the Microsoft Symbol Server, see [Debugging Tools and
 
 Windows Error Reporting (WER) is a service provided by Microsoft to help developers collect error information from applications in a unified and organized manner. While it is completely voluntary, developers should take advantage of this service to help determine which bugs occur most often. Use of WER can help with the debugging of commonly reported problems, which will help eliminate support calls for the most commons bugs.
 
-For more information about WER, see [Crash Dump Analysis](https://msdn.microsoft.com/library/windows/desktop/ee416349).
+For more information about WER, see [Crash Dump Analysis](https://docs.microsoft.com/windows/desktop/DxTechArts/crash-dump-analysis).
 
 ## Performance Tuning Tools
 

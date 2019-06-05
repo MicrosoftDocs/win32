@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Basic Algorithm Counter Types
 
-Basic algorithm counter types generally represent differences between samples over time, and often use a base value for the calculation. For example, the **PercentFreeSpace** property of the [**Win32\_PerfFormattedData\_PerfDisk\_PhysicalDisk**](https://msdn.microsoft.com/library/dn750765) class represents the ratio of the free space available on the physical disk unit to the total usable space provided by the selected physical disk drive. This class also contains the base value, **PercentFreeSpace\_Base**. The percentage of free disk space is obtained by dividing **PercentFreeSpace** by **PercentFreeSpace\_Base** and multiplying by 100%.
+Basic algorithm counter types generally represent differences between samples over time, and often use a base value for the calculation. For example, the **PercentFreeSpace** property of the [**Win32\_PerfFormattedData\_PerfDisk\_PhysicalDisk**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class represents the ratio of the free space available on the physical disk unit to the total usable space provided by the selected physical disk drive. This class also contains the base value, **PercentFreeSpace\_Base**. The percentage of free disk space is obtained by dividing **PercentFreeSpace** by **PercentFreeSpace\_Base** and multiplying by 100%.
 
 The basic algorithms in the following table are provided.
 

@@ -228,7 +228,7 @@ After you create the media source for a capture device, use the [Source Reader](
 
 -   Video preview: Use Microsoft Direct3D or Direct2D to display the video.
 -   File capture: Use the [Sink Writer](sink-writer.md) to encode the file.
--   Audio preview: Use [WASAPI](https://msdn.microsoft.com/library/windows/desktop/dd371455).
+-   Audio preview: Use [WASAPI](https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi).
 
 If you want to combine audio capture with video capture, use the *aggregate media source*. The aggregate media source contains a collection of media sources and combines all of their streams into a single media source object. To create an instance of the aggregate media source, call the [**MFCreateAggregateSource**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateaggregatesource) function.
 

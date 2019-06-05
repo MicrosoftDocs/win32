@@ -51,7 +51,7 @@ Global group member information is available at the following information level:
 
 For more information, see the network management [Local Group Functions](local-group-functions.md).
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management group functions. For more information, see [**IADsGroup**](https://msdn.microsoft.com/library/aa706021).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management group functions. For more information, see [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup).
 
  
 

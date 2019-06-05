@@ -40,7 +40,7 @@ sddl = .GetSecurityDescriptor( _
 *securityInformation* 
 </dt> <dd>
 
-The security information from [**SECURITY\_INFORMATION**](https://msdn.microsoft.com/library/windows/desktop/aa379573).
+The security information from [**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information).
 
 </dd> </dl>
 

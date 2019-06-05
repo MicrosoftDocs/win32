@@ -34,7 +34,7 @@ float2 GetSamplePosition(
 *sampleindex* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index of a sample location.
 

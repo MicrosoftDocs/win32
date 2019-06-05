@@ -22,7 +22,7 @@ The Microsoft Peer Distribution service supports functions for both consumer rol
 | [**PeerDistGetStatusEx**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistgetstatusex)                                                     | Returns the current status and capabilities of the Peer Distribution service.                                   |
 | [**PeerDistGetOverlappedResult**](/windows/desktop/api/peerdist/nf-peerdist-peerdistgetoverlappedresult)                                     | Retrieves the results of asynchronous operations.                                                               |
 | [**PeerDistRegisterForStatusChangeNotification**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistregisterforstatuschangenotification)     | Requests that the Peer Distribution service notify the caller when a status change occurs.                      |
-| [**PeerDistRegisterForStatusChangeNotificationEx**](https://msdn.microsoft.com/library/windows/desktop/hh802741) | Requests that the Peer Distribution service notify the caller when a status change occurs.                      |
+| [**PeerDistRegisterForStatusChangeNotificationEx**](https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotificationex) | Requests that the Peer Distribution service notify the caller when a status change occurs.                      |
 | [**PeerDistUnregisterForStatusChangeNotification**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistunregisterforstatuschangenotification) | Deregisters the status change notification for the session associated with the supplied handle.                 |
 
 

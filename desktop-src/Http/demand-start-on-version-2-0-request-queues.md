@@ -16,7 +16,7 @@ The controller application calls [**HttpWaitForDemandStart**](/windows/desktop/a
 
 The HTTP Server API does not allow more than one simultaneous demand start notification for a request queue. However, when the outstanding demand start notification completes, the application calls [**HttpWaitForDemandStart**](/windows/desktop/api/Http/nf-http-httpwaitfordemandstart) again to start multiple worker processes on the request queue. HTTP does not enforce limitations on the number of demand start notifications or the number of worker processes operating on the request queue. The controller applications can, however, enforce the number of worker processes allowed on a request queue.
 
-The HTTP Server API supports canceling asynchronous [**HttpWaitForDemandStart**](/windows/desktop/api/Http/nf-http-httpwaitfordemandstart) calls. Applications can use [**CancelIoEx**](https://msdn.microsoft.com/library/windows/desktop/aa363792) with the overlapped structure supplied in *pOverlapped*, to cancel an outstanding **HttpWaitForDemandStart** call.
+The HTTP Server API supports canceling asynchronous [**HttpWaitForDemandStart**](/windows/desktop/api/Http/nf-http-httpwaitfordemandstart) calls. Applications can use [**CancelIoEx**](https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func) with the overlapped structure supplied in *pOverlapped*, to cancel an outstanding **HttpWaitForDemandStart** call.
 
 ## Synchronous Demand Start
 

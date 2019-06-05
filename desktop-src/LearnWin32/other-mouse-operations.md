@@ -12,7 +12,7 @@ The previous sections have discussed mouse clicks and mouse movement. Here are s
 
 ## Dragging UI Elements
 
-If your UI supports dragging of UI elements, there is one other function that you should call in your mouse-down message handler: [**DragDetect**](https://msdn.microsoft.com/library/windows/desktop/ms646256). The **DragDetect** function returns **TRUE** if the user initiates a mouse gesture that should be interpreted as dragging. The following code shows how to use this function.
+If your UI supports dragging of UI elements, there is one other function that you should call in your mouse-down message handler: [**DragDetect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dragdetect). The **DragDetect** function returns **TRUE** if the user initiates a mouse gesture that should be interpreted as dragging. The following code shows how to use this function.
 
 
 ```C++
@@ -29,16 +29,16 @@ If your UI supports dragging of UI elements, there is one other function that yo
 
 
 
-Here's the idea: When a program supports drag and drop, you don't want every mouse click to be interpreted as a drag. Otherwise, the user might accidentally drag something when he or she simply meant to click on it (for example, to select it). But if a mouse is particularly sensitive, it can be hard to keep the mouse perfectly still while clicking. Therefore, Windows defines a drag threshold of a few pixels. When the user presses the mouse button, it is not considered a drag unless the mouse crosses this threshold. The [**DragDetect**](https://msdn.microsoft.com/library/windows/desktop/ms646256) function tests whether this threshold is reached. If the function returns **TRUE**, you can interpret the mouse click as a drag. Otherwise, do not.
+Here's the idea: When a program supports drag and drop, you don't want every mouse click to be interpreted as a drag. Otherwise, the user might accidentally drag something when he or she simply meant to click on it (for example, to select it). But if a mouse is particularly sensitive, it can be hard to keep the mouse perfectly still while clicking. Therefore, Windows defines a drag threshold of a few pixels. When the user presses the mouse button, it is not considered a drag unless the mouse crosses this threshold. The [**DragDetect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dragdetect) function tests whether this threshold is reached. If the function returns **TRUE**, you can interpret the mouse click as a drag. Otherwise, do not.
 
 > [!Note]  
-> If [**DragDetect**](https://msdn.microsoft.com/library/windows/desktop/ms646256) returns **FALSE**, Windows suppresses the [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) message when the user releases the mouse button. Therefore, do not call **DragDetect** unless your program is currently in a mode that supports dragging. (For example, if a draggable UI element is already selected.) At the end of this module, we will see a longer code example that uses the **DragDetect** function.
+> If [**DragDetect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dragdetect) returns **FALSE**, Windows suppresses the [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) message when the user releases the mouse button. Therefore, do not call **DragDetect** unless your program is currently in a mode that supports dragging. (For example, if a draggable UI element is already selected.) At the end of this module, we will see a longer code example that uses the **DragDetect** function.
 
  
 
 ## Confining the Cursor
 
-Sometimes you might want to restrict the cursor to the client area or a portion of the client area. The [**ClipCursor**](https://msdn.microsoft.com/library/windows/desktop/ms648383) function restricts the movement of the cursor to a specified rectangle. This rectangle is given in screen coordinates, rather than client coordinates, so the point (0, 0) means the upper left corner of the screen. To translate client coordinates into screen coordinates, call the function [**ClientToScreen**](https://msdn.microsoft.com/library/windows/desktop/dd183434).
+Sometimes you might want to restrict the cursor to the client area or a portion of the client area. The [**ClipCursor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor) function restricts the movement of the cursor to a specified rectangle. This rectangle is given in screen coordinates, rather than client coordinates, so the point (0, 0) means the upper left corner of the screen. To translate client coordinates into screen coordinates, call the function [**ClientToScreen**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clienttoscreen).
 
 The following code confines the cursor to the client area of the window.
 
@@ -61,9 +61,9 @@ The following code confines the cursor to the client area of the window.
 
 
 
-[**ClipCursor**](https://msdn.microsoft.com/library/windows/desktop/ms648383) takes a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure, but [**ClientToScreen**](https://msdn.microsoft.com/library/windows/desktop/dd183434) takes a [**POINT**](https://msdn.microsoft.com/library/windows/desktop/dd162805) structure. A rectangle is defined by its top-left and bottom-right points. You can confine the cursor to any rectangular area, including areas outside the window, but confining the cursor to the client area is a typical way to use the function. Confining the cursor to a region entirely outside your window would be unusual, and users would probably perceive it as a bug.
+[**ClipCursor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor) takes a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure, but [**ClientToScreen**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clienttoscreen) takes a [**POINT**](https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)) structure. A rectangle is defined by its top-left and bottom-right points. You can confine the cursor to any rectangular area, including areas outside the window, but confining the cursor to the client area is a typical way to use the function. Confining the cursor to a region entirely outside your window would be unusual, and users would probably perceive it as a bug.
 
-To remove the restriction, call [**ClipCursor**](https://msdn.microsoft.com/library/windows/desktop/ms648383) with the value **NULL**.
+To remove the restriction, call [**ClipCursor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor) with the value **NULL**.
 
 
 ```C++
@@ -76,10 +76,10 @@ ClipCursor(NULL);
 
 Two other mouse messages are disabled by default, but may be useful for some applications:
 
--   [**WM\_MOUSEHOVER**](https://msdn.microsoft.com/library/windows/desktop/ms645613): The cursor has hovered over the client area for a fixed period of time.
--   [**WM\_MOUSELEAVE**](https://msdn.microsoft.com/library/windows/desktop/ms645615): The cursor has left the client area.
+-   [**WM\_MOUSEHOVER**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover): The cursor has hovered over the client area for a fixed period of time.
+-   [**WM\_MOUSELEAVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mouseleave): The cursor has left the client area.
 
-To enable these messages, call the [**TrackMouseEvent**](https://msdn.microsoft.com/library/windows/desktop/ms646265) function.
+To enable these messages, call the [**TrackMouseEvent**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent) function.
 
 
 ```C++
@@ -93,9 +93,9 @@ To enable these messages, call the [**TrackMouseEvent**](https://msdn.microsoft.
 
 
 
-The [**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/windows/desktop/ms645604) structure contains the parameters for the function. The **dwFlags** member of the structure contains bit flags that specify which tracking messages you are interested in. You can choose to get both [**WM\_MOUSEHOVER**](https://msdn.microsoft.com/library/windows/desktop/ms645613) and [**WM\_MOUSELEAVE**](https://msdn.microsoft.com/library/windows/desktop/ms645615), as shown here, or just one of the two. The **dwHoverTime** member specifies how long the mouse needs to hover before the system generates a hover message. This value is given in milliseconds. The constant **HOVER\_DEFAULT** means to use the system default.
+The [**TRACKMOUSEEVENT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent) structure contains the parameters for the function. The **dwFlags** member of the structure contains bit flags that specify which tracking messages you are interested in. You can choose to get both [**WM\_MOUSEHOVER**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover) and [**WM\_MOUSELEAVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mouseleave), as shown here, or just one of the two. The **dwHoverTime** member specifies how long the mouse needs to hover before the system generates a hover message. This value is given in milliseconds. The constant **HOVER\_DEFAULT** means to use the system default.
 
-After you get one of the messages that you requested, the [**TrackMouseEvent**](https://msdn.microsoft.com/library/windows/desktop/ms646265) function resets. You must call it again to get another tracking message. However, you should wait until the next mouse-move message before calling **TrackMouseEvent** again. Otherwise, your window might be flooded with tracking messages. For example, if the mouse is hovering, the system would continue to generate a stream of [**WM\_MOUSEHOVER**](https://msdn.microsoft.com/library/windows/desktop/ms645613) messages while the mouse is stationary. You don't actually want another **WM\_MOUSEHOVER** message until the mouse moves to another spot and hovers again.
+After you get one of the messages that you requested, the [**TrackMouseEvent**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent) function resets. You must call it again to get another tracking message. However, you should wait until the next mouse-move message before calling **TrackMouseEvent** again. Otherwise, your window might be flooded with tracking messages. For example, if the mouse is hovering, the system would continue to generate a stream of [**WM\_MOUSEHOVER**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover) messages while the mouse is stationary. You don't actually want another **WM\_MOUSEHOVER** message until the mouse moves to another spot and hovers again.
 
 Here is a small helper class that you can use to manage mouse-tracking events.
 
@@ -205,14 +205,14 @@ BOOL IsMouseWheelPresent()
 
 
 
-If the user rotates the mouse wheel, the window with focus receives a [**WM\_MOUSEWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645617) message. The *lParam* parameter of this message contains an integer value called the *delta* that measures how far the wheel was rotated. The delta uses arbitrary units, where 120 units is defined as the rotation needed to perform one "action." Of course, the definition of an action depends on your program. For example, if the mouse wheel is used to scroll text, each 120 units of rotation would scroll one line of text.
+If the user rotates the mouse wheel, the window with focus receives a [**WM\_MOUSEWHEEL**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousewheel) message. The *lParam* parameter of this message contains an integer value called the *delta* that measures how far the wheel was rotated. The delta uses arbitrary units, where 120 units is defined as the rotation needed to perform one "action." Of course, the definition of an action depends on your program. For example, if the mouse wheel is used to scroll text, each 120 units of rotation would scroll one line of text.
 
 The sign of the delta indicates the direction of rotation:
 
 -   Positive: Rotate forward, away from the user.
 -   Negative: Rotate backward, toward the user.
 
-The value of the delta is placed in *lParam* along with some additional flags. Use the [**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms646254) macro to get the value of the delta.
+The value of the delta is placed in *lParam* along with some additional flags. Use the [**GET\_WHEEL\_DELTA\_WPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_wheel_delta_wparam) macro to get the value of the delta.
 
 
 ```C++

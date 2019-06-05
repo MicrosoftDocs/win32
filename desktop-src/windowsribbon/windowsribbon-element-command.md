@@ -162,9 +162,9 @@ May occur one or more times for each [**Application.Commands**](windowsribbon-el
 
 The child elements of the **Command** element may occur in any order.
 
-Typically, Command resources are declared in Ribbon markup, but they can also be set at run time with a call to [**SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478). For example, it is possible to set the [UI\_PKEY\_Keytip](windowsribbon-reference-properties-uipkey-keytip.md) property for a Command instead of declaring a value in markup with the [**Command.Keytip**](windowsribbon-element-command-keytip.md) element.
+Typically, Command resources are declared in Ribbon markup, but they can also be set at run time with a call to [**SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty). For example, it is possible to set the [UI\_PKEY\_Keytip](windowsribbon-reference-properties-uipkey-keytip.md) property for a Command instead of declaring a value in markup with the [**Command.Keytip**](windowsribbon-element-command-keytip.md) element.
 
-In cases where Command properties, such as labels and images, cannot be set with [**SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) they can be invalidated with a call to [**InvalidateUICommand**](https://msdn.microsoft.com/library/windows/desktop/dd371375). After invalidation, the framework queries the host application for the resource details.
+In cases where Command properties, such as labels and images, cannot be set with [**SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) they can be invalidated with a call to [**InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand). After invalidation, the framework queries the host application for the resource details.
 
 > [!Note]  
 > A resource cannot be reinstated from the markup resource table after it has been invalidated.

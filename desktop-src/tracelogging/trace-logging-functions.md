@@ -20,7 +20,7 @@ TraceLogging provides the following functions that allow you to work with Event 
 
 <dl> <dt>
 
-[About Event Tracing](https://msdn.microsoft.com/library/windows/desktop/aa363668)
+[About Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing)
 </dt> <dt>
 
 [TraceLogging](trace-logging-portal.md)

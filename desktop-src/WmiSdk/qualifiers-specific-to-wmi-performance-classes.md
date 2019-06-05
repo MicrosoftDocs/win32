@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # Qualifiers Specific to WMI Performance Classes
 
-Raw performance counter classes, derived from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299), contain uncalculated values that serve as input for [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) classes, as well as System Monitor calculations.
+Raw performance counter classes, derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata), contain uncalculated values that serve as input for [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes, as well as System Monitor calculations.
 
-Performance counter qualifiers specify information about the performance object and the counters for that object. Performance objects map to WMI [performance counter classes](https://msdn.microsoft.com/library/aa392738) and performance counters are represented by the properties of the WMI class.
+Performance counter qualifiers specify information about the performance object and the counters for that object. Performance objects map to WMI [performance counter classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes) and performance counters are represented by the properties of the WMI class.
 
 -   [Class Qualifiers for Performance Counter Classes](class-qualifiers-for-performance-counter-classes.md)
 -   [Property Qualifiers for Formatted Performance Counter Classes](property-qualifiers-for-performance-counter-classes.md)

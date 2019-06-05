@@ -69,9 +69,9 @@ You can modify existing applications to take advantage of Flip Mode Present, wit
 
 ### How to Opt Into the Direct3D 9Ex Flip Model
 
-Direct3D 9Ex applications that target Windows 7 can opt into the Flip Model by creating the swap chain with the [**D3DSWAPEFFECT\_FLIPEX**](https://msdn.microsoft.com/library/windows/desktop/bb172612#d3dswapeffect-flipex) enumeration value. To opt into the Flip Model, applications specify the [**D3DPRESENT\_PARAMETERS**](https://msdn.microsoft.com/library/windows/desktop/bb172588) structure, and then pass a pointer to this structure when they call the [**IDirect3D9Ex::CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302) API. This section describes how applications that target Windows 7 use **IDirect3D9Ex::CreateDeviceEx** to opt into the Flip Model. For more information about the **IDirect3D9Ex::CreateDeviceEx** API, see **IDirect3D9Ex::CreateDeviceEx on MSDN**.
+Direct3D 9Ex applications that target Windows 7 can opt into the Flip Model by creating the swap chain with the [**D3DSWAPEFFECT\_FLIPEX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect) enumeration value. To opt into the Flip Model, applications specify the [**D3DPRESENT\_PARAMETERS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters) structure, and then pass a pointer to this structure when they call the [**IDirect3D9Ex::CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) API. This section describes how applications that target Windows 7 use **IDirect3D9Ex::CreateDeviceEx** to opt into the Flip Model. For more information about the **IDirect3D9Ex::CreateDeviceEx** API, see **IDirect3D9Ex::CreateDeviceEx on MSDN**.
 
-For convenience, the syntax of [**D3DPRESENT\_PARAMETERS**](https://msdn.microsoft.com/library/windows/desktop/bb172588) and [**IDirect3D9Ex::CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302) is repeated here.
+For convenience, the syntax of [**D3DPRESENT\_PARAMETERS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters) and [**IDirect3D9Ex::CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) is repeated here.
 
 ``` syntax
 HRESULT CreateDeviceEx(
@@ -103,7 +103,7 @@ typedef struct D3DPRESENT_PARAMETERS {
 } D3DPRESENT_PARAMETERS, *LPD3DPRESENT_PARAMETERS;
 ```
 
-When you modify Direct3D 9Ex applications for Windows 7 to opt into the Flip Model, you should consider the following items about the specified members of [**D3DPRESENT\_PARAMETERS**](https://msdn.microsoft.com/library/windows/desktop/bb172588):
+When you modify Direct3D 9Ex applications for Windows 7 to opt into the Flip Model, you should consider the following items about the specified members of [**D3DPRESENT\_PARAMETERS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters):
 
 <dl> <dt>
 
@@ -116,7 +116,7 @@ When **SwapEffect** is set to the new D3DSWAPEFFECT\_FLIPEX swap chain effect ty
 
 When the application also uses present statistics associated with D3DSWAPEFFECT\_FLIPEX, we recommend that you set the back buffer count to from 2 to 4.
 
-Using D3DSWAPEFFECT\_FLIPEX on Windows Vista or previous operating system versions will return fail from [**CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302).
+Using D3DSWAPEFFECT\_FLIPEX on Windows Vista or previous operating system versions will return fail from [**CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
 
 </dd> <dt>
 
@@ -134,7 +134,7 @@ The new D3DSWAPEFFECT\_FLIPEX swap chain effect type designates when an applicat
 
 (Windows 7 Only)
 
-The [D3DPRESENTFLAG\_LOCKABLE\_BACKBUFFER](https://msdn.microsoft.com/library/windows/desktop/bb172586) flag cannot be set if **SwapEffect** is set to the new [**D3DSWAPEFFECT\_FLIPEX**](https://msdn.microsoft.com/library/windows/desktop/bb172612) swap chain effect type.
+The [D3DPRESENTFLAG\_LOCKABLE\_BACKBUFFER](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentflag) flag cannot be set if **SwapEffect** is set to the new [**D3DSWAPEFFECT\_FLIPEX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect) swap chain effect type.
 
 </dd> </dl>
 
@@ -150,7 +150,7 @@ Applications should use Direct3D 9Ex Flip Mode Present in an HWND that is not al
 
 ![illustration of gdi parent window and a direct3d child window, each with its own hwnd](images/parent-gdi.png)
 
-Because Blt Model maintains an additional copy of the surface, GDI and other Direct3D contents can be added to the same HWND through piecemeal updates from Direct3D and GDI. Using the Flip Model, only Direct3D 9Ex content in [**D3DSWAPEFFECT\_FLIPEX**](https://msdn.microsoft.com/library/windows/desktop/bb172612) swap chains that are passed to DWM will be visible. All other Blt Model Direct3D or GDI content updates will be ignored, as shown in the following illustrations.
+Because Blt Model maintains an additional copy of the surface, GDI and other Direct3D contents can be added to the same HWND through piecemeal updates from Direct3D and GDI. Using the Flip Model, only Direct3D 9Ex content in [**D3DSWAPEFFECT\_FLIPEX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect) swap chains that are passed to DWM will be visible. All other Blt Model Direct3D or GDI content updates will be ignored, as shown in the following illustrations.
 
 ![illustration of gdi text that might not be displayed if flip model is used and direct3d and gdi content are in the same hwnd](images/d3d-gdi-same-hwnd.png)
 
@@ -168,9 +168,9 @@ Applications that use Flip Model should not use multiple Flip Model swap chains 
 
 ### Frame Synchronization of Direct3D 9Ex Flip Model Applications
 
-Present statistics are frame timing information that media applications use to synchronize video and audio streams and recover from video playback glitches. To enable present statistics availability, the Direct3D 9Ex application must ensure that the *BehaviorFlags* parameter that the application passes to [**IDirect3D9Ex::CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302) contains the device behavior flag [D3DCREATE\_ENABLE\_PRESENTSTATS](https://msdn.microsoft.com/library/windows/desktop/bb172527).
+Present statistics are frame timing information that media applications use to synchronize video and audio streams and recover from video playback glitches. To enable present statistics availability, the Direct3D 9Ex application must ensure that the *BehaviorFlags* parameter that the application passes to [**IDirect3D9Ex::CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) contains the device behavior flag [D3DCREATE\_ENABLE\_PRESENTSTATS](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate).
 
-For convenience, the syntax of [**IDirect3D9Ex::CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302) is repeated here.
+For convenience, the syntax of [**IDirect3D9Ex::CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) is repeated here.
 
 ``` syntax
 HRESULT CreateDeviceEx(
@@ -184,7 +184,7 @@ HRESULT CreateDeviceEx(
 );
 ```
 
-Direct3D 9Ex Flip Model adds the [D3DPRESENT\_FORCEIMMEDIATE](https://msdn.microsoft.com/library/windows/desktop/bb172585#d3dpresent-forceimmediate) presentation flag that enforces the [D3DPRESENT\_INTERVAL\_IMMEDIATE](https://msdn.microsoft.com/library/windows/desktop/bb172585#d3dpresent-interval-immediate) presentation-flag behavior. The Direct3D 9Ex application specifies these presentation flags in the *dwFlags* parameter that the application passes to [**IDirect3DDevice9Ex::PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343), as shown here.
+Direct3D 9Ex Flip Model adds the [D3DPRESENT\_FORCEIMMEDIATE](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent) presentation flag that enforces the [D3DPRESENT\_INTERVAL\_IMMEDIATE](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent) presentation-flag behavior. The Direct3D 9Ex application specifies these presentation flags in the *dwFlags* parameter that the application passes to [**IDirect3DDevice9Ex::PresentEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex), as shown here.
 
 ``` syntax
 HRESULT PresentEx(
@@ -196,45 +196,45 @@ HRESULT PresentEx(
 );
 ```
 
-When you modify your Direct3D 9Ex application for Windows 7, you should consider the following information about the specified [D3DPRESENT](https://msdn.microsoft.com/library/windows/desktop/bb172585) presentation flags:
+When you modify your Direct3D 9Ex application for Windows 7, you should consider the following information about the specified [D3DPRESENT](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent) presentation flags:
 
 <dl> <dt>
 
-[D3DPRESENT\_DONOTFLIP](https://msdn.microsoft.com/library/windows/desktop/bb172585)
+[D3DPRESENT\_DONOTFLIP](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent)
 </dt> <dd>
 
 This flag is available only in full-screen mode or
 
 (Windows 7 Only)
 
-when the application sets the **SwapEffect** member of [**D3DPRESENT\_PARAMETERS**](https://msdn.microsoft.com/library/windows/desktop/bb172588) to [**D3DSWAPEFFECT\_FLIPEX**](https://msdn.microsoft.com/library/windows/desktop/bb172612) in a call to [**CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302).
+when the application sets the **SwapEffect** member of [**D3DPRESENT\_PARAMETERS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters) to [**D3DSWAPEFFECT\_FLIPEX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect) in a call to [**CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
 
 </dd> <dt>
 
-[D3DPRESENT\_FORCEIMMEDIATE](https://msdn.microsoft.com/library/windows/desktop/bb172585)
+[D3DPRESENT\_FORCEIMMEDIATE](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent)
 </dt> <dd>
 
 (Windows 7 Only)
 
-This flag can be specified only if the application sets the **SwapEffect** member of [**D3DPRESENT\_PARAMETERS**](https://msdn.microsoft.com/library/windows/desktop/bb172588) to [**D3DSWAPEFFECT\_FLIPEX**](https://msdn.microsoft.com/library/windows/desktop/bb172612) in a call to [**CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302). The application can use this flag to immediately update a surface with several frames later in the DWM Present queue, essentially skipping intermediate frames.
+This flag can be specified only if the application sets the **SwapEffect** member of [**D3DPRESENT\_PARAMETERS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters) to [**D3DSWAPEFFECT\_FLIPEX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect) in a call to [**CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex). The application can use this flag to immediately update a surface with several frames later in the DWM Present queue, essentially skipping intermediate frames.
 
-Windowed FlipEx-enabled applications can use this flag to immediately update a surface with a frame that is later in the DWM Present queue, skipping intermediate frames. This is especially useful for media applications that want to discard frames that have been detected as late and present subsequent frames at composition time. [**IDirect3DDevice9Ex::PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343) returns invalid parameter error if this flag is improperly specified.
+Windowed FlipEx-enabled applications can use this flag to immediately update a surface with a frame that is later in the DWM Present queue, skipping intermediate frames. This is especially useful for media applications that want to discard frames that have been detected as late and present subsequent frames at composition time. [**IDirect3DDevice9Ex::PresentEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) returns invalid parameter error if this flag is improperly specified.
 
 </dd> </dl>
 
-To obtain present statistics information, the application obtains the [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure by calling the [**IDirect3DSwapChain9Ex::GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) API.
+To obtain present statistics information, the application obtains the [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure by calling the [**IDirect3DSwapChain9Ex::GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) API.
 
-The [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure contains statistics about [**IDirect3DDevice9Ex::PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343) calls. The device must be created by using a [**IDirect3D9Ex::CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302) call with the [D3DCREATE\_ENABLE\_PRESENTSTATS](https://msdn.microsoft.com/library/windows/desktop/bb172527) flag. Otherwise, the data returned by [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) is undefined. A Flip-Model-enabled Direct3D 9Ex swap chain provides present statistics information in both windowed and full-screen modes.
+The [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure contains statistics about [**IDirect3DDevice9Ex::PresentEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) calls. The device must be created by using a [**IDirect3D9Ex::CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) call with the [D3DCREATE\_ENABLE\_PRESENTSTATS](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate) flag. Otherwise, the data returned by [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) is undefined. A Flip-Model-enabled Direct3D 9Ex swap chain provides present statistics information in both windowed and full-screen modes.
 
-For Blt-Model-enabled Direct3D 9Ex swap chains in windowed mode, all [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure values will be zeroes.
+For Blt-Model-enabled Direct3D 9Ex swap chains in windowed mode, all [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure values will be zeroes.
 
-For FlipEx present statistics, [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) returns D3DERR\_PRESENT\_STATISTICS\_DISJOINT in the following situations:
+For FlipEx present statistics, [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) returns D3DERR\_PRESENT\_STATISTICS\_DISJOINT in the following situations:
 
--   First call to [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) ever, which indicates the beginning of a sequence
+-   First call to [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) ever, which indicates the beginning of a sequence
 -   DWM transition from on to off
 -   Mode change: either windowed mode to or from full screen or full screen to full screen transitions
 
-For convenience, the syntax of [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) is repeated here.
+For convenience, the syntax of [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) is repeated here.
 
 ``` syntax
 HRESULT GetPresentStatistics(
@@ -242,9 +242,9 @@ HRESULT GetPresentStatistics(
 );
 ```
 
-The [**IDirect3DSwapChain9Ex::GetLastPresentCount**](https://msdn.microsoft.com/library/windows/desktop/bb205900) method returns the last PresentCount, that is, the Present ID of the last successful Present call that was made by a display device that is associated with the swap chain. This Present ID is the value of the **PresentCount** member of the [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure. For Blt-Model-enabled Direct3D 9Ex swap chains, while in windowed mode, all **D3DPRESENTSTATS** structure values will be zeroes.
+The [**IDirect3DSwapChain9Ex::GetLastPresentCount**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount) method returns the last PresentCount, that is, the Present ID of the last successful Present call that was made by a display device that is associated with the swap chain. This Present ID is the value of the **PresentCount** member of the [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure. For Blt-Model-enabled Direct3D 9Ex swap chains, while in windowed mode, all **D3DPRESENTSTATS** structure values will be zeroes.
 
-For convenience, the syntax of [**IDirect3DSwapChain9Ex::GetLastPresentCount**](https://msdn.microsoft.com/library/windows/desktop/bb205900) is repeated here.
+For convenience, the syntax of [**IDirect3DSwapChain9Ex::GetLastPresentCount**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount) is repeated here.
 
 ``` syntax
 HRESULT GetLastPresentCount(
@@ -252,11 +252,11 @@ HRESULT GetLastPresentCount(
 );
 ```
 
-When you modify your Direct3D 9Ex application for Windows 7, you should consider the following information about the [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure:
+When you modify your Direct3D 9Ex application for Windows 7, you should consider the following information about the [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure:
 
--   The PresentCount value that [**GetLastPresentCount**](https://msdn.microsoft.com/library/windows/desktop/bb205900) returns does not update when a [**PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343) call with D3DPRESENT\_DONOTWAIT specified in the *dwFlags* parameter returns failure.
--   When [**PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343) is called with D3DPRESENT\_DONOTFLIP, a [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) call succeeds but does not return an updated [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure when the application is in windowed mode.
--   **PresentRefreshCount** versus **SyncRefreshCount** in [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587):
+-   The PresentCount value that [**GetLastPresentCount**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount) returns does not update when a [**PresentEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) call with D3DPRESENT\_DONOTWAIT specified in the *dwFlags* parameter returns failure.
+-   When [**PresentEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) is called with D3DPRESENT\_DONOTFLIP, a [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) call succeeds but does not return an updated [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure when the application is in windowed mode.
+-   **PresentRefreshCount** versus **SyncRefreshCount** in [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats):
     -   **PresentRefreshCount** is equal to **SyncRefreshCount** when the application presents on every vsync.
     -   **SyncRefreshCount** is obtained on the vsync interval when the present was submitted, **SyncQPCTime** is approximately the time associated with the vsync interval.
 
@@ -281,7 +281,7 @@ A sample application that takes advantage of Direct3D 9Ex Flip Model and associa
 **To opt into FlipEx presentation for Direct3D 9Ex sample**
 
 1.  Ensure the sample application is running on Windows 7 or later operating system version.
-2.  Set the **SwapEffect** member of [**D3DPRESENT\_PARAMETERS**](https://msdn.microsoft.com/library/windows/desktop/bb172588) to [**D3DSWAPEFFECT\_FLIPEX**](https://msdn.microsoft.com/library/windows/desktop/bb172612) in a call to [**CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302).
+2.  Set the **SwapEffect** member of [**D3DPRESENT\_PARAMETERS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters) to [**D3DSWAPEFFECT\_FLIPEX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect) in a call to [**CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
 
 
 ```C++
@@ -306,7 +306,7 @@ A sample application that takes advantage of Direct3D 9Ex Flip Model and associa
 
 **To also opt into FlipEx associated Present Statistics for Direct3D 9Ex sample**
 
--   Set [D3DCREATE\_ENABLE\_PRESENTSTATS](https://msdn.microsoft.com/library/windows/desktop/bb172527) in the *BehaviorFlags* parameter of [**CreateDeviceEx**](https://msdn.microsoft.com/library/windows/desktop/bb174302).
+-   Set [D3DCREATE\_ENABLE\_PRESENTSTATS](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate) in the *BehaviorFlags* parameter of [**CreateDeviceEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex).
 
 
 ```C++
@@ -343,7 +343,7 @@ A sample application that takes advantage of Direct3D 9Ex Flip Model and associa
 3.  Create helper Present queue structure to store all successfully submitted Present's Present ID (PresentCount) and associated, calculated/expected PresentRefreshCount.
 4.  To detect glitch occurrence:
 
-    -   Call [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901).
+    -   Call [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)).
     -   Get the Present ID (PresentCount) and vsync count where the frame is shown (PresentRefreshCount) of the frame whose present statistics is obtained.
     -   Retrieve the expected PresentRefreshCount (TargetRefresh in sample code) associated with the Present ID.
     -   If actual PresentRefreshCount is later than expected, a glitch has occurred.
@@ -541,20 +541,20 @@ VOID Render()
 
 ### Summary of Programming Recommendations for Frame Synchronization
 
--   Create a backup list of all the LastPresentCount IDs (obtained via [**GetLastPresentCount**](https://msdn.microsoft.com/library/windows/desktop/bb205900)) and associated estimated PresentRefreshCount of all the Presents submitted.
+-   Create a backup list of all the LastPresentCount IDs (obtained via [**GetLastPresentCount**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount)) and associated estimated PresentRefreshCount of all the Presents submitted.
     > [!Note]  
-    > When the application calls [**PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343) with D3DPRESENT\_DONOTFLIP, the [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) call succeeds but does not return an updated [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure when the application is in windowed mode.
+    > When the application calls [**PresentEx**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) with D3DPRESENT\_DONOTFLIP, the [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) call succeeds but does not return an updated [**D3DPRESENTSTATS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresentstats) structure when the application is in windowed mode.
 
      
 
--   Call [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) to obtain the actual PresentRefreshCount associated with each Present ID of frames shown, to make sure that the application handles failure returns from the call.
+-   Call [**GetPresentStatistics**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) to obtain the actual PresentRefreshCount associated with each Present ID of frames shown, to make sure that the application handles failure returns from the call.
 -   If actual PresentRefreshCount is later than estimated PresentRefreshCount, a glitch is detected. Compensate by submitting lagging frames' Present with D3DPRESENT\_FORCEIMMEDIATE.
 -   When one frame is presented late in the Present queue, all subsequent queued frames will be presented late. D3DPRESENT\_FORCEIMMEDIATE will correct only the next frame to be presented after all the queued frames. Therefore, the Present queue or backbuffer count should not be too long -- so there are less frame glitches to catch up with. The optimal backbuffer count is 2 to 4.
 -   If estimated PresentRefreshCount is later than the actual PresentRefreshCount, DWM throttling might have occurred. The following solutions are possible:
 
     -   reducing Present queue length
     -   reducing GPU memory requirements with any other means besides reducing Present Queue length (that is, decreasing quality, removing effects, and so on)
-    -   specifying [**DwmEnableMMCSS**](https://msdn.microsoft.com/library/windows/desktop/aa969511) to prevent DWM throttling in general
+    -   specifying [**DwmEnableMMCSS**](https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmenablemmcss) to prevent DWM throttling in general
 
 -   Verify application display functionality and frame statistics performance in the following scenarios:
 

@@ -24,7 +24,7 @@ Used to set and retrieve named properties for the client control.
 
 ## Members
 
-The **IMsRdpExtendedSettings** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMsRdpExtendedSettings** also has these types of members:
+The **IMsRdpExtendedSettings** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpExtendedSettings** also has these types of members:
 
 -   [Properties](#properties)
 

@@ -56,7 +56,7 @@ public static int CacheSize { get; set; }
 
 #### Property value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
 
 ## See also
 

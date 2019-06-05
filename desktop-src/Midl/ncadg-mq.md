@@ -79,10 +79,10 @@ interface iface
 [**message**](message.md)
 </dt> <dt>
 
-[RPC Message Queuing](https://msdn.microsoft.com/library/windows/desktop/aa378632)
+[RPC Message Queuing](https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing)
 </dt> <dt>
 
-[String Binding](https://msdn.microsoft.com/library/windows/desktop/aa378691)
+[String Binding](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  

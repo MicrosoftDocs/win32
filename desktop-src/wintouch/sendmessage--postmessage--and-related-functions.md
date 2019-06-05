@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # SendMessage, PostMessage, and Related Functions
 
-This section describes considerations about forwarding messages using [SendMessage](https://msdn.microsoft.com/library/ms644950.aspx), [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx), and related functions with touch messages.
+This section describes considerations about forwarding messages using [SendMessage](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage), [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx), and related functions with touch messages.
 
-If a touch message is forwarded using [SendMessage](https://msdn.microsoft.com/library/ms644950.aspx), [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx), or some other related function, the touch input handle is closed. If you have retrieved the information contained referenced by a touch input handle through a call to [**GetTouchInputInfo**](/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo), that data will remain valid until you free the memory.
+If a touch message is forwarded using [SendMessage](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage), [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx), or some other related function, the touch input handle is closed. If you have retrieved the information contained referenced by a touch input handle through a call to [**GetTouchInputInfo**](/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo), that data will remain valid until you free the memory.
 
-An application that receives touch messages forwarded through one of these mechanisms owns the touch input handle it receives in the message *LPARAM* and is responsible for closing it. If you don't close the handle with a call to [**CloseTouchInputHandle**](/windows/desktop/api/winuser/nf-winuser-closetouchinputhandle), pass the message to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637), or forward the message using [SendMessage](https://msdn.microsoft.com/library/ms644950.aspx), [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx), or some related function, you will have a memory leak.
+An application that receives touch messages forwarded through one of these mechanisms owns the touch input handle it receives in the message *LPARAM* and is responsible for closing it. If you don't close the handle with a call to [**CloseTouchInputHandle**](/windows/desktop/api/winuser/nf-winuser-closetouchinputhandle), pass the message to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637), or forward the message using [SendMessage](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage), [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx), or some related function, you will have a memory leak.
 
 > [!Note]  
 > Touch messages are subject to normal User Interface Privilege Isolation (UIPI) rules when they are forwarded.
@@ -23,7 +23,7 @@ An application that receives touch messages forwarded through one of these mecha
 
 The following functions that can affect the state of the touch input handle.
 
--   [SendMessage](https://msdn.microsoft.com/library/ms644950.aspx)
+-   [SendMessage](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 -   [PostMessage](https://msdn.microsoft.com/library/ms644944(VS.85).aspx)
 -   SendNotifyMessage
 -   SendMessageCallback

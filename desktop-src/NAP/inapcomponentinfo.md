@@ -28,7 +28,7 @@ The **INapComponentInfo** interface provides methods that plug-in components (su
 
 ## Members
 
-The **INapComponentInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapComponentInfo** also has these types of members:
+The **INapComponentInfo** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapComponentInfo** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -45,7 +45,7 @@ This attribute applies when the input to the decoder is multichannel PCM audio, 
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
+[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

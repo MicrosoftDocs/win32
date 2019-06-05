@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Registry Keys and Values for Backup and Restore
 
-Applications that request or perform backup and restore operations should use the following registry keys and values to communicate with each other or with features such as the [Volume Shadow Copy Service (VSS)](https://msdn.microsoft.com/library/windows/desktop/bb968832) and Windows Backup:
+Applications that request or perform backup and restore operations should use the following registry keys and values to communicate with each other or with features such as the [Volume Shadow Copy Service (VSS)](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) and Windows Backup:
 
 -   [CustomPerformanceSettings](#customperformancesettings)
 -   [DisableMonitoring](#disablemonitoring)
@@ -97,7 +97,7 @@ For block-level volume backups, Windows Server Backup and the Windows Wbadmin ut
 
 ## FilesNotToSnapshot
 
-VSS supports the **FilesNotToSnapshot** registry key. Applications and services can use this key to specify files to be deleted from newly created shadow copies. For more information, see [Excluding Files from Shadow Copies](https://msdn.microsoft.com/library/windows/desktop/aa819132).
+VSS supports the **FilesNotToSnapshot** registry key. Applications and services can use this key to specify files to be deleted from newly created shadow copies. For more information, see [Excluding Files from Shadow Copies](https://docs.microsoft.com/windows/desktop/VSS/excluding-files-from-shadow-copies).
 
 **Windows Server 2003 and Windows XP:** This registry key is not supported.
 
@@ -139,7 +139,7 @@ System State Backup honors the **KeysNotToRestore** registry key.
 
 ## LastInstance
 
-The **LastInstance** registry value indicates that a bare-metal restore operation has been performed and that the volumes have been overwritten but not formatted. For more information, see [Using VSS Automated System Recovery for Disaster Recovery](https://msdn.microsoft.com/library/windows/desktop/aa384630).
+The **LastInstance** registry value indicates that a bare-metal restore operation has been performed and that the volumes have been overwritten but not formatted. For more information, see [Using VSS Automated System Recovery for Disaster Recovery](https://docs.microsoft.com/windows/desktop/VSS/using-vss-automated-system-recovery-for-disaster-recovery).
 
 **Windows Server 2003 and Windows XP:** This registry value is not supported.
 
@@ -163,7 +163,7 @@ Other applications that need to monitor system state restores should store the d
 
 ## MaxShadowCopies
 
-The **MaxShadowCopies** registry value specifies the maximum number of [*client-accessible shadow copies*](https://msdn.microsoft.com/library/windows/desktop/aa384653#base-vssgloss-client-accessible-shadow-copy) that can be stored on each volume of the computer. A client-accessible shadow copy is a shadow copy that is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa385009) enumeration. Client-accessible shadow copies are used by Shadow Copies for Shared Folders. For more information about shadow copies, see the [VSS](https://msdn.microsoft.com/library/windows/desktop/bb968832) documentation.
+The **MaxShadowCopies** registry value specifies the maximum number of [*client-accessible shadow copies*](https://docs.microsoft.com/windows/desktop/VSS/vssgloss-c) that can be stored on each volume of the computer. A client-accessible shadow copy is a shadow copy that is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context) enumeration. Client-accessible shadow copies are used by Shadow Copies for Shared Folders. For more information about shadow copies, see the [VSS](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) documentation.
 
 If the **MaxShadowCopies** registry value does not exist, the backup application can create it under the following registry key:
 
@@ -184,7 +184,7 @@ Create a value with the name **MaxShadowCopies** and type DWORD. The default dat
 
 ## MinDiffAreaFileSize
 
-[VSS](https://msdn.microsoft.com/library/windows/desktop/bb968832) allocates a shadow copy storage area (or "diff area") to store data for shadow copies. The minimum size of the shadow copy storage area is a per-computer setting that can be specified by using the **MinDiffAreaFileSize** registry value.
+[VSS](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) allocates a shadow copy storage area (or "diff area") to store data for shadow copies. The minimum size of the shadow copy storage area is a per-computer setting that can be specified by using the **MinDiffAreaFileSize** registry value.
 
 If the **MinDiffAreaFileSize** registry value is not set, the minimum size of the shadow copy storage area is 32 MB for volumes that are smaller than 500 MB and 320 MB for volumes that are larger than 500 MB.
 

@@ -33,7 +33,7 @@ Developers looking to implement PWM in their IoT applications should investigate
 
 PWM uses [these IO control codes](pwm-control-codes.md), [structures](pwm-structures.md), and [enumerations.](pwm-enumeration-types.md)
 
-PWM also uses the following function: [**PwmParsePinPath**](https://msdn.microsoft.com/library/windows/hardware/mt826268).
+PWM also uses the following function: [**PwmParsePinPath**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pwmutil/nf-pwmutil-pwmparsepinpath).
 
  
 

@@ -48,7 +48,7 @@ Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-_pshnotify) str
 
 ## Remarks
 
-To set the return value, the dialog box procedure for the page must use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function with the DWL\_MSGRESULT value, and the dialog box procedure must return **TRUE**.
+To set the return value, the dialog box procedure for the page must use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value, and the dialog box procedure must return **TRUE**.
 
 [Version 5.80.](common-control-versions.md) If your application returns **TRUE** to prevent a wizard from finishing, it has no control over which window on the page receives focus. Applications that need to stop a wizard from finishing should normally do so by returning the handle of the window on the wizard page that is to receive focus.
 

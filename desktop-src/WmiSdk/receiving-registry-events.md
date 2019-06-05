@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The System Registry provider attempts to send one notification for every event that occurs. However, the System Registry provider does not guarantee that the consumer will receive any or all events. The exception is that the System Registry provider does ensure that a consumer will receive one notification for each event registration.
 
-For example, suppose a consumer registers for two tree change events, requesting notification for [**RegistryTreeChangeEvent**](https://msdn.microsoft.com/library/aa393041) instances. Each registration has the same Hive (subtree) value but a different RootPath value. If keys in both paths change multiple times, the System Registry provider guarantees that the consumer will receive a notification for each path. Depending on the response time of the registry and the System Registry provider, the consumer may receive as many notifications as there were occurrences of events.
+For example, suppose a consumer registers for two tree change events, requesting notification for [**RegistryTreeChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrytreechangeevent) instances. Each registration has the same Hive (subtree) value but a different RootPath value. If keys in both paths change multiple times, the System Registry provider guarantees that the consumer will receive a notification for each path. Depending on the response time of the registry and the System Registry provider, the consumer may receive as many notifications as there were occurrences of events.
 
 ## Related topics
 

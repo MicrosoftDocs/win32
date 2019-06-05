@@ -14,15 +14,15 @@ api_location:
 
 # Creating a Timer Event with Win32\_LocalTime or Win32\_UTCTime
 
-You can use the standard model of intrinsic events and event filters in combination with the [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171) or [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510) classes to receive a timed notification. The intrinsic method is a recommended way of generating timed events, as it is consistent with the rest of the Microsoft event model and supports complex scheduling conditions.
+You can use the standard model of intrinsic events and event filters in combination with the [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime) or [**Win32\_UTCTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-utctime) classes to receive a timed notification. The intrinsic method is a recommended way of generating timed events, as it is consistent with the rest of the Microsoft event model and supports complex scheduling conditions.
 
-The [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171) and [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510) classes are singleton classes in the root\\cimv2 namespace that represent the system clock. When queried, **Win32\_LocalTime** returns the current time at the moment of data retrieval in a 24-hour clock with local reference. The **Win32\_UTCTime** class returns the current time with UTC reference.
+The [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime) and [**Win32\_UTCTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-utctime) classes are singleton classes in the root\\cimv2 namespace that represent the system clock. When queried, **Win32\_LocalTime** returns the current time at the moment of data retrieval in a 24-hour clock with local reference. The **Win32\_UTCTime** class returns the current time with UTC reference.
 
 **To generate timed or repeating events with Win32\_LocalTime or Win32\_UTCTime**
 
--   Set up an intrinsic notification event filter for [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171) or [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510) that requests notification for a specific date and time.
+-   Set up an intrinsic notification event filter for [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime) or [**Win32\_UTCTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-utctime) that requests notification for a specific date and time.
 
-For example, if the local time under Daylight Savings Time is 4 P.M. and the location is GMT -8, then [**Win32\_LocalTime.Hour**](https://msdn.microsoft.com/library/aa394171) returns 16 and [**Win32\_UTCTime.Hour**](https://msdn.microsoft.com/library/aa394510) returns 23.
+For example, if the local time under Daylight Savings Time is 4 P.M. and the location is GMT -8, then [**Win32\_LocalTime.Hour**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime) returns 16 and [**Win32\_UTCTime.Hour**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-utctime) returns 23.
 
 The following code example describes how to create an event filter that signals a repeating event every day at midnight.
 

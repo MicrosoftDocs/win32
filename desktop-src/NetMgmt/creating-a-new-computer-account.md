@@ -137,9 +137,9 @@ BOOL AddMachineAccount(
 
 
 
-The user that calls the account management functions must have Administrator privilege on the target computer. In the case of existing computer accounts, the creator of the account can manage the account, regardless of administrative membership. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://msdn.microsoft.com/library/windows/desktop/ms717802).
+The user that calls the account management functions must have Administrator privilege on the target computer. In the case of existing computer accounts, the creator of the account can manage the account, regardless of administrative membership. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
 
-The SeMachineAccountPrivilege can be granted on the target computer to give specified users the ability to create computer accounts. This gives non-administrators the ability to create computer accounts. The caller needs to enable this privilege prior to adding the computer account. For more information about account privileges, see [Privileges](https://msdn.microsoft.com/library/windows/desktop/aa379306) and [Authorization Constants](https://msdn.microsoft.com/library/windows/desktop/aa375728).
+The SeMachineAccountPrivilege can be granted on the target computer to give specified users the ability to create computer accounts. This gives non-administrators the ability to create computer accounts. The caller needs to enable this privilege prior to adding the computer account. For more information about account privileges, see [Privileges](https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges) and [Authorization Constants](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
 
  
 

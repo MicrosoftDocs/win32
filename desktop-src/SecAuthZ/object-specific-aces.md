@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Object-specific ACEs
 
-Object-specific [*ACEs*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) are supported for directory service (DS) objects. An object-specific ACE contains a pair of GUIDs that expand the ways in which the ACE can protect an object.
+Object-specific [*ACEs*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) are supported for directory service (DS) objects. An object-specific ACE contains a pair of GUIDs that expand the ways in which the ACE can protect an object.
 
 
 

@@ -63,7 +63,7 @@ Data type: **CIM\_VoltageSensor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_VoltageSensor**](cim-voltagesensor.md) that describes the voltage sensor.
@@ -79,7 +79,7 @@ Data type: **CIM\_PowerSupply**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_PowerSupply**](cim-powersupply.md) that describes the power supply associated with the voltage sensor.

@@ -22,7 +22,7 @@ Typically, only members of the Administrators local group can access the followi
 
 **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Services**\\**SNMP**\\**Parameters**\\**PermittedManagers**
 
-For more information about registry-based policy settings, see [About Group Policy](https://msdn.microsoft.com/library/aa371968).
+For more information about registry-based policy settings, see [About Group Policy](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy).
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 Shows how to use the VSS [interfaces](volume-shadow-copy-api-interfaces.md) to create a VSS hardware provider.
 
 > [!Note]  
-> The VssSampleProvider tool and sample are included in the Microsoft Windows Software Development Kit (SDK). You can download the Windows SDK from [Windows Software Development Kit (SDK) for Windows 8](https://msdn.microsoft.com/en-us/windows/desktop/hh852363.aspx).
+> The VssSampleProvider tool and sample are included in the Microsoft Windows Software Development Kit (SDK). You can download the Windows SDK from [Windows Software Development Kit (SDK) for Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk).
 
  
 
@@ -70,7 +70,7 @@ The VssSampleProvider sample includes the following installation and uninstallat
 
         The VSS sample provider recognizes a LUN only if **VSS Sample HW Provider** is a part of the storage identifier. For more information about the storage identifier, see the following blog post.
 
-        [LUN - Resync with Diskshadow and Virtual Storage](https://blogs.msdn.com/b/himanshu_kale/archive/2009/06/02/lun-resync-with-diskshadow-virtual-storage.aspx)
+        [LUN - Resync with Diskshadow and Virtual Storage](https://blogs.msdn.microsoft.com/b/himanshu_kale/archive/2009/06/02/lun-resync-with-diskshadow-virtual-storage.aspx)
 
     2.  In the command prompt window, use diskpart.exe to format the virtual disk and assign a drive letter to it.
 

@@ -50,7 +50,7 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 <td>If an EAP method generates attributes or EMSK, then the supplicant will consume attributes. Typically, attributes that are consumed by supplicants are keys. The attributes consumed are <strong>eatPeerId</strong>, <strong>eatServerId</strong>, <strong>eatMethodId</strong>, <strong>eatEMSK</strong>, and <strong>eatCredentialsChanged</strong>. For more information, see [<strong>EAP_ATTRIBUTE_TYPE</strong>](/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type). An EAP method can export additional application-specific EMSK material such as:
 <ul>
 <li>Session ID</li>
-<li>[Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP)</li>
+<li>[Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP)</li>
 </ul>
 <br/></td>
 </tr>
@@ -85,7 +85,7 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </tr>
 <tr class="even">
 <td>Why does the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) API take a [<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) callback function pointer as a parameter?</td>
-<td>[<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP).</td>
+<td>[<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP).</td>
 </tr>
 <tr class="odd">
 <td>What is the purpose of the <em>pConnectionId</em> parameter in the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) API?</td>

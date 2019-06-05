@@ -14,7 +14,7 @@ Accessibility aids must have this identification in order to handle different wi
 
 If you cannot use separate window classes, you can expose the differences through Microsoft<entity type="reg"/> Active Accessibility<entity type="reg"/>, or if necessary, by a private window message that you document on your website.
 
-For more information about exposing window classes by using Active Accessibility, see the [Accessibility](https://msdn.microsoft.com/library/windows/desktop/ee663255) section.
+For more information about exposing window classes by using Active Accessibility, see the [Accessibility](https://docs.microsoft.com/windows/desktop/accessibility) section.
 
  
 

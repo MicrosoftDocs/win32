@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # msNPAllowDialin attribute
 
-Indicates whether the account has permission to dial in to the RAS server. Do not modify this value directly. Use the appropriate [RAS administration function](https://msdn.microsoft.com/library/windows/desktop/aa378047) to modify this value.
+Indicates whether the account has permission to dial in to the RAS server. Do not modify this value directly. Use the appropriate [RAS administration function](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions) to modify this value.
 
 
 
@@ -173,7 +173,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 <dl> <dt>
 
-[RAS Administration Functions](https://msdn.microsoft.com/library/windows/desktop/aa378047)
+[RAS Administration Functions](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions)
 </dt> </dl>
 
  

@@ -51,7 +51,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_PhysicalMedia**](https://msdn.microsoft.com/library/aa387967).**MediaType**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_PhysicalMedia**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-physicalmedia).**MediaType**")
 </dt> </dl>
 
 The CD and DVD formats that are supported by the device.

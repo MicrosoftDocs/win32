@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Translating Between Names and SIDs
 
-The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) provides functions to translate between user, group, and local group names and their corresponding [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) values. To locate account names, call the [**LsaLookupNames**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames) function. This function returns the SID as a RID/Domain index pair. To get the SID as a single element, call the [**LsaLookupNames2**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2) function. To locate SIDs, call [**LsaLookupSids**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids).
+The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) provides functions to translate between user, group, and local group names and their corresponding [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) values. To locate account names, call the [**LsaLookupNames**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames) function. This function returns the SID as a RID/Domain index pair. To get the SID as a single element, call the [**LsaLookupNames2**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2) function. To locate SIDs, call [**LsaLookupSids**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids).
 
 These functions can translate name and SID information from any domain trusted by the local system.
 
@@ -72,11 +72,11 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
 In the preceding example, the function **InitLsaString** converts a Unicode string to an [**LSA\_UNICODE\_STRING**](/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
 > [!Note]  
-> These translation functions are primarily provided for use by permissions editors to display [*access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACL) information. A permission editor should always call these functions using the [**Policy**](policy-object.md) object for the system where the name or [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) SID is located. This ensures that the proper set of trusted domains is referenced during the translation.
+> These translation functions are primarily provided for use by permissions editors to display [*access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACL) information. A permission editor should always call these functions using the [**Policy**](policy-object.md) object for the system where the name or [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) SID is located. This ensures that the proper set of trusted domains is referenced during the translation.
 
  
 
-Windows Access Control also provides functions that perform translations between SIDs and account names: [**LookupAccountName**](https://msdn.microsoft.com/library/windows/desktop/aa379159) and [**LookupAccountSid**](https://msdn.microsoft.com/library/windows/desktop/aa379166). If your application needs to look up an account name or SID and does not use additional LSA Policy functionality, use the Windows Access Control functions instead of the LSA Policy functions. For more information about these functions, see [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860).
+Windows Access Control also provides functions that perform translations between SIDs and account names: [**LookupAccountName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) and [**LookupAccountSid**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). If your application needs to look up an account name or SID and does not use additional LSA Policy functionality, use the Windows Access Control functions instead of the LSA Policy functions. For more information about these functions, see [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control).
 
  
 

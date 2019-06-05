@@ -67,7 +67,7 @@ BOOL FindTextInSelection(HWND hRich, WCHAR* target)
 
 ## Remarks
 
-Microsoft Rich Edit 3.0 also supports the HexToUnicode Input Method Editor (IME) function, which allows a user to convert between hexadecimal and Unicode by using hot keys. For more information, see [HexToUnicode IME](https://msdn.microsoft.com/library/windows/desktop/dd318146).
+Microsoft Rich Edit 3.0 also supports the HexToUnicode Input Method Editor (IME) function, which allows a user to convert between hexadecimal and Unicode by using hot keys. For more information, see [HexToUnicode IME](https://docs.microsoft.com/windows/desktop/Intl/hextounicode-ime).
 
 ## Related topics
 

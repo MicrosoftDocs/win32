@@ -14,7 +14,7 @@ A *persistent connection* is a network connection that the system automatically 
 
 To find the default user name or the user name used to establish a network connection, call the [**WNetGetUser**](https://msdn.microsoft.com/en-us/library/Aa385476(v=VS.85).aspx) function.
 
-In addition to calling the WNet functions, a process can also use mailslots and named pipes to communicate with another process. For more information, see [Mailslots](https://msdn.microsoft.com/library/windows/desktop/aa365576) and [Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365780).
+In addition to calling the WNet functions, a process can also use mailslots and named pipes to communicate with another process. For more information, see [Mailslots](https://docs.microsoft.com/windows/desktop/ipc/mailslots) and [Pipes](https://docs.microsoft.com/windows/desktop/ipc/pipes).
 
  
 

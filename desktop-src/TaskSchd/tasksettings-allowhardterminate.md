@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # TaskSettings.AllowHardTerminate property
 
-For scripting, gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714). The service will try to close the running task by sending the [**WM\_CLOSE**](https://msdn.microsoft.com/library/ms632617(v=VS.85).aspx) notification, and if the task does not respond, the task will be terminated only if this property is set to true.
+For scripting, gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using [**TerminateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess). The service will try to close the running task by sending the [**WM\_CLOSE**](https://msdn.microsoft.com/library/ms632617(v=VS.85).aspx) notification, and if the task does not respond, the task will be terminated only if this property is set to true.
 
 This property is read/write.
 
@@ -35,7 +35,7 @@ TaskSettings.AllowHardTerminate As Boolean
 
 ## Property value
 
-If True, the task can be terminated by using [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714). If False, the task cannot be terminated by using **TerminateProcess**.
+If True, the task can be terminated by using [**TerminateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess). If False, the task cannot be terminated by using **TerminateProcess**.
 
 ## Remarks
 

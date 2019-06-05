@@ -23,7 +23,7 @@ A typical text box.
 
 To decide, consider these questions:
 
--   **Is it practical to enumerate all the valid values efficiently?** If so, consider a [single-selection list](ctrl-list-boxes.md), [list view](ctrl-list-views.md), [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404), editable drop-down list, or [slider](ctrl-sliders.md) instead.
+-   **Is it practical to enumerate all the valid values efficiently?** If so, consider a [single-selection list](ctrl-list-boxes.md), [list view](ctrl-list-views.md), [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop), editable drop-down list, or [slider](ctrl-sliders.md) instead.
 -   **Is the valid data completely unconstrained? Or is the valid data constrained only by format (constrained length or character types)?** If so, use a text box.
 -   **Does the value represent a data type that has a specialized common control?** Examples include date, time, or IPv4 or IPv6 address. If so, use the appropriate control, such as a date control rather than a text box.
 -   If the data is numeric:

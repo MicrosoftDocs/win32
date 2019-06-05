@@ -96,7 +96,7 @@ You can specify the following escape sequences for formatting message text for u
 <span id="_n__format_specifier__"></span><span id="_N__FORMAT_SPECIFIER__"></span>%*n*\[!*format\_specifier*!\]
 </dt> <dd>
 
-Describes an insert. Each insert is an entry in the Arguments array in the [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function. The value of *n* can be a number between 1 and 99. The format specifier is optional. If no value is specified, the default is !s!. For information about the format specifier, see [**wsprintf**](https://msdn.microsoft.com/library/ms647550(v=VS.85).aspx).
+Describes an insert. Each insert is an entry in the Arguments array in the [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) function. The value of *n* can be a number between 1 and 99. The format specifier is optional. If no value is specified, the default is !s!. For information about the format specifier, see [**wsprintf**](https://msdn.microsoft.com/library/ms647550(v=VS.85).aspx).
 
 The format specifier can use \* for either the precision or the width. When specified, they consume inserts numbered *n*+1 and *n*+2.
 
@@ -133,7 +133,7 @@ Generates a single percent sign.
 <span id="_n"></span><span id="_N"></span>%n
 </dt> <dd>
 
-Generates a hard line break when it occurs at the end of a line. This can be used with [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) to ensure that the message fits a certain width.
+Generates a hard line break when it occurs at the end of a line. This can be used with [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) to ensure that the message fits a certain width.
 
 </dd> <dt>
 

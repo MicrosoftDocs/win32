@@ -16,7 +16,7 @@ api_location:
 
 To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific [*namespace*](gloss-n.md). In most cases, use either the shorthand [moniker](creating-a-wmi-script.md) connection or the [**Locator**](swbemlocator-connectserver.md) connection. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
 
-Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
+Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 

@@ -17,7 +17,7 @@ api_location:
 
 # SslGenerateSessionKeys function
 
-The **SslGenerateSessionKeys** function generates a set of [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) session keys.
+The **SslGenerateSessionKeys** function generates a set of [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) session keys.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ The handle to the SSL protocol provider instance.
 *hMasterKey* \[in\]
 </dt> <dd>
 
-The handle to the [*master key*](https://msdn.microsoft.com/library/windows/desktop/ms721594#-security-master-key-gly) object.
+The handle to the [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly) object.
 
 </dd> <dt>
 

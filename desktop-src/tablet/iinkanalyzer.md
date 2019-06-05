@@ -21,7 +21,7 @@ Provides access to layout analysis, writing and drawing classification, and hand
 
 ## Members
 
-The **IInkAnalyzer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IInkAnalyzer** also has these types of members:
+The **IInkAnalyzer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalyzer** also has these types of members:
 
 -   [Methods](#methods)
 

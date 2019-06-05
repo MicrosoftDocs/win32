@@ -49,7 +49,7 @@ The **Msvm\_ResourceAllocationFromPool** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903)**
+Data type: **[**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -58,26 +58,26 @@ Access type: Read-only
 Qualifiers: **Override**, **Max** (1)
 </dt> </dl>
 
-The resource pool. This property is inherited from [**CIM\_ResourceAllocationFromPool**](https://msdn.microsoft.com/library/cc150673).
+The resource pool. This property is inherited from [**CIM\_ResourceAllocationFromPool**](https://docs.microsoft.com/previous-versions//cc150673(v=vs.85)).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)**
+Data type: **[**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The resource allocation. This property is inherited from [**CIM\_ResourceAllocationFromPool**](https://msdn.microsoft.com/library/cc150673).
+The resource allocation. This property is inherited from [**CIM\_ResourceAllocationFromPool**](https://docs.microsoft.com/previous-versions//cc150673(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ResourceAllocationFromPool** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ResourceAllocationFromPool** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -100,10 +100,10 @@ Access to the **Msvm\_ResourceAllocationFromPool** class might be restricted by 
 [**CIM\_ResourceAllocationFromPool**](cim-resourceallocationfrompool.md)
 </dt> <dt>
 
-[**CIM\_ResourceAllocationFromPool**](https://msdn.microsoft.com/library/cc150673)
+[**CIM\_ResourceAllocationFromPool**](https://docs.microsoft.com/previous-versions//cc150673(v=vs.85))
 </dt> <dt>
 
-[**Msvm\_ResourceAllocationFromPool (V1)**](https://msdn.microsoft.com/library/cc136876)
+[**Msvm\_ResourceAllocationFromPool (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-resourceallocationfrompool)
 </dt> <dt>
 
 [Resource Management Classes](resource-management-classes.md)

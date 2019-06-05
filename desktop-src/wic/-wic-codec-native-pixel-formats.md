@@ -250,7 +250,7 @@ The following table lists the RGB/BGR formats provided by WIC. These formats sep
 
  
 
-Starting with Windows 8 and the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), WIC provides additional formats, shown in the table here.
+Starting with Windows 8 and the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), WIC provides additional formats, shown in the table here.
 
 
 
@@ -391,7 +391,7 @@ The following tables show the pixel formats supported by each of the Windows pro
  
 
 > [!Note]  
-> GUID\_WICPixelFormat32bppBGRA is only supported in Windows 8, the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), and above.
+> GUID\_WICPixelFormat32bppBGRA is only supported in Windows 8, the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
 >
 > -   To encode to this format, use the **EnableV5Header32bppBGRA** encoder option. The BMP will be written with a BITMAPV5HEADER header.
 > -   If a file has a BITMAPV5HEADER, it decodes as GUID\_WICPixelFormat32bppBGRA.
@@ -495,7 +495,7 @@ The following tables show the pixel formats supported by each of the Windows pro
  
 
 > [!Note]  
-> GUID\_ WICPixelFormat96bppRGBFloat is only supported in Windows 8, the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), and above.
+> GUID\_ WICPixelFormat96bppRGBFloat is only supported in Windows 8, the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
 
  
 

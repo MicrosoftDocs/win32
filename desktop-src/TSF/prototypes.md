@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Prototypes
 
-[ITfContextRenderingMarkup](https://msdn.microsoft.com/library/windows/desktop/aa966386), [IEnumTfRenderingMarkup](https://msdn.microsoft.com/library/windows/desktop/aa966188), and [TF\_RENDERINGMARKUP](https://msdn.microsoft.com/library/windows/desktop/aa966913) described in this reference are not defined in IDL or header files. The following prototypes are needed to be complied by MIDL compiler to get the header file..
+[ITfContextRenderingMarkup](https://docs.microsoft.com/windows/desktop/TSF/itfcontextrenderingmarkup), [IEnumTfRenderingMarkup](https://docs.microsoft.com/windows/desktop/TSF/ienumtfrenderingmarkup), and [TF\_RENDERINGMARKUP](https://docs.microsoft.com/windows/desktop/TSF/tf-renderingmarkup) described in this reference are not defined in IDL or header files. The following prototypes are needed to be complied by MIDL compiler to get the header file..
 
 
 ```C++

@@ -89,7 +89,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (32)
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (32)
 </dt> </dl>
 
 Used by OEMs to allow BIOS-locked Windows operating systems to run in the virtual machine. This string must be exactly 32 characters in length.
@@ -107,7 +107,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it is always set to "Hyper-V Virtual System Management Service".
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Virtual System Management Service".
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md).**ConfigurationDataRoot**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md).**ConfigurationDataRoot**")
 </dt> </dl>
 
 The default external data root. By default, "*root*\\ProgramData\\Microsoft\\Windows\\Virtualization".
@@ -209,7 +209,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it is always set to "Settings for the Virtual System Management Service".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Settings for the Virtual System Management Service".
 
 </dd> <dt>
 
@@ -222,7 +222,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it is always set to "Hyper-V Virtual System Management Service". Changing this property will change the **ElementName** property of the associated [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884) derivative.
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Virtual System Management Service". Changing this property will change the **ElementName** property of the associated [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) derivative.
 
 </dd> <dt>
 
@@ -286,7 +286,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911), and it is always set to "Microsoft:*host*", where *host* is the NetBIOS name of the hosting computer system.
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)), and it is always set to "Microsoft:*host*", where *host* is the NetBIOS name of the hosting computer system.
 
 </dd> <dt>
 
@@ -385,7 +385,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (256), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|General Information\|001.4")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|General Information\|001.4")
 </dt> </dl>
 
 Describes how the primary system owner can be reached (for example, phone number or email address). By default, empty. This name may not exceed 256 characters in length.
@@ -403,7 +403,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|General Information\|001.3")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|General Information\|001.3")
 </dt> </dl>
 
 The name of the primary system owner. By default, "Administrators". This value may not exceed 64 characters in length.
@@ -414,7 +414,7 @@ This is a read-only property, but it can be changed by using the [**ModifyServic
 
 ## Remarks
 
-Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -440,7 +440,7 @@ Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be
 [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md)
 </dt> <dt>
 
-[**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911)
+[**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85))
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)

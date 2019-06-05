@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System Restore API
 
-The System Restore API enables an application to manage restore points. There is also a scriptable interface available through [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582) (WMI).
+The System Restore API enables an application to manage restore points. There is also a scriptable interface available through [Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page) (WMI).
 
 For more information about the System Restore API, see the following topics:
 

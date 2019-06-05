@@ -28,7 +28,7 @@ Use Windows PowerShell to install, inventory, and uninstall line-of-business (LO
 
 <dl> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> </dl>
 
  

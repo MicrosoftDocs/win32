@@ -103,7 +103,7 @@ Direct2D automatically performs scaling to match the DPI setting. In Direct2D, c
 
 For example, if the user's DPI setting is 144 DPI, and you ask Direct2D to draw a 200 × 100 rectangle, the rectangle will be 300 × 150 physical pixels. In addition, DirectWrite measures font sizes in DIPs, rather than points. To create a 12-point font, specify 16 DIPs (12 points = 1/6 logical inch = 96/6 DIPs). When the text is drawn on the screen, Direct2D converts the DIPs to physical pixels. The benefit of this system is that the units of measurement are consistent for both text and drawing, regardless of the current DPI setting.
 
-A word of caution: Mouse and window coordinates are still given in physical pixels, not DIPs. For example, if you process the [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) message, the mouse-down position is given in physical pixels. To draw a point at that position, you must convert the pixel coordinates to DIPs.
+A word of caution: Mouse and window coordinates are still given in physical pixels, not DIPs. For example, if you process the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message, the mouse-down position is given in physical pixels. To draw a point at that position, you must convert the pixel coordinates to DIPs.
 
 ## Converting Physical Pixels to DIPs
 
@@ -112,7 +112,7 @@ The conversion from physical pixels to DIPs uses the following formula.
 <dl> DIPs = pixels / (DPI/96.0)  
 </dl>
 
-To get the DPI setting, call the [**ID2D1Factory::GetDesktopDpi**](https://msdn.microsoft.com/library/windows/desktop/dd371316) method. The DPI is returned as two floating-point values, one for the x-axis and one for the y-axis. In theory, these values can differ. Calculate a separate scaling factor for each axis.
+To get the DPI setting, call the [**ID2D1Factory::GetDesktopDpi**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method. The DPI is returned as two floating-point values, one for the x-axis and one for the y-axis. In theory, these values can differ. Calculate a separate scaling factor for each axis.
 
 
 ```C++
@@ -183,7 +183,7 @@ void MainWindow::Resize()
 
 
 
-The [**GetClientRect**](https://msdn.microsoft.com/library/windows/desktop/ms633503) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](https://msdn.microsoft.com/library/windows/desktop/dd742774) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
+The [**GetClientRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-resize) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
 
 As the window grows or shrinks, you will typically need to recalculate the position of the objects that you draw. For example, in the circle program, the radius and center point must be updated:
 
@@ -204,7 +204,7 @@ void MainWindow::CalculateLayout()
 
 
 
-The [**ID2D1RenderTarget::GetSize**](https://msdn.microsoft.com/library/windows/desktop/dd316823) method returns the size of the render target in DIPs (not pixels), which is the appropriate unit for calculating layout. There is a closely related method, [**ID2D1RenderTarget::GetPixelSize**](https://msdn.microsoft.com/library/windows/desktop/dd316820), that returns the size in physical pixels. For an **HWND** render target, this value matches the size returned by [**GetClientRect**](https://msdn.microsoft.com/library/windows/desktop/ms633503). But remember that drawing is performed in DIPs, not pixels.
+The [**ID2D1RenderTarget::GetSize**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getsize) method returns the size of the render target in DIPs (not pixels), which is the appropriate unit for calculating layout. There is a closely related method, [**ID2D1RenderTarget::GetPixelSize**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize), that returns the size in physical pixels. For an **HWND** render target, this value matches the size returned by [**GetClientRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect). But remember that drawing is performed in DIPs, not pixels.
 
 ## Next
 

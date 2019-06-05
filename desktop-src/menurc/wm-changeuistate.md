@@ -73,9 +73,9 @@ This parameter is not used and must be 0.
 
 ## Remarks
 
-A window should send this message to itself or its parent when it must change the UI state elements of all windows in the same hierarchy. The window procedure must let [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) process this message so that the entire window tree has a consistent UI state. When the top-level window receives the **WM\_CHANGEUISTATE** message, it sends a [**WM\_UPDATEUISTATE**](wm-updateuistate.md) message with the same parameters to all child windows. When the system processes the **WM\_UPDATEUISTATE** message, it makes the change in the UI state.
+A window should send this message to itself or its parent when it must change the UI state elements of all windows in the same hierarchy. The window procedure must let [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) process this message so that the entire window tree has a consistent UI state. When the top-level window receives the **WM\_CHANGEUISTATE** message, it sends a [**WM\_UPDATEUISTATE**](wm-updateuistate.md) message with the same parameters to all child windows. When the system processes the **WM\_UPDATEUISTATE** message, it makes the change in the UI state.
 
-If the low-order word of *wParam* is UIS\_INITIALIZE, the system will send the [**WM\_UPDATEUISTATE**](wm-updateuistate.md) message with a UI state based on the last input event. For example, if the last input came from the mouse, the system will hide the keyboard cues. And, if the last input came from the keyboard, the system will show the keyboard cues. If the state that results from processing **WM\_CHANGEUISTATE** is the same as the old state, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) does not send this message.
+If the low-order word of *wParam* is UIS\_INITIALIZE, the system will send the [**WM\_UPDATEUISTATE**](wm-updateuistate.md) message with a UI state based on the last input event. For example, if the last input came from the mouse, the system will hide the keyboard cues. And, if the last input came from the keyboard, the system will show the keyboard cues. If the state that results from processing **WM\_CHANGEUISTATE** is the same as the old state, [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) does not send this message.
 
 ## Requirements
 
@@ -96,10 +96,10 @@ If the low-order word of *wParam* is UIS\_INITIALIZE, the system will send the [
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
+[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
+[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 [**WM\_QUERYUISTATE**](wm-queryuistate.md)

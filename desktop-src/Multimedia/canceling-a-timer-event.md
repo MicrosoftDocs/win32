@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 # Canceling a Timer Event
 
 > [!Note]  
-> This topic describes an obsolete function. New applications should use the [**CreateTimerQueueTimer**](https://msdn.microsoft.com/library/windows/desktop/ms682485) function to create timers.
+> This topic describes an obsolete function. New applications should use the [**CreateTimerQueueTimer**](https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) function to create timers.
 
  
 

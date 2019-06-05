@@ -91,22 +91,22 @@ This topic describes the named constants that are used to identify types of anno
 **Reference**
 </dt> <dt>
 
-[**IAnnotationProvider::AnnotationTypeId**](https://msdn.microsoft.com/library/windows/desktop/hh448758)
+[**IAnnotationProvider::AnnotationTypeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypeid)
 </dt> <dt>
 
-[**ISpreadsheetItemProvider::GetAnnotationTypes**](https://msdn.microsoft.com/library/windows/desktop/hh448794)
+[**ISpreadsheetItemProvider::GetAnnotationTypes**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationtypes)
 </dt> <dt>
 
-[**IUIAutomationPattern::CachedAnnotationTypeId**](https://msdn.microsoft.com/library/windows/desktop/hh437212)
+[**IUIAutomationPattern::CachedAnnotationTypeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationannotationpattern-get_cachedannotationtypeid)
 </dt> <dt>
 
-[**IUIAutomationPattern::CurrentAnnotationTypeId**](https://msdn.microsoft.com/library/windows/desktop/hh437227)
+[**IUIAutomationPattern::CurrentAnnotationTypeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationannotationpattern-get_currentannotationtypeid)
 </dt> <dt>
 
-[**IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationType**](https://msdn.microsoft.com/library/windows/desktop/hh437276)
+[**IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationType**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationtypes)
 </dt> <dt>
 
-[**IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationType**](https://msdn.microsoft.com/library/windows/desktop/hh437279)
+[**IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationType**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationtypes)
 </dt> <dt>
 
 **Conceptual**

@@ -102,14 +102,14 @@ public static void JetGetSecondaryIndexBookmark(
 <!-- end list -->
 
   - secondaryKeySize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Size of the secondary key buffer.
 
 <!-- end list -->
 
   - actualSecondaryKeySize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the size of the secondary key.
 
@@ -123,14 +123,14 @@ public static void JetGetSecondaryIndexBookmark(
 <!-- end list -->
 
   - primaryKeySize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Size of the primary key buffer.
 
 <!-- end list -->
 
   - actualPrimaryKeySize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the size of the primary key.
 

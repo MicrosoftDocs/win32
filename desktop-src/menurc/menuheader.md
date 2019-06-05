@@ -42,7 +42,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The version number of the menu template. This member must be equal to zero to indicate that this is an [**RT\_MENU**](https://msdn.microsoft.com/library/windows/desktop/ms648009) created with a standard menu template.
+The version number of the menu template. This member must be equal to zero to indicate that this is an [**RT\_MENU**](https://docs.microsoft.com/windows/desktop/menurc/resource-types) created with a standard menu template.
 
 </dd> <dt>
 

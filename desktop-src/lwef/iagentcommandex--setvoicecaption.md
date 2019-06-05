@@ -16,7 +16,7 @@ HRESULT SetVoiceCaption(
 );
 ```
 
-Sets the [**VoiceCaption**](voicecaption-property.md) text displayed for a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441).
+Sets the [**VoiceCaption**](voicecaption-property.md) text displayed for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the [**VoiceCaption**](voicecaption-property.md) text displayed for a [**Co
 <span id="bszVoiceCaption"></span><span id="bszvoicecaption"></span><span id="BSZVOICECAPTION"></span>*bszVoiceCaption*
 </dt> <dd>
 
-A BSTR that specifies the text for the [**VoiceCaption**](voicecaption-property.md) property for a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441).
+A BSTR that specifies the text for the [**VoiceCaption**](voicecaption-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
-If you define a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) object in a [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) collection and set its [**Voice**](voice-property.md) property, you will typically also set its [**VoiceCaption**](voicecaption-property.md) property. This text will appear in the Voice Commands Window when your client application is input active. If this property is not set, the setting for the [**Caption**](caption-property.md) property determines the text displayed. When neither the **VoiceCaption** or property is set, the command does not appear in the Voice Commands Window.
+If you define a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection and set its [**Voice**](voice-property.md) property, you will typically also set its [**VoiceCaption**](voicecaption-property.md) property. This text will appear in the Voice Commands Window when your client application is input active. If this property is not set, the setting for the [**Caption**](caption-property.md) property determines the text displayed. When neither the **VoiceCaption** or property is set, the command does not appear in the Voice Commands Window.
 
 [**Caption**](caption-property.md)
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Initializing the COM Library
 
-Any Windows program that uses COM must initialize the COM library by calling the [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) function. Each thread that uses a COM interface must make a separate call to this function. **CoInitializeEx** has the following signature:
+Any Windows program that uses COM must initialize the COM library by calling the [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) function. Each thread that uses a COM interface must make a separate call to this function. **CoInitializeEx** has the following signature:
 
 
 ```C++
@@ -38,7 +38,7 @@ If either of these constraints is not true, use the multithreaded model. To spec
 You must set exactly one of these flags. Generally, a thread that creates a window should use the **COINIT\_APARTMENTTHREADED** flag, and other threads should use **COINIT\_MULTITHREADED**. However, some COM components require a particular threading model. The MSDN documentation should tell you when that is the case.
 
 > [!Note]  
-> Actually, even if you specify apartment threading, it is still possible to share interfaces between threads, by using a technique called *marshaling*. Marshaling is beyond the scope of this module. The important point is that with apartment threading, you must never simply copy an interface pointer to another thread. For more information about the COM threading models, see [Processes, Threads, and Apartments](https://msdn.microsoft.com/library/windows/desktop/ms693344) and [Understanding and Using COM Threading Models](https://go.microsoft.com/fwlink/p/?linkid=155119).
+> Actually, even if you specify apartment threading, it is still possible to share interfaces between threads, by using a technique called *marshaling*. Marshaling is beyond the scope of this module. The important point is that with apartment threading, you must never simply copy an interface pointer to another thread. For more information about the COM threading models, see [Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments) and [Understanding and Using COM Threading Models](https://go.microsoft.com/fwlink/p/?linkid=155119).
 
  
 
@@ -57,7 +57,7 @@ The **HRESULT** return type contains an error or success code. We'll look at COM
 
 ## Uninitializing the COM Library
 
-For every successful call to [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279), you must call [**CoUninitialize**](https://msdn.microsoft.com/library/windows/desktop/ms688715) before the thread exits. This function takes no parameters and has no return value.
+For every successful call to [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex), you must call [**CoUninitialize**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) before the thread exits. This function takes no parameters and has no return value.
 
 
 ```C++

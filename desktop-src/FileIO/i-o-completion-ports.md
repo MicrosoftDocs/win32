@@ -28,7 +28,7 @@ When a completion packet is queued to an I/O completion port, the system first c
 
 Threads can use the [**PostQueuedCompletionStatus**](postqueuedcompletionstatus.md) function to place completion packets in an I/O completion port's queue. By doing so, the completion port can be used to receive communications from other threads of the process, in addition to receiving I/O completion packets from the I/O system. The **PostQueuedCompletionStatus** function allows an application to queue its own special-purpose completion packets to the I/O completion port without starting an asynchronous I/O operation. This is useful for notifying worker threads of external events, for example.
 
-The I/O completion port handle and every file handle associated with that particular I/O completion port are known as *references to the I/O completion port*. The I/O completion port is released when there are no more references to it. Therefore, all of these handles must be properly closed to release the I/O completion port and its associated system resources. After these conditions are satisfied, an application should close the I/O completion port handle by calling the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.
+The I/O completion port handle and every file handle associated with that particular I/O completion port are known as *references to the I/O completion port*. The I/O completion port is released when there are no more references to it. Therefore, all of these handles must be properly closed to release the I/O completion port and its associated system resources. After these conditions are satisfied, an application should close the I/O completion port handle by calling the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.
 
 > [!Note]
 >
@@ -50,26 +50,26 @@ The most efficient scenario occurs when there are completion packets waiting in 
 
 The best overall maximum value to pick for the concurrency value is the number of CPUs on the computer. If your transaction required a lengthy computation, a larger concurrency value will allow more threads to run. Each completion packet may take longer to finish, but more completion packets will be processed at the same time. You can experiment with the concurrency value in conjunction with profiling tools to achieve the best effect for your application.
 
-The system also allows a thread waiting in [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) to process a completion packet if another running thread associated with the same I/O completion port enters a wait state for other reasons, for example the [**SuspendThread**](https://msdn.microsoft.com/library/windows/desktop/ms686345) function. When the thread in the wait state begins running again, there may be a brief period when the number of active threads exceeds the concurrency value. However, the system quickly reduces this number by not allowing any new active threads until the number of active threads falls below the concurrency value. This is one reason to have your application create more threads in its thread pool than the concurrency value. Thread pool management is beyond the scope of this topic, but a good rule of thumb is to have a minimum of twice as many threads in the thread pool as there are processors on the system. For additional information about thread pooling, see [Thread Pools](https://msdn.microsoft.com/library/windows/desktop/ms686760).
+The system also allows a thread waiting in [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) to process a completion packet if another running thread associated with the same I/O completion port enters a wait state for other reasons, for example the [**SuspendThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread) function. When the thread in the wait state begins running again, there may be a brief period when the number of active threads exceeds the concurrency value. However, the system quickly reduces this number by not allowing any new active threads until the number of active threads falls below the concurrency value. This is one reason to have your application create more threads in its thread pool than the concurrency value. Thread pool management is beyond the scope of this topic, but a good rule of thumb is to have a minimum of twice as many threads in the thread pool as there are processors on the system. For additional information about thread pooling, see [Thread Pools](https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools).
 
 ## Supported I/O Functions
 
-The following functions can be used to start I/O operations that complete by using I/O completion ports. You must pass the function an instance of the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure and a file handle previously associated with an I/O completion port (by a call to [**CreateIoCompletionPort**](createiocompletionport.md)) to enable the I/O completion port mechanism:
+The following functions can be used to start I/O operations that complete by using I/O completion ports. You must pass the function an instance of the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure and a file handle previously associated with an I/O completion port (by a call to [**CreateIoCompletionPort**](createiocompletionport.md)) to enable the I/O completion port mechanism:
 
--   [**ConnectNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365146)
--   [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
+-   [**ConnectNamedPipe**](https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
+-   [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 -   [**LockFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-lockfileex)
 -   [**ReadDirectoryChangesW**](/windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw)
 -   [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile)
--   [**TransactNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365790)
--   [**WaitCommEvent**](https://msdn.microsoft.com/library/windows/desktop/aa363479)
+-   [**TransactNamedPipe**](https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe)
+-   [**WaitCommEvent**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent)
 -   [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile)
--   [**WSASendMsg**](https://msdn.microsoft.com/library/windows/desktop/ms741692)
--   [**WSASendTo**](https://msdn.microsoft.com/library/windows/desktop/ms741693)
--   [**WSASend**](https://msdn.microsoft.com/library/windows/desktop/ms742203)
--   [**WSARecvFrom**](https://msdn.microsoft.com/library/windows/desktop/ms741686)
--   [**WSARecvMsg**](https://msdn.microsoft.com/library/windows/desktop/ms741687)
--   [**WSARecv**](https://msdn.microsoft.com/library/windows/desktop/ms741688)
+-   [**WSASendMsg**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg)
+-   [**WSASendTo**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto)
+-   [**WSASend**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend)
+-   [**WSARecvFrom**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom)
+-   [**WSARecvMsg**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+-   [**WSARecv**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv)
 
 ## Related topics
 
@@ -78,10 +78,10 @@ The following functions can be used to start I/O operations that complete by usi
 
 </dt> <dt>
 
-[About Processes and Threads](https://msdn.microsoft.com/library/windows/desktop/ms681917)
+[About Processes and Threads](https://docs.microsoft.com/windows/desktop/ProcThread/about-processes-and-threads)
 </dt> <dt>
 
-[**BindIoCompletionCallback**](https://msdn.microsoft.com/library/windows/desktop/aa363484)
+[**BindIoCompletionCallback**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-bindiocompletioncallback)
 </dt> <dt>
 
 [**CreateIoCompletionPort**](createiocompletionport.md)

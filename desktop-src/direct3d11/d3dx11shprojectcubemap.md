@@ -63,7 +63,7 @@ A pointer to an [**ID3D11DeviceContext**](/windows/desktop/api/D3D11/nn-d3d11-id
 *Order* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Order of the SH evaluation, generates Order^2 coefficients whose degree is Order-1. Valid range is between 2 and 6.
 
@@ -81,7 +81,7 @@ A pointer to an [**ID3D11Texture2D**](/windows/desktop/api/D3D11/nn-d3d11-id3d11
 *pROut* 
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**FLOAT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 Output SH vector for red.
 
@@ -90,7 +90,7 @@ Output SH vector for red.
 *pGOut* 
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**FLOAT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 Output SH vector for green.
 
@@ -99,7 +99,7 @@ Output SH vector for green.
 *pBOut* 
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**FLOAT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 Output SH vector for blue.
 

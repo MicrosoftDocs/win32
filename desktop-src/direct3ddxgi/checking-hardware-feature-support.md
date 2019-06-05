@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section covers how to check on Format Support for Direct3D Feature Level Hardware using API calls.
 
-For D3D11, use [**ID3D11Device::CheckFormatSupport**](https://msdn.microsoft.com/library/windows/desktop/ff476498) to programmatically verify the info in the previous sections. For D3D12 use [**ID3D12::CheckFeatureSupport**](https://msdn.microsoft.com/library/windows/desktop/dn788653).
+For D3D11, use [**ID3D11Device::CheckFormatSupport**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkformatsupport) to programmatically verify the info in the previous sections. For D3D12 use [**ID3D12::CheckFeatureSupport**](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport).
 
 
 
@@ -30,78 +30,78 @@ For D3D11, use [**ID3D11Device::CheckFormatSupport**](https://msdn.microsoft.com
 <tbody>
 <tr class="odd">
 <td>Buffer</td>
-<td>D3D12_FORMAT_SUPPORT1_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Input Assembler Vertex Buffer</td>
-<td>D3D12_FORMAT_SUPPORT1_IA_VERTEX_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_IA_VERTEX_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_IA_VERTEX_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_IA_VERTEX_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Input Assembler Index Buffer</td>
-<td>D3D12_FORMAT_SUPPORT1_IA_INDEX_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_IA_INDEX_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_IA_INDEX_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_IA_INDEX_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Stream Output Buffer</td>
-<td>D3D12_FORMAT_SUPPORT1_SO_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SO_BUFFER (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SO_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SO_BUFFER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Texture1D</td>
-<td>D3D12_FORMAT_SUPPORT1_TEXTURE1D (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_TEXTURE1D (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_TEXTURE1D (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_TEXTURE1D (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Texture2D</td>
-<td>D3D12_FORMAT_SUPPORT1_TEXTURE2D (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_TEXTURE2D (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_TEXTURE2D (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_TEXTURE2D (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Texture3D</td>
-<td>D3D12_FORMAT_SUPPORT1_TEXTURE3D (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_TEXTURE3D (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_TEXTURE3D (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_TEXTURE3D (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>TextureCube</td>
-<td>D3D12_FORMAT_SUPPORT1_TEXTURECUBE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_TEXTURECUBE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_TEXTURECUBE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_TEXTURECUBE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Shader ld</td>
-<td>D3D12_FORMAT_SUPPORT1_SHADER_LOAD (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SHADER_LOAD (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SHADER_LOAD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SHADER_LOAD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Shader sample (any filter)</td>
-<td>D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SHADER_SAMPLE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SHADER_SAMPLE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Shader sample_c (comparison filter)</td>
-<td>D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Shader sample (mono 1_bit_filter)</td>
-<td>D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_MONO_TEXT (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SHADER_SAMPLE_MONO_TEXT (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_MONO_TEXT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SHADER_SAMPLE_MONO_TEXT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Shader gather4</td>
-<td>D3D12_FORMAT_SUPPORT1_SHADER_GATHER (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SHADER_GATHER (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SHADER_GATHER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SHADER_GATHER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Shader gather4_c</td>
-<td>D3D12_FORMAT_SUPPORT1_SHADER_GATHER_COMPARISON (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_SHADER_GATHER_COMPARISON (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_SHADER_GATHER_COMPARISON (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_SHADER_GATHER_COMPARISON (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Mipmap</td>
-<td>D3D12_FORMAT_SUPPORT1_MIP (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_MIP (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_MIP (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MIP (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Mipmap Auto-Generation</td>
@@ -110,27 +110,27 @@ For D3D11, use [**ID3D11Device::CheckFormatSupport**](https://msdn.microsoft.com
 D3D12 no longer has a dedicated mipmap generation functionality. Applications must implement it on their own using shaders.
 </blockquote>
 <br/></td>
-<td>D3D11_FORMAT_SUPPORT_MIP_AUTOGEN (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MIP_AUTOGEN (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>RenderTarget</td>
-<td>D3D12_FORMAT_SUPPORT1_RENDER_TARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_RENDER_TARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_RENDER_TARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_RENDER_TARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Blendable RenderTarget</td>
-<td>D3D12_FORMAT_SUPPORT1_BLENDABLE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_BLENDABLE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_BLENDABLE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_BLENDABLE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Output Merger Logic Op</td>
 <td>D3D12_FORMAT_SUPPORT2_OUTPUT_MERGER_LOGIC_OP</td>
-<td>D3D11_FORMAT_SUPPORT2_OUTPUT_MERGER_LOGIC_OP (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_OUTPUT_MERGER_LOGIC_OP (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Depth/Stencil Target</td>
-<td>D3D12_FORMAT_SUPPORT1_DEPTH_STENCIL (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_DEPTH_STENCIL (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_DEPTH_STENCIL (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_DEPTH_STENCIL (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Raw UAV and SRV</td>
@@ -144,48 +144,48 @@ D3D12 no longer has a dedicated mipmap generation functionality. Applications mu
 </tr>
 <tr class="odd">
 <td>Typed UAV</td>
-<td>D3D12_FORMAT_SUPPORT1_TYPED_UNORDERED_ACCESS_VIEW (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_TYPED_UNORDERED_ACCESS_VIEW (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_TYPED_UNORDERED_ACCESS_VIEW (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_TYPED_UNORDERED_ACCESS_VIEW (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>UAV Typed Store</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_TYPED_STORE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_TYPED_STORE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_TYPED_STORE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_TYPED_STORE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>UAV Typed Load</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_TYPED_LOAD (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_TYPED_LOAD (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_TYPED_LOAD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_TYPED_LOAD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>UAV Atomic Add</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_ADD (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_ADD (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_ADD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_ADD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>UAV Atomic Bitwise Ops</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_BITWISE_OPS (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>UAV Atomic Cmp&Store/ Cmp&Exch</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>UAV Atomic Exchange</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>UAV Atomic Signed Min/Max</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_SIGNED_MIN_OR_MAX (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_SIGNED_MIN_OR_MAX (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_SIGNED_MIN_OR_MAX (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_SIGNED_MIN_OR_MAX (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>UAV Atomic Unsigned Min/Max</td>
-<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_UNSIGNED_MIN_OR_MAX (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_UNSIGNED_MIN_OR_MAX (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_UNSIGNED_MIN_OR_MAX (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_UNSIGNED_MIN_OR_MAX (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>CPU Lockable</td>
@@ -194,57 +194,57 @@ D3D12 no longer has a dedicated mipmap generation functionality. Applications mu
 Only a single format precludes cpu access (420_OPAQUE).
 </blockquote>
 <br/></td>
-<td>D3D11_FORMAT_SUPPORT_CPU_LOCKABLE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_CPU_LOCKABLE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>4x Multisample RenderTarget</td>
-<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>8x Multisample RenderTarget</td>
-<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Other Multisample Count RT</td>
-<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Multisample Resolve</td>
-<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RESOLVE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_RESOLVE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Multisample Load</td>
-<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_LOAD (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_MULTISAMPLE_LOAD (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Display Scan-Out</td>
-<td>D3D12_FORMAT_SUPPORT1_DISPLAY (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_DISPLAY (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_DISPLAY (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_DISPLAY (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Cast Within Bit Layout</td>
-<td>D3D12_FORMAT_SUPPORT1_CAST_WITHIN_BIT_LAYOUT (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_CAST_WITHIN_BIT_LAYOUT (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_CAST_WITHIN_BIT_LAYOUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_CAST_WITHIN_BIT_LAYOUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Video Decoder Support</td>
-<td>D3D12_FORMAT_SUPPORT1_DECODER_OUTPUT (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_DECODER_OUTPUT (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_DECODER_OUTPUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_DECODER_OUTPUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Video Processor Input</td>
-<td>D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_INPUT (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_VIDEO_PROCESSOR_INPUT (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_INPUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_VIDEO_PROCESSOR_INPUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Video Processor Output</td>
-<td>D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_OUTPUT (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_VIDEO_PROCESSOR_OUTPUT (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_OUTPUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_VIDEO_PROCESSOR_OUTPUT (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Shared Resource</td>
@@ -253,11 +253,11 @@ Only a single format precludes cpu access (420_OPAQUE).
 Textures of all formats may be shared committed resources or be placed in shared heaps.
 </blockquote>
 <br/></td>
-<td>D3D11_FORMAT_SUPPORT2_SHAREABLE (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_SHAREABLE (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>BackBuffer Castable Even Fully Typed</td>
-<td>D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
 <td><blockquote>
 [!Note]<br />
 No API available.
@@ -266,18 +266,18 @@ No API available.
 </tr>
 <tr class="odd">
 <td>Tiled Resource</td>
-<td>D3D12_FORMAT_SUPPORT2_TILED (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_TILED (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_TILED (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_TILED (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>Video Encoder</td>
-<td>D3D12_FORMAT_SUPPORT1_VIDEO_ENCODER(<a href="https://msdn.microsoft.com/library/windows/desktop/dn859389"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT_VIDEO_ENCODER (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476134#d3d11-format-support-buffer"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT1_VIDEO_ENCODER(<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT_VIDEO_ENCODER (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
 <tr class="odd">
 <td>Multiplane Overlay</td>
-<td>D3D12_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY (<a href="https://msdn.microsoft.com/library/windows/desktop/dn859390"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
-<td>D3D11_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY (<a href="https://msdn.microsoft.com/library/windows/desktop/ff476135"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D12_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
+<td>D3D11_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 </tbody>
 </table>
@@ -290,16 +290,16 @@ No API available.
 
 <dl> <dt>
 
-[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/library/windows/desktop/mt186615)
+[D3D12 Hardware Feature Levels](https://docs.microsoft.com/windows/desktop/direct3d12/hardware-feature-levels)
 </dt> <dt>
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> <dt>
 
-[**D3D11\_FORMAT\_SUPPORT**](https://msdn.microsoft.com/library/windows/desktop/ff476134)
+[**D3D11\_FORMAT\_SUPPORT**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support)
 </dt> <dt>
 
-[**D3D11\_FORMAT\_SUPPORT2**](https://msdn.microsoft.com/library/windows/desktop/ff476135)
+[**D3D11\_FORMAT\_SUPPORT2**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2)
 </dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

@@ -72,7 +72,7 @@ The intermediate resource, as a pointer to an [**ID3D12Resource**](/windows/desk
 *IntermediateOffset* 
 </dt> <dd>
 
-Type: **[**UINT64**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The offset, in bytes, to the intermediate resource.
 
@@ -81,7 +81,7 @@ The offset, in bytes, to the intermediate resource.
 *FirstSubresource* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The index of the first subresource in the resource. Valid values range from 0 to *MaxSubresources*.
 
@@ -90,7 +90,7 @@ The index of the first subresource in the resource. Valid values range from 0 to
 *NumSubresources* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of subresources in the resource. Valid values range from 1 to (*MaxSubresources* - *FirstSubresource*).
 
@@ -107,7 +107,7 @@ Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRE
 
 ## Return value
 
-Type: **[**UINT64**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The size, in bytes, of the buffer.
 

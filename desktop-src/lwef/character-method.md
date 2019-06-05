@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns a [**Character**](https://msdn.microsoft.com/library/windows/desktop/ms696372) object in a [**Characters**](https://msdn.microsoft.com/library/windows/desktop/ms696372) collection.
+Returns a [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object in a [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection.
 
 </dd> <dt>
 
@@ -28,10 +28,10 @@ Returns a [**Character**](https://msdn.microsoft.com/library/windows/desktop/ms6
 
 ## Remarks
 
-You can use this method to access a [**Character**](https://msdn.microsoft.com/library/windows/desktop/ms696372) object's methods and properties.
+You can use this method to access a [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object's methods and properties.
 
 > [!Note]  
-> This method may be required for some programming languages that do not support collections. It is not required for VBScript or Visual Basic. For further information on specifying [**Character**](https://msdn.microsoft.com/library/windows/desktop/ms696372) methods, see Character Object Methods.
+> This method may be required for some programming languages that do not support collections. It is not required for VBScript or Visual Basic. For further information on specifying [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) methods, see Character Object Methods.
 
  
 

@@ -72,7 +72,7 @@ The **InkRenderer** class has these methods.
 
 Printing is also done through the **InkRenderer** object.
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Requirements
 

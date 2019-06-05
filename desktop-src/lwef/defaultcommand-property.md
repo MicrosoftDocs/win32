@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets the default command of the [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) object.
+Returns or sets the default command of the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object.
 
 </dd> <dt>
 
@@ -28,7 +28,7 @@ Returns or sets the default command of the [**Commands**](https://msdn.microsoft
 
 | Part     | Description                                                                         |
 |----------|-------------------------------------------------------------------------------------|
-| *string* | A string value identifying the name (ID) of the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441). |
+| *string* | A string value identifying the name (ID) of the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object). |
 
 
 
@@ -38,7 +38,7 @@ Returns or sets the default command of the [**Commands**](https://msdn.microsoft
 
 ## Remarks
 
-This property enables you to set a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) in your [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) collection as the default command, rendering it bold. This does not actually change command handling or double-click events.
+This property enables you to set a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection as the default command, rendering it bold. This does not actually change command handling or double-click events.
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 

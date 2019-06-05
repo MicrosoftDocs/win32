@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Checking the State of an Accessibility Parameter
 
-The following code fragment uses the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function to check the ShowSounds parameter. If **GetSystemMetrics** returns **TRUE**, the application should present all important information in visual form.
+The following code fragment uses the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function to check the ShowSounds parameter. If **GetSystemMetrics** returns **TRUE**, the application should present all important information in visual form.
 
 
 ```C++

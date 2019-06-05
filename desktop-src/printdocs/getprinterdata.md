@@ -23,7 +23,7 @@ api_location:
 
 The **GetPrinterData** function retrieves configuration data for the specified printer or print server.
 
-In Windows 2000 and later versions of Windows, calling **GetPrinterData** is equivalent to calling [**GetPrinterDataEx**](https://msdn.microsoft.com/library/windows/desktop/dd144913) with the *pKeyName* parameter set to "PrinterDriverData".
+In Windows 2000 and later versions of Windows, calling **GetPrinterData** is equivalent to calling [**GetPrinterDataEx**](https://docs.microsoft.com/windows/desktop/printdocs/getprinterdataex) with the *pKeyName* parameter set to "PrinterDriverData".
 
 ## Syntax
 
@@ -104,7 +104,7 @@ If the function succeeds, the return value is **ERROR\_SUCCESS**. If the functio
 
 **GetPrinterData** retrieves printer configuration data that was set by the [**SetPrinterDataEx**](setprinterdataex.md) or [**SetPrinterData**](setprinterdata.md) function.
 
-**GetPrinterData** might trigger a Windows call to [**GetPrinterDataFromPort**](https://msdn.microsoft.com/library/windows/hardware/ff550506), which might write to the registry. If it does, side effects can occur, such as triggering an update or upgrade printer event ID 20 in the client, if the printer is shared in a network.
+**GetPrinterData** might trigger a Windows call to [**GetPrinterDataFromPort**](https://docs.microsoft.com/previous-versions//ff550506(v=vs.85)), which might write to the registry. If it does, side effects can occur, such as triggering an update or upgrade printer event ID 20 in the client, if the printer is shared in a network.
 
 If *hPrinter* is a handle to a print server, *pValueName* can specify one of the following predefined values.
 

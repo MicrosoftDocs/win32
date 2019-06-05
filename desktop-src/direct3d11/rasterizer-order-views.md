@@ -55,7 +55,7 @@ ROVs are an HLSL-only construct that applies different behavior semantics to UAV
 [Direct3D 11.3 Features](direct3d-11-3-features.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> </dl>
 
  

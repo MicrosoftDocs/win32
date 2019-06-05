@@ -22,7 +22,7 @@ If no state information is needed and you do not choose to call the RPC run-time
 
 You can specify a global variable as the binding handle by using the ACF keyword **\[**[**implicit\_handle**](implicit-handle.md)**\]**. The **\[explicit\_handle\]** keyword is used to state that each remote function has an explicitly specified handle.
 
-For more information, see [Binding and Handles](https://msdn.microsoft.com/library/windows/desktop/aa373565).
+For more information, see [Binding and Handles](https://docs.microsoft.com/windows/desktop/Rpc/binding-and-handles).
 
  
 

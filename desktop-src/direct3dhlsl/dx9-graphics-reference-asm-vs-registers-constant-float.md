@@ -13,7 +13,7 @@ api_location:
 
 # Constant Float Register
 
-Vertex shader input register for a four component floating-point constant. Set a constant register with either [def - vs](def---vs.md) or [**SetVertexShaderConstantF**](https://msdn.microsoft.com/library/windows/desktop/bb174467).
+Vertex shader input register for a four component floating-point constant. Set a constant register with either [def - vs](def---vs.md) or [**SetVertexShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf).
 
 The constant register file is read-only from the perspective of the vertex shader. Any single instruction may access only one constant register. However, each source in that instruction may independently swizzle and negate that vector as it is read.
 
@@ -45,7 +45,7 @@ def c40, 0.0f,0.0f,0.0f,0.0f;
 
 
 
-These constants are loaded every time [**SetVertexShader**](https://msdn.microsoft.com/library/windows/desktop/bb174465) is called.
+These constants are loaded every time [**SetVertexShader**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshader) is called.
 
 Here is an example using the API.
 

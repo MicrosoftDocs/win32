@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Asynchronous Transfer Mode (ATM) networking is emerging into the mainstream of computing, and support for ATM has been added to many parts of the operating system. TAPI also supports key attributes of establishing calls on ATM facilities. The most important of these from an application perspective is the ability to request, negotiate, renegotiate, and receive indications of Quality of Service (QOS) parameters on incoming and outgoing calls.
 
-QOS information in TAPI is exchanged between applications and service providers in [**FLOWSPEC**](https://msdn.microsoft.com/library/windows/desktop/aa373702) structures that are defined in Windows Sockets 2.0.
+QOS information in TAPI is exchanged between applications and service providers in [**FLOWSPEC**](https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec) structures that are defined in Windows Sockets 2.0.
 
 Applications request QOS on outgoing calls by setting session information values prior to starting a communications session. The service provider will try to provide the specified QOS, and fail the call if it cannot. The application can then adjust its parameters and try the call again. After a call is established, an application can request a change in the QOS.
 

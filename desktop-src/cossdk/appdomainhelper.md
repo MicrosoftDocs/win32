@@ -39,7 +39,7 @@ Use this class to access the methods of [**IAppDomainHelper**](/windows/desktop/
 
 ## Remarks
 
-To create this object, call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
+To create this object, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 To use this class from Microsoft Visual Basic, add a reference to the COM+ Services Type Library. An AppDomainHelper object can be declared using "COMSVCSLib.AppDomainHelper" as the class name.
 

@@ -25,7 +25,7 @@ The name of an environment variable cannot include an equal sign (=).
 
 The [**GetEnvironmentStrings**](https://msdn.microsoft.com/en-us/library/ms683187(v=VS.85).aspx) function returns a pointer to the environment block of the calling process. This should be treated as a read-only block; do not modify it directly. Instead, use the [**SetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-setenvironmentvariable) function to change an environment variable. When you are finished with the environment block obtained from **GetEnvironmentStrings**, call the [**FreeEnvironmentStrings**](https://msdn.microsoft.com/en-us/library/ms683151(v=VS.85).aspx) function to free the block.
 
-Calling [**SetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-setenvironmentvariable) has no effect on the system environment variables. To programmatically add or modify system environment variables, add them to the **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\Environment** registry key, then broadcast a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/windows/desktop/ms725497) message with *lParam* set to the string "Environment". This allows applications, such as the shell, to pick up your updates.
+Calling [**SetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-setenvironmentvariable) has no effect on the system environment variables. To programmatically add or modify system environment variables, add them to the **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\Environment** registry key, then broadcast a [**WM\_SETTINGCHANGE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange) message with *lParam* set to the string "Environment". This allows applications, such as the shell, to pick up your updates.
 
 The maximum size of a user-defined environment variable is 32,767 characters. There is no technical limitation on the size of the environment block. However, there are practical limits depending on the mechanism used to access the block. For example, a batch file cannot set a variable that is longer than the maximum command line length.
 
@@ -35,7 +35,7 @@ The [**GetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-getenvi
 
 To retrieve a copy of the environment block for a given user, use the [**CreateEnvironmentBlock**](https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx) function.
 
-To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/library/windows/desktop/ms724265) function.
+To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig) function.
 
 ## Related topics
 

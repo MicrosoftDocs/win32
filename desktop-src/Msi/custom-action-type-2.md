@@ -52,7 +52,7 @@ Custom actions that are [executable files](executable-files.md) must return a va
 
 ## Remarks
 
-A custom action that launches an executable takes a command line, which commonly contains properties that are designated dynamically. If this is also a [deferred execution custom action](deferred-execution-custom-actions.md), the installer uses [**CreateProcessAsUser**](https://msdn.microsoft.com/library/windows/desktop/ms682429) or [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425) to create the process when the custom action is invoked from the installation script.
+A custom action that launches an executable takes a command line, which commonly contains properties that are designated dynamically. If this is also a [deferred execution custom action](deferred-execution-custom-actions.md), the installer uses [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) or [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) to create the process when the custom action is invoked from the installation script.
 
 When a database table is exported, each stream is written as a separate file in the subfolder named after the table, using the primary key as the file name (Name column for the Binary table), with a default extension of ".ibd". The name should use the 8.3 format if the file system or version control system does not support long file names. The persistent archive file replaces the stream data with the file name used, so that the data can be located when the table is imported.
 

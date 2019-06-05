@@ -41,7 +41,7 @@ A handle to the control to receive the default keyboard focus. The system assign
 *lParam* 
 </dt> <dd>
 
-Additional initialization data. This data is passed to the system as the *lParam* parameter in a call to the [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), [**CreateDialogParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogparama), [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), or [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama) function used to create the dialog box. For property sheets, this parameter is a pointer to the [**PROPSHEETPAGE**](https://msdn.microsoft.com/library/windows/desktop/bb774548) structure used to create the page. This parameter is zero if any other dialog box creation function is used.
+Additional initialization data. This data is passed to the system as the *lParam* parameter in a call to the [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), [**CreateDialogParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogparama), [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), or [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama) function used to create the dialog box. For property sheets, this parameter is a pointer to the [**PROPSHEETPAGE**](https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2) structure used to create the page. This parameter is zero if any other dialog box creation function is used.
 
 </dd> </dl>
 
@@ -49,7 +49,7 @@ Additional initialization data. This data is passed to the system as the *lParam
 
 The dialog box procedure should return **TRUE** to direct the system to set the keyboard focus to the control specified by *wParam*. Otherwise, it should return **FALSE** to prevent the system from setting the default keyboard focus.
 
-The dialog box procedure should return the value directly. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function is ignored.
+The dialog box procedure should return the value directly. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
 ## Remarks
 
@@ -88,7 +88,7 @@ An application can return **FALSE** only if it has set the keyboard focus to one
 [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama)
 </dt> <dt>
 
-[**SetFocus**](https://msdn.microsoft.com/library/windows/desktop/ms646312)
+[**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus)
 </dt> <dt>
 
 **Conceptual**
@@ -100,7 +100,7 @@ An application can return **FALSE** only if it has set the keyboard focus to one
 **Other Resources**
 </dt> <dt>
 
-[**PROPSHEETPAGE**](https://msdn.microsoft.com/library/windows/desktop/bb774548)
+[**PROPSHEETPAGE**](https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2)
 </dt> </dl>
 
  

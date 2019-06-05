@@ -55,7 +55,7 @@ The **\_\_EventGenerator** class is derived from [**\_\_IndicationRelated**](--i
 
 <dl> <dt>
 
-[**\_\_IndicationRelated**](https://msdn.microsoft.com/library/aa394648)
+[**\_\_IndicationRelated**](https://docs.microsoft.com/windows/desktop/WmiSdk/--indicationrelated)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

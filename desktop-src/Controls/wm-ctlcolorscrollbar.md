@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **WM\_CTLCOLORSCROLLBAR** message is sent to the parent window of a scroll bar control when the control is about to be drawn. By responding to this message, the parent window can use the display context handle to set the background color of the scroll bar control.
 
-A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [*WindowProc*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -56,13 +56,13 @@ If an application processes this message, it must return the handle to a brush. 
 
 ## Remarks
 
-If the application returns a brush that it created (for example, by using the [**CreateSolidBrush**](https://msdn.microsoft.com/library/windows/desktop/dd183518) or [**CreateBrushIndirect**](https://msdn.microsoft.com/library/windows/desktop/dd183487) function), the application must free the brush. If the application returns a system brush (for example, one that was retrieved by the [**GetStockObject**](https://msdn.microsoft.com/library/windows/desktop/dd144925) or [**GetSysColorBrush**](https://msdn.microsoft.com/library/windows/desktop/dd144927) function), the application does not need to free the brush.
+If the application returns a brush that it created (for example, by using the [**CreateSolidBrush**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) or [**CreateBrushIndirect**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) function), the application must free the brush. If the application returns a system brush (for example, one that was retrieved by the [**GetStockObject**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject) or [**GetSysColorBrush**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) function), the application does not need to free the brush.
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function selects the default system colors for the scroll bar control.
+By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function selects the default system colors for the scroll bar control.
 
 The **WM\_CTLCOLORSCROLLBAR** message is never sent between threads; it is only sent within the same thread.
 
-If a dialog box procedure handles this message, it should cast the desired return value to a **INT\_PTR** and return the value directly. If the dialog box procedure returns **FALSE**, then default message handling is performed. The DWL\_MSGRESULT value set by the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function is ignored.
+If a dialog box procedure handles this message, it should cast the desired return value to a **INT\_PTR** and return the value directly. If the dialog box procedure returns **FALSE**, then default message handling is performed. The DWL\_MSGRESULT value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
 The **WM\_CTLCOLORSCROLLBAR** message is used only by child scroll bar controls. Scrollbars attached to a window (WS\_SCROLL and WS\_VSCROLL) do not generate this message. To customize the appearance of scrollbars attached to a window, use the flat scroll bar functions.
 
@@ -100,16 +100,16 @@ The **WM\_CTLCOLORSCROLLBAR** message is used only by child scroll bar controls.
 **Other Resources**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**RealizePalette**](https://msdn.microsoft.com/library/windows/desktop/dd162896)
+[**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette)
 </dt> <dt>
 
-[**SelectPalette**](https://msdn.microsoft.com/library/windows/desktop/dd162958)
+[**SelectPalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette)
 </dt> <dt>
 
-[**WM\_CTLCOLORDLG**](https://msdn.microsoft.com/library/windows/desktop/ms645417)
+[**WM\_CTLCOLORDLG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-ctlcolordlg)
 </dt> </dl>
 
  

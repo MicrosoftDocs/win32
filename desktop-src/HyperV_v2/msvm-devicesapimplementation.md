@@ -49,32 +49,32 @@ The **Msvm\_DeviceSAPImplementation** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)**
+Data type: **[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The logical device. This property is inherited from [**CIM\_DeviceSAPImplementation**](https://msdn.microsoft.com/library/aa387245).
+The logical device. This property is inherited from [**CIM\_DeviceSAPImplementation**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-devicesapimplementation).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447)**
+Data type: **[**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The service access point implemented using the logical device. This property is inherited from [**CIM\_DeviceSAPImplementation**](https://msdn.microsoft.com/library/aa387245).
+The service access point implemented using the logical device. This property is inherited from [**CIM\_DeviceSAPImplementation**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-devicesapimplementation).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_DeviceSAPImplementation** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_DeviceSAPImplementation** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -101,7 +101,7 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_DeviceSAPImplementation**](cim-devicesapimplementation.md)
 </dt> <dt>
 
-[**CIM\_DeviceSAPImplementation**](https://msdn.microsoft.com/library/aa387245)
+[**CIM\_DeviceSAPImplementation**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-devicesapimplementation)
 </dt> </dl>
 
  

@@ -89,7 +89,7 @@ public static Object DeserializeObjectFromColumn(
 
 #### Return value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
 The deserialized object. Null if the column was null.  
 
 ## See also

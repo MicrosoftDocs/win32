@@ -30,13 +30,13 @@ Sets a rebar control's default background color.
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that represents the new default background color.
+[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the new default background color.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that represents the previous default background color.
+Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the previous default background color.
 
 ## Remarks
 

@@ -46,7 +46,7 @@ typedef struct _D3DX11_EFFECT_SHADER_DESC {
 **pInputSignature**
 </dt> <dd>
 
-Type: **const [**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **const [**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader.
 **IsInline**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 **pBytecode**
 </dt> <dd>
 
-Type: **const [**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **const [**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Shader bytecode.
 **BytecodeLength**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ The length of pBytecode.
 **SODecls**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Stream out declaration string (for geometry shader with SO).
 **RasterizedStream**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -112,7 +112,7 @@ Indicates which stream is rasterized. D3D11 geometry shaders can output up to fo
 **NumInputSignatureEntries**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ Number of entries in the input signature.
 **NumOutputSignatureEntries**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ Number of entries in the output signature.
 **NumPatchConstantSignatureEntries**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

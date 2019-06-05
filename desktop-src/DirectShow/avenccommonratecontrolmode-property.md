@@ -28,9 +28,9 @@ The value of this property is a member of the [**eAVEncCommonRateControlMode**](
 
 ## Remarks
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.microsoft.com/library/windows/desktop/jj218765).
+This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
-[CODECAPI\_AVEncVideoTemporalLayerCount](https://msdn.microsoft.com/library/windows/desktop/hh869834), [CODECAPI\_AVEncVideoUsage](https://msdn.microsoft.com/library/windows/desktop/hh869856), and CODECAPI\_AVEncCommonRateControlMode are static encoder properties. Once set, these will only take effect after a set media type is called on the camera’s output pin.
+[CODECAPI\_AVEncVideoTemporalLayerCount](https://docs.microsoft.com/windows/desktop/medfound/codecapi-avencvideotemporallayercount), [CODECAPI\_AVEncVideoUsage](https://docs.microsoft.com/windows/desktop/medfound/codecapi-avencvideousage), and CODECAPI\_AVEncCommonRateControlMode are static encoder properties. Once set, these will only take effect after a set media type is called on the camera’s output pin.
 
 ## Requirements
 

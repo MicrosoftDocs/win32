@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 You can remove users, groups, or contacts from groups. The **member** attribute of the **group** object contains all direct members of the group.
 
-The simplest way to remove a member from a group is to call the [**IADsGroup.Remove**](https://msdn.microsoft.com/library/aa706034) method on the [**IADsGroup**](https://msdn.microsoft.com/library/aa706021) interface of the group object you want to remove members from.
+The simplest way to remove a member from a group is to call the [**IADsGroup.Remove**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsgroup-remove) method on the [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup) interface of the group object you want to remove members from.
 
  
 

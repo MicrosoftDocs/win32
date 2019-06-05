@@ -110,10 +110,10 @@ Data type: **String**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Gets the X.500 path of the [**NTDS-DSA**](https://msdn.microsoft.com/library/ms683855) object.
+Gets the X.500 path of the [**NTDS-DSA**](https://docs.microsoft.com/windows/desktop/ADSchema/c-ntdsdsa) object.
 
 </dd> <dt>
 
@@ -191,7 +191,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-Gets the GUID that is associated with the [**NTDS-DSA**](https://msdn.microsoft.com/library/ms683855) object in the configuration container. The **NTDS-DSA** object represents the Active Directory Domain Service DSA process on the server.
+Gets the GUID that is associated with the [**NTDS-DSA**](https://docs.microsoft.com/windows/desktop/ADSchema/c-ntdsdsa) object in the configuration container. The **NTDS-DSA** object represents the Active Directory Domain Service DSA process on the server.
 
 </dd> <dt>
 

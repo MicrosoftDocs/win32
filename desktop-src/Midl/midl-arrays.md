@@ -55,7 +55,7 @@ HRESULT MyFunction(
 );
 ```
 
-For more information, see [Arrays and Pointers](https://msdn.microsoft.com/library/windows/desktop/aa373540).
+For more information, see [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers).
 
 ## Multidimensional Arrays
 

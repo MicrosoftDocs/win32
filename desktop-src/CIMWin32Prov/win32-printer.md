@@ -5485,7 +5485,7 @@ If **TRUE**, you can queue print jobs on the computer when the printer is offlin
 
 The **Win32\_Printer** class is derived from [**CIM\_Printer**](cim-printer.md). Before calling [**SWbemObject.Put\_**](https://msdn.microsoft.com/en-us/library/Aa393783(v=VS.85).aspx) or [**IWbemServices::PutInstance**](https://msdn.microsoft.com/en-us/library/Aa392115(v=VS.85).aspx) for a **Win32\_Printer** instance, the **SeLoadDriverPrivilege** privilege (**wbemPrivilegeLoadDriver** for Visual Basic and LoadDriver for scripting monikers) must be enabled. For more information, see [**Privilege Constants**](https://msdn.microsoft.com/en-us/library/Aa392758(v=VS.85).aspx) and [Executing Privileged Operations](https://msdn.microsoft.com/en-us/library/Aa390428(v=VS.85).aspx). The following VBScript code example shows how to enable the **SetLoadDriverPrivilege** privilege in script.
 
-For working with MSCS Printer clusters, use the prnadmin.dll assembly, or else the .NET Framework [System.Printing](https://msdn.microsoft.com/en-US/library/System.Printing.aspx) namespace.
+For working with MSCS Printer clusters, use the prnadmin.dll assembly, or else the .NET Framework [System.Printing](https://docs.microsoft.com/dotnet/api/system.printing?redirectedfrom=MSDN) namespace.
 
 
 ```VB
@@ -5496,7 +5496,7 @@ Set objPrinter = GetObject("winmgmts:{impersonationLevel=Impersonate,(LoadDriver
 
 Windows uses the credentials of the user running the script to determine what the available printers are. Therefore, if you are running a script remotely, you may only be able to access any printer that is available to your user account on that remote system.
 
-You cannot use the **Win32\_Printer** class for printers on an MSCS print cluster. Instead, you may need to use either the PrinterAdmin tool (PrnAdmin.dll) or the .NET Framework [System.Printing](https://msdn.microsoft.com/en-US/library/System.Printing.aspx) namespace.
+You cannot use the **Win32\_Printer** class for printers on an MSCS print cluster. Instead, you may need to use either the PrinterAdmin tool (PrnAdmin.dll) or the .NET Framework [System.Printing](https://docs.microsoft.com/dotnet/api/system.printing?redirectedfrom=MSDN) namespace.
 
 > [!Note]  
 > If you are retrieving **PrinterStatus** = 3 or **PrinterState** = 0, the printer driver may not be feeding accurate information into WMI. WMI retrieves the printer information from the spoolsv.exe process. It is possible the printer driver does not report its status to the spooler. In this case, **Win32\_Printer** reports the printer as **Idle**.

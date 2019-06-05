@@ -14,13 +14,13 @@ A cipher suite is a set of cryptographic algorithms. The schannel SSP implementa
 -   Bulk encryption
 -   Message authentication
 
-[*Key exchange algorithms*](https://msdn.microsoft.com/library/windows/desktop/ms721590#-security-key-exchange-algorithm-gly) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-algorithm-gly)) and perform well for relatively small amounts of data.
+[*Key exchange algorithms*](https://docs.microsoft.com/windows/desktop/SecGloss/k-gly) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly)) and perform well for relatively small amounts of data.
 
-Bulk encryption algorithms encrypt messages exchanged between clients and servers. These algorithms are [*symmetric*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-symmetric-algorithm-gly) and perform well for large amounts of data.
+Bulk encryption algorithms encrypt messages exchanged between clients and servers. These algorithms are [*symmetric*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) and perform well for large amounts of data.
 
-[Message authentication](message-authentication-codes-in-schannel.md) algorithms generate message [*hashes*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) and signatures that ensure the [*integrity*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-integrity-gly) of a message.
+[Message authentication](message-authentication-codes-in-schannel.md) algorithms generate message [*hashes*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) and signatures that ensure the [*integrity*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) of a message.
 
-Developers specify these elements by using [**ALG\_ID**](https://msdn.microsoft.com/library/windows/desktop/aa375549) data types. For more information, see [Specifying Schannel Ciphers and Cipher Strengths](specifying-schannel-ciphers-and-cipher-strengths.md).
+Developers specify these elements by using [**ALG\_ID**](https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id) data types. For more information, see [Specifying Schannel Ciphers and Cipher Strengths](specifying-schannel-ciphers-and-cipher-strengths.md).
 
 In earlier versions of Windows, TLS cipher suites and elliptical curves were configured by using a single string:
 

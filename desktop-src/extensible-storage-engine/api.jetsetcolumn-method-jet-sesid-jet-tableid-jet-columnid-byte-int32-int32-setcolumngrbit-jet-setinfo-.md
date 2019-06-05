@@ -103,14 +103,14 @@ public static JET_wrn JetSetColumn(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The size of data to set.
 
 <!-- end list -->
 
   - dataOffset  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The offset in the data buffer to set data from.
 

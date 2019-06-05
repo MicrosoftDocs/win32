@@ -32,7 +32,7 @@ The following topics describe the basic steps of printing program content.
 
     For information about the progress indicator works, see [How To: Display the Print Job Progress](cancel-dialog-box.md).
 
-    For more ideas about how to display the progress of the print job, see the information in the [Windows Application UI Development](https://msdn.microsoft.com/library/windows/desktop/ff657751) guidelines.
+    For more ideas about how to display the progress of the print job, see the information in the [Windows Application UI Development](https://docs.microsoft.com/windows/desktop/windows-application-ui-development) guidelines.
 
 3.  **Start the printing thread.**
 

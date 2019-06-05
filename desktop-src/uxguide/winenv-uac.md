@@ -29,7 +29,7 @@ UAC provides the following benefits:
 -   It gives Standard users the ability to ask administrators to give them permission to perform administrative tasks within their current session.
 -   For home environments, it enables better parental control over system-wide changes, including what software is installed.
 
-**Developers:** For implementation information, see [Redesign Your UI for UAC Compatibility](https://msdn.microsoft.com/library/bb756990.aspx).
+**Developers:** For implementation information, see [Redesign Your UI for UAC Compatibility](https://docs.microsoft.com/previous-versions/bb756990(v=msdn.10)).
 
 In Windows Vista, Protected administrators can choose to be notified about all system changes or none. The UAC default setting is to notify about all changes, no matter what their origin. When you're notified, your desktop will be dimmed, and you must either approve or deny the request in the UAC dialog box before you can do anything else on your computer. The dimming of your desktop is referred to as the [secure desktop](glossary.md) because other programs can't run while it's dimmed.
 

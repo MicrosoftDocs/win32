@@ -215,7 +215,7 @@ This section of code shows the **Button** control declarations.
 [Button control](windowsribbon-controls-button.md)
 </dt> <dt>
 
-[**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
+[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  

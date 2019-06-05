@@ -63,9 +63,9 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 | Element                                                                 | Type                                                              | Description                                                                                                                                                                  |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**keyMaterial**](wlan-profileschema-keymaterial-sharedkey-element.md) | [string](https://msdn.microsoft.com/library/system.string.aspx)   | Contains the network key or passphrase.<br/>                                                                                                                           |
+| [**keyMaterial**](wlan-profileschema-keymaterial-sharedkey-element.md) | [string](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)   | Contains the network key or passphrase.<br/>                                                                                                                           |
 | [**keyType**](wlan-profileschema-keytype-sharedkey-element.md)         |                                                                   | Type of key.<br/>                                                                                                                                                      |
-| [**protected**](wlan-profileschema-protected-sharedkey-element.md)     | [boolean](https://msdn.microsoft.com/library/system.boolean.aspx) | Indicates whether the key is encrypted.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element must have a value of FALSE.<br/> |
+| [**protected**](wlan-profileschema-protected-sharedkey-element.md)     | [boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) | Indicates whether the key is encrypted.<br/> **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** This element must have a value of FALSE.<br/> |
 
 
 

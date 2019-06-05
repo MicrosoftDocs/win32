@@ -54,7 +54,7 @@ More specifically, there are two scenarios that each game should handle:
 
 ### Scenario 1: Files that do not need to be viewed or altered by users
 
-A typical example would be the game's configuration file, temporary files, and game cache files. These files are typically kept in the Application Data folder. To obtain this folder path, call the [**SHGetFolderPath**](https://msdn.microsoft.com/library/windows/desktop/bb762181) function with CSIDL\_APPDATA or CSIDL\_LOCAL\_APPDATA as shown in the following code example.
+A typical example would be the game's configuration file, temporary files, and game cache files. These files are typically kept in the Application Data folder. To obtain this folder path, call the [**SHGetFolderPath**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) function with CSIDL\_APPDATA or CSIDL\_LOCAL\_APPDATA as shown in the following code example.
 
 ``` syntax
 #include <shlobj.h>
@@ -84,7 +84,7 @@ The difference between local and roaming Application Data folders is that on Win
 
 ### Scenario 2: Files that need to be viewed or altered by users
 
-A typical example would be a user's saved game files. Store the files in the user's document folder so that they are easily visible to the user. An application gets the user's document folder path by calling [**SHGetFolderPath**](https://msdn.microsoft.com/library/windows/desktop/bb762181) with CSIDL\_PERSONAL, as the following code example shows:
+A typical example would be a user's saved game files. Store the files in the user's document folder so that they are easily visible to the user. An application gets the user's document folder path by calling [**SHGetFolderPath**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) with CSIDL\_PERSONAL, as the following code example shows:
 
 ``` syntax
 #include <shlobj.h>
@@ -152,7 +152,7 @@ When uninstalling the game, extra effort is necessary to remove every value that
 
 ## Patching with Least-Privileged User Accounts
 
-Patching a game involves updating the game's files. Therefore, it usually requires write access to the game's program folder. Patching a game is a straightforward process when it is done by an administrator because they have unrestricted access to the game's program folder. Conversely, it has traditionally been difficult, if not impossible, for a least privileged user to patch games because of the access restriction. Now, [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688) has been enhanced to make least-privileged user account patching possible. To take advantage of this feature, games are encouraged to utilize Windows Installer for installation and patching.
+Patching a game involves updating the game's files. Therefore, it usually requires write access to the game's program folder. Patching a game is a straightforward process when it is done by an administrator because they have unrestricted access to the game's program folder. Conversely, it has traditionally been difficult, if not impossible, for a least privileged user to patch games because of the access restriction. Now, [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal) has been enhanced to make least-privileged user account patching possible. To take advantage of this feature, games are encouraged to utilize Windows Installer for installation and patching.
 
 Starting with Windows Installer 3.0, application patches can be applied by least privileged users when certain conditions are met. These conditions are:
 

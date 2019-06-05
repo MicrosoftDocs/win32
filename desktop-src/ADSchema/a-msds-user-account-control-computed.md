@@ -33,7 +33,7 @@ ms.date: 05/31/2018
 
  
 
-The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) and therefore **msDS-User-Account-Control-Computed** can also contain can be found in the **User-Account-Control** reference page (mapped through the [ADSI](https://msdn.microsoft.com/library/aa772170) flagset) or on the network management reference pages for the [**user\_info\_1008**](https://msdn.microsoft.com/library/windows/desktop/aa370968) structure.
+The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) and therefore **msDS-User-Account-Control-Computed** can also contain can be found in the **User-Account-Control** reference page (mapped through the [ADSI](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi) flagset) or on the network management reference pages for the [**user\_info\_1008**](https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1008) structure.
 
 
 

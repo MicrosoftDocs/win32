@@ -39,7 +39,7 @@ A brush "paints" an area with its output. Different brushes have different types
 
  
 
-All brushes inherit from [**ID2D1Brush**](https://msdn.microsoft.com/library/windows/desktop/dd371173) and share a set of common features (setting and getting opacity, and transforming brushes); they are created by [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) and are device-dependent resources: your application should create brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see [Resources Overview](resources-and-resource-domains.md).)
+All brushes inherit from [**ID2D1Brush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush) and share a set of common features (setting and getting opacity, and transforming brushes); they are created by [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) and are device-dependent resources: your application should create brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see [Resources Overview](resources-and-resource-domains.md).)
 
 The following illustration shows examples of each of the different brush types.
 

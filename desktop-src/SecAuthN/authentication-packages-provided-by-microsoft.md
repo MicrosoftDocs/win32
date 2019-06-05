@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Authentication Packages Provided by Microsoft
 
-Following are the [*authentication packages*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-authentication-package-gly) provided by Microsoft:
+Following are the [*authentication packages*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) provided by Microsoft:
 
 -   [Kerberos SSP/AP](kerberos-ssp-ap.md)
 -   [MSV1\_0 Authentication Package](msv1-0-authentication-package.md)

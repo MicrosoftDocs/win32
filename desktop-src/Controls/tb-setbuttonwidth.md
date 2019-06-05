@@ -34,9 +34,9 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the minimum button width, in pixels. Toolbar buttons will never be narrower than this value.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the minimum button width, in pixels. Toolbar buttons will never be narrower than this value.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the maximum button width, in pixels. If button text is too wide, the control displays it with ellipsis points.
+The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the maximum button width, in pixels. If button text is too wide, the control displays it with ellipsis points.
 
 </dd> </dl>
 

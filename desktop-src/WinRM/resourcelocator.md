@@ -77,7 +77,7 @@ The **ResourceLocator** object corresponds to the **IWSManResourceLocator** inte
 
 ## Examples
 
-The following VBScript code example obtains the **NumberOfLogicalProcessors** and **NumberOfCores** properties from a specific instance of [**Win32\_Processor**](https://msdn.microsoft.com/library/aa394373).
+The following VBScript code example obtains the **NumberOfLogicalProcessors** and **NumberOfCores** properties from a specific instance of [**Win32\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-processor).
 
 
 ```VB

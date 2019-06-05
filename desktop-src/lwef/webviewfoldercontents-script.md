@@ -35,7 +35,7 @@ objScript = WebViewFolderContents.Script
 
 ## Property value
 
-A variable of type [IDispatch](https://msdn.microsoft.com/en-US/library/ms221608.aspx) that receives the scripting object.
+A variable of type [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) that receives the scripting object.
 
 ## Examples
 

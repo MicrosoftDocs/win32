@@ -68,7 +68,7 @@ A context that can be used to share state information in calls to other methods 
 
 If the method succeeds, the method returns S\_OK.
 
-If the method fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://msdn.microsoft.com/library/windows/desktop/aa378137).
+If the method fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values).
 
 ## Requirements
 

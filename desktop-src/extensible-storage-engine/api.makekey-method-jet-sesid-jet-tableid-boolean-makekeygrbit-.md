@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+    Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
     
     Column data for the current key column of the current index.
 

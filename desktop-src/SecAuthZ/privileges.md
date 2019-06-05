@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Privileges
 
-A [*privilege*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-privilege-gly) is the right of an account, such as a user or group account, to perform various system-related operations on the local computer, such as shutting down the system, loading device drivers, or changing the system time. Privileges differ from access rights in two ways:
+A [*privilege*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) is the right of an account, such as a user or group account, to perform various system-related operations on the local computer, such as shutting down the system, loading device drivers, or changing the system time. Privileges differ from access rights in two ways:
 
 -   Privileges control access to system resources and system-related tasks, whereas access rights control access to [securable objects](securable-objects.md).
 -   A system administrator assigns privileges to user and group accounts, whereas the system grants or denies access to a securable object based on the access rights granted in the ACEs in the object's DACL.
@@ -25,7 +25,7 @@ The system provides a set of display names that describe each of the privileges.
 
 You can use the [**PrivilegeCheck**](https://msdn.microsoft.com/en-us/library/Aa379304(v=VS.85).aspx) function to determine whether an access token holds a specified set of privileges. This is useful primarily to server applications that are impersonating a client.
 
-A system administrator can use administrative tools, such as User Manager, to add or remove privileges for user and group accounts. Administrators can programmatically use the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) functions to work with privileges. The [**LsaAddAccountRights**](https://msdn.microsoft.com/library/windows/desktop/ms721786) and [**LsaRemoveAccountRights**](https://msdn.microsoft.com/library/windows/desktop/ms721809) functions add or remove privileges from an account. The [**LsaEnumerateAccountRights**](https://msdn.microsoft.com/library/windows/desktop/ms721790) function enumerates the privileges held by a specified account. The [**LsaEnumerateAccountsWithUserRight**](https://msdn.microsoft.com/library/windows/desktop/ms721792) function enumerates the accounts that hold a specified privilege.
+A system administrator can use administrative tools, such as User Manager, to add or remove privileges for user and group accounts. Administrators can programmatically use the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) functions to work with privileges. The [**LsaAddAccountRights**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights) and [**LsaRemoveAccountRights**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaremoveaccountrights) functions add or remove privileges from an account. The [**LsaEnumerateAccountRights**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountrights) function enumerates the privileges held by a specified account. The [**LsaEnumerateAccountsWithUserRight**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright) function enumerates the accounts that hold a specified privilege.
 
 ## Related topics
 

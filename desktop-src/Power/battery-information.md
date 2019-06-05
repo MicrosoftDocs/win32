@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 Batteries can provide power for portable computers and computers running on an uninterruptible power supply (UPS). On these computers, the operating system provides information on the state of the battery so applications can provide useful functions for the user. (Some older nonstandard battery systems and UPSs are not supported.)
 
-Note that this overview assumes you are familiar with [device management](https://msdn.microsoft.com/library/windows/desktop/aa363224).
+Note that this overview assumes you are familiar with [device management](https://docs.microsoft.com/windows/desktop/DevIO/device-management).
 
 To obtain information about the battery status, use the [**GetSystemPowerStatus**](/windows/desktop/api/Winbase/nf-winbase-getsystempowerstatus) function, which returns general information about all power sources in the system. You should use **GetSystemPowerStatus** whenever possible.
 
-In some cases, however, detailed information about each individual battery is necessary. For this purpose, each battery device exposes an IOCTL interface. The following IOCTL operations are performed using the [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function:
+In some cases, however, detailed information about each individual battery is necessary. For this purpose, each battery device exposes an IOCTL interface. The following IOCTL operations are performed using the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function:
 
 <dl>
 
@@ -24,7 +24,7 @@ In some cases, however, detailed information about each individual battery is ne
 [**IOCTL\_BATTERY\_SET\_INFORMATION**](ioctl-battery-set-information.md)  
 </dl>
 
-To use this interface, an application must follow several steps. First, it must use setup routines to enumerate all devices that have a battery class interface. Note that these devices represent the battery ports, not actual batteries present in the system. The application must then open a handle to each device so it can use the [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function to send requests to the device, and then acquire tags for any batteries that are inserted. After completing these steps, the application can send queries to each battery device.
+To use this interface, an application must follow several steps. First, it must use setup routines to enumerate all devices that have a battery class interface. Note that these devices represent the battery ports, not actual batteries present in the system. The application must then open a handle to each device so it can use the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function to send requests to the device, and then acquire tags for any batteries that are inserted. After completing these steps, the application can send queries to each battery device.
 
 ## Battery Tags
 

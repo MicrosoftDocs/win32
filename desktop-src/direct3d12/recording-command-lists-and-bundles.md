@@ -214,7 +214,7 @@ Applications can expect to see DXGI\_DEVICE\_REMOVED errors in the following API
 
 -   Any resource creation method
 -   [**ID3D12Resource::Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map)
--   [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797)
+-   [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)
 -   [**GetDeviceRemovedReason**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason)
 
 ## Bundle restrictions

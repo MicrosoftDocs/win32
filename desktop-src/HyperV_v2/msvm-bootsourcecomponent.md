@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_BootSourceComponent class
 
-Associates the [**Msvm\_BootSourceSettingData**](msvm-bootsourcesettingdata.md) to the overall [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md). This class derives from [**CIM\_Component**](https://msdn.microsoft.com/library/aa387218).
+Associates the [**Msvm\_BootSourceSettingData**](msvm-bootsourcesettingdata.md) to the overall [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md). This class derives from [**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -93,7 +93,7 @@ Reference to the child element in the association. This property is inherited fr
 [**CIM\_Component**](cim-component.md)
 </dt> <dt>
 
-[**CIM\_Component**](https://msdn.microsoft.com/library/aa387218)
+[**CIM\_Component**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-component)
 </dt> <dt>
 
 [**Msvm\_BootSourceSettingData**](msvm-bootsourcesettingdata.md)

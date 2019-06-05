@@ -73,14 +73,14 @@ public static void JetCreateDatabase2(
 <!-- end list -->
 
   - database  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The path to the database file to create.
 
 <!-- end list -->
 
   - maxPages  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The maximum size, in database pages, of the database. Passing 0 means there is no enforced maximum.
 

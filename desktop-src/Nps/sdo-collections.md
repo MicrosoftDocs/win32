@@ -11,18 +11,18 @@ ms.date: 05/31/2018
 
 The values in the following enumeration types correspond to SDO collections.
 
--   [**DICTIONARYPROPERTIES**](https://msdn.microsoft.com/library/bb960626)
--   [**IASCOMPONENTPROPERTIES**](https://msdn.microsoft.com/library/bb960632)
--   [**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)
--   [**NAPPROPERTIES**](https://msdn.microsoft.com/library/bb960682)
--   [**POLICYPROPERTIES**](https://msdn.microsoft.com/library/bb960696)
--   [**PROFILEPROPERTIES**](https://msdn.microsoft.com/library/bb960697)
--   [**PROTOCOLPROPERTIES**](https://msdn.microsoft.com/library/bb960698)
--   [**RADIUSPROPERTIES**](https://msdn.microsoft.com/library/bb960699)
--   [**RADIUSSERVERGROUPPROPERTIES**](https://msdn.microsoft.com/library/bb960701)
--   [**REMEDIATIONSERVERGROUPPROPERTIES**](https://msdn.microsoft.com/library/bb960704)
--   [**REMEDIATIONSERVERPROPERTIES**](https://msdn.microsoft.com/library/bb960705)
--   [**SHVTEMPLATEPROPERTIES**](https://msdn.microsoft.com/library/bb960717)
+-   [**DICTIONARYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_dictionaryproperties)
+-   [**IASCOMPONENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascomponentproperties)
+-   [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
+-   [**NAPPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_napproperties)
+-   [**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties)
+-   [**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties)
+-   [**PROTOCOLPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_protocolproperties)
+-   [**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties)
+-   [**RADIUSSERVERGROUPPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusservergroupproperties)
+-   [**REMEDIATIONSERVERGROUPPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_remediationservergroupproperties)
+-   [**REMEDIATIONSERVERPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_remediationserverproperties)
+-   [**SHVTEMPLATEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_shvtemplateproperties)
 
  
 

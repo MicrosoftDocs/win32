@@ -62,7 +62,7 @@ The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-ses
 
 
 
-Specify the Service Principal Name (SPN) port when connecting directly to remote BMC hardware, also known as an [*out-of-band*](windows-remote-management-glossary.md) connection. Because both the WinRM server computer and the BMC hardware can share the same IP address, this flag indicates that the SPN port number must be used to determine whether the connection is to the service or directly to the BMC. For more information, see [Name Formats for Unique SPNs](https://msdn.microsoft.com/library/ms677601).
+Specify the Service Principal Name (SPN) port when connecting directly to remote BMC hardware, also known as an [*out-of-band*](windows-remote-management-glossary.md) connection. Because both the WinRM server computer and the BMC hardware can share the same IP address, this flag indicates that the SPN port number must be used to determine whether the connection is to the service or directly to the BMC. For more information, see [Name Formats for Unique SPNs](https://docs.microsoft.com/windows/desktop/AD/name-formats-for-unique-spns).
 
 The associated scripting method is [**WSMan.SessionFlagEnableSPNServerPort**](wsman-sessionflagenablespnserverport.md) and the C++ method is [**IWSManEx.SessionFlagEnableSPNServerPort**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagenablespnserverport).
 

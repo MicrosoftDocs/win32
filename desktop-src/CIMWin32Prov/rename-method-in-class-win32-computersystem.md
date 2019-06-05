@@ -20,7 +20,7 @@ api_location:
 
 The **Rename** method renames a computer.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -62,7 +62,7 @@ String that specifies the account name to use when connecting to the domain cont
 
 ## Return value
 
-Returns a 0 (zero) if successful. A nonzero return value indicates an error. If successful, a reboot is required. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns a 0 (zero) if successful. A nonzero return value indicates an error. If successful, a reboot is required. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -84,7 +84,7 @@ To connect to a local computer, you cannot specify a password or an authenticati
 
 If the authentication level is too low when a *Password* and *UserName* are specified, then WMI returns the **WBEM\_E\_ENCRYPTED\_CONNECTION\_REQUIRED** error for C/C++, and **wbemErrEncryptedConnectionRequired** for script and VB.
 
-For more information, see [**SWbemLocator\_ConnectServer,**](https://msdn.microsoft.com/library/aa393720)[**IWbemLocator::ConnectServer**](https://msdn.microsoft.com/library/aa391769), and [Constructing a Moniker String](https://msdn.microsoft.com/library/aa389292).
+For more information, see [**SWbemLocator\_ConnectServer,**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemlocator-connectserver)[**IWbemLocator::ConnectServer**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver), and [Constructing a Moniker String](https://docs.microsoft.com/windows/desktop/WmiSdk/constructing-a-moniker-string).
 
 ## Examples
 
@@ -421,7 +421,7 @@ return 0; // Program successfully completed.
 [**Win32\_ComputerSystem**](win32-computersystem.md)
 </dt> <dt>
 
-[WMI Tasks: Accounts and Domains](https://msdn.microsoft.com/library/aa394586)
+[WMI Tasks: Accounts and Domains](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
 </dt> </dl>
 
  

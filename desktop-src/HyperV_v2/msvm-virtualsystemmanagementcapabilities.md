@@ -75,7 +75,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_VirtualSystemManagementCapabilities.AsynchronousMethodsSupported")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_VirtualSystemManagementCapabilities.AsynchronousMethodsSupported")
 </dt> </dl>
 
 Specifies the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) methods that are supported asynchronously by the implementation.
@@ -282,7 +282,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -295,7 +295,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -308,7 +308,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -347,7 +347,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_VirtualSystemManagementCapabilities.IndicationsSupported")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_VirtualSystemManagementCapabilities.IndicationsSupported")
 </dt> </dl>
 
 Specifies the indications supported by the implementation.
@@ -363,7 +363,7 @@ Enumeration of indication identifiers each identifying an indication that is sup
 
 </dt> <dd>
 
-The implementation supports notification of state changes of [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884) instances representing resources of virtual systems.
+The implementation supports notification of state changes of [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) instances representing resources of virtual systems.
 
 </dd> <dt>
 
@@ -374,7 +374,7 @@ The implementation supports notification of state changes of [**CIM\_LogicalDevi
 
 </dt> <dd>
 
-The implementation supports notification of state changes of [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808) instances.
+The implementation supports notification of state changes of [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)) instances.
 
 </dd> <dt>
 
@@ -385,7 +385,7 @@ The implementation supports notification of state changes of [**CIM\_ConcreteJob
 
 </dt> <dd>
 
-The implementation supports notification of state changes of [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) instances representing virtual systems.
+The implementation supports notification of state changes of [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instances representing virtual systems.
 
 </dd> <dt>
 
@@ -417,7 +417,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -477,7 +477,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_VirtualSystemManagementCapabilities.SynchronousMethodsSupported")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_VirtualSystemManagementCapabilities.SynchronousMethodsSupported")
 </dt> </dl>
 
 Specifies the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) methods that are supported synchronously by the implementation.

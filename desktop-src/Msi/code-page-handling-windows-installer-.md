@@ -12,7 +12,7 @@ The Windows Installer stores all database strings in a single shared string pool
 
 For more information, [Determining an Installation Database's Code Page](determining-an-installation-database-s-code-page.md).
 
-Windows Installer uses [**IsValidCodePage**](https://msdn.microsoft.com/library/windows/desktop/dd318674) to determine whether the code page is valid.
+Windows Installer uses [**IsValidCodePage**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidcodepage) to determine whether the code page is valid.
 
 ### Localizing a Windows Installer Package
 

@@ -36,7 +36,7 @@ EN_LINK
 *wParam* 
 </dt> <dd>
 
-The window ID retrieved by calling the [**GetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633584) function with the GWL\_ID value.
+The window ID retrieved by calling the [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga) function with the GWL\_ID value.
 
 </dd> <dt>
 
@@ -63,14 +63,14 @@ If the link has no focus, to receive **EN\_LINK** notification codes specify the
 
 A rich edit control sends **EN\_LINK** notification codes when it receives the following messages while the mouse pointer is over text that has the **CFE\_LINK** effect:
 
--   [**WM\_LBUTTONDBLCLK**](https://msdn.microsoft.com/library/windows/desktop/ms645606)
--   [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607)
--   [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608)
--   [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616)
--   [**WM\_RBUTTONDBLCLK**](https://msdn.microsoft.com/library/windows/desktop/ms646241)
--   [**WM\_RBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646242)
--   [**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms646243)
--   [**WM\_SETCURSOR**](https://msdn.microsoft.com/library/windows/desktop/ms648382)
+-   [**WM\_LBUTTONDBLCLK**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk)
+-   [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown)
+-   [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup)
+-   [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove)
+-   [**WM\_RBUTTONDBLCLK**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondblclk)
+-   [**WM\_RBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown)
+-   [**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup)
+-   [**WM\_SETCURSOR**](https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor)
 
 The **CFE\_LINK** effect typically identifies a range of text that contains an URL. Applications can handle the EN\_LINK notification code by changing the mouse pointer when it is over the URL, or by starting a browser to view the location identified by the URL.
 

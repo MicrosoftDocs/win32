@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Querying the Status of Optional Features
 
-In Windows 7, WMI implemented the [**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383) class. This class retrieves the status of the optional features that are present on a computer.
+In Windows 7, WMI implemented the [**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature) class. This class retrieves the status of the optional features that are present on a computer.
 
 You can use Windows PowerShell cmdlets to query the status of optional features. All of the examples in this topic use the Get-WmiObject cmdlet. For more information, see [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476).
 
@@ -81,13 +81,13 @@ You can use Windows PowerShell cmdlets to query the status of optional features.
 
     
 
-    For more information about the possible values for the **InstallState** property, see [**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383).
+    For more information about the possible values for the **InstallState** property, see [**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature).
 
 ## Related topics
 
 <dl> <dt>
 
-[**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383)
+[**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature)
 </dt> </dl>
 
  

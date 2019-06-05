@@ -78,7 +78,7 @@ The sink interfaces ([**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.co
 
 ## Sharing Render Target Resources
 
-Your ability to share resources created by a render target depends on the kind of render target. When you create a render target of type [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://msdn.microsoft.com/library/windows/desktop/dd756630), the resources created by that render target can only be used by that render target (unless the render target fits into one of the categories described in the following sections). This occurs because you do not know what device the render target will end up using—it could end up rendering to local hardware, software, or to a remote client's hardware. For example, you could write a program that stops working when it is displayed remotely or when the render target is increased in size beyond the maximum size supported by the rendering hardware.
+Your ability to share resources created by a render target depends on the kind of render target. When you create a render target of type [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type), the resources created by that render target can only be used by that render target (unless the render target fits into one of the categories described in the following sections). This occurs because you do not know what device the render target will end up using—it could end up rendering to local hardware, software, or to a remote client's hardware. For example, you could write a program that stops working when it is displayed remotely or when the render target is increased in size beyond the maximum size supported by the rendering hardware.
 
 The following sections describe the circumstances under which a resource created by one render target can be shared with another render target.
 
@@ -86,7 +86,7 @@ The following sections describe the circumstances under which a resource created
 
 You can share resources between any render target that explicitly uses hardware, as long as the remoting mode is compatible. The remoting mode is only guaranteed to be compatible when both render targets use the [**D2D1\_RENDER\_TARGET\_USAGE\_FORCE\_BITMAP\_REMOTING**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage) or **D2D1\_RENDER\_TARGET\_USAGE\_GDI\_COMPATIBLE** usage flag, or if neither flag is specified. These settings guarantee that the resources will always be located on the same computer. To specify a usage mode, set the **usage** field of the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure that you used to create the render target with one or more **D2D1\_RENDER\_TARGET\_USAGE** flags.
 
-To create a render target that explicitly uses hardware rendering, set the **type** field of the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure that you used to create the render target to [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630).
+To create a render target that explicitly uses hardware rendering, set the **type** field of the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure that you used to create the render target to [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type).
 
 ### DXGI Surface Render Targets
 

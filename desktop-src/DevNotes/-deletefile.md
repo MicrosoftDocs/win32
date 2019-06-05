@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **DeleteFile** function. This function may be altered or unavailable in the future. Applications should call **DeleteFile** directly.\]
 
-Deletes a file. See [**DeleteFile**](https://msdn.microsoft.com/library/windows/desktop/aa363915).
+Deletes a file. See [**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ BOOL _DeleteFile(
 
 <dl> <dt>
 
-[**DeleteFile**](https://msdn.microsoft.com/library/windows/desktop/aa363915)
+[**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea)
 </dt> </dl>
 
  

@@ -22,7 +22,7 @@ This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-
 
 ## Members
 
-The **RolesForPartition** collection inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface but does not have additional members.
+The **RolesForPartition** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 

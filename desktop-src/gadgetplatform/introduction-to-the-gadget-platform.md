@@ -102,7 +102,7 @@ To help developers debug gadget applications, the following registry key has bee
 
 ### Security
 
-There are no significant changes to the security model of the Gadget Platform compared with the Windows Vista Sidebar. For further guidelines on writing secure gadgets, see [Inspect Your Gadget](https://msdn.microsoft.com/library/bb498012.aspx).
+There are no significant changes to the security model of the Gadget Platform compared with the Windows Vista Sidebar. For further guidelines on writing secure gadgets, see [Inspect Your Gadget](https://docs.microsoft.com/previous-versions/bb498012(v=msdn.10)).
 
 The following table describes the gadget installation locations and write and execute permissions for those locations.
 
@@ -160,7 +160,7 @@ So that the Gadget Platform can support high-DPI capabilities, the `<autoscaleDP
 The following is a sample manifest with the `<autoscaleDPI/>` node set to **true**.
 
 > [!Note]  
-> See [Developing a Gadget for Windows Sidebar Part 2: The G:BACKGROUND, G:IMAGE, G:TEXT Presentation Elements and GIMAGE Protocol](https://msdn.microsoft.com/library/bb676240.aspx) for best practices on using images and text in gadgets.
+> See [Developing a Gadget for Windows Sidebar Part 2: The G:BACKGROUND, G:IMAGE, G:TEXT Presentation Elements and GIMAGE Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/sidebar/-sidebar-overview-gdo2) for best practices on using images and text in gadgets.
 
  
 
@@ -203,7 +203,7 @@ This section describes changes to the core set of scripting elements and APIs fo
 
 ### Programmatic Installation
 
-[IDesktopGadget](https://msdn.microsoft.com/library/dd378389.aspx) is a new Windows Shell interface. It exposes the [RunGadget](https://msdn.microsoft.com/library/dd378390.aspx) method, which allows the programmatic addition of an installed gadget to the Windows 7 desktop.
+[IDesktopGadget](https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-idesktopgadget) is a new Windows Shell interface. It exposes the [RunGadget](https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idesktopgadget-rungadget) method, which allows the programmatic addition of an installed gadget to the Windows 7 desktop.
 
 > [!Note]  
 > The gadget must be installed before calling this method for the method to return successfully.
@@ -213,13 +213,13 @@ This section describes changes to the core set of scripting elements and APIs fo
 This method can be called during the installation of an application that includes a supporting gadget as part of the installation package, for example, installing a calendar application that includes a gadget that displays upcoming appointments.
 
 > [!IMPORTANT]
-> Applications should not call [RunGadget](https://msdn.microsoft.com/library/dd378390.aspx) without asking the user for permission. If the permission choice is a check box, that check box should be unchecked, by default.
+> Applications should not call [RunGadget](https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idesktopgadget-rungadget) without asking the user for permission. If the permission choice is a check box, that check box should be unchecked, by default.
 
  
 
-This [RunGadget](https://msdn.microsoft.com/library/dd378390.aspx) method cannot be used to add a gadget that is already running. If an instance of the gadget at the supplied path is already running, this method returns **SCHED\_E\_ALREADY\_RUNNING**.
+This [RunGadget](https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idesktopgadget-rungadget) method cannot be used to add a gadget that is already running. If an instance of the gadget at the supplied path is already running, this method returns **SCHED\_E\_ALREADY\_RUNNING**.
 
-The [RunGadget](https://msdn.microsoft.com/library/dd378390.aspx) method can be used to add Shared gadgets or Windows gadgets. The following table describes the installation locations for gadgets added by using the RunGadget method, and permissions for those locations.
+The [RunGadget](https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idesktopgadget-rungadget) method can be used to add Shared gadgets or Windows gadgets. The following table describes the installation locations for gadgets added by using the RunGadget method, and permissions for those locations.
 
 
 
@@ -305,11 +305,11 @@ Since no other options exist for the transition behavior in the Gadget Platform,
 
 ### System.Shell.knownFolderPath method
 
-For Windows 7, this method can accept a [KNOWNFOLDERID](https://msdn.microsoft.com/library/bb762584.aspx) GUID.
+For Windows 7, this method can accept a [KNOWNFOLDERID](https://docs.microsoft.com/previous-versions//bb762584(v=vs.85)) GUID.
 
 ## Windows Sidebar
 
-For further information on developing gadgets for the Windows Gadget platform, see the documentation for [Windows Sidebar](https://msdn.microsoft.com/library/aa965850.aspx).
+For further information on developing gadgets for the Windows Gadget platform, see the documentation for [Windows Sidebar](https://docs.microsoft.com/previous-versions/windows/desktop/sidebar/-sidebar-entry).
 
  
 

@@ -51,18 +51,18 @@ Note that 64-bit Windows does not support running 16-bit Windows-based applicati
 
 ## Links to Other Resources
 
--   [Running 32-bit Applications](https://msdn.microsoft.com/library/windows/desktop/aa384249)
--   [Performance and Memory Consumption](https://msdn.microsoft.com/library/windows/desktop/aa384219)
--   [WOW64 Implementation Details](https://msdn.microsoft.com/library/windows/desktop/aa384274)
--   [Registry Redirector](https://msdn.microsoft.com/library/windows/desktop/aa384232)
--   [File System Redirector](https://msdn.microsoft.com/library/windows/desktop/aa384187)
--   [Memory Management](https://msdn.microsoft.com/library/windows/desktop/aa384209)
--   [Processor Affinity](https://msdn.microsoft.com/library/windows/desktop/aa384228)
--   [Interprocess Communication](https://msdn.microsoft.com/library/windows/desktop/aa384203)
--   [Application Installation on 64-bit Systems](https://msdn.microsoft.com/library/windows/desktop/aa384143)
--   [Debugging WOW64](https://msdn.microsoft.com/library/windows/desktop/aa384163)
--   [**IsWow64Process Function**](https://msdn.microsoft.com/library/windows/desktop/ms684139)
--   [**GetNativeSystemInfo Function**](https://msdn.microsoft.com/library/windows/desktop/ms724340)
+-   [Running 32-bit Applications](https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications)
+-   [Performance and Memory Consumption](https://docs.microsoft.com/windows/desktop/WinProg64/performance-and-memory-consumption)
+-   [WOW64 Implementation Details](https://docs.microsoft.com/windows/desktop/WinProg64/wow64-implementation-details)
+-   [Registry Redirector](https://docs.microsoft.com/windows/desktop/WinProg64/registry-redirector)
+-   [File System Redirector](https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector)
+-   [Memory Management](https://docs.microsoft.com/windows/desktop/WinProg64/memory-management)
+-   [Processor Affinity](https://docs.microsoft.com/windows/desktop/WinProg64/processor-affinity)
+-   [Interprocess Communication](https://docs.microsoft.com/windows/desktop/WinProg64/interprocess-communication)
+-   [Application Installation on 64-bit Systems](https://docs.microsoft.com/windows/desktop/WinProg64/application-installation)
+-   [Debugging WOW64](https://docs.microsoft.com/windows/desktop/WinProg64/debugging-wow64)
+-   [**IsWow64Process Function**](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process)
+-   [**GetNativeSystemInfo Function**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo)
 
  
 

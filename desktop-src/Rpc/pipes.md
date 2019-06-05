@@ -24,7 +24,7 @@ This section provides an overview of using pipes for remote procedure calls. It 
 -   [Rules for Multiple Pipes](rules-for-multiple-pipes.md)
 -   [Combining Pipe and Nonpipe Parameters](combining-pipe-and-nonpipe-parameters.md)
 
-For more information on pipe syntax and restrictions, see [pipe](https://msdn.microsoft.com/library/windows/desktop/aa367140) in the MIDL Language Reference. The PIPES sample program in the Platform Software Development Kit (SDK) samples\\rpc directory demonstrates how to use **\[in,out\]** pipes to transfer data between a client and a server.
+For more information on pipe syntax and restrictions, see [pipe](https://docs.microsoft.com/windows/desktop/Midl/pipe) in the MIDL Language Reference. The PIPES sample program in the Platform Software Development Kit (SDK) samples\\rpc directory demonstrates how to use **\[in,out\]** pipes to transfer data between a client and a server.
 
  
 

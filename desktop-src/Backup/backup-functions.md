@@ -50,16 +50,16 @@ The following functions are provided for working with [single-instance store and
 
  
 
-The following functions are provided for working with [backup and restore of encrypted files](https://msdn.microsoft.com/library/windows/desktop/aa363783).
+The following functions are provided for working with [backup and restore of encrypted files](https://docs.microsoft.com/windows/desktop/FileIO/backup-and-restore-of-encrypted-files).
 
 
 
 | Function                                                | Description                                                                                |
 |---------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**CloseEncryptedFileRaw**](https://msdn.microsoft.com/library/windows/desktop/aa363839) | Close an encrypted file opened with [**OpenEncryptedFileRaw**](https://msdn.microsoft.com/library/windows/desktop/aa365429). |
-| [**OpenEncryptedFileRaw**](https://msdn.microsoft.com/library/windows/desktop/aa365429)   | Open an encrypted file with access to data in encrypted format.                            |
-| [**ReadEncryptedFileRaw**](https://msdn.microsoft.com/library/windows/desktop/aa365466)   | Read an encrypted file leaving its data in encrypted format.                               |
-| [**WriteEncryptedFileRaw**](https://msdn.microsoft.com/library/windows/desktop/aa365746) | Write an encrypted file leaving its data in encrypted format.                              |
+| [**CloseEncryptedFileRaw**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw) | Close an encrypted file opened with [**OpenEncryptedFileRaw**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa). |
+| [**OpenEncryptedFileRaw**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa)   | Open an encrypted file with access to data in encrypted format.                            |
+| [**ReadEncryptedFileRaw**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw)   | Read an encrypted file leaving its data in encrypted format.                               |
+| [**WriteEncryptedFileRaw**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw) | Write an encrypted file leaving its data in encrypted format.                              |
 
 
 

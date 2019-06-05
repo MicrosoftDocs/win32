@@ -12,7 +12,7 @@ The default security policy restricts anonymous local access to having no rights
 
 A local access group exists for applications with the same access rights as Everyone. Administrators can then appropriately increase or decrease the number of users in that group, named the **Pre-Windows 2000-Compatible Access Group**.
 
-For more information, see the reference pages for the functions listed in the table of the [Local Group Functions](https://msdn.microsoft.com/library/windows/desktop/aa370283) topic.
+For more information, see the reference pages for the functions listed in the table of the [Local Group Functions](https://docs.microsoft.com/windows/desktop/NetMgmt/local-group-functions) topic.
 
  
 

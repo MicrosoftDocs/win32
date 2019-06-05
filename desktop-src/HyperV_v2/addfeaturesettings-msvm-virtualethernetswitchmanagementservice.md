@@ -40,7 +40,7 @@ uint32 AddFeatureSettings(
 *AffectedConfiguration* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911) derived class that represents the affected Ethernet switch port or Ethernet switch configuration.
+A reference to a [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) derived class that represents the affected Ethernet switch port or Ethernet switch configuration.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ An array of references to instances of the [**Msvm\_FeatureSettingData**](msvm-f
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 

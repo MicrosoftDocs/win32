@@ -18,9 +18,9 @@ api_location:
 
 # Change method of the Win32\_BaseService class
 
-The **Change** [WMI class](https://msdn.microsoft.com/library/aa393244) method modifies a service object derived from [**Win32\_BaseService**](win32-baseservice.md). The [**Win32\_LoadOrderGroup**](win32-loadordergroup.md) parameter represents a group of system services that define execution dependencies. The services must be initiated in the order specified by the Load Order Group, because the services depend on each other. These dependent services require antecedent services to function correctly.
+The **Change** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method modifies a service object derived from [**Win32\_BaseService**](win32-baseservice.md). The [**Win32\_LoadOrderGroup**](win32-loadordergroup.md) parameter represents a group of system services that define execution dependencies. The services must be initiated in the order specified by the Load Order Group, because the services depend on each other. These dependent services require antecedent services to function correctly.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -568,7 +568,7 @@ StartPassword = "" // - empty string, not NULL
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_BaseService**](win32-baseservice.md)

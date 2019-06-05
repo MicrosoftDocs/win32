@@ -12,10 +12,10 @@ Both client and server must participate in authentication, and each party indica
 
 The client specifies that it wants to perform authentication at a certain level as with any COM application. The client authentication level can be indicated as follows:
 
--   Per client machine, with the machine-wide COM authentication level set by using either [DCOMCNFG](https://msdn.microsoft.com/library/windows/desktop/ms680051) or the Component Services administrative tool.
--   Per client application administratively, using [DCOMCNFG](https://msdn.microsoft.com/library/windows/desktop/ms678426) or using the Component Services administrative tool if the client should be a COM+ application.
--   Per client process programmatically, with [**CoInitializeSecurity**](https://msdn.microsoft.com/library/windows/desktop/ms693736).
--   At any point programmatically, using [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/windows/desktop/ms692692).
+-   Per client machine, with the machine-wide COM authentication level set by using either [DCOMCNFG](https://docs.microsoft.com/windows/desktop/com/setting-machine-wide-security-using-dcomcnfg) or the Component Services administrative tool.
+-   Per client application administratively, using [DCOMCNFG](https://docs.microsoft.com/windows/desktop/com/setting-processwide-security-using-dcomcnfg) or using the Component Services administrative tool if the client should be a COM+ application.
+-   Per client process programmatically, with [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity).
+-   At any point programmatically, using [**CoSetProxyBlanket**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 
 The COM+ server application specifies an authentication level administratively by using the Component Services administrative tool (or through an administrative script).
 

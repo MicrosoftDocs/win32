@@ -25,7 +25,7 @@ The following topics are either new with this release of the *Cookbook* or have 
 
 We invite you to check out these topics to learn how to optimize your apps and take advantage of what this newest release of Windows has to offer.
 
-Windows Compatibility Cookbook editions that address earlier versions of the Windows and Windows Server operating systems can be found at [Windows Vista and Windows Server 2008](https://msdn.microsoft.com/library/bb757005.aspx) and [Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](https://msdn.microsoft.com/library/windows/desktop/dd371778.aspx)
+Windows Compatibility Cookbook editions that address earlier versions of the Windows and Windows Server operating systems can be found at [Windows Vista and Windows Server 2008](https://docs.microsoft.com/previous-versions/bb757005(v=msdn.10)) and [Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](https://docs.microsoft.com/windows/desktop/Win7AppQual/windows-7-application-quality-cookbook)
 
  
 

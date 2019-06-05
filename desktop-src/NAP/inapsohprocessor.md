@@ -28,7 +28,7 @@ The **INapSoHProcessor** provides methods that are used by SHAs to process the c
 
 ## Members
 
-The **INapSoHProcessor** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapSoHProcessor** also has these types of members:
+The **INapSoHProcessor** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSoHProcessor** also has these types of members:
 
 -   [Methods](#methods)
 

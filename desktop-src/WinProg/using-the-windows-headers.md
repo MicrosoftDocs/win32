@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Using the Windows Headers
 
-The header files for the Windows API enable you to create 32- and 64-bit applications. They include declarations for both Unicode and ANSI versions of the API. For more information, see [Unicode in the Windows API](https://msdn.microsoft.com/library/windows/desktop/dd374089). They use [data types](windows-data-types.md) that enable you to build both 32- and 64-bit versions of your application from a single source code base. For more information, see [Getting Ready for 64-bit Windows](https://msdn.microsoft.com/library/windows/desktop/aa384198). Additional features include [Header Annotations](header-annotations.md) and [STRICT Type Checking](strict-type-checking.md).
+The header files for the Windows API enable you to create 32- and 64-bit applications. They include declarations for both Unicode and ANSI versions of the API. For more information, see [Unicode in the Windows API](https://docs.microsoft.com/windows/desktop/Intl/unicode-in-the-windows-api). They use [data types](windows-data-types.md) that enable you to build both 32- and 64-bit versions of your application from a single source code base. For more information, see [Getting Ready for 64-bit Windows](https://docs.microsoft.com/windows/desktop/WinProg64/getting-ready-for-64-bit-windows). Additional features include [Header Annotations](header-annotations.md) and [STRICT Type Checking](strict-type-checking.md).
 
 -   [Visual C++ and the Windows Header Files](#visual-c-and-the-windows-header-files)
 -   [Macros for Conditional Declarations](#macros-for-conditional-declarations)
@@ -112,15 +112,15 @@ To set \_WIN32\_WINNT using the /D compiler option, use the following command:
 
 **cl -c /D\_WIN32\_WINNT=0x0502** *source***.cpp**
 
-For information on using the /D compiler option, see [/D (preprocessor definitions)](https://msdn.microsoft.com/library/hhzbb5c8.aspx).
+For information on using the /D compiler option, see [/D (preprocessor definitions)](https://docs.microsoft.com/cpp/build/reference/d-preprocessor-definitions).
 
-Note that some features introduced in the latest version of Windows may be added to a service pack for a previous version of Windows. Therefore, to target a service pack, you may need to define \_WIN32\_WINNT with the value for the next major operating system release. For example, the [**GetDllDirectory**](https://msdn.microsoft.com/library/windows/desktop/ms683186) function was introduced in Windows Server 2003 and is conditionally defined if \_WIN32\_WINNT is 0x0502 or greater. This function was also added to Windows XP with SP1. Therefore, if you were to define \_WIN32\_WINNT as 0x0501 to target Windows XP, you would miss features that are defined in Windows XP with SP1.
+Note that some features introduced in the latest version of Windows may be added to a service pack for a previous version of Windows. Therefore, to target a service pack, you may need to define \_WIN32\_WINNT with the value for the next major operating system release. For example, the [**GetDllDirectory**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getdlldirectorya) function was introduced in Windows Server 2003 and is conditionally defined if \_WIN32\_WINNT is 0x0502 or greater. This function was also added to Windows XP with SP1. Therefore, if you were to define \_WIN32\_WINNT as 0x0501 to target Windows XP, you would miss features that are defined in Windows XP with SP1.
 
 ## Controlling Structure Packing
 
 Projects should be compiled to use the default structure packing, which is currently 8 bytes because the largest integral type is 8 bytes. Doing so ensures that all structure types within the header files are compiled into the application with the same alignment the Windows API expects. It also ensures that structures with 8-byte values are properly aligned and will not cause alignment faults on processors that enforce data alignment.
 
-For more information, see [/Zp (struct member alignment)](https://msdn.microsoft.com/library/xh3e3fd0.aspx) or [pack](https://msdn.microsoft.com/library/2e70t5y1.aspx).
+For more information, see [/Zp (struct member alignment)](https://docs.microsoft.com/cpp/build/reference/zp-struct-member-alignment) or [pack](https://docs.microsoft.com/cpp/preprocessor/pack).
 
 ## Faster Builds with Smaller Header Files
 

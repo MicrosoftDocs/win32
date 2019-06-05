@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Noncomputational counter types do not have an associated formula. The raw value is directly meaningful.
 
-The **FilesToBeIndexed** property in the [**Win32\_PerfRawData\_ContentIndex\_IndexingService**](https://msdn.microsoft.com/library/dn750765) class is an example of the **PERF\_COUNTER\_RAWCOUNT** counter type. It contains a count of files that have not been indexed.
+The **FilesToBeIndexed** property in the [**Win32\_PerfRawData\_ContentIndex\_IndexingService**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class is an example of the **PERF\_COUNTER\_RAWCOUNT** counter type. It contains a count of files that have not been indexed.
 
 Counter types are designated by the constant defined in Winperf.h located in the Microsoft Windows Software Development Kit (SDK). The following table lists the noncomputational counter types that are provided.
 

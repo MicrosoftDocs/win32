@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # FloatColumnValue class
 
-A [Single](https://msdn.microsoft.com/en-us/library/3www918f) column value.
+A [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Single](https://msdn.microsoft.com/en-us/library/3www918f)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN)\>  
       Microsoft.Isam.Esent.Interop.FloatColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

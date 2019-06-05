@@ -46,7 +46,7 @@ Returns nonzero if successful, or zero otherwise. Returns zero if the **ulFlags*
 
 ## Remarks
 
-Because the list-view control uses OLE COM to manipulate the background images, the calling application must call [**CoInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms678543) or [**OleInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms690134) before sending this message. It is best to call one of these functions when the application is initialized and call either [**CoUninitialize**](https://msdn.microsoft.com/library/windows/desktop/ms688715) or [**OleUninitialize**](https://msdn.microsoft.com/library/windows/desktop/ms691326) when the application is terminating.
+Because the list-view control uses OLE COM to manipulate the background images, the calling application must call [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**OleInitialize**](https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize) before sending this message. It is best to call one of these functions when the application is initialized and call either [**CoUninitialize**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) or [**OleUninitialize**](https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize) when the application is terminating.
 
 ## Requirements
 

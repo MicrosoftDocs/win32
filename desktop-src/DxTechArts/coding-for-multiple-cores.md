@@ -110,9 +110,9 @@ SMT or HT Technology threads share the resources of the CPU core. Because they s
 
 More significantly, SMT or HT Technology threads share the L1 instruction and data caches. If their memory access patterns are incompatible, they can end up fighting over the cache and causing many cache misses. In the worst case, the total performance for the CPU core can actually decrease when a second thread is run. On Xbox 360, this is a fairly simple problem. The configuration of the Xbox 360 is known—three CPU cores each with two hardware threads—and developers assign their software threads to specific CPU threads and can measure to see whether their threading design gives them extra performance.
 
-On Windows, the situation is more complicated. The number of threads and their configuration will vary from computer to computer, and determining the configuration is complicated. The function [**GetLogicalProcessorInformation**](https://msdn.microsoft.com/library/windows/desktop/ms683194) gives information about the relationship between different hardware threads, and this function is available on Windows Vista, Windows 7, and Windows XP SP3. Therefore, for now you have to use the CPUID instruction and the algorithms given by Intel and AMD in order to decide how many "real" threads you have available. See the references for more information.
+On Windows, the situation is more complicated. The number of threads and their configuration will vary from computer to computer, and determining the configuration is complicated. The function [**GetLogicalProcessorInformation**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation) gives information about the relationship between different hardware threads, and this function is available on Windows Vista, Windows 7, and Windows XP SP3. Therefore, for now you have to use the CPUID instruction and the algorithms given by Intel and AMD in order to decide how many "real" threads you have available. See the references for more information.
 
-The CoreDetection sample in the DirectX SDK contains sample code that uses the [**GetLogicalProcessorInformation**](https://msdn.microsoft.com/library/windows/desktop/ms683194) function or the CPUID instruction to return the CPU core topology. The CPUID instruction is used if **GetLogicalProcessorInformation** is not supported on the current platform. CoreDetection can be found in the following locations:
+The CoreDetection sample in the DirectX SDK contains sample code that uses the [**GetLogicalProcessorInformation**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation) function or the CPUID instruction to return the CPU core topology. The CPUID instruction is used if **GetLogicalProcessorInformation** is not supported on the current platform. CoreDetection can be found in the following locations:
 
 <dl> <dt>
 
@@ -164,13 +164,13 @@ unsigned __stdcall ThreadFunction( void* data )
 
 When you create a thread, you have the option to specify the stack size for the child thread, or specify zero, in which case the child thread will inherit the parent thread's stack size. On Xbox 360, where stacks are fully committed when the thread starts, specifying zero can waste significant memory, because many child threads will not need as much stack as the parent. On Xbox 360 it is also important that the stack size be a multiple of 64-KB.
 
-If you use the [**CreateThread**](https://msdn.microsoft.com/library/windows/desktop/ms682453) function to create threads, then the C/C++ runtime (CRT) will not get properly initialized on Windows. We recommend that you use the CRT [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx) function instead.
+If you use the [**CreateThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread) function to create threads, then the C/C++ runtime (CRT) will not get properly initialized on Windows. We recommend that you use the CRT [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx) function instead.
 
-The return value from [**CreateThread**](https://msdn.microsoft.com/library/windows/desktop/ms682453) or [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx) is a thread handle. This thread can be used to wait for the child thread to terminate, which is much simpler and much more efficient than spinning in a loop checking the thread status. To wait for the thread to terminate, simply call [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032) with the thread handle.
+The return value from [**CreateThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread) or [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx) is a thread handle. This thread can be used to wait for the child thread to terminate, which is much simpler and much more efficient than spinning in a loop checking the thread status. To wait for the thread to terminate, simply call [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) with the thread handle.
 
-The resources for the thread will not be freed until the thread has terminated and the thread handle has been closed. Therefore, it is important to close the thread handle with [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) when you are finished with it. If you will be waiting for the thread to terminate with [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032), be sure to not close the handle until after the wait has completed.
+The resources for the thread will not be freed until the thread has terminated and the thread handle has been closed. Therefore, it is important to close the thread handle with [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) when you are finished with it. If you will be waiting for the thread to terminate with [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), be sure to not close the handle until after the wait has completed.
 
-On Xbox 360, you must explicitly assign software threads to a particular hardware thread by using **XSetThreadProcessor**. Otherwise, all child threads will stay on the same hardware thread as the parent. On Windows, you can use [**SetThreadAffinityMask**](https://msdn.microsoft.com/library/windows/desktop/ms686247) to strongly suggest to the operating system which hardware threads your thread should run on. This technique should generally be avoided on Windows since you don't know what other processes might be running on the system. It is typically better to let the Windows scheduler assign your threads to idle hardware threads.
+On Xbox 360, you must explicitly assign software threads to a particular hardware thread by using **XSetThreadProcessor**. Otherwise, all child threads will stay on the same hardware thread as the parent. On Windows, you can use [**SetThreadAffinityMask**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadaffinitymask) to strongly suggest to the operating system which hardware threads your thread should run on. This technique should generally be avoided on Windows since you don't know what other processes might be running on the system. It is typically better to let the Windows scheduler assign your threads to idle hardware threads.
 
 Creating threads is an expensive operation. Threads should be created and destroyed rarely. If you find yourself wanting to create and destroy threads frequently, use a pool of threads that wait around for work instead.
 
@@ -223,25 +223,25 @@ Critical sections have similar semantics to mutexes, but they can be used to syn
 
 ### Events
 
-If two threads—perhaps an update thread and a render thread—are taking turns using a pair of render description buffers, they need a way to indicate when they are done with their particular buffer. This can be done by associating an event (allocated with [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396)) with each buffer. When a thread is done with a buffer, it can use [**SetEvent**](https://msdn.microsoft.com/library/windows/desktop/ms686211) to signal this, and can then call [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032) on the other buffer's event. This technique extrapolates easily to triple buffering of resources.
+If two threads—perhaps an update thread and a render thread—are taking turns using a pair of render description buffers, they need a way to indicate when they are done with their particular buffer. This can be done by associating an event (allocated with [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa)) with each buffer. When a thread is done with a buffer, it can use [**SetEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent) to signal this, and can then call [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) on the other buffer's event. This technique extrapolates easily to triple buffering of resources.
 
 ### Semaphores
 
-A semaphore is used to control how many threads can be running and is commonly used to implement work queues. One thread adds work to a queue and uses [**ReleaseSemaphore**](https://msdn.microsoft.com/library/windows/desktop/ms685071) whenever it adds a new item to the queue. This allows one worker thread to be released from the pool of waiting threads. The worker threads just call [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032), and when it returns they know there is a work item in the queue for them. In addition, a critical section or other synchronization technique must be used in order to guarantee safe access to the shared work queue.
+A semaphore is used to control how many threads can be running and is commonly used to implement work queues. One thread adds work to a queue and uses [**ReleaseSemaphore**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-releasesemaphore) whenever it adds a new item to the queue. This allows one worker thread to be released from the pool of waiting threads. The worker threads just call [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), and when it returns they know there is a work item in the queue for them. In addition, a critical section or other synchronization technique must be used in order to guarantee safe access to the shared work queue.
 
 ### Avoid SuspendThread
 
-Sometimes when you want a thread to stop what it is doing, it is tempting to use [**SuspendThread**](https://msdn.microsoft.com/library/windows/desktop/ms686345) instead of the correct synchronization primitives. This is always a bad idea and can easily lead to deadlocks and other problems. **SuspendThread** also interacts badly with the Visual Studio debugger. Avoid **SuspendThread**. Use [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032) instead.
+Sometimes when you want a thread to stop what it is doing, it is tempting to use [**SuspendThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread) instead of the correct synchronization primitives. This is always a bad idea and can easily lead to deadlocks and other problems. **SuspendThread** also interacts badly with the Visual Studio debugger. Avoid **SuspendThread**. Use [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) instead.
 
 ### WaitForSingleObject and WaitForMultipleObjects
 
-The function [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032) is the most commonly used synchronization function. However, sometimes you want a thread to wait until several conditions are simultaneously satisfied, or until one of a set of conditions are satisfied. In this case, you should use [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms687025).
+The function [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) is the most commonly used synchronization function. However, sometimes you want a thread to wait until several conditions are simultaneously satisfied, or until one of a set of conditions are satisfied. In this case, you should use [**WaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects).
 
 ### Interlocked Functions and Lockless Programming
 
-There is a family of functions for performing simple thread-safe operations without using locks. These are the Interlocked family of functions, such as [**InterlockedIncrement**](https://msdn.microsoft.com/library/windows/desktop/ms683614). These functions, plus other techniques using careful setting of flags, are together known as lockless programming. Lockless programming can be extremely tricky to do correctly, and is substantially more difficult on Xbox 360 than on Windows.
+There is a family of functions for performing simple thread-safe operations without using locks. These are the Interlocked family of functions, such as [**InterlockedIncrement**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement). These functions, plus other techniques using careful setting of flags, are together known as lockless programming. Lockless programming can be extremely tricky to do correctly, and is substantially more difficult on Xbox 360 than on Windows.
 
-For more information about programming without locks, see [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](https://msdn.microsoft.com/library/windows/desktop/ee418650).
+For more information about programming without locks, see [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](https://docs.microsoft.com/windows/desktop/DxTechArts/lockless-programming).
 
 ### Minimizing Synchronization
 
@@ -266,7 +266,7 @@ The **\_\_declspec(thread)** technique does not work with dynamically loaded DLL
 
 ## Destroying Threads
 
-The only safe way to destroy a thread is to have the thread itself exit, either by returning from the main thread function or by having the thread call [**ExitThread**](https://msdn.microsoft.com/library/windows/desktop/ms682659) or [**\_endthreadex**](https://msdn.microsoft.com/en-us/library/hw264s73(v=VS.71).aspx). If a thread is created with [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx), then it should use **\_endthreadex** or return from the main thread function, since using **ExitThread** won't properly free CRT resources. Never call the [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717) function, because the thread will not be properly cleaned up. Threads should always commit suicide—they should never be murdered.
+The only safe way to destroy a thread is to have the thread itself exit, either by returning from the main thread function or by having the thread call [**ExitThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread) or [**\_endthreadex**](https://msdn.microsoft.com/en-us/library/hw264s73(v=VS.71).aspx). If a thread is created with [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx), then it should use **\_endthreadex** or return from the main thread function, since using **ExitThread** won't properly free CRT resources. Never call the [**TerminateThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread) function, because the thread will not be properly cleaned up. Threads should always commit suicide—they should never be murdered.
 
 ## OpenMP
 
@@ -278,7 +278,7 @@ Multithreaded profiling is important. It is easy to end up with long stalls wher
 
 ## Timing
 
-The rdtsc instruction is one way to get accurate timing information on Windows. Unfortunately, rdtsc has multiple problems that make it a poor choice for your shipping title. The rdtsc counters are not necessarily synchronized between CPUs, so when your thread moves between hardware threads you may get large positive or negative differences. Depending on power management settings, the frequency at which the rdtsc counter increments may also change as your game runs. To avoid these difficulties, you should prefer [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/windows/desktop/ms644904) and [**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/windows/desktop/ms644905) for high-precision timing in your shipping game. For more information about timing, see [Game Timing and Multicore Processors](https://msdn.microsoft.com/library/windows/desktop/ee417693).
+The rdtsc instruction is one way to get accurate timing information on Windows. Unfortunately, rdtsc has multiple problems that make it a poor choice for your shipping title. The rdtsc counters are not necessarily synchronized between CPUs, so when your thread moves between hardware threads you may get large positive or negative differences. Depending on power management settings, the frequency at which the rdtsc counter increments may also change as your game runs. To avoid these difficulties, you should prefer [**QueryPerformanceCounter**](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) and [**QueryPerformanceFrequency**](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency) for high-precision timing in your shipping game. For more information about timing, see [Game Timing and Multicore Processors](https://docs.microsoft.com/windows/desktop/DxTechArts/game-timing-and-multicore-processors).
 
 ## Debugging
 
@@ -332,10 +332,10 @@ Multithreaded programming can be tricky, and some multithreaded bugs show up onl
 
 For games targeting the newer versions of Windows, there are a number of APIs that can simplify the creation of scalable multithreaded applications. This is particularly true with the new ThreadPool API and some additional syncrhonziation primitives (condition variables, the slim read/writer lock, and one-time initialization). You can find an overview of these technologies in the following MSDN Magazine articles:
 
--   [Improve Scalability With New Thread Pool APIs](https://msdn.microsoft.com/magazine/cc163327.aspx)
--   [Synchronization Primitives New To Windows Vista](https://msdn.microsoft.com/magazine/cc163405.aspx)
+-   [Improve Scalability With New Thread Pool APIs](https://msdn.microsoft.com/magazine/ee310108.aspx)
+-   [Synchronization Primitives New To Windows Vista](https://msdn.microsoft.com/magazine/ee310108.aspx)
 
-Applications using [Direct3D 11 Features](https://msdn.microsoft.com/library/windows/desktop/ff476342) on these operating systems can also take advantage of the new design for concurrent object creation and deferred context command lists for better scalability for multithreaded rendering.
+Applications using [Direct3D 11 Features](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-features) on these operating systems can also take advantage of the new design for concurrent object creation and deferred context command lists for better scalability for multithreaded rendering.
 
 ## Summary
 
@@ -344,8 +344,8 @@ With careful design that minimizes the interactions between threads, you can get
 ## References
 
 -   Jim Beveridge & Robert Weiner, *Multithreading Applications in Win32*, Addison-Wesley, 1997
--   Chuck Walbourn, [Game Timing and Multicore Processors](https://msdn.microsoft.com/library/windows/desktop/ee417693), Microsoft Corporation, 2005
--   MSDN Library: [**GetLogicalProcessorInformation**](https://msdn.microsoft.com/library/windows/desktop/ms683194)
+-   Chuck Walbourn, [Game Timing and Multicore Processors](https://docs.microsoft.com/windows/desktop/DxTechArts/game-timing-and-multicore-processors), Microsoft Corporation, 2005
+-   MSDN Library: [**GetLogicalProcessorInformation**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation)
 -   [OpenMP](https://www.openmp.org/)
 
  

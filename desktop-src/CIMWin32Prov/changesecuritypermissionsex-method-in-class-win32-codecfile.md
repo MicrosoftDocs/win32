@@ -18,9 +18,9 @@ api_location:
 
 # ChangeSecurityPermissionsEx method of the Win32\_CodecFile class
 
-The **ChangeSecurityPermissionsEx** [WMI class](https://msdn.microsoft.com/library/aa393244) method changes the security permissions for the codec file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md) method). If the logical file is a directory, then this method is recursive, and changes the security permissions of all the files and subdirectories that the directory contains.
+The **ChangeSecurityPermissionsEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method changes the security permissions for the codec file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md) method). If the logical file is a directory, then this method is recursive, and changes the security permissions of all the files and subdirectories that the directory contains.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ uint32 ChangeSecurityPermissionsEx(
 *SecurityDescriptor* \[in\]
 </dt> <dd>
 
-Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402). This descriptor contains new security permissions for the instance of [**Win32\_CodecFile**](win32-codecfile.md).
+Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). This descriptor contains new security permissions for the instance of [**Win32\_CodecFile**](win32-codecfile.md).
 
 </dd> <dt>
 
@@ -115,7 +115,7 @@ Name of the file or directory where the **ChangeSecurityPermissionsEx** method f
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-Names the child file or directory to use as a starting point for **ChangeSecurityPermissionsEx**. Typically, the *StartFileName* parameter is the *StopFileName* parameter that specifies the file or directory where an error occurred from the previous method call. If this parameter is null, the operation is performed on the file or directory specified in the [**ExecMethod**](https://msdn.microsoft.com/library/aa392103) call.
+Names the child file or directory to use as a starting point for **ChangeSecurityPermissionsEx**. Typically, the *StartFileName* parameter is the *StopFileName* parameter that specifies the file or directory where an error occurred from the previous method call. If this parameter is null, the operation is performed on the file or directory specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) call.
 
 </dd> <dt>
 
@@ -267,7 +267,7 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_CodecFile**](win32-codecfile.md)

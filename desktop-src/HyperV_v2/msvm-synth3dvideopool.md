@@ -126,7 +126,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The units of allocation used by the resource pool. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+The units of allocation used by the resource pool. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The maximum amount (in units of **AllocationUnits**) of active reservations that the resource pool can support. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+The maximum amount (in units of **AllocationUnits**) of active reservations that the resource pool can support. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -155,7 +155,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -204,7 +204,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the units for the **MaxConsumableResource** and the **CurrentlyConsumedResource** properties. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+Specifies the units for the **MaxConsumableResource** and the **CurrentlyConsumedResource** properties. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -217,7 +217,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the amount of resource that the resource pool currently presents to consumers. This property is different from the **Reserved** property in that it describes the consumers view of the resource, while the **Reserved** property describes the producers view of the resource. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+Specifies the amount of resource that the resource pool currently presents to consumers. This property is different from the **Reserved** property in that it describes the consumers view of the resource, while the **Reserved** property describes the producers view of the resource. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -230,7 +230,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -282,7 +282,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MAXLEN**](https://msdn.microsoft.com/library/aa393650) (1024)
+Qualifiers: [**MAXLEN**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 Specifies the lowest version of DirectX that is supported by the cards within the resource pool.
@@ -298,7 +298,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property allows each instance to define a display name in addition to its key properties, identity data, and description information. The [**Name**](https://msdn.microsoft.com/library/aa387898) property of the **CIM\_ManagedSystemElement** class is also defined as a display name, but it is often subclassed to be a Key. It is not reasonable that the same property can convey both identity and a display name, without inconsistencies. Where [**Name**](msvm-keyboard.md) exists and is not a Key (such as for instances of LogicalDevice), the same information can be present in both the **Name** and **ElementName** properties. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property allows each instance to define a display name in addition to its key properties, identity data, and description information. The [**Name**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement) property of the **CIM\_ManagedSystemElement** class is also defined as a display name, but it is often subclassed to be a Key. It is not reasonable that the same property can convey both identity and a display name, without inconsistencies. Where [**Name**](msvm-keyboard.md) exists and is not a Key (such as for instances of LogicalDevice), the same information can be present in both the **Name** and **ElementName** properties. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -311,7 +311,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is always set to 5 (OK).
+The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5 (OK).
 
 </dd> <dt>
 
@@ -324,7 +324,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time at which the virtual machine was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The date and time at which the virtual machine was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -340,7 +340,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -379,7 +379,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No value")
+Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
 </dt> </dl>
 
 Specifies whether the host has a second level address translation (SLAT) capable CPU.
@@ -400,7 +400,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the maximum amount of consumable resource that the resource pool can present to consumers. This property is different from the **Capacity** property in that it describes the consumers view of the resource, while the **Capacity** property describes the producers view of the resource. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+Specifies the maximum amount of consumable resource that the resource pool can present to consumers. This property is different from the **Capacity** property in that it describes the consumers view of the resource, while the **Capacity** property describes the producers view of the resource. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -416,7 +416,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (1024)
 </dt> </dl>
 
-The label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -429,7 +429,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -501,7 +501,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is always set to 2 (OK). Hyper-V will only ever use the first element of this array.
+The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 2 (OK). Hyper-V will only ever use the first element of this array.
 
 </dd> <dt>
 
@@ -514,7 +514,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the resource type when a well-defined value is not available and [**ResourceType**](msvm-processorpool.md) is set to 0 ("Other"). This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903), and it is set to **Null**.
+A string that describes the resource type when a well-defined value is not available and [**ResourceType**](msvm-processorpool.md) is set to 0 ("Other"). This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)), and it is set to **Null**.
 
 </dd> <dt>
 
@@ -527,7 +527,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This value is referenced by the [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214) instances which were allocated from this pool. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903), and it is always set to "Microsoft:*GUID*\\Root".
+This value is referenced by the [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) instances which were allocated from this pool. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)), and it is always set to "Microsoft:*GUID*\\Root".
 
 </dd> <dt>
 
@@ -540,7 +540,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -573,7 +573,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if this resource pool is the base from which resources are drawn and returned in the activity of resource management; otherwise, **False**. Being primordial means that this resource pool cannot be created or deleted by consumers of this model. However, other actions, modeled or not, may affect the characteristics or size of primordial resource pools. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+**True** if this resource pool is the base from which resources are drawn and returned in the activity of resource management; otherwise, **False**. Being primordial means that this resource pool cannot be created or deleted by consumers of this model. However, other actions, modeled or not, may affect the characteristics or size of primordial resource pools. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -586,7 +586,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MAXLEN**](https://msdn.microsoft.com/library/aa393650) (1024)
+Qualifiers: [**MAXLEN**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 Specifies the lowest version of DirectX that is required by the cards within the resource pool.
@@ -602,7 +602,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The current reservations (in units of **AllocationUnits**) spread across all active allocations from this pool. In a hierarchical configuration, this represents the sum of all descendant resource pool current reservations. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+The current reservations (in units of **AllocationUnits**) spread across all active allocations from this pool. In a hierarchical configuration, this represents the sum of all descendant resource pool current reservations. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -615,7 +615,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes an implementation specific subtype for this pool. For example, this may be used to distinguish different models of the same resource type. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903).
+A string that describes an implementation specific subtype for this pool. For example, this may be used to distinguish different models of the same resource type. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)).
 
 </dd> <dt>
 
@@ -628,7 +628,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The type of resource this resource pool can allocate. This property is inherited from [**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903), and it is always set to 4 ("Memory").
+The type of resource this resource pool can allocate. This property is inherited from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)), and it is always set to 4 ("Memory").
 
 </dd> <dt>
 
@@ -641,7 +641,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), but it is not used.
+This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -654,7 +654,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is always set to "OK". Hyper-V will only ever use the first element of this array.
+Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to "OK". Hyper-V will only ever use the first element of this array.
 
 </dd> </dl>
 

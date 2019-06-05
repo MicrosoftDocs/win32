@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_CHAR message
 
-Posted to the window with the keyboard focus when a [**WM\_KEYDOWN**](wm-keydown.md) message is translated by the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function. The **WM\_CHAR** message contains the character code of the key that was pressed.
+Posted to the window with the keyboard focus when a [**WM\_KEYDOWN**](wm-keydown.md) message is translated by the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function. The **WM\_CHAR** message contains the character code of the key that was pressed.
 
 
 ```C++
@@ -94,7 +94,7 @@ The [**WM\_UNICHAR**](wm-unichar.md) message is the same as **WM\_CHAR**, except
 **Reference**
 </dt> <dt>
 
-[**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955)
+[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
 </dt> <dt>
 
 [**WM\_KEYDOWN**](wm-keydown.md)

@@ -230,22 +230,22 @@ VOID ErrorExit(LPWSTR wszErrorMessage, DWORD dwErrorCode)
 
 <dl> <dt>
 
-[**CertCloseStore**](https://msdn.microsoft.com/library/windows/desktop/aa376026)
+[**CertCloseStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore)
 </dt> <dt>
 
-[**CertFindCertificateInStore**](https://msdn.microsoft.com/library/windows/desktop/aa376064)
+[**CertFindCertificateInStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore)
 </dt> <dt>
 
-[**CertFreeCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376075)
+[**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)
 </dt> <dt>
 
-[**CertOpenSystemStore**](https://msdn.microsoft.com/library/windows/desktop/aa376560)
+[**CertOpenSystemStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea)
 </dt> <dt>
 
 [File Encryption](file-encryption.md)
 </dt> <dt>
 
-[**LookupAccountName**](https://msdn.microsoft.com/library/windows/desktop/aa379159)
+[**LookupAccountName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea)
 </dt> </dl>
 
  

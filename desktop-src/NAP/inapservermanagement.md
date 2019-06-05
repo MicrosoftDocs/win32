@@ -28,7 +28,7 @@ The **INapServerManagement** provides methods that are used to manage the NAP Se
 
 ## Members
 
-The **INapServerManagement** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapServerManagement** also has these types of members:
+The **INapServerManagement** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapServerManagement** also has these types of members:
 
 -   [Methods](#methods)
 

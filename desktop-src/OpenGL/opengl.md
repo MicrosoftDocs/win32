@@ -44,22 +44,22 @@ For more information on which operating systems are required for a particular fu
 
 <dl> <dt>
 
-[DirectX Graphics and Gaming](https://msdn.microsoft.com/library/windows/desktop/ee663274.aspx)
+[DirectX Graphics and Gaming](https://docs.microsoft.com/windows/desktop/directx)
 </dt> <dt>
 
-[Still Image](https://msdn.microsoft.com/library/windows/desktop/cc836557)
+[Still Image](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc836557(v=vs.85))
 </dt> <dt>
 
-[Windows Color System (WCS)](https://msdn.microsoft.com/library/windows/desktop/dd372446)
+[Windows Color System (WCS)](https://docs.microsoft.com/previous-versions//dd372446(v=vs.85))
 </dt> <dt>
 
-[Windows GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203)
+[Windows GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi)
 </dt> <dt>
 
 [Windows Image Acquisition](https://msdn.microsoft.com/library/ms630368(v=VS.85).aspx)
 </dt> <dt>
 
-[Windows Multimedia](https://msdn.microsoft.com/library/windows/desktop/dd743883)
+[Windows Multimedia](https://docs.microsoft.com/windows/desktop/Multimedia/windows-multimedia-start-page)
 </dt> <dt>
 
 [Windows API](https://msdn.microsoft.com/library/Cc433218(v=VS.85).aspx)

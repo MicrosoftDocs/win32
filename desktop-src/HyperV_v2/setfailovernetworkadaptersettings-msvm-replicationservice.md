@@ -39,7 +39,7 @@ uint32 SetFailoverNetworkAdapterSettings(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) instance that represents the virtual machine whose network adapters are to be configured.
+A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine whose network adapters are to be configured.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ An array of embedded instances of [**Msvm\_FailoverNetworkAdapterSettingData**](
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 

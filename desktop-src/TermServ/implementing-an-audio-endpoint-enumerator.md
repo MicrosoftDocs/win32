@@ -31,23 +31,23 @@ Beginning with Windows Server 2008 R2, you can implement a custom remote audio e
     <tbody>
     <tr class="odd">
     <td>Device enumerator object<br/></td>
-    <td>A device enumerator object provides the endpoint enumerator functionality. It exposes methods that return a default endpoint and specified collections of endpoints. For example, depending on the criteria specified, the enumerator can return communication endpoints, playback endpoints, or capture endpoints. The device enumerator object must implement the <a href="https://msdn.microsoft.com/library/windows/desktop/dd371399"><strong>IMMDeviceEnumerator</strong></a> interface.<br/></td>
+    <td>A device enumerator object provides the endpoint enumerator functionality. It exposes methods that return a default endpoint and specified collections of endpoints. For example, depending on the criteria specified, the enumerator can return communication endpoints, playback endpoints, or capture endpoints. The device enumerator object must implement the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> interface.<br/></td>
     </tr>
     <tr class="even">
     <td>Device collection object<br/></td>
-    <td>A device collection object represents a collection of audio devices. It must implement the <a href="https://msdn.microsoft.com/library/windows/desktop/dd371396"><strong>IMMDeviceCollection</strong></a> interface.<br/></td>
+    <td>A device collection object represents a collection of audio devices. It must implement the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> interface.<br/></td>
     </tr>
     <tr class="odd">
     <td>Device object<br/></td>
-    <td>A device object represents a particular audio device. It provides access to the audio device's property store and exposes the audio playback and capture interfaces available on the device. The device object must implement the <a href="https://msdn.microsoft.com/library/windows/desktop/dd371395"><strong>IMMDevice</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371414"><strong>IMMEndpoint</strong></a> interfaces.<br/></td>
+    <td>A device object represents a particular audio device. It provides access to the audio device's property store and exposes the audio playback and capture interfaces available on the device. The device object must implement the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> interfaces.<br/></td>
     </tr>
     <tr class="even">
     <td>Property store object<br/></td>
     <td>A property store object exposes the properties associated with an audio device. Some of these properties are used by the system, but applications can store arbitrary properties with the audio endpoint as well.<br/> All audio devices have the following three properties:<br/>
     <ul>
-    <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316587"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></li>
-    <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316591"><strong>PKEY_Device_DeviceDesc</strong></a></li>
-    <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316594"><strong>PKEY_Device_FriendlyName</strong></a></li>
+    <li><a href="https://docs.microsoft.com/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></li>
+    <li><a href="https://docs.microsoft.com/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></li>
+    <li><a href="https://docs.microsoft.com/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></li>
     </ul>
     The property store object must implement the <a href="https://go.microsoft.com/fwlink/p/?linkid=177452">IPropertyStore</a> interface.<br/></td>
     </tr>
@@ -71,9 +71,9 @@ To implement a custom audio device enumerator, you must implement a custom audio
 -   `IMMDevice::Activate(IAudioOutputEndpointRT)`
 -   `IMMDevice::Activate(IAudioInputEndpointRT)`
 
-We do not expect you to implement the full list of [**IMMDevice::Activate**](https://msdn.microsoft.com/library/windows/desktop/dd371405) interfaces in your custom audio device enumerator. Instead, you should implement [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) and [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). You can optionally implement a few more, such as [**IAudioEndpointVolume**](https://msdn.microsoft.com/library/windows/desktop/dd370892). For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code). Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](https://msdn.microsoft.com/library/windows/desktop/hh404179)).
+We do not expect you to implement the full list of [**IMMDevice::Activate**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate) interfaces in your custom audio device enumerator. Instead, you should implement [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) and [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). You can optionally implement a few more, such as [**IAudioEndpointVolume**](https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume). For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code). Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2)).
 
-For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). For a diagram that shows how WASAPI works, see [User-Mode Audio Components](https://msdn.microsoft.com/library/windows/desktop/dd316780). Note that all of user-mode audio is new beginning with Windows Server 2008.
+For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). For a diagram that shows how WASAPI works, see [User-Mode Audio Components](https://docs.microsoft.com/windows/desktop/CoreAudio/user-mode-audio-components). Note that all of user-mode audio is new beginning with Windows Server 2008.
 
 ## Related topics
 
@@ -85,16 +85,16 @@ For additional reference documentation about how to implement and register audio
 [**GetTSAudioEndpointEnumeratorForSession**](gettsaudioendpointenumeratorforsession.md)
 </dt> <dt>
 
-[**IMMDevice**](https://msdn.microsoft.com/library/windows/desktop/dd371395)
+[**IMMDevice**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice)
 </dt> <dt>
 
-[**IMMDeviceCollection**](https://msdn.microsoft.com/library/windows/desktop/dd371396)
+[**IMMDeviceCollection**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection)
 </dt> <dt>
 
-[**IMMDeviceEnumerator**](https://msdn.microsoft.com/library/windows/desktop/dd371399)
+[**IMMDeviceEnumerator**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator)
 </dt> <dt>
 
-[**IMMEndpoint**](https://msdn.microsoft.com/library/windows/desktop/dd371414)
+[**IMMEndpoint**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint)
 </dt> <dt>
 
 [IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=177452)

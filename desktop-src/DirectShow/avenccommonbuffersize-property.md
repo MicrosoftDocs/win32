@@ -34,7 +34,7 @@ For H.264 video and Windows Media Video, the property defines the hypothetical r
 
 For UVC 1.5 H264 encoding cameras, the CPB value sent to the camera encoder must be 16-bit aligned. The size of the buffer is in bytes.
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.microsoft.com/library/windows/desktop/jj218765).
+This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
 ## Requirements
 

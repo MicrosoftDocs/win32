@@ -101,7 +101,7 @@ The **InkRecognizerContext** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 There are two types of recognition: background (asynchronous) or foreground (synchronous). Background recognition is started by a call to the [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize) or [**BackgroundRecognizeWithAlternates**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) methods, occurs on a background thread, and reports results to the application through an event mechanism. Foreground recognition does not return until all recognition is completed, thus making recognition results available to the calling thread without listening for the recognition event.
 

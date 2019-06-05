@@ -13,7 +13,7 @@ Ignore the user's dial-in properties.
 
 **LDAP Name:** msIgnoreUserDialinProperties
 
-**ID:** 4101 = [**IAS\_ATTRIBUTE\_IGNORE\_USER\_DIALIN\_PROPERTIES**](https://msdn.microsoft.com/library/bb960612)
+**ID:** 4101 = [**IAS\_ATTRIBUTE\_IGNORE\_USER\_DIALIN\_PROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
 
 **Syntax:** Boolean
 

@@ -96,7 +96,7 @@ Defines an event that your provider can write.
 <tr class="odd">
 <td>channel</td>
 <td>token</td>
-<td>An identifier that identifies the channel to where the event is written. Specify a channel identifier of one of the channels that you defined or imported. If the channel does not specify a channel identifier, use the channel's name. For details on defining or importing a channel, see the <a href="eventmanifestschema-channellisttype-complextype"><strong>ChannelListType</strong></a> complex type.<br/> If you do not specify a channel, the event is not written to a channel. Typically, the only reason not to specify a channel is if you are writing events only to an ETW session. For details, see creating an ETW session, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa363694">Controlling Event Tracing Sessions</a>.<br/></td>
+<td>An identifier that identifies the channel to where the event is written. Specify a channel identifier of one of the channels that you defined or imported. If the channel does not specify a channel identifier, use the channel's name. For details on defining or importing a channel, see the <a href="eventmanifestschema-channellisttype-complextype"><strong>ChannelListType</strong></a> complex type.<br/> If you do not specify a channel, the event is not written to a channel. Typically, the only reason not to specify a channel is if you are writing events only to an ETW session. For details, see creating an ETW session, see <a href="https://docs.microsoft.com/windows/desktop/ETW/controlling-event-tracing-sessions">Controlling Event Tracing Sessions</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>keywords</td>
@@ -133,7 +133,7 @@ Defines an event that your provider can write.
 <tr class="odd">
 <td>symbol</td>
 <td><a href="eventmanifestschema-csymboltype-simpletype"><strong>CSymbolType</strong></a></td>
-<td>The symbol to use to reference the event descriptor for this event in your application. The <a href="message-compiler--mc-exe-"><strong>Message Compiler (MC.exe)</strong></a> uses the symbol to create a constant for the event descriptor in the header file that the compiler generates. If you do not specify a symbol, the compiler generates one for you. You use the descriptor when you call the <a href="https://msdn.microsoft.com/library/windows/desktop/aa363752"><strong>EventWrite</strong></a> function to write the event.<br/></td>
+<td>The symbol to use to reference the event descriptor for this event in your application. The <a href="message-compiler--mc-exe-"><strong>Message Compiler (MC.exe)</strong></a> uses the symbol to create a constant for the event descriptor in the header file that the compiler generates. If you do not specify a symbol, the compiler generates one for you. You use the descriptor when you call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite"><strong>EventWrite</strong></a> function to write the event.<br/></td>
 </tr>
 <tr class="even">
 <td>task</td>

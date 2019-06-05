@@ -26,7 +26,7 @@ Callback to return a render target. The format of the returned render target is 
 
 ## Members
 
-The **IFrameBufferCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IFrameBufferCallback** also has these types of members:
+The **IFrameBufferCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameBufferCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IFrameBufferCallback** interface inherits from the [**IUnknown**](https://
 
 The **IFrameBufferCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422669"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of framebuffer information returned by the associated request.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframebuffercallback-resultcallback-dword-dword-dword-dword-double-dword-byte-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of framebuffer information returned by the associated request.</p></td></tr></tbody></table>
 
  
 

@@ -40,28 +40,28 @@ uint32 TestReplicaSystem(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) instance that represents the virtual machine for which the replication should be tested.
+A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which the replication should be tested.
 
 </dd> <dt>
 
 *SnapshotSettingData* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) instance that represents the snapshot used to create the test failover system. If this parameter is **Null**, the failover is to be performed off the latest point in time.
+A reference to a [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot used to create the test failover system. If this parameter is **Null**, the failover is to be performed off the latest point in time.
 
 </dd> <dt>
 
 *ResultingSystem* \[out\]
 </dt> <dd>
 
-If a virtual machine is successfully defined, receives a reference to an instance of the [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) class that represents the newly defined test virtual machine. When this system is no longer needed, destroy it by calling the [**DestroySystem**](destroysystem-msvm-virtualsystemmanagementservice.md) method.
+If a virtual machine is successfully defined, receives a reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the newly defined test virtual machine. When this system is no longer needed, destroy it by calling the [**DestroySystem**](destroysystem-msvm-virtualsystemmanagementservice.md) method.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 

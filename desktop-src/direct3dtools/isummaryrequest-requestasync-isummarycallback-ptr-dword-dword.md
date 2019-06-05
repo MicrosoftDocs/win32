@@ -56,7 +56,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**ISummaryRequest**](https://msdn.microsoft.com/library/windows/desktop/mt432811)
+[**ISummaryRequest**](https://docs.microsoft.com/windows/desktop/direct3dtools/isummaryrequest)
 
  
 

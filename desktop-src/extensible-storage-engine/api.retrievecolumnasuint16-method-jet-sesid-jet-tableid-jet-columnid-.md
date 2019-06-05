@@ -83,7 +83,7 @@ public static Nullable<ushort> RetrieveColumnAsUInt16(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[UInt16](https://msdn.microsoft.com/en-us/library/s6eyk10z)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[UInt16](https://docs.microsoft.com/dotnet/api/system.uint16?redirectedfrom=MSDN)\>  
 The data retrieved from the column as an UInt16. Null if the column is null.  
 
 ## See also

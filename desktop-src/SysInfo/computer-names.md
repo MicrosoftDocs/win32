@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Computer Names
 
-DNS names consist of one or more components separated by a period (for example, msdn.microsoft.com). Each component can be up to 63 bytes. Each name can be up to 255 bytes total. DNS names are represented in the UTF-8 character set or Unicode. The name is not case sensitive. For more information, see [**DnsValidateName**](https://msdn.microsoft.com/library/windows/desktop/ms682032).
+DNS names consist of one or more components separated by a period (for example, msdn.microsoft.com). Each component can be up to 63 bytes. Each name can be up to 255 bytes total. DNS names are represented in the UTF-8 character set or Unicode. The name is not case sensitive. For more information, see [**DnsValidateName**](https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsvalidatename).
 
 A computer is uniquely identified by its fully qualified DNS name, which consists of its DNS host name and the name of the DNS domain to which it is assigned. To retrieve a computer's fully qualified DNS name, DNS host name, or DNS domain name, call the [**GetComputerNameEx**](https://msdn.microsoft.com/en-us/library/ms724301(v=VS.85).aspx) function. To set a computer's DNS host name or DNS domain name, call the [**SetComputerNameEx**](https://msdn.microsoft.com/en-us/library/ms724931(v=VS.85).aspx) function. Name changes do not take effect until the user restarts the computer.
 

@@ -14,7 +14,7 @@ For devices that clean install Windows 10, and where Secure Boot is on (note tha
 
 In cases where a driver is not signed correctly, it will manifest as a PCA notification that the driver(s) is blocked when it doesn’t pass signature requirements. This prevents a later disconnected user experience of the driver being blocked in kernel transparently.
 
-For more information, please refer to [this blog post](https://blogs.msdn.microsoft.com/windows_hardware_certification/2015/04/01/driver-signing-changes-in-windows-10/), which announces the driver signing change.
+For more information, please refer to [this blog post](https://techcommunity.microsoft.com/t5/Windows-Hardware-Certification/bg-p/WindowsHardwareCertification/), which announces the driver signing change.
 
  
 

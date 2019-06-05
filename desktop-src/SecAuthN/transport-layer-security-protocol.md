@@ -36,7 +36,7 @@ The steps that make up TLS are divided into two protocols that, together, provid
 
 Because TLS does not have a GSSAPI specification, TLS implementers may not be familiar with the SSPI functions. Applications call the SSPI functions to enumerate available packages, create and work with handles to credentials, create security contexts and ensure message integrity privacy.
 
-To support the SSPI functions used by user mode applications, the functions listed in [Functions Implemented by User-mode SSP/APs](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374731.aspx#functions-implemented-by-user-mode-ssp-aps) need to be supported by TLS implementations such as schannel.dll.
+To support the SSPI functions used by user mode applications, the functions listed in [Functions Implemented by User-mode SSP/APs](https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions) need to be supported by TLS implementations such as schannel.dll.
 
 For details about the SSPI functions and SSP functions, see [Authentication Functions](authentication-functions.md).
 

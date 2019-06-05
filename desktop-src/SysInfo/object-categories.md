@@ -32,18 +32,18 @@ The system provides three categories of objects: user, graphics device interface
 
 | GDI object           | Overview                               |
 |----------------------|----------------------------------------|
-| Bitmap               | [Bitmaps](https://msdn.microsoft.com/library/windows/desktop/dd183377)                 |
-| Brush                | [Brushes](https://msdn.microsoft.com/library/windows/desktop/dd183394)                 |
-| DC                   | [Device Contexts](https://msdn.microsoft.com/library/windows/desktop/dd183553) |
-| Enhanced metafile    | [Metafiles](https://msdn.microsoft.com/library/windows/desktop/dd145051)             |
-| Enhanced-metafile DC | [Metafiles](https://msdn.microsoft.com/library/windows/desktop/dd145051)             |
-| Font                 | [Fonts and Text](https://msdn.microsoft.com/library/windows/desktop/dd144819)   |
-| Memory DC            | [Device Contexts](https://msdn.microsoft.com/library/windows/desktop/dd183553) |
-| Metafile             | [Metafiles](https://msdn.microsoft.com/library/windows/desktop/dd145051)             |
-| Metafile DC          | [Metafiles](https://msdn.microsoft.com/library/windows/desktop/dd145051)             |
-| Palette              | [Colors](https://msdn.microsoft.com/library/windows/desktop/dd183450)                   |
-| Pen and extended pen | [Pens](https://msdn.microsoft.com/library/windows/desktop/dd162786)                       |
-| Region               | [Regions](https://msdn.microsoft.com/library/windows/desktop/dd162913)                 |
+| Bitmap               | [Bitmaps](https://docs.microsoft.com/windows/desktop/gdi/bitmaps)                 |
+| Brush                | [Brushes](https://docs.microsoft.com/windows/desktop/gdi/brushes)                 |
+| DC                   | [Device Contexts](https://docs.microsoft.com/windows/desktop/gdi/device-contexts) |
+| Enhanced metafile    | [Metafiles](https://docs.microsoft.com/windows/desktop/gdi/metafiles)             |
+| Enhanced-metafile DC | [Metafiles](https://docs.microsoft.com/windows/desktop/gdi/metafiles)             |
+| Font                 | [Fonts and Text](https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text)   |
+| Memory DC            | [Device Contexts](https://docs.microsoft.com/windows/desktop/gdi/device-contexts) |
+| Metafile             | [Metafiles](https://docs.microsoft.com/windows/desktop/gdi/metafiles)             |
+| Metafile DC          | [Metafiles](https://docs.microsoft.com/windows/desktop/gdi/metafiles)             |
+| Palette              | [Colors](https://docs.microsoft.com/windows/desktop/gdi/colors)                   |
+| Pen and extended pen | [Pens](https://docs.microsoft.com/windows/desktop/gdi/pens)                       |
+| Region               | [Regions](https://docs.microsoft.com/windows/desktop/gdi/regions)                 |
 
 
 
@@ -53,31 +53,31 @@ The system provides three categories of objects: user, graphics device interface
 
 | Kernel object         | Overview                                                                        |
 |-----------------------|---------------------------------------------------------------------------------|
-| Access token          | [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860)                                       |
-| Change notification   | [Directory Change Notifications](https://msdn.microsoft.com/library/windows/desktop/aa365261) |
-| Communications device | [Communications](https://msdn.microsoft.com/library/windows/desktop/aa363196)                                 |
-| Console input         | [Character-Mode Applications](https://msdn.microsoft.com/library/windows/desktop/ms682010)                 |
-| Console screen buffer | [Character-Mode Applications](https://msdn.microsoft.com/library/windows/desktop/ms682010)                 |
-| Desktop               | [Desktops](https://msdn.microsoft.com/library/windows/desktop/ms682573)                                                       |
-| Event                 | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
-| Event log             | [Event Logging](https://msdn.microsoft.com/library/windows/desktop/aa363652)                                             |
-| File                  | [Files and Clusters](https://msdn.microsoft.com/library/windows/desktop/aa364056)                                   |
-| File mapping          | [File Mapping](https://msdn.microsoft.com/library/windows/desktop/aa366556)                                               |
-| Heap                  | [Memory Management](https://msdn.microsoft.com/library/windows/desktop/aa366779)                                     |
-| Job                   | [Job Objects](https://msdn.microsoft.com/library/windows/desktop/ms684161)                                                 |
-| Mailslot              | [Mailslots](https://msdn.microsoft.com/library/windows/desktop/aa365576)                                                     |
-| Module                | [Dynamic-Link Libraries](https://msdn.microsoft.com/library/windows/desktop/ms682589)                           |
-| Mutex                 | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
-| Pipe                  | [Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365780)                                                             |
-| Process               | [Processes and Threads](https://msdn.microsoft.com/library/windows/desktop/ms684841)                             |
-| Semaphore             | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
-| Socket                | [Windows Sockets 2](https://msdn.microsoft.com/library/windows/desktop/ms740673)                       |
-| Thread                | [Processes and Threads](https://msdn.microsoft.com/library/windows/desktop/ms684841)                             |
-| Timer                 | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
-| Timer queue           | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
-| Timer-queue timer     | [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353)                                         |
+| Access token          | [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control)                                       |
+| Change notification   | [Directory Change Notifications](https://docs.microsoft.com/windows/desktop/FileIO/obtaining-directory-change-notifications) |
+| Communications device | [Communications](https://docs.microsoft.com/windows/desktop/DevIO/communications-resources)                                 |
+| Console input         | [Character-Mode Applications](https://docs.microsoft.com/windows/console/character-mode-applications)                 |
+| Console screen buffer | [Character-Mode Applications](https://docs.microsoft.com/windows/console/character-mode-applications)                 |
+| Desktop               | [Desktops](https://docs.microsoft.com/windows/desktop/winstation/desktops)                                                       |
+| Event                 | [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization)                                         |
+| Event log             | [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging)                                             |
+| File                  | [Files and Clusters](https://docs.microsoft.com/windows/desktop/FileIO/files-and-clusters)                                   |
+| File mapping          | [File Mapping](https://docs.microsoft.com/windows/desktop/Memory/file-mapping)                                               |
+| Heap                  | [Memory Management](https://docs.microsoft.com/windows/desktop/Memory/memory-management)                                     |
+| Job                   | [Job Objects](https://docs.microsoft.com/windows/desktop/ProcThread/job-objects)                                                 |
+| Mailslot              | [Mailslots](https://docs.microsoft.com/windows/desktop/ipc/mailslots)                                                     |
+| Module                | [Dynamic-Link Libraries](https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-libraries)                           |
+| Mutex                 | [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization)                                         |
+| Pipe                  | [Pipes](https://docs.microsoft.com/windows/desktop/ipc/pipes)                                                             |
+| Process               | [Processes and Threads](https://docs.microsoft.com/windows/desktop/ProcThread/processes-and-threads)                             |
+| Semaphore             | [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization)                                         |
+| Socket                | [Windows Sockets 2](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)                       |
+| Thread                | [Processes and Threads](https://docs.microsoft.com/windows/desktop/ProcThread/processes-and-threads)                             |
+| Timer                 | [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization)                                         |
+| Timer queue           | [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization)                                         |
+| Timer-queue timer     | [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization)                                         |
 | Update resource       | [Resources](https://msdn.microsoft.com/library/ms632583(v=VS.85).aspx)                                               |
-| Window station        | [Window Stations](https://msdn.microsoft.com/library/windows/desktop/ms687096)                                         |
+| Window station        | [Window Stations](https://docs.microsoft.com/windows/desktop/winstation/window-stations)                                         |
 
 
 

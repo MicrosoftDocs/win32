@@ -16,7 +16,7 @@ A *mailslot client* is a process that writes a message to a mailslot. Any proces
 
 Mailslots can broadcast messages within a domain. If several processes in a domain each create a mailslot using the same name, every message that is addressed to that mailslot and sent to the domain is received by the participating processes. Because one process can control both a server mailslot handle and the client handle retrieved when the mailslot is opened for a write operation, applications can easily implement a simple message-passing facility within a domain.
 
-To send messages that are larger than 424 bytes between computers, use [named pipes](named-pipes.md) or [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673) instead.
+To send messages that are larger than 424 bytes between computers, use [named pipes](named-pipes.md) or [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2) instead.
 
 ## Related topics
 

@@ -75,7 +75,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -166,7 +166,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -180,7 +180,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -193,7 +193,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -206,7 +206,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -232,7 +232,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -246,7 +246,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -259,7 +259,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -272,7 +272,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -285,7 +285,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -298,7 +298,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
 
 </dd> </dl>
 

@@ -111,7 +111,7 @@ It may be useful to give a brief outline of what this code does. Later topics wi
 2.  Next, the program creates the window and receives a handle that uniquely identifies the window.
 3.  If the window is created successfully, the program enters a **while** loop. The program remains in this loop until the user closes the window and exits the application.
 
-Notice that the progam does not explicitly call the `WindowProc` function, even though we said this is where most of the application logic is defined. Windows communicates with your program by passing it a series of *messages*. The code inside the **while** loop drives this process. Each time the program calls the [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934) function, it indirectly causes Windows to invoke the WindowProc function, once for each message.
+Notice that the progam does not explicitly call the `WindowProc` function, even though we said this is where most of the application logic is defined. Windows communicates with your program by passing it a series of *messages*. The code inside the **while** loop drives this process. Each time the program calls the [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function, it indirectly causes Windows to invoke the WindowProc function, once for each message.
 
 ## In this section
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The wire\_marshal and user\_marshal Attributes
 
-This section discusses the implementation of programmer data type conversion using the MIDL \[ [wire\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367309)\] and \[ [user\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367296)\] attributes. The information is presented in the following sections:
+This section discusses the implementation of programmer data type conversion using the MIDL \[ [wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\] attributes. The information is presented in the following sections:
 
 -   [The wire\_marshal Attribute](the-wire-marshal-attribute.md)
 -   [The user\_marshal Attribute](the-user-marshal-attribute.md)

@@ -41,7 +41,7 @@ LPCSTR GetMemberSemantic(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -49,7 +49,7 @@ A zero-based index.
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A string that contains the semantic.
 

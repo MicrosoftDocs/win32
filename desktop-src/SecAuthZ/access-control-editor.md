@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # Access Control Editor
 
-The access control editor is a set of property sheets and property pages that enable the user to view and modify the components of an object's [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly). The editor consists of two main parts:
+The access control editor is a set of property sheets and property pages that enable the user to view and modify the components of an object's [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). The editor consists of two main parts:
 
--   A [basic security property page](basic-security-property-page.md) that provides a simple interface for editing the [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) in an object's [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL). This page can include an optional **Advanced** button that displays the advanced security property sheet.
--   An [advanced security property sheet](advanced-security-property-sheet.md) with property pages that enable the user to edit the object's [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL), change the object's owner, or perform advanced editing of the object's DACL.
+-   A [basic security property page](basic-security-property-page.md) that provides a simple interface for editing the [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) in an object's [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL). This page can include an optional **Advanced** button that displays the advanced security property sheet.
+-   An [advanced security property sheet](advanced-security-property-sheet.md) with property pages that enable the user to edit the object's [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL), change the object's owner, or perform advanced editing of the object's DACL.
 
 The [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) function creates the basic security property page. You can then use the [**PropertySheet**](https://msdn.microsoft.com/library/Bb760811(v=VS.85).aspx) function or the [**PSM\_ADDPAGE**](https://msdn.microsoft.com/library/Bb774573(v=VS.85).aspx) message to add this page to a property sheet.
 
@@ -25,7 +25,7 @@ For both [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecu
 
 -   To provide security information about the object being edited.
 
-    Your [**GetSecurity**](https://msdn.microsoft.com/en-us/library/Aa379105(v=VS.85).aspx) implementation passes the object's initial [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) to the editor. The [**GetAccessRights**](https://msdn.microsoft.com/en-us/library/Aa379092(v=VS.85).aspx) and [**MapGeneric**](https://msdn.microsoft.com/en-us/library/Aa379113(v=VS.85).aspx) methods provide information about the object's access rights. The [**GetInheritTypes**](https://msdn.microsoft.com/en-us/library/Aa379097(v=VS.85).aspx) method provides information about how the object's ACEs can be inherited by child objects.
+    Your [**GetSecurity**](https://msdn.microsoft.com/en-us/library/Aa379105(v=VS.85).aspx) implementation passes the object's initial [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) to the editor. The [**GetAccessRights**](https://msdn.microsoft.com/en-us/library/Aa379092(v=VS.85).aspx) and [**MapGeneric**](https://msdn.microsoft.com/en-us/library/Aa379113(v=VS.85).aspx) methods provide information about the object's access rights. The [**GetInheritTypes**](https://msdn.microsoft.com/en-us/library/Aa379097(v=VS.85).aspx) method provides information about how the object's ACEs can be inherited by child objects.
 
 -   To pass the user's input back to your application.
 

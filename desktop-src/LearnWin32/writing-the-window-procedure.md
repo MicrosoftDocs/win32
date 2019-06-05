@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Writing the Window Procedure
 
-The [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934) function calls the window procedure of the window that is the target of the message. The window procedure has the following signature.
+The [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function calls the window procedure of the window that is the target of the message. The window procedure has the following signature.
 
 
 ```C++
@@ -20,7 +20,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 There are four parameters:
 
 -   *hwnd* is a handle to the window.
--   *uMsg* is the message code; for example, the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message indicates the window was resized.
+-   *uMsg* is the message code; for example, the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message indicates the window was resized.
 -   *wParam* and *lParam* contain additional data that pertains to the message. The exact meaning depends on the message code.
 
 **LRESULT** is an integer value that your program returns to Windows. It contains your program's response to a particular message. The meaning of this value depends on the message code. **CALLBACK** is the calling convention for the function.
@@ -42,12 +42,12 @@ case WM_SIZE: // Handle window resizing
 
 Additional data for the message is contained in the *lParam* and *wParam* parameters. Both parameters are integer values the size of a pointer width (32 bits or 64 bits). The meaning of each depends on the message code (*uMsg*). For each message, you will need to look up the message code on MSDN and cast the parameters to the correct data type. Usually the data is either a numeric value or a pointer to a structure. Some messages do not have any data.
 
-For example, the documentation for the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message states that:
+For example, the documentation for the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message states that:
 
 -   *wParam* is a flag that indicates whether the window was minimized, maximized, or resized.
 -   *lParam* contains the new width and height of the window as 16-bit values packed into one 32- or 64-bit number. You will need to perform some bit-shifting to get these values. Fortunately, the header file WinDef.h includes helper macros that do this.
 
-A typical window procedure handles dozens of messages, so it can grow quite long. One way to make your code more modular is to put the logic for handling each message in a separate function. In the window procedure, cast the *wParam* and *lParam* parameters to the correct data type, and pass those values to the function. For example, to handle the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message, the window procedure would look like this:
+A typical window procedure handles dozens of messages, so it can grow quite long. One way to make your code more modular is to put the logic for handling each message in a separate function. In the window procedure, cast the *wParam* and *lParam* parameters to the correct data type, and pass those values to the function. For example, to handle the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message, the window procedure would look like this:
 
 
 ```C++
@@ -76,11 +76,11 @@ void OnSize(HWND hwnd, UINT flag, int width, int height)
 
 
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) and [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros get the 16-bit width and height values from *lParam*. (You can look up these kinds of details in the MSDN documentation for each message code.) The window procedure extracts the width and height, and then passes these values to the `OnSize` function.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) macros get the 16-bit width and height values from *lParam*. (You can look up these kinds of details in the MSDN documentation for each message code.) The window procedure extracts the width and height, and then passes these values to the `OnSize` function.
 
 ## Default Message Handling
 
-If you don't handle a particular message in your window procedure, pass the message parameters directly to the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function. This function performs the default action for the message, which varies by message type.
+If you don't handle a particular message in your window procedure, pass the message parameters directly to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. This function performs the default action for the message, which varies by message type.
 
 
 ```C++

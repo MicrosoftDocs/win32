@@ -64,7 +64,7 @@ The following example code illustrates waiting on a subprocess and reading the o
 
 
 
-For additional information on spawning a process see the reference page for [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425).
+For additional information on spawning a process see the reference page for [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa).
 
 ## Related topics
 

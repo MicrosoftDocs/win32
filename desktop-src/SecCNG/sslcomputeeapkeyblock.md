@@ -44,14 +44,14 @@ SECURITY_STATUS WINAPI SslComputeEapKeyBlock(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
 *hMasterKey* \[in\]
 </dt> <dd>
 
-The handle of the [*master key*](https://msdn.microsoft.com/library/windows/desktop/ms721594#-security-master-key-gly) object.
+The handle of the [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly) object.
 
 </dd> <dt>
 

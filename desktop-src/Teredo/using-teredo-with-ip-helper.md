@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Using Teredo with IP Helper
 
-The [Internet Protocol Helper](https://msdn.microsoft.com/library/windows/desktop/aa365798) (IP Helper) API is utilized by an application to gather and provide important information regarding the networking configuration of the local machine. When operating on the Windows Vista platform, this information includes the dynamic UDP port assigned to the Teredo interface and changes that may occur to the designated port.
+The [Internet Protocol Helper](https://docs.microsoft.com/windows/desktop/IpHlp/about-ip-helper) (IP Helper) API is utilized by an application to gather and provide important information regarding the networking configuration of the local machine. When operating on the Windows Vista platform, this information includes the dynamic UDP port assigned to the Teredo interface and changes that may occur to the designated port.
 
 The following functions are utilized by the IP Helper API to facilitate the use of the Teredo interface:
 
--   [**GetTeredoPort**](https://msdn.microsoft.com/library/windows/desktop/aa814426)
--   [**NotifyTeredoPortChange**](https://msdn.microsoft.com/library/windows/desktop/aa814453)
--   [**NotifyStableUnicastIpAddressTable**](https://msdn.microsoft.com/library/windows/desktop/aa814452)
+-   [**GetTeredoPort**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getteredoport)
+-   [**NotifyTeredoPortChange**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange)
+-   [**NotifyStableUnicastIpAddressTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable)
 
  
 

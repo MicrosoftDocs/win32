@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Installing Side-by-side Assemblies as Shared Assemblies
 
-The following procedure describes how to install [side-by-side assemblies](about-side-by-side-assemblies-.md) as [shared assemblies](https://msdn.microsoft.com/library/windows/desktop/aa371839).
+The following procedure describes how to install [side-by-side assemblies](about-side-by-side-assemblies-.md) as [shared assemblies](https://docs.microsoft.com/windows/desktop/Msi/shared-assemblies).
 
 **To install a side-by-side assembly as a shared assembly**
 

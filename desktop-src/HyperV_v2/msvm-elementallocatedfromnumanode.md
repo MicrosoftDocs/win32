@@ -55,7 +55,7 @@ Data type: **[**Msvm\_NumaNode**](msvm-numanode.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent"), [**Max**](https://msdn.microsoft.com/library/aa393650) (1)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The physical NUMA node.
@@ -65,13 +65,13 @@ The physical NUMA node.
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalElement**](https://msdn.microsoft.com/library/aa387892)**
+Data type: **[**CIM\_LogicalElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicalelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The allocated resource.

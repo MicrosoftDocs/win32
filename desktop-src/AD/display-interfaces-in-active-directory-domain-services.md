@@ -19,7 +19,7 @@ This category of interfaces includes the following:
 
 ## See Also
 
-[Active Directory Admin Interfaces](https://msdn.microsoft.com/library/aa772147), [Object Picker Dialog Box Interfaces](object-picker-dialog-box-interfaces.md)
+[Active Directory Admin Interfaces](https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services), [Object Picker Dialog Box Interfaces](object-picker-dialog-box-interfaces.md)
 
 
  

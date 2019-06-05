@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements method
 
-Place glyphs output from the [**GetGlyphs**](https://msdn.microsoft.com/library/windows/desktop/dd316625) method according to the font and the writing system's rendering rules.
+Place glyphs output from the [**GetGlyphs**](https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs) method according to the font and the writing system's rendering rules.
 
 ## Syntax
 
@@ -123,7 +123,7 @@ The number of glyphs returned from [**GetGlyphs**](https://msdn.microsoft.com/en
 *fontFace* \[in\]
 </dt> <dd>
 
-Type: **[**IDWriteFontFace**](https://msdn.microsoft.com/library/windows/desktop/dd370983)\***
+Type: **[**IDWriteFontFace**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface)\***
 
 A pointer to the font face that is the source for the output glyphs.
 

@@ -17,7 +17,7 @@ This section contains code snippets for the following tasks:
 
 The following example copies a dialog box resource from one executable file, Hand.exe, to another, Foot.exe, by following these steps:
 
-1.  Use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) function to load the executable file Hand.exe.
+1.  Use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to load the executable file Hand.exe.
 2.  Use the [**FindResource**](/windows/desktop/api/Winbase/nf-winbase-findresourcea) and [**LoadResource**](https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx) functions to locate and load the dialog box resource.
 3.  Use the [**LockResource**](https://msdn.microsoft.com/en-us/library/ms648047(v=VS.85).aspx) function to retrieve a pointer to the dialog box resource data.
 4.  Use the [**BeginUpdateResource**](/windows/desktop/api/Winbase/nf-winbase-beginupdateresourcea) function to open an update handle to Foot.exe.
@@ -26,7 +26,7 @@ The following example copies a dialog box resource from one executable file, Han
 
 The following code implements these steps.
 
-**Security Warning:** Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+**Security Warning:** Using [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 
 ```C++
@@ -120,7 +120,7 @@ Note that the *lpszType* in [*EnumResTypeProc*](https://msdn.microsoft.com/en-us
 
 The [Updating Resources](#updating-resources) code follows a similar pattern for a dialog box resource.
 
-**Security Warning:** Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+**Security Warning:** Using [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 
 ```C++

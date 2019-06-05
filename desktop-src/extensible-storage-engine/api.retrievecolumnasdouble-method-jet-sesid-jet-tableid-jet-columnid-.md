@@ -79,7 +79,7 @@ public static Nullable<double> RetrieveColumnAsDouble(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Double](https://msdn.microsoft.com/en-us/library/643eft0t)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a double. Null if the column is null.  
 
 ## See also

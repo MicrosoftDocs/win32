@@ -20,7 +20,7 @@ api_location:
 
 # Msvm\_MetricDefForME class
 
-Defines the association between an [**Msvm\_BaseMetricDefinition**](msvm-basemetricdefinition.md) and a [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) to define metrics for the latter. The metrics definition is given context by the ManagedElement, which is why the definition is dependent on the element.
+Defines the association between an [**Msvm\_BaseMetricDefinition**](msvm-basemetricdefinition.md) and a [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) to define metrics for the latter. The metrics definition is given context by the ManagedElement, which is why the definition is dependent on the element.
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -51,26 +51,26 @@ The **Msvm\_MetricDefForME** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218)**
+Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) class that represents the managed element that can have metrics of the type defined by **Dependent** applied to it. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class that represents the managed element that can have metrics of the type defined by **Dependent** applied to it. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218)**
+Data type: **[**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**CIM\_BaseMetricDefinition**](https://msdn.microsoft.com/library/mt432218) class that represents the metric definition that the **Antecedent** can have applied to it. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**CIM\_BaseMetricDefinition**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class that represents the metric definition that the **Antecedent** can have applied to it. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 

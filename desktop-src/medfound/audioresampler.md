@@ -19,7 +19,7 @@ CLSID\_CResamplerMediaObject
 
 ## Interfaces
 
--   [**IMediaObject**](https://msdn.microsoft.com/library/windows/desktop/dd406926)
+-   [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 -   [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
 -   [**IWMResamplerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops)
@@ -31,7 +31,7 @@ PCM or IEEE floating-point
 The media type must specify an uncompressed PCM or floating-point audio format.
 
 -   For the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface, initialize the media type as described in [Uncompressed Audio Media Types](uncompressed-audio-media-types.md).
--   For the [**IMediaObject**](https://msdn.microsoft.com/library/windows/desktop/dd406926) interface, the media type must be a **FORMAT\_WaveFormatEx** type. For more information, see [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd375504).
+-   For the [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface, the media type must be a **FORMAT\_WaveFormatEx** type. For more information, see [**DMO\_MEDIA\_TYPE**](https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype).
 
 ## Properties
 
@@ -52,7 +52,7 @@ The resampler requires the following attributes to be set on it:
 The audio resampler maps the input audio channels to the output audio channels, based on the following information:
 
 -   The number of channels. This is given in the [MF\_MT\_AUDIO\_NUM\_CHANNELS](mf-mt-audio-num-channels-attribute.md) attribute of the media type, or the **nChannels** member of the [WAVEFORMATEX](mf-mt-audio-prefer-waveformatex-attribute.md) structure.
--   The channel mask, which assigns channels to speaker position. The channel mask is given in the MF\_MT\_AUDIO\_CHANNEL\_MASK attribute of the media type, or the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/windows/desktop/dd757714) structure.
+-   The channel mask, which assigns channels to speaker position. The channel mask is given in the MF\_MT\_AUDIO\_CHANNEL\_MASK attribute of the media type, or the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible) structure.
 -   A matrix of mapping weights.
 
 The matrix contains a series of weights, such that each output channel is a weighted average of the input channels.

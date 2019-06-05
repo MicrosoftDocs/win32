@@ -22,7 +22,7 @@ Represents general information about a button on a stylus device.
 
 ## Members
 
-The **ITabletCursorButton** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITabletCursorButton** also has these types of members:
+The **ITabletCursorButton** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletCursorButton** also has these types of members:
 
 -   [Methods](#methods)
 

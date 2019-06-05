@@ -84,7 +84,7 @@ public delegate JET_err JET_PFNSTATUS(
 <!-- end list -->
 
   - data  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
     
     Optional data. May be a [JET_SNPROG](dn351044\(v=exchg.10\).md).
 

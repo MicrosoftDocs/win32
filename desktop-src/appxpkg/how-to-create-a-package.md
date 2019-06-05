@@ -279,7 +279,7 @@ if (manifestStream != NULL)
 
 ### Step 4: Clean up the package writer
 
-Before returning from the `wmain` function, call the [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) method to clean up the package writer and call the [**CoUninitialize**](https://msdn.microsoft.com/library/windows/desktop/ms688715) function.
+Before returning from the `wmain` function, call the [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method to clean up the package writer and call the [**CoUninitialize**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) function.
 
 
 ```C++

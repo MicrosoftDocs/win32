@@ -50,7 +50,7 @@ If *wParam* is 0 and *lParam* is **NULL**, the default tab stop is two dialog te
 
 If *lParam* points to more than a single value, a tab stop will be set for each value in *lParam*, up to the number specified by *wParam*.
 
-The values specified by *lParam* are in dialog template units, which are the device-independent units used in dialog box templates. To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502) function.
+The values specified by *lParam* are in dialog template units, which are the device-independent units used in dialog box templates. To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect) function.
 
 Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer pointed to by *lParam* must reside in writable memory, even though the message does not modify the array.
 
@@ -70,7 +70,7 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer point
 
 <dl> <dt>
 
-[**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502)
+[**MapDialogRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect)
 </dt> </dl>
 
  

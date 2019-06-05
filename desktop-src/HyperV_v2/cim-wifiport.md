@@ -59,7 +59,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("MaxSpeed")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MaxSpeed")
 </dt> </dl>
 
 The maximum supported bandwidth, in bits per second, based on the operating mode specified in the **PortType** property. For example, **MaxSpeed** is "11000000" if **PortType** contains "71" (802.11b).
@@ -75,7 +75,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("NetworkAddresses")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("NetworkAddresses")
 </dt> </dl>
 
 An array that contains the IEEE 802 EUI-48 MAC addresses. The MAC address is formatted as twelve hexadecimal digits, with each pair representing one of the six octets of the MAC address in canonical bit order.
@@ -91,7 +91,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("PermanentAddress")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PermanentAddress")
 </dt> </dl>
 
 The IEEE 802 EUI-48 MAC address of the port. The MAC address is formatted as twelve hexadecimal digits, with each pair representing one of the six octets of the MAC address in canonical bit order.
@@ -107,7 +107,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("PortType")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PortType")
 </dt> </dl>
 
 The 802.11 operating mode that is enabled on the port.
@@ -181,7 +181,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Speed")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Speed")
 </dt> </dl>
 
 The data rate at which the current PPDU (PLCP (Physical Layer Convergence Protocol) Protocol Data Unit) was received, in bits per second. This value is encoded in the first 4 bits of the PLCP header in each PLCP frame.

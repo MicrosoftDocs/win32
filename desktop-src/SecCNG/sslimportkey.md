@@ -17,7 +17,7 @@ api_location:
 
 # SslImportKey function
 
-The **SslImportKey** function imports a key into the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) protocol provider.
+The **SslImportKey** function imports a key into the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider.
 
 ## Syntax
 
@@ -49,23 +49,23 @@ The handle to the SSL protocol provider instance.
 *phKey* \[out\]
 </dt> <dd>
 
-A pointer to the handle of the [*cryptographic key*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-key-gly) to receive the imported key.
+A pointer to the handle of the [*cryptographic key*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) to receive the imported key.
 
 </dd> <dt>
 
 *pszBlobType* \[in\]
 </dt> <dd>
 
-A null-terminated Unicode string that contains an identifier that specifies the type of [*BLOB*](https://msdn.microsoft.com/library/windows/desktop/ms721569#-security-blob-gly) that is contained in the *pbInput* buffer. This can be one of the following values.
+A null-terminated Unicode string that contains an identifier that specifies the type of [*BLOB*](https://docs.microsoft.com/windows/desktop/SecGloss/b-gly) that is contained in the *pbInput* buffer. This can be one of the following values.
 
 
 
 | Value                                                                                                                                                                                      | Meaning                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="BCRYPT_DH_PUBLIC_BLOB"></span><span id="bcrypt_dh_public_blob"></span><dl> <dt>**BCRYPT\_DH\_PUBLIC\_BLOB**</dt> </dl>    | Export a Diffie-Hellman [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly). The *pbOutput* buffer receives a [**BCRYPT\_DH\_KEY\_BLOB**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_dh_key_blob) structure immediately followed by the key data.<br/>                                                                                                                                                        |
-| <span id="BCRYPT_ECCPUBLIC_BLOB"></span><span id="bcrypt_eccpublic_blob"></span><dl> <dt>**BCRYPT\_ECCPUBLIC\_BLOB**</dt> </dl>     | Export an [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC) [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly). The *pbOutput* buffer receives a [**BCRYPT\_ECCKEY\_BLOB**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_ecckey_blob) structure immediately followed by the key data.<br/>                             |
-| <span id="BCRYPT_OPAQUE_KEY_BLOB"></span><span id="bcrypt_opaque_key_blob"></span><dl> <dt>**BCRYPT\_OPAQUE\_KEY\_BLOB**</dt> </dl> | Export a [*symmetric key*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-symmetric-key-gly) in a format that is specific to a single [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB.<br/> |
-| <span id="BCRYPT_RSAPUBLIC_BLOB"></span><span id="bcrypt_rsapublic_blob"></span><dl> <dt>**BCRYPT\_RSAPUBLIC\_BLOB**</dt> </dl>     | Export an [*RSA*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-rsa-gly) public key. The *pbOutput* buffer receives a [**BCRYPT\_RSAKEY\_BLOB**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_rsakey_blob) structure immediately followed by the key data.<br/>                                                                                                                                                                                 |
+| <span id="BCRYPT_DH_PUBLIC_BLOB"></span><span id="bcrypt_dh_public_blob"></span><dl> <dt>**BCRYPT\_DH\_PUBLIC\_BLOB**</dt> </dl>    | Export a Diffie-Hellman [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly). The *pbOutput* buffer receives a [**BCRYPT\_DH\_KEY\_BLOB**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_dh_key_blob) structure immediately followed by the key data.<br/>                                                                                                                                                        |
+| <span id="BCRYPT_ECCPUBLIC_BLOB"></span><span id="bcrypt_eccpublic_blob"></span><dl> <dt>**BCRYPT\_ECCPUBLIC\_BLOB**</dt> </dl>     | Export an [*elliptic curve cryptography*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC) [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly). The *pbOutput* buffer receives a [**BCRYPT\_ECCKEY\_BLOB**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_ecckey_blob) structure immediately followed by the key data.<br/>                             |
+| <span id="BCRYPT_OPAQUE_KEY_BLOB"></span><span id="bcrypt_opaque_key_blob"></span><dl> <dt>**BCRYPT\_OPAQUE\_KEY\_BLOB**</dt> </dl> | Export a [*symmetric key*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) in a format that is specific to a single [*cryptographic service provider*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB.<br/> |
+| <span id="BCRYPT_RSAPUBLIC_BLOB"></span><span id="bcrypt_rsapublic_blob"></span><dl> <dt>**BCRYPT\_RSAPUBLIC\_BLOB**</dt> </dl>     | Export an [*RSA*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) public key. The *pbOutput* buffer receives a [**BCRYPT\_RSAKEY\_BLOB**](/windows/desktop/api/Bcrypt/ns-bcrypt-_bcrypt_rsakey_blob) structure immediately followed by the key data.<br/>                                                                                                                                                                                 |
 
 
 
@@ -76,7 +76,7 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 *pbKeyBlob* \[in\]
 </dt> <dd>
 
-A pointer to the buffer that contains the [*key BLOB*](https://msdn.microsoft.com/library/windows/desktop/ms721590#-security-key-blob-gly).
+A pointer to the buffer that contains the [*key BLOB*](https://docs.microsoft.com/windows/desktop/SecGloss/k-gly).
 
 </dd> <dt>
 

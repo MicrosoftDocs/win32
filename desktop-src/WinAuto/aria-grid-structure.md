@@ -32,9 +32,9 @@ To fix this error, review your implementation to ensure that it complies with th
 
 An accessible name should be defined for **grid**, **columnheader**, **gridcell** and **rowheader** elements by using one of the following attributes.
 
--   [**aria-labelledby**](https://msdn.microsoft.com/library/windows/apps/hh465708) attribute for referencing the element containing text.
--   [**aria-label**](https://msdn.microsoft.com/library/windows/apps/hh968005) attribute to set the accessible name directly.
--   [**title**](https://msdn.microsoft.com/library/windows/apps/hh780173) for creating a tooltip which is at the same time used as a name.
+-   [**aria-labelledby**](https://msdn.microsoft.com/library/Cc848875) attribute for referencing the element containing text.
+-   [**aria-label**](https://msdn.microsoft.com/library/Hh968243) attribute to set the accessible name directly.
+-   [**title**](https://msdn.microsoft.com/library/ms534683) for creating a tooltip which is at the same time used as a name.
 
  
 

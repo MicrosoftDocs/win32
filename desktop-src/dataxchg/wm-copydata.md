@@ -55,7 +55,7 @@ The data being passed must not contain pointers or other references to objects n
 
 While this message is being sent, the referenced data must not be changed by another thread of the sending process.
 
-The receiving application should consider the data read-only. The *lParam* parameter is valid only during the processing of the message. The receiving application should not free the memory referenced by *lParam*. If the receiving application must access the data after [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) returns, it must copy the data into a local buffer.
+The receiving application should consider the data read-only. The *lParam* parameter is valid only during the processing of the message. The receiving application should not free the memory referenced by *lParam*. If the receiving application must access the data after [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) returns, it must copy the data into a local buffer.
 
 ## Examples
 
@@ -80,7 +80,7 @@ For an example, see [Using Data Copy](using-data-copy.md).
 **Reference**
 </dt> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
+[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**COPYDATASTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct)

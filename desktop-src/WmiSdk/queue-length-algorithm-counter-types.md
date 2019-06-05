@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property Frequency\_PerfTime, and so on. The cooked result divides by the number of samples to produce the average queue length.
 
-An example is the **AvgDiskQueueLength** property in the [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/aa394307) that uses the PERF\_COUNTER\_100NS\_QUEUELEN\_TYPE counter type.
+An example is the **AvgDiskQueueLength** property in the [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/dn750765(v=vs.85).aspx) that uses the PERF\_COUNTER\_100NS\_QUEUELEN\_TYPE counter type.
 
 
 

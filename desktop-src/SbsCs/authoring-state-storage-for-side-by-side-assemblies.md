@@ -24,11 +24,11 @@ Adhere to the following guidelines for the storage of the state:
 
     **HKEY\_CurrentUser**\\**Software**\\**MyCompany**\\**MyComponent**\\**Version01.01**\\**EnableSuperCoolFeature = TRUE**
 
--   Any state information stored in the registry by private assemblies must be saved in individual application sections of the registry. This isolates the assembly's state settings to the application. You can use the [**GetModuleFileName**](https://msdn.microsoft.com/library/windows/desktop/ms683197) function to set up a virtual root. For example, if assembly version XXYY is a private assembly of "SomeApplication," a call to **GetModuleFileName** returns "SomeApplication" and any private state settings for the assembly should be written under the following key:
+-   Any state information stored in the registry by private assemblies must be saved in individual application sections of the registry. This isolates the assembly's state settings to the application. You can use the [**GetModuleFileName**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) function to set up a virtual root. For example, if assembly version XXYY is a private assembly of "SomeApplication," a call to **GetModuleFileName** returns "SomeApplication" and any private state settings for the assembly should be written under the following key:
 
     **HKCU**\\**MyCompany**\\**MyComponent**\\**VersionXXYY**\\**SomeApplication**
 
--   Make shared state settings stored in the registry private to the assembly context that runs. You can use the [**GetModuleFileName**](https://msdn.microsoft.com/library/windows/desktop/ms683197) function to set up a virtual root. This should be done for HKLM and HKCU branches.
+-   Make shared state settings stored in the registry private to the assembly context that runs. You can use the [**GetModuleFileName**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) function to set up a virtual root. This should be done for HKLM and HKCU branches.
 -   Ideally, you should adopt a persistence model in which the application persists the state and does not alter the registry. An application should not need to directly touch the component's registry entries. Instead, the assembly should offer API functions that save or restore settings that are side-by-side compatible.
 -   Assemblies may save state settings in stores outside the registry to enable the assembly to interact with the global state. Side-by-side assemblies may use the following side-by-side compatible stores:
     -   A protected store (*pstore*)

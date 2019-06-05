@@ -14,7 +14,7 @@ api_location:
 
 # Using the System Registry Provider as a Property Provider
 
-You can use the [System Registry Provider](https://msdn.microsoft.com/library/aa393886) as either an instance or a property provider.
+You can use the [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) as either an instance or a property provider.
 
 If you choose to access the property provider interfaces, you must mark your WMI classes to indicate your intention.
 

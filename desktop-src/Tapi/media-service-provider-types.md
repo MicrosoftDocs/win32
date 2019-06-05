@@ -13,10 +13,10 @@ ms.date: 05/31/2018
 -   [**MSP\_CALL\_EVENT\_CAUSE**](/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0003)
 -   [**MSP\_EVENT**](/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004)
 -   [**MSP\_EVENT\_INFO**](/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005)
--   [**MSP\_ADDRESS\_EVENT\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms733454)
--   [**MSP\_CALL\_EVENT\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms733464)
--   [**MSP\_TSP\_DATA**](https://msdn.microsoft.com/library/windows/desktop/ms733475)
--   [**MSP\_PRIVATE\_EVENT\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms733472)
+-   [**MSP\_ADDRESS\_EVENT\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733454(v=vs.85))
+-   [**MSP\_CALL\_EVENT\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733464(v=vs.85))
+-   [**MSP\_TSP\_DATA**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733475(v=vs.85))
+-   [**MSP\_PRIVATE\_EVENT\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733472(v=vs.85))
 
  
 

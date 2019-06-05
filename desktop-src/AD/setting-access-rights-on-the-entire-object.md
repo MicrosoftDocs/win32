@@ -18,8 +18,8 @@ The following procedure can be used to set permissions for an entire object.
 
 **To set permissions for an entire object**
 
-1.  Set [**IADsAccessControlEntry.AceType**](https://msdn.microsoft.com/library/aa705952) to **ADS\_ACETYPE\_ACCESS\_ALLOWED** or **ADS\_ACETYPE\_ACCESS\_DENIED**.
-2.  Set [**IADsAccessControlEntry.ObjectType**](https://msdn.microsoft.com/library/aa705952) and **IADsAccessControlEntry.InheritedObjectType** to **NULL**.
+1.  Set [**IADsAccessControlEntry.AceType**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) to **ADS\_ACETYPE\_ACCESS\_ALLOWED** or **ADS\_ACETYPE\_ACCESS\_DENIED**.
+2.  Set [**IADsAccessControlEntry.ObjectType**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) and **IADsAccessControlEntry.InheritedObjectType** to **NULL**.
 
 For more information about how to create an ACE, see [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).
 

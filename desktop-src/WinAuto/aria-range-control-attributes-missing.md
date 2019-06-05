@@ -20,11 +20,11 @@ Error
 
 ## Description
 
-This error applies to elements that have a [**role**](https://msdn.microsoft.com/library/windows/apps/hh780024) (implicit or explicit) that is equal to **progressbar**, **slider**, or **spinbutton**.
+This error applies to elements that have a [**role**](https://msdn.microsoft.com/library/Cc304102) (implicit or explicit) that is equal to **progressbar**, **slider**, or **spinbutton**.
 
-According to the Web Accessibility Initiative - Accessible Rich Internet Applications (WAI-ARIA) specification, elements that have the **progressbar**, **slider**, or **spinbutton** role must expose the [**aria-valuemax**](https://msdn.microsoft.com/library/windows/apps/hh465724), [**aria-valuemin**](https://msdn.microsoft.com/library/windows/apps/hh465726), and [**aria-valuenow**](https://msdn.microsoft.com/library/windows/apps/hh465728) attributes.
+According to the Web Accessibility Initiative - Accessible Rich Internet Applications (WAI-ARIA) specification, elements that have the **progressbar**, **slider**, or **spinbutton** role must expose the [**aria-valuemax**](https://msdn.microsoft.com/library/Cc848877), [**aria-valuemin**](https://msdn.microsoft.com/library/Cc848878), and [**aria-valuenow**](https://msdn.microsoft.com/library/Cc848879) attributes.
 
-To fix this error, set the [**aria-valuemax**](https://msdn.microsoft.com/library/windows/apps/hh465724), [**aria-valuemin**](https://msdn.microsoft.com/library/windows/apps/hh465726), and [**aria-valuenow**](https://msdn.microsoft.com/library/windows/apps/hh465728) attributes, and dynamically maintain the **aria-valuenow** value to ensure that the current value is exposed. You should also set the [**aria-valuetext**](https://msdn.microsoft.com/library/windows/apps/hh968009) attribute to add more meaning to the exposed **aria-valuenow** value.
+To fix this error, set the [**aria-valuemax**](https://msdn.microsoft.com/library/Cc848877), [**aria-valuemin**](https://msdn.microsoft.com/library/Cc848878), and [**aria-valuenow**](https://msdn.microsoft.com/library/Cc848879) attributes, and dynamically maintain the **aria-valuenow** value to ensure that the current value is exposed. You should also set the [**aria-valuetext**](https://msdn.microsoft.com/library/Hh968247) attribute to add more meaning to the exposed **aria-valuenow** value.
 
 ## Example
 

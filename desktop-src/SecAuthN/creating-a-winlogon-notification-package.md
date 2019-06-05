@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Winlogon Notification Package
 
-A [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) notification package is a DLL that exports functions that handle Winlogon events. For example, when a user logs onto the system, Winlogon calls each notification package's logon event handler function to provide information about the event.
+A [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) notification package is a DLL that exports functions that handle Winlogon events. For example, when a user logs onto the system, Winlogon calls each notification package's logon event handler function to provide information about the event.
 
 The names of the event handler functions implemented in a notification package are left up to the developer; Winlogon checks the registry to obtain the names of the event handler functions. For example, one notification package might implement the logon event handler function as `WLEventLogon` whereas another might use `HandleLogonEvent`.
 

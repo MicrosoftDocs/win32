@@ -32,7 +32,7 @@ Retrieves the color used to draw the insertion mark for the toolbar.
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449) value that contains the current insertion mark color.
+Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that contains the current insertion mark color.
 
 ## Requirements
 

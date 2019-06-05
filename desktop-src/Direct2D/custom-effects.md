@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Custom effects
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) ships with a library of effects that perform a variety of common image operations. See the [built-in effects](built-in-effects.md) topic for the complete list of effects. For functionality that cannot be achieved with the built-in effects, Direct2D allows you to write your own custom effects using standard [HLSL](https://msdn.microsoft.com/library/windows/desktop/ff471419). You can use these custom effects alongside the built-in effects that ship with Direct2D.
+[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) ships with a library of effects that perform a variety of common image operations. See the [built-in effects](built-in-effects.md) topic for the complete list of effects. For functionality that cannot be achieved with the built-in effects, Direct2D allows you to write your own custom effects using standard [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl). You can use these custom effects alongside the built-in effects that ship with Direct2D.
 
 To see examples of a complete pixel, vertex, and compute shader effect, see the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531).
 
@@ -25,7 +25,7 @@ There are four different parts of a custom effect that an effect author is respo
 1.  Effect Interface: The effect interface conceptually defines how an app interacts with a custom effect (like how many inputs the effect accepts and what properties are available). The effect interface manages a transform graph, which contains the actual imaging operations.
 2.  Transform graph: Each effect creates an internal transform graph made up of individual transforms. Each transform represents a single image operation. The effect is responsible for linking these transforms together into a graph to perform the intended imaging effect. An effect can add, remove, modify, and reorder transforms in response to changes to the effect's external properties.
 3.  Transform: A transform represents a single image operation. Its main purpose is to house the shaders that are executed for each output pixel. To that end, it is responsible for calculating the new size of its output image based on logic in its shaders. It also must calculate which area of its input image the shaders need to read from to render the requested output region.
-4.  Shader: A shader is executed against the transform's input on the GPU (or CPU if software rendering is specified when the app creates the Direct3D device). Effect shaders are written in High Level Shading Language ([HLSL](https://msdn.microsoft.com/library/windows/desktop/ff471419)) and are compiled into byte code during the effect's compilation, which is then loaded by the effect during run-time. This reference document describes how to write [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx)-compliant HLSL. The Direct3D documentation contains a basic HLSL overview.
+4.  Shader: A shader is executed against the transform's input on the GPU (or CPU if software rendering is specified when the app creates the Direct3D device). Effect shaders are written in High Level Shading Language ([HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl)) and are compiled into byte code during the effect's compilation, which is then loaded by the effect during run-time. This reference document describes how to write [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx)-compliant HLSL. The Direct3D documentation contains a basic HLSL overview.
 
 ## Creating an effect interface
 
@@ -383,7 +383,7 @@ The type value listed in the XML for the property must match the corresponding d
 | IUnknown\*                                                                                                                             | iunknown                |
 | [**ID2D1ColorContext**](https://msdn.microsoft.com/en-us/library/Hh404388(v=VS.85).aspx)\*                                                                                       | colorcontext            |
 | CLSID                                                                                                                                  | clsid                   |
-| Enumeration ([**D2D1\_INTERPOLATION\_MODE**](https://msdn.microsoft.com/library/windows/desktop/hh447004), etc.)                                                | enum                    |
+| Enumeration ([**D2D1\_INTERPOLATION\_MODE**](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode), etc.)                                                | enum                    |
 
 
 
@@ -788,7 +788,7 @@ DEFINE_GUID(GUID_SamplePixelShader, 0x00000000, 0x0000, 0x0000, 0x00, 0x00, 0x00
 
 A pixel shader must be loaded into memory before it can be used by the transform.
 
-To load the pixel shader into memory, the transform should read the compiled shader byte code from the .CSO file generated by Visual Studio (see [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) documentation for details) into a byte array. This technique is demonstrated in detail in the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531).
+To load the pixel shader into memory, the transform should read the compiled shader byte code from the .CSO file generated by Visual Studio (see [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) documentation for details) into a byte array. This technique is demonstrated in detail in the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531).
 
 Once the shader data has been loaded into a byte array, call the [**LoadPixelShader**](https://msdn.microsoft.com/en-us/library/Hh404476(v=VS.85).aspx) method on the effect's [**ID2D1EffectContext**](https://msdn.microsoft.com/en-us/library/Hh404459(v=VS.85).aspx) object. [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) ignores calls to **LoadPixelShader** when a shader with the same GUID has already been loaded.
 
@@ -812,7 +812,7 @@ struct
 
 The transform then calls the [**ID2D1DrawInfo::SetPixelShaderConstantBuffer**](https://msdn.microsoft.com/en-us/library/Hh847988(v=VS.85).aspx) method on the [**ID2D1DrawInfo**](https://msdn.microsoft.com/en-us/library/Hh847986(v=VS.85).aspx) parameter provided in the [**SetDrawInfo**](https://msdn.microsoft.com/en-us/library/Hh847993(v=VS.85).aspx) method to pass this buffer to the shader.
 
-The [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561) also needs to define a corresponding struct that represents the constant buffer. The variables contained in the shader's struct must match those in the transform's struct.
+The [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) also needs to define a corresponding struct that represents the constant buffer. The variables contained in the shader's struct must match those in the transform's struct.
 
 
 ```C++
@@ -829,9 +829,9 @@ Once the buffer has been defined, the values contained within can be read from a
 
 ### Writing a pixel shader for Direct2D
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) transforms use shaders authored using standard [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561). However, there are a few key concepts to writing a pixel shader that executes from the context of a transform. For a completed example of a fully functionally pixel shader, see the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531).
+[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) transforms use shaders authored using standard [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl). However, there are a few key concepts to writing a pixel shader that executes from the context of a transform. For a completed example of a fully functionally pixel shader, see the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531).
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) automatically maps a transform's inputs to [**Texture2D**](https://msdn.microsoft.com/library/windows/desktop/ff471525) and [**SamplerState**](https://msdn.microsoft.com/library/windows/desktop/ff476588) objects in the HLSL. The first **Texture2D** is located at register t0, and the first **SamplerState** is located at register s0. Each additional input is located at the next corresponding registers (t1 and s1 for example). Pixel data for a particular input can be sampled by calling Sample on the **Texture2D** object and passing in the corresponding **SamplerState** object and the texel coordinates.
+[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) automatically maps a transform's inputs to [**Texture2D**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2d) and [**SamplerState**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate) objects in the HLSL. The first **Texture2D** is located at register t0, and the first **SamplerState** is located at register s0. Each additional input is located at the next corresponding registers (t1 and s1 for example). Pixel data for a particular input can be sampled by calling Sample on the **Texture2D** object and passing in the corresponding **SamplerState** object and the texel coordinates.
 
 A custom pixel shader is run once for each pixel that is rendered. Each time the shader is run, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) automatically provides three parameters that identify its current execution position:
 
@@ -876,7 +876,7 @@ The process for adding a vertex shader to a custom transform is similar to that 
 
 ### Creating a vertex buffer
 
-A vertex shader by definition executes on vertices passed to it, not individual pixels. To specify the vertices for the shader to execute on, a transform creates a vertex buffer to pass to the shader. The layout of vertex buffers is beyond the scope of this document. Please see the [Direct3D reference](https://msdn.microsoft.com/library/windows/desktop/ff476080) for details, or the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531) for a sample implementation.
+A vertex shader by definition executes on vertices passed to it, not individual pixels. To specify the vertices for the shader to execute on, a transform creates a vertex buffer to pass to the shader. The layout of vertex buffers is beyond the scope of this document. Please see the [Direct3D reference](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) for details, or the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531) for a sample implementation.
 
 After creating a vertex buffer in memory, the transform uses the [**CreateVertexBuffer**](https://msdn.microsoft.com/en-us/library/Hh404471(v=VS.85).aspx) method on the containing effect's [**ID2D1EffectContext**](https://msdn.microsoft.com/en-us/library/Hh404459(v=VS.85).aspx) object to pass that data to the GPU. Again, see the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531) for a sample implementation.
 
@@ -1015,7 +1015,7 @@ Because compute shaders have higher hardware feature level requirements than pix
 
 If an effect uses a compute shader, it must check for compute shader support during its creation using the [**ID2D1EffectContext::CheckFeatureSupport**](https://msdn.microsoft.com/en-us/library/Hh871455(v=VS.85).aspx) method. If the GPU does not support compute shaders, the effect must return [**D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES**](direct2d-error-codes.md).
 
-There are two different types of compute shaders that a transform can use: Shader Model 4 (DirectX 10) and Shader Model 5 (DirectX 11). There are certain limitations to Shader Model 4 shaders. See the [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) documentation for details. Transforms can contain both types of shaders, and can fall back to Shader Model 4 when required: see the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531) for an implementation of this.
+There are two different types of compute shaders that a transform can use: Shader Model 4 (DirectX 10) and Shader Model 5 (DirectX 11). There are certain limitations to Shader Model 4 shaders. See the [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) documentation for details. Transforms can contain both types of shaders, and can fall back to Shader Model 4 when required: see the [D2DCustomEffects SDK sample](https://go.microsoft.com/fwlink/p/?LinkId=620531) for an implementation of this.
 
 ### Implement ID2D1ComputeTransform
 
@@ -1031,9 +1031,9 @@ Whereas pixel shaders are executed on a per-pixel basis and vertex shaders are e
 
 The [**CalculateThreadgroups**](https://msdn.microsoft.com/en-us/library/Hh404437(v=VS.85).aspx) method allows the transform to inform [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) how many thread groups are required, based on the size of the image and the transform's own knowledge of the shader.
 
-The number of times the compute shader is executed is a product of the threadgroup counts specified here and the 'numthreads' annotation in the compute shader [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561). For example, if the transform sets the threadgroup dimensions to be (2,2,1) the shader specifies (3,3,1) threads per threadgroup, then 4 threadgroups will be executed, each with 9 threads in them, for a total of 36 thread instances.
+The number of times the compute shader is executed is a product of the threadgroup counts specified here and the 'numthreads' annotation in the compute shader [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl). For example, if the transform sets the threadgroup dimensions to be (2,2,1) the shader specifies (3,3,1) threads per threadgroup, then 4 threadgroups will be executed, each with 9 threads in them, for a total of 36 thread instances.
 
-A common scenario is to process one output pixel for each instance of the compute shader. To calculate the number of thread groups for this scenario, the transform divides the width and height of the image by the respective x and y dimensions of the 'numthreads' annotation in the compute shader [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561).
+A common scenario is to process one output pixel for each instance of the compute shader. To calculate the number of thread groups for this scenario, the transform divides the width and height of the image by the respective x and y dimensions of the 'numthreads' annotation in the compute shader [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl).
 
 Importantly, if this division is performed, then the number of thread groups requested must always be rounded up to the nearest integer, otherwise the 'remainder' pixels will not be executed upon. If a shader (for example) computes a single pixel with each thread, the method's code would appear as follows.
 
@@ -1069,7 +1069,7 @@ IFACEMETHODIMP SampleTransform::CalculateThreadgroups(
 
 
 
-The [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561) uses the following code to specify the number of threads in each thread group:
+The [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) uses the following code to specify the number of threads in each thread group:
 
 
 ```hlsl

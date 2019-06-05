@@ -29,7 +29,7 @@ SPFILENOTIFY_ENDREGISTRATION
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/desktop/api/Setupapi/ns-setupapi-_sp_register_control_statusa) structure containing information about the file being registered or unregistered. The member **cbsize** should be set to the size of the structure. **FileName** should be set to the fully qualified path of the file being registered. **Win32Error** should be set to a [system error code](https://msdn.microsoft.com/library/windows/desktop/ms681381) indicating an extended error code. **FailureCode** should be set to one of the valid failure codes indicating the outcome of the registration. For valid failure codes see [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/desktop/api/Setupapi/ns-setupapi-_sp_register_control_statusa).
+Pointer to a [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/desktop/api/Setupapi/ns-setupapi-_sp_register_control_statusa) structure containing information about the file being registered or unregistered. The member **cbsize** should be set to the size of the structure. **FileName** should be set to the fully qualified path of the file being registered. **Win32Error** should be set to a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) indicating an extended error code. **FailureCode** should be set to one of the valid failure codes indicating the outcome of the registration. For valid failure codes see [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/desktop/api/Setupapi/ns-setupapi-_sp_register_control_statusa).
 
 </dd> <dt>
 

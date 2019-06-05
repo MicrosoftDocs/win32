@@ -41,8 +41,8 @@ Constructs instances of the [**XMU555**](https://msdn.microsoft.com/en-us/librar
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404709(v=VS.85).aspx"><strong>XMU555 (uint16_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx"><strong>XMU555</strong></a> from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-xmu555(uint16_t)"><strong>XMU555 (uint16_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -50,8 +50,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420406(v=VS.85).aspx"><strong>XMU555 (const float*,bool)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a three element <code>float</code> array and one <code>bool</code> argument. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx"><strong>XMU555</strong></a> from a three element <code>float</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component). <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-xmu555(constfloat_bool)"><strong>XMU555 (const float*,bool)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a three element <code>float</code> array and one <code>bool</code> argument. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> from a three element <code>float</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component). <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -59,8 +59,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404711(v=VS.85).aspx"><strong>XMU555 (const int8_t*,bool)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a three element <code>int8_t</code> array and one <code>bool</code> argument. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx"><strong>XMU555</strong></a> from a three element <code>int8_t</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component). <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-xmu555(constuint8_t_bool)"><strong>XMU555 (const int8_t*,bool)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a three element <code>int8_t</code> array and one <code>bool</code> argument. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> from a three element <code>int8_t</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component). <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -68,8 +68,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420407(v=VS.85).aspx"><strong>XMU555 (float,float,float,bool)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from three <code>float</code> and one <code>bool</code> arguments. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx"><strong>XMU555</strong></a> from three <code>float</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying the w-component) arguments. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-xmu555(float_float_float_bool)"><strong>XMU555 (float,float,float,bool)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from three <code>float</code> and one <code>bool</code> arguments. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> from three <code>float</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying the w-component) arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -77,8 +77,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404710(v=VS.85).aspx"><strong>XMU555 (int8_t,int8_t,int8_t,bool)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from three <code>int8_t</code> and one <code>bool</code> arguments. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx"><strong>XMU555</strong></a> from three <code>int8_t</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying a w-component) arguments. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-xmu555(float_float_float_bool)"><strong>XMU555 (int8_t,int8_t,int8_t,bool)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from three <code>int8_t</code> and one <code>bool</code> arguments. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> from three <code>int8_t</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying a w-component) arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -86,8 +86,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420403(v=VS.85).aspx"><strong>XMU555 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMU555</code><br/> Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx"><strong>XMU555</strong></a><br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-xmu555(constfloat_bool)"><strong>XMU555 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMU555</code><br/> Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a><br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.

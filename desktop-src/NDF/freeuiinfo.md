@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # FreeUiInfo function
 
-The **FreeUiInfo** function deallocates the memory allocated internally to a [**UiInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo) structure. This function calls [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to deallocate memory.
+The **FreeUiInfo** function deallocates the memory allocated internally to a [**UiInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo) structure. This function calls [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to deallocate memory.
 
 ## Syntax
 
@@ -67,7 +67,7 @@ This function does not return a value.
 [**UiInfo**](/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo)
 </dt> <dt>
 
-[**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722)
+[**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)
 </dt> </dl>
 
  

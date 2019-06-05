@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Group Objects
 
-A group is represented as a [**group**](https://msdn.microsoft.com/library/ms682251) object in Active Directory Domain Services. The following table lists important attributes of the **group** object.
+A group is represented as a [**group**](https://docs.microsoft.com/windows/desktop/ADSchema/c-group) object in Active Directory Domain Services. The following table lists important attributes of the **group** object.
 
 
 

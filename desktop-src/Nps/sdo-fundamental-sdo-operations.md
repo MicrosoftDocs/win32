@@ -11,19 +11,19 @@ ms.date: 05/31/2018
 
 This section provides sample code for performing frequently-used operations with the SDO API.
 
--   [Attaching to an SDO-Enabled Computer](https://msdn.microsoft.com/library/bb960609)
--   [Retrieving a Service SDO](https://msdn.microsoft.com/library/bb960709)
--   [Retrieving a User SDO](https://msdn.microsoft.com/library/bb960710)
--   [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708)
--   [Adding an Object to a Collection](https://msdn.microsoft.com/library/bb960606)
--   [Retrieving an Object from a Collection](https://msdn.microsoft.com/library/bb960707)
--   [Enumerating Objects in a Collection](https://msdn.microsoft.com/library/bb960629)
+-   [Attaching to an SDO-Enabled Computer](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
+-   [Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
+-   [Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo)
+-   [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
+-   [Adding an Object to a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-an-object-to-a-collection)
+-   [Retrieving an Object from a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection)
+-   [Enumerating Objects in a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
 
 ## Related topics
 
 <dl> <dt>
 
-[SDO Tasks](https://msdn.microsoft.com/library/bb960712)
+[SDO Tasks](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-tasks)
 </dt> </dl>
 
  

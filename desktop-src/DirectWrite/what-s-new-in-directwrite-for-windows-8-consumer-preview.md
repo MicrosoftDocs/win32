@@ -47,7 +47,7 @@ Starting in Windows 10 Anniversary Update, DirectWrite provides built-in support
 -   The ‘CBDT’ OpenType table, which enables color bitmap content in fonts.
 -   The ‘sbix’ OpenType table, which enables color bitmap content in fonts.
 
-[Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd370990.aspx), which uses DirectWrite for text rendering, supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](https://msdn.microsoft.com/library/windows/desktop/dd368095) flag is enabled. For more information, see the following topics:
+[Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal), which uses DirectWrite for text rendering, supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) flag is enabled. For more information, see the following topics:
 
 -   [Color Fonts](color-fonts.md)
 -   [DirectWrite color glyph sample](https://go.microsoft.com/fwlink/p/?LinkId=832476)
@@ -114,9 +114,9 @@ Since its introduction in Windows 7, DirectWrite has provided a migration path f
 
 ### Rendering color fonts
 
-Starting in Windows Windows 8.1, DirectWrite provides support for color fonts. [Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd370990), which uses DirectWrite for text rendering, has added the enum value D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT to enable this feature when drawing text. For more information, see the following topics:
+Starting in Windows Windows 8.1, DirectWrite provides support for color fonts. [Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal), which uses DirectWrite for text rendering, has added the enum value D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT to enable this feature when drawing text. For more information, see the following topics:
 
--   [**D2D1\_DRAW\_TEXT\_OPTIONS**](https://msdn.microsoft.com/library/windows/desktop/dd368095) enumeration
+-   [**D2D1\_DRAW\_TEXT\_OPTIONS**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_draw_text_options) enumeration
 -   [**IDWriteFactory2::TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Dn280451(v=VS.85).aspx) method
 
 ## What's new in Windows 8

@@ -55,26 +55,26 @@ The **Msvm\_BasedOn** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_StorageExtent**](https://msdn.microsoft.com/library/aa388496)**
+Data type: **[**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The lower level storage extent. This property is inherited from [**CIM\_BasedOn**](https://msdn.microsoft.com/library/aa387188).
+The lower level storage extent. This property is inherited from [**CIM\_BasedOn**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-basedon).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_StorageExtent**](https://msdn.microsoft.com/library/aa388496)**
+Data type: **[**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The higher level storage extent. This property is inherited from [**CIM\_BasedOn**](https://msdn.microsoft.com/library/aa387188).
+The higher level storage extent. This property is inherited from [**CIM\_BasedOn**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-basedon).
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The ending address where, in lower level storage, the higher level extent ends. This property is useful when mapping non-contiguous extents into a higher level grouping. This property is inherited from [**CIM\_BasedOn**](https://msdn.microsoft.com/library/aa387188).
+The ending address where, in lower level storage, the higher level extent ends. This property is useful when mapping non-contiguous extents into a higher level grouping. This property is inherited from [**CIM\_BasedOn**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-basedon).
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-If there is an order to the based on associations that describe how a higher level storage extent is assembled, the **OrderIndex** property indicates this. When an order exists, the instances with the same **Dependent** value (the same higher level extent) should place unique values in the **OrderIndex** property. The lowest value implies the first member of the collection of lower level extents, and increasing values imply successive members of the collection. If there is no ordered relationship, a value of zero should be specified. An example of the use of this property is to define a RAID-0 striped array of three disks. The resultant RAID array is a storage extent that is dependent on the storage extents that describe each of the three disks. The **OrderIndex** of each association from the disk extents to the RAID array could be specified as 1, 2, and 3 to indicate the order in which the disk extents are used to access the RAID data. This property is inherited from [**CIM\_BasedOn**](https://msdn.microsoft.com/library/aa387188).
+If there is an order to the based on associations that describe how a higher level storage extent is assembled, the **OrderIndex** property indicates this. When an order exists, the instances with the same **Dependent** value (the same higher level extent) should place unique values in the **OrderIndex** property. The lowest value implies the first member of the collection of lower level extents, and increasing values imply successive members of the collection. If there is no ordered relationship, a value of zero should be specified. An example of the use of this property is to define a RAID-0 striped array of three disks. The resultant RAID array is a storage extent that is dependent on the storage extents that describe each of the three disks. The **OrderIndex** of each association from the disk extents to the RAID array could be specified as 1, 2, and 3 to indicate the order in which the disk extents are used to access the RAID data. This property is inherited from [**CIM\_BasedOn**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-basedon).
 
 </dd> <dt>
 
@@ -113,7 +113,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The starting address where, in lower level storage, the higher level extent begins. This property is inherited from [**CIM\_BasedOn**](https://msdn.microsoft.com/library/aa387188).
+The starting address where, in lower level storage, the higher level extent begins. This property is inherited from [**CIM\_BasedOn**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-basedon).
 
 </dd> </dl>
 

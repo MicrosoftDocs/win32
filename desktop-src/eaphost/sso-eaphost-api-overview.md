@@ -42,7 +42,7 @@ The following data structures support SSO.
 | [**EAP\_CRED\_REQ**](eap-cred-req.md)                                   | Contains both the old and new EAP credentials for a credential change operations.                                                                                               |
 | [**EAP\_CRED\_RESP**](eap-cred-resp.md)                                 | Contains both the old and new EAP credentials for a credential change operations.                                                                                               |
 | [**EAP\_CRED\_EXPIRY\_REQ**](/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_cred_expiry_req)                    | Contains both the old and new EAP credentials for credential expiry operations.                                                                                                 |
-| [**EAP\_CRED\_EXPIRY\_RESP**](https://msdn.microsoft.com/library/windows/desktop/bb530539)              | Contains both the old and new EAP credentials for credential expiry operations.                                                                                                 |
+| [**EAP\_CRED\_EXPIRY\_RESP**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb530539(v=vs.85))              | Contains both the old and new EAP credentials for credential expiry operations.                                                                                                 |
 
 
 

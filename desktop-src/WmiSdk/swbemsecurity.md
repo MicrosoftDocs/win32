@@ -21,7 +21,7 @@ api_location:
 
 The **SWbemSecurity** object gets or sets security settings, such as privileges, COM impersonations, and authentication levels assigned to an object. The [**SWbemLocator**](swbemlocator.md), [**SWbemServices**](swbemservices.md), [**SWbemObject**](swbemobject.md), [**SWbemObjectSet**](swbemobjectset.md), [**SWbemObjectPath**](swbemobjectpath.md), [**SWbemLastError**](swbemlasterror.md), and [**SWbemEventSource**](swbemeventsource.md) objects have a **Security\_** property, which is the **SWbemSecurity** object. When you retrieve an instance or view the WMI security log, you might need to set the properties of the **Security\_** object.
 
-The VBScript [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) call cannot create the Security object. The security settings in this object do not identify the authentication, impersonation, or privilege settings on a connection to WMI, or the security in effect for the proxy when an object is delivered to a sink in an asynchronous call. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
+The VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call cannot create the Security object. The security settings in this object do not identify the authentication, impersonation, or privilege settings on a connection to WMI, or the security in effect for the proxy when an object is delivered to a sink in an asynchronous call. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
 
 ## Members
 
@@ -39,7 +39,7 @@ The **SWbemSecurity** object has these properties.
 |:----------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AuthenticationLevel**](swbemsecurity-authenticationlevel.md)<br/> | Read/write<br/> | Numeric value that defines the COM Authentication level that is assigned to this object. This setting determines how you protect information sent from WMI.<br/>                                                                 |
 | [**ImpersonationLevel**](swbemsecurity-impersonationlevel.md)<br/>   | Read/write<br/> | Numeric value that defines the COM Impersonation level that is assigned to this object. This setting determines if processes owned by WMI can detect or use your security credentials when making calls to other processes.<br/> |
-| [**Privileges**](swbemsecurity-privileges.md)<br/>                   | Read-only<br/>  | An [**SWbemPrivilegeSet**](swbemprivilegeset.md) object that defines privileges for this object. For more information, see [Running with Special Privileges](https://msdn.microsoft.com/library/windows/desktop/ms717802).<br/>                    |
+| [**Privileges**](swbemsecurity-privileges.md)<br/>                   | Read-only<br/>  | An [**SWbemPrivilegeSet**](swbemprivilegeset.md) object that defines privileges for this object. For more information, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).<br/>                    |
 
 
 

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # D3D12\_RECT
 
-D3D12\_RECT is declared as a RECT. For more information about this GDI rectangle structure, see [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897).
+D3D12\_RECT is declared as a RECT. For more information about this GDI rectangle structure, see [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)).
 
 ``` syntax
 typedef RECT D3D12_RECT;

@@ -14,20 +14,20 @@ api_location:
 
 # Connecting to WMI Remotely with C#
 
-As with other languages such as PowerShell, VBScript, or C++, you can use C# to remotely monitor the hardware and software on remote computers. Remote connections for managed code are accomplished through the [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx) namespace. (Previous versions of WMI used the [System.Management](https://msdn.microsoft.com/library/system.management.aspx) namespace, which is included here for completeness.)
+As with other languages such as PowerShell, VBScript, or C++, you can use C# to remotely monitor the hardware and software on remote computers. Remote connections for managed code are accomplished through the [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) namespace. (Previous versions of WMI used the [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) namespace, which is included here for completeness.)
 
 > [!Note]  
 > **System.Management** was the original .NET namespace used to access WMI; however, the APIs in this namespace generally are slower and do not scale as well relative to their more modern **Microsoft.Management.Infrastructure** counterparts.
 
  
 
-Connecting remotely using classes in the [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx) namespace uses DCOM as the underlying remote mechanism. WMI remote connections must comply with DCOM security requirements for impersonation and authentication. By default, a scope is bound to the local computer and the "Root\\CIMv2" system namespace. However, you can change both the computer, domain, and WMI namespace that you access. You can also set authority, impersonation, credentials, and other connection options.
+Connecting remotely using classes in the [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) namespace uses DCOM as the underlying remote mechanism. WMI remote connections must comply with DCOM security requirements for impersonation and authentication. By default, a scope is bound to the local computer and the "Root\\CIMv2" system namespace. However, you can change both the computer, domain, and WMI namespace that you access. You can also set authority, impersonation, credentials, and other connection options.
 
 **To connect to WMI remotely with C# (Microsoft.Management.Infrastructure)**
 
-1.  Create a session on the remote machine with a call to [CimSession.Create](https://msdn.microsoft.com/library/hh832539.aspx).
+1.  Create a session on the remote machine with a call to [CimSession.Create](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832539(v=vs.85)).
 
-    If you are connecting to a remote computer using the same credentials (domain and user name) you are logged on with, then you can specify the name of the computer in the [Create](https://msdn.microsoft.com/library/hh832539.aspx) call. Once you have the returned [CimSession](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.aspx) object, you can then make your WMI query.
+    If you are connecting to a remote computer using the same credentials (domain and user name) you are logged on with, then you can specify the name of the computer in the [Create](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832539(v=vs.85)) call. Once you have the returned [CimSession](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832509(v=vs.85)) object, you can then make your WMI query.
 
     ```CSharp
     using Microsoft.Management.Infrastructure;
@@ -42,9 +42,9 @@ Connecting remotely using classes in the [Microsoft.Management.Infrastructure](h
 
     For more information on making WMI queries with the **Microsoft.Management.Infrastructure** API in C#, see [Retrieving WMI Class or Instance Data](retrieving-class-or-instance-data.md).
 
-2.  If you wish to set different options for your connection, such as different credentials, locale or Impersonation levels, you need to use a [CimSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.cimsessionoptions.aspx) object in your call to [CimSession.Create](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.create.aspx).
+2.  If you wish to set different options for your connection, such as different credentials, locale or Impersonation levels, you need to use a [CimSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832510(v=vs.85)) object in your call to [CimSession.Create](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832529(v=vs.85)).
 
-    [CimSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.cimsessionoptions.aspx) is a base class for [WSManSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.wsmansessionoptions.aspx) and [DComSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.dcomsessionoptions.aspx). You can use either to set the options on your WS-Man and DCOM sessions, respectively. The following code sample describes using a [DComSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.dcomsessionoptions.aspx) object to set the Impersonation level to Impersonate.
+    [CimSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832510(v=vs.85)) is a base class for [WSManSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh833297(v=vs.85)) and [DComSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832688(v=vs.85)). You can use either to set the options on your WS-Man and DCOM sessions, respectively. The following code sample describes using a [DComSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832688(v=vs.85)) object to set the Impersonation level to Impersonate.
 
     ```CSharp
     string computer = "Computer_B"
@@ -56,9 +56,9 @@ Connecting remotely using classes in the [Microsoft.Management.Infrastructure](h
 
     
 
-3.  If you wish to set the credentials for your connection, you will need to create and add a [CimCredentials](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.cimcredential.aspx) object to your [CimSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.cimsessionoptions.aspx).
+3.  If you wish to set the credentials for your connection, you will need to create and add a [CimCredentials](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832293(v=vs.85)) object to your [CimSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832510(v=vs.85)).
 
-    The following code sample describes creating a [WSManSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.wsmansessionoptions.aspx) class, filling it with the proper [CimSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.cimsessionoptions.aspx), and using it in a [CimSession.Create](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.create.aspx) call.
+    The following code sample describes creating a [WSManSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh833297(v=vs.85)) class, filling it with the proper [CimSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832510(v=vs.85)), and using it in a [CimSession.Create](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832529(v=vs.85)) call.
 
     ```CSharp
     string computer = “Computer_B”;
@@ -82,11 +82,11 @@ Connecting remotely using classes in the [Microsoft.Management.Infrastructure](h
 
     It is generally recommended that you do not hardcode a password into your applications; as the above code sample indicates, whenever possible try to query your user for the password, and store it securely.
 
-WMI is intended to monitor the hardware and software on remote computers. Remote connections for WMI v1 is accomplished through the [ManagementScope](https://msdn.microsoft.com/library/system.management.managementscope.aspx) object.
+WMI is intended to monitor the hardware and software on remote computers. Remote connections for WMI v1 is accomplished through the [ManagementScope](https://docs.microsoft.com/dotnet/api/system.management.managementscope?redirectedfrom=MSDN) object.
 
 **To connect to WMI remotely with C# (System.Management)**
 
-1.  Create a [ManagementScope](https://msdn.microsoft.com/library/system.management.managementscope.aspx) object, using the name of the computer and the WMI path, and connect to your target with a call to ManagementScope.Connect().
+1.  Create a [ManagementScope](https://docs.microsoft.com/dotnet/api/system.management.managementscope?redirectedfrom=MSDN) object, using the name of the computer and the WMI path, and connect to your target with a call to ManagementScope.Connect().
 
     If you are connecting to a remote computer using the same credentials (domain and user name) you are logged on with, then you only have to specify the WMI path. Once you have connected, you can make your WMI query.
 
@@ -101,11 +101,11 @@ WMI is intended to monitor the hardware and software on remote computers. Remote
 
     
 
-    For more information on making WMI queries with the [System.Management](https://msdn.microsoft.com/library/system.management.aspx) API in C#, see [Retrieving WMI Class or Instance Data](retrieving-class-or-instance-data.md).
+    For more information on making WMI queries with the [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) API in C#, see [Retrieving WMI Class or Instance Data](retrieving-class-or-instance-data.md).
 
-2.  If you connect to a remote computer in a different domain or using a different user name and password, then you must use a [ConnectionOptions](https://msdn.microsoft.com/library/system.management.connectionoptions.aspx) object in the call to the [ManagementScope](https://msdn.microsoft.com/library/system.management.managementscope.aspx).
+2.  If you connect to a remote computer in a different domain or using a different user name and password, then you must use a [ConnectionOptions](https://docs.microsoft.com/dotnet/api/system.management.connectionoptions?redirectedfrom=MSDN) object in the call to the [ManagementScope](https://docs.microsoft.com/dotnet/api/system.management.managementscope?redirectedfrom=MSDN).
 
-    The [ConnectionOptions](https://msdn.microsoft.com/library/system.management.connectionoptions.aspx) contains properties for describing the Authentication, Impersonation, username, password, and other connection options. The following code sample describes using a [ConnectionOptions](https://msdn.microsoft.com/library/system.management.connectionoptions.aspx) to set the Impersonation Level to Impersonate.
+    The [ConnectionOptions](https://docs.microsoft.com/dotnet/api/system.management.connectionoptions?redirectedfrom=MSDN) contains properties for describing the Authentication, Impersonation, username, password, and other connection options. The following code sample describes using a [ConnectionOptions](https://docs.microsoft.com/dotnet/api/system.management.connectionoptions?redirectedfrom=MSDN) to set the Impersonation Level to Impersonate.
 
     ```CSharp
     ConnectionOptions options = new ConnectionOptions();
@@ -122,11 +122,11 @@ WMI is intended to monitor the hardware and software on remote computers. Remote
 
     Generally speaking, it is recommended that you set your Impersonation level to Impersonate unless explicitly needed otherwise. Further, try to avoid writing your name and password into C# code. (If possible, see if you can query the user to dynamically supply them at runtime.)
 
-    For more examples of setting different properties on a remote WMI connection, see the Examples section of the [ConnectionOptions](https://msdn.microsoft.com/library/system.management.connectionoptions.aspx) reference page.
+    For more examples of setting different properties on a remote WMI connection, see the Examples section of the [ConnectionOptions](https://docs.microsoft.com/dotnet/api/system.management.connectionoptions?redirectedfrom=MSDN) reference page.
 
 ## Microsoft.Management.Infrastructure Example
 
-The following C# code example, based on the following [blog post on TechNet](https://blogs.technet.microsoft.com/josebda/2014/08/11/sample-c-code-for-using-the-latest-wmi-classes-to-manage-windows-storage/), describes how to use [CimCredentials](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.cimcredential.aspx) and [WSManSessionOptions](https://msdn.microsoft.com/library/microsoft.management.infrastructure.options.wsmansessionoptions.aspx) to set credentials on a remote connection.
+The following C# code example, based on the following [blog post on TechNet](https://blogs.technet.microsoft.com/josebda/2014/08/11/sample-c-code-for-using-the-latest-wmi-classes-to-manage-windows-storage/), describes how to use [CimCredentials](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832293(v=vs.85)) and [WSManSessionOptions](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh833297(v=vs.85)) to set credentials on a remote connection.
 
 
 ```CSharp

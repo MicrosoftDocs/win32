@@ -28,7 +28,7 @@ This switch has no parameters.
 
 ## Remarks
 
-The **/oldtlb** switch overrides the default and directs the MIDL compiler to generate old-format type libraries even on current versions of Windows by using [CreateTypeLib](https://msdn.microsoft.com/library/ms221499.aspx) instead of [CreateTypeLib2](https://msdn.microsoft.com/library/ms221307.aspx).
+The **/oldtlb** switch overrides the default and directs the MIDL compiler to generate old-format type libraries even on current versions of Windows by using [CreateTypeLib](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib) instead of [CreateTypeLib2](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2).
 
 ## Examples
 

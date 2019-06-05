@@ -40,11 +40,11 @@ Not used; must be zero.
 
 ## Return value
 
-The return value specifies the current locale of the combo box. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) contains the country/region code and the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) contains the language identifier.
+The return value specifies the current locale of the combo box. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the country/region code and the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the language identifier.
 
 ## Remarks
 
-The language identifier is made up of a sublanguage identifier and a primary language identifier. The [**PRIMARYLANGID**](https://msdn.microsoft.com/library/windows/desktop/dd319102) macro obtains the primary language identifier and the [**SUBLANGID**](https://msdn.microsoft.com/library/windows/desktop/dd374066) macro obtains the sublanguage identifier.
+The language identifier is made up of a sublanguage identifier and a primary language identifier. The [**PRIMARYLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid) macro obtains the primary language identifier and the [**SUBLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid) macro obtains the sublanguage identifier.
 
 ## Requirements
 
@@ -74,16 +74,16 @@ The language identifier is made up of a sublanguage identifier and a primary lan
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
+[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
+[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**PRIMARYLANGID**](https://msdn.microsoft.com/library/windows/desktop/dd319102)
+[**PRIMARYLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid)
 </dt> <dt>
 
-[**SUBLANGID**](https://msdn.microsoft.com/library/windows/desktop/dd374066)
+[**SUBLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid)
 </dt> </dl>
 
  

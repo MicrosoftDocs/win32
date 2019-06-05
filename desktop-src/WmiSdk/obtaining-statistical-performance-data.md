@@ -14,7 +14,7 @@ api_location:
 
 # Obtaining Statistical Performance Data
 
-In WMI, you can define statistical performance data based on data in formatted performance classes derived from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253). The available statistics are average, minimum, maximum, range, and variance, as defined in [Statistical Counter Types](statistical-counter-types.md).
+In WMI, you can define statistical performance data based on data in formatted performance classes derived from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata). The available statistics are average, minimum, maximum, range, and variance, as defined in [Statistical Counter Types](statistical-counter-types.md).
 
 The following list includes the special statistical counter types:
 
@@ -31,11 +31,11 @@ The following examples show how to:
 
 ## MOF File
 
-The following MOF code example creates a new calculated data class named **Win32\_PerfFormattedData\_AvailableMBytes**. This class contains data from the **AvailableMBytes** property of the raw class [**Win32\_PerfRawData\_PerfOS\_Memory**](https://msdn.microsoft.com/library/dn750765). The **Win32\_PerfFormattedData\_AvailableBytes** class defines the properties **Average**, **Min**, **Max**, **Range**, and **Variance**.
+The following MOF code example creates a new calculated data class named **Win32\_PerfFormattedData\_AvailableMBytes**. This class contains data from the **AvailableMBytes** property of the raw class [**Win32\_PerfRawData\_PerfOS\_Memory**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data). The **Win32\_PerfFormattedData\_AvailableBytes** class defines the properties **Average**, **Min**, **Max**, **Range**, and **Variance**.
 
 The MOF file uses the [**Property Qualifiers for Formatted Performance Counter Classes**](property-qualifiers-for-performance-counter-classes.md) to define the property data source and the calculation formula.
 
--   The **Average** property obtains raw data from the [**Win32\_PerfRawData\_PerfOS\_Memory**](https://msdn.microsoft.com/library/dn750765).**AvailableMBytes** property.
+-   The **Average** property obtains raw data from the [**Win32\_PerfRawData\_PerfOS\_Memory**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data).**AvailableMBytes** property.
 -   The Counter **qualifier** for the **Average** property specifies the raw data source.
 -   The **CookingType** qualifier specifies the formula [COOKER\_MIN](cooker-min.md) for calculating the data.
 -   The **SampleWindow** qualifier specifies how many samples to take before performing the calculation.

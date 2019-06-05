@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y)  
+    Type: [System.Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN)  
     
     Column data for the current key column of the current index.
 

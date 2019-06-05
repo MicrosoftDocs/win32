@@ -42,7 +42,7 @@ By default, the filter graph manager does not pass this event to the application
 
 ## Remarks
 
-Video renderers send this message when they receive a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message and have no data to display.
+Video renderers send this message when they receive a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message and have no data to display.
 
 ## Requirements
 

@@ -14,13 +14,13 @@ topic_type:
 
 # Using Autocomplete
 
-Autocompletion expands strings that have been partially entered in an [edit control](https://msdn.microsoft.com/library/windows/desktop/bb775458) into complete strings. For example, when a user starts to enter a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URL options that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "https://www.microsoft.com" or "https://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control, such as the [ComboBoxEx](https://msdn.microsoft.com/library/windows/desktop/bb775740) control.
+Autocompletion expands strings that have been partially entered in an [edit control](https://docs.microsoft.com/windows/desktop/Controls/edit-controls) into complete strings. For example, when a user starts to enter a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URL options that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "https://www.microsoft.com" or "https://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control, such as the [ComboBoxEx](https://docs.microsoft.com/windows/desktop/Controls/comboboxex-control-reference) control.
 
 ## Adding Autocomplete Functionality to Your Application
 
 An application can add autocomplete functionality to an edit control in two ways:
 
--   [**SHAutoComplete**](https://msdn.microsoft.com/library/windows/desktop/bb759862) is a simple function that can autocomplete a file path or URL.
+-   [**SHAutoComplete**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shautocomplete) is a simple function that can autocomplete a file path or URL.
 -   [**IAutoComplete**](/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete) interface is exposed by the autocomplete object (CLSID\_AutoComplete). It allows applications to initialize, enable, and disable the object. **IAutoComplete** allows more control over autocomplete sources, including the ability to add a custom source. The remainder of this topic discusses the use of **IAutoComplete**. See [How To Enable Autocomplete Manually](how-to-enable-autocomplete-manually.md) for specific usage examples.
 
 ## Autocomplete Modes

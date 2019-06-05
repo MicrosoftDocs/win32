@@ -49,7 +49,7 @@ Time the job was created. The time is specified as [FILETIME](https://go.microso
 **ModificationTime**
 </dt> <dd>
 
-Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the [**IBackgroundCopyJob\***](https://msdn.microsoft.com/library/windows/desktop/mt811348) interfaces changes this value. In addition, changes to the state of the job and calling the [**Suspend**](ibackgroundcopyjob-suspend.md), [**Resume**](ibackgroundcopyjob-resume.md), [**Cancel**](ibackgroundcopyjob-cancel.md), and [**Complete**](ibackgroundcopyjob-complete.md) methods change this value. The time is specified as [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776).
+Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the [**IBackgroundCopyJob\***](https://docs.microsoft.com/previous-versions//mt811348(v=vs.85)) interfaces changes this value. In addition, changes to the state of the job and calling the [**Suspend**](ibackgroundcopyjob-suspend.md), [**Resume**](ibackgroundcopyjob-resume.md), [**Cancel**](ibackgroundcopyjob-cancel.md), and [**Complete**](ibackgroundcopyjob-complete.md) methods change this value. The time is specified as [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776).
 
 </dd> <dt>
 

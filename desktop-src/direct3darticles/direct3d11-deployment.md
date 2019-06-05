@@ -32,21 +32,21 @@ All of these new graphics components are built into the Windows 7 and Windows Se
 The D3D11InstallHelper sample is designed to simplify detection of the Direct3D 11 API, automatically install the system update if applicable to an end-user's computer, and to provide appropriate messages to the end-user on manual procedure if a newer Service Pack is required.
 
 > [!Note]  
-> The HLSL compiler (D3DCompile\*.dll) and the D3DX utility library for Direct3D 11 (D3DX11\*.dll) are not built into any version of the Windows operating system, but they can be deployed as part of an application's installer by using the existing DirectSetup technology; for more information about using DirectSetup, see [DirectX Installation for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416805). "Effects 11" is available as a shared source support library at [Effects for Direct3D 11 Update](https://go.microsoft.com/fwlink/p/?LinkId=271568), and you can include it directly into an app (much like the DXUT utility library). Thus, it doesn't have any additional run-time redistribution requirements.
+> The HLSL compiler (D3DCompile\*.dll) and the D3DX utility library for Direct3D 11 (D3DX11\*.dll) are not built into any version of the Windows operating system, but they can be deployed as part of an application's installer by using the existing DirectSetup technology; for more information about using DirectSetup, see [DirectX Installation for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/directx-setup-for-game-developers). "Effects 11" is available as a shared source support library at [Effects for Direct3D 11 Update](https://go.microsoft.com/fwlink/p/?LinkId=271568), and you can include it directly into an app (much like the DXUT utility library). Thus, it doesn't have any additional run-time redistribution requirements.
 
  
 
 ## Direct3D 11.3
 
-Windows 10 ships with the Direct3D 11.3 API built in. See [Direct3D 11.3 Features](https://msdn.microsoft.com/library/windows/desktop/dn914596) for a list of new features in the Direct3D 11.3 API.
+Windows 10 ships with the Direct3D 11.3 API built in. See [Direct3D 11.3 Features](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-3-features) for a list of new features in the Direct3D 11.3 API.
 
 ## Direct3D 11.2
 
-Windows 8.1 and Windows Server 2012 R2 ship with the Direct3D 11.2 API built in. See [Direct3D 11.2 Features](https://msdn.microsoft.com/library/windows/desktop/dn312084) for a list of new features in the Direct3D 11.2 API.
+Windows 8.1 and Windows Server 2012 R2 ship with the Direct3D 11.2 API built in. See [Direct3D 11.2 Features](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features) for a list of new features in the Direct3D 11.2 API.
 
 ## Direct3D 11.1
 
-Windows 8 and Windows Server 2012 ship with the [Direct3D 11.1 API](https://msdn.microsoft.com/library/windows/desktop/hh404562) built in. Partial support for the Direct3D 11.1 API is available on Windows 7 or Windows Server 2008 R2 with the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) installed. For more info about the Platform Update for Windows 7, see [Platform Update for Windows 7](platform-update-for-windows-7.md).
+Windows 8 and Windows Server 2012 ship with the [Direct3D 11.1 API](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-1-features) built in. Partial support for the Direct3D 11.1 API is available on Windows 7 or Windows Server 2008 R2 with the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) installed. For more info about the Platform Update for Windows 7, see [Platform Update for Windows 7](platform-update-for-windows-7.md).
 
 ## D3D11InstallHelper.dll
 
@@ -83,7 +83,7 @@ This function uses the Windows Update API to perform the system update for insta
 
 </dd> </dl>
 
-For more information on the Windows Update API, see [Windows Update Agent API](https://msdn.microsoft.com/library/windows/desktop/aa387099).
+For more information on the Windows Update API, see [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client).
 
 ## D3D11Install.exe
 
@@ -144,7 +144,7 @@ Forces use of Windows Update rather than the system default, which may be Window
 
 ## Integrating into Installation Programs
 
-To comply with Support Easy Installation, [Technical Requirement 3.1 for Games for Windows](https://msdn.microsoft.com/library/windows/desktop/ee417691#install-3-1), care needs to be taken so that any end-user prompts are presented early in the installation process, and to ensure that there are not multiple UAC-related elevation prompts. There are three basic choices for achieving this goal:
+To comply with Support Easy Installation, [Technical Requirement 3.1 for Games for Windows](https://docs.microsoft.com/windows/desktop/DxTechArts/games-for-windows-technical-requirements-1-1-0006), care needs to be taken so that any end-user prompts are presented early in the installation process, and to ensure that there are not multiple UAC-related elevation prompts. There are three basic choices for achieving this goal:
 
 1.  The most basic method is to execute the D3D11Install.exe with the command-line switch **/minimal**. This should be done early in the installer Q&A, and the installation should use the return value of 1 to indicate that a restart should be scheduled at the end of the installation. Executing the program requires administrative rights.
 2.  Use D3D11InstallHelper.dll directly to detect the need for the update, providing any end-user messages necessary for the status D3D11IH\_STATUS\_NEED\_LATEST\_SP, where the resolution requires manual user operations. The status result of D3D11IH\_STATUS\_NOT\_SUPPORTED could be used to control installation of Direct3D 11–related assets, or as an error condition for Direct3D 11–only applications, but it is otherwise not necessarily a useful end-user message. For the status D3D11IH\_STATUS\_REQUIRES\_UPDATE, the installer can directly use the DLL entry point DoUpdateForDirect3D11 to perform the update and handle the various resulting end-user messages. Examples of standard messages can be found by examining the D3D11Install.exe dialog box and string table resources. The update entry point requires administrator rights.
@@ -215,7 +215,7 @@ The following is a high-level description of the steps required to integrate Dir
 3.  Upon installation, trigger a deferred custom action after the InstallFiles action that calls the D3D11InstallHelper.dll function **DoD3D11InstallUsingMSI**. The custom action must set the flag msidbCustomActionTypeNoImpersonate to run in an elevated context.
 4.  After the InstallFinalize action, call the D3D11InstallHelper.dll function **FinishD3D11InstallUsingMSI** as an immediate custom action to handle the successful reboot request result code, if needed.
 
-This procedure is described in detail in the following instructions, which describe a process that can be done using an MSI editor, such as the [Orca editor](https://msdn.microsoft.com/library/aa370557.aspx). Some MSI editors have wizards that simplify some of these configuration steps.
+This procedure is described in detail in the following instructions, which describe a process that can be done using an MSI editor, such as the [Orca editor](https://docs.microsoft.com/windows/desktop/Msi/orca-exe). Some MSI editors have wizards that simplify some of these configuration steps.
 
 **To configure an MSI package for integration with D3D11InstallHelper.dll**
 
@@ -274,7 +274,7 @@ This procedure is described in detail in the following instructions, which descr
 
      
 
-6.  Save the MSI package. For more detailed information about MSI packages and Windows Installer, see [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688).
+6.  Save the MSI package. For more detailed information about MSI packages and Windows Installer, see [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal).
 
 ## Debugging Tips
 
@@ -294,9 +294,9 @@ It is very rare that a gamer's computer can only get updates from a locally mana
 
 ## Related Articles
 
-[Windows Firewall for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee417690)
+[Windows Firewall for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/games-and-firewalls)
 
-[Windows Games Explorer for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee419047)
+[Windows Games Explorer for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/windows-game-explorer-integration)
 
  
 

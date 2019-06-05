@@ -19,7 +19,7 @@ The [Circle](your-first-direct2d-program.md) program performs very simple drawin
 
 ![a screen shot of the circle program.](images/graphics08.png)
 
-Because the render target is a window (as opposed to a bitmap or other offscreen surface), drawing is done in response to [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) messages. The following code shows the window procedure for the Circle program.
+Because the render target is a window (as opposed to a bitmap or other offscreen surface), drawing is done in response to [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) messages. The following code shows the window procedure for the Circle program.
 
 
 ```C++
@@ -89,20 +89,20 @@ void MainWindow::OnPaint()
 
 
 
-The [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371766) interface is used for all drawing operations. The program's `OnPaint` method does the following:
+The [**ID2D1RenderTarget**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget) interface is used for all drawing operations. The program's `OnPaint` method does the following:
 
-1.  The [**ID2D1RenderTarget::BeginDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371768) method signals the start of drawing.
-2.  The [**ID2D1RenderTarget::Clear**](https://msdn.microsoft.com/library/windows/desktop/dd742775) method fills the entire render target with a solid color. The color is given as a [**D2D1\_COLOR\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368081) structure. You can use the [**D2D1::ColorF**](https://msdn.microsoft.com/library/windows/desktop/dd370907) class to initialize the structure. For more information, see [Using Color in Direct2D](using-color-in-direct2d.md).
-3.  The [**ID2D1RenderTarget::FillEllipse**](https://msdn.microsoft.com/library/windows/desktop/dd742849) method draws a filled ellipse, using the specified brush for the fill. An ellipse is specified by a center point and the x- and y-radii. If the x- and y-radii are the same, the result is a circle.
-4.  The [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924) method signals the completion of drawing for this frame. All drawing operations must be placed between calls to [**BeginDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371768) and **EndDraw**.
+1.  The [**ID2D1RenderTarget::BeginDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) method signals the start of drawing.
+2.  The [**ID2D1RenderTarget::Clear**](https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear) method fills the entire render target with a solid color. The color is given as a [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) structure. You can use the [**D2D1::ColorF**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf) class to initialize the structure. For more information, see [Using Color in Direct2D](using-color-in-direct2d.md).
+3.  The [**ID2D1RenderTarget::FillEllipse**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillellipse) method draws a filled ellipse, using the specified brush for the fill. An ellipse is specified by a center point and the x- and y-radii. If the x- and y-radii are the same, the result is a circle.
+4.  The [**ID2D1RenderTarget::EndDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method signals the completion of drawing for this frame. All drawing operations must be placed between calls to [**BeginDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) and **EndDraw**.
 
-The [**BeginDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371768), [**Clear**](https://msdn.microsoft.com/library/windows/desktop/dd742775), and [**FillEllipse**](https://msdn.microsoft.com/library/windows/desktop/dd742849) methods all have a **void** return type. If an error occurs during the execution of any of these methods, the error is signaled through the return value of the [**EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924) method. The `CreateGraphicsResources` method is shown in the topic [Creating Direct2D Resources](render-targets--devices--and-resources.md). This method creates the render target and the solid-color brush.
+The [**BeginDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw), [**Clear**](https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear), and [**FillEllipse**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillellipse) methods all have a **void** return type. If an error occurs during the execution of any of these methods, the error is signaled through the return value of the [**EndDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method. The `CreateGraphicsResources` method is shown in the topic [Creating Direct2D Resources](render-targets--devices--and-resources.md). This method creates the render target and the solid-color brush.
 
-The device might buffer the drawing commands and defer executing them until [**EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924) is called. You can force the device to execute any pending drawing commands by calling [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/windows/desktop/dd316801). Flushing can reduce performance, however.
+The device might buffer the drawing commands and defer executing them until [**EndDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) is called. You can force the device to execute any pending drawing commands by calling [**ID2D1RenderTarget::Flush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush). Flushing can reduce performance, however.
 
 ## Handling Device Loss
 
-While your program is running, the graphics device that you are using might become unavailable. For example, the device can be lost if the display resolution changes, or if the user removes the display adapter. If the device is lost, the render target also becomes invalid, along with any device-dependent resources that were associated with the device. Direct2D signals a lost device by returning the error code **D2DERR\_RECREATE\_TARGET** from the [**EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924) method. If you receive this error code, you must re-create the render target and all device-dependent resources.
+While your program is running, the graphics device that you are using might become unavailable. For example, the device can be lost if the display resolution changes, or if the user removes the display adapter. If the device is lost, the render target also becomes invalid, along with any device-dependent resources that were associated with the device. Direct2D signals a lost device by returning the error code **D2DERR\_RECREATE\_TARGET** from the [**EndDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method. If you receive this error code, you must re-create the render target and all device-dependent resources.
 
 To discard a resource, simply release the interface for that resource.
 
@@ -117,7 +117,7 @@ void MainWindow::DiscardGraphicsResources()
 
 
 
-Creating a resource can be an expensive operation, so do not recreate your resources for every [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message. Create a resource once, and cache the resource pointer until the resource becomes invalid due to device loss, or until you no longer need that resource.
+Creating a resource can be an expensive operation, so do not recreate your resources for every [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message. Create a resource once, and cache the resource pointer until the resource becomes invalid due to device loss, or until you no longer need that resource.
 
 ## The Direct2D Render Loop
 
@@ -126,13 +126,13 @@ Regardless of what you draw, your program should perform a loop similar to follo
 1.  Create device-independent resources.
 2.  Render the scene.
     1.  Check if a valid render target exists. If not, create the render target and the device-dependent resources.
-    2.  Call [**ID2D1RenderTarget::BeginDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371768).
+    2.  Call [**ID2D1RenderTarget::BeginDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw).
     3.  Issue drawing commands.
-    4.  Call [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924).
-    5.  If [**EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924) returns **D2DERR\_RECREATE\_TARGET**, discard the render target and device-dependent resources.
+    4.  Call [**ID2D1RenderTarget::EndDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw).
+    5.  If [**EndDraw**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) returns **D2DERR\_RECREATE\_TARGET**, discard the render target and device-dependent resources.
 3.  Repeat step 2 whenever you need to update or redraw the scene.
 
-If the render target is a window, step 2 occurs whenever the window receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message.
+If the render target is a window, step 2 occurs whenever the window receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message.
 
 The loop shown here handles device loss by discarding the device-dependent resources and re-creating them at the start of the next loop (step 2a).
 

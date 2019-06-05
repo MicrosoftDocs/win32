@@ -55,7 +55,7 @@ Data type: **Msvm\_VssComponent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
 </dt> </dl>
 
 A, [**Msvm\_VssComponent**](msvm-vsscomponent.md) that represents the VSS component.
@@ -71,7 +71,7 @@ Data type: **Msvm\_VssService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
 </dt> </dl>
 
 An [**Msvm\_VssService**](msvm-vssservice.md) that represents the VSS IC service.

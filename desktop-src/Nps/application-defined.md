@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [*PRADIUS\_EXTENSION\_FREE\_ATTRIBUTES*](https://msdn.microsoft.com/library/bb892001)
--   [*PRADIUS\_EXTENSION\_INIT*](https://msdn.microsoft.com/library/bb892002)
--   [*PRADIUS\_EXTENSION\_PROCESS*](https://msdn.microsoft.com/library/bb892003)
--   [*PRADIUS\_EXTENSION\_PROCESS\_EX*](https://msdn.microsoft.com/library/bb892005)
--   [*PRADIUS\_EXTENSION\_PROCESS\_2*](https://msdn.microsoft.com/library/bb892004)
--   [*PRADIUS\_EXTENSION\_TERM*](https://msdn.microsoft.com/library/bb892006)
+-   [*PRADIUS\_EXTENSION\_FREE\_ATTRIBUTES*](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes)
+-   [*PRADIUS\_EXTENSION\_INIT*](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_init)
+-   [*PRADIUS\_EXTENSION\_PROCESS*](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process)
+-   [*PRADIUS\_EXTENSION\_PROCESS\_EX*](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex)
+-   [*PRADIUS\_EXTENSION\_PROCESS\_2*](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2)
+-   [*PRADIUS\_EXTENSION\_TERM*](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_term)
 
  
 

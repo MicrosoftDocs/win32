@@ -12,9 +12,9 @@ It is sometimes necessary to display error text associated with error codes retu
 
 The error text for these messages is found in the message table file named Netmsg.dll, which is found in %systemroot%\\system32. This file contains error messages in the range NERR\_BASE (2100) through MAX\_NERR(NERR\_BASE+899). These error codes are defined in the SDK header file lmerr.h.
 
-The [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**LoadLibraryEx**](https://msdn.microsoft.com/library/windows/desktop/ms684179) functions can load Netmsg.dll. The [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function maps an error code to message text, given a module handle to the Netmsg.dll file.
+The [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**LoadLibraryEx**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa) functions can load Netmsg.dll. The [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) function maps an error code to message text, given a module handle to the Netmsg.dll file.
 
-The following sample illustrates how to display error text associated with network management functions, in addition to displaying error text associated with system-related error codes. If the supplied error number is in a specific range, the netmsg.dll message module is loaded and used to look up the specified error number with the [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function.
+The following sample illustrates how to display error text associated with network management functions, in addition to displaying error text associated with system-related error codes. If the supplied error number is in a specific range, the netmsg.dll message module is loaded and used to look up the specified error number with the [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) function.
 
 
 ```C++

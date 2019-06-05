@@ -34,7 +34,7 @@ Sets the current extended edit style flags.
 *wParam* 
 </dt> <dd>
 
-Specifies one or more extended edit style flags. For a list of possible values, see [**EM\_GETEDITSTYLEEX**](https://msdn.microsoft.com/library/windows/desktop/hh768367).
+Specifies one or more extended edit style flags. For a list of possible values, see [**EM\_GETEDITSTYLEEX**](https://docs.microsoft.com/windows/desktop/Controls/em-geteditstyleex).
 
 </dd> <dt>
 

@@ -55,8 +55,8 @@ This function truncates a floating-point value to the integer component. Given a
 
 | Name | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                         |
 |------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------|
-| *x*  | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any                          |
-| ret  | Same type as input x                                                                                           | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | Same dimension(s) as input x |
+| *x*  | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | any                          |
+| ret  | Same type as input x                                                                                           | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | Same dimension(s) as input x |
 
 
 

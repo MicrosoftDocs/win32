@@ -79,7 +79,7 @@ Address that identifies a server on a network.
 <span id="_rpc_nonencapsulated_union_glos"></span><span id="_RPC_NONENCAPSULATED_UNION_GLOS"></span>**nonencapsulated union**
 </dt> <dd>
 
-[*Discriminated union*](d-glos.md) that is less restrictive than an encapsulated union in that the discriminant and the union are not tightly bound. If the union is a parameter, the discriminant is another parameter; if the union is a structure field, the discriminant is another structure field. The IDL keywords \[[**switch\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367275)\] and \[[**switch\_type**](https://msdn.microsoft.com/library/windows/desktop/aa367276)\] identify the discriminant and its type. See also [*encapsulated union*](e-glos.md).
+[*Discriminated union*](d-glos.md) that is less restrictive than an encapsulated union in that the discriminant and the union are not tightly bound. If the union is a parameter, the discriminant is another parameter; if the union is a structure field, the discriminant is another structure field. The IDL keywords \[[**switch\_is**](https://docs.microsoft.com/windows/desktop/Midl/switch-is)\] and \[[**switch\_type**](https://docs.microsoft.com/windows/desktop/Midl/switch-type)\] identify the discriminant and its type. See also [*encapsulated union*](e-glos.md).
 
 </dd> <dt>
 

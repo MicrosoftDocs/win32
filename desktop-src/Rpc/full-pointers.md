@@ -21,7 +21,7 @@ A full pointer has the following characteristics:
 -   The storage that a full pointer points to may be accessed by another pointer or name in the operation.
 -   Return data is written into existing storage if the pointer does not have the value null.
 
-Use the \[ [**ptr**](https://msdn.microsoft.com/library/windows/desktop/aa367149) \] attribute to specify a full pointer, as shown in the following example:
+Use the \[ [**ptr**](https://docs.microsoft.com/windows/desktop/Midl/ptr) \] attribute to specify a full pointer, as shown in the following example:
 
 ``` syntax
 /* IDL file */

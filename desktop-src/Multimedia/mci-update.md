@@ -86,7 +86,7 @@ The **rc** member of the structure identified by *lpUnfreeze* contains a valid d
 <span id="MCI_DGV_UPDATE_PAINT"></span><span id="mci_dgv_update_paint"></span>MCI\_DGV\_UPDATE\_PAINT
 </dt> <dd>
 
-An application uses this flag when it receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message that is intended for a display DC. A frame-buffer device usually paints the key color. If the display device does not have a frame buffer, it might ignore the MCI\_UPDATE command when the **MCI\_DGV\_UPDATE\_PAINT** flag is used because the display will be repainted during the playback operation.
+An application uses this flag when it receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message that is intended for a display DC. A frame-buffer device usually paints the key color. If the display device does not have a frame buffer, it might ignore the MCI\_UPDATE command when the **MCI\_DGV\_UPDATE\_PAINT** flag is used because the display will be repainted during the playback operation.
 
 </dd> </dl>
 

@@ -27,7 +27,7 @@ COM uses **HRESULT** values to indicate the success or failure of a method or fu
 
  
 
-All of the constants with the prefix "E\_" are error codes. The constants **S\_OK** and **S\_FALSE** are both success codes. Probably 99% of COM methods return **S\_OK** when they succeed; but do not let this fact mislead you. A method might return other success codes, so always test for errors by using the [**SUCCEEDED**](https://msdn.microsoft.com/library/windows/desktop/ms687197) or [**FAILED**](https://msdn.microsoft.com/library/windows/desktop/ms693474) macro. The following example code shows the wrong way and the right way to test for the success of a function call.
+All of the constants with the prefix "E\_" are error codes. The constants **S\_OK** and **S\_FALSE** are both success codes. Probably 99% of COM methods return **S\_OK** when they succeed; but do not let this fact mislead you. A method might return other success codes, so always test for errors by using the [**SUCCEEDED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded) or [**FAILED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed) macro. The following example code shows the wrong way and the right way to test for the success of a function call.
 
 
 ```C++
@@ -48,7 +48,7 @@ if (FAILED(hr))
 
 
 
-The success code **S\_FALSE** deserves mention. Some methods use **S\_FALSE** to mean, roughly, a negative condition that is not a failure. It can also indicate a "no-op"—the method succeeded, but had no effect. For example, the [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) function returns **S\_FALSE** if you call it a second time from the same thread. If you need to differentiate between **S\_OK** and **S\_FALSE** in your code, you should test the value directly, but still use [**FAILED**](https://msdn.microsoft.com/library/windows/desktop/ms693474) or [**SUCCEEDED**](https://msdn.microsoft.com/library/windows/desktop/ms687197) to handle the remaining cases, as shown in the following example code.
+The success code **S\_FALSE** deserves mention. Some methods use **S\_FALSE** to mean, roughly, a negative condition that is not a failure. It can also indicate a "no-op"—the method succeeded, but had no effect. For example, the [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) function returns **S\_FALSE** if you call it a second time from the same thread. If you need to differentiate between **S\_OK** and **S\_FALSE** in your code, you should test the value directly, but still use [**FAILED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed) or [**SUCCEEDED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded) to handle the remaining cases, as shown in the following example code.
 
 
 ```C++
@@ -69,7 +69,7 @@ else
 
 
 
-Some **HRESULT** values are specific to a particular feature or subsystem of Windows. For example, the Direct2D graphics API defines the error code **D2DERR\_UNSUPPORTED\_PIXEL\_FORMAT**, which means that the program used an unsupported pixel format. MSDN documentation often gives a list of specific error codes that a method might return. However, you should not consider these lists to be definitive. A method can always return an **HRESULT** value that is not listed in the documentation. Again, use the [**SUCCEEDED**](https://msdn.microsoft.com/library/windows/desktop/ms687197) and [**FAILED**](https://msdn.microsoft.com/library/windows/desktop/ms693474) macros. If you test for a specific error code, include a default case as well.
+Some **HRESULT** values are specific to a particular feature or subsystem of Windows. For example, the Direct2D graphics API defines the error code **D2DERR\_UNSUPPORTED\_PIXEL\_FORMAT**, which means that the program used an unsupported pixel format. MSDN documentation often gives a list of specific error codes that a method might return. However, you should not consider these lists to be definitive. A method can always return an **HRESULT** value that is not listed in the documentation. Again, use the [**SUCCEEDED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded) and [**FAILED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed) macros. If you test for a specific error code, include a default case as well.
 
 
 ```C++
@@ -147,7 +147,7 @@ Disadvantages
 
 ### Cascading ifs
 
-After each method call, use an **if** statement to test for success. If the method succeeds, place the next method call inside the **if** block. But instead of nesting further **if** statements, place each subsequent [**SUCCEEDED**](https://msdn.microsoft.com/library/windows/desktop/ms687197) test after the previous **if** block. If any method fails, all the remaining **SUCCEEDED** tests simply fail until the bottom of the function is reached.
+After each method call, use an **if** statement to test for success. If the method succeeds, place the next method call inside the **if** block. But instead of nesting further **if** statements, place each subsequent [**SUCCEEDED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded) test after the previous **if** block. If any method fails, all the remaining **SUCCEEDED** tests simply fail until the bottom of the function is reached.
 
 
 ```C++
@@ -181,7 +181,7 @@ HRESULT ShowDialog()
 
 
 
-In this pattern, you release resources at the very end of the function. If an error occurs, some pointers might be invalid when the function exits. Calling [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on an invalid pointer will crash the program (or worse), so you must initialize all pointers to **NULL** and check whether they are **NULL** before releasing them. This example uses the `SafeRelease` function; smart pointers are also a good choice.
+In this pattern, you release resources at the very end of the function. If an error occurs, some pointers might be invalid when the function exits. Calling [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on an invalid pointer will crash the program (or worse), so you must initialize all pointers to **NULL** and check whether they are **NULL** before releasing them. This example uses the `SafeRelease` function; smart pointers are also a good choice.
 
 If you use this pattern, you must be careful with loop constructs. Inside a loop, break from the loop if any call fails.
 
@@ -243,7 +243,7 @@ done:
 Advantages
 
 -   The overall control flow is easy to see.
--   At every point in the code after a [**FAILED**](https://msdn.microsoft.com/library/windows/desktop/ms693474) check, if you have not jumped to the label, it is guaranteed that all the previous calls have succeeded.
+-   At every point in the code after a [**FAILED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed) check, if you have not jumped to the label, it is guaranteed that all the previous calls have succeeded.
 -   Resources are released at one place in the code.
 
 Disadvantages

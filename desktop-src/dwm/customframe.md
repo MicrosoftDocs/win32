@@ -81,15 +81,15 @@ if (message == WM_ACTIVATE)
 
 
 
-Note that the frame extension is done within the [**WM\_ACTIVATE**](https://msdn.microsoft.com/library/windows/desktop/ms646274) message rather than the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message. This ensures that frame extension is handled properly when the window is at its default size and when it is maximized.
+Note that the frame extension is done within the [**WM\_ACTIVATE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-activate) message rather than the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message. This ensures that frame extension is handled properly when the window is at its default size and when it is maximized.
 
-The following image shows a standard window frame (on the left) and the same window frame extended (on the right). The frame is extended using the previous code example and the default Microsoft Visual Studio [**WNDCLASS**](https://msdn.microsoft.com/library/windows/desktop/ms633576)/[**WNDCLASSEX**](https://msdn.microsoft.com/library/windows/desktop/ms633577) background (COLOR\_WINDOW +1).
+The following image shows a standard window frame (on the left) and the same window frame extended (on the right). The frame is extended using the previous code example and the default Microsoft Visual Studio [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa)/[**WNDCLASSEX**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa) background (COLOR\_WINDOW +1).
 
 ![screen shot of a standard (left) and extended frame (right) with white background](images/white-sidebyside.png)
 
 The visual difference between these two windows is very subtle. The only difference between the two is that the thin black line border of the client region in the window on the left is missing from the window on the right. The reason for this missing border is that it is incorporated into the extended frame, but the rest of the client area is not. For the extended frames to be visible, the regions underlying each of the extended frame's sides must have pixel data with an alpha value of 0. The black border around the client region has pixel data in which all color values (red, green, blue, and alpha) are set to 0. The rest of the background does not have the alpha value set to 0, so the rest of the extended frame is not visible.
 
-The easiest way to ensure that the extended frames are visible is to paint the entire client region black. To accomplish this, initialize the *hbrBackground* member of your [**WNDCLASS**](https://msdn.microsoft.com/library/windows/desktop/ms633576) or [**WNDCLASSEX**](https://msdn.microsoft.com/library/windows/desktop/ms633577) structure to the handle of the stock BLACK\_BRUSH. The following image shows the same standard frame (left) and extended frame (right) shown previously. This time, however, *hbrBackground* is set to the BLACK\_BRUSH handle obtained from the [**GetStockObject**](https://msdn.microsoft.com/library/windows/desktop/dd144925) function.
+The easiest way to ensure that the extended frames are visible is to paint the entire client region black. To accomplish this, initialize the *hbrBackground* member of your [**WNDCLASS**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa) or [**WNDCLASSEX**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa) structure to the handle of the stock BLACK\_BRUSH. The following image shows the same standard frame (left) and extended frame (right) shown previously. This time, however, *hbrBackground* is set to the BLACK\_BRUSH handle obtained from the [**GetStockObject**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject) function.
 
 ![screen shot of a standard (left) and extended frame (right) with black background](images/standard-extended-sidebyside.png)
 
@@ -97,9 +97,9 @@ The easiest way to ensure that the extended frames are visible is to paint the e
 
 After you have extended the frame of your application and made it visible, you can remove the standard frame. Removing the standard frame enables you to control the width of each side of the frame rather than simply extending the standard frame.
 
-To remove the standard window frame, you must handle the [**WM\_NCCALCSIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632634) message, specifically when its *wParam* value is **TRUE** and the return value is 0. By doing so, your application uses the entire window region as the client area, removing the standard frame.
+To remove the standard window frame, you must handle the [**WM\_NCCALCSIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize) message, specifically when its *wParam* value is **TRUE** and the return value is 0. By doing so, your application uses the entire window region as the client area, removing the standard frame.
 
-The results of handling the [**WM\_NCCALCSIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632634) message are not visible until the client region needs to be resized. Until that time, the initial view of the window appears with the standard frame and extended borders. To overcome this, you must either resize your window or perform an action that initiates a **WM\_NCCALCSIZE** message at the time of window creation. This can be accomplished by using the [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545) function to move your window and resize it. The following code demonstrates a call to **SetWindowPos** that forces a **WM\_NCCALCSIZE** message to be sent using the current window rectangle attributes and the SWP\_FRAMECHANGED flag.
+The results of handling the [**WM\_NCCALCSIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize) message are not visible until the client region needs to be resized. Until that time, the initial view of the window appears with the standard frame and extended borders. To overcome this, you must either resize your window or perform an action that initiates a **WM\_NCCALCSIZE** message at the time of window creation. This can be accomplished by using the [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) function to move your window and resize it. The following code demonstrates a call to **SetWindowPos** that forces a **WM\_NCCALCSIZE** message to be sent using the current window rectangle attributes and the SWP\_FRAMECHANGED flag.
 
 
 ```
@@ -148,9 +148,9 @@ Because the entire window is your client area, you can simply draw what you want
 
 A side effect of removing the standard frame is the loss of the default resizing and moving behavior. For your application to properly emulate standard window behavior, you will need to implement logic to handle caption button hit testing and frame resizing/moving.
 
-For caption button hit testing, DWM provides the [**DwmDefWindowProc**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc) function. To properly hit test the caption buttons in custom frame scenarios, messages should first be passed to **DwmDefWindowProc** for handling. **DwmDefWindowProc** returns **TRUE** if a message is handled and **FALSE** if it is not. If the message is not handled by **DwmDefWindowProc**, your application should handle the message itself or pass the message onto [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+For caption button hit testing, DWM provides the [**DwmDefWindowProc**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc) function. To properly hit test the caption buttons in custom frame scenarios, messages should first be passed to **DwmDefWindowProc** for handling. **DwmDefWindowProc** returns **TRUE** if a message is handled and **FALSE** if it is not. If the message is not handled by **DwmDefWindowProc**, your application should handle the message itself or pass the message onto [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
-For frame resizing and moving, your application must provide the hit testing logic and handle frame hit test messages. Frame hit test messages are sent to you through the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message, even if your application creates a custom frame without the standard frame. The following code demonstrates handling the **WM\_NCHITTEST** message when [**DwmDefWindowProc**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc) does not handle it. To see the code of the called `HitTestNCA` function, see [Appendix C: HitTestNCA Function](#appendix-c-hittestnca-function).
+For frame resizing and moving, your application must provide the hit testing logic and handle frame hit test messages. Frame hit test messages are sent to you through the [**WM\_NCHITTEST**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest) message, even if your application creates a custom frame without the standard frame. The following code demonstrates handling the **WM\_NCHITTEST** message when [**DwmDefWindowProc**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc) does not handle it. To see the code of the called `HitTestNCA` function, see [Appendix C: HitTestNCA Function](#appendix-c-hittestnca-function).
 
 
 ```
@@ -346,7 +346,7 @@ LRESULT AppWinProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 ## Appendix B: Painting the Caption Title
 
-The following code demonstrates how to paint a caption title on the extended frame. This function must be called from within the [**BeginPaint**](https://msdn.microsoft.com/library/windows/desktop/dd183362) and [**EndPaint**](https://msdn.microsoft.com/library/windows/desktop/dd162598) calls.
+The following code demonstrates how to paint a caption title on the extended frame. This function must be called from within the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) and [**EndPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endpaint) calls.
 
 
 ```
@@ -432,7 +432,7 @@ void PaintCustomCaption(HWND hWnd, HDC hdc)
 
 ## Appendix C: HitTestNCA Function
 
-The following code shows the `HitTestNCA` function used in [Enabling Hit Testing for the Custom Frame](#enabling-hit-testing-for-the-custom-frame). This function handles the hit testing logic for the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) when [**DwmDefWindowProc**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc) does not handle the message.
+The following code shows the `HitTestNCA` function used in [Enabling Hit Testing for the Custom Frame](#enabling-hit-testing-for-the-custom-frame). This function handles the hit testing logic for the [**WM\_NCHITTEST**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest) when [**DwmDefWindowProc**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc) does not handle the message.
 
 
 ```

@@ -107,7 +107,7 @@ private:
 
 ### Animating x and y Coordinates
 
-The following example code is taken from Thumbnail.cpp in the Windows Animation [Grid Layout Sample](https://msdn.microsoft.com/library/windows/desktop/dd940512); see the CMainWindow::CreateAnimationVariables method. Two animation variables are created to represent the X and Y coordinates of each object.
+The following example code is taken from Thumbnail.cpp in the Windows Animation [Grid Layout Sample](https://docs.microsoft.com/windows/desktop/UIAnimation/grid-layout-sample); see the CMainWindow::CreateAnimationVariables method. Two animation variables are created to represent the X and Y coordinates of each object.
 
 
 ```C++

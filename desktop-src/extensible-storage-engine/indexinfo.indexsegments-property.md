@@ -53,7 +53,7 @@ public IList<IndexSegment> IndexSegments { get; }
 
 #### Property value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<[IndexSegment](dn350912\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IList](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1?redirectedfrom=MSDN)\<[IndexSegment](dn350912\(v=exchg.10\).md)\>  
 
 ## See also
 

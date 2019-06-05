@@ -67,7 +67,7 @@ public static void JetDetachDatabase2(
 <!-- end list -->
 
   - database  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The database to detach.
 

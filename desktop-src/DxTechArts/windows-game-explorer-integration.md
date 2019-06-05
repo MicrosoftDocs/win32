@@ -37,7 +37,7 @@ Before you can integrate a game into Games Explorer, you must create a game defi
 
 Microsoft provides a tool for authoring GDFs in the DirectX SDK, Game Definition File Editor, to make this creation process easier. This tool also helps you create localized versions of a GDF.
 
-Once a GDF has been authored and localized, it must be encapsulated within a resource section of a binary file (either an executable or DLL), along with the game's thumbnail and icon. The GDF contains all of the metadata associated with the game, including the game's rating. Windows Parental Controls use the game's rating to allow parents to control access to the game. The binary file which contains the GDF must be digitally signed with a valid Authenticode certificate; otherwise, Games Explorer and the parental control system ignores the game's rating, because the rating information cannot be trusted without certification. For more details about signing code with Authenticode, see [Authenticode Signing for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416211).
+Once a GDF has been authored and localized, it must be encapsulated within a resource section of a binary file (either an executable or DLL), along with the game's thumbnail and icon. The GDF contains all of the metadata associated with the game, including the game's rating. Windows Parental Controls use the game's rating to allow parents to control access to the game. The binary file which contains the GDF must be digitally signed with a valid Authenticode certificate; otherwise, Games Explorer and the parental control system ignores the game's rating, because the rating information cannot be trusted without certification. For more details about signing code with Authenticode, see [Authenticode Signing for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/authenticode-signing-for-game-developers).
 
 ## Integrating with an Installer
 
@@ -280,7 +280,7 @@ This procedure is described in detail in the following instructions, which descr
 
 6.  Save the MSI package.
 
-For more detailed information about MSI packages and Windows Installer, see [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688).
+For more detailed information about MSI packages and Windows Installer, see [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal).
 
 ## Debugging Tips
 
@@ -300,7 +300,7 @@ If you run **GDFInstall.exe enum**, the sample application will enter a differen
 
 ### Be sure to sign using Authenticode
 
-If you have provided a rating, but are not seeing it in Games Explorer, make sure that you have used Authenticode to sign the executable or DLL file that contains the rating. Games Explorer ignores ratings information in unsigned files. For more information about Authenticode, see [Authenticode Signing for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416211).
+If you have provided a rating, but are not seeing it in Games Explorer, make sure that you have used Authenticode to sign the executable or DLL file that contains the rating. Games Explorer ignores ratings information in unsigned files. For more information about Authenticode, see [Authenticode Signing for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/authenticode-signing-for-game-developers).
 
 ### Be sure that parental controls are available
 

@@ -45,7 +45,7 @@ Context value passed to the [**PxeRegisterCallback**](/windows/desktop/api/WdsPx
 *dwControl* 
 </dt> <dd>
 
-Control code. For the list of possible values, see the *dwControl* parameter of the [*HandlerEx*](https://msdn.microsoft.com/library/windows/desktop/ms683241) function.
+Control code. For the list of possible values, see the *dwControl* parameter of the [*HandlerEx*](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function.
 
 </dd> </dl>
 

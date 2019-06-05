@@ -166,7 +166,7 @@ Since Desktop Window Manager (DWM) is always on in Windows 8, some older Window
 
 **App fails to declare DPI awareness**
 
-Another typical display problem with many older apps happens when Windows and the app run in high DPI mode, but the app does not declare its awareness of High DPI through its EXE manifest. Among the common problems that can occur due to this mismatch in settings are clipped UI elements or text and incorrect font size. For more details on the issues, see this link [here](https://msdn.microsoft.com/library/windows/desktop/dd464660.aspx#common-high-dpi-issues).
+Another typical display problem with many older apps happens when Windows and the app run in high DPI mode, but the app does not declare its awareness of High DPI through its EXE manifest. Among the common problems that can occur due to this mismatch in settings are clipped UI elements or text and incorrect font size. For more details on the issues, see this link [here](https://docs.microsoft.com/previous-versions//dd464660(v=vs.85)).
 
 In such cases, Windows detects that the app is high DPI aware, and applies the HIGHDPIAWARE compatibility mode to the app at the end of the first run. PCA will then inform the user about this as shown below:
 

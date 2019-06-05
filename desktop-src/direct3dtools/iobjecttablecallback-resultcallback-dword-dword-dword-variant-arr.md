@@ -60,7 +60,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IObjectTableCallback**](https://msdn.microsoft.com/library/windows/desktop/mt422696)
+[**IObjectTableCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/iobjecttablecallback)
 
  
 

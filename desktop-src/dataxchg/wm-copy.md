@@ -81,7 +81,7 @@ When sent to a combo box, the **WM\_COPY** message is handled by its edit contro
 [**WM\_PASTE**](wm-paste.md)
 </dt> <dt>
 
-[**WM\_UNDO**](https://msdn.microsoft.com/library/windows/desktop/bb761693)
+[**WM\_UNDO**](https://docs.microsoft.com/windows/desktop/Controls/wm-undo)
 </dt> <dt>
 
 **Conceptual**

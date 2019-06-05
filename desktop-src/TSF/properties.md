@@ -78,11 +78,11 @@ TSF defines three different types of properties.
 
 ## Working with Properties
 
-The property value and attributes are obtained using the [ITfReadOnlyProperty](https://msdn.microsoft.com/library/windows/desktop/ms628936) interface and modified using the [ITfProperty](/windows/desktop/api/Msctf/nn-msctf-itfproperty) interface.
+The property value and attributes are obtained using the [ITfReadOnlyProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty) interface and modified using the [ITfProperty](/windows/desktop/api/Msctf/nn-msctf-itfproperty) interface.
 
-If a specific property type is required, then [ITfContext::GetProperty](https://msdn.microsoft.com/library/windows/desktop/ms538791) is used. **ITfContext::GetProperty** requires a **GUID** that identifies the property to obtain. TSF defines a set of [predefined property identifiers](predefined-properties.md) used or a text service can define its own property identifiers. If a custom property is used, the property provider must publish the property **GUID** and the format of the data obtained.
+If a specific property type is required, then [ITfContext::GetProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty) is used. **ITfContext::GetProperty** requires a **GUID** that identifies the property to obtain. TSF defines a set of [predefined property identifiers](predefined-properties.md) used or a text service can define its own property identifiers. If a custom property is used, the property provider must publish the property **GUID** and the format of the data obtained.
 
-For example, to obtain the **CLSID** for the owner of a range of text, call **ITfContext::GetProperty** to obtain the property object, call [ITfProperty::FindRange](https://msdn.microsoft.com/library/windows/desktop/ms628903) to obtain the range that entirely covers the property, then call [ITfReadOnlyProperty::GetValue](https://msdn.microsoft.com/library/windows/desktop/ms628940) to get a [TfGuidAtom](https://msdn.microsoft.com/library/windows/desktop/ms629052) that represents the **CLSID** of the text service that owns the text. The following example shows a function that, given a context, range and an edit cookie, will obtain the **CLSID** of the text service that owns the text.
+For example, to obtain the **CLSID** for the owner of a range of text, call **ITfContext::GetProperty** to obtain the property object, call [ITfProperty::FindRange](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-findrange) to obtain the range that entirely covers the property, then call [ITfReadOnlyProperty::GetValue](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue) to get a [TfGuidAtom](https://docs.microsoft.com/windows/desktop/TSF/tfguidatom) that represents the **CLSID** of the text service that owns the text. The following example shows a function that, given a context, range and an edit cookie, will obtain the **CLSID** of the text service that owns the text.
 
 
 ```C++
@@ -160,7 +160,7 @@ HRESULT GetTextOwner(   ITfContext *pContext,
 
 
 
-Properties can also be enumerated by obtaining an [IEnumTfProperties](https://msdn.microsoft.com/library/windows/desktop/ms538218) interface from [ITfContext::EnumProperties](https://msdn.microsoft.com/library/windows/desktop/ms538785).
+Properties can also be enumerated by obtaining an [IEnumTfProperties](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties) interface from [ITfContext::EnumProperties](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-enumproperties).
 
 ## Persistent Storage of Properties
 
@@ -169,10 +169,10 @@ Often, properties are transparent to an application and are used by one or more 
 When storing property data, an application should perform the following steps.
 
 1.  Obtain a property enumerator by calling **ITfContext::EnumProperties**.
-2.  Enumerate each property by calling [IEnumTfProperties::Next](https://msdn.microsoft.com/library/windows/desktop/ms538224).
-3.  For each property, obtain a range enumerator by calling [ITfReadOnlyProperty::EnumRanges](https://msdn.microsoft.com/library/windows/desktop/ms628937).
-4.  Enumerate each range in the property by calling [IEnumTfRanges::Next](https://msdn.microsoft.com/library/windows/desktop/ms538379).
-5.  For each range in the property, call [ITextStoreACPServices::Serialize](https://msdn.microsoft.com/library/windows/desktop/ms538392) with the property, range, a [TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP](https://msdn.microsoft.com/library/windows/desktop/ms629083) structure, and a stream object implemented by the application.
+2.  Enumerate each property by calling [IEnumTfProperties::Next](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-next).
+3.  For each property, obtain a range enumerator by calling [ITfReadOnlyProperty::EnumRanges](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-enumranges).
+4.  Enumerate each range in the property by calling [IEnumTfRanges::Next](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfranges-next).
+5.  For each range in the property, call [ITextStoreACPServices::Serialize](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-serialize) with the property, range, a [TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP](https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp) structure, and a stream object implemented by the application.
 6.  Write the contents of the **TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP** structure into persistent memory.
 7.  Write the contents of the stream object into persistent memory.
 8.  Continue the previous steps for all of the ranges in all of the properties.
@@ -266,7 +266,7 @@ HRESULT SaveProperties( ITfContext *pContext,
 
 
 
-**ITextStoreACPServices::Serialize**[ITfPropertyStore::Serialize](https://msdn.microsoft.com/library/windows/desktop/ms628900)
+**ITextStoreACPServices::Serialize**[ITfPropertyStore::Serialize](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-serialize)
 
 When restoring property data, an application should perform the following steps.
 
@@ -274,7 +274,7 @@ When restoring property data, an application should perform the following steps.
 2.  Read the **TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP** structure.
 3.  Call **ITfContext::GetProperty** with the **guidType** member of the **TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP** structure.
 4.  The application can do one of two things at this point.
-    1.  Create an instance of an [ITfPersistentPropertyLoaderACP](https://msdn.microsoft.com/library/windows/desktop/ms628877) object that the application must implement. Then call [ITextStoreACPServices::Unserialize](https://msdn.microsoft.com/library/windows/desktop/ms538394) with **NULL** for *pStream* and the **ITfPersistentPropertyLoaderACP** pointer.
+    1.  Create an instance of an [ITfPersistentPropertyLoaderACP](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp) object that the application must implement. Then call [ITextStoreACPServices::Unserialize](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize) with **NULL** for *pStream* and the **ITfPersistentPropertyLoaderACP** pointer.
     2.  Pass the input stream to **ITextStoreACPServices::Unserialize** and **NULL** for *pLoader*.
 
     The first method is preferred as it is the most efficient. Implementing the second method causes all of the property data to be read from the stream during the **ITextStoreACPServices::Unserialize** call. The first method causes the property data to be read on demand at a later time.

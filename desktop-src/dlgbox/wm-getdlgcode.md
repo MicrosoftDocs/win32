@@ -34,14 +34,14 @@ Sent to the window procedure associated with a control. By default, the system h
 *wParam* 
 </dt> <dd>
 
-The virtual key, pressed by the user, that prompted Windows to issue this notification. The handler must selectively handle these keys. For instance, the handler might accept and process **VK\_RETURN** but delegate **VK\_TAB** to the owner window. For a list of values, see [**Virtual-Key Codes**](https://msdn.microsoft.com/library/windows/desktop/dd375731).
+The virtual key, pressed by the user, that prompted Windows to issue this notification. The handler must selectively handle these keys. For instance, the handler might accept and process **VK\_RETURN** but delegate **VK\_TAB** to the owner window. For a list of values, see [**Virtual-Key Codes**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes).
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure (or **NULL** if the system is performing a query).
+A pointer to an [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure (or **NULL** if the system is performing a query).
 
 </dd> </dl>
 
@@ -55,14 +55,14 @@ The return value is one or more of the following values, indicating which type o
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**DLGC\_BUTTON**</dt> <dt>0x2000</dt> </dl>          | Button.<br/>                                                                                                         |
 | <dl> <dt>**DLGC\_DEFPUSHBUTTON**</dt> <dt>0x0010</dt> </dl>   | Default push button.<br/>                                                                                            |
-| <dl> <dt>**DLGC\_HASSETSEL**</dt> <dt>0x0008</dt> </dl>       | [**EM\_SETSEL**](https://msdn.microsoft.com/library/windows/desktop/bb761661) messages.<br/>                                                           |
+| <dl> <dt>**DLGC\_HASSETSEL**</dt> <dt>0x0008</dt> </dl>       | [**EM\_SETSEL**](https://docs.microsoft.com/windows/desktop/Controls/em-setsel) messages.<br/>                                                           |
 | <dl> <dt>**DLGC\_RADIOBUTTON**</dt> <dt>0x0040</dt> </dl>     | Radio button.<br/>                                                                                                   |
 | <dl> <dt>**DLGC\_STATIC**</dt> <dt>0x0100</dt> </dl>          | Static control.<br/>                                                                                                 |
 | <dl> <dt>**DLGC\_UNDEFPUSHBUTTON**</dt> <dt>0x0020</dt> </dl> | Non-default push button.<br/>                                                                                        |
 | <dl> <dt>**DLGC\_WANTALLKEYS**</dt> <dt>0x0004</dt> </dl>     | All keyboard input.<br/>                                                                                             |
 | <dl> <dt>**DLGC\_WANTARROWS**</dt> <dt>0x0001</dt> </dl>      | Direction keys.<br/>                                                                                                 |
-| <dl> <dt>**DLGC\_WANTCHARS**</dt> <dt>0x0080</dt> </dl>       | [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) messages.<br/>                                                                      |
-| <dl> <dt>**DLGC\_WANTMESSAGE**</dt> <dt>0x0004</dt> </dl>     | All keyboard input (the application passes this message in the [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure to the control).<br/> |
+| <dl> <dt>**DLGC\_WANTCHARS**</dt> <dt>0x0080</dt> </dl>       | [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) messages.<br/>                                                                      |
+| <dl> <dt>**DLGC\_WANTMESSAGE**</dt> <dt>0x0004</dt> </dl>     | All keyboard input (the application passes this message in the [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure to the control).<br/> |
 | <dl> <dt>**DLGC\_WANTTAB**</dt> <dt>0x0002</dt> </dl>         | TAB key.<br/>                                                                                                        |
 
 
@@ -71,7 +71,7 @@ The return value is one or more of the following values, indicating which type o
 
 ## Remarks
 
-Although the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function always returns zero in response to the **WM\_GETDLGCODE** message, the window procedure for the predefined control classes return a code appropriate for each class.
+Although the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function always returns zero in response to the **WM\_GETDLGCODE** message, the window procedure for the predefined control classes return a code appropriate for each class.
 
 The **WM\_GETDLGCODE** message and the returned values are useful only with user-defined dialog box controls or standard controls modified by subclassing.
 
@@ -94,16 +94,16 @@ The **WM\_GETDLGCODE** message and the returned values are useful only with user
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**EM\_SETSEL**](https://msdn.microsoft.com/library/windows/desktop/bb761661)
+[**EM\_SETSEL**](https://docs.microsoft.com/windows/desktop/Controls/em-setsel)
 </dt> <dt>
 
-[**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958)
+[**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg)
 </dt> <dt>
 
-[**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276)
+[**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char)
 </dt> <dt>
 
 **Conceptual**

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instance.Dispose method  (Microsoft.Isam.Esent.Interop)
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.Dispose
@@ -33,13 +33,13 @@ Include inherited members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/4h5yzadk">Dispose()</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dispose?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_Dispose">Dispose()</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms146715">Dispose(Boolean)</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dispose?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 </tbody>
 </table>

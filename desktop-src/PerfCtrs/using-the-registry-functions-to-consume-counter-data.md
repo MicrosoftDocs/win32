@@ -8,20 +8,20 @@ ms.date: 05/31/2018
 
 # Using the Registry Functions to Consume Counter Data
 
-You can use the [registry functions](https://msdn.microsoft.com/library/windows/desktop/ms724875) to collect performance data. However, the performance data is not actually stored in the registry database. Instead, calling the registry functions causes the system to collect the data from the appropriate performance counter provider.
+You can use the [registry functions](https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions) to collect performance data. However, the performance data is not actually stored in the registry database. Instead, calling the registry functions causes the system to collect the data from the appropriate performance counter provider.
 
 > [!Note]  
 > You should not use the registry functions to consume counter data. Instead, you should use the Performance Data Helper (PDH) functions to consume counter data. The PDH functions are easier to use, oriented more towards operations on single counters rather than groups of counters, and can be used to access counter data from current activity or log files.
 
  
 
-To obtain performance data from the local system, call the [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911) function. Use **HKEY\_PERFORMANCE\_DATA** as the key. The first call opens the key; you do not need to explicitly open the key first.
+To obtain performance data from the local system, call the [**RegQueryValueEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function. Use **HKEY\_PERFORMANCE\_DATA** as the key. The first call opens the key; you do not need to explicitly open the key first.
 
-To obtain performance data from a remote system, call the [**RegConnectRegistry**](https://msdn.microsoft.com/library/windows/desktop/ms724840) function. Use the computer name of the remote system and the **HKEY\_PERFORMANCE\_DATA** key. This call retrieves a key representing the performance data for the remote system. Use this key, rather than the **HKEY\_PERFORMANCE\_DATA** key to retrieve the data.
+To obtain performance data from a remote system, call the [**RegConnectRegistry**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regconnectregistrya) function. Use the computer name of the remote system and the **HKEY\_PERFORMANCE\_DATA** key. This call retrieves a key representing the performance data for the remote system. Use this key, rather than the **HKEY\_PERFORMANCE\_DATA** key to retrieve the data.
 
-Be sure to use the [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837) function to close the handle to the key when you are finished obtaining the performance data. Do not call **RegCloseKey(HKEY\_PERFORMANCE\_DATA)** during DLL\_PROCESS\_DETACH.
+Be sure to use the [**RegCloseKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey) function to close the handle to the key when you are finished obtaining the performance data. Do not call **RegCloseKey(HKEY\_PERFORMANCE\_DATA)** during DLL\_PROCESS\_DETACH.
 
-You use the *lpszValueName* parameter of the [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911) function to indicate the amount of information to retrieve. Retrieving the performance data is expensive in terms of processor and memory requirements. The following table lists the values you can specify for *lpszValueName*. Note that the value strings are case-insensitive. If a string includes more than one word, the words must be separated by a space.
+You use the *lpszValueName* parameter of the [**RegQueryValueEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function to indicate the amount of information to retrieve. Retrieving the performance data is expensive in terms of processor and memory requirements. The following table lists the values you can specify for *lpszValueName*. Note that the value strings are case-insensitive. If a string includes more than one word, the words must be separated by a space.
 
 
 

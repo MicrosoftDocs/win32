@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # DTM\_GETSYSTEMTIME message
 
-Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can send this message explicitly or use the [**DateTime\_GetSystemtime**](/windows/desktop/api/Commctrl/nf-commctrl-datetime_getsystemtime) macro.
+Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure. You can send this message explicitly or use the [**DateTime\_GetSystemtime**](/windows/desktop/api/Commctrl/nf-commctrl-datetime_getsystemtime) macro.
 
 ## Parameters
 
@@ -30,7 +30,7 @@ Gets the currently selected time from a date and time picker (DTP) control and p
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. If **DTM\_GETSYSTEMTIME** returns GDT\_VALID, this structure will contain the currently selected time. Otherwise, it will not contain valid information. This parameter must be a valid pointer; it cannot be **NULL**.
+A pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure. If **DTM\_GETSYSTEMTIME** returns GDT\_VALID, this structure will contain the currently selected time. Otherwise, it will not contain valid information. This parameter must be a valid pointer; it cannot be **NULL**.
 
 </dd> </dl>
 

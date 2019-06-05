@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Calling a WMI Method
 
-WMI supplies methods in the [COM API](com-api-for-wmi.md) and the [scripting API](scripting-api-for-wmi.md) to obtain information or manipulate objects in an enterprise system. For example, the WMI scripting method [**SWbemServices.ExecQuery**](swbemservices-execquery.md) queries for data. Providers also have methods defined in the classes they register. Examples are the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) methods [**Chkdsk**](https://msdn.microsoft.com/library/aa384913) and [**ScheduleAutoChk**](https://msdn.microsoft.com/library/aa393252) supplied by the [Win32 provider](https://msdn.microsoft.com/library/aa394388).
+WMI supplies methods in the [COM API](com-api-for-wmi.md) and the [scripting API](scripting-api-for-wmi.md) to obtain information or manipulate objects in an enterprise system. For example, the WMI scripting method [**SWbemServices.ExecQuery**](swbemservices-execquery.md) queries for data. Providers also have methods defined in the classes they register. Examples are the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) methods [**Chkdsk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/chkdsk-method-in-class-win32-logicaldisk) and [**ScheduleAutoChk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/scheduleautochk-method-in-class-win32-logicaldisk) supplied by the [Win32 provider](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider).
 
 The following sections are discussed in this topic:
 
@@ -31,9 +31,9 @@ The following code example calls both WMI and provider methods.
 The following WMI and provider methods are located in the [Scripting API for WMI](scripting-api-for-wmi.md):
 
 -   **objWMIService.ExecQuery** calls the WMI scripting method [**SWbemServices.ExecQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery)
--   **objService.StopService()** calls the provider method [**Win32\_Service.StopService**](https://msdn.microsoft.com/library/aa393673)
+-   **objService.StopService()** calls the provider method [**Win32\_Service.StopService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/stopservice-method-in-class-win32-service)
 
-You can look up the code that may appear in "Return" in the Return Codes section for [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
+You can look up the code that may appear in "Return" in the Return Codes section for [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service).
 
 
 ```VB

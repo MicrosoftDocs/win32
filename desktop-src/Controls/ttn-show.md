@@ -42,7 +42,7 @@ Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-_nmhdr) stru
 
 ## Return value
 
-[Version 4.70](common-control-versions.md). To display the tooltip in its default location, return zero. To customize the tooltip position, reposition the tooltip window with the [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545) function and return **TRUE**.
+[Version 4.70](common-control-versions.md). To display the tooltip in its default location, return zero. To customize the tooltip position, reposition the tooltip window with the [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) function and return **TRUE**.
 
 > [!Note]  
 > For versions earlier than 4.70, there is no return value.

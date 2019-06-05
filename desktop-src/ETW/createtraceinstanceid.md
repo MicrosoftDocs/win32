@@ -53,7 +53,7 @@ Pointer to an [**EVENT\_INSTANCE\_INFO**](event-instance-info.md) structure. The
 
 If the function is successful, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/windows/desktop/ms681381). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes). The following table includes some common errors and their causes.
 
 
 

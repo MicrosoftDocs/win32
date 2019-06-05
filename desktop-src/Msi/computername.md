@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ComputerName property
 
-The **ComputerName** property is the computer name of the current system. The installer sets this property by a system call to [**GetComputerName**](https://msdn.microsoft.com/library/windows/desktop/ms724295).
+The **ComputerName** property is the computer name of the current system. The installer sets this property by a system call to [**GetComputerName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcomputernamea).
 
 ## Requirements
 

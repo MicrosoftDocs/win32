@@ -22,7 +22,7 @@ Specifies the maximum QP supported by the encoder.
 
 **H.264/AVC encoders:**
 
-The encoder shall support[**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966), and [**GetParameterRange**](https://msdn.microsoft.com/library/windows/desktop/dd311956).
+The encoder shall support[**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue), [**SetValue**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setvalue), and [**GetParameterRange**](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange).
 
 This is a static property meaning that it can only be set before the encoding session starts.
 

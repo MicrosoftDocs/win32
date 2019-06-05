@@ -18,7 +18,7 @@ api_location:
 
 # SetPowerState method of the CIM\_VolumeSet class
 
-The **SetPowerState** method of the CIM\_VolumeSet class sets the desired power state for a logical device and when a device should be put into that state. In a subclass, the set of possible return codes should be specified by using a [**ValueMap**](https://msdn.microsoft.com/library/aa393650) qualifier on the method. The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
+The **SetPowerState** method of the CIM\_VolumeSet class sets the desired power state for a logical device and when a device should be put into that state. In a subclass, the set of possible return codes should be specified by using a [**ValueMap**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) qualifier on the method. The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
@@ -44,7 +44,7 @@ uint32 SetPowerState(
 *PowerState* \[in\]
 </dt> <dd>
 
-A [**ValueMap**](https://msdn.microsoft.com/library/aa393650) value that specifies the desired power state for this logical device.
+A [**ValueMap**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) value that specifies the desired power state for this logical device.
 
 <dt>
 

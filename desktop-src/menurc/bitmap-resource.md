@@ -55,10 +55,10 @@ disk1   BITMAP "disk.bmp"
 
 <dl> <dt>
 
-[Using Bitmaps](https://msdn.microsoft.com/library/windows/desktop/dd145170)
+[Using Bitmaps](https://docs.microsoft.com/windows/desktop/gdi/using-bitmaps)
 </dt> <dt>
 
-[**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033)
+[**LoadBitmap**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa)
 </dt> <dt>
 
 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea)

@@ -14,7 +14,7 @@ The Event Logging reference is divided into the following sections:
 -   [Event Logging Structures](event-logging-structures.md)
 
 > [!Note]  
-> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on Windows Vista or later operating systems should use [Windows Event Log](https://msdn.microsoft.com/library/windows/desktop/aa385780) to log events.
+> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on Windows Vista or later operating systems should use [Windows Event Log](https://docs.microsoft.com/windows/desktop/WES/windows-event-log) to log events.
 
  
 

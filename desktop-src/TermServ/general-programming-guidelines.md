@@ -46,7 +46,7 @@ If their hardware device is not designed to work over a remote session, vendors 
 [Run-Time linking to Wtsapi32.dll](run-time-linking-to-wtsapi32-dll.md)
 </dt> <dd>
 
-Your application can use the Remote Desktop Services API to dynamically link to the Wtsapi32.dll at run time. To do this, your application should call the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) function to load Wtsapi32.dll.
+Your application can use the Remote Desktop Services API to dynamically link to the Wtsapi32.dll at run time. To do this, your application should call the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to load Wtsapi32.dll.
 
 </dd> </dl>
 

@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 # Adding Palette Message Handlers
 
-The following example illustrates simple message handlers for the [**WM\_PALETTECHANGED**](https://msdn.microsoft.com/library/windows/desktop/dd145214) and [**WM\_QUERYNEWPALETTE**](https://msdn.microsoft.com/library/windows/desktop/dd145218) messages. The example uses the [**DrawDibRealize**](/windows/desktop/api/Vfw/nf-vfw-drawdibrealize) function to process the **WM\_QUERYNEWPALETTE** message.
+The following example illustrates simple message handlers for the [**WM\_PALETTECHANGED**](https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged) and [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) messages. The example uses the [**DrawDibRealize**](/windows/desktop/api/Vfw/nf-vfw-drawdibrealize) function to process the **WM\_QUERYNEWPALETTE** message.
 
-Your application should respond to the [**WM\_QUERYNEWPALETTE**](https://msdn.microsoft.com/library/windows/desktop/dd145218) message by invalidating the destination window to let the [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) function redraw an image. You should respond to the [**WM\_PALETTECHANGED**](https://msdn.microsoft.com/library/windows/desktop/dd145214) message by using the [**DrawDibRealize**](/windows/desktop/api/Vfw/nf-vfw-drawdibrealize) function to realize the palette.
+Your application should respond to the [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) message by invalidating the destination window to let the [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) function redraw an image. You should respond to the [**WM\_PALETTECHANGED**](https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged) message by using the [**DrawDibRealize**](/windows/desktop/api/Vfw/nf-vfw-drawdibrealize) function to realize the palette.
 
 
 ```C++

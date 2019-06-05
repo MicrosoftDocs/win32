@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer interface
 
-\[The **IByteBuffer** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **IByteBuffer** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **IByteBuffer** interface is provided to read, write and manage stream objects. This object essentially is a wrapper for the **IStream** object.
 
@@ -36,7 +36,7 @@ The **IByteBuffer** interface has these methods.
 | Method                                           | Description                                                                                               |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
 | [**Clone**](ibytebuffer-clone.md)               | Clones an **IByteBuffer** object.<br/>                                                              |
-| [**Commit**](ibytebuffer-commit.md)             | Commits a [*transaction*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transaction-gly).<br/> |
+| [**Commit**](ibytebuffer-commit.md)             | Commits a [*transaction*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly).<br/> |
 | [**CopyTo**](ibytebuffer-copyto.md)             | Copies bytes to another object.<br/>                                                                |
 | [**Initialize**](ibytebuffer-initialize.md)     | Initializes the **IByteBuffer** object.<br/>                                                        |
 | [**LockRegion**](ibytebuffer-lockregion.md)     | Restricts access to a range of bytes.<br/>                                                          |

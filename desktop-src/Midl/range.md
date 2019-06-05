@@ -83,7 +83,7 @@ void InPipe(
 [Interface Definition (IDL) File](interface-definition-idl-file.md)
 </dt> <dt>
 
-[arrays](https://msdn.microsoft.com/library/windows/desktop/aa373539)
+[arrays](https://docs.microsoft.com/windows/desktop/Rpc/arrays)
 </dt> <dt>
 
 [**first\_is**](first-is.md)

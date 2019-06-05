@@ -90,21 +90,21 @@ public static JET_wrn JetGetSystemParameter(
 <!-- end list -->
 
   - paramValue  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the value of the parameter, if the value is an integer.
 
 <!-- end list -->
 
   - paramString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Returns the value of the parameter, if the value is a string.
 
 <!-- end list -->
 
   - maxParam  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The maximum size of the parameter string.
 

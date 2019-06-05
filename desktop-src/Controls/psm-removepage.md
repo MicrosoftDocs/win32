@@ -54,8 +54,8 @@ A number of messages and one function call occur while the property sheet is man
 -   [PSN\_KILLACTIVE](psn-killactive.md)
 -   [PSN\_RESET](psn-reset.md)
 -   [PSN\_SETACTIVE](psn-setactive.md)
--   [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620)
--   [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428)
+-   [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy)
+-   [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog)
 
 If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 

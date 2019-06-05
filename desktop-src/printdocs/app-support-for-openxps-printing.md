@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 OpenXPS is the Open XML Paper Specification format for documents, and it’s based on the European Carton Makers Association (ECMA) standard specification.
 
-Windows 8 provides full support for OpenXPS printing via the v4 print driver model, side-by-side with continued support for the Microsoft XPS format. And this topic focuses on the portion of this support that is relevant to Windows application developers. For information about driver requirements for OpenXPS support, see [Driver Support for OpenXPS](https://msdn.microsoft.com/library/windows/hardware/ff560843.aspx).
+Windows 8 provides full support for OpenXPS printing via the v4 print driver model, side-by-side with continued support for the Microsoft XPS format. And this topic focuses on the portion of this support that is relevant to Windows application developers. For information about driver requirements for OpenXPS support, see [Driver Support for OpenXPS](https://msdn.microsoft.com/windows/hardware/drivers/print/printer-driver-overview).
 
 ## Sending XPS data to the Print System
 
@@ -90,7 +90,7 @@ Windows 8 provides the following new error codes in support of OpenXPS:
 
 <dl> <dt>
 
-[Driver Support for OpenXPS](https://msdn.microsoft.com/library/windows/hardware/ff560843.aspx)
+[Driver Support for OpenXPS](https://msdn.microsoft.com/windows/hardware/drivers/print/printer-driver-overview)
 </dt> <dt>
 
 [**IPrintDocumentPackageTarget**](https://msdn.microsoft.com/library/Hh448393(v=VS.85).aspx)

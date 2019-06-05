@@ -24,7 +24,7 @@ Windows Media files may contain any number of attributes, including user-defined
 
 If the file has been added to the library, additional attributes associated with the media type may also be available. See [Audio Items](audio-item-attributes.md) or [Video Items](video-item-attributes.md) for those additional attributes.
 
-For more info about the Windows Media file attributes, see the [Windows Media Metadata Usage Guidelines](https://msdn.microsoft.com/library/ms867702.aspx).
+For more info about the Windows Media file attributes, see the [Windows Media Metadata Usage Guidelines](https://docs.microsoft.com/previous-versions/ms867702(v=msdn.10)).
 
 The following list contains commonly used attributes.
 

@@ -62,7 +62,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 ## Remarks
 
-If the pin is connected, this method copies the media type into the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure specified by *pmt*. The caller must free the media type's format block. You can use the [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) function, or the [**FreeMediaType**](freemediatype.md) helper function.
+If the pin is connected, this method copies the media type into the [**AM\_MEDIA\_TYPE**](/windows/desktop/api/strmif/ns-strmif-_ammediatype) structure specified by *pmt*. The caller must free the media type's format block. You can use the [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) function, or the [**FreeMediaType**](freemediatype.md) helper function.
 
 If the pin is not connected, this method zeroes the memory block specified by *pmt* and returns an error code.
 

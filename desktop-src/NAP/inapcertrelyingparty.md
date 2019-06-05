@@ -28,7 +28,7 @@ The **INapCertRelyingParty** interface provides methods that certificate-relying
 
 ## Members
 
-The **INapCertRelyingParty** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapCertRelyingParty** also has these types of members:
+The **INapCertRelyingParty** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapCertRelyingParty** also has these types of members:
 
 -   [Methods](#methods)
 

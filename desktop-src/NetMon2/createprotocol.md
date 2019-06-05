@@ -104,7 +104,7 @@ The entry points referenced in the *lpEntryPoints* parameter include pointers to
 
 <dl> <dt>
 
-[DllMain](https://msdn.microsoft.com/library/windows/desktop/ms682583)
+[DllMain](https://docs.microsoft.com/windows/desktop/Dlls/dllmain)
 </dt> </dl>
 
  

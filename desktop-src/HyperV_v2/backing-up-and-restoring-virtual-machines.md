@@ -28,13 +28,13 @@ The other backup mechanism is called the "Child VM Snapshot" method, which uses 
 -   All volumes on the child virtual machine are basic disks and there are no dynamic disks.
 -   All disks on the child virtual machine must use a file system that supports snapshots (for example, NTFS).
 
-In general, the process for backing up virtual machines is the same as described in [Overview of Processing a Backup Under VSS](https://msdn.microsoft.com/library/windows/desktop/aa384589). The unique behavior happens when the Hyper-V VSS writer (part of the "Hyper-V Virtual Machine Management" service) processes the PrepareForSnapshot event. If the backup was done using the "Child VM Snapshot" method, there is additional processing done but it is not visible to the child virtual machine.
+In general, the process for backing up virtual machines is the same as described in [Overview of Processing a Backup Under VSS](https://docs.microsoft.com/windows/desktop/VSS/overview-of-processing-a-backup-under-vss). The unique behavior happens when the Hyper-V VSS writer (part of the "Hyper-V Virtual Machine Management" service) processes the PrepareForSnapshot event. If the backup was done using the "Child VM Snapshot" method, there is additional processing done but it is not visible to the child virtual machine.
 
 The following procedure describes how to back up virtual machines.
 
 **To back up virtual machines**
 
-1.  For each virtual machine in the writer metadata, if the "Saved State" method is used, the virtual machine is put into a saved state. For virtual machines using the "Child VM Snapshot" method, the Hyper-V Volume Shadow Copy Requestor Service in the child virtual machine processes the backup as detailed in [Overview of Processing a Backup Under VSS](https://msdn.microsoft.com/library/windows/desktop/aa384589). All VSS events on the child virtual machine occur during the host operating system processing of the PrepareForSnapshot event.
+1.  For each virtual machine in the writer metadata, if the "Saved State" method is used, the virtual machine is put into a saved state. For virtual machines using the "Child VM Snapshot" method, the Hyper-V Volume Shadow Copy Requestor Service in the child virtual machine processes the backup as detailed in [Overview of Processing a Backup Under VSS](https://docs.microsoft.com/windows/desktop/VSS/overview-of-processing-a-backup-under-vss). All VSS events on the child virtual machine occur during the host operating system processing of the PrepareForSnapshot event.
 2.  After all virtual machines have either been put in the saved state or had snapshots taken, the Hyper-V VSS writer returns from the PrepareForSnapshot event. No processing is done by the Hyper-V VSS writer during the Freeze and Thaw events.
 3.  When the Hyper-V VSS writer processes the PostSnapshot event, virtual machines that were backed up using the "Saved State" method and were put into a saved state by the Hyper-V VSS writer are returned to the state they were in before the backup started. For the virtual machines that were backed up using the "Child VM Snapshot" method, the host image of the VHD files that had the snapshots taken are rolled back to the snapshot taken during the processing of the PrepareForSnapshot event. This processing is done independently of the VSS writers on the child virtual machines so the snapshots taken must be auto-recoverable. (**VSS\_VOLSNAP\_ATTR\_NO\_AUTORECOVERY** is not set in the context.)
 
@@ -55,7 +55,7 @@ The following procedure describes how to restore virtual machines.
 
 1.  During the processing of the PreRestore event, the Hyper-V VSS writer turns off and deletes any virtual machines that are about to be restored.
 2.  After all VSS writers have processed the PreRestore event, the files are restored.
-3.  During the processing of the PostRestore event, the Hyper-V VSS writer calls the [**IVssComponent::GetFileRestoreStatus**](https://msdn.microsoft.com/library/windows/desktop/aa383517) method. If the return is not **VSS\_RS\_ALL**, then the Hyper-V VSS writer calls the [**SetWriterFailure**](https://msdn.microsoft.com/library/windows/desktop/aa381586) method and returns **False** from the [**OnPostRestore**](https://msdn.microsoft.com/library/windows/desktop/aa381566) method.
+3.  During the processing of the PostRestore event, the Hyper-V VSS writer calls the [**IVssComponent::GetFileRestoreStatus**](https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getfilerestorestatus) method. If the return is not **VSS\_RS\_ALL**, then the Hyper-V VSS writer calls the [**SetWriterFailure**](https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure) method and returns **False** from the [**OnPostRestore**](https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore) method.
 4.  For each virtual machine that was restored, the Hyper-V VSS writer registers the virtual machine with the Hyper-V management service. If the virtual machine is restored to a nondefault location, a symbolic link is created in the default location linking to that location.
 5.  For each VHD that was restored, the location is compared with the one specified for that virtual machine. If the location is different, then the configuration is updated with the proper location.
 6.  The network configuration is updated. If the virtual switches that the virtual machine was connected to when it was backed up still exit, new ports are created and connected to the virtual machine.
@@ -74,10 +74,10 @@ Writer ID: 66841cd4-6ded-4f4b-8f17-fd23f8ddc3de
 
 <dl> <dt>
 
-[Overview of Processing a Backup Under VSS](https://msdn.microsoft.com/library/windows/desktop/aa384589)
+[Overview of Processing a Backup Under VSS](https://docs.microsoft.com/windows/desktop/VSS/overview-of-processing-a-backup-under-vss)
 </dt> <dt>
 
-[Overview of Processing a Restore Under VSS](https://msdn.microsoft.com/library/windows/desktop/aa384590)
+[Overview of Processing a Restore Under VSS](https://docs.microsoft.com/windows/desktop/VSS/overview-of-processing-a-restore-under-vss)
 </dt> </dl>
 
  

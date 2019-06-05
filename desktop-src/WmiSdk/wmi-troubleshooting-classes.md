@@ -13,15 +13,15 @@ WMI supplies a set of troubleshooting classes that scripts and applications can 
 
 WMI has several basic troubleshooting classes for WMI core and provider operations:
 
--   [**MSFT\_WmiProvider\_Counters**](https://msdn.microsoft.com/library/aa392551)
+-   [**MSFT\_WmiProvider\_Counters**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-counters)
 
     Only one of these classes is found on each computer system. It provides counts of various kind of provider operations on that system.
 
--   [**MSFT\_WmiSelfEvent**](https://msdn.microsoft.com/library/aa392606)
+-   [**MSFT\_WmiSelfEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent)
 
-    The event troubleshooting classes derive from [**MSFT\_WmiSelfEvent**](https://msdn.microsoft.com/library/aa392606). Queries of this class return instances of event classes such as [**MSFT\_WmiThreadPoolCreated**](https://msdn.microsoft.com/library/aa392608) or [**MSFT\_WmiProvider\_CreateInstanceEnumAsyncEvent\_Post**](https://msdn.microsoft.com/library/aa392554).
+    The event troubleshooting classes derive from [**MSFT\_WmiSelfEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent). Queries of this class return instances of event classes such as [**MSFT\_WmiThreadPoolCreated**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmithreadpoolcreated) or [**MSFT\_WmiProvider\_CreateInstanceEnumAsyncEvent\_Post**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-createinstanceenumasyncevent-post).
 
-    The following list provides links to different categories of event classes derived from [**MSFT\_WmiSelfEvent**](https://msdn.microsoft.com/library/aa392606):
+    The following list provides links to different categories of event classes derived from [**MSFT\_WmiSelfEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiselfevent):
 
     -   [Provider Event Troubleshooting Classes](provider-event-troubleshooting-classes.md)
     -   [ConsumerProvider Troubleshooting Classes](consumerprovider-troubleshooting-classes.md)

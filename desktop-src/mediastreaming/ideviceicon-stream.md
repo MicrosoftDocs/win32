@@ -39,7 +39,7 @@ HRESULT Stream(
 *value* \[out\]
 </dt> <dd>
 
-Receives a reference to a [**IRandomAccessStreamWithContentType**](https://msdn.microsoft.com/library/windows/apps/br241736) that can be used to retrieve the image data.
+Receives a reference to a [**IRandomAccessStreamWithContentType**](https://docs.microsoft.com/uwp/api/Windows.Storage.Streams.IRandomAccessStreamWithContentType) that can be used to retrieve the image data.
 
 </dd> </dl>
 

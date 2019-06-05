@@ -18,20 +18,20 @@ The following table lists network management functions and function groups, and 
 
 | Functions                                                                  | Interfaces                                                                                             |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [**NetFileEnum**](https://msdn.microsoft.com/library/windows/desktop/bb525378), [**NetFileGetInfo**](https://msdn.microsoft.com/library/windows/desktop/bb525379) | [**IADsResource**](https://msdn.microsoft.com/library/aa706124), [**IADsFileServiceOperations**](https://msdn.microsoft.com/library/aa706015) |
-| [NetGroup](group-functions.md)\*                                          | [**IADsGroup**](https://msdn.microsoft.com/library/aa706021)                                                                        |
-| [NetLocalGroup](local-group-functions.md)\*                               | [**IADsGroup**](https://msdn.microsoft.com/library/aa706021)                                                                        |
-| [NetServer](server-functions.md)\*                                        | [**IADsComputer**](https://msdn.microsoft.com/library/aa705980)                                                                  |
-| [NetSession](session-functions.md)\*                                      | [**IADsSession**](https://msdn.microsoft.com/library/aa746331), [**IADsFileServiceOperations**](https://msdn.microsoft.com/library/aa706015)   |
-| [NetShare](share-functions.md)\*                                          | [**IADsFileShare**](https://msdn.microsoft.com/library/aa706019)                                                                |
-| [NetUser](user-functions.md)\*                                            | [**IADsUser**](https://msdn.microsoft.com/library/aa746340), [**IADsComputer**](https://msdn.microsoft.com/library/aa705980)                                   |
-| [NetUserModals](user-modal-functions.md)\*                                | [**IADsDomain**](https://msdn.microsoft.com/library/aa706002)                                                                      |
+| [**NetFileEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum), [**NetFileGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo) | [**IADsResource**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource), [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations) |
+| [NetGroup](group-functions.md)\*                                          | [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup)                                                                        |
+| [NetLocalGroup](local-group-functions.md)\*                               | [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup)                                                                        |
+| [NetServer](server-functions.md)\*                                        | [**IADsComputer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer)                                                                  |
+| [NetSession](session-functions.md)\*                                      | [**IADsSession**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession), [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations)   |
+| [NetShare](share-functions.md)\*                                          | [**IADsFileShare**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileshare)                                                                |
+| [NetUser](user-functions.md)\*                                            | [**IADsUser**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser), [**IADsComputer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer)                                   |
+| [NetUserModals](user-modal-functions.md)\*                                | [**IADsDomain**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdomain)                                                                      |
 
 
 
  
 
-For more information about directory services and programming with ADSI, see [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170). For information about the custom properties the WinNT provider makes available for the User class, and the property methods of the [**IADsUSer**](https://msdn.microsoft.com/library/aa746340) interface the WinNT provider does not support, see [ADSI WinNT Provider](https://msdn.microsoft.com/library/aa772237).
+For more information about directory services and programming with ADSI, see [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi). For information about the custom properties the WinNT provider makes available for the User class, and the property methods of the [**IADsUSer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser) interface the WinNT provider does not support, see [ADSI WinNT Provider](https://docs.microsoft.com/windows/desktop/ADSI/adsi-winnt-provider).
 
  
 

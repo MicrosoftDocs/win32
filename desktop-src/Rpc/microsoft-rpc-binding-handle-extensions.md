@@ -13,26 +13,26 @@ The Microsoft extensions to the IDL language support multiple handle parameters 
 ## DCE-compatibility mode
 
 -   Binding handle that appears in first position.
--   Leftmost \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051), [**context\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa366759)\] parameter.
--   Implicit binding handle specified by \[[**implicit\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa367046)\] or \[[**auto\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa366736)\].
+-   Leftmost \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in), [**context\_handle**](https://docs.microsoft.com/windows/desktop/Midl/context-handle)\] parameter.
+-   Implicit binding handle specified by \[[**implicit\_handle**](https://docs.microsoft.com/windows/desktop/Midl/implicit-handle)\] or \[[**auto\_handle**](https://docs.microsoft.com/windows/desktop/Midl/auto-handle)\].
 -   If no ACF present, default to use of \[**auto\_handle**\].
 
 ## Default mode
 
 -   Leftmost explicit binding handle.
--   Implicit binding handle specified by \[[**implicit\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa367046)\] or \[[**auto\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa366736)\].
--   If no ACF present, default to use of \[[**auto\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa366736)\].
+-   Implicit binding handle specified by \[[**implicit\_handle**](https://docs.microsoft.com/windows/desktop/Midl/implicit-handle)\] or \[[**auto\_handle**](https://docs.microsoft.com/windows/desktop/Midl/auto-handle)\].
+-   If no ACF present, default to use of \[[**auto\_handle**](https://docs.microsoft.com/windows/desktop/Midl/auto-handle)\].
 
-DCE IDL compilers look for an explicit binding handle as the first parameter. When the first parameter is not a binding handle and one or more context handles are specified, the leftmost context handle is used as the binding handle. When the first parameter is not a handle and there are no context handles, the procedure uses implicit binding using the ACF attribute \[[**implicit\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa367046)\] or \[[**auto\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa366736)\].
+DCE IDL compilers look for an explicit binding handle as the first parameter. When the first parameter is not a binding handle and one or more context handles are specified, the leftmost context handle is used as the binding handle. When the first parameter is not a handle and there are no context handles, the procedure uses implicit binding using the ACF attribute \[[**implicit\_handle**](https://docs.microsoft.com/windows/desktop/Midl/implicit-handle)\] or \[[**auto\_handle**](https://docs.microsoft.com/windows/desktop/Midl/auto-handle)\].
 
-The Microsoft extensions to the IDL allow the binding handle to be in a position other than the first parameter. The leftmost \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] explicit-handle parameter–whether it is a primitive, programmer-defined, or context handle–is the binding handle. When there are no handle parameters, the procedure uses implicit binding using the ACF attribute \[[**implicit\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa367046)\] or \[[**auto\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa366736)\].
+The Microsoft extensions to the IDL allow the binding handle to be in a position other than the first parameter. The leftmost \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] explicit-handle parameter–whether it is a primitive, programmer-defined, or context handle–is the binding handle. When there are no handle parameters, the procedure uses implicit binding using the ACF attribute \[[**implicit\_handle**](https://docs.microsoft.com/windows/desktop/Midl/implicit-handle)\] or \[[**auto\_handle**](https://docs.microsoft.com/windows/desktop/Midl/auto-handle)\].
 
 The following rules apply to both DCE-compatibility (/osf) mode and default mode:
 
 -   Auto-handle binding is used when no ACF is present.
--   Explicit \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] or \[**in**, [**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] handles for an individual function preempt any implicit binding specified for the interface.
--   Multiple \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] or \[**in**, out\] primitive handles are not supported.
--   Multiple \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] or \[**in**, out\] explicit context handles are allowed.
+-   Explicit \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] or \[**in**, [**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] handles for an individual function preempt any implicit binding specified for the interface.
+-   Multiple \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] or \[**in**, out\] primitive handles are not supported.
+-   Multiple \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] or \[**in**, out\] explicit context handles are allowed.
 -   All programmer-defined handle parameters except the binding-handle parameter are treated as transmissible data.
 
 The following table contains examples and describes how binding handles are assigned in each compiler mode.
@@ -53,7 +53,7 @@ The following table contains examples and describes how binding handles are assi
 <tbody>
 <tr class="odd">
 <td><pre class="syntax" data-space="preserve"><code>void proc1( void );</code></pre></td>
-<td>No explicit handle is specified. The implicit binding handle, specified by [ <a href="https://msdn.microsoft.com/library/windows/desktop/aa367046">implicit_handle</a>] or [ <a href="https://msdn.microsoft.com/library/windows/desktop/aa366736">auto_handle</a>], is used. When no ACF is present, an auto handle is used.</td>
+<td>No explicit handle is specified. The implicit binding handle, specified by [ <a href="https://docs.microsoft.com/windows/desktop/Midl/implicit-handle">implicit_handle</a>] or [ <a href="https://docs.microsoft.com/windows/desktop/Midl/auto-handle">auto_handle</a>], is used. When no ACF is present, an auto handle is used.</td>
 </tr>
 <tr class="even">
 <td><pre class="syntax" data-space="preserve"><code>void proc2([in] handle_t H,

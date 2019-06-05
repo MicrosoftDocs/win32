@@ -32,7 +32,7 @@ Retrieves the current position of an up-down control with 16-bit precision.
 
 ## Return value
 
-If successful, the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) is set to zero and the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is set to the control's current position. If an error occurs, the **HIWORD** is set to a nonzero value.
+If successful, the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is set to zero and the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is set to the control's current position. If an error occurs, the **HIWORD** is set to a nonzero value.
 
 ## Remarks
 

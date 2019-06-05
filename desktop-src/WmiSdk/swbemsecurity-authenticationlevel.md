@@ -67,7 +67,7 @@ objinstance.Security_.AuthenticationLevel = wbemAuthenticationLevelPkt
 
 
 
-You can also specify authentication levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173).
+You can also specify authentication levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk).
 
 
 ```VB

@@ -66,7 +66,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218). For this object, the value is:
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement). For this object, the value is:
 
 "Replication Provider"
 
@@ -81,7 +81,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218). For external providers, the value is provided by them. For host to host inbuilt provider, the value is:
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement). For external providers, the value is provided by them. For host to host inbuilt provider, the value is:
 
 "Virtual machine replication provider to Hyper-V host"
 
@@ -96,7 +96,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the endpoint provider. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the endpoint provider. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 For host to host inbuilt provider, this property is always set to:
 
@@ -116,7 +116,7 @@ Access type: Read-only
 Qualifiers: **Key**, **MaxLen** (256)
 </dt> </dl>
 
-The WMI instance ID, which identifies the provider. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218). The format of this property is "Microsoft:<host-machine-name>\\ReplicationProvider\\<provider-Name>."
+The WMI instance ID, which identifies the provider. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement). The format of this property is "Microsoft:<host-machine-name>\\ReplicationProvider\\<provider-Name>."
 
 </dd> <dt>
 
@@ -129,10 +129,10 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("Name"), [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (256)
+Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
-The globally unique identifier (GUID) of the provider that identifies the endpoint provider. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The globally unique identifier (GUID) of the provider that identifies the endpoint provider. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 In the case of an external provider, this property is the CLSID of the provider COM class object. For host to host inbuilt provider, this property is fixed as:
 
@@ -149,7 +149,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and each array element is always set to:
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and each array element is always set to:
 
 <dl> <dt>
 
@@ -183,7 +183,7 @@ You can use any of available providers and the [**Msvm\_ReplicationRelationship*
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> <dt>
 
-[**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898)
+[**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement)
 </dt> </dl>
 
  

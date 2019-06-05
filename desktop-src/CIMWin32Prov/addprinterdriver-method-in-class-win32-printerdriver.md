@@ -20,7 +20,7 @@ api_location:
 
 The **AddPrinterDriver** class method creates a new printer driver.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ An instance of the [**Win32\_PrinterDriver**](win32-printerdriver.md) class that
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559).
+Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants).
 
 <dl> <dt>
 

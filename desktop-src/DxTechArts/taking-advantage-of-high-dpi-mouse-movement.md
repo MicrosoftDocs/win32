@@ -46,7 +46,7 @@ The primary disadvantage to data from WM\_MOUSEMOVE is that it is limited to the
 
 The advantage to WM\_MOUSEMOVE, however, is that Windows applies pointer acceleration (also known as ballistics) to the raw mouse data, which makes the mouse pointer behave as customers expect. This makes WM\_MOUSEMOVE the preferred option for pointer control (over WM\_INPUT or DirectInput), since it results in more natural behavior for users. While WM\_MOUSEMOVE is ideal for moving mouse pointers, it is not so good for moving a first-person camera, since the high-definition precision will be lost.
 
-For more info about WM\_MOUSEMOVE, see [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616).
+For more info about WM\_MOUSEMOVE, see [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove).
 
 ### WM\_INPUT
 
@@ -96,13 +96,13 @@ The advantage to using WM\_INPUT is that your game receives raw data from the mo
 
 The disadvantage is that WM\_INPUT has no ballistics applied to its data, so if you want to drive a cursor with this data, extra effort will be required to make the cursor behave like it does in Windows. For more information about applying pointer ballistics, see [Pointer Ballistics for Windows XP](https://www.microsoft.com/whdc/archive/pointer-bal.mspx).
 
-For more info about WM\_INPUT, see [About Raw Input](https://msdn.microsoft.com/library/windows/desktop/ms645543).
+For more info about WM\_INPUT, see [About Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/about-raw-input).
 
 ### DirectInput
 
-[DirectInput](https://msdn.microsoft.com/library/windows/hardware/ff538540) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support the Xbox 360 controller for Windows, use [XInput](https://msdn.microsoft.com/library/windows/desktop/hh405053) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
+[DirectInput](http://msdn.microsoft.com/windows/hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support the Xbox 360 controller for Windows, use [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
 
-Compare the complexity of using [DirectInput](https://msdn.microsoft.com/library/windows/hardware/ff538540), shown in the following code, to the methods previously described. The following set of calls are needed to create a DirectInput mouse:
+Compare the complexity of using [DirectInput](http://msdn.microsoft.com/windows/hardware/drivers/hid/directinput), shown in the following code, to the methods previously described. The following set of calls are needed to create a DirectInput mouse:
 
 ``` syntax
     LPDIRECTINPUT8 pDI;

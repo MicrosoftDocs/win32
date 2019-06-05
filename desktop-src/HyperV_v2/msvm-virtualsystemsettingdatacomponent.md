@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_VirtualSystemSettingDataComponent class
 
-A generic association used to establish 'part of' relationships between one instance of [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) and one or more instances of [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
+A generic association used to establish 'part of' relationships between one instance of [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) and one or more instances of [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -49,7 +49,7 @@ The **Msvm\_VirtualSystemSettingDataComponent** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954)**
+Data type: **[**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -58,26 +58,26 @@ Access type: Read-only
 Qualifiers: **Override**, **Min** (1), **Max** (1)
 </dt> </dl>
 
-The parent element in the association. This property is inherited from [**CIM\_VirtualSystemSettingDataComponent**](https://msdn.microsoft.com/library/cc150674).
+The parent element in the association. This property is inherited from [**CIM\_VirtualSystemSettingDataComponent**](https://docs.microsoft.com/previous-versions//cc150674(v=vs.85)).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)**
+Data type: **[**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The child element in the association. This property is inherited from [**CIM\_VirtualSystemSettingDataComponent**](https://msdn.microsoft.com/library/cc150674).
+The child element in the association. This property is inherited from [**CIM\_VirtualSystemSettingDataComponent**](https://docs.microsoft.com/previous-versions//cc150674(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_VirtualSystemSettingDataComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_VirtualSystemSettingDataComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -100,7 +100,7 @@ Access to the **Msvm\_VirtualSystemSettingDataComponent** class might be restric
 [**CIM\_VirtualSystemSettingDataComponent**](cim-virtualsystemsettingdatacomponent.md)
 </dt> <dt>
 
-[**CIM\_VirtualSystemSettingDataComponent**](https://msdn.microsoft.com/library/cc150674)
+[**CIM\_VirtualSystemSettingDataComponent**](https://docs.microsoft.com/previous-versions//cc150674(v=vs.85))
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)

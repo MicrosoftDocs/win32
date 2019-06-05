@@ -27,9 +27,9 @@ Next
 
 
 
-The following C/C++ code example contains a function that returns an [**IDirectorySearch**](https://msdn.microsoft.com/library/aa746362) pointer used to search the entire forest.
+The following C/C++ code example contains a function that returns an [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer used to search the entire forest.
 
-The function performs a serverless bind to the root of the Global Catalog, enumerates the single item, which is the root of the forest and can be used to search the entire forest, calls [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) to get an [**IDirectorySearch**](https://msdn.microsoft.com/library/aa746362) pointer to the object, and returns that pointer for use by the caller to search the forest.
+The function performs a serverless bind to the root of the Global Catalog, enumerates the single item, which is the root of the forest and can be used to search the entire forest, calls [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) to get an [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer to the object, and returns that pointer for use by the caller to search the forest.
 
 
 ```C++

@@ -68,7 +68,7 @@ This message has no return value.
 
 ## Remarks
 
-The hook procedure must specify the **LBSELCHSTRING** constant in a call to the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get the identifier for the message sent by the dialog box.
+The hook procedure must specify the **LBSELCHSTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
 
 ## Requirements
 
@@ -96,7 +96,7 @@ The hook procedure must specify the **LBSELCHSTRING** constant in a call to the 
 [**CDN\_TYPECHANGE**](cdn-typechange.md)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
+[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**

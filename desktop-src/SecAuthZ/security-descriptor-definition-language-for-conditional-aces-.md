@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Security Descriptor Definition Language for Conditional ACEs
 
-A conditional [*access control entry*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
+A conditional [*access control entry*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
 
 The SDDL for a conditional ACE is the same as for any ACE, with the syntax for the conditional statement appended to the end of the ACE string. For information about SDDL, see [Security Descriptor Definition Language](security-descriptor-definition-language.md).
 
@@ -26,7 +26,7 @@ The "\#" sign is synonymous with "0" in resource attributes. For example, D:AI(X
 
 ## Conditional ACE String Format
 
-Each ACE in a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) string is enclosed in parentheses. The fields of the ACE are in the following order and are separated by semicolons (;).
+Each ACE in a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) string is enclosed in parentheses. The fields of the ACE are in the following order and are separated by semicolons (;).
 
 *AceType***;***AceFlags***;***Rights***;***ObjectGuid***;***InheritObjectGuid***;***AccountSid***;(***ConditionalExpression***)**
 

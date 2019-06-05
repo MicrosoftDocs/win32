@@ -18,12 +18,12 @@ For all three instances, register COM library (DLL) information and application-
 
 The DLL registers the information for all its components by exporting [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx) and [**DllUnregisterServer**](https://msdn.microsoft.com/en-us/library/ms691457(v=VS.85).aspx). Use the following functions to register and unregister a component:
 
--   [**RegOpenKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724897)
--   [**RegCreateKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724844)
--   [**RegSetValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724923)
--   [**RegEnumKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724862)
--   [**RegDeleteKey**](https://msdn.microsoft.com/library/windows/desktop/ms724845)
--   [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837)
+-   [**RegOpenKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
+-   [**RegCreateKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
+-   [**RegSetValueEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa)
+-   [**RegEnumKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumkeyexa)
+-   [**RegDeleteKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya)
+-   [**RegCloseKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey)
 
 ## Related topics
 

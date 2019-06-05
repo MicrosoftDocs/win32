@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Pipe Names
 
-Each named pipe has a unique name that distinguishes it from other named pipes in the system's list of named objects. A pipe server specifies a name for the pipe when it calls the [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) function to create one or more instances of a named pipe. Pipe clients specify the pipe name when they call the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) or [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) function to connect to an instance of the named pipe.
+Each named pipe has a unique name that distinguishes it from other named pipes in the system's list of named objects. A pipe server specifies a name for the pipe when it calls the [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) function to create one or more instances of a named pipe. Pipe clients specify the pipe name when they call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) or [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) function to connect to an instance of the named pipe.
 
-Use the following form when specifying the name of a pipe in the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**WaitNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-waitnamedpipea), or [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) function:
+Use the following form when specifying the name of a pipe in the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**WaitNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-waitnamedpipea), or [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) function:
 
 \\\\*ServerName*\\pipe\\*PipeName*
 

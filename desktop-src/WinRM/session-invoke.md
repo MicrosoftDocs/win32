@@ -89,7 +89,7 @@ The XML representation of the method output.
 
 ## Examples
 
-The following VBScript code example starts a Calc.exe process. The *strInputParameters* parameter contains the input parameters in XML format. The only required input parameter for the [**Create**](https://msdn.microsoft.com/library/aa389388) method of the WMI [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class is the command line to execute.
+The following VBScript code example starts a Calc.exe process. The *strInputParameters* parameter contains the input parameters in XML format. The only required input parameter for the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the WMI [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class is the command line to execute.
 
 
 ```VB
@@ -134,7 +134,7 @@ End Sub
 
 
 
-The following VBScript code example calls the **Session.Invoke** method to execute the [**StopService**](https://msdn.microsoft.com/library/aa393673) method of [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418). The **StopService** method does not have input parameters. However, the **Invoke** method requires an XML string in the *parameters* parameter.
+The following VBScript code example calls the **Session.Invoke** method to execute the [**StopService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/stopservice-method-in-class-win32-service) method of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service). The **StopService** method does not have input parameters. However, the **Invoke** method requires an XML string in the *parameters* parameter.
 
 
 ```VB

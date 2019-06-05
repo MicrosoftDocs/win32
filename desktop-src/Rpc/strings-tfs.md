@@ -49,7 +49,7 @@ conformance_description<>
 
 The first format describes common strings, like a **\[string\]** char \* argument. A sized conformant string has the latter description.
 
-The conformance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://msdn.microsoft.com/library/windows/desktop/aa367363) is used.
+The conformance\_description<> is a correlation descriptor and has 4 or 6 bytes depending on whether [**/robust**](https://docs.microsoft.com/windows/desktop/Midl/-robust) is used.
 
 ### Structure Strings
 

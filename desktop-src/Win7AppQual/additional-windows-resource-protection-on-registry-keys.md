@@ -59,7 +59,7 @@ How to detect if an application had WRP mitigation applied to it:
 
 <dl>
 
-[Windows Resource Protection](https://msdn.microsoft.com/library/windows/desktop/cc185681)  
+[Windows Resource Protection](https://docs.microsoft.com/windows/desktop/Wfp/windows-resource-protection-portal)  
 </dl>
 
  

@@ -40,10 +40,10 @@ The DirectShow EVR filter is documented in the Media Foundation SDK documentatio
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms694298"><strong>IEVRFilterConfig</strong></a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms694261"><strong>IMFGetService</strong></a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms695386"><strong>IMFVideoPositionMapper</strong></a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms698954"><strong>IMFVideoRenderer</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>IMFVideoPositionMapper</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>IMFVideoRenderer</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -60,9 +60,9 @@ Media Foundation interfaces:<br/>
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms703164"><strong>IDirectXVideoMemoryConfiguration</strong></a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms704789"><strong>IEVRVideoStreamControl</strong></a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms694261"><strong>IMFGetService</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>IDirectXVideoMemoryConfiguration</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>IEVRVideoStreamControl</strong></a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -98,16 +98,16 @@ Media Foundation interfaces:<br/>
 
 ## Remarks
 
-In addition to the interfaces exposed through **QueryInterface**, the EVR exposes other interfaces through the [**IMFGetService::GetService**](https://msdn.microsoft.com/library/windows/desktop/ms696978) method. Some of these interfaces are implemented by the EVR presenter or the EVR mixer, rather than the EVR itself. If the application sets a custom presenter or mixer on the EVR, the custom versions might expose a different set of interfaces.
+In addition to the interfaces exposed through **QueryInterface**, the EVR exposes other interfaces through the [**IMFGetService::GetService**](https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) method. Some of these interfaces are implemented by the EVR presenter or the EVR mixer, rather than the EVR itself. If the application sets a custom presenter or mixer on the EVR, the custom versions might expose a different set of interfaces.
 
 
 
 | Object     | Service Identifier                                              | Interfaces                                                                                                                                                                                                                                                                                                     |
 |------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EVR filter | MR\_VIDEO\_RENDER\_SERVICE(Queries EVR or presenter)<br/> | [**IMFVideoDeviceID**](https://msdn.microsoft.com/library/windows/desktop/ms703065)<br/> [**IMFVideoDisplayControl**](https://msdn.microsoft.com/library/windows/desktop/ms704002)<br/> [**IMFVideoPositionMapper**](https://msdn.microsoft.com/library/windows/desktop/ms695386)<br/> [**IMFVideoPresenter**](https://msdn.microsoft.com/library/windows/desktop/ms700214)<br/>                                                          |
-| EVR filter | MR\_VIDEO\_ACCELERATION\_SERVICE(Queries presenter)<br/>  | [**IDirect3DDeviceManager9**](https://msdn.microsoft.com/library/windows/desktop/ms704727)                                                                                                                                                                                                                                                      |
-| EVR filter | MR\_VIDEO\_MIXER\_SERVICE(Queries mixer)<br/>             | [**IMFVideoDeviceID**](https://msdn.microsoft.com/library/windows/desktop/ms703065)<br/> [**IMFVideoMixerBitmap**](https://msdn.microsoft.com/library/windows/desktop/ms697041)<br/> [**IMFVideoMixerControl**](https://msdn.microsoft.com/library/windows/desktop/ms700190)<br/> [**IMFVideoPositionMapper**](https://msdn.microsoft.com/library/windows/desktop/ms695386)<br/> [**IMFVideoProcessor**](https://msdn.microsoft.com/library/windows/desktop/ms694106)<br/> |
-| Input pins | MR\_VIDEO\_ACCELERATION\_SERVICE                                | [**IDirectXVideoMemoryConfiguration**](https://msdn.microsoft.com/library/windows/desktop/ms703164)                                                                                                                                                                                                                                    |
+| EVR filter | MR\_VIDEO\_RENDER\_SERVICE(Queries EVR or presenter)<br/> | [**IMFVideoDeviceID**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodeviceid)<br/> [**IMFVideoDisplayControl**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol)<br/> [**IMFVideoPositionMapper**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopositionmapper)<br/> [**IMFVideoPresenter**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter)<br/>                                                          |
+| EVR filter | MR\_VIDEO\_ACCELERATION\_SERVICE(Queries presenter)<br/>  | [**IDirect3DDeviceManager9**](https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9)                                                                                                                                                                                                                                                      |
+| EVR filter | MR\_VIDEO\_MIXER\_SERVICE(Queries mixer)<br/>             | [**IMFVideoDeviceID**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodeviceid)<br/> [**IMFVideoMixerBitmap**](https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap)<br/> [**IMFVideoMixerControl**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideomixercontrol)<br/> [**IMFVideoPositionMapper**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopositionmapper)<br/> [**IMFVideoProcessor**](https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor)<br/> |
+| Input pins | MR\_VIDEO\_ACCELERATION\_SERVICE                                | [**IDirectXVideoMemoryConfiguration**](https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration)                                                                                                                                                                                                                                    |
 
 
 

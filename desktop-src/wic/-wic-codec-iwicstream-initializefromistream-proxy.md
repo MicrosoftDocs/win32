@@ -48,7 +48,7 @@ Pointer to this [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwics
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034)\***
+Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The initialize stream.
 

@@ -33,7 +33,7 @@ The **INapEnforcementClientConnection** provides methods that allow for client c
 
 ## Members
 
-The **INapEnforcementClientConnection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapEnforcementClientConnection** also has these types of members:
+The **INapEnforcementClientConnection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientConnection** also has these types of members:
 
 -   [Methods](#methods)
 

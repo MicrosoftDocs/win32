@@ -40,7 +40,7 @@ HRESULT SetSoftKeyboardTextFont(
 *pLogFont* \[in\]
 </dt> <dd>
 
-Pointer to a [**LOGFONTW**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure defining the text font for the soft keyboard.
+Pointer to a [**LOGFONTW**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure defining the text font for the soft keyboard.
 
 </dd> </dl>
 

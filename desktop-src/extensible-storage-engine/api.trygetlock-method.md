@@ -83,7 +83,7 @@ public static bool TryGetLock(
 
 #### Return value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 True if the lock was obtained, false otherwise. An exception is thrown if an unexpected error is encountered.  
 
 ## See also

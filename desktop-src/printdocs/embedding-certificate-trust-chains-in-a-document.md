@@ -56,7 +56,7 @@ CreateCertificateChain (
 
 
 
-The following code example creates a certificate chain from certificates and then adds these certificates to an XPS document. Note that [**CertGetCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376078) creates the certificate chain in which the signing certificate is first and the root certificate is last. The signing certificate and the root certificate are not added in this example. The signing certificates will be added with a call to the [**IXpsSignatureManager::Sign**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-sign) method, which should be the last signature method called on the document. The root certificate is not added when the document is signed, because it must be provided by the client computer's certificate server when the signature is validated.
+The following code example creates a certificate chain from certificates and then adds these certificates to an XPS document. Note that [**CertGetCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain) creates the certificate chain in which the signing certificate is first and the root certificate is last. The signing certificate and the root certificate are not added in this example. The signing certificates will be added with a call to the [**IXpsSignatureManager::Sign**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-sign) method, which should be the last signature method called on the document. The root certificate is not added when the document is signed, because it must be provided by the client computer's certificate server when the signature is validated.
 
 
 ```C++
@@ -169,16 +169,16 @@ EmbedCertificateChainInXpsPackage (
 **Used in This Example**
 </dt> <dt>
 
-[**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189)
+[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)
 </dt> <dt>
 
-[**CertGetCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376078)
+[**CertGetCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain)
 </dt> <dt>
 
-[**CRYPT\_OID\_INFO**](https://msdn.microsoft.com/library/windows/desktop/aa381435)
+[**CRYPT\_OID\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info)
 </dt> <dt>
 
-[**IOpcCertificateSet**](https://msdn.microsoft.com/library/windows/desktop/dd368269)
+[**IOpcCertificateSet**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateset)
 </dt> <dt>
 
 [**IXpsSigningOptions**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions)
@@ -187,19 +187,19 @@ EmbedCertificateChainInXpsPackage (
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://msdn.microsoft.com/library/windows/desktop/aa380255)
+[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://msdn.microsoft.com/library/windows/desktop/aa380252)
+[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
-[Digital Certificates](https://msdn.microsoft.com/library/windows/desktop/aa381975)
+[Digital Certificates](https://docs.microsoft.com/windows/desktop/SecCrypto/digital-certificates)
 </dt> <dt>
 
-[Certificate Chains](https://msdn.microsoft.com/library/windows/desktop/aa376515)
+[Certificate Chains](https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-chains)
 </dt> <dt>
 
-[Certificate Trust Verification](https://msdn.microsoft.com/library/windows/desktop/aa376546)
+[Certificate Trust Verification](https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-trust-verification)
 </dt> <dt>
 
 [XPS Digital Signature API Errors](xps-digital-signatures-errors.md)

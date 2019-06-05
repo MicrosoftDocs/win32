@@ -47,10 +47,10 @@ A RADIUS server can act as a proxy client to other RADIUS servers. In these case
 [Internet Authentication Service and Network Policy Server](internet-authentication-service-vs-network-policy-server.md)
 </dt> <dt>
 
-[RADIUS Accounting Packets](https://msdn.microsoft.com/library/bb892007)
+[RADIUS Accounting Packets](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-accounting-packets)
 </dt> <dt>
 
-[Working with a State Server](https://msdn.microsoft.com/library/bb892032)
+[Working with a State Server](https://docs.microsoft.com/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
 
  

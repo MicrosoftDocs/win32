@@ -49,16 +49,16 @@ The **Msvm\_EthernetDeviceSAPImplementation** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_EthernetPort**](https://msdn.microsoft.com/library/mt446068)**
+Data type: **[**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
-A reference to a class derived from [**CIM\_EthernetPort**](https://msdn.microsoft.com/library/mt446068) that represents the logical device.
+A reference to a class derived from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport) that represents the logical device.
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_LANEndpoint**](msvm-lanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the SAP that is using the **Antecedent**.

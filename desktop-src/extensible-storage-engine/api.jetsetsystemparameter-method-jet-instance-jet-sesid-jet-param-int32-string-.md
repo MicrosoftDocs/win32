@@ -86,14 +86,14 @@ public static JET_wrn JetSetSystemParameter(
 <!-- end list -->
 
   - paramValue  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The value of the parameter to set, if the parameter is an integer type.
 
 <!-- end list -->
 
   - paramString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The value of the parameter to set, if the parameter is a string type.
 

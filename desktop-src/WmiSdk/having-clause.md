@@ -34,7 +34,7 @@ SELECT * FROM EmailEvent GROUP WITHIN 300 HAVING NumberOfEvents > 5
 
 
 
-The following example groups all events received in 600 seconds (that is, 10 minutes) by the **TargetInstance**.**SourceName** property. In this example, aggregate events are delivered only if the number of [**Win32\_NTLogEvent**](https://msdn.microsoft.com/library/aa394226) events received from the same source exceeds 25. Keep in mind that the ISA operator causes the **TargetInstance** property of the [**\_\_InstanceCreationEvent**](--instancecreationevent.md) system class to represent an instance of the **Win32\_NTLogEvent** class.
+The following example groups all events received in 600 seconds (that is, 10 minutes) by the **TargetInstance**.**SourceName** property. In this example, aggregate events are delivered only if the number of [**Win32\_NTLogEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) events received from the same source exceeds 25. Keep in mind that the ISA operator causes the **TargetInstance** property of the [**\_\_InstanceCreationEvent**](--instancecreationevent.md) system class to represent an instance of the **Win32\_NTLogEvent** class.
 
 
 ```sql

@@ -23,7 +23,7 @@ The following are examples of cases in which event logging can be helpful:
 
 Messages should make sense to administrators and users who are trying to troubleshoot a problem. A message should contain all the information needed to understand what caused the problem and how to correct it.
 
-Avoid writing a cryptic message such as "A driver packet received from the I/O subsystem was invalid. The data is the packet."A better message would indicate that the driver in question is functioning properly, but is logging incorrectly formatted packets. It could go on to say that a Unicode version of the driver is needed to correct the problem. For more information about writing good error messages, see [Error Message Guidelines](https://msdn.microsoft.com/library/windows/desktop/ms679325).
+Avoid writing a cryptic message such as "A driver packet received from the I/O subsystem was invalid. The data is the packet."A better message would indicate that the driver in question is functioning properly, but is logging incorrectly formatted packets. It could go on to say that a Unicode version of the driver is needed to correct the problem. For more information about writing good error messages, see [Error Message Guidelines](https://docs.microsoft.com/windows/desktop/Debug/error-message-guidelines).
 
 Do not use tabs or commas in the message text, because event logs can be saved as comma or tab-separated text files. Many organizations import these files into databases, and the extra formatting characters will require manual manipulation.
 

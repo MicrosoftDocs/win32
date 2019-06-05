@@ -51,7 +51,7 @@ Defines the event data items and structures that contains the event data.
 
 | Element                                                              | Type                                                               | Description                                                                                          |
 |----------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**Binary**](eventschema-binary-eventdatatype-element.md)           | hexBinary                                                          | A binary data blob for events that are written using [Event Logging](https://msdn.microsoft.com/library/windows/desktop/aa363652).<br/> |
+| [**Binary**](eventschema-binary-eventdatatype-element.md)           | hexBinary                                                          | A binary data blob for events that are written using [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).<br/> |
 | [**ComplexData**](eventschema-complexdata-eventdatatype-element.md) | [**ComplexDataType**](eventschema-complexdatatype-complextype.md) | A structure that is defined in the template for the event.<br/>                                |
 | [**Data**](eventschema-data-eventdatatype-element.md)               | [**DataType**](eventschema-datafieldtype-complextype.md)          | A top-level data item that is defined in the template for the event.<br/>                      |
 

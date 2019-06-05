@@ -36,14 +36,14 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 <span id="lpbiInput"></span><span id="lpbiinput"></span><span id="LPBIINPUT"></span>*lpbiInput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure containing the input format.
+Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure containing the input format.
 
 </dd> <dt>
 
 <span id="lpbiOutput"></span><span id="lpbioutput"></span><span id="LPBIOUTPUT"></span>*lpbiOutput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure containing the output format. You can specify zero for this parameter to indicate any output format is acceptable.
+Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure containing the output format. You can specify zero for this parameter to indicate any output format is acceptable.
 
 </dd> </dl>
 

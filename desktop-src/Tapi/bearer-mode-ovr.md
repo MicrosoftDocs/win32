@@ -18,7 +18,7 @@ Not all service providers support use of this information.
 
 **TAPI 3.x:** See [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong), [**ITCallInfo::put\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfolong), **CIL\_BEARERMODE** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long).
 
-**TSPI:** See [**LINE\_CALLINFO**](https://msdn.microsoft.com/library/ms725218) message, with *dwParam1* set to LINECALLINFOSTATE\_BEARERMODE.
+**TSPI:** See [**LINE\_CALLINFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725218(v=vs.85)) message, with *dwParam1* set to LINECALLINFOSTATE\_BEARERMODE.
 
  
 

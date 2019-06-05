@@ -24,7 +24,7 @@ A [*property*](gloss-p.md) that uses one of the user-defined classes as its type
 <span id="wmi.gloss_refresher"></span><span id="WMI.GLOSS_REFRESHER"></span>**refresher**
 </dt> <dd>
 
-An object that contains instances of [*MOF*](gloss-m.md) classes so that the data can be updated. [*Performance*](gloss-p.md) classes that derive from [**Win32\_Perf**](https://msdn.microsoft.com/library/aa394252) require the use of a refresher object to get performance data.
+An object that contains instances of [*MOF*](gloss-m.md) classes so that the data can be updated. [*Performance*](gloss-p.md) classes that derive from [**Win32\_Perf**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perf) require the use of a refresher object to get performance data.
 
 </dd> <dt>
 

@@ -27,7 +27,7 @@ This topic demonstrates how to retrieve or set the key combination for a hot key
 
 Use the [**HKM\_GETHOTKEY**](hkm-gethotkey.md) message to retrieve the virtual key code and modifier keys that describe a hot key chosen by the user. Use the [**HKM\_SETHOTKEY**](hkm-sethotkey.md) message to set those values for a hot key.
 
-In the following C++ code example, the application-defined function uses the [**HKM\_GETHOTKEY**](hkm-gethotkey.md) message to retrieve a key combination from a hot key control and then uses the [**WM\_SETHOTKEY**](https://msdn.microsoft.com/library/windows/desktop/ms646284) message to set a global hot key. Note that you cannot set a global hot key for a window that has the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) window style.
+In the following C++ code example, the application-defined function uses the [**HKM\_GETHOTKEY**](hkm-gethotkey.md) message to retrieve a key combination from a hot key control and then uses the [**WM\_SETHOTKEY**](https://docs.microsoft.com/windows/desktop/inputdev/wm-sethotkey) message to set a global hot key. Note that you cannot set a global hot key for a window that has the [**WS\_CHILD**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) window style.
 
 ## 
 

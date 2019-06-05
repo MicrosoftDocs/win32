@@ -12,7 +12,7 @@ Starting with the Windows 8, [DirectWrite](direct-write-portal.md) has a number
 
 ## Drawing vertical text
 
-You can draw vertical text with Direct2D by using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) methods. To draw the text vertically, pass [**DWRITE\_READING\_DIRECTION\_TOP\_TO\_BOTTOM**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_reading_direction) to the [**IDWriteTextFormat::SetReadingDirection**](https://msdn.microsoft.com/en-us/library/Dd316705(v=VS.85).aspx) method and [**DWRITE\_FLOW\_DIRECTION\_RIGHT\_TO\_LEFT**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_flow_direction) to the [**IDWriteTextFormatSetFlowDirection**](https://msdn.microsoft.com/en-us/library/Dd316691(v=VS.85).aspx) method. Then you can create and draw a vertical [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object.
+You can draw vertical text with Direct2D by using the [**DrawTextLayout**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) methods. To draw the text vertically, pass [**DWRITE\_READING\_DIRECTION\_TOP\_TO\_BOTTOM**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_reading_direction) to the [**IDWriteTextFormat::SetReadingDirection**](https://msdn.microsoft.com/en-us/library/Dd316705(v=VS.85).aspx) method and [**DWRITE\_FLOW\_DIRECTION\_RIGHT\_TO\_LEFT**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_flow_direction) to the [**IDWriteTextFormatSetFlowDirection**](https://msdn.microsoft.com/en-us/library/Dd316691(v=VS.85).aspx) method. Then you can create and draw a vertical [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object.
 
 ## Analyzing character orientation
 

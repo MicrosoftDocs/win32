@@ -26,7 +26,7 @@ IntrinsicEventClass is the intrinsic event class of which the event is a member,
 
 The polling interval is a floating-point number, and can be fractional to accept values smaller than 1 second. However, the interval should represent a number of seconds rather than an extremely small value such as 0.001, because specifying a value that is too small can cause WMI to reject the statement as not valid—due to the resource-intensive nature of polling. Because most event consumers do not require immediate notification, it is recommended that they use an interval that is greater than 5 minutes.
 
-The following query example requests that WMI check every 10 seconds for changes that occur to instances of the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class. If an instance of the class is modified within the specified polling interval, a notification event is sent for each modification.
+The following query example requests that WMI check every 10 seconds for changes that occur to instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class. If an instance of the class is modified within the specified polling interval, a notification event is sent for each modification.
 
 
 ```sql

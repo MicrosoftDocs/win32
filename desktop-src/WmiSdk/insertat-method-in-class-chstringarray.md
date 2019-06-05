@@ -8,7 +8,7 @@ title: 'CHStringArray::InsertAt methods'
 
 # CHStringArray::InsertAt methods
 
-\[The [**CHStringArray**](https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CHStringArray**](https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **InsertAt** method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
 

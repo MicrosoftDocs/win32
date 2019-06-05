@@ -88,8 +88,8 @@ Early in the designing of this web page, we made a stake in the ground that one 
 
 The following articles provide guidance for writing secure C++ code.
 
--   [Security Best Practices for C++](https://msdn.microsoft.com/en-us/library/k3a3hzw7.aspx)
--   [Patterns & Practices Security Guidance for Applications](https://msdn.microsoft.com/en-us/library/ff650760.aspx)
+-   [Security Best Practices for C++](https://docs.microsoft.com/cpp/security/security-best-practices-for-cpp)
+-   [Patterns & Practices Security Guidance for Applications](https://docs.microsoft.com/previous-versions/msp-n-p/ff650760(v=pandp.10))
 
 ## Related topics
 
@@ -104,7 +104,7 @@ The following articles provide guidance for writing secure C++ code.
 [Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/library/windows/apps/br227044)
+[**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  

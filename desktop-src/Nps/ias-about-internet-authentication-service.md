@@ -27,7 +27,7 @@ The following diagram illustrates the flow of packets through an NPS RADIUS serv
 If an Authentication Extension DLL returns ACCEPT, the packet skips the NPS authentication and goes directly to NPS authorization.
 
 > [!Note]  
-> When multiple Authentication Extension DLLs are present, the rest of the Extension DLLs might be skipped as well. See [Setting Up the Extension DLLs](https://msdn.microsoft.com/library/bb892024) for more information.
+> When multiple Authentication Extension DLLs are present, the rest of the Extension DLLs might be skipped as well. See [Setting Up the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls) for more information.
 
  
 
@@ -40,9 +40,9 @@ If an Authentication Extension DLL returns CONTINUE, the packet goes to NPS auth
 
 The following topics describe the Extension DLLs in more detail:
 
--   [Setting Up the Extension DLLs](https://msdn.microsoft.com/library/bb892024)
--   [Invoking the Extension DLLs](https://msdn.microsoft.com/library/bb891988)
--   [User Identification Attributes](https://msdn.microsoft.com/library/bb892029)
+-   [Setting Up the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls)
+-   [Invoking the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-authentication-and-authorization-process)
+-   [User Identification Attributes](https://docs.microsoft.com/windows/desktop/Nps/ias-user-identification-attributes)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Windows Server 2008 introduces a new type of domain controller, the Read-only Domain Controller (RODC). This provides a domain controller for use at branch offices where a full domain controller cannot be placed. The intent is to allow users in the branch offices to logon and perform tasks like file/printer sharing even when there is no network connectivity to hub sites.
 
-RODC does not change the way schema is used. However, it is worthwhile to mention that the schema supports a Read-Only Partial Attribute Set (RO-PAS), also referred to as an RODC filtered attribute set, which is a special attribute set that is NOT replicated to RODCs for security reasons. RO-PAS are defined in the schema via the [**searchFlags**](https://msdn.microsoft.com/library/ms679765) attribute.
+RODC does not change the way schema is used. However, it is worthwhile to mention that the schema supports a Read-Only Partial Attribute Set (RO-PAS), also referred to as an RODC filtered attribute set, which is a special attribute set that is NOT replicated to RODCs for security reasons. RO-PAS are defined in the schema via the [**searchFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-searchflags) attribute.
 
 ## RODC filtered attribute set
 

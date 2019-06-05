@@ -17,7 +17,7 @@ api_location:
 
 # GetServiceAccountPassword function
 
-Retrieves the service account password, available to [*security support providers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-support-provider-gly) (SSPs), such as Kerberos SSP.
+Retrieves the service account password, available to [*security support providers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSPs), such as Kerberos SSP.
 
 ## Syntax
 
@@ -113,7 +113,7 @@ If the function fails, the return value is an NTSTATUS code. For more informatio
 
 You can use the [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) function to convert the NTSTATUS code to a Windows error code.
 
-When you have finished using the buffers returned in the *CurrentPassword* and *PreviousPassword* parameters, free them by calling the [**FreeLsaHeap**](https://msdn.microsoft.com/library/windows/desktop/aa375423) function.
+When you have finished using the buffers returned in the *CurrentPassword* and *PreviousPassword* parameters, free them by calling the [**FreeLsaHeap**](https://docs.microsoft.com/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap) function.
 
 ## Remarks
 
@@ -121,7 +121,7 @@ The **GetServiceAccountPassword** function can be called in the following scenar
 
 -   From the logon functions of Security Support Providers (SSP), the SSP should detect that the SERVICE\_ACCOUNT\_PASSWORD is being used to log on to the entity and should check that the caller has TCB privilege or is a network service. Then the SSP should allow the log on process to proceed by getting the latest credential by calling the **GetServiceAccountPassword** function with the **CredFetchDefault** value in the [**CRED\_FETCH**](cred-fetch.md) enumeration.
 
--   From SSPs in their [**InitializeSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa375506) and [**AcceptSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa374703) calls. SSPs should detect that the SERVICE\_ACCOUNT\_PASSWORD is being used for these calls, and if the call is for nonprimary credentials, then the SSP should ensure that the caller has either TCB privilege or is a network service. Then the SSP should call the **GetServiceAccountPassword** function with the **CredFetchDefault** value in the [**CRED\_FETCH**](cred-fetch.md) enumeration and proceed with the call. If the **InitializeSecurityContext** and **AcceptSecurityContext** calls fail, then the SSP should use the *FileTimeExpiry* retrieved from the previous call to **GetServiceAccountPassword** and use it as input to calling **GetServiceAccountPassword** again using the **CredFetchForced** value in the **CRED\_FETCH** enumeration. If a new gMSA credential is available, the second call will succeed with new credentials, and the SSP should then retry with the new credentials.
+-   From SSPs in their [**InitializeSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta) and [**AcceptSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext) calls. SSPs should detect that the SERVICE\_ACCOUNT\_PASSWORD is being used for these calls, and if the call is for nonprimary credentials, then the SSP should ensure that the caller has either TCB privilege or is a network service. Then the SSP should call the **GetServiceAccountPassword** function with the **CredFetchDefault** value in the [**CRED\_FETCH**](cred-fetch.md) enumeration and proceed with the call. If the **InitializeSecurityContext** and **AcceptSecurityContext** calls fail, then the SSP should use the *FileTimeExpiry* retrieved from the previous call to **GetServiceAccountPassword** and use it as input to calling **GetServiceAccountPassword** again using the **CredFetchForced** value in the **CRED\_FETCH** enumeration. If a new gMSA credential is available, the second call will succeed with new credentials, and the SSP should then retry with the new credentials.
 
 ## Requirements
 

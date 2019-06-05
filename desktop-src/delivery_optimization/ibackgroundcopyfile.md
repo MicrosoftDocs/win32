@@ -27,7 +27,7 @@ To get an **IBackgroundCopyFile** interface pointer, call the [**IBackgroundCopy
 
 ## Members
 
-The **IBackgroundCopyFile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IBackgroundCopyFile** also has these types of members:
+The **IBackgroundCopyFile** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyFile** also has these types of members:
 
 -   [Methods](#methods)
 

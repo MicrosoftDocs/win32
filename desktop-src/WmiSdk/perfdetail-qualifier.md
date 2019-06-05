@@ -17,7 +17,7 @@ api_location:
 
 # PerfDetail Qualifier
 
-The **PerfDetail** qualifier in [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299) classes is not used. It always contains 100.
+The **PerfDetail** qualifier in [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes is not used. It always contains 100.
 
 ## Requirements
 

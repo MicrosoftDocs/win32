@@ -14,7 +14,7 @@ Once a character is loaded, you can use several of Microsoft Agent's methods for
 
 Once the character's frame is visible, you can use the [**Play**](play-method.md) method, specifying the name of an animation, to play that animation. Animation names are specific to a character definition. As an animation plays, the shape of its window changes to match the image in the frame. This results in a movable graphic image, or *sprite*, displayed on top of the desktop and all windows, or *z-order*.
 
-If the character's file is stored locally, you can simply call the [**Play**](play-method.md) method. In other cases, such as when you have loaded an .ACF character from an HTTP server, you must use the [**Get**](get-method.md) (or [**Prepare**](https://msdn.microsoft.com/library/windows/desktop/ms699189)) method to first retrieve the animation data. This will cause Agent to request the animation file from the server and store it in the browser's buffer on the local machine.
+If the character's file is stored locally, you can simply call the [**Play**](play-method.md) method. In other cases, such as when you have loaded an .ACF character from an HTTP server, you must use the [**Get**](get-method.md) (or [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare)) method to first retrieve the animation data. This will cause Agent to request the animation file from the server and store it in the browser's buffer on the local machine.
 
 The [**Speak**](speak-method.md) method enables you to program the character to speak, automatically lip-syncing the output. Further details are covered in the Output section of this document.
 

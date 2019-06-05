@@ -58,13 +58,13 @@ A **ProbationTime** structure that specifies the time required for the connectio
 **stringCorrelationIdLength**
 </dt> <dd>
 
-The length, in bytes, of the NAP [stringCorrelationId](https://msdn.microsoft.com/library/windows/desktop/cc441807) that follows this structure.
+The length, in bytes, of the NAP [stringCorrelationId](https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes) that follows this structure.
 
 </dd> </dl>
 
 ## Remarks
 
-The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](https://msdn.microsoft.com/library/windows/desktop/cc441807) of data type **WCHAR** in the RPC byte stream.
+The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes) of data type **WCHAR** in the RPC byte stream.
 
 ## Requirements
 

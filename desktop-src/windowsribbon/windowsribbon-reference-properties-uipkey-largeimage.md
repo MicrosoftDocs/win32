@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_LargeImage is used by an application to query the large image associated with a ribbon control.
 
-The property value is an [**IUIImage**](https://msdn.microsoft.com/library/windows/desktop/dd371367) object.
+The property value is an [**IUIImage**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) object.
 
 ## Related topics
 

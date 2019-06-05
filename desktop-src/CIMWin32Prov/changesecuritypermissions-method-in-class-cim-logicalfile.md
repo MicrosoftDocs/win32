@@ -25,7 +25,7 @@ The **ChangeSecurityPermissions** method changes the security permissions for th
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ uint32 ChangeSecurityPermissions(
 Specifies security information.
 
 > [!Note]  
-> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) grants unlimited access.
+> A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) grants unlimited access.
 
  
 

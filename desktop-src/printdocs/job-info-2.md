@@ -243,9 +243,9 @@ The size, in bytes, of the job.
 **Submitted**
 </dt> <dd>
 
-A [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure that specifies the time when the job was submitted.
+A [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.
 
-This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](https://msdn.microsoft.com/library/windows/desktop/ms724277) function to perform the conversion.
+This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
 
 </dd> <dt>
 

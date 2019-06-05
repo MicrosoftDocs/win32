@@ -138,9 +138,9 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://msdn.microsoft.com/library/mt432433) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818). This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
+Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/requeststatechange-cim-enabledlogicalelement) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)). This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
 
-This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818).
+This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
 
 <dl> <dt>
 
@@ -185,7 +185,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it is always set to "VLAN Endpoint".
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "VLAN Endpoint".
 
 </dd> <dt>
 
@@ -198,7 +198,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -211,7 +211,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class or the subclass used in the creation of an instance. This property is inherited from [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447), and it is always set to "Msvm\_VLANEndpoint".
+The name of the class or the subclass used in the creation of an instance. This property is inherited from [**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint), and it is always set to "Msvm\_VLANEndpoint".
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218), and it is always set to "Microsoft VLAN Endpoint".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Microsoft VLAN Endpoint".
 
 </dd> <dt>
 
@@ -237,7 +237,7 @@ Data type: **uint16**
 Access type: Write-only
 </dt> </dl>
 
-The desired VLAN mode that is requested for use. The current mode is given by the **OperationalEndpointMode** property. This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+The desired VLAN mode that is requested for use. The current mode is given by the **OperationalEndpointMode** property. This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 
 
@@ -268,7 +268,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The type of VLAN encapsulation that is requested for use. The encapsulation currently in use is given by the **OperationalVLANTrunkEncapsulation** property. This property is only applicable when the endpoint is operating in a trunking mode (see the **OperationalEndpointMode** property for additional details). This property is either 2 (Not Applicable) (that is, the endpoint will never be placed in a trunking mode), a particular type (802.1Q or Cisco ISL), or 5 (Negotiate) (that is, the result of the negotiation between this interface and its neighbor). The value, 5 (Negotiate) is not allowed if the endpoint does not support negotiation. This capability is hardware and vendor dependent. This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+The type of VLAN encapsulation that is requested for use. The encapsulation currently in use is given by the **OperationalVLANTrunkEncapsulation** property. This property is only applicable when the endpoint is operating in a trunking mode (see the **OperationalEndpointMode** property for additional details). This property is either 2 (Not Applicable) (that is, the endpoint will never be placed in a trunking mode), a particular type (802.1Q or Cisco ISL), or 5 (Negotiate) (that is, the result of the negotiation between this interface and its neighbor). The value, 5 (Negotiate) is not allowed if the endpoint does not support negotiation. This capability is hardware and vendor dependent. This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 <dl> <dt>
 
@@ -307,7 +307,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -320,7 +320,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -333,7 +333,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818) and is always set to 2 (Enabled).
+An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) and is always set to 2 (Enabled).
 
 </dd> <dt>
 
@@ -346,7 +346,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of this element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is always set to 5 (Not Applicable).
+The enabled and disabled states of this element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5 (Not Applicable).
 
 </dd> <dt>
 
@@ -359,7 +359,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether GARP VLAN Registration Protocol (GVRP) is enabled or disabled on the trunk endpoint/port. This property is 2 (Not Applicable) unless GVRP is supported by the endpoint. This property is applicable only when the endpoint is operating in trunking mode (see the **OperationalEndpointMode** property for additional details). This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+Indicates whether GARP VLAN Registration Protocol (GVRP) is enabled or disabled on the trunk endpoint/port. This property is 2 (Not Applicable) unless GVRP is supported by the endpoint. This property is applicable only when the endpoint is operating in trunking mode (see the **OperationalEndpointMode** property for additional details). This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 <dl> <dt>
 
@@ -386,7 +386,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This property expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is always set to 5 (OK).
+The current health of the element. This property expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5 (OK).
 
 </dd> <dt>
 
@@ -399,7 +399,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time when the object was installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and it is not used.
+The date and time when the object was installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is not used.
 
 </dd> <dt>
 
@@ -415,7 +415,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -428,7 +428,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -441,7 +441,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-The naming heuristic that is selected to ensure that the value of the **Name** property is unique. This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264) and is not used.
+The naming heuristic that is selected to ensure that the value of the **Name** property is unique. This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint) and is not used.
 
 </dd> <dt>
 
@@ -454,7 +454,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -467,7 +467,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The configuration mode for the VLAN endpoint. This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+The configuration mode for the VLAN endpoint. This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 
 
@@ -498,7 +498,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and each array element is always set to 2 (OK).
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and each array element is always set to 2 (OK).
 
 </dd> <dt>
 
@@ -511,7 +511,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The type of VLAN encapsulation in use on a trunk endpoint/port. This property is either 2 (Not Applicable) (that is, the endpoint is not operating in trunking mode), a particular type (3 - 802.1Q or 4 - Cisco ISL), 5 (Negotiate) (that is, the endpoints are negotiating the encapsulation type). This property is only applicable when the endpoint is operating in a trunking mode (see the **OperationalEndpointMode** property for additional details). This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+The type of VLAN encapsulation in use on a trunk endpoint/port. This property is either 2 (Not Applicable) (that is, the endpoint is not operating in trunking mode), a particular type (3 - 802.1Q or 4 - Cisco ISL), 5 (Negotiate) (that is, the endpoints are negotiating the encapsulation type). This property is only applicable when the endpoint is operating in a trunking mode (see the **OperationalEndpointMode** property for additional details). This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 <dl> <dt>
 
@@ -550,7 +550,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 ("Other"). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to **Null**.
+A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 ("Other"). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -563,7 +563,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The type of VLAN endpoint model that is supported by this VLAN endpoint, when the value of the **OperationalEndpointMode** property is set to 1 (Other). This property should be set to **Null** when the **OperationalEndpointMode** property is any value other than 1. This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+The type of VLAN endpoint model that is supported by this VLAN endpoint, when the value of the **OperationalEndpointMode** property is set to 1 (Other). This property should be set to **Null** when the **OperationalEndpointMode** property is any value other than 1. This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 </dd> <dt>
 
@@ -576,7 +576,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The type of VLAN encapsulation that is supported by this VLAN endpoint, when the value of the **OperationalVLANTrunkEncapsulation** property is set to 1 (Other). This property should be set to **Null** when the desired encapsulation property is any value other than 1. This property is inherited from [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736).
+The type of VLAN encapsulation that is supported by this VLAN endpoint, when the value of the **OperationalVLANTrunkEncapsulation** property is set to 1 (Other). This property should be set to **Null** when the desired encapsulation property is any value other than 1. This property is inherited from [**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint).
 
 </dd> <dt>
 
@@ -589,7 +589,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-The type of protocol endpoint when the **Type** property of this class (or any of its subclasses) is set to 1 (Other). This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264), and it is always set to "Virtual Ethernet".
+The type of protocol endpoint when the **Type** property of this class (or any of its subclasses) is set to 1 (Other). This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint), and it is always set to "Virtual Ethernet".
 
 </dd> <dt>
 
@@ -602,7 +602,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -615,7 +615,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The [IANA ifType MIB](https://www.iana.org/assignments/ianaiftype-mib). This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264), and it is always set to 1 (Other).
+The [IANA ifType MIB](https://www.iana.org/assignments/ianaiftype-mib). This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint), and it is always set to 1 (Other).
 
 </dd> <dt>
 
@@ -628,7 +628,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ProtocolEndpoint**](https://msdn.microsoft.com/library/mt432264) and is not used.
+This property is inherited from [**CIM\_ProtocolEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint) and is not used.
 
 </dd> <dt>
 
@@ -641,7 +641,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the management service. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), and it is always set to 12 (Not Applicable).
+The last requested or desired state for the management service. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to 12 (Not Applicable).
 
 
 
@@ -664,7 +664,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Describes the status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
+Describes the status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 "OK"
 
@@ -701,7 +701,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898), and each array element is always set to "OK".
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and each array element is always set to "OK".
 
 </dd> <dt>
 
@@ -714,7 +714,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Indexed")
+Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 The endpoint modes supported by this port.
@@ -730,7 +730,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The creation class name of the scoping system. This property is inherited from [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447), and it is always set to "Msvm\_VirtualSwitch"
+The creation class name of the scoping system. This property is inherited from [**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint), and it is always set to "Msvm\_VirtualSwitch"
 
 </dd> <dt>
 
@@ -743,7 +743,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The system name of the scoping system. This property is inherited from [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447).
+The system name of the scoping system. This property is inherited from [**CIM\_ServiceAccessPoint**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-serviceaccesspoint).
 
 </dd> <dt>
 
@@ -756,7 +756,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not supported.
+The date and time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not supported.
 
 </dd> <dt>
 
@@ -769,13 +769,13 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/cc136818), but it is not used.
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not used.
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_VLANEndpoint** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_VLANEndpoint** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -802,7 +802,7 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_VLANEndpoint**](cim-vlanendpoint.md)
 </dt> <dt>
 
-[**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736)
+[**CIM\_VLANEndpoint**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-vlanendpoint)
 </dt> </dl>
 
  

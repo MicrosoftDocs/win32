@@ -46,7 +46,7 @@ Signifies that the operating system should first attempt to retrieve the passwor
 <span id="CredFetchDPAPI"></span><span id="credfetchdpapi"></span><span id="CREDFETCHDPAPI"></span>**CredFetchDPAPI**
 </dt> <dd>
 
-Returns the local DPAPI credential to the caller. [*Security support providers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-support-provider-gly) (SSPs) generally would not require the use of this enumeration.
+Returns the local DPAPI credential to the caller. [*Security support providers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSPs) generally would not require the use of this enumeration.
 
 </dd> <dt>
 

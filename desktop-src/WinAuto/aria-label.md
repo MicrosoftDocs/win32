@@ -44,9 +44,9 @@ To fix this error, set the accessible name in one of the following ways (listed 
 -   Image/image button: Set the **alt** attribute.
 -   Buttons: Set the button caption text.
 -   For any element:
-    -   [**aria-labelledby**](https://msdn.microsoft.com/library/windows/apps/hh465708) attribute: Set to the **id** value of the element containing the accessible name string.
-    -   [**aria-label**](https://msdn.microsoft.com/library/windows/apps/hh968005) attribute: Set to the accessible name string.
-    -   [**title**](https://msdn.microsoft.com/library/windows/apps/hh780173) attribute: Set to the accessible name string (also create a **tooltip**).
+    -   [**aria-labelledby**](https://msdn.microsoft.com/library/Cc848875) attribute: Set to the **id** value of the element containing the accessible name string.
+    -   [**aria-label**](https://msdn.microsoft.com/library/Hh968243) attribute: Set to the accessible name string.
+    -   [**title**](https://msdn.microsoft.com/library/ms534683) attribute: Set to the accessible name string (also create a **tooltip**).
 
 ## Example
 

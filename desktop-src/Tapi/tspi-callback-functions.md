@@ -12,7 +12,7 @@ This section contains descriptions of the Telephony SPI callback functions. The 
 
 -   [**Completion\_Proc**](https://msdn.microsoft.com/en-us/library/ms725180(v=VS.85).aspx)
 -   [**Line\_Event**](https://msdn.microsoft.com/en-us/library/ms725228(v=VS.85).aspx)
--   [**Phone\_Event**](https://msdn.microsoft.com/library/ms725259)
+-   [**Phone\_Event**](https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-phoneevent)
 
  
 

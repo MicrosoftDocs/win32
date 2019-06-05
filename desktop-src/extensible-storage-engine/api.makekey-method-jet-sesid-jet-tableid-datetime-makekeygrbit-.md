@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)  
+    Type: [System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)  
     
     Column data for the current key column of the current index.
 

@@ -68,7 +68,7 @@ The type of information returned in the *pDatatypes* buffer. This parameter must
 
 A pointer to a buffer that receives an array of [**DATATYPES\_INFO\_1**](datatypes-info-1.md) structures. Each structure describes an available data type. The buffer must be large enough to receive the array of structures and any strings or other data to which the structure members point.
 
-To determine the required buffer size, call **EnumPrintProcessorDatatypes** with *cbBuf* set to zero. **EnumPrintProcessorDatatypes** fails, [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
+To determine the required buffer size, call **EnumPrintProcessorDatatypes** with *cbBuf* set to zero. **EnumPrintProcessorDatatypes** fails, [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
 
 </dd> <dt>
 

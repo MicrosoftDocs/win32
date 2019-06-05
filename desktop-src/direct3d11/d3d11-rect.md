@@ -25,7 +25,7 @@ D3D11\_RECT is declared as follows:
 typedef RECT D3D11_RECT;
 ```
 
-For more information about this GDI rectangle structure, see [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897).
+For more information about this GDI rectangle structure, see [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)).
 
 ## Remarks
 

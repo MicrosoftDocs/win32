@@ -40,28 +40,28 @@ uint32 AddResourceSettings(
 *AffectedConfiguration* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) object that represents the affected virtual switch configuration.
+A reference to a [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) object that represents the affected virtual switch configuration.
 
 </dd> <dt>
 
 *ResourceSettings* \[in\]
 </dt> <dd>
 
-An array of strings that contain one embedded instance of the [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214) class that describes the virtual aspects of a virtual resource to be added to the virtual switch.
+An array of strings that contain one embedded instance of the [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class that describes the virtual aspects of a virtual resource to be added to the virtual switch.
 
 </dd> <dt>
 
 *ResultingResourceSettings* \[out\]
 </dt> <dd>
 
-An array of references to instances of the [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214) class that represents virtual aspects of the added virtual resources.
+An array of references to instances of the [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class that represents virtual aspects of the added virtual resources.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 

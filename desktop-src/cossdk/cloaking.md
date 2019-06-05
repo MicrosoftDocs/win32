@@ -16,12 +16,12 @@ When cloaking is enabled, calls made by the server impersonating the client can 
 
 Moreover, there are two forms of cloaking, *static cloaking* and *dynamic cloaking*, which can be described as follows:
 
--   Impersonation with static cloaking. The original client identity (realized as the server thread token) can be presented once to a downstream server on a call using [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/windows/desktop/ms692692), setting the original client identity once on the proxy, and that thread token will be used on subsequent method calls.
+-   Impersonation with static cloaking. The original client identity (realized as the server thread token) can be presented once to a downstream server on a call using [**CoSetProxyBlanket**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), setting the original client identity once on the proxy, and that thread token will be used on subsequent method calls.
 -   Impersonation with dynamic cloaking. The original client identity is discovered as the server thread token on each method call to the downstream server. In effect, the identity that is presented can be determined dynamically. The overhead required to do this can be considerably more expensive.
 
 For COM+ applications, the default configuration is for dynamic cloaking capability. This can be changed programmatically and administratively. While dynamic cloaking can have performance overhead, it provides the flexibility that is usually required by circumstances that necessitate using impersonation in the first place.
 
-For more detail regarding cloaking and precise descriptions of possible behaviors, see [Cloaking](https://msdn.microsoft.com/library/windows/desktop/ms683778) in the COM documentation.
+For more detail regarding cloaking and precise descriptions of possible behaviors, see [Cloaking](https://docs.microsoft.com/windows/desktop/com/cloaking) in the COM documentation.
 
 ## Related topics
 

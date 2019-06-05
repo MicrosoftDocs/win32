@@ -48,7 +48,7 @@ See [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysi
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppAnalysisHint* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAnalysisHint* when you no longer need to use the object.
 
  
 

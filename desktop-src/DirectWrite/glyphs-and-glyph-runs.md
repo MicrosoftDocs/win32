@@ -31,7 +31,7 @@ Another example of alternate glyphs are swash glyphs. The following screen shot 
 
 ![screen shot of the letters "a" through "n" in standard and swash glyphs](images/opentypeswashstandard.png)
 
-Swashes and other typographic features, including more elaborate alternate glyphs, are available through [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097). OpenType typographic features can be applied to a text range by using the [**IDWriteTextLayout::SetTypography**](https://msdn.microsoft.com/en-us/library/Dd371517(v=VS.85).aspx) and passing the [**DWRITE\_FONT\_FEATURE\_TAG**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag) enumeration constant associated with the desired feature.
+Swashes and other typographic features, including more elaborate alternate glyphs, are available through [OpenType](https://docs.microsoft.com/windows/desktop/Intl/opentype-font-format). OpenType typographic features can be applied to a text range by using the [**IDWriteTextLayout::SetTypography**](https://msdn.microsoft.com/en-us/library/Dd371517(v=VS.85).aspx) and passing the [**DWRITE\_FONT\_FEATURE\_TAG**](/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag) enumeration constant associated with the desired feature.
 
 ## Glyph Runs
 
@@ -55,7 +55,7 @@ The following diagram shows various metrics of two different glyph characters.
 
 When implementing a custom text renderer, the rendering of glyphs is handled by the [**IDWriteTextRenderer::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx), a callback method that you implement as part of a class derived from [**IDWriteTextRenderer**](https://msdn.microsoft.com/en-us/library/Dd371523(v=VS.85).aspx). The [**DWRITE\_GLYPH\_RUN**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run) structure that is passed to [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd368167(v=VS.85).aspx) contains a [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object, named *fontFace*, that represents the font face for the entire glyph run.
 
-The [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object also provides the [**GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316919) when rendering with [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx).
+The [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx) object also provides the [**GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) when rendering with [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx).
 
 For more information, see the [How to Implement a Custom Text Renderer](how-to-implement-a-custom-text-renderer.md) topic.
 

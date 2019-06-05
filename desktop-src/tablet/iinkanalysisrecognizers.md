@@ -21,7 +21,7 @@ Contains a collection of objects that implement the [**IInkAnalysisRecognizer**]
 
 ## Members
 
-The **IInkAnalysisRecognizers** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IInkAnalysisRecognizers** also has these types of members:
+The **IInkAnalysisRecognizers** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizers** also has these types of members:
 
 -   [Methods](#methods)
 

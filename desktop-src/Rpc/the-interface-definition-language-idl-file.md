@@ -31,7 +31,7 @@ This section gives an overview of the components of an interface. It is organize
 
 <dl> <dt>
 
-[IDL Attributes](https://msdn.microsoft.com/library/windows/desktop/aa367042)
+[IDL Attributes](https://docs.microsoft.com/windows/desktop/Midl/idl-attributes)
 </dt> </dl>
 
  

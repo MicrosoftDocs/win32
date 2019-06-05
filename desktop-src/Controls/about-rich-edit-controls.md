@@ -21,7 +21,7 @@ The following topics are discussed in this section.
 
 ## Versions of Rich Edit
 
-The original specification for rich edit controls is Microsoft Rich Edit 1.0; the current specification is Microsoft Rich Edit 4.1. Each version of rich edit is a superset of the preceding one, except that only Asian builds of Microsoft Rich Edit 1.0 have a vertical text option. Before creating a rich edit control, you should call the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) function to verify which version of Microsoft Rich Edit is installed.
+The original specification for rich edit controls is Microsoft Rich Edit 1.0; the current specification is Microsoft Rich Edit 4.1. Each version of rich edit is a superset of the preceding one, except that only Asian builds of Microsoft Rich Edit 1.0 have a vertical text option. Before creating a rich edit control, you should call the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) function to verify which version of Microsoft Rich Edit is installed.
 
 The following table shows which DLL corresponds with which version of Rich Edit. Note that the name of the file did not change from version 2.0 to version 3.0. This allows version 2.0 to be upgraded to version 3.0 without breaking existing code.
 
@@ -56,7 +56,7 @@ Microsoft Rich Edit 1.0 includes the following features.
 | Embedded objects                                                                   | Requires client collaboration based on [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) and [**IRichEditOleCallback**](/windows/desktop/api/Richole/nn-richole-iricheditolecallback) interfaces.                                                                                                                                          |
 | Right-button menu support                                                          | Uses [**IRichEditOleCallback**](/windows/desktop/api/Richole/nn-richole-iricheditolecallback) interface.                                                                                                                                                                                                                      |
 | Drag-and-drop editing                                                              | Drag-and-drop editing is supported.                                                                                                                                                                                                                                                       |
-| Notifications                                                                      | [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages sent to client plus a number of others. This is a superset of common-control notifications.                                                                                                                                                 |
+| Notifications                                                                      | [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages sent to client plus a number of others. This is a superset of common-control notifications.                                                                                                                                                 |
 | Single-level undo/redo                                                             | Behaves similarly to the system edit control. Selecting **Undo** reverses the last action, and that action then becomes the new **Redo** action.                                                                                                                                          |
 | Simple vertical text                                                               | (Asian builds only).                                                                                                                                                                                                                                                                      |
 | Input Method Editor (IME) support                                                  | (Asian builds only).                                                                                                                                                                                                                                                                      |
@@ -116,7 +116,7 @@ Microsoft Rich Edit 2.0 includes the following features in addition to the featu
 With a few exceptions, Microsoft Rich Edit 2.0 uses the same functions, structures, and messages as Microsoft Rich Edit 1.0. Note, however, the following differences:
 
 -   The name of the Microsoft Rich Edit 1.0 window class is **RichEdit**. Microsoft Rich Edit 2.0 has both ANSI and Unicode window classes **RichEdit20A** and **RichEdit20W,** respectively. To specify the appropriate rich edit window class, use the RICHEDIT\_CLASS constant, which the Richedit.h file defines depending on the definition of the UNICODE compile flag.
--   In Microsoft Rich Edit 2.0, if you create a Unicode rich edit control (one that expects Unicode text messages), you must specify only Unicode data in any window messages sent to the control. Similarly, if you create an ANSI rich edit control, send only ANSI or double-byte character set (DBCS) data. You can use the [**IsWindowUnicode**](https://msdn.microsoft.com/library/windows/desktop/ms633529) function to determine whether a rich edit control uses Unicode text messages. Note that the rich edit COM interfaces use Unicode text unless they encounter a code page argument.
+-   In Microsoft Rich Edit 2.0, if you create a Unicode rich edit control (one that expects Unicode text messages), you must specify only Unicode data in any window messages sent to the control. Similarly, if you create an ANSI rich edit control, send only ANSI or double-byte character set (DBCS) data. You can use the [**IsWindowUnicode**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowunicode) function to determine whether a rich edit control uses Unicode text messages. Note that the rich edit COM interfaces use Unicode text unless they encounter a code page argument.
 -   Microsoft Rich Edit 1.0 used CR/LF character combinations for paragraph markers. Microsoft Rich Edit 2.0 used only a carriage return character ('\\r'). Microsoft Rich Edit 3.0 uses only a carriage return character but can emulate Microsoft Rich Edit 1.0 in this regard.
 -   Microsoft Rich Edit 2.0 introduced the following new messages. 
 
@@ -370,8 +370,8 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 <td>The <a href="rich-edit-control-styles"><strong>ES_VERTICAL</strong></a> window style is supported.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms646288"><strong>WM_UNICHAR</strong></a> support</td>
-<td>To send or post Unicode characters to ANSI windows, use <a href="https://msdn.microsoft.com/library/windows/desktop/ms646288"><strong>WM_UNICHAR</strong></a>. It is equivalent to <a href="https://msdn.microsoft.com/library/windows/desktop/ms646276"><strong>WM_CHAR</strong></a>, but it uses (UTF)-32.</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> support</td>
+<td>To send or post Unicode characters to ANSI windows, use <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>. It is equivalent to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>, but it uses (UTF)-32.</td>
 </tr>
 </tbody>
 </table>
@@ -399,8 +399,8 @@ The following messages are processed by edit controls but *not* by rich edit con
 | [**EM\_SETMARGINS**](em-setmargins.md)     | Supported in Microsoft Rich Edit 3.0.                                                                                       |
 | [**EM\_SETRECTNP**](em-setrectnp.md)       | Not supported.                                                                                                              |
 | [**EM\_SETTABSTOPS**](em-settabstops.md)   | The [**EM\_SETPARAFORMAT**](em-setparaformat.md) message is used instead. Supported in Microsoft Rich Edit 3.0.<br/> |
-| [**WM\_CTLCOLOR**](https://msdn.microsoft.com/library/bb432504)    | The [**EM\_SETBKGNDCOLOR**](em-setbkgndcolor.md) message is used instead.                                                  |
-| [**WM\_GETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632624)        | The [**EM\_GETCHARFORMAT**](em-getcharformat.md) message is used instead.                                                  |
+| [**WM\_CTLCOLOR**](https://docs.microsoft.com/windows/desktop/DevNotes/wm-ctlcolor-)    | The [**EM\_SETBKGNDCOLOR**](em-setbkgndcolor.md) message is used instead.                                                  |
+| [**WM\_GETFONT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-getfont)        | The [**EM\_GETCHARFORMAT**](em-getcharformat.md) message is used instead.                                                  |
 
 
 

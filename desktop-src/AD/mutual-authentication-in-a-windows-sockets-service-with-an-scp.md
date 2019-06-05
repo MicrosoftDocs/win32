@@ -29,18 +29,18 @@ The topics in this section include code examples that show how to perform mutual
 2.  Establish a connection to the service.
 3.  Call the [**DsMakeSpn**](/windows/desktop/api/Dsparse/nf-dsparse-dsmakespna) function to compose an SPN for the service. Compose the SPN from the known service class string, and the data retrieved from the service connection point. This data includes the host name of the server on which the service is running. Be aware that the host name must be a DNS name.
 4.  Use an SSPI security package to perform the authentication:
-    1.  Call the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/windows/desktop/aa374712) function to acquire the client's credentials.
-    2.  Pass the client credentials and the SPN to the [**InitializeSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa375506) function to generate a security blob to send to the service for authentication. Set the **ISC\_REQ\_MUTUAL\_AUTH** flag to request mutual authentication.
+    1.  Call the [**AcquireCredentialsHandle**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea) function to acquire the client's credentials.
+    2.  Pass the client credentials and the SPN to the [**InitializeSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta) function to generate a security blob to send to the service for authentication. Set the **ISC\_REQ\_MUTUAL\_AUTH** flag to request mutual authentication.
     3.  Exchange blobs with the service until the authentication is complete.
 5.  Verify the returned capabilities mask for the **ISC\_REQ\_MUTUAL\_AUTH** flag to verify that mutual authentication was performed.
-6.  If the authentication was successful, exchange traffic with the authenticated service. Use digital signing to ensure that messages between client and service have not been tampered with. Unless performance requirements are severe, use encryption. For more information and a code example that shows how to use the [**MakeSignature**](https://msdn.microsoft.com/library/windows/desktop/aa378736), [**VerifySignature**](https://msdn.microsoft.com/library/windows/desktop/aa380540), [**EncryptMessage**](https://msdn.microsoft.com/library/windows/desktop/aa375378), and [**DecryptMessage**](https://msdn.microsoft.com/library/windows/desktop/aa375211) functions in an SSPI package, see [Ensuring Communication Integrity During Message Exchange](https://msdn.microsoft.com/library/windows/desktop/aa375395).
+6.  If the authentication was successful, exchange traffic with the authenticated service. Use digital signing to ensure that messages between client and service have not been tampered with. Unless performance requirements are severe, use encryption. For more information and a code example that shows how to use the [**MakeSignature**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature), [**VerifySignature**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature), [**EncryptMessage**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage), and [**DecryptMessage**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-decryptmessage) functions in an SSPI package, see [Ensuring Communication Integrity During Message Exchange](https://docs.microsoft.com/windows/desktop/SecAuthN/ensuring-communication-integrity-during-message-exchange).
 
 **To authenticate the client by the service when a client connects**
 
 1.  Load an SSPI security package that supports mutual authentication.
 2.  When a client connects, use the security package to perform the authentication:
-    1.  Call the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/windows/desktop/aa374712) function to acquire the service credentials.
-    2.  Pass the service credentials and the security blob received from the client to the [**AcceptSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa374703) function to generate a security blob to send back to the client.
+    1.  Call the [**AcquireCredentialsHandle**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea) function to acquire the service credentials.
+    2.  Pass the service credentials and the security blob received from the client to the [**AcceptSecurityContext**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext) function to generate a security blob to send back to the client.
     3.  Exchange blobs with the client until the authentication is complete.
 3.  Check the returned capabilities mask for the **ASC\_RET\_MUTUAL\_AUTH** flag to verify that mutual authentication was performed.
 4.  If the authentication was successful, exchange traffic with the authenticated client. Use digital signing and encryption unless performance is an issue.
@@ -54,8 +54,8 @@ For more information and a code example for this mutual authentication scenario,
 For more information, see:
 
 -   [Publishing with service connection points](publishing-with-service-connection-points.md)
--   [SSPI documentation](https://msdn.microsoft.com/library/windows/desktop/aa380493)
--   [Windows Sockets documentation](https://msdn.microsoft.com/library/windows/desktop/ms740673)
+-   [SSPI documentation](https://docs.microsoft.com/windows/desktop/SecAuthN/sspi)
+-   [Windows Sockets documentation](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 
  
 

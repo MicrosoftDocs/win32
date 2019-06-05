@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic provides a technical overview of interoperability using surface sharing between Windows graphics APIs, including Direct3D 11, Direct2D, DirectWrite, Direct3D 10, and Direct3D 9Ex. If you already have a working knowledge of these APIs, this paper can help you use multiple APIs to render to the same surface in an application designed for the Windows 7 or Windows Vista operating systems. This topic also provides best practice guidelines and pointers to additional resources.
 
 > [!Note]  
-> For Direct2D and DirectWrite interoperability on the DirectX 11.1 runtime, you can use [Direct2D devices and device contexts](https://msdn.microsoft.com/library/windows/desktop/hh780339) to render directly to Direct3D 11 devices.
+> For Direct2D and DirectWrite interoperability on the DirectX 11.1 runtime, you can use [Direct2D devices and device contexts](https://docs.microsoft.com/windows/desktop/Direct2D/devices-and-device-contexts) to render directly to Direct3D 11 devices.
 
  
 

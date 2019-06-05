@@ -217,7 +217,7 @@ Support for visual styles can be added to an extension, plug-in, MMC snap-in, or
 
     
 
-    For more information about ISOLATION\_AWARE\_ENABLED, see [Isolating Components](https://msdn.microsoft.com/library/windows/desktop/aa375197).
+    For more information about ISOLATION\_AWARE\_ENABLED, see [Isolating Components](https://docs.microsoft.com/windows/desktop/SbsCs/isolating-components).
 
 2.  Include the common control header file in your snap-in source.
     ```C++

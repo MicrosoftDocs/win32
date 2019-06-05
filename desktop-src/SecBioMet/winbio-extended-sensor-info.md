@@ -94,7 +94,7 @@ Information about the capabilities and enrollment requirements of the sensor ada
 **FrameSize**
 </dt> <dd>
 
-The size of the camera frame, indicated as a length and width in pixels by the **right** and **bottom** members of the [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure. The point (0, 0) represents the top-left corner of the frame.
+The size of the camera frame, indicated as a length and width in pixels by the **right** and **bottom** members of the [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure. The point (0, 0) represents the top-left corner of the frame.
 
 </dd> <dt>
 
@@ -136,7 +136,7 @@ Information about the capabilities and enrollment requirements of the sensor ada
 **FrameSize**
 </dt> <dd>
 
-The size of the camera frame, indicated as a length and width in pixels by the **right** and **bottom** members of the [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure. The point (0, 0) represents the top-left corner of the frame.
+The size of the camera frame, indicated as a length and width in pixels by the **right** and **bottom** members of the [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure. The point (0, 0) represents the top-left corner of the frame.
 
 </dd> <dt>
 

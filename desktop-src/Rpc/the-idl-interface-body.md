@@ -43,7 +43,7 @@ interface cxhndl
 }
 ```
 
-For more information see the [MIDL Language Reference](https://msdn.microsoft.com/library/windows/desktop/aa367088).
+For more information see the [MIDL Language Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-language-reference).
 
  
 

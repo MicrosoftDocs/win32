@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Mt.exe file is a tool that generates signed files and catalogs. It is available in the Microsoft Windows Software Development Kit (SDK). Mt.exe requires that the file referenced in the manifest be present in the same directory as the manifest.
 
-Mt.exe generates hashes using the CryptoAPI implementation of the Secure Hash Algorithm (SHA-1). For more information about hash algorithms, see [Hash and Signature Algorithms](https://msdn.microsoft.com/library/windows/desktop/aa382459). Hashes are inserted as a hexadecimal string into the **file** tags in the manifest. The tool currently only generates SHA-1 hashes, although files in manifests may use other hashing schemes.
+Mt.exe generates hashes using the CryptoAPI implementation of the Secure Hash Algorithm (SHA-1). For more information about hash algorithms, see [Hash and Signature Algorithms](https://docs.microsoft.com/windows/desktop/SecCrypto/hash-and-signature-algorithms). Hashes are inserted as a hexadecimal string into the **file** tags in the manifest. The tool currently only generates SHA-1 hashes, although files in manifests may use other hashing schemes.
 
 Mt.exe uses Makecat.exe to generate catalog files (.cat) from catalog definition files (.cdf). This tool fills out a standard template CDF with the name and location of your manifest. You can use this with Makecat.exe to generate the assembly catalog.
 

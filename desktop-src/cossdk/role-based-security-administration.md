@@ -19,7 +19,7 @@ Role-based security is an automatic service provided by COM+ that enables you to
 -   You can leverage role-based security to do detailed auditing, because you can obtain caller security information for an entire chain of upstream calls.
 
 > [!Note]  
-> Users in the Administrator role for the System Application must be members of the local administrators group. Also, as of Windows Server 2003, the authentication capability for the COM+ System Application includes the value EOAC\_DISABLE\_AAA. This value, which disables activate-as-activator (AAA) activations, is used in the [**CoInitializeSecurity**](https://msdn.microsoft.com/library/windows/desktop/ms693736) call when launching the System Application. Setting the authentication capability to EOAC\_DISABLE\_AAA allows an application that runs under a privileged account (such as LocalSystem) to help prevent its identity from being used to launch untrusted components.
+> Users in the Administrator role for the System Application must be members of the local administrators group. Also, as of Windows Server 2003, the authentication capability for the COM+ System Application includes the value EOAC\_DISABLE\_AAA. This value, which disables activate-as-activator (AAA) activations, is used in the [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) call when launching the System Application. Setting the authentication capability to EOAC\_DISABLE\_AAA allows an application that runs under a privileged account (such as LocalSystem) to help prevent its identity from being used to launch untrusted components.
 
  
 

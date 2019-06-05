@@ -18,9 +18,9 @@ api_location:
 
 # ChangeStartMode method of the Win32\_SystemDriver class
 
-The **ChangeStartMode** [WMI class](https://msdn.microsoft.com/library/aa393244) method modifies the start mode of a [**Win32\_SystemDriver**](win32-systemdriver.md) service.
+The **ChangeStartMode** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_SystemDriver**](win32-systemdriver.md) service.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -201,7 +201,7 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)

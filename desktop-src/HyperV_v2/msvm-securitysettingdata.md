@@ -63,7 +63,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to request data protection for a VM; otherwise, **false**. The default value is **false.**
@@ -79,7 +79,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to have the state and migration traffic of a VM encrypted; otherwise, **false**. The default value for a newly-created VM is **false**.
@@ -95,7 +95,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to enable a key storage device (KSD) for this virtual machine; otherwise, **false**. A newly-created VM has a disable KSD.
@@ -111,7 +111,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to request shielding for a VM; otherwise, **false**. A newly-created VM has an initial shielding requested state of **false**.
@@ -127,7 +127,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to enable a trusted platform nodule (TPM) for this virtual machine; otherwise, **false**. A newly-created VM has a disable TPM.
@@ -143,7 +143,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to not offer a VM virtualization-based security; otherwise, **false**. The default setting for a newly-crated VM's opt-out state is **false**.

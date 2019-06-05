@@ -16,7 +16,7 @@ The system uses messages to notify applications of device changes and power chan
 -   [Device Events](device-events.md)
 -   [Device Input and Output Control (IOCTL)](device-input-and-output-control-ioctl-.md)
 
-For more information about power messages, see [Power Management](https://msdn.microsoft.com/library/windows/desktop/bb968807).
+For more information about power messages, see [Power Management](https://docs.microsoft.com/windows/desktop/Power/power-management-portal).
 
  
 

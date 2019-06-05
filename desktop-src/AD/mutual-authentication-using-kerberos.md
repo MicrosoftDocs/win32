@@ -34,9 +34,9 @@ This section discusses using Active Directory Domain Service for mutual authenti
 For more information, see:
 
 -   [Publishing with service connection points](publishing-with-service-connection-points.md)
--   [SSPI](https://msdn.microsoft.com/library/windows/desktop/aa380493)
--   [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
--   [RPC](https://msdn.microsoft.com/library/windows/desktop/aa378651)
+-   [SSPI](https://docs.microsoft.com/windows/desktop/SecAuthN/sspi)
+-   [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+-   [RPC](https://docs.microsoft.com/windows/desktop/Rpc/rpc-start-page)
 
  
 

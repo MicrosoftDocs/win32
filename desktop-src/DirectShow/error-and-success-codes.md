@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DirectShow Error and Success Codes
 
-This topic lists the **HRESULT** return codes that are defined for DirectShow. Note that DirectShow APIs can return other **HRESULT** values not shown here. For additional **HRESULT** values, see [COM Error Codes](https://msdn.microsoft.com/library/windows/desktop/dd542642).
+This topic lists the **HRESULT** return codes that are defined for DirectShow. Note that DirectShow APIs can return other **HRESULT** values not shown here. For additional **HRESULT** values, see [COM Error Codes](https://docs.microsoft.com/windows/desktop/com/com-error-codes).
 
 The following table contains DirectShow-specific error and success codes in numerical order. Return codes beginning with VFW\_S\_ indicate success. An operation might partially succeed and still have a successful return value. For example, **VFW\_S\_SOME\_DATA\_IGNORED** indicates that a file was rendered by ignoring some of its property settings. Return codes beginning with VFW\_E\_ indicate an error.
 

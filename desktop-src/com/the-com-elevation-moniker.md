@@ -38,7 +38,7 @@ HKEY_LOCAL_MACHINE\Software\Classes\CLSID
       LocalizedString = displayName
 ```
 
-If this entry is missing, the activation returns the error CO\_E\_MISSING\_DISPLAYNAME. If the MUI file is missing, the error code from the [**RegLoadMUIStringW**](https://msdn.microsoft.com/library/windows/desktop/ms724890) function is returned.
+If this entry is missing, the activation returns the error CO\_E\_MISSING\_DISPLAYNAME. If the MUI file is missing, the error code from the [**RegLoadMUIStringW**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa) function is returned.
 
 Optionally, to specify an application icon to be displayed by the UAC user interface, add the following registry key:
 

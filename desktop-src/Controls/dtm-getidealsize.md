@@ -34,7 +34,7 @@ Not used. Must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**SIZE**](https://msdn.microsoft.com/library/windows/desktop/dd145106) structure to receive the ideal size. The calling application is responsible for allocating this structure.
+A pointer to a [**SIZE**](https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)) structure to receive the ideal size. The calling application is responsible for allocating this structure.
 
 </dd> </dl>
 

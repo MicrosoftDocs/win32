@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Context Activation
 
-In COM+, every COM object is created with an associated context. This means that either a new context must be created and initialized or an appropriate existing context is used. This process is known as *activation*. In COM+, an object is activated either in its own context or in that of its creator (an object that has requested that the object be activated—for example, by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615)).
+In COM+, every COM object is created with an associated context. This means that either a new context must be created and initialized or an appropriate existing context is used. This process is known as *activation*. In COM+, an object is activated either in its own context or in that of its creator (an object that has requested that the object be activated—for example, by calling [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)).
 
 In some circumstances, such as with [object pooling](com--object-pooling.md), an object is activated without being created from scratch. In this case, a running instance is activated within a context. Over its lifetime, it may be repeatedly activated in different contexts.
 
@@ -32,7 +32,7 @@ Depending on how a component is configured, some context properties may play no 
 
 In some circumstances, you might want an object to be activated only in its caller's context—that is, never activated in its own context. For example, you might want to control the object's behavior when it's called across a context boundary.
 
-You can ensure that an object cannot be activated in its own context by selecting the **Must be activated in callers context** option on the **Activation** tab of the component **Properties** page, using the Component Services administrative tool. (See [Enforcing Activation in the Caller's Context](enforcing-activation-in-the-caller-s-context.md) for step-by-step instructions.) When you select this option, if the object cannot be activated in the caller's context, [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) fails, returning CO\_E\_ATTEMPT\_TO\_CREATE\_OUTSIDE\_CLIENT\_CONTEXT.
+You can ensure that an object cannot be activated in its own context by selecting the **Must be activated in callers context** option on the **Activation** tab of the component **Properties** page, using the Component Services administrative tool. (See [Enforcing Activation in the Caller's Context](enforcing-activation-in-the-caller-s-context.md) for step-by-step instructions.) When you select this option, if the object cannot be activated in the caller's context, [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) fails, returning CO\_E\_ATTEMPT\_TO\_CREATE\_OUTSIDE\_CLIENT\_CONTEXT.
 
 ## Default Context
 

@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # How to: Initialize a Texture From a File
 
-You can use the [Windows Imaging Component](https://msdn.microsoft.com/library/windows/desktop/ee719902) API to initialize a [texture](overviews-direct3d-11-resources-textures.md) from a file. To load a texture, you must create a texture and a texture view. This topic shows how to use Windows Imaging Component (WIC) to create the texture and the view separately.
+You can use the [Windows Imaging Component](https://docs.microsoft.com/windows/desktop/wic/-wic-lh) API to initialize a [texture](overviews-direct3d-11-resources-textures.md) from a file. To load a texture, you must create a texture and a texture view. This topic shows how to use Windows Imaging Component (WIC) to create the texture and the view separately.
 
 > [!Note]  
-> This topic is useful for images that you create as simple 2D textures. For more complex resources, use [DDS](https://msdn.microsoft.com/library/windows/desktop/bb943990). For a full-featured DDS file reader, writer, and texture processing pipeline, see [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929).
+> This topic is useful for images that you create as simple 2D textures. For more complex resources, use [DDS](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds). For a full-featured DDS file reader, writer, and texture processing pipeline, see [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929).
 
  
 
@@ -19,13 +19,13 @@ At the end of this topic, you'll find the full example code. The topic describes
 
 **To initialize a texture and view separately.**
 
-1.  Call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the imaging factory interface ([**IWICImagingFactory**](https://msdn.microsoft.com/library/windows/desktop/ee690281)).
-2.  Call the [**IWICImagingFactory::CreateDecoderFromFilename**](https://msdn.microsoft.com/library/windows/desktop/ee690307) method to create a [**IWICBitmapDecoder**](https://msdn.microsoft.com/library/windows/desktop/ee690086) object from an image file name.
-3.  Call the [**IWICBitmapDecoder::GetFrame**](https://msdn.microsoft.com/library/windows/desktop/ee690098) method to retrieve the [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/library/windows/desktop/ee690134) interface for the frame of the image.
-4.  Call the [**IWICBitmapSource::GetPixelFormat**](https://msdn.microsoft.com/library/windows/desktop/ee690181) method ([**IWICBitmapFrameDecode**](https://msdn.microsoft.com/library/windows/desktop/ee690134) interface inherits from [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171)) to get the pixel format of the image.
-5.  Convert the pixel format to a [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) type according to this table:
+1.  Call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the imaging factory interface ([**IWICImagingFactory**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory)).
+2.  Call the [**IWICImagingFactory::CreateDecoderFromFilename**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename) method to create a [**IWICBitmapDecoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder) object from an image file name.
+3.  Call the [**IWICBitmapDecoder::GetFrame**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframe) method to retrieve the [**IWICBitmapFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) interface for the frame of the image.
+4.  Call the [**IWICBitmapSource::GetPixelFormat**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat) method ([**IWICBitmapFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) interface inherits from [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource)) to get the pixel format of the image.
+5.  Convert the pixel format to a [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) type according to this table:
 
-    | WIC pixel format                                  | Equivalent [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) |
+    | WIC pixel format                                  | Equivalent [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) |
     |---------------------------------------------------|---------------------------------------------------------|
     | GUID\_WICPixelFormat128bppRGBAFloat               | DXGI\_FORMAT\_R32G32B32A32\_FLOAT                       |
     | GUID\_WICPixelFormat64bppRGBAHalf                 | DXGI\_FORMAT\_R16G16B16A16\_FLOAT                       |
@@ -51,7 +51,7 @@ At the end of this topic, you'll find the full example code. The topic describes
 
     \* The single-channel DXGI formats are all red channel, so you need HLSL shader swizzles such as .rrr to render these as grayscale.
 
-6.  Call the [**IWICBitmapSource::CopyPixels**](https://msdn.microsoft.com/library/windows/desktop/ee690179) method to copy the image pixels into a buffer. Use the [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) type and the buffer to initialize the 2D texture resource and shader-resource-view object.
+6.  Call the [**IWICBitmapSource::CopyPixels**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels) method to copy the image pixels into a buffer. Use the [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) type and the buffer to initialize the 2D texture resource and shader-resource-view object.
 7.  Call the [**ID3D11Device::CreateTexture2D**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createtexture2d) method to initialize the 2D texture resource. In this call, pass the address of an [**ID3D11Texture2D**](/windows/desktop/api/D3D11/nn-d3d11-id3d11texture2d) interface pointer.
 
     ```C++

@@ -28,15 +28,15 @@ The functions in this section install and configure printer drivers on a compute
 <tbody>
 <tr class="odd">
 <td><a href="addmonitor"><strong>AddMonitor</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183341"><strong>AddMonitor</strong></a> function installs a local port monitor and links the configuration, data, and monitor files.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/addmonitor"><strong>AddMonitor</strong></a> function installs a local port monitor and links the configuration, data, and monitor files.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="addport"><strong>AddPort</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183342"><strong>AddPort</strong></a> function adds the name of a port to the list of supported ports. The <strong>AddPort</strong> function is exported by the port monitor.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/addport"><strong>AddPort</strong></a> function adds the name of a port to the list of supported ports. The <strong>AddPort</strong> function is exported by the port monitor.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="addprinterdriver"><strong>AddPrinterDriver</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183346"><strong>AddPrinterDriver</strong></a> function installs a local or remote printer driver and associates the configuration, data, and driver files.<br/> For more flexibility in installing or upgrading printer drivers, use the <a href="addprinterdriverex"><strong>AddPrinterDriverEx</strong></a> function because it allows strict upgrade, strict downgrade, copying of newer files only, and copying of all files (regardless of the file time stamps).<br/>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver"><strong>AddPrinterDriver</strong></a> function installs a local or remote printer driver and associates the configuration, data, and driver files.<br/> For more flexibility in installing or upgrading printer drivers, use the <a href="addprinterdriverex"><strong>AddPrinterDriverEx</strong></a> function because it allows strict upgrade, strict downgrade, copying of newer files only, and copying of all files (regardless of the file time stamps).<br/>
 <blockquote>
 [!Note]<br />
 Installing a printer driver without a driver package is no longer recommended. Use <a href="installprinterdriverfrompackage"><strong>InstallPrinterDriverFromPackage</strong></a> instead.
@@ -54,31 +54,31 @@ Installing a printer driver without a driver package is no longer recommended. U
 </tr>
 <tr class="odd">
 <td><a href="addprintprocessor"><strong>AddPrintProcessor</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183348"><strong>AddPrintProcessor</strong></a> function installs a print processor on the specified server and adds the print-processor name to the list of supported print processors.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprintprocessor"><strong>AddPrintProcessor</strong></a> function installs a print processor on the specified server and adds the print-processor name to the list of supported print processors.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="addprintprovidor"><strong>AddPrintProvidor</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183349"><strong>AddPrintProvidor</strong></a> function installs a local print provider and links the configuration, data, and provider files.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprintprovidor"><strong>AddPrintProvidor</strong></a> function installs a local print provider and links the configuration, data, and provider files.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="coreprinterdriverinstalled"><strong>CorePrinterDriverInstalled</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183482"><strong>CorePrinterDriverInstalled</strong></a> function reports whether a core printer driver with a specified GUID, date, and version is installed.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/coreprinterdriverinstalled"><strong>CorePrinterDriverInstalled</strong></a> function reports whether a core printer driver with a specified GUID, date, and version is installed.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="deletemonitor"><strong>DeleteMonitor</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183538"><strong>DeleteMonitor</strong></a> function removes a port monitor added by the <a href="addmonitor"><strong>AddMonitor</strong></a> function.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/deletemonitor"><strong>DeleteMonitor</strong></a> function removes a port monitor added by the <a href="addmonitor"><strong>AddMonitor</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="deleteport"><strong>DeletePort</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183540"><strong>DeletePort</strong></a> function displays a dialog box that allows the user to delete a port name.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/deleteport"><strong>DeletePort</strong></a> function displays a dialog box that allows the user to delete a port name.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="deleteprinterdriver"><strong>DeletePrinterDriver</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183545"><strong>DeletePrinterDriver</strong></a> function removes the specified printer-driver name from the list of names of supported drivers on a server.<br/> To delete the files associated with the driver in addition to removing the specified printer-driver name from the list of names of supported drivers for a server, use the <a href="deleteprinterdriverex"><strong>DeletePrinterDriverEx</strong></a> function.<br/> <a href="https://msdn.microsoft.com/library/windows/desktop/dd183545"><strong>DeletePrinterDriver</strong></a> deletes a driver only if no version of the driver is in use for the specified environment. <a href="deleteprinterdriverex"><strong>DeletePrinterDriverEx</strong></a> can delete specific versions of the driver.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterdriver"><strong>DeletePrinterDriver</strong></a> function removes the specified printer-driver name from the list of names of supported drivers on a server.<br/> To delete the files associated with the driver in addition to removing the specified printer-driver name from the list of names of supported drivers for a server, use the <a href="deleteprinterdriverex"><strong>DeletePrinterDriverEx</strong></a> function.<br/> <a href="https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterdriver"><strong>DeletePrinterDriver</strong></a> deletes a driver only if no version of the driver is in use for the specified environment. <a href="deleteprinterdriverex"><strong>DeletePrinterDriverEx</strong></a> can delete specific versions of the driver.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="deleteprinterdriverex"><strong>DeletePrinterDriverEx</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183546"><strong>DeletePrinterDriverEx</strong></a> function removes the specified printer-driver name from the list of names of supported drivers on a server and deletes the files associated with the driver. This function can also delete specific versions of the driver.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterdriverex"><strong>DeletePrinterDriverEx</strong></a> function removes the specified printer-driver name from the list of names of supported drivers on a server and deletes the files associated with the driver. This function can also delete specific versions of the driver.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="deleteprinterdriverpackage"><strong>DeletePrinterDriverPackage</strong></a><br/></td>
@@ -86,31 +86,31 @@ Installing a printer driver without a driver package is no longer recommended. U
 </tr>
 <tr class="odd">
 <td><a href="deleteprintprocessor"><strong>DeletePrintProcessor</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183549"><strong>DeletePrintProcessor</strong></a> function removes a print processor added by the <a href="addprintprocessor"><strong>AddPrintProcessor</strong></a> function.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/deleteprintprocessor"><strong>DeletePrintProcessor</strong></a> function removes a print processor added by the <a href="addprintprocessor"><strong>AddPrintProcessor</strong></a> function.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="deleteprintprovidor"><strong>DeletePrintProvidor</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183550"><strong>DeletePrintProvidor</strong></a> function removes a print provider added by the <a href="addprintprovidor"><strong>AddPrintProvidor</strong></a> function.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/deleteprintprovidor"><strong>DeletePrintProvidor</strong></a> function removes a print provider added by the <a href="addprintprovidor"><strong>AddPrintProvidor</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="enummonitors"><strong>EnumMonitors</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd162631"><strong>EnumMonitors</strong></a> function retrieves information about the port monitors installed on the specified server.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/enummonitors"><strong>EnumMonitors</strong></a> function retrieves information about the port monitors installed on the specified server.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="enumports"><strong>EnumPorts</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd162687"><strong>EnumPorts</strong></a> function enumerates the ports that are available for printing on a specified server.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumports"><strong>EnumPorts</strong></a> function enumerates the ports that are available for printing on a specified server.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="enumprinterdrivers"><strong>EnumPrinterDrivers</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd162690"><strong>EnumPrinterDrivers</strong></a> function enumerates the printer drivers installed on a specified printer server.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumprinterdrivers"><strong>EnumPrinterDrivers</strong></a> function enumerates the printer drivers installed on a specified printer server.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="enumprintprocessordatatypes"><strong>EnumPrintProcessorDatatypes</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd162693"><strong>EnumPrintProcessorDatatypes</strong></a> function enumerates the data types that a specified print processor supports.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumprintprocessordatatypes"><strong>EnumPrintProcessorDatatypes</strong></a> function enumerates the data types that a specified print processor supports.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="enumprintprocessors"><strong>EnumPrintProcessors</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd162694"><strong>EnumPrintProcessors</strong></a> function enumerates the print processors installed on the specified server.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumprintprocessors"><strong>EnumPrintProcessors</strong></a> function enumerates the print processors installed on the specified server.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="getcoreprinterdrivers"><strong>GetCorePrinterDrivers</strong></a><br/></td>
@@ -118,7 +118,7 @@ Installing a printer driver without a driver package is no longer recommended. U
 </tr>
 <tr class="odd">
 <td><a href="getprinterdriver"><strong>GetPrinterDriver</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd144914"><strong>GetPrinterDriver</strong></a> function retrieves driver data for the specified printer. If the driver is not installed on the local computer, <strong>GetPrinterDriver</strong> installs it.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/getprinterdriver"><strong>GetPrinterDriver</strong></a> function retrieves driver data for the specified printer. If the driver is not installed on the local computer, <strong>GetPrinterDriver</strong> installs it.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="getprinterdriver2"><strong>GetPrinterDriver2</strong></a><br/></td>
@@ -126,7 +126,7 @@ Installing a printer driver without a driver package is no longer recommended. U
 </tr>
 <tr class="odd">
 <td><a href="getprinterdriverdirectory"><strong>GetPrinterDriverDirectory</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd144915"><strong>GetPrinterDriverDirectory</strong></a> function retrieves the path of the printer-driver directory.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/getprinterdriverdirectory"><strong>GetPrinterDriverDirectory</strong></a> function retrieves the path of the printer-driver directory.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="getprinterdriverpackagepath"><strong>GetPrinterDriverPackagePath</strong></a><br/></td>
@@ -134,7 +134,7 @@ Installing a printer driver without a driver package is no longer recommended. U
 </tr>
 <tr class="odd">
 <td><a href="getprintprocessordirectory"><strong>GetPrintProcessorDirectory</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd144917"><strong>GetPrintProcessorDirectory</strong></a> function retrieves the path to the print processor directory on the specified server.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/getprintprocessordirectory"><strong>GetPrintProcessorDirectory</strong></a> function retrieves the path to the print processor directory on the specified server.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="installprinterdriverfrompackage"><strong>InstallPrinterDriverFromPackage</strong></a><br/></td>

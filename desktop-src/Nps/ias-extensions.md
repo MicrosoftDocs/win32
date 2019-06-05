@@ -22,15 +22,15 @@ NPS Extensions API is applicable in any computing environment where it would imp
 
 ## In This Section
 
-[Overview](https://msdn.microsoft.com/library/bb891985)
+[Overview](https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service)
 
 General information about RADIUS and the NPS Extensions API.
 
-[Using](https://msdn.microsoft.com/library/bb892031)
+[Using](https://docs.microsoft.com/windows/desktop/Nps/ias-using-internet-authentication-service)
 
 Sample code that demonstrates how to use the NPS Extensions API.
 
-[Reference](https://msdn.microsoft.com/library/bb891997)
+[Reference](https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference)
 
 Documentation of enumerated types, functions, and structures that compose the NPS Extensions API.
 
@@ -41,7 +41,7 @@ Documentation of enumerated types, functions, and structures that compose the NP
 [Network Policy Server (Internet Authentication Service)](portal.md)
 </dt> <dt>
 
-[Extensible Authentication Protocol (EAP)](https://msdn.microsoft.com/library/windows/desktop/aa363502)
+[Extensible Authentication Protocol (EAP)](https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-start-page)
 </dt> </dl>
 
  

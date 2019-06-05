@@ -32,7 +32,7 @@ Cancels a previous request to set up a remote connection.
 
 ## <span id="see_also"></span>See also
 
-[**IPeerToPeerEngine**](https://msdn.microsoft.com/library/windows/desktop/mt432712)
+[**IPeerToPeerEngine**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipeertopeerengine)
 
  
 

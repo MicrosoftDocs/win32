@@ -48,7 +48,7 @@ The **Msvm\_ReferencedProfile** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375)**
+Data type: **[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -61,7 +61,7 @@ The registered profile that is referenced by the **Dependent** profile.
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375)**
+Data type: **[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only

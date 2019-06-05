@@ -18,7 +18,7 @@ api_location:
 
 \[Event Handler Prototype functions are no longer available for use as of Windows Server 2008 and Windows Vista. \]
 
-Event Handler Prototype functions are used for all functions that handle [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) notification events. The name of the function, represented below by the place holder *Event\_Handler\_Function\_Name*, typically reflects the name of the event that the function handles. For example, the function that handles logon events might be named: **WLEventLogon**.
+Event Handler Prototype functions are used for all functions that handle [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) notification events. The name of the function, represented below by the place holder *Event\_Handler\_Function\_Name*, typically reflects the name of the event that the function handles. For example, the function that handles logon events might be named: **WLEventLogon**.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ This callback function does not return a value.
 
 ## Remarks
 
-If your event handler needs to create child processes, it should call the [**CreateProcessAsUser**](https://msdn.microsoft.com/library/windows/desktop/ms682429) function. Otherwise, the new process will be created on the Winlogon desktop, not the user's desktop.
+If your event handler needs to create child processes, it should call the [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function. Otherwise, the new process will be created on the Winlogon desktop, not the user's desktop.
 
 ## Examples
 

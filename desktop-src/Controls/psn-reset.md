@@ -57,7 +57,7 @@ An application can use this notification code as an opportunity to perform clean
 
  
 
-Do not call the [**EndDialog**](https://msdn.microsoft.com/library/windows/desktop/ms645472) function when processing this notification code.
+Do not call the [**EndDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog) function when processing this notification code.
 
 ## Requirements
 

@@ -56,7 +56,7 @@ Data type: **Win32\_LogonSession**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent"), [**Key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The Antecedent property references a logon session.
@@ -72,7 +72,7 @@ Data type: **Win32\_MappedLogicalDisk**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent"), [**Key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The Dependent property references a mapped logical disk defined within the session referenced by the Antecedent property.

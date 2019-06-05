@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.Folder property
 
-Gets a [**Folder**](https://msdn.microsoft.com/library/windows/desktop/bb787868) object that represents the view.
+Gets a [**Folder**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folder) object that represents the view.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ Folder = WebViewFolderContents.Folder
 
 ## Property value
 
-An object that receives the [**Folder**](https://msdn.microsoft.com/library/windows/desktop/bb787868) object.
+An object that receives the [**Folder**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folder) object.
 
 ## Examples
 

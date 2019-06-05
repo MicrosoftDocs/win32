@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnStream.MemberwiseClone method  (Microsoft.Isam.Esent.Interop)
 TOCTitle: 'MemberwiseClone method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.ColumnStream.MemberwiseClone
@@ -33,13 +33,13 @@ Include inherited members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone()</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone()</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms131262">MemberwiseClone(Boolean)</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/w4302s1f">MarshalByRefObject</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone?redirectedfrom=MSDN#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MemberwiseClone(Boolean)</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 </tbody>
 </table>

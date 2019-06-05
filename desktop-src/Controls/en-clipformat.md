@@ -36,7 +36,7 @@ EN_CLIPFORMAT
 *wParam* 
 </dt> <dd>
 
-The window ID retrieved by calling the [**GetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633584) function with the GWL\_ID value.
+The window ID retrieved by calling the [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga) function with the GWL\_ID value.
 
 </dd> <dt>
 

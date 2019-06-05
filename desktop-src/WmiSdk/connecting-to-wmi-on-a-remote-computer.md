@@ -61,7 +61,7 @@ Set colSettings = objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
 <span id="Connecting_to_WMI_Remotely_with_C_"></span><span id="connecting_to_wmi_remotely_with_c_"></span><span id="CONNECTING_TO_WMI_REMOTELY_WITH_C_"></span>[Connecting to WMI Remotely with C#](connecting-to-wmi-remotely-with-c-.md)
 </dt> <dd>
 
-For the current version of the WMI managed interface ([Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx)), use the [CimSession](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.aspx) object to represent a connection to a remote host.
+For the current version of the WMI managed interface ([Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85))), use the [CimSession](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832509(v=vs.85)) object to represent a connection to a remote host.
 
 
 ```CSharp
@@ -80,7 +80,7 @@ IEnumerable<CimInstance> queryInstance = mySession.QueryInstances(Namespace, "WQ
 <span id="Connecting_to_WMI_Remotely_with_C_"></span><span id="connecting_to_wmi_remotely_with_c_"></span><span id="CONNECTING_TO_WMI_REMOTELY_WITH_C_"></span>[Connecting to WMI Remotely with C#](connecting-to-wmi-remotely-with-c-.md)
 </dt> <dd>
 
-For the v1 version of the WMI managed interface ([System.Management](https://msdn.microsoft.com/library/system.management.aspx)), use the [ManagementScope](https://msdn.microsoft.com/library/system.management.managementscope.aspx) object to represent a connection to a remote host.
+For the v1 version of the WMI managed interface ([System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN)), use the [ManagementScope](https://docs.microsoft.com/dotnet/api/system.management.managementscope?redirectedfrom=MSDN) object to represent a connection to a remote host.
 
 
 ```CSharp

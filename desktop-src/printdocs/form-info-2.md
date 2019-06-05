@@ -102,7 +102,7 @@ Specifies how a localized display name for the form is obtained at runtime. The 
 | Value            | Meaning                                                                                                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | STRING\_NONE     | There is no localized display name.                                                                                                                                                            |
-| STRING\_MUIDLL   | The display name is extracted from the [Multilingual User Interface](https://msdn.microsoft.com/library/windows/desktop/dd319070) localized resources DLL specified in **pMuiDll**. The ID is in the **dwResourceId** member. |
+| STRING\_MUIDLL   | The display name is extracted from the [Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management) localized resources DLL specified in **pMuiDll**. The ID is in the **dwResourceId** member. |
 | STRING\_LANGPAIR | The display name and language ID are provided directly by **pDisplayName** and the language is specified by **wLangId**.                                                                       |
 
 
@@ -114,7 +114,7 @@ Specifies how a localized display name for the form is obtained at runtime. The 
 **pMuiDll**
 </dt> <dd>
 
-The [Multilingual User Interface](https://msdn.microsoft.com/library/windows/desktop/dd319070) localized resource DLL that contains the localized display name.
+The [Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management) localized resource DLL that contains the localized display name.
 
 </dd> <dt>
 
@@ -176,7 +176,7 @@ For a **FORM\_INFO\_2** returned by a call to [**GetForm**](getform.md) or [**En
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[Multilingual User Interface](https://msdn.microsoft.com/library/windows/desktop/dd319070)
+[Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management)
 </dt> <dt>
 
 [**AddForm**](addform.md)

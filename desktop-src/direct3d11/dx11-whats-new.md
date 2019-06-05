@@ -42,12 +42,12 @@ This SDK allows developers to evaluate the API and write basic applications for 
 </tr>
 <tr class="odd">
 <td><span id="DXGI_1.1"></span><span id="dxgi_1.1"></span>DXGI 1.1<br/></td>
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb219822">DXGI 1.1</a> builds on DXGI 1.0 and will be available on both Windows Vista and Windows 7. DXGI 1.1 adds several new features:<br/>
+<td><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">DXGI 1.1</a> builds on DXGI 1.0 and will be available on both Windows Vista and Windows 7. DXGI 1.1 adds several new features:<br/>
 <ul>
 <li>Synchronized Shared Surfaces Support. This enables efficient read and write surface sharing between multiple D3D (could be between D3D10 and D3D11) devices.<br/></li>
 <li>BGRA format support. This allows GDI to render to the same DXGI surface targeted by a Direct2D, Direct3D 10.1 or Direct3D 11 device. <br/></li>
-<li>Maximum Frame Latency. Using <a href="https://msdn.microsoft.com/library/windows/desktop/ff471334"><strong>IDXGIDevice1::SetMaximumFrameLatency</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ff471332"><strong>IDXGIDevice1::GetMaximumFrameLatency</strong></a>, titles can control the number of frames that are allowed to be stored in a queue, before submission for rendering. Latency is often used to control how the CPU chooses between responding to user input and frames that are in the render queue.<br/></li>
-<li>Adapter Enumeration. Using <a href="https://msdn.microsoft.com/library/windows/desktop/ff471336"><strong>IDXGIFactory1::EnumAdapters1</strong></a>, titles can enumerates local adapters without any monitors or outputs attached, as well as adapters with outputs attached.<br/></li>
+<li>Maximum Frame Latency. Using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency"><strong>IDXGIDevice1::SetMaximumFrameLatency</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency"><strong>IDXGIDevice1::GetMaximumFrameLatency</strong></a>, titles can control the number of frames that are allowed to be stored in a queue, before submission for rendering. Latency is often used to control how the CPU chooses between responding to user input and frames that are in the render queue.<br/></li>
+<li>Adapter Enumeration. Using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1"><strong>IDXGIFactory1::EnumAdapters1</strong></a>, titles can enumerates local adapters without any monitors or outputs attached, as well as adapters with outputs attached.<br/></li>
 </ul></td>
 </tr>
 <tr class="even">

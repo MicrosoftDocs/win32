@@ -33,7 +33,7 @@ The **INapSystemHealthValidationRequest** interface provides methods that are us
 
 ## Members
 
-The **INapSystemHealthValidationRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapSystemHealthValidationRequest** also has these types of members:
+The **INapSystemHealthValidationRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthValidationRequest** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following list identifies links to useful MSDN reference pages for APIs used by the Peer Identity Manager APIs:
 
--   [**CryptGetUserKey**](https://msdn.microsoft.com/library/windows/desktop/aa380199)
--   [**CryptReleaseContext**](https://msdn.microsoft.com/library/windows/desktop/aa380268)
+-   [**CryptGetUserKey**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey)
+-   [**CryptReleaseContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext)
 
  
 

@@ -48,7 +48,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IDebugLiveShaderRequest**](https://msdn.microsoft.com/library/windows/desktop/mt422654)
+[**IDebugLiveShaderRequest**](https://docs.microsoft.com/windows/desktop/direct3dtools/idebugliveshaderrequest)
 
  
 

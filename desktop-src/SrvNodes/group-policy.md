@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Group Policy](https://msdn.microsoft.com/library/aa374177)
--   [Group Policy Management Console](https://msdn.microsoft.com/library/aa814316)
+-   [Group Policy](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-start-page)
+-   [Group Policy Management Console](https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal)
 -   [GPMC Class Library](https://msdn.microsoft.com/en-us/library/Ee840126(v=VS.85).aspx)
 
  

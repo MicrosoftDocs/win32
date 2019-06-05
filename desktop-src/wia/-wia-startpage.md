@@ -99,7 +99,7 @@ For Windows 7, WIA APIs have additional support to complement the already exis
 
 The WIA API is designed for use by C/C++ programmers. Familiarity with the Windows  GUI and Component Object Model (COM) interfaces is required.
 
-For developers familiar with Microsoft Visual Basic 6.0, Active Server Pages (ASP), or scripting, WIA provides an automation layer for Windows XP Service Pack 1 (SP1) or later that builds upon and simplifies access to the foundation provided by C/C++. For information about the automation layer, see [Windows Image Acquisition Automation Layer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx).
+For developers familiar with Microsoft Visual Basic 6.0, Active Server Pages (ASP), or scripting, WIA provides an automation layer for Windows XP Service Pack 1 (SP1) or later that builds upon and simplifies access to the foundation provided by C/C++. For information about the automation layer, see [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
 > [!Note]  
 > The WIA Automation Layer supersedes Windows Image Acquisition (WIA) 1.0 scripting.
@@ -119,8 +119,8 @@ The WIA topics are organized as shown in the following table.
 |                                                                                                                              |                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [About Windows Image Acquisition](-wia-about-windows-image-acquisition.md)                                                  | General information about WIA                                                                     |
-| [Windows Image Acquisition Drivers](https://msdn.microsoft.com/en-us/library/windows/hardware/ff553346.aspx)                  | WIA driver development                                                                            |
-| [Windows Image Acquisition Automation Layer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630827.aspx) | WIA Automation Layer                                                                              |
+| [Windows Image Acquisition Drivers](https://msdn.microsoft.com/windows/hardware/drivers/image/windows-image-acquisition-drivers)                  | WIA driver development                                                                            |
+| [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage) | WIA Automation Layer                                                                              |
 | [WIA Tutorial](-wia-wia-tutorial.md)                                                                                        | Walkthrough of code included in the software development kit (SDK) that focuses on specific tasks |
 | [Reference](-wia-reference.md)                                                                                              | Information on WIA interfaces, methods, objects, and data types used in C/C++ and scripting.      |
 

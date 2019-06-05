@@ -266,7 +266,7 @@ float4 main(float4 coord : COORD) : SV_Target
 
 The compiler will create and verify the root signature blob for the shader and embed it alongside the shader byte code into the shader blob. The compiler supports root signature syntax for shader model 5.0 and higher. If a root signature is embedded in a shader model 5.0 shader and that shader is sent to the D3D11 runtime, as opposed to D3D12, the root signature portion will get silently ignored by D3D11.
 
-The other mechanism is to create a standalone root signature blob, perhaps to reuse it with a large set of shaders, saving space. The [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919) (FXC) supports both **rootsig\_1\_0** and**rootsig\_1\_1** shader models. The name of the define string is specified via the usual /E argument. For example:
+The other mechanism is to create a standalone root signature blob, perhaps to reuse it with a large set of shaders, saving space. The [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) (FXC) supports both **rootsig\_1\_0** and**rootsig\_1\_1** shader models. The name of the define string is specified via the usual /E argument. For example:
 
 ``` syntax
 fxc.exe /T rootsig_1_1 MyRS1.hlsl /E MyRS1 /Fo MyRS1.fxo
@@ -276,7 +276,7 @@ Note that the root signature string define can also be passed on the command lin
 
 ## Manipulating root signatures with the FXC compiler
 
-The FXC compiler creates shader byte-code from HLSL source files. There are a lot of optional parameters for this compiler, refer to the [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919).
+The FXC compiler creates shader byte-code from HLSL source files. There are a lot of optional parameters for this compiler, refer to the [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc).
 
 For managing HLSL authored root signatures, the following table gives some examples of using FXC.
 
@@ -294,12 +294,12 @@ For managing HLSL authored root signatures, the following table gives some examp
 
  
 
-The functionality available through FXC is also available programmatically using the [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324) function. This call compiles a shader with a root signature, or stand-alone root signature (setting the rootsig\_1\_0 target). [**D3DGetBlobPart**](https://msdn.microsoft.com/library/windows/desktop/ff728674) and [**D3DSetBlobPart**](https://msdn.microsoft.com/library/windows/desktop/hh446880) can extract and attach root signatures to an existing blob.  D3D\_BLOB\_ROOT\_SIGNATURE is used to specify the root signature blob part type. [**D3DStripShader**](https://msdn.microsoft.com/library/windows/desktop/dd607335) removes the root signature (using the D3DCOMPILER\_STRIP\_ROOT\_SIGNATURE flag) from the blob.
+The functionality available through FXC is also available programmatically using the [**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile) function. This call compiles a shader with a root signature, or stand-alone root signature (setting the rootsig\_1\_0 target). [**D3DGetBlobPart**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dgetblobpart) and [**D3DSetBlobPart**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dsetblobpart) can extract and attach root signatures to an existing blob.  D3D\_BLOB\_ROOT\_SIGNATURE is used to specify the root signature blob part type. [**D3DStripShader**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dstripshader) removes the root signature (using the D3DCOMPILER\_STRIP\_ROOT\_SIGNATURE flag) from the blob.
 
 ## Notes
 
 > [!Note]  
-> Whereas the offline compilation of shaders is strongly recommended, if shaders have to be compiled at runtime, refer to the remarks for [**D3DCompile2**](https://msdn.microsoft.com/library/windows/desktop/hh446869).
+> Whereas the offline compilation of shaders is strongly recommended, if shaders have to be compiled at runtime, refer to the remarks for [**D3DCompile2**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile2).
 
  
 
@@ -315,7 +315,7 @@ The functionality available through FXC is also available programmatically using
 [Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
 </dt> <dt>
 
-[HLSL Shader Model 5.1 Features for Direct3D 12](https://msdn.microsoft.com/library/windows/desktop/dn933267)
+[HLSL Shader Model 5.1 Features for Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
 [Resource Binding](resource-binding.md)
@@ -327,7 +327,7 @@ The functionality available through FXC is also available programmatically using
 [Root Signatures](root-signatures.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)

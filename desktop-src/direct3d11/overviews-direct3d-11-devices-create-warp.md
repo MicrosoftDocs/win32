@@ -71,7 +71,7 @@ For information about limitations creating a WARP device on certain feature leve
 
 ## New for Windows 8
 
-When a computer's primary display adapter is the "Microsoft Basic Display Adapter" (WARP adapter), that computer also has a second adapter. This second adapter is the render-only device that has no display outputs. For more info about the render-only device, see [new info in Windows 8 about enumerating adapters](https://msdn.microsoft.com/library/windows/desktop/bb205075#warp-new-for-win8).
+When a computer's primary display adapter is the "Microsoft Basic Display Adapter" (WARP adapter), that computer also has a second adapter. This second adapter is the render-only device that has no display outputs. For more info about the render-only device, see [new info in Windows 8 about enumerating adapters](https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi).
 
 ## Related topics
 

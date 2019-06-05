@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The transmit\_as and represent\_as Attributes
 
-This section discusses the implementation of programmer data type conversion using the MIDL **\[**[**transmit\_as**](https://msdn.microsoft.com/library/windows/desktop/aa367286)**\]** and **\[**[**represent\_as**](https://msdn.microsoft.com/library/windows/desktop/aa367154)**\]** attributes. The discussion is presented in the following sections:
+This section discusses the implementation of programmer data type conversion using the MIDL **\[**[**transmit\_as**](https://docs.microsoft.com/windows/desktop/Midl/transmit-as)**\]** and **\[**[**represent\_as**](https://docs.microsoft.com/windows/desktop/Midl/represent-as)**\]** attributes. The discussion is presented in the following sections:
 
 -   [The **transmit\_as** Attribute](the-transmit-as-attribute.md)
 -   [The **type\_to\_xmit** Function](the-type-to-xmit-function.md)

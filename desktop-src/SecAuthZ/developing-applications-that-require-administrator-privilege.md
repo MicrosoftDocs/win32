@@ -17,9 +17,9 @@ There are several models for accomplishing this.
 | Topic                                                                | Description                                                                                                                                                                                          |
 |----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Elevated Task Model](elevated-task-model.md)                       | An application running as a standard user performs operations that require administrator privilege by starting a scheduled task.                                                                     |
-| [Operating System Service Model](operating-system-service-model.md) | An application running as a standard user communicates with a service running as **SYSTEM** by using [Remote Procedure Call](https://msdn.microsoft.com/library/windows/desktop/aa378651) (RPC).                                              |
+| [Operating System Service Model](operating-system-service-model.md) | An application running as a standard user communicates with a service running as **SYSTEM** by using [Remote Procedure Call](https://docs.microsoft.com/windows/desktop/Rpc/rpc-start-page) (RPC).                                              |
 | [Administrator Broker Model](administrator-broker-model.md)         | The application is divided into two programs. One of the programs runs as a standard user, and the other runs with administrator privilege.                                                          |
-| [Administrator COM Object Model](administrator-com-object-model.md) | An application running as a standard user performs operations that require administrator privilege by creating an elevated [Component Object Model](https://msdn.microsoft.com/library/windows/desktop/ms680573) object. |
+| [Administrator COM Object Model](administrator-com-object-model.md) | An application running as a standard user performs operations that require administrator privilege by creating an elevated [Component Object Model](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal) object. |
 
 
 

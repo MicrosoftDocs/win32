@@ -86,14 +86,14 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The data to set.
 
 <!-- end list -->
 
   - encoding  
-    Type: [System.Text.Encoding](https://msdn.microsoft.com/en-us/library/86hf4sb8)  
+    Type: [System.Text.Encoding](https://docs.microsoft.com/dotnet/api/system.text.encoding?redirectedfrom=MSDN)  
     
     The encoding used to convert the string.
 

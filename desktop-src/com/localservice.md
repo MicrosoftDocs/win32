@@ -48,7 +48,7 @@ If you are implementing classes as services, you should be aware of the followin
 [**ServiceParameters**](serviceparameters.md)
 </dt> <dt>
 
-[Services](https://msdn.microsoft.com/library/windows/desktop/ms685141)
+[Services](https://docs.microsoft.com/windows/desktop/Services/services)
 </dt> </dl>
 
  

@@ -28,7 +28,7 @@ This switch has no parameters.
 
 ## Remarks
 
-In this case, the application must register an epv with the [**RpcServerRegisterIf**](https://msdn.microsoft.com/library/windows/desktop/aa378439) call. Compare this switch with the [**/use\_epv**](-use-epv.md) switch.
+In this case, the application must register an epv with the [**RpcServerRegisterIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) call. Compare this switch with the [**/use\_epv**](-use-epv.md) switch.
 
 ## Examples
 
@@ -47,7 +47,7 @@ In this case, the application must register an epv with the [**RpcServerRegister
 [**/use\_epv**](-use-epv.md)
 </dt> <dt>
 
-[**RpcServerRegisterIf**](https://msdn.microsoft.com/library/windows/desktop/aa378439)
+[**RpcServerRegisterIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif)
 </dt> </dl>
 
  

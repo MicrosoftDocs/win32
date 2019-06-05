@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Requirements for Objects
 
-WPD classifies all objects by content type. An object of a specific type is expected to support a minimum list of properties and resources (and, for the device object, a set of commands). An object's type is described by its [WPD\_OBJECT\_CONTENT\_TYPE](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-content-type) property; every object must support this property.
+WPD classifies all objects by content type. An object of a specific type is expected to support a minimum list of properties and resources (and, for the device object, a set of commands). An object's type is described by its [WPD\_OBJECT\_CONTENT\_TYPE](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85)) property; every object must support this property.
 
 WPD defines the following content types (as GUID values). A vendor is free to create their own custom-content type by providing their own GUID.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Interfaces and Classes in Effects
 
-There are many ways to use classes and interfaces in Effects 11. For interface and class syntax, see [Interfaces and Classes](https://msdn.microsoft.com/library/windows/desktop/ff471421).
+There are many ways to use classes and interfaces in Effects 11. For interface and class syntax, see [Interfaces and Classes](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking-class).
 
 The following sections detail how to specify class instances to a shader which uses interfaces. We will use the following interface and classes in the examples:
 

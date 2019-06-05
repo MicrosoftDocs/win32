@@ -113,7 +113,7 @@ The system calls a **WH\_CBT** hook procedure before activating, creating, destr
 
 For more information, see the [*CBTProc*](https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx) callback function.
 
-For information, see [WinEvents](https://msdn.microsoft.com/library/windows/desktop/dd373889).
+For information, see [WinEvents](https://docs.microsoft.com/windows/desktop/WinAuto/winevents-collision169).
 
 ### WH\_DEBUG
 
@@ -155,7 +155,7 @@ For more information, see the [*LowLevelKeyboardProc*](https://msdn.microsoft.co
 
 ### WH\_KEYBOARD
 
-The **WH\_KEYBOARD** hook enables an application to monitor message traffic for [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) and [**WM\_KEYUP**](https://msdn.microsoft.com/library/windows/desktop/ms646281) messages about to be returned by the [**GetMessage**](https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx) or [**PeekMessage**](https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx) function. You can use the **WH\_KEYBOARD** hook to monitor keyboard input posted to a message queue.
+The **WH\_KEYBOARD** hook enables an application to monitor message traffic for [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) and [**WM\_KEYUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup) messages about to be returned by the [**GetMessage**](https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx) or [**PeekMessage**](https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx) function. You can use the **WH\_KEYBOARD** hook to monitor keyboard input posted to a message queue.
 
 For more information, see the [*KeyboardProc*](https://msdn.microsoft.com/en-us/library/ms644984(v=VS.85).aspx) callback function.
 
@@ -195,7 +195,7 @@ For more information, see the [*MessageProc*](https://msdn.microsoft.com/en-us/l
 
 A shell application can use the **WH\_SHELL** hook to receive important notifications. The system calls a **WH\_SHELL** hook procedure when the shell application is about to be activated and when a top-level window is created or destroyed.
 
-Note that custom shell applications do not receive **WH\_SHELL** messages. Therefore, any application that registers itself as the default shell must call the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function before it (or any other application) can receive **WH\_SHELL** messages. This function must be called with **SPI\_SETMINIMIZEDMETRICS** and a [**MINIMIZEDMETRICS**](https://msdn.microsoft.com/en-us/library/ms724500(v=VS.85).aspx) structure. Set the **iArrange** member of this structure to **ARW\_HIDE**.
+Note that custom shell applications do not receive **WH\_SHELL** messages. Therefore, any application that registers itself as the default shell must call the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function before it (or any other application) can receive **WH\_SHELL** messages. This function must be called with **SPI\_SETMINIMIZEDMETRICS** and a [**MINIMIZEDMETRICS**](https://msdn.microsoft.com/en-us/library/ms724500(v=VS.85).aspx) structure. Set the **iArrange** member of this structure to **ARW\_HIDE**.
 
 For more information, see the [*ShellProc*](https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx) callback function.
 

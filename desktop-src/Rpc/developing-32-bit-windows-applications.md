@@ -63,7 +63,7 @@ The following RPC libraries are included for down-level support.
 
  
 
-You will also need the Microsoft Interface Definition Language (MIDL) compiler. For more information, see [Using The MIDL Compiler](https://msdn.microsoft.com/library/windows/desktop/aa367300).
+You will also need the Microsoft Interface Definition Language (MIDL) compiler. For more information, see [Using The MIDL Compiler](https://docs.microsoft.com/windows/desktop/Midl/using-the-midl-compiler-2).
 
  
 

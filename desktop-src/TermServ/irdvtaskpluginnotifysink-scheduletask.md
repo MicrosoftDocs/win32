@@ -45,7 +45,7 @@ HRESULT ScheduleTask(
 *ftStartTime* \[in\]
 </dt> <dd>
 
-Type: **[**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)**
+Type: **[**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)**
 
 The earliest task start time, in UTC.
 
@@ -54,16 +54,16 @@ The earliest task start time, in UTC.
 *ftEndTime* \[in\]
 </dt> <dd>
 
-Type: **[**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)**
+Type: **[**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)**
 
-The task end time, in UTC. Pass a [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284) set to all zeros if no end time is specified.
+The task end time, in UTC. Pass a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) set to all zeros if no end time is specified.
 
 </dd> <dt>
 
 *ftDeadline* \[in\]
 </dt> <dd>
 
-Type: **[**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)**
+Type: **[**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)**
 
 The task deadline, in UTC. This is used to set priority for multiple tasks that are within their start window. If more than one task should be started, the one with the earliest deadline will be started first.
 

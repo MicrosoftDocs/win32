@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Using WinHTTP Logging to Verify Get Traffic
 
-If the generic host and client succeed but the actual host and client still fail, it is possible that the metadata request is not being initiated. [WinHTTP](https://msdn.microsoft.com/library/windows/desktop/aa384273) logging can be used to verify that outbound messages are being generated and sent correctly.
+If the generic host and client succeed but the actual host and client still fail, it is possible that the metadata request is not being initiated. [WinHTTP](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page) logging can be used to verify that outbound messages are being generated and sent correctly.
 
-WSDAPI-based client applications use [WinHTTP](https://msdn.microsoft.com/library/windows/desktop/aa384273) to connect to devices. WSDAPI-based device hosts do not use WinHTTP. Also, some third-party proxies do not use WinHTTP. When troubleshooting a host or proxy that does not use WinHTTP, skip this diagnostic procedure and continue troubleshooting by following the procedures in [Inspecting Network Traces for HTTP Metadata Exchange](inspecting-network-traces-for-http-metadata-exchange.md).
+WSDAPI-based client applications use [WinHTTP](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page) to connect to devices. WSDAPI-based device hosts do not use WinHTTP. Also, some third-party proxies do not use WinHTTP. When troubleshooting a host or proxy that does not use WinHTTP, skip this diagnostic procedure and continue troubleshooting by following the procedures in [Inspecting Network Traces for HTTP Metadata Exchange](inspecting-network-traces-for-http-metadata-exchange.md).
 
-[WinHTTP](https://msdn.microsoft.com/library/windows/desktop/aa384273) logging does not show all TCP-level traffic. Skip to [Inspecting Network Traces for HTTP Metadata Exchange](inspecting-network-traces-for-http-metadata-exchange.md) if traffic besides the HTTP traffic is of interest.
+[WinHTTP](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page) logging does not show all TCP-level traffic. Skip to [Inspecting Network Traces for HTTP Metadata Exchange](inspecting-network-traces-for-http-metadata-exchange.md) if traffic besides the HTTP traffic is of interest.
 
 **To use WinHTTP logging to verify Get traffic**
 
@@ -98,7 +98,7 @@ The **Action** element (`<wsa:Action>https://schemas.xmlsoap.org/ws/2004/09/tran
 
 <dl> <dt>
 
-[WinHTTP](https://msdn.microsoft.com/library/windows/desktop/aa384273)
+[WinHTTP](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page)
 </dt> <dt>
 
 [Capturing WinHTTP Logs](capturing-winhttp-logs.md)

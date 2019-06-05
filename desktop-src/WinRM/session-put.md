@@ -81,7 +81,7 @@ The XML that contains the updated resource content.
 
 ## Examples
 
-The following VBScript code example writes data to the [**Win32\_WMISetting**](https://msdn.microsoft.com/library/aa394522) object. You must include all non-array properties of the object in the XML of the *Resource* parameter. The order of the properties is not significant.
+The following VBScript code example writes data to the [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) object. You must include all non-array properties of the object in the XML of the *Resource* parameter. The order of the properties is not significant.
 
 
 ```VB

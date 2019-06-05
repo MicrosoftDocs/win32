@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 
 # WmiPerfClass Provider
 
-Starting with Windows Vista, this provider creates the WMI [Performance Counter Classes](https://msdn.microsoft.com/library/aa392738). Data is dynamically supplied to these WMI performance classes by the [WMIPerfInst](wmiperfinst-provider.md) provider. The AutoDiscovery/AutoPurge (ADAP) process no longer transfers performance counter objects into WMI performance classes in the WMI repository. For more information, see [Performance Libraries and WMI](performance-libraries-and-wmi.md).
+Starting with Windows Vista, this provider creates the WMI [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes). Data is dynamically supplied to these WMI performance classes by the [WMIPerfInst](wmiperfinst-provider.md) provider. The AutoDiscovery/AutoPurge (ADAP) process no longer transfers performance counter objects into WMI performance classes in the WMI repository. For more information, see [Performance Libraries and WMI](performance-libraries-and-wmi.md).
 
 For more information, see [Performance Libraries and WMI](performance-libraries-and-wmi.md).
 
-While it is not recommended that you develop new performance objects by creating a WMI high-performance provider and depend on the [*ADAP reverse adapter*](gloss-r.md) process to transfer the data to the performance libraries, the exception is development of a Windows Driver Model driver that supplies performance data. While the reverse adapter process continues to work for backward compatibility, the recommended method is to use [Performance Counters Version 6.0](https://msdn.microsoft.com/library/windows/desktop/aa373083).
+While it is not recommended that you develop new performance objects by creating a WMI high-performance provider and depend on the [*ADAP reverse adapter*](gloss-r.md) process to transfer the data to the performance libraries, the exception is development of a Windows Driver Model driver that supplies performance data. While the reverse adapter process continues to work for backward compatibility, the recommended method is to use [Performance Counters Version 6.0](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
 
 The [**\_\_Win32Provider**](--win32provider.md) instance name of this provider is "WmiPerfClass".
 

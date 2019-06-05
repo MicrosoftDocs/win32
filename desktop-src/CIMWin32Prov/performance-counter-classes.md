@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 Performance Counter classes allow script and program access to system performance data calculated by existing high-performance providers. These classes consist of raw performance counter classes and formatted performance counter classes.
 
-Different providers supply performance library data through WMI. The [WMIPerfClass](https://msdn.microsoft.com/library/aa394546) and [WMIPerfInst](https://msdn.microsoft.com/library/aa394547) providers supply classes for both version 1 and version 2 [Performance Counters](https://msdn.microsoft.com/library/windows/desktop/aa373083). These providers maintain compatibility with the classes available in earlier operating systems.
+Different providers supply performance library data through WMI. The [WMIPerfClass](https://docs.microsoft.com/windows/desktop/WmiSdk/wmiperfclass-provider) and [WMIPerfInst](https://docs.microsoft.com/windows/desktop/WmiSdk/wmiperfinst-provider) providers supply classes for both version 1 and version 2 [Performance Counters](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal). These providers maintain compatibility with the classes available in earlier operating systems.
 
-The classes in this section are the abstract base classes used to create performance counter classes. This is not a complete list of classes that you may find on your operating system. For more information, see [Performance Libraries and WMI](https://msdn.microsoft.com/library/aa392740).
+The classes in this section are the abstract base classes used to create performance counter classes. This is not a complete list of classes that you may find on your operating system. For more information, see [Performance Libraries and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/performance-libraries-and-wmi).
 
 ## In this section
 

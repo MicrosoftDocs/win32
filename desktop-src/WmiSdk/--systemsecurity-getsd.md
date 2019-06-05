@@ -22,7 +22,7 @@ The **GetSD** method gets the security descriptor for the namespace to which the
 
 The user must have the **READ\_CONTROL** permission. By default, administrators have that permission. The only part of the security descriptor that is actually used is the discretionary access control list (DACL). The DACL can contain both inherited and non-inherited ACEs. Both deny and allow ACEs are permitted.
 
-If you are programming in C++, you can manipulate the binary security descriptor using [SDDL](https://msdn.microsoft.com/library/windows/desktop/aa379567), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376397) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376401).
+If you are programming in C++, you can manipulate the binary security descriptor using [SDDL](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
 ## Syntax
 
@@ -134,16 +134,16 @@ WScript.Echo DisplaySD
 [WMI Security Constants](wmi-security-constants.md)
 </dt> <dt>
 
-[**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063)
+[**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace)
 </dt> <dt>
 
 [**\_\_SystemSecurity::SetSD**](--systemsecurity-setsd.md)
 </dt> <dt>
 
-[**Security\_Descriptor**](https://msdn.microsoft.com/library/windows/desktop/aa379561)
+[**Security\_Descriptor**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402)
+[**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [Securing WMI Namespaces](securing-wmi-namespaces.md)

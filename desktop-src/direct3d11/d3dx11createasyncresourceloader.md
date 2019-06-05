@@ -46,16 +46,16 @@ HRESULT D3DX11CreateAsyncResourceLoader(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**HMODULE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Handle to the resource module. Use [GetModuleHandle Function](https://msdn.microsoft.com/library/ms683199.aspx) to get the handle.
+Handle to the resource module. Use [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) to get the handle.
 
 </dd> <dt>
 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Name of the resource in hSrcModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 

@@ -103,7 +103,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IPipeLineStagesCallback**](https://msdn.microsoft.com/library/windows/desktop/mt432716)
+[**IPipeLineStagesCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipipelinestagescallback)
 
  
 
