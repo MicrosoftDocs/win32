@@ -34,7 +34,7 @@ The following API are used with H.264 UVC 1.5 camera encoders.
 -   [MF\_MT\_H264\_SUPPORTED\_USAGES](mf-mt-h264-supported-usages.md)
 -   [MF\_MT\_H264\_SVC\_CAPABILITIES](mf-mt-h264-svc-capabilities.md)
 
-For information on developing device drivers for H.264 UVC 1.5 camera encoders see [New AVStream Topics for Windows 8](https://msdn.microsoft.com/windows/hardware/drivers/stream/new-windows-8-ddis).
+For information on developing device drivers for H.264 UVC 1.5 camera encoders see [New AVStream Topics for Windows 8](https://docs.microsoft.com/windows-hardware/drivers/stream/new-windows-8-ddis).
 
 ## Related topics
 

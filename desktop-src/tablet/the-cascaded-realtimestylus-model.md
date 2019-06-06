@@ -48,19 +48,19 @@ The following list describes the constraints associated with using the cascaded 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><a href="https://docs.microsoft.com/previous-versions/ms825905(v=msdn.10)">GetDesiredPacketDescription</a></td>
+    <td><a href="/previous-versions/ms825905(v=msdn.10)">GetDesiredPacketDescription</a></td>
     <td>This method returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
     </tr>
     <tr class="even">
-    <td><a href="https://docs.microsoft.com/previous-versions/ms826041(v=msdn.10)">SetDesiredPacketDescription</a></td>
+    <td><a href="/previous-versions/ms826041(v=msdn.10)">SetDesiredPacketDescription</a></td>
     <td>This method raises an <a href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception?redirectedfrom=MSDN">InvalidOperationException</a> exception.<br/></td>
     </tr>
     <tr class="odd">
-    <td><a href="https://docs.microsoft.com/previous-versions/ms825913(v=msdn.10)">GetStyluses</a></td>
+    <td><a href="/previous-versions/ms825913(v=msdn.10)">GetStyluses</a></td>
     <td>This method returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
     </tr>
     <tr class="even">
-    <td><a href="https://docs.microsoft.com/previous-versions/ms824832(v=msdn.10)">Enabled</a></td>
+    <td><a href="/previous-versions/ms824832(v=msdn.10)">Enabled</a></td>
     <td>Getting this property returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />
@@ -69,7 +69,7 @@ The following list describes the constraints associated with using the cascaded 
     <br/></td>
     </tr>
     <tr class="odd">
-    <td><a href="https://docs.microsoft.com/previous-versions/ms824834(v=msdn.10)">WindowInputRectangle</a></td>
+    <td><a href="/previous-versions/ms824834(v=msdn.10)">WindowInputRectangle</a></td>
     <td>Getting this property returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />

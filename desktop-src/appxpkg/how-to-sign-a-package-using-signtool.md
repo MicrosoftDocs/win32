@@ -13,12 +13,12 @@ ms.date: 05/31/2018
 
  
 
-Learn how to use [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) to sign your Windows Store app packages so they can be deployed. [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) is part of the Windows Software Development Kit (SDK).
+Learn how to use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your Windows Store app packages so they can be deployed. [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) is part of the Windows Software Development Kit (SDK).
 
 All Windows Store app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
 
 > [!Note]  
-> You can only use [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) to sign your Windows Store app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
+> You can only use [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign your Windows Store app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
 
  
 
@@ -32,8 +32,8 @@ All Windows Store app packages must be digitally signed before they can be deplo
 
 ### Prerequisites
 
--   [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool), which is part of the Windows SDK
--   A valid code signing certificate, for example, a Personal Information Exchange (.pfx) file created with the [**MakeCert.exe**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/pvk2pfx) tools
+-   [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool), which is part of the Windows SDK
+-   A valid code signing certificate, for example, a Personal Information Exchange (.pfx) file created with the [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) tools
 
     For info about creating a valid code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 
@@ -43,7 +43,7 @@ All Windows Store app packages must be digitally signed before they can be deplo
 
 The certificate that you use to sign the app package must meet these criteria:
 
--   The subject name of the certificate must match the **Publisher** attribute that is contained in the [**Identity**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element of the AppxManifest.xml file that is stored within the package. The publisher name is part of the identity of a Windows Store app, so you have to make the subject name of the certificate match the publisher name of the app. This allows the identity of signed packages to be checked against the digital signature. For info about signing errors that can arise from signing an app package using [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool), see the Remarks section of [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
+-   The subject name of the certificate must match the **Publisher** attribute that is contained in the [**Identity**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element of the AppxManifest.xml file that is stored within the package. The publisher name is part of the identity of a Windows Store app, so you have to make the subject name of the certificate match the publisher name of the app. This allows the identity of signed packages to be checked against the digital signature. For info about signing errors that can arise from signing an app package using [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool), see the Remarks section of [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 -   The certificate must be valid for code signing. This means that both of these items must be true:
 
     -   The Extended Key Usage (EKU) field of the certificate must either be unset or contain the EKU value for code signing (1.3.6.1.5.5.7.3.3).
@@ -85,16 +85,16 @@ The preceding [**BlockMap**](https://docs.microsoft.com/uwp/schemas/blockmapsche
     SignTool sign /fd hashAlgorithm /a /f signingCert.pfx /p password filepath.appx
     ```
 
-[**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) defaults the /fd *hashAlgorithm* parameter to SHA1 if it's not specified, and SHA1 isn't valid for signing app packages. So, you must specify this parameter when you sign an app package. To sign an app package that was created with the default SHA256 hash, you specify the /fd *hashAlgorithm* parameter as SHA256:
+[**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) defaults the /fd *hashAlgorithm* parameter to SHA1 if it's not specified, and SHA1 isn't valid for signing app packages. So, you must specify this parameter when you sign an app package. To sign an app package that was created with the default SHA256 hash, you specify the /fd *hashAlgorithm* parameter as SHA256:
 
 ``` syntax
 SignTool sign /fd SHA256 /a /f signingCert.pfx /p password filepath.appx
 ```
 
-You can omit the /p *password* parameter if you use a .pfx file that isn't password protected. You can also use other certificate selection options that are supported by [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) to sign app packages. For more info about these options, see [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool).
+You can omit the /p *password* parameter if you use a .pfx file that isn't password protected. You can also use other certificate selection options that are supported by [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) to sign app packages. For more info about these options, see [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool).
 
 > [!Note]  
-> You can't use the [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) time stamp operation on a signed app package; the operation isn't supported.
+> You can't use the [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) time stamp operation on a signed app package; the operation isn't supported.
 
  
 
@@ -113,7 +113,7 @@ This section discusses troubleshooting signing errors for app packages.
 
 ### Troubleshooting app package signing errors
 
-In addition to the signing errors that [**SignTool**](https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool) can return, **SignTool** can also return errors that are specific to the signing of app packages. These errors usually appear as internal errors:
+In addition to the signing errors that [**SignTool**](https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool) can return, **SignTool** can also return errors that are specific to the signing of app packages. These errors usually appear as internal errors:
 
 ``` syntax
 SignTool Error: An unexpected internal error has occurred.
@@ -159,7 +159,7 @@ These names are specified in quotes and are both case and whitespace sensitive.
 <tr class="even">
 <td>151</td>
 <td>error 0x8007000B: The signature hash method specified (SHA512) must match the hash method used in the app package block map (SHA256).</td>
-<td>The hashAlgorithm specified in the /fd parameter is incorrect (see Step 1: Determine the hash algorithm to use). Rerun <a href="https://msdn.microsoft.com/windows/hardware/drivers/devtest/signtool"><strong>SignTool</strong></a> with the hashAlgorithm that matches the app package block map.</td>
+<td>The hashAlgorithm specified in the /fd parameter is incorrect (see Step 1: Determine the hash algorithm to use). Rerun <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/signtool"><strong>SignTool</strong></a> with the hashAlgorithm that matches the app package block map.</td>
 </tr>
 <tr class="odd">
 <td>152</td>
@@ -175,7 +175,7 @@ These names are specified in quotes and are both case and whitespace sensitive.
 
 ## Security Considerations
 
-After the package is signed, the certificate that you used to sign the package must still be trusted by the computer on which the package is to be deployed. By adding a certificate to [local machine certificate stores](https://msdn.microsoft.com/windows/hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store, and promptly remove those certificates when no longer necessary. If you create your own test certificates for signing app packages, we also recommend that you restrict the privileges associated with the test certificate. For more info about creating test certificates for signing app packages, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
+After the package is signed, the certificate that you used to sign the package must still be trusted by the computer on which the package is to be deployed. By adding a certificate to [local machine certificate stores](https://docs.microsoft.com/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store, and promptly remove those certificates when no longer necessary. If you create your own test certificates for signing app packages, we also recommend that you restrict the privileges associated with the test certificate. For more info about creating test certificates for signing app packages, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 
 ## Related topics
 

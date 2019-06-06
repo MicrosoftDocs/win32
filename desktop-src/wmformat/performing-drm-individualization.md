@@ -53,7 +53,7 @@ When individualization is completed, the only existing objects that will reflect
 [**Using the Media Foundation Event Model**](using-the-media-foundation-model.md)
 </dt> <dt>
 
-[Windows Media DRM Individualization Best Practices](https://docs.microsoft.com/previous-versions/ms867216(v=msdn.10))
+[Windows Media DRM Individualization Best Practices](/previous-versions/ms867216(v=msdn.10))
 </dt> </dl>
 
  

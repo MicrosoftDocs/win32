@@ -41,7 +41,7 @@ The following **IADsContainer** methods are not supported by objects obtained by
 -   [**CopyHere**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere)
 -   [**MoveHere**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-movehere)
 
-To use these methods and properties after binding to an object using the object GUID, use the [**IADs.Get**](https://msdn.microsoft.com/library/aa746347) method to retrieve the object distinguished name and then use the distinguished name to bind to the object again.
+To use these methods and properties after binding to an object using the object GUID, use the [**IADs.Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve the object distinguished name and then use the distinguished name to bind to the object again.
 
 If an application stores or caches identifiers or references to objects stored in Active Directory Domain Services, the object GUID is the best identifier to use for several reasons:
 

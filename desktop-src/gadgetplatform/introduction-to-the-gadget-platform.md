@@ -102,7 +102,7 @@ To help developers debug gadget applications, the following registry key has bee
 
 ### Security
 
-There are no significant changes to the security model of the Gadget Platform compared with the Windows Vista Sidebar. For further guidelines on writing secure gadgets, see [Inspect Your Gadget](https://docs.microsoft.com/previous-versions/bb498012(v=msdn.10)).
+There are no significant changes to the security model of the Gadget Platform compared with the Windows Vista Sidebar. For further guidelines on writing secure gadgets, see [Inspect Your Gadget](/previous-versions/bb498012(v=msdn.10)).
 
 The following table describes the gadget installation locations and write and execute permissions for those locations.
 

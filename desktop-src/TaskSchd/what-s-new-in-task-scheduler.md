@@ -22,7 +22,7 @@ The following Task Scheduler changes are introduced in Windows 10:
     -   Not set to run during automatic maintenance (task doesn't use [**MaintenanceSettings**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings))
     -   Is set to **Run only when user is logged on** (task [**LogonType**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype) is **TASK\_LOGON\_INTERACTIVE\_TOKEN** or **TASK\_LOGON\_GROUP**)
 
-    All other triggers are delayed until battery saver is off. For more information about accessing battery saver status in your application, see [**SYSTEM\_POWER\_STATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_system_power_status). For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://msdn.microsoft.com/windows/hardware/commercialize/design/component-guidelines/battery-saver).
+    All other triggers are delayed until battery saver is off. For more information about accessing battery saver status in your application, see [**SYSTEM\_POWER\_STATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_system_power_status). For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).
 
 ## Windows 8
 

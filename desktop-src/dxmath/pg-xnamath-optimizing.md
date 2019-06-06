@@ -60,7 +60,7 @@ For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.
 
 While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](https://msdn.microsoft.com/en-us/library/8z34s9c6(VS.80).aspx).
 
-When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://blogs.msdn.microsoft.com/b/vcblog/archive/2008/08/28/the-mallocator.aspx) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
+When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://blogs.msdn.microsoft.com/vcblog/2008/08/28/the-mallocator/) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
 
 > [!Note]  
 > Some STL templates modify the provided type's alignment. For example, [make\_shared<>](https://docs.microsoft.com/cpp/standard-library/memory-functions?view=vs-2017) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.

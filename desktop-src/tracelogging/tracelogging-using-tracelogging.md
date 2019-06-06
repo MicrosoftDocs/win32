@@ -38,7 +38,7 @@ TraceLogging samples.
 
 <dl> <dt>
 
-[TraceLogging for kernel-mode drivers and components](https://msdn.microsoft.com/windows/hardware/drivers/devtest/tracelogging-for-kernel-mode-drivers-and-components)
+[TraceLogging for kernel-mode drivers and components](https://docs.microsoft.com/windows-hardware/drivers/devtest/tracelogging-for-kernel-mode-drivers-and-components)
 </dt> </dl>
 
  

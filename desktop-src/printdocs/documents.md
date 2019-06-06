@@ -31,7 +31,7 @@ Microsoft provides several different document technologies to support a variety 
 
     If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://msdn.microsoft.com/windows/hardware/gg487463).
 
-    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](http://msdn.microsoft.com/library/windows/hardware/dn567559(v=vs.85).aspx).
+    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://msdn.microsoft.com/library/windows/hardware/dn567559(v=vs.85).aspx).
 
 -   **XPS Document API**
 

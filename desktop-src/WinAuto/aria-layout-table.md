@@ -20,15 +20,15 @@ Error
 
 ## Description
 
-This error applies to HTML table tags that have the [**role**](https://msdn.microsoft.com/library/Cc304102) attribute set to "presentation", or with a table that has a single cell (1×1 table).
+This error applies to HTML table tags that have the [**role**](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) attribute set to "presentation", or with a table that has a single cell (1×1 table).
 
 This error indicates that a table is marked as layout only (has `role="presentation"`), but it also contains accessibility information as if it was a data table, which can be confusing for screen reader users.
 
 To address this error, determine whether the table actually is just a layout table and, if so, remove the accessible markup:
 
--   [**CAPTION**](https://msdn.microsoft.com/library/ms535213) element, [**aria-labelledby**](https://msdn.microsoft.com/library/Cc848875), [**aria-label**](https://msdn.microsoft.com/library/Hh968243), or [**title**](https://msdn.microsoft.com/library/ms534683) attributes.
--   [**summary**](https://www.bing.com/search?q=**summary**) or [**aria-describedby**](https://msdn.microsoft.com/library/Mt709024) attributes.
--   [**THEAD**](https://msdn.microsoft.com/library/ms535909) tags.
+-   [**CAPTION**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption) element, [**aria-labelledby**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), [**aria-label**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), or [**title**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title) attributes.
+-   [**summary**](https://www.bing.com/search?q=**summary**) or [**aria-describedby**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes.
+-   [**THEAD**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) tags.
 
 ## Example
 
@@ -36,7 +36,7 @@ To address this error, determine whether the table actually is just a layout tab
 
 ## Remarks
 
-If you determine that a table does need accessibility information, remove the [**role**](https://msdn.microsoft.com/library/Cc304102) attribute or set it to a value other than "presentation".
+If you determine that a table does need accessibility information, remove the [**role**](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) attribute or set it to a value other than "presentation".
 
  
 

@@ -100,9 +100,9 @@ For more info about WM\_INPUT, see [About Raw Input](https://docs.microsoft.com/
 
 ### DirectInput
 
-[DirectInput](http://msdn.microsoft.com/windows/hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support the Xbox 360 controller for Windows, use [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
+[DirectInput](https://msdn.microsoft.com/windows/hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support the Xbox 360 controller for Windows, use [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
 
-Compare the complexity of using [DirectInput](http://msdn.microsoft.com/windows/hardware/drivers/hid/directinput), shown in the following code, to the methods previously described. The following set of calls are needed to create a DirectInput mouse:
+Compare the complexity of using [DirectInput](https://msdn.microsoft.com/windows/hardware/drivers/hid/directinput), shown in the following code, to the methods previously described. The following set of calls are needed to create a DirectInput mouse:
 
 ``` syntax
     LPDIRECTINPUT8 pDI;

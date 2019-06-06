@@ -232,7 +232,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <ul>
 <li><a href="https://support.microsoft.com/kb/197571">AppInit DLLs</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/w8cookbook/application--executable--manifest">App (executable) manifest</a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot)">Writing High-DPI Win32 Applications</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">Writing High-DPI Win32 Applications</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -279,13 +279,13 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks.<br/> For more information see:
 <ul>
 <li><a href="https://docs.microsoft.com/windows/desktop/uxguide/winenv-uac">User Account Control</a></li>
-<li><a href="https://docs.microsoft.com/previous-versions/aa480152(v=msdn.10)">UAC: Application Update Guidelines</a></li>
+<li><a href="/previous-versions/aa480152(v=msdn.10)">UAC: Application Update Guidelines</a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>Install to the Correct Folders by Default</td>
-<td>Users should have a consistent and secure experience with the default installation location of files, while maintaining the option to install an app to the location they choose. It is also necessary to store app data in the correct location to allow several people to use the same computer without corrupting or overwriting each other's data and settings. For more information see, <a href="https://docs.microsoft.com/previous-versions/ms954376(v=msdn.10)">Summary of Install/Uninstall Requirements</a>.</td>
+<td>Users should have a consistent and secure experience with the default installation location of files, while maintaining the option to install an app to the location they choose. It is also necessary to store app data in the correct location to allow several people to use the same computer without corrupting or overwriting each other's data and settings. For more information see, <a href="/previous-versions/ms954376(v=msdn.10)">Summary of Install/Uninstall Requirements</a>.</td>
 </tr>
 <tr class="even">
 <td>Support Multi-User Sessions</td>
@@ -304,7 +304,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 ## See also
 
--   [Windows Hardware Certification Program](https://msdn.microsoft.com/library/windows/hardware/jj124227.aspx)
+-   [Windows Hardware Certification Program](https://docs.microsoft.com/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
 -   [How to use the Windows App Certification Kit](https://www.microsoft.com/download/details.aspx?id=27414)
 
  

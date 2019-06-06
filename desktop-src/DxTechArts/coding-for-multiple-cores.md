@@ -332,8 +332,8 @@ Multithreaded programming can be tricky, and some multithreaded bugs show up onl
 
 For games targeting the newer versions of Windows, there are a number of APIs that can simplify the creation of scalable multithreaded applications. This is particularly true with the new ThreadPool API and some additional syncrhonziation primitives (condition variables, the slim read/writer lock, and one-time initialization). You can find an overview of these technologies in the following MSDN Magazine articles:
 
--   [Improve Scalability With New Thread Pool APIs](https://msdn.microsoft.com/magazine/ee310108.aspx)
--   [Synchronization Primitives New To Windows Vista](https://msdn.microsoft.com/magazine/ee310108.aspx)
+-   [Improve Scalability With New Thread Pool APIs](http://msdn.microsoft.com/magazine/msdn-magazine-issues)
+-   [Synchronization Primitives New To Windows Vista](http://msdn.microsoft.com/magazine/msdn-magazine-issues)
 
 Applications using [Direct3D 11 Features](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-features) on these operating systems can also take advantage of the new design for concurrent object creation and deferred context command lists for better scalability for multithreaded rendering.
 

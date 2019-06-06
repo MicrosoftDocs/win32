@@ -22,7 +22,7 @@ An ETW collects requested kernel events and saves them into a file called an eve
 
 **GPUView** is a development tool for determining the performance of the graphics processing unit (GPU) and CPU. It looks at performance with regard to direct memory access (DMA) buffer processing and all other video processing on the video hardware.
 
-For [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) apps that rely heavily on the GPU, **GPUView** is a powerful tool for understanding the relationship between work done on the CPU vs. GPU. For more info about **GPUView**see [Using GPUView](https://msdn.microsoft.com/windows/hardware/drivers/display/using-gpuview).
+For [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) apps that rely heavily on the GPU, **GPUView** is a powerful tool for understanding the relationship between work done on the CPU vs. GPU. For more info about **GPUView**see [Using GPUView](https://docs.microsoft.com/windows-hardware/drivers/display/using-gpuview).
 
 Similar to **XPerf**, an ETW trace is first taken by starting the tracing service, exercising the scenario that needs analysis for the app under consideration, stopping the service and saving the information in an ETL file. **GPUView** presents the data present in the ETL file in a graphical format.
 

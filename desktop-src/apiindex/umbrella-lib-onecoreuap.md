@@ -431,24 +431,24 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                              | Requirements                                                   |
 |----------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [**ClearCommBreak**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885166(v=msdn.10))     | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**ClearCommError**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885167(v=msdn.10))     | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**EscapeCommFunction**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885213(v=msdn.10)) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**ClearCommBreak**](/previous-versions/windows/embedded/ms885166(v=msdn.10))     | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**ClearCommError**](/previous-versions/windows/embedded/ms885167(v=msdn.10))     | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**EscapeCommFunction**](/previous-versions/windows/embedded/ms885213(v=msdn.10)) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
 | [**GetCommConfig**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommconfig)      | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**GetCommMask**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885606(v=msdn.10))        | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**GetCommModemStatus**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885607(v=msdn.10)) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**GetCommProperties**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885608(v=msdn.10))  | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**GetCommState**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885609(v=msdn.10))       | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**GetCommTimeouts**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885610(v=msdn.10))    | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**PurgeComm**](https://docs.microsoft.com/previous-versions/windows/embedded/ms886785(v=msdn.10))          | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**SetCommBreak**](https://docs.microsoft.com/previous-versions/windows/embedded/ms886804(v=msdn.10))       | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**GetCommMask**](/previous-versions/windows/embedded/ms885606(v=msdn.10))        | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**GetCommModemStatus**](/previous-versions/windows/embedded/ms885607(v=msdn.10)) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**GetCommProperties**](/previous-versions/windows/embedded/ms885608(v=msdn.10))  | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**GetCommState**](/previous-versions/windows/embedded/ms885609(v=msdn.10))       | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**GetCommTimeouts**](/previous-versions/windows/embedded/ms885610(v=msdn.10))    | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**PurgeComm**](/previous-versions/windows/embedded/ms886785(v=msdn.10))          | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**SetCommBreak**](/previous-versions/windows/embedded/ms886804(v=msdn.10))       | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
 | [**SetCommConfig**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommconfig)      | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**SetCommMask**](https://docs.microsoft.com/previous-versions/windows/embedded/ms886805(v=msdn.10))        | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**SetCommState**](https://docs.microsoft.com/previous-versions/windows/embedded/ms886806(v=msdn.10))       | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**SetCommTimeouts**](https://docs.microsoft.com/previous-versions/windows/embedded/ms886807(v=msdn.10))    | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**SetupComm**](https://docs.microsoft.com/previous-versions/ms913064(v=msdn.10))          | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**TransmitCommChar**](https://docs.microsoft.com/previous-versions/ms913354(v=msdn.10))   | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
-| [**WaitCommEvent**](https://docs.microsoft.com/previous-versions/ms913508(v=msdn.10))      | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**SetCommMask**](/previous-versions/windows/embedded/ms886805(v=msdn.10))        | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**SetCommState**](/previous-versions/windows/embedded/ms886806(v=msdn.10))       | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**SetCommTimeouts**](/previous-versions/windows/embedded/ms886807(v=msdn.10))    | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**SetupComm**](/previous-versions/ms913064(v=msdn.10))          | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**TransmitCommChar**](/previous-versions/ms913354(v=msdn.10))   | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
+| [**WaitCommEvent**](/previous-versions/ms913508(v=msdn.10))      | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240. |
 
 
 
@@ -744,7 +744,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**DeleteVolumeMountPointW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw)                    | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FileTimeToLocalFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime)    | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindClose**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose)                  | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [**FindCloseChangeNotification**](https://docs.microsoft.com/previous-versions/windows/embedded/ms889625(v=msdn.10))     | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [**FindCloseChangeNotification**](/previous-versions/windows/embedded/ms889625(v=msdn.10))     | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindFirstChangeNotificationA**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa)      | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindFirstChangeNotificationW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa)      | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindFirstFileA**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea)             | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
@@ -752,7 +752,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**FindFirstFileExW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa)           | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindFirstFileW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea)             | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindFirstVolumeW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew)                  | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [**FindNextChangeNotification**](https://docs.microsoft.com/previous-versions/windows/embedded/ms889784(v=msdn.10))      | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [**FindNextChangeNotification**](/previous-versions/windows/embedded/ms889784(v=msdn.10))      | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindNextFileA**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea)              | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindNextFileW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea)              | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**FindNextVolumeW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew)                   | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
@@ -770,8 +770,8 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetFileAttributesExA**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa)       | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**GetFileAttributesExW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa)       | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**GetFileAttributesW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa)         | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [**GetFileInformationByHandle**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890926(v=msdn.10))      | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [**GetFileSize**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890939(v=msdn.10))                     | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [**GetFileInformationByHandle**](/previous-versions/windows/embedded/ms890926(v=msdn.10))      | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [**GetFileSize**](/previous-versions/windows/embedded/ms890939(v=msdn.10))                     | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**GetFileSizeEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex)              | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**GetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime)                | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**GetFileType**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype)                | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
@@ -792,7 +792,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetVolumePathNamesForVolumeNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamesforvolumenamew)  | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063.                                                           |
 | [**GetVolumePathNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew)                | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**LocalFileTimeToFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-localfiletimetofiletime)    | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [**LockFile**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891385(v=msdn.10))                                   | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [**LockFile**](/previous-versions/windows/embedded/ms891385(v=msdn.10))                                   | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**LockFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex)                 | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**QueryDosDeviceW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew)                   | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile)                   | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
@@ -809,7 +809,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**SetFilePointerEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilepointerex)           | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**SetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfiletime)                | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**SetFileValidData**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilevaliddata)                  | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [**UnlockFile**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892364(v=msdn.10))                                 | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [**UnlockFile**](/previous-versions/windows/embedded/ms892364(v=msdn.10))                                 | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**UnlockFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex)               | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile)                  | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 | [**WriteFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex)                | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
@@ -830,8 +830,8 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**FindFirstStreamW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw)   | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**FindNextFileNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew)  | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**FindNextStreamW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw)    | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
-| [**GetTempFileNameA**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891186(v=msdn.10))            | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
-| [**GetTempPathA**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891189(v=msdn.10))                | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**GetTempFileNameA**](/previous-versions/windows/embedded/ms891186(v=msdn.10))            | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**GetTempPathA**](/previous-versions/windows/embedded/ms891189(v=msdn.10))                | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**GetVolumeInformationA**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)       | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**SetFileApisToANSI**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi)  | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**SetFileApisToOEM**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem)   | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10240. Removed in 10.0.15063. |
@@ -869,7 +869,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                    | Requirements                                                                          |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [**CopyFileW**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891449(v=msdn.10))                | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**CopyFileW**](/previous-versions/windows/embedded/ms891449(v=msdn.10))                | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CreateHardLinkA**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinka) | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.10240. Removed in 10.0.15063. |
 
 
@@ -978,7 +978,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CancelIoEx**](https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func)                  | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
 | [**CancelSynchronousIo**](https://docs.microsoft.com/windows/desktop/FileIO/cancelsynchronousio-func)                | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240.                                                         |
 | [**CreateIoCompletionPort**](https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport)      | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
-| [**DeviceIoControl**](https://docs.microsoft.com/previous-versions/windows/embedded/ms898288(v=msdn.10))                  | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [**DeviceIoControl**](/previous-versions/windows/embedded/ms898288(v=msdn.10))                  | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
 | [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult)         | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
 | [**GetOverlappedResultEx**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresultex)       | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240.                                                         |
 | [**GetQueuedCompletionStatus**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus)   | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
@@ -1287,7 +1287,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetSystemFileCacheSize**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getsystemfilecachesize)             | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.                                                             |
 | [**GetWriteWatch**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getwritewatch)               | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.                                                             |
 | [**MapUserPhysicalPages**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages)               | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.                                                                                                  |
-| [**MapViewOfFile**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891386(v=msdn.10))                    | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [**MapViewOfFile**](/previous-versions/windows/embedded/ms891386(v=msdn.10))                    | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**MapViewOfFileEx**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex)                    | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**MapViewOfFileFromApp**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffilefromapp)        | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.                                                             |
 | [**OfferVirtualMemory**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory)          | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.                                                                                                  |
@@ -1303,13 +1303,13 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**UnmapViewOfFile**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile)             | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**UnmapViewOfFileEx**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex)           | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.                                                             |
 | [**UnregisterBadMemoryNotification**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unregisterbadmemorynotification)    | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.                                                                                                  |
-| [**VirtualAlloc**](https://docs.microsoft.com/previous-versions/ms913486(v=msdn.10))                     | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [**VirtualAlloc**](/previous-versions/ms913486(v=msdn.10))                     | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualAllocEx**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex)                     | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualAllocExNuma**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocexnuma)                 | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.                                                                                                  |
 | [**VirtualFree**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree)                 | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualFreeEx**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex)                      | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualLock**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock)                        | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.                                                             |
-| [**VirtualProtect**](https://docs.microsoft.com/previous-versions/ms913495(v=msdn.10))                   | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [**VirtualProtect**](/previous-versions/ms913495(v=msdn.10))                   | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualProtectEx**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex)                   | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualQuery**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery)                | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
 | [**VirtualQueryEx**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex)                     | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
@@ -1610,7 +1610,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/embedded/ms885595(v=msdn.10)"><strong>FlushInstructionCache</strong></a></td>
+<td><a href="/previous-versions/windows/embedded/ms885595(v=msdn.10)"><strong>FlushInstructionCache</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2424,8 +2424,8 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetTickCount**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount)                                     | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [**GetTickCount64**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount64)                   | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [**GetVersion**](https://docs.microsoft.com/previous-versions/office/sharepoint-server/ms457711(v=office.15))                          | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [**GetVersionExA**](https://docs.microsoft.com/previous-versions/ms894256(v=msdn.10))                                    | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [**GetVersionExW**](https://docs.microsoft.com/previous-versions/windows/embedded/ms885648(v=msdn.10))                                    | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [**GetVersionExA**](/previous-versions/ms894256(v=msdn.10))                                    | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [**GetVersionExW**](/previous-versions/windows/embedded/ms885648(v=msdn.10))                                    | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [**GetWindowsDirectoryA**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)                    | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [**GetWindowsDirectoryW**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)                    | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [**GlobalMemoryStatusEx**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex)             | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
@@ -2567,7 +2567,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                         | Requirements                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Beep**](https://docs.microsoft.com/previous-versions/ms930581(v=msdn.10))                          | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
+| [**Beep**](/previous-versions/ms930581(v=msdn.10))                          | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
 | [**DecodePointer**](https://docs.microsoft.com/previous-versions//bb432242(v=vs.85)) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
 | [**DecodeSystemPointer**](https://docs.microsoft.com/previous-versions//bb432243(v=vs.85))  | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
 | [**EncodePointer**](https://docs.microsoft.com/previous-versions//bb432254(v=vs.85)) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
@@ -2599,7 +2599,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetFileVersionInfoExW**](https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoexa)     | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.14393. |
 | [**GetFileVersionInfoSizeExW**](https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizeexa) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.14393. |
 | [**VerFindFileW**](https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verfindfilea)     | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.14393. |
-| [**VerQueryValueW**](https://docs.microsoft.com/previous-versions/ms915509(v=msdn.10))            | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.14393. |
+| [**VerQueryValueW**](/previous-versions/ms915509(v=msdn.10))            | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.14393. |
 
 
 
@@ -3296,7 +3296,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CredEnumerateW**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credenumeratea)              | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
 | [**CredFindBestCredentialA**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfindbestcredentiala)     | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
 | [**CredFindBestCredentialW**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfindbestcredentiala)     | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
-| [**CredFree**](https://docs.microsoft.com/previous-versions/windows/embedded/ms936983(v=msdn.10))                  | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
+| [**CredFree**](/previous-versions/windows/embedded/ms936983(v=msdn.10))                  | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
 | [**CredGetSessionTypes**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgetsessiontypes)         | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
 | [**CredGetTargetInfoA**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa)          | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
 | [**CredGetTargetInfoW**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa)          | Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240. |
@@ -3330,15 +3330,15 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                               | Requirements                                                                                   |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**CryptContextAddRef**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884431(v=msdn.10))       | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
-| [**CryptDuplicateHash**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884437(v=msdn.10))       | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
-| [**CryptDuplicateKey**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884438(v=msdn.10))        | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**CryptContextAddRef**](/previous-versions/windows/embedded/ms884431(v=msdn.10))       | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**CryptDuplicateHash**](/previous-versions/windows/embedded/ms884437(v=msdn.10))       | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**CryptDuplicateKey**](/previous-versions/windows/embedded/ms884438(v=msdn.10))        | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptEnumProvidersA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa)        | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptEnumProvidersW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa)        | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptEnumProviderTypesA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidertypesa)    | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptEnumProviderTypesW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidertypesa)    | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
-| [**CryptGenRandom**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884454(v=msdn.10))           | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
-| [**CryptHashSessionKey**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884461(v=msdn.10))      | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**CryptGenRandom**](/previous-versions/windows/embedded/ms884454(v=msdn.10))           | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
+| [**CryptHashSessionKey**](/previous-versions/windows/embedded/ms884461(v=msdn.10))      | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptReleaseContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptSetProviderA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera)          | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
 | [**CryptSetProviderExA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa)        | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063. |
@@ -3792,18 +3792,18 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CertAddEncodedCertificateToSystemStoreW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetosystemstorea)            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertAddEncodedCRLToStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcrltostore)                    | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertAddEncodedCTLToStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore)                    | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertAddEnhancedKeyUsageIdentifier**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883731(v=msdn.10))                | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertAddEnhancedKeyUsageIdentifier**](/previous-versions/windows/embedded/ms883731(v=msdn.10))                | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertAddRefServerOcspResponse**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse)                       | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertAddRefServerOcspResponseContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponsecontext)                | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertAddSerializedElementToStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore)             | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertAddStoreToCollection**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection)                    | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertAlgIdToOID**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883739(v=msdn.10))                                   | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertAlgIdToOID**](/previous-versions/windows/embedded/ms883739(v=msdn.10))                                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCloseServerOcspResponse**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse)                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCloseStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore)                              | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCompareCertificate**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificate)                      | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCompareCertificateName**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificatename)                  | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCompareIntegerBlob**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcompareintegerblob)                      | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertComparePublicKeyInfo**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883760(v=msdn.10))                         | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertComparePublicKeyInfo**](/previous-versions/windows/embedded/ms883760(v=msdn.10))                         | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertControlStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore)                            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCreateCertificateChainEngine**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine)            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertCreateCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext)                | Introduced into crypt32.dll in 10.0.10240. |
@@ -3862,13 +3862,13 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CertGetStoreProperty**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetstoreproperty)                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertGetSubjectCertificateFromStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore)          | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertGetValidUsages**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetvalidusages)                          | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertIsRDNAttrsInCertificateName**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883884(v=msdn.10))                  | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertIsRDNAttrsInCertificateName**](/previous-versions/windows/embedded/ms883884(v=msdn.10))                  | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertIsStrongHashToSign**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign)                             | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertIsValidCRLForCertificate**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisvalidcrlforcertificate)                | Introduced into crypt32.dll in 10.0.10240. |
 | CertIsWeakHash                                                                                                            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertNameToStrA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra)                              | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertNameToStrW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra)                              | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertOIDToAlgId**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883894(v=msdn.10))                                   | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertOIDToAlgId**](/previous-versions/windows/embedded/ms883894(v=msdn.10))                                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertOpenServerOcspResponse**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse)                         | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertOpenStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore)                               | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertOpenSystemStoreA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea)                               | Introduced into crypt32.dll in 10.0.10240. |
@@ -3877,7 +3877,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CertRDNValueToStrW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra)                          | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertRegisterPhysicalStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore)                          | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertRegisterSystemStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregistersystemstore)                            | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertRemoveEnhancedKeyUsageIdentifier**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883910(v=msdn.10))             | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertRemoveEnhancedKeyUsageIdentifier**](/previous-versions/windows/embedded/ms883910(v=msdn.10))             | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertRemoveStoreFromCollection**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certremovestorefromcollection)               | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertResyncCertificateChainEngine**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certresynccertificatechainengine)            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertRetrieveLogoOrBiometricInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certretrievelogoorbiometricinfo)                    | Introduced into crypt32.dll in 10.0.10240. |
@@ -3890,7 +3890,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CertSetCertificateContextProperty**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty)           | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertSetCRLContextProperty**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty)                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertSetCTLContextProperty**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty)                   | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertSetEnhancedKeyUsage**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883927(v=msdn.10))                          | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertSetEnhancedKeyUsage**](/previous-versions/windows/embedded/ms883927(v=msdn.10))                          | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertSetStoreProperty**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetstoreproperty)                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertStrToNameA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea)                                              | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertStrToNameW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea)                                              | Introduced into crypt32.dll in 10.0.10240. |
@@ -3903,13 +3903,13 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CertVerifyRevocation**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation)                               | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertVerifySubjectCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifysubjectcertificatecontext)         | Introduced into crypt32.dll in 10.0.10240. |
 | [**CertVerifyTimeValidity**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity)                      | Introduced into crypt32.dll in 10.0.10240. |
-| [**CertVerifyValidityNesting**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883950(v=msdn.10))                        | Introduced into crypt32.dll in 10.0.10240. |
+| [**CertVerifyValidityNesting**](/previous-versions/windows/embedded/ms883950(v=msdn.10))                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptAcquireCertificatePrivateKey**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey)           | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptBinaryToStringA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa)                               | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptBinaryToStringW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa)                                        | Introduced into crypt32.dll in 10.0.10240. |
 | CryptCloseAsyncHandle                                                                                                     | Introduced into crypt32.dll in 10.0.10240. |
 | CryptCreateAsyncHandle                                                                                                    | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptCreateKeyIdentifierFromCSP**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883958(v=msdn.10))                  | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptCreateKeyIdentifierFromCSP**](/previous-versions/windows/embedded/ms883958(v=msdn.10))                  | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptDecodeMessage**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage)                                 | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptDecodeObject**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject)                           | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptDecodeObjectEx**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex)                         | Introduced into crypt32.dll in 10.0.10240. |
@@ -3918,14 +3918,14 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CryptEncodeObject**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject)                           | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptEncodeObjectEx**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex)                         | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptEncryptMessage**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage)                                | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptEnumKeyIdentifierProperties**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883971(v=msdn.10))                 | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptEnumKeyIdentifierProperties**](/previous-versions/windows/embedded/ms883971(v=msdn.10))                 | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptEnumOIDFunction**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction)                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptEnumOIDInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo)                            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptExportPKCS8**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8)                                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptExportPublicKeyInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfo)                           | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptExportPublicKeyInfoEx**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883980(v=msdn.10))                       | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptExportPublicKeyInfoEx**](/previous-versions/windows/embedded/ms883980(v=msdn.10))                       | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptExportPublicKeyInfoFromBCryptKeyHandle**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle)        | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptFindCertificateKeyProvInfo**](https://docs.microsoft.com/previous-versions/windows/embedded/ms883984(v=msdn.10))                  | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptFindCertificateKeyProvInfo**](/previous-versions/windows/embedded/ms883984(v=msdn.10))                  | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptFindLocalizedName**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindlocalizedname)                      | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptFindOIDInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo)                            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptFormatObject**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptformatobject)                           | Introduced into crypt32.dll in 10.0.10240. |
@@ -3933,22 +3933,22 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | CryptGetAsyncParam                                                                                                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptGetDefaultOIDDllList**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetdefaultoiddlllist)                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptGetDefaultOIDFunctionAddress**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetdefaultoidfunctionaddress)           | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptGetKeyIdentifierProperty**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884062(v=msdn.10))                    | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptGetKeyIdentifierProperty**](/previous-versions/windows/embedded/ms884062(v=msdn.10))                    | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptGetMessageCertificates**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetmessagecertificates)                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptGetMessageSignerCount**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetmessagesignercount)                         | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptGetOIDFunctionAddress**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress)                  | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptGetOIDFunctionValue**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue)                    | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptHashCertificate**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884064(v=msdn.10))                             | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptHashCertificate**](/previous-versions/windows/embedded/ms884064(v=msdn.10))                             | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptHashCertificate2**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate2)                                       | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptHashMessage**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashmessage)                                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptHashPublicKeyInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo)                      | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptHashToBeSigned**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884066(v=msdn.10))                              | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptHashToBeSigned**](/previous-versions/windows/embedded/ms884066(v=msdn.10))                              | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptImportPKCS8**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8)                                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptImportPublicKeyInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfo)                           | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptImportPublicKeyInfoEx**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884067(v=msdn.10))                       | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptImportPublicKeyInfoEx**](/previous-versions/windows/embedded/ms884067(v=msdn.10))                       | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptImportPublicKeyInfoEx2**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2)                                 | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptInitOIDFunctionSet**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset)                     | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptInstallDefaultContext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884069(v=msdn.10))                       | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptInstallDefaultContext**](/previous-versions/windows/embedded/ms884069(v=msdn.10))                       | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptInstallOIDFunctionAddress**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress)              | Introduced into crypt32.dll in 10.0.10240. |
 | CryptLoadSip                                                                                                              | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptMemAlloc**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc)                                      | Introduced into crypt32.dll in 10.0.10240. |
@@ -3977,11 +3977,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CryptRegisterOIDInfo**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo)                               | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptRetrieveTimeStamp**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp)                      | Introduced into crypt32.dll in 10.0.10240. |
 | CryptSetAsyncParam                                                                                                        | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptSetKeyIdentifierProperty**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884071(v=msdn.10))                    | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptSetKeyIdentifierProperty**](/previous-versions/windows/embedded/ms884071(v=msdn.10))                    | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptSetOIDFunctionValue**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue)                           | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptSignAndEncodeCertificate**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884072(v=msdn.10))                    | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptSignAndEncodeCertificate**](/previous-versions/windows/embedded/ms884072(v=msdn.10))                    | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptSignAndEncryptMessage**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage)                         | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptSignCertificate**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884073(v=msdn.10))                             | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptSignCertificate**](/previous-versions/windows/embedded/ms884073(v=msdn.10))                             | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptSignMessage**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage)                                   | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptSignMessageWithKey**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessagewithkey)                            | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptSIPAddProvider**](https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider)                                | Introduced into crypt32.dll in 10.0.10240. |
@@ -3998,7 +3998,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**CryptSIPVerifyIndirectData**](https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata)                         | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptStringToBinaryA**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya)                                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptStringToBinaryW**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya)                               | Introduced into crypt32.dll in 10.0.10240. |
-| [**CryptUninstallDefaultContext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms884074(v=msdn.10))                     | Introduced into crypt32.dll in 10.0.10240. |
+| [**CryptUninstallDefaultContext**](/previous-versions/windows/embedded/ms884074(v=msdn.10))                     | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptUnprotectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata)                          | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptUnprotectMemory**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory)                                        | Introduced into crypt32.dll in 10.0.10240. |
 | [**CryptUnregisterDefaultOIDFunction**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisterdefaultoidfunction)                  | Introduced into crypt32.dll in 10.0.10240. |
@@ -4429,7 +4429,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                                                 | Requirements                                |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| [**AddIPAddress**](https://docs.microsoft.com/previous-versions/ms925604(v=msdn.10))                               | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**AddIPAddress**](/previous-versions/ms925604(v=msdn.10))                               | Introduced into iphlpapi.dll in 10.0.10240. |
 | AllocateAndGetInterfaceInfoFromStack                                                                                | Introduced into iphlpapi.dll in 10.0.10240. |
 | AllocateAndGetIpAddrTableFromStack                                                                                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CancelIPChangeNotify**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify)                         | Introduced into iphlpapi.dll in 10.0.10240. |
@@ -4464,25 +4464,25 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | ConvertStringToInterfacePhysicalAddress                                                                             | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreateAnycastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createanycastipaddressentry)                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | CreateCompartment                                                                                                   | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**CreateIpForwardEntry**](https://docs.microsoft.com/previous-versions/windows/embedded/ms887916(v=msdn.10))                       | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**CreateIpForwardEntry**](/previous-versions/windows/embedded/ms887916(v=msdn.10))                       | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreateIpForwardEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2)                        | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**CreateIpNetEntry**](https://docs.microsoft.com/previous-versions/windows/embedded/ms887917(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**CreateIpNetEntry**](/previous-versions/windows/embedded/ms887917(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreateIpNetEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2)                            | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreatePersistentTcpPortReservation**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation)           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreatePersistentUdpPortReservation**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation)           | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**CreateProxyArpEntry**](https://docs.microsoft.com/previous-versions/windows/embedded/ms887918(v=msdn.10))                        | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**CreateProxyArpEntry**](/previous-versions/windows/embedded/ms887918(v=msdn.10))                        | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreateSortedAddressPairs**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs)                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**CreateUnicastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry)                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DeleteAnycastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteanycastipaddressentry)                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | DeleteCompartment                                                                                                   | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**DeleteIPAddress**](https://docs.microsoft.com/previous-versions/windows/embedded/ms887920(v=msdn.10))                            | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**DeleteIpForwardEntry**](https://docs.microsoft.com/previous-versions/ms939430(v=msdn.10))                       | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**DeleteIPAddress**](/previous-versions/windows/embedded/ms887920(v=msdn.10))                            | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**DeleteIpForwardEntry**](/previous-versions/ms939430(v=msdn.10))                       | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DeleteIpForwardEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteipforwardentry2)                        | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**DeleteIpNetEntry**](https://docs.microsoft.com/previous-versions/ms939431(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**DeleteIpNetEntry**](/previous-versions/ms939431(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DeleteIpNetEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteipnetentry2)                            | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DeletePersistentTcpPortReservation**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation)           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DeletePersistentUdpPortReservation**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation)           | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**DeleteProxyArpEntry**](https://docs.microsoft.com/previous-versions/ms939432(v=msdn.10))                        | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**DeleteProxyArpEntry**](/previous-versions/ms939432(v=msdn.10))                        | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DeleteUnicastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry)                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**DisableMediaSense**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense)                            | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**EnableRouter**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter)                                 | Introduced into iphlpapi.dll in 10.0.10240. |
@@ -4504,38 +4504,38 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | GetCurrentThreadCompartmentScope                                                                                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetExtendedTcpTable**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable)                                   | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetExtendedUdpTable**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable)                                   | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetFriendlyIfIndex**](https://docs.microsoft.com/previous-versions/ms908320(v=msdn.10))                         | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetFriendlyIfIndex**](/previous-versions/ms908320(v=msdn.10))                         | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIcmpStatistics**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-geticmpstatistics)                                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIcmpStatisticsEx**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-geticmpstatisticsex)                                   | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetIfEntry**](https://docs.microsoft.com/previous-versions/ms908433(v=msdn.10))                                 | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetIfEntry**](/previous-versions/ms908433(v=msdn.10))                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIfEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifentry2)                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIfStackTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifstacktable)                              | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetIfTable**](https://docs.microsoft.com/previous-versions/ms908434(v=msdn.10))                                 | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetIfTable**](/previous-versions/ms908434(v=msdn.10))                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIfTable2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2)                                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIfTable2Ex**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex)                                | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetInterfaceInfo**](https://docs.microsoft.com/previous-versions/ms908435(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetInterfaceInfo**](/previous-versions/ms908435(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetInvertedIfStackTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getinvertedifstacktable)                      | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetIpAddrTable**](https://docs.microsoft.com/previous-versions/ms908436(v=msdn.10))                             | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetIpAddrTable**](/previous-versions/ms908436(v=msdn.10))                             | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpErrorString**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring)                             | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpForwardEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardentry2)                           | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetIpForwardTable**](https://docs.microsoft.com/previous-versions/ms908437(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetIpForwardTable**](/previous-versions/ms908437(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpForwardTable2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2)                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpInterfaceEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry)                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpInterfaceTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable)                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpNetEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2)                               | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetIpNetTable**](https://docs.microsoft.com/previous-versions/ms908438(v=msdn.10))                              | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetIpNetTable**](/previous-versions/ms908438(v=msdn.10))                              | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpNetTable2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2)                               | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpNetworkConnectionBandwidthEstimates**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetworkconnectionbandwidthestimates)     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpPathEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathentry)                               | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpPathTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathtable)                               | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetIpStatistics**](https://docs.microsoft.com/previous-versions/ms908439(v=msdn.10))                            | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetIpStatistics**](/previous-versions/ms908439(v=msdn.10))                            | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetIpStatisticsEx**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatisticsex)                                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | GetJobCompartmentId                                                                                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetMulticastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddressentry)                   | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetMulticastIpAddressTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddresstable)                   | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetNetworkInformation**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getnetworkinformation)                        | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetNetworkParams**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams)                                      | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetNumberOfInterfaces**](https://docs.microsoft.com/previous-versions/ms908449(v=msdn.10))                      | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetNumberOfInterfaces**](/previous-versions/ms908449(v=msdn.10))                      | Introduced into iphlpapi.dll in 10.0.10240. |
 | GetOwnerModuleFromPidAndInfo                                                                                        | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetOwnerModuleFromTcp6Entry**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcp6entry)                  | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetOwnerModuleFromTcpEntry**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcpentry)                   | Introduced into iphlpapi.dll in 10.0.10240. |
@@ -4546,30 +4546,30 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetPerTcp6ConnectionStats**](https://docs.microsoft.com/previous-versions//bb408403(v=vs.85))                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetPerTcpConnectionEStats**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats)                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetPerTcpConnectionStats**](https://docs.microsoft.com/previous-versions//bb408404(v=vs.85))                     | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetRTTAndHopCount**](https://docs.microsoft.com/previous-versions/ms908455(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetRTTAndHopCount**](/previous-versions/ms908455(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetSessionCompartmentId**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getsessioncompartmentid)                      | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetTcp6Table**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table)                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetTcp6Table2**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2)                                | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetTcpStatistics**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890306(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetTcpStatistics**](/previous-versions/windows/embedded/ms890306(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetTcpStatisticsEx**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex)                                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetTcpTable**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable)                                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetTcpTable2**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable2)                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetTeredoPort**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getteredoport)                                | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetUdp6Table**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudp6table)                                 | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetUdpStatistics**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890309(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetUdpStatistics**](/previous-versions/windows/embedded/ms890309(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetUdpStatisticsEx**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex)                                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetUdpTable**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable)                                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetUnicastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry)                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetUnicastIpAddressTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable)              | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**GetUniDirectionalAdapterInfo**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890312(v=msdn.10))               | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**GetUniDirectionalAdapterInfo**](/previous-versions/windows/embedded/ms890312(v=msdn.10))               | Introduced into iphlpapi.dll in 10.0.10240. |
 | GetWPAOACSupportLevel                                                                                               | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**Icmp6CreateFile**](https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6createfile)                                       | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**Icmp6ParseReplies**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890356(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**Icmp6ParseReplies**](/previous-versions/windows/embedded/ms890356(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**Icmp6SendEcho2**](https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6sendecho2)                                        | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**IcmpCloseHandle**](https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle)                                       | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**IcmpCreateFile**](https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile)                                        | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**IcmpParseReplies**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890361(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**IcmpSendEcho**](https://docs.microsoft.com/previous-versions/windows/embedded/ms890362(v=msdn.10))                               | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**IcmpParseReplies**](/previous-versions/windows/embedded/ms890361(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**IcmpSendEcho**](/previous-versions/windows/embedded/ms890362(v=msdn.10))                               | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**IcmpSendEcho2**](https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2)                                         | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**IcmpSendEcho2Ex**](https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex)                              | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**if\_indextoname**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-if_indextoname)                              | Introduced into iphlpapi.dll in 10.0.10240. |
@@ -4649,10 +4649,10 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | NhGetInterfaceNameFromDeviceGuid                                                                                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | NhGetInterfaceNameFromGuid                                                                                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**NhpAllocateAndGetInterfaceInfoFromStack**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-nhpallocateandgetinterfaceinfofromstack)      | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**NotifyAddrChange**](https://docs.microsoft.com/previous-versions/windows/embedded/ms895712(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**NotifyAddrChange**](/previous-versions/windows/embedded/ms895712(v=msdn.10))                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | NotifyCompartmentChange                                                                                             | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**NotifyIpInterfaceChange**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyipinterfacechange)                      | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**NotifyRouteChange**](https://docs.microsoft.com/previous-versions/windows/embedded/ms895720(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**NotifyRouteChange**](/previous-versions/windows/embedded/ms895720(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**NotifyRouteChange2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2)                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**NotifyStableUnicastIpAddressTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable)                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**NotifyTeredoPortChange**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange)                       | Introduced into iphlpapi.dll in 10.0.10240. |
@@ -4680,19 +4680,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**ResolveIpNetEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-resolveipnetentry2)                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**ResolveNeighbor**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-resolveneighbor)                              | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**RestoreMediaSense**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense)                            | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SendARP**](https://docs.microsoft.com/previous-versions/ms912815(v=msdn.10))                                    | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SendARP**](/previous-versions/ms912815(v=msdn.10))                                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | SetAdapterIpAddress                                                                                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetCurrentThreadCompartmentId**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setcurrentthreadcompartmentid)                | Introduced into iphlpapi.dll in 10.0.10240. |
 | SetCurrentThreadCompartmentScope                                                                                    | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SetIfEntry**](https://docs.microsoft.com/previous-versions/ms912830(v=msdn.10))                                 | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SetIpForwardEntry**](https://docs.microsoft.com/previous-versions/ms912831(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SetIfEntry**](/previous-versions/ms912830(v=msdn.10))                                 | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SetIpForwardEntry**](/previous-versions/ms912831(v=msdn.10))                          | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetIpForwardEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2)                           | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetIpInterfaceEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry)                          | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SetIpNetEntry**](https://docs.microsoft.com/previous-versions/ms912832(v=msdn.10))                              | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SetIpNetEntry**](/previous-versions/ms912832(v=msdn.10))                              | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetIpNetEntry2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipnetentry2)                               | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SetIpStatistics**](https://docs.microsoft.com/previous-versions/ms912833(v=msdn.10))                            | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SetIpStatistics**](/previous-versions/ms912833(v=msdn.10))                            | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetIpStatisticsEx**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex)                            | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SetIpTTL**](https://docs.microsoft.com/previous-versions/ms912834(v=msdn.10))                                   | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SetIpTTL**](/previous-versions/ms912834(v=msdn.10))                                   | Introduced into iphlpapi.dll in 10.0.10240. |
 | SetJobCompartmentId                                                                                                 | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetNetworkInformation**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setnetworkinformation)                        | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetPerTcp6ConnectionEStats**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats)                   | Introduced into iphlpapi.dll in 10.0.10240. |
@@ -4700,7 +4700,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**SetPerTcpConnectionEStats**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcpconnectionestats)                    | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetPerTcpConnectionStats**](https://docs.microsoft.com/previous-versions//bb427392(v=vs.85))                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetSessionCompartmentId**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setsessioncompartmentid)                      | Introduced into iphlpapi.dll in 10.0.10240. |
-| [**SetTcpEntry**](https://docs.microsoft.com/previous-versions/ms912952(v=msdn.10))                                | Introduced into iphlpapi.dll in 10.0.10240. |
+| [**SetTcpEntry**](/previous-versions/ms912952(v=msdn.10))                                | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**SetUnicastIpAddressEntry**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry)                     | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**UnenableRouter**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter)                               | Introduced into iphlpapi.dll in 10.0.10240. |
 | [**GetDefaultCompartmentId**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getdefaultcompartmentid)                      | Introduced into iphlpapi.dll in 10.0.14393. |
@@ -4776,7 +4776,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**WNetCancelConnection2W**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a)            | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetCancelConnectionA**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)             | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetCancelConnectionW**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)             | Introduced into mpr.dll in 10.0.10240. |
-| [**WNetCloseEnum**](https://docs.microsoft.com/previous-versions/windows/embedded/ms898606(v=msdn.10))                   | Introduced into mpr.dll in 10.0.10240. |
+| [**WNetCloseEnum**](/previous-versions/windows/embedded/ms898606(v=msdn.10))                   | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetConnectionDialog1A**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a)            | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetDisconnectDialog1A**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a)            | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetEnumResourceA**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea)                 | Introduced into mpr.dll in 10.0.10240. |
@@ -4804,7 +4804,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**WNetUseConnectionA**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona)                | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetUseConnectionW**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona)                | Introduced into mpr.dll in 10.0.10240. |
 | [**WNetConnectionDialog**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog)              | Introduced into mpr.dll in 10.0.15063. |
-| [**WNetDisconnectDialog**](https://docs.microsoft.com/previous-versions/windows/embedded/ms898697(v=msdn.10))            | Introduced into mpr.dll in 10.0.15063. |
+| [**WNetDisconnectDialog**](/previous-versions/windows/embedded/ms898697(v=msdn.10))            | Introduced into mpr.dll in 10.0.15063. |
 | [**WNetConnectionDialog1W**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a)            | Introduced into mpr.dll in 10.0.15063. |
 | [**WNetDisconnectDialog1W**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a)            | Introduced into mpr.dll in 10.0.15063. |
 
@@ -4946,7 +4946,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | API                                                                                              | Requirements                                |
 |--------------------------------------------------------------------------------------------------|---------------------------------------------|
 | [**NetApiBufferAllocate**](https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate)      | Introduced into netutils.dll in 10.0.10240. |
-| [**NetApiBufferFree**](https://docs.microsoft.com/previous-versions/windows/embedded/ms895659(v=msdn.10))        | Introduced into netutils.dll in 10.0.10240. |
+| [**NetApiBufferFree**](/previous-versions/windows/embedded/ms895659(v=msdn.10))        | Introduced into netutils.dll in 10.0.10240. |
 | [**NetApiBufferReallocate**](https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate)    | Introduced into netutils.dll in 10.0.10240. |
 | [**NetApiBufferSize**](https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibuffersize)          | Introduced into netutils.dll in 10.0.10240. |
 | [**NetRemoteComputerSupports**](https://docs.microsoft.com/windows/desktop/api/lmremutl/nf-lmremutl-netremotecomputersupports) | Introduced into netutils.dll in 10.0.10240. |
@@ -6082,7 +6082,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**LsaRegisterLogonProcess**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterlogonprocess)               | Introduced into sspicli.dll in 10.0.10240. |
 | [**LsaRegisterPolicyChangeNotification**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification)   | Introduced into sspicli.dll in 10.0.10240. |
 | [**LsaUnregisterPolicyChangeNotification**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification) | Introduced into sspicli.dll in 10.0.10240. |
-| [**MakeSignature**](https://docs.microsoft.com/previous-versions/windows/embedded/ms926142(v=msdn.10))                       | Introduced into sspicli.dll in 10.0.10240. |
+| [**MakeSignature**](/previous-versions/windows/embedded/ms926142(v=msdn.10))                       | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryContextAttributesA**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig)               | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryContextAttributesExA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesexa)             | Introduced into sspicli.dll in 10.0.10240. |
 | [**QueryContextAttributesExW**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesexa)             | Introduced into sspicli.dll in 10.0.10240. |
@@ -6104,7 +6104,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**SaslInitializeSecurityContextA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-saslinitializesecuritycontexta)        | Introduced into sspicli.dll in 10.0.10240. |
 | [**SaslInitializeSecurityContextW**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-saslinitializesecuritycontexta)        | Introduced into sspicli.dll in 10.0.10240. |
 | [**SaslSetContextOption**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-saslsetcontextoption)                  | Introduced into sspicli.dll in 10.0.10240. |
-| [**SealMessage**](https://docs.microsoft.com/previous-versions/windows/embedded/ms926485(v=msdn.10))                         | Introduced into sspicli.dll in 10.0.10240. |
+| [**SealMessage**](/previous-versions/windows/embedded/ms926485(v=msdn.10))                         | Introduced into sspicli.dll in 10.0.10240. |
 | [**SetContextAttributesA**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-setcontextattributesa)                 | Introduced into sspicli.dll in 10.0.10240. |
 | SetCredentialsAttributesA                                                                                    | Introduced into sspicli.dll in 10.0.10240. |
 | SetCredentialsAttributesW                                                                                    | Introduced into sspicli.dll in 10.0.10240. |
@@ -6125,8 +6125,8 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**SspiUnmarshalAuthIdentity**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalauthidentity)             | Introduced into sspicli.dll in 10.0.10240. |
 | [**SspiValidateAuthIdentity**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspivalidateauthidentity)              | Introduced into sspicli.dll in 10.0.10240. |
 | [**SspiZeroAuthIdentity**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspizeroauthidentity)                  | Introduced into sspicli.dll in 10.0.10240. |
-| [**UnsealMessage**](https://docs.microsoft.com/previous-versions/windows/embedded/ms926486(v=msdn.10))                       | Introduced into sspicli.dll in 10.0.10240. |
-| [**VerifySignature**](https://docs.microsoft.com/previous-versions/windows/embedded/ms926455(v=msdn.10))                     | Introduced into sspicli.dll in 10.0.10240. |
+| [**UnsealMessage**](/previous-versions/windows/embedded/ms926486(v=msdn.10))                       | Introduced into sspicli.dll in 10.0.10240. |
+| [**VerifySignature**](/previous-versions/windows/embedded/ms926455(v=msdn.10))                     | Introduced into sspicli.dll in 10.0.10240. |
 
 
 
@@ -6372,37 +6372,37 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                                    | Requirements                               |
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [**ber\_alloc\_t**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863718(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_bvdup**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863725(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_bvecfree**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863730(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_bvfree**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863737(v=msdn.10))                   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_first\_element**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863754(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_flatten**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863761(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_free**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863769(v=msdn.10))                     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_init**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863775(v=msdn.10))                     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_next\_element**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863786(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_peek\_tag**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863791(v=msdn.10))                | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_printf**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863798(v=msdn.10))                   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_scanf**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863810(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
-| [**ber\_skip\_tag**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863817(v=msdn.10))                | Introduced into wldap32.dll in 10.0.10240. |
-| [**cldap\_open**](https://docs.microsoft.com/previous-versions/windows/embedded/ms863877(v=msdn.10))                   | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_alloc\_t**](/previous-versions/windows/embedded/ms863718(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_bvdup**](/previous-versions/windows/embedded/ms863725(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_bvecfree**](/previous-versions/windows/embedded/ms863730(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_bvfree**](/previous-versions/windows/embedded/ms863737(v=msdn.10))                   | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_first\_element**](/previous-versions/windows/embedded/ms863754(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_flatten**](/previous-versions/windows/embedded/ms863761(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_free**](/previous-versions/windows/embedded/ms863769(v=msdn.10))                     | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_init**](/previous-versions/windows/embedded/ms863775(v=msdn.10))                     | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_next\_element**](/previous-versions/windows/embedded/ms863786(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_peek\_tag**](/previous-versions/windows/embedded/ms863791(v=msdn.10))                | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_printf**](/previous-versions/windows/embedded/ms863798(v=msdn.10))                   | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_scanf**](/previous-versions/windows/embedded/ms863810(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ber\_skip\_tag**](/previous-versions/windows/embedded/ms863817(v=msdn.10))                | Introduced into wldap32.dll in 10.0.10240. |
+| [**cldap\_open**](/previous-versions/windows/embedded/ms863877(v=msdn.10))                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**cldap\_openA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open)                    | Introduced into wldap32.dll in 10.0.10240. |
 | [**cldap\_openW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open)                    | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_abandon**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891743(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_add**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891744(v=msdn.10))                     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_add\_ext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891745(v=msdn.10))                | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_add\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891746(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_abandon**](/previous-versions/windows/embedded/ms891743(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_add**](/previous-versions/windows/embedded/ms891744(v=msdn.10))                     | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_add\_ext**](/previous-versions/windows/embedded/ms891745(v=msdn.10))                | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_add\_ext\_s**](/previous-versions/windows/embedded/ms891746(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_add\_ext\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext_s)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_add\_ext\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext_s)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_add\_extA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext)                 | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_add\_extW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext)                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_add\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891747(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_add\_s**](/previous-versions/windows/embedded/ms891747(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_add\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_s)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_add\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_s)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_addA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add)                      | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_addW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add)                      | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_bind**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891748(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_bind\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891749(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_bind**](/previous-versions/windows/embedded/ms891748(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_bind\_s**](/previous-versions/windows/embedded/ms891749(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_bind\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_bind\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_bindA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind)                     | Introduced into wldap32.dll in 10.0.10240. |
@@ -6410,109 +6410,109 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**ldap\_check\_filterA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_check_filtera)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_check\_filterW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_check_filtera)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_cleanup**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_cleanup)                   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_close\_extended\_op**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891751(v=msdn.10))     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_compare**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891752(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_compare\_ext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891753(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_compare\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891754(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_close\_extended\_op**](/previous-versions/windows/embedded/ms891751(v=msdn.10))     | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_compare**](/previous-versions/windows/embedded/ms891752(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_compare\_ext**](/previous-versions/windows/embedded/ms891753(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_compare\_ext\_s**](/previous-versions/windows/embedded/ms891754(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compare\_ext\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext_s)          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compare\_ext\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext_s)          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compare\_extA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext)             | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compare\_extW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext)             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_compare\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891755(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_compare\_s**](/previous-versions/windows/embedded/ms891755(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compare\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s)               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compare\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s)               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compareA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_compareW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_conn\_from\_msg**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_conn_from_msg)           | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_connect**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891756(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_control\_free**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891758(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_connect**](/previous-versions/windows/embedded/ms891756(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_control\_free**](/previous-versions/windows/embedded/ms891758(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_control\_freeA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_control_free)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_control\_freeW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_control_free)            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_controls\_free**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891759(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_controls\_free**](/previous-versions/windows/embedded/ms891759(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_controls\_freeA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_controls\_freeW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free)           | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_count\_entries**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891760(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_count\_references**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891761(v=msdn.10))       | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_count\_values**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891762(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_count\_values\_len**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891763(v=msdn.10))      | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_count\_entries**](/previous-versions/windows/embedded/ms891760(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_count\_references**](/previous-versions/windows/embedded/ms891761(v=msdn.10))       | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_count\_values**](/previous-versions/windows/embedded/ms891762(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_count\_values\_len**](/previous-versions/windows/embedded/ms891763(v=msdn.10))      | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_count\_valuesA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_count\_valuesW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values)            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_create\_page\_control**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891764(v=msdn.10))   | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_create\_page\_control**](/previous-versions/windows/embedded/ms891764(v=msdn.10))   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_create\_page\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_page_control)    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_create\_page\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_page_control)    | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_create\_sort\_control**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891765(v=msdn.10))   | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_create\_sort\_control**](/previous-versions/windows/embedded/ms891765(v=msdn.10))   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_create\_sort\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_sort_control)    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_create\_sort\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_sort_control)    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_create\_vlv\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla)     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_create\_vlv\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla)     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_delete**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891766(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_delete\_ext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891767(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_delete\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891768(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_delete**](/previous-versions/windows/embedded/ms891766(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_delete\_ext**](/previous-versions/windows/embedded/ms891767(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_delete\_ext\_s**](/previous-versions/windows/embedded/ms891768(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_delete\_ext\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_delete\_ext\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_delete\_extA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_delete\_extW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_ext)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_delete\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891769(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_delete\_s**](/previous-versions/windows/embedded/ms891769(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_delete\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s)                | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_delete\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete_s)                | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_deleteA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_deleteW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete)                   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_dn2ufn**](https://docs.microsoft.com/previous-versions/windows/embedded/ms891770(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_dn2ufn**](/previous-versions/windows/embedded/ms891770(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_dn2ufnA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_dn2ufn)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_dn2ufnW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_dn2ufn)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_encode\_sort\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_encode_sort_control)    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_encode\_sort\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_encode_sort_control)    | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_err2string**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892105(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_err2string**](/previous-versions/windows/embedded/ms892105(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_err2stringA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_err2string)               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_err2stringW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_err2string)               | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_escape\_filter\_element**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892136(v=msdn.10)) | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_escape\_filter\_element**](/previous-versions/windows/embedded/ms892136(v=msdn.10)) | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_escape\_filter\_elementA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_escape_filter_element)  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_escape\_filter\_elementW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_escape_filter_element)  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_explode\_dn**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892251(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_explode\_dn**](/previous-versions/windows/embedded/ms892251(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_explode\_dnA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_explode_dn)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_explode\_dnW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_explode_dn)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_extended\_operation**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892261(v=msdn.10))     | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_extended\_operation**](/previous-versions/windows/embedded/ms892261(v=msdn.10))     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_extended\_operation\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_extended_operation_sa)   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_extended\_operation\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_extended_operation_sa)   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_extended\_operationA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_extended_operation)      | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_extended\_operationW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_extended_operation)      | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_first\_attribute**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892263(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_first\_attribute**](/previous-versions/windows/embedded/ms892263(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_first\_attributeA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_attribute)         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_first\_attributeW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_attribute)         | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_first\_entry**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892264(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_first\_reference**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892265(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_first\_entry**](/previous-versions/windows/embedded/ms892264(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_first\_reference**](/previous-versions/windows/embedded/ms892265(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_free\_controls                                                                                   | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_free\_controlsA                                                                                  | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_free\_controlsW                                                                                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_dn**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892266(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_dn**](/previous-versions/windows/embedded/ms892266(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_dnA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_dn)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_dnW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_dn)                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_next\_page**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892268(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_next\_page\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892269(v=msdn.10))      | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_option**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892271(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_next\_page**](/previous-versions/windows/embedded/ms892268(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_next\_page\_s**](/previous-versions/windows/embedded/ms892269(v=msdn.10))      | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_option**](/previous-versions/windows/embedded/ms892271(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_get\_optionA                                                                                     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_optionW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_paged\_count**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892272(v=msdn.10))       | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_values**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892273(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_get\_values\_len**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892274(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_paged\_count**](/previous-versions/windows/embedded/ms892272(v=msdn.10))       | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_values**](/previous-versions/windows/embedded/ms892273(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_get\_values\_len**](/previous-versions/windows/embedded/ms892274(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_values\_lenA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len)         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_values\_lenW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len)         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_valuesA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_get\_valuesW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_init**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892275(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_init**](/previous-versions/windows/embedded/ms892275(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_initA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init)                     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_initW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init)                     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_memfree**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892277(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_memfree**](/previous-versions/windows/embedded/ms892277(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_memfreeA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_memfreeW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree)                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_modify**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892280(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_modify\_ext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892281(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_modify\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892282(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_modify**](/previous-versions/windows/embedded/ms892280(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_modify\_ext**](/previous-versions/windows/embedded/ms892281(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_modify\_ext\_s**](/previous-versions/windows/embedded/ms892282(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modify\_ext\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modify\_ext\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modify\_extA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modify\_extW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_modify\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892283(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_modify\_s**](/previous-versions/windows/embedded/ms892283(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modify\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s)                | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modify\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s)                | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modifyA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify)                   | Introduced into wldap32.dll in 10.0.10240. |
@@ -6529,58 +6529,58 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**ldap\_modrdn2W**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modrdn2)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modrdnA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modrdn)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_modrdnW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modrdn)                   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_msgfree**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892284(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_next\_attribute**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892285(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_msgfree**](/previous-versions/windows/embedded/ms892284(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_next\_attribute**](/previous-versions/windows/embedded/ms892285(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_next\_attributeA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_attribute)          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_next\_attributeW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_attribute)          | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_next\_entry**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892286(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_next\_reference**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892287(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_open**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892288(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_next\_entry**](/previous-versions/windows/embedded/ms892286(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_next\_reference**](/previous-versions/windows/embedded/ms892287(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_open**](/previous-versions/windows/embedded/ms892288(v=msdn.10))                    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_openA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_open)                     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_openW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_open)                     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_extended\_resultA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_extended_resulta)  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_extended\_resultW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_extended_resulta)  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_parse\_page\_control**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892290(v=msdn.10))    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_parse\_page\_control**](/previous-versions/windows/embedded/ms892290(v=msdn.10))    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_page\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_page_control)     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_page\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_page_control)     | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_parse\_reference**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892291(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_parse\_reference**](/previous-versions/windows/embedded/ms892291(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_referenceA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_reference)         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_referenceW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_reference)         | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_parse\_result**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892292(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_parse\_result**](/previous-versions/windows/embedded/ms892292(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_resultA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_resultW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result)            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_parse\_sort\_control**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892293(v=msdn.10))    | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_parse\_sort\_control**](/previous-versions/windows/embedded/ms892293(v=msdn.10))    | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_sort\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_sort_control)     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_sort\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_sort_control)     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_vlv\_controlA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_vlv_controla)      | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_parse\_vlv\_controlW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_vlv_controla)      | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_perror                                                                                           | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_rename\_ext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892295(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_rename\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892296(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_rename\_ext**](/previous-versions/windows/embedded/ms892295(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_rename\_ext\_s**](/previous-versions/windows/embedded/ms892296(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_rename\_ext\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_rename\_ext\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_rename\_extA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_rename\_extW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_result**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892297(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_result2error**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892298(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_result**](/previous-versions/windows/embedded/ms892297(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_result2error**](/previous-versions/windows/embedded/ms892298(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_sasl\_bind\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sasl_bind_sa)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_sasl\_bind\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sasl_bind_sa)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_sasl\_bindA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sasl_binda)               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_sasl\_bindW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sasl_binda)               | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892302(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search\_abandon\_page**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892303(v=msdn.10))   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search\_ext**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892304(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892305(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search**](/previous-versions/windows/embedded/ms892302(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search\_abandon\_page**](/previous-versions/windows/embedded/ms892303(v=msdn.10))   | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search\_ext**](/previous-versions/windows/embedded/ms892304(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search\_ext\_s**](/previous-versions/windows/embedded/ms892305(v=msdn.10))          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_ext\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_ext\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s)           | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_extA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_extW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search\_init\_page**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892306(v=msdn.10))      | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search\_init\_page**](/previous-versions/windows/embedded/ms892306(v=msdn.10))      | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_init\_pageA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page)       | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_init\_pageW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page)       | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892307(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search\_s**](/previous-versions/windows/embedded/ms892307(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s)                | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_search\_st**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892308(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_search\_st**](/previous-versions/windows/embedded/ms892308(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_stA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_st)               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_stW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_st)               | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_search\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s)                | Introduced into wldap32.dll in 10.0.10240. |
@@ -6588,35 +6588,35 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**ldap\_searchW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search)                   | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_set\_dbg\_flags                                                                                  | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_set\_dbg\_routine                                                                                | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_set\_option**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892310(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_set\_option**](/previous-versions/windows/embedded/ms892310(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_set\_optionA                                                                                     | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_set\_optionW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_simple\_bind**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892311(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_simple\_bind\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892312(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_simple\_bind**](/previous-versions/windows/embedded/ms892311(v=msdn.10))            | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_simple\_bind\_s**](/previous-versions/windows/embedded/ms892312(v=msdn.10))         | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_simple\_bind\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s)          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_simple\_bind\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s)          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_simple\_bindA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind)             | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_simple\_bindW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind)             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_sslinit**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892314(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_sslinit**](/previous-versions/windows/embedded/ms892314(v=msdn.10))                 | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_sslinitA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sslinit)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_sslinitW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_sslinit)                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_start\_tls\_sA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_start_tls_sa)            | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_start\_tls\_sW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_start_tls_sa)            | Introduced into wldap32.dll in 10.0.10240. |
 | ldap\_startup                                                                                          | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_stop\_tls\_s**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_stop_tls_s)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_ufn2dn**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892316(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_ufn2dn**](/previous-versions/windows/embedded/ms892316(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_ufn2dnA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_ufn2dn)                   | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_ufn2dnW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_ufn2dn)                   | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_unbind**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892317(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_unbind\_s**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892318(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_value\_free**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892321(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**ldap\_value\_free\_len**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892322(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_unbind**](/previous-versions/windows/embedded/ms892317(v=msdn.10))                  | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_unbind\_s**](/previous-versions/windows/embedded/ms892318(v=msdn.10))               | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_value\_free**](/previous-versions/windows/embedded/ms892321(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**ldap\_value\_free\_len**](/previous-versions/windows/embedded/ms892322(v=msdn.10))        | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_value\_freeA**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free)              | Introduced into wldap32.dll in 10.0.10240. |
 | [**ldap\_value\_freeW**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free)              | Introduced into wldap32.dll in 10.0.10240. |
-| [**LdapGetLastError**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892267(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
-| [**LdapMapErrorToWin32**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892276(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
-| [**LdapUnicodeToUTF8**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892319(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
-| [**LdapUTF8ToUnicode**](https://docs.microsoft.com/previous-versions/windows/embedded/ms892320(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**LdapGetLastError**](/previous-versions/windows/embedded/ms892267(v=msdn.10))              | Introduced into wldap32.dll in 10.0.10240. |
+| [**LdapMapErrorToWin32**](/previous-versions/windows/embedded/ms892276(v=msdn.10))           | Introduced into wldap32.dll in 10.0.10240. |
+| [**LdapUnicodeToUTF8**](/previous-versions/windows/embedded/ms892319(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
+| [**LdapUTF8ToUnicode**](/previous-versions/windows/embedded/ms892320(v=msdn.10))             | Introduced into wldap32.dll in 10.0.10240. |
 
 
 

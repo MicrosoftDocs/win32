@@ -319,7 +319,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448310(v=vs.85)"><strong>CscSearchApiGetInterface</strong></a><br/></td>
-<td>Creates an instance of a <a href="https://msdn.microsoft.com/en-us/library/Cc448312(v=VS.85).aspx"><strong>CCscSearchApiInterface</strong></a> object.<br/></td>
+<td>Creates an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc448312(v=vs.85)"><strong>CCscSearchApiInterface</strong></a> object.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll"><strong>DAD_AutoScroll</strong></a><br/></td>

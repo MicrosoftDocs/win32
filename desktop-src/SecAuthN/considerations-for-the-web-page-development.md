@@ -12,7 +12,7 @@ Web Authentication Broker is built on the top of the same technologies that powe
 
 ## Internet Explorer 10 standard document mode
 
-The Web Authentication Broker displays all pages in the "IE10 Standards Mode". You can use the developer tools in Internet Explorer to see how your page works under different document modes. For more information on Internet Explorer 10 compatibility, see the MSDN topics for [Internet Explorer](https://msdn.microsoft.com/library/hh673527.aspx).
+The Web Authentication Broker displays all pages in the "IE10 Standards Mode". You can use the developer tools in Internet Explorer to see how your page works under different document modes. For more information on Internet Explorer 10 compatibility, see the MSDN topics for [Internet Explorer](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
 
 ## Disabled and locked down features
 

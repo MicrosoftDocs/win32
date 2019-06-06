@@ -52,7 +52,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a><br/></td>
-<td>The <strong>CM_Add_ID</strong> function appends a specified <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance's</a> <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/compatible-ids">compatible ID</a> list.<br/></td>
+<td>The <strong>CM_Add_ID</strong> function appends a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_id_exw"><strong>CM_Add_ID_Ex</strong></a><br/></td>
@@ -60,7 +60,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Add_ID_Ex</strong> function appends a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.<br/></td>
+<br/> The <strong>CM_Add_ID_Ex</strong> function appends a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a><br/></td>
@@ -200,7 +200,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Property</strong> function retrieves a device property that is set for a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<td>The <strong>CM_Get_Class_Property</strong> function retrieves a device property that is set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_exw"><strong>CM_Get_Class_Property_ExW</strong></a><br/></td>
@@ -208,11 +208,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Class_Property_ExW</strong> function retrieves a device property that is set for a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<br/> The <strong>CM_Get_Class_Property_ExW</strong> function retrieves a device property that is set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<td>The <strong>CM_Get_Class_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys_ex"><strong>CM_Get_Class_Property_Keys_Ex</strong></a><br/></td>
@@ -220,11 +220,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Class_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<br/> The <strong>CM_Get_Class_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw"><strong>CM_Get_Class_Registry_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Registry_Property</strong> function retrieves a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>.<br/></td>
+<td>The <strong>CM_Get_Class_Registry_Property</strong> function retrieves a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a><br/></td>
@@ -240,7 +240,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID</strong> function retrieves the <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Device_ID</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw"><strong>CM_Get_Device_ID_Ex</strong></a><br/></td>
@@ -248,11 +248,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_Ex</strong> function retrieves the <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_Ex</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_List</strong> function retrieves a list of <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
+<td>The <strong>CM_Get_Device_ID_List</strong> function retrieves a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw"><strong>CM_Get_Device_ID_List_Ex</strong></a><br/></td>
@@ -260,11 +260,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_List_Ex</strong> function retrieves a list of <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance IDs</a> for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_List_Ex</strong> function retrieves a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_List_Size</strong> function retrieves the buffer size required to hold a list of <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
+<td>The <strong>CM_Get_Device_ID_List_Size</strong> function retrieves the buffer size required to hold a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw"><strong>CM_Get_Device_ID_List_Size_Ex</strong></a><br/></td>
@@ -272,11 +272,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_List_Size_Ex</strong> function retrieves the buffer size required to hold a list of <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_List_Size_Ex</strong> function retrieves the buffer size required to hold a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_Size</strong> function retrieves the buffer size required to hold a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Device_ID_Size</strong> function retrieves the buffer size required to hold a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex"><strong>CM_Get_Device_ID_Size_Ex</strong></a><br/></td>
@@ -284,7 +284,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_Size_Ex</strong> function retrieves the buffer size required to hold a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_Size_Ex</strong> function retrieves the buffer size required to hold a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_aliasw"><strong>CM_Get_Device_Interface_Alias</strong></a><br/></td>
@@ -292,7 +292,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista"><strong>CM_Get_Device_Interface_List</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_Interface_List</strong> function retrieves a list of device interface instances that belong to a specified <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-interface-classes">device interface class</a>.<br/></td>
+<td>The <strong>CM_Get_Device_Interface_List</strong> function retrieves a list of device interface instances that belong to a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea"><strong>CM_Get_Device_Interface_List_Size</strong></a><br/></td>
@@ -528,7 +528,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Locate_DevNode</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.<br/></td>
+<td>The <strong>CM_Locate_DevNode</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw"><strong>CM_Locate_DevNode_Ex</strong></a><br/></td>
@@ -536,7 +536,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Locate_DevNode_Ex</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-instance-ids">device instance ID</a>, on a local machine or a remote machine.<br/></td>
+<br/> The <strong>CM_Locate_DevNode_Ex</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>, on a local machine or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_mapcrtowin32err"><strong>CM_MapCrToWin32Err</strong></a><br/></td>
@@ -664,7 +664,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw"><strong>CM_Set_Class_Registry_Property</strong></a><br/></td>
-<td>The <strong>CM_Set_Class_Registry_Property</strong> function sets or deletes a property of a <a href="https://msdn.microsoft.com/windows/hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<td>The <strong>CM_Set_Class_Registry_Property</strong> function sets or deletes a property of a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a><br/></td>

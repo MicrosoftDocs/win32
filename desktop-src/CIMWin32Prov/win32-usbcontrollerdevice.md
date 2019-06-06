@@ -199,7 +199,7 @@ This property is inherited from [**CIM\_ControlledBy**](cim-controlledby.md).
 
 The **Win32\_USBControllerDevice** class is derived from [**CIM\_ControlledBy**](cim-controlledby.md).
 
-For a discussion on using, see the [Displaying USB Devices using WMI](https://blogs.msdn.microsoft.com/b/powershell/archive/2007/02/24/displaying-usb-devices-using-wmi.aspx) blog article. For a discussion of using association classes, see the [Get-USB – Using WMI Association Classes in PowerShell](https://blogs.msdn.microsoft.com/b/powershell/archive/2009/01/10/get-usb-using-wmi-association-classes-in-powershell.aspx) article.
+For a discussion on using, see the [Displaying USB Devices using WMI](https://blogs.msdn.microsoft.com/powershell/2007/02/24/displaying-usb-devices-using-wmi/) blog article. For a discussion of using association classes, see the [Get-USB – Using WMI Association Classes in PowerShell](https://blogs.msdn.microsoft.com/powershell/2009/01/10/get-usb-using-wmi-association-classes-in-powershell/) article.
 
 ## Examples
 

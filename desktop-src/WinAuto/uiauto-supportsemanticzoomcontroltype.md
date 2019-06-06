@@ -29,7 +29,7 @@ This topic provides information about UI Automation support for the **SemanticZo
 
 Semantic Zoom is a technique introduced in Windows 8 for presenting and navigating large sets of related data or content within a single view, such as a photo album, app list, or address book. Semantic Zoom uses two distinct modes of classification, or *zoom levels*, for organizing and presenting the content. The low-level (or *zoomed in*) mode displays items in a flat, "all-up" structure; and the high-level (or *zoomed out*) mode displays items in groups, enabling the user to quickly navigate and browse through the content. For example, zooming a list of cities might change to a list of states containing those cities. Zooming a list of programs might change to a list of logical program groups.
 
-For more information about Semantic Zoom specifically as used for Windows Store apps, see [Guidelines for Semantic Zoom](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/semantic-zoom).
+For more information about Semantic Zoom specifically as used for Windows Store apps, see [Guidelines for Semantic Zoom](https://docs.microsoft.com/windows/uwp/controls-and-patterns/semantic-zoom).
 
 The usage model for the **SemanticZoom** control type is unusual in that it exists mainly for programmatic access. Microsoft UI Automation clients can monitor and manipulate the Semantic Zoom control to control the zoomed-in state of the list. Users who are not using assistive technology would typically manipulate the Semantic Zoom control directly through touch gestures or keyboard shortcuts.
 

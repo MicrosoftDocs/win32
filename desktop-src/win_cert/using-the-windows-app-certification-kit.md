@@ -71,7 +71,7 @@ Before you install the Windows ACK, you need to install and run the operating sy
 
 ## Reference Documents
 
--   [Certification requirements for Windows desktop apps](https://msdn.microsoft.com/library/windows/desktop/mt674655.aspx)
+-   [Certification requirements for Windows desktop apps](https://docs.microsoft.com/windows/desktop/win_cert/certification-requirements-for-windows-desktop-apps)
 -   [App certification white paper](https://go.microsoft.com/fwlink/p/?LinkId=703908)
 -   [Windows Store onboarding for desktop apps](https://docs.microsoft.com/previous-versions//dn322034(v=vs.85))
 -   [Windows 7 desktop app certification requirements](windows-7-certification.md)

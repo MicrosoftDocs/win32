@@ -37,7 +37,7 @@ This section contains information about creating applications that use Microsoft
 
 <dl> <dt>
 
-[Registering with Ease of Access](https://msdn.microsoft.com/library/windows/desktop/mt826492)
+[Registering with Ease of Access](https://docs.microsoft.com/windows/desktop/WinAuto/ease-of-access---assistive-technology-registration)
 </dt> <dt>
 
 [Security Considerations for Assistive Technologies](uiauto-securityoverview.md)

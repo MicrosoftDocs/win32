@@ -68,7 +68,7 @@ The [EsentInstanceUnavailableException](dn319441\(v=exchg.10\).md) type exposes 
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/2wchw354">TargetSite</a></td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.targetsite?redirectedfrom=MSDN#System_Exception_TargetSite">TargetSite</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 </tbody>

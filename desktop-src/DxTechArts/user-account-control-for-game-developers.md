@@ -261,15 +261,15 @@ Applications that are properly designed to operate as with the credentials of a 
 
 ## Further Reading
 
-For assistance with designing applications for Windows Vista that are compliant with User Account Control, download the following white paper: [Windows Vista Application Development Requirements for User Account Control Compatibility](https://docs.microsoft.com/previous-versions/dotnet/articles/bb530410(v=msdn.10)).
+For assistance with designing applications for Windows Vista that are compliant with User Account Control, download the following white paper: [Windows Vista Application Development Requirements for User Account Control Compatibility](/previous-versions/dotnet/articles/bb530410(v=msdn.10)).
 
 This white paper provides detailed steps about the design process, along with code samples, requirements, and best practices. This paper also details the technical updates and changes to the user experience in Windows Vista.
 
 For more information about User Account Control, visit [Windows Vista: User Account Control](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) on [Microsoft TechNet](https://www.microsoft.com/technet/).
 
-Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](https://msdn.microsoft.com/magazine/ee310108.aspx), from [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
+Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](http://msdn.microsoft.com/magazine/msdn-magazine-issues), from [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
 
-For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](https://blogs.msdn.microsoft.com/b/cjacks/archive/2006/09/08/745729.aspx) on Chris Jackson's blog on [MSDN](https://blogs.msdn.microsoft.com/).
+For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](https://blogs.msdn.microsoft.com/cjacks/2006/09/08/exploring-manifests-part-2-default-namespaces-and-uac-manifests-in-windows-vista/) on Chris Jackson's blog on [MSDN](https://blogs.msdn.microsoft.com/).
 
  
 

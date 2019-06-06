@@ -23,7 +23,7 @@ The three most common mistakes made by a development team when releasing a produ
 
 -   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://msdn.microsoft.com/magazine/ee310108.aspx) by Martyn Lovell. Also, you can get the [banned.h](https://go.microsoft.com/?linkid=9707345) header file that can help you remove banned functions from code.
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](http://msdn.microsoft.com/magazine/msdn-magazine-issues) by Martyn Lovell. Also, you can get the [banned.h](https://go.microsoft.com/?linkid=9707345) header file that can help you remove banned functions from code.
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -61,11 +61,11 @@ There are several ways to improve security in the development cycle. Here are so
 
 The book, *Writing Secure Code, Second Edition* by Michael Howard and David LeBlanc, provides an in-depth and clear explanation of strategies and methods of preventing attacks and mitigating exploits. Starting with methods of designing security into a release to techniques for securing network applications, the book covers all aspects that a game developer needs to help protect themselves, their products, and their customers from attackers. The book can be used to instill a culture of security in a development studio. Don't just think of code security as a developer's problem or a tester's problem. Think of security as something the whole team — from program manager to designer to developer to tester — should be thinking about when they work on a project. The more eyes that are part of the review process, the greater the chance of catching a security hole prior to release.
 
-*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](https://www.microsoft.com/mspress/books/5957.asp) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](https://docs.microsoft.com/previous-versions/ms972812(v=msdn.10)) by Michael Howard.
+*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](https://www.microsoft.com/mspress/books/5957.asp) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](/previous-versions/ms972812(v=msdn.10)) by Michael Howard.
 
 Michael Howard, David LeBlanc, and John Viega have written another book on the subject that covers all common operating systems and programming languages entitled, *19 Deadly Sins of Software Security*.
 
-Security presentations focused on games can be found at the [Microsoft XNA Developer Presentations](https://msdn.microsoft.com/dn629515) download page.
+Security presentations focused on games can be found at the [Microsoft XNA Developer Presentations](https://docs.microsoft.com/previous-versions/dn629515(v=msdn.10)) download page.
 
 </dd> <dt>
 
@@ -117,11 +117,11 @@ See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://blog
 PREfast is a free tool offered by Microsoft that analyzes execution paths in compiled C or C++ to help find run-time bugs. PREfast operates by working through all execution paths in all functions and assessing each path for problems. Originally used to develop drivers and other kernel code, this tool can help game developers save time by eliminating some bugs that are hard to find or are ignored by the compiler. Using PREfast is an excellent way of reducing workload and focusing the efforts of both the development team and test team. PREfast is available in Visual Studio Team Suite and Visual Studio Team Edition for Software Developers as Code Analysis, enabled by the compiler switch **/analyze**. (This option is also available in the free version of the compiler that ships with the Windows Software Development Kit.)
 
 > [!Note]  
-> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](https://blogs.msdn.microsoft.com/b/codeanalysis/archive/2012/03/09/what-s-new-in-code-analysis-for-visual-studio-11.aspx).
+> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](https://blogs.msdn.microsoft.com/codeanalysis?m=20123).
 
  
 
-Through the use of header annotation (particularly for buffer pointer arguments), PREfast can expose additional issues, such as memory overwrite bugs, a common source of crashes and potential security vulnerabilities. This is done by using the Standard Annotation Language (SAL), which is a form of mark-up for C/C++ function prototypes that provide additional information about expected pointer argument semantics and correlation with length parameters, declared buffer sizes, etc. All of the headers for Windows operating systems are annotated, and adding SAL mark-up in public API headers in your own libraries enables PREfast to perform more detailed and aggressive checks in your client code for such APIs. For an introduction to SAL and links to more information, see Michael Howard's blog entry, "[A Brief Introduction to the Standard Annotation Language (SAL)](https://blogs.msdn.microsoft.com/michael_howard/archive/2006/05/19/602077.aspx)."
+Through the use of header annotation (particularly for buffer pointer arguments), PREfast can expose additional issues, such as memory overwrite bugs, a common source of crashes and potential security vulnerabilities. This is done by using the Standard Annotation Language (SAL), which is a form of mark-up for C/C++ function prototypes that provide additional information about expected pointer argument semantics and correlation with length parameters, declared buffer sizes, etc. All of the headers for Windows operating systems are annotated, and adding SAL mark-up in public API headers in your own libraries enables PREfast to perform more detailed and aggressive checks in your client code for such APIs. For an introduction to SAL and links to more information, see Michael Howard's blog entry, "[A Brief Introduction to the Standard Annotation Language (SAL)](https://blogs.msdn.microsoft.com/michael_howard/2006/05/19/a-brief-introduction-to-the-standard-annotation-language-sal/)."
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Through the use of header annotation (particularly for buffer pointer arguments)
 
 The Windows Application Verifier, or AppVerifier, can help testers by providing multiple functions in one tool. The AppVerifier is a tool that was developed to make common programming errors more testable. AppVerifier can check parameters passed to API calls, inject erroneous input to check error handling ability, and log changes to the registry and file system. AppVerifier can also detect buffer overruns in the heap, check that an Access Control List (ACL) has been properly defined, and enforce the safe use of socket APIs. While not exhaustive, AppVerifier can be one tool in the tester's toolbox to help a development studio release a quality product.
 
-For more information about Application Verifier, see [Application Verifier](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/ms220948(v=vs.90)) and [Using Application Verifier Within Your Software Development Lifecycle](https://docs.microsoft.com/previous-versions/aa480483(v=msdn.10)) on MSDN.
+For more information about Application Verifier, see [Application Verifier](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/ms220948(v=vs.90)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN.
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ For more information about Application Verifier, see [Application Verifier](http
 
 *Fuzz testing* is a semi-automated method of testing that can enhance current testing methodologies. The central idea behind fuzz testing is to make a full assessment of all inputs by inputing random data to see what breaks; this includes all network data, mods and saved games, etc. Fuzz testing is fairly easy to do. Simply alter well-formed files or network data by inserting random bytes, flipping adjacent bytes, or negating numerical values. 0xff, 0xffff, 0xffffffff, 0x00, 0x0000, 0x00000000, and 0x80000000 are values that are good at exposing security holes while fuzz testing. You can observe the resulting interaction combinations using AppVerifier. While fuzzing is not exhaustive, it is easy to implement and automate, and it can catch the more elusive and unpredictable bugs.
 
-For more information on fuzz testing, see the [Gamefest 2007](https://msdn.microsoft.com/dn629515) presentation *Practical Steps in Game Security*.
+For more information on fuzz testing, see the [Gamefest 2007](https://docs.microsoft.com/previous-versions/dn629515(v=msdn.10)) presentation *Practical Steps in Game Security*.
 
 </dd> <dt>
 

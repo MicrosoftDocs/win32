@@ -154,7 +154,7 @@ All third-party IMEs must be digitally signed in order to be installed onto the 
 -   **Use an Authenticode signature to digitally sign programs**
     -   Obtain a valid Authenticode code signing certificate from one of the many certificate authorities supported by Windows
     -   Use development tools (such as [signtool.exe](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool)) to sign the apps prior to distribution
-    -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](https://blogs.msdn.microsoft.com/b/ieinternals/archive/2011/03/22/authenticode-code-signing-for-developers-for-file-downloads-building-smartscreen-application-reputation.aspx) blog entry
+    -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](https://blogs.msdn.microsoft.com/ieinternals/2011/03/22/everything-you-need-to-know-about-authenticode-code-signing/) blog entry
 -   **Ensure downloads are not detected as malware**
     -   Downloaded programs that are detected and confirmed as malware affect both the download’s reputation and the reputation of the digital certificate used to sign that file
 -   **Apply for Windows certification**

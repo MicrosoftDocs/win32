@@ -45,7 +45,7 @@ Installing a printer driver without a driver package is no longer recommended. U
 </tr>
 <tr class="even">
 <td><a href="addprinterdriverex"><strong>AddPrinterDriverEx</strong></a><br/></td>
-<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/dd183347"><strong>AddPrinterDriverEx</strong></a> function installs a local or remote printer driver and links the configuration, data, and driver files. Besides having the capabilities of <a href="addprinterdriver"><strong>AddPrinterDriver</strong></a>, it also has options that permit strict upgrade, strict downgrade, copying of newer files only, and copying of all files (regardless of file time stamps).<br/>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex"><strong>AddPrinterDriverEx</strong></a> function installs a local or remote printer driver and links the configuration, data, and driver files. Besides having the capabilities of <a href="addprinterdriver"><strong>AddPrinterDriver</strong></a>, it also has options that permit strict upgrade, strict downgrade, copying of newer files only, and copying of all files (regardless of file time stamps).<br/>
 <blockquote>
 [!Note]<br />
 Installing a printer driver without a driver package is no longer recommended. Use <a href="installprinterdriverfrompackage"><strong>InstallPrinterDriverFromPackage</strong></a> instead.

@@ -35,7 +35,7 @@ Over the years, the power of 3D video cards has grown dramatically to the point 
 
 ![wddm](images/graphics-apis-in-windows-vista.gif)
 
-For more information about the WDDM, see [Windows Vista Display Driver Model (WDDM) Design Guide](https://msdn.microsoft.com/windows/hardware/drivers/display/windows-vista-display-driver-model-design-guide) on MSDN.
+For more information about the WDDM, see [Windows Vista Display Driver Model (WDDM) Design Guide](https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) on MSDN.
 
 ## Direct3D 9
 

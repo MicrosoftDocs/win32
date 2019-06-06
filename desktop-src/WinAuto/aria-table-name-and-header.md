@@ -24,7 +24,7 @@ This error applies to HTML tables with more than one cell. This error does not a
 
 This error indicates that a data table doesn’t have an accessible name or header information.
 
-To fix this error, define an accessible name by using the [**CAPTION**](https://msdn.microsoft.com/library/ms535213) tag, or the [**aria-labelledby**](https://msdn.microsoft.com/library/Cc848875), [**aria-label**](https://msdn.microsoft.com/library/Hh968243), or [**title**](https://msdn.microsoft.com/library/ms534683) attributes. If the table is missing header information, use [**THead**](https://msdn.microsoft.com/library/ms535909) tags to mark header cells.
+To fix this error, define an accessible name by using the [**CAPTION**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption) tag, or the [**aria-labelledby**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), [**aria-label**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), or [**title**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title) attributes. If the table is missing header information, use [**THead**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) tags to mark header cells.
 
 ## Example
 

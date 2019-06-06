@@ -181,7 +181,7 @@ For getting storage information and updating firmware, Windows also supports Pow
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](https://msdn.microsoft.com/windows/hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
+> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](https://docs.microsoft.com/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
 
  
 

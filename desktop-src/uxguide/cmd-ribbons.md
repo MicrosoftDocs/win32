@@ -28,7 +28,7 @@ Ribbon tabs are composed of groups, which are a labeled set of closely related c
 -   Enhanced tooltips, which concisely explain their associated commands and give the shortcut keys. They may also include graphics and references to Help. Enhanced tooltips reduce the need for command-related Help.
 -   Dialog box launchers, which are buttons at the bottom of some groups that open dialog boxes containing features related to the group.
 
-Ribbons were originally introduced with Microsoft Office 2007. To learn why Office needs to use ribbons and the many problems using a ribbon solves, see [The Story of the Ribbon](https://blogs.msdn.microsoft.com/jensenh/archive/2008/03/12/the-story-of-the-ribbon.aspx).
+Ribbons were originally introduced with Microsoft Office 2007. To learn why Office needs to use ribbons and the many problems using a ribbon solves, see [The Story of the Ribbon](https://blogs.msdn.microsoft.com/jensenh/2008/03/12/the-story-of-the-ribbon/).
 
 > [!Note]  
 > Guidelines related to [menus](cmd-menus.md), [toolbars](cmd-toolbars.md), [command buttons](ctrl-command-buttons.md), and [icons](vis-icons.md) are presented in separate articles.
