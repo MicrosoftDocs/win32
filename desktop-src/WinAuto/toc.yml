@@ -2,9 +2,10 @@
   href: about-windows-accessibility-features.md
 - name: "Windows Accessibility features reference"
   items: 
-  - name: "Accessibility parameters overview"
-    href: accessibility-parameters.md
-    items: 
+  - name: "Accessibility parameters"
+    items:
+    - name: "Accessibility parameters overview"
+      href: accessibility-parameters.md
     - name: "High contrast parameter"
       href: high-contrast-parameter.md
     - name: "Keyboard preference parameter"
