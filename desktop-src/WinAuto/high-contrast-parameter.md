@@ -1,12 +1,12 @@
 ---
-title: High Contrast Parameter
+title: High contrast parameter
 description: The high contrast parameter indicates whether the user wants a high contrast between the colors used for foreground and background visuals.
 ms.assetid: ec89c4ce-4e8b-4e1f-a349-fbd47431d675
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# High Contrast Parameter
+# High contrast parameter
 
 The high contrast parameter indicates whether the user wants a high contrast between the colors used for foreground and background visuals.
 

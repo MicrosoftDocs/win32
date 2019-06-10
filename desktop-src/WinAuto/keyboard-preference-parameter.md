@@ -1,12 +1,12 @@
 ---
-title: Keyboard Preference Parameter
+title: Keyboard preference parameter
 description: The keyboard preference parameter indicates that the user relies on the keyboard instead of the mouse, so applications should display keyboard interfaces that would otherwise be hidden.
 ms.assetid: dc3c02d2-a350-4a86-a0b0-9dbb83880029
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Keyboard Preference Parameter
+# Keyboard preference parameter
 
 The keyboard preference parameter indicates that the user relies on the keyboard instead of the mouse, so applications should display keyboard interfaces that would otherwise be hidden.
 
