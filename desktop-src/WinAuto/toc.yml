@@ -2,20 +2,21 @@
   href: about-windows-accessibility-features.md
 - name: "Windows Accessibility features reference"
   items: 
-  - name: "Accessibility Parameters"
-    href: accessibility-parameters.md
-    items: 
-    - name: "High Contrast Parameter"
+  - name: "Accessibility parameters"
+    items:
+    - name: "Accessibility parameters overview"
+      href: accessibility-parameters.md
+    - name: "High contrast parameter"
       href: high-contrast-parameter.md
-    - name: "Keyboard Preference Parameter"
+    - name: "Keyboard preference parameter"
       href: keyboard-preference-parameter.md
-    - name: "Screen Reader Parameter"
+    - name: "Screen reader parameter"
       href: screen-reader-parameter.md
-    - name: "ShowSounds Parameter and Audio Descriptions Flag"
+    - name: "Show sounds parameter (and audio description flag)"
       href: showsounds-parameter.md
-    - name: "Client Area Animation"
+    - name: "Client area animation parameter"
       href: client-area-animation.md
-    - name: "Message Duration"
+    - name: "Message duration parameter"
       href: message-duration.md
   - name: "Built-in Accessibility Features"
     href: built-in-accessibility-features.md
