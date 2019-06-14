@@ -21,7 +21,7 @@ api_location:
 
 Windows Remote Management (WinRM) is the Microsoft implementation of [WS-Management Protocol](ws-management-protocol.md), a standard Simple Object Access Protocol (SOAP)-based, firewall-friendly protocol that allows hardware and operating systems, from different vendors, to interoperate.
 
-The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](https://go.microsoft.com/fwlink/p/?linkid=84396) are components of the [Windows Hardware Management](https://go.microsoft.com/fwlink/p/?linkid=45204) features.
+The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](https://go.microsoft.com/fwlink/p/?linkid=84396#event-collector) are components of the [Windows Hardware Management](https://go.microsoft.com/fwlink/p/?linkid=45204) features.
 
 ## Where applicable
 
@@ -37,7 +37,7 @@ The developer audience is the IT Pro who writes scripts to automate the manageme
 
 ## Run-time requirements
 
-WinRM is part of the operating system. However, to obtain data from remote computers, you must configure a WinRM [*listener*](windows-remote-management-glossary.md). For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). If a BMC is detected at system startup, then the IPMI provider loads; otherwise, the WinRM scripting objects and the WinRM command-line tool are still available.
+WinRM is part of the operating system. However, to obtain data from remote computers, you must configure a WinRM [*listener*](windows-remote-management-glossary.md#l). For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). If a BMC is detected at system startup, then the IPMI provider loads; otherwise, the WinRM scripting objects and the WinRM command-line tool are still available.
 
 ## In this section
 
