@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,16 +41,16 @@ UINT64 inline GetRequiredIntermediateSize(
 *pDestinationResource* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource)\***
+Type: **[**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource)\***
 
-A pointer to the [**ID3D12Resource**](/windows/desktop/api/D3D12/nn-d3d12-id3d12resource) interface that represents the destination resource.
+A pointer to the [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) interface that represents the destination resource.
 
 </dd> <dt>
 
 *FirstSubresource* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The index of the first subresource in the resource. The range of valid values is 0 to D3D12\_REQ\_SUBRESOURCES.
 
@@ -58,7 +59,7 @@ The index of the first subresource in the resource. The range of valid values is
 *NumSubresources* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of subresources in the resource. The range of valid values is 0 to (D3D12\_REQ\_SUBRESOURCES - *FirstSubresource*).
 
@@ -66,7 +67,7 @@ The number of subresources in the resource. The range of valid values is 0 to (D
 
 ## Return value
 
-Type: **[**UINT64**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The size of the buffer, in bytes.
 

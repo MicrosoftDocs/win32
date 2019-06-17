@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -59,7 +60,7 @@ Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with val
 **explicit CD3DX12\_DEPTH\_STENCIL\_DESC1(const D3D12\_DEPTH\_STENCIL\_DESC& o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with values copied from a [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_depth_stencil_desc) structure
+Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with values copied from a [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc) structure
 
 and the additional **DepthBoundsTestEnable** member set to **FALSE**.
 
@@ -135,7 +136,7 @@ Implicit conversion to a D3D12\_DEPTH\_STENCIL\_DESC structure value. Because D3
 [**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc1)
 </dt> <dt>
 
-[**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_depth_stencil_desc)
+[**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc)
 </dt> </dl>
 
  

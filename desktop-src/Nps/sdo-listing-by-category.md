@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 This topic lists the enumeration types under the following categories.
 
--   [Accounting](https://msdn.microsoft.com/library/bb892036)
--   [Attributes](https://msdn.microsoft.com/library/bb960616)
--   [Collections](https://msdn.microsoft.com/library/bb960623)
+-   [Accounting](https://docs.microsoft.com/windows/desktop/Nps/sdo-accounting)
+-   [Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-attributes)
+-   [Collections](https://docs.microsoft.com/windows/desktop/Nps/sdo-collections)
 
  
 

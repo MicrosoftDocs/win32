@@ -10,14 +10,14 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command**](https://msdn.microsoft.com/library/windows/desktop/ff394843)
--   [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command**](https://msdn.microsoft.com/library/windows/desktop/ff384851)
--   [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE command**](https://msdn.microsoft.com/library/windows/desktop/ff384852)
--   [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE command**](https://msdn.microsoft.com/library/windows/desktop/ff384850)
--   [**WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES command**](https://msdn.microsoft.com/library/windows/desktop/ff384853)
--   [**WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION command**](https://msdn.microsoft.com/library/windows/desktop/ff384854)
--   [**WPD\_COMMAND\_MTP\_EXT\_READ\_DATA command**](https://msdn.microsoft.com/library/windows/desktop/ff384855)
--   [**WPD\_COMMAND\_MTP\_EXT\_WRITE\_DATA command**](https://msdn.microsoft.com/library/windows/desktop/ff384856)
+-   [**WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-end-data-transfer)
+-   [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-read)
+-   [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write)
+-   [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-without-data-phase)
+-   [**WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-get-supported-vendor-opcodes)
+-   [**WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-get-vendor-extension-description)
+-   [**WPD\_COMMAND\_MTP\_EXT\_READ\_DATA command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-read-data)
+-   [**WPD\_COMMAND\_MTP\_EXT\_WRITE\_DATA command**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-write-data)
 
  
 

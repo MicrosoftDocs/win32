@@ -162,7 +162,7 @@ instance of __IntervalTimerInstruction
 
 <dl> <dt>
 
-[**\_\_TimerInstruction**](https://msdn.microsoft.com/library/aa394685)
+[**\_\_TimerInstruction**](https://docs.microsoft.com/windows/desktop/WmiSdk/--timerinstruction)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

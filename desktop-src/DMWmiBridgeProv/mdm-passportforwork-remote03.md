@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Interior node for defining remote Windows Hello for Business policies. This node was added in Windows 10, version 1511.
@@ -76,14 +76,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node for defining the Windows Hello for Business policy settings.
 
 </dd> <dt>
 
-[UseRemotePassport](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/passportforwork-csp#tenantid-policies-remote-useremotepassport--only-for---device-vendor-msft-)
+[UseRemotePassport](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -112,7 +112,7 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
+[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

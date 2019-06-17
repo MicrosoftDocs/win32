@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Predefined Font Attributes
 
-The following values identify font attributes obtained with the [ITfContext::GetAppProperty](https://msdn.microsoft.com/library/windows/desktop/ms538788) method. The data format and contents of each property type are included.
+The following values identify font attributes obtained with the [ITfContext::GetAppProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty) method. The data format and contents of each property type are included.
 
 ## Properties
 
@@ -92,7 +92,7 @@ The following values identify font attributes obtained with the [ITfContext::Get
 
 <dl> <dt>
 
-[ITfContext::GetAppProperty](https://msdn.microsoft.com/library/windows/desktop/ms538788)
+[ITfContext::GetAppProperty](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty)
 </dt> </dl>
 
  

@@ -2,8 +2,9 @@
 Description: A shader that is invoked when ray intersections are not opaque.    
 ms.assetid: 
 title: Any Hit Shader
-ms.topic: article
 ms.date: 05/31/2018
+ms.topic: article
+ms.localizationpriority: low
 topic_type: 
 - APIRef
 - kbSyntax
@@ -17,7 +18,7 @@ api_type:
 
 A shader that is invoked when ray intersections are not opaque. 
 
-Any hit shaders must declare a payload parameter followed by an attributes parameter.  Each of these parameters must be a user-defined structure type matching types used for [**TraceRay**](traceray-function.md) and [**ReportHit**](reporthit-function.md) respectively, or the [**Intersection Attribites Structure**](intersection-attributes.md) when fixed function triangle intersection is used.
+Any hit shaders must declare a payload parameter followed by an attributes parameter. Each of these parameters must be a user-defined structure type matching types used for [**TraceRay**](traceray-function.md) and [**ReportHit**](reporthit-function.md) respectively, or the [**Intersection Attributes Structure**](intersection-attributes.md) when fixed function triangle intersection is used.
 
 Any hit shaders may perform the following kinds of operations:
 
@@ -29,15 +30,11 @@ Any hit shaders may perform the following kinds of operations:
 
 Even if an any hit shader invocation is ended by [**IgnoreHit**](ignorehit-function.md) or [**AcceptHitAndEndSearch**](accepthitandendsearch-function.md), any modifications made to the ray payload so far must still be retained.
 
-
 ## Shader Type attribute
-
 
 ```
 [shader("anyhit")]
 ```
-
-
 
 ## Example
 
@@ -60,11 +57,3 @@ void anyhit_main( inout MyPayload payload, in MyAttributes attr )
     // return to accept and update closest hit
 }
 ```
-
- 
-
- 
-
-
-
-

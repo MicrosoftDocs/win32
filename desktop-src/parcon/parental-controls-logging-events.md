@@ -21,7 +21,7 @@ The Parental Controls system predefines several activity event types and provide
 -   [WPCEVENT\_IM\_JOIN Event](wpcevent-im-join-event.md)
 -   [WPCEVENT\_IM\_LEAVE Event](wpcevent-im-leave-event.md)
 -   [WPCEVENT\_MEDIA\_PLAYBACK Event](wpcevent-media-playback-event.md)
--   [WPCEVENT\_SYS\_SETTINGSCHANGE Event](https://msdn.microsoft.com/library/windows/desktop/ms711323)
+-   [WPCEVENT\_SYS\_SETTINGSCHANGE Event](https://docs.microsoft.com/windows/desktop/parcon/wpcevent-sys-settingchange-event)
 -   [WPCEVENT\_SYSTEM\_APPBLOCKED Event](wpcevent-system-appblocked-event.md)
 -   [WPCEVENT\_WEB\_FILEDOWNLOAD Event](wpcevent-web-filedownload-event.md)
 -   [WPCEVENT\_WEB\_URLVISIT Event](wpcevent-web-urlvisit-event.md)

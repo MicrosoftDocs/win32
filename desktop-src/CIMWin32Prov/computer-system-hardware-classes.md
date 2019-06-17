@@ -71,7 +71,7 @@ Classes in the Mass Storage subcategory represent storage devices such as hard d
 | [**Win32\_CDROMDrive**](win32-cdromdrive.md)             | Represents a CD-ROM drive on a computer system running Windows.                              |
 | [**Win32\_DiskDrive**](win32-diskdrive.md)               | Represents a physical disk drive as seen by a computer running the Windows operating system. |
 | [**Win32\_FloppyDrive**](win32-floppydrive.md)           | Manages the capabilities of a floppy disk drive.                                             |
-| [**Win32\_PhysicalMedia**](https://msdn.microsoft.com/library/aa394346) | Represents any type of documentation or storage medium.                                      |
+| [**Win32\_PhysicalMedia**](https://docs.microsoft.com/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia) | Represents any type of documentation or storage medium.                                      |
 | [**Win32\_TapeDrive**](win32-tapedrive.md)               | Represents a tape drive on a computer system running Windows.                                |
 
 
@@ -94,7 +94,7 @@ The Motherboard, Controllers, and Ports subcategory groups classes that represen
 | [**Win32\_BIOS**](win32-bios.md)                                           | Represents the attributes of the computer system's basic input or output services (BIOS) that are installed on the computer.<br/>                                                                                   |
 | [**Win32\_Bus**](win32-bus.md)                                             | Represents a physical bus as seen by a Windows operating system.<br/>                                                                                                                                               |
 | [**Win32\_CacheMemory**](win32-cachememory.md)                             | Represents cache memory (internal and external) on a computer system.<br/>                                                                                                                                          |
-| [**Win32\_ControllerHasHub**](https://msdn.microsoft.com/library/aa394110)             | Represents the hubs downstream from the universal serial bus (USB) controller.<br/>                                                                                                                                 |
+| [**Win32\_ControllerHasHub**](https://docs.microsoft.com/previous-versions/windows/desktop/cimwin32a/win32-controllerhashub)             | Represents the hubs downstream from the universal serial bus (USB) controller.<br/>                                                                                                                                 |
 | [**Win32\_DeviceBus**](win32-devicebus.md)                                 | Relates a system bus and a logical device using the bus.<br/>                                                                                                                                                       |
 | [**Win32\_DeviceMemoryAddress**](win32-devicememoryaddress.md)             | Represents a device memory address on a Windows system.<br/>                                                                                                                                                        |
 | [**Win32\_DeviceSettings**](win32-devicesettings.md)                       | Relates a logical device and a setting that can be applied to it.<br/>                                                                                                                                              |
@@ -136,7 +136,7 @@ The Motherboard, Controllers, and Ports subcategory groups classes that represen
 | [**Win32\_SystemSlot**](win32-systemslot.md)                               | Represents physical connection points including ports, motherboard slots and peripherals, and proprietary connections points.<br/>                                                                                  |
 | [**Win32\_USBController**](win32-usbcontroller.md)                         | Manages the capabilities of a universal serial bus (USB) controller.<br/>                                                                                                                                           |
 | [**Win32\_USBControllerDevice**](win32-usbcontrollerdevice.md)             | Relates a USB controller and the [**CIM\_LogicalDevice**](cim-logicaldevice.md) instances connected to it.<br/>                                                                                                    |
-| [**Win32\_USBHub**](https://msdn.microsoft.com/library/aa394506)                                 | Represents the management characteristics of a USB hub.<br/>                                                                                                                                                        |
+| [**Win32\_USBHub**](https://docs.microsoft.com/previous-versions/windows/desktop/cimwin32a/win32-usbhub)                                 | Represents the management characteristics of a USB hub.<br/>                                                                                                                                                        |
 
 
 
@@ -234,7 +234,7 @@ The Video and Monitors subcategory groups classes that represent monitors, video
 
 <dl> <dt>
 
-[Win32 Classes](https://msdn.microsoft.com/library/aa394084)
+[Win32 Classes](https://docs.microsoft.com/previous-versions//aa394084(v=vs.85))
 </dt> </dl>
 
  

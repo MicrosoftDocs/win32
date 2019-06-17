@@ -31,7 +31,7 @@ Sampler must be declared before use with the [dcl\_samplerType (sm2, sm3 - ps as
 
 Samplers are pseudo registers because you cannot directly read or write to them.
 
-A sampling unit corresponds to the texture sampling stage, encapsulating the sampling-specific state provided by [**SetSamplerState**](https://msdn.microsoft.com/library/windows/desktop/bb174456). Each sampler uniquely identifies a single texture surface, which is set to the corresponding sampler using the [**SetTexture**](https://msdn.microsoft.com/library/windows/desktop/bb174461). However, the same texture surface can be set at multiple samplers.
+A sampling unit corresponds to the texture sampling stage, encapsulating the sampling-specific state provided by [**SetSamplerState**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate). Each sampler uniquely identifies a single texture surface, which is set to the corresponding sampler using the [**SetTexture**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture). However, the same texture surface can be set at multiple samplers.
 
 At draw time, a texture cannot be simultaneously set as a render target and a texture at a stage.
 

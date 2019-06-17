@@ -35,7 +35,7 @@ The Xbox 360 Controller has two analog directional sticks, each with a digital b
 
 The controller also has two vibration motors to supply force feedback effects to the user. The speeds of these motors are specified in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-_xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function to set vibration effects.
 
-Optionally, a headset can be connected to the controller. The headset has a microphone for voice input, and a headphone for sound output. You can call the [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) or legacy [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function to obtain the device identifiers that correspond to the devices for the microphone and headphone. You can then use [system audio APIs](https://msdn.microsoft.com/library/windows/desktop/dd370802) to receive voice input and send sound output.
+Optionally, a headset can be connected to the controller. The headset has a microphone for voice input, and a headphone for sound output. You can call the [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) or legacy [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function to obtain the device identifiers that correspond to the devices for the microphone and headphone. You can then use [system audio APIs](https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-apis-in-windows-vista) to receive voice input and send sound output.
 
 ## Using XInput
 
@@ -213,7 +213,7 @@ if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice, XAUDIO2_DEFAULT_
 
 
 
-For info about how to use the captureId device identifier, see [Capturing a Stream](https://msdn.microsoft.com/library/windows/desktop/dd370800).
+For info about how to use the captureId device identifier, see [Capturing a Stream](https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream).
 
 ### Getting DirectSound GUIDs (legacy DirectX SDK only)
 

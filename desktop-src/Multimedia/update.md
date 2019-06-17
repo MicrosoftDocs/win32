@@ -64,7 +64,7 @@ The following table lists the flags that can be specified in the **lpszHDC** par
 |---------------------|--------------------------------------------------------------------------------------------------------|
 | hdc *hdc*           | Specifies the handle of the DC to paint.                                                               |
 | hdc *hdc* at *rect* | Specifies the clipping rectangle relative to the client rectangle.                                     |
-| paint hdc *hdc*     | Paints the DC when the application receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message intended for a DC. |
+| paint hdc *hdc*     | Paints the DC when the application receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message intended for a DC. |
 
 
 
@@ -87,7 +87,7 @@ Returns zero if successful or an error otherwise.
 
 ## Examples
 
-The following command updates the entire display window used by the "movie" device. The number 203 is a handle to a DC obtained from the [**BeginPaint**](https://msdn.microsoft.com/library/windows/desktop/dd183362) function.
+The following command updates the entire display window used by the "movie" device. The number 203 is a handle to a DC obtained from the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) function.
 
 ``` syntax
 update movie hdc 203

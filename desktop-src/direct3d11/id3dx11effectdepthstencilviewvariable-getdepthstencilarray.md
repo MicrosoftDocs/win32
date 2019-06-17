@@ -52,7 +52,7 @@ A pointer to an array of depth-stencil-view interfaces. See [**ID3D11DepthStenci
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based array index to get the first interface.
 
@@ -61,7 +61,7 @@ The zero-based array index to get the first interface.
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of elements in the array.
 

@@ -32,8 +32,8 @@ Base class for JET_err.NoCurrentIndex exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
-  [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentApiException](dn334231\(v=exchg.10\).md)  

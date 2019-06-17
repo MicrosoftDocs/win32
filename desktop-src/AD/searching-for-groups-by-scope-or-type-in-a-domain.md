@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Searching for Groups by Scope or Type in a Domain
 
-In Windows 2000 domains, there is single class called [**group**](https://msdn.microsoft.com/library/ms682251) for all group scopes (Domain Local, Global, Universal) and types (security, distribution). The [**groupType**](https://msdn.microsoft.com/library/ms675935) attribute of the group object specifies the group type and scope.
+In Windows 2000 domains, there is single class called [**group**](https://docs.microsoft.com/windows/desktop/ADSchema/c-group) for all group scopes (Domain Local, Global, Universal) and types (security, distribution). The [**groupType**](https://docs.microsoft.com/windows/desktop/ADSchema/a-grouptype) attribute of the group object specifies the group type and scope.
 
-To use type or scope to search for groups on Windows 2000 domains, use a filter that contains a matching rule for the [**groupType**](https://msdn.microsoft.com/library/ms675935) attribute. For more information about matching rules, see [Search Filter Syntax](https://msdn.microsoft.com/library/aa746475).
+To use type or scope to search for groups on Windows 2000 domains, use a filter that contains a matching rule for the [**groupType**](https://docs.microsoft.com/windows/desktop/ADSchema/a-grouptype) attribute. For more information about matching rules, see [Search Filter Syntax](https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax).
 
 For more information and a code example that shows how to search for groups in a domain, see [Example Code for Searching for Groups in a Domain](example-code-for-performing-a-query-in-a-domain.md).
 

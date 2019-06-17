@@ -201,7 +201,7 @@ Set x = GetObject("LDAP://servername/<GUID=xxx>")
 
 
 
-where xxx is the value returned from the GUID property. For more information, see [Using objectGUID to Bind to an Object](https://msdn.microsoft.com/library/ms677985). Be aware that if you use a GUID to bind to an object, the **ADsPath** property method returns values that are different from the normal values that would be returned if you used a distinguished name (DN) to bind to the same object. For example, the following table lists the values returned when using the two different binding methods to bind to the same user object.
+where xxx is the value returned from the GUID property. For more information, see [Using objectGUID to Bind to an Object](https://docs.microsoft.com/windows/desktop/AD/using-objectguid-to-bind-to-an-object). Be aware that if you use a GUID to bind to an object, the **ADsPath** property method returns values that are different from the normal values that would be returned if you used a distinguished name (DN) to bind to the same object. For example, the following table lists the values returned when using the two different binding methods to bind to the same user object.
 
 
 

@@ -107,7 +107,7 @@ interface IMyInterface : IUnknown
 
 <dl> <dt>
 
-[Defining COM Interfaces](https://msdn.microsoft.com/library/windows/desktop/ms688488)
+[Defining COM Interfaces](https://docs.microsoft.com/windows/desktop/com/defining-com-interfaces)
 </dt> <dt>
 
 [Interface Definition (IDL) File](interface-definition-idl-file.md)

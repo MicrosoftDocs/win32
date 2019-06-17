@@ -76,49 +76,49 @@ public static JET_THREADSTATS Create(
 #### Parameters
 
   - cPageReferenced  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Number of pages visited.
 
 <!-- end list -->
 
   - cPageRead  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Number of pages read.
 
 <!-- end list -->
 
   - cPagePreread  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Number of pages preread.
 
 <!-- end list -->
 
   - cPageDirtied  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     TNumber of pages dirtied.
 
 <!-- end list -->
 
   - cPageRedirtied  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Number of pages redirtied.
 
 <!-- end list -->
 
   - cLogRecord  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Number of log records generated.
 
 <!-- end list -->
 
   - cbLogRecord  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Bytes of log records written.
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating Groups in a Domain
 
-A group object is created in Active Directory Domain Services in the domain container where the new group will be contained. Groups can be created at the root of the domain, within an organizational unit, or within a container. To create a group object, use the [**IADsContainer::Create**](https://msdn.microsoft.com/library/aa705987) or the [**IDirectoryObject::CreateDSObject**](https://msdn.microsoft.com/library/aa746356) method.
+A group object is created in Active Directory Domain Services in the domain container where the new group will be contained. Groups can be created at the root of the domain, within an organizational unit, or within a container. To create a group object, use the [**IADsContainer::Create**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create) or the [**IDirectoryObject::CreateDSObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject) method.
 
 The following attributes are required to make the group object a legal group that the Active Directory server and the Windows security system will recognize:
 
@@ -27,7 +27,7 @@ Specifies the name of the group object in the directory. This will be the object
 <span id="groupType"></span><span id="grouptype"></span><span id="GROUPTYPE"></span>**groupType**
 </dt> <dd>
 
-Contains an integer that specifies the group type and scope. The [**ADS\_GROUP\_TYPE\_ENUM**](https://msdn.microsoft.com/library/aa772263) enumeration defines the possible values for the **groupType** attribute.
+Contains an integer that specifies the group type and scope. The [**ADS\_GROUP\_TYPE\_ENUM**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0023_0001) enumeration defines the possible values for the **groupType** attribute.
 
 The following list defines common group types and values for this attribute.
 
@@ -95,7 +95,7 @@ The **sAMAccountName** must be unique among all security principal objects withi
 
 </dd> </dl>
 
-The members of the group can be added at creation time using the [**IDirectoryObject::CreateDSObject**](https://msdn.microsoft.com/library/aa746356) method. Optionally, members can be added to the group after creation using the [**IADsGroup::Add**](https://msdn.microsoft.com/library/aa706022) method. For more information about adding members to a group, see [Adding Members to Groups in a Domain](adding-members-to-groups-in-a-domain.md).
+The members of the group can be added at creation time using the [**IDirectoryObject::CreateDSObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject) method. Optionally, members can be added to the group after creation using the [**IADsGroup::Add**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsgroup-add) method. For more information about adding members to a group, see [Adding Members to Groups in a Domain](adding-members-to-groups-in-a-domain.md).
 
  
 

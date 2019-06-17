@@ -43,7 +43,7 @@ This section contains information about the programming elements used with statu
 <td>Creates a status window, which is typically used to display the status of an application. The window generally appears at the bottom of the parent window, and it contains the specified text.
 <blockquote>
 [!Note]<br />
-This function is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/desktop/ms632679"><strong>CreateWindow</strong></a> instead.
+This function is obsolete. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa"><strong>CreateWindow</strong></a> instead.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -53,7 +53,7 @@ This function is obsolete. Use <a href="https://msdn.microsoft.com/library/windo
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Commctrl/nf-commctrl-menuhelp"><strong>MenuHelp</strong></a></td>
-<td>Processes <a href="https://msdn.microsoft.com/library/windows/desktop/ms646352"><strong>WM_MENUSELECT</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ms647591"><strong>WM_COMMAND</strong></a> messages and displays Help text about the current menu in the specified status window.<br/></td>
+<td>Processes <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect"><strong>WM_MENUSELECT</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> messages and displays Help text about the current menu in the specified status window.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -26,7 +26,7 @@ Not used. Formerly a request for pixel history primitives and intersections toge
 
 ## Members
 
-The **IPixelHistoryRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPixelHistoryRequest** also has these types of members:
+The **IPixelHistoryRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IPixelHistoryRequest** interface inherits from the [**IUnknown**](https://
 
 The **IPixelHistoryRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432744"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixelhistoryrequest-requestasync-dword-point2d-dword-ipixelhistorycallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.</p></td></tr></tbody></table>
 
  
 

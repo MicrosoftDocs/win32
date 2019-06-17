@@ -55,7 +55,7 @@ The following rules apply:
 -   The **import** function is idempotentÂ â€”Â that is, importing an interface more than once has no additional effect.
 
 > [!Note]  
-> The behavior of the **import** directive is independent of the MIDL compiler mode switches [**/ms\_ext**](-ms-ext.md) (the default), [**/osf**](-osf.md), and [**/app\_config**](-app-config.md). However, the compiler mode (**/osf** or **/ms\_ext**) can affect pointer attribute decoration on imported types. For details see [Pointer-Attribute Type Inheritance](https://msdn.microsoft.com/library/windows/desktop/aa374374).
+> The behavior of the **import** directive is independent of the MIDL compiler mode switches [**/ms\_ext**](-ms-ext.md) (the default), [**/osf**](-osf.md), and [**/app\_config**](-app-config.md). However, the compiler mode (**/osf** or **/ms\_ext**) can affect pointer attribute decoration on imported types. For details see [Pointer-Attribute Type Inheritance](https://docs.microsoft.com/windows/desktop/Rpc/pointer-attribute-type-inheritance).
 
  
 

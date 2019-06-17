@@ -2,6 +2,7 @@
 title: Predication queries
 description: The D3D12PredicationQueries sample demonstrates occlusion culling using DirectX 12 query heaps and predication. The walkthrough describes the additional code needed to extend the HelloConstBuffer sample to handle predication queries.
 ms.assetid: F61817BB-45BC-4977-BE4A-EE0FDAFBCB57
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -42,13 +43,13 @@ In the **LoadPipeline** method create a depth stencil descriptor heap.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_heap_desc"><strong>D3D12_DESCRIPTOR_HEAP_DESC</strong></a></td>
-<td><dl><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_type"><strong>D3D12_DESCRIPTOR_HEAP_TYPE</strong></a><br />
-[<strong>D3D12_DESCRIPTOR_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_flags)<br />
+<td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc"><strong>D3D12_DESCRIPTOR_HEAP_DESC</strong></a></td>
+<td><dl><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type"><strong>D3D12_DESCRIPTOR_HEAP_TYPE</strong></a><br />
+[<strong>D3D12_DESCRIPTOR_HEAP_FLAG</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createdescriptorheap"><strong>CreateDescriptorHeap</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap"><strong>CreateDescriptorHeap</strong></a></td>
 
 </tr>
 </tbody>
@@ -72,8 +73,8 @@ In the **LoadAssets** method create a heap for occlusion queries.
 
 | Call flow                                                 | Parameters                                                |
 |-----------------------------------------------------------|-----------------------------------------------------------|
-| [**D3D12\_QUERY\_HEAP\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_query_heap_desc) | [**D3D12\_QUERY\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_heap_type) |
-| [**CreateQueryHeap**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createqueryheap)   |                                                           |
+| [**D3D12\_QUERY\_HEAP\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc) | [**D3D12\_QUERY\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_heap_type) |
+| [**CreateQueryHeap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createqueryheap)   |                                                           |
 
 
 
@@ -107,12 +108,12 @@ This sample draws two quads and illustrates a binary occlusion query. The quad i
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="cd3dx12-blend-desc"><strong>CD3DX12_BLEND_DESC</strong></a></td>
-<td><dl><a href="cd3dx12-default"><strong>CD3DX12_DEFAULT</strong></a><br />
-[<strong>D3D12_BLEND</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_blend)<br />
-[<strong>D3D12_BLEND_OP</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_blend_op)<br />
-[<strong>D3D12_LOGIC_OP</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_logic_op)<br />
-[<strong>D3D12_COLOR_WRITE_ENABLE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_color_write_enable)<br />
+<td><a href="cd3dx12-blend-desc.md"><strong>CD3DX12_BLEND_DESC</strong></a></td>
+<td><dl><a href="cd3dx12-default.md"><strong>CD3DX12_DEFAULT</strong></a><br />
+[<strong>D3D12_BLEND</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_blend)<br />
+[<strong>D3D12_BLEND_OP</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_blend_op)<br />
+[<strong>D3D12_LOGIC_OP</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_logic_op)<br />
+[<strong>D3D12_COLOR_WRITE_ENABLE</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_color_write_enable)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -140,8 +141,8 @@ In the **LoadAssets** method, disable color writes and depth writes for the occl
 
 | Call flow                                                                            | Parameters                                                  |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc) | [**D3D12\_DEPTH\_WRITE\_MASK**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_depth_write_mask) |
-| [**CreateGraphicsPipelineState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-creategraphicspipelinestate)      |                                                             |
+| [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) | [**D3D12\_DEPTH\_WRITE\_MASK**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_depth_write_mask) |
+| [**CreateGraphicsPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate)      |                                                             |
 
 
 
@@ -174,12 +175,12 @@ In the **LoadAssets** method a buffer needs to be created to store the results o
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
-<td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
+<td><dl><a href="cd3dx12-heap-properties.md"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
+[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type)<br />
+[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -245,12 +246,12 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="cd3dx12-gpu-descriptor-handle"><strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart"><strong>GetGPUDescriptorHandleForHeapStart</strong></a></td>
+<td><a href="cd3dx12-gpu-descriptor-handle.md"><strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart"><strong>GetGPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology"><strong>IASetPrimitiveTopology</strong></a></td>
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ff728726"><strong>D3D_PRIMITIVE_TOPOLOGY</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive_topology"><strong>D3D_PRIMITIVE_TOPOLOGY</strong></a></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers"><strong>IASetVertexBuffers</strong></a></td>
@@ -262,7 +263,7 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication"><strong>SetPredication</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op"><strong>D3D12_PREDICATION_OP</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op"><strong>D3D12_PREDICATION_OP</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced"><strong>DrawInstanced</strong></a></td>
@@ -270,7 +271,7 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication"><strong>SetPredication</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op"><strong>D3D12_PREDICATION_OP</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op"><strong>D3D12_PREDICATION_OP</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable"><strong>SetGraphicsRootDescriptorTable</strong></a></td>
@@ -290,7 +291,7 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery"><strong>BeginQuery</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced"><strong>DrawInstanced</strong></a></td>
@@ -298,22 +299,22 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery"><strong>EndQuery</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
-<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<td><dl><a href="cd3dx12-resource-barrier.md"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata"><strong>ResolveQueryData</strong></a></td>
-<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
-<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<td><dl><a href="cd3dx12-resource-barrier.md"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)<br />
 </dl></td>
 </tr>
 </tbody>

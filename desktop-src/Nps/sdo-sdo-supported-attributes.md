@@ -14,28 +14,28 @@ ms.date: 05/31/2018
 
  
 
-An NPS Server Data Object has a [**Profiles**](https://msdn.microsoft.com/library/bb960697) property which provides access to a collection of attributes. The supported attributes are as follows.
+An NPS Server Data Object has a [**Profiles**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties) property which provides access to a collection of attributes. The supported attributes are as follows.
 
--   [Acct-Provider-Name](https://msdn.microsoft.com/library/bb960604)
--   [Acct-Provider-Type](https://msdn.microsoft.com/library/bb960605)
--   [Auth-Provider-Name](https://msdn.microsoft.com/library/bb960619)
--   [Auth-Provider-Type](https://msdn.microsoft.com/library/bb960620)
--   [Ignore-User-Dialin-Properties](https://msdn.microsoft.com/library/bb960638)
--   [Manipulation-Rule](https://msdn.microsoft.com/library/bb960679)
--   [Manipulation-Target](https://msdn.microsoft.com/library/bb960680)
--   [NP-Allowed-EAP-Type](https://msdn.microsoft.com/library/bb960684)
--   [NP-Allowed-Port-Types](https://msdn.microsoft.com/library/bb960685)
--   [NP-Authentication-Type](https://msdn.microsoft.com/library/bb960686)
--   [NP-Called-Station-ID](https://msdn.microsoft.com/library/bb960687)
+-   [Acct-Provider-Name](https://docs.microsoft.com/windows/desktop/Nps/sdo-acct-provider-name)
+-   [Acct-Provider-Type](https://docs.microsoft.com/windows/desktop/Nps/sdo-acct-provider-type)
+-   [Auth-Provider-Name](https://docs.microsoft.com/windows/desktop/Nps/sdo-auth-provider-name)
+-   [Auth-Provider-Type](https://docs.microsoft.com/windows/desktop/Nps/sdo-auth-provider-type)
+-   [Ignore-User-Dialin-Properties](https://docs.microsoft.com/windows/desktop/Nps/sdo-ignore-user-dialin-properties)
+-   [Manipulation-Rule](https://docs.microsoft.com/windows/desktop/Nps/sdo-manipulation-rule)
+-   [Manipulation-Target](https://docs.microsoft.com/windows/desktop/Nps/sdo-manipulation-target)
+-   [NP-Allowed-EAP-Type](https://docs.microsoft.com/windows/desktop/Nps/sdo-np-allowed-eap-type)
+-   [NP-Allowed-Port-Types](https://docs.microsoft.com/windows/desktop/Nps/sdo-np-allowed-port-types)
+-   [NP-Authentication-Type](https://docs.microsoft.com/windows/desktop/Nps/sdo-np-authentication-type)
+-   [NP-Called-Station-ID](https://docs.microsoft.com/windows/desktop/Nps/sdo-np-called-station-id)
 
 ## Related topics
 
 <dl> <dt>
 
-[SDO Objects and Properties](https://msdn.microsoft.com/library/bb960690)
+[SDO Objects and Properties](https://docs.microsoft.com/windows/desktop/Nps/sdo-objects-and-properties)
 </dt> <dt>
 
-[SDO Object Model Hierarchy](https://msdn.microsoft.com/library/bb960691)
+[SDO Object Model Hierarchy](https://docs.microsoft.com/windows/desktop/Nps/sdo-object-model-hierarchy)
 </dt> </dl>
 
  

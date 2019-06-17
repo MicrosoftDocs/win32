@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Side-by-side private assemblies can be used to create components that can be easily updated without also updating the hosting application. This allows an updating service to install the application's updated components, restart the application, and have the application use the changes. When using application manifests, the functionality of components hosted by an application can be updated without having to change the hosting application's code.
 
-This method can be used to update the version of an application's resources. For example, if an application contains an assembly, the application's manifest can specify a dependency on this assembly. The application can get the assembly by calling [**SearchPath**](https://msdn.microsoft.com/library/windows/desktop/aa365527) to find and load the files it requires. An updater simply has to bring down the newest bits for the assembly, which can exist side-by-side with an earlier version of the assembly.
+This method can be used to update the version of an application's resources. For example, if an application contains an assembly, the application's manifest can specify a dependency on this assembly. The application can get the assembly by calling [**SearchPath**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw) to find and load the files it requires. An updater simply has to bring down the newest bits for the assembly, which can exist side-by-side with an earlier version of the assembly.
 
  
 

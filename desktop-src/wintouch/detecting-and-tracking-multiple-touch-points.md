@@ -88,7 +88,7 @@ COLORREF colors[] = { RGB(153,255,51),
 
 ## Add Handler for WM\_TOUCH and Track Points
 
-First, declare some variables that are used by the [**WM\_TOUCH**](wm-touchdown.md) handler in [**WndProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573).
+First, declare some variables that are used by the [**WM\_TOUCH**](wm-touchdown.md) handler in [**WndProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)).
 
 
 ```C++
@@ -137,7 +137,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
 
 
-Next, handle the [**WM\_TOUCH**](wm-touchdown.md) message from the [**WndProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) method. The following code shows an implementation of the handler for **WM\_TOUCH**.
+Next, handle the [**WM\_TOUCH**](wm-touchdown.md) message from the [**WndProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) method. The following code shows an implementation of the handler for **WM\_TOUCH**.
 
 
 ```C++
@@ -176,7 +176,7 @@ case WM_TOUCH:
 
 
 > [!Note]  
-> In order to use the [**ScreenToClient**](https://msdn.microsoft.com/library/windows/desktop/dd162952) function, you must have high DPI support in your application. For more information on supporting high DPI, see the [High DPI]( https://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
+> In order to use the [**ScreenToClient**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information on supporting high DPI, see the [High DPI]( https://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
 
  
 
@@ -226,7 +226,7 @@ Declare the following variables for the drawing routine.
 
 
 
-The memory display context *memDC* is used for storing a temporary graphics context that is swapped with the rendered display context, *hdc*, to eliminate flickering. Implement the drawing routine, which takes the points you have stored and draws a circle at the points. The following code shows how you could implement the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) handler.
+The memory display context *memDC* is used for storing a temporary graphics context that is swapped with the rendered display context, *hdc*, to eliminate flickering. Implement the drawing routine, which takes the points you have stored and draws a circle at the points. The following code shows how you could implement the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) handler.
 
 
 ```C++

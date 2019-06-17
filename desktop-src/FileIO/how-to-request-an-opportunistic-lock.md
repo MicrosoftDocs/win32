@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 Client applications directly request opportunistic locks only when the lock is intended for a file on the local server. When accessing files on remote servers, it is the network redirector, and not the client application, that requests the opportunistic lock from the remote server.
 
-Opportunistic locks are requested by first opening a file with permissions and flags appropriate to the application opening the file. All files for which opportunistic locks will be requested must be opened for overlapped (asynchronous) operation. After the files are opened for overlapped operation, use the [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function with the appropriate control code to request an opportunistic lock. For a list of the opportunistic lock operations, see [Opportunistic Lock Operations](opportunistic-lock-operations.md).
+Opportunistic locks are requested by first opening a file with permissions and flags appropriate to the application opening the file. All files for which opportunistic locks will be requested must be opened for overlapped (asynchronous) operation. After the files are opened for overlapped operation, use the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the appropriate control code to request an opportunistic lock. For a list of the opportunistic lock operations, see [Opportunistic Lock Operations](opportunistic-lock-operations.md).
 
-Applications are notified that an opportunistic lock is broken by using the **hEvent** member of the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure associated with the file. Applications may also use functions such as [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) and [**HasOverlappedIoCompleted**](https://msdn.microsoft.com/library/windows/desktop/ms683244). The application is responsible for associating the correct file with the broken opportunistic lock.
+Applications are notified that an opportunistic lock is broken by using the **hEvent** member of the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped) structure associated with the file. Applications may also use functions such as [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) and [**HasOverlappedIoCompleted**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted). The application is responsible for associating the correct file with the broken opportunistic lock.
 
-For more information on notification, see [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353).
+For more information on notification, see [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization).
 
  
 

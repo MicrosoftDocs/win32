@@ -25,7 +25,7 @@ The **Invoke** method of the [**CIM\_Action**](cim-action.md) class takes a part
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -74,7 +74,7 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Action**](cim-action.md)
 </dt> <dt>
 
-[CIM Classes](https://msdn.microsoft.com/library/aa386179)
+[CIM Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas)
 </dt> </dl>
 
  

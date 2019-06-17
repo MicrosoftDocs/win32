@@ -140,7 +140,7 @@ Standard **HRESULT** error code. If any of the input glyph indices are outside o
 [**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteFontFace**](https://msdn.microsoft.com/library/windows/desktop/dd370983)
+[**IDWriteFontFace**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface)
 </dt> </dl>
 
  

@@ -19,7 +19,7 @@ When your application uses implicit bindings, the client must set the binding in
 
 The client stores the binding information for an implicit handle in a global variable. When the MIDL compiler generates the client stub and header file from the interface specification in your MIDL file, it also generates code for a global binding handle variable. Your client program initializes the handle and then does not refer to it again until it destroys the binding.
 
-You create an implicit handle by specifying the \[[**implicit\_handle**](https://msdn.microsoft.com/library/windows/desktop/aa367046)\] attribute in the ACF for an interface as follows:
+You create an implicit handle by specifying the \[[**implicit\_handle**](https://docs.microsoft.com/windows/desktop/Midl/implicit-handle)\] attribute in the ACF for an interface as follows:
 
 ``` syntax
 /* ACF file (complete) */

@@ -57,7 +57,7 @@ public bool Recovery { get; set; }
 
 #### Property value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)  
+Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
 
 ## See also
 

@@ -81,7 +81,7 @@ typedef struct _D3DX11_STATE_BLOCK_MASK {
 **VS**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ Boolean value indicating whether to save the vertex shader state.
 **VSSamplers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ Array of vertex-shader samplers. The array is a multi-byte bitmask where each bi
 **VSShaderResources**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -114,7 +114,7 @@ Array of vertex-shader resources. The array is a multi-byte bitmask where each b
 **VSConstantBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -125,7 +125,7 @@ Array of vertex-shader constant buffers. The array is a multi-byte bitmask where
 **VSInterfaces**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -136,7 +136,7 @@ Array of vertex-shader interfaces. The array is a multi-byte bitmask where each 
 **HS**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -147,7 +147,7 @@ Boolean value indicating whether to save the hull shader state.
 **HSSamplers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -158,7 +158,7 @@ Array of hull-shader samplers. The array is a multi-byte bitmask where each bit 
 **HSShaderResources**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -169,7 +169,7 @@ Array of hull-shader resources. The array is a multi-byte bitmask where each bit
 **HSConstantBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -180,7 +180,7 @@ Array of hull-shader constant buffers. The array is a multi-byte bitmask where e
 **HSInterfaces**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -191,7 +191,7 @@ Array of hull-shader interfaces. The array is a multi-byte bitmask where each bi
 **DS**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -202,7 +202,7 @@ Boolean value indicating whether to save the domain shader state.
 **DSSamplers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -213,7 +213,7 @@ Array of domain-shader samplers. The array is a multi-byte bitmask where each bi
 **DSShaderResources**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -224,7 +224,7 @@ Array of domain-shader resources. The array is a multi-byte bitmask where each b
 **DSConstantBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -235,7 +235,7 @@ Array of domain-shader constant buffers. The array is a multi-byte bitmask where
 **DSInterfaces**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -246,7 +246,7 @@ Array of domain-shader interfaces. The array is a multi-byte bitmask where each 
 **GS**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -257,7 +257,7 @@ Boolean value indicating whether to save the geometry shader state.
 **GSSamplers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -268,7 +268,7 @@ Array of geometry-shader samplers. The array is a multi-byte bitmask where each 
 **GSShaderResources**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -279,7 +279,7 @@ Array of geometry-shader resources. The array is a multi-byte bitmask where each
 **GSConstantBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -290,7 +290,7 @@ Array of geometry-shader constant buffers. The array is a multi-byte bitmask whe
 **GSInterfaces**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -301,7 +301,7 @@ Array of geometry-shader interfaces. The array is a multi-byte bitmask where eac
 **PS**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -312,7 +312,7 @@ Boolean value indicating whether to save the pixel shader state.
 **PSSamplers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -323,7 +323,7 @@ Array of pixel-shader samplers. The array is a multi-byte bitmask where each bit
 **PSShaderResources**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -334,7 +334,7 @@ Array of pixel-shader resources. The array is a multi-byte bitmask where each bi
 **PSConstantBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -345,7 +345,7 @@ Array of pixel-shader constant buffers. The array is a multi-byte bitmask where 
 **PSInterfaces**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -356,7 +356,7 @@ Array of pixel-shader interfaces. The array is a multi-byte bitmask where each b
 **PSUnorderedAccessViews**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -367,7 +367,7 @@ Boolean value indicating whether to save the pixel shader unordered access views
 **CS**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -378,7 +378,7 @@ Boolean value indicating whether to save the compute shader state.
 **CSSamplers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -389,7 +389,7 @@ Array of compute-shader samplers. The array is a multi-byte bitmask where each b
 **CSShaderResources**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -400,7 +400,7 @@ Array of compute-shader resources. The array is a multi-byte bitmask where each 
 **CSConstantBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -411,7 +411,7 @@ Array of compute-shader constant buffers. The array is a multi-byte bitmask wher
 **CSInterfaces**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -422,7 +422,7 @@ Array of compute-shader interfaces. The array is a multi-byte bitmask where each
 **CSUnorderedAccessViews**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -433,7 +433,7 @@ Boolean value indicating whether to save the compute shader unordered access vie
 **IAVertexBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -444,7 +444,7 @@ Array of vertex buffers. The array is a multi-byte bitmask where each bit repres
 **IAIndexBuffer**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -455,7 +455,7 @@ Boolean value indicating whether to save the index buffer state.
 **IAInputLayout**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -466,7 +466,7 @@ Boolean value indicating whether to save the input layout state.
 **IAPrimitiveTopology**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -477,7 +477,7 @@ Boolean value indicating whether to save the primitive topology state.
 **OMRenderTargets**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -488,7 +488,7 @@ Boolean value indicating whether to save the render targets states.
 **OMDepthStencilState**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -499,7 +499,7 @@ Boolean value indicating whether to save the depth-stencil state.
 **OMBlendState**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -510,7 +510,7 @@ Boolean value indicating whether to save the blend state.
 **RSViewports**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -521,7 +521,7 @@ Boolean value indicating whether to save the viewports states.
 **RSScissorRects**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -532,7 +532,7 @@ Boolean value indicating whether to save the scissor rectangles states.
 **RSRasterizerState**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -543,7 +543,7 @@ Boolean value indicating whether to save the rasterizer state.
 **SOBuffers**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -554,7 +554,7 @@ Boolean value indicating whether to save the stream-out buffers states.
 **Predication**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

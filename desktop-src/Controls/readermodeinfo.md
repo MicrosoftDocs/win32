@@ -46,7 +46,7 @@ typedef struct tagReaderModeInfo {
 **cbSize**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751#uint)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ Required. The size of the structure, in bytes. Set this parameter to **sizeof(RE
 **hwnd**
 </dt> <dd>
 
-Type: **[**HWND**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hwnd)**
+Type: **[**HWND**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ Required. The handle of the window to be used for reader mode.
 **fFlags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/windows/desktop/aa383751#dword)**
+Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -95,7 +95,7 @@ Type: **LPRECT**
 
 </dd> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that specifies the scrolling area in the reader mode window. If this member is **NULL**, then the entire window is used as the scrolling area.
+A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that specifies the scrolling area in the reader mode window. If this member is **NULL**, then the entire window is used as the scrolling area.
 
 </dd> <dt>
 
@@ -124,7 +124,7 @@ A pointer to an application-defined [*TranslateDispatch*](translatedispatch.md) 
 **lParam**
 </dt> <dd>
 
-Type: **[**LPARAM**](https://msdn.microsoft.com/library/windows/desktop/aa383751#lparam)**
+Type: **[**LPARAM**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

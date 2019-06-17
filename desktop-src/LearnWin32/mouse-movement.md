@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Mouse Movement
 
-When the mouse moves, Windows posts a [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message. By default, **WM\_MOUSEMOVE** goes to the window that contains the cursor. You can override this behavior by *capturing* the mouse, which is described in the next section.
+When the mouse moves, Windows posts a [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message. By default, **WM\_MOUSEMOVE** goes to the window that contains the cursor. You can override this behavior by *capturing* the mouse, which is described in the next section.
 
-The [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message contains the same parameters as the messages for mouse clicks. The lowest 16 bits of *lParam* contain the x-coordinate, and the next 16 bits contain the y-coordinate. Use the [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654) and [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655) macros to unpack the coordinates from *lParam*. The *wParam* parameter contains a bitwise **OR** of flags, indicating the state of the other mouse buttons plus the SHIFT and CTRL keys. The following code gets the mouse coordinates from *lParam*.
+The [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message contains the same parameters as the messages for mouse clicks. The lowest 16 bits of *lParam* contain the x-coordinate, and the next 16 bits contain the y-coordinate. Use the [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) and [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macros to unpack the coordinates from *lParam*. The *wParam* parameter contains a bitwise **OR** of flags, indicating the state of the other mouse buttons plus the SHIFT and CTRL keys. The following code gets the mouse coordinates from *lParam*.
 
 
 ```C++
@@ -22,21 +22,21 @@ int yPos = GET_Y_LPARAM(lParam);
 
 Remember that these coordinates are in pixels, not device-independent pixels (DIPs). Later in this topic, we will look at code that converts between the two units.
 
-A window can also receive a [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message if the position of the cursor changes relative to the window. For example, if the cursor is positioned over a window, and the user hides the window, the window receives **WM\_MOUSEMOVE** messages even if the mouse did not move. One consequence of this behavior is that the mouse coordinates might not change between **WM\_MOUSEMOVE** messages.
+A window can also receive a [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message if the position of the cursor changes relative to the window. For example, if the cursor is positioned over a window, and the user hides the window, the window receives **WM\_MOUSEMOVE** messages even if the mouse did not move. One consequence of this behavior is that the mouse coordinates might not change between **WM\_MOUSEMOVE** messages.
 
 ## Capturing Mouse Movement Outside the Window
 
-By default, a window stops receiving [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) messages if the mouse moves past the edge of the client area. But for some operations, you might need to track the mouse position beyond this point. For example, a drawing program might enable the user to drag the selection rectangle beyond the edge of the window, as shown in the following diagram.
+By default, a window stops receiving [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages if the mouse moves past the edge of the client area. But for some operations, you might need to track the mouse position beyond this point. For example, a drawing program might enable the user to drag the selection rectangle beyond the edge of the window, as shown in the following diagram.
 
 ![an illustration of mouse capture.](images/input01.png)
 
-To receive mouse-move messages past the edge of the window, call the [**SetCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646262) function. After this function is called, the window will continue to receive [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) messages for as long as the user holds at least one mouse button down, even if the mouse moves outside the window. The capture window must be the foreground window, and only one window can be the capture window at a time. To release mouse capture, call the [**ReleaseCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646261) function.
+To receive mouse-move messages past the edge of the window, call the [**SetCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture) function. After this function is called, the window will continue to receive [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages for as long as the user holds at least one mouse button down, even if the mouse moves outside the window. The capture window must be the foreground window, and only one window can be the capture window at a time. To release mouse capture, call the [**ReleaseCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture) function.
 
-You would typically use [**SetCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646262) and [**ReleaseCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646261) in the following way.
+You would typically use [**SetCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture) and [**ReleaseCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture) in the following way.
 
-1.  When the user presses the left mouse button, call [**SetCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646262) to start capturing the mouse.
+1.  When the user presses the left mouse button, call [**SetCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture) to start capturing the mouse.
 2.  Respond to mouse-move messages.
-3.  When the user releases the left mouse button, call [**ReleaseCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646261).
+3.  When the user releases the left mouse button, call [**ReleaseCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture).
 
 ## Example: Drawing Circles
 
@@ -113,7 +113,7 @@ float DPIScale::scaleY = 1.0f;
 
 
 
-Call `DPIScale::Initialize` in your [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) handler, after you create the Direct2D factory object.
+Call `DPIScale::Initialize` in your [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) handler, after you create the Direct2D factory object.
 
 
 ```C++
@@ -131,7 +131,7 @@ Call `DPIScale::Initialize` in your [**WM\_CREATE**](https://msdn.microsoft.com/
 
 To get the mouse coordinates in DIPs from the mouse messages, do the following:
 
-1.  Use the [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654) and [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655) macros to get the pixel coordinates. These macros are defined in WindowsX.h, so remember to include that header in your project.
+1.  Use the [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) and [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macros to get the pixel coordinates. These macros are defined in WindowsX.h, so remember to include that header in your project.
 2.  Call `DPIScale::PixelsToDipsX` and `DPIScale::PixelsToDipsY` to convert pixels to DIPs.
 
 Now add the message handlers to your window procedure.
@@ -159,10 +159,10 @@ Finally, implement the message handlers themselves.
 
 For the left-button down message, do the following:
 
-1.  Call [**SetCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646262) to begin capturing the mouse.
+1.  Call [**SetCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcapture) to begin capturing the mouse.
 2.  Store the position of the mouse click in the *ptMouse* variable. This position defines the upper left corner of the bounding box for the ellipse.
 3.  Reset the ellipse structure.
-4.  Call [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002). This function forces the window to be repainted.
+4.  Call [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect). This function forces the window to be repainted.
 
 
 ```C++
@@ -181,7 +181,7 @@ void MainWindow::OnLButtonDown(int pixelX, int pixelY, DWORD flags)
 
 For the mouse-move message, check whether the left mouse button is down. If it is, recalculate the ellipse and repaint the window. In Direct2D, an ellipse is defined by the center point and x- and y-radii. We want to draw an ellipse that fits the bounding box defined by the mouse-down point (*ptMouse*) and the current cursor position (*x*, *y*), so a bit of arithmetic is needed to find the width, height, and position of the ellipse.
 
-The following code recalculates the ellipse and then calls [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) to repaint the window.
+The following code recalculates the ellipse and then calls [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) to repaint the window.
 
 ![](images/input02.png)
 
@@ -209,7 +209,7 @@ void MainWindow::OnMouseMove(int pixelX, int pixelY, DWORD flags)
 
 ### Left Button Up
 
-For the left-button-up message, simply call [**ReleaseCapture**](https://msdn.microsoft.com/library/windows/desktop/ms646261) to release the mouse capture.
+For the left-button-up message, simply call [**ReleaseCapture**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasecapture) to release the mouse capture.
 
 
 ```C++

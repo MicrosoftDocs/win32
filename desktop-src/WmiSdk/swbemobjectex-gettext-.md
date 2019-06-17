@@ -155,7 +155,7 @@ For more information about creating an [**SWbemNamedValueSet**](swbemnamedvalues
 
 ## Examples
 
-The following script shows how to obtain an XML representation of the [**Win32\_Bios**](https://msdn.microsoft.com/library/aa394077) class definition. By specifying a particular instance of **Win32\_Bios**, you can obtain that object's data in XML.
+The following script shows how to obtain an XML representation of the [**Win32\_Bios**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-bios) class definition. By specifying a particular instance of **Win32\_Bios**, you can obtain that object's data in XML.
 
 
 ```VB

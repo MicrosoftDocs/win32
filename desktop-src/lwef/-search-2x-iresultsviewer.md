@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IResultsViewer interface
 
-\[Windows Search 2.x is available for use in the operating system specified in the Requirements section. It might be altered or unavailable in later versions. Use the [Windows Search API](https://msdn.microsoft.com/library/windows/desktop/ee872061) instead.\]
+\[Windows Search 2.x is available for use in the operating system specified in the Requirements section. It might be altered or unavailable in later versions. Use the [Windows Search API](https://docs.microsoft.com/windows/desktop/search/-search-reference-entry-page) instead.\]
 
 Exposes methods and properties for the results view.
 
 ## Members
 
-The **IResultsViewer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IResultsViewer** also has these types of members:
+The **IResultsViewer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultsViewer** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

@@ -55,7 +55,7 @@ If the function succeeds and the regions match, the return value is nonzero. Oth
 
 ## Remarks
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions to dynamically link to StorProp.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to StorProp.dll.
 
 ## Requirements
 

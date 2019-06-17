@@ -2,6 +2,7 @@
 title: Resource lifetime and synchronization
 description: In order to avoid undefined behavior, your DirectML application must correctly manage object lifetimes and synchronization between the CPU and the GPU.
 ms.custom: 19H1
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 03/14/2019
 ---

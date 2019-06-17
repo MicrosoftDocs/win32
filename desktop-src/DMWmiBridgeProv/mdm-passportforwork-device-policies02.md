@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node for the Windows Hello for Business policy settings.
@@ -76,14 +76,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Device/Vendor/MSFT/PassPortForWork/*TenantID*/"
 
 </dd> <dt>
 
-[UseCertificateForOnPremAuth](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/passportforwork-csp#)
+[UseCertificateForOnPremAuth](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**

@@ -701,7 +701,7 @@ Transparency=1
 
 When Windows is initialized, the operating system enumerates the first-level subdirectories of %WinDir%\\Resources\\ to identify available themes. The system default theme files are located in %WinDir%\\Resources\\Themes. The user theme files are stored in %WinDir%\\Users\\<username>\\AppData\\Local\\Microsoft\\Windows\\Themes.
 
-A .theme file has file associations; therefore, theme installer applications can call [**ShellExecute**](https://msdn.microsoft.com/library/windows/desktop/bb762153) on a .theme file to open the **Personalization** window in Control Panel to the specified theme.
+A .theme file has file associations; therefore, theme installer applications can call [**ShellExecute**](https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) on a .theme file to open the **Personalization** window in Control Panel to the specified theme.
 
 ## Theme Packs
 

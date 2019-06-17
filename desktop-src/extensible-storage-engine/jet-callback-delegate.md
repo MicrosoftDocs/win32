@@ -99,28 +99,28 @@ public delegate JET_err JET_CALLBACK(
 <!-- end list -->
 
   - arg1  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
     
     First callback-specific argument.
 
 <!-- end list -->
 
   - arg2  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
     
     Second callback-specific argument.
 
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
     
     Callback context.
 
 <!-- end list -->
 
   - unused  
-    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
     
     This parameter is not used.
 

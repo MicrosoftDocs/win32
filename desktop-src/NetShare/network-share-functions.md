@@ -29,7 +29,7 @@ The share functions are listed following.
 
 The [**NetShareAdd**](/windows/desktop/api/Lmshare/nf-lmshare-netshareadd) function allows a user or application to share a resource of a specific type using the specified share name. The **NetShareAdd** function requires the share name and local device name to share the resource. A user or application must have an account on the server to access the resource.
 
-You can also specify a security descriptor to be associated with a share. Security descriptors specify which users are allowed to access files through the share, and with what type of access. Specify a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) with the [**SHARE\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_502) information level when calling [**NetShareAdd**](/windows/desktop/api/Lmshare/nf-lmshare-netshareadd) or [**NetShareSetInfo**](/windows/desktop/api/Lmshare/nf-lmshare-netsharesetinfo). **NetShareSetInfo** supports the [**SHARE\_INFO\_1501**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1501) information level. For more information about security descriptors, see [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860).
+You can also specify a security descriptor to be associated with a share. Security descriptors specify which users are allowed to access files through the share, and with what type of access. Specify a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) with the [**SHARE\_INFO\_502**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_502) information level when calling [**NetShareAdd**](/windows/desktop/api/Lmshare/nf-lmshare-netshareadd) or [**NetShareSetInfo**](/windows/desktop/api/Lmshare/nf-lmshare-netsharesetinfo). **NetShareSetInfo** supports the [**SHARE\_INFO\_1501**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1501) information level. For more information about security descriptors, see [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control).
 
 The network management functions use the following special share names for interprocess communication (IPC) and remote administration of the server:
 
@@ -60,7 +60,7 @@ The following information levels are valid only for [**NetShareSetInfo**](/windo
 [**SHARE\_INFO\_1501**](/windows/desktop/api/Lmshare/ns-lmshare-_share_info_1501)  
 </dl>
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see [**IADsFileShare**](https://msdn.microsoft.com/library/aa706019).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see [**IADsFileShare**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileshare).
 
  
 

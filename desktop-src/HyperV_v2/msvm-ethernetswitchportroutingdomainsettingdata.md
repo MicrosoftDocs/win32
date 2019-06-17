@@ -59,7 +59,7 @@ Data type: **uint32** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (3), [**Version**](https://msdn.microsoft.com/library/aa393650) (1), [**Revision**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: **WmiDataId** (3), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 The VirtualSubnetId or VLAN IDs for the routing domains.
@@ -75,7 +75,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (4), [**Version**](https://msdn.microsoft.com/library/aa393650) (1), [**Revision**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: **WmiDataId** (4), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 The VirtualSubnetId or VLAN friendly name array.
@@ -91,7 +91,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (38), **WmiDataId** (1), [**Version**](https://msdn.microsoft.com/library/aa393650) (1), [**Revision**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (38), **WmiDataId** (1), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 The routing domain GUID.
@@ -107,7 +107,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (127), **WmiDataId** (2), [**Version**](https://msdn.microsoft.com/library/aa393650) (1), [**Revision**](https://msdn.microsoft.com/library/aa393650) (0)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (127), **WmiDataId** (2), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 The routing domain friendly name.

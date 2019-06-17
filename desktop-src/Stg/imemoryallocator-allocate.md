@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IMemoryAllocator::Allocate method
 
-The **Allocate** method allocates memory for the [**StgConvertPropertyToVariant**](https://msdn.microsoft.com/library/windows/desktop/aa380321) function when the function converts a **SERIALIZEDPROPERTYVALUE** data type to a **PROPVARIANT** data type.
+The **Allocate** method allocates memory for the [**StgConvertPropertyToVariant**](https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-stgconvertpropertytovariant) function when the function converts a **SERIALIZEDPROPERTYVALUE** data type to a **PROPVARIANT** data type.
 
 ## Syntax
 

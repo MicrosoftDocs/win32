@@ -30,7 +30,7 @@ The GDI+ C++ class-based interface is designed for use by C/C++ programmers. Fam
 GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windows XP and Windows Server 2003. For information about which operating systems are required to use a particular class or method, see the More Information section of the documentation for the class or method. GDI+ is available as a redistributable for earlier operating systems. To download the latest redistributable, see <https://go.microsoft.com/fwlink/p/?linkid=20993>.
 
 > [!Note]  
-> If you are redistributing GDI+ to a down-level platform or a platform that does not ship with that version of GDI+ natively, install Gdiplus.dll in your application directory. This puts it in your address space, but you should use the linker's `/BASE` option to rebase the Gdiplus.dll to prevent address space conflict. For more information, see [/BASE (Base Address)](https://msdn.microsoft.com/en-us/library/f7f5138s.aspx).
+> If you are redistributing GDI+ to a down-level platform or a platform that does not ship with that version of GDI+ natively, install Gdiplus.dll in your application directory. This puts it in your address space, but you should use the linker's `/BASE` option to rebase the Gdiplus.dll to prevent address space conflict. For more information, see [/BASE (Base Address)](https://docs.microsoft.com/cpp/build/reference/base-base-address).
 
  
 

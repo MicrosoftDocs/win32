@@ -26,7 +26,7 @@ The following sections describe UAC functionality:
 
 ## User Account Control
 
-Under UAC, accounts in the local Administrators group have two [*access tokens*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly), one with standard user privileges and one with administrator privileges. Because of UAC access token filtering, a script is normally run under the standard user token, unless it is run "as an Administrator" in elevated privilege mode. Not all scripts required administrative privileges.
+Under UAC, accounts in the local Administrators group have two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), one with standard user privileges and one with administrator privileges. Because of UAC access token filtering, a script is normally run under the standard user token, unless it is run "as an Administrator" in elevated privilege mode. Not all scripts required administrative privileges.
 
 Scripts cannot determine programmatically whether they are running under a standard user security token or an Administrator token. The script may fail with an access denied error. If the script requires administrator privileges, then it must be run in the elevated mode. Access to WMI namespaces differs depending on whether the script is run in elevated mode. Some WMI operations, such as getting data or executing most methods, do not require that the account run as an administrator. For more information about default access permissions, see [Access to WMI Namespaces](access-to-wmi-namespaces.md) and [Executing Privileged Operations](executing-privileged-operations.md).
 
@@ -37,7 +37,7 @@ You can run a script or an application with elevated rights by performing one of
 **To Run a Script In Elevated Mode**
 
 1.  Open a Command Prompt window by right-clicking Command Prompt in the Start menu and then clicking **Run as administrator**.
-2.  Schedule the script to run elevated using Task Scheduler. For more information, see [Security Contexts for Running Tasks](https://msdn.microsoft.com/library/windows/desktop/aa382140).
+2.  Schedule the script to run elevated using Task Scheduler. For more information, see [Security Contexts for Running Tasks](https://docs.microsoft.com/windows/desktop/TaskSchd/security-contexts-for-running-tasks).
 3.  Run the script using the built-in Administrator account.
 
 ## Account Needed to Run WMI Command-Line Tools
@@ -72,7 +72,7 @@ The security must be adjusted to be able to use this account because the account
 -   Rights to access the WMI namespace remotely (Remote Enable). For more information, see [Access to WMI Namespaces](access-to-wmi-namespaces.md).
 -   Right to access the specific securable object, depending on the security required by the object.
 
-If you use a local account, either because you are in a workgroup or it is a local computer account, you may be forced to give specific tasks to a local user. For example, you can grant the user the right to stop or start a specific service through the SC.exe command, the [**GetSecurityDescriptor**](https://msdn.microsoft.com/library/aa390785) and [**SetSecurityDescriptor**](https://msdn.microsoft.com/library/aa393596) methods of [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418), or through Group Policy using Gpedit.msc. Some securable objects may not allow a standard user to perform tasks and offer no means to alter the default security. In this case, you may need to disable UAC so that the local user account is not filtered and instead becomes a full administrator. Be aware that for security reasons, disabling UAC should be a last resort.
+If you use a local account, either because you are in a workgroup or it is a local computer account, you may be forced to give specific tasks to a local user. For example, you can grant the user the right to stop or start a specific service through the SC.exe command, the [**GetSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-service) and [**SetSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-service) methods of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service), or through Group Policy using Gpedit.msc. Some securable objects may not allow a standard user to perform tasks and offer no means to alter the default security. In this case, you may need to disable UAC so that the local user account is not filtered and instead becomes a full administrator. Be aware that for security reasons, disabling UAC should be a last resort.
 
 Disabling Remote UAC by changing the registry entry that controls Remote UAC is not recommended, but may be necessary in a workgroup. The registry entry is **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Policies**\\**system**\\**LocalAccountTokenFilterPolicy**. When the value of this entry is zero (0), Remote UAC access token filtering is enabled. When the value is 1, remote UAC is disabled.
 
@@ -82,34 +82,34 @@ If a script or application is running under an account in the Administrators gro
 
 The following classes do not return some instances when the account is filtered by UAC:
 
--   [**Win32\_Bus**](https://msdn.microsoft.com/library/aa394079)
--   [**Win32\_Printer**](https://msdn.microsoft.com/library/aa394363)
--   [**Win32\_ComponentCategory**](https://msdn.microsoft.com/library/aa394100)
--   [**Win32\_LogicalProgramGroupItem**](https://msdn.microsoft.com/library/aa394184)
--   [**Win32\_LogicalProgramGroup**](https://msdn.microsoft.com/library/aa394182)
--   [**Win32\_NetworkConnection**](https://msdn.microsoft.com/library/aa394220)
--   [**Win32\_UserAccount**](https://msdn.microsoft.com/library/aa394507)
--   [**Win32\_PrinterDriver**](https://msdn.microsoft.com/library/aa394366)
--   [**Win32\_PortResource**](https://msdn.microsoft.com/library/aa394359)
--   [**Win32\_DeviceMemoryAddress**](https://msdn.microsoft.com/library/aa394125)
+-   [**Win32\_Bus**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-bus)
+-   [**Win32\_Printer**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printer)
+-   [**Win32\_ComponentCategory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-componentcategory)
+-   [**Win32\_LogicalProgramGroupItem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicalprogramgroupitem)
+-   [**Win32\_LogicalProgramGroup**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicalprogramgroup)
+-   [**Win32\_NetworkConnection**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkconnection)
+-   [**Win32\_UserAccount**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-useraccount)
+-   [**Win32\_PrinterDriver**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printerdriver)
+-   [**Win32\_PortResource**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-portresource)
+-   [**Win32\_DeviceMemoryAddress**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-devicememoryaddress)
 
 The following classes do not return some properties when the account is filtered by UAC:
 
--   [**Win32\_NetworkAdapterConfiguration**](https://msdn.microsoft.com/library/aa394217)
--   [**Win32\_DCOMApplicationSetting**](https://msdn.microsoft.com/library/aa394118)
--   [**Win32\_DCOMApplication**](https://msdn.microsoft.com/library/aa394115)
--   [**Win32\_Baseboard**](https://msdn.microsoft.com/library/aa394072)
--   [**Win32\_ComputerSystem**](https://msdn.microsoft.com/library/aa394102)
--   [**Win32\_NetworkAdapter**](https://msdn.microsoft.com/library/aa394216)
--   [**Win32\_MotherboardDevice**](https://msdn.microsoft.com/library/aa394204)
--   [**Win32\_DiskDrive**](https://msdn.microsoft.com/library/aa394132)
--   [**Win32\_PnPEntity**](https://msdn.microsoft.com/library/aa394353)
--   [**Win32\_VideoController**](https://msdn.microsoft.com/library/aa394512)
--   [**Win32\_ParallelPort**](https://msdn.microsoft.com/library/aa394247)
--   [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173)
--   [**Win32\_SystemDriver**](https://msdn.microsoft.com/library/aa394472)
--   [**Win32\_IRQResource**](https://msdn.microsoft.com/library/aa394164)
--   [**Win32\_NetworkProtocol**](https://msdn.microsoft.com/library/aa394223)
+-   [**Win32\_NetworkAdapterConfiguration**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration)
+-   [**Win32\_DCOMApplicationSetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dcomapplicationsetting)
+-   [**Win32\_DCOMApplication**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dcomapplication)
+-   [**Win32\_Baseboard**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-baseboard)
+-   [**Win32\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem)
+-   [**Win32\_NetworkAdapter**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapter)
+-   [**Win32\_MotherboardDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-motherboarddevice)
+-   [**Win32\_DiskDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskdrive)
+-   [**Win32\_PnPEntity**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity)
+-   [**Win32\_VideoController**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-videocontroller)
+-   [**Win32\_ParallelPort**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-parallelport)
+-   [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk)
+-   [**Win32\_SystemDriver**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-systemdriver)
+-   [**Win32\_IRQResource**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-irqresource)
+-   [**Win32\_NetworkProtocol**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkprotocol)
 
 ## Related topics
 

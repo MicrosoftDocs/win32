@@ -19,7 +19,7 @@ The following sections are discussed in this topic:
 
 ## Creating a WMI Class Method in MOF
 
-In WMI, provider methods are generally distinct actions related to the object that the class represents. Rather than change the value of a property to execute an action, a method should be created. For example, you can enable or disable a network information center (NIC) that is represented by [**Win32\_NetworkAdapter**](https://msdn.microsoft.com/library/aa394216) by using the [**Enable**](https://msdn.microsoft.com/library/aa390385) and [**Disable**](https://msdn.microsoft.com/library/aa390364) methods. While these actions can be represented as a read/write property, the recommended design is to create a method. Alternatively, if you want to make a state or value visible for the class, then the recommended approach is to create a read/write property rather than a method. In **Win32\_NetworkAdapter**, the **NetEnabled** property makes the state of the adapter visible but changes between states are executed by the **Enable** or **Disable** methods.
+In WMI, provider methods are generally distinct actions related to the object that the class represents. Rather than change the value of a property to execute an action, a method should be created. For example, you can enable or disable a network information center (NIC) that is represented by [**Win32\_NetworkAdapter**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapter) by using the [**Enable**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/enable-method-in-class-win32-networkadapter) and [**Disable**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/disable-method-in-class-win32-networkadapter) methods. While these actions can be represented as a read/write property, the recommended design is to create a method. Alternatively, if you want to make a state or value visible for the class, then the recommended approach is to create a read/write property rather than a method. In **Win32\_NetworkAdapter**, the **NetEnabled** property makes the state of the adapter visible but changes between states are executed by the **Enable** or **Disable** methods.
 
 Class declarations can include the declaration of one or more methods. You can either choose to inherit the methods of a parent class, or implement your own. If you choose to implement your own methods, you must declare the method and mark the method with specific qualifier tags.
 
@@ -147,7 +147,7 @@ class MyClass
 };
 ```
 
-The following code example describes how to include two references: one to an instance of the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class and the other to an instance of an unknown object type.
+The following code example describes how to include two references: one to an instance of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class and the other to an instance of an unknown object type.
 
 ``` syntax
 [Dynamic, Provider("ProviderX")]

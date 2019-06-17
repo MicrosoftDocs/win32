@@ -28,17 +28,17 @@ HKEY_CLASSES_ROOT
 
 ## Registering with Active Directory Domain Services
 
-Context menu extension registration is specific to one locale. If the context menu extension applies to all locales, it must be registered in the object class [**displaySpecifier**](https://msdn.microsoft.com/library/ms682163) object in all of the locale subcontainers in the Display Specifiers container. If the context menu extension is localized for a certain locale, it must be registered in the **displaySpecifier** object in that locale's subcontainer. For more information about the Display Specifiers container and locales, see [Display Specifiers](display-specifiers.md) and [DisplaySpecifiers Container](displayspecifiers-container.md).
+Context menu extension registration is specific to one locale. If the context menu extension applies to all locales, it must be registered in the object class [**displaySpecifier**](https://docs.microsoft.com/windows/desktop/ADSchema/c-displayspecifier) object in all of the locale subcontainers in the Display Specifiers container. If the context menu extension is localized for a certain locale, it must be registered in the **displaySpecifier** object in that locale's subcontainer. For more information about the Display Specifiers container and locales, see [Display Specifiers](display-specifiers.md) and [DisplaySpecifiers Container](displayspecifiers-container.md).
 
-There are two display specifier attributes that a context menu extension item can be registered under. These are [**adminContextMenu**](https://msdn.microsoft.com/library/ms675211) and [**shellContextMenu**](https://msdn.microsoft.com/library/ms679807).
+There are two display specifier attributes that a context menu extension item can be registered under. These are [**adminContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-admincontextmenu) and [**shellContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellcontextmenu).
 
-The [**adminContextMenu**](https://msdn.microsoft.com/library/ms675211) attribute identifies administrative context menus to display in Active Directory administrative snap-ins. The context menu appears when the user displays the context menu for objects of the appropriate class in one of the Active Directory administrative MMC snap-ins.
+The [**adminContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-admincontextmenu) attribute identifies administrative context menus to display in Active Directory administrative snap-ins. The context menu appears when the user displays the context menu for objects of the appropriate class in one of the Active Directory administrative MMC snap-ins.
 
-The [**shellContextMenu**](https://msdn.microsoft.com/library/ms679807) attribute identifies end-user context menus to display in the Windows shell. The context menu appears when the user views the context menu for objects of the appropriate class in the Windows Explorer. Beginning with Windows Server 2003, the Windows shell no longer displays objects of Active Directory Domain Services.
+The [**shellContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellcontextmenu) attribute identifies end-user context menus to display in the Windows shell. The context menu appears when the user views the context menu for objects of the appropriate class in the Windows Explorer. Beginning with Windows Server 2003, the Windows shell no longer displays objects of Active Directory Domain Services.
 
 All of these attributes are multi-valued.
 
-When registering a context menu extension, the values for the [**adminContextMenu**](https://msdn.microsoft.com/library/ms675211) and [**shellContextMenu**](https://msdn.microsoft.com/library/ms679807) attributes require the following format.
+When registering a context menu extension, the values for the [**adminContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-admincontextmenu) and [**shellContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellcontextmenu) attributes require the following format.
 
 
 ```C++

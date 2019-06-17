@@ -188,7 +188,7 @@ Use this argument to have the compiler generate the kernel-mode code that you wo
 <span id="-mof"></span><span id="-MOF"></span>**-mof**
 </dt> <dd>
 
-Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://msdn.microsoft.com/library/aa823192).
+Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 To use this switch, you must adhere to the following restrictions:
 

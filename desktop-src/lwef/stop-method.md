@@ -28,7 +28,7 @@ Stops the animation for the specified character.
 
 | Part      | Description                                                                                   |
 |-----------|-----------------------------------------------------------------------------------------------|
-| *Request* | Optional. A [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) object specifying a particular animation call. |
+| *Request* | Optional. A [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object specifying a particular animation call. |
 
 
 
@@ -64,7 +64,7 @@ To stop a specific animation or [**Get**](get-method.md) call, declare an object
 
 
 
-This method will not generate a [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) object.
+This method will not generate a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
 
 ## See Also
 

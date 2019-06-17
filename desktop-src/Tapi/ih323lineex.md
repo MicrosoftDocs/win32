@@ -19,7 +19,7 @@ The **IH323LineEx** interface is implemented by the [H323 MSP](h323-msp.md) and 
 
 ## Members
 
-The **IH323LineEx** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IH323LineEx** also has these types of members:
+The **IH323LineEx** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IH323LineEx** also has these types of members:
 
 -   [Methods](#methods)
 

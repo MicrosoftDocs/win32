@@ -18,9 +18,9 @@ api_location:
 
 # Shutdown method of the Win32\_OperatingSystem class
 
-The **Shutdown** [WMI class](https://msdn.microsoft.com/library/aa393244) method unloads programs and DLLs until it is safe to turn off the computer.
+The **Shutdown** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method unloads programs and DLLs until it is safe to turn off the computer.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -60,7 +60,7 @@ Set OpSysSet = GetObject("winmgmts:{(Shutdown)}//./root/cimv2").ExecQuery("selec
 
 
 
-For more information on setting a privilege, see [Executing Privileged Operations](https://msdn.microsoft.com/library/aa390428) and [Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/library/aa390430). For additional shutdown options, such as a logoff or a forced shutdown, see the [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md) method.
+For more information on setting a privilege, see [Executing Privileged Operations](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations) and [Executing Privileged Operations Using VBScript](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations-using-vbscript). For additional shutdown options, such as a logoff or a forced shutdown, see the [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md) method.
 
 ## Examples
 
@@ -155,16 +155,16 @@ next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
+[WMI Tasks: Desktop Management](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
 </dt> <dt>
 
-[Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/library/aa390430)
+[Executing Privileged Operations Using VBScript](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations-using-vbscript)
 </dt> </dl>
 
  

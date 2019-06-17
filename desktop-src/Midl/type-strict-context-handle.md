@@ -74,7 +74,7 @@ A context handle attributed with \[type\_strict\_context\_handle\] cannot also b
 [**code**](code.md)
 </dt> <dt>
 
-[Context Handles](https://msdn.microsoft.com/library/windows/desktop/aa373605)
+[Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/context-handles)
 </dt> <dt>
 
 [**context\_handle\_serialize**](context-handle-serialize.md)

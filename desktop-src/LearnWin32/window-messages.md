@@ -24,7 +24,7 @@ To solve this problem, Windows uses a message-passing model. The operating syste
 
 
 
-Some messages have data associated with them. For example, the [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) message includes the x-coordinate and y-coordinate of the mouse cursor.
+Some messages have data associated with them. For example, the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message includes the x-coordinate and y-coordinate of the mouse cursor.
 
 To pass a message to a window, the operating system calls the window procedure registered for that window. (And now you know what the window procedure is for.)
 
@@ -32,7 +32,7 @@ To pass a message to a window, the operating system calls the window procedure r
 
 An application will receive thousands of messages while it runs. (Consider that every keystroke and mouse-button click generates a message.) Additionally, an application can have several windows, each with its own window procedure. How does the program receive all these messages and deliver them to the correct window procedure? The application needs a loop to retrieve the messages and dispatch them to the correct windows.
 
-For each thread that creates a window, the operating system creates a queue for window messages. This queue holds messages for all the windows that are created on that thread. The queue itself is hidden from your program. You cannot manipulate the queue directly. However, you can pull a message from the queue by calling the [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) function.
+For each thread that creates a window, the operating system creates a queue for window messages. This queue holds messages for all the windows that are created on that thread. The queue itself is hidden from your program. You cannot manipulate the queue directly. However, you can pull a message from the queue by calling the [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) function.
 
 
 ```C++
@@ -42,11 +42,11 @@ GetMessage(&msg, NULL, 0, 0);
 
 
 
-This function removes the first message from the head of the queue. If the queue is empty, the function blocks until another message is queued. The fact that [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) blocks will not make your program unresponsive. If there are no messages, there is nothing for the program to do. If you have to perform background processing, you can create additional threads that continue to run while **GetMessage** waits for another message. (See [Avoiding Bottlenecks in Your Window Procedure](writing-the-window-procedure.md).)
+This function removes the first message from the head of the queue. If the queue is empty, the function blocks until another message is queued. The fact that [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) blocks will not make your program unresponsive. If there are no messages, there is nothing for the program to do. If you have to perform background processing, you can create additional threads that continue to run while **GetMessage** waits for another message. (See [Avoiding Bottlenecks in Your Window Procedure](writing-the-window-procedure.md).)
 
-The first parameter of [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) is the address of a [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure. If the function succeeds, it fills in the **MSG** structure with information about the message. This includes the target window and the message code. The other three parameters let you filter which messages you get from the queue. In almost all cases, you will set these parameters to zero.
+The first parameter of [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) is the address of a [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure. If the function succeeds, it fills in the **MSG** structure with information about the message. This includes the target window and the message code. The other three parameters let you filter which messages you get from the queue. In almost all cases, you will set these parameters to zero.
 
-Although the [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure contains information about the message, you will almost never examine this structure directly. Instead, you will pass it directly to two other functions.
+Although the [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure contains information about the message, you will almost never examine this structure directly. Instead, you will pass it directly to two other functions.
 
 
 ```C++
@@ -56,20 +56,20 @@ DispatchMessage(&msg);
 
 
 
-The [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function is related to keyboard input. It translates keystrokes (key down, key up) into characters. You do not really have to know how this function works; just remember to call it before [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934). The link to the MSDN documentation will give you more information, if you are curious.
+The [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function is related to keyboard input. It translates keystrokes (key down, key up) into characters. You do not really have to know how this function works; just remember to call it before [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage). The link to the MSDN documentation will give you more information, if you are curious.
 
-The [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934) function tells the operating system to call the window procedure of the window that is the target of the message. In other words, the operating system looks up the window handle in its table of windows, finds the function pointer associated with the window, and invokes the function.
+The [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function tells the operating system to call the window procedure of the window that is the target of the message. In other words, the operating system looks up the window handle in its table of windows, finds the function pointer associated with the window, and invokes the function.
 
 For example, suppose that the user presses the left mouse button. This causes a chain of events:
 
-1.  The operating system puts a [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) message on the message queue.
-2.  Your program calls the [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) function.
-3.  [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) pulls the [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) message from the queue and fills in the [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure.
-4.  Your program calls the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) and [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934) functions.
-5.  Inside [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934), the operating system calls your window procedure.
+1.  The operating system puts a [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message on the message queue.
+2.  Your program calls the [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) function.
+3.  [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) pulls the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message from the queue and fills in the [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure.
+4.  Your program calls the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) and [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) functions.
+5.  Inside [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage), the operating system calls your window procedure.
 6.  Your window procedure can either respond to the message or ignore it.
 
-When the window procedure returns, it returns back to [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934). This returns to the message loop for the next message. As long as your program is running, messages will continue to arrive on the queue. Therefore, you must have a loop that continually pulls messages from the queue and dispatches them. You can think of the loop as doing the following:
+When the window procedure returns, it returns back to [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage). This returns to the message loop for the next message. As long as your program is running, messages will continue to arrive on the queue. Therefore, you must have a loop that continually pulls messages from the queue and dispatches them. You can think of the loop as doing the following:
 
 
 ```C++
@@ -85,7 +85,7 @@ while (1)
 
 
 
-As written, of course, this loop would never end. That is where the return value for the [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) function comes in. Normally, **GetMessage** returns a nonzero value. When you want to exit the application and break out of the message loop, call the [**PostQuitMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644945) function.
+As written, of course, this loop would never end. That is where the return value for the [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) function comes in. Normally, **GetMessage** returns a nonzero value. When you want to exit the application and break out of the message loop, call the [**PostQuitMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage) function.
 
 
 ```C++
@@ -94,7 +94,7 @@ As written, of course, this loop would never end. That is where the return value
 
 
 
-The [**PostQuitMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644945) function puts a [**WM\_QUIT**](https://msdn.microsoft.com/library/windows/desktop/ms632641) message on the message queue. **WM\_QUIT** is a special message: It causes [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) to return zero, signaling the end of the message loop. Here is the revised message loop.
+The [**PostQuitMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage) function puts a [**WM\_QUIT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-quit) message on the message queue. **WM\_QUIT** is a special message: It causes [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) to return zero, signaling the end of the message loop. Here is the revised message loop.
 
 ``` syntax
 // Correct.
@@ -107,9 +107,9 @@ while (GetMessage(&msg, NULL, 0, 0))
 }
 ```
 
-As long as [**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) returns a nonzero value, the expression in the **while** loop evaluates to true. After you call [**PostQuitMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644945), the expression becomes false and the program breaks out of the loop. (One interesting result of this behavior is that your window procedure never receives a [**WM\_QUIT**](https://msdn.microsoft.com/library/windows/desktop/ms632641) message. Therefore, you do not have to have a case statement for this message in your window procedure.)
+As long as [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) returns a nonzero value, the expression in the **while** loop evaluates to true. After you call [**PostQuitMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage), the expression becomes false and the program breaks out of the loop. (One interesting result of this behavior is that your window procedure never receives a [**WM\_QUIT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-quit) message. Therefore, you do not have to have a case statement for this message in your window procedure.)
 
-The next obvious question is when to call [**PostQuitMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644945). We'll return to this question in the topic [Closing the Window](closing-the-window.md), but first we have to write our window procedure.
+The next obvious question is when to call [**PostQuitMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage). We'll return to this question in the topic [Closing the Window](closing-the-window.md), but first we have to write our window procedure.
 
 ## Posted Messages versus Sent Messages
 
@@ -117,10 +117,10 @@ The previous section talked about messages going onto a queue. Sometimes, the op
 
 The terminology for this distinction can be confusing:
 
--   *Posting* a message means the message goes on the message queue, and is dispatched through the message loop ([**GetMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644936) and [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934)).
+-   *Posting* a message means the message goes on the message queue, and is dispatched through the message loop ([**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) and [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage)).
 -   *Sending* a message means the message skips the queue, and the operating system calls the window procedure directly.
 
-For now, the difference is not very important. The window procedure handles all messages. However, some messages bypass the queue and go directly to your window procedure. However, it can make a difference if your application communicates between windows. You can find a more thorough discussion of this issue in the topic [About Messages and Message Queues](https://msdn.microsoft.com/library/windows/desktop/ms644927).
+For now, the difference is not very important. The window procedure handles all messages. However, some messages bypass the queue and go directly to your window procedure. However, it can make a difference if your application communicates between windows. You can find a more thorough discussion of this issue in the topic [About Messages and Message Queues](https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues).
 
 ## Next
 

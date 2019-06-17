@@ -96,7 +96,7 @@ To disable the firewall exceptions separately, use the following commands.
 
 ## User Account Control Settings
 
-User Account Control (UAC) access-token filtering can affect which operations are allowed in WMI namespaces or what data is returned. Under UAC, all accounts in the local Administrators group run with a standard user [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly), also known as UAC access-token filtering. An administrator account can run a script with an elevated privilege—"Run as Administrator".
+User Account Control (UAC) access-token filtering can affect which operations are allowed in WMI namespaces or what data is returned. Under UAC, all accounts in the local Administrators group run with a standard user [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), also known as UAC access-token filtering. An administrator account can run a script with an elevated privilege—"Run as Administrator".
 
 When you are not connecting to the built-in Administrator account, UAC affects connections to a remote computer differently depending on whether the two computers are in a domain or a workgroup. For more information about UAC and remote connections, see [User Account Control and WMI](user-account-control-and-wmi.md).
 

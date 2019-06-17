@@ -17,9 +17,9 @@ ms.date: 05/31/2018
 Network Policy Server is the Microsoft implementation of a RADIUS server and proxy. The following sections provide general information about NPS and RADIUS.
 
 -   [Internet Authentication Service and Network Policy Server](internet-authentication-service-vs-network-policy-server.md)
--   [RADIUS Authentication, Authorization, and Accounting](https://msdn.microsoft.com/library/bb892012)
--   [Logging With Network Policy Server](https://msdn.microsoft.com/library/bb892007)
--   [Working with a State Server](https://msdn.microsoft.com/library/bb892032)
+-   [RADIUS Authentication, Authorization, and Accounting](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-authentication-and-accounting)
+-   [Logging With Network Policy Server](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-accounting-packets)
+-   [Working with a State Server](https://docs.microsoft.com/windows/desktop/Nps/ias-working-with-a-state-server)
 
  
 

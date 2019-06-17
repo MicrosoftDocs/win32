@@ -43,7 +43,7 @@ WebViewFolderContents.SelectItem(
 
 Type: **Variant\***
 
-The [**FolderItem**](https://msdn.microsoft.com/library/windows/desktop/bb787810) object for which the selection state will be set.
+The [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object for which the selection state will be set.
 
 </dd> <dt>
 

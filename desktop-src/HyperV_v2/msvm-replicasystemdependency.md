@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_ReplicaSystemDependency class
 
-Represents an association between an instance of the [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) class that represents the virtual machine replica and an instance of the **CIM\_ComputerSystem** class that represents the test virtual machine replica.
+Represents an association between an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the virtual machine replica and an instance of the **CIM\_ComputerSystem** class that represents the test virtual machine replica.
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -55,10 +55,10 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
 </dt> </dl>
 
-A reference to an instance of the [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) class that represents the virtual machine replica. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the virtual machine replica. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -71,10 +71,10 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
 </dt> </dl>
 
-A reference to an instance of the [**CIM\_ComputerSystem**](https://msdn.microsoft.com/library/aa387219) class that represents the test virtual machine replica created by the [**Msvm\_ReplicationService.TestReplicaSystem**](testreplicasystem-msvm-replicationservice.md) method. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the test virtual machine replica created by the [**Msvm\_ReplicationService.TestReplicaSystem**](testreplicasystem-msvm-replicationservice.md) method. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> </dl>
 

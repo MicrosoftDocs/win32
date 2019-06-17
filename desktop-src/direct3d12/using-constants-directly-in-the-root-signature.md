@@ -2,6 +2,7 @@
 title: Using Constants Directly in the Root Signature
 description: Applications can define root constants in the root signature, each as a set of 32-bit values. They appear in High Level Shading Language (HLSL) as a constant buffer. Note that constant buffers for historical reasons are viewed as sets of 4x32-bit values.
 ms.assetid: F9A2640F-D1FA-481C-BDF1-B15372E3C512
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -35,7 +36,7 @@ The following APIs (from the [**ID3D12GraphicsCommandList**](/windows/desktop/ap
 -   [**SetComputeRoot32BitConstant**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstant)
 -   [**SetComputeRoot32BitConstants**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstants)
 
-Also, refer to the [**D3D12\_ROOT\_CONSTANTS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_constants) structure.
+Also, refer to the [**D3D12\_ROOT\_CONSTANTS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_constants) structure.
 
 ## Related topics
 

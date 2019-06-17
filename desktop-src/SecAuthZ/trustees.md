@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Trustees
 
-A trustee is the user account, group account, or [*logon session*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-logon-session-gly) to which an [*access control entry*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACE) applies. Each ACE in an [*access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACL) has one [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) that identifies a trustee.
+A trustee is the user account, group account, or [*logon session*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) to which an [*access control entry*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) applies. Each ACE in an [*access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACL) has one [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) that identifies a trustee.
 
 User accounts include accounts that human users or programs such as Windows Services use to log on to the local computer.
 
 Group accounts cannot be used to log on to a computer, but they are useful in ACEs to allow or deny a set of access rights to one or more user accounts.
 
-A [*logon SID*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-logon-sid-gly) that identifies the current logon session is useful to allow or deny access rights only until the user logs off.
+A [*logon SID*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) that identifies the current logon session is useful to allow or deny access rights only until the user logs off.
 
 The access control functions use the [**TRUSTEE**](/windows/desktop/api/AccCtrl/ns-accctrl-_trustee_a) structure to identify a trustee. The **TRUSTEE** structure enables you to use a name string or a SID to identify a trustee. If you use a name, the functions that create an ACE from the **TRUSTEE** structure perform the task of allocating the SID buffers and looking up the SID that corresponds to the account name. There are two helper functions, [**BuildTrusteeWithSid**](/windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithsida) and [**BuildTrusteeWithName**](/windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithnamea), that initialize a **TRUSTEE** structure with a specified SID or name. [**BuildTrusteeWithObjectsAndSid**](/windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithobjectsandsida) and [**BuildTrusteeWithObjectsAndName**](/windows/desktop/api/Aclapi/nf-aclapi-buildtrusteewithobjectsandnamea) allow you to initialize a **TRUSTEE** structure with object-specific ACE information. Three other helper functions, [**GetTrusteeForm**](/windows/desktop/api/Aclapi/nf-aclapi-gettrusteeforma), [**GetTrusteeName**](/windows/desktop/api/Aclapi/nf-aclapi-gettrusteenamea), and [**GetTrusteeType**](/windows/desktop/api/Aclapi/nf-aclapi-gettrusteetypea), retrieve the values of the various members of a **TRUSTEE** structure.
 

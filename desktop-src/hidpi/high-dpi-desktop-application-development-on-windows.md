@@ -183,7 +183,7 @@ The table below shows the level of per-monitor DPI awareness support offered by 
 <td>Limited automatic per-monitor DPI scaling for some controls</td>
 <td>1703</td>
 <td>UI framework</td>
-<td><a href="https://msdn.microsoft.com/library/mt799789.aspx">High DPI Support in Windows Forms</a></td>
+<td><a href="https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms">High DPI Support in Windows Forms</a></td>
 </tr>
 <tr class="even">
 <td>Windows Presentation Framework (WPF)</td>

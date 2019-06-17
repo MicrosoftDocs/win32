@@ -26,7 +26,7 @@ The following diagnostic procedures should be used (in order) to help identify p
 6.  [Use WinHTTP logging to verify Get traffic](using-winhttp-logging-to-verify-get-traffic.md).
 7.  [Inspect network traces for HTTP metadata exchange](inspecting-network-traces-for-http-metadata-exchange.md).
 
-The Network Explorer uses [Function Discovery](https://msdn.microsoft.com/library/windows/desktop/aa814070) to enumerate network devices. For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).
+The Network Explorer uses [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) to enumerate network devices. For more troubleshooting information, see [Troubleshooting Function Discovery Clients](troubleshooting-function-discovery-clients.md).
 
 If the source of the problem cannot be identified using the above diagnostic procedures, follow the directions in [Enabling WSDAPI Tracing](enabling-wsdapi-tracing.md) and contact Microsoft support.
 

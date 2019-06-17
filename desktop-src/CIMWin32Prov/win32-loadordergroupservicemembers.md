@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_LoadOrderGroupServiceMembers class
 
-The **Win32\_LoadOrderGroupServiceMembers** association [WMI class](https://msdn.microsoft.com/library/aa393244) relates a load order group and a base service.
+The **Win32\_LoadOrderGroupServiceMembers** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a load order group and a base service.
 
 > [!Note]  
 > [**Win32\_SystemDriver**](win32-systemdriver.md) objects are members of that load order group. Not all services are members of groups, and not all groups have services within them.
@@ -61,7 +61,7 @@ Data type: **Win32\_LoadOrderGroup**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_LoadOrderGroup")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_LoadOrderGroup")
 </dt> </dl>
 
 Reference to the instance representing the load order group properties associated with the base service.
@@ -77,7 +77,7 @@ Data type: **Win32\_BaseService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI\|Win32\_BaseService")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_BaseService")
 </dt> </dl>
 
 Reference to the instance representing the service that is a member of a load order group.
@@ -109,7 +109,7 @@ The **Win32\_LoadOrderGroupServiceMembers** class is derived from [**CIM\_Compon
 [**CIM\_Component**](cim-component.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

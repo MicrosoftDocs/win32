@@ -63,7 +63,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("GroupComponent"), [**Min**](https://msdn.microsoft.com/library/aa393650) (1), [**Max**](https://msdn.microsoft.com/library/aa393650) (1)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_ComputerSystem**](cim-computersystem.md) describing the computer system.
@@ -79,7 +79,7 @@ Data type: **CIM\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("PartComponent"), [**Weak**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_OperatingSystem**](cim-operatingsystem.md) that describes the operating system installed on the computer system.
@@ -95,7 +95,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|Operating System\|001.4")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operating System\|001.4")
 </dt> </dl>
 
 If **TRUE**, the installed operating system is the default operating system for the computer system.

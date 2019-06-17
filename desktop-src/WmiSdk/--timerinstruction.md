@@ -114,7 +114,7 @@ The **\_\_TimerInstruction** subclasses are [**\_\_AbsoluteTimerInstruction**](-
 
 <dl> <dt>
 
-[**\_\_EventGenerator**](https://msdn.microsoft.com/library/aa394640)
+[**\_\_EventGenerator**](https://docs.microsoft.com/windows/desktop/WmiSdk/--eventgenerator)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

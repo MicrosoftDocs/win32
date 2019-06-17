@@ -14,9 +14,9 @@ api_location:
 
 # Executing Privileged Operations Using VBScript
 
-If you use the scripting API for WMI, you can set specific security privileges. For example, you can set the security privileges to request an operating system shutdown, or to examine the security event log. For more information, see [Running with Special Privileges](https://msdn.microsoft.com/library/windows/desktop/ms717802).
+If you use the scripting API for WMI, you can set specific security privileges. For example, you can set the security privileges to request an operating system shutdown, or to examine the security event log. For more information, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
 
-You only need to set privileges when you are accessing WMI on your computer. When you are accessing a remote host, COM RPC automatically sets the privileges. To determine all the required privileges, consult the documentation for the specific WMI classes that you want to access, such as [**Win32\_OperatingSystem**](https://msdn.microsoft.com/library/aa394239). For more information, see [WbemPrivilegeEnum](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum)
+You only need to set privileges when you are accessing WMI on your computer. When you are accessing a remote host, COM RPC automatically sets the privileges. To determine all the required privileges, consult the documentation for the specific WMI classes that you want to access, such as [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem). For more information, see [WbemPrivilegeEnum](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum)
 
 The following sections are discussed in this topic:
 

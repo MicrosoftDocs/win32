@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instance properties (Microsoft.Isam.Esent.Interop)
 TOCTitle: Instance properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Instance
@@ -28,13 +28,13 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/k25x6640">IsClosed</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.isclosed?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_IsClosed">IsClosed</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/15b8sk08">IsInvalid</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/s07831kw">SafeHandleZeroOrMinusOneIsInvalid</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid.isinvalid?redirectedfrom=MSDN#Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid_IsInvalid">IsInvalid</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid?redirectedfrom=MSDN">SafeHandleZeroOrMinusOneIsInvalid</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

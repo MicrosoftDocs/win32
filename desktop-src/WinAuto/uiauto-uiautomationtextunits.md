@@ -49,7 +49,7 @@ The [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-tex
 
 If a particular text-based control does not support the specified text unit, the provider should respond by substituting the next larger text unit that is supported by the control. For example, if [**TextUnit\_Paragraph**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) is specified but not supported, the method can substitute [**TextUnit\_Page**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) or [**TextUnit\_Document**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit).
 
-The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](https://msdn.microsoft.com/library/windows/desktop/dd319118). For more information, see [Uniscribe](https://msdn.microsoft.com/library/windows/desktop/dd374091) on the MSDN website.
+The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak). For more information, see [Uniscribe](https://docs.microsoft.com/windows/desktop/Intl/uniscribe) on the MSDN website.
 
 ## Endpoint inclusivity
 

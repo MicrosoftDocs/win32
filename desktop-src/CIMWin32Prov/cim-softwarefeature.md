@@ -75,7 +75,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
 </dt> </dl>
 
 Short textual description of the object.
@@ -93,7 +93,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Description")
+Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
 </dt> </dl>
 
 Textual description of the object.
@@ -111,7 +111,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_Product**](cim-product.md).**IdentifyingNumber**"), [**Key**](https://msdn.microsoft.com/library/aa392157), [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("DMTF\|ComponentID\|001.4")
+Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**IdentifyingNumber**"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.4")
 </dt> </dl>
 
 Product identification, such as a serial number on software or a die number on a hardware chip.
@@ -127,7 +127,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Install Date")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -145,7 +145,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**override**](https://msdn.microsoft.com/library/aa393650) ("Name"), [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (256)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Label by which the object is known outside of the data processing system. The label is a human-readable name that uniquely identifies the element in the context of the element's namespace.
@@ -163,7 +163,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_Product**](cim-product.md).**Name**"), [**Key**](https://msdn.microsoft.com/library/aa392157), [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (256), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("DMTF\|ComponentID\|001.2")
+Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Name**"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.2")
 </dt> </dl>
 
 Commonly used product name.
@@ -179,7 +179,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (10), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Status")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
 Current status of the object.
@@ -285,7 +285,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_Product**](cim-product.md).**Vendor**"), [**CIM\_Key**](https://msdn.microsoft.com/library/aa393651), [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (256), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("DMTF\|ComponentID\|001.1")
+Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Vendor**"), [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.1")
 </dt> </dl>
 
 Name of the product's supplier, which corresponds to the **Vendor** property in the product object of the DMTF Solution Exchange Standard.
@@ -301,7 +301,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_Product**](cim-product.md).**Version**"), [**Key**](https://msdn.microsoft.com/library/aa392157), [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("DMTF\|ComponentID\|001.3")
+Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Product**](cim-product.md).**Version**"), [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("DMTF\|ComponentID\|001.3")
 </dt> </dl>
 
 Product version information, which corresponds to the **Version** property in the product object of the DMTF Solution Exchange Standard.

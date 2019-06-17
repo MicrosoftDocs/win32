@@ -34,7 +34,7 @@ Redraw flag. If this parameter is **TRUE**, the trackbar is redrawn after the ra
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the minimum position for the slider, and the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the maximum position.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the minimum position for the slider, and the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the maximum position.
 
 </dd> </dl>
 

@@ -28,7 +28,7 @@ The **INapSystemHealthAgentCallback** interface provides callback methods that a
 
 ## Members
 
-The **INapSystemHealthAgentCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapSystemHealthAgentCallback** also has these types of members:
+The **INapSystemHealthAgentCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSystemHealthAgentCallback** also has these types of members:
 
 -   [Methods](#methods)
 

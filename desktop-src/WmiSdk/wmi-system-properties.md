@@ -15,7 +15,7 @@ System properties are available at any time, but values might be **NULL**. **NUL
 
 ## System Properties
 
-The following list describes the WMI system properties. The examples given are taken from the system properties of the [**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383) class, which is described at the bottom of this topic.
+The following list describes the WMI system properties. The examples given are taken from the system properties of the [**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature) class, which is described at the bottom of this topic.
 
 <dl> <dt>
 
@@ -149,7 +149,7 @@ Example: CIM\_LogicalElement
 
 </dd> </dl>
 
-The following PowerShell code retrieves the properties of the [**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383) class, which includes the system properties.
+The following PowerShell code retrieves the properties of the [**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature) class, which includes the system properties.
 
 
 ```PowerShell

@@ -26,7 +26,7 @@ Requests for information on whether an offline request is cached or not.
 
 ## Members
 
-The **IOfflineAnalysisCacheRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IOfflineAnalysisCacheRequest** also has these types of members:
+The **IOfflineAnalysisCacheRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCacheRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IOfflineAnalysisCacheRequest** interface inherits from the [**IUnknown**](
 
 The **IOfflineAnalysisCacheRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432705"><strong>RequestOfflineAnalysisReportAvailabilityAsync</strong></a></td><td style="text-align: left;"><p>Requests to cache offline analysis report of the specified frames.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iofflineanalysiscacherequest-requestofflineanalysisreportavailabilityasync-dword-dword-arr-iofflineanalysiscachecallback-ptr"><strong>RequestOfflineAnalysisReportAvailabilityAsync</strong></a></td><td style="text-align: left;"><p>Requests to cache offline analysis report of the specified frames.</p></td></tr></tbody></table>
 
  
 

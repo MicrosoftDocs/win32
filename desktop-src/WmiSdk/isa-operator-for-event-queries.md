@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The ISA operator is a WQL-specific operator that can be used in event queries. When ISA is included in the [WHERE clause](where-clause.md) of an event query, it requests notification of events for all classes within a class hierarchy, rather than a specific event class.
 
-The following example requests notification every 10 minutes of instance modification events for all instances that are members of any class derived from the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class.
+The following example requests notification every 10 minutes of instance modification events for all instances that are members of any class derived from the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
 
 ```sql

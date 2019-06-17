@@ -47,7 +47,7 @@ The WPARAM contains a DPI value. The scaled window size that the application wou
 *lParam* 
 </dt> <dd>
 
-The LPARAM is an in/out pointer to a SIZE struct. The \_In\_ value in the LPARAM is the pending size of the window after a user-initiated move or a call to [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545). If the window is being resized, this size is not necessarily the same as the window's current size at the time this message is received.
+The LPARAM is an in/out pointer to a SIZE struct. The \_In\_ value in the LPARAM is the pending size of the window after a user-initiated move or a call to [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos). If the window is being resized, this size is not necessarily the same as the window's current size at the time this message is received.
 
 The \_Out\_ value in the LPARAM should be written to by the application to specify the desired scaled window size corresponding to the provided DPI value in the WPARAM.
 

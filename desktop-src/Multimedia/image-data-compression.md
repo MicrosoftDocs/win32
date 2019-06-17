@@ -21,7 +21,7 @@ Your application can use a series of [**ICCompress**](/windows/desktop/api/Vfw/n
 
 Your application can increase control over the compression process by using the [**ICCompress**](/windows/desktop/api/Vfw/nf-vfw-iccompress) functions and macros. This group of functions and macros handles individual frames, rather than the sequence as a whole. For example, your application can identify the frames to compress as key frames by using the **ICCompress** function.
 
-A compressor receives data in one format, compresses the data, and returns a compressed version of the data using a specified format. The typical input format specifies DIBs using the [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure. The typical output format specifies compressed DIBs, also using the **BITMAPINFO** structure.
+A compressor receives data in one format, compresses the data, and returns a compressed version of the data using a specified format. The typical input format specifies DIBs using the [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure. The typical output format specifies compressed DIBs, also using the **BITMAPINFO** structure.
 
 > [!Note]  
 > To minimize image and audio degradation during playback, avoid compressing an AVI file more than once. Combine uncompressed pieces of video in your editing system and then compress the final product.
@@ -46,7 +46,7 @@ You can use the [**ICCompress**](/windows/desktop/api/Vfw/nf-vfw-iccompress) fun
 
 Your application can use the **ICCOMPRESS\_KEYFRAME** flag to make the frame compressed by [**ICCompress**](/windows/desktop/api/Vfw/nf-vfw-iccompress) a key frame.
 
-When VCM returns control to your application after compressing a frame, VCM stores the compressed data in the structures referenced by the *lpbiOutput* and *lpData* parameters. If your application needs to move the compressed data, it can find its size in the *biSizeImage* member of the [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure specified in *lpbiOutput*.
+When VCM returns control to your application after compressing a frame, VCM stores the compressed data in the structures referenced by the *lpbiOutput* and *lpData* parameters. If your application needs to move the compressed data, it can find its size in the *biSizeImage* member of the [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure specified in *lpbiOutput*.
 
 > [!Note]  
 > Your application must allocate the structures and buffers that store the uncompressed and compressed data. If the compressor supports temporal compression, your application must also allocate a structure and buffer to hold the format and data for the previous frame of information.

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Cryptographic Service Providers
 
 > [!IMPORTANT]
-> This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+> This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal) Microsoft may remove this API in future releases.
 
  
 

@@ -25,7 +25,7 @@ The **ChangeSecurityPermissionsEx** method changes the security permissions for 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -120,7 +120,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-String that represents the child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If the parameter value is **null**, the operation is performed on the file or directory specified in the [**ExecMethod**](https://msdn.microsoft.com/library/aa393862) call.
+String that represents the child file (or directory) to use as a starting point for this method. Typically, the *StartFileName* parameter is the *StopFileName* parameter specifying the file (or directory) at which an error occurred from the previous method call. If the parameter value is **null**, the operation is performed on the file or directory specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> <dt>
 

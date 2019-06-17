@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 It is recommended that all permanent subscriptions be compiled into the \\root\\subscription namespace. This prevents the need to compile the permanent consumer into each namespace being used, which means that there is only one namespace to look for permanent subscriptions. Use the **EventNamespace** property of [**\_\_EventFilter**](--eventfilter.md) to implement a cross-namespace subscription.
 
-When using the [**CommandLineEventConsumer**](commandlineeventconsumer.md), it is important to secure the executable you are launching. If the executable is not in a secure location, or secured with a strong access control list (ACL), anyone can replace your executable with one of their own. For more information about ACLs, see [Creating a Security Descriptor for a New Object in C++](https://msdn.microsoft.com/library/windows/desktop/aa446595).
+When using the [**CommandLineEventConsumer**](commandlineeventconsumer.md), it is important to secure the executable you are launching. If the executable is not in a secure location, or secured with a strong access control list (ACL), anyone can replace your executable with one of their own. For more information about ACLs, see [Creating a Security Descriptor for a New Object in C++](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
 The following Managed Object Format (MOF) code example shows a cross-namespace subscription.
 

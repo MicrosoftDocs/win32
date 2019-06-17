@@ -27,7 +27,7 @@ api_location:
 
 # Win32\_Account class
 
-The **Win32\_Account** abstract [WMI class](https://msdn.microsoft.com/library/aa393244) contains information about user accounts and group accounts known to the computer system running Windows. User or group names recognized by a Windows domain are descendants (or members) of this class.
+The **Win32\_Account** abstract [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) contains information about user accounts and group accounts known to the computer system running Windows. User or group names recognized by a Windows domain are descendants (or members) of this class.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -70,7 +70,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
 </dt> </dl>
 
 Short description of the object.
@@ -88,7 +88,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Description")
+Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -106,7 +106,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Network Management Functions\|Domain")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Functions\|Domain")
 </dt> </dl>
 
 Name of the Windows domain to which a group or user belongs.
@@ -124,7 +124,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Install Date")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
 </dt> </dl>
 
 Date and time that the object was installed. This property does not require a value to indicate that the object is installed.
@@ -142,7 +142,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/library/aa393651)
+Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 If **TRUE**, the account is defined on the local machine. To retrieve only accounts defined on the local machine, design a query that includes the condition "LocalAccount=**TRUE**".
@@ -158,7 +158,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Name"), [**key**](https://msdn.microsoft.com/library/aa392157), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Network Management Structures\|name")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Network Management Structures\|name")
 </dt> </dl>
 
 Name of the Windows system account on the domain specified by the **Domain** property of this class. This property overrides the **Name** property inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
@@ -174,7 +174,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Security Identifiers (SIDs)")
+Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Security Identifiers (SIDs)")
 </dt> </dl>
 
 Security identifier (SID) for this account. A SID is a string value of variable length used to identify a trustee. Each account has a unique SID issued by an authority (such as a Windows domain), stored in a security database. When a user logs on, the system retrieves the user's SID from the database and places it in the user's access token. The system uses the SID in the user's access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot be used again to identify another user or group.
@@ -190,7 +190,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/library/aa393651), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|Access Control Enumeration Types\|SID\_NAME\_USE")
+Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API\|Access Control Enumeration Types\|SID\_NAME\_USE")
 </dt> </dl>
 
 Enumerated values that specify the type of security identifier (SID).
@@ -271,7 +271,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (10), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Status")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicts a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", can apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -413,7 +413,7 @@ The following PowerShell code retrieves the domain accounts.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

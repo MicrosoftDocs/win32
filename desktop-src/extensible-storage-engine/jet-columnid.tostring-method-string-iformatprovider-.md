@@ -57,25 +57,25 @@ public string ToString(
 #### Parameters
 
   - format  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
-    The [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) specifying the format to use. -or- null to use the default format defined for the type of the [IFormattable](https://msdn.microsoft.com/en-us/library/bk5yxz0f) implementation.
+    The [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) specifying the format to use. -or- null to use the default format defined for the type of the [IFormattable](https://docs.microsoft.com/dotnet/api/system.iformattable?redirectedfrom=MSDN) implementation.
 
 <!-- end list -->
 
   - formatProvider  
-    Type: [System.IFormatProvider](https://msdn.microsoft.com/en-us/library/efh2ww9y)  
+    Type: [System.IFormatProvider](https://docs.microsoft.com/dotnet/api/system.iformatprovider?redirectedfrom=MSDN)  
     
-    The [IFormatProvider](https://msdn.microsoft.com/en-us/library/efh2ww9y) to use to format the value. -or- null to obtain the numeric format information from the current locale setting of the operating system.
+    The [IFormatProvider](https://docs.microsoft.com/dotnet/api/system.iformatprovider?redirectedfrom=MSDN) to use to format the value. -or- null to obtain the numeric format information from the current locale setting of the operating system.
 
 #### Return value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
-A [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf) containing the value of the current instance in the specified format.  
+Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) containing the value of the current instance in the specified format.  
 
 #### Implements
 
-[IFormattable.ToString(String, IFormatProvider)](https://msdn.microsoft.com/en-us/library/bhf180ey)  
+[IFormattable.ToString(String, IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.iformattable.tostring?redirectedfrom=MSDN#System_IFormattable_ToString_System_String_System_IFormatProvider_)  
 
 ## See also
 

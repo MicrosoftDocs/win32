@@ -55,7 +55,7 @@ public IntPtr pvData { get; internal set; }
 
 #### Property value
 
-Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
+Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
 
 ## See also
 

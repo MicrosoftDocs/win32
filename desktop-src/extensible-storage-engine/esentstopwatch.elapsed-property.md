@@ -55,7 +55,7 @@ public TimeSpan Elapsed { get; private set; }
 
 #### Property value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+Type: [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)  
 
 ## See also
 

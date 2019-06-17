@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The following topic describes how to retrieve the on-line programming documentation for a dynamically-created raw or formatted data object.
 
-WMI contains a number of objects that track performance. Classes derived from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299) contain raw, or "uncooked" performance data, and are supported by the [Performance Counter provider](performance-counter-provider.md). In contrast, classes derived from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) contain "cooked", or formatted data, and are supported by the [Formatted Performance Data Provider](formatted-performance-data-provider.md).
+WMI contains a number of objects that track performance. Classes derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) contain raw, or "uncooked" performance data, and are supported by the [Performance Counter provider](performance-counter-provider.md). In contrast, classes derived from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) contain "cooked", or formatted data, and are supported by the [Formatted Performance Data Provider](formatted-performance-data-provider.md).
 
 However, both providers support a number of dynamically-created child classes. Because the properties are added at run-time, these classes may contain undocumented properties. You can use the following code to identify what properties a given dynamically-created class has.
 
@@ -48,7 +48,7 @@ However, both providers support a number of dynamically-created child classes. B
 
     
 
-The following code retrieves the property descriptions for the specified [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) object.
+The following code retrieves the property descriptions for the specified [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) object.
 
 
 ```PowerShell

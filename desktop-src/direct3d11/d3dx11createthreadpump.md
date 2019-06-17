@@ -46,7 +46,7 @@ HRESULT D3DX11CreateThreadPump(
 *cIoThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of I/O threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -55,7 +55,7 @@ The number of I/O threads to create. If 0 is specified, Direct3D will attempt to
 *cProcThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of process threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 

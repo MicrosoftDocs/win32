@@ -36,14 +36,14 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 <span id="lpbiInput"></span><span id="lpbiinput"></span><span id="LPBIINPUT"></span>*lpbiInput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure containing the input format.
+Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure containing the input format.
 
 </dd> <dt>
 
 <span id="lpbiOutput"></span><span id="lpbioutput"></span><span id="LPBIOUTPUT"></span>*lpbiOutput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure to contain the output format. You can specify zero for this parameter to request only the size of the output format, as in the [**ICCompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize) macro.
+Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure to contain the output format. You can specify zero for this parameter to request only the size of the output format, as in the [**ICCompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize) macro.
 
 </dd> </dl>
 
@@ -55,7 +55,7 @@ If *lpbiOutput* is nonzero, returns ICERR\_OK if successful or an error otherwis
 
 ## Remarks
 
-If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure with the default output format corresponding to the input format specified for *lpbiInput*. If the compressor can produce several formats, the default format should be the one that preserves the greatest amount of information.
+If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo) structure with the default output format corresponding to the input format specified for *lpbiInput*. If the compressor can produce several formats, the default format should be the one that preserves the greatest amount of information.
 
 ## Requirements
 

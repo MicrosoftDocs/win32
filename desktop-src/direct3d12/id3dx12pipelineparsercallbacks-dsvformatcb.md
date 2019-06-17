@@ -14,6 +14,7 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,7 +41,7 @@ void DepthStencilStateCb(
 *DepthStencilState* 
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)**
+Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
 Details of the depth stencil value format subobject parsed from a pipeline state stream.
 
@@ -72,7 +73,7 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> </dl>
 
  

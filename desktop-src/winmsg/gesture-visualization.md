@@ -134,7 +134,7 @@ Specifies UI feedback for a right tap.
 [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx)
 </dt> <dt>
 
-[Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)
+[Input Feedback Configuration](https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal)
 </dt> </dl>
 
  

@@ -101,7 +101,7 @@ Data type: **sint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The priority of the plug-in. The higher the value, the higher the priority of the plug-in. The priority is zero by default.

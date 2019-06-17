@@ -13,7 +13,7 @@ This topic describes how to scale an object by using the [**Matrix3x2F**](https:
 -   **Matrix3x2F::Scale(D2D1\_SIZE\_F scalefactor, D2D1\_POINT\_2F centerpoint)**
 -   **Matrix3x2F::Scale(float scalex, float scaley, D2D1\_POINT\_2F centerpoint)**
 
-The first method stores *scalex* and *scaley* as an ordered pair of floating-point values in the [**D2D1\_SIZE\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368160) structure. The second method defines *scalex* and *scaley* as individual parameters.
+The first method stores *scalex* and *scaley* as an ordered pair of floating-point values in the [**D2D1\_SIZE\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f) structure. The second method defines *scalex* and *scaley* as individual parameters.
 
 Regardless of which method that you use, you must specify both *scalex* and *scaley* factors. The *scalex* value is the scale factor in the x direction. For example, a *scalex* value of 1.5 stretches the object to 150 percent along the x-axis. Similarly, the *scaley* value is the scale factor in the y direction. For example, a *scaley* value of 0.5 shrinks the height of the object by 50 percent along the y-axis.
 

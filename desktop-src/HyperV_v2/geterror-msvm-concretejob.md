@@ -17,7 +17,7 @@ api_location:
 
 # GetError method of the Msvm\_ConcreteJob class
 
-Retrieves the error object for the job, if one exists. When the job is executing or has terminated without error, then this method does not return a [**CIM\_Error**](https://msdn.microsoft.com/library/cc150671) object. However, if the job has failed because of some internal problem or because the job has been terminated by a client, then a **CIM\_Error** instance is returned.
+Retrieves the error object for the job, if one exists. When the job is executing or has terminated without error, then this method does not return a [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)) object. However, if the job has failed because of some internal problem or because the job has been terminated by a client, then a **CIM\_Error** instance is returned.
 
 ## Syntax
 
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 

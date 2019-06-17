@@ -24,7 +24,7 @@ Provides a property to control using a redirection server.
 
 ## Members
 
-The **IMsRdpPreferredRedirectionInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMsRdpPreferredRedirectionInfo** also has these types of members:
+The **IMsRdpPreferredRedirectionInfo** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpPreferredRedirectionInfo** also has these types of members:
 
 -   [Properties](#properties)
 

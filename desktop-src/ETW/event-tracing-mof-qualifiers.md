@@ -96,7 +96,7 @@ The following table lists the qualifiers you can specify on a property.
 </dd> <dt><span id="SizeT"></span><span id="sizet"></span><span id="SIZET"></span>SizeT</dt> <dd> Indicates that the property contains a pointer value. The size of the pointer value depends on the operating system used to log the event; the payload will contain a 4-byte value for 32-bit systems or an 8-byte value for 64-bit systems. The MOF data type must be <strong>object</strong>.<br/> Consumers should ignore the data type and <strong>Format</strong> qualifier if the property includes the <strong>SizeT</strong> extension. To determine the size of data to read for the property, use:
 <ul>
 <li>The <strong>PointerSize</strong> member of <a href="trace-logfile-header"><strong>TRACE_LOGFILE_HEADER</strong></a></li>
-<li>The <strong>Flags</strong> member of <a href="https://msdn.microsoft.com/en-us/library/Aa363759(v=VS.85).aspx"><strong>EVENT_HEADER</strong></a></li>
+<li>The <strong>Flags</strong> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header"><strong>EVENT_HEADER</strong></a></li>
 </ul>
 <br/> <strong>Prior to Windows Vista:</strong> The <strong>PointerSize</strong> value may not be accurate. For example, on a 64-bit computer, a 32-bit application will log 4-byte pointers; however, the session will set <strong>PointerSize</strong> to 8.<br/> </dd> <dt><span id="Variant"></span><span id="variant"></span><span id="VARIANT"></span>Variant</dt> <dd> The data represents a blob. The first four bytes (uint32) indicate the size of the blob. The MOF data type must be <strong>object</strong>. <br/> </dd> <dt><span id="WmiTime"></span><span id="wmitime"></span><span id="WMITIME"></span>WmiTime</dt> <dd> Translates the time stamp to system time. The MOF data type must be <strong>object</strong>. The payload is expected to be an unsigned 64-bit integer.<br/> <strong>Prior to Windows Vista:</strong> Not available.<br/> </dd> </dl></td>
 </tr>
@@ -138,7 +138,7 @@ The following table lists the qualifiers you can specify on a property.
 <p>Consumers should ignore the data type and <strong>Format</strong> qualifier if the property includes the <strong>SizeT</strong> extension. To determine the size of data to read for the property, use:</p>
 <ul>
 <li>The <strong>PointerSize</strong> member of <a href="trace-logfile-header"><strong>TRACE_LOGFILE_HEADER</strong></a></li>
-<li>The <strong>Flags</strong> member of <a href="https://msdn.microsoft.com/en-us/library/Aa363759(v=VS.85).aspx"><strong>EVENT_HEADER</strong></a></li>
+<li>The <strong>Flags</strong> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header"><strong>EVENT_HEADER</strong></a></li>
 </ul>
 <p><strong>Prior to Windows Vista:</strong> The <strong>PointerSize</strong> value may not be accurate. For example, on a 64-bit computer, a 32-bit application will log 4-byte pointers; however, the session will set <strong>PointerSize</strong> to 8.</p>
 <p>Note that some events use <strong>PointerType</strong> instead of <strong>Pointer</strong>; do not use <strong>PointerType</strong>.</p></td>

@@ -2,13 +2,14 @@
 title: Direct3D 12 Return Codes
 description: The following are return codes from API functions.
 ms.assetid: 5F6CC962-7DB7-489F-82A4-9388313014D3
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Direct3D 12 Return Codes
 
-The following are return codes from API functions. For more return codes, see [DXGI\_ERROR](https://msdn.microsoft.com/library/windows/desktop/bb509553).
+The following are return codes from API functions. For more return codes, see [DXGI\_ERROR](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
 
 
 

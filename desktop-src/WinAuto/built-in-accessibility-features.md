@@ -28,16 +28,16 @@ Win32 supports the following built-in accessibility features.
 
  
 
-The [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function provides the programming interface to the built-in accessibility features. This function is useful in Control Panel applications or other programs that allow the user to customize the environment. The **SystemParametersInfo** function can perform the following tasks:
+The [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function provides the programming interface to the built-in accessibility features. This function is useful in Control Panel applications or other programs that allow the user to customize the environment. The **SystemParametersInfo** function can perform the following tasks:
 
 -   Query the system to determine the availability and current state of a specified built-in accessibility feature.
 -   Enable a feature and specify parameters that control its behavior.
 -   Disable a feature.
 -   Enable a hot key that allows the user to enable or disable a feature.
 
-For each of the built-in features, Win32 defines a structure that applications use with [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) to query or set the parameters of the feature.
+For each of the built-in features, Win32 defines a structure that applications use with [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) to query or set the parameters of the feature.
 
-An application can use [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) to enable or disable a feature directly. For some of the features, **SystemParametersInfo** can enable a hot key or key combination so the user can toggle the state of a feature. There are no hot keys for the SerialKeys or SoundSentry features, or for the ShowSounds parameter. The following accessibility features have hot keys.
+An application can use [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) to enable or disable a feature directly. For some of the features, **SystemParametersInfo** can enable a hot key or key combination so the user can toggle the state of a feature. There are no hot keys for the SerialKeys or SoundSentry features, or for the ShowSounds parameter. The following accessibility features have hot keys.
 
 
 

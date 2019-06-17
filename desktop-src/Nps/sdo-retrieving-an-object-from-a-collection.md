@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Retrieving an Object from a Collection
 
-The following code retrieves the IP address of a client from a collection of clients. The variable pClientsCollection points to an [**ISdoCollection**](https://msdn.microsoft.com/library/bb960640) interface for the collection. See [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708) for information on how to retrieve the collection object.
+The following code retrieves the IP address of a client from a collection of clients. The variable pClientsCollection points to an [**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface for the collection. See [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) for information on how to retrieve the collection object.
 
 
 ```C++
@@ -53,10 +53,10 @@ The following code retrieves the IP address of a client from a collection of cli
 
 <dl> <dt>
 
-[**ISdoCollection::Item**](https://msdn.microsoft.com/library/bb960645)
+[**ISdoCollection::Item**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-item)
 </dt> <dt>
 
-[Retrieving a Collection](https://msdn.microsoft.com/library/bb960708)
+[Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
 [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx)

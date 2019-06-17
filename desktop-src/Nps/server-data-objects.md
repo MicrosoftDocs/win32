@@ -28,15 +28,15 @@ Developers can also call the SDO API from scripting languages such as VBScript. 
 
 ## In This Section
 
-[Overview](https://msdn.microsoft.com/library/bb892035)
+[Overview](https://docs.microsoft.com/windows/desktop/Nps/sdo-about-server-data-objects)
 
 General information about the Server Data Objects API.
 
-[Using](https://msdn.microsoft.com/library/bb960720)
+[Using](https://docs.microsoft.com/windows/desktop/Nps/sdo-using-server-data-objects)
 
 Sample code that demonstrates how to use the Server Data Objects API.
 
-[Reference](https://msdn.microsoft.com/library/bb960715)
+[Reference](https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference)
 
 Documentation of the enumerated types and interfaces that compose the Server Data Objects API.
 
@@ -47,7 +47,7 @@ Documentation of the enumerated types and interfaces that compose the Server Dat
 [Network Policy Server (Internet Authentication Service)](portal.md)
 </dt> <dt>
 
-[Remote Access Service](https://msdn.microsoft.com/library/windows/desktop/bb545679)
+[Remote Access Service](https://docs.microsoft.com/windows/desktop/RRAS/portal)
 </dt> </dl>
 
  

@@ -74,7 +74,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://msdn.microsoft.com/library/windows/desktop/aa375728).
+The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
 
 Before an application calls the **AddMonitor** function, all files required by the monitor must be copied to the SYSTEM32 directory.
 

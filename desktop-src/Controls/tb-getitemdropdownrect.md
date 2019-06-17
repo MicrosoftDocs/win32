@@ -32,7 +32,7 @@ The zero-based index of the toolbar control item for which to retrieve the bound
 </dd> <dt>
 
 *lParam* \[in, out\]
-</dt> <dd>A pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd162897">**RECT**</a> structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as client coordinates.</dd> </dl>
+</dt> <dd>A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)">**RECT**</a> structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as client coordinates.</dd> </dl>
 
 ## Return value
 

@@ -19,7 +19,7 @@ The relative distinguished name is the name defined by an object's naming attrib
 
 ## Distinguished Name
 
-The [*distinguished name*](https://msdn.microsoft.com/library/ms681901#-ds-distinguished-name) is the current name of the object and is contained in the **distinguishedName** attribute of the object. The distinguished name is a string that includes the location of the object and is formed by concatenating the relative distinguished name of the object and each of its ancestors all the way to root. For example, the distinguished name of the Users container in the Fabrikam.com domain would be "CN=Users,DC=Fabrikam,DC=com". Distinguished names are unique within a forest. An object's distinguished name changes when the object is moved or renamed.
+The [*distinguished name*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms681901(v=vs.85)) is the current name of the object and is contained in the **distinguishedName** attribute of the object. The distinguished name is a string that includes the location of the object and is formed by concatenating the relative distinguished name of the object and each of its ancestors all the way to root. For example, the distinguished name of the Users container in the Fabrikam.com domain would be "CN=Users,DC=Fabrikam,DC=com". Distinguished names are unique within a forest. An object's distinguished name changes when the object is moved or renamed.
 
 ## Object GUID
 

@@ -55,9 +55,9 @@ The following procedure describes how to issue a synchronous data query using C#
 
 **To issue a synchronous data query in C# (System.Management)**
 
-1.  Create the query with a [ManagementObjectSearcher](https://msdn.microsoft.com/library/system.management.managementobjectsearcher.aspx) object, and retrieve the information with a call to [ManagementObjectSearcher.Get](https://msdn.microsoft.com/library/67a77ef1.aspx).
+1.  Create the query with a [ManagementObjectSearcher](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher?redirectedfrom=MSDN) object, and retrieve the information with a call to [ManagementObjectSearcher.Get](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher.get?redirectedfrom=MSDN#System_Management_ManagementObjectSearcher_Get).
 
-    This method returns a [ManagementObjectCollection](https://msdn.microsoft.com/library/system.management.managementobjectcollection.aspx) object.
+    This method returns a [ManagementObjectCollection](https://docs.microsoft.com/dotnet/api/system.management.managementobjectcollection?redirectedfrom=MSDN) object.
 
     ```CSharp
     using System.Management;

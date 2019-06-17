@@ -97,7 +97,7 @@ typedef struct _DBL_LINK_NODE_TYPE
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://msdn.microsoft.com/library/windows/desktop/aa373540)
+[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [**in**](in.md)

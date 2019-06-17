@@ -18,14 +18,14 @@ The client specifies how the server impersonates the client when the client esta
 2.  The client calls [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) to obtain a new binding handle and to apply the quality-of-service information for the client.
 3.  The client makes remote procedure calls using the handle.
 
-Microsoft RPC supports Windows security features only on [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108) and [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115). Security options for other transports are ignored.
+Microsoft RPC supports Windows security features only on [**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np) and [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc). Security options for other transports are ignored.
 
-The client can associate the following security parameters to the binding for the named-pipe transport [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108) or [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115):
+The client can associate the following security parameters to the binding for the named-pipe transport [**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np) or [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc):
 
 -   Identification, Impersonation, or Anonymous. Specifies the type of security used. The default is Impersonation.
 -   Dynamic or Static. Determines whether security information associated with a thread is a copy of the security information created at the time the remote procedure call is made (static) or a pointer to the security information (dynamic).
 
-    Static security information does not change. The dynamic setting reflects the current security settings, including changes made after the remote procedure call is made. For [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108), the default for remote named pipe connections is static, for local named pipe connections the default is dynamic.
+    Static security information does not change. The dynamic setting reflects the current security settings, including changes made after the remote procedure call is made. For [**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np), the default for remote named pipe connections is static, for local named pipe connections the default is dynamic.
 
 -   **TRUE** or **FALSE**. Specifies the value of the effective-only flag. A value of **TRUE** indicates that only token privileges set to on at the time of the call are effective. A value of **FALSE** indicates that all privileges are available and that the application can modify them.
 
@@ -39,7 +39,7 @@ Any combination of these settings can be assigned to the binding, as shown in th
 
 Default security-parameter settings vary according to the transport protocol.
 
-For additional information about the syntax of the endpoint options, see [endpoint](https://msdn.microsoft.com/library/windows/desktop/aa366814).
+For additional information about the syntax of the endpoint options, see [endpoint](https://docs.microsoft.com/windows/desktop/Midl/endpoint).
 
  
 

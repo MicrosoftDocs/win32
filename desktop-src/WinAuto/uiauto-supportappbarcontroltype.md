@@ -144,10 +144,10 @@ The following table lists the UI Automation events that are especially relevant 
 **Reference**
 </dt> <dt>
 
-[**AppBar XAML control**](https://msdn.microsoft.com/library/windows/apps/hh701927)
+[**AppBar XAML control**](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.AppBar)
 </dt> <dt>
 
-[**WinJS.UI.AppBar object**](https://msdn.microsoft.com/library/windows/apps/br229670)
+[**WinJS.UI.AppBar object**](https://docs.microsoft.com/previous-versions/windows/apps/br229670(v=win.10))
 </dt> </dl>
 
  

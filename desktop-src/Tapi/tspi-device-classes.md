@@ -20,18 +20,18 @@ Following are the default device class names.
 
 | Device class name                                       | Description                                      |
 |---------------------------------------------------------|--------------------------------------------------|
-| [comm](https://msdn.microsoft.com/library/ms725177)                                       | Communications port                              |
-| [comm/datamodem](https://msdn.microsoft.com/library/ms725178)                   | Modem through a communications port              |
-| [comm/datamodem/portname](https://msdn.microsoft.com/library/ms725179) | Name of the device to which a modem is connected |
-| [wave/in](https://msdn.microsoft.com/library/ms725990)                                 | Wave audio device (input only)                   |
-| [wave/out](https://msdn.microsoft.com/library/ms725992)                               | Wave audio device (output only)                  |
-| [wave/in/out](https://msdn.microsoft.com/library/ms725991)                         | Wave audio device, full duplex                   |
-| [midi/in](https://msdn.microsoft.com/library/ms725244)                                 | MIDI sequencer (input only)                      |
-| [midi/out](https://msdn.microsoft.com/library/ms725245)                               | MIDI sequencer (output only)                     |
-| [tapi/line](https://msdn.microsoft.com/library/ms725511)                             | Line device                                      |
-| [tapi/phone](https://msdn.microsoft.com/library/ms725512)                           | Phone device                                     |
-| [ndis](https://msdn.microsoft.com/library/ms725247)                                       | Network device                                   |
-| [tapi/terminal](https://msdn.microsoft.com/library/ms725515)                     | Terminal device                                  |
+| [comm](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725177(v=vs.85))                                       | Communications port                              |
+| [comm/datamodem](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725178(v=vs.85))                   | Modem through a communications port              |
+| [comm/datamodem/portname](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725179(v=vs.85)) | Name of the device to which a modem is connected |
+| [wave/in](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725990(v=vs.85))                                 | Wave audio device (input only)                   |
+| [wave/out](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725992(v=vs.85))                               | Wave audio device (output only)                  |
+| [wave/in/out](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725991(v=vs.85))                         | Wave audio device, full duplex                   |
+| [midi/in](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725244(v=vs.85))                                 | MIDI sequencer (input only)                      |
+| [midi/out](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725245(v=vs.85))                               | MIDI sequencer (output only)                     |
+| [tapi/line](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725511(v=vs.85))                             | Line device                                      |
+| [tapi/phone](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725512(v=vs.85))                           | Phone device                                     |
+| [ndis](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725247(v=vs.85))                                       | Network device                                   |
+| [tapi/terminal](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725515(v=vs.85))                     | Terminal device                                  |
 
 
 

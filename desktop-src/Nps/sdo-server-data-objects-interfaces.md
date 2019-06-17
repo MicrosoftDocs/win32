@@ -26,23 +26,23 @@ The Server Data Objects (SDO) API exposes the following interfaces.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/bb960639"><strong>ISdo</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo"><strong>ISdo</strong></a></td>
 <td>Manipulate an SDO object.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/bb960640"><strong>ISdoCollection</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection"><strong>ISdoCollection</strong></a></td>
 <td>Manipulate a collection of SDO objects.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/bb960649"><strong>ISdoDictionaryOld</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold"><strong>ISdoDictionaryOld</strong></a></td>
 <td>Manipulate the attribute dictionary.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/bb960655"><strong>ISdoMachine</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine"><strong>ISdoMachine</strong></a></td>
 <td>Manage the SDO computer, and retrieve SDO objects.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/bb960664"><strong>ISdoServiceControl</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol"><strong>ISdoServiceControl</strong></a></td>
 <td>Manage the service being administered through SDO, that is, either Internet Authentication Service (IAS) or Remote Access Server (RAS).<br/>
 <blockquote>
 [!Note]<br />

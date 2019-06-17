@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following information structures are for the IPX transport. The structures **IPX\_TRAFFIC\_FILTER\_INFO** and **IPX\_TRAFFIC\_FILTER\_GLOBAL\_INFO** are defined in Ipxtfflt.h. The remaining structures are defined in Ipxrtdef.h.
 
 -   [**IPX\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipx_if_info)
--   [**IPX\_STATIC\_SERVICE\_INFO**](https://msdn.microsoft.com/library/windows/desktop/aa374456)
+-   [**IPX\_STATIC\_SERVICE\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85))
 -   [**IPXWAN\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipxwan_if_info)
 
  

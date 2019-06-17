@@ -10,7 +10,7 @@ ms.date: 08/31/2018
 
 MEDeviceStreamCreated is an extended media event type generated with an MEUnknown media event by the Device MFT.
 
-This extended media event type has no payload.  Appropriate HRESULT should be provided via the [**IMFMediaEvent::GetStatus**](https://msdn.microsoft.com/e2fc6c81-11c0-4947-b647-3e74a73ee5a2) method.
+This extended media event type has no payload.  Appropriate HRESULT should be provided via the [**IMFMediaEvent::GetStatus**](https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getstatus) method.
 
 
 

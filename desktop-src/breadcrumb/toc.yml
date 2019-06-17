@@ -5,7 +5,3 @@
   - name: Windows
     tocHref: /windows/
     topicHref: /windows/
-    items:
-      - name: Desktop
-        tocHref: /windows/desktop/
-        topicHref: "/windows/desktop/index"

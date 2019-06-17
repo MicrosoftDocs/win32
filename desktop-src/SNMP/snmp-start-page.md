@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SNMP Service
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://msdn.microsoft.com/library/aa384426), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 ## Purpose
 
@@ -57,13 +57,13 @@ For more information about the operating system required to use a particular fun
 
 <dl> <dt>
 
-[Dynamic Host Configuration Protocol (DHCP)](https://msdn.microsoft.com/library/windows/desktop/aa363383)
+[Dynamic Host Configuration Protocol (DHCP)](https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-start-page)
 </dt> <dt>
 
-[Network Management](https://msdn.microsoft.com/library/windows/desktop/aa370672)
+[Network Management](https://docs.microsoft.com/windows/desktop/NetMgmt/network-management)
 </dt> <dt>
 
-[Routing and Remote Access Service](https://msdn.microsoft.com/library/windows/desktop/bb545679)
+[Routing and Remote Access Service](https://docs.microsoft.com/windows/desktop/RRAS/portal)
 </dt> </dl>
 
  

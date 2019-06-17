@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent when a button receives the keyboard focus. The button must have the [**BS\_NOTIFY**](button-styles.md) style to send this notification code.
 
-The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
+The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -39,7 +39,7 @@ BN_SETFOCUS
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) contains the button's control identifier. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the notification code.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the button's control identifier. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 

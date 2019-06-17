@@ -24,7 +24,7 @@ The following topics are discussed in this section:
 
 <dl> <dt>
 
-[MI Reference](https://msdn.microsoft.com/library/jj152384)
+[MI Reference](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/wmi-reference)
 </dt> </dl>
 
  

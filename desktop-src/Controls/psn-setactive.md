@@ -53,7 +53,7 @@ The PSN\_SETACTIVE notification code is sent before the page is visible. An appl
 
  
 
-To set the return value, the dialog box procedure for the page must use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function with the DWL\_MSGRESULT value, and the dialog box procedure must return **TRUE**.
+To set the return value, the dialog box procedure for the page must use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value, and the dialog box procedure must return **TRUE**.
 
 ## Requirements
 

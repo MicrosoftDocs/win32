@@ -36,7 +36,7 @@ void InterlockedXor(
 *dest* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The destination address.
 
@@ -45,7 +45,7 @@ The destination address.
 *value* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The input value.
 
@@ -54,7 +54,7 @@ The input value.
 *original\_value* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The original value.
 

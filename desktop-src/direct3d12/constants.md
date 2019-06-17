@@ -12,6 +12,7 @@ api_location:
 - D3D12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

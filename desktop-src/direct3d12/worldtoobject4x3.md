@@ -2,6 +2,7 @@
 Description: A matrix for transforming from world-space to object-space.
 ms.assetid: 
 title: WorldToObject4x3
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

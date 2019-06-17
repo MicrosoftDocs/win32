@@ -22,7 +22,7 @@ The **IPortableDeviceValuesCollection** interface holds a collection of zero-bas
 
 ## Members
 
-The **IPortableDeviceValuesCollection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPortableDeviceValuesCollection** also has these types of members:
+The **IPortableDeviceValuesCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPortableDeviceValuesCollection** also has these types of members:
 
 -   [Methods](#methods)
 

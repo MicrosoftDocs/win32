@@ -17,7 +17,7 @@ api_location:
 
 # WpdParameterAttributeForm enumeration
 
-The [**WpdParameterAttributeForm**](https://msdn.microsoft.com/library/windows/hardware/ff597895) enumeration type describes how a (method or event) parameter stores its value.
+The [**WpdParameterAttributeForm**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597895(v=vs.85)) enumeration type describes how a (method or event) parameter stores its value.
 
 ## Syntax
 

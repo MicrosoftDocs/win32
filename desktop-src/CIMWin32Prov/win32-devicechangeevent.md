@@ -21,7 +21,7 @@ api_location:
 
 # Win32\_DeviceChangeEvent class
 
-The **Win32\_DeviceChangeEvent** abstract [WMI class](https://msdn.microsoft.com/library/aa393244) represents device change events that result from the addition, removal, or modification of devices on the computer system. This includes changes in the hardware configuration (docking and undocking), the hardware state, or newly mapped devices (mapping of a network drive). For example, a device has changed when a WM\_DEVICECHANGE message is sent.
+The **Win32\_DeviceChangeEvent** abstract [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) represents device change events that result from the addition, removal, or modification of devices on the computer system. This includes changes in the hardware configuration (docking and undocking), the hardware state, or newly mapped devices (mapping of a network drive). For example, a device has changed when a WM\_DEVICECHANGE message is sent.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -58,7 +58,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32APIDevice Management Messages\|WM\_DEVICECHANGE\|wParam", "Win32APIDevice Management Messages\|WM\_SETTINGCHANGE")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32APIDevice Management Messages\|WM\_DEVICECHANGE\|wParam", "Win32APIDevice Management Messages\|WM\_SETTINGCHANGE")
 </dt> </dl>
 
 Type of event change notification that has occurred.
@@ -104,7 +104,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/library/aa394634). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/library/aa394576).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-constants).
 
 </dd> <dt>
 
@@ -119,15 +119,15 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format.
 
-This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/library/aa394634).
+This property is inherited from [**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
 ## Remarks
 
-The **Win32\_DeviceChangeEvent** is an abstract class derived from [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/aa394646).
+The **Win32\_DeviceChangeEvent** is an abstract class derived from [**\_\_ExtrinsicEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extrinsicevent).
 
 ## Requirements
 
@@ -147,10 +147,10 @@ The **Win32\_DeviceChangeEvent** is an abstract class derived from [**\_\_Extrin
 
 <dl> <dt>
 
-[**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/aa394646)
+[**\_\_ExtrinsicEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extrinsicevent)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

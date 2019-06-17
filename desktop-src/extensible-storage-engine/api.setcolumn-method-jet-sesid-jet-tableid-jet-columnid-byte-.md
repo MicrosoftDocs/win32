@@ -80,7 +80,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y)  
+    Type: [System.Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN)  
     
     The data to set.
 

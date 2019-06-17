@@ -18,9 +18,9 @@ api_location:
 
 # Create method of the Win32\_ScheduledJob class
 
-The **Create** [WMI class](https://msdn.microsoft.com/library/aa393244) method submits a job to an operating system for execution at a specified time and date in the future. This method requires that the schedule service be started on the computer to which the job is submitted.
+The **Create** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method submits a job to an operating system for execution at a specified time and date in the future. This method requires that the schedule service be started on the computer to which the job is submitted.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -488,7 +488,7 @@ Identifier number of a job. This parameter is a handle to a job being scheduled 
 
 ## Return value
 
-Returns a value of 0 (zero) when successful, and a different number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns a value of 0 (zero) when successful, and a different number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -584,7 +584,7 @@ If your scheduled job starts an interactive program such as Notepad, then the **
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_ScheduledJob**](win32-scheduledjob.md)

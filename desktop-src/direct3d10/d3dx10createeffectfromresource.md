@@ -52,7 +52,7 @@ HRESULT D3DX10CreateEffectFromResource(
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](https://msdn.microsoft.com/en-us/library/ms683199.aspx).
+A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 

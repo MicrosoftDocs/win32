@@ -26,7 +26,7 @@ Not used. Formerly a request for pipeline stages data.
 
 ## Members
 
-The **IPipeLineStagesRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPipeLineStagesRequest** also has these types of members:
+The **IPipeLineStagesRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPipeLineStagesRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IPipeLineStagesRequest** interface inherits from the [**IUnknown**](https:
 
 The **IPipeLineStagesRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432732"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get preview images for the graphics pipeline stages window.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432733"><strong>RequestSupportedStagesAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get a list of stages used for the specified frame and event.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipipelinestagesrequest-requestasync-eventid-dword-pipelinestagesid-arr-dword-dword-ipipelinestagescallback-ptr-bool-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get preview images for the graphics pipeline stages window.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipipelinestagesrequest-requestsupportedstagesasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword"><strong>RequestSupportedStagesAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get a list of stages used for the specified frame and event.</p></td></tr></tbody></table>
 
  
 

@@ -89,7 +89,7 @@ The following table describes the types of affine 2D transforms supported by Dir
 
 ## Matrix 2D transforms
 
-The [**IDCompositionMatrixTransform**](https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx) interface enables you to define your own 3-by-2 affine 2D transform matrix and apply it to a visual. This interface is useful if you need to apply a type of affine 2D transform that is not available through the other DirectComposition transform interfaces. You define the matrix by filling a [**D2D\_MATRIX\_3X2\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368178) structure and passing it to the [**IDCompositionMatrixTransform::SetMatrix**](https://msdn.microsoft.com/en-us/library/Hh437430(v=VS.85).aspx) method.
+The [**IDCompositionMatrixTransform**](https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx) interface enables you to define your own 3-by-2 affine 2D transform matrix and apply it to a visual. This interface is useful if you need to apply a type of affine 2D transform that is not available through the other DirectComposition transform interfaces. You define the matrix by filling a [**D2D\_MATRIX\_3X2\_F**](https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure and passing it to the [**IDCompositionMatrixTransform::SetMatrix**](https://msdn.microsoft.com/en-us/library/Hh437430(v=VS.85).aspx) method.
 
 ## Transform Groups
 

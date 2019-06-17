@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324) API.
+> Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the [**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile) API.
 
  
 
@@ -61,7 +61,7 @@ HRESULT D3DX11CompileFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to the shader in memory.
 
@@ -70,7 +70,7 @@ Pointer to the shader in memory.
 *SrcDataLen* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Size of the shader in memory.
 
@@ -79,7 +79,7 @@ Size of the shader in memory.
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The name of the file that contains the shader code.
 
@@ -88,16 +88,16 @@ The name of the file that contains the shader code.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/windows/desktop/bb172436)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro)\***
 
-Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/windows/desktop/bb172436)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
+Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/windows/desktop/bb173775)**
+Type: **[**LPD3D10INCLUDE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
 Optional. Pointer to an interface for handling include files. Setting this to **NULL** will cause a compile error if a shader contains a \#include.
 
@@ -106,7 +106,7 @@ Optional. Pointer to an interface for handling include files. Setting this to **
 *pFunctionName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Name of the shader-entry point function where shader execution begins. When you compile an effect, **D3DX11CompileFromMemory** ignores *pFunctionName*; we recommend that you set *pFunctionName* to **NULL** because it is good programming practice to set a pointer parameter to **NULL** if the called function will not use it.
 
@@ -115,7 +115,7 @@ Name of the shader-entry point function where shader execution begins. When you 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A string that specifies the shader model; can be any profile in shader model 2, shader model 3, shader model 4, or shader model 5. The profile can also be for effect type (for example, fx\_4\_1).
 
@@ -124,18 +124,18 @@ A string that specifies the shader model; can be any profile in shader model 2, 
 *Flags1* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Shader [**compile flags**](https://msdn.microsoft.com/library/windows/desktop/gg615083).
+Shader [**compile flags**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-constants).
 
 </dd> <dt>
 
 *Flags2* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Effect [**compile flags**](https://msdn.microsoft.com/library/windows/desktop/gg615084). When you compile a shader and not an effect file, **D3DX11CompileFromMemory** ignores *Flags2*; we recommend that you set *Flags2* to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
+Effect [**compile flags**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-effect-constants). When you compile a shader and not an effect file, **D3DX11CompileFromMemory** ignores *Flags2*; we recommend that you set *Flags2* to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
 
 </dd> <dt>
 
@@ -151,7 +151,7 @@ A pointer to a thread pump interface (see [**ID3DX11ThreadPump Interface**](id3d
 *ppShader* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\*\***
+Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 A pointer to memory which contains the compiled shader, as well as any embedded debug and symbol-table information.
 
@@ -160,7 +160,7 @@ A pointer to memory which contains the compiled shader, as well as any embedded 
 *ppErrorMsgs* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\*\***
+Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 A pointer to memory which contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
 
@@ -185,7 +185,7 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 
 ## Remarks
 
-For more information about **D3DX11CompileFromMemory**, see [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324).
+For more information about **D3DX11CompileFromMemory**, see [**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile).
 
 You must supply **NULL** to the *pHResult* parameter if you also supply **NULL** to the *pPump* parameter. Otherwise, you cannot subsequently create a shader by using the compiled shader code that **D3DX11CompileFromMemory** returns in the memory that the *ppShader* parameter points to. To create a shader from complied shader code, you call one of the following [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3d11-id3d11device) interface methods:
 

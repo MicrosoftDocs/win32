@@ -27,7 +27,7 @@ Following are the four basic types of COM+ applications:
 
 As of Windows Server 2003, it is possible to run COM+ applications even if the System Application is disabled. The COM+ applications will run, though without the services usually provided by the System Application. These services include use of the Component Services administrative tool and system event tracking.
 
-Also as of Windows Server 2003, the authentication capability for the COM+ System Application includes the value EOAC\_DISABLE\_AAA. This value, which disables activate-as-activator (AAA) activations, is used with the [**CoInitializeSecurity**](https://msdn.microsoft.com/library/windows/desktop/ms693736) function when launching the System Application. Setting the authentication capability to EOAC\_DISABLE\_AAA allows an application that runs under a privileged account (such as LocalSystem) to help prevent its identity from being used to launch untrusted components.
+Also as of Windows Server 2003, the authentication capability for the COM+ System Application includes the value EOAC\_DISABLE\_AAA. This value, which disables activate-as-activator (AAA) activations, is used with the [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function when launching the System Application. Setting the authentication capability to EOAC\_DISABLE\_AAA allows an application that runs under a privileged account (such as LocalSystem) to help prevent its identity from being used to launch untrusted components.
 
  
 

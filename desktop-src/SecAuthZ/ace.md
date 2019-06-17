@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ACE
 
-An **ACE** is an [*access control entry*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) in an [*access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACL).
+An **ACE** is an [*access control entry*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) in an [*access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACL).
 
 The following table lists the currently defined **ACE** types.
 
@@ -121,7 +121,7 @@ The following table lists the currently defined **ACE** types.
 <li>System alarm</li>
 <li>Object specific</li>
 </ul></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/Aa379615(v=VS.85).aspx"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="odd">

@@ -28,15 +28,15 @@ Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) s
 
 ## Remarks
 
-To write to a Direct3D surface, you obtain an [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx) and pass it to the **CreateDxgiSurfaceRenderTarget** method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.
+To write to a Direct3D surface, you obtain an [IDXGISurface](https://msdn.microsoft.com/library/bb174565(VS.85).aspx) and pass it to the **CreateDxgiSurfaceRenderTarget** method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.
 
 A DXGI surface render target is a type of [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx). Like other Direct2D render targets, you can use it to create resources and issue drawing commands.
 
-The DXGI surface render target and the DXGI surface must use the same DXGI format. If you specify the [DXGI\_FORMAT\_UNKOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format when you create the render target, it will automatically use the surface's format.
+The DXGI surface render target and the DXGI surface must use the same DXGI format. If you specify the [DXGI\_FORMAT\_UNKOWN](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) format when you create the render target, it will automatically use the surface's format.
 
 The DXGI surface render target does not perform DXGI surface synchronization.
 
-To work with Direct2D, the Direct3D device that provides the [IDXGISurface](http://msdn.microsoft.com/library/bb174565(VS.85).aspx) must be created with the **D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT** flag.
+To work with Direct2D, the Direct3D device that provides the [IDXGISurface](https://msdn.microsoft.com/library/bb174565(VS.85).aspx) must be created with the **D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT** flag.
 
 For more information about creating and using DXGI surface render targets, see the [Direct2D and Direct3D Interoperability Overview](direct2d-and-direct3d-interoperation-overview.md).
 
@@ -44,7 +44,7 @@ When you create a render target and hardware acceleration is available, you allo
 
 ## Examples
 
-The following example obtains a DXGI surface (*pBackBuffer*) from an [IDXGISwapChain](http://msdn.microsoft.com/library/bb174569(VS.85).aspx) and uses it to create a DXGI surface render target.
+The following example obtains a DXGI surface (*pBackBuffer*) from an [IDXGISwapChain](https://msdn.microsoft.com/library/bb174569(VS.85).aspx) and uses it to create a DXGI surface render target.
 
 
 ```C++

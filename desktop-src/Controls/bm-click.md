@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # BM\_CLICK message
 
-Simulates the user clicking a button. This message causes the button to receive the [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) and [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) messages, and the button's parent window to receive a [BN\_CLICKED](bn-clicked.md) notification code.
+Simulates the user clicking a button. This message causes the button to receive the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) and [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) messages, and the button's parent window to receive a [BN\_CLICKED](bn-clicked.md) notification code.
 
 ## Parameters
 
@@ -44,7 +44,7 @@ This message does not return a value.
 
 ## Remarks
 
-If the button is in a dialog box and the dialog box is not active, the **BM\_CLICK** message might fail. To ensure success in this situation, call the [**SetActiveWindow**](https://msdn.microsoft.com/library/windows/desktop/ms646311) function to activate the dialog box before sending the **BM\_CLICK** message to the button.
+If the button is in a dialog box and the dialog box is not active, the **BM\_CLICK** message might fail. To ensure success in this situation, call the [**SetActiveWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setactivewindow) function to activate the dialog box before sending the **BM\_CLICK** message to the button.
 
 ## Requirements
 

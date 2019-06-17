@@ -50,7 +50,7 @@ The following code attaches to the local computer as an SDO computer.
 
 Attaching to a computer as an SDO computer is the first step in administering the computer through SDO.
 
-For more information, see [**ISdoMachine**](https://msdn.microsoft.com/library/bb960655), [**ISdoMachine::Attach**](https://msdn.microsoft.com/library/bb960656).
+For more information, see [**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine), [**ISdoMachine::Attach**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach).
 
  
 

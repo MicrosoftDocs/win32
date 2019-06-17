@@ -53,7 +53,7 @@ Microsoft RPC supports the following protocol sequences.
 
 ## Remarks
 
-The [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115) transport supports RPC\_C\_AUTHN\_WINNT authentication only. For more information, see [Security](security.md) and [Authentication-Service Constants](authentication-service-constants.md).
+The [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc) transport supports RPC\_C\_AUTHN\_WINNT authentication only. For more information, see [Security](security.md) and [Authentication-Service Constants](authentication-service-constants.md).
 
 Microsoft RPC supports [**RpcBindingCopy**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingcopy) only in client applications, not in server applications.
 

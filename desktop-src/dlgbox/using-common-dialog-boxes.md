@@ -62,7 +62,7 @@ This topic describes sample code that displays a **Font** dialog box so that a u
 
 This example sets the **CF\_SCREENFONTS** flag to specify that the dialog box should display only screen fonts. It sets the **CF\_EFFECTS** flag to display controls that allow the user to select strikeout, underline, and color options.
 
-If [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns **TRUE**, indicating that the user clicked the **OK** button, the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure contains information that describes the font and font attributes selected by the user, including the members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure pointed to by the **lpLogFont** member. The **rgbColors** member contains the selected text color. The sample code uses this information to set the font and text color for the device context associated with the owner window.
+If [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns **TRUE**, indicating that the user clicked the **OK** button, the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure contains information that describes the font and font attributes selected by the user, including the members of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure pointed to by the **lpLogFont** member. The **rgbColors** member contains the selected text color. The sample code uses this information to set the font and text color for the device context associated with the owner window.
 
 
 ```
@@ -201,7 +201,7 @@ The sample code sets the **PD\_RETURNDC** flag in the **Flags** member of the [*
 
 On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **S\_OK**, these members return handles to [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
-After the printing operation has been completed, the sample code frees the [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565), [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames), and [**PRINTPAGERANGE**](/windows/desktop/api/Commdlg/ns-commdlg-tagprintpagerange) buffers and calls the [**DeleteDC**](https://msdn.microsoft.com/library/windows/desktop/dd183533) function to delete the device context.
+After the printing operation has been completed, the sample code frees the [**DEVMODE**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea), [**DEVNAMES**](/windows/desktop/api/Commdlg/ns-commdlg-tagdevnames), and [**PRINTPAGERANGE**](/windows/desktop/api/Commdlg/ns-commdlg-tagprintpagerange) buffers and calls the [**DeleteDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc) function to delete the device context.
 
 
 ```
@@ -355,7 +355,7 @@ To use the **Find** or **Replace** dialog box, you must perform three separate t
 2.  Display the dialog box.
 3.  Process [**FINDMSGSTRING**](findmsgstring.md) messages when the dialog box is open.
 
-When you initialize your application, call the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get a message identifier for the [**FINDMSGSTRING**](findmsgstring.md) registered message.
+When you initialize your application, call the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get a message identifier for the [**FINDMSGSTRING**](findmsgstring.md) registered message.
 
 
 ```

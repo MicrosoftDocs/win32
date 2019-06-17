@@ -17,7 +17,7 @@ If you run WMI Server Explorer in another instance then Visual Studio IDE does n
 
 To make your provider load in its own host process, modify the provider registration to set the [**\_\_Win32Provider.HostingModel**](--win32provider.md) property to `NetworkServiceHost:[MyProvider]` where MyProvider can be any string that uniquely identifies your provider. For example, use the **\_\_Win32Provider.ClsId** value. When your provider is ready to ship, return **\_\_Win32Provider.HostingModel** to the intended value, such as **NetworkServiceHost**.
 
-If you are not debugging provider loading, you can call the [**Load method of the MSFT\_Providers class**](https://msdn.microsoft.com/library/aa392266) to force your provider to load, then attach to the Wmiprvse.exe process that has the DLL loaded, and debug as needed.
+If you are not debugging provider loading, you can call the [**Load method of the MSFT\_Providers class**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/load-method-in-class-msft-providers) to force your provider to load, then attach to the Wmiprvse.exe process that has the DLL loaded, and debug as needed.
 
 ## Related topics
 

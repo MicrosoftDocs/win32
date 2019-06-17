@@ -17,10 +17,10 @@ The following procedure shows how to set an ACE that can be inherited only by a 
 
  **To set an ACE that can be inherited only by a specific class of objects**
 
-1.  Set the [**IADsAccessControlEntry.AceType**](https://msdn.microsoft.com/library/aa705952) property to **ADS\_ACETYPE\_ACCESS\_ALLOWED\_OBJECT** or **ADS\_ACETYPE\_ACCESS\_DENIED\_OBJECT**.
-2.  Set the [**IADsAccessControlEntry.AceFlags**](https://msdn.microsoft.com/library/aa705952) property to include the ADS\_ACEFLAG\_INHERIT\_ACE flag.
-3.  Set the [**IADsAccessControlEntry.InheritedObjectType**](https://msdn.microsoft.com/library/aa705952) property to the **schemaIDGUID** of the object class that can inherit the ACE.
-4.  Set the [**IADsAccessControlEntry.Flags**](https://msdn.microsoft.com/library/aa705952) property to **ADS\_FLAG\_INHERITED OBJECT\_TYPE\_PRESENT**.
+1.  Set the [**IADsAccessControlEntry.AceType**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to **ADS\_ACETYPE\_ACCESS\_ALLOWED\_OBJECT** or **ADS\_ACETYPE\_ACCESS\_DENIED\_OBJECT**.
+2.  Set the [**IADsAccessControlEntry.AceFlags**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to include the ADS\_ACEFLAG\_INHERIT\_ACE flag.
+3.  Set the [**IADsAccessControlEntry.InheritedObjectType**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to the **schemaIDGUID** of the object class that can inherit the ACE.
+4.  Set the [**IADsAccessControlEntry.Flags**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to **ADS\_FLAG\_INHERITED OBJECT\_TYPE\_PRESENT**.
 
 > [!IMPORTANT]
 > Set **ADS\_ACEFLAG\_INHERIT\_ACE** to cause the ACE to be inherited. In addition, you must set **ADS\_ACEFLAG\_INHERIT\_ONLY\_ACE** if the object type this ACE applies to does not match the object type of the container where the ACE is specified. If this is not done, the ACE will also become effective on the container and can grant unintended rights.

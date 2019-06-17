@@ -2,19 +2,20 @@
 title: Capability querying
 description: Your application can discover the level of support for resource binding, and many other features, with a call to ID3D12Device\:\:CheckFeatureSupport.
 ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
-ms.topic: article
 ms.date: 11/26/2018
+ms.localizationpriority: high
+ms.topic: article
 ---
 
 # Capability querying
 
-Your application can discover the level of support for resource binding (as well as the level of support for many other features), with a call to [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-checkfeaturesupport).
+Your application can discover the level of support for resource binding (as well as the level of support for many other features), with a call to [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport).
 
 ## How to query for the resource binding tier
 
 This first example focuses on resource binding. Each resource binding tier is a superset of lower tiers in functionality, so code that works on a given tier works unchanged on any higher tier.
 
-The resource binding tiers are constants in the [**D3D12_RESOURCE_BINDING_TIER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_binding_tier) enumeration.
+The resource binding tiers are constants in the [**D3D12_RESOURCE_BINDING_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_binding_tier) enumeration.
 
 To query for the resource binding tier, use code such as this. This code example demonstrates the general pattern for querying for any of the various kinds of feature support.
 
@@ -49,7 +50,7 @@ Note that any enumerated constant that you pass ([**D3D12_FEATURE_D3D12_OPTIONS*
 
 ## How to query for any feature level
 
-As well as the resource binding tier, there are many other features whose level of support you can query for using the same pattern shown in the code example above. You just pass a different constant from the [**D3D12_FEATURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature) enumeration to [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-checkfeaturesupport) (to tell the API what feature to request support information on), and you pass a pointer to an instance of the matching structure (in which to receive the requested info).
+As well as the resource binding tier, there are many other features whose level of support you can query for using the same pattern shown in the code example above. You just pass a different constant from the [**D3D12_FEATURE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature) enumeration to [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) (to tell the API what feature to request support information on), and you pass a pointer to an instance of the matching structure (in which to receive the requested info).
 
 - Pass **D3D12_FEATURE_ARCHITECTURE** and [**D3D12_FEATURE_DATA_ARCHITECTURE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture).
 - Pass **D3D12_FEATURE_ARCHITECTURE1** and [**D3D12_FEATURE_DATA_ARCHITECTURE1**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture1).
@@ -77,13 +78,13 @@ As well as the resource binding tier, there are many other features whose level 
 
 To view tables of DXGI formats and hardware features, refer to these topics.
 
-- [DXGI Format Support for Direct3D Feature Level 12.1 Hardware](https://msdn.microsoft.com/library/windows/desktop/mt426648)
-- [DXGI Format Support for Direct3D Feature Level 12.0 Hardware](https://msdn.microsoft.com/library/windows/desktop/mt426647)
-- [DXGI Format Support for Direct3D Feature Level 11.1 Hardware](https://msdn.microsoft.com/library/windows/desktop/mt427456)
-- [DXGI Format Support for Direct3D Feature Level 11.0 Hardware](https://msdn.microsoft.com/library/windows/desktop/mt427455)
-- [Hardware Support for Direct3D 10Level9 Formats](https://msdn.microsoft.com/library/windows/desktop/ff471324)
-- [Hardware Support for Direct3D 10.1 Formats](https://msdn.microsoft.com/library/windows/desktop/cc627091)
-- [Hardware Support for Direct3D 10 Formats](https://msdn.microsoft.com/library/windows/desktop/cc627090)
+- [DXGI Format Support for Direct3D Feature Level 12.1 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-1-formats)
+- [DXGI Format Support for Direct3D Feature Level 12.0 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-0-formats)
+- [DXGI Format Support for Direct3D Feature Level 11.1 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-1-feature-level-hardware)
+- [DXGI Format Support for Direct3D Feature Level 11.0 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-0-feature-level-hardware)
+- [Hardware Support for Direct3D 10Level9 Formats](https://docs.microsoft.com/previous-versions//ff471324(v=vs.85))
+- [Hardware Support for Direct3D 10.1 Formats](https://docs.microsoft.com/previous-versions//cc627091(v=vs.85))
+- [Hardware Support for Direct3D 10 Formats](https://docs.microsoft.com/previous-versions//cc627090(v=vs.85))
 
 ## Related topics
 

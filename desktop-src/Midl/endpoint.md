@@ -29,7 +29,7 @@ endpoint("protocol-sequence:[endpoint-port]" [ , ...] )
 *protocol-sequence* 
 </dt> <dd>
 
-Specifies a character string that represents a valid combination of an RPC protocol (such as "ncacn"), a transport protocol (such as "tcp"), and a network protocol (such as "ip"). For a list of valid protocol sequences, see [Protocol Sequence Constants](https://msdn.microsoft.com/library/windows/desktop/aa374395).
+Specifies a character string that represents a valid combination of an RPC protocol (such as "ncacn"), a transport protocol (such as "tcp"), and a network protocol (such as "ip"). For a list of valid protocol sequences, see [Protocol Sequence Constants](https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants).
 
 </dd> <dt>
 
@@ -49,13 +49,13 @@ The **\[endpoint\]** attribute specifies a transport family such as the TCP/IP c
 
  
 
-The *protocol-sequence* value determines the valid values for the *endpoint-port*. The MIDL compiler checks only general syntax for the *endpoint-port* entry. Port specification errors are reported by the run-time libraries. For information about the allowed values for each protocol sequence, see the [Protocol Sequence Constants](https://msdn.microsoft.com/library/windows/desktop/aa374395).
+The *protocol-sequence* value determines the valid values for the *endpoint-port*. The MIDL compiler checks only general syntax for the *endpoint-port* entry. Port specification errors are reported by the run-time libraries. For information about the allowed values for each protocol sequence, see the [Protocol Sequence Constants](https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants).
 
 The following protocol sequences specified by DCE are not supported by the MIDL compiler provided with Microsoft RPC: **ncacn\_osi\_dna** and **ncadg\_dds**.
 
 Make sure that you correctly quote backslash characters in endpoints. This error commonly occurs when the endpoint is a named pipe.
 
-Endpoint information specified in the IDL file is used by the RPC run-time functions [**RpcServerUseProtseqIf**](https://msdn.microsoft.com/library/windows/desktop/aa378456) and [**RpcServerUseAllProtseqsIf**](https://msdn.microsoft.com/library/windows/desktop/aa378450).
+Endpoint information specified in the IDL file is used by the RPC run-time functions [**RpcServerUseProtseqIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif) and [**RpcServerUseAllProtseqsIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsif).
 
 ## Examples
 
@@ -72,10 +72,10 @@ endpoint("ncacn_ip_tcp:[1044]", "ncacn_np:[\\pipe\\shasta]")
 [Interface Definition (IDL) File](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**RpcServerUseAllProtseqsIf**](https://msdn.microsoft.com/library/windows/desktop/aa378450)
+[**RpcServerUseAllProtseqsIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsif)
 </dt> <dt>
 
-[**RpcServerUseProtseqIf**](https://msdn.microsoft.com/library/windows/desktop/aa378456)
+[**RpcServerUseProtseqIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif)
 </dt> </dl>
 
  

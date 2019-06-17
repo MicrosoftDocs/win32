@@ -49,7 +49,7 @@ The texture coordinates.
 *sampleindex* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The sample index.
 
@@ -69,7 +69,7 @@ An offset applied to the texture coordinates before loading.
 
 Type: **uint**
 
-The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://msdn.microsoft.com/library/windows/desktop/dn312084#tile). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
+The status of the operation. You can't access the status directly; instead, pass the status to the [**CheckAccessFullyMapped**](checkaccessfullymapped.md) intrinsic function. **CheckAccessFullyMapped** returns **TRUE** if all values from the corresponding **Sample**, **Gather**, or **Load** operation accessed mapped tiles in a [tiled resource](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-2-features). If any values were taken from an unmapped tile, **CheckAccessFullyMapped** returns **FALSE**.
 
 </dd> </dl>
 

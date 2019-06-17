@@ -89,7 +89,7 @@ public static Nullable<DateTime> RetrieveColumnAsDateTime(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a datetime. Null if the column is null.  
 
 ## See also

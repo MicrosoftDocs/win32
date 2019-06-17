@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 -   [**DllMain**](dllmain.md)
 -   [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa)
--   [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425)
+-   [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa)
 
 Creating DLLs presents a number of challenges for developers. DLLs do not have system-enforced versioning. When multiple versions of a DLL exist on a system, the ease of being overwritten coupled with the lack of a versioning schema creates dependency and API conflicts. Complexity in the development environment, the loader implementation, and the DLL dependencies has created fragility in load order and application behavior. Lastly, many applications rely on DLLs and have complex sets of dependencies that must be honored for the applications to function properly. This document provides guidelines for DLL developers to help in building more robust, portable, and extensible DLLs.
 
@@ -35,14 +35,14 @@ Some initialization tasks cannot be postponed. For example, a DLL that depends o
 You should never perform the following tasks from within [**DllMain**](dllmain.md):
 
 -   Call [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) (either directly or indirectly). This can cause a deadlock or a crash.
--   Call [**GetStringTypeA**](https://msdn.microsoft.com/library/windows/desktop/dd318117), [**GetStringTypeEx**](https://msdn.microsoft.com/library/windows/desktop/dd318118), or [**GetStringTypeW**](https://msdn.microsoft.com/library/windows/desktop/dd318119) (either directly or indirectly). This can cause a deadlock or a crash.
+-   Call [**GetStringTypeA**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea), [**GetStringTypeEx**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa), or [**GetStringTypeW**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew) (either directly or indirectly). This can cause a deadlock or a crash.
 -   Synchronize with other threads. This can cause a deadlock.
 -   Acquire a synchronization object that is owned by code that is waiting to acquire the loader lock. This can cause a deadlock.
--   Initialize COM threads by using [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279). Under certain conditions, this function can call [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa).
+-   Initialize COM threads by using [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex). Under certain conditions, this function can call [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa).
 -   Call the registry functions. These functions are implemented in Advapi32.dll. If Advapi32.dll is not initialized before your DLL, the DLL can access uninitialized memory and cause the process to crash.
--   Call [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425). Creating a process can load another DLL.
+-   Call [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa). Creating a process can load another DLL.
 -   Call [**ExitThread**](https://msdn.microsoft.com/en-us/library/ms683153(v=VS.85).aspx). Exiting a thread during DLL detach can cause the loader lock to be acquired again, causing a deadlock or a crash.
--   Call [**CreateThread**](https://msdn.microsoft.com/library/windows/desktop/ms682453). Creating a thread can work if you do not synchronize with other threads, but it is risky.
+-   Call [**CreateThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread). Creating a thread can work if you do not synchronize with other threads, but it is risky.
 -   Create a named pipe or other named object (Windows 2000 only). In Windows 2000, named objects are provided by the Terminal Services DLL. If this DLL is not initialized, calls to the DLL can cause the process to crash.
 -   Use the memory management function from the dynamic C Run-Time (CRT). If the CRT DLL is not initialized, calls to these functions can cause the process to crash.
 -   Call functions in User32.dll or Gdi32.dll. Some functions load another DLL, which may not be initialized.

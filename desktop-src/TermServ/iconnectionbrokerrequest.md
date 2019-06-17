@@ -26,7 +26,7 @@ This interface is implemented by the system. An instance of this interface is pr
 
 ## Members
 
-The **IConnectionBrokerRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IConnectionBrokerRequest** also has these types of members:
+The **IConnectionBrokerRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IConnectionBrokerRequest** also has these types of members:
 
 -   [Methods](#methods)
 

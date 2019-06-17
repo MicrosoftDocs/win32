@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Binding to Active Directory Domain Services
 
-In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](https://msdn.microsoft.com/library/aa705950) or [DirectoryEntry](https://go.microsoft.com/fwlink/p/?linkid=83868) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
+In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) or [DirectoryEntry](https://go.microsoft.com/fwlink/p/?linkid=83868) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
 
 ## Binding Functions and Methods
 
@@ -22,9 +22,9 @@ The method for programmatically binding to an Active Directory object will depen
 
 | Programming technology                                                                       | For more information                                                           |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170)         | [Binding to an ADSI Object](https://msdn.microsoft.com/library/aa772319)                    |
-| [Lightweight Directory Access Protocol](https://msdn.microsoft.com/library/aa367008) | [Establishing an LDAP Session](https://msdn.microsoft.com/library/aa366102)              |
-| [System.DirectoryServices](https://msdn.microsoft.com/library/9t2667d1.aspx)                 | [Binding to Directory Objects](https://go.microsoft.com/fwlink/p/?linkid=83964) |
+| [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi)         | [Binding to an ADSI Object](https://docs.microsoft.com/windows/desktop/ADSI/binding-to-an-adsi-object)                    |
+| [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api) | [Establishing an LDAP Session](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session)              |
+| [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN)                 | [Binding to Directory Objects](https://go.microsoft.com/fwlink/p/?linkid=83964) |
 
 
 
@@ -45,9 +45,9 @@ In the examples above, "LDAP:" specifies the LDAP provider. "GC:" uses the LDAP 
 
 "<object name>" represents a specific object in Active Directory Domain Services. The object name can be a distinguished name or an object GUID.
 
-For more information about LDAP binding strings, see [LDAP ADsPath](https://msdn.microsoft.com/library/aa746384).
+For more information about LDAP binding strings, see [LDAP ADsPath](https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath).
 
-For Windows NT 4.0, the WinNT provider is used for access to directory data such as users, user groups, computers, services, and other network objects in the Windows 2000. The WinNT provider on Windows 2000 and later systems has limited functionality compared to the LDAP provider. For more information about WinNT binding strings, see [WinNT ADsPath](https://msdn.microsoft.com/library/aa746534).
+For Windows NT 4.0, the WinNT provider is used for access to directory data such as users, user groups, computers, services, and other network objects in the Windows 2000. The WinNT provider on Windows 2000 and later systems has limited functionality compared to the LDAP provider. For more information about WinNT binding strings, see [WinNT ADsPath](https://docs.microsoft.com/windows/desktop/ADSI/winnt-adspath).
 
 An ADsPath of "LDAP://" or "GC://" can be used to bind to the root of the namespace. When bound to the root of the namespace, the supplied namespace object contains no properties and contains the domain object for LDAP and a container object containing a partial replica of all domains in the forest for GC.
 

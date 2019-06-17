@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Windows Media Player BITS Job Convention
 
-Windows Media Player can automatically download and add digital media items to the library if you use [Background Intelligent Transfer Service (BITS)](https://msdn.microsoft.com/library/windows/desktop/bb968799). To take advantage of this feature, you must add your job to the BITS transfer queue and call **IBackgroundCopyJob::SetDescription**, providing a description string that uses the correct format.
+Windows Media Player can automatically download and add digital media items to the library if you use [Background Intelligent Transfer Service (BITS)](https://docs.microsoft.com/windows/desktop/Bits/background-intelligent-transfer-service-portal). To take advantage of this feature, you must add your job to the BITS transfer queue and call **IBackgroundCopyJob::SetDescription**, providing a description string that uses the correct format.
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -99,7 +99,7 @@ You must add only one digital media file for download to each BITS job.
 
 After you start a BITS job using this convention, you must let Windows Media Player complete the job. Windows Media Player will also remove the job from the BITS queue, move the downloaded file to the location where ripped music is saved, and add the downloaded file to the library.
 
-The *serviceId* parameter must contain a nonzero 32-bit value. We recommend that you use the function [**CryptGenRandom**](https://msdn.microsoft.com/library/windows/desktop/aa379942) to create this value.
+The *serviceId* parameter must contain a nonzero 32-bit value. We recommend that you use the function [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) to create this value.
 
 The file name you specify using the *localName* parameter of **IBackgroundCopyJob::AddFile** must have a .wma, .wmv, .mp3, or .asf file name extension.
 
@@ -133,7 +133,7 @@ When you use the preceding syntax, you must write code to complete the BITS down
 
 <dl> <dt>
 
-[CryptGenRandom](https://msdn.microsoft.com/library/windows/desktop/aa379942)
+[CryptGenRandom](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom)
 </dt> <dt>
 
 [**DownloadItem.getItemInfo**](downloaditem-getiteminfo.md)

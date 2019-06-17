@@ -2,6 +2,7 @@
 title: Fence-Based Resource Management
 description: Shows how to manage resource data life-span by tracking GPU progress via fences. Memory can be effectively re-used with fences carefully managing the availability of free space in memory, such as in a ring buffer implementation for an Upload heap.
 ms.assetid: A7AB6569-EC6B-4B1B-9266-D05B6DB3A27B
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -140,7 +141,7 @@ void FreeUpMemoryUntilFrame(UINT lastCompletedFrame)
 
 <dl> <dt>
 
-[**ID3D12Fence**](/windows/desktop/api/D3D12/nn-d3d12-id3d12fence)
+[**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence)
 </dt> <dt>
 
 [Suballocation Within Buffers](large-buffers.md)

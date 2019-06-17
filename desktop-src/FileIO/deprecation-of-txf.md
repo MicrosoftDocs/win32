@@ -35,7 +35,7 @@ Many applications which deal with "document-like" data tend to load the entire d
 
 ## Applications performing updates to multiple files and/or to the registry hive
 
-There are many applications which need to atomically perform an update to a set of files and to the registry. This scenario is most commonly achieved through an installer application, such as Windows Installer. For more information on Windows Installer, please refer to [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688).
+There are many applications which need to atomically perform an update to a set of files and to the registry. This scenario is most commonly achieved through an installer application, such as Windows Installer. For more information on Windows Installer, please refer to [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal).
 
 ## Applications managing a set of structured data
 

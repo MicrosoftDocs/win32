@@ -51,7 +51,7 @@ Blob of compiled effect data.
 *DataLength* 
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Length of the data blob.
 
@@ -60,7 +60,7 @@ Length of the data blob.
 *FXFlags* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 No effect flags exist. Set to zero.
 

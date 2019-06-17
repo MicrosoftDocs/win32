@@ -45,7 +45,7 @@ This section contains Properties for the InkPicture Control.
 <td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>IInkCursors</strong></a> collection available for use in the <a href="inkpicture-control-reference">InkPicture</a> control's inking region.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/en-us/library/ms703274(v=VS.85).aspx"><strong>CustomStrokes</strong></a></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)"><strong>CustomStrokes</strong></a></td>
 <td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes"><strong>IInkCustomStrokes</strong></a> collection to be persisted with the ink (design-time only).<br/></td>
 </tr>
 <tr class="odd">
@@ -119,7 +119,7 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Selection</strong></a></td>
-<td>Gets the <a href="https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx">InkStrokes</a> collection currently selected inside the <a href="inkpicture-control-reference">InkPicture</a> control (run time only).<br/></td>
+<td>Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection currently selected inside the <a href="inkpicture-control-reference">InkPicture</a> control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode"><strong>SizeMode</strong></a></td>

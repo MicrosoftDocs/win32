@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Account Object
 
-The **Account** object is used to assign [*privileges*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-privilege-gly), system access, and special quotas to individual users or to members of local groups or groups.
+The **Account** object is used to assign [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly), system access, and special quotas to individual users or to members of local groups or groups.
 
 The information stored in an **Account** object includes:
 

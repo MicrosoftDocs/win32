@@ -71,7 +71,7 @@ Effect states are name value pairs in the form of an expression.
 
  
 
-See [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/library/windows/desktop/bb509644) for examples.
+See [Sampler Type (DirectX HLSL)](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-sampler) for examples.
 
 ## Effect Object State
 

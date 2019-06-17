@@ -30,9 +30,9 @@ The following procedure describes how to create an event consumer that sends ema
 
 2.  Identify the event that you want to monitor and create the event query.
 
-    There might be an existing intrinsic event that use to monitor your event. Most intrinsic events are associated with changes to class instances in the "root\\cimv2" namespace. By analyzing the classes in the [WMI Classes](wmi-classes.md) reference, you can probably find a class that identifies the event you want to monitor. For example, use the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class to monitor changes to a hard disk drive.
+    There might be an existing intrinsic event that use to monitor your event. Most intrinsic events are associated with changes to class instances in the "root\\cimv2" namespace. By analyzing the classes in the [WMI Classes](wmi-classes.md) reference, you can probably find a class that identifies the event you want to monitor. For example, use the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class to monitor changes to a hard disk drive.
 
-    If there are no existing intrinsic events that use, there might be an extrinsic event provider that can work. For example, use the [**RegistryTreeChangeEvent**](https://msdn.microsoft.com/library/aa393041) class of the Registry provider to monitor changes to the system registry.
+    If there are no existing intrinsic events that use, there might be an extrinsic event provider that can work. For example, use the [**RegistryTreeChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrytreechangeevent) class of the Registry provider to monitor changes to the system registry.
 
     If a class does not exist that identifies the event you want to monitor, you must create your own event provider and define new extrinsic event classes. For more information, see [Writing an Event Provider](writing-an-event-provider.md).
 

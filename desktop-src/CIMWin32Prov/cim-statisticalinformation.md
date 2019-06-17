@@ -63,7 +63,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Short textual description for the statistic or metric.
@@ -92,7 +92,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (256)
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Label by which the statistic or metric is known. When subclassed, this property can be overridden to be a key property.

@@ -16,7 +16,7 @@ api_location:
 
 # AuthzAccessCheckCallback callback function
 
-The **AuthzAccessCheckCallback** function is an application-defined function that handles callback [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) during an access check. **AuthzAccessCheckCallback** is a placeholder for the application-defined function name. The application registers this callback by calling [**AuthzInitializeResourceManager**](/windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanager).
+The **AuthzAccessCheckCallback** function is an application-defined function that handles callback [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) during an access check. **AuthzAccessCheckCallback** is a placeholder for the application-defined function name. The application registers this callback by calling [**AuthzInitializeResourceManager**](/windows/desktop/api/Authz/nf-authz-authzinitializeresourcemanager).
 
 ## Syntax
 
@@ -70,7 +70,7 @@ The results are **TRUE** if the logic determines that the ACE is applicable and 
 
 If the function succeeds, the function returns **TRUE**.
 
-If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms680627) to return an error to the access check function.
+If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
 
 ## Remarks
 

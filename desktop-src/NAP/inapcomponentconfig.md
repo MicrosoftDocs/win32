@@ -33,7 +33,7 @@ The **INapComponentConfig** interface provides NAP system configuration methods 
 
 ## Members
 
-The **INapComponentConfig** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapComponentConfig** also has these types of members:
+The **INapComponentConfig** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapComponentConfig** also has these types of members:
 
 -   [Methods](#methods)
 

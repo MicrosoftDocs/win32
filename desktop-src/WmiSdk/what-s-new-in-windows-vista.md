@@ -38,7 +38,7 @@ The following list lists the new WMI security features that are available in Win
 <span id="Tracing_and_logging_events"></span><span id="tracing_and_logging_events"></span><span id="TRACING_AND_LOGGING_EVENTS"></span>Tracing and logging events
 </dt> <dd>
 
-WMI service no longer uses most of the [WMI Log Files](wmi-log-files.md). Instead it uses [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) (ETW) and events are available through the **Event Viewer** UI or the Wevtutil command line tool. For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).
+WMI service no longer uses most of the [WMI Log Files](wmi-log-files.md). Instead it uses [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) and events are available through the **Event Viewer** UI or the Wevtutil command line tool. For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).
 
 </dd> <dt>
 
@@ -59,14 +59,14 @@ WMI uses the namespace system access control lists (SACL) to audit namespace act
 <span id="Get_and_Set_security_descriptor_methods_for_securable_objects"></span><span id="get_and_set_security_descriptor_methods_for_securable_objects"></span><span id="GET_AND_SET_SECURITY_DESCRIPTOR_METHODS_FOR_SECURABLE_OBJECTS"></span>Get and Set security descriptor methods for securable objects
 </dt> <dd>
 
-New scriptable methods to get and set security descriptors have been added to [**Win32\_Printer**](https://msdn.microsoft.com/library/aa394363), [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418), [**StdRegProv**](https://msdn.microsoft.com/library/aa393664), [**Win32\_DCOMApplicationSetting**](https://msdn.microsoft.com/library/aa394118), and [**\_\_SystemSecurity**](--systemsecurity.md). For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
+New scriptable methods to get and set security descriptors have been added to [**Win32\_Printer**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printer), [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service), [**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov), [**Win32\_DCOMApplicationSetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dcomapplicationsetting), and [**\_\_SystemSecurity**](--systemsecurity.md). For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
 </dd> <dt>
 
 <span id="Manipulate_Security_Descriptors_in_scripts"></span><span id="manipulate_security_descriptors_in_scripts"></span><span id="MANIPULATE_SECURITY_DESCRIPTORS_IN_SCRIPTS"></span>Manipulate Security Descriptors in scripts
 </dt> <dd>
 
-The [**Win32\_SecurityDescriptorHelper**](https://msdn.microsoft.com/library/aa394403) class has methods that allow scripts to convert binary security descriptors on securable objects to [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) objects or [Security Descriptor Definition Language](https://msdn.microsoft.com/library/windows/desktop/aa379567) strings. For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
+The [**Win32\_SecurityDescriptorHelper**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper) class has methods that allow scripts to convert binary security descriptors on securable objects to [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) objects or [Security Descriptor Definition Language](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) strings. For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ The [**SWbemObject.ItemIndex**](swbemobjectset-itemindex.md) method returns the 
 <span id="Support_for_IPv6_and_IPv4"></span><span id="support_for_ipv6_and_ipv4"></span><span id="SUPPORT_FOR_IPV6_AND_IPV4"></span>Support for IPv6 and IPv4
 </dt> <dd>
 
-WMI [IP Route Provider](https://msdn.microsoft.com/library/aa391405) and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities. For more information, see [IPv6 and IPv4 Support in WMI](ipv6-and-ipv4-support-in-wmi.md).
+WMI [IP Route Provider](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities. For more information, see [IPv6 and IPv4 Support in WMI](ipv6-and-ipv4-support-in-wmi.md).
 
 </dd> <dt>
 
@@ -111,45 +111,45 @@ Connecting to a WMI namespace on a remote computer running Windows Vista may re
 
 </dd> <dt>
 
-<span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>Changes to [**Win32\_QuickFixEngineering**](https://msdn.microsoft.com/library/aa394391)
+<span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>Changes to [**Win32\_QuickFixEngineering**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-quickfixengineering)
 </dt> <dd>
 
-For systems running on the Windows Vista and later operating system, this class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Windows Installer (MSI) or the [Windows Update](https://go.microsoft.com/fwlink/p/?linkid=33483) are not returned by [**Win32\_QuickFixEngineering**](https://msdn.microsoft.com/library/aa394391).
+For systems running on the Windows Vista and later operating system, this class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Windows Installer (MSI) or the [Windows Update](https://go.microsoft.com/fwlink/p/?linkid=33483) are not returned by [**Win32\_QuickFixEngineering**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
 
 </dd> <dt>
 
 <span id="Enabling_and_disabling_a_NIC"></span><span id="enabling_and_disabling_a_nic"></span><span id="ENABLING_AND_DISABLING_A_NIC"></span>Enabling and disabling a NIC
 </dt> <dd>
 
-[**Win32\_NetworkAdapter**](https://msdn.microsoft.com/library/aa394216) has new methods to enable and disable the network adapter.
+[**Win32\_NetworkAdapter**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapter) has new methods to enable and disable the network adapter.
 
 </dd> <dt>
 
 <span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Windows Installer Provider changes
 </dt> <dd>
 
-[**Win32\_Product**](https://msdn.microsoft.com/library/aa394378) has new properties and methods to provide more data about the product.
+[**Win32\_Product**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)) has new properties and methods to provide more data about the product.
 
 </dd> <dt>
 
 <span id="New_display_monitor_classes"></span><span id="new_display_monitor_classes"></span><span id="NEW_DISPLAY_MONITOR_CLASSES"></span>New display monitor classes
 </dt> <dd>
 
-[Monitor Display Classes](https://msdn.microsoft.com/library/windows/desktop/dn622981) contain data supplied by the [WDM Provider](https://msdn.microsoft.com/library/windows/desktop/aa394052) that provides data about display monitors.
+[Monitor Display Classes](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wmi-core-provider-) contain data supplied by the [WDM Provider](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wdm-provider) that provides data about display monitors.
 
 </dd> <dt>
 
 <span id="Intelligent_Platform_Management_Interface_provider"></span><span id="intelligent_platform_management_interface_provider"></span><span id="INTELLIGENT_PLATFORM_MANAGEMENT_INTERFACE_PROVIDER"></span>Intelligent Platform Management Interface provider
 </dt> <dd>
 
-The WMI [IPMI Provider](https://msdn.microsoft.com/library/aa391402) supplies data from baseboard management controller (BMC) operations to the operating system. The provider supplies information to the Intelligent Platform Management Information Classes, which provide sensors data and BMC System Event Log (SEL) message data.
+The WMI [IPMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) supplies data from baseboard management controller (BMC) operations to the operating system. The provider supplies information to the Intelligent Platform Management Information Classes, which provide sensors data and BMC System Event Log (SEL) message data.
 
 </dd> <dt>
 
 <span id="Detecting_hyperthreading_and_multicore_processors"></span><span id="detecting_hyperthreading_and_multicore_processors"></span><span id="DETECTING_HYPERTHREADING_AND_MULTICORE_PROCESSORS"></span>Detecting hyperthreading and multicore processors
 </dt> <dd>
 
-[**Win32\_ComputerSystem**](https://msdn.microsoft.com/library/aa394102) and [**Win32\_Processor**](https://msdn.microsoft.com/library/aa394373) have new properties that enable you to write scripts to determine whether the computer system has multicore or hyperthreading processors.
+[**Win32\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem) and [**Win32\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-processor) have new properties that enable you to write scripts to determine whether the computer system has multicore or hyperthreading processors.
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ Windows Vista has new event messages. For more information, see [WMI Events](wm
 <span id="Inventory_improvements"></span><span id="inventory_improvements"></span><span id="INVENTORY_IMPROVEMENTS"></span>Inventory improvements
 </dt> <dd>
 
-Many hardware classes have had changes to improve hardware inventory. For example, a serial number property was added to [**Win32\_CDROMDrive**](https://msdn.microsoft.com/library/aa394081) and [**Win32\_DiskDrive**](https://msdn.microsoft.com/library/aa394132).
+Many hardware classes have had changes to improve hardware inventory. For example, a serial number property was added to [**Win32\_CDROMDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-cdromdrive) and [**Win32\_DiskDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskdrive).
 
 </dd> <dt>
 

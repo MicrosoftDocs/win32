@@ -94,7 +94,7 @@ Event providers never generate aggregate events. They must ignore the GROUP WITH
 
 <dl> <dt>
 
-[**\_\_IndicationRelated**](https://msdn.microsoft.com/library/aa394648)
+[**\_\_IndicationRelated**](https://docs.microsoft.com/windows/desktop/WmiSdk/--indicationrelated)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

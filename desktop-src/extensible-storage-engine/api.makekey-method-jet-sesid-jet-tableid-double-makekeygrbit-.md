@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Double](https://msdn.microsoft.com/en-us/library/643eft0t)  
+    Type: [System.Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)  
     
     Column data for the current key column of the current index.
 

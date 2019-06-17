@@ -26,7 +26,7 @@ Extensions to the IPixEngine2 interface.
 
 ## Members
 
-The **IPixEngine3** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPixEngine3** also has these types of members:
+The **IPixEngine3** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine3** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IPixEngine3** interface inherits from the [**IUnknown**](https://msdn.micr
 
 The **IPixEngine3** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432752"><strong>SetupResources</strong></a></td><td style="text-align: left;"><p>Passes resources to the engine, such as strings for error messages.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine3-setupresources-resourcepair-arr-uint"><strong>SetupResources</strong></a></td><td style="text-align: left;"><p>Passes resources to the engine, such as strings for error messages.</p></td></tr></tbody></table>
 
  
 

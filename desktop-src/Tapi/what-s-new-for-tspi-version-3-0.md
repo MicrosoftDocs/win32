@@ -21,7 +21,7 @@ Functions and messages that were new or changed for TSPI version 3.0 are as foll
 -   [**TSPI_lineSetCallHubTracking**](https://msdn.microsoft.com/en-us/library/ms725596(v=VS.85).aspx)
 -   [**LINE_QOSINFO**](line-qosinfo.md)
 -   [**LINE_SENDMSPDATA**](line-sendmspdata.md)
--   [**LINE_DEVSPECIFICEX**](https://msdn.microsoft.com/library/ms725226)
+-   [**LINE_DEVSPECIFICEX**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725226(v=vs.85))
 -   **LINEADDRCAPFLAGS_NOPSTNADDRESSTRANSLATION** flag
 -   **LINEERR_INVALADDRESSTYPE** flags
 

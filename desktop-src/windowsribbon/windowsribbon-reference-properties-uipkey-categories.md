@@ -24,11 +24,11 @@ propertyDescription
 
 UI\_PKEY\_Categories is used by an application to query the categories that are used to group related items in a gallery control.
 
-The property value is an [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) object where each item in the collection represents a category.
+The property value is an [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object where each item in the collection represents a category.
 
-Each item in this [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) must implement [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) to expose the read-only properties associated with the item, such as the label or image.
+Each item in this [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) must implement [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) to expose the read-only properties associated with the item, such as the label or image.
 
-To add or delete items in a gallery control at run time, use the various methods of [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519).
+To add or delete items in a gallery control at run time, use the various methods of [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection).
 
 The following screen shot illustrates the use of two categories, **Selection shapes** and **Selection options**, in a [**SplitButton**](windowsribbon-element-splitbutton.md) menu.
 

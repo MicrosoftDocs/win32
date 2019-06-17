@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_ROOT\_DESCRIPTOR\_TABLE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor_table) structure.
+A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure.
 
 ## Syntax
 
@@ -49,7 +50,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE.
 **explicit CD3DX12\_ROOT\_DESCRIPTOR\_TABLE(const D3D12\_ROOT\_DESCRIPTOR\_TABLE &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor_table) structure.
+Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure.
 
 </dd> <dt>
 
@@ -60,7 +61,7 @@ Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE, initializing the f
 
 UINT numDescriptorRanges
 
-[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range)\* \_pDescriptorRanges
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range)\* \_pDescriptorRanges
 
 </dd> <dt>
 
@@ -71,7 +72,7 @@ Specifies a function that initializes the following parameters:
 
 UINT numDescriptorRanges
 
-[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range)\* \_pDescriptorRanges
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range)\* \_pDescriptorRanges
 
 </dd> <dt>
 
@@ -80,11 +81,11 @@ UINT numDescriptorRanges
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor_table) &rootDescriptorTable
+[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) &rootDescriptorTable
 
 UINT numDescriptorRanges
 
-[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range)\* \_pDescriptorRanges
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range)\* \_pDescriptorRanges
 
 </dd> </dl>
 
@@ -102,7 +103,7 @@ UINT numDescriptorRanges
 
 <dl> <dt>
 
-[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor_table)
+[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

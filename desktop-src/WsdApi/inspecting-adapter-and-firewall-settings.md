@@ -38,7 +38,7 @@ Retest the program after making this firewall change. If the program now works s
 
 Advanced configuration of the Windows Firewall can take place in a Microsoft Management Control (MMC) snap-in named **Windows Firewall with Advanced Security**. This snap-in can be used to troubleshoot suspected firewall problems.
 
-Developers can use the [Windows Firewall with Advanced Security](https://msdn.microsoft.com/library/windows/desktop/aa366459) APIs to create firewall rules that apply to their WSD applications. Specifically, the [**Add**](https://msdn.microsoft.com/library/windows/desktop/aa365346) method of the [**INetFwRules**](https://msdn.microsoft.com/library/windows/desktop/aa365345) interface can be used to add a new firewall rule. If firewall rules are created incorrectly, clients and hosts may not be able to see each other on the network.
+Developers can use the [Windows Firewall with Advanced Security](https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference) APIs to create firewall rules that apply to their WSD applications. Specifically, the [**Add**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-add) method of the [**INetFwRules**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules) interface can be used to add a new firewall rule. If firewall rules are created incorrectly, clients and hosts may not be able to see each other on the network.
 
 **To check for application-specific firewall rules**
 

@@ -29,7 +29,7 @@ The following table lists all **HRESULT** values that can be returned by the met
 
 ## Remarks
 
-Some XPS digital signature API methods make calls to the [Packaging](https://msdn.microsoft.com/library/windows/desktop/dd371623) API. For information about the Packaging API return values, see [Packaging Errors](https://msdn.microsoft.com/library/windows/desktop/dd371632).
+Some XPS digital signature API methods make calls to the [Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging) API. For information about the Packaging API return values, see [Packaging Errors](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors).
 
 ## Requirements
 
@@ -51,10 +51,10 @@ Some XPS digital signature API methods make calls to the [Packaging](https://msd
 [Error Handling in COM](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx)
 </dt> <dt>
 
-[Packaging Errors](https://msdn.microsoft.com/library/windows/desktop/dd371632)
+[Packaging Errors](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors)
 </dt> <dt>
 
-[Cryptography Return Values](https://msdn.microsoft.com/library/windows/desktop/aa380257)
+[Cryptography Return Values](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-return-values)
 </dt> </dl>
 
  

@@ -16,7 +16,7 @@ The font object also supports the outgoing interface [**IPropertyNotifySink**](/
 
 The font object provides an hFont property that is a Windows font handle that conforms to the other attributes specified for the font. The font object delays realizing this font when possible, so consecutively setting two properties on a font won't cause an intermediate font to be realized. In addition, as an optimization, the standard font object maintains a cache of font handles. Two font objects in the same process that have identical properties will return the same font handle. The font object can remove fonts from this cache at will, which introduces special considerations for clients using this hFont property. See [**IFont::get\_hFont**](/windows/desktop/api/OCIdl/nf-ocidl-ifont-get_hfont) for more details.
 
-The font object also supports [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) such that it can save and load itself from an instance of [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034). Any other object that uses a font object internally would normally save and load the font as part of the object's own persistence handling.
+The font object also supports [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) such that it can save and load itself from an instance of [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream). Any other object that uses a font object internally would normally save and load the font as part of the object's own persistence handling.
 
 In addition, the font object supports [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) through which it provides a property set containing typed values for each font property.
 

@@ -14,11 +14,11 @@ ms.date: 05/31/2018
 
  
 
-The manipulation rule to apply to the data specified by the [Manipulation-Target](https://msdn.microsoft.com/library/bb960680) attribute. For more information, see [Realms Processing and Attribute Manipulation](https://msdn.microsoft.com/library/bb960703).
+The manipulation rule to apply to the data specified by the [Manipulation-Target](https://docs.microsoft.com/windows/desktop/Nps/sdo-manipulation-target) attribute. For more information, see [Realms Processing and Attribute Manipulation](https://docs.microsoft.com/windows/desktop/Nps/sdo-realms-processing-and-attribute-manipulation).
 
 **LDAP Name:** msManipulationRule
 
-**ID:** 4114 = [**IAS\_ATTRIBUTE\_MANIPULATION\_RULE**](https://msdn.microsoft.com/library/bb960612)
+**ID:** 4114 = [**IAS\_ATTRIBUTE\_MANIPULATION\_RULE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid)
 
 **Syntax:** String
 

@@ -149,8 +149,8 @@ See [4.2 Eliminate Application Verifier Failures](#42-eliminate-application-veri
 
 <dl>
 
-[Windows 8 and Windows Server 2012 compatibility cookbook](https://msdn.microsoft.com/library/windows/desktop/hh848074)  
-[Where is the DirectX SDK?](https://msdn.microsoft.com/library/windows/desktop/ee663275)  
+[Windows 8 and Windows Server 2012 compatibility cookbook](https://docs.microsoft.com/windows/desktop/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal)  
+[Where is the DirectX SDK?](https://docs.microsoft.com/windows/desktop/directx-sdk--august-2009-)  
 </dl>
 
 ## Games for Windows
@@ -317,7 +317,7 @@ Windows 8 retires support for the following now deprecated systems:<br/>
 
 Newer ratings data are ignored on versions of operating systems without support for them. The PEGI (Finland) variant is now deprecated in favor of the standard PEGI (Europe) rating system. The OFLC system is now deprecated in favor of COB-AU for Australia.
 
-For more information about making a game compatible with standard user privileges, see the DirectX article [User Account Control for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee419001).
+For more information about making a game compatible with standard user privileges, see the DirectX article [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
 
 See requirement 1.1 for more details on the game definition file (GDF).
 
@@ -334,7 +334,7 @@ See requirement 1.1 for more details on the game definition file (GDF).
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**Requirement**
 </dt> <dd>
 
-Games that support gamepad controllers must support the Xbox 360 Controller for Windows using the [XInput](https://msdn.microsoft.com/library/windows/desktop/hh405053) API. If DirectInput peripherals are also supported, then DirectInput can also be used. However, XInput must be the default API if an Xbox 360 compatible device is used.
+Games that support gamepad controllers must support the Xbox 360 Controller for Windows using the [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal) API. If DirectInput peripherals are also supported, then DirectInput can also be used. However, XInput must be the default API if an Xbox 360 compatible device is used.
 
 All references to common controller triggers and buttons must use the Xbox 360 names. See the [Xbox 360 Common Controller for Windows Terminology](#xbox-360-common-controller-for-windows-terminology) list for details.
 
@@ -363,11 +363,11 @@ We recommend that menu navigation be implemented to use the widely accepted stan
 -   Start - Accept or pause
 -   Back - Cancel, back one screen or up a menu level
 
-For more info, see [XInput](https://msdn.microsoft.com/library/windows/desktop/hh405053).
+For more info, see [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal).
 
-The topic [XInput and DirectInput](https://msdn.microsoft.com/library/windows/desktop/ee417014) discusses issues with using both APIs at the same time.
+The topic [XInput and DirectInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-and-directinput) discusses issues with using both APIs at the same time.
 
-It is recommended that DirectInput not be used to implement keyboard or mouse controls. Keyboard and mouse controls should only be implemented using Windows messages and Win32 APIs. For details on getting high-resolution mouse movement information without using DirectInput, see [Taking Advantage of High-Definition Mouse Movement](https://msdn.microsoft.com/library/windows/desktop/ee418864).
+It is recommended that DirectInput not be used to implement keyboard or mouse controls. Keyboard and mouse controls should only be implemented using Windows messages and Win32 APIs. For details on getting high-resolution mouse movement information without using DirectInput, see [Taking Advantage of High-Definition Mouse Movement](https://docs.microsoft.com/windows/desktop/DxTechArts/taking-advantage-of-high-dpi-mouse-movement).
 
 </dd> </dl>
 
@@ -407,9 +407,9 @@ With the Windows 3D desktop, a particular aspect ratio or resolution cannot be a
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-Ideally, the game defaults to the native aspect ratio of the display. However, obtaining this information reliably can be a challenge, so as a more general solution the game can assume that the desktop is running at the native aspect ratio. The desktop resolution can be obtained by calling [**EnumDisplaySettings**](https://msdn.microsoft.com/library/windows/desktop/dd162611) with ENUM\_REGISTRY\_SETTINGS.
+Ideally, the game defaults to the native aspect ratio of the display. However, obtaining this information reliably can be a challenge, so as a more general solution the game can assume that the desktop is running at the native aspect ratio. The desktop resolution can be obtained by calling [**EnumDisplaySettings**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa) with ENUM\_REGISTRY\_SETTINGS.
 
-For more details, see the Aspect Ratio and Widescreen sections of the DirectX article [Introduction to the 10-Foot Experience for Windows Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418274).
+For more details, see the Aspect Ratio and Widescreen sections of the DirectX article [Introduction to the 10-Foot Experience for Windows Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/introduction-to-the-10-foot-experience-for-windows-game-developers).
 
 </dd> </dl>
 
@@ -462,7 +462,7 @@ While this feature has been available in some form since Windows XP, it is seldo
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-The [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function can be used instead, if called early in the process startup code. Adding to the manifest is preferred, to ensure there are no race conditions with software elements (such as DLLs) that might initialize before the main entry point is called. Note that **SetProcessDPIAware** is only present on Windows Vista and Windows 7.
+The [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function can be used instead, if called early in the process startup code. Adding to the manifest is preferred, to ensure there are no race conditions with software elements (such as DLLs) that might initialize before the main entry point is called. Note that **SetProcessDPIAware** is only present on Windows Vista and Windows 7.
 
 Adding the manifest element is easy to do with Visual Studio 2005 and 2008; create a file named dpiaware.manifest that contains the following text:
 
@@ -561,7 +561,7 @@ See requirement 3.1 for details on the special cases of installation, patching, 
 
 Dynamic Link Libraries (DLLs) do not require such manifests.
 
-For more information about User Account Control, see [User Account Control for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee419001).
+For more information about User Account Control, see [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
 
 </dd> </dl>
 
@@ -593,7 +593,7 @@ Windows on Windows 64 (WOW64) allows 32-bit code to run on 64-bit editions of Wi
 
 Maintaining compatibility with Windows XP Professional x64 Edition is not required, but it is strongly encouraged.
 
-For details, see [64-bit programming for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418798).
+For details, see [64-bit programming for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers).
 
 </dd> </dl>
 
@@ -620,9 +620,9 @@ Signing a file helps users decide whether to trust an application, and assures u
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For details, see [Authenticode Signing for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416211).
+For details, see [Authenticode Signing for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/authenticode-signing-for-game-developers).
 
-If your game uses Windows Installer, we recommend that you enable UAC/LUA patching, by including an MsiPatchCertificate table. For more information, see [User Account Control (UAC) Patching](https://msdn.microsoft.com/library/windows/desktop/aa372388).
+If your game uses Windows Installer, we recommend that you enable UAC/LUA patching, by including an MsiPatchCertificate table. For more information, see [User Account Control (UAC) Patching](https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching).
 
 We do not recommend signing cabinet (.cab) files, unless they are relatively small (less than 100 MB).
 
@@ -666,7 +666,7 @@ More information about Microsoft driver signing programs can be found at the [Wi
 
 Games must not fail to run on future operating systems as indicated by changes in the Windows version number, unless the End User License Agreement prohibits use on future operating systems. If the game is supposed to fail, it must do so gracefully by displaying an appropriate message to the user.
 
-If Windows version checks are made, the version-checking APIs ([**GetVersionEx**](https://msdn.microsoft.com/library/windows/desktop/ms724451) or [**VerifyVersionInfo**](https://msdn.microsoft.com/library/windows/desktop/ms725492)) must be used to check the operating system version. Registry keys must not be read to determine the version.
+If Windows version checks are made, the version-checking APIs ([**GetVersionEx**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa) or [**VerifyVersionInfo**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa)) must be used to check the operating system version. Registry keys must not be read to determine the version.
 
 Explicit version checks for the DirectX runtime must not be present in the game. These version checks must not be present in the installation that launches the DirectX runtime setup (DirectSetup).
 
@@ -688,7 +688,7 @@ It is quite common to see installers check for a minimum OS version. This check,
 
 Proper use of the DirectX runtime redistribution package (DirectX Setup) involves always launching it during installation, preferably in silent mode. This allows the code that is provided by Microsoft to perform any required version updates. It also allows installation of any optional side-by-side DirectX SDK components, such as D3DX, XACT, MDX, or XInput.
 
-For best practices for deploying the DirectX runtime, see [DirectX Installation for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416805).
+For best practices for deploying the DirectX runtime, see [DirectX Installation for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/directx-setup-for-game-developers).
 
 It is recommended that games that support Windows XP check for a service pack level of 2 or higher, because Service Pack 2 (SP2) and Service Pack 3 (SP3) provide significant security improvements, a simplified DirectX Runtime Redistribution requirement, and extremely broad deployment. Most modern Microsoft technologies that support Windows XP require SP2 or SP3 (XAudio2, Games for Windows - LIVE, and so on).
 
@@ -709,7 +709,7 @@ Games must support standard Windows multitasking scenarios by adhering to the fo
 -   A game must run in a new user session when it is already running in another session.
 -   Game sound in one user session must not be heard when another user is active in a different session.
 -   Games must support Fast User Switching.
--   Games must not attempt to disable standard task switching. Games must not disable the ALT+TAB keyboard shortcut. Games are allowed to disable accessibility keyboard shortcuts, as described in [Disabling Shortcut Keys in Games](https://msdn.microsoft.com/library/windows/desktop/ee416808).
+-   Games must not attempt to disable standard task switching. Games must not disable the ALT+TAB keyboard shortcut. Games are allowed to disable accessibility keyboard shortcuts, as described in [Disabling Shortcut Keys in Games](https://docs.microsoft.com/windows/desktop/DxTechArts/disabling-shortcut-keys-in-games).
 
 </dd> <dt>
 
@@ -723,9 +723,9 @@ Windows users should be able to run concurrent sessions without conflict or disr
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-To test whether the game is launched in a remote session, call [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385)(SM\_REMOTESESSION). A nonzero value indicates that the session is remote.
+To test whether the game is launched in a remote session, call [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)(SM\_REMOTESESSION). A nonzero value indicates that the session is remote.
 
-For more information, see [Fast User Switching](https://msdn.microsoft.com/library/windows/hardware/ff565619). Note that Fast User Switching occurs if Parental Controls time restrictions are enabled when the user's time is up. See requirement 1.2 for more details.
+For more information, see [Fast User Switching](https://docs.microsoft.com/windows-hardware/drivers/display/fast-user-switching). Note that Fast User Switching occurs if Parental Controls time restrictions are enabled when the user's time is up. See requirement 1.2 for more details.
 
 </dd> </dl>
 
@@ -802,10 +802,10 @@ Some traditional installations have prompts that allow non-functional installati
 
 For more information about game installation, non-traditional game installation techniques, UAC-compatible patching solutions, and handling frequent patching, see the following DirectX articles:
 
--   [Simplifying Game Installation](https://msdn.microsoft.com/library/windows/desktop/ee418797)
--   [Install-on-Demand for Games](https://msdn.microsoft.com/library/windows/desktop/ee418268)
--   [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://msdn.microsoft.com/library/windows/desktop/ee418715)
--   [Installation Best Practices for Massively Multiplayer Online Games](https://msdn.microsoft.com/library/windows/desktop/ee418665)
+-   [Simplifying Game Installation](https://docs.microsoft.com/windows/desktop/DxTechArts/simplifying-game-installation)
+-   [Install-on-Demand for Games](https://docs.microsoft.com/windows/desktop/DxTechArts/install-on-demand-for-games)
+-   [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://docs.microsoft.com/windows/desktop/DxTechArts/patching-methods-in-windows-xp-and-vista)
+-   [Installation Best Practices for Massively Multiplayer Online Games](https://docs.microsoft.com/windows/desktop/DxTechArts/mmo-installation-best-practices)
 
 > [!Note]  
 > Removing user-specific generated data files should be performed only for the current user and for common shared user locations. There is no robust way to scan the system to remove user-specific files for other users, even if the removal requires administrative credentials.
@@ -843,7 +843,7 @@ UAC is active by default on Windows Vista and Windows 7, and the vast majority o
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more details on configuring the Windows Firewall, see the DirectX article [Windows Firewall for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee417690) and the FirewallInstallHelper sample.
+For more details on configuring the Windows Firewall, see the DirectX article [Windows Firewall for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/games-and-firewalls) and the FirewallInstallHelper sample.
 
 Standard launch of the game at the end of the installation process fails to meet the last aspect of this requirement if the installation is launched by a standard user, and if the setup process requires administrative privileges (that is, prompts for a administrator credentials). It also inherits administrative privileges, which is a potential security risk. Instead, a setup bootstrap loader should launch the game after returning from a successful invocation of the installer. For more information, see the MSDN Magazine article [Teach Your Apps to Play Nicely with Windows Vista User Account Control](https://msdn.microsoft.com/msdnmag/issues/07/01/UAC/default.aspx).
 
@@ -899,7 +899,7 @@ Windows Resource Protection (WRP) is designed to ensure that protected system re
 
 WRP is the successor to Windows File Protection, which protects the majority of the system components that are installed in the Windows folder. WRP protects most registry keys that store settings for COM object creation. It also reserves certain folders for use exclusively by the operating system. Attempts to access protected resources typically result in an access denial error.
 
-For details of best practices when the DirectX runtime is deployed with a game, see the DirectX article [DirectX Installation for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416805).
+For details of best practices when the DirectX runtime is deployed with a game, see the DirectX article [DirectX Installation for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/directx-setup-for-game-developers).
 
 </dd> </dl>
 
@@ -928,7 +928,7 @@ Rebooting the system after an installation is an inconvenient disruption for use
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information, see [Using Windows Installer with Restart Manager](https://msdn.microsoft.com/library/windows/desktop/aa372466).
+For more information, see [Using Windows Installer with Restart Manager](https://docs.microsoft.com/windows/desktop/Msi/using-windows-installer-with-restart-manager).
 
 </dd> </dl>
 
@@ -1045,7 +1045,7 @@ System reboots are a major disruption. They lead to a bad user experience, and s
 
 If a game installer uses the Windows Installer technology (MSI) without any custom actions, this functionality is provided automatically. Microsoft redistribution packages also support the Restart Manager.
 
-For more information about the Restart Manager, see the MSDN article [About Restart Manager](https://msdn.microsoft.com/library/windows/desktop/aa373524).
+For more information about the Restart Manager, see the MSDN article [About Restart Manager](https://docs.microsoft.com/windows/desktop/RstMgr/about-restart-manager).
 
 </dd> </dl>
 
@@ -1073,7 +1073,7 @@ AppVerifier tests for many known issues that cause crashes and hangs in Windows 
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/aa480483.aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
 
 This requirement does not apply to pure managed applications without native interop.
 
@@ -1081,7 +1081,7 @@ These tests should be run on a release build. Debugging builds can generate fals
 
 It may be necessary to set the Full property of the Basics:Heaps test to FALSE, because the full PageHeap greatly increases the memory pressure of the running application. Failures will still be detected, but they might be more difficult to track down if you use only partial PageHeap.
 
-If you use the UAC/LUA-related tests in Application Verifier to meet the User Account Control requirements 2.1 and 3.2, you should use the [Standard User Analyzer](https://msdn.microsoft.com/library/windows/desktop/dd744768) to review the results. There are also numerous other useful tests provided by Application Verifier which you are strongly encouraged to use in development and testing to ensure a high level of compatibility with current and future versions of Windows. The **HighVersionLie** test is used to verify compliance with requirement 2.5.
+If you use the UAC/LUA-related tests in Application Verifier to meet the User Account Control requirements 2.1 and 3.2, you should use the [Standard User Analyzer](https://docs.microsoft.com/windows/desktop/Win7AppQual/standard-user-analyzer--sua--tool-and-standard-user-analyzer-wizard--sua-wizard-) to review the results. There are also numerous other useful tests provided by Application Verifier which you are strongly encouraged to use in development and testing to ensure a high level of compatibility with current and future versions of Windows. The **HighVersionLie** test is used to verify compliance with requirement 2.5.
 
 Visual Studio Team System includes a subset of the AppVerifier functionality that is integrated into the debugging environment. This may prove useful for tracking down and resolving issues with Basics: Heaps, Handles, and Locks tests.
 
@@ -1116,7 +1116,7 @@ Games can include custom unhandled exception handlers to perform custom support 
 
 Proper file version information can be verified by viewing the file properties in the Windows desktop UI and checking the Version property page.
 
-For more information about the Windows Error Reporting APIs, and how to analyze the crash dumps that are generated when you use this service, see the DirectX article [Crash Dump Analysis](https://msdn.microsoft.com/library/windows/desktop/ee416349).
+For more information about the Windows Error Reporting APIs, and how to analyze the crash dumps that are generated when you use this service, see the DirectX article [Crash Dump Analysis](https://docs.microsoft.com/windows/desktop/DxTechArts/crash-dump-analysis).
 
 </dd> </dl>
 
@@ -1166,7 +1166,7 @@ Beyond ensuring that your component supports the creation of titles that are com
 -   If your product creates threads within the user's process, be sure to name each thread so that debugging tools can properly annotate running threads.
 -   If you write routines that are intended to be called within a game's main loop, use the D3DX routines D3DPERF\_BeginEvent/EndEvent and D3DPERF\_SetMarker to annotate high-level operations for easier identification of bottlenecks using PIX for Windows.
     > [!Note]  
-    > For the Visual Studio 2012 graphics diagnostics functionality, these D3DX and PIX routines are replaced by the [**ID3DUserDefinedAnnotation**](https://msdn.microsoft.com/library/windows/desktop/hh446881) interface.
+    > For the Visual Studio 2012 graphics diagnostics functionality, these D3DX and PIX routines are replaced by the [**ID3DUserDefinedAnnotation**](https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation) interface.
 
      
 
@@ -1265,7 +1265,7 @@ The primary benefit of 64-bit addressing is the ability to directly access more 
 
 Existing 32-bit applications can benefit from x64 editions by having the capability to process addresses with full 32-bit data when built with the Enable Large Addresses (**/LARGEADDRESSAWARE**) linker option. On 32-bit versions of Windows XP, special boot modes allowed such applications to address up to 3 GB of RAM, and x64 editions provide access up to 4 GB of RAM for Large Address Aware (LAA) apps. While use of LAA in a 32-bit application does not meet this showcase requirement, this bridge technology is an extremely useful way of providing additional scaling benefits on x64 versions of Windows for those not fully implementing this showcase requirement.
 
-For more information, see [64-bit programming for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418798) and [RAM, VRAM, and More RAM: 64-bit Gaming Is Here](https://www.gamasutra.com/view/feature/3602/sponsored_feature_ram_vram_and_.php) in Gamasutra.
+For more information, see [64-bit programming for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers) and [RAM, VRAM, and More RAM: 64-bit Gaming Is Here](https://www.gamasutra.com/view/feature/3602/sponsored_feature_ram_vram_and_.php) in Gamasutra.
 
 > [!Note]  
 > A key challenge for this showcase is ensuring any third-party libraries or components your game relies on are available for 64-bit native development. Many legacy Microsoft APIs also have been eliminated from the 64-bit native environment, which can prove a challenge for engine code bases containing older implementations of key systems.
@@ -1303,11 +1303,11 @@ Note that core counts need not be a power of two, so games should scale linearly
 
 Scaling by increasing the number of threads in an application only provides a return if the cost of communication and thread synchronization are kept in check. Feature-based scaling may prove an easier solution in the short-term, allowing the game to operate normally without the additional threads on single-core systems and enabling them when the additional CPU power is available.
 
-For more information, see [Coding For Multiple Cores on Xbox 360 and Microsoft Windows](https://msdn.microsoft.com/library/windows/desktop/ee416321) and [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](https://msdn.microsoft.com/library/windows/desktop/ee418650) in the DirectX articles, as well as the DXUTLockFreePipe utility and the CoreDetection sample.
+For more information, see [Coding For Multiple Cores on Xbox 360 and Microsoft Windows](https://docs.microsoft.com/windows/desktop/DxTechArts/coding-for-multiple-cores) and [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](https://docs.microsoft.com/windows/desktop/DxTechArts/lockless-programming) in the DirectX articles, as well as the DXUTLockFreePipe utility and the CoreDetection sample.
 
 Making use of the Direct3D 11 free-threaded resource creation and device contexts is useful in achieving many-core scalability in rendering and loading graphics resources. See Games for Windows Showcase S.1.
 
-Note that using the CPU instruction rdtsc directly, instead of using Windows APIs to compute timing on multicore systems, can lead to problems on some hardware and OS configurations; see [Game Timing and Multicore Processors](https://msdn.microsoft.com/library/windows/desktop/ee417693) in the DirectX articles.
+Note that using the CPU instruction rdtsc directly, instead of using Windows APIs to compute timing on multicore systems, can lead to problems on some hardware and OS configurations; see [Game Timing and Multicore Processors](https://docs.microsoft.com/windows/desktop/DxTechArts/game-timing-and-multicore-processors) in the DirectX articles.
 
 </dd> </dl>
 
@@ -1340,7 +1340,7 @@ Multi-touch-capable displays for computers are available for laptops and desktop
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-Native code applications can access multi-touch through the WM\_TOUCH messages, in combination with the [**RegisterTouchWindow**](https://msdn.microsoft.com/library/windows/desktop/dd317326) function. See also the Manipulations and Inertia API.
+Native code applications can access multi-touch through the WM\_TOUCH messages, in combination with the [**RegisterTouchWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registertouchwindow) function. See also the Manipulations and Inertia API.
 
 Windows Presentation Foundation (WPF) 4.0 provides a managed solution for multi-touch interfaces.
 
@@ -1387,8 +1387,8 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 -   Use the dynamic-link library (DLL) version of the C Runtime, rather than static linking, and make use of Secure CRT. (Exceptions can be made in special pre-installation cases, like for an Autorun program or for the installer itself).
 -   For game audio, use XAudio2, X3DAudio, and/or XACT, rather than DirectSound. For audio engines that do all mixing and source-rate conversion and need only a low-latency solution for audio output, use DirectSound on Windows XP (only) and WASAPI on Windows Vista and Windows 7.
 -   Avoid using legacy and deprecated APIs: DirectDraw, DirectSound, DirectPlay, DirectMusic's performance layer, DirectPlay Voice, and Direct3D Retained Mode. Note that DirectPlay Voice and Direct3D Retained Mode are not available at all on Windows Vista or Windows 7. DirectPlay and DirectMusic's performance layer are not available to x64-native applications.
--   Optimize using SSE/SSE2 SIMD instruction sets. See the [DirectXMath](https://msdn.microsoft.com/library/windows/desktop/hh437833) API in the Windows SDK as a cross-platform solution for SIMD-optimized math operations.
--   Use modern best practices for Windows security (including compiler and linker options like **/NXCOMPAT**, **/GS**, **/SAFESEH**, **/DYNAMICBASE**, **/SDL**, and so on). For more information, see [Best Security Practices in Game Development](https://msdn.microsoft.com/library/windows/desktop/ee416233).
+-   Optimize using SSE/SSE2 SIMD instruction sets. See the [DirectXMath](https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal) API in the Windows SDK as a cross-platform solution for SIMD-optimized math operations.
+-   Use modern best practices for Windows security (including compiler and linker options like **/NXCOMPAT**, **/GS**, **/SAFESEH**, **/DYNAMICBASE**, **/SDL**, and so on). For more information, see [Best Security Practices in Game Development](https://docs.microsoft.com/windows/desktop/DxTechArts/best-security-practices-in-game-development).
 -   Use the latest Windows SDK components and libraries. Remove dependencies on the legacy DirectSetup deployed out-of-band components such as D3DX9, D3DX10, and D3DX11. Consider using [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) or [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) or both.
 -   Avoid using the older HLSL compiler, and instead, use the modern HLSL compiler. If support for Pixel Shader 1.x is required by your application, use shader assembly rather than HLSL, or limit the use of the older compiler to just those scenarios.
 
@@ -1400,11 +1400,11 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Games_for_Windows__Test_Cases__"></span><span id="games_for_windows__test_cases__"></span><span id="GAMES_FOR_WINDOWS__TEST_CASES__"></span>Games for Windows: Test Cases <br/>                              | Best Practices for Games on Windows XP, Windows Vista, and Windows 7<br/>                                                                               |
 | <span id="Windows_SDK__"></span><span id="windows_sdk__"></span><span id="WINDOWS_SDK__"></span>Windows SDK <br/>                                                                                                      | [Windows SDKs](https://msdn.microsoft.com/bb980924.aspx)<br/>                                                                                      |
-| <span id="User_Account_Control_Guidelines__"></span><span id="user_account_control_guidelines__"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES__"></span>User Account Control Guidelines <br/>                      | [Windows Vista Application Development Requirements for User Account Control Compatibility](https://msdn.microsoft.com/library/bb530410.aspx)<br/> |
+| <span id="User_Account_Control_Guidelines__"></span><span id="user_account_control_guidelines__"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES__"></span>User Account Control Guidelines <br/>                      | [Windows Vista Application Development Requirements for User Account Control Compatibility](/previous-versions/dotnet/articles/bb530410(v=msdn.10))<br/> |
 | <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal <br/>                                                  | [Windows Quality Online Services (Winqual)](https://sysdev.microsoft.com/)<br/>                                                                         |
-| <span id="DirectX_Developer_Portal__"></span><span id="directx_developer_portal__"></span><span id="DIRECTX_DEVELOPER_PORTAL__"></span>DirectX Developer Portal <br/>                                                  | [Directx Developer Center](https://msdn.microsoft.com/directx/)<br/>                                                                               |
-| <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog<br/> | [Games for Windows and the DirectX SDK](https://blogs.msdn.com/b/chuckw/)<br/>                                                                           |
-| <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles<br/>                                             | [DirectX Technical Articles](https://msdn.microsoft.com/library/windows/desktop/ee416994)<br/>                                                                                    |
+| <span id="DirectX_Developer_Portal__"></span><span id="directx_developer_portal__"></span><span id="DIRECTX_DEVELOPER_PORTAL__"></span>DirectX Developer Portal <br/>                                                  | [Directx Developer Center](https://docs.microsoft.com/previous-versions/windows/apps/hh452744(v=win.10))<br/>                                                                               |
+| <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog<br/> | [Games for Windows and the DirectX SDK](https://blogs.msdn.microsoft.com/chuckw/)<br/>                                                                           |
+| <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles<br/>                                             | [DirectX Technical Articles](https://docs.microsoft.com/windows/desktop/DxTechArts/dx9-technical-articles)<br/>                                                                                    |
 
 
 

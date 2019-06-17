@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentErrorException.GetObjectData method
 
-When overridden in a derived class, sets the [SerializationInfo](https://msdn.microsoft.com/en-us/library/a9b6042e) with information about the exception.
+When overridden in a derived class, sets the [SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN) with information about the exception.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -59,21 +59,21 @@ public override void GetObjectData(
 #### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://msdn.microsoft.com/en-us/library/a9b6042e)  
+    Type: [System.Runtime.Serialization.SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN)  
     
-    The [SerializationInfo](https://msdn.microsoft.com/en-us/library/a9b6042e) that holds the serialized object data about the exception being thrown.
+    The [SerializationInfo](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN) that holds the serialized object data about the exception being thrown.
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://msdn.microsoft.com/en-us/library/t16abws5)  
+    Type: [System.Runtime.Serialization.StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN)  
     
-    The [StreamingContext](https://msdn.microsoft.com/en-us/library/t16abws5) that contains contextual information about the source or destination.
+    The [StreamingContext](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext?redirectedfrom=MSDN) that contains contextual information about the source or destination.
 
 #### Implements
 
-[ISerializable.GetObjectData(SerializationInfo, StreamingContext)](https://msdn.microsoft.com/en-us/library/27cxsdk6)  
-[_Exception.GetObjectData(SerializationInfo, StreamingContext)](https://msdn.microsoft.com/en-us/library/854b9522)  
+[ISerializable.GetObjectData(SerializationInfo, StreamingContext)](https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable.getobjectdata?redirectedfrom=MSDN#System_Runtime_Serialization_ISerializable_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_)  
+[_Exception.GetObjectData(SerializationInfo, StreamingContext)](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._exception.getobjectdata?redirectedfrom=MSDN#System_Runtime_InteropServices__Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_)  
 
 ## Exceptions
 
@@ -90,7 +90,7 @@ public override void GetObjectData(
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/27426hcy">ArgumentNullException</a></td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception?redirectedfrom=MSDN">ArgumentNullException</a></td>
 <td><p>The info parameter is a null reference (Nothing in Visual Basic).</p></td>
 </tr>
 </tbody>

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 -   [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)
 -   [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 -   [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
--   [*OFNHookProcOldStyle*](https://msdn.microsoft.com/library/windows/desktop/ms646932)
+-   [*OFNHookProcOldStyle*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85))
 -   [**PagePaintHook**](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx)
 -   [**PageSetupDlg**](https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx)
 -   [**PageSetupHook**](https://msdn.microsoft.com/en-us/library/ms646939(v=VS.85).aspx)

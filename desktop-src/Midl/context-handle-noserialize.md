@@ -77,7 +77,7 @@ The name of the parameter as defined in the IDL file.
 
 The [**\[context\_handle\]**](context-handle.md) attribute identifies a binding handle that maintains context, or state information, on the server between remote procedure calls. The attribute can appear as an IDL [**typedef**](typedef.md) type attribute, as a function return type attribute, or as a parameter attribute.
 
-By default, calls on context handles are serialized. An application can call [**RpcSsDontSerializeContext**](https://msdn.microsoft.com/library/windows/desktop/aa378473) to override this default behavior. Using the [**\[context\_handle\]**](context-handle.md) attribute in an ACF file guarantees that calls on this particular context handle will not be serialized, regardless of the calling application's behavior. Providing a context rundown routine is optional.
+By default, calls on context handles are serialized. An application can call [**RpcSsDontSerializeContext**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcssdontserializecontext) to override this default behavior. Using the [**\[context\_handle\]**](context-handle.md) attribute in an ACF file guarantees that calls on this particular context handle will not be serialized, regardless of the calling application's behavior. Providing a context rundown routine is optional.
 
 This attribute is available in MIDL version 5.0.
 
@@ -103,16 +103,16 @@ HRESULT RemoteFunc([context_handle_noserialize] pCxHandle);
 [**context\_handle**](context-handle.md)
 </dt> <dt>
 
-[Context Handles](https://msdn.microsoft.com/library/windows/desktop/aa373605)
+[Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/context-handles)
 </dt> <dt>
 
-[**RpcSsDontSerializeContext**](https://msdn.microsoft.com/library/windows/desktop/aa378473)
+[**RpcSsDontSerializeContext**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcssdontserializecontext)
 </dt> <dt>
 
-[Server Context Run-down Routine](https://msdn.microsoft.com/library/windows/desktop/aa378673)
+[Server Context Run-down Routine](https://docs.microsoft.com/windows/desktop/Rpc/server-context-run-down-routine)
 </dt> <dt>
 
-[Multithreaded Clients and Context Handles](https://msdn.microsoft.com/library/windows/desktop/aa374194)
+[Multithreaded Clients and Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/multithreaded-clients-and-context-handles)
 </dt> <dt>
 
 [**typedef**](typedef.md)

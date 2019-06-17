@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM structure
 
-A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc) and [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_compute_pipeline_state_desc).
+A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) and [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc).
 
 CD3DX12\_PIPELINE\_STATE\_STREAM supports Windows 10 Creators Update and newer but doesn't support new features of the Fall Creators update, such as view instancing. To support features of the Fall Creators update, use [**CD3DX12\_PIPELINE\_STATE\_STREAM1**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM1**) instead.
 
@@ -275,10 +276,10 @@ Those typedefs are:
 [**CD3DX12\_PIPELINE\_STATE\_STREAM1**](cd3dx12-pipeline-state-stream1.md)
 </dt> <dt>
 
-[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc)
+[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc)
 </dt> <dt>
 
-[**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_compute_pipeline_state_desc)
+[**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)
 </dt> </dl>
 
  

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # NM\_CHAR (toolbar) notification code
 
-Sent by a toolbar when it receives a [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a toolbar when it receives a [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

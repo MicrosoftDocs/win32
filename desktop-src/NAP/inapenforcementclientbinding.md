@@ -28,7 +28,7 @@ The **INapEnforcementClientBinding** provides methods that enforcement clients u
 
 ## Members
 
-The **INapEnforcementClientBinding** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapEnforcementClientBinding** also has these types of members:
+The **INapEnforcementClientBinding** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapEnforcementClientBinding** also has these types of members:
 
 -   [Methods](#methods)
 

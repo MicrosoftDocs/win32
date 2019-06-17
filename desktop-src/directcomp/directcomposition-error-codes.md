@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DirectComposition error codes
 
-If an error occurs, Microsoft DirectComposition returns a code as an **HRESULT** value. This section describes the error codes that are specific to DirectComposition. For a list of general Component Object Model (COM) error codes, see [COM Error Codes](https://msdn.microsoft.com/library/windows/desktop/dd542642).
+If an error occurs, Microsoft DirectComposition returns a code as an **HRESULT** value. This section describes the error codes that are specific to DirectComposition. For a list of general Component Object Model (COM) error codes, see [COM Error Codes](https://docs.microsoft.com/windows/desktop/com/com-error-codes).
 
 <dl> <dt>
 

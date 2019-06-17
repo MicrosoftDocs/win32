@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Developing a WMI Provider
 
-A provider is a Component Object Model (COM) object that acts as an intermediary between WMI and a managed object. For example, when an application or script requests disk data using the WMI [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class, the data is obtained dynamically through the preinstalled [Win32 provider](https://msdn.microsoft.com/library/aa394388).
+A provider is a Component Object Model (COM) object that acts as an intermediary between WMI and a managed object. For example, when an application or script requests disk data using the WMI [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class, the data is obtained dynamically through the preinstalled [Win32 provider](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider).
 
 If you want to supply data through WMI to other applications, you can create an unmanaged code provider by writing a COM server or through the **WMI ATL wizards** in Visual Studio. You can write a managed code provider by using WMI in the .NET Framework. The topics in this section describe the process of writing an unmanaged COM provider.
 
@@ -20,7 +20,7 @@ If you want to supply data through WMI to other applications, you can create an 
 
 A provider consists of classes defined in the [*Managed Object Format (MOF)*](gloss-m.md) schema and a DLL file which carries out the functions of the provider. For example, the MOF that defines the classes of the Win32 provider is CIMWin32.mof and the DLL is CIMWin32.dll, both are found in %windir%\\System32\\Wbem.
 
-The MOF schema for the provider may contain several provider types. For example, the [Event Log Provider](https://msdn.microsoft.com/library/aa390413) has instance, method, and event provider types in one MOF file named Ntevt.mof. It is recommended that all of the classes and registration schema for related providers be assembled in one file, rather than creating one file per class.
+The MOF schema for the provider may contain several provider types. For example, the [Event Log Provider](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/event-log-provider) has instance, method, and event provider types in one MOF file named Ntevt.mof. It is recommended that all of the classes and registration schema for related providers be assembled in one file, rather than creating one file per class.
 
 In addition to using preinstalled providers, you can create your own provider to supply information about a hardware device or the operations of software.
 

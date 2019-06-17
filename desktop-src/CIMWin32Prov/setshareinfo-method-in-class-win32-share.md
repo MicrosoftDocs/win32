@@ -18,9 +18,9 @@ api_location:
 
 # SetShareInfo method of the Win32\_Share class
 
-The **SetShareInfo** [WMI class](https://msdn.microsoft.com/library/aa393244) method sets the parameters of a shared resource.
+The **SetShareInfo** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method sets the parameters of a shared resource.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -58,7 +58,7 @@ Optional comment to describe the resource being shared.
 *Access* \[in, optional\]
 </dt> <dd>
 
-Security descriptor for user-level permissions. A security descriptor contains information about the permission, owner, and access capabilities of the resource. For more information, see [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402).
+Security descriptor for user-level permissions. A security descriptor contains information about the permission, owner, and access capabilities of the resource. For more information, see [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
 
 </dd> </dl>
 
@@ -137,7 +137,7 @@ $newShare = Get-WmiObject win32_share | Where-Object {$_.name -eq "newShare"}
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Share**](win32-share.md)

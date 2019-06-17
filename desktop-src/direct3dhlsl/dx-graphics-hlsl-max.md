@@ -55,9 +55,9 @@ For values of -INF or INF, max will behave as expected. However for values of Na
 
 | Name | In/Out      | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                 | Size                         |
 |------|-------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------|
-| x    | in          | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | any                          |
-| y    | in          | same as input x                                                                                                | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | same dimension(s) as input x |
-| ret  | return type | same as input x                                                                                                | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | same dimension(s) as input x |
+| x    | in          | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | any                          |
+| y    | in          | same as input x                                                                                                | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | same dimension(s) as input x |
+| ret  | return type | same as input x                                                                                                | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | same dimension(s) as input x |
 
 
 

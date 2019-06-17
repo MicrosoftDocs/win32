@@ -442,7 +442,7 @@ To decrypt data, perform the following steps:
 
 1.  Open an algorithm provider that supports encryption, such as **BCRYPT\_DES\_ALGORITHM**.
 2.  Obtain the key that the data was encrypted with, and use that key to obtain a handle for the key.
-3.  Obtain the size of the decrypted data. This is based on the encryption algorithm, the padding scheme (if any), and the size of the data to be decrypted. You can obtain the encrypted data size by using the [**BCryptDecrypt**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptdecrypt) function, passing **NULL** for the *pbOutput* parameter. The parameters that specify the padding scheme and [*initialization vector*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-initialization-vector-gly) (IV) must be the same as when the data was encrypted except for the *pbInput* parameter, which is not used in this case.
+3.  Obtain the size of the decrypted data. This is based on the encryption algorithm, the padding scheme (if any), and the size of the data to be decrypted. You can obtain the encrypted data size by using the [**BCryptDecrypt**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptdecrypt) function, passing **NULL** for the *pbOutput* parameter. The parameters that specify the padding scheme and [*initialization vector*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) (IV) must be the same as when the data was encrypted except for the *pbInput* parameter, which is not used in this case.
 4.  Allocate a memory buffer for the decrypted data.
 5.  You can either decrypt the data in place by using the same buffer, or decrypt the data into a separate buffer.
 

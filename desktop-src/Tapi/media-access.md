@@ -23,7 +23,7 @@ Because these device classes and media stream operations function independently 
 TAPI reports changes in the type of media stream (voice, fax, data modem, and so on) to participating applications. This process is sometimes referred to as [*call classification*](c-tapgloss.md). The mechanism used to determine the type of media stream is specific to the service provider. For example, a service provider may filter the media stream for energy or tones that characterize the media type, or it may use distinctive ringing, data exchanged in messages over the network, or knowledge about the caller or called ID to make this determination.
 
 -   [Call Monitoring](call-monitoring.md)
--   [Media Control](https://msdn.microsoft.com/library/ms736578)
+-   [Media Control](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms736578(v=vs.85))
 -   [Digit Gathering](digit-gathering.md)
 -   [Generating Inband Digits and Tones](generating-inband-digits-and-tones.md)
 

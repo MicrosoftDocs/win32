@@ -218,7 +218,7 @@ switch (msg)
 
 
 > [!Note]  
-> In order to use the [**ScreenToClient**](https://msdn.microsoft.com/library/windows/desktop/dd162952) function, you must have high DPI support in your application. For more information about supporting high DPI, visit the [High DPI]( https://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
+> In order to use the [**ScreenToClient**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information about supporting high DPI, visit the [High DPI]( https://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
 
  
 

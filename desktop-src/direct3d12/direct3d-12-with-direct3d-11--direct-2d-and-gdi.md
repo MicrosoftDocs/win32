@@ -2,6 +2,7 @@
 title: Direct3D 12 interop
 description: D3D12 can be used to write componentized applications.
 ms.assetid: 51F7E715-82B6-48D8-A06A-CBBEDF6968F5
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -44,9 +45,9 @@ There are several reasons an application would want D3D12 interop with other API
 There are four main techniques for interop in D3D12:
 
 -   An app can choose to provide an open command list to a component, which records some additional rendering commands to an already-bound render target. This is equivalent to providing a prepared device context to another component in D3D11, and is great for things like adding UI/text to an already bound back buffer.
--   An app can choose to provide a command queue to a component, along with a desired destination resource. This is equivalent to using [**ClearState**](https://msdn.microsoft.com/library/windows/desktop/ff476389) or [**DeviceContextState**](https://msdn.microsoft.com/library/windows/desktop/hh446878) APIs in D3D11 to provide a clean device context to another component. This is how components like D2D operate.
+-   An app can choose to provide a command queue to a component, along with a desired destination resource. This is equivalent to using [**ClearState**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-clearstate) or [**DeviceContextState**](https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate) APIs in D3D11 to provide a clean device context to another component. This is how components like D2D operate.
 -   A component may opt for a model where it produces a command list, potentially in parallel, which the app is responsible for submission at a later time. At least one resource must be provided across component boundaries. This same technique is available in D3D11 using deferred contexts, though the performance in D3D12 is more desirable.
--   Each component has its own queue(s) and/or device(s), and the app and components need to share resources and synchronization information across component boundaries. This is similar to the legacy `ISurfaceQueue`, and the more modern [**IDXGIKeyedMutex**](https://msdn.microsoft.com/library/windows/desktop/ff471338).
+-   Each component has its own queue(s) and/or device(s), and the app and components need to share resources and synchronization information across component boundaries. This is similar to the legacy `ISurfaceQueue`, and the more modern [**IDXGIKeyedMutex**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex).
 
 The differences between these scenarios is what exactly is shared between the component boundaries. The device is assumed to be shared, but since it is basically stateless, it is not really relevant. The key objects are the command list, the command queue, the sync objects, and the resources. Each of these have their own complications when sharing them.
 
@@ -58,11 +59,11 @@ The simplest method of interop requires sharing only a command list with a porti
 
 Probably the most common technique for multiple components sharing a device in the same process.
 
-When the command queue is the unit of sharing, there needs to be a call to the component to let it know that all outstanding command lists need to be submitted to the command queue immediately (and any internal command queues need to be synchronized). This is equivalent to the D3D11 [**Flush**](https://msdn.microsoft.com/library/windows/desktop/ff476425) API, and is the only way that the application can submit its own command lists or sync primitives.
+When the command queue is the unit of sharing, there needs to be a call to the component to let it know that all outstanding command lists need to be submitted to the command queue immediately (and any internal command queues need to be synchronized). This is equivalent to the D3D11 [**Flush**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush) API, and is the only way that the application can submit its own command lists or sync primitives.
 
 ### Sharing sync primitives
 
-The expected pattern for a component which operates on its own devices and/or command queues will be to accept an [**ID3D12Fence**](/windows/desktop/api/D3D12/nn-d3d12-id3d12fence) or shared handle, and UINT64 pair upon beginning its work, which it will wait on, and then a second ID3D12Fence or shared handle, and UINT64 pair which it will signal when all work is complete. This pattern matches the current implementation of both [**IDXGIKeyedMutex**](https://msdn.microsoft.com/library/windows/desktop/ff471338) and the DWM/DXGI flip model synchronization design.
+The expected pattern for a component which operates on its own devices and/or command queues will be to accept an [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence) or shared handle, and UINT64 pair upon beginning its work, which it will wait on, and then a second ID3D12Fence or shared handle, and UINT64 pair which it will signal when all work is complete. This pattern matches the current implementation of both [**IDXGIKeyedMutex**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgikeyedmutex) and the DWM/DXGI flip model synchronization design.
 
 ### Sharing resources
 

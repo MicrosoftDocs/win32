@@ -56,7 +56,7 @@ The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure
 
 If the hook procedure returns zero, the dialog box accepts the specified file name and closes.
 
-To reject the specified file name and force the dialog box to remain open, return a nonzero value from the hook procedure and call the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to set a nonzero **DWL\_MSGRESULT** value.
+To reject the specified file name and force the dialog box to remain open, return a nonzero value from the hook procedure and call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set a nonzero **DWL\_MSGRESULT** value.
 
 ## Remarks
 
@@ -96,7 +96,7 @@ The system sends this notification only if the dialog box was created using the 
 [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna)
 </dt> <dt>
 
-[**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591)
+[**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
 </dt> <dt>
 
 **Conceptual**

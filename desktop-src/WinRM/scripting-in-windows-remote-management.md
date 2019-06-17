@@ -25,11 +25,11 @@ The WinRM Scripting API is called by Winrm.vbs, a command-line tool, which is wr
 
 ## Using WSman Compared to Using WMI Scripting
 
-WMI connects to remote computers through DCOM, which requires the configuration described in [Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/library/aa389290). WinRM does not use DCOM to connect to a remote computer. Instead, the WS-Management protocol sends SOAP messages and the service uses a single port for HTTP and a port for HTTPS transport.
+WMI connects to remote computers through DCOM, which requires the configuration described in [Connecting to WMI on a Remote Computer](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer). WinRM does not use DCOM to connect to a remote computer. Instead, the WS-Management protocol sends SOAP messages and the service uses a single port for HTTP and a port for HTTPS transport.
 
 Unlike the **winrm** command-line tool, scripts must provide the XML required to pass to the WS-Management protocol messages. They must also provide URIs. For more information, see [Resource URIs](resource-uris.md) and [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
-The WMI Scripting API works with objects, such as instances of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173), which represent resources on a computer. This WMI class is defined in [*Managed Object Format (MOF)*](https://msdn.microsoft.com/library/aa390816#wmi-gloss-managed-object-format) files, which are stored in binary form in the WMI repository. In WMI, a Get operation for a single resource or a query for multiple instances returns WMI objects.
+The WMI Scripting API works with objects, such as instances of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk), which represent resources on a computer. This WMI class is defined in [*Managed Object Format (MOF)*](https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-m) files, which are stored in binary form in the WMI repository. In WMI, a Get operation for a single resource or a query for multiple instances returns WMI objects.
 
 A WinRM script does not return objects, but rather streams of XML text. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
@@ -145,7 +145,7 @@ Win32_Service
 
 ## WinRM Script and Winrm.cmd Output
 
-The output from a WinRM script is encoded in Unicode. If you create a [FileSystemObject](https://msdn.microsoft.com/library/6kxy1a51.aspx) and write a file from the script, the resulting file is Unicode. However, if you redirect the output to a file, the encoding is ANSI. If you redirect the output to an XML file and there are Unicode characters in the output, the XML will be invalid. Be aware that the **Winrm** command-line tool outputs ANSI.
+The output from a WinRM script is encoded in Unicode. If you create a [FileSystemObject](https://docs.microsoft.com/previous-versions//6kxy1a51(v=vs.85)) and write a file from the script, the resulting file is Unicode. However, if you redirect the output to a file, the encoding is ANSI. If you redirect the output to an XML file and there are Unicode characters in the output, the XML will be invalid. Be aware that the **Winrm** command-line tool outputs ANSI.
 
 ## Related topics
 

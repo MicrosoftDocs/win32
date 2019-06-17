@@ -40,7 +40,7 @@ On hardware that implements hierarchical Z-buffer optimizations, you may enable 
 [Graphics Pipeline](overviews-direct3d-11-graphics-pipeline.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://msdn.microsoft.com/library/windows/desktop/bb205123)
+[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  

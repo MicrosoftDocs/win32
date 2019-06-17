@@ -54,14 +54,14 @@ public Instance(
 #### Parameters
 
   - name  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The name of the instance. This string must be unique within a given process hosting the database engine.
 
 <!-- end list -->
 
   - displayName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     A display name for the instance. This will be used in eventlog entries.
 

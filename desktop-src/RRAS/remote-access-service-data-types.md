@@ -26,7 +26,7 @@ typedef in6_addr RASIPV6ADDR;
 **RASIPV4ADDR**
 </dt> <dd>
 
-A [**in\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738571) that contains an IPv4 address.
+A [**in\_addr**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr) that contains an IPv4 address.
 
 > [!Note]  
 > Supported in Windows Vista or later versions of Windows.
@@ -38,7 +38,7 @@ A [**in\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738571) th
 **RASIPV6ADDR**
 </dt> <dd>
 
-A [**in6\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738560) that contains an IPv6 address.
+A [**in6\_addr**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)) that contains an IPv6 address.
 
 > [!Note]  
 > Supported in Windows Vista or later versions of Windows.

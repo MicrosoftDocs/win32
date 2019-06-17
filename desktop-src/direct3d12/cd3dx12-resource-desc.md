@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -69,7 +70,7 @@ Creates a new instance of a CD3DX12\_RESOURCE\_DESC, initialized with the conten
 
 Creates a new instance of a CD3DX12\_RESOURCE\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_DIMENSION**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension) dimension
+[**D3D12\_RESOURCE\_DIMENSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension) dimension
 
 UINT64 alignment
 
@@ -81,13 +82,13 @@ UINT16 depthOrArraySize
 
 UINT16 mipLevels
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT sampleCount
 
 UINT sampleQuality
 
-[**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_layout) layout
+[**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout) layout
 
 [**D3D12\_RESOURCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags) flags
 
@@ -98,7 +99,7 @@ UINT sampleQuality
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)& resAllocInfo
 
 (opt) [**D3D12\_RESOURCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags) flags = D3D12\_RESOURCE\_FLAG\_NONE
 
@@ -122,7 +123,7 @@ UINT64 width
 
 Specifies a function that initializes the following parameters:
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT64 width
 
@@ -132,7 +133,7 @@ UINT64 width
 
 (opt) [**D3D12\_RESOURCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags) flags = D3D12\_RESOURCE\_FLAG\_NONE
 
-(opt) [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_layout) layout = D3D12\_TEXTURE\_LAYOUT\_UNKNOWN
+(opt) [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout) layout = D3D12\_TEXTURE\_LAYOUT\_UNKNOWN
 
 (opt) UINT64 alignment = 0
 
@@ -143,7 +144,7 @@ UINT64 width
 
 Specifies a function that initializes the following parameters:
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT64 width
 
@@ -159,7 +160,7 @@ UINT height
 
 (opt) [**D3D12\_RESOURCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags) flags = D3D12\_RESOURCE\_FLAG\_NONE
 
-(opt) [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_layout) layout = D3D12\_TEXTURE\_LAYOUT\_UNKNOWN
+(opt) [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout) layout = D3D12\_TEXTURE\_LAYOUT\_UNKNOWN
 
 (opt) UINT64 alignment = 0
 
@@ -170,7 +171,7 @@ UINT height
 
 Specifies a function that initializes the following parameters:
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT64 width
 
@@ -182,7 +183,7 @@ UINT16 depth
 
 (opt) [**D3D12\_RESOURCE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags) flags = D3D12\_RESOURCE\_FLAG\_NONE
 
-(opt) [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_layout) layout = D3D12\_TEXTURE\_LAYOUT\_UNKNOWN
+(opt) [**D3D12\_TEXTURE\_LAYOUT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout) layout = D3D12\_TEXTURE\_LAYOUT\_UNKNOWN
 
 (opt) UINT64 alignment = 0
 
@@ -191,21 +192,21 @@ UINT16 depth
 **inline Depth() const**
 </dt> <dd>
 
-If Dimension == [**D3D12\_RESOURCE\_DIMENSION**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension)\_TEXTURE3D, returns DepthOrArraySize. If Dimension != D3D12\_RESOURCE\_DIMENSION\_TEXTURE3D, returns 1.
+If Dimension == [**D3D12\_RESOURCE\_DIMENSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension)\_TEXTURE3D, returns DepthOrArraySize. If Dimension != D3D12\_RESOURCE\_DIMENSION\_TEXTURE3D, returns 1.
 
 </dd> <dt>
 
 **inline ArraySize() const**
 </dt> <dd>
 
-If Dimension != D3D12\_RESOURCE\_DIMENSION\_TEXTURE3D, returns DepthOrArraySize. If Dimension == D3D12\_RESOURCE\_DIMENSION\_TEXTURE3D, returns 1. See [**D3D12\_RESOURCE\_DIMENSION**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension)\_TEXTURE3D.
+If Dimension != D3D12\_RESOURCE\_DIMENSION\_TEXTURE3D, returns DepthOrArraySize. If Dimension == D3D12\_RESOURCE\_DIMENSION\_TEXTURE3D, returns 1. See [**D3D12\_RESOURCE\_DIMENSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension)\_TEXTURE3D.
 
 </dd> <dt>
 
 **inline PlaneCount(ID3D12Device\* pDevice) const**
 </dt> <dd>
 
-Returns D3D12GetFormatPlaneCount(pDevice, Format). See [**D3D12GetFormatPlaneCount**](d3d12getformatplanecount.md) and [**ID3D12Device**](/windows/desktop/api/D3D12/nn-d3d12-id3d12device).
+Returns D3D12GetFormatPlaneCount(pDevice, Format). See [**D3D12GetFormatPlaneCount**](d3d12getformatplanecount.md) and [**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device).
 
 </dd> <dt>
 

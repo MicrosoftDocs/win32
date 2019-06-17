@@ -30,7 +30,7 @@ ms.date: 05/31/2018
 
 # Access Right Identifiers
 
-Windows Filtering Platform (WFP) uses the [standard Win32 access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607) plus a set of WFP-specific access rights built into the filtering platform. These access rights are used to secure objects in user mode only. Kernel-mode callers bypass all access checks.
+Windows Filtering Platform (WFP) uses the [standard Win32 access rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights) plus a set of WFP-specific access rights built into the filtering platform. These access rights are used to secure objects in user mode only. Kernel-mode callers bypass all access checks.
 
 WFP specific access right identifiers are as follows.
 
@@ -205,7 +205,7 @@ STANDARD\_RIGHTS\_REQUIRED \| FWPM\_ACTRL\_ADD \| FWPM\_ACTRL\_ADD\_LINK \| FWPM
 [Windows Filtering Platform Access Control Model](access-control.md)
 </dt> <dt>
 
-[Standard Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa379607)
+[Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights)
 </dt> </dl>
 
  

@@ -17,7 +17,7 @@ Vertex shaders and pixel shaders are simplified considerably from earlier shader
 
 The semantics used on vertex shader outputs must be used on pixel shader inputs. The semantics are used to map the vertex shader outputs to the pixel shader inputs, similar to the way the vertex declaration is mapped to the vertex shader input registers and previous shader models. See Match Semantics on vs 3.0 and ps 3.0 Shaders.
 
-Additional wrap mode render states have been added to cover the possibility of additional texture coordinates in this new scheme. Attributes with D3DDECLUSAGE\_TEXCOORD and usage index from 0 to 15 are interpolated in wrap mode when the corresponding [**D3DRS\_WRAP\***](https://msdn.microsoft.com/library/windows/desktop/bb172599) is set.
+Additional wrap mode render states have been added to cover the possibility of additional texture coordinates in this new scheme. Attributes with D3DDECLUSAGE\_TEXCOORD and usage index from 0 to 15 are interpolated in wrap mode when the corresponding [**D3DRS\_WRAP\***](https://docs.microsoft.com/windows/desktop/direct3d9/d3drenderstatetype) is set.
 
 -   [Vertex Shader Model 3 Features](#vertex-shader-model-3-features)
 -   [Pixel Shader Model 3 Features](#pixel-shader-model-3-features)
@@ -63,9 +63,9 @@ The pixel shader color and texture registers have been collapsed into ten input 
 
 The shader constant registers can be set using:
 
--   [**SetPixelShaderConstantB**](https://msdn.microsoft.com/library/windows/desktop/bb174451)
--   [**SetPixelShaderConstantI**](https://msdn.microsoft.com/library/windows/desktop/bb174453)
--   [**SetPixelShaderConstantF**](https://msdn.microsoft.com/library/windows/desktop/bb174452)
+-   [**SetPixelShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb)
+-   [**SetPixelShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti)
+-   [**SetPixelShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf)
 
 ## Match Semantics on vs\_3\_0 and ps\_3\_0 Shaders
 
@@ -99,7 +99,7 @@ dcl_texcoord1 o6.yzw
 
 
 
-These two shaders conflict with their use of the [**D3DDECLUSAGE\_TEXCOORD0**](https://msdn.microsoft.com/library/windows/desktop/bb172534) And **D3DDECLUSAGE\_TEXCOORD1** semantics.
+These two shaders conflict with their use of the [**D3DDECLUSAGE\_TEXCOORD0**](https://docs.microsoft.com/windows/desktop/direct3d9/d3ddeclusage) And **D3DDECLUSAGE\_TEXCOORD1** semantics.
 
 Rewrite the vertex shader like this to avoid the semantic collision:
 

@@ -67,7 +67,7 @@ public static void JetBeginTransaction3(
 <!-- end list -->
 
   - userTransactionId  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
     
     An optional identifier supplied by the user for identifying the transaction.
 

@@ -142,7 +142,7 @@ The **\_\_PropertyProviderRegistration** class is derived from [**\_\_ProviderRe
 
 <dl> <dt>
 
-[**\_\_ProviderRegistration**](https://msdn.microsoft.com/library/aa394672)
+[**\_\_ProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--providerregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

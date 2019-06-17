@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowAutofill](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#browser-allowautofill)
+[AllowAutofill](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCookies](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#browser-allowcookies)
+[AllowCookies](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -117,7 +117,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowDeveloperTools](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#browser-allowdevelopertools)
+[AllowDeveloperTools](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -335,7 +335,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Browser".
@@ -362,7 +362,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
@@ -508,7 +508,7 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
+[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

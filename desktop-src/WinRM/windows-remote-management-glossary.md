@@ -138,7 +138,7 @@ The operating system component that receives events from the BMC and other opera
 **event forwarding**
 </dt> <dd>
 
-A notification of events that occur on remote computers can be sent to subscribing applications. Event forwarding is not a feature of WinRM, but of the [Windows Event Log](https://msdn.microsoft.com/library/windows/desktop/aa385780). Event forwarding becomes available for the first time in Windows Vista. The Management applications, such as Microsoft Operations Manager (MOM) use event forwarding.
+A notification of events that occur on remote computers can be sent to subscribing applications. Event forwarding is not a feature of WinRM, but of the [Windows Event Log](https://docs.microsoft.com/windows/desktop/WES/windows-event-log). Event forwarding becomes available for the first time in Windows Vista. The Management applications, such as Microsoft Operations Manager (MOM) use event forwarding.
 
 </dd> </dl>
 
@@ -156,7 +156,7 @@ A query mechanism for specifying a limited set of instances in the request for a
 **filter dialect**
 </dt> <dd>
 
-An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate). The WinRM service supports [WQL](https://msdn.microsoft.com/library/aa394606) as a filter dialect when receiving requests.
+An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate). The WinRM service supports [WQL](https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi) as a filter dialect when receiving requests.
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ The client application obtains BMC data through the WinRM [*listener*](windows-r
 **Intelligent Platform Management Interface (IPMI)**
 </dt> <dd>
 
-An IT industry standard for the architecture of [*baseboard management controller (BMC)*](windows-remote-management-glossary.md). The Windows hardware management features supply an [*IPMI driver*](windows-remote-management-glossary.md) and a WMI [*IPMI provider*](windows-remote-management-glossary.md) that allow management scripts, command-line tools, and applications to obtain BMC data. The IPMI provider has WMI [classes](https://msdn.microsoft.com/library/aa391402).
+An IT industry standard for the architecture of [*baseboard management controller (BMC)*](windows-remote-management-glossary.md). The Windows hardware management features supply an [*IPMI driver*](windows-remote-management-glossary.md) and a WMI [*IPMI provider*](windows-remote-management-glossary.md) that allow management scripts, command-line tools, and applications to obtain BMC data. The IPMI provider has WMI [classes](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ The kernel driver that enables access to [*baseboard management controller (BMC)
 **IPMI provider**
 </dt> <dd>
 
-A standard WMI provider that defines classes modeling the [*IPMI*](windows-remote-management-glossary.md) and its data. The [IPMI provider](https://msdn.microsoft.com/library/aa391402) is a COM DLL that obtains data from the BMC.
+A standard WMI provider that defines classes modeling the [*IPMI*](windows-remote-management-glossary.md) and its data. The [IPMI provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) is a COM DLL that obtains data from the BMC.
 
 </dd> </dl>
 
@@ -267,7 +267,7 @@ A package of information transmitted between computers or separate networks cons
 **namespace**
 </dt> <dd>
 
-A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372). Namespaces appear in the resource URI for WMI classes, for example https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
+A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process). Namespaces appear in the resource URI for WMI classes, for example https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
 
 </dd> <dt>
 
@@ -292,7 +292,7 @@ A numeric type of sensor in a [*baseboard management controller (BMC)*](windows-
 **option**
 </dt> <dd>
 
-The additional data required by the resource provider to process a request. For example, some WMI providers require additional data supplied as [**IWbemContext**](https://msdn.microsoft.com/library/aa391465) or [**SWbemNamedValueSet**](https://msdn.microsoft.com/library/aa393732) objects. Option support is found in the [**ResourceLocator**](resourcelocator.md) object.
+The additional data required by the resource provider to process a request. For example, some WMI providers require additional data supplied as [**IWbemContext**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext) or [**SWbemNamedValueSet**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemnamedvalueset) objects. Option support is found in the [**ResourceLocator**](resourcelocator.md) object.
 
 </dd> <dt>
 
@@ -321,7 +321,7 @@ A [*WS-Enumeration*](windows-remote-management-glossary.md) pull message is sent
 **resource**
 </dt> <dd>
 
-An [*endpoint*](windows-remote-management-glossary.md) that represents a distinct type of management operation or value. A service exposes one or more resources and some resources can have more than one instance. A management resource is similar to a WMI class or a database table, and an instance is similar to an instance of the class or a row in the table. For example, the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class represents a resource. `Win32_LogicalDisk="C:\"` is a specific instance of the resource.
+An [*endpoint*](windows-remote-management-glossary.md) that represents a distinct type of management operation or value. A service exposes one or more resources and some resources can have more than one instance. A management resource is similar to a WMI class or a database table, and an instance is similar to an instance of the class or a row in the table. For example, the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class represents a resource. `Win32_LogicalDisk="C:\"` is a specific instance of the resource.
 
 </dd> <dt>
 

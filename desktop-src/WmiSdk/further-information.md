@@ -133,7 +133,7 @@ The WMI tools include:
 
 -   WMI Object Browser
 
-    The Object Browser allows you to view the WMI objects present on your computer. The root of the hierarchy is the instance of [**Win32\_ComputerSystem**](https://msdn.microsoft.com/library/aa394102) that represents your computer system. Using the Object Browser, you can edit property values and qualifiers and run methods.
+    The Object Browser allows you to view the WMI objects present on your computer. The root of the hierarchy is the instance of [**Win32\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem) that represents your computer system. Using the Object Browser, you can edit property values and qualifiers and run methods.
 
 -   WMI Event Registration
 

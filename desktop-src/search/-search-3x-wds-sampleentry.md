@@ -22,7 +22,7 @@ This topic is organized as follows:
 
 For an overview of technical resources for [Enterprise Search from Microsoft](https://www.microsoft.com/enterprisesearch/en/us/default.aspx), see:
 
--   [Enterprise Search Resource Center](https://msdn.microsoft.com/en-us/office/bb335345.aspx)
+-   [Enterprise Search Resource Center](https://developer.microsoft.com/office/docs)
 -   [Microsoft Enterprise Search Blog](https://go.microsoft.com/fwlink/p/?linkid=201203)
 
 ### SharePoint Enterprise Search

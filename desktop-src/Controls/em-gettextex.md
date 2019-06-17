@@ -46,7 +46,7 @@ The return value is the number of **TCHAR**s copied into the output buffer, incl
 
 If the size of the output buffer is less than the size of the text in the control, the edit control will copy text from its beginning and place it in the buffer until the buffer is full. A terminating null character will still be placed at the end of the buffer.
 
-If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](https://msdn.microsoft.com/library/windows/desktop/dd374130) function to translate the Unicode characters to ANSI. It allows you to go from Unicode to ANSI using a particular code page. The [**GETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_gettextex) structure contains members (**lpDefaultChar** and **lpUsedDefChar**) that are used in the translation from Unicode to ANSI.
+If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) function to translate the Unicode characters to ANSI. It allows you to go from Unicode to ANSI using a particular code page. The [**GETTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-_gettextex) structure contains members (**lpDefaultChar** and **lpUsedDefChar**) that are used in the translation from Unicode to ANSI.
 
 ## Requirements
 
@@ -76,10 +76,10 @@ If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](
 **Other Resources**
 </dt> <dt>
 
-[**WideCharToMultiByte**](https://msdn.microsoft.com/library/windows/desktop/dd374130)
+[**WideCharToMultiByte**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
 </dt> <dt>
 
-[**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644)
+[**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)
 </dt> </dl>
 
  

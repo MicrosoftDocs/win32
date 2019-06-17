@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_BLEND\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_BLEND\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_blend_desc) structure.
+A helper structure to enable easy initialization of a [**D3D12\_BLEND\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_blend_desc) structure.
 
 ## Syntax
 
@@ -49,7 +50,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_BLEND\_DESC.
 **explicit CD3DX12\_BLEND\_DESC(const D3D12\_BLEND\_DESC& o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_BLEND\_DESC, initialized with the contents of another [**D3D12\_BLEND\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_blend_desc) structure.
+Creates a new instance of a CD3DX12\_BLEND\_DESC, initialized with the contents of another [**D3D12\_BLEND\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_blend_desc) structure.
 
 </dd> <dt>
 
@@ -109,7 +110,7 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_BLEND\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_blend_desc)
+[**D3D12\_BLEND\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_blend_desc)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

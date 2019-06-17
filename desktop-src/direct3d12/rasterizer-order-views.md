@@ -2,6 +2,7 @@
 title: Rasterizer-ordered views
 description: Rasterizer-ordered views (ROVs) allow pixel shader code to mark unordered access view bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.
 ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -44,15 +45,15 @@ Use these objects in the same manner as other UAV objects (such as `RWBuffer` et
 
 ROVs are an HLSL-only construct that applies different behavior semantics to UAVs. All APIs relevant to UAVs are also relevant to ROVs. Note that the following method, structures, and helper class reference the rasterizer:
 
--   [**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_rasterizer_desc) : structure holding the rasterizer description.
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options) : structure holding a boolean, indicating the support.
--   [**CheckFeatureSupport**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-checkfeaturesupport) : method to access the supported features.
+-   [**D3D12\_RASTERIZER\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc) : structure holding the rasterizer description.
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) : structure holding a boolean, indicating the support.
+-   [**CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) : method to access the supported features.
 -   [**CD3DX12\_RASTERIZER\_DESC**](cd3dx12-rasterizer-desc.md) : helper class for creating rasterizer descriptions.
--   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc) : structure holding the pipeline state.
+-   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) : structure holding the pipeline state.
 
 ## Related topics
 
 * [Conservative Rasterization](conservative-rasterization.md)
 * [Rendering](rendering.md)
 * [Resource Binding in HLSL](resource-binding-in-hlsl.md)
-* [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+* [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)

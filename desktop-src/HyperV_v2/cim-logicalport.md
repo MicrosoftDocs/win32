@@ -61,7 +61,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("Bits per Second"), **PUnit** ("bit / second")
+Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bits per Second"), **PUnit** ("bit / second")
 </dt> </dl>
 
 The maximum bandwidth of the port, in bits per second.
@@ -77,7 +77,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_LogicalPort**.**PortType**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_LogicalPort**.**PortType**")
 </dt> </dl>
 
 Describes the type of module, when **PortType** is set to **Other** ("1").
@@ -93,7 +93,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_NetworkPort**](cim-networkport.md).**OtherNetworkPortType**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_NetworkPort**](cim-networkport.md).**OtherNetworkPortType**")
 </dt> </dl>
 
 The port type.
@@ -146,7 +146,7 @@ Data type: **uint64**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("Bits per Second"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_LogicalPort**.**Speed**"), **PUnit** ("bit / second")
+Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bits per Second"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_LogicalPort**.**Speed**"), **PUnit** ("bit / second")
 </dt> </dl>
 
 The requested bandwidth of the port, in bits per second. The actual bandwidth is reported in the **Speed** property.
@@ -162,7 +162,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("Bits per Second"), **PUnit** ("bit / second")
+Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bits per Second"), **PUnit** ("bit / second")
 </dt> </dl>
 
 The bandwidth of the port, in bits per second.

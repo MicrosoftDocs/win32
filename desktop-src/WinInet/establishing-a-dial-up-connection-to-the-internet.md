@@ -24,12 +24,12 @@ The following functions are used to handle modem connections.
  
 
 > [!Note]  
-> Starting on Windows Vista and Windows Server 2008, the WinINet dial-up functions use the [RAS functions](https://msdn.microsoft.com/library/windows/desktop/aa446739) to establish a dial-up connection. WinINet supports the functionality documented in the [**RasDialDlg**](https://msdn.microsoft.com/library/windows/desktop/aa377020) function.
+> Starting on Windows Vista and Windows Server 2008, the WinINet dial-up functions use the [RAS functions](https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions) to establish a dial-up connection. WinINet supports the functionality documented in the [**RasDialDlg**](https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga) function.
 
  
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

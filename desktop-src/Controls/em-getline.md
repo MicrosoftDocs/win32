@@ -76,7 +76,7 @@ The return value is the number of **TCHAR**s copied. The return value is zero if
 **Other Resources**
 </dt> <dt>
 
-[**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627)
+[**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)
 </dt> </dl>
 
  

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets a value that determines whether your [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) collection's caption appears in the character's pop-up menu.
+Returns or sets a value that determines whether your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection's caption appears in the character's pop-up menu.
 
 </dd> <dt>
 
@@ -28,7 +28,7 @@ Returns or sets a value that determines whether your [**Commands**](https://msdn
 
 | Part      | Description                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | A Boolean expression specifying whether your [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) object appears in the character's pop-up menu. <br/> **True** The caption appears.<br/> **False** The caption does not appear.<br/> |
+| *boolean* | A Boolean expression specifying whether your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object appears in the character's pop-up menu. <br/> **True** The caption appears.<br/> **False** The caption does not appear.<br/> |
 
 
 

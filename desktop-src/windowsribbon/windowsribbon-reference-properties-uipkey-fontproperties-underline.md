@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_Underline is used by an application to query the state of the **Underline** button.
 
-The property value is from the [**UI\_FONTUNDERLINE**](https://msdn.microsoft.com/library/windows/desktop/dd371568) enumeration.
+The property value is from the [**UI\_FONTUNDERLINE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontunderline) enumeration.
 
 The default value is `UI_FONTUNDERLINE_NOTSET`.
 
@@ -53,7 +53,7 @@ The following table describes the properties and the UI result.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**UI\_FONTUNDERLINE**](https://msdn.microsoft.com/library/windows/desktop/dd371568)
+[**UI\_FONTUNDERLINE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontunderline)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)

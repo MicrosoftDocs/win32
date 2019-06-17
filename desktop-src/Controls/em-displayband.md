@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure specifying the display area of the device.
+A [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure specifying the display area of the device.
 
 </dd> </dl>
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certificate Response Functions
 
-CertEnroll.dll implements the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) interface to submit a client certificate request and install the response from a [*certification authority*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certification-authority-gly) (CA).
+CertEnroll.dll implements the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) interface to submit a client certificate request and install the response from a [*certification authority*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CA).
 
 The enrollment process can accommodate the following three scenarios:
 
@@ -58,7 +58,7 @@ Each of the following sections identifies a function exported by Xenroll.dll to 
 
 ## acceptFilePKCS7WStr
 
-The [**acceptFilePKCS7WStr**](https://msdn.microsoft.com/library/windows/desktop/aa385498) function in Xenroll.dll installs a [*PKCS \#7*](https://msdn.microsoft.com/library/windows/desktop/ms721603) response from a file.
+The [**acceptFilePKCS7WStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptfilepkcs7wstr) function in Xenroll.dll installs a [*PKCS \#7*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) response from a file.
 
 The CertEnroll.dll library does not directly implement functionality to install a PKCS \#7 certificate response from a file. You can, however, create a custom function to read the file data into a byte array and call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install the response.
 
@@ -66,7 +66,7 @@ If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponse
 
 ## acceptFileResponseWStr
 
-The [**acceptFileResponseWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385500) function in Xenroll.dll installs a PKCS \#7 or CMC certificate response from a file.
+The [**acceptFileResponseWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-acceptfileresponsewstr) function in Xenroll.dll installs a PKCS \#7 or CMC certificate response from a file.
 
 The CertEnroll.dll library does not directly implement functionality to install a certificate response from a file. You can, however, create a custom function to read the file data into a byte array and call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install the PKCS \#7 or CMC response.
 
@@ -74,19 +74,19 @@ If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponse
 
 ## acceptPKCS7Blob
 
-The [**acceptPKCS7Blob**](https://msdn.microsoft.com/library/windows/desktop/aa385503) function in Xenroll.dll installs a PKCS \#7 response contained in a byte array.
+The [**acceptPKCS7Blob**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob) function in Xenroll.dll installs a PKCS \#7 response contained in a byte array.
 
 You can call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install a PKCS \#7 message. If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponseRestrictionFlags**](/windows/desktop/api/CertEnroll/ne-certenroll-installresponserestrictionflags) enumeration for the first parameter of [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse), a dummy certificate need not exist, thereby enabling you to install the PKCS \#7 response without first calling [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) or [**CreateRequest**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createrequest). However, if you are installing a certificate by using a web script, a dummy certificate must exist in the request store. You must therefore specify **AllowNone** for the first parameter.
 
 ## acceptResponseBlob
 
-The [**acceptResponseBlob**](https://msdn.microsoft.com/library/windows/desktop/aa385505) function in Xenroll.dll installs a PKCS \#7 or CMC certificate response contained in a byte array.
+The [**acceptResponseBlob**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-acceptresponseblob) function in Xenroll.dll installs a PKCS \#7 or CMC certificate response contained in a byte array.
 
 You can call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install a PKCS \#7 or CMC response. If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponseRestrictionFlags**](/windows/desktop/api/CertEnroll/ne-certenroll-installresponserestrictionflags) enumeration for the first parameter of [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse), a dummy certificate need not exist, thereby enabling you to install the response without first calling [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) or [**CreateRequest**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createrequest). However, if you are installing a certificate by using a web script, a dummy certificate must exist in the request store. You must therefore specify **AllowNone** for the first parameter.
 
 ## getCertContextFromFileResponseWStr
 
-The [**getCertContextFromFileResponseWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385583) function in Xenroll.dll retrieves the client certificate from a file.
+The [**getCertContextFromFileResponseWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-getcertcontextfromfileresponsewstr) function in Xenroll.dll retrieves the client certificate from a file.
 
 The CertEnroll.dll library does not directly implement functionality to retrieve a certificate from a CA response saved in a file. You can, however, create a custom function to read the file data into a byte array and call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install the PKCS \#7 or CMC response, and call the [**Certificate**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificate) property to retrieve the certificate.
 
@@ -94,41 +94,41 @@ If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponse
 
 ## getCertContextFromPKCS7
 
-The [**getCertContextFromPKCS7**](https://msdn.microsoft.com/library/windows/desktop/aa385586) function in Xenroll.dll retrieves the client certificate from a PKCS \#7 response.
+The [**getCertContextFromPKCS7**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcertcontextfrompkcs7) function in Xenroll.dll retrieves the client certificate from a PKCS \#7 response.
 
 You can call the [**Certificate**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificate) property on the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) object to retrieve a certificate after calling the [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) or [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) method.
 
 ## getCertContextFromResponseBlob
 
-The [**getCertContextFromResponseBlob**](https://msdn.microsoft.com/library/windows/desktop/aa385589) function in Xenroll.dll retrieves a client certificate from a PKCS \#7 or CMC response.
+The [**getCertContextFromResponseBlob**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-getcertcontextfromresponseblob) function in Xenroll.dll retrieves a client certificate from a PKCS \#7 or CMC response.
 
 You can call the [**Certificate**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-get_certificate) property on the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) object to retrieve a certificate after calling the [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) or [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) method.
 
 ## InstallPKCS7Blob
 
-The [**InstallPKCS7Blob**](https://msdn.microsoft.com/library/windows/desktop/aa385631) function in Xenroll.dll installs a PKCS \#7 response.
+The [**InstallPKCS7Blob**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-installpkcs7blob) function in Xenroll.dll installs a PKCS \#7 response.
 
 You can call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install a PKCS \#7 or CMC response. If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponseRestrictionFlags**](/windows/desktop/api/CertEnroll/ne-certenroll-installresponserestrictionflags) enumeration for the first parameter of [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse), a dummy certificate need not exist, thereby enabling you to install the response without first calling [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) or [**CreateRequest**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createrequest). However, if you are installing a certificate by using a web script, a dummy certificate must exist in the request store. You must therefore specify **AllowNone** for the first parameter.
 
 ## InstallPKCS7BlobEx
 
-The [**InstallPKCS7BlobEx**](https://msdn.microsoft.com/library/windows/desktop/aa385635) function in Xenroll.dll installs a PKCS \#7 response and returns the number of certificates installed.
+The [**InstallPKCS7BlobEx**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-installpkcs7blobex) function in Xenroll.dll installs a PKCS \#7 response and returns the number of certificates installed.
 
 You can call [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) to install a PKCS \#7 or CMC response. If you specify the **AllowNoOutstandingRequest** value of the [**InstallResponseRestrictionFlags**](/windows/desktop/api/CertEnroll/ne-certenroll-installresponserestrictionflags) enumeration for the first parameter of [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse), a dummy certificate need not exist, thereby enabling you to install the response without first calling [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) or [**CreateRequest**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createrequest). However, if you are installing a certificate by using a web script, a dummy certificate must exist in the request store. You must therefore specify **AllowNone** for the first parameter.
 
 ## SPCFileNameWStr
 
-The [**SPCFileNameWStr**](https://msdn.microsoft.com/library/windows/desktop/aa386143) function in Xenroll.dll specifies or retrieves the name of the file in which to save the certificate response. The CertEnroll.dll library does not implement functionality that enables you to copy a certificate to a specific file. The enrollment process automatically installs the certificate chain into files in the appropriate stores.
+The [**SPCFileNameWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr) function in Xenroll.dll specifies or retrieves the name of the file in which to save the certificate response. The CertEnroll.dll library does not implement functionality that enables you to copy a certificate to a specific file. The enrollment process automatically installs the certificate chain into files in the appropriate stores.
 
 ## WriteCertToCSP
 
-The [**WriteCertToCSP**](https://msdn.microsoft.com/library/windows/desktop/aa386153) function in Xenroll.dll specifies or retrieves a Boolean value that indicates whether a certificate should be written to a [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP). Typically, if this function is called, the provider is a [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly).
+The [**WriteCertToCSP**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp) function in Xenroll.dll specifies or retrieves a Boolean value that indicates whether a certificate should be written to a [*cryptographic service provider*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CSP). Typically, if this function is called, the provider is a [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly).
 
 In CertEnroll.dll, when a client calls the [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) method to submit a request for a smart card certificate and a certificate is issued, [**Enroll**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-enroll) automatically installs the certificate on the smart card, assuming that the card is installed in the reader. The [**InstallResponse**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-installresponse) method also automatically writes the certificate to the smart card.
 
 ## WriteCertToUserDS
 
-The [**WriteCertToUserDS**](https://msdn.microsoft.com/library/windows/desktop/aa386154) function in Xenroll.dll specifies or retrieves a Boolean value that indicates whether a certificate should be saved in the Active Directory store. The CertEnroll.dll library does not implement functionality that enables you to specify a store to copy a certificate to.
+The [**WriteCertToUserDS**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds) function in Xenroll.dll specifies or retrieves a Boolean value that indicates whether a certificate should be saved in the Active Directory store. The CertEnroll.dll library does not implement functionality that enables you to specify a store to copy a certificate to.
 
 ## Related topics
 

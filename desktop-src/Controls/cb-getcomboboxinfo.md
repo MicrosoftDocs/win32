@@ -42,7 +42,7 @@ A pointer to a [**COMBOBOXINFO**](/windows/desktop/api/Winuser/ns-winuser-tagcom
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 

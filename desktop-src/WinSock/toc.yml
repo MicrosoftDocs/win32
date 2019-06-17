@@ -643,41 +643,41 @@
       href: winsock-ioctls.md
       items: 
       - name: "SIO_ACQUIRE_PORT_RESERVATION"
-        href: https://msdn.microsoft.com/en-us/library/Gg699720(v=VS.85).aspx
+        href: sio-acquire-port-reservation.md
       - name: "SIO_ADDRESS_LIST_QUERY"
-        href: https://msdn.microsoft.com/en-us/library/Dd877219(v=VS.85).aspx
+        href: sio-address-list-query.md
       - name: "SIO_APPLY_TRANSPORT_SETTING"
-        href: https://msdn.microsoft.com/en-us/library/JJ553481(v=VS.85).aspx
+        href: sio-apply-transport-setting.md
       - name: "SIO_ASSOCIATE_PORT_RESERVATION"
-        href: https://msdn.microsoft.com/en-us/library/Gg699721(v=VS.85).aspx
+        href: sio-associate-port-reservation.md
       - name: "SIO_IDEAL_SEND_BACKLOG_CHANGE"
-        href: https://msdn.microsoft.com/en-us/library/Bb736548(v=VS.85).aspx
+        href: sio-ideal-send-backlog-change.md
       - name: "SIO_IDEAL_SEND_BACKLOG_QUERY"
-        href: https://msdn.microsoft.com/en-us/library/Bb736549(v=VS.85).aspx
+        href: sio-ideal-send-backlog-query.md
       - name: "SIO_KEEPALIVE_VALS"
-        href: https://msdn.microsoft.com/en-us/library/Dd877220(v=VS.85).aspx
+        href: sio-keepalive-vals.md
       - name: "SIO_LOOPBACK_FAST_PATH"
-        href: https://msdn.microsoft.com/en-us/library/JJ841212(v=VS.85).aspx
+        href: sio-loopback-fast-path.md
       - name: "SIO_QUERY_RSS_PROCESSOR_INFO"
-        href: https://msdn.microsoft.com/en-us/library/JJ553482(v=VS.85).aspx
+        href: sio-query-rss-processor-info.md
       - name: "SIO_QUERY_TRANSPORT_SETTING"
-        href: https://msdn.microsoft.com/en-us/library/JJ553483(v=VS.85).aspx
+        href: sio-query-transport-setting.md
       - name: "SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS"
-        href: https://msdn.microsoft.com/en-us/library/Hh859713(v=VS.85).aspx
+        href: sio-query-wfp-connection-redirect-records.md
       - name: "SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT"
-        href: https://msdn.microsoft.com/en-us/library/Hh859712(v=VS.85).aspx
+        href: sio-query-wfp-connection-redirect-context.md
       - name: "SIO_RCVALL"
-        href: https://msdn.microsoft.com/en-us/library/Ee309610(v=VS.85).aspx
+        href: sio-rcvall.md
       - name: "SIO_RELEASE_PORT_RESERVATION"
-        href: https://msdn.microsoft.com/en-us/library/Gg699722(v=VS.85).aspx
+        href: sio-release-port-reservation.md
       - name: "SIO_SET_COMPATIBILITY_MODE"
-        href: https://msdn.microsoft.com/en-us/library/Cc136103(v=VS.85).aspx
+        href: sio-set-compatibility-mode.md
       - name: "SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS"
-        href: https://msdn.microsoft.com/en-us/library/Hh859714(v=VS.85).aspx
+        href: sio-set-wfp-connection-redirect-records.md
       - name: "SIO_TCP_INFO"
-        href: https://msdn.microsoft.com/en-us/library/Mt823415(v=VS.85).aspx
+        href: sio-tcp-info.md
       - name: "SIO_TCP_INITIAL_RTO"
-        href: https://msdn.microsoft.com/en-us/library/JJ710203(v=VS.85).aspx
+        href: sio-tcp-initial-rto.md
     - name: "Winsock Annexes"
       href: winsock-annexes.md
       items: 

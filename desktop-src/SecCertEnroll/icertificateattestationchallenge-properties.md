@@ -16,7 +16,7 @@ The [**ICertificateAttestationChallenge**](/windows/desktop/api/Certenroll/nn-ce
 
 | Topic                                                                               | Description                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RequestID property**](/windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-get_requestid)<br/> | Gets the request ID from the [Certificate Management over CMS](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-management-over-cms-gly) (CMC) response.<br/> |
+| [**RequestID property**](/windows/desktop/api/Certenroll/nf-certenroll-icertificateattestationchallenge-get_requestid)<br/> | Gets the request ID from the [Certificate Management over CMS](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CMC) response.<br/> |
 
 
 

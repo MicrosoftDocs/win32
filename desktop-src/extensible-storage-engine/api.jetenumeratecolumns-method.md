@@ -104,7 +104,7 @@ public static JET_wrn JetEnumerateColumns(
 <!-- end list -->
 
   - numColumnids  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The numbers of JET_ENUMCOLUMNIDS.
 
@@ -118,7 +118,7 @@ public static JET_wrn JetEnumerateColumns(
 <!-- end list -->
 
   - numColumnValues  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Returns the number of column values retrieved.
 
@@ -139,14 +139,14 @@ public static JET_wrn JetEnumerateColumns(
 <!-- end list -->
 
   - allocatorContext  
-    Type: [System.IntPtr](https://msdn.microsoft.com/en-us/library/5he14kz8)  
+    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
     
     Context for the allocation callback.
 
 <!-- end list -->
 
   - maxDataSize  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     Sets a cap on the amount of data to return from a long text or long binary column. This parameter can be used to prevent the enumeration of an extremely large column value.
 

@@ -28,6 +28,11 @@ Represents a package of four calls.
 
 
 ```C++
+typedef struct PackedCallPkg {
+  UINT pcp1;
+  UINT pcp2;
+  UINT pcp3;
+  UINT pcp4;
 } PackedCallPkg;
 ```
 

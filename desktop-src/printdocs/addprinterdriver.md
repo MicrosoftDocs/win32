@@ -99,7 +99,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://msdn.microsoft.com/library/windows/desktop/aa375728).
+The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
 
 Before an application calls the **AddPrinterDriver** function, all files required by the driver must be copied to the system's printer-driver directory. An application can retrieve the name of this directory by calling the [**GetPrinterDriverDirectory**](getprinterdriverdirectory.md) function.
 

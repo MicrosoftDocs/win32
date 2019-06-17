@@ -17,14 +17,14 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_performance_counter"></span><span id="WMI.GLOSS_PERFORMANCE_COUNTER"></span>**performance counter**
 </dt> <dd>
 
-A property in a performance class that is derived from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299) that stores performance data.
+A property in a performance class that is derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) that stores performance data.
 
 </dd> <dt>
 
 <span id="wmi.gloss_performance_object"></span><span id="WMI.GLOSS_PERFORMANCE_OBJECT"></span>**performance object**
 </dt> <dd>
 
-An object in a performance library that stores data in counters. These objects are visible in the [*System Monitor*](gloss-s.md) utility. Examples are Cache and Logical Disk objects. When transferred into WMI by the [*ADAP*](gloss-a.md) process, each object becomes two WMI performance classes. One class, containing raw data, derives from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299). The other class derives from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) and contains the same data visible in System Monitor as calculated by the Cooked Counter provider.
+An object in a performance library that stores data in counters. These objects are visible in the [*System Monitor*](gloss-s.md) utility. Examples are Cache and Logical Disk objects. When transferred into WMI by the [*ADAP*](gloss-a.md) process, each object becomes two WMI performance classes. One class, containing raw data, derives from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata). The other class derives from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) and contains the same data visible in System Monitor as calculated by the Cooked Counter provider.
 
 </dd> <dt>
 

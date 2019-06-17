@@ -80,7 +80,7 @@ The **InkDrawingAttributes** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 These drawing attributes can be associated with a stroke or a cursor and specify settings such as color, width, and transparency.
 

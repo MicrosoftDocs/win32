@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Location API
 
-\[The Win32 Location API and is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](https://msdn.microsoft.com/library/windows/apps/br225603) API. To access location from a website, use the [W3C Geolocation API](https://msdn.microsoft.com/library/gg589513). \]
+\[The Win32 Location API and is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API. To access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). \]
 
 ## Purpose
 

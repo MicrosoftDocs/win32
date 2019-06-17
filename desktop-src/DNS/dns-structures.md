@@ -39,7 +39,7 @@ The following Resource Record (RR) structures are also included in the DNS API. 
 - [**DNS_AAAA_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_15)
 - [**DNS_ATMA_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_34)
 - [**DNS_DHCID_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_19)
-- [**DNS_DNSKEY_DATA**](https://msdn.microsoft.com/library/windows/desktop/dd392295)
+- [**DNS_DNSKEY_DATA**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85))
 - [**DNS_DS_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_25)
 - [**DNS_KEY_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_18)
 - [**DNS_LOC_DATA**](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_27)

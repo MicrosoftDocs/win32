@@ -154,9 +154,9 @@ The network management functions can be grouped as follows.
 
 | Function                                | Description                                                          |
 |-----------------------------------------|----------------------------------------------------------------------|
-| [**NetFileClose**](https://msdn.microsoft.com/library/windows/desktop/bb525377)     | Forces a resource to close.                                          |
-| [**NetFileEnum**](https://msdn.microsoft.com/library/windows/desktop/bb525378)       | Returns information about open files on a server.                    |
-| [**NetFileGetInfo**](https://msdn.microsoft.com/library/windows/desktop/bb525379) | Returns information about a particular opening of a server resource. |
+| [**NetFileClose**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileclose)     | Forces a resource to close.                                          |
+| [**NetFileEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum)       | Returns information about open files on a server.                    |
+| [**NetFileGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo) | Returns information about a particular opening of a server resource. |
 
 
 
@@ -333,7 +333,7 @@ The network management functions can be grouped as follows.
 
 <dl> <dt>
 
-[Windows Networking Functions](https://msdn.microsoft.com/library/windows/desktop/aa385391)
+[Windows Networking Functions](https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions)
 </dt> </dl>
 
  

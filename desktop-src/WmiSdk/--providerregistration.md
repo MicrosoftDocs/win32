@@ -96,7 +96,7 @@ Only administrators can register or delete a provider by creating an instance of
 
 <dl> <dt>
 
-[**\_\_SystemClass**](https://msdn.microsoft.com/library/aa394675)
+[**\_\_SystemClass**](https://docs.microsoft.com/windows/desktop/WmiSdk/--systemclass)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

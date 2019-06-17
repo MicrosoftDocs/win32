@@ -30,12 +30,12 @@ The following screen shot illustrates the Ribbon Combo Box in Live Movie Maker.
 
 The Ribbon framework defines a collection of [property keys](windowsribbon-reference-properties.md) for the Combo Box control.
 
-Typically, a Combo Box property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](https://msdn.microsoft.com/library/windows/desktop/dd371375) method. The invalidation event is handled, and the property updates defined, by the [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371494) callback method.
+Typically, a Combo Box property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) method. The invalidation event is handled, and the property updates defined, by the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
 
-The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371494) callback method is not executed, and the application queried for an updated property value, until the property is required by the framework. For example, when a tab is activated and a control revealed in the ribbon UI, or when a tooltip is displayed.
+The [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method is not executed, and the application queried for an updated property value, until the property is required by the framework. For example, when a tab is activated and a control revealed in the ribbon UI, or when a tooltip is displayed.
 
 > [!Note]  
-> In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
+> In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) method and set with the [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) method.
 
  
 
@@ -57,15 +57,15 @@ The following table lists the property keys that are associated with the Combo B
 <tbody>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-categories">UI_PKEY_Categories</a></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-itemssource">UI_PKEY_ItemsSource</a></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-keytip">UI_PKEY_Keytip</a></td>
@@ -85,7 +85,7 @@ The following table lists the property keys that are associated with the Combo B
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-selecteditem">UI_PKEY_SelectedItem</a></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage">UI_PKEY_SmallHighContrastImage</a></td>
@@ -97,10 +97,10 @@ The following table lists the property keys that are associated with the Combo B
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-stringvalue">UI_PKEY_StringValue</a></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.
 <blockquote>
 [!Note]<br />
-If the Command associated with the control is invalidated through a call to <a href="https://msdn.microsoft.com/library/windows/desktop/dd371375"><strong>IUIFramework::InvalidateUICommand</strong></a>, the framework queries this property when <code>UI_INVALIDATIONS_VALUE</code> is passed as the value of <em>flags</em>.
+If the Command associated with the control is invalidated through a call to <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand"><strong>IUIFramework::InvalidateUICommand</strong></a>, the framework queries this property when <code>UI_INVALIDATIONS_VALUE</code> is passed as the value of <em>flags</em>.
 </blockquote>
 <br/></td>
 </tr>

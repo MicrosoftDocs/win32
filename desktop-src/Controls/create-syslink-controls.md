@@ -15,7 +15,7 @@ You implement the SysLink control's hyperlinks through markup in the control's i
 
  
 
-To create a SysLink, call the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_LINK**](common-control-window-classes.md) window class. The *lpWindowName* parameter that is common to these functions specifies a pointer to a zero-terminated string that contains the marked-up text to display. For window styles particular to SysLink controls, see [SysLink Control Styles](syslink-control-styles.md).
+To create a SysLink, call the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**WC\_LINK**](common-control-window-classes.md) window class. The *lpWindowName* parameter that is common to these functions specifies a pointer to a zero-terminated string that contains the marked-up text to display. For window styles particular to SysLink controls, see [SysLink Control Styles](syslink-control-styles.md).
 
 ## What you need to know
 
@@ -53,7 +53,7 @@ HWND CreateSysLink(HWND hDlg, HINSTANCE hInst, RECT rect)
 
 It is assumed that [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) has already been called.
 
-Specifying the [**WS\_TABSTOP**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop) style ensures that the user will be able to select a link by tabbing to it and pressing the Enter key.
+Specifying the [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style ensures that the user will be able to select a link by tabbing to it and pressing the Enter key.
 
 Version 6 of ComCtl32.dll supports Unicode only. Therefore, you cannot create ANSI versions of SysLink controls—only Unicode.
 
@@ -61,7 +61,7 @@ Version 6 of ComCtl32.dll supports Unicode only. Therefore, you cannot create AN
 
 <dl> <dt>
 
-[Using SysLink Controls](https://msdn.microsoft.com/library/windows/desktop/hh270419)
+[Using SysLink Controls](https://docs.microsoft.com/windows/desktop/Controls/using-syslink-controls)
 </dt> <dt>
 
 [Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=214295)

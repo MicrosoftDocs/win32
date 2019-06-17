@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -58,7 +59,7 @@ Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initialized with th
 
 Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initializing the following parameters:
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT width
 

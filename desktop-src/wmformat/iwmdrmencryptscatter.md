@@ -22,7 +22,7 @@ The **IWMDRMEncryptScatter** interface unscrambles and encrypts data.
 
 ## Members
 
-The **IWMDRMEncryptScatter** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWMDRMEncryptScatter** also has these types of members:
+The **IWMDRMEncryptScatter** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMEncryptScatter** also has these types of members:
 
 -   [Methods](#methods)
 

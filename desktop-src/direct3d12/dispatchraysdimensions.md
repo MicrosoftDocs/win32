@@ -2,6 +2,7 @@
 Description: The width, height and depth values from the D3D12_DISPATCH_RAYS_DESC structure specified in the originating DispatchRays call.
 ms.assetid: 
 title: DispatchRaysDimensions
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 
@@ -15,7 +16,7 @@ api_type:
 
 # DispatchRaysDimensions
 
-The width, height and depth values from the **D3D12\_DISPATCH\_RAYS\_DESC** structure specified in the originating [**DispatchRays**](https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays call.
+The width, height and depth values from the **D3D12\_DISPATCH\_RAYS\_DESC** structure specified in the originating [**DispatchRays**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays call.
 
 ## Syntax
 

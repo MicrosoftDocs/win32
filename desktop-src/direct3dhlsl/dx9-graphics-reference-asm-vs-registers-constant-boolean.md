@@ -13,7 +13,7 @@ api_location:
 
 # Constant Boolean Register
 
-This register is a collection of bits used in static flow control instructions (for example, [if bool - vs](if-bool---vs.md) - [else - vs](else---vs.md) - [endif - vs](endif---vs.md)). There are 16 of them, therefore, a shader can have 16 independent branch conditions. They can be set using [defb - vs](defb---vs.md) or [**SetVertexShaderConstantB**](https://msdn.microsoft.com/library/windows/desktop/bb174466).
+This register is a collection of bits used in static flow control instructions (for example, [if bool - vs](if-bool---vs.md) - [else - vs](else---vs.md) - [endif - vs](endif---vs.md)). There are 16 of them, therefore, a shader can have 16 independent branch conditions. They can be set using [defb - vs](defb---vs.md) or [**SetVertexShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb).
 
 The behavior of shader constants has changed between Direct3D 8 and Direct3D 9.
 

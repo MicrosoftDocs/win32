@@ -43,7 +43,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-The RGB value of the color to select in the **Color** dialog box. You can use the [**RGB**](https://msdn.microsoft.com/library/windows/desktop/dd162937) macro to specify the red, green, and blue intensities of an RGB color value.
+The RGB value of the color to select in the **Color** dialog box. You can use the [**RGB**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb) macro to specify the red, green, and blue intensities of an RGB color value.
 
 </dd> </dl>
 
@@ -92,13 +92,13 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 **Reference**
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
+[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-[**RGB**](https://msdn.microsoft.com/library/windows/desktop/dd162937)
+[**RGB**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb)
 </dt> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
+[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 **Conceptual**

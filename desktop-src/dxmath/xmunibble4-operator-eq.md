@@ -36,7 +36,7 @@ Assigns vector component data to the current instance of [**XMUNIBBLE4**](https:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404763(v=VS.85).aspx"><strong>XMUNIBBLE4::operator = (const uint16_t)</strong></a></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4::operator = (const uint16_t)</strong></a></td>
 <td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMUNIBBLE4</code>. <br/>
 <blockquote>
 [!Note]<br />
@@ -45,8 +45,8 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420621(v=VS.85).aspx"><strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&)</strong></a></td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>. <br/> This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a> to the current instance of <code>XMUNIBBLE4</code>. <br/></td>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize"><strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>. <br/> This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> to the current instance of <code>XMUNIBBLE4</code>. <br/></td>
 </tr>
 </tbody>
 </table>

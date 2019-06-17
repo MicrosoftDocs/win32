@@ -80,7 +80,7 @@ Documentation of ADSI interfaces and methods.
 [COM Clients and Servers](https://msdn.microsoft.com/en-us/library/ms683835(v=VS.85).aspx)
 </dt> <dt>
 
-[Active Directory Domain Services](https://msdn.microsoft.com/library/aa362244)
+[Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services)
 </dt> </dl>
 
  

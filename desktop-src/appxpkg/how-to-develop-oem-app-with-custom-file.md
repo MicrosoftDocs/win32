@@ -22,7 +22,7 @@ For apps that you create for OEM deployment, you can use a custom file to pass i
 
 ### Prerequisites
 
--   You need the [Deployment Image Servicing and Management (DISM)](https://msdn.microsoft.com/library/windows/desktop/dd371719) tool to add the app package with the custom data file.
+-   You need the [Deployment Image Servicing and Management (DISM)](https://docs.microsoft.com/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) tool to add the app package with the custom data file.
 
 ## Instructions
 
@@ -30,7 +30,7 @@ For apps that you create for OEM deployment, you can use a custom file to pass i
 
 You can design your app to use any format you choose for the custom data. For example, you can use XML, a text file, or another file type to organize your data. We recommend that you consider how you can test and validate the file. For example, you can create an XML schema to validate an XML file.
 
-You can specify any type of file with any file name for the custom data. When you add the app package with the custom data file by using the [DISM](https://msdn.microsoft.com/library/windows/desktop/dd371719) tool, DISM renames the custom file to Custom.data and saves the file to the microsoft.system.package.metadata folder.
+You can specify any type of file with any file name for the custom data. When you add the app package with the custom data file by using the [DISM](https://docs.microsoft.com/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) tool, DISM renames the custom file to Custom.data and saves the file to the microsoft.system.package.metadata folder.
 
 > [!Note]  
 > The custom data file can't be modified by the app. It's a read-only resource.
@@ -46,9 +46,9 @@ Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
 "microsoft.system.package.metadata\\custom.data")
 ```
 
-For more info about developing with the [**Package.Current**](https://msdn.microsoft.com/library/windows/apps/br224678) property, see [Quickstart: Query app package manifest info](how-to-query-package-identity-information.md).
+For more info about developing with the [**Package.Current**](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package.current) property, see [Quickstart: Query app package manifest info](how-to-query-package-identity-information.md).
 
-For more info about accessing the custom.data file via [**IStorageFolder.GetFileAsync**](https://msdn.microsoft.com/library/windows/apps/br227125) and by using [**StorageFile**](https://msdn.microsoft.com/library/windows/apps/br227171) objects, see [Accessing data and files](https://msdn.microsoft.com/library/windows/apps/hh464959).
+For more info about accessing the custom.data file via [**IStorageFolder.GetFileAsync**](https://docs.microsoft.com/uwp/api/windows.storage.istoragefolder.getfileasync) and by using [**StorageFile**](https://docs.microsoft.com/uwp/api/Windows.Storage.StorageFile) objects, see [Accessing data and files](https://docs.microsoft.com/previous-versions/windows/apps/hh464959(v=win.10)).
 
 ## Related topics
 

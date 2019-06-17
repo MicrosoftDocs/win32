@@ -68,7 +68,7 @@ The prefix "WIA\_DPA\_" indicates a Device Property for All devices and is the n
 <td style="text-align: left;"><p>The current clock time that is stored on the device. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI2</strong> | <strong>VT_VECTOR</strong>, Access: Read/Write or Read-only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p>
 <p>This property is supported only by devices that have an internal clock. If the device clock can be set, this property is Read/Write; otherwise, it is Read-only.</p>
-<p>WIA devices report time in a <a href="https://msdn.microsoft.com/en-us/library/ms724950(VS.85).aspx">SYSTEMTIME</a> structure.</p></td>
+<p>WIA devices report time in a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure.</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_DPA_FIRMWARE_VERSION"></span><span id="wia_dpa_firmware_version"></span><dl> <dt><strong>WIA_DPA_FIRMWARE_VERSION</strong></dt> <dt>DeviceFirmwareVersion</dt> </dl></td>

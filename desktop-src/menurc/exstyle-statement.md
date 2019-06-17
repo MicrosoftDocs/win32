@@ -27,7 +27,7 @@ EXSTYLE extended-style
 <span id="extended-style"></span><span id="EXTENDED-STYLE"></span>*extended-style*
 </dt> <dd>
 
-Extended window style for the dialog box or control. For a list of extended window styles, see [**Extended Window Styles**](https://msdn.microsoft.com/library/windows/desktop/ff700543).
+Extended window style for the dialog box or control. For a list of extended window styles, see [**Extended Window Styles**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles).
 
 </dd> </dl>
 

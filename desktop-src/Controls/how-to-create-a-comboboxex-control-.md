@@ -25,7 +25,7 @@ This topic demonstrates how to create a ComboBoxEx control.
 
 ### 
 
-To create a ComboBoxEx control, call the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, using [**WC\_COMBOBOXEX**](common-control-window-classes.md) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, while specifying the ICC\_USEREX\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
+To create a ComboBoxEx control, call the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, using [**WC\_COMBOBOXEX**](common-control-window-classes.md) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, while specifying the ICC\_USEREX\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
 
 ## Complete example
 
@@ -77,7 +77,7 @@ HWND WINAPI CreateComboEx(void)
 [ComboBoxEx Control Reference](bumper-comboboxex-comboboxex-control-reference.md)
 </dt> <dt>
 
-[Using ComboBoxEx Controls](https://msdn.microsoft.com/library/windows/desktop/bb775744)
+[Using ComboBoxEx Controls](https://docs.microsoft.com/windows/desktop/Controls/using-comboboxex)
 </dt> <dt>
 
 [ComboBoxEx](comboboxex-control-reference.md)

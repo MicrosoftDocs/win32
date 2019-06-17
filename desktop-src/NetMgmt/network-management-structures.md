@@ -134,15 +134,15 @@ The network management structures can be grouped as follows.
 
 <dl>
 
-[**SHARE\_INFO\_0**](https://msdn.microsoft.com/library/windows/desktop/bb525402)  
-[**SHARE\_INFO\_1**](https://msdn.microsoft.com/library/windows/desktop/bb525407)  
-[**SHARE\_INFO\_2**](https://msdn.microsoft.com/library/windows/desktop/bb525408)  
-[**SHARE\_INFO\_501**](https://msdn.microsoft.com/library/windows/desktop/bb525409)  
-[**SHARE\_INFO\_502**](https://msdn.microsoft.com/library/windows/desktop/bb525410)  
-[**SHARE\_INFO\_1004**](https://msdn.microsoft.com/library/windows/desktop/bb525403)  
-[**SHARE\_INFO\_1005**](https://msdn.microsoft.com/library/windows/desktop/bb525404)  
-[**SHARE\_INFO\_1006**](https://msdn.microsoft.com/library/windows/desktop/bb525405)  
-[**SHARE\_INFO\_1501**](https://msdn.microsoft.com/library/windows/desktop/bb525406)  
+[**SHARE\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_0)  
+[**SHARE\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1)  
+[**SHARE\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2)  
+[**SHARE\_INFO\_501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_501)  
+[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502)  
+[**SHARE\_INFO\_1004**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1004)  
+[**SHARE\_INFO\_1005**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005)  
+[**SHARE\_INFO\_1006**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1006)  
+[**SHARE\_INFO\_1501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1501)  
 </dl>
 
 ## Use Structures

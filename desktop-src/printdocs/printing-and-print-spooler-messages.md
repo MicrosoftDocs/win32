@@ -16,7 +16,7 @@ The following message is used by the Print Spooler API.
 
 | Message                                                  | Description                                                                                                                                                         |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WM\_SPOOLERSTATUS**](wm-spoolerstatus.md)<br/> | The [**WM\_SPOOLERSTATUS**](https://msdn.microsoft.com/library/windows/desktop/dd145220) message is sent from Print Manager whenever a job is added to or removed from the Print Manager queue.<br/> |
+| [**WM\_SPOOLERSTATUS**](wm-spoolerstatus.md)<br/> | The [**WM\_SPOOLERSTATUS**](https://docs.microsoft.com/windows/desktop/printdocs/wm-spoolerstatus) message is sent from Print Manager whenever a job is added to or removed from the Print Manager queue.<br/> |
 
 
 

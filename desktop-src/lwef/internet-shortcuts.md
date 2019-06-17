@@ -56,7 +56,7 @@ The Internet shortcut object contains several properties that you can access thr
 2.  Access the Internet shortcut property storage set by calling [IPropertySetStorage::Open](https://msdn.microsoft.com/library/Aa379965(VS.85).aspx) with FMTID\_Intshcut or FMTID\_InternetSite to obtain the [IPropertyStorage](https://msdn.microsoft.com/library/Aa379968(VS.85).aspx) interface.
 3.  Read the property storage information with [IPropertyStorage::ReadMultiple](https://msdn.microsoft.com/library/Aa379975(VS.85).aspx) by passing the appropriate property ID.
 
-With [version 4.70 or higher](https://msdn.microsoft.com/library/windows/desktop/bb776779) of Shell32.dll, you can also retrieve the [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [**IShellFolder::BindToStorage**](https://msdn.microsoft.com/library/windows/desktop/bb775061) with the *pidl* parameter set to the .URL file and the *riid* parameter set to IID\_IPropertySetStorage.
+With [version 4.70 or higher](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)) of Shell32.dll, you can also retrieve the [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [**IShellFolder::BindToStorage**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtostorage) with the *pidl* parameter set to the .URL file and the *riid* parameter set to IID\_IPropertySetStorage.
 
 The following property IDs can be requested for FMTID\_Intshcut.
 
@@ -157,13 +157,13 @@ The Internet shortcut object exposes a number of interfaces.
 
 ### Shell interfaces
 
--   [**IContextMenu2**](https://msdn.microsoft.com/library/windows/desktop/bb776091)
--   [**IExtractIcon**](https://msdn.microsoft.com/library/windows/desktop/bb761854)
--   [**INewShortcutHook**](https://msdn.microsoft.com/library/windows/desktop/bb775445)
--   [**IShellExtInit**](https://msdn.microsoft.com/library/windows/desktop/bb775096)
--   [**IShellLink**](https://msdn.microsoft.com/library/windows/desktop/bb774950)
--   [**IShellPropSheetExt**](https://msdn.microsoft.com/library/windows/desktop/bb774880)
--   [**IQueryInfo**](https://msdn.microsoft.com/library/windows/desktop/bb761359)
+-   [**IContextMenu2**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2)
+-   [**IExtractIcon**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona)
+-   [**INewShortcutHook**](https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka)
+-   [**IShellExtInit**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit)
+-   [**IShellLink**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka)
+-   [**IShellPropSheetExt**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext)
+-   [**IQueryInfo**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo)
 
 ## Functions
 
@@ -171,10 +171,10 @@ There are several utility functions that can be used with the Internet shortcut 
 
 ### Internet shortcut utility functions
 
--   [**InetIsOffline**](https://msdn.microsoft.com/library/windows/desktop/bb776460)
--   [**MIMEAssociationDialog**](https://msdn.microsoft.com/library/windows/desktop/bb776466)
--   [**TranslateURL**](https://msdn.microsoft.com/library/windows/desktop/bb762262)
--   [**URLAssociationDialog**](https://msdn.microsoft.com/library/windows/desktop/bb762264)
+-   [**InetIsOffline**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-inetisoffline)
+-   [**MIMEAssociationDialog**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-mimeassociationdialoga)
+-   [**TranslateURL**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-translateurla)
+-   [**URLAssociationDialog**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga)
 
  
 

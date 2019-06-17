@@ -80,7 +80,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.Single](https://msdn.microsoft.com/en-us/library/3www918f)  
+    Type: [System.Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN)  
     
     The data to set.
 

@@ -128,7 +128,7 @@ WMI generates the absolute timer event by creating an instance of the [**\_\_Tim
 
 <dl> <dt>
 
-[**\_\_TimerInstruction**](https://msdn.microsoft.com/library/aa394685)
+[**\_\_TimerInstruction**](https://docs.microsoft.com/windows/desktop/WmiSdk/--timerinstruction)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

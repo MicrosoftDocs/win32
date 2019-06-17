@@ -767,7 +767,7 @@ The state of a COM object when it is stored (on disk or in a database). The obje
 
 Information that can be stored persistently as part of a storage object such as a file or directory. Persistent properties are grouped into property sets, which can be displayed and edited.
 
-A persistent property is different from the run-time properties of objects created with OLE Controls and Automation technologies, which can be used to affect system behavior. The [**PROPVARIANT**](https://msdn.microsoft.com/library/windows/desktop/aa380072) structure defines all valid types of persistent properties, whereas the **VARIANT** structure defines all valid types of run-time properties.
+A persistent property is different from the run-time properties of objects created with OLE Controls and Automation technologies, which can be used to affect system behavior. The [**PROPVARIANT**](https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant) structure defines all valid types of persistent properties, whereas the **VARIANT** structure defines all valid types of run-time properties.
 
 </dd> <dt>
 
@@ -844,7 +844,7 @@ The location within a property frame where a property page is displayed. The pro
 <span id="com.property_set_gloss"></span><span id="COM.PROPERTY_SET_GLOSS"></span>**property set**
 </dt> <dd>
 
-A logically related group of properties that is associated with a persistently stored object. To create, open, delete, or enumerate one or more property sets, implement the [**IPropertySetStorage**](https://msdn.microsoft.com/library/windows/desktop/aa379840) interface. If you are using compound files, you can use OLE's implementation of this interface rather than implementing your own.
+A logically related group of properties that is associated with a persistently stored object. To create, open, delete, or enumerate one or more property sets, implement the [**IPropertySetStorage**](https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage) interface. If you are using compound files, you can use OLE's implementation of this interface rather than implementing your own.
 
 </dd> <dt>
 
@@ -965,14 +965,14 @@ A static object can result, for example, from the breaking of a link on a linked
 <span id="com.storage_object_gloss"></span><span id="COM.STORAGE_OBJECT_GLOSS"></span>**storage object**
 </dt> <dd>
 
-A COM object that implements the [**IStorage**](https://msdn.microsoft.com/library/windows/desktop/aa380015) interface. A storage object contains nested storage objects or stream objects, resulting in the equivalent of a directory/file structure within a single file.
+A COM object that implements the [**IStorage**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) interface. A storage object contains nested storage objects or stream objects, resulting in the equivalent of a directory/file structure within a single file.
 
 </dd> <dt>
 
 <span id="com.stream_object_gloss"></span><span id="COM.STREAM_OBJECT_GLOSS"></span>**stream object**
 </dt> <dd>
 
-A COM object that implements the [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface. A stream object is analogous to a file in a directory/file system.
+A COM object that implements the [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. A stream object is analogous to a file in a directory/file system.
 
 </dd> <dt>
 

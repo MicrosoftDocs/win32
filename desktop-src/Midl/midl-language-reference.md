@@ -26,7 +26,7 @@ The reference entries are arranged in alphabetical order, and each entry include
 [**allocate**](allocate.md)  
 [**annotate**](annotate.md)  
 [**appobject**](appobject.md)  
-[**arrays**](https://msdn.microsoft.com/library/windows/desktop/aa373539)  
+[**arrays**](https://docs.microsoft.com/windows/desktop/Rpc/arrays)  
 [**async**](async.md)  
 [**async\_uuid**](async-uuid.md)  
 [**auto\_handle**](auto-handle.md)  

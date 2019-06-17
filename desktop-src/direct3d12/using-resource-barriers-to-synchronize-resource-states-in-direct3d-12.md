@@ -2,6 +2,7 @@
 title: Using Resource Barriers to Synchronize Resource States in Direct3D 12
 description: To reduce overall CPU usage and enable driver multi-threading and pre-processing, Direct3D 12 moves the responsibility of per-resource state management from the graphics driver to the application.
 ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -38,15 +39,15 @@ There are three types of resource barriers:
 
     Note that you can use the D3D12\_RESOURCE\_BARRIER\_ALL\_SUBRESOURCES flag to specify that all subresources within a resource are being transitioned.
 
--   **Aliasing barrier** - An aliasing barrier indicates a transition between usages of two different resources which have overlapping mappings into the same heap. This applies to both reserved and placed resources. A [**D3D12\_RESOURCE\_ALIASING\_BARRIER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_aliasing_barrier) structure is used to specify both the *before* resource and the *after* resource.
+-   **Aliasing barrier** - An aliasing barrier indicates a transition between usages of two different resources which have overlapping mappings into the same heap. This applies to both reserved and placed resources. A [**D3D12\_RESOURCE\_ALIASING\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier) structure is used to specify both the *before* resource and the *after* resource.
 
-    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](https://msdn.microsoft.com/library/windows/desktop/dn786477) and [Volume Tiled Resources](volume-tiled-resources.md).
+    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources) and [Volume Tiled Resources](volume-tiled-resources.md).
 
 -   **Unordered access view (UAV) barrier** - A UAV barrier indicates that all UAV accesses, both read or write, to a particular resource must complete between any future UAV accesses, both read or write. It's not necessary for an app to put a UAV barrier between two draw or dispatch calls that only read from a UAV. Also, it's not necessary to put a UAV barrier between two draw or dispatch calls that write to the same UAV if the application knows that it is safe to execute the UAV access in any order. A [**D3D12\_RESOURCE\_UAV\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier) structure is used to specify the UAV resource to which the barrier applies. The application can specify NULL for the barrier's UAV, which indicates that any UAV access could require the barrier.
 
 When [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) is called with an array of resource barrier descriptions, the API behaves as if it was called once for each element, in the order in which they were supplied.
 
-At any given time, a subresource is in exactly one state, determined by the set of [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states) flags supplied to [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier). The application must ensure that the *before* and *after* states of consecutive calls to **ResourceBarrier** agree.
+At any given time, a subresource is in exactly one state, determined by the set of [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) flags supplied to [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier). The application must ensure that the *before* and *after* states of consecutive calls to **ResourceBarrier** agree.
 
 > [!TIP]
 >
@@ -56,7 +57,7 @@ At any given time, a subresource is in exactly one state, determined by the set 
 
 ### Resource states
 
-For the complete list of resource states that a resource can transition between, see the reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states) enumeration.
+For the complete list of resource states that a resource can transition between, see the reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) enumeration.
 
 For split resource barriers, also refer to [**D3D12\_RESOURCE\_BARRIER\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_barrier_flags).
 
@@ -78,13 +79,13 @@ Before a heap can be the target of a GPU copy operation, normally the heap must 
 
 ### Read/write resource state restrictions
 
-The resource state usage bits that are used to describe a resource state are divided into read-only and read/write states. The reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states) indicates the read/write access level for each bit in the enumeration.
+The resource state usage bits that are used to describe a resource state are divided into read-only and read/write states. The reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) indicates the read/write access level for each bit in the enumeration.
 
 At most, only one read/write bit can be set for any resource. If a write bit is set, then no read-only bit may be set for that resource. If no write bit is set, then any number of read bits may be set.
 
 ### Resource states for presenting back buffers
 
-Before a back buffer is presented, it must be in the D3D12\_RESOURCE\_STATE\_COMMON state. Note, the resource state D3D12\_RESOURCE\_STATE\_PRESENT is a synonym for D3D12\_RESOURCE\_STATE\_COMMON, and they both have a value of 0. If [**IDXGISwapChain::Present**](https://msdn.microsoft.com/library/windows/desktop/bb174576) (or [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797)) is called on a resource that is not currently in this state, a debug layer warning is emitted.
+Before a back buffer is presented, it must be in the D3D12\_RESOURCE\_STATE\_COMMON state. Note, the resource state D3D12\_RESOURCE\_STATE\_PRESENT is a synonym for D3D12\_RESOURCE\_STATE\_COMMON, and they both have a value of 0. If [**IDXGISwapChain::Present**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present) (or [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)) is called on a resource that is not currently in this state, a debug layer warning is emitted.
 
 ### Discarding resources
 

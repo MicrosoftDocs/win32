@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_STF\_VERSION\_DATE attribute
 
-This attribute stores a [FILETIME](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724284.aspx) representing the date/time stamp of a sensor transform factory.
+This attribute stores a [FILETIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) representing the date/time stamp of a sensor transform factory.
 
 ## Data type
 

@@ -89,7 +89,7 @@ public static Nullable<bool> RetrieveColumnAsBoolean(
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)\>  
 The data retrieved from the column as a boolean. Null if the column is null.  
 
 ## See also

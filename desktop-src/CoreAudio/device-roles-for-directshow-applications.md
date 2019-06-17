@@ -16,10 +16,10 @@ ms.date: 05/31/2018
 The DirectShow API does not provide a means for an application to select the [audio endpoint device](audio-endpoint-devices.md) that is assigned to a particular [device role](device-roles.md). However, in Windows Vista, the core audio APIs can be used in conjunction with a DirectShow application to enable device selection based on device role. With the help of the core audio APIs, the application can:
 
 -   Identify the audio endpoint device that the user has assigned to a particular device role.
--   Create a DirectShow audio rendering filter with an [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526) interface that encapsulates the audio endpoint device.
+-   Create a DirectShow audio rendering filter with an [**IBaseFilter**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter) interface that encapsulates the audio endpoint device.
 -   Build a DirectShow graph that incorporates the filter.
 
-For more information about DirectShow and [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), see the Windows SDK documentation.
+For more information about DirectShow and [**IBaseFilter**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter), see the Windows SDK documentation.
 
 The following code example shows how to create a DirectShow audio rendering filter that encapsulates the rendering endpoint device that is assigned to a particular device role:
 
@@ -91,7 +91,7 @@ Exit:
 
 
 
-In the preceding code example, the CreateAudioRenderer function accepts a device role (eConsole, eMultimedia, or eCommunications) as an input parameter. The second parameter is a pointer through which the function writes the address of an [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526) interface instance. In addition, the example shows how to use the [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) method to assign the audio stream in the **IBaseFilter** instance to a cross-process audio session with an application-specific session GUID (specified by the **guidAudioSessionId** constant). The third parameter in the **Activate** call points to a structure that contains the session GUID and cross-process flag. If the user runs multiple instances of the application, then the audio streams from all the instances use the same session GUID and thus belong to the same session.
+In the preceding code example, the CreateAudioRenderer function accepts a device role (eConsole, eMultimedia, or eCommunications) as an input parameter. The second parameter is a pointer through which the function writes the address of an [**IBaseFilter**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter) interface instance. In addition, the example shows how to use the [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) method to assign the audio stream in the **IBaseFilter** instance to a cross-process audio session with an application-specific session GUID (specified by the **guidAudioSessionId** constant). The third parameter in the **Activate** call points to a structure that contains the session GUID and cross-process flag. If the user runs multiple instances of the application, then the audio streams from all the instances use the same session GUID and thus belong to the same session.
 
 Alternatively, the caller can specify **NULL** as the third parameter in the [**Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) call to assign the stream to the default session as the process-specific session with session GUID value GUID\_NULL. For more information, see **IMMDevice::Activate**.
 

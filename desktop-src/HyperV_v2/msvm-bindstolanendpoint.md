@@ -57,10 +57,10 @@ Data type: **[**Msvm\_LANEndpoint**](msvm-lanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
-A reference to an [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the switch port. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the switch port. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -73,10 +73,10 @@ Data type: **[**Msvm\_VLANEndpoint**](msvm-vlanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
-A reference to the [**Msvm\_VLANEndpoint**](msvm-vlanendpoint.md) associated with the switch port. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to the [**Msvm\_VLANEndpoint**](msvm-vlanendpoint.md) associated with the switch port. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 

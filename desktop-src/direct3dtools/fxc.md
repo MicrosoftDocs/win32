@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Effect-Compiler Tool
 
-FXC (fxc.exe) is an offline tool for compiling [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561) shaders for all versions of Direct3D. The tool is located at:
+FXC (fxc.exe) is an offline tool for compiling [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) shaders for all versions of Direct3D. The tool is located at:
 
 (*SDK root*)\\Utilities\\Bin\\x86\\
 

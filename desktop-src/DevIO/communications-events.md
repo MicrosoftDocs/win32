@@ -30,7 +30,7 @@ A process can monitor events on a given communications resource by using the [**
 
  
 
-After a set of events is specified, a process uses the [**WaitCommEvent**](/windows/desktop/api/Winbase/nf-winbase-waitcommevent) function to wait for one of the events to occur. **WaitCommEvent** can be used synchronously or as an overlapped operation. For additional information about executing a function as an overlapped operation, see [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353).
+After a set of events is specified, a process uses the [**WaitCommEvent**](/windows/desktop/api/Winbase/nf-winbase-waitcommevent) function to wait for one of the events to occur. **WaitCommEvent** can be used synchronously or as an overlapped operation. For additional information about executing a function as an overlapped operation, see [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization).
 
 When one of the events specified in the event mask occurs, the process completes the wait operation and sets an event mask variable to indicate the type of event detected. If the [**SetCommMask**](/windows/desktop/api/Winbase/nf-winbase-setcommmask) is called for a communications resource while a wait is pending for that resource, [**WaitCommEvent**](/windows/desktop/api/Winbase/nf-winbase-waitcommevent) returns an error.
 

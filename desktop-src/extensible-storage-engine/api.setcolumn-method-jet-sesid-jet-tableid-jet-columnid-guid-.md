@@ -80,7 +80,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.Guid](https://msdn.microsoft.com/en-us/library/cey1zx63)  
+    Type: [System.Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN)  
     
     The data to set.
 

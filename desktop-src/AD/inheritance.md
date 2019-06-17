@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Inheritance
 
-[*Inheritance*](https://msdn.microsoft.com/library/ms681910#-ds-inheritance) allows a given ACE to be propagated from the container where it was applied to all children of the container. Inheritance can be combined with delegation to grant administrative rights to a whole subtree of the directory in a single operation.
+[*Inheritance*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms681910(v=vs.85)) allows a given ACE to be propagated from the container where it was applied to all children of the container. Inheritance can be combined with delegation to grant administrative rights to a whole subtree of the directory in a single operation.
 
  
 

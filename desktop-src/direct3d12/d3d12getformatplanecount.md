@@ -12,6 +12,7 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -39,18 +40,18 @@ UINT8 inline D3D12GetFormatPlaneCount(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Device**](/windows/desktop/api/D3D12/nn-d3d12-id3d12device)\***
+Type: **[**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device)\***
 
-The virtual adapter (an [**ID3D12Device**](/windows/desktop/api/D3D12/nn-d3d12-id3d12device)) for which to get the plane count.
+The virtual adapter (an [**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-id3d12device)) for which to get the plane count.
 
 </dd> <dt>
 
 *Format* 
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)**
+Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) for which to get the plane count.
+The [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) for which to get the plane count.
 
 </dd> </dl>
 
@@ -79,7 +80,7 @@ The plane count for the specified format on the specified virtual adapter.
 [**D3D12\_FEATURE\_DATA\_FORMAT\_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_info)
 </dt> <dt>
 
-[**CheckFeatureSupport**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-checkfeaturesupport)
+[**CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport)
 </dt> <dt>
 
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)

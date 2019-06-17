@@ -49,26 +49,26 @@ The **Msvm\_SystemComponent** class has these properties.
 **GroupComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_System**](https://msdn.microsoft.com/library/aa388503)**
+Data type: **[**CIM\_System**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-system)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The parent element in the association. This property is inherited from [**CIM\_SystemComponent**](https://msdn.microsoft.com/library/aa388506).
+The parent element in the association. This property is inherited from [**CIM\_SystemComponent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-systemcomponent).
 
 </dd> <dt>
 
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898)**
+Data type: **[**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The child element in the association. This property is inherited from [**CIM\_SystemComponent**](https://msdn.microsoft.com/library/aa388506).
+The child element in the association. This property is inherited from [**CIM\_SystemComponent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-systemcomponent).
 
 </dd> </dl>
 

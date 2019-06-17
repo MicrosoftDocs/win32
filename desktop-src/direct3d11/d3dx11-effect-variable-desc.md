@@ -43,7 +43,7 @@ typedef struct _D3DX11_EFFECT_VARIABLE_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -54,7 +54,7 @@ Name of this variable, annotation, or structure member.
 **Semantic**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ Semantic string of this variable or structure member (NULL for annotations or if
 **Flags**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Optional flags for effect variables.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Number of annotations on this variable (always 0 for annotations).
 **BufferOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -98,7 +98,7 @@ Offset into containing cbuffer or tbuffer (always 0 for annotations or variables
 **ExplicitBindPoint**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 

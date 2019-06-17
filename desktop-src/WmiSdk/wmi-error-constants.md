@@ -60,7 +60,7 @@ Error originating from ADSI (Active Directory Service Interfaces) or LDAP (Light
 
 </dd> </dl>
 
-Some methods in WMI classes can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available. In C++, you can call [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
+Some methods in WMI classes can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available. In C++, you can call [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
 
 <dl> <dt>
 

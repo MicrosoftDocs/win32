@@ -81,10 +81,10 @@ Retrieves the pointer to the callback function set with [**WinHttpSetStatusCallb
 
 
 
-Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md), it must call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
+Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md), it must call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
 
 > [!Note]  
-> The application should not attempt to close the certificate store with the CERT\_CLOSE\_STORE\_FORCE\_FLAG flag in the call to [**CertCloseStore**](https://msdn.microsoft.com/library/windows/desktop/aa376026) on the certificate store from which the certificate context was retrieved. An access violation may occur.
+> The application should not attempt to close the certificate store with the CERT\_CLOSE\_STORE\_FORCE\_FLAG flag in the call to [**CertCloseStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore) on the certificate store from which the certificate context was retrieved. An access violation may occur.
 
  
 
@@ -112,7 +112,7 @@ If the server requires a client certificate, it may send a 403 HTTP status code 
 
 
 
-Retrieves a [**SecPkgContext\_IssuerListInfoEx**](https://msdn.microsoft.com/library/windows/desktop/aa380078) structure when the error from [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) is **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. The issuer list in the structure contains a list of acceptable Certificate Authorities (CA) from the server. The client application can filter the CA list to retrieve the client certificate for SSL authentication.
+Retrieves a [**SecPkgContext\_IssuerListInfoEx**](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex) structure when the error from [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) is **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. The issuer list in the structure contains a list of acceptable Certificate Authorities (CA) from the server. The client application can filter the CA list to retrieve the client certificate for SSL authentication.
 
 Alternately, if the server requests the client certificate, but does not require it, the application can call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
 
@@ -559,7 +559,7 @@ Sets or retrieves a string value that contains the password associated with a re
 
 
 
-Sets or retrieves an [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure that contains the proxy data on an existing session handle or request handle. When retrieving proxy data, an application must free the **lpszProxy** and **lpszProxyBypass** strings contained in this structure (if they are non-**NULL**) using the [**GlobalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366579) function. An application can query for the global proxy data (the default proxy) by passing a **NULL** handle.
+Sets or retrieves an [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure that contains the proxy data on an existing session handle or request handle. When retrieving proxy data, an application must free the **lpszProxy** and **lpszProxyBypass** strings contained in this structure (if they are non-**NULL**) using the [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) function. An application can query for the global proxy data (the default proxy) by passing a **NULL** handle.
 
 
 </dt> </dl> </dd> <dt>
@@ -579,7 +579,7 @@ Sets or retrieves a string value that contains the password used to access the p
 
 
 
-Gets the proxy Server Principal Name that WinHTTP supplied to SSPI during authentication. This string value is usefor passing to [**SspiPromptForCredentials**](https://msdn.microsoft.com/library/windows/desktop/dd401714) after an authentication failure.
+Gets the proxy Server Principal Name that WinHTTP supplied to SSPI during authentication. This string value is usefor passing to [**SspiPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa) after an authentication failure.
 
 
 </dt> </dl> </dd> <dt>
@@ -746,7 +746,7 @@ The TLS 1.2 protocol can be used.
 
 
 
-Retrieves the certificate for a SSL/TLS server into the [**WINHTTP\_CERTIFICATE\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_5) structure. The application must free the **lpszSubjectInfo** and **lpszIssuerInfo** members with [**LocalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366730).
+Retrieves the certificate for a SSL/TLS server into the [**WINHTTP\_CERTIFICATE\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_5) structure. The application must free the **lpszSubjectInfo** and **lpszIssuerInfo** members with [**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree).
 
 
 </dt> </dl> </dd> <dt>
@@ -852,7 +852,7 @@ Sets or retrieves an unsigned long integer value that contains the time-out valu
 
 
 
-Gets a pointer to [**SecPkgContext\_Bindings**](https://msdn.microsoft.com/library/windows/desktop/dd919960) structure that specifies a Channel Binding Token (CBT).
+Gets a pointer to [**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings) structure that specifies a Channel Binding Token (CBT).
 
 A Channel Binding Token is a property of a secure transport channel and is used to bind an authentication channel to the secure transport channel. This token can only be obtained by this option after an SSL connection has been established.
 
@@ -869,7 +869,7 @@ A Channel Binding Token is a property of a secure transport channel and is used 
 
 
 
-Retrieves the server certification context. **WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT** can be passed to obtain a duplicated pointer to the [**CERT CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) for a server certificate received during a negotiated SSL connection. The client must call [**CertFreeCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376075) on the returned PCCERT\_CONTEXT pointer that is filled into the buffer.
+Retrieves the server certification context. **WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT** can be passed to obtain a duplicated pointer to the [**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) for a server certificate received during a negotiated SSL connection. The client must call [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) on the returned PCCERT\_CONTEXT pointer that is filled into the buffer.
 
 
 </dt> </dl> </dd> <dt>
@@ -879,7 +879,7 @@ Retrieves the server certification context. **WINHTTP\_OPTION\_SERVER\_CERT\_CON
 
 
 
-Gets the server Server Principal Name that WinHTTP supplied to SSPI during authentication. This string value can be passed to [**SspiPromptForCredentials**](https://msdn.microsoft.com/library/windows/desktop/dd401714) after an authentication failure.
+Gets the server Server Principal Name that WinHTTP supplied to SSPI during authentication. This string value can be passed to [**SspiPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa) after an authentication failure.
 
 
 </dt> </dl> </dd> <dt>
@@ -1072,8 +1072,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS | X              | \-             | \-           | X          | **BOOL**                                                                         |
 | WINHTTP\_OPTION\_AUTOLOGON\_POLICY                 | \-             | X              | \-           | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_CALLBACK                          | X              | X              | X            | X          | **LPVOID**                                                                       |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT             | \-             | X              | \-           | X          | [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189)                                       |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST        | \-             | X              | X            | \-         | [**SecPkgContext\_IssuerListInfoEx**](https://msdn.microsoft.com/library/windows/desktop/aa380078)\* |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT             | \-             | X              | \-           | X          | [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)                                       |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST        | \-             | X              | X            | \-         | [**SecPkgContext\_IssuerListInfoEx**](https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex)\* |
 | WINHTTP\_OPTION\_CODEPAGE                          | X              | \-             | \-           | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH         | X              | \-             | \-           | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_CONNECT\_INFO                     | \-             | X              | X            | \-         | [**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info)                     |
@@ -1121,8 +1121,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_SECURITY\_FLAGS                   | \-             | X              | X            | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_SECURITY\_KEY\_BITNESS            | \-             | X              | X            | \-         | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_SEND\_TIMEOUT                     | X              | X              | X            | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_SERVER\_CBT                       | \-             | X              | X            | \-         | [**SecPkgContext\_Bindings**](https://msdn.microsoft.com/library/windows/desktop/dd919960)\*                 |
-| WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT             | \-             | X              | X            | \-         | [**CERT CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189)                                        |
+| WINHTTP\_OPTION\_SERVER\_CBT                       | \-             | X              | X            | \-         | [**SecPkgContext\_Bindings**](https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_bindings)\*                 |
+| WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT             | \-             | X              | X            | \-         | [**CERT CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context)                                        |
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED                 | \-             | X              | X            | \-         | **LPWSTR**                                                                       |
 | WINHTTP\_OPTION\_SPN                               | \-             | X              | \-           | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVEN              | X              | \-             | \-           | X          | [HINTERNET](hinternet-handles-in-winhttp.md)                                    |

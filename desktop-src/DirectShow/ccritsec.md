@@ -56,7 +56,7 @@ This class is a thin wrapper for a Windows **CRITICAL\_SECTION** object. You can
 
 <dl> <dt>
 
-[Critical Section Objects](https://msdn.microsoft.com/library/windows/desktop/ms682530)
+[Critical Section Objects](https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects)
 </dt> <dt>
 
 [DirectShow Base Class Reference](base-class-reference.md)

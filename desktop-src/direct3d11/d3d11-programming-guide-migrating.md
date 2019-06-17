@@ -36,7 +36,7 @@ The Direct3D 11 API builds on the infrastructural improvements made in Direct3D 
 -   Mapping all image content to a DXGI\_FORMAT, including the removal of all 16-bit color formats (5/5/5/1, 5/6/5, 4/4/4/4), removal of all 24-bit color formats (8/8/8), and strict RGB color ordering.
 -   Breaking up global constant state usage into several small, more efficiently updated constant buffers.
 
-For more information about moving from Direct3D 9 to Direct3D 10, see [Direct3D 9 to Direct3D 10 Considerations](https://msdn.microsoft.com/library/windows/desktop/bb205073).
+For more information about moving from Direct3D 9 to Direct3D 10, see [Direct3D 9 to Direct3D 10 Considerations](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).
 
 ## Direct3D 10 to Direct3D 11
 
@@ -51,9 +51,9 @@ Converting programs written to use the Direct3D 10 or 10.1 API is a straight-for
 
 | Direct3D 10                            | Direct3D 11                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DXGI\_FORMAT                           | [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)Several new DXGI formats were defined.<br/>                                                                                                                                                                                                                                                                                                                                |
+| DXGI\_FORMAT                           | [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)Several new DXGI formats were defined.<br/>                                                                                                                                                                                                                                                                                                                                |
 | D3D10\_CREATE\_DEVICE\_SWITCH\_TO\_REF | [**D3D11\_CREATE\_DEVICE\_SWITCH\_TO\_REF**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag)The switch-to-ref functionality is not supported by Direct3D 11.<br/>                                                                                                                                                                                                                                                                        |
-| D3D10\_DRIVER\_TYPE                    | [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type)Note that the enumeration identifiers in [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) were redefined from the identifiers in [**D3D10\_DRIVER\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/bb205042). Therefore, you should be sure to use the enumeration identifiers instead of literal numbers.<br/> [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) is defined in D3Dcommon.h.<br/> |
+| D3D10\_DRIVER\_TYPE                    | [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type)Note that the enumeration identifiers in [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) were redefined from the identifiers in [**D3D10\_DRIVER\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/ne-d3d10misc-d3d10_driver_type). Therefore, you should be sure to use the enumeration identifiers instead of literal numbers.<br/> [**D3D\_DRIVER\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) is defined in D3Dcommon.h.<br/> |
 | D3D10\_RESOURCE\_MISC\_FLAG            | [**D3D11\_RESOURCE\_MISC\_FLAG**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)Note that many of these flags were redefined, so be sure to use enumeration identifiers instead of literal numbers.<br/>                                                                                                                                                                                                                                |
 | D3D10\_FILTER                          | [**D3D11\_FILTER**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_filter)Note that text filtering D3D10\_FILTER\_TEXT\_1BIT was removed from Direct3D 11. See DirectWrite.<br/>                                                                                                                                                                                                                                                                            |
 | D3D11\_COUNTER                         | [**D3D11\_COUNTER**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_counter)Note that the vendor-neutral counters were removed for Direct3D 11 as they were rarely supported.<br/>                                                                                                                                                                                                                                                                          |
@@ -121,7 +121,7 @@ Converting programs written to use the Direct3D 10 or 10.1 API is a straight-for
 <td>D3DCompiler (see D3DCompiler.h)
 <blockquote>
 [!Note]<br />
-For Windows Store apps, the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607340">D3DCompiler APIs</a> are supported only for development, not deployment.
+For Windows Store apps, the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> are supported only for development, not deployment.
 </blockquote>
 <br/></td>
 </tr>
@@ -130,17 +130,17 @@ For Windows Store apps, the <a href="https://msdn.microsoft.com/library/windows/
 <td><a href="https://go.microsoft.com/fwlink/p/?LinkId=271568">Effects 11</a> is available as shared source online.
 <blockquote>
 [!Note]<br />
-This solution is not suited to Windows Store apps because it requires the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607340">D3DCompiler APIs</a> at runtime (deployment).
+This solution is not suited to Windows Store apps because it requires the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> at runtime (deployment).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>D3DX9/D3DX10 Math</td>
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/hh437833">DirectXMath</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal">DirectXMath</a></td>
 </tr>
 <tr class="even">
 <td>D3DX10</td>
-<td>D3DX11 in the legacy DirectX SDK <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=324981">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd368038">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br/></td>
+<td>D3DX11 in the legacy DirectX SDK <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=324981">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -149,7 +149,7 @@ This solution is not suited to Windows Store apps because it requires the <a hre
 
  
 
-For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/library/windows/desktop/ee663275).
+For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](https://docs.microsoft.com/windows/desktop/directx-sdk--august-2009-).
 
 ## Direct3D 10.1 to Direct3D 11
 
@@ -210,13 +210,13 @@ Once your code is updated to use the Direct3D 11 API, there are numerous [new fe
 
 ## New Features for DirectX 11.1
 
-Windows 8 includes further DirectX graphics enhancements to consider when you implement your DirectX graphics code, which include [Direct3D 11.1](direct3d-11-features.md), [DXGI 1.2](https://msdn.microsoft.com/library/windows/desktop/hh404490), [Windows Display Driver Model (WDDM) 1.2](https://go.microsoft.com/fwlink/p/?LinkId=226814), [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11.1 hardware, Direct2D device contexts, and other improvements.
+Windows 8 includes further DirectX graphics enhancements to consider when you implement your DirectX graphics code, which include [Direct3D 11.1](direct3d-11-features.md), [DXGI 1.2](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [Windows Display Driver Model (WDDM) 1.2](https://go.microsoft.com/fwlink/p/?LinkId=226814), [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11.1 hardware, Direct2D device contexts, and other improvements.
 
-Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 as well via the [Platform Update for Windows 7](https://msdn.microsoft.com/library/windows/desktop/jj863687), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
+Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 as well via the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
 
 ## New Features for DirectX 11.2
 
-The Windows 8.1 includes [Direct3D 11.2](direct3d-11-2-features.md), [DXGI 1.3](https://msdn.microsoft.com/library/windows/desktop/dn280344), and other improvements.
+The Windows 8.1 includes [Direct3D 11.2](direct3d-11-2-features.md), [DXGI 1.3](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-3-improvements), and other improvements.
 
 ## Related topics
 

@@ -153,7 +153,7 @@ Name of the class. This may be either a string enclosed in double quotation mark
 <span id="style"></span><span id="STYLE"></span>*style*
 </dt> <dd>
 
-Window styles (explicit **WS\_\***, **BS\_\***, **SS\_\***, **ES\_\***, **LBS\_\***, **SBS\_\***, and **CBS\_\*** style values defined in Winuser.H can be used by adding an include to the .rc file: `#include "winuser.h"`). For more information, see [Window Styles](https://msdn.microsoft.com/library/windows/desktop/ms632600).
+Window styles (explicit **WS\_\***, **BS\_\***, **SS\_\***, **ES\_\***, **LBS\_\***, **SBS\_\***, and **CBS\_\*** style values defined in Winuser.H can be used by adding an include to the .rc file: `#include "winuser.h"`). For more information, see [Window Styles](https://docs.microsoft.com/windows/desktop/winmsg/window-styles).
 
 </dd> </dl>
 

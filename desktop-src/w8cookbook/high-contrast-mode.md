@@ -51,7 +51,7 @@ If unexpected behavior is seen in apps in high-contrast themes, one of these sol
 
 -   **Using visual styles with owner-drawn UIs:**
 
-    Owner-drawn controls should follow the instructions on [MSDN](https://msdn.microsoft.com/library/dd373487.aspx) for correctly rendering control parts and states, including text. Developers should not rely on the text or background color specified in a device context in order to use non-UxTheme methods for rendering. In the case where there is no theme part for the control in question, use GetThemeSysColor with the [appropriate metric](https://msdn.microsoft.com/library/ms724371.aspx) and draw the text using standard GDI methods. If none of the UxTheme calls are appropriate, use the GetSysColor method to get the appropriate metric.
+    Owner-drawn controls should follow the instructions on [MSDN](https://docs.microsoft.com/windows/desktop/Controls/using-visual-styles) for correctly rendering control parts and states, including text. Developers should not rely on the text or background color specified in a device context in order to use non-UxTheme methods for rendering. In the case where there is no theme part for the control in question, use GetThemeSysColor with the [appropriate metric](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor) and draw the text using standard GDI methods. If none of the UxTheme calls are appropriate, use the GetSysColor method to get the appropriate metric.
 
 -   **Selecting text color:**
 
@@ -75,11 +75,11 @@ If unexpected behavior is seen in apps in high-contrast themes, one of these sol
 
 -   **Writing a high-contrast Windows Store app:**
 
-    Windows Store app should use the [SystemColors](https://msdn.microsoft.com/library/system.windows.systemcolors.aspx) class for determining proper UI element coloring, keeping in mind that certain system metric colors are designed to be used in conjunction, such as SystemColors.WindowColor and SystemColors.WindowTextColor. This facilitates a superior high-contrast experience.
+    Windows Store app should use the [SystemColors](https://docs.microsoft.com/dotnet/api/system.windows.systemcolors?redirectedfrom=MSDN) class for determining proper UI element coloring, keeping in mind that certain system metric colors are designed to be used in conjunction, such as SystemColors.WindowColor and SystemColors.WindowTextColor. This facilitates a superior high-contrast experience.
 
 -   **Properly detecting high contrast in previous versions of Windows:**
 
-    Apps running on previous versions of Windows do not have access to the new high-contrast themes even if the manifest specifies compatibility with the version of Windows in question. As such, it might be necessary to insert additional code paths to handle rendering in the classic environment used in previous versions of Windows. The presence of high contrast in this case should be checked by calling the [SystemParametersInfo](https://msdn.microsoft.com/library/ms724947.aspx) function with the SPI\_GETHIGHCONTRAST flag. This is the only supported way of checking the presence of high contrast.
+    Apps running on previous versions of Windows do not have access to the new high-contrast themes even if the manifest specifies compatibility with the version of Windows in question. As such, it might be necessary to insert additional code paths to handle rendering in the classic environment used in previous versions of Windows. The presence of high contrast in this case should be checked by calling the [SystemParametersInfo](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the SPI\_GETHIGHCONTRAST flag. This is the only supported way of checking the presence of high contrast.
 
 ## Tests
 

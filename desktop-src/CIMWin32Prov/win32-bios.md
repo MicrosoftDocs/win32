@@ -49,7 +49,7 @@ api_location:
 
 # Win32\_BIOS class
 
-The **Win32\_BIOS** [WMI class](https://msdn.microsoft.com/library/aa393244) represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
+The **Win32\_BIOS** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -114,7 +114,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 0\|BIOS Characteristics")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 0\|BIOS Characteristics")
 </dt> </dl>
 
 Array of BIOS characteristics supported by the system as defined by the System Management BIOS Reference Specification.
@@ -479,7 +479,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|Software Component Information\|002.4")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Component Information\|002.4")
 </dt> </dl>
 
 Internal identifier for this compilation of this software element.
@@ -497,7 +497,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
 </dt> </dl>
 
 Short description of the object a one-line string.
@@ -515,7 +515,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64)
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Code set used by this software element.
@@ -533,7 +533,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 13\|Current Language")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 13\|Current Language")
 </dt> </dl>
 
 Name of the current BIOS language.
@@ -549,7 +549,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Description")
+Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -567,7 +567,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 0\|Embedded Controller Firmware Major Release")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 0\|Embedded Controller Firmware Major Release")
 </dt> </dl>
 
 The major release of the embedded controller firmware.
@@ -587,7 +587,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 0\|Embedded Controller Firmware Minor Release")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 0\|Embedded Controller Firmware Minor Release")
 </dt> </dl>
 
 The minor release of the embedded controller firmware.
@@ -607,7 +607,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|Software Component Information\|002.7")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Component Information\|002.7")
 </dt> </dl>
 
 Manufacturer's identifier for this software element. Often this will be a stock keeping unit (SKU) or a part number.
@@ -625,7 +625,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 13\|Installable Languages")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 13\|Installable Languages")
 </dt> </dl>
 
 Number of languages available for installation on this system. Language may determine properties such as the need for Unicode and bidirectional text.
@@ -641,7 +641,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Install Date")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -659,7 +659,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (32), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|Software Component Information\|002.6")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (32), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Component Information\|002.6")
 </dt> </dl>
 
 Language edition of this software element. The language codes defined in ISO 639 should be used. Where the software element represents a multilingual or international version of a product, the string "multilingual" should be used.
@@ -677,7 +677,7 @@ Data type: **String** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 13\|Language Strings")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 13\|Language Strings")
 </dt> </dl>
 
 Array of names of available BIOS-installable languages.
@@ -693,7 +693,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|System BIOS\|001.2")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.2")
 </dt> </dl>
 
 Manufacturer of this software element.
@@ -713,7 +713,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**maxlen**](https://msdn.microsoft.com/library/aa393650) (256)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Name used to identify this software element.
@@ -731,7 +731,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_OperatingSystem**](cim-operatingsystem.md).**OtherTypeDescription**")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_OperatingSystem**](cim-operatingsystem.md).**OtherTypeDescription**")
 </dt> </dl>
 
 Records the manufacturer and operating system type for a software element when the **TargetOperatingSystem** property has a value of 1 (Other). When **TargetOperatingSystem** has a value of 1, **OtherTargetOS** must have a nonnull value. For all other values of **TargetOperatingSystem**, **OtherTargetOS** is **NULL**.
@@ -749,7 +749,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|System BIOS\|001.9")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|System BIOS\|001.9")
 </dt> </dl>
 
 If **TRUE**, this is the primary BIOS of the computer system.
@@ -782,7 +782,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://msdn.microsoft.com/library/aa393650) (64), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|ComponentID\|001.4")
+Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.4")
 </dt> </dl>
 
 Assigned serial number of the software element.
@@ -800,7 +800,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 0\|BIOS Version")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 0\|BIOS Version")
 </dt> </dl>
 
 BIOS version as reported by SMBIOS.
@@ -818,7 +818,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|CSMBios\|GetVersion")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|CSMBios\|GetVersion")
 </dt> </dl>
 
 Major SMBIOS version number. This property is **NULL** if SMBIOS is not found.
@@ -834,7 +834,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|CSMBios\|GetVersion")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|CSMBios\|GetVersion")
 </dt> </dl>
 
 Minor SMBIOS version number. This property is **NULL** if SMBIOS is not found.
@@ -850,7 +850,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|CSMBios\|Init")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|CSMBios\|Init")
 </dt> </dl>
 
 If **true**, the SMBIOS is available on this computer system.
@@ -866,7 +866,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**maxlen**](https://msdn.microsoft.com/library/aa393650) (256)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Identifier for this software element; designed to be used in conjunction with other keys to create a unique representation of this instance.
@@ -884,7 +884,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 State of a software element.
@@ -934,7 +934,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (10), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Status")
+Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1040,7 +1040,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 0\|System BIOS Major Release")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 0\|System BIOS Major Release")
 </dt> </dl>
 
 The major release of the System BIOS.
@@ -1060,7 +1060,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 0\|System BIOS Minor Release")
+Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS\|Type 0\|System BIOS Minor Release")
 </dt> </dl>
 
 The minor release of the System BIOS.
@@ -1080,7 +1080,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|Software Component Information\|002.5"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("[**CIM\_OperatingSystem**](cim-operatingsystem.md).**OSType**")
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Component Information\|002.5"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_OperatingSystem**](cim-operatingsystem.md).**OSType**")
 </dt> </dl>
 
 Target operating system of the owning software element.
@@ -1536,7 +1536,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Version"), [**Mappingstrings**](https://msdn.microsoft.com/library/aa393650) ("Win32Registry\|HARDWARE\\\\Description\\\\System\|SystemBiosVersion")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Version"), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HARDWARE\\\\Description\\\\System\|SystemBiosVersion")
 </dt> </dl>
 
 Version of the BIOS. This string is created by the BIOS manufacturer.

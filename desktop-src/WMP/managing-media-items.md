@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A **Media** object represents one media item. It has properties and methods you can use to retrieve information and display it to the user, or to take different actions based on the value you retrieve.
 
-Much of your work with **Media** objects involves metadata about the content of the media item, called the attributes. The topic [Media Item Attributes](media-item-attributes.md) describes how to read and change attribute values. In addition to this topic, see the [Windows Media Metadata Usage Guidelines](https://msdn.microsoft.com/library/ms867702.aspx) on the Microsoft website for more information about the attributes and their use.
+Much of your work with **Media** objects involves metadata about the content of the media item, called the attributes. The topic [Media Item Attributes](media-item-attributes.md) describes how to read and change attribute values. In addition to this topic, see the [Windows Media Metadata Usage Guidelines](/previous-versions/ms867702(v=msdn.10)) on the Microsoft website for more information about the attributes and their use.
 
 The **Media** object has properties and methods that retrieve some attributes directly, such as the name or duration of the item. For video items, you can retrieve the height and width of the image, and you can retrieve marker information based on the name or index of a marker. You can also determine whether a particular media item is included in a particular playlist.
 

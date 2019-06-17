@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Compilers that use different defaults for signed and unsigned types can cause software errors in your distributed application. You can avoid these problems by explicitly declaring your character types as **signed** or **unsigned**.
 
-MIDL defines the [**small**](https://msdn.microsoft.com/library/windows/desktop/aa367165) type to take the same default sign as the **char** type in the target C compiler. If the compiler assumes that **char** is unsigned, **small** will also be defined as unsigned. Many C compilers let you change the default as a command-line option. For example, the Microsoft C compiler **/J** command-line option changes the default sign of **char** from signed to unsigned.
+MIDL defines the [**small**](https://docs.microsoft.com/windows/desktop/Midl/small) type to take the same default sign as the **char** type in the target C compiler. If the compiler assumes that **char** is unsigned, **small** will also be defined as unsigned. Many C compilers let you change the default as a command-line option. For example, the Microsoft C compiler **/J** command-line option changes the default sign of **char** from signed to unsigned.
 
-You can also control the sign of variables of type **char** and **small** with the MIDL compiler command-line switch [**/char**](https://msdn.microsoft.com/library/windows/desktop/aa367314). This switch allows you to specify the default sign used by your compiler. The MIDL compiler explicitly declares the sign of all **char** types that do not match your C-compiler default type in the generated header file.
+You can also control the sign of variables of type **char** and **small** with the MIDL compiler command-line switch [**/char**](https://docs.microsoft.com/windows/desktop/Midl/-char). This switch allows you to specify the default sign used by your compiler. The MIDL compiler explicitly declares the sign of all **char** types that do not match your C-compiler default type in the generated header file.
 
  
 

@@ -62,7 +62,7 @@ Indicates whether a password is required for the account that this attribute ref
 
 ## Remarks
 
-In ADAM, this attribute replaces the [**ADS\_UF\_PASSWD\_NOTREQD**](https://msdn.microsoft.com/library/aa772300) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
+In ADAM, this attribute replaces the [**ADS\_UF\_PASSWD\_NOTREQD**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
  
 

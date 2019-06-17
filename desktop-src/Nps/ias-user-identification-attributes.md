@@ -33,9 +33,9 @@ Each attribute provides the user identity in a different format. In general, dev
 
 The **ratUserName** attribute contains the name that was actually sent "over the wire." NPS has not, in any way, processed or validated the contents of this attribute. This attribute may not be available at all because the user may have been identified through a means such as caller ID.
 
-When using [**RadiusExtensionProcess/Ex**](https://msdn.microsoft.com/library/bb892005), if this attribute is available, it is available only at the Authentication Extension DLL plug-in point. The **ratUserName** attribute is not available at the Authorization Extension DLL plug-in point because in Authorization Extension DLLs the **RadiusExtensionProcess/Ex** functions see only the "outbound" attributes.
+When using [**RadiusExtensionProcess/Ex**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex), if this attribute is available, it is available only at the Authentication Extension DLL plug-in point. The **ratUserName** attribute is not available at the Authorization Extension DLL plug-in point because in Authorization Extension DLLs the **RadiusExtensionProcess/Ex** functions see only the "outbound" attributes.
 
-When using [**RadiusExtensionProcess2**](https://msdn.microsoft.com/library/bb892004), if this attribute is available, it is available at both the Authentication Extension DLL plug-in point and the Authorization Extension DLL plug-in point.
+When using [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), if this attribute is available, it is available at both the Authentication Extension DLL plug-in point and the Authorization Extension DLL plug-in point.
 
 ## ratStrippedUserName
 
@@ -69,10 +69,10 @@ The format of the **ratFQUserName** attribute at the Authorization Extension DLL
 
 <dl> <dt>
 
-[Setting Up the Extension DLLs](https://msdn.microsoft.com/library/bb892024)
+[Setting Up the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls)
 </dt> <dt>
 
-[Invoking the Extension DLLs](https://msdn.microsoft.com/library/bb891988)
+[Invoking the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-authentication-and-authorization-process)
 </dt> </dl>
 
  

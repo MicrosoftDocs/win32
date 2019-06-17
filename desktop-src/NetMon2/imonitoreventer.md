@@ -21,7 +21,7 @@ The **IMonitorEventer** interface provides methods for submitting events and all
 
 ## Members
 
-The **IMonitorEventer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IMonitorEventer** also has these types of members:
+The **IMonitorEventer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMonitorEventer** also has these types of members:
 
 -   [Methods](#methods)
 

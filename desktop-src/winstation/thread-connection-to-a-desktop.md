@@ -13,7 +13,7 @@ After a process connects to a window station, the system assigns a desktop to th
 1.  If the thread has called the [**SetThreadDesktop**](https://msdn.microsoft.com/en-us/library/ms686250(v=VS.85).aspx) function, it connects to the specified desktop.
 2.  If the thread did not call [**SetThreadDesktop**](https://msdn.microsoft.com/en-us/library/ms686250(v=VS.85).aspx), it connects to the desktop inherited from the parent process.
 3.  If the thread did not call [**SetThreadDesktop**](https://msdn.microsoft.com/en-us/library/ms686250(v=VS.85).aspx) and did not inherit a desktop, the system attempts to open for MAXIMUM\_ALLOWED access and connect to a desktop as follows:
-    -   If a desktop name was specified in the **lpDesktop** member of the [**STARTUPINFO**](https://msdn.microsoft.com/library/windows/desktop/ms686331) structure that was used when the process was created, the thread connects to the specified desktop.
+    -   If a desktop name was specified in the **lpDesktop** member of the [**STARTUPINFO**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa) structure that was used when the process was created, the thread connects to the specified desktop.
     -   Otherwise, the thread connects to the default desktop of the window station to which the process connected.
 
 The desktop assigned during this connection process cannot be closed by calling the [**CloseDesktop**](https://msdn.microsoft.com/en-us/library/ms682024(v=VS.85).aspx) function.

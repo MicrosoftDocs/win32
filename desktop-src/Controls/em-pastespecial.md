@@ -27,7 +27,7 @@ Pastes a specific clipboard format in a rich edit control.
 *wParam* 
 </dt> <dd>
 
-Specifies the [Clipboard Formats](https://msdn.microsoft.com/library/windows/desktop/ms649013).
+Specifies the [Clipboard Formats](https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats).
 
 </dd> <dt>
 

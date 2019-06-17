@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Attribute Functions
 
-Attributes can be added to a certificate request to provide a [*certification authority*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certification-authority-gly) (CA) with additional information that it can use when creating and issuing a certificate.
+Attributes can be added to a certificate request to provide a [*certification authority*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CA) with additional information that it can use when creating and issuing a certificate.
 
 CertEnroll.dll implements the following interfaces to define attributes and attribute collections:
 
@@ -37,7 +37,7 @@ The following sections identify functions exported by Xenroll.dll to associate c
 
 ## addAttributeToRequestWStr
 
-The [**addAttributeToRequestWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385506) function in Xenroll.dll adds an attribute to a certificate request.
+The [**addAttributeToRequestWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-addattributetorequestwstr) function in Xenroll.dll adds an attribute to a certificate request.
 
 In general, to add an attribute to a request by using the objects implemented in CertEnroll.dll, you can perform the following actions:
 
@@ -50,13 +50,13 @@ In general, to add an attribute to a request by using the objects implemented in
 
 ## AddAuthenticatedAttributesToPKCS7Request
 
-Authenticated attributes are name-value pairs that are signed by and added to a signature. The [**AddAuthenticatedAttributesToPKCS7Request**](https://msdn.microsoft.com/library/windows/desktop/aa385508) function in Xenroll.dll adds an array of authenticated attributes to a [*PKCS \#7*](https://msdn.microsoft.com/library/windows/desktop/ms721603) request.
+Authenticated attributes are name-value pairs that are signed by and added to a signature. The [**AddAuthenticatedAttributesToPKCS7Request**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addauthenticatedattributestopkcs7request) function in Xenroll.dll adds an array of authenticated attributes to a [*PKCS \#7*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) request.
 
-As discussed above for the [**addAttributeToRequestWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385506) function, you can use CertEnroll.dll to easily define and add a collection of attributes to a certificate request. You cannot, however, choose whether the attribute is authenticated. The enrollment process automatically makes this decision.
+As discussed above for the [**addAttributeToRequestWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-addattributetorequestwstr) function, you can use CertEnroll.dll to easily define and add a collection of attributes to a certificate request. You cannot, however, choose whether the attribute is authenticated. The enrollment process automatically makes this decision.
 
 ## addNameValuePairToRequestWStr
 
-The [**addNameValuePairToRequestWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385520) function in Xenroll.dll adds an unauthenticated name-value pair to a request.
+The [**addNameValuePairToRequestWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-addnamevaluepairtorequestwstr) function in Xenroll.dll adds an unauthenticated name-value pair to a request.
 
 You can use the [**IX509NameValuePair**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509namevaluepair) interface in CertEnroll.dll to define a name-value pair, and you can add a collection of name-value pairs to a CMC request object by performing the following actions:
 
@@ -69,25 +69,25 @@ The enrollment process places the collection of name-value pairs in the **Tagged
 
 ## AddNameValuePairToSignatureWStr
 
-The [**AddNameValuePairToSignatureWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385521) function in Xenroll.dll adds an authenticated name-value pair to a request. This is typically used to specify the requester name in an enroll-on-behalf-of (EOBO) request.
+The [**AddNameValuePairToSignatureWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addnamevaluepairtosignaturewstr) function in Xenroll.dll adds an authenticated name-value pair to a request. This is typically used to specify the requester name in an enroll-on-behalf-of (EOBO) request.
 
 In CertEnroll.dll, use the [**RequesterName**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-get_requestername) property to specify the name in an EOBO request.
 
 ## ClientId
 
-The [**ClientId**](https://msdn.microsoft.com/library/windows/desktop/aa385531) function in Xenroll.dll specifies or retrieves a **ClientId** attribute.
+The [**ClientId**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-get_clientid) function in Xenroll.dll specifies or retrieves a **ClientId** attribute.
 
 Use the [**ClientId**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_clientid) property in CertEnroll.dll to add this attribute to a CMC or PKCS \#10 request.
 
 ## RenewalCertificate
 
-The [**RenewalCertificate**](https://msdn.microsoft.com/library/windows/desktop/aa385671) function in Xenroll.dll specifies or retrieves a **RenewalCertificate** attribute.
+The [**RenewalCertificate**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate) function in Xenroll.dll specifies or retrieves a **RenewalCertificate** attribute.
 
 In CertEnroll.dll, when you call [**InitializeFromCertificate**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate) on a PKCS \#7 or PKCS ) object is automatically created.
 
 ## resetAttributes
 
-The [**resetAttributes**](https://msdn.microsoft.com/library/windows/desktop/aa385691) function in Xenroll.dll removes the attribute collection from a request.
+The [**resetAttributes**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-resetattributes) function in Xenroll.dll removes the attribute collection from a request.
 
 To remove an attribute from a request by index using CertEnroll.dll, call the [**Remove**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-remove) method on the [**IX509Attributes**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributes) collection. To remove all attributes from a request, call the [**Clear**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509attributes-clear) method.
 

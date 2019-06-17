@@ -34,9 +34,9 @@ A **UINT** that specifies the number of times to replay the AVI clip. A value of
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is the zero-based index of the frame where playing begins. The value must be less than 65,536. A value of zero means begin with the first frame in the AVI clip.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the zero-based index of the frame where playing begins. The value must be less than 65,536. A value of zero means begin with the first frame in the AVI clip.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) is the zero-based index of the frame where playing ends. The value must be less than 65,536. A value of -1 means end with the last frame in the AVI clip.
+The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is the zero-based index of the frame where playing ends. The value must be less than 65,536. A value of -1 means end with the last frame in the AVI clip.
 
 </dd> </dl>
 

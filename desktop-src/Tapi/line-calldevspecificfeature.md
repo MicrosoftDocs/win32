@@ -67,7 +67,7 @@ Device specific.
 
 The **LINE\_CALLDEVSPECIFICFEATURE** message is used by a service provider in conjunction with the [**TSPI\_lineDevSpecificFeature**](https://msdn.microsoft.com/en-us/library/ms725541(v=VS.85).aspx) function. Its meaning is device specific.
 
-TAPI sends the [**LINE\_DEVSPECIFICFEATURE**](https://msdn.microsoft.com/library/ms725227) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
+TAPI sends the [**LINE\_DEVSPECIFICFEATURE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725227(v=vs.85)) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
 
 There is no directly corresponding message at the TAPI level, although this message is very similar to LINE\_DEVSPECIFICFEATURE. At the TSPI level, the device-specific feature messages are split between those reporting events on lines and addresses, and those reporting events on calls.
 
@@ -86,7 +86,7 @@ There is no directly corresponding message at the TAPI level, although this mess
 
 <dl> <dt>
 
-[**LINE\_DEVSPECIFICFEATURE**](https://msdn.microsoft.com/library/ms725227)
+[**LINE\_DEVSPECIFICFEATURE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725227(v=vs.85))
 </dt> <dt>
 
 [**TSPI\_lineDevSpecificFeature**](https://msdn.microsoft.com/en-us/library/ms725541(v=VS.85).aspx)

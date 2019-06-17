@@ -27,7 +27,7 @@ Sets the amount of space (padding) around each tab's icon and label in a tab con
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is an **INT** value that specifies the amount of horizontal padding, in pixels. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) is an **INT** value that specifies the amount of vertical padding, in pixels.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is an **INT** value that specifies the amount of horizontal padding, in pixels. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is an **INT** value that specifies the amount of vertical padding, in pixels.
 
 </dd> </dl>
 

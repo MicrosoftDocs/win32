@@ -59,7 +59,7 @@ If the selection is not empty, the return value is a set of flags containing one
 
 ## Remarks
 
-This message is useful during [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) processing for the parent of a bottomless rich edit control.
+This message is useful during [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) processing for the parent of a bottomless rich edit control.
 
 ## Requirements
 
@@ -77,7 +77,7 @@ This message is useful during [**WM\_SIZE**](https://msdn.microsoft.com/library/
 
 <dl> <dt>
 
-[**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646)
+[**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size)
 </dt> </dl>
 
  

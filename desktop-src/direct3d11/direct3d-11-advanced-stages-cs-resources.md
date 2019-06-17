@@ -26,10 +26,10 @@ Several new resource types have been added in Direct3D 11.
 
 Shader model 4 resources are read only. Shader model 5 implements a new corresponding set of read/write resources:
 
--   [RWBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471472)
--   [RWTexture1D](https://msdn.microsoft.com/library/windows/desktop/ff471499), [RWTexture1DArray](https://msdn.microsoft.com/library/windows/desktop/ff471500)
--   [RWTexture2D](https://msdn.microsoft.com/library/windows/desktop/ff471505), [RWTexture2DArray](https://msdn.microsoft.com/library/windows/desktop/ff471506)
--   [RWTexture3D](https://msdn.microsoft.com/library/windows/desktop/ff471511)
+-   [RWBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwbuffer)
+-   [RWTexture1D](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture1d), [RWTexture1DArray](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture1darray)
+-   [RWTexture2D](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture2d), [RWTexture2DArray](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture2darray)
+-   [RWTexture3D](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwtexture3d)
 
 These resources require a resource variable to access memory (through indexing) as there are no methods for accessing memory directly. A resource variable can be used on the left and right sides of an equation; if used on the right side, the template type must be single component (float, int, or uint).
 
@@ -69,8 +69,8 @@ float4 myColor = mySb[27].Color;
 
 Use the following object types to access a structured buffer:
 
--   [StructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471514) is a read only structured buffer.
--   [RWStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471494) is a read/write structured buffer.
+-   [StructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-structuredbuffer) is a read only structured buffer.
+-   [RWStructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer) is a read/write structured buffer.
 
 [Atomic functions](direct3d-11-advanced-stages-cs-atomic-functions.md) which implement interlocked operations are allowed on int and uint elements in an **RWStructuredBuffer**.
 
@@ -78,7 +78,7 @@ Use the following object types to access a structured buffer:
 
 A byte address buffer is a buffer whose contents are addressable by a byte offset. Normally, the contents of a [buffer](overviews-direct3d-11-resources-buffers-intro.md) are indexed per element using a stride for each element (S) and the element number (N) as given by S\*N. A byte address buffer, which can also be called a raw buffer, uses a byte value offset from the beginning of the buffer to access data. The byte value must be a multiple of four so that it is DWORD aligned. If any other value is provided, behavior is undefined.
 
-Shader model 5 introduces objects for accessing a [read-only byte address buffer](https://msdn.microsoft.com/library/windows/desktop/ff471453) as well as a [read-write byte address buffer](https://msdn.microsoft.com/library/windows/desktop/ff471475). The contents of a byte address buffer is designed to be a 32-bit unsigned integer; if the value in the buffer is not really an unsigned integer, use a function such as [**asfloat**](https://msdn.microsoft.com/library/windows/desktop/bb509570) to read it.
+Shader model 5 introduces objects for accessing a [read-only byte address buffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-byteaddressbuffer) as well as a [read-write byte address buffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer). The contents of a byte address buffer is designed to be a 32-bit unsigned integer; if the value in the buffer is not really an unsigned integer, use a function such as [**asfloat**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-asfloat) to read it.
 
 ## Unordered Access Buffer or Texture
 
@@ -94,8 +94,8 @@ An append and consume buffer is a special type of an unordered resource that sup
 
 An append and consume buffer must be a structured buffer:
 
--   [AppendStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471448)
--   [ConsumeStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471459)
+-   [AppendStructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-appendstructuredbuffer)
+-   [ConsumeStructuredBuffer](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-consumestructuredbuffer)
 
 Use these resources through their methods, these resources do not use resource variables.
 

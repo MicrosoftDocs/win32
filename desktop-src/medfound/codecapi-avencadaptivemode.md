@@ -41,7 +41,7 @@ The value of this property is a bitwise **OR** of values from the [**eAVEncAdapt
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
+[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

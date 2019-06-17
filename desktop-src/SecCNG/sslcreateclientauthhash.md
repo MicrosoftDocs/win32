@@ -17,7 +17,7 @@ api_location:
 
 # SslCreateClientAuthHash function
 
-The **SslCreateClientAuthHash** function retrieves a handle to the handshake [*hash*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) that is used for client authentication.
+The **SslCreateClientAuthHash** function retrieves a handle to the handshake [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) that is used for client authentication.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ SECURITY_STATUS WINAPI SslCreateClientAuthHash(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ Possible return codes include, but are not limited to, the following.
 
 ## Remarks
 
-The **SslCreateClientAuthHash** function is called for [*Transport Layer Security protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transport-layer-security-protocol-gly) (TLS) 1.2 or later conversations to create hash objects that are used to hash handshake messages. It is called once for each possible [*hashing algorithm*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hashing-algorithm-gly) that can be used in the client authentication signature.
+The **SslCreateClientAuthHash** function is called for [*Transport Layer Security protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.2 or later conversations to create hash objects that are used to hash handshake messages. It is called once for each possible [*hashing algorithm*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) that can be used in the client authentication signature.
 
 ## Requirements
 

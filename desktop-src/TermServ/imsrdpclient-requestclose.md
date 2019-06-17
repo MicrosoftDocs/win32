@@ -102,8 +102,8 @@ Return **S\_OK** if successful.
 
 If the *pCloseStatus* parameter is equal to **controlCloseWaitForEvents**, the application should wait for one of the following events to occur before the application closes the control:
 
--   [**IMsTscAxEvents::OnDisconnected**](imstscaxevents-ondisconnected.md). If the user is not logged on to the Remote Desktop Services session, the application can call the [**DestroyWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632682) function to destroy all windows and then close the control.
--   [**IMsTscAxEvents::OnConfirmClose**](imstscaxevents-onconfirmclose.md). If the user is logged on to the Remote Desktop Services session, the control fires an **OnConfirmClose** event. This event allows the application to prompt the user about whether to close the connection. If the user replies yes to the prompt, the container application can call [**DestroyWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632682) to destroy all windows, and close the control.
+-   [**IMsTscAxEvents::OnDisconnected**](imstscaxevents-ondisconnected.md). If the user is not logged on to the Remote Desktop Services session, the application can call the [**DestroyWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow) function to destroy all windows and then close the control.
+-   [**IMsTscAxEvents::OnConfirmClose**](imstscaxevents-onconfirmclose.md). If the user is logged on to the Remote Desktop Services session, the control fires an **OnConfirmClose** event. This event allows the application to prompt the user about whether to close the connection. If the user replies yes to the prompt, the container application can call [**DestroyWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow) to destroy all windows, and close the control.
 
 **RequestClose** allows a container application to prompt the user about whether to close a connection. For more information, see [**IMsTscAxEvents::OnConfirmClose**](imstscaxevents-onconfirmclose.md).
 

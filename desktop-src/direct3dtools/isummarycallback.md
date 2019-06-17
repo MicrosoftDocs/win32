@@ -26,7 +26,7 @@ Callback to return summary information (displayed in the properties window).
 
 ## Members
 
-The **ISummaryCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ISummaryCallback** also has these types of members:
+The **ISummaryCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISummaryCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **ISummaryCallback** interface inherits from the [**IUnknown**](https://msdn
 
 The **ISummaryCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432810"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of graphics log summary information.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/isummarycallback-resultcallback-dword-summaryitem-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of graphics log summary information.</p></td></tr></tbody></table>
 
  
 

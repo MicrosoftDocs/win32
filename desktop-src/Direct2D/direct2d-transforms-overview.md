@@ -78,11 +78,11 @@ Direct2D uses a left-handed coordinate space; that is, positive x-axis values in
 
 By manipulating values in a transformation matrix, you can rotate, scale, skew, and move (translate) an object. For example, if you set OffsetX to 100 and OffsetY to 200, you move the object to the right 100 pixels and down 200 pixels.
 
-To show the effect of the object move, you need to apply the translation transformation to render targets, brushes, or geometries. Applying a transform to render targets affects the entire screen, while applying a transform to a brush or a geometry only affects that specific brush or geometry. To create a transformation matrix, use the [**Matrix3x2F**](https://msdn.microsoft.com/library/windows/desktop/dd372275) class.
+To show the effect of the object move, you need to apply the translation transformation to render targets, brushes, or geometries. Applying a transform to render targets affects the entire screen, while applying a transform to a brush or a geometry only affects that specific brush or geometry. To create a transformation matrix, use the [**Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class.
 
 ## Creating Transformation Matrices
 
-For creating rotation, scale, skew, and translation transformations, the [**Matrix3x2F**](https://msdn.microsoft.com/library/windows/desktop/dd372275) class provides the static methods shown in the following table. The Example column of the table contains links to the how-to topics that demonstrate how to use each transformation method.
+For creating rotation, scale, skew, and translation transformations, the [**Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class provides the static methods shown in the following table. The Example column of the table contains links to the how-to topics that demonstrate how to use each transformation method.
 
 
 

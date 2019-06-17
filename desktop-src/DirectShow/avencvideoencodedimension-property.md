@@ -30,7 +30,7 @@ Applications can set this property to crop the input video. The specified size m
 
 Encoders can return this property as a capability.
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.microsoft.com/library/windows/desktop/jj218765).
+This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
 For UVC 1.5 camera encoders, [AVEncVideoEncodeOffsetOrigin](avencvideoencodeoffsetorigin-property.md) is not supported.
 

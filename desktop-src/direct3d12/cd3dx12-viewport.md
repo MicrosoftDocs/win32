@@ -12,6 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
@@ -20,7 +21,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-A helper structure to enable easy initialization of a [**D3D12\_VIEWPORT**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_viewport) structure.
+A helper structure to enable easy initialization of a [**D3D12\_VIEWPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport) structure.
 
 ## Syntax
 
@@ -124,7 +125,7 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_VIEWPORT**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_viewport)
+[**D3D12\_VIEWPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

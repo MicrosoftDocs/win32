@@ -23,7 +23,7 @@ Requirements for client computers are:
 -   Microsoft Message Queuing Client.
 -   RPC client-side transport DLL (RpcMqCl.dll).
 
-When the MSMQ components are installed on the client and server computers, the system registries are automatically configured to include the [ncadg\_mq](https://msdn.microsoft.com/library/windows/desktop/aa367114) message-queuing transport protocol for remote procedure calls.
+When the MSMQ components are installed on the client and server computers, the system registries are automatically configured to include the [ncadg\_mq](https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq) message-queuing transport protocol for remote procedure calls.
 
 To build your RPC-MSMQ application you need the following:
 

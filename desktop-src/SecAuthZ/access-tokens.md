@@ -8,24 +8,24 @@ ms.date: 05/31/2018
 
 # Access Tokens
 
-An [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) is an object that describes the [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) of a [*process*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-process-gly) or thread. The information in a token includes the identity and privileges of the user account associated with the process or thread. When a user logs on, the system verifies the user's password by comparing it with information stored in a security database. If the password is [*authenticated*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-authentication-gly), the system produces an access token. Every process executed on behalf of this user has a copy of this access token.
+An [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) is an object that describes the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of a [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) or thread. The information in a token includes the identity and privileges of the user account associated with the process or thread. When a user logs on, the system verifies the user's password by comparing it with information stored in a security database. If the password is [*authenticated*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), the system produces an access token. Every process executed on behalf of this user has a copy of this access token.
 
 The system uses an access token to identify the user when a thread interacts with a [securable object](securable-objects.md) or tries to perform a system task that requires privileges. Access tokens contain the following information:
 
 -   The [security identifier](security-identifiers.md) (SID) for the user's account
 -   SIDs for the groups of which the user is a member
--   A [*logon SID*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-logon-sid-gly) that identifies the current [*logon session*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-logon-session-gly)
+-   A [*logon SID*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) that identifies the current [*logon session*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly)
 -   A list of the [privileges](privileges.md) held by either the user or the user's groups
 -   An owner SID
 -   The SID for the primary group
--   The default [DACL](access-control-lists.md) that the system uses when the user creates a securable object without specifying a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly)
+-   The default [DACL](access-control-lists.md) that the system uses when the user creates a securable object without specifying a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly)
 -   The source of the access token
--   Whether the token is a [*primary*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-primary-token-gly) or [impersonation](client-impersonation.md) token
+-   Whether the token is a [*primary*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) or [impersonation](client-impersonation.md) token
 -   An optional list of [restricting SIDs](restricted-tokens.md)
 -   Current impersonation levels
 -   Other statistics
 
-Every process has a [*primary token*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-primary-token-gly) that describes the [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) of the user account associated with the process. By default, the system uses the primary token when a thread of the process interacts with a securable object. Moreover, a thread can impersonate a client account. Impersonation allows the thread to interact with securable objects using the client's security context. A thread that is impersonating a client has both a primary token and an [*impersonation token*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-impersonation-token-gly).
+Every process has a [*primary token*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) that describes the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of the user account associated with the process. By default, the system uses the primary token when a thread of the process interacts with a securable object. Moreover, a thread can impersonate a client account. Impersonation allows the thread to interact with securable objects using the client's security context. A thread that is impersonating a client has both a primary token and an [*impersonation token*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly).
 
 Use the [**OpenProcessToken**](https://msdn.microsoft.com/en-us/library/Aa379295(v=VS.85).aspx) function to retrieve a handle to the primary token of a process. Use the [**OpenThreadToken**](https://msdn.microsoft.com/en-us/library/Aa379296(v=VS.85).aspx) function to retrieve a handle to the impersonation token of a thread. For more information, see [Impersonation](client-impersonation.md).
 

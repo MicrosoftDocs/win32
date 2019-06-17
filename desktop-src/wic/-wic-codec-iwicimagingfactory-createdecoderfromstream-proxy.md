@@ -49,7 +49,7 @@ Type: **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwici
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034)\***
+Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The stream to create the decoder from.
 

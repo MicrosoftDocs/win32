@@ -28,7 +28,7 @@ The **INapServerCallback** provides a method that SHVs use to signal asynchronou
 
 ## Members
 
-The **INapServerCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **INapServerCallback** also has these types of members:
+The **INapServerCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapServerCallback** also has these types of members:
 
 -   [Methods](#methods)
 

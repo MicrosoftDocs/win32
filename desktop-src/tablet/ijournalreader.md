@@ -26,7 +26,7 @@ Provides read access to a Windows Journal file, returning a stream containing an
 
 ## Members
 
-The **IJournalReader** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IJournalReader** also has these types of members:
+The **IJournalReader** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IJournalReader** also has these types of members:
 
 -   [Methods](#methods)
 

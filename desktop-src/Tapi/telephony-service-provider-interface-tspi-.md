@@ -16,12 +16,12 @@ The following overviews cover material specific to the needs of a TSP author. Pl
 
 The TSPI overview is divided into the following sections:
 
--   [General Programming Considerations](https://msdn.microsoft.com/library/ms725196) covers DLL requirements, proper handling of versions, error checks performed by TAPI, a summary of how TSPI functions correspond to TAPI 2.2 (TAPI/C) functions, and a discussion of levels of service as expressed in TSPI.
+-   [General Programming Considerations](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725196(v=vs.85)) covers DLL requirements, proper handling of versions, error checks performed by TAPI, a summary of how TSPI functions correspond to TAPI 2.2 (TAPI/C) functions, and a discussion of levels of service as expressed in TSPI.
 -   The [Life Cycle of a Telephony Service Provider](life-cycle-of-a-telephony-service-provider.md) contains a high-level summary of a TSP's operational phases.
--   [Device Access](https://msdn.microsoft.com/library/ms725183) covers the basics of how a TSP exposes device information and controls to TAPI.
--   [Session Access](https://msdn.microsoft.com/library/ms725266) covers what TAPI expects of a TSP during a communications session.
--   [Media Access](https://msdn.microsoft.com/library/ms725240) provides a limited set of controls over media streams. Much finer control is possible through use of a media service provider, and service provider authors should use this API whenever feasible. The TSPI provides for communications between a TSP/MSP pair.
--   [Phone Devices](https://msdn.microsoft.com/library/ms725257) covers the supplemental information and operations exposed if a TSP handles phone set control. These operations are optional.
+-   [Device Access](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725183(v=vs.85)) covers the basics of how a TSP exposes device information and controls to TAPI.
+-   [Session Access](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725266(v=vs.85)) covers what TAPI expects of a TSP during a communications session.
+-   [Media Access](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725240(v=vs.85)) provides a limited set of controls over media streams. Much finer control is possible through use of a media service provider, and service provider authors should use this API whenever feasible. The TSPI provides for communications between a TSP/MSP pair.
+-   [Phone Devices](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725257(v=vs.85)) covers the supplemental information and operations exposed if a TSP handles phone set control. These operations are optional.
 -   [The Telephony Service Provider UI DLL Interface](the-telephony-service-provider-ui-dll-interface.md) cover special functions that can be implemented to allow a user to directly set many aspects of a TSP's functionality.
 
 Please see the [TSPI Reference](tspi-reference.md) for details of the TSPI programming elements.

@@ -13,7 +13,7 @@ Windows and Windows Server have [User Account Control](https://go.microsoft.com/
 
 **Problem**
 
-Every time an application connects to the directory and attempts to create an ADSI object, the [Active Directory Schema](https://msdn.microsoft.com/library/ms675085) is checked for changes. If it has changed since the last connection, the schema is downloaded and stored in a cache on the local computer. In versions of Windows prior to Windows Vista, the default location for this cache was
+Every time an application connects to the directory and attempts to create an ADSI object, the [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema) is checked for changes. If it has changed since the last connection, the schema is downloaded and stored in a cache on the local computer. In versions of Windows prior to Windows Vista, the default location for this cache was
 
 `%systemroot%\SchCache\`
 
@@ -21,7 +21,7 @@ However, applications run by standard (that is, non-administrator) accounts will
 
 **Solutions**
 
-*Single user* - To resolve this issue, there are new ADSI Provider registry control keys that determine the registry locations and file locations for cached [Active Directory Schema](https://msdn.microsoft.com/library/ms675085) objects. If the registry key
+*Single user* - To resolve this issue, there are new ADSI Provider registry control keys that determine the registry locations and file locations for cached [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema) objects. If the registry key
 
 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\adsi\Cache\PerMachine`
 
@@ -35,11 +35,11 @@ and cache files will be stored in
 
 These settings are the default settings on computers running Windows Server 2008 or Windows Vista.
 
-*Multi-user* - If you are running ADSI applications on a computer with many user accounts (for example, a web server), then it's preferable not to have many copies of the [Active Directory Schema](https://msdn.microsoft.com/library/ms675085) cache using up large amounts of disk space. Setting the registry key
+*Multi-user* - If you are running ADSI applications on a computer with many user accounts (for example, a web server), then it's preferable not to have many copies of the [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema) cache using up large amounts of disk space. Setting the registry key
 
 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\adsi\Cache\PerMachine`
 
-to 1 (one) will revert ADSI to the previous behavior; all [Active Directory Schema](https://msdn.microsoft.com/library/ms675085) objects will be stored in their previous locations; the registry key will be in
+to 1 (one) will revert ADSI to the previous behavior; all [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema) objects will be stored in their previous locations; the registry key will be in
 
 `HKEY_LOCAL_MACHINE\Software\Microsoft\ADs\Providers\LDAP`
 

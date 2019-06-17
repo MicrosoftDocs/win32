@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Accounts and Domains
 
-Account and domain administrative tasks obtain information such as the computer domain or the currently logged-on user. Many of these tasks are best performed with [ADSI](https://msdn.microsoft.com/library/aa772170) scripts. For more information and other examples, see the TechNet [ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710) Script Repository.
+Account and domain administrative tasks obtain information such as the computer domain or the currently logged-on user. Many of these tasks are best performed with [ADSI](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi) scripts. For more information and other examples, see the TechNet [ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710) Script Repository.
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -52,7 +52,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...determine the domain in which a computer belongs?</td>
-<td>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and check the value of the <strong>Domain</strong> property. You can also use the <strong>DNSDomain</strong> property in <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a>.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> class and check the value of the <strong>Domain</strong> property. You can also use the <strong>DNSDomain</strong> property in <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a>.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -122,7 +122,7 @@ foreach (CimInstance cimObj in queryInstance)
 </tr>
 <tr class="even">
 <td>...determine whether a computer is a server or a workstation?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the <strong>DomainRole</strong> property.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> class and the <strong>DomainRole</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -191,7 +191,7 @@ switch  ($computer.DomainRole) {
 </tr>
 <tr class="odd">
 <td>...determine the computer name?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the <strong>Name</strong> property. You can also use the <strong>DNSHostName</strong> property in <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a>.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> class and the <strong>Name</strong> property. You can also use the <strong>DNSHostName</strong> property in <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration"><strong>Win32_NetworkAdapterConfiguration</strong></a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -260,7 +260,7 @@ foreach (CimInstance cimObj in queryInstance)
 </tr>
 <tr class="even">
 <td>...find the name of the person currently logged on to a computer?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the <strong>UserName</strong> property.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> class and the <strong>UserName</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -334,7 +334,7 @@ foreach (CimInstance cimObj in queryInstance)
 </tr>
 <tr class="odd">
 <td>...rename a computer?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class, and the <strong>Rename</strong> method.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> class, and the <strong>Rename</strong> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -395,7 +395,7 @@ if ($return.ReturnValue -eq 0) {
 </tr>
 <tr class="even">
 <td>...retrieve only local groups using WMI?</td>
-<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394151"><strong>Win32_Group</strong></a> class and include the following <strong>WHERE</strong> clause in your <a href="querying-with-wql">WQL</a> query.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-group"><strong>Win32_Group</strong></a> class and include the following <strong>WHERE</strong> clause in your <a href="querying-with-wql">WQL</a> query.</p>
 <p><code>Where LocalAccount = True</code></p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>

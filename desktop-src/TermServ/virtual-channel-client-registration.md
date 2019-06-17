@@ -32,7 +32,7 @@ Name = DLLname
 
 If **Name** is a **REG\_EXPAND\_SZ** value, it can contain unexpanded environment variables that are expanded at runtime.
 
-The value of *DLLname* can be a fully qualified path. If *DLLname* does not contain a path, the standard DLL search strategy is used. For more information, see the Remarks section for [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175).
+The value of *DLLname* can be a fully qualified path. If *DLLname* does not contain a path, the standard DLL search strategy is used. For more information, see the Remarks section for [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya).
 
  
 

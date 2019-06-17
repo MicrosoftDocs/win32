@@ -27,14 +27,14 @@ Passes a mouse message to a tooltip control for processing.
 *wParam* 
 </dt> <dd>
 
-Must be zero. **Windows 7 and later:** If the position of the tooltip is offset from the cursor position (in order not be obstructed by a finger or pointing device), this parameter can contain extra information taken from the [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message. Retrieve this extra information with [**GetMessageExtraInfo**](https://msdn.microsoft.com/library/windows/desktop/ms644937).
+Must be zero. **Windows 7 and later:** If the position of the tooltip is offset from the cursor position (in order not be obstructed by a finger or pointing device), this parameter can contain extra information taken from the [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message. Retrieve this extra information with [**GetMessageExtraInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo).
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure that contains the message to relay.
+Pointer to an [**MSG**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg) structure that contains the message to relay.
 
 </dd> </dl>
 

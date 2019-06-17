@@ -174,17 +174,17 @@ The following table lists the mapping of the Active Directory syntax to the WMI 
 
 | Active Directory element                                      | WMI data type                                                           |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|
-| [**Access-Point**](https://msdn.microsoft.com/library/ms684428)            | **CIM\_STRING**                                                         |
-| [**Boolean**](https://msdn.microsoft.com/library/ms684420)                             | **CIM\_BOOLEAN**                                                        |
+| [**Access-Point**](https://docs.microsoft.com/windows/desktop/ADSchema/s-object-access-point)            | **CIM\_STRING**                                                         |
+| [**Boolean**](https://docs.microsoft.com/windows/desktop/ADSchema/s-boolean)                             | **CIM\_BOOLEAN**                                                        |
 | **Case Insensitive String**                                   | **CIM\_STRING**                                                         |
-| [**Case Sensitive String**](https://msdn.microsoft.com/library/ms684435) | **CIM\_STRING**                                                         |
-| [**Distinguished Name**](https://msdn.microsoft.com/library/ms684431)             | **CIM\_STRING**                                                         |
-| [**DN-Binary**](https://msdn.microsoft.com/library/ms684429)                  | Embedded object of class **DN\_With\_Binary** defined below.<br/> |
-| [**DN-String**](https://msdn.microsoft.com/library/ms684430)                  | Embedded object of class **DN\_With\_String** defined below.<br/> |
-| [**Enumeration**](https://msdn.microsoft.com/library/ms684421)                     | **CIM\_SINT32**                                                         |
-| [**Enumeration**](https://msdn.microsoft.com/library/ms684421)                     | **CIM\_STRING**                                                         |
-| [**Integer**](https://msdn.microsoft.com/library/ms684425)                             | **CIM\_SINT32**                                                         |
-| [**LargeInteger**](https://msdn.microsoft.com/library/ms684427)                   | **CIM\_STRING**                                                         |
+| [**Case Sensitive String**](https://docs.microsoft.com/windows/desktop/ADSchema/s-string-case-sensitive) | **CIM\_STRING**                                                         |
+| [**Distinguished Name**](https://docs.microsoft.com/windows/desktop/ADSchema/s-object-ds-dn)             | **CIM\_STRING**                                                         |
+| [**DN-Binary**](https://docs.microsoft.com/windows/desktop/ADSchema/s-object-dn-binary)                  | Embedded object of class **DN\_With\_Binary** defined below.<br/> |
+| [**DN-String**](https://docs.microsoft.com/windows/desktop/ADSchema/s-object-dn-string)                  | Embedded object of class **DN\_With\_String** defined below.<br/> |
+| [**Enumeration**](https://docs.microsoft.com/windows/desktop/ADSchema/s-enumeration)                     | **CIM\_SINT32**                                                         |
+| [**Enumeration**](https://docs.microsoft.com/windows/desktop/ADSchema/s-enumeration)                     | **CIM\_STRING**                                                         |
+| [**Integer**](https://docs.microsoft.com/windows/desktop/ADSchema/s-integer)                             | **CIM\_SINT32**                                                         |
+| [**LargeInteger**](https://docs.microsoft.com/windows/desktop/ADSchema/s-largeinteger)                   | **CIM\_STRING**                                                         |
 | Security Descriptor                                           | Embedded object of class **Uint8Array** defined below.<br/>       |
 | Numeric String                                                | **CIM\_STRING**                                                         |
 | Object ID                                                     | **CIM\_STRING**                                                         |
@@ -193,7 +193,7 @@ The following table lists the mapping of the Active Directory syntax to the WMI 
 | Presentation-Address                                          | Embedded object of class **Uint8Array** defined below.<br/>       |
 | Print Case String                                             | **CIM\_STRING**                                                         |
 | Replica Link                                                  | Embedded object of class **Uint8Array** defined below.<br/>       |
-| [**String(Sid)**](https://msdn.microsoft.com/library/ms684453)                      | Embedded object of class **Uint8Array** defined below.<br/>       |
+| [**String(Sid)**](https://docs.microsoft.com/windows/desktop/ADSchema/s-string-sid)                      | Embedded object of class **Uint8Array** defined below.<br/>       |
 | Time                                                          | **CIM\_DATETIME**                                                       |
 | UTC Coded Time                                                | **CIM\_DATETIME**                                                       |
 | Unicode String                                                | **CIM\_STRING**                                                         |
@@ -255,7 +255,7 @@ The following table lists how WMI maps the rest of the Active Directory attribut
 
 The Directory Service is essentially a hierarchical store of objects. Those objects that can appear at a nonleaf level in the hierarchy are called "containers". The structure of this hierarchy is further controlled by the "Poss-Superiors" and "System-Poss-Superiors" properties of a class in the schema. These, taken together, specify the set of classes whose instances can be contained within an instance of a container class.
 
-The following example models a CIM association as instances of the static association class [**DS\_LDAP\_Class\_Containment**](https://msdn.microsoft.com/library/aa390373).
+The following example models a CIM association as instances of the static association class [**DS\_LDAP\_Class\_Containment**](https://docs.microsoft.com/previous-versions/windows/desktop/dsprov/ds-ldap-class-containment).
 
 ``` syntax
 //  DS Class Associations Provider 

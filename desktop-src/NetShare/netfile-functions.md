@@ -36,7 +36,7 @@ File information is available at the following levels.
 
 Levels 0 and 1 are not supported. Level 2 returns only the identification number assigned to the resource when it was opened. Level 3 returns the identification number, permissions, file locks, and the name of the user who opened the resource.
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the [**NetFileEnum**](/windows/desktop/api/Lmshare/nf-lmshare-netfileenum) and [**NetFileGetInfo**](/windows/desktop/api/Lmshare/nf-lmshare-netfilegetinfo) functions. For more information, see [**IADsResource**](https://msdn.microsoft.com/library/aa706124) and [**IADsFileServiceOperations**](https://msdn.microsoft.com/library/aa706015).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the [**NetFileEnum**](/windows/desktop/api/Lmshare/nf-lmshare-netfileenum) and [**NetFileGetInfo**](/windows/desktop/api/Lmshare/nf-lmshare-netfilegetinfo) functions. For more information, see [**IADsResource**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource) and [**IADsFileServiceOperations**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations).
 
  
 

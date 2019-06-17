@@ -42,7 +42,7 @@ Like points, sizes are another important graphics concept. In Direct2D, sizes ar
 
 <dl> <dt>
 
-[**D2D\_SIZE\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368189)
+[**D2D\_SIZE\_F**](https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f)
 </dt> <dt>
 
 [**D2D1\_SIZE\_U**](d2d1-size-u.md)

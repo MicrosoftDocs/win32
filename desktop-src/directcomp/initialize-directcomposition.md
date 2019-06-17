@@ -18,8 +18,8 @@ This topic demonstrates how to create and initialize the minimum set of Microsof
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://msdn.microsoft.com/library/windows/desktop/ff476080)
--   [DirectX Graphics Infrastructure (DXGI)](https://msdn.microsoft.com/library/windows/desktop/hh404534)
+-   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ This topic demonstrates how to create and initialize the minimum set of Microsof
 
 ### Step 1: Create the Direct3D device object
 
-Use the [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082) function from the Microsoft Direct3D API to create an instance of a device object that represents the display adapter.
+Use the [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) function from the Microsoft Direct3D API to create an instance of a device object that represents the display adapter.
 
 
 ```C++
@@ -61,7 +61,7 @@ Use the [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/deskt
 
 ### Step 2: Retrieve a pointer to the DXGI object
 
-Use the **QueryInterface** method to retrieve the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) pointer from the Direct3D device object. DirectComposition will use the Microsoft DirectX Graphics Infrastructure (DXGI) object to create all surface objects for the DirectComposition device.
+Use the **QueryInterface** method to retrieve the [**IDXGIDevice**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) pointer from the Direct3D device object. DirectComposition will use the Microsoft DirectX Graphics Infrastructure (DXGI) object to create all surface objects for the DirectComposition device.
 
 
 ```C++
@@ -79,7 +79,7 @@ Use the **QueryInterface** method to retrieve the [**IDXGIDevice**](https://msdn
 
 ### Step 3: Create the DirectComposition device object
 
-Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice) function to create an instance of the DirectComposition device object, specifying the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) pointer retrieved in the previous step. The function retrieves an [**IDCompositionDevice**](https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx) pointer used to create all other DirectComposition objects used in a composition.
+Use the [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice) function to create an instance of the DirectComposition device object, specifying the [**IDXGIDevice**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) pointer retrieved in the previous step. The function retrieves an [**IDCompositionDevice**](https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx) pointer used to create all other DirectComposition objects used in a composition.
 
 
 ```C++
@@ -308,7 +308,7 @@ Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/libr
 
 ### Step 10: Free the DirectComposition objects
 
-It is good programming practice to free any visual objects as soon as you no longer need them. The following example calls the application-defined [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435) macro to free the visual object.
+It is good programming practice to free any visual objects as soon as you no longer need them. The following example calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the visual object.
 
 
 ```C++
@@ -956,7 +956,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice)
 </dt> <dt>
 
-[**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082)
+[**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice)
 </dt> <dt>
 
 [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx)
@@ -977,10 +977,10 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527)
+[**IDXGIDevice**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice)
 </dt> <dt>
 
-[**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435)
+[**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease)
 </dt> </dl>
 
  

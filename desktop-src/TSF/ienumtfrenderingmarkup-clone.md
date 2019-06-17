@@ -39,7 +39,7 @@ HRESULT Clone(
 *ppEnum* \[out\]
 </dt> <dd>
 
-\[out\] A pointer to a [IEnumTfRenderingMarkup](https://msdn.microsoft.com/library/windows/desktop/aa966188) interface.
+\[out\] A pointer to a [IEnumTfRenderingMarkup](https://docs.microsoft.com/windows/desktop/TSF/ienumtfrenderingmarkup) interface.
 
 </dd> </dl>
 

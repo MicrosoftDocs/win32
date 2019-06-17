@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_RegisteredGuestService class
 
-Represents an association between an instance of [**Msvm\_GuestServiceInterfaceComponent**](msvm-guestserviceinterfacecomponent.md) and an instance of [**Msvm\_GuestService**](msvm-guestservice.md), which represents a service running in the guest. This class derives from the [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238) class.
+Represents an association between an instance of [**Msvm\_GuestServiceInterfaceComponent**](msvm-guestserviceinterfacecomponent.md) and an instance of [**Msvm\_GuestService**](msvm-guestservice.md), which represents a service running in the guest. This class derives from the [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency) class.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -55,7 +55,7 @@ Data type: **[**Msvm\_GuestServiceInterfaceComponent**](msvm-guestserviceinterfa
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
 </dt> </dl>
 
 Reference to the guest service interface component in this association.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_GuestService**](msvm-guestservice.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
 </dt> </dl>
 
 Reference to the registered guest service that is dependent on the **Antecedent** property.
@@ -99,7 +99,7 @@ Reference to the registered guest service that is dependent on the **Antecedent*
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> <dt>
 
-[**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238)
+[**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency)
 </dt> </dl>
 
  

@@ -31,7 +31,7 @@ This topic contains the following sections:
 
 ## Drawing a Simple Rectangle
 
-To draw a rectangle using [GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203), you could handle the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message, as shown in the following code.
+To draw a rectangle using [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi), you could handle the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, as shown in the following code.
 
 
 ```C++
@@ -142,7 +142,7 @@ HRESULT hr = pD2DFactory->CreateHwndRenderTarget(
 
 A render target is a device that can perform drawing operations and create device-dependent drawing resources such as brushes. Different types of render targets render to different devices. The preceding example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx), which renders to a portion of the screen.
 
-When possible, a render target uses the GPU to accelerate rendering operations and create drawing resources. Otherwise, the render target uses the CPU to process rendering instructions and create resources. (You can modify this behavior by using the [**D2D1\_RENDER\_TARGET\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) flags when you create the render target.)
+When possible, a render target uses the GPU to accelerate rendering operations and create drawing resources. Otherwise, the render target uses the CPU to process rendering instructions and create resources. (You can modify this behavior by using the [**D2D1\_RENDER\_TARGET\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) flags when you create the render target.)
 
 The [**CreateHwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx) method takes three parameters. The first parameter, a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) struct, specifies remote display options, whether to force the render target to render to software or hardware, and the DPI. The code in this example uses the [**D2D1::RenderTargetProperties**](/windows/desktop/api/d2d1helper/nf-d2d1helper-rendertargetproperties) helper function to accept default render target properties.
 

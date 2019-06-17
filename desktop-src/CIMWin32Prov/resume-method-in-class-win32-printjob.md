@@ -18,9 +18,9 @@ api_location:
 
 # Resume method of the Win32\_PrintJob class
 
-The **Resume** [WMI class](https://msdn.microsoft.com/library/aa393244) method continues a paused print job.
+The **Resume** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method continues a paused print job.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 

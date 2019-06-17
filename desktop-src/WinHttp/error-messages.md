@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Error Messages
 
-The error values listed below are returned by [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](https://msdn.microsoft.com/en-us/library/ms690088(v=VS.85).aspx) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
+The error values listed below are returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](https://msdn.microsoft.com/en-us/library/ms690088(v=VS.85).aspx) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
 
 Error values whose names begin with "ERROR\_WINHTTP\_" are specific to the WinHTTP functions. The WinHTTP functions also return Windows error messages where appropriate.
 

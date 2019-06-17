@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_CLEAR\_VALUE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_CLEAR\_VALUE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_clear_value) structure.
+A helper structure to enable easy initialization of a [**D3D12\_CLEAR\_VALUE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_clear_value) structure.
 
 ## Syntax
 
@@ -49,7 +50,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_CLEAR\_VALUE.
 **explicit CD3DX12\_CLEAR\_VALUE(const D3D12\_CLEAR\_VALUE &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_CLEAR\_VALUE, initialized with the contents of another [**D3D12\_CLEAR\_VALUE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_clear_value) structure.
+Creates a new instance of a CD3DX12\_CLEAR\_VALUE, initialized with the contents of another [**D3D12\_CLEAR\_VALUE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_clear_value) structure.
 
 </dd> <dt>
 
@@ -58,7 +59,7 @@ Creates a new instance of a CD3DX12\_CLEAR\_VALUE, initialized with the contents
 
 Creates a new instance of a CD3DX12\_CLEAR\_VALUE, initializing the following parameters:
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 FLOAT color\[ 4 \]
 
@@ -69,7 +70,7 @@ FLOAT color\[ 4 \]
 
 Creates a new instance of a CD3DX12\_CLEAR\_VALUE, initializing the following parameters:
 
-[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) format
+[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 FLOAT depth
 
@@ -98,7 +99,7 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_CLEAR\_VALUE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_clear_value)
+[**D3D12\_CLEAR\_VALUE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_clear_value)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

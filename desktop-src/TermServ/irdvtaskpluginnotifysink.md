@@ -23,7 +23,7 @@ The **IRDVTaskPluginNotifySink** interface is used by the task agent to communic
 
 ## Members
 
-The **IRDVTaskPluginNotifySink** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IRDVTaskPluginNotifySink** also has these types of members:
+The **IRDVTaskPluginNotifySink** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRDVTaskPluginNotifySink** also has these types of members:
 
 -   [Methods](#methods)
 

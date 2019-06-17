@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Implementing In-Band NAP Support for EAP Methods
 
-In-band [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP) support for an EAP method can be enabled for EAPHost EAP methods that support the transmission of type-length-value objects (TLVs). When in-band NAP support is enabled, NAP packets are transported inside EAP method packets.
+In-band [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP) support for an EAP method can be enabled for EAPHost EAP methods that support the transmission of type-length-value objects (TLVs). When in-band NAP support is enabled, NAP packets are transported inside EAP method packets.
 
 In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](Http://go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets.
 

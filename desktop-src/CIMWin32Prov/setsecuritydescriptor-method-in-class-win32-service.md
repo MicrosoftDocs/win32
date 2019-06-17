@@ -44,7 +44,7 @@ The security descriptor associated with the service.
 
 ## Return value
 
-Returns one of the values listed in the following list, or a different value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns one of the values listed in the following list, or a different value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -242,13 +242,13 @@ The service is currently paused in the system.
 
 ## Remarks
 
-The [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://msdn.microsoft.com/library/windows/desktop/aa379566) data type and contains a [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL) and a [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). For more information, see [Access Control Lists](https://msdn.microsoft.com/library/windows/desktop/aa374872).
+The [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists).
 
-If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](https://msdn.microsoft.com/library/aa392758) and [Executing Privileged Operations](https://msdn.microsoft.com/library/aa390428).
+If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations).
 
-You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) instance when calling this method, but you also can update only the DACL or only the SACL.
+You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance when calling this method, but you also can update only the DACL or only the SACL.
 
-The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](https://msdn.microsoft.com/library/windows/desktop/aa379566) determine whether the DACL, the SACL, or both are updated.
+The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) determine whether the DACL, the SACL, or both are updated.
 
 -   **SE\_DACL\_PRESENT**
 
@@ -256,9 +256,9 @@ The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](https://msdn.microso
 
 -   **SE\_SACL\_PRESENT**
 
-    Indicates that the SACL should be updated. If this is not set, then WMI preserves the original value of the SACL. To update the SACL, the account must have the **SeSecurityPrivilege** privilege enabled. For scripting, the privilege name is **SeSecurityPrivilege**. For more information, see [**Privilege Constants**](https://msdn.microsoft.com/library/aa392758).
+    Indicates that the SACL should be updated. If this is not set, then WMI preserves the original value of the SACL. To update the SACL, the account must have the **SeSecurityPrivilege** privilege enabled. For scripting, the privilege name is **SeSecurityPrivilege**. For more information, see [**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants).
 
-If the Group trustee and the Owner trustee properties are not **NULL**, then they are updated. Otherwise, WMI preserves the original values. For more information, see [WMI Security Descriptor Objects](https://msdn.microsoft.com/library/aa394577).
+If the Group trustee and the Owner trustee properties are not **NULL**, then they are updated. Otherwise, WMI preserves the original values. For more information, see [WMI Security Descriptor Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-descriptor-objects).
 
 When a new SACL is **NULL** in a call this method, then the security descriptor SACL on the target securable object is left unchanged.
 
@@ -283,16 +283,16 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 [**Win32\_Service**](win32-service.md)
 </dt> <dt>
 
-[**Privilege Constants**](https://msdn.microsoft.com/library/aa392758)
+[**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants)
 </dt> <dt>
 
-[WMI Security Descriptor Objects](https://msdn.microsoft.com/library/aa394577)
+[WMI Security Descriptor Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
 </dt> <dt>
 
-[Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
+[Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
 </dt> <dt>
 
-[User Account Control and WMI](https://msdn.microsoft.com/library/aa826699)
+[User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi)
 </dt> </dl>
 
  

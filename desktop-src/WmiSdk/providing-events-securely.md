@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Providing Events Securely
 
-You can prevent unauthorized users from receiving events to which they should not have access. Your event provider can supply instances of its own event classes, just as the [System Registry Provider](https://msdn.microsoft.com/library/aa393886) supplies classes such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040). Your event provider can also deliver intrinsic events such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md). For more information, see [Writing an Event Provider](writing-an-event-provider.md).
+You can prevent unauthorized users from receiving events to which they should not have access. Your event provider can supply instances of its own event classes, just as the [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) supplies classes such as [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent). Your event provider can also deliver intrinsic events such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md). For more information, see [Writing an Event Provider](writing-an-event-provider.md).
 
 An event provider can control access to event recipients in the following ways:
 

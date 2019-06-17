@@ -65,7 +65,7 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-You should use this command when your application receives the [**WM\_QUERYNEWPALETTE**](https://msdn.microsoft.com/library/windows/desktop/dd145218) message.
+You should use this command when your application receives the [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) message.
 
 The following additional flags are used with the "digitalvideo" device type:
 

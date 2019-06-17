@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Publishing an Event
 
-To publish an event, just instantiate an event object by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) or the Microsoft Visual Basic **CreateObject** method using EventClassID or EventClassName as an argument. The publisher calls [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the event object to obtain the interfaces supported by the event class object and invokes a method on the event object through the interface to publish the event. The event system then publishes events on the event class CLSID\_EventObjectChange with the interface ID IID\_IEventObjectChange.
+To publish an event, just instantiate an event object by calling [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) or the Microsoft Visual Basic **CreateObject** method using EventClassID or EventClassName as an argument. The publisher calls [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) on the event object to obtain the interfaces supported by the event class object and invokes a method on the event object through the interface to publish the event. The event system then publishes events on the event class CLSID\_EventObjectChange with the interface ID IID\_IEventObjectChange.
 
 To support delivery of events to multiple subscribers, event class methods should contain only in parameters.
 

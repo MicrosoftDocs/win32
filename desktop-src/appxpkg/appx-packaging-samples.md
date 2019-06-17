@@ -43,7 +43,7 @@ The sample code for the Win32 [query API](functions.md) isn't available for down
 
 </dt> <dt>
 
-[App package manifest schema](https://msdn.microsoft.com/library/windows/apps/br211474)
+[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Packaging API](interfaces.md)

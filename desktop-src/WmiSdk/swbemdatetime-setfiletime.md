@@ -62,7 +62,7 @@ This method does not return a value.
 
 ## Error codes
 
-After completing the **SetFileTime** method, the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object may contain the error code in the following list.
+After completing the **SetFileTime** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
 
 <dl> <dt>
 

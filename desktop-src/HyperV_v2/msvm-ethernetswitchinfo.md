@@ -55,10 +55,10 @@ Data type: **Msvm\_VirtualEthernetSwitch**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
-A reference to the [**Msvm\_VirtualEthernetSwitch**](msvm-virtualethernetswitch.md) class that represents the hosting system. This property is derived from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to the [**Msvm\_VirtualEthernetSwitch**](msvm-virtualethernetswitch.md) class that represents the hosting system. This property is derived from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -71,10 +71,10 @@ Data type: **Msvm\_EthernetSwitchData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
-A reference to the [**Msvm\_EthernetSwitchData**](msvm-ethernetswitchdata.md) class that represents the switch resource. This property is derived from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to the [**Msvm\_EthernetSwitchData**](msvm-ethernetswitchdata.md) class that represents the switch resource. This property is derived from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> </dl>
 

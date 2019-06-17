@@ -43,7 +43,7 @@ HRESULT GetStringArray(
 *ppStrings* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the first string in the array.
 
@@ -52,7 +52,7 @@ A pointer to the first string in the array.
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The offset (in number of strings) between the start of the array and the first string to get.
 
@@ -61,7 +61,7 @@ The offset (in number of strings) between the start of the array and the first s
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of strings in the returned array.
 

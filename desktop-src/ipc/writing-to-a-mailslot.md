@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Writing to a Mailslot
 
-Writing to a mailslot is similar to writing to a standard disk file. The following code uses the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), and [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) functions to put a short message in a mailslot. The message is broadcast to the mailslot server named "sample\_mailslot" on the local computer. The code operates under the assumption that the mailslot server was already created.
+Writing to a mailslot is similar to writing to a standard disk file. The following code uses the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile), and [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) functions to put a short message in a mailslot. The message is broadcast to the mailslot server named "sample\_mailslot" on the local computer. The code operates under the assumption that the mailslot server was already created.
 
 
 ```C++

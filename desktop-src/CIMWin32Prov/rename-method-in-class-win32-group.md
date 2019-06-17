@@ -18,9 +18,9 @@ api_location:
 
 # Rename method of the Win32\_Group class
 
-The **Rename** [WMI class](https://msdn.microsoft.com/library/aa393244) method allows the group name to be changed.
+The **Rename** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method allows the group name to be changed.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Name of the Windows user account on the domain specified by the **Domain** prope
 
 ## Return value
 
-The **Rename** method can return the error codes listed in the following list. For integer values other than those listed, refer to [WMI\_Return Codes](https://msdn.microsoft.com/library/aa394574).
+The **Rename** method can return the error codes listed in the following list. For integer values other than those listed, refer to [WMI\_Return Codes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-return-codes).
 
 <dl> <dt>
 
@@ -140,13 +140,13 @@ Success.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Group**](win32-group.md)
 </dt> <dt>
 
-[**Win32\_LogicalFileSecuritySetting**](https://msdn.microsoft.com/library/aa394180)
+[**Win32\_LogicalFileSecuritySetting**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-logicalfilesecuritysetting)
 </dt> </dl>
 
  

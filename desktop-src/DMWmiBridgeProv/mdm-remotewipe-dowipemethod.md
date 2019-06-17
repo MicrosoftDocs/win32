@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Triggers the device to start the remote wipe. See also, [doWipe](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/remotewipe-csp#dowipe).
+Triggers the device to start the remote wipe. See also, [doWipe](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp).
 
 ## Syntax
 
@@ -63,7 +63,7 @@ uint32 doWipeMethod(
 [**MDM\_RemoteWipe**](mdm-remotewipe.md)
 </dt> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
+[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

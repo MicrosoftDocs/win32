@@ -72,7 +72,7 @@ A value that specifies the scope of *ppPrintTicket*. This value can specify a si
 *ppPrintTicket* \[out\]
 </dt> <dd>
 
-The address of the buffer that contains a print ticket that represents the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) passed in *pDevmode*. This function calls [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/windows/desktop/ms692727) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722).
+The address of the buffer that contains a print ticket that represents the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) passed in *pDevmode*. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 

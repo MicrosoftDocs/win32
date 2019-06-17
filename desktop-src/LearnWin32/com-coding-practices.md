@@ -41,7 +41,7 @@ The compiler extracts the GUID value from the header, so no library export is ne
 
 ## The IID\_PPV\_ARGS Macro
 
-We saw that both [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) and [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) require coercing the final parameter to a **void\*\*** type. This creates the potential for a type mismatch. Consider the following code fragment:
+We saw that both [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) and [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) require coercing the final parameter to a **void\*\*** type. This creates the potential for a type mismatch. Consider the following code fragment:
 
 
 ```C++
@@ -60,14 +60,14 @@ hr = CoCreateInstance(
 
 
 
-This code asks for the [**IFileDialogCustomize**](https://msdn.microsoft.com/library/windows/desktop/bb775912) interface, but passes in an [**IFileOpenDialog**](https://msdn.microsoft.com/library/windows/desktop/bb775834) pointer. The **reinterpret\_cast** expression circumvents the C++ type system, so the compiler will not catch this error. In the best case, if the object does not implement the requested interface, the call simply fails. In the worst case, the function succeeds and you have a mismatched pointer. In other words, the pointer type does not match the actual vtable in memory. As you can imagine, nothing good can happen at that point.
+This code asks for the [**IFileDialogCustomize**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize) interface, but passes in an [**IFileOpenDialog**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) pointer. The **reinterpret\_cast** expression circumvents the C++ type system, so the compiler will not catch this error. In the best case, if the object does not implement the requested interface, the call simply fails. In the worst case, the function succeeds and you have a mismatched pointer. In other words, the pointer type does not match the actual vtable in memory. As you can imagine, nothing good can happen at that point.
 
 > [!Note]  
 > A *vtable* (virtual method table) is a table of function pointers. The vtable is how COM binds a method call to its implementation at run time. Not coincidentally, vtables are how most C++ compilers implement virtual methods.
 
  
 
-The [**IID\_PPV\_ARGS**](https://msdn.microsoft.com/library/windows/desktop/ee330727) macro helps to avoid this class of error. To use this macro, replace the following code:
+The [**IID\_PPV\_ARGS**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args) macro helps to avoid this class of error. To use this macro, replace the following code:
 
 
 ```C++
@@ -97,7 +97,7 @@ hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, CLSCTX_ALL,
 
 
 
-You can use the same macro with [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521):
+You can use the same macro with [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)):
 
 
 ```C++
@@ -112,10 +112,10 @@ hr = pFileOpen->QueryInterface(IID_PPV_ARGS(&pCustom));
 Reference counting is one of those things in programming that is basically easy, but is also tedious, which makes it easy to get wrong. Typical errors include:
 
 -   Failing to release an interface pointer when you are done using it. This class of bug will cause your program to leak memory and other resources, because objects are not destroyed.
--   Calling [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) with an invalid pointer. For example, this error can happen if the object was never created. This category of bug will probably cause your program to crash.
--   Dereferencing an interface pointer after [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) is called. This bug may cause your program to crash. Worse, it may cause your program to crash at a random later time, making it hard to track down the original error.
+-   Calling [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) with an invalid pointer. For example, this error can happen if the object was never created. This category of bug will probably cause your program to crash.
+-   Dereferencing an interface pointer after [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) is called. This bug may cause your program to crash. Worse, it may cause your program to crash at a random later time, making it hard to track down the original error.
 
-One way to avoid these bugs is to call [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) through a function that safely releases the pointer. The following code shows a function that does this:
+One way to avoid these bugs is to call [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) through a function that safely releases the pointer. The following code shows a function that does this:
 
 
 ```C++
@@ -134,7 +134,7 @@ template <class T> void SafeRelease(T **ppT)
 This function takes a COM interface pointer as a parameter and does the following:
 
 1.  Checks whether the pointer is **NULL**.
-2.  Calls [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) if the pointer is not **NULL**.
+2.  Calls [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) if the pointer is not **NULL**.
 3.  Sets the pointer to **NULL**.
 
 Here is an example of how to use `SafeRelease`:
@@ -157,7 +157,7 @@ void UseSafeRelease()
 
 
 
-If [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) succeeds, the call to `SafeRelease` releases the pointer. If **CoCreateInstance** fails, *pFileOpen* remains **NULL**. The `SafeRelease` function checks for this and skips the call to [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317).
+If [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) succeeds, the call to `SafeRelease` releases the pointer. If **CoCreateInstance** fails, *pFileOpen* remains **NULL**. The `SafeRelease` function checks for this and skips the call to [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release).
 
 It is also safe to call `SafeRelease` more than once on the same pointer, as shown here:
 
@@ -255,7 +255,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 
 
 
-The main difference between this code and the original example is that this version does not explicitly call [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317). When the **CComPtr** instance goes out of scope, the destructor calls **Release** on the underlying pointer.
+The main difference between this code and the original example is that this version does not explicitly call [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release). When the **CComPtr** instance goes out of scope, the destructor calls **Release** on the underlying pointer.
 
 **CComPtr** is a class template. The template argument is the COM interface type. Internally, **CComPtr** holds a pointer of that type. **CComPtr** overrides **operator->()** and **operator&()** so that the class acts like the underlying pointer. For example, the following code is equivalent to calling the **IFileOpenDialog::Show** method directly:
 
@@ -266,7 +266,7 @@ hr = pFileOpen->Show(NULL);
 
 
 
-**CComPtr** also defines a **CComPtr::CoCreateInstance** method, which calls the COM [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function with some default parameter values. The only required parameter is the class identifier, as the next example shows:
+**CComPtr** also defines a **CComPtr::CoCreateInstance** method, which calls the COM [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function with some default parameter values. The only required parameter is the class identifier, as the next example shows:
 
 
 ```C++
@@ -275,7 +275,7 @@ hr = pFileOpen.CoCreateInstance(__uuidof(FileOpenDialog));
 
 
 
-The **CComPtr::CoCreateInstance** method is provided purely as a convenience; you can still call the COM [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function, if you prefer.
+The **CComPtr::CoCreateInstance** method is provided purely as a convenience; you can still call the COM [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function, if you prefer.
 
 ## Next
 

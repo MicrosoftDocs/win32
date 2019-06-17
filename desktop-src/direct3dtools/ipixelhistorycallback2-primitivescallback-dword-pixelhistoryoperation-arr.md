@@ -52,7 +52,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IPixelHistoryCallback2**](https://msdn.microsoft.com/library/windows/desktop/mt432736)
+[**IPixelHistoryCallback2**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixelhistorycallback2)
 
  
 

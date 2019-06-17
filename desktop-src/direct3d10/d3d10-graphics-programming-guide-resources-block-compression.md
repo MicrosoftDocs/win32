@@ -441,7 +441,7 @@ Beginning with Direct3D 10.1, you can use [**CopyResource**](/windows/desktop/ap
 
 
 
-To reinterpret ‘f’ as the type of ‘u’, use [memcpy](https://msdn.microsoft.com/en-us/library/dswaw1wk.aspx):
+To reinterpret ‘f’ as the type of ‘u’, use [memcpy](https://docs.microsoft.com/cpp/c-runtime-library/reference/memcpy-wmemcpy):
 
 
 ```
@@ -450,7 +450,7 @@ To reinterpret ‘f’ as the type of ‘u’, use [memcpy](https://msdn.microso
 
 
 
-In the preceding reinterpretation, the underlying value of the data doesn’t change; [memcpy](https://msdn.microsoft.com/en-us/library/dswaw1wk.aspx) reinterprets the float as an unsigned integer.
+In the preceding reinterpretation, the underlying value of the data doesn’t change; [memcpy](https://docs.microsoft.com/cpp/c-runtime-library/reference/memcpy-wmemcpy) reinterprets the float as an unsigned integer.
 
 To perform the more typical type of conversion, use assignment:
 

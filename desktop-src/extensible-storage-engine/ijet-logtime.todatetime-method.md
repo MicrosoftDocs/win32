@@ -51,7 +51,7 @@ Nullable<DateTime> ToDateTime()
 
 #### Return value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0)\<[DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)\>  
+Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)\>  
 A DateTime representing the IJET_LOGTIME. If the IJET_LOGTIME is null then null is returned.  
 
 ## See also

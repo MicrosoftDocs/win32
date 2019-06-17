@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SID Strings
 
-In the [security descriptor definition language](security-descriptor-definition-language.md) (SDDL), [security descriptor string](security-descriptor-string-format.md) use SID strings for the following components of a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly):
+In the [security descriptor definition language](security-descriptor-definition-language.md) (SDDL), [security descriptor string](security-descriptor-string-format.md) use SID strings for the following components of a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly):
 
 -   Owner
 -   Primary group
@@ -16,7 +16,7 @@ In the [security descriptor definition language](security-descriptor-definition-
 
 A SID string in a security descriptor string can use either the standard string representation of a SID (S-*R*-*I*-*S*-*S* ) or one of the string constants defined in Sddl.h. For more information about the standard SID string notation, see [SID Components](sid-components.md).
 
-The following SID string constants for well-known SIDs are defined in Sddl.h. For information about the corresponding [*relative IDs*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-relative-identifier-gly) (RIDs), see [Well-known SIDs](well-known-sids.md).
+The following SID string constants for well-known SIDs are defined in Sddl.h. For information about the corresponding [*relative IDs*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) (RIDs), see [Well-known SIDs](well-known-sids.md).
 
 
 

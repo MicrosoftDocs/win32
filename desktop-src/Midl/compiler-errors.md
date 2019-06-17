@@ -35,7 +35,7 @@ The following error messages are generated during MIDL compilation:
 <tbody>
 <tr class="odd">
 <td><span id="MIDL2000"></span><span id="midl2000"></span><dl> <dt><strong>MIDL2000</strong></dt> </dl></td>
-<td><dl> <dt><span id="must_specify__c_ext_for_abstract_declarators"></span><span id="MUST_SPECIFY__C_EXT_FOR_ABSTRACT_DECLARATORS"></span>must specify /c_ext for abstract declarators</dt> <dd> Abstract declarators represent a Microsoft extension to RPC and are not defined in DCE RPC. Therefore, if your file includes abstract declarators, you cannot compile with the <a href="-osf"><strong>/osf</strong></a> switch, which enforces strict DCE compatibility. MIDL versions 3.0 and later use the <a href="-c-ext"><strong>/c_ext</strong></a> switch as the default; the <strong>/osf</strong> switch turns off the <strong>/c_ext</strong> switch. For information on abstract declarators, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa378701">The ACF Body</a>.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="must_specify__c_ext_for_abstract_declarators"></span><span id="MUST_SPECIFY__C_EXT_FOR_ABSTRACT_DECLARATORS"></span>must specify /c_ext for abstract declarators</dt> <dd> Abstract declarators represent a Microsoft extension to RPC and are not defined in DCE RPC. Therefore, if your file includes abstract declarators, you cannot compile with the <a href="-osf"><strong>/osf</strong></a> switch, which enforces strict DCE compatibility. MIDL versions 3.0 and later use the <a href="-c-ext"><strong>/c_ext</strong></a> switch as the default; the <strong>/osf</strong> switch turns off the <strong>/c_ext</strong> switch. For information on abstract declarators, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/the-acf-body">The ACF Body</a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2001"></span><span id="midl2001"></span><dl> <dt><strong>MIDL2001</strong></dt> </dl></td>
@@ -187,7 +187,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2038"></span><span id="midl2038"></span><dl> <dt><strong>MIDL2038</strong></dt> </dl></td>
-<td><dl> <dt><span id="no__pointer_default__attribute_specified__assuming__unique__for_all_unattributed_pointers"></span><span id="NO__POINTER_DEFAULT__ATTRIBUTE_SPECIFIED__ASSUMING__UNIQUE__FOR_ALL_UNATTRIBUTED_POINTERS"></span>no [pointer_default] attribute specified, assuming [unique] for all unattributed pointers</dt> <dd> The MIDL compiler offers three different default cases for pointers that do not have pointer attributes. Function parameters that are top-level pointers default to [<a href="ref"><strong>ref</strong></a>] pointers. Pointers embedded in structures and pointers to other pointers (not top-level pointers) default to the type specified by the [<a href="pointer-default"><strong>pointer_default</strong></a>] attribute. When no [<strong>pointer_default</strong>] attribute is supplied, these nontop-level pointers default to unique pointers. This error message indicates the last case: no [<strong>pointer_default</strong>] attribute is supplied, and there is at least one non-top-level pointer that will be treated as a unique pointer. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa373628">Default Pointer Types</a>.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="no__pointer_default__attribute_specified__assuming__unique__for_all_unattributed_pointers"></span><span id="NO__POINTER_DEFAULT__ATTRIBUTE_SPECIFIED__ASSUMING__UNIQUE__FOR_ALL_UNATTRIBUTED_POINTERS"></span>no [pointer_default] attribute specified, assuming [unique] for all unattributed pointers</dt> <dd> The MIDL compiler offers three different default cases for pointers that do not have pointer attributes. Function parameters that are top-level pointers default to [<a href="ref"><strong>ref</strong></a>] pointers. Pointers embedded in structures and pointers to other pointers (not top-level pointers) default to the type specified by the [<a href="pointer-default"><strong>pointer_default</strong></a>] attribute. When no [<strong>pointer_default</strong>] attribute is supplied, these nontop-level pointers default to unique pointers. This error message indicates the last case: no [<strong>pointer_default</strong>] attribute is supplied, and there is at least one non-top-level pointer that will be treated as a unique pointer. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/default-pointer-types">Default Pointer Types</a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2039"></span><span id="midl2039"></span><dl> <dt><strong>MIDL2039</strong></dt> </dl></td>
@@ -393,7 +393,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2088"></span><span id="midl2088"></span><dl> <dt><strong>MIDL2088</strong></dt> </dl></td>
-<td><dl> <dt><span id="_uuid__format_is_incorrect"></span><span id="_UUID__FORMAT_IS_INCORRECT"></span>[uuid] format is incorrect</dt> <dd> The UUID format does not conform to specification. The UUID must be a string that consists of five sequences of hexadecimal digits of length 8, 4, 4, 4, and 12 digits. &quot;12345678-1234-ABCD-EF01-28A49C28F17D&quot; is a valid UUID. Use the function <a href="https://msdn.microsoft.com/library/windows/desktop/aa379205"><strong>UuidCreate</strong></a> or a utility to generate a valid UUID.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_uuid__format_is_incorrect"></span><span id="_UUID__FORMAT_IS_INCORRECT"></span>[uuid] format is incorrect</dt> <dd> The UUID format does not conform to specification. The UUID must be a string that consists of five sequences of hexadecimal digits of length 8, 4, 4, 4, and 12 digits. &quot;12345678-1234-ABCD-EF01-28A49C28F17D&quot; is a valid UUID. Use the function <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate"><strong>UuidCreate</strong></a> or a utility to generate a valid UUID.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2089"></span><span id="midl2089"></span><dl> <dt><strong>MIDL2089</strong></dt> </dl></td>
@@ -459,7 +459,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2104"></span><span id="midl2104"></span><dl> <dt><strong>MIDL2104</strong></dt> </dl></td>
-<td><dl> <dt><span id="pointer_to_a_conformant_array_or_an_array_that_contains_a_conformant_array_is_not_supported"></span><span id="POINTER_TO_A_CONFORMANT_ARRAY_OR_AN_ARRAY_THAT_CONTAINS_A_CONFORMANT_ARRAY_IS_NOT_SUPPORTED"></span>pointer to a conformant array or an array that contains a conformant array is not supported</dt> <dd> Illegal conformant array usage. For rules governing conformant arrays, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa373541">Arrays and RPC</a>.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="pointer_to_a_conformant_array_or_an_array_that_contains_a_conformant_array_is_not_supported"></span><span id="POINTER_TO_A_CONFORMANT_ARRAY_OR_AN_ARRAY_THAT_CONTAINS_A_CONFORMANT_ARRAY_IS_NOT_SUPPORTED"></span>pointer to a conformant array or an array that contains a conformant array is not supported</dt> <dd> Illegal conformant array usage. For rules governing conformant arrays, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-rpc">Arrays and RPC</a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2105"></span><span id="midl2105"></span><dl> <dt><strong>MIDL2105</strong></dt> </dl></td>
@@ -911,7 +911,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2216"></span><span id="midl2216"></span><dl> <dt><strong>MIDL2216</strong></dt> </dl></td>
-<td><dl> <dt><span id="_ptr__does_not_support_aliasing_in_this_version"></span><span id="_PTR__DOES_NOT_SUPPORT_ALIASING_IN_THIS_VERSION"></span>[ptr] does not support aliasing in this version</dt> <dd> An alias occurs when data is accessible through more than one pointer or variable name. Remove the alias. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/aa379123">Unique Pointers</a>.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_ptr__does_not_support_aliasing_in_this_version"></span><span id="_PTR__DOES_NOT_SUPPORT_ALIASING_IN_THIS_VERSION"></span>[ptr] does not support aliasing in this version</dt> <dd> An alias occurs when data is accessible through more than one pointer or variable name. Remove the alias. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/unique-pointers">Unique Pointers</a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2217"></span><span id="midl2217"></span><dl> <dt><strong>MIDL2217</strong></dt> </dl></td>
@@ -1075,11 +1075,11 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2257"></span><span id="midl2257"></span><dl> <dt><strong>MIDL2257</strong></dt> </dl></td>
-<td><dl> <dt><span id="only_IUnknown_may_be_used_as_the_root_interface"></span><span id="only_iunknown_may_be_used_as_the_root_interface"></span><span id="ONLY_IUNKNOWN_MAY_BE_USED_AS_THE_ROOT_INTERFACE"></span>only IUnknown may be used as the root interface</dt> <dd> Currently, all interfaces must have <a href="https://msdn.microsoft.com/library/windows/desktop/ms680509"><strong>IUnknown</strong></a> as the root interface.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="only_IUnknown_may_be_used_as_the_root_interface"></span><span id="only_iunknown_may_be_used_as_the_root_interface"></span><span id="ONLY_IUNKNOWN_MAY_BE_USED_AS_THE_ROOT_INTERFACE"></span>only IUnknown may be used as the root interface</dt> <dd> Currently, all interfaces must have <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a> as the root interface.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2258"></span><span id="midl2258"></span><dl> <dt><strong>MIDL2258</strong></dt> </dl></td>
-<td><dl> <dt><span id="_IID_IS__may_only_be_applied_to_pointers_to_interfaces"></span><span id="_iid_is__may_only_be_applied_to_pointers_to_interfaces"></span><span id="_IID_IS__MAY_ONLY_BE_APPLIED_TO_POINTERS_TO_INTERFACES"></span>[IID_IS] may only be applied to pointers to interfaces</dt> <dd> The [<a href="iid-is"><strong>iid_is</strong></a>] attribute can only be applied to interface pointers, although they can be specified as pointers to <a href="https://msdn.microsoft.com/library/windows/desktop/ms680509"><strong>IUnknown</strong></a> *.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_IID_IS__may_only_be_applied_to_pointers_to_interfaces"></span><span id="_iid_is__may_only_be_applied_to_pointers_to_interfaces"></span><span id="_IID_IS__MAY_ONLY_BE_APPLIED_TO_POINTERS_TO_INTERFACES"></span>[IID_IS] may only be applied to pointers to interfaces</dt> <dd> The [<a href="iid-is"><strong>iid_is</strong></a>] attribute can only be applied to interface pointers, although they can be specified as pointers to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a> *.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2259"></span><span id="midl2259"></span><dl> <dt><strong>MIDL2259</strong></dt> </dl></td>
@@ -1135,7 +1135,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2272"></span><span id="midl2272"></span><dl> <dt><strong>MIDL2272</strong></dt> </dl></td>
-<td><dl> <dt><span id="_async__interface_must_derive_from_another__async__interface"></span><span id="_ASYNC__INTERFACE_MUST_DERIVE_FROM_ANOTHER__ASYNC__INTERFACE"></span>(async) interface must derive from another (async) interface</dt> <dd> Object interfaces, both synchronous and asynchronous, must derive from <a href="https://msdn.microsoft.com/library/windows/desktop/ms680509"><strong>IUnknown</strong></a> or some other base OLE interface.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_async__interface_must_derive_from_another__async__interface"></span><span id="_ASYNC__INTERFACE_MUST_DERIVE_FROM_ANOTHER__ASYNC__INTERFACE"></span>(async) interface must derive from another (async) interface</dt> <dd> Object interfaces, both synchronous and asynchronous, must derive from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a> or some other base OLE interface.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2273"></span><span id="midl2273"></span><dl> <dt><strong>MIDL2273</strong></dt> </dl></td>

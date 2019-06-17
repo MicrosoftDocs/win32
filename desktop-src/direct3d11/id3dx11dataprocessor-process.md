@@ -56,7 +56,7 @@ Pointer to the data to be processed.
 *cBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Size of the data to be processed.
 

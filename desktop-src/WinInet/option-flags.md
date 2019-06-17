@@ -232,7 +232,7 @@ Not implemented.
 
 
 
-This flag is not supported by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The *lpBuffer* parameter must be a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) structure and not a pointer to a **CERT\_CONTEXT** pointer. If an application receives **ERROR\_INTERNET\_CLIENT\_AUTH\_CERT\_NEEDED**, it must call [**InternetErrorDlg**](/windows/desktop/api/Wininet/nf-wininet-interneterrordlg) or use [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) to supply a certificate before retrying the request. [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) is then called so that the certificate context passed can be independently released by the application.
+This flag is not supported by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The *lpBuffer* parameter must be a pointer to a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context) structure and not a pointer to a **CERT\_CONTEXT** pointer. If an application receives **ERROR\_INTERNET\_CLIENT\_AUTH\_CERT\_NEEDED**, it must call [**InternetErrorDlg**](/windows/desktop/api/Wininet/nf-wininet-interneterrordlg) or use [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) to supply a certificate before retrying the request. [**CertDuplicateCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext) is then called so that the certificate context passed can be independently released by the application.
 
 
 </dt> </dl> </dd> <dt>
@@ -994,7 +994,7 @@ Not implemented.
 
 
 
-Opt-in for weak signatures (e.g. SHA-1) to be treated as insecure. This will instruct WinInet to call [**CertGetCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376078) using the **CERT\_CHAIN\_OPT\_IN\_WEAK\_SIGNATURE** parameter.
+Opt-in for weak signatures (e.g. SHA-1) to be treated as insecure. This will instruct WinInet to call [**CertGetCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain) using the **CERT\_CHAIN\_OPT\_IN\_WEAK\_SIGNATURE** parameter.
 
 
 </dt> </dl> </dd> <dt>
@@ -1603,7 +1603,7 @@ When used in reference to an FTP transaction, this option refers to the control 
 
 
 
-Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910). You must call [**CertFreeCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376073) on the returned [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910) when you are done with the certificate-chain context.
+Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910). You must call [**CertFreeCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain) on the returned [PCCERT\_CHAIN\_CONTEXT](https://go.microsoft.com/fwlink/p/?linkid=143910) when you are done with the certificate-chain context.
 
 **Version:** Requires Internet Explorer 8.0.
 
@@ -1783,7 +1783,7 @@ Sets or retrieves an unsigned long integer value that contains the size, in byte
 ## Remarks
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

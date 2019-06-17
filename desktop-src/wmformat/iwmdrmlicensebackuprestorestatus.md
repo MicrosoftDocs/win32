@@ -26,7 +26,7 @@ To retrieve a pointer to an instance of the **IWMDRMLicenseBackupRestoreStatus**
 
 ## Members
 
-The **IWMDRMLicenseBackupRestoreStatus** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWMDRMLicenseBackupRestoreStatus** also has these types of members:
+The **IWMDRMLicenseBackupRestoreStatus** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMLicenseBackupRestoreStatus** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -2,6 +2,8 @@
 title: Security Considerations for Assistive Technologies
 description: Assistive technologies are applications that run on the Windows desktop and help accessibility users to interact with the operating system and other applications running on the computer, including applications in the new Windows UI.
 ms.assetid: 0c3689e1-2124-4142-b0bd-233e95ee1285
+f1_keywords:
+- "vs.debug.error.launch_elevation_requirements"
 keywords:
 - uiAccess attribute
 - UI Automation,uiAccess attribute

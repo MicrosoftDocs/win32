@@ -12,15 +12,15 @@ Each of the following sections discusses a function exported by Xenroll.dll to m
 
 ## createFilePFXWStr
 
-The [**createFilePFXWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385534) function in Xenroll.dll saves a certificate chain and [*private key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-private-key-gly) in a file by using the PFX format.
+The [**createFilePFXWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createfilepfxwstr) function in Xenroll.dll saves a certificate chain and [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) in a file by using the PFX format.
 
 The CertEnroll.dll library does not directly implement functionality to copy the PFX message to a file. You can, however, use the [**CreatePFX**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx) method on the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) interface to create an encoded PFX message and write a custom function to save the message in a file.
 
 ## createPFXWStr
 
-The [**createPFXWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385540) function in Xenroll.dll saves a certificate chain and private key in a PFX format string.
+The [**createPFXWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createpfxwstr) function in Xenroll.dll saves a certificate chain and private key in a PFX format string.
 
-You can use the [**CreatePFX**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx) method on the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) interface to create an encoded PFX message that contains the certificate chain and key. You can specify a password, export options, and encoding type. To retrieve a string that is equivalent to that returned from [**createPFXWStr**](https://msdn.microsoft.com/library/windows/desktop/aa385540), pass the XCN\_CRYPT\_STRING\_BINARY flag in the in the *Encoding* parameter of the [**CreatePFX**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx) method.
+You can use the [**CreatePFX**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx) method on the [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) interface to create an encoded PFX message that contains the certificate chain and key. You can specify a password, export options, and encoding type. To retrieve a string that is equivalent to that returned from [**createPFXWStr**](https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createpfxwstr), pass the XCN\_CRYPT\_STRING\_BINARY flag in the in the *Encoding* parameter of the [**CreatePFX**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509enrollment-createpfx) method.
 
 ## Related topics
 

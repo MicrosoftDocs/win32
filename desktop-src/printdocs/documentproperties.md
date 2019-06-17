@@ -126,9 +126,9 @@ The [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure 
 2.  Allocate memory for the full [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure.
 3.  Get the current printer settings by calling **DocumentProperties**. Pass a pointer to the [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure allocated in Step 2 as the *pDevModeOutput* parameter and specify the **DM\_OUT\_BUFFER** value.
 4.  Modify the appropriate members of the returned [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure and indicate which members were changed by setting the corresponding bits in the **dmFields** member of the **DEVMODE**.
-5.  Call **DocumentProperties** and pass the modified [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure back as both the *pDevModeInput* and *pDevModeOutput* parameters and specify both the **DM\_IN\_BUFFER** and **DM\_OUT\_BUFFER** values (which are combined using the OR operator).The **DEVMODE** structure returned by the third call to **DocumentProperties** can be used as an argument in a call to the [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490) function.
+5.  Call **DocumentProperties** and pass the modified [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) structure back as both the *pDevModeInput* and *pDevModeOutput* parameters and specify both the **DM\_IN\_BUFFER** and **DM\_OUT\_BUFFER** values (which are combined using the OR operator).The **DEVMODE** structure returned by the third call to **DocumentProperties** can be used as an argument in a call to the [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) function.
 
-To create a handle to a printer-device context using the current printer settings, you only need to call **DocumentProperties** twice, as described above. The first call gets the size of the full [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) and the second call initializes the **DEVMODE** with the current printer settings. Pass the initialized **DEVMODE** to [**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490) to obtain the handle to the printer device context.
+To create a handle to a printer-device context using the current printer settings, you only need to call **DocumentProperties** twice, as described above. The first call gets the size of the full [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea) and the second call initializes the **DEVMODE** with the current printer settings. Pass the initialized **DEVMODE** to [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) to obtain the handle to the printer device context.
 
 ## Requirements
 
@@ -158,7 +158,7 @@ To create a handle to a printer-device context using the current printer setting
 [**AdvancedDocumentProperties**](advanceddocumentproperties.md)
 </dt> <dt>
 
-[**CreateDC**](https://msdn.microsoft.com/library/windows/desktop/dd183490)
+[**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca)
 </dt> <dt>
 
 [**DEVMODE**](/windows/desktop/api/Wingdi/ns-wingdi-_devicemodea)

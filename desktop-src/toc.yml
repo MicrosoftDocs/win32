@@ -1,21 +1,25 @@
-- name: "Windows Desktop Apps"
+- name: "Desktop Win32 Apps"
   href: index.md
   items: 
   - name: "Get Started"
-    href: 
     items: 
-    - name: "Choose Your Platform"
-      href: choose-your-technology.md
-    - name: "Enhance Your Desktop Applications for Windows 10"
-      href: modernize-desktop-applications.md
+    - name: "Overview"
+      href: desktop-programming.md
     - name: "What's new"
-      href: windows-8.md
-      items: 
-      # - name: "Windows 8 and 8.1 Technologies"
-      #   href: whatsnew/windows-8-technologies.md
+      href: whats-new.md
+    - name: "Create your first C++ Win32 app"
+      href: learnwin32/learn-to-program-for-windows.md
+    - name: "Create your first Windows app using DirectX"
+      href: direct3dgetstarted/building-your-first-directx-app.md
+    - name: "Using the Windows Headers"
+      href: winprog/using-the-windows-headers.md
+    - name: "Platform Guides"
+      items:
+      - name: "Programming Guide for 64-bit Windows"
+        href: winprog64/programming-guide-for-64-bit-windows.md
       - name: "Compatibility cookbook for Windows"
         href: w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
-      - name: "Windows 7"
+      - name: "Windows 7 guides"
         href: windows-7.md
         items: 
         - name: "Windows 7 and Windows Server 2008 R2 Application Quality Cookbook"
@@ -24,30 +28,19 @@
           href: win7devguide/windows-7-developer-guide.md
         - name: "Platform Update for Windows Vista"
           href: win7ip/platform-update-for-windows-vista-portal.md
-    - name: "Desktop Programming"
-      href: desktop-programming.md
-      items: 
-      - name: "Create your first Windows app using DirectX"
-        href: direct3dgetstarted/building-your-first-directx-app.md
-      - name: "Get Started with Win32 and C++"
-        href: learnwin32/learn-to-program-for-windows.md
-      - name: "Programming Guide for 64-bit Windows"
-        href: winprog64/programming-guide-for-64-bit-windows.md
-      - name: "Using the Windows Headers"
-        href: winprog/using-the-windows-headers.md
-    - name: "Downloads and Tools"
-      href: https://developer.microsoft.com/en-us/windows/downloads
   - name: "Design"
     href: uxguide/toc.yml
   - name: "Develop"
     href: 
     items: 
     - name: "Desktop app technologies"
-      href: desktop-app-technologies.md
       items: 
+      - name: "Overview"
+        href: desktop-app-technologies.md
       - name: "Accessibility"
-        href: accessibility.md
         items: 
+        - name: "Overview"
+          href: accessibility.md
         - name: "What's new in Windows accessibility and automation"
           href: accessibility-whatsnew.md
         - name: "Developing accessible Windows applications"
@@ -63,20 +56,23 @@
         - name: "Accessibility and automation feature reference"
           href: accessibility-reference.md
       - name: "Desktop App User Interface"
-        href: windows-application-ui-development.md
         items: 
+        - name: "Overview"
+          href: windows-application-ui-development.md
         - name: "Getting Started Developing User Interfaces for Windows Applications"
           href: appuistart/getting-started-developing-user-interfaces-portal.md
         - name: "Internationalization for Windows Applications"
           href: intl/international-support.md
         - name: "User Interaction"
-          href: user-interaction.md
           items: 
+          - name: "Overview"
+            href: user-interaction.md
           - name: "Text Services Framework"
             href: tsf/text-services-framework.md
           - name: "Legacy User Interaction Features"
-            href: legacy-user-interaction-features.md
             items: 
+            - name: "Overview"
+              href: legacy-user-interaction-features.md
             - name: "Touch Input"
               href: wintouch/windows-touch-portal.md
             - name: "Keyboard and Mouse Input"
@@ -104,8 +100,9 @@
         - name: "Windows Ribbon Framework"
           href: windowsribbon/-uiplat-windowsribbon-entry.md
       - name: "Desktop Environment"
-        href: user-interface.md
         items: 
+        - name: "Overview"
+          href: user-interface.md
         - name: "The Windows Shell"
           href: shell/shell-entry.md
         - name: "Windows Property System"
@@ -117,11 +114,12 @@
         - name: "Legacy Windows Environment Features"
           href: lwef/legacy-windows-environment.md
       - name: "Application Installation and Servicing"
-        href: application-installing-and-servicing.md
         items: 
+        - name: "Overview"
+          href: application-installing-and-servicing.md
         - name: "Isolated Applications and Side-by-side Assemblies"
           href: sbscs/isolated-applications-and-side-by-side-assemblies-portal.md
-        - name: "Packaging, deployment, and query of Windows Store apps"
+        - name: "Packaging, deployment, and query of UWP apps"
           href: appxpkg/appx-portal.md
         - name: "Developer licensing"
           href: devlic/developer-licensing-portal.md
@@ -130,8 +128,9 @@
         - name: "Windows Installer"
           href: msi/windows-installer-portal.md
       - name: "Audio and Video"
-        href: audio-and-video.md
         items: 
+        - name: "Overview"
+          href: audio-and-video.md
         - name: "Core Audio APIs"
           href: coreaudio/core-audio-apis-in-windows-vista.md
         - name: "DirectShow"
@@ -147,13 +146,15 @@
         - name: "Windows Multimedia"
           href: multimedia/windows-multimedia-start-page.md
       - name: "Data Access and Storage"
-        href: data-access-and-storage.md
         items: 
+        - name: "Overview"
+          href: data-access-and-storage.md
         - name: "Background Intelligent Transfer Service"
           href: bits/background-intelligent-transfer-service-portal.md
         - name: "Backup"
-          href: backup.md
           items: 
+          - name: "Overview"
+            href: backup.md
           - name: "Backup"
             href: backup/backup.md
           - name: "Volume Shadow Copy Service"
@@ -177,8 +178,9 @@
         - name: "Virtual Disk Service"
           href: https://msdn.microsoft.com/en-us/library/bb986750(v=vs.85).aspx
       - name: "Devices"
-        href: devices.md
         items: 
+        - name: "Overview"
+          href: devices.md
         - name: "Communications Resources"
           href: devio/communications-resources.md
         - name: "Location API"
@@ -194,18 +196,21 @@
       - name: "Windows Media Device Manager 11 SDK"
         href: wmdm/windows-media-device-manager-11-sdk.md
       - name: "Windows Portable Devices"
-        href: windows-portable-devices.md
         items: 
+        - name: "Overview"
+          href: windows-portable-devices.md
         - name: "WPD Application Programming Interface"
           href: wpd_sdk/wpd-application-programming-interface.md
       - name: "Diagnostics"
-        href: diagnostics.md
         items: 
+        - name: "Overview"
+          href: diagnostics.md
         - name: "Assessment Execution Engine"
           href: axe-access-portal.md
         - name: "Debugging and Error Handling"
-          href: debugging-and-error-handling.md
           items: 
+          - name: "Overview"
+            href: debugging-and-error-handling.md
           - name: "Application Recovery and Restart"
             href: recovery/application-recovery-and-restart-portal.md
           - name: "Error Handling"
@@ -229,8 +234,9 @@
         - name: "Windows Error Reporting"
           href: wer/windows-error-reporting.md
         - name: "Windows Events"
-          href: events/windows-events.md
           items: 
+          - name: "Overview"
+            href: events/windows-events.md
           - name: "TraceLogging"
             href: tracelogging/trace-logging-portal.md
           - name: "Event Tracing"
@@ -244,11 +250,13 @@
       - name: "Documents and Printing"
         href: printdocs/documents-and-printing.md
       - name: "Graphics and Gaming"
-        href: graphics-and-multimedia.md
         items: 
+        - name: "Overview"
+          href: graphics-and-multimedia.md
         - name: "DirectX Graphics and Gaming"
-          href: directx.md
           items: 
+          - name: "Overview"
+            href: directx.md
           - name: "Getting Started with DirectX Graphics"
             href: getting-started-with-directx-graphics.md
           - name: "Programming DirectX with COM"
@@ -256,8 +264,9 @@
           - name: "Direct2D"
             href: direct2d/direct2d-portal.md
           - name: "Direct3D"
-            href: direct3d.md
             items: 
+            - name: "Overview"
+              href: direct3d.md
             - name: "Getting Started with Direct3D"
               href: getting-started-with-direct3d.md
             - name: "Direct3D 12 Graphics"
@@ -275,8 +284,9 @@
           - name: "DirectXMath"
             href: dxmath/directxmath-portal.md
           - name: "Classic DirectX Graphics"
-            href: classic-directx-graphics.md
             items: 
+            - name: "Overview"
+              href: classic-directx-graphics.md
             - name: "Direct3D 10 Graphics"
               href: direct3d10/d3d10-graphics.md
             - name: "Direct3D 9 Graphics"
@@ -310,8 +320,9 @@
         - name: "Windows Mixed Reality"
           href: mixedreality/mixed-reality-portal.md
       - name: "Networking and Internet"
-        href: networking.md
         items: 
+        - name: "Overview"
+          href: networking.md
         - name: "Delivery Optimization"
           href: delivery_optimization/delivery-optimization-portal.md
         - name: "Domain Name System"
@@ -351,8 +362,9 @@
         - name: "Windows Sockets 2"
           href: winsock/windows-sockets-start-page-2.md
         - name: "Wireless Networking"
-          href: wireless-networking.md
           items: 
+          - name: "Overview"
+            href: wireless-networking.md
           - name: "Bluetooth"
             href: bluetooth/bluetooth-start-page.md
           - name: "Mobile Broadband"
@@ -372,8 +384,9 @@
         - name: "Windows Web Services"
           href: wsw/portal.md
       - name: "Security and Identity"
-        href: security.md
         items: 
+        - name: "Overview"
+          href: security.md
         - name: "Antimalware Scan Interface"
           href: amsi/antimalware-scan-interface-portal.md
         - name: "Authentication"
@@ -394,7 +407,7 @@
           - name: "Directory Services"
             href: 
             items: 
-            - name: Directories"
+            - name: Directories
               href: 
               items: 
               - name: "Active Directory Domain Services"
@@ -410,8 +423,9 @@
             href: 
             items: 
             - name: "Active Directory Federation Services"
-              href: https://msdn.microsoft.com/en-us/library/ee663257(v=vs.85).aspx
               items: 
+              - name: "Overview"
+                href: SrvNodes/active-directory-federation-services.md
               - name: "Active Directory Federation Services Overview"
                 href: https://msdn.microsoft.com/en-us/library/ms674895(v=vs.85).aspx
         - name: "Extensible Authentication Protocol"
@@ -425,8 +439,9 @@
         - name: "Parental Controls"
           href: parcon/parental-controls-portal.md
         - name: "Rights Management"
-          href: https://msdn.microsoft.com/en-us/library/hh552972(v=vs.85).aspx
           items: 
+          - name: "Overview"
+            href: SrvNodes/rights-management.md
           - name: "RMS Scenarios, Code and Tools"
             href: https://msdn.microsoft.com/en-us/library/dn609938(v=vs.85).aspx
         - name: "Security Management"
@@ -438,8 +453,9 @@
         - name: "Windows Biometric Framework"
           href: secbiomet/biometric-service-api-portal.md
       - name: "System Services"
-        href: system-services.md
         items: 
+        - name: "Overview"
+          href: system-services.md
         - name: "Component Object Model"
           href: com/component-object-model--com--portal.md
         - name: "Microsoft Interface Definition Language"
@@ -477,8 +493,9 @@
       - name: "Developer Notes"
         href: devnotes/developer-notes.md
     - name: "Develop with server technologies"
-      href: server-and-system-technologies.md
       items: 
+      - name: "Overview"
+        href: server-and-system-technologies.md
       - name: "Server Technologies"
         href: 
         items: 
@@ -488,8 +505,9 @@
         href: 
         items: 
         - name: "Group Policy"
-          href: https://msdn.microsoft.com/en-us/library/ee663280(v=vs.85).aspx
           items: 
+          - name: "Overview"
+            href: https://msdn.microsoft.com/en-us/library/ee663280(v=vs.85).aspx
           - name: "GPMC Class Library Reference"
             href: https://msdn.microsoft.com/en-us/library/mt739121(v=vs.85).aspx
         - name: "Mobile Device Management Registration"

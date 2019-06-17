@@ -2,6 +2,7 @@
 title: Specifying Root Signatures in HLSL
 description: Specifying root signatures in HLSL Shader Model 5.1 is an alternative to specifying them in C++ code.
 ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -89,7 +90,7 @@ The HLSL root signature language closely corresponds to the C++ root signature A
 
 ## RootFlags
 
-The optional *RootFlags* clause takes either 0 (the default value to indicate no flags), or one or several of predefined root flags values, connected via the OR ‘\|’ operator. The allowed root flag values are defined by [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags).
+The optional *RootFlags* clause takes either 0 (the default value to indicate no flags), or one or several of predefined root flags values, connected via the OR ‘\|’ operator. The allowed root flag values are defined by [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags).
 
 For example:
 
@@ -116,7 +117,7 @@ RootConstants(num32BitConstants=3, b3)
 
 ## Visibility
 
-Visibility is an optional parameter that can have one of the values from [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility).
+Visibility is an optional parameter that can have one of the values from [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility).
 
 SHADER\_VISIBILITY\_ALL broadcasts the root arguments to all shaders. On some hardware this has no cost, but on other hardware there is a cost to fork the data to all the shader stages. Setting one of the options, such as SHADER\_VISIBILITY\_VERTEX, limits the root argument to a single shader stage.
 
@@ -241,15 +242,15 @@ StaticSampler(s4, filter=FILTER_MIN_MAG_MIP_LINEAR)
 
 The parameter options are very similar to the C++ API calls, except for *borderColor*, which is restricted to an enum in HLSL.
 
-The filter field can be one of [**D3D12\_FILTER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_filter).
+The filter field can be one of [**D3D12\_FILTER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter).
 
-The address fields can each be one of [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode).
+The address fields can each be one of [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode).
 
-The comparison function can be one of [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func).
+The comparison function can be one of [**D3D12\_COMPARISON\_FUNC**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_comparison_func).
 
-The border color field can be one of [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_static_border_color).
+The border color field can be one of [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_static_border_color).
 
-Visibility can be one of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility).
+Visibility can be one of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility).
 
 ## Compiling an HLSL root signature
 
@@ -265,7 +266,7 @@ float4 main(float4 coord : COORD) : SV_Target
 
 The compiler will create and verify the root signature blob for the shader and embed it alongside the shader byte code into the shader blob. The compiler supports root signature syntax for shader model 5.0 and higher. If a root signature is embedded in a shader model 5.0 shader and that shader is sent to the D3D11 runtime, as opposed to D3D12, the root signature portion will get silently ignored by D3D11.
 
-The other mechanism is to create a standalone root signature blob, perhaps to reuse it with a large set of shaders, saving space. The [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919) (FXC) supports both **rootsig\_1\_0** and**rootsig\_1\_1** shader models. The name of the define string is specified via the usual /E argument. For example:
+The other mechanism is to create a standalone root signature blob, perhaps to reuse it with a large set of shaders, saving space. The [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) (FXC) supports both **rootsig\_1\_0** and**rootsig\_1\_1** shader models. The name of the define string is specified via the usual /E argument. For example:
 
 ``` syntax
 fxc.exe /T rootsig_1_1 MyRS1.hlsl /E MyRS1 /Fo MyRS1.fxo
@@ -275,7 +276,7 @@ Note that the root signature string define can also be passed on the command lin
 
 ## Manipulating root signatures with the FXC compiler
 
-The FXC compiler creates shader byte-code from HLSL source files. There are a lot of optional parameters for this compiler, refer to the [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919).
+The FXC compiler creates shader byte-code from HLSL source files. There are a lot of optional parameters for this compiler, refer to the [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc).
 
 For managing HLSL authored root signatures, the following table gives some examples of using FXC.
 
@@ -293,12 +294,12 @@ For managing HLSL authored root signatures, the following table gives some examp
 
  
 
-The functionality available through FXC is also available programmatically using the [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324) function. This call compiles a shader with a root signature, or stand-alone root signature (setting the rootsig\_1\_0 target). [**D3DGetBlobPart**](https://msdn.microsoft.com/library/windows/desktop/ff728674) and [**D3DSetBlobPart**](https://msdn.microsoft.com/library/windows/desktop/hh446880) can extract and attach root signatures to an existing blob.  D3D\_BLOB\_ROOT\_SIGNATURE is used to specify the root signature blob part type. [**D3DStripShader**](https://msdn.microsoft.com/library/windows/desktop/dd607335) removes the root signature (using the D3DCOMPILER\_STRIP\_ROOT\_SIGNATURE flag) from the blob.
+The functionality available through FXC is also available programmatically using the [**D3DCompile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile) function. This call compiles a shader with a root signature, or stand-alone root signature (setting the rootsig\_1\_0 target). [**D3DGetBlobPart**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dgetblobpart) and [**D3DSetBlobPart**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dsetblobpart) can extract and attach root signatures to an existing blob.  D3D\_BLOB\_ROOT\_SIGNATURE is used to specify the root signature blob part type. [**D3DStripShader**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dstripshader) removes the root signature (using the D3DCOMPILER\_STRIP\_ROOT\_SIGNATURE flag) from the blob.
 
 ## Notes
 
 > [!Note]  
-> Whereas the offline compilation of shaders is strongly recommended, if shaders have to be compiled at runtime, refer to the remarks for [**D3DCompile2**](https://msdn.microsoft.com/library/windows/desktop/hh446869).
+> Whereas the offline compilation of shaders is strongly recommended, if shaders have to be compiled at runtime, refer to the remarks for [**D3DCompile2**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile2).
 
  
 
@@ -314,7 +315,7 @@ The functionality available through FXC is also available programmatically using
 [Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
 </dt> <dt>
 
-[HLSL Shader Model 5.1 Features for Direct3D 12](https://msdn.microsoft.com/library/windows/desktop/dn933267)
+[HLSL Shader Model 5.1 Features for Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
 [Resource Binding](resource-binding.md)
@@ -326,7 +327,7 @@ The functionality available through FXC is also available programmatically using
 [Root Signatures](root-signatures.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)

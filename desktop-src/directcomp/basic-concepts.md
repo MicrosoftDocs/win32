@@ -150,7 +150,7 @@ The ability to use visuals from different devices in the same visual tree enable
 
 ## Composition target window
 
-A visual tree must be bound to a window before any of the tree's visuals can be displayed on the screen. The window, called the *composition target window*, can be a top-level window or a child window. Also, the composition target window can be a layered window; that is, it can have the [**WS\_EX\_LAYERED**](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-layered) window style.
+A visual tree must be bound to a window before any of the tree's visuals can be displayed on the screen. The window, called the *composition target window*, can be a top-level window or a child window. Also, the composition target window can be a layered window; that is, it can have the [**WS\_EX\_LAYERED**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles) window style.
 
 DirectComposition allows an application to bind a maximum of two visual trees to each window. The visual trees include one that is composed on top of the window itself, but behind all of the window’s child windows, and another that is composed on top of the window and on top of the child windows. In other words, each window has four conceptual layers, and all layers are clipped to the target window's visible region. The following illustration shows the four conceptual layers of a window.
 

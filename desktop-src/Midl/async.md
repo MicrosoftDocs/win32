@@ -89,7 +89,7 @@ interface AsyncIface
 [Application Configuration File (ACF)](application-configuration-file-acf-.md)
 </dt> <dt>
 
-[Asynchronous RPC](https://msdn.microsoft.com/library/windows/desktop/aa373550)
+[Asynchronous RPC](https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc)
 </dt> </dl>
 
  

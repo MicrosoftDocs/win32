@@ -331,28 +331,28 @@ End Module
 
 <dl> <dt>
 
-[Order in Which to Use the SDO API](https://msdn.microsoft.com/library/bb960695)
+[Order in Which to Use the SDO API](https://docs.microsoft.com/windows/desktop/Nps/sdo-order-in-which-to-use-the-sdo-api)
 </dt> <dt>
 
-[SDO Supported Attributes](https://msdn.microsoft.com/library/bb960711)
+[SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> <dt>
 
-[**ISdo**](https://msdn.microsoft.com/library/bb960639)
+[**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[**ISdoCollection**](https://msdn.microsoft.com/library/bb960640)
+[**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
 </dt> <dt>
 
-[**ISdoDictionaryOld**](https://msdn.microsoft.com/library/bb960649)
+[**ISdoDictionaryOld**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
 </dt> <dt>
 
-[**POLICYPROPERTIES**](https://msdn.microsoft.com/library/bb960696)
+[**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties)
 </dt> <dt>
 
-[**PROFILEPROPERTIES**](https://msdn.microsoft.com/library/bb960697)
+[**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_profileproperties)
 </dt> </dl>
 
  

@@ -432,7 +432,7 @@ The service will be started automatically by the service control manager during 
 
 </dt> <dd>
 
-The service will be started by the service control manager when a process calls the [**StartService**](https://msdn.microsoft.com/library/windows/desktop/ms686321) function.
+The service will be started by the service control manager when a process calls the [**StartService**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea) function.
 
 </dd> <dt>
 

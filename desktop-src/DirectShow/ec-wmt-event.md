@@ -44,11 +44,11 @@ Pointer to an [**AM\_WMT\_EVENT\_DATA**](/windows/desktop/api/evcode/ns-evcode-a
 
 | lParam1                       | AM\_WMT\_EVENT\_DATA.pData                                                                                                                       |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| WMT\_ACQUIRE\_LICENSE         | Pointer to a [**WM\_GET\_LICENSE\_DATA**](https://msdn.microsoft.com/library/windows/desktop/dd757919) structure. This structure is documented in the Windows Media Format SDK. |
-| WMT\_INDIVIDUALIZE            | Pointer to a [**WM\_INDIVIDUALIZE\_STATUS**](https://msdn.microsoft.com/library/windows/desktop/dd757920) structure.                                                        |
+| WMT\_ACQUIRE\_LICENSE         | Pointer to a [**WM\_GET\_LICENSE\_DATA**](https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data) structure. This structure is documented in the Windows Media Format SDK. |
+| WMT\_INDIVIDUALIZE            | Pointer to a [**WM\_INDIVIDUALIZE\_STATUS**](https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status) structure.                                                        |
 | WMT\_NEEDS\_INDIVIDUALIZATION | **NULL**.                                                                                                                                        |
 | WMT\_NO\_RIGHTS               | Pointer to a wide-character string containing a challenge URL.                                                                                   |
-| WMT\_NO\_RIGHTS\_EX           | Pointer to a [**WM\_GET\_LICENSE\_DATA**](https://msdn.microsoft.com/library/windows/desktop/dd757919) structure.                                                               |
+| WMT\_NO\_RIGHTS\_EX           | Pointer to a [**WM\_GET\_LICENSE\_DATA**](https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data) structure.                                                               |
 
 
 

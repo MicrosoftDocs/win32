@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-The Windows Event Log API defines the schema that you use to write an instrumentation manifest. An instrumentation manifest identifies your event provider and the events that it logs. The API also includes the functions that an event consumer, such as the [Event Viewer](https://go.microsoft.com/fwlink/p/?linkid=146293), would use to read and render the events. To write the events defined in the manifest, use the functions included in the [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) (ETW) API.
+The Windows Event Log API defines the schema that you use to write an instrumentation manifest. An instrumentation manifest identifies your event provider and the events that it logs. The API also includes the functions that an event consumer, such as the [Event Viewer](https://go.microsoft.com/fwlink/p/?linkid=146293), would use to read and render the events. To write the events defined in the manifest, use the functions included in the [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) API.
 
-Windows Event Log supersedes the [Event Logging](https://msdn.microsoft.com/library/windows/desktop/aa363652) API beginning with the Windows Vista operating system.
+Windows Event Log supersedes the [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging) API beginning with the Windows Vista operating system.
 
 ## Developer audience
 

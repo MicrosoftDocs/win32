@@ -13,7 +13,7 @@ Both C++ applications and scripts running under a full administrator account can
 
 ## Namespace Security Descriptors
 
-Each WMI namespace has a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly), which allows each namespace to have unique security settings that determine who has access to the namespace data and methods. For more information about WMI access security, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md). [Access to WMI Namespaces](access-to-wmi-namespaces.md) describes the default security settings for WMI namespaces and security auditing in WMI.
+Each WMI namespace has a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly), which allows each namespace to have unique security settings that determine who has access to the namespace data and methods. For more information about WMI access security, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md). [Access to WMI Namespaces](access-to-wmi-namespaces.md) describes the default security settings for WMI namespaces and security auditing in WMI.
 
 You can set account permissions for each WMI namespace in the WMI (CIM) repository in the following ways:
 
@@ -74,9 +74,9 @@ Sets the remote access rights for a list of individual users on computers runnin
 
 </dd> </dl>
 
-If you are writing scripts, use the [**GetSecurityDescriptor**](getsecuritydescriptor-method-in-class---systemsecurity-.md) and [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class---systemsecurity.md). You can use the methods of the [**Win32\_SecurityDescriptorHelper**](https://msdn.microsoft.com/library/aa394403) class to alter the security descriptors.
+If you are writing scripts, use the [**GetSecurityDescriptor**](getsecuritydescriptor-method-in-class---systemsecurity-.md) and [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class---systemsecurity.md). You can use the methods of the [**Win32\_SecurityDescriptorHelper**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper) class to alter the security descriptors.
 
-If you are programming in C++, you can manipulate the binary security descriptor using [Security Descriptor Definition Language (SDDL)](https://msdn.microsoft.com/library/windows/desktop/aa379567), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376397) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://msdn.microsoft.com/library/windows/desktop/aa376401).
+If you are programming in C++, you can manipulate the binary security descriptor using [Security Descriptor Definition Language (SDDL)](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
 Be aware that, starting with Windows Vista, [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84440) (UAC) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 

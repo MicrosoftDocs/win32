@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following simple console application obtains a list of running processes. First, the `GetProcessList` function takes a snapshot of currently executing processes in the system using [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot), and then it walks through the list recorded in the snapshot using [**Process32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-process32first) and [**Process32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-process32next). For each process in turn, `GetProcessList` calls the `ListProcessModules` function which is described in [Traversing the Module List](traversing-the-module-list.md), and the `ListProcessModules` function which is described in [Traversing the Thread List](traversing-the-thread-list.md).
 
-A simple error-reporting function, `printError`, displays the reason for any failures, which usually result from security restrictions. For example, [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them.
+A simple error-reporting function, `printError`, displays the reason for any failures, which usually result from security restrictions. For example, [**OpenProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them.
 
 
 ```C++

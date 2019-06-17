@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Bluetooth and WSAQUERYSET
 
-The [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure is used in operations including device inquiry, service inquiry, and setting the service.
+The [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure is used in operations including device inquiry, service inquiry, and setting the service.
 
 The following topics describe the use of the WSAQUERYSET structure in each of these operations:
 
@@ -16,13 +16,13 @@ The following topics describe the use of the WSAQUERYSET structure in each of th
 -   [Bluetooth and WSAQUERYSET for Service Inquiry](bluetooth-and-wsaqueryset-for-service-inquiry.md)
 -   [Bluetooth and WSAQUERYSET for Set Service](bluetooth-and-wsaqueryset-for-set-service.md)
 
-For more information and a complete [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) reference or for other Windows Sockets elements, see the Windows Sockets section of the Platform Software Development Kit (SDK).
+For more information and a complete [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) reference or for other Windows Sockets elements, see the Windows Sockets section of the Platform Software Development Kit (SDK).
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
+[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
  

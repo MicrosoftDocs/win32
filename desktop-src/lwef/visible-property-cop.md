@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets whether the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) is visible in the character's pop-up menu.
+Returns or sets whether the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) is visible in the character's pop-up menu.
 
 </dd> <dt>
 
@@ -28,7 +28,7 @@ Returns or sets whether the [**Command**](https://msdn.microsoft.com/library/win
 
 | Part      | Description                                                                                                                                                                                                                                      |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | A Boolean expression specifying whether the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441)'s caption appears in the character's pop-up menu.<br/> **True** (Default) The caption appears.<br/> **False** The caption does not appear.<br/> |
+| *boolean* | A Boolean expression specifying whether the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object)'s caption appears in the character's pop-up menu.<br/> **True** (Default) The caption appears.<br/> **False** The caption does not appear.<br/> |
 
 
 
@@ -38,9 +38,9 @@ Returns or sets whether the [**Command**](https://msdn.microsoft.com/library/win
 
 ## Remarks
 
-Set this property to **False** when you want to include voice input for your own interfaces without having them appear in the pop-up menu for the character. If you set a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) object's [**Caption**](caption-property.md) property to the empty string (""), the caption text will not appear in the pop-up menu (for example, as a blank line), regardless of its [**Visible**](visible-property.md) property setting.
+Set this property to **False** when you want to include voice input for your own interfaces without having them appear in the pop-up menu for the character. If you set a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object's [**Caption**](caption-property.md) property to the empty string (""), the caption text will not appear in the pop-up menu (for example, as a blank line), regardless of its [**Visible**](visible-property.md) property setting.
 
-The [**Visible**](visible-property.md) property setting of a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) object's parent [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) collection does not affect the **Visible** property setting of the **Command**.
+The [**Visible**](visible-property.md) property setting of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object's parent [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection does not affect the **Visible** property setting of the **Command**.
 
  
 

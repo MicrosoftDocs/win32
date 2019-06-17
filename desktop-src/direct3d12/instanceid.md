@@ -2,6 +2,7 @@
 Description: The user-provided identifier for the instance on the bottom-level acceleration structure instance within the top-level structure.
 ms.assetid: 
 title: InstanceId
+ms.localizationpriority: low
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

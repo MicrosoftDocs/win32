@@ -32,7 +32,7 @@ Direct2D defines the following enumerations.
 |[**D2D1_BITMAPSOURCE_INTERPOLATION_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode). The interpolation mode used to scale the image in the [bitmap source effect](bitmap-source.md).|
 |[**D2D1_BITMAPSOURCE_ORIENTATION**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation). Specifies whether a flip and/or rotation operation should be performed by the [bitmap source effect](bitmap-source.md).|
 |[**D2D1_BITMAPSOURCE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_prop). Identifiers for properties of the [bitmap source effect](bitmap-source.md).|
-|[**D2D1_BITMAP_INTERPOLATION_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode). Specifies the algorithm that is used when images are scaled or rotated. See [**D2D1_INTERPOLATION_MODE**](https://msdn.microsoft.com/library/windows/desktop/hh447004).|
+|[**D2D1_BITMAP_INTERPOLATION_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode). Specifies the algorithm that is used when images are scaled or rotated. See [**D2D1_INTERPOLATION_MODE**](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode).|
 |[**D2D1_BITMAP_OPTIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_bitmap_options). Specifies how a bitmap can be used.|
 |[**D2D1_BLEND**](/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend.md). Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.|
 |[**D2D1_BLEND_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode). The blend mode used for the [blend effect](blend.md).|

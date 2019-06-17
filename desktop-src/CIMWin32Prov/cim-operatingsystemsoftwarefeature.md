@@ -61,7 +61,7 @@ Data type: **CIM\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("GroupComponent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_OperatingSystem**](cim-operatingsystem.md) describing the operating system.
@@ -77,7 +77,7 @@ Data type: **CIM\_SoftwareFeature**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("PartComponent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_SoftwareFeature**](cim-softwarefeature.md) describing the software features that make up the operating system.

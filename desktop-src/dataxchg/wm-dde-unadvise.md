@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A Dynamic Data Exchange (DDE) client application posts a **WM\_DDE\_UNADVISE** message to inform a DDE server application that the specified item or a particular clipboard format for the item should no longer be updated. This terminates the warm or hot data link for the specified item.
 
-To post this message, call the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function with the following parameters.
+To post this message, call the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
 
 
 ```C++
@@ -80,13 +80,13 @@ The server application posts the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to re
 [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam)
 </dt> <dt>
 
-[**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
+[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
 [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-dde-reuseddelparam)
 </dt> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
+[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**UnpackDDElParam**](/windows/desktop/api/Dde/nf-dde-unpackddelparam)

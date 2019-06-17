@@ -17,7 +17,7 @@ When the computer is in the sleep state, the computer hardware, the system, and 
 The following are benefits of Windows power management:
 
 -   Eliminates startup and shutdown delays. The computer need not perform a full system boot when exiting the sleep state or a full system shutdown when the user initiates the sleep state.
--   Enables automated tasks to run while the computer is in the sleep state. The Task Scheduler enables the user to schedule applications to run; scheduled events can run even when the system is in the sleep state. The Task Scheduler uses [waitable timers](https://msdn.microsoft.com/library/windows/desktop/ms687012) to ensure that the system is ready when the application is scheduled to run. For more information, see the help file included with the Task Scheduler.
+-   Enables automated tasks to run while the computer is in the sleep state. The Task Scheduler enables the user to schedule applications to run; scheduled events can run even when the system is in the sleep state. The Task Scheduler uses [waitable timers](https://docs.microsoft.com/windows/desktop/Sync/waitable-timer-objects) to ensure that the system is ready when the application is scheduled to run. For more information, see the help file included with the Task Scheduler.
 -   Enables per-device power management. Devices that are not in use can save power by entering the sleep state.
 -   Improves power efficiency. Power efficiency is particularly important on portable computers. Reducing system power consumption translates directly to lower energy costs and longer battery life.
 -   Enables users to create [power schemes](power-schemes.md), set alarms, and specify battery options through the Power Options application in Control Panel. The operating system coordinates all power management activities, based on power policy settings. For more information, see the help file included with the Power Options application.
@@ -29,7 +29,7 @@ The following are benefits of Windows power management:
 [About Power Management](about-power-management.md)
 </dt> <dt>
 
-[Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614)
+[Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)
 </dt> </dl>
 
  

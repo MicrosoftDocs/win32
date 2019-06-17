@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_QuickAccessToolbarDock is used by an application to query the dock-state of the Quick Access Toolbar (QAT).
 
-The property value is from the [**UI\_CONTROLDOCK**](https://msdn.microsoft.com/library/windows/desktop/dd371560) enumeration.
+The property value is from the [**UI\_CONTROLDOCK**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_controldock) enumeration.
 
 
 

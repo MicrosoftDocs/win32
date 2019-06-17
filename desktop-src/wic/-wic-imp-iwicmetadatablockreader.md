@@ -123,7 +123,7 @@ enum WICMetadataCreationOptions
 };
 ```
 
-The *pIStream* parameter is the actual stream that you are decoding. Before passing in the stream, you should seek to the beginning of the metadata block for which you’re requesting a reader. The appropriate metadata reader for the metadata block at the current position in the [IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034) will be returned in the *ppiReader* parameter.
+The *pIStream* parameter is the actual stream that you are decoding. Before passing in the stream, you should seek to the beginning of the metadata block for which you’re requesting a reader. The appropriate metadata reader for the metadata block at the current position in the [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) will be returned in the *ppiReader* parameter.
 
 ### GetReaderByIndex
 

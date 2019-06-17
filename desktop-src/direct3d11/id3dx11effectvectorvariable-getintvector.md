@@ -41,7 +41,7 @@ HRESULT GetIntVector(
 *pData* 
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the first component.
 

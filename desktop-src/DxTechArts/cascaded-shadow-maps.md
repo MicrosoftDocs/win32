@@ -16,7 +16,7 @@ Cascaded shadow maps (CSMs) are the best way to combat one of the most prevalent
 -   identifies and addresses some of the common pitfalls associated with adding filtering to CSMs; and
 -   shows how to map CSMs to Direct3D 10 through Direct3D 11 hardware.
 
-The code used in this article can be found in the DirectX Software Development Kit (SDK) in the CascadedShadowMaps11 and VarianceShadows11 samples. This article will prove most useful after implementing the techniques covered in the technical article, [Common Techniques to Improve Shadow Depth Maps](https://msdn.microsoft.com/library/windows/desktop/ee416324), are implemented.
+The code used in this article can be found in the DirectX Software Development Kit (SDK) in the CascadedShadowMaps11 and VarianceShadows11 samples. This article will prove most useful after implementing the techniques covered in the technical article, [Common Techniques to Improve Shadow Depth Maps](https://docs.microsoft.com/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps), are implemented.
 
 ## Cascaded Shadow Maps and Perspective Aliasing
 
@@ -102,7 +102,7 @@ All of the frusta can be created with the same near plane. This forces the casca
 
 Alternatively, frusta can be created with the actual partition interval being used as near and far planes. This causes a tighter fit, but degenerates to fit to scene in the case of dueling frusta. The CascadedShadowMaps11 samples calls this technique fit to cascade.
 
-These two methods are shown in Figure 6. Fit to cascade wastes less resolution. The problem with fit to cascade is that the orthographic projection grows and shrinks based on the orientation of the view frustum. The fit to scene technique pads the orthographic projection by the max size of the view frustum removing the artifacts that appear when the view-camera moves. [Common Techniques to Improve Shadow Depth Maps](https://msdn.microsoft.com/library/windows/desktop/ee416324) addresses the artifacts that appear when the light moves in the section "Moving the light in texel sized increments."
+These two methods are shown in Figure 6. Fit to cascade wastes less resolution. The problem with fit to cascade is that the orthographic projection grows and shrinks based on the orientation of the view frustum. The fit to scene technique pads the orthographic projection by the max size of the view frustum removing the artifacts that appear when the view-camera moves. [Common Techniques to Improve Shadow Depth Maps](https://docs.microsoft.com/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps) addresses the artifacts that appear when the light moves in the section "Moving the light in texel sized increments."
 
 **Figure 6. Fit to scene vs. fit to cascade**
 

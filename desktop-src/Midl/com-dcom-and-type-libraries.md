@@ -25,7 +25,7 @@ You define the characteristics of an interface in an interface definition (IDL) 
 -   The IDL file specifies the characteristics of the application's interfaces on the wire — that is, how data is to be transmitted between client and server, or between COM objects.
 -   The ACF file specifies interface characteristics, such as binding handles, that pertain only to the local operating environment. The ACF file can also specify how to marshal and transmit a complex data structure in a machine-independent form.
 
-For more information on IDL and ACF files, see [The IDL and ACF Files](https://msdn.microsoft.com/library/windows/desktop/aa378708).
+For more information on IDL and ACF files, see [The IDL and ACF Files](https://docs.microsoft.com/windows/desktop/Rpc/the-idl-and-acf-files).
 
 The IDL and ACF files are scripts written in Microsoft Interface Definition Language (MIDL), which is the Microsoft implementation and extension of the OSF-DCE interface definition language (IDL). The Microsoft extensions to the IDL language enable you to create COM interfaces and type libraries. The compiler, Midl.exe, uses these scripts to generate C-language stubs and header files as well as type library files.
 
@@ -37,7 +37,7 @@ A C-language proxy/stub file, an interface identifier file, a DLL data file, and
 
 A compiled type library (.tlb) file and related header file. MIDL generates these files when it encounters a [**library**](library.md) statement in the IDL file. For general information about type libraries, see [Contents of a Type Library](https://msdn.microsoft.com/en-us/library/ms221355(v=VS.71).aspx), in the Automation Programmer's Reference.
 
-C/C++-language client and server stub files and related header file for an RPC interface. These files are generated when there are interfaces in the IDL file that do not have the [**object**](object.md) attribute. For an overview of the stub and header files, see [General Build Procedure](https://msdn.microsoft.com/library/windows/desktop/aa373926). For more detailed information, see [Files Generated for an RPC Interface](files-generated-for-an-rpc-interface.md).
+C/C++-language client and server stub files and related header file for an RPC interface. These files are generated when there are interfaces in the IDL file that do not have the [**object**](object.md) attribute. For an overview of the stub and header files, see [General Build Procedure](https://docs.microsoft.com/windows/desktop/Rpc/general-build-procedure). For more detailed information, see [Files Generated for an RPC Interface](files-generated-for-an-rpc-interface.md).
 
  
 

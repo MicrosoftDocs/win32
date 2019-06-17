@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Converting a time\_t Value to a File Time
 
-The time functions included in the C run-time use the time\_t type to represent the number of seconds elapsed since midnight, January 1, 1970. The following example converts a time\_t value to a file time, using the [**Int32x32To64**](https://msdn.microsoft.com/library/windows/desktop/aa383703) function.
+The time functions included in the C run-time use the time\_t type to represent the number of seconds elapsed since midnight, January 1, 1970. The following example converts a time\_t value to a file time, using the [**Int32x32To64**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int32x32to64) function.
 
 
 ```C++

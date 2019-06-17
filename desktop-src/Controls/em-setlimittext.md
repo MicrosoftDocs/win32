@@ -52,7 +52,7 @@ This message does not return a value.
 
 ## Remarks
 
-The **EM\_SETLIMITTEXT** message limits only the text the user can enter. It does not affect any text already in the edit control when the message is sent, nor does it affect the length of the text copied to the edit control by the [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644) message. If an application uses the **WM\_SETTEXT** message to place more text into an edit control than is specified in the **EM\_SETLIMITTEXT** message, the user can edit the entire contents of the edit control.
+The **EM\_SETLIMITTEXT** message limits only the text the user can enter. It does not affect any text already in the edit control when the message is sent, nor does it affect the length of the text copied to the edit control by the [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) message. If an application uses the **WM\_SETTEXT** message to place more text into an edit control than is specified in the **EM\_SETLIMITTEXT** message, the user can edit the entire contents of the edit control.
 
 Before **EM\_SETLIMITTEXT** is called, the default limit for the amount of text a user can enter in an edit control is 32,767 characters.
 

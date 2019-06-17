@@ -27,7 +27,7 @@ The [**IX509AttributeExtensions**](/windows/desktop/api/CertEnroll/nn-certenroll
 | Extension              | Description                                                                                                                                                                                                                      |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AlternativeNames       | Contains one or more alternative name forms of the issuer associated with the certificate.                                                                                                                                       |
-| AuthorityKeyIdentifier | Contains a unique key identifier to differentiate between multiple certificate signing keys of the [*certification authority*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certification-authority-gly) (CA). |
+| AuthorityKeyIdentifier | Contains a unique key identifier to differentiate between multiple certificate signing keys of the [*certification authority*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CA). |
 | BasicConstraints       | Indicates whether the subject can act as a CA.                                                                                                                                                                                   |
 | CertificatePolicies    | Identifies the policies and optional qualifier information associated with the certificate.                                                                                                                                      |
 | MSApplicationPolicies  | Identifies one or more uses for the certificate. This extension is similar to the EnhancedKeyUsage extension but is Microsoft-defined.                                                                                           |
@@ -64,7 +64,7 @@ The [**IX509AttributeArchiveKeyHash**](/windows/desktop/api/CertEnroll/nn-certen
 
 ## CspProvider
 
-The [**IX509AttributeCspProvider**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider) interface can be used to define an attribute that contains information about the [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP) used by the requester for cryptographic operations.
+The [**IX509AttributeCspProvider**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509attributecspprovider) interface can be used to define an attribute that contains information about the [*cryptographic service provider*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CSP) used by the requester for cryptographic operations.
 
 **Applies To:** PKCS \#10 request. This attribute is automatically created when you create an [**IX509CertificateRequestPkcs10**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10) object.
 

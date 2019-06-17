@@ -55,7 +55,7 @@ Data type: **[**Msvm\_EthernetSwitchPort**](msvm-ethernetswitchport.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_EthernetSwitchPort**](msvm-ethernetswitchport.md) class that represents the switch port.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_DynamicForwardingEntry**](msvm-dynamicforwardingentry.md)*
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_DynamicForwardingEntry**](msvm-dynamicforwardingentry.md) class that represents the dynamic forwarding entry of the forwarding database.
@@ -80,7 +80,7 @@ A reference to an instance of the [**Msvm\_DynamicForwardingEntry**](msvm-dynami
 
 ## Remarks
 
-Access to the **Msvm\_SwitchPortDynamicForwarding** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_SwitchPortDynamicForwarding** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -107,7 +107,7 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_SwitchPortDynamicForwarding**](cim-switchportdynamicforwarding.md)
 </dt> <dt>
 
-[**CIM\_SwitchPortDynamicForwarding**](https://msdn.microsoft.com/library/cc136921)
+[**CIM\_SwitchPortDynamicForwarding**](https://docs.microsoft.com/previous-versions//cc136921(v=vs.85))
 </dt> </dl>
 
  

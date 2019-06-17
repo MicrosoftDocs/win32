@@ -21,7 +21,7 @@ api_location:
 
 # Win32\_ServerFeature class
 
-\[The **Win32\_ServerFeature** class is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [ServerManager Deploymentprovider Provider Classes](https://msdn.microsoft.com/library/hh872518).\]
+\[The **Win32\_ServerFeature** class is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [ServerManager Deploymentprovider Provider Classes](https://docs.microsoft.com/previous-versions/windows/desktop/srvmgrdeployprov/server-manager-deployment).\]
 
 The **Win32\_ServerFeature** class represents the features installed on a computer running Windows Server.
 

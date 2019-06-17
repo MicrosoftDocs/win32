@@ -58,7 +58,7 @@ Verifies that the app writes its program and data files to the correct folders.
     -   The app must be installed in the Program Files folder by default (%ProgramFiles% for native 32-bit and 64-bit apps, and %ProgramFiles(x86)% for 32-bit apps running on x64).
     -   **Note:** The app must not store user data or app data in a Program Files folder because of the security permissions configured for this folder.
     -   The ACLs on Windows system folders allow only administrator accounts to read and write to them. As a result, standard user accounts will not have access to these folders. File virtualization, however, lets apps store a file, such as a configuration file, in a system location that is typically writeable only by administrators. Running programs as a standard user in this situation could result in failure if they can't access a required file.
-    -   Apps should use [Known Folders](https://msdn.microsoft.com/library/windows/desktop/bb776911) to ensure they will be able to access their data.
+    -   Apps should use [Known Folders](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776911(v=vs.85)) to ensure they will be able to access their data.
     -   **Note:** Windows provides file virtualization to improve app compatibility and eliminate problems when apps run as a standard user on Windows. Your app should not rely on virtualization being present in future versions of Windows.
 -   User-specific app data folders
     -   In “per-machine” installations, the app must not write user-specific data during the installation. User-specific installation data should only be written when a user starts the app for the first time. This is because there is no correct user location at which to store data at time of installation. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.
@@ -110,7 +110,7 @@ Test the app to make sure the .exe is built for the platform architecture onto w
         -   Apps and their installers mustn't contain any 16-bit code or rely on any 16-bit component.
         -   App setup must detect and install the proper drivers and components on 64-bit versions of Windows.
         -   Any shell plug-ins must run on 64-bit versions of Windows.
-        -   Apps that run under the WoW64 emulator should not attempt to bypass Wow64 virtualization mechanisms. If there are specific scenarios where apps need to detect if they are running in a WoW64 emulator, they should do so by calling [**IsWow64Process**](https://msdn.microsoft.com/library/windows/desktop/ms684139).
+        -   Apps that run under the WoW64 emulator should not attempt to bypass Wow64 virtualization mechanisms. If there are specific scenarios where apps need to detect if they are running in a WoW64 emulator, they should do so by calling [**IsWow64Process**](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process).
 -   Test details
     -   The app should not install any 16-bit binaries. The app should not install a 32-bit kernel mode driver if it is supposed to run on a 64-bit machine.
 -   Corrective Actions
@@ -161,15 +161,15 @@ Tests how the app responds to system shutdown and restart messages.
 
 -   Background
     -   Apps must exit as quickly as possible when they are notified the system is shutting down to provide a responsive shutdown or power-off experience for the user.
-    -   In a critical shutdown, apps that return FALSE to [**WM\_QUERYENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376890) will be sent **WM\_ENDSESSION** and closed, while those that time out in response to WM\_QUERYENDSESSION will be forcibly terminated.
+    -   In a critical shutdown, apps that return FALSE to [**WM\_QUERYENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession) will be sent **WM\_ENDSESSION** and closed, while those that time out in response to WM\_QUERYENDSESSION will be forcibly terminated.
 -   Test details
     -   Examines how the app responds to shut down and exit messages.
 -   Corrective actions
     -   If your app fails this test, review how it handles these Windows messages:
-        -   [**WM\_QUERYENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376890) with *LPARAM* = **ENDSESSION\_CLOSEAPP**(0x1): Desktop apps must respond (TRUE) immediately in preparation for a restart. Console apps can call [**SetConsoleCtrlHandler**](https://msdn.microsoft.com/library/windows/desktop/ms686016) to receive shutdown notification. Services can call [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/library/windows/desktop/ms685058) to receive shutdown notifications in a handler routine.
-        -   [**WM\_ENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376890) with *LPARAM* = **ENDSESSION\_CLOSEAPP**(0x1): Apps must return a 0 value within 30 seconds and shut down. At a minimum, apps should prepare by saving any user data and state the info that is needed after a restart.
+        -   [**WM\_QUERYENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession) with *LPARAM* = **ENDSESSION\_CLOSEAPP**(0x1): Desktop apps must respond (TRUE) immediately in preparation for a restart. Console apps can call [**SetConsoleCtrlHandler**](https://docs.microsoft.com/windows/console/setconsolectrlhandler) to receive shutdown notification. Services can call [**RegisterServiceCtrlHandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa) to receive shutdown notifications in a handler routine.
+        -   [**WM\_ENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession) with *LPARAM* = **ENDSESSION\_CLOSEAPP**(0x1): Apps must return a 0 value within 30 seconds and shut down. At a minimum, apps should prepare by saving any user data and state the info that is needed after a restart.
     -   Console apps that receive the **CTRL\_C\_EVENT** notification should shut down immediately. Drivers must not veto a system shutdown event.
-    -   **Note:** Apps that must block shutdown because of an operation that cannot be interrupted should use [**ShutdownBlockReasonCreate**](https://msdn.microsoft.com/library/windows/desktop/aa376877) to register a string that explains the reason to the user. When the operation has completed, the app should call [**ShutdownBlockReasonDestroy**](https://msdn.microsoft.com/library/windows/desktop/aa376878) to indicate that the system can be shut down.
+    -   **Note:** Apps that must block shutdown because of an operation that cannot be interrupted should use [**ShutdownBlockReasonCreate**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate) to register a string that explains the reason to the user. When the operation has completed, the app should call [**ShutdownBlockReasonDestroy**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasondestroy) to indicate that the system can be shut down.
 
 ## Safe mode test
 
@@ -215,11 +215,11 @@ Monitors the app during certification testing to record when it crashes or hangs
     -   App failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves app stability and reliability, and overall, provides users with a better app experience. Apps that stop responding or crash can cause the user to lose data and have a poor experience.
 -   Test details
     -   We test the app resilience and stability throughout the certification testing.
-    -   The Windows App Certification Kit calls [**IApplicationActivationManager::ActivateApplication**](https://msdn.microsoft.com/library/windows/desktop/hh706903) to launch Windows Store apps. For **ActivateApplication** to launch an app, User Account Control (UAC) must be enabled and the screen resolution must be at least 1024 x 768 or 768 x 1024. If either condition is not met, your app will fail this test.
+    -   The Windows App Certification Kit calls [**IApplicationActivationManager::ActivateApplication**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationactivationmanager-activateapplication) to launch Windows Store apps. For **ActivateApplication** to launch an app, User Account Control (UAC) must be enabled and the screen resolution must be at least 1024 x 768 or 768 x 1024. If either condition is not met, your app will fail this test.
 -   Corrective Actions
     -   Make sure UAC is enabled on the test computer.
     -   Make sure you are running the test on a computer with large enough screen.
-    -   If your app fails to launch and your test platform satisfies the prerequisites of [**ActivateApplication**](https://msdn.microsoft.com/library/windows/desktop/hh706903), you can troubleshoot the problem by reviewing the activation event log. To find these entries in the event log:
+    -   If your app fails to launch and your test platform satisfies the prerequisites of [**ActivateApplication**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationactivationmanager-activateapplication), you can troubleshoot the problem by reviewing the activation event log. To find these entries in the event log:
         1.  Open eventvwr.exe and navigate to the \\Windows Logs\\Application node.
         2.  Filter the view to show Event Ids: 5900-6000.
         3.  Review the log entries for info that might explain why the app didn't launch.
@@ -229,7 +229,7 @@ Monitors the app during certification testing to record when it crashes or hangs
     -   [Application Verifier]( https://go.microsoft.com/fwlink/p/?LinkId=708300)
     -   [Using Application Verifier](https://go.microsoft.com/fwlink/p/?LinkId=708301)
     -   [AppInit DLLs](https://go.microsoft.com/fwlink/p/?LinkId=708302)
-    -   [Minimize startup time (Windows Store apps using C#/VB/C++ and XAML)](https://msdn.microsoft.com/library/windows/apps/hh994639)
+    -   [Minimize startup time (Windows Store apps using C#/VB/C++ and XAML)](https://docs.microsoft.com/previous-versions/windows/apps/hh994639(v=win.10))
 
 ## Compatibility and resiliency test
 
@@ -244,7 +244,7 @@ Monitors the app during certification testing to record when it crashes or hangs
     -   Make sure that the app doesn’t rely on compatibility fixes for its functionality.
     -   Ensure your app is manifested and the compatibility section include the appropriate values
 -   Additional Information
-    -   See [AppInit DLLs](https://msdn.microsoft.com/library/windows/apps/hh994639) for more info.
+    -   See [AppInit DLLs](https://docs.microsoft.com/previous-versions/windows/apps/hh994639(v=win.10)) for more info.
 
 ## Windows Security best practices test
 
@@ -256,7 +256,7 @@ Monitors the app during certification testing to record when it crashes or hangs
         -   Security Architecture failure
         -   Possible Buffer overflow failure
         -   Crash failure
-    -   For details, refer [here](https://msdn.microsoft.com/library/windows/apps/hh920280).
+    -   For details, refer [here](https://docs.microsoft.com/previous-versions/windows/hh920280(v=win.10)).
 -   Corrective actions
     -   Troubleshoot and fix the problem identified by the tests. Rebuild and re-test the app.
 
@@ -265,7 +265,7 @@ Monitors the app during certification testing to record when it crashes or hangs
 -   Background
     -   Applications must opt-into Windows security features. Changing the default Windows security protections can put customers at increased risk.
 -   Test details
-    -   Tests the app's security by running the BinScope Binary Analyzer. For details, refer [here](https://msdn.microsoft.com/library/windows/apps/hh920280).
+    -   Tests the app's security by running the BinScope Binary Analyzer. For details, refer [here](https://docs.microsoft.com/previous-versions/windows/hh920280(v=win.10)).
 -   Corrective actions
     -   Troubleshoot and fix the problem identified by the tests. Rebuild and re-test the app.
 
@@ -284,7 +284,7 @@ It is highly recommended for the Win32 apps to be DPI aware. It is the key to ma
 -   Corrective actions
     -   The use of SetProcessDPIAware() function is discouraged. If a DLL caches DPI settings during its initialization, invoking SetProcessDPIAware() in the app may generate a race condition. Calling SetProcessDPIAware() function in a DLL is not a good practice either.
 -   Additional Information
-    -   [Writing High-DPI apps](https://msdn.microsoft.com/library/windows/desktop/dn469266)
+    -   [Writing High-DPI apps](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot))
 
  
 

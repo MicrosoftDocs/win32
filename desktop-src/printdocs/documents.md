@@ -31,7 +31,7 @@ Microsoft provides several different document technologies to support a variety 
 
     If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://msdn.microsoft.com/windows/hardware/gg487463).
 
-    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://msdn.microsoft.com/library/windows/hardware/br259130).
+    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://msdn.microsoft.com/library/windows/hardware/dn567559(v=vs.85).aspx).
 
 -   **XPS Document API**
 
@@ -39,7 +39,7 @@ Microsoft provides several different document technologies to support a variety 
 
     For more information, see the XPS Document API, and [XPS Digital Signature API](xps-digital-signatures.md).
 
-    \*The XPS Document API is also supported in Windows Vista with Service Pack 2 (SP2) with the Platform Update for Windows Vista and Windows Server 2008 with SP2 using the Platform Update for Windows Server 2008. For more information about the Platform Update for Windows Vista or the Platform Update for Windows Server 2008, see [Platform Update for Windows Vista](https://msdn.microsoft.com/library/ee663867.aspx)
+    \*The XPS Document API is also supported in Windows Vista with Service Pack 2 (SP2) with the Platform Update for Windows Vista and Windows Server 2008 with SP2 using the Platform Update for Windows Server 2008. For more information about the Platform Update for Windows Vista or the Platform Update for Windows Server 2008, see [Platform Update for Windows Vista](https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal)
 
 -   **.NET Framework**
 
@@ -81,7 +81,7 @@ This section describes the native Windows document technologies that are support
 
 The following tools are available to assist you with testing and troubleshooting of XPS document files.
 
--   [IsXPS](https://msdn.microsoft.com/library/aa348104.aspx)
+-   [IsXPS](https://docs.microsoft.com/previous-versions/aa348104(v=vs.110))
 
     Tests a file's conformity to the XML Paper Specification (XPS) and the Open Packaging Conventions (OPC) Specification.
 
@@ -100,7 +100,7 @@ The following tools are available to assist you with testing and troubleshooting
 [XPS Print API](https://msdn.microsoft.com/en-us/library/Ff728890(v=VS.85).aspx)
 </dt> <dt>
 
-[Packaging](https://msdn.microsoft.com/library/windows/desktop/dd371623)
+[Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [Printing](https://msdn.microsoft.com/en-us/library/Ff686805(v=VS.85).aspx)

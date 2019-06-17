@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Loading VDS
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](https://msdn.microsoft.com/library/windows/desktop/hh830613).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 **To load and initialize VDS**
 

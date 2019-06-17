@@ -31,7 +31,7 @@ The following screen shot shows a typical **Font** dialog box.
 
 If the user clicks the **OK** button, the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function returns **TRUE** and sets the information about the user's selection in the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure.
 
-If the user cancels the **Font** dialog box or an error occurs, [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns **FALSE** and the contents of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure are not defined. You can determine the cause of an error by using the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
+If the user cancels the **Font** dialog box or an error occurs, [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns **FALSE** and the contents of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure are not defined. You can determine the cause of an error by using the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
 
 The following topics are discussed in this section.
 
@@ -56,7 +56,7 @@ You can use the **Flags** member to enable or disable some of the **Font** dialo
 **To specify the initial values for the Font, Font Style, Size, Strikeout, and Underline dialog box controls:**
 
 1.  To specify the initial values for the Font, Font Style, Size, Strikeout, and Underline dialog box controls:
-2.  Set the **CF\_INITTOLOGFONTSTRUCT** flag in the **Flags** member, along with members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure that is pointed to by the **lpLogFont**, to specify the initial values for the font attributes.
+2.  Set the **CF\_INITTOLOGFONTSTRUCT** flag in the **Flags** member, along with members of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that is pointed to by the **lpLogFont**, to specify the initial values for the font attributes.
 3.  You can also use the **CF\_NOFACESEL**, **CF\_NOSTYLESEL**, and **CF\_NOSIZESEL** flags to prevent the **Font** dialog box from displaying initial values for the corresponding controls. This is useful when you are working with a selection of text that has more than one typeface, style, or point size. These values will also be set in **Flags** when [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) returns, if the user did not select a corresponding value.
 
 **To initialize the Font Style control to a specified style name**
@@ -64,13 +64,13 @@ You can use the **Flags** member to enable or disable some of the **Font** dialo
 -   Set the **CF\_USESTYLE** flag and use the **lpszStyle** member to specify the style name.
 
 > [!Note]  
-> To globalize your application, specify the style by using the **lfWeight** and **lfItalic** members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure that is pointed to by **lpLogFont**. The style name may change depending on the system user interface language.
+> To globalize your application, specify the style by using the **lfWeight** and **lfItalic** members of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that is pointed to by **lpLogFont**. The style name may change depending on the system user interface language.
 
  
 
 **To display the Apply button**
 
--   Set the **CF\_APPLY** flag and provide a hook procedure to process [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages for the **Apply** button. The hook procedure can send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) message to the dialog box to retrieve the address of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure that contains the current selections for the font.
+-   Set the **CF\_APPLY** flag and provide a hook procedure to process [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages for the **Apply** button. The hook procedure can send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) message to the dialog box to retrieve the address of the [**LOGFONT**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta) structure that contains the current selections for the font.
 
 **To display the Help button**
 

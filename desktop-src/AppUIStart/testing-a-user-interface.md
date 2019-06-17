@@ -48,7 +48,7 @@ Ensuring that an application is accessible to users with disabilities involves t
 
 Testing for these aspects of an application can be accomplished through an accessibility audit, which involves a manual review of the application by an accessibility expert, and a focused usability study of disabled users and assistive technology devices.
 
-Although seemingly unrelated, there is a close correlation between the programmatic access requirements of automated test frameworks and those of assistive technology devices. Supporting one has the added benefit of enabling the other. For more information on accessibility and test automation in Windows applications, see [Accessibility](https://msdn.microsoft.com/library/windows/desktop/ee663255), [Testing Tools](https://msdn.microsoft.com/library/windows/desktop/dd373661), and the [Windows Automation API](https://msdn.microsoft.com/library/windows/desktop/ff486375).
+Although seemingly unrelated, there is a close correlation between the programmatic access requirements of automated test frameworks and those of assistive technology devices. Supporting one has the added benefit of enabling the other. For more information on accessibility and test automation in Windows applications, see [Accessibility](https://docs.microsoft.com/windows/desktop/accessibility), [Testing Tools](https://docs.microsoft.com/windows/desktop/WinAuto/testing-tools), and the [Windows Automation API](https://docs.microsoft.com/windows/desktop/WinAuto/windows-automation-api-portal).
 
  
 

@@ -36,7 +36,7 @@ To create a device that supports the debug layer, you must install the DirectX S
  
 
 > [!Note]  
-> For info about how to debug DirectX apps remotely, see [Debugging DirectX apps remotely](https://msdn.microsoft.com/library/windows/desktop/hh832045).
+> For info about how to debug DirectX apps remotely, see [Debugging DirectX apps remotely](https://docs.microsoft.com/windows/desktop/direct3dtools/debugging-directx-apps-remotely).
 
  
 

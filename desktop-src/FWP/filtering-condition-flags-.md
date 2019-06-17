@@ -273,7 +273,7 @@ Filtering layer:
 
 
 
-Tests if the name of the peer machine that the application is expecting to connect to has been received via an API such as [**WSASetSocketPeerTargetName**](https://msdn.microsoft.com/library/windows/desktop/bb394822) and not obtained via the caching heuristics.
+Tests if the name of the peer machine that the application is expecting to connect to has been received via an API such as [**WSASetSocketPeerTargetName**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) and not obtained via the caching heuristics.
 
 > [!Note]  
 > Available only on Windows Server 2008 R2, Windows 7, and later.

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # TB\_GETOBJECT message
 
-Retrieves the [**IDropTarget**](https://msdn.microsoft.com/library/windows/desktop/ms679679) for a toolbar control.
+Retrieves the [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) for a toolbar control.
 
 ## Parameters
 
@@ -44,7 +44,7 @@ Returns an **HRESULT** value indicating success or failure of the operation.
 
 ## Remarks
 
-The toolbar's [**IDropTarget**](https://msdn.microsoft.com/library/windows/desktop/ms679679) is used by the toolbar when objects are dragged over or dropped onto it.
+The toolbar's [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) is used by the toolbar when objects are dragged over or dropped onto it.
 
 ## Requirements
 

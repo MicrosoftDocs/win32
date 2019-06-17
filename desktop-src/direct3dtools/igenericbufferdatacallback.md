@@ -26,7 +26,7 @@ Callback to return the contents of an object in XML form.
 
 ## Members
 
-The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IGenericBufferDataCallback** also has these types of members:
+The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](ht
 
 The **IGenericBufferDataCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422683"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of generic buffer information returned by the assocaited request.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/igenericbufferdatacallback-resultcallback-dword-byte-arr-bstr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of generic buffer information returned by the assocaited request.</p></td></tr></tbody></table>
 
  
 

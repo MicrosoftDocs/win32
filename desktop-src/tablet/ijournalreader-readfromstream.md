@@ -43,14 +43,14 @@ HRESULT ReadFromStream(
 *pJournalFileStream* \[in\]
 </dt> <dd>
 
-An [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) object representing the Journal file to read.
+An [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) object representing the Journal file to read.
 
 </dd> <dt>
 
 *ppXmlStream* \[out, retval\]
 </dt> <dd>
 
-A pointer to the address of an [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) object that will receive the XML stream created by reading the Journal file.
+A pointer to the address of an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) object that will receive the XML stream created by reading the Journal file.
 
 </dd> </dl>
 

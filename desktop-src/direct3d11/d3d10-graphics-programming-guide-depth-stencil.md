@@ -206,7 +206,7 @@ An example of reading the depth-stencil buffer as a texture can be found in the 
 [Output-Merger Stage](d3d10-graphics-programming-guide-output-merger-stage.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://msdn.microsoft.com/library/windows/desktop/bb205123)
+[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  

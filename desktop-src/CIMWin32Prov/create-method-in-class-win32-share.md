@@ -18,9 +18,9 @@ api_location:
 
 # Create method of the Win32\_Share class
 
-The **Create**   [WMI class](https://msdn.microsoft.com/library/aa393244) method initiates sharing for a server resource.
+The **Create**   [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method initiates sharing for a server resource.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -150,13 +150,13 @@ Password (when the server is running with share-level security) for the shared r
 *Access* \[in, optional\]
 </dt> <dd>
 
-Security descriptor for user level permissions. A security descriptor contains information about the permissions, owner, and access capabilities of the resource. If this parameter is not supplied or is **NULL**, then Everyone has read access to the share. For more information, see [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) and [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905).
+Security descriptor for user level permissions. A security descriptor contains information about the permissions, owner, and access capabilities of the resource. If this parameter is not supplied or is **NULL**, then Everyone has read access to the share. For more information, see [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) and [Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).
 
 </dd> </dl>
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -319,7 +319,7 @@ catch (SystemException e)
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Share**](win32-share.md)

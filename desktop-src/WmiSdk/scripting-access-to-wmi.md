@@ -13,7 +13,7 @@ Scripts can access all WMI classes for hardware and software objects. Windows Sc
 
 If you are new to scripting or to WMI-specific scripting, see the TechNet ScriptCenter section [Getting Started](https://go.microsoft.com/fwlink/p/?linkid=84432).
 
-With the [Scripting API for WMI](scripting-api-for-wmi.md), you can develop quick, simple scripts or complex applications. Scripting gives you the same capability of getting information or of configuring most objects in an enterprise as you would have through a C++ or C# application. For more information, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
+With the [Scripting API for WMI](scripting-api-for-wmi.md), you can develop quick, simple scripts or complex applications. Scripting gives you the same capability of getting information or of configuring most objects in an enterprise as you would have through a C++ or C# application. For more information, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 You cannot write a [*WMI provider*](gloss-p.md) in script. For more information, see [Providing Data to WMI](providing-data-to-wmi.md).
 

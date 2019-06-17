@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Monitoring Performance with the Performance Monitoring Provider
 
-Data from performance libraries is available as WMI [Performance Counter Classes](https://msdn.microsoft.com/library/aa392738) through the [WMIPerfClass Provider](wmiperfclass-provider.md) and [WMIPerfInst Provider](wmiperfinst-provider.md).
+Data from performance libraries is available as WMI [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes) through the [WMIPerfClass Provider](wmiperfclass-provider.md) and [WMIPerfInst Provider](wmiperfinst-provider.md).
 
  
 

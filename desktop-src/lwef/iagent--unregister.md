@@ -16,7 +16,7 @@ HRESULT Unregister(
 );
 ```
 
-Unloads the character data for the specified character from the [**Characters**](https://msdn.microsoft.com/library/windows/desktop/ms696372) collection.
+Unloads the character data for the specified character from the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 

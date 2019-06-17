@@ -13,9 +13,9 @@ api_location:
 
 # HLSL
 
-HLSL is the High Level Shading Language for DirectX. Using HLSL, you can create C like programmable shaders for the Direct3D [pipeline](https://msdn.microsoft.com/library/windows/desktop/ff476882).
+HLSL is the High Level Shading Language for DirectX. Using HLSL, you can create C like programmable shaders for the Direct3D [pipeline](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-graphics-pipeline).
 
-HLSL was created, starting with DirectX 9, to set up the programmable 3D [pipeline](https://msdn.microsoft.com/library/windows/desktop/ff476882). You can program the entire pipeline with HLSL instructions.
+HLSL was created, starting with DirectX 9, to set up the programmable 3D [pipeline](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-graphics-pipeline). You can program the entire pipeline with HLSL instructions.
 
 ## In This Section
 

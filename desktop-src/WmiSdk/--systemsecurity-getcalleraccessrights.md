@@ -186,10 +186,10 @@ This method is not supported on supported versions of Windows.
 [WMI Security Constants](wmi-security-constants.md)
 </dt> <dt>
 
-[**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063)
+[**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402)
+[**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [Securing WMI Namespaces](securing-wmi-namespaces.md)

@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # ByteColumnValue class
 
-A [Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y) column value.
+A [Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN)\>  
       Microsoft.Isam.Esent.Interop.ByteColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

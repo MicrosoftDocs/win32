@@ -34,7 +34,7 @@ Index of the list-view item.
 *lParam* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that receives the bounding rectangle. When the message is sent, the **left** member of this structure is used to specify the portion of the list-view item from which to retrieve the bounding rectangle. It must be set to one of the following values:
+Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle. When the message is sent, the **left** member of this structure is used to specify the portion of the list-view item from which to retrieve the bounding rectangle. It must be set to one of the following values:
 
 
 

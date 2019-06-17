@@ -53,7 +53,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("Seconds"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIB.IETF\|BRIDGE-MIB.dot1dTpAgingTime")
+Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Seconds"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIB.IETF\|BRIDGE-MIB.dot1dTpAgingTime")
 </dt> </dl>
 
 The timeout period, in seconds, for aging out dynamically learned forwarding information. The 802.1D-1990 standard recommends a default of 300 seconds.

@@ -32,7 +32,7 @@ Gets the width of the bitmap margin for a header control. You can send this mess
 
 ## Return value
 
-Returns the width of the bitmap margin in pixels. If the bitmap margin was not previously specified, the default value of 3\* [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) (SM\_CXEDGE) is returned.
+Returns the width of the bitmap margin in pixels. If the bitmap margin was not previously specified, the default value of 3\* [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) (SM\_CXEDGE) is returned.
 
 ## Requirements
 

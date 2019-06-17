@@ -32,7 +32,7 @@ A typical tree view.
 **To use a list view, you can flatten hierarchical information using the following techniques:**
 
 -   Remove the root node if present, because it often isn't necessary.
--   Use list view groups, tabs, [drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404), or [expandable headings](glossary.md) to replace the top-level containers.
+-   Use list view groups, tabs, [drop-down lists](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop), or [expandable headings](glossary.md) to replace the top-level containers.
 
     ![screen shot of list-view groups containing lists ](images/ctrl-tree-views-image2.png)
 

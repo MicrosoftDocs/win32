@@ -100,7 +100,7 @@ Pointer to the [**LARGEINT**](largeint.md) data.
 **lpSysTime**
 </dt> <dd>
 
-Pointer to the [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) data.
+Pointer to the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) data.
 
 </dd> <dt>
 

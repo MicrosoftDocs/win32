@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 The following enumeration types enumerate the properties and values used by server data objects.
 
--   [Listing by Category](https://msdn.microsoft.com/library/bb960677)
--   [Alphabetical Listing](https://msdn.microsoft.com/library/bb960608)
+-   [Listing by Category](https://docs.microsoft.com/windows/desktop/Nps/sdo-listing-by-category)
+-   [Alphabetical Listing](https://docs.microsoft.com/windows/desktop/Nps/sdo-alphabetical-listing)
 
  
 

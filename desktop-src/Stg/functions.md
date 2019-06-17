@@ -50,7 +50,7 @@ Functions are routines or subroutines that return a specific value or values. St
 -   [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)
 -   [**StgOpenStorageOnILockBytes**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes)
 -   [**StgPropertyLengthAsVariant**](/windows/desktop/api/Propapi/nf-propapi-stgpropertylengthasvariant)
--   [**StgSerializePropVariant**](https://msdn.microsoft.com/library/windows/desktop/aa380346)
+-   [**StgSerializePropVariant**](https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant)
 -   [**StgSetTimes**](/windows/desktop/api/coml2api/nf-coml2api-stgsettimes)
 -   [**WriteClassStg**](/windows/desktop/api/coml2api/nf-coml2api-writeclassstg)
 -   [**WriteClassStm**](/windows/desktop/api/coml2api/nf-coml2api-writeclassstm)

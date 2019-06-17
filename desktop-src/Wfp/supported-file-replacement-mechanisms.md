@@ -25,7 +25,7 @@ For well-known installers attempting to replace WRP-protected resources, the acc
 -   The access denied error is caused only by the attempt to modify a WRP-protected resource.
 -   An Administrator is installing the application.
 
-For information about using the Windows Installer with WRP, see [Using Windows Installer and Windows Resource Protection](https://msdn.microsoft.com/library/windows/desktop/aa372868) in the [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688) SDK.
+For information about using the Windows Installer with WRP, see [Using Windows Installer and Windows Resource Protection](https://docs.microsoft.com/windows/desktop/Msi/windows-resource-protection-on-windows-vista) in the [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal) SDK.
 
 **Windows Server 2003 and Windows XP:** Replacement of WFP-protected system files is supported only through the following mechanisms:
 

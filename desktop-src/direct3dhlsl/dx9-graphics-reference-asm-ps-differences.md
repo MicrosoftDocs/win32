@@ -70,7 +70,7 @@ New registers:
 
 ## ps\_2\_x Features
 
-New features (See [**D3DPSHADERCAPS2\_0**](https://msdn.microsoft.com/library/windows/desktop/bb172591).):
+New features (See [**D3DPSHADERCAPS2\_0**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0).):
 
 -   Dynamic flow control
 -   Static flow control

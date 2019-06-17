@@ -59,7 +59,7 @@ For samples that use the WER functions, see [Windows Error Reporting (WER) Code 
 
 ## Automatically recovering data and restarting a faulted application
 
-An application can use Application Recovery and Restart to save data and state information before the application exits due to an unhandled exception or when the application stops responding. The application is also restarted, if requested. For details, see [Application Recovery and Restart](https://msdn.microsoft.com/library/windows/desktop/cc948909).
+An application can use Application Recovery and Restart to save data and state information before the application exits due to an unhandled exception or when the application stops responding. The application is also restarted, if requested. For details, see [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal).
 
 ## Legacy API
 

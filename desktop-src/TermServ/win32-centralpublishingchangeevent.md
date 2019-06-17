@@ -97,7 +97,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/library/aa394634). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/library/aa394576).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-constants).
 
 </dd> <dt>
 
@@ -123,9 +123,9 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/library/aa394634).
+Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 

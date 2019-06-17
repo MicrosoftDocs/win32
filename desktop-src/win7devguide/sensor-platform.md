@@ -18,7 +18,7 @@ The *Sensor* and *Location*APIs provide a standard way to discover sensors, and 
 
 The *Sensor* control panel lets users enable or disable sensors, control access to sensors that might expose sensitive data, view sensor properties, and change the descriptions of sensors.
 
-The [Sensor Class Extension](https://msdn.microsoft.com/library/windows/hardware/ff545398) is a core part of the driver development model for the Sensor Platform. It provides the following mechanisms, which are used when writing a [User-Mode Driver Framework (UMDF)](https://msdn.microsoft.com/library/windows/hardware/ff557565) sensor driver:
+The [Sensor Class Extension](https://docs.microsoft.com/windows-hardware/drivers/sensors/about-the-sensor-class-extension) is a core part of the driver development model for the Sensor Platform. It provides the following mechanisms, which are used when writing a [User-Mode Driver Framework (UMDF)](https://developer.microsoft.com/windows/hardware) sensor driver:
 
 -   Integration with the Sensor Platform
 -   Security enforcement

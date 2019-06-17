@@ -2,6 +2,7 @@
 title: Read back data via a buffer
 description: To read back data from the GPU (for example, to capture a screen shot), you use a readback heap.
 ms.assetid: 2F515B2C-3317-4AA8-81E1-7762ED895F77
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/17/2018
 ---
@@ -10,9 +11,9 @@ ms.date: 12/17/2018
 
 To read back data from the GPU (for example, to capture a screen shot), you use a readback heap. This technique is related to [Uploading texture data via a buffer](upload-and-readback-of-texture-data.md), with a few differences.
 
-- To read back data, you create a heap with the **D3D12_HEAP_TYPE** set to [D3D12_HEAP_TYPE_READBACK](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type), instead of D3D12_HEAP_TYPE_UPLOAD.
-- You use a fence to detect when the GPU completes processing a frame (when it is done writing data into your output buffer). This is important, because the [**ID3D12Resource::Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map) method doesn't synchronize with the GPU (conversely, the Direct3D 11 equivalent *does* synchronize). Direct3D 12 **Map** calls behave as if you called the Direct3D 11 equivalent with the NO_OVERWRITE flag.
-- After the data is ready (including any necessary resource barrier), call [**ID3D12Resource::Map**](/windows/desktop/api/D3D12/nf-d3d12-id3d12resource-map) to make the readback data visible to the CPU.
+- To read back data, you create a heap with the **D3D12_HEAP_TYPE** set to [D3D12_HEAP_TYPE_READBACK](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type), instead of D3D12_HEAP_TYPE_UPLOAD.
+- You use a fence to detect when the GPU completes processing a frame (when it is done writing data into your output buffer). This is important, because the [**ID3D12Resource::Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map) method doesn't synchronize with the GPU (conversely, the Direct3D 11 equivalent *does* synchronize). Direct3D 12 **Map** calls behave as if you called the Direct3D 11 equivalent with the NO_OVERWRITE flag.
+- After the data is ready (including any necessary resource barrier), call [**ID3D12Resource::Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map) to make the readback data visible to the CPU.
 
 ## Code example
 

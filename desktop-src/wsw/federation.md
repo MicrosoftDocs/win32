@@ -53,7 +53,7 @@ To illustrate the use of dynamic MEX with federation, consider the 3 STS example
 Thus, the dynamic MEX steps take place in the order 4, 3, 2, 1 to build up the federation chain and the token request and presentation steps take place in the order 1, 2, 3, 4 to unwind the federation chain.
 
 > [!Note]  
-> Windows 7 and Windows Server 2008 R2: WWSAPI only supports [Ws-Trust](https://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) and [Ws-SecureConversation](https://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) as defined by [Lightweight Web Services Security Profile (LWSSP)](https://msdn.microsoft.com/library/dd357239(PROT.10).aspx). For details regarding Microsoft's implementation please see the [MESSAGE Syntax](https://msdn.microsoft.com/library/dd341306.aspx) section of LWSSP.
+> Windows 7 and Windows Server 2008 R2: WWSAPI only supports [Ws-Trust](https://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) and [Ws-SecureConversation](https://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) as defined by [Lightweight Web Services Security Profile (LWSSP)](https://msdn.microsoft.com/library/dd357239(PROT.10).aspx). For details regarding Microsoft's implementation please see the [MESSAGE Syntax](https://docs.microsoft.com/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) section of LWSSP.
 
  
 

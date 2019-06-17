@@ -26,7 +26,7 @@ Interface for remote communicating data about a vsglog.
 
 ## Members
 
-The **IPeerToPeerEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPeerToPeerEngine** also has these types of members:
+The **IPeerToPeerEngine** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPeerToPeerEngine** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IPeerToPeerEngine** interface inherits from the [**IUnknown**](https://msd
 
 The **IPeerToPeerEngine** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432713"><strong>CancelSetPlaybackEndpoint</strong></a></td><td style="text-align: left;"><p>Cancels a previous request to set up a remote connection.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432714"><strong>GetPlaybackEndpoint</strong></a></td><td style="text-align: left;"><p>Gets the endpoint address of a remote engine.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432715"><strong>SetPlaybackEndpoint</strong></a></td><td style="text-align: left;"><p>Sets the endpoint address used to connect to a remote engine.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipeertopeerengine-cancelsetplaybackendpoint"><strong>CancelSetPlaybackEndpoint</strong></a></td><td style="text-align: left;"><p>Cancels a previous request to set up a remote connection.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipeertopeerengine-getplaybackendpoint-bool-bstr-ptr-bstr-ptr-remotingversion-ptr"><strong>GetPlaybackEndpoint</strong></a></td><td style="text-align: left;"><p>Gets the endpoint address of a remote engine.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipeertopeerengine-setplaybackendpoint-bool-bstr-bstr-remotingversion"><strong>SetPlaybackEndpoint</strong></a></td><td style="text-align: left;"><p>Sets the endpoint address used to connect to a remote engine.</p></td></tr></tbody></table>
 
  
 

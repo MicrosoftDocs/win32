@@ -17,7 +17,7 @@ These rules have been enhanced with the following features:
 -   Support for [automatic propagation of inheritable ACEs](automatic-propagation-of-inheritable-aces.md).
 -   A flag that differentiates between inherited ACEs and ACEs that were directly applied to an object.
 -   Object-specific ACEs that allow you to specify the type of child object that can inherit the ACE.
--   The ability to prevent a DACL or SACL from inheriting ACEs by setting the SE\_DACL\_PROTECTED or SE\_SACL\_PROTECTED bits in the [*security descriptor's*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) control bits except for SYSTEM\_RESOURCE\_ATTRIBUTE\_ACE and SYSTEM\_SCOPED\_POLICY\_ID\_ACE.
+-   The ability to prevent a DACL or SACL from inheriting ACEs by setting the SE\_DACL\_PROTECTED or SE\_SACL\_PROTECTED bits in the [*security descriptor's*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) control bits except for SYSTEM\_RESOURCE\_ATTRIBUTE\_ACE and SYSTEM\_SCOPED\_POLICY\_ID\_ACE.
 
  
 

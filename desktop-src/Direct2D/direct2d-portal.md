@@ -54,8 +54,8 @@ Direct2D is designed primarily for use by the following classes of developers:
 
 ## Additional resources
 
--   [**DirectX Graphics and Gaming**](https://msdn.microsoft.com/library/windows/desktop/ee663274)
--   [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038)
+-   [**DirectX Graphics and Gaming**](https://docs.microsoft.com/windows/desktop/directx)
+-   [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal)
 
  
 

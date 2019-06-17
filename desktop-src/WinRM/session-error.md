@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Session.Error property
 
-Gets additional error information in an XML stream. Error information can also be obtained from the VBScript [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object.
+Gets additional error information in an XML stream. Error information can also be obtained from the VBScript [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object.
 
 This property is read-only.
 

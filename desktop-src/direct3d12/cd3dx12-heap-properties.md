@@ -12,13 +12,14 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.localizationpriority: low
 ms.topic: structure
 ms.date: 05/31/2018
 ---
 
 # CD3DX12\_HEAP\_PROPERTIES structure
 
-A helper structure to enable easy initialization of a [**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_properties) structure.
+A helper structure to enable easy initialization of a [**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties) structure.
 
 ## Syntax
 
@@ -51,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_HEAP\_PROPERTIES.
 **explicit CD3DX12\_HEAP\_PROPERTIES(const D3D12\_HEAP\_PROPERTIES &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initialized with the contents of another [**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_properties) structure.
+Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initialized with the contents of another [**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties) structure.
 
 </dd> <dt>
 
@@ -60,9 +61,9 @@ Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initialized with the cont
 
 Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initializing the following parameters:
 
-[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_cpu_page_property) cpuPageProperty
+[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_cpu_page_property) cpuPageProperty
 
-[**D3D12\_MEMORY\_POOL**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_memory_pool) memoryPoolPreference
+[**D3D12\_MEMORY\_POOL**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_memory_pool) memoryPoolPreference
 
 (opt) UINT creationNodeMask = 1
 
@@ -75,7 +76,7 @@ Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initializing the followin
 
 Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initializing the following parameters:
 
-[**D3D12\_HEAP\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type) type
+[**D3D12\_HEAP\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type) type
 
 (opt) UINT creationNodeMask = 1
 
@@ -118,7 +119,7 @@ Tests for inequality between the specified D3D12\_HEAP\_PROPERTIES instances. Im
 
 <dl> <dt>
 
-[**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_heap_properties)
+[**D3D12\_HEAP\_PROPERTIES**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)

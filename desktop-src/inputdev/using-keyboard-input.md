@@ -102,9 +102,9 @@ The following example shows the window procedure framework that a typical applic
 
 ## Translating Character Messages
 
-Any thread that receives character input from the user must include the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function in its message loop. This function examines the virtual-key code of a keystroke message and, if the code corresponds to a character, places a character message into the message queue. The character message is removed and dispatched on the next iteration of the message loop; the *wParam* parameter of the message contains the character code.
+Any thread that receives character input from the user must include the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function in its message loop. This function examines the virtual-key code of a keystroke message and, if the code corresponds to a character, places a character message into the message queue. The character message is removed and dispatched on the next iteration of the message loop; the *wParam* parameter of the message contains the character code.
 
-In general, a thread's message loop should use the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function to translate every message, not just virtual-key messages. Although **TranslateMessage** has no effect on other types of messages, it guarantees that keyboard input is translated correctly. The following example shows how to include the **TranslateMessage** function in a typical thread message loop.
+In general, a thread's message loop should use the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function to translate every message, not just virtual-key messages. Although **TranslateMessage** has no effect on other types of messages, it guarantees that keyboard input is translated correctly. The following example shows how to include the **TranslateMessage** function in a typical thread message loop.
 
 
 ```
@@ -132,7 +132,7 @@ while (( bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0)
 
 ## Processing Character Messages
 
-A window procedure receives a character message when the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function translates a virtual-key code corresponding to a character key. The character messages are [**WM\_CHAR**](wm-char.md), [**WM\_DEADCHAR**](wm-deadchar.md), [**WM\_SYSCHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646357), and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md). A typical window procedure ignores all character messages except **WM\_CHAR**. The **TranslateMessage** function generates a **WM\_CHAR** message when the user presses any of the following keys:
+A window procedure receives a character message when the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function translates a virtual-key code corresponding to a character key. The character messages are [**WM\_CHAR**](wm-char.md), [**WM\_DEADCHAR**](wm-deadchar.md), [**WM\_SYSCHAR**](https://docs.microsoft.com/windows/desktop/menurc/wm-syschar), and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md). A typical window procedure ignores all character messages except **WM\_CHAR**. The **TranslateMessage** function generates a **WM\_CHAR** message when the user presses any of the following keys:
 
 -   Any character key
 -   BACKSPACE
@@ -192,13 +192,13 @@ The following example shows the window procedure framework that a typical applic
 
 ## Using the Caret
 
-A window that receives keyboard input typically displays the characters the user types in the window's client area. A window should use a caret to indicate the position in the client area where the next character will appear. The window should also create and display the caret when it receives the keyboard focus, and hide and destroy the caret when it loses the focus. A window can perform these operations in the processing of the [**WM\_SETFOCUS**](wm-setfocus.md) and [**WM\_KILLFOCUS**](wm-killfocus.md) messages. For more information about carets, see [Carets](https://msdn.microsoft.com/library/windows/desktop/ms646968).
+A window that receives keyboard input typically displays the characters the user types in the window's client area. A window should use a caret to indicate the position in the client area where the next character will appear. The window should also create and display the caret when it receives the keyboard focus, and hide and destroy the caret when it loses the focus. A window can perform these operations in the processing of the [**WM\_SETFOCUS**](wm-setfocus.md) and [**WM\_KILLFOCUS**](wm-killfocus.md) messages. For more information about carets, see [Carets](https://docs.microsoft.com/windows/desktop/menurc/carets).
 
 ## Displaying Keyboard Input
 
 The example in this section shows how an application can receive characters from the keyboard, display them in the client area of a window, and update the position of the caret with each character typed. It also demonstrates how to move the caret in response to the LEFT ARROW, RIGHT ARROW, HOME, and END keystrokes, and shows how to highlight selected text in response to the SHIFT+RIGHT ARROW key combination.
 
-During processing of the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message, the window procedure shown in the example allocates a 64K buffer for storing keyboard input. It also retrieves the metrics of the currently loaded font, saving the height and average width of characters in the font. The height and width are used in processing the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message to calculate the line length and maximum number of lines, based on the size of the client area.
+During processing of the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message, the window procedure shown in the example allocates a 64K buffer for storing keyboard input. It also retrieves the metrics of the currently loaded font, saving the height and average width of characters in the font. The height and width are used in processing the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message to calculate the line length and maximum number of lines, based on the size of the client area.
 
 The window procedure creates and displays the caret when processing the [**WM\_SETFOCUS**](wm-setfocus.md) message. It hides and deletes the caret when processing the [**WM\_KILLFOCUS**](wm-killfocus.md) message.
 

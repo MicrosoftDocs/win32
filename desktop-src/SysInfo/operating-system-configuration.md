@@ -16,7 +16,7 @@ The [**GetUserName**](/windows/desktop/api/Winbase/nf-winbase-getusernamea) func
 
 An *environment variable* is a symbolic variable that represents some element of the system, such as a path, a file name, or other literal data. For example, the environment variable PATH represents the directories in which to search for executable files. When a user logs on, the system initializes environment variables based on the environment section of the registry. The [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/en-us/library/ms724265(v=VS.85).aspx) function retrieves the values of specified environment variables.
 
-Additional information is provided by the [**IADsADSystemInfo**](https://msdn.microsoft.com/library/aa705962) interface.
+Additional information is provided by the [**IADsADSystemInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsadsysteminfo) interface.
 
  
 

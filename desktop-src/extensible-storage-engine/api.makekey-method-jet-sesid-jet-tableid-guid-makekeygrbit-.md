@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Guid](https://msdn.microsoft.com/en-us/library/cey1zx63)  
+    Type: [System.Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN)  
     
     Column data for the current key column of the current index.
 

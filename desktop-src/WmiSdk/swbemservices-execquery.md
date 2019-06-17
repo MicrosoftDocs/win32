@@ -144,7 +144,7 @@ If no error occurs, this method returns an [**SWbemObjectSet**](swbemobjectset.m
 
 ## Error codes
 
-After the completion of the **ExecQuery** method, the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object can contain one of the error codes in the following list.
+After the completion of the **ExecQuery** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
 
 <dl> <dt>
 

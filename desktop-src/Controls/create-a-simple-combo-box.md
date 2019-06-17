@@ -30,7 +30,7 @@ This topic describes how to create, add items to, and retrieve items from a simp
 
 ### Step 1: Create an instance of the combo box.
 
-The example application calls the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function to create a child window of the application window. The [**WC\_COMBOBOX**](common-control-window-classes.md) window style specifies that it is a combo box.
+The example application calls the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a child window of the application window. The [**WC\_COMBOBOX**](common-control-window-classes.md) window style specifies that it is a combo box.
 
 
 ```C++
@@ -92,7 +92,7 @@ SendMessage(hWndComboBox, CB_SETCURSEL, (WPARAM)2, (LPARAM)0);
 
 ### Step 3: Detect when the user selects an item and retrieve it from the combo box.
 
-When the user makes a selection from the list, the combo box sends a [CBN\_SELCHANGE](cbn-selchange.md) notification to the parent window via a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. The application retrieves the handle to the combo box from the *lParam* field of the notification message and sends a [**CB\_GETCURSEL**](cb-getcursel.md) message to the combo box to retrieve the index of the selected list item. After obtaining the item index, the application sends a [**CB\_GETLBTEXT**](cb-getlbtext.md) message to get the item. It then displays the item in a message box.
+When the user makes a selection from the list, the combo box sends a [CBN\_SELCHANGE](cbn-selchange.md) notification to the parent window via a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. The application retrieves the handle to the combo box from the *lParam* field of the notification message and sends a [**CB\_GETCURSEL**](cb-getcursel.md) message to the combo box to retrieve the index of the selected list item. After obtaining the item index, the application sends a [**CB\_GETLBTEXT**](cb-getlbtext.md) message to get the item. It then displays the item in a message box.
 
 > [!Note]  
 > The [CBN\_SELCHANGE](cbn-selchange.md) notification is sent and processed before the item is placed in the combo box selection field. As result, in this example, the selected item won't appear in selection field until after the message box is closed.

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SACL Access Right
 
-The ACCESS\_SYSTEM\_SECURITY access right controls the ability to get or set the SACL in an object's [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly). The system grants this access right only if the SE\_SECURITY\_NAME privilege is enabled in the [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) of the requesting thread.
+The ACCESS\_SYSTEM\_SECURITY access right controls the ability to get or set the SACL in an object's [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). The system grants this access right only if the SE\_SECURITY\_NAME privilege is enabled in the [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) of the requesting thread.
 
 **To access an object's SACL**
 

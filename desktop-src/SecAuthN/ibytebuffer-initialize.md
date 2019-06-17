@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Initialize method
 
-\[The **Initialize** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Initialize** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Initialize** method prepares the [**IByteBuffer**](ibytebuffer.md) object for use. This method must be called prior to calling any other methods in the **IByteBuffer** interface.
 

@@ -48,7 +48,7 @@ HRESULT Next(
 *ppElement* \[out\]
 </dt> <dd>
 
-\[out\] Pointer to an array of [TF\_RENDERINGMARKUP](https://msdn.microsoft.com/library/windows/desktop/aa966913) structures. This array must be at least *ulCount* elements in size.
+\[out\] Pointer to an array of [TF\_RENDERINGMARKUP](https://docs.microsoft.com/windows/desktop/TSF/tf-renderingmarkup) structures. This array must be at least *ulCount* elements in size.
 
 </dd> <dt>
 

@@ -41,7 +41,7 @@ SECURITY_STATUS WINAPI SslCreateHandshakeHash(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-sockets-layer-protocol-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 

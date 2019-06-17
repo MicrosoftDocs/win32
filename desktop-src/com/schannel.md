@@ -48,9 +48,9 @@ Key pairs are also used to verify the integrity of the data being sent. To do th
 
 One disadvantage of using a PKI for high-volume data encryption is its relatively slow performance. Because of the intensive mathematics involved, encryption and decryption of data using an asymmetric cipher that depends on a key pair can be up to 1,000 times slower than encryption and decryption using a symmetric cipher that depends only on a single key. TLS therefore uses a PKI only for generating digital signatures and for negotiating the session-specific single key that will be used by both the client and the server for bulk data encryption and decryption. TLS supports a wide variety of single-key symmetric ciphers, and additional ciphers may be added in the future.
 
-For more information about the TLS handshake protocol, see [TLS Handshake Protocol](https://msdn.microsoft.com/library/windows/desktop/aa380513).
+For more information about the TLS handshake protocol, see [TLS Handshake Protocol](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-handshake-protocol).
 
-For more details regarding the cryptography behind the TLS protocol, see [Cryptography Essentials](https://msdn.microsoft.com/library/windows/desktop/aa380251).
+For more details regarding the cryptography behind the TLS protocol, see [Cryptography Essentials](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-essentials).
 
 ## X.509 Certificates
 
@@ -82,12 +82,12 @@ If a server wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHA
 
 To use TLS, the following parameters should be specified when a server calls [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity):
 
--   *pVoid* should be either a pointer to an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object or a pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561). It should not be **NULL** or a pointer to an AppID.
+-   *pVoid* should be either a pointer to an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object or a pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor). It should not be **NULL** or a pointer to an AppID.
 -   *cAuthSvc* cannot be 0 or -1. COM servers never chooses Schannel when *cAuthSvc*is -1.
 -   *asAuthSvc* must specify Schannel as a possible authentication service. This is done by setting the following [**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/en-us/library/ms686648(v=VS.85).aspx) parameters for the Schannel member of the [**SOLE\_AUTHENTICATION\_LIST**](https://msdn.microsoft.com/en-us/library/ms680039(v=VS.85).aspx):
     -   *dwAuthnSvc* must be RPC\_C\_AUTHN\_GSS\_SCHANNEL.
     -   *dwAuthzSvc* should be RPC\_C\_AUTHZ\_NONE. Currently, it is ignored.
-    -   *pPrincipalName* must be a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to OLECHAR, which represents the server's X.509 certificate.
+    -   *pPrincipalName* must be a pointer to a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context), cast as a pointer to OLECHAR, which represents the server's X.509 certificate.
 -   *dwAuthnLevel* indicates the minimum authentication level that will be accepted from clients for a successful connection. It cannot be RPC\_C\_AUTHN\_LEVEL\_NONE.
 -   *dwCapabilities* should not have the EOAC\_APPID flag set. The EOAC\_ACCESS\_CONTROL flag should be set if *pVoid* points to an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object; it should not be set if *pVoid* points to a SECURITY\_DESCRIPTOR. For other flags that may be set, see [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity).
 
@@ -104,7 +104,7 @@ The following parameters should be specified when a client calls [**CoInitialize
 -   *pAuthList* must have the following [**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/en-us/library/ms680049(v=VS.85).aspx) parameters as a member of the list:
     -   *dwAuthnSvc* must be RPC\_C\_AUTHN\_GSS\_SCHANNEL.
     -   *dwAuthzSvc* must be RPC\_C\_AUTHZ\_NONE.
-    -   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to void, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
+    -   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context), cast as a pointer to void, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
 -   *dwCapabilities* is a set of flags that indicate additional client capabilities. See [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) for information about which flags should be set.
 
 For more information about using [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md).
@@ -113,8 +113,8 @@ For more information about using [**CoInitializeSecurity**](/windows/desktop/api
 
 If a client wants to use TLS but change the security blanket after calling [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), it must call either [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) or [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/en-us/library/ms691255(v=VS.85).aspx) with parameters similar to those used in the call to **CoInitializeSecurity**, with the following differences:
 
--   *pServerPrincName* indicates the principal name of the server, in either msstd or fullsic format. For information on these formats, see [Principal Names](https://msdn.microsoft.com/library/windows/desktop/aa374385). If the client has the server's X.509 certificate, it can find the principal name by calling [**RpcCertGeneratePrincipalName**](https://msdn.microsoft.com/library/windows/desktop/aa375625).
--   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to RPC\_AUTH\_IDENTITY\_HANDLE, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
+-   *pServerPrincName* indicates the principal name of the server, in either msstd or fullsic format. For information on these formats, see [Principal Names](https://docs.microsoft.com/windows/desktop/Rpc/principal-names). If the client has the server's X.509 certificate, it can find the principal name by calling [**RpcCertGeneratePrincipalName**](https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname).
+-   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context), cast as a pointer to RPC\_AUTH\_IDENTITY\_HANDLE, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
 -   *dwCapabilities* consists of flags that indicate additional client capabilities. Only four flags can be used to change security blanket settings: EOAC\_DEFAULT, EOAC\_MUTUAL\_AUTH, EOAC\_ANY\_AUTHORITY (this flag is deprecated), and EOAC\_MAKE\_FULLSIC. For more information, see [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 
 For more information about using [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), see [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).

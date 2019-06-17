@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 # Bluetooth and WSALookupServiceNext
 
-Bluetooth uses the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function to match queries specified in a previous call to [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633). The results of the **WSALookupServiceNext** function are determined by settings set forth in the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure passed in the initial **WSALookupServiceBegin** function call.
+Bluetooth uses the [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) function to match queries specified in a previous call to [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina). The results of the **WSALookupServiceNext** function are determined by settings set forth in the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw) structure passed in the initial **WSALookupServiceBegin** function call.
 
-The steps for device inquiry and service discovery in Bluetooth are sufficiently different to merit separate treatment. For more information on Bluetooth and the [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633) function for device inquiries, see [Bluetooth and WSALookupServiceBegin for Device Inquiry](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md). For more information on Bluetooth and the **WSALookupServiceBegin** function for service discovery, see [Bluetooth and WSALookupServiceBegin for Service Discovery](bluetooth-and-wsalookupservicebegin-for-service-discovery.md).
+The steps for device inquiry and service discovery in Bluetooth are sufficiently different to merit separate treatment. For more information on Bluetooth and the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function for device inquiries, see [Bluetooth and WSALookupServiceBegin for Device Inquiry](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md). For more information on Bluetooth and the **WSALookupServiceBegin** function for service discovery, see [Bluetooth and WSALookupServiceBegin for Service Discovery](bluetooth-and-wsalookupservicebegin-for-service-discovery.md).
 
 ## Related topics
 
@@ -35,22 +35,22 @@ The steps for device inquiry and service discovery in Bluetooth are sufficiently
 [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service)
 </dt> <dt>
 
-[**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625)
+[**connect**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect)
 </dt> <dt>
 
 [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth)
 </dt> <dt>
 
-[**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633)
+[**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)
 </dt> <dt>
 
-[**WSALookupServiceEnd**](https://msdn.microsoft.com/library/windows/desktop/ms741637)
+[**WSALookupServiceEnd**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)
 </dt> <dt>
 
-[**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641)
+[**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)
 </dt> <dt>
 
-[**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679)
+[**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw)
 </dt> </dl>
 
  

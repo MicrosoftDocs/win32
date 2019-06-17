@@ -87,13 +87,13 @@ public static int EscrowUpdate(
 <!-- end list -->
 
   - delta  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The delta to apply to the column.
 
 #### Return value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
 The current value of the column as stored in the database (versioning is ignored).  
 
 ## Remarks

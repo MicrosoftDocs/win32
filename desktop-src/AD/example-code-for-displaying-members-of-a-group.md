@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic includes code examples that display members of a group.
 
-The following C++ code example uses the [**IADsGroup**](https://msdn.microsoft.com/library/aa706021) and [**IADsMembers**](https://msdn.microsoft.com/library/aa706041) classes to display the members of a group.
+The following C++ code example uses the [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup) and [**IADsMembers**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers) classes to display the members of a group.
 
 
 ```C++
@@ -129,7 +129,7 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
 
 
 
-The following Visual Basic code example uses the [**IADs**](https://msdn.microsoft.com/library/aa705950) class to display the group members.
+The following Visual Basic code example uses the [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) class to display the group members.
 
 
 ```VB

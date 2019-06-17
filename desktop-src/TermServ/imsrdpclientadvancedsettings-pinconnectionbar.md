@@ -60,7 +60,7 @@ ms.date: 05/31/2018
 
 Specifies the state of the UI connection bar.
 
-This property returns **E\_NOTIMPL** if the container calls the [**IObjectSafety::SetInterfaceSafetyOptions**](https://msdn.microsoft.com/library/aa768225) method.
+This property returns **E\_NOTIMPL** if the container calls the [**IObjectSafety::SetInterfaceSafetyOptions**](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768225(v=vs.85)) method.
 
 This property is read/write.
 

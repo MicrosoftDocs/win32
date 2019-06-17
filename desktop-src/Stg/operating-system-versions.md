@@ -24,7 +24,7 @@ This **DWORD** data type should hold the operating system type in the high-order
 
  
 
-For Microsoft Windows operating systems, the operating system version is the low-order word returned by the [**GetVersion**](https://msdn.microsoft.com/library/windows/desktop/ms724439) function. For Microsoft Windows, the following example code correctly sets the version of the originating operating system.
+For Microsoft Windows operating systems, the operating system version is the low-order word returned by the [**GetVersion**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion) function. For Microsoft Windows, the following example code correctly sets the version of the originating operating system.
 
 ``` syntax
 #ifdef WIN32 

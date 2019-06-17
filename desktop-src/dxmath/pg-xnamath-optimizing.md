@@ -54,16 +54,16 @@ For example, there are an unaligned [**XMFLOAT4X4**](https://msdn.microsoft.com/
 
 ## Properly Align Allocations
 
-The aligned versions of the [SSE](https://msdn.microsoft.com/en-us/library/t467de55.aspx) intrinsics underlying the DirectXMath Library are faster than the unaligned.
+The aligned versions of the [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) intrinsics underlying the DirectXMath Library are faster than the unaligned.
 
 For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
 
 While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](https://msdn.microsoft.com/en-us/library/8z34s9c6(VS.80).aspx).
 
-When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://blogs.msdn.com/b/vcblog/archive/2008/08/28/the-mallocator.aspx) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
+When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://blogs.msdn.microsoft.com/vcblog/2008/08/28/the-mallocator/) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
 
 > [!Note]  
-> Some STL templates modify the provided type's alignment. For example, [make\_shared<>](https://msdn.microsoft.com/en-us/library/ee410595.aspx) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.
+> Some STL templates modify the provided type's alignment. For example, [make\_shared<>](https://docs.microsoft.com/cpp/standard-library/memory-functions?view=vs-2017) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.
 
  
 
@@ -75,7 +75,7 @@ As a convenience feature, a number of types such as [**XMVECTOR**](xmvector-data
 
 To support computations close to 0, the IEEE 754 float-point standard includes support for gradual underflow. Gradual underflow is implemented through the use of denormalized values, and many hardware implementations are slow when handling denormals. An optimization to consider is to disable the handling of denormals for the vector operations used by DirectXMath.
 
-Changing the handling of denormals is done by using the [\_controlfp\_s](https://msdn.microsoft.com/en-us/library/c9676k6h.aspx) routine on a pre-thread basis, and can result in performance improvements. Use this code to change the handling of denormals:
+Changing the handling of denormals is done by using the [\_controlfp\_s](https://docs.microsoft.com/cpp/c-runtime-library/reference/controlfp-s) routine on a pre-thread basis, and can result in performance improvements. Use this code to change the handling of denormals:
 
 
 ```
@@ -87,7 +87,7 @@ Changing the handling of denormals is done by using the [\_controlfp\_s](https:/
 
 
 > [!Note]  
-> On 64-bit versions of Windows, [SSE](https://msdn.microsoft.com/en-us/library/t467de55.aspx) instructions are used for all computations, not just the vector operations. Changing the denormal handling affects all floating-point computations in your program, not just the vector operations used by DirectXMath.
+> On 64-bit versions of Windows, [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) instructions are used for all computations, not just the vector operations. Changing the denormal handling affects all floating-point computations in your program, not just the vector operations used by DirectXMath.
 
  
 
@@ -115,7 +115,7 @@ When working with the IEEE 764 single precision floating-point number, it is imp
 
 ## Prefer Template Forms
 
-Template form exists for [**XMVectorSwizzle**](https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx), [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx), [**XMVectorInsert**](https://msdn.microsoft.com/en-us/library/Hh404801(v=VS.85).aspx), [**XMVectorShiftLeft**](https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx), [**XMVectorRotateLeft**](https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx), and [**XMVectorRotateRight**](https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx). Using these instead of the general function form allows the compiler to create much more efficent implementations. For [SSE](https://msdn.microsoft.com/en-us/library/t467de55.aspx), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
+Template form exists for [**XMVectorSwizzle**](https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx), [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx), [**XMVectorInsert**](https://msdn.microsoft.com/en-us/library/Hh404801(v=VS.85).aspx), [**XMVectorShiftLeft**](https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx), [**XMVectorRotateLeft**](https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx), and [**XMVectorRotateRight**](https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx). Using these instead of the general function form allows the compiler to create much more efficent implementations. For [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
 
 ## Using DirectXMath with Direct3D
 

@@ -18,9 +18,9 @@ api_location:
 
 # Reboot method of the Win32\_OperatingSystem class
 
-The **Reboot** [WMI class](https://msdn.microsoft.com/library/aa393244) method shuts down the computer system, then restarts it.
+The **Reboot** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method shuts down the computer system, then restarts it.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -188,7 +188,7 @@ else
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
@@ -197,7 +197,7 @@ else
 [**CIM\_OperatingSystem.Shutdown method**](shutdown-method-in-class-cim-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
+[WMI Tasks: Desktop Management](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
 </dt> </dl>
 
  

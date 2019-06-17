@@ -222,7 +222,7 @@ In C++, you can access these constants in the Msinkaut.h header file, which is l
  
 
 > [!Note]  
-> For recognizers of Latin script, the factoids defined in this class are provided for backward compatibility only. For new development, you are encouraged to use the values defined in the [SetInputScope](https://msdn.microsoft.com/library/windows/desktop/ms629025) function. For details, see [Using Context to Improve Accuracy](using-context-to-improve-accuracy.md).
+> For recognizers of Latin script, the factoids defined in this class are provided for backward compatibility only. For new development, you are encouraged to use the values defined in the [SetInputScope](https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope) function. For details, see [Using Context to Improve Accuracy](using-context-to-improve-accuracy.md).
 
  
 

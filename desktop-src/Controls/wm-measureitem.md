@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the owner window of a combo box, list box, list-view control, or menu item when the control or menu is created.
 
-A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [*WindowProc*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -58,7 +58,7 @@ If an application processes this message, it should return **TRUE**.
 
 When the owner window receives the **WM\_MEASUREITEM** message, the owner fills in the [**MEASUREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmeasureitemstruct) structure pointed to by the *lParam* parameter of the message and returns; this informs the system of the dimensions of the control. If a list box or combo box is created with the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md) or [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md) style, this message is sent to the owner for each item in the control; otherwise, this message is sent once.
 
-The system sends the **WM\_MEASUREITEM** message to the owner window of combo boxes and list boxes created with the OWNERDRAWFIXED style before sending the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message. As a result, when the owner receives this message, the system has not yet determined the height and width of the font used in the control; function calls and calculations requiring these values should occur in the main function of the application or library.
+The system sends the **WM\_MEASUREITEM** message to the owner window of combo boxes and list boxes created with the OWNERDRAWFIXED style before sending the [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message. As a result, when the owner receives this message, the system has not yet determined the height and width of the font used in the control; function calls and calculations requiring these values should occur in the main function of the application or library.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ The system sends the **WM\_MEASUREITEM** message to the owner window of combo bo
 **Other Resources**
 </dt> <dt>
 
-[**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428)
+[**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog)
 </dt> </dl>
 
  

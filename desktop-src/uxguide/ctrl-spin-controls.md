@@ -27,7 +27,7 @@ While spin controls are used for numeric input, the input doesn't have to be a p
 
 To decide, consider these questions:
 
--   **Is the control used for numeric input?** If not, use another control, such as a [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) or [slider](ctrl-sliders.md), to select from a fixed set of values. Use scroll bars for scrolling.
+-   **Is the control used for numeric input?** If not, use another control, such as a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) or [slider](ctrl-sliders.md), to select from a fixed set of values. Use scroll bars for scrolling.
 -   **Do users think of the value as a relative quantity, not a numeric value?** If so, use a slider instead. Use spin boxes only for exact, known numeric values. For example, users think about setting their audio volume to low or medium—not about setting the value to 2 or 5.
 -   **Is the control paired with a text box?** If not, don't use. Spin controls shouldn't be used alone or with other types of controls besides a text box.
 

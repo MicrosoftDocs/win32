@@ -20,7 +20,7 @@ api_location:
 
 The **JoinDomainOrWorkgroup** method joins a computer system to a domain or workgroup.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -295,13 +295,13 @@ When joining the domain, do not reuse an existing account.
 
 </dt> <dd>
 
-If this bit is set, unrecognized flags will be ignored by the **JoinDomainOrWorkgroup** function and [**NetJoinDomain**](https://msdn.microsoft.com/library/windows/desktop/aa370433) will behave as if the flags were not set.
+If this bit is set, unrecognized flags will be ignored by the **JoinDomainOrWorkgroup** function and [**NetJoinDomain**](https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain) will behave as if the flags were not set.
 
 </dd> </dl> </dd> </dl>
 
 ## Return value
 
-Returns a [system error code](https://msdn.microsoft.com/library/windows/desktop/ms681381), which may include one of the following numeric values. Any other number indicates an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978).
+Returns a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes), which may include one of the following numeric values. Any other number indicates an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 <dl> <dt>
 
@@ -395,9 +395,9 @@ The machine is not currently joined to a domain.
 
 When moving a computer from a domain to a workgroup, you must remove the computer from the domain (with a call to [**UnjoinDomainOrWorkgroup**](unjoindomainorworkgroup-method-in-class-win32-computersystem.md)) before calling this method to join a workgroup (with a call to **JoinDomainOrWorkgroup**). After calling this method, restart the affected computer to apply the changes.
 
-*UserName* and *Password* can be left **null**. However, the authentication of the connection to WMI must be 6 in script or **WbemAuthenticationLevelPktPrivacy** in Visual Basic and other languages that can use the [wbemdisp.dll](https://msdn.microsoft.com/library/aa393960) library. For more information, see [Setting the Default Process Security Level Using VBScript](https://msdn.microsoft.com/library/aa393618).
+*UserName* and *Password* can be left **null**. However, the authentication of the connection to WMI must be 6 in script or **WbemAuthenticationLevelPktPrivacy** in Visual Basic and other languages that can use the [wbemdisp.dll](https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library) library. For more information, see [Setting the Default Process Security Level Using VBScript](https://docs.microsoft.com/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript).
 
-In C++, set the authentication at **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** either in [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx), for the entire process, or in [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx), for a connection to the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) proxy. For more information, see [Setting Authentication Using C++](https://msdn.microsoft.com/library/aa393608) and [Setting the Security on IWbemServices and Other Proxies](https://msdn.microsoft.com/library/aa393620).
+In C++, set the authentication at **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** either in [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx), for the entire process, or in [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx), for a connection to the [**IWbemServices**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) proxy. For more information, see [Setting Authentication Using C++](https://docs.microsoft.com/windows/desktop/WmiSdk/setting-authentication-using-c-) and [Setting the Security on IWbemServices and Other Proxies](https://docs.microsoft.com/windows/desktop/WmiSdk/setting-the-security-on-iwbemservices-and-other-proxies).
 
 ## Examples
 

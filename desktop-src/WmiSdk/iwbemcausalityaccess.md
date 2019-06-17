@@ -22,7 +22,7 @@ The **IWbemCausalityAccess** interface keeps track of child requests that are ge
 
 ## Members
 
-The **IWbemCausalityAccess** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWbemCausalityAccess** also has these types of members:
+The **IWbemCausalityAccess** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWbemCausalityAccess** also has these types of members:
 
 -   [Methods](#methods)
 

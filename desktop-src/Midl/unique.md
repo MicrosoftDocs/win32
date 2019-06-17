@@ -58,7 +58,7 @@ Specifies a [base type](midl-base-types.md), [**struct**](struct.md), [**union**
 *declarator and declarator-list* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md)., and [Arrays and Pointers](https://msdn.microsoft.com/library/windows/desktop/aa373540). The *declarator-list* consists of one or more declarators separated by commas. The parameter-name identifier in the function declarator is optional.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md)., and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators separated by commas. The parameter-name identifier in the function declarator is optional.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ A unique pointer has the following characteristics:
 -   Can orphan memory on the client. Memory referenced by a non-**NULL** unique pointer may never be freed if the unique pointer changes to **NULL** during a call and the client does not have another means of dereferencing the storage.
 -   Does not cause aliasing. Like storage pointed to by a reference pointer, storage pointed to by a unique pointer cannot be reached from any other name in the function.
 
-The stubs call the user-supplied memory-management functions [**midl\_user\_allocate**](https://msdn.microsoft.com/library/windows/desktop/aa378715) and [**midl\_user\_free**](https://msdn.microsoft.com/library/windows/desktop/aa378716) to allocate and deallocate memory required for unique pointers and their referents.
+The stubs call the user-supplied memory-management functions [**midl\_user\_allocate**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function) and [**midl\_user\_free**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-free-function) to allocate and deallocate memory required for unique pointers and their referents.
 
 The following restrictions apply to unique pointers:
 
@@ -143,7 +143,7 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://msdn.microsoft.com/library/windows/desktop/aa373540)
+[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md)
@@ -188,10 +188,10 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**max\_is**](max-is.md)
 </dt> <dt>
 
-[midl\_user\_allocate](https://msdn.microsoft.com/library/windows/desktop/aa378715)
+[midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function)
 </dt> <dt>
 
-[midl\_user\_free](https://msdn.microsoft.com/library/windows/desktop/aa378716)
+[midl\_user\_free](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-free-function)
 </dt> <dt>
 
 [**out**](out-idl.md)

@@ -8,25 +8,25 @@ ms.date: 05/31/2018
 
 # Requirements for Network Management Functions on Active Directory Domain Controllers
 
-If you call one of the network management functions listed in this topic on a domain controller running Active Directory, access to a [securable object](https://msdn.microsoft.com/library/windows/desktop/aa379557) is allowed or denied based on the [access-control list](https://msdn.microsoft.com/library/windows/desktop/aa374872) (ACL) for the object. (ACLs are specified in the directory.)
+If you call one of the network management functions listed in this topic on a domain controller running Active Directory, access to a [securable object](https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects) is allowed or denied based on the [access-control list](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) (ACL) for the object. (ACLs are specified in the directory.)
 
 Different access requirements apply to information queries and information updates.
 
 ## Queries
 
-For queries, the default ACL permits all authenticated users and members of the "[Pre-Windows 2000 compatible access](https://msdn.microsoft.com/library/windows/desktop/aa375347)" group to read and enumerate information. The functions listed following are affected:
+For queries, the default ACL permits all authenticated users and members of the "[Pre-Windows 2000 compatible access](https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access)" group to read and enumerate information. The functions listed following are affected:
 
 -   [**NetGroupEnum**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupenum), [**NetGroupGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupgetinfo), [**NetGroupGetUsers**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupgetusers)
 -   [**NetLocalGroupEnum**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupenum), [**NetLocalGroupGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetinfo), [**NetLocalGroupGetMembers**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetmembers)
 -   [**NetQueryDisplayInformation**](/windows/desktop/api/Lmaccess/nf-lmaccess-netquerydisplayinformation)
--   [**NetSessionGetInfo**](https://msdn.microsoft.com/library/windows/desktop/bb525383) (levels 1 and 2 only)
--   [**NetShareEnum**](https://msdn.microsoft.com/library/windows/desktop/bb525387) (levels 2 and 502 only)
+-   [**NetSessionGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiongetinfo) (levels 1 and 2 only)
+-   [**NetShareEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareenum) (levels 2 and 502 only)
 -   [**NetUserEnum**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserenum), [**NetUserGetGroups**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetgroups), [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo), [**NetUserGetLocalGroups**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetlocalgroups), [**NetUserModalsGet**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsget)
 -   [**NetWkstaGetInfo**](/windows/desktop/api/Lmwksta/nf-lmwksta-netwkstagetinfo), [**NetWkstaUserEnum**](/windows/desktop/api/Lmwksta/nf-lmwksta-netwkstauserenum)
 
 Anonymous access to group information requires that the user Anonymous be explicitly added to the "Pre-Windows 2000 compatible access" group. This is because anonymous tokens do not include the Everyone Group SID.
 
-**Windows 2000:** By default, the "Pre-Windows 2000 compatible access" group includes Everyone as a member. This enables anonymous access (Anonymous Logon) to information if the system allows anonymous access. Administrators can remove Everyone from the "Pre-Windows 2000 Compatible Access" group at any time. Removing Everyone from the group restricts information access to authenticated users only. For more information about anonymous access, see [Security Identifiers](https://msdn.microsoft.com/library/windows/desktop/aa379571) and [Well-Known SIDs](https://msdn.microsoft.com/library/windows/desktop/aa379649).
+**Windows 2000:** By default, the "Pre-Windows 2000 compatible access" group includes Everyone as a member. This enables anonymous access (Anonymous Logon) to information if the system allows anonymous access. Administrators can remove Everyone from the "Pre-Windows 2000 Compatible Access" group at any time. Removing Everyone from the group restricts information access to authenticated users only. For more information about anonymous access, see [Security Identifiers](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers) and [Well-Known SIDs](https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids).
 
 You can override the system default by setting the following key in the registry to the value 1:
 
@@ -43,9 +43,9 @@ For updates, the default ACL permits only Domain Administrators and Account Oper
 -   [**NetMessageBufferSend**](/windows/desktop/api/Lmmsg/nf-lmmsg-netmessagebuffersend)
 -   [**NetUserAdd**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuseradd), [**NetUserChangePassword**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserchangepassword), [**NetUserDel**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserdel), [**NetUserModalsSet**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsset), [**NetUserSetGroups**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetgroups), [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo)
 
-Typically, callers must have write access to the entire object for calls to [**NetUserModalsSet**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsset), [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo), [**NetGroupSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupsetinfo) and [**NetLocalGroupSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupsetinfo) to succeed. For finer access control, you should consider using ADSI. For more information about ADSI, see [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170).
+Typically, callers must have write access to the entire object for calls to [**NetUserModalsSet**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsset), [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo), [**NetGroupSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupsetinfo) and [**NetLocalGroupSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupsetinfo) to succeed. For finer access control, you should consider using ADSI. For more information about ADSI, see [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi).
 
-For more information about controlling access to securable objects, see [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860), [Privileges](https://msdn.microsoft.com/library/windows/desktop/aa379306), and [Securable Objects](https://msdn.microsoft.com/library/windows/desktop/aa379557). For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://msdn.microsoft.com/library/windows/desktop/ms717802).
+For more information about controlling access to securable objects, see [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control), [Privileges](https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges), and [Securable Objects](https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects). For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
 
  
 

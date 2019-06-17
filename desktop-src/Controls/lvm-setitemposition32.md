@@ -34,7 +34,7 @@ Index of the list-view item for which to set the position.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](https://msdn.microsoft.com/library/windows/desktop/dd162805) structure that contains the new position of the item, in list-view coordinates.
+Pointer to a [**POINT**](https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)) structure that contains the new position of the item, in list-view coordinates.
 
 </dd> </dl>
 

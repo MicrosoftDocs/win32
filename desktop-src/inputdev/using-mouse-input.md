@@ -39,7 +39,7 @@ In addition, an application can call the [**TrackMouseEvent**](https://msdn.micr
 
 The example in this section demonstrates how to track the mouse cursor. It contains portions of a window procedure that enables the user to draw lines in a window's client area by dragging the mouse.
 
-When the window procedure receives a [**WM\_LBUTTONDOWN**](wm-lbuttondown.md) message, it captures the mouse and saves the coordinates of the cursor, using the coordinates as the starting point of the line. It also uses the [**ClipCursor**](https://msdn.microsoft.com/library/windows/desktop/ms648383) function to confine the cursor to the client area during the line drawing operation.
+When the window procedure receives a [**WM\_LBUTTONDOWN**](wm-lbuttondown.md) message, it captures the mouse and saves the coordinates of the cursor, using the coordinates as the starting point of the line. It also uses the [**ClipCursor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor) function to confine the cursor to the client area during the line drawing operation.
 
 During the first [**WM\_MOUSEMOVE**](wm-mousemove.md) message, the window procedure draws a line from the starting point to the current position of the cursor. During subsequent **WM\_MOUSEMOVE** messages, the window procedure erases the previous line by drawing over it with an inverted pen color. Then it draws a new line from the starting point to the new position of the cursor.
 
@@ -166,7 +166,7 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
 
 ## Processing a Double Click Message
 
-To receive double-click messages, a window must belong to a window class that has the [**CS\_DBLCLKS**](https://msdn.microsoft.com/library/windows/desktop/ms633574#class-styles) class style. You set this style when registering the window class, as shown in the following example.
+To receive double-click messages, a window must belong to a window class that has the [**CS\_DBLCLKS**](https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes) class style. You set this style when registering the window class, as shown in the following example.
 
 
 ```
@@ -586,7 +586,7 @@ LONG APIENTRY MainWndProc(
 
 ## Retrieving the Number of Mouse Wheel Scroll Lines
 
-The following code allows an application to retrieve the number of scroll lines using the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function.
+The following code allows an application to retrieve the number of scroll lines using the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function.
 
 
 ```

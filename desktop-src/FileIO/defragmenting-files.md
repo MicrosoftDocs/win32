@@ -65,7 +65,7 @@ When possible, move data in blocks aligned relative to each other in 16-kilobyte
 
 The move delta is the number of bytes between the start of the source block and the start of the target block. In other words, a block starting at offset X (on-disk) can be moved to a starting offset Y if the absolute value of X minus Y is an even multiple of 16 KB. So, assuming 4-KB clusters, a move from cluster 3 to cluster 27 will be optimized, but a move from cluster 18 to cluster 24 will not. Note that mod(3,4) = 3 = mod(27,4). Mod 4 is chosen because four clusters at 4 KB each is equivalent to 16 KB. Therefore, a volume formatted to a 16-KB cluster size will result in all move files being optimized.
 
-For more information about shadow copies, see [Volume Shadow Copy Service](https://msdn.microsoft.com/library/windows/desktop/aa381497).
+For more information about shadow copies, see [Volume Shadow Copy Service](https://docs.microsoft.com/windows/desktop/VSS/about-the-volume-shadow-copy-service).
 
 ## Files, streams, and stream types supported for defragmentation
 

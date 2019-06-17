@@ -28,7 +28,7 @@ Returns or sets whether the client's **Confidence** appears in the Listening Tip
 
 | Part     | Description                                                                                                                        |
 |----------|------------------------------------------------------------------------------------------------------------------------------------|
-| *Number* | A numeric expression that evaluates to a Long integer that identifies confidence value for the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441). |
+| *Number* | A numeric expression that evaluates to a Long integer that identifies confidence value for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object). |
 
 
 

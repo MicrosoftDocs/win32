@@ -20,7 +20,7 @@ This section provides details on implementing a recovery feature in your applica
 
 ## Recovering when an application experiences an unhandled exception or stops responding
 
-To register a recovery callback, call the [**RegisterApplicationRecoveryCallback**](https://msdn.microsoft.com/en-us/library/Aa373345(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://msdn.microsoft.com/library/windows/desktop/bb513641) calls your recovery callback before the application exits due to an unhandled exception or the application not responding.
+To register a recovery callback, call the [**RegisterApplicationRecoveryCallback**](https://msdn.microsoft.com/en-us/library/Aa373345(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) calls your recovery callback before the application exits due to an unhandled exception or the application not responding.
 
 You use the recovery callback to try to save data and state information before the application terminates. You could then use the saved data and state information when the application is restarted.
 
@@ -30,11 +30,11 @@ You should consider periodically saving temporary copies of the data and state i
 
 ## Saving data and application state when application is being closed due to a software update
 
-If a Windows application can be updated, the application should also process the [**WM\_QUERYENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376890) and [**WM\_ENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376889) messages. The installer sends these messages when the installer needs the application to shutdown in order to complete the installation or when a reboot is required to complete the installation. Note that in this case, the application has less time to perform recovery. For example, the application must respond to each message within five seconds.
+If a Windows application can be updated, the application should also process the [**WM\_QUERYENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession) and [**WM\_ENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-endsession) messages. The installer sends these messages when the installer needs the application to shutdown in order to complete the installation or when a reboot is required to complete the installation. Note that in this case, the application has less time to perform recovery. For example, the application must respond to each message within five seconds.
 
 For console applications that could be updated, you should consider handling CTRL\_C\_EVENT notifications. For an example, see [Registering for Application Restart](registering-for-application-restart.md). The installer sends this notification when it needs the application to shutdown in order to complete the update. The application has 30 seconds to handle the notification.
 
-The following example shows how to register for recovery, a simple recovery callback implementation, and how to process the [**WM\_QUERYENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376890) and [**WM\_ENDSESSION**](https://msdn.microsoft.com/library/windows/desktop/aa376889) messages.
+The following example shows how to register for recovery, a simple recovery callback implementation, and how to process the [**WM\_QUERYENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession) and [**WM\_ENDSESSION**](https://docs.microsoft.com/windows/desktop/Shutdown/wm-endsession) messages.
 
 
 ```C++

@@ -72,7 +72,7 @@ Shadow map resolution can also be too high. Although a higher resolution is less
 
 Perspective shadow maps (PSMs) and light space perspective shadow maps (LSPSMs) attempt to address perspective aliasing by skewing the light's projection matrix in order to place more texels near the eye where they are needed. Unfortunately, neither technique is able to solve the perspective aliasing. The parameterization of the transform required to map eye-space pixels to texels in the shadow map cannot be bound by a linear skew. A logarithmic parameterization is required. PSMs put too much detail near the eye, causing distant shadows to be of low quality or to even disappear. LSPSMs do a better job of finding a middle ground between increasing resolution near the eye, and leaving enough detail for objects far away. Both techniques degenerate to orthographic shadows in some scene configurations. This degeneration can be counteracted by rendering a separate shadow map for each face of the view frustum, although this is expensive. Logarithmic perspective shadow maps (LogPSMs) also render a separate map per face of the view frustum. This technique uses nonlinear rasterization to place more texels near the eye. D3D10 and D3D11-class hardware do not support nonlinear rasterization. For more information about these techniques and algorithms, see the References section.
 
-Cascaded shadow maps (CSMs) are the most popular technique for dealing with perspective aliasing. Although CSMs can be combined with PSMs and LSPSMs, it's unnecessary. Using CSMs to fix perspective aliasing errors is addressed in the companion article, [Cascaded Shadow Maps](https://msdn.microsoft.com/library/windows/desktop/ee416307).
+Cascaded shadow maps (CSMs) are the most popular technique for dealing with perspective aliasing. Although CSMs can be combined with PSMs and LSPSMs, it's unnecessary. Using CSMs to fix perspective aliasing errors is addressed in the companion article, [Cascaded Shadow Maps](https://docs.microsoft.com/windows/desktop/DxTechArts/cascaded-shadow-maps).
 
 ### Projective Aliasing
 
@@ -150,7 +150,7 @@ The depth buffer can be 16-bit, 24-bit, or 32-bit, with values between 0 and 1. 
 
 An easy and naive way to calculate the near plane and far plane is to transform the scene's bounding volume into light space. The smallest Z-coordinate value is the near plane and the largest Z-coordinate value is the far plane. For many configurations of the scene and light, this approach is sufficient. The worst case scenario, however, can result in a significant loss of precision in the depth buffer; Figure 13 shows such a scenario. Here the range of the near plane to the far plane is four times larger than necessary.
 
-The view frustum in Figure 13 was purposely chosen to be small. A small view frustum is shown in a very large scene consisting of pillars extending out from the view camera. Using the Scene AABB for the near and far planes is not optimal. The CSM algorithm described in the [Cascaded Shadow Maps](https://msdn.microsoft.com/library/windows/desktop/ee416307) technical article must calculate near and far planes for very small frustums.
+The view frustum in Figure 13 was purposely chosen to be small. A small view frustum is shown in a very large scene consisting of pillars extending out from the view camera. Using the Scene AABB for the near and far planes is not optimal. The CSM algorithm described in the [Cascaded Shadow Maps](https://docs.microsoft.com/windows/desktop/DxTechArts/cascaded-shadow-maps) technical article must calculate near and far planes for very small frustums.
 
 **Figure 13. Near and far planes based on Scene AABB**
 
@@ -261,7 +261,7 @@ It's also important to make sure that the direction the geometry is facing is co
 
 ## Summary
 
-The techniques described in this article can be used to increase the quality of standard shadow maps. The next step is to look at techniques that can work well with standard shadow maps. CSMs are recommended as a superior technique to combat perspective aliasing. Percentage closer filtering or variance shadow maps can be used to soften shadow edges. See the [Cascaded Shadow Maps](https://msdn.microsoft.com/library/windows/desktop/ee416307) technical article for more information.
+The techniques described in this article can be used to increase the quality of standard shadow maps. The next step is to look at techniques that can work well with standard shadow maps. CSMs are recommended as a superior technique to combat perspective aliasing. Percentage closer filtering or variance shadow maps can be used to soften shadow edges. See the [Cascaded Shadow Maps](https://docs.microsoft.com/windows/desktop/DxTechArts/cascaded-shadow-maps) technical article for more information.
 
 Donnelly, W., and Lauritzen, A. [Variance Shadow Maps](https://portal.acm.org/citation.cfm?doid=1111411.1111440). Symposium on Interactive 3D Graphics, Proceedings of the 2006 Symposium on Interactive 3D Graphics and Games. 2006, pp. 161–165.
 

@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 \[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-You can extend Microsoft Windows Desktop Search (WDS) with filter add-ins, components that implement the [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface, to include new file types. Filters are responsible for accessing and parsing data in files and for returning pairs of properties and values as well as chunks of text for indexing. During the indexing process, WDS calls the appropriate filter with the URL for each file or item. The filter first extracts metadata that corresponds to properties that are marked retrievable in the WDS schema, such as title, file size, and last modified date. Then it breaks the item content into chunks of text. WDS adds the properties and text returned by the filter to the catalog. WDS can index any file type for which it has a registered filter.
+You can extend Microsoft Windows Desktop Search (WDS) with filter add-ins, components that implement the [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface, to include new file types. Filters are responsible for accessing and parsing data in files and for returning pairs of properties and values as well as chunks of text for indexing. During the indexing process, WDS calls the appropriate filter with the URL for each file or item. The filter first extracts metadata that corresponds to properties that are marked retrievable in the WDS schema, such as title, file size, and last modified date. Then it breaks the item content into chunks of text. WDS adds the properties and text returned by the filter to the catalog. WDS can index any file type for which it has a registered filter.
 
-In some circumstances, you do not need to write a new filter. WDS 2.x contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)technology as SharePoint Services. If you already have filters installed for your file types, WDS can use those existing filters to index this data. Furthermore, WDS includes a general filter for file types that are plaintext-based. If you have a file type that can be processed by either an existing SharePoint Services filter or the plaintext filter, you can add the file name extension and filter GUID to the Registry so WDS can locate and use it (see [To Register a Filter Add-in](#to-register-a-filter-add-in) for more information).
+In some circumstances, you do not need to write a new filter. WDS 2.x contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)technology as SharePoint Services. If you already have filters installed for your file types, WDS can use those existing filters to index this data. Furthermore, WDS includes a general filter for file types that are plaintext-based. If you have a file type that can be processed by either an existing SharePoint Services filter or the plaintext filter, you can add the file name extension and filter GUID to the Registry so WDS can locate and use it (see [To Register a Filter Add-in](#to-register-a-filter-add-in) for more information).
 
 If, however, you have a non-plaintext and proprietary data or file format, writing a custom filter implementation is the only way to ensure WDS can index the file format in the catalog. You can have only one filter add-in for a file type, so it is possible to override an existing filter or to have another filter override yours for a specific file type.
 
@@ -33,7 +33,7 @@ This section contains the following topics:
 
 ## Required Filter Interfaces
 
-A filter add-in must implement the [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface and one of the following interfaces:
+A filter add-in must implement the [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface and one of the following interfaces:
 
 -   [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx) - To load data from a stream. This is more secure than using files because nothing is written to disk. The IPersistStream interface is the preferred method for forward compatibility with Windows Vista.
 -   [IPersistFile Interface](https://msdn.microsoft.com/library/ms687223(VS.85).aspx) - To load data from a file. This interface is not supported in Windows Vista.
@@ -43,7 +43,7 @@ A filter add-in uses these interfaces to get the contents of the item and return
 
 ### IFilter Interface
 
-This is a required interface for a filter implementation. For more information, see the [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface reference.
+This is a required interface for a filter implementation. For more information, see the [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface reference.
 
 
 
@@ -119,7 +119,7 @@ This interface supports the structured storage model, in which each contained ob
 
 The purpose of a filter is to extract the content and properties of files for inclusion in the full-text index. WDS first calls the Load method on either the IPersistFile, IPersistStream, or IPersistStorage implementations and then invokes the Init method of the IFilter implementation. **GetChunk** is called to retrieve chunks of text or property value data, and then either **GetText** or **GetValue** is called as many times as needed to retrieve all of the text or property values associated with the chunk. This process repeats until **GetChunk** reports that there are no more chunks in the document.
 
-The **GetChunk** method retrieves information about the first or next logical block of information from the file being filtered and returns that information in a STAT\_CHUNK structure, including a monotonically increasing chunk ID, status information about how the current chunk relates to the previous chunk, a flag indicating whether the chunk contains text or a value, the chunk's locale, and the chunk's property specification. The property specification is a [**FULLPROPSPEC**](https://msdn.microsoft.com/library/windows/desktop/bb231252) consisting of a CLSID and either an integer or string property identifier (for example, D5CDD505-2E9C-101B-9397-08002B2CF9AE/PerceivedType). It identifies the type of property rather than the property value itself.
+The **GetChunk** method retrieves information about the first or next logical block of information from the file being filtered and returns that information in a STAT\_CHUNK structure, including a monotonically increasing chunk ID, status information about how the current chunk relates to the previous chunk, a flag indicating whether the chunk contains text or a value, the chunk's locale, and the chunk's property specification. The property specification is a [**FULLPROPSPEC**](https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec) consisting of a CLSID and either an integer or string property identifier (for example, D5CDD505-2E9C-101B-9397-08002B2CF9AE/PerceivedType). It identifies the type of property rather than the property value itself.
 
 The chunk locale identifier is used to choose an appropriate word breaker, and it is very important that you correctly identify it. If the filter cannot determine the locale of the text, it should assume the default system locale, available by using **GetSystemDefaultLCID**. If you control the file format and it currently does not contain locale information, you should add a user feature to enable proper locale identification. Using a mismatched word breaker can lead to a bad query experience for the user.
 
@@ -278,7 +278,7 @@ You need to make a total of eight entries in the registry to register your filte
 **Other Resources**
 </dt> <dt>
 
-[**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)
+[**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)
 </dt> </dl>
 
  

@@ -43,7 +43,7 @@ HRESULT IsPinConnected(IPin *pPin, BOOL *pResult)
 
 
 > [!Note]  
-> This example uses the [SafeRelease](https://msdn.microsoft.com/library/windows/desktop/dd940435) function to release interface pointers.
+> This example uses the [SafeRelease](https://docs.microsoft.com/windows/desktop/medfound/saferelease) function to release interface pointers.
 
  
 

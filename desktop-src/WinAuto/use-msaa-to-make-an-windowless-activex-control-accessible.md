@@ -16,7 +16,7 @@ Describes how to use the Microsoft Active Accessibility API to ensure that your 
 
 ### Technologies
 
--   [ActiveX Controls](https://msdn.microsoft.com/library/windows/desktop/ms693753)
+-   [ActiveX Controls](https://docs.microsoft.com/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
 ### Prerequisites
@@ -63,7 +63,7 @@ STDMETHODIMP CMyAccessibleMSAAControl::QueryService(REFGUID guidService,
 
 ### Step 3: Delegate IAccessible::get\_accParent method calls to the control site's IAccessibleWindowlessSite::GetParentAccessible method.
 
-When a client requests the parent object of your windowless control, the container calls your control's [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method. Your **get\_accParent** implementation should delegate to the [**IAccessibleWindowlessSite::GetParentAccessible**](https://msdn.microsoft.com/library/windows/desktop/hh448754) method of the container.
+When a client requests the parent object of your windowless control, the container calls your control's [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method. Your **get\_accParent** implementation should delegate to the [**IAccessibleWindowlessSite::GetParentAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method of the container.
 
 This example shows how to implement the [**get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method.
 
@@ -99,7 +99,7 @@ HRESULT CMyAccessibleMSAAControl::get_accParent(IDispatch **ppdispParent)
 
 ### Step 4: Acquire a range of object IDs to assign to the event sources in your windowless control.
 
-Like window-based controls, a windowless ActiveX control calls the [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) function to notify clients of important events. The function parameters include the object ID of the item that is raising the event. Your windowless control must assign object IDs by using a value from a range acquired by calling the control site’s [**IAccessibleWindowlessSite::AcquireObjectIdRange**](https://msdn.microsoft.com/library/windows/desktop/hh448753) method.
+Like window-based controls, a windowless ActiveX control calls the [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) function to notify clients of important events. The function parameters include the object ID of the item that is raising the event. Your windowless control must assign object IDs by using a value from a range acquired by calling the control site’s [**IAccessibleWindowlessSite::AcquireObjectIdRange**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) method.
 
 This example shows how to acquire a range of object ID values from the control container.
 

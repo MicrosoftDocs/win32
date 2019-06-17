@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Counter algorithm counter types may calculate rates or averages bytes for a sample or over a time period for a particular operation.
 
-The **AvgDiskBytesPerTransfer** property in the [**Win32\_PerfRawData\_PerfDisk\_PhysicalDisk**](https://msdn.microsoft.com/library/aa394308) class uses the PERF\_AVERAGE\_BULK countertype. In this case, the transfer is the operation, and the accumulating number of bytes that are sent is the counter data. For any two samples, dividing the difference of accumulated bytes by the difference in accumulating transfers will produce the average number of bytes per transfer during the period between the samples.
+The **AvgDiskBytesPerTransfer** property in the [**Win32\_PerfRawData\_PerfDisk\_PhysicalDisk**](https://docs.microsoft.com/previous-versions//aa394308(v=vs.85)) class uses the PERF\_AVERAGE\_BULK countertype. In this case, the transfer is the operation, and the accumulating number of bytes that are sent is the counter data. For any two samples, dividing the difference of accumulated bytes by the difference in accumulating transfers will produce the average number of bytes per transfer during the period between the samples.
 
 The following counter algorithms are provided:
 

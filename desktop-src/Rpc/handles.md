@@ -123,7 +123,7 @@ For previous versions of the interpreter, the param\_num<1> provides the context
 
 ## The New –Oif Header
 
-As mentioned previously, the [**–Oif**](https://msdn.microsoft.com/library/windows/desktop/aa367352) header expands on the **–Oi** header. For convenience, all fields are shown here:
+As mentioned previously, the [**–Oif**](https://docs.microsoft.com/windows/desktop/Midl/-oi) header expands on the **–Oi** header. For convenience, all fields are shown here:
 
 (The old header)
 
@@ -136,7 +136,7 @@ stack_size<2>
 [explicit_handle_description<>]
 ```
 
-(The [**–Oif**](https://msdn.microsoft.com/library/windows/desktop/aa367352) extensions)
+(The [**–Oif**](https://docs.microsoft.com/windows/desktop/Midl/-oi) extensions)
 
 ``` syntax
 constant_client_buffer_size<2>

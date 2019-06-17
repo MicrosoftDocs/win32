@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # GuidColumnValue class
 
-A [Guid](https://msdn.microsoft.com/en-us/library/cey1zx63) column value.
+A [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Guid](https://msdn.microsoft.com/en-us/library/cey1zx63)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN)\>  
       Microsoft.Isam.Esent.Interop.GuidColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

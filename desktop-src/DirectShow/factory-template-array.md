@@ -63,7 +63,7 @@ int g_cTemplates = sizeof(g_Templates) / sizeof(g_Templates[0]);
 
 
 
-The `CreateInstance` method calls the class constructor and returns a pointer to the new class instance. The parameter *pUnk* is a pointer to the aggregating [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509). You can simply pass this parameter to the class constructor. The parameter *pHr* is a pointer to an HRESULT value. The class constructor sets this to an appropriate value, but if the constructor fails, set the value to E\_OUTOFMEMORY.
+The `CreateInstance` method calls the class constructor and returns a pointer to the new class instance. The parameter *pUnk* is a pointer to the aggregating [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown). You can simply pass this parameter to the class constructor. The parameter *pHr* is a pointer to an HRESULT value. The class constructor sets this to an appropriate value, but if the constructor fails, set the value to E\_OUTOFMEMORY.
 
 The [**NAME**](name.md) macro generates a string in debug builds but resolves to **NULL** in retail builds. It is used in this example to give the component a name that appears in debug logs but does not occupy memory in the final version.
 

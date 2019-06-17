@@ -115,25 +115,25 @@ Next 'vtClient
 
 <dl> <dt>
 
-[**CLIENTPROPERTIES**](https://msdn.microsoft.com/library/bb960622)
+[**CLIENTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_clientproperties)
 </dt> <dt>
 
-[Enumerating Objects in a Collection](https://msdn.microsoft.com/library/bb960629)
+[Enumerating Objects in a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-enumerating-objects-in-a-collection)
 </dt> <dt>
 
-[**IASCOMMONPROPERTIES**](https://msdn.microsoft.com/library/bb960631)
+[**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)
+[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties)
 </dt> <dt>
 
-[**ISdo**](https://msdn.microsoft.com/library/bb960639)
+[**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[**ISdoMachine**](https://msdn.microsoft.com/library/bb960655)
+[**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
 </dt> <dt>
 
-[**RADIUSPROPERTIES**](https://msdn.microsoft.com/library/bb960699)
+[**RADIUSPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties)
 </dt> </dl>
 
  

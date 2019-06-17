@@ -106,7 +106,7 @@ To configure the AAC decoder, set the following attributes on the input media ty
 <td>Additional format information.</td>
 <td>The value of this attribute depends on the subtype.<br/>
 <ul>
-<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://msdn.microsoft.com/library/windows/desktop/dd757806"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
+<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
 <li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: Contains the AudioSpecificConfig() data. This data must appear; otherwise, the decoder will reject the media type.</li>
 </ul>
 The length of the AudioSpecificConfig() data is 2 bytes for AAC-LC or HE-AAC with implicit signaling of SBR/PS. It is more than 2 bytes for HE-AAC with explicit signaling of SBR/PS.<br/> The value of <strong>audioObjectType</strong> as defined in AudioSpecificConfig() must be 2, indicating AAC-LC. The value of <strong>extensionAudioObjectType</strong> must be 5 for SBR or 29 for PS. <br/></td>
@@ -239,11 +239,11 @@ The AAC decoder implements the [**IMFTransform::GetAttributes**](/windows/deskto
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd317616"><strong>CODECAPI_AVDecAudioDualMono</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaudiodualmono-property"><strong>CODECAPI_AVDecAudioDualMono</strong></a></td>
 <td>Specifies whether 2-channel audio is encoded as stereo or dual mono. Treat as read-only.</td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd317614"><strong>CODECAPI_AVDecAudioDualMonoReproMode</strong></a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property"><strong>CODECAPI_AVDecAudioDualMonoReproMode</strong></a></td>
 <td>Specifies how the decoder reproduces dual mono audio. The default value is <strong>eAVDecAudioDualMonoReproMode_LEFT_MONO</strong>: Output Ch1 to the left and right speakers. <br/> Applications can set this property to change the default behavior.<br/></td>
 </tr>
 <tr class="odd">
@@ -282,7 +282,7 @@ Here is an example of the input media type needed for a 6-channel, 48-kHz AAC-LC
 
  
 
-The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure members:
+The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag) structure members:
 
 -   **wPayloadType** = 0 (raw AAC)
 -   **wAudioProfileLevelIndication** = 0x2a (AAC Profile, Level 4)
@@ -343,7 +343,7 @@ If Platform Update Supplement for Windows Vista is installed, the AAC audio deco
 [Audio Media Types](audio-media-types.md)
 </dt> <dt>
 
-[**Microsoft MPEG-1/DD/AAC Audio Decoder**](https://msdn.microsoft.com/library/windows/desktop/dd390676)
+[**Microsoft MPEG-1/DD/AAC Audio Decoder**](https://docs.microsoft.com/windows/desktop/DirectShow/microsoft-mpeg-1-dd-audio-decoder)
 </dt> <dt>
 
 [MPEG-4 Support in Media Foundation](mpeg-4-support-in-media-foundation.md)

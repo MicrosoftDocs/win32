@@ -34,13 +34,13 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the minimum range value, and the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the maximum range value. The minimum range value must not be negative. By default, the minimum value is zero. The maximum range value must be greater than the minimum range value. By default, the maximum range value is 100.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the minimum range value, and the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the maximum range value. The minimum range value must not be negative. By default, the minimum value is zero. The maximum range value must be greater than the minimum range value. By default, the maximum range value is 100.
 
 </dd> </dl>
 
 ## Return value
 
-Returns the previous range values if successful, or zero otherwise. The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the previous minimum value, and the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) specifies the previous maximum value.
+Returns the previous range values if successful, or zero otherwise. The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the previous minimum value, and the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the previous maximum value.
 
 ## Remarks
 

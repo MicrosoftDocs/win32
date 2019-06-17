@@ -65,7 +65,7 @@ Data type: **CIM\_Check**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://msdn.microsoft.com/library/aa393650) (0), [**Max**](https://msdn.microsoft.com/library/aa393650) (FALSE), [**Weak**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (FALSE), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the check.
@@ -81,7 +81,7 @@ Data type: **CIM\_SoftwareElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://msdn.microsoft.com/library/aa393650) (1), [**Max**](https://msdn.microsoft.com/library/aa393650) (1), [**Aggregate**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the element.

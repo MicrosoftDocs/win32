@@ -166,12 +166,12 @@ As a specialized control that supports customization, any implemention of the Dr
 
 The Ribbon framework defines a collection of [property keys](windowsribbon-reference-properties.md) for the Drop-Down Color Picker control.
 
-Typically, a Drop-Down Color Picker property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](https://msdn.microsoft.com/library/windows/desktop/dd371375) method. The invalidation event is handled, and the property updates defined, by the [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371494) callback method.
+Typically, a Drop-Down Color Picker property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) method. The invalidation event is handled, and the property updates defined, by the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
 
-The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371494) callback method is not executed, and the application queried for an updated property value, until the property is required by the framework. For example, when a tab is activated and a control revealed in the ribbon UI, or when a tooltip is displayed.
+The [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method is not executed, and the application queried for an updated property value, until the property is required by the framework. For example, when a tab is activated and a control revealed in the ribbon UI, or when a tooltip is displayed.
 
 > [!Note]  
-> In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
+> In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) method and set with the [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) method.
 
  
 
@@ -196,22 +196,22 @@ The following table lists the property keys that are associated with the Drop-Do
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-automaticcolorlabel">UI_PKEY_AutomaticColorLabel</a></td>
 <td>Defines the label for the <strong>Automatic</strong> color button.<br/> Only valid when <em>ColorTemplate</em> has a value of <code>ThemeColors</code> or <code>StandardColors</code>.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-color">UI_PKEY_Color</a></td>
 <td>Defines the selected color value as a <a href="https://go.microsoft.com/fwlink/p/?linkid=133391">COLORREF</a>.<br/> Only valid when <a href="windowsribbon-reference-properties-uipkey-colortype">UI_PKEY_ColorType</a> has a value of <code>UI_SWATCHCOLORTYPE_RGB</code>.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-colortype">UI_PKEY_ColorType</a></td>
 <td>Defines the selected color type.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a></td>
 <td>Defines the ability for a control to respond to user interaction.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-keytip">UI_PKEY_Keytip</a></td>
@@ -236,17 +236,17 @@ The following table lists the property keys that are associated with the Drop-Do
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-morecolorslabel">UI_PKEY_MoreColorsLabel</a></td>
 <td>Defines the label for the <strong>More colors...</strong> button.<br/> Only valid when <em>ColorTemplate</em> has a value of <code>ThemeColors</code> or <code>StandardColors</code>.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-nocolorlabel">UI_PKEY_NoColorLabel</a></td>
 <td>Defines the label for the <strong>No color</strong> button.<br/> Valid for all <em>ColorTemplate</em> values.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-recentcolorscategorylabel">UI_PKEY_RecentColorsCategoryLabel</a></td>
 <td>Defines the label for the <strong>Recent colors</strong> category.<br/> Only valid when <em>ColorTemplate</em> has a value of <code>ThemeColors</code>. This is the only template that contains labeled categories.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage">UI_PKEY_SmallHighContrastImage</a></td>
@@ -266,12 +266,12 @@ The following table lists the property keys that are associated with the Drop-Do
 The <a href="https://go.microsoft.com/fwlink/p/?linkid=133391">COLORREF</a> values from the initial <em>StandardColorGridRows</em> x <em>Columns</em> of the array are displayed. If the array defines fewer colors than the number of <code>StandardColors</code> swatches declared in markup, empty spaces are displayed for the missing chips.
 </blockquote>
 <br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-standardcolorscategorylabel">UI_PKEY_StandardColorsCategoryLabel</a></td>
 <td>Defines the label for the <strong>Standard colors</strong> category.<br/> Only valid when <em>ColorTemplate</em> has a value of <code>ThemeColors</code>. This is the only template that contains labeled categories.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-standardcolorstooltips">UI_PKEY_StandardColorsTooltips</a></td>
@@ -281,7 +281,7 @@ The <a href="https://go.microsoft.com/fwlink/p/?linkid=133391">COLORREF</a> valu
 Only those tool tips required to label the color swatches displayed in the <code>StandardColors</code> grid are used. If fewer labels are supplied than the number of swatches in the <code>StandardColors</code> grid, a default is provided for the remainining swatches.
 </blockquote>
 <br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-themecolors">UI_PKEY_ThemeColors</a></td>
@@ -291,7 +291,7 @@ Only those tool tips required to label the color swatches displayed in the <code
 The <a href="https://go.microsoft.com/fwlink/p/?linkid=133391">COLORREF</a> values from the initial <em>ThemeColorGridRows</em> x <em>Columns</em> of the array are displayed. If the array defines fewer colors than the number of <code>ThemeColors</code> swatches declared in markup, empty spaces are displayed for the missing chips.
 </blockquote>
 <br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-themecolorstooltips">UI_PKEY_ThemeColorsTooltips</a></td>
@@ -301,12 +301,12 @@ The <a href="https://go.microsoft.com/fwlink/p/?linkid=133391">COLORREF</a> valu
 Only those tool tips required to label the color swatches displayed in the <code>ThemeColors</code> grid are used. If fewer labels are supplied than the number of swatches in the <code>ThemeColors</code> grid, a default is provided for the remainining swatches.
 </blockquote>
 <br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-reference-properties-uipkey-themecolorscategorylabel">UI_PKEY_ThemeColorsCategoryLabel</a></td>
 <td>Defines the label for the <strong>Theme colors</strong> category.<br/> Only valid when <em>ColorTemplate</em> has a value of <code>ThemeColors</code>. This is the only template that contains labeled categories.<br/></td>
-<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
+<td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription">UI_PKEY_TooltipDescription</a></td>
@@ -327,7 +327,7 @@ Only those tool tips required to label the color swatches displayed in the <code
 
 ### Command handlers
 
-The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371494) method is used to customize a Drop-Down Color Picker through the property keys listed above. The following example demonstrates how to set the color swatches of a Drop-Down Color Picker, based on a custom style preference or a custom swatch grid that is declared in markup.
+The [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) method is used to customize a Drop-Down Color Picker through the property keys listed above. The following example demonstrates how to set the color swatches of a Drop-Down Color Picker, based on a custom style preference or a custom swatch grid that is declared in markup.
 
 
 ```C++
@@ -389,7 +389,7 @@ STDMETHODIMP DropDownColorPickerHandler::UpdateProperty(
 
 
 
-The following example demonstrates an implementation of the [**IUICommandHandler::Execute**](https://msdn.microsoft.com/library/windows/desktop/dd371489) method that exposes the Drop-Down Color Picker swatch colors to the Ribbon application.
+The following example demonstrates an implementation of the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) method that exposes the Drop-Down Color Picker swatch colors to the Ribbon application.
 
 
 ```C++

@@ -2,6 +2,7 @@
 title: Predication
 description: Predication is a feature that enables the GPU rather than the CPU to determine to not draw, copy or dispatch an object.
 ms.assetid: '5c5138c7-f6e8-4646-961a-0e2312b5356b'
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -22,7 +23,7 @@ Unlike Direct3D 11, predication is decoupled from queries, and is expanded in Di
 
 ## SetPredication
 
-Predication can be set based on the value of 64-bits within a buffer (refer to [**D3D12\_PREDICATION\_OP**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op)).
+Predication can be set based on the value of 64-bits within a buffer (refer to [**D3D12\_PREDICATION\_OP**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op)).
 
 When the GPU executes a [**SetPredication**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication) command it snaps the value in the buffer. Future changes to the data in the buffer do not retroactively affect the predication state.
 

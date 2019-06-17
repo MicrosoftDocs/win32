@@ -26,7 +26,7 @@ The Winlogon desktop is active while a user logs on. The system switches to the 
 
 **Windows Server 2003 and Windows XP/2000:** The UAC dialog box is not supported.
 
-The Winlogon desktop's security descriptor allows access to a very restricted set of accounts, including the [LocalSystem account](https://msdn.microsoft.com/library/windows/desktop/ms684190). Applications generally do not carry any of these accounts' SIDs in their tokens and therefore cannot access the Winlogon desktop or switch to a different desktop while the Winlogon desktop is active.
+The Winlogon desktop's security descriptor allows access to a very restricted set of accounts, including the [LocalSystem account](https://docs.microsoft.com/windows/desktop/Services/localsystem-account). Applications generally do not carry any of these accounts' SIDs in their tokens and therefore cannot access the Winlogon desktop or switch to a different desktop while the Winlogon desktop is active.
 
 For more information, see the following topics:
 

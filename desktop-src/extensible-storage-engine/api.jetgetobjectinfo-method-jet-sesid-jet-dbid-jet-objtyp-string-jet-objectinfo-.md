@@ -83,7 +83,7 @@ public static void JetGetObjectInfo(
 <!-- end list -->
 
   - objectName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     The object name about which to retrieve information.
 

@@ -75,7 +75,7 @@ Each element stores a 1-to-4 component constant, determined by the format of the
 
 A constant buffer can only use a single bind flag (**D3D11\_BIND\_CONSTANT\_BUFFER**), which cannot be combined with any other bind flag. To bind a shader-constant buffer to the pipeline, call one of the following methods: [**ID3D11DeviceContext::GSSetConstantBuffers**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-gssetconstantbuffers), [**ID3D11DeviceContext::PSSetConstantBuffers**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers), or [**ID3D11DeviceContext::VSSetConstantBuffers**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-vssetconstantbuffers).
 
-To read a shader-constant buffer from a shader, use a HLSL load function (for example, [**Load**](https://msdn.microsoft.com/library/windows/desktop/bb509694)). Each shader stage allows up to 15 shader-constant buffers; each buffer can hold up to 4096 constants.
+To read a shader-constant buffer from a shader, use a HLSL load function (for example, [**Load**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load)). Each shader stage allows up to 15 shader-constant buffers; each buffer can hold up to 4096 constants.
 
 ## Related topics
 

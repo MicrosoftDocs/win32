@@ -33,7 +33,7 @@ With Windows Vista, customers are free to choose either 32-bit or 64-bit edition
 
 All of these factors will greatly increase the deployments of 64-bit editions of Windows. As new computers start shipping with more than 2 GB of physical RAM, the incentive to use a 32-bit operating system greatly diminishes in favor of 64-bit editions. Sixty-four-bit technology fully supports 32-bit native code, although 64-bit native implementations are required to take full advantage of the new 64-bit memory space. Every 32-bit application should have 64-bit compatibility as a minimum shipping requirement, and meeting that requirement is a baseline requirement for Windows Vista compatibility. Incompatibilities typically arise from use of 16-bit code designed for the Windows 3.1 operating system or installing drivers that are not provided in both 32-bit and 64-bit native forms.
 
-For more details on 64-bit technology, see [64-bit programming for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418798).
+For more details on 64-bit technology, see [64-bit programming for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers).
 
 </dd> <dt>
 
@@ -145,7 +145,7 @@ DirectShow was removed from the DirectX SDK as of April 2005. You can obtain the
 <span id="What_changes_were_made_to_the_DirectX_runtime_for_Windows_Vista__"></span><span id="what_changes_were_made_to_the_directx_runtime_for_windows_vista__"></span><span id="WHAT_CHANGES_WERE_MADE_TO_THE_DIRECTX_RUNTIME_FOR_WINDOWS_VISTA__"></span>**What changes were made to the DirectX runtime for Windows Vista?** 
 </dt> <dd>
 
-The primary changes were made to support the new WDDM. For details on the new driver model, on the impacts on Direct3D 9, and on the two new graphics interfaces, Direct3D 9Ex and Direct3D 10, please review [Graphics APIs in Windows](https://msdn.microsoft.com/library/windows/desktop/ee417756). New graphics APIs for Windows 7—Direct3D 11, Direct2D, DirectWrite, DXGI 1.1, and an updated Direct3D 10.1—are available as an update for Windows Vista (see <https://go.microsoft.com/fwlink/p/?linkid=160189>).
+The primary changes were made to support the new WDDM. For details on the new driver model, on the impacts on Direct3D 9, and on the two new graphics interfaces, Direct3D 9Ex and Direct3D 10, please review [Graphics APIs in Windows](https://docs.microsoft.com/windows/desktop/direct3darticles/graphics-apis-in-windows-vista). New graphics APIs for Windows 7—Direct3D 11, Direct2D, DirectWrite, DXGI 1.1, and an updated Direct3D 10.1—are available as an update for Windows Vista (see <https://go.microsoft.com/fwlink/p/?linkid=160189>).
 
 Windows Vista Service Pack 1 includes an updated version of the DirectX runtime. This update extends support of Windows Vista to include Direct3D 10.1, exposing new optional hardware features. (All hardware that is capable of supporting Direct3D 10.1 also fully supports all of the features of Direct3D 10.)
 
@@ -156,7 +156,7 @@ DirectSound was updated to expose the capabilities of the new Windows Vista audi
 <span id="What_changes_were_made_to_the_DirectX_runtime_for_Windows_7__"></span><span id="what_changes_were_made_to_the_directx_runtime_for_windows_7__"></span><span id="WHAT_CHANGES_WERE_MADE_TO_THE_DIRECTX_RUNTIME_FOR_WINDOWS_7__"></span>**What changes were made to the DirectX runtime for Windows 7?** 
 </dt> <dd>
 
-Windows 7 includes all of the DirectX runtime components found in Windows Vista, and adds Direct3D 11, DXGI 1.1, 10Level9 feature levels, the WARP10 software device, Direct2D, DirectWrite, and an update to Direct3D 10.1 to support 10Level9 and WARP10. For more information, see [Graphics APIs in Windows](https://msdn.microsoft.com/library/windows/desktop/ee417756).
+Windows 7 includes all of the DirectX runtime components found in Windows Vista, and adds Direct3D 11, DXGI 1.1, 10Level9 feature levels, the WARP10 software device, Direct2D, DirectWrite, and an update to Direct3D 10.1 to support 10Level9 and WARP10. For more information, see [Graphics APIs in Windows](https://docs.microsoft.com/windows/desktop/direct3darticles/graphics-apis-in-windows-vista).
 
 All other components are identical to Windows Vista, with the addition of 64-bit (x64) native support for the core DirectMusic API related to timestamped MIDI. The performance layer of DirectMusic remains deprecated, and it is only available to 32-bit applications on Windows 7 for application compatibility. Note that 64-bit native support of DirectMusic is not available on Windows Vista.
 
@@ -250,7 +250,7 @@ or similar test will not always suffice.
 
 You don't! Games need to be able to handle task switching gracefully, as many things cause it to happen: ALT+TAB, remote desktop connections, Fast User Switching, Parental Controls usage limits, and many other events.
 
-At the same time, two common sources of accidental task switching on games with keyboard-centric control schemes are pressing the Windows logo key and activating the accessibility feature StickyKeys with the SHIFT key. To address these cases by disabling the functionality, see the techniques described in [Disabling Shortcut Keys in Games](https://msdn.microsoft.com/library/windows/desktop/ee416808).
+At the same time, two common sources of accidental task switching on games with keyboard-centric control schemes are pressing the Windows logo key and activating the accessibility feature StickyKeys with the SHIFT key. To address these cases by disabling the functionality, see the techniques described in [Disabling Shortcut Keys in Games](https://docs.microsoft.com/windows/desktop/DxTechArts/disabling-shortcut-keys-in-games).
 
 </dd> <dt>
 
@@ -381,21 +381,21 @@ Use the D3DCREATE\_PUREDEVICE flag during device creation to create a pure devic
 
 One drawback of a pure device is that it does not support all Get\* API calls; this means you can not use a pure device to query the pipeline state. This makes it more difficult to debug while running an application. Below is a list of all the methods that are disabled by a pure device.
 
--   [**IDirect3DDevice9::GetClipPlane**](https://msdn.microsoft.com/library/windows/desktop/bb174380)
--   [**IDirect3DDevice9::GetClipStatus**](https://msdn.microsoft.com/library/windows/desktop/bb174381)
--   [**IDirect3DDevice9::GetLight**](https://msdn.microsoft.com/library/windows/desktop/bb174392)
--   [**IDirect3DDevice9::GetLightEnable**](https://msdn.microsoft.com/library/windows/desktop/bb174393)
--   [**IDirect3DDevice9::GetMaterial**](https://msdn.microsoft.com/library/windows/desktop/bb174394)
--   [**IDirect3DDevice9::GetPixelShaderConstantF**](https://msdn.microsoft.com/library/windows/desktop/bb174400)
--   [**IDirect3DDevice9::GetPixelShaderConstantI**](https://msdn.microsoft.com/library/windows/desktop/bb174401)
--   [**IDirect3DDevice9::GetPixelShaderConstantB**](https://msdn.microsoft.com/library/windows/desktop/bb174399)
--   [**IDirect3DDevice9::GetRenderState**](https://msdn.microsoft.com/library/windows/desktop/bb174403)
--   [**IDirect3DDevice9::GetSamplerState**](https://msdn.microsoft.com/library/windows/desktop/bb174406)
--   [**IDirect3DDevice9::GetTextureStageState**](https://msdn.microsoft.com/library/windows/desktop/bb174413)
--   [**IDirect3DDevice9::GetTransform**](https://msdn.microsoft.com/library/windows/desktop/bb174414)
--   [**IDirect3DDevice9::GetVertexShaderConstantF**](https://msdn.microsoft.com/library/windows/desktop/bb174418)
--   [**IDirect3DDevice9::GetVertexShaderConstantI**](https://msdn.microsoft.com/library/windows/desktop/bb174419)
--   [**IDirect3DDevice9::GetVertexShaderConstantB**](https://msdn.microsoft.com/library/windows/desktop/bb174417)
+-   [**IDirect3DDevice9::GetClipPlane**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane)
+-   [**IDirect3DDevice9::GetClipStatus**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipstatus)
+-   [**IDirect3DDevice9::GetLight**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight)
+-   [**IDirect3DDevice9::GetLightEnable**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable)
+-   [**IDirect3DDevice9::GetMaterial**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial)
+-   [**IDirect3DDevice9::GetPixelShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantf)
+-   [**IDirect3DDevice9::GetPixelShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstanti)
+-   [**IDirect3DDevice9::GetPixelShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantb)
+-   [**IDirect3DDevice9::GetRenderState**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrenderstate)
+-   [**IDirect3DDevice9::GetSamplerState**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate)
+-   [**IDirect3DDevice9::GetTextureStageState**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate)
+-   [**IDirect3DDevice9::GetTransform**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform)
+-   [**IDirect3DDevice9::GetVertexShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantf)
+-   [**IDirect3DDevice9::GetVertexShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstanti)
+-   [**IDirect3DDevice9::GetVertexShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantb)
 
 A second drawback of a pure device is that it does not filter any redundant state changes. When using a pure device, your application should reduce the number of state changes in the render loop to a minimum; this may include filtering state changes to make sure that states do not get set more than once. This trade-off is application dependent; if you use more than a 1000 Set calls per frame, you should consider taking advantage of the redundancy filtering that is done automatically by a non-pure device.
 
@@ -622,7 +622,7 @@ Many meshes encountered in real data feature vertices that are shared by multipl
 <span id="How_do_you_determine_the_total_texture_memory_a_card_has__excluding_AGP_memory__"></span><span id="how_do_you_determine_the_total_texture_memory_a_card_has__excluding_agp_memory__"></span><span id="HOW_DO_YOU_DETERMINE_THE_TOTAL_TEXTURE_MEMORY_A_CARD_HAS__EXCLUDING_AGP_MEMORY__"></span>**How do you determine the total texture memory a card has, excluding AGP memory?** 
 </dt> <dd>
 
-[**IDirect3DDevice9::GetAvailableTextureMem**](https://msdn.microsoft.com/library/windows/desktop/bb174378) returns the total available memory, including AGP. Allocating resources based on an assumption of how much video memory you have is not a great idea. For example, what if the card is running under a Unified Memory Architecture (UMA) or is able to compress the textures? There might be more space available than you might have thought. You should create resources and check for 'out of memory' errors, then scale back on the textures. For example, you could remove the top mip-levels of your textures.
+[**IDirect3DDevice9::GetAvailableTextureMem**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getavailabletexturemem) returns the total available memory, including AGP. Allocating resources based on an assumption of how much video memory you have is not a great idea. For example, what if the card is running under a Unified Memory Architecture (UMA) or is able to compress the textures? There might be more space available than you might have thought. You should create resources and check for 'out of memory' errors, then scale back on the textures. For example, you could remove the top mip-levels of your textures.
 
 </dd> <dt>
 
@@ -677,7 +677,7 @@ A common mistake when using the ID3DXFont::DrawText functions is to specify a ze
 <span id="How_can_I_save_the_contents_of_a_surface_or_texture_to_a_file__"></span><span id="how_can_i_save_the_contents_of_a_surface_or_texture_to_a_file__"></span><span id="HOW_CAN_I_SAVE_THE_CONTENTS_OF_A_SURFACE_OR_TEXTURE_TO_A_FILE__"></span>**How can I save the contents of a surface or texture to a file?** 
 </dt> <dd>
 
-The DirectX 8.1 SDK added two functions to the D3DX library specifically for this purpose: D3DXSaveSurfaceToFile() and D3DXSaveTextureToFile(). These functions support saving an image to file in either BMP or DDS format. In previous versions you will have to lock the surface and read the image data, then write it to a bitmap file. For info about writing a function to store bitmaps, see [Storing an Image](https://msdn.microsoft.com/library/windows/desktop/dd145119).
+The DirectX 8.1 SDK added two functions to the D3DX library specifically for this purpose: D3DXSaveSurfaceToFile() and D3DXSaveTextureToFile(). These functions support saving an image to file in either BMP or DDS format. In previous versions you will have to lock the surface and read the image data, then write it to a bitmap file. For info about writing a function to store bitmaps, see [Storing an Image](https://docs.microsoft.com/windows/desktop/gdi/storing-an-image).
 
 Alternatively, GDI+ could be used to save the image in a wide variety of formats, though this requires additional support files to be distributed with your application.
 
@@ -699,7 +699,7 @@ There are three ways that the Microsoft High Level Shader Language (HLSL) can be
 
 Beginning with the December 2006 DirectX SDK, the new HLSL compiler that was developed for Direct3D 10 has been enabled for Direct3D 9 targets. The new compiler has no support for ps\_1\_x targets, and is now the default compiler for all Direct3D HLSL shaders. A flag for backwards compatibility can be used to force ps\_1\_x targets to compile as ps\_2\_0 targets.
 
-Applications that do wish to use the legacy compiler can continue to do so by supplying a flag at runtime (see [**compiler flags**](https://msdn.microsoft.com/library/windows/desktop/bb205441)) or by supplying a switch when using fxc.
+Applications that do wish to use the legacy compiler can continue to do so by supplying a flag at runtime (see [**compiler flags**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dxshader-flags)) or by supplying a switch when using fxc.
 
 </dd> <dt>
 
@@ -954,7 +954,7 @@ The DirectX Extensions for Maya currently only support DirectXShader materials f
 
 Yes, but they act as the same axis. So you can not read the triggers independently with DirectInput. Using XInput, the triggers return separate values.
 
-For more information on why DirectInput interprets the triggers as one axis, see [Using the Xbox 360 Controller with DirectInput](https://msdn.microsoft.com/library/windows/desktop/ee417014).
+For more information on why DirectInput interprets the triggers as one axis, see [Using the Xbox 360 Controller with DirectInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-and-directinput).
 
 </dd> <dt>
 
@@ -982,7 +982,7 @@ Yes, you may access common controllers through DirectInput.
 <span id="How_do_I_get_force_feedback_on_the_common_controllers__"></span><span id="how_do_i_get_force_feedback_on_the_common_controllers__"></span><span id="HOW_DO_I_GET_FORCE_FEEDBACK_ON_THE_COMMON_CONTROLLERS__"></span>**How do I get force feedback on the common controllers?** 
 </dt> <dd>
 
-Use the [**XInputSetState**](https://msdn.microsoft.com/library/windows/desktop/ee419268) function.
+Use the [**XInputSetState**](https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate) function.
 
 </dd> <dt>
 
@@ -1024,7 +1024,7 @@ At XInput startup, the ID is determined non-deterministically by the XInput engi
 <span id="How_do_I_get_the_audio_devices_for_the_controller__"></span><span id="how_do_i_get_the_audio_devices_for_the_controller__"></span><span id="HOW_DO_I_GET_THE_AUDIO_DEVICES_FOR_THE_CONTROLLER__"></span>**How do I get the audio devices for the controller?** 
 </dt> <dd>
 
-Use the [**XInputGetDSoundAudioDeviceGuids**](https://msdn.microsoft.com/library/windows/desktop/ee419265) function. See the AudioController sample for details.
+Use the [**XInputGetDSoundAudioDeviceGuids**](https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetdsoundaudiodeviceguids) function. See the AudioController sample for details.
 
 </dd> <dt>
 

@@ -61,14 +61,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string "AppSettingPolicy".
 
 </dd> <dt>
 
-[IsVariableLeaf](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-appsettingpolicy-settingvalue---only-for---user-vendor-msft-)
+[IsVariableLeaf](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -92,14 +92,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
+Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseModernAppManagement/AppManagement/AppStore/*PackageFamilyName*"
 
 </dd> <dt>
 
-[**Value**](https://msdn.microsoft.com/library/windows/hardware/dn904956#----packagefamilyname-appsettingpolicy-settingvalue---only-for---user-vendor-msft-)
+[**Value**](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -128,7 +128,7 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
+[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  

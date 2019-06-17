@@ -64,8 +64,8 @@ Specifies desired access rights for a printer. The [**OpenPrinter**](openprinter
 | PRINTER\_ACCESS\_ADMINISTER                 | To perform administrative tasks, such as those provided by [**SetPrinter**](setprinter.md).                                                                                                 |
 | PRINTER\_ACCESS\_USE                        | To perform basic printing operations.                                                                                                                                                        |
 | PRINTER\_ACCESS\_MANAGE\_LIMITED            | To perform administrative tasks, such as those provided by [**SetPrinter**](setprinter.md) and [**SetPrinterData**](setprinterdata.md). This value is available starting from Windows 8.1. |
-| PRINTER\_ALL\_ACCESS                        | To perform all administrative tasks and basic printing operations except for SYNCHRONIZE (see [Standard Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa379607) ).                                   |
-| generic security values, such as WRITE\_DAC | To allow specific control access rights. See [Standard Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa379607).                                                                                      |
+| PRINTER\_ALL\_ACCESS                        | To perform all administrative tasks and basic printing operations except for SYNCHRONIZE (see [Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights) ).                                   |
+| generic security values, such as WRITE\_DAC | To allow specific control access rights. See [Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights).                                                                                      |
 
 
 

@@ -55,7 +55,7 @@ Object identifier. This value is one of the [object identifier](object-identifie
 
 ## Return value
 
-If the window or control does not need to respond to this message, it should pass the message to the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function; otherwise, the window or control should return a value that corresponds to the request specified by *dwObjId*:
+If the window or control does not need to respond to this message, it should pass the message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function; otherwise, the window or control should return a value that corresponds to the request specified by *dwObjId*:
 
 -   If the window or control implements UI Automation, the window or control should return the value obtained by a call to the [**UiaReturnRawElementProvider**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiareturnrawelementprovider) function.
 -   If *dwObjId* is [**OBJID\_NATIVEOM**](object-identifiers.md) and the window exposes a native Object Model, the windows should return the value obtained by a call to the [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) function.

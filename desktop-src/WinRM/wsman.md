@@ -164,7 +164,7 @@ The **WSMan** object has these properties.
 
 ## Remarks
 
-The **WSMan** object corresponds to the [**IWSMan**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman) and [**IWSManEx**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex) interfaces. **WSMan** is the only object that can be created directly using [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx).
+The **WSMan** object corresponds to the [**IWSMan**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman) and [**IWSManEx**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex) interfaces. **WSMan** is the only object that can be created directly using [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)).
 
 ## Examples
 

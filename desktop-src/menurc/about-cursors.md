@@ -62,7 +62,7 @@ In the cursor, a pixel called the *hot spot* marks the exact screen location tha
 
 ![hot spots on two cursors](images/cursorhotspot.png)
 
-When a mouse input event occurs, the mouse driver translates the event into an appropriate mouse message that includes the coordinates of the hot spot. The system sends the mouse message to the window that contains the hot spot or to the window that is capturing mouse input. For more information, see [Mouse Input](https://msdn.microsoft.com/library/windows/desktop/ms645533).
+When a mouse input event occurs, the mouse driver translates the event into an appropriate mouse message that includes the coordinates of the hot spot. The system sends the mouse message to the window that contains the hot spot or to the window that is capturing mouse input. For more information, see [Mouse Input](https://docs.microsoft.com/windows/desktop/inputdev/mouse-input).
 
 ## The Mouse and the Cursor
 
@@ -121,9 +121,9 @@ For information on how to add, remove, or replace cursor resources in executable
 
 ## The Window Class Cursor
 
-When you register a window class, using the [**RegisterClass**](https://msdn.microsoft.com/library/windows/desktop/ms633586) function, you can assign it a default cursor, known as the *class cursor*. After the application registers the window class, each window of that class has the specified class cursor.
+When you register a window class, using the [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) function, you can assign it a default cursor, known as the *class cursor*. After the application registers the window class, each window of that class has the specified class cursor.
 
-To override the class cursor, process the [**WM\_SETCURSOR**](wm-setcursor.md) message. You can also replace a class cursor by using the [**SetClassLong**](https://msdn.microsoft.com/library/windows/desktop/ms633588) function. This function changes the default window settings for all windows of a specified class. For more information, see [Class Cursor](https://msdn.microsoft.com/library/windows/desktop/ms633574#class-cursor).
+To override the class cursor, process the [**WM\_SETCURSOR**](wm-setcursor.md) message. You can also replace a class cursor by using the [**SetClassLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a specified class. For more information, see [Class Cursor](https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes).
 
  
 

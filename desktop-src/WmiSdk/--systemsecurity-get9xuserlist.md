@@ -20,7 +20,7 @@ api_location:
 
 The [**\_\_SystemSecurity::Set9XUserList**](--systemsecurity-set9xuserlist.md) method gets the remote access rights for a list of individual users on computers running obsolete versions of Windows , where access control through Windows security descriptors is not available.
 
-This functions similar to the security descriptor, but it is more limited. Groups are not supported and there is no control over local access, because the local user always has full access. Both deny and allow access control entries (ACE) are permitted, and because of this, the ACE order is important in the discretionary access control list (DACL). For more information, see [Order of ACEs in a DACL](https://msdn.microsoft.com/library/windows/desktop/aa379298).
+This functions similar to the security descriptor, but it is more limited. Groups are not supported and there is no control over local access, because the local user always has full access. Both deny and allow access control entries (ACE) are permitted, and because of this, the ACE order is important in the discretionary access control list (DACL). For more information, see [Order of ACEs in a DACL](https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl).
 
 ## Syntax
 
@@ -85,10 +85,10 @@ This method is not supported on supported versions of Windows.
 [**\_\_SystemSecurity::SetSD**](--systemsecurity-setsd.md)
 </dt> <dt>
 
-[**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063)
+[**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402)
+[**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [Securing WMI Namespaces](securing-wmi-namespaces.md)

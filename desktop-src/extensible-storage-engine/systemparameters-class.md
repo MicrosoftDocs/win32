@@ -32,7 +32,7 @@ Constants for the ESENT API. These don't have to be looked up via system paramet
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   Microsoft.Isam.Esent.Interop.SystemParameters  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

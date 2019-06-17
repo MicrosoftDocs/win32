@@ -22,7 +22,7 @@ The **IPortableDeviceKeyCollection** interface holds a collection of **PROPERTYK
 
 ## Members
 
-The **IPortableDeviceKeyCollection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPortableDeviceKeyCollection** also has these types of members:
+The **IPortableDeviceKeyCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPortableDeviceKeyCollection** also has these types of members:
 
 -   [Methods](#methods)
 

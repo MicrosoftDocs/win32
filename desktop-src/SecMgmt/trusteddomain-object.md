@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TrustedDomain Object
 
-The **TrustedDomain** object stores information about a trust relationship with a domain. A **TrustedDomain** object is created on the trusting system to identify an account within the trusted domain that can be used to submit authentication requests and to perform other operations, such as name and [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) translations.
+The **TrustedDomain** object stores information about a trust relationship with a domain. A **TrustedDomain** object is created on the trusting system to identify an account within the trusted domain that can be used to submit authentication requests and to perform other operations, such as name and [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) translations.
 
 The information stored in a **TrustedDomain** object includes:
 

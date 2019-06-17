@@ -73,7 +73,7 @@ public static IEnumerable<string> GetTableNames(
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0)\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)\>  
+Type: [System.Collections.Generic.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN)\<[String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)\>  
 An iterator over the names of the tables in the database.  
 
 ## See also

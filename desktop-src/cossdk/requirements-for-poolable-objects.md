@@ -25,7 +25,7 @@ Poolable objects cannot be bound to a particular thread; otherwise, performance 
 
 ## Aggregatable
 
-Poolable objects must support aggregation—that is, they must support being created by invoking [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) with a non-NULL *pUnkOuter* argument. When COM+ activates a pooled object, it creates an aggregate to manage the lifetime of the pooled object and to call methods on [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol). For details on writing aggregatable objects, see [Aggregation](https://msdn.microsoft.com/library/windows/desktop/ms686558).
+Poolable objects must support aggregation—that is, they must support being created by invoking [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a non-NULL *pUnkOuter* argument. When COM+ activates a pooled object, it creates an aggregate to manage the lifetime of the pooled object and to call methods on [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol). For details on writing aggregatable objects, see [Aggregation](https://docs.microsoft.com/windows/desktop/com/aggregation).
 
 ## Transactional Components
 

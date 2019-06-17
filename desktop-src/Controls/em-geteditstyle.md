@@ -62,7 +62,7 @@ Returns the current edit style flags, which can include one or more of the follo
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_BIDI</strong></dt> </dl></td>
-<td>Turns on bidirectional processing. This is automatically turned on by Rich Edit if any of the following window styles are active: <a href="https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-right"><strong>WS_EX_RIGHT</strong></a>, <a href="https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-rtlreading"><strong>WS_EX_RTLREADING</strong></a>, <a href="https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-leftscrollbar"><strong>WS_EX_LEFTSCROLLBAR</strong></a>. However, this setting is useful for handling these window styles when using a custom implementation of <a href="/windows/desktop/api/Textserv/nl-textserv-itexthost"><strong>ITextHost</strong></a> (default: 0).<br/></td>
+<td>Turns on bidirectional processing. This is automatically turned on by Rich Edit if any of the following window styles are active: <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles"><strong>WS_EX_RIGHT</strong></a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles"><strong>WS_EX_RTLREADING</strong></a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles"><strong>WS_EX_LEFTSCROLLBAR</strong></a>. However, this setting is useful for handling these window styles when using a custom implementation of <a href="/windows/desktop/api/Textserv/nl-textserv-itexthost"><strong>ITextHost</strong></a> (default: 0).<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_CTFALLOWEMBED</strong></dt> </dl></td>

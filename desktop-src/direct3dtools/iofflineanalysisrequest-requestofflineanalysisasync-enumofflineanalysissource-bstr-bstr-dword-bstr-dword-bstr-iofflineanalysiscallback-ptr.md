@@ -76,7 +76,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IOfflineAnalysisRequest**](https://msdn.microsoft.com/library/windows/desktop/mt432709)
+[**IOfflineAnalysisRequest**](https://docs.microsoft.com/windows/desktop/direct3dtools/iofflineanalysisrequest)
 
  
 

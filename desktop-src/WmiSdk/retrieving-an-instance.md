@@ -28,11 +28,11 @@ Retrieve a local copy of the instance with a call to the PowerShell [Get-WmiObje
 
     
 
-You can retrieve a WMI instance using C# by creating a search object using [CimInstance](https://msdn.microsoft.com/library/microsoft.management.infrastructure.ciminstance.aspx), and then filling it with the relevant key values, and then searching for that object with a [CimSession.GetInstance](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.getinstance.aspx) call.
+You can retrieve a WMI instance using C# by creating a search object using [CimInstance](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336(v=vs.85)), and then filling it with the relevant key values, and then searching for that object with a [CimSession.GetInstance](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832585(v=vs.85)) call.
 
 **To retrieve an instance of a WMI class using C# (Microsoft.Management.Infrastructure)**
 
-1.  Using the [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx) namespace, create a new [CimInstance](https://msdn.microsoft.com/library/microsoft.management.infrastructure.ciminstance.aspx) object with the relevant class name and namespace.
+1.  Using the [Microsoft.Management.Infrastructure](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)) namespace, create a new [CimInstance](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336(v=vs.85)) object with the relevant class name and namespace.
 
     ```CSharp
     using Microsoft.Management.Infrastructure;
@@ -45,7 +45,7 @@ You can retrieve a WMI instance using C# by creating a search object using [CimI
 
     
 
-2.  Create a [CimProperty](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimproperty.aspx) that contains the name and value of the key property of the instance you wish to search for, and add that property to your class object.
+2.  Create a [CimProperty](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832461(v=vs.85)) that contains the name and value of the key property of the instance you wish to search for, and add that property to your class object.
 
     ```CSharp
     myDrive.CimInstanceProperties.Add(CimProperty.Create("DeviceID", "C:", CimFlags.Key));
@@ -53,7 +53,7 @@ You can retrieve a WMI instance using C# by creating a search object using [CimI
 
     
 
-3.  Retrieve the object from WMI with a [CimSession.GetInstance](https://msdn.microsoft.com/library/microsoft.management.infrastructure.cimsession.getinstance.aspx) call.
+3.  Retrieve the object from WMI with a [CimSession.GetInstance](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832585(v=vs.85)) call.
 
     ```CSharp
     CimSession mySession = CimSession.Create("localhost");
@@ -62,7 +62,7 @@ You can retrieve a WMI instance using C# by creating a search object using [CimI
 
     
 
-You can retrieve either a specific WMI class instance, or a collection of WMI class instances, using classes in the [System.Management](https://msdn.microsoft.com/library/system.management.aspx) namespace.
+You can retrieve either a specific WMI class instance, or a collection of WMI class instances, using classes in the [System.Management](https://docs.microsoft.com/dotnet/api/system.management?redirectedfrom=MSDN) namespace.
 
 > [!Note]  
 > **System.Management** was the original .NET namespace used to access WMI; however, the APIs in this namespace generally are slower and do not scale as well relative to their more modern **Microsoft.Management.Infrastructure** counterparts.
@@ -71,7 +71,7 @@ You can retrieve either a specific WMI class instance, or a collection of WMI cl
 
 **To retrieve an instance of a WMI class using C# (System.Management)**
 
-1.  Retrieve a local copy of a specific instance by creating a new [ManagementObject](https://msdn.microsoft.com/library/system.management.managementobject.aspx), with the name and specific instance value passed in though the *ManagementPath* parameter. You can then retrieve the instance data by explicitly calling [ManagementObject.Get](https://msdn.microsoft.com/library/k18t5sbs.aspx).
+1.  Retrieve a local copy of a specific instance by creating a new [ManagementObject](https://docs.microsoft.com/dotnet/api/system.management.managementobject?redirectedfrom=MSDN), with the name and specific instance value passed in though the *ManagementPath* parameter. You can then retrieve the instance data by explicitly calling [ManagementObject.Get](https://docs.microsoft.com/dotnet/api/system.management.managementobject.get?redirectedfrom=MSDN#System_Management_ManagementObject_Get).
 
     ```CSharp
     using System.Management;
@@ -82,7 +82,7 @@ You can retrieve either a specific WMI class instance, or a collection of WMI cl
 
     
 
-2.  Alternately, you can retrieve all instances of a WMI class by searching for them with a [ManagementObjectSearcher](https://msdn.microsoft.com/library/system.management.managementobjectsearcher.aspx), and then enumerating through the returned [ManagementObjectCollection](https://msdn.microsoft.com/library/system.management.managementobjectcollection.aspx).
+2.  Alternately, you can retrieve all instances of a WMI class by searching for them with a [ManagementObjectSearcher](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher?redirectedfrom=MSDN), and then enumerating through the returned [ManagementObjectCollection](https://docs.microsoft.com/dotnet/api/system.management.managementobjectcollection?redirectedfrom=MSDN).
 
     ```CSharp
     using System.Management;

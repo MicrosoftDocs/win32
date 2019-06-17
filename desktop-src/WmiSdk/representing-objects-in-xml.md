@@ -120,7 +120,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     After you have initialized COM and are connected to WMI, call [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) to retrieve a reference to the specified class or instance. If you used a BSTR to specify the class or instance, call [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free up the memory allocated by [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx).
 
-    The following code example retrieves a reference to an [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) instance.
+    The following code example retrieves a reference to an [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance.
 
     ```C++
     HRESULT hr = NULL;
@@ -195,7 +195,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     
 
-The following C++ example code includes all of the steps in the previous procedure and encodes the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class in XML including class, property, and method qualifiers and excluding system properties.
+The following C++ example code includes all of the steps in the previous procedure and encodes the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in XML including class, property, and method qualifiers and excluding system properties.
 
 
 ```C++
@@ -429,7 +429,7 @@ The following procedure describes how to encode an object in XML using VBScript.
 
     
 
-The following VBScript code example includes all of the steps in the preceding procedure and encodes the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class in XML, including class, property, and method qualifiers and excluding system properties.
+The following VBScript code example includes all of the steps in the preceding procedure and encodes the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in XML, including class, property, and method qualifiers and excluding system properties.
 
 
 ```VB

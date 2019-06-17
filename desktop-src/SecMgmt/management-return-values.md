@@ -45,7 +45,7 @@ The Security Configuration tool set supports the following **SCESTATUS** return 
 
 ## LSA Policy Function Return Values
 
-Most [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) Policy functions return an NTSTATUS value to indicate success or failure. The various NTSTATUS values are defined in Ntstatus.h, which is distributed with the Microsoft Windows Driver Development Kit (DDK).
+Most [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) Policy functions return an NTSTATUS value to indicate success or failure. The various NTSTATUS values are defined in Ntstatus.h, which is distributed with the Microsoft Windows Driver Development Kit (DDK).
 
 To convert an NTSTATUS return value to a Windows error code, use the [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) function.
 
@@ -59,7 +59,7 @@ The following table lists the NTSTATUS values that might be returned by any LSA 
 | STATUS\_ACCESS\_DENIED (ERROR\_ACCESS\_DENIED)<br/>                 | Caller does not have the appropriate access to complete the operation.                                                                  |
 | STATUS\_INSUFFICIENT\_RESOURCES (ERROR\_NO\_SYSTEM\_RESOURCES)<br/> | There are not enough system resources (such as memory to allocate buffers) to complete the call.                                        |
 | STATUS\_INTERNAL\_DB\_ERROR (ERROR\_INTERNAL\_DB\_ERROR)<br/>       | The LSA database contains an internal inconsistency.                                                                                    |
-| STATUS\_INVALID\_HANDLE (ERROR\_INVALID\_HANDLE)<br/>               | Indicates an object or RPC handle is not valid in the [*context*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-gly) used.     |
+| STATUS\_INVALID\_HANDLE (ERROR\_INVALID\_HANDLE)<br/>               | Indicates an object or RPC handle is not valid in the [*context*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) used.     |
 | STATUS\_INVALID\_SERVER\_STATE (ERROR\_INVALID\_SERVER\_STATE)<br/> | Indicates the LSA server is currently disabled.                                                                                         |
 | STATUS\_INVALID\_PARAMETER (ERROR\_INVALID\_PARAMETER)<br/>         | One of the parameters is not valid.                                                                                                     |
 | STATUS\_NO\_SUCH\_PRIVILEGE (ERROR\_NO\_SUCH\_PRIVILEGE)<br/>       | Indicates a specified privilege does not exist.                                                                                         |

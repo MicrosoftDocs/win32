@@ -49,26 +49,26 @@ The **Msvm\_MetricCollectionDependency** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218)**
+Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) class that represents the independent metric definition or metric value. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class that represents the independent metric definition or metric value. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218)**
+Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to an instance of the [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) class that represents the metric definition or metric value that is dependent on the **Antecedent**. This property is inherited from [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238).
+A reference to an instance of the [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class that represents the metric definition or metric value that is dependent on the **Antecedent**. This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> </dl>
 

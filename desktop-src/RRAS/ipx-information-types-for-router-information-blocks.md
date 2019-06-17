@@ -23,7 +23,7 @@ The following information types are listed in Ipxrtdef.h. Use these information 
 | IPX\_OUT\_TRAFFIC\_FILTER\_INFO\_TYPE         | IPX\_TRAFFIC\_FILTER\_INFO                                     |
 | IPX\_STATIC\_NETBIOS\_NAME\_INFO\_TYPE        | IPX\_STATIC\_NETBIOS\_NAME\_INFO                               |
 | IPX\_STATIC\_ROUTE\_INFO\_TYPE                | IPX\_STATIC\_ROUTE\_INFO                                       |
-| IPX\_STATIC\_SERVICE\_INFO\_TYPE              | [**IPX\_STATIC\_SERVICE\_INFO**](https://msdn.microsoft.com/library/windows/desktop/aa374456) |
+| IPX\_STATIC\_SERVICE\_INFO\_TYPE              | [**IPX\_STATIC\_SERVICE\_INFO**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)) |
 | IPXWAN\_INTERFACE\_INFO\_TYPE                 | [**IPXWAN\_IF\_INFO**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipxwan_if_info)                     |
 
 

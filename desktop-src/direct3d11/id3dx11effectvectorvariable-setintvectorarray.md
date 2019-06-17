@@ -43,7 +43,7 @@ HRESULT SetIntVectorArray(
 *pData* 
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the start of the data to set.
 
@@ -52,7 +52,7 @@ A pointer to the start of the data to set.
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Must be set to 0; this is reserved for future use.
 
@@ -61,7 +61,7 @@ Must be set to 0; this is reserved for future use.
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The number of array elements to set.
 

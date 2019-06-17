@@ -85,7 +85,7 @@ A hot key cannot be associated with a child window.
 
 **VK\_ESCAPE**, **VK\_SPACE**, and **VK\_TAB** are invalid hot keys.
 
-When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360) message with *wParam* equal to **SC\_HOTKEY** and *lParam* equal to the window's handle. If this message is passed on to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572), the system will bring the window's last active popup (if it exists) or the window itself (if there is no popup window) to the foreground.
+When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message with *wParam* equal to **SC\_HOTKEY** and *lParam* equal to the window's handle. If this message is passed on to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca), the system will bring the window's last active popup (if it exists) or the window itself (if there is no popup window) to the foreground.
 
 A window can only have one hot key. If the window already has a hot key associated with it, the new hot key replaces the old one. If more than one window has the same hot key, the window that is activated by the hot key is random.
 
@@ -116,7 +116,7 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https:/
 [**WM\_GETHOTKEY**](wm-gethotkey.md)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360)
+[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 **Conceptual**

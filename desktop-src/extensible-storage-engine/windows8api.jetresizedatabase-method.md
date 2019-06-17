@@ -80,14 +80,14 @@ public static void JetResizeDatabase(
 <!-- end list -->
 
   - desiredPages  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The desired size of the database, in pages.
 
 <!-- end list -->
 
   - actualPages  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     The size of the database, in pages, after the call.
 

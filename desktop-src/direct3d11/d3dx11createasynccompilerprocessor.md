@@ -53,7 +53,7 @@ HRESULT D3DX11CreateAsyncCompilerProcessor(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A string that contains the shader filename.
 
@@ -71,7 +71,7 @@ A NULL-terminated array of shader macros; set this to **NULL** to specify no mac
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/windows/desktop/bb173775)**
+Type: **[**LPD3D10INCLUDE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
 A pointer to an include interface. This parameter can be **NULL**.
 
@@ -80,7 +80,7 @@ A pointer to an include interface. This parameter can be **NULL**.
 *pFunctionName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Name of the shader-entry point function where shader execution begins. When you compile an effect, **D3DX11CreateAsyncCompilerProcessor** ignores *pFunctionName*; we recommend that you set *pFunctionName* to **NULL** because it is good programming practice to set a pointer parameter to **NULL** if the called function will not use it..
 
@@ -89,7 +89,7 @@ Name of the shader-entry point function where shader execution begins. When you 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 A string that specifies the shader profile or shader model; can be any profile in shader model 2, shader model 3, shader model 4, or shader model 5. The profile can also be for effect type (for example, fx\_4\_1).
 
@@ -98,7 +98,7 @@ A string that specifies the shader profile or shader model; can be any profile i
 *Flags1* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Shader compile flags.
 
@@ -107,7 +107,7 @@ Shader compile flags.
 *Flags2* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Effect compile flags. When you compile a shader and not an effect file, **D3DX11CreateAsyncCompilerProcessor** ignores *Flags2*; we recommend that you set *Flags2* to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
 
@@ -116,7 +116,7 @@ Effect compile flags. When you compile a shader and not an effect file, **D3DX11
 *ppCompiledShader* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\*\***
+Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 Address of a pointer to the compiled effect.
 
@@ -125,7 +125,7 @@ Address of a pointer to the compiled effect.
 *ppErrorBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://msdn.microsoft.com/library/windows/desktop/bb173507)\*\***
+Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 Address of a pointer to compile errors.
 

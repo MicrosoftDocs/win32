@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instance methods (Microsoft.Isam.Esent.Interop)
 TOCTitle: Instance methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Instance
@@ -28,53 +28,53 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/k296d386">Close</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.close?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_Close">Close</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/a1cssf5t">DangerousAddRef</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dangerousaddref?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_DangerousAddRef_System_Boolean__">DangerousAddRef</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/277heftx">DangerousGetHandle</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dangerousgethandle?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_DangerousGetHandle">DangerousGetHandle</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/k2ba91w2">DangerousRelease</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dangerousrelease?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_DangerousRelease">DangerousRelease</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/4h5yzadk">Dispose()</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dispose?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_Dispose">Dispose()</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms146715">Dispose(Boolean)</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.dispose?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/f967bh71">Finalize</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.finalize?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_Finalize">Finalize</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -93,23 +93,23 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="dn350956(v=exchg.10).md">ReleaseHandle</a></td>
-<td>Release the handle for this instance. (Overrides <a href="https://msdn.microsoft.com/en-us/library/22ywedf6">SafeHandle.ReleaseHandle()</a>.)</td>
+<td>Release the handle for this instance. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.releasehandle?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_ReleaseHandle">SafeHandle.ReleaseHandle()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/9s47xzk4">SetHandle</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.sethandle?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_SetHandle_System_IntPtr_">SetHandle</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://msdn.microsoft.com/en-us/library/18fth6d8">SetHandleAsInvalid</a></td>
-<td>(Inherited from <a href="https://msdn.microsoft.com/en-us/library/7s3yckbh">SafeHandle</a>.)</td>
+<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.sethandleasinvalid?redirectedfrom=MSDN#System_Runtime_InteropServices_SafeHandle_SetHandleAsInvalid">SetHandleAsInvalid</a></td>
+<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -119,7 +119,7 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn350960(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="https://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn350923(v=exchg.10).md">Instance</a>. (Overrides <a href="https://msdn.microsoft.com/en-us/library/7bxwbwt2">Object.ToString()</a>.)</td>
+<td>Returns a <a href="https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN">String</a> that represents the current <a href="dn350923(v=exchg.10).md">Instance</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>

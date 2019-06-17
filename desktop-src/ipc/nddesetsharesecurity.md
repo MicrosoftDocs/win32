@@ -58,14 +58,14 @@ The name of the share whose security descriptor is to be modified. This paramete
 *si* \[in\]
 </dt> <dd>
 
-A [**SECURITY\_INFORMATION**](https://msdn.microsoft.com/library/windows/desktop/aa379573) value that identifies the security information to retrieve.
+A [**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information) value that identifies the security information to retrieve.
 
 </dd> <dt>
 
 *pSD* \[in\]
 </dt> <dd>
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure that contains security information. This parameter cannot be **NULL** and should point to a valid security descriptor.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) structure that contains security information. This parameter cannot be **NULL** and should point to a valid security descriptor.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ If the function fails, the return value is an error code, which can be translate
 
 ## Remarks
 
-To modify the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) associated with a DDE share in the DSDM, the user must have appropriate privilege; the share creator has this privilege.
+To modify the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor) associated with a DDE share in the DSDM, the user must have appropriate privilege; the share creator has this privilege.
 
 ## Requirements
 
@@ -104,7 +104,7 @@ To modify the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/wind
 [Network DDE Functions](network-dde-functions.md)
 </dt> <dt>
 
-[**SECURITY\_INFORMATION**](https://msdn.microsoft.com/library/windows/desktop/aa379573)
+[**SECURITY\_INFORMATION**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information)
 </dt> <dt>
 
 [**NDdeGetShareSecurity**](nddegetsharesecurity.md)

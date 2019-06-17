@@ -79,7 +79,7 @@ OLECHAR string[] =
 
  
 
-For more information about system-supplied monikers and monikers and activation modes, see [Monikers](https://msdn.microsoft.com/en-us/library/ms691261(v=VS.85).aspx), the [**IMoniker**](https://msdn.microsoft.com/en-us/library/ms679705(v=VS.85).aspx) interface, and [AppId Key](https://msdn.microsoft.com/library/windows/desktop/ms682359) in the COM documentation in the Platform Software Development Kit (SDK).
+For more information about system-supplied monikers and monikers and activation modes, see [Monikers](https://msdn.microsoft.com/en-us/library/ms691261(v=VS.85).aspx), the [**IMoniker**](https://msdn.microsoft.com/en-us/library/ms679705(v=VS.85).aspx) interface, and [AppId Key](https://docs.microsoft.com/windows/desktop/com/appid-key) in the COM documentation in the Platform Software Development Kit (SDK).
 
  
 

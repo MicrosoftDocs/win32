@@ -24,7 +24,7 @@ Given that passwords must usually be stored on the software system, it becomes i
 -   [Threat Mitigation Techniques](threat-mitigation-techniques.md)
 
 > [!Note]  
-> When you have finished using passwords in applications, clear the sensitive information from memory by calling the [**SecureZeroMemory**](https://msdn.microsoft.com/library/windows/desktop/aa366877) function.
+> When you have finished using passwords in applications, clear the sensitive information from memory by calling the [**SecureZeroMemory**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function.
 
  
 

@@ -46,7 +46,7 @@ The return value is the index of the position at which the string was inserted. 
 
 The [**LB\_INITSTORAGE**](lb-initstorage.md) message helps speed up the initialization of list boxes that have a large number of items (more than 100). It reserves the specified amount of memory so that subsequent **LB\_INSERTSTRING** messages take the shortest possible time. You can use estimates for the *wParam* and *lParam* parameters. If you overestimate, the extra memory is allocated; if you underestimate, the normal allocation is used for items that exceed the requested amount.
 
-If the list box has [**WS\_HSCROLL**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-hscroll) style and you insert a string wider than the list box, send an [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) message to ensure the horizontal scroll bar appears.
+If the list box has [**WS\_HSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style and you insert a string wider than the list box, send an [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) message to ensure the horizontal scroll bar appears.
 
 For an ANSI application, the system converts the text in a list box to Unicode using CP\_ACP. This can cause problems. For example, accented Roman characters in a non-Unicode list box in Japanese Windows will come out garbled. To fix this, either compile the application as Unicode or use an owner-drawn list box.
 

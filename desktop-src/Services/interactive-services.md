@@ -19,8 +19,8 @@ Typically, services are console applications that are designed to run unattended
 
 You can use the following techniques to interact with the user from a service on all supported versions of Windows:
 
--   Display a dialog box in the user's session using the [**WTSSendMessage**](https://msdn.microsoft.com/library/aa383842) function.
--   Create a separate hidden GUI application and use the [**CreateProcessAsUser**](https://msdn.microsoft.com/library/windows/desktop/ms682429) function to run the application within the context of the interactive user. Design the GUI application to communicate with the service through some method of interprocess communication (IPC), for example, named pipes. The service communicates with the GUI application to tell it when to display the GUI. The application communicates the results of the user interaction back to the service so that the service can take the appropriate action. Note that IPC can expose your service interfaces over the network unless you use an appropriate access control list (ACL).
+-   Display a dialog box in the user's session using the [**WTSSendMessage**](https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssendmessagea) function.
+-   Create a separate hidden GUI application and use the [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function to run the application within the context of the interactive user. Design the GUI application to communicate with the service through some method of interprocess communication (IPC), for example, named pipes. The service communicates with the GUI application to tell it when to display the GUI. The application communicates the results of the user interaction back to the service so that the service can take the appropriate action. Note that IPC can expose your service interfaces over the network unless you use an appropriate access control list (ACL).
 
     If this service runs on a multiuser system, add the application to the following key so that it is run in each session: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run**. If the application uses named pipes for IPC, the server can distinguish between multiple user processes by giving each pipe a unique name based on the session ID.
 
@@ -30,10 +30,10 @@ The following technique is also available for Windows Server 2003 and Windows 
 
 ## Using an Interactive Service
 
-By default, services use a noninteractive [window station](https://msdn.microsoft.com/library/windows/desktop/ms687096) and cannot interact with the user. However, an *interactive service* can display a user interface and receive user input.
+By default, services use a noninteractive [window station](https://docs.microsoft.com/windows/desktop/winstation/window-stations) and cannot interact with the user. However, an *interactive service* can display a user interface and receive user input.
 
 > [!Caution]  
-> Services running in an elevated security context, such as the LocalSystem account, should not create a window on the interactive desktop because any other application that is running on the interactive desktop can interact with this window. This exposes the service to any application that a logged-on user executes. Also, services that are running as LocalSystem should not access the interactive desktop by calling the [**OpenWindowStation**](https://msdn.microsoft.com/library/windows/desktop/ms684339) or [**GetThreadDesktop**](https://msdn.microsoft.com/library/windows/desktop/ms683232) function.
+> Services running in an elevated security context, such as the LocalSystem account, should not create a window on the interactive desktop because any other application that is running on the interactive desktop can interact with this window. This exposes the service to any application that a logged-on user executes. Also, services that are running as LocalSystem should not access the interactive desktop by calling the [**OpenWindowStation**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa) or [**GetThreadDesktop**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddesktop) function.
 
  
 
@@ -42,7 +42,7 @@ To create an interactive service, do the following when calling the [**CreateSer
 1.  Specify NULL for the *lpServiceStartName* parameter to run the service in the context of the [LocalSystem account](localsystem-account.md).
 2.  Specify the **SERVICE\_INTERACTIVE\_PROCESS** flag.
 
-To determine whether a service is running as an interactive service, call the [**GetProcessWindowStation**](https://msdn.microsoft.com/library/windows/desktop/ms683225) function to retrieve a handle to the window station, and the [**GetUserObjectInformation**](https://msdn.microsoft.com/library/windows/desktop/ms683238) function to test whether the window station has the **WSF\_VISIBLE** attribute.
+To determine whether a service is running as an interactive service, call the [**GetProcessWindowStation**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation) function to retrieve a handle to the window station, and the [**GetUserObjectInformation**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa) function to test whether the window station has the **WSF\_VISIBLE** attribute.
 
 However, note that the following registry key contains a value, **NoInteractiveServices**, that controls the effect of SERVICE\_INTERACTIVE\_PROCESS:
 

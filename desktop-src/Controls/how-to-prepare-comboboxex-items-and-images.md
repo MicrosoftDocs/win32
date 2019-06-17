@@ -206,7 +206,7 @@ BOOL WINAPI AddItems(HWND hwndCB)
 [ComboBoxEx Control Reference](bumper-comboboxex-comboboxex-control-reference.md)
 </dt> <dt>
 
-[Using ComboBoxEx Controls](https://msdn.microsoft.com/library/windows/desktop/bb775744)
+[Using ComboBoxEx Controls](https://docs.microsoft.com/windows/desktop/Controls/using-comboboxex)
 </dt> <dt>
 
 [ComboBoxEx](comboboxex-control-reference.md)

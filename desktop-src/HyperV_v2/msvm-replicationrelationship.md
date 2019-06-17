@@ -110,10 +110,10 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("InstanceID")
+Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
 </dt> </dl>
 
-Identifies replication relationship. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
+Identifies replication relationship. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 This property has this format:
 
@@ -495,7 +495,7 @@ The Hyper-V replication feature in Windows 8.1 enables a user to extend the repl
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> <dt>
 
-[**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898)
+[**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement)
 </dt> </dl>
 
  

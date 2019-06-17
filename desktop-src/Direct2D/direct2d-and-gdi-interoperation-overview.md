@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Direct2D and GDI Interoperability Overview
 
-This topic describes how to use Direct2D and [GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203) together. There are two ways to combine Direct2D with GDI: you can write GDI content to a Direct2D GDI-compatible render target, or you can write Direct2D content to a [GDI Device Context (DC)](https://msdn.microsoft.com/library/windows/desktop/dd183553).
+This topic describes how to use Direct2D and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) together. There are two ways to combine Direct2D with GDI: you can write GDI content to a Direct2D GDI-compatible render target, or you can write Direct2D content to a [GDI Device Context (DC)](https://docs.microsoft.com/windows/desktop/gdi/device-contexts).
 
 This topic contains the following sections.
 
@@ -237,7 +237,7 @@ This code produces outputs as shown in the following illustration (callouts have
 
 When you use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx), it renders Direct2D content to an internal bitmap, and then renders the bitmap to the DC with GDI.
 
-It's possible for GDI to apply a GDI transform (through the [**SetWorldTransform**](https://msdn.microsoft.com/library/windows/desktop/dd145104) method) or other effect to the same DC used by the render target, in which case GDI transforms the bitmap produced by Direct2D. Using a GDI transform to transform the Direct2D content has the potential to degrade the visual quality of the output, because you're transforming a bitmap for which antialiasing and subpixel positioning have already been calculated.
+It's possible for GDI to apply a GDI transform (through the [**SetWorldTransform**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform) method) or other effect to the same DC used by the render target, in which case GDI transforms the bitmap produced by Direct2D. Using a GDI transform to transform the Direct2D content has the potential to degrade the visual quality of the output, because you're transforming a bitmap for which antialiasing and subpixel positioning have already been calculated.
 
 For example, suppose you use the render target to draw a scene that contains antialiased geometries and text. If you use a GDI transform to apply a scale transform to the DC and scale the scene so that it's 10 times larger, you'll see pixelization and jagged edges. (If, however, you applied a similar transform using Direct2D, the visual quality of the scene would not be degraded.)
 
@@ -245,7 +245,7 @@ In some cases, it might not be obvious that GDI is performing additional process
 
 Depending on the type of content being rendered, you might want to prevent the inversion. If the Direct2D content includes ClearType text, this inversion will degrade the quality of the text.
 
-You can control RTL rendering behavior by using the [**SetLayout**](https://msdn.microsoft.com/library/windows/desktop/dd162979) GDI function. To prevent the mirroring, call the **SetLayout** GDI function and specify **LAYOUT\_BITMAPORIENTATIONPRESERVED** as the only value for the second parameter (do not combine it with **LAYOUT\_RTL**), as shown in the following example:
+You can control RTL rendering behavior by using the [**SetLayout**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout) GDI function. To prevent the mirroring, call the **SetLayout** GDI function and specify **LAYOUT\_BITMAPORIENTATIONPRESERVED** as the only value for the second parameter (do not combine it with **LAYOUT\_RTL**), as shown in the following example:
 
 
 ```C++
@@ -362,10 +362,10 @@ The code outputs charts as shown in the following illustration with callouts to 
 [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties)
 </dt> <dt>
 
-[GDI Device Contexts](https://msdn.microsoft.com/library/windows/desktop/dd183553)
+[GDI Device Contexts](https://docs.microsoft.com/windows/desktop/gdi/device-contexts)
 </dt> <dt>
 
-[GDI SDK](https://msdn.microsoft.com/library/windows/desktop/dd145203)
+[GDI SDK](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi)
 </dt> </dl>
 
  

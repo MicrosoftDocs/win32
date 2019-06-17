@@ -42,7 +42,7 @@ In addition, NPS contains a set of new features that expand the IAS capabilities
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/aa369712">Network Access Protection (NAP)</a><br/></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection (NAP)</a><br/></td>
 <td>NPS is the central server of Network Access Protection.<br/> NPS supports policy authoring using the following additional conditions:<br/>
 <ul>
 <li>Policy expiration.</li>
@@ -61,7 +61,7 @@ NPS supports policy authoring using the following additional settings:<br/>
 NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/aa363502">EAP</a> Policy and <a href="https://msdn.microsoft.com/library/windows/desktop/aa364249">EAPHost</a> Support<br/></td>
+<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-start-page">EAP</a> Policy and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/portal">EAPHost</a> Support<br/></td>
 <td>NPS uses EAPHost for EAP method extensibility. Additionally, administrators may configure network access policy for EAP.<br/> IAS does not support EAPHost integration, or EAP type filter conditions for policies.<br/></td>
 </tr>
 <tr class="odd">
@@ -109,13 +109,13 @@ See [TechNet: Network Policy Server](https://go.microsoft.com/fwlink/p/?linkid=1
 
 <dl> <dt>
 
-[RADIUS Authentication, Authorization, and Accounting](https://msdn.microsoft.com/library/bb892012)
+[RADIUS Authentication, Authorization, and Accounting](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-authentication-and-accounting)
 </dt> <dt>
 
-[Logging With Network Policy Server](https://msdn.microsoft.com/library/bb892007)
+[Logging With Network Policy Server](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-accounting-packets)
 </dt> <dt>
 
-[Working with a State Server](https://msdn.microsoft.com/library/bb892032)
+[Working with a State Server](https://docs.microsoft.com/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
 
  

@@ -18,9 +18,9 @@ api_location:
 
 # Rename method of the Win32\_UserAccount class
 
-The **Rename** [WMI class](https://msdn.microsoft.com/library/aa393244) method renames a user account name.
+The **Rename** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method renames a user account name.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ New account name.
 
 ## Return value
 
-Returns one of the values listed in the following list. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns one of the values listed in the following list. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -172,7 +172,7 @@ This functionality is implemented as a method to provide a separate context for 
 [**Win32\_UserAccount**](win32-useraccount.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  

@@ -26,7 +26,7 @@ Extensions to the IPixEngine5 interface containing additions for determining rem
 
 ## Members
 
-The **IPixEngine6** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IPixEngine6** also has these types of members:
+The **IPixEngine6** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine6** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IPixEngine6** interface inherits from the [**IUnknown**](https://msdn.micr
 
 The **IPixEngine6** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432772"><strong>GetRemotingVersion</strong></a></td><td style="text-align: left;"><p>Gets the remoting version of the engine.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td style="text-align: left;"><p>Gets the remoting version of the engine.</p></td></tr></tbody></table>
 
  
 

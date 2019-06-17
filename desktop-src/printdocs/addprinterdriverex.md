@@ -130,7 +130,7 @@ For more information, see the Remarks.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://msdn.microsoft.com/library/windows/desktop/aa375728).
+The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
 
 Before calling the **AddPrinterDriverEx** function, all files required by the driver must be copied to the system's printer-driver directory. To retrieve the name of this directory, call the [**GetPrinterDriverDirectory**](getprinterdriverdirectory.md) function.
 

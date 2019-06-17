@@ -57,7 +57,7 @@ How to configure the Internet Protocol Security (IPsec).
 [Best Practices](best-practices.md)
 </dt> <dt>
 
-[Implementing the Teredo Security Model](https://msdn.microsoft.com/library/windows/desktop/bb190942)
+[Implementing the Teredo Security Model](https://docs.microsoft.com/windows/desktop/Teredo/implementing-the-teredo-security-model)
 </dt> <dt>
 
 [WFP Discussion Forum](https://go.microsoft.com/fwlink/p/?linkid=93354)

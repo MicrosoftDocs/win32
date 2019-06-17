@@ -61,7 +61,7 @@ Data type: **[**Msvm\_LANEndpoint**](msvm-lanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) class that represents the service access point (SAP) that is configured to communicate or is actively communicating with the dependent SAP. In an unidirectional connection, this SAP is the one that is transmitting.
@@ -77,7 +77,7 @@ Data type: **[**CIM\_LANEndpoint**](cim-lanendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_LANEndpoint**](cim-lanendpoint.md) class that represents the SAP that is configured to communicate or is actively communicating with the antecedent SAP. In an unidirectional connection, this SAP is the one that is receiving.
@@ -93,7 +93,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If this property is **True**, this connection is unidirectional; otherwise, this connection is bidirectional. When a connection is unidirectional, the "speaker" should be defined as the **Antecedent** reference. In a bidirectional connection, it does not matter whether the selected access point is the **Antecedent** or **Dependent**. This property is inherited from [**CIM\_ActiveConnection**](https://msdn.microsoft.com/library/cc136779).
+If this property is **True**, this connection is unidirectional; otherwise, this connection is bidirectional. When a connection is unidirectional, the "speaker" should be defined as the **Antecedent** reference. In a bidirectional connection, it does not matter whether the selected access point is the **Antecedent** or **Dependent**. This property is inherited from [**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85)).
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ActiveConnection**](https://msdn.microsoft.com/library/cc136779), but it is not used.
+This property is inherited from [**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85)), but it is not used.
 
 </dd> <dt>
 
@@ -119,13 +119,13 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ActiveConnection**](https://msdn.microsoft.com/library/cc136779), but it is not used.
+This property is inherited from [**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85)), but it is not used.
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ActiveConnection** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ActiveConnection** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -152,7 +152,7 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_ActiveConnection**](cim-activeconnection.md)
 </dt> <dt>
 
-[**CIM\_ActiveConnection**](https://msdn.microsoft.com/library/cc136779)
+[**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85))
 </dt> </dl>
 
  

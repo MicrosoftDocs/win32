@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Windows Event Collector
 
-You can subscribe to receive and store events on a local computer (event collector) that are forwarded from a remote computer (event source). The [Windows Event Collector functions](windows-event-collector-functions.md) support subscribing to events by using the WS-Management protocol. For more information about WS-Management, see [About Windows Remote Management](https://msdn.microsoft.com/library/aa384291).
+You can subscribe to receive and store events on a local computer (event collector) that are forwarded from a remote computer (event source). The [Windows Event Collector functions](windows-event-collector-functions.md) support subscribing to events by using the WS-Management protocol. For more information about WS-Management, see [About Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/about-windows-remote-management).
 
 ## Event Forwarding and Event Collection Architecture
 

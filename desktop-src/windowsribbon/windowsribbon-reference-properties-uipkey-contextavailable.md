@@ -31,7 +31,7 @@ UI\_PKEY\_ContextAvailable is used by an application to query the availability o
 [State Properties](windowsribbon-reference-properties-state.md)
 </dt> <dt>
 
-[**UI\_CONTEXTAVAILABILITY**](https://msdn.microsoft.com/library/windows/desktop/dd371558)
+[**UI\_CONTEXTAVAILABILITY**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_contextavailability)
 </dt> </dl>
 
  

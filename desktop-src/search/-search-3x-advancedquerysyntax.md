@@ -236,7 +236,7 @@ The syntax listed in the following table consists of an operator, operator symbo
 <td>COP_NOTEQUAL</td>
 <td>≠<br/> -<br/> <><br/> NOT<br/> - -<br/></td>
 <td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:<>picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
-<td>The <a href="https://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx">System.Kind</a> property is not a picture.<br/> The <a href="https://msdn.microsoft.com/en-us/library/bb760410(VS.85).aspx">System.Photo.DateTaken</a> property has a value.<br/> The <a href="https://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx">System.Kind</a> property is not a picture. <br/> The <a href="https://msdn.microsoft.com/en-us/library/bb787521(VS.85).aspx">System.Kind</a> property is not a picture. <br/> Double NOT operators applied to the same property do not cancel out. Hence, System.Kind:- -picture is equivalent to System.Kind:-picture and System.Kind:NOT picture.<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture.<br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken">System.Photo.DateTaken</a> property has a value.<br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture. <br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture. <br/> Double NOT operators applied to the same property do not cancel out. Hence, System.Kind:- -picture is equivalent to System.Kind:-picture and System.Kind:NOT picture.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_LESSTHAN</td>

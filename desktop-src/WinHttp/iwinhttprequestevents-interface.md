@@ -21,7 +21,7 @@ The **IWinHttpRequestEvents** interface provides events for [Microsoft Windows H
 
 ## Members
 
-The **IWinHttpRequestEvents** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IWinHttpRequestEvents** also has these types of members:
+The **IWinHttpRequestEvents** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWinHttpRequestEvents** also has these types of members:
 
 -   [Methods](#methods)
 

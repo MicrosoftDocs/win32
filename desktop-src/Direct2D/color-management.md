@@ -174,7 +174,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 | D2D1\_COLORMANAGEMENT\_QUALITY\_NORMAL | Normal quality mode. This mode requires feature level 9\_1 or above. |
 | D2D1\_COLORMANAGEMENT\_QUALITY\_BEST | The best quality mode. This mode requires feature level 10\_0 or above, as well as floating point precision buffers. This mode supports floating point precision as well as extended range as defined in the ICC v4.3 specification. |
 
-The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](https://msdn.microsoft.com/en-us/library/Dn441541(v=VS.85).aspx) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
+The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](https://msdn.microsoft.com/en-us/library/Dn441541(v=VS.85).aspx) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
 
 ## Sample code
 

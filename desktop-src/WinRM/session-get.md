@@ -46,7 +46,7 @@ The identifier of the resource to be retrieved.
 
 This parameter can contain one of the following:
 
--   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171), you cannot use a selector.
+-   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime), you cannot use a selector.
 
     ```VB
     strResourceUri = "https://schemas.microsoft.com/" _ 
@@ -76,7 +76,7 @@ An XML representation of the resource.
 
 ## Examples
 
-The following VBScript code example retrieves the XML representation of the [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) instance that represents the WMI Winmgmt service on the local computer.
+The following VBScript code example retrieves the XML representation of the [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) instance that represents the WMI Winmgmt service on the local computer.
 
 
 ```VB

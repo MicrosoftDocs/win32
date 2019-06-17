@@ -18,17 +18,17 @@ This article provides a technical explanation for Direct3D application developer
 
 Direct3D uses three transformations to change your 3D model coordinates into pixel coordinates (screen space). These transformations are world transform, view transform, and projection transform.
 
-World transform controls how model coordinates are transformed into world coordinates. World transform can include translations, rotations, and scalings, but it does not apply to lights. For more information on working with world transforms, see [World Transform](https://msdn.microsoft.com/library/windows/desktop/bb206365).
+World transform controls how model coordinates are transformed into world coordinates. World transform can include translations, rotations, and scalings, but it does not apply to lights. For more information on working with world transforms, see [World Transform](https://docs.microsoft.com/windows/desktop/direct3d9/world-transform).
 
-View transform controls the transition from world coordinates into "camera space," determining camera position in the world. For an example of working with view transforms, see [View Transform](https://msdn.microsoft.com/library/windows/desktop/bb206342).
+View transform controls the transition from world coordinates into "camera space," determining camera position in the world. For an example of working with view transforms, see [View Transform](https://docs.microsoft.com/windows/desktop/direct3d9/view-transform).
 
-Projection transform changes the geometry from camera space into "clip space" and applies perspective distortion. The term "clip space" refers to how the geometry is clipped to the view volume during this transform. For an example of working with projection transforms, see [Projection Transform](https://msdn.microsoft.com/library/windows/desktop/bb147302).
+Projection transform changes the geometry from camera space into "clip space" and applies perspective distortion. The term "clip space" refers to how the geometry is clipped to the view volume during this transform. For an example of working with projection transforms, see [Projection Transform](https://docs.microsoft.com/windows/desktop/direct3d9/projection-transform).
 
 Finally, the geometry in clip space is transformed into pixel coordinates (screen space). This transformation is controlled by the viewport settings.
 
 Clipping and transforming vertices must take place in homogenous space (simply put, space in which the coordinate system includes a fourth element), but the final result for most applications needs to be non-homogenous three-dimensional (3D) coordinates defined in "screen space." This means that both the input vertices and the clipping volume must be translated into homogenous space to perform the clipping and then translated back into non-homogenous space to be displayed.
 
-The three Direct3D transformations-world, view, and projection transform-are defined by Direct3D matrices. A Direct3D matrix is a 4x4 homogenous matrix defined by a [**D3DMATRIX**](https://msdn.microsoft.com/library/windows/desktop/bb172573) structure. Although Direct3D matrices are not standard objects-they are not represented by a COM interface-you can create and set them just as you would any other Direct3D object. For more information on Direct3D matrices, see [Transforms](https://msdn.microsoft.com/library/windows/desktop/bb206269).
+The three Direct3D transformations-world, view, and projection transform-are defined by Direct3D matrices. A Direct3D matrix is a 4x4 homogenous matrix defined by a [**D3DMATRIX**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dmatrix) structure. Although Direct3D matrices are not standard objects-they are not represented by a COM interface-you can create and set them just as you would any other Direct3D object. For more information on Direct3D matrices, see [Transforms](https://docs.microsoft.com/windows/desktop/direct3d9/transforms).
 
 ## The Transformation Pipeline
 

@@ -176,7 +176,7 @@ This section of code shows the **DropDownButton** control declarations.
 [Drop-Down Button control](windowsribbon-controls-dropdownbutton.md)
 </dt> <dt>
 
-[**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
+[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  

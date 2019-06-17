@@ -202,7 +202,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://m
 </tr>
 <tr class="even">
 <td>DateTime</td>
-<td>The value must be a VT_FILETIME, which is a <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx"><strong>FILETIME</strong></a>.</td>
+<td>The value must be a VT_FILETIME, which is a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime"><strong>FILETIME</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Guid</td>
@@ -214,7 +214,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://m
 </tr>
 <tr class="odd">
 <td>Stream</td>
-<td>The value must be a VT_STREAM, which is an object that implements <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx"><strong>IStream</strong></a>.</td>
+<td>The value must be a VT_STREAM, which is an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream"><strong>IStream</strong></a>.</td>
 </tr>
 <tr class="even">
 <td>Clipboard</td>
@@ -222,7 +222,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://m
 </tr>
 <tr class="odd">
 <td>Object</td>
-<td>The value must be a VT_UNKNOWN, which is an object that implements <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx"><strong>IUnknown</strong></a>.</td>
+<td>The value must be a VT_UNKNOWN, which is an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>.</td>
 </tr>
 </tbody>
 </table>

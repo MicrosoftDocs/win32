@@ -202,7 +202,7 @@ General Disability sites:
 
 -   [Game Accessibility](https://www.game-accessibility.com/)
 -   [Microsoft's Accessibility Site](https://www.microsoft.com/enable/)
--   [Accessibility](https://msdn.microsoft.com/library/gg701968)
+-   [Accessibility](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/accessibility/gg701968(v=vs.85))
 
 Auditory Impairment Sites:
 

@@ -55,7 +55,7 @@ Data type: **[**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Antecedent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
 </dt> </dl>
 
 The snapshot setting data upon which the child setting data is based.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CIM\_Dependency.Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
 </dt> </dl>
 
 The setting data for the virtual machine that represents the child of the parent.
@@ -80,7 +80,7 @@ The setting data for the virtual machine that represents the child of the parent
 
 ## Remarks
 
-Access to the **Msvm\_ParentChildSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ParentChildSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -103,7 +103,7 @@ Access to the **Msvm\_ParentChildSettingData** class might be restricted by UAC 
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> <dt>
 
-[**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238)
+[**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency)
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)

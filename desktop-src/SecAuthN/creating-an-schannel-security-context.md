@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # Creating an Schannel Security Context
 
-To establish a [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) that will protect communications between a client and server, both must participate in the following information exchange process:
+To establish a [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) that will protect communications between a client and server, both must participate in the following information exchange process:
 
 ## Client
 
 1.  The client calls the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function.
 2.  Schannel begins creating a security context according to the rules of the selected security protocol. The function's return code indicates whether the client must call the function again. [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) may return a token that represents the context.
 3.  If a token was returned, the client sends it to the server.
-4.  When [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) returns SEC\_E\_OK, the client is done. If the function returns SEC\_I\_CONTINUE\_NEEDED, the client must wait for the server to send it a token. When the client has the token from the server, it must call the **InitializeSecurityContext (General)** [*function*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-function-gly) again. (Return to step 2.)
+4.  When [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) returns SEC\_E\_OK, the client is done. If the function returns SEC\_I\_CONTINUE\_NEEDED, the client must wait for the server to send it a token. When the client has the token from the server, it must call the **InitializeSecurityContext (General)** [*function*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) again. (Return to step 2.)
 
 ## Server
 

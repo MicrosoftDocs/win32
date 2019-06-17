@@ -2,13 +2,14 @@
 title: Resource Binding in HLSL
 description: This section describes some specific features of using High Level Shading Language (HLSL) Shader Model 5.1 with Direct3D 12.
 ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Resource Binding in HLSL
 
-This section describes some specific features of using High Level Shading Language (HLSL) [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
+This section describes some specific features of using High Level Shading Language (HLSL) [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
 
 -   [Resource types and arrays](#resource-types-and-arrays)
 -   [Descriptor arrays and texture arrays](#descriptor-arrays-and-texture-arrays)
@@ -142,7 +143,7 @@ To achieve the **abcabcabc....** memory layout, use a descriptor table without u
 
 ## Resource aliasing
 
-The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
+The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
 
 ## Divergence and derivatives
 
@@ -323,10 +324,10 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 [Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
 </dt> <dt>
 
-[Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919)
+[Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc)
 </dt> <dt>
 
-[HLSL Shader Model 5.1 Features for Direct3D 12](https://msdn.microsoft.com/library/windows/desktop/dn933267)
+[HLSL Shader Model 5.1 Features for Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
 [Rasterizer Ordered Views](rasterizer-order-views.md)
@@ -338,7 +339,7 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 [Root Signatures](root-signatures.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277)
+[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)

@@ -48,7 +48,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IRunActionCallback**](https://msdn.microsoft.com/library/windows/desktop/mt432790)
+[**IRunActionCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/irunactioncallback)
 
  
 

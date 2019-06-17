@@ -135,7 +135,7 @@ This element has the attributes shown in the following table.
 
 | Attribute       | Description                                                                                                                                                                                                                                   |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **privatePath** | Specifies the [relative paths](https://msdn.microsoft.com/library/windows/desktop/aa365247) of subdirectories of the application's base directory that might contain assemblies. A maximum of nine subdirectory paths can be specified. Delimit each subdirectory path with a semicolon. |
+| **privatePath** | Specifies the [relative paths](https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file) of subdirectories of the application's base directory that might contain assemblies. A maximum of nine subdirectory paths can be specified. Delimit each subdirectory path with a semicolon. |
 
 
 

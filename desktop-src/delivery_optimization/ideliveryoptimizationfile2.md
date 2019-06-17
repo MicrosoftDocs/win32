@@ -24,7 +24,7 @@ The **IDeliveryOptimizationFile2** supports setting and getting optional file pr
 
 ## Members
 
-The **IDeliveryOptimizationFile2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IDeliveryOptimizationFile2** also has these types of members:
+The **IDeliveryOptimizationFile2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile2** also has these types of members:
 
 - [Methods](#methods)
 

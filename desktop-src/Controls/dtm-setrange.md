@@ -33,8 +33,8 @@ A value specifying which range values are valid. This parameter can be a combina
 
 | Value                                                                                                                                          | Meaning                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="GDTR_MIN"></span><span id="gdtr_min"></span><dl> <dt>**GDTR\_MIN**</dt> </dl> | The first element in the [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure array is valid and will be used to set the minimum allowable system time.<br/>  |
-| <span id="GDTR_MAX"></span><span id="gdtr_max"></span><dl> <dt>**GDTR\_MAX**</dt> </dl> | The second element in the [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure array is valid and will be used to set the maximum allowable system time.<br/> |
+| <span id="GDTR_MIN"></span><span id="gdtr_min"></span><dl> <dt>**GDTR\_MIN**</dt> </dl> | The first element in the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure array is valid and will be used to set the minimum allowable system time.<br/>  |
+| <span id="GDTR_MAX"></span><span id="gdtr_max"></span><dl> <dt>**GDTR\_MAX**</dt> </dl> | The second element in the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure array is valid and will be used to set the maximum allowable system time.<br/> |
 
 
 
@@ -45,7 +45,7 @@ A value specifying which range values are valid. This parameter can be a combina
 *lParam* 
 </dt> <dd>
 
-A pointer to a two-element array of [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structures. The first element of the **SYSTEMTIME** array contains the minimum allowable time. The second element of the **SYSTEMTIME** array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the *wParam* parameter.
+A pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures. The first element of the **SYSTEMTIME** array contains the minimum allowable time. The second element of the **SYSTEMTIME** array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the *wParam* parameter.
 
 </dd> </dl>
 

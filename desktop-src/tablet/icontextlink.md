@@ -21,7 +21,7 @@ Represents a relationship between two [**IContextNode**](icontextnode.md) object
 
 ## Members
 
-The **IContextLink** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IContextLink** also has these types of members:
+The **IContextLink** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextLink** also has these types of members:
 
 -   [Methods](#methods)
 

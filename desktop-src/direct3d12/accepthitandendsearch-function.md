@@ -2,8 +2,9 @@
 Description: Used in an any hit shader to commit the current hit and then stop searching for more hits for the ray.
 ms.assetid: 
 title: AcceptHitAndEndSearch function
-ms.topic: function
 ms.date: 05/31/2018
+ms.localizationpriority: low
+ms.topic: function
 topic_type: 
 - APIRef
 - kbSyntax
@@ -15,7 +16,7 @@ api_type:
 
 # AcceptHitAndEndSearch function
 
-Used in an [any hit shader](any-hit-shader.md) to commit the current hit and then stop searching for more hits for the ray. If there is an intersection shader running, it's execution stops.  Execution passes to the [closest hit shader](closest-hit-shader), if enabled, with the closest hit recorded so far.
+Used in an [any hit shader](any-hit-shader.md) to commit the current hit and then stop searching for more hits for the ray. If there is an intersection shader running, it's execution stops.  Execution passes to the [closest hit shader](closest-hit-shader.md), if enabled, with the closest hit recorded so far.
 
 ## Syntax
 

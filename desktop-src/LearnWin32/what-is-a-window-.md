@@ -45,9 +45,9 @@ The application window owns the dialog window, and the dialog window is the pare
 
 ## Window Handles
 
-Windows are objects—they have both code and data—but they are not C++ classes. Instead, a program references a window by using a value called a *handle*. A handle is an opaque type. Essentially, it is just a number that the operating system uses to identify an object. You can picture Windows as having a big table of all the windows that have been created. It uses this table to look up windows by their handles. (Whether that's exactly how it works internally is not important.) The data type for window handles is **HWND**, which is usually pronounced "aitch-wind." Window handles are returned by the functions that create windows: [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/dd368900) and [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680).
+Windows are objects—they have both code and data—but they are not C++ classes. Instead, a program references a window by using a value called a *handle*. A handle is an opaque type. Essentially, it is just a number that the operating system uses to identify an object. You can picture Windows as having a big table of all the windows that have been created. It uses this table to look up windows by their handles. (Whether that's exactly how it works internally is not important.) The data type for window handles is **HWND**, which is usually pronounced "aitch-wind." Window handles are returned by the functions that create windows: [**CreateWindow**](https://docs.microsoft.com/windows/desktop/DirectShow/cbasewindow-docreatewindow) and [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa).
 
-To perform an operation on a window, you will typically call some function that takes an **HWND** value as a parameter. For example, to reposition a window on the screen, call the [**MoveWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633534) function:
+To perform an operation on a window, you will typically call some function that takes an **HWND** value as a parameter. For example, to reposition a window on the screen, call the [**MoveWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-movewindow) function:
 
 
 ```C++

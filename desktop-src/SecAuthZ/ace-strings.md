@@ -8,12 +8,12 @@ ms.date: 05/31/2018
 
 # ACE Strings
 
-The [security descriptor definition language](security-descriptor-definition-language.md) (SDDL) uses ACE strings in the DACL and SACL components of a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) string.
+The [security descriptor definition language](security-descriptor-definition-language.md) (SDDL) uses ACE strings in the DACL and SACL components of a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) string.
 
 As shown in the [Security Descriptor String Format](security-descriptor-string-format.md) examples, each ACE in a security descriptor string is enclosed in parentheses. The fields of the ACE are in the following order and are separated by semicolons (;).
 
 > [!Note]  
-> There is a different format for conditional [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) than other ACE types. For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> There is a different format for conditional [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) than other ACE types. For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
  
 
@@ -55,7 +55,7 @@ A string that indicates the value of the **AceType** member of the [**ACE\_HEADE
  
 
 > [!Note]  
-> If **ace\_type** is ACCESS\_ALLOWED\_OBJECT\_ACE\_TYPE and neither **object\_guid** nor **inherit\_object\_guid** has a [**GUID**](https://msdn.microsoft.com/library/windows/desktop/aa373931) specified, then [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) converts **ace\_type** to ACCESS\_ALLOWED\_ACE\_TYPE.
+> If **ace\_type** is ACCESS\_ALLOWED\_OBJECT\_ACE\_TYPE and neither **object\_guid** nor **inherit\_object\_guid** has a [**GUID**](https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)) specified, then [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) converts **ace\_type** to ACCESS\_ALLOWED\_ACE\_TYPE.
 
  
 
@@ -286,7 +286,7 @@ SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**object\_guid**
 </dt> <dd>
 
-A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_object_ace). The GUID string uses the format returned by the [**UuidToString**](https://msdn.microsoft.com/library/windows/desktop/aa379352) function.
+A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_object_ace). The GUID string uses the format returned by the [**UuidToString**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) function.
 
 The following table lists some commonly used object GUIDs.
 
@@ -306,7 +306,7 @@ The following table lists some commonly used object GUIDs.
 <span id="inherit_object_guid"></span><span id="INHERIT_OBJECT_GUID"></span>**inherit\_object\_guid**
 </dt> <dd>
 
-A string representation of a GUID that indicates the value of the **InheritedObjectType** member of an object-specific ACE structure. The GUID string uses the [**UuidToString**](https://msdn.microsoft.com/library/windows/desktop/aa379352) format.
+A string representation of a GUID that indicates the value of the **InheritedObjectType** member of an object-specific ACE structure. The GUID string uses the [**UuidToString**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) format.
 
 </dd> <dt>
 

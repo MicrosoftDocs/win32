@@ -39,10 +39,10 @@ The Doctor program uses a character array for input and returns another characte
 
 | Approach                       | Attributes or functions                                                                                                        |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Counted character arrays       | \[ [size\_is](https://msdn.microsoft.com/library/windows/desktop/aa367164)\], \[ [length\_is](https://msdn.microsoft.com/library/windows/desktop/aa367068)\], \[ [ref](https://msdn.microsoft.com/library/windows/desktop/aa367153)\]                                         |
-| Stub-managed strings           | \[ [string](https://msdn.microsoft.com/library/windows/desktop/aa367270)\], \[ [ref](https://msdn.microsoft.com/library/windows/desktop/aa367153)\], [midl\_user\_allocate](https://msdn.microsoft.com/library/windows/desktop/aa367095) on server                  |
-| Stub-managed strings           | \[ [string](https://msdn.microsoft.com/library/windows/desktop/aa367270)\], \[ [unique](https://msdn.microsoft.com/library/windows/desktop/aa367294)\], [midl\_user\_allocate](https://msdn.microsoft.com/library/windows/desktop/aa367095) on client and server |
-| Function that returns a string | \[ [unique](https://msdn.microsoft.com/library/windows/desktop/aa367294)\]                                                                                                     |
+| Counted character arrays       | \[ [size\_is](https://docs.microsoft.com/windows/desktop/Midl/size-is)\], \[ [length\_is](https://docs.microsoft.com/windows/desktop/Midl/length-is)\], \[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\]                                         |
+| Stub-managed strings           | \[ [string](https://docs.microsoft.com/windows/desktop/Midl/string)\], \[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\], [midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1) on server                  |
+| Stub-managed strings           | \[ [string](https://docs.microsoft.com/windows/desktop/Midl/string)\], \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\], [midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1) on client and server |
+| Function that returns a string | \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\]                                                                                                     |
 
 
 

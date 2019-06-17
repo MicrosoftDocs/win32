@@ -73,7 +73,7 @@ The **InkDivider** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 The **InkDivider** object uses the layout of the strokes, the order in which the strokes are added, the direction in which the strokes are drawn, and other factors to perform the analysis of the ink. The [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that the **InkDivider** object analyzes is contained in the [**Strokes**](https://msdn.microsoft.com/en-us/library/ms698600(v=VS.85).aspx) property of the **InkDivider** object. The **InkDivider** object dynamically analyzes the InkStrokes collection as you add to or delete from the collection, but it performs no modification of the strokes.
 

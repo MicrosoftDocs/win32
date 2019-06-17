@@ -20,7 +20,7 @@ api_location:
 
 # CIM\_ReferencedProfile class
 
-Used to associate an instance [**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375) with an instance of **CIM\_RegisteredProfile** of another profile that references the dependent profile as a related profile.
+Used to associate an instance [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)) with an instance of **CIM\_RegisteredProfile** of another profile that references the dependent profile as a related profile.
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
@@ -55,26 +55,26 @@ The **CIM\_ReferencedProfile** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375)**
+Data type: **[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-Specifies the [**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375) instance that is referenced by the **Dependent** profile.
+Specifies the [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)) instance that is referenced by the **Dependent** profile.
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375)**
+Data type: **[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-Specifies a [**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375) instance that references other profiles.
+Specifies a [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)) instance that references other profiles.
 
 </dd> </dl>
 
@@ -101,7 +101,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 <dl> <dt>
 
-[**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238)
+[**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency)
 </dt> </dl>
 
  

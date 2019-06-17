@@ -15,7 +15,7 @@ When you receive an error code, you have the following options:
 
 -   Look at the event log.
 
-    WMI sends error messages to the Event Log service that checks the event logs to help determine the cause of an error. You can use the classes that the [Event Log](https://msdn.microsoft.com/library/aa390413) provider supports to access event logs programmatically.
+    WMI sends error messages to the Event Log service that checks the event logs to help determine the cause of an error. You can use the classes that the [Event Log](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/event-log-provider) provider supports to access event logs programmatically.
 
 -   Retrieve the error code normally.
 

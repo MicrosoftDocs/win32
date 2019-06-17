@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Distributing User Interface Components
 
-The COM components, applications and/or files used by a user interface extension can be distributed by creating a Windows Installer package and using a group policy to distribute the package. For more information about creating the Installer package, see [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688). For more information about group policies, see [Group Policy](https://msdn.microsoft.com/library/aa374177).
+The COM components, applications and/or files used by a user interface extension can be distributed by creating a Windows Installer package and using a group policy to distribute the package. For more information about creating the Installer package, see [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal). For more information about group policies, see [Group Policy](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-start-page).
 
  
 

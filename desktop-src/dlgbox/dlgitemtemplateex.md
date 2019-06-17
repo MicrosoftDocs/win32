@@ -62,7 +62,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The extended styles for a window. This member is not used to create controls in dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see [**Extended Window Styles**](https://msdn.microsoft.com/library/windows/desktop/ff700543).
+The extended styles for a window. This member is not used to create controls in dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see [**Extended Window Styles**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles).
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The style of the control. This member can be a combination of [window style values](https://msdn.microsoft.com/library/windows/desktop/ms632600) (such as **WS\_BORDER**) and one or more of the [control style values](https://msdn.microsoft.com/library/windows/desktop/bb775498) (such as **BS\_PUSHBUTTON** and **ES\_LEFT**).
+The style of the control. This member can be a combination of [window style values](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) (such as **WS\_BORDER**) and one or more of the [control style values](https://docs.microsoft.com/windows/desktop/Controls/common-control-styles) (such as **BS\_PUSHBUTTON** and **ES\_LEFT**).
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The number of bytes of creation data that follow this member. If this value is greater than zero, the creation data begins at the next **WORD** boundary. This creation data can be of any size and format. The control's window procedure must be able to interpret the data. When the system creates the control, it passes a pointer to this data in the *lParam* parameter of the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message that it sends to the control.
+The number of bytes of creation data that follow this member. If this value is greater than zero, the creation data begins at the next **WORD** boundary. This creation data can be of any size and format. The control's window procedure must be able to interpret the data. When the system creates the control, it passes a pointer to this data in the *lParam* parameter of the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message that it sends to the control.
 
 </dd> </dl>
 
@@ -188,7 +188,7 @@ An extended template for a dialog box consists of a [**DLGTEMPLATEEX**](dlgtempl
 
 Each **DLGITEMTEMPLATEEX** structure must be aligned on a **DWORD** boundary. The variable-length **windowClass** and **title** arrays must be aligned on **WORD** boundaries. The creation data array, if any, must be aligned on a **WORD** boundary.
 
-If you specify character strings in the **windowClass** and **title** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function to generate Unicode strings from ANSI strings.
+If you specify character strings in the **windowClass** and **title** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) function to generate Unicode strings from ANSI strings.
 
 The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect) function.
 
@@ -216,7 +216,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama)
 </dt> <dt>
 
-[**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680)
+[**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
 [**DialogBoxIndirect**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta)
@@ -231,7 +231,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect)
 </dt> <dt>
 
-[**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619)
+[**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create)
 </dt> <dt>
 
 **Conceptual**
@@ -243,7 +243,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 **Other Resources**
 </dt> <dt>
 
-[**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072)
+[**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)
 </dt> <dt>
 
 [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx)

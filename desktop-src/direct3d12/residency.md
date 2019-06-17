@@ -2,6 +2,7 @@
 title: Residency
 description: An object is considered to be resident when it is accessible by the GPU.
 ms.assetid: 956F80D7-EEC8-4D88-B251-EE325614F31E
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -21,7 +22,7 @@ An object is considered to be *resident* when it is accessible by the GPU.
 
 GPUs do not yet support page-faulting, so applications must commit data into physical memory while the GPU could access it. This process is known as “making something resident”, and must be done for both physical system memory and physical discrete video memory. In D3D12, most API objects encapsulate some amount of GPU-accessible memory. That GPU-accessible memory is made resident during the creation of the API object, and evicted on API object destruction.
 
-The amount of physical memory available for the process is known as the video memory budget. The budget can fluctuate noticeably as background processes wake-up and sleep; and fluctuate dramatically when the user switches away to another application. The application can be notified when the budget changes and poll both the current budget and the currently consumed amount of memory. If an application doesn’t stay within its budget, the process will be intermittently frozen to allow other applications to run and/or the creation APIs will return failure. The [**IDXGIAdapter3**](https://msdn.microsoft.com/library/windows/desktop/dn933221) interface provides the methods pertaining to this functionality, in particular [**QueryVideoMemoryInfo**](https://msdn.microsoft.com/library/windows/desktop/dn933223) and [**RegisterVideoMemoryBudgetChangeNotificationEvent**](https://msdn.microsoft.com/library/windows/desktop/dn933231).
+The amount of physical memory available for the process is known as the video memory budget. The budget can fluctuate noticeably as background processes wake-up and sleep; and fluctuate dramatically when the user switches away to another application. The application can be notified when the budget changes and poll both the current budget and the currently consumed amount of memory. If an application doesn’t stay within its budget, the process will be intermittently frozen to allow other applications to run and/or the creation APIs will return failure. The [**IDXGIAdapter3**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3) interface provides the methods pertaining to this functionality, in particular [**QueryVideoMemoryInfo**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo) and [**RegisterVideoMemoryBudgetChangeNotificationEvent**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-registervideomemorybudgetchangenotificationevent).
 
 Applications are encouraged to use a reservation to denote the amount of memory they cannot go without. Ideally, the user-specified “low” graphics settings, or something even lower, is the right value for such a reservation. Setting a reservation won’t ever give an application a higher budget than it would normally receive. Instead, the reservation information helps the OS kernel quickly minimize the impact of large memory pressure situations. Even the reservation is not guaranteed to be available to the application when the application isn’t the foreground application.
 
@@ -31,7 +32,7 @@ While many API objects encapsulate some GPU-accessible memory, heaps & resources
 
 -   Heaps cannot be made partially resident, but workarounds exists with reserved resources.
 -   Heaps should be budgeted as part of a particular pool. UMA adapters have one pool, while discrete adapters have two pools. While it is true that kernel can shift some heaps on discrete adapters from video memory to system memory, it does so only as an extreme last resort. Applications should not rely on the over-budget behavior of the kernel, and should focus on good budget management instead.
--   Heaps can be evicted from residency, which allows their content to be paged out to disk. But, destruction of heaps is a more reliable technique to free up residency across all adapter architectures. On adapters where *theMaxGPUVirtualAddressBitsPerProcess* field of [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support) is near the budget size, [**Evict**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-evict) won’t reliably reclaim residency.
+-   Heaps can be evicted from residency, which allows their content to be paged out to disk. But, destruction of heaps is a more reliable technique to free up residency across all adapter architectures. On adapters where *theMaxGPUVirtualAddressBitsPerProcess* field of [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support) is near the budget size, [**Evict**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-evict) won’t reliably reclaim residency.
 -   Heap creation can be slow; but it is optimized for background thread processing. It’s recommended to create heaps on background threads to avoid glitching the render thread. In D3D12, multiple threads may safely call create routines concurrently.
 
 D3D12 introduces more flexibility and orthogonality into its resource model in order to enable more options for applications. There are three high-level types of resources in D3D12: committed, placed, and reserved.
@@ -67,7 +68,7 @@ Simple applications may be able to get by merely creating committed resources un
 
 The complexity of a residency management design will go up when trying to optimize for adapter architectures or incorporating residency priorities. Discretely budgeting and managing two pools of discrete memory will be more complex than managing only one, and asigning fixed priorities on a wide scale can become a maintainance burden if use patterns evolve. Overflowing textures into system memory adds more complexity, as the wrong resource in system-memory can severely impact frame rate. And, there is no simple functionality to help identify the resources that would either benefit from higher GPU bandwidth or tolerate lower GPU bandwidth.
 
-Even more complicated designs will query for the features of the current adapter. This information is available in [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support), [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_feature_data_architecture), [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_tiled_resources_tier), and [**D3D12\_RESOURCE\_HEAP\_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier).
+Even more complicated designs will query for the features of the current adapter. This information is available in [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support), [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture), [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier), and [**D3D12\_RESOURCE\_HEAP\_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier).
 
 Multiple parts of an application will likely wind up using different techniques. For example, some large textures and rarely exercised code paths may use committed resources, while many textures may be designated with a streaming property and use a general placed-resource technique.
 
@@ -75,7 +76,7 @@ Multiple parts of an application will likely wind up using different techniques.
 
 <dl> <dt>
 
-[**ID3D12Heap**](/windows/desktop/api/D3D12/nn-d3d12-id3d12heap)
+[**ID3D12Heap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12heap)
 </dt> <dt>
 
 [Memory Management](memory-management.md)

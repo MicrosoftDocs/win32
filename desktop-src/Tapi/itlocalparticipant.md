@@ -12,7 +12,7 @@ The **ITLocalParticipant** interface is exposed on the stream object when the IP
 
 ## Members
 
-The **ITLocalParticipant** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITLocalParticipant** also has these types of members:
+The **ITLocalParticipant** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITLocalParticipant** also has these types of members:
 
 -   [Methods](#methods)
 

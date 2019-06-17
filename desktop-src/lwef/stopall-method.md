@@ -40,7 +40,7 @@ Stops all animation requests or specified types of requests for the specified ch
 
 If you don't set the **Type** parameter, the server stops all animations for the character, including queued and non-queued [**Get**](get-method.md) requests, and clears its animation queue. It also stops playing a character's Hiding or Showing animation.
 
-This method will not generate a [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) object.
+This method will not generate a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
 
 ## See Also
 

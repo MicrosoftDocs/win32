@@ -13,7 +13,7 @@ Asynchronous event notification is a technique that allows an application to con
 
 The queue of asynchronous events routed to a client has the potential to grow exceptionally large. Therefore, WMI implements a system-wide policy to avoid running out of memory. WMI either slows down events, or starts dropping events from the queue when the queue grows past a certain size.
 
-WMI uses the [**LowThresholdOnEvents**](https://msdn.microsoft.com/library/aa394522) and [**HighThresholdOnEvents**](https://msdn.microsoft.com/library/aa394522) properties of the [**Win32\_WMISetting**](https://msdn.microsoft.com/library/aa394522) class to set limits on out-of-memory avoidance. The minimum value indicates when WMI should start slowing event notification, and the maximum value indicates when to start dropping events. The default values for the low and high thresholds are 1000000 (10 MB) and 2000000 (20 MB). In addition, you can set the [**MaxWaitOnEvents**](https://msdn.microsoft.com/library/aa394522) property to describe the amount of time WMI should wait before dropping events. The default value for **MaxWaitOnEvents** is 2000, or 2 seconds.
+WMI uses the [**LowThresholdOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) and [**HighThresholdOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) properties of the [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) class to set limits on out-of-memory avoidance. The minimum value indicates when WMI should start slowing event notification, and the maximum value indicates when to start dropping events. The default values for the low and high thresholds are 1000000 (10 MB) and 2000000 (20 MB). In addition, you can set the [**MaxWaitOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) property to describe the amount of time WMI should wait before dropping events. The default value for **MaxWaitOnEvents** is 2000, or 2 seconds.
 
 ## Receiving Asynchronous Event Notifications in VBScript
 
@@ -77,7 +77,7 @@ By dedicating a separate thread, you permit your main process to perform other a
 
 **To set up asynchronous event notifications**
 
-1.  Before initializing any asynchronous notifications, ensure your out-of-memory avoidance parameters are set correctly in [**Win32\_WMISetting**](https://msdn.microsoft.com/library/aa394522).
+1.  Before initializing any asynchronous notifications, ensure your out-of-memory avoidance parameters are set correctly in [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting).
 
 2.  Determine what kind of events you want to receive.
 
@@ -143,7 +143,7 @@ The following procedure describes how to receive asynchronous event notification
 
     The purpose of registration is to receive only the required notifications. Receiving superfluous notifications wastes processing and delivery time; and does not use the filtering ability of WMI to the fullest potential.
 
-    However, a temporary consumer can receive more than one type of event. In this case, a temporary consumer must make separate calls to [**IWbemServices::ExecNotificationQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync) for each event type. For example, a consumer might require notification when new processes are created (an instance creation event or [**\_\_InstanceCreationEvent**](--instancecreationevent.md)) and for changes to certain registry keys (a registry event such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040)). Therefore, the consumer makes one call to [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) to register for instance creation events and another call to **ExecNotificationQueryAsync** to register for registry events.
+    However, a temporary consumer can receive more than one type of event. In this case, a temporary consumer must make separate calls to [**IWbemServices::ExecNotificationQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync) for each event type. For example, a consumer might require notification when new processes are created (an instance creation event or [**\_\_InstanceCreationEvent**](--instancecreationevent.md)) and for changes to certain registry keys (a registry event such as [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent)). Therefore, the consumer makes one call to [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) to register for instance creation events and another call to **ExecNotificationQueryAsync** to register for registry events.
 
     If you choose to create an event consumer that registers for multiple events, you should avoid registering multiple classes with the same sink. Instead, use a separate sink for each class of registered event. Having a dedicated sink simplifies processing and aids in maintenance, allowing you to cancel one registration without affecting the others.
 

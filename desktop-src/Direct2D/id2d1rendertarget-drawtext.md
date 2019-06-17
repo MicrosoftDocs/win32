@@ -17,7 +17,7 @@ api_name:
 
 # ID2D1RenderTarget::DrawText methods
 
-Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object.
+Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat) object.
 
 ### Overload list
 
@@ -25,8 +25,8 @@ Draws the specified text using the format information provided by an [**IDWriteT
 
 | Method                                                                                                                                                                                                                                                                               | Description                                                                                                                                     |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F&,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx)  | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object.<br/>  |
-| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F\*,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](https://msdn.microsoft.com/en-us/library/Dd371916(v=VS.85).aspx) | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) object. <br/> |
+| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F&,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx)  | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat) object.<br/>  |
+| [**DrawText(WCHAR\*,IDWriteTextFormat\*,D2D1\_RECT\_F\*,ID2D1Brush\*,D2D1\_DRAW\_TEXT\_OPTIONS,DWRITE\_TEXT\_MEASURING\_METHOD)**](https://msdn.microsoft.com/en-us/library/Dd371916(v=VS.85).aspx) | Draws the specified text using the format information provided by an [**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat) object. <br/> |
 
 
 
@@ -58,13 +58,13 @@ For an example, see [How to Draw Text](how-to--draw-text.md).
 [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628)
+[**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat)
 </dt> <dt>
 
 [How to Draw Text](how-to--draw-text.md)
 </dt> <dt>
 
-[Text Formatting and Layout Overview](https://msdn.microsoft.com/library/windows/desktop/dd742752)
+[Text Formatting and Layout Overview](https://docs.microsoft.com/windows/desktop/DirectWrite/text-formatting-and-layout)
 </dt> </dl>
 
  

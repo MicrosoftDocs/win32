@@ -20,7 +20,7 @@ Retrieves information about the properties that a specified collection supports.
 
 ## Members
 
-The **PropertyInfo** collection inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface but does not have additional members.
+The **PropertyInfo** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 

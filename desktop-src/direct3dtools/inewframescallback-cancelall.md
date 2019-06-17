@@ -32,7 +32,7 @@ A callback that notifies the host that all requests have been cancelled.
 
 ## <span id="see_also"></span>See also
 
-[**INewFramesCallback**](https://msdn.microsoft.com/library/windows/desktop/mt422690)
+[**INewFramesCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/inewframescallback)
 
  
 

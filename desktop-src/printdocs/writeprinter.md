@@ -23,7 +23,7 @@ api_location:
 The **WritePrinter** function notifies the print spooler that data should be written to the specified printer.
 
 > [!Note]  
-> **WritePrinter** only supports GDI printing and must not be used for XPS printing. If your print job uses the XPS or the OpenXPS print path, then use the [XPS Print API](https://msdn.microsoft.com/library/windows/desktop/ff686814.aspx). Sending XPS or OpenXPS print jobs to the spooler using **WritePrinter** is not supported and can result in undetermined results.
+> **WritePrinter** only supports GDI printing and must not be used for XPS printing. If your print job uses the XPS or the OpenXPS print path, then use the [XPS Print API](https://docs.microsoft.com/windows/desktop/printdocs/xps-printing). Sending XPS or OpenXPS print jobs to the spooler using **WritePrinter** is not supported and can result in undetermined results.
 
  
 

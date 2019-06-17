@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # HLSL Specified Root Signature
 
-A [Root Signature](https://msdn.microsoft.com/library/windows/desktop/dn899208) (a key table of resources and other elements for D3D12) can be specified in HLSL as a string.
+A [Root Signature](https://docs.microsoft.com/windows/desktop/direct3d12/root-signatures) (a key table of resources and other elements for D3D12) can be specified in HLSL as a string.
 
-Refer to the D3D12 docs on [Specifying Root Signatures in HLSL](https://msdn.microsoft.com/library/windows/desktop/dn913202) for full details and example code.
+Refer to the D3D12 docs on [Specifying Root Signatures in HLSL](https://docs.microsoft.com/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl) for full details and example code.
 
 ## Related topics
 

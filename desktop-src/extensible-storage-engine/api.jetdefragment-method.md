@@ -87,21 +87,21 @@ public static JET_wrn JetDefragment(
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf)  
+    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
     
     Unused parameter. Defragmentation is performed for the entire database described by the given database ID.
 
 <!-- end list -->
 
   - passes  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     When starting an online defragmentation task, this parameter sets the maximum number of defragmentation passes. When stopping an online defragmentation task, this parameter is set to the number of passes performed.
 
 <!-- end list -->
 
   - seconds  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
     
     When starting an online defragmentation task, this parameter sets the maximum time for defragmentation. When stopping an online defragmentation task, this output buffer is set to the length of time used for defragmentation.
 

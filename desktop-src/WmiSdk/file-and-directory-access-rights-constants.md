@@ -9,18 +9,18 @@ ms.date: 05/31/2018
 
 # File and Directory Access Rights Constants
 
-WMI classes that represent files or directories, such as [**Win32\_CodecFile**](https://msdn.microsoft.com/library/aa394091) or [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236), contain an **AccessMask** property. This property contains bit settings that specify the access rights a user or group must have for specific access or operations on the file. For more information, see [File Security and Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa364399) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
+WMI classes that represent files or directories, such as [**Win32\_CodecFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-codecfile) or [**CIM\_DataFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile), contain an **AccessMask** property. This property contains bit settings that specify the access rights a user or group must have for specific access or operations on the file. For more information, see [File Security and Access Rights](https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
 The file or directory classes which contain an **AccessMask** property include:
 
--   [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236)
--   [**CIM\_Directory**](https://msdn.microsoft.com/library/aa387248)
--   [**CIM\_LogicalFile**](https://msdn.microsoft.com/library/aa387893)
--   [**Win32\_CodecFile**](https://msdn.microsoft.com/library/aa394091)
--   [**Win32\_Directory**](https://msdn.microsoft.com/library/aa394130)
--   [**Win32\_NTEventLogFile**](https://msdn.microsoft.com/library/aa394225)
--   [**Win32\_Share**](https://msdn.microsoft.com/library/aa394435)
--   [**Win32\_ShortcutFile**](https://msdn.microsoft.com/library/aa394438)
+-   [**CIM\_DataFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile)
+-   [**CIM\_Directory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-directory)
+-   [**CIM\_LogicalFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicalfile)
+-   [**Win32\_CodecFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-codecfile)
+-   [**Win32\_Directory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-directory)
+-   [**Win32\_NTEventLogFile**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85))
+-   [**Win32\_Share**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-share)
+-   [**Win32\_ShortcutFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-shortcutfile)
 
 The following list lists the values for file and directory access rights in the **AccessMask** property. This property is a bitmap.
 

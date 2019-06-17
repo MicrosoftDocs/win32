@@ -14,16 +14,16 @@ The service object must support the following properties.
 
 | Property Name                                                                                                                      | Required or Optional                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [WPD\_OBJECT\_ID](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-id)                                                         | Required. .                                                                           |
-| [WPD\_OBJECT\_PARENT\_ID](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-parent-id)                                   | Required.                                                                             |
-| [WPD\_OBJECT\_NAME](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-name)                                                   | Required.                                                                             |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-persistent-unique-id) | Required.                                                                             |
-| [WPD\_OBJECT\_ISHIDDEN](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-ishidden)                                       | Required if the service object should not be shown to the user.                       |
-| [WPD\_OBJECT\_ISSYSTEM](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-object-issystem)                                       | Required if the object is a system object (for example, it represents a system file). |
-| [WPD\_FUNCTIONAL\_OBJECT\_CATEGORY](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-functional-object-category)     | Required. This represents the Device Service type, such as SERVICE Contacts.          |
-| [WPD\_SERVICE\_VERSION](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-service-version)                                       | Required.                                                                             |
-| [WPD\_STORAGE\_TYPE](https://msdn.microsoft.com/library/windows/hardware/ff597893#wpd-storage-type)                                                | Required if the service is used to store objects.                                     |
-| [WPD\_STORAGE\_CAPACITY](https://msdn.microsoft.com/library/windows/hardware/ff597865#wpd-storage-capacity)                                    | Required if the service is used to store objects.                                     |
+| [WPD\_OBJECT\_ID](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                                         | Required. .                                                                           |
+| [WPD\_OBJECT\_PARENT\_ID](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                   | Required.                                                                             |
+| [WPD\_OBJECT\_NAME](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                                   | Required.                                                                             |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85)) | Required.                                                                             |
+| [WPD\_OBJECT\_ISHIDDEN](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                       | Required if the service object should not be shown to the user.                       |
+| [WPD\_OBJECT\_ISSYSTEM](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                       | Required if the object is a system object (for example, it represents a system file). |
+| [WPD\_FUNCTIONAL\_OBJECT\_CATEGORY](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))     | Required. This represents the Device Service type, such as SERVICE Contacts.          |
+| [WPD\_SERVICE\_VERSION](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                       | Required.                                                                             |
+| [WPD\_STORAGE\_TYPE](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597893(v=vs.85))                                                | Required if the service is used to store objects.                                     |
+| [WPD\_STORAGE\_CAPACITY](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597865(v=vs.85))                                    | Required if the service is used to store objects.                                     |
 
 
 

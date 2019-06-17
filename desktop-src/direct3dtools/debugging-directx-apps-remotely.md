@@ -30,9 +30,9 @@ To enable the additional debugging capabilities for Direct3D apps, use this code
 
 
 
-For more info about debugging Direct2D apps, see [Direct2D Debug Layer](https://msdn.microsoft.com/library/windows/desktop/ee794278).
+For more info about debugging Direct2D apps, see [Direct2D Debug Layer](https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-portal).
 
-For more info about debugging Direct3D apps, see [Direct3D Debug Layer](https://msdn.microsoft.com/library/windows/desktop/ff476881#debug).
+For more info about debugging Direct3D apps, see [Direct3D Debug Layer](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers).
 
  
 

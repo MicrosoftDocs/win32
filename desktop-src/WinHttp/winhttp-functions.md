@@ -225,7 +225,7 @@ Formats a date and time according to the HTTP version 1.0 specification.
 [**WinHttpTimeToSystemTime**](/windows/desktop/api/Winhttp/nf-winhttp-winhttptimetosystemtime)
 </dt> <dd>
 
-Takes an HTTP time/date string and converts it to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure.
+Takes an HTTP time/date string and converts it to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure.
 
 </dd> <dt>
 

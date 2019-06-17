@@ -197,7 +197,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 ## Return Value
 
-The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## Minimum Shader Model
 

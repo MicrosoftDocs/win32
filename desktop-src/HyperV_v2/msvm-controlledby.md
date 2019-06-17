@@ -73,7 +73,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The accessibility of the device through the antecedent controller. This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230), and it is always set to 2 (read/write).
+The accessibility of the device through the antecedent controller. This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby), and it is always set to 2 (read/write).
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The priority given to accesses of the device through this controller. The highest priority path will have the lowest value. This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230), and it is always set to 0.
+The priority given to accesses of the device through this controller. The highest priority path will have the lowest value. This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby), and it is always set to 0.
 
 </dd> <dt>
 
@@ -99,33 +99,33 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the controller is actively commanding or accessing the device. This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230), and it is always set to 1 (Active).
+Indicates whether the controller is actively commanding or accessing the device. This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby), and it is always set to 1 (Active).
 
 </dd> <dt>
 
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_Controller**](https://msdn.microsoft.com/library/aa387231)**
+Data type: **[**CIM\_Controller**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controller)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the controller. This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230).
+A reference to the controller. This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)**
+Data type: **[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the controlled device. This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230).
+A reference to the controlled device. This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby).
 
 </dd> <dt>
 
@@ -138,7 +138,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The address of the associated device in the context of the antecedent controller. This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230).
+The address of the associated device in the context of the antecedent controller. This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby).
 
 </dd> <dt>
 
@@ -151,7 +151,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_DeviceConnection**](https://msdn.microsoft.com/library/aa387242), and it is always set to 0.
+This property is inherited from [**CIM\_DeviceConnection**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-deviceconnection), and it is always set to 0.
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_DeviceConnection**](https://msdn.microsoft.com/library/aa387242), and it is always set to 0.
+This property is inherited from [**CIM\_DeviceConnection**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-deviceconnection), and it is always set to 0.
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230), but it is not used.
+This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby), but it is not used.
 
 </dd> <dt>
 
@@ -190,7 +190,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230), but it is not used.
+This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby), but it is not used.
 
 </dd> <dt>
 
@@ -203,13 +203,13 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230), but it is not used.
+This property is inherited from [**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby), but it is not used.
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -232,7 +232,7 @@ Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering.
 [**CIM\_ControlledBy**](cim-controlledby.md)
 </dt> <dt>
 
-[**CIM\_ControlledBy**](https://msdn.microsoft.com/library/aa387230)
+[**CIM\_ControlledBy**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-controlledby)
 </dt> <dt>
 
 [Storage Classes](storage-classes.md)

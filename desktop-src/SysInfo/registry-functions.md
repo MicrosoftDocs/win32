@@ -33,7 +33,7 @@ The following are the registry functions.
 | [**RegEnumKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regenumkeyexa)                               | Enumerates the subkeys of the specified open registry key.                                                                                     |
 | [**RegEnumValue**](/windows/desktop/api/Winreg/nf-winreg-regenumvaluea)                               | Enumerates the values for the specified open registry key.                                                                                     |
 | [**RegFlushKey**](/windows/desktop/api/Winreg/nf-winreg-regflushkey)                                 | Writes all attributes of the specified open registry key into the registry.                                                                    |
-| [**RegGetKeySecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379313)                | Retrieves a copy of the security descriptor protecting the specified open registry key.                                                        |
+| [**RegGetKeySecurity**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetkeysecurity)                | Retrieves a copy of the security descriptor protecting the specified open registry key.                                                        |
 | [**RegGetValue**](/windows/desktop/api/Winreg/nf-winreg-reggetvaluea)                                 | Retrieves the type and data for the specified registry value.                                                                                  |
 | [**RegLoadKey**](/windows/desktop/api/Winreg/nf-winreg-regloadkeya)                                   | Creates a subkey under **HKEY\_USERS** or **HKEY\_LOCAL\_MACHINE** and stores registration information from a specified file into that subkey. |
 | [**RegLoadMUIString**](/windows/desktop/api/Winreg/nf-winreg-regloadmuistringa)                       | Loads the specified string from the specified key and subkey.                                                                                  |
@@ -52,7 +52,7 @@ The following are the registry functions.
 | [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya)                                   | Saves the specified key and all of its subkeys and values to a new file.                                                                       |
 | [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa)                               | Saves the specified key and all of its subkeys and values to a new file. You can specify the format for the saved key or hive.                 |
 | [**RegSetKeyValue**](/windows/desktop/api/Winreg/nf-winreg-regsetkeyvaluea)                           | Sets the data for the specified value in the specified registry key and subkey.                                                                |
-| [**RegSetKeySecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379314)                | Sets the security of an open registry key.                                                                                                     |
+| [**RegSetKeySecurity**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeysecurity)                | Sets the security of an open registry key.                                                                                                     |
 | [**RegSetValueEx**](/windows/desktop/api/Winreg/nf-winreg-regsetvalueexa)                             | Sets the data and type of a specified value under a registry key.                                                                              |
 | [**RegUnLoadKey**](/windows/desktop/api/Winreg/nf-winreg-regunloadkeya)                               | Unloads the specified registry key and its subkeys from the registry.                                                                          |
 
@@ -62,37 +62,37 @@ The following are the registry functions.
 
 The following shell functions can be used with the registry:
 
--   [**AssocCreate**](https://msdn.microsoft.com/library/windows/desktop/bb773460)
--   [**AssocQueryKey**](https://msdn.microsoft.com/library/windows/desktop/bb773468)
--   [**AssocQueryString**](https://msdn.microsoft.com/library/windows/desktop/bb773471)
--   [**AssocQueryStringByKey**](https://msdn.microsoft.com/library/windows/desktop/bb773473)
--   [**SHCopyKey**](https://msdn.microsoft.com/library/windows/desktop/bb773482)
--   [**SHDeleteEmptyKey**](https://msdn.microsoft.com/library/windows/desktop/bb773485)
--   [**SHDeleteKey**](https://msdn.microsoft.com/library/windows/desktop/bb773486)
--   [**SHDeleteValue**](https://msdn.microsoft.com/library/windows/desktop/bb773489)
--   [**SHEnumKeyEx**](https://msdn.microsoft.com/library/windows/desktop/bb773491)
--   [**SHEnumValue**](https://msdn.microsoft.com/library/windows/desktop/bb773494)
--   [**SHGetValue**](https://msdn.microsoft.com/library/windows/desktop/bb773495)
--   [**SHQueryInfoKey**](https://msdn.microsoft.com/library/windows/desktop/bb773501)
--   [**SHQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/bb773502)
--   [**SHRegCloseUSKey**](https://msdn.microsoft.com/library/windows/desktop/bb773505)
--   [**SHRegCreateUSKey**](https://msdn.microsoft.com/library/windows/desktop/bb773507)
--   [**SHRegDeleteEmptyUSKey**](https://msdn.microsoft.com/library/windows/desktop/bb773510)
--   [**SHRegDeleteUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773511)
--   [**SHRegDuplicateHKey**](https://msdn.microsoft.com/library/windows/desktop/bb773516)
--   [**SHRegEnumUSKey**](https://msdn.microsoft.com/library/windows/desktop/bb773519)
--   [**SHRegEnumUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773520)
--   [**SHRegGetBoolUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773524)
--   [**SHRegGetIntW**](https://msdn.microsoft.com/library/windows/desktop/bb773529)
--   [**SHRegGetPath**](https://msdn.microsoft.com/library/windows/desktop/bb773532)
--   [**SHRegGetUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773534)
--   [**SHRegOpenUSKey**](https://msdn.microsoft.com/library/windows/desktop/bb773541)
--   [**SHRegQueryInfoUSKey**](https://msdn.microsoft.com/library/windows/desktop/bb773542)
--   [**SHRegQueryUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773545)
--   [**SHRegSetPath**](https://msdn.microsoft.com/library/windows/desktop/bb773548)
--   [**SHRegSetUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773549)
--   [**SHRegWriteUSValue**](https://msdn.microsoft.com/library/windows/desktop/bb773556)
--   [**SHSetValue**](https://msdn.microsoft.com/library/windows/desktop/bb773557)
+-   [**AssocCreate**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assoccreate)
+-   [**AssocQueryKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerykeya)
+-   [**AssocQueryString**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerystringa)
+-   [**AssocQueryStringByKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerystringbykeya)
+-   [**SHCopyKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcopykeya)
+-   [**SHDeleteEmptyKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shdeleteemptykeya)
+-   [**SHDeleteKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shdeletekeya)
+-   [**SHDeleteValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shdeletevaluea)
+-   [**SHEnumKeyEx**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shenumkeyexa)
+-   [**SHEnumValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shenumvaluea)
+-   [**SHGetValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shgetvaluea)
+-   [**SHQueryInfoKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shqueryinfokeya)
+-   [**SHQueryValueEx**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shqueryvalueexa)
+-   [**SHRegCloseUSKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregcloseuskey)
+-   [**SHRegCreateUSKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregcreateuskeya)
+-   [**SHRegDeleteEmptyUSKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregdeleteemptyuskeya)
+-   [**SHRegDeleteUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregdeleteusvaluea)
+-   [**SHRegDuplicateHKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregduplicatehkey)
+-   [**SHRegEnumUSKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregenumuskeya)
+-   [**SHRegEnumUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregenumusvaluea)
+-   [**SHRegGetBoolUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetboolusvaluea)
+-   [**SHRegGetIntW**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetintw)
+-   [**SHRegGetPath**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetpatha)
+-   [**SHRegGetUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetusvaluea)
+-   [**SHRegOpenUSKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya)
+-   [**SHRegQueryInfoUSKey**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregqueryinfouskeya)
+-   [**SHRegQueryUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregqueryusvaluea)
+-   [**SHRegSetPath**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregsetpatha)
+-   [**SHRegSetUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregsetusvaluea)
+-   [**SHRegWriteUSValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea)
+-   [**SHSetValue**](https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shsetvaluea)
 
 The following are the initialization-file functions. They retrieve information from and copy information to a system- or application-defined initialization file. These functions are provided only for compatibility with 16-bit versions of Windows. New applications should use the registry.
 

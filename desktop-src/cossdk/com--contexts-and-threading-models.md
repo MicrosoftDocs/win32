@@ -17,7 +17,7 @@ The following topics discuss COM+ contexts and how COM+ uses the COM threading m
 
 <dl> <dt>
 
-[Processes, Threads, and Apartments](https://msdn.microsoft.com/library/windows/desktop/ms693344)
+[Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments)
 </dt> </dl>
 
  

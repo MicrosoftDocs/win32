@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # YCbCr Effect
 
-Converts planar and chroma subsampled JPEG YC<sub>b</sub>C<sub>r</sub> data to RGB. This effect assumes that the YC<sub>b</sub>C<sub>r</sub> data is formatted in compliance with the JPEG standard. Data for the inputs may be obtained from IWICPlanarBitmapSourceTransform. The YC<sub>b</sub>C<sub>r</sub> effect requires two inputs; the first must be a DXGI\_FORMAT\_R8 bitmap containing luma data, and the second must be a DXGI\_FORMAT\_R8G8 bitmap containing subsampled chroma data. For more information about using this effect, see [JPEG YCbCr Support](https://msdn.microsoft.com/library/windows/desktop/dn424131).
+Converts planar and chroma subsampled JPEG YC<sub>b</sub>C<sub>r</sub> data to RGB. This effect assumes that the YC<sub>b</sub>C<sub>r</sub> data is formatted in compliance with the JPEG standard. Data for the inputs may be obtained from IWICPlanarBitmapSourceTransform. The YC<sub>b</sub>C<sub>r</sub> effect requires two inputs; the first must be a DXGI\_FORMAT\_R8 bitmap containing luma data, and the second must be a DXGI\_FORMAT\_R8G8 bitmap containing subsampled chroma data. For more information about using this effect, see [JPEG YCbCr Support](https://docs.microsoft.com/windows/desktop/wic/jpeg-ycbcr-support).
 
 The CLSID for this effect is CLSID\_D2D1YCbCr.
 
@@ -94,10 +94,10 @@ The effect performs the transform operation and then applies a bounding box arou
 [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
 </dt> <dt>
 
-[JPEG YCbCr Support](https://msdn.microsoft.com/library/windows/desktop/dn424131)
+[JPEG YCbCr Support](https://docs.microsoft.com/windows/desktop/wic/jpeg-ycbcr-support)
 </dt> <dt>
 
-[**IWICPlanarBitmapSourceTransform**](https://msdn.microsoft.com/library/windows/desktop/dn302093)
+[**IWICPlanarBitmapSourceTransform**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform)
 </dt> </dl>
 
  

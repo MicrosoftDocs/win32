@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Functions Implemented by Network Providers
 
-The following functions are implemented by a network provider DLL to communicate with the [*Multiple Provider Router*](https://msdn.microsoft.com/library/windows/desktop/ms721594#-security-multiple-provider-router-gly) (MPR). Note that only the [Capabilities Functions](capabilities-functions.md) must be implemented by a network provider. Implementation of the other types of functions is optional and depends on the requirements of the network provider.
+The following functions are implemented by a network provider DLL to communicate with the [*Multiple Provider Router*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly) (MPR). Note that only the [Capabilities Functions](capabilities-functions.md) must be implemented by a network provider. Implementation of the other types of functions is optional and depends on the requirements of the network provider.
 
 
 

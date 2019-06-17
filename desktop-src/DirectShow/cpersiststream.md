@@ -35,7 +35,7 @@ The simplest way to use `CPersistStream` is to:
 
 At some point you might decide to alter or extend the format of your data. You will then wish you had a version number in all the old saved streams so you can tell, when you read them, whether they represent the old or new form. To assist you, this class writes and reads a version number. When it writes, it calls [**GetSoftwareVersion**](cpersiststream-getsoftwareversion.md) to inquire as to the version of the software being used at the moment. (In effect, this is a version number of the data layout in the file.) It writes this as the first thing in the data. If you want to change the version, implement (override) **GetSoftwareVersion**. It reads the version number from the file into **mPS\_dwFileVersion** before calling [**ReadFromStream**](cpersiststream-readfromstream.md), so in **ReadFromStream** you can check **mPS\_dwFileVersion** to see if you are reading an old version file. Usually you should accept files whose version is no newer than the software version that is reading them.
 
-**CPersistStream** implements [**IPersistStream**](https://msdn.microsoft.com/library/windows/desktop/ms690091). For more implementation information, see the COM Reference in the Microsoft Platform SDK.
+**CPersistStream** implements [**IPersistStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream). For more implementation information, see the COM Reference in the Microsoft Platform SDK.
 
 
 

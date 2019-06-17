@@ -32,7 +32,7 @@ APIs that have been added to the Windows Server 2003 version of ESENT.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   Microsoft.Isam.Esent.Interop.Server2003.Server2003Api  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  

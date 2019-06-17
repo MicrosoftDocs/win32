@@ -54,7 +54,7 @@ For more information about the general syntax of a control statement, see [Commo
 [**STATE3**](state3-control.md)
 </dt> <dt>
 
-[Window Styles](https://msdn.microsoft.com/library/windows/desktop/ms632600)
+[Window Styles](https://docs.microsoft.com/windows/desktop/winmsg/window-styles)
 </dt> </dl>
 
  

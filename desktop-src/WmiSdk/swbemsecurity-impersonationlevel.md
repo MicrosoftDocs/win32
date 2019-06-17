@@ -71,7 +71,7 @@ objinstance.Security_.ImpersonationLevel = _
 
 
 
-You can also specify impersonation levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
+You can also specify impersonation levels as part of a moniker. The following example sets the authentication level and the impersonation level, and retrieves an instance of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service).
 
 
 ```VB

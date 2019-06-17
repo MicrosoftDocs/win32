@@ -59,7 +59,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_FCPort**.**SupportedCOS**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_FCPort**.**SupportedCOS**")
 </dt> </dl>
 
 The active class of service (COS) settings for the fibre channel.
@@ -133,7 +133,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa393650) ("**CIM\_FCPort**.**SupportedFC4Types**")
+Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_FCPort**.**SupportedFC4Types**")
 </dt> </dl>
 
 The FC-4 protocols that are running on the fibre channel.
@@ -333,7 +333,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("PortType")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PortType")
 </dt> </dl>
 
 The enabled mode for the port. The port modes are defined by ANSI X3 standards. If the port is logged in, this will be the negotiated port type, otherwise the configured port type will be reported.

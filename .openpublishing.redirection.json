@@ -286,8 +286,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "desktop-src/ETW/index.md",
-      "redirect_url": "/windows/desktop/ETW/event-tracing-portal",
+      "source_path": "desktop-src/eap/index.md",
+      "redirect_url": "/windows/desktop/eap/eap-start-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/eaphost/index.md",
+      "redirect_url": "/windows/desktop/eaphost/portal",
       "redirect_document_id": false
     },
     {
@@ -41978,6 +41983,21 @@
 {
 	"source_path": "desktop-src/bits/bitsadmin-examples.md",
 	"redirect_url": "/windows-server/administration/windows-commands/bitsadmin-examples",
+	"redirect_document_id": false
+},
+{
+	"source_path": "desktop-src/choose-your-technology.md",
+	"redirect_url": "/windows/apps/desktop/choose-your-platform",
+	"redirect_document_id": false
+},
+{
+	"source_path": "desktop-src/modernize-desktop-applications.md",
+	"redirect_url": "/windows/apps/desktop/modernize",
+	"redirect_document_id": false
+},
+{
+	"source_path": "desktop-src/windows-8.md",
+	"redirect_url": "/windows/desktop/whats-new",
 	"redirect_document_id": false
 }
   ]

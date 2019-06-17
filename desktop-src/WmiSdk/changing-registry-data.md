@@ -14,19 +14,19 @@ api_location:
 
 # Changing Registry Data
 
-The [System Registry Provider](https://msdn.microsoft.com/library/aa393886) class [**StdRegProv**](https://msdn.microsoft.com/library/aa393664) for WMI has methods that do the following:
+The [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) class [**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov) for WMI has methods that do the following:
 
 -   Create or delete registry keys.
 
-    Use [**CreateKey**](https://msdn.microsoft.com/library/aa389385) or [**DeleteKey**](https://msdn.microsoft.com/library/aa389869).
+    Use [**CreateKey**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/createkey-method-in-class-stdregprov) or [**DeleteKey**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/deletekey-method-in-class-stdregprov).
 
 -   Create or delete named values, which are called entries when they are under keys.
 
-    Use the name of a new value and [**SetBinaryValue**](https://msdn.microsoft.com/library/aa393286), [**SetDWORDValue**](https://msdn.microsoft.com/library/aa393297), [**SetExpandedStringValue**](https://msdn.microsoft.com/library/aa393299), [**SetMultiStringValue**](https://msdn.microsoft.com/library/aa393465), or [**SetStringValue**](https://msdn.microsoft.com/library/aa393600) to create a named value. Use [**DeleteValue**](https://msdn.microsoft.com/library/aa389872) to delete a named value.
+    Use the name of a new value and [**SetBinaryValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setbinaryvalue-method-in-class-stdregprov), [**SetDWORDValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setdwordvalue-method-in-class-stdregprov), [**SetExpandedStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setexpandedstringvalue-method-in-class-stdregprov), [**SetMultiStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setmultistringvalue-method-in-class-stdregprov), or [**SetStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov) to create a named value. Use [**DeleteValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/deletevalue-method-in-class-stdregprov) to delete a named value.
 
 -   Change named values.
 
-    Use the name of a value and the Set methods (identified in the previous bulleted item) to change existing named values under a key. You must know the name of a value to change it. If you do not know the value names under a key, use the [**EnumValues**](https://msdn.microsoft.com/library/aa390388) method to obtain the names.
+    Use the name of a value and the Set methods (identified in the previous bulleted item) to change existing named values under a key. You must know the name of a value to change it. If you do not know the value names under a key, use the [**EnumValues**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov) method to obtain the names.
 
 The following sections are discussed in this topic:
 
@@ -82,7 +82,7 @@ $reg = [wmiclass]&quot;\\$strComputer\root\default:StdRegprov&quot;
 
 ## Creating a Named Registry Value Using PowerShell and VBScript
 
-The following code example shows how to create a named value called **MultiStringValue** under the **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**MyKey**\\**MySubKey** key that the previous script creates. The script calls [**StdRegProv.SetMultiStringValue**](https://msdn.microsoft.com/library/aa393465) to write string values to a new named value.
+The following code example shows how to create a named value called **MultiStringValue** under the **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**MyKey**\\**MySubKey** key that the previous script creates. The script calls [**StdRegProv.SetMultiStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setmultistringvalue-method-in-class-stdregprov) to write string values to a new named value.
 
 
 ```VB
@@ -131,7 +131,7 @@ $multiValues.sValue
 
 
 
-Using WMI, you cannot set access security on a registry key. However, the [**StdRegProv.CheckAccess**](https://msdn.microsoft.com/library/aa384911) method compares the security settings of the current user to the security descriptor on a registry key to determine if the user has a specific permission, such as **KEY\_SET\_VALUE**.
+Using WMI, you cannot set access security on a registry key. However, the [**StdRegProv.CheckAccess**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/checkaccess-method-in-class-stdregprov) method compares the security settings of the current user to the security descriptor on a registry key to determine if the user has a specific permission, such as **KEY\_SET\_VALUE**.
 
  
 

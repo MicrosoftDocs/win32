@@ -36,7 +36,7 @@ A **UINT** that specifies the timeout value for the scroll, in milliseconds.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) is a **UINT** that specifies the number of lines to scroll per timeout. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) is a **UINT** that specifies the number of pixels per line.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **UINT** that specifies the number of lines to scroll per timeout. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is a **UINT** that specifies the number of pixels per line.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ Using this message might compromise the security of your program.
 
 ## Remarks
 
-The *wParam* timeout value controls the rate at which the pager control generates scrolling events when the control has captured the mouse input and the left mouse button is pressed. Smaller values result in faster scrolling; larger values result in slower scrolling. The default value is one-eighth of the double-click time. For more information, see [**GetDoubleClickTime**](https://msdn.microsoft.com/library/windows/desktop/ms646258).
+The *wParam* timeout value controls the rate at which the pager control generates scrolling events when the control has captured the mouse input and the left mouse button is pressed. Smaller values result in faster scrolling; larger values result in slower scrolling. The default value is one-eighth of the double-click time. For more information, see [**GetDoubleClickTime**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime).
 
 By default, with each scrolling event the pager control scrolls an amount equal to the entire width or height of the control, depending on whether the pager control has a horizontal or vertical orientation. The values in *lParam* are used to override the default scrolling amount. If nonzero values are provided, the scrolling amount is the product of the two values (LOWORD(*lParam*) \* HIWORD(*lParam*)).
 

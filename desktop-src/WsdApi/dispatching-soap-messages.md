@@ -12,7 +12,7 @@ There are many ways to handle dispatching received SOAP messages to the appropri
 
 ## Transport level dispatch
 
-With transport level dispatch, the underlying HTTP server (such as the [HTTP API](https://msdn.microsoft.com/library/windows/desktop/aa364510)) is used to manage routing of requests to the device and its services. The server provides a different URL for each service and for the device and different sinks are registered for each URL. This allows code to be designed such that each service is isolated from the other, either running as separate components within the same process or running as separate processes.
+With transport level dispatch, the underlying HTTP server (such as the [HTTP API](https://docs.microsoft.com/windows/desktop/Http/http-api-start-page)) is used to manage routing of requests to the device and its services. The server provides a different URL for each service and for the device and different sinks are registered for each URL. This allows code to be designed such that each service is isolated from the other, either running as separate components within the same process or running as separate processes.
 
 Transport level dispatch has a few advantages. Messages can be dispatched to the appropriate component without first parsing the SOAP envelope or message body. Also, the existing mechanism for routing messages provided by most HTTP server implementations can be reused, which means custom dispatching code is unnecessary. It also isolates the SOAP processing code between services, which provides a level of security, as secure services avoid having messages travel through common code.
 

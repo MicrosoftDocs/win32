@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.FocusedItem property
 
-Gets a [**FolderItem**](https://msdn.microsoft.com/library/windows/desktop/bb787810) object that represents the item that has the input focus.
+Gets a [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object that represents the item that has the input focus.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ objFocusedItem = WebViewFolderContents.FocusedItem
 
 ## Property value
 
-A variable of type [IDispatch](https://msdn.microsoft.com/en-US/library/ms221608.aspx) that receives the focused item object.
+A variable of type [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) that receives the focused item object.
 
 ## Examples
 

@@ -80,7 +80,7 @@ To add a text layout you must do the following:
 
 ## Step 2: Implement a Custom Drawing Effect Class
 
-Other than the methods inherited from IUnknown, a custom client drawing effect interface has no requirements as to what it must implement. In this case, the **ColorDrawingEffect** class simply holds a [**D2D1\_COLOR\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368081) value and declares methods to get and set this value, as well as a constructor that can set the color initially.
+Other than the methods inherited from IUnknown, a custom client drawing effect interface has no requirements as to what it must implement. In this case, the **ColorDrawingEffect** class simply holds a [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) value and declares methods to get and set this value, as well as a constructor that can set the color initially.
 
 After a client drawing effect is applied to a text range in a [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object, the drawing effect is passed to the [**IDWriteTextRenderer::DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) method of any glyph run that is to be rendered. The methods of the drawing effect are then available to the text renderer.
 
@@ -92,7 +92,7 @@ In order to take advantage of a client drawing effect, you must implement a cust
 
 ### The Constructor
 
-The constructor for the custom text renderer stores the [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246) object that will be used to create [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) objects, and the Direct2D render target that the text will be drawn on to.
+The constructor for the custom text renderer stores the [**ID2D1Factory**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory) object that will be used to create [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) objects, and the Direct2D render target that the text will be drawn on to.
 
 
 ```C++
@@ -116,7 +116,7 @@ pRT_(pRT)
 
 A glyph run is a set of glyphs that share the same format, including the client drawing effect. The [**DrawGlyphRun**](https://msdn.microsoft.com/en-us/library/Dd371526(v=VS.85).aspx) method takes care of the text rendering for a specified glyph run.
 
-First, create an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371512) and an [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316592), and then retrieve the glyph run outline by using [**IDWriteFontFace::GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx). Then transform the origin of the geometry by using the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) [**ID2D1Factory::CreateTransformedGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371304) method, as shown in the following code.
+First, create an [**ID2D1PathGeometry**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry) and an [**ID2D1GeometrySink**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink), and then retrieve the glyph run outline by using [**IDWriteFontFace::GetGlyphRunOutline**](https://msdn.microsoft.com/en-us/library/Dd371003(v=VS.85).aspx). Then transform the origin of the geometry by using the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) [**ID2D1Factory::CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) method, as shown in the following code.
 
 
 ```C++
@@ -191,9 +191,9 @@ ID2D1SolidColorBrush* pBrush = NULL;
 
 If the *clientDrawingEffect* parameter is not NULL, query the object for the **ColorDrawingEffect** interface. This will work because you will set this class as the client drawing effect on text ranges of the text layout object.
 
-Once you have a pointer to the **ColorDrawingEffect** interface, you can retrieve the [**D2D1\_COLOR\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368081) value that it stores using the **GetColor** method. Then, use the **D2D1\_COLOR\_F** to create a [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/windows/desktop/dd372207) in that color.
+Once you have a pointer to the **ColorDrawingEffect** interface, you can retrieve the [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) value that it stores using the **GetColor** method. Then, use the **D2D1\_COLOR\_F** to create a [**ID2D1SolidColorBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush) in that color.
 
-If the *clientDrawingEffect* parameter is **NULL**, then just create a black [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/windows/desktop/dd372207).
+If the *clientDrawingEffect* parameter is **NULL**, then just create a black [**ID2D1SolidColorBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush).
 
 
 ```C++
@@ -365,7 +365,7 @@ if (SUCCEEDED(hr))
 
 ## Step 7: Draw the Text Layout Using the Custom Renderer
 
-You must call the [**IDWriteTextLayout::Draw**](https://msdn.microsoft.com/en-us/library/Dd316726(v=VS.85).aspx) method rather than the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) or [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) methods.
+You must call the [**IDWriteTextLayout::Draw**](https://msdn.microsoft.com/en-us/library/Dd316726(v=VS.85).aspx) method rather than the [**ID2D1RenderTarget::DrawText**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) or [**ID2D1RenderTarget::DrawTextLayout**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) methods.
 
 
 ```C++

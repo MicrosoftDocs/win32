@@ -36,7 +36,7 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* par
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that will receive the client coordinates for the item in the list box.
+A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that will receive the client coordinates for the item in the list box.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ If an error occurs, the return value is LB\_ERR.
 
 <dl> <dt>
 
-[**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)
+[**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85))
 </dt> </dl>
 
  

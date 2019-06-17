@@ -44,7 +44,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the <a href="https://msdn.microsoft.com/library/windows/desktop/hh446872"><strong>D3DCompileFromFile</strong></a> API.
+Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile"><strong>D3DCompileFromFile</strong></a> API.
 </blockquote>
 <br/> Compile a shader or an effect from a file.<br/></td>
 </tr>
@@ -57,7 +57,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607324"><strong>D3DCompile</strong></a> API.
+Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile"><strong>D3DCompile</strong></a> API.
 </blockquote>
 <br/> Compile a shader or an effect that is loaded in memory.<br/></td>
 </tr>
@@ -70,7 +70,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use <a href="https://msdn.microsoft.com/library/windows/desktop/ff468902">resource functions</a>, then compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607324"><strong>D3DCompile</strong></a> API.
+Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile"><strong>D3DCompile</strong></a> API.
 </blockquote>
 <br/> Compile a shader or an effect from a resource.<br/></td>
 </tr>
@@ -194,7 +194,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 <p>[!Note]<br />
-Instead of using this function, we recommend that you use <a href="https://msdn.microsoft.com/library/windows/desktop/ff468902">resource functions</a>, then these:</p>
+Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then these:</p>
 <ul>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
@@ -245,7 +245,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 <p>[!Note]<br />
-Instead of using this function, we recommend that you use <a href="https://msdn.microsoft.com/library/windows/desktop/ff468902">resource functions</a>, then these:</p>
+Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then these:</p>
 <ul>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
@@ -309,7 +309,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use <a href="https://msdn.microsoft.com/library/windows/desktop/ff468902">resource functions</a>, then use <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then use <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 </blockquote>
 <br/> Retrieves information about a given image in a resource.<br/></td>
 </tr>
@@ -335,7 +335,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607332"><strong>D3DPreprocess</strong></a> API.
+Instead of using this function, we recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> API.
 </blockquote>
 <br/> Create a shader from a file without compiling it.<br/></td>
 </tr>
@@ -348,7 +348,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607332"><strong>D3DPreprocess</strong></a> API.
+Instead of using this function, we recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> API.
 </blockquote>
 <br/> Create a shader from memory without compiling it.<br/></td>
 </tr>
@@ -361,7 +361,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607332"><strong>D3DPreprocess</strong></a> API.
+Instead of using this function, we recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> API.
 </blockquote>
 <br/> Create a shader from a resource without compiling it.<br/></td>
 </tr>

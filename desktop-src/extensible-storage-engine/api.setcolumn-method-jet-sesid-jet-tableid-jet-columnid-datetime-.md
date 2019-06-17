@@ -80,7 +80,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y)  
+    Type: [System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)  
     
     The data to set.
 

@@ -54,7 +54,7 @@ Data type: **Msvm\_RegisteredProfile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The registered profile to which the standalone system conforms.
@@ -70,7 +70,7 @@ Data type: **Msvm\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650), **MSFT\_TargetNamespace** ("root\\\\virtualization\\\\v2")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), **MSFT\_TargetNamespace** ("root\\\\virtualization\\\\v2")
 </dt> </dl>
 
 The standalone system that conforms to the registered profile.

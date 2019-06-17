@@ -161,7 +161,7 @@ If the call is successful, an [**SWbemObjectPath**](swbemobjectpath.md) object i
 
 ## Error codes
 
-After the completion of the **Put\_** method, the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object may contain one of the error codes in the following list.
+After the completion of the **Put\_** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 

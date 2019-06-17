@@ -32,7 +32,7 @@ A callback that notifies the host that the .DDS (DirectDraw Surface) file contai
 
 ## <span id="see_also"></span>See also
 
-[**ITextureCallback**](https://msdn.microsoft.com/library/windows/desktop/mt432815)
+[**ITextureCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/itexturecallback)
 
  
 

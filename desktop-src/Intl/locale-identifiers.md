@@ -26,7 +26,7 @@ The following illustration shows the format of the bits in a locale identifier.
 
 ## Predefined Locale Identifiers
 
-The predefined locale identifiers supported by NLS are defined in the [National Language Support (NLS) API Reference](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx).
+The predefined locale identifiers supported by NLS are defined in the [National Language Support (NLS) API Reference](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 NLS uses the following locale information constants to represent locale identifiers.
 

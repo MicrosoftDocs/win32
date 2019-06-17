@@ -41,8 +41,8 @@ Constructs instances of the [**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/li
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420615(v=VS.85).aspx"><strong>XMUNIBBLE4 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMUNIBBLE4</code><br/> Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a><br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constfloat)"><strong>XMUNIBBLE4 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMUNIBBLE4</code><br/> Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a><br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -50,8 +50,8 @@ This is only available for C++ based development.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404760(v=VS.85).aspx"><strong>XMUNIBBLE4 (uint16_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a> from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(uint16_t)"><strong>XMUNIBBLE4 (uint16_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -59,8 +59,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420619(v=VS.85).aspx"><strong>XMUNIBBLE4 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a> from a from a four element <code>float</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constfloat)"><strong>XMUNIBBLE4 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -68,8 +68,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404762(v=VS.85).aspx"><strong>XMUNIBBLE4 (const int8_t*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from a four element <code>int8_t</code> array argument. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a> from a from a four element <code>int8_t</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const int8_t*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from a four element <code>int8_t</code> array argument. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from a from a four element <code>int8_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -77,8 +77,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420618(v=VS.85).aspx"><strong>XMUNIBBLE4 (float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a> from four <code>float</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (float,float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from four <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -86,8 +86,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404761(v=VS.85).aspx"><strong>XMUNIBBLE4 (int8_t,int8_t,int8_t,int8_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx"><strong>XMUNIBBLE4</strong></a> from four <code>int8_t</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (int8_t,int8_t,int8_t,int8_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from four <code>int8_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

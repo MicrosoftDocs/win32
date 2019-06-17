@@ -32,7 +32,7 @@ Where:
 
 -   dst is the destination register and has to be a [Temporary Register](dx9-graphics-reference-asm-vs-registers-temporary.md) (r\#). The destination register must have exactly one of the following three masks: .x \| .y \| .xy.
 -   src0 is a source register that provides the input angle, which must be within \[-pi, +pi\]. {x\|y\|z\|w} is the required replicate swizzle.
--   src1 and src2 are source registers and must be two different [Constant Float Register](dx9-graphics-reference-asm-vs-registers-constant-float.md) (c\#). The values of src1 and src2 must be that of the macros [**D3DSINCOSCONST1**](https://msdn.microsoft.com/library/windows/desktop/bb172606) and [**D3DSINCOSCONST2**](https://msdn.microsoft.com/library/windows/desktop/bb172607) respectively.
+-   src1 and src2 are source registers and must be two different [Constant Float Register](dx9-graphics-reference-asm-vs-registers-constant-float.md) (c\#). The values of src1 and src2 must be that of the macros [**D3DSINCOSCONST1**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dsincosconst1) and [**D3DSINCOSCONST2**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dsincosconst2) respectively.
 
 ### vs\_3\_0
 

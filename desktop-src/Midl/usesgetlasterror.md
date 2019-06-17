@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # usesgetlasterror attribute
 
-The **\[usesgetlasterror\]** attribute signals the caller that it can call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) to retrieve the error code.
+The **\[usesgetlasterror\]** attribute signals the caller that it can call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code.
 
 ``` syntax
 [
@@ -83,7 +83,7 @@ Zero or more parameters to the remote procedure.
 
 ## Remarks
 
-The **\[usesgetlasterror\]** attribute can be set on a module entry point, if that entry point uses the Windows function [**SetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms680627) to return error codes. The attribute tells the caller that, if there is an error when calling that function, the caller can then call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) to retrieve the error code.
+The **\[usesgetlasterror\]** attribute can be set on a module entry point, if that entry point uses the Windows function [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return error codes. The attribute tells the caller that, if there is an error when calling that function, the caller can then call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code.
 
 ## Examples
 

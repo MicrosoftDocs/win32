@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Supporting the Win32\_PerfFormattedData Class
 
-When writing a high-performance provider that derives classes from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253), you must follow specific conventions so that WMI can calculate the property values.
+When writing a high-performance provider that derives classes from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata), you must follow specific conventions so that WMI can calculate the property values.
 
 > [!Note]  
 > Writing a WMI high-performance provider to create performance counters is not recommended on any version of the Windows operating system. For more information, see [Making an Instance Provider into a High-Performance Provider](making-an-instance-provider-into-a-high-performance-provider.md)and [Performance Libraries and WMI](performance-libraries-and-wmi.md).
@@ -20,7 +20,7 @@ The following procedure describes how to support the Win32\_PerfFormattedData cl
 
 **To support the Win32\_PerfFormattedData class**
 
-1.  Create your class in the same namespace as the corresponding raw class. The class must be derived from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) and have the **HiPerf** qualifier set to **TRUE**. For more information about creating your own class for WMI, see [Designing Managed Object Format (MOF) Classes](designing-managed-object-format--mof--classes.md).
+1.  Create your class in the same namespace as the corresponding raw class. The class must be derived from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) and have the **HiPerf** qualifier set to **TRUE**. For more information about creating your own class for WMI, see [Designing Managed Object Format (MOF) Classes](designing-managed-object-format--mof--classes.md).
 2.  Specify "HiPerfCooker\_v1" in the [**Provider**](class-qualifiers-for-performance-counter-classes.md) qualifier.
 3.  Specify the following class-level qualifiers in addition to the qualifiers used for the raw classes:
 

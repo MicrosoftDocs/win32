@@ -20,7 +20,7 @@ api_location:
 
 # SWbemObjectEx.Refresh\_ method
 
-The **Refresh\_** method of [**SWbemObjectEx**](swbemobjectex.md) updates the data for objects that have data supplied by a performance provider, such as the [Performance Counter Classes](https://msdn.microsoft.com/library/aa392738). You can obtain updated data more quickly and without a call to [**SWbemServices.Get\_**](swbemservices-get.md).
+The **Refresh\_** method of [**SWbemObjectEx**](swbemobjectex.md) updates the data for objects that have data supplied by a performance provider, such as the [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes). You can obtain updated data more quickly and without a call to [**SWbemServices.Get\_**](swbemservices-get.md).
 
 For more information about this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 

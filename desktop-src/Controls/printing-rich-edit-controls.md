@@ -25,7 +25,7 @@ This section contains information about how to print the contents of rich edit c
 
 ### Use Print Preview
 
-To format text in a rich edit control as it will appear on a target device (usually the printed page), send the [**EM\_SETTARGETDEVICE**](em-settargetdevice.md) message, passing in the handle to a device context (HDC) of the target device and the desired line width. Usually you will obtain the line width by calling [**GetDeviceCaps**](https://msdn.microsoft.com/library/windows/desktop/dd144877) for the target HDC.
+To format text in a rich edit control as it will appear on a target device (usually the printed page), send the [**EM\_SETTARGETDEVICE**](em-settargetdevice.md) message, passing in the handle to a device context (HDC) of the target device and the desired line width. Usually you will obtain the line width by calling [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps) for the target HDC.
 
 ### Format Print for a Specific Device
 

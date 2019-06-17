@@ -18,9 +18,9 @@ api_location:
 
 # Create method of the Win32\_Process class
 
-The **Create** [WMI class](https://msdn.microsoft.com/library/aa393244) method creates a new process.
+The **Create** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method creates a new process.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -70,7 +70,7 @@ Global process identifier that can be used to identify a process. The value is v
 
 ## Return value
 
-Returns a value of 0 (zero) if the process was successfully created, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/aa394559) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/aa393978). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
+Returns a value of 0 (zero) if the process was successfully created, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -103,7 +103,7 @@ A fully qualified path must be specified in cases where the program to be launch
 
 For security reasons the **Win32\_Process.Create** method cannot be used to start an interactive process remotely.
 
-Processes created with the **Win32\_Process.Create** method are limited by the job object unless the **CREATE\_BREAKAWAY\_FROM\_JOB** flag is specified. For more information, see [**Win32\_ProcessStartup**](win32-processstartup.md) and [**\_\_ProviderHostQuotaConfiguration**](https://msdn.microsoft.com/library/aa394671).
+Processes created with the **Win32\_Process.Create** method are limited by the job object unless the **CREATE\_BREAKAWAY\_FROM\_JOB** flag is specified. For more information, see [**Win32\_ProcessStartup**](win32-processstartup.md) and [**\_\_ProviderHostQuotaConfiguration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--providerhostquotaconfiguration).
 
 ## Examples
 
@@ -219,13 +219,13 @@ End If
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/aa392727)
+[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Process**](win32-process.md)
 </dt> <dt>
 
-[WMI Tasks: Processes](https://msdn.microsoft.com/library/aa394599)
+[WMI Tasks: Processes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--processes)
 </dt> </dl>
 
  

@@ -49,7 +49,7 @@ The **Msvm\_ElementAllocatedFromPool** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourcePool**](https://msdn.microsoft.com/library/cc136903)**
+Data type: **[**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
@@ -58,26 +58,26 @@ Access type: Read-only
 Qualifiers: **Override**, **Max** (1)
 </dt> </dl>
 
-The resource pool. This property is inherited from [**CIM\_ElementAllocatedFromPool**](https://msdn.microsoft.com/library/cc150668).
+The resource pool. This property is inherited from [**CIM\_ElementAllocatedFromPool**](https://docs.microsoft.com/previous-versions//cc150668(v=vs.85)).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalElement**](https://msdn.microsoft.com/library/aa387892)**
+Data type: **[**CIM\_LogicalElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicalelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The allocated resource. This property is inherited from [**CIM\_ElementAllocatedFromPool**](https://msdn.microsoft.com/library/cc150668).
+The allocated resource. This property is inherited from [**CIM\_ElementAllocatedFromPool**](https://docs.microsoft.com/previous-versions//cc150668(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -100,10 +100,10 @@ Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UA
 [**CIM\_ElementAllocatedFromPool**](cim-elementallocatedfrompool.md)
 </dt> <dt>
 
-[**CIM\_ElementAllocatedFromPool**](https://msdn.microsoft.com/library/cc150668)
+[**CIM\_ElementAllocatedFromPool**](https://docs.microsoft.com/previous-versions//cc150668(v=vs.85))
 </dt> <dt>
 
-[**Msvm\_ElementAllocatedFromPool (V1)**](https://msdn.microsoft.com/library/cc136832)
+[**Msvm\_ElementAllocatedFromPool (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-elementallocatedfrompool)
 </dt> <dt>
 
 [Resource Management Classes](resource-management-classes.md)

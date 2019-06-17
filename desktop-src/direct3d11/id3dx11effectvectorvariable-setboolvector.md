@@ -41,7 +41,7 @@ HRESULT SetBoolVector(
 *pData* 
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751)\***
+Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the first component.
 

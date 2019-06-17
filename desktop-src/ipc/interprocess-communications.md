@@ -71,7 +71,7 @@ You can use a special case of file mapping to provide *named shared memory* betw
 
 File mapping is quite efficient and also provides operating-system–supported security attributes that can help prevent unauthorized data corruption. File mapping can be used only between processes on a local computer; it cannot be used over a network.
 
-**Key Point:** File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes. For more information, see [File Mapping](https://msdn.microsoft.com/library/windows/desktop/aa366556) and [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353).
+**Key Point:** File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes. For more information, see [File Mapping](https://docs.microsoft.com/windows/desktop/Memory/file-mapping) and [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization).
 
 ## Using a Mailslot for IPC
 
@@ -97,7 +97,7 @@ The RPC provided by Windows is compliant with the Open Software Foundation (OSF)
 
 RPC clients and servers are tightly coupled but still maintain high performance. The system makes extensive use of RPC to facilitate a client/server relationship between different parts of the operating system.
 
-**Key Point:** RPC is a function-level interface, with support for automatic data conversion and for communications with other operating systems. Using RPC, you can create high-performance, tightly coupled distributed applications. For more information, see [Microsoft RPC Components](https://msdn.microsoft.com/library/windows/desktop/aa374169).
+**Key Point:** RPC is a function-level interface, with support for automatic data conversion and for communications with other operating systems. Using RPC, you can create high-performance, tightly coupled distributed applications. For more information, see [Microsoft RPC Components](https://docs.microsoft.com/windows/desktop/Rpc/microsoft-rpc-components).
 
 ## Using Windows Sockets for IPC
 
@@ -105,7 +105,7 @@ Windows Sockets is a protocol-independent interface. It takes advantage of the c
 
 Windows Sockets are based on the sockets first popularized by Berkeley Software Distribution (BSD). An application that uses Windows Sockets can communicate with other socket implementation on other types of systems. However, not all transport service providers support all available options.
 
-**Key Point:** Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities. For more information, see [Windows Sockets 2](https://msdn.microsoft.com/library/windows/desktop/ms740673).
+**Key Point:** Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities. For more information, see [Windows Sockets 2](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2).
 
  
 

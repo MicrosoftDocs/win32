@@ -45,7 +45,7 @@ HRESULT CPapFile::Init(
 
 
 
-The *pszAppFileName* parameter is used to initialize CPapFile with a default file name for any subsequent load or save operations. A copy is kept in member **m\_szCurFileName** for the first load. In **StoClien**, such a load is attempted when the application first starts after CPapFile has been initialized with *pszAppFileName* assigned "STOCLIEN.PAP". This file name was constructed in a CGuiPaper constructor by obtaining the current executing module name. (The Win32 [**GetModuleFileName**](https://msdn.microsoft.com/library/windows/desktop/ms683197) function is called).
+The *pszAppFileName* parameter is used to initialize CPapFile with a default file name for any subsequent load or save operations. A copy is kept in member **m\_szCurFileName** for the first load. In **StoClien**, such a load is attempted when the application first starts after CPapFile has been initialized with *pszAppFileName* assigned "STOCLIEN.PAP". This file name was constructed in a CGuiPaper constructor by obtaining the current executing module name. (The Win32 [**GetModuleFileName**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) function is called).
 
 The *pIPaper* parameter is required by CPapFile, because it uses this interface on the COPaper object to perform its load and save operations. **AddRef** is called on this stored copy of *pIPaper*, in accordance with COM rules. The matching **Release** is called in the CPapFile destructor.
 

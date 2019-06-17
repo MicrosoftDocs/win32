@@ -41,7 +41,7 @@ Your provider calls this function. The function includes calls to the [**PerfSta
 
 The [**CTRPP**](ctrpp.md) tool generates this inline function when you specify the **-o** argument. The function's name include a *prefix* string if you specify the **-prefix** argument.
 
-If you specify the **-MemoryRoutines** or **-NotificationCallback** arguments (or specify the **callback** attribute for the [**provider**](https://msdn.microsoft.com/library/windows/desktop/ee781352) element), the **CounterInitialize** signature changes to the following:
+If you specify the **-MemoryRoutines** or **-NotificationCallback** arguments (or specify the **callback** attribute for the [**provider**](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element), the **CounterInitialize** signature changes to the following:
 
 ``` syntax
 ULONG WINAPI CounterInitialize(

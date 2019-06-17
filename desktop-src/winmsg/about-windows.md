@@ -42,7 +42,7 @@ The desktop window uses a bitmap to paint the background of the screen. The patt
 
 The [**GetDesktopWindow**](https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx) function returns a handle to the desktop window.
 
-A system configuration application, such as a Control Panel item, changes the desktop wallpaper by using the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function with the *wAction* parameter set to **SPI\_SETDESKWALLPAPER** and the *lpvParam* parameter specifying a bitmap file name. **SystemParametersInfo** then loads the bitmap from the specified file, uses the bitmap to paint the background of the screen, and enters the new file name in the registry.
+A system configuration application, such as a Control Panel item, changes the desktop wallpaper by using the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the *wAction* parameter set to **SPI\_SETDESKWALLPAPER** and the *lpvParam* parameter specifying a bitmap file name. **SystemParametersInfo** then loads the bitmap from the specified file, uses the bitmap to paint the background of the screen, and enters the new file name in the registry.
 
 ## Application Windows
 
@@ -66,7 +66,7 @@ The *title bar* displays an application-defined icon and line of text; typically
 
 Most applications include a *menu bar* that lists the commands supported by the application. Items in the menu bar represent the main categories of commands. Clicking an item on the menu bar typically opens a pop-up menu whose items correspond to the tasks within a given category. By clicking a command, the user directs the application to carry out a task.
 
-The *window menu* is created and managed by the system. It contains a standard set of menu items that, when chosen by the user, set a window's size or position, close the application, or perform tasks. For more information, see [Menus](https://msdn.microsoft.com/library/windows/desktop/ms646977).
+The *window menu* is created and managed by the system. It contains a standard set of menu items that, when chosen by the user, set a window's size or position, close the application, or perform tasks. For more information, see [Menus](https://docs.microsoft.com/windows/desktop/menurc/menus).
 
 The buttons in the upper-right corner affect the size and position of the window. When you click the *maximize button*, the system enlarges the window to the size of the screen and positions the window, so it covers the entire desktop, minus the taskbar. At the same time, the system replaces the maximize button with the restore button. When you click the *restore button*, the system restores the window to its previous size and position. When you click the *minimize button*, the system reduces the window to the size of its taskbar button, positions the window over the taskbar button, and displays the taskbar button in its normal state. To restore the application to its previous size and position, click its taskbar button. When you click the *close button*, the application exits.
 
@@ -78,11 +78,11 @@ The *horizontal scroll bar* and *vertical scroll bar* convert mouse or keyboard 
 
 An application can create several types of windows in addition to its main window, including controls and dialog boxes.
 
-A *control* is a window that an application uses to obtain a specific piece of information from the user, such as the name of a file to open or the desired point size of a text selection. Applications also use controls to obtain information needed to control a particular feature of an application. For example, a word-processing application typically provides a control to let the user turn word wrapping on and off. For more information, see [Windows Controls](https://msdn.microsoft.com/library/windows/desktop/bb773173).
+A *control* is a window that an application uses to obtain a specific piece of information from the user, such as the name of a file to open or the desired point size of a text selection. Applications also use controls to obtain information needed to control a particular feature of an application. For example, a word-processing application typically provides a control to let the user turn word wrapping on and off. For more information, see [Windows Controls](https://docs.microsoft.com/windows/desktop/Controls/window-controls).
 
-Controls are always used in conjunction with another window—typically, a dialog box. A *dialog box* is a window that contains one or more controls. An application uses a dialog box to prompt the user for input needed to complete a command. For example, an application that includes a command to open a file would display a dialog box that includes controls in which the user specifies a path and file name. Dialog boxes do not typically use the same set of window components as does a main window. Most have a title bar, a window menu, a border (non-sizing), and a client area, but they typically do not have a menu bar, minimize and maximize buttons, or scroll bars. For more information, see [Dialog Boxes](https://msdn.microsoft.com/library/windows/desktop/ms632588).
+Controls are always used in conjunction with another window—typically, a dialog box. A *dialog box* is a window that contains one or more controls. An application uses a dialog box to prompt the user for input needed to complete a command. For example, an application that includes a command to open a file would display a dialog box that includes controls in which the user specifies a path and file name. Dialog boxes do not typically use the same set of window components as does a main window. Most have a title bar, a window menu, a border (non-sizing), and a client area, but they typically do not have a menu bar, minimize and maximize buttons, or scroll bars. For more information, see [Dialog Boxes](https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes).
 
-A *message box* is a special dialog box that displays a note, caution, or warning to the user. For example, a message box can inform the user of a problem the application has encountered while performing a task. For more information, see [Message Boxes](https://msdn.microsoft.com/library/windows/desktop/ms644994#message-boxes).
+A *message box* is a special dialog box that displays a note, caution, or warning to the user. For example, a message box can inform the user of a problem the application has encountered while performing a task. For more information, see [Message Boxes](https://docs.microsoft.com/windows/desktop/dlgbox/about-dialog-boxes).
 
 ## Window Attributes
 
@@ -145,11 +145,11 @@ The [**WindowFromPoint**](https://msdn.microsoft.com/en-us/library/ms633558(v=VS
 
 ### Size
 
-A window's size (width and height) is given in pixels. A window can have zero width or height. If an application sets a window's width and height to zero, the system sets the size to the default minimum window size. To discover the default minimum window size, an application uses the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function with the **SM\_CXMIN** and **SM\_CYMIN** flags.
+A window's size (width and height) is given in pixels. A window can have zero width or height. If an application sets a window's width and height to zero, the system sets the size to the default minimum window size. To discover the default minimum window size, an application uses the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function with the **SM\_CXMIN** and **SM\_CYMIN** flags.
 
 An application may need to create a window with a client area of a particular size. The [**AdjustWindowRect**](https://msdn.microsoft.com/en-us/library/ms632665(v=VS.85).aspx) and [**AdjustWindowRectEx**](https://msdn.microsoft.com/en-us/library/ms632667(v=VS.85).aspx) functions calculate the required size of a window based on the desired size of the client area. The application can pass the resulting size values to the [**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx) function.
 
-An application can size a window so that it is extremely large; however, it should not size a window so that it is larger than the screen. Before setting a window's size, the application should check the width and height of the screen by using [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) with the **SM\_CXSCREEN** and **SM\_CYSCREEN** flags.
+An application can size a window so that it is extremely large; however, it should not size a window so that it is larger than the screen. Before setting a window's size, the application should check the width and height of the screen by using [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with the **SM\_CXSCREEN** and **SM\_CYSCREEN** flags.
 
 ### Parent or Owner Window Handle
 
@@ -177,7 +177,7 @@ After creating a window, the creation function returns a *window handle* that un
 
 An application can use the [**FindWindow**](https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx) function to discover whether a window with the specified class name or window name exists in the system. If such a window exists, **FindWindow** returns a handle to the window. To limit the search to the child windows of a particular application, use the [**FindWindowEx**](https://msdn.microsoft.com/en-us/library/ms633500(v=VS.85).aspx) function.
 
-The [**IsWindow**](https://msdn.microsoft.com/en-us/library/ms633528(v=VS.85).aspx) function determines whether a window handle identifies a valid, existing window. There are special constants that can replace a window handle in certain functions. For example, an application can use **HWND\_BROADCAST** in the [**SendMessage**](https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx) and [**SendMessageTimeout**](https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx) functions, or **HWND\_DESKTOP** in the [**MapWindowPoints**](https://msdn.microsoft.com/library/windows/desktop/dd145046) function.
+The [**IsWindow**](https://msdn.microsoft.com/en-us/library/ms633528(v=VS.85).aspx) function determines whether a window handle identifies a valid, existing window. There are special constants that can replace a window handle in certain functions. For example, an application can use **HWND\_BROADCAST** in the [**SendMessage**](https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx) and [**SendMessageTimeout**](https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx) functions, or **HWND\_DESKTOP** in the [**MapWindowPoints**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapwindowpoints) function.
 
 ## Window Creation
 
@@ -190,7 +190,7 @@ This section contains the following topics:
 -   [Multithread Applications](#multithread-applications)
 
 > [!Note]  
-> There are additional functions for creating special-purpose windows such as dialog boxes and message boxes. For more information, see [**DialogBox**](https://msdn.microsoft.com/library/windows/desktop/ms645452), [**CreateDialog**](https://msdn.microsoft.com/library/windows/desktop/ms645434), and [**MessageBox**](https://msdn.microsoft.com/library/windows/desktop/ms645505).
+> There are additional functions for creating special-purpose windows such as dialog boxes and message boxes. For more information, see [**DialogBox**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa), [**CreateDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialoga), and [**MessageBox**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox).
 
  
 
@@ -198,7 +198,7 @@ This section contains the following topics:
 
 Every Windows-based application must have [**WinMain**](https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx) as its entry point function. **WinMain** performs a number of tasks, including registering the window class for the main window and creating the main window. **WinMain** registers the main window class by calling the [**RegisterClass**](https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx) function, and it creates the main window by calling the [**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx) function.
 
-Your [**WinMain**](https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx) function can also limit your application to a single instance. Create a named mutex using the [**CreateMutex**](https://msdn.microsoft.com/library/windows/desktop/ms682411) function. If [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_ALREADY\_EXISTS**, another instance of your application exists (it created the mutex) and you should exit **WinMain**.
+Your [**WinMain**](https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx) function can also limit your application to a single instance. Create a named mutex using the [**CreateMutex**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa) function. If [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_ALREADY\_EXISTS**, another instance of your application exists (it created the mutex) and you should exit **WinMain**.
 
 The system does not automatically display the main window after creating it; instead, an application must use the [**ShowWindow**](https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx) function to display the main window. After creating the main window, the application's [**WinMain**](https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx) function calls **ShowWindow**, passing it two parameters: a handle to the main window and a flag specifying whether the main window should be minimized or maximized when it is first displayed. Normally, the flag can be set to any of the constants beginning with the SW\_ prefix. However, when **ShowWindow** is called to display the application's main window, the flag must be set to **SW\_SHOWDEFAULT**. This flag tells the system to display the window as directed by the program that started the application.
 
@@ -208,7 +208,7 @@ If a window class was registered with the Unicode version of [**RegisterClass**]
 
 When creating any window, the system sends messages to the window procedure for the window. The system sends the [**WM\_NCCREATE**](wm-nccreate.md) message after creating the window's nonclient area and the [**WM\_CREATE**](wm-create.md) message after creating the client area. The window procedure receives both messages before the system displays the window. Both messages include a pointer to a [**CREATESTRUCT**](https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx) structure that contains all the information specified in the [**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx) function. Typically, the window procedure performs initialization tasks upon receiving these messages.
 
-When creating a child window, the system sends the [**WM\_PARENTNOTIFY**](https://msdn.microsoft.com/library/windows/desktop/hh454920) message to the parent window after sending the [**WM\_NCCREATE**](wm-nccreate.md) and [**WM\_CREATE**](wm-create.md) messages. It also sends other messages while creating a window. The number and order of these messages depend on the window class and style and on the function used to create the window. These messages are described in other topics in this help file.
+When creating a child window, the system sends the [**WM\_PARENTNOTIFY**](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-parentnotify) message to the parent window after sending the [**WM\_NCCREATE**](wm-nccreate.md) and [**WM\_CREATE**](wm-create.md) messages. It also sends other messages while creating a window. The number and order of these messages depend on the window class and style and on the function used to create the window. These messages are described in other topics in this help file.
 
 ### Multithread Applications
 

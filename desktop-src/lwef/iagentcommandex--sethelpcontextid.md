@@ -16,7 +16,7 @@ HRESULT SetHelpContextID(
 );
 ```
 
-Sets the [**HelpContextID**](helpcontextid-property-com.md) for a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) object.
+Sets the [**HelpContextID**](helpcontextid-property-com.md) for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Sets the [**HelpContextID**](helpcontextid-property-com.md) for a [**Command**](
 <span id="ulID"></span><span id="ulid"></span><span id="ULID"></span>*ulID*
 </dt> <dd>
 
-The context number of the help topic associated with the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) object; used to provide context-sensitive Help for the command.
+The context number of the help topic associated with the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object; used to provide context-sensitive Help for the command.
 
 </dd> </dl>
 

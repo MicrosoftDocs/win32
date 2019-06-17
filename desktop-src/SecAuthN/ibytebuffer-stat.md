@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Stat method
 
-\[The **Stat** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Stat** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Stat** method retrieves statistical information from the stream object.
 
@@ -47,7 +47,7 @@ Points to a **STATSTRUCT** structure where this method places information about 
 *grfStatFlag* \[in\]
 </dt> <dd>
 
-Specifies that this method does not return some of the fields in the **STATSTRUCT** structure, thus saving a memory allocation operation. Values are taken from the [**STATFLAG**](https://msdn.microsoft.com/library/windows/desktop/aa380316) enumeration
+Specifies that this method does not return some of the fields in the **STATSTRUCT** structure, thus saving a memory allocation operation. Values are taken from the [**STATFLAG**](https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag) enumeration
 
 </dd> </dl>
 

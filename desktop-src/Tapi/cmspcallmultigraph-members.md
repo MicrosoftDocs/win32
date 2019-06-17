@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 CMSPArray <THREADPOOLWAITBLOCK>     m_ThreadPoolWaitBlocks;
 ```
 
-The wait blocks store the information about the wait registered to the thread pool. It includes the wait handles returned by the [**RegisterWaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms685061) call and a pointer to the context structure. Each block in the array is for a graph in one of the stream objects. The offset of a block in this array is the same as the offset of the stream that owns the graph.
+The wait blocks store the information about the wait registered to the thread pool. It includes the wait handles returned by the [**RegisterWaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject) call and a pointer to the context structure. Each block in the array is for a graph in one of the stream objects. The offset of a block in this array is the same as the offset of the stream that owns the graph.
 
  
 

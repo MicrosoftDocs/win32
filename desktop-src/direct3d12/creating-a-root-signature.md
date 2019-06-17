@@ -2,6 +2,7 @@
 title: Creating a Root Signature
 description: Root signatures are a complex data structure containing nested structures.
 ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
+ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -21,7 +22,7 @@ If you wish to take advantage of driver optimizations for root signature descrip
 -   [Root Descriptor](#root-descriptor)
 -   [Shader Visibility](#shader-visibility)
 -   [Root Signature Definition](#root-signature-definition)
--   [Root Signature Data Structure Serialization / Deserialization](https://docs.microsoft.com/windows)
+-   [Root Signature Data Structure Serialization / Deserialization](/windows)
 -   [Root Signature Creation API](#root-signature-creation-api)
 -   [Root Signature in Pipeline State Objects](#root-signature-in-pipeline-state-objects)
 -   [Code for Defining a Version 1.1 Root Signature](#code-for-defining-a-version-11-root-signature)
@@ -29,7 +30,7 @@ If you wish to take advantage of driver optimizations for root signature descrip
 
 ## Descriptor Table Bind Types
 
-The enum [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_range_type) defines the types of descriptors that can be referenced as part of a descriptor table layout definition.
+The enum [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) defines the types of descriptors that can be referenced as part of a descriptor table layout definition.
 
 It is a range so that, for example if part of a descriptor table a descriptor table has 100 SRVs, that range can be declared in one entry rather than 100. So a descriptor table definition is a collection of ranges.
 
@@ -45,15 +46,15 @@ typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
 
 ## Descriptor Range
 
-The [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range) structure defines a range of descriptors of a given type (such as SRVs) within a descriptor table.
+The [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range) structure defines a range of descriptors of a given type (such as SRVs) within a descriptor table.
 
-The `D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND` \#define can typically be used for the `OffsetInDescriptorsFromTableStart` parameter of [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_range). This means append the descriptor range being defined after the previous one in the descriptor table. If the application wants to alias descriptors or for some reason wants to skip slots, it can set `OffsetInDescriptorsFromTableStart` to whatever offset is desired. Defining overlapping ranges of different types is invalid.
+The `D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND` \#define can typically be used for the `OffsetInDescriptorsFromTableStart` parameter of [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range). This means append the descriptor range being defined after the previous one in the descriptor table. If the application wants to alias descriptors or for some reason wants to skip slots, it can set `OffsetInDescriptorsFromTableStart` to whatever offset is desired. Defining overlapping ranges of different types is invalid.
 
-The set of shader registers specified by the combination of `RangeType`, `NumDescriptors`, `BaseShaderRegister`, and `RegisterSpace` cannot conflict or overlap across any declarations in a root signature that have common [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility) (refer to the shader visibility section below).
+The set of shader registers specified by the combination of `RangeType`, `NumDescriptors`, `BaseShaderRegister`, and `RegisterSpace` cannot conflict or overlap across any declarations in a root signature that have common [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) (refer to the shader visibility section below).
 
 ## Descriptor Table Layout
 
-The [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor_table) structure declares the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap. Samplers are not allowed in the same descriptor table as CBV/UAV/SRVs.
+The [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure declares the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap. Samplers are not allowed in the same descriptor table as CBV/UAV/SRVs.
 
 This struct is used when the root signature slot type is set to `D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE`.
 
@@ -63,19 +64,19 @@ To set a compute descriptor table, use [**ID3D12GraphicsCommandList::SetComputeR
 
 ## Root Constants
 
-The [**D3D12\_ROOT\_CONSTANTS**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_constants) structure declares constants inline in the root signature that appear in shaders as one constant buffer.
+The [**D3D12\_ROOT\_CONSTANTS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_constants) structure declares constants inline in the root signature that appear in shaders as one constant buffer.
 
 This struct is used when the root signature slot type is set to `D3D12_ROOT_PARAMETER_TYPE_32BIT_CONSTANTS`.
 
 ## Root Descriptor
 
-The [**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_descriptor) structure declares descriptors (that appear in shaders) inline in the root signature.
+The [**D3D12\_ROOT\_DESCRIPTOR**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor) structure declares descriptors (that appear in shaders) inline in the root signature.
 
 This struct is used when the root signature slot type is set to `D3D12_ROOT_PARAMETER_TYPE_CBV`, `D3D12_ROOT_PARAMETER_TYPE_SRV` or `D3D12_ROOT_PARAMETER_TYPE_UAV`.
 
 ## Shader Visibility
 
-The member of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_shader_visibility) enum set into the shader visibility parameter of [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_parameter) determines which shaders see the contents of a given root signature slot. Compute always uses \_ALL (since there is only one active stage). Graphics can choose, but if it uses \_ALL, all shader stages see whatever is bound at the root signature slot.
+The member of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) enum set into the shader visibility parameter of [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter) determines which shaders see the contents of a given root signature slot. Compute always uses \_ALL (since there is only one active stage). Graphics can choose, but if it uses \_ALL, all shader stages see whatever is bound at the root signature slot.
 
 One use of shader visibility is to help with shaders that are authored expecting different bindings per shader stage using an overlapping namespace. For example, a vertex shader may declare:
 
@@ -99,13 +100,13 @@ If a root signature has multiple descriptor tables defined that overlap each oth
 
 ## Root Signature Definition
 
-The [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_signature_desc) structure can contain descriptor tables and inline constants, each slot type defined by the [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_parameter) structure and the enum [**D3D12\_ROOT\_PARAMETER\_TYPE**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_parameter_type).
+The [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc) structure can contain descriptor tables and inline constants, each slot type defined by the [**D3D12\_ROOT\_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter) structure and the enum [**D3D12\_ROOT\_PARAMETER\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_parameter_type).
 
 To initiate a root signature slot, refer to the **SetComputeRoot\*\*\*** and **SetGraphicsRoot\*\*\*** methods of [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist).
 
 Static samplers are described in the root signature using the [**D3D12\_STATIC\_SAMPLER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_static_sampler_desc) structure.
 
-A number of flags limit the access of certain shaders to the root signature, refer to [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/D3D12/ne-d3d12-d3d12_root_signature_flags).
+A number of flags limit the access of certain shaders to the root signature, refer to [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags).
 
 ## Root Signature Data Structure Serialization / Deserialization
 
@@ -113,17 +114,17 @@ The methods described in this section are exported by D3D12Core.dll and provide 
 
 The serialized form is what is passed into the API when creating a root signature. If a shader has been authored with a root signature in it (when that capability is added), then the compiled shader will contain a serialized root signature in it already.
 
-If an application procedurally generates a [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_signature_desc) data structure, it must make the serialized form using [**D3D12SerializeRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-d3d12serializerootsignature). The output of that can be passed into [**ID3D12Device::CreateRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrootsignature).
+If an application procedurally generates a [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc) data structure, it must make the serialized form using [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature). The output of that can be passed into [**ID3D12Device::CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature).
 
-If an application has a serialized root signature already, or has a compiled shader that contains a root signature and wishes to programmatically discover the layout definition (known as "reflection"), [**D3D12CreateRootSignatureDeserializer**](/windows/desktop/api/D3D12/nf-d3d12-d3d12createrootsignaturedeserializer) can be called. This generates an [**ID3D12RootSignatureDeserializer**](/windows/desktop/api/D3D12/nn-d3d12-id3d12rootsignaturedeserializer) interface, which contains a method to return the deserialized [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_root_signature_desc) data structure. The interface owns the lifetime of the deserialized data structure.
+If an application has a serialized root signature already, or has a compiled shader that contains a root signature and wishes to programmatically discover the layout definition (known as "reflection"), [**D3D12CreateRootSignatureDeserializer**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createrootsignaturedeserializer) can be called. This generates an [**ID3D12RootSignatureDeserializer**](/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) interface, which contains a method to return the deserialized [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc) data structure. The interface owns the lifetime of the deserialized data structure.
 
 ## Root Signature Creation API
 
-The [**ID3D12Device::CreateRootSignature**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrootsignature) API takes in a serialized version of a root signature.
+The [**ID3D12Device::CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature) API takes in a serialized version of a root signature.
 
 ## Root Signature in Pipeline State Objects
 
-The methods to create pipeline state ([**ID3D12Device::CreateGraphicsPipelineState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-creategraphicspipelinestate) and [**ID3D12Device::CreateComputePipelineState**](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcomputepipelinestate) ) take an optional [**ID3D12RootSignature**](https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx) interface as an input parameter (stored in a [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc) structure). This will override any root signature already in the shaders.
+The methods to create pipeline state ([**ID3D12Device::CreateGraphicsPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate) and [**ID3D12Device::CreateComputePipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate) ) take an optional [**ID3D12RootSignature**](https://msdn.microsoft.com/library/Dn788714(v=VS.85).aspx) interface as an input parameter (stored in a [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) structure). This will override any root signature already in the shaders.
 
 If a root signature is passed into one of the create pipeline state methods, this root signature is validated against all the shaders in the PSO for compatibility and given to the driver to use with all the shaders. If any of the shaders has a different root signature in it, it gets replaced by the root signature passed in at the API. If a root signature is not passed in, all shaders passed in must have a root signature and they must match – this will be given to the driver. Setting a PSO on a command list or bundle does not change the root signature. That is accomplished by the methods [**SetGraphicsRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootsignature) and [**SetComputeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootsignature). By the time draw(graphics)/dispatch(compute) is invoked, the application must ensure that the current PSO matches the current root signature; otherwise, the behavior is undefined.
 

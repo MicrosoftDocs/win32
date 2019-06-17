@@ -78,7 +78,7 @@ HKEY_LOCAL_MACHINE
                   DoNotCreateSearchConnectors
 ```
 
-If DoNotCreateSearchConnectors is set to 1, then we recommend that you expose the [System.Shell.OmitFromView](https://msdn.microsoft.com/en-us/library/bb787562.aspx) property on each item exposed by the protocol handler, and set the value of this property to **TRUE**. Doing so will prevent the protocol handler items from appearing under the **Start** menu **Files** group.
+If DoNotCreateSearchConnectors is set to 1, then we recommend that you expose the [System.Shell.OmitFromView](https://docs.microsoft.com/windows/desktop/properties/props-system-shell-omitfromview) property on each item exposed by the protocol handler, and set the value of this property to **TRUE**. Doing so will prevent the protocol handler items from appearing under the **Start** menu **Files** group.
 
 If DoNotCreateSearchConnectors is present and set to zero, then Windows Explorer will create a search connector for the protocol handler, and the protocol handler items will be returned in in **Start** menu and Windows Explorer searches.
 
@@ -145,7 +145,7 @@ Because search connectors are files on the user's computer, they can be mistaken
 
 ## Additional Resources
 
--   [IShellItem::GetDisplayName](https://msdn.microsoft.com/en-us/library/bb761140.aspx)
+-   [IShellItem::GetDisplayName](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname)
 -   [SIGDN\_NORMALDISPLAY](https://msdn.microsoft.com/en-us/library/bb762544(vs.85).aspx)
 
 ## Related topics

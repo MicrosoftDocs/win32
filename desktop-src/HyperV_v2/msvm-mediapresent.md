@@ -51,26 +51,26 @@ The **Msvm\_MediaPresent** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_MediaAccessDevice**](https://msdn.microsoft.com/library/aa387901)**
+Data type: **[**CIM\_MediaAccessDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediaaccessdevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The reference to the media access device. This property is inherited from [**CIM\_MediaPresent**](https://msdn.microsoft.com/library/aa387903).
+The reference to the media access device. This property is inherited from [**CIM\_MediaPresent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediapresent).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_StorageExtent**](https://msdn.microsoft.com/library/aa388496)**
+Data type: **[**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The reference to the storage extent accessed with the media access device. This property is inherited from [**CIM\_MediaPresent**](https://msdn.microsoft.com/library/aa387903).
+The reference to the storage extent accessed with the media access device. This property is inherited from [**CIM\_MediaPresent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediapresent).
 
 </dd> <dt>
 
@@ -83,13 +83,13 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the accessed storage extent is fixed and cannot be ejected. The value is **True** for hard disks and **False** otherwise. This property is inherited from [**CIM\_MediaPresent**](https://msdn.microsoft.com/library/aa387903).
+Indicates whether the accessed storage extent is fixed and cannot be ejected. The value is **True** for hard disks and **False** otherwise. This property is inherited from [**CIM\_MediaPresent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediapresent).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699).
+Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -112,7 +112,7 @@ Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering.
 [**CIM\_MediaPresent**](cim-mediapresent.md)
 </dt> <dt>
 
-[**CIM\_MediaPresent**](https://msdn.microsoft.com/library/aa387903)
+[**CIM\_MediaPresent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-mediapresent)
 </dt> <dt>
 
 [Storage Classes](storage-classes.md)

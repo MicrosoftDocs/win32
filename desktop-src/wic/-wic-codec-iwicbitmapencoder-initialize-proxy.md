@@ -49,7 +49,7 @@ Pointer to this [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincode
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034)\***
+Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The output stream.
 

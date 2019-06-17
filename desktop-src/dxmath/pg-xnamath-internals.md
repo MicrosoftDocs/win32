@@ -25,15 +25,15 @@ To enhance portability and optimize data layout, you need to use the appropriate
 
 **For 32-bit Windows**
 
-For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](https://msdn.microsoft.com/en-us/library/ayeb3ayc.aspx) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(VS.71).aspx), which can pass the first three [\_\_m128](https://msdn.microsoft.com/en-us/library/ayeb3ayc.aspx) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(VS.71).aspx) passes remaining arguments via the stack.
+For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(VS.71).aspx), which can pass the first three [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(VS.71).aspx) passes remaining arguments via the stack.
 
-Newer Microsoft Visual Studio compilers support a new calling convention, \_\_vectorcall, which can pass up to six [\_\_m128](https://msdn.microsoft.com/en-us/library/ayeb3ayc.aspx) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)) via *SSE/SSE2* registers if there is sufficient room.
+Newer Microsoft Visual Studio compilers support a new calling convention, \_\_vectorcall, which can pass up to six [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)) via *SSE/SSE2* registers if there is sufficient room.
 
 **For 64-bit editions of Windows**
 
-For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](https://msdn.microsoft.com/en-us/library/ayeb3ayc.aspx) values. The standard is [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(VS.71).aspx), which passes all [\_\_m128](https://msdn.microsoft.com/en-us/library/ayeb3ayc.aspx) values on the stack.
+For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values. The standard is [\_\_fastcall](https://msdn.microsoft.com/en-us/library/6xa169sk(VS.71).aspx), which passes all [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values on the stack.
 
-Newer Visual Studio compilers support the \_\_vectorcall calling convention, which can pass up to six [\_\_m128](https://msdn.microsoft.com/en-us/library/ayeb3ayc.aspx) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)) via *SSE/SSE2* registers if there is sufficient room.
+Newer Visual Studio compilers support the \_\_vectorcall calling convention, which can pass up to six [\_\_m128](https://docs.microsoft.com/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)) via *SSE/SSE2* registers if there is sufficient room.
 
 **For Windows RT**
 
@@ -331,11 +331,11 @@ For more info about platform-specific extensions, see:
 
 <dl>
 
-[DirectXMath: SSE, SSE2, and ARM-NEON](https://blogs.msdn.com/b/chuckw/archive/2012/09/11/directxmath-sse-sse2-and-arm-neon.aspx)  
-[DirectXMath: SSE3 and SSSE3](https://blogs.msdn.com/b/chuckw/archive/2012/09/11/directxmath-sse3-and-ssse3.aspx)  
-[DirectXMath: SSE4.1 and SSE4.2](https://blogs.msdn.com/b/chuckw/archive/2012/09/11/directxmath-sse4-1-and-sse-4-2.aspx)  
-[DirectXMath: AVX](https://blogs.msdn.com/b/chuckw/archive/2012/09/11/directxmath-avx.aspx)  
-[DirectXMath: F16C and FMA](https://blogs.msdn.com/b/chuckw/archive/2012/09/11/directxmath-f16c-and-fma.aspx)  
+[DirectXMath: SSE, SSE2, and ARM-NEON](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-sse-sse2-and-arm-neon/)  
+[DirectXMath: SSE3 and SSSE3](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-sse3-and-ssse3/)  
+[DirectXMath: SSE4.1 and SSE4.2](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-sse4-1-and-sse4-2/)  
+[DirectXMath: AVX](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-avx/)  
+[DirectXMath: F16C and FMA](https://blogs.msdn.microsoft.com/chuckw/2012/09/11/directxmath-f16c-and-fma/)  
 </dl>
 
 ## Related topics

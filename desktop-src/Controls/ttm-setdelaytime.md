@@ -47,7 +47,7 @@ Flag that specifies which time value to set. This parameter can be one of the fo
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) specifies the delay time, in milliseconds. The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) must be zero.
+The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the delay time, in milliseconds. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
 
 </dd> </dl>
 
@@ -57,7 +57,7 @@ The return value for this message is not used.
 
 ## Remarks
 
-The default delay times are based on the double-click time. For the default double-click time of 500 ms, the initial, autopop, and reshow delay times are 500ms, 5000ms, and 100ms respectively. The following code fragment uses the [**GetDoubleClickTime**](https://msdn.microsoft.com/library/windows/desktop/ms646258) function to determine the three delay times for any system.
+The default delay times are based on the double-click time. For the default double-click time of 500 ms, the initial, autopop, and reshow delay times are 500ms, 5000ms, and 100ms respectively. The following code fragment uses the [**GetDoubleClickTime**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime) function to determine the three delay times for any system.
 
 
 ```

@@ -22,7 +22,7 @@ This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-
 
 ## Members
 
-The **LocalComputer** collection inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface but does not have additional members.
+The **LocalComputer** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -129,7 +129,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
  
 
 > [!Note]  
-> COMAdminAuthenticationDefault is mapped to COMAdminAuthenticationConnect when COM calls [**CoInitializeSecurity**](https://msdn.microsoft.com/library/windows/desktop/ms693736). It is recommended that you use the constants in the enumeration and not the numeric values.
+> COMAdminAuthenticationDefault is mapped to COMAdminAuthenticationConnect when COM calls [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). It is recommended that you use the constants in the enumeration and not the numeric values.
 
  
 
@@ -354,7 +354,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 |                |                                                                                                                                                                                                                                                                                                                                                       |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Controls whether the RPC IIS proxy is enabled. The RPC IIS proxy is used in conjunction with IIS to forward calls to the RPC mechanism from IIS and is one of the core pieces of COM Internet Services, which is enabled by setting CISEnabled to True. For more information on RPCProxyEnabled, see [HTTP RPC Security](https://msdn.microsoft.com/library/windows/desktop/aa378642). |
+| Description    | Controls whether the RPC IIS proxy is enabled. The RPC IIS proxy is used in conjunction with IIS to forward calls to the RPC mechanism from IIS and is one of the core pieces of COM Internet Services, which is enabled by setting CISEnabled to True. For more information on RPCProxyEnabled, see [HTTP RPC Security](https://docs.microsoft.com/windows/desktop/Rpc/rpc-over-http-security). |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                             |
 | Type           | Bool                                                                                                                                                                                                                                                                                                                                                  |
 | Default        | False                                                                                                                                                                                                                                                                                                                                                 |
@@ -370,7 +370,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 |                |                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Enforces in DCOM computers that cross-process calls to [**IUnknown::AddRef**](https://msdn.microsoft.com/library/windows/desktop/ms691379) and [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) methods are secured. |
+| Description    | Enforces in DCOM computers that cross-process calls to [**IUnknown::AddRef**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) methods are secured. |
 | Access         | ReadWrite                                                                                                                                                                 |
 | Type           | Bool                                                                                                                                                                      |
 | Default        | False                                                                                                                                                                     |

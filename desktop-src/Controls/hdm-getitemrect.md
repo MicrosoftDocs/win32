@@ -34,7 +34,7 @@ The zero-based index of the header control item for which to retrieve the boundi
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that receives the bounding rectangle information.
+A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle information.
 
 </dd> </dl>
 

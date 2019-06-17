@@ -102,7 +102,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](--event.md). For more information, see [Security Descriptors](https://msdn.microsoft.com/library/windows/desktop/aa379563).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](--event.md). For more information, see [Security Descriptors](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors).
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Access type: Read-only
 
 Unique value that indicates the time an event is generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Time (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -154,7 +154,7 @@ The **\_\_MethodInvocationEvent** class is derived from [**\_\_InstanceOperation
 
 <dl> <dt>
 
-[**\_\_InstanceOperationEvent**](https://msdn.microsoft.com/library/aa394652)
+[**\_\_InstanceOperationEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--instanceoperationevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)

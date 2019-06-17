@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # Int32ColumnValue class
 
-An [Int32](https://msdn.microsoft.com/en-us/library/td2s409d) column value.
+An [Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b)  
+[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int32](https://msdn.microsoft.com/en-us/library/td2s409d)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)\>  
       Microsoft.Isam.Esent.Interop.Int32ColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  

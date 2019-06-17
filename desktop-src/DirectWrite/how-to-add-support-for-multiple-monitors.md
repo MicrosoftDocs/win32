@@ -45,9 +45,9 @@ If the window is located on a new monitor, then you must create rendering parame
 
  
 
-When you have an [**IDWriteRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd371285(v=VS.85).aspx) object, set the rendering parameters for the render target by using the [**ID2DRenderTarget::SetTextRenderingParams**](https://msdn.microsoft.com/library/windows/desktop/dd316898) method.
+When you have an [**IDWriteRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd371285(v=VS.85).aspx) object, set the rendering parameters for the render target by using the [**ID2DRenderTarget::SetTextRenderingParams**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams) method.
 
-Finally, use the [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) function to cause the window to redraw with the new rendering parameters.
+Finally, use the [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function to cause the window to redraw with the new rendering parameters.
 
  
 

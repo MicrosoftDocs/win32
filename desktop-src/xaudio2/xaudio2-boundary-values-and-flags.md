@@ -76,19 +76,19 @@ This flag is not supported on Windows 8 or Windows 10.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="XAUDIO2_VOICE_NOPITCH"></span><span id="xaudio2_voice_nopitch"></span><dl> <dt><strong>XAUDIO2_VOICE_NOPITCH</strong></dt> </dl></td>
-<td style="text-align: left;">Specifies that a source voice will not use pitch shifting, see <a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx"><strong>IXAudio2::CreateSourceVoice</strong></a>.<br/></td>
+<td style="text-align: left;">Specifies that a source voice will not use pitch shifting, see <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2::CreateSourceVoice</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="XAUDIO2_VOICE_NOSRC"></span><span id="xaudio2_voice_nosrc"></span><dl> <dt><strong>XAUDIO2_VOICE_NOSRC</strong></dt> </dl></td>
-<td style="text-align: left;">Specifies that no sample rate conversion is available on a source voice, the voice's outputs must have the same sample rate. See <a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx"><strong>IXAudio2::CreateSourceVoice</strong></a>.<br/></td>
+<td style="text-align: left;">Specifies that no sample rate conversion is available on a source voice, the voice's outputs must have the same sample rate. See <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2::CreateSourceVoice</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="XAUDIO2_VOICE_USEFILTER"></span><span id="xaudio2_voice_usefilter"></span><dl> <dt><strong>XAUDIO2_VOICE_USEFILTER</strong></dt> </dl></td>
-<td style="text-align: left;">Specifies that the filter effect should be available on a voice. See <a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx"><strong>IXAudio2::CreateSourceVoice</strong></a> and <a href="https://msdn.microsoft.com/en-us/library/Ee418608(v=VS.85).aspx"><strong>IXAudio2::CreateSubmixVoice</strong></a>.<br/></td>
+<td style="text-align: left;">Specifies that the filter effect should be available on a voice. See <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2::CreateSourceVoice</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice"><strong>IXAudio2::CreateSubmixVoice</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="XAUDIO2_PLAY_TAILS"></span><span id="xaudio2_play_tails"></span><dl> <dt><strong>XAUDIO2_PLAY_TAILS</strong></dt> </dl></td>
-<td style="text-align: left;">Specifies that a voice should continue emitting effect output after it is stopped. See <a href="https://msdn.microsoft.com/en-us/library/Ee418472(v=VS.85).aspx"><strong>IXAudio2SourceVoice::Stop</strong></a>.<br/></td>
+<td style="text-align: left;">Specifies that a voice should continue emitting effect output after it is stopped. See <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop"><strong>IXAudio2SourceVoice::Stop</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="XAUDIO2_END_OF_STREAM"></span><span id="xaudio2_end_of_stream"></span><dl> <dt><strong>XAUDIO2_END_OF_STREAM</strong></dt> </dl></td>
@@ -108,7 +108,7 @@ This flag is not supported on Windows 8 or Windows 10.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT"></span><span id="xaudio2_no_virtual_audio_client"></span><dl> <dt><strong>XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT</strong></dt> </dl></td>
-<td style="text-align: left;">Specifies that a virtual audio client should not be used. See <a href="https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx"><strong>IXAudio2::CreateMasteringVoice</strong></a>.<br/>
+<td style="text-align: left;">Specifies that a virtual audio client should not be used. See <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice"><strong>IXAudio2::CreateMasteringVoice</strong></a>.<br/>
 <blockquote>
 [!Note]<br />
 On devices in the Mobile device family, a virtual audio client is always used, regardless of whether this flag is used.

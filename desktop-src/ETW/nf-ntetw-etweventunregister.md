@@ -52,7 +52,7 @@ The
 			
 
 Providers can only call this function from their 
-<a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
 ## -parameters

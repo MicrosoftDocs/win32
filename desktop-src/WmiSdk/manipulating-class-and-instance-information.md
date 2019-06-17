@@ -37,7 +37,7 @@ The following table lists the topics that discuss the techniques to retrieve and
 
 ## Manipulating Data Using VBScript
 
-You can use direct access to access the WMI properties of a WMI class or instance directly on an [**SWbemObject**](swbemobject.md), rather than through the property [collection](accessing-a-collection.md) of that object. You can also execute methods on that object in the native style of the programming language rather than using the [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) call. For example, the [**Create**](https://msdn.microsoft.com/library/aa389388) method in [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) had three parameters in Windows 2000 but has four parameters in Windows Server 2003.
+You can use direct access to access the WMI properties of a WMI class or instance directly on an [**SWbemObject**](swbemobject.md), rather than through the property [collection](accessing-a-collection.md) of that object. You can also execute methods on that object in the native style of the programming language rather than using the [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) call. For example, the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method in [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) had three parameters in Windows 2000 but has four parameters in Windows Server 2003.
 
 Using direct access, you can treat WMI properties and methods as if they were automation properties and methods of [**SWbemObject**](swbemobject.md).
 
@@ -79,9 +79,9 @@ valueOfElement = MyDisk.MyArrayProperty(3)
 
 
 
-The following VBScript code example shows how to spawn an instance of the input parameters to the [**Create**](https://msdn.microsoft.com/library/aa389388) method in the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class as an [**SWbemObject**](swbemobject.md), populate the input properties, and then execute the **Create** method using [**SWbemServices.ExecMethod**](swbemservices-execmethod.md).
+The following VBScript code example shows how to spawn an instance of the input parameters to the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method in the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class as an [**SWbemObject**](swbemobject.md), populate the input properties, and then execute the **Create** method using [**SWbemServices.ExecMethod**](swbemservices-execmethod.md).
 
-The [**SWbemObject.Methods\_**](swbemobject-methods-.md) property returns an [**SWbemMethodSet**](swbemmethodset.md) collection of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) methods. The members of the method set are [**SWbemMethod**](swbemmethod.md) objects and [**SWbemMethod.InParameters**](swbemmethod-inparameters.md) returns the input parameters for the [**Create**](https://msdn.microsoft.com/library/aa389388) method. The required *CommandLine* input parameter is set to "calc.exe". The method is then executed by [**SWbemServices.ExecMethod**](swbemservices-execmethod.md), resulting in the launch of a calc.exe process.
+The [**SWbemObject.Methods\_**](swbemobject-methods-.md) property returns an [**SWbemMethodSet**](swbemmethodset.md) collection of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) methods. The members of the method set are [**SWbemMethod**](swbemmethod.md) objects and [**SWbemMethod.InParameters**](swbemmethod-inparameters.md) returns the input parameters for the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method. The required *CommandLine* input parameter is set to "calc.exe". The method is then executed by [**SWbemServices.ExecMethod**](swbemservices-execmethod.md), resulting in the launch of a calc.exe process.
 
 
 ```VB

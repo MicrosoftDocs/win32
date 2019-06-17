@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek)  
+    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
     
     Column data for the current key column of the current index.
 

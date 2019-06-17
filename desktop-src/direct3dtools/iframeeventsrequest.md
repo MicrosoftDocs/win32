@@ -26,7 +26,7 @@ Request for returning the list of events in a frame.
 
 ## Members
 
-The **IFrameEventsRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IFrameEventsRequest** also has these types of members:
+The **IFrameEventsRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IFrameEventsRequest** interface inherits from the [**IUnknown**](https://m
 
 The **IFrameEventsRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422676"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get specified information about a single specified frame.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422677"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get information about what columns (fields) this frame events request type supports.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframeeventsrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get specified information about a single specified frame.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframeeventsrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get information about what columns (fields) this frame events request type supports.</p></td></tr></tbody></table>
 
  
 

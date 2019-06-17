@@ -58,7 +58,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 If *pRegionScans* is passed as **NULL**, the **GetRegionScans** method returns **S\_OK** and the number of rectangles is returned in *pulCount*.
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**pRegionScans* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**pRegionScans* when you no longer need the information.
 
  
 

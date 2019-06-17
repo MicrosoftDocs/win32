@@ -95,7 +95,7 @@ Graphics Interchange Format (GIF). The file extension for this format is .gif.
 
 Windows Media Photo format (WMP). This format is also known as HD Photo and JPEG XR. The file extensions for this format are .hdp, .jxr, and .wdp.
 
-To work properly, **D3DX11\_IFF\_WMP** requires that you initialize COM. Therefore, call [**CoInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms678543) or [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) in your application before you call D3DX.
+To work properly, **D3DX11\_IFF\_WMP** requires that you initialize COM. Therefore, call [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) in your application before you call D3DX.
 
 </dd> <dt>
 

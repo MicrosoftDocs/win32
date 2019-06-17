@@ -19,7 +19,7 @@ api_location:
 
 # SWbemDateTime object
 
-The **SWbemDateTime** object is a helper object to parse and set Common Information Model (CIM) [datetime](datetime.md) values. It plays a role similar to [**SWbemObjectPath**](swbemobjectpath.md), which provides assistance to format and interpret object paths. You can use the VBScript [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) call to create the **SWbemDateTime** object.
+The **SWbemDateTime** object is a helper object to parse and set Common Information Model (CIM) [datetime](datetime.md) values. It plays a role similar to [**SWbemObjectPath**](swbemobjectpath.md), which provides assistance to format and interpret object paths. You can use the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call to create the **SWbemDateTime** object.
 
 An **SWbemDateTime** object can be initialized from and formatted in either **VT\_DATE** or **FILETIME** values using methods on the object. Using properties of the object, the value can be parsed into component year, month, day, hour, minutes, seconds, or microseconds. The **SWbemDateTime** object can be formatted into either local or Coordinated Universal Time (UTC) values. For more information, see [Date and Time Format](date-and-time-format.md).
 
@@ -92,7 +92,7 @@ For example, if [**SWbemDateTime.DaySpecified**](swbemdatetime-dayspecified.md) 
 
 ## Examples
 
-The following script code example shows how to use an **SWbemDateTime** object to parse a datetime property value read from the WMI repository, the **InstallDate** property in [**Win32\_OperatingSystem**](https://msdn.microsoft.com/library/aa394239).
+The following script code example shows how to use an **SWbemDateTime** object to parse a datetime property value read from the WMI repository, the **InstallDate** property in [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem).
 
 
 ```VB

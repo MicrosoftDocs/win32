@@ -21,7 +21,7 @@ Contains a collection of objects that implement the [**IAnalysisWarning**](ianal
 
 ## Members
 
-The **IAnalysisWarnings** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **IAnalysisWarnings** also has these types of members:
+The **IAnalysisWarnings** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisWarnings** also has these types of members:
 
 -   [Methods](#methods)
 

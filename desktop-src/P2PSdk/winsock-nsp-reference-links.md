@@ -14,22 +14,22 @@ This topic provides you with useful links to topics about the Windows Sockets Fu
 
 The following list identifies links to topics about the Windows Sockets Functions:
 
--   [**WSACleanup**](https://msdn.microsoft.com/library/windows/desktop/ms741549)
--   [**WSAGetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms741580)
--   [**WSANSPIoctl**](https://msdn.microsoft.com/library/windows/desktop/ms741658)
--   [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633)
--   [**WSALookupServiceEnd**](https://msdn.microsoft.com/library/windows/desktop/ms741637)
--   [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641)
--   [**WSASetService**](https://msdn.microsoft.com/library/windows/desktop/ms742211)
--   [**WSAStartup**](https://msdn.microsoft.com/library/windows/desktop/ms742213)
+-   [**WSACleanup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup)
+-   [**WSAGetLastError**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
+-   [**WSANSPIoctl**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsanspioctl)
+-   [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)
+-   [**WSALookupServiceEnd**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)
+-   [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)
+-   [**WSASetService**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea)
+-   [**WSAStartup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup)
 
  
 
 The following list identifies links to topics about the Windows Sockets Structures:
 
--   [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551)
--   [**WSACOMPLETION**](https://msdn.microsoft.com/library/windows/desktop/ms741553)
--   [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679)
+-   [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob)
+-   [**WSACOMPLETION**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsacompletion)
+-   [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw)
 
  
 

@@ -16,7 +16,7 @@ This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 M
 
 ## Members
 
-The **ITAudioDeviceControl** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. **ITAudioDeviceControl** also has these types of members:
+The **ITAudioDeviceControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITAudioDeviceControl** also has these types of members:
 
 -   [Methods](#methods)
 

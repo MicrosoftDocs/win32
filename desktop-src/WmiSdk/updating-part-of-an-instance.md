@@ -47,7 +47,7 @@ The following procedure describes how to request a partial-instance update using
 
 **To request a partial-instance update using C#**
 
-1.  Create a new [ManagementObject](https://msdn.microsoft.com/library/system.management.managementobject.aspx) object that represents the specific instance to update.
+1.  Create a new [ManagementObject](https://docs.microsoft.com/dotnet/api/system.management.managementobject?redirectedfrom=MSDN) object that represents the specific instance to update.
 
     ```PowerShell
     using System.Management;
@@ -57,7 +57,7 @@ The following procedure describes how to request a partial-instance update using
 
     
 
-2.  Set the property value with a call to [ManagementObject.SetPropertyValue](https://msdn.microsoft.com/library/system.management.managementbaseobject.setpropertyvalue.aspx).
+2.  Set the property value with a call to [ManagementObject.SetPropertyValue](https://docs.microsoft.com/dotnet/api/system.management.managementbaseobject.setpropertyvalue?redirectedfrom=MSDN#System_Management_ManagementBaseObject_SetPropertyValue_System_String_System_Object_).
 
     ```CSharp
     myDisk.SetPropertyValue("VolumeName", "OSDisk");
@@ -137,7 +137,7 @@ The following procedure describes how to request a partial-instance update using
     | Named value                   | Description                                                                                                                                                                                                                                   |
     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | "\_\_PUT\_EXT\_STRICT\_NULLS" | **VT\_BOOL** set to **VARIANT\_TRUE**. Indicates that the client has intentionally set properties to **VT\_NULL** and expects the write operation to succeed. If the provider cannot set the values to **NULL**, an error should be reported. |
-    | "\_\_PUT\_EXT\_PROPERTIES"    | [**SAFEARRAY**](https://msdn.microsoft.com/library/windows/desktop/ms221482) of strings containing a list of property names to be updated. May be used alone or in combination with "\_\_PUT\_EXT\_PROPERTIES". The values are in the instance being written.                           |
+    | "\_\_PUT\_EXT\_PROPERTIES"    | [**SAFEARRAY**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray) of strings containing a list of property names to be updated. May be used alone or in combination with "\_\_PUT\_EXT\_PROPERTIES". The values are in the instance being written.                           |
     | "\_\_PUT\_EXT\_ATOMIC"        | **VT\_BOOL** set to **VARIANT\_TRUE**. Indicates that all updates must succeed simultaneously (atomic semantics) or the provider must revert back. There can be no partial success. May be used alone or in combination with other flags.     |
 
     

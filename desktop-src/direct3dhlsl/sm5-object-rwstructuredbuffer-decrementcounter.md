@@ -38,7 +38,7 @@ The post-decremented counter value.
 
 ## Remarks
 
-The bound unordered access view must have [**D3D11\_BUFFER\_UAV\_FLAG\_COUNTER**](https://msdn.microsoft.com/library/windows/desktop/ff476096) set during creationfor this method to work.
+The bound unordered access view must have [**D3D11\_BUFFER\_UAV\_FLAG\_COUNTER**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag) set during creationfor this method to work.
 
 This function is supported for the following types of shaders:
 

@@ -111,7 +111,7 @@ Name of the specific monitor instance.
 [**WmiMonitorBrightness**](wmimonitorbrightness.md)
 </dt> <dt>
 
-[Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
+[Receiving a WMI Event](https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-a-wmi-event)
 </dt> </dl>
 
  

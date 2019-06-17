@@ -61,7 +61,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) (Antecedent)
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (Antecedent)
 </dt> </dl>
 
 A [**CIM\_System**](cim-system.md) that describes the hosting system.
@@ -77,7 +77,7 @@ Data type: **CIM\_BootService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Dependent")
+Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_BootService**](cim-bootservice.md) that describes the boot service hosted on the system.

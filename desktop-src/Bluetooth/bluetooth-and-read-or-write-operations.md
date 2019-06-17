@@ -10,25 +10,25 @@ ms.date: 05/31/2018
 
 Bluetooth is capable of performing all read and write operations available with Windows Sockets that are currently supported with other address families.
 
-For more information about read and write operations, see [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673).
+For more information about read and write operations, see [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2).
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
+[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**recv**](https://msdn.microsoft.com/library/windows/desktop/ms740121)
+[**recv**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv)
 </dt> <dt>
 
-[**recvfrom**](https://msdn.microsoft.com/library/windows/desktop/ms740120)
+[**recvfrom**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom)
 </dt> <dt>
 
-[**send**](https://msdn.microsoft.com/library/windows/desktop/ms740149)
+[**send**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send)
 </dt> <dt>
 
-[**sendto**](https://msdn.microsoft.com/library/windows/desktop/ms740148)
+[**sendto**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto)
 </dt> </dl>
 
  

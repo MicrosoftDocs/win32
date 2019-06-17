@@ -47,7 +47,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-h
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
+[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  

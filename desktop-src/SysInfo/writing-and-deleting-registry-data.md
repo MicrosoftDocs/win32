@@ -14,7 +14,7 @@ To delete a value from a key, an application can use the [**RegDeleteValue**](/w
 
 It is not possible to lock a registry key during a write operation to synchronize access to the data. However, you can control access to a registry key using security attributes. For more information, see [Registry Key Security and Access Rights](registry-key-security-and-access-rights.md).
 
-More than one registry operation can be performed within a single transaction. To associate a registry key with a transaction, an application can use the [**RegCreateKeyTransacted**](/windows/desktop/api/Winreg/nf-winreg-regcreatekeytransacteda) or [**RegOpenKeyTransacted**](/windows/desktop/api/Winreg/nf-winreg-regopenkeytransacteda) function. For more information about transactions, see [Kernel Transaction Manager](https://msdn.microsoft.com/library/windows/desktop/bb986748).
+More than one registry operation can be performed within a single transaction. To associate a registry key with a transaction, an application can use the [**RegCreateKeyTransacted**](/windows/desktop/api/Winreg/nf-winreg-regcreatekeytransacteda) or [**RegOpenKeyTransacted**](/windows/desktop/api/Winreg/nf-winreg-regopenkeytransacteda) function. For more information about transactions, see [Kernel Transaction Manager](https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal).
 
  
 

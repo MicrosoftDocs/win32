@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # DirectX Media Objects
 
 > [!Note]  
-> DMOs have been superseded by [Media Foundation Transforms](https://msdn.microsoft.com/library/windows/desktop/ms703138) (MFTs). The DMO interfaces are still supported. However, if you are writing a custom codec or audio/video processing plug-in, you should consider implementing it as an MFT.
+> DMOs have been superseded by [Media Foundation Transforms](https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms) (MFTs). The DMO interfaces are still supported. However, if you are writing a custom codec or audio/video processing plug-in, you should consider implementing it as an MFT.
 
  
 

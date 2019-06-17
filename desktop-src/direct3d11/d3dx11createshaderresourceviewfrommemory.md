@@ -67,7 +67,7 @@ A pointer to the device (see [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**LPCVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to the file in memory that contains the shader-resource view.
 
@@ -76,7 +76,7 @@ Pointer to the file in memory that contains the shader-resource view.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Size of the file in memory.
 

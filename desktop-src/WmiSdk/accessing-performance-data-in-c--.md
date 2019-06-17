@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Accessing Performance Data in C++
 
-The WMI high-performance API is a series of interfaces that obtain data from [Performance Counter Classes](https://msdn.microsoft.com/library/aa392738). These interfaces require use of a [*refresher*](gloss-r.md) object to increase the sampling rate. For more information about using the refresher object in scripting, see [Accessing Performance Data in Script](accessing-performance-data-in-script.md) and [WMI Tasks: Performance Monitoring](wmi-tasks--performance-monitoring.md).
+The WMI high-performance API is a series of interfaces that obtain data from [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes). These interfaces require use of a [*refresher*](gloss-r.md) object to increase the sampling rate. For more information about using the refresher object in scripting, see [Accessing Performance Data in Script](accessing-performance-data-in-script.md) and [WMI Tasks: Performance Monitoring](wmi-tasks--performance-monitoring.md).
 
 The following sections are discussed in this topic:
 
@@ -375,7 +375,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
 
 <dl> <dt>
 
-[Performance Counter Classes](https://msdn.microsoft.com/library/aa392738)
+[Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes)
 </dt> <dt>
 
 [Accessing Performance Data in Script](accessing-performance-data-in-script.md)

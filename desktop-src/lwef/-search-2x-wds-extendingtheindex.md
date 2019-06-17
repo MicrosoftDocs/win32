@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).
 
-WDS can be extended to index the contents of new file types and data stores. Currently, WDS 2.x contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)and protocol handler technology as SharePoint Services. If you already have filter implementations installed for your new file types, WDS can use the existing filter interfaces to index this data.
+WDS can be extended to index the contents of new file types and data stores. Currently, WDS 2.x contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)and protocol handler technology as SharePoint Services. If you already have filter implementations installed for your new file types, WDS can use the existing filter interfaces to index this data.
 
-WDS 2.x add-ins enable the index to traverse and parse new data and data structures for information to add to the searchable catalog. These add-ins can also extend the Windows Shell to associate icons and context-menu handlers with the new file types and data stores. To include new file types in the WDS catalog, an add-in must implement the [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface. To include new data stores, an add-in must be a protocol handler. If the new data store includes embedded files or new file types itself, you will also need to write an appropriate filter as well.
+WDS 2.x add-ins enable the index to traverse and parse new data and data structures for information to add to the searchable catalog. These add-ins can also extend the Windows Shell to associate icons and context-menu handlers with the new file types and data stores. To include new file types in the WDS catalog, an add-in must implement the [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface. To include new data stores, an add-in must be a protocol handler. If the new data store includes embedded files or new file types itself, you will also need to write an appropriate filter as well.
 
 > [!Note]
 >
@@ -26,7 +26,7 @@ WDS 2.x add-ins enable the index to traverse and parse new data and data structu
 
 Add-ins can extend WDS to index new or proprietary file types and to associate each new file type with a file-specific icon or context menu. To do this, you can build and register an add-in that:
 
-1.  Implements an [**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)interface for each file type so WDS can access and index the file type's text and metadata.
+1.  Implements an [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface for each file type so WDS can access and index the file type's text and metadata.
 2.  Implements the **IExtractIcon** and **IContextMenu** interfaces to add icons and context menus for greater integration and usability.
 
 For a discussion on implementing filters, see [Developing IFilter Add-ins](-search-2x-wds-ifilteraddins.md).
@@ -67,7 +67,7 @@ Installation of an add-in should follow the following guidelines:
 **Other Resources**
 </dt> <dt>
 
-[**IFilter**](https://msdn.microsoft.com/library/windows/desktop/bb266451)
+[**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)
 </dt> </dl>
 
  

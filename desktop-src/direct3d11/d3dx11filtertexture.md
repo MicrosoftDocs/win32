@@ -70,7 +70,7 @@ The texture object to be filtered. See [**ID3D11Resource**](/windows/desktop/api
 *SrcLevel* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 The mipmap level whose data is used to generate the rest of the mipmap chain.
 
@@ -79,7 +79,7 @@ The mipmap level whose data is used to generate the rest of the mipmap chain.
 *MipFilter* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
+Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
 Flags controlling how each miplevel is filtered (or D3DX11\_DEFAULT for D3DX11\_FILTER\_LINEAR). See [**D3DX11\_FILTER\_FLAG**](d3dx11-filter-flag.md).
 

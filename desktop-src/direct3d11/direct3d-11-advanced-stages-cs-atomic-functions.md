@@ -10,15 +10,15 @@ ms.date: 05/31/2018
 
 To access a new resource type or shared memory, use an interlocked intrinsic function. Interlocked functions are guaranteed to operate atomically. That is, they are guaranteed to occur in the order programmed. This section lists the atomic functions.
 
--   [**InterlockedAdd**](https://msdn.microsoft.com/library/windows/desktop/ff471406)
--   [**InterlockedMin**](https://msdn.microsoft.com/library/windows/desktop/ff471413)
--   [**InterlockedMax**](https://msdn.microsoft.com/library/windows/desktop/ff471412)
--   [**InterlockedOr**](https://msdn.microsoft.com/library/windows/desktop/ff471414)
--   [**InterlockedAnd**](https://msdn.microsoft.com/library/windows/desktop/ff471407)
--   [**InterlockedXor**](https://msdn.microsoft.com/library/windows/desktop/ff471415)
--   [**InterlockedCompareStore**](https://msdn.microsoft.com/library/windows/desktop/ff471410)
--   [**InterlockedCompareExchange**](https://msdn.microsoft.com/library/windows/desktop/ff471409)
--   [**InterlockedExchange**](https://msdn.microsoft.com/library/windows/desktop/ff471411)
+-   [**InterlockedAdd**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedadd)
+-   [**InterlockedMin**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedmin)
+-   [**InterlockedMax**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedmax)
+-   [**InterlockedOr**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedor)
+-   [**InterlockedAnd**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedand)
+-   [**InterlockedXor**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedxor)
+-   [**InterlockedCompareStore**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedcomparestore)
+-   [**InterlockedCompareExchange**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedcompareexchange)
+-   [**InterlockedExchange**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/interlockedexchange)
 
 ## Related topics
 

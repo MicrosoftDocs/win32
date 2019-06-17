@@ -49,21 +49,21 @@ A handle to the thread.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
-If this function cannot find a request to cancel, the return value is 0 (zero), and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_NOT\_FOUND**.
+If this function cannot find a request to cancel, the return value is 0 (zero), and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_NOT\_FOUND**.
 
 ## Remarks
 
-The caller must have the [THREAD\_TERMINATE](https://msdn.microsoft.com/library/windows/desktop/ms686769) access right.
+The caller must have the [THREAD\_TERMINATE](https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights) access right.
 
 If there are any pending I/O operations in progress for the specified thread, the **CancelSynchronousIo** function marks them for cancellation. Most types of operations can be canceled immediately; other operations can continue toward completion before they are actually canceled and the caller is notified. The **CancelSynchronousIo** function does not wait for all canceled operations to complete. For more information, see [I/O Completion/Cancellation Guidelines](https://go.microsoft.com/fwlink/p/?linkid=85346).
 
 The operation being canceled is completed with one of three statuses; you must check the completion status to determine the completion state. The three statuses are:
 
 -   **The operation completed normally.** This can occur even if the operation was canceled, because the cancel request might not have been submitted in time to cancel the operation.
--   **The operation was canceled.** The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns **ERROR\_OPERATION\_ABORTED**.
--   **The operation failed with another error.** The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns the relevant error code.
+-   **The operation was canceled.** The [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns **ERROR\_OPERATION\_ABORTED**.
+-   **The operation failed with another error.** The [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns the relevant error code.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

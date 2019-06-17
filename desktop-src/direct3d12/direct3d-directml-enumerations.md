@@ -1,6 +1,7 @@
 ---
 title: DirectML enumerations
 description: The following enumerations are declared in DirectML.h.
+ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/10/2019
 ms.custom: 19H1

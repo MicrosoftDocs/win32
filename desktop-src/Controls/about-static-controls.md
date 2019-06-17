@@ -50,15 +50,15 @@ A text static control displays text in a rectangle in one of five styles:
 
 These styles are defined by the constants SS\_LEFTNOWORDWRAP, SS\_LEFT, SS\_CENTER, SS\_RIGHT, and SS\_SIMPLE, respectively. The system rearranges the text in these controls in predefined ways, except for "simple" text, which is not rearranged.
 
-An application can change the text in a text static control at any time by using the [**SetWindowText**](https://msdn.microsoft.com/library/windows/desktop/ms633546) function or the [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644) message.
+An application can change the text in a text static control at any time by using the [**SetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta) function or the [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) message.
 
-The system displays as much text as it can in the static control and clips whatever does not fit. To calculate an appropriate size for the control, retrieve the font metrics for the text. For more information about fonts and font metrics, see [Fonts and Text](https://msdn.microsoft.com/library/windows/desktop/dd144819).
+The system displays as much text as it can in the static control and clips whatever does not fit. To calculate an appropriate size for the control, retrieve the font metrics for the text. For more information about fonts and font metrics, see [Fonts and Text](https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text).
 
 By default, the window text for a static control, as for other controls, can contain an ampersand that defines the following character as the shortcut key for the control (or, in the case of most static controls, for the control that it labels, which is the next control in the tab order). If you wish to display ampersands in the text rather than using them to define shortcuts, include the SS\_NOPREFIX style.
 
 ### Image Static Control
 
-An image static control can display bitmaps, icons (including animated icons), or enhanced metafiles. The type of graphic that a particular static control displays depends on the control's style: SS\_BITMAP, SS\_ICON, or SS\_ENHMETAFILE. An application specifies the style when it creates the control and also specifies a handle to the bitmap, icon, or metafile for the control to display. After the control is created, an application can associate a different graphic with the control by sending it an [**STM\_SETIMAGE**](stm-setimage.md) message, specifying a handle to the new graphic object. An application can retrieve a handle to the graphic object currently associated with a static control by sending it an [**STM\_GETIMAGE**](stm-getimage.md) message. An application sends messages to a static control by using the [**SendDlgItemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms645515) function.
+An image static control can display bitmaps, icons (including animated icons), or enhanced metafiles. The type of graphic that a particular static control displays depends on the control's style: SS\_BITMAP, SS\_ICON, or SS\_ENHMETAFILE. An application specifies the style when it creates the control and also specifies a handle to the bitmap, icon, or metafile for the control to display. After the control is created, an application can associate a different graphic with the control by sending it an [**STM\_SETIMAGE**](stm-setimage.md) message, specifying a handle to the new graphic object. An application can retrieve a handle to the graphic object currently associated with a static control by sending it an [**STM\_GETIMAGE**](stm-getimage.md) message. An application sends messages to a static control by using the [**SendDlgItemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea) function.
 
 ### Owner-Drawn Static Control
 
@@ -72,28 +72,28 @@ The window procedure for the predefined static control window class performs def
 
 | Message                                                | Default action                                                                                                                              |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619)                     | Loads the graphic object and sizes the window to the object's size, for graphic static controls. Takes no action for other static controls. |
-| [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620)                   | Frees and destroys any graphic object, for graphic static controls. Takes no action for other static controls.                              |
-| [**WM\_ENABLE**](https://msdn.microsoft.com/library/windows/desktop/ms632621)                     | Repaints visible static controls.                                                                                                           |
-| [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/windows/desktop/ms648055)             | Returns **TRUE**, indicating the control erases the background.                                                                             |
-| [**WM\_GETDLGCODE**](https://msdn.microsoft.com/library/windows/desktop/ms645425)             | Returns DLGC\_STATIC.                                                                                                                       |
-| [**WM\_GETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632624)                   | Returns a handle to the font for text static controls.                                                                                      |
-| [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627)                   | Returns the number of characters copied.                                                                                                    |
-| [**WM\_GETTEXTLENGTH**](https://msdn.microsoft.com/library/windows/desktop/ms632628)       | Returns the length, in characters, of the text for a text static control.                                                                   |
-| [**WM\_LBUTTONDBLCLK**](https://msdn.microsoft.com/library/windows/desktop/ms645606)     | Sends the parent window an [STN\_DBLCLK](stn-dblclk.md) notification code if the control style is SS\_NOTIFY.                              |
-| [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607)         | Sends the parent window an [STN\_CLICKED](stn-clicked.md) notification code if the control style is SS\_NOTIFY.                            |
-| [**WM\_NCLBUTTONDBLCLK**](https://msdn.microsoft.com/library/windows/desktop/ms645619) | Sends the parent window an [STN\_DBLCLK](stn-dblclk.md) notification code if the control style is SS\_NOTIFY.                              |
-| [**WM\_NCLBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645620)     | Sends the parent window an [STN\_CLICKED](stn-clicked.md) notification code if the control style is SS\_NOTIFY.                            |
-| [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618)             | Returns HTCLIENT if the control style is SS\_NOTIFY; otherwise, returns HTTRANSPARENT.                                                      |
-| [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213)                          | Repaints the control.                                                                                                                       |
-| [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642)                   | Sets the font and repaints for text static controls.                                                                                        |
-| [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644)                   | Sets the text and repaints for text static controls.                                                                                        |
+| [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create)                     | Loads the graphic object and sizes the window to the object's size, for graphic static controls. Takes no action for other static controls. |
+| [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy)                   | Frees and destroys any graphic object, for graphic static controls. Takes no action for other static controls.                              |
+| [**WM\_ENABLE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-enable)                     | Repaints visible static controls.                                                                                                           |
+| [**WM\_ERASEBKGND**](https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd)             | Returns **TRUE**, indicating the control erases the background.                                                                             |
+| [**WM\_GETDLGCODE**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-getdlgcode)             | Returns DLGC\_STATIC.                                                                                                                       |
+| [**WM\_GETFONT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-getfont)                   | Returns a handle to the font for text static controls.                                                                                      |
+| [**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)                   | Returns the number of characters copied.                                                                                                    |
+| [**WM\_GETTEXTLENGTH**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettextlength)       | Returns the length, in characters, of the text for a text static control.                                                                   |
+| [**WM\_LBUTTONDBLCLK**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk)     | Sends the parent window an [STN\_DBLCLK](stn-dblclk.md) notification code if the control style is SS\_NOTIFY.                              |
+| [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown)         | Sends the parent window an [STN\_CLICKED](stn-clicked.md) notification code if the control style is SS\_NOTIFY.                            |
+| [**WM\_NCLBUTTONDBLCLK**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nclbuttondblclk) | Sends the parent window an [STN\_DBLCLK](stn-dblclk.md) notification code if the control style is SS\_NOTIFY.                              |
+| [**WM\_NCLBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nclbuttondown)     | Sends the parent window an [STN\_CLICKED](stn-clicked.md) notification code if the control style is SS\_NOTIFY.                            |
+| [**WM\_NCHITTEST**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest)             | Returns HTCLIENT if the control style is SS\_NOTIFY; otherwise, returns HTTRANSPARENT.                                                      |
+| [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint)                          | Repaints the control.                                                                                                                       |
+| [**WM\_SETFONT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont)                   | Sets the font and repaints for text static controls.                                                                                        |
+| [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)                   | Sets the text and repaints for text static controls.                                                                                        |
 
 
 
  
 
-The predefined window procedure passes all other messages to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) for default processing.
+The predefined window procedure passes all other messages to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) for default processing.
 
  
 

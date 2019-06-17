@@ -15,7 +15,7 @@ The following list identifies a typical sequence of operations that use the HTTP
 -   Register one or more URLs by using the [**HttpAddUrl**](/windows/desktop/api/Http/nf-http-httpaddurl) function.
 -   Receive incoming requests directed to registered URLs by using the [**HttpReceiveHttpRequest**](/windows/desktop/api/Http/nf-http-httpreceivehttprequest) function, and send HTTP responses for these requests by using the [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) function.
 -   (Optional) When sending a response, send an additional entity body by using the [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) function.
--   Perform clean-up operations by using the [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl), [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) and [**HttpTerminate**](/windows/desktop/api/Http/nf-http-httpterminate) functions.
+-   Perform clean-up operations by using the [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl), [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) and [**HttpTerminate**](/windows/desktop/api/Http/nf-http-httpterminate) functions.
 
 In operations that use URLs, note that it is the processed URL contained in the **CookedUrl** member of the [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-_http_request_v1) structure that should be used. Do not the unprocessed URL in the **pRawUrl** member, which is solely for tracking and statistical purposes.
 
@@ -47,7 +47,7 @@ In general, the HTTP Server API hides details of connection management and their
 Applications must clean-up by using the following steps:
 
 -   When the application is not listening or responding to a URL, the URL is removed by using the [**HttpRemoveURL**](/windows/desktop/api/Http/nf-http-httpremoveurl) function.
--   When the application is finished using the request queue, close the request queue handle by using the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.
+-   When the application is finished using the request queue, close the request queue handle by using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.
 -   When the application is finished using the HTTP Server API, call the [**HttpTerminate**](/windows/desktop/api/Http/nf-http-httpterminate) function.
 
  

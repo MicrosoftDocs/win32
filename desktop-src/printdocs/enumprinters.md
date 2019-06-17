@@ -141,7 +141,7 @@ If the function fails, the return value is zero.
 
 ## Remarks
 
-Do not call this method in [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583).
+Do not call this method in [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain).
 
 > [!Note]  
 > This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.
