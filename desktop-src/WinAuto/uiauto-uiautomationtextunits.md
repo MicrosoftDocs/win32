@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# UI Automation Text Units
+# UI Automation text units
 
 This topic describes the text units supported by the Microsoft UI Automation [TextRange](uiauto-implementingtextandtextrange.md) control pattern. UI Automation providers and clients use text units to specify the amount by which to move or change the size of a text range.
 
@@ -26,7 +26,7 @@ This topic describes the text units supported by the Microsoft UI Automation [Te
 -   [Other Potential Ranges](#other-potential-ranges)
 -   [Related topics](#related-topics)
 
-## Text Unit API Elements
+## Text unit API elements
 
 The UI Automation API includes the following methods that require a text unit to be specified:
 
@@ -37,7 +37,7 @@ The UI Automation API includes the following methods that require a text unit to
 -   [**IUIAutomationTextRange::ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-expandtoenclosingunit)
 -   [**IUIAutomationTextRange::MoveEndpointByUnit**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-moveendpointbyunit)
 
-The [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) enumeration defines the text units that are supported by UI Automation text ranges. To specify the text unit, a member of the **TextUnit** enumeration is specified in a call to an [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider) or [**IUIAutomationTextRange**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange) method. The text units, from smallest to largest, are as follows:
+The [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) enumeration defines the text units that are supported by UI Automation text ranges. To specify the text unit, a member of the [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) enumeration is specified in a call to an [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider) or [**IUIAutomationTextRange**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange) method. The text units, from smallest to largest, are as follows:
 
 -   [**TextUnit\_Character**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit)
 -   [**TextUnit\_Format**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit)
@@ -50,6 +50,28 @@ The [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-tex
 If a particular text-based control does not support the specified text unit, the provider should respond by substituting the next larger text unit that is supported by the control. For example, if [**TextUnit\_Paragraph**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) is specified but not supported, the method can substitute [**TextUnit\_Page**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) or [**TextUnit\_Document**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit).
 
 The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak). For more information, see [Uniscribe](https://docs.microsoft.com/windows/desktop/Intl/uniscribe) on the MSDN website.
+
+## Endpoint inclusivity
+
+A text unit endpoint can serve as both a [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint and an [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint for adjacent text ranges of the same type. If the end of one text unit is also the start of another text unit, the range containing the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint does not share any attributes or objects of the adjacent range containing the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint.
+
+For example, a text stream, "Hello **world**", contains two word units with different font weight attributes (normal and bold). In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Hello" and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "**world**" are the same, which results in the following:
+
+- The range of "Hello" does not share the bold attribute of the word unit "world" and does not return the mixed attribute value for the font weight text attribute.
+- The range of "**world**" has a single font weight (bold), and does not share the font weight of the preceding word unit “Hello”.
+
+Here's another example where a text stream contains two word units, one of which is a link: "[Foo]() Bar". In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "[Foo]()" and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
+
+- The link belongs to the text range containing "Foo".
+- The link is a child of the text range "Foo", and is enclosed by the [ITextProvider](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
+- The text range "Bar" has no children and and is enclosed by the [ITextProvider](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
+
+**Additional notes:**
+
+> A degenerate (empty) range at a text unit boundary with a text range of the same type assumes properties of the immediately adjacent text unit.
+>
+> Calling [IUIAutomationTextRange::ExpandToEnclosingUnit](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-expandtoenclosingunit
+) on a degenerate range at a text unit boundary with a text range of the same type, expands the degenerate range to the following text unit.
 
 ## Text Unit Descriptions
 
@@ -97,21 +119,18 @@ The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern 
 
 ## Related topics
 
-<dl> <dt>
+### Reference
 
-**Conceptual**
-</dt> <dt>
+[TextPatternRangeEndpoint](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint)
+
+[ITextRangeProvider::GetChildren](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-getchildren?branch=kbridge-master-textpatternupdates)
+
+
+
+
+
+### Conceptual
 
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
-</dt> <dt>
 
 [Working with Text-based Controls](uiauto-workingwithtextbasedcontrols.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
